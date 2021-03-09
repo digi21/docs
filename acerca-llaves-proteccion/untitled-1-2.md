@@ -15,7 +15,9 @@ Un mes antes de la fecha de expiración de tu soporte técnico, te mostraremos u
 
 A continuación te mostramos cómo comunica Digi3D.NET al usuario que su subscripción de soporte técnico y actualizaciones está a punto de expirar:
 
-Vea también
+![Cuadro de di&#xE1;logo mostrando que el soporte t&#xE9;cnico est&#xE1; a punto de expirar](../.gitbook/assets/soporte-tecnico-a-punto-de-expirar.png)
+
+
 
 ### Programas relacionados con llaves
 
