@@ -32,4 +32,9 @@
     * [Soporte técnico finalizado](acerca-llaves-proteccion/solucion-de-problemas/soporte-tecnico-finalizado.md)
     * [Cada vez que conecto la llave de proteccion en un ordenador tengo que volverla a activar](acerca-llaves-proteccion/solucion-de-problemas/siempre-pide-reactivar.md)
     * [Error 54](acerca-llaves-proteccion/solucion-de-problemas/error-54.md)
+* [Soporte técnico](soporte-tecnico/README.md)
+  * [Creando una cuenta y enviando el primer ticket de soporte técnico](soporte-tecnico/creando-cuenta-soporte-tecnico.md)
+  * [Reglas Soporte Tecnico](soporte-tecnico/reglas-soporte-tecnico.md)
+  * [Adjuntando archivos grandes a un ticket de soporte técnico](soporte-tecnico/adjuntando-archivos-grandes-soporte-tecnico.md)
+  * [Cerrando un ticket de soporte técnico](soporte-tecnico/cerrando-ticket-soporte-tecnico.md)
 
