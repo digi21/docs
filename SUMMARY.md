@@ -184,7 +184,7 @@
           * [REST\_ZOOME](digi3d-net/referencia/ventana-fotogrametrica/ordenes/r/rest-zoome.md)
           * [REST\_ZOOM\_IN](digi3d-net/referencia/ventana-fotogrametrica/ordenes/r/rest-zoomin.md)
           * [REST\_ZOOM\_OUT](digi3d-net/referencia/ventana-fotogrametrica/ordenes/r/rest-zoomout.md)
-          * [ROTACIONES\_CAMARAS](digi3d-net/referencia/ventana-fotogrametrica/ordenes/r/untitled-4.md)
+          * [ROTACIONES\_CAMARAS](digi3d-net/referencia/ventana-fotogrametrica/ordenes/r/rotaciones-camaras.md)
         * [S](digi3d-net/referencia/ventana-fotogrametrica/ordenes/s/README.md)
           * [SALIR\_DIGI3D](digi3d-net/referencia/ventana-fotogrametrica/ordenes/s/salir-digi3d.md)
           * [SINCRONIZAR\_VISTAS](digi3d-net/referencia/ventana-fotogrametrica/ordenes/s/untitled.md)
