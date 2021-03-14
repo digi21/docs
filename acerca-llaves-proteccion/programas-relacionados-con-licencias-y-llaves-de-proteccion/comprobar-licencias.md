@@ -21,3 +21,7 @@ A continuación te mostramos los campos que puede mostrar el programa y la condi
 
 ## Vídeo
 
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Comprobar%20licencias.mp4" %}
+
+
+

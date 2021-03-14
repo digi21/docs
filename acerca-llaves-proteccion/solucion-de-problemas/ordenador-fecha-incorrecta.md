@@ -14,3 +14,5 @@ Tienes que cambiar la fecha y hora del ordenador antes de utilizar cualquiera de
 
 A continuación te mostramos cómo comunica _Digi3D.NET_ esta incidencia:
 
+![Cuadro de di&#xE1;logo indicando que la fecha del ordenador es incorrecta](../../.gitbook/assets/ordenador-con-fecha-incorrecta.png)
+

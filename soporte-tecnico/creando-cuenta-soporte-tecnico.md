@@ -33,3 +33,7 @@ Puedes revisar todos los tickets de soporte técnico que has creado.
 
 ## Vídeo
 
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Portal%20de%20soporte%20tecnico%20Digi21.mp4" %}
+
+
+

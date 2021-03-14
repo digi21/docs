@@ -17,5 +17,7 @@ Puedes comprobar las fechas de expiración de los alquileres que acabas de progr
 
 ## Vídeo
 
-Vea también
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Consolidar%20alquiler.mp4" %}
+
+
 

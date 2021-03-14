@@ -18,5 +18,7 @@ El proceso de alquiler es muy sencillo:
 
 7 días antes de que expire tu período de alquiler te mostraremos cada vez que ejecutes el programa una ventana indicándote el número de días restantes de alquiler para recordarte que te quedan pocos días.
 
-A continuación te mostramos cómo avisa Digi3D.NET de que quedan pocos días de alquiler:
+A continuación te mostramos cómo avisa _Digi3D.NET_ de que quedan pocos días de alquiler:
+
+![](../.gitbook/assets/alquiler-a-punto-de-expirar.png)
 

@@ -9,5 +9,5 @@ Existen dos soluciones a este problema:
 
 A continuación te mostramos cómo comunica Digi3D.NET esta eventualidad:
 
-Vea también
+![Cuadro de di&#xE1;logo indicando que el soporte t&#xE9;cnico est&#xE1; expirado](../../.gitbook/assets/digi3dnet-soporte-tecnico-expirado.png)
 
