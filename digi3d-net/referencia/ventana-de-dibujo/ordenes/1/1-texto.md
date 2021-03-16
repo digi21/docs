@@ -16,12 +16,13 @@ Si no se pasa ningún parámetro, la orden solicitará en la barra de mensajes e
 
 |  |  |  |
 | :--- | :--- | :--- |
-|  | Tipo de orden | Orden interactiva |
+|  | Tipo de orden | [Orden interactiva](../../ordenes-interactivas.md) |
 |  | Repite automáticamente | No |
 |  | Opción del menú donde aparece la orden | Dibujar/Texto con ángulo activo |
 |  | Barra de herramientas en la que aparece la orden | Textos |
 |  | Extensión | DigiNG.OrdenesStandard.dll |
 |  | Variables relacionadas | [AA](../../variables/a/aa.md), [AT](../../variables/a/at.md),[JT](../../variables/j/jt.md) |
+|  | Nombre interno | {FC032D16-31FD-48e5-8646-4481E6F12D1A} |
 
 ## Vídeo
 
