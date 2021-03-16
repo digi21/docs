@@ -1,30 +1,31 @@
 # 1TEXTO
 
-Inserta un sólo texto en el dibujo, independientemente del estado del conmutador [REPITE](REPITE.html).
+Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\) una unica vez independientemente del estado del conmutador [REPITE](../../variables/r/repite.md).
 
 ## Parámetros
 
-El texto se colocará con los parámetros activos correspondientes a:
+`texto`
 
-Ángulo activo \([AA](AA.html)\)
-
-Altura de texto \([AT](AT.html)\)
-
-Código activo \([COD](COD.html)\)
-
-Justificación de texto \([JT](JT.html)\)
+Texto a insertar
 
 ## Observaciones
 
-No se han registrado observaciones para esta orden.
+Si no se pasa ningún parámetro, la orden solicitará en la barra de mensajes el texto a introducir. 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
-| :--- | :--- |
-| Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Dibujar/Texto con ángulo activo |
-| Barra de herramientas en la que aparece la orden | Textos |
-| Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [AA](AA.html), [AT](AT.html), [JT](JT.html), [REPITE](REPITE.html) |
+|  |  |  |
+| :--- | :--- | :--- |
+|  | Tipo de orden | Orden interactiva |
+|  | Repite automáticamente | No |
+|  | Opción del menú donde aparece la orden | Dibujar/Texto con ángulo activo |
+|  | Barra de herramientas en la que aparece la orden | Textos |
+|  | Extensión | DigiNG.OrdenesStandard.dll |
+|  | Variables relacionadas | [AA](../../variables/a/aa.md), [AT](../../variables/a/at.md),[JT](../../variables/j/jt.md) |
+
+## Vídeo
+
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/1TEXTO.mp4" %}
+
+
 
