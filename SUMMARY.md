@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Ayuda de Digi21](README.md)
-* [Acerca de las llaves de protección](untitled.md)
 * [Acerca de las llaves de protección](acerca-llaves-proteccion/README.md)
   * [Tipos de llaves de protección](acerca-llaves-proteccion/tipos-de-llaves-proteccion.md)
   * [Obtener una llave de protección](acerca-llaves-proteccion/obtener-una-llave-de-proteccion/README.md)

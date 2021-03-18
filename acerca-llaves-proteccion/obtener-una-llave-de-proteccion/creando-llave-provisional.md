@@ -18,9 +18,9 @@ Cuando finalices este tutorial, tendrás instalada en tu ordenador una llave de 
 5. Selecciona el archivo **Digi21Demo.v2c** que has descargado en el punto 2 y pulsa el botón **Abrir**.
 6. Pulsa el botón **Apply File**.
 
-Ya tienes tu llave de protección provisional. Esta llave no dispone ni de alquileres ni de compras de ninguno de nuestros programas. Puedes ver su contenido con el programa Comprobar licencias.
+Ya tienes tu llave de protección provisional. Esta llave no dispone ni de alquileres ni de compras de ninguno de nuestros programas. Puedes ver su contenido con el programa [Comprobar licencias](../programas-relacionados-con-licencias-y-llaves-de-proteccion/comprobar-licencias.md).
 
-A continuación tienes que registrar la llave de protección que se acaba de crear en tu panel:
+A continuación, tienes que registrar la llave de protección que se acaba de crear en tu panel:
 
 1. Entra en [Registrar](https://www.digi21.net/MisLlaves/Registrar.cshtml) y sigue las instrucciones que aparecen allí.
 
@@ -32,7 +32,7 @@ Ahora tendrás que asignar una contraseña de activación a tu llave de protecci
 Si dispones de más de una llave de protección, te recomendamos que asignes un alias a cada llave para poderla identificar en tu panel. Para ello:
 
 1. Entra en [Mis llaves](https://www.digi21.net/MisLlaves).
-2. Localiza la llave de protección a la que quieres asignar un alias, rellena el campo _Alias_ y pulsa el botón Cambiar.
+2. Localiza la llave de protección a la que quieres asignar un alias, rellena el campo _Alias_ y pulsa el botón _Cambiar_.
 
 Para comenzar a utilizar el programa puedes hacer una de las siguientes tareas:
 
