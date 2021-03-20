@@ -1,35 +1,42 @@
 # EQUIDISTANCIA
 
-Establece el valor de la [equidistancia]() de curvas de nivel.
+Establece el valor de la equidistancia de curvas de nivel.
 
 ## Parámetros
 
+Esta orden se puede ejecutar con un parámetro o sin parámetros.
+
+#### Con un parámetro
+
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
-| 2 | Distancia entre dos puntos | Número real | Si |
+| 1 | Valor numérico | Valor de equidistancia a asignar | Si |
+|  |  |  |  |
 
-### Ejemplos
+#### Sin parámetros
 
-`EQUIDISTANCIA=5`
+El programa solicitará en la barra de mensajes que introduzcamos el factor de equidistancia. Podemos introducir un valor con el teclado o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos.
 
-Asigna como equidistancia el valor 5
+## Ejemplos
 
-`EQUIDISTANCIA=?`
+Para asignar como equidistancia el valor 5 ejecutaremos el comando:
 
-Muestra el valor actual de la equidistancia
+```text
+EQUIDISTANCIA=5
+```
 
-## Observaciones
+## Vídeo
 
-También se puede emplear para moverse a intervalos fijos en X Y con la orden [FIJAXY](FIJAXY.html).
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/EQUIDISTANCIA.mp4" %}
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real]() |
+| Tipo de variable | [Real](../../../ordenes/variables/variables-reales.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Parámetros de interpolación/Equidistancia |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](REPITE.html) |
+| Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {2E74D834-9A0E-4832-B759-B5C7CE794683} |
 
