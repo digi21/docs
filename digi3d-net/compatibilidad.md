@@ -6,9 +6,9 @@ Digi3D.NET está disponible en versiones de 32 y de 64 bits y es compatible con 
 
 | Sistema operativo | Digi3D.NET 32 bits | Digi3D.NET 64 bits |
 | :--- | :--- | :--- |
-| Windows 7 32 bits. |  |  |
-| Windows 7 64 bits. |  |  |
-| Windows 8 32 bits. |  |  |
+| Windows 7 32 bits. | Si |  |
+| Windows 7 64 bits. | Si |  |
+| Windows 8 32 bits. | Si |  |
 | Windows 8 64 bits. |  |  |
 | Windows 10 32 bits. |  |  |
 | Windows 10 64 bits. |  |  |
