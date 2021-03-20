@@ -1,48 +1,30 @@
 # AUTO\_RATON
 
-Activa o desactiva el autozoom.
+Activa o desactiva el _autozoom_ al utilizar ratón como dispositivo de entrada.
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">N&#xFA;mero de par&#xE1;metro</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-      <th style="text-align:left">Valores</th>
-      <th style="text-align:left">Opcional</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">Modo autom&#xE1;tico</td>
-      <td style="text-align:left">
-        <p>Si no se especifica ning&#xFA;n par&#xE1;metro el valor de la variable
-          booleana cambiar&#xE1; de modo <em>Activado</em> a <em>Desactivado</em> y de <em>Desactivado</em> a <em>Activado</em>.</p>
-        <p><b>0</b>: Para desactivar la variable booleana.</p>
-        <p><b>1</b>: Para activar la variable booleana.</p>
-        <p><b>?</b>: Para consultar el valor de la variable booleana. Aparecer&#xE1;
-          un globo indicando si la orden est&#xE1; activada o desactivada.</p>
-      </td>
-      <td style="text-align:left">No</td>
-    </tr>
-  </tbody>
-</table>
+Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-booleanas.md).
 
 ## Observaciones
 
-Sólo funciona en caso de que el dispositivo de entrada sea el ratón y se esté trabajando en la ventana ortogonal.
+Si está activa, Digi3D.NET captura el ratón y se lo "roba" a Windows.  
+A partir de ese momento, la ventana de dibujo va siguiendo al cursor \(cuando se mueve con el ratón del sistema\) en sus desplazamientos por el dibujo, de manera que es imposible sacar el ratón de la ventana. Para liberarlo, tendremos que desactivar esta opción.
 
-Cuando está activada la variable AUTO\_RATON, la pantalla va siguiendo al cursor en sus desplazamientos por el dibujo, excepto cuadno se registra en modo contínuo. En este caso, la pantalla no se desplaza hasta que se suelta el botón de registro, centrándose en la posición que tenga el cursor en ese momento.
+## Vídeo
+
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/AUTO\_RATON.mp4" %}
+
+
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana]() |
+| Tipo de variable | [Booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Activar el auto seguimiento de cámara para ratón |
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Variables relacionadas | [SOLAPE](../s/solape.md) |
+| Nombre interno | {934B9959-9112-4eef-880C-2C9CB237643D} |
 

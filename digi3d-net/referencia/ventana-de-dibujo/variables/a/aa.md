@@ -18,7 +18,7 @@ Si ejecutamos esta orden sin parámetros, esta solicitará que digitalicemos gr�
 
 El valor del _ángulo activo_, debe introducirse en grados sexagesimales. El origen de los ángulos coincide con el eje positivo de las coordenadas X, y el avance en sentido contrario al de las agujas del reloj.
 
-### Ejemplos
+## Ejemplos
 
 Para asignar como ángulo activo el valor 45º
 
@@ -28,7 +28,7 @@ AA=45
 
 ## Características de la orden
 
-| Tipo de variable | [Variable real](../variables-reales.md) |
+| Tipo de variable | [Variable real](../../../ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Ángulo activo |

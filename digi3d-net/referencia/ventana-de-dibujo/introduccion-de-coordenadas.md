@@ -1,6 +1,6 @@
 # Introducción de coordenadas
 
-La mayoría de [órdenes interactivas](ordenes-interactivas.md) solicitan al usuario que digitalize uno o varios puntos.
+La mayoría de [órdenes interactivas](../ordenes/ordenes-interactivas.md) solicitan al usuario que digitalize uno o varios puntos.
 
 Se pueden digitalizar puntos de las siguientes maneras:
 

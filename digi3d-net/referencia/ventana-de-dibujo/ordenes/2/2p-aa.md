@@ -14,7 +14,7 @@ El rectángulo se dibujará con el [ángulo activo](../../variables/a/aa.md) con
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](../../ordenes-interactivas.md) |
+| Tipo de orden | [Orden interactiva](../../../ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Mas/Rectángulo con dos puntos y ángulo activo |

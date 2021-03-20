@@ -18,7 +18,7 @@ La orden solicitará que se [introduzcan ](../../introduccion-de-coordenadas.md)
 
 |  |  |  |
 | :--- | :--- | :--- |
-|  | Tipo de orden | [Orden interactiva](../../ordenes-interactivas.md) |
+|  | Tipo de orden | [Orden interactiva](../../../ordenes/ordenes-interactivas.md) |
 |  | Repite automáticamente | No |
 |  | Opción del menú donde aparece la orden | Dibujar/Texto con ángulo activo |
 |  | Barra de herramientas en la que aparece la orden | Textos |
