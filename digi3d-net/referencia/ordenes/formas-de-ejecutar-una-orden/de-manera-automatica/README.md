@@ -11,6 +11,7 @@ Las órdenes que se ejecutarán dependerán de si el código activo tiene asigna
 
 * Si el código activo tiene asignadas órdenes, se ejecutarán dichas órdenes al pulsar el botón de Dato.
 * Si el código activo no tiene asignadas órdenes, el programa ejecutará la orden [LINEA ](../../../ventana-de-dibujo/ordenes/l/linea.md)si el código activo es _Lineal_ o _Virtual_ o la orden [PUNTO ](../../../ventana-de-dibujo/ordenes/p/punto.md)si el código activo es de tipo _Puntual_.
+* Si el código activo es el asignado en la orden [COD\_COTAS](../../../ventana-de-dibujo/ordenes/c/cod-cotas.md) se ejecutará de manera automática la orden [COTA](../../../ventana-de-dibujo/ordenes/c/cota.md).
 
 ## Vídeo
 

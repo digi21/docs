@@ -8,7 +8,8 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 
 ## Observaciones
 
-Si está activa, Digi3D.NET captura el ratón y se lo "roba" a Windows.  
+Si está activa, Digi3D.NET captura el ratón y se lo "roba" a Windows.
+
 A partir de ese momento, la ventana de dibujo va siguiendo al cursor \(cuando se mueve con el ratón del sistema\) en sus desplazamientos por el dibujo, de manera que es imposible sacar el ratón de la ventana. Para liberarlo, tendremos que desactivar esta opción.
 
 ## Vídeo

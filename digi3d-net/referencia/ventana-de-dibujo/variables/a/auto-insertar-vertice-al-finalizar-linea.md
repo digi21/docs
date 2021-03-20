@@ -1,6 +1,6 @@
 # AUTO\_INSERTAR\_VERTICE\_INTERSECCION\_AL\_FINALIZAR\_LINEA
 
-Establece si auto insertar vértices en las geometrías que cruzan a la que se está digitalizando-
+Establece si auto insertar vértices en las geometrías que cruzan a la que se está digitalizando.
 
 ## Parámetros
 

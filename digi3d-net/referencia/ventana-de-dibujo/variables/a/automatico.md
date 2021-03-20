@@ -32,7 +32,7 @@ Indica si _Digi3D.NET_ ejecutará automáticamente una orden al digitalizar un p
 
 ## Observaciones
 
-Si digitalizas un punto en la ventana de dibujo cuando _Digi3D.NET_ está en [modo preparado](), y está activa la [variable booleana]() **AUTOMATICO**, el programa ejecuta automáticamente una orden especificada por el usuario, la orden [LINEA](LINEA.html), [PUNTO](PUNTO.html) o la orden [COTA](COTA.html) y envía a esa orden la coordenada del punto que acabamos de diitalizar.
+Si digitalizas un punto en la ventana de dibujo cuando _Digi3D.NET_ está en [modo preparado](), y está activa la [variable booleana]() **AUTOMATICO**, el programa ejecuta automáticamente una orden especificada por el usuario, la orden [LINEA](LINEA.html), [PUNTO](PUNTO.html) o la orden [COTA](COTA.html) y envía a esa orden la coordenada del punto que acabamos de digitalizar.
 
 El criterio para determinar la orden a ejecutar es el siguiente:
 

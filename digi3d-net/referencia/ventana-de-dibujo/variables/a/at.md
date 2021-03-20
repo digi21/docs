@@ -4,6 +4,8 @@ Establece la altura de los textos.
 
 ## Parámetros
 
+Esta orden se puede ejecutar con o sin parámetros.
+
 #### Con parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |

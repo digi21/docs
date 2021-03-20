@@ -1,8 +1,10 @@
 # AA
 
-Establece el valor del _ángulo activo_.
+Establece el valor del _ángulo activo._
 
 ## Parámetros
+
+Esta orden se puede ejecutar con o sin parámetros.
 
 #### Con parámetros
 
@@ -28,7 +30,7 @@ AA=45
 
 ## Características de la orden
 
-| Tipo de variable | [Variable real](../../../ordenes/variables/variables-reales.md) |
+| Tipo de variable | [Real](../../../ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Ángulo activo |
