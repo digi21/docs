@@ -1,6 +1,6 @@
 # AUTOMATICO
 
-Indica si _Digi3D.NET_ ejecutará automáticamente una orden al digitalizar un punto cuando el programa está en modo preparado.
+Indica si _Digi3D.NET_ ejecutará automáticamente una orden al digitalizar un punto cuando el programa está en modo preparado \(si no se está ejecutando ninguna orden\).
 
 ## Parámetros
 
