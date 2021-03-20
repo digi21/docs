@@ -23,7 +23,7 @@ Esta orden se puede ejecutar con un parámetro, con dos parámetros o sin parám
 
 Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes primero la distancia activa y luego la secundaria.
 
-Estas distancias las podemos introducir manualmente \(tecleando el valor y luego pulsando Enter\) o gráficamente en la ventana de dibujo.
+Estas distancias las podemos introducir manualmente \(tecleando el valor y luego pulsando Enter\) o gráficamente en la ventana de dibujo. En caso de hacerlo gráficamente, se asignará la distancia entre los dos puntos digitalizados.
 
 ## Ejemplos
 
@@ -52,4 +52,5 @@ DA=12.45 22.49
 | Barra de herramientas en la que aparece la orden | Parámetros activos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {5481B0E5-F64A-4249-A51E-E9076404F0DA} |
 
