@@ -37,10 +37,10 @@ El análisis se realiza únicamente en las entidades que tengan un código para 
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana]() |
+| Tipo de varible | [Booleana](../variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |
+| Opción del menú donde aparece la orden | _Modelo semántico/Analizar modelo semántico al finalizar entidad_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no está asignada a ninguna barra de herramientas._ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 
