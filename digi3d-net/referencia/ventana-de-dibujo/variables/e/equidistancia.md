@@ -17,6 +17,10 @@ Esta orden se puede ejecutar con un parámetro o sin parámetros.
 
 El programa solicitará en la barra de mensajes que introduzcamos el factor de equidistancia. Podemos introducir un valor con el teclado o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos.
 
+## Observaciones
+
+El valor por defecto de esta variable es el indicado en el campo **Equidistancia** en el grupo de parámetros **Registro** de la pestaña [Archivo de dibujo](../../../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md) al abrir un archivo de dibujo con el cuadro de diálogo [Nuevo proyecto](../../../cuadros-de-dialogo/nuevo-proyecto/).
+
 ## Ejemplos
 
 Para asignar como equidistancia el valor 5 ejecutaremos el comando:
