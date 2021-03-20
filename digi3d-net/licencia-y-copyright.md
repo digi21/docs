@@ -8,7 +8,7 @@ MicroStation® es una marca registrada de Bentley Systems.
 
 Stealth 3D Mouse es una marca registrada de Stealth International, LLC.
 
-Softmouse 3D es una marca registrada de Global Geo Supplies.
+Softmouse3D es una marca registrada de Global Geo Supplies.
 
 Immersion Interface Box es una marca registrada de Immersion Corporation.
 
