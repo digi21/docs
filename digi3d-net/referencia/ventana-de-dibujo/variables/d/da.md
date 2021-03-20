@@ -1,36 +1,51 @@
 # DA
 
-Asigna/consulta el valor de _distancia activa._
+Asigna/consulta el valor de _distancia activa_ y el valor de la _distancia activa secundaria._
 
 ## Parámetros
 
-Si no se especifica ningún parámetro, el programa solicita que se introduzca primero el valor de la distancia principal y a continuación el valor de la distancia secundaria.
+Esta orden se puede ejecutar con un parámetro, con dos parámetros o sin parámetros
+
+#### Con un parámetro
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Distancia activa principal y secundaria | Número real | Si |
+
+#### Con dos parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Distancia activa principal | Número real | Si |
-| 2 | Distancia activa auxiliar | Número real | Si |
+| 2 | Distancia activa secundaria | Número real | Si |
 
-## Observaciones
+#### Sin parámetros
 
-DigiNG almacena internamente el valor de dos distancias activas: una distancia activa principal y una auxiliar.
+Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes primero la distancia activa y luego la secundaria.
 
-Ciertas órdenes utilizan la distancia activa principal, como por ejemplo, la orden [ESCALERA\_DA](ESCALERA_DA.html).  
-Otras ordenes utilizan ambas distancias, como la orden [TRAMAR](TRAMAR.html)
+Estas distancias las podemos introducir manualmente \(tecleando el valor y luego pulsando Enter\) o gráficamente en la ventana de dibujo.
 
-### Ejemplos
+## Ejemplos
 
-`DA=12.45`
+Para asignar como distancia activa principal el valor 12.45 ejecutaremos la orden:
 
-Asigna como distancia activa principal el valor 12.45
+```text
+DA=12.5
+```
 
-`DA=12.45 22.49`
+Para asignar como distancia activa principal el valor 12.45 y como distancia activa secundaria el valor 22.49 ejecutaremos la orden:
 
-Asigna como distancia activa principal el valor 12.45 y como distancia activa secundaria el valor 22.49
+```text
+DA=12.45 22.49
+```
+
+## Vídeo
+
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/DA.mp4" %}
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real]() |
+| Tipo de variable | [Real](../../../ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Distancia activa con dos puntos o Inmediato/Distancia activa con cuatro puntos |

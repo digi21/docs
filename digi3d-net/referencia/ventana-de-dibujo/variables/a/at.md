@@ -28,7 +28,7 @@ AT=10.5
 
 | Tipo de variable | [Real](../../../ordenes/variables/variables-reales.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Altura de textos |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |

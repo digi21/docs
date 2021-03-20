@@ -14,7 +14,7 @@ Si está activa, siempre que se finalice una línea, el programa analizará las 
 
 | Tipo de variable | [Booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Insertar un vértice en el punto de cruce de las líneas/Insertar vértice en las intersecciones automáticamente al finalizar línea |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesdStandard.dll |
