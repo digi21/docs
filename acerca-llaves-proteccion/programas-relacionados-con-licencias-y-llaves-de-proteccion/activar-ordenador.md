@@ -1,14 +1,13 @@
 # Activar ordenador
 
 Este programa activa un ordenador en una determinada llave de protección. Este programa requiere de una conexión a Internet. Si el ordenador que pretendes activar en la llave de protección no dispone de conexión a internet, utiliza el programa [Activar ordenador Offline](activar-ordenador-offline/).  
-
-
+  
 Sigue los siguientes pasos para activar un ordenador en una determinada llave de protección:
 
 1. Pulsa el botón de **Inicio/Programas/Digi21.NET/Licencias/Activar Ordenador**. Aparecerá el programa _Activar Ordenador_.
 2. Verás la página _Activar Ordenador_ que te muestra una presentación del programa. Pulsa el botón **Siguiente**.
 3. Aparecer la página **Selecciona llave de protección**. Puedes comprobar que el botón **Siguiente** está deshabilitado. Se habilitará cuando selecciones una llave de protección de la lista de llaves que aparecen en esta página. Selecciona la llave para la cual quieres comprobar sus licencias y pulsa el botón **Siguiente.**
-4. Transcuridos unos segundos aparecerá la página **Selecciona la fecha máxima de activación**. Aquí debes indicar la fecha máxima para la cual quieres activar el ordenador en el que estás ejecutando el programa **Activar Ordenador** en esa llave de protección.
+4. Transcurridos unos segundos aparecerá la página **Selecciona la fecha máxima de activación**. Aquí debes indicar la fecha máxima para la cual quieres activar el ordenador en el que estás ejecutando el programa **Activar Ordenador** en esa llave de protección.
 
    Si tu llave de protección es por software, debes de tener en cuenta lo siguiente:
 

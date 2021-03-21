@@ -1,9 +1,8 @@
 # Actualización de tu llave de protección Hasp HL
 
-Sigue las siguientes instrucciones si ya dispones de una llave de protección _Hasp HL_ y aún no la has actualizado para utilizar versiones de nuestros programas publicados con fecha posterior a **1 de obtubre de 2014**:  
-
-
-Una vez finalizados los siguientes pasos tendrás instalado el driver de protección y habremos introducido en tu llave de protección los parámetros necesarios para poder ejecutar programas publicados con fecha posterior a 1 de octubre de 2014._._
+Sigue las siguientes instrucciones si ya dispones de una llave de protección _Hasp HL_ y aún no la has actualizado para utilizar versiones de nuestros programas publicados con fecha posterior a **1 de octubre de 2014**:  
+  
+Una vez finalizados los siguientes pasos tendrás instalado el controlador de protección y habremos introducido en tu llave de protección los parámetros necesarios para poder ejecutar programas publicados con fecha posterior a 1 de octubre de 2014._._
 
 Este proceso no elimina información de tu llave, de modo que si en ésta tienes una licencia de Digi3D 2007 por ejemplo, seguirás teniéndola. No se va a modificar nada referente a versiones anteriores, únicamente vamos a preparar la llave de protección para utilizarla con aplicaciones publicadas con fecha posterior a 1 de octubre de 2014.  
 
@@ -17,7 +16,7 @@ Este proceso no elimina información de tu llave, de modo que si en ésta tienes
 
    Los instaladores de estos programas instalan entre otras cosas la **Suite de aplicaciones Licencias**. Si estás utilizando un instalador antiguo que no lo incluya, descarga e instala la suite de aplicaciones Licencias.
 
-2. Haz clic en este enlace: [http://localhost:1947/\_int\_/devices.html](http://localhost:1947/_int_/devices.html). Aparecerá una página web titulada _Safenet Admin Control Center_. En el contenido principal de la página verás una tabla con varias columnas: _Location, Vendor, Key ID, Key Type, Configuration, Version, Sessions_ y _Actions_.
+2. Haz clic en este enlace: [http://localhost:1947/\_int\_/devices.html](http://localhost:1947/_int_/devices.html). Aparecerá una página web titulada _Sentinel Admin Control Center_. En el contenido principal de la página verás una tabla con varias columnas: _Location, Vendor, Key ID, Key Type, Configuration, Version, Sessions_ y _Actions_.
 3. Asegúrate de que tienes conectada la llave de protección en su correspondiente puerto _USB_. La llave tiene un piloto que debe estar encendido. Si no está encendido, desconéctala y vuélvela a conectar. Espera un rato a que se instale su controlador. Si no se enciende, prueba en otro puerto USB. Si sigue sin encenderse ponte en contacto con el soporte técnico de _Digi21_ en la siguiente dirección: [http://soporte.digi21.net](http://soporte.digi21.net/)
 4. En la tabla aparecerá tantas llaves de protección como se localicen tanto en tu propio ordenador como en la red de la empresa \(si es que el ordenador está conectado a la red\).
 5. Localiza tu llave de protección. Será la única que tiene las siguientes características:  
@@ -33,7 +32,7 @@ Este proceso no elimina información de tu llave, de modo que si en ésta tienes
 9. En la pestaña _Collect Key Status Information_ pulsa el botón _Collect Information._
 10. Aparece el cuadro de diálogo _Save Key Status As_. Este cuadro de diálogo te va a permitir indicar la ubicación y nombre del archivo _.c2v_ que nos vas a enviar.
 11. Indica la ubicación y nombre del archivo _.c2v_ a crear.
-12. Envíanos el archivo que acabas de crear a la la dirección de correo electrónico: [info@digi21.net](mailto:info@digi21.net) junto con la siguiente información:
+12. Envíanos el archivo que acabas de crear a la dirección de correo electrónico: [info@digi21.net](mailto:info@digi21.net) junto con la siguiente información:
     * Nombre de la empresa.
     * N.I.F.
     * Dirección.

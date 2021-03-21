@@ -5,9 +5,9 @@ Este programa te permite comprobar las licencias de tu llave de protección.
 Sigue los siguientes pasos para comprobar las licencias almacenadas en una determinada llave de protección:
 
 1. Pulsa el botón de **Inicio/Programas/Digi21.NET/Licencias/Comprobar Licencias**. Aparecerá el programa _Comprobar Licencias_.
-2. Verás la página **Selecciona llave de protección**. Puedes comprobar que el botón **Siguiente** está deshabilitado. Se habilitará cuando selecciones una llave de protección de la lista de llaves que aparecen en esta página. Selecciona la llave para la cual quieres comprobar sus licencias y pulsa el botón **Siguiente.** Transcuridos unos segundos aparecerá la página **Propiedades de la llave de protección.**
+2. Verás la página **Selecciona llave de protección**. Puedes comprobar que el botón **Siguiente** está deshabilitado. Se habilitará cuando selecciones una llave de protección de la lista de llaves que aparecen en esta página. Selecciona la llave para la cual quieres comprobar sus licencias y pulsa el botón **Siguiente.** Transcurridos unos segundos aparecerá la página **Propiedades de la llave de protección.**
 
-A continuación te mostramos los campos que puede mostrar el programa y la condición para que se muestren:
+A continuación, te mostramos los campos que puede mostrar el programa y la condición para que se muestren:
 
 | Campo | Descripción | Condición |
 | :--- | :--- | :--- |

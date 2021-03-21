@@ -1,6 +1,4 @@
-# Crear archivo Activacion
-
-Ayuda online de productos Digi21
+# Crear archivo Activación
 
 Este programa crea un _archivo de activación de ordenador_ a partir un _archivo de solicitud de activación_ generado con el programa [Activar ordenador Offline](./).
 

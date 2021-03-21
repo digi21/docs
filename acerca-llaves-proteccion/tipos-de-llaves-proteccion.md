@@ -4,7 +4,7 @@ Existen dos tipos de llaves de protección: Por _hardware_ y por _software_. Cad
 
 La llave de protección por _hardware_ da sensación de posesión, porque la puedes tocar, es un elemento tangible. La llave de protección por _software_ por el contrario no, pero ésta es más rápida que la de _hardware_ y además la puedes enviar por correo electrónico a un colaborador situado en otro país en el momento, lo que le da una ventaja muy importante con respecto a la de _hardware_. La de _software_ además no ocupa ningún puerto _USB_ y no se puede robar a menos que te roben el ordenador completo, la de _hardware_ es más susceptible a ser robada.
 
-En la siguiente tabla tienes un resúmen de las ventajas y desventajas de ambas llaves. 
+En la siguiente tabla tienes un resumen de las ventajas y desventajas de ambas llaves. 
 
 <table>
   <thead>
@@ -43,8 +43,8 @@ En la siguiente tabla tienes un resúmen de las ventajas y desventajas de ambas 
       <td style="text-align:left">Movilidad</td>
       <td style="text-align:left">Se puede cambiar de ordenador extray&#xE9;ndola y conect&#xE1;ndola en
         otro ordenador.</td>
-      <td style="text-align:left">Se puede cambiar de ordenador mediante el programa ActualizarLlaveLDK
-        disponible en la <a href="3caafe8e-15eb-4975-b537-3a4540ba3eed">suite de aplicaciones Licencias</a>.</td>
+      <td style="text-align:left">Se puede cambiar de ordenador mediante el programa <em>ActualizarLlaveLDK </em>disponible
+        en la <a href="3caafe8e-15eb-4975-b537-3a4540ba3eed">suite de aplicaciones Licencias</a>.</td>
     </tr>
     <tr>
       <td style="text-align:left">Restricciones a la movilidad</td>
@@ -54,7 +54,7 @@ En la siguiente tabla tienes un resúmen de las ventajas y desventajas de ambas 
         instalada previamente.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Seguro anti robo</td>
+      <td style="text-align:left">Seguro antirrobo</td>
       <td style="text-align:left">Si, siempre que no la hayas activado por m&#xE1;s de un mes. Nuestra recomendaci&#xF3;n
         es que la actives cada mes. Si en nuestros servidores comprobamos que la
         llave robada no est&#xE1; activada por m&#xE1;s de un mes, bloquearemos
@@ -71,7 +71,7 @@ En la siguiente tabla tienes un resúmen de las ventajas y desventajas de ambas 
   </tbody>
 </table>
 
-En la siguiente tabla te mostramos cuándo incluímos una llave de protección y qué hacer con tus llaves de protección antiguas si decides actualizar a alguno de nuestros programas con fecha posterior a 1 de octubre de 2014.
+En la siguiente tabla te mostramos cuándo incluimos una llave de protección y qué hacer con tus llaves de protección antiguas si decides actualizar a alguno de nuestros programas con fecha posterior a 1 de octubre de 2014.
 
 <table>
   <thead>
@@ -83,14 +83,14 @@ En la siguiente tabla te mostramos cuándo incluímos una llave de protección y
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Compra de un producto nuevo, por ejemplo una lcencia de <em>MDTopX</em>
+      <td style="text-align:left">Compra de un producto nuevo, por ejemplo, una licencia de <em>MDTopX</em>
       </td>
       <td style="text-align:left">No dispongo de llave de protecci&#xF3;n.</td>
-      <td style="text-align:left">Con el precio de la compra de un programa nuevo inclu&#xED;mos una llave
-        de protecci&#xF3;n a tu elecci&#xF3;n (software o hardware).</td>
+      <td style="text-align:left">Con el precio de la compra de un programa nuevo incluimos una llave de
+        protecci&#xF3;n a tu elecci&#xF3;n (software o hardware).</td>
     </tr>
     <tr>
-      <td style="text-align:left">Compra de un producto nuevo, por ejemplo una lcencia de <em>MDTopX</em>
+      <td style="text-align:left">Compra de un producto nuevo, por ejemplo, una licencia de <em>MDTopX</em>
       </td>
       <td style="text-align:left">Hasp HL</td>
       <td style="text-align:left">Si ya dispones de una llave de protecci&#xF3;n (Hasp HL) y quieres que
@@ -98,7 +98,7 @@ En la siguiente tabla te mostramos cuándo incluímos una llave de protección y
         la licencia en esa llave.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Compra de un producto nuevo, por ejemplo una lcencia de <em>MDTopX</em>
+      <td style="text-align:left">Compra de un producto nuevo, por ejemplo, una licencia de <em>MDTopX</em>
       </td>
       <td style="text-align:left">Llave de protecci&#xF3;n por software</td>
       <td style="text-align:left">Si ya dispones de una llave de protecci&#xF3;n por software y quieres

@@ -4,7 +4,7 @@ No hemos conseguido conectarnos con la llave de protección que tienes configura
 
 Este mensaje se muestra cuando has indicado mediante el programa **Selecciona Llave** específico del programa que estás intentando ejecutar que éste debe utilizar una determinada llave de protección, pero no hemos localizado dicha llave de protección
 
-A continuación te enumeramos las posibles causas de este error y las soluciones:
+A continuación, te enumeramos las posibles causas de este error y las soluciones:
 
 <table>
   <thead>

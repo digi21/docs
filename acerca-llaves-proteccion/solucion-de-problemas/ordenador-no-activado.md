@@ -8,7 +8,7 @@ Este mensaje tiene tres posibles causas:
 
 Puedes solucionar el problema ejecutando el programa [Activar ordenador](ActivarOrdenador.html).
 
-A continuación te mostramos cómo comunica Digi3D.NET este problema:
+A continuación, te mostramos cómo comunica Digi3D.NET este problema:
 
 ![Cuadro de di&#xE1;logo indicando que el ordenador no est&#xE1; activado en la llave de protecci&#xF3;n](../../.gitbook/assets/este-ordenador-no-esta-activado-en-la-llave-de-proteccion.png)
 
