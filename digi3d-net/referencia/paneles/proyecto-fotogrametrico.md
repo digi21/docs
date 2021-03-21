@@ -19,3 +19,10 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 * Botón para activar el cambio automático de modelo.
 * Desplegable que permite seleccionar el punto de vista en caso de que el archivo de proyecto fotogramétrico cargado proporcione distintos puntos de vista desde una misma estación.
 
+## Mostrar el panel
+
+Se puede mostrar el panel de las siguientes formas:
+
+* Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
+* Mediante la opción del menú **Ventana/Proyecto fotogramétrico**.
+
