@@ -609,6 +609,7 @@
       * [Acotaciones](digi3d-net/referencia/barras-de-herramientas/acotaciones.md)
       * [Circunferencias](digi3d-net/referencia/barras-de-herramientas/circunferencias.md)
       * [Complejos](digi3d-net/referencia/barras-de-herramientas/complejos.md)
+      * [Coordenada Z](digi3d-net/referencia/barras-de-herramientas/coordenada-z.md)
       * [Teclados](digi3d-net/referencia/barras-de-herramientas/teclados.md)
     * [Archivos](digi3d-net/referencia/archivos/README.md)
       * [Archivo de configuración de teclas](digi3d-net/referencia/archivos/archivo-de-configuracion-de-teclas/README.md)
