@@ -2,7 +2,7 @@
 
 En este tema te vamos a enseñar a utilizar las funcionalidades básicas de _Digi3D.NET_.
 
-No vamos a profundizar en los temas, símplemente te vamos a indicar los pasos a seguir para introducirte en la filosofía del programa.
+No vamos a profundizar en los temas, simplemente te vamos a indicar los pasos a seguir para introducirte en la filosofía del programa.
 
 Para poder seguir estos pasos es necesario que descargues dos proyectos:
 

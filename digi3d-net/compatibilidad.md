@@ -2,13 +2,13 @@
 
 ## Sistema operativo
 
-Digi3D.NET está disponible en versiones de 32 y de 64 bits. 
+Digi3D.NET está disponible en versiones de 32 y de 64 bits. Es compatible con Windows 7, 8 y 10.
 
 ## Tarjeta gráfica
 
 Existen en el mercado tres tipos de tarjetas gráficas:
 
-1. Entry-level.
+1. De gama de entrada.
 2. De gama media.
 3. De gama profesional.
 
