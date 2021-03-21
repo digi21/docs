@@ -31,3 +31,11 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 * Botón que ejecuta la tarea anterior que tenga la palabra introducida en cuadro de búsqueda.
 * Botón que activa/desactiva la visualización de tareas ocultas.
 
+## Órdenes relacionadas
+
+* Orden [BORRAR\_TAREAS](../ventana-de-dibujo/ordenes/b/borrar-tareas.md).
+* Orden [CARGAR\_TAREAS](../ventana-de-dibujo/ordenes/c/cargar-tareas.md).
+* Orden [GUARDAR\_TAREAS](../ventana-de-dibujo/ordenes/g/guardar-tareas.md).
+
+
+
