@@ -2,7 +2,7 @@
 
 ![Barra de herramientas Acotaciones](../../../.gitbook/assets/acotaciones.png)
 
-Permite ejecutar comandos relacionados con acotaciones.
+Permite ejecutar órdenes relacionadas con acotaciones.
 
 ## Botones
 
