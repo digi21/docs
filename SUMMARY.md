@@ -619,6 +619,7 @@
       * [Desplazamientos de ventana](digi3d-net/referencia/barras-de-herramientas/desplazamientos-de-ventana.md)
       * [Editar códigos](digi3d-net/referencia/barras-de-herramientas/editar-codigos.md)
       * [Editar polilínea](digi3d-net/referencia/barras-de-herramientas/editar-polilinea.md)
+      * [Eliminar y recuperar](digi3d-net/referencia/barras-de-herramientas/eliminar-y-recuperar.md)
       * [Teclados](digi3d-net/referencia/barras-de-herramientas/teclados.md)
     * [Archivos](digi3d-net/referencia/archivos/README.md)
       * [Archivo de configuración de teclas](digi3d-net/referencia/archivos/archivo-de-configuracion-de-teclas/README.md)
