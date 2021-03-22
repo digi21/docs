@@ -43,6 +43,34 @@ Ejemplo: La orden [OFF](../../../ventana-de-dibujo/ordenes/o/off.md) oculta la v
 off=#viales
 ```
 
+## Alias
+
+Permite indicar opcionalmente uno o varios alias para este código.
+
+Esto es útil si el operador está acostumbrado a trabajar con una nomenclatura, para que la curva de aprendizaje sea menor y no tenga que aprender los nuevos códigos.
+
+Ejemplo: Podemos añadir el alias "fina" al código "020123", de esta manera si el operador ejecuta desde la orden de comandos la siguiente orden:
+
+```text
+cod=fina
+```
+
+La orden [COD](../../../ventana-de-dibujo/ordenes/c/cod.md) seleccionará automáticamente el código "020123".
+
+## Valores
+
+Permite crear un diccionario de valores asociado con el código.
+
+Este valor es opcional, y en caso de asignar valores, podemos indicar tantos como queramos. 
+
+La forma de introducir valores es siguiendo el patrón _propiedad=valor._ En caso de asignar más de un valor, los separaremos por comas.
+
+Ejemplo: Para asignar a un determinado código los valores: "ancho" con el valor "13" y "categoría" con el valor "002" introduciremos el siguiente valor en el campo Valores:
+
+```text
+ancho=13, categoría=002
+```
+
 
 
 
