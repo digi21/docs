@@ -90,7 +90,11 @@ Permite configurar mediante un valor \(entre 0 y 1\) el factor de confidencia co
 
 ## Color de la ventana de tentativo
 
-Permite configurar el color en el que se mostrarán las coordenadas en la barra de herramientas  [Coordenadas](../../barras-de-herramientas/coordenadas.md).
+Permite configurar el color en el que se mostrarán las coordenadas en la [barra de herramientas Tentativo](../../barras-de-herramientas/tentativo.md).
+
+## Mostrar ayudas por código
+
+Permite indicar si Digi3D.NET mostrará en el [panel de ayuda dinámica](../../paneles/ayuda-dinamica.md) el archivo HTML asociado asignado en el campo Archivo de ayuda al seleccionar un determinado código.
 
 
 
