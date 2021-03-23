@@ -1,10 +1,10 @@
 # Macros
 
-Algunas ventanas de texto de ciertos cuadros de diálogo admiten que se introduzcamos una macro en vez de un texto.
+Algunas ventanas de texto de ciertos cuadros de diálogo admiten que se introduzcamos una macro en vez de un texto. El programa cuando sea necesario sustituirá esa macro dinámicamente por un valor calculado.
 
-Por ejemplo, el campo [Destino de copias de seguridad](cuadros-de-dialogo/configuracion/copia-de-seguridad.md#destino-de-copias-de-seguridad) del cuadro de diálogo de configuración admite que se introduzcan macros para permitir crear copias de seguridad cuyo nombre varíe en función de la fecha y hora.
+Por ejemplo: el campo [Destino de copias de seguridad](cuadros-de-dialogo/configuracion/copia-de-seguridad.md#destino-de-copias-de-seguridad) del cuadro de diálogo de Configuración admite que se introduzcan macros para permitir crear copias de seguridad cuyo nombre varíe en función de la fecha y hora.
 
-A continuación enumeramos las distintas macros existentes.
+A continuación, enumeramos las distintas macros existentes.
 
 | Nombre | Se sustituye por... |
 | :--- | :--- |

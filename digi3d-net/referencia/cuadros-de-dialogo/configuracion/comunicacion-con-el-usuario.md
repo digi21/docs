@@ -94,11 +94,7 @@ Permite configurar el color en el que se mostrarán las coordenadas en la [barra
 
 ## Mostrar ayudas por código
 
-Permite indicar si Digi3D.NET mostrará en el [panel de ayuda dinámica](../../paneles/ayuda-dinamica.md) el archivo HTML asociado asignado en el campo Archivo de ayuda al seleccionar este código como código activo.
-
-## Directorio de ayudas de códigos
-
-Permite configurar el directorio donde se ubican los archivos HTML asociados en el campo Archivo de ayuda al seleccionar este código como código activo.
+Permite indicar si Digi3D.NET mostrará en el [panel de ayuda dinámica](../../paneles/ayuda-dinamica.md) el archivo HTML asociado asignado en el campo Archivo de ayuda al seleccionar un determinado código.
 
 
 
