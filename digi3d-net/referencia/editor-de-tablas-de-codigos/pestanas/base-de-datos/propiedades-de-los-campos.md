@@ -47,7 +47,61 @@ Este campo carece de sentido en otros tipos de bases de datos como Access pues e
 
 Permite especificar opcionalmente un valor por defecto para este campo.
 
-Se puede introducir un valor constante o se puede introducir una macro de base de datos.
+Se puede introducir un valor constante o se puede introducir una [macro de base de datos](macros-de-base-de-datos.md).
+
+## Forzar valor por defecto
+
+Permite indicar si se debe almacenar obligatoriamente el valor configurado en [Valor por defecto](propiedades-de-los-campos.md#valor-por-defecto) independientemente del valor que haya introducido el usuario para este campo en el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md). 
+
+## Lista de valores
+
+Permite indicar un conjunto de valores posibles para almacenar en este campo. 
+
+En caso de que se introduzca una lista de valores, las ventanas que muestran campos de base de datos como el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md), mostrarán en este campo un desplegable para que el usuario seleccione un valor de entre los posibles.
+
+Se pueden introducir tantos valores como sea necesarios, y se introducen como una tripleta separada por el carácter \| \(que se puede introducir pulsando la combinación de teclas _AltGr + 1_.
+
+\[valor\]\|\[título\]\[descripción\]
+
+* Valor es el valor que se va a almacenar en la base de datos.
+* Título es el título que verá el usuario en el desplegable, que no tiene por qué coincidir con el valor, se utiliza para facilitar el trabajo al usuario.
+* Descripción es una descripción que aparecerá en la parte inferior de la ventana en la que se introducen valores de base de datos al seleccionar este campo como por ejemplo en el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md).
+
+#### Ejemplo:
+
+Si en la base de datos se tiene que almacenar un "1" si el tipo de vegetación es "monte alto" y un "2" si es de tipo "monte bajo" introduciremos este valor:
+
+```text
+1|Monte alto|El tipo de vegetación de esta parcela es monte alto|2|Monte bajo|El tipo de vegetación de esta parcela es monte bajo
+```
+
+## Restringir valores
+
+En caso de que se haya indicado una lista de valores, si se activa esta opción, el desplegable mostrado al usuario al seleccionar este campo no permitirá introducir valores manualmente.
+
+## Solo lectura
+
+Si se habilita, el usuario no podrá modificar el valor mostrado en este campo.
+
+## Permitir longitud 0
+
+Permite indicar si el usuario puede dejar este campo sin rellenar.
+
+## Comparable
+
+Algunas órdenes como por ejemplo la orden [UNIR](../../../ventana-de-dibujo/ordenes/u/unir.md), en caso de que se pretenda unir dos líneas que tengan enlace a base de datos, únicamente unificará las dos líneas en caso de que sus códigos coincidan y de que los atributos de base de datos de cada una de ellas coincidan también.
+
+Si tenemos por ejemplo el caso de que uno de los atributos de base de datos almacenados para cada línea sea el perímetro de la línea, nos encontraríamos con el problema de que la orden _UNIR_ no permitiría unir dos líneas con idénticos atributos de base de datos, pero con distinto perímetro. De manera que deberíamos poder indicar a la orden _UNIR_ que no tenga en cuenta el valor almacenado en el campo donde se almacena el perímetro para decidir si puede o no unir dos líneas.
+
+Con esta opción podemos indicar que un campo en particular no es comparable, de manera que, en el ejemplo anterior, la orden _UNIR_ hará caso omiso del campo en el que se almacena el perímetro para decidir si se pueden o no unir dos geometrías.
+
+## Copiable
+
+Indica si al copiar una geometría con la orden [COPIAR ](../../../ventana-de-dibujo/ordenes/c/copiar.md)se debe copiar el valor almacenado en este campo.
+
+## Visible
+
+Indica si el campo de base de datos se mostrará en el interfaz de usuario del programa como por ejemplo en el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md).
 
 ## Grupo
 
@@ -55,7 +109,7 @@ Este campo es opcional, y en caso de introducir aquí algún nombre, las ventana
 
 Se utiliza para agrupar campos relacionados en el interfaz de usuario de la aplicación.
 
+## Color de fondo
 
-
-
+Indica el color de fondo que se utilizará en el interfaz de usuario del programa al mostrar este campo. 
 
