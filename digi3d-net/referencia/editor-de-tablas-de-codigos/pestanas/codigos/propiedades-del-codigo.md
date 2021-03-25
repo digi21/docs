@@ -119,19 +119,32 @@ Con esta opción se puede indicar a la orden [LINEA](../../../ventana-de-dibujo/
 
 Permite indicar el conjunto de órdenes que se ejecutarán cuando se seleccione el código.
 
+## Órdenes \(pulsar dato\)
 
+Permite indicar el conjunto de órdenes que se ejecutarán cuando el usuario pulse el botón de Dato si este código está activo.
 
+## Archivo de ayuda
 
+Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](../../../paneles/ayuda-dinamica.md) si se selecciona este código.
 
+El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](../../../cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md#directorio-de-ayudas-de-codigos) configurado en el programa.
 
+## Analizar reglas de modelo semántico
 
+Indica si a este código se le van a pasar controles de calidad.
 
+Se pueden seleccionar las siguientes opciones:
 
+* **No** Indica que no se analizarán las geometrías con este código al ejecutar controles de calidad.
+* **Si** Indica que se analizarán las geometrías con este al ejecutar controles de calidad.
 
+## Lenguaje
 
+Indica el lenguaje de programación con el que está programado el guion que ejecuta el control de calidad en las geometrías con este código en caso de haber configurado la opción Si en el campo [Analizar reglas de modelo semántico](propiedades-del-codigo.md#analizar-reglas-de-modelo-semantico).
 
+Se pueden seleccionar las siguientes opciones:
 
-
-
-
+* **CSharp** Indica que el guion está programado en el lenguaje de programación C\#.
+* **VisualBasic** Indica que el guion está programado en el lenguaje de programación Visual Basic .NET
+* **JScript** Indica que el guion está programado en el lenguaje de programación JScript .NET.
 
