@@ -63,13 +63,71 @@ Permite crear un diccionario de valores asociado con el código.
 
 Este valor es opcional, y en caso de asignar valores, podemos indicar tantos como queramos. 
 
-La forma de introducir valores es siguiendo el patrón _propiedad=valor._ En caso de asignar más de un valor, los separaremos por comas.
+La forma de introducir valores es siguiendo el patrón `propiedad=valor`_._ En caso de asignar más de un valor, los separaremos por comas.
 
 Ejemplo: Para asignar a un determinado código los valores: "ancho" con el valor "13" y "categoría" con el valor "002" introduciremos el siguiente valor en el campo Valores:
 
 ```text
 ancho=13, categoría=002
 ```
+
+Estos valores se pueden utilizar al aplicar la [macro de base de datos](../base-de-datos/macros-de-base-de-datos.md) `%CENTROID_VALUE=[valor]%`
+
+## Tipo
+
+Indica el tipo de geometría que representa el código.
+
+Se puede seleccionar una de las siguientes opciones:
+
+* **Lineal** Indica que este código está pensado para almacenar líneas.
+* **Puntual** Indica que este código está pensado para almacenar puntos.
+* **Virtual** Indica que este código está pensado para dibujar geometrías en la ventana de dibujo pero que estas geometrías no se almacenan en ningún archivo de dibujo.
+
+El valor almacenado aquí no es un contrato vinculante, de manera que, si indicamos en este campo el valor _Puntual_ para un determinado código, y luego en la ventana de dibujo seleccionamos este código en particular y ejecutamos la orden [CIR2P](../../../ventana-de-dibujo/ordenes/c/cir2p.md), podremos dibujar un círculo con este código que se ha marcado como puntual.
+
+El valor almacenado en este campo se utiliza criterio para [ejecutar órdenes de manera automática](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) si el programa está en [modo preparado](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el usuario pulsa el botón de Dato en la ventana de dibujo.
+
+## Automático
+
+Indica si al estar este código seleccionado como código activo y al estar el programa en[ modo preparado](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md), si el usuario pulsa el botón de Dato en la ventana de dibujo, si se desencadenará el proceso que ejecuta una [orden de manera automática](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
+
+Se pueden seleccionar las siguientes opciones:
+
+* **Si** Indica que este código desencadena que se ejecuten órdenes automáticas.
+* **No** Indica que este código no desencadenará que se ejecuten órdenes automáticas.
+
+## Activado
+
+Permite indicar si el usuario podrá seleccionar este código para digitalizar entidades nuevas.
+
+Esta opción es útil para permitir mostrar y reconocer geometrías existentes pero no se quiere que se generen geometrías nuevas con este código.
+
+Se pueden seleccionar las siguientes opciones:
+
+* **Si** Indica que este código se puede seleccionar para digitalizar entidades nuevas.
+* **No** Indica que este código no se puede seleccionar para digitalizar entidades nuevas.
+
+## Modo Stream
+
+Indica si este código está pensado para digitalizar líneas en modo continuo.
+
+Determinadas geometrías como por ejemplo las curvas de nivel se digitalizan habitualmente en modo continuo. Eso requiere que el usuario mantenga pulsado el botón/pedal de dato mientras digitaliza la geometría. 
+
+Con esta opción se puede indicar a la orden [LINEA](../../../ventana-de-dibujo/ordenes/l/linea.md) que, al pulsar el botón de Dato, entienda que se está dibujando una línea continua y que por lo tanto no es necesario que el botón de Dato se mantenga pulsado, sino que por el mero hecho de mover el dispositivo de entrada \(ratón, manivelas, etc.\) se deben añadir segmentos a la línea.
+
+## Órdenes \(seleccionar código\)
+
+Permite indicar el conjunto de órdenes que se ejecutarán cuando se seleccione el código.
+
+
+
+
+
+
+
+
+
+
 
 
 
