@@ -9,8 +9,7 @@ Puedes ejecutar una orden de múltiples maneras:
 * Pulsando un botón en una barra de herramientas.
 * Repitiendo de manera automática la última orden ejecutada.
 * Seleccionando una opción de un menú.
-* Pulsando un botón en una barra de herramientas.
-* [Desde la línea de comandos](ejecutar-una-orden-desde-la-linea-de-comandos.md).
+* [Desde la línea de comandos](ejecutar-una-orden-desde-la-linea-de-comandos/).
 * En una macroinstrucción.
 * Al pulsar una tecla en la que tengas configurada la orden.
 
