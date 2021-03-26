@@ -658,6 +658,7 @@
         * [Base de datos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/README.md)
           * [Propiedades de los campos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/propiedades-de-los-campos.md)
           * [Macros de base de datos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md)
+        * [Estilos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/estilos.md)
         * [Órdenes](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/ordenes.md)
         * [Códigos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/README.md)
           * [Propiedades del código](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md)
