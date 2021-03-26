@@ -1,10 +1,12 @@
-# Tabla de códigos
+# Códigos activos
 
 ![Panel c&#xF3;digos activos mostrando como c&#xF3;digos activos el 050146 y 060533](../../../.gitbook/assets/panelcodigosactivos.png)
 
 Este panel permite seleccionar el código o códigos activos en caso de estar trabajando con multi codificación.
 
 Al almacenar una geometría nueva, esta tendrá tantos códigos como códigos tengamos seleccionados en este panel.
+
+Este panel se habilita únicamente si seleccionamos la opción **Panel de multi-codificación** en el campo [Interfaz para seleccionar código](../cuadros-de-dialogo/configuracion/diging.md#interfaz-para-seleccionar-codigo) de la configuración del programa.
 
 ## Barra de herramientas
 
