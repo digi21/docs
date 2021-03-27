@@ -33,7 +33,7 @@ Activa o desactiva el análisis de voz en tiempo real.
 
 ## Observaciones
 
-Si está activo, el programa escucha comandos por el micrófono del ordenador. Si se localiza algún comando de los especificados en la pestaña **Reconocimiento de voz** del programa [Editor de tablas de códigos](EditorDeTablasDeCodigos.html), el programa ejecuta dicho comando.
+Si está activo, el programa escucha comandos por el micrófono del ordenador. Si se localiza algún comando de los especificados en la pestaña [Reconocimiento de voz ](../../../editor-de-tablas-de-codigos/pestanas/reconocimiento-de-voz.md)del programa [Editor de tablas de códigos](../../../editor-de-tablas-de-codigos/), el programa ejecuta dicho comando.
 
 ## Características de la orden
 

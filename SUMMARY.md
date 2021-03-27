@@ -667,6 +667,7 @@
         * [Estilos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/estilos.md)
         * [Órdenes](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/ordenes.md)
         * [Macroinstrucciones](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/macroinstrucciones.md)
+        * [Reconocimiento de voz](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/reconocimiento-de-voz.md)
         * [Códigos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/README.md)
           * [Propiedades del código](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md)
           * [Base de datos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/base-de-datos.md)
