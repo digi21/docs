@@ -81,7 +81,7 @@ Si en la base de datos se tiene que almacenar un "1" si el tipo de vegetación e
 
 ### Mediante consulta SQL
 
-Si introducimos en este campo una consulta SQL de selección entre símbolos de porciento, como por ejemplo:
+Si introducimos en este campo una consulta SQL de selección entre símbolos de porciento como, por ejemplo:
 
 ```sql
 SELECT IdCalle, NombreCalle FROM CALLES
