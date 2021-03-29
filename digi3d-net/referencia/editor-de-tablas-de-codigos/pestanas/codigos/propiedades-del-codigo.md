@@ -43,6 +43,12 @@ Ejemplo: La orden [OFF](../../../ventana-de-dibujo/ordenes/o/off.md) oculta la v
 off=#viales
 ```
 
+#### Menús dinámicos
+
+Digi3D.NET muestra en determinados menús \(como por ejemplo el menú **Ver**\), las etiquetas de la tabla de códigos activa, de manera que podremos ejecutar comandos que tomarán como datos de entrada todas las geometrías que tengan algún código que tenga asociada la etiqueta seleccionada.
+
+En el caso del menú **Ver**, si la tabla de códigos activa tiene códigos con la etiqueta _Vegetación_, mostrará una opción con la palabra _Vegetación**.**_ Si el usuario selecciona esta opción, el programa activará la visualización de todas las geometrías cuyos códigos tengan esta etiqueta.
+
 ## Alias
 
 Permite indicar opcionalmente uno o varios alias para este código.
