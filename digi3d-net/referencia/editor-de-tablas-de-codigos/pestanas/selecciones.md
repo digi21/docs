@@ -22,7 +22,7 @@ Las expresiones se ejecutan en un ámbito \(scope\) que tiene una variable local
 digi3DGeometry.Codes[0].Name == "020400"
 ```
 
-o seleccionar las geometrías que tengan 3 vértices
+o seleccionar las geometrías que tengan 3 vértices:
 
 ```python
 digi3DGeometry.Points.Count == 3
