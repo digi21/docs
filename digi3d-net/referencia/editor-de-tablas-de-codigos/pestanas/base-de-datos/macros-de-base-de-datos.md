@@ -6,7 +6,7 @@ Se pueden introducir opcionalmente en la propiedad [Valor por defecto](propiedad
 
 En caso de que un determinado campo tenga asignada una macro, en el momento de almacenar el registro en la base de datos, Digi3D.NET sustituirá la macro por el valor calculado.
 
-A continuación, tienes el listado de macros que puedes introducir:
+A continuación, el listado de macros soportadas por el programa:
 
 <table>
   <thead>

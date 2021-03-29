@@ -59,9 +59,13 @@ Permite indicar un conjunto de valores posibles para almacenar en este campo.
 
 En caso de que se introduzca una lista de valores, las ventanas que muestran campos de base de datos como el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md), mostrarán en este campo un desplegable para que el usuario seleccione un valor de entre los posibles.
 
+Se pueden introducir valores directamente en la tabla de códigos o se pueden extraer dinámicamente mediante una consulta SQL que se ejecutará sobre la base de datos cargada.
+
+### Valores directos
+
 Se pueden introducir tantos valores como sea necesarios, y se introducen como una tripleta separada por el carácter \| \(que se puede introducir pulsando la combinación de teclas _AltGr + 1_.
 
-\[valor\]\|\[título\]\[descripción\]
+`[valor]|[título][descripción]`
 
 * Valor es el valor que se va a almacenar en la base de datos.
 * Título es el título que verá el usuario en el desplegable, que no tiene por qué coincidir con el valor, se utiliza para facilitar el trabajo al usuario.
@@ -74,6 +78,19 @@ Si en la base de datos se tiene que almacenar un "1" si el tipo de vegetación e
 ```text
 1|Monte alto|El tipo de vegetación de esta parcela es monte alto|2|Monte bajo|El tipo de vegetación de esta parcela es monte bajo
 ```
+
+### Mediante consulta SQL
+
+Si introducimos en este campo una consulta SQL de selección entre símbolos de porciento, como por ejemplo:
+
+```sql
+SELECT IdCalle, NombreCalle FROM CALLES
+```
+
+El programa extraerá los campos de la consulta. 
+
+* Si la consulta devuelve un único campo, se utilizará este campo tanto para el valor como para el texto a mostrar al usuario para cada registro devuelto.
+* Si la consulta devuelve más de un campo, se utilizará el primer campo para el valor a asignar y el segundo para el texto a mostrar al u
 
 ## Restringir valores
 
