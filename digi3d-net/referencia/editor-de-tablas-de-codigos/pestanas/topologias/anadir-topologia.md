@@ -43,5 +43,13 @@ Se puede seleccionar una de las siguientes opciones:
 * **3D a partir de las geometrías del polígono** Indica que se formará un polígono utilizando las coordenadas Z de las geometrías que lo forman. En caso de aquellos nodos en los que no coincida la coordenada Z de las líneas que llegan a él, se introducirán ambas coordenadas Z para formar un polígono en 3D.
 * **Proyectar sobre un MDT cargado** Indica que se extraerán las coordenadas Z de los archivos MDT cargados en el momento de transformar la topología en polígono.
 
+## Etiqueta del MDT sobre el que proyectar
+
+En caso de que en el campo [Coordenadas Z del polígono](anadir-topologia.md#coordenadas-z-del-poligono) se configure la opción **Proyectar sobre un MDT cargado** se puede configurar aquí una etiqueta.
+
+En caso de configurar aquí una etiqueta, únicamente se utilizarán los archivos MDT que tengan asociada esta etiqueta.
+
+> Podemos tener cargados por ejemplo varios archivos GeoTIFF, algunos con la etiqueta MDT y otros con la etiqueta MDS. Si queremos que los polígonos de una determinada topología se proyecten con los MDSs introduciremos aquí la palabra MDS.
+
 
 

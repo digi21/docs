@@ -14,19 +14,25 @@ Los _polígonos topológicos_ deben tener un [Centroide](centroide.md) en su int
 
 ## Ventanas
 
-* Una lista con las topologías configuradas. Dispone de los siguientes botones:
-  * Permite añadir una topología al listado de topologías mediante el cuadro de diálogo [Añadir Topología](anadir-topologia.md).
-* Una lista con los códigos que forman parte de la topología seleccionada.
-* Una lista con los centroides que forman la topología seleccionada.
-* Un diccionario de valores asociados con el centroide seleccionado.
+Este panel dispone de las siguientes ventanas:
 
+### Lista de topologías configuradas
 
+Muestra un listado con todas las topologías configuradas en la tabla de códigos.
 
+Dispone de los siguientes botones:
 
+*  [Añadir Topología](anadir-topologia.md).
 
+### Lista de códigos
 
+Muestra un listado con todos los códigos con los que se forma la topología seleccionada en la [lista de topologías configuradas](./#lista-de-topologias-configuradas).
 
+### Lista de centroides 
 
+Muestra un listado con todos los centroides configurados para la topología seleccionada en la [lista de topologías configuradas](./#lista-de-topologias-configuradas).
 
+### Diccionario de valores
 
+Muestra el [diccionario de valores](centroide.md#diccionario-de-valores) asociado con el centroide seleccionado en la [lista de centroides](./#lista-de-centroides).
 
