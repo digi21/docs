@@ -4,7 +4,7 @@ Esta categoría permite configurar las propiedades de un campo de base de datos.
 
 ## Título
 
-Permite configurar el nombre del campo que se mostrará al usuario en las distintas ventanas que muestran campos de base de datos, como el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md). 
+Permite configurar el nombre del campo que se mostrará al usuario en las distintas ventanas que muestran campos de base de datos, como el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md). 
 
 El título habitualmente coincide con el nombre del campo, pero no tiene por qué ser así.
 
@@ -51,13 +51,13 @@ Se puede introducir un valor constante o se puede introducir una [macro de base 
 
 ## Forzar valor por defecto
 
-Permite indicar si se debe almacenar obligatoriamente el valor configurado en [Valor por defecto](propiedades-de-los-campos.md#valor-por-defecto) independientemente del valor que haya introducido el usuario para este campo en el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md). 
+Permite indicar si se debe almacenar obligatoriamente el valor configurado en [Valor por defecto](propiedades-de-los-campos.md#valor-por-defecto) independientemente del valor que haya introducido el usuario para este campo en el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md). 
 
 ## Lista de valores
 
 Permite indicar un conjunto de valores posibles para almacenar en este campo. 
 
-En caso de que se introduzca una lista de valores, las ventanas que muestran campos de base de datos como el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md), mostrarán en este campo un desplegable para que el usuario seleccione un valor de entre los posibles.
+En caso de que se introduzca una lista de valores, las ventanas que muestran campos de base de datos como el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md), mostrarán en este campo un desplegable para que el usuario seleccione un valor de entre los posibles.
 
 Se pueden introducir valores directamente en la tabla de códigos o se pueden extraer dinámicamente mediante una consulta SQL que se ejecutará sobre la base de datos cargada.
 
@@ -69,7 +69,7 @@ Se pueden introducir tantos valores como sea necesarios, y se introducen como un
 
 * Valor es el valor que se va a almacenar en la base de datos.
 * Título es el título que verá el usuario en el desplegable, que no tiene por qué coincidir con el valor, se utiliza para facilitar el trabajo al usuario.
-* Descripción es una descripción que aparecerá en la parte inferior de la ventana en la que se introducen valores de base de datos al seleccionar este campo como por ejemplo en el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md).
+* Descripción es una descripción que aparecerá en la parte inferior de la ventana en la que se introducen valores de base de datos al seleccionar este campo como por ejemplo en el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md).
 
 #### Ejemplo:
 
@@ -106,7 +106,7 @@ Permite indicar si el usuario puede dejar este campo sin rellenar.
 
 ## Comparable
 
-Algunas órdenes como por ejemplo la orden [UNIR](../../../ventana-de-dibujo/ordenes/u/unir.md), en caso de que se pretenda unir dos líneas que tengan enlace a base de datos, únicamente unificará las dos líneas en caso de que sus códigos coincidan y de que los atributos de base de datos de cada una de ellas coincidan también.
+Algunas órdenes como por ejemplo la orden [UNIR](../../../digi3d.net/ventana-de-dibujo/ordenes/u/unir.md), en caso de que se pretenda unir dos líneas que tengan enlace a base de datos, únicamente unificará las dos líneas en caso de que sus códigos coincidan y de que los atributos de base de datos de cada una de ellas coincidan también.
 
 Si tenemos por ejemplo el caso de que uno de los atributos de base de datos almacenados para cada línea sea el perímetro de la línea, nos encontraríamos con el problema de que la orden _UNIR_ no permitiría unir dos líneas con idénticos atributos de base de datos, pero con distinto perímetro. De manera que deberíamos poder indicar a la orden _UNIR_ que no tenga en cuenta el valor almacenado en el campo donde se almacena el perímetro para decidir si puede o no unir dos líneas.
 
@@ -114,11 +114,11 @@ Con esta opción podemos indicar que un campo en particular no es comparable, de
 
 ## Copiable
 
-Indica si al copiar una geometría con la orden [COPIAR ](../../../ventana-de-dibujo/ordenes/c/copiar.md)se debe copiar el valor almacenado en este campo.
+Indica si al copiar una geometría con la orden [COPIAR ](../../../digi3d.net/ventana-de-dibujo/ordenes/c/copiar.md)se debe copiar el valor almacenado en este campo.
 
 ## Visible
 
-Indica si el campo de base de datos se mostrará en el interfaz de usuario del programa como por ejemplo en el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md).
+Indica si el campo de base de datos se mostrará en el interfaz de usuario del programa como por ejemplo en el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md).
 
 ## Grupo
 

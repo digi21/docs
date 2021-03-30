@@ -4,7 +4,7 @@ Esta categoría permite configurar la relación de este código con base de dato
 
 ## Tabla
 
-Este desplegable permite configurar la tabla a mostrar en las ventanas que muestran atributos de base de datos, como el panel [Campos de la base de datos](../../../paneles/campos-de-la-base-de-datos.md) al seleccionar este código.
+Este desplegable permite configurar la tabla a mostrar en las ventanas que muestran atributos de base de datos, como el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md) al seleccionar este código.
 
 Muestra un desplegable que permite seleccionar alguna de las tablas añadidas en la pestaña [Base de datos](../base-de-datos/).
 

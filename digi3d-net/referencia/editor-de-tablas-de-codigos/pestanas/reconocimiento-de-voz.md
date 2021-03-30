@@ -2,7 +2,7 @@
 
 ![Editor de tablas de c&#xF3;digos mostrando la pesta&#xF1;a Reconocimiento de voz](../../../../.gitbook/assets/pestanareconocimientovoz.png)
 
-Esta pestaña permite que añadamos comandos a ejecutar mediante los servicios de reconocimiento de voz de Windows si está habilitada la variable global [RECONOCER\_VOZ](../../ventana-de-dibujo/variables/r/reconocer-voz.md).
+Esta pestaña permite que añadamos comandos a ejecutar mediante los servicios de reconocimiento de voz de Windows si está habilitada la variable global [RECONOCER\_VOZ](../../digi3d.net/ventana-de-dibujo/variables/r/reconocer-voz.md).
 
 Muestra en el contenido principal una lista de los comandos de voz configurados. Al seleccionar uno de ellos, se habilitan los botones **Modificar** y **Eliminar**.
 

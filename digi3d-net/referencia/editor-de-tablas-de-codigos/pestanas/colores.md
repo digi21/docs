@@ -2,7 +2,7 @@
 
 ![Editor de tablas de c&#xF3;digos mostrando la pesta&#xF1;a de colores](../../../../.gitbook/assets/pestanacolores.png)
 
-Esta pestaña permite configurar la paleta de colores para la representación de códigos o para la orden [COLOR\_FONDO](../../ventana-de-dibujo/variables/c/color-fondo.md) en la ventana de dibujo con esta tabla de códigos activa.
+Esta pestaña permite configurar la paleta de colores para la representación de códigos o para la orden [COLOR\_FONDO](../../digi3d.net/ventana-de-dibujo/variables/c/color-fondo.md) en la ventana de dibujo con esta tabla de códigos activa.
 
 ## Paleta de colores
 

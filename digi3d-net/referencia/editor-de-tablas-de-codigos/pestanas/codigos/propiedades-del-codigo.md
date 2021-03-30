@@ -6,7 +6,7 @@ Esta categoría permite configurar las propiedades de un código.
 
 Permite configurar el nombre del código.
 
-El nombre del código identifica al código y no puede haber más de un código en una tabla de códigos con el mismo nombre. Este nombre es el que podremos pasar como parámetros en órdenes como [COD](../../../ventana-de-dibujo/ordenes/c/cod.md).
+El nombre del código identifica al código y no puede haber más de un código en una tabla de códigos con el mismo nombre. Este nombre es el que podremos pasar como parámetros en órdenes como [COD](../../../digi3d.net/ventana-de-dibujo/ordenes/c/cod.md).
 
 ## Descripción
 
@@ -14,7 +14,7 @@ Permite introducir una descripción del código como por ejemplo _Curva de nivel
 
 ## Prioridad
 
-Algunas órdenes de Digi3D.NET como [BINTRAM](../../../ventana-de-dibujo/ordenes/b/bintram.md) permiten agrupar geometrías duplicadas en una única geometría con múltiples códigos. Si los códigos tienen asignado en este campo un valor, el programa ordenará los códigos en la geometría generada con múltiples códigos utilizando como criterio este valor de prioridad.
+Algunas órdenes de Digi3D.NET como [BINTRAM](../../../digi3d.net/ventana-de-dibujo/ordenes/b/bintram.md) permiten agrupar geometrías duplicadas en una única geometría con múltiples códigos. Si los códigos tienen asignado en este campo un valor, el programa ordenará los códigos en la geometría generada con múltiples códigos utilizando como criterio este valor de prioridad.
 
 ## Etiquetas
 
@@ -37,7 +37,7 @@ planimetría, viales, carreteras
 
 Ciertas órdenes permiten trabajar con etiquetas. Podemos indicar a estas órdenes que les estamos pasando una etiqueta si ponemos el carácter almohadilla \(\#\) delante de la etiqueta.
 
-Ejemplo: La orden [OFF](../../../ventana-de-dibujo/ordenes/o/off.md) oculta la visualización de las geometrías que tengan el código pasado por parámetro. Esta orden admite que le pasemos en vez de un código, una etiqueta, de manera que, si queremos dejar de visualizar todas las geometrías que tengan la etiqueta "_viales"_, ejecutaremos la siguiente orden:
+Ejemplo: La orden [OFF](../../../digi3d.net/ventana-de-dibujo/ordenes/o/off.md) oculta la visualización de las geometrías que tengan el código pasado por parámetro. Esta orden admite que le pasemos en vez de un código, una etiqueta, de manera que, si queremos dejar de visualizar todas las geometrías que tengan la etiqueta "_viales"_, ejecutaremos la siguiente orden:
 
 ```text
 off=#viales
@@ -61,7 +61,7 @@ Ejemplo: Podemos añadir el alias "fina" al código "020123", de esta manera si 
 cod=fina
 ```
 
-La orden [COD](../../../ventana-de-dibujo/ordenes/c/cod.md) seleccionará automáticamente el código "020123".
+La orden [COD](../../../digi3d.net/ventana-de-dibujo/ordenes/c/cod.md) seleccionará automáticamente el código "020123".
 
 ## Valores
 
@@ -89,13 +89,13 @@ Se puede seleccionar una de las siguientes opciones:
 * **Puntual** Indica que este código está pensado para almacenar puntos.
 * **Virtual** Indica que este código está pensado para dibujar geometrías en la ventana de dibujo pero que estas geometrías no se almacenan en ningún archivo de dibujo.
 
-El valor almacenado aquí no es un contrato vinculante, de manera que, si indicamos en este campo el valor _Puntual_ para un determinado código, y luego en la ventana de dibujo seleccionamos este código en particular y ejecutamos la orden [CIR2P](../../../ventana-de-dibujo/ordenes/c/cir2p.md), podremos dibujar un círculo con este código que se ha marcado como puntual.
+El valor almacenado aquí no es un contrato vinculante, de manera que, si indicamos en este campo el valor _Puntual_ para un determinado código, y luego en la ventana de dibujo seleccionamos este código en particular y ejecutamos la orden [CIR2P](../../../digi3d.net/ventana-de-dibujo/ordenes/c/cir2p.md), podremos dibujar un círculo con este código que se ha marcado como puntual.
 
-El valor almacenado en este campo se utiliza criterio para [ejecutar órdenes de manera automática](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) si el programa está en [modo preparado](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el usuario pulsa el botón de Dato en la ventana de dibujo.
+El valor almacenado en este campo se utiliza criterio para [ejecutar órdenes de manera automática](../../../digi3d.net/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) si el programa está en [modo preparado](../../../digi3d.net/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el usuario pulsa el botón de Dato en la ventana de dibujo.
 
 ## Automático
 
-Indica si al estar este código seleccionado como código activo y al estar el programa en[ modo preparado](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md), si el usuario pulsa el botón de Dato en la ventana de dibujo, si se desencadenará el proceso que ejecuta una [orden de manera automática](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
+Indica si al estar este código seleccionado como código activo y al estar el programa en[ modo preparado](../../../digi3d.net/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md), si el usuario pulsa el botón de Dato en la ventana de dibujo, si se desencadenará el proceso que ejecuta una [orden de manera automática](../../../digi3d.net/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
 
 Se pueden seleccionar las siguientes opciones:
 
@@ -119,7 +119,7 @@ Indica si este código está pensado para digitalizar líneas en modo continuo.
 
 Determinadas geometrías como por ejemplo las curvas de nivel se digitalizan habitualmente en modo continuo. Eso requiere que el usuario mantenga pulsado el botón/pedal de dato mientras digitaliza la geometría. 
 
-Con esta opción se puede indicar a la orden [LINEA](../../../ventana-de-dibujo/ordenes/l/linea.md) que, al pulsar el botón de Dato, entienda que se está dibujando una línea continua y que por lo tanto no es necesario que el botón de Dato se mantenga pulsado, sino que por el mero hecho de mover el dispositivo de entrada \(ratón, manivelas, etc.\) se deben añadir segmentos a la línea.
+Con esta opción se puede indicar a la orden [LINEA](../../../digi3d.net/ventana-de-dibujo/ordenes/l/linea.md) que, al pulsar el botón de Dato, entienda que se está dibujando una línea continua y que por lo tanto no es necesario que el botón de Dato se mantenga pulsado, sino que por el mero hecho de mover el dispositivo de entrada \(ratón, manivelas, etc.\) se deben añadir segmentos a la línea.
 
 ## Órdenes \(seleccionar código\)
 
@@ -131,9 +131,9 @@ Permite indicar el conjunto de órdenes que se ejecutarán cuando el usuario pul
 
 ## Archivo de ayuda
 
-Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](../../../paneles/ayuda-dinamica.md) si se selecciona este código.
+Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](../../../digi3d.net/paneles/ayuda-dinamica.md) si se selecciona este código.
 
-El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](../../../cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md#directorio-de-ayudas-de-codigos) configurado en el programa.
+El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](../../../digi3d.net/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md#directorio-de-ayudas-de-codigos) configurado en el programa.
 
 ## Analizar reglas de modelo semántico
 
