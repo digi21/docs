@@ -22,11 +22,18 @@ Muestra un listado con todas las topologías configuradas en la tabla de código
 
 Dispone de los siguientes botones:
 
-*  [Añadir Topología](anadir-topologia.md).
+* **Añadir** Permite añadir una nueva topología mediante el cuadro de diálogo [Añadir Topología](anadir-topologia.md). 
+* **Eliminar** Elimina la topología seleccionada.
+* **Modificar** Permite modificar la topología seleccionada mediante el cuadro de diálogo [Añadir Topología](anadir-topologia.md). 
 
 ### Lista de códigos
 
 Muestra un listado con todos los códigos con los que se forma la topología seleccionada en la [lista de topologías configuradas](./#lista-de-topologias-configuradas).
+
+Dispone de los siguientes botones:
+
+* **Añadir** Permite añadir un código a la topología seleccionada mediante el cuadro de diálogo [Seleccionar códigos para topología](seleccionar-codigos-para-topologia.md). 
+* **Eliminar** Elimina el código seleccionado.
 
 ### Lista de centroides 
 

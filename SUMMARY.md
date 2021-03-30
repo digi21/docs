@@ -697,6 +697,7 @@
           * [Polígonos topológicos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/topologias/poligonos-topologicos.md)
           * [Centroide](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/topologias/centroide.md)
           * [Añadir topología](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-topologia.md)
+          * [Seleccionar códigos para topología](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/topologias/seleccionar-codigos-para-topologia.md)
         * [Códigos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/README.md)
           * [Propiedades del código](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md)
           * [Base de datos](digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/codigos/base-de-datos.md)
