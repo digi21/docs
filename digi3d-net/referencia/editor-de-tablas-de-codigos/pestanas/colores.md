@@ -6,7 +6,7 @@ Esta pestaña permite configurar la paleta de colores para la representación de
 
 ## Paleta de colores
 
-Permite configurar el color que tendrá asignado cada uno de las 256 entradas de la paleta. Pulsando sobre cualquier color de la paleta nos aparece un cuadro de diálogo que nos permite cambiar dicho color.
+Permite configurar el color que tendrá asignado cada una de las 256 entradas de la paleta. Pulsando sobre cualquier color de la paleta nos aparece un cuadro de diálogo que nos permite cambiar dicho color.
 
 El programa tiene preconfiguradas tres paletas de color estándar que se pueden seleccionar mediante las opciones del menú:
 
