@@ -24,7 +24,7 @@ Dispone de los siguientes botones:
 
 * **Añadir** Permite añadir una nueva topología mediante el cuadro de diálogo [Añadir Topología](anadir-topologia.md). 
 * **Eliminar** Elimina la topología seleccionada.
-* **Modificar** Permite modificar la topología seleccionada mediante el cuadro de diálogo [Añadir Topología](anadir-topologia.md). 
+* **Modificar** Permite modificar la topología seleccionada mediante el cuadro de diálogo _Añadir topología_.
 
 ### Lista de códigos
 
@@ -39,7 +39,19 @@ Dispone de los siguientes botones:
 
 Muestra un listado con todos los centroides configurados para la topología seleccionada en la [lista de topologías configuradas](./#lista-de-topologias-configuradas).
 
+Dispone de los siguientes botones:
+
+* **Añadir** Permite añadir centroides mediante el cuadro de dialogo [Añadir centroide](anadir-centroide.md).
+* **Eliminar** Elimina el centroide seleccionado.
+* **Modificar** Modifica el centroide seleccionado mediante el cuadro de diálogo _Añadir centroide_.
+
 ### Diccionario de valores
 
 Muestra el [diccionario de valores](centroide.md#diccionario-de-valores) asociado con el centroide seleccionado en la [lista de centroides](./#lista-de-centroides).
+
+Dispone de los siguientes botones:
+
+* **Añadir** Permite añadir una nueva entrada al diccionario de valores mediante un cuadro de diálogo que permite introducir una clave y un valor.
+* **Eliminar** Elimina la entrada seleccionada en el diccionario de valores.
+* **Modificar** Modifica la entrada seleccionada en el diccionario de valores.
 
