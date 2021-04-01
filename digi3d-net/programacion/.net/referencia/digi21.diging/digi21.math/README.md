@@ -5,7 +5,7 @@ Proporciona tipos relacionados con matemáticas.
 Implementa los siguientes tipos:
 
 * [Angles](angles/)
-* [IDesplazable](idesplazable.md)
+* [IDesplazable](idesplazable/)
 * [IWindow3D](iwindow3d.md)
 * [IWindow2D](iwindow2d.md)
 * [Point2D](point2d.md)
