@@ -154,3 +154,11 @@ Se pueden seleccionar las siguientes opciones:
 * **VisualBasic** Indica que el guion está programado en el lenguaje de programación Visual Basic .NET
 * **JScript** Indica que el guion está programado en el lenguaje de programación JScript .NET.
 
+## Guion
+
+Código fuente del guion de control de calidad.
+
+La creación de guiones de control de calidad requiere unos conocimientos mínimos de programación. Puedes aprender más en [Guiones de control de calidad](../../../../programacion/.net/guiones-de-control-de-calidad.md).
+
+
+
