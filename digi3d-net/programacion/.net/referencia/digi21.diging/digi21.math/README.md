@@ -6,7 +6,7 @@ Implementa los siguientes tipos:
 
 * [Angles](angles/)
 * [IDesplazable](idesplazable/)
-* [IWindow3D](iwindow3d.md)
+* [IWindow3D](iwindow3d/)
 * [IWindow2D](iwindow2d.md)
 * [Point2D](point2d.md)
 * [Point3D](point3d.md)
