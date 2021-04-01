@@ -3,12 +3,12 @@
 Devuelve el punto al oeste de la ventana o geometría que implemente esta interfaz.
 
 ```csharp
-Point3D W { get; }
+Point2D W { get; }
 ```
 
 ## Valor de la propiedad
 
-[Point3D](../../point3d.md)
+[Point2D](../../Point2D.md)
 
-Un punto 3D con la coordenada \(X mínima, Y central, Z mínima\) de la ventana.
+Un punto 3D con la coordenada \(X mínima, Y central\) de la ventana.
 

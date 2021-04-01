@@ -3,12 +3,12 @@
 Devuelve el punto al norte de la ventana o geometría que implemente esta interfaz.
 
 ```csharp
-Point3D N { get; }
+Point2D N { get; }
 ```
 
 ## Valor de la propiedad
 
-[Point3D](../../point3d.md)
+[Point2D](../../Point2D.md)
 
-Un punto 3D con la coordenada \(X central, Y máxima, Z mínima\) de la ventana.
+Un punto 3D con la coordenada \(X central, Y máxima\) de la ventana.
 
