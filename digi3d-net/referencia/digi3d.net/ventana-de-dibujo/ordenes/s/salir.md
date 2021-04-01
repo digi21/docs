@@ -16,7 +16,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](salir.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Salir |

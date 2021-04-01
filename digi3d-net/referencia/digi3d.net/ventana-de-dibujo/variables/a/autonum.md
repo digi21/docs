@@ -29,7 +29,7 @@ Si queremos volver a comenzar desde el número 1 por ejemplo, cuando la orden _T
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/AUTONUM.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/AUTONUM.mp4" %}
 
 ## Características de la orden
 
@@ -41,4 +41,6 @@ Si queremos volver a comenzar desde el número 1 por ejemplo, cuando la orden _T
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [FORMATO\_AUTONUM](../f/formato-autonum.md) |
 | Nombre interno | {3C350BC2-A34D-4dea-ADB7-4DDBFA9E1475} |
+
+
 

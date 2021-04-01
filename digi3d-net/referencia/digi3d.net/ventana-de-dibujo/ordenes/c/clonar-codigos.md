@@ -12,7 +12,7 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden Interactiva](clonar-codigos.md) |
+| Tipo de orden | [Orden Interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Más/Asignar los códigos de una entidad existente |

@@ -8,7 +8,7 @@ Digi3D te va a permitir cambiar entre las siguientes formas de íncice:
 | :--- | :--- |
 | Índice mediano | Es un punto de 3x3 píxeles en pantalla del color indicado por el usuario rodeado de un aro de color negro. |
 | Índice grande | Es un punto de 6x6 píxeles en pantalla del color indicado por el usuario rodeado de un aro de color negro. |
-| Aspa | Un aspa grande. Se utiliza para digitalizar con precisión en marcas fidufiales con forma de aspa al realizar una [orientación interna](cambiando-indice-ventana-foto.md) de cámara analógica. |
+| Aspa | Un aspa grande. Se utiliza para digitalizar con precisión en marcas fidufiales con forma de aspa al realizar una [orientación interna]() de cámara analógica. |
 | Cruz horizontal | Una cruz grande. Se utiliza para digitalizar con precisión en marcas fidufiales con forma de cruz al realizar una orientación interna de cámara analógica. |
 
 Vamos a cambiar el tipo de índice y su color
@@ -31,5 +31,7 @@ Comprobarás que Digi3D cambia el tipo de índice. El índice varía siguiendo u
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Cambiando%20el%20tipo%20de%20indice%20en%20la%20ventana%20fotogrametrica.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Cambiando%20el%20tipo%20de%20indice%20en%20la%20ventana%20fotogrametrica.mp4" %}
+
+
 

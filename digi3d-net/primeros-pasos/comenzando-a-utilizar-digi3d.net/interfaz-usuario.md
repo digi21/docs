@@ -1,6 +1,6 @@
 # Interfaz de usuario de Digi3D.NET
 
-El interfaz de usuario de Digi3D.NET consiste en varias áreas detalladas a continuación:
+El interfaz de usuario de Digi3D.NET  consiste en varias áreas detalladas a continuación: 
 
 ![Interfaz de usuario de Digi3D.NET](../../../.gitbook/assets/interfaz-de-usuario-de-digi3d.png)
 
@@ -14,5 +14,7 @@ El interfaz de usuario de Digi3D.NET consiste en varias áreas detalladas a cont
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Introduccion%20al%20interfaz%20de%20usuario%20de%20Digi3D.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Introduccion%20al%20interfaz%20de%20usuario%20de%20Digi3D.mp4" %}
+
+
 

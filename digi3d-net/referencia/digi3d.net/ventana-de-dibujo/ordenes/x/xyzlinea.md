@@ -14,7 +14,7 @@ Al pulsar la barra de espacio se finaliza la orden y se introducen los vértices
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](xyzlinea.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

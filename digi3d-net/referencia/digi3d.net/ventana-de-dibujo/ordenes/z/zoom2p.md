@@ -12,7 +12,7 @@ El usuario deberá pinchar primero el punto para "agarrar" el dibujo en esa posi
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom2p.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Desplazar la vista |

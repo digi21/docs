@@ -18,7 +18,7 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](carga-t.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -1,6 +1,6 @@
 # TOL
 
-Establece el _factor de tolerancia_ en el proceso de [generalización](tol.md).
+Establece el _factor de tolerancia_ en el proceso de [generalización]().
 
 ## Parámetros
 
@@ -28,17 +28,17 @@ Al generalizar los puntos que componen una entidad, la función comprueba si la 
 * Si es así, este punto se elimina del fichero.
 * En caso contrario se graban sus coordenadas.
 
-También se considera el valor de la tolerancia angular dado por la orden [TOL\_ANG](https://github.com/digi21/docs/tree/bc01fbb8f283bc40e48776a9f72a3e40db73b2a0/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/t/TOL_ANG.html).
+También se considera el valor de la tolerancia angular dado por la orden [TOL\_ANG](TOL_ANG.html).
 
 El proceso de generalizar, se ejecuta con todos y cada uno de los puntos de una entidad.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](tol.md) |
+| Tipo de orden | [Variable real]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](https://github.com/digi21/docs/tree/bc01fbb8f283bc40e48776a9f72a3e40db73b2a0/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/t/REPITE.html) |
+| Variables relacionadas | [REPITE](REPITE.html) |
 

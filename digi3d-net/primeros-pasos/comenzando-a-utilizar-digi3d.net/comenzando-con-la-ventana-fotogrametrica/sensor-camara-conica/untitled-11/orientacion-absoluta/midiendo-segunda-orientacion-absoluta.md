@@ -4,9 +4,9 @@ La segunda orientación absoluta es más sencilla que la primera, pues el progra
 
 Una vez indicado el punto que queremos medir, el programa comprueba si dicho punto está ya medido en alguna foto. En caso afirmativo bloqueará esa foto de modo que aunque movamos nuestro dispositivo de entrada \(ratón, topomouse, manivelas\) en _X,Y_ las imágenes no se moverán. Únicamente podremos mover la imagen donde el punto no fue medido mediante un movimiento de la coordenada _Z,_ de esta manera nos aseguramos de que ese punto no se mida en la misma foto en otra posición.
 
-Además, gracias a que el programa almacena una instantánea por cada punto medido, si tenemos abierto el [Panel Instantáneas](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/PanelInstantaneas.html) podremos ver dónde se midió ese punto por primera vez.
+Además, gracias a que el programa almacena una instantánea por cada punto medido, si tenemos abierto el [Panel Instantáneas](PanelInstantaneas.html) podremos ver dónde se midió ese punto por primera vez.
 
-Es necesario que finalices los pasos de [Archivos De Orientacion Absoluta](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/ArchivosDeOrientacionAbsoluta.html) antes de ejecutar los siguientes pasos para comprobar los archivos que se han generado:
+Es necesario que finalices los pasos de [Archivos De Orientacion Absoluta](ArchivosDeOrientacionAbsoluta.html) antes de ejecutar los siguientes pasos para comprobar los archivos que se han generado:
 
 A continuación tienes la posición \(en la foto 107\) de los puntos que vas a medir en este modelo \(son los que aparecen en color rojo\):
 
@@ -34,10 +34,10 @@ Y a continuación una tabla con los puntos a medir en mayor detalle \(y por orde
 11. En el campo **Cámara derecha** indica la ruta al archivo %EjemplosDigi3D%\Bronchales\RMK15.cam
 12. Pulsa el botón **Aceptar**. Se abrirá la ventana fotogramétrica mostrando el modelo _108-109_.
 13. Comprueba que el botón **I** de la **Barra de herramientas** de la ventana fotogramétrica está encendido, el resto de botones permanecerán apagados. Esto es así porque por ahora tenemos únicamente la orientación interna de la cámara izquierda. No hemos realizado aún la orientación interna de la cámara derecha, ni la orientación relativa.
-14. Genera la [orientación interna de la cámara derecha](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/OrientacionInternaDeLaCamaraDerecha.html).
-15. Genera la [orientación relativa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/MidiendoLaOrientacionRelativaAutomaticamente.html) del modelo.
+14. Genera la [orientación interna de la cámara derecha](OrientacionInternaDeLaCamaraDerecha.html).
+15. Genera la [orientación relativa](MidiendoLaOrientacionRelativaAutomaticamente.html) del modelo.
 16. Pulsa el botón **Orientación absoluta** para comenzar a medir la orientación absoluta.
-17. En el [cuadro de diálogo Introduce un punto terreno del archivo de puntos](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html) selecciona el punto número **7**. Recuerda que el punto número _7_ ya había sido medido en la foto _108_ \(en el modelo anterior era la foto derecha, en este modelo es la foto izquierda\), de modo que por el mero echo de medirlo el programa mueve la cámara izquierda a esas coordenadas y **bloquea** la cámara izquierda. No podemos mover la imagen en _X,Y_ con nuestro dispositivo de entrada, únicamente podemos moverla en _Z_, y ese movimiento de la coordenada _Z_ de nuestro dispositivo de entrada únicamente va a permitirnos mover la imagen que no tiene ese punto ya medido. De esta manera, tenemos la garantía de que el punto _7_ se va a medir en la foto _108_ exactamente en el mismo punto en el que se midió en el modelo anterior. Además puedes comprobar que el programa va a localizar automáticamente la otra imagen por [correlación](midiendo-segunda-orientacion-absoluta.md), de manera que si el proceso de correlación no ha fallado, tan solo tendremos que confirmar que el punto se ha medido bien.
+17. En el [cuadro de diálogo Introduce un punto terreno del archivo de puntos](CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html) selecciona el punto número **7**. Recuerda que el punto número _7_ ya había sido medido en la foto _108_ \(en el modelo anterior era la foto derecha, en este modelo es la foto izquierda\), de modo que por el mero echo de medirlo el programa mueve la cámara izquierda a esas coordenadas y **bloquea** la cámara izquierda. No podemos mover la imagen en _X,Y_ con nuestro dispositivo de entrada, únicamente podemos moverla en _Z_, y ese movimiento de la coordenada _Z_ de nuestro dispositivo de entrada únicamente va a permitirnos mover la imagen que no tiene ese punto ya medido. De esta manera, tenemos la garantía de que el punto _7_ se va a medir en la foto _108_ exactamente en el mismo punto en el que se midió en el modelo anterior. Además puedes comprobar que el programa va a localizar automáticamente la otra imagen por [correlación](), de manera que si el proceso de correlación no ha fallado, tan solo tendremos que confirmar que el punto se ha medido bien.
 18. Digitaliza el punto número **7** pulsando cualquier botón de tu dispositivo de entrada.
 19. Aparece el _cuadro de diálogo Introduce un punto terreno del archivo de puntos._ Selecciona ahora el punto número **6**. Vuelve a suceder lo mismo que en el punto anterior.
 20. Mide el punto número **6** pulsando cualquier botón de tu dispositivo de entrada.
@@ -46,5 +46,7 @@ Y a continuación una tabla con los puntos a medir en mayor detalle \(y por orde
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Orientacion%20absoluta%20del%20segundo%20modelo.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Orientacion%20absoluta%20del%20segundo%20modelo.mp4" %}
+
+
 

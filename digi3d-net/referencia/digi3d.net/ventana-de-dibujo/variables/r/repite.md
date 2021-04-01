@@ -36,14 +36,14 @@ Algunas órdenes tienen la capacidad de auto-ejecutarse cada vez que finalizan. 
 
 Esta orden es de tipo booleano, lo que significa que puede estar activa o desactiva.
 
-* Si la orden está activa y ejecutamos una orden que admite repetición, como por ejemplo [CIRCR](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/r/CIRCR.html), cuando se digitalice un círculo, la orden CIRCR se auto-destruirá, pero al estar activa la orden _REPITE_, _DigiNG_ volverá a ejecutar la orden _CIRCR_.
+* Si la orden está activa y ejecutamos una orden que admite repetición, como por ejemplo [CIRCR](CIRCR.html), cuando se digitalice un círculo, la orden CIRCR se auto-destruirá, pero al estar activa la orden _REPITE_, _DigiNG_ volverá a ejecutar la orden _CIRCR_.
 * Si la orden no está activa y ejecutamos una orden que admite repetición, cuando ésta se destruya no se volverá a ejecutar automáticamente.
 
-Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_ULTIMO](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/r/BORRA_ULTIMO.html), pues si esta orden admitiese repetición, si se ejecuta con el valor de REPITE activado, se borraría todo el modelo al ejecutarla.
+Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_ULTIMO](BORRA_ULTIMO.html), pues si esta orden admitiese repetición, si se ejecuta con el valor de REPITE activado, se borraría todo el modelo al ejecutarla.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](repite.md) |
+| Tipo de orden | [Variable booleana]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Variables booleanas/Repetir la última orden |

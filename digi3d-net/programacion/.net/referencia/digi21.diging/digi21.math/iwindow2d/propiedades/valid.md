@@ -10,6 +10,8 @@ bool Valid { get; }
 
 _bool_
 
-Verdadero si la ventana se ha inicializado con al menos un punto.  
+Verdadero si la ventana se ha inicializado con al menos un punto.   
 Falso si la ventana se ha instanciado, pero aún no se ha inicializado con ningún punto.
+
+
 

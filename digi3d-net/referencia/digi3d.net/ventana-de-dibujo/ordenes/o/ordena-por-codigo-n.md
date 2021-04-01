@@ -12,7 +12,7 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ordena-por-codigo-n.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Avandazado/Ordenar las entidades del archivo de dibujo por código numérico |

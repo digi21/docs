@@ -12,7 +12,7 @@ Al ejecutar la orden ésta solicita que se seleccione una o varias entidades a e
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](exportar-entidades-seleccionadas.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Archivo/Exportar entidades seleccionadas |

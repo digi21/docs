@@ -129,7 +129,7 @@ En cualquiera de las opciones seleccionadas se presenta la opción de **Defecto*
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](importar.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Importar... |

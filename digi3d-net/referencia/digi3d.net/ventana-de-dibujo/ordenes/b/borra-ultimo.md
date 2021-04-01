@@ -12,7 +12,7 @@ Cada vez que se ejecute la orden desaparecerá la entidad que se encuentre físi
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](borra-ultimo.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

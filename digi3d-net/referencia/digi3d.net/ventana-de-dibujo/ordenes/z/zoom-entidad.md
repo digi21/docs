@@ -12,7 +12,7 @@ Proporciona mayor velocidad al restituir y editar.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom-entidad.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom a entidades seleccionadas |

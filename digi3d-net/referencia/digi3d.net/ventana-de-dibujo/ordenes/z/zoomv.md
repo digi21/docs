@@ -12,7 +12,7 @@ La ventana se define señalando dos puntos en pantalla.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoomv.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom ventana |

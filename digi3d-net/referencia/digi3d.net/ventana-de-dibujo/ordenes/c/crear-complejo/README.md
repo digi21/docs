@@ -12,7 +12,7 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](./) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Crear un elemento complejo |

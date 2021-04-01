@@ -12,7 +12,7 @@ El efecto visual es de aproximación, viéndose las entidades de dibujo al doble
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom-mas.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom + |

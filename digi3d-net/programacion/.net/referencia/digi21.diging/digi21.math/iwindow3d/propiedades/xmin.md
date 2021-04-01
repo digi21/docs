@@ -10,6 +10,6 @@ double? Xmin { get; set; }
 
 _`double?`_
 
-Devuelve el valor X mínima de la ventana o geometría en caso de que la ventana se haya inicializado con al menos un punto.  
+Devuelve el valor X mínima de la ventana o geometría en caso de que la ventana se haya inicializado con al menos un punto.   
 Devuelve `null` si la ventana aún no se ha inicializado.
 

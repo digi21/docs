@@ -12,3 +12,7 @@ Permite ejecutar órdenes relacionadas con finalizar la línea que se está digi
 * Botón que ejecuta la orden [U2](../ventana-de-dibujo/ordenes/u/u2.md).
 * Botón que ejecuta la orden [UM](../ventana-de-dibujo/ordenes/u/um.md).
 
+
+
+
+

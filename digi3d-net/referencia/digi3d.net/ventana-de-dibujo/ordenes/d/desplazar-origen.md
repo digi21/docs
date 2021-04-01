@@ -12,7 +12,7 @@ Si necesitas cambiar la geometría de una entidad cerrada y el origen de dicha e
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](desplazar-origen.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

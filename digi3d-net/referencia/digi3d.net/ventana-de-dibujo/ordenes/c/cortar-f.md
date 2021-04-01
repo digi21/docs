@@ -21,7 +21,7 @@ Si marcas la casilla Cortar por fuera, el nuevo fichero se genera con las entida
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cortar-f.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Cortar fichero... |

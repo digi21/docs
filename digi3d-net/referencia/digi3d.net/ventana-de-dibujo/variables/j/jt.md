@@ -34,7 +34,7 @@ Debemos tener en cuenta que para fuentes _TrueType_, las justificaciones 1, 5 y 
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](jt.md) |
+| Tipo de orden | [Variable real]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Justificación de texto |

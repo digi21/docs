@@ -1,6 +1,6 @@
 # Referencia
 
-Digi3D.NET es una aplicación mixta de Windows, lo que significa que parte de la aplicación es nativa y parte es administrada.
+Digi3D.NET es una aplicación mixta de Windows, lo que significa que parte de la aplicación es nativa y parte es administrada. 
 
 La parte administrada son una serie de ensamblados firmados digitalmente que se instalan en el GAC y que permiten a las aplicaciones .NET acceder a los servicios que proporciona el programa.
 
@@ -12,7 +12,7 @@ Al instalar cualquiera de estos paquetes NuGet lo que se instala es un [ensambla
 
 A continuación, el listado de paquetes NuGet:
 
-* [Digi21.DigiNG](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/programacion/.net/referencia/digi21.diging)
+* [Digi21.DigiNG](digi21.diging/)
 * [Digi21.DigiNG.Plugin](digi21.diging.plugin.md)
 * [Digi21.Utilities](digi21.utilities.md)
 * [Digi21.DigiNG.Topology](digi21.diging.topology.md)
@@ -22,4 +22,14 @@ A continuación, el listado de paquetes NuGet:
 * [Digi21.DigiNG.IO.BinDouble](digi21.diging.io.bindouble.md)
 * [Digi21.DigiNG.IO.Shp](digi21.diging.io.shp.md)
 * [Digi21.DigiNG.IO.Geomedia](digi21.diging.io.geomedia.md)
+
+
+
+
+
+
+
+
+
+
 

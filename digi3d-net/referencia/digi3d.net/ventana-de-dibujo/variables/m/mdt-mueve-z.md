@@ -34,7 +34,7 @@ Para poder editar puntos de la correlación se necesita tener desactivada la pro
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mdt-mueve-z.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Proyectar la coordenada Z al moverse sobre un MDT cargado |

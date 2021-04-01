@@ -29,3 +29,7 @@ Esta ventana tiene una barra de herramientas con los siguientes botones:
 
 Al seleccionar un campo, aparecerán sus [propiedades](propiedades-de-los-campos.md) en la parte derecha.
 
+
+
+
+

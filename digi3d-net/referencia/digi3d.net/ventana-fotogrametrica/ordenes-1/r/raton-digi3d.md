@@ -33,7 +33,7 @@ Captura y descaptura el ratón de Windows en la ventana fotogramétrica.
 
 ## Observaciones
 
-Independientemente del dispositivo de entrada que tengamos seleccionado \([topo-mouse](raton-digi3d.md), [sistemas de manivelas](raton-digi3d.md), ....\) siempre podemos utilizar cualquiera de los ratones conectados al sistema como dispositivo de entrada en la ventana fotogramétrica.
+Independientemente del dispositivo de entrada que tengamos seleccionado \([topo-mouse](),  [sistemas de manivelas](), ....\) siempre podemos utilizar cualquiera de los ratones conectados al sistema como dispositivo de entrada en la ventana fotogramétrica.
 
 Cuando la ventana fotogramétrica captura el ratón, este deja de ser visible para Windows, ya que la ventana fotogramétrica oculta su icono hasta que se vuelve a liberar. Los movimientos del ratón se convertirán en movimientos de las imágenes mostradas en la ventana fotogramétrica.
 
@@ -54,11 +54,13 @@ Existen tres formas de liberar el ratón de la ventana fotogramétrica:
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](raton-digi3d.md) |
+| Tipo de orden | [Variable booleana]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+
+
 

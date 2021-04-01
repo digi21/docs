@@ -12,5 +12,7 @@ El interfaz de usuario de Digi3D.NET consiste en varias áreas detalladas a cont
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Interfaz%20de%20usuario%20de%20la%20ventana%20fotogrametrica.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Interfaz%20de%20usuario%20de%20la%20ventana%20fotogrametrica.mp4" %}
+
+
 

@@ -82,7 +82,7 @@ Los parámetros de exportación dependerán del tipo de archivo.
 
 ## Observaciones
 
-Por defecto, si intentas abrir un archivo .dgn o .dxf \(con la orden [CARGA\_F](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/CARGA_F.html), o [IMPORTAR](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/IMPORTAR.html) o [EXPORTAR](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/EXPORTAR.html)\), aparece el cuadro de diálogo de configuración donde se especifican los parámetros para la orden. Si no te interesa que aparezca este cuadro de diálogo o bien quieres ejecutar estas órdenes desde la línea de comandos, deberás especificar estos valores a priori mediante la orden _PARAMETROS\_IMPORTACIÓN_.
+Por defecto, si intentas abrir un archivo .dgn o .dxf \(con la orden [CARGA\_F](CARGA_F.html), o [IMPORTAR](IMPORTAR.html) o [EXPORTAR](EXPORTAR.html)\), aparece el cuadro de diálogo de configuración donde se especifican los parámetros para la orden. Si no te interesa que aparezca este cuadro de diálogo o bien quieres ejecutar estas órdenes desde la línea de comandos, deberás especificar estos valores a priori mediante la orden _PARAMETROS\_IMPORTACIÓN_.
 
 Sintaxis:
 
@@ -100,7 +100,7 @@ donde:
 
 La orden PARAMETROS\_IMPORTACION recibe tres parámetros, por lo que todos los parámetros que recibe el importador tienen que ir delimitados entre comillas dobles o simples como en el ejemplo anterior, si a su vez los parámetros que recibe el importador tienen que estar entrecomillados por que contienen espacios, se utilizará el delimitador opuesto.
 
-Después de haber ejecutado la orden PARAMETROS\_IMPORTACION para definir los parámetros para el formato deseado, el usuario podrá ejecutar las órdenes de importación o exportación que le interesen más: [CARGA\_F](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/CARGA_F.html), [IMPORTAR](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/IMPORTAR.html), [EXPORTAR](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/EXPORTAR.html).
+Después de haber ejecutado la orden PARAMETROS\_IMPORTACION para definir los parámetros para el formato deseado, el usuario podrá ejecutar las órdenes de importación o exportación que le interesen más: [CARGA\_F](CARGA_F.html), [IMPORTAR](IMPORTAR.html), [EXPORTAR](EXPORTAR.html).
 
 `EXPORTAR=C:\prueba.dxf`
 
@@ -118,7 +118,7 @@ Puedes desactivar los parámetros asociados con alguna extensión, llamando a es
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](parametros-importacion.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

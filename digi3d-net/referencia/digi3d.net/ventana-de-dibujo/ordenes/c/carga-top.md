@@ -16,7 +16,7 @@ Puedes marcar las siguientes casillas:
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](carga-top.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

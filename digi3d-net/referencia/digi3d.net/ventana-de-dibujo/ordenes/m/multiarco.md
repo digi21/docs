@@ -12,7 +12,7 @@ El último punto de un arco y el primero del siguiente es el mismo.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](multiarco.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Secuencia de arcos |

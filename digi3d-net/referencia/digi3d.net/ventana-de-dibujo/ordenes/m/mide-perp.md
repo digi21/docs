@@ -12,7 +12,7 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mide-perp.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Medir una distancia perpendicular |

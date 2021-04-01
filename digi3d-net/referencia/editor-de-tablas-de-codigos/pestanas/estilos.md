@@ -87,17 +87,37 @@ Permite indicar la distancia con respecto al primer vértice de la línea a la q
 
 ### Factor de escala en X
 
-Permite indicar el factor de escala en horizontal del símbolo.
+Permite indicar el factor de escala en horizontal del símbolo. 
 
 > Si se introduce un 0 aquí no se mostrará el símbolo
 
 ### Factor de escala en Y
 
-Permite indicar el factor de escala en vertical del símbolo.
+Permite indicar el factor de escala en vertical del símbolo. 
 
 > Si se introduce un 0 aquí no se mostrará el símbolo
 
 ### Rotación del símbolo
 
 Permite especificar una rotación en grados sexagesimales con la que se dibujará el símbolo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

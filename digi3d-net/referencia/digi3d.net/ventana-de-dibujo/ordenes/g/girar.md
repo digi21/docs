@@ -16,7 +16,7 @@ No admite parámetros.
   <thead>
     <tr>
       <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href="girar.md">Orden inmediata</a>
+      <th style="text-align:left"><a href>Orden inmediata</a>
       </th>
     </tr>
   </thead>

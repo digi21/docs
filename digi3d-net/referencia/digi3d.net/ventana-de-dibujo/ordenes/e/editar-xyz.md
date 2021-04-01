@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden trabaja igual que la orden [EDITAR](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/e/EDITAR.html), variando ahora que cuando se modifique un vértice de la entidad, dicho vértice tomará la cota que se tenga en ese momento activa. El valor activo se establece con la orden [Z](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/e/Z.html), o bien por la entrada del dato a través del restituidor.
+Esta orden trabaja igual que la orden [EDITAR](EDITAR.html), variando ahora que cuando se modifique un vértice de la entidad, dicho vértice tomará la cota que se tenga en ese momento activa. El valor activo se establece con la orden [Z](Z.html), o bien por la entrada del dato a través del restituidor.
 
 * Pulsando la tecla + se pasa al vértice siguiente en el sentido de avance.
 * Pulsando la tecla - se retrocede al vértice anterior.
@@ -20,11 +20,11 @@ Esta orden trabaja igual que la orden [EDITAR](https://github.com/digi21/docs/tr
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](editar-xyz.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Editar vértices en XYZ |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/e/REPITE.html) |
+| Variables relacionadas | [REPITE](REPITE.html) |
 

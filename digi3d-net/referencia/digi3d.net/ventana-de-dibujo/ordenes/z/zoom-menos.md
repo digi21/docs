@@ -12,7 +12,7 @@ El efecto visual es de alejamiento, viéndose las entidades de dibujo a la mitad
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom-menos.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom - |

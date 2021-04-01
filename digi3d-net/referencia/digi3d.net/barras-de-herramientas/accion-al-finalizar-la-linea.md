@@ -17,3 +17,5 @@ Permite configurar las acciones que realizará Digi3D.NET al finalizar una líne
 * Botón que configura el valor de _IR\_PRINCIPIO_ a no desplazarse en X, Y, pero incrementar la coordenada Z en un múltiplo de la equidistancia.
 * Botón que configura el valor de _IR\_PRINCIPIO_ a no desplazarse en X, Y, pero decrementar la coordenada Z en un múltiplo de la equidistancia.
 
+
+

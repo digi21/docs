@@ -14,7 +14,7 @@ Puedes deseleccionar recintos sin finalizar la orden, presionando el botón dere
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoome-r.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom a la extensión del recinto por inundación |

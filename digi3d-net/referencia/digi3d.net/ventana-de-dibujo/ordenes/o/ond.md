@@ -33,7 +33,7 @@ Digi3D nos permite cargar archivos de muestra de códigos o guardar uno que gene
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ond.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

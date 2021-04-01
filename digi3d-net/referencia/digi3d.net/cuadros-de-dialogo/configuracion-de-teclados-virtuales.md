@@ -24,3 +24,5 @@ En caso de tener cargado más de un archivo de configuración de teclas, puedes 
 * La orden [CAMBIA\_TECLAS\_MNU](../ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md).
 * El desplegable de la [Barra de herramientas Teclados](../barras-de-herramientas/teclados.md).
 
+
+

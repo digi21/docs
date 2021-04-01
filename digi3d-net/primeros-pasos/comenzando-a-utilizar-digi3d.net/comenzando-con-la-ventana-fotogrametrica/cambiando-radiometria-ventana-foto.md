@@ -15,5 +15,7 @@ Puedes cambiar en cualquier momento los parámetros de brillo, contraste y gamma
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Cambiando%20la%20radiometria%20de%20las%20imagenes%20de%20la%20ventana%20fotogrametrica.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Cambiando%20la%20radiometria%20de%20las%20imagenes%20de%20la%20ventana%20fotogrametrica.mp4" %}
+
+
 

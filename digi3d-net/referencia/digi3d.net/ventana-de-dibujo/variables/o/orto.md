@@ -36,7 +36,7 @@ Si cuando se dibuja está activado, cada segmento que se trace, se fuerza a que 
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](orto.md) |
+| Tipo de orden | [Variable booleana]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Ortogonal |

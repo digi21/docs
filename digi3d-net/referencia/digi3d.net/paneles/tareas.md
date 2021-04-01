@@ -44,3 +44,7 @@ Se puede mostrar el panel de las siguientes formas:
 * Orden [CARGAR\_TAREAS](../ventana-de-dibujo/ordenes/c/cargar-tareas.md).
 * Orden [GUARDAR\_TAREAS](../ventana-de-dibujo/ordenes/g/guardar-tareas.md).
 
+
+
+
+

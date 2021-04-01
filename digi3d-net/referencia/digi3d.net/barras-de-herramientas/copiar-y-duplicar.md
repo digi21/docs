@@ -10,3 +10,5 @@ Permite ejecutar órdenes relacionadas con copiar y duplicar geometrías.
 * Botón que ejecuta la orden [COPIA2P](../ventana-de-dibujo/ordenes/c/copia-2p.md).
 * Botón que ejecuta la orden [DUP](../ventana-de-dibujo/ordenes/d/dup.md).
 
+
+

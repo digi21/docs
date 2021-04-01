@@ -18,7 +18,7 @@ Esta orden supone que entre cada dos curvas de nivel directoras se dibujan 4 fin
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cod-curvas.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Códigos especiales/Códigos de curvas de nivel... |

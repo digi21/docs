@@ -12,7 +12,7 @@ Debemos introducir el número de escalones de la escalera, que serán paralelos 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](escalera.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Mas/Escalera indicando el número de peldaños |

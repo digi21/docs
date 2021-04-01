@@ -8,11 +8,11 @@ No admite parámetros.
 
 ## Observaciones
 
-Los puntos se pueden seleccionar gráficamente con el ratón, o analíticamente por coordenadas con la orden [XY](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/m/XY.html).
+Los puntos se pueden seleccionar gráficamente con el ratón, o analíticamente por coordenadas con la orden [XY](XY.html).
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mide.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Medir una distancia |

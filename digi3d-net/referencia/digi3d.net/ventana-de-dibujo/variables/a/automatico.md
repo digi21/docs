@@ -12,7 +12,7 @@ Puedes aprender más sobre órdenes automática en [Ejecutando órdenes de maner
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/ejecutando\_ordenes\_manera\_automatica.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/ejecutando\_ordenes\_manera\_automatica.mp4" %}
 
 ## Características de la orden
 
@@ -24,4 +24,6 @@ Puedes aprender más sobre órdenes automática en [Ejecutando órdenes de maner
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {1FFBBCFE-F313-4854-93F5-1B9E9E15353D} |
+
+
 

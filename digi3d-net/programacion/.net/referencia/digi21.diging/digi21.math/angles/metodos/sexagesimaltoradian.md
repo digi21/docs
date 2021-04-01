@@ -26,3 +26,5 @@ var sexagesimal = double.Parse(Console.Read());
 Console.WriteLine($"Centesimal: {Angles.SexagesimalToRadian(sexagesimal)}");
 ```
 
+
+

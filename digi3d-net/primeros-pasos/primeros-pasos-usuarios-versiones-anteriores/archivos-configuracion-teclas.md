@@ -6,7 +6,7 @@ Este tipo de archivos ahora tienen extensión _.keyboard.xml_ y tienen muchas me
 
 Puedes descargar esta herramienta de [https://github.com/digi21/TeclasMnuATeclasMnuXml/releases](https://github.com/digi21/TeclasMnuATeclasMnuXml/releases)
 
-Es un programa de consola y requiere que le pases como parámetro la ruta al archivo a traducir. El programa creará en el mismo directorio que el archivo, y con el mismo nombre, pero con extensión _.keyboard.xml_.
+Es un programa de consola y requiere que le pases como parámetro la ruta al archivo a traducir. El programa creará en el mismo directorio que el archivo, y con el mismo nombre, pero con extensión _.keyboard.xml_. 
 
 Si detecta que alguna tecla no sabe cómo traducirla, te mostrará un mensaje por la misma consola, para que tengas constancia de que teclas no se pudieron traducir.
 
@@ -22,5 +22,5 @@ Ya que si no la pones absoluta como a continuación:
 C:\DIGI\Tablas\TeclasMnuATeclasMnuXml.exe miteclado.mnu
 ```
 
-Te creará el archivo \_\_en el directorio raíz \(en C:\\)
+Te creará el archivo __en el directorio raíz \(en C:\\)
 

@@ -32,17 +32,17 @@ Activa o desactiva el rellenado de entidades lineales cerradas.
 
 ## Observaciones
 
-El color de rellenado se define en el [archivo de definición de códigos](rellenar.md), con extensión .TAB. En cada línea de este tipo de archivos se define un código, y en el segundo campo se define el tipo de entidad. Si éste es negativo \(menor de 0\), indica que se trata de una entidad lineal cerrada con rellenado.
+El color de rellenado se define en el [archivo de definición de códigos](), con extensión .TAB. En cada línea de este tipo de archivos se define un código, y en el segundo campo se define el tipo de entidad. Si éste es negativo \(menor de 0\), indica que se trata de una entidad lineal cerrada con rellenado.
 
 El valor absoluto del campo define un número de color dentro del archivo DIGI.PAL, color con el que se rellenará la entidad lineal cerrada digitalizada con este código en caso de que esté esta propiedad activada.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](rellenar.md) |
+| Tipo de orden | [Variable booleana]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Rellenar polígonos |
 | Barra de herramientas en la que aparece la orden | Parámetros de visualización |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/r/REPITE.html) |
+| Variables relacionadas | [REPITE](REPITE.html) |
 

@@ -12,7 +12,7 @@ Los valores tecleados deben estar separados por espacios en blanco o comas.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](xy.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Inserción manual de coordenadas |

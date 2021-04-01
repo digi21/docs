@@ -28,7 +28,7 @@ Puedes refinar la búsqueda especificando cualquier parámetro que la orden te p
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](buscar.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Buscar |

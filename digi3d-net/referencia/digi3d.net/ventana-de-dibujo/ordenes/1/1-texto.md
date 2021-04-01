@@ -10,7 +10,7 @@ Texto a insertar
 
 ## Observaciones
 
-Si no se pasa ningún parámetro, la orden solicitará en la barra de mensajes el texto a introducir.
+Si no se pasa ningún parámetro, la orden solicitará en la barra de mensajes el texto a introducir. 
 
 La orden solicitará que se [introduzcan ](../../introduccion-de-coordenadas.md)las coordenadas donde insertar el texto, y éste se creará con la [altura de textos](../../variables/a/at.md), [ángulo activo](../../variables/a/aa.md), [justificación de textos ](../../variables/j/jt.md)configurados en el momento de la introducción del punto.
 
@@ -28,5 +28,7 @@ La orden solicitará que se [introduzcan ](../../introduccion-de-coordenadas.md)
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/1TEXTO.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/1TEXTO.mp4" %}
+
+
 

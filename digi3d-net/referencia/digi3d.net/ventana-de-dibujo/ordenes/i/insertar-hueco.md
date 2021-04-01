@@ -12,7 +12,7 @@ Para poder ejecutar la orden debes de haber generado una entidad compleja con an
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](insertar-hueco.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polígonos/Insertar hueco en polígono |

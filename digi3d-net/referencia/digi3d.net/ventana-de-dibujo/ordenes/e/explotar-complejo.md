@@ -12,7 +12,7 @@ Esta orden está diseñada para las entidades complejas de archivos en formato D
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](explotar-complejo.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Complejos/Descomponer un elemento complejo |

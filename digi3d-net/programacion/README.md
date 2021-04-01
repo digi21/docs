@@ -4,3 +4,5 @@ Digi3D.NET publica una serie de ensamblados que permiten crear tanto aplicacione
 
 Además Digi3D.NET incorpora el motor de IronPython que permite programar en el lenguaje de programación Python accediendo a todos los tipos publicados por estos ensamblados.
 
+
+

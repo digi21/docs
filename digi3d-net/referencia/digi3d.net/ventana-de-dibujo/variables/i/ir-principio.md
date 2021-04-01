@@ -45,7 +45,7 @@ En ocasiones nos interesa que al finalizar una línea la ventana fotogramétrica
   <thead>
     <tr>
       <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href="ir-principio.md">Variable booleana</a>
+      <th style="text-align:left"><a href>Variable booleana</a>
       </th>
     </tr>
   </thead>

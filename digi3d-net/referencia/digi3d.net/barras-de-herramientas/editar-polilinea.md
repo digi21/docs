@@ -17,3 +17,5 @@ Permite ejecutar órdenes relacionadas con la edición de polilíneas.
 * Botón que ejecuta la orden [GEN](../ventana-de-dibujo/ordenes/g/gen.md).
 * Botón que ejecuta la orden [SUAVIZA](../ventana-de-dibujo/ordenes/s/suaviza.md).
 
+
+

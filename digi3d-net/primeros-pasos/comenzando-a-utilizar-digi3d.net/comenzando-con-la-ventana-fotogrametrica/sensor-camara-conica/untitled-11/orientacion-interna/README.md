@@ -6,3 +6,5 @@ Ya no es habitual el tener que realizar orientaciones internas, pues la inmensa 
 
 Podemos saber rápidamente si el modelo que tenemos cargado tiene realizada o no la orientación interna fijándonos en la barra de herramientas de la ventana fotogramétrica. Si los botones **I** y **D** están pulsados, significa que las orientaciones Interna **I**zquierda e interna **D**erecha están realizadas y cargadas. Si los botones aparecen sin pulsar, no estarán realizadas dichas orientaciones.
 
+
+

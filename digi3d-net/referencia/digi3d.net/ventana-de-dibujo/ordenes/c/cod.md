@@ -16,7 +16,7 @@ No se puede dibujar ningún elemento si no hay un código activo. Si se cambia d
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cod.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Más/Añadir códigos activos... |

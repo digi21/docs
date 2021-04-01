@@ -2,7 +2,7 @@
 
 1. Crea un fichero topológico: Este fichero tendrá de extensión TOP y en él se van a almacenar las relaciones topológicas entre las entidades. Este fichero es de tipo binario y su estructura no es accesible por el usuario. Con el programa _TOPASC_ se puede transformar el fichero TOP en un fichero ASCII que puede ser visualizado con un editor de texto o cargado en una base de datos.
 
-   El fichero topológico sólo tiene validez para un fichero de dibujo en un momento dado. si se modifica el fichero de dibujo con las órdenes de edición de _DigiNG_, el fichero topológico no podrá encontrar los [tramos](bintop.md) ni los [centroides](bintop.md) para formar polígonos. Por defecto este fichero se guardará con el nombre de la tabla de códigos y extensión TOP.
+   El fichero topológico sólo tiene validez para un fichero de dibujo en un momento dado. si se modifica el fichero de dibujo con las órdenes de edición de _DigiNG_, el fichero topológico no podrá encontrar los [tramos]() ni los [centroides]() para formar polígonos. Por defecto este fichero se guardará con el nombre de la tabla de códigos y extensión TOP.
 
 2. Busca errores en la formación de dichas relaciones. Estos errores serán:
    * Polígonos sin área.
@@ -19,7 +19,7 @@ Al ejecutar la orden aparecerá el siguiente cuadro de diálogo:
   * Informar del error de polígonos sin área \(una o más líneas que forman un polígono no cerrado en el plano\)
   * Marcar como error los polígonos sin centroide asignado
   * Marcar como error centroides duplicados \(más de un centroide en un mismo polígono cerrado\)
-* **Tabla**: Es un fichero de texto en el que se listan los códigos de las entidades que se van a tratar en este programa. Los códigos de las entidades que forman los [tramos](bintop.md) y los códigos de los textos que forman los [centroides](bintop.md).
+* **Tabla**: Es un fichero de texto en el que se listan los códigos de las entidades que se van a tratar en este programa. Los códigos de las entidades que forman los [tramos]() y los códigos de los textos que forman los [centroides]().
 
   Cada código se escribirá en una línea del fichero y perfectamente justificado a la izquierda. Las letras mayúsculas y minúsculas son interpretadas por _Digi3D.NET_ como códigos diferentes. Se pueden usar caracteres comodín "\*" y "?" como parte de un código, para hacer referencia a un grupo de ellos, sin necesidad de tener que listarlos uno a uno.
 
@@ -42,13 +42,13 @@ Al ejecutar la orden aparecerá el siguiente cuadro de diálogo:
 * **Rellenar parcelas sin centroide**: Si has marcado la casilla de Visible, se habilita esta opción de Rellenar parcelas sin centroide. Una vez habilitada la opción, se podrá marcar la casilla para indicar las áreas sin centroide mediante este relleno.
 * **Color para parcelas sin centroide**: Aquí podrás especificar el color para el relleno de parcelas sin centroide, mediante los componentes de rojo \(r\), verde \(g\) y azul \(b\). Por defecto después de ejecutar Bintop, las áreas sin centroide aparecerán con relleno azul.
 * **Generar un fichero de errores**: si está activada esta opción se generará un archivo de errores en la ubicación y con el nombre que se especifique.
-* **Fichero de errores**: Nombre del fichero que se va a crear con las marcas de error. Si existe el fichero, se borra y se crea de nuevo. Es un fichero con formtao BIN y puede ser visualizado con DigiNG escribiendo su nombre en la pantalla de entrada. También puede ser cargado como fichero de referencia, con la orden [CARGA\_F](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/b/CARGA_F.html), sobre el fichero de dibujo que contiene las entidades. Las órdenes [ERR](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/b/ERR.html), [ERR+](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/b/ERR+.html) y [ERR-](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/b/ERR-.html), nos llevarán a cada error para visualizarlo y poder corregirlo con las funciones de edición.
+* **Fichero de errores**: Nombre del fichero que se va a crear con las marcas de error. Si existe el fichero, se borra y se crea de nuevo. Es un fichero con formtao BIN y puede ser visualizado con DigiNG escribiendo su nombre en la pantalla de entrada. También puede ser cargado como fichero de referencia, con la orden [CARGA\_F](CARGA_F.html), sobre el fichero de dibujo que contiene las entidades. Las órdenes [ERR](ERR.html), [ERR+](ERR+.html) y [ERR-](ERR-.html), nos llevarán a cada error para visualizarlo y poder corregirlo con las funciones de edición.
 * **Tamaño del error en metros**: Se dará el valor en metros \(unidades terreno\), para que su tamaño sea adecuado al localizar el error. Las marcas de error son cuadrados con un ángulo en uno de sus lados, de manera que las coordenadas del vértice sean las mismas que las del punto dónde esta el error.
 * **Cargar el fichero de errores como archivo de referencia**: en caso de marcar esta casilla se cargará automáticamente el fichero con los símbolos de error como fichero de referencia, esto permitirá al usuario el control y la correción de los errores inmediatamente.
 
 ## Observaciones
 
-El primer proceso que realiza BINTOP es la detección de errores graves de [topología](bintop.md), éstos errores son:
+El primer proceso que realiza BINTOP es la detección de errores graves de [topología](), éstos errores son:
 
 * Puntos dobles al comienzo de una línea
 * Líneas compuestas de un sólo punto
@@ -123,7 +123,7 @@ BINTOP=\[tabla\] \[polígonos\_sin\_area\] \[polígonos\_sin\_centroide\] \[cent
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](bintop.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

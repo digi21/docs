@@ -33,7 +33,7 @@ Ahora supongamos que en la tabla de códigos tenemos tres códigos:
 
 En la tabla de códigos tendríamos que seleccionar en el campo [Tabla](base-de-datos.md#tabla) de cada uno de los tres códigos la tabla _Edificaciones,_ pero eso haría que el importador de Shapefiles no supiera qué código asignar a cada una de las geometrías almacenadas en la tabla _Edificaciones_, porque hay tres códigos posibles: 010101, 010102, 010103 y 010104.
 
-El campo **Condiciones** soluciona este problema.
+El campo **Condiciones** soluciona este problema. 
 
 Para el código 010101 introduciríamos el siguiente valor en **Condiciones**:
 
@@ -56,4 +56,6 @@ Tipo=2
 Y por último para el código 010104 dejaríamos en blanco el campo **Condiciones**.
 
 De esta manera, el importador de Shapefiles si se encuentra una geometría que tenga asignado en el campo Tipo el valor 1, asignará a la geometría el código 010102.
+
+
 

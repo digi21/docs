@@ -20,11 +20,13 @@ Tras ejecutar esta orden, ninguno de los elementos borrados podrá ser recuperad
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](comprimir.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Comprimir |
 | Barra de herramientas en la que aparece la orden | Esta orden no tiene asociado ningún botón en ninguna barra de herramientas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+
+
 

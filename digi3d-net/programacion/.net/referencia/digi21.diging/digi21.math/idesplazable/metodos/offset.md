@@ -21,7 +21,7 @@ void Offset(Point2D offset);
 
 ## Parámetros
 
-`offset`[Point2D](../../point2d.md)  
+`offset`[Point2D](../../point2d.md)   
 Punto que define cuántas unidades desplazar la geometría en X y en Y.
 
 ## Offset\(Point3D\)
@@ -47,10 +47,10 @@ void Offset(double x, double y);
 
 ## Parámetros
 
-`x`double  
+`x`double   
 Número de unidades a desplazar la geometría en X.
 
-`y`double  
+`y`double   
 Número de unidades en a desplazar la geometría en Y.
 
 ## Offset\(double, doublem double\)
@@ -63,12 +63,12 @@ void Offset(double x, double y, double z);
 
 ## Parámetros
 
-`x`double  
+`x`double   
 Número de unidades a desplazar la geometría en X.
 
-`y`double  
+`y`double   
 Número de unidades en a desplazar la geometría en Y.
 
-`z`double  
+`z`double   
 Número de unidades en a desplazar la geometría en Z.
 

@@ -2,7 +2,7 @@
 
 Es una base de datos que almacena la configuración de Digi3D.NET.
 
-Digi3D.NET históricamente almacenaba la configuración en el registro de _Windows._
+Digi3D.NET históricamente almacenaba la configuración en el registro de _Windows._ 
 
 Los parámetros de configuración comunes para todos los usuarios \(como el tipo de estereoscopía, que no varía en un ordenador en función del usuario conectado\) se almacenaban en la clave del registro: **Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Digi21\Digi3D.NET**.
 
@@ -15,4 +15,10 @@ Este archivo de puede copiar entre equipos para evitar configurar lo mismo en va
 El instalador de Digi3D.NET no crea este archivo, sino que sigue almacenando los parámetros para el equipo en el registro, en **LOCAL\_MACHINE** \(puesto que al instalar el programa tenemos la garantía de ser administrador del equipo\). La primera vez que arranquemos Digi3D.NET, éste comprobará que el archivo no existe y lo creará de nuevo a partir de la información almacenada en **LOCAL\_MACHINE**.
 
 Este archivo se puede editar con programas con _DB Browser For SQLite_.
+
+
+
+
+
+
 

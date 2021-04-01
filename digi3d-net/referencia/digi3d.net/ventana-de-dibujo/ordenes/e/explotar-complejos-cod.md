@@ -14,7 +14,7 @@ Esta orden pedirá definir el código de las entidades a explotar, bien en la ve
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](explotar-complejos-cod.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Complejos/Descomponer un elemento complejo |

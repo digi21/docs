@@ -12,7 +12,7 @@ Es necesario que se esté ejecutando previamente una orden que admita selección
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-fuera-poligono.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar entidades fuera de polígono |

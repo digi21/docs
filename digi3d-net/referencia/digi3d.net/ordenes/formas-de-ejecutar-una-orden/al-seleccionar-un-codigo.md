@@ -5,3 +5,5 @@ Si cambiamos de código activo con la orden [COD ](../../ventana-de-dibujo/orden
 * Las órdenes que aparezcan en la ventana [Órdenes a ejecutar al seleccionar cualquier código](../../../editor-de-tablas-de-codigos/pestanas/ordenes.md#ordenes-a-ejecutar-al-seleccionar-cualquier-codigo) de la pestaña _Órdenes_ del programa [Editor de Tablas de códigos](../../../editor-de-tablas-de-codigos/).
 * Las órdenes que tenga asignado el código en el campo [Órdenes al seleccionar código](../../../editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#ordenes-seleccionar-codigo) el código seleccionado.
 
+
+

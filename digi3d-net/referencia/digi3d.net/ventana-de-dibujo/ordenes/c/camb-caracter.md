@@ -18,7 +18,7 @@ Al hacer el cambio se modificarán todas las apariciones del carácter anterior 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-caracter.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

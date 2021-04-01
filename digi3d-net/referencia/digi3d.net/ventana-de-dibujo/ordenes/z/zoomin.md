@@ -14,7 +14,7 @@ El zoom se efectúa centrado en el punto donde se encuentra el cursor.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoomin.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

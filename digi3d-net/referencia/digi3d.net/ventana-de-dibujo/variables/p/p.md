@@ -34,7 +34,7 @@ Dibuja una paralela a una entidad lineal, automáticamente cuando se termina de 
 
 La paralela que se genera, se dibujará con el mismo código que la entidad dibujada.
 
-Conviene fijar la [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/p/DA.html), con su signo:
+Conviene fijar la [distancia activa](DA.html), con su signo:
 
 * Positivo: La paralela se realizará a la derecha en el sentido de avance del dibujo de la entidad.
 * Negativo: La paralela se realizará a la izquierda en el sentido de avance del dibujo de la entidad.
@@ -43,11 +43,11 @@ No obstante, si no se ha establecido el valor de _DA_ con anterioridad, al ejecu
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](p.md) |
+| Tipo de orden | [Variable booleana]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Crear automáticamente una paralela \(según distancia activa\) |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/p/REPITE.html) |
+| Variables relacionadas | [REPITE](REPITE.html) |
 

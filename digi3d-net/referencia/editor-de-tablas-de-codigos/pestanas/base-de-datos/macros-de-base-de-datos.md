@@ -261,6 +261,7 @@ A continuación, el listado de macros soportadas por el programa:
       <td style="text-align:left">%MACRO%</td>
       <td style="text-align:left">
         <p>Expande la macro que aparece a la derecha de %MACRO%.</p>
+        <p></p>
         <p>Ejemplo:</p>
         <p>`%MACRO%$(NombreArchivoDibujo)</p>
       </td>
@@ -302,6 +303,7 @@ A continuación, el listado de macros soportadas por el programa:
       <td style="text-align:left">
         <p>Extrae el valor &quot;valor&quot; del <a href="../codigos/propiedades-del-codigo.md#valores">diccionario de valores</a> asociado
           con el c&#xF3;digo de la geometr&#xED;a que se est&#xE1; almacenando.</p>
+        <p></p>
         <p>Ejemplo: Si la geometr&#xED;a que se est&#xE1; almacenando tiene el c&#xF3;digo <code>020102</code> y
           en este c&#xF3;digo se ha asignado en su campo Valores el valor: <code>tipo_de_suelo=superficial</code> si
           en este campo indicamos <code>%CODE_VALUE=tipo_de_suelo%</code> se almacenar&#xE1;
@@ -311,4 +313,6 @@ A continuación, el listado de macros soportadas por el programa:
     </tr>
   </tbody>
 </table>
+
+
 

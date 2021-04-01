@@ -6,12 +6,12 @@ Coloca dos textos numéricos con los valores de las coordenadas X,Y de los punto
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Ángulo activo \([AA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/AA.html)\) | Número real | Si |
-| 2 | Altura de texto \([AT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/AT.html)\) | Número real | Si |
-| 3 | Código \([COD](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/COD.html)\) | Identificador del código | Si |
-| 4 | Distancia activa \([DA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/DA.html)\) | Número real | Si |
-| 5 | Justificación de texto \([JT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/JT.html)\) | Número real | Si |
-| 6 | Número de decimales \([NDEC](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/NDEC.html)\) | Número real | Si |
+| 1 | Ángulo activo \([AA](AA.html)\) | Número real | Si |
+| 2 | Altura de texto \([AT](AT.html)\) | Número real | Si |
+| 3 | Código \([COD](COD.html)\) | Identificador del código | Si |
+| 4 | Distancia activa \([DA](DA.html)\) | Número real | Si |
+| 5 | Justificación de texto \([JT](JT.html)\) | Número real | Si |
+| 6 | Número de decimales \([NDEC](NDEC.html)\) | Número real | Si |
 
 ## Observaciones
 
@@ -21,11 +21,11 @@ Los textos de las coordenadas se colocan con un ángulo de 90º uno respecto del
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](poner-xy.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/AA.html), [AT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/AT.html), [DA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/DA.html), [JT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/JT.html), [NDEC](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/NDEC.html), [REPITE](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/REPITE.html) |
+| Variables relacionadas | [AA](AA.html), [AT](AT.html), [DA](DA.html), [JT](JT.html), [NDEC](NDEC.html), [REPITE](REPITE.html) |
 

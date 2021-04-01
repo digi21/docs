@@ -32,7 +32,7 @@ descripción=Erial
 
 Este diccionario se puede utilizar para almacenar información en la base de datos a la hora de exportar la topología a un archivo de dibujo mediante la macro de base de datos [%CENTROID\_VALUE=\[valor\]%](../base-de-datos/macros-de-base-de-datos.md).
 
-### Ejemplo:
+#### Ejemplo:
 
 Si se está exportando la topología a un formato de archivo que tenga una base de datos asociada, se puede configurar en un determinado campo de la tabla de base de datos asociada con el código del polígono que se va a generar como valor por defecto el valor:
 
@@ -40,5 +40,5 @@ Si se está exportando la topología a un formato de archivo que tenga una base 
 %CENTROID_VALUE=descripción%
 ```
 
-De esta manera, si el polígono que se está exportando tiene como centroide el centroide "Fr", en este el campo de base de datos se almacenará el texto "Frutal", y si el centroide es "Er" se almacenará "Erial".
+De esta manera, si el polígono que se está exportando tiene como centroide el centroide "Fr", en este el campo de base de datos se almacenará el texto "Frutal",  y si el centroide es "Er" se almacenará "Erial".
 

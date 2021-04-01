@@ -4,7 +4,7 @@ Los programas de cálculo de aerotriangulaciones requieren **un único archivo**
 
 Digi3D.NET no ha creado un único archivo con las fotocoordenadas de todos los puntos medidos, sino que ha creado tantos archivos _.f_ como fotos formen parte del proyecto, de modo que tendremos que almacenar en un único archivo la información proporcionada por todos esos archivos _.f_ independientes.
 
-Es necesario que finalices el paso [Aerotriangulando el segundo modelo](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/AerotriangulandoElSegundoModelo.html) para poder continuar con este tutorial.
+Es necesario que finalices el paso [Aerotriangulando el segundo modelo](AerotriangulandoElSegundoModelo.html) para poder continuar con este tutorial.
 
 1. Abre una consola de _DOS_ en el directorio **Aerotriangulación**. Para ello existe un truco muy sencillo:
    * Localiza la carpeta _Aerotriangulación_ en un explorador de archivos.
@@ -20,5 +20,7 @@ No forma parte del ámbito de este manual explicarte el manejo de tu programa de
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Preparando%20los%20archivos%20.f%20para%20un%20programa%20de%20calculo.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Preparando%20los%20archivos%20.f%20para%20un%20programa%20de%20calculo.mp4" %}
+
+
 

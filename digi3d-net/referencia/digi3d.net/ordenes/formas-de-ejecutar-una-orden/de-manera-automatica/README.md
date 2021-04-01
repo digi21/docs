@@ -15,5 +15,9 @@ Las órdenes que se ejecutarán dependerán de si el código activo tiene asigna
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/ejecutando\_ordenes\_manera\_automatica.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/ejecutando\_ordenes\_manera\_automatica.mp4" %}
+
+
+
+
 

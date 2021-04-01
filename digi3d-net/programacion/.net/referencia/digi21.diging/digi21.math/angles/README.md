@@ -1,6 +1,13 @@
 # Angles
 
+Espacio de nombres: [Digi21.Math](../)  
+Ensamblado: [Digi21.DigiNG](../../)
+
 Esta clase estática proporciona métodos de extensión que nos van a permitir realizar transformaciones de unidades angulares.
+
+```csharp
+public static class Angles
+```
 
 ## Métodos
 

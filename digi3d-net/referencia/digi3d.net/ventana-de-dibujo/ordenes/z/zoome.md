@@ -14,7 +14,7 @@ Ajusta el factor de zoom para que el dibujo completo se visualice en la pantalla
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoome.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom Extendido |

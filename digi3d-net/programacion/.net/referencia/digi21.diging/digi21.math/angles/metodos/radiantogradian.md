@@ -26,3 +26,5 @@ var radianes= double.Parse(Console.Read());
 Console.WriteLine($"Centesimal: {Angles.RadianToGradian(radianes)}");
 ```
 
+
+

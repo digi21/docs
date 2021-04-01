@@ -14,7 +14,7 @@ Para volver a apagar estas ventanas deberás pulsar la tecla Escape del teclado.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](mostrar-cod-i.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

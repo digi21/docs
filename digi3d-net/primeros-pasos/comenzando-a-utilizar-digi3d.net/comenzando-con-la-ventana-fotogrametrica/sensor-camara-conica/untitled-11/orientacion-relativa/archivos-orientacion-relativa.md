@@ -4,7 +4,7 @@ Al aceptar la orientación relativa, se crea un archivo con el nombre _\(foto iz
 
 Este archivo almacena el resultado de la orientación relativa así como las medidas realizadas por el usuario. Si eliminas un archivo de orientación relativa, al volver a cargar el modelo fotogramétrico se indicará \(mediante el botón correspondiente en la barra de herramientas de la ventana fotogramétrica, al no permanecer este pulsado\) que no se ha podido cargar dicha orientación relativa.
 
-Es necesario que finalices los pasos de [Midiendo la orientación relativa manualmente](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-relativa/MidiendoLaOrientacionRelativaManualmente.html) antes de ejecutar los siguientes pasos para comprobar los archivos que se han generado:
+Es necesario que finalices los pasos de [Midiendo la orientación relativa manualmente](MidiendoLaOrientacionRelativaManualmente.html) antes de ejecutar los siguientes pasos para comprobar los archivos que se han generado:
 
 1. Abre un **Explorador de archivos** \(puedes hacerlo pulsando la combinación de teclas **Windows + E**\).
 2. Localiza la ubicación del proyecto de **Bronchales**.
@@ -16,5 +16,7 @@ Es necesario que finalices los pasos de [Midiendo la orientación relativa manua
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Archivos%20de%20orientacion%20relativa.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Archivos%20de%20orientacion%20relativa.mp4" %}
+
+
 

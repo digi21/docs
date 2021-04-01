@@ -12,7 +12,7 @@ Después de ejecutar la orden, el programa pide que se digitalice el punto en el
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoomp.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Centrar la vista en un punto digitalizado |

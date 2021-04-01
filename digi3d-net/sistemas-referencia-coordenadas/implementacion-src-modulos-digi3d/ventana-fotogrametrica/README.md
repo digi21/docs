@@ -26,14 +26,14 @@ Tan solo sabe mostrar imágenes pero no sabe calcular dónde las debe dibujarlas
 
 De esta manera si hemos cargado un sensor de cámara cónica, será función del sensor saber las operaciones necesarias para transformar esa coordenada terreno en las coordenadas píxel para la imagen izquierda y derecha, y si el sensor es satelital, pues será su función saber las operaciones \(que son completamente distintas que las del sensor de cámara cónica\) para transformar dichas coordenadas a píxel. Al estar diseñado de esta manera, no es necesario modificar la aplicación principal si en un futuro se añade un nuevo sensor.
 
-Una vez explicado esto, podemos profundizar un poco más en cómo se realiza este paso:
+Una vez explicado esto, podemos profundizar un poco más en cómo se realiza este paso: 
 
 1. Si el modelo fotogramétrico tiene asignado una orientación \(_absoluta, afín_, ...\) transforma la _coordenada terreno_ mediante dicha orientación \(_absoluta_ o _afín_\) obteniendo lo que vamos a denominar _coordenada a enviar al sensor_. Si el modelo fotogramétrico no tiene asignada una orientación, se modifica la _coordenada a enviar al sensor_ para que coincida con la _coordenada terreno._
 2. La ventana fotogramétrica utiliza la _coordenada a enviar al sensor_ para preguntarle al sensor cargado \(sensor ortofoto, cámara cónica estereoscópica, satelital, ADS,...\) por la posición donde debe mostrar las imágenes en la ventana fotogramétrica.
 3. El sensor responde con las coordenadas pixel a mostrar.
 4. La ventana fotogramétrica muestra las imágenes en pantalla asegurándose de que las coordenadas pixel devueltas por el sensor estén en el centro de la ventana.
 
-### Paso 3: Notificar a la ventana de dibujo que el usuario ha realizado alguna acción:
+###  Paso 3: Notificar a la ventana de dibujo que el usuario ha realizado alguna acción:
 
 Si hay una ventana de dibujo abierta:
 

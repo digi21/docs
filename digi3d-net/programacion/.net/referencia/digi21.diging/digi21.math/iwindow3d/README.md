@@ -1,6 +1,13 @@
 # IWindow3D
 
+Espacio de nombres: [Digi21.Math](../)  
+Ensamblado: [Digi21.DigiNG](../../)
+
 Este interfaz define las propiedades que implementan las ventanas de tres dimensiones o las geometrías.
+
+```csharp
+public interface IWindow3D
+```
 
 ## Propiedades
 

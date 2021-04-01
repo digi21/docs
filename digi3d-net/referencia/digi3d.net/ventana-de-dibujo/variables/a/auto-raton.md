@@ -14,7 +14,9 @@ A partir de ese momento, la ventana de dibujo va siguiendo al cursor \(cuando se
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/AUTO\_RATON.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/AUTO\_RATON.mp4" %}
+
+
 
 ## Características de la orden
 

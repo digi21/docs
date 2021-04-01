@@ -15,3 +15,7 @@ Podemos seleccionar una de las siguientes opciones:
 
 Permite indicar la ubicación en la que crear el archivo de LOG en caso de haber configurado la opción **Crear archivo de LOG** con la opción **Si**.
 
+
+
+
+

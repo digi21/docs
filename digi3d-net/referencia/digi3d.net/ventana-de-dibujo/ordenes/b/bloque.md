@@ -12,7 +12,7 @@ Debemos dibujar una entidad cerrada que actuará como ventana para generar el bl
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](bloque.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Crear un bloque... |

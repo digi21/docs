@@ -16,7 +16,7 @@ No puedes abrir dos archivos de dibujo simultáneamente.
   <thead>
     <tr>
       <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href="nuevo-proyecto.md">Orden interactiva</a>
+      <th style="text-align:left"><a href>Orden interactiva</a>
       </th>
     </tr>
   </thead>
@@ -44,13 +44,11 @@ No puedes abrir dos archivos de dibujo simultáneamente.
     </tr>
     <tr>
       <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left"><a href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/AT.html">AT</a>,
+      <td style="text-align:left"><a href="AT.html">AT</a>, <a href="EQUIDISTANCIA.html">EQUIDISTANCIA</a>,
         <a
-        href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/EQUIDISTANCIA.html">EQUIDISTANCIA</a>, <a href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/INC.html">INC</a>,
+        href="INC.html">INC</a>, <a href="TOL.html">TOL</a>, <a href="TOL_ANG.html">TOL_ANG</a>,
           <a
-          href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/TOL.html">TOL</a>, <a href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/TOL_ANG.html">TOL_ANG</a>,
-            <a
-            href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/MODOB.html">MODOB</a>
+          href="MODOB.html">MODOB</a>
       </td>
     </tr>
   </tbody>

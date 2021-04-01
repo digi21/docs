@@ -14,7 +14,7 @@ Esta orden está asignada por defecto a uno de los pedales y al botón derecho d
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](fin-ent.md) |
+| Tipo de orden | [Orden inmediata]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |

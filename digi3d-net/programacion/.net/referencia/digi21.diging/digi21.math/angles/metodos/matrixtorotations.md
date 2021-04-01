@@ -39,13 +39,13 @@ Angles.RotationsToMatrix(
     Angles.SexagesimalToRadian(phi),
     Angles.SexagesimalToRadian(kappa),
     out var euler);
-
+    
 Angles.MatrixToRotations(
     euler,
     out omega,
     out phi,
     out kappa);
-
+    
 Console.WriteLine($"Omega: {Angles.RadianToSexagesimal(omega)}");
 Console.WriteLine($"Phi: {Angles.RadianToSexagesimal(phi)}");
 Console.WriteLine($"Kappa: {Angles.RadianToSexagesimal(kappa)}");

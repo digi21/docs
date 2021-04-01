@@ -6,13 +6,13 @@ Establece la altura de los textos.
 
 Esta orden se puede ejecutar con o sin parámetros.
 
-### Con parámetros
+#### Con parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Valor numérico | Número real | Si |
 
-### Sin parámetros
+#### Sin parámetros
 
 Si ejecutamos esta orden sin parámetros, esta solicitará que digitalicemos gráficamente dos puntos. Una vez digitalizado el segundo punto, se asignará el valor de altura de textos como la distancia entre los dos puntos digitalizados.
 

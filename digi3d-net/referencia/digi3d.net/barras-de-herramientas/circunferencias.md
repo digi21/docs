@@ -10,3 +10,7 @@ Permite ejecutar órdenes relacionadas con circunferencias.
 * Botón que ejecuta la orden [CIR3P](../ventana-de-dibujo/ordenes/c/cir3p.md).
 * Botón que ejecuta la orden [CIRCR](../ventana-de-dibujo/ordenes/c/circr.md).
 
+
+
+
+

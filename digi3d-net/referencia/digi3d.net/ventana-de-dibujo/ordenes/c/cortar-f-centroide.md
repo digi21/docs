@@ -13,7 +13,7 @@ Genera un nuevo fichero con los elementos que se encuentren dentro de los límit
 
 ### Ejemplo
 
-`CORTAR_F_CENTROIDE="C:\Trabajos\carpeta\" bin "2 0 0 0 0" HOJA`
+`CORTAR_F_CENTROIDE="C:\Trabajos\carpeta\" bin "2 0 0 0 0" HOJA`   
 
 Siendo:
 
@@ -30,7 +30,7 @@ Pueden existir varios límites con la condición de que su centroide tenga el mi
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cortar-f-centroide.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

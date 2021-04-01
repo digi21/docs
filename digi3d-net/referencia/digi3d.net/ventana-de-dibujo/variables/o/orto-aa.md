@@ -1,6 +1,6 @@
 # ORTO\_AA
 
-Traza entidades en las que sus tramos son perpendiculares entre sí, pero atendiendo a la dirección marcada por el [ángulo activo](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/o/AA.html).
+Traza entidades en las que sus tramos son perpendiculares entre sí, pero atendiendo a la dirección marcada por el [ángulo activo](AA.html).
 
 ## Parámetros
 
@@ -36,11 +36,11 @@ Hay que determinar el valor del _ángulo activo_ antes de ejecutar la orden ORTO
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](orto-aa.md) |
+| Tipo de orden | [Variable booleana]() |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Ortogonal al ángulo activo |
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/o/AA.html) |
+| Variables relacionadas | [AA](AA.html) |
 

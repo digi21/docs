@@ -12,7 +12,7 @@ Tienes que dibujar una entidad que represente el nuevo trazado del elemento que 
 
 Digi3D.NET busca en la entidad a modificar, los puntos más próximos al primero y último de la entidad modificadora, y sustituye el tramo comprendido entre dichos puntos por los puntos de la entidad modificadora.
 
-En este proceso, la cota de los puntos de la entidad modificadora se ajusta a la de la entidad modificada. Si no deseas modificar las cotas utiliza la orden [MOD\_Z](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/m/MOD_Z.html).
+En este proceso, la cota de los puntos de la entidad modificadora se ajusta a la de la entidad modificada. Si no deseas modificar las cotas utiliza la orden [MOD\_Z](MOD_Z.html).
 
 Independientemente del código utilizado al dibujar la entidad modificadora, éste se cambia por el de la entidad modificada.
 
@@ -22,7 +22,7 @@ Esta orden permite "arreglar" curvas de nivel que se corten. Sólo tienes que di
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mod.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XY una polilínea existente con la que se está registrando |

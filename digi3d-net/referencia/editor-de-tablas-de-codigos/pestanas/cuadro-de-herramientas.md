@@ -11,3 +11,9 @@ Permite configurar el contenido que mostrará el panel [Cuadro de herramientas](
 * Botones para añadir, renombrar y eliminar opciones dentro del grupo seleccionado.
 * Una ventana de contenido principal para añadir las órdenes a ejecutar al seleccionar la opción.
 
+
+
+
+
+
+

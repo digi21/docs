@@ -17,7 +17,7 @@ Esta nomenclatura significa \[píxeles de la imagen\]:\[píxeles en pantalla\], 
 
 1. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Zoom extendido**. Comprobarás que Digi3D ha calculado un factor de zoom suficiente para poder mostrar toda la imagen en pantalla. Las coordenadas en las que estabas no se ven modificadas. Únicamente has cambiado de factor de zoom.
 2. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Zoom 1x1**. Comprobarás que Digi3D ha ampliado el factor de zoom hasta el tamaño real de la imagen. Este es el factor de zoom en el que deberías trabajar pues es el tamaño real de la imagen. Si te acercas estarás intentando ver de más. Si te alejas estarás perdiendo detalle.
-3. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Zoom con memoria \(dos últimos zooms\)**. Comprobarás que Digi3D ha vuelto a factor de zoom que tenías antes de ejecutar el punto número 1. Esta opción memoriza los dos últimos factores de zoom que has utilizado. Es muy útil programar esta orden en cualquiera de los botones de tu [topo-mouse](cambiando-factor-zoom-ventana-foto.md).
+3. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Zoom con memoria \(dos últimos zooms\)**. Comprobarás que Digi3D ha vuelto a factor de zoom que tenías antes de ejecutar el punto número 1. Esta opción memoriza los dos últimos factores de zoom que has utilizado. Es muy útil programar esta orden en cualquiera de los botones de tu [topo-mouse]().
 4. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Zoom de acercar**. Comprobarás que Digi3D ha incrementado el factor de zoom.
 5. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Zoom de alejar**. Comprobarás que Digi3D ha decrementado el facto de zoom.
 
@@ -44,5 +44,7 @@ Si tienes configurado el ratón para que el movimiento de la rueda cambie el fac
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Aprendiendo%20a%20cambiar%20el%20factor%20de%20zoom.mp4" caption="" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Aprendiendo%20a%20cambiar%20el%20factor%20de%20zoom.mp4" %}
+
+
 

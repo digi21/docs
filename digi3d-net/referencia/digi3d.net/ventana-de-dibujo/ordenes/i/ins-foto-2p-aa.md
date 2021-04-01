@@ -8,17 +8,17 @@ No admite parámetros.
 
 ## Observaciones
 
-Para ejecutar esta orden hace falta establecer el valor del [ángulo activo](ins-foto-2p-aa.md) \([AA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/i/AA.html)\).
+Para ejecutar esta orden hace falta establecer el valor del [ángulo activo]() \([AA](AA.html)\).
 
 La orden requiere la entrada de los puntos extremos que definen la diagonal del cuadrado, que podrán introducirse:
 
 * De forma gráfica, señalándolos con el cursor/ratón.
-* Por entrada de sus coordenadas desde teclado \([XY](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/i/XY.html)\).
-* Desde archivo \([N](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/i/N.html)\).
+* Por entrada de sus coordenadas desde teclado \([XY](XY.html)\).
+* Desde archivo \([N](N.html)\).
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ins-foto-2p-aa.md) |
+| Tipo de orden | [Orden interactiva]() |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Dibujar/Imagen/Mediante dos puntos y ángulo activo_ |

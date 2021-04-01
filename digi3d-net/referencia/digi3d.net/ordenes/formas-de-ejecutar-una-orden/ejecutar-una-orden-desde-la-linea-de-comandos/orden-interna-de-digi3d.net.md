@@ -1,6 +1,6 @@
 # Orden interna de Digi3D.NET
 
-Son las órdenes que se incorporan con Digi3D.NET. Puedes ver un listado de las órdenes incorporadas en [Órdenes]().
+Son las órdenes que se incorporan con Digi3D.NET. Puedes ver un listado de las órdenes incorporadas en [Órdenes](../../../ventana-de-dibujo/ordenes/).
 
 Para ejecutar una orden interna, introduciremos en la [línea de comandos](./) el nombre de la orden. Por ejemplo, para ejecutar la orden [ZOOME](../../../ventana-de-dibujo/ordenes/z/zoome.md) introduciremos en la línea de comandos el siguiente comando:
 
@@ -20,9 +20,9 @@ Algunas órdenes requieren que les pasemos como parámetro un texto. Si el texto
 EXPORTAR="c:\mis trabajos\2021001\prueba.bin"
 ```
 
-## Nombre interno de la orden
+### Nombre interno de la orden
 
-Digi3D.NET se puede ejecutar en Castellano y en inglés.
+Digi3D.NET se puede ejecutar en Castellano y en inglés. 
 
 Los nombres de las órdenes varían en función de si el programa se está mostrando en castellano o en inglés.
 
