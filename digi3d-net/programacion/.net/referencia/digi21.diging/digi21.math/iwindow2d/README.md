@@ -1,4 +1,4 @@
-# IWindow3D
+# IWindow2D
 
 Este interfaz define las propiedades que implementan las ventanas de tres dimensiones o las geometrías.
 
