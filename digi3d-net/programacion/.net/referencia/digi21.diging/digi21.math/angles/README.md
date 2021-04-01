@@ -11,7 +11,7 @@ Esta clase estática proporciona métodos de extensión que nos van a permitir r
 | [GradianToRadian](metodos/gradiantoradian.md) | Transforma un ángulo centesimal a radián. |
 | [GradianToSexagesimal](metodos/gradiantosexagesimal.md) | Transforma un ángulo centesimal a sexagesimal. |
 | [MatrixToRotations](metodos/matrixtorotations.md) | Extrae ángulos Omega, Phi y Kappa de una matriz de Euler. |
-| [NormalizeAngle](metodos/normalizeangle.md) | Normaliza un ángulo. |
+| [NormalizeAngle](metodos/normalizeangle.md) | Normaliza un ángulo entre 0 y 2π |
 | [RadianToGradian](metodos/radiantogradian.md) | Transforma un ángulo de radián a centesimal. |
 | [RadianToSexagesimal](metodos/radiantosexagesimal.md) | Transforma un ángulo de radián a sexagesimal. |
 | [RotationsToMatrix](metodos/rotationstomatrix.md) | Crea una matriz de Euler a partir de ángulos Omega, Phi, Kappa. |

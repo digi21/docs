@@ -23,7 +23,7 @@ El siguiente ejemplo solicita al usuario un ángulo en centesimal y lo muestra e
 Console.Write("Introduce un ángulo en centesimal: ");
 var centesimal = double.Parse(Console.Read());
 
-Console.WriteLine($"Radianes: {Angles.GradianToRadian(centesimal))}");
+Console.WriteLine($"Radianes: {Angles.GradianToRadian(centesimal)}");
 ```
 
 

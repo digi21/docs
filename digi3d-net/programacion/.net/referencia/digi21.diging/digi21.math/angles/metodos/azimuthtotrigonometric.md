@@ -25,7 +25,7 @@ var azimut = double.Parse(Console.Read());
 
 var azimutRadianes = Angles.SexagesimalToRadian(azimut);
 var trigonometricoRadianes = Angles.AzimuthToTrigonometric(azimutRadianes);
-var trigonometricoSexagesimal = Angles.RadianToSexagesimal(public static double AzimuthToTrigonometric(double radians));
+var trigonometricoSexagesimal = Angles.RadianToSexagesimal(trigonometricoRadianes);
 
 Console.WriteLine($"Ángulo trigonométrico: {trigonometricoSexagesimal}");
 ```

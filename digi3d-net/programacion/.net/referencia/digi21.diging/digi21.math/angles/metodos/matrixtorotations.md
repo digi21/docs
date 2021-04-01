@@ -25,11 +25,29 @@ Parámetro de salida en el que se asignará el ángulo _Kappa_ en radianes.
 El siguiente ejemplo solicita al usuario tres ángulos \(omega, phi y kappa\), crea una matriz de Euler y luego extrae estos ángulos y los imprime en la consola.
 
 ```csharp
-Console.Write("Introduce un ángulo en radianes: ");
-var valor = double.Parse(Console.Read());
+Console.Write("Omega: ");
+var omega = double.Parse(Console.Read());
 
-Console.WriteLine($"Sexagesimal: {Angles.GradianToSexagesimal(valor))}");
+Console.Write("Phi: ");
+var phi = double.Parse(Console.Read());
+
+Console.Write("Kappa: ");
+var kappa = double.Parse(Console.Read());
+
+Angles.RotationsToMatrix(
+    Angles.SexagesimalToRadian(omega),
+    Angles.SexagesimalToRadian(phi),
+    Angles.SexagesimalToRadian(kappa),
+    out var euler);
+    
+Angles.MatrixToRotations(
+    euler,
+    out omega,
+    out phi,
+    out kappa);
+    
+Console.WriteLine($"Omega: {Angles.RadianToSexagesimal(omega)}");
+Console.WriteLine($"Phi: {Angles.RadianToSexagesimal(phi)}");
+Console.WriteLine($"Kappa: {Angles.RadianToSexagesimal(kappa)}");
 ```
-
-
 
