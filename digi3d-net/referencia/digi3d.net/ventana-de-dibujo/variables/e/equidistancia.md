@@ -6,14 +6,14 @@ Establece el valor de la equidistancia de curvas de nivel.
 
 Esta orden se puede ejecutar con un parámetro o sin parámetros.
 
-#### Con un parámetro
+### Con un parámetro
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Valor numérico | Valor de equidistancia a asignar | Si |
 |  |  |  |  |
 
-#### Sin parámetros
+### Sin parámetros
 
 El programa solicitará en la barra de mensajes que introduzcamos el factor de equidistancia. Podemos introducir un valor con el teclado o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos.
 
@@ -31,7 +31,7 @@ EQUIDISTANCIA=5
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/EQUIDISTANCIA.mp4" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/EQUIDISTANCIA.mp4" caption="" %}
 
 ## Características de la orden
 

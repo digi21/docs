@@ -20,5 +20,3 @@ Esta clase estática proporciona métodos de extensión que nos van a permitir r
 | [SexagesimalToRadian](metodos/sexagesimaltoradian.md) | Transforma un ángulo de sexagesimal a radián. |
 | [TrigonometricToAzimuth](metodos/trigonometrictoazimuth.md) | Transforma un ángulo de trigonométrico a azimutal. |
 
-
-

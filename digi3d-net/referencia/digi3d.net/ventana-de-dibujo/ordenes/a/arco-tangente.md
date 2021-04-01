@@ -12,7 +12,7 @@ Debes de estar ejecutando otra orden para poder ejecutar esta.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](arco-tangente.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Arco tangente |

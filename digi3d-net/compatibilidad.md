@@ -18,7 +18,7 @@ La característica principal entre una tarjeta gráfica profesional y una de gam
 
 Este conector les permite garantizar que el estéreo entre Digi3D.NET y las gafas esté sincronizado, de manera que con estas tarjetas gráficas \(y siempre que se utilice el cable de sincronismo que comunica la tarjeta gráfica con el emisor de las gafas\) nunca se intercambiará la visión de estereoscópica a pseudo estereoscópica.
 
-Determinadas funcionalidades de Digi3D.NET requieren que la tarjeta gráfica disponga de al menos 32 núcleos. 
+Determinadas funcionalidades de Digi3D.NET requieren que la tarjeta gráfica disponga de al menos 32 núcleos.
 
 * Si vas a utilizar Digi3D.NET únicamente para editar archivos de dibujo \(y no vas a cargar modelos estereoscópicos\) puedes utilizar tarjetas de gama media o alta.
 * Si vas a cargar modelos estereoscópicos la selección de tarjeta gráfica variará en función del monitor 3D a utilizar:

@@ -35,5 +35,3 @@ No se han registrado observaciones para esta orden.
 | Extensión |  |
 | Variables relacionadas |  |
 
-
-

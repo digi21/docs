@@ -12,7 +12,7 @@ Si tienes más de un fichero de referencia, se intercambiará con el primer fich
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](cambia-ficheros.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | En Archivo podemos seleccionar el fichero con el que queremos trabajar |

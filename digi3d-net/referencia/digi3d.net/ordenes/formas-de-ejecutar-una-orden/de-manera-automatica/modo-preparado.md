@@ -6,5 +6,3 @@ Podemos saber si el programa está en modo preparado porque en caso de ser así,
 
 ![Barra de mensajes mostrando que est&#xE1; en modo preparado](../../../../../../.gitbook/assets/modopreparado.png)
 
-
-

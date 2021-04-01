@@ -2,11 +2,11 @@
 
 El instalador de Digi3D.NET crea una copia del archivo de esquemas de aerotriangulación asistida, pero no almacena la ruta a ese archivo en la configuración del programa.
 
-Si vas a realizar medidas de aerotriangulación tendrás que indicar la ruta en  la opción Esquemas en la sección Orientación relativa del cuadro de diálogo de Configuración.
+Si vas a realizar medidas de aerotriangulación tendrás que indicar la ruta en la opción Esquemas en la sección Orientación relativa del cuadro de diálogo de Configuración.
 
 A continuación tienes la ruta donde copia el instalador de Digi3D.NET el archivo que se copiaba en la versión 2007 en función del sistema operativo:
 
-| Windows XP | C:\Documents and Settings\All Users\Datos de programa\Digi3D3D.NET\ Esquemas Orientaciones\                                                   Esquemas de medida de aerotriangulación.aerotrischeme.xml |
+| Windows XP | C:\Documents and Settings\All Users\Datos de programa\Digi3D3D.NET Esquemas Orientaciones                                                   Esquemas de medida de aerotriangulación.aerotrischeme.xml |
 | :--- | :--- |
 | Windows 7 | C:\ProgramData\Digi3D.NET\Esquemas Orientaciones\Esquemas de medida de aerotriangulación.aerotrischeme.xml |
 

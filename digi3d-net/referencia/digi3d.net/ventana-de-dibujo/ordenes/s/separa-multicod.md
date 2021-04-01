@@ -12,7 +12,7 @@ Genera geometrías duplicadas.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](separa-multicod.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

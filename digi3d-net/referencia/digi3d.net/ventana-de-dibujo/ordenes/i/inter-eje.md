@@ -12,7 +12,7 @@ La interpolación se hará en coordenadas \(X Y Z\). La nueva entidad se registr
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](inter-eje.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Interpolar eje de dos líneas existentes |

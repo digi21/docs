@@ -18,7 +18,7 @@ proyecta\_cod=\[código\] \[tipo=\(l=lineas, p=puntos, c=lineas y puntos, b=bitm
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](proyecta-cod.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Proyectar entidades contra los MDT cargados por código... |

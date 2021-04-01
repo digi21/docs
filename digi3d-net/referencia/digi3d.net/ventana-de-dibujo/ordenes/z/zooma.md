@@ -12,7 +12,7 @@ Las entidades se visualizan con el mismo factor de zoom, es decir, con el mismo 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](zooma.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Centrar la vista en la posición actual del cursor |

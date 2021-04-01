@@ -10,15 +10,15 @@ No admite parámetros.
 
 En este caso, se puede establecer la rotación del bloque indicando, después del punto de inserción, un segundo punto de orientación. De este modo, quedará insertado en la dirección marcada por la recta que definen los dosp untos dados, el punto de inserción y el punto de orientación.
 
-El fichero, sea del tipo que sea, se insertará con un factor de escala igual al valor de la escala activa \( [ESC\_ACT](ESC_ACT.html)\).
+El fichero, sea del tipo que sea, se insertará con un factor de escala igual al valor de la escala activa \( [ESC\_ACT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/i/ESC_ACT.html)\).
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](insr.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Insertar un bloque con dos puntos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](REPITE.html), [AA](AA.html) |
+| Variables relacionadas | [REPITE](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/i/REPITE.html), [AA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/i/AA.html) |
 

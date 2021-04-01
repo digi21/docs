@@ -12,7 +12,7 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](var-solo-codigos-entidad-seleccionada.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Sólo los códigos de las entidades seleccionadas |

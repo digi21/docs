@@ -10,6 +10,5 @@ double Ymin { get; set; }
 
 _`double`_
 
-Devuelve el valor Y mínima de la ventana o geometría en caso de que la ventana se haya inicializado con al menos un punto.   
-
+Devuelve el valor Y mínima de la ventana o geometría en caso de que la ventana se haya inicializado con al menos un punto.
 

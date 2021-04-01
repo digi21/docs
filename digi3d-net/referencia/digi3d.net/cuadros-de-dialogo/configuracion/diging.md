@@ -4,7 +4,7 @@ Esta categoría permite configurar parámetros referentes al motor principal de 
 
 ## Limitar el zoom al máximo
 
-Permite indicar si la ventana de dibujo tendrá una limitación a la hora de hacer zoom. 
+Permite indicar si la ventana de dibujo tendrá una limitación a la hora de hacer zoom.
 
 Se pueden seleccionar uno de los siguientes valores:
 
@@ -25,7 +25,7 @@ El programa proporciona tres ventanas distintas para seleccionar el código acti
 * [Panel de multi-codificación](../../paneles/tabla-de-codigos.md).
 * [Panel de códigos \(mono-codificación\)](../../paneles/codigos-activos.md).
 
-Estas ventanas son excluyentes: el programa únicamente puede utilizar una de ellas. 
+Estas ventanas son excluyentes: el programa únicamente puede utilizar una de ellas.
 
 > Al cambiar esta opción tendremos que reiniciar el programa tras aceptar el cuadro de diálogo de configuración.
 
@@ -54,12 +54,4 @@ Podemos seleccionar una de las siguientes opciones:
 
 * **Primer código primero** Para el caso del ejemplo anterior, se dibujará primero el código A, luego el B y por último el C
 * **Último código primero** Para el caso del ejemplo anterior, se dibujará primero el código C, luego el B y por último el A.
-
-
-
-
-
-
-
-
 

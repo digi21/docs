@@ -10,7 +10,7 @@ Texto almacenar en el archivo de dibujo al insertar un centroide de este tipo.
 
 ## Variable
 
-Indica si el texto a almacenar es variable. 
+Indica si el texto a almacenar es variable.
 
 En caso de ser variable se podrán introducir como centroides por ejemplo nombres de calles.
 

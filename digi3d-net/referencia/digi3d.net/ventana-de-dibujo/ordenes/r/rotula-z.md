@@ -6,11 +6,11 @@ Rotula un punto o varios puntos con su Z correspondiente.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Altura de texto \([AT](AT.html)\) | Número real | Si |
-| 2 | Justificación de texto \([JT](JT.html)\) | Número real | Si |
-| 3 | Número de decimales \([NDEC](NDEC.html)\) | Número real | Si |
-| 4 | Código texto \([COD](COD.html)\) | Identificador del código | Si |
-| 5 | Distancia activa \([DA](DA.html)\) | Número real | Si |
+| 1 | Altura de texto \([AT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/AT.html)\) | Número real | Si |
+| 2 | Justificación de texto \([JT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/JT.html)\) | Número real | Si |
+| 3 | Número de decimales \([NDEC](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/NDEC.html)\) | Número real | Si |
+| 4 | Código texto \([COD](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/COD.html)\) | Identificador del código | Si |
+| 5 | Distancia activa \([DA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/DA.html)\) | Número real | Si |
 | 6 | Código línea a rotular | Identificador del código | Si |
 
 ## Observaciones
@@ -19,11 +19,11 @@ Tienes que conocer el código de los puntos y los valores de las distancias acti
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](rotula-z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Rotula Z de puntos por código... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AT](%3Ca%20href=), [JT](JT.html), [NDEC](NDEC.html), [DA](DA.html) |
+| Variables relacionadas | [AT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/%3Ca%20href=/README.md), [JT](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/JT.html), [NDEC](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/NDEC.html), [DA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/DA.html) |
 

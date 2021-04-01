@@ -28,7 +28,7 @@ Si se teclea la orden CURSOR cambia de valor sucesivamente entre 0 y 3. El valor
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](cursor.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Cambiar el tamaño del cursor |

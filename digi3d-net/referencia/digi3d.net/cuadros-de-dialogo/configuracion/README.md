@@ -10,7 +10,7 @@ Para abrir este cuadro de diálogo selecciona la opción del menú **Herramienta
 
 ## Uso del cuadro de diálogo
 
-Las configuraciones están agrupadas por categorías. 
+Las configuraciones están agrupadas por categorías.
 
 Para cambiar una configuración sigue los siguientes pasos:
 
@@ -23,12 +23,4 @@ Para cambiar una configuración sigue los siguientes pasos:
 ## Observaciones
 
 Los parámetros configurados con este cuadro de diálogo se almacenan en el archivo de configuración [Digi3DNET.db](../../archivos/archivo-de-configuracion-digi3dnet.db.md) o en la entrada del registro **Computer\HKEY\_CURRENT\_USER\SOFTWARE\Digi21\Digi3D.NET**.
-
-
-
-
-
-
-
-
 

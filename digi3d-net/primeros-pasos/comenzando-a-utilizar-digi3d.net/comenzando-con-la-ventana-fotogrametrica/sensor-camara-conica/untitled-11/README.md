@@ -15,9 +15,9 @@ Para poder seguir los pasos de este tutorial, localiza el directorio donde has d
 
 Los modelos de cámara cónica precisan de tres orientaciones para estar preparados para trabajar:
 
-1. [Orientación interna](OrientacionInterna.html).
-2. [Orientación relativa](OrientacionRelativa.html).
-3. [Orientación absoluta](OrientacionAbsoluta.html).
+1. [Orientación interna](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/OrientacionInterna.html).
+2. [Orientación relativa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/OrientacionRelativa.html).
+3. [Orientación absoluta](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/OrientacionAbsoluta.html).
 
 ## Comenzando con la ventana fotogramétrica
 

@@ -18,15 +18,15 @@ Selecciona la última entidad registrada en el fichero de dibujo, cuando se ha e
 
 Esta orden permite una mayor velocidad a la hora de restituir o editar.
 
-Si combinas la orden _SELECCIONA\_ULTIMO_ con la orden [ZOOM\_ENTIDAD](ZOOM_ENTIDAD.html), resulta muy útil en caso de que se haya digitalizado un punto en el infinito, ejecutaríamos primero la orden _ZOOM\_ENTIDAD_ y a continuación la orden _SELECCIONA\_ULTIMO_, así nos situaremos más rápido en la entidad y podremos proceder a borrarla.
+Si combinas la orden _SELECCIONA\_ULTIMO_ con la orden [ZOOM\_ENTIDAD](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/ZOOM_ENTIDAD.html), resulta muy útil en caso de que se haya digitalizado un punto en el infinito, ejecutaríamos primero la orden _ZOOM\_ENTIDAD_ y a continuación la orden _SELECCIONA\_ULTIMO_, así nos situaremos más rápido en la entidad y podremos proceder a borrarla.
 
 ### Ejemplo:
 
-En el caso de haber digitalizado la línea límite para generar un modelo digital del terreno por correlación, y después de dar la orden [MDTPC](MDTPC.html) podremos ejecutar la orden _SELECCIONA\_ULTIMO_ para hacer una selección automática de la entidad limitadora.
+En el caso de haber digitalizado la línea límite para generar un modelo digital del terreno por correlación, y después de dar la orden [MDTPC](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/MDTPC.html) podremos ejecutar la orden _SELECCIONA\_ULTIMO_ para hacer una selección automática de la entidad limitadora.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](selecciona-ultimo.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar última entidad |

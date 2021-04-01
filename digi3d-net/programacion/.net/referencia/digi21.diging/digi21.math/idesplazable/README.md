@@ -8,5 +8,3 @@ Este interfaz define los métodos que deben implementar las geometrías que son 
 | :--- | :--- |
 | [Offset](metodos/offset.md) | Desplaza la geometría |
 
-
-

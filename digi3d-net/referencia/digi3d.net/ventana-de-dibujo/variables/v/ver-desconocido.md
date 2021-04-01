@@ -36,7 +36,7 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana]() |
+| Tipo de orden | [Variable booleana](ver-desconocido.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |

@@ -19,7 +19,7 @@ Las paralelas las va a generar con el código que esté activo en el momento de 
   <thead>
     <tr>
       <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href>Orden interactiva</a>
+      <th style="text-align:left"><a href="paralela.md">Orden interactiva</a>
       </th>
     </tr>
   </thead>
@@ -47,7 +47,7 @@ Las paralelas las va a generar con el código que esté activo en el momento de 
     </tr>
     <tr>
       <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left"><a href="REPITE.html">REPITE</a>
+      <td style="text-align:left"><a href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/p/REPITE.html">REPITE</a>
       </td>
     </tr>
   </tbody>

@@ -16,15 +16,15 @@ Y a continuación una tabla con los puntos a medir en mayor detalle \(y por orde
 | 4 | 4 | 5798.8, 66571.8 | Punto 4 en la foto 107 |
 | 5 | 5 | 10703.4, 2432.8 | Punto 5 en la foto 107 |
 
-Es necesario que finalices los pasos de [Midiendo la orientación relativa automáticamente](MidiendoLaOrientacionRelativaAutomaticamente.html) antes de ejecutar los siguientes pasos para medir una orientación absoluta:
+Es necesario que finalices los pasos de [Midiendo la orientación relativa automáticamente](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/MidiendoLaOrientacionRelativaAutomaticamente.html) antes de ejecutar los siguientes pasos para medir una orientación absoluta:
 
 1. Pulsa el botón **Orientación absoluta** de la barra de herramientas de la ventana fotogramétrica. Aparecerán dos paneles acoplados a la ventana fotogramétrica: **Orientación Absoluta** e **Instantáneas**. El panel **Orientación absoluta** es el que nos sirve para medir la orientación absoluta. El panel **Instantáneas** sirve para mostrarnos dónde se midió un determinado punto en otra imagen si éste punto ya se midió con anterioridad. 
-2. Es posible que además aparezca el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html). Si es así, pulsa el botón **Cancelar** para cerrarlo.
-3. El panel **Orientación absoluta** muestra arriba del todo la ruta al archivo de puntos de apoyo así como el [Sistema de referencia de coordenadas](SistemasDeReferenciaDeCoordenadas.html) en el que están las coordenadas de los puntos de apoyo enumerados en ese archivo.
-4. Pulsa el botón **...** justo a la derecha de la ruta al archivo de puntos de apoyo. Aparecerá el [Cuadro de diálogo Archivo de puntos de apoyo](CuadroDeDialogoArchivoDePuntosDeApoyo.html).
+2. Es posible que además aparezca el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html). Si es así, pulsa el botón **Cancelar** para cerrarlo.
+3. El panel **Orientación absoluta** muestra arriba del todo la ruta al archivo de puntos de apoyo así como el [Sistema de referencia de coordenadas](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/SistemasDeReferenciaDeCoordenadas.html) en el que están las coordenadas de los puntos de apoyo enumerados en ese archivo.
+4. Pulsa el botón **...** justo a la derecha de la ruta al archivo de puntos de apoyo. Aparecerá el [Cuadro de diálogo Archivo de puntos de apoyo](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/CuadroDeDialogoArchivoDePuntosDeApoyo.html).
 5. Pulsa el el botón **...** para especificar la ruta del archivo de puntos de apoyo. Aparecerá el cuadro de diálogo **Abrir**.
 6. Localiza y selecciona el archivo _%EjemplosDigi3D%\Bronchales\Bronchales.xyz_ y pulsa el botón **Abrir**.
-7. Pulsa el botón **...** para para especificar el sistema de referencia de coordenadas de los puntos de apoyo. Aparecerá el [Cuadro de diálogo Sistema de Referencia de Coordenadas](CuadroDeDialogoSistemaDeReferenciaDeCoordenadas.html).
+7. Pulsa el botón **...** para para especificar el sistema de referencia de coordenadas de los puntos de apoyo. Aparecerá el [Cuadro de diálogo Sistema de Referencia de Coordenadas](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/CuadroDeDialogoSistemaDeReferenciaDeCoordenadas.html).
 8. Selecciona la opción **Proyectado + Vertical** en la parte iquierda.
 9. En el desplegable **Sistema de referencia de coordenadas proyectado** localiza la opción _WGS 84 / UTM Zone 30N_.
 10. En el desplegable **Sistema de coordenadas vertical** selecciona _EGM08\_REDNAP Península_.
@@ -32,7 +32,7 @@ Es necesario que finalices los pasos de [Midiendo la orientación relativa autom
 12. Comprueba que el cuadro de diálogo **Archivo de puntos de apoyo** muestra en el campo **Sistema de referencia de coordenadas** lo siguiente: _WGS 84 / UTM Zone 30N + EGM08\_REDNAP Península_.
 13. Pulsa el botón **Aceptar**.
 14. Comprueba que en el panel **Orientación absoluta** aparece tanto la ruta del archivo de puntos de apoyo como el sistema de referencia de coordenadas de éste.
-15. Pulsa el botón **Añadir**. Aparecerá el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html). Selecciona el punto **7** y pulsa el botón **Aceptar**.
+15. Pulsa el botón **Añadir**. Aparecerá el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/untitled-11/orientacion-absoluta/CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html). Selecciona el punto **7** y pulsa el botón **Aceptar**.
 16. Comprueba que en la parte inferior del panel **Orientación absoluta** el programa te está invitando a digitalizar el punto número **7.**
 17. Localiza el punto **7.** Una vez localizado pulsa cualquier botón de tu dispositivo de entrada para confirmar la medida.
 18. Aparecerá el cuadro de diálogo **Introduce un punto terreno del archivo de puntos**.
@@ -48,7 +48,5 @@ Es necesario que finalices los pasos de [Midiendo la orientación relativa autom
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Orientacion%20absoluta%20del%20primer%20modelo.mp4" %}
-
-
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Orientacion%20absoluta%20del%20primer%20modelo.mp4" caption="" %}
 

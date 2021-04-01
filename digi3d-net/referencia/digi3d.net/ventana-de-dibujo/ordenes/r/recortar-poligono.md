@@ -17,7 +17,7 @@ La orden analiza la intersección entre ambas entidades y crea un o unos \(pues 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](recortar-poligono.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polígonos/Recortar polígono |

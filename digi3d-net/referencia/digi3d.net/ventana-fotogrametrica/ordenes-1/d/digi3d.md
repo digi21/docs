@@ -12,7 +12,7 @@ Esta asociación la hace automáticamente al pulsar cualquier botón o pedal que
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](digi3d.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Descargar archivo de referencia... |

@@ -4,7 +4,5 @@ Si tenemos configurada la variable [REPITE](../../ventana-de-dibujo/variables/r/
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/repitiendo\_ultimo\_comando.mp4" %}
-
-
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/repitiendo\_ultimo\_comando.mp4" caption="" %}
 

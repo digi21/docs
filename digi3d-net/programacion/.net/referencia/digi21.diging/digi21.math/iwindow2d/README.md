@@ -15,14 +15,11 @@ Este interfaz define las propiedades que implementan las ventanas de tres dimens
 | [N](propiedades/n.md) | Devuelve el punto al norte de la ventana o geometría que implemente esta interfaz. |
 | [NW](propiedades/nw.md) | Devuelve el punto al noreste de la ventana o geometría que implemente esta interfaz. |
 | [Center](propiedades/center.md) | Devuelve el punto en el centro de la ventana o geometría que implemente esta interfaz. |
-| [Depth](propiedades/depth.md) | Devuelve el largo de la ventana o geometría que implemente esta interfaz. |
 | [Height](propiedades/height.md) | Devuelve el alto de la ventana o geometría que implemente esta interfaz. |
 | [Width](propiedades/width.md) | Devuelve el ancho de la ventana o geometría que implemente esta interfaz. |
 | [Valid](propiedades/valid.md) | Indica si la ventana es ventana o geometría que implemente esta interfaz. |
 | [Xmin](propiedades/xmin.md) | Devuelve la coordenada X mínima de la ventana o geometría que implemente esta interfaz. |
 | [Ymin](propiedades/ymin.md) | Devuelve la coordenada Y mínima de la ventana o geometría que implemente esta interfaz. |
-| [Zmin](propiedades/zmin.md) | Devuelve la coordenada Z mínima de la ventana o geometría que implemente esta interfaz. |
 | [Xmax](propiedades/xmax.md) | Devuelve la coordenada X máxima de la ventana o geometría que implemente esta interfaz. |
 | [Ymax](propiedades/ymax.md) | Devuelve la coordenada Y máxima de la ventana o geometría que implemente esta interfaz. |
-| [Zmax](propiedades/zmax.md) | Devuelve la coordenada Z máxima de la ventana o geometría que implemente esta interfaz. |
 

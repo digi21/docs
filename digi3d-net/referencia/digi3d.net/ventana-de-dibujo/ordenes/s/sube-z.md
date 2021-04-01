@@ -8,13 +8,13 @@ Valor de la _EQUIDISTANCIA_ que se haya determinado.
 
 ## Observaciones
 
-La equidistancia se define en el _cuadro de diálogo de Nuevo Proyecto de DigiNG_ o mediante la ejecución de la orden [EQUIDISTANCIA](EQUIDISTANCIA.html).
+La equidistancia se define en el _cuadro de diálogo de Nuevo Proyecto de DigiNG_ o mediante la ejecución de la orden [EQUIDISTANCIA](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/EQUIDISTANCIA.html).
 
 Esta orden es utilizada cuando se está curvando. Una vez que el operador ha terminado de restituir una curva de nivel deberá subir o bajar la Z de registro una cantidad igual a la equidistancia para comenzar con la siguiente curva de nivel.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](sube-z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Subir la coordenada Z al siguiente múltiplo de la equidistancia |

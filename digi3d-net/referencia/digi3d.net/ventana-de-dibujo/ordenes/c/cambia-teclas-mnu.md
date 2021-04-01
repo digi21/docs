@@ -14,7 +14,7 @@ El teclado activo se muestra en la _barra de herramientas TeclasMnu_.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](cambia-teclas-mnu.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Teclados virtuales/Cambiar al siguiente teclado virtual |

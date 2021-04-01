@@ -53,8 +53,6 @@ Este archivo se podrá crear con el Bloc de Notas, podrá tener un nombre a elec
 </automodob>
 ```
 
-
-
 En este ejemplo se comprueba que si estamos dibujando líneas con códigos 020123 ó 020124, el programa tentativará automáticamente con el modo de búsqueda 12 sobre entidades de código 060140, 040124, 060126, 060142, 060522 y 030255. Además, se tentativará con el modo de búsqueda 6 sobre los códigos 020123, 020124, 020126 y 020127.
 
 ### Llamada a la orden:
@@ -63,7 +61,7 @@ En este ejemplo se comprueba que si estamos dibujando líneas con códigos 02012
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](parametros-auto-modob.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -45,7 +45,3 @@ Podemos seleccionar una de las siguientes opciones:
 * **Si**. Selecciona esta opción si quieres que Digi3D.NET incluya versiones BETA al comprobar si existe una versión.
 * **No**. Selecciona esta opción en caso contrario.
 
-
-
-
-

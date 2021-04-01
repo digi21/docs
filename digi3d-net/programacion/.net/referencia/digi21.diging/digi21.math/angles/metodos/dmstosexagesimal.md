@@ -49,7 +49,3 @@ Console.WriteLine($"Valor calculado: {resultado}");
 
 El valor del ángulo si se está representando una longitud será entre -180 y 180. Si se está representando una latitud será entre -90 y 90.
 
-
-
-
-

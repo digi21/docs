@@ -12,7 +12,7 @@ Es necesario que se esté ejecutando previamente una orden que admita selección
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](selecciona-poligono.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar polígono por solape |

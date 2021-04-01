@@ -4,7 +4,7 @@ Permite configurar las topologías que se pueden generar mediante el menú [Topo
 
 ## Descripción
 
-Una topología es una selección de códigos de líneas agrupadas bajo un determinado nombre. 
+Una topología es una selección de códigos de líneas agrupadas bajo un determinado nombre.
 
 Al analizar una determinada topología, el programa analizará geométricamente todas las líneas del archivo de dibujo que tengan algún código de los especificados en la topología.
 
@@ -35,7 +35,7 @@ Dispone de los siguientes botones:
 * **Añadir** Permite añadir un código a la topología seleccionada mediante el cuadro de diálogo [Seleccionar códigos para topología](seleccionar-codigos-para-topologia.md). 
 * **Eliminar** Elimina el código seleccionado.
 
-### Lista de centroides 
+### Lista de centroides
 
 Muestra un listado con todos los centroides configurados para la topología seleccionada en la [lista de topologías configuradas](./#lista-de-topologias-configuradas).
 

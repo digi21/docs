@@ -6,20 +6,20 @@ Asigna/consulta el valor de _distancia activa_ y el valor de la _distancia activ
 
 Esta orden se puede ejecutar con un parámetro, con dos parámetros o sin parámetros
 
-#### Con un parámetro
+### Con un parámetro
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Distancia activa principal y secundaria | Número real | Si |
 
-#### Con dos parámetros
+### Con dos parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Distancia activa principal | Número real | Si |
 | 2 | Distancia activa secundaria | Número real | Si |
 
-#### Sin parámetros
+### Sin parámetros
 
 Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes primero la distancia activa y luego la secundaria.
 
@@ -41,7 +41,7 @@ DA=12.45 22.49
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/DA.mp4" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/DA.mp4" caption="" %}
 
 ## Características de la orden
 

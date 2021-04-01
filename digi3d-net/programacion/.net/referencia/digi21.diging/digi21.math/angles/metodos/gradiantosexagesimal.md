@@ -26,5 +26,3 @@ var valor = double.Parse(Console.Read());
 Console.WriteLine($"Sexagesimal: {Angles.GradianToSexagesimal(valor)}");
 ```
 
-
-

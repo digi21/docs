@@ -6,9 +6,9 @@ Las selecciones al igual que las [etiquetas ](codigos/propiedades-del-codigo.md#
 
 Las selecciones tienen un **nombre** y una **expresión** en el lenguaje de programación _Python_. Esta expresión devolverá verdadero para todas las geometrías del archivo de dibujo que cumplan la condición que define la selección.
 
-### Ejemplos:
+## Ejemplos:
 
- La selección "Todas las geometrías" se definirá de la siguiente manera:
+La selección "Todas las geometrías" se definirá de la siguiente manera:
 
 ```python
 True
@@ -39,6 +39,4 @@ Y combinaciones con varios objetos:
 ```python
 Propietario == 'Dylan' and Plantas > 3 and digi3DGeometry.Codes[0].Name == '010101' and digi3DGeometry.Points.Count == 7
 ```
-
-
 

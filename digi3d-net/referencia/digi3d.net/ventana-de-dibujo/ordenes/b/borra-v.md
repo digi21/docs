@@ -20,7 +20,7 @@ Los códigos que estén apagados no se tendrán en cuenta al ejecutar esta orden
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](borra-v.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Borra ventana |

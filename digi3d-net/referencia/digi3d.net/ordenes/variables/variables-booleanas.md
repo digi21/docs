@@ -2,15 +2,15 @@
 
 Son variables que pueden tener dos valores: verdadero/falso.
 
-### Parámetros
+## Parámetros
 
 Podemos ejecutar una orden de tipo variable booleana de dos maneras: sin parámetros y con parámetros.
 
-#### Sin parámetros
+### Sin parámetros
 
 Si ejecutamos una orden de tipo variable booleana sin parámetros, la variable cambiará su valor activo, por el contrario.
 
-#### Con parámetros
+### Con parámetros
 
 Las órdenes de tipo variable booleana admiten los siguientes parámetros:
 
@@ -38,9 +38,9 @@ Las órdenes de tipo variable booleana admiten los siguientes parámetros:
   </tbody>
 </table>
 
-### Ejemplos
+## Ejemplos
 
-La orden de tipo variable booleana [PITA](../../ventana-de-dibujo/variables/p/pita.md) hace que el programa haga sonar un sonido cuando se introduce un dato con el dispositivo de entrada o cuando se localiza un error. 
+La orden de tipo variable booleana [PITA](../../ventana-de-dibujo/variables/p/pita.md) hace que el programa haga sonar un sonido cuando se introduce un dato con el dispositivo de entrada o cuando se localiza un error.
 
 Si el valor de _PITA_ es _Verdadero_ y ejecutamos el siguiente comando:
 
@@ -73,6 +73,4 @@ Para hacer que la variable booleana PITA nos muestre su valor en un globo, ejecu
 ```text
 PITA=?
 ```
-
-## 
 

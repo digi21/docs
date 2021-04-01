@@ -26,7 +26,7 @@ A continuación, enumeramos las distintas macros existentes.
 | $\(Minutos\) | Minutos de la hora actual. |
 | $\(Segundos\) | Segundos de la hora actual. |
 | $\(DirectorioUsuario\) | Directorio local del usuario. |
-| $\(DirectorioAyuda\) | Directorio indicado en el campo [Directorio de ayudas de códigos](cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md#directorio-de-ayudas-de-codigos) del cuadro de diálogo de configuración.  |
+| $\(DirectorioAyuda\) | Directorio indicado en el campo [Directorio de ayudas de códigos](cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md#directorio-de-ayudas-de-codigos) del cuadro de diálogo de configuración. |
 | $\(RutaArchivoDibujo\) | Directorio donde está ubicado el archivo de dibujo actual \(sin incluir el nombre del archivo de dibujo\). |
 | $\(ArchivoDibujoConRuta\) | Ruta completa del archivo de dibujo actual. |
 | $\(ArchivoDibujoConRutaSinExtension\) | Ruta completa del archivo de dibujo actual, pero sin incluir su extensión. |

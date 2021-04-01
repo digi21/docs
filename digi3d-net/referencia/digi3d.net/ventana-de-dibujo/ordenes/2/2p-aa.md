@@ -24,7 +24,5 @@ El rectángulo se dibujará con el [ángulo activo](../../variables/a/aa.md) con
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/2P\_AA.mp4" %}
-
-
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/2P\_AA.mp4" caption="" %}
 

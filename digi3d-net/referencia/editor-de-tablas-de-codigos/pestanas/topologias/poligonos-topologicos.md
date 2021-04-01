@@ -6,5 +6,3 @@ Un polígono topológico es una relación de líneas en un determinado orden que
 
 Los polígonos topológicos habitualmente deben tener en su interior un [centroide](centroide.md).
 
-
-

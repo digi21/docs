@@ -1,6 +1,6 @@
 # Desplazando la ventana fotogramétrica a un punto de apoyo
 
-Si dispones de un archivo de [puntos de apoyo]() puedes ordenarle a la vista estereoscópica que se desplace a las coordenadas de un determinado punto de apoyo.
+Si dispones de un archivo de [puntos de apoyo](desplazando-ventana-foto-a-punto-apoyo.md) puedes ordenarle a la vista estereoscópica que se desplace a las coordenadas de un determinado punto de apoyo.
 
 1. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Ir a punto de apoyo...**
 2. Aparecerá el cuadro de diálogo común de Windows **Selecciona archivo de puntos de apoyo**. Si no aparece este cuadro de diálogo, pulsa el botón **...** del cuadro de diálogo **Selecciona el punto de apoyo al que desplazar la ventana fotogramétrica.**
@@ -11,7 +11,5 @@ Si dispones de un archivo de [puntos de apoyo]() puedes ordenarle a la vista est
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Desplazando%20la%20ventana%20fotogrametria%20a%20un%20punto%20de%20apoyo.mp4" %}
-
-
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Desplazando%20la%20ventana%20fotogrametria%20a%20un%20punto%20de%20apoyo.mp4" caption="" %}
 
