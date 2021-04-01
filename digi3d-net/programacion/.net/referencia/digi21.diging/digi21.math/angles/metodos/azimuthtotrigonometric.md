@@ -17,7 +17,7 @@ Valor transformado en radianes.
 
 ## Ejemplos
 
-El siguiente ejemplo solicita al usuario un ángulo en sexagesimal. El programa lo transforma a radianes se llama a este método y se vuelve a transformar a sexagesimal para mostrarlo por la consola
+El siguiente ejemplo solicita al usuario un ángulo en sexagesimal. El programa lo transforma a radianes se llama a este método y se vuelve a transformar a sexagesimal para mostrarlo por la consola:
 
 ```csharp
 Console.Write("Introduce un azimut en sexagesimal: ");
