@@ -1,2 +1,0 @@
-# IWindow2D
-
