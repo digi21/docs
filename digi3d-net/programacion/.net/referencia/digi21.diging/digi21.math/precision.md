@@ -1,5 +1,8 @@
 # Precision
 
+Espacio de nombres: [Digi21.Math](./)  
+Ensamblado: [Digi21.DigiNG](../)
+
 Esta clase proporciona métodos de extensión que permiten comparar números de doble precisión con un determinado valor Epsilon.
 
 ```csharp
