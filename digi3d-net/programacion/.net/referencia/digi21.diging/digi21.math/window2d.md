@@ -1,2 +1,376 @@
 # Window2D
 
+Espacio de nombres: [Digi21.Math](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math)  
+Ensamblado: [Digi21.DigiNG](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging)​‌
+
+Esta clase implementa una ventana en dos dimensiones.
+
+```csharp
+public struct Window2D : IWindow2D, IDesplazable
+```
+
+## Constructores
+
+|  |  |
+| :--- | :--- |
+| Window2D\(Point3D\) | Inicializa una nueva instancia de un [Window2D ](window2d.md)cuyas máximas y mínimas coinciden con el [Point3D ](point3d.md)pasado por parámetros. |
+| Window2D\(Point2D\) | Inicializa una nueva instancia de un [Window2D ](window2d.md)cuyas máximas y mínimas coinciden con el [Point2D](point2d.md) pasado por parámetros. |
+| Window2D\(double, double, double, double\) | Inicializa una nueva instancia de un [Window2D ](window2d.md)cuyas máximas y mínimas coinciden con los valores pasados por parámetros. |
+| Window2D\(double?, double, double, double\) | Inicializa una nueva instancia de un [Window2D ](window2d.md)cuyas máximas y mínimas coinciden con los valores pasados por parámetros. |
+| Window2D\(IWindow3D\) | Inicializa una nueva instancia de un [Window2D ](window2d.md)cuyas máximas y mínimas coinciden con las del objeto pasado por parámetros. |
+| Window2D\(IWindow2D\) | Inicializa una nueva instancia de un [Window2D ](window2d.md)cuyas máximas y mínimas coinciden con las del objeto pasado por parámetros. |
+
+## Propiedades estáticas
+
+|  |  |
+| :--- | :--- |
+| WholeWorld | Devuelve un [Window2D ](window2d.md)que representa todo el universo. |
+
+## ‌Propiedades
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x200B;Title</th>
+      <th style="text-align:left">&#x200B;Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/w">W</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al oeste de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/sw">SW</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al sudeste de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/s">S</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al sur de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/se">SE</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al sudeste de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/e">E</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al este de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ne">NE</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al noreste de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/n">N</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al norte de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/nw">NW</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto al noreste de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/center">Center</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el punto en el centro de la ventana o geometr&#xED;a que implemente
+          este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/height">Height</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el alto de la ventana o geometr&#xED;a que implemente este
+          <a
+          href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/width">Width</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve el ancho de la ventana o geometr&#xED;a que implemente este
+          <a
+          href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/valid">Valid</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Indica si la ventana es ventana o geometr&#xED;a que implemente este
+          <a
+          href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmin">Xmin</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve la coordenada X m&#xED;nima de la ventana o geometr&#xED;a que
+          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymin">Ymin</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve la coordenada Y m&#xED;nima de la ventana o geometr&#xED;a que
+          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmax">Xmax</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve la coordenada X m&#xE1;xima de la ventana o geometr&#xED;a que
+          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymax">Ymax</a>&#x200B;</td>
+      <td
+      style="text-align:left">
+        <p>Devuelve la coordenada Y m&#xE1;xima de la ventana o geometr&#xED;a que
+          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
+        </td>
+    </tr>
+  </tbody>
+</table>
+
+## ​Métodos
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-2-d">Offset(Point2D)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y como se indique en
+          el par&#xE1;metro.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-3-d">Offset(Point3D)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y, Z como se indique
+          en el par&#xE1;metro.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-double">Offset(double, double)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y como se indique en
+          los par&#xE1;metros.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-doublem-double">Offset(double, double, double)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y, Z como se indique
+          en los par&#xE1;metros.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Inflate(double, double)</td>
+      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima como la X m&#xE1;xima del <a href="window2d.md">Window2D</a> tantas
+        unidades como las especificadas en el primer par&#xE1;metro y de manera
+        similar en el eje Y con el valor especificado en el segundo par&#xE1;metro.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Inflate(Point2D)</td>
+      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima, X m&#xE1;xima, Y m&#xED;nima, Y m&#xE1;xima
+        del <a href="window2d.md">Window2D</a> tantas unidades como las especificadas
+        en el <a href="point2d.md">Point2D </a>pasado por par&#xE1;metro.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Inflate(Size)</td>
+      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima, X m&#xE1;xima, Y m&#xED;nima, Y m&#xE1;xima
+        del <a href="window2d.md">Window2D</a> tantas unidades como las especificadas
+        en el <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.size?view=net-5.0">Size</a> pasado
+        por par&#xE1;metro.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(IWindow3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(IWindow2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(Window3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(Window2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(Point3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(Point2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(PointF)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(Point)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Union(double, double, double, double)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersection(double?, double, double, double)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersection(IWindow3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersection(IWindow2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersection(Window3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersection(Window2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(double, double, double, double)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(IWindow3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(IWindow2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(Window3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(Window2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(Point3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(Point2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(PointF)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Contains(Point)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersects(double, double, double, double)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersects(double?, double, double, double)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersects(IWindow3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersects(IWindow2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersects(Window3D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Intersects(Window2D)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ToString()</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
+

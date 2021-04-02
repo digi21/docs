@@ -30,3 +30,5 @@ public interface IWindow2D
 | [Xmax](propiedades/xmax.md) | Devuelve la coordenada X máxima de la ventana o geometría que implemente esta interfaz. |
 | [Ymax](propiedades/ymax.md) | Devuelve la coordenada Y máxima de la ventana o geometría que implemente esta interfaz. |
 
+
+
