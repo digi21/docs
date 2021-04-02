@@ -1,8 +1,5 @@
 # SexagesimalToDMS
 
-Espacio de nombres: [Digi21.Math](../../)  
-Ensamblado: [Digi21.DigiNG](../../../)
-
 Extrae Grados, Minutos, Segundos a partir de una fracción decimal.
 
 ```csharp
@@ -11,19 +8,19 @@ public static void SexagesimalToDMS(double sexagesimal, out int degrees, out int
 
 ## Parámetros
 
-`sexagesimal`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`sexagesimal`  
 Ángulo en sexagesimal a partir del cual se calculará el resto de parámetros.
 
-`degrees`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`degrees`  
 Parámetro de salida en el que se almacenarán los grados.
 
-`minutes`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`minutes`  
 Parámetro de salida en el que se almacenarán los minutos.
 
-`seconds`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`seconds`  
 Parámetro de salida en el que se almacenarán los segundos.
 
-`east`[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
+`east`  
 Parámetro de salida en el que se almacenará un verdadero si el ángulo original era positivo y por lo tanto si es longitud está al este y si es latitud estará al norte.
 
 ## Devuelve
