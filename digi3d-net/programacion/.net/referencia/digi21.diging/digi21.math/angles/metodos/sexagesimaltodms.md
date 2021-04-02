@@ -23,7 +23,7 @@ Parámetro de salida en el que se almacenarán los minutos.
 `seconds`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Parámetro de salida en el que se almacenarán los segundos.
 
-`east`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`east`[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
 Parámetro de salida en el que se almacenará un verdadero si el ángulo original era positivo y por lo tanto si es longitud está al este y si es latitud estará al norte.
 
 ## Devuelve

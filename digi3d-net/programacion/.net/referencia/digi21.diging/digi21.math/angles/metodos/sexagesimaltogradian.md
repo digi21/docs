@@ -1,8 +1,5 @@
 # SexagesimalToGradian
 
-Espacio de nombres: [Digi21.Math](../../)  
-Ensamblado: [Digi21.DigiNG](../../../)
-
 Transforma un ángulo sexagesimal a centesimal.
 
 ```csharp
@@ -11,12 +8,11 @@ public static double SexagesimalToGradian(double sexagesimal);
 
 ## Parámetros
 
-`sexagesimal`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`sexagesimal`  
 Ángulo sexagesimal para transformar.
 
 ## Devuelve
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Valor transformado en centesimal.
 
 ## Ejemplos
@@ -29,4 +25,6 @@ var sexagesimal = double.Parse(Console.Read());
 
 Console.WriteLine($"Centesimal: {Angles.SexagesimalToGradian(sexagesimal)}");
 ```
+
+
 

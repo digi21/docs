@@ -1,8 +1,5 @@
 # Offset
 
-Espacio de nombres: [Digi21.Math](../../)  
-Ensamblado: [Digi21.DigiNG](../../../)
-
 Desplaza la geometría.
 
 ## Sobrecargas
@@ -24,7 +21,7 @@ void Offset(Point2D offset);
 
 ## Parámetros
 
-`offset`[Point2D](../../point2d.md)  
+`offset`[Point2D](../../point2d.md)   
 Punto que define cuántas unidades desplazar la geometría en X y en Y.
 
 ## Offset\(Point3D\)
@@ -50,13 +47,13 @@ void Offset(double x, double y);
 
 ## Parámetros
 
-`x`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`x`double   
 Número de unidades a desplazar la geometría en X.
 
-`y`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`y`double   
 Número de unidades en a desplazar la geometría en Y.
 
-## Offset\(double, double, double\)
+## Offset\(double, doublem double\)
 
 Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro.
 
@@ -66,12 +63,12 @@ void Offset(double x, double y, double z);
 
 ## Parámetros
 
-`x`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`x`double   
 Número de unidades a desplazar la geometría en X.
 
-`y`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`y`double   
 Número de unidades en a desplazar la geometría en Y.
 
-`z`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
+`z`double   
 Número de unidades en a desplazar la geometría en Z.
 
