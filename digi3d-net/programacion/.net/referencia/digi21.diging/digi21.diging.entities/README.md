@@ -1,0 +1,36 @@
+# Digi21.DigiNG.Entities
+
+Proporciona los tipos relacionados con geometrías.
+
+## Clases
+
+* [Code](code.md)
+* [CodeCollection](codecollection.md)
+* [Complex](complex.md)
+* [Entity](entity.md)
+* [Line](line.md)
+* [Point](point.md)
+* [Polygon](polygon.md)
+* [ReadOnlyComplex](readonlycomplex.md)
+* [ReadOnlyLine](readonlyline.md)
+* [ReadOnlyPoint](readonlypoint.md)
+* [ReadOnlyPolygon](readonlypolygon.md)
+* [ReadOnlyText](readonlytext.md)
+* [SegmentPointer](segmentpointer.md)
+* [Text](text.md)
+* [VertexPointer](vertexpointer.md)
+
+## Interfaces
+
+* [IClippable](iclippable.md)
+* [ICloseable](icloseable.md)
+* [IDirectionable](idirectionable.md)
+* [IJoinable](ijoinable.md)
+* [ISnappable](isnappable.md)
+* [ITrimmable](itrimmable.md)
+
+## Enumeraciones
+
+* [PointPosition](pointposition.md)
+* [TextJustification](textjustification.md)
+
