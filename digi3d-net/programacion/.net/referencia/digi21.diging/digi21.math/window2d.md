@@ -40,8 +40,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/w">W</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al oeste de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al oeste del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -49,8 +48,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/sw">SW</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al sudeste de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al sudeste del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -58,8 +56,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/s">S</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al sur de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al sur del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -67,8 +64,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/se">SE</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al sudeste de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al sudeste del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -76,8 +72,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/e">E</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al este de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al este del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -85,8 +80,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ne">NE</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al noreste de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al noreste del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -94,8 +88,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/n">N</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al norte de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al norte del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -103,8 +96,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/nw">NW</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto al noreste de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto al noreste del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -112,8 +104,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/center">Center</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el punto en el centro de la ventana o geometr&#xED;a que implemente
-          este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el punto en el centro del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -121,9 +112,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/height">Height</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el alto de la ventana o geometr&#xED;a que implemente este
-          <a
-          href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el alto del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -131,9 +120,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/width">Width</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve el ancho de la ventana o geometr&#xED;a que implemente este
-          <a
-          href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve el ancho del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -141,9 +128,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/valid">Valid</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Indica si la ventana es ventana o geometr&#xED;a que implemente este
-          <a
-          href="window2d.md">Window2D</a>.</p>
+        <p>Indica si la ventana del <a href="window2d.md">Window2D</a> es v&#xE1;lida.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -151,8 +136,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmin">Xmin</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve la coordenada X m&#xED;nima de la ventana o geometr&#xED;a que
-          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve la coordenada X m&#xED;nima del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -160,8 +144,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymin">Ymin</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xED;nima de la ventana o geometr&#xED;a que
-          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve la coordenada Y m&#xED;nima del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -169,8 +152,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmax">Xmax</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve la coordenada X m&#xE1;xima de la ventana o geometr&#xED;a que
-          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve la coordenada X m&#xE1;xima del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -178,8 +160,7 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymax">Ymax</a>&#x200B;</td>
       <td
       style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xE1;xima de la ventana o geometr&#xED;a que
-          implemente este <a href="window2d.md">Window2D</a>.</p>
+        <p>Devuelve la coordenada Y m&#xE1;xima del <a href="window2d.md">Window2D</a>.</p>
         <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
         </td>
     </tr>
@@ -200,8 +181,8 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-2-d">Offset(Point2D)</a>
       </td>
       <td style="text-align:left">
-        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y como se indique en
-          el par&#xE1;metro.</p>
+        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y como
+          se indique en el par&#xE1;metro.</p>
         <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
       </td>
     </tr>
@@ -209,8 +190,8 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-3-d">Offset(Point3D)</a>
       </td>
       <td style="text-align:left">
-        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y, Z como se indique
-          en el par&#xE1;metro.</p>
+        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y,
+          Z como se indique en el par&#xE1;metro.</p>
         <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
       </td>
     </tr>
@@ -218,8 +199,8 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-double">Offset(double, double)</a>
       </td>
       <td style="text-align:left">
-        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y como se indique en
-          los par&#xE1;metros.</p>
+        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y como
+          se indique en los par&#xE1;metros.</p>
         <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
       </td>
     </tr>
@@ -227,8 +208,8 @@ public struct Window2D : IWindow2D, IDesplazable
       <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-doublem-double">Offset(double, double, double)</a>
       </td>
       <td style="text-align:left">
-        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y, Z como se indique
-          en los par&#xE1;metros.</p>
+        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y,
+          Z como se indique en los par&#xE1;metros.</p>
         <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
       </td>
     </tr>
