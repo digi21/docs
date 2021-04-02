@@ -3,7 +3,7 @@
 Espacio de nombres: [Digi21.Math](./)  
 Ensamblado: [Digi21.DigiNG](../)
 
-Argumentos de evento para los eventos xxx.
+Argumento de evento para los eventos que comunican de que algo ha sucedido en unas determinadas coordenadas [Point3D](point3d.md).
 
 ```csharp
 public class Point3DEventArgs : EventArgs
