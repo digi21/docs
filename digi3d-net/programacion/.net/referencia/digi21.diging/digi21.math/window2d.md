@@ -253,124 +253,241 @@ public struct Window2D : IWindow2D, IDesplazable
     </tr>
     <tr>
       <td style="text-align:left">Union(IWindow3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="iwindow3d/">IWindow3D </a>pasado por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(IWindow2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="iwindow2d/">IWindow2D</a> pasado por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(Window3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="window3d.md">Window3D</a> pasado por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(Window2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="window2d.md">Window2D</a> pasado por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(Point3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="point3d.md">Point3D </a>pasado por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(Point2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="point2d.md">Point2D</a> pasado por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(PointF)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0">PointF</a> pasado
+        por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(Point)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0">Point</a> pasado
+        por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Union(double, double, double, double)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
+        que contenga las m&#xE1;ximas y m&#xED;nimas pasadas por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersection(double?, double, double, double)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
+        las m&#xE1;ximas y m&#xED;nimas pasadas por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersection(IWindow3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
+        el <a href="iwindow3d/">IWindow3D </a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersection(IWindow2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
+        el <a href="iwindow2d/">IWindow2D </a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersection(Window3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
+        el <a href="window3d.md">Window3D </a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersection(Window2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
+        el <a href="window2d.md">Window2D </a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(double, double, double, double)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene las m&#xE1;ximas
+        y m&#xED;nimas pasadas por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(IWindow3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="iwindow3d/">IWindow3D </a>pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(IWindow2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="iwindow2d/">IWindow2D </a>pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(Window3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="window3d.md">Window3D </a>pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(Window2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="window2d.md">Window2D </a>pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(Point3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="point3d.md">Point3D </a>pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(Point2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="point2d.md">Point2D </a>pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(PointF)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0">PointF</a> pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Contains(Point)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0">Point </a>pasado
+        por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersects(double, double, double, double)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con las m&#xE1;ximas
+        y m&#xED;nimas pasadas por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersects(double?, double, double, double)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con las m&#xE1;ximas
+        y m&#xED;nimas pasadas por par&#xE1;metros.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersects(IWindow3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
+        <a
+        href="iwindow3d/">IWindow3D</a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersects(IWindow2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
+        <a
+        href="iwindow2d/">IWindow2D</a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersects(Window3D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
+        <a
+        href="window3d.md">Window3D</a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">Intersects(Window2D)</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
+        <a
+        href="window2d.md">Window2D</a>pasado por par&#xE1;metro.</td>
     </tr>
     <tr>
       <td style="text-align:left">ToString()</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Convierte este <a href="window2d.md">Window2D</a> en una cadena legible
+        para los humanos.</td>
     </tr>
   </tbody>
 </table>
+
+## Métodos estáticos
+
+|  |  |
+| :--- | :--- |
+| Union\(IWindow3D, Point3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [Point3D ](point3d.md)pasados por parámetros. |
+| Union\(IWindow3D, Point2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [Point2D ](point2d.md)pasados por parámetros. |
+| Union\(IWindow2D, Point3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [Point3D ](point3d.md)pasados por parámetros. |
+| Union\(IWindow2D, Point2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [Point2D ](point2d.md)pasados por parámetros. |
+| Union\(Window3D, Point3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [Point3D ](point3d.md)pasados por parámetros. |
+| Union\(Window3D, Point2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [Point2D ](point2d.md)pasados por parámetros. |
+| Union\(Window2D, Point3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y el [Point3D ](point3d.md)pasados por parámetros. |
+| Union\(Window2D, Point2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y el [Point2D ](point2d.md)pasados por parámetros. |
+| Union\(IWindow3D, PointF\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
+| Union\(IWindow2D, PointF\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
+| Union\(Window3D, PointF\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
+| Union\(Window2D, PointF\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
+| Union\(IWindow3D, Point\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0) pasados por parámetros. |
+| Union\(IWindow2D, Point\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0) pasados por parámetros. |
+| Union\(Window3D, Point\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0) pasados por parámetros. |
+| Union\(Window2D, Point\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y el [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0) pasados por parámetros. |
+| Union\(IWindow3D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [IWindow3D ](iwindow3d/)pasados por parámetros. |
+| Union\(IWindow2D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [IWindow3D ](iwindow3d/)pasados por parámetros. |
+| Union\(IWindow3D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [IWindow2D ](iwindow2d/)pasados por parámetros. |
+| Union\(IWindow2D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [IWindow2D ](iwindow2d/)pasados por parámetros. |
+| Union\(IWindow3D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [Window3D ](window3d.md)pasados por parámetros. |
+| Union\(IWindow3D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y el [Window2D ](window2d.md)pasados por parámetros. |
+| Union\(IWindow2D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [Window3D ](window3d.md)pasados por parámetros. |
+| Union\(IWindow2D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y el [Window2D ](window2d.md)pasados por parámetros. |
+| Union\(Window3D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [IWindow3D ](iwindow3d/)pasados por parámetros. |
+| Union\(Window3D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [IWindow2D ](iwindow2d/)pasados por parámetros. |
+| Union\(Window2D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y el [IWindow3D ](iwindow3d/)pasados por parámetros. |
+| Union\(Window2D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y el [IWindow2D ](iwindow2d/)pasados por parámetros. |
+| Union\(Window3D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [Window3D ](window3d.md)pasados por parámetros. |
+| Union\(Window3D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y el [Window2D ](window2d.md)pasados por parámetros. |
+| Union\(Window2D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y el [Window3D ](window3d.md)pasados por parámetros. |
+| Union\(Window2D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y el [Window2D ](window2d.md)pasados por parámetros. |
+| Union\(IWindow3D, double, double, double, double\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow3D ](iwindow3d/)y las máximas y mínimas pasadas por parámetros. |
+| Union\(IWindow2D, double, double, double, double\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [IWindow2D ](iwindow2d/)y las máximas y mínimas pasadas por parámetros. |
+| Union\(Window3D, double, double, double, double\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window3D ](window3d.md)y las máximas y mínimas pasadas por parámetros. |
+| Union\(Window2D, double, double, double, double\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará las máximas del [Window2D ](window2d.md)y las máximas y mínimas pasadas por parámetros. |
+| Intersection\(double?, double, double, double, double?, double, double, double\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección las máximas y mínimas pasadas por parámetros. |
+| Intersection\(IWindow3D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow3D ](iwindow3d/)y el [IWindow3D ](iwindow3d/)pasados por parámetros. |
+| Intersection\(IWindow3D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow3D ](iwindow3d/)y el [IWindow2D ](iwindow2d/)pasados por parámetros. |
+| Intersection\(IWindow2D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow2D](iwindow2d/) y el [IWindow3D](iwindow3d/) pasados por parámetros. |
+| Intersection\(IWindow2D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow2D](iwindow2d/) y el [IWindow2D](iwindow2d/) pasados por parámetros. |
+| Intersection\(IWindow3D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow3D](iwindow3d/) y el [Window3D](window3d.md) pasados por parámetros. |
+| Intersection\(IWindow3D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow3D](iwindow3d/) y el [Window2D](window2d.md) pasados por parámetros. |
+| Intersection\(IWindow2D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow2D](iwindow2d/) y el [Window3D](window3d.md) pasados por parámetros. |
+| Intersection\(IWindow2D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [IWindow2D](iwindow2d/) y el [Window2D](window2d.md) pasados por parámetros. |
+| Intersection\(Window3D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window3D](window3d.md) y el [IWindow3D](iwindow3d/) pasados por parámetros. |
+| Intersection\(Window3D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window3D](window3d.md) y el [IWindow2D](iwindow2d/) pasados por parámetros. |
+| Intersection\(Window2D, IWindow3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window2D](window2d.md) y el [IWindow3D](iwindow3d/) pasados por parámetros. |
+| Intersection\(Window2D, IWindow2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window2D](window2d.md) y el [IWindow2D](iwindow2d/) pasados por parámetros. |
+| Intersection\(Window3D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window3D](window3d.md) y el [Window3D](window3d.md) pasados por parámetros. |
+| Intersection\(Window3D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window3D](window3d.md) y el [Window2D](window2d.md) pasados por parámetros. |
+| Intersection\(Window2D, Window3D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window2D](window2d.md) y el [Window3D](window3d.md) pasados por parámetros. |
+| Intersection\(Window2D, Window2D\) | Instancia un nuevo [Window2D ](window2d.md)que abarcará la intersección [Window2D](window2d.md) y el [Window2D](window2d.md) pasados por parámetros. |
+| Contains\(double?, double, double, double, double?, double, double, double\) | Indica si la ventana formada por los primeros cuatro parámetros contiene a la formada por los últimos cuatro parámetros. |
+| Contains\(IWindow3D, Window3D\) | Indica si la ventana representada por el parámetro [IWindow3D](iwindow3d/) contiene a la representada por el parámetro [Window3D](window3d.md). |
+| Contains\(IWindow3D, Window2D\) | Indica si la ventana representada por el parámetro [IWindow3D](iwindow3d/) contiene a la representada por el parámetro [Window2D](window2d.md). |
+| Contains\(IWindow2D, Window3D\) | Indica si la ventana representada por el parámetro [IWindow2D](iwindow2d/) contiene a la representada por el parámetro [Window3D](window3d.md). |
+| Contains\(IWindow2D, Window2D\) | Indica si la ventana representada por el parámetro [IWindow2D](iwindow2d/) contiene a la representada por el parámetro [Window2D](window2d.md). |
+| Contains\(Window3D, IWindow3D\) | Indica si la ventana representada por el parámetro [Window3D ](window3d.md)contiene a la representada por el parámetro [IWindow3D](iwindow3d/). |
+| Contains\(Window3D, IWindow2D\) | Indica si la ventana representada por el parámetro [Window3D](window3d.md) contiene a la representada por el parámetro [IWindow2D](iwindow2d/). |
+| Contains\(Window2D, IWindow3D\) | Indica si la ventana representada por el parámetro [Window2D](window2d.md) contiene a la representada por el parámetro [IWindow3D](iwindow3d/). |
+| Contains\(Window2D, IWindow2D\) | Indica si la ventana representada por el parámetro [Window2D](window2d.md) contiene a la representada por el parámetro [IWindow2D](iwindow2d/). |
+| Contains\(Window3D, Window3D\) | Indica si la ventana representada por el parámetro [Window3D](window3d.md) contiene a la representada por el parámetro [Window3D](window3d.md). |
+| Contains\(Window3D, Window2D\) | Indica si la ventana representada por el parámetro [Window3D](window3d.md) contiene a la representada por el parámetro [Window2D](window2d.md). |
+| Contains\(Window2D, Window3D\) | Indica si la ventana representada por el parámetro [Window2D](window2d.md) contiene a la representada por el parámetro [Window3D](window3d.md). |
+| Contains\(Window2D, Window2D\) | Indica si la ventana representada por el parámetro [Window2D](window2d.md) contiene a la representada por el parámetro [Window2D](window2d.md). |
+| Intersects\(double, double, double, double, double, double, double, double\) | Indica si la ventana formada por los primeros cuatro parámetros intersecciona con la formada por los últimos cuatro parámetros. |
+| Intersects\(double?, double, double, double, double?, double, double, double\) | Indica si la ventana formada por los primeros cuatro parámetros intersecciona con la formada por los últimos cuatro parámetros. |
+| Intersects\(IWindow3D, IWindow3D\) | Indica si la ventana representada por el parámetro [IWindow3D](iwindow3d/) intersecciona con la representada por el parámetro [IWindow3D](iwindow3d/). |
+| Intersects\(IWindow3D, IWindow2D\) | Indica si la ventana representada por el parámetro [IWindow3D](iwindow3d/) intersecciona con la representada por el parámetro [IWindow2D](iwindow2d/). |
+| Intersects\(IWindow2D, IWindow3D\) | Indica si la ventana representada por el parámetro [IWindow2D](iwindow2d/) intersecciona con la representada por el parámetro [IWindow3D](iwindow3d/). |
+| Intersects\(IWindow2D, IWindow2D\) | Indica si la ventana representada por el parámetro [IWindow2D](iwindow2d/) intersecciona con la representada por el parámetro [IWindow2D](iwindow2d/). |
+| Intersects\(Window3D, Window3D\) | Indica si la ventana representada por el parámetro [Window3D](window3d.md) intersecciona con la representada por el parámetro [Window3D](window3d.md). |
+| Intersects\(Window3D, Window2D\) | Indica si la ventana representada por el parámetro [Window3D](window3d.md) intersecciona con la representada por el parámetro [Window2D](window2d.md). |
+| Intersects\(Window2D, Window3D\) | Indica si la ventana representada por el parámetro [Window2D](window2d.md) intersecciona con la representada por el parámetro [Window3D](window3d.md). |
+| Intersects\(Window2D, Window2D\) | Indica si la ventana representada por el parámetro [Window2D](window2d.md) intersecciona con la representada por el parámetro [Window2D](window2d.md). |
 
