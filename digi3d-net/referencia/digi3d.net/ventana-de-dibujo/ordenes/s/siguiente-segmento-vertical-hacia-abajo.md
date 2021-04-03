@@ -12,7 +12,7 @@ El primer punto del segmento se introducirá en XYZ y el segundo en Z. Una vez d
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](siguiente-segmento-vertical-hacia-abajo.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

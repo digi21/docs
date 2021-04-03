@@ -9,3 +9,9 @@ Esta clase implementa una geometría de tipo línea \(que en realidad es una pol
 public class ReadOnlyLine : Entity, ICloseable, ISnapable, IClippable, ITrimable
 ```
 
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity.md) → ReadOnlyLine
+
+Tipos derivados: [Line](line.md)
+
+Implementa: [ICloseable](icloseable.md), [ISnapable](isnapable.md), [IClippable](iclippable.md), [ITrimable](itrimmable.md)
+

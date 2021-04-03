@@ -51,5 +51,3 @@ En caso de configurar aquí una etiqueta, únicamente se utilizarán los archivo
 
 > Podemos tener cargados por ejemplo varios archivos GeoTIFF, algunos con la etiqueta MDT y otros con la etiqueta MDS. Si queremos que los polígonos de una determinada topología se proyecten con los MDSs introduciremos aquí la palabra MDS.
 
-
-

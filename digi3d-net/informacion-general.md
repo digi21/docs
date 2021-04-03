@@ -2,13 +2,13 @@
 
 Digi3D.NET es la evolución de dos programas que nacen como productos independientes y que terminan mezclándose en una única aplicación.
 
-En el año 1988 nace _Digi_, una aplicación _CAD_ sin interfaz gráfica que permitía almacenar coordenadas de los codificadores de un _Topodata R2_. Estas coordenadas se transformaban con posteridad en formato _HP-GL2_ que era el formato de los _plotters_ de la época para imprimir la restitución. 
+En el año 1988 nace _Digi_, una aplicación _CAD_ sin interfaz gráfica que permitía almacenar coordenadas de los codificadores de un _Topodata R2_. Estas coordenadas se transformaban con posteridad en formato _HP-GL2_ que era el formato de los _plotters_ de la época para imprimir la restitución.
 
 Con el tiempo _Digi_ esta aplicación se convierte en una aplicación gráfica, primero para MS-DOS y con posterioridad para _Windows_, pasando a llamarse _Digi21_.
 
 _Digi3D_ nace como un sustituto de los restituidores analógicos/analíticos de la época. La idea era sustituir la máquina \(analógica o analítica\) que estaba conectada a otro ordenador en el que se ejecutaba _Digi21_ mediante una caja de codificadores.
 
-Las primeras versiones de _Digi3D_ no permitían _super imposición vectorial_ y únicamente permitían trabajar con modelos estereoscópicos de cámaras cónicas. 
+Las primeras versiones de _Digi3D_ no permitían _super imposición vectorial_ y únicamente permitían trabajar con modelos estereoscópicos de cámaras cónicas.
 
 El sistema de visualización estereoscópica que se utilizaba era el _estereoscopio para monitores_.
 

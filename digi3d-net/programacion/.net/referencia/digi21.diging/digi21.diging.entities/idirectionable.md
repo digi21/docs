@@ -9,3 +9,7 @@ Este interfaz define los métodos que deben implementar las geometrías que pued
 public interface IDirectionable
 ```
 
+Tipos derivados: [ReadOnlyLine](readonlyline.md)
+
+
+

@@ -14,7 +14,7 @@ DigiNG puede llamar automáticamente a esta orden cada cierto tiempo. Esta funci
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](bak.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Guardar una copia de seguridad |

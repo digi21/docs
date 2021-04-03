@@ -1,5 +1,8 @@
 # TrigonometricToAzimuth
 
+Espacio de nombres: [Digi21.Math](../../)  
+Ensamblado: [Digi21.DigiNG](../../../)
+
 Transforma un ángulo trigonométrico a azimutal.
 
 ```csharp
@@ -8,11 +11,12 @@ public static double TrigonometricToAzimuth(double radians);
 
 ## Parámetros
 
-`radians`  
+`radians`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Ángulo en radianes a transformar.
 
 ## Devuelve
 
+[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Valor transformado en radianes.
 
 ## Ejemplos

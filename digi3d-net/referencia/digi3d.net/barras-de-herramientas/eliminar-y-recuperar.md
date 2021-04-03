@@ -16,5 +16,3 @@ Permite ejecutar órdenes relacionadas con la eliminación y recuperación de ge
 * Botón que ejecuta la orden [BORRA\_COD\_V](../ventana-de-dibujo/ordenes/b/borra-cod-v.md).
 * Botón que ejecuta la orden [LIMPIA](../ventana-de-dibujo/ordenes/l/limpia.md).
 
-
-

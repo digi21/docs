@@ -11,5 +11,3 @@ Se puede mostrar el panel de las siguientes formas:
 * Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
 * Mediante la opción del menú **Ventana/Resultados/Resultados**.
 
-
-

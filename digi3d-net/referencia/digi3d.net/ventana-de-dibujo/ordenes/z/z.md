@@ -22,7 +22,7 @@ Si la entrada de coordenadas se realiza desde el restituidor, el valor de Z es t
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Establecer la coordenada Z activa |

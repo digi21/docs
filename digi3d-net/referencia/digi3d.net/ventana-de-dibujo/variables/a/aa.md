@@ -6,13 +6,13 @@ Establece el valor del _ángulo activo._
 
 Esta orden se puede ejecutar con o sin parámetros.
 
-#### Con parámetros
+### Con parámetros
 
 | Número de parámetro | Descripción | Valores admitidos | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Ángulo activo | Número real | Si |
 
-#### Sin parámetros
+### Sin parámetros
 
 Si ejecutamos esta orden sin parámetros, esta solicitará que digitalicemos gráficamente dos puntos. Una vez digitalizado el segundo punto, se asignará el valor del ángulo que forma el vector que une los dos puntos.
 

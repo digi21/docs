@@ -1,6 +1,6 @@
 # IR\_A\_PUNTO\_APOYO
 
-Mueve el restituidor a un punto de apoyo cuyas coordenadas deben aparecer en el archivo de puntos que se especificó en la carátula de entrada [Estereoscópico](CuadroDeDialogoCrearProyectoFotogrametrico.html).
+Mueve el restituidor a un punto de apoyo cuyas coordenadas deben aparecer en el archivo de puntos que se especificó en la carátula de entrada [Estereoscópico](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-fotogrametrica/ordenes-1/i/CuadroDeDialogoCrearProyectoFotogrametrico.html).
 
 ## Parámetros
 

@@ -9,6 +9,10 @@ Esta clase implementa un punto en dos dimensiones.
 public struct Point2D : IDesplazable
 ```
 
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ Point2D
+
+Implementa: [IDesplazable](idesplazable/)
+
 ## Constructores
 
 |  |  |
@@ -31,19 +35,86 @@ public struct Point2D : IDesplazable
 
 ## Métodos
 
-|  |  |
-| :--- | :--- |
-| DotProduct\(Point2D, Point2D\) | Devuelve el producto escalar de dos [Point2D](point2d.md). |
-| CalculateModule\(Point3D, Point3D\) | Calcula el módulo en 2D entre un [Point3D ](point3d.md)y un [Point3D](point3d.md). |
-| CalculateModule\(Point3D, Point2D\) | Calcula el módulo en 2D entre un [Point3D ](point3d.md)y un [Point2D](point2d.md). |
-| CalculateModule\(Point2D, Point3D\) | Calcula el módulo 2D entre un [Point2D ](point2d.md)y un [Point3D](point3d.md). |
-| CalculateModule\(Point2D, Point2D\) | Calcula el módulo 2D entre dos [Point2D](point2d.md). |
-| CalculateSquaredModule\(Point2D, Point2D\) | Calcula el módulo al cuadrado entre dos [Point2D](point2d.md). |
-| [Offset\(Point2D\)](idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza la geometría tantas unidades en X, Y como se indique en el parámetro. |
-| [Offset\(Point3D\)](idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro. |
-| [Offset\(double, double\)](idesplazable/metodos/offset.md#offset-double-double) | Desplaza la geometría tantas unidades en X, Y como se indique en los parámetros. |
-| [Offset\(double, double, double\)](idesplazable/metodos/offset.md#offset-double-doublem-double) | Desplaza la geometría tantas unidades en X, Y, Z como se indique en los parámetros. |
-| ToString\(\) | Devuelve una cadena con la representación del punto. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">DotProduct(Point2D, Point2D)</td>
+      <td style="text-align:left">Devuelve el producto escalar de dos <a href="point2d.md">Point2D</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CalculateModule(Point3D, Point3D)</td>
+      <td style="text-align:left">Calcula el m&#xF3;dulo en el plano entre un <a href="point3d.md">Point3D </a>y
+        un <a href="point3d.md">Point3D</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CalculateModule(Point3D, Point2D)</td>
+      <td style="text-align:left">Calcula el m&#xF3;dulo en el plano entre un <a href="point3d.md">Point3D </a>y
+        un <a href="point2d.md">Point2D</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CalculateModule(Point2D, Point3D)</td>
+      <td style="text-align:left">Calcula el m&#xF3;dulo en el plano entre un <a href="point2d.md">Point2D </a>y
+        un <a href="point3d.md">Point3D</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CalculateModule(Point2D, Point2D)</td>
+      <td style="text-align:left">Calcula el m&#xF3;dulo en el plano entre dos <a href="point2d.md">Point2D</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CalculateSquaredModule(Point2D, Point2D)</td>
+      <td style="text-align:left">Calcula el m&#xF3;dulo al cuadrado entre dos <a href="point2d.md">Point2D</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-2-d">Offset(Point2D)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y como se indique en
+          el par&#xE1;metro.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-3-d">Offset(Point3D)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y, Z como se indique
+          en el par&#xE1;metro.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-double">Offset(double, double)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y como se indique en
+          los par&#xE1;metros.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-doublem-double">Offset(double, double, double)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Desplaza la geometr&#xED;a tantas unidades en X, Y, Z como se indique
+          en los par&#xE1;metros.</p>
+        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ToString()</td>
+      <td style="text-align:left">
+        <p>Devuelve una cadena con la representaci&#xF3;n del punto.</p>
+        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0">Object</a>)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Operadores
 

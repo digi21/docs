@@ -9,3 +9,5 @@ Este interfaz define los métodos que deben implementar las geometrías que se p
 public interface IJoinable
 ```
 
+
+

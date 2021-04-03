@@ -12,7 +12,7 @@ La ayuda, es decir, el archivo **Digi3D.chm**, debe estar en el directorio **C:/
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](ayuda.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ayuda/Ayuda Digi3D... |

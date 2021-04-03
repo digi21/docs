@@ -17,7 +17,7 @@ Si el sistema de referencia de coordenadas de la ventana de dibujo es proyectado
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](eliminar-segmentos-cortos.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar segmentos cortos |

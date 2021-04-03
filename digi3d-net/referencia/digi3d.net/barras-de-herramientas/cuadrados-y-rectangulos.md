@@ -9,5 +9,3 @@ Permite ejecutar órdenes relacionadas con cuadrados y rectángulos.
 * Botón que ejecuta la orden [2P\_AA\_NORTE](../ventana-de-dibujo/ordenes/2/2p_aa_norte.md).
 * Botón que ejecuta la orden [3P](../ventana-de-dibujo/ordenes/3/3p.md).
 
-
-

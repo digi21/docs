@@ -12,7 +12,7 @@ En caso de querer invertir el orden de las entidades, la secuencia será `ORDENA
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](ordena-por-digitab.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Avanzado/Ordenar las entidades del archivo de dibujo según el orden en la tabla |

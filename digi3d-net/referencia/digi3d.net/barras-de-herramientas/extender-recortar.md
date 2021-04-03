@@ -15,5 +15,3 @@ Permite ejecutar órdenes relacionadas con extender y recortar geometrías exist
 * Botón que ejecuta la orden [TRIM\_M](../ventana-de-dibujo/ordenes/t/trim-m.md).
 * Botón que ejecuta la orden [TRIM\_LADO](../ventana-de-dibujo/ordenes/t/trim-lado.md).
 
-
-

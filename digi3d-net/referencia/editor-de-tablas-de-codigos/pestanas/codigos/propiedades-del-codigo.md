@@ -43,7 +43,7 @@ Ejemplo: La orden [OFF](../../../digi3d.net/ventana-de-dibujo/ordenes/o/off.md) 
 off=#viales
 ```
 
-#### Menús dinámicos
+### Menús dinámicos
 
 Digi3D.NET muestra en determinados menús \(como por ejemplo el menú **Ver**\), las etiquetas de la tabla de códigos activa, de manera que podremos ejecutar comandos que tomarán como datos de entrada todas las geometrías que tengan algún código que tenga asociada la etiqueta seleccionada.
 
@@ -67,7 +67,7 @@ La orden [COD](../../../digi3d.net/ventana-de-dibujo/ordenes/c/cod.md) seleccion
 
 Permite crear un diccionario de valores asociado con el código.
 
-Este valor es opcional, y en caso de asignar valores, podemos indicar tantos como queramos. 
+Este valor es opcional, y en caso de asignar valores, podemos indicar tantos como queramos.
 
 La forma de introducir valores es siguiendo el patrón `propiedad=valor`_._ En caso de asignar más de un valor, los separaremos por comas.
 
@@ -117,7 +117,7 @@ Se pueden seleccionar las siguientes opciones:
 
 Indica si este código está pensado para digitalizar líneas en modo continuo.
 
-Determinadas geometrías como por ejemplo las curvas de nivel se digitalizan habitualmente en modo continuo. Eso requiere que el usuario mantenga pulsado el botón/pedal de dato mientras digitaliza la geometría. 
+Determinadas geometrías como por ejemplo las curvas de nivel se digitalizan habitualmente en modo continuo. Eso requiere que el usuario mantenga pulsado el botón/pedal de dato mientras digitaliza la geometría.
 
 Con esta opción se puede indicar a la orden [LINEA](../../../digi3d.net/ventana-de-dibujo/ordenes/l/linea.md) que, al pulsar el botón de Dato, entienda que se está dibujando una línea continua y que por lo tanto no es necesario que el botón de Dato se mantenga pulsado, sino que por el mero hecho de mover el dispositivo de entrada \(ratón, manivelas, etc.\) se deben añadir segmentos a la línea.
 
@@ -159,6 +159,4 @@ Se pueden seleccionar las siguientes opciones:
 Código fuente del guion de control de calidad.
 
 La creación de guiones de control de calidad requiere unos conocimientos mínimos de programación. Puedes aprender más en [Guiones de control de calidad](../../../../programacion/.net/guiones-de-control-de-calidad.md).
-
-
 

@@ -18,9 +18,3 @@ Esta barra de herramientas permite realizar acciones relacionadas con los tentat
 * Botón que permite activar/desactivar el estado de la variable [CURSOR](../ventana-de-dibujo/ordenes/c/cursor.md).
 * Botón que permite activar/desactivar el estado de la variable [MOSTRAR\_PASO\_CURVAS](../ventana-de-dibujo/variables/m/mostrar_paso_curvas.md).
 
-
-
-
-
-
-

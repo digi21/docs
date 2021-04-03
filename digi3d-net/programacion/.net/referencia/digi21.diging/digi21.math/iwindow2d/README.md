@@ -9,6 +9,8 @@ Este interfaz define las propiedades que implementan las ventanas de tres dimens
 public interface IWindow2D
 ```
 
+Tipos derivados: [Window2D](../window2d.md)
+
 ## Propiedades
 
 |  |  |
@@ -29,4 +31,6 @@ public interface IWindow2D
 | [Ymin](propiedades/ymin.md) | Devuelve la coordenada Y mínima de la ventana o geometría que implemente esta interfaz. |
 | [Xmax](propiedades/xmax.md) | Devuelve la coordenada X máxima de la ventana o geometría que implemente esta interfaz. |
 | [Ymax](propiedades/ymax.md) | Devuelve la coordenada Y máxima de la ventana o geometría que implemente esta interfaz. |
+
+
 

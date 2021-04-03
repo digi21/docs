@@ -18,7 +18,7 @@ Las entidades deben tener el mismo código y los mismos atributos para poder uni
   <thead>
     <tr>
       <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href>Orden interactiva</a>
+      <th style="text-align:left"><a href="unir.md">Orden interactiva</a>
       </th>
     </tr>
   </thead>

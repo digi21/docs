@@ -1,6 +1,6 @@
 # CAMB\_MODOB
 
- Establece el modo de búsqueda o enganche gráfico a elementos del dibujo.
+Establece el modo de búsqueda o enganche gráfico a elementos del dibujo.
 
 ## Parámetros
 
@@ -34,7 +34,7 @@
 
 El ámbito de búsqueda de una entidad está determinado por el tamaño del cursor y el factor de zoom de pantalla.
 
-La ejecución de esta orden solamente permite pasar de un modo de búsqueda al siguiente, para especificar un modo de búsqueda se debe emplear la función [MODOB](MODOB.html).
+La ejecución de esta orden solamente permite pasar de un modo de búsqueda al siguiente, para especificar un modo de búsqueda se debe emplear la función [MODOB](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/c/MODOB.html).
 
 ### Características de la orden
 

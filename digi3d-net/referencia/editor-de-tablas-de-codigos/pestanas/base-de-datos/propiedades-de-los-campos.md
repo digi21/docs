@@ -4,13 +4,13 @@ Esta categoría permite configurar las propiedades de un campo de base de datos.
 
 ## Título
 
-Permite configurar el nombre del campo que se mostrará al usuario en las distintas ventanas que muestran campos de base de datos, como el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md). 
+Permite configurar el nombre del campo que se mostrará al usuario en las distintas ventanas que muestran campos de base de datos, como el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md).
 
 El título habitualmente coincide con el nombre del campo, pero no tiene por qué ser así.
 
 ## Descripción
 
-Permite configurar una descripción que aparecerá en la parte inferior del _grid de propiedades_ que utilizan las distintas ventanas que muestran campos de la base de datos. 
+Permite configurar una descripción que aparecerá en la parte inferior del _grid de propiedades_ que utilizan las distintas ventanas que muestran campos de la base de datos.
 
 Cuando el usuario hace clic en un campo, podrá leer esta descripción para entender el significado del campo.
 
@@ -31,15 +31,15 @@ Se pueden seleccionar uno de los siguientes tipos:
 
 ## Longitud
 
-Indica la longitud que tendrá el campo. 
+Indica la longitud que tendrá el campo.
 
 Este valor tiene que ser siempre mayor que 0 y debe ser lo suficientemente grande para almacenar la información que se desee.
 
 ## Decimales
 
-En caso de que en el campo **Tipo** se haya seleccionado la opción **Número real**, introduciremos aquí el número de decimales que se almacenarán. 
+En caso de que en el campo **Tipo** se haya seleccionado la opción **Número real**, introduciremos aquí el número de decimales que se almacenarán.
 
-Este campo tiene sentido en bases de datos de tipo XBASE \(que son las asociadas con Shapefiles\) pues en este tipo de bases de datos los números se almacenan como texto, de manera que es importante indicar el número de decimales. 
+Este campo tiene sentido en bases de datos de tipo XBASE \(que son las asociadas con Shapefiles\) pues en este tipo de bases de datos los números se almacenan como texto, de manera que es importante indicar el número de decimales.
 
 Este campo carece de sentido en otros tipos de bases de datos como Access pues en estas bases de datos, si un campo es de tipo real, se almacenarán valores de tipo _double_ con todos sus decimales.
 
@@ -51,11 +51,11 @@ Se puede introducir un valor constante o se puede introducir una [macro de base 
 
 ## Forzar valor por defecto
 
-Permite indicar si se debe almacenar obligatoriamente el valor configurado en [Valor por defecto](propiedades-de-los-campos.md#valor-por-defecto) independientemente del valor que haya introducido el usuario para este campo en el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md). 
+Permite indicar si se debe almacenar obligatoriamente el valor configurado en [Valor por defecto](propiedades-de-los-campos.md#valor-por-defecto) independientemente del valor que haya introducido el usuario para este campo en el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md).
 
 ## Lista de valores
 
-Permite indicar un conjunto de valores posibles para almacenar en este campo. 
+Permite indicar un conjunto de valores posibles para almacenar en este campo.
 
 En caso de que se introduzca una lista de valores, las ventanas que muestran campos de base de datos como el panel [Campos de la base de datos](../../../digi3d.net/paneles/campos-de-la-base-de-datos.md), mostrarán en este campo un desplegable para que el usuario seleccione un valor de entre los posibles.
 
@@ -87,7 +87,7 @@ Si introducimos en este campo una consulta SQL de selección entre símbolos de 
 SELECT IdCalle, NombreCalle FROM CALLES
 ```
 
-El programa extraerá los campos de la consulta. 
+El programa extraerá los campos de la consulta.
 
 * Si la consulta devuelve un único campo, se utilizará este campo tanto para el valor como para el texto a mostrar al usuario para cada registro devuelto.
 * Si la consulta devuelve más de un campo, se utilizará el primer campo para el valor a asignar y el segundo para el texto a mostrar al u
@@ -128,5 +128,5 @@ Se utiliza para agrupar campos relacionados en el interfaz de usuario de la apli
 
 ## Color de fondo
 
-Indica el color de fondo que se utilizará en el interfaz de usuario del programa al mostrar este campo. 
+Indica el color de fondo que se utilizará en el interfaz de usuario del programa al mostrar este campo.
 

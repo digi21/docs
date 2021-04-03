@@ -1,6 +1,6 @@
 # N
 
-Activa como dispositivo de entrada el fichero ASCII especificado en la pantalla de inicio de DigiNG o mediante la orden [FICHERO\_P](FICHERO_P.html).
+Activa como dispositivo de entrada el fichero ASCII especificado en la pantalla de inicio de DigiNG o mediante la orden [FICHERO\_P](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/FICHERO_P.html).
 
 ## Parámetros
 
@@ -19,11 +19,11 @@ No se han registrado observaciones para esta orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](orden-n.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](REPITE.html) |
+| Variables relacionadas | [REPITE](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/n/REPITE.html) |
 

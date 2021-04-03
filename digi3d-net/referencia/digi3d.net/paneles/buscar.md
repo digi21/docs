@@ -24,5 +24,3 @@ Supongamos que queremos exportar todos los textos del archivo de dibujo a un arc
 * Introducimos el nombre del archivo a crear.
 * Pulsamos el botón **Guardar**.
 
-
-

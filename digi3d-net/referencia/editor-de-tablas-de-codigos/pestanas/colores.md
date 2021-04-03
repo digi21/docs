@@ -18,5 +18,3 @@ El programa tiene preconfiguradas tres paletas de color estándar que se pueden 
 
 Al pulsar el botón podremos cambiar el color de fondo que tendrá la ventana de dibujo al cargar esta tabla de códigos.
 
-
-

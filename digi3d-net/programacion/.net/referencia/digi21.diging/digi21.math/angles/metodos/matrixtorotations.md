@@ -1,5 +1,8 @@
 # MatrixToRotations
 
+Espacio de nombres: [Digi21.Math](../../)  
+Ensamblado: [Digi21.DigiNG](../../../)
+
 Extrae ángulos Omega, Phi y Kappa de una matriz de Euler.
 
 ```csharp
@@ -8,16 +11,16 @@ public static void MatrixToRotations(double[,] eulerMatrix, out double omega, ou
 
 ## Parámetros
 
-`eulerMatrix`  
+`eulerMatrix`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Matriz de Euler de la cual extraer los ángulos.
 
-`omega`  
+`omega`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Parámetro de salida en el que se asignará el ángulo _Omega_ en radianes.
 
-`phi`  
+`phi`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Parámetro de salida en el que se asignará el ángulo _Phi_ en radianes.
 
-`kappa`  
+`kappa`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Parámetro de salida en el que se asignará el ángulo _Kappa_ en radianes.
 
 ## Ejemplos
@@ -39,13 +42,13 @@ Angles.RotationsToMatrix(
     Angles.SexagesimalToRadian(phi),
     Angles.SexagesimalToRadian(kappa),
     out var euler);
-    
+
 Angles.MatrixToRotations(
     euler,
     out omega,
     out phi,
     out kappa);
-    
+
 Console.WriteLine($"Omega: {Angles.RadianToSexagesimal(omega)}");
 Console.WriteLine($"Phi: {Angles.RadianToSexagesimal(phi)}");
 Console.WriteLine($"Kappa: {Angles.RadianToSexagesimal(kappa)}");

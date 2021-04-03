@@ -9,3 +9,5 @@ Este interfaz define los métodos que deben implementar las geometrías que se p
 public interface ITrimable
 ```
 
+Tipos derivados: [ReadOnlyLine](readonlyline.md), [ReadOnlyPolygon](readonlypolygon.md)
+

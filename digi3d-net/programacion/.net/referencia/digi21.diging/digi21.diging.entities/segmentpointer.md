@@ -9,3 +9,7 @@ Esta clase permite identificar un segmento de una determinada [ReadOnlyLine](rea
 public struct SegmentPointer
 ```
 
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType ](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ SegmentPointer
+
+## 
+

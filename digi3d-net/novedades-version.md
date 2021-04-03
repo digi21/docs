@@ -20,7 +20,5 @@ De manera que si haces clic en una versión podrás comprobar en la columna **Do
 
 Si haces clic en una modificación podrás comprobar si ha sido una corrección de errores, una nueva funcionalidad o por otro motivo además de una descripción más completa que el resumen que aparece en las tres columnas.
 
-Este repositorio está abierto para que solicites nuevas funcionalidades. Puedes hacerlo haciendo clic en ****[Issues](https://github.com/digi21/TareasDigi3D/issues)  y luego en el botón **New issue**.
-
-
+Este repositorio está abierto para que solicites nuevas funcionalidades. Puedes hacerlo haciendo clic en **\*\***[**Issues**](https://github.com/digi21/TareasDigi3D/issues) **y luego en el botón** New issue\*\*.
 

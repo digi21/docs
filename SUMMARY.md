@@ -825,7 +825,7 @@
             * [ICloseable](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/icloseable.md)
             * [IDirectionable](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/idirectionable.md)
             * [IJoinable](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/ijoinable.md)
-            * [ISnappable](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/isnappable.md)
+            * [ISnapable](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/isnapable.md)
             * [ITrimmable](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/itrimmable.md)
             * [Line](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/line.md)
             * [Point](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/point.md)

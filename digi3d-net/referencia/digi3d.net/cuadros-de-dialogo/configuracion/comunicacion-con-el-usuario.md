@@ -25,7 +25,7 @@ Podemos seleccionar una de las siguientes opciones:
 
 Permite indicar si vamos a utilizar el programa con un monitor o con varios.
 
-En caso de indicar con un único monitor, al abrir una ventana fotogramétrica, ésta se abrirá dentro del marco principal del programa. 
+En caso de indicar con un único monitor, al abrir una ventana fotogramétrica, ésta se abrirá dentro del marco principal del programa.
 
 Si configuramos para múltiples monitores, al abrir una ventana fotogramétrica, ésta se abrirá como un programa independiente, de manera que podremos moverla a otro monitor.
 
@@ -99,10 +99,4 @@ Permite indicar si Digi3D.NET mostrará en el [panel de ayuda dinámica](../../p
 ## Directorio de ayudas de códigos
 
 Permite configurar el directorio donde se ubican los archivos HTML asociados en el campo Archivo de ayuda al seleccionar este código como código activo.
-
-
-
-
-
-
 

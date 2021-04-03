@@ -9,6 +9,8 @@ Esta clase estática proporciona métodos de extensión que nos van a permitir r
 public static class Angles
 ```
 
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → Angles
+
 ## Métodos
 
 |  |  |

@@ -11,7 +11,3 @@ Permite ejecutar órdenes relacionadas con la modificación de geometrías exist
 * Botón que ejecuta la orden [MOD\_MULTIPLE](../ventana-de-dibujo/ordenes/m/mod-multiple.md).
 * Botón que ejecuta la orden [MOD\_Z\_MULTIPLE](../ventana-de-dibujo/ordenes/m/mod-z-multiple.md).
 
-
-
-
-

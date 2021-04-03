@@ -44,5 +44,3 @@ Se puede cambiar el contraste de ambas imágenes a la vez o bien solamente una.
 | Extensión |  |
 | Variables relacionadas |  |
 
-
-

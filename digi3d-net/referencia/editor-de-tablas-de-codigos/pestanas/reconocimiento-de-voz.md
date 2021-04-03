@@ -8,7 +8,7 @@ Muestra en el contenido principal una lista de los comandos de voz configurados.
 
 ## Botón Añadir
 
-Permite añadir un nuevo comando de voz. 
+Permite añadir un nuevo comando de voz.
 
 Al pulsarlo aparece un cuadro de diálogo que permite añadir distintas frases \(separadas por punto y coma\) que desencadenan que se ejecute el comando.
 
@@ -21,8 +21,4 @@ Permite modificar el comando de voz seleccionado en la lista de comandos de voz.
 ## Botón Eliminar
 
 Permite eliminar el comando de voz seleccionado en la lista de comandos de voz.
-
-
-
-
 

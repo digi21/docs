@@ -14,7 +14,7 @@ Cada ejecución de la orden UNDO sólo deshace una orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](undo.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Deshacer |

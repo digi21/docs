@@ -26,7 +26,7 @@ Proporciona los tipos relacionados con geometrías.
 * [ICloseable](icloseable.md)
 * [IDirectionable](idirectionable.md)
 * [IJoinable](ijoinable.md)
-* [ISnappable](isnappable.md)
+* [ISnappable](isnapable.md)
 * [ITrimmable](itrimmable.md)
 
 ## Enumeraciones

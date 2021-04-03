@@ -11,5 +11,3 @@ Permite ejecutar órdenes relacionadas con la coordenada Z.
 * Botón que ejecuta la orden [BAJA\_Z](../ventana-de-dibujo/ordenes/b/baja-z.md).
 * Botón que ejecuta la orden [SUBE\_Z](../ventana-de-dibujo/ordenes/s/sube-z.md).
 
-
-

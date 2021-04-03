@@ -4,29 +4,29 @@ En este ejemplo vamos a aerotriangular los modelos _107-108_ y _108-109_. Como e
 
 Estos puntos tendremos que medirlos en todos los modelos en los que solapen.
 
-Para poder continuar es necesario que sigas los pasos de [Midiendo automáticamente orientaciones internas y relativas](MidiendoAutomaticamenteOrientacionesInternasYRelativas.html).
+Para poder continuar es necesario que sigas los pasos de [Midiendo automáticamente orientaciones internas y relativas](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/MidiendoAutomaticamenteOrientacionesInternasYRelativas.html).
 
 1. Si has seguido todos los pasos de este tutorial, es posible que tengas en el directorio del proyecto dos subcarpetas: una denominada _Aerotriangulación_ y otra denominada _Instantáneas_. Si es así, **elimínalas**.
 2. Si tienes archivos de orientación absoluta \(archivos con extensión _.abs.xml_\), **elimínalos**
-3. Muestra el [Panel Proyecto fotogramétrico](PanelProyectoFotogrametrico.html) mediante la opción del menú **Ventana/Otras ventanas/Proyecto fotogramétrico**.
+3. Muestra el [Panel Proyecto fotogramétrico](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/PanelProyectoFotogrametrico.html) mediante la opción del menú **Ventana/Otras ventanas/Proyecto fotogramétrico**.
 4. Pulsa el segundo botón de la barra de herramientas del _panel de cambio automático de modelos._ Aparecerá el cuadro de diálogo **Abrir**.
 5. Selecciona el archivo _Proyecto de Bronchales.d3dprj_ y pulsa el botón **Abrir.**
-6. Despliega la sección _Pasada: 1_ del [panel de proyecto fotogramétrico](PanelProyectoFotogrametrico.html)_._
+6. Despliega la sección _Pasada: 1_ del [panel de proyecto fotogramétrico](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/PanelProyectoFotogrametrico.html)_._
 7. Selecciona la opción _107-108._ Se abrirá una ventana fotogramétrica mostrando el modelo _107-108_.
-8. Pulsa el botón _T_ de la barra de herramientas de la ventana fotogramétrica. Aparecerá el [Panel medida de aerotriangulación](PanelMedidaDeAerotriangulacion.html).
+8. Pulsa el botón _T_ de la barra de herramientas de la ventana fotogramétrica. Aparecerá el [Panel medida de aerotriangulación](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/PanelMedidaDeAerotriangulacion.html).
 9. Este panel es muy parecido al panel de orientación absoluta \(de echo es el mismo, únicamente se le añade el desplegable _Esquema_.
 10. Selecciona el esquema **Una pasada con porcentajes.**
 11. Comprueba que el programa te está solicitando que digitalices el punto 1070 y ha desplazado la ventana fotogramétrica al centro de la foto 107. Localiza un punto donde quieras medir el punto 1070 y pulsa cualquier botón de tu dispositivo de entrada.
 12. El programa ahora solicita que digitalces el punto 1071. Esta vez ha desplazado la ventana fotogramétrica a la parte superior de la foto 107. Digitaliza el punto.
 13. Mide todos los puntos que te solicite el programa.
-14. Una vez medidos todos los puntos, aparece el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html) tal y como sucedía al hacer una orientación absoluta. Pulsa el botón **Cancelar** para cerrar el cuadro de diálogo.
-15. En **Archivo de puntos** del panel _Medida de aerotriangulación_ pulsa el botón de los tres puntos. Aparecerá el [Cuadro de diálogo Archivo de puntos de apoyo](CuadroDeDialogoArchivoDePuntosDeApoyo.html).
+14. Una vez medidos todos los puntos, aparece el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/CuadroDeDialogoIntroduceUnPuntoTerrenoDelArchivoDePuntos.html) tal y como sucedía al hacer una orientación absoluta. Pulsa el botón **Cancelar** para cerrar el cuadro de diálogo.
+15. En **Archivo de puntos** del panel _Medida de aerotriangulación_ pulsa el botón de los tres puntos. Aparecerá el [Cuadro de diálogo Archivo de puntos de apoyo](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/CuadroDeDialogoArchivoDePuntosDeApoyo.html).
 16. Pulsa el botón de los tres puntos para  cambiar el archivo de puntos de apoyo. Aparecerá el cuadro de diálgo **Abrir**.
 17. Localiza el archivo **Puntos de apoyo de Bronchales para aerotriangular.xyz** y pulsa el botón **Abrir**. Este es un archivo de puntos de apoyo reducido que únicamente dispone de 4 puntos de apoyo.
 18. Si el sistema de referencia de coordenadas asociado no es _WGS 84 / UTM Zone 30N + EGM08\_REDNAP Península_, selecciónalo.
 19. Pulsa el botón **Aceptar**.
 20. Vamos a medir ahora los puntos 7 y 6. Para ello, pulsa el botón **Añadir** del _panel de Medida de aerotriangulación_. Aparecerá el _cuadro de diálogo Introduce un punto terreno del archivo de puntos_.
-21. Selecciona el punto 7 y mídelo \([recuerda donde estaba](MidiendoLaPrimeraOrientacionAbsolutaDeUnProyecto.html)\).
+21. Selecciona el punto 7 y mídelo \([recuerda donde estaba](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/MidiendoLaPrimeraOrientacionAbsolutaDeUnProyecto.html)\).
 22. Volverá a aparecer el _cuadro de diálogo Introduce un punto terreno del archivo de puntos_. Selecciona ahora el punto número 6 y mídelo.
 23. Volverá a aparecer el _cuadro de diálogo Introduce un punto terreno del archivo de puntos_.
 
@@ -41,7 +41,5 @@ Para poder continuar es necesario que sigas los pasos de [Midiendo automáticame
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Midiendo%20la%20aerotriangulacion%20del%20modelo%20107-108.mp4" %}
-
-
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/Midiendo%20la%20aerotriangulacion%20del%20modelo%20107-108.mp4" caption="" %}
 

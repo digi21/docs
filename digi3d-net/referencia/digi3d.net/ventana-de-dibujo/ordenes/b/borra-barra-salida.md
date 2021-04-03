@@ -12,7 +12,7 @@ No se ha registrado ninguna observación.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata]() |
+| Tipo de orden | [Orden inmediata](borra-barra-salida.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ventana/Resultados/Limpiar resultados |

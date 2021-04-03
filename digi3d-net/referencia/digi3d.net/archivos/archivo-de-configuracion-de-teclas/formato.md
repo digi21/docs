@@ -32,7 +32,6 @@ Y la secuencia de órdenes a ejecutar se indican en un nodo CDATA hijo del nodo 
     <teclasMnu:Key Name="RETROCESO" Control="true"><![CDATA[borra_ultimo]]></teclasMnu:Key>
     <teclasMnu:Key Name="C"><![CDATA[cierra_ent]]></teclasMnu:Key>
 </teclasMnu:Keyboard>
-
 ```
 
 No es habitual modificar este archivo manualmente, sino mediante la orden [TECLA](../../ventana-de-dibujo/ordenes/t/tecla.md).
@@ -44,7 +43,7 @@ Si se hace mediante la orden TECLA, ésta añadirá una hoja de estilos en casca
 <?xml-stylesheet type="text/xml" href="#style1"?>
 <!DOCTYPE Keyboard [
     <!ATTLIST xsl:stylesheet
-	id ID #REQUIRED>
+    id ID #REQUIRED>
 ]>
 <teclasMnu:Keyboard xmlns:teclasMnu="http://schemas.digi21.net/Digi3D/keyboard/v1.0">
     <xsl:stylesheet version="1.0"
@@ -114,9 +113,7 @@ Si se hace mediante la orden TECLA, ésta añadirá una hoja de estilos en casca
 
 Al hacer doble clic sobre este archivo se mostrará de la siguiente manera:
 
-
-
-#### Archivo de asignación de teclas
+## Archivo de asignación de teclas
 
 Este archivo especifica las órdenes asignadas a una pulsación de tecla
 

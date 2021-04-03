@@ -16,5 +16,3 @@ Permite modificar la macroinstrucción seleccionada.
 
 Permite eliminar la macroinstrucción seleccionada.
 
-
-

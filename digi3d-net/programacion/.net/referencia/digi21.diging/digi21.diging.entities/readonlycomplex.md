@@ -11,3 +11,11 @@ Esta clase implementa una geometría de tipo Complejo de solo lectura.
 public class ReadOnlyComplex : Entity
 ```
 
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity.md) → ReadOnlyComplex
+
+Tipos derivados: [Complex](complex.md)
+
+
+
+
+

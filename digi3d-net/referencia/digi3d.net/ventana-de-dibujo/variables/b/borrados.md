@@ -12,7 +12,7 @@ Esta orden no recupera las geometrías eliminadas, únicamente habilita su visua
 
 ## Vídeo
 
-{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/BORRADOS.mp4" %}
+{% embed url="https://digi21.blob.core.windows.net/videos-ayuda/BORRADOS.mp4" caption="" %}
 
 ## Características de la orden
 

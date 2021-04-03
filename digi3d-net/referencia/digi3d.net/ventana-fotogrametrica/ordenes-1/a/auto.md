@@ -1,6 +1,6 @@
 # AUTO
 
-Activa o desactiva el [AUTOZOOM]().
+Activa o desactiva el [AUTOZOOM](auto.md).
 
 ## Parámetros
 
@@ -36,7 +36,7 @@ Esta orden se mantiene activa únicamente para el caso de que el dispositivo de 
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana]() |
+| Tipo de orden | [Variable booleana](auto.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |

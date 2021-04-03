@@ -10,5 +10,3 @@ Permite ejecutar órdenes relacionadas con la interpolación de geometrías entr
 * Botón que ejecuta la orden [INTER](../ventana-de-dibujo/ordenes/i/inter.md)=código
 * Botón que ejecuta la orden [INTER\_EJE](../ventana-de-dibujo/ordenes/i/inter-eje.md).
 
-
-

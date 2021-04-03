@@ -1,5 +1,8 @@
 # DMSToSexagesimal
 
+Espacio de nombres: [Digi21.Math](../../)  
+Ensamblado: [Digi21.DigiNG](../../../)
+
 Transforma grados minutos y segundos a fracción decimal.
 
 ```csharp
@@ -8,19 +11,19 @@ public static void DMSToSexagesimal(int degrees, int minutes, double seconds, bo
 
 ## Parámetros
 
-`degrees`  
+`degrees`[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0)  
 Número entero representando los grados.
 
-`minutes`  
+`minutes`[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0)  
 Número entero representando los minutos.
 
-`seconds`  
+`seconds`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 Número real representando los segundos.
 
-`east`  
+`east`[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
 Booleano que indica si la coordenada está en el Este/Norte \(verdadero\) u Oeste/Sur \(falso\).
 
-`sexagesimal`  
+`sexagesimal`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
 En este parámetro de tipo `out` se asignará el valor calculado.
 
 ## Devuelve
@@ -48,8 +51,4 @@ Console.WriteLine($"Valor calculado: {resultado}");
 ## Observaciones
 
 El valor del ángulo si se está representando una longitud será entre -180 y 180. Si se está representando una latitud será entre -90 y 90.
-
-
-
-
 

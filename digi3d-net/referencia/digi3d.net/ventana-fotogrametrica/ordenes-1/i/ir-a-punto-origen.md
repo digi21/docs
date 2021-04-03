@@ -20,5 +20,3 @@ Si te encuentras fuera del modelo o quieres ir rápidamente al punto origen del 
 | Extensión |  |
 | Variables relacionadas |  |
 
-
-

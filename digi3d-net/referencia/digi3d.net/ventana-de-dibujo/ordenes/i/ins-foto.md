@@ -12,7 +12,7 @@ Esta orden respeta la relación de aspecto de la imagen.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva]() |
+| Tipo de orden | [Orden interactiva](ins-foto.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Dibujar/Imagen/Mediante dos puntos: Centro y radio_ |
