@@ -11,7 +11,7 @@ public class ReadOnlyLine : Entity, ICloseable, ISnapable, IClippable, ITrimable
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](../entity/) → ReadOnlyLine
 
-Tipos derivados: [Line](../line.md)
+Tipos derivados: [Line](../line/)
 
 Implementa: [ICloseable](../icloseable/), [ISnapable](../isnapable/), [IClippable](../iclippable/), [ITrimable](../itrimmable/)
 
@@ -130,7 +130,7 @@ Implementa: [ICloseable](../icloseable/), [ISnapable](../isnapable/), [IClippabl
     <tr>
       <td style="text-align:left"><a href="metodos/clone.md">Clone()</a>
       </td>
-      <td style="text-align:left">Devuelve una nueva instancia de <a href="../line.md">Line</a> id&#xE9;ntica
+      <td style="text-align:left">Devuelve una nueva instancia de <a href="../line/">Line</a> id&#xE9;ntica
         a la actual pero que no est&#xE1; asignada a ning&#xFA;n <a href="../../digi21.diging.io/idrawingfile/">IDrawingFile</a> de
         manera que no es de solo lectura.</td>
     </tr>

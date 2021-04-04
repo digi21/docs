@@ -13,7 +13,7 @@ public class ReadOnlyComplex : Entity
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](../entity/) → ReadOnlyComplex
 
-Tipos derivados: [Complex](../complex.md)
+Tipos derivados: [Complex](../complex/)
 
 ## Propiedades
 
@@ -25,7 +25,7 @@ Tipos derivados: [Complex](../complex.md)
 
 |  |  |
 | :--- | :--- |
-| [Clone\(\)](metodos/clone.md) | Devuelve una nueva instancia de [Complex](../complex.md) idéntica a la actual pero que no está asignada a ningún [IDrawingFile](../../digi21.diging.io/idrawingfile/) de manera que no es de solo lectura. |
+| [Clone\(\)](metodos/clone.md) | Devuelve una nueva instancia de [Complex](../complex/) idéntica a la actual pero que no está asignada a ningún [IDrawingFile](../../digi21.diging.io/idrawingfile/) de manera que no es de solo lectura. |
 | ToString | Convierte este [ReadOnlyComplex](./) en una cadena legible para los humanos. |
 
 

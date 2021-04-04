@@ -19,7 +19,7 @@ Implementa: [ICloneable](../icloseable/), [IDisposable](https://docs.microsoft.c
 
 Algunas propiedades de este tipo permiten asignación como FillColor, Weigtht y Color.
 
-Al instanciar una geometría nueva como por ejemplo [Line](../line.md), ésta es de lectura/escritura, de manera que se pueden utilizar las propiedades de asignación sin ningún problema.   
+Al instanciar una geometría nueva como por ejemplo [Line](../line/), ésta es de lectura/escritura, de manera que se pueden utilizar las propiedades de asignación sin ningún problema.   
 En el momento en el que la geometría se almacena en un archivo de dibujo \([IDrawingFile](../../digi21.diging.io/idrawingfile/)\), esta se convierte en una geometría de sólo lectura y ya no es posible asignar ninguna propiedad. 
 
 En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto la propiedad [Hidden](propiedades/hidden.md)\), el runtime lanzará una excepción de tipo [InvalidOperationException](https://docs.microsoft.com/en-us/dotnet/api/system.invalidoperationexception?view=net-5.0).

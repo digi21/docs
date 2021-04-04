@@ -5,9 +5,9 @@ Proporciona los tipos relacionados con geometrías.
 ## Clases
 
 * [Code](code/)
-* [Complex](complex.md)
+* [Complex](complex/)
 * [Entity](entity/)
-* [Line](line.md)
+* [Line](line/)
 * [Point](point.md)
 * [Polygon](polygon.md)
 * [ReadOnlyComplex](readonlycomplex/)
