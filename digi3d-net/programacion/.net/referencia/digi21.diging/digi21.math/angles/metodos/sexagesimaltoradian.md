@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](../../../)
 Transforma un ángulo sexagesimal a radianes.
 
 ```csharp
-public static double SexagesimalToRadian(double sexagesimal);
+public static double SexagesimalToRadian(this double sexagesimal);
 ```
 
 ## Parámetros

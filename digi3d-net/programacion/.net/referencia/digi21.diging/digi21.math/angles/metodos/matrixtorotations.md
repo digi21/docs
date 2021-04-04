@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](../../../)
 Extrae ángulos Omega, Phi y Kappa de una matriz de Euler.
 
 ```csharp
-public static void MatrixToRotations(double[,] eulerMatrix, out double omega, out double phi, out double kappa);
+public static void MatrixToRotations(this double[,] eulerMatrix, out double omega, out double phi, out double kappa);
 ```
 
 ## Parámetros

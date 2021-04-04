@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](../../../)
 Extrae Grados, Minutos, Segundos a partir de una fracción decimal.
 
 ```csharp
-public static void SexagesimalToDMS(double sexagesimal, out int degrees, out int minutes, out double seconds, out bool east);
+public static void SexagesimalToDMS(this double sexagesimal, out int degrees, out int minutes, out double seconds, out bool east);
 ```
 
 ## Parámetros

@@ -9,7 +9,7 @@ Esta clase implementa una geometría de tipo punto de solo lectura.
 public class ReadOnlyPoint : Entity, ISnapable
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity.md) → ReadOnlyPoint
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity/) → ReadOnlyPoint
 
 Tipos derivados: [Point](point.md)
 

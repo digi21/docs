@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](../../../)
 Transforma un ángulo azimutal a trigonométrico.
 
 ```csharp
-public static double AzimuthToTrigonometric(double radians);
+public static double AzimuthToTrigonometric(this double radians);
 ```
 
 ## Parámetros

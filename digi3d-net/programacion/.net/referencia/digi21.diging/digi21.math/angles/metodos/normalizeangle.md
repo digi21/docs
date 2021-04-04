@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](../../../)
 Normaliza un ángulo entre 0 y 2π.
 
 ```csharp
-public static double NormalizeAngle(double radians);
+public static double NormalizeAngle(this double radians);
 ```
 
 ## Parámetros

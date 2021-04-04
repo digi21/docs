@@ -9,7 +9,7 @@ Este interfaz define las propiedades que implementan las ventanas de tres dimens
 public interface IWindow3D
 ```
 
-Tipos derivados: [Window3D](../window3d.md), [Entity](../../digi21.diging.entities/entity.md)
+Tipos derivados: [Window3D](../window3d.md), [Entity](../../digi21.diging.entities/entity/)
 
 ## Propiedades
 

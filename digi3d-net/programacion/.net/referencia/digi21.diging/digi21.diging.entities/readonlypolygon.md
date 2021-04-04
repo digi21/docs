@@ -9,7 +9,7 @@ Esta clase implementa una geometría de tipo polígono de solo lectura.
 public class ReadOnlyPolygon : Entity, ISnapable, IClippable, ITrimable
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity.md) → ReadOnlyPolygon
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity/) → ReadOnlyPolygon
 
 Tipos derivados: [Polygon](polygon.md)
 
