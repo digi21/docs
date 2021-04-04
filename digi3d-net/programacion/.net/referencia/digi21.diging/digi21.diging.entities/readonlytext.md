@@ -13,5 +13,5 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Tipos derivados: [Text](text.md)
 
-Implementa: [ISnapable](isnapable.md)
+Implementa: [ISnapable](isnapable/)
 

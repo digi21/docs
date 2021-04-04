@@ -286,7 +286,14 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
     </tr>
     <tr>
       <td style="text-align:left">ToString</td>
-      <td style="text-align:left">Convierte este <a href="./">Entity</a> en una cadena legible para los humanos.</td>
+      <td style="text-align:left">
+        <p>Convierte este <a href="./">Entity</a> en una cadena legible para los humanos.</p>
+        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0">Object</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>

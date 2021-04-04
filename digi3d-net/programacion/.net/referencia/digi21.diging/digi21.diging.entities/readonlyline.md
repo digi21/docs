@@ -13,7 +13,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Tipos derivados: [Line](line.md)
 
-Implementa: [ICloseable](icloseable/), [ISnapable](isnapable.md), [IClippable](iclippable/), [ITrimable](itrimmable.md)
+Implementa: [ICloseable](icloseable/), [ISnapable](isnapable/), [IClippable](iclippable/), [ITrimable](itrimmable/)
 
 ## Propiedades
 

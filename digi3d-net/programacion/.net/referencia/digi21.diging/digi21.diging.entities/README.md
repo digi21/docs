@@ -4,7 +4,7 @@ Proporciona los tipos relacionados con geometrías.
 
 ## Clases
 
-* [Code](code.md)
+* [Code](code/)
 * [CodeCollection](codecollection.md)
 * [Complex](complex.md)
 * [Entity](entity/)
@@ -24,10 +24,9 @@ Proporciona los tipos relacionados con geometrías.
 
 * [IClippable](iclippable/)
 * [ICloseable](icloseable/)
-* [IDirectionable](idirectionable.md)
-* [IJoinable](ijoinable.md)
-* [ISnappable](isnapable.md)
-* [ITrimmable](itrimmable.md)
+* [IDirectionable](idirectionable/)
+* [ISnappable](isnapable/)
+* [ITrimmable](itrimmable/)
 
 ## Enumeraciones
 

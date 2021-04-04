@@ -15,13 +15,13 @@ Tipos derivados: [ReadOnlyLine](../readonlyline.md), [ReadOnlyPolygon](../readon
 
 |  |  |
 | :--- | :--- |
-| InteriorPoint | Devuelve un Point3D en el interior de la geometría. |
-| ClosedXYZ | Indica si el primer y último vértices de la geometría coinciden en sus coordenadas X, Y, Z. |
-| Closed | Indica si el primer y último vértices de la geometría coinciden en sus coordenadas X, Y. |
+| [InteriorPoint](propiedades/interiorpoint.md) | Devuelve un Point3D en el interior de la geometría. |
+| [ClosedXYZ](propiedades/closedxyz.md) | Indica si el primer y último vértices de la geometría coinciden en sus coordenadas X, Y, Z. |
+| [Closed](propiedades/closed.md) | Indica si el primer y último vértices de la geometría coinciden en sus coordenadas X, Y. |
 
 ## Métodos
 
 |  |  |
 | :--- | :--- |
-| AnalyzePointPosition | Devuelve un [PointPosition ](../pointposition.md)especificando la posición relativa de un [Point3D ](../../digi21.math/point3d.md)con la geometría. |
+| [AnalyzePointPosition](metodos/analyzepointposition.md) | Devuelve un [PointPosition ](../pointposition.md)especificando la posición relativa de un [Point3D ](../../digi21.math/point3d.md)con la geometría. |
 

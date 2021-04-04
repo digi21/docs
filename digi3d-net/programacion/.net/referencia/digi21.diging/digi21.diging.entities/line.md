@@ -11,5 +11,5 @@ public class Line : ReadOnlyLine, IDesplazable, IDirectionable
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity/) → [ReadOnlyLine ](readonlyline.md)→ Line
 
-Implementa: [IDesplazable](../digi21.math/idesplazable/), [IDirectionable](idirectionable.md)
+Implementa: [IDesplazable](../digi21.math/idesplazable/), [IDirectionable](idirectionable/)
 
