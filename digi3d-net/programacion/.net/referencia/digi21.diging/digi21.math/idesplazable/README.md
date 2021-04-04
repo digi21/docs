@@ -9,7 +9,7 @@ Este interfaz define los métodos que deben implementar las geometrías que son 
 public interface IDesplazable
 ```
 
-Tipos derivados: [Line](../../digi21.diging.entities/line/), [Point](../../digi21.diging.entities/point/), [Text](../../digi21.diging.entities/text.md)
+Tipos derivados: [Line](../../digi21.diging.entities/line/), [Point](../../digi21.diging.entities/point/), [Text](../../digi21.diging.entities/text/)
 
 ## Métodos
 

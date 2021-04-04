@@ -1,0 +1,19 @@
+# Coordinate
+
+Espacio de nombres: [Digi21.DigiNG.Entities](../../)  
+Ensamblado: [Digi21.DigiNG](../../../)
+
+Devuelve o asigna las coordenadas de inserción del [Text](../).
+
+```csharp
+public Point3D Coordinate { get; set; }
+```
+
+## Valor de la propiedad
+
+[Point3D](../../../digi21.math/point3d.md)
+
+Coordenadas de inserción del [Text](../).
+
+
+
