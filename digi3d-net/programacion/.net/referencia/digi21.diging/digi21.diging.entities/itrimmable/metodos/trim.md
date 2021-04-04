@@ -3,7 +3,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXR80mySoUUhqygVNjW/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities)   
 Ensamblado: [Digi21.DigiNG](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXR80mySoUUhqygVNjW/digi3d-net/programacion/.net/referencia/digi21.diging)​‌
 
-Devuelve un conjunto de polígonos que son el resultado de cortar la geometría por el límite especificado.
+Indica el vértice más cercano así como su índice y distancia.
 
 ```csharp
 IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity);‌

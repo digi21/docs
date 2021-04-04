@@ -5,7 +5,6 @@ Proporciona los tipos relacionados con geometrías.
 ## Clases
 
 * [Code](code/)
-* [CodeCollection](codecollection.md)
 * [Complex](complex.md)
 * [Entity](entity/)
 * [Line](line.md)
@@ -13,9 +12,9 @@ Proporciona los tipos relacionados con geometrías.
 * [Polygon](polygon.md)
 * [ReadOnlyComplex](readonlycomplex/)
 * [ReadOnlyLine](readonlyline/)
-* [ReadOnlyPoint](readonlypoint.md)
-* [ReadOnlyPolygon](readonlypolygon.md)
-* [ReadOnlyText](readonlytext.md)
+* [ReadOnlyPoint](readonlypoint/)
+* [ReadOnlyPolygon](readonlypolygon/)
+* [ReadOnlyText](readonlytext/)
 * [SegmentPointer](segmentpointer.md)
 * [Text](text.md)
 * [VertexPointer](vertexpointer.md)

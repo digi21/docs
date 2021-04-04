@@ -3,7 +3,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](../../)  
 Ensamblado: [Digi21.DigiNG](../../../)
 
-Devuelve un [IReadOnlyList ](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0)con los vértices del [ReadOnlyLine](../).
+Devuelve un [IReadOnlyList ](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0)con los vértices del límite exterior del [ReadOnlyPolygon](../).
 
 ```csharp
 public IReadOnlyList<Point3D> Points { get; }
@@ -13,5 +13,5 @@ public IReadOnlyList<Point3D> Points { get; }
 
 [IReadOnlyList&lt;Point3D&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0)
 
-Lista de vértices de la línea.
+Lista de vértices del límite exterior del polígono.
 

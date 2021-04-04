@@ -11,7 +11,7 @@ public abstract class Entity : IWindow3D, ICloneable, IDisposable
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → Entity
 
-Tipos derivados: [ReadOnlyComplex](../readonlycomplex/), [ReadOnlyLine](../readonlyline/), [ReadOnlyPoint](../readonlypoint.md), [ReadOnlyPolygon](../readonlypolygon.md), [ReadOnlyText](../readonlytext.md).
+Tipos derivados: [ReadOnlyComplex](../readonlycomplex/), [ReadOnlyLine](../readonlyline/), [ReadOnlyPoint](../readonlypoint/), [ReadOnlyPolygon](../readonlypolygon/), [ReadOnlyText](../readonlytext/).
 
 Implementa: [ICloneable](../icloseable/), [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0), [IWindow3D](../../digi21.math/iwindow3d/)
 
@@ -222,8 +222,9 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
     <tr>
       <td style="text-align:left"><a href="propiedades/codes.md">Codes</a>
       </td>
-      <td style="text-align:left">Devuelve un objeto <a href="../codecollection.md">CodeCollection </a>con
-        los c&#xF3;digos del <a href="./">Entity</a>.</td>
+      <td style="text-align:left">Devuelve un objeto <a href>CodeCollection </a>con los c&#xF3;digos del
+        <a
+        href="./">Entity</a>.</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="propiedades/visible.md">Visible</a>

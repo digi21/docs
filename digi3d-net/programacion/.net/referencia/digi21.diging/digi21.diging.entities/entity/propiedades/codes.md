@@ -11,7 +11,7 @@ public CodeCollection Codes { get; }
 
 ## Valor de la propiedad
 
-[CodeCollection](../../codecollection.md)
+[CodeCollection]()
 
 Objeto en el que se almacenan los códigos de la geometría.
 

@@ -9,7 +9,7 @@ Esta clase implementa una geometría de tipo polígono.
 public class Polygon : ReadOnlyPolygon
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity/) → [ReadOnlyPolygon](readonlypolygon.md) → Polygon
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](entity/) → [ReadOnlyPolygon](readonlypolygon/) → Polygon
 
 
 

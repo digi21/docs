@@ -1,19 +1,19 @@
-# LastVertex
+# Coordinate
 
 Espacio de nombres: [Digi21.DigiNG.Entities](../../)  
 Ensamblado: [Digi21.DigiNG](../../../)
 
-Devuelve las coordenadas del último vértice del [ReadOnlyLine](../).
+Devuelve las coordenadas de inserción del [ReadOnlyPoint](../).
 
 ```csharp
-public Point3D LastVertex { get; }
+public Point3D Coordinate { get; }
 ```
 
 ## Valor de la propiedad
 
 [Point3D](../../../digi21.math/point3d.md)
 
-Último vértice de la línea.
+Coordenadas de inserción del [ReadOnlyPoint](../).
 
 
 

@@ -9,7 +9,7 @@ Este interfaz define los métodos que deben implementar las geometrías que se p
 public interface ICloseable
 ```
 
-Tipos derivados: [ReadOnlyLine](../readonlyline/), [ReadOnlyPolygon](../readonlypolygon.md)
+Tipos derivados: [ReadOnlyLine](../readonlyline/), [ReadOnlyPolygon](../readonlypolygon/)
 
 ## Propiedades
 
