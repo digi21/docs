@@ -13,5 +13,5 @@ public IDictionary<string, IDictionary<string, object>> Database { get;  }‌
 
 [IDictionary&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)
 
-Un diccionario cuyo índice son los distintos códigos que tenga la geometría y cuyo valor es otro diccionario cuyo índice son los campos de base de datos de la tabla asociada al código y cuyo valor es el el valor de dicho campo.
+Un diccionario cuyo índice son los distintos códigos que tenga la geometría y cuyo valor es otro diccionario cuyo índice son los campos de base de datos de la tabla asociada al código y cuyo valor es el valor de dicho campo.
 
