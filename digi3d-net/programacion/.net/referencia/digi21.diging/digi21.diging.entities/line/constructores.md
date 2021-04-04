@@ -10,7 +10,7 @@ Inicializa una nueva instancia de [Line](./).
 |  |  |
 | :--- | :--- |
 | [Line\(Code\)](constructores.md#line-code) | Inicializa una nueva instancia de [Line](./)[ ](../complex/)con un código. |
-| [Line\(IEnumerable\)](constructores.md#line-ienumerable) | Inicializa una nueva instancia de [Line](./)[ ](../complex/)con múltiples códigos. |
+| [Line\(IEnumerable&lt;Code&gt;\)](constructores.md#line-ienumerable-less-than-code-greater-than) | Inicializa una nueva instancia de [Line](./)[ ](../complex/)con múltiples códigos. |
 
 ## Line\(Code\)
 
@@ -33,7 +33,7 @@ El siguiente ejemplo instancia un nuevo [Line](./)  y le asigna el código _0204
 var línea = new Line(new Code("020400"));
 ```
 
-## Line\(IEnumerable\)
+## Line\(IEnumerable&lt;Code&gt;\)
 
 Inicializa una nueva instancia de [Line](./) con múltiples códigos.
 

@@ -10,7 +10,7 @@ Inicializa una nueva instancia de [Complex](./).
 |  |  |
 | :--- | :--- |
 | [Complex\(Code\)](constructores.md#complex-code) | Inicializa una nueva instancia de [Complex ](./)con un código. |
-| [Complex\(IEnumerable\)](constructores.md#complex-ienumerable) | Inicializa una nueva instancia de [Complex ](./)con múltiples códigos. |
+| [Complex\(IEnumerable&lt;Code&gt;\)](constructores.md#complex-ienumerable-less-than-code-greater-than) | Inicializa una nueva instancia de [Complex ](./)con múltiples códigos. |
 
 ## Complex\(Code\)
 
@@ -33,7 +33,7 @@ El siguiente ejemplo instancia un nuevo [Complex ](./)y le asigna el código _02
 var complejo = new Complex(new Code("020400"));
 ```
 
-## Complex\(IEnumerable\)
+## Complex\(IEnumerable&lt;Code&gt;\)
 
 Inicializa una nueva instancia de [Complex ](./)con múltiples códigos.
 

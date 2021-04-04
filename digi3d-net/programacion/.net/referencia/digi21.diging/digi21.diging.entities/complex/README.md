@@ -18,7 +18,7 @@ Tipos derivados: [Complex](./)
 |  |  |
 | :--- | :--- |
 | [Complex\(Code\)](constructores.md#complex-code) | Inicializa una nueva instancia de [Complex ](./)con un código. |
-| [Complex\(IEnumerable\)](constructores.md#complex-ienumerable) | Inicializa una nueva instancia de [Complex ](./)con múltiples códigos. |
+| [Complex\(IEnumerable&lt;Code&gt;\)](constructores.md#complex-ienumerable-less-than-code-greater-than) | Inicializa una nueva instancia de [Complex ](./)con múltiples códigos. |
 
 ## Propiedades
 

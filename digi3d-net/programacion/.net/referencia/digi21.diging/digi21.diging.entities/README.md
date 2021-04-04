@@ -8,7 +8,7 @@ Proporciona los tipos relacionados con geometrías.
 * [Complex](complex/)
 * [Entity](entity/)
 * [Line](line/)
-* [Point](point.md)
+* [Point](point/)
 * [Polygon](polygon.md)
 * [ReadOnlyComplex](readonlycomplex/)
 * [ReadOnlyLine](readonlyline/)
