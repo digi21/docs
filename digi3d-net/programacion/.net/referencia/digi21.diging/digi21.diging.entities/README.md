@@ -15,7 +15,7 @@ Proporciona los tipos relacionados con geometrías.
 * [ReadOnlyPoint](readonlypoint/)
 * [ReadOnlyPolygon](readonlypolygon/)
 * [ReadOnlyText](readonlytext/)
-* [SegmentPointer](segmentpointer.md)
+* [SegmentPointer](segmentpointer/)
 * [Text](text.md)
 * [VertexPointer](vertexpointer.md)
 

@@ -19,11 +19,11 @@ Implementa: [ISnapable](../isnapable/)
 
 |  |  |
 | :--- | :--- |
-| Coordinate |  |
-| Justification |  |
-| Rotation |  |
-| TextHeight |  |
-| Txt |  |
+| [Coordinate](propiedades/coordinate.md) | Devuelve las coordenadas de inserción del [ReadOnlyText](./). |
+| [Justification](propiedades/justification.md) | Devuelve la justificación de textos del [ReadOnlyText](./). |
+| [Rotation](propiedades/rotation.md) | Devuelve la rotación en radianes del [ReadOnlyText](./). |
+| [TextHeight](propiedades/textheight.md) | Devuelve la altura de textos del [ReadOnlyText](./). |
+| [Txt](propiedades/txt.md) | Devuelve el texto del [ReadOnlyText](./). |
 
 ## Métodos
 
