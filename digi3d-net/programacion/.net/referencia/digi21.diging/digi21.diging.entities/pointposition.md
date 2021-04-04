@@ -15,9 +15,9 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |  |
 | :--- | :--- | :--- |
-| Exterior | 0 | El punto está en el exterior del [ReadOnlyLine](readonlyline.md) |
-| Interior | 1 | El punto está en el interior del [ReadOnlyLine](readonlyline.md) |
-| Tangent | 2 | El punto está en la línea límite del [ReadOnlyLine](readonlyline.md) |
+| Exterior | 0 | El punto está en el exterior del [ReadOnlyLine](readonlyline/) |
+| Interior | 1 | El punto está en el interior del [ReadOnlyLine](readonlyline/) |
+| Tangent | 2 | El punto está en la línea límite del [ReadOnlyLine](readonlyline/) |
 
 ## 
 

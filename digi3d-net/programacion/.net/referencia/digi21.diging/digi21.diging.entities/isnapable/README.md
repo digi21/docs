@@ -9,7 +9,7 @@ Este interfaz define los métodos que deben implementar las geometrías que se p
 public interface ISnapable
 ```
 
-Tipos derivados: [ReadOnlyLine](../readonlyline.md), [ReadOnlyPoint](../readonlypoint.md), [ReadOnlyPolygon](../readonlypolygon.md), [ReadOnlyText](../readonlytext.md)
+Tipos derivados: [ReadOnlyLine](../readonlyline/), [ReadOnlyPoint](../readonlypoint.md), [ReadOnlyPolygon](../readonlypolygon.md), [ReadOnlyText](../readonlytext.md)
 
 ## Métodos
 

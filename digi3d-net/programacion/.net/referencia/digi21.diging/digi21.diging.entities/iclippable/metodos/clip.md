@@ -11,7 +11,7 @@ IEnumerable<Entity> Clip(ReadOnlyLine limit);‌
 
 ## Parámetros
 
-`limit`[ReadOnlyLine](../../readonlyline.md)  
+`limit`[ReadOnlyLine](../../readonlyline/)  
 Línea límite por la que se recortará la geometría.
 
 ## Devuelve

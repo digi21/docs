@@ -11,7 +11,7 @@ IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity);�
 
 ## Parámetros
 
-`limit`[ReadOnlyLine](../../readonlyline.md)  
+`limit`[ReadOnlyLine](../../readonlyline/)  
 Línea límite por la que se cortará la geometría.
 
 `coordinateZFromThisEntity` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  

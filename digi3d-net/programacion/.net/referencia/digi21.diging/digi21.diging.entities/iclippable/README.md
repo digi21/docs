@@ -9,7 +9,7 @@ Este interfaz define los métodos que deben implementar las geometrías que se p
 public interface IClippable
 ```
 
-Tipos derivados: [ReadOnlyLine](../readonlyline.md), [ReadOnlyPolygon](../readonlypolygon.md)
+Tipos derivados: [ReadOnlyLine](../readonlyline/), [ReadOnlyPolygon](../readonlypolygon.md)
 
 ## Métodos
 

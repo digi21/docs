@@ -11,7 +11,7 @@ public abstract class Entity : IWindow3D, ICloneable, IDisposable
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → Entity
 
-Tipos derivados: [ReadOnlyComplex](../readonlycomplex.md), [ReadOnlyLine](../readonlyline.md), [ReadOnlyPoint](../readonlypoint.md), [ReadOnlyPolygon](../readonlypolygon.md), [ReadOnlyText](../readonlytext.md).
+Tipos derivados: [ReadOnlyComplex](../readonlycomplex/), [ReadOnlyLine](../readonlyline/), [ReadOnlyPoint](../readonlypoint.md), [ReadOnlyPolygon](../readonlypolygon.md), [ReadOnlyText](../readonlytext.md).
 
 Implementa: [ICloneable](../icloseable/), [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0), [IWindow3D](../../digi21.math/iwindow3d/)
 
@@ -251,8 +251,9 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
     <tr>
       <td style="text-align:left"><a href="propiedades/hidden.md">Hidden</a>
       </td>
-      <td style="text-align:left">Comprueba y permite indicar si ocultar la visualizaci&#xF3;n de esta geometr&#xED;a
-        en la ventana de dibujo.</td>
+      <td style="text-align:left">Comprueba y permite indicar si ocultar la visualizaci&#xF3;n de este
+        <a
+        href="./">Entity</a>en la ventana de dibujo.</td>
     </tr>
   </tbody>
 </table>

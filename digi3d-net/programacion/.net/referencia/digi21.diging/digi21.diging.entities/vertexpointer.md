@@ -3,7 +3,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](./)  
 Ensamblado: [Digi21.DigiNG](../)
 
-Esta clase permite identificar un vértice de una determinada [ReadOnlyLine](readonlyline.md).
+Esta clase permite identificar un vértice de una determinada [ReadOnlyLine](readonlyline/).
 
 ```csharp
 public struct VertexPointer
