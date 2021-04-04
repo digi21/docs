@@ -9,7 +9,7 @@ Proporciona los tipos relacionados con geometrías.
 * [Entity](entity/)
 * [Line](line/)
 * [Point](point/)
-* [Polygon](polygon.md)
+* [Polygon](polygon/)
 * [ReadOnlyComplex](readonlycomplex/)
 * [ReadOnlyLine](readonlyline/)
 * [ReadOnlyPoint](readonlypoint/)

@@ -51,7 +51,7 @@ Códigos a asignar al nuevo [Point](./).
 El siguiente ejemplo instancia un nuevo [Point](./)[ ](../complex/)y le asigna los códigos _020400_ y _ABCDE_.
 
 ```csharp
-var línea = new Point(new[]
+var punto = new Point(new[]
 {
     new Code("020400"),
     new Code("ABCDE")
