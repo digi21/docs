@@ -13,5 +13,5 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Tipos derivados: [Polygon](polygon.md)
 
-Implementa: [ISnapable](isnapable.md), [IClippable](iclippable.md), [ITrimable](itrimmable.md)
+Implementa: [ISnapable](isnapable.md), [IClippable](iclippable/), [ITrimable](itrimmable.md)
 

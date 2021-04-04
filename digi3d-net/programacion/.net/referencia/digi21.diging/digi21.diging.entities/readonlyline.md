@@ -13,7 +13,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Tipos derivados: [Line](line.md)
 
-Implementa: [ICloseable](icloseable.md), [ISnapable](isnapable.md), [IClippable](iclippable.md), [ITrimable](itrimmable.md)
+Implementa: [ICloseable](icloseable/), [ISnapable](isnapable.md), [IClippable](iclippable/), [ITrimable](itrimmable.md)
 
 ## Propiedades
 
@@ -47,7 +47,7 @@ Implementa: [ICloseable](icloseable.md), [ISnapable](isnapable.md), [IClippable]
       <td style="text-align:left">
         <p>Indica si el primer y &#xFA;ltimo v&#xE9;rtices del ReadOnlyLine coinciden
           en X, Y, Z.</p>
-        <p>(Heredado de <a href="icloseable.md">ICloseable</a>)</p>
+        <p>(Heredado de <a href="icloseable/">ICloseable</a>)</p>
       </td>
     </tr>
     <tr>
@@ -55,7 +55,7 @@ Implementa: [ICloseable](icloseable.md), [ISnapable](isnapable.md), [IClippable]
       <td style="text-align:left">
         <p>Indica si el primer y &#xFA;ltimo v&#xE9;rtices del ReadOnlyLine coinciden
           en X, Y.</p>
-        <p>(Heredado de <a href="icloseable.md">ICloseable</a>)</p>
+        <p>(Heredado de <a href="icloseable/">ICloseable</a>)</p>
       </td>
     </tr>
     <tr>

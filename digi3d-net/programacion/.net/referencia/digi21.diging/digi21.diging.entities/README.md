@@ -22,8 +22,8 @@ Proporciona los tipos relacionados con geometrías.
 
 ## Interfaces
 
-* [IClippable](iclippable.md)
-* [ICloseable](icloseable.md)
+* [IClippable](iclippable/)
+* [ICloseable](icloseable/)
 * [IDirectionable](idirectionable.md)
 * [IJoinable](ijoinable.md)
 * [ISnappable](isnapable.md)
