@@ -184,7 +184,8 @@ Tipos derivados: [Complex](complex.md)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Owner</td>
+      <td style="text-align:left"><a href="entity/propiedades/owner.md">Owner</a>
+      </td>
       <td style="text-align:left">
         <p>Devuelve el <a href="../digi21.diging.io/idrawingfile/">IDrawingFile </a>al
           que pertenece el <a href="readonlycomplex.md">ReadOnlyComplex</a>.</p>
@@ -192,7 +193,8 @@ Tipos derivados: [Complex](complex.md)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Deleted</td>
+      <td style="text-align:left"><a href="entity/propiedades/deleted.md">Deleted</a>
+      </td>
       <td style="text-align:left">
         <p>Especifica si el <a href="readonlycomplex.md">ReadOnlyComplex</a><a href="entity/"> </a>est&#xE1;
           eliminado.</p>
@@ -200,7 +202,8 @@ Tipos derivados: [Complex](complex.md)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">ReadOnly</td>
+      <td style="text-align:left"><a href="entity/propiedades/readonly.md">ReadOnly</a>
+      </td>
       <td style="text-align:left">
         <p>Especifica si el <a href="readonlycomplex.md">ReadOnlyComplex</a> es de
           solo lectura (ya est&#xE1; almacenada en alg&#xFA;n <a href="../digi21.diging.io/idrawingfile/">IDrawingFile</a>)</p>
@@ -208,28 +211,32 @@ Tipos derivados: [Complex](complex.md)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">FillColor</td>
+      <td style="text-align:left"><a href="entity/propiedades/fillcolor.md">FillColor</a>
+      </td>
       <td style="text-align:left">
         <p>Especifica el color de relleno del <a href="readonlycomplex.md">ReadOnlyComplex</a>.</p>
         <p>(Heredado de <a href="entity/">Entity</a>)</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Weight</td>
+      <td style="text-align:left"><a href="entity/propiedades/weight.md">Weight</a>
+      </td>
       <td style="text-align:left">
         <p>Especifica el grosor del <a href="readonlycomplex.md">ReadOnlyComplex</a>.</p>
         <p>(Heredado de <a href="entity/">Entity</a>)</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Color</td>
+      <td style="text-align:left"><a href="entity/propiedades/color.md">Color</a>
+      </td>
       <td style="text-align:left">
         <p>Especifica el color del <a href="readonlycomplex.md">ReadOnlyComplex</a>.</p>
         <p>(Heredado de <a href="entity/">Entity</a>)</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Codes</td>
+      <td style="text-align:left"><a href="entity/propiedades/codes.md">Codes</a>
+      </td>
       <td style="text-align:left">
         <p>Devuelve un objeto <a href="codecollection.md">CodeCollection </a>con los
           c&#xF3;digos del <a href="readonlycomplex.md">ReadOnlyComplex</a>.</p>
@@ -237,14 +244,16 @@ Tipos derivados: [Complex](complex.md)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Visible</td>
+      <td style="text-align:left"><a href="entity/propiedades/visible.md">Visible</a>
+      </td>
       <td style="text-align:left">
         <p>Indica si el <a href="readonlycomplex.md">ReadOnlyComplex</a> es visible.</p>
         <p>(Heredado de <a href="entity/">Entity</a>)</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">CreationTime</td>
+      <td style="text-align:left"><a href="entity/propiedades/creationtime.md">CreationTime</a>
+      </td>
       <td style="text-align:left">
         <p>Devuelve un objeto <a href="https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0">DateTime </a>con
           la fecha de creaci&#xF3;n del <a href="readonlycomplex.md">ReadOnlyComplex</a>.</p>
@@ -252,7 +261,8 @@ Tipos derivados: [Complex](complex.md)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Offset</td>
+      <td style="text-align:left"><a href="entity/propiedades/offset.md">Offset</a>
+      </td>
       <td style="text-align:left">
         <p>Indica el &#xED;ndice del <a href="readonlycomplex.md">ReadOnlyComplex</a> en
           el <a href="../digi21.diging.io/idrawingfile/">IDrawingFile </a>en el que
@@ -261,7 +271,8 @@ Tipos derivados: [Complex](complex.md)
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Database</td>
+      <td style="text-align:left"><a href="entity/propiedades/database.md">Database</a>
+      </td>
       <td style="text-align:left">
         <p>Devuelve un objeto <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0">IDictionary&lt;&gt;</a> con
           los atributos de base de datos de cada c&#xF3;digo que tenga el <a href="readonlycomplex.md">ReadOnlyComplex</a>.</p>
@@ -282,7 +293,8 @@ Tipos derivados: [Complex](complex.md)
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Clone</td>
+      <td style="text-align:left"><a href="entity/metodos/clone.md">Clone</a>
+      </td>
       <td style="text-align:left">
         <p>Devuelve una nueva instancia de <a href="readonlycomplex.md">ReadOnlyComplex</a> id&#xE9;ntica
           a la actual pero que no est&#xE1; asignada a ning&#xFA;n <a href="../digi21.diging.io/idrawingfile/">IDrawingFile</a> de

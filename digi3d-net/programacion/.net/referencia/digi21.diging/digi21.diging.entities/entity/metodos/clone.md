@@ -9,5 +9,10 @@ Devuelve un clon de la geometría representada por este [Entity](https://app.git
 public virtual Entity Clone();‌
 ```
 
+## Devuelve
+
+[Entity](../)  
+Nueva geometría clonada.
+
 
 

@@ -33,8 +33,8 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |
 | :--- | :--- |
-| Compose\(string, string\) | Compone el nombre de un código con comodines de Digi3D.NET. |
-| Compare\(string, string\) | Comprara utilizando la lógica de comodines de Digi3D.NET dos nombres de códigos. |
+| [Compare\(string, string\)](metodos-estaticos/compare.md) | Comprara utilizando la lógica de comodines de Digi3D.NET dos nombres de códigos. |
+| [Compose\(string, string\)](metodos-estaticos/compose.md) | Compone el nombre de un código a partir de un nombre de código existente y de una cadena a sustituir con comodines. |
 
 ## Métodos
 
