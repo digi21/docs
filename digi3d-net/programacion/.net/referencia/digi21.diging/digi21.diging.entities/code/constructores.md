@@ -5,6 +5,12 @@ Ensamblado: [Digi21.DigiNG](../../)
 
 Inicializa una nueva instancia de la estructura [Code](./).
 
+## Observaciones
+
+El número de tabla es el número asignado para ese nombre de tabla en la tabla especial de base de datos MSCATALOG o CATDBS.
+
+Los importadores/exportadores proporcionan la propiedad [DatabaseTables](../../digi21.diging.io/idrawingfile/propiedades/databasetables.md) que devuelve un diccionario con los nombres de tablas, así como su número.
+
 ## Sobrecargas
 
 |  |  |

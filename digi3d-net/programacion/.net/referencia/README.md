@@ -18,8 +18,8 @@ A continuación, el listado de paquetes NuGet:
 * [Digi21.DigiNG.Topology](digi21.diging.topology.md)
 * [Digi21.OpenGis](digi21.opengis.md)
 * [Digi21.Epsg](digi21.epsg.md)
-* [Digi21.DigiNG.IO.Bin](digi21.diging.io.bin.md)
-* [Digi21.DigiNG.IO.BinDouble](digi21.diging.io.bindouble.md)
-* [Digi21.DigiNG.IO.Shp](digi21.diging.io.shp.md)
-* [Digi21.DigiNG.IO.Geomedia](digi21.diging.io.geomedia.md)
+* [Digi21.DigiNG.IO.Bin](digi21.diging.io.bin/)
+* [Digi21.DigiNG.IO.BinDouble](digi21.diging.io.bindouble/)
+* [Digi21.DigiNG.IO.Shp](digi21.diging.io.shp/)
+* [Digi21.DigiNG.IO.Geomedia](digi21.diging.io.geomedia/)
 

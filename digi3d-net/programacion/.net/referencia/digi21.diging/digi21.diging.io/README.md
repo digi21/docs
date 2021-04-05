@@ -4,10 +4,10 @@ Proporciona los tipos relacionados con archivos de dibujo.
 
 ## Interfaces
 
-* IReadOnlyDrawingFile
-* IDrawingFile
+* [IDrawingFile](idrawingfile/)
+* [IReadOnlyDrawingFile](ireadonlydrawingfile.md)
 
 ## Delegados
 
-* DelegateGetWkt
+* [DelegateGetWkt](delegategetwkt.md)
 
