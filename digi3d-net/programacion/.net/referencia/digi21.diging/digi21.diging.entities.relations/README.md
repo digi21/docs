@@ -9,7 +9,7 @@ Proporciona tipos relacionados con la relación entre geometrías.
 * [LineLine](lineline/)
 * [PointArea](pointarea/)
 * [PointLine](pointline/)
-* [PointPoint](pointpoint.md)
+* [PointPoint](pointpoint/)
 
 
 
