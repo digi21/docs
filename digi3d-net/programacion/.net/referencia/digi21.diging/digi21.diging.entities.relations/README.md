@@ -7,8 +7,8 @@ Proporciona tipos relacionados con la relación entre geometrías.
 * [AreaArea](areaarea/)
 * [LineArea](linearea/)
 * [LineLine](lineline/)
-* [PointArea](pointarea.md)
-* [PointLine](pointline.md)
+* [PointArea](pointarea/)
+* [PointLine](pointline/)
 * [PointPoint](pointpoint.md)
 
 
