@@ -15,6 +15,10 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Un _Area_ en este contexto se refiere a líneas cerradas, de manera que engloba tanto a cualquier geometría de tipo [ReadOnlyPolygon ](../../digi21.diging.entities/readonlypolygon/)o cualquier [ReadOnlyLine ](../../digi21.diging.entities/readonlyline/)que esté cerrado.
 
+El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Adjacent](metodos-estaticos/adjacent.md)[ ](../linearea/metodos-estaticos/across.md)devuelve Verdadero, forzosamente [CompletelyWithin](metodos-estaticos/completelywithin.md) devolverá falso.
+
+Estos métodos únicamente analizan vértices existentes, es decir, que si no hay un vértice común entre las dos geometrías que se cruzan, su cruce pasará desapercibido.
+
 ## Métodos estáticos
 
 |  |  |
