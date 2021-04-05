@@ -5,7 +5,7 @@ Proporciona los tipos relacionados con archivos de dibujo.
 ## Interfaces
 
 * [IDrawingFile](idrawingfile/)
-* [IReadOnlyDrawingFile](ireadonlydrawingfile.md)
+* [IReadOnlyDrawingFile](ireadonlydrawingfile/)
 
 ## Delegados
 

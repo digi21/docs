@@ -35,4 +35,5 @@ Tipos derivados: [Bin](../../../digi21.diging.io.bin/bin.md), [BinDouble](../../
 | [Add\(Text\)](metodos/add.md#add-text) | Añade una geometría de tipo [Text](../../digi21.diging.entities/text/). |
 | [Delete\(Entity\)](metodos/delete.md#delete-entity) | Elimina un [Entity](../../digi21.diging.entities/entity/) del archivo de dibujo. |
 | [Delete\(IEnumerable&lt;Entity&gt;\)](metodos/delete.md#delete-ienumerable-less-than-entity-greater-than) | Elimina una enumeración de [Entity](../../digi21.diging.entities/entity/) del archivo de dibujo. |
+| [GetDatabaseAttributes\(Entity\)](metodos/getdatabaseattributes.md) | Extrae de la base de datos asociada al archivo de dibujo los atributos almacenados para la [Entity](../../digi21.diging.entities/entity/) pasada por parámetros. |
 
