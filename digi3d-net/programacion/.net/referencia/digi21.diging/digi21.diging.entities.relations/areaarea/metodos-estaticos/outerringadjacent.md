@@ -38,7 +38,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son adyacentes.
+_Verdadero_ si las dos áreas son adyacentes.
 
 ## OuterRingAdjacent\(ReadOnlyPolygon, ReadOnlyLine\)
 
@@ -59,7 +59,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son adyacentes.
+_Verdadero_ si las dos áreas son adyacentes.
 
 ## OuterRingAdjacent\(ReadOnlyPolygon, ReadOnlyPolygon\)
 
@@ -80,5 +80,5 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son adyacentes.
+_Verdadero_ si las dos áreas son adyacentes.
 

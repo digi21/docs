@@ -37,7 +37,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas tienen un punto de unión.
+_Verdadero_ si las dos áreas tienen un punto de unión.
 
 ## Join\(ReadOnlyLine, ReadOnlyPolygon\)
 
@@ -58,7 +58,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas tienen un punto de unión.
+_Verdadero_ si las dos áreas tienen un punto de unión.
 
 ## Join\(ReadOnlyPolygon, ReadOnlyLine\)
 
@@ -79,7 +79,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas tienen un punto de unión.
+_Verdadero_ si las dos áreas tienen un punto de unión.
 
 ## Join\(ReadOnlyPolygon, ReadOnlyPolygon\)
 
@@ -100,7 +100,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas tienen un punto de unión.
+_Verdadero_ si las dos áreas tienen un punto de unión.
 
 
 

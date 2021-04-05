@@ -22,5 +22,5 @@ Segunda línea.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos líneas son disjuntas.
+_Verdadero_ si las dos líneas son disjuntas.
 

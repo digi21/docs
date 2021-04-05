@@ -35,7 +35,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son iguales.
+_Verdadero_ si las dos áreas son iguales.
 
 ## Equal\(ReadOnlyLine, ReadOnlyPolygon\)
 
@@ -56,7 +56,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son iguales.
+_Verdadero_ si las dos áreas son iguales.
 
 ## Equal\(ReadOnlyPolygon, ReadOnlyLine\)
 
@@ -77,7 +77,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son iguales.
+_Verdadero_ si las dos áreas son iguales.
 
 ## Equal\(ReadOnlyPolygon, ReadOnlyPolygon\)
 
@@ -93,10 +93,10 @@ public static bool Equal(ReadOnlyPolygon a, ReadOnlyPolygon b)
 Primera área.
 
 `b` [ReadOnlyPolygon](../../../digi21.diging.entities/readonlypolygon/)  
-Segundo área.
+Segunda área.
 
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son iguales.
+_Verdadero_ si las dos áreas son iguales.
 

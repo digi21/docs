@@ -35,7 +35,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son disjuntas.
+_Verdadero_ si las dos áreas son disjuntas.
 
 ## Disjoint\(ReadOnlyLine, ReadOnlyPolygon\)
 
@@ -56,7 +56,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son disjuntas.
+_Verdadero_ si las dos áreas son disjuntas.
 
 ## Disjoint\(ReadOnlyPolygon, ReadOnlyLine\)
 
@@ -77,7 +77,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son disjuntas.
+_Verdadero_ si las dos áreas son disjuntas.
 
 ## Disjoint\(ReadOnlyPolygon, ReadOnlyPolygon\)
 
@@ -98,7 +98,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas son disjuntas.
+_Verdadero_ si las dos áreas son disjuntas.
 
 
 

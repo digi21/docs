@@ -13,7 +13,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 ## Observaciones
 
-El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Across ](../linearea/metodos-estaticos/across.md)devuelve Verdadero, forzosamente [Disjoint ](../areaarea/metodos-estaticos/disjoint.md)devolverá _Falso_.
+El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Across](metodos-estaticos/across.md) devuelve Verdadero, forzosamente [EndpointJoinEndpoint](metodos-estaticos/endpointjoinendpoint.md) devolverá _Falso_.
 
 Estos métodos únicamente analizan vértices existentes, es decir, que si no hay un vértice común entre las dos geometrías que se cruzan, su cruce pasará desapercibido.
 

@@ -33,7 +33,7 @@ Línea.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si uno de los extremos de la línea se junta con el área.
+_Verdadero_ si uno de los extremos de la línea se junta con el área.
 
 ## EndpointJoin\(ReadOnlyLine, ReadOnlyPolygon\)
 
@@ -54,5 +54,5 @@ Línea.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si uno de los extremos de la línea se junta con el área.
+_Verdadero_ si uno de los extremos de la línea se junta con el área.
 

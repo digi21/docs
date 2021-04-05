@@ -37,7 +37,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si la primera área está incluida en la segunda área.
+_Verdadero_ si la primera área está incluida en la segunda área.
 
 ## Within\(ReadOnlyLine, ReadOnlyPolygon\)
 
@@ -79,7 +79,7 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si la primera área está incluida en la segunda área.
+_Verdadero_ si la primera área está incluida en la segunda área.
 
 ## Within\(ReadOnlyPolygon, ReadOnlyPolygon\)
 
@@ -100,5 +100,5 @@ Segunda área.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si la primera área está incluida en la segunda área.
+_Verdadero_ si la primera área está incluida en la segunda área.
 

@@ -33,7 +33,7 @@ Línea.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si la línea es y el área son disjuntas.
+_Verdadero_ si la línea es y el área son disjuntas.
 
 ## Disjoint\(ReadOnlyLine, ReadOnlyPolygon\)
 
@@ -54,5 +54,5 @@ Línea.
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si la línea es y el área son disjuntas.
+_Verdadero_ si la línea es y el área son disjuntas.
 

@@ -40,7 +40,7 @@ Una coordenada en la que cortan los polígonos. Este parámetro se puede utiliza
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas solapan.
+_Verdadero_ si las dos áreas solapan.
 
 ## Overlap\(ReadOnlyLine, ReadOnlyPolygon, out Point3D\)
 
@@ -64,7 +64,7 @@ Una coordenada en la que cortan los polígonos. Este parámetro se puede utiliza
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas solapan.
+_Verdadero_ si las dos áreas solapan.
 
 ## Overlap\(ReadOnlyPolygon, ReadOnlyLine, out Point3D\)
 
@@ -88,7 +88,7 @@ Una coordenada en la que cortan los polígonos. Este parámetro se puede utiliza
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas solapan.
+_Verdadero_ si las dos áreas solapan.
 
 ## Overlap\(ReadOnlyPolygon, ReadOnlyPolygon, out Point3D\)
 
@@ -112,7 +112,7 @@ Una coordenada en la que cortan los polígonos. Este parámetro se puede utiliza
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si las dos áreas solapan.
+_Verdadero_ si las dos áreas solapan.
 
 
 
