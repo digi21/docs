@@ -9,6 +9,10 @@ Esta interfaz define los métodos que implementan los importadores/exportadores 
 public interface IReadOnlyDrawingFile : IEnumerable<Entity>
 ```
 
+Tipos derivados: [IDrawingFile](../idrawingfile/)
+
+Implementa: [IEnumerable&lt;Entity&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-5.0)
+
 ## Métodos
 
 |  |  |

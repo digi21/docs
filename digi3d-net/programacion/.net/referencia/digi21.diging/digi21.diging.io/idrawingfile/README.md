@@ -6,10 +6,12 @@ Ensamblado: [Digi21.DigiNG](../../)
 Esta interfaz define los métodos que implementan los importadores/exportadores de archivos.
 
 ```csharp
-public interface IDrawingFile : IEnumerable<Entity>
+public interface IDrawingFile : IReadOnlyDrawingFile
 ```
 
 Tipos derivados: [Bin](../../../digi21.diging.io.bin/bin.md), [BinDouble](../../../digi21.diging.io.bindouble/bindouble.md), [Shp](../../../digi21.diging.io.shp/shp.md), [Geomedia](../../../digi21.diging.io.geomedia/geomedia.md)
+
+Implementa: [IReadOnlyDrawingFile](../ireadonlydrawingfile/)
 
 ## Propiedades
 
@@ -23,17 +25,78 @@ Tipos derivados: [Bin](../../../digi21.diging.io.bin/bin.md), [BinDouble](../../
 
 ## Métodos
 
-|  |  |
-| :--- | :--- |
-| [Add\(Entity\)](metodos/add.md#add-entity) | Añade una [Entity](../../digi21.diging.entities/entity/) al archivo de dibujo. |
-| [Add\(Entity, IDictionary&lt;string, IDictionary&lt;string, object&gt;&gt;\)](metodos/add.md#add-entity-idictionary-less-than-string-idictionary-less-than-string-object-greater-than-greater-than) | Añade una [Entity](../../digi21.diging.entities/entity/) junto con datos de base de datos. |
-| [Add\(Complex\)](metodos/add.md#add-complex) | Añade una geometría de tipo [Complex](../../digi21.diging.entities/complex/). |
-| [Add\(IEnumerable&lt;Entity&gt;\)](metodos/add.md#add-ienumerable-less-than-entity-greater-than) | Añade una enumeración de [Entity](../../digi21.diging.entities/entity/). |
-| [Add\(Line\)](metodos/add.md#add-line) | Añade una geometría de tipo [Line](../../digi21.diging.entities/line/). |
-| [Add\(Point\)](metodos/add.md#add-point) | Añade una geometría de tipo [Point](../../digi21.diging.entities/point/). |
-| [Add\(Polygon\)](metodos/add.md#add-polygon) | Añade una geometría de tipo [Polygon](../../digi21.diging.entities/polygon/). |
-| [Add\(Text\)](metodos/add.md#add-text) | Añade una geometría de tipo [Text](../../digi21.diging.entities/text/). |
-| [Delete\(Entity\)](metodos/delete.md#delete-entity) | Elimina un [Entity](../../digi21.diging.entities/entity/) del archivo de dibujo. |
-| [Delete\(IEnumerable&lt;Entity&gt;\)](metodos/delete.md#delete-ienumerable-less-than-entity-greater-than) | Elimina una enumeración de [Entity](../../digi21.diging.entities/entity/) del archivo de dibujo. |
-| [GetDatabaseAttributes\(Entity\)](metodos/getdatabaseattributes.md) | Extrae de la base de datos asociada al archivo de dibujo los atributos almacenados para la [Entity](../../digi21.diging.entities/entity/) pasada por parámetros. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-entity">Add(Entity)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una <a href="../../digi21.diging.entities/entity/">Entity</a> al
+        archivo de dibujo.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-entity-idictionary-less-than-string-idictionary-less-than-string-object-greater-than-greater-than">Add(Entity, IDictionary&lt;string, IDictionary&lt;string, object&gt;&gt;)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una <a href="../../digi21.diging.entities/entity/">Entity</a> junto
+        con datos de base de datos.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-complex">Add(Complex)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una geometr&#xED;a de tipo <a href="../../digi21.diging.entities/complex/">Complex</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-ienumerable-less-than-entity-greater-than">Add(IEnumerable&lt;Entity&gt;)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una enumeraci&#xF3;n de <a href="../../digi21.diging.entities/entity/">Entity</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-line">Add(Line)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una geometr&#xED;a de tipo <a href="../../digi21.diging.entities/line/">Line</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-point">Add(Point)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una geometr&#xED;a de tipo <a href="../../digi21.diging.entities/point/">Point</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-polygon">Add(Polygon)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una geometr&#xED;a de tipo <a href="../../digi21.diging.entities/polygon/">Polygon</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/add.md#add-text">Add(Text)</a>
+      </td>
+      <td style="text-align:left">A&#xF1;ade una geometr&#xED;a de tipo <a href="../../digi21.diging.entities/text/">Text</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/delete.md#delete-entity">Delete(Entity)</a>
+      </td>
+      <td style="text-align:left">Elimina un <a href="../../digi21.diging.entities/entity/">Entity</a> del
+        archivo de dibujo.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="metodos/delete.md#delete-ienumerable-less-than-entity-greater-than">Delete(IEnumerable&lt;Entity&gt;)</a>
+      </td>
+      <td style="text-align:left">Elimina una enumeraci&#xF3;n de <a href="../../digi21.diging.entities/entity/">Entity</a> del
+        archivo de dibujo.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../ireadonlydrawingfile/metodos/getdatabaseattributes.md">GetDatabaseAttributes(Entity)</a>
+      </td>
+      <td style="text-align:left">
+        <p>Extrae de la base de datos asociada al archivo de dibujo los atributos
+          almacenados para la <a href="../../digi21.diging.entities/entity/">Entity</a> pasada
+          por par&#xE1;metros.</p>
+        <p>(Heredado de <a href="../ireadonlydrawingfile/">IReadOnlyDrawingFile</a>)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
