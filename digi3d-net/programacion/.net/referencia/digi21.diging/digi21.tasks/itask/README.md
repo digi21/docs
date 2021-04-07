@@ -9,13 +9,13 @@ Este interfaz define los métodos y propiedades que implementan las distintas ta
 public interface ITask
 ```
 
-Tipos derivados: [TaskBase](../taskbase.md)
+Tipos derivados: [TaskBase](../taskbase/)
 
 ## Propiedades
 
 |  |  |
 | :--- | :--- |
-| [Childs](propiedades/childs.md) | Devuelve un array subtareas. |
+| [Children](propiedades/childs.md) | Devuelve un array subtareas. |
 | [Module](propiedades/module.md) | Devuelve el nombre del módulo que generó la tarea. |
 | [DrawingFile](propiedades/drawingfile.md) | Devuelve la ruta del archivo de dibujo que provocó que se generara la tarea. |
 | [Severity](propiedades/severity.md) | Devuelve un [TaskSeverity ](../taskseverity.md)indicando el tipo de tarea. |

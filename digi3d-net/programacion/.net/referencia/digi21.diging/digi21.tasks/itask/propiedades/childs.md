@@ -1,4 +1,4 @@
-# Childs
+# Children
 
 Espacio de nombres: [Digi21.Tasks](../../)  
 Ensamblado: [Digi21.DigiNG](../../../)
@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](../../../)
 Devuelve un array subtareas.
 
 ```csharp
- ITask[] Childs { get; }
+ ITask[] Children { get; }
 ```
 
 ## Valor de la propiedad

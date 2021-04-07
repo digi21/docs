@@ -10,28 +10,28 @@ Una tarea en este contexto es un error, advertencia o mensaje generado por algun
 
 |  |  |
 | :--- | :--- |
-| [ITask](itask/) |  |
+| [ITask](itask/) | Este interfaz define los métodos y propiedades que implementan las distintas tareas de Digi3D.NET. |
 
 ## Clases
 
 |  |  |
 | :--- | :--- |
-| [ProgressEventArgs](progresseventargs.md) |  |
-| [ResultsAddedEventArgs](resultsaddedeventargs.md) |  |
-| [TaskAddedEventArgs](taskaddedeventargs.md) |  |
-| [TaskBase](taskbase.md) |  |
+| [ProgressEventArgs](progresseventargs/) | Argumento de evento para los eventos que comunican que ha variado el progreso de una tarea. |
+| [ResultsAddedEventArgs](resultsaddedeventargs/) | Argumento de evento para los eventos que comunican resultados. |
+| [TaskAddedEventArgs](taskaddedeventargs/) | Argumento de evento para los eventos que añaden tareas. |
+| [TaskBase](taskbase/) | Esta clase abstracta sirve como base para especializaciones de [ITask](itask/). |
 
 ## Enumeraciones
 
 |  |  |
 | :--- | :--- |
-| [TaskSeverity](taskseverity.md) |  |
+| [TaskSeverity](taskseverity.md) | Esta enumeración define los tipos de gravedad de un [ITask](itask/). |
 
 ## Delegados
 
 |  |  |
 | :--- | :--- |
-| [ProgressEventHandler](progresseventhandler.md) |  |
-| [ResultsAddedEventHandler](progresseventhandler.md) |  |
-| [TaskAddedEventHandler](taskaddedeventhandler.md) |  |
+| [ProgressEventHandler](progresseventhandler.md) | Define un tipo de delegado usado por para comunicar que ha variado el progreso de un proceso. |
+| [ResultsAddedEventHandler](progresseventhandler.md) | Define un tipo de delegado usado por para comunicar un nuevo mensaje. |
+| [TaskAddedEventHandler](taskaddedeventhandler.md) | Define un tipo de delegado usado por para comunicar que se ha añadido una tarea. |
 
