@@ -4,6 +4,7 @@ Proporciona los tipos básicos para poder interactuar con Digi3D.NET.
 
 Los tipos proporcionados están agrupados los siguientes espacios de nombres:
 
+* Digi21.Digi3D
 * [Digi21.DigiNG.Cameras](digi21.diging.cameras/)
 * [Digi21.DigiNG.DigiTab](digi21.diging.digitab/)
 * [Digi21.DigiNG.Entities](digi21.diging.entities/)
