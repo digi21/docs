@@ -989,8 +989,6 @@
             * [IReadOnlyDrawingFile](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.io/ireadonlydrawingfile/README.md)
               * [Métodos](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.io/ireadonlydrawingfile/metodos/README.md)
                 * [GetDatabaseAttributes](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.io/ireadonlydrawingfile/metodos/getdatabaseattributes.md)
-          * [Digi21.DigiNG.QualityControl](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.qualitycontrol.md)
-          * [Digi21.Digi3D](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.digi3d.md)
           * [Digi21.Math](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/README.md)
             * [Angles](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/angles/README.md)
               * [Métodos](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/angles/metodos/README.md)
