@@ -6,13 +6,13 @@ Proporciona tipos para implementar extensiones que publiquen proveedores de prop
 
 |  |  |
 | :--- | :--- |
-| [DynamicPropertyAttribute](atributos/dynamicpropertyattribute.md) |  |
+| [DynamicPropertyAttribute](atributos/dynamicpropertyattribute.md) | Decora una clase para convertirla en un proveedor de propiedades de Base de Datos dinámico. |
 
 ## Interfaces
 
 |  |  |
 | :--- | :--- |
-| [IDynamicProperty](interfaces/idynamicproperty.md) |  |
+| [IDynamicProperty](interfaces/idynamicproperty.md) | Este interfaz define los métodos que debe implementar un proveedor de propiedades de Base de Datos dinámico. |
 
 
 

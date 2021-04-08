@@ -2,18 +2,18 @@
 
 Proporciona tipos para implementar controles de calidad en la ventana de dibujo de Digi3D.NET.
 
-## Excepciones
+## Clases
 
 |  |  |
 | :--- | :--- |
-| [DatabaseAttributeException](excepciones/databaseattributeexception.md) |  |
-| [DigitizeAsPointException](excepciones/digitizeaspointexception.md) |  |
-| [GeometricRelationException](excepciones/geometricrelationexception.md) |  |
-| [GeometryException](excepciones/geometryexception.md) |  |
+| [DatabaseAttributeException](clases/databaseattributeexception.md) | Esta clase define una excepción para informarle a Digi3D.NET que un atributo de base de datos no cumple con el control de calidad. |
+| [DigitizeAsPointException](clases/digitizeaspointexception.md) | Esta clase define una excepción para informarle a Digi3D.NET que una determinada geometría debería digitalizarse como punto. |
+| [GeometricRelationException](clases/geometricrelationexception.md) | Esta clase define una excepción para informarle a Digi3D.NET que se ha localizado un error de control de calidad entre dos geometrías. |
+| [GeometryException](clases/geometryexception.md) | Esta clase define una excepción para informarle a Digi3D.NET que una geometría no cumple con los criterios de control de calidad. |
 
 ## Interfaces
 
 |  |  |
 | :--- | :--- |
-| [ITrigger](interfaces/itrigger.md) |  |
+| [ITrigger](interfaces/itrigger.md) | Este interfaz define los métodos que debe implementar una clase que realice control de calidad. |
 
