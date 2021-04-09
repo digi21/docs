@@ -96,6 +96,10 @@ El programa extraerá los campos de la consulta.
 
 En caso de que se haya indicado una lista de valores, si se activa esta opción, el desplegable mostrado al usuario al seleccionar este campo no permitirá introducir valores manualmente.
 
+## Mostrar cuadro de búsqueda
+
+En caso de que se haya indicado una lista de valores, si se activa esta opción, se mostrará un botón con tres puntos junto al botón de desplegable. Al pulsar este botón de tres puntos se mostrará un cuadro de diálogo que permite buscar el término a seleccionar.
+
 ## Solo lectura
 
 Si se habilita, el usuario no podrá modificar el valor mostrado en este campo.
