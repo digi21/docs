@@ -18,7 +18,7 @@ public interface ICommand
 | OnEntitySelected\(Entity, Point3D, int, int\) |  |
 | OnInitialize\(\) |  |
 | OnLostFocus\(\) |  |
-| OnMove\(Point3D , InputDeviceButtonbutton\) |  |
+| OnMove\(Point3D, InputDeviceButtonbutton\) |  |
 | OnResetDown\(Point3D\) |  |
 | OnResetUp\(Point3D\) |  |
 | OnSetFocus\(\) |  |

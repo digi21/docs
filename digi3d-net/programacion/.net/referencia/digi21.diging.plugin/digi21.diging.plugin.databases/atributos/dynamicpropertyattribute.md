@@ -14,7 +14,7 @@ public class DynamicPropertyAttribute : Attribute
 |  |  |
 | :--- | :--- |
 | DynamicPropertyAttribute\(\) |  |
-| DynamicPropertyAttribute\(string dynamicProperty\) |  |
+| DynamicPropertyAttribute\(string\) |  |
 
 ## Propiedades
 
