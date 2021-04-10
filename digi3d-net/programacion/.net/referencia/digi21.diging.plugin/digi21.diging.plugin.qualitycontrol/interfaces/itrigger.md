@@ -5,5 +5,9 @@ Ensamblado: [Digi21.DigiNG](../../../digi21.diging/)
 
 Este interfaz define los métodos que debe implementar una clase que realice control de calidad.
 
+```csharp
+public interface ITrigger
+```
+
 
 

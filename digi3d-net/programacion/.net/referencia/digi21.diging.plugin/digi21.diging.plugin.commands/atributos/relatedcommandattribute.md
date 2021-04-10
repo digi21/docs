@@ -5,5 +5,9 @@ Ensamblado: [Digi21.DigiNG](../../../digi21.diging/)
 
 Decora una clase para indicarle órdenes relacionadas.
 
+```csharp
+public class RelatedCommandAttribute : Attribute
+```
+
 
 

@@ -5,5 +5,9 @@ Ensamblado: [Digi21.DigiNG](../../../digi21.diging/)
 
 Esta clase estática permite interactuar con la ventana de dibujo de Digi3D.NET.
 
+```csharp
+public static class DigiNG
+```
+
 
 

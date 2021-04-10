@@ -1125,7 +1125,6 @@
               * [CommandAttribute](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/commandattribute.md)
               * [LocalizableCommandAttribute](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md)
               * [RelatedCommandAttribute](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/relatedcommandattribute.md)
-            * [Enumeraciones](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/enumeraciones.md)
             * [Clases](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/README.md)
               * [Command](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md)
               * [EntitySelectedEventArgs](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/entityselectedeventargs.md)
