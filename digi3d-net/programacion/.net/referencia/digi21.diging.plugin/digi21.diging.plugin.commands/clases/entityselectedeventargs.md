@@ -9,5 +9,18 @@ Esta clase proporciona argumentos de evento cuando el usuario selecciona una geo
 public class EntitySelectedEventArgs : EventArgs
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| EntitySelectedEventArgs\(Entity, Point3D, int, int\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Coordinates |  |
+| Entity |  |
+| FirstVertex |  |
+| SecondVertex |  |
 

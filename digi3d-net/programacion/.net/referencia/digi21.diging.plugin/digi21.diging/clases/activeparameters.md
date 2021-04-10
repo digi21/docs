@@ -9,7 +9,16 @@ Esta clase proporciona propiedades que permiten configurar parámetros activos.
 public sealed class ActiveParameters
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| Equidistance |  |
+| TextHeight |  |
+| SecondaryActiveDistance |  |
+| PrincipalActiveDistance |  |
+| ActiveScale |  |
+| ActiveAngle |  |
 
 
 

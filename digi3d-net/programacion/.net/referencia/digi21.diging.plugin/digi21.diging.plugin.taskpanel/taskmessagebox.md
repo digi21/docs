@@ -9,5 +9,17 @@ Esta clase implementa una tarea que al hacer doble clic muestra un cuadro de di√
 public sealed class TaskMessageBox : TaskBase
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| TaskMessageBox\(\) |  |
+| TaskMessageBox\(string, string, TaskSeverity, string, string\) |  |
+| TaskMessageBox\(string, string, TaskSeverity, string, string, ITask\[\]\) |  |
+
+## M√©todos
+
+|  |  |
+| :--- | :--- |
+| Execute\(\) |  |
 

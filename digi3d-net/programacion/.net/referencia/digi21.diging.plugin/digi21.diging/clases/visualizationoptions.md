@@ -9,5 +9,17 @@ Esta clase proporciona propiedades que permiten configurar los parámetros de vi
 public sealed class VisualizationOptions
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| BackgroundColor |  |
+| CursorSize |  |
+| DrawingScale |  |
+| EnableShadows |  |
+| Overlap |  |
+| ShowDeletedEntities |  |
+| ShowFillInPolygons |  |
+| ShowPattern |  |
+|  |  |
 

@@ -9,5 +9,9 @@ Decora una clase para convertirla en una opción de un menú asignándole un tí
 public class LocalizableCommandInMenuAttribute : CommandInMenuAttribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| LocalizableCommandInMenuAttribute\(Type, string, MenuItemGroup\) |  |
 

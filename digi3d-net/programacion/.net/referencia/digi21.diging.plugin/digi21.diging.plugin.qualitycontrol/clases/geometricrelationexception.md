@@ -9,5 +9,18 @@ Esta clase define una excepción para informarle a Digi3D.NET que se ha localiza
 public class GeometricRelationException : GeometryException
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| GeometricRelationException\(Entity, string\) |  |
+| GeometricRelationException\(Entity, Point3D, string\) |  |
+| GeometricRelationException\(Entity, string, GeometryException\) |  |
+| GeometricRelationException\(Entity, Point3D, string, GeometryException\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Entity |  |
 

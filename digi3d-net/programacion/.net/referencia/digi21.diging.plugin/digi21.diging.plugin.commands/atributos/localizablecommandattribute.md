@@ -9,5 +9,11 @@ Decora una clase para convertirla en una orden de Digi3D.NET asignándole un nom
 public class LocalizableCommandAttribute : CommandAttribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| LocalizableCommandAttribute\(Type, string\) |  |
+| LocalizableCommandAttribute\(Type, string, string\) |  |
+| LocalizableCommandAttribute\(Type, string, string, string\) |  |
 

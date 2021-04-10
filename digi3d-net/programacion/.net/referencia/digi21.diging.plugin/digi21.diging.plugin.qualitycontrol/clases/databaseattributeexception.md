@@ -9,5 +9,20 @@ Esta clase define una excepción para informarle a Digi3D.NET que un atributo de
 public class DatabaseAttributeException : Exception
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| DatabaseAttributeException\(string, Code, string\) |  |
+| DatabaseAttributeException\(string, Code, string, Exception\) |  |
+| DatabaseAttributeException\(string, Code, string, Tuple\[\]\) |  |
+| DatabaseAttributeException\(string, Code, string, Exception, Tuple\[\]\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Code |  |
+| ContextualMenuOptions |  |
+| Field |  |
 

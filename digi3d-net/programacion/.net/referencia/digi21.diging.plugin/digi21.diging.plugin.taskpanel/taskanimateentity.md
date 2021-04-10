@@ -9,5 +9,25 @@ Esta clase implementa una tarea que al hacer doble clic anima una geometría.
 public class TaskAnimateEntity : TaskBase
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| TaskAnimateEntity\(\) |  |
+| TaskAnimateEntity\(Entity, int, string, TaskSeverity\) |  |
+| TaskAnimateEntity\(Entity, int, string, TaskSeverity, string, string\) |  |
+| TaskAnimateEntity\(Entity, int, string, TaskSeverity, string, string, ITask\[\]\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Entity |  |
+| Seconds |  |
+
+## Métodos
+
+|  |  |
+| :--- | :--- |
+| Execute\(\) |  |
 

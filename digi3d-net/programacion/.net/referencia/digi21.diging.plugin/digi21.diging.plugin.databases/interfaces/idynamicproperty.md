@@ -9,5 +9,9 @@ Este interfaz define los métodos que debe implementar un proveedor de propiedad
 public interface IDynamicProperty
 ```
 
+## Métodos
 
+|  |  |
+| :--- | :--- |
+| Transform\(string, Entity\) |  |
 

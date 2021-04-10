@@ -9,5 +9,9 @@ Decora una clase para convertirla en una opción a mostrar en la lista de opcion
  public class LocalizableSearcherAttribute : SearcherAttribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| LocalizableSearcherAttribute\(Type, string\) |  |
 

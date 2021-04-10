@@ -9,5 +9,17 @@ Esta clase proporciona argumentos de evento cuando se va a almacenar una geometr
 public class AddingEntityEventArgs : EventArgs
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| AddingEntityEventArgs\(Entity, Dictionary&gt;\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| DatabaseAttributes |  |
+| Cancel |  |
+| Entity |  |
 

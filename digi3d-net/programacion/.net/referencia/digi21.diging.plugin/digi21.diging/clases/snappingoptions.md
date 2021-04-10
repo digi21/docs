@@ -9,5 +9,15 @@ Esta clase proporciona propiedades que permiten configurar los parámetros del t
 public static class SnappingOptions
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| AutosearchMode |  |
+| CutLinesWhenSnap |  |
+| ExhaustiveAutosearchMode |  |
+| FinalizeLineWhenSnap |  |
+| GoToSnap |  |
+| InsertVertexWhenSnap |  |
+| Verify |  |
 

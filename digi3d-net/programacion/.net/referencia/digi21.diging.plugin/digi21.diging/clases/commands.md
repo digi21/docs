@@ -9,5 +9,21 @@ Esta clase permite realizar tareas relacionadas con órdenes.
 public class Commands
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| AllowRepeat |  |
+| ExecuteCommandsWhenReady |  |
+| LockRepeat |  |
+| Top |  |
+
+## Métodos
+
+|  |  |
+| :--- | :--- |
+| AddToHistorical\(string\) |  |
+| Pop\(\) |  |
+| Push\(string\) |  |
+| Push\(string, bool\) |  |
 

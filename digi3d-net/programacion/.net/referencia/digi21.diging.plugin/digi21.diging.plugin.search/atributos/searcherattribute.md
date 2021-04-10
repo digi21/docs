@@ -9,5 +9,15 @@ Decora una clase para convertirla en una opción a mostrar en la lista de opcion
 public class SearcherAttribute : Attribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| SearcherAttribute\(\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Title |  |
 

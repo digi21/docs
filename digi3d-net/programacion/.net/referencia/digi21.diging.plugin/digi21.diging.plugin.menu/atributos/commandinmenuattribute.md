@@ -9,5 +9,16 @@ Decora una clase para convertirla en una opción de un menú asignándole un tí
 public class CommandInMenuAttribute : Attribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| CommandInMenuAttribute\(string title, MenuItemGroup group\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Group |  |
+| Title |  |
 

@@ -9,5 +9,15 @@ Esta clase proporciona propiedades que permiten configurar los parámetros de la
 public static class DigitizingLineOptions
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| AngularTolerance |  |
+| CloseLineWhenFinish |  |
+| ContinuousModeIncrement |  |
+| GeneralizationTolerance |  |
+| GeneralizeLineWhenFinish |  |
+| ParalelizeLineWhenFinish |  |
+| SmoothLineWhenFinish |  |
 

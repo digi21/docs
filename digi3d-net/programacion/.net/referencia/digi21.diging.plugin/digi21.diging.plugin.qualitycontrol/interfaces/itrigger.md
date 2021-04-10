@@ -9,5 +9,9 @@ Este interfaz define los métodos que debe implementar una clase que realice con
 public interface ITrigger
 ```
 
+## Métodos
 
+|  |  |
+| :--- | :--- |
+| AnalyzeEntity\(Entity, IDictionary&gt;, bool\) |  |
 

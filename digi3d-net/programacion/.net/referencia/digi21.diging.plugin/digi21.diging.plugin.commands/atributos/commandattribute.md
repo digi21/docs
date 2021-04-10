@@ -9,5 +9,17 @@ Decora una clase para convertirla en una orden de Digi3D.NET asignándole un nom
 public class CommandAttribute : Attribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| CommandAttribute\(\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Description |  |
+| HelpUrl |  |
+| Name |  |
 

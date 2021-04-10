@@ -9,5 +9,17 @@ Esta clase define una excepción para informarle a Digi3D.NET que una determinad
 public class DigitizeAsPointException : Exception
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| DigitizeAsPointException\(string\) |  |
+| DigitizeAsPointException\(string, string\) |  |
+| DigitizeAsPointException\(string, string, Exception\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Code |  |
 

@@ -9,5 +9,15 @@ Esta clase proporciona métodos que permiten calcular perímetros y áreas indep
 public class GeographicCalculator
 ```
 
+## Métodos
 
+|  |  |
+| :--- | :--- |
+| CalculateArea\(ReadOnlyLine\) |  |
+| CalculateArea\(ReadOnlyPolygon\) |  |
+| CalculateDistance2D\(Point2D, Point2D\) |  |
+| CalculateDistance2D\(Point3D, Point3D\) |  |
+| CalculateDistance3D\(Point3D, Point3D\) |  |
+| CalculatePerimeter2D\(ReadOnlyLine\) |  |
+| CalculatePerimeter3D\(ReadOnlyLine\) |  |
 

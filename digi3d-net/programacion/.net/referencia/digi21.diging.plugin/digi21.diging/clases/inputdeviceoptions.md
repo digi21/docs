@@ -9,5 +9,15 @@ Esta clase proporciona propiedades que permiten configurar los parámetros del d
 public sealed class InputDeviceOptions
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| AutoPanningMouse |  |
+| AutoPanningPhotogrammetricWindow |  |
+| InputDevice |  |
+| LockXY |  |
+| LockZ |  |
+| OriginalPosition |  |
+| Position |  |
 

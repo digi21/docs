@@ -9,5 +9,18 @@ Esta clase implementa una tarea que al hacer doble clic hace un zoom extension a
 public class TaskZoomEntity : TaskAnimateEntity
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| TaskZoomEntity\(\) |  |
+| TaskZoomEntity\(Entity, int, string, TaskSeverity\) |  |
+| TaskZoomEntity\(Entity, int, string, TaskSeverity, string, string\) |  |
+| TaskZoomEntity\(Entity, int, string, TaskSeverity, string, string, ITask\[\]\) |  |
+
+## Métodos
+
+|  |  |
+| :--- | :--- |
+| Execute\(\) |  |
 

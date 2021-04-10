@@ -9,5 +9,15 @@ Este interfaz define los métodos y propiedades que debe implementar una clase p
 public interface ISearcher
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| Form |  |
+
+## Métodos
+
+|  |  |
+| :--- | :--- |
+| Search\(IEnumerable\) |  |
 

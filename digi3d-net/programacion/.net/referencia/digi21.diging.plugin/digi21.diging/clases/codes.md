@@ -9,5 +9,19 @@ Esta clase permite realizar tareas relacionadas con códigos.
 public class Codes
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| ActiveCodes |  |
+
+## Métodos
+
+|  |  |
+| :--- | :--- |
+| DlgSelectCodes\(string, bool\) |  |
+| SelectCodeFromList\(string, Code\[\]\) |  |
+| ShowCode\(Func\) |  |
+| ShowCode\(IEnumerable, bool\) |  |
+| ShowCode\(string, bool\) |  |
 

@@ -9,5 +9,15 @@ Esta clase proporciona argumentos de evento para informar que se ha añadido o e
 public class EntityEventArgs : EventArgs
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| EntityEventArgs\(Entity\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Entity |  |
 

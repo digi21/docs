@@ -9,5 +9,9 @@ Esta clase proporciona propiedades para identificar la llave de protección del 
 public sealed class LicenseInfo
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| KeyID |  |
 

@@ -9,5 +9,16 @@ Decora una clase para convertirla en un proveedor de propiedades de Base de Dato
 public class DynamicPropertyAttribute : Attribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| DynamicPropertyAttribute\(\) |  |
+| DynamicPropertyAttribute\(string dynamicProperty\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| DynamicProperty |  |
 

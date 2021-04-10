@@ -9,5 +9,19 @@ Esta clase define una excepción para informarle a Digi3D.NET que una geometría
 public class GeometryException : Exception
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| GeometryException\(string\) |  |
+| GeometryException\(string, Point3D\) |  |
+| GeometryException\(string, Exception\) |  |
+| GeometryException\(string, Point3D, Exception\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| ContextualMenuOptions |  |
+| Coordinates |  |
 

@@ -9,5 +9,15 @@ Decora una clase para indicarle órdenes relacionadas.
 public class RelatedCommandAttribute : Attribute
 ```
 
+## Constructores
 
+|  |  |
+| :--- | :--- |
+| RelatedCommandAttribute\(\) |  |
+
+## Propiedades
+
+|  |  |
+| :--- | :--- |
+| Name |  |
 
