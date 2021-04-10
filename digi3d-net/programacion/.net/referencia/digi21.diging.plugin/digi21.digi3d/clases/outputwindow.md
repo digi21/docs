@@ -9,5 +9,17 @@ Esta clase proporciona métodos para interactuar con el panel de resultados de D
 public class OutputWindow
 ```
 
+## Métodos
 
+|  |  |
+| :--- | :--- |
+| Clear\(\) |  |
+| ScrollToEnd\(\) |  |
+| WriteLine\(IEnumerable\) |  |
+| WriteLine\(string\) |  |
+| WriteLine\(string, params object\[\]\) |  |
+| WriteLine\(string, object\) |  |
+| WriteLine\(string, object, object\) |  |
+| WriteLine\(string, object, object, object\) |  |
+| WriteLine\(string, object, object, object, object\) |  |
 

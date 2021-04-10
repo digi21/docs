@@ -9,5 +9,11 @@ Esta clase proporciona métodos que permiten añadir paneles acoplables en la ve
 public class Panes
 ```
 
+## Métodos
 
+|  |  |
+| :--- | :--- |
+| Add\(Form\) |  |
+| Add\(Form, PaneDock\) |  |
+| Add\(Form, PaneDock, bool\) |  |
 

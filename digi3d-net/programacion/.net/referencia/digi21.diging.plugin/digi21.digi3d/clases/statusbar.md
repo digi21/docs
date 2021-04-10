@@ -9,5 +9,10 @@ Esta clase proporciona propiedades que permiten controlar la barra de estado de 
 public class StatusBar
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| ProgressBar |  |
+| Text |  |
 

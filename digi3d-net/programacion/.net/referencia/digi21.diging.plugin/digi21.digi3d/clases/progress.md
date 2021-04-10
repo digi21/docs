@@ -9,5 +9,12 @@ Esta clase proporciona propiedades para controlar la barra de progreso que apare
 public class Progress
 ```
 
+## Propiedades
 
+|  |  |
+| :--- | :--- |
+| Visible |  |
+| Value |  |
+| Maximum |  |
+| Minimum |  |
 

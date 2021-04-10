@@ -9,5 +9,10 @@ Esta clase proporciona métodos que permiten interactuar con el panel de tareas 
 public class Tasks
 ```
 
+## Métodos
 
+|  |  |
+| :--- | :--- |
+| Add\(ITask\) |  |
+| Clear\(\) |  |
 
