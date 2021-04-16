@@ -4,9 +4,33 @@ Activa la visualización de geometrías que devuelvan verdadero en la [expresió
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Opcional |
-| :--- | :--- | :--- |
-| 1 | Expresión Python a analizar por cada una de las geometrías de todos los archivos de dibujo cargados. | No. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">N&#xFA;mero de par&#xE1;metro</th>
+      <th style="text-align:left">Descripci&#xF3;n</th>
+      <th style="text-align:left">Opcional</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">
+        <p>Expresi&#xF3;n Python a analizar por cada una de las geometr&#xED;as de
+          todos los archivos de dibujo cargados.</p>
+        <p></p>
+        <p>o
+          <br />
+        </p>
+        <p>Conjunto de <a href="../../../../editor-de-tablas-de-codigos/pestanas/selecciones.md">selecciones</a> almacenadas
+          en la tabla de c&#xF3;digos. Digi3D.NET entender&#xE1; que deber&#xE1;
+          extraer la expresi&#xF3;n de una selecci&#xF3;n en la tabla de c&#xF3;digos
+          si esta comienza por #.</p>
+      </td>
+      <td style="text-align:left">No.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Ejemplos
 
@@ -20,6 +44,18 @@ Para encender todas las geometrías que tengan asignado en la base de datos como
 
 ```text
 ON_EXPRESION_PYTHON=Propietario == 'Dylan' and Plantas > 3 and digi3DGeometry.Codes[0].Name == '010101' and digi3DGeometry.Points.Count == 7
+```
+
+Para encender todas las geometrías que satisfagan la [selección ](../../../../editor-de-tablas-de-codigos/pestanas/selecciones.md)"Edificios" almacenada en la tabla de códigos:
+
+```text
+ON_EXPRESION_PYTHON=#Edificios
+```
+
+Para encender todas las geometrías que satisfagan tanto la [selección ](../../../../editor-de-tablas-de-codigos/pestanas/selecciones.md)"Edificios" como la selección "Deportivo" almacenadas en la tabla de códigos:
+
+```text
+ON_EXPRESION_PYTHON=#Edificios #Deportivo
 ```
 
 ## Características de la orden
