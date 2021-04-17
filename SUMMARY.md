@@ -503,6 +503,7 @@
             * [ON](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/o/on.md)
             * [OND](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/o/ond.md)
             * [ON\_EXPRESION\_PYTHON](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/o/on_expresion_python.md)
+            * [ON\_SOLO\_EXPRESION\_PYTHON](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/o/on_solo_expresion_python.md)
             * [ORDENA\_POR\_CODIGO](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/o/ordena-por-codigo.md)
             * [ORDENA\_POR\_CODIGO\_N](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/o/ordena-por-codigo-n.md)
             * [ORDENA\_POR\_DIGI\_TAB](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/o/ordena-por-digitab.md)
