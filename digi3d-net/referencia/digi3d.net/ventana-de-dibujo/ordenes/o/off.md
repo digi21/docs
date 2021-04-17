@@ -1,32 +1,26 @@
 # OFF
 
-Desactiva la visualización de uno o varios códigos.
+Desactiva el código \(o códigos\) que no se desean visualizar en la pantalla de dibujo \(DigiNG\).
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código/os que se ocultarán en la pantalla de dibujo | Si. |
+| 1 | Código/os que se ocultarán en la pantalla de dibujo | Si. Por defecto al abrir un fichero de dibujo aparecen todos los códigos visibles |
 
 ### Ejemplos
 
-Oculta todos códigos en pantalla:
+`OFF=*`
 
-```text
-OFF=*
-```
+Oculta todos códigos en pantalla
 
-Oculta todos los códigos que comiencen por 02:
+`OFF=02*`
 
-```text
-OFF=02*
-```
+Oculta todos los códigos que comiencen por 02
 
-Oculta únicamente los elementos cuyo código sea 020123:
+`OFF=020123`
 
-```text
-OFF=020123
-```
+Oculta solamente los elementos cuyo código sea 020123
 
 ## Observaciones
 
@@ -37,7 +31,7 @@ Podemos especificar el tipo de entidad a mostrar, para cada uno de los códigos:
 Digi3D nos permite cargar archivos de muestra de códigos o guardar uno que generemos nostros:
 
 * Cargar de archivo...: carga un archivo de muestra de códigos previamente generado y guardado.
-* Guardar en archivo...: podemos guardar mediante un nombre, la lista de códigos seleccionada para una posterior utilización. Los archivos generados estarán en formato .xml.
+* Guardar en archivo...: podemos guardar mediante un nombre, la lista de códigos seleccioanada para una posterior utilización. Los archivos generados estarán en formato .xml.
 
 ## Características de la orden
 

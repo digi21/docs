@@ -550,6 +550,7 @@
             * [SELECCIONA\_COD](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/selecciona-cod.md)
             * [SELECCIONA\_DENTRO\_POLIGONO](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/selecciona-dentro-poligono.md)
             * [SELECCIONA\_DENTRO\_VENTANA](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/selecciona-dentro-ventana.md)
+            * [SELECCIONA\_EXPRESION\_PYTHON](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/selecciona_expresion_python.md)
             * [SELECCIONA\_FUERA\_POLIGONO](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/selecciona-fuera-poligono.md)
             * [SELECCIONA\_FUERA\_VENTANA](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/selecciona-fuera-ventana.md)
             * [SELECCIONA\_LINEA](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/s/selecciona-linea.md)
