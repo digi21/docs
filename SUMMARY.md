@@ -286,6 +286,8 @@
             * [TOL](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/t/tol.md)
             * [TOL\_ANG](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/t/tol-ang.md)
           * [V](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/v/README.md)
+            * [VELOCIDAD\_SPACEMOUSE\_XYZ](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/v/velocidad_spacemouse_xyz.md)
+            * [VELOCIDAD\_SPACEMOUSE\_ROTACION](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/v/velocidad_spacemouse_rotacion.md)
             * [VER](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/v/ver.md)
             * [VER\_DESCONOCIDO](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/variables/v/ver-desconocido.md)
         * [Introducción de coordenadas](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/introduccion-de-coordenadas.md)
