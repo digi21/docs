@@ -543,6 +543,7 @@
             * [REGENERA](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/regenera.md)
             * [RENOMCOD](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/renomcod.md)
             * [RET](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/ret.md)
+            * [ROTAR\_CAMARA\_FPS](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/rotar_camara_fps.md)
             * [ROTULA\_CURVAS](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/rotula-curvas.md)
             * [ROTULA\_T](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/rotula-t.md)
             * [ROTULA\_Z](digi3d-net/referencia/digi3d.net/ventana-de-dibujo/ordenes/r/rotula-z.md)
