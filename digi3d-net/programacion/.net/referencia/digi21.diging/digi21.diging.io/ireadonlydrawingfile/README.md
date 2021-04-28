@@ -19,13 +19,3 @@ Implementa: [IEnumerable&lt;Entity&gt;](https://docs.microsoft.com/en-us/dotnet/
 | :--- | :--- |
 | [GetDatabaseAttributes\(Entity\)](metodos/getdatabaseattributes.md) | Extrae de la base de datos asociada al archivo de dibujo los atributos almacenados para la [Entity](../../digi21.diging.entities/entity/) pasada por parámetros. |
 
-## Propiedades
-
-|  |  |
-| :--- | :--- |
-| [ConnectionString](propiedades/connectionstring.md) | Devuelve la cadena de conexión de la base de datos asociada con el archivo de dibujo. |
-
-## 
-
-
-

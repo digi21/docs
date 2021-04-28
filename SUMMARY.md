@@ -789,6 +789,7 @@
             * [DigiTab](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/digitab/README.md)
               * [Propiedades](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/digitab/propiedades/README.md)
                 * [Codes](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/digitab/propiedades/codes.md)
+                * [Path](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/digitab/propiedades/path.md)
                 * [Tables](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/digitab/propiedades/tables.md)
                 * [Item\[string\]](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/digitab/propiedades/item-string.md)
               * [Métodos estáticos](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/digitab/metodos-estaticos/README.md)

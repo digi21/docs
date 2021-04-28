@@ -18,6 +18,7 @@ Implementa: [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idi
 |  |  |
 | :--- | :--- |
 | [Codes](propiedades/codes.md) | Devuelve una enumeración de [NodeDigiTab ](../nodedigitab/)con las características de cada código perteneciente a la tabla de códigos. |
+| [Path](propiedades/path.md) | Devuelve la ruta de la tabla de códigos. |
 | [Tables](propiedades/tables.md) | Devuelve un diccionario de esquemas de base de datos. |
 | [Item\[string\]](propiedades/item-string.md) | Devuelve el [NodeDigiTab](../nodedigitab/) con las características del código cuyo nombre coincide con el parámetro. |
 
