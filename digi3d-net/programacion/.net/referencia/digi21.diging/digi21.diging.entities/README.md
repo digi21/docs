@@ -7,6 +7,7 @@ Proporciona los tipos relacionados con geometrías.
 * [Code](code/)
 * [Complex](complex/)
 * [Entity](entity/)
+* [GeometryFactory](geometryfactory/)
 * [Line](line/)
 * [Point](point/)
 * [Polygon](polygon/)
