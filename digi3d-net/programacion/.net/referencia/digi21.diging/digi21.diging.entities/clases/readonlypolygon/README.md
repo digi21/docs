@@ -13,16 +13,63 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Tipos derivados: [Polygon](../polygon/)
 
-Implementa: [ISnapable](../../interfaces/isnapable/), [IClippable](../../interfaces/iclippable/), [ITrimable](../../interfaces/itrimmable/)
+Implementa: [ICloseable](../../interfaces/icloseable/), [ISnapable](../../interfaces/isnapable/), [IClippable](../../interfaces/iclippable/), [ITrimable](../../interfaces/itrimmable/)
 
 ## Propiedades
 
-|  |  |
-| :--- | :--- |
-| [Area](propiedades/area.md) | Devuelve el área del [ReadOnlyPolygon](./). |
-| [Holes](propiedades/holes.md) | Devuelve una [IReadOnlyList&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0) con los huecos del [ReadOnlyPolygon](./). |
-| [Points](propiedades/points.md) | Devuelve un [IReadOnlyList&lt;T&gt; ](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0)con los vértices del límite exterior del [ReadOnlyPolygon](./). |
-| [InteriorPoint](propiedades/interiorpoint.md) | Calcula un punto interior en el [ReadOnlyPolygon](./). |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><a href="propiedades/area.md">Area</a>
+      </td>
+      <td style="text-align:left">Devuelve el &#xE1;rea del <a href="./">ReadOnlyPolygon</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../../interfaces/icloseable/propiedades/closed.md">Closed</a>
+      </td>
+      <td style="text-align:left">
+        <p>Indica si el primer y &#xFA;ltimo v&#xE9;rtices del <a href="./">ReadOnlyPolygon</a> coinciden
+          en X, Y.</p>
+        <p>(Heredado de <a href="../../interfaces/icloseable/">ICloseable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../../interfaces/icloseable/propiedades/closedxyz.md">ClosedXYZ</a>
+      </td>
+      <td style="text-align:left">
+        <p>Indica si el primer y &#xFA;ltimo v&#xE9;rtices del <a href="./">ReadOnlyPolygon</a> coinciden
+          en X, Y, Z.</p>
+        <p>(Heredado de <a href="../../interfaces/icloseable/">ICloseable</a>)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="propiedades/holes.md">Holes</a>
+      </td>
+      <td style="text-align:left">Devuelve una <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0">IReadOnlyList&lt;T&gt;</a> con
+        los huecos del <a href="./">ReadOnlyPolygon</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="propiedades/points.md">Points</a>
+      </td>
+      <td style="text-align:left">Devuelve un <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0">IReadOnlyList&lt;T&gt; </a>con
+        los v&#xE9;rtices del l&#xED;mite exterior del <a href="./">ReadOnlyPolygon</a>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../../interfaces/icloseable/propiedades/interiorpoint.md">InteriorPoint</a>
+      </td>
+      <td style="text-align:left">
+        <p>Calcula un punto interior en el <a href="./">ReadOnlyPolygon</a>.</p>
+        <p>(Heredado de <a href="../../interfaces/icloseable/">ICloseable</a>)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Métodos
 
