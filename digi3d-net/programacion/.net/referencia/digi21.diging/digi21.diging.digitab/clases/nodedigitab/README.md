@@ -27,7 +27,7 @@ Implementa: [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idi
 | [Color](propiedades/color.md) | Devuelve o asigna el color del código en la ventana de dibujo. |
 | [ColorPhotogrammetric](propiedades/colorphotogrammetric.md) | Devuelve o asigna el color del código en la ventana fotogramétrica. |
 | [Description](propiedades/description.md) | Devuelve o asigna una [descripción](../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#descripcion) del código. |
-| Type | Devuelve o asigna el tipo de geometría que representa el código. |
+| [Type](propiedades/type.md) | Devuelve o asigna el tipo de geometría que representa el código. |
 | [Name](propiedades/name.md) | Devuelve o asigna el [nombre](../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#codigo) del código. |
 | [Priority](propiedades/priority.md) | Devuelve o asigna el valor de [prioridad](../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#prioridad) asignado al código. |
 | [Table](propiedades/table.md) | Devuelve o asigna la tabla de base de datos vinculada con el código. |
