@@ -1126,6 +1126,7 @@
             * [Clases](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/README.md)
               * [Digi3D](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/digi3d.md)
               * [OutputWindow](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/outputwindow.md)
+              * [Pane](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/pane.md)
               * [Panes](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/panes.md)
               * [Progress](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/progress.md)
               * [StatusBar](digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/statusbar.md)
