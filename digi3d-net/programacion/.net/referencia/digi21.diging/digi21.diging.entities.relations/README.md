@@ -4,12 +4,12 @@ Proporciona tipos relacionados con la relación entre geometrías.
 
 ## Clases
 
-* [AreaArea](areaarea/)
-* [LineArea](linearea/)
-* [LineLine](lineline/)
-* [PointArea](pointarea/)
-* [PointLine](pointline/)
-* [PointPoint](pointpoint/)
+* [AreaArea](clases/areaarea/)
+* [LineArea](clases/linearea/)
+* [LineLine](clases/lineline/)
+* [PointArea](clases/pointarea/)
+* [PointLine](clases/pointline/)
+* [PointPoint](clases/pointpoint/)
 
 
 

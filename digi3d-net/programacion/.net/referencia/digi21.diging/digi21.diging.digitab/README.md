@@ -4,8 +4,12 @@ Proporciona tipos relacionados con tablas de códigos.
 
 ## Clases
 
-* [DigiTab](digitab/)
-* [NodeDigiTab](nodedigitab/)
+* [DigiTab](clases/digitab/)
+* [NodeDigiTab](clases/nodedigitab/)
+
+## Enumeraciones
+
+* [GeometryType](enumeraciones/geometrytype.md)
 
 
 

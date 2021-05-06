@@ -4,32 +4,32 @@ Proporciona los tipos relacionados con geometrías.
 
 ## Clases
 
-* [Code](code/)
-* [Complex](complex/)
-* [Entity](entity/)
-* [GeometryFactory](geometryfactory/)
-* [Line](line/)
-* [Point](point/)
-* [Polygon](polygon/)
-* [ReadOnlyComplex](readonlycomplex/)
-* [ReadOnlyLine](readonlyline/)
-* [ReadOnlyPoint](readonlypoint/)
-* [ReadOnlyPolygon](readonlypolygon/)
-* [ReadOnlyText](readonlytext/)
-* [SegmentPointer](segmentpointer/)
-* [Text](text/)
-* [VertexPointer](vertexpointer/)
+* [Code](clases/code/)
+* [Complex](clases/complex/)
+* [Entity](clases/entity/)
+* [GeometryFactory](clases/geometryfactory/)
+* [Line](clases/line/)
+* [Point](clases/point/)
+* [Polygon](clases/polygon/)
+* [ReadOnlyComplex](clases/readonlycomplex/)
+* [ReadOnlyLine](clases/readonlyline/)
+* [ReadOnlyPoint](clases/readonlypoint/)
+* [ReadOnlyPolygon](clases/readonlypolygon/)
+* [ReadOnlyText](clases/readonlytext/)
+* [SegmentPointer](clases/segmentpointer/)
+* [Text](clases/text/)
+* [VertexPointer](clases/vertexpointer/)
 
 ## Interfaces
 
-* [IClippable](iclippable/)
-* [ICloseable](icloseable/)
-* [IDirectionable](idirectionable/)
-* [ISnappable](isnapable/)
-* [ITrimmable](itrimmable/)
+* [IClippable](interfaces/iclippable/)
+* [ICloseable](interfaces/icloseable/)
+* [IDirectionable](interfaces/idirectionable/)
+* [ISnappable](interfaces/isnapable/)
+* [ITrimmable](interfaces/itrimmable/)
 
 ## Enumeraciones
 
-* [PointPosition](pointposition.md)
-* [TextJustification](textjustification.md)
+* [PointPosition](enumeraciones/pointposition.md)
+* [TextJustification](enumeraciones/textjustification.md)
 

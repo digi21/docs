@@ -4,13 +4,13 @@ Proporciona tipos relacionados con la cámara en la ventana de dibujo.
 
 ## Clases
 
-* [Camera](camera/)
-* [ConicCamera](coniccamera/)
-* [OrtographicCamera](ortographiccamera/)
+* [Camera](clases/camera/)
+* [ConicCamera](clases/coniccamera/)
+* [OrtographicCamera](clases/ortographiccamera/)
 
 ## **Enumeraciones**
 
-* [StandarPointOfView](standarpointofview.md)
+* [StandarPointOfView](enumeraciones/standarpointofview.md)
 
 
 
