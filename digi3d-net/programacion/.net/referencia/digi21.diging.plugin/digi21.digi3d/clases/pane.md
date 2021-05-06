@@ -35,7 +35,6 @@ public class Pane
 | Floated | El panel de acoplamiento se ha acoplado, y actualmente está flotando. |
 | Floating | El panel de anclaje está flotando. Esto ocurre cuando el usuario hace clic en la barra de título de un panel de acoplamiento y arrastra el panel a otra ubicación. Cuando esto ocurre, se dice que el panel está "flotando". |
 | Closing | El panel de acoplamiento se está cerrando. Esto ocurre cuando se hace clic en el botón de cierre del panel. |
-|  |  |
 
 ## Métodos
 
