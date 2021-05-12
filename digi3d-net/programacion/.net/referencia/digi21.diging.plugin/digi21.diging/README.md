@@ -10,7 +10,7 @@ Proporciona tipos para interactuar con la ventana de dibujo de Digi3D.NET.
 | [AddingEntityEventArgs](clases/addingentityeventargs.md) | Esta clase proporciona argumentos de evento cuando se va a almacenar una geometría. |
 | [Codes](clases/codes.md) | Esta clase permite realizar tareas relacionadas con códigos. |
 | [Commands](clases/commands.md) | Esta clase permite realizar tareas relacionadas con órdenes. |
-| [DigiNG](clases/diging.md) | Esta clase estática permite interactuar con la ventana de dibujo de Digi3D.NET. |
+| [DigiNG](clases/diging/) | Esta clase estática permite interactuar con la ventana de dibujo de Digi3D.NET. |
 | [DigitizingLineOptions](clases/digitizinglineoptions.md) | Esta clase proporciona propiedades que permiten configurar los parámetros de la línea que se está digitalizando. |
 | [DrawingFile](clases/drawingfile.md) | Esta clase permite interactuar con el archivo de dibujo. |
 | [EntityEventArgs](clases/entityeventargs.md) | Esta clase proporciona argumentos de evento para informar que se ha añadido o eliminado una geometría del archivo de dibujo. |
