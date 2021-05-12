@@ -13,7 +13,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Tipos derivados: [ReadOnlyComplex](../readonlycomplex/), [ReadOnlyLine](../readonlyline/), [ReadOnlyPoint](../readonlypoint/), [ReadOnlyPolygon](../readonlypolygon/), [ReadOnlyText](../readonlytext/).
 
-Implementa: [ICloneable](../../interfaces/icloseable/), [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0), [IWindow3D](../../../digi21.math/interfaces/iwindow3d/)
+Implementa: [ICloneable](../../interfaces/icloseable/), [IWindow3D](../../../digi21.math/interfaces/iwindow3d/)
 
 ## Observaciones
 
@@ -277,13 +277,6 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
           almacenada en ning&#xFA;n archivo de dibujo y que por lo tanto no es de
           solo lectura.</p>
         <p>(Heredado de <a href="../../interfaces/icloseable/">ICloneable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Dispose</td>
-      <td style="text-align:left">
-        <p>Destruye el <a href="./">Entity</a> liberando memoria inmediatamente.</p>
-        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0">IDisposable</a>)</p>
       </td>
     </tr>
     <tr>
