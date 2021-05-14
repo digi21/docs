@@ -16,6 +16,7 @@ Los importadores/exportadores proporcionan la propiedad [DatabaseTables](../../.
 |  |  |
 | :--- | :--- |
 | [Code\(string\)](constructores.md#code-string) | Inicializa una nueva instancia de [Code ](./)asignándole un nombre. |
+| [Code\(string, IDictionary&lt;string, object&gt;\)](constructores.md#code-string-idictionary-less-than-string-object-greater-than) |  |
 | [Code\(string, int?, int?\)](constructores.md#code-string-int-int) | Inicializa una nueva instancia de [Code ](./)asignándole un nombre, identificador de tabla de base de datos e identificador de registro. |
 | [Code\(string, int, int\)](constructores.md#code-string-int-int-1) | Inicializa una nueva instancia de [Code ](./)asignándole un nombre, identificador de tabla de base de datos e identificador de registro. |
 
@@ -38,6 +39,36 @@ El siguiente ejemplo instancia un nuevo código cuyo nombre es _020400_.
 
 ```csharp
 var código = new Code("020400");
+```
+
+## Code\(string, IDictionary&lt;string, object&gt;\)
+
+Inicializa una nueva instancia de [Code ](./)asignándole un nombre y un diccionario de atributos.
+
+```csharp
+public Code(string name, IDictionary<string, object> attributes);
+```
+
+### Parámetros
+
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
+Nombre que asignar al código
+
+`attributes` [IDictionary&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)  
+Nombre que asignar al código
+
+#### Ejemplos
+
+El siguiente ejemplo instancia un nuevo código cuyo nombre es _020400_ y le asigna una serie de atributos:
+
+```csharp
+var código = new Code("020400",
+    new Dictionary<string, object>
+    {
+        {"Propietario", "Dylan"},
+        {"Alturas", 3},
+        {"Superficie", 200.0}
+    });
 ```
 
 ## Code\(string, int?, int?\)

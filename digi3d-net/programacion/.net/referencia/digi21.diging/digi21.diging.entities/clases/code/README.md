@@ -23,7 +23,6 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |
 | :--- | :--- |
-| [Attributes](propiedades/attributes.md) | Devuelve o asigna un diccionario con los atributos de base de datos asociados con el código. |
 | [Name](propiedades/name.md) | Devuelve el nombre del [Code](./). |
 | [Table](propiedades/table.md) | Devuelve el identificador de tabla de base de datos asociado con el [Code](./). |
 | [Id](propiedades/id.md) | Devuelve el valor del _PrimaryKey_ del registro de base de datos al que apunta la geometría que tiene asignado este [Code](./). |
