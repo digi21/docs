@@ -821,6 +821,7 @@
               * [Code](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/README.md)
                 * [Constructores](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/constructores.md)
                 * [Propiedades](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/README.md)
+                  * [Attributes](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/attributes.md)
                   * [Id](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/id.md)
                   * [Name](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/name.md)
                   * [Table](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/table.md)
