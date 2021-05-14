@@ -169,16 +169,6 @@ public class DrawingFile : IDrawingFile, IDisposable
         <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0">IDisposable</a>)</p>
       </td>
     </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../../digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/metodos/getdatabaseattributes.md">GetDatabaseAttributes(Entity)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Extrae de la base de datos asociada al archivo de dibujo los atributos
-          almacenados para la <a href="../../../digi21.diging/digi21.diging.entities/clases/entity/">Entity</a> pasada
-          por par&#xE1;metros.</p>
-        <p>(Heredado de <a href="../../../digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/">IReadOnlyDrawingFile</a>)</p>
-      </td>
-    </tr>
   </tbody>
 </table>
 

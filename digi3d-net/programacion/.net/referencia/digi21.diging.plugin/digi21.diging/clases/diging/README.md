@@ -17,6 +17,7 @@ public static class DigiNG
 | DestroyingWindow |  |
 | EntityAdded |  |
 | EntityDeleted |  |
+| EntityRecovered |  |
 | PostRender |  |
 | PreRender |  |
 | WindowCreated |  |

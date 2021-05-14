@@ -10,7 +10,6 @@ Añade geometrías al archivo de dibujo.
 |  |  |
 | :--- | :--- |
 | [Add\(Entity\)](add.md#add-entity) | Añade una [Entity](../../../../digi21.diging.entities/clases/entity/) al archivo de dibujo. |
-| [Add\(Entity, IDictionary&lt;string, IDictionary&lt;string, object&gt;&gt;\)](add.md#add-entity-idictionary-less-than-string-idictionary-less-than-string-object-greater-than-greater-than) | Añade una [Entity](../../../../digi21.diging.entities/clases/entity/) junto con datos de base de datos. |
 | [Add\(Complex\)](add.md#add-complex) | Añade una geometría de tipo [Complex](../../../../digi21.diging.entities/clases/complex/). |
 | [Add\(IEnumerable&lt;Entity&gt;\)](add.md#add-ienumerable-less-than-entity-greater-than) | Añade una enumeración de [Entity](../../../../digi21.diging.entities/clases/entity/). |
 | [Add\(Line\)](add.md#add-line) | Añade una geometría de tipo [Line](../../../../digi21.diging.entities/clases/line/). |
@@ -30,22 +29,6 @@ void Add(Entity entity);
 
 `entity` [Entity](../../../../digi21.diging.entities/clases/entity/)  
 Geometría para añadir al archivo de dibujo.
-
-## Add\(Entity, IDictionary&lt;string, IDictionary&lt;string, object&gt;&gt;\)
-
-Añade una [Entity](../../../../digi21.diging.entities/clases/entity/) junto con datos de base de datos.
-
-```csharp
-void Add(Entity entity, IDictionary<string, IDictionary<string, object>> databaseAttributes);
-```
-
-### Parámetros
-
-`entity` [Entity](../../../../digi21.diging.entities/clases/entity/)  
-Geometría para añadir al archivo de dibujo.
-
-`databaseAttributes` [IDictionary&lt;string, IDictrionary&lt;string, object&gt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)  
-Diccionario con los campos a almacenar en la base de datos para cada uno de los códigos de la geometría.
 
 ## Add\(Complex\)
 

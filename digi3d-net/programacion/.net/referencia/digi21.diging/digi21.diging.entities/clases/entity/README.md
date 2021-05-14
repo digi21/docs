@@ -244,12 +244,6 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
         el <a href="../../../digi21.diging.io/interfaces/idrawingfile/">IDrawingFile</a>.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="propiedades/database.md">Database</a>
-      </td>
-      <td style="text-align:left">Devuelve un objeto <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0">IDictionary&lt;&gt;</a> con
-        los atributos de base de datos de cada c&#xF3;digo que tenga el <a href="./">Entity</a>.</td>
-    </tr>
-    <tr>
       <td style="text-align:left"><a href="propiedades/hidden.md">Hidden</a>
       </td>
       <td style="text-align:left">Comprueba y permite indicar si ocultar la visualizaci&#xF3;n de este
