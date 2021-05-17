@@ -44,6 +44,7 @@ public class Pane
 | Close\(\) | Cierra el panel acoplable. |
 | Hide\(\) | Oculta el panel acoplable. |
 | Select\(\) | Selecciona el panel acoplable. |
+| ToggleDocking\(\) | Acopla/flota el panel. Si el panel ya está acoplado, activa el "pin" de éste. |
 
 ## Propiedades
 
