@@ -15,4 +15,7 @@ public class Tasks
 | :--- | :--- |
 | Add\(ITask\) |  |
 | Clear\(\) |  |
+| Hide\(\) |  |
+| Show\(\) |  |
+| ToggleDocking\(\) |  |
 

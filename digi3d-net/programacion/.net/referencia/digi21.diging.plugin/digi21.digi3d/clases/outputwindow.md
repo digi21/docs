@@ -14,7 +14,10 @@ public class OutputWindow
 |  |  |
 | :--- | :--- |
 | Clear\(\) |  |
+| Hide\(\) |  |
 | ScrollToEnd\(\) |  |
+| Show\(\) |  |
+| ToggleDocking\(\) |  |
 | WriteLine\(IEnumerable\) |  |
 | WriteLine\(string\) |  |
 | WriteLine\(string, params object\[\]\) |  |
