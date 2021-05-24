@@ -14,11 +14,6 @@ public class Panes
 |  |  |
 | :--- | :--- |
 | Add\(Form\) |  |
-| Add\(Form, Size\) |  |
 | Add\(Form, PaneDock\) |  |
-| Add\(Form, Size, PaneDock\) |  |
 | Add\(Form, PaneDock, bool\) |  |
-| Add\(Form, Size, PaneDock, bool\) |  |
-
-
 

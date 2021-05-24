@@ -40,10 +40,13 @@ public class Pane
 
 |  |  |
 | :--- | :--- |
-| SetFocus\(\) | Le da el foco al panel acoplable. |
 | Close\(\) | Cierra el panel acoplable. |
+| DockPane\(PaneDock\) | Acopla el panel. |
+| DockSidePane\(PaneDock, Size\) | Acopla el panel al estilo _Microsoft Visio_. |
+| FloatPane\(Rectangle\) | Flota el panel. |
 | Hide\(\) | Oculta el panel acoplable. |
 | Select\(\) | Selecciona el panel acoplable. |
+| SetFocus\(\) | Le da el foco al panel acoplable. |
 | ToggleDocking\(\) | Acopla/flota el panel. Si el panel ya está acoplado, activa el "pin" de éste. |
 
 ## Propiedades
