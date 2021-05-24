@@ -20,3 +20,5 @@ public class Panes
 | Add\(Form, PaneDock, bool\) |  |
 | Add\(Form, Size, PaneDock, bool\) |  |
 
+
+

@@ -24,7 +24,6 @@ public class Commands
 | :--- | :--- |
 | AddToHistorical\(string\) |  |
 | Pop\(\) |  |
-| Push\(Command\) |  |
 | Push\(string\) |  |
 | Push\(string, bool\) |  |
 
