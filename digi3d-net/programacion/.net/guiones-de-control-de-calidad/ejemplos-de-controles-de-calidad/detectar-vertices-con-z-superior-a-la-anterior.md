@@ -1,4 +1,4 @@
-# Detectar vértices con Z superior a la anterior
+# Detectar vértices con Z superior a la del anterior vértice
 
 Vamos a crear un control de calidad que asignaremos a códigos de planimetría que tengan que se tengan que digitalizar forzosamente desde la cota más alta a la más baja. 
 

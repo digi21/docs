@@ -769,7 +769,7 @@
             * [Errores entre dos o más geometrías](digi3d-net/programacion/.net/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/errores-entre-dos-o-mas-geometrias.md)
             * [Errores de base de datos](digi3d-net/programacion/.net/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/errores-de-base-de-datos.md)
         * [Ejemplos de controles de calidad](digi3d-net/programacion/.net/guiones-de-control-de-calidad/ejemplos-de-controles-de-calidad/README.md)
-          * [Detectar vértices con Z superior a la anterior](digi3d-net/programacion/.net/guiones-de-control-de-calidad/ejemplos-de-controles-de-calidad/detectar-vertices-con-z-superior-a-la-anterior.md)
+          * [Detectar vértices con Z superior a la del anterior vértice](digi3d-net/programacion/.net/guiones-de-control-de-calidad/ejemplos-de-controles-de-calidad/detectar-vertices-con-z-superior-a-la-anterior.md)
       * [Referencia](digi3d-net/programacion/.net/referencia/README.md)
         * [Digi21.DigiNG](digi3d-net/programacion/.net/referencia/digi21.diging/README.md)
           * [Digi21.DigiNG.Cameras](digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/README.md)
