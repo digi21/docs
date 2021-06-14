@@ -15,5 +15,5 @@ Proporciona tipos para implementar controles de calidad en la ventana de dibujo 
 
 |  |  |
 | :--- | :--- |
-| [ITrigger](interfaces/itrigger.md) | Este interfaz define los métodos que debe implementar una clase que realice control de calidad. |
+| [ITrigger](interfaces/itrigger/) | Este interfaz define los métodos que debe implementar una clase que realice control de calidad. |
 
