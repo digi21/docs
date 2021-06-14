@@ -41,6 +41,8 @@ Estos guiones son programas en C\# que Digi3D.NET compila en el momento de carga
 
 Como el proceso de compilación de un ensamblado requiere que se introduzcan ensamblados de referencia como: _System.dll_, _System.Core.dll_, el [Editor de Tablas de Códigos](../../../../../../../../referencia/editor-de-tablas-de-codigos/) dispone de la opción del menú [Herramientas/Referencias](../../../../../../../../referencia/editor-de-tablas-de-codigos/menus/herramientas/referencias.md).
 
+Puedes aprender más en [Guiones de Control de Calidad](../../../../../../guiones-de-control-de-calidad.md).
+
 ## Ejemplo:
 
 El siguiente guion de ejemplo asignado a un determinado código lanza una excepción de tipo [GeometryException](../../../clases/geometryexception.md) si la geometría a almacenar no es de tipo [Line](../../../../../digi21.diging/digi21.diging.entities/clases/line/):
