@@ -158,5 +158,5 @@ Se pueden seleccionar las siguientes opciones:
 
 Código fuente del guion de control de calidad.
 
-La creación de guiones de control de calidad requiere unos conocimientos mínimos de programación. Puedes aprender más en [Guiones de control de calidad](../../../../programacion/.net/guiones-de-control-de-calidad.md).
+La creación de guiones de control de calidad requiere unos conocimientos mínimos de programación. Puedes aprender más en [Guiones de control de calidad](../../../../programacion/.net/guiones-de-control-de-calidad/).
 

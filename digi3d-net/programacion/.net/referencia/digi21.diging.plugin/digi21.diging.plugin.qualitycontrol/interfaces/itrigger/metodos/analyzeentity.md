@@ -1,7 +1,7 @@
 # AnalyzeEntity
 
-Espacio de nombres: [Digi21.Math](../../../../../digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](../../../../../digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Plugin.QualityControl](../../../)  
+Ensamblado: [Digi21.DigiNG.Plugin](../../../../)
 
 Este método es llamado por Digi3D.NET para analizar el control de calidad de una geometría.
 
@@ -20,7 +20,7 @@ Verdadero si el análisis se ha desencadenado porque se está almacenando una ge
 ## Devuelve
 
 [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Geometría a almacenar. No tiene por que ser la geometría original, puede ser otra como por ejemplo una geometría de tipo [Point](../../../../../digi21.diging/digi21.diging.entities/clases/point/) si la geometría a analizar era de tipo [Line](../../../../../digi21.diging/digi21.diging.entities/clases/line/) y su perímetro por ejemplo era muy pequeño y el control de calidad decide que hay que transformarla en un punto.
+Geometría a almacenar. No tiene por qué ser la geometría original, puede ser otra como por ejemplo una geometría de tipo [Point](../../../../../digi21.diging/digi21.diging.entities/clases/point/) si la geometría a analizar era de tipo [Line](../../../../../digi21.diging/digi21.diging.entities/clases/line/) y su perímetro por ejemplo era muy pequeño y el control de calidad decide que hay que transformarla en un punto.
 
 ## Excepciones
 
@@ -32,6 +32,7 @@ Las excepciones que espera recibir Digi3D.NET cuando llama a este método son la
 * [DigitizeAsPointException](../../../clases/digitizeaspointexception.md)
 * [GeometricRelationException](../../../clases/geometricrelationexception.md)
 * [GeometryException](../../../clases/geometryexception.md)
+* [WarningException](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.warningexception?view=net-5.0)
 
 ## Observaciones
 
@@ -41,7 +42,7 @@ Estos guiones son programas en C\# que Digi3D.NET compila en el momento de carga
 
 Como el proceso de compilación de un ensamblado requiere que se introduzcan ensamblados de referencia como: _System.dll_, _System.Core.dll_, el [Editor de Tablas de Códigos](../../../../../../../../referencia/editor-de-tablas-de-codigos/) dispone de la opción del menú [Herramientas/Referencias](../../../../../../../../referencia/editor-de-tablas-de-codigos/menus/herramientas/referencias.md).
 
-Puedes aprender más en [Guiones de Control de Calidad](../../../../../../guiones-de-control-de-calidad.md).
+Puedes aprender más en [Guiones de Control de Calidad](../../../../../../guiones-de-control-de-calidad/).
 
 ## Ejemplo:
 
@@ -50,6 +51,7 @@ El siguiente guion de ejemplo asignado a un determinado código lanza una excepc
 ```csharp
 using System;
 using Digi21.DigiNG.Entities;
+using Digi21.DigiNG.Plugin.QualityControl;
 
 namespace DigiTab
 {
@@ -57,8 +59,8 @@ namespace DigiTab
     {
 	      public Entity AnalyzeEntity(Entity entidad, bool almacenandoEntidad) 
 		    {
-		        if( !(Entity is ReadOnlyLine) )
-		            throw new GeometryException($"Las geometrías con el código {entidad.Codes[0].Name} deben ser líneas.");
+		        if( !(entity is ReadOnlyLine) )
+		            throw new GeometryException(String.Format("Las geometrías con el código {0} deben ser líneas.", entidad.Codes[0].Name));
 		        
 						return entidad;
         }

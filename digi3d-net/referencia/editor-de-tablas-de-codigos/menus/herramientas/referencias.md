@@ -8,8 +8,8 @@ Habitualmente introduciremos los siguientes ensamblados de referencia:
 System.dll
 System.Core.dll
 Digi21.DigiNG, Version=21.0.0.0, Culture=neutral, PublicKeyToken=6751d7d8a775bb8c
-Digi21.DigiNG.Topology, Version=21.0.0.0, Culture=neutral, PublicKeyToken=6751d7d8a775bb8c
-Digi21.Utilities, Version=21.0.0.0, Culture=neutral, PublicKeyToken=6751d7d8a775bb8c
+Digi21.DigiNG.Plugin, Version=21.0.0.0, Culture=neutral, PublicKeyToken=6751d7d8a775bb8c
+
 ```
 
 
