@@ -1232,7 +1232,7 @@
   * [Adjuntando archivos grandes a un tique de soporte técnico](soporte-tecnico/adjuntando-archivos-grandes-soporte-tecnico.md)
   * [Cerrando un tique de soporte técnico](soporte-tecnico/cerrando-ticket-soporte-tecnico.md)
 * [MDTopX](mdtopx-1/README.md)
-  * [¿Qué es MDTopX?](mdtopx-1/mdtopx.md)
-  * [Interfaz de usuario](mdtopx-1/interfaz-de-usuario.md)
-  * [Untitled](mdtopx-1/untitled.md)
+  * [Introducción](mdtopx-1/introduccion/README.md)
+    * [¿Qué es MDTopX?](mdtopx-1/introduccion/mdtopx.md)
+    * [Interfaz de usuario](mdtopx-1/introduccion/interfaz-de-usuario.md)
 
