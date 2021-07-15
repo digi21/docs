@@ -1233,4 +1233,6 @@
   * [Cerrando un tique de soporte técnico](soporte-tecnico/cerrando-ticket-soporte-tecnico.md)
 * [MDTopX](mdtopx-1/README.md)
   * [¿Qué es MDTopX?](mdtopx-1/mdtopx.md)
+  * [Interfaz de usuario](mdtopx-1/interfaz-de-usuario.md)
+  * [Untitled](mdtopx-1/untitled.md)
 
