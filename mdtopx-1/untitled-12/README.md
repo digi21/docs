@@ -1,0 +1,39 @@
+# Cinta de herramientas
+
+[Interfaz de usuario](../introduccion/interfaz-de-usuario.md)
+
+En la interfaz se han sustituido las barras de herramientas y menús de usuario por la cinta de herramientas. Está diseñada para ayudar al usuario a encontrar rápidamente los comandos que necesita para completar una tarea. Los comandos están organizados en grupos lógicos que se reúnen en fichas.
+
+Las fichas disponibles son las siguientes:
+
+* [Inicio](../fichas-de-herramientas/untitled-251/): Funciones generales del programa y Comandos de visualización
+* [Editar](../fichas-de-herramientas/untitled-248/): Funciones para la edición general de los datos del documento actual
+* [Herramientas MDT](../fichas-de-herramientas/untitled-249/): Funciones para la visualización y aprovechamiento de documentos con modelos digitales del terreno
+* [Viales](../fichas-de-herramientas/untitled-256/): Funciones del módulo Viales
+* [VirtuaLand](../fichas-de-herramientas/untitled-257/): Funciones del módulo VirtuaLand
+* [Archivos LiDAR](../fichas-de-herramientas/untitled-252/): Funciones genéricas del módulo Láser, tanto para archivos terrestres como aéreos
+* [Puntos LiDAR](../fichas-de-herramientas/untitled-253/): Funciones del módulo Láser propias de archivos de registro aéreo
+* [Clasificar LiDAR](../fichas-de-herramientas/untitled-245.md): Funciones del módulo Láser para la clasificación de puntos
+* [Imagen](../fichas-de-herramientas/untitled-250/): Funciones para la edición de imágenes ráster
+* [Edición TIN](../fichas-de-herramientas/untitled-247/): Funciones para la edición de modelos digitales de tipo TIN. Esta ficha sólo se mostrará cuando se tenga activo un documento TIN
+* [Edición TIN 3D](../fichas-de-herramientas/untitled-246/): Funciones para la edición de modelos digitales de tipo TIN tridimensionales. Esta ficha sólo se mostrará cuando se tenga activo un documento TIN 3D
+* [Proyecto](../fichas-de-herramientas/untitled-254/): Funciones para la edición de proyectos de MDTopX. Esta ficha sólo se mostrará cuando se tenga activo un proyecto
+* [Trazado](../fichas-de-herramientas/untitled-255.md): Funciones del módulo Viales, específica para el diseño de trazados en planta. Sólo se mostrará con un archivo de viales, en su vista de Trazado
+* [Alzado](../fichas-de-herramientas/untitled-244.md): Funciones del módulo Viales, específica para el diseño de alzados. Sólo se mostrará con un archivo de viales, en su vista de Alzado
+
+Además de estas fichas, la cinta de herramientas incluye una [barra de herramientas de acceso rápido ](untitled-6.md)que está siempre presente y que se puede configurar con los comandos que el usuario considere más útiles.
+
+Operaciones no permitidas con la cinta:
+
+* Agregar o reorganizar los comandos de la cinta de herramientas
+* Cambiar o quitar un comando o un grupo de la cinta de herramientas
+* Agregar fichas a la cinta de herramientas
+* Cambiar a las barras de herramientas y menús de versiones anteriores de MDTop
+
+Operaciones permitidas:
+
+* [Minimizar la cinta de herramientas ](untitled-284.md)para dejar más espacio disponible en la pantalla
+* [Mover la barra de herramientas de acceso rápido ](untitled-290.md)para colocarla por debajo o por encima de la cinta de herramientas
+* [Personalizar la barra de herramientas de acceso rápido ](untitled-306.md)para agregar botones que representarán los comandos que utiliza frecuentemente
+* [Utilizar la cinta de herramientas mediante teclado](untitled-327.md)
+
