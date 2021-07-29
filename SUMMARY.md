@@ -1270,6 +1270,7 @@
       * [Punto de Vista](mdtopx-1/fichas-de-herramientas/ficha-de-herramientas-inicio/punto-de-vista.md)
       * [Ventana](mdtopx-1/fichas-de-herramientas/ficha-de-herramientas-inicio/ventana.md)
     * [Ficha de herramientas Editar](mdtopx-1/fichas-de-herramientas/ficha-de-herramientas-editar/README.md)
+      * [Insertar elementos](mdtopx-1/fichas-de-herramientas/ficha-de-herramientas-editar/insertar-elementos.md)
       * [Elementos](mdtopx-1/fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
       * [Vista](mdtopx-1/fichas-de-herramientas/ficha-de-herramientas-editar/editar-vista.md)
       * [Archivo](mdtopx-1/fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
