@@ -4,7 +4,7 @@
 
 En este epígrafe están agrupados los comandos relativos al aspecto de la vista:
 
-* [Lista de códigos](../../otras-herramientas/untitled-151/): Muestra los códigos de dibujos registrados. Desde aquí podrá dar simbología \(color, grosor, estilo...\) a las entidades de la cartografía.
+* [Lista de códigos](../../otras-herramientas/listacodigos/): Muestra los códigos de dibujos registrados. Desde aquí podrá dar simbología \(color, grosor, estilo...\) a las entidades de la cartografía.
 * Color de fondo: Muestra un listado con colores predefinidos o el cuadro de diálogo de Windows para elegir el color de fondo de los documentos abiertos. Este color también puede ser seleccionado desde el comando [Fondo ](../../herramientas-de-visualizacion/untitled-75.md)de esta misma ficha.
 * [Iluminación](../../herramientas-de-visualizacion/untitled-123.md): Perite cambiar las condiciones de iluminación del documento actual
 * [Material](../../herramientas-de-visualizacion/untitled-158.md): Permite cambiar las propiedades del material con el que se rellenan los modelos digitales
