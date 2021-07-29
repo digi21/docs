@@ -1,6 +1,6 @@
 # VirtuaLand General
 
-[ Ficha de herramientas VirtuaLand](./)
+[Ficha de herramientas VirtuaLand](./)
 
 Las principales herramientas del módulo VirtuaLand están agrupadas en esta sección y son las siguientes:
 

@@ -2,7 +2,7 @@
 
 El módulo MMS tiene como objetivo la gestión y tratamiento de archivos procedentes del registro de nubes de puntos por medio de sistemas Mobile Mapping. Estos sistemas están compuestos de diferentes sensores que permiten la recogida de densas nubes de puntos pertenecientes a vías como carreteras, calles o líneas de ferrocarril.
 
-Las herramientas de este módulo están dispuestas en la cinta de [Herramientas Clasificar LiDAR ](../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)y, principalmente, serían las siguientes:
+Las herramientas de este módulo están dispuestas en la cinta de [Herramientas MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md) y, principalmente, serían las siguientes:
 
 * [Trazado](clasificar-suelo-de-trazado.md): Herramienta para la clasificación de puntos pertenecientes al suelo y pertenecientes a elementos de la vía. Primer paso antes de la búsqueda de elementos de una vía rodada.
 * [Asfalto](clasificar-lineas-de-vial.md): Herramienta para la búsqueda de elementos de una vía rodada, después de haber detectado el suelo.
