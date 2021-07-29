@@ -1582,6 +1582,7 @@
       * [Información de triángulo](mdtopx-1/otras-herramientas/editar-elementos/informacion-de-triangulo.md)
       * [Información de celda](mdtopx-1/otras-herramientas/editar-elementos/informacion-de-celda.md)
       * [Información de atributos](mdtopx-1/otras-herramientas/editar-elementos/informacion-de-atributos.md)
+      * [Información de elemento de proyecto](mdtopx-1/otras-herramientas/editar-elementos/informacion-de-elemento-de-proyecto.md)
       * [Cambia código](mdtopx-1/otras-herramientas/editar-elementos/cambia-codigo.md)
       * [Seleccionar código](mdtopx-1/otras-herramientas/editar-elementos/seleccionar-codigo.md)
       * [Generalizar entidades](mdtopx-1/otras-herramientas/editar-elementos/generalizar-entidades.md)
