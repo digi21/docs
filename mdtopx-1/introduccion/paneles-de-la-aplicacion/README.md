@@ -9,6 +9,8 @@ Los paneles disponibles son los siguientes:
 * [Propiedades](panel-propiedades/): Activa o desactiva la ventana con las propiedades del documento actual.
 * [Resultados](panel-resultados.md): Activa o desactiva la ventana donde las herramientas muestran mensajes de la actividad realizada.
 * [Proyecto](panel-proyecto.md): Activa o desactiva la ventana de proyecto donde se muestran los archivos que se incluyen en él.
-* [LiDAR](panel-propiedades/panel-lidar.md): Activa o desactiva la ventana de herramientas rápidas de clasificación para archivos LiDAR.
+* [LiDAR](panel-lidar.md): Activa o desactiva la ventana de herramientas rápidas de clasificación para archivos LiDAR.
 * [Imágenes de fondo](panel-imagenes-de-fondo.md): Activa o desactiva la ventana donde aparecen las imágenes de fondo.
+
+Para activar o desactivar estos paneles, se pueden utilizar las opciones disponibles en la cinta de herramientas [Inicio Ventana](../../fichas-de-herramientas/ficha-de-herramientas-inicio/ventana.md).
 

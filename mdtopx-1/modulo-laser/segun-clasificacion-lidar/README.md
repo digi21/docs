@@ -9,7 +9,7 @@ Las diferentes herramientas disponibles en función de la clasificación LIDAR d
 * \*\*\*\*[**Seleccionar**](seleccionar-segun-clasificacion.md): Herramienta destinada para seleccionar del fichero aquellos puntos que tengan una determinada clasificación LiDAR y guardarlos en un nuevo documento
 * \*\*\*\*[**Cambiar**](cambiar-clasificacion.md): Herramienta destinada para cambiar la clasificación de puntos LiDAR
 
-Estas herramientas también están disponibles para las tipologías principales en el [Panel LiDAR ](../../introduccion/paneles-de-la-aplicacion/panel-propiedades/panel-lidar.md)que permiten una ejecución más rápida porque no depende de cuadros de diálogos.
+Estas herramientas también están disponibles para las tipologías principales en el [Panel LiDAR ](../../introduccion/paneles-de-la-aplicacion/panel-lidar.md)que permiten una ejecución más rápida porque no depende de cuadros de diálogos.
 
 Vea también:
 
