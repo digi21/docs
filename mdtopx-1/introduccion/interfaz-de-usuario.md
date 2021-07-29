@@ -2,7 +2,7 @@
 
 ![Interfaz de usuario de MDTopX](../../.gitbook/assets/interfaz-de-usuario.jpg)
 
-El aspecto del programa es el de una aplicación gráfica multi-documento, es decir, le permitirá abrir más de un archivo en cada sesión. En la interfaz se han sustituido las barras de herramientas y menús de usuario por la [cinta de herramientas](../untitled-12/). Igualmente el clásico menú Archivo está pulsando el [botón de MDTopX ![](../../.gitbook/assets/boton-mdtopx.jpg)](untitled-10.md)
+El aspecto del programa es el de una aplicación gráfica multi-documento, es decir, le permitirá abrir más de un archivo en cada sesión. En la interfaz se han sustituido las barras de herramientas y menús de usuario por la [cinta de herramientas](../cinta-de-herramientas/). Igualmente el clásico menú Archivo está pulsando el [botón de MDTopX ![](../../.gitbook/assets/boton-mdtopx.jpg)](boton-de-mdtopx.md)
 
 La interacción del usuario con los elementos de dibujo mostrados se realiza a través del ratón del ordenador. Si el usuario se mueve dentro de la ventana del documento, la aplicación mostrará en la barra de estado las coordenadas de la zona por la cuál está pasando.
 
@@ -12,7 +12,7 @@ Si encuentra alguna entidad, ésta se iluminará de otro color y el programa ped
 
 Si el ratón dispone de rueda central, se puede utilizar para aumentar o reducir el zoom de la vista actual.
 
-En la [barra de estado ](untitled-5.md)se mostrará información de la herramienta seleccionada, así como mensajes de petición del programa al usuario.
+En la [barra de estado ](barra-de-estado.md)se mostrará información de la herramienta seleccionada, así como mensajes de petición del programa al usuario.
 
 Asimismo, se ofrecen las coordenadas en las que está el cursor. Si el documento actual es un modelo digital del terreno o un dibujo vectorial ofrecerá la coordenada en tiempo real. Si el documento es un archivo ráster ofrecerá el color del píxel.
 
