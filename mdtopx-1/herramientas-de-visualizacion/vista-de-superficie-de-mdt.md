@@ -1,6 +1,6 @@
 # Vista de Superficie de MDT
 
-[Herramientas MDT Vista](../fichas-de-herramientas/ficha-de-herramientas-mdt/vista-de-mdt.md)
+[Herramientas MDT Vista de MDT](../fichas-de-herramientas/ficha-de-herramientas-mdt/vista-de-mdt.md)
 
 ![](../../.gitbook/assets/menu-superficie.jpg)
 

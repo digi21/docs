@@ -5,9 +5,7 @@
 En este epígrafe están agrupados los comandos relativos a la gestión de la vista del MDT:
 
 * \*\*\*\*[**Superficie**](../../herramientas-de-visualizacion/vista-de-superficie-de-mdt.md): El usuario puede elegir entre varias opciones para visualizar el modelo digital del terreno. Para estar activas, el documento actual deberá ser un modelo digital o tener modelos digitales como archivos de referencia.
-* **Objetos MDT**:
-  * **Edificios**: Esta opción permite visualizar los edificios cargados sobre el modelo digital. Estos edificios pueden ser cargados con el comando [Edificios ](../../untitled-289/cargar-edificios.md)de la [Ficha de herramientas VirtuaLand](../ficha-de-herramientas-virtualand/). También puede añadirse objetos a un modelo TIN con la opción [Poner cubiertas](../../herramientas-de-edicion-de-la-triangulacion/poner-cubiertas.md) de la [Ficha de herramientas Edición TIN](../ficha-de-herramientas-edicion-tin/).
-  * **Árboles**: Esta opción permite visualizar los árboles cargados sobre el modelo digital. Estos árboles pueden ser cargados con el comando [Árboles ](../../untitled-289/cargar-arboles.md)de la [Ficha de herramientas VirtuaLand ](../ficha-de-herramientas-virtualand/).
+* \*\*\*\*[**Objetos MDT**](../../herramientas-de-visualizacion/encender-apagar-objetos-del-mdt.md): Esta opción permite visualizar u ocultar objetos cargados sobre el modelo digital. Estos objetos pueden ser cargados con el comando [Añadir objetos ](../../herramientas-de-edicion-de-la-triangulacion/poner-cubiertas.md)de la [Ficha de herramientas Edición TIN Objetos MDT](../ficha-de-herramientas-edicion-tin/objetos-mdt.md).
 * **Tipos de superficie**:
 * **Base**: Esta opción permite visualizar una superficie con la cota mínima del modelo digital y con el mismo límite planimétrico, de tal forma que se unirá verticalmente a las celdas o triángulos exteriores del modelo digital tanto mayor sensación tridimensional.
 * **Rupturas**: Esta opción permite visualizar u ocultar las líneas de ruptura mantenidas en el modelo digital. Para estar activa, el documento actual deberá ser un modelo digital o tener modelos digitales como archivos de referencia.

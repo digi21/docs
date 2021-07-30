@@ -1,4 +1,8 @@
-# Poner cubiertas
+---
+description: Cuadro de diálogo Añadir objetos al MDT
+---
+
+# Añadir objetos al MDT
 
 [Objetos MDT](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/objetos-mdt.md)
 
