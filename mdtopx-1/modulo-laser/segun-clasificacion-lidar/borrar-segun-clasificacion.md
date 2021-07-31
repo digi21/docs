@@ -19,5 +19,6 @@ Vea también:
 * [Borrar puntos según color registrado](../segun-color-registrado/borrar-segun-color-registrado.md)
 * [Borrar puntos según intensidad](../segun-intensidad/borrar-segun-intensidad.md)
 * [Borrar puntos según eco](../segun-eco-lidar/borrar-segun-eco.md)
+* [Borrar puntos según tiempo GPS](../segun-tiempo-gps/borrar-segun-tiempo-gps.md)
 * [Ficha de herramientas Clasificar LiDAR](../../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

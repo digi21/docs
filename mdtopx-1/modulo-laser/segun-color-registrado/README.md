@@ -16,5 +16,6 @@ Las diferentes herramientas disponibles en función del color registrado en cada
 * [Según intensidad](../segun-intensidad/)
 * [Según clasificación](../segun-clasificacion-lidar/)
 * [Según eco](../segun-eco-lidar/)
+* [Según tiempo GPS](../segun-tiempo-gps/)
 * [Ficha de herramientas Clasificar LiDAR](../../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

@@ -31,5 +31,5 @@ Vea también:
 * [Buscar puntos vecinos](buscar-vecinos.md)
 * [Buscar puntos según infrarrojo](buscar-puntos-segun-infrarrojo.md)
 * [Buscar puntos según Área de superficie](buscar-puntos-segun-area.md)
-* [Buscar puntos según planos de usuario](buscar-puntos-sobre-planos.md) 
+* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md) 
 

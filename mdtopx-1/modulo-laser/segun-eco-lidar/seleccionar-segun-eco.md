@@ -19,6 +19,7 @@ Vea también:
 * [Seleccionar según clasificación](../segun-clasificacion-lidar/seleccionar-segun-clasificacion.md)
 * [Seleccionar según color registrado](../segun-color-registrado/seleccionar-segun-color-registrado.md)
 * [Seleccionar según intensidad](../segun-intensidad/seleccionar-segun-intensidad.md)
+* [Seleccionar según tiempo GPS](../segun-tiempo-gps/seleccionar-segun-tiempo-gps.md)
 * [Cambiar clasificación en gráfico](../editar/cambiar-clasificacion-en-grafico.md)
 * [Ficha de herramientas Clasificar LiDAR](../../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

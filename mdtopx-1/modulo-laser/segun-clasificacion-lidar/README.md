@@ -17,6 +17,7 @@ Vea también:
 * [Según punto de registro](../segun-punto-de-registro/)
 * [Según intensidad](../segun-intensidad/)
 * [Según eco](../segun-eco-lidar/)
+* [Según tiempo GPS](../segun-tiempo-gps/)
 * [Cambiar clasificación en gráfico](../editar/cambiar-clasificacion-en-grafico.md)
 * [Ficha de herramientas Clasificar LiDAR](../../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
