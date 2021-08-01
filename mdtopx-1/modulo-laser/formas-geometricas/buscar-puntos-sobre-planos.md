@@ -4,7 +4,7 @@ description: Cuadro de diálogo Buscar puntos sobre planos
 
 # Buscar puntos sobre planos
 
-[Ficha de herramientas Clasificar LiDAR](../../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
+[Buscar formas geométricas](./)
 
 Con esta herramienta se pueden clasificar puntos que forman superficies planas.
 
