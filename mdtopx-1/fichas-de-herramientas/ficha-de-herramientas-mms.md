@@ -6,8 +6,8 @@ En esta ficha de herramientas aparecen los comandos relacionados con la clasific
 
 * \*\*\*\*[**General**](../modulo-mms/general/)\*\*\*\*
 * \*\*\*\*[**Trazado**](../modulo-mms/trazado/)\*\*\*\*
-* \*\*\*\*[**FFCC**](../modulo-mms/ffcc.md)\*\*\*\*
+* \*\*\*\*[**FFCC**](../modulo-mms/ffcc/)\*\*\*\*
 * \*\*\*\*[**Forestal**](../modulo-mms/forestal/)\*\*\*\*
-* \*\*\*\*[**Editar objetos**](../modulo-mms/editar-objetos.md)\*\*\*\*
+* \*\*\*\*[**Editar objetos**](../modulo-mms/editar-objetos/)\*\*\*\*
 * \*\*\*\*[**Imagen de fondo**](../modulo-mms/imagen-de-fondo.md)\*\*\*\*
 
