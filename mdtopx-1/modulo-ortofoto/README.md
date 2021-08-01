@@ -1,5 +1,7 @@
 # Módulo Ortofoto
 
+[¿Qué es MDTopX?](../introduccion/mdtopx.md)
+
 El módulo Ortofoto tiene como objetivo el cálculo de ortofotografías rectificadas a partir de imágenes cónicas con georreferenciación y un modelo digital del terreno. Tiene varias herramientas repartidas entre la cinta de [Herramientas MDT ](../fichas-de-herramientas/ficha-de-herramientas-mdt/)y la de [Herramientas Imagen](../fichas-de-herramientas/ficha-de-herramientas-imagen/). Principalmente, se trata de las siguientes herramientas:
 
 * [Ortofoto](calculo-de-ortofoto.md): Herramienta para calcular las imágenes ortorrectificadas. Disponible en la [Ficha de Herramientas MDT](../fichas-de-herramientas/ficha-de-herramientas-mdt/).

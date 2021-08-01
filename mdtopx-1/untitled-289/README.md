@@ -1,5 +1,7 @@
 # Módulo VirtuaLand
 
+[¿Qué es MDTopX?](../introduccion/mdtopx.md)
+
 El módulo opcional VirtuaLand tiene diversas herramientas para el tratamiento y visualización de modelos digitales del terreno basados en rejillas \(DEM\). Estas herramientas tienen dos vertientes diferentes:
 
 * Por un lado el tratamiento de los modelos digitales para obtener los mejores datos y representaciones del relieve. Así, el módulo dispone de un algoritmo que suaviza estos modelos obteniéndose curvados posteriores de gran calidad. Además, tiene una herramienta para extraer automáticamente las líneas de ruptura a partir de un conjunto de puntos.

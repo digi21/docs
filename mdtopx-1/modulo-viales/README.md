@@ -1,5 +1,7 @@
 # Módulo Viales
 
+[¿Qué es MDTopX?](../introduccion/mdtopx.md)
+
 El módulo opcional Viales está destinado para el diseño de obras lineales y su proyección sobre el terreno utilizando, para ello, modelos digitales del terreno. Dispone de diversas herramientas para la construcción de las geometrías necesarias para el diseño de un vial tanto en planta como en alzado.
 
 Asimismo, proporciona todos los comandos para la elaboración de los diversos planos de salida de resultados, como pueden ser los perfiles longitudinales, perfiles transversales y la proyección de los viales diseñados sobre un modelo digital del terreno, obteniendo el terreno modificado, que podrá ser utilizado para extracción de curvados, cubicaciones, etc.
