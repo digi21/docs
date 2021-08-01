@@ -4,7 +4,7 @@ description: Cuadro de diálogo Clasificar líneas de vial
 
 # Clasificar líneas de vial
 
-[Módulo MMS](./)
+[Ficha de herramientas MMS Trazado](./)
 
 Mediante esta herramienta se clasificarán los puntos pertenecientes al asfalto y a las marcas horizontales de la carretera. Previamente a ejecutar esta herramienta, se debe haber ejecutado la herramienta de [Trazado](clasificar-suelo-de-trazado.md).
 

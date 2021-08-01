@@ -4,7 +4,7 @@ description: Cuadro de diálogo Clasificar árboles
 
 # Clasificar árboles
 
-[ Módulo MMS](./)
+[Ficha de herramientas MMS Forestal](./)
 
 Mediante esta herramienta...
 

@@ -4,7 +4,7 @@ description: Cuadro de diálogo Buscar objetos en el trazado
 
 # Buscar objetos en el trazado
 
-[Módulo MMS](./)
+[Ficha de herramientas MMS Trazado](./)
 
 Mediante esta herramienta se podrán clasificar puntos pertenecientes a objetos que están en el vial, o cercanos a él. Estos objetos pueden ser útiles para realizar un inventario de elementos de interés, o para ser eliminados de una modelización posterior, como pueden ser los vehículos que quedaron registrados por el escáner. Previamente a ejecutar esta herramienta, se debe haber ejecutado la herramienta de [Asfalto](clasificar-lineas-de-vial.md).
 

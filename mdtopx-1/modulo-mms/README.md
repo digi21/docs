@@ -6,10 +6,10 @@ El módulo MMS tiene como objetivo la gestión y tratamiento de archivos procede
 
 Las herramientas de este módulo están dispuestas en la cinta de [Herramientas MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md) y, principalmente, serían las siguientes:
 
-* [Trazado](clasificar-suelo-de-trazado.md): Herramienta para la clasificación de puntos pertenecientes al suelo y pertenecientes a elementos de la vía. Primer paso antes de la búsqueda de elementos de una vía rodada.
-* [Asfalto](clasificar-lineas-de-vial.md): Herramienta para la búsqueda de elementos de una vía rodada, después de haber detectado el suelo.
-* [Líneas vial](buscar-lineas-de-vial.md): Herramienta para la generación de límites de asfalto, marcas viales y transversales.
-* [Inventario carreteras](buscar-objetos-en-el-trazado.md): Herramienta para la búsqueda de objetos en el vial o cercanos a él.
+* [Trazado](trazado/clasificar-suelo-de-trazado.md): Herramienta para la clasificación de puntos pertenecientes al suelo y pertenecientes a elementos de la vía. Primer paso antes de la búsqueda de elementos de una vía rodada.
+* [Asfalto](trazado/clasificar-lineas-de-vial.md): Herramienta para la búsqueda de elementos de una vía rodada, después de haber detectado el suelo.
+* [Líneas vial](trazado/buscar-lineas-de-vial.md): Herramienta para la generación de límites de asfalto, marcas viales y transversales.
+* [Inventario carreteras](trazado/buscar-objetos-en-el-trazado.md): Herramienta para la búsqueda de objetos en el vial o cercanos a él.
 * [MDS 3D Vial](general/mds-a-partir-de-datos-mms.md): Herramienta para el cálculo de un Modelo Digital de Superficies 3D a partir de los datos MMS de una carretera.
 * FFCC: Herramienta para la clasificación de puntos pertenecientes al suelo y pertenecientes a elementos de la vía. Primer paso antes de la búsqueda de elementos de una vía de ferrocarril.
 * Raíles: Herramienta para la búsqueda de elementos de una vía de ferrocarril, después de haber detectado el suelo.

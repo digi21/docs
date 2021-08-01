@@ -4,7 +4,7 @@ description: Cuadro de diálogo Buscar líneas de vial
 
 # Buscar líneas de vial
 
-[Módulo MMS](./)
+[Ficha de herramientas MMS Trazado](./)
 
 Mediante esta herramienta se calcularán los límites generados por los puntos clasificados como asfalto y/o marcas horizontales de la carretera. Estos puntos podrán haber sido clasificados previamente con la herramienta [Asfalto](clasificar-lineas-de-vial.md).
 
