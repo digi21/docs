@@ -1,6 +1,6 @@
 # General
 
-[Ficha de herramientas MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md)
+[Ficha de herramientas MMS](../../fichas-de-herramientas/ficha-de-herramientas-mms.md)
 
 Las herramientas comunes del módulo MMS están agrupadas en esta sección y son las siguientes:
 

@@ -1,0 +1,6 @@
+---
+description: Cuadro de diálogo Límites de objetos
+---
+
+# Límites de objetos
+
