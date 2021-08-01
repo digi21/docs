@@ -4,7 +4,7 @@ description: Cuadro de diálogo MDS a partir de datos MMS
 
 # MDS a partir de datos MMS
 
-[Módulo MMS](../)
+[Ficha de herramientas MMS General](./)
 
 Mediante esta herramienta se puede calcular un Modelo Digital de Superficies 3D a partir de la nube de puntos registrada con un Mobile Mapping System. La herramienta calculará un MDT con los puntos que definan el suelo \(suelo, asfalto, líneas blancas\) y diferentes modelos tridimensionales según los puntos que definan los objetos registrados y clasificados según sus puntos.
 

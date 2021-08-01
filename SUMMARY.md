@@ -1535,6 +1535,7 @@
     * [Mosaico Ortos](mdtopx-1/modulo-ortofoto/mosaico-ortos.md)
   * [Módulo MMS](mdtopx-1/modulo-mms/README.md)
     * [General](mdtopx-1/modulo-mms/general/README.md)
+      * [Transforma nubes de puntos MMS](mdtopx-1/modulo-mms/general/transforma-nubes-de-puntos-mms.md)
       * [Límites de objetos](mdtopx-1/modulo-mms/general/limites-de-objetos.md)
       * [MDS a partir de datos MMS](mdtopx-1/modulo-mms/general/mds-a-partir-de-datos-mms.md)
     * [Trazado](mdtopx-1/modulo-mms/trazado.md)
