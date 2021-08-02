@@ -19,3 +19,7 @@ El cuadro de diálogo necesita los siguientes datos:
 * **Máxima distancia entre puntos**: Se indicará la distancia máxima entre dos puntos para ser considerados vecinos en el espacio.
 * **Objetos a identificar**: Se deberán indicar qué elementos se desean identificar en el cálculo. Estos objetos son: Carteles informativos, Puentes o túneles, Vehículos, Luminarias, Biondas o quitamiedos y Señales de tráfico. Al seleccionar la búsqueda de un objeto se deberá indicar el tipo con el que se clasificarán los puntos identificados. Además, en el caso de las señales de trafico, se deberá indicar el valor mínimo de intensidad que deben tener los puntos.
 
+{% hint style="info" %}
+Para ver un ejemplo, visite la página: [https://youtu.be/Xp4bjqNUKIQ](https://youtu.be/Xp4bjqNUKIQ)
+{% endhint %}
+

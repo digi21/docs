@@ -2,9 +2,9 @@
 
 [Cinta de herramientas](../cinta-de-herramientas/)
 
-En esta ficha de herramientas aparecen los comandos relacionados con la clasificación de puntos LiDAR medidos con dispositivos láser móviles en interiores y exteriores de edificios del [módulo MMS](../modulo-edificios.md).
+En esta ficha de herramientas aparecen los comandos relacionados con la clasificación de puntos LiDAR medidos con dispositivos láser móviles en interiores y exteriores de edificios del [módulo Edificación](../modulo-edificios/).
 
-* General
-* Editar mediante perfil horizontal
-* Editar planos
+* \*\*\*\*[**General**](../modulo-edificios/general.md)\*\*\*\*
+* \*\*\*\*[**Editar mediante perfil horizontal**](../modulo-edificios/editar-mediante-perfil-horizontal.md)\*\*\*\*
+* \*\*\*\*[**Editar planos**](../modulo-edificios/editar-planos.md)\*\*\*\*
 

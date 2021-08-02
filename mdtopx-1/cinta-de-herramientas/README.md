@@ -15,8 +15,8 @@ Las fichas disponibles son las siguientes:
 * [Puntos LiDAR](../fichas-de-herramientas/ficha-de-herramientas-puntos-lidar/): Funciones del [módulo Láser ](../modulo-laser/)propias de archivos de registro aéreo
 * [Clasificar LiDAR](../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md): Funciones del [módulo Láser](../modulo-laser/) para la clasificación de puntos
 * [MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md): Funciones del [módulo MMS](../modulo-mms/).
-* [MMI](../fichas-de-herramientas/ficha-de-herramientas-mmi.md): Funciones del [módulo MMI](../modulo-mmi.md).
-* [Edificios](../fichas-de-herramientas/ficha-de-herramientas-edificios.md): Funciones del [módulo Edificios](../modulo-edificios.md).
+* [MMI](../fichas-de-herramientas/ficha-de-herramientas-mmi.md): Funciones del [módulo MMI](../modulo-mmi/).
+* [Edificios](../fichas-de-herramientas/ficha-de-herramientas-edificios.md): Funciones del [módulo Edificios](../modulo-edificios/).
 * [ScanStation](../fichas-de-herramientas/ficha-de-herramientas-scanstation.md): Funciones del [módulo ScanStation](../modulo-scanstation.md)
 * [Imagen](../fichas-de-herramientas/ficha-de-herramientas-imagen/): Funciones para la edición de imágenes ráster
 * [Edición TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/): Funciones para la edición de modelos digitales de tipo TIN. Esta ficha sólo se mostrará cuando se tenga activo un documento TIN

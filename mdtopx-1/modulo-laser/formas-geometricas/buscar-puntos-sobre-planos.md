@@ -42,3 +42,7 @@ Vea también:
 * [Buscar huecos](../buscar-puntos/buscar-huecos.md)
 * [Buscar puntos según Área de superficie](../buscar-puntos/buscar-puntos-segun-area.md)
 
+{% hint style="info" %}
+Para ver un ejemplo, visite la página: [https://youtu.be/0NJjQvRX5CM](https://youtu.be/0NJjQvRX5CM)
+{% endhint %}
+

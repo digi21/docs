@@ -37,3 +37,7 @@ Vea también:
 * [Buscar puntos según Área de superficie](buscar-puntos-segun-area.md)
 * [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md) 
 
+{% hint style="info" %}
+Para ver un ejemplo, visite la página: [https://youtu.be/qm8dz4AmSRQ](https://youtu.be/qm8dz4AmSRQ)
+{% endhint %}
+

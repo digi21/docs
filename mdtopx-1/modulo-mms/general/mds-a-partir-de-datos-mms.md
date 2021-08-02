@@ -14,3 +14,7 @@ El cuadro de diálogo necesita los siguientes datos:
 * **Tipologías que definen los objetos**: Se deberán seleccionar las tipologías correspondientes a los puntos que definen los diferentes objetos del vial, por ejemplo, señales de tráfico, farolas, biondas, etc.
 * **Máxima distancia entre puntos**: Se indicará la distancia máxima entre dos puntos para ser considerados vecinos en el espacio.
 
+{% hint style="info" %}
+Para ver un ejemplo, visite la página: [https://youtu.be/OUxQnkFdXWg](https://youtu.be/OUxQnkFdXWg)
+{% endhint %}
+

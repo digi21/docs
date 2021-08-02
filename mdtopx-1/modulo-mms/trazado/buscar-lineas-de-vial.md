@@ -19,3 +19,7 @@ El cuadro de diálogo necesita los siguientes datos:
 * **Máxima distancia entre puntos**: Se indicará la distancia máxima entre dos puntos para ser considerados vecinos en el espacio.
 * **Mínimo valor de intensidad**: Valor mínimo de intensidad que deberá tener un punto para ser considerado perteneciente a una señal horizontal sobre el asfalto.
 
+{% hint style="info" %}
+Para ver un ejemplo, visite la página: [https://youtu.be/J4uEcv8OIGU](https://youtu.be/J4uEcv8OIGU)
+{% endhint %}
+

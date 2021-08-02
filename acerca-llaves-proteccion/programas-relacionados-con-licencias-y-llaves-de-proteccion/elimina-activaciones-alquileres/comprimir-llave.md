@@ -1,8 +1,6 @@
 # Comprimir llave
 
-Puedes comprimir la memoria almacenada en la llave de protección para almacenar más activaciones.
-
-Las llaves de protección tienen memoria suficiente para almacenar unas 20 activaciones aproximadamente, por lo que podrás conectarla a distintos equipos y activarlos.
+Las llaves de protección tienen memoria suficiente para almacenar unas 20 activaciones aproximadamente \(este valor depende del tamaño del archivo de configuración obtenido al consultar por las características del hardware al ordenador\), por lo que podrás conectarla a distintos equipos y activarlos.
 
 Si necesitas activar más de 20 ordenadores, la llave se quedará sin memoria y no quedará más remedio que eliminar las activaciones y comenzar de cero.
 
@@ -23,7 +21,4 @@ Para eliminar la compresión de una llave de protección tienes que volver a eje
 Además, hemos hecho que el programa [Comprobar Licencias](../comprobar-licencias.md) muestre el porcentaje de memoria libre en la llave de protección:
 
 ![Captura mostrando las propiedades de la llave de protecci&#xF3;n](../../../.gitbook/assets/propiedades-de-la-llave-de-proteccion.jpg)
-
-También hemos introducido el concepto de **Contraseña de administración** en la llave de protección.  
-Si entras en tu panel de administración de llaves de protección en [Mis llaves](https://www.digi21.net/MisLlaves) podrás comprobar que ha aparecido una nueva opción de configuración que te permite indicar una contraseña de administración. Los programas **Comprimir Llave** y **Eliminar Activaciones y Alquieres** solicitarán esta contraseña de activación.
 

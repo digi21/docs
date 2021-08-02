@@ -1,3 +1,7 @@
+---
+description: Imagen de fondo MMS
+---
+
 # Imagen de fondo
 
 [Ficha de herramientas MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md)

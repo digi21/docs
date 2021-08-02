@@ -27,8 +27,8 @@ A parte del cálculo y aprovechamiento de modelos digitales el programa dispone 
 * [Módulo Láser](../modulo-laser/): Permitirá al usuario el tratamiento y edición de archivos con información capturada con dispositivos láser. Se incluyen herramientas que permitirá al usuario tratar millones de puntos, editarlos, clasificarlos y extraer información de ellos. Incluye una herramienta con un algoritmo rápido de Delaunay e incluso otra para la generación de modelos digitales tridimensionales utilizando la tetraedrización de Delaunay .
 * [Módulo Ortofoto](../modulo-ortofoto/): Permite el cálculo de ortofotografías rectificadas a partir de un modelo digital del terreno e imágenes georreferenciadas en proyección cónica. Se incluyen herramientas para el cálculo de líneas de unión automáticas entre ortofotos vecinos, así como la generación de mosaicos de hojas.
 * [Módulo MMS](../modulo-mms/): Permite la gestión y tratamiento de archivos láser registrados con sistemas Mobile Mapping. Estos sistemas disponen de sensores que permiten registrar densas nubes de puntos para el cartografiado de vías de carretera o ferrocarril. Las herramientas están basadas en diferentes algoritmos para la clasificación de los puntos y la extracción de elementos particulares de cada vía.
-* [Módulo MMI](../modulo-mmi.md):
-* [Módulo Edificación](../modulo-edificios.md):
+* [Módulo MMI](../modulo-mmi/):
+* [Módulo Edificación](../modulo-edificios/):
 * [Módulo ScanStation](../modulo-scanstation.md):
 
 En esta ayuda dispone de un listado de [ejemplos](../ejemplos/) de las aplicaciones que se pueden realizar con MDTopX.

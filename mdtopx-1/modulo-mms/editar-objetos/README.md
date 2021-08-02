@@ -1,3 +1,7 @@
+---
+description: Editar objetos MMS
+---
+
 # Editar objetos
 
 [Ficha de herramientas MMS](../../fichas-de-herramientas/ficha-de-herramientas-mms.md)
