@@ -35,9 +35,7 @@ Vea también:
 * [Buscar puntos según infrarrojo](buscar-puntos-segun-infrarrojo.md)
 * [Buscar huecos](buscar-huecos.md)
 * [Buscar puntos según Área de superficie](buscar-puntos-segun-area.md)
-* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md) 
+* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)
 
-{% hint style="info" %}
-Para ver un ejemplo, visite la página: [https://youtu.be/qm8dz4AmSRQ](https://youtu.be/qm8dz4AmSRQ)
-{% endhint %}
+{% embed url="https://youtu.be/qm8dz4AmSRQ" caption="Buscar edificios en un archivo LiDAR" %}
 

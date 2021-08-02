@@ -29,7 +29,7 @@ A parte del cálculo y aprovechamiento de modelos digitales el programa dispone 
 * [Módulo MMS](../modulo-mms/): Permite la gestión y tratamiento de archivos láser registrados con sistemas Mobile Mapping. Estos sistemas disponen de sensores que permiten registrar densas nubes de puntos para el cartografiado de vías de carretera o ferrocarril. Las herramientas están basadas en diferentes algoritmos para la clasificación de los puntos y la extracción de elementos particulares de cada vía.
 * [Módulo MMI](../modulo-mmi/):
 * [Módulo Edificación](../modulo-edificios/):
-* [Módulo ScanStation](../modulo-scanstation.md):
+* [Módulo ScanStation](../modulo-scanstation/):
 
 En esta ayuda dispone de un listado de [ejemplos](../ejemplos/) de las aplicaciones que se pueden realizar con MDTopX.
 
