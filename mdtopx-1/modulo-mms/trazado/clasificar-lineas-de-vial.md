@@ -19,5 +19,7 @@ El cuadro de diálogo necesita los siguientes datos:
 * Máxima distancia entre puntos: Se indicará la distancia máxima entre dos puntos para ser considerados vecinos en el espacio.
 * Mínimo valor de intensidad: Valor mínimo de intensidad que deberá tener un punto para ser considerado perteneciente a una señal horizontal sobre el asfalto.
 
-{% embed url="https://youtu.be/vWYrTWfFrps" caption="Detección de asfalto en un vial a partir de datos MMS" %}
+{% hint style="info" %}
+Para ver un ejemplo, visite la página: [https://youtu.be/vWYrTWfFrps](https://youtu.be/vWYrTWfFrps)
+{% endhint %}
 
