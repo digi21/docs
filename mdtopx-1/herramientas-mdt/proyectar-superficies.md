@@ -25,7 +25,5 @@ Al ejecutar el comando aparece un cuadro de diálogo con los siguientes campos:
 * **Listado de centroides**: Relación entre el valor del centroide y la altura respecto del MDT. Por ejemplo, para el caso del catastro español, cada planta de un edificio se representa con un número romano. En el caso del catastro español, no se considerarán los valores de centroide de alturas bajo rasante \(que empiezan por el signo menos\) o superficies añadidas \(que se representan por un signo más, como terrazas o balcones\).
 * **Nuevo centroide**: Además de los valores incluidos por defecto, se da la posibilidad de incluir, modificar o borrar valores existentes. Para ello se deberá indicar el valor del nuevo centroide y el número de metros de altura sobre el MDT que representa.
 
-{% hint style="info" %}
-Para ver un ejemplo, visite la página: [https://youtu.be/J33Mxf5fAAA](https://youtu.be/J33Mxf5fAAA)
-{% endhint %}
+{% embed url="https://youtu.be/J33Mxf5fAAA" caption="Proyectar superficies sobre modelo digital" %}
 

@@ -6,13 +6,9 @@ El módulo MMS tiene como objetivo la gestión y tratamiento de archivos procede
 
 Las herramientas de este módulo están dispuestas en la cinta de [Herramientas MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md).
 
-{% hint style="info" %}
-Para ver un ejemplo de la gestión de una nube procedente de un dispositivo MMS, visite la página: [https://youtu.be/EppZkcVY1MM](https://youtu.be/EppZkcVY1MM)
-{% endhint %}
+{% embed url="https://youtu.be/EppZkcVY1MM" caption="Gestión de nube de puntos registrada con sensor MMS" %}
 
-{% hint style="info" %}
-Para ver un ejemplo de la gestión de una nube procedente de un dispositivo [Leica Pegasus Backpack](https://leica-geosystems.com/es-es/products/mobile-sensor-platforms/capture-platforms/leica-pegasus-backpack), visite la página: [https://youtu.be/6pgNWc6ZQhI](https://youtu.be/6pgNWc6ZQhI)
-{% endhint %}
+{% embed url="https://youtu.be/6pgNWc6ZQhI" caption="Gestión de nube de puntos de sensor Leica Pegasus Backpack" %}
 
 
 
