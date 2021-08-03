@@ -17,18 +17,33 @@ Si la orientación de la imagen es ortogonal, se muestra un cuadro de diálogo c
 Si la orientación de la imagen es cónica, se muestra un cuadro de diálogo con los siguientes parámetros:
 
 * Orientación interna:
-* Focal: Distancia principal en milímetros.
-* Tamaño Píxel: Tamaño del píxel en micras.
-* X Punto Principal: Posición X del punto principal en milímetros.
-* Y Punto Principal: Posición Y del punto principal en milímetros.
+  * **Focal**: Distancia principal en milímetros.
+  * **Tamaño Píxel**: Tamaño del píxel en micras.
+  * **X Punto Principal**: Posición X del punto principal en milímetros.
+  * **Y Punto Principal**: Posición Y del punto principal en milímetros.
 * Orientación externa:
-* Omega: Ángulo en torno al eje X, en grados sexagesimales.
-* Phi: Ángulo en torno al eje Y, en grados sexagesimales.
-* Kappa: Ángulo en torno al eje Z, en grados sexagesimales.
-* X Centro Proyección: Coordenada X del centro de proyección en coordenadas terreno.
-* Y Centro Proyección: Coordenada Y del centro de proyección en coordenadas terreno.
-* Z Centro Proyección: Coordenada Z del centro de proyección en coordenadas terreno.
-* Altura media terreno: Altitud media del terreno en coordenadas terreno.
+  * **Omega**: Ángulo en torno al eje X, en grados sexagesimales.
+  * **Phi**: Ángulo en torno al eje Y, en grados sexagesimales.
+  * **Kappa**: Ángulo en torno al eje Z, en grados sexagesimales.
+  * **X Centro Proyección**: Coordenada X del centro de proyección en coordenadas terreno.
+  * **Y Centro Proyección**: Coordenada Y del centro de proyección en coordenadas terreno.
+  * **Z Centro Proyección**: Coordenada Z del centro de proyección en coordenadas terreno.
+* **Altura media terreno**: Altitud media del terreno en coordenadas terreno.
+
+Si la imagen es 360º, se muestra un cuadro de diálogo con los siguientes parámetros:
+
+* Orientación interna:
+  * **X Punto Principal**: Posición X del punto principal en milímetros.
+  * **Y Punto Principal**: Posición Y del punto principal en milímetros.
+* Orientación externa:
+  * **Omega**: Ángulo en torno al eje X, en grados sexagesimales.
+  * **Phi**: Ángulo en torno al eje Y, en grados sexagesimales.
+  * **Kappa**: Ángulo en torno al eje Z, en grados sexagesimales.
+  * **X Centro Proyección**: Coordenada X del centro de proyección en coordenadas terreno.
+  * **Y Centro Proyección**: Coordenada Y del centro de proyección en coordenadas terreno.
+  * **Z Centro Proyección**: Coordenada Z del centro de proyección en coordenadas terreno.
+
+![Ejemplo de orientaci&#xF3;n de una imagen 360&#xBA;](../../.gitbook/assets/image%20%283%29.png)
 
 Vea también:
 
