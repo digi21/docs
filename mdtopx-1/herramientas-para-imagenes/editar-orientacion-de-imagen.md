@@ -43,7 +43,7 @@ Si la imagen es 360º, se muestra un cuadro de diálogo con los siguientes pará
   * **Y Centro Proyección**: Coordenada Y del centro de proyección en coordenadas terreno.
   * **Z Centro Proyección**: Coordenada Z del centro de proyección en coordenadas terreno.
 
-![Ejemplo de orientaci&#xF3;n de una imagen 360&#xBA;](../../.gitbook/assets/image%20%283%29.png)
+![Ejemplo de orientaci&#xF3;n de una imagen 360&#xBA;](../../.gitbook/assets/image%20%284%29.png)
 
 Vea también:
 
