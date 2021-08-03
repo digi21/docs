@@ -48,4 +48,5 @@ Si la imagen es 360º, se muestra un cuadro de diálogo con los siguientes pará
 Vea también:
 
 * [Orientar midiendo puntos](orientacion-midiendo-puntos.md)
+* [Editar orientación de imágenes desde archivo](editar-orientacion-de-imagenes-desde-archivo.md)
 

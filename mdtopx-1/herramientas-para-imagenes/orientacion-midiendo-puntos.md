@@ -25,4 +25,5 @@ Utilizando los botones de la barra de herramientas en la parte superior del pane
 Vea también:
 
 * [Editar Orientación](editar-orientacion-de-imagen.md)
+* [Editar orientación de imágenes desde archivo](editar-orientacion-de-imagenes-desde-archivo.md)
 

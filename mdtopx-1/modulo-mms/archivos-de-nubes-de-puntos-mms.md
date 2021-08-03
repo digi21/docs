@@ -1,5 +1,7 @@
 # Archivos de nubes de puntos MMS
 
+[Módulo MMS](./)
+
 Los archivos de nubes de puntos MMS estarán compuestos por puntos georreferenciados con una cantidad que podría ser de 10, 20 o 30 millones. Menos podría ser contraproducente por abarcar poco modelo de la realidad; y más, podría retardar los cálculos que posteriormente se realizarán sobre cada uno de ellos.
 
 El formato de entrada puede ser variable en función de la aplicación que realizó su cálculo, pero suelen ser: LAS, LAZ, E57, PTX o PTS.
