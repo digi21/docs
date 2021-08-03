@@ -2,7 +2,7 @@
 
 Sigue las siguientes instrucciones si ya dispones de una llave de protección _Hasp HL_ y aún no la has actualizado para utilizar versiones de nuestros programas publicados con fecha posterior a **1 de octubre de 2014**:  
   
-Una vez finalizados los siguientes pasos tendrás instalado el controlador de protección y habremos introducido en tu llave de protección los parámetros necesarios para poder ejecutar programas publicados con fecha posterior a 1 de octubre de 2014._._
+Una vez finalizados los siguientes pasos tendrás instalado el controlador de protección y habremos introducido en tu llave de protección los parámetros necesarios para poder ejecutar programas publicados con fecha posterior a 1 de octubre de 2014.
 
 Este proceso no elimina información de tu llave, de modo que si en ésta tienes una licencia de Digi3D 2007 por ejemplo, seguirás teniéndola. No se va a modificar nada referente a versiones anteriores, únicamente vamos a preparar la llave de protección para utilizarla con aplicaciones publicadas con fecha posterior a 1 de octubre de 2014.  
 

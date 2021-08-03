@@ -8,6 +8,6 @@ En esta ficha de herramientas aparecen los comandos relacionados con los documen
 
 Estos comandos aparecen agrupados según los siguientes epígrafes:
 
-* [Límites](limites-proyecto.md)
-* [Editar](editar-proyecto.md)
+* \*\*\*\*[**Límites**](limites-proyecto.md)\*\*\*\*
+* \*\*\*\*[**Editar**](editar-proyecto.md)\*\*\*\*
 

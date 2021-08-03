@@ -8,11 +8,11 @@ En esta barra de herramientas aparecen comandos asociados con la edición del mo
 
 Estos comandos aparecen agrupados según los siguientes epígrafes:
 
-* [Vista](vista-tin.md)
-* [Actualizar](actualizar-tin.md)
-* [Borrar triángulos](borrar-triangulos-del-tin.md)
-* [Borra vértices](borra-vertices-del-tin.md)
-* [Insertar elementos](insertar-elementos-en-el-tin.md)
-* [Generar](generar-a-partir-del-tin.md)
-* [Objetos MDT](objetos-mdt.md)
+* \*\*\*\*[**Vista**](vista-tin.md)\*\*\*\*
+* \*\*\*\*[**Actualizar**](actualizar-tin.md)\*\*\*\*
+* \*\*\*\*[**Borrar triángulos**](borrar-triangulos-del-tin.md)\*\*\*\*
+* \*\*\*\*[**Borra vértices**](borra-vertices-del-tin.md)\*\*\*\*
+* \*\*\*\*[**Insertar elementos**](insertar-elementos-en-el-tin.md)\*\*\*\*
+* \*\*\*\*[**Generar**](generar-a-partir-del-tin.md)\*\*\*\*
+* \*\*\*\*[**Objetos MDT**](objetos-mdt.md)\*\*\*\*
 
