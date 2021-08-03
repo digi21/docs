@@ -8,7 +8,7 @@ description: Cuadro de diálogo Preprocesar
 
 Herramienta destinada a procesar un archivo LiDAR, sin necesidad de ser abierto o visualizado. Ofrece la posibilidad de cambiar coordenadas o subdividir el archivo en trozos. Esta última opción es muy útil para tratar archivos de grandes dimensiones.
 
-![Cuadro de di&#xE1;logo Preprocesamiento de datos LiDAR](../../../.gitbook/assets/image%20%283%29.png)
+![Cuadro de di&#xE1;logo Preprocesamiento de datos LiDAR](../../../.gitbook/assets/image%20%284%29.png)
 
 Los parámetros que precisa son los siguientes:
 

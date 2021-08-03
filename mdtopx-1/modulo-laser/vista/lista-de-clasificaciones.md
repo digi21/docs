@@ -30,7 +30,7 @@ Inicialmente, toda la nube vendrá con clasificación 0.
 
 Obviamente, se podrían clasificar puntos manualmente, seleccionando en pantalla y modificándolos, pero esto no tiene sentido en proyectos de miles de millones puntos.
 
-![Cuadro de di&#xE1;logo Lista de clasificaciones](../../../.gitbook/assets/image%20%285%29.png)
+![Cuadro de di&#xE1;logo Lista de clasificaciones](../../../.gitbook/assets/image%20%289%29.png)
 
 En este cuadro de diálogo aparecen las clasificaciones que el programa utilizará para pintar los puntos LiDAR en pantalla.
 

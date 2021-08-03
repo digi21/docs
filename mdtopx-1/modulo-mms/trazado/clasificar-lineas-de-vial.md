@@ -13,6 +13,8 @@ El resultado de esta herramienta será:
 * Clasificación del documento original de los puntos pertenecientes al asfalto mediante el tipo 35 y los puntos pertenecientes a las marcas viales.
 * Generación de un nuevo documento de geometría vectorial con los límites del asfalto, que representará la plataforma, y de las marcas viales horizontales.
 
+![Cuadro de di&#xE1;logo para clasificar asfalto y marcas viales](../../../.gitbook/assets/image%20%2821%29.png)
+
 El cuadro de diálogo necesita los siguientes datos:
 
 * Punto de registro: Se deberán seleccionar los puntos de registro que se utilizarán en el cálculo.

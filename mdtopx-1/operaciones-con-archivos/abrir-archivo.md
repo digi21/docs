@@ -17,7 +17,7 @@ En función del tipo de archivo a abrir se creará un tipo de documento u otro.
 
 Los tipos de archivos contemplados en función del documento que se abrirá son:
 
-* **Archivo de proyecto**:
+* \*\*\*\*[**Archivo de proyecto**](proyectos-de-mdtopx.md):
   * MDTX: Archivos propios de proyecto de MDTopX
 * **Modelo digital del terreno**:
   * MDT: Archivos propios de MDTop que contienen un modelo digital del terreno de tipo TIN.
