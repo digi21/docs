@@ -1390,6 +1390,7 @@
       * [Editar un trazado](mdtopx-1/modulo-viales/trazado/editar-un-trazado.md)
       * [Insertar elemento curvo](mdtopx-1/modulo-viales/trazado/insertar-elemento-curvo.md)
       * [Glorietas](mdtopx-1/modulo-viales/trazado/glorietas.md)
+      * [Buscar geometría](mdtopx-1/modulo-viales/trazado/buscar-geometria.md)
     * [Alzado](mdtopx-1/modulo-viales/alzado/README.md)
       * [Calcular alzado nuevo](mdtopx-1/modulo-viales/alzado/calcular-alzado-nuevo/README.md)
         * [Ajustar a límites del trazado](mdtopx-1/modulo-viales/alzado/calcular-alzado-nuevo/ajustar-a-limites-del-trazado.md)

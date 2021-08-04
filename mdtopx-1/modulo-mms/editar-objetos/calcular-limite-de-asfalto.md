@@ -12,7 +12,7 @@ Después de ser ejecutada, se muestran los límites de asfalto.
 
 En el cuadro de diálogo, se podría indicar si se quieren extraer los límites de asfalto a partir de los puntos clasificados como asfalto y/o marcas viales que se podrán editar a continuación. Esta herramienta generará unos límites que quedan almacenados en memoria y ser editados pintando en pantalla un nuevo segmento de límite con el botón izquierdo del ratón y finalizando con el botón derecho.
 
-![Cuadro de di&#xE1;logo Calcular l&#xED;mite de asfalto](../../../.gitbook/assets/image%20%2828%29.png)
+![Cuadro de di&#xE1;logo Calcular l&#xED;mite de asfalto](../../../.gitbook/assets/image%20%2829%29.png)
 
 Los parámetros de este cuadro de diálogo son los siguientes:‌
 
