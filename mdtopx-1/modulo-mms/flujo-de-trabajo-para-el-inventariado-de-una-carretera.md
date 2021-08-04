@@ -61,17 +61,9 @@ Una vez detectado el suelo, se está en disposición de buscar los siguientes el
 
 La detección de estos tres tipos puede ser realizada en pasos diferentes o en un mismo cálculo, en función de lo que se indique en el [cuadro de diálogo](trazado/clasificar-lineas-de-vial.md). El primer caso, puede ser adecuado si se quiere editar el cálculo realizado por el programa, ya que la detección de la señalización horizontal dependerá de una buena detección del asfalto. Podría ser recomendable para aquellos viales que tienen un asfalto irregular o un trazado sinuoso que puede dificultar al programa a su óptima detección. En el caso de carreteras bien señalizadas, no sería necesario.
 
-#### Edición de asfalto
-
 Después de realizar la clasificación automática anterior, es posible que se generen zonas con resultados no deseados, que se desearían editar de forma asistida.
 
-Para ello, MDTopX dispone de una herramienta que permite realizar la edición de forma rápida y cómoda. Para ello, se debería calcular previamente el límite del asfalto a partir de los puntos ya clasificados. Esta herramienta muestra el siguiente cuadro de diálogo:
+Para ello, MDTopX dispone de una [herramienta ](editar-objetos/calcular-limite-de-asfalto.md)que permite realizar la edición de forma rápida y cómoda. Para ello, se debería calcular previamente el límite del asfalto a partir de los puntos ya clasificados.
 
-En él, se podría indicar si se quieren extraer los límites de asfalto a partir de los puntos clasificados como asfalto y/o marcas viales que se podrán editar a continuación. Esta herramienta generará unos límites que quedan almacenados en memoria y se editados pintando en pantalla un nuevo segmento de límite con el botón izquierdo del ratón y finalizando con el botón derecho.
-
-#### Edición de línea blanca
-
-Al igual que la herramienta anterior, se dispone de otra herramienta que permite editar los puntos clasificados como señalización horizontal. Al pulsar sobre el icono correspondiente, se muestra el siguiente cuadro de diálogo:
-
-Una vez terminado el cálculo, se muestran los límites de señalización horizontal detectados y los posibles, a partir de la intensidad. Señalando con una línea en pantalla \(introducida con el botón izquierdo del ratón\), se pueden cambiar las tipologías de cada una de estas superficies. Es decir, seleccionando límites detectados \(erróneamente\) se pueden cambiar la clasificación de sus puntos a solo asfalto. Asimismo, seleccionando límites no detectados, se podría cambar la clasificación de los puntos a señalización horizontal.
+Al igual que la herramienta anterior, se dispone de otra [herramienta ](editar-objetos/calcular-lineas-de-vial.md)que permite editar los puntos clasificados como señalización horizontal. 
 

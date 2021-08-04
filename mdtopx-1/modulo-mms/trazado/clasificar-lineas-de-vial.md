@@ -43,3 +43,8 @@ El cuadro de diálogo necesita los siguientes datos:
 
 {% embed url="https://youtu.be/vWYrTWfFrps" caption="Detección de asfalto en un vial a partir de datos MMS" %}
 
+Vea también:‌
+
+* [Calcular líneas de asfalto](../editar-objetos/calcular-limite-de-asfalto.md)
+* [Calcular líneas de vial](../editar-objetos/calcular-lineas-de-vial.md)
+
