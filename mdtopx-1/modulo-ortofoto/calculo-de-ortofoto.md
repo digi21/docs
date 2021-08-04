@@ -24,4 +24,6 @@ Los parámetros y campos que se muestran son los siguientes:
 Vea también:
 
 * [Editar Orientación](../herramientas-para-imagenes/editar-orientacion-de-imagen.md)
+* [Cálculo de Líneas de unión](lineas-de-union.md)
+* [Cálculo de Mosaico](mosaico-ortos.md)
 

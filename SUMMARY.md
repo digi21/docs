@@ -1502,6 +1502,8 @@
     * [Archivos de nubes de puntos MMS](mdtopx-1/modulo-mms/archivos-de-nubes-de-puntos-mms.md)
     * [Archivos de imagen 360 MMS](mdtopx-1/modulo-mms/archivos-de-imagen-360-mms.md)
     * [Gestión de imágenes 360](mdtopx-1/modulo-mms/gestion-de-imagenes-360.md)
+    * [Flujo de trabajo para el inventariado de una carretera](mdtopx-1/modulo-mms/flujo-de-trabajo-para-el-inventariado-de-una-carretera.md)
+    * [Flujo de trabajo para el inventario de una línea férrea](mdtopx-1/modulo-mms/flujo-de-trabajo-para-el-inventario-de-una-linea-ferrea.md)
     * [General](mdtopx-1/modulo-mms/general/README.md)
       * [Transforma nubes de puntos MMS](mdtopx-1/modulo-mms/general/transforma-nubes-de-puntos-mms.md)
       * [Límites de objetos](mdtopx-1/modulo-mms/general/limites-de-objetos.md)

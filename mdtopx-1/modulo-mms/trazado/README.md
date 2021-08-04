@@ -14,6 +14,6 @@ Las herramientas asociadas con las nubes tomados en carreteras del [módulo MMS]
 * \*\*\*\*[**Inventario carreteras**](buscar-objetos-en-el-trazado.md): Herramienta para la búsqueda de objetos en el vial o cercanos a él.
 * \*\*\*\*[**BBDD MMS**](base-de-datos-mms.md)\*\*\*\*
 * \*\*\*\*[**Visibilidad**](visibilidad.md)\*\*\*\*
-* \*\*\*\*[**Buffer**](buffer-en-datos-mms.md)\*\*\*\*
+* \*\*\*\*[**Buffer**](buffer-en-datos-mms.md): Herramienta para eliminar puntos alejados de la zona de interés
 * \*\*\*\*[**Guardarraíl**](guardarrail.md)\*\*\*\*
 

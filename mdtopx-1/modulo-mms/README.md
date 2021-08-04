@@ -23,5 +23,8 @@ No obstante, se recomienda crear un proyecto donde incluir las nubes de puntos y
 
 De esta forma, cuando se ejecuten ciertas herramientas, podrán ser realizadas en modo por lotes, procesando los archivos seleccionados. Además, tiene la ventaja de dar continuidad a los cálculos realizados. Por último, cuando se estén utilizando los archivos para calcular, éstos no se visualizarán en pantalla, rebajando la necesidad de memoria en el equipo.
 
-Por otro lado, cuando se calculan las nubes de puntos registradas, podríamos tener archivos que contuvieran la totalidad de los datos, pudiendo ocupar decenas o centenas de Gb. Esto no es operativo ni para gestionar ni para visualizar. Dado el caso, se debería realizar una división en diversos archivos, indicando la cantidad máximo de datos o el espacio que ocupan. Para esta eventualidad, se puede utilizar la herramienta [Preprocesar Láser](../modulo-laser/vista/preprocesar.md) de la barra de herramientas [Archivos LiDAR](../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/).
+En los siguientes enlaces se desarrollan los pasos a abordar en cada trabajo específico:
+
+* [Flujo de trabajo para el inventariado de una carretera](flujo-de-trabajo-para-el-inventariado-de-una-carretera.md)
+* [Flujo de trabajo para el inventariado de una línea férrea](flujo-de-trabajo-para-el-inventario-de-una-linea-ferrea.md)
 
