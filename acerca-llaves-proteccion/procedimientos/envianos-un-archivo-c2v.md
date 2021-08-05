@@ -2,7 +2,7 @@
 
 Los archivos **C**lient**2V**endor contienen el estado de tu llave de protección y es lo que necesitamos para poder hacer modificaciones remotamente.
 
-Cuando hagamos la modificación en tu llave, te enviaremos un archivo **V**endor**2C**lient con el que podrás actualizar tu llave de protección tal y como se explica en [Recibido archivo C2V](untitled.md).
+Cuando hagamos la modificación en tu llave, te enviaremos un archivo **V**endor**2C**lient con el que podrás actualizar tu llave de protección tal y como se explica en [Recibido archivo C2V](recibido-archivo-v2c.md).
 
 Para generar un archivo C2V necesitamos que sigas los siguientes pasos **en la máquina donde esté ubicada la llave**, es decir, si la llave está en un servidor, tendrás que hacer \(o el administrador del sistema\) este procedimiento con una sesión de escritorio remoto en dicho servidor, si la llave la tienes en local, podrás hacerlo en tu propia máquina:
 

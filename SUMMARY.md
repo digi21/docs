@@ -1684,7 +1684,7 @@
     * [Elimina activaciones y alquileres](acerca-llaves-proteccion/programas-relacionados-con-licencias-y-llaves-de-proteccion/elimina-activaciones-alquileres/README.md)
       * [Comprimir llave](acerca-llaves-proteccion/programas-relacionados-con-licencias-y-llaves-de-proteccion/elimina-activaciones-alquileres/comprimir-llave.md)
   * [Procedimientos](acerca-llaves-proteccion/procedimientos/README.md)
-    * [Recibido archivo V2C](acerca-llaves-proteccion/procedimientos/untitled.md)
+    * [Recibido archivo V2C](acerca-llaves-proteccion/procedimientos/recibido-archivo-v2c.md)
     * [Envíanos un archivo C2V](acerca-llaves-proteccion/procedimientos/envianos-un-archivo-c2v.md)
   * [Solución de problemas](acerca-llaves-proteccion/solucion-de-problemas/README.md)
     * [Ordenador no activado](acerca-llaves-proteccion/solucion-de-problemas/ordenador-no-activado.md)

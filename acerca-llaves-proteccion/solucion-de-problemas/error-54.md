@@ -1,6 +1,6 @@
 # Error 54
 
-Si nos has enviado un archivo .v2c y aparece el siguiente error al pulsar el botón _Apply File_ del paso 5 del enlace correspondiente a [Recibido archivo V2C](../procedimientos/untitled.md):
+Si nos has enviado un archivo .v2c y aparece el siguiente error al pulsar el botón _Apply File_ del paso 5 del enlace correspondiente a [Recibido archivo V2C](../procedimientos/recibido-archivo-v2c.md):
 
 **Error 54**: Intentando instalar un archivo .v2c con un contador de actualización que está fuera de secuencia con el contador de actualización de la clave de protección sentinel. El valor del contador de actualización en el archivo .v2c es menor que el valor de la clave de protección del sentinel.
 
