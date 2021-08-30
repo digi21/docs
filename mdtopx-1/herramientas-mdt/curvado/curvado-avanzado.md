@@ -1,8 +1,10 @@
 ---
-description: Cuadro de diálogo Curvado Avanzado
+description: Cuadro de diálogo Opciones de generalización
 ---
 
-# Curvado Avanzado
+# Opciones de generalización
+
+![Cuadro de di&#xE1;logo Opciones de generalizaci&#xF3;n](../../../.gitbook/assets/image%20%2845%29.png)
 
 En este cuadro de diálogo se pueden indicar valores diferentes de generalización que las recomendadas según la escala de curvado. Aquí aparecen los siguientes campos a rellenar:
 

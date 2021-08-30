@@ -6,6 +6,8 @@ description: Cuadro de diálogo Sombreado
 
 [Sombreado](../../como.../como-sombreado.md)
 
+![Cuadro de di&#xE1;logo Sombreado](../../../.gitbook/assets/image%20%2838%29.png)
+
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
 * **Tamaño del píxel**: Tamaño en metros de los píxeles que formarán el mapa ráster con el sombreado. Cuanto más grande sea el tamaño del píxel peor calidad de imagen se obtendrá, aunque no es recomendable dar un tamaño demasiado pequeño por el aumento de espacio necesario en memoria y disco para el archivo.

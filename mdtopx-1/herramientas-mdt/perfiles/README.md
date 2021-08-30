@@ -6,6 +6,8 @@ description: Cuadro de diálogo Perfiles
 
 [Perfiles](../../como.../como-perfiles.md)
 
+![Cuadro de di&#xE1;logo Perfiles](../../../.gitbook/assets/image%20%2854%29.png)
+
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
 * **Fichero con perfiles**: Fichero de dibujo que contiene los perfiles que se han de proyectar. El formato de este fichero puede ser BIN de DIGI, DXF de AutoCad, DGN de MicroStation o un fichero ASCII con las coordenadas que forman los perfiles. Podrán estar almacenados varios perfiles, excepto en el caso del fichero de formato ASCII en el que sólo se leerá uno.

@@ -6,6 +6,8 @@ description: Cuadro de diálogo Triangulación
 
 [Triangulación](../como.../como-triangulacion.md)
 
+![Cuadro de di&#xE1;logo Triangulaci&#xF3;n](../../.gitbook/assets/image%20%2846%29.png)
+
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
 * **Rango de cota**: Se reseñará una cota mínima y una cota máxima, de tal forma, que se podrán discriminar aquellas entidades que no formarán parte del modelo digital final.

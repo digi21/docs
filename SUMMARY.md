@@ -1304,7 +1304,7 @@
   * [Herramientas MDT](mdtopx-1/herramientas-mdt/README.md)
     * [Triangulación](mdtopx-1/herramientas-mdt/triangulacion.md)
     * [Curvado](mdtopx-1/herramientas-mdt/curvado/README.md)
-      * [Curvado Avanzado](mdtopx-1/herramientas-mdt/curvado/curvado-avanzado.md)
+      * [Opciones de generalización](mdtopx-1/herramientas-mdt/curvado/curvado-avanzado.md)
       * [Códigos de Curvado](mdtopx-1/herramientas-mdt/curvado/codigos-de-curvado.md)
     * [Perfiles](mdtopx-1/herramientas-mdt/perfiles/README.md)
       * [Guitarra](mdtopx-1/herramientas-mdt/perfiles/guitarra.md)

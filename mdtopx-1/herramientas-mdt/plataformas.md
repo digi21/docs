@@ -6,6 +6,8 @@ description: Cuadro de diálogo Plataformas
 
 [Plataformas](../como.../como-plataformas.md)
 
+![Cuadro de di&#xE1;logo Plataformas](../../.gitbook/assets/image%20%2842%29.png)
+
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
 * **Fichero con plataforma**: Fichero de dibujo que deberá contener las entidades que definen las posibles plataformas. Estas entidades deberán estar necesariamente cerradas, es decir, entidad es cuyo primer y último punto deberán coincidir. Obviamente, las entidades tendrán que estar ubicadas en la misma zona que el documento actual, es decir, debe haber zona común entre ambos. Además, deberán tener cota sus vértices, ya que dicha cota definirá la pendiente y altitud de las plataformas. A la derecha del campo se encuentra el botón \[...\], con el que el usuario podrá buscar el archivo utilizando el explorador de Windows.
