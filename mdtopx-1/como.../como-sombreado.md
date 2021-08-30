@@ -19,5 +19,7 @@ La llamada a esta herramienta se puede hacer de las siguientes formas:
 
 Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/sombreado/) para indicar las opciones del mapa de sombreado. Si el botón Aceptar es pulsado, el programa calculará el sombreado del MDT. Este documento se podrá salvar posteriormente en formato TIF, BMP o JPEG. Cuando sea salvado, se generarán simultáneamente un archivo ASCII con el mismo nombre y extensión ORT, con la georreferenciación del sombreado. Este archivo contiene las coordenadas de la esquina superior izquierda y el tamaño del píxel en metros.
 
+{% hint style="info" %}
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-sombreado.md).
+{% endhint %}
 

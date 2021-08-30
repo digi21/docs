@@ -11,5 +11,7 @@ La llamada a esta herramienta se puede hacer de las siguientes formas:
 
 Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo ](como-comprobar-mdt.md)para indicar las opciones de la comprobación. Esta herramienta no genera ningún documento pero sí generará un archivo de dibujo con los errores encontrados.
 
+{% hint style="info" %}
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-comprobar-mdt.md).
+{% endhint %}
 

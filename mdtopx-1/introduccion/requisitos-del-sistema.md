@@ -12,5 +12,5 @@ Para instalar y empezar a utilizar MDTopX, es necesario el siguiente hardware y 
 * Un puerto USB para conectar la llave de protección, si esta en hardware.
 * Un ratón, con tres botones.
 * Opcionalmente, se puede disponer de un dispositivo de movimiento con 6 grados de libertad, como es el modelo [SpaceMouse \(R\)](https://3dconnexion.com/es/spacemouse/). Con estos dispositivos no sólo se podrá trasladar según las tres coordenadas, sino que podrá girar en relación a los tres ejes.
-* Recomendado conexión a internet, para descargar versiones nuevas.
+* Recomendado conexión a internet, para descargar versiones nuevas y el acceso a la ayuda.
 

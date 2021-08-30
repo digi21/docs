@@ -13,12 +13,13 @@ La llamada a esta herramienta se puede hacer de las siguientes formas:
 * Pulsar el botón  Curvado de la ficha de [Herramientas MDT](../fichas-de-herramientas/ficha-de-herramientas-mdt/).
 * Pulsar la combinación de teclas \[CTRL\] + \[C\].
 
-Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo ](../herramientas-mdt/curvado/)para indicar las opciones de curvado. Si el botón Aceptar es pulsado, el programa calculará el curvado, generando un nuevo documento que se mostrará en pantalla. Este documento se podrá salvar posteriormente en formato DIGI, DXF o DGN.
+Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo ](../herramientas-mdt/curvado/)para indicar las opciones de curvado. Si el botón Aceptar es pulsado, el programa calculará el curvado, generando un nuevo documento que se mostrará en pantalla. Este documento se podrá salvar posteriormente en formato DIGI, DXF, DGN o Shape.
 
+{% hint style="info" %}
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-curvado.md).
+{% endhint %}
 
-Si lo desea, puede consultar cómo curvar un archivo en los siguientes ejemplos:
-
-* [Ejemplo 1: Curvado a partir de una nube de puntos](../ejemplos/ejemplo1.md)
-* [Ejemplo 5: Curvado a partir de otro curvado](../ejemplos/ejemplo5.md)
+{% hint style="info" %}
+Si lo desea, puede consultar cómo curvar un archivo en los siguientes ejemplos: [Ejemplo 1: Curvado a partir de una nube de puntos](../ejemplos/ejemplo1.md) y [Ejemplo 5: Curvado a partir de otro curvado](../ejemplos/ejemplo5.md)
+{% endhint %}
 

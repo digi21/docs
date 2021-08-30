@@ -1201,7 +1201,7 @@
     * [Requisitos del sistema](mdtopx-1/introduccion/requisitos-del-sistema.md)
     * [Instalación y desinstalación](mdtopx-1/introduccion/instalacion-y-desinstalacion/README.md)
       * [Instalación del programa](mdtopx-1/introduccion/instalacion-y-desinstalacion/instalacion-del-programa.md)
-      * [Instalación de los drivers de la llave de protección](mdtopx-1/introduccion/instalacion-y-desinstalacion/instalacion-de-los-driver.md)
+      * [Instalación de la suite de licencias](mdtopx-1/introduccion/instalacion-y-desinstalacion/instalacion-de-los-driver.md)
       * [Inicio del programa](mdtopx-1/introduccion/instalacion-y-desinstalacion/inicio-del-programa.md)
       * [Descarga de actualizaciones](mdtopx-1/introduccion/instalacion-y-desinstalacion/descarga-de-actualizaciones.md)
       * [Desinstalación](mdtopx-1/introduccion/instalacion-y-desinstalacion/desinstalacion.md)

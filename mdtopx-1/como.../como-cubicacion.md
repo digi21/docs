@@ -26,7 +26,11 @@ Por otro lado, esta vista coloreada del documento calculado podrá ser salvada, 
 * Si se decide Trazar perfiles, se generarán otros dos documentos, con formato de fichero de dibujo, con los perfiles proyectados sobre ambos modelos digitales en planta y en alzado
 * Si se decide tener un Fichero con informe, se generará un archivo en formato ASCII, con los resultados de la cubicación de todos los prismas generados, así como los resultados totales.
 
+{% hint style="info" %}
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-cubicacion.md).
+{% endhint %}
 
+{% hint style="info" %}
 Si lo desea, puede consultar cómo calcular una cubicación en el [Ejemplo 3: Cálculo de un movimiento de tierras](../ejemplos/ejemplo3.md)
+{% endhint %}
 

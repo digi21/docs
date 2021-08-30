@@ -22,8 +22,8 @@ El usuario puede cambiar el aspecto del programa seleccionando el estilo deseado
 
 A la derecha del menú Estilo, se encuentra el menú de la Ayuda representado por el icono ![](../../.gitbook/assets/icono-ayuda.jpg). Este menú tiene las opciones para mostrar la ayuda del programa:
 
-* Temas de ayuda: Muestra la ayuda del programa. Si se pulsa un elemento mostrará información acerca de éste. Si se pulsa sobre un lugar cualquiera de la pantalla mostrará información general del programa. También se puede visualizar pulsando la tecla F1.
-* Acerca de MDTopX: Muestra información acerca de la versión de MDTopX. Se podrá ver cuándo fue compilada la versión que se tiene instalada y la fecha hasta la cual se tiene Servicio Técnico y de actualizaciones disponible. Pasada esta fecha, no se deberán instalar versiones más modernas del programa, puesto que no funcionarán con la licencia actual. Además, se dispone de un botón para comprobar si existen versiones más modernas en el servidor de Digi21.
+* **Temas de ayuda**: Muestra la ayuda del programa. Si se pulsa un elemento mostrará información acerca de éste. Si se pulsa sobre un lugar cualquiera de la pantalla mostrará información general del programa. También se puede visualizar pulsando la tecla F1.
+* **Acerca de MDTopX**: Muestra información acerca de la versión de MDTopX. Se podrá ver cuándo fue compilada la versión que se tiene instalada y la fecha hasta la cual se tiene Servicio Técnico y de actualizaciones disponible. Pasada esta fecha, no se deberán instalar versiones más modernas del programa, puesto que no funcionarán con la licencia actual. Además, se dispone de un botón para comprobar si existen versiones más modernas en el servidor de Digi21.
 
  Vea también:
 

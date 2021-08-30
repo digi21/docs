@@ -13,7 +13,11 @@ Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo ](../herramienta
 
 El mapa de tintas hipsométricas sólo podrá ser generado a partir de un modelo digital del terreno, por tanto, para poder llamar a esta herramienta se deberá tener activo un documento con un modelo digital.
 
+{% hint style="info" %}
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-mapa-de-tintas-hipsometricas.md).
+{% endhint %}
 
+{% hint style="info" %}
 Si lo desea, puede consultar cómo calcular un mapa de tintas hipsométricas en el [Ejemplo 4: Obtener un mapa de tintas hipsométricas](../ejemplos/ejemplo4.md)
+{% endhint %}
 
