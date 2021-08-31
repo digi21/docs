@@ -8,7 +8,7 @@ description: Cuadro de diálogo Guitarra de viales
 
 Desde este cuadro de diálogo se puede configurar el aspecto de la caja que contiene el perfil longitudinal, así como la información adicional que en él aparecerá.
 
-![Cuadro de di&#xE1;logo guitarra de longitudinal de vial](../../../.gitbook/assets/image%20%2846%29.png)
+![Cuadro de di&#xE1;logo guitarra de longitudinal de vial](../../../.gitbook/assets/image%20%2847%29.png)
 
 En la parte superior del cuadro de diálogo se deberán seleccionar los elementos que va a incluir la parte inferior de la caja o guitarra. Estos campos serán rellenados automáticamente por el programa a partir de los perfiles calculados. Dichos campos son:
 

@@ -8,6 +8,8 @@ description: Cuadro de diálogo Cambiar según punto de registro
 
 Esta herramienta está destinada para cambiar el punto de registro de puntos LiDAR.
 
+![Cuadro de di&#xE1;logo Cambiar seg&#xFA;n punto de registro](../../../.gitbook/assets/image%20%28148%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione los puntos de registro origen**: Se deberán seleccionar los puntos de registro origen de los puntos que se desean cambiar.

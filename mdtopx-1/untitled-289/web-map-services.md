@@ -14,10 +14,10 @@ Los parámetros que requiere son los siguientes:
 
 * **Dirección URL**: Se muestra un listado con los posibles servidores donde realizar la consulta para la descarga de datos. Por defecto, el programa incluye algunas direcciones pertenecientes a España, pero el usuario podrá modificar este listado mediante los botones que están situados en la parte inferior del listado: **Nueva**, **Borrar** o **Editar.**
 * **Información**: A continuación, se muestran una serie de campos con la información correspondiente a la dirección URL seleccionada en el listado superior. Esta información es extraída mediante la consulta realizada por lo que no se puede modificar. Estos campos son:
-  * Descripción
-  * Título
-  * Propietario
-  * Restricciones
+  * _Descripción_
+  * _Título_
+  * _Propietario_
+  * _Restricciones_
 * **Capas**: Se muestra un listado con las diferentes capas de información que se publican. El usuario deberá seleccionar qué capa desea descargar.
 * **Sistemas de referencia**: Asimismo, se muestra un listado con los sistemas de referencia disponibles. El usuario deberá seleccionar el que coincide con las coordenadas del documento actual.
 * **Fichero de salida**: Se deberá especificar un nombre de fichero salida. El documento resultante será un archivo ráster, por lo que se podrá salvar en los formatos TIFF, BMP o JPEG.

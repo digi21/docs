@@ -8,6 +8,8 @@ description: Cuadro de diálogo Borrar según intensidad
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que hayan sido registrados con una intensidad determinada.
 
+![Cuadro de di&#xE1;logo Borrar seg&#xFA;n intensidad](../../../.gitbook/assets/image%20%28122%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione límites**: Se deberán indicar los valores mínimo y máximo de intensidad dentro de los cuales se borrarán los puntos. Para facilitar esta labor se muestra el histograma de los puntos que contiene el archivo. Moviéndose con el ratón encima de este histograma se mostrarán la cantidad de puntos y el valor de intensidad.

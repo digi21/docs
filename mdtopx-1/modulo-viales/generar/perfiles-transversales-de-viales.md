@@ -6,7 +6,7 @@ description: Cuadro de diálogo Perfiles transversales de viales
 
 [Módulo Viales](../)
 
-![Cuadro de di&#xE1;logo Transversales de vial](../../../.gitbook/assets/image%20%2882%29.png)
+![Cuadro de di&#xE1;logo Transversales de vial](../../../.gitbook/assets/image%20%2892%29.png)
 
 Desde esta herramienta, el usuario puede calcular los perfiles transversales correspondientes a un vial y generar un nuevo documento de dibujo, con la configuración de los datos que se muestran a continuación:
 

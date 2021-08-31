@@ -8,6 +8,8 @@ description: Cuadro de diálogo Cambiar clasificación en gráfico
 
 Esta herramienta está destinada para cambiar la clasificación de puntos LiDAR seleccionando los puntos en pantalla manualmente.
 
+![Cuadro de di&#xE1;logo Cambiar clasificaci&#xF3;n en gr&#xE1;fico](../../../.gitbook/assets/image%20%28127%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione las tipologías origen**: Se deberán seleccionar las tipologías origen que se desean cambiar, es decir, sólo se cambiarán aquellos puntos que se seleccionen en pantalla y cuya clasificación actual coincida con alguna de las seleccionadas en esta lista.

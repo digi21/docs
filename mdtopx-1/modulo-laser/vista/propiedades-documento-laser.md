@@ -10,7 +10,7 @@ Esta información está organizada de la siguiente forma:
 
 ![Propiedades del documento l&#xE1;ser. Ficha General](../../../.gitbook/assets/image%20%2813%29.png)
 
-* \*\*\*\*[**Clasificación**](../segun-clasificacion-lidar/): Se mostrará la cantidad de puntos agrupados según la clasificación LiDAR que tengan asignada. Se podría seleccionar uno o varios tipos y eliminarlos del archivo actual, pulsando el botón **Borrar**.
+* \*\*\*\*[**Clasificación**](../segun-clasificacion-lidar/): Se mostrará la cantidad de puntos agrupados según la clasificación LiDAR que tengan asignada. Se podría seleccionar uno o varios tipos y eliminarlos del archivo actual, pulsando el botón **Borrar**. Si algún tipo no tiene descripción podría ser porque no está añadido a la [lista de clasificaciones](lista-de-clasificaciones.md); se podría añadir pulsando el botón **Añadir a lista**.
 
 ![Propiedades del documento l&#xE1;ser. Ficha Clasificaci&#xF3;n](../../../.gitbook/assets/image%20%2815%29.png)
 
@@ -22,5 +22,7 @@ Esta información está organizada de la siguiente forma:
 
 ![Propiedades del documento l&#xE1;ser. Ficha Punto Origen](../../../.gitbook/assets/image%20%2816%29.png)
 
-* \*\*\*\*[**Eco**](../segun-eco-lidar/): Se mostrará la cantidad de puntos agrupados según el eco con el que fueron registrados. Se podría seleccionar uno o varios tipos y eliminarlos del archivo actual, pulsando el botón **Borrar**.
+* \*\*\*\*[**Eco**](../segun-eco-lidar/): Se mostrará la cantidad de puntos agrupados según el eco con el que fueron registrados. Se podría seleccionar uno o varios tipos y eliminarlos del archivo actual, pulsando el botón **Borrar**. Si algún tipo no tiene descripción podría ser porque no está añadido a la [lista de ecos](lista-de-ecos.md); se podría añadir pulsando el botón **Añadir a lista**.
+
+![Propiedades del documento l&#xE1;ser. Ficha Eco](../../../.gitbook/assets/image%20%28124%29.png)
 

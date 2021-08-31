@@ -6,7 +6,7 @@ description: Cuadro de diálogo Parámetros de perspectiva
 
 [Ficha de herramientas Inicio](../fichas-de-herramientas/ficha-de-herramientas-inicio/)
 
-![Cuadro de di&#xE1;logo Par&#xE1;metros de perspectiva](../../.gitbook/assets/image%20%2851%29.png)
+![Cuadro de di&#xE1;logo Par&#xE1;metros de perspectiva](../../.gitbook/assets/image%20%2852%29.png)
 
 En este cuadro de diálogo se podrá seleccionar una visualización diferente para un archivo. Para ello se deberán indicar los siguientes parámetros:
 

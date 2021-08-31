@@ -8,6 +8,8 @@ description: Cuadro de diálogo Seleccionar según punto de registro
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que hayan sido registrados según un determinado punto y guardarlos en un nuevo documento.
 
+![Cuadro de di&#xE1;logo Seleccionar seg&#xFA;n punto de registro](../../../.gitbook/assets/image%20%28121%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione punto de registro**: Se deberán seleccionar los puntos de registro que se desean seleccionar.

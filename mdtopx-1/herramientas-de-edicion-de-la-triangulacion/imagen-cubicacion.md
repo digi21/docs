@@ -10,7 +10,7 @@ Esta herramienta permitirá al usuario generar una imagen georreferenciada de un
 
 Por tanto, al ejecutar esta herramienta se generará una imagen con los mismos colores y georreferenciada, por lo que puede ser utilizada como referencia sobre otros documentos y analizar las zonas de cubicación.
 
-![Cuadro de di&#xE1;logo Imagen Cubicaci&#xF3;n](../../.gitbook/assets/image%20%28100%29.png)
+![Cuadro de di&#xE1;logo Imagen Cubicaci&#xF3;n](../../.gitbook/assets/image%20%28111%29.png)
 
 Cuando se llame a la herramienta se mostrará un cuadro de diálogo, donde se podrá reseñar el tamaño del píxel de la imagen resultante. Si el botón **Aceptar** es pulsado, el programa generará un nuevo documento que se podrá salvar posteriormente en formato TIF, BMP o JPEG. Cuando sea salvado, se generarán simultáneamente un archivo ASCII con el mismo nombre y extensión ORT, con la georreferenciación del mapa. Este archivo contiene las coordenadas de la esquina superior izquierda y el tamaño del píxel en metros.
 

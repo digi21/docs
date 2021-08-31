@@ -8,7 +8,7 @@ description: Cuadro de diálogo Información del documento viales
 
 Esta herramienta muestra información del documento de viales actual. Además de la información sobre los elementos que contiene, permite configurar el aspecto de los perfiles longitudinales mostrados en la vista de alzados.
 
-![Cuadro de di&#xE1;logo Informaci&#xF3;n de viales](../../../.gitbook/assets/image%20%2865%29.png)
+![Cuadro de di&#xE1;logo Informaci&#xF3;n de viales](../../../.gitbook/assets/image%20%2870%29.png)
 
 La información mostrada es la siguiente:
 

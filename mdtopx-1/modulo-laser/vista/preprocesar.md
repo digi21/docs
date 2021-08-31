@@ -22,8 +22,8 @@ Los parámetros que precisa son los siguientes:
   Se podrá especificar la **Cantidad máxima de puntos** que contendrán cada archivo de salida. Además, también se puede especificar se se utilizarán todos los puntos o sólo un punto de cada x. 
 
 * **Nombre de salida**:
-  * Nombre del archivo de salida. Se podrá indicar con el carácter almohadilla los índices de los archivos, en caso de tratarse de una división de archivos. Por ejemplo, "Salida\_\#\#.LAS" generará los archivos "Salida\_01.LAS", "Salida\_02.LAS", etc.
+  * _Nombre del archivo de salida_. Se podrá indicar con el carácter almohadilla los índices de los archivos, en caso de tratarse de una división de archivos. Por ejemplo, "Salida\_\#\#.LAS" generará los archivos "Salida\_01.LAS", "Salida\_02.LAS", etc.
   * _Tipo_: Se podrá especificar en qué formato se desean salvar los archivos de salida.
   * _Carpeta_: Se podrá especificar la carpeta donde se almacenarán los archivos de salida.
-* **Transformación de los datos**: Se podrá especificar si se desea un cambio de coordenadas, dándose la opción "De coordenadas cartesianas a UTM" o "De coordenadas geográficas a UTM".
+* **Transformación de los datos**: Se podrá especificar si se desea un cambio de coordenadas, dándose la opción "_De coordenadas cartesianas a UTM_" o "_De coordenadas geográficas a UTM_".
 

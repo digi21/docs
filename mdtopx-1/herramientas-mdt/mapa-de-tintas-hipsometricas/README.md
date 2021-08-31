@@ -6,7 +6,7 @@ description: Cuadro de diálogo Mapa de Tintas hipsométricas
 
 [Mapa de tintas hipsométricas](../../como.../como-mapa-de-tintas-hipsometricas.md)
 
-![Cuadro de di&#xE1;logo Mapa de tintas hipsom&#xE9;tricas](../../../.gitbook/assets/image%20%28103%29.png)
+![Cuadro de di&#xE1;logo Mapa de tintas hipsom&#xE9;tricas](../../../.gitbook/assets/image%20%28114%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

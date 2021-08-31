@@ -8,6 +8,8 @@ description: Cuadro de diálogo Suavizado
 
 Esta herramienta esta destinada al suavizado de un modelo digital de tipo DEM utilizando el algoritmo de Splines cúbicos. De esta forma, se puede generar una superficie que puede ser continua en la pendiente y en la curvatura. Según esto, los resultados de la interpolación sobre el modelo serán mejores que sobre modelos digitales que simplemente son uniones entre superficies independientes \(triángulos o celdas\).
 
+![Cuadro de di&#xE1;logo Suavizado](../../.gitbook/assets/image%20%2867%29.png)
+
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
 * **Generar superficie de Ferguson**: Si se selecciona esta casilla la superficie generada no es tan curva, debido a que matemáticamente no se considerarán continuas las curvaturas de las diferentes celdas adyacentes.

@@ -36,9 +36,9 @@ En este cuadro de diálogo aparecen las clasificaciones que el programa utilizar
 
 Se pueden especificar el grosor y color de cada clasificación.
 
-Además, este listado se puede almacenar o cargar desde un archivo de texto.
+La lista se puede salvar a un archivo ASCII pulsando el botón **Salvar** o cargar desde un archivo pulsando el botón **Cargar**.
 
-Se pueden editar las características de uno de ellos pulsando el botón **Editar**, apareciendo un [cuadro de diálogo](../../otras-herramientas/lista-de-codigos/codigo-nuevo.md).
+Se pueden editar las características de uno de ellos pulsando el botón **Editar** o haciendo doble clic con el botón izquierdo del ratón sobre el tipo, apareciendo un [cuadro de diálogo](../../otras-herramientas/lista-de-codigos/codigo-nuevo.md).
 
 Los cambios efectuados sólo serán válidos si pulsa el botón **Aceptar** para salir.
 

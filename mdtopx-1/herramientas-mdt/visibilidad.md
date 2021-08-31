@@ -8,7 +8,7 @@ description: Cuadro de diálogo Visibilidad
 
 Herramienta para calcular la zona visible desde un determinado punto. La salida es una imagen donde se mostrarán los píxeles de las zonas visibles de color rojo.
 
-![Cuadro de di&#xE1;logo Visibilidad](../../.gitbook/assets/image%20%2886%29.png)
+![Cuadro de di&#xE1;logo Visibilidad](../../.gitbook/assets/image%20%2896%29.png)
 
 Al ejecutarla, se presenta un cuadro de diálogo con los siguientes campos:
 

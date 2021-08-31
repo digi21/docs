@@ -8,6 +8,8 @@ description: Cuadro de diálogo Triangulación 3D
 
 Esta herramienta está destinada a la generación de un modelo digital del terreno de tipo TIN utilizando el algoritmo de la tetraedrización de Delaunay. Esta herramienta no admite la inclusión de líneas de ruptura por lo que su utilización se restringe a la triangulación de archivos de puntos láser.
 
+![Cuadro de di&#xE1;logo Triangulaci&#xF3;n 3D](../../../.gitbook/assets/image%20%28139%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione las tipologías origen**: Se deberán seleccionar las tipologías origen que se desean utilizar para calcular el modelo digital.

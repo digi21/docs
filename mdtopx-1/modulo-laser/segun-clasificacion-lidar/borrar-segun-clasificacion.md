@@ -8,6 +8,8 @@ description: Cuadro de diálogo Borrar según clasificación
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que tengan una determinada clasificación LiDAR.
 
+![Cuadro de di&#xE1;logo Borrar seg&#xFA;n clasificaci&#xF3;n](../../../.gitbook/assets/image%20%28134%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione las tipologías**: Se deberán seleccionar las tipologías de los puntos que se desean borrar.

@@ -6,7 +6,7 @@ description: Cuadro de diálogo Mapa de Pendientes
 
 [Mapa de pendientes](../como.../como-mapa-de-pendientes.md)
 
-![Cuadro de di&#xE1;logo Mapa de pendientes](../../.gitbook/assets/image%20%28104%29.png)
+![Cuadro de di&#xE1;logo Mapa de pendientes](../../.gitbook/assets/image%20%28115%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

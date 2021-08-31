@@ -8,7 +8,7 @@ description: Cuadro de diálogo Asignar peraltes a vial
 
 Desde esta herramienta, el programa permitirá calcular los peraltes necesarios para la viabilidad de un trazado, en función de los elementos curvos que lo componen. Para ello, será necesario especificar una tabla de peraltes, previamente definida, donde se relacionan radios con peraltes.
 
-![Cuadro de di&#xE1;logo Asignar peraltes a vial](../../../.gitbook/assets/image%20%2843%29.png)
+![Cuadro de di&#xE1;logo Asignar peraltes a vial](../../../.gitbook/assets/image%20%2844%29.png)
 
 En el cuadro de diálogo que se muestra aparecen los siguientes campos:
 

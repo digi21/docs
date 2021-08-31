@@ -6,7 +6,7 @@ description: Cuadro de diálogo Perfil longitudinal de viales
 
 [Viales Generar](../../fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)
 
-![Cuadro de di&#xE1;logo Longitudinal de vial](../../../.gitbook/assets/image%20%28101%29.png)
+![Cuadro de di&#xE1;logo Longitudinal de vial](../../../.gitbook/assets/image%20%28112%29.png)
 
 Desde esta herramienta, el usuario puede generar un nuevo documento de dibujo con el perfil longitudinal de un trazado, con la configuración de los datos que se muestran a continuación:
 

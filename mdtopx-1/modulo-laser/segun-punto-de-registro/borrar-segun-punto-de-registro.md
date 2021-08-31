@@ -8,6 +8,8 @@ description: Cuadro de diálogo Borrar según punto de registro
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que hayan sido registrados desde algún punto determinado.
 
+![Cuadro de di&#xE1;logo seg&#xFA;n punto de registro](../../../.gitbook/assets/image%20%28150%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione punto de registro**: Se deberán seleccionar los puntos de registro que se desean borrar.

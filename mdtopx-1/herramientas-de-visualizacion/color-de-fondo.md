@@ -6,7 +6,7 @@ description: Cuadro de diálogo Color de fondo
 
 [Ficha de herramientas Inicio](../fichas-de-herramientas/ficha-de-herramientas-inicio/)
 
-![Cuadro de di&#xE1;logo Color de fondo](../../.gitbook/assets/image%20%2880%29.png)
+![Cuadro de di&#xE1;logo Color de fondo](../../.gitbook/assets/image%20%2890%29.png)
 
 En este cuadro de diálogo se podrá seleccionar el color de fondo y de MDT. Además, se podrá seleccionar una imagen para visualizar como fondo cuando se tenga abierto un modelo digital.
 

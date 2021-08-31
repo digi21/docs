@@ -8,6 +8,8 @@ description: Cuadro de diálogo Ordenar puntos LiDAR
 
 Herramienta útil para ordenar los puntos LiDAR según alguna de sus características, siendo la más normal, el tiempo GPS de registro. Si no tuvieran tiempo GPS, se podrían ordenar por su coordenada X o Y. Básicamente, cada conjunto de puntos representa una pasada realizada por el sensor, en el caso aéreo. En el caso terrestre, provendría de diferentes estacionamientos o diferentes sensores equipados en un sistema MMS.
 
+![Cuadro de di&#xE1;logo Ordenar puntos LiDAR](../../../.gitbook/assets/image%20%28147%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Ordenar si no tiene tiempo GPS**: Se deberá activar esta opción en caso de que se deseen ordenar los puntos aunque no tengan el dato del tiempo GPS. En este caso, se daría la opción de ordenar por alguna de sus coordenadas planimétricas.

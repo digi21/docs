@@ -8,6 +8,8 @@ description: Cuadro de diálogo Unir puntos de registro
 
 Esta herramienta está destinada para unir nubes LiDAR registradas desde puntos diferentes.
 
+![Cuadro de di&#xE1;logo Unir seg&#xFA;n punto de registro](../../../.gitbook/assets/image%20%28130%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione los puntos de registro origen**: Se deberán seleccionar los puntos de registro origen de los puntos que se desean unir.

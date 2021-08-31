@@ -4,6 +4,8 @@
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que hayan sido registrados mediante un determinado tiempo GPS y guardarlos en un nuevo documento.
 
+![Cuadro de di&#xE1;logo Seleccionar seg&#xFA;n GPS](../../../.gitbook/assets/image%20%28129%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione limites**: Se deberán indicar los valores mínimo y máximo de tiempo GPS dentro de los cuales se seleccionarán los puntos. Para facilitar esta labor se muestra el histograma de los puntos que contiene el archivo. Moviéndose con el ratón encima de este histograma se mostrarán la cantidad de puntos y el valor de tiempo GPS.

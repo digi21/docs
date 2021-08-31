@@ -8,6 +8,8 @@ description: Cuadro de diálogo Borrar según eco
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que tengan un determinado eco LiDAR.
 
+![Cuadro de di&#xE1;logo Borrar seg&#xFA;n eco](../../../.gitbook/assets/image%20%28132%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione el número de eco**: Se deberán seleccionar los tipos de eco de los puntos que se desean borrar.

@@ -8,10 +8,13 @@ description: Cuadro de diálogo Seleccionar según clasificación
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que tengan una determinada clasificación LiDAR y guardarlos en un nuevo documento.
 
+![Cuadro de di&#xE1;logo Seleccionar seg&#xFA;n clasificaci&#xF3;n](../../../.gitbook/assets/image%20%28142%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione las tipologías**: Se deberán seleccionar las tipologías de los puntos que se desean seleccionar.
 * **Actuar sólo en la selección actual**: Se podrá activar esta opción para calcular sólo en los puntos que actualmente se tengan seleccionados.
+* **Eliminar de documento origen**
 
 Vea también:
 

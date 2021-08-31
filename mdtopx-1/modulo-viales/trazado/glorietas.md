@@ -10,7 +10,7 @@ Cuando el usuario introduce una glorieta como trazado nuevo, el programa muestra
 
 Para registrar una glorieta nueva se debe elegir alguna de las opciones disponibles en la [Ficha de herramientas Trazado](../../fichas-de-herramientas/ficha-de-herramientas-trazado.md).
 
-![Cuadro de di&#xE1;logo Glorieta](../../../.gitbook/assets/image%20%2864%29.png)
+![Cuadro de di&#xE1;logo Glorieta](../../../.gitbook/assets/image%20%2869%29.png)
 
 Los datos que se muestran los siguientes:
 

@@ -10,7 +10,7 @@ Con esta herramienta el usuario podrá calcular elementos curvos a partir de dos
 
 La herramienta podrá ser llamada sin tener ningún archivo abierto o desde el [cuadro de diálogo de definición de curvas](../trazado/insertar-elemento-curvo.md).
 
-![Cuadro de di&#xE1;logo Calcula curvas circulares](../../../.gitbook/assets/image%20%28105%29.png)
+![Cuadro de di&#xE1;logo Calcula curvas circulares](../../../.gitbook/assets/image%20%28116%29.png)
 
 Los elementos curvos que se pueden definir son de dos tipos:
 
@@ -29,7 +29,7 @@ Los elementos curvos que se pueden definir son de dos tipos:
 No todas las combinaciones tienen solución, como por ejemplo si se eligen como parámetros Longitud y Cuerda
 {% endhint %}
 
-![Cuadro de di&#xE1;logo Calcula curvas espirales](../../../.gitbook/assets/image%20%2889%29.png)
+![Cuadro de di&#xE1;logo Calcula curvas espirales](../../../.gitbook/assets/image%20%2899%29.png)
 
 ![Elementos de una clotoide](../../../.gitbook/assets/clotoideycirculo.gif)
 

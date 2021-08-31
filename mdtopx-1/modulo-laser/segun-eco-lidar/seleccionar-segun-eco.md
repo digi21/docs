@@ -8,6 +8,8 @@ description: Cuadro de diálogo Seleccionar según eco
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que tengan un determinado eco LiDAR y guardarlos en un nuevo documento.
 
+![Cuadro de di&#xE1;logo Seleccionar seg&#xFA;n eco](../../../.gitbook/assets/image%20%28145%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione el número de eco**: Se deberán seleccionar los tipos de ecos de los puntos que se desean seleccionar.

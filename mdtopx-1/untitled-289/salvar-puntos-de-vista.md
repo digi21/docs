@@ -10,6 +10,8 @@ Mediante este cuadro de diálogo se pueden ir salvando posiciones de la cámara 
 
 Cuando se pulsa sobre el icono, la vista del documento cambia a modo Vista oblicua porque es la manera más natural de visualizar posteriormente un video. Además, aparece un cuadro de diálogo que queda flotante, por lo que se puede mover la vista del documento con el resto de herramientas de visualización que MDTopX posee.
 
+![Cuadro de di&#xE1;logo Salvar puntos de vista](../../.gitbook/assets/image%20%2885%29.png)
+
 Desde este cuadro de diálogo se podrán ver las diferentes posiciones añadidas, así como cargar un fichero de posiciones ya salvado o guardar el listado actual.
 
 Según se vayan añadiendo posiciones nuevas, en la vista del documento irán apareciendo iconos con forma de cámara para ver su posición respecto del objeto.

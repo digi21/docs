@@ -8,6 +8,8 @@ description: Cuadro de diálogo Cambiar según intensidad
 
 Esta herramienta está destinada para cambiar la tipología de puntos LiDAR en función de la intensidad registrada en cada punto.
 
+![Cuadro de di&#xE1;logo Cambiar seg&#xFA;n intensidad](../../../.gitbook/assets/image%20%28133%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione límites**: Se deberán indicar los valores mínimo y máximo de intensidad dentro de los cuales se seleccionarán los puntos. Para facilitar esta labor se muestra el histograma de los puntos que contiene el archivo. Moviéndose con el ratón encima de este histograma se mostrarán la cantidad de puntos y el valor de intensidad.

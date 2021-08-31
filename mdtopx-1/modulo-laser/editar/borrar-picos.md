@@ -8,6 +8,8 @@ description: Cuadro de diálogo Borrar picos
 
 Herramienta destinada a buscar y clasificar puntos cuya cota es superior a la de su entorno. Si se realizara un MDT incluyendo a estos puntos se producirían picos debido a su diferencia de cota.
 
+![Cuadro de di&#xE1;logo Borrar picos](../../../.gitbook/assets/image%20%28126%29.png)
+
 Los parámetros que precisa son los siguientes:
 
 * **Distancia máxima**: Distancia máxima para considerar dos puntos como adyacentes o vecinos en el terreno. Este parámetro dependerá de la densidad de puntos. Este campo servirá delimitar la zona abarcada por cada punto de toma.
@@ -15,4 +17,5 @@ Los parámetros que precisa son los siguientes:
 * **Tipologías origen**: Tipos de puntos que se utilizarán en el cálculo.
 * **Tipologías destino**: Tipo que se le asignará a los puntos encontrados.
 * **Actuar sólo en la selección actual**: Se podrá activar esta opción para calcular sólo en los puntos que actualmente se tengan seleccionados.
+* **Iterar mientras se clasifiquen más de x puntos**: La herramienta se repetirá mientras se hayan clasificado más puntos de los indicados en este campo.
 

@@ -6,7 +6,7 @@ description: Cuadro de diálogo Perfiles
 
 [Perfiles](../../como.../como-perfiles.md)
 
-![Cuadro de di&#xE1;logo Perfiles](../../../.gitbook/assets/image%20%2883%29.png)
+![Cuadro de di&#xE1;logo Perfiles](../../../.gitbook/assets/image%20%2893%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

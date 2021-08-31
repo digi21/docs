@@ -8,6 +8,8 @@ description: Cuadro de diálogo Generar DEM derivado
 
 Esta herramienta está destinada a la generación de un modelo digital derivado del actual como consecuencia de un recorte de éste o una reducción en la densidad de puntos.
 
+![Cuadro de di&#xE1;logo Generar DEM derivado](../../.gitbook/assets/image%20%2857%29.png)
+
 Al llamarla se muestra un cuadro de diálogo donde aparecen los siguientes campos:
 
 * **DEM original**: Se muestra información acerca del actual modelo digital compuesta por el número de filas y columnas y la separación entre éstas.

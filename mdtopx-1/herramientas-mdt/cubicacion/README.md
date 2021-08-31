@@ -6,7 +6,7 @@ description: Cuadro de diálogo Cubicación
 
 [Cubicación](../../como.../como-cubicacion.md)
 
-![Cuadro de di&#xE1;logo Cubicaci&#xF3;n](../../../.gitbook/assets/image%20%2841%29.png)
+![Cuadro de di&#xE1;logo Cubicaci&#xF3;n](../../../.gitbook/assets/image%20%2842%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

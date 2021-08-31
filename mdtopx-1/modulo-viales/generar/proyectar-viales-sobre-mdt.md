@@ -8,7 +8,7 @@ description: Cuadro de diálogo Proyectar viales sobre MDT
 
 Una vez que se han definido todos los aspectos de un vial \(trazado, alzado, secciones tipo\) se puede proceder a la proyección sobre el MDT para calcular los planos derivados: curvados, cubicaciones, etc.
 
-![Cuadro de di&#xE1;logo Proyectar viales sobre MDT](../../../.gitbook/assets/image%20%2872%29.png)
+![Cuadro de di&#xE1;logo Proyectar viales sobre MDT](../../../.gitbook/assets/image%20%2879%29.png)
 
 Con esta herramienta se pueden proyectar los viales seleccionados sobre el MDT cargado actualmente, generando un documento donde se encuentran varios tipos de entidades:
 

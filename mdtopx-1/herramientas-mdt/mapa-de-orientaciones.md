@@ -6,7 +6,7 @@ description: Cuadro de diálogo Mapa de Orientaciones
 
 [Mapa de orientaciones](../como.../como-mapa-de-orientaciones.md)
 
-![Cuadro de di&#xE1;logo Orientaciones](../../.gitbook/assets/image%20%2849%29.png)
+![Cuadro de di&#xE1;logo Orientaciones](../../.gitbook/assets/image%20%2850%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
