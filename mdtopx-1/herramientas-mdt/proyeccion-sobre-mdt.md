@@ -6,7 +6,7 @@ description: Cuadro de diálogo Proyección sobre MDT
 
 [Herramientas MDT Productos civil](../fichas-de-herramientas/ficha-de-herramientas-mdt/productos-civil.md)
 
-![Cuadro de di&#xE1;logo Proyecci&#xF3;n sobre MDT](../../.gitbook/assets/image%20%2867%29.png)
+![Cuadro de di&#xE1;logo Proyecci&#xF3;n sobre MDT](../../.gitbook/assets/image%20%2878%29.png)
 
 Desde este cuadro de diálogo el programa puede dar cota a las entidades de un archivo, proyectándolas sobre el modelo digital; o comparar la cota de las dichas entidades con las obtenidas al proyectarlas sobre el modelo digital, permitiendo generar marcas de error en caso de que superen una cierta tolerancia. Para realizar estas operaciones se tienen los siguientes campos a rellenar:
 

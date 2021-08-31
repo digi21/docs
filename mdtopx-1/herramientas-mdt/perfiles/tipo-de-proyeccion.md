@@ -4,7 +4,7 @@ description: Cuadro de diálogo Tipo de proyección
 
 # Tipo de proyección
 
-![Cuadro de di&#xE1;logo Tipo de proyecci&#xF3;n sobre MDT](../../../.gitbook/assets/image%20%2871%29.png)
+![Cuadro de di&#xE1;logo Tipo de proyecci&#xF3;n sobre MDT](../../../.gitbook/assets/image%20%2882%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
