@@ -16,7 +16,7 @@ El archivo de entrada deberá ser un archivo de modelo digital, en el cual se pr
 
 El archivo de salida será el nombre con el que se salve la rejilla. El programa salvará en el formato que indique la extensión: BIN \(DIGI\), DXF \(AutoCad\), DGN \(MicroStation\) o Shape \(ARC-GIS\).
 
-Además de esta secuencia y para configurar el modo de generación de la rejilla, en el archivo MDTop.INI debería haber una línea obligatoria con el texto \[Rejilla\] y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de generación de la rejilla, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Rejilla\]** y a continuación los campos siguientes:
 
 * **IncrementoX** : Espaciado en metros de la rejilla en el eje de abscisas
 * **IncrementoY** : Espaciado en metros de la rejilla en el eje de ordenadas

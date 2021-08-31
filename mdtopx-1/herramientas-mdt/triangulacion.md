@@ -6,7 +6,7 @@ description: Cuadro de diálogo Triangulación
 
 [Triangulación](../como.../como-triangulacion.md)
 
-![Cuadro de di&#xE1;logo Triangulaci&#xF3;n](../../.gitbook/assets/image%20%2846%29.png)
+![Cuadro de di&#xE1;logo Triangulaci&#xF3;n](../../.gitbook/assets/image%20%2847%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
@@ -21,4 +21,8 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
   * Más baja: La cota del punto será la más baja de ambas líneas de ruptura.
 * **No unir puntos de curvas de nivel**: Esta opción permite que el programa no genere triángulos que unen puntos no consecutivos de una misma curva de nivel, de tal manera que no se generarían triángulos planos que no producirían un modelo digital acorde con el terreno representado por las curvas de nivel generadoras. Si se activa se deberá indicar la Equidistancia del curvado original en metros.
 * **Distancia máxima entre puntos**: Si se desea, se podrá introducir la distancia máxima que puede haber entre dos puntos para que sean considerados vecinos y, por tanto, que se genere un triángulo entre ellos. Si no se desea introducir este campo, se deberá indicar un cero.
+
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento con entidades vectoriales.
+{% endhint %}
 

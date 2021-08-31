@@ -16,7 +16,7 @@ El archivo de entrada deberá ser un archivo de modelo digital, en el cual se pr
 
 El archivo de salida será el nombre con el que se salve la proyección. El programa salvará en el formato que indique la extensión: BIN \(DIGI\), DXF \(AutoCad\) o DGN \(MicroStation\).
 
-Además de esta secuencia y para configurar el modo de proyección, en el archivo MDTop.INI debería haber una línea obligatoria con el texto \[Proyecta\] y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de proyección, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Proyecta\]** y a continuación los campos siguientes:
 
 * **Entrada**: Nombre del archivo de dibujo que se proyectará sobre el modelo digital
 * **CodError**: Código de las marcas de error

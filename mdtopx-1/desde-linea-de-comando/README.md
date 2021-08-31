@@ -1,6 +1,6 @@
 # Desde línea de comando
 
-MDTop permite ser ejecutado desde la línea de comando pasando parámetros para configurar el cálculo. Para ello necesita de un archivo ASCII llamado MDTop.INI en el mismo directorio desde donde se está ejecutando la llamada. En este archivo estarán las opciones de configuración.
+MDTopX permite ser ejecutado desde la línea de comando pasando parámetros para configurar el cálculo. Para ello necesita de un archivo ASCII llamado MDTop.INI en el mismo directorio desde donde se está ejecutando la llamada. En este archivo estarán las opciones de configuración.
 
 Esta modalidad de ejecución tiene la ventaja de que los archivos no son mostrados en pantalla, con lo que el ahorro en tiempo de cálculo de grandes archivos es considerable.
 

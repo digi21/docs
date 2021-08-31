@@ -14,7 +14,7 @@ El archivo de entrada deberá ser un archivo de modelo digital, el cual se proce
 
 El archivo de salida será el nombre con el que se salve el fichero en el nuevo formato.
 
-Además de esta secuencia y para configurar el modo de exportación, en el archivo MDTop.INI debería haber una línea obligatoria con el texto \[ExportarMDT\] y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de exportación, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[ExportarMDT\]** y a continuación los campos siguientes:
 
 * **Limite**: 0 \(no exportar límite del MDT\) o 1 \(exportar límite del MDT\). Sólo utilizado para exportar en formato BIN, DXF o DGN.
 * **Ruptura**: 0 \(no exportar líneas de ruptura\) o 1 \(exportar líneas de rupturas\). Sólo utilizado para exportar en formato BIN, DXF o DGN.
@@ -33,7 +33,7 @@ Además de esta secuencia y para configurar el modo de exportación, en el archi
   * **9**: Archivos de VirtuaLand.
   * **10**: Archivos del Servicio Geográfico del Ejército.
   * **11**: Archivos GRD de ArcInfo.
-  * **12**: Archivos de ArcView.
+  * **12**: Archivos de ESRI ArcGIS.
   * **13**: Archivos de LH SOCET SET.
 * **IncrX**: Separación de las columnas en metros, en caso de que el archivo de salida sea una rejilla y ésta pueda tener valores diferentes para la separación de filas y columnas.
 * **IncrY**: Separación de las filas en metros, en caso de que el archivo de salida sea una rejilla y ésta pueda tener valores diferentes para la separación de filas y columnas.

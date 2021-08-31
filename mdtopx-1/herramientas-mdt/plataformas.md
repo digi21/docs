@@ -20,3 +20,7 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
 * **Calcular cubicación**: Si se desea obtener la cubicación directamente entre el MDT con el terreno natural y el nuevo MDT con las plataformas proyectadas, se deberá activar esta opción. Si se activa se generará otro documento adicional con la cubicación calculada. Si no se activa, se podrá cubicar posteriormente con la herramienta [Cubicación](../como.../como-cubicacion.md).
 
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
+{% endhint %}
+

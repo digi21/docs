@@ -8,7 +8,7 @@ description: Cuadro de diálogo Guitarra de perfiles transversales
 
 Desde este cuadro de diálogo se puede configurar el aspecto de la caja que contiene a cada perfil transversal, así como la información adicional que en él aparecerá.
 
-![Cuadro de di&#xE1;logo Configuraci&#xF3;n de la guitarra de perfiles transversales](../../../.gitbook/assets/image%20%2853%29.png)
+![Cuadro de di&#xE1;logo Configuraci&#xF3;n de la guitarra de perfiles transversales](../../../.gitbook/assets/image%20%2855%29.png)
 
 En la parte superior del cuadro de diálogo se deberán seleccionar los elementos que va a incluir la parte inferior de la caja o guitarra. Estos campos serán rellenados automáticamente por el programa a partir de los perfiles calculados. Dichos campos son:
 

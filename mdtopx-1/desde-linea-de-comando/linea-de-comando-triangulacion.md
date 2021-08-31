@@ -16,7 +16,7 @@ El archivo de entrada deberá ser un archivo con información topográfica o car
 
 El archivo de salida será el nombre con el que se salve la triangulación, por lo que debería llevar extensión MDT.
 
-Además de esta secuencia y para configurar el modo de triangular, en el archivo MDTop.INI debería haber una línea obligatoria con el texto \[Triangulacion\] y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de triangular, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Triangulacion\]** y a continuación los campos siguientes:
 
 * **CodTri** : Indica el código en el que se almacenarán los triángulos
 * **CotaMaxima** : Indica la cota máxima en metros que podrán tener las entidades para formar parte del modelo digital

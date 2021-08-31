@@ -6,7 +6,7 @@ description: Cuadro de diálogo Mapa de Tintas hipsométricas
 
 [Mapa de tintas hipsométricas](../../como.../como-mapa-de-tintas-hipsometricas.md)
 
-![Cuadro de di&#xE1;logo Mapa de tintas hipsom&#xE9;tricas](../../../.gitbook/assets/image%20%2865%29.png)
+![Cuadro de di&#xE1;logo Mapa de tintas hipsom&#xE9;tricas](../../../.gitbook/assets/image%20%2869%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
@@ -25,7 +25,13 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
   * MicroStation para lo cual se indicará la extensión DGN.
 * **Fichero con límite**: Se podrá utilizar un fichero con el límite de la zona de la cuál se desea el mapa de tintas. El formato de este fichero puede ser BIN de DIGI, DXF de AutoCad, DGN de MicroStation o un fichero ASCII con las coordenadas que forman el límite. El límite podrá estar compuesto por una o varias líneas cerradas. En el caso del fichero ASCII sólo podrá ser leída una línea.
 
-Nota: Una buena gama para un fichero entre 0 y 950 metros combinado con sombreado sería:
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
+{% endhint %}
+
+### Ejemplo
+
+Una buena gama para un fichero entre 0 y 950 metros combinado con sombreado sería:
 
 |  Cota |  Rojo |  Verde |  Azul |
 | :--- | :--- | :--- | :--- |

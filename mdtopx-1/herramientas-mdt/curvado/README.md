@@ -32,7 +32,11 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 * **Número de decimales**: Cantidad de dígitos decimales que contendrá el texto con la cota de la curva.
 * **Cortar curvas de nivel en textos**: Se deberá activar esta opción si se desea que haya un hueco en las curvas de nivel rotuladas en el espacio que ocupa el texto.
 
-Ejemplo:
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
+{% endhint %}
+
+### Ejemplo
 
 ![](../../../.gitbook/assets/dialogo-curvado.jpg)
 

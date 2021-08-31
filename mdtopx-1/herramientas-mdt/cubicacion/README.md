@@ -18,3 +18,7 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 * **Trazar perfiles**: Para proyectar perfiles sobre la cubicación generada. En estos perfiles aparecerán dos líneas con la proyección sobre ambos modelos digitales. A la derecha del campo se encuentra el botón \[...\], con el que el usuario podrá [Configurar los perfiles ](perfiles-de-cubicacion.md)a proyectar.
 * **Fichero con informe**: Fichero ASCII con un listado de la cubicación calculada. A la derecha del campo se encuentra el botón \[...\], con el que el usuario podrá seleccionar el archivo que se salvará, utilizando el explorador de Windows.
 
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
+{% endhint %}
+

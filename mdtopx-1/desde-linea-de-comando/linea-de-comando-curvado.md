@@ -16,7 +16,7 @@ El archivo de entrada deberá ser un archivo de modelo digital, a partir del cua
 
 El archivo de salida será el nombre con el que se salve el curvado. El programa salvará en el formato que indique la extensión: BIN \(DIGI\), DXF \(AutoCad\) o DGN \(MicroStation\).
 
-Además de esta secuencia y para configurar el modo de curvado, en el archivo MDTop.INI debería haber una línea obligatoria con el texto \[Curvado\] y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de curvado, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Curvado\]** y a continuación los campos siguientes:
 
 * AlturaTexto: Altura de texto en metros
 * Suavizado: 0 \(sin suavizar\), 1 \(poco suavizado\) ó 2 \(muy suavizado\)

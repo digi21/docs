@@ -6,7 +6,7 @@ description: Cuadro de diálogo Perfiles
 
 [Perfiles](../../como.../como-perfiles.md)
 
-![Cuadro de di&#xE1;logo Perfiles](../../../.gitbook/assets/image%20%2854%29.png)
+![Cuadro de di&#xE1;logo Perfiles](../../../.gitbook/assets/image%20%2856%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
@@ -19,4 +19,8 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 * **Códigos**: Se indicarán los códigos para la línea que representa la rasante y la que representa el terreno.
 * \*\*\*\*[**Tipo de proyección sobre MDT** ](tipo-de-proyeccion.md): Para indicar cómo se deberán proyectar los perfiles sobre el modelo digital.
 * \*\*\*\*[**Presentación gráfica** ](presentacion-grafica.md): Para indicar cómo deberán ser presentados los perfiles en el fichero final de dibujo.
+
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
+{% endhint %}
 

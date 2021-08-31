@@ -14,12 +14,12 @@ MDTop [archivo de entrada] /COM
 
 El archivo de entrada deberá ser un archivo de modelo digital, del cual se comprobará su altimetría.
 
-Además de esta secuencia y para configurar el modo de comprobación, en el archivo MDTop.INI debería haber una línea obligatoria con el texto \[Comprobar\] y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de comprobación, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Comprobar\]** y a continuación los campos siguientes:
 
-* CodError: Código de las marcas de error
-* FicError: Nombre del archivo de errores generado
-* Equidistancia: Distancia vertical en metros de las curvas de nivel generadores del modelo digital
-* Size: Tamaño en metros de la marca de error
+* **CodError**: Código de las marcas de error
+* **FicError**: Nombre del archivo de errores generado
+* **Equidistancia**: Distancia vertical en metros de las curvas de nivel generadores del modelo digital
+* **Size**: Tamaño en metros de la marca de error
 
 ```text
 [Comprobar]

@@ -6,7 +6,7 @@ description: Cuadro de diálogo Perfiles de cubicación
 
 [Cuadro de diálogo Cubicación](./)
 
-![Cuadro de di&#xE1;logo Perfiles de cubicaci&#xF3;n](../../../.gitbook/assets/image%20%2861%29.png)
+![Cuadro de di&#xE1;logo Perfiles de cubicaci&#xF3;n](../../../.gitbook/assets/image%20%2865%29.png)
 
 Este cuadro de diálogo está destinado a configurar los perfiles que se trazarán cuando se realizan cubicaciones. Se pueden realizar perfiles a partir de elementos registrados en un archivo de dibujo o automáticamente a partir de las dimensiones de la zona de cubicación. Asimismo, es posible obtener el valor de cubicación a partir del superficiado de los perfiles, en caso de que estos sean los generados automáticamente por el programa.
 

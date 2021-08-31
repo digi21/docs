@@ -6,7 +6,7 @@ description: Cuadro de diálogo Mapa de Pendientes
 
 [Mapa de pendientes](../como.../como-mapa-de-pendientes.md)
 
-![Cuadro de di&#xE1;logo Mapa de pendientes](../../.gitbook/assets/image%20%2866%29.png)
+![Cuadro de di&#xE1;logo Mapa de pendientes](../../.gitbook/assets/image%20%2870%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
@@ -21,4 +21,8 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
   * AutoCad para lo cual se indicará la extensión DXF.
   * MicroStation para lo cual se indicará la extensión DGN.
 * **Fichero con límite**: Se podrá utilizar un fichero con el límite de la zona de la cuál se desea el mapa de pendientes. El formato de este fichero puede ser BIN de DIGI, DXF de AutoCad, DGN de MicroStation o un fichero ASCII con las coordenadas que forman el límite. El límite podrá estar compuesto por una o varias líneas cerradas. En el caso del fichero ASCII sólo podrá ser leída una línea.
+
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
+{% endhint %}
 

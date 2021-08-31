@@ -21,3 +21,7 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 Si se emplea un tipo de sombreado Combinado, es recomendable utilizar colores cálidos para el sombreado cenital \(rosas, amarillos...\) y colores fríos para el sombreado oblicuo \(azules, morados...\).
 {% endhint %}
 
+{% hint style="info" %}
+Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
+{% endhint %}
+

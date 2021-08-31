@@ -16,7 +16,7 @@ El archivo de entrada deberá ser un archivo de modelo digital, en el cual se pr
 
 El archivo de salida será el nombre con el que se salve el mapa de tintas hipsométricas. El programa salvará en el formato TIF, BMP o JPEG, en función de la extensión del archivo de salida.
 
-Además de esta secuencia y para configurar el modo de generación del sombreado, en el archivo MDTop.INI debería haber una línea obligatoria con el texto \[Hipsometricas\] y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de generación del sombreado, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Hipsometricas\]** y a continuación los campos siguientes:
 
 * **Size**: Tamaño en metros del píxel de la imagen de salida
 * **Limite**: Nombre del archivo con el límite
