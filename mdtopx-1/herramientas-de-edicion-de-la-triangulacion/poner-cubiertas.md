@@ -18,6 +18,8 @@ Se procede a llamar a la herramienta para que genere el sólido con la edificaci
 
 El programa ha calculado la proyección de la cubierta sobre el modelo digital, generando triángulos que simulan la parte superior del objeto y los triángulos verticales para generar el volumen de la edificación. Cabe decir, que en el fichero de entrada podrían existir entidades, interiores a cada superficie, que definan de mejor manera ésta. Por ejemplo, un conjunto de puntos que definan una azotea a dos aguas.
 
+![Cuadro de di&#xE1;logo Insertar objetos al MDT](../../.gitbook/assets/image%20%2893%29.png)
+
 Para llevar a cabo esta operación, el programa presenta un cuadro de diálogo donde solicita los siguientes parámetros:
 
 * **Fichero de entrada**: Se deberá indicar el fichero con entidades vectoriales cerradas que representan los límites superiores de los objetos a incluir. Estos ficheros también podrán llevar otras entidades no cerradas que permitan definir de mejor manera las superficies.

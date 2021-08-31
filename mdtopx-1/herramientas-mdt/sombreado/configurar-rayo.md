@@ -6,7 +6,7 @@ description: Cuadro de diálogo Configurar rayo
 
 [Cuadro de diálogo Sombreado](./)
 
-![Cuadro de di&#xE1;logo Configurar Rayo](../../../.gitbook/assets/image%20%2860%29.png)
+![Cuadro de di&#xE1;logo Configurar Rayo](../../../.gitbook/assets/image%20%2876%29.png)
 
 En este cuadro de diálogo se podrá configurar el rayo utilizado para generar el sombreado. Este sombreado podrá ser generado en un mapa como única representación del relieve o como complemento a otro tipo de representación, como tintas hipsométricas, orientaciones o pendientes. En él aparecen los siguientes campos a rellenar:
 

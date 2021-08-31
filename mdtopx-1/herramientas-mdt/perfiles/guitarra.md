@@ -6,7 +6,7 @@ description: Cuadro de diálogo Guitarra
 
 [Cuadro de diálogo Perfiles](./)
 
-![Cuadro de di&#xE1;logo Configuraci&#xF3;n de la guitarra](../../../.gitbook/assets/image%20%2846%29.png)
+![Cuadro de di&#xE1;logo Configuraci&#xF3;n de la guitarra](../../../.gitbook/assets/image%20%2850%29.png)
 
 Desde este cuadro de diálogo se puede configurar el aspecto de la caja que contiene el perfil longitudinal, así como la información adicional que en él aparecerá.
 

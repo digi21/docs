@@ -20,7 +20,7 @@ Como ocurre con el resto de herramientas del programa, éstas podrán ser ejecut
 * [Ficha de herramientas Trazado](../fichas-de-herramientas/ficha-de-herramientas-trazado.md)
 * [Ficha de herramientas Alzado](../fichas-de-herramientas/ficha-de-herramientas-alzado.md)
 
-Por último, también se disponen de herramientas de importación-exportación de otros formatos de dibujo, como pueden ser DIGI, DXF, DGN u otros programas de cálculo, permitiendo incorporar a los viales entidades previamente dibujadas en otros programas.
+Por último, también se disponen de herramientas de importación-exportación de otros formatos de dibujo, como pueden ser DIGI, DXF, DGN, Shape u otros programas de cálculo, permitiendo incorporar a los viales entidades previamente dibujadas en otros programas.
 
 Las herramientas de exportación generarán un documento nuevo con las entidades del tipo de vista actual, es decir, si la vista actual es la del Trazado, se exportarán las entidades en su forma planimétrica y si la vista es la del Alzado, se exportarán las entidades en su forma altimétrica.
 

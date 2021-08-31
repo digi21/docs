@@ -4,7 +4,7 @@ description: Cuadro de diálogo Presentación gráfica
 
 # Presentación gráfica
 
-![Cuadro de di&#xE1;logo Presentaci&#xF3;n gr&#xE1;fica](../../../.gitbook/assets/image%20%2879%29.png)
+![Cuadro de di&#xE1;logo Presentaci&#xF3;n gr&#xE1;fica](../../../.gitbook/assets/image%20%28102%29.png)
 
 Este cuadro de diálogo sirve para indicarle al programa cómo debe mostrar los perfiles calculados. Para ello se le indicará la separación de los perfiles y el orden de colocación de éstos, a través de los siguientes campos:
 

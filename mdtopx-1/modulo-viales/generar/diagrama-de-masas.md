@@ -8,6 +8,8 @@ description: Cuadro de diálogo Diagrama de masas
 
 Esta herramienta tiene como objetivo calcular un perfil longitudinal donde se muestre el movimiento de tierras total del vial, en función del punto kilométrico. Al ejecutar la herramienta, el programa solicita que se seleccione un trazado existente. Esta operación se realizará con el botón izquierdo del ratón sobre la vista de trazado. Tras esto, el programa mostrará un cuadro de diálogo.
 
+![Cuadro de di&#xE1;logo Diagrama de masas](../../../.gitbook/assets/image%20%2852%29.png)
+
 Los campos que se muestran en el cuadro de diálogo son los siguientes:
 
 * **Seleccionar Alzado**: Se deberá seleccionar el alzado con el que calcular el diagrama.
@@ -23,8 +25,8 @@ Los campos que se muestran en el cuadro de diálogo son los siguientes:
 * **Código texto**: Se indicará el código con el que se registrará el texto.
 * **Tamaño texto**: Se indicará el tamaño en metros del texto.
 * **Códigos de las líneas**: Se deberá indicar el código con el que se registrarán las diferentes líneas del diagrama:
-  * Guitarra: Caja exterior y líneas inferiores.
-  * Líneas internas: Líneas interiores de la caja.
+  * _Guitarra_: Caja exterior y líneas inferiores.
+  * _Líneas internas_: Líneas interiores de la caja.
 * **Volumen**: Línea que marca el volumen de tierras.
 * **Incluir escala vertical**: Si se desean líneas horizontales interiores cada x m3 de volumen.
 

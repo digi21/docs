@@ -8,6 +8,8 @@ description: Cuadro de diálogo Información del trazado
 
 Este cuadro de diálogo muestra información acerca de un trazado, como son sus características generales y las coordenadas de los puntos que definen su geometría.
 
+![Cuadro de di&#xE1;logo Informaci&#xF3;n del trazado](../../../.gitbook/assets/image%20%2858%29.png)
+
 Las características generales del trazados son:
 
 * **Nombre**: Se indicará un nombre para localizarlo con facilidad en los listados.
@@ -21,17 +23,17 @@ En el listado de puntos se incluyen los puntos que definen el estado de alineaci
 * **Radio**: Valor del radio en metros.
 * **Parámetro A**.
 
-Además, el programa permite Añadir, Editar o Borrar puntos utilizando los botones dispuestos al efecto.
+Además, el programa permite **Añadir**, **Editar** o **Borrar** puntos utilizando los botones dispuestos al efecto.
 
 Al realizar alguna de estas últimas operaciones, el programa comprueba la consistencia del trazado, evitando que se generen solapes entre elementos, normalmente curvos. Por ello, si un punto importante es eliminado, o se añaden puntos donde no se debe, o se edita algún punto incorrectamente, el programa puede generar un mensaje de error advirtiendo de la imposibilidad de la operación, debido al solape de elementos.
 
-Al pulsar el botón Añadir, se utilizará el punto actualmente seleccionado como punto anterior a donde será añadido el nuevo punto.
+Al pulsar el botón **Añadir**, se utilizará el punto actualmente seleccionado como punto anterior a donde será añadido el nuevo punto.
 
-Si se pulsa el botón Borrar sobre un punto Vértice o Tangente \(de entrada o salida\), se borrará todo el elemento curvo que representan.
+Si se pulsa el botón **Borrar** sobre un punto Vértice o Tangente \(de entrada o salida\), se borrará todo el elemento curvo que representan.
 
-También se presenta el botón Cerrar para poder cerrar el trazado. Para cerrar el trazado, el programa introducirá al final del listado un punto con las mismas coordenadas del primer punto. Si el trazado ya está cerrado este botón aparecerá desactivado.
+También se presenta el botón **Cerrar** para poder cerrar el trazado. Para cerrar el trazado, el programa introducirá al final del listado un punto con las mismas coordenadas del primer punto. Si el trazado ya está cerrado este botón aparecerá desactivado.
 
-Por último, aparecer el botón Exportar ASCII que permitirán generar un archivo con el listado del estado de alineaciones del vial mostrado. Al pulsarlo se mostrará el explorador de Windows para especificar el nombre y carpeta de destino. El archivo generado tiene el siguiente aspecto:
+Por último, aparecer el botón **Exportar ASCII** que permitirán generar un archivo con el listado del estado de alineaciones del vial mostrado. Al pulsarlo se mostrará el explorador de Windows para especificar el nombre y carpeta de destino. El archivo generado tiene el siguiente aspecto:
 
 ```text
 Punto X Y Radio A Tipo

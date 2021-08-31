@@ -6,7 +6,7 @@ description: Cuadro de diálogo Configuración de las líneas de la rejilla
 
 [Cuadro de diálogo Rejilla](./)
 
-![Cuadro de di&#xE1;logo Configuraci&#xF3;n de la rejilla](../../../.gitbook/assets/image%20%2871%29.png)
+![Cuadro de di&#xE1;logo Configuraci&#xF3;n de la rejilla](../../../.gitbook/assets/image%20%2890%29.png)
 
 En este cuadro de diálogo se podrá configurar la rejilla que el programa va a proyectar sobre el modelo digital. La rejilla podrá estar compuesta por perfiles horizontales y/o verticales. En él aparecen los siguientes campos a rellenar:
 

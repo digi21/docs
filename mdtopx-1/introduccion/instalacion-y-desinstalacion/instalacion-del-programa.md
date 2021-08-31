@@ -5,14 +5,14 @@ En esta sección se describe cómo instalar MDTopX en el disco duro e iniciar la
 * Descargue el archivo de instalación desde [www.digi21.net](https://www.digi21.net/MDTop/Download), que tendrá extensión MSI.
 * Ejecute el archivo
 
-![](../../../.gitbook/assets/image%20%2877%29.png)
+![](../../../.gitbook/assets/image%20%2898%29.png)
 
 * Siga las instrucciones que muestra el programa instalador, que le permitirá especificar el directorio de destino y los módulos opcionales a ser instalados. Estos módulos opcionales son los siguientes:
   * **Típica**: Instala todos los archivos adicionales salvo los ejemplos
   * **Personalizada**: Permite seleccionar los archivos a instalar
   * **Completa**: Instala todos los archivos, incluidos los ejemplos
 
-![](../../../.gitbook/assets/image%20%2856%29.png)
+![](../../../.gitbook/assets/image%20%2869%29.png)
 
 * Si se elige la opción **Personalizada**, se podrá elegir los archivos a instalar:
   * Aplicación principal
@@ -24,5 +24,5 @@ En esta sección se describe cómo instalar MDTopX en el disco duro e iniciar la
   * Librería ScanStation
   * Ejemplos
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2844%29.png)
 

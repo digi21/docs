@@ -6,7 +6,7 @@ description: Cuadro de diálogo Sombreado
 
 [Sombreado](../../como.../como-sombreado.md)
 
-![Cuadro de di&#xE1;logo Sombreado](../../../.gitbook/assets/image%20%2838%29.png)
+![Cuadro de di&#xE1;logo Sombreado](../../../.gitbook/assets/image%20%2840%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

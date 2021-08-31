@@ -8,6 +8,8 @@ description: Cuadro de diálogo Configuración de la planta
 
 Desde este cuadro de diálogo se pueden modificar algunas opciones que afectarán al documento con la planta generado al proyectar un documento de viales sobre un modelo digital.
 
+![Cuadro de di&#xE1;logo Configuraci&#xF3;n de la planta](../../../.gitbook/assets/image%20%2839%29.png)
+
 Estas opciones son las siguientes:
 
 * **Distancia entre transversales**: Se indicará la distancia en metros de separación entre los transversales a la traza que ayudarán en la definición del vial.

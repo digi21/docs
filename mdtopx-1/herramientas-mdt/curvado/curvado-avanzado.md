@@ -4,7 +4,7 @@ description: Cuadro de diálogo Opciones de generalización
 
 # Opciones de generalización
 
-![Cuadro de di&#xE1;logo Opciones de generalizaci&#xF3;n](../../../.gitbook/assets/image%20%2850%29.png)
+![Cuadro de di&#xE1;logo Opciones de generalizaci&#xF3;n](../../../.gitbook/assets/image%20%2856%29.png)
 
 En este cuadro de diálogo se pueden indicar valores diferentes de generalización que las recomendadas según la escala de curvado. Aquí aparecen los siguientes campos a rellenar:
 

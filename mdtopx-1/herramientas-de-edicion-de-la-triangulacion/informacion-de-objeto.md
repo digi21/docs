@@ -6,6 +6,8 @@ description: Cuadro de diálogo Información de Objeto
 
 [Objetos MDT](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/objetos-mdt.md)
 
+![Cuadro de di&#xE1;logo Informaci&#xF3;n de objeto](../../.gitbook/assets/image%20%2894%29.png)
+
 Mediante este cuadro de diálogo se pueden ver y editar las propiedades de un objeto incluido en el MDT. Cuando se llama a la herramienta, el programa solicita que se seleccione gráficamente el objeto del que se quieren ver sus propiedades. Esto se realizará con el botón izquierdo el ratón. Aceptando igualmente con el botón izquierdo del ratón, el programa muestra un cuadro de diálogo con la siguiente información:
 
 * **Tipo**: Se indicará qué tipo de objeto es, teniendo como opciones: Edificio, Puente y Árbol.

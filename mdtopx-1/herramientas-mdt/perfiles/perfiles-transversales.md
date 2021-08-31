@@ -14,7 +14,7 @@ Este cuadro de diálogo se organiza en tres pestañas:
 
 ### Geometría
 
-![Cuadro de di&#xE1;logo Transversales, pesta&#xF1;a Geometr&#xED;a](../../../.gitbook/assets/image%20%2854%29.png)
+![Cuadro de di&#xE1;logo Transversales, pesta&#xF1;a Geometr&#xED;a](../../../.gitbook/assets/image%20%2866%29.png)
 
 En esta pestaña aparecen los siguientes campos a rellenar:
 
@@ -28,7 +28,7 @@ En esta pestaña aparecen los siguientes campos a rellenar:
 
 ### Presentación gráfica
 
-![Cuadro de di&#xE1;logo Transversales, pesta&#xF1;a Presentaci&#xF3;n gr&#xE1;fica](../../../.gitbook/assets/image%20%2858%29.png)
+![Cuadro de di&#xE1;logo Transversales, pesta&#xF1;a Presentaci&#xF3;n gr&#xE1;fica](../../../.gitbook/assets/image%20%2873%29.png)
 
 En esta pestaña aparecen los siguientes campos a rellenar:
 
@@ -45,7 +45,7 @@ En esta pestaña aparecen los siguientes campos a rellenar:
 
 ### Ficheros de salida
 
-![Cuadro de di&#xE1;logo Transversales, pesta&#xF1;a Ficheros de salida](../../../.gitbook/assets/image%20%2875%29.png)
+![Cuadro de di&#xE1;logo Transversales, pesta&#xF1;a Ficheros de salida](../../../.gitbook/assets/image%20%2896%29.png)
 
 En esta pestaña aparecen los siguientes campos a rellenar:
 

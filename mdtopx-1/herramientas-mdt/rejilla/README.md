@@ -6,7 +6,7 @@ description: Cuadro de diálogo Rejilla
 
 [Rejilla](../../como.../como-rejilla.md)
 
-![Cuadro de di&#xE1;logo Rejilla](../../../.gitbook/assets/image%20%2866%29.png)
+![Cuadro de di&#xE1;logo Rejilla](../../../.gitbook/assets/image%20%2884%29.png)
 
 La aplicación permite generar una rejilla formada por puntos o lineales obtenida al proyectar dichas entidades sobre el modelo digital. Para ello aparecen los siguientes campos a rellenar:
 

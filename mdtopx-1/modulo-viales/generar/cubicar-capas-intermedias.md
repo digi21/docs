@@ -6,6 +6,8 @@ description: Cuadro de diálogo Cubicar capas intermedias
 
 [Viales Generar](../../fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)
 
+![Cuadro de di&#xE1;logo cubicar capas intermedias](../../../.gitbook/assets/image%20%2861%29.png)
+
 Desde esta herramienta, el usuario puede calcular el volumen de las capas intermedias definidas en las secciones tipo aplicadas en un determinado vial. La cubicación se hace mediante perfiles transversales. Al seleccionar la herramienta se muestra un cuadro de diálogo con los siguientes campos:
 
 * **Separación**: Se indicará la separación en metros a lo largo del trazado entre cada perfil transversal.

@@ -8,6 +8,8 @@ description: Cuadro de diálogo Tabla de peraltes
 
 Desde este cuadro de diálogo, el usuario podrá diseñar la tabla de peraltes que podrá ser aplicada en los trazados de los viales.
 
+![Cuadro de di&#xE1;logo Tabla de peraltes](../../../.gitbook/assets/image%20%28106%29.png)
+
 Los campos que se muestran para crear la tabla de peraltes son:
 
 * **Nombre**: Nombre con el que se identificará de forma unívoca la tabla de peraltes que se está definiendo.

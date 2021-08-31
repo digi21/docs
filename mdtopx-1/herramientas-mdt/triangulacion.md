@@ -6,7 +6,7 @@ description: Cuadro de diálogo Triangulación
 
 [Triangulación](../como.../como-triangulacion.md)
 
-![Cuadro de di&#xE1;logo Triangulaci&#xF3;n](../../.gitbook/assets/image%20%2851%29.png)
+![Cuadro de di&#xE1;logo Triangulaci&#xF3;n](../../.gitbook/assets/image%20%2859%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

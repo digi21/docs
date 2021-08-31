@@ -8,6 +8,8 @@ description: Cuadro de diálogo Rotular vial
 
 Con esta herramienta se pueden mostrar en pantalla elementos que ayudarán a la comprensión de los trazados generados. Estos elementos consisten en marcas perpendiculares al avance del vial que podrán llevar textos anexos con las características del vial en ese punto.
 
+![Cuadro de di&#xE1;logo Rotular vial](../../../.gitbook/assets/image%20%2881%29.png)
+
 Cuando se llama a esta herramienta, la aplicación muestra un cuadro de diálogo que contiene los siguientes campos:
 
 * **Marcas perpendiculares al trazado**: Se podrán generar marcas a modo de líneas perpendiculares al trazado, según una distancia dada, así como en los puntos singulares, si se activa la casilla correspondiente. Estas líneas tendrán el ancho y código especificados.

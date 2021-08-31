@@ -6,7 +6,7 @@ description: Cuadro de diálogo Plataformas
 
 [Plataformas](../como.../como-plataformas.md)
 
-![Cuadro de di&#xE1;logo Plataformas](../../.gitbook/assets/image%20%2844%29.png)
+![Cuadro de di&#xE1;logo Plataformas](../../.gitbook/assets/image%20%2848%29.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
