@@ -36,3 +36,5 @@ El guion `publicar.cmd` tiene en cuenta todo esto y realiza las siguientes accio
 
 
 
+
+"> L¡nea a¤adida de prueba manualmente (Asier Izquierdo)" 
