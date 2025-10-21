@@ -32,10 +32,11 @@ El guion `publicar.cmd` tiene en cuenta todo esto y realiza las siguientes accio
 
 
 
+ayuda aÃ±adida por Asier Izquierdo el 16/10/2025
+
+Commit firmado digitalmente (GPG) por Asier Izquierdo
 
 
 
 
-
-"> L¡nea a¤adida de prueba manualmente (Asier Izquierdo)" 
 
