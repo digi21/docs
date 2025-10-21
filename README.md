@@ -29,6 +29,9 @@ El guion `publicar.cmd` tiene en cuenta todo esto y realiza las siguientes accio
 - Elimina el worktree.
 - Hace un push a la rama _gh-pages_. 
 
+Nota: contribución de prueba firmada digitalmente (Asier-izquierdo)
+
+
 
 
 
