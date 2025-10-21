@@ -30,6 +30,8 @@ El guion `publicar.cmd` tiene en cuenta todo esto y realiza las siguientes accio
 - Hace un push a la rama _gh-pages_. 
 
 Nota: contribución de prueba firmada digitalmente (Asier-izquierdo)
+lo firmo digitalmente
+
 
 
 
