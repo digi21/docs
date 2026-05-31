@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Suavizado
----
-
 # Suavizado
 
 [VirtuaLand Editar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-editar.md)

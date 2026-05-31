@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar puntos en Superficies Planas
----
-
 # Buscar puntos en Superficies Planas
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
@@ -39,6 +35,4 @@ Vea también:
 * [Buscar puntos según Área de superficie](buscar-puntos-segun-area.md)
 * [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)
 
-<video controls><source src="https://youtu.be/qm8dz4AmSRQ" type="video/mp4"></video>
-Buscar edificios en un archivo LiDAR
-
+[Ver video: Buscar edificios en un archivo LiDAR](https://youtu.be/qm8dz4AmSRQ)

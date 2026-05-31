@@ -619,7 +619,7 @@
     * [Python](digi3d-net/programacion/python/README.md)
       * [Tipos](digi3d-net/programacion/python/tipos.md)
       * [Crear tramos para unir curvas](digi3d-net/programacion/python/crear_tramos_para_unir_curvas.md)
-  * [Referencia](digi3d-net/referencia/README.md)
+  * [Referencia](referencia.md)
     * [Digi3D.NET](digi3d-net/referencia/README.md)
       * [Órdenes](digi3d-net/referencia/ordenes/README.md)
         * [Variables](digi3d-net/referencia/ordenes/variables/README.md)

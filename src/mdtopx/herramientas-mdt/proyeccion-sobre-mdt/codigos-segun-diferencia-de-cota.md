@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Códigos según diferencia de cota
----
-
 # Códigos según diferencia de cota
 
 ![Cuadro de diálogo Códigos según diferencia de cota](../../../.gitbook/assets/image-151.png)

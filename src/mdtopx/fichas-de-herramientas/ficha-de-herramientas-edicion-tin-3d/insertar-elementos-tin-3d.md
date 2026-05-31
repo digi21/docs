@@ -9,4 +9,3 @@ Este apartado contiene herramientas para incluir nuevos puntos en el modelo. Est
   * Señalar en pantalla el límite de la zona donde se introducirán los puntos. Para ello se irán introduciendo puntos de este límite con el botón izquierdo del ratón, terminando con el botón derecho del ratón. Si, en el momento de dibujo, algún punto del límite es erróneo, se podrá pulsar la tecla RETROCESO para eliminar el último punto introducido.
   * A continuación, el programa mostrará un cuadro de diálogo con el que se calculará el plano. Para ello, el usuario deberá ir seleccionando puntos del modelo con los que se realizará dicho cálculo. Para más información, consulte la herramienta Calcular un plano.
   * Por último, el programa mostrará un cuadro de diálogo para indicar la densidad en X e Y de la nueva malla de puntos que pertenecerán al plano calculado dentro del límite indicado.
-

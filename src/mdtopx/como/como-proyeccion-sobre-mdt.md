@@ -9,9 +9,8 @@ Se precisa un modelo digital generado que será el documento que está activo en
 La llamada a esta herramienta se puede hacer de las siguientes formas:
 
 * Pulsar el botón Proyectar de la ficha de [Herramientas MDT](/mdtopx/herramientas-mdt/)
-* Pulsar la combinación de teclas \[CTRL\] + \[U\].
+* Pulsar la combinación de teclas \[CTRL] + \[U].
 
-Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/proyeccion-sobre-mdt/)para indicar las opciones de la proyección. Si el botón Aceptar es pulsado, el programa proyectará el archivo indicado, generando un nuevo documento que se mostrará en pantalla. Este documento se podrá salvar posteriormente en formato DIGI, DXF, DGN o Shape.
+Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/proyeccion-sobre-mdt/) para indicar las opciones de la proyección. Si el botón Aceptar es pulsado, el programa proyectará el archivo indicado, generando un nuevo documento que se mostrará en pantalla. Este documento se podrá salvar posteriormente en formato DIGI, DXF, DGN o Shape.
 
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-proyectar-sobre-mdt.md).
-

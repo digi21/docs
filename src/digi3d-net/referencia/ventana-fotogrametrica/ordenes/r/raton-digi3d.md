@@ -44,12 +44,12 @@ Esta orden no puede descapturar ratones configurados como ratones de uso exclusi
 Existen dos formas de capturar el ratón en la ventana fotogramétrica:
 
 1. Haciendo clic con el ratón en la ventana fotogramétrica \(si está activa la opción _Capturar el ratón al hacer clic_ de la sección _Estereoscopía_ del cuadro de diálogo _Configuración._
-2. Ejecutando la orden _RATON\_DIGI3D_.
+2. Ejecutando la orden _RATÓN\_DIGI3D_.
 
 Existen tres formas de liberar el ratón de la ventana fotogramétrica:
 
 1. Pulsando la tecla _Ctrl_ del teclado y mantenerla pulsada. Mientras la mantengamos pulsada se liberará el ratón que podremos utilizar para interactuar con los elementos de interfaz de usuario del programa, como por ejemplo menús o barras de herramientas. En el momento en el que soltemos la tecla _Ctrl_ el ratón volverá a capturarse.
-2. Ejecutando la orden _RATON\_DIGI3D_.
+2. Ejecutando la orden _RATÓN\_DIGI3D_.
 3. Pulsando _Enter_ y luego _Esc_. Al pulsar _Enter_ se mostrará la ventana para introducir órdenes. Al pulsar la tecla _Esc_ cerraremos esta ventana. Esta combinación de teclas libera el ratón de la ventana fotogramétrica si estaba capturado.
 
 ## Características de la orden

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cambiar clasificación
----
-
 # Cambiar clasificación
 
 [Según clasificación LIDAR](/mdtopx/modulo-laser/segun-clasificacion-lidar/)

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar intersecciones
----
-
 # Buscar intersecciones
 
 [Cuadro de diálogo Calcular alzado nuevo](calcular-alzado-nuevo/)
@@ -19,4 +15,3 @@ Si el programa encuentra intersecciones en planta entre los trazados seleccionad
 * **Variar parámetro Kv**: Permite variar el parámetro del acuerdo parabólico si el punto de corte se encuentra en el desarrollo de éste.
 * **Mover el alzado**: Permite mover todo el alzado hasta hacer coincidir las cotas.
 * **Insertar vértice nuevo**: Permite insertar un vértice nuevo con la cita cota. Sólo estará activo si el corte no se produce en el desarrollo de un acuerdo.
-

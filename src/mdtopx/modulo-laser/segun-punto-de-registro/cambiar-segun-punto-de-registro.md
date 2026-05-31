@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cambiar según punto de registro
----
-
 # Cambiar según punto de registro
 
 [Según punto de registro](/mdtopx/modulo-laser/segun-punto-de-registro/)

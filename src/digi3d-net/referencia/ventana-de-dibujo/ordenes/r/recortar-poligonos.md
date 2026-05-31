@@ -1,4 +1,4 @@
-# RECORTAR\_POLIGONOS
+# RECORTAR\_POLÍGONOS
 
 Recorta todos los polígonos que interseccionen con un límite.
 

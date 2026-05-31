@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Seleccionar según punto de registro
----
-
 # Seleccionar según punto de registro
 
 [Según punto de registro](/mdtopx/modulo-laser/segun-punto-de-registro/)

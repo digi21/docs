@@ -12,7 +12,7 @@ El botón **Deshacer**, solamente te permite deshacer las últimas entidades que
 
 1. **Digitaliza** varias [líneas](/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-de-dibujo\dibujando-primeras-lineas.md) en el archivo de dibujo.
 2. **Sal** de Digi3D.NET, tecleando en la Barra de comandos [FIN](/digi3d-net/referencia/ventana-de-dibujo/ordenes/f/fin.md).
-3. Selecciona la opción de menú **Archivo/Nuevo/Abrir modelo fotogramétrico o archivo de dibujo...** para abrir el fichero sobre el que estes trabajando.
+3. Selecciona la opción de menú **Archivo/Nuevo/Abrir modelo fotogramétrico o archivo de dibujo...** para abrir el fichero sobre el que estés trabajando.
 4. Localiza la [Barra de herramientas Eliminar y recuperar](/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-de-dibujo/BarraDeHerramientasEliminarYRecuperar.html), si no la encuentras pulsa [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md) para localizarla.
 5. Pulsa sobre el botón **Eliminar la última entidad**, este botón elimina la última entidad independientemente de que la hayas dibujado ahora o con anterioridad. Cada vez que pulses sobre esté botón se irán eliminando las últimas entidades digitalizadas.
 

@@ -16,7 +16,7 @@ Este proceso no elimina información de tu llave, de modo que si en ésta tienes
 
     Los instaladores de estos programas instalan entre otras cosas la **Suite de aplicaciones Licencias**. Si estás utilizando un instalador antiguo que no lo incluya, descarga e instala la [Suite de aplicaciones Licencias](https://digi21.blob.core.windows.net/download/SetupSuiteLicencias\_es-ES.exe).
 2. Haz clic en este enlace: [http://localhost:1947/\_int\_/devices.html](http://localhost:1947/\_int\_/devices.html). Aparecerá una página web titulada _Sentinel Admin Control Center_.\
-   En el contenido principal de la página verás una tabla con varias columnas: _Location, Vendor, Key ID, Key Type, Configuration, Version, Sessions_ y _Actions_.
+   En el contenido principal de la página verás una tabla con varias columnas: _Location, Vendor, Key ID, Key Type, Configuration, Versión, Sessions_ y _Actions_.
 3. Asegúrate de que tienes conectada la llave de protección en su correspondiente puerto _USB_. La llave tiene un piloto que debe estar encendido. Si no está encendido, desconéctala y vuélvela a conectar. Espera un rato a que se instale su controlador. Si no se enciende, prueba en otro puerto USB. Si sigue sin encenderse ponte en contacto con el soporte técnico de _Digi21_ en la siguiente dirección: [http://soporte.digi21.net](http://soporte.digi21.net/)
 4. En la tabla aparecerá tantas llaves de protección como se localicen tanto en tu propio ordenador como en la red de la empresa (si es que el ordenador está conectado a la red).
 5.  Localiza tu llave de protección. Será la única que tiene las siguientes características:\
@@ -25,7 +25,7 @@ Este proceso no elimina información de tu llave, de modo que si en ésta tienes
     | Location | Local |
     | -------- | ----- |
     | Vendor   | 78585 |
-6. Comprueba que en la columna _Version_ tienes el valor **3.25** o superior.\
+6. Comprueba que en la columna _Versión_ tienes el valor **3.25** o superior.\
    Si el valor que aparece en esta columna es inferior a 3.25, sigue los pasos del tutorial [Actualizando el firmware de tu llave de protección Hasp HL](/acerca-llaves-proteccion/obtener-una-llave-de-proteccion/actualizando-tu-llave-de-proteccion/actualizando-llave-hasp-hl/actualizando-firmware.md).
 7. Descarga ejecuta el programa [ActualizarLlaveLDK.exe](http://digi21.blob.core.windows.net/download/ActualizarLlaveLDK.exe)\
    Este programa sirve para analizar tu llave de protección y crear un archivo que nos va a permitir reprogramarla remotamente.

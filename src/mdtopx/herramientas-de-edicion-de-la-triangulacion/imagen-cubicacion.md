@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Imagen Cubicación
----
-
 # Imagen Cubicación
 
 [Generar a partir del TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/generar-a-partir-del-tin.md)

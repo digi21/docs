@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Opciones de generalización
----
-
 # Opciones de generalización
 
 ![Cuadro de diálogo Opciones de generalización](../../../.gitbook/assets/image-46.png)

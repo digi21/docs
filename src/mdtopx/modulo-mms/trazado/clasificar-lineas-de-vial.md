@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Clasificar líneas de vial
----
-
 # Clasificar líneas de vial
 
 [Ficha de herramientas MMS Trazado](./)
@@ -41,9 +37,7 @@ El cuadro de diálogo necesita los siguientes datos:
   * Tipología
   * Buscar bordillos
 
-<video controls><source src="https://youtu.be/vWYrTWfFrps" type="video/mp4"></video>
-Detección de asfalto en un vial a partir de datos MMS
-
+[Detección de asfalto en un vial a partir de datos MMS (ver video en YouTube)](https://youtu.be/vWYrTWfFrps)
 
 Vea también:‌
 

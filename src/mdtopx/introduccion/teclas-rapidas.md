@@ -48,4 +48,3 @@ Por defecto, las teclas con operaciones asociadas son las siguientes:
 | RePag | Zoom Out |
 | Supr | Borrar elementos |
 | Ins | Insertar vértices nuevos en MDT |
-

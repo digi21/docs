@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Líneas de unión
----
-
 # Líneas de unión
 
 [Módulo Ortofoto](/mdtopx/modulo-ortofoto/)
@@ -10,7 +6,7 @@ Esta herramienta está destinada a la generación de las líneas de unión entre
 
 Los parámetros y campos que se muestran son los siguientes:
 
-* **Ficheros con imágenes**: En este listado se podrán añadir todos los archivos con las ortofotos con las que se quieren calcular las líneas de unión para generar posteriormente un mosaico. Se podrán añadir o eliminar elementos utilizando los botones Añadir o Borrar respectivamente.
+* **Ficheros con imágenes**: En este listado se podrán añadir todos los archivos con las ortofotos con las que se quieren calcular las líneas de unión para generar posteriormente un mosaico. Se podrán añadir o eliminar elementos utilizando los botones **Añadir** o **Borrar** respectivamente.
 * **Filtro**: Para la búsqueda de la mejor zona de la línea de corte, el programa busca donde las imágenes son más parecidas y dónde están los cambios de tonalidad, es decir, los bordes. Para esta búsqueda de bordes se pueden utilizar varios algoritmos: Prewitt , Sobel de 2 direcciones o Sobel de 8 direcciones.
 * **Nivel de detalle**: Se podrá seleccionar el nivel de detalle que se desea utilizar en la búsqueda de detalles en las zonas comunes de las ortofotos para registrar las líneas de unión. A mayor detalle, mayor tiempo de cálculo. A menor detalle, menos sensibilidad a las posibles diferencias encontradas entre las ortofotos. Existen cinco niveles de detalle: Fino, Medio-Fino, Medio, Medio-Rápido y Rápido
 * **Datos de salida**: Debido a que el resultado es un archivo vectorial con los límites y los nombres de archivo de cada ortofoto, se podrán seleccionar los códigos que se utilizarán para registrar las entidades así como el tamaño de los centroides.
@@ -19,4 +15,3 @@ Vea también:
 
 * [Cálculo de Ortofoto](calculo-de-ortofoto.md)
 * [Cálculo de Mosaico](mosaico-ortos.md)
-

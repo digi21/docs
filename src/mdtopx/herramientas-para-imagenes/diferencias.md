@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Diferencias
----
-
 # Diferencias
 
 [Calcular](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/imagen-calcular.md)
@@ -14,7 +10,7 @@ El cuadro de diálogo precisa de los siguientes campos:
 
 * **Fichero a comparar**: Se deberá indicar la ubicación de la imagen que se comparará con el documento actual.
 * **Modo de cálculo**: Existen tres maneras diferentes de comparar las imágenes:
-* **Utilizar sólo H \(Tono\)**: Se transformarán todos los píxeles RGB a la terna HSV, pero sólo se utilizará el primero \(Tono\) para realizar la comparación.
+* **Utilizar sólo H \(Tono)**: Se transformarán todos los píxeles RGB a la terna HSV, pero sólo se utilizará el primero \(Tono) para realizar la comparación.
 * **Utilizar diferencia RGB**: Se compararán directamente los píxeles almacenados como RGB.
 * **Utilizar diferencias HSV**: Se transformarán todos los píxeles RGB a la terna HSV y se compararán sus tres componentes.
 * **Utilizar umbral**: El usuario podrá indicar un valor umbral para indicar que existe diferencia entre las imágenes. Existen diferentes niveles:
@@ -22,4 +18,3 @@ El cuadro de diálogo precisa de los siguientes campos:
   * Dos índices superiores al umbral: Para considerar que hay diferencia, al menos dos de las tres componentes deberán ser superiores al umbral.
   * Al menos un índice superior al umbral: Para considerar que hay diferencia, al menos una de las tres componentes deberá ser superior al umbral.
   * Suma de los índices superior al umbral: Para considerar que hay diferencia, la suma de las tres componentes deberá ser superior al umbral.
-

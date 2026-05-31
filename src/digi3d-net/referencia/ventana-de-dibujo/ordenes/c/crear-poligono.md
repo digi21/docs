@@ -1,4 +1,4 @@
-# CREAR\_POLIGONO
+# CREAR\_POLÍGONO
 
 Permite la creación de polígonos.
 

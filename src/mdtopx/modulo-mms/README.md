@@ -8,20 +8,15 @@ El módulo MMS tiene como objetivo la gestión y tratamiento de archivos procede
 
 Las herramientas de este módulo están dispuestas en la cinta de [Herramientas MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md).
 
-<video controls><source src="https://youtu.be/EppZkcVY1MM" type="video/mp4"></video>
-Gestión de nube de puntos registrada con sensor MMS
+[Ver video: Gestión de nube de puntos registrada con sensor MMS](https://youtu.be/EppZkcVY1MM)
 
+[Ver video: Gestión de nube de puntos de sensor Leica Pegasus Backpack](https://youtu.be/6pgNWc6ZQhI)
 
-<video controls><source src="https://youtu.be/6pgNWc6ZQhI" type="video/mp4"></video>
-Gestión de nube de puntos de sensor Leica Pegasus Backpack
-
-
-\
 Para realizar las operaciones necesarias para el tratamiento de datos MMS, es importante que el equipo tenga suficiente memoria RAM para albergar los diferentes cálculos. El mínimo estaría en 8 Gb, aunque es recomendable tener 16 Gb. Aunque no se van a realizar visualizaciones de muchos datos, se recomienda que, al menos, la tarjeta de video tenga 1 Gb de RAM. Por último, los datos son voluminosos y aunque no se van a generar muchos datos adicionales, se necesitarán 4 Gb de espacio libre en el disco duro por cada kilómetro de registro.
 
 Los archivos con la información MMS pueden ser de dos tipos: [nubes de puntos](archivos-de-nubes-de-puntos-mms.md) o [imágenes 360º](archivos-de-imagen-360-mms.md).
 
-Aunque podemos abrir un archivo de forma individual para analizar alguna de sus propiedades o simplemente visualizar, es más correcto tener todos los archivos relacionados en un único espacio. Para ello, se puede crear un [proyecto](../operaciones-con-archivos/proyectos-de-mdtopx.md)donde se podrán añadir archivos de diferente índole: vectoriales, ráster, modelos digitales o archivos de geometría. Un proyecto sólo es una relación de archivos; éstos no se duplican, sólo se almacena la dirección donde están almacenados en el disco.
+Aunque podemos abrir un archivo de forma individual para analizar alguna de sus propiedades o simplemente visualizar, es más correcto tener todos los archivos relacionados en un único espacio. Para ello, se puede crear un [proyecto](../operaciones-con-archivos/proyectos-de-mdtopx.md) donde se podrán añadir archivos de diferente índole: vectoriales, ráster, modelos digitales o archivos de geometría. Un proyecto sólo es una relación de archivos; éstos no se duplican, sólo se almacena la dirección donde están almacenados en el disco.
 
 No obstante, se recomienda crear un proyecto donde incluir las nubes de puntos y otro proyecto donde incluir las imágenes 360, si estas han sido tomadas. La [gestión de las imágenes 360](gestion-de-imagenes-360.md) requiere un tratamiento especial.
 

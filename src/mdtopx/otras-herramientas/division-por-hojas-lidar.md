@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo División por hojas LiDAR
----
-
 # División por hojas LiDAR
 
 [Panel Proyecto](/mdtopx/introduccion/paneles-de-la-aplicacion/panel-proyecto.md)
@@ -20,4 +16,3 @@ Los campos que presenta son los siguientes:
 * **Sufijo**: Se podrá indicar una serie de caracteres como sufijo al nombre original. Además, se deberán indicar con almohadillas la posición de los índices de archivo generados.
 * **Formato**: Se podrá indicar el formato de archivo vectorial que se desea utilizar para guardar las hojas resultantes.
 * **Destino**: Se podrá indicar una carpeta de destino donde se almacenarán las hojas.
-

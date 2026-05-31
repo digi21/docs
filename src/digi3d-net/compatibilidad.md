@@ -31,9 +31,9 @@ Determinadas funcionalidades de Digi3D.NET requieren que la tarjeta gráfica dis
 
 El mejor sistema de visión estereoscópica es el monitor _Stereo mirror_. Puedes adquirir uno directamente la página web: [https://www.vrlogic.com/hardware/sonic4](https://www.vrlogic.com/hardware/sonic4).
 
-Si el precio del monitor _Stereo mirror_ te parece excesivo, puedes adquirir monitores 3D y gafas compatibles con el sistema _NVidia 3D Vision_.
+Si el precio del monitor _Stereo mirror_ te parece excesivo, puedes adquirir monitores 3D y gafas compatibles con el sistema _NVidia 3D Visión_.
 
-NVidia 3D Vision se ha dejado de fabricar, pero el fabricante Stealth3DMouse fabrica gafas compatibles que puedes comprar en [Amazon USA](https://www.amazon.com/-/es/est%C3%A9reo-inal%C3%A1mbricas-emisor-tarjeta-gr%C3%A1fica/dp/B081TYBMMC/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=3d%20vision&qid=1613125042&sr=8-1&fbclid=IwAR1eiqNqZ6IfZ0dgxg5W6R7IB0AT3CZLDDbWN56KAHtmXi7zP9gxGFtIZgc).
+NVidia 3D Visión se ha dejado de fabricar, pero el fabricante Stealth3DMouse fabrica gafas compatibles que puedes comprar en [Amazon USA](https://www.amazon.com/-/es/est%C3%A9reo-inal%C3%A1mbricas-emisor-tarjeta-gr%C3%A1fica/dp/B081TYBMMC/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=3d%20vision&qid=1613125042&sr=8-1&fbclid=IwAR1eiqNqZ6IfZ0dgxg5W6R7IB0AT3CZLDDbWN56KAHtmXi7zP9gxGFtIZgc).
 
 Cada día es más complicado encontrar monitores 3D, pero aún queda algún fabricante. Aquí tienes uno en Amazon España.
 

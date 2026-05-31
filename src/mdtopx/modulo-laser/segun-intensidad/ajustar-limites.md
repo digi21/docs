@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Ajustar límites
----
-
 # Ajustar límites
 
 [Según intensidad](/mdtopx/modulo-laser/segun-intensidad/)

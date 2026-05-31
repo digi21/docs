@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Líneas eléctricas
----
-
 # Líneas eléctricas
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Perfiles transversales de viales
----
-
 # Perfiles transversales de viales
 
 [Módulo Viales](/mdtopx/modulo-viales/)

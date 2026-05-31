@@ -1,4 +1,4 @@
-# RECORTAR\_POLIGONO
+# RECORTAR\_POLÍGONO
 
 Recorta un polígono eliminando la parte de éste que intersecciona con un límite.
 

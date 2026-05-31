@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Ajustar a rango de altitudes
----
-
 # Ajustar a rango de altitudes
 
 [Cuadro de diálogo Mapa de tintas hipsométricas](./)

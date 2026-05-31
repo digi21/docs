@@ -1,10 +1,6 @@
----
-description: Cuadro de diálogo Información adicional de triangulación
----
-
 # Información adicional de triangulación
 
-[ Vista TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/vista-tin.md)
+[Vista TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/vista-tin.md)
 
 ![Cuadro de diálogo Información adicional de triangulación](../../.gitbook/assets/image-78.png)
 

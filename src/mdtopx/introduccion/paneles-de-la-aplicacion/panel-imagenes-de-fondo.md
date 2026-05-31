@@ -1,6 +1,6 @@
 # Panel imágenes de fondo
 
-&#x20;[Paneles de la aplicación](/mdtopx/introduccion/paneles-de-la-aplicacion/)
+[Paneles de la aplicación](/mdtopx/introduccion/paneles-de-la-aplicacion/)
 
 Este panel muestra las imágenes contenidas en un proyecto que se ha utilizado para cargarlas como fondo sobre una nube de puntos.
 

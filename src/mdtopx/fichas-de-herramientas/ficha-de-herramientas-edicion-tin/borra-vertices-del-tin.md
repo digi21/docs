@@ -6,8 +6,8 @@ Las herramientas para borrar puntos de un modelo digital tipo TIN están agrupad
 
 Las herramientas disponibles para borrar puntos son las siguientes:
 
-* ****[**Borra por pendientes**](../../herramientas-de-edicion-de-la-triangulacion/borrar-puntos-por-pendiente.md): Esta herramienta permite borrar puntos de la triangulación en función de la pendiente de los triángulos a los que pertenecen, pudiendo borrar aquellos que tengan demasiada pendiente o muy poca. útil para borrar puntos del modelo cuando proceden de una correlación fotogramétrica automática, ya que pueden aparecer algunos puntos erróneos
-* ****[**Borra por altitudes**](../../herramientas-de-edicion-de-la-triangulacion/borrar-puntos-por-altitudes.md): Esta herramienta permite borrar puntos de la triangulación en función de la altitud de dichos puntos
+* [**Borra por pendientes**](../../herramientas-de-edicion-de-la-triangulacion/borrar-puntos-por-pendiente.md): Esta herramienta permite borrar puntos de la triangulación en función de la pendiente de los triángulos a los que pertenecen, pudiendo borrar aquellos que tengan demasiada pendiente o muy poca. útil para borrar puntos del modelo cuando proceden de una correlación fotogramétrica automática, ya que pueden aparecer algunos puntos erróneos
+* [**Borra por altitudes**](../../herramientas-de-edicion-de-la-triangulacion/borrar-puntos-por-altitudes.md): Esta herramienta permite borrar puntos de la triangulación en función de la altitud de dichos puntos
 * **Borra vértices**: Este comando permite borrar vértices de la triangulación seleccionándolos gráficamente con el ratón. La aplicación recalcula en tiempo real la nueva triangulación sin el punto seleccionado. Para borrar puntos:
   * Seleccione la herramienta
   * Pulse con el botón izquierdo sobre el punto que se desea borrar

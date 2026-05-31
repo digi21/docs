@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Calcular plano
----
-
 # Calcular plano
 
 [Transformación de coordenadas](/mdtopx/otras-herramientas/transformacion-de-coordenadas.md)
@@ -15,5 +11,4 @@ Los campos y herramientas que presenta el cuadro de diálogo son los siguientes:
 * **Cargar**: Mediante este botón se podrá cargar un archivo de puntos que definen el plano.
 * **Parámetros**: Se muestran los parámetros del plano calculado a partir de los puntos del listado. Se muestran los tres parámetros del vector característico de la superficie más la desviación típica de cada uno de ellos.
 
-Aceptando el plano calculado el programa mostrará un [cuadro de diálogo](resultados-de-plano-calculado.md)con los resultados finales, para ser editados, aceptados o rechazados.
-
+Aceptando el plano calculado el programa mostrará un [cuadro de diálogo](resultados-de-plano-calculado.md) con los resultados finales, para ser editados, aceptados o rechazados.

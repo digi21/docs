@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Histograma
----
-
 # Histograma
 
 [Editar imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/editar-imagen.md)
@@ -24,5 +20,4 @@ A continuación, se muestra otro cuadro de diálogo donde permitirá elegir en q
 
 Vea también:
 
-*  [Brillo y Contraste](brillo-y-contraste.md)
-
+* [Brillo y Contraste](brillo-y-contraste.md)

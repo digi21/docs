@@ -13,4 +13,3 @@ El comportamiento de la aplicación para calcular el nuevo trazado variará en f
 * Si se edita un punto tangente de una curva que no sea una clotoide, se variará el radio del elemento curvo al que pertenece sin modificar la dirección de las tangentes.
 * Si se edita un punto tangente de una curva que sí sea una clotoide, se variará el parámetro de la clotoide sin variar ni el radio del elemento curvo central ni la dirección de las tangentes.
 * Si se modifica el vértice que contiene un elemento curvo, se modificará la dirección de las tangentes, sin modificar el valor del radio.
-

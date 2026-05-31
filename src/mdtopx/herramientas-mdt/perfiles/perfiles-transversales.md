@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Perfiles transversales
----
-
 # Perfiles transversales
 
 [Cuadro de diálogo Perfiles](./)
@@ -12,7 +8,7 @@ Este cuadro de diálogo se organiza en tres pestañas:
 * Presentación gráfica
 * Ficheros de salida
 
-### Geometría
+## Geometría
 
 ![Cuadro de diálogo Transversales, pestaña Geometría](../../../.gitbook/assets/image-50.png)
 
@@ -26,7 +22,7 @@ En esta pestaña aparecen los siguientes campos a rellenar:
 * **Bombeos**: Se indicarán los peraltes en tanto por ciento a izquierda y derecha que tendrá la rasante medidos a partir del eje.
 * **Taludes**: Se indicará la relación entre el desplazamiento en X e Y en los taludes para calcular la intersección de la rasante con el terreno, diferenciando entre desmonte y terraplén.
 
-### Presentación gráfica
+## Presentación gráfica
 
 ![Cuadro de diálogo Transversales, pestaña Presentación gráfica](../../../.gitbook/assets/image-51.png)
 
@@ -43,7 +39,7 @@ En esta pestaña aparecen los siguientes campos a rellenar:
   * _Presentación gráfica_: [Cuadro de diálogo](presentacion-grafica.md) donde se puede configurar la presentación de los perfiles en el archivo salida de dibujo.
   * _Configurar guitarra_: [Cuadro de diálogo](guitarra-de-perfiles-transversales.md) donde se puede configurar la guitarra de los perfiles transversales.
 
-### Ficheros de salida
+## Ficheros de salida
 
 ![Cuadro de diálogo Transversales, pestaña Ficheros de salida](../../../.gitbook/assets/image-52.png)
 

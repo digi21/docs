@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Remuestreo
----
-
 # Remuestreo
 
 [Editar imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/editar-imagen.md)
@@ -11,4 +7,3 @@ El objetivo de esta herramienta es el cambio del tamaño de píxel de una imagen
 Vea también:
 
 * [Piramidales](/mdtopx/herramientas-para-imagenes/piramidales.md)
-

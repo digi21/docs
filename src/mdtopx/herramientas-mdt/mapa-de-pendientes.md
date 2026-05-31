@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Mapa de Pendientes
----
-
 # Mapa de Pendientes
 
 [Mapa de pendientes](/mdtopx/como/como-mapa-de-pendientes.md)

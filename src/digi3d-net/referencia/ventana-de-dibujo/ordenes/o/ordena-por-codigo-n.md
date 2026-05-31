@@ -1,4 +1,4 @@
-# ORDENA\_POR\_CODIGO\_N
+# ORDENA\_POR\_CÓDIGO\_N
 
 Ordena por código numérico las entidades de un fichero, agrupando en el fichero las entidades por el código numérico al que pertenezcan.
 

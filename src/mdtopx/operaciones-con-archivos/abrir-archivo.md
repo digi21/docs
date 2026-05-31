@@ -2,7 +2,7 @@
 
 [Botón de MDTopX](/mdtopx/introduccion/boton-de-mdtopx.md)
 
-Para abrir un archivo existente, el usuario debe pulsar sobre el [botón de MDTopX](../introduccion/boton-de-mdtopx.md)y elegir el comando Abrir. A continuación, el programa mostrará el cuadro de diálogo de Exploración de Windows para elegir la ubicación y tipo de archivo que se desea abrir.
+Para abrir un archivo existente, el usuario debe pulsar sobre el [botón de MDTopX](../introduccion/boton-de-mdtopx.md) y elegir el comando Abrir. A continuación, el programa mostrará el cuadro de diálogo de Exploración de Windows para elegir la ubicación y tipo de archivo que se desea abrir.
 
 MDTopX contempla los siguientes tipos de documentos:
 
@@ -17,7 +17,7 @@ En función del tipo de archivo a abrir se creará un tipo de documento u otro.
 
 Los tipos de archivos contemplados en función del documento que se abrirá son:
 
-* \*\*\*\*[**Archivo de proyecto**](proyectos-de-mdtopx.md):
+* [**Archivo de proyecto**](proyectos-de-mdtopx.md):
   * MDTX: Archivos propios de proyecto de MDTopX
 * **Modelo digital del terreno**:
   * MDT: Archivos propios de MDTop que contienen un modelo digital del terreno de tipo TIN.
@@ -29,7 +29,7 @@ Los tipos de archivos contemplados en función del documento que se abrirá son:
     * Explotar los bloques: Convierte cada uno de los bloques leídos en líneas de dibujo.
     * Leerlos como puntos: Transforma los bloques leídos a entidades puntuales.
     * No leerlos: Ignora la inserción de bloques.
-  * DGN: Archivos de dibujo de MicroStation. MDTop admite archivos DGN de versiones MicroStation 7 o inferior. Al igual que ocurre con los archivos DXF, este tipo de archivos puede contener células, por lo que el programa mostrará un cuadro de diálogo \(explicado en el tipo de archivos anterior\) solicitando al usuario la manera de actuar con estos elementos.
+  * DGN: Archivos de dibujo de MicroStation. MDTop admite archivos DGN de versiones MicroStation 7 o inferior. Al igual que ocurre con los archivos DXF, este tipo de archivos puede contener células, por lo que el programa mostrará un cuadro de diálogo \(explicado en el tipo de archivos anterior) solicitando al usuario la manera de actuar con estos elementos.
   * PTS: Archivos de puntos de TopCal.
   * ASC: Archivos de formato ASCII con un listado de coordenadas X, Y, Z. La configuración de este tipo de archivos puede ser muy variable e incluir más campos adicionales. Por ello, al identificar el programa un archivo de este tipo, muestra un cuadro de diálogo con varias opciones que el usuario puede configurar:
     * Si cada registro tiene un primer campo como identificador.
@@ -51,4 +51,3 @@ Los tipos de archivos contemplados en función del documento que se abrirá son:
   * ECW
 * **Archivo con geometría de viales**:
   * VIA: Archivos propios de MDTop que contienen la definición del [trazado de viales](../modulo-viales/).
-

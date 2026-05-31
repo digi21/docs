@@ -73,7 +73,7 @@ Transformación con archivo de rejilla en formato NTV2: Transforma un archivo ut
 Puedes elegir entre distintas transformaciones:
 
 * Helmert
-* Afin
+* Afín
 * Absoluta
 * Translación
 * Cambio de huso

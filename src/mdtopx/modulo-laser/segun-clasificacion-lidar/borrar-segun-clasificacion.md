@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Borrar según clasificación
----
-
 # Borrar según clasificación
 
 [Según clasificación LIDAR](/mdtopx/modulo-laser/segun-clasificacion-lidar/)

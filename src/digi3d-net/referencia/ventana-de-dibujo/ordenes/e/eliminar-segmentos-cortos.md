@@ -7,7 +7,7 @@ Elimina automáticamente vértices de geometrías para evitar que éstas tengan 
 | Parámetro | Descripción |
 | :--- | :--- |
 | Perímetro | Valor de perímetro mínimo permitido. Si se detectan segmentos con un perímetro inferior al especificado en este valor, se considerará como error. |
-| Códigos | Código o códigos \(se pueden añadir tantos como se quiera separándolos con espacios\) de las entidades a analizar. Se pueden utilizar comodines como \* y ? y además se pueden especificar todos los códigos que tengan una etiqueta anteponiendo una almoadilla \(\#\) al nombre de la etiqueta, como por ejemplo \#vias\_de\_comunicacion |
+| Códigos | Código o códigos \(se pueden añadir tantos como se quiera separándolos con espacios\) de las entidades a analizar. Se pueden utilizar comodines como \* y ? y además se pueden especificar todos los códigos que tengan una etiqueta anteponiendo una almoadilla \(\#\) al nombre de la etiqueta, como por ejemplo \#vías\_de\_comunicación |
 
 ## Observaciones
 

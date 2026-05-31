@@ -9,7 +9,7 @@ Aprende a **cambiar el código** de una entidad siguiendo los siguientes pasos:
 5. **Confirma** la selección con el [botón de dato](cambiando-codigo-entidad.md) del ratón.
 6. Aparece el cuadro de diálogo **Editor de códigos**, **pulsa** sobre el botón **Borrar** para borrar el código que tiene.
 7. **Pulsa** el botón **Añadir nuevo**, para añadir un nuevo código
-8. **Busca** el código _050150 EDIF. CONSTRUCCION_ y **pulsa** el botón **Seleccionar**.
+8. **Busca** el código _050150 EDIF. CONSTRUCCIÓN_ y **pulsa** el botón **Seleccionar**.
 9. **Pulsa** el botón **Aceptar** y comprueba que el código del edificio se ha modificado.
 10. **Finaliza** la orden [EDITAR\_COD](/digi3d-net/referencia/ventana-de-dibujo/ordenes/e/editar-cod.md) del ratón.
 

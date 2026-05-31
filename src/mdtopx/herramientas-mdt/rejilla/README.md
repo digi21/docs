@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Rejilla
----
-
 # Rejilla
 
 [Rejilla](/mdtopx/desde-linea-de-comando/linea-de-comando-rejilla.md)
@@ -10,7 +6,7 @@ description: Cuadro de diálogo Rejilla
 
 La aplicación permite generar una rejilla formada por puntos o lineales obtenida al proyectar dichas entidades sobre el modelo digital. Para ello aparecen los siguientes campos a rellenar:
 
-* **Límites de la rejilla**: Se indicará las coordenadas máximas y mínimas en metros del rectángulo limite de la rejilla.
+* **Límites de la rejilla**: Se indicará las coordenadas máximas y mínimas en metros del rectángulo límite de la rejilla.
 * **Frecuencia de la rejilla**: Incremento en metros en X e Y de los puntos.
 * **Código de las entidades**: Código en el cual serán registradas las entidades que formen la rejilla.
 * **Tipo de entidades**: Las entidades generadas en la rejilla podrán ser Puntos o Líneas. En el caso de elegir entidades puntuales, se registrará un punto cada incremento de coordenadas tanto en X como en Y. Si se eligen entidades lineales, se registrará líneas horizontales y/o verticales cada incremento de coordenadas tanto en X como en Y.

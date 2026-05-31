@@ -92,11 +92,11 @@ BINTRAM=\[tabla] \[generar archivo de errores \*1] \[corregir errores autom \*2]
 
 \*1 Si verdadero, aparecen muchos parámetros que son:
 
-\[path al archivo de errores] \[truncar] \[tamaño del error] \[cod error interseccion] \[cod error extremos] \[cod error duplicados] \[cargar archivo referencia]
+\[path al archivo de errores] \[truncar] \[tamaño del error] \[cod error intersección] \[cod error extremos] \[cod error duplicados] \[cargar archivo referencia]
 
 * \[corregir errores autom \*2]: En caso de querer corregir líneas que no están conectadas y líneas que se sobrepasan se pondrá un 1 como verdadero
 
-\*2 Si Verdadero, aparece el parámetro \[tolerancia_minima]
+\*2 Si Verdadero, aparece el parámetro \[tolerancia_mínima]
 
 * \[detectar_intersecciones \*3]
 
@@ -120,7 +120,7 @@ BINTRAM=\[tabla] \[generar archivo de errores \*1] \[corregir errores autom \*2]
 
 1 = Marcar como error
 
-2 = Marcar como error con tolerancia máxima. Aparece el parámetro \[tolerancia_maxima]
+2 = Marcar como error con tolerancia máxima. Aparece el parámetro \[tolerancia_máxima]
 
 * \[detección de entidades duplicadas \*5]
 

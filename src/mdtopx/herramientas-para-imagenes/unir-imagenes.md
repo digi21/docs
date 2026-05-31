@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Unir imágenes
----
-
 # Unir imágenes
 
 [Calcular](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/imagen-calcular.md)
@@ -12,4 +8,3 @@ Vea también:
 
 * [Orientación](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/orientacion.md)
 * [Líneas de unión](/mdtopx/modulo-ortofoto/lineas-de-union.md)
-

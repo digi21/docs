@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Rejilla a partir de LIDAR
----
-
 # Rejilla a partir de LIDAR
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
@@ -12,7 +8,7 @@ Herramienta destinada a la generación de una rejilla regular de puntos, obtenid
 
 Los parámetros que precisa son los siguientes:
 
-* **Limites**: Se indicarán los límites correspondientes con las coordenadas X e Y máximas y mínimas.
+* **Límites**: Se indicarán los límites correspondientes con las coordenadas X e Y máximas y mínimas.
 * **Tamaño de celda**: Se indicará el tamaño de la celda de la rejilla.
 * **Control de calidad**: Se indicará si se desea realizar un control de calidad, es decir, comprobar si existen puntos que tienen una cota anormal con respecto al resto de puntos que están en la misma celda.
 * **Clasificar puntos**: Se indicará si se desean clasificar aquellos puntos que no superen el control de calidad, pudiéndolos asignar una clasificación en el campo Tipo

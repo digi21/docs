@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cubicar capas intermedias
----
-
 # Cubicar capas intermedias
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)

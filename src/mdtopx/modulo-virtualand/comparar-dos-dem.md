@@ -1,10 +1,6 @@
----
-description: Cuadro de diálogo Comparar dos DEM
----
-
 # Comparar dos DEM
 
-[ VirtuaLand General](../fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-general.md)
+[VirtuaLand General](../fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-general.md)
 
 Esta herramienta está destinada a la comparación de dos modelos digitales realizados de la misma zona. Su comparación permitirá emitir un informe de resultados con las diferencias encontradas.
 

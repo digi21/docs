@@ -1,4 +1,4 @@
-# FORZAR\_CODIGO\_ACTIVO
+# FORZAR\_CÓDIGO\_ACTIVO
 
 Si está activada, tanto en restitución como en edición, todas las entidades que genere cualquier orden como puedan ser [COPIAR](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/copiar.md) en el momento de la ejecución de dichas órdenes.
 

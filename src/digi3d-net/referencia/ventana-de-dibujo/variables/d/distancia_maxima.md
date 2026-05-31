@@ -1,4 +1,4 @@
-# DISTANCIA\_MAXIMA
+# DISTANCIA\_MÁXIMA
 
 Establece una restricción de tamaño máximo de segmento para la orden línea.
 

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Mapa de Tintas hipsométricas
----
-
 # Mapa de Tintas hipsométricas
 
 [Mapa de tintas hipsométricas](/mdtopx/desde-linea-de-comando/linea-de-comando-mapa-de-tintas-hipsometricas.md)
@@ -15,7 +11,7 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 * **Nombre de la gama**: Nombre de la gama de colores a utilizar. Las tablas podrán ser añadidas, eliminadas o duplicadas con otro nombre, para ser utilizadas en diferentes archivos.
 * **Tabla de intervalos de altura**: Se podrán establecer en esta tabla la relación entre colores y diferentes alturas. Los intervalos podrán ser Añadidos, Eliminados o Editados, para adaptarse al rango de cotas del documento. Aquellas superficies que sean superiores a la cota superior o menores a la cota inferior de esta tabla, no serán coloreadas.
 * **Ajustar a rango de altitudes**: Existe la opción de poder ajustar una tabla de intervalos a unos límites de cota especificados por el usuario, mediante este [cuadro de diálogo](ajustar-a-rango-de-altitudes.md)
-* ****[**Curva hipso**](../../otras-herramientas/curva-hipsometrica.md): Se podrá mostrar la distribución de superficies del fichero en función de la cota con el objetivo de poder diseñar mejor la gama de color.
+* [**Curva hipso**](../../otras-herramientas/curva-hipsometrica.md): Se podrá mostrar la distribución de superficies del fichero en función de la cota con el objetivo de poder diseñar mejor la gama de color.
 * **Utilizar sombreado**: Si se selecciona esta opción, se generará un mapa de tintas hipsométricas combinado con un sombreado oblicuo del modelo digital, para representar con mayor realidad el relieve. El sombreado oblicuo será calculado con color negro. Para más información, ver la utilidad [Sombreado](/mdtopx/desde-linea-de-comando/linea-de-comando-sombreado.md).
 * **Configurar rayo**: En el caso de elegir Utilizar sombreado, éstas podrán ser configuradas desde este [cuadro de diálogo](../sombreado/configurar-rayo.md)
 * **Utilizar degradación entre tintas**: Esta opción indica al programa que promedie el valor de los colores para cada valor de altitud calculado, de tal forma, que se produce una transición entre los diferentes intervalos de color. Con esta opción se obtienen resultados visualmente aceptables, pero imposibilita saber el rango de altitudes en las que se encuentra un punto por el color, ya que no se producen colores puros, si no mezclas.
@@ -27,11 +23,11 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
 Para poder utilizar esta herramienta es necesario tener activo un documento de tipo modelo digital de triangulación.
 
-### Ejemplo
+## Ejemplo
 
 Una buena gama para un fichero entre 0 y 950 metros combinado con sombreado sería:
 
-|  Cota |  Rojo |  Verde |  Azul |
+| Cota | Rojo | Verde | Azul |
 | ----- | ----- | ------ | ----- |
 |  0    |  2    |  78    |  253  |
 |  10   |  1    |  44    |  26   |

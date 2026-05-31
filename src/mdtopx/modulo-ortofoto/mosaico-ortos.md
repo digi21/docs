@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Mosaico Ortos
----
-
 # Mosaico Ortos
 
 [Módulo Ortofoto](/mdtopx/modulo-ortofoto/)
@@ -20,4 +16,3 @@ Vea también:
 
 * [Cálculo de Ortofoto](calculo-de-ortofoto.md)
 * [Cálculo de Líneas de unión](lineas-de-union.md)
-

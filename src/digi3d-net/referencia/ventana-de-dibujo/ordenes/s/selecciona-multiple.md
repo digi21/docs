@@ -1,4 +1,4 @@
-# SELECCIONA\_MULTIPLE
+# SELECCIONA\_MÚLTIPLE
 
 Permite seleccionar y deseleccionar múltiples entidades.
 

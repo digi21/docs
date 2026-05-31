@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Propiedades de material
----
-
 # Propiedades de material
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Importar rejillas
----
-
 # Importar rejillas
 
 [Importar archivo](/mdtopx/operaciones-con-archivos/importar/importar-archivo.md)
@@ -18,4 +14,3 @@ En este cuadro de diálogo aparecen los siguientes campos:
 * Límites del modelo digital: Se indicará el límite del modelo destino, siempre dentro de los límites del modelo digital origen.
 * Razón de traspaso: Se indicará la razón de importación, es decir, cada cuántos puntos se seleccionará un punto. Por ejemplo, si se indica 5, se traducirá sólo un punto cada 5 puntos leídos.
 * Cantidad de puntos estimados: En función de los límites destino indicados y la razón de traspaso, se estima una cantidad de puntos destino.
-

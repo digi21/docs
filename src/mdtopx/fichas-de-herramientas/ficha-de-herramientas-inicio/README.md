@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![](../../../.gitbook/assets/ficha-de-herramientas-inicio.jpg)
+![cinta de herramientas Inicio](../../../.gitbook/assets/ficha-de-herramientas-inicio.jpg)
 
 En esta ficha de herramientas aparecen los comandos generales del programa, así como comandos para modificar la vista actual.
 

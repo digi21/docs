@@ -1,6 +1,3 @@
----
-description: Cuadro de diálogo Buscar puntos elevados
----
 
 # Buscar puntos elevados
 
@@ -21,7 +18,7 @@ Los parámetros que precisa son los siguientes:
 * **Si la superficie generada es superior a x m2**: Una vez que se ha clasificado un conjunto de puntos, el programa busca la formación de superficies para considerar aquellos puntos que se encuentren en el interior. Si la superficie es superior al valor indicado en este campo se puede cambiar la clasificación e indicar otra clasificación destino.
 * **Tipología destino**: Tipología destino si los puntos forman una superficie de área superior a la indicada en el campo anterior.
 
-El programa comenzará a procesar el archivo actual e irá mostrando los resultados parciales sobre el [panel de Resultados](../../introduccion/paneles-de-la-aplicacion/panel-resultados.md)del programa. Si desea **Cancelar** el proceso el programa le preguntará si desea conservar los cálculos generados hasta ese momento.
+El programa comenzará a procesar el archivo actual e irá mostrando los resultados parciales sobre el [panel de Resultados](../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) del programa. Si desea **Cancelar** el proceso el programa le preguntará si desea conservar los cálculos generados hasta ese momento.
 
 Vea también:
 
@@ -40,4 +37,4 @@ Vea también:
 * [Buscar puntos según infrarrojo](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-segun-infrarrojo.md)
 * [Buscar huecos](/mdtopx/modulo-laser/buscar-puntos/buscar-huecos.md)
 * [Buscar puntos según Área de superficie](buscar-puntos-segun-area.md)
-* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)&#x20;
+* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)

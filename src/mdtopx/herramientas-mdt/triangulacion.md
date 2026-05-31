@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Triangulación
----
-
 # Triangulación
 
 [Triangulación](/mdtopx/desde-linea-de-comando/linea-de-comando-triangulacion.md)

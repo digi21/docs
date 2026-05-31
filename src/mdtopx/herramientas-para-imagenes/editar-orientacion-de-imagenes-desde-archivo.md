@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Editar orientación de imágenes desde archivo
----
-
 # Editar orientación de imágenes desde archivo
 
 [Orientación](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/orientacion.md)

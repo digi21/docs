@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Borrar según eco
----
-
 # Borrar según eco
 
 [Según eco LIDAR](/mdtopx/modulo-laser/segun-eco-lidar/)

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Clasificar superficies
----
-
 # Clasificar superficies
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)

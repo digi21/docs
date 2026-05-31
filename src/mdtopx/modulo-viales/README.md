@@ -8,9 +8,9 @@ Asimismo, proporciona todos los comandos para la elaboración de los diversos pl
 
 Por otro lado, se han incorporado a este módulo de herramientas para la elaboración de secciones tipo que se podrán aplicar a los viales para la definición total de éstos.
 
-Para el almacenamiento del diseño de un vial, el programa dispone de un tipo de archivo con extensión VIA, donde se guardarán tanto el diseño en planta como en alzado, así como las secciones tipo que se aplicarán a lo largo de su recorrido. Para crear un archivo nuevo, deberá ejecutar el comando [Nuevo](../operaciones-con-archivos/archivo-nuevo.md)del menú del [Botón de MDTopX](/mdtopx/introduccion/boton-de-mdtopx.md).
+Para el almacenamiento del diseño de un vial, el programa dispone de un tipo de archivo con extensión VIA, donde se guardarán tanto el diseño en planta como en alzado, así como las secciones tipo que se aplicarán a lo largo de su recorrido. Para crear un archivo nuevo, deberá ejecutar el comando [Nuevo](../operaciones-con-archivos/archivo-nuevo.md) del menú del [Botón de MDTopX](/mdtopx/introduccion/boton-de-mdtopx.md).
 
-Estos archivos, a diferencia del resto de archivos que soporta el programa, tienen dos vistas \(Trazado o Alzado\), que podrán conmutarse en su visualización con el comando pertinente, permitiendo al usuario un perfecto control sobre el diseño completo del vial, al no estar separada dicha información en varios archivos.
+Estos archivos, a diferencia del resto de archivos que soporta el programa, tienen dos vistas \(Trazado o Alzado), que podrán conmutarse en su visualización con el comando pertinente, permitiendo al usuario un perfecto control sobre el diseño completo del vial, al no estar separada dicha información en varios archivos.
 
 Además, con este módulo se podrán registrar directamente en pantalla las diversas entidades que conforman la definición del vial con herramientas de dibujo específicas, tanto para el trazado como para el alzado.
 
@@ -23,4 +23,3 @@ Como ocurre con el resto de herramientas del programa, éstas podrán ser ejecut
 Por último, también se disponen de herramientas de importación-exportación de otros formatos de dibujo, como pueden ser DIGI, DXF, DGN, Shape u otros programas de cálculo, permitiendo incorporar a los viales entidades previamente dibujadas en otros programas.
 
 Las herramientas de exportación generarán un documento nuevo con las entidades del tipo de vista actual, es decir, si la vista actual es la del Trazado, se exportarán las entidades en su forma planimétrica y si la vista es la del Alzado, se exportarán las entidades en su forma altimétrica.
-

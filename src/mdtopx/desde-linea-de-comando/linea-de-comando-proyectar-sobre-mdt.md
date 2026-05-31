@@ -1,15 +1,11 @@
----
-description: Proyectar sobre MDT desde línea de comando
----
-
 # Proyectar sobre MDT
 
 [Proyectar sobre MDT](/mdtopx/desde-linea-de-comando/linea-de-comando-proyectar-sobre-mdt.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 
-```
-MDTop [archivo de entrada] /PRO [archivo de salida]
+```bash
+MDTopX [archivo de entrada] /PRO [archivo de salida]
 ```
 
 El archivo de entrada deberá ser un archivo de modelo digital, en el cual se proyectará el archivo.
@@ -28,7 +24,7 @@ Además de esta secuencia y para configurar el modo de proyección, en el archiv
 * **Tipo\_Cortes**: 0 (no usar cortes con triángulos), 1 (usar sólo los cortes con líneas de rupturas) o 2 (usar todos los cortes con triángulos)
 * **Tipo\_Interpola**: 0 (interpolar la cota de los puntos con los cortes) o 1 (proyectar individualmente)
 
-```
+```ini
 [Proyecta]
 Entrada = linea.bin
 CodError = ERR

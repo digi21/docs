@@ -1,15 +1,11 @@
----
-description: Perfiles desde línea de comando
----
-
 # Perfiles
 
 [Perfiles](/mdtopx/desde-linea-de-comando/linea-de-comando-perfiles.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 
-```
-MDTop [archivo de entrada] /PER [archivo de salida]
+```bash
+MDTopX [archivo de entrada] /PER [archivo de salida]
 ```
 
 El archivo de entrada deberá ser un archivo de modelo digital, en el cual se proyectarán los perfiles.

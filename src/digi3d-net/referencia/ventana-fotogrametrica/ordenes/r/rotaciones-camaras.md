@@ -1,4 +1,4 @@
-# ROTACIONES\_CAMARAS
+# ROTACIONES\_CÁMARAS
 
 ![Cuadro de diálogo de rotaciones de cámaras](../../../../../.gitbook/assets/rotacionescamaras.png)
 

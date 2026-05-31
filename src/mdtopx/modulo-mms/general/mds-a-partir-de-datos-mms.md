@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo MDS a partir de datos MMS
----
-
 # MDS a partir de datos MMS
 
 [Ficha de herramientas MMS General](./)
@@ -14,7 +10,5 @@ El cuadro de diálogo necesita los siguientes datos:
 * **Tipologías que definen los objetos**: Se deberán seleccionar las tipologías correspondientes a los puntos que definen los diferentes objetos del vial, por ejemplo, señales de tráfico, farolas, biondas, etc.
 * **Máxima distancia entre puntos**: Se indicará la distancia máxima entre dos puntos para ser considerados vecinos en el espacio.
 
-<video controls><source src="https://youtu.be/OUxQnkFdXWg" type="video/mp4"></video>
+[![Cálculo de MDS en vial a partir de datos MMS](https://img.youtube.com/vi/OUxQnkFdXWg/0.jpg)](https://youtu.be/OUxQnkFdXWg)
 Cálculo de MDS en vial a partir de datos MMS
-
-

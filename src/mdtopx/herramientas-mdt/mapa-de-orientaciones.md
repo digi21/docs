@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Mapa de Orientaciones
----
-
 # Mapa de Orientaciones
 
 [Mapa de orientaciones](/mdtopx/como/como-mapa-de-orientaciones.md)

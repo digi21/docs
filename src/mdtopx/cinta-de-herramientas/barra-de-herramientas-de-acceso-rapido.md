@@ -4,7 +4,7 @@
 
 La cinta de herramientas incluye una barra de herramientas configurable donde figuran los comandos más útiles. En esta barra se incluyen los iconos de los comandos en un tamaño pequeño.
 
-![](../../.gitbook/assets/barra-de-herramientas-de-acceso-rapido-1.jpg)
+![Barra de herramientas de acceso rápido](../../.gitbook/assets/barra-de-herramientas-de-acceso-rapido-1.jpg)
 
 La primera vez que se utiliza el programa, se incluyen por defecto los siguientes comandos
 

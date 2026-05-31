@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Borrar según tiempo GPS
----
-
 # Borrar según tiempo GPS
 
 [Según tiempo GPS](/mdtopx/modulo-laser/segun-tiempo-gps/)

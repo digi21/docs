@@ -41,7 +41,7 @@ Muestra un listado con todos los centroides configurados para la topología sele
 
 Dispone de los siguientes botones:
 
-* **Añadir** Permite añadir centroides mediante el cuadro de dialogo [Añadir centroide](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-centroide.md).
+* **Añadir** Permite añadir centroides mediante el cuadro de diálogo [Añadir centroide](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-centroide.md).
 * **Eliminar** Elimina el centroide seleccionado.
 * **Modificar** Modifica el centroide seleccionado mediante el cuadro de diálogo _Añadir centroide_.
 

@@ -1,15 +1,11 @@
----
-description: Cubicación desde línea de comando
----
-
 # Cubicación
 
 [Cubicación](/mdtopx/desde-linea-de-comando/linea-de-comando-cubicacion.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 
-```
-MDTop [archivo de entrada] /CUB [archivo de salida]
+```bash
+MDTopX [archivo de entrada] /CUB [archivo de salida]
 ```
 
 El archivo de entrada deberá ser un archivo de modelo digital, con el que se calculará la cubicación.
@@ -21,7 +17,7 @@ Si se activa la opción de perfiles, éstos se salvarán con el nombre " Perfile
 Además de esta secuencia y para configurar el modo de calcular la cubicación, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Cubicacion]** y a continuación los campos siguientes:
 
 * **FicMDT**: Nombre del segundo modelo digital con el que se va a calcular la cubicación
-* **Limite**: Nombre del archivo de dibujo que contiene el límite de cubicación
+* **Límite**: Nombre del archivo de dibujo que contiene el límite de cubicación
 * **TipoCalculo**: 0 (por intersección de triángulos) ó 1 (por rejilla)
 * **Paso**: Paso en metros de la rejilla, si se utiliza este método de cálculo
 * **Tolerancia**: Tolerancia de la proyección en metros
@@ -61,7 +57,7 @@ Además de esta secuencia y para configurar el modo de calcular la cubicación, 
 * **Perfiles\_Tipo\_Cortes**: 0 (no usar cortes con triángulos), 1 (usar sólo los cortes con líneas de rupturas) ó 2 (usar todos los cortes con triángulos)
 * **Perfiles\_Tipo\_Interpola**: 0 (interpolar la cota de los puntos con los cortes) ó 1 (proyectar individualmente)
 
-```
+```ini
  [Cubicacion]
  FicMDT = radia2.mdt
  Limite = limite.bin

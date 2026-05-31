@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Vectorizar
----
-
 # Vectorizar
 
 [Calcular](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/imagen-calcular.md)
@@ -12,4 +8,3 @@ Herramienta para extraer un archivo vectorial con las zonas ocupadas por píxele
 * **Margen**: Se podrá indicar un valor de margen que será la diferencia permitida entre el color buscado y el almacenado en la imagen.
 * **Código**: Código de las entidades lineales generadas.
 * **Superficie**: Valor de superficie mínima que deberá tener cada límite generado para ser almacenado en el documento de salida.
-

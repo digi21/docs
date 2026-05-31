@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Promediar pasadas
----
-
 # Promediar pasadas
 
 [Editar puntos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)

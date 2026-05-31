@@ -10,4 +10,3 @@ En este panel aparece la información referente al documento de viales actual. E
 * **Nombre**: Nombre que tiene el vial
 * **Pk inicio**: Punto kilométrico inicial del vial
 * **Alzados**: Cantidad de alzados almacenados para este trazado
-

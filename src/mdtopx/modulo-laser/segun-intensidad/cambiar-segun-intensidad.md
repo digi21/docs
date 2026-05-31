@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cambiar según intensidad
----
-
 # Cambiar según intensidad
 
 [Según intensidad](/mdtopx/modulo-laser/segun-intensidad/)

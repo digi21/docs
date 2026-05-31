@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Borrar según color registrado
----
-
 # Borrar según color registrado
 
 [Según color registrado](/mdtopx/modulo-laser/segun-color-registrado/)

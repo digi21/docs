@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Escanear
----
-
 # Escanear
 
 [Ficha de herramientas ScanStation](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-scanstation.md)

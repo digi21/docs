@@ -3,7 +3,7 @@
 Para digitalizar segmentos ortogonales al último segmento de la polilínea que estás digitalizando, sigue los siguientes pasos:
 
 1. Visualiza la [Barra de herramientas Restricciones de polilínea](/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-de-dibujo/BarraDeHerramientasRestriccionesDePolilinea.html), si no la tienes activa, aprende a activarla pulsando [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md).
-2. Comienza a digitalizar una polilínea con varios vértices, haciendo **clic** con el boton de dato sobre la **ventana de dibujo**.
+2. Comienza a digitalizar una polilínea con varios vértices, haciendo **clic** con el botón de dato sobre la **ventana de dibujo**.
 3. Pulsa sobre el primer botón de la [Barra de herramientas Restricciones de polilínea](/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-de-dibujo/BarraDeHerramientasRestriccionesDePolilinea.html), que es el que corresponde a la orden [ORTO](/digi3d-net/referencia/ventana-de-dibujo/variables/o/orto.md).
 4. Sigue digitalizando la polilínea del principio, continuando haciendo **clic** con el [botón de dato](digitalizando-segmentos-ortogonales.md) sobre la ventana de dibujo, y comprueba que ahora todos los nuevos segmentos van a ser ortogonales al último que se digitalices.
 5. Pulsa de nuevo sobre el primer botón de la [Barra de herramientas Restricciones de polilínea](/digi3d-net/referencia/barras-de-herramientas/restricciones-de-polilinea.md), para **desactivar** la opción de ortogonalidad.

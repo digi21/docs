@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Proyectar viales sobre MDT
----
-
 # Proyectar viales sobre MDT
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)
@@ -17,7 +13,7 @@ Con esta herramienta se pueden proyectar los viales seleccionados sobre el MDT c
 * Una línea por cada uno de los puntos que definen la sección tipo, resultado de unir los citados puntos en los perfiles transversales generados. La separación entre estos perfiles se puede configurar pulsando el botón **Configurar**.
 * Una línea que define el contorno del vial, resultado de su intersección con el terreno.
 
-Con estas nuevas líneas se generará un nuevo documento de dibujo, que se podrá [triangular](../../como/como-triangulacion.md)para generar el MDT modificado, con el vial proyectado sobre el MDT original. Posteriormente, se podrá [curvar](../../como/como-curvado.md)este MDT o comparar con el MDT original para calcular el [movimiento de tierras](../../como/como-cubicacion.md).
+Con estas nuevas líneas se generará un nuevo documento de dibujo, que se podrá [triangular](../../como/como-triangulacion.md) para generar el MDT modificado, con el vial proyectado sobre el MDT original. Posteriormente, se podrá [curvar](../../como/como-curvado.md) este MDT o comparar con el MDT original para calcular el [movimiento de tierras](../../como/como-cubicacion.md).
 
 En el cuadro de diálogo, se muestra un listado con los trazados disponibles y, debajo, un listado con los alzados de cada trazado. Se podrán seleccionar todos los viales que se desean proyectar sobre el MDT, pulsando el botón **Añadir**. También se podrán descartar pulsado el botón **Borrar**.
 

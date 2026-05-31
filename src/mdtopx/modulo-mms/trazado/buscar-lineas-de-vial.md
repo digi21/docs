@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar líneas de vial
----
-
 # Buscar líneas de vial
 
 [Ficha de herramientas MMS Trazado](./)
@@ -21,5 +17,4 @@ El cuadro de diálogo necesita los siguientes datos:
 * **Máxima distancia entre puntos**: Se indicará la distancia máxima entre dos puntos para ser considerados vecinos en el espacio.
 * **Mínimo valor de intensidad**: Valor mínimo de intensidad que deberá tener un punto para ser considerado perteneciente a una señal horizontal sobre el asfalto.
 
-<video controls><source src="https://youtu.be/J4uEcv8OIGU" caption="Detección de carriles en vial a partir de datos MMS" type="video/mp4"></video>
-
+[Detección de carriles en vial a partir de datos MMS (video)](https://youtu.be/J4uEcv8OIGU)

@@ -1,4 +1,4 @@
-# SELECCIONA\_DENTRO\_POLIGONO
+# SELECCIONA\_DENTRO\_POLÍGONO
 
 Permite digitalizar un nuevo polígono y selecciona todas las entidades que estén completamente dentro del polígono.
 

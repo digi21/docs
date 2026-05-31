@@ -1,4 +1,4 @@
-# VER\_SOLO\_ETIQUETAS\_CODIGOS\_ACTIVOS
+# VER\_SOLO\_ETIQUETAS\_CÓDIGOS\_ACTIVOS
 
 Activa únicamente los códigos pertenecientes a las etiquetas a las que pertenecen los códigos activos.
 

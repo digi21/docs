@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Unir puntos de registro
----
-
 # Unir puntos de registro
 
 [Según punto de registro](/mdtopx/modulo-laser/segun-punto-de-registro/)

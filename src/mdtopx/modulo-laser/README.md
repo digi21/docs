@@ -6,6 +6,4 @@ El módulo opcional Láser está destinado para el tratamiento de información p
 
 Este módulo dispone de tres fichas propias ([Archivos LiDAR](../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/), [Puntos LiDAR](../fichas-de-herramientas/ficha-de-herramientas-puntos-lidar/)y [Clasificar LiDAR](../fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)) en la cinta de herramientas con los comandos exclusivos para los documentos con información de puntos procedentes de dispositivos de medida láser.
 
-<video controls><source src="https://youtu.be/hTAONFKEdQY" type="video/mp4"></video>
-Clasificación de nube de puntos registrada con sensor LiDAR equipado sobre UAV
-
+[Ver video: Clasificación de nube de puntos registrada con sensor LiDAR equipado sobre UAV](https://youtu.be/hTAONFKEdQY)

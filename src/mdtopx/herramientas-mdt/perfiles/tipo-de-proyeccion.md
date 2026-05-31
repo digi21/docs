@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Tipo de proyección
----
-
 # Tipo de proyección
 
 ![Cuadro de diálogo Tipo de proyección sobre MDT](../../../.gitbook/assets/image-54.png)

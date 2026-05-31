@@ -17,4 +17,3 @@ Las herramientas disponibles desde la línea de comando son las siguientes:
 * [Mapa de tintas hipsométricas](/mdtopx/desde-linea-de-comando/linea-de-comando-mapa-de-tintas-hipsometricas.md)
 * [Exportar modelos digitales del terreno](/mdtopx/desde-linea-de-comando/linea-de-comando-exportar-modelos-digitales-del-terreno.md)
 * [Agregar modelos digitales del terreno](/mdtopx/operaciones-con-archivos/agregar-modelos-digitales-del-terreno.md)
-

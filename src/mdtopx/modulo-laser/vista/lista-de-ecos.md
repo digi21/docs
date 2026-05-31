@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Lista de ecos
----
-
 # Lista de ecos
 
 [Vista de puntos láser](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/vista-de-puntos-laser.md)

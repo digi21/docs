@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Códigos LiDAR
----
-
 # Códigos LiDAR
 
 [Superficie mágica](/mdtopx/modulo-laser/buscar-puntos/superficie-magica/)

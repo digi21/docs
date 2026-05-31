@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Activar según límites
----
-
 # Activar según límites
 
 [Límites Proyecto](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-proyecto/limites-proyecto.md)
@@ -17,4 +13,3 @@ Los campos que aparecen son los siguientes:
 * **Dibujos**: Se activará esta opción si se desea cambiar las características de visualización de archivos tipo Dibujo.
 * **Imágenes**: Se activará esta opción si se desea cambiar las características de visualización de archivos tipo Imagen.
 * **Viales**: Se activará esta opción si se desea cambiar las características de visualización de archivos tipo Vial.
-

@@ -55,7 +55,7 @@ Sigue los siguientes pasos para modificar la escala de representación del punto
 3. Selecciona la pestaña **Archivo de dibujo**.
 4. En **Parámetros de configuración/Registro/Escala** modifica el valor que tiene en ese momento por otro para modificar la escala.
 5. Pulsa el botón **Aceptar**.
-6. Activa la visualización de patrones pulsando el botón correspondiente a la orden Patron en la **Barra de herramientas Parámetros de visualización**.
+6. Activa la visualización de patrones pulsando el botón correspondiente a la orden Patrón en la **Barra de herramientas Parámetros de visualización**.
 7. Repite el proceso varias veces con distintos valores de escala para que veas la diferencia de utilizar una escala u otra.
 
 El valor de la **Escala**, afecta únicamente a la representación, no afecta al registro de entidades.

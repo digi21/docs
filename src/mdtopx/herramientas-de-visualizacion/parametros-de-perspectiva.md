@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Parámetros de perspectiva
----
-
 # Parámetros de perspectiva
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)

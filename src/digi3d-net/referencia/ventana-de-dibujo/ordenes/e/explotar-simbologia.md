@@ -1,4 +1,4 @@
-# EXPLOTAR\_SIMBOLOGIA
+# EXPLOTAR\_SIMBOLOGÍA
 
 Explota líneas con patrón en segmentos independientes.
 

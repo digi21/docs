@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Comprobar MDT
----
-
 # Comprobar MDT
 
 [Herramientas MDT Productos civil](../fichas-de-herramientas/ficha-de-herramientas-mdt/productos-civil.md)

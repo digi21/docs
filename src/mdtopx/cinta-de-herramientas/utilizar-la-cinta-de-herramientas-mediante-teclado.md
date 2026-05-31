@@ -6,7 +6,7 @@ Las claves de acceso proporcionan un medio para utilizar un comando rápidamente
 
 * Presione y suelte la tecla ALT. Se muestra información sobre teclas para cada función disponible en la vista actual.
 
-![](../../.gitbook/assets/utilizar-la-cinta-de-herramientas-mediante-teclado.jpg)
+![Utilizar la cinta de herramientas mediante teclado](../../.gitbook/assets/utilizar-la-cinta-de-herramientas-mediante-teclado.jpg)
 
 * Presione la letra que aparece en la información sobre teclas acerca de la función que desee utilizar.
 * En función de la tecla que presione, quizá se muestre información adicional sobre las teclas.
@@ -21,7 +21,7 @@ Otra forma de utilizar el teclado para trabajar con los programas de la cinta de
 | Ir a otra ficha de la cinta de herramientas.                                                                                                                                                                                                      | ALT o F10 para seleccionar la ficha activa y, a continuación, FLECHA IZQUIERDA o FLECHA DERECHA          |
 | Minimizar o restaurar la cinta de herramientas.                                                                                                                                                                                                   | CTRL+F1                                                                                                  |
 | Mostrar el menú contextual del comando seleccionado.                                                                                                                                                                                              | MAY+F10                                                                                                  |
-| <p>Mover el foco para seleccionar cada una de las áreas siguientes de la ventana:</p><ul><li> Ficha activa de la cinta de herramientas</li><li> Ver la barra de estado situada en la parte inferior de la ventana</li><li> Su documento</li></ul> | F6                                                                                                       |
+| Mover el foco para seleccionar cada una de las áreas siguientes de la ventana:<ul><li> Ficha activa de la cinta de herramientas</li><li> Ver la barra de estado situada en la parte inferior de la ventana</li><li> Su documento</li></ul> | F6                                                                                                       |
 | Mover el foco a cada comando de la cinta de herramientas, hacia delante o hacia atrás.                                                                                                                                                            | ALT o F10 y, a continuación, TAB o MAY+TAB                                                               |
 | Subir, bajar ir a la izquierda o la derecha por los elementos de la cinta de herramientas.                                                                                                                                                        | FLECHA ABAJO, FLECHA ARRIBA, FLECHA IZQUIERDA o FLECHA DERECHA                                           |
 | Activar el comando o el control seleccionados en la cinta de herramientas.                                                                                                                                                                        | BARRA ESPACIADORA o ENTRAR                                                                               |

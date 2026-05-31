@@ -1,4 +1,4 @@
-# MOD\_Z\_MULTIPLE
+# MOD\_Z\_MÚLTIPLE
 
 Modifica el trazado geométrico de varias entidades en XYZ.
 

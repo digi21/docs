@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Guitarra
----
-
 # Guitarra
 
 [Cuadro de diálogo Perfiles](./)
@@ -19,11 +15,11 @@ En la parte superior del cuadro de diálogo se deberán seleccionar los elemento
 
 A continuación se debe configurar la posición del plano de comparación de la caja y si se desea una escala vertical, por medio de los siguientes campos:
 
-* **Plano de comparación**: En este campo se elegirá la forma en la que el programa va a calcular la altitud del plano de comparación de los perfiles. Si se elige la opción Absoluta, el programa colocará el plano a la cota indicada en el campo Valor de la altitud . Si se elige la opción Relativo a cada perfil , el programa calculará la altitud del plano restando a la cota más baja de cada perfil la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Relativo a todos los perfiles, el programa calculará la altitud del plano restando a la cota más baja de todos los perfiles la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Absoluta, podría ocurrir que se calcule algún perfil cuya cota mínima está por debajo del valor indicado. En este caso, el programa muestra un [cuadro de diálogo](conflicto-con-el-plano-de-comparacion.md)donde se podrá se podrá solucionar este conflicto.
+* **Plano de comparación**: En este campo se elegirá la forma en la que el programa va a calcular la altitud del plano de comparación de los perfiles. Si se elige la opción Absoluta, el programa colocará el plano a la cota indicada en el campo Valor de la altitud . Si se elige la opción Relativo a cada perfil , el programa calculará la altitud del plano restando a la cota más baja de cada perfil la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Relativo a todos los perfiles, el programa calculará la altitud del plano restando a la cota más baja de todos los perfiles la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Absoluta, podría ocurrir que se calcule algún perfil cuya cota mínima está por debajo del valor indicado. En este caso, el programa muestra un [cuadro de diálogo](conflicto-con-el-plano-de-comparacion.md) donde se podrá se podrá solucionar este conflicto.
 * **Valor de la altura**: Indicará el valor en metros de la altitud absoluta o relativa del plano de comparación.
 * **Incluir escala vertical**: Se activará esta casilla si se desean trazar líneas horizontales paralelas al plano de comparación que ayudarán en la lectura del perfil, ya que indicarán diferentes valores de altitud. La distancia entre estas líneas se indicarán en el campo situado debajo de esta casilla.
 
-Posteriormente, se deberá indicar el código en el que se registrarán las entidades que conforman la propia caja de la guitarra por medio de los campos Código Guitarra y Código Líneas Internas.
+Posteriormente, se deberá indicar el código en el que se registrarán las entidades que conforman la propia caja de la guitarra por medio de los campos _Código Guitarra_ y _Código Líneas Internas_.
 
 Por último, se tendrá que seleccionar de la lista qué textos van a aparecer en la caja y alrededor de ella. Si se desea que aparezca un determinado texto, se deberá activar la casilla Incluir que aparece debajo de dicha lista. Al activarse se mostrarán los parámetros para el texto, que exceptuando los textos de Información, son comunes para todos ellos. Los parámetros son:
 

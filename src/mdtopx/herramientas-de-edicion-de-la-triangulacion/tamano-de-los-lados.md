@@ -1,6 +1,3 @@
----
-description: Cuadro de diálogo Tamaño de los lados
----
 
 # Tamaño de los lados
 

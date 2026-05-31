@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar puntos según infrarrojo
----
-
 # Buscar puntos según infrarrojo
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
@@ -36,4 +32,4 @@ Vea también:
 * [Buscar puntos vecinos](buscar-vecinos.md)
 * [Buscar huecos](/mdtopx/modulo-laser/buscar-puntos/buscar-huecos.md)
 * [Buscar puntos según Área de superficie](buscar-puntos-segun-area.md)
-* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md) 
+* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)

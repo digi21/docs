@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Asignar peraltes a vial
----
-
 # Asignar peraltes a vial
 
 [Tabla de peraltes](/mdtopx/modulo-viales/tabla-de-peraltes/tabla-de-peraltes.md)

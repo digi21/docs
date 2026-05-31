@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Configuración de la planta
----
-
 # Configuración de la planta
 
 [Proyectar viales sobre MDT](/mdtopx/modulo-viales/generar/proyectar-viales-sobre-mdt.md)

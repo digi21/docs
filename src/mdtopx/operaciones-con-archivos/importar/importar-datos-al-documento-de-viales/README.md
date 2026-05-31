@@ -16,7 +16,6 @@ Los formatos contemplados son los siguientes:
 
 Cuando se importan archivos de dibujo o ASCII, es decir, todos los formatos excepto los dos últimos, el programa permite especificar qué tipo de datos contiene el archivo y dónde se quieren insertar.
 
-Por ejemplo, si el archivo contiene datos de trazados en planta, se deberá especificar la primera opción y el programa permitirá indicar si además se desean añadir los datos leídos en altimetría como alzados \(importación como una rasante\).
+Por ejemplo, si el archivo contiene datos de trazados en planta, se deberá especificar la primera opción y el programa permitirá indicar si además se desean añadir los datos leídos en altimetría como alzados \(importación como una rasante).
 
-Sin embargo, si en el archivo se han almacenado datos en alzado se podrá incorporar como rasantes. Para ello, el programa precisa que se le indique a qué altura se encuentra el plano de comparación \(para sumar este valor en metros a la coordenada Y leída\) y el trazado donde se desea asignar el alzado.
-
+Sin embargo, si en el archivo se han almacenado datos en alzado se podrá incorporar como rasantes. Para ello, el programa precisa que se le indique a qué altura se encuentra el plano de comparación \(para sumar este valor en metros a la coordenada Y leída) y el trazado donde se desea asignar el alzado.

@@ -1,4 +1,4 @@
-# INSERTA\_VERTICE
+# INSERTA\_VÉRTICE
 
 Inserta un vértice en una entidad lineal.
 

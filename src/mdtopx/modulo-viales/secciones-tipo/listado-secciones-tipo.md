@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Listado secciones tipo
----
-
 # Listado secciones tipo
 
 [Secciones Tipo](/mdtopx/modulo-viales/secciones-tipo/)

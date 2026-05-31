@@ -1,14 +1,10 @@
----
-description: Triangulación desde línea de comando
----
-
 # Triangulación
 
 [Triangulación](/mdtopx/desde-linea-de-comando/linea-de-comando-triangulacion.md)
 
 &#x20;Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 
-```
+```bash
 MDTop [archivo de entrada] /TRI [archivo de salida]
 ```
 
@@ -16,20 +12,20 @@ El archivo de entrada deberá ser un archivo con información topográfica o car
 
 El archivo de salida será el nombre con el que se salve la triangulación, por lo que debería llevar extensión MDT.
 
-Además de esta secuencia y para configurar el modo de triangular, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Triangulacion]** y a continuación los campos siguientes:
+Además de esta secuencia y para configurar el modo de triangular, en el archivo MDTop.INI debería haber una línea obligatoria con el texto **\[Triangulación]** y a continuación los campos siguientes:
 
 * **CodTri** : Indica el código en el que se almacenarán los triángulos
 * **CotaMaxima** : Indica la cota máxima en metros que podrán tener las entidades para formar parte del modelo digital
 * **CotaMinima** : Indica la cota mínima en metros que podrán tener las entidades para formar parte del modelo digital
 * **HayRupturas** : Indica si habrá rupturas (valor 1) o no habrá rupturas (valor 0).
-* **Codigo\[n]** : Secuencia de los códigos que formarán parte del modelo digital, siendo n un número correlativo empezando por 1.
+* **Código\[n]** : Secuencia de los códigos que formarán parte del modelo digital, siendo n un número correlativo empezando por 1.
 * **Ruptura\[m]** : Secuencia de los códigos que serán líneas de ruptura, siendo m un número correlativo empezando por 1.
 * **ExcluirCodigo\[p]**: Secuencia de los códigos que no se desea que formen parte del modelo digital, siendo un número correlativo empezando por 1.
 * **ExcluirRuptura\[q]**: Secuencia de los códigos que no se desea que sean líneas de ruptura, siendo un número correlativo empezando por 1.
 * **NoUnirCurvas** : Indica si se desea no unir curvas de nivel en la triangulación (valor 1) o no hacer nada (valor 0)
 * **Equidistancia** : Indica la equidistancia del curvado original en metros, utilizado si se activa no unir curvas de nivel
 
-```
+```ini
 [Triangulacion]
 CodTri = TRIANGUL
 CotaMaxima = 950.5

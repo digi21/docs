@@ -1,4 +1,4 @@
-# SELECCIONA\_FUERA\_POLIGONO
+# SELECCIONA\_FUERA\_POLÍGONO
 
 Permite digitalizar un nuevo polígono y selecciona todas las entidades que estén completamente fuera del polígono.
 

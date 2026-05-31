@@ -1,6 +1,6 @@
 # Cinta de herramientas
 
-[Interfaz de usuario](/lot-of-points-cc/interfaz-de-usuario/)
+[Interfaz de usuario](../introduccion/interfaz-de-usuario.md)
 
 En la interfaz se han sustituido las barras de herramientas y menús de usuario por la cinta de herramientas. Está diseñada para ayudar al usuario a encontrar rápidamente los comandos que necesita para completar una tarea. Los comandos están organizados en grupos lógicos que se reúnen en fichas.
 
@@ -40,4 +40,3 @@ Operaciones permitidas:
 * [Mover la barra de herramientas de acceso rápido](mover-la-barra-de-herramientas-de-acceso-rapido.md)para colocarla por debajo o por encima de la cinta de herramientas
 * [Personalizar la barra de herramientas de acceso rápido](personalizar-la-barra-de-herramientas-de-acceso-rapido.md)para agregar botones que representarán los comandos que utiliza frecuentemente
 * [Utilizar la cinta de herramientas mediante teclado](/mdtopx/cinta-de-herramientas/utilizar-la-cinta-de-herramientas-mediante-teclado.md)
-

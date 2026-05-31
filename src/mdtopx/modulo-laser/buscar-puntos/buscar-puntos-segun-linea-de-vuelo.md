@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar puntos según línea de vuelo
----
-
 # Buscar puntos según línea de vuelo
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
@@ -20,7 +16,7 @@ Los parámetros que precisa son los siguientes:
 * **Altura mínima para vegetación baja**: Altura mínima que tiene que existir entre el punto en consideración con respecto a alguno de sus vecinos para que se considere como un punto de vegetación baja.
 * **Actuar sólo en la selección actual**: Se podrá activar esta opción para calcular sólo en los puntos que actualmente se tengan seleccionados.
 
-El programa comenzará a procesar el archivo actual e irá mostrando los resultados parciales sobre el [panel de Resultados](../../introduccion/paneles-de-la-aplicacion/panel-resultados.md)del programa. Si desea **Cancelar** el proceso el programa le preguntará si desea conservar los cálculos generados hasta ese momento.
+El programa comenzará a procesar el archivo actual e irá mostrando los resultados parciales sobre el [panel de Resultados](../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) del programa. Si desea **Cancelar** el proceso el programa le preguntará si desea conservar los cálculos generados hasta ese momento.
 
 Vea también:
 
@@ -39,4 +35,4 @@ Vea también:
 * [Buscar puntos según infrarrojo](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-segun-infrarrojo.md)
 * [Buscar huecos](/mdtopx/modulo-laser/buscar-puntos/buscar-huecos.md)
 * [Buscar puntos según Área de superficie](buscar-puntos-segun-area.md)
-* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)&#x20;
+* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)

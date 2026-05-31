@@ -13,7 +13,6 @@ Este mapa de pendientes sólo podrá ser generado a partir de un modelo digital 
 La llamada a esta herramienta se puede hacer de las siguientes formas:
 
 * Pulsar el botón  Pendientes de la ficha de [Herramientas MDT](/mdtopx/herramientas-mdt/).
-* Pulsar la combinación de teclas \[CTRL\] + \[M\].
+* Pulsar la combinación de teclas \[CTRL] + \[M].
 
-Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/mapa-de-pendientes.md)para indicar las opciones del mapa de pendientes. Si el botón Aceptar es pulsado, el programa calculará el mapa de pendientes del MDT. Este documento se podrá salvar posteriormente en formato TIF, BMP o JPEG. Cuando sea salvado, se generarán simultáneamente un archivo ASCII con el mismo nombre y extensión ORT, con la georreferenciación de la imagen. Este archivo contiene las coordenadas de la esquina superior izquierda y el tamaño del píxel en metros.
-
+Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/mapa-de-pendientes.md) para indicar las opciones del mapa de pendientes. Si el botón Aceptar es pulsado, el programa calculará el mapa de pendientes del MDT. Este documento se podrá salvar posteriormente en formato TIF, BMP o JPEG. Cuando sea salvado, se generarán simultáneamente un archivo ASCII con el mismo nombre y extensión ORT, con la georreferenciación de la imagen. Este archivo contiene las coordenadas de la esquina superior izquierda y el tamaño del píxel en metros.

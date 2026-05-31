@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Obtener puntos secuenciales del trazado
----
-
 # Obtener puntos secuenciales del trazado
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)

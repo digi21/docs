@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Rellenar huecos
----
-
 # Rellenar huecos
 
 [VirtuaLand Editar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-editar.md)

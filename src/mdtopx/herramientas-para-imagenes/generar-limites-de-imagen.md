@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Generar límites de imagen
----
-
 # Generar límites de imagen
 
 [Calcular](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/imagen-calcular.md)
@@ -14,4 +10,3 @@ Herramienta destinada a calcular el límite exterior de una imagen. Este límite
 * **Margen longitudinal**: En caso de ser una imagen en proyección cónica, se podrá indicar un porcentaje de recorte en la dirección longitudinal de avance de la pasada.
 
 Esta herramienta también puede ser ejecutada con un proyecto activo. En tal caso, el programa nos mostrará un cuadro de diálogo donde permitirá elegir de qué imágenes se calculará el límite.
-

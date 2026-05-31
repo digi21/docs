@@ -1,4 +1,4 @@
-# ON\_EXPRESION\_PYTHON
+# ON\_EXPRESIÓN\_PYTHON
 
 Activa la visualización de geometrías que devuelvan verdadero en la [expresión Python](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros.
 

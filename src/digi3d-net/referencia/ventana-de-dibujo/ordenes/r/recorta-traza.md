@@ -65,7 +65,7 @@ Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-net/referencia/vent
 
 Puedes ejecutar la orden desde la línea de comandos utilizando el siguiente formato:
 
-RECORTA\_TRAZA=\[directorio de salida\] \[extension\] \[parametros importador \(varían según la extensión\)\] \[escala\] \[código del marco\] \[código de las cruces\] \[altura de cruces\] \[separación de cruces\] \[insertar medias cruces\] \[código de coordenadas\] \[altura de coordenadas\] \[número de decimales para coordenadas\]
+RECORTA\_TRAZA=\[directorio de salida\] \[extensión\] \[parámetros importador \(varían según la extensión\)\] \[escala\] \[código del marco\] \[código de las cruces\] \[altura de cruces\] \[separación de cruces\] \[insertar medias cruces\] \[código de coordenadas\] \[altura de coordenadas\] \[número de decimales para coordenadas\]
 
 Los parámetros del importador para archivos .bin son \[precisión\]\[origen global X\]\[origen global Y\]\[origen global Z\]. La precisión 2 para centímetros y 3 para milímetros. Los parámetros del importador se tomán como un único parámetro para la orden RECORTA\_TRAZA, lo que significa que hay que ponerlos entre comillas.
 

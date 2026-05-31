@@ -1,15 +1,11 @@
----
-description: Sombreado desde línea de comando
----
-
 # Sombreado
 
 [Sombreado](/mdtopx/desde-linea-de-comando/linea-de-comando-sombreado.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 
-```
-MDTop [archivo de entrada] /SOM [archivo de salida]
+```bash
+MDTopX [archivo de entrada] /SOM [archivo de salida]
 ```
 
 El archivo de entrada deberá ser un archivo de modelo digital, en el cual se proyectará la rejilla.
@@ -20,12 +16,12 @@ Además de esta secuencia y para configurar el modo de generación del sombreado
 
 * **Size** : Tamaño en metros del píxel de la imagen de salida
 * **Tipo** : 0 (iluminación cenital), 1 (iluminación oblicua) o 2 (iluminación mixta)
-* **Limite** : Nombre del archivo con el límite
+* **Límite** : Nombre del archivo con el límite
 * **CheckLimite** : 0 (sin límite) o 1 (con límite)
 * **ColorCenital** : color empleado en la iluminación cenital, representado por sus valores en rojo, verde y azul, separados por comas
 * **ColorOblicuo** : color empleado en la iluminación oblicua, representado por sus valores en rojo, verde y azul, separados por comas
 
-```
+```ini
 [Sombreado]
 Size=1
 Tipo=2

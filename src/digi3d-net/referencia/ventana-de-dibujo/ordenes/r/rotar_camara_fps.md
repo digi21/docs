@@ -1,4 +1,4 @@
-# ROTAR\_CAMARA\_FPS
+# ROTAR\_CÁMARA\_FPS
 
 Rota la cámara en la ventana de dibujo mediante movimientos del ratón.
 

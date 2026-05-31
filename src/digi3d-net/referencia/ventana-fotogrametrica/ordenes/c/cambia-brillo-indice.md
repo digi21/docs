@@ -1,4 +1,4 @@
-# CAMBIA\_BRILLO\_INDICE
+# CAMBIA\_BRILLO\_ÍNDICE
 
 Cambia la intensidad de los índices conjunta o independientemente.
 

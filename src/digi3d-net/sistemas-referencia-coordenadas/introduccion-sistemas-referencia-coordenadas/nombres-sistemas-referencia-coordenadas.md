@@ -32,7 +32,7 @@ Veamos varios ejemplos:
 
 _WGS 84 / UTM zone 13N_ para indicar proyección UTM, huso 30 norte sobre el sistema geográfico _WGS 84_.
 
-_NTF \(Paris\) / Lambert zone II_ para indicar proyección Lambert, huso 2 sobre el sistema geográfico NFT \(París\).
+_NTF \(París\) / Lambert zone II_ para indicar proyección Lambert, huso 2 sobre el sistema geográfico NFT \(París\).
 
 ## Sistemas de referencia de coordenadas compuestos
 
@@ -44,5 +44,5 @@ Como por ejemplo:
 
 _WGS 84 / UTM Zone 30N + Alicante Height_
 
-_NFT \(Paris\) / Lambert Zone 2 + EGM2008_
+_NFT \(París\) / Lambert Zone 2 + EGM2008_
 

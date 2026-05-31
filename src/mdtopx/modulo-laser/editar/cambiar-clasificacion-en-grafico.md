@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cambiar clasificación en gráfico
----
-
 # Cambiar clasificación en gráfico
 
 [Editar puntos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)

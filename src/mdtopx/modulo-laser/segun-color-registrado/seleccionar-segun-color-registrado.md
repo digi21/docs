@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Seleccionar según color registrado
----
-
 # Seleccionar según color registrado
 
 [Según color registrado](/mdtopx/modulo-laser/segun-color-registrado/)

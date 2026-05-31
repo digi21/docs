@@ -1,6 +1,6 @@
 # Ejemplos
 
-A continuación, se explican algunos ejemplos de las aplicaciones y herramientas del programa que tratarán de exponer la potencialidad del programa. Estos ejemplos se incluyen en el fichero de instalación Ejemplos de MDTop.msi que se puede descargar desde la dirección [http://download.digi21.net/Ejemplos de MDTop.msi](http://download.digi21.net/Ejemplos%20de%20MDTop.msi) .
+A continuación, se explican algunos ejemplos de las aplicaciones y herramientas del programa que tratarán de exponer la potencialidad del programa. Estos ejemplos se incluyen en el fichero de instalación Ejemplos de MDTop.msi que se puede descargar desde la dirección [http://download.digi21.net/Ejemplos de MDTop.msi](http://download.digi21.net/Ejemplos%20de%20MDTop.msi).
 
 Los ejemplos incluidos son los siguientes:
 
@@ -12,4 +12,3 @@ Los ejemplos incluidos son los siguientes:
 * [Ejemplo 6: Cálculo de una plataforma](/mdtopx/ejemplos/ejemplo-6-calculo-de-una-plataforma.md)
 * Ejemplo 7
 * [Ejemplo 8: Clasificación de un archivo LiDAR](/mdtopx/ejemplos/ejemplo-8-clasificacion-de-un-archivo-lidar.md)
-

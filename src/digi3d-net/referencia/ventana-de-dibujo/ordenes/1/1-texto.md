@@ -1,6 +1,6 @@
 # 1TEXTO
 
-Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\) una unica vez independientemente del estado del conmutador [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md).
+Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\) una única vez independientemente del estado del conmutador [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md).
 
 ## Parámetros
 

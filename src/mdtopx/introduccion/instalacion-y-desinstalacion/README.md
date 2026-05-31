@@ -4,7 +4,6 @@ Si es la primera vez que instala el programa, la instalación consta de tres pas
 
 * [Instalación de MDTopX](instalacion-del-programa.md)
 * [Instalación de la suite de licencias](/mdtopx/introduccion/instalacion-y-desinstalacion/instalacion-de-los-driver.md)
-* Ejecución de la herramienta recién instalada "**Seleccionar llave para MDTopX**", que permitirá indicarle al programa qué llave tiene que utilizar
+* Ejecución de la herramienta recién instalada **Seleccionar llave para MDTopX**, que permitirá indicarle al programa qué llave tiene que utilizar
 
 Si la aplicación ya está instalada en el ordenador y sólo se desea instalar una versión más moderna, sólo es necesario el primer paso.
-

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Generar DEM derivado
----
-
 # Generar DEM derivado
 
 [VirtuaLand General](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-general.md)

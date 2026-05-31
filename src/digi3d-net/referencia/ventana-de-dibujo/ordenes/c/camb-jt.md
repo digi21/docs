@@ -7,14 +7,14 @@ Modifica la justificación de uno o varios textos existentes en el dibujo.
 | Valor | Posición |
 | :--- | :--- |
 | 0 | Sitúa el punto de inserción al SO del texto |
-| 1 | Situa al punto de inserción al O del texto |
-| 2 | Situa al punto de inserción al NO del texto |
-| 3 | Situa al punto de inserción al N del texto |
-| 4 | Situa al punto de inserción al NE del texto |
-| 5 | Situa al punto de inserción al E del texto |
-| 6 | Situa al punto de inserción al SE del texto |
-| 7 | Situa al punto de inserción al S del texto |
-| 8 | Situa al punto de inserción al Centro del texto |
+| 1 | Sitúa al punto de inserción al O del texto |
+| 2 | Sitúa al punto de inserción al NO del texto |
+| 3 | Sitúa al punto de inserción al N del texto |
+| 4 | Sitúa al punto de inserción al NE del texto |
+| 5 | Sitúa al punto de inserción al E del texto |
+| 6 | Sitúa al punto de inserción al SE del texto |
+| 7 | Sitúa al punto de inserción al S del texto |
+| 8 | Sitúa al punto de inserción al Centro del texto |
 
 ## Observaciones
 

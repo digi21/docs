@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Perfil longitudinal de viales
----
-
 # Perfil longitudinal de viales
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)

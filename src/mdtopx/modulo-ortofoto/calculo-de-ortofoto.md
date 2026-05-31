@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cálculo de ortofoto
----
-
 # Cálculo de ortofoto
 
 [Módulo Ortofoto](/mdtopx/modulo-ortofoto/)
@@ -26,4 +22,3 @@ Vea también:
 * [Editar Orientación](../herramientas-para-imagenes/editar-orientacion-de-imagen.md)
 * [Cálculo de Líneas de unión](lineas-de-union.md)
 * [Cálculo de Mosaico](mosaico-ortos.md)
-

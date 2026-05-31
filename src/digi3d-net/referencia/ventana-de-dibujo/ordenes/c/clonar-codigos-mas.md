@@ -1,4 +1,4 @@
-# CLONAR\_CODIGOS+
+# CLONAR\_CÓDIGOS+
 
 Añade los códigos de una entidad seleccionada a la lista de códigos activa.
 

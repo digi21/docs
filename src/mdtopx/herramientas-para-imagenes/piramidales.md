@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Piramidales
----
-
 # Piramidales
 
 [Calcular](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/imagen-calcular.md)
@@ -10,4 +6,3 @@ Herramienta destinada al cálculo de imágenes derivadas de la actual como conse
 
 * **Nivel**: Valor numérico indicando el número de veces que se bajará la resolución. Por ejemplo, un 2 indicaría bajar la resolución a la mitad.
 * **Interpolación**: Se podrán seleccionar tres niveles diferentes de interpolación: Vecino próximo, Bilineal o Bicúbica.
-

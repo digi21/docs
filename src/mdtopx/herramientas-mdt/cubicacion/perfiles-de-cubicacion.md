@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Perfiles de cubicación
----
-
 # Perfiles de cubicación
 
 [Cuadro de diálogo Cubicación](./)
@@ -20,5 +16,5 @@ En él aparecen los siguientes campos a rellenar:
 * **Guitarra**: Se activará esta casilla si se desean sacar los perfiles longitudinales dentro de una guitarra informativa. Para configurar dicha guitarra se deberá pulsar el botón [Configurar](../perfiles/guitarra.md).
 * **Escalas**: Se indicarán los denominadores de escala horizontal y vertical. Servirá para saber el nivel de generalizado de los perfiles y la relación entre un eje y otro de presentación.
 * **Códigos**: Se indicarán los códigos para la línea que representa la rasante y la que representa el terreno.
-* ****[**Tipo de proyección sobre MDT**](../perfiles/tipo-de-proyeccion.md): Para indicar cómo se deberán proyectar los perfiles sobre el modelo digital.
-* ****[**Presentación gráfica**](../perfiles/presentacion-grafica.md): Para indicar cómo deberán ser presentados los perfiles en el fichero final de dibujo.
+* [**Tipo de proyección sobre MDT**](../perfiles/tipo-de-proyeccion.md): Para indicar cómo se deberán proyectar los perfiles sobre el modelo digital.
+* [**Presentación gráfica**](../perfiles/presentacion-grafica.md): Para indicar cómo deberán ser presentados los perfiles en el fichero final de dibujo.

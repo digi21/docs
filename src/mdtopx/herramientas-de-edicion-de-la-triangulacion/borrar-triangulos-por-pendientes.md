@@ -1,12 +1,8 @@
----
-description: Cuadro de diálogo Borrar triángulos por pendientes
----
-
 # Borrar triángulos por pendientes
 
 [Borrar triángulos del TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/borrar-triangulos-del-tin.md)
 
-Esta herramienta permite eliminar del [modelo digital](../como/como-triangulacion.md)triángulos que no están en el umbral de pendientes que indique el usuario. Para ello el programa necesita que se le indique una pendiente mínima por debajo de la cual, se pueden eliminar triángulos y una pendiente máxima, por encima de la cual, también se eliminará el triángulo.
+Esta herramienta permite eliminar del [modelo digital](../como/como-triangulacion.md) triángulos que no están en el umbral de pendientes que indique el usuario. Para ello el programa necesita que se le indique una pendiente mínima por debajo de la cual, se pueden eliminar triángulos y una pendiente máxima, por encima de la cual, también se eliminará el triángulo.
 
 ![Cuadro de diálogo Borrar triángulos por pendientes](../../.gitbook/assets/image-81.png)
 

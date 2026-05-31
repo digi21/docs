@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Configurar carga de imagen
----
-
 # Configurar carga de imagen
 
 [Cuadro de diálogo Cargar texturas](./)
@@ -12,7 +8,7 @@ Este cuadro de diálogo se muestra cuando se va a cargar una imagen ráster sobr
 * **X**: Coordenada X en metros de la esquina superior izquierda.
 * **Y**: Coordenada Y en metros de la esquina superior izquierda.
 
-```text
+```ini
 [ort]
 Pixel=0.50
 X=563010.94
@@ -27,4 +23,3 @@ Cuando se llama a la herramienta, el programa muestra el explorador de Windows, 
 * **Interpolación**: Se podrá seleccionar el tipo de interpolación en caso de que se baja la resolución de la imagen original. Se podrá optar entre Vecino próximo, Bilineal o Bicúbica
 
 Si ya se tenía previamente una imagen cargada, ésta se descargará automáticamente.
-

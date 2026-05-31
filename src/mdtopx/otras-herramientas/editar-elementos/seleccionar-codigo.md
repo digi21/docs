@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Seleccionar código
----
-
 # Seleccionar código
 
 [Editar Elementos](../../fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
@@ -13,4 +9,3 @@ Para ello se deben seleccionar los códigos deseados en el listado mostrado, que
 Vea también:
 
 * [Cambia código](/mdtopx/otras-herramientas/editar-elementos/cambia-codigo.md)
-

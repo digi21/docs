@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo División por hojas
----
-
 # División por hojas
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
@@ -20,4 +16,3 @@ Los campos que presenta son los siguientes:
 * **Nombre**: Se podrá indicar una serie de caracteres como sufijo al nombre original. Además, se deberán indicar con almohadillas la posición de los índices de archivo generados.
 * **Formato**: Se podrá indicar el formato de archivo que se desea utilizar para guardar las hojas resultantes. La variedad de formatos diferirá en función del archivo: modelo digital de rejilla, archivo vectorial genérico o archivo con nube de puntos.
 * **Destino**: Se podrá indicar una carpeta de destino donde se almacenarán las hojas.
-

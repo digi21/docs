@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Seleccionar según clasificación
----
-
 # Seleccionar según clasificación
 
 [Según clasificación LIDAR](/mdtopx/modulo-laser/segun-clasificacion-lidar/)

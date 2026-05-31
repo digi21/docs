@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Calcula curvas
----
-
 # Calcula curvas
 
 [Viales General](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-general.md)

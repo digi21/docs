@@ -7,10 +7,9 @@ Los objetos del MDT son modelos adicionales que representan objetos que están s
 Las herramientas que gestionan estos objetos están agrupadas en esta sección y son las siguientes:
 
 * [**Añadir objetos**](../../herramientas-de-edicion-de-la-triangulacion/poner-cubiertas.md): Herramienta para insertar objetos al modelo digital.
-* \*\*\*\*[**Información**](../../herramientas-de-edicion-de-la-triangulacion/informacion-de-objeto.md): Mediante este cuadro de diálogo se pueden ver y editar las propiedades de un objeto incluido en el MDT.
+* [**Información**](../../herramientas-de-edicion-de-la-triangulacion/informacion-de-objeto.md): Mediante este cuadro de diálogo se pueden ver y editar las propiedades de un objeto incluido en el MDT.
 * **Borrar**: Mediante este comando se pueden borrar objetos insertados en el documento actual. Para ello, se deberán seleccionar gráficamente mediante el botón izquierdo del ratón.
 * **Dividir en objetos**:
 * **Seleccionar**:
 * **Listar**:
 * **Copiar**:
-

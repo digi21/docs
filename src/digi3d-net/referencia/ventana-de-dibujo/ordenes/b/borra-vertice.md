@@ -1,4 +1,4 @@
-# BORRA\_VERTICE
+# BORRA\_VÉRTICE
 
 Elimina un vértice de una entidad lineal.
 

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Web Map Services
----
-
 # Web Map Services
 
 [VirtuaLand Cargar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-cargar.md)

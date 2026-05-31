@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cambia código
----
-
 # Cambia código
 
 [Editar Elementos](../../fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
@@ -15,4 +11,3 @@ Si el documento actual es un modelo digital sólo existirá la posibilidad de mo
 Vea también:
 
 * [Seleccionar código](/mdtopx/otras-herramientas/editar-elementos/seleccionar-codigo.md)
-

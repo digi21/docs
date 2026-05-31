@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cortar imagen
----
-
 # Cortar imagen
 
 [Editar imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/editar-imagen.md)
@@ -16,4 +12,3 @@ Los parámetros necesarios son los siguientes:
 * **Criterio de borrado**: Se tienen dos opciones:
 * **Dentro de los límites**: Se borrarán los píxeles que están dentro de los límites indicados.
 * **Fuera de los límites**: Se borrarán los píxeles que están fuera de los límites indicados.
-

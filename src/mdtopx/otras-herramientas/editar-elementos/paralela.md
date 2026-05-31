@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Paralela
----
-
 # Paralela
 
 [Editar Elementos](../../fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
@@ -12,4 +8,3 @@ Esta herramienta sirve para generar paralelas a una entidad lineal dada. Al ejec
 * **Pasando por un punto**: Se podrá indicar un punto gráficamente por donde se desea pasar la nueva entidad paralela.
 
 Una vez indicados los parámetros, el programa solicitará que se seleccione una entidad lineal gráficamente. Esta operación se realizará con el botón izquierdo del ratón.
-

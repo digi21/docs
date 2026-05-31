@@ -9,7 +9,7 @@ Devuelve _Cantidad_ caracteres desde la posición _Inicio_ de la macro sobre la 
 ## Parámetros
 
 `inicio`\
-Posición del origen de la sub-cadena a devolver (la posición del primer caracter es 0)
+Posición del origen de la sub-cadena a devolver (la posición del primer carácter es 0)
 
 `cantidad`\
 Cantidad de caracteres a devolver.

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Configuración de las líneas de la rejilla
----
-
 # Configuración de las líneas de la rejilla
 
 [Cuadro de diálogo Rejilla](./)

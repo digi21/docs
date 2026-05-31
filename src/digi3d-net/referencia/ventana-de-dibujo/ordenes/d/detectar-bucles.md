@@ -6,7 +6,7 @@ Detecta bucles \(o auto intersecciones\) en entidades de tipo Línea y Polígono
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| Código | Código de las entidades a analizar. Se pueden utilizar comodines como \* y ? y además se pueden especificar todos los códigos que tengan una etiqueta anteponiendo una almohadilla \(\#\) al nombre de la etiqueta, como por ejemplo \#vias\_de\_comunicacion |
+| Código | Código de las entidades a analizar. Se pueden utilizar comodines como \* y ? y además se pueden especificar todos los códigos que tengan una etiqueta anteponiendo una almohadilla \(\#\) al nombre de la etiqueta, como por ejemplo \#vías\_de\_comunicación |
 
 ## Observaciones
 

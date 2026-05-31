@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Sección tipo
----
-
 # Sección tipo
 
 [Listado de Secciones Tipo](listado-secciones-tipo.md)

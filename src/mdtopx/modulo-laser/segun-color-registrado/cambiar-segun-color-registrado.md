@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Cambiar según color registrado
----
-
 # Cambiar según color registrado
 
 [Según color registrado](/mdtopx/modulo-laser/segun-color-registrado/)

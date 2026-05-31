@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Borra por altitudes
----
-
 # Borra por altitudes
 
 [VirtuaLand Editar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-editar.md)

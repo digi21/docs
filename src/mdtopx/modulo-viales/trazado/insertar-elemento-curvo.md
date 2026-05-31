@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Insertar elemento curvo
----
-
 # Insertar elemento curvo
 
 [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md)
@@ -16,7 +12,7 @@ Una vez aceptado el lugar para encajar el elemento curvo, el programa muestra un
 
 En la parte inferior del cuadro de diálogo se pueden modificar los parámetros que definirán el elemento curvo. Según se vayan introduciendo el programa, automáticamente, irá calculando los puntos de tangencia, cuyas coordenadas se expresan en la parte derecha, y el resto de parámetros. Para que un elemento curvo sea válido, la distancia entre el vértice y los puntos de tangencia deberán ser inferiores a las longitudes de las tangentes mostradas en la parte superior. Si el elemento no es válido no se mostrarán las coordenadas de los puntos de tangencia y no se activará el botón Aceptar para salir del cuadro de diálogo.
 
-![](../../../.gitbook/assets/Clotoides.gif)
+![clotoide](../../../.gitbook/assets/Clotoides.gif)
 
 Los parámetros que definen el elemento curvo son los siguientes:
 

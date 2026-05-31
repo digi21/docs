@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar puntos según área
----
-
 # Buscar puntos según área
 
  [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
@@ -37,4 +33,4 @@ Vea también:
 * [Buscar puntos vecinos](buscar-vecinos.md)
 * [Buscar puntos según infrarrojo](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-segun-infrarrojo.md)
 * [Buscar huecos](/mdtopx/modulo-laser/buscar-puntos/buscar-huecos.md)
-* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md) 
+* [Buscar puntos según planos de usuario](../formas-geometricas/buscar-puntos-sobre-planos.md)

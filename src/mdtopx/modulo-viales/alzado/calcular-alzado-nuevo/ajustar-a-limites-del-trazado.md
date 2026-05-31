@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Ajustar a límites del trazado
----
-
 # Ajustar a límites del trazado
 
 [Calcular alzado nuevo](/mdtopx/modulo-viales/alzado/calcular-alzado-nuevo/)

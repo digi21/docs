@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Seleccionar según eco
----
-
 # Seleccionar según eco
 
 [Según eco LIDAR](/mdtopx/modulo-laser/segun-eco-lidar/)

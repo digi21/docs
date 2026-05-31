@@ -9,4 +9,3 @@ Para desinstalar MDTopX, utilice la herramienta Agregar o quitar programas dispo
 * Siga las instrucciones del instalador
 
 Una alternativa de desinstalación es utilizando el icono de desinstalación que se crea en la instalación del programa. Para ello, pulse Inicio -&gt; Programas -&gt; Digi21.net -&gt; Desinstalación de MDTopX.
-

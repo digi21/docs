@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Gráfico de hojas
----
-
 # Gráfico de hojas
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
@@ -16,4 +12,3 @@ Los campos son los siguientes:
 * **Mediante las dimensiones de la hoja**: Se calculará el número de filas y columnas de hojas que se va a generar.
 * **Mediante el número de filas y columnas**: Se calculará las dimensiones que tendrá cada hoja generada.
 * **Textos**: Se indicará el texto que se introducirá como centroide dentro de cada hoja. Se podrá introducir una parte fija y una parte variable. La parte variable estará compuesta de tantos caracteres \# se desee. Estos caracteres serán sustituidos por el número de hoja generada, nombrándolas primero por columnas y luego por filas, empezando por la esquina inferior izquierda.
-

@@ -1,4 +1,4 @@
-# MODIFICA\_VERTICE
+# MODIFICA\_VÉRTICE
 
 Modifica la posición de un vértice en una entidad lineal.
 

@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Diagrama de masas
----
-
 # Diagrama de masas
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)

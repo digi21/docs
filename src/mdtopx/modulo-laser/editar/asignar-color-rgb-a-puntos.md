@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Asignar color RGB a puntos
----
-
 # Asignar color RGB a puntos
 
 [Editar puntos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)

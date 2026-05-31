@@ -1,4 +1,4 @@
-# COLOR\_INDICE
+# COLOR\_ÍNDICE
 
 Permite cambiar el color de los índices en la pantalla estereoscópica.
 

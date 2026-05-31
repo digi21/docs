@@ -1,4 +1,4 @@
-# ANALIZAR\_MODELO\_SEMANTICO
+# ANALIZAR\_MODELO\_SEMÁNTICO
 
 Activa o desactiva el análisis de _Modelo semántico_ en tiempo real al finalizar de digitalizar una entidad.
 

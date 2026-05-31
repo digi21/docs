@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Glorietas
----
-
 # Glorietas
 
 [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md)
@@ -26,4 +22,4 @@ Los datos que se muestran los siguientes:
   * _Longitud total_: Longitud total del trazado en metros.
   * _Área interior_: Área interior al trazado en metros cuadrados.
 
-Una vez aceptados los datos calculados, el programa mostrará un [cuadro de diálogo](insertar-elemento-curvo.md)con el nuevo trazado de la glorieta, donde se mostrarán los vértices y las correspondientes tangentes.
+Una vez aceptados los datos calculados, el programa mostrará un [cuadro de diálogo](insertar-elemento-curvo.md) con el nuevo trazado de la glorieta, donde se mostrarán los vértices y las correspondientes tangentes.

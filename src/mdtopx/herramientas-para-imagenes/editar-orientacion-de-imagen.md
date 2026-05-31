@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Editar orientación de imagen
----
-
 # Editar orientación de imagen
 
 [Orientación](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/orientacion.md)
@@ -54,7 +50,7 @@ Después de georreferenciar la imagen y de salvarla a disco, se generará un arc
 
 Un ejemplo de archivo ORI de orientación de imagen esférica sería:
 
-```
+```ini
 [Orientacion]
 Modo=Externa
 [Externa]
@@ -75,7 +71,7 @@ MaxAltura=180.0000
 
 Un ejemplo de archivo ORT de orientación de imagen ortogonal sería:
 
-```
+```ini
 [ort]
 Pixel=0.366396
 X=446217.550000
@@ -86,7 +82,7 @@ EscalaZ=1.000000
 
 Un ejemplo de archivo TFW de orientación de la misma imagen ortogonal sería:
 
-```
+```ini
 0.366396
 0.000
 0.000

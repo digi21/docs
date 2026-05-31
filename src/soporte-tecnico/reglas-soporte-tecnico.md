@@ -1,4 +1,4 @@
-# Reglas Soporte Tecnico
+# Reglas Soporte Técnico
 
 Nuestra intención es proporcionarte una solución lo más rápidamente posible.
 

@@ -1,4 +1,4 @@
-# Asignacion del Sistema de Referencia de Coordenadas de la Ventana de Dibujo
+# Asignación del Sistema de Referencia de Coordenadas de la Ventana de Dibujo
 
 Digi3D.NET permite que especifiquemos el sistema de coordenadas de referencia de la ventana de dibujo mediante la opción **Sistema de coordenadas de la ventana de dibujo** de la sección **Sistema de coordenadas de referencia** de la pestaña [Pestaña archivo de dibujo](/digi3d-net/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/Pesta-aArchivoDeDibujo.html) del [Cuadro de dialogo nuevo proyecto](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/CuadroDeDialogoNuevoProyecto.md).
 

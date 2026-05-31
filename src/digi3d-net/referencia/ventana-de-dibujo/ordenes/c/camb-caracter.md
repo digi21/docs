@@ -1,4 +1,4 @@
-# CAMB\_CARACTER
+# CAMB\_CARÁCTER
 
 Sustituye un carácter de texto determinado por otro diferente.
 

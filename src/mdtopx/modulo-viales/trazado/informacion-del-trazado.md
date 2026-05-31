@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Información del trazado
----
-
 # Información del trazado
 
 [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md)
@@ -29,13 +25,13 @@ Al realizar alguna de estas últimas operaciones, el programa comprueba la consi
 
 Al pulsar el botón **Añadir**, se utilizará el punto actualmente seleccionado como punto anterior a donde será añadido el nuevo punto.
 
-Si se pulsa el botón **Borrar** sobre un punto Vértice o Tangente (de entrada o salida), se borrará todo el elemento curvo que representan.
+Si se pulsa el botón **Borrar** sobre un punto Vértice o Tangente \(de entrada o salida), se borrará todo el elemento curvo que representan.
 
 También se presenta el botón **Cerrar** para poder cerrar el trazado. Para cerrar el trazado, el programa introducirá al final del listado un punto con las mismas coordenadas del primer punto. Si el trazado ya está cerrado este botón aparecerá desactivado.
 
 Por último, aparecer el botón **Exportar ASCII** que permitirán generar un archivo con el listado del estado de alineaciones del vial mostrado. Al pulsarlo se mostrará el explorador de Windows para especificar el nombre y carpeta de destino. El archivo generado tiene el siguiente aspecto:
 
-```
+```text
 Punto X Y Radio A Tipo
 1 424621.570 4495199.270 0.000 0.000
 2 424652.540 4495243.044 50.000 0.000 TE

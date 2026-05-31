@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar geometría
----
-
 # Buscar geometría
 
 [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md)

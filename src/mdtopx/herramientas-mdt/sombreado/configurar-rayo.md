@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Configurar rayo
----
-
 # Configurar rayo
 
 [Cuadro de diálogo Sombreado](./)

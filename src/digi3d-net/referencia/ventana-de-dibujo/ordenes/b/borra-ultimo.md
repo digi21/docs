@@ -1,4 +1,4 @@
-# BORRA\_ULTIMO
+# BORRA\_ÚLTIMO
 
 Borra la última entidad registrada en el fichero de dibujo.
 

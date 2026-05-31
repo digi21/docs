@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Lista de clasificaciones
----
-
 # Lista de clasificaciones
 
 [Vista de puntos láser](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/vista-de-puntos-laser.md)

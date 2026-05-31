@@ -1,10 +1,6 @@
----
-description: Cuadro de diálogo Cambiar clasificación según eco
----
-
 # Cambiar clasificación según eco
 
-[ Según eco LIDAR](./)
+[Según eco LIDAR](./)
 
 Esta herramienta está destinada para cambiar la clasificación de puntos LiDAR en función del eco que tienen.
 

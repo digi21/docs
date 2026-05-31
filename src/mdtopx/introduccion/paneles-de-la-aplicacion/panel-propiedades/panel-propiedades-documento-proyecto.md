@@ -16,4 +16,3 @@ En este panel aparece la información referente al proyecto actual. En él se pu
 * **Límites**: Código de los límites que representan cada tipo de archivos, así como el texto que indica el nombre de cada archivo.
 
 Con el botón **+** de la barra de herramientas de este panel, se podrán agregar ficheros nuevos al proyecto
-

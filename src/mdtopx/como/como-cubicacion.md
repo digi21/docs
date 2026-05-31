@@ -11,9 +11,9 @@ Existe la posibilidad de proyectar perfiles sobre la cubicación. Para ello, se 
 La llamada a esta herramienta se puede hacer de las siguientes formas:
 
 * Pulsar el botón  Cubicación de la ficha de [Herramientas MDT](/mdtopx/herramientas-mdt/).
-* Pulsar la combinación de teclas \[CTRL\] + \[B\].
+* Pulsar la combinación de teclas \[CTRL] + \[B].
 
-Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/cubicacion/)para indicar las opciones de triangulación. Si el botón Aceptar es pulsado, el programa calculara la cubicación, generando los siguientes archivos:
+Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/cubicacion/) para indicar las opciones de triangulación. Si el botón Aceptar es pulsado, el programa calculara la cubicación, generando los siguientes archivos:
 
 * Si el modo de cálculo elegido es el de Intersección de triángulos se generará un archivo con la cubicación y las áreas coloreadas según sean de desmonte o terraplén. Este documento tendrá formato de modelo digital y estará formado por triángulos con cota la diferencia entre ambos modelos digitales. Además, se mostrarán las superficies en desmonte y terraplén con diferentes colores:
   * La superficie en desmonte se mostrará de color verde
@@ -29,4 +29,3 @@ Por otro lado, esta vista coloreada del documento calculado podrá ser salvada, 
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-cubicacion.md).
 
 Si lo desea, puede consultar cómo calcular una cubicación en el [Ejemplo 3: Cálculo de un movimiento de tierras](/mdtopx/ejemplos/ejemplo3.md)
-

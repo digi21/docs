@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar puntos sobre planos
----
-
 # Buscar puntos sobre planos
 
 [Buscar formas geométricas](./)
@@ -44,6 +40,5 @@ Vea también:
 * [Buscar huecos](/mdtopx/modulo-laser/buscar-puntos/buscar-huecos.md)
 * [Buscar puntos según Área de superficie](../buscar-puntos/buscar-puntos-segun-area.md)
 
-<video controls><source src="https://youtu.be/0NJjQvRX5CM" type="video/mp4"></video>
+[![Identificación de puntos en planos](https://img.youtube.com/vi/0NJjQvRX5CM/0.jpg)](https://youtu.be/0NJjQvRX5CM)
 Identificación de puntos en planos
-

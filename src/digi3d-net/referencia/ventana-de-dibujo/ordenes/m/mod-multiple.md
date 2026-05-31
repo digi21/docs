@@ -1,6 +1,6 @@
-# MOD\_MULTIPLE
+# MOD\_MÚLTIPLE
 
-Modifica el trazado geometrico de varias entidades en XY.
+Modifica el trazado geométrico de varias entidades en XY.
 
 ## Parámetros
 
@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones.
 
-Tienes que dibujar una entidad que represente el nuevo trazado de los elementos que quieres modificar, y sin dar por terminada ésta, ejecuta la orden MOD\_MULTIPLE. El nuevo tramo dibujado debería engancharse en los puntos apropiados de la entidad a modificar.
+Tienes que dibujar una entidad que represente el nuevo trazado de los elementos que quieres modificar, y sin dar por terminada ésta, ejecuta la orden MOD\_MÚLTIPLE. El nuevo tramo dibujado debería engancharse en los puntos apropiados de la entidad a modificar.
 
 Digi3D.NET busca en la entidad a modificar, los puntos más próximos al primero y último de la entidad modificadora, y sustituye el tramo comprendido entre dichos puntos por los puntos de la entidad modificadora.
 

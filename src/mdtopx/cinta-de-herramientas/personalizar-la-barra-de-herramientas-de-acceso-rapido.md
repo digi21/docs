@@ -4,10 +4,10 @@
 
 La barra de herramientas de acceso rápido es una barra de herramientas personalizable que contiene un conjunto de comandos independientes de la ficha que se está mostrando. Puede agregar a esta barra botones que representen comandos y [moverla](mover-la-barra-de-herramientas-de-acceso-rapido.md) a dos posibles ubicaciones.
 
-Puede agregar un comando a la barra de herramientas de acceso rápido desde una lista de comandos del cuadro de diálogo [Opciones](/lot-of-points-cc/interfaz-de-usuario/archivo/opciones/). Este cuadro de diálogo puede ser mostrado de dos formas diferentes:
+Puede agregar un comando a la barra de herramientas de acceso rápido desde una lista de comandos del cuadro de diálogo [Opciones](../otras-herramientas/opciones.md). Este cuadro de diálogo puede ser mostrado de dos formas diferentes:
 
 * A través del [botón de MDTopX](../introduccion/boton-de-mdtopx.md):
-  * Haga clic en el [botón de MDTopX](../introduccion/boton-de-mdtopx.md) y, a continuación, haga clic en el botón [Opciones](/lot-of-points-cc/interfaz-de-usuario/archivo/opciones/).
+  * Haga clic en el [botón de MDTopX](../introduccion/boton-de-mdtopx.md) y, a continuación, haga clic en el botón [Opciones](../otras-herramientas/opciones.md).
   * Haga clic en Personalizar.
 * A través de la barra de herramientas de acceso rápido :
   * Haga clic en Personalizar barra de herramientas de acceso rápido .
@@ -23,4 +23,3 @@ También puede agregar un comando a la barra de herramientas de acceso rápido d
 
 * En la cinta de herramientas, haga clic en la ficha o el grupo correspondiente para mostrar el comando que desee agregar a la barra de herramientas de acceso rápido.
 * Haga clic con el botón derecho del ratón en el comando y, a continuación, haga clic en la opción Agregar a la barra de herramientas de acceso rápido del menú contextual.
-

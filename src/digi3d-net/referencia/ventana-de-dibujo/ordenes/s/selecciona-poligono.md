@@ -1,4 +1,4 @@
-# SELECCIONA\_POLIGONO
+# SELECCIONA\_POLÍGONO
 
 Permite digitalizar un nuevo polígono y selecciona todas las entidades que solapan con este polígono.
 

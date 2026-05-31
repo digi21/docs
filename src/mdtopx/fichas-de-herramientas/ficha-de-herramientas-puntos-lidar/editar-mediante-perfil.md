@@ -12,4 +12,3 @@ MDTopX permite editar un fichero de puntos láser utilizando un perfil en alzado
 * **Seleccionar puntos por debajo**: Seleccionaría puntos que se encuentren verticalmente por debajo de la línea definida
 * **Seleccionar puntos a la izquierda**: Seleccionaría puntos que se encuentren horizontalmente a la izquierda de la línea definida
 * **Seleccionar puntos a la derecha**: Seleccionaría puntos que se encuentren horizontalmente a la derecha de la línea definida
-

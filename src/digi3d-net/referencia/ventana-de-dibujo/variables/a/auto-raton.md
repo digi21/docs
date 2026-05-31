@@ -1,4 +1,4 @@
-# AUTO_RATON
+# AUTO_RATÓN
 
 Activa o desactiva el _autozoom_ al utilizar ratón como dispositivo de entrada.
 

@@ -1,4 +1,4 @@
-# Cada vez que conecto la llave de proteccion en un ordenador tengo que volverla a activar
+# Cada vez que conecto la llave de protección en un ordenador tengo que volverla a activar
 
 Las primeras versiones de la suite de programas Licencias  almacenaban las licencias en las llaves de protección de tal forma que en ciertos ordenadores que enumeran el hardware con un orden aleatorio provocaban este problema.
 

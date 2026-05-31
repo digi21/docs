@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Guitarra de viales
----
-
 # Guitarra de viales
 
 [Módulo Viales](/mdtopx/modulo-viales/)
@@ -16,15 +12,15 @@ En la parte superior del cuadro de diálogo se deberán seleccionar los elemento
 * **Cota rasante/terreno**: Valor de la cota sobre la rasante o sobre el modelo digital, es decir, el terreno.
 * **Distancias parcial y al origen**: Distancia en metros al origen del perfil o al último punto que se ha referenciado en la guitarra.
 * **Puntos**: Se mostrará un texto con el tipo de punto, si éste es un punto importante del trazado. Los textos posibles son TE (tangente de entrada de elemento curvo), TS (tangente de salida de elemento curvo), TEC (tangente de entrada de elemento circular entre clotoides), TSC (tangente de salida de elemento circular entre clotoides), Inicio (comienzo del trazado) y Final (final del trazado).
-*   **Alineaciones**: Activando esta opción se mostrará un gráfico con las diferentes alineaciones del trazado. Así se mostrarán las rectas, curvas circulares y clotoides con diferentes gráficos acompañados por textos con los valores más significativos de estas alineaciones.
+* **Alineaciones**: Activando esta opción se mostrará un gráfico con las diferentes alineaciones del trazado. Así se mostrarán las rectas, curvas circulares y clotoides con diferentes gráficos acompañados por textos con los valores más significativos de estas alineaciones.
 
      Por ejemplo, para un elemento circular se mostrará el siguiente gráfico:
 
-![](../../../.gitbook/assets/curva-circular-en-guitarra.jpg)
+![curva circular en guitarra](../../../.gitbook/assets/curva-circular-en-guitarra.jpg)
 
  Para un elemento con clotoide, se mostrará el siguiente gráfico:
 
-![](../../../.gitbook/assets/curva-con-clotoide-en-guitarra.jpg)
+![curva con clotoide en guitarra](../../../.gitbook/assets/curva-con-clotoide-en-guitarra.jpg)
 
  Estos gráficos mostrarán el sentido de la curva, en función de la posición en la que se dibuje (arriba o abajo).
 
@@ -32,7 +28,7 @@ En la parte superior del cuadro de diálogo se deberán seleccionar los elemento
 
 A continuación se debe configurar la posición del plano de comparación de la caja y si se desea una escala vertical, por medio de los siguientes campos:
 
-* **Plano de comparación**: En este campo se elegirá la forma en la que el programa va a calcular la altitud del plano de comparación de los perfiles. Si se elige la opción Absoluta, el programa colocará el plano a la cota indicada en el campo Valor de la altitud . Si se elige la opción Relativo a cada perfil , el programa calculará la altitud del plano restando a la cota más baja de cada perfil la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Relativo a todos los perfiles, el programa calculará la altitud del plano restando a la cota más baja de todos los perfiles la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Absoluta, podría ocurrir que se calcule algún perfil cuya cota mínima está por debajo del valor indicado. En este caso, el programa muestra un [cuadro de diálogo](../../herramientas-mdt/perfiles/conflicto-con-el-plano-de-comparacion.md)donde se podrá se podrá solucionar este conflicto.
+* **Plano de comparación**: En este campo se elegirá la forma en la que el programa va a calcular la altitud del plano de comparación de los perfiles. Si se elige la opción Absoluta, el programa colocará el plano a la cota indicada en el campo Valor de la altitud . Si se elige la opción Relativo a cada perfil , el programa calculará la altitud del plano restando a la cota más baja de cada perfil la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Relativo a todos los perfiles, el programa calculará la altitud del plano restando a la cota más baja de todos los perfiles la cantidad expresada en el campo Valor de la altitud. Si se elige la opción Absoluta, podría ocurrir que se calcule algún perfil cuya cota mínima está por debajo del valor indicado. En este caso, el programa muestra un [cuadro de diálogo](../../herramientas-mdt/perfiles/conflicto-con-el-plano-de-comparacion.md) donde se podrá se podrá solucionar este conflicto.
 * **Valor de la altura**: Indicará el valor en metros de la altitud absoluta o relativa del plano de comparación.
 * **Incluir escala vertical**: Se activará esta casilla si se desean trazar líneas horizontales paralelas al plano de comparación que ayudarán en la lectura del perfil, ya que indicarán diferentes valores de altitud. La distancia entre estas líneas se indicarán en el campo situado debajo de esta casilla.
 

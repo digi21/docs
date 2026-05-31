@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Clasificar árboles
----
-
 # Clasificar árboles
 
 [Ficha de herramientas MMS Forestal](./)
@@ -12,4 +8,3 @@ El cuadro de diálogo necesita los siguientes datos:
 
 * Tipo de registro:
 * Fichero de eje:
-

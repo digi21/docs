@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Asignar secciones tipo a vial
----
-
 # Asignar secciones tipo a vial
 
 [Secciones Tipo](/mdtopx/modulo-viales/secciones-tipo/)

@@ -1,4 +1,4 @@
-# Asignacion del Sistema de Referencia de Coordenadas a un archivo de dibujo
+# Asignación del Sistema de Referencia de Coordenadas a un archivo de dibujo
 
 Hasta ahora, si cargábamos un proyecto que no proporcionaba Sistema de Referencia de Coordenadas, Digi3D.NET asignaba de forma automática a los modelos cargados un Sistema Local (desconocido).
 

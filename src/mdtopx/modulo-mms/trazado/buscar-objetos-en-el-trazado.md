@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar objetos en el trazado
----
-
 # Buscar objetos en el trazado
 
 [Ficha de herramientas MMS Trazado](./)
@@ -19,8 +15,6 @@ El cuadro de diálogo necesita los siguientes datos:
 
 * **Punto de registro**: Se deberán seleccionar los puntos de registro que se utilizarán en el cálculo.
 * **Máxima distancia entre puntos**: Se indicará la distancia máxima entre dos puntos para ser considerados vecinos en el espacio.
-* **Objetos a identificar**: Se deberán indicar qué elementos se desean identificar en el cálculo. Estos objetos son: Carteles informativos, Puentes o túneles, Vehículos, Luminarias, Biondas o quitamiedos y Señales de tráfico. Al seleccionar la búsqueda de un objeto se deberá indicar el tipo con el que se clasificarán los puntos identificados. Además, en el caso de las señales de trafico, se deberá indicar el valor mínimo de intensidad que deben tener los puntos.
+* **Objetos a identificar**: Se deberán indicar qué elementos se desean identificar en el cálculo. Estos objetos son: Carteles informativos, Puentes o túneles, Vehículos, Luminarias, Biondas o quitamiedos y Señales de tráfico. Al seleccionar la búsqueda de un objeto se deberá indicar el tipo con el que se clasificarán los puntos identificados. Además, en el caso de las señales de tráfico, se deberá indicar el valor mínimo de intensidad que deben tener los puntos.
 
-<video controls><source src="https://youtu.be/Xp4bjqNUKIQ" type="video/mp4"></video>
-Detección de activos en vial a partir de datos MMS
-
+[Ver video: Detección de activos en vial a partir de datos MMS](https://youtu.be/Xp4bjqNUKIQ)

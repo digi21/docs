@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Buscar líneas de vial
----
-
 # Buscar líneas de vial
 
 [Ficha de herramientas MMS Trazado](../)
@@ -26,6 +22,4 @@ El cuadro de diálogo necesita los siguientes datos:
 * Distancia máxima entre puntos
 * Distancia máximas para carriles
 
-<video controls><source src="https://youtu.be/J4uEcv8OIGU" type="video/mp4"></video>
-Detección de carriles en vial a partir de datos MMS
-
+[Detección de carriles en vial a partir de datos MMS (ver video en YouTube)](https://youtu.be/J4uEcv8OIGU)

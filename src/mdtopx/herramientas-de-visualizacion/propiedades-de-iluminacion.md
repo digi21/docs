@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Propiedades de iluminación
----
-
 # Propiedades de iluminación
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)

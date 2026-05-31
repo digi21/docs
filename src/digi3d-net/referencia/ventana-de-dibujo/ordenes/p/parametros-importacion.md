@@ -1,4 +1,4 @@
-# PARAMETROS\_IMPORTACION
+# PARAMETROS\_IMPORTACIÓN
 
 Especifica los parámetros que se enviarán al importador/exportador correspondiente, sin que aparecerá el cuadro de diálogo de configuración de importación al importar/exportar un determinado tipo de archivo.
 
@@ -82,11 +82,11 @@ Los parámetros de exportación dependerán del tipo de archivo.
 
 ## Observaciones
 
-Por defecto, si intentas abrir un archivo .dgn o .dxf \(con la orden [CARGA\_F](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/carga-f.md), aparece el cuadro de diálogo de configuración donde se especifican los parámetros para la orden. Si no te interesa que aparezca este cuadro de diálogo o bien quieres ejecutar estas órdenes desde la línea de comandos, deberás especificar estos valores a priori mediante la orden _PARAMETROS\_IMPORTACIÓN_.
+Por defecto, si intentas abrir un archivo .dgn o .dxf \(con la orden [CARGA\_F](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/carga-f.md), aparece el cuadro de diálogo de configuración donde se especifican los parámetros para la orden. Si no te interesa que aparezca este cuadro de diálogo o bien quieres ejecutar estas órdenes desde la línea de comandos, deberás especificar estos valores a priori mediante la orden _PARÁMETROS\_IMPORTACIÓN_.
 
 Sintaxis:
 
-parametros\_importacion=\[importación/exportación\]\[.extensión\]
+parámetros\_importación=\[importación/exportación\]\[.extensión\]
 
 \["parámetros\_específicos\_para\_el\_importador/exportador"\]
 
@@ -98,9 +98,9 @@ donde:
 
 **Nota:**
 
-La orden PARAMETROS\_IMPORTACION recibe tres parámetros, por lo que todos los parámetros que recibe el importador tienen que ir delimitados entre comillas dobles o simples como en el ejemplo anterior, si a su vez los parámetros que recibe el importador tienen que estar entrecomillados por que contienen espacios, se utilizará el delimitador opuesto.
+La orden PARAMETROS\_IMPORTACIÓN recibe tres parámetros, por lo que todos los parámetros que recibe el importador tienen que ir delimitados entre comillas dobles o simples como en el ejemplo anterior, si a su vez los parámetros que recibe el importador tienen que estar entrecomillados por que contienen espacios, se utilizará el delimitador opuesto.
 
-Después de haber ejecutado la orden PARAMETROS\_IMPORTACION para definir los parámetros para el formato deseado, el usuario podrá ejecutar las órdenes de importación o exportación que le interesen más: [CARGA\_F](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/carga-f.md).
+Después de haber ejecutado la orden PARAMETROS\_IMPORTACIÓN para definir los parámetros para el formato deseado, el usuario podrá ejecutar las órdenes de importación o exportación que le interesen más: [CARGA\_F](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/carga-f.md).
 
 `EXPORTAR=C:\prueba.dxf`
 

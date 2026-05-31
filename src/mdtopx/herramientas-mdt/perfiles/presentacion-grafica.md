@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Presentación gráfica
----
-
 # Presentación gráfica
 
 ![Cuadro de diálogo Presentación gráfica](../../../.gitbook/assets/image-55.png)

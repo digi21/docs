@@ -13,9 +13,8 @@ Por tanto, para que el modelo digital generado, sea lo más ajustado posible al 
 La herramienta Triangulación se basa en este algoritmo para el cálculo. Para ejecutarla se puede hacer de las siguientes formas:
 
 * Pulsar el botón Triangular de la ficha de herramientas [Herramientas MDT](/mdtopx/herramientas-mdt/).
-* Pulsar la combinación de teclas \[CTRL\] + \[T\].
+* Pulsar la combinación de teclas \[CTRL] + \[T].
 
-Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/triangulacion.md)para indicar las opciones de triangulación. Si el botón Aceptar es pulsado, el programa calculará la triangulación, generando el modelo digital del terreno en un nuevo documento, visualizándolo en pantalla. Este documento se podrá almacenar en formato MDTopX, DIGI, DXF, DGN o Shape. Si es almacenado en formato MDTopX se guardarán los triángulos para poder calcular en una sesión posterior. Si, por el contrario, se salva en formato DIGI o DGN, se salvará sólo como un dibujo en el cuál sólo hay entidades cerradas de 4 puntos; en el caso de salvar en formato DXF, se salvarán los triángulos como entidades 3DFACE. Si no se salva en formato MDTopX, se perderán las condiciones para poder ser utilizado posteriormente en cálculos con modelos digitales, ya que se tratarán sólo de dibujos.
+Al ejecutar esta herramienta, se abrirá un [cuadro de diálogo](../herramientas-mdt/triangulacion.md) para indicar las opciones de triangulación. Si el botón Aceptar es pulsado, el programa calculará la triangulación, generando el modelo digital del terreno en un nuevo documento, visualizándolo en pantalla. Este documento se podrá almacenar en formato MDTopX, DIGI, DXF, DGN o Shape. Si es almacenado en formato MDTopX se guardarán los triángulos para poder calcular en una sesión posterior. Si, por el contrario, se salva en formato DIGI o DGN, se salvará sólo como un dibujo en el cuál sólo hay entidades cerradas de 4 puntos; en el caso de salvar en formato DXF, se salvarán los triángulos como entidades 3DFACE. Si no se salva en formato MDTopX, se perderán las condiciones para poder ser utilizado posteriormente en cálculos con modelos digitales, ya que se tratarán sólo de dibujos.
 
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-triangulacion.md).
-

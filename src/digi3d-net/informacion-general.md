@@ -1,4 +1,4 @@
-# Informacion general de la aplicación
+# Información general de la aplicación
 
 Digi3D.NET es la evolución de dos programas que nacen como productos independientes y que terminan mezclándose en una única aplicación.
 

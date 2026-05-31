@@ -12,4 +12,3 @@ Las posibilidades que tiene por cada una de estas tipologías son las siguientes
 * **Borrar**: Mediante este botón se podrán eliminar aquellos puntos seleccionados que tengan una determinada tipología.
 
 Por último, se ofrece un botón que permite crear una vista con los puntos que actualmente están seleccionados. Esta herramienta está también en las [Herramientas para Archivos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/)
-

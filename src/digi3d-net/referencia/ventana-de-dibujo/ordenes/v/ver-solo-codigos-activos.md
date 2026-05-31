@@ -1,4 +1,4 @@
-# VER\_SOLO\_CODIGOS\_ACTIVOS
+# VER\_SOLO\_CÓDIGOS\_ACTIVOS
 
 Activa únicamente los códigos activos.
 

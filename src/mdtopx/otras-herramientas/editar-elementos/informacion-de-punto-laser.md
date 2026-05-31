@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Información de punto láser
----
-
 # Información de punto láser
 
 [Elementos](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
@@ -16,4 +12,3 @@ Cuando se solicita información de un punto de una nube de puntos LiDAR, se mues
 * Ángulo, en el momento de registro
 * Identificador del punto de registro.
 * Tiempo GPS.
-

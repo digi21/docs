@@ -8,4 +8,3 @@ Las herramientas comunes del [módulo Edificios](./) están agrupadas en esta se
 * Intersección de planos
 * Juntar planos paralelos
 * Juntar planos paralelos
-

@@ -15,7 +15,7 @@ Para indicar al tentativo que **siga buscando**, cuando ejecuto una orden que so
 Indicar al tentativo que siga buscando cuando estas utilizando modos de búsqueda:
 
 1. Ya has borrado la línea _020123 CURVA DE NIVEL \(FINA\)_, vuelve a **dibujar** una línea con ese código próxima a la línea _010123 LIMITE PROVINCIAL_ pero sin que se corten y de aproximadamente la misma longitud.
-2. **Selecciona** en la [Barra de herramientas Tentativo](/digi3d-net/referencia/barras-de-herramientas/tentativo.md) el modo de búsqueda _0. Vertice o proyección en XY_.
+2. **Selecciona** en la [Barra de herramientas Tentativo](/digi3d-net/referencia/barras-de-herramientas/tentativo.md) el modo de búsqueda _0. Vértice o proyección en XY_.
 3. Pulsa el [botón de tentativo](indicar-tentativo-seguir-buscando.md) del ratón en uno de los extremos de las dos líneas para tentativar sobre una de ellas. Si en lugar de querer tentativar sobre la entidad que se ha seleccionado quisieras tentantivar sobre la otra, vuelve a pulsar el [botón de tentativo](indicar-tentativo-seguir-buscando.md) del ratón.
 4. Pulsa ahora sobre el [Botón de dato](indicar-tentativo-seguir-buscando.md) del ratón, y continúa dibujando la línea.
 

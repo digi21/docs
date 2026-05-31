@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Triangulación 2D
----
-
 # Triangulación 2D
 
 [Obtener modelo digital](/mdtopx/modulo-laser/obtener-modelo-digital/)

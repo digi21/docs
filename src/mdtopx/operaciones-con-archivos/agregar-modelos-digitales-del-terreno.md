@@ -18,4 +18,3 @@ En caso de que exista solape entre las zonas que representan los archivos el pro
 Si se pulsa al botón Salir se cancelará la operación y no se modificará el documento.
 
 Esta herramienta tiene la posibilidad de ser ejecutada desde la [línea de comandos](../desde-linea-de-comando/linea-de-comando-agregar-modelos-digitales-del-terreno.md).
-

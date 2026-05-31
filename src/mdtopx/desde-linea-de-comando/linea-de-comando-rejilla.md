@@ -1,15 +1,11 @@
----
-description: Rejilla desde línea de comando
----
-
 # Rejilla
 
-[ Rejilla](../como/como-rejilla.md)
+[Rejilla](../como/como-rejilla.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 
-```
-MDTop [archivo de entrada] /REJ [archivo de salida]
+```bash
+MDTopX [archivo de entrada] /REJ [archivo de salida]
 ```
 
 El archivo de entrada deberá ser un archivo de modelo digital, en el cual se proyectará la rejilla.
@@ -21,17 +17,17 @@ Además de esta secuencia y para configurar el modo de generación de la rejilla
 * **IncrementoX** : Espaciado en metros de la rejilla en el eje de abscisas
 * **IncrementoY** : Espaciado en metros de la rejilla en el eje de ordenadas
 * **SoloPuntos** : 0 (puntos) o 1 (líneas)
-* **Codigo** : Código de los puntos o líneas
+* **Código** : Código de los puntos o líneas
 * **ConfLineas\_HayDatum** : 0 (sin datum) o 1 (son datum)
 * **ConfLineas\_HayHorizontales** : 0 (sin líneas horizontales) o 1 (con líneas horizontales)
 * **ConfLineas\_HayVerticales** : 0 (sin líneas verticales) o 1 (con líneas verticales)
 * **ConfLineas\_HaySuaviza** : 0 (sin suavizar las líneas) o 1 (con suavizado)
 * **ConfLineas\_Datum** : cota en metros del datum
 * **ConfLineas\_Escala** : denominador de la escala de la rejilla
-* **ConfLineas\_Orientacion** : acimut en grados de las líneas horizontales
-* **ConfLineas\_Exageracion** : grado de exageración en cota
+* **ConfLineas\_Orientación** : acimut en grados de las líneas horizontales
+* **ConfLineas\_Exageración** : grado de exageración en cota
 
-```
+```ini
 [Rejilla]
 IncrementoX = 1.5
 IncrementoY = 1.5

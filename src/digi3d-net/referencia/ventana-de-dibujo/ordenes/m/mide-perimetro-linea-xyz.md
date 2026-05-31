@@ -1,4 +1,4 @@
-# MIDE\_PERIMETRO\_LINEA\_XYZ
+# MIDE\_PERÍMETRO\_LINEA\_XYZ
 
 Mide el perímetro de la línea seleccionada.
 

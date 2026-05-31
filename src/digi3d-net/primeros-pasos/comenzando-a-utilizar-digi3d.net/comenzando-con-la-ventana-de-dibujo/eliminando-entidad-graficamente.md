@@ -1,4 +1,4 @@
-# Eliminando una entidad graficamente y primera selección
+# Eliminando una entidad gráficamente y primera selección
 
 Elimina entidades siguiendo estos pasos:
 

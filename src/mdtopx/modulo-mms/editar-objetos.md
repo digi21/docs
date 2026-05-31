@@ -16,4 +16,3 @@ Las herramientas relacionadas con la generación de objetos a partir de las nube
 * **Generar**
 * **Mostrar**
 * **Lista**
-

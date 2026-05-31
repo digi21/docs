@@ -6,4 +6,3 @@ Para iniciar MDTopX:
 
 * Haga doble clic con el ratón sobre el icono del escritorio.
 * Seleccione Inicio -&gt; Programas -&gt; Digi21.net -&gt; MDTopX.
-

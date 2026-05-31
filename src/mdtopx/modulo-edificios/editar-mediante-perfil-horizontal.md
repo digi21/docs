@@ -9,4 +9,3 @@ Las herramientas comunes del [módulo Edificios](./) están agrupadas en esta se
 * Mover arriba
 * Mover abajo
 * Extraer límites
-

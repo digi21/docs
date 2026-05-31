@@ -1,4 +1,4 @@
-# VER\_SOLO\_CODIGOS\_ENTIDAD\_SELECCIONADA
+# VER\_SOLO\_CÓDIGOS\_ENTIDAD\_SELECCIONADA
 
 Deja activos en pantalla solamente los códigos de la entidad seleccionada, apagando el resto.
 

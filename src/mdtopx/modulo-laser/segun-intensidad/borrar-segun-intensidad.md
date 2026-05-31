@@ -1,7 +1,3 @@
----
-description: Cuadro de diálogo Borrar según intensidad
----
-
 # Borrar según intensidad
 
 [Según intensidad](/mdtopx/modulo-laser/segun-intensidad/)

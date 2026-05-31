@@ -1,4 +1,4 @@
-# Digi21.DigiNG.Plugin.Menu
+# Digi21.DigiNG.Plugin.Menú
 
 Proporciona tipos para modificar los menús de la ventana de dibujo de Digi3D.NET.
 

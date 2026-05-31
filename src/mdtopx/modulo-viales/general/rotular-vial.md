@@ -1,10 +1,6 @@
----
-description: Cuadro de diálogo Rotular vial
----
-
 # Rotular vial
 
-[ Viales General](../../fichas-de-herramientas/ficha-de-herramientas-viales/viales-general.md)
+[Viales General](../../fichas-de-herramientas/ficha-de-herramientas-viales/viales-general.md)
 
 Con esta herramienta se pueden mostrar en pantalla elementos que ayudarán a la comprensión de los trazados generados. Estos elementos consisten en marcas perpendiculares al avance del vial que podrán llevar textos anexos con las características del vial en ese punto.
 

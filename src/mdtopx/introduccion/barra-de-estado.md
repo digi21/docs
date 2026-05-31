@@ -1,8 +1,8 @@
 # Barra de estado
 
-[Interfaz de usuario](/lot-of-points-cc/interfaz-de-usuario/)
+[Interfaz de usuario](interfaz-de-usuario.md)
 
-![](../../.gitbook/assets/barra-de-estado.jpg)
+![barra de estado](../../.gitbook/assets/barra-de-estado.jpg)
 
 La barra de estado aparece en la parte inferior de la pantalla y está dividida en varias partes con información diferente.
 
