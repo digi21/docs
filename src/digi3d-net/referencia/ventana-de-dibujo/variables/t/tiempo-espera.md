@@ -1,1 +1,0 @@
-# TIEMPO_ESPERA

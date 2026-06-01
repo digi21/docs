@@ -1,2 +1,0 @@
-# Solución de problemas
-

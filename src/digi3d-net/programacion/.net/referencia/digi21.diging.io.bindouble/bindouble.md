@@ -1,4 +1,0 @@
-# BinDouble
-
-## classe
-

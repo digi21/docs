@@ -1,4 +1,0 @@
-# Herramientas
-
-Permite ejecutar herramientas.
-

@@ -1,2 +1,0 @@
-# Ventana fotogramétrica
-

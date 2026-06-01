@@ -1,4 +1,0 @@
-# Geomedia
-
-## clase
-

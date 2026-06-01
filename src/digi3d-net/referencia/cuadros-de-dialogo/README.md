@@ -1,2 +1,0 @@
-# Cuadros de diálogo
-

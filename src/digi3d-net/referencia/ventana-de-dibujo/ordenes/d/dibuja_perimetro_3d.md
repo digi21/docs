@@ -1,2 +1,0 @@
-# DIBUJA\_PERÍMETRO\_3D
-

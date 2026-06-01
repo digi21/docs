@@ -1,2 +1,0 @@
-# Digi3D.NET
-

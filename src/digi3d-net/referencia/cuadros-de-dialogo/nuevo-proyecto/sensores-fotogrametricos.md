@@ -1,2 +1,0 @@
-# Sensores fotogramétricos
-

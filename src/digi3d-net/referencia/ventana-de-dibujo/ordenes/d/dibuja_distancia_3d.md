@@ -1,2 +1,0 @@
-# DIBUJA\_DISTANCIA\_3D
-

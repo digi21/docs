@@ -1,1 +1,0 @@
-# Propiedades de la pasada

@@ -1,2 +1,0 @@
-# MOSTRAR\_PASO\_CURVAS
-

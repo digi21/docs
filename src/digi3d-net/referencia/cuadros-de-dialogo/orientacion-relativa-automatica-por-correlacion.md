@@ -1,1 +1,0 @@
-# Orientación Relativa Automática por Correlación
