@@ -1,0 +1,8 @@
+# Parámetros del archivo base
+
+En esta sección de la configuración se configuran los parámetros del archivo base (archivo contra el cual se comparan los escaneos solicitados a petición).
+
+| Parámetro                                          | Descripción                                                                                                                                                                                                                                                                                                                                  |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Archivo base                                       | <p>Ruta al archivo base. Este archivo son en realidad dos archivos: uno con extensión .index y otro con extensión .index.points.</p><p></p><p>Al pulsar el botón de los tres puntos podremos seleccionar un archivo .index. Al aceptar se rellenará automáticamente este campo con la ruta del archivo seleccionado, pero sin extensión.</p> |
+| Distancia por debajo de la cual no insertar puntos | Distancia por debajo de la cual no se insertarán puntos en el archivo base al incorporar un escaneo, para evitar que se almacenen puntos a una distancia inferior a la resolución del escáner.                                                                                                                                               |

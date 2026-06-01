@@ -1,0 +1,2 @@
+# Métodos estáticos
+

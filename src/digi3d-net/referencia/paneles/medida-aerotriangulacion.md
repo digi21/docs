@@ -1,0 +1,2 @@
+# Medida de Aerotriangulación
+

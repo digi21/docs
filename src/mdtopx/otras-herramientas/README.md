@@ -1,0 +1,18 @@
+# Otras herramientas
+
+* [Lista de códigos](lista-de-codigos/README.md)
+* [Editar elementos](editar-elementos/README.md)
+* [Opciones](opciones.md)
+* [Configurar Impresión](configurar-impresion.md)
+* [Insertar hoja](insertar-hoja.md)
+* [Cortar por hojas](cortar-por-hojas.md)
+* [División por hojas](division-por-hojas.md)
+* [División por hojas LiDAR](division-por-hojas-lidar.md)
+* [Gráfico de hojas](grafico-de-hojas.md)
+* [Transformación de coordenadas](transformacion-de-coordenadas.md)
+* [Calcular plano](calcular-plano.md)
+* [Resultados de plano calculado](resultados-de-plano-calculado.md)
+* [Seleccionar gama de color](seleccionar-gama-de-color.md)
+* [Curva hipsométrica](curva-hipsometrica.md)
+* [Extraer límites](extraer-limites.md)
+* [Extraer límites LiDAR](extraer-limites-lidar.md)

@@ -1,0 +1,18 @@
+# Herramientas para imágenes
+
+* [Orientación Midiendo Puntos](orientacion-midiendo-puntos.md)
+* [Editar orientación de imagen](editar-orientacion-de-imagen.md)
+* [Editar orientación de imágenes desde archivo](editar-orientacion-de-imagenes-desde-archivo.md)
+* [Preprocesar Imagen](preprocesar-imagen.md)
+* [Histograma](histograma.md)
+* [Brillo y contraste](brillo-y-contraste.md)
+* [Cortar imagen](cortar-imagen.md)
+* [Remuestreo](remuestreo.md)
+* [Transformar a tono](transformar-a-tono.md)
+* [Unir imágenes](unir-imagenes.md)
+* [Generar límites de imagen](generar-limites-de-imagen.md)
+* [Piramidales](piramidales.md)
+* [Diferencias](diferencias.md)
+* [NDVI](ndvi.md)
+* [Vectorizar](vectorizar.md)
+* [Segmentar imagen](segmentar-imagen.md)
