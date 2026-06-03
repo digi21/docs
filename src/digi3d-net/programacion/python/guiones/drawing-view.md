@@ -107,6 +107,7 @@ z = view.project((430000, 4480000))
 | `active_distance` | `float` | Distancia activa. |
 | `secondary_active_distance` | `float` | Distancia activa secundaria. |
 | `text_height` | `float` | Altura de texto activa. |
+| `active_angle` | `float` | Ángulo activo. |
 | `equidistance` | `float` | Equidistancia. |
 | `drawing_scale` | `tuple` | Escala de dibujo para la representación de símbolos y patrones. |
 
