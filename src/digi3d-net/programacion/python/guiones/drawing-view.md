@@ -45,6 +45,32 @@ view.add(linea)
 view.delete(g for g in view if g.deleted)
 ```
 
+## Tabla de códigos
+
+La ventana da acceso a la tabla de códigos (`digi.tab`) del proyecto con la propiedad
+[`digitab`](#propiedades-de-informacion) (la tabla como secuencia de
+[DigiTabNode](../referencia/digi21.base/digitabnode.md)) y con `digi_tab` (un diccionario
+`{código: DigiTabNode}`).
+
+| Método | Devuelve | Descripción |
+|---|---|---|
+| `find_codes(concept)` | `list[str]` | Códigos cuyo código, descripción, etiquetas o alias contienen el concepto (sin distinguir mayúsculas ni acentos). |
+
+`find_codes` es la forma cómoda de localizar geometrías por concepto sin conocer sus códigos
+de antemano:
+
+```python
+# Zoom al primer edificio del dibujo
+codigos = view.find_codes("edificio")          # p. ej. ['050146', '050147', ...]
+for g in view:
+    if any(c.code in codigos for c in g.codes):
+        view.zoom_geometry(g)
+        break
+```
+
+> `find_codes` consulta la tabla de códigos del proyecto (el catálogo). Que un código exista
+> no implica que haya geometrías que lo usen en el dibujo cargado.
+
 ## Órdenes
 
 | Miembro | Tipo | Descripción |
@@ -92,6 +118,7 @@ z = view.project((430000, 4480000))
 | `epsg_codes` | `tuple` | `(epsg_horizontal, epsg_vertical)`. |
 | `files` | iterable | Archivos de referencia cargados ([DrawingFile](../referencia/digi21.base/drawingfile.md)). |
 | `drawing_file` | `DrawingFile` | Archivo de dibujo activo. |
+| `digitab` | [DigiTab](../referencia/digi21.base/digitab.md) | Tabla de códigos activa del proyecto (secuencia de [DigiTabNode](../referencia/digi21.base/digitabnode.md)); la posición de cada nodo coincide con el `digitab_index` de los códigos de las geometrías. |
 | `digi_tab` | `dict` | Diccionario `{código: DigiTabNode}` de la tabla activa. |
 | `geographic_calculator` | [GeographicCalculator](geographic-calculator.md) | Calculadora geográfica de la ventana. |
 | `topologies` | `dict` | Diccionario `{nombre: [Topology]}` de las topologías cargadas. |
