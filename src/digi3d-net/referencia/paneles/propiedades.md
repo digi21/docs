@@ -1,6 +1,6 @@
 # Propiedades
 
-![Panel propiedades](../../../.gitbook/assets/panelpropiedades.png)
+![Panel propiedades](../../../images/panelpropiedades.png)
 
 Este panel muestra y permite cambiar el estado de las órdenes de tipo variable.
 

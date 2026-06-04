@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas Trazado](../../.gitbook/assets/ficha-de-herramientas-trazado.jpg)
+![cinta de herramientas Trazado](../../images/ficha-de-herramientas-trazado.jpg)
 
 En esta ficha de herramientas se agrupan las principales herramientas relacionadas con el registro de los trazados (diseño horizontal) de viales. Por tanto, para ser mostrada se debe tener activa la vista Trazado del actual documento de viales. Su aspecto es el siguiente:
 

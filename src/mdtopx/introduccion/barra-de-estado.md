@@ -2,7 +2,7 @@
 
 [Interfaz de usuario](interfaz-de-usuario.md)
 
-![barra de estado](../../.gitbook/assets/barra-de-estado.jpg)
+![barra de estado](../../images/barra-de-estado.jpg)
 
 La barra de estado aparece en la parte inferior de la pantalla y está dividida en varias partes con información diferente.
 

@@ -4,7 +4,7 @@
 
 En este cuadro de diálogo aparecen los tipos de eco que el programa utilizará para pintar los puntos LiDAR en pantalla.
 
-![Cuadro de diálogo Lista de ecos](../../../.gitbook/assets/image-122.png)
+![Cuadro de diálogo Lista de ecos](../../../images/image-122.png)
 
 Se pueden especificar el grosor y color de cada clasificación.
 

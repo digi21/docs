@@ -2,7 +2,7 @@
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
 
-![Cuadro de diálogo Proyección sobre la nube de puntos](../../../.gitbook/assets/image-150.png)
+![Cuadro de diálogo Proyección sobre la nube de puntos](../../../images/image-150.png)
 
 Mediante esta herramienta se puede proyectar un archivo vectorial sobre la nube de puntos, aportándole un valor de altitud que dependerá de esta proyección.
 

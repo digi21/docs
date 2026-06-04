@@ -20,4 +20,4 @@ El proceso de alquiler es muy sencillo:
 
 A continuación, te mostramos cómo avisa _Digi3D.NET_ de que quedan pocos días de alquiler:
 
-![](../.gitbook/assets/alquiler-a-punto-de-expirar.png)
+![](../images/alquiler-a-punto-de-expirar.png)

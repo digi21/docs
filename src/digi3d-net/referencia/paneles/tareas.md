@@ -1,6 +1,6 @@
 # Tareas
 
-![Panel de tareas](../../../.gitbook/assets/paneltareas.png)
+![Panel de tareas](../../../images/paneltareas.png)
 
 Este panel muestra tareas (habitualmente errores) generadas por órdenes que son capaces de generar tareas, como por ejemplo la orden [DETECTAR_LINEAS_NO_CONECTADAS](../ventana-de-dibujo/ordenes/d/detectar-bucles.md).
 

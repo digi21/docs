@@ -4,7 +4,7 @@
 
 Esta herramienta tiene como objetivo la clasificación de entidades cerradas que actúan de superficies, según su proyección sobre la nube de puntos. De esta forma, en función de los puntos que están dentro de cada superficie, así serán tratadas. La utilidad de la herramienta reside en la gestión de superficies procedentes de una segmentación de imágenes ráster. Estas superficies se obtienen al dividir la imagen según color. Sin embargo, suelen estar sobre-segmentadas y es necesario unirlas y darles cota, ya que no se puede obtener este parámetro de una imagen. Por medio de la proyección sobre una nube de puntos LiDAR clasificada es posible realizar estas operaciones.
 
-![Cuadro de diálogo Clasificar superficies](../../../.gitbook/assets/image-157.png)
+![Cuadro de diálogo Clasificar superficies](../../../images/image-157.png)
 
 Al llamar a la herramienta, se muestra un cuadro de diálogo con los siguientes campos:
 

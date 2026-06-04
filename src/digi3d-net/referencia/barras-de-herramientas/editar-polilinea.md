@@ -1,6 +1,6 @@
 # Editar polilínea
 
-![Barra de herramientas Editar polilínea](../../../.gitbook/assets/editarpolilinea.png)
+![Barra de herramientas Editar polilínea](../../../images/editarpolilinea.png)
 
 Permite ejecutar órdenes relacionadas con la edición de polilíneas.
 

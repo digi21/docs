@@ -4,7 +4,7 @@
 
 Este cuadro de diálogo está destinado a la edición de la iluminación que recibe un modelo digital. Se podrán modificar los valores de la luz y las coordenadas del punto de luz. Sólo se podrá acceder a este cuadro de diálogo si se tiene activo un modelo digital.
 
-![Cuadro de diálogo Propiedades de Iluminación](../../.gitbook/assets/image-74.png)
+![Cuadro de diálogo Propiedades de Iluminación](../../images/image-74.png)
 
 Los parámetros que se muestran se mueven en un rango de valor de cero a cien y son los siguientes:
 

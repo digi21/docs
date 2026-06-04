@@ -8,7 +8,7 @@ Una vez que se haya finalizado la introducción de los vértices el programa mos
 
 Este cuadro de diálogo también es mostrado si se pide información acerca de un alzado existente con la herramienta Info de la barra de herramientas.
 
-![Cuadro de diálogo Calcular Alzado Nuevo](../../../../.gitbook/assets/image-108.png)
+![Cuadro de diálogo Calcular Alzado Nuevo](../../../../images/image-108.png)
 
 En este cuadro de diálogo se muestran los siguientes campos:
 
@@ -24,7 +24,7 @@ En este cuadro de diálogo se muestran los siguientes campos:
   * _PK TS_: Punto kilométrico donde el alzado es tangente al estado de alineaciones en su final.
   * _Dif. pend._: Diferencia de pendientes en tanto por ciento.
 
-![acuerdo vertical](../../../../.gitbook/assets/acuerdo.gif)
+![acuerdo vertical](../../../../images/acuerdo.gif)
 
 * **Listado con los vértices del alzado**: Se mostrará el listado con los vértices que componen el alzado, mostrando el punto kilométrico, cota y parámetro Kv si contiene un acuerdo parabólico. Asociados a este listado se muestran tres botones:
   * _Añadir_: Añade un vértice nuevo al alzado al final de éste.

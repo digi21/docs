@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que hayan sido registrados con un color determinado.
 
-![Cuadro de diálogo Borrar según color](../../../.gitbook/assets/image-141.png)
+![Cuadro de diálogo Borrar según color](../../../images/image-141.png)
 
 Los parámetros que precisa son los siguientes:
 

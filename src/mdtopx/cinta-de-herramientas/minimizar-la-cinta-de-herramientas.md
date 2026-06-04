@@ -6,9 +6,9 @@ La cinta de herramientas se ha diseñado para ayudar al usuario a encontrar fác
 
 No hay forma de eliminar o reemplazar la cinta de herramientas por las barras de herramientas y los menús de versiones anteriores de MDTop. No obstante, puede minimizar la cinta de herramientas para que el área de trabajo sea mayor.
 
-![Cinta de herramientas completa](../../.gitbook/assets/cinta-de-herramientas.jpg)
+![Cinta de herramientas completa](../../images/cinta-de-herramientas.jpg)
 
-![Cinta de herramientas minimizada](../../.gitbook/assets/cinta-de-herramientas-minimizada.jpg)
+![Cinta de herramientas minimizada](../../images/cinta-de-herramientas-minimizada.jpg)
 
 Para mantener siempre la cinta de herramientas minimizada:
 

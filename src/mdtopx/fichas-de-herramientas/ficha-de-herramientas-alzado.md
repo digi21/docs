@@ -4,7 +4,7 @@
 
 En esta ficha de herramientas se agrupan las principales herramientas utilizadas con el registro de los alzados (diseño vertical) de viales. Por tanto, para ser mostrada se debe tener activa la vista Alzado del actual documento de viales. Cada trazado puede tener tantos alzados como se desee. Además, podrá tener el alzado obtenido de su proyección sobre un MDT. Su aspecto es el siguiente:
 
-![cinta de herramientas Alzado](../../.gitbook/assets/ficha-de-herramientas-alzado.jpg)
+![cinta de herramientas Alzado](../../images/ficha-de-herramientas-alzado.jpg)
 
 En esta ficha de herramientas aparecen los siguientes comandos:
 

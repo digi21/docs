@@ -9,6 +9,6 @@ Las herramientas para generar documentos específicos a partir de un modelo digi
 * [**Imagen cubicación**](../../herramientas-de-edicion-de-la-triangulacion/imagen-cubicacion.md): Herramienta para salvar como una imagen georreferenciada un documento con una cubicación, donde se muestran las zonas de desmonte y terraplén por medio de colores.
 * **Diagrama de Voronoi**: Herramienta para generar los diagramas de Voronoi que son áreas de influencia de cada vértice de la triangulación.
 
-![Fichero con triangulación](../../../.gitbook/assets/image-42.png)
+![Fichero con triangulación](../../../images/image-42.png)
 
-![Fichero con los diagramas de Voronoi de la triangulación anterior](../../../.gitbook/assets/image-43.png)
+![Fichero con los diagramas de Voronoi de la triangulación anterior](../../../images/image-43.png)

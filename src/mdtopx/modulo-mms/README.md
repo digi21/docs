@@ -4,7 +4,7 @@
 
 El módulo MMS tiene como objetivo la gestión y tratamiento de archivos procedentes del registro de nubes de puntos por medio de sistemas Mobile Mapping. Estos sistemas están compuestos de diferentes sensores que permiten la recogida de densas nubes de puntos pertenecientes a vías como carreteras, calles o líneas de ferrocarril.
 
-![Modelo Digital de Superficies con ortofoto a partir de datos MMS](../../.gitbook/assets/mdt-vial-con-orto.png)
+![Modelo Digital de Superficies con ortofoto a partir de datos MMS](../../images/mdt-vial-con-orto.png)
 
 Las herramientas de este módulo están dispuestas en la cinta de [Herramientas MMS](../fichas-de-herramientas/ficha-de-herramientas-mms.md).
 

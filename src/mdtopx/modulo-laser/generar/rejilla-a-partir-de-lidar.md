@@ -4,7 +4,7 @@
 
 Herramienta destinada a la generación de una rejilla regular de puntos, obtenida a partir de la interpolación con los puntos LiDAR. Además, se podrán buscar puntos que difieran mucho con su entorno y clasificarlos, excluyéndolos de la interpolación.
 
-![Cuadro de diálogo Generar DEM](../../../.gitbook/assets/image-149.png)
+![Cuadro de diálogo Generar DEM](../../../images/image-149.png)
 
 Los parámetros que precisa son los siguientes:
 

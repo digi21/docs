@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas Archivos LiDAR](../../../.gitbook/assets/ficha-de-herramientas-archivos-lidar.jpg)
+![cinta de herramientas Archivos LiDAR](../../../images/ficha-de-herramientas-archivos-lidar.jpg)
 
 En esta ficha de herramientas aparecen los comandos relacionados con los documentos de puntos medidos con dispositivos láser del [módulo láser](../../modulo-laser/).
 

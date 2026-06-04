@@ -2,7 +2,7 @@
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
 
-![Cuadro de diálogo Modelo Digital de Superficies Normalizado](../../../.gitbook/assets/image-152.png)
+![Cuadro de diálogo Modelo Digital de Superficies Normalizado](../../../images/image-152.png)
 
 Esta herramienta permite calcular una nube de puntos cuya cota es la diferencia de cota sobre una base.
 

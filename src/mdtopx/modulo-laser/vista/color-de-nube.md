@@ -4,7 +4,7 @@
 
 Desde este listado se puede elegir cómo se quiere visualizar la nube de puntos. Las opciones de este listado también variarán en función de las propiedades contenidas en la nube de puntos.
 
-![Opciones de visualización de la nube de puntos](../../../.gitbook/assets/image-11.png)
+![Opciones de visualización de la nube de puntos](../../../images/image-11.png)
 
 Las opciones son las siguientes:
 

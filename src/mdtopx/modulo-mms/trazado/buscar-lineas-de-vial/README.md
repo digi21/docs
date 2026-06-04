@@ -9,7 +9,7 @@ El resultado de esta herramienta será:
 * Clasificación del documento original de los puntos pertenecientes al asfalto mediante el tipo 35 y los puntos pertenecientes a las marcas viales.
 * Generación de un nuevo documento de geometría vectorial con los límites del asfalto, que representará la plataforma, y de las marcas viales horizontales.
 
-![Cuadro de diálogo para la generación de marcas viales](../../../../.gitbook/assets/image-19.png)
+![Cuadro de diálogo para la generación de marcas viales](../../../../images/image-19.png)
 
 El cuadro de diálogo necesita los siguientes datos:
 

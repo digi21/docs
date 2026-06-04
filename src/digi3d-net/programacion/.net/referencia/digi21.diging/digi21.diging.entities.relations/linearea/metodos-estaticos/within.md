@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si la línea está completamente dentro del área.
 
-![L&#xED;nea dentro del &#xE1;rea](../../../../../../../../.gitbook/assets/lineadentroarea.png)
+![L&#xED;nea dentro del &#xE1;rea](../../../../../../../../images/lineadentroarea.png)
 
 ## Sobrecargas
 

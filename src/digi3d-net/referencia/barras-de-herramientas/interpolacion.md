@@ -1,6 +1,6 @@
 # Interpolación
 
-![Barra de herramientas Interpolación](../../../.gitbook/assets/interpolacion.png)
+![Barra de herramientas Interpolación](../../../images/interpolacion.png)
 
 Permite ejecutar órdenes relacionadas con la interpolación de geometrías entre otras existentes.
 

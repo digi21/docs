@@ -17,9 +17,9 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
   * _Factor de suavizado_: Las curvas de nivel interpoladas en los diferentes triángulos y unidas pueden ser suavizadas o no. Si son suavizadas se utilizará el algoritmo de Splines cúbicos. Este tipo de suavizado puede ser utilizando splines cúbicos naturales, que es el de mayor suavizado y corresponde con el valor 10. Si se indica un valor entre 1 y 9, el algoritmo utilizado será mediante splines cúbicos ponderados, siendo el suavizado de menos a más.
   * _Comprobar cortes entre curvas_: Un curvado muy suavizado podrá desvirtuar el resultado, pudiéndose producir cortes entre aquellas curvas de nivel que están muy próximas. Por ello el programa utiliza un algoritmo para buscar y arreglar estos errores. Sin embargo, este procedimiento puede dilatar el cálculo innecesariamente en terrenos donde las curvas no están cercanas, por lo que se puede desactivar este paso.
 
-![Ejemplo de curvado suavizado mediante B-splines](../../../.gitbook/assets/ejemplo-bsplines.jpg)
+![Ejemplo de curvado suavizado mediante B-splines](../../../images/ejemplo-bsplines.jpg)
 
-![Ejemplo de curvado suavizado mediante Splines cúbicos](../../../.gitbook/assets/ejemplo-splines-cubicos.jpg)
+![Ejemplo de curvado suavizado mediante Splines cúbicos](../../../images/ejemplo-splines-cubicos.jpg)
 
 * **Fichero con límite**: Fichero de dibujo con el límite del área a curvar. El formato de este fichero puede ser BIN de DIGI, DXF de AutoCad, DGN de MicroStation o un fichero ASCII con las coordenadas que forman el límite. El límite podrá estar compuesto por una o varias líneas cerradas. En el caso del fichero ASCII sólo podrá ser leída una línea.
 * **Rotulación de curvas maestras**: Indica si se registrarán textos con la cota de las curvas maestras. Estos textos de rotulación se colocarán a lo largo de las curvas. Estos rótulos vienen definidos por los siguientes parámetros:
@@ -32,6 +32,6 @@ Para poder utilizar esta herramienta es necesario tener activo un documento de t
 
 ## Ejemplo
 
-![cuadro de diálogo Curvado](../../../.gitbook/assets/dialogo-curvado.jpg)
+![cuadro de diálogo Curvado](../../../images/dialogo-curvado.jpg)
 
 En este ejemplo, se realizará un curvado a escala 500, con isolíneas suavizadas con el algoritmo de splines cúbicos a nivel 6, es decir, medianamente suavizadas, y una equidistancia de 0.5 metros de las curvas finas y de 2 metros de las curvas maestras. Sin embargo, no se suavizarán las curvas de nivel a su paso por las líneas de ruptura, pero sí se tendrán en cuenta curvas de nivel ya registradas en el modelo con códigos 020123 y 020124. Se rotularán las curvas maestras, estando los textos separados 100 metros, su altura de 0.75 metros, ningún decimal en los textos de rotulación y se cortarán dichas curvas en el espacio que ocupan los textos. Asimismo, se utilizará un archivo de límite para sólo curvar dentro de él y sólo se curvará entre las cotas 920 y 950 metros.

@@ -1,6 +1,6 @@
 # Desplazamientos de ventana
 
-![Barra de herramientas Desplazamientos de ventana](../../../.gitbook/assets/desplazamientosdeventana.png)
+![Barra de herramientas Desplazamientos de ventana](../../../images/desplazamientosdeventana.png)
 
 Permite ejecutar órdenes relacionadas con desplazamientos de la ventana de dibujo.
 

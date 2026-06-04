@@ -4,7 +4,7 @@
 
 Desde este cuadro de diálogo se pueden modificar algunas opciones que afectarán al documento con la planta generado al proyectar un documento de viales sobre un modelo digital.
 
-![Cuadro de diálogo Configuración de la planta](../../../.gitbook/assets/image-101.png)
+![Cuadro de diálogo Configuración de la planta](../../../images/image-101.png)
 
 Estas opciones son las siguientes:
 

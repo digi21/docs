@@ -4,7 +4,7 @@
 
 Este cuadro de diálogo está destinado a la edición de la iluminación que recibe un modelo digital. Sólo se podrá acceder a este cuadro de diálogo si se tiene activo un modelo digital.
 
-![Cuadro de diálogo Propiedades de material](../../.gitbook/assets/image-75.png)
+![Cuadro de diálogo Propiedades de material](../../images/image-75.png)
 
 Los parámetros que se muestran se mueven en un rango de valor de cero a cien y son los siguientes:
 

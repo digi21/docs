@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si las dos [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) solapan.
 
-![L&#xED;nea solapa a l&#xED;nea](../../../../../../../../../.gitbook/assets/lineasolapalinea.png)
+![L&#xED;nea solapa a l&#xED;nea](../../../../../../../../../images/lineasolapalinea.png)
 
 ```csharp
 public static bool Overlap(ReadOnlyLine a, ReadOnlyLine b)

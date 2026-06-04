@@ -1,6 +1,6 @@
 # Opciones de generalización
 
-![Cuadro de diálogo Opciones de generalización](../../../.gitbook/assets/image-46.png)
+![Cuadro de diálogo Opciones de generalización](../../../images/image-46.png)
 
 En este cuadro de diálogo se pueden indicar valores diferentes de generalización que las recomendadas según la escala de curvado. Aquí aparecen los siguientes campos a rellenar:
 

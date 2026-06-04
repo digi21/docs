@@ -8,7 +8,7 @@ Después de ser ejecutada, se muestran los límites de señalización horizontal
 
 Señalando con una línea en pantalla (introducida con el botón izquierdo del ratón), se pueden cambiar las tipologías de cada una de estas superficies. Es decir, seleccionando límites detectados (erróneamente) se pueden cambiar la clasificación de sus puntos a solo asfalto. Asimismo, seleccionando límites no detectados, se podría cambar la clasificación de los puntos a señalización horizontal.
 
-![Cuadro de diálogo Calcular líneas de vial](../../../.gitbook/assets/image-28.png)
+![Cuadro de diálogo Calcular líneas de vial](../../../images/image-28.png)
 
 Los parámetros de este cuadro de diálogo son los siguientes:
 

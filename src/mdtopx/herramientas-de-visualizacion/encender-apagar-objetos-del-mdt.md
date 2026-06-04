@@ -2,7 +2,7 @@
 
 [Herramientas MDT Vista de MDT](../fichas-de-herramientas/ficha-de-herramientas-mdt/vista-de-mdt.md)
 
-![Cuadro de diálogo Encender/apagar objetos del MDT](../../.gitbook/assets/image-72.png)
+![Cuadro de diálogo Encender/apagar objetos del MDT](../../images/image-72.png)
 
 Mediante este cuadro de diálogo se podrán encender o apagar objetos que estén registrados sobre el modelo digital actual. Por tanto, para poder estar activa, se necesita un documento de modelo digital de triangulación que tenga objetos.
 

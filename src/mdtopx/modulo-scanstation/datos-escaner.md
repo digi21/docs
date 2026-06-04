@@ -4,7 +4,7 @@
 
 Mediante esta herramienta se puede establecer comunicación con el escáner para extraer datos previamente registrados.
 
-![Cuadro de dialogo Obtener Datos del Escáner](../../.gitbook/assets/image-32.png)
+![Cuadro de dialogo Obtener Datos del Escáner](../../images/image-32.png)
 
 Los parámetros necesarios son los siguientes:
 

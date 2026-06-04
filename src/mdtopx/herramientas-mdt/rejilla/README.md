@@ -2,7 +2,7 @@
 
 [Rejilla](/mdtopx/desde-linea-de-comando/linea-de-comando-rejilla.md)
 
-![Cuadro de diálogo Rejilla](../../../.gitbook/assets/image-61.png)
+![Cuadro de diálogo Rejilla](../../../images/image-61.png)
 
 La aplicación permite generar una rejilla formada por puntos o lineales obtenida al proyectar dichas entidades sobre el modelo digital. Para ello aparecen los siguientes campos a rellenar:
 

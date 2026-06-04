@@ -12,7 +12,7 @@
 
 Al ejecutar la orden aparecerá el siguiente cuadro de diálogo:
 
-![Cuadro de diálogo Bintop](../../../../../.gitbook/assets/BINTOP.jpg)
+![Cuadro de diálogo Bintop](../../../../../images/BINTOP.jpg)
 
 * Casillas correspondientes a los **errores a detectar**:
   * Informar del error de polígonos sin área (una o más líneas que forman un polígono no cerrado en el plano)

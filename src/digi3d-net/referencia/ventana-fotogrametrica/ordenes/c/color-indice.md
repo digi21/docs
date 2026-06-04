@@ -10,7 +10,7 @@ Esta orden no admite parámetros.
 
 Al ejecutar la orden aparecerá la siguiente ventana en la cual el usuario podrá seleccionar el color:
 
-![](../../../../.gitbook/assets/color_indice.jpg)
+![](../../../../images/color_indice.jpg)
 
 Puedes ejecutar esta orden desde la línea de comandos, especificando las componentes del color RGB.
 

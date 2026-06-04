@@ -1,6 +1,6 @@
 # Copiar y duplicar
 
-![Barra de herramientas Copiar y duplicar](../../../.gitbook/assets/copiaryduplicar.png)
+![Barra de herramientas Copiar y duplicar](../../../images/copiaryduplicar.png)
 
 Permite ejecutar órdenes relacionadas con copiar y duplicar geometrías.
 

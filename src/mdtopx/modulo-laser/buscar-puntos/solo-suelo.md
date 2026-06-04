@@ -4,7 +4,7 @@
 
 Esta herramienta está destina a la búsqueda rápida de puntos pertenecientes al suelo. Sólo clasificaría puntos encontrados bajo esta condición con el tipo "2".
 
-![Cuadro de diálogo Solo Suelo](../../../.gitbook/assets/image-170.png)
+![Cuadro de diálogo Solo Suelo](../../../images/image-170.png)
 
 El cuadro de diálogo únicamente solicita los siguientes parámetros:
 

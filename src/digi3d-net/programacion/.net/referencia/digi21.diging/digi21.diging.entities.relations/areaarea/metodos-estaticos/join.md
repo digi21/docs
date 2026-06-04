@@ -5,9 +5,9 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si dos áreas tienen un punto en común.
 
-![Las dos &#xE1;reas tienen un punto en com&#xFA;n](../../../../../../../../.gitbook/assets/areaunearea.png)
+![Las dos &#xE1;reas tienen un punto en com&#xFA;n](../../../../../../../../images/areaunearea.png)
 
-![Las dos &#xE1;eras tienen un punto en com&#xFA;n](../../../../../../../../.gitbook/assets/areaunearea2.png)
+![Las dos &#xE1;eras tienen un punto en com&#xFA;n](../../../../../../../../images/areaunearea2.png)
 
 ## Sobrecargas
 

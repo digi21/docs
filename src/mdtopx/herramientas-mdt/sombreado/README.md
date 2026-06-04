@@ -2,7 +2,7 @@
 
 [Sombreado](/mdtopx/desde-linea-de-comando/linea-de-comando-sombreado.md)
 
-![Cuadro de diálogo Sombreado](../../../.gitbook/assets/image-66.png)
+![Cuadro de diálogo Sombreado](../../../images/image-66.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

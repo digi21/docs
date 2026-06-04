@@ -1,6 +1,6 @@
 # Sistemas de Referencia de Coordenadas Geocéntricos
 
-![Gráfico mostrando mostrando sistemas de referencia de coordenadas geocéntrico y topocéntrico](../../../../../.gitbook/assets/geocentrico-y-topocentrico.png)
+![Gráfico mostrando mostrando sistemas de referencia de coordenadas geocéntrico y topocéntrico](../../../../../images/geocentrico-y-topocentrico.png)
 
 Digi3D.NET en ocasiones debe transformar coordenadas de un determinado sistema de coordenadas determinado a un sistema de coordenadas geocéntrico.
 

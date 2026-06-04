@@ -1,6 +1,6 @@
 # Código
 
-![Barra de herramientas código](../../../.gitbook/assets/codigo.png)
+![Barra de herramientas código](../../../images/codigo.png)
 
 Permite ejecutar órdenes relacionadas con los códigos.
 

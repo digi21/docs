@@ -1,6 +1,6 @@
 # Extender/Recortar
 
-![Barra de herramientas Extender/Recortar](../../../.gitbook/assets/extenderrecortar.png)
+![Barra de herramientas Extender/Recortar](../../../images/extenderrecortar.png)
 
 Permite ejecutar órdenes relacionadas con extender y recortar geometrías existentes.
 

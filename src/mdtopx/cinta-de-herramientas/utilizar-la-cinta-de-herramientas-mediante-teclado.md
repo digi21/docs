@@ -6,7 +6,7 @@ Las claves de acceso proporcionan un medio para utilizar un comando rápidamente
 
 * Presione y suelte la tecla ALT. Se muestra información sobre teclas para cada función disponible en la vista actual.
 
-![Utilizar la cinta de herramientas mediante teclado](../../.gitbook/assets/utilizar-la-cinta-de-herramientas-mediante-teclado.jpg)
+![Utilizar la cinta de herramientas mediante teclado](../../images/utilizar-la-cinta-de-herramientas-mediante-teclado.jpg)
 
 * Presione la letra que aparece en la información sobre teclas acerca de la función que desee utilizar.
 * En función de la tecla que presione, quizá se muestre información adicional sobre las teclas.

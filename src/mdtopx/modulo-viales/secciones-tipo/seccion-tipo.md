@@ -4,7 +4,7 @@
 
 Desde este cuadro de diálogo, el usuario podrá diseñar la sección tipo que podrá ser aplicada en los trazados de los viales.
 
-![Cuadro de diálogo Sección Tipo](../../../.gitbook/assets/image-92.png)
+![Cuadro de diálogo Sección Tipo](../../../images/image-92.png)
 
 Los campos que definen las características generales de la sección tipo son:
 

@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si uno de los extremos se la línea se junta con el área.
 
-![Extremo de la línea se junta con el área](../../../../../../../../../.gitbook/assets/lineaareacoincidentes.png)
+![Extremo de la línea se junta con el área](../../../../../../../../../images/lineaareacoincidentes.png)
 
 ## Sobrecargas
 

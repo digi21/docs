@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR que están situados en superficies verticales, como pueden ser las fachadas de los edificios. Estos puntos suelen ser "no deseados" por lo que se pueden clasificar según alguna tipología accesoria y luego ser eliminados.
 
-![Cuadro de diálogo Buscar puntos en paredes](../../../.gitbook/assets/image-169.png)
+![Cuadro de diálogo Buscar puntos en paredes](../../../images/image-169.png)
 
 Los parámetros que precisa son los siguientes:
 

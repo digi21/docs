@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas MDT](../../../.gitbook/assets/ficha-de-herramientas-herramientas-mdt.jpg)
+![cinta de herramientas MDT](../../../images/ficha-de-herramientas-herramientas-mdt.jpg)
 
 En esta ficha de herramientas aparecen los comandos relacionados con los modelos digitales del terreno.
 

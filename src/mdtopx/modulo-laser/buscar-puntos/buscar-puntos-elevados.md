@@ -5,7 +5,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR en función de las propiedades geométricas que un punto tiene con su entorno.
 
-![Cuadro de diálogo Buscar puntos elevados](../../../.gitbook/assets/image-160.png)
+![Cuadro de diálogo Buscar puntos elevados](../../../images/image-160.png)
 
 Los parámetros que precisa son los siguientes:
 

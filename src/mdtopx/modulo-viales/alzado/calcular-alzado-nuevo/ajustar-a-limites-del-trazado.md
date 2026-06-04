@@ -4,7 +4,7 @@
 
 Con esta herramienta, el usuario podrá ajustar la geometría del alzado actual a los límites del trazado al que pertenece.
 
-![Cuadro de diálogo Ajustar a límites del trazado](../../../../.gitbook/assets/image-109.png)
+![Cuadro de diálogo Ajustar a límites del trazado](../../../../images/image-109.png)
 
 Cuando se registra el alzado de forma gráfica es difícil coincidir con los límites exactos del trazado, por lo que esta herramienta facilitará esta operación, permitiendo tres operaciones por cada punto (inicio y final del alzado) para ajustarse perfectamente:
 

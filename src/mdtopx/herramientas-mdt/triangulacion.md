@@ -2,7 +2,7 @@
 
 [Triangulación](/mdtopx/desde-linea-de-comando/linea-de-comando-triangulacion.md)
 
-![Cuadro de diálogo Triangulación](../../.gitbook/assets/image-44.png)
+![Cuadro de diálogo Triangulación](../../images/image-44.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

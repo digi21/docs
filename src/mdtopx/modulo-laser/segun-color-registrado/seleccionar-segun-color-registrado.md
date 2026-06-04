@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que hayan sido registrados mediante un determinado color y guardarlos en un nuevo documento.
 
-![Cuadro de diálogo Seleccionar según color](../../../.gitbook/assets/image-142.png)
+![Cuadro de diálogo Seleccionar según color](../../../images/image-142.png)
 
 Los parámetros que precisa son los siguientes:
 

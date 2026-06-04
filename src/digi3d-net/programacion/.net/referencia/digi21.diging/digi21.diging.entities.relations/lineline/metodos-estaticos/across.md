@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si las dos [ReadOnlyLine](../../../digi21.diging.entities/readonlyline/)se cruzan.
 
-![L&#xED;nea cruza l&#xED;nea](../../../../../../../../.gitbook/assets/lineacruzalinea.png)
+![L&#xED;nea cruza l&#xED;nea](../../../../../../../../images/lineacruzalinea.png)
 
 ```csharp
 public static bool Across(ReadOnlyLine a, ReadOnlyLine b)

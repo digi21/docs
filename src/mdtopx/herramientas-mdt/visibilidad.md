@@ -4,7 +4,7 @@
 
 Herramienta para calcular la zona visible desde un determinado punto. La salida es una imagen donde se mostrarán los píxeles de las zonas visibles de color rojo.
 
-![Cuadro de diálogo Visibilidad](../../.gitbook/assets/image-71.png)
+![Cuadro de diálogo Visibilidad](../../images/image-71.png)
 
 Al ejecutarla, se presenta un cuadro de diálogo con los siguientes campos:
 

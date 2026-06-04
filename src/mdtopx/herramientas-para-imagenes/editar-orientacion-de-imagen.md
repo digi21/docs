@@ -39,7 +39,7 @@ Si la imagen es 360º, se muestra un cuadro de diálogo con los siguientes pará
   * **Y Centro Proyección**: Coordenada Y del centro de proyección en coordenadas terreno.
   * **Z Centro Proyección**: Coordenada Z del centro de proyección en coordenadas terreno.
 
-![Ejemplo de orientación de una imagen 360º](../../.gitbook/assets/image-9.png)
+![Ejemplo de orientación de una imagen 360º](../../images/image-9.png)
 
 Después de georreferenciar la imagen y de salvarla a disco, se generará un archivo ASCII con los parámetros de georreferenciación. Este archivo variará en función del tipo de imagen:
 

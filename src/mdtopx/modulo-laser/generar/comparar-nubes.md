@@ -4,7 +4,7 @@
 
 Esta herramienta tiene como objetivo la comparación de dos nubes de puntos LiDAR, fijándose en la cota de los puntos y el valor de clasificación.
 
-![Cuadro de diálogo Comparar nubes](../../../.gitbook/assets/image-158.png)
+![Cuadro de diálogo Comparar nubes](../../../images/image-158.png)
 
 Al llamar a la herramienta, se muestra un cuadro de diálogo con los siguientes campos:
 

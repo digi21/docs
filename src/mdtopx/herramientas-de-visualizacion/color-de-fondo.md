@@ -2,7 +2,7 @@
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 
-![Cuadro de diálogo Color de fondo](../../.gitbook/assets/image-77.png)
+![Cuadro de diálogo Color de fondo](../../images/image-77.png)
 
 En este cuadro de diálogo se podrá seleccionar el color de fondo y de MDT. Además, se podrá seleccionar una imagen para visualizar como fondo cuando se tenga abierto un modelo digital.
 

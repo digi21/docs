@@ -29,7 +29,7 @@ E:/2021-03-15_11-47-26/ladybug_panoramic_001931.jpg,JPG,1931,162455886013,129984
 
 Si la lectura se realiza con éxito, se actualizarán los límites de las imágenes y se podrá ver la disposición de éstas en el proyecto. Además, se generará un archivo adicional por cada imagen con el mismo nombre y extensión ORI. En él, se almacenará la orientación externa.
 
-![Vista de un proyecto con imágenes 360 cargadas](../../.gitbook/assets/image-14.png)
+![Vista de un proyecto con imágenes 360 cargadas](../../images/image-14.png)
 
 Estos límites pueden ser exportados como un fichero de dibujo adicional desde la herramienta **Exportar límites** de la cinta de herramientas [Proyecto](../fichas-de-herramientas/ficha-de-herramientas-proyecto/limites-proyecto.md).
 

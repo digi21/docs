@@ -32,14 +32,14 @@ Los guiones pueden realizar tres tareas:
 *   Si el análisis se ha desencadenado porque se está almacenando una geometría y está habilitada la opción **Control de calidad/Analizar control de calidad al digitalizar entidad**, Digi3D.NET mostrará cuadros de diálogo al usuario en función del tipo de error.\
 
 
-    <img src="../../../.gitbook/assets/errorgeometryexception.png" alt="Error mostrado al digitalizar una geometría" data-size="original">
+    <img src="../../../images/errorgeometryexception.png" alt="Error mostrado al digitalizar una geometría" data-size="original">
 
 
 
 
 * Si el análisis se ha desencadenado porque el usuario ha solicitado realizar un análisis de control de calidad, los errores detectados se mostrarán en el [panel de tareas](../../../referencia/paneles/tareas.md).
 
-![](../../../.gitbook/assets/paneltareasmostrandogeometryexception.png)
+![](../../../images/paneltareasmostrandogeometryexception.png)
 
 ### ¿Qué tipo de errores puede comunicar el guion a Digi3D.NET?
 

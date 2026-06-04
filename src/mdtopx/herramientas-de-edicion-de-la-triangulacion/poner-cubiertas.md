@@ -4,17 +4,17 @@
 
 Herramienta para insertar cubiertas o entidades que no están posadas en el terreno al modelo digital. De esta forma, se generan objetos nuevos que serán incorporados al MDT actual, calculando nuevas triangulaciones con cada límite y los triángulos verticales que simulan dichos objetos con altura. El programa precisa que las cubiertas están almacenadas en un fichero de dibujo y con la cota de la cubierta.
 
-![imagen con una cubierta](../../.gitbook/assets/cubiertas-1.jpg)
+![imagen con una cubierta](../../images/cubiertas-1.jpg)
 
 En esta primera imagen se muestra el modelo digital con el fichero que contiene las cubiertas de referencia. Se puede observar que la cubierta está "flotando" sobre el modelo digital.
 
 Se procede a llamar a la herramienta para que genere el sólido con la edificación, generando el siguiente modelo digital:
 
-![imagen con cubierta proyectada](../../.gitbook/assets/cubiertas-2.jpg)
+![imagen con cubierta proyectada](../../images/cubiertas-2.jpg)
 
 El programa ha calculado la proyección de la cubierta sobre el modelo digital, generando triángulos que simulan la parte superior del objeto y los triángulos verticales para generar el volumen de la edificación. Cabe decir, que en el fichero de entrada podrían existir entidades, interiores a cada superficie, que definan de mejor manera ésta. Por ejemplo, un conjunto de puntos que definan una azotea a dos aguas.
 
-![Cuadro de diálogo Insertar objetos al MDT](../../.gitbook/assets/image-85.png)
+![Cuadro de diálogo Insertar objetos al MDT](../../images/image-85.png)
 
 Para llevar a cabo esta operación, el programa presenta un cuadro de diálogo donde solicita los siguientes parámetros:
 
@@ -26,4 +26,4 @@ Para llevar a cabo esta operación, el programa presenta un cuadro de diálogo d
 * **No incluir entidades bajo límite**: Se podrán excluir aquellas entidades no cerradas que están por debajo (en cota) de la superficie que las incluye.
 * **No incluir entidades sobre límite**: Igualmente, se podrán excluir aquellas entidades no cerradas que están por encima (en cota) de la superficie que las incluye.
 
-![modelo digital con edificaciones](../../.gitbook/assets/cubiertas-3.jpg)
+![modelo digital con edificaciones](../../images/cubiertas-3.jpg)

@@ -1,6 +1,6 @@
 # Códigos según diferencia de cota
 
-![Cuadro de diálogo Códigos según diferencia de cota](../../../.gitbook/assets/image-151.png)
+![Cuadro de diálogo Códigos según diferencia de cota](../../../images/image-151.png)
 
 Desde este cuadro de diálogo se podrá generar un listado que vincule diferencias de cota con un código determinado. De esta forma, se podrían detectar rápidamente entidades con determinadas diferencia.
 

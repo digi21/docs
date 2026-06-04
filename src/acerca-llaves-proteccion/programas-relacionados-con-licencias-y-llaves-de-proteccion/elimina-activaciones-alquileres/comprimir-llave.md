@@ -20,4 +20,4 @@ Para eliminar la compresión de una llave de protección tienes que volver a eje
 
 Además, hemos hecho que el programa [Comprobar Licencias](../comprobar-licencias.md) muestre el porcentaje de memoria libre en la llave de protección:
 
-![Captura mostrando las propiedades de la llave de protección](../../../.gitbook/assets/propiedades-de-la-llave-de-protección.jpg)
+![Captura mostrando las propiedades de la llave de protección](../../../images/propiedades-de-la-llave-de-protección.jpg)

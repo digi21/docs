@@ -1,6 +1,6 @@
 # Cuadro de herramientas
 
-![Panel Cuadro de herramientas](../../../.gitbook/assets/panelcuadroherramientas.png)
+![Panel Cuadro de herramientas](../../../images/panelcuadroherramientas.png)
 
 Este panel muestra el cuadro de herramientas configurado en la tabla de códigos activa.
 

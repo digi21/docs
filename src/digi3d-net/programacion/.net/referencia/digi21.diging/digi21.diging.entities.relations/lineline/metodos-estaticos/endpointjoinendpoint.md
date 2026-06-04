@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si las dos [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) están unidas por uno de sus extremos.
 
-![L&#xED;neas que se unen por sus extremos](../../../../../../../../.gitbook/assets/lineauneextremolinea.png)
+![L&#xED;neas que se unen por sus extremos](../../../../../../../../images/lineauneextremolinea.png)
 
 ```csharp
 public static bool EndpointJoinEndpoint(ReadOnlyLine a, ReadOnlyLine b)

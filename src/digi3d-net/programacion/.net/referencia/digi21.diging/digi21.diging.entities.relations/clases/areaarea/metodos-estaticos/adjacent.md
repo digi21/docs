@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si dos áreas son adyacentes.
 
-![Área adyacente área](../../../../../../../../../.gitbook/assets/areaadyacentearea.png)
+![Área adyacente área](../../../../../../../../../images/areaadyacentearea.png)
 
 ## Sobrecargas
 

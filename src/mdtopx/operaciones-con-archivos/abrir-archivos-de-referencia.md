@@ -8,7 +8,7 @@ Sólo se permiten cargar como archivos de referencia, archivos de dibujo \(archi
 
 Cuando se llama a esta herramienta el programa muestra el siguiente cuadro de diálogo:
 
-![cuadro de diálogo archivos de referencia](../../.gitbook/assets/dialogo-referencia.jpg)
+![cuadro de diálogo archivos de referencia](../../images/dialogo-referencia.jpg)
 
 Desde él, se podrán cargar archivos de referencia nuevo o descargar los actuales. Para ello muestra una lista con los archivos de referencia actuales. Para cargar archivos nuevos se deberá pulsar el botón **Cargar** y para descargar archivos actuales, éstos se deberán seleccionar primero en la lista utilizando el botón izquierdo del ratón y pudiéndose ayudar de las teclas \[Ctrl] y \[Mayúsculas] para hacer multi-selección, y pulsar posteriormente el botón **Descargar**.
 

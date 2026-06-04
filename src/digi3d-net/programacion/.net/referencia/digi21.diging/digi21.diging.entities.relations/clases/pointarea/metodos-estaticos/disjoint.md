@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si el punto y el área son disjuntos.
 
-![Punto y &#xE1;rea disjuntos](../../../../../../../../../.gitbook/assets/puntoareanocoincidentes.png)
+![Punto y &#xE1;rea disjuntos](../../../../../../../../../images/puntoareanocoincidentes.png)
 
 ## Sobrecargas
 

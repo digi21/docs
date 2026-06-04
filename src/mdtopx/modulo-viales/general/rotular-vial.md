@@ -4,7 +4,7 @@
 
 Con esta herramienta se pueden mostrar en pantalla elementos que ayudarán a la comprensión de los trazados generados. Estos elementos consisten en marcas perpendiculares al avance del vial que podrán llevar textos anexos con las características del vial en ese punto.
 
-![Cuadro de diálogo Rotular vial](../../../.gitbook/assets/image-90.png)
+![Cuadro de diálogo Rotular vial](../../../images/image-90.png)
 
 Cuando se llama a esta herramienta, la aplicación muestra un cuadro de diálogo que contiene los siguientes campos:
 

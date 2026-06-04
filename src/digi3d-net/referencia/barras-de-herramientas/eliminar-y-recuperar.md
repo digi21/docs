@@ -1,6 +1,6 @@
 # Eliminar y recuperar
 
-![Barra de herramientas Eliminar y recuperar](../../../.gitbook/assets/eliminaryrecuperar.png)
+![Barra de herramientas Eliminar y recuperar](../../../images/eliminaryrecuperar.png)
 
 Permite ejecutar órdenes relacionadas con la eliminación y recuperación de geometrías.
 

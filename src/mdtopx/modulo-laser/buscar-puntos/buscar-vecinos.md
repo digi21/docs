@@ -4,7 +4,7 @@
 
 Herramienta para buscar y clasificar puntos anejos a otros puntos ya clasificados con una determinada tipología. Sirve para extender una tipología a partir de puntos clasificados por otro medio. El programa pregunta por el **Tipo** a considerar y una **Tolerancia en cota** para poder extender la superficie clasificada.
 
-![Cuadro de diálogo Buscar puntos vecinos](../../../.gitbook/assets/image-173.png)
+![Cuadro de diálogo Buscar puntos vecinos](../../../images/image-173.png)
 
 Vea también:
 

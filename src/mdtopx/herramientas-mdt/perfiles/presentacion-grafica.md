@@ -1,6 +1,6 @@
 # Presentación gráfica
 
-![Cuadro de diálogo Presentación gráfica](../../../.gitbook/assets/image-55.png)
+![Cuadro de diálogo Presentación gráfica](../../../images/image-55.png)
 
 Este cuadro de diálogo sirve para indicarle al programa cómo debe mostrar los perfiles calculados. Para ello se le indicará la separación de los perfiles y el orden de colocación de éstos, a través de los siguientes campos:
 

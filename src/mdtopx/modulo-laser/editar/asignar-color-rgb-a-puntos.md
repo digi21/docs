@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a añadir color RGB a cada punto a partir de una imagen georreferenciada externa. Esta imagen podrá ser una ortofotografía o una imagen con proyección cónica con su respectivo archivo de orientación externa. La herramienta es útil cuando no se ha registrado color originalmente con el láser, ya que permitirá añadir más información a la nube para mejorar la edición.
 
-![Cuadro de diálogo Asignar color a puntos](../../../.gitbook/assets/image-126.png)
+![Cuadro de diálogo Asignar color a puntos](../../../images/image-126.png)
 
 Los parámetros que precisa son los siguientes:
 

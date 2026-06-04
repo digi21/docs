@@ -18,18 +18,18 @@ Obtener la cubicación de una zona a partir de las cartografías en diferentes �
 * Cargar el fichero TERRENO2.DXF en pantalla. Para ello utilice la orden [Abrir](../operaciones-con-archivos/abrir-archivo.md) del menú del [Botón MDTopX](../introduccion/boton-de-mdtopx.md), seleccionando el tipo de archivos DXF.
 * Llamar a la orden [Triangulación](../como/como-triangulacion.md) de la ficha de herramientas [Herramientas MDT](/mdtopx/herramientas-mdt/), que generará un modelo digital del terreno de la cartografía. En el cuadro de diálogo se podrán elegir qué líneas son líneas de ruptura y con qué líneas se desea calcular el modelo digital.
 
-![cuadro de diálogo Triangulación](../../.gitbook/assets/pantalla1-ejemplo3.jpg)
+![cuadro de diálogo Triangulación](../../images/pantalla1-ejemplo3.jpg)
 
 * Guardar el fichero a disco. Para ello utilice la orden Guardar del menú del [Botón MDTopX](../introduccion/boton-de-mdtopx.md). Guárdelo, por ejemplo, con el nombre que ofrece el programa TRIANGULACION DE TERRENO2.
 * Cargar el fichero TERRENO1.DXF en pantalla, igual que se ha hecho con el fichero anterior.
 * Llamar a la orden [Triangulación](../como/como-triangulacion.md) de la ficha de herramientas [Herramientas MDT](/mdtopx/herramientas-mdt/), que generará un modelo digital del terreno de la cartografía. En el cuadro de diálogo se podrán elegir qué líneas son líneas de ruptura y con qué líneas se desea calcular el modelo digital.
 * Llamar a la orden [Cubicación](../como/como-cubicacion.md) de la ficha de herramientas [Herramientas MDT](../fichas-de-herramientas/ficha-de-herramientas-mdt/) e introducir como archivos de entrada el modelo digital guardado anteriormente (TRIANGULACION DE TERRENO2) y el archivo con el límite (LIMITE.DXF).
 
-![cuadro de diálogo Cubicación](../../.gitbook/assets/pantalla5-ejemplo3.jpg)
+![cuadro de diálogo Cubicación](../../images/pantalla5-ejemplo3.jpg)
 
 * Configurar los perfiles de la cubicación introduciendo como fichero de entrada, el archivo con los perfiles (PERFILES.DXF).
 
-![cuadro de diálogo Perfiles de cubicación](../../.gitbook/assets/pantalla4-ejemplo3.jpg)
+![cuadro de diálogo Perfiles de cubicación](../../images/pantalla4-ejemplo3.jpg)
 
 * Se generan dos archivos: uno con la cubicación y otro con los perfiles de la cubicación.
 
@@ -37,23 +37,23 @@ Obtener la cubicación de una zona a partir de las cartografías en diferentes �
 
 * TRIANGULACION DE TERRENO1: Fichero con formato propio de MDTop con el modelo digital del terreno en la época anterior. No incluido para ahorrar espacio.
 
-![archivo con triangulación del terreno1](../../.gitbook/assets/pantalla2-ejemplo3.jpg)
+![archivo con triangulación del terreno1](../../images/pantalla2-ejemplo3.jpg)
 
 * TRIANGULACION DE TERRENO2: Fichero con formato propio de MDTop con el modelo digital del terreno en la época posterior. No incluido para ahorrar espacio.
 
-![archivo con triangulación del terreno2](../../.gitbook/assets/pantalla3-ejemplo3.jpg)
+![archivo con triangulación del terreno2](../../images/pantalla3-ejemplo3.jpg)
 
 * PERFILES DE PERFILES: Fichero con formato dibujo con los perfiles de la cubicación. Este archivo podrá ser salvado para su edición en formato BIN de DIGI, DXF de AutoCad o DGN de MicroStation.
 
-![archivo con perfiles](../../.gitbook/assets/pantalla6-ejemplo3.jpg)
+![archivo con perfiles](../../images/pantalla6-ejemplo3.jpg)
 
 * PLANTA DE PERFILES DE PERFILES: Fichero con formato dibujo con los la planta de los perfiles de la cubicación. Este archivo podrá ser salvado para su edición en formato BIN de DIGI, DXF de AutoCad o DGN de MicroStation.
 
-![archivo con la planta de los perfiles](../../.gitbook/assets/pantalla8-ejemplo3.jpg)
+![archivo con la planta de los perfiles](../../images/pantalla8-ejemplo3.jpg)
 
 * CUBICACION DE TRIANGULACION DE TERRENO1 Y TRIANGULACION DE TERRENO2: Fichero con formato propio de MDTop con la cubicación.
 
-![archivo con cubicación](../../.gitbook/assets/pantalla7-ejemplo3.jpg)
+![archivo con cubicación](../../images/pantalla7-ejemplo3.jpg)
 
 * INFORME.ASC: Fichero con formato ASCII con el informe de la cubicación.
 

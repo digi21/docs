@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la generación de un modelo digital del terreno de tipo TIN utilizando el algoritmo de la tetraedrización de Delaunay. Esta herramienta no admite la inclusión de líneas de ruptura por lo que su utilización se restringe a la triangulación de archivos de puntos láser.
 
-![Cuadro de diálogo Triangulación 3D](../../../.gitbook/assets/image-120.png)
+![Cuadro de diálogo Triangulación 3D](../../../images/image-120.png)
 
 Los parámetros que precisa son los siguientes:
 

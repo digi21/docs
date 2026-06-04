@@ -2,7 +2,7 @@
 
 [Plataformas](/mdtopx/herramientas-mdt/plataformas.md)
 
-![Cuadro de diálogo Plataformas](../../.gitbook/assets/image-58.png)
+![Cuadro de diálogo Plataformas](../../images/image-58.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 
@@ -12,7 +12,7 @@ En este cuadro de diálogo aparecen los siguientes campos a rellenar:
   * Fichero con la línea intersección con el terreno para que el programa calcule dónde estaría la plataforma a una determinada cota que se deberá especificar.
 * **Taludes**: Los taludes pueden ser de desmonte (si la plataforma se encuentra por debajo del terreno natural) o de terraplén (si la plataforma se encuentra por encima del terreno natural). Estos taludes se definen como un vector con sus dos componentes X e Y, donde el campo X representa el movimiento en planimetría y el Y el movimiento en altimetría. En ambos casos es posible indicar una berma cada cierto valor de la altura. En tal caso habrá que indicar cada cuánto se quiere incluir una berma y el ancho de ésta. A continuación, se representa un talud con berma.
 
-![fichero con taludes](../../.gitbook/assets/ejemplo-plataforma-con-berma.jpg)
+![fichero con taludes](../../images/ejemplo-plataforma-con-berma.jpg)
 
 * **Calcular cubicación**: Si se desea obtener la cubicación directamente entre el MDT con el terreno natural y el nuevo MDT con las plataformas proyectadas, se deberá activar esta opción. Si se activa se generará otro documento adicional con la cubicación calculada. Si no se activa, se podrá cubicar posteriormente con la herramienta [Cubicación](/mdtopx/desde-linea-de-comando/linea-de-comando-cubicacion.md).
 

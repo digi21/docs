@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si la línea se junta con el área.
 
-![Línea junta área](../../../../../../../../../.gitbook/assets/lineajuntaarea.png)
+![Línea junta área](../../../../../../../../../images/lineajuntaarea.png)
 
 ## Sobrecargas
 

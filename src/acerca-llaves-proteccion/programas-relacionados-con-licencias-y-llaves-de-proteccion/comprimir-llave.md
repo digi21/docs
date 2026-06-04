@@ -20,7 +20,7 @@ Puedes eliminar la compresión de una llave de protección eliminando todas las 
 
 Además hemos hecho que el programa [Comprobar Licencias](comprobar-licencias.md) muestre el porcentaje de memoria libre en la llave de protección:
 
-![Captura mostrando las propiedades de la llave de protecci&#xF3;n](../../.gitbook/assets/propiedades-de-la-llave-de-proteccion.jpg)
+![Captura mostrando las propiedades de la llave de protecci&#xF3;n](../../images/propiedades-de-la-llave-de-proteccion.jpg)
 
 También hemos introducido el concepto de **Contraseña de administración** en la llave de protección.  
 Si entras en tu panel de administración de llaves de protección en [Mis llaves](https://www.digi21.net/MisLlaves) podrás comprobar que ha aparecido una nueva opción de configuración que te permite indicar una contraseña de administración. Los programas **Comprimir Llave** y **Eliminar Activaciones y Alquieres** solicitarán esta contraseña de activación.

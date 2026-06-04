@@ -1,6 +1,6 @@
 # Tentativo
 
-![Barra de herramientas Tentativo](../../../.gitbook/assets/tentativo.png)
+![Barra de herramientas Tentativo](../../../images/tentativo.png)
 
 Esta barra de herramientas permite realizar acciones relacionadas con los tentativos y modos de búsqueda.
 

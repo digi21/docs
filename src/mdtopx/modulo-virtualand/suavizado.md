@@ -4,7 +4,7 @@
 
 Esta herramienta esta destinada al suavizado de un modelo digital de tipo DEM utilizando el algoritmo de Splines cúbicos. De esta forma, se puede generar una superficie que puede ser continua en la pendiente y en la curvatura. Según esto, los resultados de la interpolación sobre el modelo serán mejores que sobre modelos digitales que simplemente son uniones entre superficies independientes (triángulos o celdas).
 
-![Cuadro de diálogo Suavizado](../../.gitbook/assets/image-113.png)
+![Cuadro de diálogo Suavizado](../../images/image-113.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

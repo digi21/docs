@@ -1,6 +1,6 @@
 # Acotaciones
 
-![Barra de herramientas Acotaciones](../../../.gitbook/assets/acotaciones.png)
+![Barra de herramientas Acotaciones](../../../images/acotaciones.png)
 
 Permite ejecutar órdenes relacionadas con acotaciones.
 

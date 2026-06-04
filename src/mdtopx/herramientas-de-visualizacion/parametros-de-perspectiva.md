@@ -2,7 +2,7 @@
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 
-![Cuadro de diálogo Parámetros de perspectiva](../../.gitbook/assets/image-76.png)
+![Cuadro de diálogo Parámetros de perspectiva](../../images/image-76.png)
 
 En este cuadro de diálogo se podrá seleccionar una visualización diferente para un archivo. Para ello se deberán indicar los siguientes parámetros:
 

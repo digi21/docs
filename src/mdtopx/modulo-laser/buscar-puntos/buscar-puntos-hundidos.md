@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR que tienen una cota mucho más baja que los puntos de su entorno, normalmente porque el valor de esta cota es erróneo.
 
-![Cuadro de diálogo Buscar puntos hundidos](../../../.gitbook/assets/image-163.png)
+![Cuadro de diálogo Buscar puntos hundidos](../../../images/image-163.png)
 
 Los parámetros que precisa son los siguientes:
 

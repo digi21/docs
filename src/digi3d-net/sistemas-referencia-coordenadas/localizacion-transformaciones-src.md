@@ -34,7 +34,7 @@ Cuando Digi3D.NET intenta localizar una transformación entre dos sistemas puede
 
     Si por el contrario se estaba intentando localizar una transformación vertical, se mostrará al usuario el **cuadro de diálogo Selección de Transformación Vertical**
 
-    ![](../../.gitbook/assets/mensaje-de-error-porque-no-existe-transformacion-entre-dos-sistemas.png)
+    ![](../../images/mensaje-de-error-porque-no-existe-transformacion-entre-dos-sistemas.png)
 3.  Que se localicen varias transformaciones entre ambos sistemas.
 
     En este caso Digi3D.NET mostrará al usuario el **Cuadro de diálogo Localizadas Múltiples Transformaciones**.

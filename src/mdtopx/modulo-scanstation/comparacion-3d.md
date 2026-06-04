@@ -4,7 +4,7 @@
 
 Mediante esta herramienta se pueden realizar comparaciones entre dos nubes de puntos.
 
-![Cuadro de diálogo Comparar nubes 3D](../../.gitbook/assets/image-36.png)
+![Cuadro de diálogo Comparar nubes 3D](../../images/image-36.png)
 
 Los parámetros necesarios son los siguientes:
 

@@ -6,7 +6,7 @@ Cuando el usuario introduce una glorieta como trazado nuevo, el programa muestra
 
 Para registrar una glorieta nueva se debe elegir alguna de las opciones disponibles en la [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md).
 
-![Cuadro de diálogo Glorieta](../../../.gitbook/assets/image-107.png)
+![Cuadro de diálogo Glorieta](../../../images/image-107.png)
 
 Los datos que se muestran los siguientes:
 

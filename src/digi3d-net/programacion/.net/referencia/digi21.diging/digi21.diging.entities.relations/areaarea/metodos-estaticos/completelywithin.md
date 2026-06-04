@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si la primera área está completamente dentro dela segunda área.
 
-![&#xC1;rea completamente dentro de &#xE1;rea](../../../../../../../../.gitbook/assets/areaincluyearea.png)
+![&#xC1;rea completamente dentro de &#xE1;rea](../../../../../../../../images/areaincluyearea.png)
 
 ## Sobrecargas
 

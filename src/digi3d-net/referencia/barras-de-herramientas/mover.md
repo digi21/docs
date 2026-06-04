@@ -1,6 +1,6 @@
 # Mover
 
-![Barra de herramientas Mover](../../../.gitbook/assets/mover.png)
+![Barra de herramientas Mover](../../../images/mover.png)
 
 Permite ejecutar órdenes relacionadas con mover de posición geometrías existentes.
 

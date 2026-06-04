@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la comparación de dos modelos digitales realizados de la misma zona. Su comparación permitirá emitir un informe de resultados con las diferencias encontradas.
 
-![Cuadro de diálogo Comparar dos DEM](../../.gitbook/assets/image-111.png)
+![Cuadro de diálogo Comparar dos DEM](../../images/image-111.png)
 
 Al llamarla se muestra un cuadro de diálogo donde aparecen los siguientes campos:
 

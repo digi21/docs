@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si uno de los extremos de la línea está dentro del área.
 
-![L&#xED;nea termina en &#xE1;rea](../../../../../../../../.gitbook/assets/lineaterminaenarea.png)
+![L&#xED;nea termina en &#xE1;rea](../../../../../../../../images/lineaterminaenarea.png)
 
 ## Sobrecargas
 

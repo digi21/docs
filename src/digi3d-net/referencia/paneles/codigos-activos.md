@@ -1,6 +1,6 @@
 # Tabla de códigos
 
-![Panel tabla de códigos mostrando el código 020123 como código activo](../../../.gitbook/assets/paneltablacodigos.png)
+![Panel tabla de códigos mostrando el código 020123 como código activo](../../../images/paneltablacodigos.png)
 
 Este permite seleccionar el código activo al estilo de cómo lo haríamos con la [barra de herramientas Código](../barras-de-herramientas/codigo.md) pero mostrando todos los códigos simultáneamente.
 

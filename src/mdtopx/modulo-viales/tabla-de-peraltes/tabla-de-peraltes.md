@@ -4,7 +4,7 @@
 
 Desde este cuadro de diálogo, el usuario podrá diseñar la tabla de peraltes que podrá ser aplicada en los trazados de los viales.
 
-![Cuadro de diálogo Tabla de peraltes](../../../.gitbook/assets/image-95.png)
+![Cuadro de diálogo Tabla de peraltes](../../../images/image-95.png)
 
 Los campos que se muestran para crear la tabla de peraltes son:
 

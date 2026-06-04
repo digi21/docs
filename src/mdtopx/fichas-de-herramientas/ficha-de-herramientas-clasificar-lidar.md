@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas Clasificar LiDAR](../../.gitbook/assets/ficha-de-herramientas-clasificar-lidar.jpg)
+![cinta de herramientas Clasificar LiDAR](../../images/ficha-de-herramientas-clasificar-lidar.jpg)
 
 En esta ficha de herramientas aparecen los comandos relacionados con la clasificación de puntos LiDAR medidos con dispositivos láser aerotransportados del [módulo láser](../modulo-laser/).
 

@@ -5,9 +5,9 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si las dos áreas solapan.
 
-![Área solapa área](../../../../../../../../../.gitbook/assets/areasolapaarea.png)
+![Área solapa área](../../../../../../../../../images/areasolapaarea.png)
 
-![Área solapa área](../../../../../../../../../.gitbook/assets/areasolapaarea2.png)
+![Área solapa área](../../../../../../../../../images/areasolapaarea2.png)
 
 ## Sobrecargas
 

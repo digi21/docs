@@ -1,6 +1,6 @@
 # Editar códigos
 
-![Barra de herramientas Editar Códigos](../../../.gitbook/assets/editarcodigos.png)
+![Barra de herramientas Editar Códigos](../../../images/editarcodigos.png)
 
 Permite ejecutar órdenes relacionadas con la edición de códigos de geometrías existentes.
 

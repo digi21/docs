@@ -10,4 +10,4 @@ Puedes solucionar el problema ejecutando el programa [Activar ordenador](/acerca
 
 A continuación, te mostramos cómo comunica Digi3D.NET este problema:
 
-![Cuadro de diálogo indicando que el ordenador no está activado en la llave de protección](../../.gitbook/assets/este-ordenador-no-esta-activado-en-la-llave-de-proteccion.png)
+![Cuadro de diálogo indicando que el ordenador no está activado en la llave de protección](../../images/este-ordenador-no-esta-activado-en-la-llave-de-proteccion.png)

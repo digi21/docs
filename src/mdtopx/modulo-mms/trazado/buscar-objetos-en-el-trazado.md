@@ -9,7 +9,7 @@ El resultado de esta herramienta será:
 * Clasificación del documento original de los puntos pertenecientes a los objetos indicados.
 * Generación de un nuevo documento de geometría vectorial con los límites de cada uno de los objetos encontrados.
 
-![Cuadro de diálogo para la clasificación de activos en vía](../../../.gitbook/assets/image-20.png)
+![Cuadro de diálogo para la clasificación de activos en vía](../../../images/image-20.png)
 
 El cuadro de diálogo necesita los siguientes datos:
 

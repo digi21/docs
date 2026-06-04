@@ -2,4 +2,4 @@
 
 [Buscar formas geométricas](./)
 
-![Cuadro de diálogo Calcular planos a partir de puntos](../../../.gitbook/assets/image-178.png)
+![Cuadro de diálogo Calcular planos a partir de puntos](../../../images/image-178.png)

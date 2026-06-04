@@ -1,6 +1,6 @@
 # Modifica
 
-![Barra de herramientas Modifica](../../../.gitbook/assets/modifica.png)
+![Barra de herramientas Modifica](../../../images/modifica.png)
 
 Permite ejecutar órdenes relacionadas con la modificación de geometrías existentes.
 

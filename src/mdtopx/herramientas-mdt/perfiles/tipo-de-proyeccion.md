@@ -1,6 +1,6 @@
 # Tipo de proyección
 
-![Cuadro de diálogo Tipo de proyección sobre MDT](../../../.gitbook/assets/image-54.png)
+![Cuadro de diálogo Tipo de proyección sobre MDT](../../../images/image-54.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

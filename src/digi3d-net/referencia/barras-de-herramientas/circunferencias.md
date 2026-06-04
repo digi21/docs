@@ -1,6 +1,6 @@
 # Circunferencias
 
-![Barra de herramientas Circunferencias](../../../.gitbook/assets/circunferencias.png)
+![Barra de herramientas Circunferencias](../../../images/circunferencias.png)
 
 Permite ejecutar órdenes relacionadas con circunferencias.
 

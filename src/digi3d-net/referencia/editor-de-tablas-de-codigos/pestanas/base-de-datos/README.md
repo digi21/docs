@@ -1,6 +1,6 @@
 # Base de datos
 
-![Editor de tablas de códigos mostrando la tabla Edificaciones con sus campos ID y Propietario](../../../../../.gitbook/assets/pestanabasedatos.png)
+![Editor de tablas de códigos mostrando la tabla Edificaciones con sus campos ID y Propietario](../../../../../images/pestanabasedatos.png)
 
 Permite configurar las tablas y los esquemas de cada una de estas tablas de base de datos.
 

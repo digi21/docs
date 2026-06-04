@@ -5,9 +5,9 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si la línea cruza el área.
 
-![Línea que cruza área](../../../../../../../../../.gitbook/assets/lineacruzaarea.png)
+![Línea que cruza área](../../../../../../../../../images/lineacruzaarea.png)
 
-![Línea que cruza área](../../../../../../../../../.gitbook/assets/lineacruzaarea2.png)
+![Línea que cruza área](../../../../../../../../../images/lineacruzaarea2.png)
 
 ## Sobrecargas
 

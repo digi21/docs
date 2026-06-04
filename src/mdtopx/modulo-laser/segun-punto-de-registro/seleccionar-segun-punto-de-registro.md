@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que hayan sido registrados según un determinado punto y guardarlos en un nuevo documento.
 
-![Cuadro de diálogo Seleccionar según punto de registro](../../../.gitbook/assets/image-138.png)
+![Cuadro de diálogo Seleccionar según punto de registro](../../../images/image-138.png)
 
 Los parámetros que precisa son los siguientes:
 

@@ -17,11 +17,11 @@ Obtener los perfiles longitudinales y transversales de una traza a partir de un 
 * Llamar a la orden [Triangulación](../como/como-triangulacion.md) de la ficha de herramientas [Herramientas MDT](/mdtopx/herramientas-mdt/), que generará un modelo digital del terreno con los datos tomados en el taquimétrico. El fichero sólo está compuesto por puntos, por lo que no tendrá líneas de ruptura. Se genera un modelo digital compuesto por multitud de triángulos visibles en pantalla.
 * Con este archivo activo, llamar a la orden [Perfiles](../como/como-perfiles.md) de la ficha de herramientas [Herramientas MDT](/mdtopx/herramientas-mdt/). Aparecerá un cuadro de diálogo que se deberá rellenar con la información de los perfiles, si se desean guitarras, configuración de guitarras, si se desean transversales, si se desea cubicar las trazas, etc.
 
-![cuadro de diálogo Perfiles](../../.gitbook/assets/pantalla1-ejemplo2.jpg)
+![cuadro de diálogo Perfiles](../../images/pantalla1-ejemplo2.jpg)
 
-![cuadro de diálogo Perfiles transversales](../../.gitbook/assets/pantalla2-ejemplo2.jpg)
+![cuadro de diálogo Perfiles transversales](../../images/pantalla2-ejemplo2.jpg)
 
-![cuadro de diálogo de configuración de la guitarra](../../.gitbook/assets/pantalla3-ejemplo2.jpg)
+![cuadro de diálogo de configuración de la guitarra](../../images/pantalla3-ejemplo2.jpg)
 
 * Cuando finaliza el cálculo se muestra un cuadro de diálogo con el movimiento de tierras (terraplén y desmonte) y se generan varios archivos en función de las opciones activadas: perfiles longitudinales, transversales, la traza proyectada, el modelo digital con la traza proyectada, la cubicación de la traza... Además se generarán en disco un archivo ASCII con los perfiles transversales en el formato elegido y un fichero ASCII con el informe.
 
@@ -30,23 +30,23 @@ Obtener los perfiles longitudinales y transversales de una traza a partir de un 
 * TRIANGULACION DE RADIA: Fichero con el modelo digital del terreno y formato propio de MDTop.
 * PERFILES DE LINEA: Fichero con formato dibujo con el perfil longitudinal. Este archivo podrá ser salvado para su edición en formato BIN de DIGI, DXF de AutoCad o DGN de MicroStation.
 
-![fichero con el perfil longitudinal](../../.gitbook/assets/pantalla4-ejemplo2.jpg)
+![fichero con el perfil longitudinal](../../images/pantalla4-ejemplo2.jpg)
 
 * TRANSVERSALES DE LINEA: Fichero con formato dibujo con los perfiles transversales. Este archivo podrá ser salvado para su edición en formato BIN de DIGI, DXF de AutoCad o DGN de MicroStation.
 
-![fichero con los perfiles transversales](../../.gitbook/assets/pantalla5-ejemplo2.jpg)
+![fichero con los perfiles transversales](../../images/pantalla5-ejemplo2.jpg)
 
 * PROYECCION DE LINEA: Fichero con formato dibujo con la planta de la proyección de la línea sobre el terreno. Este archivo podrá ser salvado para su edición en formato BIN de DIGI, DXF de AutoCad o DGN de MicroStation.
 
-![fichero con la traza proyectada](../../.gitbook/assets/pantalla6-ejemplo2.jpg)
+![fichero con la traza proyectada](../../images/pantalla6-ejemplo2.jpg)
 
 * TRAZA DE LINEA: Fichero con formato propio de MDTop con el modelo digital del terreno modificado después de proyectar la traza.
 
-![triangulación de la traza](../../.gitbook/assets/pantalla7-ejemplo2.jpg)
+![triangulación de la traza](../../images/pantalla7-ejemplo2.jpg)
 
 * CUBICACION DE LINEA: Fichero con formato propio de MDTop con la cubicación de la traza.
 
-![cubicación de la traza](../../.gitbook/assets/pantalla8-ejemplo2.jpg)
+![cubicación de la traza](../../images/pantalla8-ejemplo2.jpg)
 
 * INFORME.ASC: Fichero con formato ASCII con la información de los diferentes transversales: PK, superficie de desmonte y superficie de terraplén.
 

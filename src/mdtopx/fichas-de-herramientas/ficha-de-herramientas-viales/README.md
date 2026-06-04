@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas Viales](../../../.gitbook/assets/ficha-de-herramientas-viales.jpg)
+![cinta de herramientas Viales](../../../images/ficha-de-herramientas-viales.jpg)
 
 En esta ficha de herramientas aparecen los comandos relacionados con el diseño de viales del [módulo Viales](../../modulo-viales/).
 

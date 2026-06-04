@@ -6,9 +6,9 @@ Las imágenes 360º abarcan casi toda la esfera desde un determinado punto de vi
 
 Cada imagen vendrá georreferenciada. Esta georreferenciación no está almacenada en la propia imagen, sino que está en ficheros adicionales. La georreferenciación constará de una posición XYZ y tres ángulos indicando la actitud de la cámara en el momento del registro.
 
-![Imagen 360 antes de cargar la georreferenciación. Se muestra como una imagen rectangular](../../.gitbook/assets/image-23.png)
+![Imagen 360 antes de cargar la georreferenciación. Se muestra como una imagen rectangular](../../images/image-23.png)
 
-![Imagen 360 después de cargar la georreferenciación. Se muestra como una imagen esférica](../../.gitbook/assets/image-24.png)
+![Imagen 360 después de cargar la georreferenciación. Se muestra como una imagen esférica](../../images/image-24.png)
 
 La edición de los datos de georreferenciación se puede realizar con la herramienta [Editar](/mdtopx/modulo-laser/editar/).
 

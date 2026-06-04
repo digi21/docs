@@ -6,7 +6,7 @@ La aplicación permite importar archivos GTOPO30 pertenecientes al USGS que son 
 
 El programa muestra un cuadro de diálogo con la zona que se desea importar y el nivel de precisión de la importación.
 
-![cuadro de diálogo importar archivos GTOPO30](../../../.gitbook/assets/dialogo-importar-gtopo30.jpg)
+![cuadro de diálogo importar archivos GTOPO30](../../../images/dialogo-importar-gtopo30.jpg)
 
 En este cuadro de diálogo aparecen los siguientes campos:
 

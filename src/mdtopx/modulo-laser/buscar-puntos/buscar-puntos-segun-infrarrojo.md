@@ -4,7 +4,7 @@
 
 Esta herramienta tiene como objetivo clasificar puntos en función del índice NDVI que se puede calcular a partir del valor de infrarrojo almacenado. Para ello, cada punto deberá tener almacenado un falso color compuesto por el valor infrarrojo cercano, rojo y azul.
 
-![Cuadro de diálogo Buscar puntos según infrarrojo](../../../.gitbook/assets/image-174.png)
+![Cuadro de diálogo Buscar puntos según infrarrojo](../../../images/image-174.png)
 
 El cuadro de diálogo precisa de los siguientes campos:
 

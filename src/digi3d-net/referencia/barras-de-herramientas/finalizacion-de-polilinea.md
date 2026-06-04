@@ -1,6 +1,6 @@
 # Finalización de polilínea
 
-![Barra de herramientas Finalización de polilínea](../../../.gitbook/assets/finalizacionpolilinea.png)
+![Barra de herramientas Finalización de polilínea](../../../images/finalizacionpolilinea.png)
 
 Permite ejecutar órdenes relacionadas con finalizar la línea que se está digitalizando y aún no se ha finalizado.
 

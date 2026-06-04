@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para cambiar la clasificación de puntos LiDAR seleccionando los puntos en pantalla manualmente.
 
-![Cuadro de diálogo Cambiar clasificación en gráfico](../../../.gitbook/assets/image-125.png)
+![Cuadro de diálogo Cambiar clasificación en gráfico](../../../images/image-125.png)
 
 Los parámetros que precisa son los siguientes:
 

@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la generación de un modelo digital derivado del actual como consecuencia de un recorte de éste o una reducción en la densidad de puntos.
 
-![Cuadro de diálogo Generar DEM derivado](../../.gitbook/assets/image-112.png)
+![Cuadro de diálogo Generar DEM derivado](../../images/image-112.png)
 
 Al llamarla se muestra un cuadro de diálogo donde aparecen los siguientes campos:
 

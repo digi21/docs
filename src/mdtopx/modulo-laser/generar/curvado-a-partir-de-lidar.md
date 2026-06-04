@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a generar un [curvado](../../como/como-curvado.md) a partir directamente de un archivo de una nube de puntos.
 
-![Cuadro de diálogo para generar un curvado a partir de una nube de puntos](../../../.gitbook/assets/image-26.png)
+![Cuadro de diálogo para generar un curvado a partir de una nube de puntos](../../../images/image-26.png)
 
 Los parámetros que precisa son los siguientes:
 

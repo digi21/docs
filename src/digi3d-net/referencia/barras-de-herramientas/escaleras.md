@@ -1,6 +1,6 @@
 # Escaleras
 
-![Barra de herramientas Escaleras](../../../.gitbook/assets/escaleras.png)
+![Barra de herramientas Escaleras](../../../images/escaleras.png)
 
 Permite ejecutar órdenes relacionadas con el dibujo de escaleras.
 

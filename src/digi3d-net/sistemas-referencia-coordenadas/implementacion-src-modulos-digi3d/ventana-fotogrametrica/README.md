@@ -49,7 +49,7 @@ En el esquema explicado anteriormente hay tres componentes que tienen su propio 
 
 Como estos sistemas de referencia de coordenadas no tienen por qué ser idénticos, Digi3D.NET realiza transformaciones de sistemas de referencia de coordenadas entre ellos, de modo que los pasos anteriores en realidad son así:
 
-![](../../../.gitbook/assets/gráfico-transformación-terreno-a-scr-sensor-y-scr-ventana-de-dibujo.png)
+![](../../../images/gráfico-transformación-terreno-a-scr-sensor-y-scr-ventana-de-dibujo.png)
 
 **Mostrar imágenes en una posición:**
 

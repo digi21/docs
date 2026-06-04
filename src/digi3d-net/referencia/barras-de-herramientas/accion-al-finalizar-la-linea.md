@@ -1,6 +1,6 @@
 # Acción al finalizar la línea
 
-![Barra de herramientas Acción al finalizar la línea](../../../.gitbook/assets/accionalfinalizarlinea.png)
+![Barra de herramientas Acción al finalizar la línea](../../../images/accionalfinalizarlinea.png)
 
 Permite configurar las acciones que realizará Digi3D.NET al finalizar una línea.
 

@@ -2,7 +2,7 @@
 
 [Herramientas MDT Productos civil](../fichas-de-herramientas/ficha-de-herramientas-mdt/productos-civil.md)
 
-![Cuadro de diálogo Comprobar MDT](../../.gitbook/assets/image-60.png)
+![Cuadro de diálogo Comprobar MDT](../../images/image-60.png)
 
 La aplicación permite comprobar la altimetría de un fichero con un modelo digital del terreno. Para ello, es necesario que el modelo digital sólo contenga curvas de nivel y puntos acotados. Además, las curvas de nivel deberían haber sido introducidas como líneas de ruptura. El programa buscará la ausencia de curvas de nivel, curvas de nivel con cota errónea, puntos acotados mal colocados, etc.
 

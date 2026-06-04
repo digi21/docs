@@ -4,7 +4,7 @@
 
 Herramienta destinada a la proyección de superficies sobre el modelo digital con dos objetivos: Poder elevar la superficie sobre MDT en función del centroide que indica su diferencia de altura o generar un centroide con la altura relativa respecto del MDT.
 
-![Cuadro de diálogo Proyectar superficies sobre MDT](../../.gitbook/assets/image-70.png)
+![Cuadro de diálogo Proyectar superficies sobre MDT](../../images/image-70.png)
 
 Al ejecutar el comando aparece un cuadro de diálogo con los siguientes campos:
 

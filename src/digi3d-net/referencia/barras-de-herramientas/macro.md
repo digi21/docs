@@ -1,6 +1,6 @@
 # Macro
 
-![Barra de herramientas Macro](../../../.gitbook/assets/macro.png)
+![Barra de herramientas Macro](../../../images/macro.png)
 
 Permite la grabación de macros que se podrán almacenar en una pulsación de tecla.
 

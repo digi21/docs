@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si los límites exteriores de las áreas son adyacentes.
 
-![Área adyacente área](../../../../../../../../../.gitbook/assets/areaadyacentearea.png)
+![Área adyacente área](../../../../../../../../../images/areaadyacentearea.png)
 
 ## Observaciones
 

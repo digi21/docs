@@ -7,7 +7,7 @@ Si conoces el sistema en el que están las orientaciones del proyecto y quieres 
 Debido a que este proceso no era muy intuitivo, lo hemos mejorado.\
 Ahora al cargar un modelo, si se detecta que éste no tiene asociado un SRC el programa va a mostrar el siguiente cuadro de diálogo:
 
-![Cuadro de diálogo solicitando asignar un sistema de referencia de coordenadas a un modelo](../../../../.gitbook/assets/asignar-uno.jpg)
+![Cuadro de diálogo solicitando asignar un sistema de referencia de coordenadas a un modelo](../../../../images/asignar-uno.jpg)
 
 Este cuadro de diálogo es completamente auto-explicativo y realizará las acciones por nosotros.
 

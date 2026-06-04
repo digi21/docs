@@ -4,7 +4,7 @@
 
 Herramienta para la clasificación de una nube de puntos obtenida en registro terrestre a partir de los objetos que ha medido. Es decir, dará un valor de tipología diferente en función de los objetos que va identificando.
 
-![Cuadro de diálogo Divide en elementos](../../../.gitbook/assets/image-155.png)
+![Cuadro de diálogo Divide en elementos](../../../images/image-155.png)
 
 Los parámetros que precisa son los siguientes:
 

@@ -1,6 +1,6 @@
 # Configuración
 
-![Cuadro de diálogo Configuración](../../../../.gitbook/assets/cuadrodialogoconfiguracion.png)
+![Cuadro de diálogo Configuración](../../../../images/cuadrodialogoconfiguracion.png)
 
 Este cuadro de diálogo permite configurar todos los aspectos Digi3D.NET.
 

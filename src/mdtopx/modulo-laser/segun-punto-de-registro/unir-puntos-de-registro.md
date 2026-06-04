@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para unir nubes LiDAR registradas desde puntos diferentes.
 
-![Cuadro de diálogo Unir según punto de registro](../../../.gitbook/assets/image-139.png)
+![Cuadro de diálogo Unir según punto de registro](../../../images/image-139.png)
 
 Los parámetros que precisa son los siguientes:
 

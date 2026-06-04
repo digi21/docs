@@ -8,7 +8,7 @@ Este programa requiere conexión a internet para obtener las licencias.
 
 Si el equipo con la llave de protección en la que se quieren programar los alquileres dispone de conexión a internet, utiliza mejor el programa [Consolidar alquiler](/acerca-llaves-proteccion/programas-relacionados-con-licencias-y-llaves-de-proteccion/consolidar-alquiler.md) pues este programa la llave de protección sin necesidad de crear ningún archivo.
 
-![Captura del programa Obtener archivos de licencia](../../../.gitbook/assets/obtener-archivos-licencia.png)
+![Captura del programa Obtener archivos de licencia](../../../images/obtener-archivos-licencia.png)
 
 Para obtener los archivos de licencia con los alquileres que se acaban de adquirir para una determinada llave de protección sigue los siguientes pasos:
 

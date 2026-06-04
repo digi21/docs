@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para cambiar el punto de registro de puntos LiDAR.
 
-![Cuadro de diálogo Cambiar según punto de registro](../../../.gitbook/assets/image-136.png)
+![Cuadro de diálogo Cambiar según punto de registro](../../../images/image-136.png)
 
 Los parámetros que precisa son los siguientes:
 

@@ -2,7 +2,7 @@
 
 [Mapa de tintas hipsométricas](/mdtopx/desde-linea-de-comando/linea-de-comando-mapa-de-tintas-hipsometricas.md)
 
-![Cuadro de diálogo Mapa de tintas hipsométricas](../../../.gitbook/assets/image-63.png)
+![Cuadro de diálogo Mapa de tintas hipsométricas](../../../images/image-63.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

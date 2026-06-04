@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si los puntos son coincidentes.
 
-![Dos puntos coincidentes](../../../../../../../../../.gitbook/assets/puntopuntocoincidentes.png)
+![Dos puntos coincidentes](../../../../../../../../../images/puntopuntocoincidentes.png)
 
 ```csharp
 public static bool Coincident(ReadOnlyPoint a, ReadOnlyPoint b)

@@ -2,7 +2,7 @@
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)
 
-![Cuadro de diálogo Longitudinal de vial](../../../.gitbook/assets/image-97.png)
+![Cuadro de diálogo Longitudinal de vial](../../../images/image-97.png)
 
 Desde esta herramienta, el usuario puede generar un nuevo documento de dibujo con el perfil longitudinal de un trazado, con la configuración de los datos que se muestran a continuación:
 

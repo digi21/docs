@@ -1,6 +1,6 @@
 # Coordenadas
 
-![Barra de herramientas Coordenadas](../../../.gitbook/assets/coordenadas.png)
+![Barra de herramientas Coordenadas](../../../images/coordenadas.png)
 
 Permite realizar tareas relacionadas con las coordenadas X, Y.
 

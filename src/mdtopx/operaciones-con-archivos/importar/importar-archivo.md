@@ -4,7 +4,7 @@
 
 Para importar un archivo existente, el usuario debe pulsar sobre el [botón de MDTopX](../../introduccion/boton-de-mdtopx.md)  y elegir el comando Importar. A continuación, el programa mostrará un menú donde se podrá elegir el tipo de documento a importar.
 
-![menú importar](../../../.gitbook/assets/menu-importar.jpg)
+![menú importar](../../../images/menu-importar.jpg)
 
 Las opciones de este menú son las siguientes:
 

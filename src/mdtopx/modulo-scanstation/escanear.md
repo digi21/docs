@@ -4,7 +4,7 @@
 
 Mediante esta herramienta se puede establecer comunicación con el escáner para iniciar un registro.
 
-![Cuadro de diálogo Comenzar Escaneado](../../.gitbook/assets/image-31.png)
+![Cuadro de diálogo Comenzar Escaneado](../../images/image-31.png)
 
 Los parámetros necesarios son los siguientes:
 

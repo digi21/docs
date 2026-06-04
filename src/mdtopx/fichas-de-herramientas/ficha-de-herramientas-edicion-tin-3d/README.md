@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas Edición TIN 3D](../../../.gitbook/assets/ficha-de-herramientas-edicion-tin-3d.jpg)
+![cinta de herramientas Edición TIN 3D](../../../images/ficha-de-herramientas-edicion-tin-3d.jpg)
 
 En esta ficha de herramientas aparecen los comandos relacionados con los documentos TIN 3D.
 

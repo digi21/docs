@@ -4,7 +4,7 @@
 
 Con esta herramienta se pueden clasificar puntos que forman superficies con valores de área superiores o inferiores a un determinado valor.
 
-![Cuadro de diálogo Cambiar tipología según área](../../../.gitbook/assets/image-176.png)
+![Cuadro de diálogo Cambiar tipología según área](../../../images/image-176.png)
 
 Los parámetros necesarios son los siguientes:
 

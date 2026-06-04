@@ -10,6 +10,6 @@ Para todo ello, el programa muestra el vial que se está editando y su longitud 
 
 Además, se aporta el listado de secciones tipo que actualmente se tienen almacenadas y que fueron definidas desde el cuadro de diálogo [Listado Secciones tipo](listado-secciones-tipo.md).
 
-![Cuadro de diálogo Asignar secciones tipo a vial](../../../.gitbook/assets/image-93.png)
+![Cuadro de diálogo Asignar secciones tipo a vial](../../../images/image-93.png)
 
 El programa permite **Añadir** una sección tipo al vial, para lo cual habrá que elegirla del listado e indicar el Pk. de inicio de dicha sección tipo, incluyéndose, a continuación, en el listado de la parte izquierda. Asimismo, también es posible **Eliminar** una sección tipo de la definición del vial.

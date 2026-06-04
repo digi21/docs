@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para cambiar la tipología de puntos LiDAR en función de la intensidad registrada en cada punto.
 
-![Cuadro de diálogo Cambiar según intensidad](../../../.gitbook/assets/image-143.png)
+![Cuadro de diálogo Cambiar según intensidad](../../../images/image-143.png)
 
 Los parámetros que precisa son los siguientes:
 

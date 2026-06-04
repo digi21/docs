@@ -17,4 +17,4 @@ La página de selección de llave de protección dispone de una casilla de verif
 
 En la siguiente captura de pantalla puedes ver la página de selección de llave de protección para el programa _Digi3D.NET_.
 
-![Captura del programa Selecciona llave de protección](../../.gitbook/assets/selecciona-llave.png)
+![Captura del programa Selecciona llave de protección](../../images/selecciona-llave.png)

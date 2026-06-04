@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que hayan sido registrados con un tiempo GPS determinado.
 
-![Cuadro de diálogo Borrar según tiempo GPS](../../../.gitbook/assets/image-147.png)
+![Cuadro de diálogo Borrar según tiempo GPS](../../../images/image-147.png)
 
 Los parámetros que precisa son los siguientes:
 

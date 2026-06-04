@@ -2,7 +2,7 @@
 
 [Cuadro de diálogo Curvado](./)
 
-![cuadro de diálogo de códigos de curvado](../../../.gitbook/assets/image-47.png)
+![cuadro de diálogo de códigos de curvado](../../../images/image-47.png)
 
 En este cuadro de diálogo se pueden indicar los códigos de las diferentes entidades que conformarán el curvado. Aquí aparecen los siguientes campos a rellenar:
 

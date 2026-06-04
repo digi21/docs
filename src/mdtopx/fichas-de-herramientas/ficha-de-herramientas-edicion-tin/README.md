@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas Edición TIN](../../../.gitbook/assets/ficha-de-herramientas-edicion-tin.jpg)
+![cinta de herramientas Edición TIN](../../../images/ficha-de-herramientas-edicion-tin.jpg)
 
 En esta barra de herramientas aparecen comandos asociados con la edición del modelo digital. Por ello, para que están disponibles se deberá tener activo un documento de modelo digital.
 

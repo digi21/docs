@@ -4,7 +4,7 @@
 
 A través de esta herramienta, se pueden descargar datos ráster a partir de servidores de libre distribución de datos geoespaciales. Esta operación se realiza a través de comunicación WMS, es decir, mediante consultas al servidor que deberá tener Web Map Services. Existen múltiples servidores pertenecientes a diversos organismos cartográficos que publican sus datos para que puedan ser descargados por los usuarios. De esta forma, conociendo la dirección de estos servidores, el usuario podrá configurar desde dónde descargar datos para la zona correspondiente al documento actual. Estos datos ayudarán en los trabajos a realizar de modelado de la superficie o de clasificación de una zona LiDAR, etc.
 
-![Cuadro de diálogo Conectar a servidor WMS](../../.gitbook/assets/image-15.png)
+![Cuadro de diálogo Conectar a servidor WMS](../../images/image-15.png)
 
 Los parámetros que requiere son los siguientes:
 

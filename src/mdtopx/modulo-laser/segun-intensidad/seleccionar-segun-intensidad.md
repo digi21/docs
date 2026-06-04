@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que hayan sido registrados mediante una determinada intensidad y guardarlos en un nuevo documento.
 
-![Cuadro de diálogo Seleccionar según intensidad](../../../.gitbook/assets/image-145.png)
+![Cuadro de diálogo Seleccionar según intensidad](../../../images/image-145.png)
 
 Los parámetros que precisa son los siguientes:
 

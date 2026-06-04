@@ -1,6 +1,6 @@
 # Deshacer
 
-![Barra de herramientas Deshacer](../../../.gitbook/assets/deshacer.png)
+![Barra de herramientas Deshacer](../../../images/deshacer.png)
 
 Permite ejecutar órdenes relacionadas con deshacer la última operación.
 

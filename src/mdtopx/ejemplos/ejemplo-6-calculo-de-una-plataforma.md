@@ -19,14 +19,14 @@ Obtener el modelo digital de una plataforma proyectada sobre el modelo digital d
 * Indicar un desmonte 1-2 y terraplén 1-2. Incluir en ambos una berma cada 4 metros con un ancho de medio metro.
 * Activar la opción de cubicación.
 
-![cuadro de diálogo Plataformas](../../.gitbook/assets/image-180.png)
+![cuadro de diálogo Plataformas](../../images/image-180.png)
 
 ## Ficheros resultantes
 
 * Plataforma de Terreno original.mdt: Fichero con formato propio de MDTop con el modelo digital del terreno con la plataforma proyectada. No incluido para ahorrar espacio.
 
-![plataforma de terreno original](../../.gitbook/assets/image-181.png)
+![plataforma de terreno original](../../images/image-181.png)
 
 * Cubicacion de Plataforma de Terreno original.mdt: Fichero con formato propio de MDTop con la cubicación resultado de comparar el MDT original y el proyectado. No incluido para ahorrar espacio.
 
-![cubicación de plataforma de terreno original](../../.gitbook/assets/image-182.png)
+![cubicación de plataforma de terreno original](../../images/image-182.png)

@@ -4,7 +4,7 @@
 
 La interfaz de usuario de MDTopX se ha rediseñado significativamente. El botón de MDTopX  remplaza el menú Archivo y está situado en la esquina superior izquierda de la interfaz.
 
-Al hacer clic en el botón de MDTopX ![botón de MDTopX](../../.gitbook/assets/boton-mdtopx.jpg), verá los mismos comandos básicos disponibles en versiones anteriores de MDTop para abrir, guardar e imprimir el archivo.
+Al hacer clic en el botón de MDTopX ![botón de MDTopX](../../images/boton-mdtopx.jpg), verá los mismos comandos básicos disponibles en versiones anteriores de MDTop para abrir, guardar e imprimir el archivo.
 
 * [**Nuevo**](../operaciones-con-archivos/archivo-nuevo.md): Genera un nuevo archivo.
 * [**Abrir**](../operaciones-con-archivos/abrir-archivo.md): Abre un documento existente.

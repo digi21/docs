@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si los puntos son disjuntos.
 
-![Dos puntos disjuntos](../../../../../../../../.gitbook/assets/puntopuntonocoincidentes.png)
+![Dos puntos disjuntos](../../../../../../../../images/puntopuntonocoincidentes.png)
 
 ```csharp
 public static bool Disjoint(ReadOnlyPoint a, ReadOnlyPoint b)

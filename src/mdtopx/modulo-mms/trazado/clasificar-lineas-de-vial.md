@@ -9,7 +9,7 @@ El resultado de esta herramienta será:
 * Clasificación del documento original de los puntos pertenecientes al asfalto, a las marcas viales y a bordillos.
 * Generación de un nuevo documento de geometría vectorial con los límites del asfalto, que representará la plataforma, y de las marcas viales horizontales.
 
-![Cuadro de diálogo para clasificar asfalto y marcas viales](../../../.gitbook/assets/image-18.png)
+![Cuadro de diálogo para clasificar asfalto y marcas viales](../../../images/image-18.png)
 
 El cuadro de diálogo necesita los siguientes datos:
 

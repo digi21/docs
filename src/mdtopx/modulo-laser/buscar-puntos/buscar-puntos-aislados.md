@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR que se encuentren aislados, no encontrándose ningún punto cerca de su entorno, normalmente porque estos puntos tienen un valor de cota erróneo.
 
-![Cuadro de diálogo Buscar puntos aislados](../../../.gitbook/assets/image-161.png)
+![Cuadro de diálogo Buscar puntos aislados](../../../images/image-161.png)
 
 Los parámetros que precisa son los siguientes:
 

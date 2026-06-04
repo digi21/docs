@@ -4,7 +4,7 @@
 
 Herramienta destinada a la generación de un documento ráster georreferenciado donde los píxeles representen alguno de los parámetros de cada punto LiDAR.
 
-![Cuadro de diálogo Generar imagen](../../../.gitbook/assets/image-156.png)
+![Cuadro de diálogo Generar imagen](../../../images/image-156.png)
 
 Se muestra un cuadro de diálogo que tiene los siguientes campos:
 

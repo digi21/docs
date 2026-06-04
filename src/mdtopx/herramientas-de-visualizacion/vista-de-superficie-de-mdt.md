@@ -2,7 +2,7 @@
 
 [Herramientas MDT Vista de MDT](../fichas-de-herramientas/ficha-de-herramientas-mdt/vista-de-mdt.md)
 
-![menú con opciones para visualización de superficies](../../.gitbook/assets/menu-superficie.jpg)
+![menú con opciones para visualización de superficies](../../images/menu-superficie.jpg)
 
 El usuario puede elegir entre varias opciones para visualizar el modelo digital del terreno. Para estar activas, el documento actual deberá ser un modelo digital o tener modelos digitales como archivos de referencia. Las opciones disponibles son las siguientes:
 

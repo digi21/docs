@@ -2,7 +2,7 @@
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
 
-![Cuadro de diálogo Borrar fuera o dentro de límites](../../.gitbook/assets/image-80.png)
+![Cuadro de diálogo Borrar fuera o dentro de límites](../../images/image-80.png)
 
 Esta herramienta permitirá borrar entidades dentro o fuera de límites. Estos límites podrán estar definidos por líneas de ruptura que forman parte del [modelo digital](../como/como-triangulacion.md) o almacenados en líneas cerradas en archivos de dibujo (formato DIGI, AutoCad o MicroStation). Esta utilidad servirá para borrar información donde no se desean realizar cálculos, por ejemplo, [curvados](../como/como-curvado.md) o proyección de [perfiles](../como/como-perfiles.md). Cuando se ejecute, la aplicación mostrará un cuadro de diálogo, donde se presentan los siguientes campos a rellenar:
 

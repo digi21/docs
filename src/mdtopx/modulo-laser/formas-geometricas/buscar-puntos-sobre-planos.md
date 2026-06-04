@@ -4,7 +4,7 @@
 
 Con esta herramienta se pueden clasificar puntos que forman superficies planas.
 
-![Cuadro de diálogo Puntos sobre planos](../../../.gitbook/assets/image-177.png)
+![Cuadro de diálogo Puntos sobre planos](../../../images/image-177.png)
 
 Los campos necesarios son los siguientes:
 

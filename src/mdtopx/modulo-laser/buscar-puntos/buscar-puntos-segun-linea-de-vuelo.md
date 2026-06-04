@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR en función de las propiedades geométricas que un punto tiene con los puntos registrados antes o después en el vuelo. Para clasificar, la herramienta precisa de unas diferencias de altitud que se deberán indicar de mayor a menor según los campos que a continuación se explican.
 
-![Cuadro de diálogo Buscar puntos según línea de vuelo](../../../.gitbook/assets/image-165.png)
+![Cuadro de diálogo Buscar puntos según línea de vuelo](../../../images/image-165.png)
 
 Los parámetros que precisa son los siguientes:
 

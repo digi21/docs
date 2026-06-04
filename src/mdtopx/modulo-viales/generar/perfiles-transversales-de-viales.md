@@ -2,7 +2,7 @@
 
 [Módulo Viales](/mdtopx/modulo-viales/)
 
-![Cuadro de diálogo Transversales de vial](../../../.gitbook/assets/image-99.png)
+![Cuadro de diálogo Transversales de vial](../../../images/image-99.png)
 
 Desde esta herramienta, el usuario puede calcular los perfiles transversales correspondientes a un vial y generar un nuevo documento de dibujo, con la configuración de los datos que se muestran a continuación:
 

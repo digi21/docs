@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si dos áreas son iguales.
 
-![Área igual a área](../../../../../../../../../.gitbook/assets/areaidenticaarea.png)
+![Área igual a área](../../../../../../../../../images/areaidenticaarea.png)
 
 ## Sobrecargas
 

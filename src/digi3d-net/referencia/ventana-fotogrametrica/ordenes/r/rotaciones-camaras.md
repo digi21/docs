@@ -1,6 +1,6 @@
 # ROTACIONES\_CÁMARAS
 
-![Cuadro de diálogo de rotaciones de cámaras](../../../../../.gitbook/assets/rotacionescamaras.png)
+![Cuadro de diálogo de rotaciones de cámaras](../../../../../images/rotacionescamaras.png)
 
 Permite cambiar la rotación visualización de las imágenes en la ventana fotogramétrica.
 

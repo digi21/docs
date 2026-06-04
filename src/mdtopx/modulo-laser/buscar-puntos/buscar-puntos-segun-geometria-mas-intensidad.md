@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR en función de las propiedades geométricas que un punto tiene con su entorno más el valor de la intensidad que tenga asignado. De esta forma, se puede particularizar sobre ciertos objetos que han tenido una determinada respuesta al láser.
 
-![Cuadro de diálogo Buscar puntos por geometría e intensidad](../../../.gitbook/assets/image-167.png)
+![Cuadro de diálogo Buscar puntos por geometría e intensidad](../../../images/image-167.png)
 
 Los parámetros que precisa son los siguientes:
 

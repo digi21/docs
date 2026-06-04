@@ -5,9 +5,9 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si la primera área está en el interior de la segunda área.
 
-![Área dentro de área](../../../../../../../../../.gitbook/assets/areaincluyearea2.png)
+![Área dentro de área](../../../../../../../../../images/areaincluyearea2.png)
 
-![Área dentro de área](../../../../../../../../../.gitbook/assets/areaincluyearea3.png)
+![Área dentro de área](../../../../../../../../../images/areaincluyearea3.png)
 
 ## Sobrecargas
 

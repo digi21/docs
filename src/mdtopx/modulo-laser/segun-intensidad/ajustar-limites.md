@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a ajustar los valores de intensidad almacenados en los puntos.
 
-![Cuadro de diálogo Ajustar intensidad](../../../.gitbook/assets/image-146.png)
+![Cuadro de diálogo Ajustar intensidad](../../../images/image-146.png)
 
 Los parámetros que precisa son los siguientes:
 

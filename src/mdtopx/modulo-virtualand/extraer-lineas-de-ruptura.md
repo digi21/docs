@@ -2,7 +2,7 @@
 
 [VirtuaLand General](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-general.md)
 
-![Cuadro de diálogo Líneas de ruptura](../../.gitbook/assets/image-110.png)
+![Cuadro de diálogo Líneas de ruptura](../../images/image-110.png)
 
 Esta herramienta está destinada a la generación automática de las líneas de ruptura que definen un conjunto de puntos. Para ello es necesario que el modelo digital está suavizado. Calculando las tendencias del terreno es posible calcular dónde se encuentran las vaguadas y divisorias así como ciertos puntos de interés geomorfológico. Al llamar a la herramienta se muestra un cuadro de diálogo donde aparecen los siguientes campos:
 

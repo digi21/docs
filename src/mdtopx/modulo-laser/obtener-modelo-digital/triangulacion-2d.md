@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la generación de un modelo digital del terreno de tipo TIN utilizando el algoritmo de la triangulación de Delaunay. Esta herramienta no admite la inclusión de líneas de ruptura por lo que su utilización se restringe a la triangulación de archivos de puntos láser.
 
-![Cuadro de diálogo Triangulación 2D](../../../.gitbook/assets/image-119.png)
+![Cuadro de diálogo Triangulación 2D](../../../images/image-119.png)
 
 Los parámetros que precisa son los siguientes:
 

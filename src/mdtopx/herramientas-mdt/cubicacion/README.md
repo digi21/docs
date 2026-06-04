@@ -2,7 +2,7 @@
 
 [Cubicación](/mdtopx/desde-linea-de-comando/linea-de-comando-cubicacion.md)
 
-![Cuadro de diálogo Cubicación](../../../.gitbook/assets/image-56.png)
+![Cuadro de diálogo Cubicación](../../../images/image-56.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

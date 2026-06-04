@@ -4,7 +4,7 @@
 
 Herramienta destinada al relleno de huecos interiores de la rejilla, por medio de la interpolación con los puntos vecinos. Es útil cuando la rejilla se ha generado a partir de la interpolación de datos irregulares y en algún lugar no se ha mantenido la densidad general, generándose huecos no deseados.
 
-![Cuadro de diálogo Rellenar huecos](../../.gitbook/assets/image-114.png)
+![Cuadro de diálogo Rellenar huecos](../../images/image-114.png)
 
 El cuadro de diálogo presenta dos campos:
 

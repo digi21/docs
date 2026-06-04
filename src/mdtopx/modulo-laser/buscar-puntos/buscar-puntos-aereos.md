@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR que tienen una cota mucho más elevada que los puntos de su entorno, normalmente porque el valor de esta cota es erróneo.
 
-![Cuadro de diálogo Buscar puntos aéreos](../../../.gitbook/assets/image-162.png)
+![Cuadro de diálogo Buscar puntos aéreos](../../../images/image-162.png)
 
 Los parámetros que precisa son los siguientes:
 

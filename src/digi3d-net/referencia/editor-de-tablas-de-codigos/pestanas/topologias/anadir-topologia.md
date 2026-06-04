@@ -1,6 +1,6 @@
 # Añadir topología
 
-![Cuadro de diálogo Añadir Topología](../../../../../.gitbook/assets/cuadrodialogoanadirtopologia.png)
+![Cuadro de diálogo Añadir Topología](../../../../../images/cuadrodialogoanadirtopologia.png)
 
 Permite configurar una nueva topología a añadir al listado de topologías de la tabla de códigos.
 

@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si el punto y la línea son coincidentes.
 
-![Punto coincidente con l&#xED;nea](../../../../../../../../../.gitbook/assets/puntolineacoincidentes.png)
+![Punto coincidente con l&#xED;nea](../../../../../../../../../images/puntolineacoincidentes.png)
 
 ```csharp
 public static bool Coincident(ReadOnlyPoint point, ReadOnlyLine line)

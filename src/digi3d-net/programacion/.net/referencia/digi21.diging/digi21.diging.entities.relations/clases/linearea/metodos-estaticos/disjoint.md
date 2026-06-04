@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si la línea es disjunta al área.
 
-![Línea disjunta a área](../../../../../../../../../.gitbook/assets/lineaareanocoincidentes1.png)
+![Línea disjunta a área](../../../../../../../../../images/lineaareanocoincidentes1.png)
 
 ### Sobrecargas
 

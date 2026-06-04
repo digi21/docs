@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si la línea es adyacente al área.
 
-![L&#xED;nea adyacente a &#xE1;rea](../../../../../../../../.gitbook/assets/lineaadyacentearea.png)
+![L&#xED;nea adyacente a &#xE1;rea](../../../../../../../../images/lineaadyacentearea.png)
 
 ## Sobrecargas
 

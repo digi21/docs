@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de líneas eléctricas y las torres que las soportan.
 
-![Cuadro de diálogo Líneas eléctricas](../../../.gitbook/assets/image-159.png)
+![Cuadro de diálogo Líneas eléctricas](../../../images/image-159.png)
 
 Los parámetros que precisa son los siguientes:
 

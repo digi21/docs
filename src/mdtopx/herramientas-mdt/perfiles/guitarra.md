@@ -2,7 +2,7 @@
 
 [Cuadro de diálogo Perfiles](./)
 
-![Cuadro de diálogo Configuración de la guitarra](../../../.gitbook/assets/image-49.png)
+![Cuadro de diálogo Configuración de la guitarra](../../../images/image-49.png)
 
 Desde este cuadro de diálogo se puede configurar el aspecto de la caja que contiene el perfil longitudinal, así como la información adicional que en él aparecerá.
 

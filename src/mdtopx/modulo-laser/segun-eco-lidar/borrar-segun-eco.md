@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que tengan un determinado eco LiDAR.
 
-![Cuadro de diálogo Borrar según eco](../../../.gitbook/assets/image-135.png)
+![Cuadro de diálogo Borrar según eco](../../../images/image-135.png)
 
 Los parámetros que precisa son los siguientes:
 

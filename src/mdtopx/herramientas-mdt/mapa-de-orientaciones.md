@@ -2,7 +2,7 @@
 
 [Mapa de orientaciones](/mdtopx/como/como-mapa-de-orientaciones.md)
 
-![Cuadro de diálogo Orientaciones](../../.gitbook/assets/image-68.png)
+![Cuadro de diálogo Orientaciones](../../images/image-68.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

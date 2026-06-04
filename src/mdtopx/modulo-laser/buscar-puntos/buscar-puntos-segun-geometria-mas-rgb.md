@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR en función de las propiedades geométricas que un punto tiene con su entorno más el valor del color que tenga asignado. De esta forma, se puede particularizar sobre ciertos objetos que han tenido una determinada respuesta radiométrica. No todos los archivos LiDAR tienen color registrado en sus puntos. Si no fuera así, se podría asignar en un proceso posterior. Consulte la herramienta [Asignar color RGB a puntos](/mdtopx/modulo-laser/editar/asignar-color-rgb-a-puntos.md) para más información de cómo añadir RGB al archivo.
 
-![Cuadro de diálogo Buscar puntos por geometría y RGB](../../../.gitbook/assets/image-166.png)
+![Cuadro de diálogo Buscar puntos por geometría y RGB](../../../images/image-166.png)
 
 Los parámetros que precisa son los siguientes:
 

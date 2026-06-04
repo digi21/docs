@@ -15,7 +15,7 @@ Un mes antes de la fecha de expiración de tu soporte técnico, te mostraremos u
 
 A continuación, te mostramos cómo comunica _Digi3D.NET_ al usuario que su subscripción de soporte técnico y actualizaciones está a punto de expirar:
 
-![Cuadro de diálogo mostrando que el soporte técnico está a punto de expirar](../.gitbook/assets/soporte-técnico-a-punto-de-expirar.png)
+![Cuadro de diálogo mostrando que el soporte técnico está a punto de expirar](../images/soporte-técnico-a-punto-de-expirar.png)
 
 
 

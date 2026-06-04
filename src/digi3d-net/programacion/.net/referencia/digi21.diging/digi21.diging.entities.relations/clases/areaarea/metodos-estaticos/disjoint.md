@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si dos áreas son disjuntas.
 
-![Área disjunta área](../../../../../../../../../.gitbook/assets/areadisjuntaarea.png)
+![Área disjunta área](../../../../../../../../../images/areadisjuntaarea.png)
 
 ## Sobrecargas
 

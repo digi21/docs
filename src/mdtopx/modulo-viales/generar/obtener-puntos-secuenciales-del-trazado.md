@@ -6,7 +6,7 @@ Con esta herramienta, el programa permite la posibilidad de extraer puntos secue
 
 Cuando se ejecuta esta herramienta, el programa precisará que se seleccione un trazado de los existentes, hecho lo cual se mostrará un cuadro de diálogo con las propiedades del trazado seleccionado.
 
-![Cuadro de diálogo Obtener puntos secuenciales del trazado](../../../.gitbook/assets/image-103.png)
+![Cuadro de diálogo Obtener puntos secuenciales del trazado](../../../images/image-103.png)
 
 En el cuadro de diálogo se muestran los siguientes campos:
 

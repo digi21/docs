@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que hayan sido registrados mediante un determinado tiempo GPS y guardarlos en un nuevo documento.
 
-![Cuadro de diálogo Seleccionar según GPS](../../../.gitbook/assets/image-148.png)
+![Cuadro de diálogo Seleccionar según GPS](../../../images/image-148.png)
 
 Los parámetros que precisa son los siguientes:
 

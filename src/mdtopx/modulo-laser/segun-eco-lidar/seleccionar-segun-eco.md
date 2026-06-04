@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que tengan un determinado eco LiDAR y guardarlos en un nuevo documento.
 
-![Cuadro de diálogo Seleccionar según eco](../../../.gitbook/assets/image-134.png)
+![Cuadro de diálogo Seleccionar según eco](../../../images/image-134.png)
 
 Los parámetros que precisa son los siguientes:
 

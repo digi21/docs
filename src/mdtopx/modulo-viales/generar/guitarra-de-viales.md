@@ -4,7 +4,7 @@
 
 Desde este cuadro de diálogo se puede configurar el aspecto de la caja que contiene el perfil longitudinal, así como la información adicional que en él aparecerá.
 
-![Cuadro de diálogo guitarra de longitudinal de vial](../../../.gitbook/assets/image-98.png)
+![Cuadro de diálogo guitarra de longitudinal de vial](../../../images/image-98.png)
 
 En la parte superior del cuadro de diálogo se deberán seleccionar los elementos que va a incluir la parte inferior de la caja o guitarra. Estos campos serán rellenados automáticamente por el programa a partir de los perfiles calculados. Dichos campos son:
 
@@ -16,11 +16,11 @@ En la parte superior del cuadro de diálogo se deberán seleccionar los elemento
 
      Por ejemplo, para un elemento circular se mostrará el siguiente gráfico:
 
-![curva circular en guitarra](../../../.gitbook/assets/curva-circular-en-guitarra.jpg)
+![curva circular en guitarra](../../../images/curva-circular-en-guitarra.jpg)
 
  Para un elemento con clotoide, se mostrará el siguiente gráfico:
 
-![curva con clotoide en guitarra](../../../.gitbook/assets/curva-con-clotoide-en-guitarra.jpg)
+![curva con clotoide en guitarra](../../../images/curva-con-clotoide-en-guitarra.jpg)
 
  Estos gráficos mostrarán el sentido de la curva, en función de la posición en la que se dibuje (arriba o abajo).
 

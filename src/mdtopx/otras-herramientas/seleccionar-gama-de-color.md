@@ -11,7 +11,7 @@ Esta gama de color es función de la altitud de los elementos. En el cuadro de d
 * **Tabla de intervalos de altura**: Se podrán establecer en esta tabla la relación entre colores y diferentes alturas. Los intervalos podrán ser Añadidos, Eliminados o Editados, para adaptarse al rango de cotas del documento. Aquellas superficies que sean superiores a la cota superior o menores a la cota inferior de esta tabla, no serán coloreadas.
 * **Ajustar a rango de altitudes**: Existe la opción de poder ajustar una tabla de intervalos a unos límites de cota especificados por el usuario, mediante este [cuadro de diálogo](../herramientas-mdt/mapa-de-tintas-hipsometricas/ajustar-a-rango-de-altitudes.md)
 
-![cuadro de diálogo ajustar rango](../../.gitbook/assets/dialogo-ajustar-rango.jpg)
+![cuadro de diálogo ajustar rango](../../images/dialogo-ajustar-rango.jpg)
 
 * [**Curva hipso**](curva-hipsometrica.md): Se podrá mostrar la distribución de superficies del fichero en función de la cota con el objetivo de poder diseñar mejor la gama de color.
 

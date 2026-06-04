@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR en función de las diferencias entre los valores de intensidad que un punto tiene con su entorno.
 
-![Cuadro de diálogo Buscar puntos por diferencia de intensidad](../../../.gitbook/assets/image-164.png)
+![Cuadro de diálogo Buscar puntos por diferencia de intensidad](../../../images/image-164.png)
 
 Los parámetros que precisa son los siguientes:
 

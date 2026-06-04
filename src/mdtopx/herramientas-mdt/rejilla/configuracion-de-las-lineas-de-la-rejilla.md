@@ -2,7 +2,7 @@
 
 [Cuadro de diálogo Rejilla](./)
 
-![Cuadro de diálogo Configuración de la rejilla](../../../.gitbook/assets/image-62.png)
+![Cuadro de diálogo Configuración de la rejilla](../../../images/image-62.png)
 
 En este cuadro de diálogo se podrá configurar la rejilla que el programa va a proyectar sobre el modelo digital. La rejilla podrá estar compuesta por perfiles horizontales y/o verticales. En él aparecen los siguientes campos a rellenar:
 

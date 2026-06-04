@@ -9,4 +9,4 @@ Existen dos soluciones a este problema:
 
 A continuación, te mostramos cómo comunica Digi3D.NET esta eventualidad:
 
-![Cuadro de diálogo indicando que el soporte técnico está expirado](../../.gitbook/assets/digi3dnet-soporte-técnico-expirado.png)
+![Cuadro de diálogo indicando que el soporte técnico está expirado](../../images/digi3dnet-soporte-técnico-expirado.png)

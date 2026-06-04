@@ -4,7 +4,7 @@
 
 Herramienta para generar entidades vectoriales con los huecos encontrados en el registro LiDAR. Es útil para determinar zonas cubiertas por agua, donde el láser no rebota, por ejemplo, estanques, piscinas, etc.
 
-![Cuadro de diálogo Buscar huecos](../../../.gitbook/assets/image-175.png)
+![Cuadro de diálogo Buscar huecos](../../../images/image-175.png)
 
 El cuadro de diálogo tiene los siguientes campos:
 

@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada al filtrado de puntos láser, aligerando el fichero ya que se reducirá la densidad inicial.
 
-![Cuadro de diálogo Filtrar puntos](../../../.gitbook/assets/image-123.png)
+![Cuadro de diálogo Filtrar puntos](../../../images/image-123.png)
 
 Los parámetros que precisa son los siguientes:
 

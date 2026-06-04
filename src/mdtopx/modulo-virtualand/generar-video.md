@@ -2,7 +2,7 @@
 
 [VirtuaLand Generar Video](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-generar-video.md)
 
-![Cuadro de diálogo Generar video](../../.gitbook/assets/image-117.png)
+![Cuadro de diálogo Generar video](../../images/image-117.png)
 
 Esta herramienta está destinada a la generación de un video en formato AVI con el movimiento alrededor de un modelo digital o archivo. Al llamarla se muestra un cuadro de diálogo donde aparecen los siguientes campos:
 

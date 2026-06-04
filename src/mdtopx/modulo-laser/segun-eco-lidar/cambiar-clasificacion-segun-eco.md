@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para cambiar la clasificación de puntos LiDAR en función del eco que tienen.
 
-![Cuadro de diálogo Cambiar clasificación según eco](../../../.gitbook/assets/image-132.png)
+![Cuadro de diálogo Cambiar clasificación según eco](../../../images/image-132.png)
 
 Los parámetros que precisa son los siguientes:
 

@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que hayan sido registrados con una intensidad determinada.
 
-![Cuadro de diálogo Borrar según intensidad](../../../.gitbook/assets/image-144.png)
+![Cuadro de diálogo Borrar según intensidad](../../../images/image-144.png)
 
 Los parámetros que precisa son los siguientes:
 

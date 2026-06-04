@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para cambiar la tipología de puntos LiDAR en función del color registrado en cada punto.
 
-![Cuadro de diálogo Cambar según color](../../../.gitbook/assets/image-140.png)
+![Cuadro de diálogo Cambar según color](../../../images/image-140.png)
 
 Los parámetros que precisa son los siguientes:
 

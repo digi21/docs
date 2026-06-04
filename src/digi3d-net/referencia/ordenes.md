@@ -10,7 +10,7 @@ La mayoría de las órdenes tienen asignada una opción que las ejecuta en el me
 
 Para ejecutar una orden desde la línea de comandos, tan solo tendremos que pulsar **Enter** y el programa nos mostrará en la barra de mensajes una ventana para introducir el nombre de la orden a ejecutar.
 
-![Barra de mensajes de Digi3D.NET solicitando introducir una orden](../../.gitbook/assets/barramensajessolicitandoorden.png)
+![Barra de mensajes de Digi3D.NET solicitando introducir una orden](../../images/barramensajessolicitandoorden.png)
 
 Introduciremos el nombre de la orden y pulsaremos **Enter** para que esta se ejecute:
 

@@ -4,7 +4,7 @@
 
 Esta herramienta sirve para extraer la posición de los puntos de estación desde donde se ha registrado una nube de puntos, en un registro en estático.
 
-![Cuadro de diálogo Obtener estaciones](../../../.gitbook/assets/image-153.png)
+![Cuadro de diálogo Obtener estaciones](../../../images/image-153.png)
 
 Las posibilidades son las siguientes:
 

@@ -4,7 +4,7 @@
 
 Este cuadro de diálogo muestra información acerca de un trazado, como son sus características generales y las coordenadas de los puntos que definen su geometría.
 
-![Cuadro de diálogo Información del trazado](../../../.gitbook/assets/image-105.png)
+![Cuadro de diálogo Información del trazado](../../../images/image-105.png)
 
 Las características generales del trazados son:
 

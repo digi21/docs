@@ -2,7 +2,7 @@
 
 [Orientación](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/orientacion.md)
 
-![Cuadro de diálogo Editar orientación de imágenes desde fichero](../../.gitbook/assets/image-13.png)
+![Cuadro de diálogo Editar orientación de imágenes desde fichero](../../images/image-13.png)
 
 Desde esta herramienta se puede editar la orientación de las imágenes contenidas en un [proyecto](/digi3d-net/referencia/linea-de-comandos/proyecto.md). Los parámetros necesarios son los siguientes:
 

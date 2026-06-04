@@ -11,9 +11,9 @@ Para ello, el programa muestra un cuadro de diálogo, donde se solicitan los sig
 * **Generalización superficial**: Se activará esta opción si se desean filtrar aquellas entidades cerradas que no superan una determinada superficie límite.
 * **Borrar picos**: Se podrá activar esta opción para eliminar picos en las entidades lineales, que son tramos que se generan en una línea como consecuencia del desvío de uno de sus puntos. Su aspecto es el de un triángulo con un ángulo muy agudo.
 
-![Curvas de nivel antes de generalizar](../../../.gitbook/assets/ejemplo-generalizacion-curvas-5.jpg)
+![Curvas de nivel antes de generalizar](../../../images/ejemplo-generalizacion-curvas-5.jpg)
 
-![Generalización después](../../../.gitbook/assets/ejemplo-generalizacion-curvas-6.jpg)
+![Generalización después](../../../images/ejemplo-generalizacion-curvas-6.jpg)
 
 * **3 dimensiones**: Si se activa esta opción también se tendrá en cuenta la altimetría de los puntos, de tal forma que no se generalizará un punto que en planimetría no es significativa si su cota sí lo es.
 * **Entidades procedentes de datos LiDAR**: Se activará esta opción si el fichero procede de un cálculo a partir de datos LiDAR, como la extracción de límites. En este caso, se podrán hacer otras consideraciones diferentes. Para ello, se necesitan los siguientes parámetros:
@@ -24,13 +24,13 @@ Para ello, el programa muestra un cuadro de diálogo, donde se solicitan los sig
   * _Edificaciones_: Entidades que representan los límites de edificaciones. Al ser construcciones artificiales suelen tener relaciones de alineación, perpendicularidad o paralelismo que se buscarán entre los diferentes tramos de la línea.
   * Tratar las entidades como _curvas de nivel_: Si se activa esta opción el programa tratará las entidades como curvas de nivel, procediendo a nuevas algoritmos para la unión de superficies cercanas o la generación de superficies nuevas cuando existe un estrangulamiento de la entidad original. Este tratamiento puede ser dado a cualquier conjunto de entidades que representen a superficies.
 
-![Curvas de nivel antes de generalizar](../../../.gitbook/assets/ejemplo-generalizacion-curvas-1.jpg)
+![Curvas de nivel antes de generalizar](../../../images/ejemplo-generalizacion-curvas-1.jpg)
 
-![Curva de nivel subdividida después de generalizar](../../../.gitbook/assets/ejemplo-generalizacion-curvas-2.jpg)
+![Curva de nivel subdividida después de generalizar](../../../images/ejemplo-generalizacion-curvas-2.jpg)
 
-![Curvas de nivel antes de generalizar](../../../.gitbook/assets/ejemplo-generalizacion-curvas-3.jpg)
+![Curvas de nivel antes de generalizar](../../../images/ejemplo-generalizacion-curvas-3.jpg)
 
-![Curvas de nivel unidas después de generalizar](../../../.gitbook/assets/ejemplo-generalizacion-curvas-4.jpg)
+![Curvas de nivel unidas después de generalizar](../../../images/ejemplo-generalizacion-curvas-4.jpg)
 
 * **Algoritmo**: Se dan diferentes opciones de algoritmos de generalización:
   * _Douglas-Peucker_: Es el algoritmo más utilizado por las aplicaciones que generalizan entidades vectoriales. Además, el programa da la opción de poder comprobar el ángulo para no eliminar algunos puntos significativos.

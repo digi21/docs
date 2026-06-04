@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
 
-![Punto coincidente con extremo de l&#xED;nea](../../../../../../../../.gitbook/assets/puntolineacoincidentesextremo.png)
+![Punto coincidente con extremo de l&#xED;nea](../../../../../../../../images/puntolineacoincidentesextremo.png)
 
 ```csharp
 public static bool CoincidentAndTerminate(ReadOnlyPoint point, ReadOnlyLine line)

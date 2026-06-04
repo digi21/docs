@@ -4,7 +4,7 @@
 
 Esta herramienta muestra información del documento de viales actual. Además de la información sobre los elementos que contiene, permite configurar el aspecto de los perfiles longitudinales mostrados en la vista de alzados.
 
-![Cuadro de diálogo Información de viales](../../../.gitbook/assets/image-87.png)
+![Cuadro de diálogo Información de viales](../../../images/image-87.png)
 
 La información mostrada es la siguiente:
 

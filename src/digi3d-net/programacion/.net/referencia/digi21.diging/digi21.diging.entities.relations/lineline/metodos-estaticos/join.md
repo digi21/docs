@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si las dos [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) se unen.
 
-![L&#xED;nea se une con l&#xED;nea](../../../../../../../../.gitbook/assets/lineaunelinea.png)
+![L&#xED;nea se une con l&#xED;nea](../../../../../../../../images/lineaunelinea.png)
 
 ```csharp
 public static bool Join(ReadOnlyLine a, ReadOnlyLine b)

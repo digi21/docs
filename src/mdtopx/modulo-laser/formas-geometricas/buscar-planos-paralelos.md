@@ -2,4 +2,4 @@
 
 [Buscar formas geométricas](./)
 
-![Cuadro de diálogo Buscar planos paralelos](../../../.gitbook/assets/image-179.png)
+![Cuadro de diálogo Buscar planos paralelos](../../../images/image-179.png)

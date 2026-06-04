@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para seleccionar del fichero aquellos puntos que tengan una determinada clasificación LiDAR y guardarlos en un nuevo documento.
 
-![Cuadro de diálogo Seleccionar según clasificación](../../../.gitbook/assets/image-131.png)
+![Cuadro de diálogo Seleccionar según clasificación](../../../images/image-131.png)
 
 Los parámetros que precisa son los siguientes:
 

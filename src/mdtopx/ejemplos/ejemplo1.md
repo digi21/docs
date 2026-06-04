@@ -17,18 +17,18 @@ Obtener el curvado de una zona a partir de un taquimétrico.
 * En pantalla se podrá ver una nube de puntos con dos textos indicando el número y la cota.
 * Llamar a la orden [Triangulación](../como/como-triangulacion.md) de la ficha de herramientas [Herramientas MDT](/mdtopx/herramientas-mdt/), que generará un modelo digital del terreno con los datos tomados en el taquimétrico. El fichero sólo está compuesto por puntos, por lo que no tendrá líneas de ruptura. Se genera un modelo digital compuesto por multitud de triángulos visibles en pantalla.
 
-![cuadro de diálogo Triangulación](../../.gitbook/assets/pantalla1-ejemplo1.jpg)
+![cuadro de diálogo Triangulación](../../images/pantalla1-ejemplo1.jpg)
 
 * Con este archivo activo, llamar a la orden [Curvado](../como/como-curvado.md) de la ficha de herramientas [Herramientas MDT](/mdtopx/herramientas-mdt/). En el campo fichero con límite se deberá introducir el nombre del fichero DXF que contenía el límite de la zona a curvar. Se genera un curvado que se podrá salvar posteriormente en el formato deseado.
 
-![cuadro de diálogo Curvado](../../.gitbook/assets/pantalla4-ejemplo1.jpg)
+![cuadro de diálogo Curvado](../../images/pantalla4-ejemplo1.jpg)
 
 ## Ficheros resultantes
 
 * TRIANGULACION DE RADIA: Fichero con el modelo digital del terreno y formato propio de MDTop.
 
-![fichero con triangulación](../../.gitbook/assets/pantalla3-ejemplo1.jpg)
+![fichero con triangulación](../../images/pantalla3-ejemplo1.jpg)
 
 * CURVADO DE TRIANGULACION DE RADIA: Fichero con formato dibujo con las curvas de nivel. Este archivo podrá ser salvado para su edición en formato BIN de DIGI, DXF de AutoCad o DGN de MicroStation.
 
-![fichero con curvado](../../.gitbook/assets/pantalla5-ejemplo1.jpg)
+![fichero con curvado](../../images/pantalla5-ejemplo1.jpg)

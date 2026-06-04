@@ -1,6 +1,6 @@
 # Atributos Activos
 
-<figure><img src="../../../.gitbook/assets/PanelAtributosActivos.png" alt=""><figcaption><p>Panel Atributos Activos con algunos atributos</p></figcaption></figure>
+<figure><img src="../../../images/PanelAtributosActivos.png" alt=""><figcaption><p>Panel Atributos Activos con algunos atributos</p></figcaption></figure>
 
 Este panel permite añadir atributos a asignar a la geometría.
 

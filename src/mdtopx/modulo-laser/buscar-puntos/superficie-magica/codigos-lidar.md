@@ -4,7 +4,7 @@
 
 Desde este cuadro de diálogo se podrán cambiar los valores de clasificación que se le asignan a algunos puntos que no son clasificados con las categorías principales.
 
-![Cuadro de diálogo Códigos LiDAR](../../../../.gitbook/assets/image-172.png)
+![Cuadro de diálogo Códigos LiDAR](../../../../images/image-172.png)
 
 Estos valores son los siguientes:
 

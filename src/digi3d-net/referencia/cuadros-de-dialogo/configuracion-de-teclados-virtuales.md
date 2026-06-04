@@ -1,6 +1,6 @@
 # Configuración de teclados virtuales
 
-![Cuadro de dialogo Configuración de teclados virtuales](../../../.gitbook/assets/configuraciontecladosvirtuales.png)
+![Cuadro de dialogo Configuración de teclados virtuales](../../../images/configuraciontecladosvirtuales.png)
 
 Este cuadro de diálogo te permite indicar la ubicación de los archivos de configuración de teclas.
 

@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR de forma automática. El funcionamiento interno está basado en la combinación de diversos algoritmos y herramientas disponibles en el programa de forma inteligente, evitando al usuario la decisión de qué algoritmos y con qué parámetros se debe procesar en cada momento, en función del tipo de archivo y tipo de zona.
 
-![Cuadro de diálogo Superficie mágica](../../../../.gitbook/assets/image-171.png)
+![Cuadro de diálogo Superficie mágica](../../../../images/image-171.png)
 
 Los parámetros que precisa son los siguientes:
 

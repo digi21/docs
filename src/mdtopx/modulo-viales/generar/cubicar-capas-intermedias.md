@@ -2,7 +2,7 @@
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)
 
-![Cuadro de diálogo cubicar capas intermedias](../../../.gitbook/assets/image-104.png)
+![Cuadro de diálogo cubicar capas intermedias](../../../images/image-104.png)
 
 Desde esta herramienta, el usuario puede calcular el volumen de las capas intermedias definidas en las secciones tipo aplicadas en un determinado vial. La cubicación se hace mediante perfiles transversales. Al seleccionar la herramienta se muestra un cuadro de diálogo con los siguientes campos:
 

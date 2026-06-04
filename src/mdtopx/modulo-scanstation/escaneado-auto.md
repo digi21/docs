@@ -4,7 +4,7 @@
 
 Mediante esta herramienta se puede establecer comunicación con el escáner para realizar registros y comparaciones con un registro modelo según una frecuencia indicada por el usuario.
 
-![Cuadro de diálogo Auscultación 3D](../../.gitbook/assets/image-37.png)
+![Cuadro de diálogo Auscultación 3D](../../images/image-37.png)
 
 Los parámetros necesarios son los siguientes:
 

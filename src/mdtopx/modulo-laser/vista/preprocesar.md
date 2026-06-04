@@ -4,7 +4,7 @@
 
 Herramienta destinada a procesar un archivo LiDAR, sin necesidad de ser abierto o visualizado. Ofrece la posibilidad de cambiar coordenadas o subdividir el archivo en trozos. Esta última opción es muy útil para tratar archivos de grandes dimensiones.
 
-![Cuadro de diálogo Preprocesamiento de datos LiDAR](../../../.gitbook/assets/image-12.png)
+![Cuadro de diálogo Preprocesamiento de datos LiDAR](../../../images/image-12.png)
 
 Los parámetros que precisa son los siguientes:
 

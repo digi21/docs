@@ -16,11 +16,11 @@ Si proyecto está formado por varias pasadas formando un bloque mediremos al men
 
 Veamos la ubicación aproximada que suelen tener los puntos en una foto si decidimos medir tres puntos por foto:
 
-![Imagen mostrando la ubicación de los puntos para un esquema de aerotriangulación de tres puntos](../../../../../../.gitbook/assets/esquema-aero-manual-tres-puntos.png)
+![Imagen mostrando la ubicación de los puntos para un esquema de aerotriangulación de tres puntos](../../../../../../images/esquema-aero-manual-tres-puntos.png)
 
 y la ubicación aproximada que suelen tener los puntos en una foto si decidimos medir cinco puntos por foto:
 
-![magen mostrando la ubicación de los puntos para un esquema de aerotriangulación de cinco puntos](../../../../../../.gitbook/assets/esquema-aero-manual-cinco-puntos.png)
+![magen mostrando la ubicación de los puntos para un esquema de aerotriangulación de cinco puntos](../../../../../../images/esquema-aero-manual-cinco-puntos.png)
 
 Los puntos se miden en todos los modelos en los que entran, de modo que si el punto _1070_ solapa tanto con el modelos _107-108_ como con el modelo _108-109_, tendremos que medirlo en ambos modelos.
 

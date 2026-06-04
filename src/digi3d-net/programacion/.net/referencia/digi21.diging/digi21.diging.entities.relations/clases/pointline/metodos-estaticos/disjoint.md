@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si el punto y la línea son disjuntos.
 
-![Punto y l&#xED;nea disjuntos](../../../../../../../../../.gitbook/assets/puntolineanocoincidentes.png)
+![Punto y l&#xED;nea disjuntos](../../../../../../../../../images/puntolineanocoincidentes.png)
 
 ```csharp
 public static bool Disjoint(ReadOnlyPoint point, ReadOnlyLine line)

@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que tengan una determinada clasificación LiDAR.
 
-![Cuadro de diálogo Borrar según clasificación](../../../.gitbook/assets/image-130.png)
+![Cuadro de diálogo Borrar según clasificación](../../../images/image-130.png)
 
 Los parámetros que precisa son los siguientes:
 

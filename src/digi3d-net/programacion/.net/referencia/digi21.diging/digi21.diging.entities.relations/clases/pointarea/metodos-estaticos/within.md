@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si el punto está en el interior del área.
 
-![Punto en el interior del &#xE1;rea](../../../../../../../../../.gitbook/assets/puntointeriorarea.png)
+![Punto en el interior del &#xE1;rea](../../../../../../../../../images/puntointeriorarea.png)
 
 ## Sobrecargas
 

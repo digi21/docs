@@ -4,7 +4,7 @@
 
 Mediante esta herramienta es posible calcular los vectores que definen la pendiente de un modelo digital del terreno. Estos vectores son registrados en un archivo de dibujo mediante una flecha indicativa de la dirección y la magnitud de la pendiente, más un texto con el valor de la pendiente en porcentaje.
 
-![Cuadro de diálogo Vectores de pendiente](../../.gitbook/assets/image-69.png)
+![Cuadro de diálogo Vectores de pendiente](../../images/image-69.png)
 
 Al ejecutar el comando, aparece un cuadro de diálogo con los siguientes campos:
 

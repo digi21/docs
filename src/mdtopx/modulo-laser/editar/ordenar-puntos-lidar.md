@@ -4,7 +4,7 @@
 
 Herramienta útil para ordenar los puntos LiDAR según alguna de sus características, siendo la más normal, el tiempo GPS de registro. Si no tuvieran tiempo GPS, se podrían ordenar por su coordenada X o Y. Básicamente, cada conjunto de puntos representa una pasada realizada por el sensor, en el caso aéreo. En el caso terrestre, provendría de diferentes estacionamientos o diferentes sensores equipados en un sistema MMS.
 
-![Cuadro de diálogo Ordenar puntos LiDAR](../../../.gitbook/assets/image-128.png)
+![Cuadro de diálogo Ordenar puntos LiDAR](../../../images/image-128.png)
 
 Los parámetros que precisa son los siguientes:
 

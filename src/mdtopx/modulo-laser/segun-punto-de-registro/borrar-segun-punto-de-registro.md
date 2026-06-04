@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada para borrar del fichero aquellos puntos que hayan sido registrados desde algún punto determinado.
 
-![Cuadro de diálogo según punto de registro](../../../.gitbook/assets/image-137.png)
+![Cuadro de diálogo según punto de registro](../../../images/image-137.png)
 
 Los parámetros que precisa son los siguientes:
 

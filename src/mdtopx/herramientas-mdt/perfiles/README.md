@@ -2,7 +2,7 @@
 
 [Perfiles](/mdtopx/desde-linea-de-comando/linea-de-comando-perfiles.md)
 
-![Cuadro de diálogo Perfiles](../../../.gitbook/assets/image-48.png)
+![Cuadro de diálogo Perfiles](../../../images/image-48.png)
 
 En este cuadro de diálogo aparecen los siguientes campos a rellenar:
 

@@ -1,6 +1,6 @@
 # Generador de Niveles Piramidales
 
-![Generador de niveles piramidales](../../.gitbook/assets/generadordenivelespiramidales.png)
+![Generador de niveles piramidales](../../images/generadordenivelespiramidales.png)
 
 Este programa transforma imágenes TIFF en batería para hacerlas compatibles con Digi3D.NET y crea niveles piramidales.
 

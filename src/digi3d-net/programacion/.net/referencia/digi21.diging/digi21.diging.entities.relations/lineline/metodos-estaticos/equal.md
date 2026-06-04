@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si las dos [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) son iguales.
 
-![L&#xED;nea igual a l&#xED;nea](../../../../../../../../.gitbook/assets/linealineaiguales.png)
+![L&#xED;nea igual a l&#xED;nea](../../../../../../../../images/linealineaiguales.png)
 
 ```csharp
 public static bool Equal(ReadOnlyLine a, ReadOnlyLine b)

@@ -1,6 +1,6 @@
 # Coordenada Z
 
-![Barra de herramientas Coordenada Z](../../../.gitbook/assets/coordenadaz.png)
+![Barra de herramientas Coordenada Z](../../../images/coordenadaz.png)
 
 Permite ejecutar órdenes relacionadas con la coordenada Z.
 

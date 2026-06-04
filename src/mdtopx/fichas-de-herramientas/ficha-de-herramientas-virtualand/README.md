@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas VirtuaLand](../../../.gitbook/assets/ficha-de-herramientas-virtualand.jpg)
+![cinta de herramientas VirtuaLand](../../../images/ficha-de-herramientas-virtualand.jpg)
 
 En esta ficha de herramientas aparecen los comandos relacionados con los documentos de modelos digitales de tipo rejilla del [módulo VirtuaLand](../../modulo-virtualand/).
 

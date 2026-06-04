@@ -4,7 +4,7 @@
 
 Esta herramienta está destinada al promedio de puntos láser procedentes de diferentes puntos de toma y que coincidan espacialmente.
 
-![Cuadro de diálogo Promediar pasadas](../../../.gitbook/assets/image-124.png)
+![Cuadro de diálogo Promediar pasadas](../../../images/image-124.png)
 
 Los parámetros que precisa son los siguientes:
 

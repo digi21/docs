@@ -2,7 +2,7 @@
 
 [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md)
 
-![Cuadro de diálogo Buscar geometría](../../../.gitbook/assets/image-29.png)
+![Cuadro de diálogo Buscar geometría](../../../images/image-29.png)
 
 Mediante esta herramienta el programa es capaz de calcular los elementos que definen una secuencia de puntos, diferenciando entre elementos rectilíneos y curvos. A través de diversos ajustes se sitúan las tangentes de entrada y salida de los elementos curvos, definiendo su radio de curvatura.
 

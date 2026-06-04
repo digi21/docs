@@ -2,7 +2,7 @@
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 
-![cinta de herramientas Imagen](../../../.gitbook/assets/ficha-de-herramientas-imagen.jpg)
+![cinta de herramientas Imagen](../../../images/ficha-de-herramientas-imagen.jpg)
 
 En esta ficha de herramientas aparecen los comandos relacionados con los documentos ráster de imagen: BMP, TIFF, JPEG o ECW.
 

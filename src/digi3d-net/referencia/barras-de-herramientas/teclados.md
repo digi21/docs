@@ -1,6 +1,6 @@
 # Teclados
 
-![Barra de herramientas Teclados](../../../.gitbook/assets/barraherramientasteclas.png)
+![Barra de herramientas Teclados](../../../images/barraherramientasteclas.png)
 
 Esta barra de herramientas permite realizar acciones relacionadas con [archivos de configuración de teclas](/digi3d-net/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/archivos-configuracion-teclas.md).
 

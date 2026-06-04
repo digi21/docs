@@ -8,11 +8,11 @@ Para ello se debe seleccionar la opción Insertar curva de la [Ficha de herramie
 
 Una vez aceptado el lugar para encajar el elemento curvo, el programa muestra un cuadro de diálogo donde se muestran las coordenadas del vértice, del punto anterior y del punto posterior. Asimismo, muestra los acimuts y longitudes de las tangentes, representadas por los segmentos que unen los puntos anterior y posterior al vértice.
 
-![Cuadro de diálogo Insertar elemento curvo](../../../.gitbook/assets/image-106.png)
+![Cuadro de diálogo Insertar elemento curvo](../../../images/image-106.png)
 
 En la parte inferior del cuadro de diálogo se pueden modificar los parámetros que definirán el elemento curvo. Según se vayan introduciendo el programa, automáticamente, irá calculando los puntos de tangencia, cuyas coordenadas se expresan en la parte derecha, y el resto de parámetros. Para que un elemento curvo sea válido, la distancia entre el vértice y los puntos de tangencia deberán ser inferiores a las longitudes de las tangentes mostradas en la parte superior. Si el elemento no es válido no se mostrarán las coordenadas de los puntos de tangencia y no se activará el botón Aceptar para salir del cuadro de diálogo.
 
-![clotoide](../../../.gitbook/assets/Clotoides.gif)
+![clotoide](../../../images/Clotoides.gif)
 
 Los parámetros que definen el elemento curvo son los siguientes:
 

@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si el punto y el área son coincidentes.
 
-![Punto y &#xE1;rea coincidentes](../../../../../../../../.gitbook/assets/puntoareacoincidentes.png)
+![Punto y &#xE1;rea coincidentes](../../../../../../../../images/puntoareacoincidentes.png)
 
 ## Sobrecargas
 

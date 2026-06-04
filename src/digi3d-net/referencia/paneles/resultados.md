@@ -1,6 +1,6 @@
 # Resultados
 
-![Panel de resultados](../../../.gitbook/assets/panelresultados.png)
+![Panel de resultados](../../../images/panelresultados.png)
 
 Este panel muestra resultados generados por ciertas órdenes como la orden [BININFO](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/bininfo.md).
 

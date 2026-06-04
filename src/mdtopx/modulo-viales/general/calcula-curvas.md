@@ -6,11 +6,11 @@ Con esta herramienta el usuario podrá calcular elementos curvos a partir de dos
 
 La herramienta podrá ser llamada sin tener ningún archivo abierto o desde el [cuadro de diálogo de definición de curvas](../trazado/insertar-elemento-curvo.md).
 
-![Cuadro de diálogo Calcula curvas circulares](../../../.gitbook/assets/image-88.png)
+![Cuadro de diálogo Calcula curvas circulares](../../../images/image-88.png)
 
 Los elementos curvos que se pueden definir son de dos tipos:
 
-![Elementos de una curva circular](../../../.gitbook/assets/Circulo.gif)
+![Elementos de una curva circular](../../../images/Circulo.gif)
 
 * **Circular**: Si se elige este tipo de curva, los parámetros que lo pueden definir son:
   * _Radio_: Valor del radio en metros.
@@ -23,9 +23,9 @@ Los elementos curvos que se pueden definir son de dos tipos:
 
 No todas las combinaciones tienen solución, como por ejemplo si se eligen como parámetros Longitud y Cuerda
 
-![Cuadro de diálogo Calcula curvas espirales](../../../.gitbook/assets/image-89.png)
+![Cuadro de diálogo Calcula curvas espirales](../../../images/image-89.png)
 
-![Elementos de una clotoide](../../../.gitbook/assets/ClotoideYCirculo.gif)
+![Elementos de una clotoide](../../../images/ClotoideYCirculo.gif)
 
 * **Con clotoide**: Si se elige este tipo de curva, los parámetros que lo pueden definir son:
   * _Radio_: Radio del cálculo central, medido en metros.

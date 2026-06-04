@@ -2,7 +2,7 @@
 
 [Vista TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/vista-tin.md)
 
-![Cuadro de diálogo Información adicional de triangulación](../../.gitbook/assets/image-78.png)
+![Cuadro de diálogo Información adicional de triangulación](../../images/image-78.png)
 
 En este cuadro de diálogo se muestran algunas características acerca de la morfología del [modelo digital del terreno](../como/como-triangulacion.md). Estas características son las siguientes:
 
@@ -12,7 +12,7 @@ En este cuadro de diálogo se muestran algunas características acerca de la mor
   * _Pendiente mínima y máxima_: Límites de las pendientes calculadas en grados sexagesimales en todos los triángulos del modelo digital.
   * _Pendiente media_
 
-![Cuadro de diálogo Información adicional de triangulación de cubicación](../../.gitbook/assets/image-79.png)
+![Cuadro de diálogo Información adicional de triangulación de cubicación](../../images/image-79.png)
 
 * **Características de cubicación**: Estas características sólo se mostrarán si el modelo digital es un documento de [cubicación](../como/como-cubicacion.md).
   * _Volumen en desmonte y terraplén_: Volumen en metros cúbicos que está en desmonte o terraplén, obtenido a partir de la suma de los volúmenes calculados en todos los triángulos del modelo. Será desmonte si las cotas de los puntos son negativas o terraplén si son positivas.

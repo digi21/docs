@@ -4,7 +4,7 @@
 
 Herramienta destinada a buscar y clasificar puntos cuya cota es superior a la de su entorno. Si se realizara un MDT incluyendo a estos puntos se producirían picos debido a su diferencia de cota.
 
-![Cuadro de diálogo Borrar picos](../../../.gitbook/assets/image-127.png)
+![Cuadro de diálogo Borrar picos](../../../images/image-127.png)
 
 Los parámetros que precisa son los siguientes:
 

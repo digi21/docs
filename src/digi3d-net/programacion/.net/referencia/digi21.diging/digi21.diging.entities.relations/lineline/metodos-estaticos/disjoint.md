@@ -5,7 +5,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.digi
 
 Indica si las dos [ReadOnlyLine](../../../digi21.diging.entities/readonlyline/)son disjuntas.
 
-![L&#xED;nea disjunta con l&#xED;nea](../../../../../../../../.gitbook/assets/lineanocoincidentelinea.png)
+![L&#xED;nea disjunta con l&#xED;nea](../../../../../../../../images/lineanocoincidentelinea.png)
 
 ```csharp
 public static bool Disjoint(ReadOnlyLine a, ReadOnlyLine b)
