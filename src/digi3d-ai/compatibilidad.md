@@ -2,7 +2,7 @@
 
 ## Sistema operativo
 
-Digi3D.AI está disponible en versiones de 32 y de 64 bits. Es compatible con Windows 7, 8 y 10.
+Digi3D.AI está disponible únicamente en versión de 64 bits y es compatible con Windows 11.
 
 ## Tarjeta gráfica
 
