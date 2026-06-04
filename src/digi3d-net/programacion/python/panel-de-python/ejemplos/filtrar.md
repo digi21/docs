@@ -87,7 +87,7 @@ view.redraw()
   - `es_fina`: encaja con la escala pero **no** es maestra.
   - El truco del `factorEscala` (multiplicar por 10^3 y comparar con una tolerancia `1e-5`) evita los
     errores de redondeo del módulo (`%`) con números decimales. La equidistancia "real" se puede
-    consultar también con [`view.equidistance`](../guiones/drawing-view.md).
+    consultar también con [`view.equidistance`](../../referencia/digi3d/drawing-view.md).
 - **Clasificación por filtros**: a partir de `curvasNivel` se obtienen, encadenando `list(filter(...))`:
   las válidas/no válidas para la escala, las maestras y las finas, y de éstas las que hay que
   recodificar (las que aún no tienen el código correcto).
@@ -100,5 +100,5 @@ view.redraw()
 ## Véase también
 
 - [Eliminar curvas por equidistancia](elimina-curvas-por-equidistancia.md) — versión más sencilla
-- [DrawingView](../guiones/drawing-view.md) — `equidistance`
-- [FeatureCode](../referencia/digi21.base/featurecode.md) · [Line](../referencia/digi21.base/line.md)
+- [DrawingView](../../referencia/digi3d/drawing-view.md) — `equidistance`
+- [FeatureCode](../../referencia/digi21.base/featurecode.md) · [Line](../../referencia/digi21.base/line.md)

@@ -59,19 +59,19 @@ distancia = float(argv[1]) if len(argv) > 1 else 1.0
 
 > Si quieres una orden **interactiva** (que espera pulsaciones del usuario sobre el dibujo),
 > en lugar de un guion lineal crea una clase que herede de
-> [PythonCommand](python-command.md). Tienes ejemplos en
-> [Texto del callejero del Catastro](../ejemplos/dibuja-texto-extraido-callejero-catastro.md)
-> y [de Azure Maps](../ejemplos/dibuja-texto-extraido-servicio-mapas-azure.md).
+> [PythonCommand](../referencia/digi3d/python-command.md). Tienes ejemplos en
+> [Texto del callejero del Catastro](ejemplos/dibuja-texto-extraido-callejero-catastro.md)
+> y [de Azure Maps](ejemplos/dibuja-texto-extraido-servicio-mapas-azure.md).
 
 ## 3. Como control de calidad
 
 Una función de Python puede actuar como **control de calidad** de un código: Digi3D.NET la
 ejecuta sobre las geometrías que tienen ese código para comprobar que cumplen ciertas reglas,
 ya sea bajo demanda o en tiempo real mientras se digitaliza. Se explican en
-[Controles de calidad](controles-de-calidad.md).
+[Controles de calidad](../controles-de-calidad/README.md).
 
 ## Véase también
 
-- [Ejemplos de programación](../ejemplos/README.md) — guiones y órdenes listos para usar.
-- [Controles de calidad](controles-de-calidad.md)
+- [Ejemplos de programación](ejemplos/README.md) — guiones y órdenes listos para usar.
+- [Controles de calidad](../controles-de-calidad/README.md)
 - [El módulo `digi3d`](README.md)

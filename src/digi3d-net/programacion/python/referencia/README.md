@@ -1,7 +1,6 @@
 # Referencia
 
-Descripción formal de la API de Python de Digi3D.NET, organizada por módulos. Para
-aprender con ejemplos, consulta el [Curso](../curso/README.md).
+Descripción formal de la API de Python de Digi3D.NET, organizada por módulos.
 
 ## Módulos
 
@@ -9,6 +8,7 @@ aprender con ejemplos, consulta el [Curso](../curso/README.md).
 |---|---|
 | [digi21.base](digi21.base/README.md) | Tipos del núcleo: códigos, geometrías, tablas de códigos y cámara. |
 | [digi21.io](digi21.io/README.md) | Lectura de archivos de dibujo (un módulo por formato). |
+| [digi3d](digi3d/README.md) | El módulo disponible **dentro de Digi3D.NET**: ventana de dibujo, órdenes, tareas… (reexporta `digi21.base`). |
 
 ## Convención de nombres
 

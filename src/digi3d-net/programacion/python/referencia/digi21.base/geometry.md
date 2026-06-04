@@ -91,4 +91,4 @@ for geometry in drawing:
 ## Véase también
 
 - [Point](point.md), [Text](text.md), [Line](line.md), [Polygon](polygon.md), [Complex](complex.md)
-- [Curso: relaciones entre geometrías](../../curso/relaciones-entre-geometrias.md)
+- [Curso: relaciones entre geometrías](../../aplicaciones-de-consola/ejemplos/relaciones-entre-geometrias.md)

@@ -40,7 +40,7 @@ archivos de dibujo cargados:
 | `recover(geometries)` | Recupera un iterable o una lista de geometrías borradas. |
 
 > En Digi3D.NET **borrar no elimina realmente** la geometría: solo la **marca como borrada** (lo
-> indica la propiedad `deleted` de la [geometría](../referencia/digi21.base/geometry.md)). Por eso se
+> indica la propiedad `deleted` de la [geometría](../digi21.base/geometry.md)). Por eso se
 > puede **recuperar** con `recover`. Pasar una **lista** a `delete`/`recover` es bastante más rápido
 > que llamarlos de una en una.
 
@@ -59,7 +59,7 @@ view.recover(seleccion)
 
 La ventana da acceso a la tabla de códigos (`digi.tab`) del proyecto con la propiedad
 [`digitab`](#propiedades-de-informacion) (la tabla como secuencia de
-[DigiTabNode](../referencia/digi21.base/digitabnode.md)) y con `digi_tab` (un diccionario
+[DigiTabNode](../digi21.base/digitabnode.md)) y con `digi_tab` (un diccionario
 `{código: DigiTabNode}`).
 
 | Método | Devuelve | Descripción |
@@ -126,13 +126,13 @@ z = view.project((430000, 4480000))
 | `cursor_coordinates` | `tuple` | Coordenadas `(x, y, z)` del cursor. |
 | `wkt` | `str` | Cadena WKT del sistema de coordenadas de la ventana. |
 | `epsg_codes` | `tuple` | `(epsg_horizontal, epsg_vertical)`. |
-| `files` | iterable | Archivos de referencia cargados ([DrawingFile](../referencia/digi21.base/drawingfile.md)). |
+| `files` | iterable | Archivos de referencia cargados ([DrawingFile](../digi21.base/drawingfile.md)). |
 | `drawing_file` | `DrawingFile` | Archivo de dibujo activo. |
-| `digitab` | [DigiTab](../referencia/digi21.base/digitab.md) | Tabla de códigos activa del proyecto (secuencia de [DigiTabNode](../referencia/digi21.base/digitabnode.md)); la posición de cada nodo coincide con el `digitab_index` de los códigos de las geometrías. |
+| `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos activa del proyecto (secuencia de [DigiTabNode](../digi21.base/digitabnode.md)); la posición de cada nodo coincide con el `digitab_index` de los códigos de las geometrías. |
 | `digi_tab` | `dict` | Diccionario `{código: DigiTabNode}` de la tabla activa. |
 | `geographic_calculator` | [GeographicCalculator](geographic-calculator.md) | Calculadora geográfica de la ventana. |
 | `topologies` | `dict` | Diccionario `{nombre: [Topology]}` de las topologías cargadas. |
-| `camera` | [Camera](../referencia/digi21.base/camera.md) | Cámara activa (lectura/escritura). |
+| `camera` | [Camera](../digi21.base/camera.md) | Cámara activa (lectura/escritura). |
 | `epsilon` | `float` | Valor de epsilon configurado. |
 
 ## Valores activos de dibujo
@@ -210,4 +210,4 @@ z = view.project((430000, 4480000))
 ## Véase también
 
 - [Funciones del módulo](functions.md) — `current_view`.
-- [Referencia: Geometrías](../referencia/digi21.base/geometry.md)
+- [Referencia: Geometrías](../digi21.base/geometry.md)

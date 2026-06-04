@@ -35,4 +35,4 @@ for geometry in drawing:
 ## Véase también
 
 - [digi21.io](../digi21.io/README.md)
-- [Curso: leer un archivo de dibujo](../../curso/leer-un-archivo-de-dibujo.md)
+- [Curso: leer un archivo de dibujo](../../aplicaciones-de-consola/ejemplos/leer-un-archivo-de-dibujo.md)

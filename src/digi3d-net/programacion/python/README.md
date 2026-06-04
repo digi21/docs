@@ -1,55 +1,48 @@
 # Python
 
-Digi3D.NET incorpora una API de **Python** para trabajar con sus tipos del núcleo
-(códigos, geometrías, tablas de códigos, cámara) y para **leer archivos de dibujo**
-en distintos formatos.
+Digi3D.NET se puede **programar en Python**. Según dónde y cómo se ejecute el código, hay
+**tres formas** de hacerlo, cada una pensada para un propósito distinto:
 
-La API está pensada para escribir guiones de forma cómoda y "pythonica": todos los
-nombres están **en inglés**, las clases en `PascalCase` y los métodos, propiedades y
-argumentos en `snake_case`.
+| Forma | Qué es | ¿Usa el objeto `digi3d`? |
+|---|---|---|
+| [Aplicaciones de consola](aplicaciones-de-consola/README.md) | Programas Python normales (fuera de Digi3D.NET) que leen y procesan archivos de dibujo. | No |
+| [Panel de Python](panel-de-python/README.md) | Guiones que se ejecutan dentro de Digi3D.NET, sobre el dibujo activo. | Sí |
+| [Controles de calidad](controles-de-calidad/README.md) | Funciones que validan las geometrías de un código. | Sí |
 
-> Versión de Python objetivo: **3.12 (x64)**.
+> Versión de Python objetivo: **3.12 (x64)**. Toda la API está **en inglés**: clases en
+> `PascalCase`; métodos, propiedades y argumentos en `snake_case`. Las coordenadas se
+> representan como tuplas `(x, y, z)`.
 
-## Los dos paquetes
+## Aplicaciones de consola
 
-| Paquete | Para qué sirve |
-|---|---|
-| **`digi21.base`** | Tipos del núcleo: códigos, geometrías, tablas de códigos y cámara. No abre archivos. |
-| **`digi21.io.<formato>`** | Lectura de archivos de dibujo. Un módulo por formato (`bindouble`, `bin`, `asciidigi`, `dgn`, `dwg`, `dxf`). |
+Programas de Python **normales**, ejecutados en un intérprete de tu sistema **fuera de
+Digi3D.NET**, que usan los paquetes `digi21.base` y `digi21.io` para **leer y procesar archivos
+de dibujo** (convertir, extraer información, generar informes…). No usan el objeto `digi3d`.
 
-`digi21.io` se apoya en `digi21.base`: al abrir un archivo se obtienen geometrías que
-son instancias de los tipos de `digi21.base`.
+- [Ir a la sección](aplicaciones-de-consola/README.md)
+- [Ejemplos de programación](aplicaciones-de-consola/ejemplos/README.md)
+- [Referencia de la API](referencia/README.md)
 
-## Por dónde empezar
+## Panel de Python
 
-- **[Curso](curso/README.md)** — tutoriales con ejemplos para aprender haciendo: leer un
-  archivo, crear geometrías, consultar relaciones espaciales.
-- **[Referencia](referencia/README.md)** — descripción formal de cada módulo, clase,
-  propiedad y método.
+Guiones que se ejecutan **dentro de Digi3D.NET**, con acceso al **dibujo activo** a través del
+objeto `digi3d`. Se lanzan desde el panel de Guiones Python o como una orden por su nombre.
 
-## Un vistazo rápido
+- [Ir a la sección](panel-de-python/README.md)
+- [Ejemplos de programación](panel-de-python/ejemplos/README.md)
+- [Referencia de la API](referencia/README.md)
 
-```python
-import digi21.io.bindouble as bind
+## Controles de calidad
 
-drawing = bind.open("ciudad.bind")
-for geometry in drawing:
-    print(type(geometry).__name__, len(geometry), "vértices")
-```
+Funciones que **validan las geometrías** de un código (en tiempo real mientras se digitaliza o
+bajo demanda). También usan el objeto `digi3d`.
 
-```python
-from digi21.base import Line, Polygon
+- [Ir a la sección](controles-de-calidad/README.md)
+- [Ejemplos de programación](controles-de-calidad/ejemplos/README.md)
+- [Referencia de la API](referencia/README.md)
 
-linea = Line(["CARR"], [(0, 0, 0), (10, 0, 0), (10, 10, 0)])
-print(linea.perimeter_2d)
+## Referencia
 
-if linea.crosses(otra_linea):
-    print("Las líneas se cruzan")
-```
-
-## Propiedad de la memoria
-
-> Una geometría **creada desde Python** la libera Python. En cuanto se **añade a un
-> contenedor** (como hueco de un `Polygon` o hijo de un `Complex`), la propiedad pasa al
-> contenedor, que será quien la libere. Las geometrías **devueltas al iterar** un archivo
-> son propiedad del archivo: trátalas como de solo lectura durante el recorrido.
+La [Referencia de la API](referencia/README.md) describe formalmente los tres módulos:
+`digi21.base` (tipos del núcleo), `digi21.io` (lectura de archivos) y `digi3d` (el módulo
+disponible dentro del programa).

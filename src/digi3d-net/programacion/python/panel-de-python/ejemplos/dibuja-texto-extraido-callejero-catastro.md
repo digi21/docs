@@ -1,6 +1,6 @@
 # Texto del callejero del Catastro
 
-Archivo: `dibuja_texto_extraido_callejero_catastro.py` · **orden interactiva** ([PythonCommand](../guiones/python-command.md)).
+Archivo: `dibuja_texto_extraido_callejero_catastro.py` · **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)).
 
 Es una orden que se queda **esperando datos del usuario**: cada vez que pulsas el botón de dato
 dentro de un edificio, consulta al servicio web del Catastro de España el nombre/número de calle de
@@ -67,7 +67,7 @@ else:
 
 - **Órdenes interactivas**: a diferencia de los guiones anteriores (que se ejecutan de principio a
   fin), una orden interactiva es una clase que hereda de
-  [`digi3d.PythonCommand`](../guiones/python-command.md) y **reacciona a eventos** del usuario. Aquí
+  [`digi3d.PythonCommand`](../../referencia/digi3d/python-command.md) y **reacciona a eventos** del usuario. Aquí
   implementamos `on_data_down(coordenadas)`, que Digi3D.NET llama en cada pulsación de dato.
   - Devolver `True` le dice a Digi3D.NET que el evento ya se ha procesado.
   - `self.view` es la ventana de dibujo (la proporciona la clase base).
@@ -77,12 +77,12 @@ else:
   estándar, la petición HTTP se hace con `urllib.request.urlopen` y la respuesta JSON se interpreta
   con `json.load`.
 - **Insertar el texto**: `digi3d.Text(texto, coordenadas)` crea un
-  [Text](../referencia/digi21.base/text.md) en esas coordenadas.
+  [Text](../../referencia/digi21.base/text.md) en esas coordenadas.
 - **Arranque**: al final se comprueba el sistema de coordenadas (`v.epsg_codes`) y, si es compatible,
   se lanza la orden con `v.add_command(...)`, que la deja activa esperando datos.
 
 ## Véase también
 
-- [PythonCommand](../guiones/python-command.md) — `on_data_down`, `view`, `new_transaction`
-- [Text](../referencia/digi21.base/text.md)
+- [PythonCommand](../../referencia/digi3d/python-command.md) — `on_data_down`, `view`, `new_transaction`
+- [Text](../../referencia/digi21.base/text.md)
 - [Texto del callejero de Azure Maps](dibuja-texto-extraido-servicio-mapas-azure.md) — variante con rotación

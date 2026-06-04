@@ -6,7 +6,7 @@ y órdenes de ejemplo que se explican en esta sección, listos para descargar y 
 
 Puedes ejecutarlos de dos maneras:
 
-- Desde el [panel de Guiones Python](../guiones/README.md), pegando o abriendo el guion.
+- Desde el [panel de Guiones Python](../README.md), pegando o abriendo el guion.
 - Instalándolos como **órdenes**: copia el `.py` en tu carpeta de macroinstrucciones o pégalo en la
   pestaña de macroinstrucciones de la tabla de códigos. A partir de ahí Digi3D.NET reconoce el nombre
   del archivo (en mayúsculas) como una orden más. Las órdenes que reciben parámetros se invocan con
@@ -40,5 +40,5 @@ dificultad.
 
 ## Véase también
 
-- [Guiones en el panel de Digi3D.NET](../guiones/README.md)
-- [Referencia de la API de Python](../referencia/README.md)
+- [Guiones en el panel de Digi3D.NET](../README.md)
+- [Referencia de la API de Python](../../referencia/README.md)

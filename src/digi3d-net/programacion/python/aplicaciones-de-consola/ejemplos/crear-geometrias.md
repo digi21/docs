@@ -1,7 +1,7 @@
 # Crear geometrías
 
 Las geometrías están en el paquete `digi21.base`. Todas se construyen indicando sus
-[códigos](../referencia/digi21.base/featurecode.md) (como objetos `FeatureCode` o como
+[códigos](../../referencia/digi21.base/featurecode.md) (como objetos `FeatureCode` o como
 simples cadenas) y sus coordenadas.
 
 ```python
@@ -69,5 +69,5 @@ linea.transform(lambda p: (p[0] * 2, p[1] * 2, p[2]))  # escala XY x2
 
 ## Véase también
 
-- [Referencia: Geometrías](../referencia/digi21.base/geometry.md)
+- [Referencia: Geometrías](../../referencia/digi21.base/geometry.md)
 - [Relaciones entre geometrías](relaciones-entre-geometrias.md)

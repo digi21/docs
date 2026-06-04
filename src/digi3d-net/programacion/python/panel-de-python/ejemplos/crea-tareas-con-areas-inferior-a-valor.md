@@ -1,10 +1,10 @@
 # Crear tareas con áreas pequeñas
 
-Archivo: `crea_tareas_con_areas_inferior_a_valor.py` · guion para el [panel de Guiones Python](../guiones/README.md).
+Archivo: `crea_tareas_con_areas_inferior_a_valor.py` · guion para el [panel de Guiones Python](../README.md).
 Hay un [vídeo](https://youtu.be/JwA4ymWz1zo) que lo explica.
 
 Recorre el dibujo buscando líneas cerradas y polígonos con un **área menor de 100** y, por cada uno,
-crea una [tarea](../guiones/tasks.md) que, al hacer doble clic, lleva la vista a esa geometría. Es
+crea una [tarea](../../referencia/digi3d/tasks.md) que, al hacer doble clic, lleva la vista a esa geometría. Es
 una forma de revisar posibles errores (recintos minúsculos).
 
 ## El código
@@ -36,15 +36,15 @@ for g in v:
 ## Cómo funciona
 
 - Se recorre `v` (todas las geometrías) y se **descartan** con `continue` las que no interesan:
-  - Las que no son [Line](../referencia/digi21.base/line.md) ni
-    [Polygon](../referencia/digi21.base/polygon.md).
+  - Las que no son [Line](../../referencia/digi21.base/line.md) ni
+    [Polygon](../../referencia/digi21.base/polygon.md).
   - Las líneas que no están cerradas en planta (`not g.closed_2d`): una línea abierta no encierra
     área.
   - Las que tienen área igual o mayor que 100 (`abs(g.area) >= 100`). Usamos `abs` porque el área
     puede salir negativa según el sentido de digitalización.
 - Para las que pasan el filtro, se calcula el **centro** a partir de la caja envolvente
   (`g.min`, `g.max`) y se crea una tarea
-  [`TaskGotoCoordinates`](../guiones/tasks.md)`(coordenadas, título, descripción)`. El título es el
+  [`TaskGotoCoordinates`](../../referencia/digi3d/tasks.md)`(coordenadas, título, descripción)`. El título es el
   área con 3 decimales (`f'{abs(g.area):.3f}'`).
 - `digi3d.add_task(tarea)` la añade al panel de tareas. Al hacer doble clic en ella, la ventana se
   desplaza a esas coordenadas.
@@ -54,6 +54,6 @@ for g in v:
 
 ## Véase también
 
-- [Tareas](../guiones/tasks.md) — `TaskGotoCoordinates`
-- [Funciones del módulo](../guiones/functions.md) — `add_task`
-- [Line](../referencia/digi21.base/line.md) · [Polygon](../referencia/digi21.base/polygon.md)
+- [Tareas](../../referencia/digi3d/tasks.md) — `TaskGotoCoordinates`
+- [Funciones del módulo](../../referencia/digi3d/functions.md) — `add_task`
+- [Line](../../referencia/digi21.base/line.md) · [Polygon](../../referencia/digi21.base/polygon.md)

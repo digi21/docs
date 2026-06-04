@@ -45,4 +45,4 @@ for geometry in dwg.open("parcela.dwg"):
 ## Véase también
 
 - [DrawingFile](../digi21.base/drawingfile.md)
-- [Curso: leer un archivo de dibujo](../../curso/leer-un-archivo-de-dibujo.md)
+- [Curso: leer un archivo de dibujo](../../aplicaciones-de-consola/ejemplos/leer-un-archivo-de-dibujo.md)

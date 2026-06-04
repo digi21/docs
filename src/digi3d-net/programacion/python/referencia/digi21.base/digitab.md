@@ -35,7 +35,7 @@ for node in digitab:
 ## Véase también
 
 - [DigiTabNode](digitabnode.md)
-- [DrawingView](../../guiones/drawing-view.md) — la propiedad `digitab` da la tabla de códigos
+- [DrawingView](../digi3d/drawing-view.md) — la propiedad `digitab` da la tabla de códigos
   activa del proyecto, y `find_codes` busca códigos por concepto.
-- [Curso: leer un archivo de dibujo](../../curso/leer-un-archivo-de-dibujo.md) — usar una
+- [Curso: leer un archivo de dibujo](../../aplicaciones-de-consola/ejemplos/leer-un-archivo-de-dibujo.md) — usar una
   tabla al abrir un archivo.

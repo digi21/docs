@@ -2,7 +2,7 @@
 
 El paquete `digi21.io` permite leer archivos de dibujo de Digi3D.NET. Hay un módulo por
 formato, todos con la misma interfaz: una función `open` que devuelve un objeto
-[`DrawingFile`](../referencia/digi21.base/drawingfile.md) iterable.
+[`DrawingFile`](../../referencia/digi21.base/drawingfile.md) iterable.
 
 | Módulo | Formato |
 |---|---|
@@ -53,7 +53,7 @@ for geometry in dxf.open("planta.dxf"):
 
 ## Usar una tabla de códigos
 
-Si se pasa una [`DigiTab`](../referencia/digi21.base/digitab.md), los códigos de las
+Si se pasa una [`DigiTab`](../../referencia/digi21.base/digitab.md), los códigos de las
 geometrías leídas se resuelven contra ella (descripción, visibilidad, etc.):
 
 ```python
@@ -70,6 +70,6 @@ for geometry in drawing:
 
 ## Véase también
 
-- [Referencia: digi21.io](../referencia/digi21.io/README.md)
-- [Referencia: DrawingFile](../referencia/digi21.base/drawingfile.md)
+- [Referencia: digi21.io](../../referencia/digi21.io/README.md)
+- [Referencia: DrawingFile](../../referencia/digi21.base/drawingfile.md)
 - [Crear geometrías](crear-geometrias.md)

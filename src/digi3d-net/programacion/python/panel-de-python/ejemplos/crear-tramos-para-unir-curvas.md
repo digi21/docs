@@ -1,6 +1,6 @@
 # Unir curvas de nivel cercanas
 
-Archivo: `crear_tramos_para_unir_curvas.py` · guion para el [panel de Guiones Python](../guiones/README.md).
+Archivo: `crear_tramos_para_unir_curvas.py` · guion para el [panel de Guiones Python](../README.md).
 Hay un [vídeo](https://youtu.be/9NV45QXFFvg) que lo explica.
 
 Busca pares de curvas de nivel del mismo código y la misma cota cuyos extremos estén a menos de
@@ -65,7 +65,7 @@ else:
 
 ## Cómo funciona
 
-- `view.geographic_calculator` es la [calculadora geográfica](../guiones/geographic-calculator.md):
+- `view.geographic_calculator` es la [calculadora geográfica](../../referencia/digi3d/geographic-calculator.md):
   calcula distancias reales (sobre el sistema de coordenadas), no euclídeas en bruto.
 - Se seleccionan las curvas del código `'020123'` con `list(filter(...))`.
 - **Acceso a los vértices**: `curva[0]` es el primer vértice y `curva[len(curva) - 1]` el último;
@@ -77,13 +77,13 @@ else:
     `calculate_distance_2d`). Devuelve las dos coordenadas a unir, o `None`.
 - **Doble bucle** `i` / `j` (con `j` empezando en `i + 1`) para comparar cada curva con las demás sin
   repetir pares.
-- Por cada par válido se crea una [Line](../referencia/digi21.base/line.md) con dos vértices
+- Por cada par válido se crea una [Line](../../referencia/digi21.base/line.md) con dos vértices
   (`digi3d.Line(curva_a.codes, par_coordenadas)`) y se acumula.
 - Al final se añaden todas (`view.add`), se redibuja y se avisa al usuario con un globo
-  ([`show_ballon`](../guiones/functions.md)) y un sonido ([`music`](../guiones/functions.md)).
+  ([`show_ballon`](../../referencia/digi3d/functions.md)) y un sonido ([`music`](../../referencia/digi3d/functions.md)).
 
 ## Véase también
 
-- [GeographicCalculator](../guiones/geographic-calculator.md) — `calculate_distance_2d`
-- [Line](../referencia/digi21.base/line.md)
-- [Funciones del módulo](../guiones/functions.md) — `show_ballon`, `music`
+- [GeographicCalculator](../../referencia/digi3d/geographic-calculator.md) — `calculate_distance_2d`
+- [Line](../../referencia/digi21.base/line.md)
+- [Funciones del módulo](../../referencia/digi3d/functions.md) — `show_ballon`, `music`

@@ -76,4 +76,4 @@ def control(geometry):
 
 ## Véase también
 
-- [Referencia: Geometrías](../referencia/digi21.base/geometry.md)
+- [Referencia: Geometrías](../digi21.base/geometry.md)

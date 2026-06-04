@@ -1,6 +1,6 @@
 # Relaciones entre geometrías
 
-Toda [geometría](../referencia/digi21.base/geometry.md) dispone de métodos para consultar
+Toda [geometría](../../referencia/digi21.base/geometry.md) dispone de métodos para consultar
 su relación espacial con otra, al estilo de bibliotecas como Shapely:
 
 ```python
@@ -17,7 +17,7 @@ if punto.within(parcela):
 
 > Si una relación no está definida para la combinación de tipos dada, se lanza un
 > `TypeError`. Consulta la tabla completa en
-> [Referencia: Geometry](../referencia/digi21.base/geometry.md#relaciones-espaciales).
+> [Referencia: Geometry](../../referencia/digi21.base/geometry.md#relaciones-espaciales).
 
 ## Ejemplos
 
@@ -54,5 +54,5 @@ if vertices:
 
 ## Véase también
 
-- [Referencia: Geometry](../referencia/digi21.base/geometry.md) — la lista completa de
+- [Referencia: Geometry](../../referencia/digi21.base/geometry.md) — la lista completa de
   relaciones y sus combinaciones de tipos.

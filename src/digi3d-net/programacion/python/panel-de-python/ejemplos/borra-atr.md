@@ -1,6 +1,6 @@
 # Borrar el enlace a base de datos
 
-Archivo: `borra_atr.py` · guion para el [panel de Guiones Python](../guiones/README.md).
+Archivo: `borra_atr.py` · guion para el [panel de Guiones Python](../README.md).
 
 Recorre todas las geometrías y las sustituye por clones cuyos códigos son **nuevos, sin enlace a la
 base de datos** (sin tabla, ni registro, ni atributos). Útil para "limpiar" un archivo de su
@@ -38,7 +38,7 @@ view.redraw()
   lectura).
 - **La clave está en cómo se recrean los códigos**: por cada código de la geometría tomamos solo su
   **cadena** (`codigo.code`) y construimos un código nuevo con
-  [`digi3d.FeatureCode(codigo.code)`](../referencia/digi21.base/featurecode.md).
+  [`digi3d.FeatureCode(codigo.code)`](../../referencia/digi21.base/featurecode.md).
   - El constructor `FeatureCode(code)` recibe la **cadena** del código y crea un código "limpio", sin
     tabla, ni identificador, ni atributos de base de datos. Eso es justo lo que queremos.
   - Si en cambio quisiéramos conservar la tabla y el registro, copiaríamos esas propiedades
@@ -50,5 +50,5 @@ view.redraw()
 
 ## Véase también
 
-- [FeatureCode](../referencia/digi21.base/featurecode.md) — `code`, `table`, `id`, `attributes`
-- [Geometry](../referencia/digi21.base/geometry.md) — `clone`, `codes`
+- [FeatureCode](../../referencia/digi21.base/featurecode.md) — `code`, `table`, `id`, `attributes`
+- [Geometry](../../referencia/digi21.base/geometry.md) — `clone`, `codes`

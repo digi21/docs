@@ -1,6 +1,6 @@
 # Texto del callejero de Azure Maps
 
-Archivo: `dibuja_texto_extraido_servicio_mapas_azure.py` · **orden interactiva** ([PythonCommand](../guiones/python-command.md)).
+Archivo: `dibuja_texto_extraido_servicio_mapas_azure.py` · **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)).
 
 Variante del [ejemplo del Catastro](dibuja-texto-extraido-callejero-catastro.md) que usa el servicio
 **Azure Maps** y, además, inserta el texto **rotado**: se pulsa dos veces, la primera fija el punto
@@ -60,7 +60,7 @@ digi3d.current_view().add_command(orden)
   la siguiente pulsación lo fija (y consulta la calle); cuando ya tiene valor, la siguiente pulsación
   calcula la rotación e inserta el texto. Así una orden interactiva puede pedir **varios datos**.
 - **Coordenadas geográficas**: el servicio de Azure trabaja en longitud/latitud, así que convertimos
-  con [`self.view.to_geo(coordenadas)`](../guiones/drawing-view.md), que devuelve `(longitud, latitud)`.
+  con [`self.view.to_geo(coordenadas)`](../../referencia/digi3d/drawing-view.md), que devuelve `(longitud, latitud)`.
 - **Rotación a partir de dos puntos**:
   `self.view.geographic_calculator.calculate_trigonometric_angle(origen, destino)` da el ángulo entre
   ambos, que pasamos al texto.
@@ -72,6 +72,6 @@ digi3d.current_view().add_command(orden)
 ## Véase también
 
 - [Texto del callejero del Catastro](dibuja-texto-extraido-callejero-catastro.md)
-- [PythonCommand](../guiones/python-command.md) · [Text](../referencia/digi21.base/text.md)
-- [GeographicCalculator](../guiones/geographic-calculator.md) — `calculate_trigonometric_angle`
-- [DrawingView](../guiones/drawing-view.md) — `to_geo`
+- [PythonCommand](../../referencia/digi3d/python-command.md) · [Text](../../referencia/digi21.base/text.md)
+- [GeographicCalculator](../../referencia/digi3d/geographic-calculator.md) — `calculate_trigonometric_angle`
+- [DrawingView](../../referencia/digi3d/drawing-view.md) — `to_geo`

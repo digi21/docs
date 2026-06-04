@@ -11,7 +11,7 @@ Hay un repositorio con muchos controles listos para usar:
 
 - **Bajo demanda**: con **Control de calidad → Analizar control de calidad**, se ejecutan los
   controles habilitados de cada código de cada geometría del dibujo. Los errores encontrados
-  se muestran en el [panel de tareas](tasks.md).
+  se muestran en el [panel de tareas](../referencia/digi3d/tasks.md).
 - **En tiempo real**: si está activado **Control de calidad en tiempo real**, cada vez que se
   digitaliza (dibuja) una geometría, **antes de almacenarla** se comprueban sus controles y,
   si no los cumple, se avisa al usuario con cuadros de diálogo.
@@ -49,7 +49,7 @@ sustituta), mientras que bajo demanda conviene devolver **todos** los errores lo
 ## Cómo comunica el resultado
 
 - Si la geometría **cumple** la regla, la función sale con un simple `return` (sin valor).
-- Si **no** la cumple, devuelve uno de los tipos de [error o advertencia](exceptions.md):
+- Si **no** la cumple, devuelve uno de los tipos de [error o advertencia](../referencia/digi3d/exceptions.md):
   `GeometryError`, `GeometryRelationError`, `GeometryWarning` o `DatabaseFieldError`. Para
   comunicar varios problemas a la vez, devuelve una **lista** de ellos.
 
@@ -82,6 +82,8 @@ su superficie llega a un mínimo (p. ej. 100 m²).
 
 ## Véase también
 
-- [Excepciones](exceptions.md) — los tipos de error y advertencia que devuelve un control.
-- [Cómo ejecutar guiones](ejecutar-guiones.md)
+- [Ejemplos de controles de calidad](ejemplos/README.md) — colección lista para usar.
+- [Excepciones](../referencia/digi3d/exceptions.md) — los tipos de error y advertencia que devuelve un control.
+- [Referencia: módulo `digi3d`](../referencia/digi3d/README.md) — el objeto que usan los controles.
+- [Cómo ejecutar guiones](../panel-de-python/ejecutar-guiones.md)
 - Repositorio de controles: [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D)

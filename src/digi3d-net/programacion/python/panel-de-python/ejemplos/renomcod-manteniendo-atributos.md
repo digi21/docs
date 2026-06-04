@@ -78,5 +78,5 @@ view.redraw()
 
 ## Véase también
 
-- [FeatureCode](../referencia/digi21.base/featurecode.md) — `code`, `table`, `id`
+- [FeatureCode](../../referencia/digi21.base/featurecode.md) — `code`, `table`, `id`
 - [Borrar el enlace a base de datos](borra-atr.md) — el caso opuesto

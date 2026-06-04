@@ -70,5 +70,5 @@ view.redraw()
 
 ## Véase también
 
-- [DrawingView](../guiones/drawing-view.md) — `delete`
+- [DrawingView](../../referencia/digi3d/drawing-view.md) — `delete`
 - [Filtrar curvas (finas y maestras)](filtrar.md) — un ejemplo más completo con la misma matemática

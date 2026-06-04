@@ -53,9 +53,9 @@ view.redraw()
   excepción para abortar.
 - `TieneAlgunCódigo` construye el conjunto de códigos de la geometría
   (`{ cod.code for cod in entidad.codes }`) y comprueba si interseca con los códigos buscados.
-  `cod.code` es la cadena del [código](../referencia/digi21.base/featurecode.md).
+  `cod.code` es la cadena del [código](../../referencia/digi21.base/featurecode.md).
 - **Las geometrías no se modifican; se clonan**: las geometrías cargadas son de solo lectura. Para
-  "cambiar" una curva se crea una **nueva** [Line](../referencia/digi21.base/line.md) con las
+  "cambiar" una curva se crea una **nueva** [Line](../../referencia/digi21.base/line.md) con las
   coordenadas modificadas y se borra la original.
   - `for coordenada in curva` recorre los vértices; cada `coordenada` es una tupla `(x, y, z)`.
     Construimos vértices nuevos con la Z redondeada (`round(coordenada[2])`).
@@ -65,5 +65,5 @@ view.redraw()
 
 ## Véase también
 
-- [Line](../referencia/digi21.base/line.md) · [FeatureCode](../referencia/digi21.base/featurecode.md)
-- [Funciones del módulo](../guiones/functions.md) — `music`
+- [Line](../../referencia/digi21.base/line.md) · [FeatureCode](../../referencia/digi21.base/featurecode.md)
+- [Funciones del módulo](../../referencia/digi3d/functions.md) — `music`

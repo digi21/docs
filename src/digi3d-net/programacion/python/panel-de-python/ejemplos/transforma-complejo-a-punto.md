@@ -1,6 +1,6 @@
 # Transformar complejos en puntos
 
-Archivo: `transforma_complejo_a_punto.py` · guion para el [panel de Guiones Python](../guiones/README.md).
+Archivo: `transforma_complejo_a_punto.py` · guion para el [panel de Guiones Python](../README.md).
 
 Convierte las geometrías de tipo **Complejo** que tengan ciertos códigos en geometrías de tipo
 **Punto**, situadas en el centro del complejo. Se desarrolló para arreglar archivos DGN que se
@@ -33,12 +33,12 @@ vista.redraw()
 
 ## Cómo funciona
 
-- `digi3d.current_view()` devuelve la [ventana de dibujo](../guiones/drawing-view.md) activa, el
+- `digi3d.current_view()` devuelve la [ventana de dibujo](../../referencia/digi3d/drawing-view.md) activa, el
   objeto sobre el que trabajamos.
 - **Selección con `filter`**: recorremos `vista` (todas las geometrías cargadas) y nos quedamos con
   las que cumplen tres condiciones: que no estén borradas (`not g.deleted`), que sean complejos
   (`type(g) is digi3d.Complex`) y que su primer código coincida (`g.codes[0].code == codigo`).
-  - `g.codes` es la lista de [códigos](../referencia/digi21.base/featurecode.md) de la geometría;
+  - `g.codes` es la lista de [códigos](../../referencia/digi21.base/featurecode.md) de la geometría;
     `.code` es la cadena del código.
   - Envolvemos el `filter` en `list(...)` **a propósito**: vamos a añadir y borrar geometrías dentro
     del bucle, y no se debe modificar la vista mientras se la está recorriendo de forma perezosa.
@@ -52,5 +52,5 @@ vista.redraw()
 
 ## Véase también
 
-- [Point](../referencia/digi21.base/point.md) · [Complex](../referencia/digi21.base/complex.md)
-- [DrawingView](../guiones/drawing-view.md) — `add`, `delete`, `redraw`
+- [Point](../../referencia/digi21.base/point.md) · [Complex](../../referencia/digi21.base/complex.md)
+- [DrawingView](../../referencia/digi3d/drawing-view.md) — `add`, `delete`, `redraw`
