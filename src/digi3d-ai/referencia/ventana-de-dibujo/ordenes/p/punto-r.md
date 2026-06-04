@@ -18,5 +18,5 @@ La orden pedirá la digitalización del punto de inserción y a continuación pe
 | Opción del menú donde aparece la orden | Dibujar/Punto con dos puntos |
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

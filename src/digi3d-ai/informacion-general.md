@@ -1,6 +1,6 @@
 # Información general de la aplicación
 
-Digi3D.NET es la evolución de dos programas que nacen como productos independientes y que terminan mezclándose en una única aplicación.
+Digi3D.AI es la evolución de dos programas que nacen como productos independientes y que terminan mezclándose en una única aplicación.
 
 En el año 1988 nace _Digi_, una aplicación _CAD_ sin interfaz gráfica que permitía almacenar coordenadas de los codificadores de un _Topodata R2_. Estas coordenadas se transformaban con posteridad en formato _HP-GL2_ que era el formato de los _plotters_ de la época para imprimir la restitución.
 
@@ -20,7 +20,7 @@ Durante un tiempo ambos programas convivieron: Los operadores tenían dos ordena
 
 Con el tiempo ambas aplicaciones se unen en una única aplicación que pasa a llamarse Digi3D.
 
-De esta aplicación ha habido varias versiones: _Digi3D 2000_, _Digi3D 2002_, _Digi3D 2005_, _Digi3D 2007_ y por último _Digi3D.NET_ pero la esencia de ambos programas sigue viva y por eso en este manual cuando nos referimos a la ventana fotogramétrica vamos a referirnos como **Digi3D** y cuando nos referimos a la ventana de dibujo vamos a referirnos a **DigiNG** \(la NG que añadimos a la palabra Digi hacen referencia a que internamente lo denominamos Digi de _Nueva Generación_\).
+De esta aplicación ha habido varias versiones: _Digi3D 2000_, _Digi3D 2002_, _Digi3D 2005_, _Digi3D 2007_ y por último _Digi3D.AI_ pero la esencia de ambos programas sigue viva y por eso en este manual cuando nos referimos a la ventana fotogramétrica vamos a referirnos como **Digi3D** y cuando nos referimos a la ventana de dibujo vamos a referirnos a **DigiNG** \(la NG que añadimos a la palabra Digi hacen referencia a que internamente lo denominamos Digi de _Nueva Generación_\).
 
 ## Digi3D
 

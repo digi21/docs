@@ -1,9 +1,9 @@
 # DigiTab
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
-Esta clase implementa métodos para interactuar con tablas de códigos de Digi3D.NET.
+Esta clase implementa métodos para interactuar con tablas de códigos de Digi3D.AI.
 
 ```csharp
 public sealed class DigiTab : IDisposable

@@ -11,7 +11,7 @@ Las tareas se muestran en el contenido principal del panel con cuatro columnas:
 | Tipo        | Muestra un icono indicando si la tarea es un Error, una Advertencia o un Mensaje.  |
 | Descripción | Descripción del error/advertencia/mensaje.                                         |
 | Archivo     | Archivo al que pertenece la geometría que ha desencadenado que se genere la tarea. |
-| Módulo      | Extensión de Digi3D.NET que implementa la orden que ha generado la tarea.          |
+| Módulo      | Extensión de Digi3D.AI que implementa la orden que ha generado la tarea.          |
 
 Estas columnas son ordenables, de manera que, si pulsamos sobre el título de una columna, se ordenará por dicha columna o ascendente o descendentemente, en función del número de veces que pulsamos el título de la columna.
 

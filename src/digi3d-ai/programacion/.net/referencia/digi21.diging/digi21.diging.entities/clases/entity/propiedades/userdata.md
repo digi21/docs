@@ -1,7 +1,7 @@
 # UserData
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/) \
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/) \
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
 
 Permite almacenar un objeto definido por el usuario.
 
@@ -15,7 +15,7 @@ public object UserData { get; set;  }‌
 
 Valor de usuario.&#x20;
 
-Digi3D.NET no utiliza este valor, ni lo almacena en los archivos de dibujo ni entiende lo que se está almacenando aquí.
+Digi3D.AI no utiliza este valor, ni lo almacena en los archivos de dibujo ni entiende lo que se está almacenando aquí.
 
 
 

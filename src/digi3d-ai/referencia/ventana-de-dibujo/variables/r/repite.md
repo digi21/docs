@@ -36,10 +36,10 @@ Algunas órdenes tienen la capacidad de auto-ejecutarse cada vez que finalizan. 
 
 Esta orden es de tipo booleano, lo que significa que puede estar activa o desactiva.
 
-* Si la orden está activa y ejecutamos una orden que admite repetición, como por ejemplo [CIRCR](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/circr.md), cuando se digitalice un círculo, la orden CIRCR se auto-destruirá, pero al estar activa la orden _REPITE_, _DigiNG_ volverá a ejecutar la orden _CIRCR_.
+* Si la orden está activa y ejecutamos una orden que admite repetición, como por ejemplo [CIRCR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/circr.md), cuando se digitalice un círculo, la orden CIRCR se auto-destruirá, pero al estar activa la orden _REPITE_, _DigiNG_ volverá a ejecutar la orden _CIRCR_.
 * Si la orden no está activa y ejecutamos una orden que admite repetición, cuando ésta se destruya no se volverá a ejecutar automáticamente.
 
-Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_ULTIMO](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md), pues si esta orden admitiese repetición, si se ejecuta con el valor de REPITE activado, se borraría todo el modelo al ejecutarla.
+Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md), pues si esta orden admitiese repetición, si se ejecuta con el valor de REPITE activado, se borraría todo el modelo al ejecutarla.
 
 ## Características de la orden
 

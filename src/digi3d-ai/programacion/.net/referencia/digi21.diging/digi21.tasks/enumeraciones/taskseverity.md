@@ -1,9 +1,9 @@
 # TaskSeverity
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
-Esta enumeración define los tipos de gravedad de un [ITask](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/).
+Esta enumeración define los tipos de gravedad de un [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/).
 
 ```csharp
 public enum TaskSeverity

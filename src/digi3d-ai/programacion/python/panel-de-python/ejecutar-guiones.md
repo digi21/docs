@@ -1,6 +1,6 @@
 # Cómo ejecutar guiones de Python
 
-Digi3D.NET puede ejecutar guiones de Python de **tres** maneras: desde el panel, como una
+Digi3D.AI puede ejecutar guiones de Python de **tres** maneras: desde el panel, como una
 orden (por su nombre, desde la consola de órdenes) y como control de calidad.
 
 ## 1. Desde el panel de Guiones Python
@@ -18,7 +18,7 @@ digi3d.add_result(f"El dibujo tiene {len(view)} geometrías")
 
 ## 2. Como una orden (desde la consola de órdenes)
 
-Puedes ejecutar un guion **por su nombre**, como si fuera una orden nativa de Digi3D.NET:
+Puedes ejecutar un guion **por su nombre**, como si fuera una orden nativa de Digi3D.AI:
 
 1. Guarda el archivo `.py` en el **directorio de macroinstrucciones**, que se configura en
    **Herramientas → Configuración → DigiNG → Directorio de macroinstrucciones**.
@@ -27,7 +27,7 @@ Puedes ejecutar un guion **por su nombre**, como si fuera una orden nativa de Di
 3. Escribe el nombre y, si la orden recibe parámetros, un `=` seguido de los parámetros
    separados por espacios.
 
-Cuando el nombre **no** corresponde a ninguna orden nativa, Digi3D.NET busca en el directorio
+Cuando el nombre **no** corresponde a ninguna orden nativa, Digi3D.AI busca en el directorio
 de macroinstrucciones un archivo `.py` que se llame igual; si lo encuentra, lo carga en el
 intérprete y lo ejecuta pasándole los parámetros. Para el usuario es como una orden más.
 
@@ -65,7 +65,7 @@ distancia = float(argv[1]) if len(argv) > 1 else 1.0
 
 ## 3. Como control de calidad
 
-Una función de Python puede actuar como **control de calidad** de un código: Digi3D.NET la
+Una función de Python puede actuar como **control de calidad** de un código: Digi3D.AI la
 ejecuta sobre las geometrías que tienen ese código para comprobar que cumplen ciertas reglas,
 ya sea bajo demanda o en tiempo real mientras se digitaliza. Se explican en
 [Controles de calidad](../controles-de-calidad/README.md).

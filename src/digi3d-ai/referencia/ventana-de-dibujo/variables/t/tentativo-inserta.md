@@ -33,7 +33,7 @@ Inserta un nodo en las entidades lineales sobre las que hacemos tentativo, al re
 
 ## Observaciones
 
-Puedes activar o desactivar la función de [TENTATIVO\_INSERTA](/digi3d-net/referencia/ventana-de-dibujo/variables/t/tentativo-inserta.md) llamándola desde el menú de pantalla.
+Puedes activar o desactivar la función de [TENTATIVO\_INSERTA](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tentativo-inserta.md) llamándola desde el menú de pantalla.
 
 ## Características de la orden
 
@@ -43,5 +43,5 @@ Puedes activar o desactivar la función de [TENTATIVO\_INSERTA](/digi3d-net/refe
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Tentativo inserta |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

@@ -1,6 +1,6 @@
 # digi21.io
 
-Lectura de archivos de dibujo de Digi3D.NET. Hay un **módulo independiente por formato**,
+Lectura de archivos de dibujo de Digi3D.AI. Hay un **módulo independiente por formato**,
 y todos comparten la misma interfaz: una función `open` que devuelve un
 [DrawingFile](../digi21.base/drawingfile.md) iterable.
 

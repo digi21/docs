@@ -18,5 +18,5 @@ No se han registrado observaciones para esta entidad.
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Extender una polilínea para que se cruce con otra |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

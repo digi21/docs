@@ -1,9 +1,9 @@
 # SegmentPointer
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
-Esta clase permite identificar un segmento de una determinada [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+Esta clase permite identificar un segmento de una determinada [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
 
 ```csharp
 public struct SegmentPointer
@@ -21,7 +21,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |
 | :--- | :--- |
-| [FirstVertex](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/segmentpointer/propiedades/firstvertex.md) | Devuelve el índice al primer vértice del segmento. |
-| [Line](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md). |
-| [SecondVertex](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/segmentpointer/propiedades/secondvertex.md) | Devuelve el índice al segundo vértice del segmento. |
+| [FirstVertex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/segmentpointer/propiedades/firstvertex.md) | Devuelve el índice al primer vértice del segmento. |
+| [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md). |
+| [SecondVertex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/segmentpointer/propiedades/secondvertex.md) | Devuelve el índice al segundo vértice del segmento. |
 

@@ -2,7 +2,7 @@
 
 Todos los sensores tienen asociado un sistema de referencia de coordenadas. Algunos tienen un sistema de referencia de coordenadas fijo y otros lo tienen variable.
 
-En la siguiente tabla podemos comprobar los sistemas de referencia de coordenadas asociados a cada uno de los sensores implementados por Digi3D.NET.
+En la siguiente tabla podemos comprobar los sistemas de referencia de coordenadas asociados a cada uno de los sensores implementados por Digi3D.AI.
 
 <table>
   <thead>

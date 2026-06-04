@@ -2,7 +2,7 @@
 
 Módulo: `digi3d`
 
-Las **tareas** son entradas que se muestran en el panel de tareas de Digi3D.NET. Al hacer
+Las **tareas** son entradas que se muestran en el panel de tareas de Digi3D.AI. Al hacer
 doble clic sobre ellas se ejecuta una acción (mostrar un cuadro de diálogo, desplazar la
 ventana a unas coordenadas, etc.). Se añaden con
 [`add_task()`](functions.md#paneles-de-resultados-y-tareas).

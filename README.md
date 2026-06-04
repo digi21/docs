@@ -3,7 +3,7 @@
 Bienvenido al repositorio de la ayuda de **[www.digi21.net](https://www.digi21.net)**.
 
 Aquí encontrarás, en formato _markdown_, **todas las páginas de la ayuda** de los productos de Digi21
-(Digi3D.NET, MDTopX, Topcal21…). Este repositorio es la **fuente de la verdad** de la documentación:
+(Digi3D.AI, MDTopX, Topcal21…). Este repositorio es la **fuente de la verdad** de la documentación:
 la web de Digi21 se alimenta directamente de su contenido.
 
 ## ✍️ ¿Quieres colaborar?

@@ -2,7 +2,7 @@
 
 Para ejecutar una orden desde la línea de comandos, tan solo tendremos que pulsar **Enter** y el programa nos mostrará en la barra de mensajes una ventana para introducir el nombre de la orden a ejecutar.
 
-![Barra de mensajes de Digi3D.NET solicitando introducir una orden](../../../images/barramensajessolicitandoorden.png)
+![Barra de mensajes de Digi3D.AI solicitando introducir una orden](../../../images/barramensajessolicitandoorden.png)
 
 Introduciremos el nombre de la orden y pulsaremos **Enter** para que esta se ejecute:
 
@@ -24,7 +24,7 @@ EXPORTAR="c:\mis trabajos\2021001\prueba.bin"
 
 ### Nombre interno de la orden
 
-Digi3D.NET se puede ejecutar en Castellano y en inglés. 
+Digi3D.AI se puede ejecutar en Castellano y en inglés. 
 
 Los nombres de las órdenes varían en función de si el programa se está mostrando en castellano o en inglés.
 
@@ -32,7 +32,7 @@ Esto es así porque las órdenes tienen un nombre interno, y el programa dispone
 
 Por ejemplo: la orden de tipo variable real [AA](../ventana-de-dibujo/variables/a/aa.md)\(ángulo activo\) tiene como nombre interno el siguiente: {55EDDC5E-2B30-4bd0-B4FF-1BD954EF937C}.
 
-Digi3D.NET admite que introduzcamos como nombre de una orden el nombre de orden interno, de manera que, si queremos asignar como ángulo activo el valor 27, podemos ejecutar el siguiente comando:
+Digi3D.AI admite que introduzcamos como nombre de una orden el nombre de orden interno, de manera que, si queremos asignar como ángulo activo el valor 27, podemos ejecutar el siguiente comando:
 
 ```text
 {55EDDC5E-2B30-4bd0-B4FF-1BD954EF937C}=27

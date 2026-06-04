@@ -6,7 +6,7 @@ Establece una rejilla por la cual se va a mover el restituidor pudiendo registra
 
 ## Observaciones
 
-Podemos seleccionar una entidad que actúe como borde de la rejilla y podemos seleccionar la opción de autoregistrar puntos cada cierto tiempo marcado por la orden [TIEMPO\_ESPERA](/digi3d-net/referencia/ventana-de-dibujo/variables/t/tiempo-espera.md).
+Podemos seleccionar una entidad que actúe como borde de la rejilla y podemos seleccionar la opción de autoregistrar puntos cada cierto tiempo marcado por la orden [TIEMPO\_ESPERA](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tiempo-espera.md).
 
 También aquí se puede marcar la casilla _Seleccionar límites de exclusión_ para que el programa tenga en cuenta que, dentro del límite que se selecciona para del modelo digital del terreno, puede haber una o varias entidades cerradas sobre las cuales no queremos que correle el programa. En caso de marcar esta casilla, el programa pedirá seleccionarlos al hacer el Modelo Digital del Terreno.
 

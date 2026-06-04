@@ -1,7 +1,7 @@
 # PointLine
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Esta clase estática proporciona métodos que permiten analizar la relación entre puntos y líneas.
 
@@ -13,7 +13,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 ## Observaciones
 
-El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Coindicent](metodos-estaticos/coincident.md) devuelve _Verdadero_, forzosamente [CoincidentAndTerminate](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/metodos-estaticos/coincidentandterminate.md) devolverá _Falso_.
+El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Coindicent](metodos-estaticos/coincident.md) devuelve _Verdadero_, forzosamente [CoincidentAndTerminate](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/metodos-estaticos/coincidentandterminate.md) devolverá _Falso_.
 
 Estos métodos únicamente analizan vértices existentes, es decir, que si no hay un vértice común entre las dos geometrías que se cruzan, su cruce pasará desapercibido.
 
@@ -21,7 +21,7 @@ Estos métodos únicamente analizan vértices existentes, es decir, que si no ha
 
 |  |  |
 | :--- | :--- |
-| [Coincident\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/coincident.md) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| [CoincidentAndTerminate\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/coincidentandterminate.md) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| [Disjoint\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/disjoint.md) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
+| [Coincident\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/coincident.md) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| [CoincidentAndTerminate\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/coincidentandterminate.md) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| [Disjoint\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/disjoint.md) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
 

@@ -1,16 +1,16 @@
 # Guiones de control de calidad
 
-Digi3D.NET dispone de un menú denominado **Control de Calidad** que permite habilitar la característica de analizar el control de calidad de las geometrías justo antes de ser almacenadas o que permite analizar el control de calidad de geometrías ya existentes.
+Digi3D.AI dispone de un menú denominado **Control de Calidad** que permite habilitar la característica de analizar el control de calidad de las geometrías justo antes de ser almacenadas o que permite analizar el control de calidad de geometrías ya existentes.
 
-En ambos casos Digi3D.NET no es quien realiza el control de calidad, sino que delega la acción al [guion](../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#guion) asignado para tal efecto en el código de la geometría en la tabla de códigos, de manera que es responsabilidad del usuario especificar en la tabla de códigos su propio control de calidad.
+En ambos casos Digi3D.AI no es quien realiza el control de calidad, sino que delega la acción al [guion](../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#guion) asignado para tal efecto en el código de la geometría en la tabla de códigos, de manera que es responsabilidad del usuario especificar en la tabla de códigos su propio control de calidad.
 
-Si al cargar la tabla de códigos se detecta que hay guiones de control de calidad, Digi3D.NET compila cada guion (puede haber tantos como códigos) en un ensamblado temporal almacenado en la carpeta _TEMP_ de Windows.
+Si al cargar la tabla de códigos se detecta que hay guiones de control de calidad, Digi3D.AI compila cada guion (puede haber tantos como códigos) en un ensamblado temporal almacenado en la carpeta _TEMP_ de Windows.
 
 ### ¿Qué es un guion de control de calidad?
 
 Los guiones de control de calidad son ensamblados que publican una clase que proporciona un método encargado de analizar el control de calidad de una geometría que se le pasa por parámetro.&#x20;
 
-Digi3D.NET instanciará la clase y llamará al método por cada geometría que se analice.
+Digi3D.AI instanciará la clase y llamará al método por cada geometría que se analice.
 
 ### Ejecución del guion
 
@@ -25,11 +25,11 @@ Los guiones pueden realizar tres tareas:
 
 * Devolver la geometría a analizar sin modificación alguna. El guion realizará esta acción si la geometría cumple con el control de calidad.
 * Sustituir la geometría a analizar por otra completamente distinta. El guion realizará esta acción para hacer que una geometría cumpla con el control de calidad, como por ejemplo convertir líneas en puntos si el perímetro de la línea es inferior a un valor umbral y el control de calidad admite este cambio, por ejemplo.
-* Lanzar una excepción para comunicarle a Digi3D.NET que la geometría no cumple con el control de calidad. El guion realizará esta acción para comunicarle al usuario que la geometría no cumple con el control de calidad.
+* Lanzar una excepción para comunicarle a Digi3D.AI que la geometría no cumple con el control de calidad. El guion realizará esta acción para comunicarle al usuario que la geometría no cumple con el control de calidad.
 
-### ¿Cómo comunica Digi3D.NET un error al usuario?
+### ¿Cómo comunica Digi3D.AI un error al usuario?
 
-*   Si el análisis se ha desencadenado porque se está almacenando una geometría y está habilitada la opción **Control de calidad/Analizar control de calidad al digitalizar entidad**, Digi3D.NET mostrará cuadros de diálogo al usuario en función del tipo de error.\
+*   Si el análisis se ha desencadenado porque se está almacenando una geometría y está habilitada la opción **Control de calidad/Analizar control de calidad al digitalizar entidad**, Digi3D.AI mostrará cuadros de diálogo al usuario en función del tipo de error.\
 
 
     <img src="../../../images/errorgeometryexception.png" alt="Error mostrado al digitalizar una geometría" data-size="original">
@@ -41,11 +41,11 @@ Los guiones pueden realizar tres tareas:
 
 ![](../../../images/paneltareasmostrandogeometryexception.png)
 
-### ¿Qué tipo de errores puede comunicar el guion a Digi3D.NET?
+### ¿Qué tipo de errores puede comunicar el guion a Digi3D.AI?
 
 Se pueden comunicar tanto errores de atributos de base de datos como geométricos.
 
-En caso de errores geométricos, se puede comunicar a Digi3D.NET que la geometría tiene un error geométrico de manera independiente o que la geometría tiene un error geométrico con respecto a otra geometría, como por ejemplo una geometría que cruza a otra si esto está prohibido en el control de calidad.
+En caso de errores geométricos, se puede comunicar a Digi3D.AI que la geometría tiene un error geométrico de manera independiente o que la geometría tiene un error geométrico con respecto a otra geometría, como por ejemplo una geometría que cruza a otra si esto está prohibido en el control de calidad.
 
-Puedes aprender más en [Tipos de errores](/digi3d-net/programacion/.net/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/).
+Puedes aprender más en [Tipos de errores](/digi3d-ai/programacion/.net/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/).
 

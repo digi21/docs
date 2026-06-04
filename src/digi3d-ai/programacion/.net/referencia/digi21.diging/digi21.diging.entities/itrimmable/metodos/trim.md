@@ -1,7 +1,7 @@
 # Trim
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
 
 Indica el vértice más cercano así como su índice y distancia.
 
@@ -11,7 +11,7 @@ IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity);�
 
 ## Parámetros
 
-`limit`[ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
+`limit`[ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
 Línea límite por la que se cortará la geometría.
 
 `coordinateZFromThisEntity` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  

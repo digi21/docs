@@ -1,6 +1,6 @@
 # Digi21.Utilities
 
-Este paquete [NuGet](https://www.nuget.org/packages/Digi21.Utilities/) proporciona herramientas y utilidades para el desarrollo de aplicaciones con el motor de Digi3D.NET.
+Este paquete [NuGet](https://www.nuget.org/packages/Digi21.Utilities/) proporciona herramientas y utilidades para el desarrollo de aplicaciones con el motor de Digi3D.AI.
 
 ### Package manager
 ```bash
@@ -17,7 +17,7 @@ dotnet add package Digi21.Utilities --version 21.0.0
 <PackageReference Include="Digi21.Utilities" Version="21.0.0" />
 ```
 
-Puedes clonar y modificar este paquete en el repositorio de GitHub [Digi21.Utilities](/digi3d-net/programacion/.net/referencia/digi21.utilities.md).
+Puedes clonar y modificar este paquete en el repositorio de GitHub [Digi21.Utilities](/digi3d-ai/programacion/.net/referencia/digi21.utilities.md).
 
 
 

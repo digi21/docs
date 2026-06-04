@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-El número máximo de vértices para entidades lineales queda determinado por el valor de [MAXPUNTOS](/digi3d-net/referencia/ventana-de-dibujo/variables/m/maxpuntos.md), este valor deberá estar definido antes de ejecutar la orden _CAMB\_MAXPUNTOS_.
+El número máximo de vértices para entidades lineales queda determinado por el valor de [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md), este valor deberá estar definido antes de ejecutar la orden _CAMB\_MAXPUNTOS_.
 
 Bien podemos ejecutar CAMB\_MAXPUNTOS sobre una determinada entidad o sobre todas las entidades que tengan un determinado código.
 
@@ -28,7 +28,7 @@ Dividirá todas aquellas entidades lineales cuyo código sea 020126, en tramos q
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 
 ## Vídeo
 

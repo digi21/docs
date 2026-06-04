@@ -28,7 +28,7 @@ Al generalizar los puntos que componen una entidad, la función comprueba si la 
 * Si es así, este punto se elimina del fichero.
 * En caso contrario se graban sus coordenadas.
 
-También se considera el valor de la tolerancia angular dado por la orden [TOL\_ANG](/digi3d-net/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
+También se considera el valor de la tolerancia angular dado por la orden [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
 
 El proceso de generalizar, se ejecuta con todos y cada uno de los puntos de una entidad.
 
@@ -40,5 +40,5 @@ El proceso de generalizar, se ejecuta con todos y cada uno de los puntos de una 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

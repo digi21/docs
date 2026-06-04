@@ -1,7 +1,7 @@
 # Across
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Indica si la línea cruza el área.
 
@@ -13,12 +13,12 @@ Indica si la línea cruza el área.
 
 |                                                                                        |                                                                                                                         |
 | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Across(ReadOnlyLine, ReadOnlyLine)](across.md#across-readonlyline-readonlyline)       | Indica si la línea cruza el área de tipo [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).       |
-| [Across(ReadOnlyLine, ReadOnlyPolygon)](across.md#across-readonlyline-readonlypolygon) | Indica si la línea cruza el área de tipo [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| [Across(ReadOnlyLine, ReadOnlyLine)](across.md#across-readonlyline-readonlyline)       | Indica si la línea cruza el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).       |
+| [Across(ReadOnlyLine, ReadOnlyPolygon)](across.md#across-readonlyline-readonlypolygon) | Indica si la línea cruza el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
 
 ## Across(ReadOnlyLine, ReadOnlyLine)
 
-Indica si la línea cruza el área de tipo [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+Indica si la línea cruza el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
 
 ```csharp
 public static bool Across(ReadOnlyLine line, ReadOnlyLine area)
@@ -26,10 +26,10 @@ public static bool Across(ReadOnlyLine line, ReadOnlyLine area)
 
 ### Parámetros
 
-`line` [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
+`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
 Línea.
 
-`area` [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
+`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
 Área.
 
 ## Devuelve
@@ -39,7 +39,7 @@ _Verdadero_ si la línea cruza el área.
 
 ## Across(ReadOnlyLine, ReadOnlyPolygon)
 
-Indica si la línea cruza el área de tipo [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
+Indica si la línea cruza el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
 
 ```csharp
  public static bool Across(ReadOnlyLine line, ReadOnlyPolygon area)
@@ -47,10 +47,10 @@ Indica si la línea cruza el área de tipo [ReadOnlyPolygon](/digi3d-net/program
 
 ### Parámetros
 
-`line` [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
+`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
 Línea.
 
-`area` [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
+`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
 Área.
 
 ## Devuelve

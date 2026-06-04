@@ -8,7 +8,7 @@ Valor de la _EQUIDISTANCIA_ que se haya determinado.
 
 ## Observaciones
 
-La equidistancia se define en el _cuadro de diálogo de Nuevo Proyecto de DigiNG_ o mediante la ejecución de la orden [EQUIDISTANCIA](/digi3d-net/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
+La equidistancia se define en el _cuadro de diálogo de Nuevo Proyecto de DigiNG_ o mediante la ejecución de la orden [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
 
 Esta orden es utilizada cuando se está curvando. Una vez que el operador ha terminado de restituir una curva de nivel deberá subir o bajar la Z de registro una cantidad igual a la equidistancia para comenzar con la siguiente curva de nivel.
 

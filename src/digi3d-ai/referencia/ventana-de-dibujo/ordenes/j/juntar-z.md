@@ -20,5 +20,5 @@ La orden _JUNTAR\_Z_, no modifica las coordenadas X e Y de las líneas, únicame
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [CURSOR](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cursor.md) |
+| Variables relacionadas | [CURSOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cursor.md) |
 

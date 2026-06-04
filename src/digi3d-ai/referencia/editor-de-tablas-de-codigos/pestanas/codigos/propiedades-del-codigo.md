@@ -6,7 +6,7 @@ Esta categoría permite configurar las propiedades de un código.
 
 Permite configurar el nombre del código.
 
-El nombre del código identifica al código y no puede haber más de un código en una tabla de códigos con el mismo nombre. Este nombre es el que podremos pasar como parámetros en órdenes como [COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
+El nombre del código identifica al código y no puede haber más de un código en una tabla de códigos con el mismo nombre. Este nombre es el que podremos pasar como parámetros en órdenes como [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
 
 ## Descripción
 
@@ -14,7 +14,7 @@ Permite introducir una descripción del código como por ejemplo _Curva de nivel
 
 ## Prioridad
 
-Algunas órdenes de Digi3D.NET como [BINTRAM](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/bintram.md) permiten agrupar geometrías duplicadas en una única geometría con múltiples códigos. Si los códigos tienen asignado en este campo un valor, el programa ordenará los códigos en la geometría generada con múltiples códigos utilizando como criterio este valor de prioridad.
+Algunas órdenes de Digi3D.AI como [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md) permiten agrupar geometrías duplicadas en una única geometría con múltiples códigos. Si los códigos tienen asignado en este campo un valor, el programa ordenará los códigos en la geometría generada con múltiples códigos utilizando como criterio este valor de prioridad.
 
 ## Etiquetas
 
@@ -37,7 +37,7 @@ planimetría, viales, carreteras
 
 Ciertas órdenes permiten trabajar con etiquetas. Podemos indicar a estas órdenes que les estamos pasando una etiqueta si ponemos el carácter almohadilla (#) delante de la etiqueta.
 
-Ejemplo: La orden [OFF](/digi3d-net/referencia/ventana-de-dibujo/ordenes/o/off.md) oculta la visualización de las geometrías que tengan el código pasado por parámetro. Esta orden admite que le pasemos en vez de un código, una etiqueta, de manera que, si queremos dejar de visualizar todas las geometrías que tengan la etiqueta "_viales"_, ejecutaremos la siguiente orden:
+Ejemplo: La orden [OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md) oculta la visualización de las geometrías que tengan el código pasado por parámetro. Esta orden admite que le pasemos en vez de un código, una etiqueta, de manera que, si queremos dejar de visualizar todas las geometrías que tengan la etiqueta "_viales"_, ejecutaremos la siguiente orden:
 
 ```
 off=#viales
@@ -45,7 +45,7 @@ off=#viales
 
 ### Menús dinámicos
 
-Digi3D.NET muestra en determinados menús (como por ejemplo el menú **Ver**), las etiquetas de la tabla de códigos activa, de manera que podremos ejecutar comandos que tomarán como datos de entrada todas las geometrías que tengan algún código que tenga asociada la etiqueta seleccionada.
+Digi3D.AI muestra en determinados menús (como por ejemplo el menú **Ver**), las etiquetas de la tabla de códigos activa, de manera que podremos ejecutar comandos que tomarán como datos de entrada todas las geometrías que tengan algún código que tenga asociada la etiqueta seleccionada.
 
 En el caso del menú **Ver**, si la tabla de códigos activa tiene códigos con la etiqueta _Vegetación_, mostrará una opción con la palabra _Vegetación**.**_ Si el usuario selecciona esta opción, el programa activará la visualización de todas las geometrías cuyos códigos tengan esta etiqueta.
 
@@ -61,7 +61,7 @@ Ejemplo: Podemos añadir el alias "fina" al código "020123", de esta manera si 
 cod=fina
 ```
 
-La orden [COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) seleccionará automáticamente el código "020123".
+La orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) seleccionará automáticamente el código "020123".
 
 ## Valores
 
@@ -89,13 +89,13 @@ Se puede seleccionar una de las siguientes opciones:
 * **Puntual** Indica que este código está pensado para almacenar puntos.
 * **Virtual** Indica que este código está pensado para dibujar geometrías en la ventana de dibujo pero que estas geometrías no se almacenan en ningún archivo de dibujo.
 
-El valor almacenado aquí no es un contrato vinculante, de manera que, si indicamos en este campo el valor _Puntual_ para un determinado código, y luego en la ventana de dibujo seleccionamos este código en particular y ejecutamos la orden [CIR2P](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cir2p.md), podremos dibujar un círculo con este código que se ha marcado como puntual.
+El valor almacenado aquí no es un contrato vinculante, de manera que, si indicamos en este campo el valor _Puntual_ para un determinado código, y luego en la ventana de dibujo seleccionamos este código en particular y ejecutamos la orden [CIR2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir2p.md), podremos dibujar un círculo con este código que se ha marcado como puntual.
 
-El valor almacenado en este campo se utiliza criterio para [ejecutar órdenes de manera automática](/digi3d-net/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) si el programa está en [modo preparado](/digi3d-net/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el usuario pulsa el botón de Dato en la ventana de dibujo.
+El valor almacenado en este campo se utiliza criterio para [ejecutar órdenes de manera automática](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) si el programa está en [modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el usuario pulsa el botón de Dato en la ventana de dibujo.
 
 ## Automático
 
-Indica si al estar este código seleccionado como código activo y al estar el programa en[ modo preparado](/digi3d-net/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md), si el usuario pulsa el botón de Dato en la ventana de dibujo, si se desencadenará el proceso que ejecuta una [orden de manera automática](/digi3d-net/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
+Indica si al estar este código seleccionado como código activo y al estar el programa en[ modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md), si el usuario pulsa el botón de Dato en la ventana de dibujo, si se desencadenará el proceso que ejecuta una [orden de manera automática](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
 
 Se pueden seleccionar las siguientes opciones:
 
@@ -119,7 +119,7 @@ Indica si este código está pensado para digitalizar líneas en modo continuo.
 
 Determinadas geometrías como por ejemplo las curvas de nivel se digitalizan habitualmente en modo continuo. Eso requiere que el usuario mantenga pulsado el botón/pedal de dato mientras digitaliza la geometría.
 
-Con esta opción se puede indicar a la orden [LINEA](/digi3d-net/referencia/ventana-de-dibujo/ordenes/l/linea.md) se deben añadir segmentos a la línea.
+Con esta opción se puede indicar a la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) se deben añadir segmentos a la línea.
 
 ## Órdenes (seleccionar código)
 
@@ -131,9 +131,9 @@ Permite indicar el conjunto de órdenes que se ejecutarán cuando el usuario pul
 
 ## Archivo de ayuda
 
-Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](/digi3d-net/referencia/paneles/ayuda-dinamica.md) si se selecciona este código.
+Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](/digi3d-ai/referencia/paneles/ayuda-dinamica.md) si se selecciona este código.
 
-El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](/digi3d-net/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md) configurado en el programa.
+El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md) configurado en el programa.
 
 ## Analizar control de calidad
 
@@ -158,4 +158,4 @@ Se pueden seleccionar las siguientes opciones:
 
 Código fuente del guion de control de calidad.
 
-La creación de guiones de control de calidad requiere unos conocimientos mínimos de programación. Puedes aprender más en [Guiones de control de calidad](/digi3d-net/programacion/.net/guiones-de-control-de-calidad/).
+La creación de guiones de control de calidad requiere unos conocimientos mínimos de programación. Puedes aprender más en [Guiones de control de calidad](/digi3d-ai/programacion/.net/guiones-de-control-de-calidad/).

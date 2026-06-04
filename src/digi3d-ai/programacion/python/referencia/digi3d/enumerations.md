@@ -14,7 +14,7 @@ Dispositivo de entrada de la ventana de dibujo (propiedad
 
 ## MusicType
 
-Sonidos estándar de Digi3D.NET (función [`music`](functions.md#mensajes-y-avisos)).
+Sonidos estándar de Digi3D.AI (función [`music`](functions.md#mensajes-y-avisos)).
 
 | Valor | Descripción |
 |---|---|

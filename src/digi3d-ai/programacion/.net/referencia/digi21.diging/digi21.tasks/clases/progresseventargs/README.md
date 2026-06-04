@@ -1,7 +1,7 @@
 # ProgressEventArgs
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Argumento de evento para los eventos que comunican que ha variado el progreso de una tarea.
 
@@ -15,11 +15,11 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |
 | :--- | :--- |
-| [ProgressEventArgs\(int\)](constructores.md) | Inicializa una nueva instancia de [ProgressEventArgs](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/) configurado con un determinado valor de progreso. |
+| [ProgressEventArgs\(int\)](constructores.md) | Inicializa una nueva instancia de [ProgressEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/) configurado con un determinado valor de progreso. |
 
 ## Propiedades
 
 |  |  |
 | :--- | :--- |
-| [Progress](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/propiedades/progress.md) | Devuelve el valor de progreso. |
+| [Progress](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/propiedades/progress.md) | Devuelve el valor de progreso. |
 

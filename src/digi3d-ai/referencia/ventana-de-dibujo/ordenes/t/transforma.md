@@ -102,7 +102,7 @@ X p2 original, Y p2 original, Z p2 original, X p2 destino, Y p2 destino, Z p2 de
 
 .......
 
-Una vez creado el fichero se podrá ejecutar la orden [TRANSFORMA](/digi3d-net/referencia/ventana-de-dibujo/ordenes/t/transforma.md).
+Una vez creado el fichero se podrá ejecutar la orden [TRANSFORMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/transforma.md).
 
 ## Características de la orden
 

@@ -1,12 +1,12 @@
 # Aerotriangulación manual
 
-Digi3D.NET permite medir aerotriangulaciones de manera manual.
+Digi3D.AI permite medir aerotriangulaciones de manera manual.
 
 Estas aerotriangulaciones se miden de una manera muy rápida pues el programa va numerando automáticamente los puntos a medir y localiza automáticamente mediante correlación los puntos a medir, de manera que en la mayoría de los casos el operador tan solo tiene que confirmar la medida que se ha realizado automáticamente.
 
 En este manual no te vamos a enseñar a aerotriangular, los conceptos teóricos de aerotriangulación están fuera del ámbito de este manual. Te recomendamos que te compres un libro de fotogrametría si no tienes conocimientos técnicos de aerotriangulación.
 
-La medida de aerotriangulación en Digi3D.NET consiste en medir una serie de puntos repartidos por todo el proyecto. El proceso consiste en lo siguiente:
+La medida de aerotriangulación en Digi3D.AI consiste en medir una serie de puntos repartidos por todo el proyecto. El proceso consiste en lo siguiente:
 
 1. Localizar una ubicación donde medir un punto.
 2. Darle un nombre al punto.

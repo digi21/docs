@@ -23,4 +23,4 @@ Se puede mostrar el panel de las siguientes formas:
 
 ## Configuración del cuadro de herramientas
 
-El cuadro de herramientas mostrará el contenido configurado en la [pestaña Cuadro de herramientas](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/cuadro-de-herramientas.md) del programa [Editor de Tablas de Códigos](../editor-de-tablas-de-codigos/).
+El cuadro de herramientas mostrará el contenido configurado en la [pestaña Cuadro de herramientas](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/cuadro-de-herramientas.md) del programa [Editor de Tablas de Códigos](../editor-de-tablas-de-codigos/).

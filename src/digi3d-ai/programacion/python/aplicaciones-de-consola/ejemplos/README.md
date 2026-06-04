@@ -1,7 +1,7 @@
 # Ejemplos de programación
 
 Tutoriales con ejemplos para aprender a programar **aplicaciones de consola** con la API de
-Python de Digi3D.NET. Cada tema parte de un objetivo práctico y muestra el código completo.
+Python de Digi3D.AI. Cada tema parte de un objetivo práctico y muestra el código completo.
 
 Para la descripción detallada de cada clase y método, consulta la
 [Referencia](../../referencia/README.md).

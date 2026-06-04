@@ -1,7 +1,7 @@
 # OrtographicCamera
 
-Espacio de nombres: [Digi21.DigiNG.Cameras](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Cameras](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Esta clase implementa una cámara ortográfica.
 
@@ -9,18 +9,18 @@ Esta clase implementa una cámara ortográfica.
 public sealed class OrthographicCamera : Camera
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Camera](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/camera/) →  OrtographicCamera
+Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Camera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/camera/) →  OrtographicCamera
 
 ## Constructores
 
 |  |  |
 | :--- | :--- |
-| [OrthographicCamera\(\)](constructores.md#orthographiccamera) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/) con valores por defecto. |
-| [OrthographicCamera\(IWindow3D\)](constructores.md#orthographiccamera-iwindow-3-d) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)pasado por parámetros. |
-| [OrthographicCamera\(string\)](constructores.md#orthographiccamera-string) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/) asignándole el nombre pasado por parámetros. |
-| [OrthographicCamera\(string, IWindow3D\)](constructores.md#orthographiccamera-string-iwindow-3-d) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)pasado por parámetros. |
-| [OrthographicCamera\(IWindow3D, double, double, double\)](constructores.md#orthographiccamera-iwindow-3-d-double-double-double) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)y con los ángulos pasados por parámetros. |
-| [OrthographicCamera\(string, IWindow3D, double, double, double\)](constructores.md#orthographiccamera-string-iwindow-3-d-double-double-double) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)y con los ángulos pasados por parámetros. |
+| [OrthographicCamera\(\)](constructores.md#orthographiccamera) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/) con valores por defecto. |
+| [OrthographicCamera\(IWindow3D\)](constructores.md#orthographiccamera-iwindow-3-d) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)pasado por parámetros. |
+| [OrthographicCamera\(string\)](constructores.md#orthographiccamera-string) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/) asignándole el nombre pasado por parámetros. |
+| [OrthographicCamera\(string, IWindow3D\)](constructores.md#orthographiccamera-string-iwindow-3-d) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)pasado por parámetros. |
+| [OrthographicCamera\(IWindow3D, double, double, double\)](constructores.md#orthographiccamera-iwindow-3-d-double-double-double) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)y con los ángulos pasados por parámetros. |
+| [OrthographicCamera\(string, IWindow3D, double, double, double\)](constructores.md#orthographiccamera-string-iwindow-3-d-double-double-double) | Inicializa una nueva instancia de [OrtographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/)y con los ángulos pasados por parámetros. |
 
 ## Propiedades
 

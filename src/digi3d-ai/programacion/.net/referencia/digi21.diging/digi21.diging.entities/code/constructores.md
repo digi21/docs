@@ -1,15 +1,15 @@
 # Constructores
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
-Inicializa una nueva instancia de la estructura [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/).
+Inicializa una nueva instancia de la estructura [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/).
 
 ## Observaciones
 
 El número de tabla es el número asignado para ese nombre de tabla en la tabla especial de base de datos MSCATALOG o CATDBS.
 
-Los importadores/exportadores proporcionan la propiedad [DatabaseTables](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/databasetables.md) que devuelve un diccionario con los nombres de tablas, así como su número.
+Los importadores/exportadores proporcionan la propiedad [DatabaseTables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/databasetables.md) que devuelve un diccionario con los nombres de tablas, así como su número.
 
 ## Sobrecargas
 
@@ -57,7 +57,7 @@ Nombre que asignar al código
 Número de tabla de base de datos
 
 `id` [Nullable&lt;int&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)  
-Identificador del _PrimaryKey_ de la tabla de base de datos con los datos asignados al [Entity](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
+Identificador del _PrimaryKey_ de la tabla de base de datos con los datos asignados al [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
 
 #### Ejemplos
 
@@ -84,7 +84,7 @@ Nombre que asignar al código
 Número de tabla de base de datos
 
 `id` [Nullable&lt;int&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)  
-Identificador del _PrimaryKey_ de la tabla de base de datos con los datos asignados al [Entity](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
+Identificador del _PrimaryKey_ de la tabla de base de datos con los datos asignados al [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
 
 #### Ejemplos
 

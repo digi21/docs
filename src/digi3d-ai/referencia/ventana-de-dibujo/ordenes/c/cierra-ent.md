@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden requiere que la línea que estás digitalizando tenga al menos tres puntos. Cuando la ejecutas se añadirá un vértice a la línea con las mismas coordenadas que el primer vértice de la línea y finalizará la orden [LINEA](/digi3d-net/referencia/ventana-de-dibujo/ordenes/l/linea.md).
+Esta orden requiere que la línea que estás digitalizando tenga al menos tres puntos. Cuando la ejecutas se añadirá un vértice a la línea con las mismas coordenadas que el primer vértice de la línea y finalizará la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md).
 
 ## Características de la orden
 

@@ -1,6 +1,6 @@
 # Línea de comandos
 
-Digi3D.NET admite que le pasemos parámetros desde la línea de comandos.
+Digi3D.AI admite que le pasemos parámetros desde la línea de comandos.
 
 Gracias a estos parámetros podemos por ejemplo ejecutar el programa ordenándole que abra un archivo de dibujo y haciéndole ejecutar un archivo de macroinstrucciones que realice alguna determinada tarea para terminar cerrando el programa.
 
@@ -18,9 +18,9 @@ En caso de indicar por la línea de comandos un parámetro, éste requerirá que
 
 | Comando                 | Descripción                                 |
 | ----------------------- | ------------------------------------------- |
-| [dibujo](/digi3d-net/referencia/linea-de-comandos/dibujo/)       | Ordena abrir una ventana de dibujo          |
-| [foto](/digi3d-net/referencia/linea-de-comandos/foto.md)         | Ordena abrir una ventana fotogramétrica     |
-| [proyecto](/digi3d-net/referencia/linea-de-comandos/proyecto.md) | Carga un archivo de proyecto fotogramétrico |
+| [dibujo](/digi3d-ai/referencia/linea-de-comandos/dibujo/)       | Ordena abrir una ventana de dibujo          |
+| [foto](/digi3d-ai/referencia/linea-de-comandos/foto.md)         | Ordena abrir una ventana fotogramétrica     |
+| [proyecto](/digi3d-ai/referencia/linea-de-comandos/proyecto.md) | Carga un archivo de proyecto fotogramétrico |
 
 ## Ejemplos
 

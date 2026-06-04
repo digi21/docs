@@ -1,6 +1,6 @@
 # REDO
 
-Rehace la última operación deshecha con la orden [UNDO](/digi3d-net/referencia/ventana-de-dibujo/ordenes/u/undo.md).
+Rehace la última operación deshecha con la orden [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md).
 
 ## Parámetros
 
@@ -18,5 +18,5 @@ No se han registrado observaciones para esta orden.
 | Opción del menú donde aparece la orden | Editar/Rehacer |
 | Barra de herramientas en la que aparece la orden | Deshacer |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [UNDO](/digi3d-net/referencia/ventana-de-dibujo/ordenes/u/undo.md) |
+| Variables relacionadas | [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) |
 

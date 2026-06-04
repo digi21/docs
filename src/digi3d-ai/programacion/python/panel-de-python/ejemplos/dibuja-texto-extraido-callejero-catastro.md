@@ -19,7 +19,7 @@ class DibujaTextoExtraidoCallejeroCatastro(digi3d.PythonCommand):
         digi3d.PythonCommand.__init__(self, 'dibuja_texto_extraido_callejero_catastro')
         self.codigo_epsg = codigo_epsg
 
-    # Digi3D.NET llama a on_data_down cada vez que el usuario pulsa el botón (o pedal) de dato.
+    # Digi3D.AI llama a on_data_down cada vez que el usuario pulsa el botón (o pedal) de dato.
     def on_data_down(self, coordenadas):
         calle = self.obten_nombre_calle_servidor_catastro(coordenadas)
         if calle is None:
@@ -68,8 +68,8 @@ else:
 - **Órdenes interactivas**: a diferencia de los guiones anteriores (que se ejecutan de principio a
   fin), una orden interactiva es una clase que hereda de
   [`digi3d.PythonCommand`](../../referencia/digi3d/python-command.md) y **reacciona a eventos** del usuario. Aquí
-  implementamos `on_data_down(coordenadas)`, que Digi3D.NET llama en cada pulsación de dato.
-  - Devolver `True` le dice a Digi3D.NET que el evento ya se ha procesado.
+  implementamos `on_data_down(coordenadas)`, que Digi3D.AI llama en cada pulsación de dato.
+  - Devolver `True` le dice a Digi3D.AI que el evento ya se ha procesado.
   - `self.view` es la ventana de dibujo (la proporciona la clase base).
   - `self.new_transaction()` abre una transacción nueva por cada texto, de modo que cada inserción se
     deshace con un UNDO independiente (sin esto, un solo UNDO borraría todos los textos a la vez).

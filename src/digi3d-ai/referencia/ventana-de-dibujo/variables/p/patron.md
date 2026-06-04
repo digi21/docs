@@ -32,7 +32,7 @@ Activa y desactiva la visualización en pantalla de los patrones de línea en el
 
 ## Observaciones
 
-Cuanto está activado, DigiNG utiliza la información de la [tabla de códigos](/digi3d-net/referencia/editor-de-tablas-de-codigos/) para visualizar las líneas con la simbología de ploteo.
+Cuanto está activado, DigiNG utiliza la información de la [tabla de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/) para visualizar las líneas con la simbología de ploteo.
 
 ## Características de la orden
 

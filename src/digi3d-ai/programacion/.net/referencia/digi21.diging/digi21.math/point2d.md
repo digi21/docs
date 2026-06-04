@@ -1,7 +1,7 @@
 # Point2D
 
-Espacio de nombres: [Digi21.Math](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Esta clase implementa un punto en dos dimensiones.
 
@@ -11,27 +11,27 @@ public struct Point2D : IDesplazable
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ Point2D
 
-Implementa: [IDesplazable](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/)
+Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/)
 
 ## Constructores
 
 |  |  |
 | :--- | :--- |
-| Point2D\(Point3D\) | Inicializa una nueva instancia de [Point2D](point2d.md)copiando datos de un [Point3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
+| Point2D\(Point3D\) | Inicializa una nueva instancia de [Point2D](point2d.md)copiando datos de un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
 | Point2D\(double\) | Inicializa una nueva instancia de [Point2D](point2d.md)asignando a las coordenadas X e Y el valor pasado por parámetros. |
-| Point2D\(double, double\) | Inicializa una nueva instancia de [Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md) asignando a las coordenadas X a Y los valores pasados por parámetros. |
+| Point2D\(double, double\) | Inicializa una nueva instancia de [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md) asignando a las coordenadas X a Y los valores pasados por parámetros. |
 
 ## Propiedades
 
 |  |  |
 | :--- | :--- |
-| X | Devuelve o asigna la coordenada X del [Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
-| Y | Devuelve o asigna la coordenada Y del [Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| X | Devuelve o asigna la coordenada X del [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| Y | Devuelve o asigna la coordenada Y del [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 | Module | Devuelve la distancia entre las coordenadas del [Point2D](point2d.md)y el origen \(0,0\). |
 | SquaredModule | Devuelve la distancia al cuadrado entre las coordenadas del [Point2D](point2d.md)y el origen \(0,0\). |
 | Normalized | Devuelve un nuevo [Point2D](point2d.md)cuyo módulo es 1.0. |
 | IsEmpty | Devuelve verdadero si las coordenadas X e Y son 0.0. |
-| Azimuth | Devuelve el azimut del vector que va del origen \(0,0\) al [Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| Azimuth | Devuelve el azimut del vector que va del origen \(0,0\) al [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 
 ## Métodos
 
@@ -120,11 +120,11 @@ Implementa: [IDesplazable](/digi3d-net/programacion/.net/referencia/digi21.digin
 
 |  |  |
 | :--- | :--- |
-| Point3D | Transforma el [Point2D](point2d.md)en un [Point3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
+| Point3D | Transforma el [Point2D](point2d.md)en un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
 | == | Devuelve verdadero si los dos [Point2D](point2d.md)tienen idénticas coordenadas. |
 | != | Devuelve verdadero si los dos [Point2D](point2d.md)tienen distintas coordenadas. |
-| + | Devuelve un [Point2D](point2d.md)cuyas coordenadas son la suma de los dos [Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
-| - | Devuelve un [Point2D](point2d.md)cuyas coordenadas son la resta de los dos [Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| + | Devuelve un [Point2D](point2d.md)cuyas coordenadas son la suma de los dos [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| - | Devuelve un [Point2D](point2d.md)cuyas coordenadas son la resta de los dos [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 | \* | Devuelve un [Point2D](point2d.md)cuyas coordenadas son las coordenadas del [Point2D](point2d.md)a la izquierda del operador por el escalar a la derecha del operador. |
 | / | Devuelve un [Point2D](point2d.md)cuyas coordenadas son las coordenadas del [Point2D](point2d.md)a la izquierda del operador divididas por el escalar a la derecha del operador. |
 |  |  |

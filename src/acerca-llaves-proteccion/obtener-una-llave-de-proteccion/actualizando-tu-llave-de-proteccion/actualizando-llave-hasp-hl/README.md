@@ -10,7 +10,7 @@ Este proceso no elimina información de tu llave, de modo que si en ésta tienes
 1.  Instala si no lo tienes ya instalado el programa que quieres utilizar:\
 
 
-    * [Digi3D.NET](/digi3d-net/referencia/)
+    * [Digi3D.AI](/digi3d-ai/referencia/)
     * [MDTopX](/mdtopx/)
     * [Topcal21](https://www.digi21.net/Topcal21/Download)
 

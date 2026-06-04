@@ -1,2 +1,2 @@
-# Digi3D.NET
+# Digi3D.AI
 

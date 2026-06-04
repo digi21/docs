@@ -4,7 +4,7 @@ Todos nuestros programas requieren de una llave de protección. En estas llaves 
 
 ## Suite de aplicaciones Licencias
 
-Los instaladores de nuestros programas ([Digi3D.NET](/digi3d-net/referencia/), pero si acabas de descargar cualquiera de nuestros programas no será necesario, pues ya está incluida.
+Los instaladores de nuestros programas ([Digi3D.AI](/digi3d-ai/referencia/), pero si acabas de descargar cualquiera de nuestros programas no será necesario, pues ya está incluida.
 
 Esta suite instala varios componentes: El controlador de la llave de protección y una serie de programas que te van a permitir comprobar el estado de tu llave de protección, activar ordenadores en tu llave de protección, etc.
 

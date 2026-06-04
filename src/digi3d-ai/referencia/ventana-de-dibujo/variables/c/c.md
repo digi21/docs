@@ -1,6 +1,6 @@
 # C
 
-Indica si _Digi3D.NET_ cerrará automáticamente la línea que está digitalizando al finalizarla.
+Indica si _Digi3D.AI_ cerrará automáticamente la línea que está digitalizando al finalizarla.
 
 ## Parámetros
 
@@ -8,7 +8,7 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 
 ## Observaciones
 
-Puedes finalizar una línea mediante el botón derecho del ratón o el pedal de _Reset_ de las manivelas, ejecutando la orden [FIN\_ENT](/digi3d-net/referencia/ventana-de-dibujo/ordenes/f/fin-ent.md).
+Puedes finalizar una línea mediante el botón derecho del ratón o el pedal de _Reset_ de las manivelas, ejecutando la orden [FIN\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fin-ent.md).
 
 Si está activada la variable booleana **C**, al finalizar la línea con el botón de _Reset_ o con la orden _FIN\_ENT_ el programa cerrará automáticamente la línea como si se hubiera ejecutado la orden _CIERRA\_ENT_.
 

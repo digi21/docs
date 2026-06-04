@@ -1,6 +1,6 @@
-# Instalación de Digi3D.NET
+# Instalación de Digi3D.AI
 
-Para instalar Digi3D.NET, tan solo tienes que [descargar el instalador](https://www.digi21.net/Digi3D/Download) de nuestra página web.
+Para instalar Digi3D.AI, tan solo tienes que [descargar el instalador](https://www.digi21.net/Digi3D/Download) de nuestra página web.
 
 El instalador es un _bootstrapper,_ que es un instalador de instaladores. Este instalador se encargará de instalar todos los componentes necesarios para el programa \(suite de licencias, controlador de la llave de protección, modelos de geoide, etc.\).
 

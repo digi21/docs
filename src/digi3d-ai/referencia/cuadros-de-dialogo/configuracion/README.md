@@ -2,7 +2,7 @@
 
 ![Cuadro de diálogo Configuración](../../../../images/cuadrodialogoconfiguracion.png)
 
-Este cuadro de diálogo permite configurar todos los aspectos Digi3D.NET.
+Este cuadro de diálogo permite configurar todos los aspectos Digi3D.AI.
 
 ## Abrir el cuadro de diálogo
 
@@ -22,4 +22,4 @@ Para cambiar una configuración sigue los siguientes pasos:
 
 ## Observaciones
 
-Los parámetros configurados con este cuadro de diálogo se almacenan en el archivo de configuración [Digi3DNET.db](../../archivos/archivo-de-configuracion-digi3dnet.db.md) o en la entrada del registro **Computer\HKEY_CURRENT_USER\SOFTWARE\Digi21\Digi3D.NET**.
+Los parámetros configurados con este cuadro de diálogo se almacenan en el archivo de configuración [Digi3DNET.db](../../archivos/archivo-de-configuracion-digi3dnet.db.md) o en la entrada del registro **Computer\HKEY_CURRENT_USER\SOFTWARE\Digi21\Digi3D.AI**.

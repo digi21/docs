@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Antes de ejecutar la orden debes asignar el nuevo ángulo activo con la orden [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md).
+Antes de ejecutar la orden debes asignar el nuevo ángulo activo con la orden [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 
 ## Características de la orden
 
@@ -18,5 +18,5 @@ Antes de ejecutar la orden debes asignar el nuevo ángulo activo con la orden [A
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar ángulo activo de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
 

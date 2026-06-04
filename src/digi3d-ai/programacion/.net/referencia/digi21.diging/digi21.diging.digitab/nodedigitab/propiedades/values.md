@@ -1,7 +1,7 @@
 # Values
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Devuelve el [diccionario de valores](../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#valores) asociado con el código.
 

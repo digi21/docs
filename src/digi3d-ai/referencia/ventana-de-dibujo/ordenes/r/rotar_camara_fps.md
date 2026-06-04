@@ -14,5 +14,5 @@ Esta orden anula el movimiento del _SpaceMouse_ y lo rehabilita al finalizar.
 | Opción del menú donde aparece la orden | No aparece en ningún menú. |
 | Barra de herramientas en la que aparece la orden | No aparece en ninguna barra de herramientas. |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AT](/digi3d-net/referencia/ventana-de-dibujo/variables/a/at.md) |
+| Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) |
 

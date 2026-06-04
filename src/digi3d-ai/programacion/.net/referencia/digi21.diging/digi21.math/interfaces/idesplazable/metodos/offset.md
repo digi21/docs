@@ -1,7 +1,7 @@
 # Offset
 
-Espacio de nombres: [Digi21.Math](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Desplaza la geometría.
 
@@ -24,7 +24,7 @@ void Offset(Point2D offset);
 
 ## Parámetros
 
-`offset`[Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md)  
+`offset`[Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md)  
 Punto que define cuántas unidades desplazar la geometría en X y en Y.
 
 ## Offset\(Point3D\)
@@ -37,7 +37,7 @@ void Offset(Point3D offset);
 
 ## Parámetros
 
-`offset`[Point3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)  
+`offset`[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)  
 Punto que define cuántas unidades desplazar la geometría en X, Y, Z.
 
 ## Offset\(double, double\)

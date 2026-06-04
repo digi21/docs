@@ -10,5 +10,5 @@ De modo que un sistema de referencia de coordenadas proyectado siempre está for
 
 Los sistemas de referencia de coordenadas proyectados son siempre de dos dimensiones \(aunque su sistema de referencia de coordenadas geográfico asociado sea de tres dimensiones\) y habitualmente \(aunque no tiene por qué ser así\) en la primera dimensión se almacena la coordenada _X_ y en la segunda la coordenada _Y_ las unidades de éstas suelen ser _metros_.
 
-Digi3D.NET no permite al usuario seleccionar un sistema de referencia de coordenadas proyectado directamente, únicamente permite seleccionarlo como parte de un [sistema de referencia de coordenadas compuesto](../sistemas-referencia-coordenadas-compuestos.md).
+Digi3D.AI no permite al usuario seleccionar un sistema de referencia de coordenadas proyectado directamente, únicamente permite seleccionarlo como parte de un [sistema de referencia de coordenadas compuesto](../sistemas-referencia-coordenadas-compuestos.md).
 

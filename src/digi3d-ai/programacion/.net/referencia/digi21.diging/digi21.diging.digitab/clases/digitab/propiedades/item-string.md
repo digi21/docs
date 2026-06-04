@@ -1,9 +1,9 @@
 # Item\[string\]
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
-Devuelve el [NodeDigiTab](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/) con las características del código cuyo nombre coincide con el parámetro.
+Devuelve el [NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/) con las características del código cuyo nombre coincide con el parámetro.
 
 ```csharp
 public NodeDigiTab this[string name] 
@@ -16,7 +16,7 @@ Nombre del código a obtener.
 
 ## Valor de la propiedad
 
-[NodeDigiTab](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/)
+[NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/)
 
 Código solicitado
 

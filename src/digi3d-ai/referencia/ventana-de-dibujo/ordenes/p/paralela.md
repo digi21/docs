@@ -47,7 +47,7 @@ Las paralelas las va a generar con el código que esté activo en el momento de 
     </tr>
     <tr>
       <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left"><a href="/digi3d-net/referencia/ventana-de-dibujo/ordenes/p/REPITE.md">REPITE</a>
+      <td style="text-align:left"><a href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/REPITE.md">REPITE</a>
       </td>
     </tr>
   </tbody>

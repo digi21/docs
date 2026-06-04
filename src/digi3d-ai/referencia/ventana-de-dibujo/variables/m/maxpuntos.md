@@ -20,9 +20,9 @@ Muestra el valor actual del número máximo de puntos
 
 ## Observaciones
 
-Cuando la entidad alcance el número máximo de puntos fijado por la orden _MAXPUNTOS_, la entidad se terminará automáticamente o se cerrará si está activada la orden [C](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/).
+Cuando la entidad alcance el número máximo de puntos fijado por la orden _MAXPUNTOS_, la entidad se terminará automáticamente o se cerrará si está activada la orden [C](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/).
 
-Esta orden se desactiva cuando se camiba el código o cuando se introduce como número de puntos máximo igual a cero \(0\). Se puede cambiar el número de puntos máximo mediante la orden [CAMB\_MAXPUNTOS](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/camb-maxpuntos.md).
+Esta orden se desactiva cuando se camiba el código o cuando se introduce como número de puntos máximo igual a cero \(0\). Se puede cambiar el número de puntos máximo mediante la orden [CAMB\_MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-maxpuntos.md).
 
 ## Características de la orden
 

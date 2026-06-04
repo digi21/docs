@@ -1,6 +1,6 @@
 # Barras de herramientas
 
-Digi3D.NET dispone de múltiples barras de herramientas.
+Digi3D.AI dispone de múltiples barras de herramientas.
 
 Los usuarios avanzados acostumbrados a trabajar con órdenes asignadas a teclas del teclado no suelen utilizar barras de herramientas.
 

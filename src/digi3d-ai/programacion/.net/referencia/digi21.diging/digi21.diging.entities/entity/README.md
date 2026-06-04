@@ -1,7 +1,7 @@
 # Entity
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Esta clase abstracta es la clase base común de todas las clases que implementan geometrías.
 
@@ -11,18 +11,18 @@ public abstract class Entity : IWindow3D, ICloneable, IDisposable
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → Entity
 
-Tipos derivados: [ReadOnlyComplex](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/).
+Tipos derivados: [ReadOnlyComplex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/).
 
-Implementa: [ICloneable](../icloseable/), [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0), [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)
+Implementa: [ICloneable](../icloseable/), [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0), [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)
 
 ## Observaciones
 
-Algunas propiedades de este tipo permiten asignación como [FillColor](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/fillcolor.md).
+Algunas propiedades de este tipo permiten asignación como [FillColor](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/fillcolor.md).
 
-Al instanciar una geometría nueva como por ejemplo [Line](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md), ésta es de lectura/escritura, de manera que se pueden utilizar las propiedades de asignación sin ningún problema.   
-En el momento en el que la geometría se almacena en un archivo de dibujo \([IDrawingFile](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/), esta se convierte en una geometría de sólo lectura y ya no es posible asignar ninguna propiedad. 
+Al instanciar una geometría nueva como por ejemplo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md), ésta es de lectura/escritura, de manera que se pueden utilizar las propiedades de asignación sin ningún problema.   
+En el momento en el que la geometría se almacena en un archivo de dibujo \([IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/), esta se convierte en una geometría de sólo lectura y ya no es posible asignar ninguna propiedad. 
 
-En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto la propiedad [Hidden](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/hidden.md).
+En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto la propiedad [Hidden](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/hidden.md).
 
 ## Propiedades
 

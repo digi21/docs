@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden hay que establecer como código activo el nuevo código con la orden [COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
+Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden hay que establecer como código activo el nuevo código con la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
 
 ## Características de la orden
 
@@ -18,5 +18,5 @@ Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden hay que e
 | Opción del menú donde aparece la orden | Editar/Cambiar los códigos de una entidad por los activos |
 | Barra de herramientas en la que aparece la orden | Editar códigos |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

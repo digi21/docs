@@ -2,7 +2,7 @@
 
 Módulo: `digi3d`
 
-Representa la **ventana de dibujo** de Digi3D.NET. Es el objeto central de un guion en el
+Representa la **ventana de dibujo** de Digi3D.AI. Es el objeto central de un guion en el
 panel: da acceso a las geometrías cargadas, las órdenes, la configuración de dibujo y los
 servicios de la vista.
 
@@ -39,7 +39,7 @@ archivos de dibujo cargados:
 | `recover(geometry)` | Recupera una geometría borrada. |
 | `recover(geometries)` | Recupera un iterable o una lista de geometrías borradas. |
 
-> En Digi3D.NET **borrar no elimina realmente** la geometría: solo la **marca como borrada** (lo
+> En Digi3D.AI **borrar no elimina realmente** la geometría: solo la **marca como borrada** (lo
 > indica la propiedad `deleted` de la [geometría](../digi21.base/geometry.md)). Por eso se
 > puede **recuperar** con `recover`. Pasar una **lista** a `delete`/`recover` es bastante más rápido
 > que llamarlos de una en una.

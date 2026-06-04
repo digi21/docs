@@ -9,5 +9,5 @@ Este panel se habilita únicamente si seleccionamos la opción **Barra de herram
 ## Botones
 
 * Desplegable que permite seleccionar el código activo.
-* Botón que ejecuta la orden [COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
-* Botón que ejecuta la orden [CLONAR](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/clonar.md).
+* Botón que ejecuta la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
+* Botón que ejecuta la orden [CLONAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/clonar.md).

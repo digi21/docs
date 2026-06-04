@@ -2,7 +2,7 @@
 
 ![Generador de archivos de ortofoto estereoscópica](../../images/generadorarchivosortofotoestereoscopica.png)
 
-Permite crear archivos HMP (Heigh Map Pyramidal) para el sensor Ortofoto Estereoscópica de Digi3D.NET.
+Permite crear archivos HMP (Heigh Map Pyramidal) para el sensor Ortofoto Estereoscópica de Digi3D.AI.
 
 ## Observaciones
 

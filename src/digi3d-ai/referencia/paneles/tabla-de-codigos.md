@@ -16,10 +16,10 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 
 * Botón que añade un código al listado de códigos activos.
 * Botón elimina el código seleccionado del listado de códigos activos.
-* Botón que ejecuta la orden [COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
+* Botón que ejecuta la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
 * Botón que ejecuta la orden [CLONAR_CODIGOS](../ventana-de-dibujo/ordenes/c/clonar-codigos.md).
 * Botón que ejecuta la orden [CLONAR_CODIGOS+](../ventana-de-dibujo/ordenes/c/clonar-codigos-mas.md).
 
 ## Base de datos
 
-Si estamos trabajando con una base de datos, al seleccionar un determinado código en este panel se forzará al panel [Campos de la base de datos](/digi3d-net/referencia/paneles/campos-de-la-base-de-datos.md) en la tabla de códigos para el código seleccionado.
+Si estamos trabajando con una base de datos, al seleccionar un determinado código en este panel se forzará al panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md) en la tabla de códigos para el código seleccionado.

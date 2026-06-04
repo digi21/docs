@@ -1,6 +1,6 @@
 # ORTO\_AA
 
-Traza entidades en las que sus tramos son perpendiculares entre sí, pero atendiendo a la dirección marcada por el [ángulo activo](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md).
+Traza entidades en las que sus tramos son perpendiculares entre sí, pero atendiendo a la dirección marcada por el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 
 ## Parámetros
 
@@ -42,5 +42,5 @@ Hay que determinar el valor del _ángulo activo_ antes de ejecutar la orden ORTO
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Ortogonal al ángulo activo |
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
 

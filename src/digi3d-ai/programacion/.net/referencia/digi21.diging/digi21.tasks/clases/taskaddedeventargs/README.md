@@ -1,7 +1,7 @@
 # TaskAddedEventArgs
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Argumento de evento para los eventos que añaden tareas.
 
@@ -15,11 +15,11 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |
 | :--- | :--- |
-| [TaskAddedEventArgs\(ITask\)](constructores.md) | Inicializa una nueva instancia de [TaskAddedEventArgs](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/) configurado con la tarea que se acaba de añadir. |
+| [TaskAddedEventArgs\(ITask\)](constructores.md) | Inicializa una nueva instancia de [TaskAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/) configurado con la tarea que se acaba de añadir. |
 
 ## Propiedades
 
 |  |  |
 | :--- | :--- |
-| [Task](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/propiedades/task.md) | Devuelve la tarea que se acaba de añadir. |
+| [Task](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/propiedades/task.md) | Devuelve la tarea que se acaba de añadir. |
 

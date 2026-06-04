@@ -34,7 +34,7 @@ El ámbito de búsqueda de una entidad está determinado por el tamaño del curs
 
 **Ejemplos**
 
-Si nos encontramos la situación de tener activado el modo de búsqueda 12 y tenemos que tentativar en una entidad en la cual la Z no es coincidente, en este caso se admite ejecutar la orden [MODOB](/digi3d-net/referencia/ventana-de-dibujo/variables/m/modob.md) con un tipo de modo de búsqueda secundario secundario.
+Si nos encontramos la situación de tener activado el modo de búsqueda 12 y tenemos que tentativar en una entidad en la cual la Z no es coincidente, en este caso se admite ejecutar la orden [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md) con un tipo de modo de búsqueda secundario secundario.
 
 `modob=12 1`
 
@@ -48,5 +48,5 @@ De esta forma en caso de llegar a un elemento en el cual no es posible enganchar
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

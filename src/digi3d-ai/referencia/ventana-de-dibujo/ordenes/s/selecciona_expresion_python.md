@@ -1,6 +1,6 @@
 # SELECCIONA\_EXPRESIÓN\_PYTHON
 
-Envía a la orden activa todas las geometrías que cumplan con la[ expresión Python](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros o introducida en el cuadro de diálogo.
+Envía a la orden activa todas las geometrías que cumplan con la[ expresión Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros o introducida en el cuadro de diálogo.
 
 ## Parámetros
 

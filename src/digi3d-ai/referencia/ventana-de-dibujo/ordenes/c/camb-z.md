@@ -20,5 +20,5 @@ En caso de tratarse de una entidad que tiene diferentes valores de Z, todos esto
 | Opción del menú donde aparece la orden | Editar/Asignar coordenada Z a las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

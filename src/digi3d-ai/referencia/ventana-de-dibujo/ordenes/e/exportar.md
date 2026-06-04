@@ -123,7 +123,7 @@ Los parámetros de exportación dependerán del tipo de archivo que se desea exp
 
 ## Observaciones
 
-Las entidades que estén registradas con un código que está apagado \([OFF](/digi3d-net/referencia/ventana-de-dibujo/ordenes/o/off.md), en el momento de ejecutar la orden, no serán incluidas en el archivo exportado.
+Las entidades que estén registradas con un código que está apagado \([OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md), en el momento de ejecutar la orden, no serán incluidas en el archivo exportado.
 
 ## Características de la orden
 

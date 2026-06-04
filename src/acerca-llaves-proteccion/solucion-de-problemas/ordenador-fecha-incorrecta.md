@@ -12,6 +12,6 @@ Nuestros programas no van a funcionar si la fecha del ordenador es incorrecta pa
 
 Tienes que cambiar la fecha y hora del ordenador antes de utilizar cualquiera de nuestros programas.
 
-A continuación, te mostramos cómo comunica _Digi3D.NET_ esta incidencia:
+A continuación, te mostramos cómo comunica _Digi3D.AI_ esta incidencia:
 
 ![Cuadro de diálogo indicando que la fecha del ordenador es incorrecta](../../images/ordenador-con-fecha-incorrecta.png)

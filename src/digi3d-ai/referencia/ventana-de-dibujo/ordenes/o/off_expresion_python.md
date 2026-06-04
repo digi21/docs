@@ -1,6 +1,6 @@
 # OFF\_EXPRESIÓN\_PYTHON
 
-Desactiva la visualización de geometrías que devuelvan verdadero en la [expresión Python](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros.
+Desactiva la visualización de geometrías que devuelvan verdadero en la [expresión Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros.
 
 ## Parámetros
 
@@ -23,8 +23,8 @@ Desactiva la visualización de geometrías que devuelvan verdadero en la [expres
         <p>o
           <br />
         </p>
-        <p>Conjunto de <a href="/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md">selecciones</a> almacenadas
-          en la tabla de c&#xF3;digos. Digi3D.NET entender&#xE1; que deber&#xE1;
+        <p>Conjunto de <a href="/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md">selecciones</a> almacenadas
+          en la tabla de c&#xF3;digos. Digi3D.AI entender&#xE1; que deber&#xE1;
           extraer la expresi&#xF3;n de una selecci&#xF3;n en la tabla de c&#xF3;digos
           si esta comienza por #.</p>
       </td>
@@ -47,13 +47,13 @@ Para apagar todas las geometrías que tengan asignado en la base de datos como p
 OFF_EXPRESION_PYTHON=Propietario == 'Dylan' and Plantas > 3 and digi3DGeometry.Codes[0].Name == '010101' and digi3DGeometry.Points.Count == 7
 ```
 
-Para apagar todas las geometrías que satisfagan la [selección](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md)"Edificios" almacenada en la tabla de códigos:
+Para apagar todas las geometrías que satisfagan la [selección](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md)"Edificios" almacenada en la tabla de códigos:
 
 ```text
 OFF_EXPRESION_PYTHON=#Edificios
 ```
 
-Para apagar todas las geometrías que satisfagan tanto la [selección](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md)"Edificios" como la selección "Deportivo" almacenadas en la tabla de códigos:
+Para apagar todas las geometrías que satisfagan tanto la [selección](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md)"Edificios" como la selección "Deportivo" almacenadas en la tabla de códigos:
 
 ```text
 OFF_EXPRESION_PYTHON=#Edificios #Deportivo

@@ -1,6 +1,6 @@
 # DEJAR\_TOP
 
-Deja el fichero de topología, generado mediante la orden [BINTOP](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/bintop.md), cargado en el momento de ejecutar la orden.
+Deja el fichero de topología, generado mediante la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md), cargado en el momento de ejecutar la orden.
 
 ## Parámetros
 

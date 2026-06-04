@@ -1,6 +1,6 @@
 # ALINEAR
 
-Mueve los vértices cuya distancia a la línea virtual digitalizada sea inferior o igual al valor de la [distancia activa principal](/digi3d-net/referencia/ventana-de-dibujo/variables/d/da.md).
+Mueve los vértices cuya distancia a la línea virtual digitalizada sea inferior o igual al valor de la [distancia activa principal](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md).
 
 ## Parámetros
 
@@ -18,5 +18,5 @@ Esta orden se utiliza para alinear segmentos de líneas. El usuario digitaliza u
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Alinear los vértices de líneas \(2 puntos\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asignada ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [DA](/digi3d-net/referencia/ventana-de-dibujo/variables/d/da.md) |
+| Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) |
 

@@ -1,7 +1,7 @@
 # ResultsAddedEventArgs
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Argumento de evento para los eventos que comunican resultados.
 
@@ -15,11 +15,11 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |
 | :--- | :--- |
-| [ResultsAddedEventArgs\(string\)](constructores.md) | Inicializa una nueva instancia de [ResultsAddedEventArgs](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/) configurado con un determinado valor de progreso. |
+| [ResultsAddedEventArgs\(string\)](constructores.md) | Inicializa una nueva instancia de [ResultsAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/) configurado con un determinado valor de progreso. |
 
 ## Propiedades
 
 |  |  |
 | :--- | :--- |
-| [Message](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/propiedades/message.md) | Devuelve el mensaje emitido por el generador del evento. |
+| [Message](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/propiedades/message.md) | Devuelve el mensaje emitido por el generador del evento. |
 

@@ -8,7 +8,7 @@ Hay que definir el segmento hasta el que se desea borrar los puntos digitalizado
 
 ## Observaciones
 
-Esta orden sólo tiene efecto mientras la entidad no se finalice. Es similar a la orden [U](/digi3d-net/referencia/ventana-de-dibujo/ordenes/u/u.md), con la diferencia de que la orden _UM_ puede borrar varios puntos de una sola vez.
+Esta orden sólo tiene efecto mientras la entidad no se finalice. Es similar a la orden [U](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u.md), con la diferencia de que la orden _UM_ puede borrar varios puntos de una sola vez.
 
 ## Características de la orden
 

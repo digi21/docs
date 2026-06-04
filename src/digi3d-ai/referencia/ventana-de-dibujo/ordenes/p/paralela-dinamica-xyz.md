@@ -18,5 +18,5 @@ Las paralelas las va a generar con el código que esté activo en el momento de 
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica en XYZ |
 | Barra de herramientas en la que aparece la orden | Paralela |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

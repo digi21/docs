@@ -1,7 +1,7 @@
 # CodeCollection
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Esta clase es representa una colección de códigos.
 
@@ -26,14 +26,14 @@ Implementa: [IList&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.
 |  |  |
 | :--- | :--- |
 | Add\(Code\) | Añade un [Code](code/)al [CodeCollection](codecollection.md). |
-| Add\(IEnumerable&lt;Code&gt;\) | Añade una enumeración de [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
-| Clear\(\) | Elimina todos los [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
-| Contains\(Code\) | Determina si el [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
+| Add\(IEnumerable&lt;Code&gt;\) | Añade una enumeración de [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
+| Clear\(\) | Elimina todos los [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
+| Contains\(Code\) | Determina si el [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
 | CopyTo\(Code\[\], int\) | Copia los elementos del [CodeCollection](codecollection.md) a un [Array](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=net-5.0), comenzando en un índice en particular. |
-| IndexOf\(Code\) | Determina el índice de un [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
-| Insert\(int, Code\) | Inserta un [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
-| Remove\(Code\) | Elimina la primera ocurrencia de un [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
-| RemoveAt\(int\) | Elimina el [Code](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) en el índice especificado. |
+| IndexOf\(Code\) | Determina el índice de un [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
+| Insert\(int, Code\) | Inserta un [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
+| Remove\(Code\) | Elimina la primera ocurrencia de un [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). |
+| RemoveAt\(int\) | Elimina el [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) en el índice especificado. |
 
 ## 
 

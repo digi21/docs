@@ -1,6 +1,6 @@
 # Órdenes
 
-Esta pestaña permite configurar órdenes que se [ejecutarán automáticamente](/digi3d-net/referencia/ordenes/formas-de-ejecutar-una-orden/al-seleccionar-un-codigo.md) por parte de Digi3D.NET al trabajar en la ventana de dibujo con esta tabla de códigos cargada.
+Esta pestaña permite configurar órdenes que se [ejecutarán automáticamente](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/al-seleccionar-un-codigo.md) por parte de Digi3D.AI al trabajar en la ventana de dibujo con esta tabla de códigos cargada.
 
 ## Órdenes de inicio
 

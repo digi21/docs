@@ -47,7 +47,7 @@ En el esquema explicado anteriormente hay tres componentes que tienen su propio 
 2. El _sensor_. A su sistema de referencia de coordenadas lo denominaremos _Sistema de referencia de coordenadas Sensor_.
 3. La _ventana de dibujo_. A su sistema de referencia de coordenadas lo denominaremos _Sistema de referencia de coordenadas Ventana de dibujo_.
 
-Como estos sistemas de referencia de coordenadas no tienen por qué ser idénticos, Digi3D.NET realiza transformaciones de sistemas de referencia de coordenadas entre ellos, de modo que los pasos anteriores en realidad son así:
+Como estos sistemas de referencia de coordenadas no tienen por qué ser idénticos, Digi3D.AI realiza transformaciones de sistemas de referencia de coordenadas entre ellos, de modo que los pasos anteriores en realidad son así:
 
 ![](../../../images/gráfico-transformación-terreno-a-scr-sensor-y-scr-ventana-de-dibujo.png)
 

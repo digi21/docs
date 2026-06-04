@@ -1,6 +1,6 @@
 # digi21.base
 
-Tipos del núcleo de Digi3D.NET. No abre archivos (para eso está
+Tipos del núcleo de Digi3D.AI. No abre archivos (para eso está
 [digi21.io](../digi21.io/README.md)).
 
 ```python
@@ -12,7 +12,7 @@ from digi21.base import Point, Line, Polygon, FeatureCode, DigiTab, Camera
 
 | Clase | Descripción |
 |---|---|
-| [FeatureCode](featurecode.md) | Un código de Digi3D.NET. |
+| [FeatureCode](featurecode.md) | Un código de Digi3D.AI. |
 | [DigiTab](digitab.md) | Tabla de códigos (`digi.tab`). |
 | [DigiTabNode](digitabnode.md) | Nodo de una tabla de códigos. |
 | [Geometry](geometry.md) | Clase base de todas las geometrías. |

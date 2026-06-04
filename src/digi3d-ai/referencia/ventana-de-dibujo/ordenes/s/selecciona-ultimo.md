@@ -20,7 +20,7 @@ Esta orden permite una mayor velocidad a la hora de restituir o editar.
 
 ### Ejemplo:
 
-Si combinas la orden _SELECCIONA_ÚLTIMO_ con la orden [ZOOM\_ENTIDAD](/digi3d-net/referencia/ventana-de-dibujo/ordenes/z/zoom-entidad.md), resulta muy útil en caso de que se haya digitalizado un punto en el infinito, ejecutaríamos primero la orden _ZOOM\_ENTIDAD_ y a continuación la orden _SELECCIONA\_ÚLTIMO_, así nos situaremos más rápido en la entidad y podremos proceder a borrarla.
+Si combinas la orden _SELECCIONA_ÚLTIMO_ con la orden [ZOOM\_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-entidad.md), resulta muy útil en caso de que se haya digitalizado un punto en el infinito, ejecutaríamos primero la orden _ZOOM\_ENTIDAD_ y a continuación la orden _SELECCIONA\_ÚLTIMO_, así nos situaremos más rápido en la entidad y podremos proceder a borrarla.
 
 ## Características de la orden
 

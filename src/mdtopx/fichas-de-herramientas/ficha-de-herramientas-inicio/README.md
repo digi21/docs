@@ -12,4 +12,4 @@ Los comandos aparecen agrupados según los siguientes epígrafes:
 * [Zoom](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/zoom.md): Comandos relativos al movimiento del zoom sobre la pantalla.
 * [Vista](/mdtopx/modulo-laser/vista/): Comandos relativos al aspecto de la vista.
 * [Punto de vista](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/punto-de-vista.md): Comandos relativos al punto de vista.
-* [Ventana](/digi3d-net/referencia/ventana-de-dibujo/menus/ventana.md): Comandos relativos a la organización de las ventanas.
+* [Ventana](/digi3d-ai/referencia/ventana-de-dibujo/menus/ventana.md): Comandos relativos a la organización de las ventanas.

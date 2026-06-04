@@ -14,7 +14,7 @@ La orden necesita que se especifique el elemento, cuya selección se realizará 
 
 El resultado es una línea sin quiebros y de contorno más suave, ya que la función rellena la entidad con nuevos puntos.
 
-Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la variable [INC](/digi3d-net/referencia/ventana-de-dibujo/variables/i/inc.md), por lo que a menor valor del incremento de registro mayor efecto de suavizado se consigue.
+Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la variable [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md), por lo que a menor valor del incremento de registro mayor efecto de suavizado se consigue.
 
 ## Características de la orden
 
@@ -24,5 +24,5 @@ Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la v
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [S](/digi3d-net/referencia/ventana-de-dibujo/ordenes/s/) |
+| Variables relacionadas | [S](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/) |
 

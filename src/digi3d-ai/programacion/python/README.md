@@ -1,12 +1,12 @@
 # Python
 
-Digi3D.NET se puede **programar en Python**. Según dónde y cómo se ejecute el código, hay
+Digi3D.AI se puede **programar en Python**. Según dónde y cómo se ejecute el código, hay
 **tres formas** de hacerlo, cada una pensada para un propósito distinto:
 
 | Forma | Qué es | ¿Usa el objeto `digi3d`? |
 |---|---|---|
-| [Aplicaciones de consola](aplicaciones-de-consola/README.md) | Programas Python normales (fuera de Digi3D.NET) que leen y procesan archivos de dibujo. | No |
-| [Panel de Python](panel-de-python/README.md) | Guiones que se ejecutan dentro de Digi3D.NET, sobre el dibujo activo. | Sí |
+| [Aplicaciones de consola](aplicaciones-de-consola/README.md) | Programas Python normales (fuera de Digi3D.AI) que leen y procesan archivos de dibujo. | No |
+| [Panel de Python](panel-de-python/README.md) | Guiones que se ejecutan dentro de Digi3D.AI, sobre el dibujo activo. | Sí |
 | [Controles de calidad](controles-de-calidad/README.md) | Funciones que validan las geometrías de un código. | Sí |
 
 > Versión de Python objetivo: **3.12 (x64)**. Toda la API está **en inglés**: clases en
@@ -16,7 +16,7 @@ Digi3D.NET se puede **programar en Python**. Según dónde y cómo se ejecute el
 ## Aplicaciones de consola
 
 Programas de Python **normales**, ejecutados en un intérprete de tu sistema **fuera de
-Digi3D.NET**, que usan los paquetes `digi21.base` y `digi21.io` para **leer y procesar archivos
+Digi3D.AI**, que usan los paquetes `digi21.base` y `digi21.io` para **leer y procesar archivos
 de dibujo** (convertir, extraer información, generar informes…). No usan el objeto `digi3d`.
 
 - [Ir a la sección](aplicaciones-de-consola/README.md)
@@ -25,7 +25,7 @@ de dibujo** (convertir, extraer información, generar informes…). No usan el o
 
 ## Panel de Python
 
-Guiones que se ejecutan **dentro de Digi3D.NET**, con acceso al **dibujo activo** a través del
+Guiones que se ejecutan **dentro de Digi3D.AI**, con acceso al **dibujo activo** a través del
 objeto `digi3d`. Se lanzan desde el panel de Guiones Python o como una orden por su nombre.
 
 - [Ir a la sección](panel-de-python/README.md)

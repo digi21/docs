@@ -1,9 +1,9 @@
 # Justification
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
-Devuelve la justificación de textos del [ReadOnlyText](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/).
+Devuelve la justificación de textos del [ReadOnlyText](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/).
 
 ```csharp
 public TextJustification Justification { get; }
@@ -11,9 +11,9 @@ public TextJustification Justification { get; }
 
 ## Valor de la propiedad
 
-[TextJustification](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/enumeraciones/textjustification.md)
+[TextJustification](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/enumeraciones/textjustification.md)
 
-Justificación de textos del [ReadOnlyText](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/).
+Justificación de textos del [ReadOnlyText](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/).
 
 
 

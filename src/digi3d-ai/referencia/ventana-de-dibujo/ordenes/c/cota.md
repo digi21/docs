@@ -11,10 +11,10 @@ Digitaliza una cota altimétrica.
 
 ## Observaciones
 
-La distancia entre el punto y el texto es la mitad del valor almacenado en la variable [AT](/digi3d-net/referencia/ventana-de-dibujo/variables/a/at.md).  
-El texto digitalizado tendrá la rotación especificada en la variable [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md).  
-El texto digitalizado tendrá la justificación especificada en la variable [JT](/digi3d-net/referencia/ventana-de-dibujo/variables/j/jt.md).  
-El texto digitalizado tendrá tantos decimales como los especificados en la variable [NDEC](/digi3d-net/referencia/ventana-de-dibujo/variables/n/ndec.md).
+La distancia entre el punto y el texto es la mitad del valor almacenado en la variable [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md).  
+El texto digitalizado tendrá la rotación especificada en la variable [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).  
+El texto digitalizado tendrá la justificación especificada en la variable [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).  
+El texto digitalizado tendrá tantos decimales como los especificados en la variable [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md).
 
 ## Características de la orden
 
@@ -24,5 +24,5 @@ El texto digitalizado tendrá tantos decimales como los especificados en la vari
 | Opción del menú donde aparece la orden | Dibujar/Cota altimétrica |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

@@ -8,7 +8,7 @@ No admite parámetros
 
 ## Observaciones
 
-Es similar a la orden [BLOQUE](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/bloque.md), con la excepción de que la orden _BLOQUE\_2P_ toma dos puntos para girar el bloque a grabar.
+Es similar a la orden [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md), con la excepción de que la orden _BLOQUE\_2P_ toma dos puntos para girar el bloque a grabar.
 
 ## Características de la orden
 

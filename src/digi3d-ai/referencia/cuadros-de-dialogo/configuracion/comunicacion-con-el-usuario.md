@@ -8,13 +8,13 @@ Permite configurar el tema visual del programa.
 
 Podemos seleccionar una de las siguientes opciones:
 
-* **Claro**. Selecciona esta opción si quieres que Digi3D.NET muestre los menús, paneles y cuadros de diálogo con un tema claro.
-* **Oscuro**. Selecciona esta opción si quieres que Digi3D.NET muestre los menús, paneles y cuadros de diálogo con un tema oscuro.
-* **Azul**. Selecciona esta opción si quieres que Digi3D.NET muestre los menús, paneles y cuadros de diálogo con un tema azulado.
+* **Claro**. Selecciona esta opción si quieres que Digi3D.AI muestre los menús, paneles y cuadros de diálogo con un tema claro.
+* **Oscuro**. Selecciona esta opción si quieres que Digi3D.AI muestre los menús, paneles y cuadros de diálogo con un tema oscuro.
+* **Azul**. Selecciona esta opción si quieres que Digi3D.AI muestre los menús, paneles y cuadros de diálogo con un tema azulado.
 
 ## Idioma
 
-Permite configurar el idioma en el que se mostrará el interfaz de usuario de Digi3D.NET así como el de los nombres de las órdenes.
+Permite configurar el idioma en el que se mostrará el interfaz de usuario de Digi3D.AI así como el de los nombres de las órdenes.
 
 Podemos seleccionar una de las siguientes opciones:
 
@@ -31,20 +31,20 @@ Si configuramos para múltiples monitores, al abrir una ventana fotogramétrica,
 
 Podemos seleccionar una de las siguientes opciones:
 
-* **Si.** Selecciona esta opción para que Digi3D.NET abra las ventanas fotogramétricas dentro del marco principal de la aplicación.
-* **No**. Selecciona esta opción para que Digi3D.NET abra las ventanas fotogramétricas como una aplicación independiente.
+* **Si.** Selecciona esta opción para que Digi3D.AI abra las ventanas fotogramétricas dentro del marco principal de la aplicación.
+* **No**. Selecciona esta opción para que Digi3D.AI abra las ventanas fotogramétricas como una aplicación independiente.
 
 ## Sonidos
 
 Permite configurar el dispositivo que se utilizará para hacer sonar los sonidos del programa.
 
-Digi3D.NET históricamente ha emitido sonidos para que los operadores identifiquen lo que está pasando en el programa. El sonido más importante es el de error. Si el operador escucha el sonido de error, sabe que algo no se ha realizado correctamente.
+Digi3D.AI históricamente ha emitido sonidos para que los operadores identifiquen lo que está pasando en el programa. El sonido más importante es el de error. Si el operador escucha el sonido de error, sabe que algo no se ha realizado correctamente.
 
 Podemos seleccionar una de las siguientes opciones:
 
-* **Altavoz del sistema \(síncrono\).** Selecciona esta opción para que Digi3D.NET haga sonar los sonidos por el altavoz del sistema de manera síncrona \(puede bloquear el programa mientras suena el altavoz\).
-* **Altavoz del sistema \(asíncrono\)**. Selecciona esta opción para que Digi3D.NET haga sonar los sonidos por el altavoz del sistema de manera asíncrona.
-* **Tarjeta de sonido**. Selecciona esta opción para que Digi3D.NET haga sonar los sonidos por la tarjeta de sonido \(requiere indicar la ruta de los archivos WAV con los sonidos a emitir en cada uno de los eventos que provocan sonidos como Dato, Fin orden, etc.\).
+* **Altavoz del sistema \(síncrono\).** Selecciona esta opción para que Digi3D.AI haga sonar los sonidos por el altavoz del sistema de manera síncrona \(puede bloquear el programa mientras suena el altavoz\).
+* **Altavoz del sistema \(asíncrono\)**. Selecciona esta opción para que Digi3D.AI haga sonar los sonidos por el altavoz del sistema de manera asíncrona.
+* **Tarjeta de sonido**. Selecciona esta opción para que Digi3D.AI haga sonar los sonidos por la tarjeta de sonido \(requiere indicar la ruta de los archivos WAV con los sonidos a emitir en cada uno de los eventos que provocan sonidos como Dato, Fin orden, etc.\).
 
 ## Dato
 
@@ -60,33 +60,33 @@ Permite indicar la ruta donde está ubicado el archivo _.wav_ con el sonido a re
 
 ## Entrar
 
-Permite indicar la ruta donde está ubicado el archivo _.wav_ con el sonido a reproducir cuando el usuario entra dentro del polígono seleccionado con la orden [LIMITE\_1](/digi3d-net/referencia/ventana-de-dibujo/ordenes/l/limite-1.md).
+Permite indicar la ruta donde está ubicado el archivo _.wav_ con el sonido a reproducir cuando el usuario entra dentro del polígono seleccionado con la orden [LIMITE\_1](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limite-1.md).
 
 ## Salir
 
-Permite indicar la ruta donde está ubicado el archivo _.wav_ con el sonido a reproducir cuando el usuario sale del polígono seleccionado con la orden [LIMITE\_1](/digi3d-net/referencia/ventana-de-dibujo/ordenes/l/limite-1.md).
+Permite indicar la ruta donde está ubicado el archivo _.wav_ con el sonido a reproducir cuando el usuario sale del polígono seleccionado con la orden [LIMITE\_1](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limite-1.md).
 
 ## Texto a voz en la barra de estado
 
-Permite indicar si Digi3D.NET reproducirá mediante síntesis de voz los mensajes que las distintas órdenes muestran en la barra de estado.
+Permite indicar si Digi3D.AI reproducirá mediante síntesis de voz los mensajes que las distintas órdenes muestran en la barra de estado.
 
 Podemos seleccionar una de las siguientes opciones:
 
-* **Si.** Selecciona esta opción para que Digi3D.NET reproduzca mediante síntesis de voz los mensajes mostrados en la barra de estado.
-* **No**. Selecciona esta opción para que Digi3D.NET no reproduzca mediante síntesis de voz los mensajes mostrados en la barra de estado.
+* **Si.** Selecciona esta opción para que Digi3D.AI reproduzca mediante síntesis de voz los mensajes mostrados en la barra de estado.
+* **No**. Selecciona esta opción para que Digi3D.AI no reproduzca mediante síntesis de voz los mensajes mostrados en la barra de estado.
 
 ## Texto a voz en globos
 
-Permite indicar si Digi3D.NET reproducirá mediante síntesis de voz los mensajes que las distintas órdenes muestran en los globos.
+Permite indicar si Digi3D.AI reproducirá mediante síntesis de voz los mensajes que las distintas órdenes muestran en los globos.
 
 Podemos seleccionar una de las siguientes opciones:
 
-* **Si.** Selecciona esta opción para que Digi3D.NET reproduzca mediante síntesis de voz los mensajes mostrados en los globos.
-* **No**. Selecciona esta opción para que Digi3D.NET no reproduzca mediante síntesis de voz los mensajes mostrados en los globos.
+* **Si.** Selecciona esta opción para que Digi3D.AI reproduzca mediante síntesis de voz los mensajes mostrados en los globos.
+* **No**. Selecciona esta opción para que Digi3D.AI no reproduzca mediante síntesis de voz los mensajes mostrados en los globos.
 
 ## Confidencia reconocimiento de voz
 
-Permite configurar mediante un valor \(entre 0 y 1\) el factor de confidencia con el que se reconocerán los comandos de voz si tenemos activa la variable [RECONOCER\_VOZ](/digi3d-net/referencia/ventana-de-dibujo/variables/r/reconocer-voz.md).
+Permite configurar mediante un valor \(entre 0 y 1\) el factor de confidencia con el que se reconocerán los comandos de voz si tenemos activa la variable [RECONOCER\_VOZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/reconocer-voz.md).
 
 ## Color de la ventana de tentativo
 
@@ -94,7 +94,7 @@ Permite configurar el color en el que se mostrarán las coordenadas en la [barra
 
 ## Mostrar ayudas por código
 
-Permite indicar si Digi3D.NET mostrará en el [panel de ayuda dinámica](../../paneles/ayuda-dinamica.md) el archivo HTML asociado asignado en el campo Archivo de ayuda al seleccionar este código como código activo.
+Permite indicar si Digi3D.AI mostrará en el [panel de ayuda dinámica](../../paneles/ayuda-dinamica.md) el archivo HTML asociado asignado en el campo Archivo de ayuda al seleccionar este código como código activo.
 
 ## Directorio de ayudas de códigos
 

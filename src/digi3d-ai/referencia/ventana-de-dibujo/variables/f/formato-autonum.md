@@ -1,6 +1,6 @@
 # FORMATO\_AUTONUM
 
-Permite especificar el formato de la cadena de texto a dibujar cuando se utiliza la orden [AUTONUM](/digi3d-net/referencia/ventana-de-dibujo/variables/a/autonum.md).
+Permite especificar el formato de la cadena de texto a dibujar cuando se utiliza la orden [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md).
 
 ## Parámetros
 
@@ -62,5 +62,5 @@ Al ejecutar la orden el programa muestra el valor por defecto, que es "%d" \(Ins
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

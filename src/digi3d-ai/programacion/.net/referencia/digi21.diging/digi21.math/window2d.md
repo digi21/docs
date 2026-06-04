@@ -1,7 +1,7 @@
 # Window2D
 
-Espacio de nombres: [Digi21.Math](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
 
 Esta clase implementa una ventana en dos dimensiones.
 
@@ -11,14 +11,14 @@ public struct Window2D : IWindow2D, IDesplazable
 
 Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0) → Window2D
 
-Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/)
+Implementa: [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/)
 
 ## Constructores
 
 |  |  |
 | :--- | :--- |
 | Window2D\(Point3D\) | Inicializa una nueva instancia de un [Window2D](window2d.md)cuyas máximas y mínimas coinciden con el [Point3D](point3d.md)pasado por parámetros. |
-| Window2D\(Point2D\) | Inicializa una nueva instancia de un [Window2D](window2d.md)cuyas máximas y mínimas coinciden con el [Point2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md) pasado por parámetros. |
+| Window2D\(Point2D\) | Inicializa una nueva instancia de un [Window2D](window2d.md)cuyas máximas y mínimas coinciden con el [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md) pasado por parámetros. |
 | Window2D\(double, double, double, double\) | Inicializa una nueva instancia de un [Window2D](window2d.md)cuyas máximas y mínimas coinciden con los valores pasados por parámetros. |
 | Window2D\(double?, double, double, double\) | Inicializa una nueva instancia de un [Window2D](window2d.md)cuyas máximas y mínimas coinciden con los valores pasados por parámetros. |
 | Window2D\(IWindow3D\) | Inicializa una nueva instancia de un [Window2D](window2d.md)cuyas máximas y mínimas coinciden con las del objeto pasado por parámetros. |
@@ -41,7 +41,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/w">W</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/w">W</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al oeste del <a href="window2d.md">Window2D</a>.</p>
@@ -49,7 +49,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/sw">SW</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/sw">SW</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al sudeste del <a href="window2d.md">Window2D</a>.</p>
@@ -57,7 +57,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/s">S</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/s">S</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al sur del <a href="window2d.md">Window2D</a>.</p>
@@ -65,7 +65,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/se">SE</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/se">SE</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al sudeste del <a href="window2d.md">Window2D</a>.</p>
@@ -73,7 +73,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/e">E</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/e">E</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al este del <a href="window2d.md">Window2D</a>.</p>
@@ -81,7 +81,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ne">NE</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ne">NE</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al noreste del <a href="window2d.md">Window2D</a>.</p>
@@ -89,7 +89,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/n">N</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/n">N</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al norte del <a href="window2d.md">Window2D</a>.</p>
@@ -97,7 +97,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/nw">NW</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/nw">NW</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto al noreste del <a href="window2d.md">Window2D</a>.</p>
@@ -105,7 +105,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/center">Center</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/center">Center</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el punto en el centro del <a href="window2d.md">Window2D</a>.</p>
@@ -113,7 +113,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/height">Height</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/height">Height</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el alto del <a href="window2d.md">Window2D</a>.</p>
@@ -121,7 +121,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/width">Width</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/width">Width</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve el ancho del <a href="window2d.md">Window2D</a>.</p>
@@ -129,7 +129,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/valid">Valid</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/valid">Valid</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Indica si la ventana del <a href="window2d.md">Window2D</a> es v&#xE1;lida.</p>
@@ -137,7 +137,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmin">Xmin</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmin">Xmin</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve la coordenada X m&#xED;nima del <a href="window2d.md">Window2D</a>.</p>
@@ -145,7 +145,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymin">Ymin</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymin">Ymin</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve la coordenada Y m&#xED;nima del <a href="window2d.md">Window2D</a>.</p>
@@ -153,7 +153,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmax">Xmax</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmax">Xmax</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve la coordenada X m&#xE1;xima del <a href="window2d.md">Window2D</a>.</p>
@@ -161,7 +161,7 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymax">Ymax</a>&#x200B;</td>
+      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymax">Ymax</a>&#x200B;</td>
       <td
       style="text-align:left">
         <p>Devuelve la coordenada Y m&#xE1;xima del <a href="window2d.md">Window2D</a>.</p>
@@ -411,10 +411,10 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
 | Union\(IWindow2D, PointF\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow2D](iwindow2d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
 | Union\(Window3D, PointF\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [Window3D](window3d.md)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
 | Union\(Window2D, PointF\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow2D](iwindow2d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
-| Union\(IWindow3D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow3D](iwindow3d/)y el [Point](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
-| Union\(IWindow2D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow2D](iwindow2d/)y el [Point](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
-| Union\(Window3D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [Window3D](window3d.md)y el [Point](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
-| Union\(Window2D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [Window2D](window2d.md)y el [Point](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
+| Union\(IWindow3D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow3D](iwindow3d/)y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
+| Union\(IWindow2D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow2D](iwindow2d/)y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
+| Union\(Window3D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [Window3D](window3d.md)y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
+| Union\(Window2D, Point\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [Window2D](window2d.md)y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros. |
 | Union\(IWindow3D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow3D](iwindow3d/)y el [IWindow3D](iwindow3d/)pasados por parámetros. |
 | Union\(IWindow2D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow2D](iwindow2d/)y el [IWindow3D](iwindow3d/)pasados por parámetros. |
 | Union\(IWindow3D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará las máximas del [IWindow3D](iwindow3d/)y el [IWindow2D](iwindow2d/)pasados por parámetros. |
@@ -438,41 +438,41 @@ Implementa: [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/d
 | Intersection\(double?, double, double, double, double?, double, double, double\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección las máximas y mínimas pasadas por parámetros. |
 | Intersection\(IWindow3D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow3D](iwindow3d/)y el [IWindow3D](iwindow3d/)pasados por parámetros. |
 | Intersection\(IWindow3D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow3D](iwindow3d/)y el [IWindow2D](iwindow2d/)pasados por parámetros. |
-| Intersection\(IWindow2D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
-| Intersection\(IWindow2D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
-| Intersection\(IWindow3D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/) pasados por parámetros. |
-| Intersection\(IWindow3D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/) pasados por parámetros. |
-| Intersection\(IWindow2D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
-| Intersection\(IWindow2D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
-| Intersection\(Window3D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
-| Intersection\(Window3D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
-| Intersection\(Window2D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
-| Intersection\(Window2D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
-| Intersection\(Window3D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
-| Intersection\(Window3D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
-| Intersection\(Window2D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
-| Intersection\(Window2D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
+| Intersection\(IWindow2D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
+| Intersection\(IWindow2D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
+| Intersection\(IWindow3D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/) pasados por parámetros. |
+| Intersection\(IWindow3D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/) pasados por parámetros. |
+| Intersection\(IWindow2D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
+| Intersection\(IWindow2D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros. |
+| Intersection\(Window3D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
+| Intersection\(Window3D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
+| Intersection\(Window2D, IWindow3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
+| Intersection\(Window2D, IWindow2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
+| Intersection\(Window3D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
+| Intersection\(Window3D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros. |
+| Intersection\(Window2D, Window3D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
+| Intersection\(Window2D, Window2D\) | Instancia un nuevo [Window2D](window2d.md)que abarcará la intersección [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) pasados por parámetros. |
 | Contains\(double?, double, double, double, double?, double, double, double\) | Indica si la ventana formada por los primeros cuatro parámetros contiene a la formada por los últimos cuatro parámetros. |
-| Contains\(IWindow3D, Window3D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
-| Contains\(IWindow3D, Window2D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
-| Contains\(IWindow2D, Window3D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
-| Contains\(IWindow2D, Window2D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
-| Contains\(Window3D, IWindow3D\) | Indica si la ventana representada por el parámetro [Window3D](window3d.md)contiene a la representada por el parámetro [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
-| Contains\(Window3D, IWindow2D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
-| Contains\(Window2D, IWindow3D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
-| Contains\(Window2D, IWindow2D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
-| Contains\(Window3D, Window3D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
-| Contains\(Window3D, Window2D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
-| Contains\(Window2D, Window3D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
-| Contains\(Window2D, Window2D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
+| Contains\(IWindow3D, Window3D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
+| Contains\(IWindow3D, Window2D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
+| Contains\(IWindow2D, Window3D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
+| Contains\(IWindow2D, Window2D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
+| Contains\(Window3D, IWindow3D\) | Indica si la ventana representada por el parámetro [Window3D](window3d.md)contiene a la representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
+| Contains\(Window3D, IWindow2D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
+| Contains\(Window2D, IWindow3D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
+| Contains\(Window2D, IWindow2D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
+| Contains\(Window3D, Window3D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
+| Contains\(Window3D, Window2D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
+| Contains\(Window2D, Window3D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
+| Contains\(Window2D, Window2D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
 | Intersects\(double, double, double, double, double, double, double, double\) | Indica si la ventana formada por los primeros cuatro parámetros intersecciona con la formada por los últimos cuatro parámetros. |
 | Intersects\(double?, double, double, double, double?, double, double, double\) | Indica si la ventana formada por los primeros cuatro parámetros intersecciona con la formada por los últimos cuatro parámetros. |
-| Intersects\(IWindow3D, IWindow3D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
-| Intersects\(IWindow3D, IWindow2D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
-| Intersects\(IWindow2D, IWindow3D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
-| Intersects\(IWindow2D, IWindow2D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
-| Intersects\(Window3D, Window3D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
-| Intersects\(Window3D, Window2D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
-| Intersects\(Window2D, Window3D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
-| Intersects\(Window2D, Window2D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
+| Intersects\(IWindow3D, IWindow3D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
+| Intersects\(IWindow3D, IWindow2D\) | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
+| Intersects\(IWindow2D, IWindow3D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
+| Intersects\(IWindow2D, IWindow2D\) | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/). |
+| Intersects\(Window3D, Window3D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
+| Intersects\(Window3D, Window2D\) | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md). |
+| Intersects\(Window2D, Window3D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
+| Intersects\(Window2D, Window2D\) | Indica si la ventana representada por el parámetro [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md). |
 

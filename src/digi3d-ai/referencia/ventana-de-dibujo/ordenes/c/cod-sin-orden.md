@@ -1,6 +1,6 @@
 # COD\_SIN\_ORDEN
 
-Realiza las mismas funciones que la orden [COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md), pero no ejecuta la orden especificada en la tabla de códigos para el código seleccionado.
+Realiza las mismas funciones que la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md), pero no ejecuta la orden especificada en la tabla de códigos para el código seleccionado.
 
 ## Parámetros
 

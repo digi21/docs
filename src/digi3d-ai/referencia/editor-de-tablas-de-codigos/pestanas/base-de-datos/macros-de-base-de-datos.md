@@ -1,10 +1,10 @@
 # Macros de base de datos
 
-Las macros de base de datos son valores que le indican a Digi3D.NET que se deben calcular en el momento en el que se crea un registro en la base de datos.
+Las macros de base de datos son valores que le indican a Digi3D.AI que se deben calcular en el momento en el que se crea un registro en la base de datos.
 
 Se pueden introducir opcionalmente en la propiedad [Valor por defecto](propiedades-de-los-campos.md#valor-por-defecto) de un determinado campo de base de datos.
 
-En caso de que un determinado campo tenga asignada una macro, en el momento de almacenar el registro en la base de datos, Digi3D.NET sustituirá la macro por el valor calculado.
+En caso de que un determinado campo tenga asignada una macro, en el momento de almacenar el registro en la base de datos, Digi3D.AI sustituirá la macro por el valor calculado.
 
 A continuación, el listado de macros soportadas por el programa:
 

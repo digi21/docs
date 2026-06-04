@@ -1,6 +1,6 @@
 # Transformador Universal de Coordenadas
 
-![Transformador Universal de Coordenadas](/digi3d-net/referencia/transformador-universal-de-coordenadas.md)
+![Transformador Universal de Coordenadas](/digi3d-ai/referencia/transformador-universal-de-coordenadas.md)
 
 Este programa permite transformar múltiples coordenadas entre dos sistemas de referencia de coordenadas.
 

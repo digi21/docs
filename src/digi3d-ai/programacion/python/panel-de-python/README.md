@@ -1,10 +1,10 @@
 # Panel de Python
 
-Digi3D.NET incorpora un **intérprete de Python embebido** que ejecuta guiones **dentro de la
+Digi3D.AI incorpora un **intérprete de Python embebido** que ejecuta guiones **dentro de la
 propia aplicación**, con acceso a la **ventana de dibujo activa**, las órdenes, los paneles y
 demás servicios del programa.
 
-Estos guiones disponen del módulo **`digi3d`**, que solo existe dentro de Digi3D.NET (no se
+Estos guiones disponen del módulo **`digi3d`**, que solo existe dentro de Digi3D.AI (no se
 puede importar desde una [aplicación de consola](../aplicaciones-de-consola/README.md)).
 
 ```python

@@ -1,7 +1,7 @@
 # Compose
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
 
 Compone el nombre de un código a partir de un nombre de código existente y de una cadena a sustituir con comodines.
 
@@ -15,7 +15,7 @@ public static string Compose(string stringToCompose, string wildCard);‌
 Nombre del código a componer.
 
 `wildCard` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Cadena con comodines a sustituir en formato Digi3D.NET.
+Cadena con comodines a sustituir en formato Digi3D.AI.
 
 ## Devuelve
 

@@ -2,7 +2,7 @@
 
 Hemos modernizado el formato de los archivos de configuración de teclas \(los archivos _teclas.mnu_\).
 
-Este tipo de archivos ahora tienen extensión _.keyboard.xml_ y tienen muchas mejoras con respecto al formato antiguo. Digi3D.NET no puede importar tus archivos de tecla antiguos, pero tenemos un programa de consola que te puede ayudar a importar los archivos de teclas antiguos.
+Este tipo de archivos ahora tienen extensión _.keyboard.xml_ y tienen muchas mejoras con respecto al formato antiguo. Digi3D.AI no puede importar tus archivos de tecla antiguos, pero tenemos un programa de consola que te puede ayudar a importar los archivos de teclas antiguos.
 
 Puedes descargar esta herramienta de [https://github.com/digi21/TeclasMnuATeclasMnuXml/releases](https://github.com/digi21/TeclasMnuATeclasMnuXml/releases)
 

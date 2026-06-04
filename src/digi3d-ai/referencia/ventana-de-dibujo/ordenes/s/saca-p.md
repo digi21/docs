@@ -6,9 +6,9 @@ Coloca un punto a una distancia activa DA de un texto que ya está en el dibujo.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Distancia activa \([DA](/digi3d-net/referencia/ventana-de-dibujo/variables/d/da.md) | Número real | Si |
-| 2 | Código punto \([COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
-| 3 | Código texto \([COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
+| 1 | Distancia activa \([DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) | Número real | Si |
+| 2 | Código punto \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
+| 3 | Código texto \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
 
 ## Observaciones
 
@@ -28,5 +28,5 @@ Puedes ejecutar la orden desde la línea de comandos con la siguiente secuencia:
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [DA](/digi3d-net/referencia/ventana-de-dibujo/variables/d/da.md) |
+| Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) |
 

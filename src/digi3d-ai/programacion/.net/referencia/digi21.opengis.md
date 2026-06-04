@@ -1,6 +1,6 @@
 # Digi21.OpenGis
 
-Este paquete [NuGet](https://www.nuget.org/packages/Digi21.OpenGis/) proporciona herramientas para interactuar de transformaciones OpenGis de Digi3D.NET.
+Este paquete [NuGet](https://www.nuget.org/packages/Digi21.OpenGis/) proporciona herramientas para interactuar de transformaciones OpenGis de Digi3D.AI.
 
 ### Package manager
 ```bash

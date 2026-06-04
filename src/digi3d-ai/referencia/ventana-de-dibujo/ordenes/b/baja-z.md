@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La equidistancia se define en el _cuadro de diálogo Nuevo Proyecto de DigiNG_, o bien mediante la orden [EQUIDISTANCIA](/digi3d-net/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
+La equidistancia se define en el _cuadro de diálogo Nuevo Proyecto de DigiNG_, o bien mediante la orden [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
 
 Esta orden es utilizada cuando se está curvando. Una vez que el operador ha terminado de restituir una curva de nivel deberá subir o bajar la Z de registro una cantidad igual a la equidistancia para comenzar con la siguiente curva de nivel.
 
@@ -20,5 +20,5 @@ Esta orden es utilizada cuando se está curvando. Una vez que el operador ha ter
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Bajar la coordenada Z al múltiplo de equidistancia anterior |
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [EQUIDISTANCIA](/digi3d-net/referencia/ventana-de-dibujo/variables/e/equidistancia.md) |
+| Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) |
 

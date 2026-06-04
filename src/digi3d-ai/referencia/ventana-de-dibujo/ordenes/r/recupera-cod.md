@@ -20,7 +20,7 @@ La llamada a la orden se realiza escribiendo RECUPERA\_COD=&lt;código&gt;&lt;ti
 | o | Para objetos OLE |
 | \* | Para todos los tipos |
 
-La eliminación real de las entidades borradas se produce al ejecutar la orden [COMPRIMIR](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/comprimir.md), a partir de ese momento, los registros correspondientes a estas entidades desaparecen del fichero, por lo tanto, no se podrá recuperar níngún código borrado una vez comprimido el fichero.
+La eliminación real de las entidades borradas se produce al ejecutar la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md), a partir de ese momento, los registros correspondientes a estas entidades desaparecen del fichero, por lo tanto, no se podrá recuperar níngún código borrado una vez comprimido el fichero.
 
 ## Características de la orden
 
@@ -30,5 +30,5 @@ La eliminación real de las entidades borradas se produce al ejecutar la orden [
 | Opción del menú donde aparece la orden | Editar/Mas/Recuperar entidades por código |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

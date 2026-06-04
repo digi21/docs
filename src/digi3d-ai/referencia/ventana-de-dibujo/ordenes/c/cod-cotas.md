@@ -12,7 +12,7 @@ Permite indicar un código con el que se digitalizarán cotas altimétricas.
 ## Observaciones
 
 Esta orden permite digitalizar áutomáticamente cotas altimétricas por el mero echo de tener como código activo el código indicado como primer parámetro de esta orden.  
-Los valores almacenados en esta variable únicamente se tienen en consideración si está activa la [variable booleana](cod-cotas.md) [AUTOMATICO](/digi3d-net/referencia/ventana-de-dibujo/variables/a/automatico.md).  
+Los valores almacenados en esta variable únicamente se tienen en consideración si está activa la [variable booleana](cod-cotas.md) [AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md).  
 Además nos va a permitir indicar opcionalmente el código con el que se digitalizará el texto asociado a la cota.
 
 Puedes añadir esta orden a tu archivo de órdenes de inicio para que se ejecute cada vez que abres una ventana de dibujo, de esta manera, con seleccionar como código activo el código indicado en el primer parámetro podrás digitalizar cotas altimétricas.
@@ -25,7 +25,7 @@ Puedes añadir esta orden a tu archivo de órdenes de inicio para que se ejecute
 | Opción del menú donde aparece la orden | Inmediato/Códigos especiales/Código de cotas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AUTOMATICO](/digi3d-net/referencia/ventana-de-dibujo/variables/a/automatico.md) |
+| Variables relacionadas | [AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md) |
 
 ## Tutorial
 

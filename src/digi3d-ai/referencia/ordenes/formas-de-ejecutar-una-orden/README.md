@@ -2,7 +2,7 @@
 
 ## De manera explícita por parte del usuario
 
-* [De manera automática si el programa está en modo preparado](/digi3d-net/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
+* [De manera automática si el programa está en modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
 * Seleccionando una opción de un menú.
 * Pulsando un botón en una barra de herramientas.
 * [Desde la línea de comandos](ejecutar-una-orden-desde-la-linea-de-comandos/).
@@ -13,6 +13,6 @@
 ## De manera implícita por parte del programa
 
 * [Al abrir la ventana de dibujo](al-abrir-una-ventana-de-dibujo.md).
-* [Al seleccionar un código](/digi3d-net/referencia/ordenes/formas-de-ejecutar-una-orden/al-seleccionar-un-codigo.md).
+* [Al seleccionar un código](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/al-seleccionar-un-codigo.md).
 * Repitiendo de manera automática la última orden ejecutada.
 

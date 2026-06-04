@@ -28,5 +28,5 @@ Después de aceptar una asignación de una orden a una tecla, pulsando la tecla 
 
 ## Nota
 
-Tienes que tener en cuenta que Digi3D.NET no puede importar tus archivos de tecla antiguos, tenemos un [programa de consola](/digi3d-net/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/archivos-configuracion-teclas.md) que te puede ayudar a importarlos.
+Tienes que tener en cuenta que Digi3D.AI no puede importar tus archivos de tecla antiguos, tenemos un [programa de consola](/digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/archivos-configuracion-teclas.md) que te puede ayudar a importarlos.
 

@@ -19,7 +19,7 @@ El programa solicitará en la barra de mensajes que introduzcamos el factor de e
 
 ## Observaciones
 
-El valor por defecto de esta variable es el indicado en el campo **Equidistancia** en el grupo de parámetros **Registro** de la pestaña [Archivo de dibujo](/digi3d-net/referencia/cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md).
+El valor por defecto de esta variable es el indicado en el campo **Equidistancia** en el grupo de parámetros **Registro** de la pestaña [Archivo de dibujo](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md).
 
 ## Ejemplos
 

@@ -26,5 +26,5 @@ Puedes moverte a lo largo de la entidad y realizar diferentes modificaciones, ut
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Editar vértices en XY |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

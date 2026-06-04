@@ -2,7 +2,7 @@
 
 Vamos a crear un control de calidad que asignaremos a códigos de planimetría que tengan que se tengan que digitalizar forzosamente desde la cota más alta a la más baja. 
 
-Este guion analizará únicamente líneas y analizará la coordenada Z de los vértices de la línea. En caso de detectar el error, se lanzará una excepción de tipo [GeometryException](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometryexception.md) indicando el error, así como las coordenadas donde se ha localizado el error.
+Este guion analizará únicamente líneas y analizará la coordenada Z de los vértices de la línea. En caso de detectar el error, se lanzará una excepción de tipo [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometryexception.md) indicando el error, así como las coordenadas donde se ha localizado el error.
 
 ```csharp
 using System;

@@ -1,6 +1,6 @@
 # Digi21.DigiNG.IO.Bin
 
-Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Io.Bin/) proporciona un importador/exportador de archivos binarios clásicos de Digi3D.NET.
+Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Io.Bin/) proporciona un importador/exportador de archivos binarios clásicos de Digi3D.AI.
 
 ### Package manager
 ```bash

@@ -43,5 +43,5 @@ Se suele utilizar para dibujar medianerías.
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Tentativo y fin |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

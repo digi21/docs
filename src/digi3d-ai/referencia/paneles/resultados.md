@@ -2,7 +2,7 @@
 
 ![Panel de resultados](../../../images/panelresultados.png)
 
-Este panel muestra resultados generados por ciertas órdenes como la orden [BININFO](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/bininfo.md).
+Este panel muestra resultados generados por ciertas órdenes como la orden [BININFO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bininfo.md).
 
 ## Mostrar el panel
 

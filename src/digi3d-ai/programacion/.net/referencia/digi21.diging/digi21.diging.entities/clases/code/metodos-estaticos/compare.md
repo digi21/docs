@@ -1,9 +1,9 @@
 # Compare
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
 
-Comprara los nombres de dos códigos utilizando la lógica de comodines de Digi3D.NET.
+Comprara los nombres de dos códigos utilizando la lógica de comodines de Digi3D.AI.
 
 ```csharp
 public static bool Compare(string codeNameA, string codeNameB);‌
@@ -15,12 +15,12 @@ public static bool Compare(string codeNameA, string codeNameB);‌
 Nombre del primer código a comparar.
 
 `codenameB` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Nombre del segundo código a comparar. Este código admite comodines de Digi3D.NET.
+Nombre del segundo código a comparar. Este código admite comodines de Digi3D.AI.
 
 ## Devuelve
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si los dos nombres de códigos son idénticos según la lógica de comodines de Digi3D.NET.
+Verdadero si los dos nombres de códigos son idénticos según la lógica de comodines de Digi3D.AI.
 
 #### Ejemplos
 

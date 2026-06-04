@@ -23,8 +23,8 @@ Estos valores son opcionales, y si se especifican modifican el valor por defecto
 
 | Comando         | Descripción                                                                                                                             |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [bind](/digi3d-net/referencia/linea-de-comandos/dibujo/bind.md)                                             |
-| [bin](/digi3d-net/programacion/.net/referencia/digi21.diging.io.bin/bin.md)                                             |
-| [shp](/digi3d-net/programacion/.net/referencia/digi21.diging.io.shp/shp.md)   | Indica que el archivo de dibujo a abrir en la ventana de dibujo son los archivos _shapefile_ localizados en el directorio especificado. |
+| [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md)                                             |
+| [bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)                                             |
+| [shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md)   | Indica que el archivo de dibujo a abrir en la ventana de dibujo son los archivos _shapefile_ localizados en el directorio especificado. |
 
 ##

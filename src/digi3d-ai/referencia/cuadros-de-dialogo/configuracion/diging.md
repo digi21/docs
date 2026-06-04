@@ -33,7 +33,7 @@ Estas ventanas son excluyentes: el programa únicamente puede utilizar una de el
 
 Permite indicar si se le permitirá al usuario seleccionar como código activo un código que no exista en la tabla de códigos.
 
-Si ejecutamos la orden [COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) pasándole como parámetro un código inexistente el programa mostrará un mensaje de error o no en función de esta opción.
+Si ejecutamos la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) pasándole como parámetro un código inexistente el programa mostrará un mensaje de error o no en función de esta opción.
 
 Se pueden seleccionar las siguientes opciones:
 

@@ -34,7 +34,7 @@ Dibuja una paralela a una entidad lineal, automáticamente cuando se termina de 
 
 La paralela que se genera, se dibujará con el mismo código que la entidad dibujada.
 
-Conviene fijar la [distancia activa](/digi3d-net/referencia/ventana-de-dibujo/variables/d/da.md), con su signo:
+Conviene fijar la [distancia activa](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), con su signo:
 
 * Positivo: La paralela se realizará a la derecha en el sentido de avance del dibujo de la entidad.
 * Negativo: La paralela se realizará a la izquierda en el sentido de avance del dibujo de la entidad.
@@ -49,5 +49,5 @@ No obstante, si no se ha establecido el valor de _DA_ con anterioridad, al ejecu
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Crear automáticamente una paralela \(según distancia activa\) |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

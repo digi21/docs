@@ -1,6 +1,6 @@
 # Digi21.Epsg
 
-Este paquete [NuGet](https://www.nuget.org/packages/Digi21.Epsg/) proporciona herramientas para interactuar con el motor EPSG \(European Petroleum Survey Group\) de Digi3D.NET.
+Este paquete [NuGet](https://www.nuget.org/packages/Digi21.Epsg/) proporciona herramientas para interactuar con el motor EPSG \(European Petroleum Survey Group\) de Digi3D.AI.
 
 ### Package manager
 ```bash

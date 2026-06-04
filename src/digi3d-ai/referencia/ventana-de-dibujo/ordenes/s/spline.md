@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Para crear una curva [SPLINE](/digi3d-net/referencia/ventana-de-dibujo/ordenes/s/spline.md) hay que definir los puntos por los que va a atravesar. A medida que se digitalizan los puntos, el movimiento del cursor actuará sobre los vértices que actúan como tensores.
+Para crear una curva [SPLINE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/spline.md) hay que definir los puntos por los que va a atravesar. A medida que se digitalizan los puntos, el movimiento del cursor actuará sobre los vértices que actúan como tensores.
 
 Las _SPLINES_ generadas en DIGI son [SPLINES CÚBICAS](spline.md).
 
@@ -20,5 +20,5 @@ Las _SPLINES_ generadas en DIGI son [SPLINES CÚBICAS](spline.md).
 | Opción del menú donde aparece la orden | Dibujar/Spline |
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

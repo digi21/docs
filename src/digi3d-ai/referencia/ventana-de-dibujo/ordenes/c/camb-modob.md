@@ -34,7 +34,7 @@ Establece el modo de búsqueda o enganche gráfico a elementos del dibujo.
 
 El ámbito de búsqueda de una entidad está determinado por el tamaño del cursor y el factor de zoom de pantalla.
 
-La ejecución de esta orden solamente permite pasar de un modo de búsqueda al siguiente, para especificar un modo de búsqueda se debe emplear la función [MODOB](/digi3d-net/referencia/ventana-de-dibujo/variables/m/modob.md).
+La ejecución de esta orden solamente permite pasar de un modo de búsqueda al siguiente, para especificar un modo de búsqueda se debe emplear la función [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md).
 
 ### Características de la orden
 

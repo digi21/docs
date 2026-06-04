@@ -14,7 +14,7 @@ Al ejecutar esta orden hay que especificar en la línea de comandos el código d
 
 `EXPLOTAR_PUNTOS=<código>` y pulsar \[ENTER\]. El sistema "explotará" automáticamente todos los textos que tengan ese código.
 
-Nota: Antes de ejecutar esta orden conviene hacer una copia de seguridad del archivo BIN ya que sólo es reversible mediante la orden [UNDO](/digi3d-net/referencia/ventana-de-dibujo/ordenes/u/undo.md).
+Nota: Antes de ejecutar esta orden conviene hacer una copia de seguridad del archivo BIN ya que sólo es reversible mediante la orden [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md).
 
 ## Características de la orden
 

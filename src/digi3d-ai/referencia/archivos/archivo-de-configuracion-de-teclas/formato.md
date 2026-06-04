@@ -34,7 +34,7 @@ Y la secuencia de órdenes a ejecutar se indican en un nodo CDATA hijo del nodo 
 </teclasMnu:Keyboard>
 ```
 
-No es habitual modificar este archivo manualmente, sino mediante la orden [TECLA](/digi3d-net/referencia/ventana-de-dibujo/ordenes/t/tecla.md).
+No es habitual modificar este archivo manualmente, sino mediante la orden [TECLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tecla.md).
 
 Si se hace mediante la orden TECLA, ésta añadirá una hoja de estilos en cascada al archivo .XML para que se muestre como una tabla HTML que el usuario pueda imprimir:
 

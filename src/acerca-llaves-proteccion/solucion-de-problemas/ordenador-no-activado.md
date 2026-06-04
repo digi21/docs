@@ -8,6 +8,6 @@ Este mensaje tiene tres posibles causas:
 
 Puedes solucionar el problema ejecutando el programa [Activar ordenador](/acerca-llaves-proteccion/programas-relacionados-con-licencias-y-llaves-de-proteccion/activar-ordenador.md).
 
-A continuación, te mostramos cómo comunica Digi3D.NET este problema:
+A continuación, te mostramos cómo comunica Digi3D.AI este problema:
 
 ![Cuadro de diálogo indicando que el ordenador no está activado en la llave de protección](../../images/este-ordenador-no-esta-activado-en-la-llave-de-proteccion.png)

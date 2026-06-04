@@ -1,6 +1,6 @@
 # FORZAR\_AT\_ACTIVA
 
-Si está activada, tanto en restitución como en edición, todas las entidades que genere cualquier orden como puedan ser [COPIAR](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/copiar.md) en el momento de la ejecución de dichas órdenes.
+Si está activada, tanto en restitución como en edición, todas las entidades que genere cualquier orden como puedan ser [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md) en el momento de la ejecución de dichas órdenes.
 
 ## Parámetros
 
@@ -42,5 +42,5 @@ Antes de ejecutar la orden, tienes que definir el valor del _altura de texto_.
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AT](/digi3d-net/referencia/ventana-de-dibujo/variables/a/at.md) |
+| Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) |
 

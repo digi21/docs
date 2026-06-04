@@ -1,6 +1,6 @@
 # Errores de la geometría que se está analizando
 
-El guion puede comunicar a Digi3D.NET que la geometría no cumple con el control de calidad lanzando una excepción excepción de tipo [GeometryException](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometryexception.md): 
+El guion puede comunicar a Digi3D.AI que la geometría no cumple con el control de calidad lanzando una excepción excepción de tipo [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometryexception.md): 
 
 ```csharp
 using System;

@@ -1,6 +1,6 @@
 # Repitiendo de manera automática la última orden ejecutada
 
-Si tenemos configurada la variable [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) la orden activa.
+Si tenemos configurada la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) la orden activa.
 
 ## Vídeo
 

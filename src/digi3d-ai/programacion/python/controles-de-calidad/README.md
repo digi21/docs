@@ -1,7 +1,7 @@
 # Controles de calidad
 
 Un **control de calidad** es una función de Python que comprueba si una geometría cumple una
-regla y comunica un error (o una advertencia) cuando no la cumple. Digi3D.NET los ejecuta
+regla y comunica un error (o una advertencia) cuando no la cumple. Digi3D.AI los ejecuta
 sobre las geometrías de cada código, según lo configurado en la tabla de códigos.
 
 Hay un repositorio con muchos controles listos para usar:
@@ -29,7 +29,7 @@ funciones de control. Después, en cada código, se añaden los controles desead
 
 Una función se reconoce como control de calidad si cumple tres condiciones:
 
-1. Está decorada con **`@quality_control()`** (lo proporciona el entorno de Digi3D.NET).
+1. Está decorada con **`@quality_control()`** (lo proporciona el entorno de Digi3D.AI).
 2. Recibe al menos los parámetros `geometry`, `adding_geometry` y `code_index`. Puede tener
    **más** parámetros: serán los valores configurables que se piden al asignar el control a un
    código (códigos, distancias, mensajes, etc.).

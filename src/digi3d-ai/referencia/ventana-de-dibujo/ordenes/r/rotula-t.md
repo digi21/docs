@@ -10,7 +10,7 @@ Rotula entidades puntuales existentes en el fichero, con la descripción literal
 
 ## Observaciones
 
-Puedes modificar la descripción literal que está asignada a un código mediante el programa [Editor de tablas de códigos](/digi3d-net/referencia/editor-de-tablas-de-codigos/).
+Puedes modificar la descripción literal que está asignada a un código mediante el programa [Editor de tablas de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/).
 
 ## Características de la orden
 
@@ -20,5 +20,5 @@ Puedes modificar la descripción literal que está asignada a un código mediant
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md), |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), |
 

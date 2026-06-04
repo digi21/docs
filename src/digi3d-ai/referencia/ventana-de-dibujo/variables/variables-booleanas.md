@@ -10,7 +10,7 @@ Podemos ejecutar una orden de tipo variable booleana de dos maneras: sin paráme
 
 Si ejecutamos una orden de tipo variable booleana sin parámetros, la variable cambiará su valor activo, por el contrario.
 
-Por ejemplo: La orden de tipo variable booleana [PITA](/digi3d-net/referencia/ventana-de-dibujo/variables/p/pita.md) hace que el programa haga sonar un sonido cuando se introduce un dato con el dispositivo de entrada o cuando se localiza un error. 
+Por ejemplo: La orden de tipo variable booleana [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) hace que el programa haga sonar un sonido cuando se introduce un dato con el dispositivo de entrada o cuando se localiza un error. 
 
 Si el valor de _PITA_ es _Verdadero_ y ejecutamos el siguiente comando:
 

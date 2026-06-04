@@ -1,6 +1,6 @@
 # Cargando el primer par estereoscópico
 
-Una de las funcionalidades principales de Digi3D.NET consiste en cargar y visualizar modelos fotogramétricos de distintos sensores.  
+Una de las funcionalidades principales de Digi3D.AI consiste en cargar y visualizar modelos fotogramétricos de distintos sensores.  
 Vamos a aprender a cargar un par estereoscópico y a interactuar con la ventana fotogramétrica.
 
 1. Abre el menú **Archivo** y selecciona la opción **Nuevo/Abrir modelo fotogramétrico o archivo de dibujo**.

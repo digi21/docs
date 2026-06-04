@@ -2,7 +2,7 @@
 
 Algunos formatos de archivo de dibujo incorporan el sistema de referencia de coordenadas asociado en el propio archivo \(como es el caso de los archivos [.bind](ubicacion-src-archivos-dibujo.md)\). Otros formatos de archivo de dibujo no están preparados para almacenar dentro del propio archivo el sistema de referencia de coordenadas asociado, de modo que éste se almacena en un archivo con extensión [.prj](ubicacion-src-archivos-dibujo.md) mediante una cadena [Well Known Text](https://es.wikipedia.org/wiki/Well_Known_Text).
 
-En la siguiente tabla puedes ver la ubicación de la información referente al sistema de referencia de coordenadas asociado a cada tipo de extensión de archivos de dibujo soportados por Digi3D.NET:
+En la siguiente tabla puedes ver la ubicación de la información referente al sistema de referencia de coordenadas asociado a cada tipo de extensión de archivos de dibujo soportados por Digi3D.AI:
 
 | Extensión | Formato de archivo de dibujo | Ubicación del sistema de referencia de coordenadas |
 | :--- | :--- | :--- |

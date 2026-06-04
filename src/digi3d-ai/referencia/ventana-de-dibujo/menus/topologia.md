@@ -1,6 +1,6 @@
 # Topología
 
-Permite ejecutar acciones relacionadas con las [topologías](/digi3d-net/referencia/editor-de-tablas-de-codigos/pestanas/topologias/)configuradas en la tabla de códigos activa.
+Permite ejecutar acciones relacionadas con las [topologías](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/)configuradas en la tabla de códigos activa.
 
 ## Grupos
 

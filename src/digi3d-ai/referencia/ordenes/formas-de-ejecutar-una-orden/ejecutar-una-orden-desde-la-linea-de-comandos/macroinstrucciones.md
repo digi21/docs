@@ -18,7 +18,7 @@ El programa ejecutará todas las órdenes almacenadas en la macroinstrucción un
 
 El programa intentará localizar la macroinstrucción siguiendo el siguiente orden:
 
-* En el [listado de macroinstrucciones](/digi3d-net/referencia/ventana-de-dibujo/ordenes/m/macroinstrucciones.md) que tenga la tabla de códigos activa.
+* En el [listado de macroinstrucciones](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/macroinstrucciones.md) que tenga la tabla de códigos activa.
 * En un archivo de texto cuyo nombre sea _@\[nombre de la macroinstrucción\]_ en el directorio actual de Windows.
 * En un archivo de texto cuyo nombre sea _@\[nombre de la macroinstrucción\]_ en el directorio donde está ubicado el archivo de dibujo.
 * En un archivo de texto cuyo nombre sea _@\[nombre de la macroinstrucción\]_ en el directorio de Macroinstrucciones

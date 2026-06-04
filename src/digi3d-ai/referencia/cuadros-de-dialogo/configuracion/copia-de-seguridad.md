@@ -30,7 +30,7 @@ Permite indicar al programa si debe hacer una copia de seguridad automáticament
 
 ## Generar copia de seguridad al comprimir
 
-Permite indicar al programa si se debe hacer una copia de seguridad automáticamente al ejecutar la orden [COMPRIMIR](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/comprimir.md), antes de comprimir el archivo de dibujo.
+Permite indicar al programa si se debe hacer una copia de seguridad automáticamente al ejecutar la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md), antes de comprimir el archivo de dibujo.
 
 ## Destino de copias de seguridad al comprimir
 

@@ -1,6 +1,6 @@
 # Leer un archivo de dibujo
 
-El paquete `digi21.io` permite leer archivos de dibujo de Digi3D.NET. Hay un módulo por
+El paquete `digi21.io` permite leer archivos de dibujo de Digi3D.AI. Hay un módulo por
 formato, todos con la misma interfaz: una función `open` que devuelve un objeto
 [`DrawingFile`](../../referencia/digi21.base/drawingfile.md) iterable.
 

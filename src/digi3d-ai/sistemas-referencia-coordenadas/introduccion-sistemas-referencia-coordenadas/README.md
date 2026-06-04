@@ -51,9 +51,9 @@ Los sistemas de coordenadas de referencia especifican muchos parámetros:
 
 ## Lista de sistemas de coordenadas de referencia
 
-Digi3D.NET permite que tú mismo crees tu propio sistema de coorodenadas de referencia: tan solo tienes que especificar los parámetros del elipsoide \(Semieje mayor y menor\), del dátum, indicar la ubicación del meridiano central asociado con el dátum, especificar el tipo de coordenadas, especificar el número y unidades de los ejes y ya está, ya tienes tu sistema de coordenadas de referencia personalizado, pero en la práctica nunca lo vas a hacer, en la práctica vas a utilizar uno de los sistemas de coordenadas de referencia proporcionados por Digi3D.NET.
+Digi3D.AI permite que tú mismo crees tu propio sistema de coorodenadas de referencia: tan solo tienes que especificar los parámetros del elipsoide \(Semieje mayor y menor\), del dátum, indicar la ubicación del meridiano central asociado con el dátum, especificar el tipo de coordenadas, especificar el número y unidades de los ejes y ya está, ya tienes tu sistema de coordenadas de referencia personalizado, pero en la práctica nunca lo vas a hacer, en la práctica vas a utilizar uno de los sistemas de coordenadas de referencia proporcionados por Digi3D.AI.
 
 El **Cuadro de diálogo Sistema de Referencia de Coordenadas** proporciona una impresionante lista de sistemas de coordenadas de referencia. El listado de sistrmas de coordenadas de referencia que muestra este cuadro de diálogo se extrae de la base de datos _EPSG_.
 
-El instalador de Digi3D.NET crea una copia de la base de datos del [OGP Geomatics Comitee](http://info.ogp.org.uk/geomatics/). Este comité proporciona una base de datos \(conocida como _EPSG_\) con miles de definiciones de sistemas de coordenadas de referencia así como los algoritmos a seguir \(y sus parámetros\) para transformar una coordenada entre distintos sistemas de coordenadas de referencia.
+El instalador de Digi3D.AI crea una copia de la base de datos del [OGP Geomatics Comitee](http://info.ogp.org.uk/geomatics/). Este comité proporciona una base de datos \(conocida como _EPSG_\) con miles de definiciones de sistemas de coordenadas de referencia así como los algoritmos a seguir \(y sus parámetros\) para transformar una coordenada entre distintos sistemas de coordenadas de referencia.
 

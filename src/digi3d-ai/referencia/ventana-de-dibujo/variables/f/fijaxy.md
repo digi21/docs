@@ -27,6 +27,6 @@ FIJAXY=1
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [EQUIDISTANCIA](/digi3d-net/referencia/ventana-de-dibujo/variables/e/equidistancia.md) |
+| Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) |
 | Nombre interno | {4CABD32C-2B27-49db-89B7-D83ABA2A0A99} |
 

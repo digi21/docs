@@ -1,6 +1,6 @@
 # Módulo digi3d
 
-`digi3d` es el módulo que Digi3D.NET pone a disposición de los guiones que se ejecutan **dentro
+`digi3d` es el módulo que Digi3D.AI pone a disposición de los guiones que se ejecutan **dentro
 del programa**: el [panel de Python](../../panel-de-python/README.md) y los
 [controles de calidad](../../controles-de-calidad/README.md). Da acceso a la ventana de dibujo
 activa, las órdenes, los paneles y demás servicios. No se puede importar desde una aplicación de
@@ -18,7 +18,7 @@ de modo que dentro de un guion se pueden usar directamente sin importar nada má
 ## Clases
 
 - [DrawingView](drawing-view.md) — la ventana de dibujo (geometrías, órdenes, configuración).
-- [Command](command.md) — una orden de Digi3D.NET.
+- [Command](command.md) — una orden de Digi3D.AI.
 - [PythonCommand](python-command.md) — base para crear órdenes interactivas en Python.
 - [Topology](topology.md) — topologías (`Topology`, `TopologyRing`, `TopologyPolygon`).
 - [GeographicCalculator](geographic-calculator.md) — cálculos geográficos (áreas, distancias, azimuts).

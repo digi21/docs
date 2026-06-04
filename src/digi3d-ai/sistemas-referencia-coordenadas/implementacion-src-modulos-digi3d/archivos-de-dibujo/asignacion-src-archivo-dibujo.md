@@ -1,6 +1,6 @@
 # Asignación del Sistema de Referencia de Coordenadas a un archivo de dibujo
 
-Hasta ahora, si cargábamos un proyecto que no proporcionaba Sistema de Referencia de Coordenadas, Digi3D.NET asignaba de forma automática a los modelos cargados un Sistema Local (desconocido).
+Hasta ahora, si cargábamos un proyecto que no proporcionaba Sistema de Referencia de Coordenadas, Digi3D.AI asignaba de forma automática a los modelos cargados un Sistema Local (desconocido).
 
 Si conoces el sistema en el que están las orientaciones del proyecto y quieres asignarlo (para por ejemplo conectarnos con Google Earth), tenías que crear un archivo .prj con el mismo nombre que el archivo de aerotriangulación y especificar el Sistema de Referencia de Coordenadas adecuado.
 

@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Si el conmutador [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) está activado, esta orden se autorrepite hasta que el usuario pulse la tecla Esc.
+Si el conmutador [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activado, esta orden se autorrepite hasta que el usuario pulse la tecla Esc.
 
 Tenemos la opción de almacenar en un archivo el listado de coordenadas, indicando el nombre y directorio del archivo que queremos generar, a continuación, seleccionaríamos la entidad correspondiente.
 
@@ -24,5 +24,5 @@ LISTA=C:\BROCHALES\listado1
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

@@ -6,11 +6,11 @@ Calcula la superficie de entidades gráficas cerradas y sitúa en la pantalla un
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Código texto \([COD+](/digi3d-net/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
-| 2 | Ángulo activo \([AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md) | Número real | Si |
-| 3 | Altura de texto \([AT](/digi3d-net/referencia/ventana-de-dibujo/variables/a/at.md) | Número real | Si |
-| 3 | Justificación de texto \([JT](/digi3d-net/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real | Si |
-| 3 | Número de decimales \([NDEC](/digi3d-net/referencia/ventana-de-dibujo/variables/n/ndec.md) | Número real | Si |
+| 1 | Código texto \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
+| 2 | Ángulo activo \([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) | Número real | Si |
+| 3 | Altura de texto \([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) | Número real | Si |
+| 3 | Justificación de texto \([JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real | Si |
+| 3 | Número de decimales \([NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) | Número real | Si |
 
 ## Observaciones
 
@@ -29,5 +29,5 @@ A continuación aparece en la Barra de Estado el sufijo para el área. Este sufi
 | Opción del menú donde aparece la orden | Dibujar/Acotar/Área de un polígono seleccionado |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

@@ -2,7 +2,7 @@
 
 Módulo: `digi3d`
 
-Representa una **orden** de Digi3D.NET. Se obtiene, por ejemplo, de
+Representa una **orden** de Digi3D.AI. Se obtiene, por ejemplo, de
 [`DrawingView.command_top`](drawing-view.md#órdenes) o se apila con `command_push`. Para
 **crear** órdenes interactivas propias en Python, usa [PythonCommand](python-command.md).
 

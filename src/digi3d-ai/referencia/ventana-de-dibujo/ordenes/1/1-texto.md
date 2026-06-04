@@ -1,6 +1,6 @@
 # 1TEXTO
 
-Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\) una única vez independientemente del estado del conmutador [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md).
+Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\) una única vez independientemente del estado del conmutador [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md).
 
 ## Parámetros
 
@@ -23,7 +23,7 @@ La orden solicitará que se [introduzcan](../../introduccion-de-coordenadas.md)l
 |  | Opción del menú donde aparece la orden | Dibujar/Texto con ángulo activo |
 |  | Barra de herramientas en la que aparece la orden | Textos |
 |  | Extensión | DigiNG.OrdenesStandard.dll |
-|  | Variables relacionadas | [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md) |
+|  | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
 |  | Nombre interno | {FC032D16-31FD-48e5-8646-4481E6F12D1A} |
 
 ## Vídeo

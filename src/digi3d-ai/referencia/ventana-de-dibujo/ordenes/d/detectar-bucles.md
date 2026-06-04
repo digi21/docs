@@ -10,7 +10,7 @@ Detecta bucles \(o auto intersecciones\) en entidades de tipo Línea y Polígono
 
 ## Observaciones
 
-Si se detectan auto intersecciones, se añadirán entradas en el [Panel Tareas](/digi3d-net/referencia/paneles/tareas.md). Se añadirá una entrada que al hacer doble clic muestra la geometría completa y ésta tendrá tantas sub-entradas como auto intersecciones se localicen. Al hacer doble clic en cada una de estas sub-entradas el programa centrará la ventana de dibujo en las coordenadas en las que se ha detectado la auto intersección.
+Si se detectan auto intersecciones, se añadirán entradas en el [Panel Tareas](/digi3d-ai/referencia/paneles/tareas.md). Se añadirá una entrada que al hacer doble clic muestra la geometría completa y ésta tendrá tantas sub-entradas como auto intersecciones se localicen. Al hacer doble clic en cada una de estas sub-entradas el programa centrará la ventana de dibujo en las coordenadas en las que se ha detectado la auto intersección.
 
 ## Características de la orden
 

@@ -6,7 +6,7 @@ Si no disponemos de archivo de puntos de apoyo y si no conocemos las coordenadas
 
 * Abre el menú **Ventana fotogramétrica** y selecciona la opción **Ir a punto de origen**.
 
-Comprobarás que Digi3D.NET se ha desplazado al punto de origen del modelo.
+Comprobarás que Digi3D.AI se ha desplazado al punto de origen del modelo.
 
 ## Vídeo
 

@@ -18,7 +18,7 @@ Modifica la justificación de uno o varios textos existentes en el dibujo.
 
 ## Observaciones
 
-Antes de ejecutar esta orden hay que cambiar la justificación de testo a la deseada, con la orden [JT](/digi3d-net/referencia/ventana-de-dibujo/variables/j/jt.md).
+Antes de ejecutar esta orden hay que cambiar la justificación de testo a la deseada, con la orden [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).
 
 Podemos cambiar la justificación a un texto en concreto o a los textos que tengan un código determinado con CAMB\_JT=&lt;código&gt;.
 
@@ -30,5 +30,5 @@ Podemos cambiar la justificación a un texto en concreto o a los textos que teng
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar justificación de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

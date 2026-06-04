@@ -1,6 +1,6 @@
 # RECORTA\_TRAZA
 
-Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-net/referencia/ventana-de-dibujo/ordenes/h/hoja.md).
+Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/h/hoja.md).
 
 ## Parámetros
 

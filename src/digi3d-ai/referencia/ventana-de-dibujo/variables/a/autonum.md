@@ -39,6 +39,6 @@ Si queremos volver a comenzar desde el número 1 por ejemplo, cuando la orden _T
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [FORMATO\_AUTONUM](/digi3d-net/referencia/ventana-de-dibujo/variables/f/formato-autonum.md) |
+| Variables relacionadas | [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md) |
 | Nombre interno | {3C350BC2-A34D-4dea-ADB7-4DDBFA9E1475} |
 

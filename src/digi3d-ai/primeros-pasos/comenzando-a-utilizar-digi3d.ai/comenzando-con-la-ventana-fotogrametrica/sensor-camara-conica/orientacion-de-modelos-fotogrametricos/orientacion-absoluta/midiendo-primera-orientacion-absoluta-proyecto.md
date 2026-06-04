@@ -16,12 +16,12 @@ Y a continuación una tabla con los puntos a medir en mayor detalle \(y por orde
 | 4 | 4 | 5798.8, 66571.8 | Punto 4 en la foto 107 |
 | 5 | 5 | 10703.4, 2432.8 | Punto 5 en la foto 107 |
 
-Es necesario que finalices los pasos de [Midiendo la orientación relativa automáticamente](/digi3d-net/primeros-pasos/comenzando-a-utilizar-digi3d.net/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-relativa/midiendo-orientacion-relativa-automaticamente.md) antes de ejecutar los siguientes pasos para medir una orientación absoluta:
+Es necesario que finalices los pasos de [Midiendo la orientación relativa automáticamente](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-relativa/midiendo-orientacion-relativa-automaticamente.md) antes de ejecutar los siguientes pasos para medir una orientación absoluta:
 
 1. Pulsa el botón **Orientación absoluta** de la barra de herramientas de la ventana fotogramétrica. Aparecerán dos paneles acoplados a la ventana fotogramétrica: **Orientación Absoluta** e **Instantáneas**. El panel **Orientación absoluta** es el que nos sirve para medir la orientación absoluta. El panel **Instantáneas** sirve para mostrarnos dónde se midió un determinado punto en otra imagen si éste punto ya se midió con anterioridad. 
-2. Es posible que además aparezca el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](/digi3d-net/referencia/cuadros-de-dialogo/introduce-punto-terreno.md). Si es así, pulsa el botón **Cancelar** para cerrarlo.
-3. El panel **Orientación absoluta** muestra arriba del todo la ruta al archivo de puntos de apoyo así como el [Sistema de referencia de coordenadas](/digi3d-net/sistemas-referencia-coordenadas/) en el que están las coordenadas de los puntos de apoyo enumerados en ese archivo.
-4. Pulsa el botón **...** justo a la derecha de la ruta al archivo de puntos de apoyo. Aparecerá el [Cuadro de diálogo Archivo de puntos de apoyo](/digi3d-net/referencia/cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md).
+2. Es posible que además aparezca el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](/digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md). Si es así, pulsa el botón **Cancelar** para cerrarlo.
+3. El panel **Orientación absoluta** muestra arriba del todo la ruta al archivo de puntos de apoyo así como el [Sistema de referencia de coordenadas](/digi3d-ai/sistemas-referencia-coordenadas/) en el que están las coordenadas de los puntos de apoyo enumerados en ese archivo.
+4. Pulsa el botón **...** justo a la derecha de la ruta al archivo de puntos de apoyo. Aparecerá el [Cuadro de diálogo Archivo de puntos de apoyo](/digi3d-ai/referencia/cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md).
 5. Pulsa el el botón **...** para especificar la ruta del archivo de puntos de apoyo. Aparecerá el cuadro de diálogo **Abrir**.
 6. Localiza y selecciona el archivo _%EjemplosDigi3D%\Bronchales\Bronchales.xyz_ y pulsa el botón **Abrir**.
 7. Pulsa el botón **...** para para especificar el sistema de referencia de coordenadas de los puntos de apoyo. Aparecerá el **Cuadro de diálogo Sistema de Referencia de Coordenadas**.
@@ -32,13 +32,13 @@ Es necesario que finalices los pasos de [Midiendo la orientación relativa autom
 12. Comprueba que el cuadro de diálogo **Archivo de puntos de apoyo** muestra en el campo **Sistema de referencia de coordenadas** lo siguiente: _WGS 84 / UTM Zone 30N + EGM08\_REDNAP Península_.
 13. Pulsa el botón **Aceptar**.
 14. Comprueba que en el panel **Orientación absoluta** aparece tanto la ruta del archivo de puntos de apoyo como el sistema de referencia de coordenadas de éste.
-15. Pulsa el botón **Añadir**. Aparecerá el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](/digi3d-net/referencia/cuadros-de-dialogo/introduce-punto-terreno.md). Selecciona el punto **7** y pulsa el botón **Aceptar**.
+15. Pulsa el botón **Añadir**. Aparecerá el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](/digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md). Selecciona el punto **7** y pulsa el botón **Aceptar**.
 16. Comprueba que en la parte inferior del panel **Orientación absoluta** el programa te está invitando a digitalizar el punto número **7.**
 17. Localiza el punto **7.** Una vez localizado pulsa cualquier botón de tu dispositivo de entrada para confirmar la medida.
 18. Aparecerá el cuadro de diálogo **Introduce un punto terreno del archivo de puntos**.
 19. Selecciona el punto número **6** y pulsa el botón **Aceptar.**
 20. Localiza el punto **6**. Una vez localizado pulsa cualquier botón de tu dispositivo de entrada para confirmar la medida.
-21. Observa que **ya no se vuelve a mostrar** el cuadro de diálogo **Introduce un punto terreno del archivo de puntos**. Con las dos medidas que hemos realizado anteriormente, Digi3D.NET ya se ha hecho una idea de los puntos que entran dentro del modelo y ha localizado automáticamente el siguiente punto que entra dentro del modelo. Comprueba que en la parte inferior del panel **Orientación absoluta** se nos está invitando a digitalizar el punto número **3.**
+21. Observa que **ya no se vuelve a mostrar** el cuadro de diálogo **Introduce un punto terreno del archivo de puntos**. Con las dos medidas que hemos realizado anteriormente, Digi3D.AI ya se ha hecho una idea de los puntos que entran dentro del modelo y ha localizado automáticamente el siguiente punto que entra dentro del modelo. Comprueba que en la parte inferior del panel **Orientación absoluta** se nos está invitando a digitalizar el punto número **3.**
 22. El programa ha calculado de forma automática la posición donde en teoría debería de estar el punto número **3**, pero como por ahora únicamente hemos medido dos puntos, no puede llevarnos con total precisión. En teoría con desplazar la coordenada Z tendríamos que llegar correctamente al punto. Localiza el punto. Una vez localizado pulsa cualquier botón de tu dispositivo de entrada para confirmar la medida.
 23. El programa se desplazará al punto número **4** y te invitará a digitalizalo. Pósate estereoscópicamente y pulsa cualquier botón de tu dispositivo de entrada.
 24. Por último el progrma solicitará que digitalices el punto número **5**. Pósate estereoscópicamente y pulsa cualquier botón de tu dispositivo de entrada.

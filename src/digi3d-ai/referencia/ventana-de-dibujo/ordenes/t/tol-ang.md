@@ -23,7 +23,7 @@ Muestra el valor actual de la tolerancia angular
 
 El valor de este factor debe especificarse en unidades centesimales.
 
-Este parámetro se utiliza en la generalización para comprobar en un punto, si el valor de la tangente del ángulo formado por las rectas anterior y siguiente, supera el valor de la tolerancia angular. En este caso, el punto no se elimina aunque no supere la [tolerancia lineal](https://github.com/digi21/docs/tree/bc01fbb8f283bc40e48776a9f72a3e40db73b2a0/digi3d-net/referencia/ventana-de-dibujo/ordenes/t/TOL.html), para mantener la forma del elemento.
+Este parámetro se utiliza en la generalización para comprobar en un punto, si el valor de la tangente del ángulo formado por las rectas anterior y siguiente, supera el valor de la tolerancia angular. En este caso, el punto no se elimina aunque no supere la [tolerancia lineal](https://github.com/digi21/docs/tree/bc01fbb8f283bc40e48776a9f72a3e40db73b2a0/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/TOL.html), para mantener la forma del elemento.
 
 El proceso de generalizar se ejecuta con todos y cada uno de los puntos de una entidad.
 
@@ -35,5 +35,5 @@ El proceso de generalizar se ejecuta con todos y cada uno de los puntos de una e
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

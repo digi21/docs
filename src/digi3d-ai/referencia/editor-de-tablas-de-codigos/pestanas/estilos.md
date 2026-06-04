@@ -69,7 +69,7 @@ Si se habilita permite indicar un símbolo que se dibujará a lo largo de la lí
 
 ### Símbolo
 
-Permite indicar el símbolo a asignar al estilo. Los símbolos son archivos de dibujo con extensión .BIN ubicados en un determinado directorio, habitualmente _c:\ProgramData\Digi3D.NET\Símbolos_
+Permite indicar el símbolo a asignar al estilo. Los símbolos son archivos de dibujo con extensión .BIN ubicados en un determinado directorio, habitualmente _c:\ProgramData\Digi3D.AI\Símbolos_
 
 Al pulsar el botón de los tres puntos aparecerá un cuadro de diálogo que te mostrará todos los símbolos. Al aceptar el cuadro de diálogo se actualizará la ventana **Símbolo**.
 

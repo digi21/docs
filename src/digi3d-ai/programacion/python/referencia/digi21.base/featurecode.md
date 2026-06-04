@@ -2,7 +2,7 @@
 
 Módulo: [digi21.base](README.md)
 
-Representa un código de Digi3D.NET: la cadena del código, la tabla de base de datos
+Representa un código de Digi3D.AI: la cadena del código, la tabla de base de datos
 asociada, su identificador, sus atributos y su visibilidad.
 
 ```python

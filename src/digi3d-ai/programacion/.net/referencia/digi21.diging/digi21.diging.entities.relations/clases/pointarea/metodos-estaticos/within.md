@@ -1,7 +1,7 @@
 # Within
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Indica si el punto está en el interior del área.
 
@@ -11,12 +11,12 @@ Indica si el punto está en el interior del área.
 
 |  |  |
 | :--- | :--- |
-| Within\(ReadOnlyPoint, ReadOnlyLine\) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| Within\(ReadOnlyPoint, ReadOnlyPolygon\) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| Within\(ReadOnlyPoint, ReadOnlyLine\) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| Within\(ReadOnlyPoint, ReadOnlyPolygon\) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
 
 ## Within\(ReadOnlyPoint, ReadOnlyLine\)
 
-Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
+Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
 
 ```csharp
 public static bool Within(ReadOnlyPoint point, ReadOnlyLine area)
@@ -24,10 +24,10 @@ public static bool Within(ReadOnlyPoint point, ReadOnlyLine area)
 
 ### Parámetros
 
-`point` [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
+`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
 Punto.
 
-`area` [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
+`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
 Area.
 
 ## Devuelve
@@ -37,7 +37,7 @@ _Verdadero_ si el punto está en el interior del área.
 
 ## Within\(ReadOnlyPoint, ReadOnlyPolygon\)
 
-Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
+Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
 
 ```csharp
  public static bool Within(ReadOnlyPoint point, ReadOnlyPolygon area)
@@ -45,10 +45,10 @@ Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.dig
 
 ### Parámetros
 
-`point` [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
+`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
 Punto.
 
-`area` [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)  
+`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)  
 Area.
 
 ## Devuelve

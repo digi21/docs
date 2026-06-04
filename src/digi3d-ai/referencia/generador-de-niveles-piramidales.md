@@ -2,17 +2,17 @@
 
 ![Generador de niveles piramidales](../../images/generadordenivelespiramidales.png)
 
-Este programa transforma imágenes TIFF en batería para hacerlas compatibles con Digi3D.NET y crea niveles piramidales.
+Este programa transforma imágenes TIFF en batería para hacerlas compatibles con Digi3D.AI y crea niveles piramidales.
 
 ## Observaciones
 
-Digi3D.NET requiere que las imágenes TIFF estén teseladas (formadas por un mosaico de imágenes pequeñas).
+Digi3D.AI requiere que las imágenes TIFF estén teseladas (formadas por un mosaico de imágenes pequeñas).
 
-Digi3D.NET requiere además que las imágenes TIFF tengan niveles piramidales (que son la misma imagen, pero a distintas resoluciones). Estos niveles piramidales pueden estar autocontenidos dentro de la propia imagen TIFF o en un archivo externo (habitualmente un archivo con extensión .pyr, que es en realidad un archivo TIFF al que se le ha cambiado la extensión a .pyr y que tiene los niveles piramidales 2, 3, 4,...).
+Digi3D.AI requiere además que las imágenes TIFF tengan niveles piramidales (que son la misma imagen, pero a distintas resoluciones). Estos niveles piramidales pueden estar autocontenidos dentro de la propia imagen TIFF o en un archivo externo (habitualmente un archivo con extensión .pyr, que es en realidad un archivo TIFF al que se le ha cambiado la extensión a .pyr y que tiene los niveles piramidales 2, 3, 4,...).
 
-Si al cargar en Digi3D.NET una imagen TIFF el programa detecta que esta no está formada por teselas, mostrará un cuadro de diálogo solicitando si convertirla en compatible.&#x20;
+Si al cargar en Digi3D.AI una imagen TIFF el programa detecta que esta no está formada por teselas, mostrará un cuadro de diálogo solicitando si convertirla en compatible.&#x20;
 
-Si al cargar en Digi3D.NET una imagen TIFF el programa detecta que está teselada pero no tiene niveles piramidales, Digi3D.NET **no va a preguntar** si convertir la imagen en una imagen compatible, puesto que ya es compatible.
+Si al cargar en Digi3D.AI una imagen TIFF el programa detecta que está teselada pero no tiene niveles piramidales, Digi3D.AI **no va a preguntar** si convertir la imagen en una imagen compatible, puesto que ya es compatible.
 
 Con el programa Generador de Niveles Piramidales podemos realizar en batería lo siguiente:
 
@@ -47,8 +47,8 @@ Selecciona aquí el nivel piramidal máximo a crear. Este nivel será el máximo
 
 ## Comprimir en JPEG
 
-Selecciona esta opción si quieres que Digi3D.NET comprima la imagen generada en formato JPEG.\
-No es habitual seleccionar esta opción pues Digi3D.NET genera y carga archivos BigTIFF que no tienen limitación en el tamaño.
+Selecciona esta opción si quieres que Digi3D.AI comprima la imagen generada en formato JPEG.\
+No es habitual seleccionar esta opción pues Digi3D.AI genera y carga archivos BigTIFF que no tienen limitación en el tamaño.
 
 ### Calidad
 

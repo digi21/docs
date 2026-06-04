@@ -18,4 +18,4 @@ Esta orden solicita que se seleccione una polilínea. Una vez seleccionada se pr
 | Opción del menú donde aparece la orden           | Editar/Polilíneas/Extiende extremo de polilínea dinámicamente                                                                                                   |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar                                                                                                                                               |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |
-| Variables relacionadas                           | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas                           | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |

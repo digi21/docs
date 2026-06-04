@@ -1,9 +1,9 @@
 # Database
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
 
-Devuelve un diccionario con los atributos de base de datos que tengan asignado cada uno de los códigos de la geometría representada por este [Entity](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) en el archivo de dibujo.
+Devuelve un diccionario con los atributos de base de datos que tengan asignado cada uno de los códigos de la geometría representada por este [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) en el archivo de dibujo.
 
 ```csharp
 public IDictionary<string, IDictionary<string, object>> Database { get;  }‌

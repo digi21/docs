@@ -1,9 +1,9 @@
 # CreationTime
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
 
-Devuelve la fecha de creación de la geometría representada por este [Entity](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/)
+Devuelve la fecha de creación de la geometría representada por este [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/)
 
 ```csharp
 public DateTime CreationTime { get; }‌
@@ -17,5 +17,5 @@ public DateTime CreationTime { get; }‌
 
 ## Observaciones
 
-Digi3D.NET asigna una fecha de creación a las geometrías en el momento en el que se almacenan en un archivo de dibujo.
+Digi3D.AI asigna una fecha de creación a las geometrías en el momento en el que se almacenan en un archivo de dibujo.
 

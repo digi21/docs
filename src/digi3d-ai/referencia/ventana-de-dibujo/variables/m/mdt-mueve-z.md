@@ -1,6 +1,6 @@
 # MDT\_MUEVE\_Z
 
-Activa o desactiva la actualización de la coordenada Z en Digi3D.NET, cuando el cursor pase por encima de los Modelos Digitales del Terreno.
+Activa o desactiva la actualización de la coordenada Z en Digi3D.AI, cuando el cursor pase por encima de los Modelos Digitales del Terreno.
 
 ## Parámetros
 

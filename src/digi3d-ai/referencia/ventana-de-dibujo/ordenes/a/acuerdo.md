@@ -25,5 +25,5 @@ El resultado de la orden es la sustitución del vértice por un arco de radio es
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Redondear un vértice |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

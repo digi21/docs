@@ -4,5 +4,5 @@ Podemos cancelar la orden que se está ejecutando de las siguientes maneras:
 
 * Pulsando la tecla **Escape**.
 * Pulsando el **botón derecho** del ratón o el pedal de **Cancelar** \(en caso de disponer de manivelas\).
-* Ejecutando la orden [ANULA\_ORDENES](/digi3d-net/referencia/ventana-de-dibujo/ordenes/a/anula-ordenes.md).
+* Ejecutando la orden [ANULA\_ORDENES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anula-ordenes.md).
 

@@ -13,7 +13,7 @@ En la siguiente tabla te mostramos las versiones que podrás utilizar en funció
 
 Un mes antes de la fecha de expiración de tu soporte técnico, te mostraremos un cuadro de diálogo cada vez que ejecutes el programa indicándote de que el soporte técnico va a expirar. Además, te enviaremos un correo electrónico recordándote de que tu soporte técnico está a punto de expirar y aconsejándote de que descargues y mantengas en lugar seguro una copia de seguridad del instalador del programa, pues **nosotros no conservamos** ningún histórico de instaladores.
 
-A continuación, te mostramos cómo comunica _Digi3D.NET_ al usuario que su subscripción de soporte técnico y actualizaciones está a punto de expirar:
+A continuación, te mostramos cómo comunica _Digi3D.AI_ al usuario que su subscripción de soporte técnico y actualizaciones está a punto de expirar:
 
 ![Cuadro de diálogo mostrando que el soporte técnico está a punto de expirar](../images/soporte-técnico-a-punto-de-expirar.png)
 

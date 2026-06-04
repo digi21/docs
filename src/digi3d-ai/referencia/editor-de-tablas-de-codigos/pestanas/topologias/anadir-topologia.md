@@ -6,7 +6,7 @@ Permite configurar una nueva topología a añadir al listado de topologías de l
 
 ## Nombre
 
-Permite configurar el nombre de la topología. Este será el nombre de cada una de las opciones que se mostrarán en los menús dinámicos del menú [Topología](/digi3d-net/referencia/ventana-de-dibujo/menus/topologia.md).
+Permite configurar el nombre de la topología. Este será el nombre de cada una de las opciones que se mostrarán en los menús dinámicos del menú [Topología](/digi3d-ai/referencia/ventana-de-dibujo/menus/topologia.md).
 
 ## Procesar polígonos sin centroide
 
@@ -28,9 +28,9 @@ Permite indicar el texto que tendrán los centroides que se considerarán [hueco
 
 ## Código del polígono a formar
 
-Permite configurar el código con el que se [generarán los polígonos](/digi3d-net/referencia/ventana-de-dibujo/menus/topologia.md) de esta topología.
+Permite configurar el código con el que se [generarán los polígonos](/digi3d-ai/referencia/ventana-de-dibujo/menus/topologia.md) de esta topología.
 
-Este campo admite que se introduzca una [macro](/digi3d-net/referencia/macros.md) como, por ejemplo `$(CodigoCentroide)`o `$(TextoCentroide)`
+Este campo admite que se introduzca una [macro](/digi3d-ai/referencia/macros.md) como, por ejemplo `$(CodigoCentroide)`o `$(TextoCentroide)`
 
 ## Coordenadas Z del polígono
 

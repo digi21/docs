@@ -1,7 +1,7 @@
 # Aplicaciones de consola
 
 Programas de Python **normales**, que se ejecutan en un intérprete de Python de tu sistema
-**fuera de Digi3D.NET**. Sirven para **leer y procesar archivos de dibujo** (convertir formatos,
+**fuera de Digi3D.AI**. Sirven para **leer y procesar archivos de dibujo** (convertir formatos,
 extraer información, generar informes, hacer controles por lotes…) sin necesidad de abrir el
 programa.
 
@@ -16,7 +16,7 @@ Usan dos paquetes:
 instancias de los tipos de `digi21.base`.
 
 > En esta forma de programación **no** existe el objeto `digi3d`: ese solo está disponible dentro
-> de Digi3D.NET, en el [panel de Python](../panel-de-python/README.md) y en los
+> de Digi3D.AI, en el [panel de Python](../panel-de-python/README.md) y en los
 > [controles de calidad](../controles-de-calidad/README.md). Aquí trabajas con **archivos**, no
 > con el dibujo activo del programa.
 

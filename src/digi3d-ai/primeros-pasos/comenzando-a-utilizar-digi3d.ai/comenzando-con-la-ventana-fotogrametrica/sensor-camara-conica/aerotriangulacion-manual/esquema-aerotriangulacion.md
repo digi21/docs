@@ -13,7 +13,7 @@ De esta manera, si indicamos que éste es el esquema que queremos seguir a la ho
 
 Los esquemas de aerotriangulación se extraen del archivo indicado en **Herramientas/Configuración** en la sección **Medida de aerotriangulación** en el valor **Esquemas.**
 
-El instalador de Digi3D.NET crea un archivo de esquemas en la carpeta _%ProgramData%\Digi3D.NET\Esquemas Orientaciones_ con el nombre _Esquemas de medida de aerotriangulación.aerotrischeme.xml_.
+El instalador de Digi3D.AI crea un archivo de esquemas en la carpeta _%ProgramData%\Digi3D.AI\Esquemas Orientaciones_ con el nombre _Esquemas de medida de aerotriangulación.aerotrischeme.xml_.
 
 Este archivo proporciona los siguientes esquemas de aerotriangulación:
 

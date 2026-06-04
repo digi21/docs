@@ -4,7 +4,7 @@ Rellena el interior de una entidad superficial de contorno cerrado con una trama
 
 ## Parámetros
 
-Si no se realiza ninguna asignación previa de [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md), el sistema toma por defecto los valores cero para estos parámetros.
+Si no se realiza ninguna asignación previa de [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), el sistema toma por defecto los valores cero para estos parámetros.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
@@ -30,5 +30,5 @@ Los puntos de la trama se representan con el código que esté activo en el mome
 | Opción del menú donde aparece la orden | Dibujar/Más/Rellenar polígonos con una trama |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](/digi3d-net/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
 

@@ -1,7 +1,7 @@
 # OuterRingAdjacent
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Indica si los límites exteriores de las áreas son adyacentes.
 
@@ -9,19 +9,19 @@ Indica si los límites exteriores de las áreas son adyacentes.
 
 ## Observaciones
 
-Este método tiene en consideración únicamente el límite exterior de los [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/), de manera que, si la otra área es adyacente a algún hueco, no se considerará.
+Este método tiene en consideración únicamente el límite exterior de los [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/), de manera que, si la otra área es adyacente a algún hueco, no se considerará.
 
 ## Sobrecargas
 
 |                                                                                                                               |                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [OuterRingAdjacent(ReadOnlyLine, ReadOnlyPolygon)](outerringadjacent.md#outerringadjacent-readonlyline-readonlypolygon)       | Indica si el área [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
-| [OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyLine)](outerringadjacent.md#outerringadjacent-readonlypolygon-readonlyline)       | Indica si el área [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
-| [OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyPolygon)](outerringadjacent.md#outerringadjacent-readonlypolygon-readonlypolygon) | Indica si el límite exterior de los dos  [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.                                                                                                |
+| [OuterRingAdjacent(ReadOnlyLine, ReadOnlyPolygon)](outerringadjacent.md#outerringadjacent-readonlyline-readonlypolygon)       | Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
+| [OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyLine)](outerringadjacent.md#outerringadjacent-readonlypolygon-readonlyline)       | Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
+| [OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyPolygon)](outerringadjacent.md#outerringadjacent-readonlypolygon-readonlypolygon) | Indica si el límite exterior de los dos  [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.                                                                                                |
 
 ## OuterRingAdjacent(ReadOnlyLine, ReadOnlyPolygon)
 
-Indica si el área [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
 
 ```csharp
 public static bool OuterRingAdjacent(ReadOnlyLine a, ReadOnlyPolygon b) 
@@ -29,10 +29,10 @@ public static bool OuterRingAdjacent(ReadOnlyLine a, ReadOnlyPolygon b)
 
 ### Parámetros
 
-`a` [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
+`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
 Primera área.
 
-`b` [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
+`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
 Segunda área.
 
 ## Devuelve
@@ -42,7 +42,7 @@ _Verdadero_ si las dos áreas son adyacentes.
 
 ## OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyLine)
 
-Indica si el área [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
 
 ```csharp
 public static bool OuterRingAdjacent(ReadOnlyPolygon a, ReadOnlyLine b)
@@ -50,10 +50,10 @@ public static bool OuterRingAdjacent(ReadOnlyPolygon a, ReadOnlyLine b)
 
 ### Parámetros
 
-`a` [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
+`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
 Primera área.
 
-`b` [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
+`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
 Segunda área.
 
 ## Devuelve
@@ -63,7 +63,7 @@ _Verdadero_ si las dos áreas son adyacentes.
 
 ## OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyPolygon)
 
-Indica si el límite exterior de los dos  [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.
+Indica si el límite exterior de los dos  [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.
 
 ```csharp
 public static bool OuterRingAdjacent(ReadOnlyPolygon a, ReadOnlyPolygon b)
@@ -71,10 +71,10 @@ public static bool OuterRingAdjacent(ReadOnlyPolygon a, ReadOnlyPolygon b)
 
 ### Parámetros
 
-`a` [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
+`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
 Primera área.
 
-`b` [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
+`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
 Segunda área.
 
 ## Devuelve

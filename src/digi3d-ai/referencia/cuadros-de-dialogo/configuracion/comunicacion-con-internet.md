@@ -29,11 +29,11 @@ En caso de haber seleccionado en **Tipo de conexión** la opción **Servidor pro
 
 ## Comprobar versión nueva
 
-Permite configurar si Digi3D.NET va a comprobar si existe una versión nueva cada vez que arranque.
+Permite configurar si Digi3D.AI va a comprobar si existe una versión nueva cada vez que arranque.
 
 Podemos seleccionar una de las siguientes opciones:
 
-* **Si**. Selecciona esta opción si quieres que Digi3D.NET compruebe si existe una versión nueva cada vez que arranque.
+* **Si**. Selecciona esta opción si quieres que Digi3D.AI compruebe si existe una versión nueva cada vez que arranque.
 * **No**. Selecciona esta opción en caso contrario.
 
 ## Permitir instalar versiones BETA
@@ -42,6 +42,6 @@ Permite configurar si a la hora de buscar versiones nuevas, queremos que el prog
 
 Podemos seleccionar una de las siguientes opciones:
 
-* **Si**. Selecciona esta opción si quieres que Digi3D.NET incluya versiones BETA al comprobar si existe una versión.
+* **Si**. Selecciona esta opción si quieres que Digi3D.AI incluya versiones BETA al comprobar si existe una versión.
 * **No**. Selecciona esta opción en caso contrario.
 

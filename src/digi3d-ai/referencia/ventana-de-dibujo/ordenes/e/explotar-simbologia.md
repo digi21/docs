@@ -16,7 +16,7 @@ Al ejecutar esta orden hay que especificar en la línea de comandos el código d
 
 El sistema "explotará" automáticamente todas las líneas que tengan ese código.
 
-Es recomendable que realices una copia de seguridad del fichero, con la orden [BAK](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/bak.md), antes de ejecutar esta orden.
+Es recomendable que realices una copia de seguridad del fichero, con la orden [BAK](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bak.md), antes de ejecutar esta orden.
 
 ## Características de la orden
 

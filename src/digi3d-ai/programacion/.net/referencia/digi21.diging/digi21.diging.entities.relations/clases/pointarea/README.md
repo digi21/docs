@@ -1,7 +1,7 @@
 # PointArea
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-net/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
 
 Esta clase estática proporciona métodos que permiten analizar la relación entre puntos y áreas.
 
@@ -15,7 +15,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Un _Área_ en este contexto se refiere a líneas cerradas, de manera que engloba tanto a cualquier geometría de tipo [ReadOnlyPolygon](../../../digi21.diging.entities/clases/readonlypolygon/)o cualquier [ReadOnlyLine](../../../digi21.diging.entities/clases/readonlyline/)que esté cerrado.
 
-El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Coincident](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointpoint/metodos-estaticos/coincident.md) devolverá _Falso_.
+El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Coincident](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointpoint/metodos-estaticos/coincident.md) devolverá _Falso_.
 
 Estos métodos únicamente analizan vértices existentes, es decir, que si no hay un vértice común entre las dos geometrías que se cruzan, su cruce pasará desapercibido.
 
@@ -23,10 +23,10 @@ Estos métodos únicamente analizan vértices existentes, es decir, que si no ha
 
 |  |  |
 | :--- | :--- |
-| [Coincident\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/coincident.md#coincident-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyLine](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
-| [Coincident\(ReadOnlyPoint, ReadOnlyPolygon\)](metodos-estaticos/coincident.md#coincident-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyPolygon](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
-| [Disjoint\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/disjoint.md#disjoint-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
-| [Disjoint\(ReadOnlyPoint, ReadOnlyPolygon\)](metodos-estaticos/disjoint.md#disjoint-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
-| [Within\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/within.md#within-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| [Within\(ReadOnlyPoint, ReadOnlyPolygon\)](metodos-estaticos/within.md#within-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](/digi3d-net/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| [Coincident\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/coincident.md#coincident-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
+| [Coincident\(ReadOnlyPoint, ReadOnlyPolygon\)](metodos-estaticos/coincident.md#coincident-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| [Disjoint\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/disjoint.md#disjoint-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
+| [Disjoint\(ReadOnlyPoint, ReadOnlyPolygon\)](metodos-estaticos/disjoint.md#disjoint-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
+| [Within\(ReadOnlyPoint, ReadOnlyLine\)](metodos-estaticos/within.md#within-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| [Within\(ReadOnlyPoint, ReadOnlyPolygon\)](metodos-estaticos/within.md#within-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
 

@@ -14,7 +14,7 @@ Borra todas aquellas entidades que tengan un código igual al teclado por el usu
 
 La primera operación que hay que realizar es crear una entidad cerrada a modo de ventana.
 
-No se borrarán aquellos códigos que estén apagados \([OFF](/digi3d-net/referencia/ventana-de-dibujo/ordenes/o/off.md).
+No se borrarán aquellos códigos que estén apagados \([OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md).
 
 Ahora tendríamos que elegir los códigos que queremos borrar, para ello podemos utilizar una de estas opciones:
 

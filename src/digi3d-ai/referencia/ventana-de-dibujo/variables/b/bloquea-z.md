@@ -37,11 +37,11 @@ El valor de Z queda bloqueado, de forma que no puede ser modificado al variar la
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](/digi3d-net/referencia/ventana-de-dibujo/variables/f/fijaz.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Fijar la coordenada Z al múltiplo de equidistancia más cercano |
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-net/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
 

@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Digi3D.NET autoguarda los cambios que se han realizado en los ficheros de trabajo.
+Digi3D.AI autoguarda los cambios que se han realizado en los ficheros de trabajo.
 
 ## Parámetros
 

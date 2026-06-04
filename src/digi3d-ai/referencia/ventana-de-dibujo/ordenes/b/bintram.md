@@ -16,7 +16,7 @@ Al ejecutar la orden aparecerá el siguiente cuadro de diálogo:
 
 ![Cuadro de diálogo Bintram](../../../../../images/BINTRAM.jpg)
 
-* Lo primero que deberás hacer es seleccionar la Tabla de códigos que utilizará en el proceso. Esta tabla es un archivo de texto en el que listan los códigos de las entidades que se van a tratar en esta orden. Cada código se escribirá en una línea del fichero y perfectamente justificado a la izquierda. Las letras mayúsculas y las minúsculas son interpretadas por Digi3D.NET como códigos diferentes. Se pueden usar el comodín "\*" como parte de un código, para hacer referencia a un grupo de ellos, sin necesidad de tener que listarlos uno a uno. Por ejemplo: 1401\* se refiere a todos los códigos que empiecen por 1401 sean cual sean sus dos últimos caracteres. Por defecto se buscarán ficheros con extensión TAB, aunque puede utilizarse cualquier otra. En este caso hay que optar por Todos los archivos en la casilla Archivos de tipo para poder realizar la selección del fichero. Una vez seleccionada la tabla aparecerán listados los códigos en el campo correspondiente junto a una casilla para su activación o desactivación.
+* Lo primero que deberás hacer es seleccionar la Tabla de códigos que utilizará en el proceso. Esta tabla es un archivo de texto en el que listan los códigos de las entidades que se van a tratar en esta orden. Cada código se escribirá en una línea del fichero y perfectamente justificado a la izquierda. Las letras mayúsculas y las minúsculas son interpretadas por Digi3D.AI como códigos diferentes. Se pueden usar el comodín "\*" como parte de un código, para hacer referencia a un grupo de ellos, sin necesidad de tener que listarlos uno a uno. Por ejemplo: 1401\* se refiere a todos los códigos que empiecen por 1401 sean cual sean sus dos últimos caracteres. Por defecto se buscarán ficheros con extensión TAB, aunque puede utilizarse cualquier otra. En este caso hay que optar por Todos los archivos en la casilla Archivos de tipo para poder realizar la selección del fichero. Una vez seleccionada la tabla aparecerán listados los códigos en el campo correspondiente junto a una casilla para su activación o desactivación.
 
 A continuación se explican los diferentes pasos y opciones del proceso BINTRAM.
 
@@ -71,7 +71,7 @@ En el lado derecho parecerán los códigos de los símbolos de error que se van 
 
 Resultados del proceso BINTRAM:
 
-La orden BINTRAM ayudará al usuario a detectar y corregir errores mediante el archivo de errores de formato BIN y la salida de resultados en la [Ventana de Tareas](/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/VentanaTareas.html) y la [Ventana de Resultados](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-net/referencia/ventana-de-dibujo/ordenes/b/VentanaResultados.md).
+La orden BINTRAM ayudará al usuario a detectar y corregir errores mediante el archivo de errores de formato BIN y la salida de resultados en la [Ventana de Tareas](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/VentanaTareas.html) y la [Ventana de Resultados](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/VentanaResultados.md).
 
 Ventana de Tareas:
 
