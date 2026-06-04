@@ -28,7 +28,7 @@ archivos de dibujo cargados:
 > Las geometrías que devuelve son propiedad de la aplicación: no se pueden reasignar
 > (`view[i] = ...` lanza `TypeError`).
 
-## Geometrías: añadir y borrar
+## Geometrías: añadir, borrar y recuperar
 
 | Método | Descripción |
 |---|---|
@@ -36,13 +36,23 @@ archivos de dibujo cargados:
 | `add(geometries)` | Añade una lista de geometrías. |
 | `delete(geometry)` | Borra una geometría. |
 | `delete(geometries)` | Borra un iterable o una lista de geometrías. |
+| `recover(geometry)` | Recupera una geometría borrada. |
+| `recover(geometries)` | Recupera un iterable o una lista de geometrías borradas. |
+
+> En Digi3D.NET **borrar no elimina realmente** la geometría: solo la **marca como borrada** (lo
+> indica la propiedad `deleted` de la [geometría](../referencia/digi21.base/geometry.md)). Por eso se
+> puede **recuperar** con `recover`. Pasar una **lista** a `delete`/`recover` es bastante más rápido
+> que llamarlos de una en una.
 
 ```python
 linea = digi3d.Line(["CARR"], [(0, 0, 0), (10, 0, 0)])
 view.add(linea)
 
-# Borrar las geometrías marcadas como eliminadas
-view.delete(g for g in view if g.deleted)
+# Borrar en bloque, y poder deshacerlo si hace falta
+seleccion = [g for g in view if g.has_code("020123")]
+view.delete(seleccion)
+# ... si algo va mal:
+view.recover(seleccion)
 ```
 
 ## Tabla de códigos

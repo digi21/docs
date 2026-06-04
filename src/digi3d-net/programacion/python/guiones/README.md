@@ -17,6 +17,12 @@ for geometry in view:
     print(type(geometry).__name__)
 ```
 
+## Formas de ejecutar un guion
+
+Un guion se puede ejecutar desde el **panel de Guiones Python**, **como una orden** (por su
+nombre, desde la consola de órdenes) o como **control de calidad**. Lo explica
+[Cómo ejecutar guiones](ejecutar-guiones.md).
+
 ## El módulo `digi3d`
 
 El punto de entrada habitual es [`current_view()`](functions.md#current_view), que
@@ -39,6 +45,11 @@ digi3d.current_view().add(linea)
 ```
 
 ## Contenido
+
+### Guías
+
+- [Cómo ejecutar guiones](ejecutar-guiones.md) — panel, orden (consola) y control de calidad.
+- [Controles de calidad](controles-de-calidad.md) — funciones que validan geometrías.
 
 ### Clases
 
