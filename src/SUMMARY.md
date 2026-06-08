@@ -1780,6 +1780,7 @@
   * [Procedimientos](acerca-llaves-proteccion/procedimientos/README.md)
     * [Recibido archivo V2C](acerca-llaves-proteccion/procedimientos/recibido-archivo-v2c.md)
     * [Envíanos un archivo C2V](acerca-llaves-proteccion/procedimientos/envianos-un-archivo-c2v.md)
+    * [Mover una llave de software de una máquina a otra](acerca-llaves-proteccion/procedimientos/mover-una-llave-de-software-de-una-maquina-a-otra.md)
   * [Solución de problemas](acerca-llaves-proteccion/solucion-de-problemas/README.md)
     * [Ordenador no activado](acerca-llaves-proteccion/solucion-de-problemas/ordenador-no-activado.md)
     * [No se pudo conectar con la llave de protección especificada](acerca-llaves-proteccion/solucion-de-problemas/no-se-pudo-conectar-llave-proteccion.md)
