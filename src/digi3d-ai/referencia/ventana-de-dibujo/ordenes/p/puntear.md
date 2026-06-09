@@ -31,4 +31,5 @@ Los puntos de la trama se representan con el código que esté activo en el mome
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {EED3B1FD-0000-4c24-BBF9-33DEC81BF1D0} |
 

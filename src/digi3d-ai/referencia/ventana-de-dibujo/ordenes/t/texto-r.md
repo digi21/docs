@@ -24,4 +24,5 @@ No se han registrado observaciones para esta orden.
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) |
+| Nombre interno | {A220017C-F462-4b80-8752-4F4981789765} |
 

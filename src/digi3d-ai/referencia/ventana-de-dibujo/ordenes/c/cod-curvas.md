@@ -25,4 +25,5 @@ Esta orden supone que entre cada dos curvas de nivel directoras se dibujan 4 fin
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {ACAEC197-BA66-40cd-B5D0-DD4C349F4BD1} |
 

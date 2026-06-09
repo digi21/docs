@@ -25,6 +25,7 @@ Después de aceptar una asignación de una orden a una tecla, pulsando la tecla 
 | Barra de herramientas en la que aparece la orden | Teclados |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {EB6809CA-AA03-4dfb-9D7A-D639EFDBC051} |
 
 ## Nota
 

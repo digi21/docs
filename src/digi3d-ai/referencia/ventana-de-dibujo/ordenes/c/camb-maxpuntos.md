@@ -29,6 +29,7 @@ Dividirá todas aquellas entidades lineales cuyo código sea 020126, en tramos q
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {68887B83-3512-412c-8100-B2F134A73248} |
 
 ## Vídeo
 

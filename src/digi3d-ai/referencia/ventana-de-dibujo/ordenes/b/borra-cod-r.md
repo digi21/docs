@@ -31,4 +31,5 @@ También es posible ejecutar la orden especificando el código desde la línea d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {998553CF-11D7-449b-9324-C94446D48CBA} |
 

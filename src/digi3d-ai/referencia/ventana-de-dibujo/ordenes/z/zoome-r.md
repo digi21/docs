@@ -21,4 +21,5 @@ Puedes deseleccionar recintos sin finalizar la orden, presionando el botón dere
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {8E5DA4E4-9A06-43a8-A94A-4EFD9A16BCB7} |
 

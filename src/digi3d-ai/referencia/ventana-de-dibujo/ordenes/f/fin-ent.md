@@ -21,4 +21,5 @@ Esta orden está asignada por defecto a uno de los pedales y al botón derecho d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {A72F081C-713C-4cc4-B266-9C0772843DA1} |
 

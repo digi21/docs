@@ -25,4 +25,5 @@ La orden requiere la entrada de los puntos extremos que definen la diagonal del 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {3402C7CF-6346-4C66-A043-EE0869AF6F4C} |
 

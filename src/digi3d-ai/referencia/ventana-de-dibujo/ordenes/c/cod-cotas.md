@@ -26,6 +26,7 @@ Puedes añadir esta orden a tu archivo de órdenes de inicio para que se ejecute
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md) |
+| Nombre interno | {2A57AF5B-FDF2-4251-A736-362FF025D5E1} |
 
 ## Tutorial
 

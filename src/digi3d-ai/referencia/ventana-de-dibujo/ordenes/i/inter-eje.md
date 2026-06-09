@@ -19,4 +19,5 @@ La interpolación se hará en coordenadas \(X Y Z\). La nueva entidad se registr
 | Barra de herramientas en la que aparece la orden | Interpolación |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {4B787BBC-9658-4f8c-B83E-C83D3005FC91} |
 

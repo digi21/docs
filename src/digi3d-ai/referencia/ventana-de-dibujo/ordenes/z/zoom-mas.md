@@ -19,4 +19,5 @@ El efecto visual es de aproximación, viéndose las entidades de dibujo al doble
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {B1AECC0C-D19F-42b0-A082-66FBFC17DA86} |
 

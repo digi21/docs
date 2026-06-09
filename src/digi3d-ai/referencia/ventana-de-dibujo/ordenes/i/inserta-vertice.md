@@ -19,4 +19,5 @@ Al seleccionar la entidad y aceptar la selección, el cursor queda enganchado y 
 | Barra de herramientas en la que aparece la orden | Editar polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {5BDF6E2F-150B-4b6f-8EB2-311C42E3AECF} |
 

@@ -21,6 +21,7 @@ Ajusta el factor de zoom para que el dibujo completo se visualice en la pantalla
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {84F73743-CC79-4068-A37F-2CDA2966DFE4} |
 
 ## Vídeo
 

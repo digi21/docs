@@ -25,4 +25,5 @@ El texto digitalizado tendrá tantos decimales como los especificados en la vari
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {2AA9DD50-D147-4779-BA91-231E88DD3F4D} |
 

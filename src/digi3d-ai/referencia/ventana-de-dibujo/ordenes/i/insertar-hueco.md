@@ -19,4 +19,5 @@ Para poder ejecutar la orden debes de haber generado una entidad compleja con an
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {0A26B11E-E894-4b05-8034-0E89323F6710} |
 

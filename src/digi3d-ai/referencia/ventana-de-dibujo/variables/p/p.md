@@ -50,4 +50,5 @@ No obstante, si no se ha establecido el valor de _DA_ con anterioridad, al ejecu
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {89889DCE-1E5E-4c13-B08E-C66B10DF26BC} |
 

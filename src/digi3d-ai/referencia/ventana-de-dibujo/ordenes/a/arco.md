@@ -21,4 +21,5 @@ Si la orden se ejecuta mientras se esta dibujando una entidad, sólo hay que esp
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {3267A72F-6510-42bd-984F-1CC756AE8E45} |
 

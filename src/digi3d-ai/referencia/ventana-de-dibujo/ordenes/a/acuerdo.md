@@ -26,4 +26,5 @@ El resultado de la orden es la sustitución del vértice por un arco de radio es
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {63EDB2B3-4DC6-4584-9EFC-AAE939D3FFB3} |
 

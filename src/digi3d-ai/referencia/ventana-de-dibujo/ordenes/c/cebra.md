@@ -19,4 +19,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | Señalización horizontal |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {E805C5AC-338A-4943-8F5D-6BAA7BD6A591} |
 

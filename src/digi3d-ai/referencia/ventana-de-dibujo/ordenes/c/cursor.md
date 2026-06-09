@@ -35,4 +35,5 @@ Si se teclea la orden CURSOR cambia de valor sucesivamente entre 0 y 3. El valor
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No admite variables |
+| Nombre interno | {E9215A0A-2A41-4a95-868C-1B3EF20AB870} |
 

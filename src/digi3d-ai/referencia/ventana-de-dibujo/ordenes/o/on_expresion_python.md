@@ -67,4 +67,5 @@ ON_EXPRESION_PYTHON=#Edificios #Deportivo
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {CC07AD2F-1CB4-485E-B8D0-A8B1F449DCB0} |
 

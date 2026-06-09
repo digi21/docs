@@ -19,4 +19,5 @@ Los programas _BINTRAM_ y _BINTOP_ sirven para generar un fichero con símbolos,
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {2AF85F03-92C8-40f2-9E17-CB93B384867A} |
 

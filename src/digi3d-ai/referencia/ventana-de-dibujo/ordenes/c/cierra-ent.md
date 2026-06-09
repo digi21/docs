@@ -19,4 +19,5 @@ Esta orden requiere que la línea que estás digitalizando tenga al menos tres p
 | Barra de herramientas en la que aparece la orden | Finalización de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {5910086A-4CA0-45d7-BF4B-4F3878E9AF30} |
 

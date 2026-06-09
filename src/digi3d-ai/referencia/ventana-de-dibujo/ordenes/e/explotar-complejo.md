@@ -19,4 +19,5 @@ Esta orden está diseñada para las entidades complejas de archivos en formato D
 | Barra de herramientas en la que aparece la orden | Complejos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {080169C4-BD59-40bc-B62D-17A82378A4AC} |
 

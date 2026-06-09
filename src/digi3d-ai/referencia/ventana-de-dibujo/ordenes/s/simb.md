@@ -26,4 +26,5 @@ La posición de los símbolos coincidiría con las intersecciones de las rayas q
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {8C69C4FD-E23F-4c34-A90E-EEC98079CD61} |
 

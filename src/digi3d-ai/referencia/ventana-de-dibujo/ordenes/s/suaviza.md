@@ -25,4 +25,5 @@ Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la v
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md) |
+| Nombre interno | {D65F1A76-8D76-43fa-9ACC-809CFE01E035} |
 

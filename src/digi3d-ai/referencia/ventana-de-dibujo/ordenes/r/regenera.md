@@ -19,4 +19,5 @@ Cuando se realiza una regeneración, al igual que cuando se redibuja la pantalla
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {1B788F81-DB09-41af-A0F8-949E77856BD4} |
 

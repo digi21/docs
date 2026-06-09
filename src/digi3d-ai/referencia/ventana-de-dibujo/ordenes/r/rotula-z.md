@@ -26,4 +26,5 @@ Tienes que conocer el código de los puntos y los valores de las distancias acti
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) |
+| Nombre interno | {C0859A31-1DBC-4a5f-A13A-65260F5C5318} |
 

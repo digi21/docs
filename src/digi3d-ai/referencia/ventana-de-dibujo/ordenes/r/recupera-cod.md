@@ -31,4 +31,5 @@ La eliminación real de las entidades borradas se produce al ejecutar la orden [
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {958CBD76-54DF-40b1-BEB0-A5ADAEE61A40} |
 

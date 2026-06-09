@@ -50,6 +50,10 @@ Las paralelas las va a generar con el código que esté activo en el momento de 
       <td style="text-align:left"><a href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/REPITE.md">REPITE</a>
       </td>
     </tr>
-  </tbody>
+      <tr>
+      <td style="text-align:left">Nombre interno</td>
+      <td style="text-align:left">{C98B960F-F4D1-4f65-8945-029EB0914CA7}</td>
+    </tr>
+</tbody>
 </table>
 

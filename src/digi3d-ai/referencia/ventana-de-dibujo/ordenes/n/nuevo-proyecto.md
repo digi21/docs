@@ -53,6 +53,10 @@ No puedes abrir dos archivos de dibujo simultáneamente.
             href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/MODOB.md">MODOB</a>
       </td>
     </tr>
-  </tbody>
+      <tr>
+      <td style="text-align:left">Nombre interno</td>
+      <td style="text-align:left">{35A8BF03-6A15-4998-8148-F473CEAA2CDA}</td>
+    </tr>
+</tbody>
 </table>
 

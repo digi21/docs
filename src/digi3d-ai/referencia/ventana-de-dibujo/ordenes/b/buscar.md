@@ -35,4 +35,5 @@ Puedes refinar la búsqueda especificando cualquier parámetro que la orden te p
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {8DC5B6F3-E2D2-454d-941D-70B3A6156EE0} |
 

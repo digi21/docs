@@ -24,4 +24,5 @@ Formas de ejecutar CAMB\_JT2:
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {438DD10F-8817-4d33-B1D7-406DA30F19BF} |
 

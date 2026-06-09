@@ -43,4 +43,5 @@ Cuanto está activado, DigiNG utiliza la información de la [tabla de códigos](
 | Barra de herramientas en la que aparece la orden | Parámetros de visualización |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {00203494-2ED6-447b-A403-E11AE9267622} |
 

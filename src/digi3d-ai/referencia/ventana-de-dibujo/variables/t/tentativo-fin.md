@@ -44,4 +44,5 @@ Se suele utilizar para dibujar medianerías.
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {14285ACD-EC5D-4895-B10D-8BEFF282EC48} |
 

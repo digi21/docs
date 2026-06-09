@@ -21,4 +21,5 @@ Para cargar la imagen raster debemos utilizar la orden [CARGA_F](/digi3d-ai/refe
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {B70C366A-7507-49a0-BAAB-FFAEF3633309} |
 

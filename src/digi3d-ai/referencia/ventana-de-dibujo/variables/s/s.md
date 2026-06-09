@@ -43,4 +43,5 @@ Al finalizar una línea \(independientemente del método utilizado para finaliza
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {E108CB63-71BE-4f3d-AFA0-BF1D9D59BE96} |
 

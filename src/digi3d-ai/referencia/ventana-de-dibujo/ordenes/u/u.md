@@ -19,4 +19,5 @@ Sólo tiene efecto mientras la entidad no se finalice. También sirve para elimi
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {1E52E0A9-9A41-4e7e-B12D-D26C9AD80D3A} |
 

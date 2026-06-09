@@ -50,6 +50,7 @@ Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_
 | Barra de herramientas en la que aparece la orden | Órdenes automáticas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {AB7E2B12-8E22-42d1-AE7B-E7236E062D58} |
 
 ## Vídeo
 

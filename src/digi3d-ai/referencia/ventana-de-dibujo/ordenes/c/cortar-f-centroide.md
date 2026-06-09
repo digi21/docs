@@ -37,4 +37,5 @@ Pueden existir varios límites con la condición de que su centroide tenga el mi
 | Barra de herramientas en la que aparece la orden | _sta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {5710B5C8-DF11-43c7-AFB6-EF9818C99AE7} |
 

@@ -21,4 +21,5 @@ Esta orden pedirá definir el código de las entidades a explotar, bien en la ve
 | Barra de herramientas en la que aparece la orden | Complejos |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {46DDEC37-E52A-4b1f-AE46-76CDF8BE8407} |
 

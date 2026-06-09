@@ -42,4 +42,4 @@ ESC_ACT=3
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
-| Nombre interno                                   | {823CBB8C-9E88-44f2-A82B-087CC4A4E59C}                                       |
+| Nombre interno | {EDA07B84-E126-4319-993D-01BF5026C11D} |

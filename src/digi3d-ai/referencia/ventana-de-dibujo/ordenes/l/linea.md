@@ -29,4 +29,5 @@ Esta orden solicita puntos hasta que pulses la tecla Esc o el pedal/botón de fi
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md) |
+| Nombre interno | {57BADF4C-82D5-4522-8C91-327C628327AC} |
 

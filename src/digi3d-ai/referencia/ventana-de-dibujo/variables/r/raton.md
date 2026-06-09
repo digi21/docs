@@ -19,4 +19,5 @@ Si se está manejando Digi3D con manivelas y pedales, e interesa manejar DigiNG 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {D5355055-8271-4107-AC44-1572B00F29EE} |
 

@@ -23,4 +23,5 @@ Puedes marcar las siguientes casillas:
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {B6161EEE-DFF7-4980-BE5A-81B2BF2DEB19} |
 

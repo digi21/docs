@@ -29,4 +29,5 @@ Si la entrada de coordenadas se realiza desde el restituidor, el valor de Z es t
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {01BEC16F-3059-4103-934D-835BBBD4887B} |
 

@@ -19,4 +19,5 @@ Debemos introducir el número de escalones de la escalera, que serán paralelos 
 | Barra de herramientas en la que aparece la orden | Escaleras |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {9FECD378-BB36-43dc-B635-7D114979A3DC} |
 

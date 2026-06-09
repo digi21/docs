@@ -48,4 +48,5 @@ Digi3D nos permite cargar archivos de muestra de códigos o guardar uno que gene
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {A893D97A-96A2-4862-9210-AE45F12A976F} |
 

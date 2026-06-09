@@ -23,4 +23,5 @@ Puedes ejecutar la orden por código, para ello teclea en la barra de comandos:
 | Barra de herramientas en la que aparece la orden | Sentido de la polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {B3B49658-61EF-4884-82F7-AD8FE6A7512E} |
 

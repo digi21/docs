@@ -63,4 +63,5 @@ Al ejecutar la orden el programa muestra el valor por defecto, que es "%d" \(Ins
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {7E76B285-DABD-4265-88D7-4FCA2F35DA73} |
 

@@ -21,4 +21,5 @@ Esta orden es utilizada cuando se está curvando. Una vez que el operador ha ter
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) |
+| Nombre interno | {416EF674-CB78-4121-8671-A076F25B2763} |
 

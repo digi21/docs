@@ -44,4 +44,5 @@ No se ha registrado ninguna observación.
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {87370109-FF82-421c-92F6-5891EB894BCE} |
 

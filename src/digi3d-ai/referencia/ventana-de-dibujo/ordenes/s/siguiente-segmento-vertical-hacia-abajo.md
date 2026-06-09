@@ -19,4 +19,5 @@ El primer punto del segmento se introducirá en XYZ y el segundo en Z. Una vez d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {DA45C592-DA83-42A8-9B8E-578385974698} |
 

@@ -19,4 +19,5 @@ Se recortarán todas las entidades que interseccionen con el límite virtual.
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {729B6BE7-084A-4F15-802C-F649D5348563} |
 

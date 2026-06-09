@@ -33,4 +33,5 @@ El usuario también se podrá mover de error en error mediante la ventana de tar
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {E7BF3A8A-5AA8-474a-9A8E-4FA08264D19C} |
 

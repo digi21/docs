@@ -49,4 +49,5 @@ De esta forma en caso de llegar a un elemento en el cual no es posible enganchar
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {4B0321A1-67A4-4209-89A9-3F55C6AB2539} |
 

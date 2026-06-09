@@ -27,4 +27,5 @@ Tras ejecutar esta orden, ninguno de los elementos borrados podrá ser recuperad
 | Barra de herramientas en la que aparece la orden | Esta orden no tiene asociado ningún botón en ninguna barra de herramientas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {B1032F97-7A85-4f2b-8CC1-F665DB1FC57E} |
 

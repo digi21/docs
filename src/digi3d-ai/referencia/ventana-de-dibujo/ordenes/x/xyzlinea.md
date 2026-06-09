@@ -21,4 +21,5 @@ Al pulsar la barra de espacio se finaliza la orden y se introducen los vértices
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {7FB50BE4-62C9-4af6-9B30-C2DA6249B3F1} |
 

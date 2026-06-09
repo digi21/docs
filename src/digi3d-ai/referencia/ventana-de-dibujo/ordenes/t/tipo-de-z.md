@@ -27,4 +27,5 @@ Esta orden resulta práctica en las ocasiones en las cuales se necesita restitui
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {F3405A61-4894-487c-98C0-490005CFF029} |
 

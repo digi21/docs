@@ -30,4 +30,5 @@ A continuación aparece en la Barra de Estado el sufijo para el área. Este sufi
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {DA84B66B-3E7F-47f6-A418-FFF44712AF48} |
 

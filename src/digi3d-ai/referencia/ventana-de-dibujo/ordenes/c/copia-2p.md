@@ -21,4 +21,5 @@ Con esta orden puedes copiar entidades pertenecientes a archivos de referencia.
 | Barra de herramientas en la que aparece la orden | Copiar y duplicar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {40CD46B9-6E72-40f2-A112-C4CE5D5D0B69} |
 

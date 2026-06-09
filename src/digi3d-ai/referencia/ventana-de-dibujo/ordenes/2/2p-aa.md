@@ -21,6 +21,7 @@ El rectángulo se dibujará con el [ángulo activo](../../variables/a/aa.md) con
 | Barra de herramientas en la que aparece la orden | Cuadrados y rectángulos                                              |
 | Extensión                                        | DigiNG.OrdenesRaster.dll                                             |
 | Variables relacionadas                           | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {63DCF587-DB76-4992-B84E-F1729BBDF3DC} |
 
 ## Vídeo
 

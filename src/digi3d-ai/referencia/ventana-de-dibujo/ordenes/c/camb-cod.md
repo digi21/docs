@@ -19,4 +19,5 @@ Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden hay que e
 | Barra de herramientas en la que aparece la orden | Editar códigos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {AFDBCF7C-FC23-4f74-8C13-3CFB8E8145B1} |
 

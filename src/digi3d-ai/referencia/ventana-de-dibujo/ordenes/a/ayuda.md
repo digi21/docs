@@ -19,4 +19,5 @@ La ayuda, es decir, el archivo **Digi3D.chm**, debe estar en el directorio **C:/
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {98484E7C-CF9B-4b7e-ADDB-56BB9DC13341} |
 

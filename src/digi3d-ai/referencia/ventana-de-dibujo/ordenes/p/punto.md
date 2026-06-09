@@ -19,4 +19,5 @@ Puedes dibujar un punto seleccionando un código definido para una entidad puntu
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {BBC273BC-ACA3-4e54-B2B8-4F5D347DABD1} |
 

@@ -24,4 +24,5 @@ Esta orden realiza las siguientes tareas en función del tipo de entidad selecci
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {43D5468D-F728-4289-87B6-8D9D467EC132} |
 

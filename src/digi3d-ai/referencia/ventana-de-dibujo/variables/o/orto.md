@@ -43,4 +43,5 @@ Si cuando se dibuja está activado, cada segmento que se trace, se fuerza a que 
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {482E5E9B-B8C4-4715-9BF6-235712652E96} |
 

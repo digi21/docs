@@ -43,4 +43,5 @@ Hay que determinar el valor del _ángulo activo_ antes de ejecutar la orden ORTO
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {76E78864-AA54-4951-93B5-9D96D9B1C9C3} |
 

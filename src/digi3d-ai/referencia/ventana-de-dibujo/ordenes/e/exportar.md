@@ -134,4 +134,5 @@ Las entidades que estén registradas con un código que está apagado \([OFF](/d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {DC4164CD-347F-4f98-A060-7DDBC76699DF} |
 

@@ -27,4 +27,5 @@ Puedes moverte a lo largo de la entidad y realizar diferentes modificaciones, ut
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {50C7F83A-9C55-44c7-A975-77107E12CF1A} |
 

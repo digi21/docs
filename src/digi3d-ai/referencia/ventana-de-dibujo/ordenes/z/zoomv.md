@@ -19,4 +19,5 @@ La ventana se define señalando dos puntos en pantalla.
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {1389E205-4C35-4401-9ED6-A7D49CCA5394} |
 
