@@ -21,4 +21,5 @@ DigiNG puede llamar automáticamente a esta orden cada cierto tiempo. Esta funci
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | _No tiene variables relacionadas_ |
+| Nombre interno | {B826AC47-F6A5-4d4b-8FE5-1DCDE8DA0FB0} |
 

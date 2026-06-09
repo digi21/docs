@@ -23,4 +23,5 @@ El número del punto, las coordenadas \(X Y Z\) y el texto de información se a�
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md) |
+| Nombre interno | {83730CD6-5D81-45dc-BDF4-B1ADEF65C5F5} |
 

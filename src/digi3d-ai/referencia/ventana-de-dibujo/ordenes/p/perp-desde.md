@@ -19,4 +19,5 @@ No se ha registrado ninguna observación para esta orden.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {2A0276EA-5CB8-4c82-99DD-EAE1EEFED754} |
 

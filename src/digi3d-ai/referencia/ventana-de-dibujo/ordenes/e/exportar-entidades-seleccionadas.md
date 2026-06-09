@@ -19,4 +19,5 @@ Al ejecutar la orden ésta solicita que se seleccione una o varias entidades a e
 | Barra de herramientas en la que aparece la orden | Esta orden no aparece en ninguna barra de herramientas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | Esta orden no se ve afectada por ninguna variable. |
+| Nombre interno | {48605774-446F-4E9C-B594-4A9891A21D18} |
 

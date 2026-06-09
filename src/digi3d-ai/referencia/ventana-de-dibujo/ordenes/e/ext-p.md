@@ -19,4 +19,5 @@ La orden EXT\_P no insertará un vértice nuevo si las coordenadas de intersecci
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {F0E5BE92-BAC4-42cb-9ABE-ABBD6C14889C} |
 

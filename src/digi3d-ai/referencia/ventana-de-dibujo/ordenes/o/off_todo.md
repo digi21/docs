@@ -15,4 +15,5 @@ Esta orden trabaja por geometrías y no por códigos. Si una geometría se marca
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {90212DCC-42B7-46D3-AEA2-594B483DDCFB} |
 

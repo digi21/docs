@@ -25,4 +25,5 @@ Independientemente del código utilizado al dibujar la entidad modificadora, és
 | Barra de herramientas en la que aparece la orden | Modifica |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {27196CD6-E905-44ad-A4E2-31FFB7102EC5} |
 

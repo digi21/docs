@@ -23,4 +23,5 @@ Puedes ejecutar la orden para todas las líneas de un determinado código.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {550ACFF8-2C01-4f41-8C8F-082658415BC0} |
 

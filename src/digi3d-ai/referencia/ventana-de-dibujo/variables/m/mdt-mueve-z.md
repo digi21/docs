@@ -41,4 +41,5 @@ Para poder editar puntos de la correlación se necesita tener desactivada la pro
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {ED25771C-ED54-4357-A7AD-05C976348ABD} |
 

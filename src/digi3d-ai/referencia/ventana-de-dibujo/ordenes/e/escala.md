@@ -19,4 +19,5 @@ Muestra el denominador de la escala en una globo en la parte inferior izquierda 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {7B0EC0F3-79D9-45dc-A0DB-233C63087D22} |
 

@@ -28,4 +28,5 @@ El texto tendrá como ángulo de orientación, altura y ángulo de inclinación 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {01FCD863-9A33-4ff5-8A46-EA392663A021} |
 

@@ -26,4 +26,5 @@ El texto se situará con justificación inferior izquierda sobre el punto de dat
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {3427F3AC-671E-472c-9979-D6462BEB3541} |
 

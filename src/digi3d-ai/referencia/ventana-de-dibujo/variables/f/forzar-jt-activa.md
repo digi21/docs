@@ -43,6 +43,7 @@ Antes de ejecutar la orden, tienes que definir el valor de la _justificación de
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) |
+| Nombre interno | {242A64E9-D8A7-435c-86FD-B64F4DAA7692} |
 
 ## Vídeo
 

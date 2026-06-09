@@ -29,4 +29,5 @@ En caso de digitalizar el punto dentro de algún recinto el comportamiento será
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {6F6784EE-B46E-49ff-AC21-6BF418B4CA17} |
 

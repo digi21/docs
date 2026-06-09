@@ -19,4 +19,5 @@ No se han registrado observaciones para esta orden.
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {8AB62341-E643-4188-9925-D81B17AB56BA} |
 

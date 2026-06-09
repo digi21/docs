@@ -19,4 +19,5 @@ No se han registrado observaciones para esta orden.
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {8BCECA78-3971-42ec-849B-F93B672A52E7} |
 

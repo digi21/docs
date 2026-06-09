@@ -36,4 +36,5 @@ El proceso de generalizar se ejecuta con todos y cada uno de los puntos de una e
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {CAF1F0F2-7F03-4a0f-804C-B9E411772E09} |
 

@@ -25,4 +25,5 @@ La dirección de las rayas está condicionada por el ángulo activo, y se hayan 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {91CEE0AF-E015-4d1e-A414-9250FAD17CCC} |
 

@@ -21,4 +21,5 @@ En el caso de que desees que la entidad duplicada se genere con el código activ
 | Barra de herramientas en la que aparece la orden | Copiar y duplicar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {ABF6F6D5-FE1F-46a7-A272-7648DAAB540C} |
 

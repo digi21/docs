@@ -19,4 +19,5 @@ No se han registrado observaciones.
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {4FB4DD41-80C4-47e6-AD51-0B2F5C841DE0} |
 

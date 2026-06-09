@@ -28,4 +28,5 @@ Los textos de las coordenadas se colocan con un ángulo de 90º uno respecto del
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {E3808668-1118-4353-85B8-BEA3F4299DA1} |
 

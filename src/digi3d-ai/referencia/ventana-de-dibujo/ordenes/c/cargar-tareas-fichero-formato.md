@@ -25,4 +25,5 @@ Estos puntos aparecerán en la lista de tareas facilitando al usuario posicionar
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {6E345000-A069-4a06-94BF-5E7D0ACBB0D1} |
 

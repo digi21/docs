@@ -19,4 +19,5 @@ Los puntos se pueden seleccionar gráficamente con el ratón, o analíticamente 
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {0490404B-DA9B-415f-9A2F-06BD4F431BDD} |
 

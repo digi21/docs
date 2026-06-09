@@ -19,4 +19,5 @@ El efecto visual es de alejamiento, viéndose las entidades de dibujo a la mitad
 | Barra de herramientas en la que aparece la orden | _No tiene asociada ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {A4535CE8-248B-43f0-9FA7-BA04D472114F} |
 

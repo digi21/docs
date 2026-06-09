@@ -47,4 +47,5 @@ Esta orden se suele utilizar en el dibujo de curvas de nivel, forzando a que la 
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {17B6ECF4-E5F7-4fc6-8030-CE8C698D08B7} |
 

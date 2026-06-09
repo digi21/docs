@@ -33,4 +33,5 @@ Esta orden se desactiva cuando se camiba el código o cuando se introduce como n
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {89DE5C40-863D-4654-85F1-211FB9DC3AF3} |
 

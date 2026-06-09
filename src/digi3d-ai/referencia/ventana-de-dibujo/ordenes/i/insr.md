@@ -21,4 +21,5 @@ El fichero, sea del tipo que sea, se insertará con un factor de escala igual al
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {71B23AF4-5836-4c88-BAFE-56351F1DBB92} |
 

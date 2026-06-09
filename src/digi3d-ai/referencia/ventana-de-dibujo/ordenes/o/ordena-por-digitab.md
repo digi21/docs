@@ -19,4 +19,5 @@ En caso de querer invertir el orden de las entidades, la secuencia será `ORDENA
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {FD785D31-49D9-4f52-94B6-720E78E5FBB9} |
 

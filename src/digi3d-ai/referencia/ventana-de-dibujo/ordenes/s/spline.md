@@ -21,4 +21,5 @@ Las _SPLINES_ generadas en DIGI son [SPLINES CÚBICAS](spline.md).
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {A585D55F-20B4-41a7-AC7E-4B0E8A9C32AA} |
 

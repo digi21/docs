@@ -26,4 +26,5 @@ El valor activo se establece con la orden [Z](/digi3d-ai/referencia/ventana-de-d
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {FD6B1A6F-3CF1-4460-8A6F-011C17C5CA51} |
 

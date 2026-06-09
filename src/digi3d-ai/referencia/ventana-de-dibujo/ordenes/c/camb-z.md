@@ -21,4 +21,5 @@ En caso de tratarse de una entidad que tiene diferentes valores de Z, todos esto
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {58347183-0AF3-4671-9CEF-EEC236A8DCE3} |
 

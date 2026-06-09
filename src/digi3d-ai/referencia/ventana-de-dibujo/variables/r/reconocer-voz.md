@@ -43,4 +43,5 @@ Si está activo, el programa escucha comandos por el micrófono del ordenador. S
 | Opción del menú donde aparece la orden | Inmediato/Reconocer voz |
 | Barra de herramientas en la que aparece la orden | Reconocimiento de voz. |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Nombre interno | {69A21D20-56F4-4FBE-B484-3A418E313F3A} |
 

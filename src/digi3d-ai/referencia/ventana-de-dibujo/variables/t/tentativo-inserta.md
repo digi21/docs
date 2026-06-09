@@ -44,4 +44,5 @@ Puedes activar o desactivar la función de [TENTATIVO\_INSERTA](/digi3d-ai/refer
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {76E34B6C-24DC-4211-8403-4FDB07CE4582} |
 

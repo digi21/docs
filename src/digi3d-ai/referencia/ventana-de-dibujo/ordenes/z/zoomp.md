@@ -19,4 +19,5 @@ Después de ejecutar la orden, el programa pide que se digitalice el punto en el
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {06225501-1195-4b03-B53F-947B307BB745} |
 

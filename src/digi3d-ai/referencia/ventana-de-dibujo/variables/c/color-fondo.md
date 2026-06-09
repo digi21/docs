@@ -37,3 +37,4 @@ Si ejecutamos esta orden sin parámetros, esta mostrará el cuadro de diálogo d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
+| Nombre interno | {CC84B0E0-EFB8-48bc-97A2-DEF9AB885021} |

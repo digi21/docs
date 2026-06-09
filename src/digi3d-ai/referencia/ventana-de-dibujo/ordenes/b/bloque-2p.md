@@ -19,4 +19,5 @@ Es similar a la orden [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {A1CFEC51-C5BF-4d34-9913-09290DAFB0EC} |
 

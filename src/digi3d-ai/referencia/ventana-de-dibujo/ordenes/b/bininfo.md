@@ -26,4 +26,5 @@ Esta orden proporcia la siguiente información para cada archivo cargado en la v
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {0454D92C-B79A-479a-8565-D0095F5BF4BA} |
 

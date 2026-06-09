@@ -28,4 +28,5 @@ Si marcas la casilla Cortar por fuera, el nuevo fichero se genera con las entida
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {AA1F6B68-B71D-476a-AF82-66284E4B79DE} |
 

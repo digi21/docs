@@ -21,4 +21,5 @@ El zoom se efectúa centrado en el punto donde se encuentra el cursor.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociada ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {EFA204D1-200E-42bf-85E7-F7AC22DFD70B} |
 

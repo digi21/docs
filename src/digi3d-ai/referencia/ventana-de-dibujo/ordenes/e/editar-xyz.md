@@ -27,4 +27,5 @@ Esta orden trabaja igual que la orden [EDITAR](/digi3d-ai/referencia/ventana-de-
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {434E3B43-FC90-477f-B819-7552284150B6} |
 

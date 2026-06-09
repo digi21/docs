@@ -19,4 +19,5 @@ El usuario deberá pinchar primero el punto para "agarrar" el dibujo en esa posi
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {C3B33B92-A260-421b-92BF-B3917240D97B} |
 

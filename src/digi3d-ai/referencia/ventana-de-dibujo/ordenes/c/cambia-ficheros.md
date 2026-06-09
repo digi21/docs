@@ -19,4 +19,5 @@ Si tienes más de un fichero de referencia, se intercambiará con el primer fich
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {FB54F073-3D0C-47c6-B1B3-4677D882E572} |
 

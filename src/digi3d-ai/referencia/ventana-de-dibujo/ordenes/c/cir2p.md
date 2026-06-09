@@ -22,4 +22,5 @@ No se han registrado observaciones para esta orden.
 | Barra de herramientas en la que aparece la orden | Circunferencias |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {C9CE4CF2-6029-48e7-9FC1-141708C22393} |
 

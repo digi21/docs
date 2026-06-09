@@ -28,4 +28,5 @@ El conjunto de rayas que componen el tramado se representan con el código que e
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) |
+| Nombre interno | {D5791ADD-DD21-4523-9A26-04F3AAAA2D4F} |
 

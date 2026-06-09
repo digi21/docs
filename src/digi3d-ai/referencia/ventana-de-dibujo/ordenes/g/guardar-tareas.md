@@ -20,3 +20,4 @@ Guarda en un archivo XML las tareas del panel de tareas.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
+| Nombre interno | {0C72891D-301F-46f5-BFE2-7DB0924B2B53} |

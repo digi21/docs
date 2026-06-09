@@ -19,4 +19,5 @@ Esta orden sólo tiene efecto mientras la entidad no se finalice. Es similar a l
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {395EB869-DC3F-450e-8271-913F96FE9F2F} |
 

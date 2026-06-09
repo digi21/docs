@@ -31,4 +31,5 @@ Ahora tendríamos que elegir los códigos que queremos borrar, para ello podemos
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {89AC83BA-9BC7-4c4d-8E5C-5384E892EB0F} |
 

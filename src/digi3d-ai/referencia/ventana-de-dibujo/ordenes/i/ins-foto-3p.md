@@ -23,4 +23,5 @@ El resultado final es que la imagen se orienta formando el rectángulo que solap
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {0339F78C-FCBF-46E3-8FCA-7F0B19B4D956} |
 

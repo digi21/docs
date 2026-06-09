@@ -19,4 +19,5 @@ No se han registrado observaciones para esta entidad.
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {8A015BFD-4882-4f6c-A0BE-5A1A873C2D8D} |
 

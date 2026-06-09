@@ -23,4 +23,5 @@ Esta opción nos será de gran utilidad a la hora de plotear, por ejemplo ortos,
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {268A27C0-D187-4244-AE47-3DB2A0319D27} |
 

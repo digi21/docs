@@ -19,4 +19,5 @@ El efecto visual es de alejamiento, viéndose las entidades de dibujo a la mitad
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {B9A4767B-E98E-4edc-9584-FBE358E7CBEA} |
 

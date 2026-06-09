@@ -74,6 +74,10 @@ En ocasiones nos interesa que al finalizar una línea la ventana fotogramétrica
       <td style="text-align:left">Extensi&#xF3;n</td>
       <td style="text-align:left">DigiNG.OrdenesStandard.dll</td>
     </tr>
-  </tbody>
+      <tr>
+      <td style="text-align:left">Nombre interno</td>
+      <td style="text-align:left">{F210493F-EAAD-4eeb-921D-CA828AC4129E}</td>
+    </tr>
+</tbody>
 </table>
 

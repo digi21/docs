@@ -21,4 +21,5 @@ Esta orden es utilizada cuando se está curvando. Una vez que el operador ha ter
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {D382B463-F1DF-4ccb-A30B-9562721B6B8C} |
 

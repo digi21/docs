@@ -19,4 +19,5 @@ Debemos dibujar una entidad cerrada que actuará como ventana para generar el bl
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {6631BD75-5A59-423f-9196-B432B6DBF6D5} |
 

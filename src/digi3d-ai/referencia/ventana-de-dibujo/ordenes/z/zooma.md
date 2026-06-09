@@ -19,4 +19,5 @@ Las entidades se visualizan con el mismo factor de zoom, es decir, con el mismo 
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {EAFF965D-EB22-4ad7-B6F1-3D945C10E9D6} |
 

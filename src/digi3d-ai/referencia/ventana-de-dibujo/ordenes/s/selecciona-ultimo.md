@@ -31,4 +31,5 @@ Si combinas la orden _SELECCIONA_ÚLTIMO_ con la orden [ZOOM\_ENTIDAD](/digi3d-a
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {86671AB1-AFE0-4af5-8695-8BF8B5BE1E67} |
 

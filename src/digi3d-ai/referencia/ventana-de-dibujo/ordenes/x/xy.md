@@ -19,4 +19,5 @@ Los valores tecleados deben estar separados por espacios en blanco o comas.
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {140CD659-1BAF-4db6-A70B-2DB907255CB2} |
 

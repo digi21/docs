@@ -46,6 +46,10 @@ No admite parámetros.
       <td style="text-align:left">Variables relacionadas</td>
       <td style="text-align:left">No tiene variables relacionadas</td>
     </tr>
-  </tbody>
+      <tr>
+      <td style="text-align:left">Nombre interno</td>
+      <td style="text-align:left">{1A1D36C6-9CAE-47b2-8740-2E5AA4D36E23}</td>
+    </tr>
+</tbody>
 </table>
 

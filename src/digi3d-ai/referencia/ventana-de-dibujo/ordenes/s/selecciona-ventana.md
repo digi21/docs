@@ -19,4 +19,5 @@ Es necesario que se esté ejecutando previamente una orden que admita selección
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {D8CC38AB-50C3-41ca-81B5-8D295CDA3395} |
 

@@ -19,4 +19,5 @@ Cada vez que se ejecute la orden desaparecerá la entidad que se encuentre físi
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {FEAEF6BB-98C6-4817-AEB5-87FDDAFB8D6E} |
 

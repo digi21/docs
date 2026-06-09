@@ -25,4 +25,5 @@ Nota: Antes de ejecutar esta orden conviene hacer una copia de seguridad del arc
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {4B9DB358-FEB7-462a-9F39-34779422167D} |
 

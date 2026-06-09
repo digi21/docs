@@ -41,4 +41,5 @@ Debemos tener en cuenta que para fuentes _TrueType_, las justificaciones 1, 5 y 
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {77F3855D-5146-436f-AEB1-9468D43AE611} |
 

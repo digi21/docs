@@ -45,4 +45,5 @@ El valor absoluto del campo define un número de color dentro del archivo DIGI.P
 | Barra de herramientas en la que aparece la orden | Parámetros de visualización |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {0F8FA533-635B-4b58-B386-EE9FA424B5BC} |
 

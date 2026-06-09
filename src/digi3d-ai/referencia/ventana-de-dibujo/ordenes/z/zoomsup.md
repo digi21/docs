@@ -19,4 +19,5 @@ El porcentaje de solape se determina con la orden [SOLAPE](/digi3d-ai/referencia
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [SOLAPE](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/solape.md) |
+| Nombre interno | {78D447BF-9E11-4f52-9DFD-8669CDE54A87} |
 

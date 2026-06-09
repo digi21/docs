@@ -21,4 +21,5 @@ No se han registrado observaciones para esta orden.
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {1E01DB60-C317-4240-8E4C-E7E1DA270985} |
 

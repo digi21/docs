@@ -19,4 +19,5 @@ El último punto de un arco y el primero del siguiente es el mismo.
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {439FBB9E-ED74-4134-8B62-7C5650A55784} |
 

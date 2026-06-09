@@ -32,4 +32,5 @@ El incremento de registro representa la distancia de registro de puntos cuando l
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {8C1FDD9C-FF39-4f55-BF9E-253E45944CE8} |
 

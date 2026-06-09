@@ -24,4 +24,5 @@ Si tecleamos `GEN=<código>`, se generalizarán todas las entidades con ese cód
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {F8D89367-AF3E-4436-BD02-35C3306D5DE7} |
 

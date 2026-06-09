@@ -25,4 +25,5 @@ Independientemente del código utilizado al dibujar la entidad modificadora, és
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {8F810FF6-B3F4-4080-9572-84554E9F33AE} |
 

@@ -24,4 +24,5 @@ Cada línea del fichero deberá tener tres o cuatro valores separados por comas 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {EF1460ED-3186-4c35-9815-1010C515C2EC} |
 

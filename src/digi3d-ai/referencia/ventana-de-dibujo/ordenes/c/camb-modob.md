@@ -45,4 +45,5 @@ La ejecución de esta orden solamente permite pasar de un modo de búsqueda al s
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {5740AB44-D47E-42f6-A4F5-B5906967D30A} |
 

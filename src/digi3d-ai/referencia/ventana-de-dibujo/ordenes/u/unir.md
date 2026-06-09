@@ -47,6 +47,10 @@ Las entidades deben tener el mismo código y los mismos atributos para poder uni
       <td style="text-align:left">Variables relacionadas</td>
       <td style="text-align:left">No tiene variables relacionadas</td>
     </tr>
-  </tbody>
+      <tr>
+      <td style="text-align:left">Nombre interno</td>
+      <td style="text-align:left">{88F56A67-0638-495d-99FB-6265DAD1CF1B}</td>
+    </tr>
+</tbody>
 </table>
 

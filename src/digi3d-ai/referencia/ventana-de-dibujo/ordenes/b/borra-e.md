@@ -24,4 +24,5 @@ Esta orden impide la visualización de estos elementos, insertando una marca de 
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {3FD502AE-2105-47b0-B9F1-51BE04B73DB1} |
 

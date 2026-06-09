@@ -43,4 +43,5 @@ No se ha registrado ninguna observación.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {1549F6A9-D545-4dc6-87BD-C46F3BA0CFDC} |
 

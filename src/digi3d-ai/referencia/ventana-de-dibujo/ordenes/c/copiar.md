@@ -22,4 +22,5 @@ El programa genera una entidad igual a la original, pero aplicando en el proceso
 | Barra de herramientas en la que aparece la orden | Copiar y duplicar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {508365B4-4C21-4b58-A463-07D3083BC38D} |
 

@@ -19,4 +19,5 @@ Proporciona mayor velocidad al restituir y editar.
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {8FFBD152-DF4E-43db-8BC1-5DD02A417F78} |
 

@@ -35,5 +35,5 @@ VELOCIDAD_SPACEMOUSE_ROTACION=0.001
 | Barra de herramientas en la que aparece la orden | No aparece en ninguna barra de herramientas.           |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                             |
 | Variables relacionadas                           | No tiene variables relacionadas                        |
-| Nombre interno                                   | {C075944F-4B38-443B-927E-54BDBEB8C55C}                 |
+| Nombre interno | {970EE219-2ADA-423C-9623-B4064204307F} |
 |                                                  |                                                        |

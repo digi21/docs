@@ -67,4 +67,5 @@ Los ficheros de referencia se usan en modo lectura, pudiéndose ejecutar sobre e
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {133C76FE-F098-4dbc-BFDF-71BD5200D71C} |
 

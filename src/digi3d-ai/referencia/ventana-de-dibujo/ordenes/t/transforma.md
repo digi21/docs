@@ -113,4 +113,5 @@ Una vez creado el fichero se podrá ejecutar la orden [TRANSFORMA](/digi3d-ai/re
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {0D75B4EC-3036-4684-95A4-D2119B3A6E88} |
 

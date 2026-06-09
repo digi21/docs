@@ -25,4 +25,5 @@ Al hacer el cambio se modificarán todas las apariciones del carácter anterior 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {39422C18-7C3D-44a8-92A8-84007AFBE563} |
 

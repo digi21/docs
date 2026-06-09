@@ -20,3 +20,4 @@ El análisis se realiza únicamente en las entidades que tengan un código para 
 | Opción del menú donde aparece la orden           | _Modelo semántico/Analizar modelo semántico al finalizar entidad_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no está asignada a ninguna barra de herramientas._    |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                        |
+| Nombre interno | {09E80E6F-2ED2-4FDA-9DD1-2E3826A3F0C3} |

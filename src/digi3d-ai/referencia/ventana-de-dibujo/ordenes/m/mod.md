@@ -29,4 +29,5 @@ Esta orden permite "arreglar" curvas de nivel que se corten. Sólo tienes que di
 | Barra de herramientas en la que aparece la orden | Modifica |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {0A6E6F7E-3A79-4726-BFAA-50A552634A5B} |
 
