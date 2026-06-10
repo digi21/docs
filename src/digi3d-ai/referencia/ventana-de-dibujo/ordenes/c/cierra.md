@@ -18,6 +18,6 @@ No se han registrado observaciones para esta orden.
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Cerrar una polilínea |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {9FA2C807-13AE-4ed2-99D0-F0926B3D1B5A} |
 

@@ -30,6 +30,6 @@ Podemos cambiar la justificación a un texto en concreto o a los textos que teng
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar justificación de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {EC867714-78A8-464f-ABC4-DC1A08990F49} |
 

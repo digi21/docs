@@ -18,6 +18,6 @@ No se han registrado observaciones para esta orden.
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Partir una polilínea y eliminar uno de los dos extremos |
 | Barra de herramientas en la que aparece la orden | Partir |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {2D4EAA24-227B-40E4-9E9A-2D189706CD40} |
 

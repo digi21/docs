@@ -23,7 +23,7 @@ El resultado gráfico final, puede ser cualquiera de los siguientes:
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Mas/Rejilla con 4 puntos |
 | Barra de herramientas en la que aparece la orden | Rejillas |
-| Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {CD9C598F-CF2F-4478-A09C-63E28F86260A} |
 

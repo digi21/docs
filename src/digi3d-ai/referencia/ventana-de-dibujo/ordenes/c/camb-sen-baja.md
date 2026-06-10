@@ -20,6 +20,6 @@ Puedes ejecutar la orden por código, para ello teclea en la barra de comandos:
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Ordenando sus coordenadas Z descendentemente |
 | Barra de herramientas en la que aparece la orden | Sentido de la polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {D010A20E-6879-4837-A8B8-F454089755D4} |
 

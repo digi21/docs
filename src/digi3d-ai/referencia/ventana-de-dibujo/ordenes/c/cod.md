@@ -21,7 +21,7 @@ No se puede dibujar ningún elemento si no hay un código activo. Si se cambia d
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Inmediato/Más/Añadir códigos activos... |
 | Barra de herramientas en la que aparece la orden | Código |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {A5CFB875-B477-462c-837E-CB1D54C72D3F} |
 

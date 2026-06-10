@@ -34,6 +34,6 @@ Si se teclea la orden CURSOR cambia de valor sucesivamente entre 0 y 3. El valor
 | Opción del menú donde aparece la orden | Inmediato/Cambiar el tamaño del cursor |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No admite variables |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {E9215A0A-2A41-4a95-868C-1B3EF20AB870} |
 
