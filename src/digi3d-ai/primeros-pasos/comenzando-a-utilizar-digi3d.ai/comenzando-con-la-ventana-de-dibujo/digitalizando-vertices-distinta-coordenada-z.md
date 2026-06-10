@@ -31,7 +31,7 @@ Digitaliza una polilínea cuyos vértices tengan distinto valor de Z siguiendo l
 
 Para modifica la coordenada Z con un tentativo que tenga Z, sigue los siguientes pasos:
 
-Al seleccionar el primer botón de la Barra de herramientas coordenada Z, se activa el segundo botón bloqueando así la coordenada Z \([BLOQUEA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/bloquea-z.md)\), esta opción se utiliza principalmente para la digitalización de curvas de nivel.
+Al seleccionar el primer botón de la Barra de herramientas coordenada Z, se activa el segundo botón bloqueando así la coordenada Z \(BLOQUEA\_Z\), esta opción se utiliza principalmente para la digitalización de curvas de nivel.
 
 1. **Desactiva** el botón correspondiente a la orden [BLOQUEA\_Z](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/BLOQUEA_Z.html) \(segundo botón de la [Barra de herramientas coordenada Z](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/barras-de-herramientas/coordenada-z.md)\).
 2. **Selecciona** el modo de búsqueda **2. Vértice o proyección en XYZ** en el desplegable de la [Barra de herramientas tentativo](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md) \(modificará la coordenada Z al tentativar\).
