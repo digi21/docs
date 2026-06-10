@@ -23,4 +23,5 @@ Se generará un complejo por cada código que exista en el archivo de dibujo
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Nombre interno | {D79CD929-8B17-41DE-8F12-2C7D0262AE9F} |
 
