@@ -18,6 +18,6 @@ Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden hay que e
 | Opción del menú donde aparece la orden | Editar/Cambiar los códigos de una entidad por los activos |
 | Barra de herramientas en la que aparece la orden | Editar códigos |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {AFDBCF7C-FC23-4f74-8C13-3CFB8E8145B1} |
 

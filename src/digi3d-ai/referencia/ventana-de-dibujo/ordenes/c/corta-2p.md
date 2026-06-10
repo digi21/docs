@@ -17,7 +17,7 @@ No admite parámetros.
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Partir una polilínea con 2puntos |
 | Barra de herramientas en la que aparece la orden | Partir |
-| Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {A54159B2-7291-4bdb-8FF2-E5B26B9A211D} |
 

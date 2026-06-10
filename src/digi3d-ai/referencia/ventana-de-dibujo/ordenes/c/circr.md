@@ -21,6 +21,6 @@ No se han registrado observaciones para esta orden.
 | Opción del menú donde aparece la orden | Dibujar/Mas/Circunferencia con centro y radio |
 | Barra de herramientas en la que aparece la orden | Circunferencias |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {958A46FD-8051-4660-82A2-F5A14F314854} |
 

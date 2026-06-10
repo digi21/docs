@@ -25,7 +25,7 @@ No se han registrado observaciones para esta orden.
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Curvar... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Extensión | DigiNG.OrdenesMDT.dll |
+| Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos |
 | Nombre interno | {5F9CD935-26E7-4c30-97EC-456DADB28A08} |
 

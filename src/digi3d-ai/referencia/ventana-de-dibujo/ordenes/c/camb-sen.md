@@ -22,6 +22,6 @@ Puedes ejecutar la orden por código, para ello teclea en la barra de comandos:
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Cambiar el sentido de una línea |
 | Barra de herramientas en la que aparece la orden | Sentido de la polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {B3B49658-61EF-4884-82F7-AD8FE6A7512E} |
 
