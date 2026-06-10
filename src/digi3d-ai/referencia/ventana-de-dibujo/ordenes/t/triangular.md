@@ -19,7 +19,7 @@ Antes ejecutar esta orden es necesario dibujar una entidad cerrada a modo de lí
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Modelo Digital del Terreno basado en geometrías existentes |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {CADBCBD9-31D0-4072-B935-47609136331B} |
 
