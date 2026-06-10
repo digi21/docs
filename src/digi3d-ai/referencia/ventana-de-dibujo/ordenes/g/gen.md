@@ -23,6 +23,6 @@ Si tecleamos `GEN=<código>`, se generalizarán todas las entidades con ese cód
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Generalizar |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [TOL](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md) — factor de tolerancia en la generalización<br>[TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md) — factor de tolerancia angular en la generalización<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {F8D89367-AF3E-4436-BD02-35C3306D5DE7} |
 
