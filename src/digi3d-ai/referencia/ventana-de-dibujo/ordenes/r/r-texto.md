@@ -18,6 +18,6 @@ No se han registrado observaciones para esta orden.
 | Opción del menú donde aparece la orden | Editar/Textos/Rotar un texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {1532600B-7595-4558-B8A1-5433176BB845} |
 
