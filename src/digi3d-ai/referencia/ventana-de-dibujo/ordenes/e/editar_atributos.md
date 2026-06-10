@@ -19,4 +19,4 @@ Esta orden solicita que se seleccione una geometría y muestra un cuadro de diá
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_                                                                                    |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |
 | Variables relacionadas                           | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
-| Nombre interno de la orden                       | {C3B968CE-2D7C-4D4D-890F-950700FA1EE2}                                                                                                                          |
+| Nombre interno                       | {C3B968CE-2D7C-4D4D-890F-950700FA1EE2}                                                                                                                          |

@@ -20,6 +20,6 @@ Si se detectan auto intersecciones, se añadirán entradas en el [Panel Tareas](
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar bucles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
-| Variables relacionadas | _Esta orden no se ve afectada por ninguna variable_ |
-| Nombre interno de la orden | {74442DE2-4C89-4463-899F-0F775302497C} |
+| Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {74442DE2-4C89-4463-899F-0F775302497C} |
 
