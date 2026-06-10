@@ -21,6 +21,6 @@ Si el sistema de referencia de coordenadas de la ventana de dibujo es proyectado
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar segmentos cortos |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
-| Variables relacionadas | _Esta orden no se ve afectada por ninguna variable_ |
-| Nombre interno de la orden | {C91882C6-2398-4E30-8C3B-39E1BC404237} |
+| Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {C91882C6-2398-4E30-8C3B-39E1BC404237} |
 
