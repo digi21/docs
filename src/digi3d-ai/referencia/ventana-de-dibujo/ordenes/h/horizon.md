@@ -22,7 +22,7 @@ Campos que debemos rellenar:
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {340C33D2-7D89-4772-AFF1-D274F8735395} |
 
