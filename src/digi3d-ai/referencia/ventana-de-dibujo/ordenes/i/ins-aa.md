@@ -20,6 +20,6 @@ El fichero, sea del tipo que sea, se insertará con un factor de escala igual al
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Insertar un bloque con ángulo activo... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {D342155B-D2EF-43c1-B74E-D88DF9922139} |
 
