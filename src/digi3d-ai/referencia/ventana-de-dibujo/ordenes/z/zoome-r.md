@@ -19,7 +19,7 @@ Puedes deseleccionar recintos sin finalizar la orden, presionando el botón dere
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom a la extensión del recinto por inundación |
 | Barra de herramientas en la que aparece la orden | Zooms |
-| Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Extensión | DigiNG.OrdenesTopologia.dll |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {8E5DA4E4-9A06-43a8-A94A-4EFD9A16BCB7} |
 
