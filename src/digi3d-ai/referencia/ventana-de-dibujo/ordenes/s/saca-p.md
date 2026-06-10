@@ -28,6 +28,6 @@ Puedes ejecutar la orden desde la línea de comandos con la siguiente secuencia:
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) |
+| Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa |
 | Nombre interno | {8D88009E-77AB-451c-9AC4-D3CDAB98A14D} |
 
