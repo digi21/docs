@@ -23,7 +23,7 @@ proyecta\_cod=\[código\] \[tipo=\(l=lineas, p=puntos, c=lineas y puntos, b=bitm
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Proyectar entidades contra los MDT cargados por código... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesStandard.dll |
+| Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {ABB1C326-336A-45cc-896F-33DDE9BDBFA7} |
 
