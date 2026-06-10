@@ -14,7 +14,7 @@ La orden requiere la entrada de los puntos extremos que definen la diagonal del 
 
 * De forma gráfica, señalándolos con el cursor/ratón.
 * Por entrada de sus coordenadas desde teclado \([XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
-* Desde archivo \([N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/orden-n.md).
+* Desde archivo \([N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md).
 
 ## Características de la orden
 

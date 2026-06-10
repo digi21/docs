@@ -1030,7 +1030,7 @@
             * [MOVER\_Z\_V](digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z-v.md)
             * [MULTIARCO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/multiarco.md)
           * [N](digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/README.md)
-            * [N](digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/orden-n.md)
+            * [N](digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md)
             * [NUEVO\_PROYECTO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/nuevo-proyecto.md)
           * [O](digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/README.md)
             * [OFF](digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md)
