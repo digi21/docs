@@ -26,5 +26,5 @@ La distancia se calcula en el espacio \(coordenadas X, Y, Z\), por lo que incluy
 | Opción del menú donde aparece la orden | Dibujar/Acotar/Distancia 3D entre dos puntos |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {E2823D2D-8DE8-45C7-AC4A-FD1D81C8E712} |

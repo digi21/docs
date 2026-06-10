@@ -18,6 +18,6 @@ La orden sólo requiere que selecciones la entidad. El nuevo elemento creado se 
 | Opción del menú donde aparece la orden | Editar/Duplicar una entidad \(geometría y códigos\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {943FDA58-03D0-4293-87BC-FA4EF1F7B19C} |
 

@@ -20,6 +20,6 @@ En el caso de que desees que la entidad duplicada se genere con el código activ
 | Opción del menú donde aparece la orden | Editar/Duplicar una entidad \(únicamente geometría\) |
 | Barra de herramientas en la que aparece la orden | Copiar y duplicar |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {ABF6F6D5-FE1F-46a7-A272-7648DAAB540C} |
 

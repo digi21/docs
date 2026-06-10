@@ -21,7 +21,7 @@ Puedes ejecutar la orden directamente desde la ventana de órdenes, especificand
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Descargar archivo de referencia... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesStandard.dll |
+| Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {EAB36190-29B7-42de-9AF0-D48298D5286B} |
 

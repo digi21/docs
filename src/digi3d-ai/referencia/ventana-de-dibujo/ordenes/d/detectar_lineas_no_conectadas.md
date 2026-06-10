@@ -16,5 +16,5 @@ Resulta útil como control de calidad topológico para localizar líneas que deb
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar líneas no conectadas por código |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
-| Variables relacionadas | _Esta orden no se ve afectada por ninguna variable_ |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {47D061F8-0F07-463B-B1E5-183743E5548C} |
