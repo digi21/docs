@@ -17,7 +17,7 @@ Antes de ejecutar la orden debes dibujar una entidad cerrada que servirá de lí
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesStandard.dll |
+| Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {B2D8B252-EC8E-4580-B938-24A3AED647D4} |
 
