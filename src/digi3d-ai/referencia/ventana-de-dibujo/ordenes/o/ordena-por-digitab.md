@@ -17,7 +17,7 @@ En caso de querer invertir el orden de las entidades, la secuencia será `ORDENA
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Avanzado/Ordenar las entidades del archivo de dibujo según el orden en la tabla |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {FD785D31-49D9-4f52-94B6-720E78E5FBB9} |
 

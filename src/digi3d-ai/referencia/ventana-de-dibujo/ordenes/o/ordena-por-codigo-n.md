@@ -17,7 +17,7 @@ No se han registrado observaciones para esta orden.
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Avandazado/Ordenar las entidades del archivo de dibujo por código numérico |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {E6C9269A-F700-422b-BD07-B45C7996CA4D} |
 
