@@ -17,7 +17,7 @@ No se han registrado observaciones.
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Mover en XYZ las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Mover |
-| Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {4FB4DD41-80C4-47e6-AD51-0B2F5C841DE0} |
 
