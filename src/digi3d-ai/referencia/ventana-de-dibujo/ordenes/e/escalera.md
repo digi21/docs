@@ -17,7 +17,7 @@ Debemos introducir el número de escalones de la escalera, que serán paralelos 
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Mas/Escalera indicando el número de peldaños |
 | Barra de herramientas en la que aparece la orden | Escaleras |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {9FECD378-BB36-43dc-B635-7D114979A3DC} |
 
