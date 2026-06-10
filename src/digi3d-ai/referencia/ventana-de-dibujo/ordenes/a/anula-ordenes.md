@@ -18,6 +18,6 @@ Si por ejemplo se está dibujando una línea con la orden [LINEA](/digi3d-ai/ref
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {491B4A08-BC9C-467b-9866-6373C6F1BA01} |
 

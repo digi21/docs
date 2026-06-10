@@ -19,7 +19,7 @@ Si la orden se ejecuta mientras se esta dibujando una entidad, sólo hay que esp
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Arco |
 | Barra de herramientas en la que aparece la orden | Polilíneas |
-| Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) — activa o desactiva las señales acústicas |
 | Nombre interno | {3267A72F-6510-42bd-984F-1CC756AE8E45} |
 
