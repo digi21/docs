@@ -17,7 +17,7 @@ Asigna el código del elemento complejo a las entidades explotadas.
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {D93CE922-7960-407C-9CE7-5602E646C594} |
 

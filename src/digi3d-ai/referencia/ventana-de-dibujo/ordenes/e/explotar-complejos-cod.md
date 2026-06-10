@@ -19,7 +19,7 @@ Esta orden pedirá definir el código de las entidades a explotar, bien en la ve
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Complejos/Descomponer un elemento complejo |
 | Barra de herramientas en la que aparece la orden | Complejos |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {46DDEC37-E52A-4b1f-AE46-76CDF8BE8407} |
 
