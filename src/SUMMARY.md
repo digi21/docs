@@ -765,7 +765,6 @@
             * [CONTROL\_CALIDAD\_AL\_FINALIZAR\_ENTIDAD](digi3d-ai/referencia/ventana-de-dibujo/variables/c/control-calidad.md)
           * [D](digi3d-ai/referencia/ventana-de-dibujo/variables/d/README.md)
             * [DA](digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md)
-            * [DA2](digi3d-ai/referencia/ventana-de-dibujo/variables/d/da2.md)
             * [DISTANCIA\_MAXIMA](digi3d-ai/referencia/ventana-de-dibujo/variables/d/distancia_maxima.md)
           * [E](digi3d-ai/referencia/ventana-de-dibujo/variables/e/README.md)
             * [ESC\_ACT](digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md)
