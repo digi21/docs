@@ -125,6 +125,6 @@ BINTOP=\[tabla] \[polígonos_sin_area] \[polígonos_sin_centroide] \[centroides_
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | _Esta orden no tiene asociada ninguna opción de menú_                        |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
+| Extensión                                        | DigiNG.OrdenesTopologia.dll                                                   |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
 | Nombre interno | {4FB24176-ED2B-4626-BB9B-1A80C76D2F7D} |

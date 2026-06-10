@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-El valor activo se establece con la orden [Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/z.md), o bien por la entrada del dato a través del restituidor.
+El valor activo se establece con la orden [Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md), o bien por la entrada del dato a través del restituidor.
 
 * Pulsando la tecla + se pasa al vértice siguiente en el sentido de avance.
 * Pulsando la tecla - se retrocede al vértice anterior.

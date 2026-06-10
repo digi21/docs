@@ -23,6 +23,6 @@ Esta orden impide la visualización de estos elementos, insertando una marca de 
 | Opción del menú donde aparece la orden | Editar/Eliminar las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {3FD502AE-2105-47b0-B9F1-51BE04B73DB1} |
 
