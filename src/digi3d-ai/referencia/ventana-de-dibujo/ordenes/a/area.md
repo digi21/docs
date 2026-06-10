@@ -29,6 +29,6 @@ A continuación aparece en la Barra de Estado el sufijo para el área. Este sufi
 | Opción del menú donde aparece la orden | Dibujar/Acotar/Área de un polígono seleccionado |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
 | Nombre interno | {DA84B66B-3E7F-47f6-A418-FFF44712AF48} |
 

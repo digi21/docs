@@ -22,5 +22,5 @@ Esta orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-
 | Opción del menú donde aparece la orden           | Editar/Actualizar los atributos de una entidad por los activos                                                                                                  |
 | Barra de herramientas en la que aparece la orden | _Esta orden no aparece en ninguna barra de herramientas_                                                                                                        |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |
-| Variables relacionadas                           | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas                           | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno                                   | {0A40A990-893E-4975-B7F1-915DF25FAE2A}                                                                                                                          |
