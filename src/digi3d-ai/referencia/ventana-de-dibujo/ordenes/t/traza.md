@@ -30,7 +30,7 @@ Antes de ejecutar la orden, tendrá que estar representada la línea que sirve d
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Gráfico de hojas/Crear gráfico de hojas \(traza\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesRaster.dll |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {C1531BAF-268D-4b68-A830-884AF84BF21F} |
 
