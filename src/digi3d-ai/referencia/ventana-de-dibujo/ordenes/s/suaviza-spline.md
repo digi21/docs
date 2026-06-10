@@ -24,6 +24,6 @@ Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la v
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [S](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {78596F76-80D8-43E2-894C-08B07686BCD5} |
 

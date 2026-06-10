@@ -20,6 +20,6 @@ Esta orden es utilizada cuando se está curvando. Una vez que el operador ha ter
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Subir la coordenada Z al siguiente múltiplo de la equidistancia |
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) — equidistancia de curvas de nivel<br>[FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) — fija la coordenada Z al múltiplo de la equidistancia<br>[Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md) — valor de la coordenada Z activa |
 | Nombre interno | {D382B463-F1DF-4ccb-A30B-9562721B6B8C} |
 
