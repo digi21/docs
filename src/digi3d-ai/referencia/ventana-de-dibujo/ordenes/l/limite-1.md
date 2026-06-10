@@ -20,6 +20,6 @@ Una vez que el límite ha sido establecido, el sistema avisa con una señal acú
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [LIMITE\_0](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limite-0.md) |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {0560D7E3-0C04-44ad-82BD-E3D9B91A34CF} |
 
