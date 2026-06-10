@@ -21,6 +21,6 @@ El fichero, sea del tipo que sea, se insertará con un factor de escala igual al
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Insertar un bloque orientado a norte... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {053ADE6F-2BEF-4594-9E5B-C5C4448818DC} |
 

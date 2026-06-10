@@ -18,6 +18,6 @@ Al seleccionar la entidad y aceptar la selección, el cursor queda enganchado y 
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Inserta un vértice a una polilínea |
 | Barra de herramientas en la que aparece la orden | Editar polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {5BDF6E2F-150B-4b6f-8EB2-311C42E3AECF} |
 

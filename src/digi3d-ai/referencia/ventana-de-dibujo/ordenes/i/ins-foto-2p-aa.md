@@ -24,6 +24,6 @@ La orden requiere la entrada de los puntos extremos que definen la diagonal del 
 | Opción del menú donde aparece la orden | _Dibujar/Imagen/Mediante dos puntos y ángulo activo_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo |
 | Nombre interno | {3402C7CF-6346-4C66-A043-EE0869AF6F4C} |
 
