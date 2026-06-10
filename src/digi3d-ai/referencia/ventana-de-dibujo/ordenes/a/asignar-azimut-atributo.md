@@ -1,6 +1,6 @@
 # ASIGNAR\_AZIMUT\_ATRIBUTO
 
-Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en un atributo de base de datos pasada por parámetros
+Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en el campo de base de datos pasado por parámetros
 
 ## Parámetros
 
