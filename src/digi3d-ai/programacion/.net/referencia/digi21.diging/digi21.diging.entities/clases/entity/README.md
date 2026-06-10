@@ -34,7 +34,7 @@ En caso de asignar alguna propiedad en una geometría de solo lectura (excepto l
 | [SE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/se.md)</p>                |
 | [E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/)</p>                   |
 | [NE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ne.md)</p>                |
-| [N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/orden-n.md)</p>                  |
+| [N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md)</p>                  |
 | [NW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/nw.md)</p>                |
 | [Center](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/center.md)</p>              |
 | [Depth](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/depth.md)</p>                           |

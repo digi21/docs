@@ -21,7 +21,7 @@ Tipos derivados: [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.digin
 | [SE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/se.md) | Devuelve el punto al sudeste de la ventana o geometría que implemente esta interfaz. |
 | [E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/) | Devuelve el punto al este de la ventana o geometría que implemente esta interfaz. |
 | [NE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ne.md) | Devuelve el punto al noreste de la ventana o geometría que implemente esta interfaz. |
-| [N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/orden-n.md) | Devuelve el punto al norte de la ventana o geometría que implemente esta interfaz. |
+| [N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md) | Devuelve el punto al norte de la ventana o geometría que implemente esta interfaz. |
 | [NW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/nw.md) | Devuelve el punto al noreste de la ventana o geometría que implemente esta interfaz. |
 | [Center](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/center.md) | Devuelve el punto en el centro de la ventana o geometría que implemente esta interfaz. |
 | [Depth](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/depth.md) | Devuelve el largo de la ventana o geometría que implemente esta interfaz. |
