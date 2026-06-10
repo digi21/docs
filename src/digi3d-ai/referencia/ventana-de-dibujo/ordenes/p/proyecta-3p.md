@@ -17,7 +17,7 @@ No se han registrado observaciones para esta orden.
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Proyectar puntos sobre un plano |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesStandard.dll |
+| Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {BE75310A-8774-4c94-8C1F-3ADB3C448BD7} |
 
