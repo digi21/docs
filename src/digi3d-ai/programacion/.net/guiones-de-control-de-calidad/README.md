@@ -32,14 +32,14 @@ Los guiones pueden realizar tres tareas:
 *   Si el análisis se ha desencadenado porque se está almacenando una geometría y está habilitada la opción **Control de calidad/Analizar control de calidad al digitalizar entidad**, Digi3D.AI mostrará cuadros de diálogo al usuario en función del tipo de error.\
 
 
-    ![Error mostrado al digitalizar una geometría](../../../images/errorgeometryexception.png)
+    ![Error mostrado al digitalizar una geometría](../../../../images/errorgeometryexception.png)
 
 
 
 
 * Si el análisis se ha desencadenado porque el usuario ha solicitado realizar un análisis de control de calidad, los errores detectados se mostrarán en el [panel de tareas](../../../referencia/paneles/tareas.md).
 
-![](../../../images/paneltareasmostrandogeometryexception.png)
+![](../../../../images/paneltareasmostrandogeometryexception.png)
 
 ### ¿Qué tipo de errores puede comunicar el guion a Digi3D.AI?
 
