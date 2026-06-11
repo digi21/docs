@@ -4,7 +4,9 @@ Asigna como atributos activos los atributos de BBDD de la tabla de códigos para
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código | No |
 
 ## Observaciones
 
