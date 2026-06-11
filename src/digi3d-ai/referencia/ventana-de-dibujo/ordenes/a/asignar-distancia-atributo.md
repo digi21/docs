@@ -6,7 +6,8 @@ Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia 
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Campo | |
+| 1 | Código | No |
+| 2 | Nombre del campo | No |
 
 ## Observaciones
 

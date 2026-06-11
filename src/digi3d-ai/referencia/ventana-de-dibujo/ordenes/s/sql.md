@@ -6,7 +6,7 @@ Ejecuta las consultas SQL especificadas en el archivo pasado por parámetros.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ruta al archivo SQL | |
+| 1 | Archivo con las consultas SQL a ejecutar | No |
 
 ## Observaciones
 

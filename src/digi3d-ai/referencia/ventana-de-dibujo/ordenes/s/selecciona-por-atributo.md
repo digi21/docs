@@ -1,10 +1,13 @@
 # SELECCIONA\_POR\_ATRIBUTO
 
-Detecta bucles en líneas visibles
+Envía una selección a la orden activa por atributos de base de datos.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Nombre del atributo | No |
+| 2 | Valor con el que comparar el atributo | No |
 
 ## Observaciones
 

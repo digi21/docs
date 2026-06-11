@@ -6,8 +6,8 @@ Asigna un nuevo valor a un campo en la BBDD para una entidad.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Campo destino | |
-| 2 | Campo origen | |
+| 1 | Nombre del campo origen | No |
+| 2 | Nombre del campo destino | No |
 
 ## Observaciones
 

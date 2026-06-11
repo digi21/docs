@@ -6,9 +6,9 @@ Asigna un nuevo valor a un campo en la BBDD para una entidad.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código | |
-| 2 | Nombre del campo | |
-| 3 | Valor | |
+| 1 | Código | No |
+| 2 | Nombre del campo | No |
+| 3 | Valor | No |
 
 ## Observaciones
 
