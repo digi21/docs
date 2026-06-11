@@ -16,47 +16,14 @@ Esta orden no recupera las geometrías eliminadas, únicamente habilita su visua
 
 ## Características de la orden
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Tipo de variable</th>
-      <th style="text-align:left"><a href="../../../ordenes/variables/variables-booleanas.md">Booleana</a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Repite autom&#xE1;ticamente</td>
-      <td style="text-align:left">No</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Opci&#xF3;n del men&#xFA; donde aparece la orden</td>
-      <td style="text-align:left">
-        <p>Ver/Par&#xE1;metros de visualizaci&#xF3;n/Visualizar entidades eliminadas</p>
-        <p>o</p>
-        <p>Editar/Visualizar entidades eliminadas</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Barra de herramientas en la que aparece la orden</td>
-      <td style="text-align:left">
-        <p>Eliminar y recuperar</p>
-        <p>o</p>
-        <p>Par&#xE1;metros de visualizaci&#xF3;n</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Extensi&#xF3;n</td>
-      <td style="text-align:left">DigiNG.OrdenesStandard.dll</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left">No tiene variables relacionadas</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Nombre interno</td>
-      <td style="text-align:left">{6AB7B57F-5144-4b75-BD13-E9522B112823}</td>
-    </tr>
-  </tbody>
-</table>
+
+| Tipo de variable | [Booleana](../../../ordenes/variables/variables-booleanas.md) |
+| :--- | :--- |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Visualizar entidades eliminadas; o; Editar/Visualizar entidades eliminadas |
+| Barra de herramientas en la que aparece la orden | Eliminar y recuperar; o; Parámetros de visualización |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {6AB7B57F-5144-4b75-BD13-E9522B112823} |
+
 

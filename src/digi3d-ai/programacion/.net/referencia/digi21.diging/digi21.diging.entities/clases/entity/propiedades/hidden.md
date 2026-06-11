@@ -9,7 +9,7 @@ Especifica ocultar en la ventana de dibujo la geometría representada por este [
 public bool Hidden { get; set; }‌
 ```
 
-## Valor de la propiedad <a href="#valor-de-la-propiedad" id="valor-de-la-propiedad"></a>
+## Valor de la propiedad [](#valor-de-la-propiedad)
 
 ‌​[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)​‌
 

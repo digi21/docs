@@ -25,34 +25,34 @@ Implementa: [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 
 |                                                         |                                                                                                                                                     |
 | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [W](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/w.md)</p>      |
-| [SW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/sw.md)</p>    |
-| [S](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/)</p>        |
-| [SE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/se.md)</p>    |
-| [E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/)</p>       |
-| [NE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ne.md)</p>    |
-| [N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md)</p>      |
-| [NW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/nw.md)</p>    |
-| [Center](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/center.md)</p>  |
-| [Depth](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/depth.md)</p>               |
-| [Height](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/height.md)</p>                |
-| [Width](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/width.md)</p>               |
-| [Valid](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/valid.md)</p>              |
-| [Xmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/xmin.md)</p> |
-| [Ymin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ymin.md)</p> |
-| [Zmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/zmin.md)</p> |
-| [Xmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/xmax.md)</p> |
-| [Ymax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ymax.md)</p> |
-| [Zmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/zmax.md)</p> |
+| [W](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/w.md)      |
+| [SW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/sw.md)    |
+| [S](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/)        |
+| [SE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/se.md)    |
+| [E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/)       |
+| [NE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ne.md)    |
+| [N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md)      |
+| [NW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/nw.md)    |
+| [Center](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/center.md)  |
+| [Depth](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/depth.md)               |
+| [Height](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/height.md)                |
+| [Width](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/width.md)               |
+| [Valid](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/valid.md)              |
+| [Xmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/xmin.md) |
+| [Ymin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ymin.md) |
+| [Zmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/zmin.md) |
+| [Xmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/xmax.md) |
+| [Ymax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ymax.md) |
+| [Zmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/zmax.md) |
 
 ## Métodos
 
 |                                                                                                             |                                                                                                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Offset(Point2D)](../interfaces/idesplazable/metodos/offset.md#offset-point-2-d)                            | <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y como se indique en el parámetro.</p><p>(Heredado de <a href="../interfaces/idesplazable/">IDesplazable</a>)</p>                                                    |
-| [Offset(Point3D)](../interfaces/idesplazable/metodos/offset.md#offset-point-3-d)                            | <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y, Z como se indique en el parámetro.</p><p>(Heredado de <a href="../interfaces/idesplazable/">IDesplazable</a>)</p>                                                 |
-| [Offset(double, double)](../interfaces/idesplazable/metodos/offset.md#offset-double-double)                 | <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y como se indique en los parámetros.</p><p>(Heredado de <a href="../interfaces/idesplazable/">IDesplazable</a>)</p>                                                  |
-| [Offset(double, double, double)](../interfaces/idesplazable/metodos/offset.md#offset-double-doublem-double) | <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y, Z como se indique en los parámetros.</p><p>(Heredado de <a href="../interfaces/idesplazable/">IDesplazable</a>)</p>                                               |
+| [Offset(Point2D)](../interfaces/idesplazable/metodos/offset.md#offset-point-2-d)                            | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en el parámetro.; (Heredado de [IDesplazable](../interfaces/idesplazable/))|
+| [Offset(Point3D)](../interfaces/idesplazable/metodos/offset.md#offset-point-3-d)                            | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en el parámetro.; (Heredado de [IDesplazable](../interfaces/idesplazable/))|
+| [Offset(double, double)](../interfaces/idesplazable/metodos/offset.md#offset-double-double)                 | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en los parámetros.; (Heredado de [IDesplazable](../interfaces/idesplazable/))|
+| [Offset(double, double, double)](../interfaces/idesplazable/metodos/offset.md#offset-double-doublem-double) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en los parámetros.; (Heredado de [IDesplazable](../interfaces/idesplazable/))|
 | Inflate(double, double, double)                                                                             | Hace crecer tanto la X mínima como la X máxima del [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) tantas unidades como las especificadas en el primer parámetro y de manera similar en los ejes Y,Z con los valores especificados en el segundo y tercer parámetro. |
 | Inflate(double, double)                                                                                     | Hace crecer tanto la X mínima como la X máxima del [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) tantas unidades como las especificadas en el primer parámetro y de manera similar en el eje Y con el valor especificado en el segundo parámetro.                  |
 | Inflate(Point3D)                                                                                            | Hace crecer las máximas y mínimas del [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md)pasado por parámetro.                                                                         |

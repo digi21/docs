@@ -30,47 +30,15 @@ Implementa: [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idi
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="metodos/addcode.md">AddCode</a>
-      </td>
-      <td style="text-align:left">A&#xF1;ade un nuevo c&#xF3;digo a la tabla de c&#xF3;digos.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=net-5.0">Dispose</a>
-      </td>
-      <td style="text-align:left">
-        <p>Libera los recursos utilizados por la tabla de c&#xF3;digos.</p>
-        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0">IDisposable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="metodos/hascode.md#hascode-string">HasCode(string)</a>
-      </td>
-      <td style="text-align:left">Indica si la tabla de c&#xF3;digos contiene un c&#xF3;digo cuyo nombre
-        sea el pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="metodos/hascode.md#hascode-string-bool">HasCode(string, bool)</a>
-      </td>
-      <td style="text-align:left">Indica si la tabla de c&#xF3;digos contiene un c&#xF3;digo cuyo nombre
-        sea el pasado por par&#xE1;metros permitiendo indicar si aplicar l&#xF3;gica
-        de comodines.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="metodos/write.md">Write(string)</a>
-      </td>
-      <td style="text-align:left">Almacena la tabla de c&#xF3;digos en un archivo.</td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [AddCode](metodos/addcode.md) | Añade un nuevo código a la tabla de códigos. |
+| [Dispose](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=net-5.0) | Libera los recursos utilizados por la tabla de códigos.; (Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0)) |
+| [HasCode(string)](metodos/hascode.md#hascode-string) | Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros. |
+| [HasCode(string, bool)](metodos/hascode.md#hascode-string-bool) | Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros permitiendo indicar si aplicar lógica de comodines. |
+| [Write(string)](metodos/write.md) | Almacena la tabla de códigos en un archivo. |
+
 
 
 

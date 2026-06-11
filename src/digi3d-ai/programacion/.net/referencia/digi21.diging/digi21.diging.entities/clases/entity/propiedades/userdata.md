@@ -9,7 +9,7 @@ Permite almacenar un objeto definido por el usuario.
 public object UserData { get; set;  }‌
 ```
 
-## Valor de la propiedad <a href="#valor-de-la-propiedad" id="valor-de-la-propiedad"></a>
+## Valor de la propiedad [](#valor-de-la-propiedad)
 
 [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)
 

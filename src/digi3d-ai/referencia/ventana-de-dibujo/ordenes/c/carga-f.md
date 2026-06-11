@@ -4,53 +4,14 @@ Visualiza en pantalla, junto al fichero actual de dibujo, uno o varios ficheros 
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Archivo</th>
-      <th style="text-align:left">Par&#xE1;metros</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Archivo .bin</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Precisi&#xF3;n</li>
-          <li>Coordenadas del origen global</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Archivo ASCII de Kork</td>
-      <td style="text-align:left">
-        <ul>
-          <li>No hace falta ning&#xFA;n par&#xE1;metro</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Archivo .DGN v8</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Archivo de c&#xE9;lulas</li>
-          <li>N&#xBA; de entidades a saltar</li>
-          <li>Criterio de c&#xF3;digos</li>
-          <li>C&#xF3;digos desconocidos</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Archivo DXF de AutoCAD</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Tabla de traducci&#xF3;n</li>
-        </ul>
-        <p>C:\Archivos de programa\Digi21.net\Digi3D2006\Tablas\BINDXF.TAB.XML</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+| Archivo | Parámetros |
+| :--- | :--- |
+| Archivo .bin | Precisión; Coordenadas del origen global |
+| Archivo ASCII de Kork | No hace falta ningún parámetro |
+| Archivo .DGN v8 | Archivo de células; Nº de entidades a saltar; Criterio de códigos; Códigos desconocidos |
+| Archivo DXF de AutoCAD | Tabla de traducción; C:\Archivos de programa\Digi21.net\Digi3D2006\Tablas\BINDXF.TAB.XML |
+
 
 ## Observaciones
 

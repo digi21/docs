@@ -26,83 +26,16 @@ Implementa: [ISnapable](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="metodos/clone.md">Clone()</a>
-      </td>
-      <td style="text-align:left">Devuelve una nueva instancia de <a href="../polygon/">Polygon</a> id&#xE9;ntica
-        a la actual pero que no est&#xE1; asignada a ning&#xFA;n <a href="../../digi21.diging.io/idrawingfile/">IDrawingFile</a> de
-        manera que no es de solo lectura.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../icloseable/metodos/analyzepointposition.md">AnalyzePointPosition(Point3D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve un <a href="../pointposition.md">PointPosition </a>especificando
-          la posici&#xF3;n relativa de un determinado punto con el <a href="./">ReadOnlyPolygon</a>.</p>
-        <p>(Heredado de <a href="../icloseable/">ICloseable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../iclippable/metodos/clip.md">Clip(ReadOnlyLine)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve un conjunto de geometr&#xED;as que son el resultado de recortar
-          el <a href="./">ReadOnlyPolygon</a> por el l&#xED;mite especificado.</p>
-        <p>(Heredado de <a href="../iclippable/">IClippable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../isnapable/metodos/distance.md">Distance(Point3D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve un vector cuyo m&#xF3;dulo es la distancia al punto m&#xE1;s
-          cercano al <a href="./">ReadOnlyPolygon</a>.</p>
-        <p>(Heredado de <a href="../isnapable/">ISnapable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../isnapable/metodos/nearestsegment.md">NearestSegment(Point3D, out Point3D, out int)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Indica el segmento m&#xE1;s cercano y calcula la proyecci&#xF3;n a dicho
-          segmento adem&#xE1;s de devolver la distancia a dicho punto.</p>
-        <p>(Heredado de <a href="../isnapable/">ISnapable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../isnapable/metodos/nearestvertex.md">NearestVertex(Point3D, out Point3D, out int)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Indica el v&#xE9;rtice m&#xE1;s cercano, as&#xED; como su &#xED;ndice
-          y distancia.</p>
-        <p>(Heredado de <a href="../isnapable/">ISnapable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ToString()</td>
-      <td style="text-align:left">
-        <p>Convierte este <a href="./">ReadOnlyPolygon</a> en una cadena legible para
-          los humanos.</p>
-        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0">Object</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../itrimmable/metodos/trim.md">Trim(ReadOnlyLine, bool)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Indica el v&#xE9;rtice m&#xE1;s cercano, as&#xED; como su &#xED;ndice
-          y distancia.</p>
-        <p>(Heredado de <a href="../itrimmable/">ITrimable</a>)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [Clone()](metodos/clone.md) | Devuelve una nueva instancia de [Polygon](../polygon/) idéntica a la actual pero que no está asignada a ningún [IDrawingFile](../../digi21.diging.io/idrawingfile/) de manera que no es de solo lectura. |
+| [AnalyzePointPosition(Point3D)](../icloseable/metodos/analyzepointposition.md) | Devuelve un [PointPosition](../pointposition.md)especificando la posición relativa de un determinado punto con el [ReadOnlyPolygon](./).; (Heredado de [ICloseable](../icloseable/)) |
+| [Clip(ReadOnlyLine)](../iclippable/metodos/clip.md) | Devuelve un conjunto de geometrías que son el resultado de recortar el [ReadOnlyPolygon](./) por el límite especificado.; (Heredado de [IClippable](../iclippable/)) |
+| [Distance(Point3D)](../isnapable/metodos/distance.md) | Devuelve un vector cuyo módulo es la distancia al punto más cercano al [ReadOnlyPolygon](./).; (Heredado de [ISnapable](../isnapable/)) |
+| [NearestSegment(Point3D, out Point3D, out int)](../isnapable/metodos/nearestsegment.md) | Indica el segmento más cercano y calcula la proyección a dicho segmento además de devolver la distancia a dicho punto.; (Heredado de [ISnapable](../isnapable/)) |
+| [NearestVertex(Point3D, out Point3D, out int)](../isnapable/metodos/nearestvertex.md) | Indica el vértice más cercano, así como su índice y distancia.; (Heredado de [ISnapable](../isnapable/)) |
+| ToString() | Convierte este [ReadOnlyPolygon](./) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
+| [Trim(ReadOnlyLine, bool)](../itrimmable/metodos/trim.md) | Indica el vértice más cercano, así como su índice y distancia.; (Heredado de [ITrimable](../itrimmable/)) |
+
 

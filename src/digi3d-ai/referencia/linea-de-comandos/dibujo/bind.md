@@ -14,7 +14,7 @@ Estos valores son opcionales, y si se especifican modifican el valor por defecto
 
 | Opción                     | Descripción                                                                                                     | Valores aceptados                                                  |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| --mdat                     | <p>Modelo de datos.</p><p>Esta opción es obligatoria si se especifica la opción --cconexion</p>                 | <p>CATDBS</p><p>GEOGRAPHICS</p>                                    |
+| --mdat                     | Modelo de datos.; Esta opción es obligatoria si se especifica la opción --cconexion| CATDBS; GEOGRAPHICS|
 | --cconexion                | Cadena de conexión                                                                                              | Cadena de conexión para el proveedor de bases de datos a utilizar. |
 | --obviarArchivosReferencia | Si se indica, no se cargarán los archivos de referencia que pudiera tener vinculados el archivo .BIND a cargar. |                                                                    |
 

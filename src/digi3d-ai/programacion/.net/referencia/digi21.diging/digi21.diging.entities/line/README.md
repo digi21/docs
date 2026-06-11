@@ -28,59 +28,14 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="../idirectionable/metodos/changedirection.md">ChangeDirection()</a>
-      </td>
-      <td style="text-align:left">
-        <p>Cambia la direcci&#xF3;n del <a href="./">Line</a>.</p>
-        <p>(Heredado de <a href="../idirectionable/">IDirectionable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="metodos/close.md">Close()</a>
-      </td>
-      <td style="text-align:left">Cierra el <a href="./">Line</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/idesplazable/metodos/offset.md#offset-point-2-d">Offset(Point2D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Line</a> en el plano X, Y.</p>
-        <p>(Heredado de <a href="../../digi21.math/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/idesplazable/metodos/offset.md#offset-point-3-d">Offset(Point3D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Line</a> en el espacio.</p>
-        <p>(Heredado de <a href="../../digi21.math/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/idesplazable/metodos/offset.md#offset-double-double">Offset(double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Line</a> en el plano X, Y.</p>
-        <p>(Heredado de <a href="../../digi21.math/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/idesplazable/metodos/offset.md#offset-double-double-double">Offset(double, double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Line</a> en el espacio.</p>
-        <p>(Heredado de <a href="../../digi21.math/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [ChangeDirection()](../idirectionable/metodos/changedirection.md) | Cambia la dirección del [Line](./).; (Heredado de [IDirectionable](../idirectionable/)) |
+| [Close()](metodos/close.md) | Cierra el [Line](./). |
+| [Offset(Point2D)](../../digi21.math/idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza el [Line](./) en el plano X, Y.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
+| [Offset(Point3D)](../../digi21.math/idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza el [Line](./) en el espacio.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
+| [Offset(double, double)](../../digi21.math/idesplazable/metodos/offset.md#offset-double-double) | Desplaza el [Line](./) en el plano X, Y.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
+| [Offset(double, double, double)](../../digi21.math/idesplazable/metodos/offset.md#offset-double-double-double) | Desplaza el [Line](./) en el espacio.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
+
 

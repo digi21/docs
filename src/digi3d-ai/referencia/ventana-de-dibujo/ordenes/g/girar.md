@@ -8,44 +8,14 @@ No admite parámetros.
 
 ## Características de la orden
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href="girar.md">Orden inmediata</a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Repite autom&#xE1;ticamente</td>
-      <td style="text-align:left">No</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Opci&#xF3;n del men&#xFA; donde aparece la orden</td>
-      <td style="text-align:left">
-        <p>Zooms/Rotaci&#xF3;n de la c&#xE1;mara/0 grados</p>
-        <p>Zooms/Rotaci&#xF3;n de la c&#xE1;mara/90 grados</p>
-        <p>Zooms/Rotaci&#xF3;n de la c&#xE1;mara/180 grados</p>
-        <p>Zooms/Rotaci&#xF3;n de la c&#xE1;mara/270 grados</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Barra de herramientas en la que aparece la orden</td>
-      <td style="text-align:left">Rotaci&#xF3;n de la c&#xE1;mara</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Extensi&#xF3;n</td>
-      <td style="text-align:left">DigiNG.OrdenesStandard.dll</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left">No tiene variables relacionadas</td>
-    </tr>
-      <tr>
-      <td style="text-align:left">Nombre interno</td>
-      <td style="text-align:left">{1A1D36C6-9CAE-47b2-8740-2E5AA4D36E23}</td>
-    </tr>
-</tbody>
-</table>
+
+| Tipo de orden | [Orden inmediata](girar.md) |
+| :--- | :--- |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Zooms/Rotación de la cámara/0 grados; Zooms/Rotación de la cámara/90 grados; Zooms/Rotación de la cámara/180 grados; Zooms/Rotación de la cámara/270 grados |
+| Barra de herramientas en la que aparece la orden | Rotación de la cámara |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {1A1D36C6-9CAE-47b2-8740-2E5AA4D36E23} |
+
 

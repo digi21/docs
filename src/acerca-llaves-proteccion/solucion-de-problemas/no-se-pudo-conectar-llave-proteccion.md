@@ -6,50 +6,12 @@ Este mensaje se muestra cuando has indicado mediante el programa **Selecciona Ll
 
 A continuación, te enumeramos las posibles causas de este error y las soluciones:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Causa</th>
-      <th style="text-align:left">Soluci&#xF3;n</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">La llave de protecci&#xF3;n especificada no est&#xE1; conectada o no es
-        accesible.</td>
-      <td style="text-align:left">
-        <p>Conecta la llave de protecci&#xF3;n en el ordenador en el que est&#xE1;s
-          ejecutando el programa que te ha mostrado el mensaje de error.</p>
-        <p>Si la llave de protecci&#xF3;n es f&#xED;sica, debe encenderse un led
-          indicando que Windows la ha reconocido satisfactoriamente.</p>
-        <p>Si la llave de protecci&#xF3;n es de red, aseg&#xFA;rate de que el servidor
-          en el que est&#xE1; conectada o instalada es visible desde el ordenador
-          en el que est&#xE1;s intentando ejecutar el programa que te ha mostrado
-          el mensaje de error.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">La llave de protecci&#xF3;n especificada es una llave de protecci&#xF3;n
-        provisional y esta ha caducado.</td>
-      <td style="text-align:left">Las llaves de protecci&#xF3;n provisionales tienen una duraci&#xF3;n m&#xE1;xima
-        de 90 d&#xED;as desde el momento en que se utilizaron por primera vez.
-        Si ya se ha superado la fecha de expiraci&#xF3;n de llaves de protecci&#xF3;n
-        provisionales, tendr&#xE1;s que convertirla en una llave de protecci&#xF3;n
-        permanente.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">La llave de protecci&#xF3;n especificada es una llave de protecci&#xF3;n
-        de red y se han agotado todas las conexiones.</td>
-      <td style="text-align:left">Espera a que otro usuario termine de trabajar con el programa que est&#xE1;s
-        intentando ejecutar o compra una activaci&#xF3;n m&#xE1;s para tu llave
-        de protecci&#xF3;n de red.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Has configurado incorrectamente la llave de protecci&#xF3;n que debe utilizar
-        el programa que te ha mostrado este mensaje de error.</td>
-      <td style="text-align:left">Ejecuta el programa <b>Selecciona Llave</b> del programa que est&#xE1;s
-        intentando ejecutar y selecciona la llave de protecci&#xF3;n correcta.</td>
-    </tr>
-  </tbody>
-</table>
+
+| Causa | Solución |
+| :--- | :--- |
+| La llave de protección especificada no está conectada o no es accesible. | Conecta la llave de protección en el ordenador en el que estás ejecutando el programa que te ha mostrado el mensaje de error.; Si la llave de protección es física, debe encenderse un led indicando que Windows la ha reconocido satisfactoriamente.; Si la llave de protección es de red, asegúrate de que el servidor en el que está conectada o instalada es visible desde el ordenador en el que estás intentando ejecutar el programa que te ha mostrado el mensaje de error. |
+| La llave de protección especificada es una llave de protección provisional y esta ha caducado. | Las llaves de protección provisionales tienen una duración máxima de 90 días desde el momento en que se utilizaron por primera vez. Si ya se ha superado la fecha de expiración de llaves de protección provisionales, tendrás que convertirla en una llave de protección permanente. |
+| La llave de protección especificada es una llave de protección de red y se han agotado todas las conexiones. | Espera a que otro usuario termine de trabajar con el programa que estás intentando ejecutar o compra una activación más para tu llave de protección de red. |
+| Has configurado incorrectamente la llave de protección que debe utilizar el programa que te ha mostrado este mensaje de error. | Ejecuta el programa **Selecciona Llave** del programa que estás intentando ejecutar y selecciona la llave de protección correcta. |
+
 

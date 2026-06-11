@@ -23,311 +23,55 @@ Implementa: [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 
 ## Propiedades
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/w.md">W</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al oeste del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/sw.md">SW</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al sudeste del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/s.md">S</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al sur del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/se.md">SE</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al sudeste del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/e.md">E</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al este del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/ne.md">NE</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al noreste del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/n.md">N</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al norte del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/nw.md">NW</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al noreste del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/center.md">Center</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto en el centro del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/depth.md">Depth</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el largo del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/height.md">Height</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el alto del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/width.md">Width</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el ancho del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/valid.md">Valid</a>
-      </td>
-      <td style="text-align:left">
-        <p>Indica si el <a href="window3d.md">Window3D</a> es v&#xE1;lido.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/xmin.md">Xmin</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada X m&#xED;nima del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/ymin.md">Ymin</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xED;nima del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/zmin.md">Zmin</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Z m&#xED;nima del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/xmax.md">Xmax</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada X m&#xE1;xima del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/ymax.md">Ymax</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xE1;xima del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="iwindow3d/propiedades/zmax.md">Zmax</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Z m&#xE1;xima del <a href="window3d.md">Window3D</a>.</p>
-        <p>(Heredado de <a href="iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [W](iwindow3d/propiedades/w.md) | Devuelve el punto al oeste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [SW](iwindow3d/propiedades/sw.md) | Devuelve el punto al sudeste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [S](iwindow3d/propiedades/s.md) | Devuelve el punto al sur del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [SE](iwindow3d/propiedades/se.md) | Devuelve el punto al sudeste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [E](iwindow3d/propiedades/e.md) | Devuelve el punto al este del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [NE](iwindow3d/propiedades/ne.md) | Devuelve el punto al noreste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [N](iwindow3d/propiedades/n.md) | Devuelve el punto al norte del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [NW](iwindow3d/propiedades/nw.md) | Devuelve el punto al noreste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Center](iwindow3d/propiedades/center.md) | Devuelve el punto en el centro del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Depth](iwindow3d/propiedades/depth.md) | Devuelve el largo del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Height](iwindow3d/propiedades/height.md) | Devuelve el alto del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Width](iwindow3d/propiedades/width.md) | Devuelve el ancho del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Valid](iwindow3d/propiedades/valid.md) | Indica si el [Window3D](window3d.md) es válido.; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Xmin](iwindow3d/propiedades/xmin.md) | Devuelve la coordenada X mínima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Ymin](iwindow3d/propiedades/ymin.md) | Devuelve la coordenada Y mínima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Zmin](iwindow3d/propiedades/zmin.md) | Devuelve la coordenada Z mínima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Xmax](iwindow3d/propiedades/xmax.md) | Devuelve la coordenada X máxima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Ymax](iwindow3d/propiedades/ymax.md) | Devuelve la coordenada Y máxima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [Zmax](iwindow3d/propiedades/zmax.md) | Devuelve la coordenada Z máxima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-2-d">Offset(Point2D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y como
-          se indique en el par&#xE1;metro.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-3-d">Offset(Point3D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y,
-          Z como se indique en el par&#xE1;metro.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-double">Offset(double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y como
-          se indique en los par&#xE1;metros.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-doublem-double">Offset(double, double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window3d.md">Window3D</a> tantas unidades en X, Y,
-          Z como se indique en los par&#xE1;metros.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inflate(double, double, double)</td>
-      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima como la X m&#xE1;xima del <a href="window3d.md">Window3D</a> tantas
-        unidades como las especificadas en el primer par&#xE1;metro y de manera
-        similar en los ejes Y,Z con los valores especificados en el segundo y tercer
-        par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inflate(double, double)</td>
-      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima como la X m&#xE1;xima del <a href="window3d.md">Window3D</a> tantas
-        unidades como las especificadas en el primer par&#xE1;metro y de manera
-        similar en el eje Y con el valor especificado en el segundo par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inflate(Point3D)</td>
-      <td style="text-align:left">Hace crecer las m&#xE1;ximas y m&#xED;nimas del <a href="window3d.md">Window3D</a> tantas
-        unidades como las especificadas en el <a href="point3d.md">Point3D</a>
-        <a
-        href="point2d.md"></a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inflate(Size)</td>
-      <td style="text-align:left">Hace crecer las m&#xE1;ximas y m&#xED;nimas del <a href="window3d.md">Window3D</a> tantas
-        unidades como las especificadas en el <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.size?view=net-5.0">Size</a>
-        <a
-        href="point2d.md"></a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(IWindow3D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window3d.md">Window3D</a><a href="window2d.md"> </a>para
-        que contenga al <a href="iwindow3d/">IWindow3D </a>pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Window3D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window3d.md">Window3D</a><a href="window2d.md"> </a>para
-        que contenga al <a href="window3d.md">Window3D</a> pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Point3D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window3d.md">Window3D</a><a href="window2d.md"> </a>para
-        que contenga al <a href="point3d.md">Point3D</a> pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(PointF)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window3d.md">Window3D</a><a href="window2d.md"> </a>para
-        que contenga al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0">PointF</a> pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Point)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window3d.md">Window3D</a><a href="window2d.md"> </a>para
-        que contenga al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0">Point</a> pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(double, double, double, double, double, double)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window3d.md">Window3D</a><a href="window2d.md"> </a>para
-        que contenga a las m&#xE1;ximas y m&#xED;nimas pasadas por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(IWindow3D)</td>
-      <td style="text-align:left">Indica si el <a href="window3d.md">Window3D </a>contiene al <a href="iwindow3d/">IWindow3D </a>pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Window3D)</td>
-      <td style="text-align:left">Indica si el <a href="window3d.md">Window3D </a>contiene al <a href="window3d.md">Window3D </a>pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Point3D)</td>
-      <td style="text-align:left">Indica si el <a href="window3d.md">Window3D </a>contiene al <a href="point3d.md">Point3D </a>pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(PointF)</td>
-      <td style="text-align:left">Indica si el <a href="window3d.md">Window3D </a>contiene al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0">PointF</a> pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Point)</td>
-      <td style="text-align:left">Indica si el <a href="window3d.md">Window3D </a>contiene al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0">Point </a>pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersect(Window3D)</td>
-      <td style="text-align:left">Indica si el <a href="window3d.md">Window3D </a>intersecciona con el
-        <a
-        href="window3d.md">Window3D</a><a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0"> </a>pasado
-          por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ToString()</td>
-      <td style="text-align:left">Convierte este <a href="window3d.md">Window3D</a> en una cadena legible
-        para los humanos.</td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [Offset(Point2D)](idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
+| [Offset(Point3D)](idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
+| [Offset(double, double)](idesplazable/metodos/offset.md#offset-double-double) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
+| [Offset(double, double, double)](idesplazable/metodos/offset.md#offset-double-doublem-double) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
+| Inflate(double, double, double) | Hace crecer tanto la X mínima como la X máxima del [Window3D](window3d.md) tantas unidades como las especificadas en el primer parámetro y de manera similar en los ejes Y,Z con los valores especificados en el segundo y tercer parámetro. |
+| Inflate(double, double) | Hace crecer tanto la X mínima como la X máxima del [Window3D](window3d.md) tantas unidades como las especificadas en el primer parámetro y de manera similar en el eje Y con el valor especificado en el segundo parámetro. |
+| Inflate(Point3D) | Hace crecer las máximas y mínimas del [Window3D](window3d.md) tantas unidades como las especificadas en el [Point3D](point3d.md) [](point2d.md)pasado por parámetro. |
+| Inflate(Size) | Hace crecer las máximas y mínimas del [Window3D](window3d.md) tantas unidades como las especificadas en el [Size](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.size?view=net-5.0) [](point2d.md)pasado por parámetro. |
+| Union(IWindow3D) | Hace crecer si es necesario el [Window3D](window3d.md)[](window2d.md)para que contenga al [IWindow3D](iwindow3d/)pasado por parámetros. |
+| Union(Window3D) | Hace crecer si es necesario el [Window3D](window3d.md)[](window2d.md)para que contenga al [Window3D](window3d.md) pasado por parámetros. |
+| Union(Point3D) | Hace crecer si es necesario el [Window3D](window3d.md)[](window2d.md)para que contenga al [Point3D](point3d.md) pasado por parámetros. |
+| Union(PointF) | Hace crecer si es necesario el [Window3D](window3d.md)[](window2d.md)para que contenga al [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasado por parámetros. |
+| Union(Point) | Hace crecer si es necesario el [Window3D](window3d.md)[](window2d.md)para que contenga al [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0) pasado por parámetros. |
+| Union(double, double, double, double, double, double) | Hace crecer si es necesario el [Window3D](window3d.md)[](window2d.md)para que contenga a las máximas y mínimas pasadas por parámetros. |
+| Contains(IWindow3D) | Indica si el [Window3D](window3d.md)contiene al [IWindow3D](iwindow3d/)pasado por parámetros. |
+| Contains(Window3D) | Indica si el [Window3D](window3d.md)contiene al [Window3D](window3d.md)pasado por parámetros. |
+| Contains(Point3D) | Indica si el [Window3D](window3d.md)contiene al [Point3D](point3d.md)pasado por parámetros. |
+| Contains(PointF) | Indica si el [Window3D](window3d.md)contiene al [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasado por parámetros. |
+| Contains(Point) | Indica si el [Window3D](window3d.md)contiene al [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0)pasado por parámetros. |
+| Intersect(Window3D) | Indica si el [Window3D](window3d.md)intersecciona con el [Window3D](window3d.md)[](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0)pasado por parámetros. |
+| ToString() | Convierte este [Window3D](window3d.md) en una cadena legible para los humanos. |
+
 
