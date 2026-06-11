@@ -6,10 +6,6 @@ Traza líneas perpendiculares a una entidad de dibujo.
 
 Esta orden no admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](perp.md) |

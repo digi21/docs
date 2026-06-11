@@ -30,10 +30,6 @@ Activa o desactiva la función de [generalización](/digi3d-ai/referencia/ventan
   </tbody>
 </table>
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Variable booleana](g.md) |

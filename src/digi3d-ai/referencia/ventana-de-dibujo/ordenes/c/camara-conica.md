@@ -6,10 +6,6 @@ Asigna como cámara en la ventana de dibujo una cámara cónica.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](camara-conica.md) |

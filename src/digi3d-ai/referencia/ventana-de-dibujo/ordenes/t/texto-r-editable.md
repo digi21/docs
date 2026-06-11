@@ -6,10 +6,6 @@ Actúa igual que la orden TEXTO_R pero si se le pasan parámetros, no oculta el 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](texto-r-editable.md) |

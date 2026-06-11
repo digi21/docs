@@ -6,10 +6,6 @@ Asigna un archivo de representaciones para modificar la representación de las g
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asignar-representaciones.md) |

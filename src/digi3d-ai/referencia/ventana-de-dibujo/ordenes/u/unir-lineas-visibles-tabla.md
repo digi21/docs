@@ -6,10 +6,6 @@ Une las lineas visibles en pantalla siempre que al nodo no lleguen más de dos e
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-lineas-visibles-tabla.md) |

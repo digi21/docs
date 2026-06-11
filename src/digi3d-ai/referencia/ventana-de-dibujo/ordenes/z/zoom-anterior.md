@@ -6,10 +6,6 @@ Ejecuta un zoom extensión del archivo de dibujo actual.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](zoom-anterior.md) |

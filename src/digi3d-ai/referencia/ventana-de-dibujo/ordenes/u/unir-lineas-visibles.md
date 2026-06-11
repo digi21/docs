@@ -6,10 +6,6 @@ Une las lineas visibles en pantalla (siempre que tengan el mismo código y conti
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-lineas-visibles.md) |

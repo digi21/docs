@@ -8,10 +8,6 @@ Proyecta todas la entidades con un determinado código sobre los MDTs cargados q
 | :--- | :--- | :--- |
 | 1 | Etiqueta | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](proyecta-cod-etiqueta.md) |

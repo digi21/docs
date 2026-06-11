@@ -8,10 +8,6 @@ Hace que todos los vértices de la geometría/s seleccionada/s tengan una coorde
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](zfija.md) |

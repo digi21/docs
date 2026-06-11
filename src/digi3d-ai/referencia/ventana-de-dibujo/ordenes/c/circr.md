@@ -9,10 +9,6 @@ Dibuja una circunferencia mediante la definición de su centro y el radio introd
 | 1 | Centro de la circunferencia | Coordenadas XYZ | Si |
 | 2 | Radio de la circunferencia | Número real | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](circr.md) |

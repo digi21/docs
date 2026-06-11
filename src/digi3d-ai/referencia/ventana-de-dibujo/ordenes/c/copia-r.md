@@ -8,10 +8,6 @@ Realiza una copia de una entidad de dibujo permitiendo rotarla con un segundo da
 | :--- | :--- | :--- |
 | 1 | Tipos de geometría a tentativar (cadena de letras: C=líneas y puntos, L=líneas, P=puntos, T=textos…) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](copia-r.md) |

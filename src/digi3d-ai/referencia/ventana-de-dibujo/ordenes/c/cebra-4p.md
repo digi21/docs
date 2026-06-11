@@ -6,10 +6,6 @@ Facilita el dibujo de pasos de cebra, introduciendo sólo el número de las fran
 
 No admite parámetros
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cebra-4p.md) |

@@ -9,10 +9,6 @@ Digitaliza un rectángulo con las dimensiones especificadas permitiendo rotarlo.
 | 1 | Ancho | No |
 | 2 | Alto | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](rectangulo-dr.md) |

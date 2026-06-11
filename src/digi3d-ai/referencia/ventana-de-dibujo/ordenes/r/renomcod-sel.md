@@ -9,10 +9,6 @@ Cambia el código correspondiente otro código a las entidades seleccionadas.
 | 1 | Código origen | No |
 | 2 | Código destino | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](renomcod-sel.md) |

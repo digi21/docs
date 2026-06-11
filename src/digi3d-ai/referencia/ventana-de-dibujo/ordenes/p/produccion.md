@@ -6,10 +6,6 @@ Permite generar un fichero con la información acerca de la producción del arch
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](produccion.md) |

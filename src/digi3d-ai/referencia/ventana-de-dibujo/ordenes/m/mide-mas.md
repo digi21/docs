@@ -6,10 +6,6 @@ Calcula el perímetro en el plano, en el espacio y en el área de un conjunto de
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mide-mas.md) |

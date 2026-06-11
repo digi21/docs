@@ -6,10 +6,6 @@ Genera una triangulación virtual con las líneas seleccionadas y proyecta los p
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](proyecta-entre-curvas.md) |

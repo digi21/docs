@@ -8,10 +8,6 @@ Calcula una triangulación exceptuando aquellos nodos a los que lleguen una lín
 | :--- | :--- | :--- |
 | 1 | Código o códigos a excluir (uno o más) | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](triangular-lineas-excepto-puntos-con-codigo.md) |

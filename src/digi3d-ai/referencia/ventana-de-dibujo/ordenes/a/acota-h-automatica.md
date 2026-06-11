@@ -6,10 +6,6 @@ Si el sensor activo lo admite, proyecta una línea hacia abajo y hacia arriba y 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](acota-h-automatica.md) |

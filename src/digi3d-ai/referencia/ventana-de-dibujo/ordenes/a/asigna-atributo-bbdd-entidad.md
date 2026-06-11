@@ -10,10 +10,6 @@ Asigna un nuevo valor a un campo en la BBDD para una entidad.
 | 2 | Nombre del campo | No |
 | 3 | Valor | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](asigna-atributo-bbdd-entidad.md) |

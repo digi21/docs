@@ -6,10 +6,6 @@ Envía las entidades que forman parte del límite del recinto seleccionado a la 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](selecciona-inundacion.md) |

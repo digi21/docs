@@ -6,10 +6,6 @@ Prolonga una entidad hasta el punto de intersección con otra entidad dada.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta entidad.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext.md) |

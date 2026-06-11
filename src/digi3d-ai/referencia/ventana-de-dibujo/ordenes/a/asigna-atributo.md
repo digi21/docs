@@ -12,10 +12,6 @@ Esta orden asigna un valor a un atributo en la lista de atributos activos en la 
 | 3 | Valor | No |
 | 4 | ¿Campo visible? (0 ó 1; por defecto 1) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asigna-atributo.md) |

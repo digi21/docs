@@ -6,10 +6,6 @@ Realiza la **Orientación Absoluta** del modelo cargado en la ventana fotogramé
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

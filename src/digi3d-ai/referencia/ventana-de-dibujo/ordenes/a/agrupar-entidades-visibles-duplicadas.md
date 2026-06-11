@@ -6,10 +6,6 @@ Agrupa todas las entidades visibles duplicadas en una única entidad.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](agrupar-entidades-visibles-duplicadas.md) |

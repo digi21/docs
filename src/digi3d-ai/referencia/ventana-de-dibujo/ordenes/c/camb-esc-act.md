@@ -8,10 +8,6 @@ Cambiar la Escala Activa de puntos.
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-esc-act.md) |

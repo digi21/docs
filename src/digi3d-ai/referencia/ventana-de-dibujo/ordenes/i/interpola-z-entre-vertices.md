@@ -6,10 +6,6 @@ Solicita que se seleccione una línea por un vértice y luego solicita que se se
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](interpola-z-entre-vertices.md) |

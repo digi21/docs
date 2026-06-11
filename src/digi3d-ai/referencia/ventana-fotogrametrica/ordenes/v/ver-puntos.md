@@ -9,10 +9,6 @@ Activa o desactiva la visualización de los puntos medidos en cada foto.
 | 0 | Desactiva la visualización |
 | 1 | Activa la visualización |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

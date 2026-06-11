@@ -6,10 +6,6 @@ Realiza las mismas funciones que la orden [COD+](/digi3d-ai/referencia/ventana-d
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cod-sin-orden.md) |

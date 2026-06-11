@@ -6,10 +6,6 @@ Muestra un cuadro de diálogo para configurar la visualización de paso de curva
 
 No admite parámetros.
 
-## Obsevaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva]() |

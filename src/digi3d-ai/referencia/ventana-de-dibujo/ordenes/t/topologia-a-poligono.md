@@ -8,10 +8,6 @@ Genera polígonos a partir de la topología pasada por parámetros.
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](topologia-a-poligono.md) |

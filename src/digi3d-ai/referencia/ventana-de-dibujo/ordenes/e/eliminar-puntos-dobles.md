@@ -8,10 +8,6 @@ Elimina los puntos dobles de las entidades del archivo de dibujo activo. Si no s
 | :--- | :--- | :--- |
 | 1 | Eliminar también los puntos que coincidan solo en X,Y (0/1) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-puntos-dobles.md) |

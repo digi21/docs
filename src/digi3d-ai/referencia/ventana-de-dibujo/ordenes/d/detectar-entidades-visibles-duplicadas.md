@@ -6,10 +6,6 @@ Detecta todas las entidades visibles que están duplicadas.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-entidades-visibles-duplicadas.md) |

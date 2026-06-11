@@ -9,10 +9,6 @@ Sustituye todos los textos iguales por otro que ha de ser especificado por el us
 | 1 | Texto a reemplazar | Texto | Si |
 | 2 | Texto nuevo | Texto | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-texto.md) |

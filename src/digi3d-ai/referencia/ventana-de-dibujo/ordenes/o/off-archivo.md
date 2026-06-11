@@ -9,10 +9,6 @@ Desactiva códigos en la ventana de dibujo para un determinado número de archiv
 | 1 | Archivo | No |
 | 2 | Código o códigos | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](off-archivo.md) |

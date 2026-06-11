@@ -6,10 +6,6 @@ Genera una topología para ejecutar con posterioridad las órdenes de inundació
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](generar-topologia-inundacion.md) |

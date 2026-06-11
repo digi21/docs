@@ -9,10 +9,6 @@ Proyecta todas la entidades con un determinado código si cumplen una condición
 | 1 | Operador de comparación (<, >, =…) | No |
 | 2 | Valor | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](proyecta-por-condicion.md) |

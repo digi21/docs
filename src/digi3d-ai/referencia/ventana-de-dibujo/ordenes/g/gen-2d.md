@@ -8,10 +8,6 @@ Generaliza entidades lineales seleccionadas por el usuario, eliminando puntos su
 | :--- | :--- | :--- |
 | 1 | Código | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](gen-2d.md) |

@@ -6,10 +6,6 @@ Dibuja un punto en el archivo actual con la escala y rotación calculados con el
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](punto-2p.md) |

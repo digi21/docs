@@ -8,10 +8,6 @@ Ejecuta las consultas SQL especificadas en el archivo pasado por parámetros.
 | :--- | :--- | :--- |
 | 1 | Archivo con las consultas SQL a ejecutar | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](sql.md) |

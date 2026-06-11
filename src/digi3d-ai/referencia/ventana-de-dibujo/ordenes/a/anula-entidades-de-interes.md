@@ -6,10 +6,6 @@ Anula las entidades de interés de modo que todas las entidades cargadas se acti
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](anula-entidades-de-interes.md) |

@@ -8,10 +8,6 @@ Elimina centroides y líneas para agrupar polígonos vecinos con el mismo centro
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](generalizar-topologia.md) |

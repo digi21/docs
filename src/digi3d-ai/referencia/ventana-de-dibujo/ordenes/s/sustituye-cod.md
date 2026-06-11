@@ -6,10 +6,6 @@ Sustituye los códigos de la entidad seleccionada por los activos.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](sustituye-cod.md) |

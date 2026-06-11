@@ -9,10 +9,6 @@ Activa o desactiva la visualización de una topología así como cambia su orden
 | 1 | Nombre de la topología | No |
 | 2 | Visible (0/1) | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ver-topologias.md) |

@@ -6,10 +6,6 @@ Divide el polígono en todas las entidades que lo forman.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](explotar-poligono.md) |

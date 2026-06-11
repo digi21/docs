@@ -8,10 +8,6 @@ Dibuja un polígono que rodea a una línea existente.
 | :--- | :--- | :--- |
 | 1 | Código | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](eje-a-poligono.md) |

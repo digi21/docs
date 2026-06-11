@@ -13,10 +13,6 @@ Muestra coordenadas en la barra de mensajes de la pantalla estereoscópica.
 | 3 | Muestra coordenadas modelo |
 | 4 | Muestra coordenadas terreno |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

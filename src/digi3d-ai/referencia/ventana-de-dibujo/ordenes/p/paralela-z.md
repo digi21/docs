@@ -6,10 +6,6 @@ Dibuja una paralela a una línea existente asignando la Z activa a todos los vé
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](paralela-z.md) |

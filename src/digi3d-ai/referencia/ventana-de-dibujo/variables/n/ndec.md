@@ -18,10 +18,6 @@ Asigna como número de decimales el valor 3
 
 Muestra el valor actual del número de decimales
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Variable real](ndec.md) |

@@ -8,10 +8,6 @@ Carga el ensamblado pasado por parámetros.
 | :--- | :--- | :--- |
 | 1 | Ruta del ensamblado a cargar | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](carga-ensamblado.md) |

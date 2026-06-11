@@ -8,10 +8,6 @@ Indica si los modelos digitales del terreno cargados modifican la coordenada Z d
 | :--- | :--- | :--- |
 | 1 | 0 desactiva / 1 activa la opción (? para consultar el valor) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](mdt-mueve-digi3d.md) |

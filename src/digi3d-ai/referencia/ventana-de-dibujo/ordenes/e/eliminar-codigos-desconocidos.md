@@ -6,10 +6,6 @@ Elimina todos los códigos desconocidos del archivo de dibujo.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-codigos-desconocidos.md) |

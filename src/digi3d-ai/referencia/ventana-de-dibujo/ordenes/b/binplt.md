@@ -6,10 +6,6 @@ Explota la simbología con la escala configurada en la pestaña Archivo de dibuj
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](binplt.md) |

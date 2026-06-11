@@ -6,10 +6,6 @@ Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos p
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](paralela-dinamica-con-eje.md) |

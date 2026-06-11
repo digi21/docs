@@ -6,10 +6,6 @@ Edita los códigos de las entidades que forman el recinto topológico selecciona
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](editar-codigos-r.md) |

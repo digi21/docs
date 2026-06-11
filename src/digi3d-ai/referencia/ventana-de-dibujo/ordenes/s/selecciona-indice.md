@@ -9,10 +9,6 @@ Permite seleccionar una entidad mediante su índice de registro.
 | 1 | Índice de archivo | No |
 | 2 | Índice de entidad | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](selecciona-indice.md) |

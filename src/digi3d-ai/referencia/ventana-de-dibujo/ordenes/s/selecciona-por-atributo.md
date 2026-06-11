@@ -9,10 +9,6 @@ Envía una selección a la orden activa por atributos de base de datos.
 | 1 | Nombre del atributo | No |
 | 2 | Valor con el que comparar el atributo | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](selecciona-por-atributo.md) |

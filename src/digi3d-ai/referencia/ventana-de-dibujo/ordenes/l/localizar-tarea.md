@@ -6,10 +6,6 @@ Esta orden solicita al usuario que digitalize un punto y se localiza y seleccion
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](localizar-tarea.md) |

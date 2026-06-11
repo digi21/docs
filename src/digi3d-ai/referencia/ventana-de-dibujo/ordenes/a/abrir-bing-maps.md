@@ -8,10 +8,6 @@ Abre una ventana de Bing Maps en las coordenadas donde está el cursor en la ven
 | :--- | :--- | :--- |
 | 1 | Estilo del mapa (por defecto «a») | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](abrir-bing-maps.md) |

@@ -14,10 +14,6 @@ Realiza el curvado de una triangulación.
 | Escala de dibujo | Denominador de la escala, utilizado para aplicar un factor de suavizado a las [isohipsas](curvar.md) | Número real | Si |
 | Factor de suavizado | Se especifica si se quiere suavizar o no el curvado. Puedes escoger un fator de suavizado cuyo rango va desde el valor 1 hasta el 10 | Número real | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](curvar.md) |

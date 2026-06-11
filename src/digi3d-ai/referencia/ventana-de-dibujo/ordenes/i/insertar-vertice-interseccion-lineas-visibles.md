@@ -6,10 +6,6 @@ Inserta un vértice en la intersección de las líneas que son visibles en la vi
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](insertar-vertice-interseccion-lineas-visibles.md) |

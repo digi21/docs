@@ -6,10 +6,6 @@ Ordena por código numérico las entidades de un fichero, agrupando en el ficher
 
 Esta orden no admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ordena-por-codigo-n.md) |

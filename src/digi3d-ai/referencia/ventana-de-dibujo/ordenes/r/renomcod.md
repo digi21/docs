@@ -10,10 +10,6 @@ Cambia el código correspondiente a una serie de entidades por otro código, ya 
 | 2 | Código nuevo | Código | Si |
 | 3 | Tipo de entidad | Líneas, puntos, textos, complejos y polígonos | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](renomcod.md) |

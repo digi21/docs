@@ -6,10 +6,6 @@ Selecciona con un solo clic todas las entidades que se cruzan con el cursor.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](selecciona-todo-en-cursor.md) |

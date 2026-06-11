@@ -9,10 +9,6 @@ Permite cambiar la visualización en tiempo real de las imágenes de color verda
 | FORZAR\_TONOS\_GRIS=1 | Muestra las imágenes en escala de grises |
 | FORZAR\_TONOS\_GRIS=0 | Muestra las imágenes en color verdadero |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

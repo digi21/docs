@@ -6,10 +6,6 @@ Activa la visualización de todas las entidades.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ver-solo-entidades-seleccionadas.md) |

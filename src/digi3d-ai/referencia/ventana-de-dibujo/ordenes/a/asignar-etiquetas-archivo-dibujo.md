@@ -9,10 +9,6 @@ Recibe dos parámetros: [ruta al archivo de dibujo] [etiquetas a asignar]. Asign
 | 1 | Nombre del archivo de dibujo | No |
 | 2 | Etiquetas | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asignar-etiquetas-archivo-dibujo.md) |

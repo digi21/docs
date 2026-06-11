@@ -8,10 +8,6 @@ Prohíbe que se ejecute la orden especificada por parámetros.
 | :--- | :--- | :--- |
 | 1 | Orden u órdenes a prohibir (una o más) | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](prohibe-orden.md) |

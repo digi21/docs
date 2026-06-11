@@ -6,10 +6,6 @@ Genera un plano definido por tres puntos y proyecta los puntos, líneas o textos
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](proyecta-3p.md) |

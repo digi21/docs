@@ -8,10 +8,6 @@ Agrupa todas las entidades duplicadas en una única entidad por código.
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](agrupar-entidades-duplicadas.md) |

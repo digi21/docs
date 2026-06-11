@@ -6,10 +6,6 @@ Especifica las entidades de interés en la que se centrarán las órdenes que re
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](entidades-de-interes.md) |

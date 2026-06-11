@@ -9,10 +9,6 @@ Asigna un nuevo valor a un campo en la BBDD para una entidad.
 | 1 | Nombre del campo origen | No |
 | 2 | Nombre del campo destino | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](copia-atributo-bbdd-entidad-en-entidad.md) |

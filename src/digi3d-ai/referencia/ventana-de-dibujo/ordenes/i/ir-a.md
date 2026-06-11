@@ -6,10 +6,6 @@ Lleva el índice del restituidor Digi3D al punto donde esté el cursor o al punt
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ir-a.md) |

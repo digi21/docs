@@ -30,10 +30,6 @@ Activa o desactiva la visualización de elementos desconocidos.
   </tbody>
 </table>
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Variable booleana](ver-desconocido.md) |

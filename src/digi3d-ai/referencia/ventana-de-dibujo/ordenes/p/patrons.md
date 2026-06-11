@@ -8,10 +8,6 @@ Activa/desactiva la visualización de los patrones de línea en la pantalla de v
 | :--- | :--- | :--- |
 | 1 | 0 desactiva / 1 activa (? para consultar) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](patrons.md) |

@@ -6,10 +6,6 @@ Añade un código a la lista de códigos activos.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cod-mas.md) |

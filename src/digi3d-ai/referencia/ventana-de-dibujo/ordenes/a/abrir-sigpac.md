@@ -6,10 +6,6 @@ Abre una ventana de Sig Pac en las coordenadas donde está el cursor en la venta
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](abrir-sigpac.md) |

@@ -11,10 +11,6 @@ Cambia el código de los tramos de líneas que estén dentro de polígonos de un
 | 3 | Códigos origen | No |
 | 4 | Código destino | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](cambia-codigo-lineas-dentro-poligonos-topologia.md) |

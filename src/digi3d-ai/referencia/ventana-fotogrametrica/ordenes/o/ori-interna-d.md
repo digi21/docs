@@ -6,10 +6,6 @@ Realiza la **Orientación Interna** de la imagen derecha del par estereoscópico
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

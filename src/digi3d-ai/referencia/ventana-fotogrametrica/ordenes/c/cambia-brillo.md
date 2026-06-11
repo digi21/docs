@@ -21,10 +21,6 @@ Para aclarar u oscurecer una de las imágenes se le pasarán dos parámetros,el 
 | CAMBIA\_BRILLO=1 2 | Aclara la imagen derecha |
 | CAMBIA\_BRILLO=-1 2 | Oscurece la imagen derecha |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |
@@ -34,6 +30,4 @@ No se han registrado observaciones para esta orden.
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
-
-
 

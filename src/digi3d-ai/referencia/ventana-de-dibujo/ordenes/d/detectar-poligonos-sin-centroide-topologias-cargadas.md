@@ -6,10 +6,6 @@ Marca como error aquellos polígonos que se formen al formar una topología con 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-poligonos-sin-centroide-topologias-cargadas.md) |

@@ -7,10 +7,6 @@ Esta orden añade vértices a la orden que se esté ejecutando. Estos vértices 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](xylinea.md) |

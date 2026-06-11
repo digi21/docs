@@ -6,10 +6,6 @@ Cambia valores en la BBDD asociada con el archivo de dibujo.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](cambiar-valores-bbdd.md) |

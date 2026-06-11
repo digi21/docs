@@ -6,10 +6,6 @@ Lleva al usuario a las coordenadas de cada una de las tareas que se están mostr
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](tarea-mas.md) |

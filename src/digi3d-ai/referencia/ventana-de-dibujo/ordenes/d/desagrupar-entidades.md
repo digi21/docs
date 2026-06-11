@@ -6,10 +6,6 @@ Desagrupa las entidades que tengan más de un código en múltiples entidades co
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](desagrupar-entidades.md) |

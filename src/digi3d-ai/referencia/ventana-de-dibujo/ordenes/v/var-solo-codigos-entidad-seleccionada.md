@@ -6,10 +6,6 @@ Deja activos en pantalla solamente los códigos de la entidad seleccionada, apag
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](var-solo-codigos-entidad-seleccionada.md) |

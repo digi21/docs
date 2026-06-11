@@ -24,10 +24,6 @@ Genera una nube de puntos automáticamente por correlación.
 | 16 | Tamaño de muestra en X | Si |
 | 17 | Tamaño de muestra en Y | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mdtpc.md) |
