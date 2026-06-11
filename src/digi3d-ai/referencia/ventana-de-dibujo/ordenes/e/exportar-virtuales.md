@@ -113,10 +113,6 @@ Los parámetros de exportación dependerán del tipo de archivo que se desea exp
   </tbody>
 </table>
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](exportar-virtuales.md) |

@@ -6,10 +6,6 @@ Solicita que se seleccione un plano y a continuación solicita que se seleccione
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext-plano.md) |

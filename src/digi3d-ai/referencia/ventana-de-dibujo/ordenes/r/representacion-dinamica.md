@@ -8,10 +8,6 @@ Asigna como representación dinámica la pasada por parámetros.
 | :--- | :--- | :--- |
 | 1 | Nombre de la representación dinámica | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](representacion-dinamica.md) |

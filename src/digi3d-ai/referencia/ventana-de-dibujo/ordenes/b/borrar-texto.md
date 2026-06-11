@@ -8,10 +8,6 @@ Borra todos los textos cuyo "texto" coincida con alguno de los parámetros (admi
 | :--- | :--- | :--- |
 | 1 | Código o códigos de los textos a borrar (uno o más) | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](borrar-texto.md) |

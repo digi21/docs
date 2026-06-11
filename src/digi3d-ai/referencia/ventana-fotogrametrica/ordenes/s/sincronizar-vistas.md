@@ -7,10 +7,6 @@ al ejecutar la orden **SINCRONIZAR\_VISTAS** se sincronizarán las coordenadas d
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

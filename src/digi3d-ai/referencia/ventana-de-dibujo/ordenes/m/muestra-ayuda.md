@@ -8,10 +8,6 @@ Muestra un documento HTML en el panel de ayuda del programa.
 | :--- | :--- | :--- |
 | 1 | Documento de ayuda a mostrar | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](muestra-ayuda.md) |

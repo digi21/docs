@@ -6,10 +6,6 @@ Modifica la posición de un vértice en una entidad lineal.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](modifica-vertice.md) |

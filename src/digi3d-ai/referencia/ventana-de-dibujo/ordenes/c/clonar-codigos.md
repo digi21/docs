@@ -6,10 +6,6 @@ Sustituye los códigos de la lista de códigos activos por los de una entidad se
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden Interactiva](clonar-codigos.md) |

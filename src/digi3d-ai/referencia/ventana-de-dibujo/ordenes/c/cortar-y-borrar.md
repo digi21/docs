@@ -6,10 +6,6 @@ Corta o descompone un elemento en otros dos y luego elimina uno de los dos eleme
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cortar-y-borrar.md) |

@@ -6,10 +6,6 @@ Mide el segmento seleccionado en la línea seleccionada.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mide-segmento-xyz.md) |

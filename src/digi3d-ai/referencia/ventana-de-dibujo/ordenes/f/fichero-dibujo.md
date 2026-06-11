@@ -6,10 +6,6 @@ Especifica al sistema el fichero de dibujo con el cual se va a trabajar, entre l
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](fichero-dibujo.md) |

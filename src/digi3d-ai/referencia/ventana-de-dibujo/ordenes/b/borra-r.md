@@ -6,10 +6,6 @@ Borra códigos por recinto topológico.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](borra-r.md) |

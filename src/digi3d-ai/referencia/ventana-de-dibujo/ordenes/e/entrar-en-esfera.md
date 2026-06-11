@@ -6,10 +6,6 @@ Entra en una esfera seleccionando un punto en pantalla.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](entrar-en-esfera.md) |

@@ -6,10 +6,6 @@ Añade los códigos activos a las líneas que forman el borde de los polígonos 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](anadir-codigos-bordes-poligonos-topologia.md) |

@@ -10,10 +10,6 @@ Detecta errores de continuidad en líneas que finalizan en el límite de dos mod
 | 2 | Indicador (0/1) | Si |
 | 3 | Código o códigos (uno o más) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-errores-continuidad-lineas-cases.md) |

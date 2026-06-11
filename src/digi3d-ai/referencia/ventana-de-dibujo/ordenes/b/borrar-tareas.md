@@ -6,10 +6,6 @@ Borra las tareas que se muestran en ese momento en la ventana de tareas.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](borrar-tareas.md) |

@@ -6,10 +6,6 @@ Abre una ventana de Google Maps en las coordenadas donde está el cursor en la v
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](abrir-google-maps.md) |

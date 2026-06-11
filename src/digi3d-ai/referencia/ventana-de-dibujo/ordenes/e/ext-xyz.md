@@ -6,10 +6,6 @@ Estira una entidad contra un límite haciendo que la coordenada Z del extremo ex
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext-xyz.md) |

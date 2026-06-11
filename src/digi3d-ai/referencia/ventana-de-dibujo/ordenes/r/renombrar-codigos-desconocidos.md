@@ -6,10 +6,6 @@ Permite renombrar los códigos desconocidos localizados en el archivo de dibujo.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](renombrar-codigos-desconocidos.md) |

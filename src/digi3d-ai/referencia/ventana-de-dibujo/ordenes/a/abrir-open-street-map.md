@@ -6,10 +6,6 @@ Abre una ventana de Open Street Map en las coordenadas donde está el cursor en 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](abrir-open-street-map.md) |

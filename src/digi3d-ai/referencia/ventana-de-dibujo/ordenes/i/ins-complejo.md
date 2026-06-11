@@ -6,10 +6,6 @@ Inserta un bloque elemento complejo de DGN como un elemento puntual.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ins-complejo.md) |

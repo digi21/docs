@@ -6,10 +6,6 @@ Cambia la posición planimétrica de un elemento.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mover.md) |

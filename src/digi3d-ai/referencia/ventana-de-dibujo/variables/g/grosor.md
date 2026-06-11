@@ -18,10 +18,6 @@ Asigna como grosor para las entidades el valor 2
 
 Muestra el valor actual del grosor de las entidades
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Variable real](grosor.md) |

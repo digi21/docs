@@ -10,10 +10,6 @@ Inserta un texto en el dibujo en la dirección indicada por el usuario.
 | 2 | Altura de texto \([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) | Número real | Si |
 | 3 | Justificación de texto \([JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](texto-r.md) |

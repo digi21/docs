@@ -6,10 +6,6 @@ Realiza la **Orientación Externa** de una imagen con Digi3D.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

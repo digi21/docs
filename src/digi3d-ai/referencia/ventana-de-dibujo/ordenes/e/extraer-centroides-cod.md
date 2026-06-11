@@ -6,10 +6,6 @@ Genera un centroide dentro de los polígonos o líneas cerradas que tengan algun
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](extraer-centroides-cod.md) |

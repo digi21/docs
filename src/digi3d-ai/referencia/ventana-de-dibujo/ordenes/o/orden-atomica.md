@@ -6,10 +6,6 @@ Ejecuta las órdenes pasadas por parámetros como órdenes atómicas.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](orden-atomica.md) |

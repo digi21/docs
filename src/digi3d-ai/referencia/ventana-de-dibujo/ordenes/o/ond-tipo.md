@@ -8,10 +8,6 @@ Activa códigos en la pantalla fotogramétrica y la de dibujo.
 | :--- | :--- | :--- |
 | 1 | Pares de código y tipo de geometría (uno o más) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ond-tipo.md) |

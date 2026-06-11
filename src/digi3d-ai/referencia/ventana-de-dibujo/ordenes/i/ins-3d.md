@@ -8,10 +8,6 @@ Inserta un bloque en 3D, el primero para la posición, el segundo para la orient
 | :--- | :--- | :--- |
 | 1 | Ruta del archivo (bloque 3D) | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ins-3d.md) |

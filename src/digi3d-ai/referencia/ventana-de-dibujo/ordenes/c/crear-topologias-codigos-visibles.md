@@ -8,10 +8,6 @@ Crea topologías con los códigos visibles en la ventana de dibujo.
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](crear-topologias-codigos-visibles.md) |

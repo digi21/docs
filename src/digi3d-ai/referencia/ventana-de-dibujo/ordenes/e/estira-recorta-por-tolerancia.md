@@ -8,10 +8,6 @@ Estira o recorta extremos de líneas visibles para que toquen a otras.
 | :--- | :--- | :--- |
 | 1 | Tolerancia | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](estira-recorta-por-tolerancia.md) |

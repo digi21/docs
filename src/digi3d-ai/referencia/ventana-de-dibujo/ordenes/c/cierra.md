@@ -6,10 +6,6 @@ Cierra una entidad ya existente en el fichero de dibujo.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cierra.md) |

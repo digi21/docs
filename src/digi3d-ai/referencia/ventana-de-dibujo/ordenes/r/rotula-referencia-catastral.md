@@ -6,10 +6,6 @@ Consulta al servido Web Service de Catastro de España por la referencia catastr
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](rotula-referencia-catastral.md) |

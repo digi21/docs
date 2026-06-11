@@ -9,10 +9,6 @@ Dibuja una circunferencia mediante el centro y un punto de la misma.
 | 1 | Centro de la circunferencia | Coordenadas XYZ | Si |
 | 2 | Punto en el espacio de trabajo | Radio de la circunferencia | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cir2p.md) |

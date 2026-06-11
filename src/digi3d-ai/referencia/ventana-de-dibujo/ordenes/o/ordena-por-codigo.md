@@ -6,10 +6,6 @@ Ordena por código las entidades de un fichero, agrupando en el fichero las enti
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ordena-por-codigo.md) |

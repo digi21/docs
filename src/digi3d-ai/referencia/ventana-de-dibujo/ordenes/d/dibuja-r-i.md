@@ -6,10 +6,6 @@ Dibuja recintos topológicos por inundación.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](dibuja-r-i.md) |

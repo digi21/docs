@@ -6,10 +6,6 @@ Realiza una paralela dinámica en el plano que tenga la ventana de dibujo.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](paralela-dinamica-plano-dibujo.md) |

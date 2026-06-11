@@ -6,10 +6,6 @@ Dibuja una paralela con los parámetros especificados en la variable Distancia A
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](paralela-da.md) |

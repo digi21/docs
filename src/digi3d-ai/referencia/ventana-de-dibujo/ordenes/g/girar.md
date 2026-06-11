@@ -2,10 +2,6 @@
 
 Gira la ventana de visualización.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Parámetros
 
 No admite parámetros.

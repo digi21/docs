@@ -6,10 +6,6 @@ Añade los códigos de la lista de códigos activos a una entidad seleccionada.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](anadir-codigos.md) |

@@ -11,10 +11,6 @@ Efectúa el cálculo para generar ortofotografías.
 | 3 | Código | No |
 | 4 | Almacenar transparencia (0/1) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cal-orto.md) |

@@ -9,10 +9,6 @@ Analiza polígonos creados mediante topologías 3D y elimina muros que superen u
 | 1 | Código | No |
 | 2 | Distancia en Z | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-muros-poligonos-3d.md) |

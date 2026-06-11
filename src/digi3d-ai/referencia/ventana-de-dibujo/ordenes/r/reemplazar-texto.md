@@ -10,10 +10,6 @@ Reemplazar un texto por otro.
 | 2 | Texto a buscar | No |
 | 3 | Texto de reemplazo | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](reemplazar-texto.md) |

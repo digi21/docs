@@ -9,10 +9,6 @@ Mueve el segmento seleccionado para ajustar el área de la línea cerrada selecc
 | 1 | Número máximo de iteraciones (por defecto 100) | Si |
 | 2 | Sigma | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ajusta-area.md) |

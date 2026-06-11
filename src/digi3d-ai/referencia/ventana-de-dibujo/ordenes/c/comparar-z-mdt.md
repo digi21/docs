@@ -8,10 +8,6 @@ Compara las coordenadas Z de los vértices de las geometrías con los códigos p
 | :--- | :--- | :--- |
 | 1 | Código o códigos a comparar (uno o más, separados por espacios) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](comparar-z-mdt.md) |

@@ -6,10 +6,6 @@ Añade los códigos de una entidad seleccionada a la lista de códigos activa.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden Interactiva](clonar-codigos-mas.md) |

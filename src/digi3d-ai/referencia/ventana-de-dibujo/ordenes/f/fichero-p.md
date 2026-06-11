@@ -6,10 +6,6 @@ Establece o cambia el fichero de puntos que utiliza DigiNG sin necesidad de aban
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](fichero-p.md) |

@@ -8,10 +8,6 @@ Asigna atributos por recinto calculando topologías en tiempo real.
 | :--- | :--- | :--- |
 | 1 | Ordenar de forma inversa (0/1) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](poner-atr-r.md) |

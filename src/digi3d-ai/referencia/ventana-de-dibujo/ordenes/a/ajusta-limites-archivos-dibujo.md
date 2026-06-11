@@ -9,10 +9,6 @@ Agrupa e inserta por tolerancia vértices en las líneas de case entre límites 
 | 1 | Archivo de dibujo | No |
 | 2 | Margen | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ajusta-limites-archivos-dibujo.md) |

@@ -73,10 +73,6 @@ Los parámetros del importador para archivos .bin son \[precisión\]\[origen glo
 
 `recorta_traza="c:\trabajo\x" bin "2 0.0 0.0 0.0" 1000 HOJA HOJA 10 100 1 HOJA 7.5 2`
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](recorta-traza.md) |

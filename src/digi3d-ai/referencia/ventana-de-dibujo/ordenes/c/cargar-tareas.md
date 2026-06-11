@@ -6,10 +6,6 @@ Carga un fichero de tareas previamente generado con la orden [GUARDAR\_TAREAS](/
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](cargar-tareas.md) |

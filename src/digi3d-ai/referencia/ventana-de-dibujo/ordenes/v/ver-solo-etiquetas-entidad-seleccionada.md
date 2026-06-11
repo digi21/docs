@@ -6,10 +6,6 @@ Activa únicamente los códigos que pertenezcan a las distintas etiquetas a las 
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ver-solo-etiquetas-entidad-seleccionada.md) |

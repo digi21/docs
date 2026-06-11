@@ -8,10 +8,6 @@ Une las lineas en pantalla siempre que al nodo no lleguen más de dos entidades 
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-lineas-tabla.md) |

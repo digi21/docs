@@ -9,10 +9,6 @@ Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de
 | 1 | Tolerancia | No |
 | 2 | Código o códigos (uno o más) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asignar-z-maxima-vertices-nodo-tol.md) |

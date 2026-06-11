@@ -10,10 +10,6 @@ Asigna parámetros de la cámara cónica.
 | 2 | Distancia cercana | No |
 | 3 | Distancia lejana | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](parametros-camara-conica.md) |

@@ -9,10 +9,6 @@ Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia 
 | 1 | Código | No |
 | 2 | Nombre del campo | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](asignar-distancia-atributo.md) |

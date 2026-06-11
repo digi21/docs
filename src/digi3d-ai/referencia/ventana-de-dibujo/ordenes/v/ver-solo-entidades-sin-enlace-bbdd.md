@@ -6,10 +6,6 @@ Visualizar únicamente las entidades sin enlace a base de datos.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ver-solo-entidades-sin-enlace-bbdd.md) |

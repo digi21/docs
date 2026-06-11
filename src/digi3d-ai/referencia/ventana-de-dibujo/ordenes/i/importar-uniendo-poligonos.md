@@ -8,10 +8,6 @@ Importa un archivo de referencia pero une los polígonos que sean colindantes co
 | :--- | :--- | :--- |
 | 1 | Nombre del archivo a importar | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](importar-uniendo-poligonos.md) |

@@ -8,10 +8,6 @@ Rota un símbolo puntual previamente insertado en el archivo de dibujo.
 | :--- | :--- | :--- | :--- |
 | 1 | Ángulo de giro | Número real | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](r-punto.md) |

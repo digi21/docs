@@ -6,10 +6,6 @@ Rehace la última operación deshecha con la orden [UNDO](/digi3d-ai/referencia/
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](redo.md) |

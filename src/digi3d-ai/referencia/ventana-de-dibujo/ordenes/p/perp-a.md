@@ -13,10 +13,6 @@ El programa asigna a la línea perpendicular las siguientes cotas:
 * En el extremo correspondiente al punto desde el que se traza la perpendicular, se asigna la cota de dicho punto.
 * En el otro extremo se asigna la cota correspondiente a la entidad hacia la que se traza la perpendicular.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](perp-a.md) |

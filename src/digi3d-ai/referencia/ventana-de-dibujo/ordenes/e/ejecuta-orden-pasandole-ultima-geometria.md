@@ -8,10 +8,6 @@ Esta orden permite incluir en macroinstrucciones y órdenes en pulsaciones de te
 | :--- | :--- | :--- |
 | 1 | Orden a ejecutar | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ejecuta-orden-pasandole-ultima-geometria.md) |

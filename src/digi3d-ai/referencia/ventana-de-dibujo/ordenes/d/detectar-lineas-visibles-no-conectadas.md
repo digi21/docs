@@ -6,10 +6,6 @@ Crea una tarea de error por cada extremo de línea visible que no esté conectad
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-lineas-visibles-no-conectadas.md) |

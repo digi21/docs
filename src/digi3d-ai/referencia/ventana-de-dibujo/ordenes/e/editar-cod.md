@@ -6,10 +6,6 @@ Edita los códigos de la entidad seleccionada.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](editar-cod.md)                                                                                                                              |

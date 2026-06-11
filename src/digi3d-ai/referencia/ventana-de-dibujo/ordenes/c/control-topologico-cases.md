@@ -9,10 +9,6 @@ Detecta polígonos vecinos con centroides distintos entre archivos de dibujo.
 | 1 | Nombre de la topología | No |
 | 2 | Analizar entre topologías que no sean archivo de dibujo (0/1) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](control-topologico-cases.md) |

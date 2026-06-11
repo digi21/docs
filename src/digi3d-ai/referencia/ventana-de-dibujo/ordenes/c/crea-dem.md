@@ -6,10 +6,6 @@ Genera una nueva triangulación a partir de cartografía existente dentro del l�
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](crea-dem.md) |

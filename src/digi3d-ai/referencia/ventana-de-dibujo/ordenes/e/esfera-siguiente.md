@@ -8,10 +8,6 @@ Entra en la siguiente esfera.
 | :--- | :--- | :--- |
 | 1 | Incremento | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](esfera-siguiente.md) |

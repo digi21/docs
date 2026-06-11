@@ -6,10 +6,6 @@ Asigna cota a las curvas de nivel de manera global.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva]() |

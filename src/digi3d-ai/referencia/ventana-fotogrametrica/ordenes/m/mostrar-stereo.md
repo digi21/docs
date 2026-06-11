@@ -11,10 +11,6 @@ Activar/desactiva tanto la imagen raster cómo la superposición.
 | 1 | Muestra sólo la imagen raster |
 | 2 | Muestra todo |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

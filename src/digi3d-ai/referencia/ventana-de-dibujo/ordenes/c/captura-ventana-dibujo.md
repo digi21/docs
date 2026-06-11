@@ -8,10 +8,6 @@ Crea un archivo .PNG con el contenido de la ventana de dibujo.
 | :--- | :--- | :--- |
 | 1 | Nombre del archivo PNG de salida | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](captura-ventana-dibujo.md) |

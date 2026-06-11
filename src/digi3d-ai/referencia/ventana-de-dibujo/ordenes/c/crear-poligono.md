@@ -6,10 +6,6 @@ Permite la creación de polígonos.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](crear-poligono.md) |

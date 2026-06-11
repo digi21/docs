@@ -8,10 +8,6 @@ Asigna como atributos activos los atributos de BBDD de la tabla de códigos para
 | :--- | :--- | :--- |
 | 1 | Código | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](resetea-atributos-bbdd.md) |

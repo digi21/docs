@@ -8,10 +8,6 @@ Traslada todos los puntos en un entorno, que será determinado por el tamaño de
 | :--- | :--- | :--- | :--- |
 | 1 | Tamaño del cursor | Número real | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](juntar.md) |

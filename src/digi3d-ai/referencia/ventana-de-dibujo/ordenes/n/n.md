@@ -13,10 +13,6 @@ Cada línea del fichero contiene los datos de un punto, separados entre sí por 
 | Tercer dato | Coordenada Y | Número real | No |
 | Cuarto dato | Coordenada Z | Número real | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](n.md) |

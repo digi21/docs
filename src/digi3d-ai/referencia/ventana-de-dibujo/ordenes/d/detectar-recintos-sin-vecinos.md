@@ -6,10 +6,6 @@ Analiza los recintos topológicos de todas las topologías cargadas y muestra co
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-recintos-sin-vecinos.md) |

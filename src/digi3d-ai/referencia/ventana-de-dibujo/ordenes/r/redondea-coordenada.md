@@ -9,10 +9,6 @@ Pasamos un valor de coordenada y un sigma, como por ejemplo 20 1e-5 y redondes
 | 1 | Valor | No |
 | 2 | Sigma (tolerancia) | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](redondea-coordenada.md) |

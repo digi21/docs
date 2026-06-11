@@ -6,10 +6,6 @@ Crea elementos complejos a partir de varias cadenas de líneas.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](crear-complejo.md) |

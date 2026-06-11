@@ -6,10 +6,6 @@ Descarga la topologia para inundación cargada en memoria
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](descargar-topologia-inundacion.md) |

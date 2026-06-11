@@ -6,10 +6,6 @@ Desactiva una zona de trabajo, establecida como límite por la orden LIMITE\_1.
 
 No admite parámetros
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](limite-0.md) |

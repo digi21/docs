@@ -6,10 +6,6 @@ Selecciona en los paneles editores de bases de datos la geometría que se corres
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](selecciona-geometria-panel-bbdd.md) |

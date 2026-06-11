@@ -9,10 +9,6 @@ Inserta un vértice en la intersección de líneas con puntos
 | 1 | Tolerancia | No |
 | 2 | Código o códigos (uno o más) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](insertar-vertice-interseccion-linea-punto.md) |

@@ -8,10 +8,6 @@ Carga una disposición previamente guardada de ventanas y visualización en Digi
 | :--- | :--- | :--- |
 | 1 | Nombre del archivo de disposición | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](carga-disposicion.md) |

@@ -6,10 +6,6 @@ Mide la perpendicular a un segmento seleccionado.
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mide-perp.md) |

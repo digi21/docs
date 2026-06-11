@@ -8,10 +8,6 @@ Marca como error aquellos polígonos que son vecinos y que tienen el mismo centr
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-poligonos-vecinos-mismo-centroide.md) |

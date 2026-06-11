@@ -8,10 +8,6 @@ Detecta líneas y polígonos de dos archivos de dibujo distintos que tienen el m
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-errores-atributos-bbdd-cases.md) |

@@ -12,10 +12,6 @@ Lee la información de un fichero ASCII que contiene coordenadas y textos, incor
 | Cuarto dato | Representa la coordenada Z | Número real | Si |
 | Quinto dato | Contiene un texto referenta al punto. Si el texto contiene espacios en blanco debe escribirse entre comillas \(" "\) | Texto | No |
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](carga-t.md) |

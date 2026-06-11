@@ -6,10 +6,6 @@ Actúa igual que la orden TEXTO pero si se le pasan parámetros, no oculta el co
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](texto-editable.md) |

@@ -67,10 +67,6 @@ Crea un archivo de dibujo con un marco de hoja a una determinada escala, con mar
   </tbody>
 </table>
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](hoja.md) |

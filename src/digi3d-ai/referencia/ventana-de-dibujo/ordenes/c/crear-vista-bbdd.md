@@ -6,10 +6,6 @@ Crea un archivo de dibujo virtual que muestra campos de base de datos de un arch
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](crear-vista-bbdd.md) |

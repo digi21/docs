@@ -6,10 +6,6 @@ Muestra las imágenes que se visualizan en la pantalla estereoscópica con un fa
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden |  |

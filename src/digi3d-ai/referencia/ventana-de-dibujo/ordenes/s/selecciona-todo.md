@@ -6,10 +6,6 @@ Selecciona todas las entidades del archivo de dibujo cuando estamos ejecutando �
 
 No admite parámetros.
 
-## Observaciones
-
-No se han registrado observaciones para esta orden.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](selecciona-todo.md) |
