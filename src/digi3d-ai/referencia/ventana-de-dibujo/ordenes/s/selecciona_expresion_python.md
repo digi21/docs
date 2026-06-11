@@ -4,28 +4,9 @@ Envía a la orden activa todas las geometrías que cumplan con la[ expresión Py
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">N&#xFA;mero de par&#xE1;metro</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-      <th style="text-align:left">Valores</th>
-      <th style="text-align:left">Opcional</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">Expresi&#xF3;n Python a ejecutar</td>
-      <td style="text-align:left">Expresi&#xF3;n Python</td>
-      <td style="text-align:left">
-        <p>Si.</p>
-        <p>Si no se pasa este par&#xE1;metro el programa mostrar&#xE1; un cuadro
-          de di&#xE1;logo para introducir la expresi&#xF3;n Python.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Expresión Python a ejecutar | Expresión Python | Si.; Si no se pasa este parámetro el programa mostrará un cuadro de diálogo para introducir la expresión Python. |
 
 ## Observaciones
 

@@ -16,5 +16,8 @@ Rotula entidades puntuales con un texto cuyo texto es la descripción del códig
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo  
+[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos  
+[DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa  
+[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
 | Nombre interno | {D0F1F901-2E44-4DAE-8A5F-4730713E4C1B} |

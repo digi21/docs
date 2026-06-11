@@ -4,64 +4,15 @@ Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-ai/referencia/venta
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">N&#xFA;mero de par&#xE1;metro</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-      <th style="text-align:left">Valores</th>
-      <th style="text-align:left">Opcional</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">Directorio de salida</td>
-      <td style="text-align:left">Indica el directorio en el cual se guardar&#xE1; el resultado</td>
-      <td
-      style="text-align:left">Si</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">Extensi&#xF3;n de los archivos a generar</td>
-      <td style="text-align:left">Tipo de formato de archivo a generar, BIK, BIN, DGN, DWG o DXF</td>
-      <td
-      style="text-align:left">Si</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left">Propiedades del motor de importaci&#xF3;n/exportaci&#xF3;n</td>
-      <td style="text-align:left">
-        <p>Precisi&#xF3;n: de las coordenadas en el modelo</p>
-        <p>Origen global , Y y Z</p>
-        <p>Tipo de bloqueo: No bloquear, Denegar lectura, Denegar escritura, Denegar
-          lectura y escritura</p>
-      </td>
-      <td style="text-align:left">Si</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">Propiedades generales</td>
-      <td style="text-align:left">
-        <p>Escala: escala de creaci&#xF3;n de la hoja</p>
-        <p>C&#xF3;digo del marco</p>
-      </td>
-      <td style="text-align:left">Si</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5</td>
-      <td style="text-align:left">Propiedades de las cruces</td>
-      <td style="text-align:left">
-        <p>C&#xF3;digo cruces</p>
-        <p>Altura cruces</p>
-        <p>Separaci&#xF3;n de cruces</p>
-        <p>Medias cruces: Indica si insertar medias cruces en el l&#xED;mite de la
-          hoja</p>
-      </td>
-      <td style="text-align:left">Si</td>
-    </tr>
-  </tbody>
-</table>
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Directorio de salida | Indica el directorio en el cual se guardará el resultado | Si |
+| 2 | Extensión de los archivos a generar | Tipo de formato de archivo a generar, BIK, BIN, DGN, DWG o DXF | Si |
+| 3 | Propiedades del motor de importación/exportación | Precisión: de las coordenadas en el modelo; Origen global , Y y Z; Tipo de bloqueo: No bloquear, Denegar lectura, Denegar escritura, Denegar lectura y escritura | Si |
+| 4 | Propiedades generales | Escala: escala de creación de la hoja; Código del marco | Si |
+| 5 | Propiedades de las cruces | Código cruces; Altura cruces; Separación de cruces; Medias cruces: Indica si insertar medias cruces en el límite de la hoja | Si |
+
 
 Puedes ejecutar la orden desde la línea de comandos utilizando el siguiente formato:
 

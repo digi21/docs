@@ -4,67 +4,17 @@ Realiza transformaciones en el archivo de dibujo.
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Transformaci&#xF3;n</th>
-      <th style="text-align:left">Datos de entrada</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Transformaci&#xF3;n de Helmert</td>
-      <td style="text-align:left">Fichero ASCII con coordenadas Xi Yi XI YI de la menos dos puntos</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Transformaci&#xF3;n Af&#xED;n</td>
-      <td style="text-align:left">Fichero ASCII con coordenadas Xi Yi XI YI de la menos cuatro puntos</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Transformaci&#xF3;n 3D</td>
-      <td style="text-align:left">Fichero ASCII con coordenadas Xi Yi Zi XI YI ZI de al menos tres puntos</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Traslaci&#xF3;n</td>
-      <td style="text-align:left">Fichero ASCII con coordenadas Xi Yi Zi XI YI ZI de un solo punto</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Cambio de Huso</td>
-      <td style="text-align:left">Elipsoide (por defecto aparece el Internacional Hayford), hemisferio,
-        huso de entrada y huso de salida</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Escala de dibujo</td>
-      <td style="text-align:left">Factor de escala en X, factor de escala en Y, desplazamiento del origen
-        y si se desea que la altura de textos tambi&#xE9;n sea escalada</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Tensor 3x3</td>
-      <td style="text-align:left">
-        <p>Fichero ASCII con matriz de tres por tres:</p>
-        <p>a00 a01 a02</p>
-        <p>a10 a11 a12</p>
-        <p>a20 a21 a22</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Tensor 4x4</td>
-      <td style="text-align:left">
-        <p>Fichero ASCII con matriz de cuatro por cuatro:</p>
-        <p>a00 a01 a02 a03</p>
-        <p>a10 a11 a12 a13</p>
-        <p>a20 a21 a22 a23</p>
-        <p>a30 a31 a32 a33</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Transformaci&#xF3;n con archivo de rejilla en formato NTV2</td>
-      <td style="text-align:left">Archivo de par&#xE1;metros, hemisferio, huso para la transformaci&#xF3;n,
-        sentido (de UTM - ED50 a UTM - ETRS89) y archivo de salida (la ruta y el
-        nombre del archivo que generar&#xE1; la operaci&#xF3;n)</td>
-    </tr>
-  </tbody>
-</table>
+| Transformación | Datos de entrada |
+| :--- | :--- |
+| Transformación de Helmert | Fichero ASCII con coordenadas Xi Yi XI YI de la menos dos puntos |
+| Transformación Afín | Fichero ASCII con coordenadas Xi Yi XI YI de la menos cuatro puntos |
+| Transformación 3D | Fichero ASCII con coordenadas Xi Yi Zi XI YI ZI de al menos tres puntos |
+| Traslación | Fichero ASCII con coordenadas Xi Yi Zi XI YI ZI de un solo punto |
+| Cambio de Huso | Elipsoide (por defecto aparece el Internacional Hayford), hemisferio, huso de entrada y huso de salida |
+| Escala de dibujo | Factor de escala en X, factor de escala en Y, desplazamiento del origen y si se desea que la altura de textos también sea escalada |
+| Tensor 3x3 | Fichero ASCII con matriz de tres por tres:; a00 a01 a02; a10 a11 a12; a20 a21 a22 |
+| Tensor 4x4 | Fichero ASCII con matriz de cuatro por cuatro:; a00 a01 a02 a03; a10 a11 a12 a13; a20 a21 a22 a23; a30 a31 a32 a33 |
+| Transformación con archivo de rejilla en formato NTV2 | Archivo de parámetros, hemisferio, huso para la transformación, sentido (de UTM - ED50 a UTM - ETRS89) y archivo de salida (la ruta y el nombre del archivo que generará la operación) |
 
 Transformación con archivo de rejilla en formato NTV2: Transforma un archivo utilizando archivos de rejilla de mínima curvatura en formato NTV2 \(Canadian National Transformation Versión2\). Dispones de un archivo de ejemplo en el directorio C:\Archivos de Programa\Digi21.net\Digi3D\sped2et.gsb
 

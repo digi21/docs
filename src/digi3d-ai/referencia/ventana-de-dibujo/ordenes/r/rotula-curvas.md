@@ -24,6 +24,8 @@ Esta orden no rotulará entidades que están desactivadas con la orden [OFF](/di
 | Opción del menú donde aparece la orden | Dibujar/Rotular curvas de nivel... |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos  
+[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto  
+[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {B2B07A8C-8AF6-481b-BD30-324B6A4A7919} |
 

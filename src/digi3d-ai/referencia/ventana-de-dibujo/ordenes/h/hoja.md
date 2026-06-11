@@ -4,68 +4,14 @@ Crea un archivo de dibujo con un marco de hoja a una determinada escala, con mar
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">N&#xFA;mero de par&#xE1;metro</th>
-      <th style="text-align:left">Par&#xE1;metro</th>
-      <th style="text-align:left">Par&#xE1;metros</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">Coordenadas de las esquinas de la hoja</td>
-      <td style="text-align:left">Mediante un gr&#xE1;fico, los campos correspondientes a las coordenadas
-        X e Y se pueden rellenar.</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">Propiedades generales</td>
-      <td style="text-align:left">
-        <p>Escala</p>
-        <p>C&#xF3;digo del marco</p>
-      </td>
-      <td style="text-align:left">
-        <p>Escala a la que se va a crear la hoja</p>
-        <p>C&#xF3;digo con el que se generar&#xE1; la l&#xED;nea de marco de hoja</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left">Propiedades de las cruces</td>
-      <td style="text-align:left">
-        <p>C&#xF3;digo cruces</p>
-        <p>Altura de cruces</p>
-        <p>Separaci&#xF3;n cruces</p>
-        <p>Medias cruces</p>
-      </td>
-      <td style="text-align:left">
-        <p>C&#xF3;digo con el que se generar&#xE1;n las cruces de la hoja</p>
-        <p>Tama&#xF1;o, en mm de impresi&#xF3;n, de las cruces que se generar&#xE1;n
-          en el interior de la hoja</p>
-        <p>Separaci&#xF3;n, en mm de impresi&#xF3;n, entre cruces</p>
-        <p>Indica si insertar medias cruces en el l&#xED;mite de la hoja</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">Propiedades de las coordenadas</td>
-      <td style="text-align:left">
-        <p>C&#xF3;digo coordenadas</p>
-        <p>Altura de coordenadas</p>
-        <p>N&#xBA; decimales</p>
-      </td>
-      <td style="text-align:left">
-        <p>C&#xF3;digo con el que se generar&#xE1;n las coordenadas de la hoja</p>
-        <p>Altura, en mm de impresi&#xF3;n, de los textos de coordenadas</p>
-        <p>N&#xFA;mero de decimales de los textos de las coordenadas</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+| Número de parámetro | Parámetro | Parámetros | Descripción |
+| :--- | :--- | :--- | :--- |
+| 1 | Coordenadas de las esquinas de la hoja | Mediante un gráfico, los campos correspondientes a las coordenadas X e Y se pueden rellenar. |  |
+| 2 | Propiedades generales | Escala; Código del marco | Escala a la que se va a crear la hoja; Código con el que se generará la línea de marco de hoja |
+| 3 | Propiedades de las cruces | Código cruces; Altura de cruces; Separación cruces; Medias cruces | Código con el que se generarán las cruces de la hoja; Tamaño, en mm de impresión, de las cruces que se generarán en el interior de la hoja; Separación, en mm de impresión, entre cruces; Indica si insertar medias cruces en el límite de la hoja |
+| 4 | Propiedades de las coordenadas | Código coordenadas; Altura de coordenadas; Nº decimales | Código con el que se generarán las coordenadas de la hoja; Altura, en mm de impresión, de los textos de coordenadas; Número de decimales de los textos de las coordenadas |
+
 
 ## Características de la orden
 

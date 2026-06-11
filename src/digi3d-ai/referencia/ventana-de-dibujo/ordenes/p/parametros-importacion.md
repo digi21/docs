@@ -6,79 +6,13 @@ Especifica los parámetros que se enviarán al importador/exportador correspondi
 
 Los parámetros de exportación dependerán del tipo de archivo.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Archivo</th>
-      <th style="text-align:left">Par&#xE1;metro</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">BIN</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Precisi&#xF3;n</li>
-          <li>Coordenadas del origen global</li>
-          <li>Bloqueo de fichero</li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <p>La precisi&#xF3;n ser&#xE1;:</p>
-        <p>0= micras</p>
-        <p>1= mil&#xED;metros</p>
-        <p>2= cent&#xED;metros</p>
-        <p>3= dec&#xED;metros</p>
-        <p>4= metros</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">DGN v8</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Salto de entidades</li>
-          <li>Criterio para c&#xF3;digos</li>
-          <li>Importar paleta</li>
-          <li>Colores de las entidades</li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li>Carga un archivo DGN v8 de gran tama&#xF1;o sin cosumo de memoria</li>
-          <li>
-            <p>0 - Nivel 1 - Nivel, color, grosor, estilo, c&#xE9;lula</p>
-            <p>2 - Grupo gr&#xE1;fico</p>
-          </li>
-          <li>
-            <p>0 - No</p>
-            <p>1 - Si</p>
-          </li>
-          <li>
-            <p>0 - Utiliza colores del archivo DGN</p>
-            <p>1 - Utiliza colores de la tabla de c&#xF3;digos activa</p>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">DWG &#xF3; DXF de AutoCAD</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Versi&#xF3;n de AutoCAD</li>
-          <li>Importar bloques</li>
-          <li>Ruta de importaci&#xF3;n</li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li>Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14,
-            200, 2004 o AutoCAD 2007)</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+| Archivo | Parámetro | Descripción |
+| :--- | :--- | :--- |
+| BIN | Precisión; Coordenadas del origen global; Bloqueo de fichero | La precisión será:; 0= micras; 1= milímetros; 2= centímetros; 3= decímetros; 4= metros |
+| DGN v8 | Salto de entidades; Criterio para códigos; Importar paleta; Colores de las entidades | Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria; 0 - Nivel 1 - Nivel, color, grosor, estilo, célula; 2 - Grupo gráfico; 0 - No; 1 - Si; 0 - Utiliza colores del archivo DGN; 1 - Utiliza colores de la tabla de códigos activa |
+| DWG ó DXF de AutoCAD | Versión de AutoCAD; Importar bloques; Ruta de importación | Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
+
 
 ## Observaciones
 

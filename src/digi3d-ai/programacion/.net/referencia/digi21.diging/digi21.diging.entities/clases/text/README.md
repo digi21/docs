@@ -32,46 +32,12 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-2-d">Offset(Point2D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Text</a> en el plano X, Y.</p>
-        <p>(Heredado de <a href="../../../digi21.math/interfaces/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-3-d">Offset(Point3D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Text</a> en el espacio.</p>
-        <p>(Heredado de <a href="../../../digi21.math/interfaces/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double">Offset(double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Text</a> en el plano X, Y.</p>
-        <p>(Heredado de <a href="../../../digi21.math/interfaces/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double-double">Offset(double, double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="./">Text</a> en el espacio.</p>
-        <p>(Heredado de <a href="../../../digi21.math/interfaces/idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [Offset(Point2D)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza el [Text](./) en el plano X, Y.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
+| [Offset(Point3D)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza el [Text](./) en el espacio.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
+| [Offset(double, double)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double) | Desplaza el [Text](./) en el plano X, Y.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
+| [Offset(double, double, double)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double-double) | Desplaza el [Text](./) en el espacio.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
+
 

@@ -12,51 +12,14 @@ No puedes abrir dos archivos de dibujo simultáneamente.
 
 ## Características de la orden
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href="nuevo-proyecto.md">Orden interactiva</a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Repite autom&#xE1;ticamente</td>
-      <td style="text-align:left">No</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Opci&#xF3;n del men&#xFA; donde aparece la orden</td>
-      <td style="text-align:left">
-        <p>Archivo/Nuevo/Abrir modelo fotogram&#xE9;trico o archivo de dibujo</p>
-        <p>o</p>
-        <p>Ctrl+N</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Barra de herramientas en la que aparece la orden</td>
-      <td style="text-align:left"><em>Esta orden no tiene asociado ning&#xFA;n bot&#xF3;n en ninguna barra de herramientas</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Extensi&#xF3;n</td>
-      <td style="text-align:left">DigiNG.OrdenesRaster.dll</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left"><a href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/AT.md">AT</a>,
-        <a
-        href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/EQUIDISTANCIA.html">EQUIDISTANCIA</a>, <a href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/INC.md">INC</a>,
-          <a
-          href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/TOL.html">TOL</a>, <a href="https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/TOL_ANG.md">TOL_ANG</a>,
-            <a
-            href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/MODOB.md">MODOB</a>
-      </td>
-    </tr>
-      <tr>
-      <td style="text-align:left">Nombre interno</td>
-      <td style="text-align:left">{35A8BF03-6A15-4998-8148-F473CEAA2CDA}</td>
-    </tr>
-</tbody>
-</table>
+
+| Tipo de orden | [Orden interactiva](nuevo-proyecto.md) |
+| :--- | :--- |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Archivo/Nuevo/Abrir modelo fotogramétrico o archivo de dibujo; o; Ctrl+N |
+| Barra de herramientas en la que aparece la orden | *Esta orden no tiene asociado ningún botón en ninguna barra de herramientas* |
+| Extensión | DigiNG.OrdenesRaster.dll |
+| Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/AT.md), [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/EQUIDISTANCIA.html), [INC](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/INC.md), [TOL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/TOL.html), [TOL_ANG](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/TOL_ANG.md), [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/MODOB.md) |
+| Nombre interno | {35A8BF03-6A15-4998-8148-F473CEAA2CDA} |
+
 

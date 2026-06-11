@@ -9,7 +9,7 @@ Devuelve un diccionario con los atributos de la geometría.
 public IDictionary<string, object> Attributes { get;  }‌
 ```
 
-## Valor de la propiedad <a href="#valor-de-la-propiedad" id="valor-de-la-propiedad"></a>
+## Valor de la propiedad [](#valor-de-la-propiedad)
 
 [IDictionary<>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)
 

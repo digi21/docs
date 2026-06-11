@@ -32,368 +32,70 @@ Implementa: [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 
 ## ‌Propiedades
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">&#x200B;Title</th>
-      <th style="text-align:left">&#x200B;Title</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/w">W</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al oeste del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/sw">SW</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al sudeste del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/s">S</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al sur del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/se">SE</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al sudeste del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/e">E</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al este del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ne">NE</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al noreste del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/n">N</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al norte del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/nw">NW</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto al noreste del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/center">Center</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el punto en el centro del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/height">Height</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el alto del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/width">Width</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve el ancho del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/valid">Valid</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Indica si la ventana del <a href="window2d.md">Window2D</a> es v&#xE1;lida.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmin">Xmin</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve la coordenada X m&#xED;nima del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymin">Ymin</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xED;nima del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmax">Xmax</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve la coordenada X m&#xE1;xima del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&#x200B;<a href="https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymax">Ymax</a>&#x200B;</td>
-      <td
-      style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xE1;xima del <a href="window2d.md">Window2D</a>.</p>
-        <p>(Heredado de <a href="iwindow2d/">IWindow2D</a>)</p>
-        </td>
-    </tr>
-  </tbody>
-</table>
+
+| ​Title | ​Title |
+| :--- | :--- |
+| ​[W](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/w)​ | Devuelve el punto al oeste del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[SW](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/sw)​ | Devuelve el punto al sudeste del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[S](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/s)​ | Devuelve el punto al sur del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[SE](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/se)​ | Devuelve el punto al sudeste del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[E](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/e)​ | Devuelve el punto al este del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[NE](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ne)​ | Devuelve el punto al noreste del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[N](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/n)​ | Devuelve el punto al norte del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[NW](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/nw)​ | Devuelve el punto al noreste del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Center](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/center)​ | Devuelve el punto en el centro del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Height](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/height)​ | Devuelve el alto del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Width](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/width)​ | Devuelve el ancho del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Valid](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/valid)​ | Indica si la ventana del [Window2D](window2d.md) es válida.; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Xmin](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmin)​ | Devuelve la coordenada X mínima del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Ymin](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymin)​ | Devuelve la coordenada Y mínima del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Xmax](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmax)​ | Devuelve la coordenada X máxima del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+| ​[Ymax](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymax)​ | Devuelve la coordenada Y máxima del [Window2D](window2d.md).; (Heredado de [IWindow2D](iwindow2d/)) |
+
 
 ## ​Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-2-d">Offset(Point2D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y como
-          se indique en el par&#xE1;metro.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-point-3-d">Offset(Point3D)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y,
-          Z como se indique en el par&#xE1;metro.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-double">Offset(double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y como
-          se indique en los par&#xE1;metros.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="idesplazable/metodos/offset.md#offset-double-doublem-double">Offset(double, double, double)</a>
-      </td>
-      <td style="text-align:left">
-        <p>Desplaza el <a href="window2d.md">Window2D</a> tantas unidades en X, Y,
-          Z como se indique en los par&#xE1;metros.</p>
-        <p>(Heredado de <a href="idesplazable/">IDesplazable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inflate(double, double)</td>
-      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima como la X m&#xE1;xima del <a href="window2d.md">Window2D</a> tantas
-        unidades como las especificadas en el primer par&#xE1;metro y de manera
-        similar en el eje Y con el valor especificado en el segundo par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inflate(Point2D)</td>
-      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima, X m&#xE1;xima, Y m&#xED;nima, Y m&#xE1;xima
-        del <a href="window2d.md">Window2D</a> tantas unidades como las especificadas
-        en el <a href="point2d.md">Point2D </a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inflate(Size)</td>
-      <td style="text-align:left">Hace crecer tanto la X m&#xED;nima, X m&#xE1;xima, Y m&#xED;nima, Y m&#xE1;xima
-        del <a href="window2d.md">Window2D</a> tantas unidades como las especificadas
-        en el <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.size?view=net-5.0">Size</a> pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(IWindow3D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="iwindow3d/">IWindow3D </a>pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(IWindow2D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="iwindow2d/">IWindow2D</a> pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Window3D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="window3d.md">Window3D</a> pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Window2D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="window2d.md">Window2D</a> pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Point3D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="point3d.md">Point3D </a>pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Point2D)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="point2d.md">Point2D</a> pasado por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(PointF)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0">PointF</a> pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(Point)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0">Point</a> pasado
-        por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Union(double, double, double, double)</td>
-      <td style="text-align:left">Hace crecer si es necesario el <a href="window2d.md">Window2D </a>para
-        que contenga las m&#xE1;ximas y m&#xED;nimas pasadas por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersection(double?, double, double, double)</td>
-      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
-        las m&#xE1;ximas y m&#xED;nimas pasadas por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersection(IWindow3D)</td>
-      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
-        el <a href="iwindow3d/">IWindow3D </a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersection(IWindow2D)</td>
-      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
-        el <a href="iwindow2d/">IWindow2D </a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersection(Window3D)</td>
-      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
-        el <a href="window3d.md">Window3D </a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersection(Window2D)</td>
-      <td style="text-align:left">Calcula la intersecci&#xF3;n entre el <a href="window2d.md">Window2D </a>y
-        el <a href="window2d.md">Window2D </a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(double, double, double, double)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene las m&#xE1;ximas
-        y m&#xED;nimas pasadas por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(IWindow3D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="iwindow3d/">IWindow3D </a>pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(IWindow2D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="iwindow2d/">IWindow2D </a>pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Window3D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="window3d.md">Window3D </a>pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Window2D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="window2d.md">Window2D </a>pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Point3D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="point3d.md">Point3D </a>pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Point2D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="point2d.md">Point2D </a>pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(PointF)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0">PointF</a> pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Contains(Point)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>contiene al <a href="https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0">Point </a>pasado
-        por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersects(double, double, double, double)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con las m&#xE1;ximas
-        y m&#xED;nimas pasadas por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersects(double?, double, double, double)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con las m&#xE1;ximas
-        y m&#xED;nimas pasadas por par&#xE1;metros.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersects(IWindow3D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
-        <a
-        href="iwindow3d/">IWindow3D</a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersects(IWindow2D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
-        <a
-        href="iwindow2d/">IWindow2D</a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersects(Window3D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
-        <a
-        href="window3d.md">Window3D</a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Intersects(Window2D)</td>
-      <td style="text-align:left">Indica si el <a href="window2d.md">Window2D </a>intersecciona con el
-        <a
-        href="window2d.md">Window2D</a>pasado por par&#xE1;metro.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ToString()</td>
-      <td style="text-align:left">Convierte este <a href="window2d.md">Window2D</a> en una cadena legible
-        para los humanos.</td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [Offset(Point2D)](idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza el [Window2D](window2d.md) tantas unidades en X, Y como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
+| [Offset(Point3D)](idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza el [Window2D](window2d.md) tantas unidades en X, Y, Z como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
+| [Offset(double, double)](idesplazable/metodos/offset.md#offset-double-double) | Desplaza el [Window2D](window2d.md) tantas unidades en X, Y como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
+| [Offset(double, double, double)](idesplazable/metodos/offset.md#offset-double-doublem-double) | Desplaza el [Window2D](window2d.md) tantas unidades en X, Y, Z como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
+| Inflate(double, double) | Hace crecer tanto la X mínima como la X máxima del [Window2D](window2d.md) tantas unidades como las especificadas en el primer parámetro y de manera similar en el eje Y con el valor especificado en el segundo parámetro. |
+| Inflate(Point2D) | Hace crecer tanto la X mínima, X máxima, Y mínima, Y máxima del [Window2D](window2d.md) tantas unidades como las especificadas en el [Point2D](point2d.md)pasado por parámetro. |
+| Inflate(Size) | Hace crecer tanto la X mínima, X máxima, Y mínima, Y máxima del [Window2D](window2d.md) tantas unidades como las especificadas en el [Size](https://docs.microsoft.com/en-us/dotnet/api/system.windows.size?view=net-5.0) pasado por parámetro. |
+| Union(IWindow3D) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [IWindow3D](iwindow3d/)pasado por parámetros. |
+| Union(IWindow2D) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [IWindow2D](iwindow2d/) pasado por parámetros. |
+| Union(Window3D) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [Window3D](window3d.md) pasado por parámetros. |
+| Union(Window2D) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [Window2D](window2d.md) pasado por parámetros. |
+| Union(Point3D) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [Point3D](point3d.md)pasado por parámetros. |
+| Union(Point2D) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [Point2D](point2d.md) pasado por parámetros. |
+| Union(PointF) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasado por parámetros. |
+| Union(Point) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga al [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0) pasado por parámetros. |
+| Union(double, double, double, double) | Hace crecer si es necesario el [Window2D](window2d.md)para que contenga las máximas y mínimas pasadas por parámetros. |
+| Intersection(double?, double, double, double) | Calcula la intersección entre el [Window2D](window2d.md)y las máximas y mínimas pasadas por parámetro. |
+| Intersection(IWindow3D) | Calcula la intersección entre el [Window2D](window2d.md)y el [IWindow3D](iwindow3d/)pasado por parámetro. |
+| Intersection(IWindow2D) | Calcula la intersección entre el [Window2D](window2d.md)y el [IWindow2D](iwindow2d/)pasado por parámetro. |
+| Intersection(Window3D) | Calcula la intersección entre el [Window2D](window2d.md)y el [Window3D](window3d.md)pasado por parámetro. |
+| Intersection(Window2D) | Calcula la intersección entre el [Window2D](window2d.md)y el [Window2D](window2d.md)pasado por parámetro. |
+| Contains(double, double, double, double) | Indica si el [Window2D](window2d.md)contiene las máximas y mínimas pasadas por parámetros. |
+| Contains(IWindow3D) | Indica si el [Window2D](window2d.md)contiene al [IWindow3D](iwindow3d/)pasado por parámetro. |
+| Contains(IWindow2D) | Indica si el [Window2D](window2d.md)contiene al [IWindow2D](iwindow2d/)pasado por parámetro. |
+| Contains(Window3D) | Indica si el [Window2D](window2d.md)contiene al [Window3D](window3d.md)pasado por parámetro. |
+| Contains(Window2D) | Indica si el [Window2D](window2d.md)contiene al [Window2D](window2d.md)pasado por parámetro. |
+| Contains(Point3D) | Indica si el [Window2D](window2d.md)contiene al [Point3D](point3d.md)pasado por parámetro. |
+| Contains(Point2D) | Indica si el [Window2D](window2d.md)contiene al [Point2D](point2d.md)pasado por parámetro. |
+| Contains(PointF) | Indica si el [Window2D](window2d.md)contiene al [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasado por parámetro. |
+| Contains(Point) | Indica si el [Window2D](window2d.md)contiene al [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0)pasado por parámetro. |
+| Intersects(double, double, double, double) | Indica si el [Window2D](window2d.md)intersecciona con las máximas y mínimas pasadas por parámetros. |
+| Intersects(double?, double, double, double) | Indica si el [Window2D](window2d.md)intersecciona con las máximas y mínimas pasadas por parámetros. |
+| Intersects(IWindow3D) | Indica si el [Window2D](window2d.md)intersecciona con el [IWindow3D](iwindow3d/)pasado por parámetro. |
+| Intersects(IWindow2D) | Indica si el [Window2D](window2d.md)intersecciona con el [IWindow2D](iwindow2d/)pasado por parámetro. |
+| Intersects(Window3D) | Indica si el [Window2D](window2d.md)intersecciona con el [Window3D](window3d.md)pasado por parámetro. |
+| Intersects(Window2D) | Indica si el [Window2D](window2d.md)intersecciona con el [Window2D](window2d.md)pasado por parámetro. |
+| ToString() | Convierte este [Window2D](window2d.md) en una cadena legible para los humanos. |
+
 
 ## Métodos estáticos
 

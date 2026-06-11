@@ -9,7 +9,7 @@ Devuelve el _offset_ en el que está almacenada la geometría representada por e
 public ulong Offset { get;  }‌
 ```
 
-## Valor de la propiedad <a href="#valor-de-la-propiedad" id="valor-de-la-propiedad"></a>
+## Valor de la propiedad [](#valor-de-la-propiedad)
 
 [Uint64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64?view=net-5.0)
 

@@ -15,45 +15,14 @@ Las paralelas las va a generar con el código que esté activo en el momento de 
 
 ## Características de la orden
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href="paralela.md">Orden interactiva</a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Repite autom&#xE1;ticamente</td>
-      <td style="text-align:left">Si</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Opci&#xF3;n del men&#xFA; donde aparece la orden</td>
-      <td style="text-align:left">
-        <p>Dibujar/M&#xE1;s/Paralela cl&#xE1;sica</p>
-        <p>o</p>
-        <p>Dibujar/M&#xE1;s/Paralela cl&#xE1;sica con Z activa</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Barra de herramientas en la que aparece la orden</td>
-      <td style="text-align:left"><em>Esta orden no tiene asociado ning&#xFA;n bot&#xF3;n en ninguna barra de herramientas</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Extensi&#xF3;n</td>
-      <td style="text-align:left">DigiNG.OrdenesStandard.dll</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left"><a href="/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/REPITE.md">REPITE</a>
-      </td>
-    </tr>
-      <tr>
-      <td style="text-align:left">Nombre interno</td>
-      <td style="text-align:left">{C98B960F-F4D1-4f65-8945-029EB0914CA7}</td>
-    </tr>
-</tbody>
-</table>
+
+| Tipo de orden | [Orden interactiva](paralela.md) |
+| :--- | :--- |
+| Repite automáticamente | Si |
+| Opción del menú donde aparece la orden | Dibujar/Más/Paralela clásica; o; Dibujar/Más/Paralela clásica con Z activa |
+| Barra de herramientas en la que aparece la orden | *Esta orden no tiene asociado ningún botón en ninguna barra de herramientas* |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/REPITE.md) |
+| Nombre interno | {C98B960F-F4D1-4f65-8945-029EB0914CA7} |
+
 

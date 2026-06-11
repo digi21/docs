@@ -38,23 +38,11 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">ToString()</td>
-      <td style="text-align:left">
-        <p>Convierte este <a href="./">Code</a> en una cadena legible para los humanos.</p>
-        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0">Object</a>)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| ToString() | Convierte este [Code](./) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
+
 
 ## Operadores
 

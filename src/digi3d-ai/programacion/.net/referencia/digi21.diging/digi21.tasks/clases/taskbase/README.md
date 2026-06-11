@@ -26,77 +26,21 @@ Implementa: [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21
 
 ## Propiedades
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="../../interfaces/itask/propiedades/childs.md">Children</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve un array subtareas.</p>
-        <p>(Heredado de <a href="../../interfaces/itask/">ITask</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../interfaces/itask/propiedades/module.md">Module</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el nombre del m&#xF3;dulo que gener&#xF3; la tarea.</p>
-        <p>(Heredado de <a href="../../interfaces/itask/">ITask</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../interfaces/itask/propiedades/drawingfile.md">DrawingFile</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la ruta del archivo de dibujo que provoc&#xF3; que se generara
-          la tarea.</p>
-        <p>(Heredado de <a href="../../interfaces/itask/">ITask</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../interfaces/itask/propiedades/severity.md">Severity</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve un <a href="../../enumeraciones/taskseverity.md">TaskSeverity </a>indicando
-          el tipo de tarea.</p>
-        <p>(Heredado de <a href="../../interfaces/itask/">ITask</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../interfaces/itask/propiedades/title.md">Title</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el t&#xED;tulo de la tarea.</p>
-        <p>(Heredado de <a href="../../interfaces/itask/">ITask</a>)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [Children](../../interfaces/itask/propiedades/childs.md) | Devuelve un array subtareas.; (Heredado de [ITask](../../interfaces/itask/)) |
+| [Module](../../interfaces/itask/propiedades/module.md) | Devuelve el nombre del módulo que generó la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
+| [DrawingFile](../../interfaces/itask/propiedades/drawingfile.md) | Devuelve la ruta del archivo de dibujo que provocó que se generara la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
+| [Severity](../../interfaces/itask/propiedades/severity.md) | Devuelve un [TaskSeverity](../../enumeraciones/taskseverity.md)indicando el tipo de tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
+| [Title](../../interfaces/itask/propiedades/title.md) | Devuelve el título de la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
+
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="../../interfaces/itask/metodos/execute.md">Execute()</a>
-      </td>
-      <td style="text-align:left">
-        <p>Fuerza la ejecuci&#xF3;n de la tarea.</p>
-        <p>(Heredado de <a href="../../interfaces/itask/">ITask</a>)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [Execute()](../../interfaces/itask/metodos/execute.md) | Fuerza la ejecución de la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
+
 

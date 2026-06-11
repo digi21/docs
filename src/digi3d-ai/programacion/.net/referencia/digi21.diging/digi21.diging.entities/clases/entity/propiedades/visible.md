@@ -9,12 +9,12 @@ Especifica la geometría representada por este [Entity](/digi3d-ai/programacion/
 public bool Visible { get; }‌
 ```
 
-## Valor de la propiedad <a href="#valor-de-la-propiedad" id="valor-de-la-propiedad"></a>
+## Valor de la propiedad [](#valor-de-la-propiedad)
 
 ‌​[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)​‌
 
 _Verdadero_ si la geometría es visible. _Falso_ en caso contrario.‌
 
-## Observaciones <a href="#observaciones" id="observaciones"></a>
+## Observaciones [](#observaciones)
 
 ‌Esta propiedad devolverá verdadero en caso de que la geometría no esté oculta ([Hidden](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/hidden.md) o equivalentes.

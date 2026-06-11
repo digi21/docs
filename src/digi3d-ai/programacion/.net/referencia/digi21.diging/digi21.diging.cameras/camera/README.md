@@ -27,32 +27,11 @@ Tipos derivados: [ConicCamera](/digi3d-ai/programacion/.net/referencia/digi21.di
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">ToString()</td>
-      <td style="text-align:left">
-        <p>Convierte este <a href="../../digi21.diging.entities/entity/">Entity</a> en
-          una cadena legible para los humanos.</p>
-        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0">Object</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="metodos/viewporttoworld.md">ViewportToWorld(Point3D)</a>
-      </td>
-      <td style="text-align:left">Transforma una coordenada de <em>c&#xE1;mara</em> a <em>mundo</em>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="metodos/worldtoviewport.md">WorldToViewport(Point3D)</a>
-      </td>
-      <td style="text-align:left">Transforma una coordenada de <em>mundo</em> a <em>c&#xE1;mara</em>.</td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| ToString() | Convierte este [Entity](../../digi21.diging.entities/entity/) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
+| [ViewportToWorld(Point3D)](metodos/viewporttoworld.md) | Transforma una coordenada de *cámara* a *mundo*. |
+| [WorldToViewport(Point3D)](metodos/worldtoviewport.md) | Transforma una coordenada de *mundo* a *cámara*. |
+
 

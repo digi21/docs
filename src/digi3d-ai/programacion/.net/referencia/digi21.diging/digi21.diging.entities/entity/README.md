@@ -26,279 +26,52 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
 
 ## Propiedades
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/w.md">W</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al oeste del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/sw.md">SW</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al sudeste del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/s.md">S</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al sur del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/se.md">SE</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al sudeste del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/e.md">E</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al este del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/ne.md">NE</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al noreste del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/n.md">N</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al norte del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/nw.md">NW</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto al noreste del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/center.md">Center</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el punto en el centro del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/depth.md">Depth</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el largo del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/height.md">Height</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el alto del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/width.md">Width</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve el ancho del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/valid.md">Valid</a>
-      </td>
-      <td style="text-align:left">
-        <p>Indica si las m&#xE1;ximas y m&#xED;nimas del <a href="./">Entity</a> son
-          v&#xE1;lidas.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/xmin.md">Xmin</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada X m&#xED;nima del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/ymin.md">Ymin</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xED;nima del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/zmin.md">Zmin</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Z m&#xED;nima del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/xmax.md">Xmax</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada X m&#xE1;xima del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/ymax.md">Ymax</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Y m&#xE1;xima del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../../digi21.math/iwindow3d/propiedades/zmax.md">Zmax</a>
-      </td>
-      <td style="text-align:left">
-        <p>Devuelve la coordenada Z m&#xE1;xima del <a href="./">Entity</a>.</p>
-        <p>(Heredado de <a href="../../digi21.math/iwindow3d/">IWindow3D</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/owner.md">Owner</a>
-      </td>
-      <td style="text-align:left">Devuelve el <a href="../../digi21.diging.io/idrawingfile/">IDrawingFile </a>al
-        que pertenece el <a href="./">Entity</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/deleted.md">Deleted</a>
-      </td>
-      <td style="text-align:left">Especifica si el <a href="./">Entity </a>est&#xE1; eliminado.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/readonly.md">ReadOnly</a>
-      </td>
-      <td style="text-align:left">Especifica si el <a href="./">Entity</a> es de solo lectura (ya est&#xE1;
-        almacenada en alg&#xFA;n <a href="../../digi21.diging.io/idrawingfile/">IDrawingFile</a>)</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/fillcolor.md">FillColor</a>
-      </td>
-      <td style="text-align:left">Especifica el color de relleno del <a href="./">Entity</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/weight.md">Weight</a>
-      </td>
-      <td style="text-align:left">Especifica el grosor del <a href="./">Entity</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/color.md">Color</a>
-      </td>
-      <td style="text-align:left">Especifica el color del <a href="./">Entity</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/codes.md">Codes</a>
-      </td>
-      <td style="text-align:left">Devuelve un objeto <a href>CodeCollection </a>con los c&#xF3;digos del
-        <a
-        href="./">Entity</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/visible.md">Visible</a>
-      </td>
-      <td style="text-align:left">Indica si el <a href="./">Entity</a> es visible.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/creationtime.md">CreationTime</a>
-      </td>
-      <td style="text-align:left">Devuelve un objeto <a href="https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0">DateTime </a>con
-        la fecha de creaci&#xF3;n del <a href="./">Entity</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/offset.md">Offset</a>
-      </td>
-      <td style="text-align:left">Indica el <em>offset</em> en el que est&#xE1; almacenado el <a href="./">Entity</a> en
-        el <a href="../../digi21.diging.io/idrawingfile/">IDrawingFile</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/database.md">Database</a>
-      </td>
-      <td style="text-align:left">Devuelve un objeto <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0">IDictionary&lt;&gt;</a> con
-        los atributos de base de datos de cada c&#xF3;digo que tenga el <a href="./">Entity</a>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="propiedades/hidden.md">Hidden</a>
-      </td>
-      <td style="text-align:left">Comprueba y permite indicar si ocultar la visualizaci&#xF3;n de este
-        <a
-        href="./">Entity</a>en la ventana de dibujo.</td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [W](../../digi21.math/iwindow3d/propiedades/w.md) | Devuelve el punto al oeste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [SW](../../digi21.math/iwindow3d/propiedades/sw.md) | Devuelve el punto al sudeste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [S](../../digi21.math/iwindow3d/propiedades/s.md) | Devuelve el punto al sur del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [SE](../../digi21.math/iwindow3d/propiedades/se.md) | Devuelve el punto al sudeste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [E](../../digi21.math/iwindow3d/propiedades/e.md) | Devuelve el punto al este del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [NE](../../digi21.math/iwindow3d/propiedades/ne.md) | Devuelve el punto al noreste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [N](../../digi21.math/iwindow3d/propiedades/n.md) | Devuelve el punto al norte del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [NW](../../digi21.math/iwindow3d/propiedades/nw.md) | Devuelve el punto al noreste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Center](../../digi21.math/iwindow3d/propiedades/center.md) | Devuelve el punto en el centro del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Depth](../../digi21.math/iwindow3d/propiedades/depth.md) | Devuelve el largo del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Height](../../digi21.math/iwindow3d/propiedades/height.md) | Devuelve el alto del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Width](../../digi21.math/iwindow3d/propiedades/width.md) | Devuelve el ancho del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Valid](../../digi21.math/iwindow3d/propiedades/valid.md) | Indica si las máximas y mínimas del [Entity](./) son válidas.; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Xmin](../../digi21.math/iwindow3d/propiedades/xmin.md) | Devuelve la coordenada X mínima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Ymin](../../digi21.math/iwindow3d/propiedades/ymin.md) | Devuelve la coordenada Y mínima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Zmin](../../digi21.math/iwindow3d/propiedades/zmin.md) | Devuelve la coordenada Z mínima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Xmax](../../digi21.math/iwindow3d/propiedades/xmax.md) | Devuelve la coordenada X máxima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Ymax](../../digi21.math/iwindow3d/propiedades/ymax.md) | Devuelve la coordenada Y máxima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Zmax](../../digi21.math/iwindow3d/propiedades/zmax.md) | Devuelve la coordenada Z máxima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [Owner](propiedades/owner.md) | Devuelve el [IDrawingFile](../../digi21.diging.io/idrawingfile/)al que pertenece el [Entity](./). |
+| [Deleted](propiedades/deleted.md) | Especifica si el [Entity](./)está eliminado. |
+| [ReadOnly](propiedades/readonly.md) | Especifica si el [Entity](./) es de solo lectura (ya está almacenada en algún [IDrawingFile](../../digi21.diging.io/idrawingfile/)) |
+| [FillColor](propiedades/fillcolor.md) | Especifica el color de relleno del [Entity](./). |
+| [Weight](propiedades/weight.md) | Especifica el grosor del [Entity](./). |
+| [Color](propiedades/color.md) | Especifica el color del [Entity](./). |
+| [Codes](propiedades/codes.md) | Devuelve un objeto CodeCollectioncon los códigos del [Entity](./). |
+| [Visible](propiedades/visible.md) | Indica si el [Entity](./) es visible. |
+| [CreationTime](propiedades/creationtime.md) | Devuelve un objeto [DateTime](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0)con la fecha de creación del [Entity](./). |
+| [Offset](propiedades/offset.md) | Indica el *offset* en el que está almacenado el [Entity](./) en el [IDrawingFile](../../digi21.diging.io/idrawingfile/). |
+| [Database](propiedades/database.md) | Devuelve un objeto [IDictionary<>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0) con los atributos de base de datos de cada código que tenga el [Entity](./). |
+| [Hidden](propiedades/hidden.md) | Comprueba y permite indicar si ocultar la visualización de este [Entity](./)en la ventana de dibujo. |
+
 
 ## Métodos
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="metodos/clone.md">Clone</a>
-      </td>
-      <td style="text-align:left">
-        <p>Instancia una nueva <a href="./">Entity </a>id&#xE9;ntica que no est&#xE1;
-          almacenada en ning&#xFA;n archivo de dibujo y que por lo tanto no es de
-          solo lectura.</p>
-        <p>(Heredado de <a href="../icloseable/">ICloneable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Dispose</td>
-      <td style="text-align:left">
-        <p>Destruye el <a href="./">Entity</a> liberando memoria inmediatamente.</p>
-        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0">IDisposable</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ToString</td>
-      <td style="text-align:left">
-        <p>Convierte este <a href="./">Entity</a> en una cadena legible para los humanos.</p>
-        <p>(Heredado de <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0">Object</a>)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+
+|  |  |
+| :--- | :--- |
+| [Clone](metodos/clone.md) | Instancia una nueva [Entity](./)idéntica que no está almacenada en ningún archivo de dibujo y que por lo tanto no es de solo lectura.; (Heredado de [ICloneable](../icloseable/)) |
+| Dispose | Destruye el [Entity](./) liberando memoria inmediatamente.; (Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0)) |
+| ToString | Convierte este [Entity](./) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
+|  |  |
+
 
 
 

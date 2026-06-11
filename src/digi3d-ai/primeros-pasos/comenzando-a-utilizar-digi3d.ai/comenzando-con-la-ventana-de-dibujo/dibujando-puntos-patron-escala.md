@@ -2,36 +2,12 @@
 
 1. Pulsa los prismáticos en la [Barra de herramientas Código](/digi3d-ai/referencia/barras-de-herramientas/codigo.md). Aparece el cuadro de diálogo **Seleccione códigos**, aquí podemos ver los distintos códigos que tiene la tabla de códigos que seleccionamos cuando creamos el archivo de dibujo:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Columna</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">C&#xF3;digo</td>
-      <td style="text-align:left">Nombre del c&#xF3;digo</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Color</td>
-      <td style="text-align:left">Color de visualizaci&#xF3;n del c&#xF3;digo en la ventana de dibujo</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Tipo</td>
-      <td style="text-align:left">
-        <p>Lineal</p>
-        <p>Puntual</p>
-        <p>Virtual</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Descripci&#xF3;n</td>
-      <td style="text-align:left">Descripci&#xF3;n del c&#xF3;digo</td>
-    </tr>
-  </tbody>
-</table>
+| Columna | Descripción |
+| :--- | :--- |
+| Código | Nombre del código |
+| Color | Color de visualización del código en la ventana de dibujo |
+| Tipo | Lineal; Puntual; Virtual |
+| Descripción | Descripción del código |
 
 * Si Digi3D.AI está en [modo preparado](dibujando-puntos-patron-escala.md) y el código activo es un [código lineal](dibujando-puntos-patron-escala.md), al pusar el [botón de dato](dibujando-puntos-patron-escala.md) sobre la ventana de dibujo, Digi3D.AI ejecutará de manera automática la orden [**LINEA**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y dibujará una polilínea.
 * Si Digi3D.AI está en **modo preparado** y el código activo es un [código puntual](dibujando-puntos-patron-escala.md), al pulsar el **botón de dato** sobre la ventana de dibujo, Digi3D.AI ejecutará la orden [**PUNTO**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md).

@@ -4,33 +4,9 @@ Activa la visualización únicamente de las geometrías que devuelvan verdadero 
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">N&#xFA;mero de par&#xE1;metro</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-      <th style="text-align:left">Opcional</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">
-        <p>Expresi&#xF3;n Python a analizar por cada una de las geometr&#xED;as de
-          todos los archivos de dibujo cargados.</p>
-        <p></p>
-        <p>o
-          <br />
-        </p>
-        <p>Conjunto de <a href="/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md">selecciones</a> almacenadas
-          en la tabla de c&#xF3;digos. Digi3D.AI entender&#xE1; que deber&#xE1;
-          extraer la expresi&#xF3;n de una selecci&#xF3;n en la tabla de c&#xF3;digos
-          si esta comienza por #.</p>
-      </td>
-      <td style="text-align:left">No.</td>
-    </tr>
-  </tbody>
-</table>
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Expresión Python a analizar por cada una de las geometrías de todos los archivos de dibujo cargados.; o; Conjunto de [selecciones](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) almacenadas en la tabla de códigos. Digi3D.AI entenderá que deberá extraer la expresión de una selección en la tabla de códigos si esta comienza por #. | No. |
 
 ### Ejemplos
 

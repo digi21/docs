@@ -4,32 +4,11 @@ Inserta un nodo en las entidades lineales sobre las que hacemos tentativo, al re
 
 ## Parámetros
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">N&#xFA;mero de par&#xE1;metro</th>
-      <th style="text-align:left">Descripci&#xF3;n</th>
-      <th style="text-align:left">Valores</th>
-      <th style="text-align:left">Opcional</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">Modo autom&#xE1;tico</td>
-      <td style="text-align:left">
-        <p>Si no se especifica ning&#xFA;n par&#xE1;metro el valor de la variable
-          booleana cambiar&#xE1; de modo Activado a Desactivado y de Desactivado
-          a Activado.</p>
-        <p><b>0</b>: Para desactivar la variable booleana.</p>
-        <p><b>1</b>: Para activar la variable booleana.</p>
-        <p><b>?</b>: Para consultar el valor de la variable booleana. Aparecer&#xE1;
-          un globo indicando si la orden est&#xE1; activada o desactivada.</p>
-      </td>
-      <td style="text-align:left">Si</td>
-    </tr>
-  </tbody>
-</table>
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Modo automático | Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo Activado a Desactivado y de Desactivado a Activado.; **0**: Para desactivar la variable booleana.; **1**: Para activar la variable booleana.; **?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada. | Si |
+
 
 ## Observaciones
 

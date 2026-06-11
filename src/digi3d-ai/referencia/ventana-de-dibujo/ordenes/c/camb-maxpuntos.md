@@ -28,7 +28,8 @@ Dividirá todas aquellas entidades lineales cuyo código sea 020126, en tramos q
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md) — número máximo de puntos de un tipo de entidad<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Variables relacionadas | [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md) — número máximo de puntos de un tipo de entidad  
+[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {68887B83-3512-412c-8100-B2F134A73248} |
 
 ## Vídeo

@@ -14,43 +14,14 @@ Las entidades deben tener el mismo código y los mismos atributos para poder uni
 
 ## Características de la orden
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Tipo de orden</th>
-      <th style="text-align:left"><a href="unir.md">Orden interactiva</a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Repite autom&#xE1;ticamente</td>
-      <td style="text-align:left">No</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Opci&#xF3;n del men&#xFA; donde aparece la orden</td>
-      <td style="text-align:left">
-        <p>Editar/Polil&#xED;neas/Unir dos polil&#xED;neas</p>
-        <p>&#xF3;</p>
-        <p>Editar/Polil&#xED;neas/Unir polil&#xED;neas por ventana y c&#xF3;digo</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Barra de herramientas en la que aparece la orden</td>
-      <td style="text-align:left">Unir</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Extensi&#xF3;n</td>
-      <td style="text-align:left">DigiNG.OrdenesStandard.dll</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Variables relacionadas</td>
-      <td style="text-align:left">No tiene variables relacionadas</td>
-    </tr>
-      <tr>
-      <td style="text-align:left">Nombre interno</td>
-      <td style="text-align:left">{88F56A67-0638-495d-99FB-6265DAD1CF1B}</td>
-    </tr>
-</tbody>
-</table>
+
+| Tipo de orden | [Orden interactiva](unir.md) |
+| :--- | :--- |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Editar/Polilíneas/Unir dos polilíneas; ó; Editar/Polilíneas/Unir polilíneas por ventana y código |
+| Barra de herramientas en la que aparece la orden | Unir |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | No tiene variables relacionadas |
+| Nombre interno | {88F56A67-0638-495d-99FB-6265DAD1CF1B} |
+
 
