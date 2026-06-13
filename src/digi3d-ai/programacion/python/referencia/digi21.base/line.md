@@ -31,7 +31,7 @@ Line(codes, coordinates=[])
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `add_point(coordinates)` | `int` | Añade un vértice al final; devuelve el número de vértices resultante. |
+| `add_point(coordinates)` | `int` |Añade un vértice al final<br>devuelve el número de vértices resultante.|
 | `add_points(coordinates)` | — | Añade varios vértices al final. |
 | `close()` | — | Cierra la línea. |
 | `reverse()` | — | Invierte el sentido de la línea. |

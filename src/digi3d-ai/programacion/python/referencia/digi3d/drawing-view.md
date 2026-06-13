@@ -128,7 +128,7 @@ z = view.project((430000, 4480000))
 | `epsg_codes` | `tuple` | `(epsg_horizontal, epsg_vertical)`. |
 | `files` | iterable | Archivos de referencia cargados ([DrawingFile](../digi21.base/drawingfile.md)). |
 | `drawing_file` | `DrawingFile` | Archivo de dibujo activo. |
-| `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos activa del proyecto (secuencia de [DigiTabNode](../digi21.base/digitabnode.md)); la posición de cada nodo coincide con el `digitab_index` de los códigos de las geometrías. |
+| `digitab` | [DigiTab](../digi21.base/digitab.md) |Tabla de códigos activa del proyecto (secuencia de [DigiTabNode](../digi21.base/digitabnode.md))<br>la posición de cada nodo coincide con el `digitab_index` de los códigos de las geometrías.|
 | `digi_tab` | `dict` | Diccionario `{código: DigiTabNode}` de la tabla activa. |
 | `geographic_calculator` | [GeographicCalculator](geographic-calculator.md) | Calculadora geográfica de la ventana. |
 | `topologies` | `dict` | Diccionario `{nombre: [Topology]}` de las topologías cargadas. |

@@ -8,9 +8,9 @@ Crea un archivo de dibujo con un marco de hoja a una determinada escala, con mar
 | Número de parámetro | Parámetro | Parámetros | Descripción |
 | :--- | :--- | :--- | :--- |
 | 1 | Coordenadas de las esquinas de la hoja | Mediante un gráfico, los campos correspondientes a las coordenadas X e Y se pueden rellenar. |  |
-| 2 | Propiedades generales |Escala<br>Código del marco| Escala a la que se va a crear la hoja; Código con el que se generará la línea de marco de hoja |
-| 3 | Propiedades de las cruces |Código cruces<br>Altura de cruces<br>Separación cruces<br>Medias cruces| Código con el que se generarán las cruces de la hoja; Tamaño, en mm de impresión, de las cruces que se generarán en el interior de la hoja; Separación, en mm de impresión, entre cruces; Indica si insertar medias cruces en el límite de la hoja |
-| 4 | Propiedades de las coordenadas |Código coordenadas<br>Altura de coordenadas<br>Nº decimales| Código con el que se generarán las coordenadas de la hoja; Altura, en mm de impresión, de los textos de coordenadas; Número de decimales de los textos de las coordenadas |
+| 2 | Propiedades generales |Escala<br>Código del marco|Escala a la que se va a crear la hoja<br>Código con el que se generará la línea de marco de hoja|
+| 3 | Propiedades de las cruces |Código cruces<br>Altura de cruces<br>Separación cruces<br>Medias cruces|Código con el que se generarán las cruces de la hoja<br>Tamaño, en mm de impresión, de las cruces que se generarán en el interior de la hoja<br>Separación, en mm de impresión, entre cruces<br>Indica si insertar medias cruces en el límite de la hoja|
+| 4 | Propiedades de las coordenadas |Código coordenadas<br>Altura de coordenadas<br>Nº decimales|Código con el que se generarán las coordenadas de la hoja<br>Altura, en mm de impresión, de los textos de coordenadas<br>Número de decimales de los textos de las coordenadas|
 
 
 ## Características de la orden
