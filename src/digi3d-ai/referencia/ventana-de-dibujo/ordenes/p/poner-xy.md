@@ -17,7 +17,7 @@ Coloca dos textos numéricos con los valores de las coordenadas X,Y de los punto
 
 Esta orden se utiliza para rotular las coordenadas de las cruces de la cuadrícula utilizada en un fichero de dibujo.
 
-Los textos de las coordenadas se colocan con un ángulo de 90º uno respecto del otro, y se insertan en la misma posición del punto elegido, o desplazados de este valor una distancia igual al de la primera distancia activa.
+Los textos de las coordenadas se colocan con un ángulo de 90º uno respecto del otro, y se insertan en la misma posición del punto elegido, o desplazados de este valor una distancia igual al de la distancia activa principal.
 
 ## Características de la orden
 

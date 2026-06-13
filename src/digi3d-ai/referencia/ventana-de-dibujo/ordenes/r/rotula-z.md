@@ -15,7 +15,7 @@ Rotula un punto o varios puntos con su Z correspondiente.
 
 ## Observaciones
 
-Tienes que conocer el código de los puntos y los valores de las distancias activas 1 y 2, que será dónde se colocará el valor de la cota Z.
+Tienes que conocer el código de los puntos y los valores de la distancia activa principal y la secundaria, que será dónde se colocará el valor de la cota Z.
 
 ## Características de la orden
 
