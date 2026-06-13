@@ -38,7 +38,7 @@ Sigue los siguientes pasos para hacer **Zoom de alejar** mediante el menú **Zoo
 
 Sigue los siguientes pasos para hacer **Zoom a entidad**:
 
-1. Selecciona el botón de [Zoom a entidad](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/ZOOM_ENTIDAD.html) de la [Barra de herramientas Zooms](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/barras-de-herramientas/zooms.md). Comprobarás que en la venta izquierda de la barra de mensajes, Digi3D.AI está mostrando que se está ejecutando la orden **ZOOM\_ENTIDAD**. La orden está invitandote a seleccionar la entidad para centrar en pantalla.
+1. Selecciona el botón de [Zoom a entidad](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-entidad.md) de la [Barra de herramientas Zooms](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/barras-de-herramientas/zooms.md). Comprobarás que en la venta izquierda de la barra de mensajes, Digi3D.AI está mostrando que se está ejecutando la orden **ZOOM\_ENTIDAD**. La orden está invitandote a seleccionar la entidad para centrar en pantalla.
 2. Selecciona la entidad deseada con el botón central del ratón.
 3. Pulsa con el botón de dato en la ventana de dibujo. Digi3D.AI centrará en pantalla la entidad seleccionada.
 

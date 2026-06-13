@@ -13,7 +13,7 @@ Si no se especifica ningún parámetro, el sistema toma por defecto los valores 
 
 ## Observaciones
 
-El tramado se compone de un doble rayado cuya disposición depende de los valores que tengan asignados los parámetros [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/AA.html) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/DA.md).
+El tramado se compone de un doble rayado cuya disposición depende de los valores que tengan asignados los parámetros [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/DA.md).
 
 El primer rayado tiene la dirección del ángulo activo, y las rayas se hayan separadas una distancia igual al primer valor de la distancia activa. El segundo tramado tiene una dirección perpendicular al primero, y sus rayas están separadas una distancia igual al segundo valor de la distancia activa.
 

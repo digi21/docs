@@ -1,6 +1,6 @@
 # Archivos de proyecto fotogramétrico
 
-Al aceptar el cuadro de diálogo [Crear archivo de proyecto fotogramétrico](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/proyectos-de-proyecto-fotogrametrico/CuadroDeDialogoCrearProyectoFotogrametrico.md) se creó un archivo con extensión [.d3dprj](archivos-de-proyecto-fotogrametrico.md).  
+Al aceptar el cuadro de diálogo [Crear archivo de proyecto fotogramétrico](/digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md) se creó un archivo con extensión [.d3dprj](archivos-de-proyecto-fotogrametrico.md).  
 Este archivo informa de las pasadas que tiene el proyecto así como de los modelos de cada pasada.
 
 Es necesario que finalices los pasos de [Creando un proyecto fotogramétrico para Bronchales](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/proyectos-de-proyecto-fotogrametrico/creando-proyecto-fotogrametrico-bronchales.md) antes de continuar.
