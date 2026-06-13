@@ -14,7 +14,7 @@ Si no se realiza ninguna asignación previa de [AA](/digi3d-ai/referencia/ventan
 
 ## Observaciones
 
-La dirección de las rayas está condicionada por el ángulo activo, y se hayan separadas una distancia igual al primer valor de la distancia activa.
+La dirección de las rayas está condicionada por el ángulo activo, y se hayan separadas una distancia igual al valor de la distancia activa principal.
 
 ## Características de la orden
 
