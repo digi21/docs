@@ -6,18 +6,7 @@ Añade un atributo al panel [atributos-activos.md](../../../paneles/atributos-ac
 
 | 1 | Nombre del campo         | Cadena de caracteres                                                                                                                                                                                                                                                                                                    | No |
 | - | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -- |
-| 2 | Tipo de valor a almacena | 0. Cadena de caracteres  
-1. Byte con signo  
-2. Byte sin signo  
-3. Entero corto con signo  
-4. Entero corto sin signo  
-5. Entero con signo  
-6. Entero sin signo  
-7. Entero de 64 bits con signo  
-8. Entero de 64 bits sin signo  
-9. Coma flotante simple  
-10. Coma flotante doble  
-11. Fecha| No |
+| 2 | Tipo de valor a almacena | 0. Cadena de caracteres<br>1. Byte con signo<br>2. Byte sin signo<br>3. Entero corto con signo<br>4. Entero corto sin signo<br>5. Entero con signo<br>6. Entero sin signo<br>7. Entero de 64 bits con signo<br>8. Entero de 64 bits sin signo<br>9. Coma flotante simple<br>10. Coma flotante doble<br>11. Fecha| No |
 | 3 | Valor a asignar          | Valor compatible con el tipo o el nombre de alguna [Macro de base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md)                                                                                                                                                  | Si |
 
 ### Ejemplos
