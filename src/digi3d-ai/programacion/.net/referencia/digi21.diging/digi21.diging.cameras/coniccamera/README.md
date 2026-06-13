@@ -22,13 +22,13 @@ Propiedades
 
 |  |  |
 | :--- | :--- |
-| [Far](../camera/propiedades/far.md) | Devuelve o asigna la distancia del plano lejano del cono de visión.; (Heredado de [Camera](../camera/)) |
+| [Far](../camera/propiedades/far.md) |Devuelve o asigna la distancia del plano lejano del cono de visión.<br>(Heredado de [Camera](../camera/))|
 | [FieldOfView](propiedades/fieldofview.md) | Devuelve o asigna el campo de visión vertical (expresado en ángulos sexagesimales). |
-| [Near](../camera/propiedades/near.md) | Devuelve o asigna la distancia del plano cercano del cono de visión.; (Heredado de [Camera](../camera/)) |
-| [Name](../camera/propiedades/name.md) | Devuelve o asigna el nombre de la cámara.; (Heredado de [Camera](../camera/)) |
-| [Pitch](../camera/propiedades/pitch.md) | Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Pitch*.; (Heredado de [Camera](../camera/)) |
-| [Position](../camera/propiedades/position.md) | Devuelve o asigna la posición de la cámara.; (Heredado de [Camera](../camera/)) |
-| [Roll](../camera/propiedades/roll.md) | Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Roll*.; (Heredado de [Camera](../camera/)) |
-| [Yaw](../camera/propiedades/yaw.md) | Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Yaw*.; (Heredado de [Camera](../camera/)) |
+| [Near](../camera/propiedades/near.md) |Devuelve o asigna la distancia del plano cercano del cono de visión.<br>(Heredado de [Camera](../camera/))|
+| [Name](../camera/propiedades/name.md) |Devuelve o asigna el nombre de la cámara.<br>(Heredado de [Camera](../camera/))|
+| [Pitch](../camera/propiedades/pitch.md) |Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Pitch*.<br>(Heredado de [Camera](../camera/))|
+| [Position](../camera/propiedades/position.md) |Devuelve o asigna la posición de la cámara.<br>(Heredado de [Camera](../camera/))|
+| [Roll](../camera/propiedades/roll.md) |Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Roll*.<br>(Heredado de [Camera](../camera/))|
+| [Yaw](../camera/propiedades/yaw.md) |Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Yaw*.<br>(Heredado de [Camera](../camera/))|
 
 

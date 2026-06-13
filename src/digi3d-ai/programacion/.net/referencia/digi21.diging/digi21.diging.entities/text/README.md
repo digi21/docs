@@ -35,9 +35,9 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 |  |  |
 | :--- | :--- |
-| [Offset(Point2D)](../../digi21.math/idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza el [Text](./) en el plano X, Y.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
-| [Offset(Point3D)](../../digi21.math/idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza el [Text](./) en el espacio.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
-| [Offset(double, double)](../../digi21.math/idesplazable/metodos/offset.md#offset-double-double) | Desplaza el [Text](./) en el plano X, Y.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
-| [Offset(double, double, double)](../../digi21.math/idesplazable/metodos/offset.md#offset-double-double-double) | Desplaza el [Text](./) en el espacio.; (Heredado de [IDesplazable](../../digi21.math/idesplazable/)) |
+| [Offset(Point2D)](../../digi21.math/idesplazable/metodos/offset.md#offset-point-2-d) |Desplaza el [Text](./) en el plano X, Y.<br>(Heredado de [IDesplazable](../../digi21.math/idesplazable/))|
+| [Offset(Point3D)](../../digi21.math/idesplazable/metodos/offset.md#offset-point-3-d) |Desplaza el [Text](./) en el espacio.<br>(Heredado de [IDesplazable](../../digi21.math/idesplazable/))|
+| [Offset(double, double)](../../digi21.math/idesplazable/metodos/offset.md#offset-double-double) |Desplaza el [Text](./) en el plano X, Y.<br>(Heredado de [IDesplazable](../../digi21.math/idesplazable/))|
+| [Offset(double, double, double)](../../digi21.math/idesplazable/metodos/offset.md#offset-double-double-double) |Desplaza el [Text](./) en el espacio.<br>(Heredado de [IDesplazable](../../digi21.math/idesplazable/))|
 
 

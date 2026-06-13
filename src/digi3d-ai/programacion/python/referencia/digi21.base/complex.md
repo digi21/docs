@@ -27,7 +27,7 @@ Complex(codes=())
 |---|---|---|
 | `add(geometry)` | — | Añade una geometría. La propiedad pasa al complejo. |
 | `insert(position, geometry)` | — | Inserta una geometría en la posición indicada. |
-| `remove(geometry)` | `bool` | Elimina la geometría indicada; devuelve `True` si se eliminó. |
+| `remove(geometry)` | `bool` |Elimina la geometría indicada<br>devuelve `True` si se eliminó.|
 | `clear()` | — | Elimina todas las geometrías. |
 | `explode()` | `list` | Devuelve clones independientes de las geometrías que lo componen. |
 

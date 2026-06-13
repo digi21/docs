@@ -29,25 +29,25 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
 
 |  |  |
 | :--- | :--- |
-| [W](../../digi21.math/iwindow3d/propiedades/w.md) | Devuelve el punto al oeste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [SW](../../digi21.math/iwindow3d/propiedades/sw.md) | Devuelve el punto al sudeste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [S](../../digi21.math/iwindow3d/propiedades/s.md) | Devuelve el punto al sur del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [SE](../../digi21.math/iwindow3d/propiedades/se.md) | Devuelve el punto al sudeste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [E](../../digi21.math/iwindow3d/propiedades/e.md) | Devuelve el punto al este del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [NE](../../digi21.math/iwindow3d/propiedades/ne.md) | Devuelve el punto al noreste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [N](../../digi21.math/iwindow3d/propiedades/n.md) | Devuelve el punto al norte del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [NW](../../digi21.math/iwindow3d/propiedades/nw.md) | Devuelve el punto al noreste del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Center](../../digi21.math/iwindow3d/propiedades/center.md) | Devuelve el punto en el centro del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Depth](../../digi21.math/iwindow3d/propiedades/depth.md) | Devuelve el largo del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Height](../../digi21.math/iwindow3d/propiedades/height.md) | Devuelve el alto del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Width](../../digi21.math/iwindow3d/propiedades/width.md) | Devuelve el ancho del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Valid](../../digi21.math/iwindow3d/propiedades/valid.md) | Indica si las máximas y mínimas del [Entity](./) son válidas.; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Xmin](../../digi21.math/iwindow3d/propiedades/xmin.md) | Devuelve la coordenada X mínima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Ymin](../../digi21.math/iwindow3d/propiedades/ymin.md) | Devuelve la coordenada Y mínima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Zmin](../../digi21.math/iwindow3d/propiedades/zmin.md) | Devuelve la coordenada Z mínima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Xmax](../../digi21.math/iwindow3d/propiedades/xmax.md) | Devuelve la coordenada X máxima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Ymax](../../digi21.math/iwindow3d/propiedades/ymax.md) | Devuelve la coordenada Y máxima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
-| [Zmax](../../digi21.math/iwindow3d/propiedades/zmax.md) | Devuelve la coordenada Z máxima del [Entity](./).; (Heredado de [IWindow3D](../../digi21.math/iwindow3d/)) |
+| [W](../../digi21.math/iwindow3d/propiedades/w.md) |Devuelve el punto al oeste del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [SW](../../digi21.math/iwindow3d/propiedades/sw.md) |Devuelve el punto al sudeste del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [S](../../digi21.math/iwindow3d/propiedades/s.md) |Devuelve el punto al sur del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [SE](../../digi21.math/iwindow3d/propiedades/se.md) |Devuelve el punto al sudeste del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [E](../../digi21.math/iwindow3d/propiedades/e.md) |Devuelve el punto al este del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [NE](../../digi21.math/iwindow3d/propiedades/ne.md) |Devuelve el punto al noreste del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [N](../../digi21.math/iwindow3d/propiedades/n.md) |Devuelve el punto al norte del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [NW](../../digi21.math/iwindow3d/propiedades/nw.md) |Devuelve el punto al noreste del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Center](../../digi21.math/iwindow3d/propiedades/center.md) |Devuelve el punto en el centro del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Depth](../../digi21.math/iwindow3d/propiedades/depth.md) |Devuelve el largo del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Height](../../digi21.math/iwindow3d/propiedades/height.md) |Devuelve el alto del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Width](../../digi21.math/iwindow3d/propiedades/width.md) |Devuelve el ancho del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Valid](../../digi21.math/iwindow3d/propiedades/valid.md) |Indica si las máximas y mínimas del [Entity](./) son válidas.<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Xmin](../../digi21.math/iwindow3d/propiedades/xmin.md) |Devuelve la coordenada X mínima del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Ymin](../../digi21.math/iwindow3d/propiedades/ymin.md) |Devuelve la coordenada Y mínima del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Zmin](../../digi21.math/iwindow3d/propiedades/zmin.md) |Devuelve la coordenada Z mínima del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Xmax](../../digi21.math/iwindow3d/propiedades/xmax.md) |Devuelve la coordenada X máxima del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Ymax](../../digi21.math/iwindow3d/propiedades/ymax.md) |Devuelve la coordenada Y máxima del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
+| [Zmax](../../digi21.math/iwindow3d/propiedades/zmax.md) |Devuelve la coordenada Z máxima del [Entity](./).<br>(Heredado de [IWindow3D](../../digi21.math/iwindow3d/))|
 | [Owner](propiedades/owner.md) | Devuelve el [IDrawingFile](../../digi21.diging.io/idrawingfile/)al que pertenece el [Entity](./). |
 | [Deleted](propiedades/deleted.md) | Especifica si el [Entity](./)está eliminado. |
 | [ReadOnly](propiedades/readonly.md) | Especifica si el [Entity](./) es de solo lectura (ya está almacenada en algún [IDrawingFile](../../digi21.diging.io/idrawingfile/)) |
@@ -67,9 +67,9 @@ En caso de asignar alguna propiedad en una geometría de solo lectura \(excepto 
 
 |  |  |
 | :--- | :--- |
-| [Clone](metodos/clone.md) | Instancia una nueva [Entity](./)idéntica que no está almacenada en ningún archivo de dibujo y que por lo tanto no es de solo lectura.; (Heredado de [ICloneable](../icloseable/)) |
-| Dispose | Destruye el [Entity](./) liberando memoria inmediatamente.; (Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0)) |
-| ToString | Convierte este [Entity](./) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
+| [Clone](metodos/clone.md) |Instancia una nueva [Entity](./)idéntica que no está almacenada en ningún archivo de dibujo y que por lo tanto no es de solo lectura.<br>(Heredado de [ICloneable](../icloseable/))|
+| Dispose |Destruye el [Entity](./) liberando memoria inmediatamente.<br>(Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0))|
+| ToString |Convierte este [Entity](./) en una cadena legible para los humanos.<br>(Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0))|
 |  |  |
 
 

@@ -64,6 +64,6 @@ En caso de asignar alguna propiedad en una geometría de solo lectura (excepto l
 |                           |                                                                                                                                                                                                                                    |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Clone](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/metodos/clone.md) |
-| ToString                  | Convierte este [Entity](./) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0))|
+| ToString                  |Convierte este [Entity](./) en una cadena legible para los humanos.<br>(Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0))|
 |                           |                                                                                                                                                                                                                                    |
 

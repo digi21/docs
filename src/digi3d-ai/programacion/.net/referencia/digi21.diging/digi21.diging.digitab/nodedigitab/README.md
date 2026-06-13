@@ -38,6 +38,6 @@ Implementa: [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idi
 
 |  |  |
 | :--- | :--- |
-| [Dispose](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=net-5.0) | Libera los recursos utilizados por la tabla de códigos.; (Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0)) |
+| [Dispose](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=net-5.0) |Libera los recursos utilizados por la tabla de códigos.<br>(Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0))|
 
 

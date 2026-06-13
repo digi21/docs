@@ -23,9 +23,9 @@ Implementa: [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/d
 | [Area](propiedades/area.md) | Devuelve el área del [ReadOnlyLine](./). |
 | [Perimeter3D](propiedades/perimeter3d.md) | Devuelve el perímetro 3D del [ReadOnlyLine](./). |
 | [Perimeter](propiedades/perimeter.md) | Devuelve el perímetro en el plano X, Y del [ReadOnlyLine](./). |
-| [InteriorPoint](../../interfaces/icloseable/propiedades/interiorpoint.md) | Calcula un punto interior en el [ReadOnlyLine](./).; (Heredado de [ICloseable](../../interfaces/icloseable/)) |
-| [ClosedXYZ](../../interfaces/icloseable/propiedades/closedxyz.md) | Indica si el primer y último vértices del [ReadOnlyLine](./) coinciden en X, Y, Z.; (Heredado de [ICloseable](../../interfaces/icloseable/)) |
-| [Closed](../../interfaces/icloseable/propiedades/closed.md) | Indica si el primer y último vértices del [ReadOnlyLine](./) coinciden en X, Y.; (Heredado de [ICloseable](../../interfaces/icloseable/)) |
+| [InteriorPoint](../../interfaces/icloseable/propiedades/interiorpoint.md) |Calcula un punto interior en el [ReadOnlyLine](./).<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
+| [ClosedXYZ](../../interfaces/icloseable/propiedades/closedxyz.md) |Indica si el primer y último vértices del [ReadOnlyLine](./) coinciden en X, Y, Z.<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
+| [Closed](../../interfaces/icloseable/propiedades/closed.md) |Indica si el primer y último vértices del [ReadOnlyLine](./) coinciden en X, Y.<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
 | [LastSegment](propiedades/lastsegment.md) | Devuelve un [Segment](../../../digi21.math/clases/segment.md) referenciando al último segmento del [ReadOnlyLine](./). |
 | [FirstSegment](propiedades/firstsegment.md) | Devuelve un [Segment](../../../digi21.math/clases/segment.md)referenciando al primer segmento del [ReadOnlyLine](./). |
 | [LastVertex](propiedades/lastvertex.md) | Devuelve un [Point3D](../../../digi21.math/clases/point3d.md)con las coordenadas del último vértice del [ReadOnlyLine](./). |
@@ -38,14 +38,14 @@ Implementa: [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/d
 
 |  |  |
 | :--- | :--- |
-| [AnalyzePointPosition(Point3D)](../../interfaces/icloseable/metodos/analyzepointposition.md) | Devuelve un [PointPosition](../../enumeraciones/pointposition.md)especificando la posición relativa de un determinado punto con el [ReadOnlyLine](./).; (Heredado de [ICloseable](../../interfaces/icloseable/)) |
-| [Clip(ReadOnlyLine)](../../interfaces/iclippable/metodos/clip.md) | Devuelve un conjunto de geometrías que son el resultado de recortar el [ReadOnlyLine](./) por el límite especificado.; (Heredado de [IClippable](../../interfaces/iclippable/)) |
+| [AnalyzePointPosition(Point3D)](../../interfaces/icloseable/metodos/analyzepointposition.md) |Devuelve un [PointPosition](../../enumeraciones/pointposition.md)especificando la posición relativa de un determinado punto con el [ReadOnlyLine](./).<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
+| [Clip(ReadOnlyLine)](../../interfaces/iclippable/metodos/clip.md) |Devuelve un conjunto de geometrías que son el resultado de recortar el [ReadOnlyLine](./) por el límite especificado.<br>(Heredado de [IClippable](../../interfaces/iclippable/))|
 | [Clone()](metodos/clone.md) | Devuelve una nueva instancia de [Line](../line/) idéntica a la actual pero que no está asignada a ningún [IDrawingFile](../../../digi21.diging.io/interfaces/idrawingfile/) de manera que no es de solo lectura. |
-| [Distance(Point3D)](../../interfaces/isnapable/metodos/distance.md) | Devuelve un vector cuyo módulo es la distancia al punto más cercano a la geometría.; (Heredado de [ISnapable](../../interfaces/isnapable/)) |
-| [NearestSegment(Point3D, out Point3D, out int)](../../interfaces/isnapable/metodos/nearestsegment.md) | Indica el segmento más cercano y calcula la proyección a dicho segmento además de devolver la distancia a dicho punto.; (Heredado de [ISnapable](../../interfaces/isnapable/)) |
-| [NearestVertex(Point3D, out Point3D, out int)](../../interfaces/isnapable/metodos/nearestvertex.md) | Indica el vértice más cercano, así como su índice y distancia.; (Heredado de [ISnapable](../../interfaces/isnapable/)) |
-| ToString() | Convierte este [ReadOnlyLine](./) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
-| [Trim(ReadOnlyLine, bool)](../../interfaces/itrimmable/metodos/trim.md) | Indica el vértice más cercano, así como su índice y distancia.; (Heredado de [ITrimable](../../interfaces/itrimmable/)) |
+| [Distance(Point3D)](../../interfaces/isnapable/metodos/distance.md) |Devuelve un vector cuyo módulo es la distancia al punto más cercano a la geometría.<br>(Heredado de [ISnapable](../../interfaces/isnapable/))|
+| [NearestSegment(Point3D, out Point3D, out int)](../../interfaces/isnapable/metodos/nearestsegment.md) |Indica el segmento más cercano y calcula la proyección a dicho segmento además de devolver la distancia a dicho punto.<br>(Heredado de [ISnapable](../../interfaces/isnapable/))|
+| [NearestVertex(Point3D, out Point3D, out int)](../../interfaces/isnapable/metodos/nearestvertex.md) |Indica el vértice más cercano, así como su índice y distancia.<br>(Heredado de [ISnapable](../../interfaces/isnapable/))|
+| ToString() |Convierte este [ReadOnlyLine](./) en una cadena legible para los humanos.<br>(Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0))|
+| [Trim(ReadOnlyLine, bool)](../../interfaces/itrimmable/metodos/trim.md) |Indica el vértice más cercano, así como su índice y distancia.<br>(Heredado de [ITrimable](../../interfaces/itrimmable/))|
 
 
 

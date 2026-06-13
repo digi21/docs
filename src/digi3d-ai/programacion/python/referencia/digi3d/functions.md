@@ -21,7 +21,7 @@ punto de entrada habitual de un guion.
 | `print_statusbar(message)` | Escribe un mensaje en la barra de estado. |
 | `show_ballon(title, body, icon=BallonType.Info, time=1000)` | Muestra un globo informativo temporal ([BallonType](enumerations.md#ballontype)). |
 | `progress(value=-1)` | Actualiza la barra de progreso (porcentaje). |
-| `ask_question(question)` | Muestra un diálogo modal Sí/No; devuelve `True` o `False`. |
+| `ask_question(question)` |Muestra un diálogo modal Sí/No<br>devuelve `True` o `False`.|
 | `show_info(message)` | Muestra un diálogo modal con información para el usuario. |
 
 ## Paneles de resultados y tareas

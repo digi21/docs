@@ -28,17 +28,17 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 |  |  |
 | :--- | :--- |
 | [Bottom](propiedades/bottom.md) | Devuelve o asigna el semi ancho inferior de la cámara. |
-| [Far](../camera/propiedades/far.md) | Devuelve o asigna la distancia del plano lejano del cono de visión.; (Heredado de [Camera](../camera/)) |
+| [Far](../camera/propiedades/far.md) |Devuelve o asigna la distancia del plano lejano del cono de visión.<br>(Heredado de [Camera](../camera/))|
 | [FieldOfView](../coniccamera/propiedades/fieldofview.md) | Devuelve o asigna el campo de visión vertical (expresado en ángulos sexagesimales). |
 | [Left](propiedades/left.md) | Devuelve o asigna el semi ancho izquierdo de la cámara. |
-| [Near](../camera/propiedades/near.md) | Devuelve o asigna la distancia del plano cercano del cono de visión.; (Heredado de [Camera](../camera/)) |
-| [Name](../camera/propiedades/name.md) | Devuelve o asigna el nombre de la cámara.; (Heredado de [Camera](../camera/)) |
-| [Pitch](../camera/propiedades/pitch.md) | Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Pitch*.; (Heredado de [Camera](../camera/)) |
-| [Position](../camera/propiedades/position.md) | Devuelve o asigna la posición de la cámara.; (Heredado de [Camera](../camera/)) |
+| [Near](../camera/propiedades/near.md) |Devuelve o asigna la distancia del plano cercano del cono de visión.<br>(Heredado de [Camera](../camera/))|
+| [Name](../camera/propiedades/name.md) |Devuelve o asigna el nombre de la cámara.<br>(Heredado de [Camera](../camera/))|
+| [Pitch](../camera/propiedades/pitch.md) |Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Pitch*.<br>(Heredado de [Camera](../camera/))|
+| [Position](../camera/propiedades/position.md) |Devuelve o asigna la posición de la cámara.<br>(Heredado de [Camera](../camera/))|
 | [Right](propiedades/right.md) | Devuelve o asigna el semi ancho derecho de la cámara. |
-| [Roll](../camera/propiedades/roll.md) | Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Roll*.; (Heredado de [Camera](../camera/)) |
+| [Roll](../camera/propiedades/roll.md) |Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Roll*.<br>(Heredado de [Camera](../camera/))|
 | [Top](propiedades/top.md) | Devuelve o asigna el semi ancho superior de la cámara. |
-| [Yaw](../camera/propiedades/yaw.md) | Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Yaw*.; (Heredado de [Camera](../camera/)) |
+| [Yaw](../camera/propiedades/yaw.md) |Devuelve o asigna el ángulo (en sexagesimal) de rotación en el eje *Yaw*.<br>(Heredado de [Camera](../camera/))|
 
 
 

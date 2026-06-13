@@ -39,7 +39,7 @@ Una función se reconoce como control de calidad si cumple tres condiciones:
 | Parámetro | Descripción |
 |---|---|
 | `geometry` | La [geometría](../referencia/digi21.base/geometry.md) que se está analizando. |
-| `adding_geometry` | `True` si se ejecuta **en tiempo real** (la geometría se acaba de dibujar y aún no está en el archivo); `False` si se ejecuta **bajo demanda** desde el menú. |
+| `adding_geometry` |`True` si se ejecuta **en tiempo real** (la geometría se acaba de dibujar y aún no está en el archivo)<br>`False` si se ejecuta **bajo demanda** desde el menú.|
 | `code_index` | Índice del código de la geometría que se está analizando (una geometría puede tener varios códigos). |
 
 El comportamiento puede cambiar según `adding_geometry`: en tiempo real suele bastar con

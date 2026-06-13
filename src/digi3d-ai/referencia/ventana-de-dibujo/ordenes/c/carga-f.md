@@ -7,9 +7,9 @@ Visualiza en pantalla, junto al fichero actual de dibujo, uno o varios ficheros 
 
 | Archivo | Parámetros |
 | :--- | :--- |
-| Archivo .bin | Precisión; Coordenadas del origen global |
+| Archivo .bin |Precisión<br>Coordenadas del origen global|
 | Archivo ASCII de Kork | No hace falta ningún parámetro |
-| Archivo .DGN v8 | Archivo de células; Nº de entidades a saltar; Criterio de códigos; Códigos desconocidos |
+| Archivo .DGN v8 |Archivo de células<br>Nº de entidades a saltar<br>Criterio de códigos<br>Códigos desconocidos|
 | Archivo DXF de AutoCAD | Tabla de traducción; C:\Archivos de programa\Digi21.net\Digi3D2006\Tablas\BINDXF.TAB.XML |
 
 

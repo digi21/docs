@@ -34,7 +34,7 @@ Implementa: [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idi
 |  |  |
 | :--- | :--- |
 | [AddCode](metodos/addcode.md) | Añade un nuevo código a la tabla de códigos. |
-| [Dispose](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=net-5.0) | Libera los recursos utilizados por la tabla de códigos.; (Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0)) |
+| [Dispose](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=net-5.0) |Libera los recursos utilizados por la tabla de códigos.<br>(Heredado de [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0))|
 | [HasCode(string)](metodos/hascode.md#hascode-string) | Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros. |
 | [HasCode(string, bool)](metodos/hascode.md#hascode-string-bool) | Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros permitiendo indicar si aplicar lógica de comodines. |
 | [Write(string)](metodos/write.md) | Almacena la tabla de códigos en un archivo. |

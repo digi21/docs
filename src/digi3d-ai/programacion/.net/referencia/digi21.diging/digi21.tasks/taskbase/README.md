@@ -29,11 +29,11 @@ Implementa: [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21
 
 |  |  |
 | :--- | :--- |
-| [Children](../itask/propiedades/childs.md) | Devuelve un array subtareas.; (Heredado de [ITask](../itask/)) |
-| [Module](../itask/propiedades/module.md) | Devuelve el nombre del módulo que generó la tarea.; (Heredado de [ITask](../itask/)) |
-| [DrawingFile](../itask/propiedades/drawingfile.md) | Devuelve la ruta del archivo de dibujo que provocó que se generara la tarea.; (Heredado de [ITask](../itask/)) |
-| [Severity](../itask/propiedades/severity.md) | Devuelve un [TaskSeverity](../taskseverity.md)indicando el tipo de tarea.; (Heredado de [ITask](../itask/)) |
-| [Title](../itask/propiedades/title.md) | Devuelve el título de la tarea.; (Heredado de [ITask](../itask/)) |
+| [Children](../itask/propiedades/childs.md) |Devuelve un array subtareas.<br>(Heredado de [ITask](../itask/))|
+| [Module](../itask/propiedades/module.md) |Devuelve el nombre del módulo que generó la tarea.<br>(Heredado de [ITask](../itask/))|
+| [DrawingFile](../itask/propiedades/drawingfile.md) |Devuelve la ruta del archivo de dibujo que provocó que se generara la tarea.<br>(Heredado de [ITask](../itask/))|
+| [Severity](../itask/propiedades/severity.md) |Devuelve un [TaskSeverity](../taskseverity.md)indicando el tipo de tarea.<br>(Heredado de [ITask](../itask/))|
+| [Title](../itask/propiedades/title.md) |Devuelve el título de la tarea.<br>(Heredado de [ITask](../itask/))|
 
 
 ## Métodos
@@ -41,6 +41,6 @@ Implementa: [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21
 
 |  |  |
 | :--- | :--- |
-| [Execute()](../itask/metodos/execute.md) | Fuerza la ejecución de la tarea.; (Heredado de [ITask](../itask/)) |
+| [Execute()](../itask/metodos/execute.md) |Fuerza la ejecución de la tarea.<br>(Heredado de [ITask](../itask/))|
 
 

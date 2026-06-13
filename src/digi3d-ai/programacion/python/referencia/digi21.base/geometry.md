@@ -32,7 +32,7 @@ Toda geometría se comporta como una secuencia de vértices `(x, y, z)`:
 | `first_vertex` | `tuple` | L | Primer vértice `(x, y, z)`. |
 | `last_vertex` | `tuple` | L | Último vértice `(x, y, z)`. |
 | `code_count` | `int` | L | Número de códigos. |
-| `owner` | `tuple` | L | `(geometría_propietaria, índice)` si pertenece a un contenedor; `(None, 0)` si no. |
+| `owner` | `tuple` | L |`(geometría_propietaria, índice)` si pertenece a un contenedor<br>`(None, 0)` si no.|
 
 ## Métodos
 
@@ -50,7 +50,7 @@ Toda geometría se comporta como una secuencia de vértices `(x, y, z)`:
 | `completely_outside(window)` | `bool` | Verdadero si está completamente fuera de la ventana (una [Line](line.md)). |
 | `overlaps_window(window, inside=True)` | `bool` | Verdadero si solapa con la ventana (una [Line](line.md)). |
 | `has_code(name)` | `bool` | Verdadero si la geometría tiene el código indicado. |
-| `add_code(code)` | `bool` | Añade un código (`FeatureCode` o `str`); devuelve `True` si se añadió. |
+| `add_code(code)` | `bool` |Añade un código (`FeatureCode` o `str`)<br>devuelve `True` si se añadió.|
 | `remove_code(code)` | — | Elimina el código indicado (`FeatureCode` o `str`). |
 
 ## Relaciones espaciales
