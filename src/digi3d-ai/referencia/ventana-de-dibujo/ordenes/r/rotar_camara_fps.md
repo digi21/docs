@@ -2,6 +2,12 @@
 
 Rota la cámara en la ventana de dibujo mediante movimientos del ratón.
 
+## Parámetros
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Sincronizar la rotación con Digi3D | 0 (no) ó 1 (sí) | Si |
+
 ## Observaciones
 
 Esta orden anula el movimiento del _SpaceMouse_ y lo rehabilita al finalizar.

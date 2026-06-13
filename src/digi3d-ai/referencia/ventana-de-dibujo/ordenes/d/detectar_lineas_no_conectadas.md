@@ -2,6 +2,12 @@
 
 Crea una tarea de error por cada extremo de línea que no esté conectado por código con otra entidad.
 
+## Parámetros
+
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código o códigos de las líneas a comprobar | Si |
+
 ## Observaciones
 
 Esta orden recorre las entidades lineales del dibujo y comprueba, para cada extremo, si existe conexión con otra entidad del mismo código. Por cada extremo que quede suelto \(sin conectar por código\) se genera una tarea de error, que el usuario puede ir revisando y corrigiendo posteriormente.
