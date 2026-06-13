@@ -7,7 +7,7 @@ Permite ejecutar órdenes relacionadas con desplazamientos de la ventana de dibu
 ## Botones
 
 * Botón que activa/desactiva la variable [AUTO_RATON](../ventana-de-dibujo/variables/a/auto-raton.md).
-* Botón que activa/desactiva la variable [AUTO](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/a/auto.md).
+* Botón que activa/desactiva la variable [AUTO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/auto.md).
 * Botón que ejecuta la orden [ZOOMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zooma.md).
 * Botón que ejecuta la orden [ZOOMP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomp.md).
 * Botón que ejecuta la orden [ZOOM2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom2p.md).

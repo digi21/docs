@@ -4,9 +4,11 @@ Carga imágenes sin orientación asociada.
 
 ## Parámetros
 
-Para calcular la transformación AFIN, el programa necesita de al menos 3 puntos. Es recomendable digitalizar un mínimo de 4 puntos para dar al programa redundancia de datos y poder comprobar los residuos mostrados en la barra inferior mediante los valores Rx y Ry.
+No admite parámetros.
 
 ## Observaciones
+
+Para calcular la transformación AFIN, el programa necesita de al menos 3 puntos. Es recomendable digitalizar un mínimo de 4 puntos para dar al programa redundancia de datos y poder comprobar los residuos mostrados en la barra inferior mediante los valores Rx y Ry.
 
 Se calcula automáticamente una orientación AFIN ajustando la imagen al rango de coordenadas máximas y mínimas en la pantalla en el momento de la carga de la imagen.
 

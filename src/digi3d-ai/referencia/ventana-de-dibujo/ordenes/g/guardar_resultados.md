@@ -4,12 +4,9 @@ Guarda en un archivo TXT el contenido del panel de resultados.
 
 ## Parámetros
 
-
-
-| 1 | Ruta del archivo a crear. Si no se especifica, el programa mostrará un cuadro de diálogo para que el usuario especifique la ruta del archivo a crear. | Cadena de caracteres. | Si |
-| - | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | -- |
-
-
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Ruta del archivo a crear. Si no se especifica, el programa mostrará un cuadro de diálogo para que el usuario indique la ruta | Cadena de caracteres | Si |
 
 ## Características de la orden
 

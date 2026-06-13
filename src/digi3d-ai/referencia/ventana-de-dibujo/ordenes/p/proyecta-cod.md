@@ -4,7 +4,9 @@ Proyecta entidades sobre el MDT cargado en le momento de ejecutarla.
 
 ## Parámetros
 
-El único parámetro que necesita es el código a proyectar.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código y tipo de geometría de las entidades a proyectar | Si |
 
 ## Observaciones
 

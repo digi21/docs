@@ -4,6 +4,10 @@ Especifica criterios de búsqueda para entidades.
 
 ## Parámetros
 
+No admite parámetros.
+
+## Observaciones
+
 * Complejos por código
 * Entidades con atributo nulo
 * Entidades con atributo nulo por campo
@@ -21,8 +25,6 @@ Especifica criterios de búsqueda para entidades.
 * Todos los polígonos
 * Todos los puntos
 * Todos los textos
-
-## Observaciones
 
 Puedes refinar la búsqueda especificando cualquier parámetro que la orden te permita utilizar.
 
