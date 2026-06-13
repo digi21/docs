@@ -1,6 +1,6 @@
 # Creando un proyecto fotogramétrico para Bronchales
 
-El cuadro de diálogo [Cuadro de diálogo Crear proyecto fotogramétrico](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/proyectos-de-proyecto-fotogrametrico/CuadroDeDialogoCrearProyectoFotogrametrico.md) permite crear tanto archivos de _proyecto fotogramétrico_ como archivos de proyecto [.d3d](creando-proyecto-fotogrametrico-bronchales.md).
+El cuadro de diálogo [Cuadro de diálogo Crear proyecto fotogramétrico](/digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md) permite crear tanto archivos de _proyecto fotogramétrico_ como archivos de proyecto [.d3d](creando-proyecto-fotogrametrico-bronchales.md).
 
 En este ejemplo vamos a crear un archivo de _proyecto fotogramétrico_ que indique que el proyecto tiene una única _pasada_, y que esta _pasada_ está compuesta por dos modelos: el _107-108_ y el _108-109_.
 

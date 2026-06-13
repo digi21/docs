@@ -48,7 +48,7 @@ DA=12.45 22.49
 | Tipo de variable | [Real](../../../ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Inmediato/Distancia activa con dos puntos o Inmediato/Distancia activa con cuatro puntos |
+| Opción del menú donde aparece la orden | Inmediato/Distancia activa con cuatro puntos |
 | Barra de herramientas en la que aparece la orden | Parámetros activos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

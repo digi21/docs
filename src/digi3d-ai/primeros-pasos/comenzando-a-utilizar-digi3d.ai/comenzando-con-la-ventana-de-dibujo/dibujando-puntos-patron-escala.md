@@ -20,7 +20,7 @@ Sigue los siguientes pasos para digitalizar un punto:
 
 Sigue los siguientes pasos para activar la representación gráfica \(patrón\) del punto que acabas de dibujar:
 
-1. Ejecuta la orden [**PATRON**](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/PATRON.html), para poder visualizar la representación de ese código puntual, para ello, selecciona el botón correspondiente a esta orden en la [Barra de herramientas Parámetros de visualización](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/BarraDeHerramientasParametrosDeVisualizacion.md).
+1. Ejecuta la orden [**PATRON**](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/patron.md), para poder visualizar la representación de ese código puntual, para ello, selecciona el botón correspondiente a esta orden en la [Barra de herramientas Parámetros de visualización](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/BarraDeHerramientasParametrosDeVisualizacion.md).
 
 La escala de representación de los patrones varía en función de la **Escala activa** en la pestaña **Archivo de dibujo**, del cuadro de diálogo [Nuevo Proyecto](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/).
 

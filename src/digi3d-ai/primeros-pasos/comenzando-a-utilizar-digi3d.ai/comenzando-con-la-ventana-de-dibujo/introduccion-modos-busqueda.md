@@ -3,7 +3,7 @@
 Conoce algunos de los **modos de búsqueda de Digi3D.AI** siguiendo los siguientes pasos:
 
 1. Dibuja una línea en forma de zigzag haciendo clic con el Botón de dato del ratón sobre la ventana de dibujo.
-2. Visualiza la [Barra de herramientas Tentativo](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/BarraDeHerramientasTentativo.html), si no la tienes activa, aprende a activarla pulsando [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md).
+2. Visualiza la [Barra de herramientas Tentativo](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md), si no la tienes activa, aprende a activarla pulsando [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md).
 3. Pulsa sobre el desplegable de la segunda ventana de la [Barra de herramientas Tentativo](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md), esta ventana te va apermitir seleccionar entre distintos modos de búsqueda.
 4. Cambia el rango de búsqueda del cursor en el desplegable del botón Cambiar tamaño del cursor de la Barra de herramientas Tentativos.
 
