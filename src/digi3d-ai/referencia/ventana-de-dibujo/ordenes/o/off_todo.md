@@ -2,6 +2,10 @@
 
 Oculta la visualización de todas las geometrías.
 
+## Parámetros
+
+No admite parámetros.
+
 ## Observaciones
 
 Esta orden trabaja por geometrías y no por códigos. Si una geometría se marca como oculta, no se visualizará hasta que se des oculte, independientemente de que sus códigos estén activos.

@@ -2,6 +2,12 @@
 
 Establece el modo de búsqueda o enganche gráfico a elementos del dibujo.
 
+## Parámetros
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Modo de objeto | Número entero del 0 al 22 | Si |
+
 ## Observaciones
 
 El ámbito de búsqueda de una entidad está determinado por el tamaño del cursor y el factor de zoom de pantalla.

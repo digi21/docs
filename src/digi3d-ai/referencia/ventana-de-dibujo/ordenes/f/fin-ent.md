@@ -6,6 +6,10 @@ Da por finalizada la definición geométrica de una entidad.
 
 No admite parámetros.
 
+## Parámetros
+
+No admite parámetros.
+
 ## Observaciones
 
 Tras esta orden puedes seguir trazando nuevas entidades con la orden y código de dibujo activos.

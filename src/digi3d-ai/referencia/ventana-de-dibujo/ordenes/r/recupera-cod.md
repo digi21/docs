@@ -4,7 +4,9 @@ Recupera todas aquellas entidades borradas que tengan un código igual al teclea
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código y tipo de geometría de las entidades a recuperar. Se pueden indicar varios pares «código tipo» para recuperar entidades de distintos códigos a la vez | Si |
 
 ## Observaciones
 
