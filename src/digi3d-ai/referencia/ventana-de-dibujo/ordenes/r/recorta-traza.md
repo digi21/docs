@@ -9,9 +9,9 @@ Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-ai/referencia/venta
 | :--- | :--- | :--- | :--- |
 | 1 | Directorio de salida | Indica el directorio en el cual se guardará el resultado | Si |
 | 2 | Extensión de los archivos a generar | Tipo de formato de archivo a generar, BIK, BIN, DGN, DWG o DXF | Si |
-| 3 | Propiedades del motor de importación/exportación | Precisión: de las coordenadas en el modelo; Origen global , Y y Z; Tipo de bloqueo: No bloquear, Denegar lectura, Denegar escritura, Denegar lectura y escritura | Si |
+| 3 | Propiedades del motor de importación/exportación |Precisión: de las coordenadas en el modelo<br>Origen global , Y y Z<br>Tipo de bloqueo: No bloquear, Denegar lectura, Denegar escritura, Denegar lectura y escritura| Si |
 | 4 | Propiedades generales |Escala: escala de creación de la hoja<br>Código del marco| Si |
-| 5 | Propiedades de las cruces | Código cruces; Altura cruces; Separación de cruces; Medias cruces: Indica si insertar medias cruces en el límite de la hoja | Si |
+| 5 | Propiedades de las cruces |Código cruces<br>Altura cruces<br>Separación de cruces<br>Medias cruces: Indica si insertar medias cruces en el límite de la hoja| Si |
 
 
 Puedes ejecutar la orden desde la línea de comandos utilizando el siguiente formato:

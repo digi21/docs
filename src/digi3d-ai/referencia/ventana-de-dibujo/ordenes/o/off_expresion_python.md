@@ -6,7 +6,7 @@ Desactiva la visualización de geometrías que devuelvan verdadero en la [expres
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Expresión Python a analizar por cada una de las geometrías de todos los archivos de dibujo cargados.; o; Conjunto de [selecciones](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) almacenadas en la tabla de códigos. Digi3D.AI entenderá que deberá extraer la expresión de una selección en la tabla de códigos si esta comienza por #. | No. |
+| 1 |Expresión Python a analizar por cada una de las geometrías de todos los archivos de dibujo cargados.<br>o<br>Conjunto de [selecciones](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) almacenadas en la tabla de códigos. Digi3D.AI entenderá que deberá extraer la expresión de una selección en la tabla de códigos si esta comienza por #.| No. |
 
 ### Ejemplos
 
