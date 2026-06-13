@@ -19,7 +19,7 @@ Las paralelas las va a generar con el código que esté activo en el momento de 
 | Tipo de orden | [Orden interactiva](paralela.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Dibujar/Más/Paralela clásica; o; Dibujar/Más/Paralela clásica con Z activa |
+| Opción del menú donde aparece la orden |Dibujar/Más/Paralela clásica<br>o<br>Dibujar/Más/Paralela clásica con Z activa|
 | Barra de herramientas en la que aparece la orden | *Esta orden no tiene asociado ningún botón en ninguna barra de herramientas* |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |

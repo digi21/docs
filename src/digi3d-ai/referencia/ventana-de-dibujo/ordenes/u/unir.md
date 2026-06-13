@@ -18,7 +18,7 @@ Las entidades deben tener el mismo código y los mismos atributos para poder uni
 | Tipo de orden | [Orden interactiva](unir.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Polilíneas/Unir dos polilíneas; ó; Editar/Polilíneas/Unir polilíneas por ventana y código |
+| Opción del menú donde aparece la orden |Editar/Polilíneas/Unir dos polilíneas<br>ó<br>Editar/Polilíneas/Unir polilíneas por ventana y código|
 | Barra de herramientas en la que aparece la orden | Unir |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

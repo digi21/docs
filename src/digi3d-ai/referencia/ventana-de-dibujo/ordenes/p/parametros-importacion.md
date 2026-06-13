@@ -9,9 +9,9 @@ Los parámetros de exportación dependerán del tipo de archivo.
 
 | Archivo | Parámetro | Descripción |
 | :--- | :--- | :--- |
-| BIN | Precisión; Coordenadas del origen global; Bloqueo de fichero | La precisión será:; 0= micras; 1= milímetros; 2= centímetros; 3= decímetros; 4= metros |
-| DGN v8 | Salto de entidades; Criterio para códigos; Importar paleta; Colores de las entidades | Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria; 0 - Nivel 1 - Nivel, color, grosor, estilo, célula; 2 - Grupo gráfico; 0 - No; 1 - Si; 0 - Utiliza colores del archivo DGN; 1 - Utiliza colores de la tabla de códigos activa |
-| DWG ó DXF de AutoCAD | Versión de AutoCAD; Importar bloques; Ruta de importación | Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
+| BIN |Precisión<br>Coordenadas del origen global<br>Bloqueo de fichero|La precisión será:<br>0= micras<br>1= milímetros<br>2= centímetros<br>3= decímetros<br>4= metros|
+| DGN v8 |Salto de entidades<br>Criterio para códigos<br>Importar paleta<br>Colores de las entidades| Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria; 0 - Nivel 1 - Nivel, color, grosor, estilo, célula; 2 - Grupo gráfico; 0 - No; 1 - Si; 0 - Utiliza colores del archivo DGN; 1 - Utiliza colores de la tabla de códigos activa |
+| DWG ó DXF de AutoCAD |Versión de AutoCAD<br>Importar bloques<br>Ruta de importación| Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
 
 
 ## Observaciones

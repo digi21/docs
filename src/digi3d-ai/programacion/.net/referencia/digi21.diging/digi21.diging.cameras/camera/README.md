@@ -30,7 +30,7 @@ Tipos derivados: [ConicCamera](/digi3d-ai/programacion/.net/referencia/digi21.di
 
 |  |  |
 | :--- | :--- |
-| ToString() | Convierte este [Entity](../../digi21.diging.entities/entity/) en una cadena legible para los humanos.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
+| ToString() |Convierte este [Entity](../../digi21.diging.entities/entity/) en una cadena legible para los humanos.<br>(Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0))|
 | [ViewportToWorld(Point3D)](metodos/viewporttoworld.md) | Transforma una coordenada de *cámara* a *mundo*. |
 | [WorldToViewport(Point3D)](metodos/worldtoviewport.md) | Transforma una coordenada de *mundo* a *cámara*. |
 

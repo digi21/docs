@@ -31,11 +31,11 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 |  |  |
 | :--- | :--- |
-| [ChangeDirection()](../../interfaces/idirectionable/metodos/changedirection.md) | Cambia la dirección del [Line](./).; (Heredado de [IDirectionable](../../interfaces/idirectionable/)) |
+| [ChangeDirection()](../../interfaces/idirectionable/metodos/changedirection.md) |Cambia la dirección del [Line](./).<br>(Heredado de [IDirectionable](../../interfaces/idirectionable/))|
 | [Close()](metodos/close.md) | Cierra el [Line](./). |
-| [Offset(Point2D)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza el [Line](./) en el plano X, Y.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
-| [Offset(Point3D)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza el [Line](./) en el espacio.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
-| [Offset(double, double)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double) | Desplaza el [Line](./) en el plano X, Y.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
-| [Offset(double, double, double)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double-double) | Desplaza el [Line](./) en el espacio.; (Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/)) |
+| [Offset(Point2D)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-2-d) |Desplaza el [Line](./) en el plano X, Y.<br>(Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/))|
+| [Offset(Point3D)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-point-3-d) |Desplaza el [Line](./) en el espacio.<br>(Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/))|
+| [Offset(double, double)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double) |Desplaza el [Line](./) en el plano X, Y.<br>(Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/))|
+| [Offset(double, double, double)](../../../digi21.math/interfaces/idesplazable/metodos/offset.md#offset-double-double-double) |Desplaza el [Line](./) en el espacio.<br>(Heredado de [IDesplazable](../../../digi21.math/interfaces/idesplazable/))|
 
 

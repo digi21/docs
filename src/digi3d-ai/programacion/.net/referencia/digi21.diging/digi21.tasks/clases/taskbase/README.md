@@ -29,11 +29,11 @@ Implementa: [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21
 
 |  |  |
 | :--- | :--- |
-| [Children](../../interfaces/itask/propiedades/childs.md) | Devuelve un array subtareas.; (Heredado de [ITask](../../interfaces/itask/)) |
-| [Module](../../interfaces/itask/propiedades/module.md) | Devuelve el nombre del módulo que generó la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
-| [DrawingFile](../../interfaces/itask/propiedades/drawingfile.md) | Devuelve la ruta del archivo de dibujo que provocó que se generara la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
-| [Severity](../../interfaces/itask/propiedades/severity.md) | Devuelve un [TaskSeverity](../../enumeraciones/taskseverity.md)indicando el tipo de tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
-| [Title](../../interfaces/itask/propiedades/title.md) | Devuelve el título de la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
+| [Children](../../interfaces/itask/propiedades/childs.md) |Devuelve un array subtareas.<br>(Heredado de [ITask](../../interfaces/itask/))|
+| [Module](../../interfaces/itask/propiedades/module.md) |Devuelve el nombre del módulo que generó la tarea.<br>(Heredado de [ITask](../../interfaces/itask/))|
+| [DrawingFile](../../interfaces/itask/propiedades/drawingfile.md) |Devuelve la ruta del archivo de dibujo que provocó que se generara la tarea.<br>(Heredado de [ITask](../../interfaces/itask/))|
+| [Severity](../../interfaces/itask/propiedades/severity.md) |Devuelve un [TaskSeverity](../../enumeraciones/taskseverity.md)indicando el tipo de tarea.<br>(Heredado de [ITask](../../interfaces/itask/))|
+| [Title](../../interfaces/itask/propiedades/title.md) |Devuelve el título de la tarea.<br>(Heredado de [ITask](../../interfaces/itask/))|
 
 
 ## Métodos
@@ -41,6 +41,6 @@ Implementa: [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21
 
 |  |  |
 | :--- | :--- |
-| [Execute()](../../interfaces/itask/metodos/execute.md) | Fuerza la ejecución de la tarea.; (Heredado de [ITask](../../interfaces/itask/)) |
+| [Execute()](../../interfaces/itask/metodos/execute.md) |Fuerza la ejecución de la tarea.<br>(Heredado de [ITask](../../interfaces/itask/))|
 
 

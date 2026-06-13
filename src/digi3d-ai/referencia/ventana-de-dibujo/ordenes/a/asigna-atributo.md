@@ -10,7 +10,7 @@ Esta orden asigna un valor a un atributo en la lista de atributos activos en la 
 | 1 | Código | No |
 | 2 | Nombre del campo | No |
 | 3 | Valor | No |
-| 4 | ¿Campo visible? (0 ó 1; por defecto 1) | Si |
+| 4 |¿Campo visible? (0 ó 1<br>por defecto 1)| Si |
 
 ## Características de la orden
 

@@ -36,7 +36,7 @@ Line(codes, coordinates=[])
 | `close()` | — | Cierra la línea. |
 | `reverse()` | — | Invierte el sentido de la línea. |
 | `smooth(increment)` | — | Suaviza la línea. |
-| `generalize(tolerance, angular_tolerance)` | `bool` | Generaliza la línea; devuelve `True` si la modificó. |
+| `generalize(tolerance, angular_tolerance)` | `bool` |Generaliza la línea<br>devuelve `True` si la modificó.|
 | `parallelize(distance)` | — | Desplaza/paraleliza la línea la distancia indicada. |
 | `generate_spline()` | — | Genera una spline a partir de los vértices. |
 | `remove_duplicate_points(in_2d=False)` | — | Elimina vértices duplicados consecutivos. |
@@ -52,7 +52,7 @@ Line(codes, coordinates=[])
 | `calculate_position_point(coordinates)` | [PointLineRelativePosition](pointlinerelativeposition.md) | Posición de unas coordenadas (o de un `point`) respecto a la línea. |
 | `search_segment(coordinates)` | `tuple` | Segmento más próximo: `(distancia, (x,y,z) del corte, nº de segmento)`. Acepta también un `point`. |
 | `search_vertex(coordinates)` | `tuple` | Vértice más próximo: `(distancia, (x,y,z) del corte, nº de vértice)`. Acepta también un `point`. |
-| `search_vertex(coordinates, first_vertex, last_vertex=-1)` | `int` | Vértice más próximo entre dos índices; devuelve el nº de vértice. |
+| `search_vertex(coordinates, first_vertex, last_vertex=-1)` | `int` |Vértice más próximo entre dos índices<br>devuelve el nº de vértice.|
 | `project_origin_or_end(limit, origin, infinite_limit_extremes=True, allow_cut=True, allow_stretch=True)` | `tuple` | Proyecta el origen/final contra un límite: `(¿estirada?, (x,y,z) del corte, nº de segmento)`. |
 | `line_cross_line(line)` | `bool` | Verdadero si las dos líneas se cortan. |
 | `calculate_cross_coordinates(other)` | `tuple` | `(¿se cortan?, segmento_self, segmento_other, (x,y,z) del corte)`. |

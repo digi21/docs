@@ -33,7 +33,7 @@ Camera(name, position, angle_x, angle_y, angle_z)
 | `look` | `tuple` | L | Vector "mirada" `(x, y, z)`, derivado de las rotaciones. |
 | `right` | `tuple` | L | Vector "derecha" `(x, y, z)`, derivado de las rotaciones. |
 | `camera_matrix` | `tuple` | L | Matriz 3x3 de la cámara (filas: `right`, `up`, `look`). |
-| `conic` | `bool` | L | `True` si la cámara es cónica; `False` si es ortográfica. |
+| `conic` | `bool` | L |`True` si la cámara es cónica<br>`False` si es ortográfica.|
 | `fov` | `float` | L/E | Campo de visión (cámara cónica). |
 | `z_near` | `float` | L/E | Plano cercano (cámara cónica). |
 | `z_far` | `float` | L/E | Plano lejano (cámara cónica). |

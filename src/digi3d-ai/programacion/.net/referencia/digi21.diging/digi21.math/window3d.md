@@ -26,25 +26,25 @@ Implementa: [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 
 |  |  |
 | :--- | :--- |
-| [W](iwindow3d/propiedades/w.md) | Devuelve el punto al oeste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [SW](iwindow3d/propiedades/sw.md) | Devuelve el punto al sudeste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [S](iwindow3d/propiedades/s.md) | Devuelve el punto al sur del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [SE](iwindow3d/propiedades/se.md) | Devuelve el punto al sudeste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [E](iwindow3d/propiedades/e.md) | Devuelve el punto al este del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [NE](iwindow3d/propiedades/ne.md) | Devuelve el punto al noreste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [N](iwindow3d/propiedades/n.md) | Devuelve el punto al norte del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [NW](iwindow3d/propiedades/nw.md) | Devuelve el punto al noreste del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Center](iwindow3d/propiedades/center.md) | Devuelve el punto en el centro del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Depth](iwindow3d/propiedades/depth.md) | Devuelve el largo del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Height](iwindow3d/propiedades/height.md) | Devuelve el alto del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Width](iwindow3d/propiedades/width.md) | Devuelve el ancho del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Valid](iwindow3d/propiedades/valid.md) | Indica si el [Window3D](window3d.md) es válido.; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Xmin](iwindow3d/propiedades/xmin.md) | Devuelve la coordenada X mínima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Ymin](iwindow3d/propiedades/ymin.md) | Devuelve la coordenada Y mínima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Zmin](iwindow3d/propiedades/zmin.md) | Devuelve la coordenada Z mínima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Xmax](iwindow3d/propiedades/xmax.md) | Devuelve la coordenada X máxima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Ymax](iwindow3d/propiedades/ymax.md) | Devuelve la coordenada Y máxima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
-| [Zmax](iwindow3d/propiedades/zmax.md) | Devuelve la coordenada Z máxima del [Window3D](window3d.md).; (Heredado de [IWindow3D](iwindow3d/)) |
+| [W](iwindow3d/propiedades/w.md) |Devuelve el punto al oeste del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [SW](iwindow3d/propiedades/sw.md) |Devuelve el punto al sudeste del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [S](iwindow3d/propiedades/s.md) |Devuelve el punto al sur del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [SE](iwindow3d/propiedades/se.md) |Devuelve el punto al sudeste del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [E](iwindow3d/propiedades/e.md) |Devuelve el punto al este del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [NE](iwindow3d/propiedades/ne.md) |Devuelve el punto al noreste del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [N](iwindow3d/propiedades/n.md) |Devuelve el punto al norte del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [NW](iwindow3d/propiedades/nw.md) |Devuelve el punto al noreste del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Center](iwindow3d/propiedades/center.md) |Devuelve el punto en el centro del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Depth](iwindow3d/propiedades/depth.md) |Devuelve el largo del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Height](iwindow3d/propiedades/height.md) |Devuelve el alto del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Width](iwindow3d/propiedades/width.md) |Devuelve el ancho del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Valid](iwindow3d/propiedades/valid.md) |Indica si el [Window3D](window3d.md) es válido.<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Xmin](iwindow3d/propiedades/xmin.md) |Devuelve la coordenada X mínima del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Ymin](iwindow3d/propiedades/ymin.md) |Devuelve la coordenada Y mínima del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Zmin](iwindow3d/propiedades/zmin.md) |Devuelve la coordenada Z mínima del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Xmax](iwindow3d/propiedades/xmax.md) |Devuelve la coordenada X máxima del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Ymax](iwindow3d/propiedades/ymax.md) |Devuelve la coordenada Y máxima del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
+| [Zmax](iwindow3d/propiedades/zmax.md) |Devuelve la coordenada Z máxima del [Window3D](window3d.md).<br>(Heredado de [IWindow3D](iwindow3d/))|
 
 
 ## Métodos
@@ -52,10 +52,10 @@ Implementa: [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 
 |  |  |
 | :--- | :--- |
-| [Offset(Point2D)](idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
-| [Offset(Point3D)](idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
-| [Offset(double, double)](idesplazable/metodos/offset.md#offset-double-double) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
-| [Offset(double, double, double)](idesplazable/metodos/offset.md#offset-double-doublem-double) | Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
+| [Offset(Point2D)](idesplazable/metodos/offset.md#offset-point-2-d) |Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en el parámetro.<br>(Heredado de [IDesplazable](idesplazable/))|
+| [Offset(Point3D)](idesplazable/metodos/offset.md#offset-point-3-d) |Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en el parámetro.<br>(Heredado de [IDesplazable](idesplazable/))|
+| [Offset(double, double)](idesplazable/metodos/offset.md#offset-double-double) |Desplaza el [Window3D](window3d.md) tantas unidades en X, Y como se indique en los parámetros.<br>(Heredado de [IDesplazable](idesplazable/))|
+| [Offset(double, double, double)](idesplazable/metodos/offset.md#offset-double-doublem-double) |Desplaza el [Window3D](window3d.md) tantas unidades en X, Y, Z como se indique en los parámetros.<br>(Heredado de [IDesplazable](idesplazable/))|
 | Inflate(double, double, double) | Hace crecer tanto la X mínima como la X máxima del [Window3D](window3d.md) tantas unidades como las especificadas en el primer parámetro y de manera similar en los ejes Y,Z con los valores especificados en el segundo y tercer parámetro. |
 | Inflate(double, double) | Hace crecer tanto la X mínima como la X máxima del [Window3D](window3d.md) tantas unidades como las especificadas en el primer parámetro y de manera similar en el eje Y con el valor especificado en el segundo parámetro. |
 | Inflate(Point3D) | Hace crecer las máximas y mínimas del [Window3D](window3d.md) tantas unidades como las especificadas en el [Point3D](point3d.md) [](point2d.md)pasado por parámetro. |

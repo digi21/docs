@@ -44,11 +44,11 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 | CalculateModule(Point2D, Point3D) | Calcula el módulo en el plano entre un [Point2D](point2d.md)y un [Point3D](point3d.md). |
 | CalculateModule(Point2D, Point2D) | Calcula el módulo en el plano entre dos [Point2D](point2d.md). |
 | CalculateSquaredModule(Point2D, Point2D) | Calcula el módulo al cuadrado entre dos [Point2D](point2d.md). |
-| [Offset(Point2D)](idesplazable/metodos/offset.md#offset-point-2-d) | Desplaza la geometría tantas unidades en X, Y como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
-| [Offset(Point3D)](idesplazable/metodos/offset.md#offset-point-3-d) | Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro.; (Heredado de [IDesplazable](idesplazable/)) |
-| [Offset(double, double)](idesplazable/metodos/offset.md#offset-double-double) | Desplaza la geometría tantas unidades en X, Y como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
-| [Offset(double, double, double)](idesplazable/metodos/offset.md#offset-double-doublem-double) | Desplaza la geometría tantas unidades en X, Y, Z como se indique en los parámetros.; (Heredado de [IDesplazable](idesplazable/)) |
-| ToString() | Devuelve una cadena con la representación del punto.; (Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)) |
+| [Offset(Point2D)](idesplazable/metodos/offset.md#offset-point-2-d) |Desplaza la geometría tantas unidades en X, Y como se indique en el parámetro.<br>(Heredado de [IDesplazable](idesplazable/))|
+| [Offset(Point3D)](idesplazable/metodos/offset.md#offset-point-3-d) |Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro.<br>(Heredado de [IDesplazable](idesplazable/))|
+| [Offset(double, double)](idesplazable/metodos/offset.md#offset-double-double) |Desplaza la geometría tantas unidades en X, Y como se indique en los parámetros.<br>(Heredado de [IDesplazable](idesplazable/))|
+| [Offset(double, double, double)](idesplazable/metodos/offset.md#offset-double-doublem-double) |Desplaza la geometría tantas unidades en X, Y, Z como se indique en los parámetros.<br>(Heredado de [IDesplazable](idesplazable/))|
+| ToString() |Devuelve una cadena con la representación del punto.<br>(Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0))|
 
 
 ## Operadores

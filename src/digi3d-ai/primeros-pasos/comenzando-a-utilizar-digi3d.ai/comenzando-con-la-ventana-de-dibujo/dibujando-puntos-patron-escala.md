@@ -6,7 +6,7 @@
 | :--- | :--- |
 | Código | Nombre del código |
 | Color | Color de visualización del código en la ventana de dibujo |
-| Tipo | Lineal; Puntual; Virtual |
+| Tipo |Lineal<br>Puntual<br>Virtual|
 | Descripción | Descripción del código |
 
 * Si Digi3D.AI está en [modo preparado](dibujando-puntos-patron-escala.md) y el código activo es un [código lineal](dibujando-puntos-patron-escala.md), al pusar el [botón de dato](dibujando-puntos-patron-escala.md) sobre la ventana de dibujo, Digi3D.AI ejecutará de manera automática la orden [**LINEA**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y dibujará una polilínea.

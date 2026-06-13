@@ -12,8 +12,8 @@ Realiza transformaciones en el archivo de dibujo.
 | Traslación | Fichero ASCII con coordenadas Xi Yi Zi XI YI ZI de un solo punto |
 | Cambio de Huso | Elipsoide (por defecto aparece el Internacional Hayford), hemisferio, huso de entrada y huso de salida |
 | Escala de dibujo | Factor de escala en X, factor de escala en Y, desplazamiento del origen y si se desea que la altura de textos también sea escalada |
-| Tensor 3x3 | Fichero ASCII con matriz de tres por tres:; a00 a01 a02; a10 a11 a12; a20 a21 a22 |
-| Tensor 4x4 | Fichero ASCII con matriz de cuatro por cuatro:; a00 a01 a02 a03; a10 a11 a12 a13; a20 a21 a22 a23; a30 a31 a32 a33 |
+| Tensor 3x3 |Fichero ASCII con matriz de tres por tres:<br>a00 a01 a02<br>a10 a11 a12<br>a20 a21 a22|
+| Tensor 4x4 |Fichero ASCII con matriz de cuatro por cuatro:<br>a00 a01 a02 a03<br>a10 a11 a12 a13<br>a20 a21 a22 a23<br>a30 a31 a32 a33|
 | Transformación con archivo de rejilla en formato NTV2 | Archivo de parámetros, hemisferio, huso para la transformación, sentido (de UTM - ED50 a UTM - ETRS89) y archivo de salida (la ruta y el nombre del archivo que generará la operación) |
 
 Transformación con archivo de rejilla en formato NTV2: Transforma un archivo utilizando archivos de rejilla de mínima curvatura en formato NTV2 \(Canadian National Transformation Versión2\). Dispones de un archivo de ejemplo en el directorio C:\Archivos de Programa\Digi21.net\Digi3D\sped2et.gsb

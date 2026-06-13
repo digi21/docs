@@ -17,7 +17,7 @@ Las órdenes de tipo variable booleana admiten los siguientes parámetros:
 
 | Número de parámetro | Descripción | Valores admitidos | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático | **0**: Para desactivar la variable booleana.; **1**: Para activar la variable booleana.; **?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada. | Si |
+| 1 | Modo automático |**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
 
 
 ## Ejemplos

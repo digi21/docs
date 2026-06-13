@@ -20,8 +20,8 @@ Esta orden no recupera las geometrías eliminadas, únicamente habilita su visua
 | Tipo de variable | [Booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Visualizar entidades eliminadas; o; Editar/Visualizar entidades eliminadas |
-| Barra de herramientas en la que aparece la orden | Eliminar y recuperar; o; Parámetros de visualización |
+| Opción del menú donde aparece la orden |Ver/Parámetros de visualización/Visualizar entidades eliminadas<br>o<br>Editar/Visualizar entidades eliminadas|
+| Barra de herramientas en la que aparece la orden |Eliminar y recuperar<br>o<br>Parámetros de visualización|
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {6AB7B57F-5144-4b75-BD13-E9522B112823} |

@@ -88,14 +88,14 @@ for g in view:
 | `run_command(command)` | método | Ejecuta una orden por su nombre. |
 | `add_command(command)` | método | Ejecuta una orden ([PythonCommand](python-command.md)) y la inicializa. |
 | `command_push(command, send_on_lost_event_to_current_command=True)` | método | Apila una orden ([Command](command.md)) en el tope de la pila. Acepta también el nombre de la orden (`str`). |
-| `command_pop()` | método (`bool`) | Quita la orden activa de la pila; devuelve `True` si queda otra. |
+| `command_pop()` | método (`bool`) |Quita la orden activa de la pila<br>devuelve `True` si queda otra.|
 | `command_top` | propiedad (L) | La orden actual ([Command](command.md)). |
 
 ## Transformación de coordenadas
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `to_geo(coordinates)` | `tuple` | Transforma unas coordenadas del sistema de la ventana a geográficas (EPSG:4326); devuelve `(longitud, latitud)`. |
+| `to_geo(coordinates)` | `tuple` |Transforma unas coordenadas del sistema de la ventana a geográficas (EPSG:4326)<br>devuelve `(longitud, latitud)`.|
 | `project(coordinates)` | `float` \| `None` | Proyecta las coordenadas sobre el terreno y devuelve la `z` resultante (o `None` si no se puede). Acepta `(x, y, z)`, `(x, y)` o `x, y`. |
 
 ```python

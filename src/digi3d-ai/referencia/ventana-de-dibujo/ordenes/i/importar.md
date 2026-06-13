@@ -17,8 +17,8 @@ Los parámetros de exportación dependerán del tipo de archivo que se desea exp
 
 | Archivo | Parámetro | Descripción |
 | :--- | :--- | :--- |
-| BIN | Precisión; Coordenadas del origen global |  |
-| DGN v8 | Archivo de células; Salto de entidades; Criterio para códigos; Códigos desconocidos | Archivo de células relacionado con el archivo DGN; Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria; Criterio a seguir para la selección del código de Digi para la representación de entidades (Nivel, Color, Estilo, Grosor, Célula ó únicamente Grupo Gráfico); Código con que se generarán las entidades desconocidas, si no se especifica nada, el programa generará las entidades en el código desconocido standard (no seleccionable por parte del usuario) |
+| BIN |Precisión<br>Coordenadas del origen global|  |
+| DGN v8 |Archivo de células<br>Salto de entidades<br>Criterio para códigos<br>Códigos desconocidos| Archivo de células relacionado con el archivo DGN; Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria; Criterio a seguir para la selección del código de Digi para la representación de entidades (Nivel, Color, Estilo, Grosor, Célula ó únicamente Grupo Gráfico); Código con que se generarán las entidades desconocidas, si no se especifica nada, el programa generará las entidades en el código desconocido standard (no seleccionable por parte del usuario) |
 | DWG ó DXF de AutoCAD | Versión de AutoCAD | Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
 | ASCII de Kork | Sin parámetro |  |
 | MDB de Geomedia Datawarehose | Altura de textos | Es indispensable tener licencia de Geomedia |

@@ -29,7 +29,7 @@ Polygon(codes, coordinates=[])
 |---|---|---|
 | `add_hole(hole)` | — | Añade una [Line](line.md) como hueco. La propiedad pasa al polígono. |
 | `insert_hole(position, hole)` | — | Inserta una [Line](line.md) como hueco en la posición indicada. |
-| `remove_hole(hole)` | `bool` | Elimina el hueco indicado; devuelve `True` si se eliminó. |
+| `remove_hole(hole)` | `bool` |Elimina el hueco indicado<br>devuelve `True` si se eliminó.|
 | `clear_holes()` | — | Elimina todos los huecos. |
 | `explode()` | `list` | Devuelve clones independientes de las geometrías que lo componen. |
 
