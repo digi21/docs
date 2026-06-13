@@ -28,7 +28,5 @@ A diferencia de [DIBUJA\_PERÍMETRO](/digi3d-ai/referencia/ventana-de-dibujo/ord
 | Opción del menú donde aparece la orden | Dibujar/Acotar/Perímetro 3D de un polígono seleccionado |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo  
-[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos  
-[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
 | Nombre interno | {6C10238F-6C0F-4BD3-AFA8-251F15552F53} |

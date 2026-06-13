@@ -20,8 +20,7 @@ El rectángulo se dibujará con el [ángulo activo](../../variables/a/aa.md) con
 | Opción del menú donde aparece la orden           | Dibujar/Mas/Rectángulo con dos puntos y ángulo activo                |
 | Barra de herramientas en la que aparece la orden | Cuadrados y rectángulos                                              |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                             |
-| Variables relacionadas                           | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo  
-[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Variables relacionadas                           | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Nombre interno | {63DCF587-DB76-4992-B84E-F1729BBDF3DC} |
 
 ## Vídeo
