@@ -4,9 +4,9 @@ Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\
 
 ## Parámetros
 
-`texto`
-
-Texto a insertar
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Texto a insertar | Si |
 
 ## Observaciones
 
@@ -16,20 +16,19 @@ La orden solicitará que se [introduzcan](../../introduccion-de-coordenadas.md)l
 
 ## Características de la orden
 
-|  |  |  |
-| :--- | :--- | :--- |
-|  | Tipo de orden | [Orden interactiva](../../../ordenes/ordenes-interactivas.md) |
-|  | Repite automáticamente | No |
-|  | Opción del menú donde aparece la orden | Dibujar/Texto con ángulo activo |
-|  | Barra de herramientas en la que aparece la orden | Textos |
-|  | Extensión | DigiNG.OrdenesStandard.dll |
-|  | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo  
+| Tipo de orden | [Orden interactiva](../../../ordenes/ordenes-interactivas.md) |
+| :--- | :--- |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Dibujar/Texto con ángulo activo |
+| Barra de herramientas en la que aparece la orden | Textos |
+| Extensión | DigiNG.OrdenesStandard.dll |
+| Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo  
 [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos  
 [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md) — factor de autonumeración  
 [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md) — formato del texto cuando se usa AUTONUM  
 [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto  
 [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
-|  | Nombre interno | {FC032D16-31FD-48e5-8646-4481E6F12D1A} |
+| Nombre interno | {FC032D16-31FD-48e5-8646-4481E6F12D1A} |
 
 ## Vídeo
 

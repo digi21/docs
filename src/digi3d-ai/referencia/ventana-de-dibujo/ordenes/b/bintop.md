@@ -10,6 +10,10 @@
 
 ## Parámetros
 
+Esta orden abre un cuadro de diálogo. Sus opciones se describen en el apartado **Observaciones**.
+
+## Observaciones
+
 Al ejecutar la orden aparecerá el siguiente cuadro de diálogo:
 
 ![Cuadro de diálogo Bintop](../../../../../images/BINTOP.jpg)
@@ -42,8 +46,6 @@ Al ejecutar la orden aparecerá el siguiente cuadro de diálogo:
 * **Fichero de errores**: Nombre del fichero que se va a crear con las marcas de error. Si existe el fichero, se borra y se crea de nuevo. Es un fichero con formtao BIN y puede ser visualizado con DigiNG escribiendo su nombre en la pantalla de entrada. También puede ser cargado como fichero de referencia, con la orden [CARGA_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md), sobre el fichero de dibujo que contiene las entidades. Las órdenes [ERR+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-mas.md), nos llevarán a cada error para visualizarlo y poder corregirlo con las funciones de edición.
 * **Tamaño del error en metros**: Se dará el valor en metros (unidades terreno), para que su tamaño sea adecuado al localizar el error. Las marcas de error son cuadrados con un ángulo en uno de sus lados, de manera que las coordenadas del vértice sean las mismas que las del punto dónde esta el error.
 * **Cargar el fichero de errores como archivo de referencia**: en caso de marcar esta casilla se cargará automáticamente el fichero con los símbolos de error como fichero de referencia, esto permitirá al usuario el control y la correción de los errores inmediatamente.
-
-## Observaciones
 
 El primer proceso que realiza BINTOP es la detección de errores graves de [topología](bintop.md), éstos errores son:
 

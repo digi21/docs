@@ -4,6 +4,12 @@ Dibuja segmentos perpendiculares a una entidad dada.
 
 ## Parámetros
 
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Modo de asignación de cotas a la línea perpendicular | 0 ó 1 | Si |
+
+## Observaciones
+
 Si la orden se ejecuta sin pasarle ningún parámetro, la línea que se genera tendrá la cota del punto desde el que se traza la perpendicular. Si a la orden se le pasa como parámetro la unidad, es decir, se ejecuta del siguiente modo:
 
 PERP\_A=1

@@ -4,10 +4,14 @@ Inserta un fichero de dibujo en el fichero de trabajo.
 
 ## Parámetros
 
-* Si el fichero a insertar ha sido creado con la orden _BLOQUE_, el programa define el vector de traslación con origen \(0, 0, 0\) y destino las coordenadas del punto indicado por el usuario. De esta forma las coordenadas de todos los puntos del bloque toman los valores correspondientes a su nueva posición dentro del fichero.
-* Si el fichero a insertar es cualquier archivo de dibujo de DigiNG, el usuario ha de especificar como punto de inserción el punto de coordenadas \(0, 0, 0\) de su archivo de trabajo. En este caso, los dos ficheros han de estar en el mismo sistema de coordenadas para que el proceso de inserción sea posible.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Nombre del archivo a insertar. Si no se especifica, el programa mostrará un cuadro de diálogo para seleccionarlo | Si |
 
 ## Observaciones
+
+* Si el fichero a insertar ha sido creado con la orden _BLOQUE_, el programa define el vector de traslación con origen \(0, 0, 0\) y destino las coordenadas del punto indicado por el usuario. De esta forma las coordenadas de todos los puntos del bloque toman los valores correspondientes a su nueva posición dentro del fichero.
+* Si el fichero a insertar es cualquier archivo de dibujo de DigiNG, el usuario ha de especificar como punto de inserción el punto de coordenadas \(0, 0, 0\) de su archivo de trabajo. En este caso, los dos ficheros han de estar en el mismo sistema de coordenadas para que el proceso de inserción sea posible.
 
 Los ficheros de dibujo \(BIN\) se refieren a cualquier archivo DigiNG, o a los creados por el usuario con las órdenes [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md).
 

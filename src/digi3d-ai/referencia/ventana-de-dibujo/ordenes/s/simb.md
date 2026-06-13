@@ -4,9 +4,14 @@ Rellena el interior de una entidad superficial de contorno cerrado usando una tr
 
 ## Parámetros
 
-Si no se especifica ningún parámetro, el sistema toma por defecto los valores cero y uno para [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/DA.md) respectivamente.
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Ángulo activo | Número real | Si |
+| 2 | Distancia activa | Número real | Si |
 
 ## Observaciones
+
+Si no se especifica ningún parámetro, el sistema toma por defecto los valores cero y uno para [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/DA.md) respectivamente.
 
 La disposición de los símbolos depende de los valores que tengan asignados los parámetros [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/DA.md).
 

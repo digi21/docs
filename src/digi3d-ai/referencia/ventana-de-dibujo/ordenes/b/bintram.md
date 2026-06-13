@@ -4,6 +4,10 @@ Automatiza la edición del archivo de dibujo.
 
 ## Parámetros
 
+Esta orden abre un cuadro de diálogo. Sus opciones se describen en el apartado **Observaciones**.
+
+## Observaciones
+
 Va a permitir al usuario:
 
 * Corregir automáticamente errores en intersecciones y líneas no conectadas
@@ -66,8 +70,6 @@ Si se pulsa sobre Configurar aparece la siguiente ventana en la cual se podrá e
 Por defecto esta marcada la casilla de Cargar el fichero de errores como fichero de referencia y Eliminar el archivo de errores si ya existe.
 
 En el lado derecho parecerán los códigos de los símbolos de error que se van a generar, cada tipo de error podrá tener otro código para una mejor diferenciación. También se puede especificar el tamaño del error en metros.
-
-## Observaciones
 
 Resultados del proceso BINTRAM:
 

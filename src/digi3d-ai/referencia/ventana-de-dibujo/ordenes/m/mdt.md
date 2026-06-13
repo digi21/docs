@@ -4,6 +4,8 @@ Establece una rejilla por la cual se va a mover el restituidor pudiendo registra
 
 ## Parámetros
 
+No admite parámetros.
+
 ## Observaciones
 
 Podemos seleccionar una entidad que actúe como borde de la rejilla y podemos seleccionar la opción de autoregistrar puntos cada cierto tiempo marcado por la orden [TIEMPO\_ESPERA](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tiempo-espera.md).

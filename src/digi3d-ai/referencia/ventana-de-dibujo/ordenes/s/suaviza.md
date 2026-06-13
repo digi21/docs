@@ -4,11 +4,15 @@ Suaviza la forma geométrica de un elemento lineal existente en el dibujo.
 
 ## Parámetros
 
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código o códigos de las entidades a suavizar | Si |
+
+## Observaciones
+
 La orden SUAVIZA se puede ejecutar especificando el parámetro de código, es decir, si deseas suavizar todas las entidades que tengan un cierto código la entrada a la orden sería:
 
 `SUAVIZA=020200`
-
-## Observaciones
 
 La orden necesita que se especifique el elemento, cuya selección se realizará de forma gráfica. Así, al llamar a la orden el programa solicita que el usuario seleccione la entidad.
 

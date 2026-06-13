@@ -4,9 +4,11 @@ Sube la Z en una cuantía igual a la equidistancia de curvas que se tenga establ
 
 ## Parámetros
 
-Valor de la _EQUIDISTANCIA_ que se haya determinado.
+No admite parámetros.
 
 ## Observaciones
+
+Valor de la _EQUIDISTANCIA_ que se haya determinado.
 
 La equidistancia se define en el _cuadro de diálogo de Nuevo Proyecto de DigiNG_ o mediante la ejecución de la orden [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
 

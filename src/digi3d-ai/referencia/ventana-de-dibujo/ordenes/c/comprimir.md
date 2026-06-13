@@ -4,6 +4,13 @@ Elimina en el fichero de dibujo todos los elementos que tengan la marca de borra
 
 ## Parámetros
 
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Eliminar vértices duplicados en XYZ | 0 ó 1 | Si |
+| 2 | Eliminar vértices duplicados en XY (independientemente de la coordenada Z) | 0 ó 1 | Si |
+
+## Observaciones
+
 Esta orden admite los siguientes parámetros:
 
 COMPRIMIR=\[eliminar\_vértices\_duplicados\_XYZ\]\[eliminar\_vértices\_duplicados\_XY\]
@@ -11,8 +18,6 @@ COMPRIMIR=\[eliminar\_vértices\_duplicados\_XYZ\]\[eliminar\_vértices\_duplica
 En el caso de que queramos eliminar los vértices duplicados en XY \(independientemente de la coordenada Z\),
 
 Ejecutaríamos COMPRIMIR=1 1.
-
-## Observaciones
 
 Al ejecutar esta orden se libera una parte de la memoria del ordenador, ya que se elimina el espacio ocupado por los registros del fichero marcados como borrados. El tamaño del fichero de dibujo se reducirá ya que sólo se almacenarán las entidades que no tienen marca de borrado.
 
