@@ -19,6 +19,10 @@ Los archivos que se pueden cargar pueden ser .bin, .dgn, .dwg, .mdb, xyz ..., de
 
 Los ficheros de referencia se usan en modo lectura, pudiéndose ejecutar sobre ellos cualquier operación de este tipo \(listado de elementos, enganches gráficos,...\). No es posible dibujar nuevas entidades o hacer modificaciones sobre las entidades que pertenecen a estos ficheros, para ello debe ejecutarse la orden [CAMBIA\_FICHEROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-ficheros.md) para pasar el archivo de referencia a fichero actual de dibujo.
 
+## Véase también
+
+- [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md) — formatos disponibles y los parámetros que admite cada uno.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](carga-f.md) |

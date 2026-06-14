@@ -1,54 +1,41 @@
 # PARAMETROS\_IMPORTACIÓN
 
-Especifica los parámetros que se enviarán al importador/exportador correspondiente, sin que aparecerá el cuadro de diálogo de configuración de importación al importar/exportar un determinado tipo de archivo.
+Especifica los parámetros que se enviarán al importador o exportador correspondiente, de modo que no aparezca el cuadro de diálogo de configuración al importar o exportar un archivo de ese tipo.
 
 ## Parámetros
 
-Los parámetros de exportación dependerán del tipo de archivo.
-
-
-| Archivo | Parámetro | Descripción |
+| Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| BIN |Precisión<br>Coordenadas del origen global<br>Bloqueo de fichero|La precisión será:<br>0= micras<br>1= milímetros<br>2= centímetros<br>3= decímetros<br>4= metros|
-| DGN v8 |Salto de entidades<br>Criterio para códigos<br>Importar paleta<br>Colores de las entidades|Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria<br>0 - Nivel 1 - Nivel, color, grosor, estilo, célula<br>2 - Grupo gráfico<br>0 - No<br>1 - Si<br>0 - Utiliza colores del archivo DGN<br>1 - Utiliza colores de la tabla de códigos activa|
-| DWG ó DXF de AutoCAD |Versión de AutoCAD<br>Importar bloques<br>Ruta de importación| Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
+| 1 | Extensión del formato, con el punto delante \(por ejemplo `.asc`\), o la ruta de un archivo con esa extensión \(por ejemplo `e:\trabajos\a.asc`\). | No |
+| 2 | Valores que se le pasan al importador/exportador, en el orden en que los espera. | No |
 
+El primer parámetro determina **qué** importador/exportador se configura \(a partir de la extensión\); el resto son los valores concretos que admite ese formato, que se describen en la página de cada uno dentro de [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md).
 
 ## Observaciones
 
-Por defecto, si intentas abrir un archivo .dgn o .dxf \(con la orden [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md), aparece el cuadro de diálogo de configuración donde se especifican los parámetros para la orden. Si no te interesa que aparezca este cuadro de diálogo o bien quieres ejecutar estas órdenes desde la línea de comandos, deberás especificar estos valores a priori mediante la orden _PARÁMETROS\_IMPORTACIÓN_.
+Por defecto, al abrir o importar un archivo \(por ejemplo con la orden [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md)\) aparece el cuadro de diálogo de configuración donde se indican los parámetros del formato. Si no quieres que aparezca, o si vas a ejecutar la importación/exportación desde la línea de comandos, define antes esos valores con la orden PARAMETROS\_IMPORTACIÓN.
 
 Sintaxis:
 
-parámetros\_importación=\[importación/exportación\]\[.extensión\]
+`PARAMETROS_IMPORTACION=<extensión o ruta> <valores del importador>`
 
-\["parámetros\_específicos\_para\_el\_importador/exportador"\]
+Por ejemplo, para que el exportador de archivos ASCII de Digi \(extensión `.asc`\) escriba las coordenadas con 4 decimales:
 
-donde:
+`PARAMETROS_IMPORTACION=.asc 4`
 
-* importación/exportación: cuando se trate de importar, este parámetro debe ser 1. Si deseas exportar debe ser 0.
-* extensión: la correspondiente al archivo a importar/exportar con un punto delante \(.dgn, .dxf, .dwg, .bin\).
-* parámetros específicos para el importador: deben ir entre comillas.
+Los valores se indican separados por espacios, sin necesidad de entrecomillarlos aunque sean varios. Por ejemplo, para el formato BIN:
 
-**Nota:**
+`PARAMETROS_IMPORTACION=.bin 3 1000 2000 0`
 
-La orden PARAMETROS\_IMPORTACIÓN recibe tres parámetros, por lo que todos los parámetros que recibe el importador tienen que ir delimitados entre comillas dobles o simples como en el ejemplo anterior, si a su vez los parámetros que recibe el importador tienen que estar entrecomillados por que contienen espacios, se utilizará el delimitador opuesto.
-
-Después de haber ejecutado la orden PARAMETROS\_IMPORTACIÓN para definir los parámetros para el formato deseado, el usuario podrá ejecutar las órdenes de importación o exportación que le interesen más: [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md).
+Una vez ejecutada la orden PARAMETROS\_IMPORTACIÓN, el usuario puede ejecutar la orden de importación o exportación que le interese \([IMPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/importar.md), [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md) o [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md)\):
 
 `EXPORTAR=C:\prueba.dxf`
 
-ó
+`CARGA_F=C:\fichero.dgn`
 
-`IMPORTAR=C:\... fichero.BIN`
+## Véase también
 
-ó
-
-`CARGA_F=C:\... fichero.dgn`
-
-Puedes desactivar los parámetros asociados con alguna extensión, llamando a esta orden con la siguiente sintaxis:
-
-`parametros_importacion=[importación/exportación][extensión]`
+- [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md) — formatos disponibles y los parámetros que admite cada uno.
 
 ## Características de la orden
 

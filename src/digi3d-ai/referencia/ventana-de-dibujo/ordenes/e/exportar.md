@@ -30,6 +30,10 @@ Los parámetros de exportación dependerán del tipo de archivo que se desea exp
 
 Las entidades que estén registradas con un código que está apagado \([OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md), en el momento de ejecutar la orden, no serán incluidas en el archivo exportado.
 
+## Véase también
+
+- [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md) — formatos disponibles y los parámetros que admite cada uno.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](exportar.md) |

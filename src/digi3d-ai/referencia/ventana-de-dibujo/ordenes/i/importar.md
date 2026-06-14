@@ -32,6 +32,10 @@ En cualquiera de las opciones seleccionadas se presenta la opción de **Defecto*
 
 `IMPORTAR=C:\Brochales\case1.bin`
 
+## Véase también
+
+- [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md) — formatos disponibles y los parámetros que admite cada uno.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](importar.md) |
