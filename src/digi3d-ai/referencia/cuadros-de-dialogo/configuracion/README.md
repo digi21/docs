@@ -119,6 +119,15 @@ Configura las copias de seguridad del archivo de dibujo.
 * **[Generar copia de seguridad al comprimir](copia-de-seguridad/generar-copia-de-seguridad-al-comprimir.md)** — Genera una copia de seguridad antes de comprimir.
 * **[Destino de copias de seguridad al comprimir](copia-de-seguridad/destino-de-copias-de-seguridad-al-comprimir.md)** — Ruta y nombre de la copia generada al comprimir.
 
+### Creación de archivos de nivel de detalle de PointCloud
+
+Configura la creación de los archivos de nivel de detalle (LOD) de las nubes de puntos.
+
+* **[Porcentaje de RAM a consumir](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/porcentaje-de-ram-a-consumir.md)** — Porcentaje máximo de RAM que puede consumir el algoritmo.
+* **[Decimar](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/decimar.md)** — Carga solo un punto de cada X.
+* **[Número de puntos en el lado más largo del primer nivel piramidal](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/numero-de-puntos-en-el-lado-mas-largo-del-primer-nivel-piramidal.md)** — Puntos del lado más largo del nivel piramidal superior.
+* **[Directorio de Nivel de Detalle](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/directorio-de-nivel-de-detalle.md)** — Ruta donde se almacenan los archivos de nivel de detalle.
+
 ### Depuración
 
 Genera archivos de depuración que permiten detectar problemas.
@@ -265,6 +274,12 @@ Configura si se usa interpolación de subpixel en los cálculos, cuando el senso
 * **[Al desplazarse por el modelo](interpolacion-de-subpixel/al-desplazarse-por-el-modelo.md)** — Interpolación de subpixel al desplazarse por el modelo.
 * **[Al proyectar las entidades en cada cámara](interpolacion-de-subpixel/al-proyectar-las-entidades-en-cada-camara.md)** — Interpolación de subpixel al proyectar las entidades.
 
+### Órdenes comunes de Digi3D
+
+Configura el comportamiento de las órdenes comunes de la ventana fotogramétrica.
+
+* **[Zoom extendido](ordenes-comunes-de-digi3d/zoom-extendido.md)** — Acción que realiza la orden Zoom extendido.
+
 ### Panel de tareas
 
 Configura el comportamiento del panel de tareas.
@@ -403,6 +418,21 @@ Configura la marca que se muestra sobre los vértices de las entidades seleccion
 * **[Tipo de marca](vertices-de-entidades-seleccionadas/tipo-de-marca.md)** — Marca que se muestra sobre los vértices.
 * **[Tamaño](vertices-de-entidades-seleccionadas/tamano.md)** — Semiancho en píxeles de la marca.
 * **[Color](vertices-de-entidades-seleccionadas/color.md)** — Color de la marca.
+
+### Visualización de PointCloud
+
+Configura la visualización de las nubes de puntos.
+
+* **[Consumo de memoria de tarjeta gráfica](visualizacion-de-pointcloud/consumo-de-memoria-de-tarjeta-grafica.md)** — Memoria máxima (MB) en la tarjeta gráfica.
+* **[Teselas que rellenan shader por frame](visualizacion-de-pointcloud/teselas-que-rellenan-shader-por-frame.md)** — Teselas que suben información a la GPU por frame.
+* **[Teselas que liberar memoria por frame](visualizacion-de-pointcloud/teselas-que-liberar-memoria-por-frame.md)** — Teselas que liberan memoria de la GPU por frame.
+* **[Frames sin pintar para liberar memoria](visualizacion-de-pointcloud/frames-sin-pintar-para-liberar-memoria.md)** — Frames sin mostrarse tras los que un nodo se libera.
+
+### VM Quasi-Panoramic
+
+Configura el sensor VM Quasi-Panoramic.
+
+* **[Activar epipolar por defecto](vm-quasi-panoramic/activar-epipolar-por-defecto.md)** — Activa la rectificación epipolar automáticamente al cargar el par.
 
 ## Observaciones
 
