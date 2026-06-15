@@ -4,7 +4,7 @@
 
 Permite ejecutar órdenes relacionadas con los códigos.
 
-Este panel se habilita únicamente si seleccionamos la opción **Barra de herramientas mono-codificación** en el campo [Interfaz para seleccionar código](../cuadros-de-dialogo/configuracion/diging.md#interfaz-para-seleccionar-codigo) de la configuración del programa.
+Este panel se habilita únicamente si seleccionamos la opción **Barra de herramientas mono-codificación** en el campo [Interfaz para seleccionar código](../cuadros-de-dialogo/configuracion/diging/interfaz-para-seleccionar-codigo.md) de la configuración del programa.
 
 ## Botones
 

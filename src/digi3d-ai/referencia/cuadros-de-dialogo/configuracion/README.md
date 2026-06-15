@@ -33,6 +33,13 @@ Acelera el desplazamiento de las imágenes al mover las manivelas.
 * **[Factor de multiplicación](aceleracion-de-manivelas/factor-de-multiplicacion.md)** — Valor por el que se multiplica la velocidad al acelerar.
 * **[Tiempo de parada](aceleracion-de-manivelas/tiempo-de-parada.md)** — Tiempo sin movimiento tras el que finaliza la aceleración.
 
+### Arcos y circunferencias
+
+Configura cómo se generan los arcos y las circunferencias.
+
+* **[Mínimo de puntos](arcos-y-circunferencias/minimo-de-puntos.md)** — Número mínimo de vértices de un arco.
+* **[Máximo de puntos](arcos-y-circunferencias/maximo-de-puntos.md)** — Número máximo de vértices de un arco.
+
 ### Barras de herramientas
 
 Configura el aspecto de las barras de herramientas.
@@ -46,6 +53,12 @@ Configura el comportamiento de Digi3D.AI con la base de datos.
 * **[Nombre a mostrar](base-de-datos/nombre-a-mostrar.md)** — Texto que se usa como nombre de los campos de la base de datos.
 * **[Forzar registro de la geometría original](base-de-datos/forzar-registro-de-la-geometria-original.md)** — Las geometrías derivadas apuntan al registro de la original.
 * **[Mostrar campos no visibles en el panel Propiedades de la entidad seleccionada](base-de-datos/mostrar-campos-no-visibles.md)** — Muestra los campos marcados como no visibles.
+
+### Comportamiento de DigiNG
+
+Configura aspectos del comportamiento de DigiNG.
+
+* **[Número de recientes](comportamiento-de-diging/numero-de-recientes.md)** — Número de archivos de la lista de recientes.
 
 ### Comunicación con el usuario
 
@@ -104,6 +117,30 @@ Genera archivos de depuración que permiten detectar problemas.
 
 * **[Crear archivo de LOG](depuracion/crear-archivo-de-log.md)** — Si se activa, el programa almacenará en un archivo de LOG información para ayudar a detectar errores.
 * **[Ruta al archivo de LOG](depuracion/ruta-al-archivo-de-log.md)** — Ruta al archivo de LOG a crear.
+
+### DigiNG
+
+Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
+
+* **[Limitar el zoom máximo](diging/limitar-el-zoom-maximo.md)** — Impone un factor de zoom máximo en la ventana de dibujo.
+* **[Tamaño de ventana](diging/tamano-de-ventana.md)** — Tamaño mínimo que podrá representar la ventana de dibujo.
+* **[Interfaz para seleccionar código](diging/interfaz-para-seleccionar-codigo.md)** — Ventana que se usa para seleccionar el código activo.
+* **[Permitir seleccionar códigos inexistentes](diging/permitir-seleccionar-codigos-inexistentes.md)** — Permite seleccionar como activo un código que no existe en la tabla.
+* **[Permitir códigos repetidos](diging/permitir-codigos-repetidos.md)** — Permite asignar el mismo código varias veces a una geometría.
+* **[Orden dibujo (multi código)](diging/orden-dibujo-multi-codigo.md)** — Orden en el que se dibujan los códigos de una geometría multicódigo.
+* **[Permitir vértices consecutivos con la misma coordenada XY](diging/permitir-vertices-consecutivos-con-la-misma-coordenada-xy.md)** — Permite vértices consecutivos con la misma XY y distinta Z.
+* **[Dibujar polígonos en 3D](diging/dibujar-poligonos-en-3d.md)** — Dibuja los polígonos con coordenada Z.
+* **[Directorio de macroinstrucciones](diging/directorio-de-macroinstrucciones.md)** — Directorio de los archivos de macroinstrucciones.
+* **[Directorio de símbolos](diging/directorio-de-simbolos.md)** — Directorio de la definición de células.
+* **[Opacidad para entidades no de interés](diging/opacidad-para-entidades-no-de-interes.md)** — Opacidad de las geometrías que no son de interés.
+* **[Ejecutar órdenes asignadas a códigos al clonar](diging/ejecutar-ordenes-asignadas-a-codigos-al-clonar.md)** — Ejecuta las órdenes de los códigos al clonar una entidad.
+* **[Copiar atributos de BBDD al clonar](diging/copiar-atributos-de-bbdd-al-clonar.md)** — Copia los atributos de base de datos al clonar.
+* **[Clonar copia Tabla y Registro](diging/clonar-copia-tabla-y-registro.md)** — Copia el enlace a Tabla y Registro al clonar.
+* **[Bloqueo de mayúsculas actúa como mayúsculas](diging/bloqueo-de-mayusculas-actua-como-mayusculas.md)** — El bloqueo de mayúsculas se interpreta como Shift + tecla.
+* **[Reset vacía la pila de órdenes](diging/reset-vacia-la-pila-de-ordenes.md)** — RESET anula todas las órdenes de la pila.
+* **[Escape vacía la pila de órdenes](diging/escape-vacia-la-pila-de-ordenes.md)** — Esc vacía toda la pila de órdenes.
+* **[Auto-Pulsar Añadir… en los diálogos que solicitan códigos](diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md)** — Pulsa automáticamente Añadir en los diálogos que piden códigos.
+* **[Mostrar campo Sistema de referencia de coordenadas](diging/mostrar-campo-sistema-de-referencia-de-coordenadas.md)** — Muestra el campo SRC en la pestaña Archivo de dibujo de Nuevo proyecto.
 
 ### Dispositivos de entrada
 
@@ -212,6 +249,14 @@ Configura el panel Resultados de la búsqueda y los campos que muestra.
 * **[Mostrar el campo Índice](resultados-de-la-busqueda/mostrar-el-campo-indice.md)** — Muestra u oculta el campo Índice.
 * **[Mostrar el campo Offset](resultados-de-la-busqueda/mostrar-el-campo-offset.md)** — Muestra u oculta el campo Offset.
 
+### Rueda del ratón
+
+Configura el comportamiento de la rueda del ratón en la ventana de dibujo.
+
+* **[Porcentaje de zoom rueda](rueda-del-raton/porcentaje-de-zoom-rueda.md)** — Factor de zoom por cada movimiento de la rueda.
+* **[Animaciones zoom rueda](rueda-del-raton/animaciones-zoom-rueda.md)** — Número de animaciones en los zooms con rueda.
+* **[Sincronizar zooms con Digi3D](rueda-del-raton/sincronizar-zooms-con-digi3d.md)** — Sincroniza el zoom de DigiNG con el de las vistas de Digi3D.
+
 ### Rutas
 
 Configura las rutas de trabajo de Digi3D.AI.
@@ -272,6 +317,14 @@ Configura la visualización estereoscópica y el comportamiento de la ventana fo
 * **[Capturar el ratón al hacer clic](ventana-fotogrametrica/capturar-el-raton-al-hacer-clic.md)** — Captura el ratón en la vista estereoscópica al hacer clic.
 * **[Decimales de precisión](ventana-fotogrametrica/decimales-de-precision.md)** — Decimales para mostrar coordenadas y residuos.
 * **[Memorizar parámetros](ventana-fotogrametrica/memorizar-parametros.md)** — Memoriza coordenadas, zoom, etc. para la próxima carga del modelo.
+
+### Vértices de entidades seleccionadas
+
+Configura la marca que se muestra sobre los vértices de las entidades seleccionadas.
+
+* **[Tipo de marca](vertices-de-entidades-seleccionadas/tipo-de-marca.md)** — Marca que se muestra sobre los vértices.
+* **[Tamaño](vertices-de-entidades-seleccionadas/tamano.md)** — Semiancho en píxeles de la marca.
+* **[Color](vertices-de-entidades-seleccionadas/color.md)** — Color de la marca.
 
 ## Observaciones
 

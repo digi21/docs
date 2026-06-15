@@ -6,7 +6,7 @@ Este panel permite seleccionar el código o códigos activos en caso de estar tr
 
 Al almacenar una geometría nueva, esta tendrá tantos códigos como códigos tengamos seleccionados en este panel.
 
-Este panel se habilita únicamente si seleccionamos la opción **Panel de multi-codificación** en el campo [Interfaz para seleccionar código](../cuadros-de-dialogo/configuracion/diging.md#interfaz-para-seleccionar-codigo) de la configuración del programa.
+Este panel se habilita únicamente si seleccionamos la opción **Panel de multi-codificación** en el campo [Interfaz para seleccionar código](../cuadros-de-dialogo/configuracion/diging/interfaz-para-seleccionar-codigo.md) de la configuración del programa.
 
 ## Barra de herramientas
 

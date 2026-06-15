@@ -4,4 +4,4 @@ Si eres usuario de versiones anteriores de _Digi3D_, y estás ejecutando _Digi3D
 
 En realidad esa barra de herramientas no ha desaparecido. _Digi3D.AI_ no la está mostrando porque el programa está configurado en modo _multi-codificación_.
 
-Cambia esta configuración en [Interfaz para seleccionar código](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging.md#interfaz-para-seleccionar-c%C3%B3digo)
+Cambia esta configuración en [Interfaz para seleccionar código](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/interfaz-para-seleccionar-codigo.md)
