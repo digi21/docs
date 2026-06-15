@@ -94,6 +94,14 @@ Configura los parámetros que requieren comunicación con Internet, así como el
 * **[Comprobar versión nueva](comunicacion-con-internet/comprobar-version-nueva.md)** — Comprueba si existe una versión nueva cada vez que se inicia la aplicación.
 * **[Permitir instalar versiones BETA](comunicacion-con-internet/permitir-instalar-versiones-beta.md)** — Incluye las versiones BETA al comprobar si hay una versión nueva.
 
+### Conector con PostGis
+
+Configuración del conector con bases de datos PostGIS.
+
+* **[Añadir códigos desconocidos](conector-con-postgis/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+* **[Preguntar por capas a cargar](conector-con-postgis/preguntar-por-capas-a-cargar.md)** — Pregunta por las capas a cargar al abrir un archivo.
+* **[Regiones de interés de tamaño constante](conector-con-postgis/regiones-de-interes-de-tamano-constante.md)** — Permite configurar el tamaño de las regiones de interés solicitadas a PostGIS.
+
 ### Control de producción
 
 Configura el control de producción del equipo.
@@ -172,6 +180,76 @@ Configura el envío de las coordenadas de la ventana fotogramétrica por el puer
 * **[Formato de comunicación exterior](envio-de-coordenadas-por-puerto-serie/formato-de-comunicacion-exterior.md)** — Formato en el que se envían las coordenadas.
 * **[Finalización del mensaje](envio-de-coordenadas-por-puerto-serie/finalizacion-del-mensaje.md)** — Bytes con los que finaliza cada mensaje.
 * **[Milisegundos de espera para modo continuo](envio-de-coordenadas-por-puerto-serie/milisegundos-de-espera-para-modo-continuo.md)** — Espera antes de empezar a enviar coordenadas con el pedal pulsado.
+
+### GeoPackage
+
+Configuración del importador/exportador de archivos GeoPackage.
+
+* **[Preguntar por capas al cargar](geopackage/preguntar-por-capas-al-cargar.md)** — Pregunta por las capas a cargar si el archivo tiene varias.
+* **[Añadir códigos desconocidos](geopackage/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+
+### Importador Exportador de FileGdb
+
+Configuración del importador/exportador de FileGDB.
+
+* **[Añadir códigos desconocidos](importador-exportador-de-filegdb/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+
+### Importador/Exportador de archivos Bentley MicroStation v8 (*.dgn)
+
+Configuración del importador/exportador de archivos Bentley MicroStation v8 (DGN).
+
+* **[Archivos de recursos](importador-exportador-de-archivos-bentley-microstation-v8/archivos-de-recursos.md)** — Ruta a los archivos de recursos (.rsc) de MicroStation.
+* **[Archivo de células](importador-exportador-de-archivos-bentley-microstation-v8/archivo-de-celulas.md)** — Archivo de células (.cel) relacionado con el DGN.
+* **[Añadir códigos desconocidos](importador-exportador-de-archivos-bentley-microstation-v8/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+* **[Mostrar modal al guardar](importador-exportador-de-archivos-bentley-microstation-v8/mostrar-modal-al-guardar.md)** — Muestra un cuadro de diálogo modal mientras se guarda.
+
+### Importador/Exportador de archivos binarios de doble precisión (*.bind)
+
+Configuración del importador/exportador de archivos binarios de doble precisión (BIND).
+
+* **[Añadir códigos desconocidos](importador-exportador-de-archivos-binarios-de-doble-precision/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+* **[Carga de registros](importador-exportador-de-archivos-binarios-de-doble-precision/carga-de-registros.md)** — Momento en que se cargan los atributos de cada código.
+
+### Importador/Exportador de archivos binarios de precisión simple (*.bin)
+
+Configuración del importador/exportador de archivos binarios de precisión simple (BIN).
+
+* **[Copia de seguridad con API CopyFile](importador-exportador-de-archivos-binarios-de-precision-simple/copia-de-seguridad-con-api-copyfile.md)** — Método con el que se hace la copia de seguridad.
+* **[Añadir códigos desconocidos](importador-exportador-de-archivos-binarios-de-precision-simple/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+* **[Permitir atributos con Tabla=1](importador-exportador-de-archivos-binarios-de-precision-simple/permitir-atributos-con-tabla-1.md)** — Trata la tabla 1 como tabla de base de datos.
+
+### Importador/Exportador de archivos Datawarehouse de Geomedia
+
+Configuración del importador/exportador de archivos Datawarehouse de Geomedia.
+
+* **[Añadir códigos desconocidos](importador-exportador-de-archivos-datawarehouse-de-geomedia/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+* **[Preguntar por capas a cargar](importador-exportador-de-archivos-datawarehouse-de-geomedia/preguntar-por-capas-a-cargar.md)** — Pregunta por las capas a cargar al abrir un archivo.
+
+### Importador/Exportador de archivos de Google Earth (*.kml)
+
+Configuración del importador/exportador de archivos de Google Earth (KML).
+
+* **[Añadir códigos desconocidos](importador-exportador-de-archivos-de-google-earth/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+
+### Importador/Exportador de archivos DWG
+
+Configuración del importador/exportador de archivos DWG.
+
+* **[Añadir códigos desconocidos](importador-exportador-de-archivos-dwg/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+
+### Importador/Exportador de archivos Shapefile
+
+Configuración del importador/exportador de archivos Shapefile.
+
+* **[Añadir códigos desconocidos](importador-exportador-de-archivos-shapefile/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
+* **[Preguntar por capas a cargar](importador-exportador-de-archivos-shapefile/preguntar-por-capas-a-cargar.md)** — Pregunta por las capas a cargar al abrir un archivo.
+* **[Modo de eliminación de geometrías](importador-exportador-de-archivos-shapefile/modo-de-eliminacion-de-geometrias.md)** — Cómo se marca una geometría como eliminada en el Shapefile.
+
+### Importador/Exportador de formato VEC de Latino
+
+Configuración del importador/exportador del formato VEC de Latino.
+
+* **[Añadir códigos desconocidos](importador-exportador-de-formato-vec-de-latino/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
 
 ### Instantáneas
 
