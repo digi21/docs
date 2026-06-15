@@ -274,11 +274,52 @@ Configura si se usa interpolación de subpixel en los cálculos, cuando el senso
 * **[Al desplazarse por el modelo](interpolacion-de-subpixel/al-desplazarse-por-el-modelo.md)** — Interpolación de subpixel al desplazarse por el modelo.
 * **[Al proyectar las entidades en cada cámara](interpolacion-de-subpixel/al-proyectar-las-entidades-en-cada-camara.md)** — Interpolación de subpixel al proyectar las entidades.
 
+### Medida de aerotriangulación
+
+Configura la medida de aerotriangulación del sensor Cónico.
+
+* **[Esquemas](medida-de-aerotriangulacion/esquemas.md)** — Ruta al archivo de esquemas de medida de aerotriangulación.
+
 ### Órdenes comunes de Digi3D
 
 Configura el comportamiento de las órdenes comunes de la ventana fotogramétrica.
 
 * **[Zoom extendido](ordenes-comunes-de-digi3d/zoom-extendido.md)** — Acción que realiza la orden Zoom extendido.
+
+### Orientación absoluta
+
+Configura el comportamiento de la orientación absoluta del sensor Cónico.
+
+* **[Auto remedir](orientacion-absoluta/auto-remedir.md)** — Entra en modo remedir al seleccionar un punto.
+* **[Auto remedir peor](orientacion-absoluta/auto-remedir-peor.md)** — Localiza el punto de mayor residuo al pulsar Peor.
+* **[Remedir múltiple](orientacion-absoluta/remedir-multiple.md)** — Solicita remedir el mismo punto repetidamente.
+* **[Almacenar instantánea](orientacion-absoluta/almacenar-instantanea.md)** — Guarda una instantánea al medir un punto.
+* **[Tiempo real](orientacion-absoluta/tiempo-real.md)** — Muestra los resultados del cálculo antes de digitalizar.
+* **[Correlar misma pasada](orientacion-absoluta/correlar-misma-pasada.md)** — Correla un punto ya medido en la misma pasada.
+* **[Correlar otra pasada](orientacion-absoluta/correlar-otra-pasada.md)** — Correla un punto ya medido en otra pasada.
+* **[Almacenar .orientation.xml](orientacion-absoluta/almacenar-orientation-xml.md)** — Genera un .orientation.xml al aceptar.
+
+### Orientación interna
+
+Configura el comportamiento de la orientación interna del sensor Cónico.
+
+* **[Auto remedir](orientacion-interna/auto-remedir.md)** — Entra en modo remedir al seleccionar un punto.
+* **[Al remedir, ir a](orientacion-interna/al-remedir-ir-a.md)** — A qué coordenadas se desplaza la vista al remedir.
+* **[Al correlar ir al peor punto](orientacion-interna/al-correlar-ir-al-peor-punto.md)** — Desplaza la vista al punto de peores residuos tras correlar.
+
+### Orientación relativa
+
+Configura el comportamiento de la orientación relativa del sensor Cónico.
+
+* **[Calcular en la nube](orientacion-relativa/calcular-en-la-nube.md)** — Calcula la orientación relativa en la nube de digi21.net.
+* **[Esquemas](orientacion-relativa/esquemas.md)** — Ruta al archivo de esquemas de orientación relativa.
+* **[Calcular recubrimiento por correlación](orientacion-relativa/calcular-recubrimiento-por-correlacion.md)** — Calcula el recubrimiento por correlación.
+* **[Factor de correlación](orientacion-relativa/factor-de-correlacion.md)** — Umbral de correlación por debajo del cual avisa de error.
+* **[Puntos para calcular](orientacion-relativa/puntos-para-calcular.md)** — Número de puntos para calcular la orientación relativa.
+* **[Estimadores robustos](orientacion-relativa/estimadores-robustos.md)** — Usa el método de estimadores robustos.
+* **[Auto remedir](orientacion-relativa/auto-remedir.md)** — Entra en modo remedir al seleccionar un punto.
+* **[Tamaño de la marca](orientacion-relativa/tamano-de-la-marca.md)** — Tamaño de la marca de cada punto medido.
+* **[Color de la marca](orientacion-relativa/color-de-la-marca.md)** — Color de la marca de cada punto medido.
 
 ### Panel de tareas
 
@@ -356,6 +397,20 @@ Configura las rutas de trabajo de Digi3D.AI.
 
 * **[Sustituir rutas por sustituidores](rutas/sustituir-rutas-por-sustituidores.md)** — Evita directorios absolutos en los archivos de configuración.
 * **[Directorio temporal](rutas/directorio-temporal.md)** — Directorio temporal donde se almacenan, entre otros, los archivos de errores.
+
+### Sensor Cónico
+
+Configura el comportamiento general del sensor Cónico (cámara métrica).
+
+* **[Modo de presentación de imágenes](sensor-conico/modo-de-presentacion-de-imagenes.md)** — Cómo se muestran las imágenes (proyectadas u ortogonales).
+* **[Transformar la escala en función de la proyección](sensor-conico/transformar-la-escala-en-funcion-de-la-proyeccion.md)** — Aplica el factor de escala K en modelos UTM.
+* **[Almacenar Orientation.xml al cargar modelo](sensor-conico/almacenar-orientation-xml-al-cargar-modelo.md)** — Genera un .orientation.xml por foto al cargar.
+* **[Activar epipolar por defecto](sensor-conico/activar-epipolar-por-defecto.md)** — Activa la rectificación epipolar al cargar el par.
+* **[Rectificación epipolar](sensor-conico/rectificacion-epipolar.md)** — Tipo de rectificación epipolar.
+* **[Rotar el modelo para respetar el Norte](sensor-conico/rotar-el-modelo-para-respetar-el-norte.md)** — Rota el modelo para que el norte quede arriba.
+* **[Proyecto fotogramétrico: Comprobar imágenes](sensor-conico/proyecto-fotogrametrico-comprobar-imagenes.md)** — Comprueba la compatibilidad de las imágenes del proyecto.
+* **[Proyecto fotogramétrico: Correlar internas](sensor-conico/proyecto-fotogrametrico-correlar-internas.md)** — Correla las internas que falten.
+* **[Proyecto fotogramétrico: Correlar relativas](sensor-conico/proyecto-fotogrametrico-correlar-relativas.md)** — Correla las relativas que falten.
 
 ### Servidor de archivos de referencia
 
