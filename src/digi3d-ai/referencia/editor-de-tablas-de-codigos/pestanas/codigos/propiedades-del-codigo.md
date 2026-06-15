@@ -133,7 +133,7 @@ Permite indicar el conjunto de órdenes que se ejecutarán cuando el usuario pul
 
 Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](/digi3d-ai/referencia/paneles/ayuda-dinamica.md) si se selecciona este código.
 
-El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario.md) configurado en el programa.
+El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/directorio-de-ayudas-de-codigos.md) configurado en el programa.
 
 ## Analizar control de calidad
 

@@ -47,6 +47,29 @@ Configura el comportamiento de Digi3D.AI con la base de datos.
 * **[Forzar registro de la geometría original](base-de-datos/forzar-registro-de-la-geometria-original.md)** — Las geometrías derivadas apuntan al registro de la original.
 * **[Mostrar campos no visibles en el panel Propiedades de la entidad seleccionada](base-de-datos/mostrar-campos-no-visibles.md)** — Muestra los campos marcados como no visibles.
 
+### Comunicación con el usuario
+
+Configura los parámetros relacionados con la comunicación y la interfaz de usuario.
+
+* **[Tema](comunicacion-con-el-usuario/tema.md)** — Tema visual del programa.
+* **[Idioma](comunicacion-con-el-usuario/idioma.md)** — Idioma de la interfaz y de los nombres de las órdenes.
+* **[Aplicar configuración regional](comunicacion-con-el-usuario/aplicar-configuracion-regional.md)** — Usa la configuración regional del idioma de la aplicación.
+* **[Configuración para un único monitor](comunicacion-con-el-usuario/configuracion-para-un-unico-monitor.md)** — Abre las ventanas fotogramétricas dentro del marco principal o como aplicación independiente.
+* **[Sonidos](comunicacion-con-el-usuario/sonidos.md)** — Dispositivo con el que se emiten los sonidos.
+* **[Dato](comunicacion-con-el-usuario/dato.md)** — Sonido al pulsar el botón/pedal de Dato.
+* **[Fin orden](comunicacion-con-el-usuario/fin-orden.md)** — Sonido al finalizar una orden.
+* **[Error](comunicacion-con-el-usuario/error.md)** — Sonido al producirse un error.
+* **[Entrar](comunicacion-con-el-usuario/entrar.md)** — Sonido al entrar en el polígono de LIMITE_1.
+* **[Salir](comunicacion-con-el-usuario/salir.md)** — Sonido al salir del polígono de LIMITE_1.
+* **[Texto a voz en barra de estado](comunicacion-con-el-usuario/texto-a-voz-en-barra-de-estado.md)** — Narra por voz los mensajes de la barra de estado.
+* **[Texto a voz en globos](comunicacion-con-el-usuario/texto-a-voz-en-globos.md)** — Narra por voz el contenido de los globos.
+* **[Confidencia reconocimiento voz](comunicacion-con-el-usuario/confidencia-reconocimiento-voz.md)** — Factor de confidencia del reconocimiento de voz.
+* **[Color de la ventana de tentativo](comunicacion-con-el-usuario/color-de-la-ventana-de-tentativo.md)** — Color de las coordenadas en la barra Tentativo.
+* **[Mostrar ayudas por código](comunicacion-con-el-usuario/mostrar-ayudas-por-codigo.md)** — Muestra la ayuda HTML del código activo.
+* **[Directorio de ayudas de códigos](comunicacion-con-el-usuario/directorio-de-ayudas-de-codigos.md)** — Directorio de los archivos HTML de ayuda de los códigos.
+* **[Utilizar archivos de proyecto](comunicacion-con-el-usuario/utilizar-archivos-de-proyecto.md)** — Simplifica la pestaña de archivo de dibujo del nuevo proyecto.
+* **[Mostrar todas las etiquetas](comunicacion-con-el-usuario/mostrar-todas-las-etiquetas.md)** — Muestra todas las etiquetas de la tabla de códigos.
+
 ### Comunicación con Internet
 
 Configura los parámetros que requieren comunicación con Internet, así como el servidor _PROXY_.
@@ -159,6 +182,36 @@ Configura el entorno de Python que utiliza Digi3D.AI.
 
 * **[Directorio Home de Python](python/directorio-home-de-python.md)** — Directorio donde localizar las librerías de Python.
 
+### Resultados de la búsqueda
+
+Configura el panel Resultados de la búsqueda y los campos que muestra.
+
+* **[Acción al hacer doble clic](resultados-de-la-busqueda/accion-al-hacer-doble-clic.md)** — Comportamiento de la ventana al hacer doble clic sobre una entidad.
+* **[Segundos a mostrar la entidad seleccionada](resultados-de-la-busqueda/segundos-a-mostrar-la-entidad-seleccionada.md)** — Segundos que se resalta la entidad al hacer doble clic.
+* **[Mostrar el campo Primer código](resultados-de-la-busqueda/mostrar-el-campo-primer-codigo.md)** — Muestra u oculta el campo Primer código.
+* **[Mostrar el campo Texto](resultados-de-la-busqueda/mostrar-el-campo-texto.md)** — Muestra u oculta el campo Texto.
+* **[Mostrar el campo Número de puntos](resultados-de-la-busqueda/mostrar-el-campo-numero-de-puntos.md)** — Muestra u oculta el campo Número de puntos.
+* **[Mostrar el campo Número de códigos](resultados-de-la-busqueda/mostrar-el-campo-numero-de-codigos.md)** — Muestra u oculta el campo Número de códigos.
+* **[Mostrar el campo Número de huecos](resultados-de-la-busqueda/mostrar-el-campo-numero-de-huecos.md)** — Muestra u oculta el campo Número de huecos.
+* **[Mostrar el campo Número de entidades](resultados-de-la-busqueda/mostrar-el-campo-numero-de-entidades.md)** — Muestra u oculta el campo Número de entidades.
+* **[Mostrar el campo Cerrado](resultados-de-la-busqueda/mostrar-el-campo-cerrado.md)** — Muestra u oculta el campo Cerrado.
+* **[Cerrado 2D](resultados-de-la-busqueda/cerrado-2d.md)** — Muestra u oculta el campo Cerrado 2D.
+* **[Mostrar el campo Perímetro](resultados-de-la-busqueda/mostrar-el-campo-perimetro.md)** — Muestra u oculta el campo Perímetro.
+* **[Mostrar el campo Área](resultados-de-la-busqueda/mostrar-el-campo-area.md)** — Muestra u oculta el campo Área.
+* **[Mostrar el campo Ancho](resultados-de-la-busqueda/mostrar-el-campo-ancho.md)** — Muestra u oculta el campo Ancho.
+* **[Mostrar el campo Alto](resultados-de-la-busqueda/mostrar-el-campo-alto.md)** — Muestra u oculta el campo Alto.
+* **[Mostrar el campo Largo](resultados-de-la-busqueda/mostrar-el-campo-largo.md)** — Muestra u oculta el campo Largo.
+* **[Mostrar el campo Xmin](resultados-de-la-busqueda/mostrar-el-campo-xmin.md)** — Muestra u oculta el campo Xmin.
+* **[Mostrar el campo Ymin](resultados-de-la-busqueda/mostrar-el-campo-ymin.md)** — Muestra u oculta el campo Ymin.
+* **[Mostrar el campo Zmin](resultados-de-la-busqueda/mostrar-el-campo-zmin.md)** — Muestra u oculta el campo Zmin.
+* **[Mostrar el campo Xmax](resultados-de-la-busqueda/mostrar-el-campo-xmax.md)** — Muestra u oculta el campo Xmax.
+* **[Mostrar el campo Ymax](resultados-de-la-busqueda/mostrar-el-campo-ymax.md)** — Muestra u oculta el campo Ymax.
+* **[Mostrar el campo Zmax](resultados-de-la-busqueda/mostrar-el-campo-zmax.md)** — Muestra u oculta el campo Zmax.
+* **[Mostrar el campo Rotación](resultados-de-la-busqueda/mostrar-el-campo-rotacion.md)** — Muestra u oculta el campo Rotación.
+* **[Mostrar el campo Archivo de dibujo](resultados-de-la-busqueda/mostrar-el-campo-archivo-de-dibujo.md)** — Muestra u oculta el campo Archivo de dibujo.
+* **[Mostrar el campo Índice](resultados-de-la-busqueda/mostrar-el-campo-indice.md)** — Muestra u oculta el campo Índice.
+* **[Mostrar el campo Offset](resultados-de-la-busqueda/mostrar-el-campo-offset.md)** — Muestra u oculta el campo Offset.
+
 ### Rutas
 
 Configura las rutas de trabajo de Digi3D.AI.
@@ -189,6 +242,36 @@ Configura cómo se representan las topologías no definidas en la tabla de códi
 * **[Color de relleno (polígonos con centroide)](topologias-no-definidas-en-la-tabla-de-codigos/color-de-relleno-poligonos-con-centroide.md)** — Color de los polígonos con centroide.
 * **[Color de relleno (polígonos sin centroide)](topologias-no-definidas-en-la-tabla-de-codigos/color-de-relleno-poligonos-sin-centroide.md)** — Color de los polígonos sin centroide.
 * **[Texto de centroide para huecos](topologias-no-definidas-en-la-tabla-de-codigos/texto-de-centroide-para-huecos.md)** — Textos que marcan un polígono como hueco.
+
+### Ventana fotogramétrica
+
+Configura la visualización estereoscópica y el comportamiento de la ventana fotogramétrica.
+
+* **[Mostrar panel lateral](ventana-fotogrametrica/mostrar-panel-lateral.md)** — Muestra el panel lateral de radiometría.
+* **[Modo benchmark](ventana-fotogrametrica/modo-benchmark.md)** — Regenera la vista continuamente para medir el rendimiento.
+* **[Estereoscopía](ventana-fotogrametrica/estereoscopia.md)** — Método de visualización estereoscópica.
+* **[Origen del píxel](ventana-fotogrametrica/origen-del-pixel.md)** — Origen del píxel (centro o esquina superior izquierda).
+* **[Índice pequeño](ventana-fotogrametrica/indice-pequeno.md)** — Imagen PNG del índice pequeño del cursor.
+* **[Índice mediano](ventana-fotogrametrica/indice-mediano.md)** — Imagen PNG del índice mediano del cursor.
+* **[Índice grande](ventana-fotogrametrica/indice-grande.md)** — Imagen PNG del índice grande del cursor.
+* **[Índice aspa](ventana-fotogrametrica/indice-aspa.md)** — Imagen PNG del índice con forma de aspa.
+* **[Índice cruz](ventana-fotogrametrica/indice-cruz.md)** — Imagen PNG del índice con forma de cruz.
+* **[Índice personalizado](ventana-fotogrametrica/indice-personalizado.md)** — Imagen PNG del índice personalizado.
+* **[Consumo de memoria por cámara](ventana-fotogrametrica/consumo-de-memoria-por-camara.md)** — Memoria máxima (MB) por cámara al cargar un modelo.
+* **[Consumo de memoria bajo demanda](ventana-fotogrametrica/consumo-de-memoria-bajo-demanda.md)** — Solicita memoria a medida que se carga la imagen.
+* **[Tamaño de las teselas](ventana-fotogrametrica/tamano-de-las-teselas.md)** — Tamaño de las teselas para imágenes no teseladas (JPG…).
+* **[Tamaño de las teselas para vectores](ventana-fotogrametrica/tamano-de-las-teselas-para-vectores.md)** — Tamaño de las teselas en las que se proyectan los vectores.
+* **[Proyectar solo geometrías que solapan con modelo (BETA)](ventana-fotogrametrica/proyectar-solo-geometrias-que-solapan-con-modelo.md)** — Proyecta solo las geometrías que solapan con el modelo.
+* **[Prioridad de los hilos de carga](ventana-fotogrametrica/prioridad-de-los-hilos-de-carga.md)** — Prioridad de los hilos de carga de teselas en segundo plano.
+* **[Proyectar vectores](ventana-fotogrametrica/proyectar-vectores.md)** — Proyección de vectores síncrona o asíncrona.
+* **[Permitir animaciones de opacidad](ventana-fotogrametrica/permitir-animaciones-de-opacidad.md)** — Muestra las teselas recién cargadas con una animación.
+* **[Cambiar resolución](ventana-fotogrametrica/cambiar-resolucion.md)** — Cambia la resolución del monitor al abrir la vista estereoscópica.
+* **[Monitor a cambiar la resolución](ventana-fotogrametrica/monitor-a-cambiar-la-resolucion.md)** — Pantalla cuya resolución se cambia.
+* **[Resolución](ventana-fotogrametrica/resolucion.md)** — Resolución a seleccionar para el monitor.
+* **[Frecuencia](ventana-fotogrametrica/frecuencia.md)** — Frecuencia (Hz) a seleccionar para el monitor.
+* **[Capturar el ratón al hacer clic](ventana-fotogrametrica/capturar-el-raton-al-hacer-clic.md)** — Captura el ratón en la vista estereoscópica al hacer clic.
+* **[Decimales de precisión](ventana-fotogrametrica/decimales-de-precision.md)** — Decimales para mostrar coordenadas y residuos.
+* **[Memorizar parámetros](ventana-fotogrametrica/memorizar-parametros.md)** — Memoriza coordenadas, zoom, etc. para la próxima carga del modelo.
 
 ## Observaciones
 
