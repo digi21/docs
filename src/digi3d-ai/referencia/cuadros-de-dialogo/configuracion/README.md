@@ -260,6 +260,41 @@ Configuración del importador/exportador del formato VEC de Latino.
 
 * **[Añadir códigos desconocidos](importador-exportador-de-formato-vec-de-latino/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
 
+### Importador de Centros de Proyección y Giros (.eo, .imu)
+
+Configura el importador de orientaciones a partir de archivos de centros de proyección y giros (.eo, .imu).
+
+* **[Unidades de los giros](importador-de-centros-de-proyeccion-y-giros/unidades-de-los-giros.md)** — Unidades en las que están almacenados los giros.
+* **[Orden de los giros](importador-de-centros-de-proyeccion-y-giros/orden-de-los-giros.md)** — Orden de los giros para la matriz de Euler.
+
+### Importador de orientaciones de Access
+
+Configura el importador de orientaciones a partir de una base de datos Microsoft Access.
+
+* **[Tabla](importador-de-orientaciones-de-access/tabla.md)** — Tabla donde se localizan las orientaciones.
+* **[Imagen](importador-de-orientaciones-de-access/imagen.md)** — Campo con el nombre de la imagen.
+* **[X](importador-de-orientaciones-de-access/x.md)** — Campo con la coordenada X del centro de proyección.
+* **[Y](importador-de-orientaciones-de-access/y.md)** — Campo con la coordenada Y del centro de proyección.
+* **[Z](importador-de-orientaciones-de-access/z.md)** — Campo con la coordenada Z del centro de proyección.
+* **[Omega](importador-de-orientaciones-de-access/omega.md)** — Campo con el ángulo Omega.
+* **[Phi](importador-de-orientaciones-de-access/phi.md)** — Campo con el ángulo Phi.
+* **[Kappa](importador-de-orientaciones-de-access/kappa.md)** — Campo con el ángulo Kappa.
+* **[Nombre de la imagen con extensión](importador-de-orientaciones-de-access/nombre-de-la-imagen-con-extension.md)** — Si el nombre de la imagen incluye la extensión.
+* **[Unidades de los giros](importador-de-orientaciones-de-access/unidades-de-los-giros.md)** — Unidades en las que están almacenados los giros.
+* **[Orden de los giros](importador-de-orientaciones-de-access/orden-de-los-giros.md)** — Orden de los giros para la matriz de Euler.
+
+### Inpho
+
+Configura el importador de cámaras, modelos y proyectos de Trimble Inpho.
+
+* **[Postfijo para imágenes nadirales](inpho/postfijo-para-imagenes-nadirales.md)** — Postfijo de la imagen nadiral.
+* **[Postfijo para imágenes izquierda](inpho/postfijo-para-imagenes-izquierda.md)** — Postfijo de la imagen izquierda.
+* **[Postfijo para imágenes derecha](inpho/postfijo-para-imagenes-derecha.md)** — Postfijo de la imagen derecha.
+* **[Postfijo para imágenes frontal](inpho/postfijo-para-imagenes-frontal.md)** — Postfijo de la imagen frontal.
+* **[Postfijo para imágenes trasera](inpho/postfijo-para-imagenes-trasera.md)** — Postfijo de la imagen trasera.
+* **[Solicitar salto de fotos](inpho/solicitar-salto-de-fotos.md)** — Solicita el número de fotos a saltar al cargar.
+* **[Omitir modelos para los cuales no hay foto](inpho/omitir-modelos-para-los-cuales-no-hay-foto.md)** — Omite los modelos sin foto localizada.
+
 ### Instantáneas
 
 Configura cómo se guardan las instantáneas que generan algunas órdenes.
@@ -327,6 +362,12 @@ Configura el comportamiento del panel de tareas.
 
 * **[Vaciar automáticamente](panel-de-tareas/vaciar-automaticamente.md)** — Limpia el panel al añadir la primera tarea de una orden nueva.
 * **[Agrupar tareas por coordenadas](panel-de-tareas/agrupar-tareas-por-coordenadas.md)** — Agrupa las tareas que comparten coordenada.
+
+### PhotoScan
+
+Configura el importador de orientaciones de Agisoft PhotoScan/Metashape.
+
+* **[Coordenadas Z en proyecto son ortométricas haciéndose pasar por elipsoidales](photoscan/coordenadas-z-en-proyecto-son-ortometricas-haciendose-pasar-por-elipsoidales.md)** — Cómo se introdujeron las coordenadas Z en PhotoScan.
 
 ### Proyecto fotogramétrico
 
