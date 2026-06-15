@@ -8,7 +8,7 @@ Además se puede modificar el resultado de la macro si a continuación de ella s
 * [Right()](macros/right.md)
 * [Substring()](macros/substring.md)
 
-Por ejemplo: el campo [Destino de copias de seguridad](cuadros-de-dialogo/configuracion/copia-de-seguridad.md#destino-de-copias-de-seguridad) del cuadro de diálogo de Configuración admite que se introduzcan macros para permitir crear copias de seguridad cuyo nombre varíe en función de la fecha y hora.
+Por ejemplo: el campo [Destino de copias de seguridad](cuadros-de-dialogo/configuracion/copia-de-seguridad/destino-de-copias-de-seguridad.md) del cuadro de diálogo de Configuración admite que se introduzcan macros para permitir crear copias de seguridad cuyo nombre varíe en función de la fecha y hora.
 
 A continuación, enumeramos las distintas macros existentes.
 

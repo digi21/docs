@@ -65,6 +65,16 @@ Configura el control de producción del equipo.
 * **[Controlar producción](control-de-produccion/controlar-produccion.md)** — Indica si se controla la producción en este equipo.
 * **[Tiempo de visualización](control-de-produccion/tiempo-de-visualizacion.md)** — Tiempo en minutos que se muestra la barra de producción.
 
+### Copia de seguridad
+
+Configura las copias de seguridad del archivo de dibujo.
+
+* **[Destino de copias de seguridad](copia-de-seguridad/destino-de-copias-de-seguridad.md)** — Ruta y nombre del archivo de copia de seguridad (admite macros).
+* **[Generar copia de seguridad cada (minutos)](copia-de-seguridad/generar-copia-de-seguridad-cada-minutos.md)** — Cada cuántos minutos se genera una copia de seguridad (0 la deshabilita).
+* **[Generar copia de seguridad al salir](copia-de-seguridad/generar-copia-de-seguridad-al-salir.md)** — Genera una copia de seguridad al cerrar la ventana de dibujo.
+* **[Generar copia de seguridad al comprimir](copia-de-seguridad/generar-copia-de-seguridad-al-comprimir.md)** — Genera una copia de seguridad antes de comprimir.
+* **[Destino de copias de seguridad al comprimir](copia-de-seguridad/destino-de-copias-de-seguridad-al-comprimir.md)** — Ruta y nombre de la copia generada al comprimir.
+
 ### Depuración
 
 Genera archivos de depuración que permiten detectar problemas.
@@ -163,6 +173,22 @@ Permite a varios equipos compartir en tiempo real las modificaciones de los arch
 * **[Crear servidor](servidor-de-archivos-de-referencia/crear-servidor.md)** — Crea un servidor para informar al resto de equipos cuando se actualiza un archivo de dibujo.
 * **[Puerto](servidor-de-archivos-de-referencia/puerto.md)** — Puerto en el que se crea el servidor.
 * **[Conectar con servidores](servidor-de-archivos-de-referencia/conectar-con-servidores.md)** — Se conecta con el servidor que ha bloqueado un archivo de dibujo para recibir sus modificaciones en tiempo real.
+
+### Sistema de referencia de coordenadas
+
+Configura el comportamiento con los sistemas de referencia de coordenadas.
+
+* **[Solicitar sistema vertical para sensores](sistema-de-referencia-de-coordenadas/solicitar-sistema-vertical-para-sensores.md)** — Pregunta por el sistema vertical cuando el sensor no lo proporciona.
+* **[Trabajar con sistemas 2D (horizontales) si el vertical es desconocido](sistema-de-referencia-de-coordenadas/trabajar-con-sistemas-2d-si-el-vertical-es-desconocido.md)** — Crea sistemas 2D cuando el vertical es desconocido.
+* **[Crear cadenas WKT compatibles con](sistema-de-referencia-de-coordenadas/crear-cadenas-wkt-compatibles-con.md)** — Tipo de cadenas WKT que crea el programa.
+
+### Topologías no definidas en la tabla de códigos
+
+Configura cómo se representan las topologías no definidas en la tabla de códigos (las que se crean con BINTOP o CREAR_TOPOLOGIA_CODIGOS_VISIBLES).
+
+* **[Color de relleno (polígonos con centroide)](topologias-no-definidas-en-la-tabla-de-codigos/color-de-relleno-poligonos-con-centroide.md)** — Color de los polígonos con centroide.
+* **[Color de relleno (polígonos sin centroide)](topologias-no-definidas-en-la-tabla-de-codigos/color-de-relleno-poligonos-sin-centroide.md)** — Color de los polígonos sin centroide.
+* **[Texto de centroide para huecos](topologias-no-definidas-en-la-tabla-de-codigos/texto-de-centroide-para-huecos.md)** — Textos que marcan un polígono como hueco.
 
 ## Observaciones
 
