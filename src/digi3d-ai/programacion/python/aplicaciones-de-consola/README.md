@@ -1,9 +1,12 @@
 # Aplicaciones de consola
 
-Programas de Python **normales**, que se ejecutan en un intérprete de Python de tu sistema
-**fuera de Digi3D.AI**. Sirven para **leer y procesar archivos de dibujo** (convertir formatos,
-extraer información, generar informes, hacer controles por lotes…) sin necesidad de abrir el
-programa.
+Programas de Python **normales**, que se ejecutan en un intérprete de Python **fuera de
+Digi3D.AI** (el que **incluye el propio programa** o uno tuyo de 3.12). Sirven para **leer y
+procesar archivos de dibujo** (convertir formatos, extraer información, generar informes, hacer
+controles por lotes…) sin necesidad de abrir el programa.
+
+> Digi3D.AI **trae su propio intérprete de Python 3.12** en la carpeta de instalación, con
+> `digi21` ya disponible. Consulta [Intérprete incluido, pip y entornos virtuales](pip-y-entornos-virtuales.md).
 
 Usan dos paquetes:
 
@@ -49,6 +52,8 @@ if linea.crosses(otra_linea):
 
 ## Enlaces
 
+- [Intérprete incluido, pip y entornos virtuales](pip-y-entornos-virtuales.md) — usa el Python que
+  trae Digi3D.AI e instala paquetes de terceros (numpy…) con un entorno virtual.
 - [Ejemplos de programación](ejemplos/README.md) — aprende leyendo archivos, creando geometrías
   y consultando relaciones espaciales.
 - [Referencia de la API](../referencia/README.md) — `digi21.base` y `digi21.io`.

@@ -619,6 +619,7 @@
           * [Geomedia](digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md)
     * [Python](digi3d-ai/programacion/python/README.md)
       * [Aplicaciones de consola](digi3d-ai/programacion/python/aplicaciones-de-consola/README.md)
+        * [Intérprete incluido, pip y entornos virtuales](digi3d-ai/programacion/python/aplicaciones-de-consola/pip-y-entornos-virtuales.md)
         * [Ejemplos de programación](digi3d-ai/programacion/python/aplicaciones-de-consola/ejemplos/README.md)
           * [Leer un archivo de dibujo](digi3d-ai/programacion/python/aplicaciones-de-consola/ejemplos/leer-un-archivo-de-dibujo.md)
           * [Crear geometrías](digi3d-ai/programacion/python/aplicaciones-de-consola/ejemplos/crear-geometrias.md)
