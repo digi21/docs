@@ -2321,6 +2321,8 @@
     * [Nube de puntos](lot-of-points-cc/interfaz-de-usuario/nube-de-puntos/README.md)
       * [Incorporar este escaneo](lot-of-points-cc/interfaz-de-usuario/nube-de-puntos/incorporar-este-escaneo.md)
   * [Requerimientos de hardware](lot-of-points-cc/requerimientos-de-hardware.md)
+* [Topcal21](topcal21/README.md)
+  * [Novedades de la versión](topcal21/novedades-version/README.md)
 * [Acerca de las llaves de protección](acerca-llaves-proteccion/README.md)
   * [Tipos de llaves de protección](acerca-llaves-proteccion/tipos-de-llaves-proteccion.md)
   * [Obtener una llave de protección](acerca-llaves-proteccion/obtener-una-llave-de-proteccion/README.md)
