@@ -4,7 +4,7 @@
 * [Digi3D.AI](digi3d-ai/README.md)
   * [Informacion general de la aplicación](digi3d-ai/informacion-general.md)
   * [Compatibilidad](digi3d-ai/compatibilidad.md)
-  * [Novedades de la versión](digi3d-ai/novedades-version.md)
+  * [Novedades de la versión](digi3d-ai/novedades-version/README.md)
   * [Primeros pasos](digi3d-ai/primeros-pasos/README.md)
     * [Instalación de Digi3D.AI](digi3d-ai/primeros-pasos/instalacion-digi3d-ai.md)
     * [Primeros pasos usuarios versiones anteriores](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/README.md)
