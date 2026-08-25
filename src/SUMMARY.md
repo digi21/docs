@@ -1859,6 +1859,7 @@
       * [Panel imágenes de fondo](mdtopx/introduccion/paneles-de-la-aplicacion/panel-imagenes-de-fondo.md)
     * [Teclas rápidas con operaciones asociadas](mdtopx/introduccion/teclas-rapidas.md)
     * [Barra de estado](mdtopx/introduccion/barra-de-estado.md)
+  * [Novedades de la versión](mdtopx/novedades-version/README.md)
   * [Cinta de herramientas](mdtopx/cinta-de-herramientas/README.md)
     * [Minimizar la cinta de herramientas](mdtopx/cinta-de-herramientas/minimizar-la-cinta-de-herramientas.md)
     * [Utilizar la cinta de herramientas mediante teclado](mdtopx/cinta-de-herramientas/utilizar-la-cinta-de-herramientas-mediante-teclado.md)
