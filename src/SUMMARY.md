@@ -1095,6 +1095,7 @@
             * [CIERRA\_ENT](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cierra-ent.md)
             * [CIR2P](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir2p.md)
             * [CIR3P](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3p.md)
+            * [CIR3D](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3d.md)
             * [CIRCR](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/circr.md)
             * [CLONAR](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/clonar.md)
             * [CLONAR\_ATRIBUTOS](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/clonar_atributos.md)
