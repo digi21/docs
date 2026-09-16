@@ -21,8 +21,6 @@ CIR3D está pensada para los sensores con cámara libre —nube de puntos y orto
 
 Si los tres puntos están alineados no definen un plano: la orden avisa y espera otro tercer punto.
 
-Con un sistema de referencia de coordenadas geográfico (longitud y latitud) el plano no se calcula correctamente, porque las coordenadas horizontales están en grados y la altura en metros. En ese caso el resultado es el mismo que con CIR3P.
-
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cir3d.md) |
