@@ -14,6 +14,8 @@ Dibuja una circunferencia a partir de tres puntos dados.
 
 El círculo se construye de tal forma, que el triángulo definido por esos tres puntos queda inscrito en su interior.
 
+La circunferencia se construye en el plano de la cámara: todos sus vértices quedan a la misma profundidad. Para que pase exactamente por tres puntos que no estén en ese plano —con la cámara libre de los sensores de nube de puntos y de ortofoto estereoscópica—, use [CIR3D](cir3d.md).
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cir3p.md) |
