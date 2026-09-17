@@ -285,13 +285,8 @@ Configura el importador de orientaciones a partir de una base de datos Microsoft
 
 ### Inpho
 
-Configura el importador de cámaras, modelos y proyectos de Trimble Inpho.
+Configura el importador de cámaras, modelos y proyectos de Trimble Inpho. Los cabezales de un proyecto multicámara se reconocen por el `$CAMERA_ID` de cada foto, sin configuración.
 
-* **[Postfijo para imágenes nadirales](inpho/postfijo-para-imagenes-nadirales.md)** — Postfijo de la imagen nadiral.
-* **[Postfijo para imágenes izquierda](inpho/postfijo-para-imagenes-izquierda.md)** — Postfijo de la imagen izquierda.
-* **[Postfijo para imágenes derecha](inpho/postfijo-para-imagenes-derecha.md)** — Postfijo de la imagen derecha.
-* **[Postfijo para imágenes frontal](inpho/postfijo-para-imagenes-frontal.md)** — Postfijo de la imagen frontal.
-* **[Postfijo para imágenes trasera](inpho/postfijo-para-imagenes-trasera.md)** — Postfijo de la imagen trasera.
 * **[Solicitar salto de fotos](inpho/solicitar-salto-de-fotos.md)** — Solicita el número de fotos a saltar al cargar.
 * **[Omitir modelos para los cuales no hay foto](inpho/omitir-modelos-para-los-cuales-no-hay-foto.md)** — Omite los modelos sin foto localizada.
 
