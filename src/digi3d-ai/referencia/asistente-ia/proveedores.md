@@ -23,7 +23,7 @@ en la web de cada proveedor antes de empezar.
 
 | Campo | Valor |
 |---|---|
-| API key | Se crea en [console.anthropic.com](https://console.anthropic.com), en **API Keys**. |
+| API key | Se crea y se administra en [platform.claude.com/settings/keys](https://platform.claude.com/settings/keys). |
 | URL | `https://api.anthropic.com/v1` (la que aparece por omisión). |
 | Modelo | El desplegable propone Opus 5.5, Sonnet 5, Fable 5.1 y Haiku 4.5, más los modelos que devuelve Anthropic para tu cuenta. |
 
@@ -34,7 +34,7 @@ más grandes razonan mejor las peticiones de varios pasos, a un coste mayor.
 
 | Campo | Valor |
 |---|---|
-| API key | Se crea en [platform.openai.com](https://platform.openai.com), en **API keys**. |
+| API key | Se crea y se administra en [platform.openai.com/api-keys](https://platform.openai.com/api-keys). |
 | URL | `https://api.openai.com/v1` (la que aparece por omisión). |
 | Modelo | El desplegable muestra los modelos de texto de tu cuenta. Digi3D.AI no muestra los modelos de imagen, voz, transcripción ni *embeddings*, porque el asistente no puede usarlos. |
 
@@ -56,7 +56,7 @@ lista.
 
 | Campo | Valor |
 |---|---|
-| API key | Se crea en [platform.moonshot.ai](https://platform.moonshot.ai). |
+| API key | Se crea y se administra en [platform.kimi.ai/console/api-keys](https://platform.kimi.ai/console/api-keys). |
 | URL | `https://api.moonshot.ai/v1` (la que aparece por omisión). |
 | Modelo | El desplegable propone los modelos Kimi, más los que devuelve Moonshot AI para tu cuenta. |
 
@@ -66,7 +66,7 @@ OpenRouter da acceso con una sola API key a modelos de muchos fabricantes.
 
 | Campo | Valor |
 |---|---|
-| API key | Se crea en [openrouter.ai](https://openrouter.ai), en **Keys**. |
+| API key | Se crea y se administra en [openrouter.ai/settings/keys](https://openrouter.ai/settings/keys). |
 | URL | `https://openrouter.ai/api/v1` (la que aparece por omisión). |
 | Modelo | El desplegable muestra todos los modelos de OpenRouter. Elige uno que admita el **uso de herramientas** (*tool calling*): el asistente lo necesita para trabajar sobre el dibujo. |
 
