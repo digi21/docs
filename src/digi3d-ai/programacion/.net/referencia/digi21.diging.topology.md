@@ -4,17 +4,17 @@ Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Topology/) pro
 
 ### Package manager
 ```bash
-Install-Package Digi21.Topology -Version 21.0.0
+Install-Package Digi21.DigiNG.Topology -Version 26.0.0
 ```
 
 ### .NET Cli
 ```
-dotnet add package Digi21.Topology --version 21.0.0
+dotnet add package Digi21.DigiNG.Topology --version 26.0.0
 ```
 
 ### Package reference
 ```markup
-<PackageReference Include="Digi21.Topology" Version="21.0.0" />
+<PackageReference Include="Digi21.DigiNG.Topology" Version="26.0.0" />
 ```
 
 
