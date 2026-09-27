@@ -2,17 +2,15 @@
 
 Digi3D.AI es una aplicación mixta de Windows, lo que significa que parte de la aplicación es nativa y parte es administrada.
 
-La parte administrada son una serie de ensamblados firmados digitalmente que se instalan en el GAC y que permiten a las aplicaciones .NET acceder a los servicios que proporciona el programa.
+La parte administrada es un conjunto de ensamblados .NET 10 que el instalador de Digi3D.AI copia en `<carpeta de instalación>\<ensamblado>\<versión>\` y que permiten a los programas .NET acceder a los servicios del programa.
 
-Para que un programa .NET pueda acceder a los tipos publicados por uno de estos ensamblados, deberá tener una referencia al ensamblado en sus metadatos.
+Para usar esos ensamblados desde tu programa, referencia los paquetes [NuGet](https://www.nuget.org/profiles/Digi21) de Digi21, versión 26.0.0. Cada paquete contiene un [ensamblado de referencia](https://learn.microsoft.com/dotnet/standard/assembly/reference-assemblies): los tipos para compilar, sin el código. Los ensamblados de referencia no se copian a la carpeta de salida al compilar; el código lo carga tu programa de la carpeta de instalación de Digi3D.AI al ejecutarse. Así, si compilas un programa llamado `bintram.exe`, puedes copiar ese `.exe` a cualquier carpeta de cualquier equipo que tenga instalado Digi3D.AI y ejecutarlo.
 
-La forma más sencilla de hacer referencia a los ensamblados que proporciona Digi3D.AI es mediante paquetes [NuGet](https://www.nuget.org/profiles/Digi21).
-
-Al instalar cualquiera de estos paquetes NuGet lo que se instala es un [ensamblado de referencia](https://docs.microsoft.com/en-us/dotnet/standard/assembly/reference-assemblies) al ensamblado realmente instalado en el GAC. Una característica que tienen los ensamblados de referencia es que no se copian al destino al compilar nuestro programa, de manera que si hacemos un programa que se llame bintram.exe, copiando únicamente ese .exe podremos ejecutarlo en cualquier máquina que tenga instalado Digi3D.AI.
+La carga la hace un archivo que el paquete `Digi21.DigiNG` añade a los proyectos C#; está explicado en [Migración a .NET 10](../migracion-a-net-10.md#cómo-encuentra-tu-programa-los-ensamblados-de-digi3dai).
 
 A continuación, el listado de paquetes NuGet:
 
-* [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+* [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 * [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 * [Digi21.Utilities](/digi3d-ai/programacion/.net/referencia/digi21.utilities.md)
 * [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
