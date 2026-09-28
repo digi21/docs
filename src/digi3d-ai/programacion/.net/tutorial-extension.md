@@ -88,10 +88,16 @@ La carpeta de destino contiene `HolaMundo.dll` y sus archivos de configuración,
 
 ### Para probarla
 
-En la línea de órdenes de Digi3D.AI, ejecuta la orden `CARGA_ENSAMBLADO` con la ruta de la DLL:
+En la línea de órdenes de Digi3D.AI, ejecuta la orden `CARGA_ENSAMBLADO` con la ruta de la DLL. Si la ruta tiene espacios, escríbela entre comillas. En la interfaz en inglés, la orden se llama `LOAD_ASSEMBLY`.
 
 ```
 CARGA_ENSAMBLADO=C:\MisExtensiones\HolaMundo\HolaMundo.dll
+```
+
+La ventana de resultados muestra las órdenes que ha cargado:
+
+```
+Ensamblado C:\MisExtensiones\HolaMundo\HolaMundo.dll cargado. Órdenes: hola_mundo.
 ```
 
 A continuación, ejecuta la orden:
@@ -100,7 +106,11 @@ A continuación, ejecuta la orden:
 HOLA_MUNDO
 ```
 
-La ventana de resultados muestra `Hola mundo desde una extensión .NET 10.` La extensión queda cargada hasta que cierras Digi3D.AI. Para probar una versión nueva de la DLL, cierra Digi3D.AI, compila y vuelve a cargarla.
+La ventana de resultados muestra `Hola mundo desde una extensión .NET 10.`
+
+La extensión queda cargada hasta que cierras Digi3D.AI. Si vuelves a cargar la misma DLL, Digi3D.AI conserva las órdenes que ya tenía y lo indica en la ventana de resultados. Para probar una versión nueva de la DLL, cierra Digi3D.AI, compila y vuelve a cargarla.
+
+Si la DLL no tiene ninguna clase pública con el atributo `[Command]`, la ventana de resultados lo indica y no se carga ninguna orden. Si la DLL no se puede cargar, Digi3D.AI muestra un mensaje con la causa del error.
 
 ### Para cargarla siempre al arrancar
 
