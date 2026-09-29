@@ -19,7 +19,7 @@ al mismo motor que usa MDTopX:
 
 | Paquete | Contenido |
 |---|---|
-| [`mdtopx`](mdtopx.md) | El motor: la escena (`Scene`) y sus entidades, triangulación, rejillas, análisis de nubes de puntos. |
+| [`mdtopx`](mdtopx.md) | El motor: la escena (`Scene`) y sus entidades, [triangulación y volúmenes](mdtopx-triangulacion.md), [modelos digitales de elevaciones](mdtopx-mde.md), [nubes de puntos](mdtopx-nubes.md) y [cubicación de acopios](mdtopx-acopios.md). |
 | [`mdtopx.io`](mdtopx-io.md) | Carga de plugins, interfaz común de lectura y escritura, troceado de nubes. |
 | [`mdtopx.io.pointcloud`](mdtopx-io-pointcloud.md) | Nubes de puntos: LAS/LAZ, E57, PTS, PTX, PCD, XYZ, PCAP y trayectorias. |
 | [`mdtopx.io.vector`](mdtopx-io-vector.md) | Dibujo: BIN, BIND, ASCII DIGI, DGN, DWG, DXF, Shapefile, GeoPackage, KML, GeoMedia. |
