@@ -2,6 +2,8 @@
 
 Dibuja una línea paralela a una entidad a la distancia que especifique el operador, nos irá mostrando cómo queda la paralela según movemos el cursor.
 
+![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+
 ## Parámetros
 
 Esta orden no admite parámetros, ya que la distancia a la que se va a generar la paralela se selecciona con un clic en la pantalla de dibujo.
@@ -9,6 +11,8 @@ Esta orden no admite parámetros, ya que la distancia a la que se va a generar l
 ## Observaciones
 
 Las paralelas las va a generar con el código que esté activo en el momento de ejecutar la orden.
+
+La distancia es la que hay entre el cursor y el vértice o el tramo más cercano de la línea original. La paralela conserva la Z de la línea original.
 
 ## Características de la orden
 
