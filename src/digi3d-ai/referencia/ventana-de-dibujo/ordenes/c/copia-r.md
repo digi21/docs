@@ -2,11 +2,22 @@
 
 Realiza una copia de una entidad de dibujo permitiendo rotarla con un segundo dato.
 
+![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Tipos de geometría a tentativar (cadena de letras: C=líneas y puntos, L=líneas, P=puntos, T=textos…) | Si |
+
+## Observaciones
+
+1. Selecciona la entidad que se va a copiar.
+2. Digitaliza el punto base.
+3. Digitaliza el destino del punto base.
+4. Digitaliza un cuarto punto. La copia gira el ángulo de la dirección que va del cuarto punto al tercero. Si el cuarto punto está al oeste del tercero, la copia no gira.
+
+Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activa, la orden conserva la entidad y el punto base y vuelve a pedir el destino y el giro de una nueva copia.
 
 ## Características de la orden
 
