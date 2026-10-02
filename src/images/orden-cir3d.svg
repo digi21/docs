@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="340" viewBox="0 0 440 340" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+    <g id="p3"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">3</text></g>
+  </defs>
+  <rect width="440" height="340" fill="#ffffff"/>
+
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">CIR3D</text>
+
+  <g transform="translate(55,-20)">
+    <polygon points="30,190 210,215 295,95 115,70" fill="#f6f6f6" stroke="#aaa"/>
+    <ellipse cx="165" cy="145" rx="85" ry="38" transform="rotate(-20 165 145)" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+    <polygon points="85.5,160.1 227.7,102 191.7,175.1" fill="none" stroke="#888" stroke-dasharray="5 4"/>
+    <use href="#p1" x="85.5" y="160.1"/>
+    <use href="#p2" x="227.7" y="102"/>
+    <use href="#p3" x="191.7" y="175.1"/>
+  </g>
+
+  <text x="220" y="222" text-anchor="middle" fill="#222">La circunferencia pasa por los tres puntos, en el plano que</text>
+  <text x="220" y="238" text-anchor="middle" fill="#222">forman, sea cual sea la orientación de la cámara. Si los tres</text>
+  <text x="220" y="254" text-anchor="middle" fill="#222">puntos están alineados, la orden avisa y espera otro tercer punto.</text>
+
+  <rect x="20" y="270" width="400" height="60" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="40" y="287"/>
+  <text x="56" y="292" fill="#222">Puntos digitalizados, en orden.</text>
+  <circle cx="262" cy="287" r="9" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+  <text x="278" y="292" fill="#222">Línea cerrada creada.</text>
+  <polygon points="30,320 46,320 52,306 36,306" fill="#f6f6f6" stroke="#aaa"/>
+  <text x="56" y="318" fill="#222">Plano que forman los tres puntos.</text>
+</svg>
