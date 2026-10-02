@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="430" viewBox="0 0 480 430" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+  </defs>
+  <rect width="480" height="430" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">RECORTAR_POLIGONOS</text>
+
+  <rect x="50" y="75" width="170" height="155" fill="#dbe7f5" stroke="#1f5fa8" stroke-width="2"/>
+  <rect x="235" y="75" width="170" height="155" fill="#dbe7f5" stroke="#1f5fa8" stroke-width="2"/>
+  <circle cx="228" cy="152" r="62" fill="#ffffff" stroke="none"/>
+  <circle cx="228" cy="152" r="62" fill="none" stroke="#444" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="228" y="157" text-anchor="middle" fill="#c0392b">se elimina</text>
+  <use href="#p1" x="228" y="90"/>
+
+  <text x="240" y="264" text-anchor="middle" fill="#222">1: límite, una línea cerrada.</text>
+  <text x="240" y="282" text-anchor="middle" fill="#222">Se elimina la parte que queda dentro del límite en</text>
+  <text x="240" y="300" text-anchor="middle" fill="#222">todos los polígonos y líneas cerradas visibles que</text>
+  <text x="240" y="318" text-anchor="middle" fill="#222">lo cortan. Cada uno conserva su código.</text>
+  <text x="240" y="336" text-anchor="middle" fill="#222">Con cualquier parámetro se borra también el límite.</text>
+
+  <rect x="16" y="356" width="448" height="62" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="44" y="374"/>
+  <text x="60" y="378" fill="#222">Selección.</text>
+  <line x1="250" y1="374" x2="286" y2="374" stroke="#444" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="294" y="378" fill="#222">Límite cerrado.</text>
+  <rect x="26" y="390" width="36" height="16" fill="#dbe7f5" stroke="#1f5fa8" stroke-width="2"/>
+  <text x="70" y="402" fill="#222">Polígonos que quedan.</text>
+</svg>

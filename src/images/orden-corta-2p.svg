@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="438" viewBox="0 0 480 438" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+  </defs>
+  <rect width="480" height="438" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">CORTA_2P</text>
+
+  <polyline points="60,220 110,174.5" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="110,174.5 170,120 300,143.7" fill="none" stroke="#c0392b" stroke-width="3" stroke-dasharray="4 4"/>
+  <polyline points="300,143.7 400,162" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <use href="#p1" x="110" y="174.5"/>
+  <use href="#p2" x="300" y="143.7"/>
+
+  <text x="240" y="256" text-anchor="middle" fill="#222">1 y 2: dos puntos de la misma línea.</text>
+  <text x="240" y="274" text-anchor="middle" fill="#222">El tramo entre ellos se borra y quedan dos líneas</text>
+  <text x="240" y="292" text-anchor="middle" fill="#222">con el mismo código.</text>
+  <text x="240" y="310" text-anchor="middle" fill="#222">Si 1 y 2 son el mismo vértice, la línea se parte en</text>
+  <text x="240" y="328" text-anchor="middle" fill="#222">ese vértice. Si son el primer y el último vértice,</text>
+  <text x="240" y="346" text-anchor="middle" fill="#222">se borra la línea entera.</text>
+
+  <rect x="16" y="368" width="448" height="58" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="44" y="386"/>
+  <text x="60" y="390" fill="#222">Selección, en orden.</text>
+  <line x1="250" y1="386" x2="286" y2="386" stroke="#1f5fa8" stroke-width="3"/>
+  <text x="294" y="390" fill="#222">Líneas que quedan.</text>
+  <line x1="26" y1="408" x2="62" y2="408" stroke="#c0392b" stroke-width="3" stroke-dasharray="4 4"/>
+  <text x="70" y="412" fill="#222">Tramo que se borra.</text>
+</svg>

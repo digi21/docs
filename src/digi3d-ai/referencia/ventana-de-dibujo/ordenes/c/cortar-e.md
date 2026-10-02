@@ -2,7 +2,7 @@
 
 Corta o descompone un elemento en otros dos.
 
-![Órdenes para recortar y cortar: TRIM, TRIM_LADO y TRIM_M eliminan partes de líneas que cruzan un límite, CRUCE crea un cruce de caminos, CORTAR_E, CORTAR_Y_BORRAR y CORTA_2P parten una línea, y CORTAR_POLIGONO, RECORTAR_POLIGONO y RECORTAR_POLIGONOS dividen o recortan polígonos](../../../../../images/recortar-cortar.svg)
+![CORTAR_E: se selecciona un punto de la línea (1) y la línea se parte en dos líneas en ese punto](../../../../../images/orden-cortar-e.svg)
 
 ## Parámetros
 
