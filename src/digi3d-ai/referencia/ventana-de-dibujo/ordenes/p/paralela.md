@@ -2,7 +2,7 @@
 
 Dibuja líneas paralelas a una o varias entidades, a una distancia determinada.
 
-![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+![PARALELA: en planta, la paralela a la distancia d en el lado del punto digitalizado; en alzado, la paralela conserva la Z de la línea original](../../../../../images/orden-paralela.svg)
 
 ## Parámetros
 

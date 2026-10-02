@@ -2,7 +2,7 @@
 
 Dibuja una paralela con los parámetros especificados en la variable Distancia Activa.
 
-![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+![PARALELA_DA: en planta, la paralela a la distancia DA a la derecha del sentido de digitalización; en alzado, la paralela con la Z original más DA2](../../../../../images/orden-paralela-da.svg)
 
 ## Parámetros
 

@@ -2,7 +2,7 @@
 
 Dibuja una línea paralela a una entidad a la distancia que especifique el operador, nos irá mostrando cómo queda la paralela según movemos el cursor.
 
-![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+![PARALELA_DINAMICA: en planta, la paralela a la distancia d del cursor a la línea; en alzado, la paralela conserva la Z de la línea original](../../../../../images/orden-paralela-dinamica.svg)
 
 ## Parámetros
 

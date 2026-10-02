@@ -2,7 +2,7 @@
 
 Dibuja una línea paralela a una entidad a la distancia que especifique el operador, con una determinada Z.
 
-![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+![PARALELA_DINAMICA_Z_FIJA: en planta, la paralela a la distancia d del cursor; en alzado, todos los vértices de la paralela con la Z del punto digitalizado](../../../../../images/orden-paralela-dinamica-z-fija.svg)
 
 ## Parámetros
 

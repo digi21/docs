@@ -2,7 +2,7 @@
 
 Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros.
 
-![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+![PARALELA_DINAMICA_CON_EJE: en planta, la paralela a la distancia d del cursor y el eje a d/2; en alzado, la paralela y el eje conservan la Z de la línea original](../../../../../images/orden-paralela-dinamica-con-eje.svg)
 
 ## Parámetros
 
