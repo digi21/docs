@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="nodo"><circle r="6.5" fill="#fff" stroke="#222" stroke-width="2"/></g>
+  </defs>
+  <rect width="480" height="420" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">UNIR_XYZ</text>
+
+  <polyline points="40,220 150,170 240,170" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="240,170 340,120 430,135" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="240,170 320,250 420,265" fill="none" stroke="#7f8c8d" stroke-width="3"/>
+  <use href="#nodo" x="240" y="170"/>
+
+  <text x="168" y="160" fill="#1f5fa8">z = 100</text>
+  <text x="250" y="126" fill="#1f5fa8">z = 100</text>
+  <text x="318" y="214" fill="#7f8c8d">z = 104</text>
+
+  <text x="240" y="300" text-anchor="middle" fill="#222">Une las líneas de los códigos indicados cuyos extremos</text>
+  <text x="240" y="318" text-anchor="middle" fill="#222">coinciden en X, Y y Z. Las dos azules (z = 100 en el nodo)</text>
+  <text x="240" y="336" text-anchor="middle" fill="#222">se unen en una sola línea; la gris (z = 104) no.</text>
+
+  <rect x="16" y="356" width="448" height="54" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#nodo" x="36" y="374"/>
+  <text x="50" y="378" fill="#222">Nodo: extremos con la misma X e Y.</text>
+  <text x="30" y="398" fill="#222">La orden actúa a la vez sobre todo el archivo de dibujo.</text>
+</svg>

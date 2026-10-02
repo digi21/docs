@@ -2,7 +2,7 @@
 
 Inserta un vértice en la intersección de las líneas de los códigos pasados por parámetro.
 
-![Órdenes para unir y partir líneas: UNIR une dos líneas por sus extremos, UNIR_XYZ solo si coinciden en Z, UNIR_LINEAS_TABLA solo si al nodo llegan dos líneas, PARTIR_LINEAS parte las líneas en sus cruces, INSERTAR_VERTICE_INTERSECCION_LINEAS inserta un vértice en el cruce sin partir, e INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO inserta la proyección de un punto cercano](../../../../../images/unir-partir.svg)
+![INSERTAR_VERTICE_INTERSECCION_LINEAS: dos líneas de los códigos indicados que se cruzan reciben un vértice en el cruce y no se parten](../../../../../images/orden-insertar-vertice-interseccion-lineas.svg)
 
 ## Parámetros
 

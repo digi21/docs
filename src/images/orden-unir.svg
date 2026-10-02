@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="410" viewBox="0 0 480 410" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+  </defs>
+  <rect width="480" height="410" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">UNIR</text>
+
+  <polyline points="40,240 110,170 190,155" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="270,165 350,140 430,210" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <line x1="190" y1="155" x2="270" y2="165" stroke="#e67e22" stroke-width="3" stroke-dasharray="7 5"/>
+
+  <line x1="140" y1="206" x2="144" y2="167" stroke="#c0392b" stroke-width="1.5"/>
+  <use href="#p1" x="140" y="214"/>
+  <line x1="380" y1="196" x2="378" y2="167" stroke="#c0392b" stroke-width="1.5"/>
+  <use href="#p2" x="380" y="204"/>
+
+  <text x="240" y="276" text-anchor="middle" fill="#222">1 y 2: las dos líneas que se unen. La unión se hace por</text>
+  <text x="240" y="294" text-anchor="middle" fill="#222">los dos extremos más próximos entre sí. Resulta una sola</text>
+  <text x="240" y="312" text-anchor="middle" fill="#222">línea; si hay hueco entre esos extremos, un tramo los une.</text>
+
+  <rect x="16" y="332" width="448" height="66" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="34" y="352"/>
+  <text x="48" y="356" fill="#222">Puntos de selección, en orden.</text>
+  <line x1="22" y1="378" x2="50" y2="378" stroke="#e67e22" stroke-width="3" stroke-dasharray="7 5"/>
+  <text x="58" y="382" fill="#222">Tramo que se añade al unir.</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="nodo"><circle r="6.5" fill="#fff" stroke="#222" stroke-width="2"/></g>
+  </defs>
+  <rect width="480" height="420" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">UNIR_LINEAS_TABLA</text>
+
+  <polyline points="30,230 100,170 160,180" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="160,180 200,240 215,300" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <use href="#nodo" x="160" y="180"/>
+  <text x="125" y="140" text-anchor="middle" fill="#2e7d32">2 líneas: se unen</text>
+
+  <polyline points="280,280 350,200" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="350,200 450,185" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="350,200 380,110" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <use href="#nodo" x="350" y="200"/>
+  <text x="372" y="272" text-anchor="middle" fill="#c0392b">3 líneas: no se unen</text>
+
+  <text x="240" y="336" text-anchor="middle" fill="#222">Une las líneas de los códigos indicados cuando a su nodo</text>
+  <text x="240" y="354" text-anchor="middle" fill="#222">llegan solo dos entidades de esos códigos.</text>
+
+  <rect x="16" y="372" width="448" height="38" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#nodo" x="36" y="391"/>
+  <text x="50" y="395" fill="#222">Nodo: extremos con la misma X e Y.</text>
+</svg>

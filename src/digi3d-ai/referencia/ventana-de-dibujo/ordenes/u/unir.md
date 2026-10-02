@@ -2,7 +2,7 @@
 
 Une dos entidades lineales que has de seleccionar, generando un único elemento de dibujo.
 
-![Órdenes para unir y partir líneas: UNIR une dos líneas por sus extremos, UNIR_XYZ solo si coinciden en Z, UNIR_LINEAS_TABLA solo si al nodo llegan dos líneas, PARTIR_LINEAS parte las líneas en sus cruces, INSERTAR_VERTICE_INTERSECCION_LINEAS inserta un vértice en el cruce sin partir, e INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO inserta la proyección de un punto cercano](../../../../../images/unir-partir.svg)
+![UNIR: las dos líneas seleccionadas en 1 y 2 se unen por sus extremos más próximos y un tramo cubre el hueco entre ellos](../../../../../images/orden-unir.svg)
 
 ## Parámetros
 
