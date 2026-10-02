@@ -2,7 +2,7 @@
 
 Dibuja escaleras o matrices de polígonos de cuatro lados.
 
-![Pasos de cebra, escaleras y rejillas: CEBRA y CEBRA_4P dividen un lado en 2N-1 partes para N franjas, ESCALERA divide un rectángulo en N peldaños, ESCALERA_DA pone un peldaño cada DA entre dos laterales, y CUADROS y CUADROS_4P dividen un rectángulo o un cuadrilátero en celdas](../../../../../images/cebras-escaleras-rejillas.svg)
+![CUADROS_4P con 3 × 4: el cuadrilátero 1-2-3-4 con base 1-2, dividido en 3 franjas paralelas a la base y 4 en el otro sentido](../../../../../images/orden-cuadros-4p.svg)
 
 ## Parámetros
 

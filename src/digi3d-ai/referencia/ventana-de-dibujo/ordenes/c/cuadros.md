@@ -2,7 +2,7 @@
 
 Traza segmentos tanto paralelos como perpendiculares a la base.
 
-![Pasos de cebra, escaleras y rejillas: CEBRA y CEBRA_4P dividen un lado en 2N-1 partes para N franjas, ESCALERA divide un rectángulo en N peldaños, ESCALERA_DA pone un peldaño cada DA entre dos laterales, y CUADROS y CUADROS_4P dividen un rectángulo o un cuadrilátero en celdas](../../../../../images/cebras-escaleras-rejillas.svg)
+![CUADROS con 3 × 4: rectángulo de base 1-2 y lado opuesto en 3, dividido en 3 franjas paralelas a la base y 4 perpendiculares](../../../../../images/orden-cuadros.svg)
 
 ## Parámetros
 

@@ -2,7 +2,7 @@
 
 Facilita el dibujo de pasos de cebra.
 
-![Pasos de cebra, escaleras y rejillas: CEBRA y CEBRA_4P dividen un lado en 2N-1 partes para N franjas, ESCALERA divide un rectángulo en N peldaños, ESCALERA_DA pone un peldaño cada DA entre dos laterales, y CUADROS y CUADROS_4P dividen un rectángulo o un cuadrilátero en celdas](../../../../../images/cebras-escaleras-rejillas.svg)
+![CEBRA con N = 3: los puntos 1 y 2 definen un lado y el 3 el lado opuesto; el lado 1-2 se divide en 5 partes y salen 3 franjas cerradas](../../../../../images/orden-cebra.svg)
 
 ## Parámetros
 
