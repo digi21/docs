@@ -2,17 +2,21 @@
 
 Modifica el sentido en que se han registrado los puntos después de haber digitalizado un elemento gráfico.
 
+![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
+
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+
+Sin parámetros, la orden pide que selecciones la línea o las líneas. Con códigos, cambia el sentido de todas las líneas visibles de esos códigos y termina:
+
+`CAMB_SEN=<código>`
 
 ## Observaciones
 
 En caso de líneas con patrón, como puede ser el código para masa de árboles, al cambiar el sentido cambiará el lado hacia el que está dirigido el patrón.
-
-Puedes ejecutar la orden por código, para ello teclea en la barra de comandos:
-
-`CAMB_SEN=<código>`
 
 ## Características de la orden
 

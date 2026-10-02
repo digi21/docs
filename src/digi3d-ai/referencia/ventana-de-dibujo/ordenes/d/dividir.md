@@ -2,17 +2,28 @@
 
 Inserta textos o símbolos a lo largo de una entidad lineal.
 
+![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
+
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código de las líneas | Si |
+| 2 | Texto, o símbolo escrito como `@<número>` | Si |
+| 3 | Ángulo fijo de los textos | Si |
+
+Con los parámetros 1 y 2, la orden procesa todas las líneas visibles de ese código y termina. Si falta el parámetro 3, cada texto gira con el tramo en el que cae.
+
+`DIVIDIR=<código> <texto o símbolo> [ángulo]`
 
 ## Observaciones
 
-Puedes ejecutar la orden para todas las líneas de un determinado código.
+Sin parámetros, la orden muestra un cuadro de diálogo con el texto o el símbolo, las dos distancias y el ángulo, y después pide que selecciones la línea.
 
-### Ejemplo:
-
-`DIVIDIR=<código> <texto o símbolo>`
+* El primer texto se sitúa a la primera distancia del primer vértice, medida sobre la línea. Con parámetros, es la distancia activa principal de [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md).
+* Los siguientes se sitúan cada segunda distancia. Con parámetros, es la distancia activa secundaria.
+* Si una distancia vale 0, se usa 1.
+* Los textos toman la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación de [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y la Z interpolada de la línea. La línea no cambia.
 
 ## Características de la orden
 

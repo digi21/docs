@@ -2,18 +2,24 @@
 
 Se utiliza para hacer líneas de señalización horizontal, mediante la inserción de símbolos \(compuestos por segmentos horizontales y verticales\) y de espacios en blanco.
 
+![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
+
 ## Parámetros
 
 No admite parámetros.
 
 ## Observaciones
 
-Campos que debemos rellenar:
+La orden muestra un cuadro de diálogo con estos campos:
 
 * Código de las líneas de señalización horizontal: código de las entidades lineales que se van a transformar a líneas de señalización horizontal. Se pueden utilizar los caracteres comodín \*, ?.
-* Largo: se trata del largo del símbolo a insertar en metros.
-* Ancho: se trata del ancho del símbolo a insertar en metros.
-* Espacio en blanco entre líneas: se trata del espacio entre símbolos, también en metros.
+* Largo: largo de cada trazo.
+* Ancho: ancho de cada trazo. Con 0, cada trazo es una línea abierta; con otro valor, es una línea cerrada que se extiende ese ancho a la derecha del sentido de digitalización.
+* Espacio en blanco entre líneas: separación entre trazos.
+
+Las tres medidas están en las unidades del sistema de referencia de coordenadas de la ventana de dibujo.
+
+La orden procesa todas las líneas abiertas y visibles del código y las sustituye por los trazos. Las líneas cerradas no cambian. Si una línea termina a mitad de un trazo, ese último trazo no se añade.
 
 ## Características de la orden
 
