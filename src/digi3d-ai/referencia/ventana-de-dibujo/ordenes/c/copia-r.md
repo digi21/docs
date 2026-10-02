@@ -15,7 +15,7 @@ Realiza una copia de una entidad de dibujo permitiendo rotarla con un segundo da
 1. Selecciona la entidad que se va a copiar.
 2. Digitaliza el punto base.
 3. Digitaliza el destino del punto base.
-4. Digitaliza un cuarto punto. La copia gira el ángulo de la dirección que va del cuarto punto al tercero. Si el cuarto punto está al oeste del tercero, la copia no gira.
+4. Digitaliza un cuarto punto. La copia gira el ángulo de la dirección que va del tercer punto al cuarto, medido en sentido antihorario desde el este. Si el cuarto punto está al este del tercero, la copia no gira; si está al norte, gira 90°. Los textos y los puntos copiados giran el mismo ángulo.
 
 Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activa, la orden conserva la entidad y el punto base y vuelve a pedir el destino y el giro de una nueva copia.
 
