@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <defs>
+    <g id="p1"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text></g>
+  </defs>
+  <rect width="440" height="320" fill="#ffffff"/>
+
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">PUNTO_2P</text>
+
+  <g transform="translate(30,-10)">
+    <g transform="translate(60,170)" fill="none" stroke="#999" stroke-width="1.5">
+      <path d="M 0 0 L 20 0 L 20 -8 L 30 0 L 20 8 L 20 0"/>
+    </g>
+    <text x="60" y="195" fill="#777">escala 1</text>
+    <g transform="translate(160,150) rotate(-30)">
+      <path d="M 0 0 L 100 0 L 100 -40 L 150 0 L 100 40 L 100 0" fill="none" stroke="#2e7d32" stroke-width="3"/>
+      <line x1="0" y1="0" x2="150" y2="0" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 3"/>
+    </g>
+    <use href="#p1" x="160" y="150"/>
+    <use href="#p2" x="290" y="75"/>
+  </g>
+
+  <text x="220" y="221" text-anchor="middle" fill="#222">1: posición del punto. 2: la distancia 1-2 es la escala del</text>
+  <text x="220" y="236" text-anchor="middle" fill="#222">símbolo del punto, y la dirección 1-2 es su giro.</text>
+
+  <rect x="20" y="254" width="400" height="56" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="38" y="274"/>
+  <text x="52" y="278" fill="#222">Puntos digitalizados, en orden.</text>
+  <path d="M 230 274 L 245 274 L 245 268 L 253 274 L 245 280 L 245 274" fill="none" stroke="#999" stroke-width="1.5"/>
+  <text x="262" y="278" fill="#222">Símbolo a escala 1.</text>
+  <path d="M 230 296 L 245 296 L 245 290 L 253 296 L 245 302 L 245 296" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <text x="262" y="300" fill="#222">Punto insertado.</text>
+</svg>

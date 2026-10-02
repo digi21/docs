@@ -2,7 +2,7 @@
 
 Inserta una imagen en el archivo de dibujo mediante tres puntos.
 
-![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+![INS_FOTO_3P: dos esquinas de un lado (1 y 2) y un punto del lado opuesto (3) definen el rectángulo que la imagen llena](../../../../../images/orden-ins-foto-3p.svg)
 
 ## Parámetros
 

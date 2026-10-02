@@ -2,7 +2,7 @@
 
 Realiza una copia de una entidad de dibujo permitiendo rotarla con un segundo dato.
 
-![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+![COPIA_R: entidad seleccionada (1), punto base (2), destino del punto base (3) y cuarto punto (4); la copia gira el ángulo de la dirección 3-4 medido en sentido antihorario desde el este](../../../../../images/orden-copia-r.svg)
 
 ## Parámetros
 

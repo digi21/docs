@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="330" viewBox="0 0 440 330" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <defs>
+    <g id="p1"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text></g>
+    <pattern id="textura" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#dce8f5"/><path d="M 0 12 L 12 0" stroke="#b5cbe4" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="440" height="330" fill="#ffffff"/>
+
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INS_FOTO</text>
+
+  <g transform="translate(80,20)">
+    <g transform="translate(140,100) rotate(-20)">
+      <rect x="-64" y="-48" width="128" height="96" fill="url(#textura)" stroke="#1f5fa8" stroke-width="2"/>
+      <text x="0" y="-26" text-anchor="middle" fill="#1f5fa8">imagen</text>
+      <line x1="0" y1="0" x2="64" y2="0" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 3"/>
+      <text x="32" y="16" text-anchor="middle" fill="#c0392b" font-size="11">medio ancho</text>
+    </g>
+    <use href="#p1" x="140" y="100"/>
+    <use href="#p2" x="200.1" y="78.1"/>
+  </g>
+
+  <text x="220" y="216" text-anchor="middle" fill="#222">1: centro de la imagen. 2: punto medio del lado derecho.</text>
+  <text x="220" y="231" text-anchor="middle" fill="#222">La distancia 1-2 es la mitad del ancho de la imagen y la</text>
+  <text x="220" y="246" text-anchor="middle" fill="#222">dirección 1-2 es su giro. La imagen conserva su relación</text>
+  <text x="220" y="261" text-anchor="middle" fill="#222">de aspecto.</text>
+
+  <rect x="20" y="276" width="400" height="44" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="38" y="298"/>
+  <text x="52" y="302" fill="#222">Puntos digitalizados, en orden.</text>
+  <rect x="236" y="290" width="30" height="16" fill="url(#textura)" stroke="#1f5fa8"/>
+  <text x="274" y="302" fill="#222">Imagen insertada.</text>
+</svg>
