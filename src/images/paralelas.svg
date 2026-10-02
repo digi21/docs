@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="680" viewBox="0 0 840 680" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="sentido" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f5fa8"/>
+    </marker>
+    <g id="original">
+      <polyline points="30,170 140,110 250,140" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+      <line x1="60" y1="153.6" x2="85" y2="140" stroke="#1f5fa8" stroke-width="3" marker-end="url(#sentido)"/>
+    </g>
+    <g id="cursor" stroke="#c0392b" stroke-width="2"><line x1="-9" y1="0" x2="9" y2="0"/><line x1="0" y1="-9" x2="0" y2="9"/></g>
+  </defs>
+  <rect width="840" height="680" fill="#ffffff"/>
+
+  <!-- PARALELA -->
+  <g transform="translate(0,0)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">PARALELA</text>
+    <use href="#original"/>
+    <polyline points="15.6,143.7 136.2,77.9 257.9,111" fill="none" stroke="#e67e22" stroke-width="3"/>
+    <line x1="195" y1="124" x2="198.9" y2="95" stroke="#555" stroke-width="1.2"/>
+    <text x="203" y="113" fill="#555">d</text>
+    <use href="#cursor" x="120" y="60"/>
+    <text x="132" y="56" fill="#c0392b">lado</text>
+    <text x="140" y="228" text-anchor="middle" fill="#222">Selecciona la línea, da la distancia d</text>
+    <text x="140" y="244" text-anchor="middle" fill="#222">(escrita o con dos puntos) y pincha en el</text>
+    <text x="140" y="260" text-anchor="middle" fill="#222">lado donde la quieres. La Z no cambia.</text>
+  </g>
+
+  <!-- PARALELA_DA -->
+  <g transform="translate(280,0)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">PARALELA_DA</text>
+    <use href="#original"/>
+    <polyline points="44.4,196.3 143.8,142.1 242.1,169" fill="none" stroke="#e67e22" stroke-width="3"/>
+    <line x1="190" y1="125.5" x2="185.8" y2="155" stroke="#555" stroke-width="1.2"/>
+    <text x="192" y="150" fill="#555">DA</text>
+    <text x="140" y="228" text-anchor="middle" fill="#222">Al seleccionar la línea, la paralela sale a la</text>
+    <text x="140" y="244" text-anchor="middle" fill="#222">distancia DA, a la derecha del sentido de</text>
+    <text x="140" y="260" text-anchor="middle" fill="#222">digitalización (DA negativa: a la izquierda).</text>
+  </g>
+
+  <!-- PARALELA_DINAMICA -->
+  <g transform="translate(560,0)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">PARALELA_DINAMICA</text>
+    <use href="#original"/>
+    <polyline points="15.6,143.7 136.2,77.9 257.9,111" fill="none" stroke="#e67e22" stroke-width="3" stroke-dasharray="7 4"/>
+    <use href="#cursor" x="68.3" y="115"/>
+    <line x1="68.3" y1="115" x2="82.7" y2="141.3" stroke="#555" stroke-width="1.2"/>
+    <text x="80" y="122" fill="#555">d</text>
+    <text x="140" y="228" text-anchor="middle" fill="#222">La distancia es la del cursor a la línea; la</text>
+    <text x="140" y="244" text-anchor="middle" fill="#222">paralela sigue al cursor hasta que pinchas.</text>
+    <text x="140" y="260" text-anchor="middle" fill="#222">_PLANO_DIBUJO mide en el plano de la vista.</text>
+  </g>
+
+  <line x1="20" y1="282" x2="820" y2="282" stroke="#ddd"/>
+
+  <!-- PARALELA_DINAMICA_CON_EJE -->
+  <g transform="translate(0,290)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">..._CON_EJE=códigos</text>
+    <use href="#original"/>
+    <polyline points="22.8,156.9 138.1,94 253.95,125.5" fill="none" stroke="#2e7d32" stroke-width="2.5" stroke-dasharray="10 4 2 4"/>
+    <polyline points="15.6,143.7 136.2,77.9 257.9,111" fill="none" stroke="#e67e22" stroke-width="3"/>
+    <use href="#cursor" x="68.3" y="115"/>
+    <text x="250" y="152" fill="#2e7d32" text-anchor="end">eje a d/2</text>
+    <text x="140" y="228" text-anchor="middle" fill="#222">Como la dinámica, y además dibuja un eje</text>
+    <text x="140" y="244" text-anchor="middle" fill="#222">a mitad de distancia con los códigos</text>
+    <text x="140" y="260" text-anchor="middle" fill="#222">pasados como parámetros.</text>
+  </g>
+
+  <!-- Z de la paralela (alzado) -->
+  <g transform="translate(280,290)">
+    <text x="280" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Z de la paralela (alzado)</text>
+    <g transform="translate(0,0)">
+      <text x="93" y="48" text-anchor="middle" fill="#222" font-weight="bold">Sin sufijo (XY)</text>
+      <line x1="15" y1="190" x2="175" y2="130" stroke="#1f5fa8" stroke-width="3"/>
+      <line x1="15" y1="190" x2="175" y2="130" stroke="#e67e22" stroke-width="3" stroke-dasharray="6 5"/>
+      <text x="93" y="228" text-anchor="middle" fill="#222">La misma Z que</text>
+      <text x="93" y="244" text-anchor="middle" fill="#222">la línea original.</text>
+    </g>
+    <g transform="translate(187,0)">
+      <text x="93" y="48" text-anchor="middle" fill="#222" font-weight="bold">_XYZ y _CON_EJE_Z</text>
+      <line x1="15" y1="190" x2="175" y2="130" stroke="#1f5fa8" stroke-width="3"/>
+      <line x1="15" y1="140" x2="175" y2="80" stroke="#e67e22" stroke-width="3"/>
+      <circle cx="75" cy="167.5" r="5" fill="#1f5fa8"/>
+      <use href="#cursor" x="110" y="94.4"/>
+      <line x1="75" y1="167.5" x2="75" y2="117.5" stroke="#555" stroke-width="1.2"/>
+      <text x="62" y="146" fill="#555" text-anchor="end">Δz</text>
+      <text x="93" y="228" text-anchor="middle" fill="#222">Z original + Δz entre el punto</text>
+      <text x="93" y="244" text-anchor="middle" fill="#222">de selección y el cursor.</text>
+    </g>
+    <g transform="translate(374,0)">
+      <text x="93" y="48" text-anchor="middle" fill="#222" font-weight="bold">_Z_FIJA, PARALELA_Z…</text>
+      <line x1="15" y1="190" x2="175" y2="130" stroke="#1f5fa8" stroke-width="3"/>
+      <line x1="15" y1="100" x2="175" y2="100" stroke="#e67e22" stroke-width="3"/>
+      <use href="#cursor" x="110" y="100"/>
+      <text x="93" y="228" text-anchor="middle" fill="#222">Todos los vértices con la Z</text>
+      <text x="93" y="244" text-anchor="middle" fill="#222">del punto digitalizado.</text>
+    </g>
+  </g>
+
+  <!-- Leyenda -->
+  <rect x="20" y="580" width="800" height="90" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <line x1="40" y1="600" x2="80" y2="600" stroke="#1f5fa8" stroke-width="3" marker-end="url(#sentido)"/>
+  <text x="92" y="605" fill="#222">Línea original y su sentido de digitalización.</text>
+  <line x1="420" y1="600" x2="460" y2="600" stroke="#e67e22" stroke-width="3"/>
+  <text x="472" y="605" fill="#222">Paralela (discontinua: la vista previa que sigue al cursor).</text>
+  <use href="#cursor" x="60" y="627"/>
+  <text x="92" y="632" fill="#222">Punto digitalizado o posición del cursor.</text>
+  <line x1="420" y1="627" x2="460" y2="627" stroke="#2e7d32" stroke-width="2.5" stroke-dasharray="10 4 2 4"/>
+  <text x="472" y="632" fill="#222">Eje con los códigos pasados como parámetros.</text>
+  <text x="40" y="658" fill="#222">_CON_EJE_Z_ACTIVA usa la regla de la derecha: Z del punto digitalizado. PARALELA_Z da a todos los vértices la Z del punto de lado.</text>
+</svg>

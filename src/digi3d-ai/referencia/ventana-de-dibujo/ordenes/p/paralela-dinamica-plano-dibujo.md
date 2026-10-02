@@ -2,6 +2,8 @@
 
 Realiza una paralela dinámica en el plano que tenga la ventana de dibujo.
 
+![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+
 ## Parámetros
 
 No admite parámetros.

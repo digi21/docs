@@ -2,6 +2,8 @@
 
 Dibuja una línea paralela a una entidad a la distancia que especifique el operador, teniendo en cuenta la Z de la ventana fotogramétrica.
 
+![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+
 ## Parámetros
 
 Esta orden no admite parámetros, ya que la distancia a la que se va a generar la paralela se selecciona con un clic en la pantalla de dibujo.
@@ -9,6 +11,8 @@ Esta orden no admite parámetros, ya que la distancia a la que se va a generar l
 ## Observaciones
 
 Las paralelas las va a generar con el código que esté activo en el momento de ejecutar la orden.
+
+A la Z de todos los vértices de la paralela se le suma la diferencia de Z entre el punto con el que seleccionaste la línea y el punto digitalizado.
 
 ## Características de la orden
 

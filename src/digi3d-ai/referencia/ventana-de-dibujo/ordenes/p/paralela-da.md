@@ -2,9 +2,15 @@
 
 Dibuja una paralela con los parámetros especificados en la variable Distancia Activa.
 
+![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Al seleccionar la línea, la paralela se genera a la [distancia activa DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), a la derecha del sentido de digitalización de la línea. Con DA negativa sale a la izquierda. A la Z de todos los vértices se le suma la distancia DA2.
 
 ## Características de la orden
 
