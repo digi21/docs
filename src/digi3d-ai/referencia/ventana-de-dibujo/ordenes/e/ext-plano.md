@@ -2,6 +2,8 @@
 
 Solicita que se seleccione un plano y a continuación solicita que se seleccione una línea. Extiende el extremo más cercano a la selección al plano.
 
+![Órdenes para extender líneas: EXT estira o recorta hasta un límite, EXT_P además parte el límite, EXT_XYZ toma la Z del límite, EXT2X prolonga dos líneas hasta cortarse, EXT_M estira las líneas que cruzan dos puntos, EXTIENDE_EXTREMO prolonga hasta el cursor, EXT_PLANO prolonga hasta un plano y ESTIRA_RECORTA_POR_TOLERANCIA ajusta los extremos cercanos](../../../../../images/extender.svg)
+
 ## Parámetros
 
 No admite parámetros.
