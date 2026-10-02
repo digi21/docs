@@ -20,7 +20,8 @@ La orden pide primero el archivo de dibujo que se va a crear y después muestra 
 
 * El marco, con las cuatro esquinas indicadas.
 * Una cruz en cada punto cuyas coordenadas X e Y son múltiplos de la separación en el terreno (separación en mm × escala ÷ 1000). Solo se añaden las cruces que caben enteras dentro del marco.
-* Si está activada la opción de medias cruces, una media cruz donde esas coordenadas cortan el borde del marco y un rótulo con la coordenada junto a cada una, más los rótulos de las esquinas con el número de decimales indicado. Sin esa opción no se añaden rótulos de coordenadas.
+* Si está activada la opción de medias cruces, una media cruz donde esas coordenadas cortan el borde del marco y un rótulo con la coordenada junto a cada una, más los rótulos de las esquinas con el número de decimales indicado.
+* Si la opción de medias cruces está desactivada, rótulos de X e Y, con el número de decimales indicado, junto a la primera y la última cruz de la primera fila y de la última fila. El rótulo de Y va girado 90°.
 * Las entidades visibles del archivo de dibujo actual, recortadas por el marco.
 
 Además, la orden escribe junto al archivo nuevo un archivo con extensión `.utm` con las coordenadas de las cuatro esquinas.
