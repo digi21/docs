@@ -2,9 +2,13 @@
 
 Recorta un polígono en varios polígonos en función de las intersecciones del polígono a recortar y la línea de corte.
 
+![Órdenes para recortar y cortar: TRIM, TRIM_LADO y TRIM_M eliminan partes de líneas que cruzan un límite, CRUCE crea un cruce de caminos, CORTAR_E, CORTAR_Y_BORRAR y CORTA_2P parten una línea, y CORTAR_POLIGONO, RECORTAR_POLIGONO y RECORTAR_POLIGONOS dividen o recortan polígonos](../../../../../images/recortar-cortar.svg)
+
 ## Parámetros
 
-Esta orden no admite parámetros.
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Eliminar la línea de corte | Cualquier valor, como por ejemplo un 1 | Sí |
 
 ## Observaciones
 
