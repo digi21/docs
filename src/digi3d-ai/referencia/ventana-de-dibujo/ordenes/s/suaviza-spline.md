@@ -2,7 +2,7 @@
 
 Suaviza una línea creando una spline cúbica.
 
-![Órdenes para suavizar e interpolar: SUAVIZA con vértices cada INC, SUAVIZA_SPLINE y SPLINE con una spline cúbica de 10 vértices por tramo, INTER con las curvas intermedias múltiplos de la equidistancia, INTER_EJE con la línea media e INTERPOLAR_COD entre las líneas de un código que cortan dos segmentos](../../../../../images/suavizar-interpolar.svg)
+![SUAVIZA_SPLINE: una línea quebrada se sustituye por la spline cúbica que pasa por sus vértices, con 10 vértices por tramo](../../../../../images/orden-suaviza-spline.svg)
 
 ## Parámetros
 

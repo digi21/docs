@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="340" viewBox="0 0 460 340" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="v"><circle r="4" fill="#555"/></g>
+  </defs>
+  <rect width="460" height="340" fill="#ffffff"/>
+
+  <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">SUAVIZA</text>
+
+  <g transform="translate(90,15)">
+    <polyline points="25,160 80,70 150,150 200,60 255,120" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="5 4"/>
+    <path d="M 25 160 C 45 120, 55 70, 80 70 C 110 70, 125 150, 150 150 C 175 150, 180 60, 200 60 C 225 60, 240 95, 255 120" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <use href="#v" x="25" y="160"/><use href="#v" x="80" y="70"/><use href="#v" x="150" y="150"/><use href="#v" x="200" y="60"/><use href="#v" x="255" y="120"/>
+  </g>
+
+  <text x="230" y="214" text-anchor="middle" fill="#222">La línea seleccionada se sustituye por una curva sin</text>
+  <text x="230" y="230" text-anchor="middle" fill="#222">quiebros que pasa por sus vértices. Los vértices nuevos</text>
+  <text x="230" y="246" text-anchor="middle" fill="#222">van separados por el incremento de registro INC.</text>
+  <text x="230" y="262" text-anchor="middle" fill="#222">Con códigos: suaviza todas las líneas de esos códigos.</text>
+
+  <rect x="20" y="276" width="420" height="54" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <line x1="34" y1="292" x2="64" y2="292" stroke="#aaa" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="72" y="296" fill="#222">Línea original.</text>
+  <use href="#v" x="49" y="314"/>
+  <text x="72" y="318" fill="#222">Vértices de la línea original.</text>
+  <line x1="250" y1="292" x2="280" y2="292" stroke="#1f5fa8" stroke-width="3"/>
+  <text x="288" y="296" fill="#222">Línea suavizada.</text>
+</svg>

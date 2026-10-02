@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="340" viewBox="0 0 460 340" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text></g>
+  </defs>
+  <rect width="460" height="340" fill="#ffffff"/>
+
+  <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INTER_EJE</text>
+
+  <g transform="translate(95,10)">
+    <path d="M 20 150 C 80 120, 150 170, 250 130" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <path d="M 20 70 C 90 50, 160 90, 250 60" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <path d="M 20 110 C 85 85, 155 130, 250 95" fill="none" stroke="#e67e22" stroke-width="3" stroke-dasharray="7 4"/>
+    <use href="#p1" x="200" y="142"/>
+    <use href="#p2" x="200" y="73"/>
+  </g>
+
+  <text x="230" y="204" text-anchor="middle" fill="#222">1 y 2: selección de dos líneas. La orden dibuja la línea</text>
+  <text x="230" y="220" text-anchor="middle" fill="#222">media: cada vértice promedia X, Y y Z de un vértice de</text>
+  <text x="230" y="236" text-anchor="middle" fill="#222">cada línea, emparejados por cercanía. La línea nueva</text>
+  <text x="230" y="252" text-anchor="middle" fill="#222">tiene el código activo. Con una línea cerrada o un</text>
+  <text x="230" y="268" text-anchor="middle" fill="#222">polígono, la orden calcula su eje con una sola selección.</text>
+
+  <rect x="20" y="282" width="420" height="48" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="44" y="296"/>
+  <text x="60" y="300" fill="#222">Puntos de selección, en orden.</text>
+  <line x1="250" y1="296" x2="280" y2="296" stroke="#1f5fa8" stroke-width="3"/>
+  <text x="288" y="300" fill="#222">Líneas seleccionadas.</text>
+  <line x1="250" y1="316" x2="280" y2="316" stroke="#e67e22" stroke-width="3" stroke-dasharray="7 4"/>
+  <text x="288" y="320" fill="#222">Línea media.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="340" viewBox="0 0 460 340" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="v"><circle r="4" fill="#555"/></g>
+    <g id="n"><circle r="2.2" fill="#1f5fa8"/></g>
+  </defs>
+  <rect width="460" height="340" fill="#ffffff"/>
+
+  <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">SUAVIZA_SPLINE</text>
+
+  <g transform="translate(90,15)">
+    <polyline points="25,160 80,70 150,150 200,60 255,120" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="5 4"/>
+    <polyline id="spline" points="25,160 30,145 34.9,130.4 40,116.5 45.1,103.7 50.4,92.4 55.9,82.8 61.5,75.5 67.4,70.6 73.6,68.7 80,70 86.8,74.8 93.8,82.3 101,92 108.3,102.8 115.6,114.2 122.9,125.1 130,135 137,143 143.7,148.2 150,150 155.9,147.7 161.5,141.9 166.7,133.4 171.7,122.8 176.5,111 181.2,98.7 185.9,86.7 190.5,75.8 195.2,66.6 200,60 205,56.5 210.1,56.1 215.4,58.2 220.8,62.7 226.4,69.2 232,77.4 237.7,86.9 243.4,97.4 249.2,108.5 255,120" fill="none" stroke="#1f5fa8" stroke-width="2.5"/>
+    <use href="#v" x="25" y="160"/><use href="#v" x="80" y="70"/><use href="#v" x="150" y="150"/><use href="#v" x="200" y="60"/><use href="#v" x="255" y="120"/>
+    <g fill="#1f5fa8">
+      <circle cx="30" cy="145" r="2.2"/><circle cx="34.9" cy="130.4" r="2.2"/><circle cx="40" cy="116.5" r="2.2"/><circle cx="45.1" cy="103.7" r="2.2"/><circle cx="50.4" cy="92.4" r="2.2"/><circle cx="55.9" cy="82.8" r="2.2"/><circle cx="61.5" cy="75.5" r="2.2"/><circle cx="67.4" cy="70.6" r="2.2"/><circle cx="73.6" cy="68.7" r="2.2"/>
+      <circle cx="86.8" cy="74.8" r="2.2"/><circle cx="93.8" cy="82.3" r="2.2"/><circle cx="101" cy="92" r="2.2"/><circle cx="108.3" cy="102.8" r="2.2"/><circle cx="115.6" cy="114.2" r="2.2"/><circle cx="122.9" cy="125.1" r="2.2"/><circle cx="130" cy="135" r="2.2"/><circle cx="137" cy="143" r="2.2"/><circle cx="143.7" cy="148.2" r="2.2"/>
+      <circle cx="155.9" cy="147.7" r="2.2"/><circle cx="161.5" cy="141.9" r="2.2"/><circle cx="166.7" cy="133.4" r="2.2"/><circle cx="171.7" cy="122.8" r="2.2"/><circle cx="176.5" cy="111" r="2.2"/><circle cx="181.2" cy="98.7" r="2.2"/><circle cx="185.9" cy="86.7" r="2.2"/><circle cx="190.5" cy="75.8" r="2.2"/><circle cx="195.2" cy="66.6" r="2.2"/>
+      <circle cx="205" cy="56.5" r="2.2"/><circle cx="210.1" cy="56.1" r="2.2"/><circle cx="215.4" cy="58.2" r="2.2"/><circle cx="220.8" cy="62.7" r="2.2"/><circle cx="226.4" cy="69.2" r="2.2"/><circle cx="232" cy="77.4" r="2.2"/><circle cx="237.7" cy="86.9" r="2.2"/><circle cx="243.4" cy="97.4" r="2.2"/><circle cx="249.2" cy="108.5" r="2.2"/>
+    </g>
+  </g>
+
+  <text x="230" y="214" text-anchor="middle" fill="#222">La línea seleccionada se sustituye por la spline cúbica</text>
+  <text x="230" y="230" text-anchor="middle" fill="#222">que pasa por sus vértices: 10 vértices por tramo, y el</text>
+  <text x="230" y="246" text-anchor="middle" fill="#222">último vértice se conserva. INC no interviene.</text>
+  <text x="230" y="262" text-anchor="middle" fill="#222">Con códigos: todas las líneas visibles de esos códigos.</text>
+
+  <rect x="20" y="276" width="420" height="54" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <line x1="34" y1="292" x2="64" y2="292" stroke="#aaa" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="72" y="296" fill="#222">Línea original.</text>
+  <use href="#v" x="49" y="314"/>
+  <text x="72" y="318" fill="#222">Vértices de la línea original.</text>
+  <line x1="236" y1="292" x2="266" y2="292" stroke="#1f5fa8" stroke-width="2.5"/>
+  <text x="274" y="296" fill="#222">Spline resultante.</text>
+  <use href="#n" x="251" y="314"/>
+  <text x="274" y="318" fill="#222">Vértices de la spline.</text>
+</svg>
