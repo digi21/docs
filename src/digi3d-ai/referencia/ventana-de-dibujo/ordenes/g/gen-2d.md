@@ -25,7 +25,7 @@ Aplica el mismo algoritmo que [GEN](/digi3d-ai/referencia/ventana-de-dibujo/orde
 1. **Mide las distancias y los ángulos en planta.** Un vértice alineado en planta con los extremos de su tramo se elimina aunque su Z sea distinta: la Z no entra en el cálculo.
 2. **Conserva los vértices compartidos.** Un vértice cuyas coordenadas aparecen más de una vez en el archivo de dibujo se conserva aunque el algoritmo lo descarte. Así no se separan las entidades que se tocan en ese vértice. Las coordenadas tienen que coincidir exactamente.
 
-![Tres vértices alineados en planta con el central más alto: GEN lo conserva porque mide en 3D, GEN_2D lo elimina porque mide solo en XY](../../../../../images/gen-vs-gen-2d.svg)
+![GEN_2D: tres vértices alineados en planta con el central más alto; GEN_2D elimina el central porque mide la distancia solo en XY](../../../../../images/orden-gen-2d.svg)
 
 El primer y el último vértice de la entidad se conservan siempre.
 

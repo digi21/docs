@@ -40,7 +40,7 @@ El primer y el último vértice de la entidad se conservan siempre. En los polí
 
 `GEN` mide las distancias en el espacio. Un vértice que en planta está alineado con sus vecinos **se conserva** si su Z se separa de la recta más de **TOL**, o si su ángulo supera **TOL\_ANG**. Para que la Z no cuente, usa [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md), que mide solo en el plano XY.
 
-![Tres vértices alineados en planta con el central más alto: GEN lo conserva porque mide en 3D, GEN_2D lo elimina porque mide solo en XY](../../../../../images/gen-vs-gen-2d.svg)
+![GEN: tres vértices alineados en planta con el central más alto; GEN conserva el central porque mide la distancia en 3D](../../../../../images/orden-gen.svg)
 
 Por ejemplo, con tres vértices alineados en planta a 5 m unos de otros y el central desplazado en Z:
 
