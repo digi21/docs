@@ -2,7 +2,7 @@
 
 Interpola curvas de nivel con cuatro puntos tomando como directrices las entidades de un código.
 
-![Órdenes para suavizar e interpolar: SUAVIZA con vértices cada INC, SUAVIZA_SPLINE y SPLINE con una spline cúbica de 10 vértices por tramo, INTER con las curvas intermedias múltiplos de la equidistancia, INTER_EJE con la línea media e INTERPOLAR_COD entre las líneas de un código que cortan dos segmentos](../../../../../images/suavizar-interpolar.svg)
+![INTERPOLAR_COD: dos segmentos 1-2 y 3-4 cortan las líneas del código indicado y la orden genera las curvas interpoladas entre ellas](../../../../../images/orden-interpolar-cod.svg)
 
 ## Parámetros
 

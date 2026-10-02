@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="360" viewBox="0 0 460 360" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text></g>
+    <g id="p3"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">3</text></g>
+    <g id="p4"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">4</text></g>
+  </defs>
+  <rect width="460" height="360" fill="#ffffff"/>
+
+  <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INTERPOLAR_COD</text>
+
+  <g transform="translate(90,25)">
+    <g fill="none" stroke="#1f5fa8" stroke-width="3">
+      <path d="M 20 160 C 90 140, 170 175, 260 150"/>
+      <path d="M 20 100 C 90 85, 170 115, 260 95"/>
+      <path d="M 20 45 C 90 35, 170 60, 260 40"/>
+    </g>
+    <g fill="none" stroke="#e67e22" stroke-width="2">
+      <path d="M 20 140 C 90 122, 170 155, 260 132"/>
+      <path d="M 20 120 C 90 104, 170 135, 260 113"/>
+      <path d="M 20 81 C 90 68, 170 97, 260 77"/>
+      <path d="M 20 63 C 90 52, 170 78, 260 58"/>
+    </g>
+    <line x1="60" y1="175" x2="70" y2="30" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <line x1="215" y1="175" x2="205" y2="30" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <use href="#p1" x="60" y="175"/><use href="#p2" x="70" y="30"/>
+    <use href="#p3" x="205" y="30"/><use href="#p4" x="215" y="175"/>
+  </g>
+
+  <text x="230" y="232" text-anchor="middle" fill="#222">La orden pide el código de las directrices. 1-2 y 3-4:</text>
+  <text x="230" y="248" text-anchor="middle" fill="#222">dos segmentos. La orden interpola entre las líneas de</text>
+  <text x="230" y="264" text-anchor="middle" fill="#222">ese código que cortan los dos segmentos.</text>
+
+  <rect x="20" y="280" width="420" height="70" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="44" y="296"/>
+  <text x="60" y="300" fill="#222">Puntos digitalizados, en orden.</text>
+  <line x1="34" y1="320" x2="64" y2="320" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="72" y="324" fill="#222">Segmentos 1-2 y 3-4.</text>
+  <line x1="250" y1="296" x2="280" y2="296" stroke="#1f5fa8" stroke-width="3"/>
+  <text x="288" y="300" fill="#222">Directrices (líneas</text>
+  <text x="288" y="316" fill="#222">del código indicado).</text>
+  <line x1="250" y1="336" x2="280" y2="336" stroke="#e67e22" stroke-width="2"/>
+  <text x="288" y="340" fill="#222">Curvas generadas.</text>
+</svg>

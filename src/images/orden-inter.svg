@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="350" viewBox="0 0 460 350" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text></g>
+  </defs>
+  <rect width="460" height="350" fill="#ffffff"/>
+
+  <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INTER</text>
+
+  <g transform="translate(70,10)">
+    <path d="M 20 160 C 80 130, 160 175, 260 140" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <path d="M 20 60 C 90 40, 170 80, 260 50" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <g fill="none" stroke="#e67e22" stroke-width="2">
+      <path d="M 20 140 C 82 112, 162 156, 260 122"/>
+      <path d="M 20 120 C 84 94, 164 137, 260 104"/>
+      <path d="M 20 100 C 86 76, 166 118, 260 86"/>
+      <path d="M 20 80 C 88 58, 168 99, 260 68"/>
+    </g>
+    <use href="#p1" x="220" y="149"/>
+    <use href="#p2" x="220" y="61"/>
+    <g font-size="11">
+      <text x="268" y="144" fill="#1f5fa8">z = 100</text>
+      <text x="268" y="126" fill="#e67e22">102</text>
+      <text x="268" y="108" fill="#e67e22">104</text>
+      <text x="268" y="90" fill="#e67e22">106</text>
+      <text x="268" y="72" fill="#e67e22">108</text>
+      <text x="268" y="54" fill="#1f5fa8">z = 110</text>
+    </g>
+  </g>
+
+  <text x="230" y="214" text-anchor="middle" fill="#222">1 y 2: selección de dos curvas de nivel. La orden genera</text>
+  <text x="230" y="230" text-anchor="middle" fill="#222">las curvas de las Z intermedias que son múltiplos de</text>
+  <text x="230" y="246" text-anchor="middle" fill="#222">EQUIDISTANCIA (aquí 2): 102, 104, 106 y 108. Si están</text>
+  <text x="230" y="262" text-anchor="middle" fill="#222">activas S y G, las curvas generadas se suavizan y se</text>
+  <text x="230" y="278" text-anchor="middle" fill="#222">generalizan.</text>
+
+  <rect x="20" y="292" width="420" height="48" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="44" y="306"/>
+  <text x="60" y="310" fill="#222">Puntos de selección, en orden.</text>
+  <line x1="250" y1="306" x2="280" y2="306" stroke="#1f5fa8" stroke-width="3"/>
+  <text x="288" y="310" fill="#222">Curvas seleccionadas.</text>
+  <line x1="250" y1="326" x2="280" y2="326" stroke="#e67e22" stroke-width="2"/>
+  <text x="288" y="330" fill="#222">Curvas generadas.</text>
+</svg>

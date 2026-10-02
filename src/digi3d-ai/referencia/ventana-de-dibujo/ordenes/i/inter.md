@@ -2,7 +2,7 @@
 
 Interpola curvas de nivel.
 
-![Órdenes para suavizar e interpolar: SUAVIZA con vértices cada INC, SUAVIZA_SPLINE y SPLINE con una spline cúbica de 10 vértices por tramo, INTER con las curvas intermedias múltiplos de la equidistancia, INTER_EJE con la línea media e INTERPOLAR_COD entre las líneas de un código que cortan dos segmentos](../../../../../images/suavizar-interpolar.svg)
+![INTER: entre dos curvas de nivel de Z 100 y 110 se generan las curvas 102, 104, 106 y 108, múltiplos de la equidistancia](../../../../../images/orden-inter.svg)
 
 ## Parámetros
 
