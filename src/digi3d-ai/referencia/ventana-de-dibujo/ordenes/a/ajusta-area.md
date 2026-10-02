@@ -2,7 +2,7 @@
 
 Mueve el segmento seleccionado para ajustar el área de la línea cerrada seleccionada al área deseada.
 
-![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+![AJUSTA_AREA: los dos vértices del tramo seleccionado se desplazan sobre la prolongación de los tramos contiguos hasta que el área de la línea cerrada coincide con la indicada](../../../../../images/orden-ajusta-area.svg)
 
 ## Parámetros
 

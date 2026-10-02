@@ -4,7 +4,7 @@ Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de
 
 Un nodo es un punto en el que coinciden en X e Y los extremos de dos o más líneas o polígonos de los códigos indicados. La orden solo modifica el primer y el último vértice de cada entidad.
 
-![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+![ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL con tolerancia 1: en un nodo con extremos de Z 100, 101,5 y 102, el de 101,5 pasa a 102 y el de 100 no cambia](../../../../../images/orden-asignar-z-maxima-vertices-nodo-tol.svg)
 
 ## Parámetros
 

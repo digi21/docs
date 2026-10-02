@@ -2,7 +2,7 @@
 
 Hace converger las coordenadas Z de varias líneas hacia un punto que selecciona el usuario.
 
-![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+![JUNTAR_Z: en cada línea, el vértice más cercano al punto digitalizado dentro del cursor toma la Z de ese punto sin cambiar su X e Y](../../../../../images/orden-juntar-z.svg)
 
 ## Parámetros
 

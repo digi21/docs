@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="470" viewBox="0 0 480 470" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="nuevo"><circle r="5.5" fill="#e67e22"/></g>
+    <g id="cruz" stroke="#c0392b" stroke-width="2.5"><line x1="-10" y1="0" x2="10" y2="0"/><line x1="0" y1="-10" x2="0" y2="10"/></g>
+  </defs>
+  <rect width="480" height="470" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">JUNTAR_Z</text>
+
+  <circle cx="240" cy="170" r="48" fill="none" stroke="#999" stroke-dasharray="4 4"/>
+  <text x="292" y="116" fill="#777">cursor</text>
+
+  <polyline points="60,80 216,152" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="420,130 268,160" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="160,320 232,214" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+
+  <use href="#nuevo" x="216" y="152"/><use href="#nuevo" x="268" y="160"/><use href="#nuevo" x="232" y="214"/>
+  <use href="#cruz" x="242" y="176"/>
+
+  <text x="186" y="178" text-anchor="end" fill="#555" font-size="12">z 101 → 102</text>
+  <text x="300" y="190" fill="#555" font-size="12">z 99 → 102</text>
+  <text x="246" y="242" fill="#555" font-size="12">z 104 → 102</text>
+
+  <text x="240" y="358" text-anchor="middle" fill="#222">En cada línea con un vértice dentro del cursor, el vértice</text>
+  <text x="240" y="376" text-anchor="middle" fill="#222">más cercano toma la Z del punto digitalizado (aquí 102).</text>
+  <text x="240" y="394" text-anchor="middle" fill="#222">La X y la Y de los vértices no cambian.</text>
+
+  <rect x="16" y="412" width="448" height="48" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#nuevo" x="34" y="436"/>
+  <text x="46" y="440" fill="#222">Vértice con Z nueva.</text>
+  <use href="#cruz" x="256" y="436"/>
+  <text x="272" y="440" fill="#222">Punto digitalizado.</text>
+</svg>

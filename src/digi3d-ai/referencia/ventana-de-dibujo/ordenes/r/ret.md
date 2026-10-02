@@ -2,7 +2,7 @@
 
 Retranquea un segmento de una entidad.
 
-![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+![RET: el tramo seleccionado se desplaza la distancia d hacia el lado del punto digitalizado y se añade el alero que une el tramo original con el desplazado](../../../../../images/orden-ret.svg)
 
 ## Parámetros
 
