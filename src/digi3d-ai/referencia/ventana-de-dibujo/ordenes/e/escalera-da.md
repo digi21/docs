@@ -2,7 +2,7 @@
 
 Dibuja una escalera en el espacio, especificando el ancho de los peldaños.
 
-![Pasos de cebra, escaleras y rejillas: CEBRA y CEBRA_4P dividen un lado en 2N-1 partes para N franjas, ESCALERA divide un rectángulo en N peldaños, ESCALERA_DA pone un peldaño cada DA entre dos laterales, y CUADROS y CUADROS_4P dividen un rectángulo o un cuadrilátero en celdas](../../../../../images/cebras-escaleras-rejillas.svg)
+![ESCALERA_DA: laterales 1→2 y 4→3, con un peldaño en 1-4 y otro cada DA mientras quepa en el lateral más corto](../../../../../images/orden-escalera-da.svg)
 
 ## Parámetros
 
