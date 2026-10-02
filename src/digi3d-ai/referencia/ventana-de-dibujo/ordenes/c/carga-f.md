@@ -22,6 +22,7 @@ Los ficheros de referencia se usan en modo lectura, pudiéndose ejecutar sobre e
 ## Véase también
 
 - [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md) — formatos disponibles y los parámetros que admite cada uno.
+- [Conectarse a un servidor WMS](/digi3d-ai/procedimientos/conectar-servidor-wms.md) — carga como archivo de referencia las capas de un servidor Web Map Service.
 
 ## Características de la orden
 
