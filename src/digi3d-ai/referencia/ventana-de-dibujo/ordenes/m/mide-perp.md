@@ -2,9 +2,15 @@
 
 Mide la perpendicular a un segmento seleccionado.
 
+![Órdenes de perpendiculares: PERP y PERP_Z empiezan una polilínea en el pie de la perpendicular, PERP_A genera un segmento hasta el pie por cada punto y MIDE_PERP mide la distancia perpendicular](../../../../../images/perpendiculares.svg)
+
 ## Parámetros.
 
 No admite parámetros.
+
+## Observaciones
+
+Selecciona un tramo y digitaliza un punto: la orden muestra la distancia en planta del punto a la recta del tramo y no dibuja nada. Si la orden que estaba activa espera una distancia, como [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela.md), recibe la distancia medida.
 
 ## Características de la orden
 

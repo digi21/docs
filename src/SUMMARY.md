@@ -1368,7 +1368,6 @@
             * [PATRONS](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/patrons.md)
             * [PERP](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp.md)
             * [PERP\_A](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp-a.md)
-            * [PERP\_DESDE](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp-desde.md)
             * [PERP\_Z](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp-z.md)
             * [POL](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pol.md)
             * [PONER\_ATR\_R](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/poner-atr-r.md)
