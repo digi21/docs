@@ -1,16 +1,22 @@
 # CAMB\_SEN\_SUBE
 
-Modifica el sentido en que se han registrado los puntos después de haber digitalizado un elemento gráfico. Los vértices se ordenarán en sentido creciente de Z.
+Modifica el sentido en que se han registrado los puntos después de haber digitalizado un elemento gráfico. La línea queda digitalizada desde el extremo más bajo hacia el más alto.
+
+![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+
+Sin parámetros, la orden pide que selecciones la línea o las líneas. Con códigos, procesa todas las líneas visibles de esos códigos y termina:
+
+`CAMB_SEN_SUBE=<código>`
 
 ## Observaciones
 
-Puedes ejecutar la orden por código, para ello teclea en la barra de comandos:
-
-`CAMB_SEN_SUBE=<código>`
+La orden solo compara la Z del primer y del último vértice. Si la Z del primero es mayor, invierte el orden de todos los vértices; si no, la línea no cambia. Los vértices intermedios no se reordenan.
 
 ## Características de la orden
 
