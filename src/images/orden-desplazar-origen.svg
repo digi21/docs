@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="370" viewBox="0 0 480 370" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="cruzRoja" stroke="#c0392b" stroke-width="2"><line x1="-9" y1="0" x2="9" y2="0"/><line x1="0" y1="-9" x2="0" y2="9"/></g>
+  </defs>
+  <rect width="480" height="370" fill="#ffffff"/>
+
+  <text x="240" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">DESPLAZAR_ORIGEN</text>
+
+  <polygon points="75,215 90,80 240,50 360,140 285,230" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2.5"/>
+  <g fill="#555"><circle cx="90" cy="80" r="3"/><circle cx="240" cy="50" r="3"/><circle cx="285" cy="230" r="3"/></g>
+  <circle cx="75" cy="215" r="6" fill="#fff" stroke="#999" stroke-width="2"/>
+  <text x="40" y="244" fill="#777">origen anterior</text>
+  <use href="#cruzRoja" x="360" y="140"/>
+  <circle cx="360" cy="140" r="5" fill="#e67e22"/>
+  <text x="374" y="128" fill="#e67e22">origen nuevo</text>
+  <g fill="#555" text-anchor="middle">
+    <text x="215" y="125">+: vértice siguiente</text>
+    <text x="215" y="143">−: vértice anterior</text>
+    <text x="215" y="161">espacio: acepta</text>
+  </g>
+
+  <text x="240" y="276" text-anchor="middle" fill="#222">La cruz aparece en el origen actual y se mueve de vértice en</text>
+  <text x="240" y="293" text-anchor="middle" fill="#222">vértice. La línea cerrada pasa a empezar y terminar en el vértice</text>
+  <text x="240" y="310" text-anchor="middle" fill="#222">de la cruz. Los vértices y la forma de la línea no cambian.</text>
+
+  <rect x="15" y="326" width="450" height="34" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <circle cx="36" cy="343" r="6" fill="#fff" stroke="#999" stroke-width="2"/>
+  <text x="50" y="347" fill="#222">Origen anterior.</text>
+  <use href="#cruzRoja" x="200" y="343"/>
+  <circle cx="200" cy="343" r="5" fill="#e67e22"/>
+  <text x="216" y="347" fill="#222">Cruz: origen nuevo.</text>
+</svg>

@@ -2,7 +2,7 @@
 
 Dibuja un polígono que rodea a una línea existente.
 
-![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+![EJE_A_POLIGONO: polígono a la distancia DA por los dos lados de un eje abierto, y polígono con un hueco alrededor de un eje cerrado](../../../../../images/orden-eje-a-poligono.svg)
 
 ## Parámetros
 

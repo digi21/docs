@@ -2,7 +2,7 @@
 
 Crea un archivo de dibujo con un marco de hoja a una determinada escala, con marcas cada cierta distancia y rótulos de coordenadas.
 
-![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+![HOJA: marco de 4 esquinas con una cruz en cada múltiplo de la separación; con medias cruces, medias cruces y rótulos de coordenadas en los cuatro lados; sin ellas, rótulos X e Y junto a las cruces extremas de la primera y la última fila](../../../../../images/orden-hoja.svg)
 
 ## Parámetros
 

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="470" viewBox="0 0 500 470" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#222"/>
+    </marker>
+  </defs>
+  <rect width="500" height="470" fill="#ffffff"/>
+
+  <text x="250" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">TRAZA</text>
+
+  <g transform="translate(70,250) rotate(-20)">
+    <rect x="0" y="-35" width="112" height="70" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+    <rect x="112" y="-35" width="112" height="70" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+    <rect x="224" y="-35" width="112" height="70" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+    <line x1="0" y1="0" x2="248" y2="0" stroke="#222" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#flecha)"/>
+    <circle cx="0" cy="0" r="3.5" fill="#222"/>
+    <text x="-8" y="4" text-anchor="end" fill="#222">1</text>
+    <line x1="0" y1="46" x2="112" y2="46" stroke="#555"/>
+    <line x1="0" y1="41" x2="0" y2="51" stroke="#555"/><line x1="112" y1="41" x2="112" y2="51" stroke="#555"/>
+    <text x="56" y="62" text-anchor="middle" fill="#555">largo</text>
+    <line x1="346" y1="-35" x2="346" y2="35" stroke="#555"/>
+    <line x1="341" y1="-35" x2="351" y2="-35" stroke="#555"/><line x1="341" y1="35" x2="351" y2="35" stroke="#555"/>
+    <text x="354" y="4" fill="#555">alto</text>
+  </g>
+  <g fill="#1f5fa8" font-size="30" font-weight="bold" text-anchor="middle">
+    <text x="122.6" y="241">H1</text><text x="227.9" y="203">H2</text><text x="333.1" y="164">H3</text>
+  </g>
+
+  <text x="250" y="320" text-anchor="middle" fill="#222">La orden coloca marcos de largo × alto consecutivos a lo largo</text>
+  <text x="250" y="337" text-anchor="middle" fill="#222">del eje, centrados en él, desde el vértice 1 hasta cubrir el eje.</text>
+  <text x="250" y="354" text-anchor="middle" fill="#222">+ y − desplazan todos los marcos 50 unidades hacia atrás o hacia</text>
+  <text x="250" y="371" text-anchor="middle" fill="#222">delante. Espacio añade los marcos y, en el centro de cada uno, un</text>
+  <text x="250" y="388" text-anchor="middle" fill="#222">texto horizontal prefijo + número + postfijo de altura alto ÷ 2.</text>
+
+  <rect x="15" y="406" width="470" height="54" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <line x1="30" y1="424" x2="60" y2="424" stroke="#222" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="68" y="428" fill="#222">Eje seleccionado. La flecha marca el sentido de digitalización.</text>
+  <rect x="34" y="436" width="22" height="16" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+  <text x="68" y="449" fill="#222">Marco. H1: texto con prefijo «H», número 1 y sin postfijo.</text>
+</svg>

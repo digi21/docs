@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="640" viewBox="0 0 540 640" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="cruz" stroke="#2e7d32" stroke-width="1.5"><line x1="-6" y1="0" x2="6" y2="0"/><line x1="0" y1="-6" x2="0" y2="6"/></g>
+  </defs>
+  <rect width="540" height="640" fill="#ffffff"/>
+
+  <text x="270" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">HOJA</text>
+
+  <!-- Con medias cruces -->
+  <text x="20" y="52" fill="#555" font-weight="bold">Con medias cruces</text>
+  <rect x="120" y="75" width="300" height="150" fill="none" stroke="#1f5fa8" stroke-width="2.5"/>
+  <use href="#cruz" x="157.5" y="112.5"/><use href="#cruz" x="232.5" y="112.5"/><use href="#cruz" x="307.5" y="112.5"/><use href="#cruz" x="382.5" y="112.5"/>
+  <use href="#cruz" x="157.5" y="187.5"/><use href="#cruz" x="232.5" y="187.5"/><use href="#cruz" x="307.5" y="187.5"/><use href="#cruz" x="382.5" y="187.5"/>
+  <g stroke="#2e7d32" stroke-width="1.5">
+    <line x1="157.5" y1="225" x2="157.5" y2="219"/><line x1="232.5" y1="225" x2="232.5" y2="219"/><line x1="307.5" y1="225" x2="307.5" y2="219"/><line x1="382.5" y1="225" x2="382.5" y2="219"/>
+    <line x1="157.5" y1="75" x2="157.5" y2="81"/><line x1="232.5" y1="75" x2="232.5" y2="81"/><line x1="307.5" y1="75" x2="307.5" y2="81"/><line x1="382.5" y1="75" x2="382.5" y2="81"/>
+    <line x1="120" y1="112.5" x2="126" y2="112.5"/><line x1="120" y1="187.5" x2="126" y2="187.5"/>
+    <line x1="420" y1="112.5" x2="414" y2="112.5"/><line x1="420" y1="187.5" x2="414" y2="187.5"/>
+  </g>
+  <g fill="#555" font-size="10" text-anchor="middle">
+    <text x="120" y="241">350.00</text><text x="157.5" y="241">400</text><text x="232.5" y="241">500</text><text x="307.5" y="241">600</text><text x="382.5" y="241">700</text><text x="420" y="241">750.00</text>
+    <text x="120" y="66">350.00</text><text x="157.5" y="66">400</text><text x="232.5" y="66">500</text><text x="307.5" y="66">600</text><text x="382.5" y="66">700</text><text x="420" y="66">750.00</text>
+  </g>
+  <g fill="#555" font-size="10">
+    <text x="426" y="80">350.00</text><text x="426" y="116">300</text><text x="426" y="191">200</text><text x="426" y="226">150.00</text>
+  </g>
+  <g fill="#555" font-size="10" text-anchor="end">
+    <text x="114" y="80">350.00</text><text x="114" y="116">300</text><text x="114" y="191">200</text><text x="114" y="226">150.00</text>
+  </g>
+
+  <line x1="20" y1="262" x2="520" y2="262" stroke="#ddd"/>
+
+  <!-- Sin medias cruces -->
+  <text x="20" y="286" fill="#555" font-weight="bold">Sin medias cruces</text>
+  <rect x="120" y="300" width="300" height="170" fill="none" stroke="#1f5fa8" stroke-width="2.5"/>
+  <use href="#cruz" x="157.5" y="342.5"/><use href="#cruz" x="232.5" y="342.5"/><use href="#cruz" x="307.5" y="342.5"/><use href="#cruz" x="382.5" y="342.5"/>
+  <use href="#cruz" x="157.5" y="427.5"/><use href="#cruz" x="232.5" y="427.5"/><use href="#cruz" x="307.5" y="427.5"/><use href="#cruz" x="382.5" y="427.5"/>
+  <g fill="#555" font-size="10">
+    <text x="167.5" y="431">400.00</text><text x="372.5" y="431" text-anchor="end">700.00</text>
+    <text x="167.5" y="346">400.00</text><text x="372.5" y="346" text-anchor="end">700.00</text>
+    <text transform="translate(161,417.5) rotate(-90)">200.00</text>
+    <text transform="translate(386,417.5) rotate(-90)">200.00</text>
+    <text transform="translate(161,352.5) rotate(-90)" text-anchor="end">300.00</text>
+    <text transform="translate(386,352.5) rotate(-90)" text-anchor="end">300.00</text>
+  </g>
+
+  <text x="270" y="500" text-anchor="middle" fill="#222">La orden crea un archivo con el marco de 4 esquinas, una cruz en</text>
+  <text x="270" y="517" text-anchor="middle" fill="#222">cada múltiplo de la separación que cabe entera en el marco y las</text>
+  <text x="270" y="534" text-anchor="middle" fill="#222">entidades visibles recortadas por el marco. Con medias cruces, añade</text>
+  <text x="270" y="551" text-anchor="middle" fill="#222">medias cruces y rótulos en los cuatro lados. Sin ellas, rotula X e Y</text>
+  <text x="270" y="568" text-anchor="middle" fill="#222">junto a las cruces extremas de la primera y de la última fila.</text>
+
+  <rect x="15" y="588" width="510" height="40" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#cruz" x="34" y="608"/>
+  <text x="48" y="612" fill="#222">Cruz o media cruz.</text>
+  <text x="200" y="612" fill="#555" font-size="10">400.00</text>
+  <text x="240" y="612" fill="#222">Rótulo de coordenada.</text>
+  <rect x="402" y="600" width="24" height="16" fill="none" stroke="#1f5fa8" stroke-width="2.5"/>
+  <text x="434" y="612" fill="#222">Marco.</text>
+</svg>
