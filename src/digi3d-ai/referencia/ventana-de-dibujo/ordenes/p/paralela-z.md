@@ -2,7 +2,7 @@
 
 Dibuja una paralela a una línea existente asignando la Z activa a todos los vértices de la paralela generada.
 
-![Las órdenes de paralelas: PARALELA con distancia escrita y punto de lado, PARALELA_DA a la distancia activa a la derecha del sentido de digitalización, PARALELA_DINAMICA con la distancia del cursor, las variantes con eje a mitad de distancia, y en alzado la Z que toma la paralela en cada variante](../../../../../images/paralelas.svg)
+![PARALELA_Z: en planta, la paralela a la distancia d en el lado del punto digitalizado; en alzado, todos los vértices de la paralela con la Z de ese punto](../../../../../images/orden-paralela-z.svg)
 
 ## Parámetros
 
