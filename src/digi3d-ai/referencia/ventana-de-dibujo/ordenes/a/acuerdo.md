@@ -2,7 +2,7 @@
 
 Dibuja un acuerdo circular entre dos segmentos con un vértice común de una entidad.
 
-![Cuatro órdenes de arcos: ARCO por tres puntos, ARCO_TANGENTE tangente al último tramo de la línea en curso, ACUERDO que sustituye un vértice por un arco tangente a sus dos tramos, y MULTIARCO con arcos encadenados](../../../../../images/arcos.svg)
+![ACUERDO: el vértice de una línea se sustituye por un arco del radio indicado, tangente a los dos tramos que llegan a él](../../../../../images/orden-acuerdo.svg)
 
 ## Parámetros
 

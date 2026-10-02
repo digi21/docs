@@ -2,7 +2,7 @@
 
 Dibuja un arco tangente al segmento anterior.
 
-![Cuatro órdenes de arcos: ARCO por tres puntos, ARCO_TANGENTE tangente al último tramo de la línea en curso, ACUERDO que sustituye un vértice por un arco tangente a sus dos tramos, y MULTIARCO con arcos encadenados](../../../../../images/arcos.svg)
+![ARCO_TANGENTE: arco que sale del último vértice de la línea en curso, tangente a su último tramo, y termina en el punto digitalizado](../../../../../images/orden-arco-tangente.svg)
 
 ## Parámetros
 
