@@ -2,6 +2,8 @@
 
 Suaviza la forma geométrica de un elemento lineal existente en el dibujo.
 
+![Órdenes para suavizar e interpolar: SUAVIZA con vértices cada INC, SUAVIZA_SPLINE y SPLINE con una spline cúbica de 10 vértices por tramo, INTER con las curvas intermedias múltiplos de la equidistancia, INTER_EJE con la línea media e INTERPOLAR_COD entre las líneas de un código que cortan dos segmentos](../../../../../images/suavizar-interpolar.svg)
+
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
