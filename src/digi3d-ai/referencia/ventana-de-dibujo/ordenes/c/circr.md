@@ -2,12 +2,17 @@
 
 Dibuja una circunferencia mediante la definición de su centro y el radio introducido numéricamente.
 
+![Cuatro formas de definir una circunferencia: CIR2P con el centro y un punto, CIRCR con el centro y el radio, CIR3P por tres puntos en el plano de la cámara y CIR3D por tres puntos en el plano que forman](../../../../../images/circunferencias.svg)
+
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Centro de la circunferencia | Coordenadas XYZ | Si |
-| 2 | Radio de la circunferencia | Número real | Si |
+| 1 | Radio de la circunferencia | Número | Si |
+
+## Observaciones
+
+La orden muestra en la barra de estado un campo con el radio, que puedes cambiar en cualquier momento. Cada punto que digitalizas es el centro de una circunferencia nueva con ese radio; la orden sigue activa hasta que la terminas.
 
 ## Características de la orden
 
