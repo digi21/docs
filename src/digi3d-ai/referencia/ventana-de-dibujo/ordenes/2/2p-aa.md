@@ -2,7 +2,7 @@
 
 Dibuja un rectángulo girado.
 
-![Cinco formas de definir un rectángulo: 2P con dos esquinas opuestas, 2P_AA con dos esquinas opuestas y el ángulo activo, RECTANGULO_2P_NORTE con lados paralelos a los ejes, 3P con un lado y un punto del lado opuesto, y RECTANGULO_DR con el centro y la dirección del ancho](../../../../../images/rectangulos.svg)
+![2P_AA: rectángulo definido por dos esquinas opuestas, 1 y 2, con los lados en la dirección del ángulo activo AA medido desde el eje X](../../../../../images/orden-2p-aa.svg)
 
 ## Parámetros
 

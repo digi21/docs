@@ -2,7 +2,7 @@
 
 Dibuja un rectángulo orientado al norte definido por dos puntos opuestos en diagonal.
 
-![Cinco formas de definir un rectángulo: 2P con dos esquinas opuestas, 2P_AA con dos esquinas opuestas y el ángulo activo, RECTANGULO_2P_NORTE con lados paralelos a los ejes, 3P con un lado y un punto del lado opuesto, y RECTANGULO_DR con el centro y la dirección del ancho](../../../../../images/rectangulos.svg)
+![RECTANGULO_2P_NORTE: rectángulo definido por dos esquinas opuestas, 1 y 2, con los lados paralelos a los ejes X e Y](../../../../../images/orden-rectangulo-2p-norte.svg)
 
 ## Parámetros
 
