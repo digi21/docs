@@ -13,7 +13,7 @@ Establece el _factor de tolerancia angular_ en el proceso de [generalización](t
 
 `TOL_ANG=45`
 
-Asigna como tolerancia lineal el valor 45
+Asigna como tolerancia angular 45 grados.
 
 `TOL_ANG=?`
 
@@ -21,11 +21,13 @@ Muestra el valor actual de la tolerancia angular
 
 ## Observaciones
 
-El valor de este factor debe especificarse en unidades centesimales.
+El valor se introduce en **grados sexagesimales**. Al iniciar Digi3D.AI vale 4,58, y el valor que asignes no se conserva al cerrar el programa.
 
-Este parámetro se utiliza en la generalización para comprobar en un punto, si el valor de la tangente del ángulo formado por las rectas anterior y siguiente, supera el valor de la tolerancia angular. En este caso, el punto no se elimina aunque no supere la [tolerancia lineal](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md), para mantener la forma del elemento.
+La tolerancia angular solo interviene en un tramo en el que ningún vértice supera la [tolerancia lineal](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md). En ese caso, las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) calculan para cada vértice intermedio el ángulo α con el que se separa de la recta que une los extremos del tramo, visto desde el extremo **más lejano** al vértice. Si el mayor de esos ángulos supera **TOL\_ANG**, el vértice se conserva para mantener la forma de la entidad, y el tramo se divide en dos por él.
 
-El proceso de generalizar se ejecuta con todos y cada uno de los puntos de una entidad.
+![Un tramo A-B con tres vértices: P1 fuera de la tolerancia TOL se conserva, P2 dentro de TOL pero con un ángulo mayor que TOL_ANG se conserva, y P3 se elimina](../../../../../images/generalizacion-tol-tol-ang.svg)
+
+Con **TOL\_ANG** igual a 0 no se elimina ningún vértice que no esté exactamente alineado con los extremos de su tramo: cualquier ángulo mayor que 0 lo conserva.
 
 ## Características de la orden
 

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" font-family="Segoe UI, Arial, sans-serif" font-size="14">
+  <rect width="760" height="330" fill="#ffffff"/>
+
+  <!-- Planta -->
+  <text x="190" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Planta (XY)</text>
+  <line x1="50" y1="150" x2="330" y2="150" stroke="#888" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="50" cy="150" r="6" fill="#1f5fa8"/>
+  <circle cx="190" cy="150" r="6" fill="#c0392b"/>
+  <circle cx="330" cy="150" r="6" fill="#1f5fa8"/>
+  <text x="50" y="135" text-anchor="middle" fill="#222">A</text>
+  <text x="190" y="135" text-anchor="middle" fill="#c0392b">P</text>
+  <text x="330" y="135" text-anchor="middle" fill="#222">B</text>
+  <text x="190" y="195" text-anchor="middle" fill="#222">En planta, P está sobre la recta A-B:</text>
+  <text x="190" y="215" text-anchor="middle" fill="#222">distancia 0</text>
+
+  <!-- Separador -->
+  <line x1="380" y1="20" x2="380" y2="240" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Alzado -->
+  <text x="570" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Alzado (Z)</text>
+  <line x1="430" y1="180" x2="710" y2="180" stroke="#888" stroke-width="2" stroke-dasharray="6 4"/>
+  <polyline points="430,180 570,100 710,180" fill="none" stroke="#1f5fa8" stroke-width="2"/>
+  <circle cx="430" cy="180" r="6" fill="#1f5fa8"/>
+  <circle cx="570" cy="100" r="6" fill="#c0392b"/>
+  <circle cx="710" cy="180" r="6" fill="#1f5fa8"/>
+  <text x="430" y="205" text-anchor="middle" fill="#222">A</text>
+  <text x="570" y="88" text-anchor="middle" fill="#c0392b">P</text>
+  <text x="710" y="205" text-anchor="middle" fill="#222">B</text>
+  <line x1="570" y1="106" x2="570" y2="180" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="562" y1="180" x2="578" y2="180" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="580" y="148" fill="#c0392b">Δz</text>
+  <text x="570" y="230" text-anchor="middle" fill="#222">En el espacio, P está a una distancia Δz</text>
+
+  <!-- Conclusión -->
+  <rect x="20" y="255" width="720" height="60" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <text x="40" y="280" fill="#222"><tspan font-weight="bold">GEN</tspan> mide en 3D: si Δz es mayor que TOL, o el ángulo de P supera TOL_ANG, P se conserva.</text>
+  <text x="40" y="303" fill="#222"><tspan font-weight="bold">GEN_2D</tspan> mide solo en XY: la distancia es 0 y P se elimina, sea cual sea Δz.</text>
+</svg>
