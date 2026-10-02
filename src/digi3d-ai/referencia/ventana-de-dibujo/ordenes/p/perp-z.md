@@ -2,9 +2,15 @@
 
 Sirve para trazar líneas perpendiculares a una entidad de dibujo.
 
+![Órdenes de perpendiculares: PERP y PERP_Z empiezan una polilínea en el pie de la perpendicular, PERP_A genera un segmento hasta el pie por cada punto y MIDE_PERP mide la distancia perpendicular](../../../../../images/perpendiculares.svg)
+
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Funciona como [PERP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp.md), pero el pie de la perpendicular toma la Z del tramo seleccionado en lugar de la del punto digitalizado.
 
 ## Características de la orden
 
