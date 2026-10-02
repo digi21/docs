@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="327" viewBox="0 0 440 327" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <defs>
+    <clipPath id="contorno"><polygon points="20,70 150,50 195,140 125,205 35,185"/></clipPath>
+  </defs>
+  <rect width="440" height="327" fill="#ffffff"/>
+
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">SIMB</text>
+
+  <g transform="translate(10,10)">
+    <g clip-path="url(#contorno)"><g transform="translate(105,128) rotate(-30)" fill="none" stroke="#2e7d32" stroke-width="1.5"><g id="filaSimbolos"><path d="M -168 -3 l 3.5 6 h -7 z"/><path d="M -144 -3 l 3.5 6 h -7 z"/><path d="M -120 -3 l 3.5 6 h -7 z"/><path d="M -96 -3 l 3.5 6 h -7 z"/><path d="M -72 -3 l 3.5 6 h -7 z"/><path d="M -48 -3 l 3.5 6 h -7 z"/><path d="M -24 -3 l 3.5 6 h -7 z"/><path d="M 0 -3 l 3.5 6 h -7 z"/><path d="M 24 -3 l 3.5 6 h -7 z"/><path d="M 48 -3 l 3.5 6 h -7 z"/><path d="M 72 -3 l 3.5 6 h -7 z"/><path d="M 96 -3 l 3.5 6 h -7 z"/><path d="M 120 -3 l 3.5 6 h -7 z"/><path d="M 144 -3 l 3.5 6 h -7 z"/><path d="M 168 -3 l 3.5 6 h -7 z"/></g><use href="#filaSimbolos" y="-160"/><use href="#filaSimbolos" y="-144"/><use href="#filaSimbolos" y="-128"/><use href="#filaSimbolos" y="-112"/><use href="#filaSimbolos" y="-96"/><use href="#filaSimbolos" y="-80"/><use href="#filaSimbolos" y="-64"/><use href="#filaSimbolos" y="-48"/><use href="#filaSimbolos" y="-32"/><use href="#filaSimbolos" y="-16"/><use href="#filaSimbolos" y="16"/><use href="#filaSimbolos" y="32"/><use href="#filaSimbolos" y="48"/><use href="#filaSimbolos" y="64"/><use href="#filaSimbolos" y="80"/><use href="#filaSimbolos" y="96"/><use href="#filaSimbolos" y="112"/><use href="#filaSimbolos" y="128"/><use href="#filaSimbolos" y="144"/><use href="#filaSimbolos" y="160"/></g></g>
+    <polygon points="20,70 150,50 195,140 125,205 35,185" fill="none" stroke="#222" stroke-width="2.5"/>
+  </g>
+
+  <line x1="250" y1="100" x2="330" y2="100" stroke="#999" stroke-width="1"/>
+  <text x="336" y="104" fill="#888">este</text>
+  <line x1="250" y1="100" x2="319.3" y2="60" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <path d="M 295 100 A 45 45 0 0 0 289 77.5" fill="none" stroke="#555"/>
+  <text x="300" y="88" fill="#555">AA = 30</text>
+
+  <rect x="236" y="124" width="190" height="58" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <polygon points="248,152 262,136 278,140 274,152" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="286" y="148" fill="#222">Contorno seleccionado.</text>
+  <g fill="none" stroke="#2e7d32" stroke-width="1.5"><path d="M 255 163 l 3.5 6 h -7 z"/><path d="M 271 163 l 3.5 6 h -7 z"/></g><text x="286" y="170" fill="#222">Símbolos generados.</text>
+
+  <text x="220" y="246" text-anchor="middle" fill="#222">Un cuadro de diálogo pide el símbolo. Los símbolos ocupan los nudos</text>
+  <text x="220" y="261" text-anchor="middle" fill="#222">de una retícula girada según AA: separados por la distancia activa</text>
+  <text x="220" y="276" text-anchor="middle" fill="#222">principal en la dirección de AA y por la secundaria en la perpendicular.</text>
+  <text x="220" y="291" text-anchor="middle" fill="#222">Cada símbolo es un texto con el código activo, altura AT, justificación</text>
+  <text x="220" y="306" text-anchor="middle" fill="#222">JT y giro AA. Solo se añaden los símbolos interiores.</text>
+</svg>

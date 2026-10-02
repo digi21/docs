@@ -2,7 +2,7 @@
 
 Trama el interior de una entidad superficial de contorno cerrado.
 
-![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+![TRAMAR: un contorno cerrado relleno con dos familias de rayas, una en la dirección de AA = 30 y otra perpendicular](../../../../../images/orden-tramar.svg)
 
 ## Parámetros
 

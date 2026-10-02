@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="312" viewBox="0 0 440 312" font-family="Segoe UI, Arial, sans-serif" font-size="12">
+  <defs>
+    <clipPath id="contorno"><polygon points="20,70 150,50 195,140 125,205 35,185"/></clipPath>
+  </defs>
+  <rect width="440" height="312" fill="#ffffff"/>
+
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">PUNTEAR</text>
+
+  <g transform="translate(10,10)">
+    <g clip-path="url(#contorno)"><g transform="translate(105,128) rotate(-30)" fill="#1f5fa8"><g id="filaPuntos"><circle cx="-168" cy="0" r="2.6"/><circle cx="-144" cy="0" r="2.6"/><circle cx="-120" cy="0" r="2.6"/><circle cx="-96" cy="0" r="2.6"/><circle cx="-72" cy="0" r="2.6"/><circle cx="-48" cy="0" r="2.6"/><circle cx="-24" cy="0" r="2.6"/><circle cx="0" cy="0" r="2.6"/><circle cx="24" cy="0" r="2.6"/><circle cx="48" cy="0" r="2.6"/><circle cx="72" cy="0" r="2.6"/><circle cx="96" cy="0" r="2.6"/><circle cx="120" cy="0" r="2.6"/><circle cx="144" cy="0" r="2.6"/><circle cx="168" cy="0" r="2.6"/></g><use href="#filaPuntos" y="-160"/><use href="#filaPuntos" y="-144"/><use href="#filaPuntos" y="-128"/><use href="#filaPuntos" y="-112"/><use href="#filaPuntos" y="-96"/><use href="#filaPuntos" y="-80"/><use href="#filaPuntos" y="-64"/><use href="#filaPuntos" y="-48"/><use href="#filaPuntos" y="-32"/><use href="#filaPuntos" y="-16"/><use href="#filaPuntos" y="16"/><use href="#filaPuntos" y="32"/><use href="#filaPuntos" y="48"/><use href="#filaPuntos" y="64"/><use href="#filaPuntos" y="80"/><use href="#filaPuntos" y="96"/><use href="#filaPuntos" y="112"/><use href="#filaPuntos" y="128"/><use href="#filaPuntos" y="144"/><use href="#filaPuntos" y="160"/></g></g>
+    <polygon points="20,70 150,50 195,140 125,205 35,185" fill="none" stroke="#222" stroke-width="2.5"/>
+  </g>
+
+  <line x1="250" y1="100" x2="330" y2="100" stroke="#999" stroke-width="1"/>
+  <text x="336" y="104" fill="#888">este</text>
+  <line x1="250" y1="100" x2="319.3" y2="60" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <path d="M 295 100 A 45 45 0 0 0 289 77.5" fill="none" stroke="#555"/>
+  <text x="300" y="88" fill="#555">AA = 30</text>
+
+  <rect x="236" y="124" width="190" height="58" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <polygon points="248,152 262,136 278,140 274,152" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="286" y="148" fill="#222">Contorno seleccionado.</text>
+  <g fill="#1f5fa8"><circle cx="255" cy="166" r="2.6"/><circle cx="271" cy="166" r="2.6"/></g><text x="286" y="170" fill="#222">Puntos generados.</text>
+
+  <text x="220" y="246" text-anchor="middle" fill="#222">Un punto en cada nudo de una retícula girada según AA: en la</text>
+  <text x="220" y="261" text-anchor="middle" fill="#222">dirección de AA, separados por la distancia activa principal; en la</text>
+  <text x="220" y="276" text-anchor="middle" fill="#222">perpendicular, por la secundaria (DA=principal secundaria). Solo se</text>
+  <text x="220" y="291" text-anchor="middle" fill="#222">añaden los puntos interiores, con el código activo y Z = 0.</text>
+</svg>
