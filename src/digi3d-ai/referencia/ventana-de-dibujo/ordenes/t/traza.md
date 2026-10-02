@@ -2,20 +2,27 @@
 
 Crea un gráfico de hojas en forma de traza con centroides para crear con posterioridad hojas con la orden [RECORTA\_TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recorta-traza.md).
 
+![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Tamaño de las hojas en horizontal | Número real | Si |
-| 2 | Tamaño de las hojas en vertical | Número real | Si |
-| 3 | Código con el que crear las hojas | Código | Si |
-| 4 | Prefijo | Texto | Si |
-| 5 | Postfijo | Texto | Si |
-| 6 | Selección del eje de la traza | Selección manual | Si |
+No admite parámetros. La orden muestra un cuadro de diálogo con estos campos:
 
-Una vez seleccionado el eje aparecerán las siguientes opciones para ajustar la posición de la traza: mediante la tecla \[-\] desplaza la traza hacia la izquierda, con la tecla \[+\] se podrá desplazar hacia la derecha y mediante la tecla \[espacio\] se guardarían los cambios.
+| Campo | Descripción |
+| :--- | :--- |
+| Tamaño de las hojas en horizontal | Largo de cada marco, medido a lo largo del eje |
+| Tamaño de las hojas en vertical | Alto de cada marco, centrado en el eje |
+| Código con el que crear las hojas | Código de los marcos y de sus textos |
+| Prefijo | Texto que se antepone al número de cada hoja |
+| Postfijo | Texto que se añade detrás del número de cada hoja |
 
-Hasta que el usuario no acepte mediante la tecla espaciadora no se representarán los centroides y no se registrarán las hojas.
+Después, selecciona la línea que sirve de eje. La orden coloca marcos consecutivos a lo largo del eje, empezando en su primer vértice. Para ajustar la posición de los marcos:
+
+* La tecla **+** desplaza todos los marcos 50 unidades hacia atrás, en sentido contrario al de digitalización del eje.
+* La tecla **−** los desplaza 50 unidades hacia delante.
+* La tecla **espacio** añade los marcos y, en el centro de cada uno, un texto con el prefijo, el número de hoja y el postfijo. La altura del texto es la mitad del alto del marco.
+
+Hasta que el usuario no acepte mediante la tecla espaciadora no se representarán los textos y no se registrarán las hojas.
 
 ## Observaciones
 

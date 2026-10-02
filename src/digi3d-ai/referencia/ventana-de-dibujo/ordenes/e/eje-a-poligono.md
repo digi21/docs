@@ -2,11 +2,20 @@
 
 Dibuja un polígono que rodea a una línea existente.
 
+![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código | No |
+| 1 | Código | Si |
+
+## Observaciones
+
+El polígono rodea la línea a la misma distancia por los dos lados. Si la línea es cerrada, el resultado es un polígono con un hueco.
+
+* Sin parámetros, selecciona la línea y escribe la distancia en la barra de estado o mídela digitalizando dos puntos. Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activa, la orden vuelve a pedir otra línea.
+* Con un código, la orden procesa todas las líneas visibles de ese código y termina. La distancia es la distancia activa principal de [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), y la distancia activa secundaria se suma a la Z de todos los vértices del polígono.
 
 ## Características de la orden
 

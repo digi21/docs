@@ -2,6 +2,8 @@
 
 Crea un archivo de dibujo con un marco de hoja a una determinada escala, con marcas cada cierta distancia y rótulos de coordenadas.
 
+![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+
 ## Parámetros
 
 
@@ -11,6 +13,17 @@ Crea un archivo de dibujo con un marco de hoja a una determinada escala, con mar
 | 2 | Propiedades generales |Escala<br>Código del marco|Escala a la que se va a crear la hoja<br>Código con el que se generará la línea de marco de hoja|
 | 3 | Propiedades de las cruces |Código cruces<br>Altura de cruces<br>Separación cruces<br>Medias cruces|Código con el que se generarán las cruces de la hoja<br>Tamaño, en mm de impresión, de las cruces que se generarán en el interior de la hoja<br>Separación, en mm de impresión, entre cruces<br>Indica si insertar medias cruces en el límite de la hoja|
 | 4 | Propiedades de las coordenadas |Código coordenadas<br>Altura de coordenadas<br>Nº decimales|Código con el que se generarán las coordenadas de la hoja<br>Altura, en mm de impresión, de los textos de coordenadas<br>Número de decimales de los textos de las coordenadas|
+
+## Observaciones
+
+La orden pide primero el archivo de dibujo que se va a crear y después muestra el cuadro de diálogo con los campos de la tabla. El archivo nuevo contiene:
+
+* El marco, con las cuatro esquinas indicadas.
+* Una cruz en cada punto cuyas coordenadas X e Y son múltiplos de la separación en el terreno (separación en mm × escala ÷ 1000). Solo se añaden las cruces que caben enteras dentro del marco.
+* Si está activada la opción de medias cruces, una media cruz donde esas coordenadas cortan el borde del marco y un rótulo con la coordenada junto a cada una, más los rótulos de las esquinas con el número de decimales indicado. Sin esa opción no se añaden rótulos de coordenadas.
+* Las entidades visibles del archivo de dibujo actual, recortadas por el marco.
+
+Además, la orden escribe junto al archivo nuevo un archivo con extensión `.utm` con las coordenadas de las cuatro esquinas.
 
 
 ## Características de la orden

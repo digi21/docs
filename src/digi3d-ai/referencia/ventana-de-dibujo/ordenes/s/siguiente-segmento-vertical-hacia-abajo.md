@@ -2,13 +2,20 @@
 
 Configura la orden activa para indicar que el siguiente segmento a insertar será vertical y formado por dos puntos.
 
+![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+
 ## Parámetros
 
 No admite parámetros.
 
 ## Observaciones
 
-El primer punto del segmento se introducirá en XYZ y el segundo en Z. Una vez digitalizado el segundo punto, se utilizarán las coordenadas XY del primer punto para éste segundo punto.
+Ejecuta la orden mientras digitalizas una línea que tenga al menos un vértice. Al digitalizar el siguiente punto, se añaden dos vértices:
+
+1. Uno con las coordenadas X e Y del último vértice y la Z del punto digitalizado. El segmento que llega a él es vertical.
+2. El punto digitalizado.
+
+Compárala con [SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ARRIBA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/siguiente-segmento-vertical-hacia-arriba.md), que pone el segmento vertical al final.
 
 ## Características de la orden
 

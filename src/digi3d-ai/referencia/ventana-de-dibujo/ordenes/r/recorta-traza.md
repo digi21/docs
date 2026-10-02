@@ -2,6 +2,10 @@
 
 Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/h/hoja.md).
 
+La orden busca las líneas cerradas con el código del marco, como las que crea [TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/traza.md), y el texto con ese mismo código que hay dentro de cada una. Por cada marco con texto crea un archivo en el directorio de salida, con el texto como nombre y la extensión indicada. Los marcos sin texto se omiten.
+
+![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+
 ## Parámetros
 
 
