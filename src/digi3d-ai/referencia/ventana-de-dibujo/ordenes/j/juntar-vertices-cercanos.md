@@ -2,6 +2,10 @@
 
 Junta vértices cercanos por tolerancia.
 
+La orden muestra un cuadro de diálogo que pide una distancia y procesa todas las entidades del archivo de dibujo activo, incluidos los huecos de los polígonos y las entidades de los complejos. Las coordenadas X y las Y se ajustan por separado: cada X que está a menos de la distancia de una X ya procesada toma ese valor, y lo mismo con la Y. Por eso dos vértices lejanos con X casi iguales también reciben la misma X. La Z no cambia.
+
+![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+
 ## Parámetros
 
 No admite parámetros.

@@ -2,6 +2,8 @@
 
 Hace converger las coordenadas Z de varias líneas hacia un punto que selecciona el usuario.
 
+![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |

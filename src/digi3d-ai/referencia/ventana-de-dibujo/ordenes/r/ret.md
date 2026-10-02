@@ -2,16 +2,21 @@
 
 Retranquea un segmento de una entidad.
 
+![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
-| 2 | Distancia entre dos puntos | Número real | Si |
+No admite parámetros.
 
 ## Observaciones
 
-Esta orden no sólo redibuja la entidad que se retranquee, sino que la dibuja en el código activo al alero que se crea.
+El procedimiento es el siguiente:
+
+1. Escribe la distancia del retranqueo en la barra de estado o mídela digitalizando dos puntos.
+2. Selecciona el segmento que se va a retranquear.
+3. Digitaliza un punto en el lado hacia el que se desplaza el segmento. Los extremos del segmento desplazado son las intersecciones con las rectas de los segmentos contiguos.
+
+Si el punto queda dentro de la entidad, el segmento se desplaza y se añade el alero: una línea de 4 vértices, con el código activo, que une el segmento original con el desplazado. Si el punto queda fuera, la entidad no cambia y solo se añade el alero.
 
 Para seleccionar el segmento que se va a retranquear debe estar activo un modo de búsqueda que enganche proyectándose sobre el segmento y no en vértices.
 
