@@ -6,11 +6,13 @@ Rellena el interior de una entidad superficial de contorno cerrado usando una tr
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
 ## Observaciones
 
-Al ejecutar la orden aparece un cuadro de diálogo para elegir el símbolo. Después, selecciona la línea cerrada que se va a rellenar.
+Al ejecutar la orden aparece un cuadro de diálogo para elegir el símbolo. Después, sin parámetros, selecciona la línea cerrada que se va a rellenar. Con códigos, la orden rellena todas las líneas cerradas visibles de esos códigos y termina.
 
 Los símbolos se sitúan en los mismos puntos que los de [PUNTEAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/puntear.md): en los cruces de las rayas que generaría [TRAMAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tramar.md), con la distancia activa principal en la dirección del [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y la secundaria en la perpendicular. Las dos distancias se asignan con [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md).
 

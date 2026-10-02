@@ -10,7 +10,7 @@ Inserta textos o símbolos a lo largo de una entidad lineal.
 | :--- | :--- | :--- |
 | 1 | Código de las líneas | Si |
 | 2 | Texto, o símbolo escrito como `@<número>` | Si |
-| 3 | Ángulo fijo de los textos | Si |
+| 3 | Ángulo fijo de los textos, en grados sexagesimales como el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) | Si |
 
 Con los parámetros 1 y 2, la orden procesa todas las líneas visibles de ese código y termina. Si falta el parámetro 3, cada texto gira con el tramo en el que cae.
 

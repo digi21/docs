@@ -83,16 +83,16 @@
       <polygon points="0,0 40,0 40,-25 20,-40 0,-25" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2.5"/>
     </g>
     <line x1="50" y1="170" x2="250" y2="140" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
-    <line x1="154.7" y1="195" x2="250" y2="140" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 3"/>
+    <line x1="250" y1="140" x2="345.3" y2="85" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="5 3"/>
     <line x1="250" y1="140" x2="320" y2="140" stroke="#999" stroke-width="1"/>
     <path d="M 300 140 A 50 50 0 0 0 293.3 115" fill="none" stroke="#555"/>
     <text x="304" y="128" fill="#555">giro</text>
     <use href="#p1" x="90" y="158"/>
     <use href="#p2" x="50" y="170"/>
     <use href="#p3" x="250" y="140"/>
-    <use href="#p4" x="154.7" y="195"/>
+    <use href="#p4" x="345.3" y="85"/>
     <text x="210" y="222" text-anchor="middle" fill="#222">1: entidad. 2: punto base. 3: destino del punto base. 4: la copia gira el</text>
-    <text x="210" y="237" text-anchor="middle" fill="#222">ángulo de la dirección 4-3. Con 4 al oeste de 3, la copia no gira.</text>
+    <text x="210" y="237" text-anchor="middle" fill="#222">ángulo de la dirección 3-4. Con 4 al este de 3, la copia no gira.</text>
   </g>
 
   <rect x="20" y="508" width="800" height="44" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
