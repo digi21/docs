@@ -2,7 +2,7 @@
 
 Modifica el sentido en que se han registrado los puntos después de haber digitalizado un elemento gráfico. La línea queda digitalizada desde el extremo más bajo hacia el más alto.
 
-![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
+![CAMB_SEN_SUBE: una línea con el primer vértice a z 120 y el último a z 100 se invierte; una con el primero más bajo no cambia](../../../../../images/orden-camb-sen-sube.svg)
 
 ## Parámetros
 

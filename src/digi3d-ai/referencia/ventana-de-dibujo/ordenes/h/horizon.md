@@ -2,7 +2,7 @@
 
 Se utiliza para hacer líneas de señalización horizontal, mediante la inserción de símbolos \(compuestos por segmentos horizontales y verticales\) y de espacios en blanco.
 
-![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
+![HORIZON: la línea se sustituye por trazos de largo separados por espacio; con ancho 0 son líneas abiertas, con ancho positivo rectángulos a la derecha del sentido y con ancho negativo a la izquierda; el último trazo incompleto no se añade](../../../../../images/orden-horizon.svg)
 
 ## Parámetros
 
