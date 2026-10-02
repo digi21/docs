@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="460" viewBox="0 0 480 460" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+    <g id="p3"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">3</text></g>
+  </defs>
+  <rect width="480" height="460" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">EXT_M</text>
+
+  <line x1="360" y1="50" x2="360" y2="245" stroke="#444" stroke-width="3"/>
+  <g stroke="#1f5fa8" stroke-width="3">
+    <line x1="60" y1="85" x2="220" y2="85"/>
+    <line x1="60" y1="130" x2="260" y2="130"/>
+    <line x1="60" y1="175" x2="200" y2="175"/>
+    <line x1="60" y1="220" x2="360" y2="220"/>
+  </g>
+  <g stroke="#e67e22" stroke-width="3" stroke-dasharray="6 4">
+    <line x1="220" y1="85" x2="360" y2="85"/>
+    <line x1="260" y1="130" x2="360" y2="130"/>
+    <line x1="200" y1="175" x2="360" y2="175"/>
+  </g>
+  <line x1="360" y1="220" x2="430" y2="220" stroke="#c0392b" stroke-width="3" stroke-dasharray="4 4"/>
+  <line x1="130" y1="62" x2="130" y2="240" stroke="#555" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <use href="#p1" x="360" y="152"/>
+  <use href="#p2" x="130" y="58"/>
+  <use href="#p3" x="130" y="244"/>
+
+  <text x="240" y="280" text-anchor="middle" fill="#222">1: límite. 2 y 3: dos puntos digitalizados.</text>
+  <text x="240" y="298" text-anchor="middle" fill="#222">Todas las líneas visibles que cruzan el segmento 2-3</text>
+  <text x="240" y="316" text-anchor="middle" fill="#222">se estiran o se recortan hasta el límite.</text>
+  <text x="240" y="334" text-anchor="middle" fill="#222">Las Z de los extremos no cambian.</text>
+
+  <rect x="16" y="356" width="448" height="84" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="44" y="374"/>
+  <text x="60" y="378" fill="#222">Selección o punto, en orden.</text>
+  <line x1="250" y1="374" x2="286" y2="374" stroke="#444" stroke-width="3"/>
+  <text x="294" y="378" fill="#222">Límite.</text>
+  <line x1="26" y1="396" x2="62" y2="396" stroke="#555" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <text x="70" y="400" fill="#222">Segmento 2-3.</text>
+  <line x1="250" y1="396" x2="286" y2="396" stroke="#e67e22" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="294" y="400" fill="#222">Prolongación que se añade.</text>
+  <line x1="26" y1="418" x2="62" y2="418" stroke="#c0392b" stroke-width="3" stroke-dasharray="4 4"/>
+  <text x="70" y="422" fill="#222">Parte que se recorta.</text>
+</svg>
