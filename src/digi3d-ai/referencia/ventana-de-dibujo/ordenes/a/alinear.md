@@ -2,6 +2,8 @@
 
 Mueve los vértices cuya distancia a la línea virtual digitalizada sea inferior o igual al valor de la [distancia activa principal](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md).
 
+![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+
 ## Parámetros
 
 No admite parámetros.

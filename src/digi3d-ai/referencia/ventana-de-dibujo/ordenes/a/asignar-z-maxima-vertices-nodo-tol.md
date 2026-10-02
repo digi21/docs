@@ -1,13 +1,17 @@
 # ASIGNAR\_Z\_MAXIMA\_VERTICES\_NODO\_TOL
 
-Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de todos para que se ajuste a la Z máxima siempre que estén a menos de la tolerancia especificada por parámetros.
+Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de todos para que se ajuste a la Z máxima siempre que su Z esté a menos de la tolerancia de la Z máxima.
+
+Un nodo es un punto en el que coinciden en X e Y los extremos de dos o más líneas o polígonos de los códigos indicados. La orden solo modifica el primer y el último vértice de cada entidad.
+
+![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Tolerancia | No |
-| 2 | Código o códigos (uno o más) | Si |
+| 1 | Tolerancia en Z | No |
+| 2 | Código o códigos (uno o más) | No |
 
 ## Características de la orden
 
