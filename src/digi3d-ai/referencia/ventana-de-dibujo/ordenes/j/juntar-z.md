@@ -8,11 +8,13 @@ Asigna la Z de un punto digitalizado al vértice más cercano de cada línea pr�
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Tamaño del cursor | Número real | Si |
+| 1 | Tamaño del cursor, en píxeles | Número entero | Si |
+
+Sin parámetro, la orden usa el tamaño del cursor de la ventana de dibujo.
 
 ## Observaciones
 
-Al digitalizar un punto, la orden busca las líneas visibles que tienen un vértice dentro del tamaño del cursor de la ventana de dibujo. En cada una de esas líneas, la orden cambia solo el vértice más cercano al punto digitalizado: ese vértice toma la Z del punto. El resto de vértices no cambia. La orden no modifica las coordenadas X e Y.
+Al digitalizar un punto, la orden busca las líneas visibles que tienen un vértice dentro del tamaño del cursor. En cada una de esas líneas, la orden cambia solo el vértice más cercano al punto digitalizado: ese vértice toma la Z del punto. El resto de vértices no cambia. La orden no modifica las coordenadas X e Y.
 
 La orden termina después de procesar un punto.
 

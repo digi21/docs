@@ -6,11 +6,20 @@ Une dos entidades lineales que has de seleccionar, generando un único elemento 
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código de las líneas que se unen por ventana | Si |
+
+Con un código como parámetro (`UNIR=<código>`), la orden une por ventana. Es la opción **Unir polilíneas por ventana y código** del menú:
+
+1. Digitaliza los 4 vértices de una ventana.
+2. La orden busca las líneas visibles de ese código que cortan la ventana y une entre sí cada par de esas líneas por el extremo de cada una más cercano a su corte con la ventana, si los dos extremos tienen la misma Z.
+
+Si una de las dos líneas no pertenece al modelo actual, la orden no la modifica: mueve el extremo de la otra línea al extremo de la primera.
 
 ## Observaciones
 
-El punto de selección no decide por qué extremos se unen las líneas. La orden mide en planta las cuatro distancias entre los extremos de la primera línea y los de la segunda, y une las líneas por el par de extremos más próximos entre sí.
+Sin parámetros, la orden pide que selecciones las dos líneas. El punto de selección no decide por qué extremos se unen las líneas. La orden mide en planta las cuatro distancias entre los extremos de la primera línea y los de la segunda, y une las líneas por el par de extremos más próximos entre sí.
 
 Si las dos líneas tienen el mismo código y los mismos atributos de base de datos, la orden las une sin preguntar. En los demás casos:
 

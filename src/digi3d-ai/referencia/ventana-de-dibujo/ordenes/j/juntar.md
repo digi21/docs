@@ -8,7 +8,9 @@ Traslada todos los puntos en un entorno, que será determinado por el tamaño de
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Tamaño del cursor | Número real | Si |
+| 1 | Tamaño del cursor, en píxeles | Número entero | Si |
+
+Sin parámetro, la orden usa el tamaño del cursor de la ventana de dibujo.
 
 ## Características de la orden
 
