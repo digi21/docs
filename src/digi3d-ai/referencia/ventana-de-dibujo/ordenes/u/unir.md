@@ -10,9 +10,14 @@ No admite parámetros.
 
 ## Observaciones
 
-La unión se realiza por el extremo más próximo al punto de selección de cada una de las entidades.
+El punto de selección no decide por qué extremos se unen las líneas. La orden mide en planta las cuatro distancias entre los extremos de la primera línea y los de la segunda, y une las líneas por el par de extremos más próximos entre sí.
 
-Las entidades deben tener el mismo código y los mismos atributos para poder unirlas.
+Si las dos líneas tienen el mismo código y los mismos atributos de base de datos, la orden las une sin preguntar. En los demás casos:
+
+* Si los códigos son iguales y los atributos de base de datos son distintos, la orden muestra un cuadro de diálogo con los campos que difieren. En él eliges cancelar la unión, unir con los atributos de la primera línea o unir con los atributos de la segunda.
+* Si los códigos son distintos, la orden depende de la opción **Si las dos líneas tienen códigos distintos**, de la categoría **Unir** del cuadro de diálogo de configuración:
+  * Con el valor **No unir las líneas** (valor por defecto), la orden emite el sonido de error, muestra el mensaje «Se han seleccionado líneas con códigos distintos.» y no une las líneas.
+  * Con el valor **Preguntar el código de la línea a generar**, la orden muestra un cuadro de diálogo con los códigos de cada línea. En él eliges los códigos de la primera línea, los de la segunda o no unir las líneas.
 
 ## Características de la orden
 

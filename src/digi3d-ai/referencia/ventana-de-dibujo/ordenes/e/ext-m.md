@@ -1,12 +1,23 @@
 # EXT\_M
 
-Prolonga un grupo de entidades hasta que interseccionen con otra entidad dada.
+Estira o recorta un grupo de entidades hasta que interseccionen con otra entidad dada.
 
 ![EXT_M: se selecciona el límite (1) y se digitalizan dos puntos (2 y 3); las tres líneas que cruzan el segmento 2-3 y no llegan al límite se estiran hasta él, y la que lo sobrepasa se recorta](../../../../../images/orden-ext-m.svg)
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+La orden pide primero la línea límite y después dos puntos. La orden ajusta al límite todas las líneas visibles que cortan el segmento entre los dos puntos. En cada línea prueba los dos extremos y lleva a la intersección con el límite cada extremo que la tenga:
+
+* Si la línea no llega al límite, la orden la estira.
+* Si la línea sobrepasa el límite, la orden la recorta.
+
+Los extremos de las líneas conservan su coordenada Z original.
+
+La orden termina después de procesar los dos puntos.
 
 ## Características de la orden
 

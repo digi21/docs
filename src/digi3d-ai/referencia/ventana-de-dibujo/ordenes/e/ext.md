@@ -1,12 +1,27 @@
 # EXT
 
-Prolonga una entidad hasta el punto de intersección con otra entidad dada.
+Estira o recorta una entidad hasta el punto de intersección con otra entidad dada.
 
 ![EXT: se selecciona el límite (1) y después cada línea (2, 3); la línea 2 se estira y la línea 3 se recorta hasta el límite](../../../../../images/orden-ext.svg)
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+La orden pide primero la línea límite. El límite puede ser una línea o un polígono; en un polígono, el límite es el contorno o el hueco que contiene el tramo seleccionado.
+
+Después pide las líneas que se ajustan al límite. Cada línea tiene que pertenecer al modelo actual. La orden elige el extremo a ajustar a partir del punto con el que seleccionas la línea, y lleva ese extremo a la intersección con el límite:
+
+* Si la línea no llega al límite, la orden la estira.
+* Si la línea sobrepasa el límite, la orden la recorta.
+
+Los extremos de la línea conservan su coordenada Z original.
+
+La orden no termina tras ajustar una línea: sigue pidiendo líneas con el mismo límite. Al pulsar Esc, la orden descarta el límite y pide uno nuevo. Al pulsar Esc sin límite seleccionado, la orden termina.
+
+Con la opción **EXT puede extender fuera de límites**, de la categoría **EXT** del cuadro de diálogo de configuración, la orden considera infinitos el primer y el último segmento del límite.
 
 ## Características de la orden
 

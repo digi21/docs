@@ -12,6 +12,10 @@ No admite parámetros.
 
 La interpolación se hará en coordenadas \(X Y Z\). La nueva entidad se registrará con el código activo en el momento de ejecutar la orden.
 
+Si la primera entidad seleccionada es un polígono o una línea cerrada en planta, la orden no pide una segunda línea: calcula el eje de esa entidad con una sola selección. Para ello triangula su contorno y une los puntos medios de los lados interiores de los triángulos. De un polígono, la orden usa solo el contorno exterior.
+
+La orden rechaza las líneas en zigzag, es decir, las que tienen un vértice cuyo vértice anterior y vértice siguiente coinciden. Con una de esas líneas, la orden emite el sonido de error y muestra el mensaje «La línea seleccionada tiene un ZigZag».
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](inter-eje.md) |

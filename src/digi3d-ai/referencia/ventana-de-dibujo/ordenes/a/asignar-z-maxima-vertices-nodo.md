@@ -8,7 +8,11 @@ Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | No |
+
+## Observaciones
+
+La orden solo analiza las entidades visibles que tienen alguno de los códigos pasados como parámetro. Sin códigos, la orden no hace nada.
 
 ## Características de la orden
 

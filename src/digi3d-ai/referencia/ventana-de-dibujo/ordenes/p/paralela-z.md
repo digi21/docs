@@ -1,6 +1,6 @@
 # PARALELA\_Z
 
-Dibuja una paralela a una línea existente asignando la Z activa a todos los vértices de la paralela generada.
+Dibuja una paralela a una línea existente asignando la Z del punto digitalizado a todos los vértices de la paralela generada.
 
 ![PARALELA_Z: en planta, la paralela a la distancia d en el lado del punto digitalizado; en alzado, todos los vértices de la paralela con la Z de ese punto](../../../../../images/orden-paralela-z.svg)
 
@@ -14,7 +14,7 @@ Funciona como [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paral
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](paralela-z.md) |
+| Tipo de orden | [Orden interactiva](paralela-z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela clásica (selección/distancia/lado) con Z activa |
