@@ -2,7 +2,7 @@
 
 Inserta textos o símbolos a lo largo de una entidad lineal.
 
-![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
+![DIVIDIR: textos a lo largo de una línea, el primero a DA del vértice 1 y los siguientes cada DA2, girados con el tramo en el que caen](../../../../../images/orden-dividir.svg)
 
 ## Parámetros
 

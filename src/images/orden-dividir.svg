@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="300" viewBox="0 0 460 300" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="flechaGris" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#888"/>
+    </marker>
+  </defs>
+  <rect width="460" height="300" fill="#ffffff"/>
+
+  <text x="230" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">DIVIDIR</text>
+
+  <g transform="translate(20,-40)">
+    <polyline points="40,160 210,108 370,152" fill="none" stroke="#888" stroke-width="2.5" marker-end="url(#flechaGris)"/>
+    <g fill="#2e7d32" font-size="15" font-weight="bold" text-anchor="middle">
+      <text transform="translate(84,146.5) rotate(-17)" y="-5">A</text>
+      <text transform="translate(143.3,128.4) rotate(-17)" y="-5">A</text>
+      <text transform="translate(202.6,110.3) rotate(-17)" y="-5">A</text>
+      <text transform="translate(262.3,122.4) rotate(15.4)" y="-5">A</text>
+      <text transform="translate(322.1,138.8) rotate(15.4)" y="-5">A</text>
+    </g>
+    <g fill="#2e7d32">
+      <circle cx="84" cy="146.5" r="2.5"/><circle cx="143.3" cy="128.4" r="2.5"/>
+      <circle cx="202.6" cy="110.3" r="2.5"/><circle cx="262.3" cy="122.4" r="2.5"/>
+      <circle cx="322.1" cy="138.8" r="2.5"/>
+    </g>
+    <circle cx="40" cy="160" r="3.5" fill="#888"/>
+    <text x="40" y="180" text-anchor="middle" fill="#555">1</text>
+    <text x="62" y="172" text-anchor="middle" fill="#555">DA</text>
+    <text x="117" y="155" text-anchor="middle" fill="#555">DA2</text>
+    <text x="296" y="153" text-anchor="middle" fill="#555">DA2</text>
+  </g>
+
+  <text x="230" y="178" text-anchor="middle" fill="#222">El primer texto o símbolo va a la distancia DA del vértice 1;</text>
+  <text x="230" y="195" text-anchor="middle" fill="#222">los siguientes, cada DA2. Las dos se miden sobre la línea.</text>
+  <text x="230" y="212" text-anchor="middle" fill="#222">Cada texto gira con el tramo en el que cae, o toma el ángulo</text>
+  <text x="230" y="229" text-anchor="middle" fill="#222">fijo. Altura AT, justificación JT. La línea no cambia.</text>
+
+  <rect x="15" y="246" width="430" height="44" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <line x1="30" y1="261" x2="60" y2="261" stroke="#888" stroke-width="2.5"/>
+  <text x="68" y="265" fill="#222">Línea seleccionada. La flecha marca el sentido.</text>
+  <text x="45" y="284" text-anchor="middle" fill="#2e7d32" font-size="15" font-weight="bold">A</text>
+  <text x="68" y="283" fill="#222">Texto o símbolo que añade la orden.</text>
+</svg>

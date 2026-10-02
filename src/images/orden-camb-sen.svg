@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="340" viewBox="0 0 440 340" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="flechaGris" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#999"/>
+    </marker>
+  </defs>
+  <rect width="440" height="340" fill="#ffffff"/>
+
+  <text x="220" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">CAMB_SEN</text>
+
+  <text x="30" y="62" fill="#777">antes</text>
+  <line x1="55" y1="95" x2="385" y2="95" stroke="#999" stroke-width="2.5" marker-end="url(#flechaGris)"/>
+  <g stroke="#999" stroke-width="1.5">
+    <line x1="85" y1="95" x2="85" y2="82"/><line x1="130" y1="95" x2="130" y2="82"/><line x1="175" y1="95" x2="175" y2="82"/>
+    <line x1="220" y1="95" x2="220" y2="82"/><line x1="265" y1="95" x2="265" y2="82"/><line x1="310" y1="95" x2="310" y2="82"/>
+    <line x1="355" y1="95" x2="355" y2="82"/>
+  </g>
+  <text x="55" y="116" text-anchor="middle" fill="#777">1</text><text x="385" y="116" text-anchor="middle" fill="#777">n</text>
+
+  <text x="30" y="152" fill="#1f5fa8">después</text>
+  <line x1="385" y1="185" x2="55" y2="185" stroke="#1f5fa8" stroke-width="2.5" marker-end="url(#flecha)"/>
+  <g stroke="#1f5fa8" stroke-width="1.5">
+    <line x1="85" y1="185" x2="85" y2="198"/><line x1="130" y1="185" x2="130" y2="198"/><line x1="175" y1="185" x2="175" y2="198"/>
+    <line x1="220" y1="185" x2="220" y2="198"/><line x1="265" y1="185" x2="265" y2="198"/><line x1="310" y1="185" x2="310" y2="198"/>
+    <line x1="355" y1="185" x2="355" y2="198"/>
+  </g>
+  <text x="385" y="175" text-anchor="middle" fill="#1f5fa8">1</text><text x="55" y="175" text-anchor="middle" fill="#1f5fa8">n</text>
+
+  <text x="220" y="232" text-anchor="middle" fill="#222">La orden invierte el orden de los vértices: el último pasa</text>
+  <text x="220" y="249" text-anchor="middle" fill="#222">a ser el primero. La geometría no cambia. Un patrón lateral,</text>
+  <text x="220" y="266" text-anchor="middle" fill="#222">como las marcas, pasa al otro lado de la línea.</text>
+
+  <rect x="15" y="284" width="410" height="46" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <line x1="30" y1="299" x2="60" y2="299" stroke="#999" stroke-width="2.5"/>
+  <text x="68" y="303" fill="#222">Línea antes de la orden. La flecha marca el sentido.</text>
+  <line x1="30" y1="318" x2="60" y2="318" stroke="#1f5fa8" stroke-width="2.5"/>
+  <text x="68" y="322" fill="#222">Línea después de la orden.</text>
+</svg>

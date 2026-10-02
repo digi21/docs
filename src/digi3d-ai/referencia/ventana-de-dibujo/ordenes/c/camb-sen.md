@@ -2,7 +2,7 @@
 
 Modifica el sentido en que se han registrado los puntos después de haber digitalizado un elemento gráfico.
 
-![CAMB_SEN, CAMB_SEN_SUBE, CAMB_SEN_BAJA, DIVIDIR y HORIZON](../../../../../images/sentido-dividir-horizon.svg)
+![CAMB_SEN: la línea pasa de ir del vértice 1 al n a ir en sentido contrario, y las marcas laterales quedan al otro lado](../../../../../images/orden-camb-sen.svg)
 
 ## Parámetros
 
