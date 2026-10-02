@@ -24,8 +24,8 @@
   <text x="218" y="310" text-anchor="end" fill="#555" font-size="12">(la y no cambia)</text>
 
   <text x="240" y="352" text-anchor="middle" fill="#222">La orden pide una distancia y recorre todas las entidades</text>
-  <text x="240" y="370" text-anchor="middle" fill="#222">del archivo activo. Cada X o Y que está a menos de esa</text>
-  <text x="240" y="388" text-anchor="middle" fill="#222">distancia de un valor ya procesado toma ese valor.</text>
+  <text x="240" y="370" text-anchor="middle" fill="#222">del archivo activo. Cada X que está a menos de esa</text>
+  <text x="240" y="388" text-anchor="middle" fill="#222">distancia de una X ya procesada toma ese valor; igual con la Y.</text>
   <text x="240" y="406" text-anchor="middle" fill="#222">La X y la Y se ajustan por separado. La Z no cambia.</text>
 
   <rect x="16" y="422" width="448" height="58" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
