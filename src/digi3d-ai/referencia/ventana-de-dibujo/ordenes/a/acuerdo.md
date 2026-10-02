@@ -2,24 +2,26 @@
 
 Dibuja un acuerdo circular entre dos segmentos con un vértice común de una entidad.
 
+![Cuatro órdenes de arcos: ARCO por tres puntos, ARCO_TANGENTE tangente al último tramo de la línea en curso, ACUERDO que sustituye un vértice por un arco tangente a sus dos tramos, y MULTIARCO con arcos encadenados](../../../../../images/arcos.svg)
+
 ## Parámetros
 
-Debemos introducir el valor del radio deseado y determinar cuál va a ser el vértice de intersección.
-
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
-| 2 | Distancia entre dos puntos | Número real | Si |
-
-Si no se ejecuta la orden y aparece un mensaje de error, puede ser debido a que el radio introducido sea mayor al radio máximo permitido por la entidad a la que se quiere dibujar un acuerdo.
+No admite parámetros.
 
 ## Observaciones
 
-El resultado de la orden es la sustitución del vértice por un arco de radio especificado y tangente a dos rectas.
+1. Selecciona la línea junto al vértice que quieres redondear. La orden toma el vértice más cercano al punto de selección, que no puede ser el primero ni el último de la línea.
+2. Indica el radio de una de estas dos formas:
+   - escribe el radio en metros en el campo **Radio** de la barra de estado y pulsa Intro;
+   - digitaliza dos puntos: el radio es la distancia en planta entre ellos.
+
+El vértice se sustituye por un arco del radio indicado, tangente a los dos tramos que llegan a él. La Z de los puntos de tangencia se interpola en cada tramo.
+
+Si el radio es tan grande que algún punto de tangencia cae fuera de su tramo, la orden muestra el mensaje **No se pudo realizar el acuerdo con los datos facilitados.** y no modifica la línea.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](acuerdo.md) |
+| Tipo de orden | [Orden interactiva](acuerdo.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Redondear un vértice |
