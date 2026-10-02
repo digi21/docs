@@ -2,7 +2,7 @@
 
 Rellena el interior de una entidad superficial de contorno cerrado usando una trama de símbolos.
 
-![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+![SIMB: un contorno cerrado relleno de símbolos en una retícula girada según AA = 30](../../../../../images/orden-simb.svg)
 
 ## Parámetros
 

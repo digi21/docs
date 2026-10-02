@@ -2,7 +2,7 @@
 
 Raya el interior de una entidad superficial de contorno cerrado.
 
-![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+![RAYAR: un contorno cerrado relleno de rayas paralelas en la dirección de AA = 30](../../../../../images/orden-rayar.svg)
 
 ## Parámetros
 

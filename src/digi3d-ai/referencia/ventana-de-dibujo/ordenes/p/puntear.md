@@ -2,7 +2,7 @@
 
 Rellena el interior de una entidad superficial de contorno cerrado con una trama de puntos.
 
-![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+![PUNTEAR: un contorno cerrado relleno de puntos en una retícula girada según AA = 30](../../../../../images/orden-puntear.svg)
 
 ## Parámetros
 
