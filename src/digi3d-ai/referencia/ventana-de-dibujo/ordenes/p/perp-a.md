@@ -2,7 +2,7 @@
 
 Dibuja segmentos perpendiculares a una entidad dada.
 
-![Órdenes de perpendiculares: PERP y PERP_Z empiezan una polilínea en el pie de la perpendicular, PERP_A genera un segmento hasta el pie por cada punto y MIDE_PERP mide la distancia perpendicular](../../../../../images/perpendiculares.svg)
+![PERP_A: cada punto digitalizado genera un segmento hasta el pie de la perpendicular al tramo; en alzado, el pie toma la Z del punto, o la del tramo con PERP_A=1](../../../../../images/orden-perp-a.svg)
 
 ## Parámetros
 

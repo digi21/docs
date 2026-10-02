@@ -2,7 +2,7 @@
 
 Traza líneas perpendiculares a una entidad de dibujo.
 
-![Órdenes de perpendiculares: PERP y PERP_Z empiezan una polilínea en el pie de la perpendicular, PERP_A genera un segmento hasta el pie por cada punto y MIDE_PERP mide la distancia perpendicular](../../../../../images/perpendiculares.svg)
+![PERP: la polilínea empieza en el pie de la perpendicular al tramo, pasa por el punto digitalizado y continúa con LINEA; en alzado, el pie toma la Z del punto](../../../../../images/orden-perp.svg)
 
 ## Parámetros
 

@@ -2,7 +2,7 @@
 
 Mide la perpendicular a un segmento seleccionado.
 
-![Órdenes de perpendiculares: PERP y PERP_Z empiezan una polilínea en el pie de la perpendicular, PERP_A genera un segmento hasta el pie por cada punto y MIDE_PERP mide la distancia perpendicular](../../../../../images/perpendiculares.svg)
+![MIDE_PERP: la distancia d en planta del punto digitalizado a la recta del tramo seleccionado](../../../../../images/orden-mide-perp.svg)
 
 ## Parámetros.
 
