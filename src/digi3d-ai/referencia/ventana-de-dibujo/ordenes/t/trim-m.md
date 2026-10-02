@@ -2,7 +2,7 @@
 
 Recorta múltiples entidades, seleccionando primero la línea de límite y luego digitalizando un límite virtual.
 
-![Órdenes para recortar y cortar: TRIM, TRIM_LADO y TRIM_M eliminan partes de líneas que cruzan un límite, CRUCE crea un cruce de caminos, CORTAR_E, CORTAR_Y_BORRAR y CORTA_2P parten una línea, y CORTAR_POLIGONO, RECORTAR_POLIGONO y RECORTAR_POLIGONOS dividen o recortan polígonos](../../../../../images/recortar-cortar.svg)
+![TRIM_M: se selecciona el límite (1) y se digitaliza un límite virtual (2, 3); en las tres líneas que cruza el límite virtual se elimina el trozo por el que pasa](../../../../../images/orden-trim-m.svg)
 
 ## Parámetros
 

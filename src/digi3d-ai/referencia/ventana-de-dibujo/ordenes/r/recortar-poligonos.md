@@ -2,7 +2,7 @@
 
 Recorta todos los polígonos que interseccionen con un límite.
 
-![Órdenes para recortar y cortar: TRIM, TRIM_LADO y TRIM_M eliminan partes de líneas que cruzan un límite, CRUCE crea un cruce de caminos, CORTAR_E, CORTAR_Y_BORRAR y CORTA_2P parten una línea, y CORTAR_POLIGONO, RECORTAR_POLIGONO y RECORTAR_POLIGONOS dividen o recortan polígonos](../../../../../images/recortar-cortar.svg)
+![RECORTAR_POLIGONOS: se selecciona un límite cerrado (1); de los dos polígonos que corta se elimina la parte que queda dentro del límite](../../../../../images/orden-recortar-poligonos.svg)
 
 ## Parámetros
 

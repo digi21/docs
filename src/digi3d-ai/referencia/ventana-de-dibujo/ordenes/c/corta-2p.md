@@ -2,7 +2,7 @@
 
 Corta una entidad por dos puntos de la misma.
 
-![Órdenes para recortar y cortar: TRIM, TRIM_LADO y TRIM_M eliminan partes de líneas que cruzan un límite, CRUCE crea un cruce de caminos, CORTAR_E, CORTAR_Y_BORRAR y CORTA_2P parten una línea, y CORTAR_POLIGONO, RECORTAR_POLIGONO y RECORTAR_POLIGONOS dividen o recortan polígonos](../../../../../images/recortar-cortar.svg)
+![CORTA_2P: se seleccionan dos puntos de la misma línea (1 y 2); el tramo entre ellos se borra y quedan dos líneas](../../../../../images/orden-corta-2p.svg)
 
 ## Parámetros
 

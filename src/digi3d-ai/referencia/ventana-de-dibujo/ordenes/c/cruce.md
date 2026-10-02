@@ -2,7 +2,7 @@
 
 Dibuja el cruce de una entidad con otras dos, de forma que el tramo de la primera comprendido entre los puntos de intersección con las dos últimas, se elimina del dibujo.
 
-![Órdenes para recortar y cortar: TRIM, TRIM_LADO y TRIM_M eliminan partes de líneas que cruzan un límite, CRUCE crea un cruce de caminos, CORTAR_E, CORTAR_Y_BORRAR y CORTA_2P parten una línea, y CORTAR_POLIGONO, RECORTAR_POLIGONO y RECORTAR_POLIGONOS dividen o recortan polígonos](../../../../../images/recortar-cortar.svg)
+![CRUCE: se selecciona el borde (1) y dos líneas que llegan a él (2 y 3); la línea 2 se estira y la 3 se recorta hasta el borde, y el tramo del borde entre los dos cortes se elimina](../../../../../images/orden-cruce.svg)
 
 ## Parámetros
 
