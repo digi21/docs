@@ -197,6 +197,8 @@
         * [Mover entidades](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/mover-entidades.md)
         * [Cambiando el código de una entidad](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/cambiando-codigo-entidad.md)
       * [Introducción al editor de tablas de códigos](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/introduccion-editor-tablas-codigos.md)
+  * [Procedimientos](digi3d-ai/procedimientos/README.md)
+    * [Conectarse a un servidor WMS](digi3d-ai/procedimientos/conectar-servidor-wms.md)
   * [Sistemas de Referencia de Coordenadas](digi3d-ai/sistemas-referencia-coordenadas/README.md)
     * [Introducción a los Sistemas de Referencia de Coordenadas](digi3d-ai/sistemas-referencia-coordenadas/introduccion-sistemas-referencia-coordenadas/README.md)
       * [Tipos de Sistemas de Referencia de Coordenadas](digi3d-ai/sistemas-referencia-coordenadas/introduccion-sistemas-referencia-coordenadas/tipos-sistemas-referencia-coordenadas/README.md)
