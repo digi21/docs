@@ -2,17 +2,19 @@
 
 Inserta una imagen en el archivo de dibujo mediante tres puntos.
 
+![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+
 ## Parámetros
 
 No admite parámetros.
 
 ## Observaciones
 
-La orden requiere la entrada de 3 puntos, de forma que los dos primeros se corresponden con las esquinas de un lado, y el tercero con cualquier punto perteneciente al lado opuesto \(no es necesario que se corresponda con una esquina\).
+La orden pide primero el archivo de imagen. Después requiere la entrada de 3 puntos, de forma que los dos primeros se corresponden con las esquinas de un lado, y el tercero con cualquier punto perteneciente al lado opuesto \(no es necesario que se corresponda con una esquina\).
 
 Los puntos pueden definirse de forma gráfica o mediante la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
 
-El resultado final es que la imagen se orienta formando el rectángulo que solapa con los tres puntos digitalizados.
+El resultado final es que la imagen se orienta formando el rectángulo que solapa con los tres puntos digitalizados. La dirección del primer punto al segundo es el giro de la imagen. La imagen se estira hasta llenar el rectángulo, así que no conserva su relación de aspecto.
 
 ## Características de la orden
 

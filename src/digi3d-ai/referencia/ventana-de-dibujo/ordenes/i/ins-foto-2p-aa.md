@@ -2,15 +2,17 @@
 
 Inserta una imagen en el archivo de dibujo mediante dos puntos y ángulo activo.
 
+![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+
 ## Parámetros
 
 No admite parámetros.
 
 ## Observaciones
 
-Para ejecutar esta orden hace falta establecer el valor del [ángulo activo](ins-foto-2p-aa.md) \([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
+Para ejecutar esta orden hace falta establecer el valor del ángulo activo ([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md)). Los lados de la imagen siguen ese ángulo.
 
-La orden requiere la entrada de los puntos extremos que definen la diagonal del cuadrado, que podrán introducirse:
+La orden pide primero el archivo de imagen. Después requiere la entrada de las dos esquinas opuestas del rectángulo que ocupará la imagen. La imagen se estira hasta llenar el rectángulo, así que no conserva su relación de aspecto. Los puntos podrán introducirse:
 
 * De forma gráfica, señalándolos con el cursor/ratón.
 * Por entrada de sus coordenadas desde teclado \([XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
