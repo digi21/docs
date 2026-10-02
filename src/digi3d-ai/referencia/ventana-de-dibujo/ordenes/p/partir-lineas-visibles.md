@@ -2,7 +2,7 @@
 
 Parte las entidades visibles por sus intersecciones.
 
-![Órdenes para unir y partir líneas: UNIR une dos líneas por sus extremos, UNIR_XYZ solo si coinciden en Z, UNIR_LINEAS_TABLA solo si al nodo llegan dos líneas, PARTIR_LINEAS parte las líneas en sus cruces, INSERTAR_VERTICE_INTERSECCION_LINEAS inserta un vértice en el cruce sin partir, e INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO inserta la proyección de un punto cercano](../../../../../images/unir-partir.svg)
+![PARTIR_LINEAS_VISIBLES: dos líneas visibles que se cruzan se parten en el cruce y dan cuatro líneas](../../../../../images/orden-partir-lineas-visibles.svg)
 
 ## Parámetros
 

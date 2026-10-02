@@ -2,7 +2,7 @@
 
 Inserta un vértice en la intersección de líneas con puntos
 
-![Órdenes para unir y partir líneas: UNIR une dos líneas por sus extremos, UNIR_XYZ solo si coinciden en Z, UNIR_LINEAS_TABLA solo si al nodo llegan dos líneas, PARTIR_LINEAS parte las líneas en sus cruces, INSERTAR_VERTICE_INTERSECCION_LINEAS inserta un vértice en el cruce sin partir, e INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO inserta la proyección de un punto cercano](../../../../../images/unir-partir.svg)
+![INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO: se inserta un vértice en la línea, en la proyección del punto que está a menos de la tolerancia; el punto más lejano no inserta ningún vértice](../../../../../images/orden-insertar-vertice-interseccion-linea-punto.svg)
 
 ## Parámetros
 

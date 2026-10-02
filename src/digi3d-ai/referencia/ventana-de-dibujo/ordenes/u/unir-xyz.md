@@ -2,7 +2,7 @@
 
 Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión coincide la coordenada Z
 
-![Órdenes para unir y partir líneas: UNIR une dos líneas por sus extremos, UNIR_XYZ solo si coinciden en Z, UNIR_LINEAS_TABLA solo si al nodo llegan dos líneas, PARTIR_LINEAS parte las líneas en sus cruces, INSERTAR_VERTICE_INTERSECCION_LINEAS inserta un vértice en el cruce sin partir, e INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO inserta la proyección de un punto cercano](../../../../../images/unir-partir.svg)
+![UNIR_XYZ: de tres líneas que llegan al mismo nodo, se unen las dos que tienen Z 100 en él; la de Z 104 no se une](../../../../../images/orden-unir-xyz.svg)
 
 ## Parámetros
 
