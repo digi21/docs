@@ -2,7 +2,7 @@
 
 Configura la orden activa para indicar que el siguiente segmento a insertar será vertical y formado por dos puntos.
 
-![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+![SIGUIENTE_SEGMENTO_VERTICAL_HACIA_ABAJO en alzado: al digitalizar 1 se añade primero un vértice con la X e Y del último vértice y la Z de 1, y después 1](../../../../../images/orden-siguiente-segmento-vertical-hacia-abajo.svg)
 
 ## Parámetros
 

@@ -2,7 +2,7 @@
 
 Crea un gráfico de hojas en forma de traza con centroides para crear con posterioridad hojas con la orden [RECORTA\_TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recorta-traza.md).
 
-![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+![TRAZA: marcos consecutivos de largo × alto centrados en el eje desde su vértice 1, con un texto H1, H2, H3 en el centro de cada marco](../../../../../images/orden-traza.svg)
 
 ## Parámetros
 

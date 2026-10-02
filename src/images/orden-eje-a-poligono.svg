@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="470" viewBox="0 0 480 470" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <rect width="480" height="470" fill="#ffffff"/>
+
+  <text x="240" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">EJE_A_POLIGONO</text>
+
+  <text x="20" y="56" fill="#555" font-weight="bold">Eje abierto</text>
+  <polygon points="106.2,201.6 215.85,119.4 383.4,161.25 396.6,108.75 204.15,60.6 73.8,158.4" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2.5"/>
+  <polyline points="90,180 210,90 390,135" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 3"/>
+  <line x1="300" y1="112.5" x2="293.4" y2="138.75" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="303" y="134" fill="#c0392b">DA</text>
+
+  <line x1="20" y1="222" x2="460" y2="222" stroke="#ddd"/>
+
+  <text x="20" y="246" fill="#555" font-weight="bold">Eje cerrado</text>
+  <path d="M 155 255 H 345 V 355 H 155 Z M 185 285 V 325 H 315 V 285 Z" fill="#eaf1fa" fill-rule="evenodd" stroke="#1f5fa8" stroke-width="2.5"/>
+  <rect x="170" y="270" width="160" height="70" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 3"/>
+  <line x1="330" y1="305" x2="345" y2="305" stroke="#c0392b" stroke-width="1.5"/>
+  <line x1="315" y1="305" x2="330" y2="305" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="352" y="309" fill="#c0392b">DA</text>
+  <text x="250" y="309" text-anchor="middle" fill="#555">hueco</text>
+
+  <text x="240" y="384" text-anchor="middle" fill="#222">La orden crea un polígono a la distancia DA por los dos lados</text>
+  <text x="240" y="401" text-anchor="middle" fill="#222">del eje. Con un eje cerrado, el polígono tiene un hueco.</text>
+  <text x="240" y="418" text-anchor="middle" fill="#222">El eje no cambia.</text>
+
+  <rect x="15" y="430" width="450" height="32" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <line x1="30" y1="446" x2="60" y2="446" stroke="#222" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="68" y="450" fill="#222">Eje seleccionado.</text>
+  <rect x="200" y="438" width="22" height="16" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+  <text x="230" y="450" fill="#222">Polígono que crea la orden.</text>
+</svg>

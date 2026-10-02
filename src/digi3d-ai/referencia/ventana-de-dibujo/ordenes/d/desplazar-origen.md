@@ -2,7 +2,7 @@
 
 Cambia la localización del origen \(comienzo y final\) de una línea cerrada.
 
-![HOJA, TRAZA, RECORTA_TRAZA, DESPLAZAR_ORIGEN, EJE_A_POLIGONO y SIGUIENTE_SEGMENTO_VERTICAL: resultado de cada orden](../../../../../images/hojas-origen-eje-vertical.svg)
+![DESPLAZAR_ORIGEN: la cruz pasa del origen anterior a otro vértice con + y −, y la línea cerrada empieza y termina en ese vértice sin cambiar de forma](../../../../../images/orden-desplazar-origen.svg)
 
 ## Parámetros
 
