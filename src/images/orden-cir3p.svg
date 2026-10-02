@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+    <g id="p3"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">3</text></g>
+  </defs>
+  <rect width="440" height="320" fill="#ffffff"/>
+
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">CIR3P</text>
+
+  <g transform="translate(60,5)">
+    <circle cx="160" cy="125" r="80" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+    <polygon points="84.8,97.6 229.3,85 173.9,203.8" fill="none" stroke="#888" stroke-dasharray="5 4"/>
+    <use href="#p1" x="84.8" y="97.6"/>
+    <use href="#p2" x="229.3" y="85"/>
+    <use href="#p3" x="173.9" y="203.8"/>
+  </g>
+
+  <text x="220" y="236" text-anchor="middle" fill="#222">La circunferencia pasa por los tres puntos proyectados</text>
+  <text x="220" y="252" text-anchor="middle" fill="#222">en el plano de la cámara (en planta). Todos sus vértices</text>
+  <text x="220" y="268" text-anchor="middle" fill="#222">quedan a la misma profundidad.</text>
+
+  <rect x="20" y="280" width="400" height="32" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="40" y="296"/>
+  <text x="56" y="301" fill="#222">Puntos digitalizados, en orden.</text>
+  <circle cx="262" cy="296" r="9" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="2"/>
+  <text x="278" y="301" fill="#222">Línea cerrada creada.</text>
+</svg>

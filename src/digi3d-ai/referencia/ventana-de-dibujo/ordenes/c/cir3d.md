@@ -2,7 +2,7 @@
 
 Dibuja la circunferencia que pasa por tres puntos dados, en el plano que definen esos tres puntos.
 
-![Cuatro formas de definir una circunferencia: CIR2P con el centro y un punto, CIRCR con el centro y el radio, CIR3P por tres puntos en el plano de la cámara y CIR3D por tres puntos en el plano que forman](../../../../../images/circunferencias.svg)
+![CIR3D: circunferencia que pasa por tres puntos digitalizados, en el plano inclinado que forman esos tres puntos](../../../../../images/orden-cir3d.svg)
 
 ## Parámetros
 

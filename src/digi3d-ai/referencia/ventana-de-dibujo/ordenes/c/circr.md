@@ -2,7 +2,7 @@
 
 Dibuja una circunferencia mediante la definición de su centro y el radio introducido numéricamente.
 
-![Cuatro formas de definir una circunferencia: CIR2P con el centro y un punto, CIRCR con el centro y el radio, CIR3P por tres puntos en el plano de la cámara y CIR3D por tres puntos en el plano que forman](../../../../../images/circunferencias.svg)
+![CIRCR: dos puntos digitalizados, cada uno centro de una circunferencia con el radio indicado](../../../../../images/orden-circr.svg)
 
 ## Parámetros
 
