@@ -2,7 +2,7 @@
 
 Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de todos para que se ajuste a la Z máxima.
 
-![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+![ASIGNAR_Z_MAXIMA_VERTICES_NODO: en un nodo con extremos de Z 100, 101,5 y 102, todos los extremos pasan a Z 102](../../../../../images/orden-asignar-z-maxima-vertices-nodo.svg)
 
 ## Parámetros
 

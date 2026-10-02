@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="500" viewBox="0 0 480 500" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+    <g id="viejo"><circle r="5" fill="#fff" stroke="#999" stroke-width="1.5"/></g>
+    <g id="nuevo"><circle r="5.5" fill="#e67e22"/></g>
+  </defs>
+  <rect width="480" height="500" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">ALINEAR</text>
+
+  <!-- franja de DA a cada lado de la línea virtual -->
+  <polygon points="56.7,190.2 416.7,150.2 423.3,209.8 63.3,249.8" fill="#f6e7d8" stroke="none"/>
+  <line x1="60" y1="220" x2="420" y2="180" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <line x1="440" y1="178" x2="440" y2="148" stroke="#b07030" stroke-width="1.2"/>
+  <line x1="434" y1="178" x2="446" y2="178" stroke="#b07030" stroke-width="1.2"/>
+  <line x1="434" y1="148" x2="446" y2="148" stroke="#b07030" stroke-width="1.2"/>
+  <text x="450" y="168" fill="#b07030">DA</text>
+
+  <!-- geometría antes -->
+  <polyline points="110,330 110,236 130,70" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <polyline points="220,60 240,182 250,330" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <polyline points="390,330 360,205 345,70" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- geometría después -->
+  <polyline points="110,330 107.6,214.7 130,70" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="220,60 242,199.8 250,330" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="390,330 358,186.9 345,70" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="155,330 175,272 195,330" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+
+  <use href="#viejo" x="110" y="236"/><use href="#viejo" x="240" y="182"/><use href="#viejo" x="360" y="205"/>
+  <use href="#nuevo" x="107.6" y="214.7"/><use href="#nuevo" x="242" y="199.8"/><use href="#nuevo" x="358" y="186.9"/>
+  <circle cx="175" cy="272" r="4" fill="#1f5fa8"/>
+  <text x="175" y="260" text-anchor="middle" fill="#555" font-size="12">no cambia</text>
+
+  <use href="#p1" x="60" y="220"/><use href="#p2" x="420" y="180"/>
+
+  <text x="240" y="364" text-anchor="middle" fill="#222">1-2: línea virtual digitalizada con dos puntos.</text>
+  <text x="240" y="382" text-anchor="middle" fill="#222">Los vértices de las líneas que están a menos de DA</text>
+  <text x="240" y="400" text-anchor="middle" fill="#222">de ella se proyectan sobre ella. El resto no cambia.</text>
+
+  <rect x="16" y="420" width="448" height="70" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#viejo" x="34" y="440"/>
+  <text x="46" y="444" fill="#222">Posición original del vértice.</text>
+  <use href="#nuevo" x="264" y="440"/>
+  <text x="276" y="444" fill="#222">Posición nueva.</text>
+  <use href="#p1" x="34" y="468"/>
+  <text x="48" y="472" fill="#222">Punto digitalizado.</text>
+  <line x1="200" y1="468" x2="230" y2="468" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="238" y="472" fill="#222">Geometría antes de la orden.</text>
+</svg>

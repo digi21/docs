@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="470" viewBox="0 0 480 470" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="nodo"><circle r="6.5" fill="#fff" stroke="#222" stroke-width="2"/></g>
+  </defs>
+  <rect width="480" height="470" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">ASIGNAR_Z_MAXIMA_VERTICES_NODO</text>
+
+  <polyline points="60,70 240,170" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="420,90 240,170" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="180,330 240,170" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <use href="#nodo" x="240" y="170"/>
+
+  <text x="140" y="96" fill="#d35400" font-size="12">z 100 → 102</text>
+  <text x="300" y="172" fill="#d35400" font-size="12">z 101,5 → 102</text>
+  <text x="232" y="262" fill="#555" font-size="12">z 102 (máxima)</text>
+
+  <text x="240" y="364" text-anchor="middle" fill="#222">Nodo: punto donde coinciden en X e Y los extremos de dos</text>
+  <text x="240" y="382" text-anchor="middle" fill="#222">o más líneas o polígonos de los códigos indicados.</text>
+  <text x="240" y="400" text-anchor="middle" fill="#222">Todos los extremos del nodo toman la Z máxima (aquí 102).</text>
+
+  <rect x="16" y="418" width="448" height="42" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#nodo" x="36" y="439"/>
+  <text x="50" y="443" fill="#222">Nodo.</text>
+  <text x="140" y="443" fill="#d35400" font-size="12">z antes → z después</text>
+  <text x="262" y="443" fill="#222">Z del extremo que cambia.</text>
+</svg>

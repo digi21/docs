@@ -2,7 +2,7 @@
 
 Elimina automáticamente vértices de geometrías para evitar que éstas tengan segmentos cuyo perímetro sea inferior a un valor especificado.
 
-![ALINEAR, JUNTAR, JUNTAR_Z, JUNTAR_VERTICES_CERCANOS, ELIMINAR_SEGMENTOS_CORTOS, ASIGNAR_Z_MAXIMA_VERTICES_NODO_TOL, RET y AJUSTA_AREA: posición de los vértices antes y después de cada orden](../../../../../images/vertices-tolerancia.svg)
+![ELIMINAR_SEGMENTOS_CORTOS: se elimina el vértice final de un tramo más corto que el perímetro, y el vértice intermedio de otra entidad con esas coordenadas pasa al vértice que se conserva](../../../../../images/orden-eliminar-segmentos-cortos.svg)
 
 ## Parámetros
 

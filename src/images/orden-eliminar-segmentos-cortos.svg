@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="510" viewBox="0 0 480 510" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="viejo"><circle r="5" fill="#fff" stroke="#999" stroke-width="1.5"/></g>
+    <g id="nuevo"><circle r="5.5" fill="#e67e22"/></g>
+  </defs>
+  <rect width="480" height="510" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">ELIMINAR_SEGMENTOS_CORTOS</text>
+
+  <!-- geometría antes -->
+  <polyline points="60,280 200,180 216,172 420,140" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <polyline points="150,60 216,172 300,320" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- geometría después -->
+  <polyline points="60,280 200,180 420,140" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="150,60 200,180 300,320" fill="none" stroke="#2e7d32" stroke-width="3"/>
+
+  <use href="#viejo" x="216" y="172"/>
+  <use href="#nuevo" x="200" y="180"/>
+
+  <line x1="262" y1="124" x2="221" y2="166" stroke="#555" stroke-width="1"/>
+  <text x="264" y="122" fill="#555" font-size="12">tramo más corto que el perímetro</text>
+
+  <text x="240" y="362" text-anchor="middle" fill="#222">En cada línea o polígono, el vértice final de un tramo</text>
+  <text x="240" y="380" text-anchor="middle" fill="#222">más corto que el perímetro indicado se elimina.</text>
+  <text x="240" y="398" text-anchor="middle" fill="#222">Los vértices intermedios de otras entidades (verde)</text>
+  <text x="240" y="416" text-anchor="middle" fill="#222">con esas coordenadas pasan al vértice que se conserva.</text>
+
+  <rect x="16" y="434" width="448" height="66" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#viejo" x="34" y="452"/>
+  <text x="46" y="456" fill="#222">Vértice eliminado.</text>
+  <use href="#nuevo" x="224" y="452"/>
+  <text x="236" y="456" fill="#222">Vértice que se conserva.</text>
+  <line x1="24" y1="478" x2="50" y2="478" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="58" y="482" fill="#222">Geometría antes de la orden.</text>
+</svg>
