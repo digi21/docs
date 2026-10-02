@@ -13,9 +13,11 @@ No admite parámetros.
 La orden muestra un cuadro de diálogo con estos campos:
 
 * Código de las líneas de señalización horizontal: código de las entidades lineales que se van a transformar a líneas de señalización horizontal. Se pueden utilizar los caracteres comodín \*, ?.
-* Largo: largo de cada trazo.
-* Ancho: ancho de cada trazo. Con 0, cada trazo es una línea abierta; con otro valor, es una línea cerrada que se extiende ese ancho a la derecha del sentido de digitalización.
-* Espacio en blanco entre líneas: separación entre trazos.
+* Largo: largo de cada trazo. Tiene que ser mayor que 0.
+* Ancho: ancho de cada trazo. Con 0, cada trazo es una línea abierta; con un valor positivo, es una línea cerrada que se extiende ese ancho a la derecha del sentido de digitalización, y con uno negativo, a la izquierda.
+* Espacio en blanco entre líneas: separación entre trazos. No puede ser negativo.
+
+Si el largo o el espacio no cumplen esas condiciones, el cuadro de diálogo muestra un error y no se cierra.
 
 Las tres medidas están en las unidades del sistema de referencia de coordenadas de la ventana de dibujo.
 
