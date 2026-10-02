@@ -2,7 +2,7 @@
 
 Prolonga un grupo de entidades hasta que interseccionen con otra entidad dada.
 
-![Órdenes para extender líneas: EXT estira o recorta hasta un límite, EXT_P además parte el límite, EXT_XYZ toma la Z del límite, EXT2X prolonga dos líneas hasta cortarse, EXT_M estira las líneas que cruzan dos puntos, EXTIENDE_EXTREMO prolonga hasta el cursor, EXT_PLANO prolonga hasta un plano y ESTIRA_RECORTA_POR_TOLERANCIA ajusta los extremos cercanos](../../../../../images/extender.svg)
+![EXT_M: se selecciona el límite (1) y se digitalizan dos puntos (2 y 3); las tres líneas que cruzan el segmento 2-3 y no llegan al límite se estiran hasta él, y la que lo sobrepasa se recorta](../../../../../images/orden-ext-m.svg)
 
 ## Parámetros
 

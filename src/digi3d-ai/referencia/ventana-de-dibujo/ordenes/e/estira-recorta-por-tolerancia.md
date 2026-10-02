@@ -2,7 +2,7 @@
 
 Estira o recorta extremos de líneas visibles para que toquen a otras.
 
-![Órdenes para extender líneas: EXT estira o recorta hasta un límite, EXT_P además parte el límite, EXT_XYZ toma la Z del límite, EXT2X prolonga dos líneas hasta cortarse, EXT_M estira las líneas que cruzan dos puntos, EXTIENDE_EXTREMO prolonga hasta el cursor, EXT_PLANO prolonga hasta un plano y ESTIRA_RECORTA_POR_TOLERANCIA ajusta los extremos cercanos](../../../../../images/extender.svg)
+![ESTIRA_RECORTA_POR_TOLERANCIA: un extremo libre que no llega a otra línea se estira hasta ella, otro que la sobrepasa se recorta, y un rabillo más corto que la tolerancia se borra](../../../../../images/orden-estira-recorta-por-tolerancia.svg)
 
 ## Parámetros
 
