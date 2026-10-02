@@ -2,12 +2,18 @@
 
 Digitaliza un rectángulo con las dimensiones especificadas permitiendo rotarlo.
 
+![Cinco formas de definir un rectángulo: 2P con dos esquinas opuestas, 2P_AA con dos esquinas opuestas y el ángulo activo, RECTANGULO_2P_NORTE con lados paralelos a los ejes, 3P con un lado y un punto del lado opuesto, y RECTANGULO_DR con el centro y la dirección del ancho](../../../../../images/rectangulos.svg)
+
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Ancho | No |
 | 2 | Alto | No |
+
+## Observaciones
+
+El primer punto que digitalizas es el **centro** del rectángulo. El segundo punto fija el giro: el lado ancho queda paralelo a la recta que une los dos puntos.
 
 ## Características de la orden
 
