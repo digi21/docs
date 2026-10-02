@@ -16,7 +16,7 @@ Al seleccionar la línea, la paralela se genera a la [distancia activa DA](/digi
 
 | Tipo de orden | [Orden interactiva](paralela-da.md) |
 | :--- | :--- |
-| Repite automáticamente | No |
+| Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

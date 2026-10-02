@@ -1,6 +1,6 @@
 # PARALELA\_DINAMICA\_CON\_EJE\_Z\_ACTIVA
 
-Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros. Se asignará a todos los vértices la Z activa en el momento de ejecutar la paralela.
+Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros. Todos los vértices de la paralela y del eje toman la Z del punto digitalizado.
 
 ![PARALELA_DINAMICA_CON_EJE_Z_ACTIVA: en planta, la paralela a la distancia d del cursor y el eje a d/2; en alzado, todos los vértices de la paralela y del eje con la Z del punto digitalizado](../../../../../images/orden-paralela-dinamica-con-eje-z-activa.svg)
 
@@ -17,7 +17,7 @@ Todos los vértices de la paralela y del eje toman la Z del punto digitalizado.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](paralela-dinamica-con-eje-z-activa.md) |
+| Tipo de orden | [Orden interactiva](paralela-dinamica-con-eje-z-activa.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica con eje con Z activa |

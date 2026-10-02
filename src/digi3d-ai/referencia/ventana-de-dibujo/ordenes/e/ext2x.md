@@ -10,11 +10,18 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden precisa que el usuario seleccione las dos entidades a prolongar. La intersección de los dos elementos se realiza a partir de los vértices extremos de cada uno, que se hallen más próximos a los puntos de selección. Digi3D.AI, genera dos segmentos de prolongación con origen en estos vértices y hasta el punto de intersección.
+La orden pide que selecciones dos líneas. La segunda línea tiene que pertenecer al modelo actual.
 
-* Si el punto de intersección de las dos entidades está situado sobre una de ellas, esta será recortada hasta la intersección.
-* Si las entidades tienen el mismo código generará una sola entidad unida.
-* Si las entidades tuvieran atributos en una base de datos, estos, además, deberán ser iguales para unir las entidades.
+El punto de selección no decide qué extremo se prolonga. La orden calcula, para cada extremo de una línea, la intersección de la recta de su primer o último segmento con la otra línea, y solo acepta la intersección si cae en el primer o en el último segmento de la otra línea o en su prolongación. Si los dos extremos dan una intersección válida, la orden usa el extremo más cercano a su punto de intersección. Si la primera línea no da ninguna intersección válida, la orden prueba con la segunda.
+
+La orden lleva un extremo de cada línea al punto de intersección:
+
+* Si el punto de intersección está más allá del extremo, la línea se estira.
+* Si el punto de intersección está sobre el primer o el último segmento, la línea se recorta.
+
+Si no hay ninguna intersección válida, la orden emite el sonido de error y no modifica las líneas.
+
+Si las dos líneas tienen el mismo código y los mismos atributos de base de datos, la orden las une en una sola línea con [UNIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir.md).
 
 ## Características de la orden
 

@@ -1,6 +1,6 @@
 # EXT\_P
 
-Extiende una entidad hasta su intersección con otra quedando ambas partidas en el punto de intersección, es decir, genera un nodo en este punto.
+Estira o recorta una entidad hasta su intersección con otra quedando ambas partidas en el punto de intersección, es decir, genera un nodo en este punto.
 
 ![EXT_P: se selecciona el límite (1) y la línea (2); la línea se estira hasta el límite y el límite se parte en dos en el punto de corte, que queda como nodo](../../../../../images/orden-ext-p.svg)
 
@@ -10,7 +10,16 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden EXT\_P no insertará un vértice nuevo si las coordenadas de intersección con la línea a partir coincidan \(dentro del rango de una unidad de precisión\) con otro vértice existente en la línea a cortar.
+La orden pide primero la línea límite y después la línea a ajustar. Las dos tienen que pertenecer al modelo actual. La orden elige el extremo a ajustar a partir del punto con el que seleccionas la línea, y lleva ese extremo a la intersección con el límite:
+
+* Si la línea no llega al límite, la orden la estira.
+* Si la línea sobrepasa el límite, la orden la recorta.
+
+Los extremos de la línea conservan su coordenada Z original.
+
+La orden parte el límite en dos líneas en el punto de intersección. Si el punto de intersección coincide en X e Y con un extremo del límite, la orden no parte el límite.
+
+La orden termina después de ajustar una línea.
 
 ## Características de la orden
 

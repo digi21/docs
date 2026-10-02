@@ -1,6 +1,6 @@
 # JUNTAR\_Z
 
-Hace converger las coordenadas Z de varias líneas hacia un punto que selecciona el usuario.
+Asigna la Z de un punto digitalizado al vértice más cercano de cada línea próxima a ese punto.
 
 ![JUNTAR_Z: en cada línea, el vértice más cercano al punto digitalizado dentro del cursor toma la Z de ese punto sin cambiar su X e Y](../../../../../images/orden-juntar-z.svg)
 
@@ -12,7 +12,9 @@ Hace converger las coordenadas Z de varias líneas hacia un punto que selecciona
 
 ## Observaciones
 
-La orden _JUNTAR\_Z_, no modifica las coordenadas X e Y de las líneas, únicamente las coordenadas Z de los puntos que las componen. Los vértices a los que desees cambiar la coordenada Z, deberán quedar incluidos dentro del rango de búsqueda del ratón.
+Al digitalizar un punto, la orden busca las líneas visibles que tienen un vértice dentro del tamaño del cursor de la ventana de dibujo. En cada una de esas líneas, la orden cambia solo el vértice más cercano al punto digitalizado: ese vértice toma la Z del punto. El resto de vértices no cambia. La orden no modifica las coordenadas X e Y.
+
+La orden termina después de procesar un punto.
 
 ## Características de la orden
 

@@ -1,12 +1,23 @@
 # EXT\_XYZ
 
-Estira una entidad contra un límite haciendo que la coordenada Z del extremo extendido coincida con la del límite.
+Estira o recorta una entidad contra un límite haciendo que la coordenada Z del extremo ajustado coincida con la del límite.
 
 ![EXT_XYZ: se selecciona el límite (1) y la línea (2); la línea se estira hasta el límite y el extremo nuevo toma la Z del límite en el punto de corte, 105 entre 110 y 100](../../../../../images/orden-ext-xyz.svg)
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+La orden pide primero la línea límite y después las líneas a ajustar. Cada línea a ajustar tiene que pertenecer al modelo actual. La orden elige el extremo a ajustar a partir del punto con el que seleccionas la línea, y lleva ese extremo a la intersección con el límite:
+
+* Si la línea no llega al límite, la orden la estira.
+* Si la línea sobrepasa el límite, la orden la recorta.
+
+El extremo ajustado toma la Z del límite, interpolada en el segmento del límite donde cae la intersección.
+
+La orden no termina tras ajustar una línea: sigue pidiendo líneas con el mismo límite. Al pulsar Esc, la orden descarta el límite y pide uno nuevo. Al pulsar Esc sin límite seleccionado, la orden termina.
 
 ## Características de la orden
 

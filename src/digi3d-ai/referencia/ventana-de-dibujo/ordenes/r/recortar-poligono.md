@@ -12,8 +12,8 @@ Recorta un polígono eliminando la parte de éste que intersecciona con un lími
 
 ## Observaciones
 
-Esta orden solicita que se seleccione un polígono a recotar. Únicamente permitirá seleccionar entidades de tipo _polígono_ o entidades de tipo _línea_ si ésta está cerrada.  
-A continuación solicita que se seleccione una línea que actuará de límite. Esta línea debe ser una línea cerrada.
+Esta orden solicita que se seleccione un polígono a recortar. Únicamente permitirá seleccionar entidades de tipo _polígono_ o entidades de tipo _línea_ si ésta está cerrada.  
+A continuación solicita que se seleccione la entidad que actuará de límite. El límite puede ser una línea cerrada o un polígono. Si es un polígono, la orden usa como límite su contorno exterior e ignora sus huecos.
 
 La orden analiza la intersección entre ambas entidades y crea un o unos \(pues es posible que la línea de límite parta el polígono en varias partes\) polígonos.
 

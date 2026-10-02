@@ -4,6 +4,11 @@ Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-ai/referencia/venta
 
 La orden busca las líneas cerradas con el código del marco, como las que crea [TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/traza.md), y el texto con ese mismo código que hay dentro de cada una. Por cada marco con texto crea un archivo en el directorio de salida, con el texto como nombre y la extensión indicada. Los marcos sin texto se omiten.
 
+El contenido de cada archivo depende del número de vértices del marco:
+
+* Con un marco de 5 vértices (4 esquinas y el cierre), la orden genera la hoja como [HOJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/h/hoja.md): las entidades recortadas, el marco, las cruces y los rótulos de coordenadas.
+* Con cualquier otro marco, el archivo solo contiene las entidades recortadas por el marco, sin marco, cruces ni rótulos.
+
 ![RECORTA_TRAZA: tres marcos con los textos H1, H2 y H3 generan los archivos H1.bin, H2.bin y H3.bin; un marco sin texto se omite](../../../../../images/orden-recorta-traza.svg)
 
 ## Parámetros

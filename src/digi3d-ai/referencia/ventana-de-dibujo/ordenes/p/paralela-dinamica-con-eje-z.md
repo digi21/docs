@@ -17,7 +17,7 @@ A la Z de la paralela y del eje se le suma la diferencia de Z entre el punto con
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](paralela-dinamica-con-eje-z.md) |
+| Tipo de orden | [Orden interactiva](paralela-dinamica-con-eje-z.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica con eje en XYZ |

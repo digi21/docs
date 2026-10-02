@@ -8,7 +8,11 @@ Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión 
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | No |
+
+## Observaciones
+
+La orden solo une las líneas visibles que tienen alguno de los códigos pasados como parámetro. Sin códigos, la orden no hace nada y emite el sonido de error.
 
 ## Características de la orden
 

@@ -18,7 +18,7 @@ El pie toma la Z del punto digitalizado. Para que tome la Z del tramo, usa [PERP
 
 | Tipo de orden | [Orden interactiva](perp.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Polilínea cuyo primer segmento es perpendicular a un segmento |
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |

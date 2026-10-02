@@ -10,7 +10,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](paralela-dinamica-plano-dibujo.md) |
+| Tipo de orden | [Orden interactiva](paralela-dinamica-plano-dibujo.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
