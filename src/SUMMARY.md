@@ -1151,6 +1151,7 @@
           * [D](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/README.md)
             * [DEJAR](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dejar.md)
             * [DEJAR\_TOP](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dejar-top.md)
+            * [DENSIFICA](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/densifica.md)
             * [DESAGRUPAR\_ENTIDADES](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/desagrupar-entidades.md)
             * [DESCARGAR\_TOPOLOGIA\_INUNDACION](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/descargar-topologia-inundacion.md)
             * [DESELECCIONA\_TODO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/deselecciona-todo.md)

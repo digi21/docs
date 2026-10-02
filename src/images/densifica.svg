@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="Segoe UI, Arial, sans-serif" font-size="14">
+  <rect width="760" height="300" fill="#ffffff"/>
+
+  <!-- Antes -->
+  <text x="185" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Antes</text>
+  <polyline points="30,200 150,80 210,110 340,200" fill="none" stroke="#1f5fa8" stroke-width="2"/>
+  <circle cx="30" cy="200" r="6" fill="#1f5fa8"/>
+  <circle cx="150" cy="80" r="6" fill="#1f5fa8"/>
+  <circle cx="210" cy="110" r="6" fill="#1f5fa8"/>
+  <circle cx="340" cy="200" r="6" fill="#1f5fa8"/>
+  <text x="60" y="125" fill="#222">17 m</text>
+  <text x="185" y="80" fill="#222">7 m</text>
+  <text x="290" y="145" fill="#222">16 m</text>
+
+  <line x1="380" y1="20" x2="380" y2="230" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Después -->
+  <text x="575" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Después de DENSIFICA=5</text>
+  <polyline points="420,200 540,80 600,110 730,200" fill="none" stroke="#1f5fa8" stroke-width="2"/>
+  <circle cx="420" cy="200" r="6" fill="#1f5fa8"/>
+  <circle cx="540" cy="80" r="6" fill="#1f5fa8"/>
+  <circle cx="600" cy="110" r="6" fill="#1f5fa8"/>
+  <circle cx="730" cy="200" r="6" fill="#1f5fa8"/>
+  <!-- 17 m: 4 partes de 4,25 m -->
+  <circle cx="450" cy="170" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="480" cy="140" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="510" cy="110" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+  <!-- 7 m: 2 partes de 3,5 m -->
+  <circle cx="570" cy="95" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+  <!-- 16 m: 4 partes de 4 m -->
+  <circle cx="632.5" cy="132.5" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="665" cy="155" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+  <circle cx="697.5" cy="177.5" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+
+  <!-- Leyenda -->
+  <rect x="20" y="240" width="720" height="50" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <circle cx="45" cy="258" r="6" fill="#1f5fa8"/>
+  <text x="60" y="263" fill="#222">Vértices originales: no se mueven.</text>
+  <circle cx="45" cy="280" r="5" fill="#ffffff" stroke="#e67e22" stroke-width="2.5"/>
+  <text x="60" y="285" fill="#222">Vértices nuevos: cada tramo se divide en partes iguales que no superan 5 m (17 m → 4 × 4,25 m).</text>
+</svg>
