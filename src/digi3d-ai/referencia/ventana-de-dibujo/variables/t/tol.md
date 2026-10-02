@@ -21,16 +21,16 @@ Muestra el valor actual del factor de tolerancia
 
 ## Observaciones
 
-El valor del _factor de tolerancia_ debe ser introducido en metros.
+El valor del _factor de tolerancia_ se introduce en metros. Su valor inicial es la tolerancia de generalización de la configuración del archivo de dibujo.
 
-Al generalizar los puntos que componen una entidad, la función comprueba si la distancia de un punto al segmento definido por el anterior y siguiente, es menor o igual al valor de tolerancia activo:
+Las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) generalizan con el algoritmo de Douglas-Peucker. Para cada tramo de la entidad, calculan la distancia de cada vértice intermedio a la **recta que une los extremos del tramo**, no al segmento formado por el vértice anterior y el siguiente:
 
-* Si es así, este punto se elimina del fichero.
-* En caso contrario se graban sus coordenadas.
+* Si algún vértice está a más de **TOL**, el más alejado se conserva y el tramo se divide en dos por ese vértice.
+* Si ninguno lo está, decide la tolerancia angular [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
 
-También se considera el valor de la tolerancia angular dado por la orden [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
+`GEN` mide la distancia en el espacio, con la Z; `GEN_2D`, solo en el plano XY.
 
-El proceso de generalizar, se ejecuta con todos y cada uno de los puntos de una entidad.
+![Un tramo A-B con tres vértices: P1 fuera de la tolerancia TOL se conserva, P2 dentro de TOL pero con un ángulo mayor que TOL_ANG se conserva, y P3 se elimina](../../../../../images/generalizacion-tol-tol-ang.svg)
 
 ## Características de la orden
 

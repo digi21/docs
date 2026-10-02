@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="360" viewBox="0 0 840 360" font-family="Segoe UI, Arial, sans-serif" font-size="14">
+  <rect width="840" height="360" fill="#ffffff"/>
+  <text x="420" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Un tramo A-B y sus vértices intermedios (esquema, no a escala)</text>
+
+  <!-- Banda de tolerancia -->
+  <rect x="60" y="200" width="640" height="40" fill="#e8f3e8" stroke="#9cc79c" stroke-dasharray="4 3"/>
+  <text x="708" y="214" fill="#2e7d32">TOL</text>
+  <line x1="705" y1="220" x2="705" y2="200" stroke="#2e7d32"/>
+  <!-- Recta A-B -->
+  <line x1="60" y1="220" x2="700" y2="220" stroke="#888" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="60" cy="220" r="6" fill="#1f5fa8"/>
+  <circle cx="700" cy="220" r="6" fill="#1f5fa8"/>
+  <text x="60" y="262" text-anchor="middle" fill="#222">A</text>
+  <text x="700" y="262" text-anchor="middle" fill="#222">B</text>
+
+  <!-- P1: fuera de TOL -->
+  <circle cx="260" cy="110" r="6" fill="#c0392b"/>
+  <text x="260" y="98" text-anchor="middle" fill="#c0392b">P1</text>
+  <line x1="260" y1="116" x2="260" y2="220" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="268" y="170" fill="#c0392b">d1 &gt; TOL</text>
+
+  <!-- P2: dentro de TOL; el ángulo se mide desde el extremo más lejano (A) -->
+  <circle cx="520" cy="203" r="6" fill="#e67e22"/>
+  <text x="520" y="190" text-anchor="middle" fill="#e67e22">P2</text>
+  <line x1="60" y1="220" x2="520" y2="203" stroke="#e67e22" stroke-width="1.5"/>
+  <path d="M 160 220 A 100 100 0 0 0 159.9 216.3" fill="none" stroke="#e67e22" stroke-width="2"/>
+  <text x="168" y="214" fill="#e67e22">α</text>
+  <line x1="520" y1="209" x2="520" y2="220" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="528" y="234" fill="#e67e22" font-size="12">d2 &lt; TOL</text>
+
+  <!-- P3: dentro de TOL y ángulo pequeño -->
+  <circle cx="380" cy="215" r="6" fill="#7f8c8d"/>
+  <text x="380" y="197" text-anchor="middle" fill="#7f8c8d">P3</text>
+
+  <!-- Leyenda -->
+  <rect x="20" y="285" width="800" height="68" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <text x="40" y="307" fill="#222"><tspan fill="#c0392b" font-weight="bold">P1</tspan> está a más de TOL de la recta A-B: se conserva y el tramo se divide en A-P1 y P1-B.</text>
+  <text x="40" y="327" fill="#222"><tspan fill="#e67e22" font-weight="bold">P2</tspan> está dentro de TOL, pero el ángulo α visto desde el extremo más lejano (A) supera TOL_ANG: se conserva.</text>
+  <text x="40" y="347" fill="#222"><tspan fill="#7f8c8d" font-weight="bold">P3</tspan> está dentro de TOL y su ángulo no supera TOL_ANG: se elimina.</text>
+</svg>
