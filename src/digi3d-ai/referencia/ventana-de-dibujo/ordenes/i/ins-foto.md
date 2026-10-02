@@ -2,7 +2,7 @@
 
 Inserta una imagen en el archivo de dibujo mediante dos puntos: el primero para el centro y el segundo para indicar la rotación y escala.
 
-![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+![INS_FOTO: centro de la imagen (1) y punto medio del lado derecho (2), que dan medio ancho y giro](../../../../../images/orden-ins-foto.svg)
 
 ## Parámetros
 

@@ -2,7 +2,7 @@
 
 Inserta una imagen en el archivo de dibujo mediante dos puntos y ángulo activo.
 
-![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+![INS_FOTO_2P_AA: dos esquinas opuestas (1 y 2) de un rectángulo con los lados girados según AA = 20, que la imagen llena](../../../../../images/orden-ins-foto-2p-aa.svg)
 
 ## Parámetros
 

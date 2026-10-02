@@ -2,7 +2,7 @@
 
 Dibuja un punto en el archivo actual con la escala y rotación calculados con el segundo punto insertado.
 
-![INS_FOTO, INS_FOTO_2P_AA, INS_FOTO_3P, PUNTO_2P y COPIA_R: puntos que se digitalizan y resultado](../../../../../images/insertar-imagen-punto-copia.svg)
+![PUNTO_2P: posición del punto (1) y segundo punto (2); la distancia 1-2 es la escala del símbolo y la dirección 1-2 su giro](../../../../../images/orden-punto-2p.svg)
 
 ## Parámetros
 
