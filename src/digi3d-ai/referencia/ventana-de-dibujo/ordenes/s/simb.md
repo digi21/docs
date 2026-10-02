@@ -2,25 +2,19 @@
 
 Rellena el interior de una entidad superficial de contorno cerrado usando una trama de símbolos.
 
+![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Ángulo activo | Número real | Si |
-| 2 | Distancia activa | Número real | Si |
+No admite parámetros.
 
 ## Observaciones
 
-Si no se especifica ningún parámetro, el sistema toma por defecto los valores cero y uno para [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/DA.md) respectivamente.
+Al ejecutar la orden aparece un cuadro de diálogo para elegir el símbolo. Después, selecciona la línea cerrada que se va a rellenar.
 
-La disposición de los símbolos depende de los valores que tengan asignados los parámetros [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/DA.md).
+Los símbolos se sitúan en los mismos puntos que los de [PUNTEAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/puntear.md): en los cruces de las rayas que generaría [TRAMAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tramar.md), con la distancia activa principal en la dirección del [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y la secundaria en la perpendicular. Las dos distancias se asignan con [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md).
 
-La posición de los símbolos coincidiría con las intersecciones de las rayas que se hubiesen obtenido al llamar a la orden [TRAMAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tramar.md), de forma que puedes distinguir dos conjuntos de símbolos.
-
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Ángulo activo | Número real | Si |
-| 2 | Distancia activa | Número real | Si |
+Cada símbolo es un texto con el código activo. Toma la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación de [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y el giro del ángulo activo. Solo se añaden los símbolos que quedan dentro del contorno.
 
 ## Características de la orden
 

@@ -2,22 +2,24 @@
 
 Trama el interior de una entidad superficial de contorno cerrado.
 
+![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+
 ## Parámetros
 
-Si no se especifica ningún parámetro, el sistema toma por defecto los valores cero y uno para [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) respectivamente.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Ángulo activo | Número real | Si |
-| 2 | Distancia activa | Número real | Si |
+Sin parámetros, la orden pide que selecciones la línea cerrada que se va a tramar. Con códigos, trama todas las líneas cerradas visibles de esos códigos y termina.
 
 ## Observaciones
 
-El tramado se compone de un doble rayado cuya disposición depende de los valores que tengan asignados los parámetros [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y [distancia activa](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/DA.md).
+El tramado se compone de dos familias de rayas, que dependen del [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y de las dos distancias activas que se asignan con [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md):
 
-El primer rayado tiene la dirección del ángulo activo, y las rayas se hayan separadas una distancia igual al valor de la distancia activa principal. El segundo tramado tiene una dirección perpendicular al primero, y sus rayas están separadas una distancia igual al valor de la distancia activa secundaria.
+* Las rayas de la primera familia son perpendiculares al ángulo activo y están separadas por la distancia activa principal.
+* Las rayas de la segunda familia siguen la dirección del ángulo activo y están separadas por la distancia activa secundaria. Son las mismas que genera [RAYAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rayar.md).
 
-El conjunto de rayas que componen el tramado se representan con el código que estuviera activo al ejecutar la orden.
+Solo se añaden los tramos de raya que quedan dentro del contorno. Las rayas se añaden con el código activo y con Z = 0.
 
 ## Características de la orden
 
