@@ -2,6 +2,8 @@
 
 Suaviza una línea creando una spline cúbica.
 
+![Órdenes para suavizar e interpolar: SUAVIZA con vértices cada INC, SUAVIZA_SPLINE y SPLINE con una spline cúbica de 10 vértices por tramo, INTER con las curvas intermedias múltiplos de la equidistancia, INTER_EJE con la línea media e INTERPOLAR_COD entre las líneas de un código que cortan dos segmentos](../../../../../images/suavizar-interpolar.svg)
+
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
@@ -14,11 +16,9 @@ La orden SUAVIZA\_SPLINE se puede ejecutar especificando el parámetro de códig
 
 `SUAVIZA_SPLINE=020200`
 
-La orden necesita que se especifique el elemento, cuya selección se realizará de forma gráfica. Así, al llamar a la orden el programa solicita que el usuario seleccione la entidad.
+Con códigos, la orden sustituye por su spline todas las líneas visibles de esos códigos y termina. Sin parámetros, solicita que selecciones la línea (o una selección de varias líneas).
 
-El resultado es una línea sin quiebros y de contorno más suave, ya que la función rellena la entidad con nuevos puntos.
-
-Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la variable [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md), por lo que a menor valor del incremento de registro mayor efecto de suavizado se consigue.
+El resultado es la spline cúbica que pasa por los vértices de la línea original: cada tramo se sustituye por 10 vértices, y el último vértice se conserva. A diferencia de [SUAVIZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/suaviza.md), la separación entre los vértices nuevos no depende del incremento de registro INC.
 
 ## Características de la orden
 

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="510" viewBox="0 0 840 510" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">2</text></g>
+    <g id="p3"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">3</text></g>
+    <g id="p4"><circle r="8" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">4</text></g>
+    <g id="v"><circle r="4" fill="#555"/></g>
+  </defs>
+  <rect width="840" height="510" fill="#ffffff"/>
+
+  <!-- SUAVIZA -->
+  <g transform="translate(0,0)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">SUAVIZA</text>
+    <polyline points="25,160 80,70 150,150 200,60 255,120" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="5 4"/>
+    <path d="M 25 160 C 45 120, 55 70, 80 70 C 110 70, 125 150, 150 150 C 175 150, 180 60, 200 60 C 225 60, 240 95, 255 120" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <use href="#v" x="25" y="160"/><use href="#v" x="80" y="70"/><use href="#v" x="150" y="150"/><use href="#v" x="200" y="60"/><use href="#v" x="255" y="120"/>
+    <text x="140" y="200" text-anchor="middle" fill="#222">La línea pasa por sus vértices sin quiebros.</text>
+    <text x="140" y="216" text-anchor="middle" fill="#222">Los vértices nuevos van separados por el</text>
+    <text x="140" y="232" text-anchor="middle" fill="#222">incremento INC. Con códigos: todas las líneas.</text>
+  </g>
+
+  <!-- SUAVIZA_SPLINE y SPLINE -->
+  <g transform="translate(280,0)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">SUAVIZA_SPLINE y SPLINE</text>
+    <polyline points="25,160 80,70 150,150 200,60 255,120" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="5 4"/>
+    <path d="M 25 160 C 40 110, 55 70, 80 70 C 110 70, 120 150, 150 150 C 180 150, 175 60, 200 60 C 225 60, 245 95, 255 120" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <use href="#p1" x="25" y="160"/><use href="#p2" x="80" y="70"/><use href="#p3" x="150" y="150"/><use href="#p4" x="200" y="60"/>
+    <text x="140" y="200" text-anchor="middle" fill="#222">Spline cúbica que pasa por los vértices,</text>
+    <text x="140" y="216" text-anchor="middle" fill="#222">con 10 vértices por tramo. SPLINE la</text>
+    <text x="140" y="232" text-anchor="middle" fill="#222">construye mientras digitalizas los puntos.</text>
+  </g>
+
+  <!-- INTER -->
+  <g transform="translate(560,0)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INTER</text>
+    <path d="M 20 160 C 80 130, 160 175, 260 140" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <path d="M 20 60 C 90 40, 170 80, 260 50" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <g fill="none" stroke="#e67e22" stroke-width="2">
+      <path d="M 20 140 C 82 112, 162 156, 260 122"/>
+      <path d="M 20 120 C 84 94, 164 137, 260 104"/>
+      <path d="M 20 100 C 86 76, 166 118, 260 86"/>
+      <path d="M 20 80 C 88 58, 168 99, 260 68"/>
+    </g>
+    <use href="#p1" x="220" y="149"/>
+    <use href="#p2" x="220" y="61"/>
+    <text x="24" y="176" fill="#1f5fa8" font-size="11">z = 100</text>
+    <text x="24" y="50" fill="#1f5fa8" font-size="11">z = 110</text>
+    <text x="140" y="200" text-anchor="middle" fill="#222">1 y 2: dos curvas. Se generan las curvas de</text>
+    <text x="140" y="216" text-anchor="middle" fill="#222">las Z intermedias múltiplos de EQUIDISTANCIA</text>
+    <text x="140" y="232" text-anchor="middle" fill="#222">(aquí 2): 102, 104, 106 y 108.</text>
+  </g>
+
+  <line x1="20" y1="256" x2="820" y2="256" stroke="#ddd"/>
+
+  <!-- INTER_EJE -->
+  <g transform="translate(0,266)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INTER_EJE</text>
+    <path d="M 20 150 C 80 120, 150 170, 250 130" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <path d="M 20 70 C 90 50, 160 90, 250 60" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <path d="M 20 110 C 85 85, 155 130, 250 95" fill="none" stroke="#e67e22" stroke-width="3" stroke-dasharray="7 4"/>
+    <use href="#p1" x="200" y="142"/>
+    <use href="#p2" x="200" y="73"/>
+    <text x="140" y="200" text-anchor="middle" fill="#222">1 y 2: dos líneas. Dibuja la línea media,</text>
+    <text x="140" y="216" text-anchor="middle" fill="#222">promediando X, Y y Z, con el código activo.</text>
+    <text x="140" y="232" text-anchor="middle" fill="#222">Con una línea cerrada, calcula su eje.</text>
+  </g>
+
+  <!-- INTERPOLAR_COD -->
+  <g transform="translate(280,266)">
+    <text x="140" y="22" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INTERPOLAR_COD</text>
+    <g fill="none" stroke="#1f5fa8" stroke-width="3">
+      <path d="M 20 160 C 90 140, 170 175, 260 150"/>
+      <path d="M 20 100 C 90 85, 170 115, 260 95"/>
+      <path d="M 20 45 C 90 35, 170 60, 260 40"/>
+    </g>
+    <g fill="none" stroke="#e67e22" stroke-width="2">
+      <path d="M 20 140 C 90 122, 170 155, 260 132"/>
+      <path d="M 20 120 C 90 104, 170 135, 260 113"/>
+      <path d="M 20 81 C 90 68, 170 97, 260 77"/>
+      <path d="M 20 63 C 90 52, 170 78, 260 58"/>
+    </g>
+    <line x1="60" y1="175" x2="70" y2="30" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <line x1="215" y1="175" x2="205" y2="30" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <use href="#p1" x="60" y="175"/><use href="#p2" x="70" y="30"/>
+    <use href="#p3" x="205" y="30"/><use href="#p4" x="215" y="175"/>
+    <text x="140" y="200" text-anchor="middle" fill="#222">Pide el código de las directrices. 1-2 y 3-4:</text>
+    <text x="140" y="216" text-anchor="middle" fill="#222">dos segmentos; interpola entre las líneas</text>
+    <text x="140" y="232" text-anchor="middle" fill="#222">de ese código que cortan los dos segmentos.</text>
+  </g>
+
+  <rect x="560" y="290" width="260" height="190" rx="6" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="580" y="312"/>
+  <text x="594" y="316" fill="#222">Puntos de selección o</text>
+  <text x="594" y="332" fill="#222">digitalizados, en orden.</text>
+  <line x1="572" y1="352" x2="602" y2="352" stroke="#aaa" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="610" y="356" fill="#222">Línea original.</text>
+  <line x1="572" y1="376" x2="602" y2="376" stroke="#1f5fa8" stroke-width="3"/>
+  <text x="610" y="380" fill="#222">Resultado o líneas de partida.</text>
+  <line x1="572" y1="400" x2="602" y2="400" stroke="#e67e22" stroke-width="2"/>
+  <text x="610" y="404" fill="#222">Líneas que se generan.</text>
+  <text x="572" y="432" fill="#222">INTER: si están activas S y G,</text>
+  <text x="572" y="448" fill="#222">las curvas generadas se suavizan</text>
+  <text x="572" y="464" fill="#222">y se generalizan.</text>
+</svg>
