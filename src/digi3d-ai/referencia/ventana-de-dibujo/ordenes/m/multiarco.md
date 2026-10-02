@@ -2,7 +2,7 @@
 
 Dibuja arcos de forma consecutiva y unidos entre sí.
 
-![Cuatro órdenes de arcos: ARCO por tres puntos, ARCO_TANGENTE tangente al último tramo de la línea en curso, ACUERDO que sustituye un vértice por un arco tangente a sus dos tramos, y MULTIARCO con arcos encadenados](../../../../../images/arcos.svg)
+![MULTIARCO: dos arcos encadenados, 1-2-3 y 3-4-5; el final del primero es el principio del segundo](../../../../../images/orden-multiarco.svg)
 
 ## Parámetros
 

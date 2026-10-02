@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+    <g id="p3"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">3</text></g>
+    <g id="p4"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">4</text></g>
+    <g id="p5"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">5</text></g>
+  </defs>
+  <rect width="440" height="320" fill="#ffffff"/>
+
+  <text x="220" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">MULTIARCO</text>
+
+  <g transform="translate(60,-20)">
+    <path d="M 40 150 A 60 60 0 0 1 160 150 A 60 60 0 0 0 280 150" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+    <use href="#p1" x="40" y="150"/>
+    <use href="#p2" x="100" y="90"/>
+    <use href="#p3" x="160" y="150"/>
+    <use href="#p4" x="220" y="210"/>
+    <use href="#p5" x="280" y="150"/>
+  </g>
+
+  <text x="220" y="230" text-anchor="middle" fill="#222">Arcos encadenados: 1-2-3 es el primer arco. Su final (3)</text>
+  <text x="220" y="246" text-anchor="middle" fill="#222">es el principio del siguiente, que pide solo su punto</text>
+  <text x="220" y="262" text-anchor="middle" fill="#222">intermedio (4) y su final (5).</text>
+
+  <rect x="20" y="278" width="400" height="32" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="40" y="294"/>
+  <text x="56" y="299" fill="#222">Puntos digitalizados, en orden.</text>
+  <line x1="252" y1="294" x2="282" y2="294" stroke="#1f5fa8" stroke-width="3"/>
+  <text x="290" y="299" fill="#222">Arcos.</text>
+</svg>
