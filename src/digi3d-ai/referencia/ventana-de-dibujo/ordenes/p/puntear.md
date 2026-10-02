@@ -2,25 +2,24 @@
 
 Rellena el interior de una entidad superficial de contorno cerrado con una trama de puntos.
 
+![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+
 ## Parámetros
 
-Si no se realiza ninguna asignación previa de [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), el sistema toma por defecto los valores cero para estos parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Distancia activa principal | Número real | Si |
-| 2 | Distancia activa secundaria | Número real | Si |
-| 3 | Ángulo activo | Número real | Si |
-| 4 | Código activo | Código puntual | Si |
+Sin parámetros, la orden pide que selecciones la línea cerrada que se va a rellenar. Con códigos, rellena todas las líneas cerradas visibles de esos códigos y termina.
 
 ## Observaciones
 
-La situación de los puntos coincidirá con las intersecciones de las rayas que se hubiesen obtenido al ejecutar la orden TRAMAR, de forma que podemos distinguir dos conjuntos de puntos:
+Los puntos se sitúan en los cruces de las rayas que generaría [TRAMAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tramar.md):
 
-* El primer conunto sigue la dirección del _ángulo activo_ y los puntos se hayan separados a una distancia igual al valor de la _distancia activa principal_.
-* El segundo conjunto de puntos sigue la dirección perpendicular al primero y sus puntos están separados una distancia igual al valor de la _distancia activa secundaria_.
+* En la dirección del [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), los puntos están separados por la distancia activa principal.
+* En la dirección perpendicular, están separados por la distancia activa secundaria.
 
-Los puntos de la trama se representan con el código que esté activo en el momento de ejecutar la orden. El código activo debe ser un código de entidad puntual.
+Las dos distancias se asignan con [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md). Solo se añaden los puntos que quedan dentro del contorno, con el código activo y con Z = 0. El código activo debe ser un código de entidad puntual.
 
 ## Características de la orden
 

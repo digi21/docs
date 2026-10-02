@@ -2,19 +2,21 @@
 
 Raya el interior de una entidad superficial de contorno cerrado.
 
+![RAYAR, TRAMAR, PUNTEAR y SIMB sobre el mismo contorno cerrado](../../../../../images/tramas.svg)
+
 ## Parámetros
 
-Si no se realiza ninguna asignación previa de [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), el sistema toma por defecto los valores cero para estos parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Distancia activa principal \([DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) | Número real | Si |
-| 2 | Ángulo activo \([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) | Número real | Si |
-| 3 | Código activo \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Código puntual | Si |
+Sin parámetros, la orden pide que selecciones la línea cerrada que se va a rayar. Con códigos, raya todas las líneas cerradas visibles de esos códigos y termina.
 
 ## Observaciones
 
-La dirección de las rayas está condicionada por el ángulo activo, y se hayan separadas una distancia igual al valor de la distancia activa principal.
+Las rayas siguen la dirección del [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y están separadas por la distancia activa secundaria, que se asigna con el segundo parámetro de [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md). Si DA se ejecuta con un solo valor, la secundaria es igual a la principal.
+
+Solo se añaden los tramos de raya que quedan dentro del contorno. Las rayas se añaden con el código activo y con Z = 0.
 
 ## Características de la orden
 
