@@ -1,4 +1,4 @@
-# dibujo
+# Dibujo
 
 Ordena abrir una ventana de dibujo.
 

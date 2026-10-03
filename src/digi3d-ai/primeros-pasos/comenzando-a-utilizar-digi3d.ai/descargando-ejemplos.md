@@ -1,4 +1,4 @@
-# Descargando ejemplos  y configurando Digi3D.AI para el tutorial
+# Descargando ejemplos y configurando Digi3D.AI para el tutorial
 
 En este tema te vamos a enseñar a utilizar las funcionalidades básicas de _Digi3D.AI_.
 

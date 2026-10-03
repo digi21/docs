@@ -1,4 +1,4 @@
-# Creando una cuenta y enviando el primer ticket de soporte técnico
+# Creando una cuenta y enviando el primer tique de soporte técnico
 
 Antes de enviar tu primer ticket debes crear una cuenta en el portal de soporte de Digi21.
 

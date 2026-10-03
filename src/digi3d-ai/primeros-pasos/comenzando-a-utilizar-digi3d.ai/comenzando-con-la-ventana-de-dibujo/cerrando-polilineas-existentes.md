@@ -1,4 +1,4 @@
-# Cerrando polilineas existentes
+# Cerrando polilíneas existentes
 
 Aprende a **cerrar polilíneas existentes** siguiendo los siguientes pasos:
 
