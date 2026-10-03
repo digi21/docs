@@ -18,12 +18,13 @@ El zoom de acercamiento tendrá diferentes límites que no podrá sobrepasar dep
 
 ## Características de la orden
 
-| Tipo de orden |  |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
-| Repite automáticamente |  |
-| Opción del menú donde aparece la orden |  |
-| Barra de herramientas en la que aparece la orden |  |
-| Extensión |  |
-| Variables relacionadas |  |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Zoom de acercar |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Extensión | Digi3D.CommonCommands.dll |
+| Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [REST\_ZOOM\_OUT](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoomout.md)<br>[REST\_ZOOM1X1](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoom-1-x-1.md)<br>[REST\_ZOOME](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoome.md)<br>[ZOOM\_MEMORIA](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/z/zoom_memoria.md) |
+| Nombre interno | {294C0E27-1FAB-4b10-A560-BE8516E7AE8E} |
 

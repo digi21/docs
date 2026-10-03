@@ -17,12 +17,13 @@ El resultado de estas medidas de Aerotriangulación serán unos archivos en form
 
 ## Características de la orden
 
-| Tipo de orden |  |
+| Tipo de orden | Orden interactiva |
 | :--- | :--- |
-| Repite automáticamente |  |
-| Opción del menú donde aparece la orden |  |
-| Barra de herramientas en la que aparece la orden |  |
-| Extensión |  |
-| Variables relacionadas |  |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Medida de aerotriangulación (opción que añade el sensor de cámara cónica) |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Extensión | Digi3D.ConicSensor.dll |
+| Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
+| Nombre interno | {3992CC17-D66C-4998-9B6E-FE69E0E4D4F7} |
 

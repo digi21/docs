@@ -13,12 +13,13 @@ Activar/desactiva tanto la imagen raster cómo la superposición.
 
 ## Características de la orden
 
-| Tipo de orden |  |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
-| Repite automáticamente |  |
-| Opción del menú donde aparece la orden |  |
-| Barra de herramientas en la que aparece la orden |  |
-| Extensión |  |
-| Variables relacionadas |  |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Extensión | Digi3D.CommonCommands.dll |
+| Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
+| Nombre interno | {7F6A08F2-41CA-4ef7-8DC1-5CC6C00B3EC6} |
 

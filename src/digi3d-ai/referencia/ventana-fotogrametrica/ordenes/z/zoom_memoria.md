@@ -15,12 +15,13 @@ Esta orden itera en la ventana fotogramétrica entre dos factores de zoom. Cada 
 
 ## Características de la orden
 
-| Tipo de orden |  |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
-| Repite automáticamente |  |
-| Opción del menú donde aparece la orden |  |
-| Barra de herramientas en la que aparece la orden |  |
-| Extensión |  |
-| Variables relacionadas |  |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Zoom con memoria (dos últimos zooms) |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Extensión | Digi3D.CommonCommands.dll |
+| Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [REST\_ZOOM\_IN](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoomin.md)<br>[REST\_ZOOM\_OUT](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoomout.md)<br>[REST\_ZOOM1X1](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoom-1-x-1.md)<br>[REST\_ZOOME](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoome.md) |
+| Nombre interno | {16C3724E-0398-44B4-9A3C-DB60B4DC6B38} |
 
