@@ -1,6 +1,6 @@
 # ABRIR\_OPEN\_STREET\_MAP
 
-Solicita un punto y abre una ventana de Open Street Map en las coordenadas donde está el cursor al introducir ese punto.
+Solicita un punto y abre una ventana de Open Street Map en las coordenadas de ese punto.
 
 ## Parámetros
 
@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden transforma las coordenadas X e Y del cursor del sistema de referencia de coordenadas del archivo de dibujo a WGS84 (EPSG:4326) y abre Open Street Map en el navegador predeterminado con nivel de zoom 19. Si hay varias transformaciones posibles, muestra un cuadro de diálogo para elegir una.
+La orden transforma las coordenadas X e Y del punto del sistema de referencia de coordenadas del archivo de dibujo a WGS84 (EPSG:4326) y abre Open Street Map en el navegador predeterminado con nivel de zoom 19. Si hay varias transformaciones posibles, muestra un cuadro de diálogo para elegir una.
 
 ## Características de la orden
 
