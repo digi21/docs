@@ -10,7 +10,7 @@ Asigna a todos los vértices de la geometría/s seleccionada/s una misma coorden
 
 ## Observaciones
 
-La orden toma la Z del vértice central de la geometría, la redondea al múltiplo de la [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) más cercano y asigna esa Z a todos los vértices. Las geometrías que ya tienen todos sus vértices a una misma Z múltiplo de la equidistancia no se modifican.
+La orden toma la mediana de las Z de los vértices de la geometría, la redondea al múltiplo de la [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) más cercano y asigna esa Z a todos los vértices. Las geometrías que ya tienen todos sus vértices a una misma Z múltiplo de la equidistancia no se modifican.
 
 Sin parámetros, la orden pide que selecciones una o varias geometrías y se repite hasta que la canceles.
 
