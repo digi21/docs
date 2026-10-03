@@ -21,7 +21,7 @@ La orden localiza los tramos de las líneas con el código de límite que aparec
 - Si solo un archivo de dibujo tiene líneas que terminan en ese punto, la orden crea una tarea de error de continuidad.
 - Si varios archivos tienen líneas que terminan en ese punto y el parámetro 2 vale 1, la orden crea una tarea de error por cada código que aparece en un archivo y no en otro.
 
-La orden analiza las líneas de todos los códigos: no tiene en cuenta los códigos del parámetro 3 ni los seleccionados en el cuadro de diálogo.
+La orden solo analiza las líneas que tienen alguno de los códigos del parámetro 3 o de los seleccionados en el cuadro de diálogo.
 
 ## Características de la orden
 
