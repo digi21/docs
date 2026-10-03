@@ -6,7 +6,7 @@ Cambia la posición de una o varias entidades en X, Y y Z.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, una letra por parámetro. En esta orden, `C` indica líneas y puntos, no complejos, y `*` indica líneas, puntos, textos e imágenes | Si. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
+| 1...n | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Si. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
 
 ## Observaciones
 

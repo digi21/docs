@@ -8,7 +8,7 @@ Realiza una copia de una entidad de dibujo permitiendo rotarla con un segundo da
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, una letra por parámetro. En esta orden, `C` indica líneas y puntos, no complejos, y `*` indica líneas, puntos, textos e imágenes | Si |
+| 1...n | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Si |
 
 ## Observaciones
 
