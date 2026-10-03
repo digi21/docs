@@ -8,6 +8,14 @@ Ejecuta las consultas SQL especificadas en el archivo pasado por parámetros.
 | :--- | :--- | :--- |
 | 1 | Archivo con las consultas SQL a ejecutar | No |
 
+## Observaciones
+
+Al ejecutarse, la orden muestra el cuadro de diálogo de Windows _Propiedades de vínculo de datos_ para seleccionar la conexión a la base de datos. Si se cancela, la orden termina.
+
+El archivo contiene una consulta por línea, de hasta 1023 caracteres. Las líneas que empiezan por `#` son comentarios. Si una línea contiene `$(TableName)`, la orden la ejecuta una vez por cada tabla de la base de datos, sustituyendo `$(TableName)` por el nombre de la tabla.
+
+Si una consulta falla, la orden emite un sonido de error, escribe el error en la ventana de resultados y continúa con la línea siguiente.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](sql.md) |

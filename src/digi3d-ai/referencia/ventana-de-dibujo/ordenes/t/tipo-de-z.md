@@ -14,18 +14,20 @@ Indica al programa la manera de registrar las coordenadas de Z de los vértices 
 
 El cambio de un tipo de Z a otro lo puedes hacer tecleando `TIPO_DE_Z=2`
 
+`TIPO_DE_Z=?` muestra el valor actual. Sin parámetros, la orden muestra un cuadro de diálogo para introducir el valor.
+
 ## Observaciones
 
 Esta orden resulta práctica en las ocasiones en las cuales se necesita restituir un curso de agua en una zona muy llana y se necesita asegurar que el registro se hace de forma descendente.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](tipo-de-z.md) |
+| Tipo de orden | [Variable entera](tipo-de-z.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {F3405A61-4894-487c-98C0-490005CFF029} |
 

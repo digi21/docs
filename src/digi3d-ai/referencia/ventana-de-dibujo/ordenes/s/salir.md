@@ -1,6 +1,6 @@
 # SALIR
 
-Termina la sesión de trabajo en DigiNG y en Digi3D, devolviendo el control al sistema operativo sin pasar por la pantalla de inicio.
+Guarda el archivo de dibujo activo y cierra Digi3D.AI.
 
 ## Parámetros
 
@@ -8,11 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Digi3D.AI autoguarda los cambios que se han realizado en los ficheros de trabajo.
-
-## Parámetros
-
-No admite parámetros.
+La orden guarda el archivo de dibujo activo y después cierra la ventana principal, con el mismo proceso de cierre que la opción _Archivo/Salir_.
 
 ## Características de la orden
 

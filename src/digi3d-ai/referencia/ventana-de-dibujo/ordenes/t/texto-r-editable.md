@@ -1,14 +1,16 @@
 # TEXTO\_R\_EDITABLE
 
-Actúa igual que la orden TEXTO_R pero si se le pasan parámetros, no oculta el control de edición.
+Actúa igual que la orden [TEXTO\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto-r.md) pero si se le pasan parámetros, no oculta el control de edición.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Texto que se propone en la barra de mensajes. Todo lo que sigue al nombre de la orden forma el texto, incluidos los espacios | Texto | Si |
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](texto-r-editable.md) |
+| Tipo de orden | [Orden interactiva](texto-r-editable.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

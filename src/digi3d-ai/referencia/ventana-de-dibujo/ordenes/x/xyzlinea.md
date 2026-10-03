@@ -8,7 +8,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Los vértices añadidos se extraen de una línea seleccionada al estilo de la orden EDITAR, con las telcas + y - se van añadiendo vértices.
+Es necesario que se esté ejecutando la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) con una línea en curso. Si no es así, la orden muestra un aviso y termina.
+
+Los vértices añadidos se extraen de una línea o polígono seleccionado con el pulsador de datos o con el pulsador de tentativo. La orden añade primero el vértice más cercano al punto señalado. Las teclas `+` y `-` avanzan o retroceden un vértice; al retroceder sobre un vértice ya añadido, la orden lo quita. Los vértices añadidos conservan sus coordenadas X, Y y Z.
 
 Al pulsar la barra de espacio se finaliza la orden y se introducen los vértices en la entidad que se estuviera ejecutando previamente. Si finalizas la orden con el botón Data, genera además de un vértice en el punto donde se realizó el Data.
 

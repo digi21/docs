@@ -6,12 +6,18 @@ Sustituye los códigos de la entidad seleccionada por los activos.
 
 No admite parámetros.
 
+## Observaciones
+
+Selecciona la entidad con el pulsador de datos o con el pulsador de tentativo. La orden borra la entidad y crea una copia con los códigos activos. Si la entidad no pertenece al archivo de dibujo activo, la orden emite un sonido de error.
+
+La orden admite selección múltiple: con una orden de selección (por ejemplo [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md)) se sustituyen los códigos de todas las entidades seleccionadas que sean visibles, no estén borradas, estén dentro de la zona de interés y pertenezcan al archivo de dibujo activo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](sustituye-cod.md) |
 | :--- | :--- |
-| Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Repite automáticamente | Si |
+| Opción del menú donde aparece la orden | Editar/Sustituir códigos |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |

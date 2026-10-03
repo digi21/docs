@@ -1,24 +1,27 @@
 # TECLA
 
-Asigna órdenes de DigiNG a pulsaciones de teclas.
+Asigna órdenes de Digi3D.AI a pulsaciones de teclas en el teclado virtual activo.
 
 ## Parámetros
 
-Esta orden no admite parámetros.
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Archivo de texto con las órdenes a asignar, una por línea | Ruta de archivo | Si |
 
 ## Observaciones
 
-Esta orden permite la creación o modificación del fichero de asignación de teclas **TECLAS.MNU**, sin tener que editarlo como fichero de texto.
+Esta orden permite crear o modificar las asignaciones del teclado virtual activo (archivo `.keyboard.xml`) sin editar el archivo. Si no hay ningún teclado virtual cargado, la orden pregunta si se quiere crear uno y pide el nombre del archivo.
 
-No se puede asignar más de una orden a una tecla, pero es posible agrupar varias en un fichero de macro instrucciones \(un arroba\) y asignar este fichero a una tecla.
+1. Pulsa la tecla o la combinación de teclas a asignar, por ejemplo _Ctrl+a_ o _Mayús+F3_. Las teclas _Mayús_, _Ctrl_, _Alt_, _Pausa_ y _Bloq Mayús_ no se pueden asignar solas.
+2. Escribe en el cuadro de diálogo de asignación las órdenes, una por línea, y la descripción. El cuadro muestra las órdenes que ya tiene asignadas la tecla.
+3. Pulsa _Aceptar_ para guardar la asignación. La orden vuelve a esperar otra tecla.
+4. Pulsa _Esc_ para terminar la orden.
 
-No se pueden realizar asignaciones a las teclas _Enter_, _Esc_, _Bloq Mayús_, _Impr Pant_, etc. Sin embargo, es posible utilizar una combinación de varias teclas para realizar la asignación, por ejemplo _Ctrl+a_, _Mayús+F3_.
-
-Después de aceptar una asignación de una orden a una tecla, pulsando la tecla _Enter_, el programa vuelve a solicitar que se pulse una nueva tecla o combinación de varias, para realizar otra asignación. El proceso continúa hasta que se pulsa la tecla _Esc_, con lo que finaliza la ejecución de la orden.
+Si se indica el parámetro, el cuadro de diálogo de asignación muestra las órdenes leídas del archivo y la orden termina después de la primera asignación aceptada.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](tecla.md) |
+| Tipo de orden | [Orden inmediata](tecla.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Teclados virtuales/Asignar una orden al teclado virtual activo... |

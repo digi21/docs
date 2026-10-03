@@ -6,7 +6,14 @@ Calcula una triangulación exceptuando aquellos nodos a los que lleguen una lín
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos a excluir (uno o más) | No |
+| 1 | Código de las líneas cuyos vértices forman el MDT | No |
+| 2...n | Código o códigos de las líneas cuyos vértices se excluyen (uno o más) | No |
+
+## Observaciones
+
+La orden trabaja con las líneas no borradas del archivo de dibujo activo. Un vértice de una línea con el código del parámetro 1 se excluye si coincide en XY con un vértice de una línea con alguno de los códigos excluidos y no coincide con ningún vértice de otra línea que no tenga esos códigos ni el código del parámetro 1.
+
+Si se indican menos de dos parámetros, la orden muestra el aviso «No se han especificado parámetros» y termina.
 
 ## Características de la orden
 

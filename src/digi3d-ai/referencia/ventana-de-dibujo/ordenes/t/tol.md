@@ -6,8 +6,9 @@ Establece el _factor de tolerancia_ en el proceso de [generalización](tol.md).
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
-| 2 | Distancia entre dos puntos | Número real | Si |
+| 1 | Valor de la tolerancia, o `?` para mostrar el valor actual | Número real | Si |
+
+Sin parámetros, la orden solicita el valor en la barra de mensajes. También se pueden digitalizar dos puntos; en ese caso la orden asigna la distancia entre ellos.
 
 ### Ejemplos
 
@@ -21,25 +22,23 @@ Muestra el valor actual del factor de tolerancia
 
 ## Observaciones
 
-El valor del _factor de tolerancia_ debe ser introducido en metros.
+El valor del _factor de tolerancia_ se introduce en metros. Su valor inicial es la tolerancia de generalización de la configuración del archivo de dibujo.
 
-Al generalizar los puntos que componen una entidad, la función comprueba si la distancia de un punto al segmento definido por el anterior y siguiente, es menor o igual al valor de tolerancia activo:
+Las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) generalizan con el algoritmo de Douglas-Peucker. Para cada tramo de la entidad, calculan la distancia de cada vértice intermedio a la **recta que une los extremos del tramo**, no al segmento formado por el vértice anterior y el siguiente:
 
-* Si es así, este punto se elimina del fichero.
-* En caso contrario se graban sus coordenadas.
+* Si algún vértice está a más de **TOL**, el más alejado se conserva y el tramo se divide en dos por ese vértice.
+* Si ninguno lo está, decide la tolerancia angular [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
 
-También se considera el valor de la tolerancia angular dado por la orden [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
-
-El proceso de generalizar, se ejecuta con todos y cada uno de los puntos de una entidad.
+`GEN` mide la distancia en el espacio, con la Z; `GEN_2D`, solo en el plano XY.
 
 ## Características de la orden
 
 | Tipo de orden | [Variable real](tol.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md) — tolerancia angular de generalización |
 | Nombre interno | {57647E08-06CB-448b-BD9A-639C5008A176} |
 

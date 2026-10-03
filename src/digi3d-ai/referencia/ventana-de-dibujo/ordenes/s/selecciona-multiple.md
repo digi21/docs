@@ -1,4 +1,4 @@
-# SELECCIONA\_MÚLTIPLE
+# SELECCIONA\_MULTIPLE
 
 Permite seleccionar y deseleccionar múltiples entidades.
 
@@ -9,6 +9,10 @@ Esta orden no admite parámetros.
 ## Observaciones
 
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple.
+
+1. Señala cada entidad con el pulsador de datos o con el pulsador de tentativo. La orden la añade a la selección y la marca.
+2. Pulsa `Esc` para quitar de la selección la última entidad añadida. Con la selección vacía, `Esc` termina la orden.
+3. Pulsa la barra espaciadora para enviar las entidades seleccionadas a la orden activa.
 
 ## Características de la orden
 
