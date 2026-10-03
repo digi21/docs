@@ -21,5 +21,6 @@ Después del cuadro de diálogo, la orden pide el punto de origen y a continuaci
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md)<br>[INS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins.md) |
 | Nombre interno | {A1CFEC51-C5BF-4d34-9913-09290DAFB0EC} |
 

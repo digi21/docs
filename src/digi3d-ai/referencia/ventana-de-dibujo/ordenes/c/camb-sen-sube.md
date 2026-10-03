@@ -27,5 +27,6 @@ La orden solo compara la Z del primer y del último vértice. Si la Z del primer
 | Barra de herramientas en la que aparece la orden | Sentido de la polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CAMB\_SEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-sen.md)<br>[CAMB\_SEN\_BAJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-sen-baja.md) |
 | Nombre interno | {D83AFA04-4452-42a2-BF5E-B1A4F69DCA21} |
 

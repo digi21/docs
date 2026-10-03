@@ -25,5 +25,6 @@ Los parámetros solo se tienen en cuenta si se indican al menos dos \(la toleran
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [MOSTRAR\_PASO\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/mostrar_paso_curvas.md) — activa o desactiva la visualización del paso de curvas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {FEB6782B-86C0-43C4-A5B4-2AE8B5D13F26} |
 

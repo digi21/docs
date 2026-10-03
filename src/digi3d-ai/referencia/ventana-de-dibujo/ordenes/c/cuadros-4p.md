@@ -27,5 +27,6 @@ El resultado gráfico final, puede ser cualquiera de los siguientes:
 | Barra de herramientas en la que aparece la orden | Rejillas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CUADROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cuadros.md) |
 | Nombre interno | {CD9C598F-CF2F-4478-A09C-63E28F86260A} |
 

@@ -24,4 +24,5 @@ Pulsa el botón de reset para deseleccionar el recinto y Esc para cancelar la or
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BUSCAR\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/buscar-centroide.md)<br>[COPIAR\_CENTROIDE\_I](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar-centroide-i.md) |
 | Nombre interno | {A3432E6A-E83F-4BB5-B9D2-6EF8B2007F35} |

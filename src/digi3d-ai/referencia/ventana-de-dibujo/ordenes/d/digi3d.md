@@ -19,5 +19,6 @@ Esta asociación la hace automáticamente al pulsar cualquier botón o pedal que
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [IR\_A](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ir-a.md) |
 | Nombre interno | {F9CD6EBE-F177-47d7-81D7-184B17E0E12C} |
 

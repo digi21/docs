@@ -21,5 +21,6 @@ Al añadir cada código, la orden ejecuta las órdenes que la tabla de códigos 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CAMB\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-cod.md)<br>[CLONAR\_CÓDIGOS+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/clonar-codigos-mas.md)<br>[COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md)<br>[COD\_SIN\_ORDEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-sin-orden.md) |
 | Nombre interno | {3308F3D4-4A61-4088-B7C5-6B6B14F4B000} |
 

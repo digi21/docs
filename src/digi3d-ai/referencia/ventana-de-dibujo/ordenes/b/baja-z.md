@@ -23,5 +23,6 @@ La orden resta la equidistancia a la Z actual del cursor; no redondea el resulta
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) — equidistancia de curvas de nivel<br>[FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) — fija la coordenada Z al múltiplo de la equidistancia<br>[Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md) — valor de la coordenada Z activa |
+| Órdenes relacionadas | [SUBE\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/sube-z.md) |
 | Nombre interno | {416EF674-CB78-4121-8671-A076F25B2763} |
 

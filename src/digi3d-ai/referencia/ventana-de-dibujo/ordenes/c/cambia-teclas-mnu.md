@@ -21,5 +21,6 @@ El teclado activo se muestra en la _barra de herramientas TeclasMnu_.
 | Barra de herramientas en la que aparece la orden | Teclados |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [TECLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tecla.md) |
 | Nombre interno | {4E14849C-8B29-417b-8D1C-DD5E56175CF8} |
 

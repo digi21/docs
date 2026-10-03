@@ -19,5 +19,6 @@ Selecciona con el cursor el vértice a eliminar. La orden solo acepta líneas y 
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [INSERTA\_VÉRTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inserta-vertice.md)<br>[MODIFICA\_VÉRTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/modifica-vertice.md) |
 | Nombre interno | {64578689-B118-4fe5-86C9-52897DADCA6E} |
 

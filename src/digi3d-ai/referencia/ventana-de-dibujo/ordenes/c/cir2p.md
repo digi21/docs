@@ -20,5 +20,6 @@ Dibuja una circunferencia mediante el centro y un punto de la misma.
 | Barra de herramientas en la que aparece la orden | Circunferencias |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CIR3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3d.md)<br>[CIR3P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3p.md)<br>[CIRCR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/circr.md) |
 | Nombre interno | {C9CE4CF2-6029-48e7-9FC1-141708C22393} |
 

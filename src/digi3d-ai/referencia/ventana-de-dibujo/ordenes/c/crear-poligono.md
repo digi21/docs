@@ -23,5 +23,6 @@ El polígono toma los códigos del contorno exterior. Según la configuración d
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [EXPLOTAR\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-poligono.md)<br>[FORMAR\_POLIGONOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/formar-poligonos.md)<br>[POL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pol.md) |
 | Nombre interno | {22C249C6-F42A-4d41-8A2F-76E9C0E764CE} |
 

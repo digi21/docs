@@ -28,5 +28,6 @@ La orden no termina tras asignar las cotas: puedes digitalizar otro par de punto
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) — equidistancia de curvas de nivel |
+| Órdenes relacionadas | [COD\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-curvas.md)<br>[ROTULA\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-curvas.md) |
 | Nombre interno | {B43899C2-51BB-4f8c-AD99-A04A5591BC2C} |
 

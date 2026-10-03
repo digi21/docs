@@ -29,5 +29,6 @@ Si se teclea la orden CURSOR sin parámetros, el tamaño cambia sucesivamente en
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {E9215A0A-2A41-4a95-868C-1B3EF20AB870} |
 

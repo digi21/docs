@@ -37,5 +37,6 @@ Para elegir los códigos se puede utilizar una de estas opciones:
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BORRA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod.md)<br>[BORRA\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-v.md) |
 | Nombre interno | {89AC83BA-9BC7-4c4d-8E5C-5384E892EB0F} |
 

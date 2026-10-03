@@ -21,4 +21,5 @@ La orden analiza las entidades del archivo de dibujo activo que no están borrad
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CONTROL\_CALIDAD\_ENTIDADES\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-calidad-entidades-visibles.md)<br>[CONTROL\_CALIDAD\_SELECCION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-calidad-seleccion.md) |
 | Nombre interno | {EF96CDAC-A31F-4A6C-84FA-BAEA89F6F61D} |

@@ -51,5 +51,6 @@ La orden recorre solo los modos 0 a 12: después del modo 12 vuelve al modo 0. S
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md) — modo de búsqueda |
+| Órdenes relacionadas | [AUTOMODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob.md)<br>[AUTOMODOB\_EXHAUSTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob-exhaustivo.md)<br>[PARAMETROS\_AUTO\_MODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-auto-modob.md) |
 | Nombre interno | {5740AB44-D47E-42f6-A4F5-B5906967D30A} |
 

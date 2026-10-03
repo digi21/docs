@@ -27,5 +27,6 @@ En caso de líneas con patrón, como puede ser el código para masa de árboles,
 | Barra de herramientas en la que aparece la orden | Sentido de la polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CAMB\_SEN\_BAJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-sen-baja.md)<br>[CAMB\_SEN\_SUBE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-sen-sube.md)<br>[DETECTAR\_INTERSECCION\_SENTIDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-interseccion-sentido.md) |
 | Nombre interno | {B3B49658-61EF-4884-82F7-AD8FE6A7512E} |
 

@@ -25,5 +25,6 @@ La orden termina después de duplicar la entidad seleccionada. Si seleccionas va
 | Barra de herramientas en la que aparece la orden | Copiar y duplicar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [COPIA\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-r.md)<br>[COPIA2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-2p.md)<br>[COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md)<br>[DUPLICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/duplica.md) |
 | Nombre interno | {ABF6F6D5-FE1F-46a7-A272-7648DAAB540C} |
 

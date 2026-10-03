@@ -45,5 +45,6 @@ Los códigos que estén apagados no se tendrán en cuenta al ejecutar esta orden
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md)<br>[BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md) |
 | Nombre interno | {290F947C-CAAD-4945-8524-9E71C9713108} |
 

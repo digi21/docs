@@ -25,5 +25,6 @@ En caso de tratarse de una entidad que tiene diferentes valores de Z, todos esto
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md) — valor de la coordenada Z activa<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CAMB\_Z\_ACTIVA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-z-activa.md)<br>[MOVER\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z.md)<br>[ZFIJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zfija.md) |
 | Nombre interno | {58347183-0AF3-4671-9CEF-EEC236A8DCE3} |
 

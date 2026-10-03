@@ -28,5 +28,6 @@ Si el radio es tan grande que algún punto de tangencia cae fuera de su tramo, l
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {63EDB2B3-4DC6-4584-9EFC-AAE939D3FFB3} |
 

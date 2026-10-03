@@ -21,5 +21,6 @@ La orden solo funciona mientras dibujas una línea con la orden [LINEA](/digi3d-
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) — activa o desactiva las señales acústicas |
+| Órdenes relacionadas | [ARCO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco.md)<br>[LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[MULTIARCO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/multiarco.md) |
 | Nombre interno | {D5414D6A-1903-4120-8022-30BAFE0E1C60} |
 
