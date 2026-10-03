@@ -419,12 +419,32 @@ Configura el comportamiento de la orientación relativa del sensor Cónico.
 * **[Tamaño de la marca](orientacion-relativa/tamano-de-la-marca.md)** — Tamaño de la marca de cada punto medido.
 * **[Color de la marca](orientacion-relativa/color-de-la-marca.md)** — Color de la marca de cada punto medido.
 
+### Ortofoto estereoscópica
+
+Configura el sensor Ortofoto estereoscópica. Solo aparece si está instalada la extensión de este sensor.
+
+* **[Tipo de zoom](ortofoto-estereoscopica/tipo-de-zoom.md)** — Cambia el zoom modificando la focal o la posición de la cámara.
+* **[Proyectar la Z de los vectores](ortofoto-estereoscopica/proyectar-la-z-de-los-vectores.md)** — Proyecta siempre la Z de los vectores en la ventana fotogramétrica.
+* **[Filtrar MDT](ortofoto-estereoscopica/filtrar-mdt.md)** — Sustituye por la Z media de la tesela la Z de los puntos que se alejan de ella.
+* **[Distancia de filtrado](ortofoto-estereoscopica/distancia-de-filtrado.md)** — Diferencia de Z a partir de la cual se filtra un punto.
+* **[Factor de zoom](ortofoto-estereoscopica/factor-de-zoom.md)** — Factor que aplican las órdenes de zoom acercar y alejar.
+
 ### Panel de tareas
 
 Configura el comportamiento del panel de tareas.
 
 * **[Vaciar automáticamente](panel-de-tareas/vaciar-automaticamente.md)** — Limpia el panel al añadir la primera tarea de una orden nueva.
 * **[Agrupar tareas por coordenadas](panel-de-tareas/agrupar-tareas-por-coordenadas.md)** — Agrupa las tareas que comparten coordenada.
+
+### Parámetros del ajuste RPCBA
+
+Configura las precisiones del ajuste RPCBA del sensor Satélite RPC. Solo aparece si está instalada la extensión de este sensor.
+
+* **[Precisión de las coordenadas imagen](parametros-del-ajuste-rpcba/precision-de-las-coordenadas-imagen.md)** — Precisión, en píxeles, de las coordenadas imagen medidas.
+* **[Precisión de los parámetros de ajuste](parametros-del-ajuste-rpcba/precision-de-los-parametros-de-ajuste.md)** — Precisión a priori de los parámetros del ajuste.
+* **[Precisión planimétrica del apoyo](parametros-del-ajuste-rpcba/precision-planimetrica-del-apoyo.md)** — Precisión planimétrica de los puntos de apoyo.
+* **[Precisión altimétrica del apoyo](parametros-del-ajuste-rpcba/precision-altimetrica-del-apoyo.md)** — Precisión altimétrica, en metros, de los puntos de apoyo.
+* **[Número de puntos para calcular](parametros-del-ajuste-rpcba/numero-de-puntos-para-calcular.md)** — Número mínimo de puntos medidos para calcular el ajuste.
 
 ### PhotoScan
 
@@ -507,6 +527,22 @@ Configura las rutas de trabajo de Digi3D.AI.
 
 * **[Sustituir rutas por sustituidores](rutas/sustituir-rutas-por-sustituidores.md)** — Evita directorios absolutos en los archivos de configuración.
 * **[Directorio temporal](rutas/directorio-temporal.md)** — Directorio temporal donde se almacenan, entre otros, los archivos de errores.
+
+### Sensor ADS 40/80 (Monoscópico)
+
+Configura la orientación exterior y la correlación de puntos del sensor ADS. Solo aparece si está instalada la extensión de este sensor.
+
+* **[Mínimo iteraciones](sensor-ads-40-80-monoscopico/minimo-iteraciones.md)** — Número mínimo de iteraciones en la búsqueda de la orientación exterior.
+* **[Ancho búsqueda en plano focal](sensor-ads-40-80-monoscopico/ancho-busqueda-en-plano-focal.md)** — Ancho para la búsqueda de la mejor ecuación de orientación exterior.
+* **[Interpolación subpixel](sensor-ads-40-80-monoscopico/interpolacion-subpixel.md)** — Realiza los cálculos con interpolación de subpixel.
+* **[Ancho referencia x4](sensor-ads-40-80-monoscopico/ancho-referencia-x4.md)** — Ancho de la ventana de referencia en el nivel piramidal x4.
+* **[Alto referencia x4](sensor-ads-40-80-monoscopico/alto-referencia-x4.md)** — Alto de la ventana de referencia en el nivel piramidal x4.
+* **[Ancho referencia x1](sensor-ads-40-80-monoscopico/ancho-referencia-x1.md)** — Ancho de la ventana de referencia en el nivel piramidal x1.
+* **[Alto referencia x1](sensor-ads-40-80-monoscopico/alto-referencia-x1.md)** — Alto de la ventana de referencia en el nivel piramidal x1.
+* **[Ancho Busqueda x4](sensor-ads-40-80-monoscopico/ancho-busqueda-x4.md)** — Ancho de la ventana de búsqueda en el nivel piramidal x4.
+* **[Alto Busqueda x4](sensor-ads-40-80-monoscopico/alto-busqueda-x4.md)** — Alto de la ventana de búsqueda en el nivel piramidal x4.
+* **[Ancho Busqueda x1](sensor-ads-40-80-monoscopico/ancho-busqueda-x1.md)** — Ancho de la ventana de búsqueda en el nivel piramidal x1.
+* **[Alto Busqueda x1](sensor-ads-40-80-monoscopico/alto-busqueda-x1.md)** — Alto de la ventana de búsqueda en el nivel piramidal x1.
 
 ### Sensor Cónico
 
