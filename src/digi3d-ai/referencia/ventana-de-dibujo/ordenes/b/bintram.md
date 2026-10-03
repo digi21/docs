@@ -163,7 +163,7 @@ Si el archivo de errores no lleva ruta, se crea en la carpeta del archivo de dib
 
 4 = Agrupar las entidades duplicadas en una única entidad
 
-Si el valor es 1 ó 2 aparecen los parámetros \[buscar_lineas] \[buscar_puntos] \[buscar_textos]
+Si el valor es 1 ó 2 aparecen los parámetros \[buscar_lineas] \[buscar_puntos] \[buscar_textos]. Con 3 ó 4 no se indican y la orden busca duplicadas de líneas, puntos y textos.
 
 * \[unión de líneas \*6]
 
