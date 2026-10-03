@@ -17,4 +17,5 @@ Indica si los modelos digitales del terreno cargados modifican la coordenada Z d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | [MDT\_MUEVE\_Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/mdt-mueve-z.md) — actualiza la coordenada Z al pasar el cursor sobre un MDT |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {9C6D66C9-0C3B-473D-934D-F13FF9774532} |

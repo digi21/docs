@@ -23,5 +23,6 @@ Después de la selección, la orden exporta las entidades igual que [EXPORTAR](/
 | Barra de herramientas en la que aparece la orden | Esta orden no aparece en ninguna barra de herramientas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md)<br>[EXPORTAR\_VIRTUALES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar-virtuales.md) |
 | Nombre interno | {48605774-446F-4E9C-B594-4A9891A21D18} |
 

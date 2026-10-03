@@ -19,5 +19,6 @@ La orden muestra un cuadro de diálogo para seleccionar el fichero de puntos. Si
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [AGREGA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/agrega.md)<br>[N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md) |
 | Nombre interno | {A3364009-D745-4b83-87DE-1C31D592FD46} |
 

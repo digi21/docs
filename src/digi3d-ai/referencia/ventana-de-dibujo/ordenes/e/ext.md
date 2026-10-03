@@ -32,5 +32,6 @@ Con la opción **EXT puede extender fuera de límites**, de la categoría **EXT*
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [ESTIRA\_RECORTA\_POR\_TOLERANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/estira-recorta-por-tolerancia.md)<br>[EXT\_M](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-m.md)<br>[EXT\_P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-p.md)<br>[EXT\_PLANO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-plano.md)<br>[EXT\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-xyz.md)<br>[EXT2X](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext2x.md)<br>[EXTIENDE\_EXTREMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/extiende_extremo.md)<br>[TRIM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/trim.md) |
 | Nombre interno | {F67C41E9-7EB7-4574-BB96-D75F6E4BFD2A} |
 

@@ -35,5 +35,6 @@ El usuario también se podrá mover de error en error mediante la ventana de tar
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md)<br>[ERR-](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-menos.md)<br>[ERR+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-mas.md) |
 | Nombre interno | {E7BF3A8A-5AA8-474a-9A8E-4FA08264D19C} |
 

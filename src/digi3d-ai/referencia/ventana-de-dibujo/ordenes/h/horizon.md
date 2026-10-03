@@ -32,5 +32,6 @@ La orden procesa todas las líneas abiertas y visibles del código y las sustitu
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {340C33D2-7D89-4772-AFF1-D274F8735395} |
 

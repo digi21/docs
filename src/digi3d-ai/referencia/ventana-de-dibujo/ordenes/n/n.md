@@ -33,5 +33,6 @@ Cada línea del fichero contiene los datos de un punto, separados entre sí por 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [AGREGA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/agrega.md)<br>[DISPOSITIVO\_ENTRADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dispositivo-entrada.md)<br>[FICHERO\_P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fichero-p.md) |
 | Nombre interno | {B4C60C59-89B2-4402-8C5F-307DD0C8EE86} |
 

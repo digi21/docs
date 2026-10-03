@@ -26,5 +26,6 @@ Si hay cargada una Triangulación de un Modelo Digital del Terreno \(MDT\), se p
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CAMB\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-z.md)<br>[MOVER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover.md)<br>[MOVER\_Z\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z-v.md) |
 | Nombre interno | {87DB0F7B-28B6-4b27-BF8C-220A4D91629B} |
 

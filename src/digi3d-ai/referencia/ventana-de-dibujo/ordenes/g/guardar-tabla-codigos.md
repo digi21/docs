@@ -19,4 +19,5 @@ La orden muestra un cuadro de diálogo para indicar el archivo y guarda en él l
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {C84B6EB9-4E49-47BE-B8B5-190D30AB2679} |

@@ -26,4 +26,5 @@ La orden sustituye cada polígono modificado por el resultado. Si faltan paráme
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {CB5AB130-A170-4A95-863C-D2E2C02A001B} |

@@ -25,5 +25,6 @@ La orden rechaza las líneas en zigzag, es decir, las que tienen un vértice cuy
 | Barra de herramientas en la que aparece la orden | Interpolación |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [INTER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter.md) |
 | Nombre interno | {4B787BBC-9658-4f8c-B83E-C83D3005FC91} |
 

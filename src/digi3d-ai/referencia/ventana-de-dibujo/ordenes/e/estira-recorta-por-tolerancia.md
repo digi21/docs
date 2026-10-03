@@ -30,4 +30,5 @@ La orden trabaja con las líneas visibles del archivo de referencia y con sus ex
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [EXT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext.md)<br>[TRIM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/trim.md) |
 | Nombre interno | {B247E248-4308-414E-B160-BE4488DB4737} |

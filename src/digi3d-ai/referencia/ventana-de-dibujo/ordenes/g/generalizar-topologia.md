@@ -23,4 +23,5 @@ Dos polígonos vecinos se agrupan cuando sus centroides tienen el mismo texto y 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DETECTAR\_POLIGONOS\_VECINOS\_MISMO\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-poligonos-vecinos-mismo-centroide.md) |
 | Nombre interno | {19B35B1D-F4BB-4F3E-B2C8-A0E281A82577} |

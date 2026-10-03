@@ -21,5 +21,6 @@ Si se ejecuta mientras otra orden espera una distancia, la orden le pasa el per�
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [MIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide.md)<br>[MIDE\_PERÍMETRO\_LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-perimetro-linea.md)<br>[MIDE\_PERÍMETRO\_LINEA\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-perimetro-linea-xyz.md)<br>[MIDE\_PERP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-perp.md)<br>[MIDE\_SEGMENTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-segmento.md)<br>[MIDE\_SEGMENTO\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-segmento-xyz.md) |
 | Nombre interno | {2267ABF1-5694-4150-993A-50301E417611} |
 

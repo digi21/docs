@@ -21,5 +21,6 @@ El último punto de un arco y el primero del siguiente es el mismo.
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) — activa o desactiva las señales acústicas<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [ARCO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco.md)<br>[ARCO\_TANGENTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco-tangente.md) |
 | Nombre interno | {439FBB9E-ED74-4134-8B62-7C5650A55784} |
 

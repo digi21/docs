@@ -19,5 +19,6 @@ Con esta orden, se cierra el fichero de dibujo activo, pero no sale de la ejecuc
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [SALIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/salir.md) |
 | Nombre interno | {10BD6566-1F5B-4761-831C-F8D574A1578D} |
 

@@ -32,5 +32,6 @@ Si las dos líneas tienen el mismo código y los mismos atributos de base de dat
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [EXT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext.md)<br>[EXT\_M](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-m.md)<br>[EXT\_P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-p.md)<br>[EXT\_PLANO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-plano.md)<br>[EXT\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext-xyz.md)<br>[EXTIENDE\_EXTREMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/extiende_extremo.md)<br>[UNIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir.md) |
 | Nombre interno | {CA81C8F1-AAC5-49fb-9E9D-45F68C7CFC7A} |
 

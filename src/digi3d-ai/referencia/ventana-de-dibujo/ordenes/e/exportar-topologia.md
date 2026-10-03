@@ -23,4 +23,5 @@ La orden exporta, de cada topología marcada, los recintos válidos que tienen c
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md)<br>[TOPOLOGIA\_A\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/topologia-a-poligono.md) |
 | Nombre interno | {5512E8A0-BB41-43B5-A95C-8B714C00407A} |

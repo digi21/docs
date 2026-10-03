@@ -21,4 +21,5 @@ Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccion
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [EXPLOTAR\_COMPLEJOS\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-complejos-cod.md)<br>[EXPLOTAR\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-poligono.md)<br>[EXPLOTAR\_PUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-puntos.md) |
 | Nombre interno | {E72C8E5E-2C00-46E9-AAAA-A2E6E33C83EF} |

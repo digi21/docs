@@ -27,5 +27,6 @@ La orden pide primero el archivo de imagen. Después requiere la entrada de las 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo |
+| Órdenes relacionadas | [INS\_FOTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-foto.md)<br>[INS\_FOTO\_3P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-foto-3p.md) |
 | Nombre interno | {3402C7CF-6346-4C66-A043-EE0869AF6F4C} |
 

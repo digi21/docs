@@ -23,4 +23,5 @@ Mientras la orden está activa, el cursor se oculta y queda capturado en la vent
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CAMARA\_CONICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camara-conica.md)<br>[ROTAR\_CÁMARA\_FPS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotar_camara_fps.md) |
 | Nombre interno | {403B173D-3BB9-4DB6-BD6F-0C03102397D3} |

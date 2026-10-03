@@ -49,5 +49,6 @@ En cualquiera de las opciones seleccionadas se presenta la opción de **Defecto*
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md)<br>[IMPORTAR\_UNIENDO\_POLIGONOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/importar-uniendo-poligonos.md)<br>[PARAMETROS\_IMPORTACIÓN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md) |
 | Nombre interno | {6DCCD1F4-17F1-4335-AFF4-86FA66BF5EB8} |
 

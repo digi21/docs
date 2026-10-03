@@ -23,4 +23,5 @@ Si alguna de las órdenes es interactiva, ORDEN\_ATOMICA permanece activa hasta 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {5B3B09A9-7769-4755-9EAF-D094D8183252} |

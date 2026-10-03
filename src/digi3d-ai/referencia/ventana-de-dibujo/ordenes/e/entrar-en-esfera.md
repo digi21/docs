@@ -19,4 +19,5 @@ La orden requiere un archivo de imágenes esféricas cargado; si no lo hay, mues
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ESFERA\_ANTERIOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/esfera-anterior.md)<br>[ESFERA\_SIGUIENTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/esfera-siguiente.md) |
 | Nombre interno | {4ACA0C53-ACE9-42EB-8288-3D3593CB70BE} |

@@ -19,4 +19,5 @@ Si no se indica el parámetro, suena el aviso de error y la orden no guarda nada
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CARGA\_DISPOSICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-disposicion.md) |
 | Nombre interno | {9FB12F05-B1A3-4A14-B252-77C047AB4894} |

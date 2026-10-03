@@ -26,5 +26,6 @@ El fichero, sea del tipo que sea, se insertará con un factor de escala igual al
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md)<br>[BLOQUE\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque-2p.md)<br>[INS\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-3d.md)<br>[INS\_AA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-aa.md)<br>[INS\_COMPLEJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-complejo.md)<br>[INSR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insr.md) |
 | Nombre interno | {053ADE6F-2BEF-4594-9E5B-C5C4448818DC} |
 

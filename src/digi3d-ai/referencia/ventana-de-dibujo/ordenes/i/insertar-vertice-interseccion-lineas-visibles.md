@@ -17,4 +17,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [INSERTAR\_VERTICE\_INTERSECCION\_LINEA\_PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insertar-vertice-interseccion-linea-punto.md)<br>[INSERTAR\_VERTICE\_INTERSECCION\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insertar-vertice-interseccion-lineas.md)<br>[PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md) |
 | Nombre interno | {9E65A1B2-F4B9-447B-AC7E-D37FF62B4304} |

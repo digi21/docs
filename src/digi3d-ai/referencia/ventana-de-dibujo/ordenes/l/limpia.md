@@ -27,5 +27,6 @@ Solo se usan como límite las entidades visibles, no borradas y dentro de la zon
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {417FAB22-3EA8-4629-A51C-0EF65F253206} |
 

@@ -36,5 +36,6 @@ Además, la orden escribe junto al archivo nuevo un archivo con extensión `.utm
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [RECORTA\_TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recorta-traza.md)<br>[TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/traza.md) |
 | Nombre interno | {CF3F30DF-C61A-4424-AF32-AE28716A0EEC} |
 

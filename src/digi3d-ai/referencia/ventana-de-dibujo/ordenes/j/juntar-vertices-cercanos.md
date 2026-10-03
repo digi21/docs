@@ -19,4 +19,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [JUNTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/j/juntar.md) |
 | Nombre interno | {8312B2CC-7C50-456A-81A0-36737CE1B41C} |

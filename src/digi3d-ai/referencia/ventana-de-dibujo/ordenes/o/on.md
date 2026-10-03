@@ -47,5 +47,6 @@ Para activar solo algunos tipos de geometría de un código, ejecuta [ON\_TIPO](
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md)<br>[ON\_ARCHIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on-archivo.md)<br>[ON\_TIPO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on-tipo.md)<br>[OND](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ond.md)<br>[ONS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ons.md)<br>[ONSOLO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/onsolo.md) |
 | Nombre interno | {536E917F-6A24-4288-B613-6B4DF30FC0DB} |
 
