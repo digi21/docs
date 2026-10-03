@@ -620,7 +620,6 @@ Configura la visualización estereoscópica y el comportamiento de la ventana fo
 * **[Consumo de memoria por cámara](ventana-fotogrametrica/consumo-de-memoria-por-camara.md)** — Memoria máxima (MB) por cámara al cargar un modelo.
 * **[Consumo de memoria bajo demanda](ventana-fotogrametrica/consumo-de-memoria-bajo-demanda.md)** — Solicita memoria a medida que se carga la imagen.
 * **[Tamaño de las teselas](ventana-fotogrametrica/tamano-de-las-teselas.md)** — Tamaño de las teselas para imágenes no teseladas (JPG…).
-* **[Tamaño de las teselas para vectores](ventana-fotogrametrica/tamano-de-las-teselas-para-vectores.md)** — Tamaño de las teselas en las que se proyectan los vectores.
 * **[Proyectar solo geometrías que solapan con modelo (BETA)](ventana-fotogrametrica/proyectar-solo-geometrias-que-solapan-con-modelo.md)** — Proyecta solo las geometrías que solapan con el modelo.
 * **[Prioridad de los hilos de carga](ventana-fotogrametrica/prioridad-de-los-hilos-de-carga.md)** — Prioridad de los hilos de carga de teselas en segundo plano.
 * **[Proyectar vectores](ventana-fotogrametrica/proyectar-vectores.md)** — Proyección de vectores síncrona o asíncrona.

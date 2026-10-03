@@ -1908,7 +1908,6 @@
             * [Consumo de memoria por cámara](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/consumo-de-memoria-por-camara.md)
             * [Consumo de memoria bajo demanda](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/consumo-de-memoria-bajo-demanda.md)
             * [Tamaño de las teselas](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/tamano-de-las-teselas.md)
-            * [Tamaño de las teselas para vectores](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/tamano-de-las-teselas-para-vectores.md)
             * [Proyectar solo geometrías que solapan con modelo (BETA)](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/proyectar-solo-geometrias-que-solapan-con-modelo.md)
             * [Prioridad de los hilos de carga](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/prioridad-de-los-hilos-de-carga.md)
             * [Proyectar vectores](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/proyectar-vectores.md)
