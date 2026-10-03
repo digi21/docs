@@ -2,6 +2,8 @@
 
 ## Elegir la transformación
 
+![Cuadro Seleccionar transformación con dos transformaciones de WGS 84 a EGM2008 height y el enlace para descargar la malla](../images/reproject-seleccionar-transformacion.jpg)
+
 Entre dos sistemas de coordenadas, el catálogo EPSG puede ofrecer varias transformaciones. Por ejemplo, de WGS 84 a altitudes EGM2008 hay varias transformaciones, una por cada resolución de la malla del geoide.
 
 Cuando hay varias, el programa muestra el cuadro **Seleccionar transformación** al seleccionar el sistema de origen o el de destino. El cuadro lista las transformaciones de mayor a menor precisión. Las transformaciones de precisión desconocida aparecen al final. La primera de la lista está seleccionada.

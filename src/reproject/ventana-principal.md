@@ -1,5 +1,7 @@
 # Ventana principal
 
+![Ventana principal de Reproject transformando un punto de ETRS89 / UTM zone 30N + Alicante height a WGS 84](../images/reproject-ventana-principal.png)
+
 La ventana principal de Reproject contiene, de arriba abajo:
 
 * **Sistema de coordenadas origen**: lista desplegable y botón **…**.

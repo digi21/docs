@@ -20,6 +20,8 @@ Reproject sustituye al antiguo Transformador Universal de Coordenadas.
 
 ## Licencia y código fuente
 
+![Cuadro Acerca de de Reproject con CrsKit, los datos EPSG y SQLite](../images/reproject-acerca-de.jpg)
+
 Reproject es un programa _open source_ con licencia [Apache 2.0](https://github.com/digi21/reproject/blob/main/LICENSE).
 
 * Repositorio: [https://github.com/digi21/reproject](https://github.com/digi21/reproject)
