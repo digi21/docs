@@ -15,7 +15,7 @@ La orden asigna el valor al campo en la lista de atributos activos del código, 
 
 Mientras mueves el cursor después del primer punto, la orden muestra el valor en la barra de mensajes. El valor almacenado es la distancia 3D entre los dos puntos, con el número de decimales de la ventana de dibujo.
 
-Si no se pasa ningún parámetro, la orden emite un sonido de error y termina.
+Si falta alguno de los dos parámetros, la orden emite un sonido de error y termina.
 
 ## Características de la orden
 
