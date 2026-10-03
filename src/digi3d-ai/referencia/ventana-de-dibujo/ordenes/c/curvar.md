@@ -6,15 +6,15 @@ Realiza el curvado de una triangulación.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | No se usa | — | No |
-| 2 | Equidistancia de las curvas finas, en unidades del sistema de referencia | Número real | No |
-| 3 | Equidistancia de las curvas maestras, en unidades del sistema de referencia | Número real | No |
-| 4 | No se usa | — | No |
-| 5 | Factor de suavizado | Número entero | No |
-| 6 | Código con el que se generarán las curvas de nivel finas | Código | No |
-| 7 | Código con el que se generarán las curvas de nivel maestras | Código | No |
+| 1 | Equidistancia de las curvas finas, en unidades del sistema de referencia | Número real | No |
+| 2 | Equidistancia de las curvas maestras, en unidades del sistema de referencia | Número real | No |
+| 3 | Factor de suavizado | Número entero | No |
+| 4 | Código con el que se generarán las curvas de nivel finas | Código | No |
+| 5 | Código con el que se generarán las curvas de nivel maestras | Código | No |
 
-Si se indican menos de siete parámetros, la orden los ignora y muestra un cuadro de diálogo con las equidistancias, los códigos, el factor de suavizado y la opción de respetar las curvas existentes con sus códigos.
+La orden también acepta el formato antiguo de siete parámetros, en el que el primero y el cuarto se ignoran.
+
+Con otro número de parámetros, la orden los ignora y muestra un cuadro de diálogo con las equidistancias, los códigos, el factor de suavizado y la opción de respetar las curvas existentes con sus códigos.
 
 ## Observaciones
 
