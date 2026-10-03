@@ -1,6 +1,6 @@
 # REDONDEA\_COORDENADA
 
-Sustituye por un valor dado las coordenadas X o Y de los vértices de las líneas seleccionadas que difieren de ese valor como máximo una tolerancia.
+Sustituye por un valor dado las coordenadas X o Y de los vértices de las líneas y polígonos seleccionados que difieren de ese valor como máximo una tolerancia.
 
 ## Parámetros
 
@@ -13,11 +13,11 @@ Sustituye por un valor dado las coordenadas X o Y de los vértices de las línea
 
 Si faltan parámetros, la orden emite un sonido de error y termina.
 
-Para cada vértice de la línea seleccionada, si la diferencia en valor absoluto entre la X y el valor es menor o igual que la tolerancia, la X toma el valor. La Y se trata del mismo modo. La Z no cambia.
+Para cada vértice de la geometría seleccionada, incluidos los de los huecos de los polígonos, si la diferencia en valor absoluto entre la X y el valor es menor o igual que la tolerancia, la X toma el valor. La Y se trata del mismo modo. La Z no cambia.
 
 Por ejemplo, `REDONDEA_COORDENADA=20 1e-5` convierte una X de 20,000004 en 20.
 
-La orden admite selección simple y selección múltiple, y solo modifica líneas del modelo actual.
+La orden admite selección simple y selección múltiple, y solo modifica líneas y polígonos del modelo actual.
 
 ## Características de la orden
 
