@@ -6,9 +6,18 @@ Si el sensor activo lo admite, proyecta una línea hacia abajo y hacia arriba y 
 
 No admite parámetros.
 
+## Observaciones
+
+La orden necesita una ventana fotogramétrica abierta con un sensor que admita esta orden (el sensor de nubes de puntos). Si no la hay, o si el sensor activo no la admite, la orden muestra un mensaje de error y termina.
+
+Mientras mueves el cursor, la orden busca el punto del modelo más cercano por debajo y el más cercano por encima de la posición del cursor y muestra la acotación provisional. Al introducir un punto, la orden añade al archivo de dibujo:
+
+* Una línea entre el punto inferior y el punto superior.
+* Un texto en el punto medio de esa línea con la diferencia de Z entre los dos puntos, con el número de decimales de la ventana de dibujo, la [altura de textos](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) y la [justificación de textos](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) activas.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](acota-h-automatica.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

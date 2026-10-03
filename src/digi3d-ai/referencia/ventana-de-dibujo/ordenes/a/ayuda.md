@@ -1,6 +1,6 @@
 # AYUDA
 
-Visualiza la ayuda de la orden que se esté ejecutando.
+Abre la ayuda de Digi3D.NET.
 
 ## Parámetros
 
@@ -8,11 +8,11 @@ No admite parámetros.
 
 ## Observaciones
 
-La ayuda, es decir, el archivo **Digi3D.chm**, debe estar en el directorio **C:/Archivos de programa/Digi3D/Ayuda**. Si se ha realizado la instalación con la instalación propia de la ayuda, ésta debe funcionar correctamente.
+La orden abre en el navegador predeterminado la página principal de la ayuda en línea (`https://ayuda.digi21.net/digi3d-net/index.html`). No abre la página de la orden que se esté ejecutando. La orden no interrumpe la orden activa.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ayuda.md) |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ayuda/Ayuda Digi3D... |

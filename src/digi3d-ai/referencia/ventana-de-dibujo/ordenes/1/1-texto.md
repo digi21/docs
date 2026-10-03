@@ -10,9 +10,11 @@ Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\
 
 ## Observaciones
 
-Si no se pasa ningún parámetro, la orden solicitará en la barra de mensajes el texto a introducir.
+Si no se pasa ningún parámetro, la orden solicitará en la barra de mensajes el texto a introducir. Si la variable [AUTONUM](../../variables/a/autonum.md) es distinta de 0, el texto propuesto es el número del último texto insertado más AUTONUM, con el formato de [FORMATO\_AUTONUM](../../variables/f/formato-autonum.md).
 
-La orden solicitará que se [introduzcan](../../introduccion-de-coordenadas.md)las coordenadas donde insertar el texto, y éste se creará con la [altura de textos](../../variables/a/at.md), [ángulo activo](../../variables/a/aa.md), [justificación de textos](../../variables/j/jt.md)configurados en el momento de la introducción del punto.
+La orden solicitará que se [introduzcan](../../introduccion-de-coordenadas.md) las coordenadas donde insertar el texto, y éste se creará con la [altura de textos](../../variables/a/at.md), [ángulo activo](../../variables/a/aa.md) y [justificación de textos](../../variables/j/jt.md) configurados en el momento de la introducción del punto.
+
+Si el texto está vacío, la orden no inserta nada al introducir el punto.
 
 ## Características de la orden
 

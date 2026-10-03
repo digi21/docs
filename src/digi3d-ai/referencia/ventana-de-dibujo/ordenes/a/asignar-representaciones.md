@@ -6,6 +6,15 @@ Asigna un archivo de representaciones para modificar la representación de las g
 
 No admite parámetros.
 
+## Observaciones
+
+La orden muestra un cuadro de diálogo con las funciones de representación disponibles. En el cuadro de diálogo puedes:
+
+* Añadir funciones a la lista de representaciones a aplicar, o eliminarlas de ella.
+* Cargar un archivo de representaciones o guardar la lista actual en un archivo.
+
+Al aceptar, la orden asigna la lista de representaciones al documento y regenera la vista. Si cancelas, no cambia nada.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asignar-representaciones.md) |

@@ -1,18 +1,22 @@
 # ABRIR\_GOOGLE\_MAPS
 
-Abre una ventana de Google Maps en las coordenadas donde está el cursor en la ventana de dibujo.
+Solicita un punto y abre una ventana de Google Maps centrada en las coordenadas de ese punto.
 
 ## Parámetros
 
 No admite parámetros.
 
+## Observaciones
+
+La orden transforma las coordenadas X e Y del punto del sistema de referencia de coordenadas del archivo de dibujo a WGS84 (EPSG:4326) y abre Google Maps en el navegador predeterminado con nivel de zoom 20. Si hay varias transformaciones posibles, muestra un cuadro de diálogo para elegir una.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](abrir-google-maps.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Abrir una ventana de Google Maps en la posición actual... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión |  |
+| Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {0E8B1B6B-E99E-4BF3-82B0-59E453C971BD} |

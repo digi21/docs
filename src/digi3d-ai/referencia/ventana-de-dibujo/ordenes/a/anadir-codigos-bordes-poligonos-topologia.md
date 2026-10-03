@@ -6,6 +6,18 @@ Añade los códigos activos a las líneas que forman el borde de los polígonos 
 
 No admite parámetros.
 
+## Observaciones
+
+La orden necesita al menos una topología cargada; si no la hay, muestra el aviso «No hay ninguna topología cargada» y termina.
+
+La orden muestra un cuadro de diálogo en el que eliges:
+
+* La topología.
+* Los polígonos a procesar: todos, los que tienen cualquier centroide o los que tienen un centroide concreto.
+* El centroide, si has elegido polígonos con un centroide concreto.
+
+Al aceptar, la orden añade los códigos activos a las líneas del borde exterior y de los huecos de los polígonos elegidos. Solo procesa la topología del archivo de dibujo activo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](anadir-codigos-bordes-poligonos-topologia.md) |
