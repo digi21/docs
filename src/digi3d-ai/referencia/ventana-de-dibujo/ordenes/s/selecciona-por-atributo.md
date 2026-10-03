@@ -13,7 +13,7 @@ Envía una selección a la orden activa por atributos de base de datos.
 
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple. Si no es así, o si falta alguno de los dos parámetros, la orden muestra un aviso y termina.
 
-La orden recorre todos los archivos de dibujo cargados y descarta las entidades borradas. En cada entidad toma el primer código que tiene el atributo indicado y compara su valor con el parámetro 2: los atributos enteros y booleanos se comparan como número entero, los reales como número real y los de texto sin distinguir mayúsculas de minúsculas. Las entidades que coinciden se envían a la orden activa.
+La orden recorre todos los archivos de dibujo cargados y descarta las entidades borradas, las no visibles y las que están fuera de la zona de interés. En cada entidad toma el primer código que tiene el atributo indicado y compara su valor con el parámetro 2: los atributos enteros y booleanos se comparan como número entero, los reales como número real y los de texto sin distinguir mayúsculas de minúsculas. Las entidades que coinciden se envían a la orden activa.
 
 ## Características de la orden
 
