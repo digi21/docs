@@ -8,13 +8,13 @@ Cambia el código correspondiente a una serie de entidades por otro código, ya 
 | :--- | :--- | :--- | :--- |
 | 1 | Código antiguo | Código | Si |
 | 2 | Código nuevo | Código | Si |
-| 3 | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Cadena de letras. En esta orden solo tienen efecto l \(líneas\), p \(puntos\), t \(textos\) y \* \(líneas, puntos y textos\) | Si |
+| 3 | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Cadena de letras. En esta orden `P` solo incluye los puntos; `*` incluye todos los tipos de geometría, también los complejos puntuales | Si |
 
 ## Observaciones
 
 Si no indicas los tres parámetros, la orden muestra un cuadro de diálogo.
 
-La orden trata las líneas, los puntos y los textos visibles y dentro de la zona de interés. Los complejos y los polígonos no se modifican. Las entidades borradas solo se tratan si la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) está activada.
+Con los tres parámetros, la orden trata las entidades de los tipos indicados que están visibles y dentro de la zona de interés. Las entidades borradas solo se tratan si la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) está activada.
 
 ## Características de la orden
 
