@@ -8,9 +8,13 @@ No admite parámetros.
 
 ## Observaciones
 
-El archivo se generará en formato MDTop, con extensión .mdt.
+Antes ejecutar esta orden es necesario dibujar una línea a modo de límite.
 
-Antes ejecutar esta orden es necesario dibujar una entidad cerrada a modo de límite.
+1. Selecciona la línea límite con el pulsador de datos o con el pulsador de tentativo.
+2. La orden toma las entidades visibles, no borradas y dentro de la zona de interés que están dentro del límite, recorta las que lo cruzan y descarta los textos.
+3. La orden calcula la triangulación y la carga como un nuevo archivo de dibujo MDT llamado «Triangulación creada a las hh:mm:ss».
+
+La orden también admite selección múltiple: si se le envían entidades con una orden de selección (por ejemplo [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md)), triangula esas entidades sin límite.
 
 ## Características de la orden
 

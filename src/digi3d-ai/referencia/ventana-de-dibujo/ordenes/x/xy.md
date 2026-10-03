@@ -4,15 +4,33 @@ Introduce las coordenadas de uno o varios puntos.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1, 2, 3 | Coordenadas X, Y y Z del primer punto | Número real | Si |
+| 4, 5, 6... | Coordenadas X, Y y Z de los puntos siguientes, de tres en tres | Número real | Si |
+
+Si no se indican parámetros, la orden muestra un cuadro de diálogo para teclear las coordenadas.
 
 ## Observaciones
 
-Los valores tecleados deben estar separados por espacios en blanco o comas.
+La orden envía cada punto a la orden que se está ejecutando como si se hubiera pulsado el pulsador de datos en esas coordenadas.
+
+En el cuadro de diálogo se teclea un punto por línea. Los valores tecleados deben estar separados por espacios en blanco o comas. Cada línea admite uno de estos formatos:
+
+| Formato | Significado |
+| :--- | :--- |
+| `X Y` | Coordenadas absolutas. La Z es la del punto anterior, o 0 si no hay punto anterior |
+| `X Y Z` | Coordenadas absolutas con Z |
+| `@dX dY` | Incremento respecto al punto anterior, sin cambiar la Z |
+| `@dX dY dZ` | Incremento respecto al punto anterior, también en Z |
+| `distancia<ángulo` | Distancia y ángulo en grados centesimales respecto al punto anterior. El ángulo se mide desde el eje X en sentido antihorario |
+| `distancia<<ángulo` | Distancia y ángulo en grados sexagesimales respecto al punto anterior. El ángulo se mide desde el eje X en sentido antihorario |
+
+El punto anterior es el último vértice de la orden que se está ejecutando. Si esa orden no tiene ningún vértice, la primera línea tiene que ser una coordenada absoluta; si no lo es, la orden muestra un aviso y no envía ningún punto.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](xy.md) |
+| Tipo de orden | [Orden inmediata](xy.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Inserción manual de coordenadas |

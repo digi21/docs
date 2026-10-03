@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Valor de la _EQUIDISTANCIA_ que se haya determinado.
+La orden suma la [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) a la Z del cursor y lleva el cursor a esa Z, aunque la Z esté bloqueada. No redondea la Z a un múltiplo de la equidistancia. Si la variable [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) está activada, la orden asigna también la nueva Z a la variable [Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md).
 
 La equidistancia se define en el _cuadro de diálogo de Nuevo Proyecto de DigiNG_ o mediante la ejecución de la orden [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
 
@@ -19,7 +19,7 @@ Esta orden es utilizada cuando se está curvando. Una vez que el operador ha ter
 | Tipo de orden | [Orden inmediata](sube-z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Subir la coordenada Z al siguiente múltiplo de la equidistancia |
+| Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Subir la coordenada Z al siguiente múltiplo de equidistancia |
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) — equidistancia de curvas de nivel<br>[FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) — fija la coordenada Z al múltiplo de la equidistancia<br>[Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md) — valor de la coordenada Z activa |

@@ -1,20 +1,20 @@
 # SACA\_P
 
-Coloca un punto a una distancia activa DA de un texto que ya está en el dibujo.
+Coloca un punto junto a cada texto del archivo de dibujo que tenga alguno de los códigos indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Distancia activa \([DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) | Número real | Si |
-| 2 | Código punto \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
-| 3 | Código texto \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
+| 1...n | Códigos de los textos junto a los que se colocan los puntos | Nombre de código, o `#etiqueta` para todos los códigos con esa etiqueta | Si; si no se indica ningún código, la orden muestra un cuadro de diálogo para seleccionar los códigos |
 
 ## Observaciones
 
 Esta orden es de gran utilidad cuando se han perdido puntos y necesitamos volver a colocarlos al lado de un texto.
 
-La distancia a la que se situará el punto se contará a partir de la esquina inferior izquierda del texto, la distancia activa principal se contará en el mismo sentido que el texto introducido y la distancia activa secundaria se registrará en el sentido perpendicular a dicho texto.
+La orden recorre los textos visibles, no borrados y dentro de la zona de interés. Por cada texto que tenga alguno de los códigos indicados crea un punto en el punto de inserción del texto, desplazado la distancia activa principal en X y la distancia activa secundaria en Y (ver [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md)). El desplazamiento no tiene en cuenta el ángulo del texto. La Z del punto es la del punto de inserción del texto.
+
+El punto se crea con los códigos activos.
 
 Puedes ejecutar la orden desde la línea de comandos con la siguiente secuencia:
 
@@ -22,7 +22,7 @@ Puedes ejecutar la orden desde la línea de comandos con la siguiente secuencia:
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](saca-p.md) |
+| Tipo de orden | [Orden inmediata](saca-p.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

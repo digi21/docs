@@ -4,16 +4,13 @@ Inserta un texto en el archivo de dibujo.
 
 ## Parámetros
 
-| Número de parámetro | Descripción                                                                                                                                                                           | Valores                  | Opcional |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | -------- |
-| 1                   | Código texto ([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md)              | Identificador del código | Si       |
-| 2                   | Ángulo activo ([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md)          | Número real              | Si       |
-| 3                   | Altura de texto ([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md)        | Número real              | Si       |
-| 4                   | Justificación de texto ([JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real              | Si       |
+| Número de parámetro | Descripción | Valores | Opcional |
+| ------------------- | ----------- | ------- | -------- |
+| 1 | Texto a insertar. Todo lo que sigue al nombre de la orden forma el texto, incluidos los espacios | Texto | Si |
 
-Si no se introducen parámetros, la orden solicita el texto a insertar en la barra de mensajes. Una vez digitalizado el texto, ésta vuelve a solicitar otro texto a insertar y así sucesivamente hasta cancelar la orden mediante la tecla _Esc_.
+Si no se introducen parámetros, la orden solicita el texto a insertar en la barra de mensajes. Si se introduce el parámetro, la orden no solicita el texto.
 
-Si se introduce un parámetro, la orden inserta el texto repetidamente sin solicitar el texto a insertar hasta que se cancele la orden mediante la tecla _Esc_.
+El texto sigue al cursor. Pulsa el pulsador de datos para insertarlo en ese punto. El texto se crea con los códigos activos, la altura [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y la rotación del ángulo activo [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md). Cada ejecución inserta un texto; con la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) activada, la orden se vuelve a ejecutar hasta que se cancele con la tecla _Esc_.
 
 ### Ejemplo:
 
@@ -21,12 +18,14 @@ Si se introduce un parámetro, la orden inserta el texto repetidamente sin solic
 
 ## Observaciones
 
-Si se introduce como parámetro un número y está activa la variable [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md) ejecutaríamos la siguiente sucesión de ordenes:
+Si la variable [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md) es distinta de 0 y no se introduce parámetro, la orden propone como texto el número del último texto insertado más el valor de AUTONUM. El número del último texto insertado es el que ocupa en ese texto la posición de `%d` en [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md).
+
+Si queremos insertar textos pares (2, 4, 6, ...) ejecutaríamos la siguiente sucesión de órdenes, y después `texto` sin parámetros para cada texto siguiente:
 
 `autonum=2  `\
 `texto=2`
 
-Si queremos insertar texto impares(1, 3, 5, ...) ejecutaríamos la siguiente sucesión de órdenes:
+Si queremos insertar texto impares(1, 3, 5, ...) ejecutaríamos la siguiente sucesión de órdenes, y después `texto` sin parámetros para cada texto siguiente:
 
 `autonum=2  `\
 `texto=1`

@@ -6,9 +6,18 @@ Selecciona con un solo clic todas las entidades que se cruzan con el cursor.
 
 No admite parámetros.
 
+## Observaciones
+
+Es necesario que se esté ejecutando previamente una orden que admita selección múltiple.
+
+Pulsa el pulsador de datos o el de tentativo sobre las entidades. La orden selecciona todas las entidades que pasan a menos de 3 píxeles más el tamaño del cursor del punto pulsado. Si no encuentra ninguna, emite un sonido de error.
+
+- Si la variable [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md) está desactivada, la orden envía las entidades a la orden activa y termina.
+- Si VER está activada, la orden marca las entidades y permite seguir añadiendo entidades con nuevas pulsaciones. Pulsa `Esc` para quitar la última entidad añadida y la barra espaciadora para enviar la selección a la orden activa.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](selecciona-todo-en-cursor.md) |
+| Tipo de orden | [Orden interactiva](selecciona-todo-en-cursor.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Selecciona todas las entidades que interseccionan con el cursor |

@@ -6,6 +6,10 @@ Selecciona en los paneles editores de bases de datos la geometría que se corres
 
 No admite parámetros.
 
+## Observaciones
+
+Señala la geometría con el pulsador de datos o con el pulsador de tentativo. La orden selecciona la geometría en los cuatro paneles editores de bases de datos y sigue activa para señalar otra geometría.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](selecciona-geometria-panel-bbdd.md) |

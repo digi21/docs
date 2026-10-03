@@ -1,6 +1,6 @@
 # SELECCIONA\_LINEA
 
-Selecciona aquellas entidades que crucen con una línea virtual generada por el usuario.
+Selecciona aquellas líneas que crucen con una línea virtual generada por el usuario.
 
 ## Parámetros
 
@@ -9,6 +9,8 @@ No admite parámetros.
 ## Observaciones
 
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple.
+
+Digitaliza los dos extremos de la línea virtual con el pulsador de datos. La orden marca las líneas que la cruzan en pantalla. Solo se seleccionan entidades de tipo línea, visibles, no borradas y dentro de la zona de interés. Pulsa el pulsador de datos o la tecla `+` para enviarlas a la orden activa, o el pulsador de reset, la tecla `-` o `Esc` para cancelar. Si ninguna línea cruza, digitaliza otro segundo extremo.
 
 ## Características de la orden
 

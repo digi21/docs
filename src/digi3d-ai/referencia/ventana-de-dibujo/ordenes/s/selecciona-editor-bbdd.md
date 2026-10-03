@@ -6,11 +6,13 @@ Selecciona en el dibujo las entidades enlazadas a los registros que estén selec
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Número del editor de base de datos | — | No |
+| 1 | Número del editor de base de datos | Número entero de 0 a 3. El 0 es el primer editor | No |
 
 ## Observaciones
 
 Requiere que se esté ejecutando una orden que admita selección múltiple.
+
+La orden envía a la orden activa las entidades visibles y dentro de la zona de interés, de cualquier archivo de dibujo cargado, que tengan un código enlazado a alguno de los registros seleccionados en el editor. Solo se tiene en cuenta la tabla del primer registro seleccionado. Si no hay registros seleccionados en el editor, o si ninguna entidad está enlazada a ellos, la orden muestra un aviso y emite un sonido de error.
 
 ## Características de la orden
 

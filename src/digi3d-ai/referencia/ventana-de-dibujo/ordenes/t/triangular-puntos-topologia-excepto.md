@@ -1,13 +1,19 @@
 # TRIANGULAR\_PUNTOS\_TOPOLOGIA\_EXCEPTO
 
-Calcula una triangulación con las líneas de una topología exceptuando aquellos nodos a los que lleguen una línea con un determinado código.
+Calcula una triangulación con las líneas de una topología exceptuando las líneas que tengan un determinado código.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
-| 2 | Código o códigos a excluir (uno o más) | Si |
+| 2...n | Código o códigos a excluir (uno o más) | No |
+
+## Observaciones
+
+La orden toma las líneas que forman los recintos válidos de la topología, descarta las que tienen alguno de los códigos excluidos, calcula la triangulación y la carga como un nuevo archivo de dibujo MDT llamado «Triangulación creada a las hh:mm:ss».
+
+La orden muestra un aviso y termina si se indican menos de dos parámetros, si no hay ninguna topología cargada o si no encuentra la topología indicada.
 
 ## Características de la orden
 

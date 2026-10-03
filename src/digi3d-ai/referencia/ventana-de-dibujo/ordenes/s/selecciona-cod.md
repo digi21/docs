@@ -4,15 +4,19 @@ Selecciona todas las entidades que tengan entre sus códigos los seleccionados.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1...n | Códigos a seleccionar | Nombre de código, o `#etiqueta` para todos los códigos con esa etiqueta | Si; si no se indica ningún código, la orden muestra un cuadro de diálogo para seleccionar los códigos |
 
 ## Observaciones
 
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple.
 
+La orden busca en el archivo de dibujo activo las entidades visibles y dentro de la zona de interés. Las entidades borradas solo se seleccionan si está activada la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md).
+
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-cod.md) |
+| Tipo de orden | [Orden inmediata](selecciona-cod.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar por código... |

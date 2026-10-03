@@ -6,9 +6,13 @@ Selecciona todas las entidades del archivo de dibujo cuando estamos ejecutando �
 
 No admite parámetros.
 
+## Observaciones
+
+La orden marca todas las entidades del archivo de dibujo activo que no están borradas, son visibles y están dentro de la zona de interés. Pulsa el pulsador de datos o la tecla `+` para enviarlas a la orden activa, o la tecla `-` o `Esc` para cancelar. Si no hay ninguna entidad que cumpla las condiciones, la orden muestra un aviso y termina.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](selecciona-todo.md) |
+| Tipo de orden | [Orden interactiva](selecciona-todo.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Selecciona todo |

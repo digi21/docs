@@ -1,16 +1,18 @@
 # SALVAR
 
-Establece cada cuántos minutos se guarda automáticamente el trabajo.
+Establece cada cuántos minutos se hace automáticamente una copia de seguridad del archivo de dibujo activo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Tiempo entre guardados automáticos, en minutos | — | Si |
+| 1 | Tiempo entre copias de seguridad automáticas, en minutos | Número entero | Si |
 
 ## Observaciones
 
-Si no se indica el parámetro, la orden solicita el tiempo de forma interactiva en la barra de estado.
+Si no se indica el parámetro, o si su valor es 0, la orden solicita el tiempo en la barra de estado. El valor propuesto es el intervalo actual. Al introducir 0 en la barra de estado se desactiva la copia automática.
+
+La copia automática es la misma que hace la orden [BAK](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bak.md). Se hace al añadir una entidad, si ha pasado el intervalo desde la copia anterior.
 
 ## Características de la orden
 

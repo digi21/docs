@@ -1,4 +1,4 @@
-# SELECCIONA\_POLÍGONO
+# SELECCIONA\_POLIGONO
 
 Permite digitalizar un nuevo polígono y selecciona todas las entidades que solapan con este polígono.
 
@@ -9,6 +9,8 @@ No admite parámetros.
 ## Observaciones
 
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple.
+
+Digitaliza los vértices del polígono con el pulsador de datos y ciérralo con el pulsador de reset. La orden selecciona las entidades que quedan completamente dentro del polígono y las líneas que cortan su contorno, y las marca. Pulsa el pulsador de datos o la tecla `+` para enviarlas a la orden activa, o el pulsador de reset, la tecla `-` o `Esc` para cancelar. No se seleccionan entidades borradas, ocultas ni fuera de la zona de interés.
 
 ## Características de la orden
 

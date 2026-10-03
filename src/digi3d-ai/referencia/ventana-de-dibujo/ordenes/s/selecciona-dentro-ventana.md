@@ -10,6 +10,8 @@ No admite parámetros.
 
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple.
 
+Digitaliza dos esquinas opuestas de la ventana con el pulsador de datos. La ventana se alinea con los bordes de la pantalla. Si la variable [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md) está activada, la orden marca las entidades seleccionadas y espera confirmación: pulsa el pulsador de datos o la tecla `+` para enviarlas a la orden activa, o el pulsador de reset, la tecla `-` o `Esc` para cancelar. Si VER está desactivada, la orden envía las entidades sin pedir confirmación. Si en la ventana no hay ninguna entidad, la orden emite un sonido de error y vuelve a pedir la primera esquina.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](selecciona-dentro-ventana.md) |
