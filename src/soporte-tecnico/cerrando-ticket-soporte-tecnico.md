@@ -1,23 +1,29 @@
 # Cerrando un tique de soporte técnico
 
-Si el equipo de soporte técnico ha dado solución a tu problema, debes cerrar el tique de soporte técnico para evitar que aparezca como _abierto_.
+Un tique de soporte técnico está en uno de estos dos estados:
 
-Para cerrar un tique de soporte técnico sigue las siguientes instrucciones:
+* **Abierto**: el tique está en curso.
+* **Cerrado**: el problema está resuelto o el tique ha caducado por falta de respuesta.
 
-1. Entra en [http://soporte.digi21.net](http://soporte.digi21.net/).
-2. Pulsa el botón **Iniciar sesión**.
-3. Introduce tu dirección de correo electrónico registrada y la contraseña. Pulsa el botón **Iniciar sesión**.
-4. Pulsa sobre tu nombre en la parte superior derecha. Aparecerá un menú. Selecciona la opción **Mis actividades**.
-5. En la página **Mis actividades** puedes ver todos los tiques que has creado, tanto los que están sin resolver \(aparecen con el estado **Abierta\)**, como los que están resueltos \(que aparen con el estado **Resuelta**\).
-6. Haz clic en el tique de soporte técnico que quieres cerrar. Aparecerá el histórico de mensajes de dicho tique.
-7. Abajo del todo hay un cuadro con el título **Agregue su respuesta**.
-8. Introduce un texto como por ejemplo _El problema ya está resuelto, muchas gracias_. En el mismo instante en el que hagas clic en el cuadro para escribir esa respuesta, aparecerá abajo un cuadro con el título **Considere esta solicitud como resuelta**.
-9. Activa el cuadro **Considere esta solicitud como resuelta** y pulsa el botón **Agregar respuesta**
-10. El tique ya está cerrado.
+La página **Mis tickets de soporte técnico** ([https://www.digi21.net/Soporte](https://www.digi21.net/Soporte)) muestra el estado de cada tique en la columna **Estado**.
 
-## Vídeo
+## Cierre por el soporte técnico
 
-<video controls><source src="https://digi21.blob.core.windows.net/videos-ayuda/Cerrando%20un%20ticket%20de%20soporte%20tecnico.mp4" type="video/mp4"></video>
+El tique lo cierra el equipo de soporte técnico. La web no tiene un botón para que lo cierres tú.
 
+Cuando el problema esté resuelto, contesta en el tique para indicarlo, por ejemplo: _El problema ya está resuelto, muchas gracias_. El soporte técnico cerrará el tique.
 
+## Cierre automático por falta de respuesta
 
+Si el último mensaje del tique es del soporte técnico y no contestas, la web cierra el tique automáticamente:
+
+1. A los 15 días sin respuesta, la web te envía el correo _[Ticket #número] Pendiente de tu respuesta_ con la fecha en la que se cerrará el tique.
+2. A los 30 días sin respuesta, la web cierra el tique y te envía el correo _[Ticket #número] Cerrado por inactividad_.
+
+Los dos plazos cuentan desde el último mensaje del soporte técnico. Si contestas en el tique, el cierre automático se cancela.
+
+## Reabrir un tique
+
+Para reabrir un tique cerrado, escribe un mensaje en la sección **Responder** del tique y pulsa el botón **Enviar respuesta**. El tique vuelve al estado **Abierto** y el soporte técnico recibe tu mensaje.
+
+Si la consulta es nueva y no tiene que ver con el tique cerrado, crea un tique nuevo. Consulta las [reglas para crear un tique de soporte técnico](/soporte-tecnico/reglas-soporte-tecnico.md).
