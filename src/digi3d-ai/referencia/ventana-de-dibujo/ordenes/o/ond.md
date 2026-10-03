@@ -24,16 +24,15 @@ Visualiza solamente los elementos cuyo código sea 020123
 
 ## Observaciones
 
-Podemos especificar el tipo de entidad a mostrar, para cada uno de los códigos: Líneas, Puntos ó Textos.
+Separa los códigos con espacios. Un parámetro que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
 
-Digi3D nos permite cargar archivos de muestra de códigos o guardar uno que generemos nostros:
+Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos a activar. Añade códigos con el botón _Añadir_, o selecciona una etiqueta en el desplegable para añadir los códigos que la tienen asignada.
 
-* Cargar de archivo...: carga un archivo de muestra de códigos previamente generado y guardado.
-* Guardar en archivo...: podemos guardar mediante un nombre, la lista de códigos seleccionada para una posterior utilización. Los archivos generados estarán en formato .xml.
+Para activar solo algunos tipos de geometría de un código, ejecuta [OND\_TIPO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ond-tipo.md).
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ond.md) |
+| Tipo de orden | [Orden inmediata](ond.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

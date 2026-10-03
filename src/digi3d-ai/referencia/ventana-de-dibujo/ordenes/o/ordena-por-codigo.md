@@ -6,6 +6,10 @@ Ordena por código las entidades de un fichero, agrupando en el fichero las enti
 
 No admite parámetros.
 
+## Observaciones
+
+La orden trabaja sobre el archivo de dibujo activo y ordena alfabéticamente por el primer código de cada entidad.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ordena-por-codigo.md) |

@@ -1,6 +1,6 @@
 # U
 
-Borra los últimos puntos de la entidad que se está registrando en el momento de ejecutar la orden.
+Borra el último vértice de la entidad que se está registrando en el momento de ejecutar la orden.
 
 ## Parámetros
 
@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Sólo tiene efecto mientras la entidad no se finalice. También sirve para eliminar el último atributo de la lista de atributos activos.
+Sólo tiene efecto mientras la entidad no se finalice. Cada ejecución borra un vértice. La orden actúa sobre las órdenes de dibujo que admiten borrar vértices, como [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md). Si no hay ninguna orden activa, emite un sonido de error.
 
 ## Características de la orden
 

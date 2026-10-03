@@ -6,11 +6,15 @@ Une las líneas visibles que comparten alguno de los códigos indicados.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Códigos de las líneas a unir | — | Si |
+| 1 … N | Códigos de las líneas a unir, separados por espacios | — | Si |
 
 ## Observaciones
 
-En el menú aparece como un submenú generado dinámicamente, con una entrada por cada código disponible; al elegir uno, se unen entre sí las líneas visibles que tienen ese código.
+La orden une las líneas del archivo de dibujo activo en los nodos donde coinciden sus extremos, siempre que tengan códigos compatibles. Un parámetro que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
+
+Sin parámetros, la orden espera a que selecciones las entidades y une las líneas seleccionadas.
+
+En el menú aparece como un submenú generado dinámicamente, con una entrada por cada etiqueta de la tabla de códigos; al elegir una, se unen entre sí las líneas visibles cuyos códigos tienen esa etiqueta.
 
 ## Características de la orden
 

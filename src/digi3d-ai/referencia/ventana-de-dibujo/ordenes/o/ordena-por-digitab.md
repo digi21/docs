@@ -4,9 +4,13 @@ Reordena las entidades de un archivo según el orden en la tabla de códigos act
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | `-1` para ordenar en orden inverso al de la tabla de códigos. Cualquier otro valor se ignora | Si |
 
 ## Observaciones
+
+La orden trabaja sobre el archivo de dibujo activo y ordena por el primer código de cada entidad.
 
 En caso de querer invertir el orden de las entidades, la secuencia será `ORDENA_POR_DIGI_TAB=-1`
 

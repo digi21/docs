@@ -1,12 +1,18 @@
 # ONSOLO
 
-Activa únicamente los códigos especificados la pantalla de dibujo.
+Activa únicamente los códigos especificados en la ventana de dibujo y en la ventana fotogramétrica.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
+
+## Observaciones
+
+La orden desactiva todos los códigos y después activa los indicados. Un parámetro que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
+
+Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos a activar.
 
 ## Características de la orden
 

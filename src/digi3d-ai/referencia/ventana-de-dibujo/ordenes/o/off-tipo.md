@@ -6,7 +6,24 @@ Desactiva códigos en la pantalla ortogonal.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Pares de código y tipo de geometría (uno o más) | Si |
+| 1 … N | Pares de código y tipo de geometría (uno o más), separados por espacios: `OFF_TIPO=020101 L 030201 PT` | Si |
+
+## Observaciones
+
+El tipo de geometría es una combinación de las letras siguientes:
+
+| Letra | Tipo de geometría |
+| :--- | :--- |
+| L | Líneas |
+| P | Puntos |
+| T | Textos |
+| C | Complejos |
+| H | Polígonos |
+| \* | Todos los tipos |
+
+El tipo indica qué geometrías del código siguen visibles: la orden oculta las geometrías del código cuyo tipo no figura en el parámetro. Un código que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
+
+Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos y una casilla por tipo de geometría. La orden mantiene visibles los tipos marcados y oculta los demás.
 
 ## Características de la orden
 

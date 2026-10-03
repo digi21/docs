@@ -6,8 +6,14 @@ Activa códigos en la ventana de dibujo para un determinado número de archivo.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Archivo | No |
-| 2 | Código o códigos | Si |
+| 1 | Índice del archivo de dibujo | No |
+| 2 … N | Código o códigos (uno o más, separados por espacios) | No |
+
+## Observaciones
+
+El índice 0 corresponde al archivo de dibujo principal y los índices 1, 2… a los archivos de referencia. El índice -2 aplica la orden a todos los archivos de referencia. Cualquier otro índice fuera de rango la aplica a todos los archivos.
+
+Si solo indicas el índice del archivo, la orden no hace nada. Un parámetro que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
 
 ## Características de la orden
 

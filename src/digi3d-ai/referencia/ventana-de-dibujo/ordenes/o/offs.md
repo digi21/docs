@@ -8,6 +8,12 @@ Desactiva códigos en la pantalla estereoscópica.
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+## Observaciones
+
+La orden solo actúa sobre la ventana fotogramétrica. Un parámetro que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
+
+Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos a desactivar.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](offs.md) |

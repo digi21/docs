@@ -8,11 +8,11 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden trabaja por geometrías y no por códigos. Si una geometría se marca como oculta, no se visualizará hasta que se des oculte, independientemente de que sus códigos estén activos.
+Esta orden trabaja por geometrías y no por códigos. Si una geometría se marca como oculta, no se visualizará hasta que se desoculte, independientemente de que sus códigos estén activos. La orden actúa sobre todos los archivos de dibujo cargados. Para volver a mostrar geometrías ocultas, ejecuta [ON\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md).
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](off.md) |
+| Tipo de orden | [Orden inmediata](off_todo.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

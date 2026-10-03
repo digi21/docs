@@ -6,9 +6,13 @@ Ordena por código numérico las entidades de un fichero, agrupando en el ficher
 
 Esta orden no admite parámetros.
 
+## Observaciones
+
+La orden trabaja sobre el archivo de dibujo activo y ordena por el primer código de cada entidad. Convierte el código en número entero leyendo sus primeras cifras; por ejemplo, `020101` y `20101` se ordenan como 20101.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ordena-por-codigo-n.md) |
+| Tipo de orden | [Orden inmediata](ordena-por-codigo-n.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Avandazado/Ordenar las entidades del archivo de dibujo por código numérico |
