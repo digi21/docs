@@ -4,7 +4,11 @@ Divide las entidades lineales, con un número de vértices superior al especific
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Códigos de las líneas a dividir. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+
+Sin parámetros, la orden solicita que selecciones una línea. Con parámetros, la orden divide sin pedir datos todas las líneas visibles, no borradas y dentro de la zona de interés que tengan alguno de los códigos indicados.
 
 ## Observaciones
 
@@ -18,13 +22,13 @@ MAXPUNTOS=500
 
 CAMB\_MAXPUNTOS=020126
 
-Dividirá todas aquellas entidades lineales cuyo código sea 020126, en tramos que tengan 500 vértices cada uno
+Dividirá todas aquellas entidades lineales cuyo código sea 020126, en tramos que tengan 500 vértices cada uno. Cada tramo empieza en el último vértice del tramo anterior. El último tramo puede tener menos vértices.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-maxpuntos.md) |
+| Tipo de orden | [Orden interactiva](camb-maxpuntos.md) sin parámetros; [orden inmediata](camb-maxpuntos.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | No |
+| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

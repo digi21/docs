@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Si tienes más de un fichero de referencia, se intercambiará con el primer fichero que se cargó.
+La orden alterna el fichero activo entre el primer y el segundo fichero de dibujo cargados. Los ficheros cargados después del segundo no intervienen: si el activo es uno de ellos, la orden activa el segundo. Con un solo fichero cargado, la orden no hace nada.
 
 ## Características de la orden
 

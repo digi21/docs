@@ -6,6 +6,12 @@ Cambia valores en la BBDD asociada con el archivo de dibujo.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden muestra un cuadro de diálogo para seleccionar los códigos y, debajo, los datos del cambio: el campo, el valor antiguo y el valor nuevo.
+
+La orden recorre las entidades visibles, no borradas y dentro de la zona de interés del archivo de dibujo activo. En cada código de esas entidades que coincide con uno de los seleccionados, sustituye el valor del campo por el valor nuevo si el valor actual es igual al valor antiguo. Con la casilla de cualquier valor, sustituye el valor sea cual sea. Con la casilla de identificador único, asigna a cada código un GUID nuevo en lugar del valor nuevo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](cambiar-valores-bbdd.md) |

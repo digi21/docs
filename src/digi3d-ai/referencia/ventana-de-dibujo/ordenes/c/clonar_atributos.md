@@ -12,7 +12,7 @@ La orden solicita que se seleccione una geometría. Una vez seleccionada sustitu
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](clonar.md)                                               |
+| Tipo de orden                                    | [Orden interactiva](clonar_atributos.md)                                     |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | Inmediato/Más/Clona los atributos de una entidad                             |

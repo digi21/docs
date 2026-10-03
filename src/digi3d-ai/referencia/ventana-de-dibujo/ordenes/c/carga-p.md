@@ -6,18 +6,34 @@ Lee el contenido de un fichero ASCII de coordenadas, incorporando al archivo de 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| Número de punto | Identifica de forma unívoca cada uno de los puntos del fichero | Número entero | No |
-| Coordenada X | Representa la coordenada X | Número real | No |
-| Coordenada Y | Representa la coordenada Y | Número real | No |
-| Coordenada Z | Representa la coordenada Z | Número real | No |
+| 1 | Nombre del fichero ASCII de coordenadas | Ruta de archivo | Si |
+
+Sin parámetros, la orden muestra un cuadro de diálogo para elegir el fichero y los códigos del punto, del texto con el número de punto y del texto con la cota.
 
 ## Observaciones
 
-Cada línea del fichero deberá tener tres o cuatro valores separados por comas o espacios en blanco.
+Cada línea del fichero contiene cuatro valores separados por espacios, tabuladores o comas:
+
+| Posición | Descripción | Valores |
+| :--- | :--- | :--- |
+| 1 | Número de punto. La orden lo usa solo como texto | Texto |
+| 2 | Coordenada X | Número real |
+| 3 | Coordenada Y | Número real |
+| 4 | Coordenada Z | Número real |
+
+La orden ignora las líneas con menos de cuatro valores o cuyas coordenadas no son números.
+
+Por cada línea, la orden crea:
+
+* Un punto en las coordenadas leídas, con el código del punto. Si el código es lineal, la orden no crea el punto.
+* Un texto con el número de punto, desplazado una altura de texto ([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md)) en X y en Y.
+* Un texto con la Z, desplazado una altura de texto en X y dos alturas de texto hacia abajo en Y.
+
+Con el parámetro, el código del punto es el primer código activo, el código del texto del número de punto es `PUNTOS` y el código del texto de la cota es `COTAS`.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](carga-p.md) |
+| Tipo de orden | [Orden interactiva](carga-p.md) sin parámetros; [orden inmediata](carga-p.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

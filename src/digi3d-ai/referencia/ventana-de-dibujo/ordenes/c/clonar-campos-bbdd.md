@@ -6,6 +6,10 @@ Clona los campos de BBDD de la geometría seleccionada.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden solicita que se seleccione una geometría. Para cada campo de BBDD de los códigos activos, la orden copia el valor del campo con el mismo nombre en los códigos de la geometría seleccionada. Si varios códigos de la geometría tienen ese campo, usa el primero. Los campos que la geometría no tiene conservan su valor.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](clonar-campos-bbdd.md) |

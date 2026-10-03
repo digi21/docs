@@ -12,9 +12,11 @@ Al ejecutar esta orden solicita que seleccionemos la geometría o geometrías a 
 
 Esta orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md), de manera que podemos modificar múltiples geometrías simultáneamente.
 
+Si el valor de un atributo activo es un valor especial (macro), la orden lo evalúa para cada geometría y asigna el resultado convertido al tipo del campo.
+
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](camb-cod.md)                                                                                                                                |
+| Tipo de orden                                    | [Orden interactiva](camb_atributos.md)                                                                                                                              |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Repite automáticamente                           | Si                                                                                                                                                              |
 | Opción del menú donde aparece la orden           | Editar/Cambiar los atributos de una entidad por los activos                                                                                                     |

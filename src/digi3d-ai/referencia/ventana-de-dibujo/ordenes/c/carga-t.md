@@ -6,15 +6,29 @@ Lee la información de un fichero ASCII que contiene coordenadas y textos, incor
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| Primer dato | Identifica de forma unívoca cada uno de los puntos del fichero. Es el número de punto | Número entero | No |
-| Segundo dato | Representa la coordenada X | Número real | No |
-| Tercer dato | Representa la coordenada Y | Número real | No |
-| Cuarto dato | Representa la coordenada Z | Número real | Si |
-| Quinto dato | Contiene un texto referenta al punto. Si el texto contiene espacios en blanco debe escribirse entre comillas \(" "\) | Texto | No |
+| 1 | Nombre del fichero ASCII | Ruta de archivo | Si |
+
+Sin parámetros, la orden muestra un cuadro de diálogo para elegir el fichero.
+
+## Observaciones
+
+Cada línea del fichero contiene cinco valores separados por espacios, tabuladores o comas:
+
+| Posición | Descripción | Valores |
+| :--- | :--- | :--- |
+| 1 | Número de punto. La orden no lo usa | Texto |
+| 2 | Coordenada X | Número real |
+| 3 | Coordenada Y | Número real |
+| 4 | Coordenada Z | Número real |
+| 5 | Texto. Si el texto contiene espacios en blanco debe escribirse entre comillas \(" "\) | Texto |
+
+La orden ignora las líneas con menos de cinco valores.
+
+Por cada línea, la orden crea un texto desplazado respecto a las coordenadas leídas el valor de [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) en X y el valor de la distancia activa secundaria (DA2) en Y. El texto toma la altura [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), el ángulo [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) y la justificación [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) activos.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](carga-t.md) |
+| Tipo de orden | [Orden interactiva](carga-t.md) sin parámetros; [orden inmediata](carga-t.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

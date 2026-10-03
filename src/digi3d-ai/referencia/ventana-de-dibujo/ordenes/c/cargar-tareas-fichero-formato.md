@@ -4,17 +4,24 @@ Carga un fichero de texto con cualquier formato que contenga coordenadas de punt
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Archivo | Directorio donde se encuentra el archivo | Si |
-| 2 | Palabra con la coordenada X | Número real | Si |
-| 3 | Palabra con la coordenada Y | Número real | Si |
-| 4 | Palabra con la coordenada Z | Número real | Si |
-| 5 | Palabra con la descripción | Número real | Si |
+No admite parámetros.
 
 ## Observaciones
 
-Estos puntos aparecerán en la lista de tareas facilitando al usuario posicionarse en dichas coordenadas mediante un solo clic.
+La orden muestra un cuadro de diálogo con estos datos:
+
+| Dato | Descripción | Valores |
+| :--- | :--- | :--- |
+| Archivo | Ruta del fichero de texto | Ruta de archivo |
+| X | Posición de la palabra con la coordenada X | Número entero; la primera palabra es la 0 |
+| Y | Posición de la palabra con la coordenada Y | Número entero; la primera palabra es la 0 |
+| Z | Posición de la palabra con la coordenada Z | Número entero; la primera palabra es la 0 |
+| Descripción | Posición de la palabra con la descripción de la tarea | Número entero; la primera palabra es la 0 |
+| Tipo de tarea | Tipo con el que se crean las tareas | Lista |
+
+Las palabras de cada línea se separan por espacios, tabuladores o comas. La orden ignora las líneas que no tienen la palabra de mayor posición indicada.
+
+Estos puntos aparecerán en la lista de tareas facilitando al usuario posicionarse en dichas coordenadas mediante un solo clic. Si la opción de limpiar automáticamente la lista de tareas está activada, la orden borra antes las tareas existentes.
 
 ## Características de la orden
 

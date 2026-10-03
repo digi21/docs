@@ -4,7 +4,13 @@ Modifica la altura de uno o varios textos del dibujo.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+
+Sin parámetros, la orden solicita que selecciones los textos. Admite selección múltiple.
+
+Con parámetros, la orden modifica sin pedir datos todos los textos visibles, no borrados y dentro de la zona de interés que tengan alguno de los códigos indicados.
 
 ## Observaciones
 
@@ -12,9 +18,9 @@ Antes de ejecutar la orden debes asignar la nueva altura de texto con la orden [
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-at.md) |
+| Tipo de orden | [Orden interactiva](camb-at.md) sin parámetros; [orden inmediata](camb-at.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar altura de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
