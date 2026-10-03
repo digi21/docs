@@ -1,4 +1,4 @@
-# foto
+# Foto
 
 Ordena abrir una ventana fotogramétrica.
 

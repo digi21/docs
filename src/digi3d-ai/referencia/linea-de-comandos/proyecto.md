@@ -1,4 +1,4 @@
-# proyecto
+# Proyecto
 
 Carga un archivo de proyecto fotogramétrico
 

@@ -1,4 +1,4 @@
-# ¿Dónde esta la barra de herramientas de selección de códigos?
+# ¿Dónde está la barra de herramientas de selección de códigos?
 
 Si eres usuario de versiones anteriores de _Digi3D_, y estás ejecutando _Digi3D.AI_ habrás comprobado que ha desaparecido la barra de herramientas _Código_, es decir, la barra de herramientas clásica que te permitía seleccionar el código con el que digitalizar entidades.
 
