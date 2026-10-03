@@ -36,6 +36,8 @@ Si el valor no tiene ese formato o no cabe en el tipo, por ejemplo `-1` para un 
 
 Si introducimos como valor a asignar una [Macro de base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md) el programa mostrará el nombre de la macro en el panel de atributos activos y el campo se configurará como un campo de sólo lectura. Al almacenar la geometría se almacenará el valor calculado.
 
+De las macros con parámetro, se admite `%ENTITY_ATTRIBUTE=nombre%`, que toma el valor del atributo `nombre` de la geometría. `%CENTROID_VALUE=…%` no se admite: solo tiene valor al exportar topologías.
+
 ## Características de la orden
 
 | Tipo de orden                                    | Orden inmediata |
