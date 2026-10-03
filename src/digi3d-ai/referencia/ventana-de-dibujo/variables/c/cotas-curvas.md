@@ -21,6 +21,8 @@ El número de curvas cortadas tiene que ser igual a la diferencia de Z entre los
 
 Tras cada par de puntos, la orden queda a la espera de un nuevo primer punto.
 
+Si la [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) no es mayor que 0, al iniciarse la orden o al digitalizar el segundo punto, la orden muestra un globo de error y finaliza.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva]() |
