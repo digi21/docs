@@ -16,7 +16,7 @@ La orden muestra un cuadro de diálogo en el que se eligen:
 * El **Código del centroide**: solo se procesan los recintos cuyo centroide tiene este código.
 * El **Tipo de recorte**, que indica qué entidades se consideran dentro del recinto.
 
-Para cada recinto de las topologías cargadas cuyo centroide tiene el código indicado, la orden borra las entidades del archivo de dibujo activo que tienen alguno de los códigos elegidos y quedan dentro del recinto. No se tienen en cuenta las entidades borradas, las no visibles, las que están fuera de la zona de interés ni las que forman parte de una topología.
+Para cada recinto de las topologías cargadas cuyo centroide tiene el código indicado, la orden borra las entidades del archivo de dibujo activo que tienen alguno de los códigos elegidos y quedan dentro del recinto. Si el tipo de recorte corta las líneas que cruzan el contorno, la orden sustituye cada una de ellas por sus trozos exteriores. No se tienen en cuenta las entidades borradas, las no visibles, las que están fuera de la zona de interés ni las que forman parte de una topología.
 
 ## Características de la orden
 
