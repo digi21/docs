@@ -10,7 +10,7 @@ Copia una entidad de dibujo, aplicando traslación, factor de escala y giro.
 
 ## Observaciones
 
-Selecciona la entidad y digitaliza 4 puntos: dos correspondientes a la entidad original y otros dos a la entidad a generar. Si la entidad seleccionada es un punto o un texto, el punto de selección se toma como primer punto de origen.
+Selecciona la entidad y digitaliza 4 puntos: dos correspondientes a la entidad original y otros dos a la entidad a generar. Si la entidad seleccionada es un punto, un complejo puntual o un texto, el punto de selección se toma como primer punto de origen.
 
 La nueva entidad conserva los códigos de la original. Si la variable [FORZAR\_CODIGO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/forzar-codigo-activo.md) está activa, la nueva entidad se crea con el código activo.
 
