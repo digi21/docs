@@ -12,7 +12,7 @@ La orden vacía la lista de atributos activos y termina. No modifica las entidad
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden inmediata](eliminar-segmentos-cortos.md)                              |
+| Tipo de orden                                    | [Orden inmediata](elimina_atributos_activos.md)                              |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | _Esta orden no está ubicada en ninguna barra de herramientas._               |
