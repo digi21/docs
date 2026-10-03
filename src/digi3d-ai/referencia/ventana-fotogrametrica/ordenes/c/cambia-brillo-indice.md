@@ -29,7 +29,7 @@ La intensidad de los índices es un valor que puede variar entre 0 y 255 y esta 
 | Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Índices/Brillo/Izquierda/Derecha/Aclarar, Oscurecer y Establecer el brillo original<br>Ventana fotogramétrica/Índices/Brillo/Izquierda/Aclarar, Oscurecer y Establecer el brillo original<br>Ventana fotogramétrica/Índices/Brillo/Derecha/Aclarar, Oscurecer y Establecer el brillo original |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
 | Variables relacionadas | No tiene variables relacionadas |
