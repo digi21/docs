@@ -10,15 +10,17 @@ Esta orden se puede ejecutar con o sin parámetros.
 
 | Número de parámetro | Descripción | Valores admitidos | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Ángulo activo | Número real | Si |
+| 1 | Ángulo activo | Número real, o **?** para consultar el valor actual en un globo | Si |
 
 ### Sin parámetros
 
-Si ejecutamos esta orden sin parámetros, esta solicitará que digitalicemos gráficamente dos puntos. Una vez digitalizado el segundo punto, se asignará el valor del ángulo que forma el vector que une los dos puntos.
+Si ejecutamos esta orden sin parámetros, esta solicitará en la barra de estado que tecleemos el valor o que digitalicemos gráficamente dos puntos. Si se digitalizan dos puntos, se asignará el valor del ángulo que forma el vector que une los dos puntos.
 
 ## Observaciones
 
 El valor del _ángulo activo_, debe introducirse en grados sexagesimales. El origen de los ángulos coincide con el eje positivo de las coordenadas X, y el avance en sentido contrario al de las agujas del reloj.
+
+El valor por defecto es 0.
 
 ## Ejemplos
 

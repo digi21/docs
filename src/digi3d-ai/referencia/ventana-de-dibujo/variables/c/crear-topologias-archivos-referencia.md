@@ -1,16 +1,20 @@
 # CREAR\_TOPOLOGIAS\_ARCHIVOS\_REFERENCIA
 
-Si se activa, se crearán topologías también en los archivos de referencia al crear topologías desde el menú «Topologías».
+Si se activa, la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md) crea las topologías en todos los archivos de dibujo cargados (el archivo activo y los archivos de referencia) en lugar de solo en el archivo activo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| No |
+| 1 | Valor que indica si se crean topologías también en los archivos de referencia |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+
+## Observaciones
+
+Por defecto está desactivada.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](crear-topologias-archivos-referencia.md) |
+| Tipo de orden | [Variable booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Crear topologías también en archivos de referencia |

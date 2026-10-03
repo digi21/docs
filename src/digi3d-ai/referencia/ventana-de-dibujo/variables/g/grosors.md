@@ -1,18 +1,26 @@
 # GROSORS
 
-Grosor con que se muestran los vectores en la pantalla estereoscópica.
+Grosor adicional con que se muestran los vectores en la pantalla estereoscópica.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
+| 1 | Valor numérico | Número entero | Si |
+
+Si se ejecuta sin parámetros, la orden muestra un cuadro de diálogo para introducir el valor.
+
+## Observaciones
+
+El valor, en píxeles, se suma al grosor estereoscópico que tiene asignado cada código en la tabla de códigos. El grosor resultante nunca es inferior a 1 píxel. El valor por defecto es 0.
+
+Al cambiar el valor, la pantalla estereoscópica se regenera.
 
 ### Ejemplos
 
 `GROSORS=2`
 
-Asigna como grosor para los vectores en la pantalla estereoscópica el valor 2
+Suma 2 píxeles al grosor de los vectores en la pantalla estereoscópica
 
 `GROSORS=?`
 
@@ -20,7 +28,7 @@ Muestra el valor actual del grosor de los vectores en la pantalla estereoscópic
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](grosors.md) |
+| Tipo de orden | [Variable numérica](../../../ordenes/variables/variables-numericas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

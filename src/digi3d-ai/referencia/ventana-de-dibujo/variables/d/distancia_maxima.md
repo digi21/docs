@@ -16,9 +16,17 @@ Esta orden se puede ejecutar con un parámetro o sin parámetros
 
 ### Sin parámetros
 
-Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes el perímetro máximo de segmento.
+Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes el perímetro máximo de segmento, o que digitalicemos dos puntos para asignar la distancia entre ellos.
 
 Si introducimos un 0, se deshabilitará la restricción de tamaño máximo de segmento.
+
+`DISTANCIA_MAXIMA=?` muestra el valor actual en un globo.
+
+## Observaciones
+
+La longitud del segmento se mide en planimetría (sin tener en cuenta la Z). Si el último segmento supera la distancia máxima, la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) acorta el segmento en su misma dirección hasta esa distancia.
+
+El valor por defecto es 0 (sin restricción).
 
 ## Ejemplos
 

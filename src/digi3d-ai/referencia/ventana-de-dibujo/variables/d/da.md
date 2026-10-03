@@ -23,14 +23,22 @@ Esta orden se puede ejecutar con un parámetro, con dos parámetros o sin parám
 
 Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes primero la distancia activa y luego la secundaria.
 
-Estas distancias las podemos introducir manualmente \(tecleando el valor y luego pulsando Enter\) o gráficamente en la ventana de dibujo. En caso de hacerlo gráficamente, se asignará la distancia entre los dos puntos digitalizados.
+Estas distancias las podemos introducir manualmente \(tecleando el valor y luego pulsando Enter\) o gráficamente en la ventana de dibujo. En caso de hacerlo gráficamente, se asignará la distancia en planimetría (sin tener en cuenta la Z) entre los dos puntos digitalizados.
+
+### Consulta
+
+`DA=?` muestra en un globo los valores de la distancia activa principal y de la secundaria.
+
+## Observaciones
+
+El valor por defecto de las dos distancias es 1.
 
 ## Ejemplos
 
-Para asignar como distancia activa principal el valor 12.45 ejecutaremos la orden:
+Para asignar el valor 12.45 a la distancia activa principal y a la secundaria ejecutaremos la orden:
 
 ```text
-DA=12.5
+DA=12.45
 ```
 
 Para asignar como distancia activa principal el valor 12.45 y como distancia activa secundaria el valor 22.49 ejecutaremos la orden:

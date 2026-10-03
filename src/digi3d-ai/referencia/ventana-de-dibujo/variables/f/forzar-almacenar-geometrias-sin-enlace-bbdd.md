@@ -1,16 +1,16 @@
 # FORZAR\_ALMACENAR\_GEOMETRIAS\_SIN\_ENLACE\_BBDD
 
-Si se activa, al modificar alguna geometría existente con enlace a base de datos, ésta se almacenará sin dicho enlace.
+Si se activa, las geometrías nuevas y las geometrías modificadas se almacenan sin enlace a base de datos: sus códigos pierden la tabla, el identificador y los atributos de base de datos.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| No |
+| 1 | Valor que indica si se almacenan las geometrías sin enlace a base de datos |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](forzar-almacenar-geometrias-sin-enlace-bbdd.md) |
+| Tipo de orden | [Variable booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Base de Datos/Forzar a que las geometrías nuevas o modificadas no tengan enlace de BBDD |
