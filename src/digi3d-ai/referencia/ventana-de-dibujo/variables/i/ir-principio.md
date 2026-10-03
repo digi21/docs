@@ -9,7 +9,7 @@ Establece las coordenadas a las que se desplazará la ventana fotogramétrica al
 | :--- | :--- | :--- | :--- |
 | 1 | Ubicación a la que desplazar la ventana fotogramétrica al finalizar una línea |**0**: Permanecer en el sitio.<br>**1**: Ir al principio de la línea.<br>**2**: Ir al principio de la línea sumando a su Z el valor de la equidistancia.<br>**3**: Ir al principio de la línea restando a su Z el valor de la equidistancia.<br>**4**: Ir al último vértice de la línea sumando a su Z el valor de la equidistancia.<br>**5**: Ir al último vértice de la línea restando a su Z el valor de la equidistancia.<br>**?**: Consultar el valor actual en un globo.| Si |
 
-Si se ejecuta sin parámetros, la orden asigna el valor 1 si el valor actual es 0, y el valor 0 en cualquier otro caso. El parámetro se reduce con el resto de dividirlo entre 6, de modo que 6 equivale a 0.
+Si se ejecuta sin parámetros, la orden asigna el valor 1 si el valor actual es 0, y el valor 0 en cualquier otro caso. El parámetro se reduce con el resto positivo de dividirlo entre 6, de modo que 6 equivale a 0 y -1 equivale a 5.
 
 
 ## Observaciones
