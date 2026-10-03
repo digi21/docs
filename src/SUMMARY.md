@@ -1322,7 +1322,7 @@
     * [Utilidades](digi3d-ai/referencia/utilidades/README.md)
       * [Generador de archivos de Ortofoto Estereoscópica](digi3d-ai/referencia/generador-de-archivos-de-ortofoto-estereoscopica.md)
       * [Generador de Niveles Piramidales](digi3d-ai/referencia/generador-de-niveles-piramidales.md)
-      * [Transformador Universal de Coordenadas](digi3d-ai/referencia/transformador-universal-de-coordenadas.md)
+      * [Reproject (antes Transformador Universal de Coordenadas)](digi3d-ai/referencia/transformador-universal-de-coordenadas.md)
     * [Asistente con IA](digi3d-ai/referencia/asistente-ia/README.md)
       * [Proveedores en la nube](digi3d-ai/referencia/asistente-ia/proveedores.md)
       * [Configurar LM Studio](digi3d-ai/referencia/asistente-ia/lm-studio.md)
