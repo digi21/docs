@@ -20,7 +20,7 @@ Muestra el valor actual del número de decimales
 
 ## Observaciones
 
-Si ejecutas la orden sin parámetros, emite un sonido de error y no cambia el valor. El número de decimales es propio de cada ventana de dibujo y vale 3 al abrirla.
+Si ejecutas la orden sin parámetros o con un valor negativo, emite un sonido de error y no cambia el valor. El número de decimales es propio de cada ventana de dibujo y vale 3 al abrirla.
 
 ## Características de la orden
 
