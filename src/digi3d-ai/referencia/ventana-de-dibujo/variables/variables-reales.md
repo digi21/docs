@@ -4,7 +4,9 @@ Son variables que pueden almacenar un número real \(con decimales\).
 
 ### Parámetros
 
-Estas órdenes requieren que les pasemos por parámetro el valor a asignar.
+Estas órdenes reciben por parámetro el valor a asignar. Si el parámetro es **?**, muestran el valor actual en un globo.
+
+La mayoría de estas órdenes, si se ejecutan sin parámetros, muestran en la barra de estado un cuadro de texto para escribir el valor. Consulta la página de cada variable.
 
 ### Ejemplos
 
