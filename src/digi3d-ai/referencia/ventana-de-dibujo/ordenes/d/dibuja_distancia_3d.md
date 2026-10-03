@@ -12,7 +12,7 @@ La orden solicitará que se digitalice el primer punto. Tras capturarlo, se most
 
 El texto se sitúa en el punto medio entre los dos puntos, girado en la dirección de la línea que los une, con la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación de [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y el número de decimales de [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md).
 
-La distancia se calcula en el espacio \(coordenadas X, Y, Z\), en las unidades del sistema de referencia de coordenadas, por lo que incluye el efecto de la diferencia de cota entre los dos puntos. Para obtener únicamente la distancia planimétrica utilice [DIBUJA\_DISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_distancia.md).
+La distancia se calcula en el espacio \(coordenadas X, Y, Z\) con la calculadora geográfica del dibujo, igual que [MIDE\_SEGMENTO\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-segmento-xyz.md): con un sistema de referencia geográfico, la distancia no se expresa en grados sino en la unidad de trabajo. La distancia incluye el efecto de la diferencia de cota entre los dos puntos. Para obtener únicamente la distancia planimétrica utilice [DIBUJA\_DISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_distancia.md).
 
 ## Características de la orden
 
