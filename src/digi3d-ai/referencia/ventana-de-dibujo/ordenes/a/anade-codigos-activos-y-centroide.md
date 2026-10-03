@@ -4,9 +4,7 @@ Añade los códigos activos a las entidades que forman el contorno de los recint
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Opcional |
-| :--- | :--- | :--- |
-| 1 | Ordenar de forma inversa (0/1) | Si |
+No admite parámetros.
 
 ## Observaciones
 
