@@ -39,6 +39,6 @@ El punto anterior es el último vértice de la orden que se está ejecutando. Si
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
-| Órdenes relacionadas | [XYLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xylinea.md)<br>[XYZLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xyzlinea.md) |
+| Órdenes relacionadas | [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[XYLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xylinea.md)<br>[XYZLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xyzlinea.md) |
 | Nombre interno | {140CD659-1BAF-4db6-A70B-2DB907255CB2} |
 
