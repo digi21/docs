@@ -10,7 +10,7 @@ Asigna la Z del centroide a las líneas que forman cada polígono de las topolog
 
 ## Observaciones
 
-La orden necesita al menos una topología cargada; si no la hay, muestra un mensaje de error y termina. La orden ignora los nombres que no corresponden a ninguna topología cargada. Si no se pasa ningún nombre, la orden no modifica ninguna línea. La opción de menú ejecuta la orden una vez por cada topología cargada.
+La orden necesita al menos una topología cargada; si no la hay, muestra un mensaje de error y termina. Por cada nombre que no corresponde a ninguna topología cargada, la orden muestra un aviso. Si no se pasa ningún nombre, la orden usa todas las topologías cargadas. La opción de menú ejecuta la orden una vez por cada topología cargada.
 
 Para cada polígono con centroide de la topología del archivo de dibujo activo, la orden asigna a todos los vértices de las líneas del contorno exterior la Z del centroide. No modifica las líneas de los huecos.
 

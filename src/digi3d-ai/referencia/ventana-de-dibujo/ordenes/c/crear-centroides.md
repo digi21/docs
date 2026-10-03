@@ -6,7 +6,7 @@ Crea los centroides de los polígonos de las topologías cargadas.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1...n | Nombres de las topologías a incluir. Se ignoran los nombres que no corresponden a ninguna topología cargada | Nombres de topología | No. Si no se indica ninguno, la orden no crea ningún centroide |
+| 1...n | Nombres de las topologías a incluir. Por cada nombre que no corresponde a ninguna topología cargada, la orden muestra un aviso | Nombres de topología | Sí. Si no se indica ninguno, la orden usa todas las topologías cargadas |
 
 ## Observaciones
 
