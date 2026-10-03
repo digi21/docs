@@ -6,9 +6,13 @@ Establece o cambia el fichero de puntos que utiliza DigiNG sin necesidad de aban
 
 No admite parámetros.
 
+## Observaciones
+
+La orden muestra un cuadro de diálogo para seleccionar el fichero de puntos. Si se cancela el cuadro de diálogo, el fichero de puntos no cambia.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](fichero-p.md) |
+| Tipo de orden | [Orden inmediata](fichero-p.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

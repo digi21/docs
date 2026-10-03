@@ -6,6 +6,15 @@ Busca, por inundación, el centroide del polígono topológico sobre el que se e
 
 No admite parámetros.
 
+## Observaciones
+
+La orden necesita una topología temporal calculada; si no la hay, muestra el aviso «No hay ninguna topología temporal creada» y termina.
+
+1. Pulsa el botón de datos dentro del recinto. Al mover el cursor, la orden resalta solo los recintos que tienen centroide.
+2. Pulsa la barra espaciadora para aceptar. La orden centra la vista en el centroide del recinto y termina. Si el recinto no tiene centroide, suena el pitido de error y la vista no se mueve.
+
+Pulsa el botón de reset para deseleccionar el recinto y Esc para cancelar la orden.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](buscar-centroide-i.md) |

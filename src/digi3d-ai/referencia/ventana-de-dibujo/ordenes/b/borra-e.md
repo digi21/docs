@@ -10,6 +10,8 @@ No admite parámetros.
 
 Basta con seleccionar, mediante el cursor, los elementos que se desean borrar del fichero.
 
+Cada ejecución borra una entidad seleccionada con el cursor, o todas las entidades de una selección múltiple. Si la entidad seleccionada con el cursor no pertenece al archivo de dibujo activo, suena el aviso de error y no se borra.
+
 Esta orden impide la visualización de estos elementos, insertando una marca de borrado en los registros del fichero. Mientras no se ejecute la acción de comprimir el fichero de dibujo estaremos en disposición de:
 
 * Activar de nuevo su visualización en pantalla: Para ello se recurre a la orden [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md).
@@ -19,7 +21,7 @@ Esta orden impide la visualización de estos elementos, insertando una marca de 
 
 | Tipo de orden | [Orden interactiva](borra-e.md) |
 | :--- | :--- |
-| Repite automáticamente | No |
+| Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Eliminar las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |

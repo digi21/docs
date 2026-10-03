@@ -6,7 +6,13 @@ Borra todos los textos cuyo "texto" coincida con alguno de los parámetros (admi
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos de los textos a borrar (uno o más) | No |
+| 1 … N | Contenido de los textos a borrar (uno o más). Admite los comodines `*` y `?` | Si |
+
+## Observaciones
+
+La orden compara el contenido de cada texto del archivo de dibujo activo con los valores indicados y borra los textos que coinciden con alguno de ellos.
+
+Con dos o más parámetros, la orden borra sin mostrar ningún cuadro de diálogo; la comparación usa comodines y distingue entre mayúsculas y minúsculas. Con un solo parámetro o sin parámetros, la orden muestra el cuadro de diálogo **Borrar textos**, en el que se escriben los textos a borrar y se eligen las opciones **Diferenciar entre mayúsculas y minúsculas** y **Utilizar comodines**.
 
 ## Características de la orden
 

@@ -8,6 +8,12 @@ Elimina centroides y líneas para agrupar polígonos vecinos con el mismo centro
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
 
+## Observaciones
+
+La topología tiene que estar cargada. Si no hay ninguna topología cargada, la orden muestra el aviso «No hay ninguna topología cargada». Si no se indica el parámetro o la topología indicada no está cargada, suena el aviso de error.
+
+Dos polígonos vecinos se agrupan cuando sus centroides tienen el mismo texto y los mismos códigos. La orden borra las líneas que comparten los dos polígonos y uno de los dos centroides.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](generalizar-topologia.md) |

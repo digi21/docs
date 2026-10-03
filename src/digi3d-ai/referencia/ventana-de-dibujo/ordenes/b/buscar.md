@@ -8,9 +8,13 @@ No admite parámetros.
 
 ## Observaciones
 
+La orden abre el panel de búsqueda y termina. En el panel se elige uno de estos criterios de búsqueda:
+
+* Buscar por expresión Python
 * Complejos por código
 * Entidades con atributo nulo
 * Entidades con atributo nulo por campo
+* Líneas con un número impar de vértices
 * Líneas que cruzan con otras líneas
 * Polígonos por código
 * Puntos por código
@@ -21,7 +25,7 @@ No admite parámetros.
 * Todas las entidades por código
 * Todas las líneas
 * Todas las líneas por criterio
-* Todos los comprejos
+* Todos los complejos
 * Todos los polígonos
 * Todos los puntos
 * Todos los textos
@@ -30,7 +34,7 @@ Puedes refinar la búsqueda especificando cualquier parámetro que la orden te p
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](buscar.md) |
+| Tipo de orden | [Orden inmediata](buscar.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Buscar |

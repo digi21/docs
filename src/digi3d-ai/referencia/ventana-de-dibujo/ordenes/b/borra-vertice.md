@@ -1,4 +1,4 @@
-# BORRA\_VÉRTICE
+# BORRA\_VERTICE
 
 Elimina un vértice de una entidad lineal.
 
@@ -6,9 +6,13 @@ Elimina un vértice de una entidad lineal.
 
 No admite parámetros
 
+## Observaciones
+
+Selecciona con el cursor el vértice a eliminar. La orden solo acepta líneas y polígonos del archivo de dibujo activo; con cualquier otra entidad suena el aviso de error. La entidad original se borra y se añade una copia sin el vértice.
+
 ## Características de la orden
 
-| Tipo de orden | $Orden interactiva$$ |
+| Tipo de orden | [Orden interactiva](borra-vertice.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Borrar un vértice a una polilínea |

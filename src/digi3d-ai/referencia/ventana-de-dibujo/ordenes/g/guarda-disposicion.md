@@ -8,6 +8,8 @@ Guarda la disposición de ventanas y visualización del archivo de dibujo de Dig
 | :--- | :--- | :--- |
 | 1 | Nombre del archivo de disposición | No |
 
+Si no se indica el parámetro, suena el aviso de error y la orden no guarda nada.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](guarda-disposicion.md) |

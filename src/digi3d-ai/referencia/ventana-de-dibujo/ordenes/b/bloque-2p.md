@@ -10,6 +10,8 @@ No admite parámetros
 
 Es similar a la orden [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md), con la excepción de que la orden _BLOQUE\_2P_ toma dos puntos para girar el bloque a grabar.
 
+Después del cuadro de diálogo, la orden pide el punto de origen y a continuación el punto de alineación. Las coordenadas de las entidades se guardan relativas al punto de origen y giradas alrededor del eje Z, de modo que la dirección del punto de origen al punto de alineación queda sobre el eje X del bloque. A continuación selecciona la línea que actúa como ventana.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](bloque-2p.md) |

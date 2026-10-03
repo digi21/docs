@@ -8,14 +8,14 @@ Esta orden no admite parámetros.
 
 ## Observaciones
 
-Esta orden proporcia la siguiente información para cada archivo cargado en la ventana acoplable **Salida**:
+Esta orden abre la ventana acoplable **Salida** y escribe en ella el sistema de referencia de coordenadas de la ventana de dibujo (nombre y WKT) y el número de archivos de dibujo cargados. Después escribe la siguiente información para cada archivo cargado:
 
-* Número de líneas
-* Número de puntos
-* Número de textos
+* Sistema de referencia de coordenadas del archivo (nombre y WKT)
+* Número de líneas, puntos, textos, complejos, complejos puntuales, polígonos y bitmaps, cada uno con el total, los no eliminados y los eliminados
+* Total de entidades no eliminadas, eliminadas y total general
 * Coordenadas máximas y mínimas
 * Códigos conocidos
-* Códigos desconocidos: códgos que no se encuentren en el [Editor de tablas de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/).
+* Códigos desconocidos: códigos que no se encuentren en la tabla de códigos (ver [Editor de tablas de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/)).
 
 ## Características de la orden
 

@@ -1,10 +1,14 @@
 # BORRAR\_HUECO
 
-Permite borrar un hueco de una entidad compleja.
+Permite borrar un hueco de un polígono.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Selecciona con el cursor un vértice del hueco que quieres borrar. La orden solo acepta polígonos del archivo de dibujo activo; con cualquier otra entidad suena el aviso de error. Si el vértice seleccionado pertenece al límite exterior del polígono, la orden muestra el aviso «Esta orden no permite borrar el límite exterior de un polígono» y pide otro vértice. El polígono original se borra y se añade una copia sin el hueco.
 
 ## Características de la orden
 

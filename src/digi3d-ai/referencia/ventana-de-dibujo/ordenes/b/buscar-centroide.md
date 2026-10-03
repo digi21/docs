@@ -8,17 +8,19 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden sólo se podrá ejecutar cuando haya uno o varios ficheros topológicos cargados en memoria.
+Esta orden sólo se podrá ejecutar cuando haya uno o varios ficheros topológicos cargados en memoria. Si no hay ninguno, la orden muestra el aviso «No hay ningún archivo de topología cargado» y termina.
 
-Cuando se tiene cargado el archivo o archivos topológicos y se ejecuta la orden _BUSCAR\_CENTROIDE_ el programa indicará al usuario que digitalice un punto.
+Cuando se tiene cargado el archivo o archivos topológicos y se ejecuta la orden _BUSCAR\_CENTROIDE_ el programa indicará al usuario que seleccione el área en la que buscar el centroide. Al mover el cursor, la orden resalta el recinto que hay bajo el cursor.
 
-Al digitalizar un punto puede que esté o no dentro de algún recinto. En caso de no estar dentro de ningún recinto, la orden hace sonar el pitido de error y finaliza.
+Al pulsar el botón de datos:
 
-En caso de digitalizar el punto dentro de algún recinto el comportamiento será el siguiente:
+* Si el cursor no está dentro de ningún recinto, la orden quita el resaltado y sigue esperando.
+* Si el cursor está dentro de un recinto con centroide, la orden lleva la vista al centroide y termina.
+* Si el recinto no tiene centroide, la orden lleva la vista al centroide calculado automáticamente por la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md), hace sonar el pitido de error, muestra un globo indicando que se ha seleccionado un polígono sin centroide y termina.
 
-* Si está activado el flag [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md) y mostrará un globo indicando que se ha seleccionado un polígono sin centroide.
-* Si está activado el flag [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md).
-* A continuación hace un zoom centrado en el centroide del polígono seleccionado si éste dispone de centroide. En el caso de que el polígono no tenga centroide, hará el zoom al centroide calculado automáticamente por la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md) y mostrará un globo indicando que se ha seleccionado un polígono sin centroide.
+La forma de llevar la vista al centroide se elige en la categoría **Buscar centroide** del cuadro de configuración, opción **Tipo de zoom**: **Centrar la ventana en el centroide** (valor por defecto) o **Zoom al centroide**. Con un recinto sin centroide, la vista siempre se centra.
+
+Pulsa el botón de reset para quitar el resaltado. Pulsa la barra espaciadora o Esc para terminar la orden.
 
 ## Características de la orden
 
@@ -28,6 +30,6 @@ En caso de digitalizar el punto dentro de algún recinto el comportamiento será
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
-| Variables relacionadas | [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md) — verificación por parte del usuario de la selección del tentativo |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {6F6784EE-B46E-49ff-AC21-6BF418B4CA17} |
 

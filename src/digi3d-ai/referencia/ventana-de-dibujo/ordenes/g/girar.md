@@ -4,7 +4,22 @@ Gira la ventana de visualización.
 
 ## Parámetros
 
-No admite parámetros.
+La orden admite una de estas dos formas:
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Rotación de la cámara alrededor del eje Z, en grados. Las rotaciones alrededor de X e Y no cambian | Número real | No |
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1, 2, 3 | Coordenadas X, Y, Z de la posición de la cámara | Número real | No |
+| 4, 5, 6 | Rotaciones de la cámara alrededor de los ejes X, Y y Z, en grados | Número real | No |
+
+Sin parámetros, la orden no hace nada.
+
+### Ejemplo
+
+`GIRAR=90`
 
 ## Características de la orden
 
