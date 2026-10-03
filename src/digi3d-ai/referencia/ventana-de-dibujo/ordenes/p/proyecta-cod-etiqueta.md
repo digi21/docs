@@ -7,10 +7,13 @@ Proyecta todas la entidades con un determinado código sobre los MDTs cargados q
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Etiqueta | No |
+| 2 … N | Pares de código y tipo de geometría, con el mismo formato que en [PROYECTA\_COD](proyecta-cod.md) | Si |
 
 ## Observaciones
 
 La orden solo utiliza los archivos de dibujo cargados capaces de proyectar \(MDT\) que tienen asignada la etiqueta indicada. Si no indicas la etiqueta, o ningún MDT la tiene, la orden muestra un aviso y termina.
+
+Si solo indicas la etiqueta, la orden muestra un cuadro de diálogo para seleccionar los códigos y proyecta todas las entidades con esos códigos, igual que [PROYECTA\_COD](proyecta-cod.md) sin parámetros.
 
 ## Características de la orden
 
