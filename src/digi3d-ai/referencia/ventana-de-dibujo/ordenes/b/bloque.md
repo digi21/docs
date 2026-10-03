@@ -4,13 +4,15 @@ Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán se
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Archivo que se va a crear. Si se indica, la orden no muestra el cuadro de diálogo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte** | Ruta de archivo | Si |
 
 ## Observaciones
 
 La ventana para generar el bloque es una línea que ya existe en el dibujo. Para crear el bloque:
 
-1. Indica en el cuadro de diálogo el nombre y el formato del archivo que se va a crear. En la categoría **Bloque** del cuadro elige la **Condición de inclusión** (**0. Interior**, **1. Corte** o **2. Solape**; por defecto **1. Corte**).
+1. Indica en el cuadro de diálogo el nombre y el formato del archivo que se va a crear. En la categoría **Bloque** del cuadro elige la **Condición de inclusión** (**0. Interior**, **1. Corte** o **2. Solape**; por defecto **1. Corte**). Si activas **Invertir selección**, el archivo recibe lo que queda fuera de la ventana en vez de lo que queda dentro.
 2. Digitaliza el punto de origen. Las coordenadas de las entidades se guardan relativas a este punto.
 3. Selecciona la línea que actúa como ventana.
 

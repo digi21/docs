@@ -4,11 +4,13 @@ Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán se
 
 ## Parámetros
 
-No admite parámetros
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Archivo que se va a crear. Si se indica, la orden no muestra el cuadro de diálogo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte** | Ruta de archivo | Si |
 
 ## Observaciones
 
-Es similar a la orden [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md), con la excepción de que la orden _BLOQUE\_2P_ toma dos puntos para girar el bloque a grabar.
+Es similar a la orden [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md), con la excepción de que la orden _BLOQUE\_2P_ toma dos puntos para girar el bloque a grabar. El cuadro de diálogo tiene las mismas opciones, incluida **Invertir selección**.
 
 Después del cuadro de diálogo, la orden pide el punto de origen y a continuación el punto de alineación. Las coordenadas de las entidades se guardan relativas al punto de origen y giradas alrededor del eje Z, de modo que la dirección del punto de origen al punto de alineación queda sobre el eje X del bloque. A continuación selecciona la línea que actúa como ventana.
 
