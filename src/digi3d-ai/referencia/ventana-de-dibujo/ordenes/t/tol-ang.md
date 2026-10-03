@@ -8,7 +8,7 @@ Establece el _factor de tolerancia angular_ en el proceso de [generalización](t
 | :--- | :--- | :--- | :--- |
 | 1 | Valor de la tolerancia angular, o `?` para mostrar el valor actual | Número real | Si |
 
-Sin parámetros, la orden solicita el valor en la barra de mensajes. También se pueden digitalizar dos puntos; en ese caso la orden asigna la distancia entre ellos, no un ángulo.
+Sin parámetros, la orden solicita el valor en la barra de mensajes. Solo acepta el valor tecleado: si se digitaliza un punto, la orden emite un sonido de error y sigue esperando el valor.
 
 ### Ejemplos
 

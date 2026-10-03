@@ -14,7 +14,7 @@ Las órdenes que van a utilizar _SOLAPE_ son [ZOOMDER](/digi3d-ai/referencia/ven
 
 Este valor se da en tanto por ciento y su valor por defecto será del 10%.
 
-Si ejecutas la orden sin parámetros, la barra de estado muestra un cuadro de texto para escribir el valor.
+Si ejecutas la orden sin parámetros, la barra de estado muestra un cuadro de texto para escribir el valor. Solo acepta el valor tecleado: si se digitaliza un punto, la orden emite un sonido de error y sigue esperando el valor.
 
 ### Ejemplos
 
