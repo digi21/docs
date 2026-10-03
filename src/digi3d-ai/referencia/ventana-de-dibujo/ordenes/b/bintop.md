@@ -51,7 +51,7 @@ En caso de encontrar errores relacionados con polígonos el programa marcará es
 
 BINTOP=\[tabla] \[polígonos_sin_area] \[polígonos_sin_centroide] \[topología_3D] \[centroides_duplicados] \[generar_archivo_errores] \[cargar_topológico_en_memoria]
 
-* \[tabla]: ruta y nombre de un archivo de texto con los códigos de las entidades que forman la topología. La orden lee la primera palabra de cada línea del archivo. Si no se puede abrir el archivo, la orden escribe el error en la ventana de resultados y termina.
+* \[tabla]: ruta y nombre de un archivo de texto con los códigos de las entidades que forman la topología. La orden lee la primera palabra de cada línea del archivo. La topología toma el nombre de este archivo sin carpeta ni extensión: con `C:\datos\edificios.txt` se llama `<carpeta del archivo de dibujo>\edificios.top`. Si no se puede abrir el archivo, la orden escribe el error en la ventana de resultados y termina.
 * \[polígonos_sin_area]: en caso de querer marcar los polígonos sin area se pondrá aquí el valor 1 (verdadero) en caso contrario se pondrá un 0 (falso).
 * \[polígonos_sin_centroide]: en caso de querer marcar polígonos sin centroide se pondrá el valor 1 (verdadero).
 * \[topología_3D]: 1 para calcular la topología en 3D, 0 para calcularla en 2D.
