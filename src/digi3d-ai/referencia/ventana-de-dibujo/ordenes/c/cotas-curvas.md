@@ -15,7 +15,7 @@ Asigna cota a las curvas de nivel de manera global.
 
 La orden calcula el número de curvas esperado como la diferencia de Z entre los dos puntos dividida por la [equidistancia](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md), más uno. Si el número de líneas con esos códigos que corta el segmento no coincide, la orden muestra un globo de error y no modifica nada.
 
-Si coincide, la orden ordena las curvas por distancia al primer punto y asigna a todos los vértices de cada una la Z del primer punto más la equidistancia multiplicada por su posición \(0 para la más cercana\). La Z siempre aumenta a partir del primer punto.
+Si coincide, la orden ordena las curvas por distancia al primer punto y asigna a todos los vértices de cada una la Z del primer punto más la equidistancia multiplicada por su posición \(0 para la más cercana\). Si el segundo punto tiene una Z menor que el primero, la orden resta la equidistancia en vez de sumarla: las cotas disminuyen a partir del primer punto.
 
 La orden no termina tras asignar las cotas: puedes digitalizar otro par de puntos. Pulsa **Esc** para terminar.
 
