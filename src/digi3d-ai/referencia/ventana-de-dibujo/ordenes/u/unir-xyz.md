@@ -14,6 +14,8 @@ Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión 
 
 La orden solo une las líneas visibles que tienen alguno de los códigos pasados como parámetro. Sin códigos, la orden no hace nada y emite el sonido de error.
 
+Cada línea se une como mucho una vez en cada ejecución. Para unir una cadena de más de dos líneas, ejecuta la orden varias veces.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-xyz.md) |
