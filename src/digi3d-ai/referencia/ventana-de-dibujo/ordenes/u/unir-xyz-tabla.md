@@ -14,6 +14,8 @@ La orden trabaja sobre las líneas visibles del archivo de dibujo activo y solo 
 
 Sin parámetros, la orden emite un sonido de error y no hace nada.
 
+Cada línea se une como mucho una vez en cada ejecución. Para unir una cadena de más de dos líneas, ejecuta la orden varias veces.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-xyz-tabla.md) |
