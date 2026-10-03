@@ -4,11 +4,17 @@ Copia una entidad de dibujo, aplicando traslación, factor de escala y giro.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1...n | Tipos de entidad que se pueden seleccionar, una letra por parámetro: `L` líneas, `P` puntos, `T` textos, `B` imágenes, `H` polígonos, `C` líneas y puntos, `*` líneas, puntos, textos e imágenes | Si. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
 
 ## Observaciones
 
-Debes digitalizar 4 puntos, dos correspondientes a la entidad original, y otros dos a la entidad a generar. La nueva entidad se crea con el código activo.
+Selecciona la entidad y digitaliza 4 puntos: dos correspondientes a la entidad original y otros dos a la entidad a generar. Si la entidad seleccionada es un punto o un texto, el punto de selección se toma como primer punto de origen.
+
+La nueva entidad conserva los códigos de la original. Si la variable [FORZAR\_CODIGO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/forzar-codigo-activo.md) está activa, la nueva entidad se crea con el código activo.
+
+Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activa, la orden conserva los dos puntos de origen y pide otros dos puntos de destino para crear otra copia.
 
 Con esta orden puedes copiar entidades pertenecientes a archivos de referencia.
 

@@ -8,10 +8,13 @@ Digitaliza una cota altimétrica.
 | :--- | :--- | :--- | :--- |
 | 1 | Código con el que se digitalizará el punto de la cota altimétrica. | Algún código de la tabla de códigos activa como 020401 | Si. Si no se especifica este parámetro se digitalizará el punto con el conjunto de códigos activos en el momento de ejecutar la orden |
 | 2 | Código con el que se digitalizará el texto de la cota altimétrica. | Algún código de la tabla de códigos activa como 020401 | Si. Si no se indica este parámetro se le asignará al texto el mismo código que al punto de la cota altimétrica |
+| 3 | Desplazamiento en X del texto con respecto al punto, en unidades del sistema de referencia | Número real | Si. Solo se tiene en cuenta si se indica también el parámetro 4 |
+| 4 | Desplazamiento en Y del texto con respecto al punto, en unidades del sistema de referencia | Número real | Si. Solo se tiene en cuenta si se indica también el parámetro 3 |
 
 ## Observaciones
 
-La distancia entre el punto y el texto es la mitad del valor almacenado en la variable [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md).  
+Si no se indican los parámetros 3 y 4, el texto se desplaza con respecto al punto la mitad del valor almacenado en la variable [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) en X y la misma cantidad en Y.  
+El texto digitalizado tendrá la altura especificada en la variable [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md).  
 El texto digitalizado tendrá la rotación especificada en la variable [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).  
 El texto digitalizado tendrá la justificación especificada en la variable [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).  
 El texto digitalizado tendrá tantos decimales como los especificados en la variable [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md).

@@ -1,6 +1,6 @@
 # COPIAR\_CENTROIDE\_I
 
-Copia un centroide de un recinto a otra posición. Con el primer clic localiza, por inundación, el centroide del recinto de la topología temporal sobre el que se pincha; con el segundo clic inserta en esas coordenadas una copia de ese centroide (un texto).
+Copia el centroide de un recinto de la topología temporal en otros recintos que no tienen centroide.
 
 ## Parámetros
 
@@ -8,7 +8,14 @@ No admite parámetros.
 
 ## Observaciones
 
-Requiere que exista una topología por inundación (topología temporal); en caso contrario, la orden no se ejecuta.
+Requiere que exista una topología por inundación (topología temporal); en caso contrario, la orden muestra un aviso y termina.
+
+1. Pulsa el botón de datos dentro de un recinto que tenga centroide y pulsa la barra espaciadora. La orden toma el centroide de ese recinto.
+2. Pulsa el botón de datos dentro de un recinto sin centroide y pulsa la barra espaciadora. La orden añade una copia del centroide en el punto central calculado por la topología para ese recinto.
+3. Repite el paso 2 para copiar el mismo centroide en otros recintos.
+4. Pulsa **Esc** para terminar la orden.
+
+Si el recinto seleccionado en el paso 1 no tiene centroide, o el del paso 2 ya tiene uno, la orden emite un sonido de error.
 
 ## Características de la orden
 

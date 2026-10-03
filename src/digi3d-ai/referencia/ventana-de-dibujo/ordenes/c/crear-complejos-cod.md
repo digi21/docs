@@ -4,21 +4,19 @@ Crear elementos complejos agrupando entidades con el mismo código.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1...n | Códigos de las entidades a agrupar. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden muestra el cuadro de diálogo de búsqueda de códigos |
 
 ## Observaciones
 
-Si ejecutas la orden por teclado con la siguiente secuencia:
-
-`crear_complejos_cod=*`
-
-Se generará un complejo por cada código que exista en el archivo de dibujo
+Para cada código, la orden crea un complejo con ese código que contiene una copia de las entidades del archivo de dibujo activo cuyo primer código coincide exactamente con él, y borra las entidades originales. Los comodines no se interpretan: `CREAR_COMPLEJOS_COD=*` solo agrupa las entidades cuyo código es literalmente `*`.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](crear-complejos-cod.md) |
+| Tipo de orden | [Orden inmediata](crear-complejos-cod.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

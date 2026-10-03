@@ -6,6 +6,12 @@ Continúa una determinada línea seleccionada.
 
 No admite parámetros.
 
+## Observaciones
+
+1. Selecciona una línea del modelo actual cerca del extremo por el que quieres continuarla. Si la entidad seleccionada no es una línea o no pertenece al modelo actual, la orden emite un sonido de error y espera otra selección.
+2. La orden asigna como códigos activos los códigos de la línea, ejecuta la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) con todos los vértices de la línea, ordenados para que el extremo seleccionado sea el último, y borra la línea original.
+3. Continúa digitalizando vértices con la orden LINEA.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](continuar-linea.md) |
