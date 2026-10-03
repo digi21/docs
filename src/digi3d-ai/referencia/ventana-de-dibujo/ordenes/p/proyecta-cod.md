@@ -20,7 +20,7 @@ La llamada a la orden desde la línea de comandos será:
 
 proyecta\_cod=\[código\] \[tipo\] \[código\] \[tipo\] …
 
-El tipo es obligatorio en cada par. En esta orden, `P` solo incluye los puntos, no los complejos puntuales, y `B` no tiene efecto. Si el código empieza por `#`, la orden utiliza todos los códigos de la tabla de códigos que tienen esa etiqueta.
+El tipo es obligatorio en cada par. En esta orden, `B` no tiene efecto. En los complejos puntuales, la orden proyecta las entidades que contienen y el punto de inserción. Si el código empieza por `#`, la orden utiliza todos los códigos de la tabla de códigos que tienen esa etiqueta.
 
 ### Ejemplo:
 
