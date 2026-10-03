@@ -6,7 +6,7 @@ Permite cambiar la cota de entidades situadas dentro de una entidad cerrada.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) a los que se cambia la cota, como una cadena de letras. Por ejemplo, `PT`. En esta orden `P` solo incluye los puntos y `B` no tiene efecto | Sí. Si no se especifica, la orden muestra un cuadro de diálogo para elegir los tipos al seleccionar el límite |
+| 1 | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) a los que se cambia la cota, como una cadena de letras. Por ejemplo, `PT`. En esta orden `B` no tiene efecto | Sí. Si no se especifica, la orden muestra un cuadro de diálogo para elegir los tipos al seleccionar el límite |
 
 ## Observaciones
 

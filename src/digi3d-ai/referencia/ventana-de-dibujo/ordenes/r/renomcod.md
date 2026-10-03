@@ -8,7 +8,7 @@ Cambia el código correspondiente a una serie de entidades por otro código, ya 
 | :--- | :--- | :--- | :--- |
 | 1 | Código antiguo | Código | Si |
 | 2 | Código nuevo | Código | Si |
-| 3 | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Cadena de letras. En esta orden `P` solo incluye los puntos; `*` incluye todos los tipos de geometría, también los complejos puntuales | Si |
+| 3 | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Cadena de letras. En esta orden `*` incluye todos los tipos de geometría, también los que no tienen letra, como los objetos OLE | Si |
 
 ## Observaciones
 
