@@ -1,10 +1,17 @@
 # CREAR\_COMPLEJO
 
-Crea elementos complejos a partir de varias cadenas de líneas.
+Crea elementos complejos a partir de varias entidades.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+1. Selecciona las entidades que formarán el complejo. Solo se pueden seleccionar entidades del modelo actual. Todas deben tener el mismo número de códigos; si no, la orden emite un sonido de error y muestra un aviso.
+2. Pulsa la barra espaciadora.
+
+La orden crea un complejo con una copia de las entidades seleccionadas y borra las entidades originales.
 
 ## Características de la orden
 

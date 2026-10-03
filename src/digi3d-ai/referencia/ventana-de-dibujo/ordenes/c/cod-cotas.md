@@ -6,26 +6,26 @@ Permite indicar un código con el que se digitalizarán cotas altimétricas.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código con el que se digitalizará el punto de la cota altimétrica. | Si. Si no se especifica este parámetro se digitalizará el punto con el conjunto de códigos activos en el momento de ejecutar la orden |
+| 1 | Código con el que se digitalizará el punto de la cota altimétrica. | Si. Si no se especifica ningún parámetro, la orden muestra un cuadro de diálogo para indicar el código del punto y, opcionalmente, el del texto |
 | 2 | Código con el que se digitalizará el texto de la cota altimétrica. | Si. Si no se indica este parámetro se le asignará al texto el mismo código que al punto de la cota altimétrica |
 
 ## Observaciones
 
 Esta orden permite digitalizar áutomáticamente cotas altimétricas por el mero echo de tener como código activo el código indicado como primer parámetro de esta orden.  
-Los valores almacenados en esta variable únicamente se tienen en consideración si está activa la [variable booleana](cod-cotas.md) [AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md).  
+La orden guarda los códigos en una variable de la aplicación, cuyo valor inicial es `020400 020400`. Al pulsar el botón de datos sin ninguna orden en ejecución, el programa compara el primer código activo con el código del punto y, si coinciden, ejecuta la orden [COTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cota.md). Esta comprobación solo se hace si está activa la [variable booleana](cod-cotas.md) [AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md).  
 Además nos va a permitir indicar opcionalmente el código con el que se digitalizará el texto asociado a la cota.
 
 Puedes añadir esta orden a tu archivo de órdenes de inicio para que se ejecute cada vez que abres una ventana de dibujo, de esta manera, con seleccionar como código activo el código indicado en el primer parámetro podrás digitalizar cotas altimétricas.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cod-cotas.md) |
+| Tipo de orden | [Orden inmediata](cod-cotas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Códigos especiales/Código de cotas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Variables relacionadas | [AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md) — digitalización automática según el código activo |
 | Nombre interno | {2A57AF5B-FDF2-4251-A736-362FF025D5E1} |
 
 ## Tutorial

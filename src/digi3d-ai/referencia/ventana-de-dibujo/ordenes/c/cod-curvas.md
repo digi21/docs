@@ -10,17 +10,21 @@ Define el código de las curvas directoras y finas.
 | 2 | Código con el que se registrarán las curvas de nivel maestras | Si |
 | 3 | Código con el que se registrarán las curvas de nivel finas | Si |
 
+Los tres parámetros se indican juntos. Si se indican menos de tres, la orden los ignora y muestra un cuadro de diálogo con los tres códigos.
+
 ## Observaciones
 
 Cuando se activa, permite al operador registrar curvas de nivel sin preocuparse de si la línea que está registrando es una curva de nivel directora o fina.
 
-Esta orden supone que entre cada dos curvas de nivel directoras se dibujan 4 finas, como es norma general en cartografía.
+Cuando el único código activo es el del primer parámetro, la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) asigna a la línea el código de directora si la Z es múltiplo de 5 veces la [equidistancia](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md), y el código de fina en caso contrario. Es decir, entre cada dos curvas de nivel directoras hay 4 finas.
+
+Los códigos se conservan hasta que se cierra el programa.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cod-curvas.md) |
+| Tipo de orden | [Orden inmediata](cod-curvas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Códigos especiales/Códigos de curvas de nivel... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

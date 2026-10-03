@@ -12,7 +12,7 @@ Establece el color con el que se dibujan las entidades cuyo código es desconoci
 
 ## Observaciones
 
-Si no se indica ningún parámetro, se muestra un cuadro de diálogo para elegir el color. Si se indica un único parámetro, se interpreta como el índice (0-255) de un color de la paleta. Si se indican tres, son las componentes roja, verde y azul (0-255).
+Si no se indica ningún parámetro, se muestra un cuadro de diálogo para elegir el color. Si se indica un único parámetro, se interpreta como el índice (0-255) de un color de la paleta. Si se indican tres, son las componentes roja, verde y azul (0-255). Con dos parámetros, o con un índice fuera del intervalo 0-255, la orden emite un sonido de error y no cambia el color.
 
 ## Características de la orden
 

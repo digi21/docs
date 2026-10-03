@@ -6,6 +6,10 @@ Realiza análisis de control de calidad a las entidades visibles
 
 No admite parámetros.
 
+## Observaciones
+
+La orden analiza las entidades del archivo de dibujo activo que no están borradas, son visibles y están en la zona de interés.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](control-calidad-entidades-visibles.md) |

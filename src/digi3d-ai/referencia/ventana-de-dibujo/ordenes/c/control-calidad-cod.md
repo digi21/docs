@@ -6,7 +6,11 @@ Realiza análisis de control de calidad por código
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1...n | Códigos de las entidades a analizar. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden muestra un cuadro de diálogo para seleccionar los códigos |
+
+## Observaciones
+
+La orden analiza las entidades del archivo de dibujo activo que no están borradas, son visibles, están en la zona de interés y tienen alguno de los códigos indicados.
 
 ## Características de la orden
 

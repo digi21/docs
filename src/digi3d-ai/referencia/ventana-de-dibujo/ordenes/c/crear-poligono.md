@@ -1,10 +1,18 @@
 # CREAR\_POLÍGONO
 
-Permite la creación de polígonos.
+Crea un polígono con huecos a partir de líneas cerradas existentes.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+1. Selecciona la línea cerrada en 2D que forma el contorno exterior. Debe pertenecer al modelo actual.
+2. Selecciona, si los hay, los huecos: líneas cerradas en 2D, o polígonos sin huecos, con todos sus vértices dentro del contorno exterior.
+3. Pulsa la barra espaciadora.
+
+El polígono toma los códigos del contorno exterior. Según la configuración de la orden, el contorno exterior y los huecos originales se conservan, se borran o la orden pregunta si se borran. Por defecto se borra el contorno exterior y se conservan los huecos.
 
 ## Características de la orden
 

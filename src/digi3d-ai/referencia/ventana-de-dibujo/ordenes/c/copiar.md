@@ -4,14 +4,19 @@ Realiza una copia de una entidad de dibujo.
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Punto origen | Coordenadas XYZ | Si |
-| 2 | Punto destino | Coordenadas XYZ | Si |
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1...n | Tipos de entidad que se pueden seleccionar, una letra por parámetro: `L` líneas, `P` puntos, `T` textos, `B` imágenes, `H` polígonos, `C` líneas y puntos, `*` líneas, puntos, textos e imágenes | Si. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
 
 ## Observaciones
 
-El programa genera una entidad igual a la original, pero aplicando en el proceso una translación definida por el vector \(punto origen, punto destino\). El nuevo elemento se dibuja con el código activo.
+1. Selecciona una o varias entidades.
+2. Digitaliza el punto origen. Si la entidad seleccionada es un punto o un texto, el punto de selección se toma como punto origen.
+3. Digitaliza el punto destino.
+
+El programa genera entidades iguales a las originales, aplicando una traslación definida por el vector \(punto origen, punto destino\). Las nuevas entidades conservan los códigos de las originales. Si la variable [FORZAR\_CODIGO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/forzar-codigo-activo.md) está activa, se crean con el código activo.
+
+Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activa, la orden sigue creando copias: el punto destino de cada copia es el punto origen de la siguiente.
 
 ## Características de la orden
 

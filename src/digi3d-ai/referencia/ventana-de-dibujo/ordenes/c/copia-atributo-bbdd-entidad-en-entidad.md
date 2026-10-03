@@ -1,6 +1,6 @@
 # COPIA\_ATRIBUTO\_BBDD\_ENTIDAD\_EN\_ENTIDAD
 
-Asigna un nuevo valor a un campo en la BBDD para una entidad.
+Copia el valor de un campo de la base de datos de una entidad en un campo de otra entidad.
 
 ## Parámetros
 
@@ -8,6 +8,15 @@ Asigna un nuevo valor a un campo en la BBDD para una entidad.
 | :--- | :--- | :--- |
 | 1 | Nombre del campo origen | No |
 | 2 | Nombre del campo destino | No |
+
+## Observaciones
+
+1. Selecciona la entidad origen. Solo se pueden seleccionar entidades con algún código que tenga el campo origen.
+2. Selecciona la entidad destino. Solo se pueden seleccionar entidades con algún código que tenga el campo destino.
+
+La orden asigna el valor del campo origen al campo destino de todos los códigos de la entidad destino que tienen ese campo, y termina.
+
+Si falta alguno de los dos parámetros, la orden emite un sonido de error, muestra un aviso y termina.
 
 ## Características de la orden
 
