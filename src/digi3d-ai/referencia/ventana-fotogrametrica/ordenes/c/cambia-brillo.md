@@ -30,4 +30,5 @@ Para aclarar u oscurecer una de las imágenes se le pasarán dos parámetros,el 
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [CAMBIA\_BRILLO\_ÍNDICE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-brillo-indice.md)<br>[CAMBIA\_CONTRASTE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-contraste.md)<br>[ESCALA\_CONTRASTE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/e/escala-contraste.md) |
 

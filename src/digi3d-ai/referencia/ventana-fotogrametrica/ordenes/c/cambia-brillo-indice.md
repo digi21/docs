@@ -33,4 +33,5 @@ La intensidad de los índices es un valor que puede variar entre 0 y 255 y esta 
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [CAMBIA\_BRILLO](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-brillo.md)<br>[COLOR\_ÍNDICE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/color-indice.md) |
 

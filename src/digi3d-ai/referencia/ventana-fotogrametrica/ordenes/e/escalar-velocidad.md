@@ -19,4 +19,5 @@ Esta opción ha estado activada siempre por defecto, pero se han detectado casos
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [VELOCIDAD](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad.md) |
 

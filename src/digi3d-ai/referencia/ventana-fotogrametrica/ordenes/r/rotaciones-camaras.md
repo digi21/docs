@@ -34,4 +34,5 @@ Si el modelo cargado es monoscópico, los deslizadores de la cámara derecha apa
 | Extensión | Digi3D.CommonCommands.dll |
 | Nombre interno | {C96276F0-D517-4AAB-A662-4A7FEC6BCFA8} |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 

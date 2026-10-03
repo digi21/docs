@@ -18,4 +18,5 @@ Permite cambiar la visualización en tiempo real de las imágenes de color verda
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [NEGATIVO](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/n/negativo.md) |
 

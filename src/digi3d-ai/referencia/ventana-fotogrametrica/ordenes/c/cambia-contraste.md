@@ -43,6 +43,7 @@ Se puede cambiar el contraste de ambas imágenes a la vez o bien solamente una.
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [CAMBIA\_BRILLO](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-brillo.md)<br>[ESCALA\_CONTRASTE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/e/escala-contraste.md) |
 
 
 

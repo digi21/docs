@@ -20,4 +20,5 @@ Si volvemos a modo gráfico mediante el cuadro de diálogo de nuevo proyecto, la
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [SALIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/salir.md) |
 

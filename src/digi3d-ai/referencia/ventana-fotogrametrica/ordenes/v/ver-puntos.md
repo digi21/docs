@@ -18,4 +18,5 @@ Activa o desactiva la visualización de los puntos medidos en cada foto.
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 

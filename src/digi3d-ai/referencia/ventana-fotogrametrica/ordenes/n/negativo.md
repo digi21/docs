@@ -20,4 +20,5 @@ Al ejecutar la orden cambiará la visualización del par estereoscópico y de lo
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [FORZAR\_TONOS\_GRIS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/f/forzar-tonos-gris.md) |
 
