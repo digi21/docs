@@ -990,6 +990,7 @@
           * [Z](digi3d-ai/referencia/ventana-de-dibujo/variables/z/README.md)
             * [Z](digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md)
         * [Introducción de coordenadas](digi3d-ai/referencia/ventana-de-dibujo/introduccion-de-coordenadas.md)
+        * [Tipos de geometría](digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md)
         * [Órdenes](digi3d-ai/referencia/ventana-de-dibujo/ordenes/README.md)
           * [1](digi3d-ai/referencia/ventana-de-dibujo/ordenes/1/README.md)
             * [1TEXTO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/1/1-texto.md)
