@@ -21,4 +21,5 @@ Si el servicio devuelve una referencia catastral, la orden inserta en el punto u
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [ROTULA\_DESCRIPCION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-descripcion.md) |
 | Nombre interno | {C1CD9A73-605E-4715-A393-3B4E29D8AC0D} |

@@ -21,5 +21,6 @@ La orden pedirá la digitalización del punto de inserción y a continuación un
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md)<br>[PUNTO\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-2p.md) |
 | Nombre interno | {D768CDA8-0BFA-465f-BC53-92F8C3D52786} |
 

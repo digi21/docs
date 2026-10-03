@@ -15,5 +15,6 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [LOCALIZAR\_TAREA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/localizar-tarea.md)<br>[TAREA+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tarea-mas.md) |
 | Nombre interno | {B2F7E1BE-01EB-4437-8326-06E3EF243949} |
 

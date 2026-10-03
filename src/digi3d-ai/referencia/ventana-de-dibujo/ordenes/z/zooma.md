@@ -19,5 +19,6 @@ Las entidades se visualizan con el mismo factor de zoom, es decir, con el mismo 
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ZOOM2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom2p.md)<br>[ZOOMP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomp.md) |
 | Nombre interno | {EAFF965D-EB22-4ad7-B6F1-3D945C10E9D6} |
 

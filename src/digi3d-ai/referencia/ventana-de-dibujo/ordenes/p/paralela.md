@@ -30,6 +30,7 @@ La paralela conserva la Z de la línea original. Las paralelas se generan con el
 | Barra de herramientas en la que aparece la orden | *Esta orden no tiene asociado ningún botón en ninguna barra de herramientas* |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Órdenes relacionadas | [PARALELA\_DA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-da.md)<br>[PARALELA\_DINÁMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica.md)<br>[PARALELA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-z.md) |
 | Nombre interno | {C98B960F-F4D1-4f65-8945-029EB0914CA7} |
 
 

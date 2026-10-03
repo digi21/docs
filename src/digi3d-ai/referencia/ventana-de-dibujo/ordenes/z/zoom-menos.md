@@ -19,5 +19,6 @@ El efecto visual es de alejamiento. La orden divide el ancho y el alto de la zon
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ZOOM+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-mas.md)<br>[ZOOMIN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomin.md)<br>[ZOOMOUT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomout.md) |
 | Nombre interno | {B9A4767B-E98E-4edc-9584-FBE358E7CBEA} |
 

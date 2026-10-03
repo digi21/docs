@@ -23,4 +23,5 @@ El informe contiene la fecha de la primera y la última línea, el tiempo total 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesControlTrabajos.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {9A3109BC-561C-426B-9776-8925DD88E866} |

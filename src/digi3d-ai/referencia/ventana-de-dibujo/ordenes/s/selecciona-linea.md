@@ -21,5 +21,6 @@ Digitaliza los dos extremos de la línea virtual con el pulsador de datos. La or
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [SELECCIONA\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-poligono.md)<br>[SELECCIONA\_TODO\_EN\_CURSOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-todo-en-cursor.md) |
 | Nombre interno | {60A6C0C6-C7B7-4ca5-9846-A7639A526525} |
 

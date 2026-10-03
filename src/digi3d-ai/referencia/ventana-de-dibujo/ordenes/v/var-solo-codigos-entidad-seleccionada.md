@@ -19,5 +19,6 @@ Selecciona una o varias entidades. La orden apaga todos los códigos y enciende 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [VER\_SOLO\_CÓDIGOS\_ACTIVOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-codigos-activos.md)<br>[VER\_SOLO\_ENTIDADES\_SELECCIONADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-entidades-seleccionadas.md)<br>[VER\_SOLO\_ETIQUETAS\_ENTIDAD\_SELECCIONADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-etiquetas-entidad-seleccionada.md) |
 | Nombre interno | {36768FDE-EC8F-4C0D-B798-D2542E88CB69} |
 

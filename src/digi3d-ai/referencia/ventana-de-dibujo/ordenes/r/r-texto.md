@@ -25,5 +25,6 @@ Pulsa el botón de reset para cancelar la orden.
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CAMB\_AA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-aa.md)<br>[CAMB\_AT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-at.md)<br>[CAMB\_JT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-jt.md)<br>[CAMB\_JT2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-jt2.md)<br>[R\_PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/r-punto.md) |
 | Nombre interno | {1532600B-7595-4558-B8A1-5433176BB845} |
 

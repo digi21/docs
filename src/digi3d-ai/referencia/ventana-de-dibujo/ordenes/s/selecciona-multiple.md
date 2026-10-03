@@ -23,5 +23,6 @@ Es necesario que se esté ejecutando previamente una orden que admita selección
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [SELECCIONA\_TODO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-todo.md) |
 | Nombre interno | {CEFCB1EF-BF1E-407d-ADF4-B60BB2E303B9} |
 

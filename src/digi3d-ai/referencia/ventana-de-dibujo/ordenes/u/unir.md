@@ -38,6 +38,7 @@ Si las dos líneas tienen el mismo código y los mismos atributos de base de dat
 | Barra de herramientas en la que aparece la orden | Unir |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [EXT2X](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext2x.md)<br>[UNIR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-cod.md) |
 | Nombre interno | {88F56A67-0638-495d-99FB-6265DAD1CF1B} |
 
 

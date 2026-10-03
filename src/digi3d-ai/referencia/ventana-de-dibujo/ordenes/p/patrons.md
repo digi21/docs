@@ -17,4 +17,5 @@ Activa/desactiva la visualización de los patrones de línea en la pantalla de v
 | Barra de herramientas en la que aparece la orden | Parámetros de visualización |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {61B0AF0C-1616-4BCB-97BA-4CAF646FC726} |

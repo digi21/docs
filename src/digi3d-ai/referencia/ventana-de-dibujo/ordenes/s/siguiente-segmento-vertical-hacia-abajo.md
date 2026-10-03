@@ -26,5 +26,6 @@ Compárala con [SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ARRIBA](/digi3d-ai/referen
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ARRIBA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/siguiente-segmento-vertical-hacia-arriba.md) |
 | Nombre interno | {DA45C592-DA83-42A8-9B8E-578385974698} |
 

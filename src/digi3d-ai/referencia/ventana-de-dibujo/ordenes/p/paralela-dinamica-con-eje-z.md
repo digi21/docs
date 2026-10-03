@@ -24,4 +24,5 @@ A la Z de la paralela y del eje se le suma la diferencia de Z entre el punto con
 | Barra de herramientas en la que aparece la orden | Paralelas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [PARALELA\_DINAMICA\_CON\_EJE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje.md)<br>[PARALELA\_DINAMICA\_CON\_EJE\_Z\_ACTIVA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje-z-activa.md)<br>[PARALELA\_DINÁMICA\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-xyz.md) |
 | Nombre interno | {123956F1-100D-429D-A709-D340047C9932} |

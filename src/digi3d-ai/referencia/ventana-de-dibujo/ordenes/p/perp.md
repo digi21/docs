@@ -23,5 +23,6 @@ El pie toma la Z del punto digitalizado. Para que tome la Z del tramo, usa [PERP
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [PERP\_A](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp-a.md)<br>[PERP\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp-z.md) |
 | Nombre interno | {1CACF6F1-0916-4241-8791-4B91F1A7B8F4} |
 

@@ -25,4 +25,5 @@ Si la cámara de la ventana de dibujo es cónica, la orden aplica los valores gu
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CAMARA\_CONICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camara-conica.md)<br>[CAMARA\_ORTOFONAL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camara-ortofonal.md) |
 | Nombre interno | {4E593400-6A19-45CE-9A70-75D311A0C09D} |

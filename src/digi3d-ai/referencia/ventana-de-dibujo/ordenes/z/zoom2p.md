@@ -23,5 +23,6 @@ Al soltar el botón, [ZOOM\_ANTERIOR](zoom-anterior.md) puede devolver la vista 
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AUTO\_RATON](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/auto-raton.md) — activa o desactiva el autozoom al usar el ratón<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [ZOOM\_ANTERIOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-anterior.md)<br>[ZOOMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zooma.md)<br>[ZOOMP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomp.md) |
 | Nombre interno | {C3B33B92-A260-421b-92BF-B3917240D97B} |
 

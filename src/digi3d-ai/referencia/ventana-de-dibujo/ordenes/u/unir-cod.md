@@ -23,4 +23,5 @@ Digitaliza cuatro puntos para trazar la línea de selección. La orden busca las
 | Barra de herramientas en la que aparece la orden | Unir |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [UNIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir.md)<br>[UNIR\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas.md) |
 | Nombre interno | {FB78D878-2695-4CC6-A300-22415BB52172} |

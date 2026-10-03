@@ -25,5 +25,6 @@ Con el parámetro 1, la orden envía la posición y la orientación de la cámar
 | Barra de herramientas en la que aparece la orden | No aparece en ninguna barra de herramientas. |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [VELOCIDAD\_SPACEMOUSE\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/velocidad_spacemouse_xyz.md) — factor de velocidad del SpaceMouse en la ventana de dibujo |
+| Órdenes relacionadas | [MOVER\_CAMARA\_FPS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-camara-fps.md) |
 | Nombre interno | {4E0625A7-9F2C-4E75-8307-497A66FCC20A} |
 

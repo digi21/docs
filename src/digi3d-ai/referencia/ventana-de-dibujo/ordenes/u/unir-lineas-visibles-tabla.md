@@ -15,4 +15,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [UNIR\_LINEAS\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-tabla.md)<br>[UNIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-visibles.md) |
 | Nombre interno | {9B5C5679-8602-48A7-B2D3-7385E6B8D1DB} |

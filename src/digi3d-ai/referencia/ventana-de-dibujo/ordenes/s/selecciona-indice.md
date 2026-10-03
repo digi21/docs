@@ -24,4 +24,5 @@ La orden emite un sonido de error y no envía nada si no hay ninguna orden en ej
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [SELECCIONA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ultimo.md) |
 | Nombre interno | {C735FB18-183F-4884-A85D-F08521DC40BC} |

@@ -25,4 +25,5 @@ Con parámetros, la orden no pide selección: procesa todas las geometrías visi
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) — equidistancia de curvas de nivel<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CAMB\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-z.md)<br>[CAMB\_Z\_ACTIVA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-z-activa.md) |
 | Nombre interno | {3E17788B-48FA-4A1B-9EAC-F65E66CDAE30} |
