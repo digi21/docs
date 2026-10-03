@@ -6,6 +6,10 @@ Elimina todas las entidades visibles duplicadas.
 
 No admite parámetros.
 
+## Observaciones
+
+Dos entidades están duplicadas cuando son del mismo tipo, tienen el mismo número de vértices y sus vértices coinciden en X,Y, en el mismo sentido o en el inverso. La Z no se compara. La orden analiza las entidades no borradas, visibles, dentro de la zona de interés y con algún código visible de la tabla de códigos. De cada grupo de entidades duplicadas borra todas, sin conservar ninguna.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-todas-entidades-visibles-duplicadas.md) |

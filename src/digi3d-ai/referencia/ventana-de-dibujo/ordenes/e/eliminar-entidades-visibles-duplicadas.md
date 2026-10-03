@@ -1,10 +1,14 @@
 # ELIMINAR\_ENTIDADES\_VISIBLES\_DUPLICADAS
 
-Elimina las entidades visibles duplicadas manteniendo únicamente la que tenga un código que esté antes en la línea de comandos.
+Elimina las entidades visibles duplicadas manteniendo únicamente la que tenga un código que esté antes en la tabla de códigos.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Dos entidades están duplicadas cuando son del mismo tipo, tienen el mismo número de vértices y sus vértices coinciden en X,Y, en el mismo sentido o en el inverso. La Z no se compara. La orden analiza las entidades no borradas, visibles, dentro de la zona de interés y con algún código visible de la tabla de códigos. De cada grupo de entidades duplicadas conserva la que tiene el código que aparece antes en la tabla de códigos y borra las demás.
 
 ## Características de la orden
 

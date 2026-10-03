@@ -10,6 +10,8 @@ No admite parámetros.
 
 Esta orden está diseñada para las entidades complejas de archivos en formato DGN v8 de MicroStation.
 
+La orden solicita que selecciones una entidad compleja del modelo actual. También admite una selección múltiple, en la que solo procesa las entidades complejas. Cada entidad resultante conserva sus propios códigos.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](explotar-complejo.md) |

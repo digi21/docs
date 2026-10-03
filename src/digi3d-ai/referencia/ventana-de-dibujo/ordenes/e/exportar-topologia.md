@@ -6,7 +6,13 @@ Exporta a un archivo, como polígonos, las topologías cargadas que se seleccion
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Nombres de las topologías a incluir | — | Si |
+| 1 … N | Nombre de una topología cargada a incluir. Si el nombre tiene espacios, escríbelo entre comillas | — | Si |
+
+## Observaciones
+
+La orden muestra un cuadro de diálogo para seleccionar el archivo de destino y su formato. En ese cuadro de diálogo aparece una casilla por cada topología indicada en los parámetros, marcada si la topología está cargada y desmarcada si no lo está.
+
+La orden exporta, de cada topología marcada, los recintos válidos que tienen centroide asociado. Cada recinto se exporta como un polígono con sus huecos. El código del polígono y el cálculo de su Z salen de la configuración de la topología en la tabla de códigos.
 
 ## Características de la orden
 

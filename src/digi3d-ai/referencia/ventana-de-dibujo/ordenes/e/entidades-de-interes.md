@@ -6,6 +6,10 @@ Especifica las entidades de interés en la que se centrarán las órdenes que re
 
 No admite parámetros.
 
+## Observaciones
+
+Selecciona las entidades con una orden de selección múltiple, como [SELECCIONA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-cod.md). La orden marca como entidades de interés las entidades seleccionadas y quita esa marca a todas las demás entidades de todos los archivos de dibujo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](entidades-de-interes.md) |

@@ -6,6 +6,12 @@ Genera un centroide dentro de los polígonos o líneas cerradas que tengan algun
 
 No admite parámetros.
 
+## Observaciones
+
+La orden muestra un cuadro de diálogo para seleccionar los códigos. Después recorre el archivo de referencia activo y crea un centroide en cada polígono o línea cerrada que tenga alguno de esos códigos.
+
+El centroide es un texto situado en un punto interior de la entidad, con los códigos de la entidad y con el nombre de su primer código como contenido. Su ángulo, su altura y su justificación son los valores de las variables AA, AT y JT.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](extraer-centroides-cod.md) |

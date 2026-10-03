@@ -6,6 +6,12 @@ Permite editar las coordenadas de la geometría que se seleccione.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden solo admite líneas del modelo actual; si seleccionas otro tipo de geometría, emite un sonido de error y sigue esperando la selección.
+
+La orden muestra un cuadro de diálogo con un editor de texto que contiene una fila por vértice con las coordenadas X, Y, Z. Al aceptar el cuadro de diálogo, la orden lee los números de tres en tres y sustituye la línea por otra con esos vértices. Si el texto no contiene ninguna coordenada completa, la orden borra la línea.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](editor.md) |

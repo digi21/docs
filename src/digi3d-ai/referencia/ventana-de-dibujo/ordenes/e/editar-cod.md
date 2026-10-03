@@ -6,6 +6,10 @@ Edita los códigos de la entidad seleccionada.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden solicita que selecciones una entidad y muestra el cuadro de diálogo de edición de códigos con los códigos de esa entidad. Si aceptas el cuadro de diálogo con cambios, la orden sustituye la entidad por una copia con los códigos editados. Si eliminas todos los códigos, la orden borra la entidad.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](editar-cod.md)                                                                                                                              |

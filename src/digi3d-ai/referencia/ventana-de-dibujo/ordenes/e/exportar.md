@@ -12,6 +12,14 @@ Exporta el archivo actual a los formatos:
 
 ## Parámetros
 
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Nombre del archivo de destino. Si no tiene extensión, la orden añade `.bind` | Si |
+
+Si no indicas el nombre del archivo, la orden muestra un cuadro de diálogo para seleccionar el archivo de destino, su formato y los parámetros de exportación. Ese cuadro de diálogo incluye la opción de exportar solo el primer código de cada entidad. Si el archivo indicado existe y es de solo lectura, la orden muestra un error y termina.
+
+### Parámetros de exportación por formato
+
 Los parámetros de exportación dependerán del tipo de archivo que se desea exportar.
 
 
@@ -29,6 +37,8 @@ Los parámetros de exportación dependerán del tipo de archivo que se desea exp
 ## Observaciones
 
 Las entidades que estén registradas con un código que está apagado \([OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md), en el momento de ejecutar la orden, no serán incluidas en el archivo exportado.
+
+La orden exporta las entidades no borradas, visibles, no virtuales y dentro de la zona de interés. Si el formato de destino no admite varios códigos por entidad, la orden exporta una copia de la entidad por cada código.
 
 ## Véase también
 

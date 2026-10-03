@@ -6,7 +6,11 @@ Entra en la siguiente esfera.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Incremento | No |
+| 1 | Número de esferas que avanza. Si no se indica, vale 1 | Si |
+
+## Observaciones
+
+La orden requiere un archivo de imágenes esféricas cargado y una esfera seleccionada. Selecciona la esfera cuyo índice es el de la esfera actual más el parámetro; si el resultado queda fuera de rango, selecciona la primera o la última esfera.
 
 ## Características de la orden
 

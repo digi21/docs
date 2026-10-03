@@ -4,11 +4,15 @@ Divide varios elementos complejos por código, sin respetar el código de los su
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código o códigos de las entidades complejas a explotar | Si |
 
 ## Observaciones
 
-Asigna el código del elemento complejo a las entidades explotadas.
+Asigna los códigos del elemento complejo a las entidades explotadas.
+
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos. La orden explota las entidades complejas visibles, dentro de la zona de interés y del archivo de dibujo activo que tienen alguno de los códigos.
 
 ## Características de la orden
 

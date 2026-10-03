@@ -8,13 +8,15 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden trabaja igual que la orden [EDITAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar.md), o bien por la entrada del dato a través del restituidor.
+Esta orden trabaja igual que la orden [EDITAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar.md), pero al pulsar el botón de datos asigna al vértice las tres coordenadas X, Y, Z del cursor.
 
 * Pulsando la tecla + se pasa al vértice siguiente en el sentido de avance.
 * Pulsando la tecla - se retrocede al vértice anterior.
 * Pulsando la tecla \* se modifica la posición del vértice de modo que los segmentos que se unen en él formen un ángulo recto.
 * Pulsando la tecla Insert se añade un nuevo vértice en la posición del cursor normal.
 * Pulsando la tecla Supr se elimina el vértice en el que estuviese el cursor de edición.
+* Pulsando la tecla S se activa o desactiva el seguimiento: el vértice sigue al cursor hasta que pulsas el botón de datos. Si desactivas el seguimiento con la tecla S, el vértice vuelve a su posición anterior.
+* Pulsando la tecla Z se solicita en la barra de estado un valor de Z, que se asigna al vértice conservando su X y su Y.
 * Pulsando la tecla Espacio \(barra espaciadora\) se aceptan las modificaciones.
 * Pulsando la tecla Esc se anula la orden.
 
