@@ -10,7 +10,7 @@ Ejecuta las consultas SQL especificadas en el archivo pasado por parámetros.
 
 ## Observaciones
 
-Al ejecutarse, la orden muestra el cuadro de diálogo de Windows _Propiedades de vínculo de datos_ para seleccionar la conexión a la base de datos. Si se cancela, la orden termina.
+Al ejecutarse, la orden muestra el cuadro de diálogo de Windows _Propiedades de vínculo de datos_ para seleccionar la conexión a la base de datos. Si se cancela, la orden termina. Si no se puede conectar con la base de datos, la orden muestra el error y termina.
 
 El archivo contiene una consulta por línea, de hasta 1023 caracteres. Las líneas que empiezan por `#` son comentarios. Si una línea contiene `$(TableName)`, la orden la ejecuta una vez por cada tabla de la base de datos, sustituyendo `$(TableName)` por el nombre de la tabla.
 
