@@ -12,7 +12,7 @@ Asigna un nuevo valor a un campo en la BBDD para una entidad.
 
 ## Observaciones
 
-La orden comprueba al ejecutarse que se han pasado los tres parámetros, que el código tiene una tabla de base de datos asociada en la tabla de códigos y que esa tabla tiene el campo indicado. Si falla alguna comprobación, muestra un mensaje de error y termina.
+La orden comprueba al ejecutarse que se han pasado los tres parámetros, que el código tiene una tabla de base de datos asociada en la tabla de códigos, que esa tabla existe en el esquema de la base de datos y que tiene el campo indicado. Si falla alguna comprobación, muestra un mensaje de error y termina.
 
 A continuación, la orden solicita que selecciones una entidad. Solo se pueden seleccionar entidades del modelo actual que tengan el código indicado. La orden asigna el valor al campo en los atributos de ese código de la entidad, convertido al tipo que ya tenga el campo, y termina.
 
