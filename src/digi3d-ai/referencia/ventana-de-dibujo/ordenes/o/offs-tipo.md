@@ -10,11 +10,11 @@ Desactiva códigos en la pantalla fotogramétrica.
 
 ## Observaciones
 
-En esta orden, `B` indica los complejos puntuales, no las imágenes, y `P` no incluye los complejos puntuales.
+En esta orden, `P` incluye los puntos, los complejos puntuales, los puntos orientados y los multipuntos, `B` indica las imágenes y `*` incluye todos los tipos de geometría.
 
-El tipo indica qué geometrías del código siguen visibles: la orden oculta las geometrías del código cuyo tipo no figura en el parámetro. Por eso, `*` oculta las imágenes, los multipuntos y el resto de tipos sin letra. Un código que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
+La orden oculta las geometrías del código de los tipos indicados. Las geometrías de los demás tipos conservan su estado. Un código que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
 
-Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos y una casilla por tipo de geometría. La orden mantiene visibles los tipos marcados y oculta los demás.
+Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos y una casilla por tipo de geometría \(líneas, puntos, textos, polígonos y complejos\). La orden oculta los tipos marcados.
 
 ## Características de la orden
 

@@ -66,21 +66,9 @@ Muchas órdenes interactivas ejecutan TENTATIVO internamente con una cadena fija
 
 ### ON\_TIPO, OFF\_TIPO, ONS\_TIPO, OFFS\_TIPO, OND\_TIPO y OFFD\_TIPO
 
-Estas órdenes aplican las letras como una máscara de visibilidad sobre las geometrías del código:
-
-| Letra | Tipo de geometría |
-| :--- | :--- |
-| `L` | Líneas |
-| `P` | Puntos. No incluye los complejos puntuales |
-| `T` | Textos |
-| `C` | Complejos |
-| `H` | Polígonos |
-| `B` | **Complejos puntuales**, no imágenes |
-| `*` | Líneas, puntos, textos, complejos, polígonos y complejos puntuales |
-
-No hay letra para las imágenes, los multipuntos ni el resto de tipos. `*` tampoco los incluye.
-
-En OFF\_TIPO, OFFS\_TIPO y OFFD\_TIPO las letras indican los tipos que **siguen visibles**: la orden oculta las geometrías del código cuyo tipo no figura en el parámetro. Por eso, `OFF_TIPO=020101 *` oculta las imágenes, los multipuntos y el resto de tipos sin letra.
+* `P` incluye los puntos, los complejos puntuales, los puntos orientados y los multipuntos.
+* `*` incluye todos los tipos de geometría, también los que no tienen letra, como los círculos y los objetos OLE.
+* ON\_TIPO, ONS\_TIPO y OND\_TIPO muestran los tipos indicados. OFF\_TIPO, OFFS\_TIPO y OFFD\_TIPO los ocultan. Las geometrías de los demás tipos conservan su estado.
 
 ### COPIAR, COPIA2P, COPIA\_R, DUP, DUPLICA, MOVER y MOVER\_Z
 

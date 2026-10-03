@@ -10,11 +10,11 @@ Activa códigos en la pantalla fotogramétrica y la de dibujo.
 
 ## Observaciones
 
-En esta orden, `B` indica los complejos puntuales, no las imágenes, y `P` no incluye los complejos puntuales. `*` no incluye las imágenes, los multipuntos ni el resto de tipos sin letra.
+En esta orden, `P` incluye los puntos, los complejos puntuales, los puntos orientados y los multipuntos, `B` indica las imágenes y `*` incluye todos los tipos de geometría.
 
 La orden muestra las geometrías del código de los tipos indicados. Las geometrías de los demás tipos conservan su estado. Un código que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
 
-Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos y una casilla por tipo de geometría.
+Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos y una casilla por tipo de geometría \(líneas, puntos, textos, polígonos y complejos\). La orden muestra los tipos marcados.
 
 ## Características de la orden
 
