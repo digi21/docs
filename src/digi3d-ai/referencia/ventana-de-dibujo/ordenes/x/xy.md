@@ -9,7 +9,9 @@ Introduce las coordenadas de uno o varios puntos.
 | 1, 2, 3 | Coordenadas X, Y y Z del primer punto | Número real | Si |
 | 4, 5, 6... | Coordenadas X, Y y Z de los puntos siguientes, de tres en tres | Número real | Si |
 
-Si no se indican parámetros, la orden muestra un cuadro de diálogo para teclear las coordenadas.
+Si el último punto solo tiene X e Y, su Z es 0; si solo tiene X, la orden lo descarta.
+
+Si no se indican parámetros, o solo se indica uno, la orden muestra un cuadro de diálogo para teclear las coordenadas.
 
 ## Observaciones
 
