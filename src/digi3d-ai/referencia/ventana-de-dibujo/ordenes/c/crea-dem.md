@@ -22,4 +22,5 @@ El archivo LAS contiene los puntos de la malla situados dentro del límite que s
 | Barra de herramientas en la que aparece la orden | Triangulación |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [TRIANGULAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular.md) |
 | Nombre interno | {3B6F710E-0DFD-46E0-A5B6-407DB853C480} |

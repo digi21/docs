@@ -15,4 +15,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ANULA\_ORDENES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anula-ordenes.md)<br>[ESCAPE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/escape.md) |
 | Nombre interno | {35F0D40E-95E1-4D50-8A94-D2B2706C1D73} |

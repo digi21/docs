@@ -19,5 +19,6 @@ La orden abre en el navegador predeterminado la página de esta ayuda de la orde
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [MUESTRA\_AYUDA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/muestra-ayuda.md) |
 | Nombre interno | {98484E7C-CF9B-4b7e-ADDB-56BB9DC13341} |
 

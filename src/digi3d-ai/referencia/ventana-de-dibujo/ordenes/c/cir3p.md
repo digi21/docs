@@ -27,5 +27,6 @@ La circunferencia se construye en el plano de la cámara: todos sus vértices qu
 | Barra de herramientas en la que aparece la orden | Circunferencias |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CIR2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir2p.md)<br>[CIR3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3d.md)<br>[CIRCR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/circr.md) |
 | Nombre interno | {6ED5F7BA-42D1-419c-982C-3088BDEFF125} |
 

@@ -21,5 +21,6 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | Partir |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [CORTAR\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-e.md)<br>[CORTAR\_Y\_BORRAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-y-borrar.md) |
 | Nombre interno | {A54159B2-7291-4bdb-8FF2-E5B26B9A211D} |
 

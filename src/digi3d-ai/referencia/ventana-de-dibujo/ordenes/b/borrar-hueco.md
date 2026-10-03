@@ -19,5 +19,6 @@ Selecciona con el cursor un vértice del hueco que quieres borrar. La orden solo
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [INSERTAR\_HUECO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insertar-hueco.md) |
 | Nombre interno | {8AB62341-E643-4188-9925-D81B17AB56BA} |
 

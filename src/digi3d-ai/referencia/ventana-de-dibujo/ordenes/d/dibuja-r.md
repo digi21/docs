@@ -25,4 +25,5 @@ Si no indicas ningún código, la orden muestra un cuadro de diálogo para selec
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DIBUJA\_R\_I](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja-r-i.md) |
 | Nombre interno | {80F52B47-ED1A-4285-B11C-BED8832B1903} |

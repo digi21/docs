@@ -217,4 +217,5 @@ Este ejemplo hará lo siguiente:
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesTopologia.dll                                                  |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
+| Órdenes relacionadas                             | [ERR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err.md)<br>[ERR-](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-menos.md)<br>[ERR+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-mas.md) |
 | Nombre interno | {20673463-9D22-4d74-AA28-5A60AECCA0E5} |

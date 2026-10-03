@@ -23,5 +23,6 @@ No se puede dibujar ningún elemento si no hay un código activo. Si se cambia d
 | Barra de herramientas en la que aparece la orden | Código |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CLONAR\_CÓDIGOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/clonar-codigos.md)<br>[COD\_SIN\_ORDEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-sin-orden.md)<br>[COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) |
 | Nombre interno | {A5CFB875-B477-462c-837E-CB1D54C72D3F} |
 

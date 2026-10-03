@@ -25,4 +25,5 @@ Si no indicas ningún código, la orden espera a que selecciones un conjunto de 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DETECTAR\_LINEAS\_NO\_CONECTADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar_lineas_no_conectadas.md)<br>[DETECTAR\_LINEAS\_VISIBLES\_NO\_CONECTADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-lineas-visibles-no-conectadas.md)<br>[DETECTAR\_LINEAS\_VISIBLES\_NO\_CONECTADAS\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-lineas-visibles-no-conectadas-3d.md) |
 | Nombre interno | {0B9D50BF-D49C-49AA-954D-FF8590E5AFA4} |

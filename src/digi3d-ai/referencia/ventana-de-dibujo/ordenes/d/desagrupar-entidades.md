@@ -19,4 +19,5 @@ La orden solo procesa las entidades visibles que estén dentro de la zona de int
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [SEPARA\_MULTICOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/separa-multicod.md) |
 | Nombre interno | {427C8FCD-7BB0-4BC2-84CF-7FF35670F365} |

@@ -31,5 +31,6 @@ Pulsa el botón de reset para quitar el resaltado. Pulsa la barra espaciadora o 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md)<br>[BUSCAR\_CENTROIDE\_I](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/buscar-centroide-i.md) |
 | Nombre interno | {6F6784EE-B46E-49ff-AC21-6BF418B4CA17} |
 

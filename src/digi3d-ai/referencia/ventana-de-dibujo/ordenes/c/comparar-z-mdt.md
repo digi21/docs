@@ -25,4 +25,5 @@ Compara la coordenada Z de los vértices de las entidades con la Z del modelo di
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [PROYECTA\_POR\_CONDICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-por-condicion.md) |
 | Nombre interno | {08589CEE-2BEA-42BC-AD4E-5F65709CDA35} |

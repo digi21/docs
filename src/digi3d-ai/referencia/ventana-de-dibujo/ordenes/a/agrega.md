@@ -29,5 +29,6 @@ Después de cada punto, la orden vuelve a mostrar el cuadro de diálogo para el 
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md) — factor de autonumeración<br>[FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md) — formato del texto cuando se usa AUTONUM |
+| Órdenes relacionadas | [FICHERO\_P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fichero-p.md)<br>[N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md) |
 | Nombre interno | {83730CD6-5D81-45dc-BDF4-B1ADEF65C5F5} |
 

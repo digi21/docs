@@ -33,5 +33,6 @@ Los ficheros de referencia se usan en modo lectura, pudiéndose ejecutar sobre e
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CAMBIA\_FICHEROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-ficheros.md)<br>[DEJAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dejar.md)<br>[FICHERO\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fichero-dibujo.md)<br>[PARAMETROS\_IMPORTACIÓN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md)<br>[RECARGAR\_ARCHIVOS\_REFERENCIA\_VISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recargar-archivos-referencia-vista.md) |
 | Nombre interno | {133C76FE-F098-4dbc-BFDF-71BD5200D71C} |
 

@@ -27,5 +27,6 @@ El archivo generado es un TIFF RGB con canal alfa, de 8 bits por canal, sin comp
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CAPTURA\_VENTANA\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/captura-ventana-dibujo.md) |
 | Nombre interno | {268A27C0-D187-4244-AE47-3DB2A0319D27} |
 

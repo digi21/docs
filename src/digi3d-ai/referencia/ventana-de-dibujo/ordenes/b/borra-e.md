@@ -26,5 +26,6 @@ Esta orden impide la visualización de estos elementos, insertando una marca de 
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [BORRA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod.md)<br>[BORRA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md)<br>[BORRA\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-v.md)<br>[RECUPERA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recupera.md) |
 | Nombre interno | {3FD502AE-2105-47b0-B9F1-51BE04B73DB1} |
 

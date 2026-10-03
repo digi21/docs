@@ -24,4 +24,5 @@ Al aceptar, la orden asigna la lista de representaciones al documento y regenera
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [REPRESENTACION\_DINAMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/representacion-dinamica.md) |
 | Nombre interno | {0023298C-F9CC-4EAD-838B-520AFD345D62} |

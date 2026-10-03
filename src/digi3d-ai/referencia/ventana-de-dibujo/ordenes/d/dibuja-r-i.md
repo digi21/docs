@@ -25,4 +25,5 @@ Pulsa Esc para terminar sin crear nada.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DIBUJA\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja-r.md) |
 | Nombre interno | {1C2857ED-88C7-4F91-B4CC-10C65F7613EB} |

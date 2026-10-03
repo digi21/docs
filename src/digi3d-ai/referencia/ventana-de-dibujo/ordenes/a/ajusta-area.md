@@ -20,4 +20,5 @@ Mueve el segmento seleccionado para ajustar el área de la línea cerrada selecc
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {03678D49-92C8-4F25-BC8A-6F386BD08F5B} |

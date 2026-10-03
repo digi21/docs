@@ -31,5 +31,6 @@ La orden genera una triangulación con la cartografía existente dentro del lím
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos |
+| Órdenes relacionadas | [TRIANGULAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular.md) |
 | Nombre interno | {5F9CD935-26E7-4c30-97EC-456DADB28A08} |
 

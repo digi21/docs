@@ -26,4 +26,5 @@ Si el recinto seleccionado en el paso 1 no tiene centroide, o el del paso 2 ya t
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BUSCAR\_CENTROIDE\_I](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/buscar-centroide-i.md) |
 | Nombre interno | {415D4B3E-68C0-43C4-B8D8-D8EF42C288C6} |

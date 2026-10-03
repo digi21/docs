@@ -23,4 +23,5 @@ Dos polígonos válidos de la topología se consideran vecinos cuando comparten 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [GENERALIZAR\_TOPOLOGIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generalizar-topologia.md) |
 | Nombre interno | {1AB418B7-39BA-44A5-A927-83CE87D31892} |

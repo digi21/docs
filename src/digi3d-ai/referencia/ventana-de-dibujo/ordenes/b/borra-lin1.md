@@ -34,5 +34,6 @@ Borrará aquellas líneas cuya longitud sea inferior a 0.01
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {4026A83D-FB51-4269-A59D-C4E3298513B6} |
 

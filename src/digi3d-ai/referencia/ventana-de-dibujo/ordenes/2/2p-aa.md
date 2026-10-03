@@ -23,6 +23,7 @@ Los lados del rectángulo siguen la dirección del [ángulo activo](../../variab
 | Barra de herramientas en la que aparece la orden | Cuadrados y rectángulos                                              |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                             |
 | Variables relacionadas                           | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas                             | [2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/2/2p.md)<br>[3P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/3/3p.md)<br>[RECTANGULO\_2P\_NORTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rectangulo-2p-norte.md)<br>[RECTANGULO\_DR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rectangulo-dr.md) |
 | Nombre interno | {63DCF587-DB76-4992-B84E-F1729BBDF3DC} |
 
 ## Vídeo

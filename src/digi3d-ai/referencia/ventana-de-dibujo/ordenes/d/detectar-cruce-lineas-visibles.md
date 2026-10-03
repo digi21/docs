@@ -15,4 +15,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DETECTAR\_CRUCE\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas.md)<br>[DETECTAR\_CRUCE\_LINEAS\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas-z.md)<br>[PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md) |
 | Nombre interno | {82DF29C0-4E35-48E2-BF36-E26122F21599} |

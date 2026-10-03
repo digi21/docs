@@ -21,5 +21,6 @@ Con la orden SPLINE, la línea debe tener al menos tres puntos; si no los tiene,
 | Barra de herramientas en la que aparece la orden | Finalización de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CIERRA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cierra.md)<br>[FIN\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fin-ent.md)<br>[LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[SPLINE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/spline.md) |
 | Nombre interno | {5910086A-4CA0-45d7-BF4B-4F3878E9AF30} |
 

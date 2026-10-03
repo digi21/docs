@@ -25,5 +25,6 @@ Si se detectan auto intersecciones, se añadirán entradas en el [Panel Tareas](
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DETECTAR\_BUCLES\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-bucles-lineas-visibles.md) |
 | Nombre interno | {74442DE2-4C89-4463-899F-0F775302497C} |
 

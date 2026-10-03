@@ -22,4 +22,5 @@ Un nodo es un punto en el que coinciden en X e Y los extremos de dos o más lín
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ASIGNAR\_Z\_MAXIMA\_VERTICES\_NODO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-z-maxima-vertices-nodo.md) |
 | Nombre interno | {80F18AE3-395E-4536-A2BC-2608D2B4888B} |

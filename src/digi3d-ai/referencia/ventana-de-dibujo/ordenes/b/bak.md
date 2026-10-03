@@ -23,5 +23,6 @@ DigiNG puede hacer la copia de seguridad automáticamente cada cierto tiempo. Es
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | _No tiene variables relacionadas_ |
+| Órdenes relacionadas | [SALVAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/salvar.md) |
 | Nombre interno | {B826AC47-F6A5-4d4b-8FE5-1DCDE8DA0FB0} |
 

@@ -21,4 +21,5 @@ Esta orden asigna un valor a un atributo en la lista de atributos activos en la 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesBaseDatos.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ANADE\_ATRIBUTO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anade_atributo_activo.md)<br>[ASIGNAR\_AZIMUT\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-azimut-atributo.md)<br>[ASIGNAR\_DISTANCIA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-distancia-atributo.md)<br>[ELIMINA\_ATRIBUTOS\_ACTIVOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/elimina_atributos_activos.md)<br>[RESETEA\_ATRIBUTOS\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/resetea-atributos-bbdd.md) |
 | Nombre interno | {1F994DE4-F8C4-4C4F-BBE5-D20C161D8A98} |

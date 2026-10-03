@@ -41,5 +41,6 @@ Los límites son las líneas cerradas en 2D, visibles, no borradas y en la zona 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CORTAR\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-f.md) |
 | Nombre interno | {5710B5C8-DF11-43c7-AFB6-EF9818C99AE7} |
 
