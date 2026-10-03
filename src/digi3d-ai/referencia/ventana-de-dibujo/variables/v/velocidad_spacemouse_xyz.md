@@ -14,7 +14,7 @@ Esta orden se puede ejecutar con o sin parámetros.
 
 ### Sin parámetros
 
-Si ejecutamos esta orden sin parámetros, la barra de estado muestra un cuadro de texto para escribir el valor. También podemos digitalizar gráficamente dos puntos. Una vez digitalizado el segundo punto, se asignará la distancia medida como factor de velocidad para el dispositivo.
+Si ejecutamos esta orden sin parámetros, la barra de estado muestra un cuadro de texto para escribir el valor. La orden solo acepta el valor tecleado: si se digitaliza un punto, emite un sonido de error y sigue esperando el valor.
 
 Al iniciar Digi3D.AI el factor vale 0.001.
 
