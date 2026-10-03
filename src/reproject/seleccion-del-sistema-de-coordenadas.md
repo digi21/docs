@@ -14,6 +14,8 @@ Al volver a abrir el cuadro, el programa muestra la categoría y las opciones co
 
 ## Categorías
 
+![Cuadro Seleccionar sistema de referencia de coordenadas con la categoría Proyectado y el sistema EPSG:32630](../images/reproject-seleccion-sistema-proyectado.jpg)
+
 | Categoría | Contenido |
 |---|---|
 | Geográfico 2D | Sistemas geográficos de dos dimensiones del catálogo EPSG. |
@@ -34,6 +36,8 @@ Las categorías Geográfico 2D, Geográfico 3D, Proyectado y Vertical muestran t
 Ejemplo: `WGS84 30N` encuentra `WGS 84 / UTM zone 30N`.
 
 ## Sistema compuesto
+
+![Sistema compuesto: horizontal EPSG:25830 y vertical EPSG:5782 Alicante height](../images/reproject-seleccion-sistema-compuesto.jpg)
 
 La categoría **Compuesto (H+V)** muestra dos listas:
 
