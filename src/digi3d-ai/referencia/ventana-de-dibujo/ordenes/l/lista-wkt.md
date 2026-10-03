@@ -19,4 +19,5 @@ La orden abre el panel de resultados y escribe en él la geometría seleccionada
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [LISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/lista.md)<br>[LISTA\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/lista_atributos.md) |
 | Nombre interno | {07435CF1-F2A3-45EF-AF8B-9506CC393B2B} |

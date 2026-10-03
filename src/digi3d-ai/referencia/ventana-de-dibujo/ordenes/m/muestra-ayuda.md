@@ -17,4 +17,5 @@ Muestra un documento HTML en el panel de ayuda del programa.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [AYUDA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/ayuda.md) |
 | Nombre interno | {8E3076F5-A986-42F2-A6E7-4546D54AFA27} |

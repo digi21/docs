@@ -19,5 +19,6 @@ La orden trabaja sobre el archivo de dibujo activo y ordena alfabéticamente por
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ORDENA\_POR\_CÓDIGO\_N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ordena-por-codigo-n.md)<br>[ORDENA\_POR\_DIGI\_TAB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ordena-por-digitab.md) |
 | Nombre interno | {3BF7C019-717B-448b-A9B4-6791BBE7E029} |
 

@@ -21,5 +21,6 @@ Sin parámetro, la orden usa el tamaño del cursor de la ventana de dibujo.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [JUNTAR\_VERTICES\_CERCANOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/j/juntar-vertices-cercanos.md)<br>[JUNTAR\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/j/juntar-z.md) |
 | Nombre interno | {7B3A0FBA-E03F-4c93-909C-6183536653FB} |
 

@@ -21,4 +21,5 @@ La orden muestra un cuadro de diálogo con un editor de texto que contiene una f
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [EDITAR\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-xyz.md) |
 | Nombre interno | {B826AC47-F6A5-4D4B-8FE5-1DCDE8DA0FB1} |

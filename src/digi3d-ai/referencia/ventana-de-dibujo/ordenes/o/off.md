@@ -47,5 +47,6 @@ Para desactivar solo algunos tipos de geometría de un código, ejecuta [OFF\_TI
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [OFF\_ARCHIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off-archivo.md)<br>[OFF\_TIPO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off-tipo.md)<br>[OFF\_TODO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off_todo.md)<br>[OFFD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/offd.md)<br>[OFFS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/offs.md)<br>[ON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on.md) |
 | Nombre interno | {A893D97A-96A2-4862-9210-AE45F12A976F} |
 

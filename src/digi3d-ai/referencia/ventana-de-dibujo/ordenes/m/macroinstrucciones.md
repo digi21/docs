@@ -21,5 +21,6 @@ En la lista sólo se muestran las arrobas que existen en el directorio de tablas
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {B1A86A33-6B33-40b2-8C84-693696E7418B} |
 

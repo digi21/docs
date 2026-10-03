@@ -27,5 +27,6 @@ La orden termina después de procesar un punto.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [JUNTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/j/juntar.md) |
 | Nombre interno | {A8120372-9CF4-4ff9-A6DE-035E717C746A} |
 

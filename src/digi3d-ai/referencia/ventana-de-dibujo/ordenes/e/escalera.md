@@ -21,5 +21,6 @@ Debemos introducir el número de escalones de la escalera, que serán paralelos 
 | Barra de herramientas en la que aparece la orden | Escaleras |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CUADROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cuadros.md)<br>[ESCALERA\_DA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/escalera-da.md) |
 | Nombre interno | {9FECD378-BB36-43dc-B635-7D114979A3DC} |
 

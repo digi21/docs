@@ -21,4 +21,5 @@ La orden solo procesa líneas y polígonos (incluidos sus huecos) que no estén 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {9D15A184-EFC0-415A-97AD-A35D627FF94A} |

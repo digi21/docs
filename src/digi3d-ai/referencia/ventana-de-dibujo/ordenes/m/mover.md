@@ -24,5 +24,6 @@ La orden desplaza las entidades el vector \(punto origen, punto destino\), inclu
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [DESPLAZAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/desplazar.md)<br>[MOVER\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z.md) |
 | Nombre interno | {4FB4DD41-80C4-47e6-AD51-0B2F5C841DE0} |
 

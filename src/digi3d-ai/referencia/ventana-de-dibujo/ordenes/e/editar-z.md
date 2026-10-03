@@ -27,5 +27,6 @@ La orden solicita que selecciones una línea o un polígono del modelo actual y 
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [EDITAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar.md)<br>[EDITAR\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-xyz.md) |
 | Nombre interno | {FD6B1A6F-3CF1-4460-8A6F-011C17C5CA51} |
 

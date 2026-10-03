@@ -26,5 +26,6 @@ Si el sistema de referencia de coordenadas de la ventana de dibujo es proyectado
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DETECTAR\_SEGMENTOS\_CORTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-segmentos-cortos.md) |
 | Nombre interno | {C3857680-4931-4331-AB7C-FFD14D3360E3} |
 

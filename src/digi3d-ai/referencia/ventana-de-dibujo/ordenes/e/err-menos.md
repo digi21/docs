@@ -19,5 +19,6 @@ Los programas _BINTRAM_ y _BINTOP_ sirven para generar un fichero con símbolos,
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md)<br>[ERR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err.md)<br>[ERR+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-mas.md) |
 | Nombre interno | {1C17E56F-2901-415c-BE19-09E87CE840CB} |
 

@@ -26,5 +26,6 @@ Esta orden respeta la relación de aspecto de la imagen.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [INS\_FOTO\_2P\_AA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-foto-2p-aa.md)<br>[INS\_FOTO\_3P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-foto-3p.md) |
 | Nombre interno | {F0CE7FBF-190A-4007-BBD6-6737934D86CE} |
 

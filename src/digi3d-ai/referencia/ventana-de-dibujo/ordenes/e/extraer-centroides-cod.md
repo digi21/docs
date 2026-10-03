@@ -21,4 +21,5 @@ El centroide es un texto situado en un punto interior de la entidad, con los có
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
+| Órdenes relacionadas | [EXTRAER\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/extraer-centroide.md) |
 | Nombre interno | {356024A0-F29F-44DC-B9F4-82F46594836A} |

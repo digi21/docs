@@ -15,5 +15,6 @@ No admite parámetros
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [LIMITE\_1](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limite-1.md) |
 | Nombre interno | {7DB65D0E-6891-44de-B536-84A324C7E49A} |
 

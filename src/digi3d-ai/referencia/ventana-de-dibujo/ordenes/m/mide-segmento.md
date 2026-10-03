@@ -19,5 +19,6 @@ Solo admite líneas; si se selecciona otro tipo de entidad, la orden emite un so
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DIBUJA\_DISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_distancia.md)<br>[MIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide.md)<br>[MIDE\_PERÍMETRO\_LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-perimetro-linea.md)<br>[MIDE\_PERÍMETRO\_LINEA\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-perimetro-linea-xyz.md)<br>[MIDE\_PERP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-perp.md)<br>[MIDE\_SEGMENTO\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-segmento-xyz.md)<br>[MIDE+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide-mas.md) |
 | Nombre interno | {DEABACEC-7F14-4C91-95B8-EB4552BD642F} |
 

@@ -27,5 +27,6 @@ La orden suma la diferencia de Z entre el punto destino y el punto origen a las 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [MOVER\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z.md) |
 | Nombre interno | {B2D8B252-EC8E-4580-B938-24A3AED647D4} |
 

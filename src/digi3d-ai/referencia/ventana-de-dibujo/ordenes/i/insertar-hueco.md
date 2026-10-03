@@ -27,5 +27,6 @@ En la configuración de las órdenes, la categoría **INSERTAR\_HUECO** tiene do
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BORRAR\_HUECO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borrar-hueco.md) |
 | Nombre interno | {0A26B11E-E894-4b05-8034-0E89323F6710} |
 

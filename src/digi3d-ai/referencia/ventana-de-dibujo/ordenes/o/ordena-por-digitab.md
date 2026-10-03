@@ -23,5 +23,6 @@ En caso de querer invertir el orden de las entidades, la secuencia será `ORDENA
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ORDENA\_POR\_CÓDIGO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ordena-por-codigo.md)<br>[ORDENA\_POR\_CÓDIGO\_N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ordena-por-codigo-n.md) |
 | Nombre interno | {FD785D31-49D9-4f52-94B6-720E78E5FBB9} |
 

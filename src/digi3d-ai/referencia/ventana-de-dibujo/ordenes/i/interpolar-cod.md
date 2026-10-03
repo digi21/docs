@@ -17,4 +17,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | Interpolación |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [INTER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter.md) |
 | Nombre interno | {949F298F-5D9A-4762-88C8-B8514EEFA9AE} |
