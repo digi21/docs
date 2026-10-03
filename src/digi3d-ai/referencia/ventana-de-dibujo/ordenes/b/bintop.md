@@ -62,7 +62,7 @@ BINTOP=\[tabla] \[polígonos_sin_area] \[polígonos_sin_centroide] \[topología_
   * \[cargar_como_referencia]: en caso de querer cargar el archivo automáticamente como referencia se deberá poner aquí un 1, en caso contrario se escribirá un 0.
 * \[cargar_topológico_en_memoria]: 1 para cargar la topología en memoria, 0 para no cargarla.
 
-Todos los parámetros son obligatorios cuando se indica la tabla.
+Todos los parámetros son obligatorios cuando se indica la tabla. Si falta alguno, la orden emite un sonido de error, muestra el aviso «Faltan parámetros» y termina sin calcular la topología.
 
 Si la variable [CREAR\_TOPOLOGIAS\_ARCHIVOS\_REFERENCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/crear-topologias-archivos-referencia.md) está activada, la orden calcula una topología para cada archivo de dibujo cargado; si no, solo para el archivo de dibujo activo.
 
