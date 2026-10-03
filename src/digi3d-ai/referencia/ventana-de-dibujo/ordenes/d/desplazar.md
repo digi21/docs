@@ -12,7 +12,7 @@ Desplaza entidades del archivo de dibujo distancias definidas por el usuario med
 
 ## Observaciones
 
-La orden funciona únicamente cuando se le pasan directamente los desplazamientos en la línea de comandos. Sin parámetros, muestra un mensaje de error y termina.
+La orden funciona únicamente cuando se le pasan directamente los desplazamientos en la línea de comandos. Sin parámetros o con menos de tres, muestra un mensaje de error y termina.
 
 Una vez ejecutada la orden, cada pulsación del pedal de registro o del tentativo selecciona una entidad y la desplaza. La orden sigue activa hasta que pulses Esc. Si seleccionas varias entidades a la vez mediante una selección múltiple, la orden desplaza las del modelo actual y termina.
 
