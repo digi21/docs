@@ -8,6 +8,10 @@ Ejecuta un programa externo o abre un archivo con la aplicación que tenga asoci
 | :--- | :--- | :--- | :--- |
 | 1 | Ruta del programa o archivo a abrir | — | No |
 
+## Observaciones
+
+Si la ruta contiene espacios, escríbela entre comillas dobles. La orden no pasa argumentos al programa: solo utiliza el primer parámetro.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](programa.md) |

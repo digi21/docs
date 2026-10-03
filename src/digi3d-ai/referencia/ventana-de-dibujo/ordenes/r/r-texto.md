@@ -6,6 +6,16 @@ Rota un texto ya existente en el archivo de dibujo.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden solicita tres datos:
+
+1. Selecciona el texto del modelo actual.
+2. Digitaliza un punto. La nueva rotación del texto es la dirección que va del punto de inserción del texto a este punto.
+3. Digitaliza el punto de destino. El texto se desplaza el vector que va del punto de selección al punto de destino.
+
+Pulsa el botón de reset para cancelar la orden.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](r-texto.md) |

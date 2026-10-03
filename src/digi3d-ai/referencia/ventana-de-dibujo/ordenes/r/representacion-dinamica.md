@@ -6,7 +6,11 @@ Asigna como representación dinámica la pasada por parámetros.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Nombre de la representación dinámica | No |
+| 1 | Nombre de la representación dinámica | Si |
+
+## Observaciones
+
+Si no indicas el parámetro, la orden desactiva la representación dinámica. Si la tabla de códigos no tiene ninguna representación dinámica con el nombre indicado, la orden emite un sonido de error y no cambia nada.
 
 ## Características de la orden
 

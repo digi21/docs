@@ -6,7 +6,11 @@ Proyecta todas la entidades con un determinado código sobre los MDTs cargados q
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Etiqueta | Si |
+| 1 | Etiqueta | No |
+
+## Observaciones
+
+La orden solo utiliza los archivos de dibujo cargados capaces de proyectar \(MDT\) que tienen asignada la etiqueta indicada. Si no indicas la etiqueta, o ningún MDT la tiene, la orden muestra un aviso y termina.
 
 ## Características de la orden
 

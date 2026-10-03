@@ -6,7 +6,7 @@ Activa/desactiva la visualización de los patrones de línea en la pantalla de v
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | 0 desactiva / 1 activa (? para consultar) | Si |
+| 1 | 0 desactiva / 1 activa (? para consultar). Sin parámetro, la orden alterna el estado actual | Si |
 
 ## Características de la orden
 

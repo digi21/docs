@@ -6,6 +6,10 @@ Recarga los archivos de referencia que admiten región de interés para con las 
 
 No admite parámetros.
 
+## Observaciones
+
+La orden solo se puede ejecutar cuando no hay otra orden activa; en caso contrario, muestra un mensaje y termina. Si ningún archivo de dibujo cargado admite carga parcial, la orden muestra un mensaje.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](recargar-archivos-referencia-vista.md) |

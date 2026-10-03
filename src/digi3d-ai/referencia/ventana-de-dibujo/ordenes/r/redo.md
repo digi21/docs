@@ -10,7 +10,7 @@ No admite parámetros.
 
 | Tipo de orden | [Orden inmediata](redo.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Rehacer |
 | Barra de herramientas en la que aparece la orden | Deshacer |
 | Extensión | DigiNG.OrdenesStandard.dll |

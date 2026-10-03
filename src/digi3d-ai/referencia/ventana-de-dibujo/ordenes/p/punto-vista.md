@@ -8,6 +8,10 @@ Sitúa el punto de vista de la ventana ortográfica en una de las vistas predefi
 | :--- | :--- | :--- | :--- |
 | 1 | Número de punto de vista | 1 = Superior<br>2 = Inferior<br>3 = Izquierdo<br>4 = Derecho<br>5 = Frontal<br>6 = Trasero<br>7 = Isométrico SW<br>8 = Isométrico SE<br>9 = Isométrico NE<br>10 = Isométrico NW | Si |
 
+## Observaciones
+
+Si no indicas el parámetro, o su valor no está entre 1 y 10, la orden solicita dos puntos: el primero es la posición de la cámara y el segundo es el punto al que mira la cámara.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](punto-vista.md) |

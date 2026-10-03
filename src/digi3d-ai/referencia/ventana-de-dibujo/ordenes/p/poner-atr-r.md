@@ -1,12 +1,26 @@
 # PONER\_ATR\_R
 
-Asigna atributos por recinto calculando topologías en tiempo real.
+Añade los códigos activos a las entidades que forman el contorno de los recintos seleccionados en la topología temporal.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ordenar de forma inversa (0/1) | Si |
+| 1 | Ordenar de forma inversa (0/1). La orden lee este parámetro pero no lo utiliza | Si |
+
+## Observaciones
+
+La orden necesita una topología temporal calculada; si no la hay, muestra el aviso «No hay ninguna topología temporal creada» y termina.
+
+Al mover el cursor, el recinto que contiene el cursor se ilumina:
+
+* Pulsa el botón de datos dentro de un recinto para seleccionarlo. La selección anterior se descarta.
+* Mantén pulsada la tecla Ctrl al pulsar el botón de datos para añadir el recinto a la selección o quitarlo de ella.
+* Pulsa el botón de tentativo para pasar al siguiente recinto que contiene el punto.
+* Pulsa el botón de reset para deseleccionar todos los recintos.
+* Pulsa Esc para cancelar la orden.
+
+Para aceptar la selección, pulsa la barra espaciadora. La orden añade los códigos activos a cada entidad del contorno exterior de los recintos seleccionados.
 
 ## Características de la orden
 

@@ -6,9 +6,15 @@ Asigna parámetros de la cámara cónica.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Campo de visión (Fov) | No |
-| 2 | Distancia cercana | No |
-| 3 | Distancia lejana | No |
+| 1 | Campo de visión vertical (Fov), en grados sexagesimales. Valor por defecto: 45 | Si |
+| 2 | Distancia del plano de recorte cercano. Valor por defecto: 0,3 | Si |
+| 3 | Distancia del plano de recorte lejano. Valor por defecto: 500 | Si |
+
+## Observaciones
+
+Si indicas los tres parámetros, la orden guarda los valores en el registro de Windows. Si indicas menos de tres, la orden muestra un cuadro de diálogo para introducirlos.
+
+Si la cámara de la ventana de dibujo es cónica, la orden aplica los valores guardados y regenera la vista. Si la cámara no es cónica, la orden [CAMARA\_CONICA](../c/camara-conica.md) aplica los valores guardados.
 
 ## Características de la orden
 

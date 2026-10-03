@@ -4,20 +4,13 @@ Coloca un texto con el valor de la diferencia en altura entre dos puntos que reg
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Ángulo activo \([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) | Número real | Si |
-| 2 | Altura de texto \([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) | Número real | Si |
-| 3 | Código \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
-| 4 | Distancia activa \([DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) | Número real | Si |
-| 5 | Justificación de texto \([JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real | Si |
-| 6 | Número de decimales \([NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) | Número real | Si |
+No admite parámetros.
 
 ## Observaciones
 
-El texto se situará con justificación inferior izquierda sobre el punto de dato que se indique con el cursor.
+La orden solicita dos puntos. El texto contiene el valor absoluto de la diferencia de Z entre los dos puntos y se sitúa en el punto de mayor Z.
 
-El texto tendrá como ángulo de orientación, altura y ángulo de inclinación los valores que se encuentren activos en las variables AA, AT y JT, respectivamente. El número de decimales que aparecerán en el texto será el determinado por la orden NDEC.
+El texto tendrá como ángulo de rotación, altura y justificación los valores que se encuentren activos en las variables [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) y [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md), respectivamente. El número de decimales del texto es el que determina [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md). El texto se almacena con el código activo.
 
 ## Características de la orden
 

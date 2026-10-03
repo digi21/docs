@@ -1,12 +1,12 @@
 # RESETEA\_ATRIBUTOS\_BBDD
 
-Asigna como atributos activos los atributos de BBDD de la tabla de códigos para el código activo
+Asigna como atributos activos los atributos de BBDD de la tabla de códigos para un código.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código | No |
+| 1 | Código. Si no lo indicas, la orden utiliza el código seleccionado | Si |
 
 ## Características de la orden
 

@@ -41,7 +41,7 @@ Una vez ejecutada la orden PARAMETROS\_IMPORTACIÓN, el usuario puede ejecutar l
 
 | Tipo de orden | [Orden inmediata](parametros-importacion.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

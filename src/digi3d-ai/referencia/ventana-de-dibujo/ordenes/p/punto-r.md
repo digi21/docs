@@ -4,11 +4,13 @@ Inserta un símbolo puntual en el dibujo permitiendo al usuario indicar una rota
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código o códigos del punto. Si no los indicas, el punto se almacena con el código activo | Si |
 
 ## Observaciones
 
-La orden pedirá la digitalización del punto de inserción y a continuación pedirá definir mediante el movimiento del ratón ó manivela la rotación final del símbolo.
+La orden pedirá la digitalización del punto de inserción y a continuación un segundo punto. La rotación del símbolo es la dirección que va del punto de inserción al segundo punto. Mientras mueves el cursor, el símbolo se muestra con la rotación resultante.
 
 ## Características de la orden
 

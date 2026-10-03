@@ -1,23 +1,21 @@
 # PONER\_XY
 
-Coloca dos textos numéricos con los valores de las coordenadas X,Y de los puntos que selecciones.
+Coloca dos textos numéricos con los valores de las coordenadas X,Y del punto que selecciones.
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Ángulo activo \([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) | Número real | Si |
-| 2 | Altura de texto \([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) | Número real | Si |
-| 3 | Código \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
-| 4 | Distancia activa \([DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) | Número real | Si |
-| 5 | Justificación de texto \([JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real | Si |
-| 6 | Número de decimales \([NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) | Número real | Si |
+No admite parámetros.
 
 ## Observaciones
 
 Esta orden se utiliza para rotular las coordenadas de las cruces de la cuadrícula utilizada en un fichero de dibujo.
 
-Los textos de las coordenadas se colocan con un ángulo de 90º uno respecto del otro, y se insertan en la misma posición del punto elegido, o desplazados de este valor una distancia igual al de la distancia activa principal.
+La orden muestra los dos textos en el cursor y los almacena al registrar un punto:
+
+* El texto `Y=<valor>` se sitúa desplazado en X la [distancia activa](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) respecto del punto, con la rotación del [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
+* El texto `X=<valor>` se sitúa desplazado en Y la distancia activa respecto del punto, con la rotación del ángulo activo más 90º.
+
+Los dos textos tienen la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación de [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y el número de decimales de [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md). Se almacenan con el código activo.
 
 ## Características de la orden
 

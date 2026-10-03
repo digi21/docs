@@ -6,13 +6,15 @@ Rotula una o varias curvas de una vez con su cota correspondiente.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Altura de texto \([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) | Número real | Si |
-| 2 | Justificación de texto \([JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real | Si |
-| 3 | Número de decimales \([NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) | Número real | Si |
-| 4 | Código texto \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
-| 5 | Código línea a rotular | Identificador del código | Si |
+| 1 … N | Código o códigos de las líneas a rotular | Identificador del código | Si |
 
 ## Observaciones
+
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos.
+
+La orden solicita dos puntos que definen un segmento. Mientras mueves el cursor, la orden muestra los textos que se van a crear. Por cada línea con alguno de los códigos que corta el segmento, la orden crea un texto en el punto de corte con la Z de ese punto. El texto sigue la dirección del tramo de la línea cortado y se gira 180º si quedaría boca abajo.
+
+El texto tiene la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación de [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y el número de decimales de [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md), y se almacena con el código activo. Después de crear los textos, la orden solicita un nuevo segmento.
 
 Esta orden no rotulará entidades que están desactivadas con la orden [OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md).
 
