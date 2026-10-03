@@ -12,7 +12,7 @@ Esta orden se puede ejecutar con un parámetro o sin parámetros
 | :--- | :--- | :--- | :--- |
 | 1 | Distancia activa principal y secundaria | Número real | Si |
 
-Con un segundo parámetro, la orden se comporta como [DA](da.md): el primero se asigna a la distancia activa principal y el segundo a la secundaria.
+La orden asigna siempre el mismo valor a las dos distancias: si se escribe un segundo parámetro, se ignora. Para asignar valores distintos, usa [DA](da.md).
 
 `DA1=?` muestra en un globo los valores de la distancia activa principal y de la secundaria.
 
