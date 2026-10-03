@@ -8,13 +8,13 @@ No admite parámetros.
 
 ## Observaciones
 
+La orden divide el factor de zoom entre 2.
+
 El factor de zoom activo en cada momento aparece en la parte inferior de la Ventana Estereoscópica.
 
-El zoom de alejamiento tendrá diferentes límites que no podrá sobrepasar dependiendo del tipo de sensor utilizado:
+Por debajo de 1, el factor se ajusta al nivel piramidal de la imagen más cercano \(1/2, 1/4, 1/8...\), así que el factor mínimo depende de los niveles piramidales que tengan las imágenes cargadas.
 
-* Con cámara cónica analógica el límite es de 128:1
-* Con cámara digital el límite también es de 128:1
-* Con sensor ADS40 de Leica el límite es de 256:1
+Con los sensores Point Cloud y Ortofoto estereoscópica la orden no cambia el factor de zoom: esos sensores gestionan su propia vista.
 
 ## Características de la orden
 

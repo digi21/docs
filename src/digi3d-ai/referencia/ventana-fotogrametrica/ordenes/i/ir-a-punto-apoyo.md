@@ -1,6 +1,6 @@
 # IR\_A\_PUNTO\_APOYO
 
-Mueve el restituidor a un punto de apoyo cuyas coordenadas deben aparecer en el archivo de puntos que se especificó en la pestaña [Sensores fotogramétricos](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo **Nuevo proyecto**.
+Mueve el restituidor a un punto de apoyo elegido de un archivo de puntos.
 
 ## Parámetros
 
@@ -8,18 +8,20 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden al cargar comprueba que hemos entrado en formato estereoscópico y que la relativa y la absoluta están realizadas.  
-Después solicita un punto\* y busca dicho punto en el archivo de puntos. Si lo encuentra desplaza el restituidor a dicho punto. \*El punto se puede entrar de dos formas:
+La orden lee la ruta del archivo de puntos del valor de registro `ArchivoPuntos`, el mismo que usa la pestaña [Sensores fotogramétricos](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo **Nuevo proyecto**. Si el valor está vacío o el archivo no existe, la orden muestra un cuadro de diálogo para abrir un archivo de puntos y guarda la ruta elegida en ese valor. Si se cancela, la orden termina con la música de error.
 
-* Introduciendo un número de punto \(el programa buscará por la primera columna del archivo de puntos\).
-* Introduciendo \*\[nemotécnico\] Ej: \*PK12 \(el programa buscará por el nemotécnico del archivo de puntos\).
+Después la orden muestra un cuadro de diálogo con la lista de puntos del archivo: nombre, X, Y, Z y descripción. Cada línea del archivo con al menos cuatro columnas \(nombre, X, Y y Z\) es un punto; la quinta columna, si existe, es la descripción. El botón de examinar del cuadro de diálogo permite cargar otro archivo de puntos.
+
+Para ir a un punto, selecciónalo en la lista y pulsa **Aceptar**, o haz doble clic sobre él. La orden mueve el restituidor a las coordenadas de terreno del punto. Si se cancela el cuadro de diálogo, la orden termina con la música de error.
+
+La orden no comprueba si las orientaciones relativa y absoluta están realizadas.
 
 ## Características de la orden
 
 | Tipo de orden | Orden interactiva |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Ventana fotogramétrica/Ir a punto de apoyo |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Ir a punto de apoyo... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
 | Variables relacionadas | No tiene variables relacionadas |

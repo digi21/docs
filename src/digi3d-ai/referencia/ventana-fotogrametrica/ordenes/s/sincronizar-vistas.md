@@ -1,11 +1,19 @@
 # SINCRONIZAR\_VISTAS
 
 Ésta orden es de utilidad al tener abiertas varias vistas estereoscópicas.  
-al ejecutar la orden **SINCRONIZAR\_VISTAS** se sincronizarán las coordenadas de los índices en cada una de las vistas, mostrando así la misma zona en todas las vistas.
+Con la sincronización activada, las coordenadas de los índices se sincronizan en todas las vistas, de forma que todas muestran la misma zona.
 
 ## Parámetros
 
-No admite parámetros.
+| Parámetro | Comportamiento de la orden |
+| :--- | :--- |
+| Sin parámetro | Alterna: activa la sincronización si está desactivada y la desactiva si está activada |
+| 0 | Desactiva la sincronización |
+| Distinto de 0 | Activa la sincronización |
+
+### Ejemplo:
+
+`SINCRONIZAR_VISTAS=1`
 
 ## Características de la orden
 

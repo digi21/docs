@@ -8,13 +8,11 @@ No admite parámetros.
 
 ## Observaciones
 
-Por motivos de redondeo, no se permiten todos los factores de zoom, por los que los factores de zoom cuando estamos aumentando la imagen se limitan a: 2x, 4x, 5x, 10x, 20x.
+La orden multiplica el factor de zoom por 2.
 
-El zoom de acercamiento tendrá diferentes límites que no podrá sobrepasar dependiendo del tipo de sensor utilizado:
+El factor de zoom máximo es 128: si el resultado lo supera, el factor queda en 128. Por debajo de 1, el factor se ajusta al nivel piramidal de la imagen más cercano \(1/2, 1/4, 1/8...\).
 
-* Con cámara cónica analógica el límite es de 1:128
-* Con cámara digital el límite también es de 1:128
-* Con sensor ADS40 de Leica el límite es de 1:128
+Con los sensores Point Cloud y Ortofoto estereoscópica la orden no cambia el factor de zoom: esos sensores gestionan su propia vista.
 
 ## Características de la orden
 

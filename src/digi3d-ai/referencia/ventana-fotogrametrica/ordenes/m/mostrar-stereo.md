@@ -1,15 +1,19 @@
-# MOSTRAR\_STEREO
+# MOSTRAR\_ESTEREO
 
-Activar/desactiva tanto la imagen raster cómo la superposición.
+Elige qué se muestra en la ventana fotogramétrica: la imagen ráster, la superposición o las dos.
 
 ## Parámetros
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| Sin parámetro | Alterna la visualización entre: Mostrar sólo raster/Mostrar sólo superposición/Mostrar todo |
-| 0 | Muestra sólo la superposición |
-| 1 | Muestra sólo la imagen raster |
+| Sin parámetro | Pasa al siguiente modo del ciclo: de mostrar todo a mostrar solo la imagen ráster, de ahí a mostrar solo la superposición y de ahí otra vez a mostrar todo |
+| 0 | Muestra solo la superposición |
+| 1 | Muestra solo la imagen ráster |
 | 2 | Muestra todo |
+
+### Ejemplo:
+
+`MOSTRAR_ESTEREO=1`
 
 ## Características de la orden
 
