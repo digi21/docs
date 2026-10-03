@@ -6,7 +6,13 @@ Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión 
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | No |
+
+## Observaciones
+
+La orden trabaja sobre las líneas visibles del archivo de dibujo activo y solo une líneas con códigos compatibles. Un parámetro que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
+
+Sin parámetros, la orden emite un sonido de error y no hace nada.
 
 ## Características de la orden
 

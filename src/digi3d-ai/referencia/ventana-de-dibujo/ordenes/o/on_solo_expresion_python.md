@@ -6,7 +6,7 @@ Activa la visualización únicamente de las geometrías que devuelvan verdadero 
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 |Expresión Python a analizar por cada una de las geometrías de todos los archivos de dibujo cargados.<br>o<br>Conjunto de [selecciones](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) almacenadas en la tabla de códigos. Digi3D.AI entenderá que deberá extraer la expresión de una selección en la tabla de códigos si esta comienza por #.| No. |
+| 1 |Expresión Python a analizar por cada una de las geometrías de todos los archivos de dibujo cargados.<br>o<br>Conjunto de [selecciones](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) almacenadas en la tabla de códigos. Digi3D.AI entenderá que deberá extraer la expresión de una selección en la tabla de códigos si esta comienza por #.| Si. Sin parámetros, la orden muestra un cuadro de diálogo para teclear la expresión |
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Para encender únicamente las geometrías que satisfagan la [selección](/digi3d
 ON_SOLO_EXPRESION_PYTHON=#Edificios
 ```
 
-Para encender únicamente las geometrías que satisfagan tanto la [selección](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md)"Edificios" como la selección "Deportivo" almacenadas en la tabla de códigos:
+Para encender únicamente las geometrías que satisfagan la [selección](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) "Edificios" o la selección "Deportivo" almacenadas en la tabla de códigos:
 
 ```text
 ON_SOLO_EXPRESION_PYTHON=#Edificios #Deportivo
@@ -36,7 +36,7 @@ ON_SOLO_EXPRESION_PYTHON=#Edificios #Deportivo
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](off.md) |
+| Tipo de orden | [Orden inmediata](on_solo_expresion_python.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

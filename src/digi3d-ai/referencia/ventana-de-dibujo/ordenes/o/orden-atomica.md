@@ -4,7 +4,15 @@ Ejecuta las órdenes pasadas por parámetros como órdenes atómicas.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Órdenes a ejecutar, separadas por espacios | No |
+
+## Observaciones
+
+La orden ejecuta las órdenes en el orden en que aparecen. Escribe entre comillas dobles cada orden que lleve parámetros: `ORDEN_ATOMICA="OFF=02*" "ON=0201*"`.
+
+Si alguna de las órdenes es interactiva, ORDEN\_ATOMICA permanece activa hasta que terminan todas las órdenes interactivas que ha lanzado.
 
 ## Características de la orden
 
