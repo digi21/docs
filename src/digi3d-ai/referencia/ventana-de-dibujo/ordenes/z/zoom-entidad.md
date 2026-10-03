@@ -8,11 +8,11 @@ No admite parámetros.
 
 ## Observaciones
 
-Proporciona mayor velocidad al restituir y editar.
+Selecciona una o varias entidades. La orden ajusta la vista a la ventana que engloba las entidades seleccionadas y termina.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom-entidad.md) |
+| Tipo de orden | [Orden interactiva](zoom-entidad.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom a entidades seleccionadas |

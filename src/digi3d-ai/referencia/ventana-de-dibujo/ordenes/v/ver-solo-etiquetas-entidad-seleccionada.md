@@ -6,6 +6,10 @@ Activa únicamente los códigos que pertenezcan a las distintas etiquetas a las 
 
 No admite parámetros.
 
+## Observaciones
+
+Selecciona una o varias entidades. La orden apaga todos los códigos y enciende los códigos de las etiquetas de las entidades seleccionadas, en la pantalla de dibujo y en la pantalla estereoscópica.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ver-solo-etiquetas-entidad-seleccionada.md) |

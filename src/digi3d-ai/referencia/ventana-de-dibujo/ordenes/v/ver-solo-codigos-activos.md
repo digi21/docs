@@ -1,6 +1,6 @@
 # VER\_SOLO\_CÓDIGOS\_ACTIVOS
 
-Activa únicamente los códigos activos.
+Activa únicamente los códigos activos y apaga el resto, en la pantalla de dibujo y en la pantalla estereoscópica.
 
 ## Parámetros
 
@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ver-solo-codigos-activos.md) |
+| Tipo de orden | [Orden inmediata](ver-solo-codigos-activos.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Sólo los códigos activos |

@@ -1,10 +1,14 @@
 # VER\_SOLO\_ENTIDADES\_CON\_ENLACE\_BBDD
 
-Visualizar únicamente las entidades con enlace a base de datos.
+Muestra únicamente las entidades en las que todos sus códigos tienen enlace a la base de datos.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Un código tiene enlace a la base de datos si tiene una tabla asignada. La orden oculta las entidades que tienen algún código sin tabla asignada. Para ver también las entidades con códigos de los dos tipos, usa [VER\_SOLO\_CON\_ENLACE\_BBDD](ver-solo-con-enlace-bbdd.md).
 
 ## Características de la orden
 

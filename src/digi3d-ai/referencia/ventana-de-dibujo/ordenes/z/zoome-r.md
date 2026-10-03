@@ -8,13 +8,17 @@ No admite parámetros.
 
 ## Observaciones
 
-Ajusta el factor de zoom para que el dibujo completo se visualice en pantalla.
+La orden necesita una topología temporal calculada; si no la hay, muestra un aviso y termina.
 
-Puedes deseleccionar recintos sin finalizar la orden, presionando el botón derecho del ratón.
+1. Pulsa el botón de datos dentro de un recinto para seleccionarlo. Mantén pulsada la tecla Control para añadir recintos a la selección o quitarlos de ella.
+2. Pulsa el botón de reset para vaciar la selección.
+3. Pulsa la barra espaciadora para aceptar la selección.
+
+La orden ajusta la vista a la ventana que engloba las entidades del contorno exterior de los recintos seleccionados y termina. Pulsa Escape para cancelar la orden.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoome-r.md) |
+| Tipo de orden | [Orden interactiva](zoome-r.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom a la extensión del recinto por inundación |

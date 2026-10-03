@@ -1,10 +1,14 @@
 # VER\_SOLO\_ENTIDADES\_SELECCIONADAS
 
-Activa la visualización de todas las entidades.
+Oculta todas las entidades excepto las seleccionadas.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Selecciona una o varias entidades. La orden oculta el resto de entidades de todos los archivos de dibujo. No cambia el estado de los códigos. Para volver a ver todas las entidades, ejecuta [VER\_TODAS\_ENTIDADES](ver-todas-entidades.md).
 
 ## Características de la orden
 

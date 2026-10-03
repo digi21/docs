@@ -1,10 +1,14 @@
 # VER\_SOLO\_SIN\_ENLACE\_BBDD
 
-Muestra únicamente las entidades que no tienen ningún enlace a la base de datos.
+Muestra únicamente las entidades que tienen al menos un código sin enlace a la base de datos.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Un código tiene enlace a la base de datos si tiene una tabla asignada. La orden deja visibles las entidades con al menos un código sin tabla asignada, aunque tengan otros códigos con tabla, y oculta el resto. Para ver solo las entidades sin ningún código enlazado, usa [VER\_SOLO\_ENTIDADES\_SIN\_ENLACE\_BBDD](ver-solo-entidades-sin-enlace-bbdd.md).
 
 ## Características de la orden
 

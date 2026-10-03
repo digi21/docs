@@ -6,6 +6,10 @@ Activa la visualización de todas las entidades.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden vuelve a mostrar las entidades ocultadas por órdenes como [VER\_SOLO\_ENTIDADES\_SELECCIONADAS](ver-solo-entidades-seleccionadas.md) o [VER\_SOLO\_CON\_ENLACE\_BBDD](ver-solo-con-enlace-bbdd.md). No enciende los códigos apagados.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ver-todas-entidades.md) |

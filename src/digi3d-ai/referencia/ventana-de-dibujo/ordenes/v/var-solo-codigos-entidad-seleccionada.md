@@ -6,6 +6,10 @@ Deja activos en pantalla solamente los códigos de la entidad seleccionada, apag
 
 No admite parámetros.
 
+## Observaciones
+
+Selecciona una o varias entidades. La orden apaga todos los códigos y enciende solo los códigos de las entidades seleccionadas, en la pantalla de dibujo y en la pantalla estereoscópica.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](var-solo-codigos-entidad-seleccionada.md) |
