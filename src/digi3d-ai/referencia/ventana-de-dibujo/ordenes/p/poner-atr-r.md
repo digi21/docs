@@ -6,7 +6,7 @@ Añade los códigos activos a las entidades que forman el contorno de los recint
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ordenar de forma inversa (0/1). La orden lee este parámetro pero no lo utiliza | Si |
+| 1 | Ordenar de forma inversa (0/1). La orden no utiliza este parámetro | Si |
 
 ## Observaciones
 
