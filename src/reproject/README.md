@@ -1,6 +1,6 @@
 # Reproject
 
-![Icono de Reproject](/images/reproject-icono.png)
+![Icono de Reproject](../images/reproject-icono.png)
 
 **Reproject** es un programa para Windows que transforma coordenadas entre dos sistemas de referencia de coordenadas (SRC). Usa el catálogo EPSG completo.
 
