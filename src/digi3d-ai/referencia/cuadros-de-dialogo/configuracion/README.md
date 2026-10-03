@@ -75,6 +75,7 @@ Configura los parámetros relacionados con la comunicación y la interfaz de usu
 * **[Salir](comunicacion-con-el-usuario/salir.md)** — Sonido al salir del polígono de LIMITE_1.
 * **[Texto a voz en barra de estado](comunicacion-con-el-usuario/texto-a-voz-en-barra-de-estado.md)** — Narra por voz los mensajes de la barra de estado.
 * **[Texto a voz en globos](comunicacion-con-el-usuario/texto-a-voz-en-globos.md)** — Narra por voz el contenido de los globos.
+* **[Las órdenes pueden abrir la ventana de resultados](comunicacion-con-el-usuario/las-ordenes-pueden-abrir-la-ventana-de-resultados.md)** — Las órdenes, guiones y complementos abren la ventana de resultados al escribir en ella.
 * **[Confidencia reconocimiento voz](comunicacion-con-el-usuario/confidencia-reconocimiento-voz.md)** — Factor de confidencia del reconocimiento de voz.
 * **[Color de la ventana de tentativo](comunicacion-con-el-usuario/color-de-la-ventana-de-tentativo.md)** — Color de las coordenadas en la barra Tentativo.
 * **[Mostrar ayudas por código](comunicacion-con-el-usuario/mostrar-ayudas-por-codigo.md)** — Muestra la ayuda HTML del código activo.
@@ -100,6 +101,8 @@ Configuración del conector con bases de datos PostGIS.
 * **[Añadir códigos desconocidos](conector-con-postgis/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
 * **[Preguntar por capas a cargar](conector-con-postgis/preguntar-por-capas-a-cargar.md)** — Pregunta por las capas a cargar al abrir un archivo.
 * **[Regiones de interés de tamaño constante](conector-con-postgis/regiones-de-interes-de-tamano-constante.md)** — Permite configurar el tamaño de las regiones de interés solicitadas a PostGIS.
+* **[Tipo de recorte de geometrías](conector-con-postgis/tipo-de-recorte-de-geometrias.md)** — Recorta las geometrías a la región de interés en el servidor, en local o no las recorta.
+* **[Solo lectura silencioso](conector-con-postgis/solo-lectura-silencioso.md)** — No guarda cambios en PostGIS y no muestra ningún error.
 
 ### Control de producción
 
@@ -151,6 +154,7 @@ Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
 * **[Directorio de símbolos](diging/directorio-de-simbolos.md)** — Directorio de la definición de células.
 * **[Opacidad para entidades no de interés](diging/opacidad-para-entidades-no-de-interes.md)** — Opacidad de las geometrías que no son de interés.
 * **[Ejecutar órdenes asignadas a códigos al clonar](diging/ejecutar-ordenes-asignadas-a-codigos-al-clonar.md)** — Ejecuta las órdenes de los códigos al clonar una entidad.
+* **[Avisar de órdenes desconocidas](diging/avisar-de-ordenes-desconocidas.md)** — Escribe un aviso en la ventana de resultados al ejecutar una orden que no existe.
 * **[Copiar atributos de BBDD al clonar](diging/copiar-atributos-de-bbdd-al-clonar.md)** — Copia los atributos de base de datos al clonar.
 * **[Clonar copia Tabla y Registro](diging/clonar-copia-tabla-y-registro.md)** — Copia el enlace a Tabla y Registro al clonar.
 * **[Bloqueo de mayúsculas actúa como mayúsculas](diging/bloqueo-de-mayusculas-actua-como-mayusculas.md)** — El bloqueo de mayúsculas se interpreta como Shift + tecla.
@@ -253,6 +257,10 @@ Configuración del importador/exportador de archivos Shapefile.
 * **[Añadir códigos desconocidos](importador-exportador-de-archivos-shapefile/anadir-codigos-desconocidos.md)** — Añade a la tabla de códigos activa los códigos no localizados.
 * **[Preguntar por capas a cargar](importador-exportador-de-archivos-shapefile/preguntar-por-capas-a-cargar.md)** — Pregunta por las capas a cargar al abrir un archivo.
 * **[Modo de eliminación de geometrías](importador-exportador-de-archivos-shapefile/modo-de-eliminacion-de-geometrias.md)** — Cómo se marca una geometría como eliminada en el Shapefile.
+* **[Campo en el que almacenar marca de eliminado](importador-exportador-de-archivos-shapefile/campo-en-el-que-almacenar-marca-de-eliminado.md)** — Campo del DBF que marca una geometría como eliminada.
+* **[Valor a asignar cuando se elimina la geometría](importador-exportador-de-archivos-shapefile/valor-a-asignar-cuando-se-elimina-la-geometria.md)** — Valor que se almacena en el campo al eliminar una geometría.
+* **[Valor que indica que la geometría NO está eliminada](importador-exportador-de-archivos-shapefile/valor-que-indica-que-la-geometria-no-esta-eliminada.md)** — Valor del campo que identifica una geometría no eliminada.
+* **[Permitir comprimir](importador-exportador-de-archivos-shapefile/permitir-comprimir.md)** — Permite comprimir un archivo abierto con este importador/exportador.
 
 ### Importador/Exportador de formato VEC de Latino
 
@@ -439,6 +447,7 @@ Configura las rutas de trabajo de Digi3D.AI.
 Configura el comportamiento general del sensor Cónico (cámara métrica).
 
 * **[Modo de presentación de imágenes](sensor-conico/modo-de-presentacion-de-imagenes.md)** — Cómo se muestran las imágenes (proyectadas u ortogonales).
+* **[Oblicuas con el horizonte arriba](sensor-conico/oblicuas-con-el-horizonte-arriba.md)** — Gira 180 grados los pares oblicuos que miran hacia abajo de la pantalla.
 * **[Transformar la escala en función de la proyección](sensor-conico/transformar-la-escala-en-funcion-de-la-proyeccion.md)** — Aplica el factor de escala K en modelos UTM.
 * **[Almacenar Orientation.xml al cargar modelo](sensor-conico/almacenar-orientation-xml-al-cargar-modelo.md)** — Genera un .orientation.xml por foto al cargar.
 * **[Activar epipolar por defecto](sensor-conico/activar-epipolar-por-defecto.md)** — Activa la rectificación epipolar al cargar el par.
