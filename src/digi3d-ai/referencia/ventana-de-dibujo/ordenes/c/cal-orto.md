@@ -17,7 +17,9 @@ Los tres primeros parámetros se indican juntos. Sin ellos, la orden solicita qu
 
 La orden requiere un modelo estereoscópico cargado y al menos un archivo de dibujo que permita proyectar (por ejemplo, un modelo digital del terreno) para obtener la Z de cada píxel.
 
-Con parámetros, la orden busca la primera línea con el código indicado y calcula la ortofoto sin pedir datos. El tamaño del píxel es el valor de la variable [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), en unidades del sistema de referencia del dibujo. La imagen de origen es la izquierda. Junto al TIFF se genera el archivo de georreferenciación `.tfw`. Si el tipo de interpolación es mayor que 2 o no hay ninguna línea con ese código, la orden muestra un mensaje de error.
+Con parámetros, la orden busca la primera línea con el código indicado y calcula la ortofoto sin pedir datos. El tamaño del píxel es el valor de la variable [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), en unidades del sistema de referencia del dibujo. La imagen de origen es la izquierda. Junto al TIFF se genera el archivo de georreferenciación `.tfw`. Si el tipo de interpolación es mayor que 2 o no hay ninguna línea con ese código (también cuando el dibujo está vacío), la orden muestra un mensaje de error.
+
+Si el tamaño del píxel no es mayor que 0, la orden muestra un mensaje de error y no calcula la ortofoto.
 
 ## Características de la orden
 
