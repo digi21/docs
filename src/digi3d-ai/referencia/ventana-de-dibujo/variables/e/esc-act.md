@@ -16,7 +16,7 @@ Esta orden se puede ejecutar con parámetros o sin parámetros.
 
 ### Sin parámetros
 
-El programa solicitará en la barra de mensajes que introduzcamos el factor de escala. Podemos introducir un valor con el teclado o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos. El valor se asigna a los tres ejes.
+El programa solicitará en la barra de mensajes que introduzcamos el factor de escala, y propone los tres factores actuales (X, Y y Z). Podemos escribir uno, dos o tres factores, con el mismo significado que los parámetros, o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos a los tres ejes.
 
 ## Observaciones
 
