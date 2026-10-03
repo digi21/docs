@@ -7,7 +7,7 @@ Proyecta todas la entidades con un determinado código sobre los MDTs cargados q
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Etiqueta | No |
-| 2 … N | Pares de código y tipo de geometría, con el mismo formato que en [PROYECTA\_COD](proyecta-cod.md) | Si |
+| 2 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md), con el mismo formato que en [PROYECTA\_COD](proyecta-cod.md) | Si |
 
 ## Observaciones
 

@@ -8,7 +8,7 @@ Proyecta los vértices de las entidades con un determinado código sobre los MDT
 | :--- | :--- | :--- |
 | 1 | Operador de comparación: `<` proyecta si la diferencia es menor que el valor; cualquier otro texto proyecta si la diferencia es mayor que el valor | No |
 | 2 | Valor de la diferencia de Z, en unidades del SRC | No |
-| 3 … N | Pares de código y tipo de geometría, con el mismo formato que en [PROYECTA\_COD](proyecta-cod.md) | No |
+| 3 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md), con el mismo formato que en [PROYECTA\_COD](proyecta-cod.md) | No |
 
 ## Observaciones
 

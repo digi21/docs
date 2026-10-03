@@ -7,7 +7,7 @@ Asigna el ángulo activo a la rotación de uno o varios textos o puntos del dibu
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Código de las entidades a modificar. Puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
-| 2 | Tipos de entidad: `P` puntos, `T` textos, `*` ambos. Por defecto, ambos | Si |
+| 2 | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md), como una cadena de letras. En esta orden solo tienen efecto `P` puntos, `T` textos y `*` ambos. Por defecto, ambos | Si |
 
 Sin parámetros, la orden solicita que selecciones los textos o puntos. Admite selección múltiple.
 

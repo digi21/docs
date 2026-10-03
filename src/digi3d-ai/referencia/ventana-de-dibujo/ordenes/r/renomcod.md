@@ -8,7 +8,7 @@ Cambia el código correspondiente a una serie de entidades por otro código, ya 
 | :--- | :--- | :--- | :--- |
 | 1 | Código antiguo | Código | Si |
 | 2 | Código nuevo | Código | Si |
-| 3 | Tipo de entidad | Combinación de l \(líneas\), p \(puntos\), t \(textos\) o \* \(todos\) | Si |
+| 3 | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Cadena de letras. En esta orden solo tienen efecto l \(líneas\), p \(puntos\), t \(textos\) y \* \(líneas, puntos y textos\) | Si |
 
 ## Observaciones
 

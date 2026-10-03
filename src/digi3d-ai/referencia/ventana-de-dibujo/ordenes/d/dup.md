@@ -6,7 +6,7 @@ Realiza una copia de una entidad sobre sí misma.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 y siguientes | Tipos de entidad que se pueden seleccionar, una letra por parámetro: `L` líneas, `P` puntos, `T` textos, `H` polígonos, `B` imágenes, `C` líneas y puntos, `*` líneas, puntos, textos e imágenes | Si |
+| 1 y siguientes | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, una letra por parámetro. En esta orden, `C` indica líneas y puntos, no complejos, y `*` indica líneas, puntos, textos e imágenes | Si |
 
 ## Observaciones
 
