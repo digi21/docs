@@ -23,7 +23,7 @@ Sin parámetros, la orden muestra el cuadro de diálogo de buscar y reemplazar:
 * La casilla de mayúsculas y minúsculas hace que la búsqueda las distinga.
 * La casilla de palabras completas hace que solo coincidan los textos cuyo contenido completo es igual al buscado. Sin ella, basta con que el texto contenga lo buscado.
 
-Al reemplazar, la orden sustituye el contenido completo del texto, no solo la parte que coincide. Si el texto nuevo está vacío, la orden borra los textos que coinciden.
+Con la casilla de palabras completas, el reemplazo sustituye el contenido completo del texto. Sin ella, sustituye solo las partes que coinciden con lo buscado; por ejemplo, buscar `Río` y reemplazar por `Arroyo` convierte `Río Tajo` en `Arroyo Tajo`. Si un texto queda vacío tras el reemplazo, la orden lo borra.
 
 ## Características de la orden
 
