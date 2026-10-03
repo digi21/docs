@@ -139,7 +139,7 @@ Configura la creación de los archivos de nivel de detalle (LOD) de las nubes de
 
 * **[Porcentaje de RAM a consumir](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/porcentaje-de-ram-a-consumir.md)** — Porcentaje máximo de RAM que puede consumir el algoritmo.
 * **[Decimar](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/decimar.md)** — Carga solo un punto de cada X.
-* **[Número de puntos en el lado más largo del primer nivel piramidal](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/numero-de-puntos-en-el-lado-mas-largo-del-primer-nivel-piramidal.md)** — Puntos del lado más largo del nivel piramidal superior.
+* **[Puntos por tesela](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/puntos-por-tesela.md)** — Número de puntos que se quiere en cada tesela.
 * **[Directorio de Nivel de Detalle](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/directorio-de-nivel-de-detalle.md)** — Ruta donde se almacenan los archivos de nivel de detalle.
 
 ### CREAR\_POLIGONO
@@ -645,10 +645,9 @@ Configura la marca que se muestra sobre los vértices de las entidades seleccion
 
 Configura la visualización de las nubes de puntos.
 
-* **[Consumo de memoria de tarjeta gráfica](visualizacion-de-pointcloud/consumo-de-memoria-de-tarjeta-grafica.md)** — Memoria máxima (MB) en la tarjeta gráfica.
-* **[Teselas que rellenan shader por frame](visualizacion-de-pointcloud/teselas-que-rellenan-shader-por-frame.md)** — Teselas que suben información a la GPU por frame.
-* **[Teselas que liberar memoria por frame](visualizacion-de-pointcloud/teselas-que-liberar-memoria-por-frame.md)** — Teselas que liberan memoria de la GPU por frame.
-* **[Frames sin pintar para liberar memoria](visualizacion-de-pointcloud/frames-sin-pintar-para-liberar-memoria.md)** — Frames sin mostrarse tras los que un nodo se libera.
+* **[Distancia inicial de la cámara al índice](visualizacion-de-pointcloud/distancia-inicial-de-la-camara-al-indice.md)** — Distancia de la cámara al índice al ir al punto de origen.
+* **[Ángulo inicial de la cámara](visualizacion-de-pointcloud/angulo-inicial-de-la-camara.md)** — Lado desde el que mira la cámara al ir al punto de origen.
+* **[Factor de zoom](visualizacion-de-pointcloud/factor-de-zoom.md)** — Factor que aplican las órdenes de zoom acercar y alejar.
 
 ### VM Quasi-Panoramic
 
