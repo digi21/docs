@@ -19,6 +19,21 @@ Si coincide, la orden ordena las curvas por distancia al primer punto y asigna a
 
 La orden no termina tras asignar las cotas: puedes digitalizar otro par de puntos. Pulsa **Esc** para terminar.
 
+### Marcar las curvas ya acotadas
+
+Si el código activo contiene los comodines `*` o `?`, la orden cambia también el código de las curvas a las que asigna cota. Así se distinguen de las que faltan por acotar. Cada código de la curva que coincide con los de la orden se combina con el código activo: los caracteres del código activo sustituyen a los de la curva, `?` conserva el carácter de la curva y `*` conserva el resto del código de la curva. Los demás códigos de la curva no cambian. Los atributos de base de datos se tratan como en [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md).
+
+Por ejemplo, si las curvas tienen los códigos `020123` y `020124`:
+
+```
+COD=0211*
+COTAS_CURVAS=02*
+```
+
+Las curvas acotadas pasan a tener los códigos `021123` y `021124`. Al terminar, se recuperan los códigos originales con [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md).
+
+Si el código activo no tiene comodines, la orden solo cambia la Z y las curvas conservan sus códigos.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cotas-curvas.md) |
