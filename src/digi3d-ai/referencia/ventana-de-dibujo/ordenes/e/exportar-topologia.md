@@ -10,9 +10,9 @@ Exporta a un archivo, como polígonos, las topologías cargadas que se seleccion
 
 ## Observaciones
 
-La orden muestra un cuadro de diálogo para seleccionar el archivo de destino y su formato. En ese cuadro de diálogo aparece una casilla por cada topología indicada en los parámetros, marcada si la topología está cargada y desmarcada si no lo está.
+La orden muestra un cuadro de diálogo para seleccionar el archivo de destino y su formato. En ese cuadro de diálogo aparece una casilla por cada topología indicada en los parámetros, marcada si la topología está cargada y desmarcada si no lo está. Sin parámetros, aparece una casilla marcada por cada topología cargada.
 
-La orden exporta, de cada topología marcada, los recintos válidos que tienen centroide asociado. Cada recinto se exporta como un polígono con sus huecos. El código del polígono y el cálculo de su Z salen de la configuración de la topología en la tabla de códigos.
+La orden exporta, de cada topología marcada, los recintos válidos que tienen centroide asociado. Cada recinto se exporta como un polígono con sus huecos. El código del polígono y el cálculo de su Z salen de la configuración de la topología en la tabla de códigos. Si la topología no está definida en la tabla de códigos (por ejemplo, porque se calculó con [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md) a partir de un archivo de tabla), el polígono toma el código del centroide y la Z se calcula en dos dimensiones y media.
 
 ## Características de la orden
 
