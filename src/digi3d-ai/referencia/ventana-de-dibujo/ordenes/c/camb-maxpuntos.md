@@ -12,7 +12,7 @@ Sin parámetros, la orden solicita que selecciones una línea. Con parámetros, 
 
 ## Observaciones
 
-El número máximo de vértices para entidades lineales queda determinado por el valor de [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md), este valor deberá estar definido antes de ejecutar la orden _CAMB\_MAXPUNTOS_.
+El número máximo de vértices para entidades lineales queda determinado por el valor de [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md), este valor deberá estar definido antes de ejecutar la orden _CAMB\_MAXPUNTOS_. Si MAXPUNTOS es menor que 2, la orden no modifica ninguna línea.
 
 Bien podemos ejecutar CAMB\_MAXPUNTOS sobre una determinada entidad o sobre todas las entidades que tengan un determinado código.
 
