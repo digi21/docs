@@ -16,6 +16,8 @@ En este proceso, la cota de los puntos de la entidad modificadora se ajusta a la
 
 Independientemente del código utilizado al dibujar la entidad modificadora, éste se cambia por el de la entidad modificada.
 
+La orden sigue pidiendo entidades a modificar con el mismo trazado hasta que pulses la tecla Esc.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mod-multiple.md) |

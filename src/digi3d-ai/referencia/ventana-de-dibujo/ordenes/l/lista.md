@@ -4,9 +4,13 @@ Nos da información de la entidad que se ha seleccionado.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Ruta del archivo de texto en el que se guarda el listado, además de mostrarlo en el panel de resultados. Si el archivo existe, el listado se añade al final | Sí |
 
 ## Observaciones
+
+La orden abre el panel de resultados y escribe en él el archivo, los códigos, la ventana envolvente, la fecha de creación, las coordenadas de los vértices, los atributos y los datos propios del tipo de entidad \(perímetros 2D y 3D de las líneas, altura, rotación y justificación de los textos, huecos y superficie de los polígonos\).
 
 Si el conmutador [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activado, esta orden se autorrepite hasta que el usuario pulse la tecla Esc.
 

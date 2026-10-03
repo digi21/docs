@@ -6,6 +6,10 @@ Mide el perímetro \(en el plano\) de la línea seleccionada.
 
 No admite parámetros.
 
+## Observaciones
+
+Solo admite líneas; si se selecciona otro tipo de entidad, la orden emite un sonido de error. La orden muestra el perímetro en un globo. Si se ejecuta mientras otra orden espera una distancia, la orden le pasa el perímetro en lugar de mostrarlo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mide-perimetro-linea.md) |

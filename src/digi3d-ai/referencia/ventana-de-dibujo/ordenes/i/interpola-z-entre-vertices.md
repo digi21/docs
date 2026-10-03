@@ -1,6 +1,6 @@
 # INTERPOLA\_Z\_ENTRE\_VERTICES
 
-Solicita que se seleccione una línea por un vértice y luego solicita que se seleccione otro vértice de la misma línea. Una vez seleccionado el segundo, se interpola la coordenada Z de los vértices que estén entre los dos vértices seleccionados proporcionalmente a la distancia entre ellos.
+Solicita que se seleccione una línea por un vértice y luego solicita que se seleccione otro vértice de la misma línea. Una vez seleccionado el segundo, se interpola la coordenada Z de los vértices que estén entre los dos vértices seleccionados proporcionalmente a la distancia en planta \(XY\) recorrida a lo largo de la línea. Los dos vértices seleccionados conservan su Z.
 
 ## Parámetros
 

@@ -1,6 +1,6 @@
 # INSERTAR\_HUECO
 
-Inserta un hueco en una entidad compleja.
+Inserta un hueco en un polígono o en una línea cerrada.
 
 ## Parámetros
 
@@ -8,7 +8,15 @@ No admite parámetros.
 
 ## Observaciones
 
-Para poder ejecutar la orden debes de haber generado una entidad compleja con anterioridad.
+1. Selecciona el polígono o la línea cerrada del modelo actual en el que quieres insertar el hueco.
+2. Selecciona la línea o el polígono sin huecos que forma el hueco. Todos sus vértices tienen que estar dentro de la entidad seleccionada en el paso 1; si alguno queda fuera, la orden muestra un aviso y no lo acepta.
+
+La orden sustituye la entidad del paso 1 por un polígono con sus mismos códigos y con el hueco añadido. Si la entidad del paso 1 era una línea cerrada, el resultado es un polígono.
+
+En la configuración de las órdenes, la categoría **INSERTAR\_HUECO** tiene dos propiedades:
+
+* **Acción a realizar con la geometría que se inserta en INSERTAR\_HUECO**: no eliminar la geometría que forma el hueco, eliminarla o preguntar.
+* **Permitir añadir más de un hueco**: si está activa, la orden admite varios huecos seguidos y termina al pulsar la barra espaciadora.
 
 ## Características de la orden
 

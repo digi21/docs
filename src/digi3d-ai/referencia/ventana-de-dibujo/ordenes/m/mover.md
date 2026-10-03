@@ -1,10 +1,19 @@
 # MOVER
 
-Cambia la posición planimétrica de un elemento.
+Cambia la posición de una o varias entidades en X, Y y Z.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1...n | Tipos de entidad que se pueden seleccionar, una letra por parámetro: `L` líneas, `P` puntos, `T` textos, `B` imágenes, `H` polígonos, `C` líneas y puntos, `*` líneas, puntos, textos e imágenes | Si. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
+
+## Observaciones
+
+1. Selecciona la entidad. El punto de selección se toma como punto origen. Si seleccionas varias entidades, digitaliza después el punto origen.
+2. Digitaliza el punto destino.
+
+La orden desplaza las entidades el vector \(punto origen, punto destino\), incluida la diferencia de Z. Solo se pueden mover entidades del modelo actual.
 
 ## Características de la orden
 

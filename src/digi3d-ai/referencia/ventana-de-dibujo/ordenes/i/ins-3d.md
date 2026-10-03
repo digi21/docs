@@ -1,18 +1,25 @@
 # INS\_3D
 
-Inserta un bloque en 3D, el primero para la posición, el segundo para la orientación y el tercero para la rotación.
+Inserta un bloque en 3D a partir de tres puntos: el primero fija la posición, el segundo la orientación y el tercero la rotación.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ruta del archivo (bloque 3D) | No |
+| 1 | Ruta del archivo (bloque 3D). Si no se especifica, la orden muestra el cuadro de diálogo de selección de archivo | Sí |
+
+## Observaciones
+
+* El primer punto es el punto de inserción: el origen \(0, 0, 0\) del bloque se coloca en él.
+* El segundo punto orienta el bloque: el eje Z negativo del bloque se alinea con la dirección que va del primer punto al segundo.
+* El tercer punto gira el bloque alrededor de ese eje.
+* El bloque se inserta sin aplicar la escala activa.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ins-3d.md) |
 | :--- | :--- |
-| Repite automáticamente | No |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -1,12 +1,18 @@
 # IMPORTAR\_UNIENDO\_POLIGONOS
 
-Importa un archivo de referencia pero une los polígonos que sean colindantes con los del archivo de dibujo y que tengan los mismos códigos y atributos de base de datos.
+Importa uno o varios archivos en el archivo de dibujo y une los polígonos importados que sean colindantes con los del archivo de dibujo y que tengan los mismos códigos y atributos de base de datos.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Nombre del archivo a importar | No |
+| 1 | Nombre del archivo a importar. Si no se especifica, la orden muestra el cuadro de diálogo de selección de archivos, que admite seleccionar varios | Sí |
+
+## Observaciones
+
+* Las entidades importadas que no son polígonos se añaden al archivo de dibujo sin cambios.
+* Para cada polígono importado, la orden agrupa los polígonos importados y los polígonos del archivo de dibujo que tienen los mismos códigos y atributos. Con cada grupo forma una topología y sustituye los polígonos del grupo por los recintos resultantes, con sus huecos.
+* Los parámetros de importación de cada archivo son los que tiene guardados el formato del archivo.
 
 ## Características de la orden
 

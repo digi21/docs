@@ -6,7 +6,11 @@ Lanza un menú de usuario de Digi3D a partir de su número.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Número del menú | — | Si |
+| 1 | Número del menú | Entero empezando por 0. Si no se especifica o no existe un menú con ese número, la orden muestra el último menú mostrado | Si |
+
+## Observaciones
+
+La orden muestra el menú como un menú contextual de 25 opciones. Si no hay menús de usuario cargados, la orden muestra un mensaje de error.
 
 ## Características de la orden
 
