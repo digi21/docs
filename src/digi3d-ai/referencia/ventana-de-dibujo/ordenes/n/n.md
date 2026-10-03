@@ -14,7 +14,7 @@ A continuación la orden muestra un cuadro de diálogo con la lista de puntos de
 
 Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activada, el cuadro de diálogo se vuelve a mostrar tras cada punto.
 
-Cada línea del fichero contiene los datos de un punto, separados entre sí por comas, espacios en blanco o tabuladores. La orden ignora las líneas con menos de cuatro datos:
+Cada línea del fichero contiene los datos de un punto, separados entre sí por comas, espacios en blanco, tabuladores o el signo `=`. La orden ignora las líneas con menos de cuatro datos:
 
 | Dato | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ Cada línea del fichero contiene los datos de un punto, separados entre sí por 
 | Segundo dato | Coordenada X | Número real | No |
 | Tercer dato | Coordenada Y | Número real | No |
 | Cuarto dato | Coordenada Z | Número real | No |
-| Quinto dato | Descripción del punto | Texto sin espacios | Si |
+| Quinto dato | Descripción del punto: el resto de la línea, espacios incluidos. Si va entre comillas, se quitan las comillas | Texto | Si |
 
 ## Características de la orden
 
