@@ -12,7 +12,7 @@ La orden muestra un cuadro de diálogo en el que indicas el archivo HTML de sali
 
 La orden calcula la producción a partir de la fecha y hora de creación de las líneas no borradas del archivo de dibujo. Las demás entidades no se tienen en cuenta. Dos líneas consecutivas del mismo día separadas por menos de la pausa máxima cuentan como tiempo de trabajo.
 
-El informe contiene la fecha de la primera y la última línea, el tiempo total de trabajo y, para cada día, los intervalos de trabajo y de pausa. Al terminar, la orden abre el archivo HTML con la aplicación asociada.
+El informe contiene la fecha de la primera y la última línea, el tiempo total de trabajo y, para cada día, los intervalos de trabajo y de pausa. Al terminar, la orden abre el archivo HTML con la aplicación asociada. Si no se puede crear el archivo HTML, la orden muestra un mensaje de error y termina.
 
 ## Características de la orden
 
