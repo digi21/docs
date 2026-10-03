@@ -6,17 +6,21 @@ Sustituye la altitud asignada a un elemento gráfico, por un nuevo valor.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
+| 1 … N | Códigos de las entidades a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Código | Si |
 
 ## Observaciones
 
-En caso de tratarse de una entidad que tiene diferentes valores de Z, todos estos se sustituirán por un único valor, que será aquel que el usuario introduzca al ejecutar la orden.
+Sin parámetros, la orden solicita el valor de Z en la barra de estado (el valor inicial es 0) y después solicita que selecciones las entidades. Admite selección múltiple. Tras cada selección, la orden sigue activa y aplica el mismo valor a las siguientes entidades que selecciones.
+
+Con parámetros, la orden asigna sin pedir datos el valor de la variable [Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md) a todas las entidades visibles, no borradas y dentro de la zona de interés que tengan alguno de los códigos indicados.
+
+En caso de tratarse de una entidad que tiene diferentes valores de Z, todos estos se sustituirán por un único valor.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](camb-z.md) |
+| Tipo de orden | [Orden interactiva](camb-z.md) sin parámetros; [orden inmediata](camb-z.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Asignar coordenada Z a las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |

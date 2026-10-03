@@ -4,6 +4,10 @@ Establece el modo de búsqueda o enganche gráfico a elementos del dibujo.
 
 ## Parámetros
 
+No admite parámetros.
+
+La tabla siguiente describe los modos de búsqueda:
+
 | Valor | Tentativo | Descripción |
 | :--- | :--- | :--- |
 | 0 | Vértice o proyección en XY | Trata de encontrar los vértices de la entidad, si no encuentra ninguno en su ámbito de búsqueda, calcula la proyección del punto \(correspondiente a la posición del cursor\) sobre el segmento de la entidad que se encuentre en este ámbito. El enganche se realiza en coordenadas X, Y sobre la proyección calculada. El elemento que se engancha toma estas coordenadas planimétricas pero mantiene su cota. |
@@ -36,6 +40,8 @@ El ámbito de búsqueda de una entidad está determinado por el tamaño del curs
 
 La ejecución de esta orden solamente permite pasar de un modo de búsqueda al siguiente, para especificar un modo de búsqueda se debe emplear la función [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md).
 
+La orden recorre solo los modos 0 a 12: después del modo 12 vuelve al modo 0. Si hay varios modos de búsqueda activos a la vez, la orden deja activo solo el modo 0.
+
 ### Características de la orden
 
 | Tipo de orden | Orden inmediata |
@@ -44,6 +50,6 @@ La ejecución de esta orden solamente permite pasar de un modo de búsqueda al s
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Variables relacionadas | [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md) — modo de búsqueda |
 | Nombre interno | {5740AB44-D47E-42f6-A4F5-B5906967D30A} |
 

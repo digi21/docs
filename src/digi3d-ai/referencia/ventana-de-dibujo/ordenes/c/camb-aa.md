@@ -1,10 +1,17 @@
 # CAMB\_AA
 
-Modifica el ángulo activo de uno o varios textos del dibujo.
+Asigna el ángulo activo a la rotación de uno o varios textos o puntos del dibujo.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Código de las entidades a modificar. Puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+| 2 | Tipos de entidad: `P` puntos, `T` textos, `*` ambos. Por defecto, ambos | Si |
+
+Sin parámetros, la orden solicita que selecciones los textos o puntos. Admite selección múltiple.
+
+Con parámetros, la orden modifica sin pedir datos todos los textos y puntos visibles, no borrados y dentro de la zona de interés que tengan el código indicado.
 
 ## Observaciones
 
@@ -12,9 +19,9 @@ Antes de ejecutar la orden debes asignar el nuevo ángulo activo con la orden [A
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-aa.md) |
+| Tipo de orden | [Orden interactiva](camb-aa.md) sin parámetros; [orden inmediata](camb-aa.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | No |
+| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar ángulo activo de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |

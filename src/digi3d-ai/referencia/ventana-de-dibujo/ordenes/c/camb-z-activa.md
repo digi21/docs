@@ -4,19 +4,19 @@ Cambia la Z de uno o más elementos a la Z que está activa en ese momento.
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Valor de Z | Número real | Si |
+No admite parámetros.
 
 ## Observaciones
 
-Debes especificar el valor de Z deseado, posteriormente ejecutar la orden _CAMB\_Z\_ACTIVA_ y seleccionar las entidades a cambiar.
+Coloca el cursor a la Z deseada, ejecuta la orden _CAMB\_Z\_ACTIVA_ y selecciona las entidades a cambiar. La orden asigna a todos los vértices de cada entidad la coordenada Z del cursor en el momento de la selección.
+
+Tras seleccionar una entidad, la orden sigue activa y solicita otra. Con selección múltiple, la orden modifica todas las entidades seleccionadas y termina.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](camb-z-activa.md) |
+| Tipo de orden | [Orden interactiva](camb-z-activa.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociada ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -6,14 +6,22 @@ Efectúa el cálculo para generar ortofotografías.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Tipo de interpolación | No |
-| 2 | Nombre del archivo de salida | No |
-| 3 | Código | No |
-| 4 | Almacenar transparencia (0/1) | Si |
+| 1 | Tipo de interpolación: 0 vecino más próximo, 1 bilineal, 2 bicúbica | Si |
+| 2 | Nombre del archivo TIFF de salida | Si |
+| 3 | Código de la línea que delimita la ortofoto | Si |
+| 4 | Almacenar transparencia (0/1). Por defecto, 1 | Si |
+
+Los tres primeros parámetros se indican juntos. Sin ellos, la orden solicita que selecciones la línea que delimita la ortofoto y muestra un cuadro de diálogo con las opciones del cálculo.
+
+## Observaciones
+
+La orden requiere un modelo estereoscópico cargado y al menos un archivo de dibujo que permita proyectar (por ejemplo, un modelo digital del terreno) para obtener la Z de cada píxel.
+
+Con parámetros, la orden busca la primera línea con el código indicado y calcula la ortofoto sin pedir datos. El tamaño del píxel es el valor de la variable [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), en unidades del sistema de referencia del dibujo. La imagen de origen es la izquierda. Junto al TIFF se genera el archivo de georreferenciación `.tfw`. Si el tipo de interpolación es mayor que 2 o no hay ninguna línea con ese código, la orden muestra un mensaje de error.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cal-orto.md) |
+| Tipo de orden | [Orden interactiva](cal-orto.md) sin parámetros; [orden inmediata](cal-orto.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ortofoto/Crear ortofoto... |

@@ -4,6 +4,16 @@ Modifica la justificación de uno o varios textos existentes en el dibujo.
 
 ## Parámetros
 
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+
+Sin parámetros, la orden solicita que selecciones los textos. Admite selección múltiple.
+
+Con parámetros, la orden modifica sin pedir datos todos los textos visibles, no borrados y dentro de la zona de interés que tengan alguno de los códigos indicados.
+
+La justificación que se asigna es el valor de la variable [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md):
+
 | Valor | Posición |
 | :--- | :--- |
 | 0 | Sitúa el punto de inserción al SO del texto |
@@ -24,9 +34,9 @@ Podemos cambiar la justificación a un texto en concreto o a los textos que teng
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-jt.md) |
+| Tipo de orden | [Orden interactiva](camb-jt.md) sin parámetros; [orden inmediata](camb-jt.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar justificación de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
