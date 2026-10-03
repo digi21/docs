@@ -16,7 +16,7 @@ Puedes moverte a lo largo de la entidad y realizar diferentes modificaciones, ut
 * Pulsando la tecla - se pasa al vértice anterior.
 * Pulsando la tecla \* se modifica la posición del vértice de modo que los segmentos que se unen en él formen un ángulo recto.
 * Pulsando la tecla Insert se añade un nuevo vértice en la posición del cursor normal.
-* Pulsando la tecla Supr se elimina el vértice en el que estuviese el cursor de edición.
+* Pulsando la tecla Supr se elimina el vértice en el que estuviese el cursor de edición. Si la entidad tiene un solo vértice, la tecla Supr no lo elimina.
 * Pulsando la tecla S se activa o desactiva el seguimiento: el vértice sigue al cursor hasta que pulsas el botón de datos. Si desactivas el seguimiento con la tecla S, el vértice vuelve a su posición anterior.
 * Pulsando la tecla Espacio \(barra espaciadora\) se aceptan las modificaciones.
 * Pulsando la tecla Esc se anula la orden.
