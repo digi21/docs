@@ -30,7 +30,7 @@ Esta orden permite de esta manera cortar ficheros desde la línea de comandos. E
 
 Pueden existir varios límites con la condición de que su centroide tenga el mismo código pero el texto sea diferente en cada caso. El programa genera un fichero que se llamará igual que el centroide.
 
-Los límites son las líneas cerradas en 2D, visibles, no borradas y en la zona de interés que tienen el código indicado. El centroide de cada límite es el primer texto con ese código situado dentro del límite. Los límites sin centroide se ignoran. Las entidades que cruzan el límite se recortan y en el archivo solo se guarda la parte interior.
+Los límites son las líneas cerradas en 2D, visibles, no borradas y en la zona de interés que tienen el código indicado. El centroide de cada límite es el primer texto con ese código situado dentro del límite. Los límites sin centroide se ignoran. Las entidades que cruzan el límite se recortan y en el archivo solo se guarda la parte interior. Las entidades con el código de los límites (los límites y los centroides) no se guardan en ningún archivo.
 
 ## Características de la orden
 
