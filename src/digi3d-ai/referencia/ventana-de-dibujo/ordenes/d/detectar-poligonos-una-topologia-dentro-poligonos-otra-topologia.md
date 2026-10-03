@@ -6,8 +6,18 @@ Marca como error aquellos polígonos de una topología que están dentro de pol�
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Topología 1 | No |
-| 2 | Topología 2 | No |
+| 1 | Topología cuyos polígonos se comprueban | Si |
+| 2 | Topología contra la que se comprueban | Si |
+
+## Observaciones
+
+Si no hay ninguna topología cargada, la orden muestra un mensaje de error y termina.
+
+Si indicas los dos parámetros, la orden compara la topología 1 solo contra la topología 2. Si alguna de las dos topologías no existe, la orden emite un sonido de error y termina.
+
+Si indicas menos de dos parámetros, la orden muestra un cuadro de diálogo para seleccionar la topología a comprobar y las topologías contra las que se compara.
+
+La orden crea una tarea de error por cada polígono de la primera topología completamente incluido en un polígono de otra topología. La orden no tiene en cuenta los polígonos de la otra topología cuyo centroide tiene el texto definido para los huecos.
 
 ## Características de la orden
 

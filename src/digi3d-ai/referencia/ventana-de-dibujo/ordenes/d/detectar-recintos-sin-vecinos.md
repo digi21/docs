@@ -4,7 +4,19 @@ Analiza los recintos topológicos de todas las topologías cargadas y muestra co
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 y siguientes | Códigos de límite | Si |
+
+## Observaciones
+
+La orden necesita al menos dos topologías cargadas. Con menos, muestra un mensaje de error y termina.
+
+Si no indicas ningún código de límite, la orden muestra un cuadro de diálogo para seleccionarlos. Si no seleccionas ninguno, la orden termina.
+
+Los códigos de límite admiten los comodines \* y ?.
+
+La orden solo tiene en cuenta los recintos topológicos válidos.
 
 ## Características de la orden
 

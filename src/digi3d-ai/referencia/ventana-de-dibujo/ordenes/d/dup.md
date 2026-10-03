@@ -4,13 +4,17 @@ Realiza una copia de una entidad sobre sí misma.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 y siguientes | Tipos de entidad que se pueden seleccionar, una letra por parámetro: `L` líneas, `P` puntos, `T` textos, `H` polígonos, `B` imágenes, `C` líneas y puntos, `*` líneas, puntos, textos e imágenes | Si |
 
 ## Observaciones
 
 La orden sólo requiere que selecciones la entidad. El nuevo elemento creado se superpone espacialmente al existente, con sus mismas características geométricas, de posición. La nueva entidad se generará con el código activo en el momento de ejecutar la orden.
 
-En el caso de que desees que la entidad duplicada se genere con el código activo en el momento de llamar a la orden, hay que hacer uso de la orden [FORZAR\_CODIGO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/forzar-codigo-activo.md).
+Sin parámetros, la orden permite seleccionar líneas, puntos, textos y polígonos.
+
+La orden termina después de duplicar la entidad seleccionada. Si seleccionas varias entidades a la vez mediante una selección múltiple, la orden duplica todas ellas.
 
 ## Características de la orden
 

@@ -1,12 +1,20 @@
 # DETECTAR\_INTERSECCION\_SENTIDO
 
-Detecta cambios de sentio en la intersección
+Detecta líneas y polígonos que se unen en un nodo con sentidos de digitalización incompatibles.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
+
+## Observaciones
+
+La orden agrupa los extremos de las líneas y polígonos visibles que tengan alguno de los códigos indicados. En cada punto donde coinciden en X e Y extremos de dos o más entidades, la orden crea una tarea de error si dos de esas entidades empiezan en el mismo punto o terminan en el mismo punto.
+
+Los códigos admiten los comodines \* y ?. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
+
+Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las entidades seleccionadas.
 
 ## Características de la orden
 

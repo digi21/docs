@@ -8,6 +8,12 @@ Crea una tarea de error por cada intersección de líneas detectada por código.
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+## Observaciones
+
+La orden analiza las líneas y polígonos \(incluidos sus huecos\) visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados. Cada código se compara de forma exacta. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
+
+Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las entidades seleccionadas.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-cruce-lineas.md) |

@@ -10,7 +10,11 @@ Crea una tarea de error por cada extremo de línea que no esté conectado por c�
 
 ## Observaciones
 
-Esta orden recorre las entidades lineales del dibujo y comprueba, para cada extremo, si existe conexión con otra entidad del mismo código. Por cada extremo que quede suelto \(sin conectar por código\) se genera una tarea de error, que el usuario puede ir revisando y corrigiendo posteriormente.
+Esta orden recorre las líneas visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados, y comprueba, para cada extremo, si coincide en X e Y con el extremo de otra de esas líneas. Un extremo conectado con una línea de otro de los códigos indicados cuenta como conectado. Por cada extremo que quede suelto se genera una tarea de error, que el usuario puede ir revisando y corrigiendo posteriormente.
+
+Cada código se compara de forma exacta. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
+
+Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las líneas seleccionadas.
 
 Resulta útil como control de calidad topológico para localizar líneas que deberían enlazar entre sí \(por ejemplo, tramos de una misma red\) pero que han quedado desconectadas.
 

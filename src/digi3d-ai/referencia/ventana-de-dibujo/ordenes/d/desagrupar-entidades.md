@@ -6,6 +6,10 @@ Desagrupa las entidades que tengan más de un código en múltiples entidades co
 
 No admite parámetros.
 
+## Observaciones
+
+La orden solo procesa las entidades visibles que estén dentro de la zona de interés. Por cada entidad con más de un código, la orden crea una copia con cada uno de sus códigos y borra la entidad original.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](desagrupar-entidades.md) |
