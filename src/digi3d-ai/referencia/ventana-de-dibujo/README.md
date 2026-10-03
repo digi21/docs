@@ -1,6 +1,6 @@
 # Ventana de dibujo
 
-Conceptos de la ventana de dibujo:
+Conceptos de la ventana de dibujo (en la sección Conceptos):
 
 * [Introducción de coordenadas](/digi3d-ai/referencia/ventana-de-dibujo/introduccion-de-coordenadas.md)
 * [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md)

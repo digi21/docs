@@ -3,8 +3,7 @@
 Esta sección explica los conceptos que usan Digi3D.AI y su documentación:
 
 * [Órdenes y variables](/digi3d-ai/referencia/ordenes/README.md): tipos de órdenes, formas de ejecutarlas y de cancelarlas, y la pila de órdenes.
-* [Ventana de dibujo](/digi3d-ai/referencia/ventana-de-dibujo/README.md): introducción de coordenadas y tipos de geometría.
-* [Ventana fotogramétrica](/digi3d-ai/referencia/ventana-fotogrametrica/README.md).
+* [Introducción de coordenadas](/digi3d-ai/referencia/ventana-de-dibujo/introduccion-de-coordenadas.md) y [tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) en la ventana de dibujo.
 * [Polígonos topológicos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/poligonos-topologicos.md) y [centroides](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/centroide.md).
 * [Sistemas de referencia de coordenadas](/digi3d-ai/sistemas-referencia-coordenadas/README.md).
 
