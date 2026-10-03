@@ -13,12 +13,13 @@ Esta orden es incompatible con la orden [SINCRONIZAR_VISTAS](/digi3d-ai/referenc
 
 ## Características de la orden
 
-| Tipo de orden |  |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
-| Repite automáticamente |  |
-| Opción del menú donde aparece la orden |  |
-| Barra de herramientas en la que aparece la orden |  |
-| Extensión |  |
-| Variables relacionadas |  |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Múltiples vistas/Paralizar Vista |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Extensión | Digi3D.CommonCommands.dll |
+| Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [SINCRONIZAR\_VISTAS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-vistas.md)<br>[SINCRONIZAR\_ZOOMS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-zooms.md) |
+| Nombre interno | {C0CF2C67-9809-417c-9691-58FBB294626C} |
 

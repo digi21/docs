@@ -9,12 +9,13 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden |  |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
-| Repite automáticamente |  |
-| Opción del menú donde aparece la orden |  |
-| Barra de herramientas en la que aparece la orden |  |
-| Extensión |  |
-| Variables relacionadas |  |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Múltiples vistas/Sincronizar Zooms |
+| Barra de herramientas en la que aparece la orden | Sincronización de vistas |
+| Extensión | Digi3D.CommonCommands.dll |
+| Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [PARALIZAR](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/p/paralizar.md)<br>[SINCRONIZAR\_VISTAS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-vistas.md) |
+| Nombre interno | {D3984B08-4B0C-4033-A01D-DA4148584EC9} |
 
