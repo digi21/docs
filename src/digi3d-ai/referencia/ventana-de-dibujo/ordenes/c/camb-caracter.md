@@ -13,7 +13,7 @@ Sustituye un carácter de texto determinado por otro diferente.
 
 Si falta alguno de los dos parámetros, la orden emite un sonido de error y no hace nada. La orden no pide datos al usuario.
 
-Al hacer el cambio se modificarán todas las apariciones del carácter anterior por el carácter nuevo en los textos visibles, no borrados y dentro de la zona de interés. Si un parámetro tiene más de un carácter, la orden solo usa el primero para la sustitución.
+Al hacer el cambio se modificarán todas las apariciones del carácter anterior por el carácter nuevo en los textos visibles, no borrados y dentro de la zona de interés. Si un parámetro tiene más de un carácter, la orden solo usa el primero, tanto para buscar los textos como para la sustitución.
 
 ### Llamada a la orden
 
