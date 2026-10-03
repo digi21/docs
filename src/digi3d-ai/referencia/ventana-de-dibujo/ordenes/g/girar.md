@@ -15,7 +15,7 @@ La orden admite una de estas dos formas:
 | 1, 2, 3 | Coordenadas X, Y, Z de la posición de la cámara | Número real | No |
 | 4, 5, 6 | Rotaciones de la cámara alrededor de los ejes X, Y y Z, en grados | Número real | No |
 
-Sin parámetros, la orden no hace nada.
+Sin parámetros, la orden no hace nada. Con dos a cinco parámetros, la orden muestra un mensaje de error y no cambia la cámara.
 
 ### Ejemplo
 
