@@ -170,6 +170,7 @@
           * [ARCO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco.md)
           * [ARCO\_TANGENTE](digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco-tangente.md)
           * [AREA](digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/area.md)
+          * [ASIGNAR\_ANGULO\_ATRIBUTO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md)
           * [ASIGNAR\_AZIMUT\_ATRIBUTO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-azimut-atributo.md)
           * [ASIGNAR\_DISTANCIA\_ATRIBUTO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-distancia-atributo.md)
           * [ASIGNAR\_ETIQUETAS\_ARCHIVO\_DIBUJO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-etiquetas-archivo-dibujo.md)

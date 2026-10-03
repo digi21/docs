@@ -598,6 +598,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ANADE\_ATRIBUTO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anade_atributo_activo.md): Añade un atributo al panel Atributos activos.
 * [ASIGNA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asigna-atributo.md): Esta orden asigna un valor a un atributo en la lista de atributos activos en la barra acoplable de base de datos.
 * [ASIGNA\_ATRIBUTO\_BBDD\_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asigna-atributo-bbdd-entidad.md): Asigna un nuevo valor a un campo en la BBDD para una entidad.
+* [ASIGNAR\_ANGULO\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el ángulo trigonométrico del segundo respecto al primero en el campo de base de datos pasado por parámetros.
 * [ASIGNAR\_AZIMUT\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-azimut-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en el campo de base de datos pasado por parámetros.
 * [ASIGNAR\_DISTANCIA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-distancia-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia entre los dos puntos en el campo de base de datos pasado por parámetros.
 * [CAMBIAR\_VALORES\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambiar-valores-bbdd.md): Cambia valores en la BBDD asociada con el archivo de dibujo.
