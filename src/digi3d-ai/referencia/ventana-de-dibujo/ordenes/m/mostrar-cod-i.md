@@ -1,6 +1,6 @@
 # MOSTRAR\_COD\_I
 
-Muestra todos los atributos de los segmentos que forman un recinto topológico por inundación.
+Muestra todos los códigos de los segmentos que forman un recinto topológico por inundación.
 
 ## Parámetros
 
@@ -8,13 +8,16 @@ No admite parámetros.
 
 ## Observaciones
 
-Tienes que tener cargado el fichero de topología para poder ejecutar la orden MOSTRAR\_COD\_I. Mediante el ratón deberás hacer click dentro del recinto, que se rellenará de color y se mostrarán a continuación los atributos o códigos en unas notas situadas al lado del segmento correspondiente.
+Tienes que tener cargada una topología para poder ejecutar la orden MOSTRAR\_COD\_I; si no hay ninguna, la orden muestra un aviso y termina.
 
-Para volver a apagar estas ventanas deberás pulsar la tecla Escape del teclado.
+1. Haz clic dentro del recinto, que se rellenará de color. Mantén pulsada la tecla Control para seleccionar varios recintos.
+2. Pulsa la barra espaciadora. La orden escribe los códigos de cada segmento del contorno junto al centro de ese segmento.
+
+Para borrar los códigos y terminar la orden, pulsa la tecla Escape.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](mostrar-cod-i.md) |
+| Tipo de orden | [Orden interactiva](mostrar-cod-i.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

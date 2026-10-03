@@ -4,6 +4,8 @@ Dibuja una línea en el archivo actual.
 
 ## Parámetros
 
+No admite parámetros. Las siguientes variables intervienen en el registro de la línea:
+
 | Variable | Definición |
 | :--- | :--- |
 | [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md) | Distancia entre puntos consecutivos. Se establece bien en el cuadro de diálogo Nuevo Proyecto Digi, o bien con la orden _INC_ |
@@ -16,9 +18,9 @@ Es posible utilizar otras órdenes de digitalización de forma integrada con el 
 
 ## Observaciones
 
-No es necesario ejecutar esta orden para dibujar una línea, pues basta con seleccionar un código definido para una entidad linal, y pulsar sobre Dato para dibujar una línea.
+No es necesario ejecutar esta orden para dibujar una línea, pues basta con seleccionar un código definido para una entidad lineal, y pulsar sobre Dato para dibujar una línea.
 
-Esta orden solicita puntos hasta que pulses la tecla Esc o el pedal/botón de finalizar entidad \(o ejecutar [FIN\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fin-ent.md) para dejar de ejecutar esta orden.
+Esta orden solicita puntos hasta que pulses el pedal/botón de finalizar entidad \(o ejecutes [FIN\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fin-ent.md)\). Entonces almacena la línea y termina. La tecla Esc solo cancela la orden si todavía no se ha registrado ningún punto; con una línea en curso, la tecla Esc no tiene efecto.
 
 ## Características de la orden
 

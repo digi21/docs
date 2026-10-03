@@ -1,10 +1,14 @@
 # MIDE\_PERÍMETRO\_LINEA\_XYZ
 
-Mide el perímetro de la línea seleccionada.
+Mide el perímetro \(en el espacio, con la coordenada Z\) de la línea seleccionada.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Solo admite líneas; si se selecciona otro tipo de entidad, la orden emite un sonido de error. La orden muestra el perímetro en un globo. Si se ejecuta mientras otra orden espera una distancia, la orden le pasa el perímetro en lugar de mostrarlo.
 
 ## Características de la orden
 

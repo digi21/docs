@@ -4,7 +4,9 @@ Modifica el trazado geométrico de una entidad en XY.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Cualquier valor. Si se especifica, la entidad modificadora no se descarta tras la modificación y la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) sigue activa con ella | Sí |
 
 ## Observaciones
 

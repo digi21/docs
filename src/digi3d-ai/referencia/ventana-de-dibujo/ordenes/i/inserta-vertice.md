@@ -1,6 +1,6 @@
 # INSERTA\_VÉRTICE
 
-Inserta un vértice en una entidad lineal.
+Inserta un vértice en una línea o en un polígono.
 
 ## Parámetros
 
@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Al seleccionar la entidad y aceptar la selección, el cursor queda enganchado y el programa pedirá posar el nuevo vértice.
+Al seleccionar la entidad y aceptar la selección, el cursor queda enganchado y el programa pedirá posar el nuevo vértice. El vértice se inserta en el tramo seleccionado, entre sus dos vértices. Solo se pueden seleccionar entidades del modelo actual.
 
 ## Características de la orden
 

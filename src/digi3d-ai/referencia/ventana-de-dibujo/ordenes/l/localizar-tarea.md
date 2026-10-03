@@ -6,6 +6,10 @@ Esta orden solicita al usuario que digitalize un punto y se localiza y seleccion
 
 No admite parámetros.
 
+## Observaciones
+
+Si no hay ninguna tarea, la orden muestra un mensaje de error y termina. Si en el punto digitalizado no hay ningún icono de tarea, la orden sigue pidiendo puntos hasta que se localiza una tarea o se cancela la orden.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](localizar-tarea.md) |

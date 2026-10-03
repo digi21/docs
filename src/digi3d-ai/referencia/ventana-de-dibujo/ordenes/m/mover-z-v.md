@@ -4,11 +4,19 @@ Permite cambiar la cota de entidades situadas dentro de una entidad cerrada.
 
 ## Parámetros
 
-No admite parámetros
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Tipos de entidad a los que se cambia la cota, como una cadena de letras: `P` puntos, `L` líneas, `T` textos, `C` puntos y líneas, `*` puntos, líneas y textos. Por ejemplo, `PT` | Sí. Si no se especifica, la orden muestra un cuadro de diálogo para elegir los tipos al seleccionar el límite |
 
 ## Observaciones
 
-Antes de ejecutar la orden debes dibujar una entidad cerrada que servirá de límite.
+Antes de ejecutar la orden debes dibujar una línea cerrada que servirá de límite.
+
+1. Selecciona la línea que hace de límite.
+2. Digitaliza el punto origen.
+3. Digitaliza el punto destino.
+
+La orden suma la diferencia de Z entre el punto destino y el punto origen a las entidades visibles de los tipos elegidos que quedan dentro del límite, y muestra cuántas entidades ha modificado. Las entidades que cruzan el límite no se modifican.
 
 ## Características de la orden
 

@@ -12,7 +12,11 @@ Importa archivos de los siguientes tipos:
 
 ## Parámetros
 
-Los parámetros de exportación dependerán del tipo de archivo que se desea exportar.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Nombre del archivo a importar. Si no se especifica, la orden muestra el cuadro de diálogo de selección de archivos, que admite seleccionar varios | Sí |
+
+Los parámetros de importación dependen del tipo de archivo que se desea importar.
 
 
 | Archivo | Parámetro | Descripción |
@@ -38,7 +42,7 @@ En cualquiera de las opciones seleccionadas se presenta la opción de **Defecto*
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](importar.md) |
+| Tipo de orden | [Orden inmediata](importar.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Importar... |

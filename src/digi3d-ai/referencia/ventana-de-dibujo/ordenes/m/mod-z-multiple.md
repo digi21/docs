@@ -8,11 +8,13 @@ No admite parámetros.
 
 ## Observaciones
 
-Tienes que dibujar una entidad que represente el nuevo trazado del elemento que quieres modificar, y sin dar por terminada ésta, ejecuta la orden MOD\_Z\_MULTIPE. El nuevo tramo dibujado debería engancharse en los puntos apropiados de la entidad a modificar.
+Tienes que dibujar una entidad que represente el nuevo trazado del elemento que quieres modificar, y sin dar por terminada ésta, ejecuta la orden MOD\_Z\_MÚLTIPLE. El nuevo tramo dibujado debería engancharse en los puntos apropiados de la entidad a modificar.
 
 Digi3D.AI busca en la entidad a modificar, los puntos más próximos al primero y último de la entidad modificadora, y sustituye el tramo comprendido entre dichos puntos por los puntos de la entidad modificadora.
 
-En este proceso, la cota de los puntos de la entidad modificadora se ajusta a la de la entidad modificada.
+En este proceso, la cota de los puntos de la entidad modificadora no se ajusta a la de la entidad modificada. Si no deseas modificar las cotas utiliza la orden [MOD\_MÚLTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-multiple.md).
+
+La orden sigue pidiendo entidades a modificar con el mismo trazado hasta que pulses la tecla Esc, que termina también la orden LINEA.
 
 Independientemente del código utilizado al dibujar la entidad modificadora, éste se cambia por el de la entidad modificada.
 

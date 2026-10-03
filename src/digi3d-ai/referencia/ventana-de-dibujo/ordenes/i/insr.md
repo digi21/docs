@@ -4,11 +4,13 @@ Permite insertar un bloque, almacenado en un fichero de dibujo, en una determina
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Nombre del archivo a insertar. Si no se especifica, la orden muestra el cuadro de diálogo de selección de archivo | Sí |
 
 ## Observaciones
 
-En este caso, se puede establecer la rotación del bloque indicando, después del punto de inserción, un segundo punto de orientación. De este modo, quedará insertado en la dirección marcada por la recta que definen los dosp untos dados, el punto de inserción y el punto de orientación.
+La orden pide dos puntos: el punto de inserción y un punto de orientación. El bloque queda girado en la dirección de la recta que va del punto de inserción al punto de orientación.
 
 El fichero, sea del tipo que sea, se insertará con un factor de escala igual al valor de la escala activa \( [ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md).
 

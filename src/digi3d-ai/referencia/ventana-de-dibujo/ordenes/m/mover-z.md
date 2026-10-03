@@ -1,14 +1,19 @@
 # MOVER\_Z
 
-Permite cambiar la cota de una entidad.
+Permite cambiar la cota de una o varias entidades.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1...n | Tipos de entidad que se pueden seleccionar, una letra por parámetro: `L` líneas, `P` puntos, `T` textos, `B` imágenes, `H` polígonos, `C` líneas y puntos, `*` líneas, puntos, textos e imágenes | Si. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
 
 ## Observaciones
 
 Se utiliza para elevar o hundir entidades una distancia constante, respetando las diferencias de cota entre los puntos de la entidad.
+
+1. Selecciona la entidad. El punto de selección se toma como punto origen. Si seleccionas varias entidades, digitaliza después el punto origen.
+2. Digitaliza el punto destino. La orden suma a todos los vértices la diferencia de Z entre el punto destino y el punto origen; X e Y no cambian.
 
 Si hay cargada una Triangulación de un Modelo Digital del Terreno \(MDT\), se puede modificar con esta orden la cota de los puntos de la triangulación.
 

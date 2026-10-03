@@ -1,10 +1,14 @@
 # MODIFICA\_VÉRTICE
 
-Modifica la posición de un vértice en una entidad lineal.
+Modifica la posición de un vértice en una línea o en un polígono.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+Al seleccionar la entidad, el vértice seleccionado queda enganchado al cursor y el programa pide su nueva posición. Solo se pueden seleccionar entidades del modelo actual.
 
 ## Características de la orden
 

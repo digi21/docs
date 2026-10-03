@@ -1,14 +1,22 @@
 # LIMPIA
 
-Borra el interior de entidades o borra entidades que atraviesen textos.
+Corta las entidades que atraviesan el contorno de textos o de líneas límite y borra o recodifica los tramos que quedan dentro.
 
 ## Parámetros
 
+Si se ejecuta sin parámetros, la orden muestra un cuadro de diálogo con estas mismas opciones. Si se especifican parámetros, hay que especificar los cinco.
+
 | Número de parámetro | Parámetro | Descripción |
 | :--- | :--- | :--- |
-| 1 | Tabla de códigos de límites | Fichero de texto que contiene los códigos de las entidades a procesar \(LIMPIA\_1.TAB\) |
-| 2 | Tabla de códigos de líneas a cortar | Fichero de texto que contiene los códigos de los elementos que han de ser eliminados del interior de las entidades cuyos códigos se han especificado en el archivo LIMPIA\_1.TAB \(LIMPIA\_2.TAB\) |
-| 3 | Tipo de corte | Limpiar textos, limpiar líneas cerradas o abiertas. |
+| 1 | Tipo de corte | `0`: limpiar textos \(el límite es el contorno de cada texto\). `1`: limpiar líneas cerradas. `2`: limpiar líneas abiertas o cerradas \(las abiertas se cierran para usarlas como límite\) |
+| 2 | Tabla de códigos de límites | Fichero de texto con los códigos de los textos o líneas que hacen de límite, uno por línea \(LIMPIA\_1.TAB\) |
+| 3 | Tabla de códigos de líneas a cortar | Fichero de texto con los códigos de las entidades que se cortan con los límites, uno por línea \(LIMPIA\_2.TAB\) |
+| 4 | Borrar los tramos dentro de los límites | `1`: borra los tramos que quedan dentro de los límites. `0`: los conserva |
+| 5 | Código para los tramos dentro de los límites | Código que se compone con el código de cada tramo interior cuando el parámetro 4 vale `0`. Si está vacío, los tramos conservan su código |
+
+## Observaciones
+
+Solo se usan como límite las entidades visibles, no borradas y dentro de la zona de interés.
 
 ## Características de la orden
 
