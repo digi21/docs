@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md). Solo modifica las entidades del modelo actual y no añade a una entidad los códigos que ya tiene. En la selección múltiple, la orden escribe en el panel de resultados el número de entidades recibidas y el de procesadas.
+La orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md). Solo modifica las entidades del modelo actual y no añade a una entidad los códigos que ya tiene. En la selección múltiple, la orden escribe en el panel de resultados el número de entidades recibidas y el de entidades a las que ha añadido algún código. En la selección simple, si la entidad ya tiene todos los códigos activos, la orden emite un sonido de error.
 
 ## Características de la orden
 
