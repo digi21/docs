@@ -11,6 +11,8 @@ Añade el código de recinto a las entidades que forman el contorno de los recin
 
 ## Observaciones
 
+Si faltan parámetros, la orden muestra el aviso «Faltan parámetros» y termina.
+
 Requiere que exista una topología por inundación (topología temporal); en caso contrario, la orden no se ejecuta.
 
 Al ejecutarse, la orden establece el código de centroide como código activo.
