@@ -33,6 +33,6 @@ La intensidad de los índices es un valor que puede variar entre 0 y 255 y esta 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
 | Variables relacionadas | No tiene variables relacionadas |
-| Órdenes relacionadas | [CAMBIA\_BRILLO](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-brillo.md)<br>[COLOR\_ÍNDICE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/color-indice.md) |
+| Órdenes relacionadas | [COLOR\_ÍNDICE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/color-indice.md) |
 | Nombre interno | {E1F08BCD-AC59-473a-8D45-5A3C8386551C} |
 
