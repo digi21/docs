@@ -1,7 +1,25 @@
-# Tabla de códigos
+# Códigos activos
 
-![Panel tabla de códigos mostrando el código 020123 como código activo](../../../images/paneltablacodigos.png)
+![Panel códigos activos mostrando como códigos activos el 050146 y 060533](../../../images/panelcodigosactivos.png)
 
-Este permite seleccionar el código activo al estilo de cómo lo haríamos con la [barra de herramientas Código](../barras-de-herramientas/codigo.md) pero mostrando todos los códigos simultáneamente.
+Este panel permite seleccionar el código o códigos activos en caso de estar trabajando con multi codificación.
 
-Este panel se habilita únicamente si seleccionamos la opción **Panel de códigos (mono-codificación)** en el campo [Interfaz para seleccionar código](../cuadros-de-dialogo/configuracion/diging/interfaz-para-seleccionar-codigo.md) de la configuración del programa.
+Al almacenar una geometría nueva, esta tendrá tantos códigos como códigos tengamos seleccionados en este panel.
+
+Este panel se habilita únicamente si seleccionamos la opción **Panel de multi-codificación** en el campo [Interfaz para seleccionar código](../cuadros-de-dialogo/configuracion/diging/interfaz-para-seleccionar-codigo.md) de la configuración del programa.
+
+## Barra de herramientas
+
+Dispone de una barra de herramientas que permite interactuar con el contenido del panel.
+
+### Botones
+
+* Botón que añade un código al listado de códigos activos.
+* Botón elimina el código seleccionado del listado de códigos activos.
+* Botón que ejecuta la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
+* Botón que ejecuta la orden [CLONAR_CODIGOS](../ventana-de-dibujo/ordenes/c/clonar-codigos.md).
+* Botón que ejecuta la orden [CLONAR_CODIGOS+](../ventana-de-dibujo/ordenes/c/clonar-codigos-mas.md).
+
+## Base de datos
+
+Si estamos trabajando con una base de datos, al seleccionar un determinado código en este panel se forzará al panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md) en la tabla de códigos para el código seleccionado.
