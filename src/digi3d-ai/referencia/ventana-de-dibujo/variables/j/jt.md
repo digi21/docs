@@ -30,11 +30,13 @@ Muestra el valor actual del punto de inserción del texto
 
 Con esta orden se puede definir el punto de enganche del texto para poder insertarlo con más precisión.
 
+Si ejecutas la orden sin parámetros, se muestra un cuadro de diálogo para elegir la justificación. Un valor mayor que 8 se guarda como 0. Al iniciar Digi3D.AI la justificación vale 0.
+
 Debemos tener en cuenta que para fuentes _TrueType_, las justificaciones 1, 5 y 8 se comportan como 0, 6 y 7 respectivamente.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](jt.md) |
+| Tipo de orden | [Variable numérica](../variables-numericas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Justificación de texto |

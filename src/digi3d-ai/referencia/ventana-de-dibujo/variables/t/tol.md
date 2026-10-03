@@ -6,8 +6,7 @@ Establece el _factor de tolerancia_ en el proceso de [generalización](tol.md).
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
-| 2 | Distancia entre dos puntos | Número real | Si |
+| 1 | Valor numérico. Si no se indica, la barra de estado muestra un cuadro de texto para escribir el valor; también puedes digitalizar dos puntos y la orden asigna la distancia entre ellos. | Número real o **?** | Si |
 
 ### Ejemplos
 
@@ -21,7 +20,7 @@ Muestra el valor actual del factor de tolerancia
 
 ## Observaciones
 
-El valor del _factor de tolerancia_ se introduce en metros. Su valor inicial es la tolerancia de generalización de la configuración del archivo de dibujo.
+El valor del _factor de tolerancia_ se introduce en las unidades de las coordenadas del archivo de dibujo \(metros en un sistema de referencia proyectado\). Su valor inicial es la tolerancia de generalización de la configuración del archivo de dibujo, y se vuelve a asignar cada vez que se abre un archivo de dibujo.
 
 Las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) generalizan con el algoritmo de Douglas-Peucker. Para cada tramo de la entidad, calculan la distancia de cada vértice intermedio a la **recta que une los extremos del tramo**, no al segmento formado por el vértice anterior y el siguiente:
 
@@ -36,10 +35,10 @@ Las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [
 
 | Tipo de orden | [Variable real](tol.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md) |
 | Nombre interno | {57647E08-06CB-448b-BD9A-639C5008A176} |
 

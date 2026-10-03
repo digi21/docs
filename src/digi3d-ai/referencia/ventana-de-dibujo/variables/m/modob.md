@@ -7,8 +7,11 @@ Establece el modo de búsqueda o enganche gráfico a elementos del dibujo.
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Modo de objeto | Número entero del 0 al 22 | Si |
+| 2 y siguientes | Modos de búsqueda secundarios | Números enteros del 0 al 22 | Si |
 
 ## Observaciones
+
+Si ejecutas la orden sin parámetros, se muestra un cuadro de diálogo para elegir un único modo de búsqueda. Si el primer parámetro está fuera del intervalo de 0 a 22, la orden emite un sonido de error y no cambia el modo. Los modos secundarios fuera de ese intervalo se descartan.
 
 El ámbito de búsqueda de una entidad está determinado por el tamaño del cursor y el factor de zoom de pantalla.
 
@@ -23,7 +26,7 @@ El ámbito de búsqueda de una entidad está determinado por el tamaño del curs
 | 6 | Vértices extremos si coincide la Z | Se engancha en X, Y, Z al vértice extremo más próximo de una entidad siempre y cuando la Z actual sea igual a la del vértice. Esto es útil para restitución ya que obliga a que se tenga la misma Z al engancharse a una curva de nivel ya existente. De esta forma, nos obligará a llevar activo el interruptor Z\_fija al querernos enganchar, o nos permitirá descubrir si la curva existente fue hecha con el interrruptor Z\_fija activo. En los aparatos analíticos cuando fijamos una Z con Z\_fija el sistema nos buscará, dentro del ámbito de búsqueda del cursor, la curva de nivel que tenga esa Z, y engancharemos en uno de los extremos de esa curva. |
 | 7 | Dos puntos: 1º XY, 2º Z | Se toman las coordenadas X,Y del último punto registrado, como coordenadas planimétricas para el siguiente punto de datos. La coordenada Z será el valor de Z cuando se de el punto. No hay que indicar ninguna entidad. Suele utilizarse para realizar volúmenes |
 | 8 | XYZ en el punto medio del segmento | Se engancha en X, Y, Z en el punto medio del segmento seleccionado con el cursor. |
-| 9 | Vértice en XY | Igual que el modo 2 pero tomando sólo las coordenadas X, Y del vértice más próximo. El valor de Z se toma del valor de la Z actual. |
+| 9 | Vértice en XY | Igual que el modo 4 pero tomando sólo las coordenadas X, Y del vértice más próximo. El valor de Z se toma del valor de la Z actual. |
 | 10 | Vértices extremos de la entidad en XY | Igual que el modo 2 pero tomando sólo las coordenadas X, Y del vértice más próximo. El valor de Z se toma del valor de la Z actual. |
 | 11 | Intersección | Busca el punto intersección de dos entidades. |
 | 12 | Busca la Z | Busca la Z que lleva el operador en la línea en la que se está realizando el tentativo. Es muy útil para hacer pasar una curva de nivel por ríos, caminos, etc... |
@@ -50,10 +53,10 @@ De esta forma en caso de llegar a un elemento en el cual no es posible enganchar
 
 | Tipo de orden | Orden inmediata |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {4B0321A1-67A4-4209-89A9-3F55C6AB2539} |
 

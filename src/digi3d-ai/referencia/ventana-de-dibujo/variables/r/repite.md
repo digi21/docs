@@ -14,9 +14,9 @@ Si está activa, repite la última orden que se ha ejecutado para las órdenes q
 
 Algunas órdenes tienen la capacidad de auto-ejecutarse cada vez que finalizan. Podemos controlar si queremos o no que se auto-ejecuten estas órdenes al finalizarse mediante esta orden.
 
-Esta orden es de tipo booleano, lo que significa que puede estar activa o desactiva.
+Esta orden es de tipo booleano, lo que significa que puede estar activa o desactiva. La variable se activa cada vez que se abre un archivo de dibujo.
 
-* Si la orden está activa y ejecutamos una orden que admite repetición, como por ejemplo [CIRCR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/circr.md), cuando se digitalice un círculo, la orden CIRCR se auto-destruirá, pero al estar activa la orden _REPITE_, _DigiNG_ volverá a ejecutar la orden _CIRCR_.
+* Si la orden está activa y ejecutamos una orden que admite repetición, como por ejemplo [2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/2/2p.md), cuando se digitalice el cuadrado, la orden 2P se auto-destruirá, pero al estar activa la orden _REPITE_, _DigiNG_ volverá a ejecutar la orden _2P_ con los mismos parámetros.
 * Si la orden no está activa y ejecutamos una orden que admite repetición, cuando ésta se destruya no se volverá a ejecutar automáticamente.
 
 Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md), pues si esta orden admitiese repetición, si se ejecuta con el valor de REPITE activado, se borraría todo el modelo al ejecutarla.
@@ -25,7 +25,7 @@ Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_
 
 | Tipo de orden | [Variable booleana](repite.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Variables booleanas/Repetir la última orden |
 | Barra de herramientas en la que aparece la orden | Órdenes automáticas |
 | Extensión | DigiNG.OrdenesStandard.dll |
