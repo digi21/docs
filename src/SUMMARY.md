@@ -1003,6 +1003,7 @@
           * [Limitar el zoom máximo](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/limitar-el-zoom-maximo.md)
           * [Tamaño de ventana](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/tamano-de-ventana.md)
           * [ZOOM\_ANTERIOR incluye los cambios del factor de zoom](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/zoom-anterior-incluye-factor-zoom.md)
+          * [Reiniciar las variables al abrir un archivo de dibujo](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/reiniciar-variables-al-abrir-dibujo.md)
           * [Interfaz para seleccionar código](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/interfaz-para-seleccionar-codigo.md)
           * [Permitir seleccionar códigos inexistentes](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/permitir-seleccionar-codigos-inexistentes.md)
           * [Permitir códigos repetidos](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/permitir-codigos-repetidos.md)
