@@ -14,7 +14,7 @@ Esta orden recorre las líneas visibles, dentro de la zona de interés, que teng
 
 Cada código se compara de forma exacta. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
 
-Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las líneas seleccionadas. En este caso la comparación de los extremos solo tiene en cuenta X e Y.
+Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las líneas seleccionadas. En este caso la comparación de los extremos también tiene en cuenta X, Y y Z.
 
 ## Características de la orden
 
