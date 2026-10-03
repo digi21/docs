@@ -11,7 +11,7 @@ Realiza una copia de una entidad de dibujo.
 ## Observaciones
 
 1. Selecciona una o varias entidades.
-2. Digitaliza el punto origen. Si la entidad seleccionada es un punto o un texto, el punto de selección se toma como punto origen.
+2. Digitaliza el punto origen. Si la entidad seleccionada es un punto, un complejo puntual o un texto, el punto de selección se toma como punto origen.
 3. Digitaliza el punto destino.
 
 El programa genera entidades iguales a las originales, aplicando una traslación definida por el vector \(punto origen, punto destino\). Las nuevas entidades conservan los códigos de las originales. Si la variable [FORZAR\_CODIGO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/forzar-codigo-activo.md) está activa, se crean con el código activo.
