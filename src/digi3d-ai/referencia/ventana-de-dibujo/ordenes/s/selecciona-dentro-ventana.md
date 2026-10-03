@@ -21,5 +21,6 @@ Digitaliza dos esquinas opuestas de la ventana con el pulsador de datos. La vent
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md) — verificación por parte del usuario de la selección del tentativo |
+| Órdenes relacionadas | [SELECCIONA\_DENTRO\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-dentro-poligono.md)<br>[SELECCIONA\_FUERA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-fuera-ventana.md)<br>[SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md) |
 | Nombre interno | {4A2E67C9-DF80-40E4-A42F-C556CDC442F6} |
 

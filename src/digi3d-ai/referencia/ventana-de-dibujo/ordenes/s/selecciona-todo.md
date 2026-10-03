@@ -19,5 +19,6 @@ La orden marca todas las entidades del archivo de dibujo activo que no están bo
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DESELECCIONA\_TODO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/deselecciona-todo.md)<br>[SELECCIONA\_MULTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-multiple.md) |
 | Nombre interno | {235BFAE7-3D2C-4C5B-9198-434AB2718EE0} |
 

@@ -29,5 +29,6 @@ Para seleccionar el segmento que se va a retranquear debe estar activo un modo d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {0AF68209-0D11-480c-A85C-7F332089F1A6} |
 

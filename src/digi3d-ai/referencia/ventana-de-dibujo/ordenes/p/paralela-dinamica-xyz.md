@@ -23,5 +23,6 @@ A la Z de todos los vértices de la paralela se le suma la diferencia de Z entre
 | Barra de herramientas en la que aparece la orden | Paralela |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [PARALELA\_DINÁMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica.md)<br>[PARALELA\_DINAMICA\_CON\_EJE\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje-z.md)<br>[PARALELA\_DINAMICA\_PLANO\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-plano-dibujo.md)<br>[PARALELA\_DINÁMICA\_Z\_FIJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-z-fija.md) |
 | Nombre interno | {4B0A66A9-EE66-4BBC-9484-04B371BD49EB} |
 

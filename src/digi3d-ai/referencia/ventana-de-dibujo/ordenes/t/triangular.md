@@ -25,5 +25,6 @@ La orden también admite selección múltiple: si se le envían entidades con un
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CREA\_DEM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crea-dem.md)<br>[CURVAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/curvar.md)<br>[TRIANGULAR\_LINEAS\_EXCEPTO\_PUNTOS\_CON\_CODIGO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular-lineas-excepto-puntos-con-codigo.md)<br>[TRIANGULAR\_PUNTOS\_TOPOLOGIA\_EXCEPTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular-puntos-topologia-excepto.md) |
 | Nombre interno | {CADBCBD9-31D0-4072-B935-47609136331B} |
 

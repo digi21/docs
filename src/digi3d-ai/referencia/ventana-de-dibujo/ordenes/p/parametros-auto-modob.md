@@ -78,5 +78,6 @@ En este ejemplo se comprueba que si estamos dibujando líneas con códigos 02012
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [AUTOMODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob.md)<br>[AUTOMODOB\_EXHAUSTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob-exhaustivo.md)<br>[CAMB\_MODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-modob.md) |
 | Nombre interno | {5DC544A9-2700-40d2-9840-2E7923BCCAA4} |
 

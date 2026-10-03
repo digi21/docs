@@ -23,4 +23,5 @@ La orden crea un texto por cada punto visible, dentro de la zona de interés, qu
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
+| Órdenes relacionadas | [ROTULA\_REFERENCIA\_CATASTRAL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-referencia-catastral.md)<br>[ROTULA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-z.md) |
 | Nombre interno | {D0F1F901-2E44-4DAE-8A5F-4730713E4C1B} |

@@ -23,5 +23,6 @@ La distancia es la que hay entre el cursor y el vértice o el tramo más cercano
 | Barra de herramientas en la que aparece la orden | Paralela |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela.md)<br>[PARALELA\_DINAMICA\_CON\_EJE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje.md)<br>[PARALELA\_DINAMICA\_PLANO\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-plano-dibujo.md)<br>[PARALELA\_DINÁMICA\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-xyz.md)<br>[PARALELA\_DINÁMICA\_Z\_FIJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-z-fija.md) |
 | Nombre interno | {78C231A3-A299-4368-8B5F-C72A3FB9109B} |
 

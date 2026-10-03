@@ -21,4 +21,5 @@ Si no indicas el parámetro, o su valor no está entre 1 y 10, la orden solicita
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [GIRAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/girar.md)<br>[PUNTO\_VISTA\_DINAMICO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-vista-dinamico.md) |
 | Nombre interno | {4CA45C16-E359-4B13-96CC-67DFC0F12A4D} |

@@ -21,4 +21,5 @@ Si no indicas el parámetro, la orden desactiva la representación dinámica. Si
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ASIGNAR\_REPRESENTACIONES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-representaciones.md) |
 | Nombre interno | {1AB22359-9EAF-4E5A-8A97-F7334FB2A632} |

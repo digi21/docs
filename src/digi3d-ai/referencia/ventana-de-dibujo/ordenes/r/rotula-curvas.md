@@ -27,5 +27,6 @@ Esta orden no rotulará entidades que están desactivadas con la orden [OFF](/di
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [COD\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-curvas.md)<br>[COTAS\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cotas-curvas.md)<br>[ROTULA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-z.md) |
 | Nombre interno | {B2B07A8C-8AF6-481b-BD30-324B6A4A7919} |
 

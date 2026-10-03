@@ -19,5 +19,6 @@ El efecto visual es de aproximación. La orden multiplica el ancho y el alto de 
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ZOOM-](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-menos.md)<br>[ZOOMIN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomin.md)<br>[ZOOMOUT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomout.md) |
 | Nombre interno | {B1AECC0C-D19F-42b0-A082-66FBFC17DA86} |
 

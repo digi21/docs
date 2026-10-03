@@ -30,5 +30,6 @@ El factor de zoom no cambia.
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [ZOOM\_ANTERIOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-anterior.md)<br>[ZOOM2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom2p.md)<br>[ZOOMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zooma.md) |
 | Nombre interno | {06225501-1195-4b03-B53F-947B307BB745} |
 

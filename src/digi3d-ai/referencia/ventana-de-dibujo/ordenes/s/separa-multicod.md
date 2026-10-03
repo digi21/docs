@@ -21,5 +21,6 @@ La orden recorre el archivo de dibujo activo. Cada entidad visible, no borrada, 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [DESAGRUPAR\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/desagrupar-entidades.md) |
 | Nombre interno | {E1056769-9785-414E-BF51-6837CE331FA9} |
 

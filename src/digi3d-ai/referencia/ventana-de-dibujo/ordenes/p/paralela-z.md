@@ -21,4 +21,5 @@ Funciona como [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paral
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela.md)<br>[PARALELA\_DA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-da.md) |
 | Nombre interno | {351A5010-8CDA-4DDA-AB3A-A0DA6E9631EE} |

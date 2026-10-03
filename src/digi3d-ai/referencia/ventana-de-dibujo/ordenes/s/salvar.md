@@ -23,4 +23,5 @@ La copia automática es la misma que hace la orden [BAK](/digi3d-ai/referencia/v
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BAK](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bak.md) |
 | Nombre interno | {11647E64-636B-4947-A1F9-CAB25BD68091} |

@@ -25,4 +25,5 @@ Si una consulta falla, la orden emite un sonido de error, escribe el error en la
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesBaseDatos.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {330E81D4-172A-4A8B-BE6E-FE8D9B79A9BF} |

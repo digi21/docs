@@ -15,5 +15,6 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | Deshacer |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) |
 | Nombre interno | {EAF70ED3-6ABD-4C9C-8BA1-CA7A13E206CC} |
 

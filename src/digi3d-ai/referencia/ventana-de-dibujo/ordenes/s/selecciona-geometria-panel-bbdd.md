@@ -19,4 +19,5 @@ Señala la geometría con el pulsador de datos o con el pulsador de tentativo. L
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesBaseDatos.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [SELECCIONA\_EDITOR\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-editor-bbdd.md) |
 | Nombre interno | {48FB4F97-BC7F-4AFF-BBF2-DCF7624FB8ED} |

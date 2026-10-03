@@ -27,5 +27,6 @@ Cada símbolo es un texto con el código activo. Toma la altura de [AT](/digi3d-
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [PUNTEAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/puntear.md)<br>[RAYAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rayar.md)<br>[TRAMAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tramar.md) |
 | Nombre interno | {8C69C4FD-E23F-4c34-A90E-EEC98079CD61} |
 

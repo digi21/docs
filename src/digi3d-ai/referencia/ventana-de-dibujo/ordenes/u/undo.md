@@ -21,5 +21,6 @@ Cada ejecución de la orden UNDO sólo deshace una orden.
 | Barra de herramientas en la que aparece la orden | Deshacer |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [REDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/redo.md) |
 | Nombre interno | {57B9A609-A048-42f6-AB11-8BD2DDBC9CE2} |
 

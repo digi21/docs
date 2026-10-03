@@ -21,5 +21,6 @@ Se recortarán todas las entidades que se encuentren en el lado indicado por el 
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [TRIM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/trim.md)<br>[TRIM\_M](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/trim-m.md) |
 | Nombre interno | {D2EF5B75-4075-450B-9A06-00A941807D71} |
 

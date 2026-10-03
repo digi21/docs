@@ -21,4 +21,5 @@ Funciona como [PERP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp.md),
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [PERP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp.md)<br>[PERP\_A](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp-a.md) |
 | Nombre interno | {C6B8AB50-A221-4239-A257-A60C99A9629D} |

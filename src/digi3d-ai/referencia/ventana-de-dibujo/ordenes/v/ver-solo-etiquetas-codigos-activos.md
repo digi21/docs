@@ -15,5 +15,6 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [VER\_SOLO\_CÓDIGOS\_ACTIVOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-codigos-activos.md)<br>[VER\_SOLO\_ETIQUETAS\_ENTIDAD\_SELECCIONADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-etiquetas-entidad-seleccionada.md) |
 | Nombre interno | {4E43A91F-4B0C-4908-8CBA-8B066DA150FA} |
 

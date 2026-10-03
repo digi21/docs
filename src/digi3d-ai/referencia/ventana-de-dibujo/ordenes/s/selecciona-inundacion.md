@@ -25,4 +25,5 @@ El pulsador de reset vacía la selección de recintos. La tecla `Esc` termina la
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {6B5E76DA-9197-42C8-B940-E28A594E123A} |

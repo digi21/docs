@@ -26,5 +26,6 @@ La orden analiza la intersección entre ambas entidades y crea un o unos \(pues 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CORTAR\_POLÍGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-poligono.md)<br>[RECORTAR\_POLÍGONOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recortar-poligonos.md) |
 | Código fuente | [DigiNG.Commands](https://github.com/digi21/DigiNG.Commands) |
 

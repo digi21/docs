@@ -42,5 +42,6 @@ Los parámetros del importador para archivos .bin son \[precisión\]\[origen glo
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [HOJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/h/hoja.md)<br>[TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/traza.md) |
 | Nombre interno | {B066D261-DFE7-4c27-AFAC-CECD7B76D3C2} |
 

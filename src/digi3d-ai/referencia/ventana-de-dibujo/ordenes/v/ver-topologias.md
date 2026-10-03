@@ -28,4 +28,5 @@ Con parámetros, la orden no muestra el cuadro de diálogo: activa (`1`) o desac
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md) |
 | Nombre interno | {EA4A64CD-BD28-43B0-A499-C44500C57813} |

@@ -22,4 +22,5 @@ No admite parámetros.
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
+| Órdenes relacionadas | [PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md)<br>[PUNTO\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-r.md) |
 | Nombre interno | {35AE7D6E-2A1D-4C67-873C-109C7D0F8394} |

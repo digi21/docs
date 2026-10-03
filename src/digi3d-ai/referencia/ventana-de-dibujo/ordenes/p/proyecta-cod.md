@@ -35,5 +35,6 @@ El tipo es obligatorio en cada par. En esta orden, `P` solo incluye los puntos, 
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [PROYECTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta.md)<br>[PROYECTA\_COD\_ETIQUETA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod-etiqueta.md)<br>[PROYECTA\_POR\_CONDICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-por-condicion.md)<br>[PROYECTA\_PUNTOS\_TOPOLOGIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-puntos-topologia.md) |
 | Nombre interno | {ABB1C326-336A-45cc-896F-33DDE9BDBFA7} |
 

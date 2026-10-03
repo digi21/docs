@@ -25,4 +25,5 @@ Cada línea se une como mucho una vez en cada ejecución. Para unir una cadena d
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [UNIR\_LINEAS\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-tabla.md)<br>[UNIR\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-xyz.md) |
 | Nombre interno | {40963DC8-B7E2-4EE8-B7E9-4CF9D3FCFC65} |

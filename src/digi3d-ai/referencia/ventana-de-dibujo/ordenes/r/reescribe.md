@@ -23,4 +23,5 @@ Esto tiene utilidad en caso de haber realizado alguna modificación en el esquem
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
 | Variables relacionadas                           | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada                                              |
+| Órdenes relacionadas                             | No tiene órdenes relacionadas |
 | Nombre interno | {3E3A20C6-2E60-4428-9E9D-68C95EF39099} |
