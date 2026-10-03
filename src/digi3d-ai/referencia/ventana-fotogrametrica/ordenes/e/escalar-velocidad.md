@@ -25,7 +25,7 @@ El escalado está activado por defecto en cada ventana fotogramétrica que se ab
 | Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Velocidades/Escalar según zoom |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
 | Variables relacionadas | No tiene variables relacionadas |
