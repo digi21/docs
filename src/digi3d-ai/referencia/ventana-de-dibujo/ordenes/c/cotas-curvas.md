@@ -21,7 +21,7 @@ La orden no termina tras asignar las cotas: puedes digitalizar otro par de punto
 
 ### Marcar las curvas ya acotadas
 
-Si el código activo contiene los comodines `*` o `?`, la orden cambia también el código de las curvas a las que asigna cota. Así se distinguen de las que faltan por acotar. Cada código de la curva que coincide con los de la orden se combina con el código activo: los caracteres del código activo sustituyen a los de la curva, `?` conserva el carácter de la curva y `*` conserva el resto del código de la curva. Los demás códigos de la curva no cambian. Los atributos de base de datos se tratan como en [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md).
+Si el código activo contiene los comodines `*` o `?`, la orden cambia también el código de las curvas a las que asigna cota. Así se distinguen de las que faltan por acotar. Cada código de la curva que coincide con los de la orden se combina con el código activo: los caracteres del código activo sustituyen a los de la curva, `?` conserva el carácter de la curva y `*` conserva el resto del código de la curva, con las mismas reglas que en [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md). Los demás códigos de la curva no cambian. Los atributos de base de datos se tratan como en [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md).
 
 Por ejemplo, si las curvas tienen los códigos `020123` y `020124`:
 
