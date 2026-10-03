@@ -140,6 +140,7 @@ Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
 
 * **[Limitar el zoom máximo](diging/limitar-el-zoom-maximo.md)** — Impone un factor de zoom máximo en la ventana de dibujo.
 * **[Tamaño de ventana](diging/tamano-de-ventana.md)** — Tamaño mínimo que podrá representar la ventana de dibujo.
+* **[ZOOM\_ANTERIOR incluye los cambios del factor de zoom](diging/zoom-anterior-incluye-factor-zoom.md)** — Indica si ZOOM+, ZOOM-, ZOOMIN, ZOOMOUT y la rueda del ratón guardan la vista que restaura ZOOM\_ANTERIOR.
 * **[Interfaz para seleccionar código](diging/interfaz-para-seleccionar-codigo.md)** — Ventana que se usa para seleccionar el código activo.
 * **[Permitir seleccionar códigos inexistentes](diging/permitir-seleccionar-codigos-inexistentes.md)** — Permite seleccionar como activo un código que no existe en la tabla.
 * **[Permitir códigos repetidos](diging/permitir-codigos-repetidos.md)** — Permite asignar el mismo código varias veces a una geometría.
