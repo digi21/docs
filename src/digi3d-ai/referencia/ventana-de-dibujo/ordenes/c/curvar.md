@@ -14,7 +14,7 @@ Realiza el curvado de una triangulación.
 | 6 | Código con el que se generarán las curvas de nivel finas | Código | No |
 | 7 | Código con el que se generarán las curvas de nivel maestras | Código | No |
 
-Si se indican menos de seis parámetros, la orden los ignora y muestra un cuadro de diálogo con las equidistancias, los códigos, el factor de suavizado y la opción de respetar las curvas existentes con sus códigos.
+Si se indican menos de siete parámetros, la orden los ignora y muestra un cuadro de diálogo con las equidistancias, los códigos, el factor de suavizado y la opción de respetar las curvas existentes con sus códigos.
 
 ## Observaciones
 
