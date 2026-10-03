@@ -16,6 +16,16 @@ Si no indicas los tres parámetros, la orden muestra un cuadro de diálogo.
 
 Con los tres parámetros, la orden trata las entidades de los tipos indicados que están visibles y dentro de la zona de interés. Las entidades borradas solo se tratan si la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) está activada.
 
+Los dos códigos admiten los comodines `*` y `?`. El código nuevo se combina con cada código que coincide con el antiguo, posición a posición:
+
+* Un carácter del código nuevo sustituye al del código de la entidad en esa posición.
+* `?` conserva el carácter del código de la entidad.
+* `*` conserva el resto del código de la entidad.
+* Si el código nuevo no termina en `*`, el resultado tiene su longitud: `020124` con `02?` da `020`.
+* Si un `?` cae en una posición que el código de la entidad no tiene, el resultado termina ahí: `A` con `A?C` da `A`.
+
+Por ejemplo, `RENOMCOD=02* 0211* *` cambia `020124` por `021124`.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](renomcod.md) |
