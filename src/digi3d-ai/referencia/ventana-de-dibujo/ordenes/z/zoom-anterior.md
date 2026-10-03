@@ -1,10 +1,16 @@
 # ZOOM\_ANTERIOR
 
-Ejecuta un zoom extensión del archivo de dibujo actual.
+Restaura la vista que tenía la ventana de dibujo antes del último cambio de vista.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+La ventana de dibujo guarda la vista anterior cuando se desplaza la vista o se ejecuta un zoom a una zona (por ejemplo, con [ZOOMV](zoomv.md), [ZOOME](zoome.md), [ZOOMP](zoomp.md) o [ZOOM\_ENTIDAD](zoom-entidad.md)). Las órdenes que solo cambian el factor de zoom ([ZOOM+](zoom-mas.md), [ZOOM-](zoom-menos.md), [ZOOMIN](zoomin.md), [ZOOMOUT](zoomout.md)) y la rueda del ratón no la guardan.
+
+La orden guarda a su vez la vista que sustituye, así que si la ejecutas dos veces seguidas vuelves a la vista inicial. Si todavía no hay ninguna vista guardada, la orden no hace nada.
 
 ## Características de la orden
 

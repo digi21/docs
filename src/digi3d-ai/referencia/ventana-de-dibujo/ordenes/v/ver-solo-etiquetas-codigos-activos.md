@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ver-solo-etiquetas-codigos-activos.md) |
+| Tipo de orden | [Orden inmediata](ver-solo-etiquetas-codigos-activos.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Sólo las etiquetas de los códigos activos |

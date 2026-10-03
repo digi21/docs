@@ -1,12 +1,20 @@
 # ZFIJA
 
-Hace que todos los vértices de la geometría/s seleccionada/s tengan una coordenada Z múltiple de la equidistancia
+Asigna a todos los vértices de la geometría/s seleccionada/s una misma coordenada Z, múltiplo de la equidistancia.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
+
+## Observaciones
+
+La orden toma la Z del vértice central de la geometría, la redondea al múltiplo de la [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) más cercano y asigna esa Z a todos los vértices. Las geometrías que ya tienen todos sus vértices a una misma Z múltiplo de la equidistancia no se modifican.
+
+Sin parámetros, la orden pide que selecciones una o varias geometrías y se repite hasta que la canceles.
+
+Con parámetros, la orden no pide selección: procesa todas las geometrías visibles y dentro de la zona de interés que tienen alguno de los códigos indicados, y termina.
 
 ## Características de la orden
 

@@ -8,9 +8,9 @@ No admite parámetros.
 
 ## Observaciones
 
-El efecto visual es de aproximación, viéndose las entidades de dibujo al doble de su tamaño inicial.
+El efecto visual es de aproximación. La orden multiplica el ancho y el alto de la zona visible por el valor de [Porcentaje de zoom rueda](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/rueda-del-raton/porcentaje-de-zoom-rueda.md), el mismo que usa cada paso de la rueda del ratón. Si ese valor no está configurado, la orden usa 0,99.
 
-El zoom se efectúa centrado en el punto donde se encuentra el cursor.
+El zoom se efectúa centrado en el punto donde se encuentra el cursor: ese punto pasa al centro de la vista y el cursor se mueve al centro.
 
 ## Características de la orden
 

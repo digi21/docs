@@ -6,6 +6,10 @@ Muestra únicamente las entidades que tienen algún enlace a la base de datos.
 
 No admite parámetros.
 
+## Observaciones
+
+Un código tiene enlace a la base de datos si tiene una tabla asignada. La orden deja visibles las entidades con al menos un código con tabla asignada y oculta el resto.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ver-solo-con-enlace-bbdd.md) |

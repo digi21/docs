@@ -10,11 +10,13 @@ No admite parámetros.
 
 El usuario deberá pinchar primero el punto para "agarrar" el dibujo en esa posición, a continuación se podrá mover el cursor sin soltar el botón izquierdo del ratón, y se soltará cuando el dibujo este situado como desea el usuario.
 
+Mientras la orden está en curso, la variable [AUTO\_RATON](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/auto-raton.md) está desactivada; al terminar, la orden restaura su valor anterior.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom2p.md) |
+| Tipo de orden | [Orden interactiva](zoom2p.md) |
 | :--- | :--- |
-| Repite automáticamente | No |
+| Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Zooms/Desplazar la vista |
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
