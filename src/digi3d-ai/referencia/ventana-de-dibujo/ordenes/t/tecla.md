@@ -28,7 +28,7 @@ Si se indica el parámetro, el cuadro de diálogo de asignación muestra las ór
 | Barra de herramientas en la que aparece la orden | Teclados |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
-| Órdenes relacionadas | [BOTON](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/b/boton.md)<br>[CAMBIA\_TECLAS\_MNU](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md) |
+| Órdenes relacionadas | [CAMBIA\_TECLAS\_MNU](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md) |
 | Nombre interno | {EB6809CA-AA03-4dfb-9D7A-D639EFDBC051} |
 
 ## Nota
