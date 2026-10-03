@@ -2789,5 +2789,5 @@
 * [Soporte técnico](soporte-tecnico/README.md)
   * [Creando una cuenta y enviando el primer tique de soporte técnico](soporte-tecnico/creando-cuenta-soporte-tecnico.md)
   * [Reglas Soporte Técnico](soporte-tecnico/reglas-soporte-tecnico.md)
-  * [Adjuntando archivos grandes a un tique de soporte técnico](soporte-tecnico/adjuntando-archivos-grandes-soporte-tecnico.md)
+  * [Adjuntando archivos a un tique de soporte técnico](soporte-tecnico/adjuntando-archivos-grandes-soporte-tecnico.md)
   * [Cerrando un tique de soporte técnico](soporte-tecnico/cerrando-ticket-soporte-tecnico.md)

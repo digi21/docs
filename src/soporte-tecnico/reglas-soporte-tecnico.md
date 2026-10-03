@@ -1,46 +1,54 @@
 # Reglas Soporte Técnico
 
-Nuestra intención es proporcionarte una solución lo más rápidamente posible.
+El soporte técnico resuelve antes un tique que trae toda la información desde el primer mensaje. Sigue estas reglas al crear un tique de soporte técnico.
 
-Para conseguirlo, por favor, sigue las siguientes reglas a la hora de enviar un tique de soporte técnico:
+## Un tique por consulta
 
-* Crea **un tique** por cada duda, problema o solicitud. **Nunca** crees un tique con dos dudas o problemas o solicitudes. Pues te responderemos diciendo que hemos cerrado el tique e invitándote a que crees tantos tiques como dudas, problemas y solicitudes tengas y por lo tanto se retrasará la solución.
-*   Pon un título que os sirva tanto a ti como a los ingenieros de soporte de Digi21 para saber el contenido del tique sin necesidad de abrirlo.
+Crea **un tique** por cada duda, problema o solicitud. **No** juntes en un tique dos dudas, dos problemas o dos solicitudes. Si lo haces, el soporte técnico cerrará el tique y te pedirá que crees uno por cada consulta, y la solución se retrasará.
 
-    Ejemplos válidos para el título serían:
+## Programa
 
-    * _¿Cómo crear un archivo de cámara para el certificado que adjunto?_
-    * _Añadir orden para localizar entidades con número impar de vértices._
-    * _Problemas al exportar el archivo adjunto a .shp._\
-      __
+Selecciona en **Programa** el programa al que se refiere la consulta. El tique llega al responsable de ese programa.
 
-    Ejemplos **no válidos** serían:
+## Asunto
 
-    * _Error en Digi3D._
-    * _Consulta._
-    * _Solicitud._\
-      __
-*   Pon una descripción de la duda, problema o solicitud **lo más precisa posible**. Mientras más información añadas mucho mejor. Si aportas poca información, recibirás una respuesta del estilo "Añade más información" o "Con la información proporcionada no se puede simular el problema" y al final tendrás que añadir esa información adicional, así que mejor que lo hagas desde el principio.
+Escribe un asunto que permita saber de qué trata el tique sin abrirlo.
 
-    Ejemplo de una descripción válida sería:
+Ejemplos de asuntos válidos:
 
-    * _Al abrir con GlobalMapper el archivo .shp generado a partir del archivo de dibujo que adjunto con la tabla de códigos que adjunto, compruebo que las entidades de la capa "Viales" se están almacenando como polígonos cerrados en vez de polilíneas 3D._
-    * _El programa finaliza inesperadamente siempre que: Estoy midiendo una orientación absoluta, y una vez medidos todos los puntos comienzo a pulsar el botón de eliminar punto. Cuando elimino el último punto el programa finaliza inesperadamente. No es un error aleatorio, sucede el 100% de las ocasiones._\
-      __
+* _¿Cómo crear un archivo de cámara para el certificado que adjunto?_
+* _Añadir orden para localizar entidades con número impar de vértices._
+* _Problemas al exportar el archivo adjunto a .shp._
 
-    Ejemplo de una descripción **no válida** sería:\
+Ejemplos de asuntos **no válidos**:
 
+* _Error en Digi3D._
+* _Consulta._
+* _Solicitud._
 
-    * _El programa se me ha salido._\
-      __Si aportas tan poca información, poco podremos hacer.
-*   Añade todos los archivos adjuntos que puedas (siempre que no sean imágenes ni archivos que pesen mucho).\
+## Descripción del problema
 
+Describe la duda, el problema o la solicitud con **la mayor precisión posible**. Si la descripción no basta para reproducir el problema, el soporte técnico te pedirá más información y la solución se retrasará.
 
-    * Si tu problema está relacionado al exportar un archivo de dibujo a _.shp_, adjunta tanto el archivo de dibujo como la tabla de códigos.
-    * Si tu problema es por ejemplo que no se puede cargar una orientación, adjunta el archivo de orientación.
-    * Si el problema es realizando una orientación absoluta, adjunta los puntos de apoyo
-    * ...
+Ejemplos de descripciones válidas:
 
-    \
-    Si no lo haces, te responderemos solicitándote esos archivos y eso retrasará la solución del problema, así que mejor que lo hagas desde el principio.
-* No adjuntes archivos muy grandes. Si quieres adjuntar archivos muy grandes, utiliza un servicio como WeTransfer para copiar los archivos y copia el enlace en el contenido del tique.
+* _Al abrir con GlobalMapper el archivo .shp generado a partir del archivo de dibujo que adjunto con la tabla de códigos que adjunto, compruebo que las entidades de la capa "Viales" se están almacenando como polígonos cerrados en vez de polilíneas 3D._
+* _El programa finaliza inesperadamente siempre que: Estoy midiendo una orientación absoluta, y una vez medidos todos los puntos comienzo a pulsar el botón de eliminar punto. Cuando elimino el último punto el programa finaliza inesperadamente. No es un error aleatorio, sucede el 100% de las ocasiones._
+
+Ejemplo de descripción **no válida**:
+
+* _El programa se me ha salido._
+
+Con tan poca información, el soporte técnico no puede reproducir el problema.
+
+## Archivos adjuntos
+
+Adjunta al tique todos los archivos necesarios para reproducir el problema. No hay límite de tamaño: puedes adjuntar imágenes de un vuelo o archivos _.las_ completos. Consulta [Adjuntando archivos a un tique de soporte técnico](/soporte-tecnico/adjuntando-archivos-grandes-soporte-tecnico.md).
+
+Ejemplos:
+
+* Si el problema aparece al exportar un archivo de dibujo a _.shp_, adjunta el archivo de dibujo y la tabla de códigos.
+* Si no se puede cargar una orientación, adjunta el archivo de orientación.
+* Si el problema aparece al realizar una orientación absoluta, adjunta los puntos de apoyo.
+
+Si faltan archivos, el soporte técnico te los pedirá y la solución se retrasará.

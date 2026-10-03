@@ -1,38 +1,64 @@
 # Creando una cuenta y enviando el primer tique de soporte técnico
 
-Antes de enviar tu primer ticket debes crear una cuenta en el portal de soporte de Digi21.
+El soporte técnico de Digi21 funciona dentro de la web [www.digi21.net](https://www.digi21.net). Para crear tiques necesitas una cuenta en esa web. Si ya tienes una cuenta, por ejemplo porque has descargado software de Digi21, usa esa misma cuenta.
 
-Para ello, sigue las siguientes instrucciones (puedes ver un vídeo al final de este artículo en el que te mostramos todos estos pasos).
+## Crear una cuenta
 
-1. Entra en [http://soporte.digi21.net](http://soporte.digi21.net/).
-2. Pulsa el botón **Iniciar sesión**.
-3. Pulsa el enlace **Registrarse**.
-4. Introduce tu nombre (no pongas el de tu organización, pon tu nombre personal para que los técnicos de soporte de Digi21 sepan a quién dirigirse), tu correo electrónico y por último introduce el texto que aparece en la imagen inferior.
-5. Por último, pulsa el botón Registrarse.
-6. El portal de soporte de Digi21 te enviará un correo electrónico de verificación al correo que has indicado. Ese correo tiene un enlace que tras pulsarlo te permitirá introducir una contraseña para tu cuenta.
-7. Pulsa el enlace que te habrá llegado a tu correo electrónico.
-8. Introduce la contraseña que quieres asignar a tu cuenta.\
+1. Abre [https://www.digi21.net](https://www.digi21.net) y pulsa el botón **Registrar** de la parte superior derecha.
+2. Rellena el formulario **Crear una cuenta**:
+   * En **Correo electrónico**, escribe el correo con el que vas a iniciar sesión. A ese correo llegan los códigos de acceso y los avisos de los tiques.
+   * En **Nombre** y **Apellidos**, escribe tu nombre personal, no el de tu organización. Así el soporte técnico sabe a quién se dirige.
+   * Si creas la cuenta en nombre de una empresa, escribe su nombre en **Empresa** y su C.I.F. en **N.I.F.**. Si no, deja **Empresa** vacío y escribe tu N.I.F.
+   * Rellena **Teléfono** y la dirección postal.
+3. Pulsa el botón **Registrar**.
 
+La web crea la cuenta y deja la sesión iniciada. La cuenta no tiene contraseña.
 
-Ya tienes creada la cuenta. Ahora puedes comenzar a enviar tiques de soporte técnico.
+## Iniciar sesión
 
-1. Entra en [http://soporte.digi21.net](http://soporte.digi21.net/).
-2. Pulsa el botón **Iniciar sesión**.
-3. Introduce tu correo electrónico y tu contraseña.
-4. Pulsa el botón **Iniciar sesión**.
-5. Pulsa el enlace **Enviar una solicitud**.
-6. Rellena el formulario [siguiendo las reglas para crear un tique de soporte técnico](/soporte-tecnico/reglas-soporte-tecnico.md).
-7. Pulsa el botón **Enviar**.
+Cada inicio de sesión se confirma con un código de 6 dígitos que la web envía por correo electrónico.
 
-Puedes revisar todos los tiques de soporte técnico que has creado.
+1. Abre [https://www.digi21.net/Soporte](https://www.digi21.net/Soporte). Si no has iniciado sesión, la web muestra la página **Iniciar sesión**. También puedes pulsar el botón **Conectar** de la parte superior derecha.
+2. Escribe el correo electrónico de tu cuenta.
+3. Activa la casilla **Mantener la sesión iniciada en este equipo** si no quieres repetir el inicio de sesión cada vez que cierres el navegador. La sesión dura 14 días desde la última visita.
+4. Pulsa el botón **Conectar**.
+5. Copia en el campo **Código** el código que ha llegado a tu correo y pulsa el botón **Verificar**. El código caduca a los 5 minutos.
 
-1. &#x20;Pulsa sobre tu nombre arriba a la derecha. Aparecerá un menú.
-2. Selecciona la opción **Mis actividades**.
-3. Aparecerá la página **Mis actividades**. Ahí puedes ver todos los tiques de soporte técnico que has creado para recordar la solución que te dimos a cada uno de ellos.
-4. Puedes añadir más información a un tique haciendo clic sobre él.
-5. En caso de que quieras dar un tique por finalizado porque ya hemos solucionado tu problema, no olvides activar la casilla **Considere esta solicitud como resuelta**.
+Si el código no llega, búscalo en la carpeta de correo no deseado y añade `servidor@digi21.net` a tus contactos. Para pedir otro código, pulsa el botón **Reenviar código**.
 
-## Vídeo
+## Crear un tique
 
-<video controls><source src="https://digi21.blob.core.windows.net/videos-ayuda/Portal%20de%20soporte%20tecnico%20Digi21.mp4" type="video/mp4"></video>
+1. Abre [https://www.digi21.net/Soporte](https://www.digi21.net/Soporte). También puedes abrir el menú **Soporte técnico** de la web y seleccionar **Mis tickets de soporte técnico**.
+2. Pulsa el botón **Crear ticket**.
+3. En **Programa**, selecciona el programa al que se refiere la consulta.
+4. En **Asunto**, resume el problema en una frase.
+5. En **Descripción del problema**, explica qué intentabas hacer, qué esperabas que ocurriera y qué ocurrió. Incluye los mensajes de error, los pasos para reproducir el problema y la versión del programa.
+6. Si tienes archivos relacionados con el problema, arrástralos a la zona **Archivos adjuntos** o haz clic en ella para seleccionarlos. Consulta [Adjuntando archivos a un tique de soporte técnico](/soporte-tecnico/adjuntando-archivos-grandes-soporte-tecnico.md).
+7. Pulsa el botón **Crear ticket**.
 
+Antes de crear el tique, lee las [reglas para crear un tique de soporte técnico](/soporte-tecnico/reglas-soporte-tecnico.md).
+
+Al crear el tique, la web abre la página del tique y envía a tu correo la confirmación _Hemos recibido tu ticket #número_. El soporte técnico de ese programa recibe el tique por correo en ese momento.
+
+## Consultar tus tiques
+
+La página **Mis tickets de soporte técnico** ([https://www.digi21.net/Soporte](https://www.digi21.net/Soporte)) muestra todos los tiques que has creado, con su número, asunto, programa, estado (**Abierto** o **Cerrado**) y fecha de la última actividad.
+
+Haz clic en el asunto de un tique para ver la conversación completa y los archivos adjuntos.
+
+## Responder en un tique
+
+Cuando el soporte técnico responde, recibes un correo con el asunto _[Ticket #número] Respuesta del soporte técnico_ y el texto de la respuesta. El correo incluye un enlace al tique.
+
+Para contestar:
+
+1. Abre el tique desde el enlace del correo o desde la página **Mis tickets de soporte técnico**.
+2. Escribe el mensaje en el cuadro de la sección **Responder**.
+3. Si quieres enviar archivos, arrástralos a la zona de adjuntos de esa sección o haz clic en ella para seleccionarlos.
+4. Pulsa el botón **Enviar respuesta**.
+
+Un mensaje puede llevar solo texto, solo archivos o las dos cosas.
+
+## Compartir el escritorio
+
+Si el soporte técnico necesita ver tu pantalla, te lo pedirá en el tique. Pulsa entonces el botón **Compartir mi escritorio** de la página **Mis tickets de soporte técnico**. El botón descarga el programa con el que el soporte técnico se conecta a tu equipo.
