@@ -10,7 +10,7 @@ Sustituye la lista de códigos activos, igual que la orden [COD](/digi3d-ai/refe
 
 ## Observaciones
 
-La orden está pensada para no ejecutar las órdenes que la tabla de códigos tiene asignadas a la selección del código. En la versión actual sí las ejecuta, igual que [COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md).
+A diferencia de [COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md), la orden no ejecuta las órdenes que la tabla de códigos tiene asignadas a la selección del código: solo cambia los códigos activos y sus atributos.
 
 ## Características de la orden
 
