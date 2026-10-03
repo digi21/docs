@@ -10,7 +10,7 @@ Detecta líneas y polígonos que se unen en un nodo con sentidos de digitalizaci
 
 ## Observaciones
 
-La orden agrupa los extremos de las líneas y polígonos visibles que tengan alguno de los códigos indicados. En cada punto donde coinciden en X e Y extremos de dos o más entidades, la orden crea una tarea de error si dos de esas entidades empiezan en el mismo punto o terminan en el mismo punto.
+La orden agrupa los extremos de las líneas y polígonos visibles, no borrados y dentro de la zona de interés que tengan alguno de los códigos indicados. En cada punto donde coinciden en X e Y extremos de dos o más entidades, la orden crea una tarea de error si dos de esas entidades empiezan en el mismo punto o terminan en el mismo punto.
 
 Los códigos admiten los comodines \* y ?. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
 
