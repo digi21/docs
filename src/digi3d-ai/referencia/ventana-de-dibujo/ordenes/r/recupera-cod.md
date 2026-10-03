@@ -6,20 +6,11 @@ Recupera todas aquellas entidades borradas que tengan un código igual al teclea
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código y tipo de geometría de las entidades a recuperar. Se pueden indicar varios pares «código tipo» para recuperar entidades de distintos códigos a la vez | Si |
+| 1 … N | Código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) de las entidades a recuperar. Se pueden indicar varios pares «código tipo» para recuperar entidades de distintos códigos a la vez | Si |
 
 ## Observaciones
 
-La llamada a la orden se realiza escribiendo RECUPERA\_COD=&lt;código&gt; &lt;tipo de entidad&gt;. El tipo de entidad es obligatorio en cada par y es una combinación de estas letras:
-
-| Tipo de entidad | Descripción |
-| :--- | :--- |
-| l | Líneas |
-| p | Puntos |
-| t | Textos |
-| c | Complejos |
-| h | Polígonos |
-| \* | Todos los tipos |
+La llamada a la orden se realiza escribiendo RECUPERA\_COD=&lt;código&gt; &lt;tipo de entidad&gt;. El tipo de entidad es obligatorio en cada par. En esta orden, `P` incluye los puntos y los complejos puntuales, y `B` no tiene efecto.
 
 Si el código empieza por `#`, la orden utiliza todos los códigos de la tabla de códigos que tienen esa etiqueta.
 

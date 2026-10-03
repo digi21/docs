@@ -6,20 +6,11 @@ Activa códigos en la pantalla fotogramétrica.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Pares de código y tipo de geometría (uno o más), separados por espacios: `ONS_TIPO=020101 L 030201 PT` | Si |
+| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) (uno o más), separados por espacios: `ONS_TIPO=020101 L 030201 PT` | Si |
 
 ## Observaciones
 
-El tipo de geometría es una combinación de las letras siguientes:
-
-| Letra | Tipo de geometría |
-| :--- | :--- |
-| L | Líneas |
-| P | Puntos |
-| T | Textos |
-| C | Complejos |
-| H | Polígonos |
-| \* | Todos los tipos |
+En esta orden, `B` indica los complejos puntuales, no las imágenes, y `P` no incluye los complejos puntuales. `*` no incluye las imágenes, los multipuntos ni el resto de tipos sin letra.
 
 La orden muestra las geometrías del código de los tipos indicados. Las geometrías de los demás tipos conservan su estado. Un código que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
 

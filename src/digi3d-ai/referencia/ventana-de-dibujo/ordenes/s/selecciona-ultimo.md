@@ -8,7 +8,7 @@ Sin parámetros, la orden busca la última entidad de cualquier tipo. Cada pará
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1...n | Tipo de entidad a buscar | `l` líneas, `p` puntos, `t` textos, `h` polígonos, `c` entidades complejas, `b` bitmaps, `o` objetos OLE | Si |
+| 1...n | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) a buscar | `l` líneas, `p` puntos, `t` textos, `h` polígonos, `c` entidades complejas, `b` bitmaps, `o` objetos OLE | Si |
 
 ## Observaciones
 

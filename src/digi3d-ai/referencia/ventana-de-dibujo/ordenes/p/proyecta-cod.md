@@ -6,7 +6,7 @@ Proyecta entidades sobre el MDT cargado en le momento de ejecutarla.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Pares de código y tipo de geometría de las entidades a proyectar | Si |
+| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) de las entidades a proyectar | Si |
 
 ## Observaciones
 
@@ -20,7 +20,7 @@ La llamada a la orden desde la línea de comandos será:
 
 proyecta\_cod=\[código\] \[tipo\] \[código\] \[tipo\] …
 
-El tipo es obligatorio en cada par y es una combinación de estas letras: l=líneas, p=puntos, t=textos, c=complejos, h=polígonos, \*=todo. Si el código empieza por `#`, la orden utiliza todos los códigos de la tabla de códigos que tienen esa etiqueta.
+El tipo es obligatorio en cada par. En esta orden, `P` solo incluye los puntos, no los complejos puntuales, y `B` no tiene efecto. Si el código empieza por `#`, la orden utiliza todos los códigos de la tabla de códigos que tienen esa etiqueta.
 
 ### Ejemplo:
 
