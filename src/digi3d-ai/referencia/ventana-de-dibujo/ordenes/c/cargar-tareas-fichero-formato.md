@@ -19,7 +19,7 @@ La orden muestra un cuadro de diálogo con estos datos:
 | Descripción | Posición de la palabra con la descripción de la tarea | Número entero; la primera palabra es la 0 |
 | Tipo de tarea | Tipo con el que se crean las tareas | Lista |
 
-Las palabras de cada línea se separan por espacios, tabuladores o comas. La orden ignora las líneas que no tienen la palabra de mayor posición indicada.
+Las palabras de cada línea se separan por espacios, tabuladores o comas. La orden ignora las líneas que no tienen la palabra de mayor posición indicada. Si alguna posición es negativa, la orden emite un sonido de error y termina sin leer el fichero.
 
 Estos puntos aparecerán en la lista de tareas facilitando al usuario posicionarse en dichas coordenadas mediante un solo clic. Si la opción de limpiar automáticamente la lista de tareas está activada, la orden borra antes las tareas existentes.
 
