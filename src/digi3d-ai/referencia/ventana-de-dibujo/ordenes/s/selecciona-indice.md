@@ -28,7 +28,7 @@ Al pulsar **Cancelar**, la orden termina sin enviar nada.
 
 ### Errores
 
-La orden emite un sonido de error y no envía nada si no hay ninguna orden en ejecución, si se indica un solo parámetro, si algún índice está fuera de rango o si la entidad no es visible o está fuera de la zona de interés. Si no hay ninguna orden en ejecución, la orden no muestra el cuadro de diálogo.
+La orden emite un sonido de error y no envía nada si no hay ninguna orden en ejecución, si se indica un solo parámetro, si algún índice está fuera de rango o si la entidad no es visible, está fuera de la zona de interés o no tiene vértices. Si no hay ninguna orden en ejecución, la orden no muestra el cuadro de diálogo.
 
 ## Características de la orden
 
