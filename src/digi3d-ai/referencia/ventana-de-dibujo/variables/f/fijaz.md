@@ -14,7 +14,7 @@ Activa o desactiva la opción de fijar el valor de la coordenada Z al múltiplo 
 
 La equidistancia se especifica en el cuadro de diálogo de nuevo proyecto o bien con la orden [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
 
-Al activarse, la orden redondea la Z del cursor al múltiplo de la equidistancia más próximo, desplaza el cursor a esa Z y la bloquea, de forma que no puede ser modificada al variar la altura con el pedal del restituidor. Al desactivarse, la Z queda desbloqueada.
+Al activarse, la orden redondea la Z del cursor al múltiplo de la equidistancia más próximo, desplaza el cursor a esa Z y la bloquea, de forma que no puede ser modificada al variar la altura con el pedal del restituidor. Si la equidistancia no es mayor que 0, no redondea: bloquea la Z actual del cursor. Al desactivarse, la Z queda desbloqueada. Con **?** solo muestra el valor; no mueve el cursor.
 
 Por defecto está desactivada.
 
