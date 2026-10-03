@@ -66,7 +66,6 @@ Configura los parámetros relacionados con la comunicación y la interfaz de usu
 
 * **[Tema](comunicacion-con-el-usuario/tema.md)** — Tema visual del programa.
 * **[Idioma](comunicacion-con-el-usuario/idioma.md)** — Idioma de la interfaz y de los nombres de las órdenes.
-* **[Aplicar configuración regional](comunicacion-con-el-usuario/aplicar-configuracion-regional.md)** — Usa la configuración regional del idioma de la aplicación.
 * **[Configuración para un único monitor](comunicacion-con-el-usuario/configuracion-para-un-unico-monitor.md)** — Abre las ventanas fotogramétricas dentro del marco principal o como aplicación independiente.
 * **[Sonidos](comunicacion-con-el-usuario/sonidos.md)** — Dispositivo con el que se emiten los sonidos.
 * **[Dato](comunicacion-con-el-usuario/dato.md)** — Sonido al pulsar el botón/pedal de Dato.

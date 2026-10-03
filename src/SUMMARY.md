@@ -1589,7 +1589,6 @@
           * [Comunicación con el usuario](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/README.md)
             * [Tema](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/tema.md)
             * [Idioma](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/idioma.md)
-            * [Aplicar configuración regional](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/aplicar-configuracion-regional.md)
             * [Configuración para un único monitor](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/configuracion-para-un-unico-monitor.md)
             * [Sonidos](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/sonidos.md)
             * [Dato](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/dato.md)
