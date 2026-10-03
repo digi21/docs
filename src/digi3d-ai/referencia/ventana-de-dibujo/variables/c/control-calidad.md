@@ -10,7 +10,9 @@ Activa o desactiva el análisis de controles de calidad en tiempo real al finali
 
 ## Observaciones
 
-El análisis se realiza únicamente en las entidades que tengan un código para el cual se ha activado la propiedad **Analizar control de calidad**.
+El análisis se realiza únicamente en las entidades que tengan un código con controles de calidad asignados y para el cual se ha activado la propiedad **Analizar control de calidad al digitalizar**.
+
+Por defecto está activada.
 
 ## Características de la orden
 

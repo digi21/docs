@@ -1,25 +1,26 @@
 # ESC_ACT
 
-Establece el _factor de escala_ de inserción de bloques.
+Establece el _factor de escala_ activo de puntos e inserción de bloques.
 
 ## Parámetros
 
-Esta orden se puede ejecutar con un parámetro o sin parámetros.
+Esta orden se puede ejecutar con parámetros o sin parámetros.
 
-### Con un parámetro
+### Con parámetros
 
 | Número de parámetro | Descripción    | Valores                    | Opcional |
 | ------------------- | -------------- | -------------------------- | -------- |
-| 1                   | Valor numérico | Factor de escala a asignar | Si       |
-|                     |                |                            |          |
+| 1                   | Factor de escala en X, o en X, Y y Z si es el único parámetro | Número real, o **?** para consultar en un globo los tres factores | Si       |
+| 2                   | Factor de escala en Y | Número real. Si se indican dos parámetros, el factor en Z es 1 | Si       |
+| 3                   | Factor de escala en Z | Número real | Si       |
 
 ### Sin parámetros
 
-El programa solicitará en la barra de mensajes que introduzcamos el factor de escala. Podemos introducir un valor con el teclado o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos.
+El programa solicitará en la barra de mensajes que introduzcamos el factor de escala. Podemos introducir un valor con el teclado o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos. El valor se asigna a los tres ejes.
 
 ## Observaciones
 
-Este factor se utiliza en intersecciones de bloques. Por defecto tiene el valor 1.
+Este factor se aplica a los puntos que crean órdenes como [PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md) y a los bloques que se insertan con [INS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins.md). Por defecto tiene el valor 1 en los tres ejes.
 
 ## Ejemplos
 

@@ -1,20 +1,22 @@
 # AUTONUM
 
-Establece como _factor de auto numeración_.
+Establece el _incremento de auto numeración_.
 
 ## Parámetros
 
-Esta orden requiere que se introduzca un parámetro.
-
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | No |
+| 1 | Incremento de auto numeración | Número entero, o **?** para consultar el valor actual en un globo | Si |
+
+Si se ejecuta sin parámetros, la orden muestra un cuadro de diálogo para introducir el valor.
 
 ## Observaciones
 
-Si no se asigna ningún valor de auto numeración, éste tiene por defecto el valor 0.
+El valor por defecto es 0, que desactiva la auto numeración.
 
-Si tenemos un valor distinto de 0 y ejecutamos la orden [TEXTO](../../ordenes/t/texto.md)sin pasarle ningún parámetro, ésta asumirá de manera automática como texto a insertar el valor actual de auto numeración. Una vez digitalizado el texto, auto incrementará automáticamente el valor de esta variable de auto numeración.
+Si tenemos un valor distinto de 0 y ejecutamos la orden [TEXTO](../../ordenes/t/texto.md) sin pasarle ningún parámetro, ésta propone como texto a insertar el último número insertado más el valor de esta variable, con el formato indicado en [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md). Al digitalizar el texto, el programa extrae el número del texto insertado y lo toma como último número insertado. El valor de esta variable no cambia.
+
+La orden [AGREGA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/agrega.md) también utiliza esta variable para proponer el nombre del punto.
 
 ## Ejemplos
 

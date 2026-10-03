@@ -16,13 +16,17 @@ Esta orden se puede ejecutar con un parámetro, con tres parámetros o sin pará
 
 | Número de parámetro | Descripción | Valores admitidos                                         | Opcional |
 | ------------------- | ----------- | --------------------------------------------------------- | -------- |
-| 1                   | Color Rojo  | Número entre 0 y 255 que especifica la cantidad de rojo.  | Si       |
+| 1                   | Color Rojo  | Número entre 0 y 255 que especifica la cantidad de rojo.  | No       |
 | 2                   | Color Verde | Número entre 0 y 255 que especifica la cantidad de verde. | No       |
 | 3                   | Color Azul  | Número entre 0 y 255 que especifica la cantidad de azul.  | No       |
 
 ### Sin parámetros
 
 Si ejecutamos esta orden sin parámetros, esta mostrará el cuadro de diálogo de selección de colores de Windows.
+
+## Observaciones
+
+Los valores negativos se toman en valor absoluto y los mayores de 255 se limitan a 255. Con dos parámetros o con más de tres, la orden emite un sonido de error y no cambia el color.
 
 ## Vídeo
 

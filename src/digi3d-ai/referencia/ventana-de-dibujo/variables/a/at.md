@@ -10,11 +10,15 @@ Esta orden se puede ejecutar con o sin parámetros.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
+| 1 | Valor numérico | Número real, o **?** para consultar el valor actual en un globo | Si |
 
 ### Sin parámetros
 
-Si ejecutamos esta orden sin parámetros, esta solicitará que digitalicemos gráficamente dos puntos. Una vez digitalizado el segundo punto, se asignará el valor de altura de textos como la distancia entre los dos puntos digitalizados.
+Si ejecutamos esta orden sin parámetros, esta solicitará en la barra de estado que tecleemos el valor o que digitalicemos gráficamente dos puntos. Si se digitalizan dos puntos, se asignará el valor de altura de textos como la distancia entre los dos puntos digitalizados.
+
+## Observaciones
+
+El valor por defecto es 1.5.
 
 ## Ejemplos
 
