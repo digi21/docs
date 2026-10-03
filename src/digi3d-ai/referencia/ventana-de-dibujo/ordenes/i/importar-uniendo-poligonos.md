@@ -12,7 +12,7 @@ Importa uno o varios archivos en el archivo de dibujo y une los polígonos impor
 
 * Las entidades importadas que no son polígonos se añaden al archivo de dibujo sin cambios.
 * Para cada polígono importado, la orden agrupa los polígonos importados y los polígonos del archivo de dibujo que tienen los mismos códigos y atributos. Con cada grupo forma una topología y sustituye los polígonos del grupo por los recintos resultantes, con sus huecos.
-* Los parámetros de importación de cada archivo son los que tiene guardados el formato del archivo.
+* Si seleccionas los archivos en el cuadro de diálogo, la orden usa los parámetros de importación elegidos en él. Si indicas el archivo como parámetro, usa los parámetros de importación guardados para el formato del archivo.
 
 ## Características de la orden
 
