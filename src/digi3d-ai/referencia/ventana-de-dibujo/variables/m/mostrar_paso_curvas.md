@@ -6,10 +6,13 @@ Activa o desactiva la visualización, mediante animaciones, de las zonas por don
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Tolerancia | Número real | Si |
-| 2 | Códigos a considerar \(se puede indicar más de uno\) | Lista de códigos | Si |
+| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.| Si |
 
 ## Observaciones
+
+Esta orden no admite el valor **?**. Si el parámetro no es un número, la orden lo interpreta como 0 y desactiva la variable.
+
+La tolerancia y los códigos de las curvas de nivel que se analizan se establecen con la orden [CONFIGURAR\_MOSTRAR\_PASO\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/configurar-mostrar-paso-curvas.md).
 
 Únicamente se mostrarán las zonas de paso si están activas a la vez esta orden y [FIJA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md), ya que las zonas se calculan en función de la _Z activa_.
 

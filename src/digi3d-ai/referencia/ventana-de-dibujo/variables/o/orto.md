@@ -7,7 +7,7 @@ Activa o desactiva la modalidad de orto.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| No |
+| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
 
 
 ## Observaciones
@@ -18,7 +18,7 @@ Si cuando se dibuja está activado, cada segmento que se trace, se fuerza a que 
 
 | Tipo de orden | [Variable booleana](orto.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Ortogonal |
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |

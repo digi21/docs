@@ -7,12 +7,12 @@ Activa y desactiva la visualización en pantalla de los patrones de línea en el
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Repetir |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
 
 
 ## Observaciones
 
-Cuanto está activado, DigiNG utiliza la información de la [tabla de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/) para visualizar las líneas con la simbología de ploteo.
+Cuando está activado, DigiNG utiliza la información de la [tabla de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/) para visualizar las líneas con la simbología de ploteo.
 
 ## Características de la orden
 

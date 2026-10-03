@@ -6,8 +6,7 @@ Establece el _factor de tolerancia angular_ en el proceso de [generalización](t
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
-| 2 | Distancia entre dos puntos | Número real | Si |
+| 1 | Valor numérico. Si no se indica, la barra de estado muestra un cuadro de texto para escribir el valor. | Número real o **?** | Si |
 
 ### Ejemplos
 
@@ -33,10 +32,10 @@ Con **TOL\_ANG** igual a 0 no se elimina ningún vértice que no esté exactamen
 
 | Tipo de orden | [Variable real](tol-ang.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | [TOL](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md) |
 | Nombre interno | {CAF1F0F2-7F03-4a0f-804C-B9E411772E09} |
 

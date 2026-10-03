@@ -10,9 +10,11 @@ Establece el valor del porcentaje de solape de la ventana.
 
 ### Observaciones
 
-Las órdenes que van a utilizar _SOLAPE_ son [ZOOMDER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomder.md).
+Las órdenes que van a utilizar _SOLAPE_ son [ZOOMDER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomder.md), [ZOOMIZQ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomizq.md), [ZOOMSUP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomsup.md) y [ZOOMINF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoominf.md).
 
 Este valor se da en tanto por ciento y su valor por defecto será del 10%.
+
+Si ejecutas la orden sin parámetros, la barra de estado muestra un cuadro de texto para escribir el valor.
 
 ### Ejemplos
 
@@ -32,6 +34,6 @@ Muestra el valor actual del solape
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) |
+| Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {8F0D7669-FD0D-45eb-8387-3877087EFA6F} |
 
