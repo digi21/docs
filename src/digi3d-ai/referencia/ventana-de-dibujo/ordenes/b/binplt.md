@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden recorre las líneas del archivo de dibujo activo. Para cada línea dibuja la simbología del estilo asociado a su primer código con la escala de la variable [ESCALA\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/escala-dibujo.md). Cada trazo de la simbología se añade como una línea nueva con los códigos de la línea original, y la línea original se borra. Las líneas cuyo estilo no genera trazos se quedan como estaban. Los puntos, textos y demás entidades no se modifican.
+La orden recorre las líneas del archivo de dibujo activo. Para cada línea dibuja la simbología del estilo asociado a su primer código con la escala de la variable [ESCALA\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/escala-dibujo.md). Cada trazo de la simbología se añade como una línea nueva con los códigos de la línea original, y la línea original se borra. Las líneas cuyo estilo no genera trazos se quedan como estaban. Los puntos, textos y demás entidades no se modifican. Para convertir en líneas el símbolo de los puntos, utilice la orden [EXPLOTAR\_PUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-puntos.md).
 
 ## Características de la orden
 
