@@ -22,4 +22,5 @@ Al ejecutar la orden aparecerá un globo en la parte inferior derecha informando
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 

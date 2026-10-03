@@ -19,6 +19,7 @@ Si te encuentras fuera del modelo o quieres ir rápidamente al punto origen del 
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [IR\_A\_PUNTO\_APOYO](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/i/ir-a-punto-apoyo.md) |
 
 
 

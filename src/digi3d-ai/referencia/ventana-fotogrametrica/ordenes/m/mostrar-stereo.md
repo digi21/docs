@@ -20,4 +20,5 @@ Activar/desactiva tanto la imagen raster cómo la superposición.
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 

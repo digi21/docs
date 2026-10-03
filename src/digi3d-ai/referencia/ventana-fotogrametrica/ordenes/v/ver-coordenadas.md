@@ -22,4 +22,5 @@ Muestra coordenadas en la barra de mensajes de la pantalla estereoscópica.
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 

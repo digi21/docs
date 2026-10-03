@@ -24,4 +24,5 @@ El resultado de estas medidas de Aerotriangulación serán unos archivos en form
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | No tiene órdenes relacionadas |
 

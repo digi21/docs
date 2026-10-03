@@ -19,4 +19,5 @@ Esta orden no modifica las coordenadas, hace un zoom extendido pero en las coord
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [REST\_ZOOM\_IN](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoomin.md)<br>[REST\_ZOOM\_OUT](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoomout.md)<br>[REST\_ZOOM1X1](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rest-zoom-1-x-1.md)<br>[ZOOM\_MEMORIA](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/z/zoom_memoria.md) |
 

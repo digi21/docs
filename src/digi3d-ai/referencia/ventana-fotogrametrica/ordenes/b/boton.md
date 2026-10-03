@@ -29,4 +29,5 @@ Puedes averiguar el número correspondiente a cada botón en el archivo **pedale
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [TECLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tecla.md) |
 

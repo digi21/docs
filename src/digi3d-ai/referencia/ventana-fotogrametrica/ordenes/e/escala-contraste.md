@@ -21,4 +21,5 @@ La orden permite escalar el contraste a imágenes de 9, 10, 11, 12, 13, 14 o 15 
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [CAMBIA\_BRILLO](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-brillo.md)<br>[CAMBIA\_CONTRASTE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-contraste.md) |
 

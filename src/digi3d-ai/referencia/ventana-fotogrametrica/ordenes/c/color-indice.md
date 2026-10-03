@@ -27,4 +27,5 @@ Puedes ejecutar esta orden desde la línea de comandos, especificando las compon
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [CAMBIA\_BRILLO\_ÍNDICE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/cambia-brillo-indice.md) |
 

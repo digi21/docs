@@ -38,4 +38,5 @@ Establece la velocidad de XY a 5.75 y la de Z a 4.22
 | Barra de herramientas en la que aparece la orden |  |
 | Extensión |  |
 | Variables relacionadas |  |
+| Órdenes relacionadas | [ESCALAR\_VELOCIDAD](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/e/escalar-velocidad.md)<br>[VELOCIDAD\_MAS\_XY](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad-mas-xy.md)<br>[VELOCIDAD\_MAS\_Z](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad-mas-z.md)<br>[VELOCIDAD\_MENOS\_XY](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad-menos-xy.md)<br>[VELOCIDAD\_MENOS\_Z](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad-menos-z.md) |
 
