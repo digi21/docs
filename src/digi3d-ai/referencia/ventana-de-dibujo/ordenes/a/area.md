@@ -11,7 +11,7 @@ No admite parámetros.
 * Si devuelve un valor positivo, indica que los elementos de la entidad cerrada han sido creados en el sentido de las agujas del reloj.
 * Si devuelve un valor negativo, indica que los elementos de la entidad cerrada han sido creados en el sentido contrario al del avance de las agujas del reloj.
 
-Una vez ejecutada la orden, el programa pedirá seleccionar la entidad cerrada a la cual se quiere rotular con el área. La orden solo acepta líneas y polígonos. Si la línea no está cerrada, la orden calcula el área cerrándola entre el último y el primer vértice. En un polígono, la orden resta el área de los huecos.
+Una vez ejecutada la orden, el programa pedirá seleccionar la entidad cerrada a la cual se quiere rotular con el área. La orden solo acepta líneas y polígonos. Si la línea no está cerrada, la orden calcula el área cerrándola entre el último y el primer vértice. En un polígono, la orden resta el área de los huecos, sea cual sea su sentido de giro; el signo del resultado es el del contorno exterior.
 
 A continuación aparece en la Barra de Estado el sufijo para el área. Este sufijo es opcional, por defecto aparece la cadena m2. El usuario puede introducir el texto que desee y una vez que el usuario está de acuerdo con el sufijo, deberá dar el punto de destino para ubicar el texto del área.
 
