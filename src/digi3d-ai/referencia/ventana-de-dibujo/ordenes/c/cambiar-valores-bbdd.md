@@ -12,6 +12,8 @@ La orden muestra un cuadro de diálogo para seleccionar los códigos y, debajo, 
 
 La orden recorre las entidades visibles, no borradas y dentro de la zona de interés del archivo de dibujo activo. En cada código de esas entidades que coincide con uno de los seleccionados, sustituye el valor del campo por el valor nuevo si el valor actual es igual al valor antiguo. Con la casilla de cualquier valor, sustituye el valor sea cual sea. Con la casilla de identificador único, asigna a cada código un GUID nuevo en lugar del valor nuevo.
 
+Con la casilla de valor antiguo nulo, solo cambia los códigos en los que el campo está vacío (nulo). Con la casilla de valor nuevo nulo, deja el campo vacío en lugar de asignar el valor nuevo o el GUID.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](cambiar-valores-bbdd.md) |
