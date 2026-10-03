@@ -4,7 +4,15 @@ Paraliza una o varias de las múltiples vistas estereoscópicas que tenga abiert
 
 ## Parámetros
 
-No admite parámetros.
+| Parámetro | Comportamiento de la orden |
+| :--- | :--- |
+| Sin parámetro | Alterna: paraliza la vista si no lo está y la libera si lo está |
+| 0 | Libera la vista |
+| Distinto de 0 | Paraliza la vista |
+
+### Ejemplo:
+
+`PARALIZAR=1`
 
 ## Observaciones
 

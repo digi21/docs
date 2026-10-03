@@ -4,19 +4,25 @@ Permite cambiar el color de los índices en la pantalla estereoscópica.
 
 ## Parámetros
 
-Esta orden no admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Componente roja del color, de 0 a 255 | Sí |
+| 2 | Componente verde del color, de 0 a 255 | Sí |
+| 3 | Componente azul del color, de 0 a 255 | Sí |
 
-## Observaciones
-
-Al ejecutar la orden aparecerá la siguiente ventana en la cual el usuario podrá seleccionar el color:
-
-![](../../../../../images/color_indice.jpg)
-
-Puedes ejecutar esta orden desde la línea de comandos, especificando las componentes del color RGB.
+Sin parámetros, la orden muestra el cuadro de diálogo de selección de color. Con los tres parámetros, la orden asigna ese color a los dos índices sin mostrar el cuadro de diálogo. Con uno o dos parámetros, la orden no cambia el color y suena la música de error.
 
 ### Ejemplo
 
 `COLOR_INDICE=0 255 0`
+
+## Observaciones
+
+Al ejecutar la orden sin parámetros aparecerá la siguiente ventana en la cual el usuario podrá seleccionar el color:
+
+![](../../../../../images/color_indice.jpg)
+
+El color elegido se aplica a los dos índices.
 
 ## Características de la orden
 

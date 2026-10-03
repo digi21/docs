@@ -1,13 +1,19 @@
-# VER\_PUNTOS
+# VER\_MARCAS
 
-Activa o desactiva la visualización de los puntos medidos en cada foto.
+Elige qué puntos medidos se muestran sobre cada imagen de la ventana fotogramétrica.
 
 ## Parámetros
 
 | Parámetro | Comportamiento de la orden |
 | :--- | :--- |
-| 0 | Desactiva la visualización |
-| 1 | Activa la visualización |
+| Sin parámetro | Pasa al siguiente valor del ciclo 0, 1, 2 y vuelve a 0 |
+| 0 | No muestra los puntos medidos |
+| 1 | Muestra todos los puntos medidos |
+| 2 | Muestra solo los puntos comunes: los que tienen una marca con la misma descripción en las dos imágenes |
+
+### Ejemplo:
+
+`VER_MARCAS=2`
 
 ## Características de la orden
 

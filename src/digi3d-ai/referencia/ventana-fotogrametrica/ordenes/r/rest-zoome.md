@@ -8,7 +8,12 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden no modifica las coordenadas, hace un zoom extendido pero en las coordenadas actuales.
+La orden elige el factor de zoom con el que la imagen izquierda completa cabe en su vista.
+
+Lo que hace con las coordenadas depende de la opción [Zoom extendido](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ordenes-comunes-de-digi3d/zoom-extendido.md) del cuadro de diálogo de configuración:
+
+* **Cambia el factor de zoom y desplaza el equipo al centro del modelo**, el valor por defecto: la orden mueve el cursor al origen del modelo y después cambia el factor de zoom.
+* **Cambia el factor de zoom sin desplazar el equipo al centro del modelo**: la orden cambia el factor de zoom sin mover el cursor.
 
 ## Características de la orden
 

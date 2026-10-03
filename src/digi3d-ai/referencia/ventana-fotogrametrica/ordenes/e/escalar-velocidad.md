@@ -1,14 +1,24 @@
 # ESCALAR\_VELOCIDAD
 
-Permite que se haga un escalado de la velocidad de las manivelas en función del zoom de visualización.
+Activa o desactiva el escalado de la velocidad de las manivelas en función del zoom de visualización.
 
 ## Parámetros
 
-Esta orden no admite parámetros.
+| Parámetro | Comportamiento de la orden |
+| :--- | :--- |
+| Sin parámetro | Alterna: activa el escalado si está desactivado y lo desactiva si está activado |
+| 0 | Desactiva el escalado |
+| Distinto de 0 | Activa el escalado |
+
+### Ejemplo:
+
+`ESCALAR_VELOCIDAD=0`
 
 ## Observaciones
 
-Esta opción ha estado activada siempre por defecto, pero se han detectado casos \(equipos con manivelas de pocos pulsos\) en los que al dibujar en modo continuo con zooms alejados las líneas se almacenaban "escalonadas" debido a la poca precisión del codificador. Activando este flag, el equipo se mueve a la misma velocidad independientemente del factor de zoom, por lo que desaparece ese efecto de escalonado en las líneas.
+Con el escalado activado, el desplazamiento que produce cada pulso de las manivelas se divide por el factor de zoom: el cursor se mueve en pantalla a la misma velocidad con cualquier zoom. Con el escalado desactivado, cada pulso desplaza siempre la misma distancia en el modelo, sea cual sea el zoom.
+
+El escalado está activado por defecto en cada ventana fotogramétrica que se abre. Se han detectado casos \(equipos con manivelas de pocos pulsos\) en los que al dibujar en modo continuo con zooms alejados las líneas se almacenaban "escalonadas" debido a la poca precisión del codificador. Desactivando el escalado desaparece ese efecto de escalonado en las líneas.
 
 ## Características de la orden
 
