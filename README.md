@@ -39,6 +39,6 @@ la ayuda de la web se actualiza a partir de él. Por eso el repositorio es la re
 es editar la ayuda real.
 
 > Nota histórica: antes la ayuda se compilaba con mdBook y se publicaba en la rama `gh-pages`
-> (`ayuda.digi21.net`). Ese sistema ya no se usa; ahora la gestiona y sirve www.digi21.net.
+> en un dominio propio. Ese sistema ya no se usa; ahora la gestiona y sirve www.digi21.net.
 
 ¡Gracias por ayudarnos a mejorar la documentación de Digi21! 🙌

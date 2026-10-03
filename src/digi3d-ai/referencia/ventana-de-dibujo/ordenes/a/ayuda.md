@@ -1,6 +1,6 @@
 # AYUDA
 
-Abre la ayuda de Digi3D.NET.
+Abre la ayuda de Digi3D.AI.
 
 ## Parámetros
 
@@ -8,7 +8,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden abre en el navegador predeterminado la página principal de la ayuda en línea (`https://ayuda.digi21.net/digi3d-net/index.html`). No abre la página de la orden que se esté ejecutando. La orden no interrumpe la orden activa.
+La orden abre en el navegador predeterminado la página de esta ayuda de la orden que se está ejecutando. Si no hay ninguna orden en curso, o si la orden no tiene página, abre la portada de la ayuda de Digi3D.AI (`https://www.digi21.net/Ayuda/digi3d-ai`). La orden no interrumpe la orden activa.
 
 ## Características de la orden
 
