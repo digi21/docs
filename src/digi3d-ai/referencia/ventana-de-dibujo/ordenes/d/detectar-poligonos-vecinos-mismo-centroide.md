@@ -8,6 +8,12 @@ Marca como error aquellos polígonos que son vecinos y que tienen el mismo centr
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
 
+## Observaciones
+
+Si no hay ninguna topología cargada, la orden muestra un mensaje de error y termina. Si no indicas el parámetro o la topología no existe, la orden emite un sonido de error y termina.
+
+Dos polígonos válidos de la topología se consideran vecinos cuando comparten al menos un tramo. La orden crea una tarea de error por cada pareja de vecinos cuyos centroides tienen el mismo texto, los mismos códigos y los mismos atributos. La tarea señala los tramos compartidos.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-poligonos-vecinos-mismo-centroide.md) |

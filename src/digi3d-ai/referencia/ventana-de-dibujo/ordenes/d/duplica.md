@@ -4,11 +4,17 @@ Duplica una entidad respetando su código.
 
 ## Parámetros
 
-Esta orden no admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 y siguientes | Tipos de entidad que se pueden seleccionar, una letra por parámetro: `L` líneas, `P` puntos, `T` textos, `H` polígonos, `B` imágenes, `C` líneas y puntos, `*` líneas, puntos, textos e imágenes | Si |
 
 ## Observaciones
 
 La orden sólo requiere que selecciones la entidad. El nuevo elemento creado se superpone espacialmente al existente, con sus mismas características geométricas, de posición y de código.
+
+Sin parámetros, la orden permite seleccionar líneas, puntos y textos.
+
+La orden termina después de duplicar la entidad seleccionada. Si seleccionas varias entidades a la vez mediante una selección múltiple, la orden duplica todas ellas.
 
 ## Características de la orden
 

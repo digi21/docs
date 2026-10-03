@@ -8,6 +8,12 @@ Analiza líneas y detecta ZigZags en sus vértices.
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+## Observaciones
+
+Un zigzag es un vértice en el que el vértice anterior y el siguiente tienen las mismas coordenadas X, Y y Z: la línea vuelve sobre sí misma.
+
+La orden analiza las líneas visibles que tengan alguno de los códigos indicados, o todas las líneas visibles si no indicas ningún código. Por cada línea con zigzags crea una tarea de error situada en el primer vértice donde se produce.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-zigzag.md) |

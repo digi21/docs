@@ -8,6 +8,16 @@ Detecta cruces entre líneas y marca como error aquellas cuya diferencia en Z su
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+## Observaciones
+
+Al ejecutarse, la orden muestra un cuadro de diálogo que solicita la tolerancia en Z, en unidades del sistema de referencia \(valor por defecto 1.0\). Si dejas el valor vacío o cancelas el cuadro de diálogo, la orden termina.
+
+La orden crea una tarea de error por cada cruce en el que la diferencia de Z entre las dos líneas, interpolada en el punto de cruce, sea mayor que la tolerancia.
+
+La orden analiza las líneas y polígonos \(incluidos sus huecos\) visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados. Los códigos admiten los comodines \* y ?. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
+
+Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las entidades seleccionadas.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](detectar-cruce-lineas-z.md) |

@@ -1,10 +1,20 @@
 # DEJAR
 
-Desactiva los ficheros de referencia que se encuentren unidos al fichero de trabajo.
+Descarga los ficheros de referencia que se encuentren unidos al fichero de trabajo.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Ruta del archivo de referencia a descargar | Si |
+
+## Observaciones
+
+Si no hay ningún archivo de referencia cargado, la orden muestra un mensaje de error y termina.
+
+Si indicas el parámetro, la orden descarga ese archivo de referencia sin mostrar ningún cuadro de diálogo. Si la ruta contiene espacios, escríbela entre comillas dobles.
+
+Sin parámetro, si solo hay un archivo de referencia cargado, la orden lo descarga directamente. Si hay varios, la orden muestra un cuadro de diálogo para seleccionar los archivos a descargar.
 
 ## Características de la orden
 

@@ -4,13 +4,17 @@ Desplaza entidades del archivo de dibujo distancias definidas por el usuario med
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Desplazamiento en X, en unidades del sistema de referencia | No |
+| 2 | Desplazamiento en Y, en unidades del sistema de referencia | No |
+| 3 | Desplazamiento en Z, en unidades del sistema de referencia | No |
 
 ## Observaciones
 
-La orden funciona únicamente cuando se le pasan directamente los desplazamientos en la línea de comandos.
+La orden funciona únicamente cuando se le pasan directamente los desplazamientos en la línea de comandos. Sin parámetros, muestra un mensaje de error y termina.
 
-Una vez ejecutada la orden, permite la selección de múltiples elementos hasta que se pulse Esc.
+Una vez ejecutada la orden, cada pulsación del pedal de registro o del tentativo selecciona una entidad y la desplaza. La orden sigue activa hasta que pulses Esc. Si seleccionas varias entidades a la vez mediante una selección múltiple, la orden desplaza las del modelo actual y termina.
 
 ### Ejemplo:
 

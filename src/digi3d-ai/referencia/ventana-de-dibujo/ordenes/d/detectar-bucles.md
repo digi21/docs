@@ -6,9 +6,13 @@ Detecta bucles \(o auto intersecciones\) en entidades de tipo Línea y Polígono
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| Código | Código de las entidades a analizar. Se pueden utilizar comodines como \* y ? y además se pueden especificar todos los códigos que tengan una etiqueta anteponiendo una almohadilla \(\#\) al nombre de la etiqueta, como por ejemplo \#vías\_de\_comunicación |
+| Código | Código o códigos de las entidades a analizar \(opcional\). Cada código se compara de forma exacta: no admite comodines. Se pueden especificar todos los códigos que tengan una etiqueta anteponiendo una almohadilla \(\#\) al nombre de la etiqueta, como por ejemplo \#vías\_de\_comunicación |
 
 ## Observaciones
+
+La orden analiza las líneas y polígonos \(incluidos sus huecos\) visibles y dentro de la zona de interés. En una línea cerrada no se marca como error el cierre en el primer vértice.
+
+Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las entidades seleccionadas.
 
 Si se detectan auto intersecciones, se añadirán entradas en el [Panel Tareas](/digi3d-ai/referencia/paneles/tareas.md). Se añadirá una entrada que al hacer doble clic muestra la geometría completa y ésta tendrá tantas sub-entradas como auto intersecciones se localicen. Al hacer doble clic en cada una de estas sub-entradas el programa centrará la ventana de dibujo en las coordenadas en las que se ha detectado la auto intersección.
 
