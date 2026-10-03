@@ -44,11 +44,11 @@ La orden recorre solo los modos 0 a 12: después del modo 12 vuelve al modo 0. S
 
 ### Características de la orden
 
-| Tipo de orden | Orden inmediata |
+| Tipo de orden | [Orden inmediata](camb-modob.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
-| Barra de herramientas en la que aparece la orden | Tentativo |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md) — modo de búsqueda |
 | Órdenes relacionadas | [AUTOMODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob.md)<br>[AUTOMODOB\_EXHAUSTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob-exhaustivo.md)<br>[PARAMETROS\_AUTO\_MODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-auto-modob.md) |
