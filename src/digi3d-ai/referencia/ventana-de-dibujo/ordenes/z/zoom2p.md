@@ -12,6 +12,8 @@ El usuario deberá pinchar primero el punto para "agarrar" el dibujo en esa posi
 
 Mientras la orden está en curso, la variable [AUTO\_RATON](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/auto-raton.md) está desactivada; al terminar, la orden restaura su valor anterior.
 
+Al soltar el botón, [ZOOM\_ANTERIOR](zoom-anterior.md) puede devolver la vista a la posición que tenía al pulsarlo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](zoom2p.md) |
