@@ -1,6 +1,6 @@
 # ANULA\_ORDENES
 
-Deja de ejecutar la orden que se está ejecutando en ese momento.
+Deja de ejecutar la orden que se está ejecutando en ese momento y las órdenes que esta haya interrumpido.
 
 ## Parámetros
 
@@ -12,9 +12,9 @@ Si por ejemplo se está dibujando una línea con la orden [LINEA](/digi3d-ai/ref
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](anula-ordenes.md) |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -8,9 +8,18 @@ Agrupa todas las entidades duplicadas en una única entidad por código.
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+## Observaciones
+
+Dos entidades son duplicadas si son del mismo tipo (línea, punto o texto), tienen el mismo número de vértices y las mismas coordenadas X e Y en cada vértice, en el mismo sentido o en sentido inverso. La orden no compara la Z. Solo analiza entidades visibles y dentro de la zona de interés.
+
+Por cada grupo de entidades duplicadas, la orden borra todas las entidades del grupo y añade una copia de una de ellas con los códigos de todas. Si el registro no permite geometrías con códigos repetidos, los códigos repetidos se añaden una sola vez.
+
+* Si se pasan códigos como parámetro, la orden es inmediata: analiza las entidades del archivo de dibujo que tienen visible alguno de esos códigos. La entidad que se conserva es la que tiene el código que aparece antes en la lista de parámetros.
+* Si no se pasan parámetros, la orden es interactiva: solicita una [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) y analiza las entidades seleccionadas. La entidad que se conserva es la primera del grupo.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](agrupar-entidades-duplicadas.md) |
+| Tipo de orden | [Orden inmediata](agrupar-entidades-duplicadas.md) si se pasan parámetros; [orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) si no se pasan |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

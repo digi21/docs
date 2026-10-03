@@ -6,9 +6,13 @@ Añade los códigos de la lista de códigos activos a una entidad seleccionada.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md). Solo modifica las entidades del modelo actual y no añade a una entidad los códigos que ya tiene. En la selección múltiple, la orden escribe en el panel de resultados el número de entidades recibidas y el de procesadas.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](anadir-codigos.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Añadir los códigos activos a las entidades seleccionadas |

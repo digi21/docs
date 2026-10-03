@@ -1,12 +1,18 @@
 # ASIGNAR\_Z\_CENTROIDE
 
-Asigna la Z del centroide a las líneas que forman cada polígono de las topologías cargadas.
+Asigna la Z del centroide a las líneas que forman cada polígono de las topologías indicadas.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Nombres de las topologías a incluir | — | Si |
+| 1 | Nombres de las topologías a incluir | Uno o más nombres de topologías cargadas, separados por espacios | Si |
+
+## Observaciones
+
+La orden necesita al menos una topología cargada; si no la hay, muestra un mensaje de error y termina. La orden ignora los nombres que no corresponden a ninguna topología cargada. Si no se pasa ningún nombre, la orden no modifica ninguna línea. La opción de menú ejecuta la orden una vez por cada topología cargada.
+
+Para cada polígono con centroide de la topología del archivo de dibujo activo, la orden asigna a todos los vértices de las líneas del contorno exterior la Z del centroide. No modifica las líneas de los huecos.
 
 ## Características de la orden
 

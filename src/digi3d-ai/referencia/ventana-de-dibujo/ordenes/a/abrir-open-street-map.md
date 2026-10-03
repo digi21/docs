@@ -1,14 +1,18 @@
 # ABRIR\_OPEN\_STREET\_MAP
 
-Abre una ventana de Open Street Map en las coordenadas donde está el cursor en la ventana de dibujo.
+Solicita un punto y abre una ventana de Open Street Map en las coordenadas donde está el cursor al introducir ese punto.
 
 ## Parámetros
 
 No admite parámetros.
 
+## Observaciones
+
+La orden transforma las coordenadas X e Y del cursor del sistema de referencia de coordenadas del archivo de dibujo a WGS84 (EPSG:4326) y abre Open Street Map en el navegador predeterminado con nivel de zoom 19. Si hay varias transformaciones posibles, muestra un cuadro de diálogo para elegir una.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](abrir-open-street-map.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Abrir una ventana de OpenStreetMap en la posición actual... |

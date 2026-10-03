@@ -9,9 +9,17 @@ Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia 
 | 1 | Código | No |
 | 2 | Nombre del campo | No |
 
+## Observaciones
+
+La orden asigna el valor al campo en la lista de atributos activos del código, igual que [ASIGNA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asigna-atributo.md). No modifica ninguna entidad existente.
+
+Mientras mueves el cursor después del primer punto, la orden muestra el valor en la barra de mensajes. El valor almacenado es la distancia 3D entre los dos puntos, con el número de decimales de la ventana de dibujo.
+
+Si no se pasa ningún parámetro, la orden emite un sonido de error y termina.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](asignar-distancia-atributo.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

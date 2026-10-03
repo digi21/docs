@@ -6,6 +6,12 @@ Agrupa todas las entidades visibles duplicadas en una única entidad.
 
 No admite parámetros.
 
+## Observaciones
+
+Dos entidades son duplicadas si son del mismo tipo (línea, punto o texto), tienen el mismo número de vértices y las mismas coordenadas X e Y en cada vértice, en el mismo sentido o en sentido inverso. La orden no compara la Z. Solo analiza entidades del archivo de dibujo visibles y dentro de la zona de interés.
+
+Por cada grupo de entidades duplicadas, la orden borra todas las entidades del grupo y añade una copia de la primera con los códigos de todas. Si el registro no permite geometrías con códigos repetidos, los códigos repetidos se añaden una sola vez.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](agrupar-entidades-visibles-duplicadas.md) |
