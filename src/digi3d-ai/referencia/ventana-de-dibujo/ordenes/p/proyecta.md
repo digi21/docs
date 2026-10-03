@@ -6,6 +6,12 @@ Proyecta la/s geometría/a seleccionada/s.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden proyecta sobre los MDT cargados las entidades que selecciones, de cualquier tipo. Admite selección simple y selección múltiple. Cada vértice toma la Z del primer MDT que lo contiene; los vértices fuera de todos los MDT conservan su Z.
+
+La orden sigue activa después de cada selección. Si no hay ningún MDT cargado, la orden muestra un aviso y termina.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](proyecta.md) |

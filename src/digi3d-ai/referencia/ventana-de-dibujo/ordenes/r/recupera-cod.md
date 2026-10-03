@@ -10,17 +10,22 @@ Recupera todas aquellas entidades borradas que tengan un código igual al teclea
 
 ## Observaciones
 
-La llamada a la orden se realiza escribiendo RECUPERA\_COD=&lt;código&gt;&lt;tipo de entidad&gt;, donde el tipo de entidad puede ser:
+La llamada a la orden se realiza escribiendo RECUPERA\_COD=&lt;código&gt; &lt;tipo de entidad&gt;. El tipo de entidad es obligatorio en cada par y es una combinación de estas letras:
 
 | Tipo de entidad | Descripción |
 | :--- | :--- |
-| c | Entidades gráficas \(puntos y líneas\) |
-| l | Sólo entidades lineales |
-| p | Sólo entidades puntuales |
-| t | Sólo textos |
-| b | Para bitmaps \(fotos\) |
-| o | Para objetos OLE |
-| \* | Para todos los tipos |
+| l | Líneas |
+| p | Puntos |
+| t | Textos |
+| c | Complejos |
+| h | Polígonos |
+| \* | Todos los tipos |
+
+Si el código empieza por `#`, la orden utiliza todos los códigos de la tabla de códigos que tienen esa etiqueta.
+
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos y recupera las entidades de cualquier tipo con esos códigos.
+
+La orden solo trata las entidades visibles y dentro de la zona de interés. Si una entidad borrada tiene el código indicado y otros más, la orden no recupera la entidad original: crea una copia con solo el código indicado.
 
 La eliminación real de las entidades borradas se produce al ejecutar la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md), a partir de ese momento, los registros correspondientes a estas entidades desaparecen del fichero, por lo tanto, no se podrá recuperar níngún código borrado una vez comprimido el fichero.
 
@@ -28,7 +33,7 @@ La eliminación real de las entidades borradas se produce al ejecutar la orden [
 
 | Tipo de orden | [Orden inmediata](recupera-cod.md) |
 | :--- | :--- |
-| Repite automáticamente | Yes |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Mas/Recuperar entidades por código |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |

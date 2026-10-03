@@ -1,13 +1,19 @@
 # PROYECTA\_PUNTOS\_TOPOLOGIA
 
-Proyecta los puntos que forman parte de una topología.
+Proyecta sobre los MDT cargados las entidades que forman los recintos de una topología.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Nombre de la topología | No |
-| 2 | Código o códigos (uno o más) | Si |
+| 2 … N | Código o códigos (uno o más) de las entidades a proyectar | No |
+
+## Observaciones
+
+La orden recorre los recintos válidos de la topología indicada en el archivo de dibujo activo. Cada entidad que forma un recinto y tiene alguno de los códigos indicados se proyecta una sola vez: cada vértice toma la Z del primer MDT que lo contiene, y los vértices fuera de todos los MDT conservan su Z.
+
+La orden muestra un aviso y termina si faltan parámetros, si no hay ningún MDT cargado, si no hay ninguna topología cargada o si la topología indicada no existe.
 
 ## Características de la orden
 

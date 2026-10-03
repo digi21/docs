@@ -6,6 +6,14 @@ Renombra códigos por recinto topológico.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden necesita al menos una topología cargada; si no la hay, muestra un aviso y termina.
+
+La orden muestra un cuadro de diálogo en el que seleccionas los códigos de centroide, el código A \(código que se renombra\), el código B \(código nuevo\) y el tipo de inclusión.
+
+Para cada recinto de las topologías cargadas cuyo centroide tiene alguno de los códigos seleccionados, la orden recorta por el contorno del recinto las líneas del archivo de dibujo activo que tienen el código A. En los trozos interiores y en las líneas completamente interiores sustituye el código A por el código B; los trozos exteriores conservan el código A.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](renomcod-r.md) |

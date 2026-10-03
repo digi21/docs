@@ -6,8 +6,16 @@ Cambia el código correspondiente otro código a las entidades seleccionadas.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código origen | No |
-| 2 | Código destino | No |
+| 1 | Código origen | Si |
+| 2 | Código destino | Si |
+
+## Observaciones
+
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para introducir el código origen y el código destino. Indica los dos parámetros o ninguno.
+
+La orden admite selección simple y selección múltiple. En cada entidad seleccionada del modelo actual que tiene el código origen, la orden sustituye ese código por el código destino. El código destino admite los comodines `*` y `?`, que conservan los caracteres correspondientes del código origen.
+
+La orden solo repite automáticamente cuando indicas los parámetros.
 
 ## Características de la orden
 

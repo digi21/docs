@@ -16,9 +16,9 @@ Esto tiene utilidad en caso de haber realizado alguna modificación en el esquem
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](r-texto.md)                                              |
+| Tipo de orden                                    | [Orden interactiva](reescribe.md)                                            |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
-| Repite automáticamente                           | No                                                                           |
+| Repite automáticamente                           | Si                                                                           |
 | Opción del menú donde aparece la orden           | Editar/Reescribe geometrías seleccionadas                                    |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |

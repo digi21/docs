@@ -1,16 +1,23 @@
 # PONER\_COD\_RECINTO\_CENTROIDE
 
-Asigna a las líneas que forman el recinto topológico sobre el que se hace clic el código de recinto y, además, inserta en esas coordenadas un centroide (un texto) con el código de centroide.
+Añade el código de recinto a las entidades que forman el contorno de los recintos topológicos seleccionados y, además, inserta en el centroide del recinto un texto con el código de centroide.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Ordenar de forma inversa | 0 = No<br>1 = Sí | Si |
+| 1 | Código de recinto | Código que se añade a las entidades del contorno | No |
+| 2 | Código de centroide | Código del texto que se inserta en el centroide | No |
 
 ## Observaciones
 
 Requiere que exista una topología por inundación (topología temporal); en caso contrario, la orden no se ejecuta.
+
+Al ejecutarse, la orden establece el código de centroide como código activo.
+
+La selección de recintos funciona igual que en la orden [PONER\_ATR\_R](poner-atr-r.md): botón de datos para seleccionar, Ctrl para añadir o quitar recintos, tentativo para pasar al siguiente recinto, reset para deseleccionar y Esc para cancelar. Pulsa la barra espaciadora para aceptar la selección.
+
+Al aceptar, la orden añade el código de recinto a cada entidad del contorno exterior de los recintos seleccionados e inserta un texto en el centroide del primer recinto seleccionado. El texto tiene como contenido y código el código de centroide, y la altura, justificación y rotación de las variables [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 
 ## Características de la orden
 

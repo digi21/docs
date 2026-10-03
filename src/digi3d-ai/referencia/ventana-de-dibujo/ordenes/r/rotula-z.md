@@ -6,20 +6,19 @@ Rotula un punto o varios puntos con su Z correspondiente.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Altura de texto \([AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) | Número real | Si |
-| 2 | Justificación de texto \([JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) | Número real | Si |
-| 3 | Número de decimales \([NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) | Número real | Si |
-| 4 | Código texto \([COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) | Identificador del código | Si |
-| 5 | Distancia activa \([DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) | Número real | Si |
-| 6 | Código línea a rotular | Identificador del código | Si |
+| 1 … N | Código o códigos de los puntos a rotular | Identificador del código | Si |
 
 ## Observaciones
 
-Tienes que conocer el código de los puntos y los valores de la distancia activa principal y la secundaria, que será dónde se colocará el valor de la cota Z.
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos.
+
+La orden crea un texto con la Z de cada punto visible, dentro de la zona de interés, que tiene alguno de los códigos. El texto se sitúa en el punto desplazado en X el valor de la [distancia activa](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) principal y en Y el valor de la distancia activa secundaria \(DA2\). Si DA2 no tiene valor, la orden utiliza DA también en Y.
+
+El texto tiene la altura, la justificación y la rotación de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), el número de decimales de [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) y el código activo.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](rotula-z.md) |
+| Tipo de orden | [Orden inmediata](rotula-z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Rotula Z de puntos por código... |

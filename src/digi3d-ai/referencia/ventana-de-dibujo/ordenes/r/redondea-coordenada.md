@@ -1,6 +1,6 @@
 # REDONDEA\_COORDENADA
 
-Pasamos un valor de coordenada y un sigma, como por ejemplo 20 1e-5 y redondes
+Sustituye por un valor dado las coordenadas X o Y de los vértices de las líneas seleccionadas que difieren de ese valor como máximo una tolerancia.
 
 ## Parámetros
 
@@ -8,6 +8,16 @@ Pasamos un valor de coordenada y un sigma, como por ejemplo 20 1e-5 y redondes
 | :--- | :--- | :--- |
 | 1 | Valor | No |
 | 2 | Sigma (tolerancia) | No |
+
+## Observaciones
+
+Si faltan parámetros, la orden emite un sonido de error y termina.
+
+Para cada vértice de la línea seleccionada, si la diferencia en valor absoluto entre la X y el valor es menor o igual que la tolerancia, la X toma el valor. La Y se trata del mismo modo. La Z no cambia.
+
+Por ejemplo, `REDONDEA_COORDENADA=20 1e-5` convierte una X de 20,000004 en 20.
+
+La orden admite selección simple y selección múltiple, y solo modifica líneas del modelo actual.
 
 ## Características de la orden
 

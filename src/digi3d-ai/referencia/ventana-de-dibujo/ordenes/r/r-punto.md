@@ -4,9 +4,13 @@ Rota un símbolo puntual previamente insertado en el archivo de dibujo.
 
 ## Parámetros
 
-| Número de parámetro | Descripción | Valores | Opcional |
-| :--- | :--- | :--- | :--- |
-| 1 | Ángulo de giro | Número real | Si |
+No admite parámetros.
+
+## Observaciones
+
+La orden solicita que selecciones un punto del modelo actual y, a continuación, un segundo punto. La nueva rotación del símbolo es la dirección que va del punto de inserción del símbolo al segundo punto. Mientras mueves el cursor, el símbolo se muestra con la rotación resultante.
+
+Pulsa el botón de reset para cancelar la orden.
 
 ## Características de la orden
 

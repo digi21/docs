@@ -1,14 +1,16 @@
 # PUNTO
 
-Dibuja un punto en el archivo actual con una entidad definida como lineal.
+Dibuja un punto en el archivo actual.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código o códigos del punto. Si no los indicas, el punto se almacena con el código activo | Si |
 
 ## Observaciones
 
-Puedes dibujar un punto seleccionando un código definido para una entidad puntual y pulsar el [botón de dato](punto.md) del ratón para dibujarlo.
+Pulsa el [botón de dato](punto.md) del ratón para dibujar el punto en las coordenadas del cursor. El punto toma como rotación el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 
 ## Características de la orden
 

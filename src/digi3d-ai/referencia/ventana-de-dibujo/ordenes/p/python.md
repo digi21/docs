@@ -7,7 +7,7 @@ Ejecuta un guión de Python, opcionalmente pasándole argumentos.
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
 | 1 | Ruta del guión de Python | — | No |
-| 2 | Argumentos para el guión | — | Si |
+| 2 … N | Argumentos para el guión, uno por parámetro | — | Si |
 
 ## Características de la orden
 

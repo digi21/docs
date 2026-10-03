@@ -8,7 +8,13 @@ Cambia el código correspondiente a una serie de entidades por otro código, ya 
 | :--- | :--- | :--- | :--- |
 | 1 | Código antiguo | Código | Si |
 | 2 | Código nuevo | Código | Si |
-| 3 | Tipo de entidad | Líneas, puntos, textos, complejos y polígonos | Si |
+| 3 | Tipo de entidad | Combinación de l \(líneas\), p \(puntos\), t \(textos\) o \* \(todos\) | Si |
+
+## Observaciones
+
+Si no indicas los tres parámetros, la orden muestra un cuadro de diálogo.
+
+La orden trata las líneas, los puntos y los textos visibles y dentro de la zona de interés. Los complejos y los polígonos no se modifican. Las entidades borradas solo se tratan si la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) está activada.
 
 ## Características de la orden
 

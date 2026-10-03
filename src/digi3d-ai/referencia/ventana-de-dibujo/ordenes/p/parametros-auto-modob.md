@@ -1,18 +1,28 @@
 # PARAMETROS\_AUTO\_MODOB
 
-Permite activar el modo de búsqueda automático.
+Carga el archivo XML con la configuración del modo de búsqueda automático.
 
 ## Parámetros
 
-No admite parámetros.
+| Parámetro | Descripción |
+| :--- | :--- |
+| Archivo | Opcional. Ruta del archivo XML de configuración. Si no lo indicas, la orden muestra un cuadro de diálogo para seleccionarlo. Si el archivo no existe, la orden emite un sonido de error y no carga nada. |
 
 ## Observaciones
 
 Evita tener que conmutar entre los diferentes modos de búsqueda ya que cambiará automáticamente el modo de búsqueda para un determinado código.
 
+La configuración solo se aplica cuando la variable [AUTOMODOB](../a/automodob.md) está activada.
+
 Debes crear un archivo \(por ahora manual\) que asigna por cada código, qué modos de búsqueda se aplicarán cuando se tentative con otro determinado código.
 
 Este archivo se podrá crear con el Bloc de Notas, podrá tener un nombre a elección del usuario pero deberá tener como extensión .XML.
+
+Cada elemento `subcode` admite estos atributos:
+
+* `name`: código de las entidades sobre las que se tentativa.
+* `smode`: modo o modos de búsqueda, separados por espacios o comas.
+* `divide`, `insert` y `finalize`: opcionales. Si el atributo está presente, con cualquier valor, el tentativo activa las variables [TENTATIVO\_CORTA](../../variables/t/tentativo-corta.md), [TENTATIVO\_INSERTA](../../variables/t/tentativo-inserta.md) y [TENTATIVO\_FIN](../../variables/t/tentativo-fin.md) respectivamente.
 
 ### Ejemplo:
 
@@ -53,7 +63,7 @@ Este archivo se podrá crear con el Bloc de Notas, podrá tener un nombre a elec
 </automodob>
 ```
 
-En este ejemplo se comprueba que si estamos dibujando líneas con códigos 020123 ó 020124, el programa tentativará automáticamente con el modo de búsqueda 12 sobre entidades de código 060140, 040124, 060126, 060142, 060522 y 030255. Además, se tentativará con el modo de búsqueda 6 sobre los códigos 020123, 020124, 020126 y 020127.
+En este ejemplo se comprueba que si estamos dibujando líneas con códigos 020123 ó 020124, el programa tentativará automáticamente con el modo de búsqueda 12 sobre entidades de código 060140, 040124, 060126, 060142, 060522 y 030225. Además, se tentativará con el modo de búsqueda 6 sobre los códigos 020123, 020124, 020126 y 020127.
 
 ### Llamada a la orden:
 
@@ -63,7 +73,7 @@ En este ejemplo se comprueba que si estamos dibujando líneas con códigos 02012
 
 | Tipo de orden | [Orden inmediata](parametros-auto-modob.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

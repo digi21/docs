@@ -12,11 +12,15 @@ Rota la cámara en la ventana de dibujo mediante movimientos del ratón.
 
 Esta orden anula el movimiento del _SpaceMouse_ y lo rehabilita al finalizar.
 
+La orden oculta el cursor y lo mantiene en el centro de la ventana. El desplazamiento horizontal del ratón cambia el giro kappa de la cámara y el desplazamiento vertical cambia el giro omega. Pulsa Esc para terminar la orden.
+
+Con el parámetro 1, la orden envía la posición y la orientación de la cámara a la ventana fotogramétrica si su sensor admite cámara en primera persona.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](rotula-curvas.md) |
+| Tipo de orden | [Orden interactiva](rotar_camara_fps.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | No |
 | Opción del menú donde aparece la orden | No aparece en ningún menú. |
 | Barra de herramientas en la que aparece la orden | No aparece en ninguna barra de herramientas. |
 | Extensión | DigiNG.OrdenesStandard.dll |

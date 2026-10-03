@@ -8,6 +8,12 @@ Rotula entidades puntuales con un texto cuyo texto es la descripción del códig
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+## Observaciones
+
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos.
+
+La orden crea un texto por cada punto visible, dentro de la zona de interés, que tiene alguno de los códigos. El texto contiene la descripción del código en la tabla de códigos y se sitúa en el punto desplazado en X el valor de [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) y en Y el valor de DA2. El texto tiene la altura, la justificación y la rotación de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), y se almacena con el código activo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](rotula-descripcion.md) |

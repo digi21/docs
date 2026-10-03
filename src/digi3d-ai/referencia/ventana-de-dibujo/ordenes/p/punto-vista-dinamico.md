@@ -6,6 +6,10 @@ Permite girar dinámicamente el punto de vista de la ventana ortográfica median
 
 No admite parámetros.
 
+## Observaciones
+
+La orden dibuja un círculo en la ventana. Pulsa el botón de datos y, sin soltarlo, desplaza el cursor: el modelo gira según el desplazamiento del cursor respecto del centro del círculo. Al soltar el botón puedes repetir el giro desde otro punto. Pulsa Esc para terminar la orden.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](punto-vista-dinamico.md) |
