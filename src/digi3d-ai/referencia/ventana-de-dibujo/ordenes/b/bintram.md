@@ -100,7 +100,7 @@ DigiNG también ofrece la posibilidad de ejecutar esta orden especificando sus p
 
 BINTRAM=\[tabla] \[generar archivo de errores \*1] \[corregir errores autom \*2] \[agrupar vértices \*7] \[insertar vértices por tolerancia \*8] \[detectar_intersecciones \*3] \[detectar_lineas_no_conectadas \*4] \[detección de entidades duplicadas \*5] \[unión de líneas \*6]
 
-Todos los parámetros son obligatorios.
+Todos los parámetros son obligatorios. Si falta alguno, la orden emite un sonido de error, muestra el aviso «Faltan parámetros» y termina sin modificar el dibujo.
 
 * \["tabla"], el usuario deberá especificar entre comillas el directorio y nombre con extensión de un archivo de texto con los códigos a utilizar en el proceso. La orden toma la primera palabra de cada línea del archivo. Si no se puede abrir el archivo, la orden escribe el error en la ventana de resultados y termina.
 * \[generar un fichero de error \*1]. En caso de querer generar este fichero de error se pondrá un 1 como parámetro y en caso de no querer generarlo se pondrá un 0.
