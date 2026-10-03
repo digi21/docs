@@ -11,7 +11,7 @@ Cambia el código correspondiente otro código a las entidades seleccionadas.
 
 ## Observaciones
 
-Si no indicas parámetros, la orden muestra un cuadro de diálogo para introducir el código origen y el código destino. Indica los dos parámetros o ninguno.
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para introducir el código origen y el código destino. Indica los dos parámetros o ninguno: con un solo parámetro, la orden emite un sonido de error y termina.
 
 La orden admite selección simple y selección múltiple. En cada entidad seleccionada del modelo actual que tiene el código origen, la orden sustituye ese código por el código destino. El código destino admite los comodines `*` y `?`, que conservan los caracteres correspondientes del código origen.
 
