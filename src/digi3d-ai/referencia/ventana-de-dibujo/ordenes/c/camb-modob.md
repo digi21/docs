@@ -40,7 +40,7 @@ El ámbito de búsqueda de una entidad está determinado por el tamaño del curs
 
 La ejecución de esta orden solamente permite pasar de un modo de búsqueda al siguiente, para especificar un modo de búsqueda se debe emplear la función [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md).
 
-La orden recorre solo los modos 0 a 12: después del modo 12 vuelve al modo 0. Si hay varios modos de búsqueda activos a la vez, la orden deja activo solo el modo 0.
+La orden recorre los modos 0 a 22: después del modo 22 vuelve al modo 0. Para activar un modo concreto, usa [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md). Si hay varios modos de búsqueda activos a la vez, la orden deja activo solo el modo 0.
 
 ### Características de la orden
 
