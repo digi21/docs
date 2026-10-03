@@ -54,6 +54,12 @@ Configura el comportamiento de Digi3D.AI con la base de datos.
 * **[Forzar registro de la geometría original](base-de-datos/forzar-registro-de-la-geometria-original.md)** — Las geometrías derivadas apuntan al registro de la original.
 * **[Mostrar campos no visibles en el panel Propiedades de la entidad seleccionada](base-de-datos/mostrar-campos-no-visibles.md)** — Muestra los campos marcados como no visibles.
 
+### Buscar centroide
+
+Configura la orden BUSCAR\_CENTROIDE.
+
+* **[Tipo de zoom](buscar-centroide/tipo-de-zoom.md)** — Centra la ventana en el centroide localizado o hace zoom sobre él.
+
 ### Comportamiento de DigiNG
 
 Configura aspectos del comportamiento de DigiNG.
@@ -111,6 +117,12 @@ Configura el control de producción del equipo.
 * **[Controlar producción](control-de-produccion/controlar-produccion.md)** — Indica si se controla la producción en este equipo.
 * **[Tiempo de visualización](control-de-produccion/tiempo-de-visualizacion.md)** — Tiempo en minutos que se muestra la barra de producción.
 
+### Control topológico
+
+Configura la orden CONTROL\_TOPOLOGICO\_CASES.
+
+* **[Criterio de comparación de centroides](control-topologico/criterio-de-comparacion-de-centroides.md)** — Compara los centroides de los polígonos vecinos por su texto o por su código y atributos.
+
 ### Copia de seguridad
 
 Configura las copias de seguridad del archivo de dibujo.
@@ -129,6 +141,23 @@ Configura la creación de los archivos de nivel de detalle (LOD) de las nubes de
 * **[Decimar](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/decimar.md)** — Carga solo un punto de cada X.
 * **[Número de puntos en el lado más largo del primer nivel piramidal](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/numero-de-puntos-en-el-lado-mas-largo-del-primer-nivel-piramidal.md)** — Puntos del lado más largo del nivel piramidal superior.
 * **[Directorio de Nivel de Detalle](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/directorio-de-nivel-de-detalle.md)** — Ruta donde se almacenan los archivos de nivel de detalle.
+
+### CREAR\_POLIGONO
+
+Configura qué hace la orden CREAR\_POLIGONO con las líneas que forman el polígono.
+
+* **[Acción a realizar con el contorno exterior](crear-poligono/accion-a-realizar-con-el-contorno-exterior.md)** — Conserva, elimina o pregunta por la línea del contorno exterior.
+* **[Acción a realizar con los huecos](crear-poligono/accion-a-realizar-con-los-huecos.md)** — Conserva, elimina o pregunta por las líneas de los huecos.
+
+### CREAR\_TOPOLOGIA\_CODIGOS\_VISIBLES
+
+Configura el nombre de la topología y los errores que detecta la orden CREAR\_TOPOLOGIAS\_CODIGOS\_VISIBLES.
+
+* **[Nombre de la topología por defecto](crear-topologia-codigos-visibles/nombre-de-la-topologia-por-defecto.md)** — Nombre de la topología si no se pasa como parámetro \(admite macros\).
+* **[Detectar polígonos sin área](crear-topologia-codigos-visibles/detectar-poligonos-sin-area.md)** — Añade una tarea por cada polígono sin área.
+* **[Detectar centroides duplicados](crear-topologia-codigos-visibles/detectar-centroides-duplicados.md)** — Añade una tarea por cada centroide duplicado.
+* **[Detectar líneas de un solo punto](crear-topologia-codigos-visibles/detectar-lineas-de-un-solo-punto.md)** — Añade una tarea por cada línea con un único punto.
+* **[Detectar líneas con puntos dobles](crear-topologia-codigos-visibles/detectar-lineas-con-puntos-dobles.md)** — Añade una tarea por cada línea con puntos dobles.
 
 ### Depuración
 
@@ -193,6 +222,12 @@ Configura el envío de las coordenadas de la ventana fotogramétrica por el puer
 * **[Formato de comunicación exterior](envio-de-coordenadas-por-puerto-serie/formato-de-comunicacion-exterior.md)** — Formato en el que se envían las coordenadas.
 * **[Finalización del mensaje](envio-de-coordenadas-por-puerto-serie/finalizacion-del-mensaje.md)** — Bytes con los que finaliza cada mensaje.
 * **[Milisegundos de espera para modo continuo](envio-de-coordenadas-por-puerto-serie/milisegundos-de-espera-para-modo-continuo.md)** — Espera antes de empezar a enviar coordenadas con el pedal pulsado.
+
+### EXT
+
+Configura la orden EXT.
+
+* **[EXT puede extender fuera de límites](ext/ext-puede-extender-fuera-de-limites.md)** — Considera infinitos el primer y el último segmento de la línea seleccionada.
 
 ### GeoPackage
 
@@ -298,6 +333,13 @@ Configura el importador de cámaras, modelos y proyectos de Trimble Inpho. Los c
 * **[Solicitar salto de fotos](inpho/solicitar-salto-de-fotos.md)** — Solicita el número de fotos a saltar al cargar.
 * **[Omitir modelos para los cuales no hay foto](inpho/omitir-modelos-para-los-cuales-no-hay-foto.md)** — Omite los modelos sin foto localizada.
 
+### INSERTAR\_HUECO
+
+Configura la orden INSERTAR\_HUECO.
+
+* **[Acción a realizar con la geometría que se inserta en INSERTAR\_HUECO](insertar-hueco/accion-a-realizar-con-la-geometria-que-se-inserta.md)** — Conserva, elimina o pregunta por la geometría que se inserta como hueco.
+* **[Permitir añadir más de un hueco](insertar-hueco/permitir-anadir-mas-de-un-hueco.md)** — Permite añadir varios huecos hasta pulsar la barra espaciadora.
+
 ### Instantáneas
 
 Configura cómo se guardan las instantáneas que generan algunas órdenes.
@@ -317,6 +359,24 @@ Configura si se usa interpolación de subpixel en los cálculos, cuando el senso
 Configura la medida de aerotriangulación del sensor Cónico.
 
 * **[Esquemas](medida-de-aerotriangulacion/esquemas.md)** — Ruta al archivo de esquemas de medida de aerotriangulación.
+
+### Orden EDITAR, EDITAR\_XY, EDITAR\_XYZ
+
+Configura las órdenes EDITAR, EDITAR\_XY y EDITAR\_XYZ.
+
+* **[Desplazar automático](orden-editar/desplazar-automatico.md)** — Desplaza el cursor al vértice siguiente o al anterior al pulsar Dato.
+
+### Orden línea
+
+Configura la orden LINEA.
+
+* **[Finalizar con doble clic](orden-linea/finalizar-con-doble-clic.md)** — Finaliza la línea que se está registrando al hacer doble clic.
+
+### Orden ZOOMV
+
+Configura la orden ZOOMV.
+
+* **[Modo de trabajo](orden-zoomv/modo-de-trabajo.md)** — Marca las esquinas de la ventana con dos pulsaciones de Dato o arrastrando y soltando.
 
 ### Órdenes comunes de Digi3D
 
@@ -397,6 +457,12 @@ Configura el entorno de Python que utiliza Digi3D.AI.
 
 * **[Directorio Home de Python](python/directorio-home-de-python.md)** — Directorio donde localizar las librerías de Python.
 
+### Renomcod
+
+Configura la orden RENOMCOD.
+
+* **[Atributos de BBDD del código destino](renomcod/atributos-de-bbdd-del-codigo-destino.md)** — Cómo se rellenan los atributos de base de datos del código destino.
+
 ### Resultados de la búsqueda
 
 Configura el panel Resultados de la búsqueda y los campos que muestra.
@@ -473,6 +539,14 @@ Configura el comportamiento con los sistemas de referencia de coordenadas.
 * **[Trabajar con sistemas 2D (horizontales) si el vertical es desconocido](sistema-de-referencia-de-coordenadas/trabajar-con-sistemas-2d-si-el-vertical-es-desconocido.md)** — Crea sistemas 2D cuando el vertical es desconocido.
 * **[Crear cadenas WKT compatibles con](sistema-de-referencia-de-coordenadas/crear-cadenas-wkt-compatibles-con.md)** — Tipo de cadenas WKT que crea el programa.
 
+### Tentativos
+
+Configura el comportamiento de los tentativos.
+
+* **[Aceptar tentativos al pulsar dato](tentativos/aceptar-tentativos-al-pulsar-dato.md)** — Acepta el tentativo al pulsar Dato en vez de al soltarlo.
+* **[Tentativo corta la línea seleccionada](tentativos/tentativo-corta-la-linea-seleccionada.md)** — Cuándo corta el tentativo la línea seleccionada.
+* **[Tentativo inserta un vértice en la línea seleccionada](tentativos/tentativo-inserta-un-vertice-en-la-linea-seleccionada.md)** — Cuándo inserta el tentativo un vértice en la línea seleccionada.
+
 ### Topologías no definidas en la tabla de códigos
 
 Configura cómo se representan las topologías no definidas en la tabla de códigos (las que se crean con BINTOP o CREAR_TOPOLOGIA_CODIGOS_VISIBLES).
@@ -480,6 +554,18 @@ Configura cómo se representan las topologías no definidas en la tabla de códi
 * **[Color de relleno (polígonos con centroide)](topologias-no-definidas-en-la-tabla-de-codigos/color-de-relleno-poligonos-con-centroide.md)** — Color de los polígonos con centroide.
 * **[Color de relleno (polígonos sin centroide)](topologias-no-definidas-en-la-tabla-de-codigos/color-de-relleno-poligonos-sin-centroide.md)** — Color de los polígonos sin centroide.
 * **[Texto de centroide para huecos](topologias-no-definidas-en-la-tabla-de-codigos/texto-de-centroide-para-huecos.md)** — Textos que marcan un polígono como hueco.
+
+### Topologías por inundación
+
+Configura la orden GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS.
+
+* **[Orden de los polígonos](topologias-por-inundacion/orden-de-los-poligonos.md)** — Ordena los polígonos de menor a mayor área o al revés.
+
+### Unir
+
+Configura la orden UNIR.
+
+* **[Si las dos líneas tienen códigos distintos](unir/si-las-dos-lineas-tienen-codigos-distintos.md)** — Pregunta el código de la línea resultante o no une las líneas.
 
 ### Ventana fotogramétrica
 
