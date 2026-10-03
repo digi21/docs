@@ -8,6 +8,13 @@ Elimina las entidades duplicadas manteniendo únicamente la que tenga un código
 | :--- | :--- | :--- |
 | 1 … N | Código o códigos de las entidades a procesar | Si |
 
+## Observaciones
+
+Dos entidades están duplicadas cuando son del mismo tipo, tienen el mismo número de vértices y sus vértices coinciden en X,Y, en el mismo sentido o en el inverso. La Z no se compara. Solo se analizan entidades no borradas, visibles y dentro de la zona de interés.
+
+* Con parámetros, la orden analiza las entidades que tienen visible alguno de los códigos indicados. De cada grupo de entidades duplicadas conserva la que tiene el código que aparece antes en la lista de parámetros y borra las demás.
+* Sin parámetros, la orden solicita que selecciones las entidades a analizar. De cada grupo de entidades duplicadas conserva una y borra las demás.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-entidades-duplicadas.md) |

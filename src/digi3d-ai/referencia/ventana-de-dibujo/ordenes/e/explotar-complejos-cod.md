@@ -4,20 +4,22 @@ Explota las entidades complejas quedando divididas por las cadenas de líneas qu
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Código o códigos de las entidades complejas a explotar | Si |
 
 ## Observaciones
 
-Esta orden está diseñada para las entidades complejas de archivos en fomato DGN v8 de MicroStation.
+Esta orden está diseñada para las entidades complejas de archivos en formato DGN v8 de MicroStation.
 
-Esta orden pedirá definir el código de las entidades a explotar, bien en la ventana que aparece al ejecutar la orden ó bien directamente en el campo de órdenes.
+Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos. La orden explota las entidades complejas visibles, dentro de la zona de interés y del archivo de dibujo activo que tienen alguno de los códigos. Cada entidad resultante conserva sus propios códigos. Al terminar, la orden muestra cuántas entidades ha explotado y cuántas ha creado.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](explotar-complejos-cod.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Complejos/Descomponer un elemento complejo |
+| Opción del menú donde aparece la orden | Editar/Complejos/Descomponer elementos complejos por código |
 | Barra de herramientas en la que aparece la orden | Complejos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

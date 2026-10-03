@@ -6,6 +6,10 @@ Entra en una esfera seleccionando un punto en pantalla.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden requiere un archivo de imágenes esféricas cargado; si no lo hay, muestra un aviso y termina. Digitaliza un punto dentro de una esfera para entrar en ella. Si el punto no está dentro de ninguna esfera, la orden emite un sonido de error y sigue esperando un punto.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](entrar-en-esfera.md) |

@@ -6,6 +6,12 @@ Elimina los códigos comunes de todas las entidades visibles duplicadas.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden analiza las entidades no borradas, visibles, dentro de la zona de interés y con algún código visible de la tabla de códigos. Considera duplicadas dos entidades del mismo tipo, con el mismo número de vértices, cuyos vértices coinciden en X,Y (en el mismo sentido o en el inverso) y que comparten al menos un código. La Z no se compara.
+
+En cada grupo de entidades duplicadas, la orden quita a cada entidad los códigos que ya tiene otra entidad anterior del grupo. Si una entidad se queda sin códigos, la orden la borra.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-codigos-entidades-visibles-duplicadas.md) |

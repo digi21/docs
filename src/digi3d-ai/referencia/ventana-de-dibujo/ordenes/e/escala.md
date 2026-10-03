@@ -8,7 +8,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Muestra el denominador de la escala en una globo en la parte inferior izquierda de la ventana principal de DigiNG.
+Muestra el denominador de la escala en un globo en la parte inferior izquierda de la ventana principal de DigiNG.
+
+La orden divide la distancia en el terreno que ocupa el ancho de la pantalla en píxeles entre el ancho físico del monitor, que por defecto es 30,5 cm.
 
 ## Características de la orden
 

@@ -6,7 +6,7 @@ Teniendo el fichero gráfico generado con los programas [BINTRAM](/digi3d-ai/ref
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor numérico | Número real | Si |
+| 1 | Número del error o `?` | Número entero mayor o igual que 0, o `?` | Si |
 
 ### Ejemplos
 
@@ -19,6 +19,8 @@ Se visualiza el error número 3
 Muestra el error en cuál nos encontramos
 
 ## Observaciones
+
+Sin parámetros, la orden solicita el número del error en la barra de estado. Cada error es la entidad con ese número del primer archivo de referencia; la orden desplaza la vista hasta su centro.
 
 Los programas _BINTRAM_ y _BINTOP_ sirven para generar un fichero con símbolos, cuya localización se corresponde con todas aquellas posiciones donde se ha detectado un error. El fichero creado es un fichero .bin que puede ser cargado como referencia sobre el archivo de trabajo.
 

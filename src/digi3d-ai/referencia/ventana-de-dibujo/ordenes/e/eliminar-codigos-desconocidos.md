@@ -6,6 +6,10 @@ Elimina todos los códigos desconocidos del archivo de dibujo.
 
 No admite parámetros.
 
+## Observaciones
+
+Un código es desconocido cuando no está definido en la tabla de códigos. La orden recorre las entidades no borradas del archivo de referencia activo y quita a cada una sus códigos desconocidos. Si todos los códigos de una entidad son desconocidos, la orden borra la entidad.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-codigos-desconocidos.md) |

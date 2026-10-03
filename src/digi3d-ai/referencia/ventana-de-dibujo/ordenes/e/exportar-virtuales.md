@@ -4,6 +4,14 @@ Exporta únicamente las entidades virtuales a un archivo nuevo.
 
 ## Parámetros
 
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Nombre del archivo de destino. Si no tiene extensión, la orden añade `.bind` | Si |
+
+Si no indicas el nombre del archivo, la orden muestra un cuadro de diálogo para seleccionar el archivo de destino, su formato y los parámetros de exportación. La orden funciona igual que [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md), pero solo exporta las entidades virtuales.
+
+### Parámetros de exportación por formato
+
 Los parámetros de exportación dependerán del tipo de archivo que se desea exportar.
 
 

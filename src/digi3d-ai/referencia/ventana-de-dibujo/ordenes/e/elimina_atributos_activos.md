@@ -8,9 +8,7 @@ No admite parámetros
 
 ## Observaciones
 
-No se permite añadir dos veces un atributo con el mismo nombre.
-
-
+La orden vacía la lista de atributos activos y termina. No modifica las entidades ya almacenadas en el archivo de dibujo.
 
 ## Características de la orden
 

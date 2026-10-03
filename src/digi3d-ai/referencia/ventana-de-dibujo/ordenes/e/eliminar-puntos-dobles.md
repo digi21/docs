@@ -1,12 +1,16 @@
 # ELIMINAR\_PUNTOS\_DOBLES
 
-Elimina los puntos dobles de las entidades del archivo de dibujo activo. Si no se indica ningún parámetro, se eliminan únicamente los que coincidan en X,Y,Z. Si se pasa un parámetro se eliminan también los que coincidan únicamente en X,Y.
+Elimina los puntos dobles de las entidades del archivo de dibujo activo. Si no se indica ningún parámetro, se eliminan únicamente los que coincidan en X,Y,Z. Si el parámetro es distinto de 0, se eliminan también los que coincidan únicamente en X,Y.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Eliminar también los puntos que coincidan solo en X,Y (0/1) | Si |
+
+## Observaciones
+
+La orden solo procesa líneas y polígonos (incluidos sus huecos) que no estén borrados, que sean visibles y que estén dentro de la zona de interés.
 
 ## Características de la orden
 

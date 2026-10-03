@@ -6,6 +6,10 @@ Divide el polígono en todas las entidades que lo forman.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden solicita que selecciones un polígono del modelo actual. También admite una selección múltiple, en la que solo procesa los polígonos. Cada polígono se convierte en una línea con el contorno exterior y los códigos del polígono, y en una línea por cada hueco con los códigos del hueco.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](explotar-poligono.md) |
