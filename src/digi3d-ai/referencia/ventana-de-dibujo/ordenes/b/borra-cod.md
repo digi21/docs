@@ -4,20 +4,28 @@ Borra todas aquellas entidades que tengan un código igual al indicado por el us
 
 ## Parámetros
 
-| Parámetro | Descripción           |
-| --------- | --------------------- |
-| C         | Borra puntos y líneas |
-| T         | Borra sólo textos     |
-| L         | Borra sólo líneas     |
-| P         | Borra sólo puntos     |
-| H         | Borra sólo polígonos  |
-| A         | Borra sólo complejos  |
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 … N | Pares «código tipo». El código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta. El tipo es una combinación de las letras de la tabla siguiente | Si |
+
+| Letra | Descripción |
+| :--- | :--- |
+| L | Líneas |
+| P | Puntos y complejos puntuales |
+| T | Textos |
+| C | Complejos |
+| H | Polígonos |
+| \* | Todos los tipos |
+
+Si se indican al menos dos parámetros, la orden borra sin mostrar el cuadro de diálogo. Si no se indican, o se indica uno solo, la orden muestra el cuadro de diálogo de selección de códigos.
 
 ### Observaciones
 
-Esta orden también permita borrar códigos secundarios.
+La orden actúa solo sobre las entidades del archivo de dibujo activo que no estén borradas, estén visibles y estén dentro de la zona de interés.
 
-En la parte inferior de la ventana, se podrá especificar para cada uno de los códigos si se quieren borrar líneas, puntos o textos.
+Esta orden también permite borrar códigos secundarios. Si la entidad solo tiene el código indicado, se borra la entidad. Si tiene más códigos, la orden quita el código indicado y conserva la entidad con el resto de códigos.
+
+En la parte inferior de la ventana, se podrá especificar si se quieren borrar líneas, puntos, textos, complejos o polígonos. La selección se aplica a todos los códigos elegidos.
 
 Existen dos opciones:
 
@@ -26,7 +34,7 @@ Existen dos opciones:
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](borra-cod.md)                                            |
+| Tipo de orden                                    | [Orden inmediata](borra-cod.md)                                              |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | Editar/Elimina entidades por código...                                       |

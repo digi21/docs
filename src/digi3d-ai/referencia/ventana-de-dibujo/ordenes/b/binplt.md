@@ -6,6 +6,10 @@ Explota la simbología con la escala configurada en la pestaña Archivo de dibuj
 
 No admite parámetros.
 
+## Observaciones
+
+La orden recorre las líneas del archivo de dibujo activo. Para cada línea dibuja la simbología del estilo asociado a su primer código con la escala de la variable [ESCALA\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/escala-dibujo.md). Cada trazo de la simbología se añade como una línea nueva con los códigos de la línea original, y la línea original se borra. Las líneas cuyo estilo no genera trazos se quedan como estaban. Los puntos, textos y demás entidades no se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](binplt.md) |
@@ -14,5 +18,5 @@ No admite parámetros.
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Variables relacionadas | [ESCALA\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/escala-dibujo.md) |
 | Nombre interno | {C08928A2-D95D-499D-AFDF-A552FBEAA5E1} |

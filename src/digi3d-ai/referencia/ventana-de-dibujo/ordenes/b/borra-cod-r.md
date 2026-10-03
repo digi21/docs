@@ -1,20 +1,28 @@
 # BORRA\_COD\_R
 
-Borra atributos por recinto calculando topologías en tiempo real.
+Borra un código (atributo) de las entidades que forman el contorno de los recintos seleccionados en la topología temporal.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Atributo | Valor del atributo | Si |
+| 1 | Atributo | Código a borrar | Si |
+
+Si no se indica el parámetro, la orden muestra un cuadro de diálogo para elegir el código.
 
 ### Observaciones
 
-Existe la posibilidad de deseleccionar los recintos, pulsando el botón derecho del ratón.
+La orden necesita una topología temporal calculada; si no la hay, muestra el aviso «No hay ninguna topología temporal creada» y termina.
 
-Al ejecutar la orden, el programa pedirá la selección del código \(atributo\) de las entidades, a continuación podrás picar dentro de los recintos y éstos se iluminarán.
+Al ejecutar la orden, el programa pedirá la selección del código \(atributo\) de las entidades, a continuación podrás picar dentro de los recintos y éstos se iluminarán:
 
-Para aceptar la selección, deberás pulsar la barra espaciadora. El atributo sólo se borrará en caso de coincidir con el código \(atributo\) especificado al llamar a la orden.
+* Pulsa el botón de datos dentro de un recinto para seleccionarlo. La selección anterior se descarta.
+* Mantén pulsada la tecla Ctrl al pulsar el botón de datos para añadir el recinto a la selección o quitarlo de ella.
+* Pulsa el botón de tentativo para pasar al siguiente recinto que contiene el punto.
+* Pulsa el botón de reset para deseleccionar todos los recintos.
+* Pulsa Esc para cancelar la orden.
+
+Para aceptar la selección, deberás pulsar la barra espaciadora. La orden recorre las entidades del contorno exterior de los recintos seleccionados. Si una entidad solo tiene el código indicado, se borra la entidad. Si tiene más códigos, la orden quita el código indicado y conserva la entidad con el resto de códigos.
 
 También es posible ejecutar la orden especificando el código desde la línea de comandos.
 

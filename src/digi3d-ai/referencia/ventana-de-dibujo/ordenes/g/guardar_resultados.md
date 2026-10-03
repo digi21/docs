@@ -10,7 +10,7 @@ Guarda en un archivo TXT el contenido del panel de resultados.
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden inmediata](guardar-tareas.md)                                         |
+| Tipo de orden                                    | [Orden inmediata](guardar_resultados.md)                                     |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | Ventana/Resultados/Guardar archivo de resultados.                            |

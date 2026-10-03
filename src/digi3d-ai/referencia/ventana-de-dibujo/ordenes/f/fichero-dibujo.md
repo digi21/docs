@@ -4,11 +4,19 @@ Especifica al sistema el fichero de dibujo con el cual se va a trabajar, entre l
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Ruta y nombre del archivo de dibujo | Si |
+
+Si no se indica el parámetro, la orden muestra el cuadro de diálogo para seleccionar el archivo.
+
+## Observaciones
+
+El archivo indicado sustituye al archivo de dibujo activo. Si el archivo ya estaba cargado como archivo de referencia, pasa a ser el archivo de dibujo activo. Si no estaba cargado, la orden lo abre. En los dos casos, el archivo que era el activo deja de estar cargado.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](fichero-dibujo.md) |
+| Tipo de orden | [Orden inmediata](fichero-dibujo.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Nuevo/Abrir modelo fotogramétrico o archivo de dibujo.../Selecciona la ruta donde se encuentre el archivo |

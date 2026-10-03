@@ -6,6 +6,10 @@ Guarda en un archivo la tabla de códigos activa.
 
 No admite parámetros.
 
+## Observaciones
+
+La orden muestra un cuadro de diálogo para indicar el archivo y guarda en él la tabla de códigos. La extensión por defecto es `.tab.xml`. Si la tabla de códigos activa está cifrada, la orden termina sin mostrar el cuadro de diálogo ni guardar nada.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](guardar-tabla-codigos.md) |

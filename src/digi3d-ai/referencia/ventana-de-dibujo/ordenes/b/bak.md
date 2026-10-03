@@ -8,13 +8,15 @@ No admite parámetros.
 
 ## Observaciones
 
-La copia generada tendrá el mismo nombre que el fichero original, variando el nombre del fichero a **Copia de seguridad de &lt;archivo&gt;.bind con fecha &lt;fecha&gt; a las &lt;hora&gt;.bind**. El nuevo fichero se almacena en el directorio de trabajo activo.
+La orden copia el archivo de dibujo activo sin pedir datos. Al terminar suena un pitido.
 
-DigiNG puede llamar automáticamente a esta orden cada cierto tiempo. Esta función se activa desde la opción de menú **Herramientas/Configuración/Copia de seguridad/Generar copia de seguridad cada \(mintuos\)**, donde se especifica el intervalo de tiempo entre copias de seguridad.
+La ruta y el nombre de la copia se toman de la opción **Herramientas/Configuración/Copia de seguridad/Destino de copias de seguridad**, que admite sustituidores. El valor por defecto es `$(PathOfDrawingFile)Copia de seguridad de $(DrawingFileName) con fecha $(DateUnderscore) a las $(TimeUnderscore)$(DrawingFileExtension)`: la copia se guarda en la carpeta del archivo de dibujo, con la misma extensión, y el nombre incluye la fecha y la hora.
+
+DigiNG puede hacer la copia de seguridad automáticamente cada cierto tiempo. Esta función se activa desde la opción de menú **Herramientas/Configuración/Copia de seguridad/Generar copia de seguridad cada \(minutos\)**, donde se especifica el intervalo en minutos; el valor 0 la desactiva. La copia automática se hace al añadir una entidad, si ha pasado el intervalo desde la copia anterior.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](bak.md) |
+| Tipo de orden | [Orden inmediata](bak.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Guardar una copia de seguridad |

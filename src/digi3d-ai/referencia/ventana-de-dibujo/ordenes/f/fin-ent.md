@@ -2,10 +2,6 @@
 
 Da por finalizada la definición geométrica de una entidad.
 
-### Parámetros
-
-No admite parámetros.
-
 ## Parámetros
 
 No admite parámetros.
@@ -13,6 +9,8 @@ No admite parámetros.
 ## Observaciones
 
 Tras esta orden puedes seguir trazando nuevas entidades con la orden y código de dibujo activos.
+
+Si la orden activa no admite ser finalizada, suena el aviso de error.
 
 Esta orden está asignada por defecto a uno de los pedales y al botón derecho del ratón.
 

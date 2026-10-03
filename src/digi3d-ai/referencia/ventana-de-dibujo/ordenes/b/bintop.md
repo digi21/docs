@@ -1,16 +1,17 @@
 # BINTOP
 
-1.  Crea un fichero topológico: Este fichero tendrá de extensión TOP y en él se van a almacenar las relaciones topológicas entre las entidades. Este fichero es de tipo binario y su estructura no es accesible por el usuario. Con el programa _TOPASC_ se puede transformar el fichero TOP en un fichero ASCII que puede ser visualizado con un editor de texto o cargado en una base de datos.
+1.  Calcula la topología del archivo de dibujo activo: forma los polígonos a partir de los tramos (líneas) y les asocia los centroides (textos) que tengan los códigos seleccionados. La topología se identifica con la ruta del archivo de dibujo y la extensión TOP, y se puede cargar en memoria para que la usen otras órdenes. La orden no guarda la topología en disco.
 
-    El fichero topológico sólo tiene validez para un fichero de dibujo en un momento dado. si se modifica el fichero de dibujo con las órdenes de edición de _DigiNG_, el fichero topológico no podrá encontrar los [tramos](bintop.md) ni los [centroides](bintop.md) para formar polígonos. Por defecto este fichero se guardará con el nombre de la tabla de códigos y extensión TOP.
+    La topología sólo tiene validez para el archivo de dibujo en un momento dado. Si se modifica el archivo de dibujo con las órdenes de edición de _DigiNG_, hay que volver a ejecutar la orden.
 2. Busca errores en la formación de dichas relaciones. Estos errores serán:
    * Polígonos sin área.
    * Polígonos sin centroide.
    * Polígonos con más de un centroide.
+   * Centroides fuera de polígono.
 
 ## Parámetros
 
-Esta orden abre un cuadro de diálogo. Sus opciones se describen en el apartado **Observaciones**.
+Sin parámetros, esta orden abre un cuadro de diálogo. Sus opciones se describen en el apartado **Observaciones**. Con parámetros, la orden se ejecuta sin cuadro de diálogo; los parámetros se describen en el apartado **Puedes ejecutar la orden BINTOP desde la línea de comandos**.
 
 ## Observaciones
 
@@ -18,41 +19,25 @@ Al ejecutar la orden aparecerá el siguiente cuadro de diálogo:
 
 ![Cuadro de diálogo Bintop](../../../../../images/BINTOP.jpg)
 
+* **Códigos**: en la parte superior del cuadro de diálogo se seleccionan los códigos de las entidades que forman los [tramos](bintop.md) y los códigos de los textos que forman los [centroides](bintop.md).
+* **Corregir automáticamente entidades con puntos dobles**: antes de calcular la topología, la orden quita los vértices repetidos de las líneas del archivo de dibujo activo cuyo primer o último vértice está repetido en X e Y.
+* **Eliminar automáticamente entidades con un solo punto**: antes de calcular la topología, la orden borra los puntos del archivo de dibujo activo que tienen alguno de los códigos seleccionados.
 * Casillas correspondientes a los **errores a detectar**:
   * Informar del error de polígonos sin área (una o más líneas que forman un polígono no cerrado en el plano)
   * Marcar como error los polígonos sin centroide asignado
-  * Marcar como error centroides duplicados (más de un centroide en un mismo polígono cerrado)
-*   **Tabla**: Es un fichero de texto en el que se listan los códigos de las entidades que se van a tratar en este programa. Los códigos de las entidades que forman los [tramos](bintop.md) y los códigos de los textos que forman los [centroides](bintop.md).
-
-    Cada código se escribirá en una línea del fichero y perfectamente justificado a la izquierda. Las letras mayúsculas y minúsculas son interpretadas por _Digi3D.AI_ como códigos diferentes. Se pueden usar caracteres comodín "\*" y "?" como parte de un código, para hacer referencia a un grupo de ellos, sin necesidad de tener que listarlos uno a uno.
-
-    **Ejemplo:**
-
-    1401\* se refiere a todos los códigos que empiecen por 1401 sean cual sean sus dos últimos caracteres
-
-    El programa buscará inicialmente un fichero denominado BINTOP.TAB en el directorio del programa. Si no lo encuentra, lo advierte y posteriormente se deberá seleccionar el fichero apropiado. Por defecto se buscarán ficheros con extensión TAB, aunque puede utilizarse cualquier otra. En este caso hay que optar por **Todos los archivos** en la casilla Archivos de tipo para poder realizar la selección del fichero.
-
-    La tabla de códigos puede ser modificada desde el programa utilizando el botón Editar.
-* **Cargar el archivo topológico en memoria**: Permite al usuario cargar en memoria el fichero topológico que mostrará los rellenos de los polígonos.
-* **Visible**: Esta opción se refiere a la visibilidad de los rellenos de áreas. Al marcar esta opción de Visible se rellenarán las áreas cerradas que contienen centroide.
-*   **Usar tabla de equivalencia Texto-Color para el color de relleno de polígonos con centroide**: Podrás marcar esta casilla de manera que se permite la selección de la tabla de equivalencia entre centroide y color.
-
-    Esta tabla de equivalencia tendrá extensión TAB y su formato será el siguiente:
-
-    nombre_centroide componente_rojo componente_verde componente_azul
-* **Rellenar parcelas sin centroide**: Si has marcado la casilla de Visible, se habilita esta opción de Rellenar parcelas sin centroide. Una vez habilitada la opción, se podrá marcar la casilla para indicar las áreas sin centroide mediante este relleno.
-* **Color para parcelas sin centroide**: Aquí podrás especificar el color para el relleno de parcelas sin centroide, mediante los componentes de rojo (r), verde (g) y azul (b). Por defecto después de ejecutar Bintop, las áreas sin centroide aparecerán con relleno azul.
+  * Marcar como error centroides duplicados (más de un centroide en un mismo polígono cerrado). Con esta casilla también se marcan los centroides que quedan fuera de cualquier polígono.
+* **Cargar el archivo topológico en memoria**: carga en memoria la topología calculada para que la usen otras órdenes.
 * **Generar un fichero de errores**: si está activada esta opción se generará un archivo de errores en la ubicación y con el nombre que se especifique.
-* **Fichero de errores**: Nombre del fichero que se va a crear con las marcas de error. Si existe el fichero, se borra y se crea de nuevo. Es un fichero con formtao BIN y puede ser visualizado con DigiNG escribiendo su nombre en la pantalla de entrada. También puede ser cargado como fichero de referencia, con la orden [CARGA_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md), sobre el fichero de dibujo que contiene las entidades. Las órdenes [ERR+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-mas.md), nos llevarán a cada error para visualizarlo y poder corregirlo con las funciones de edición.
+* **Fichero de errores**: Nombre del fichero que se va a crear con las marcas de error. Si existe el fichero, se borra y se crea de nuevo. Las marcas de error se guardan con los códigos `ERRCEN` (puntos dobles, entidades de un solo punto y centroides) y `NOAREA` (polígonos sin área). Los polígonos sin centroide se guardan como una línea con el contorno del polígono. También puede ser cargado como fichero de referencia, con la orden [CARGA_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md), sobre el fichero de dibujo que contiene las entidades. Las órdenes [ERR+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/err-mas.md), nos llevarán a cada error para visualizarlo y poder corregirlo con las funciones de edición.
 * **Tamaño del error en metros**: Se dará el valor en metros (unidades terreno), para que su tamaño sea adecuado al localizar el error. Las marcas de error son cuadrados con un ángulo en uno de sus lados, de manera que las coordenadas del vértice sean las mismas que las del punto dónde esta el error.
 * **Cargar el fichero de errores como archivo de referencia**: en caso de marcar esta casilla se cargará automáticamente el fichero con los símbolos de error como fichero de referencia, esto permitirá al usuario el control y la correción de los errores inmediatamente.
 
 El primer proceso que realiza BINTOP es la detección de errores graves de [topología](bintop.md), éstos errores son:
 
-* Puntos dobles al comienzo de una línea
+* Puntos dobles al comienzo o al final de una línea
 * Líneas compuestas de un sólo punto
 
-Estos errores se marcarán en el fichero de errores, que se podrá cargar como referencia, y su tamaño podrá ser definido por el usuario.
+Estos errores se marcarán en el fichero de errores, que se podrá cargar como referencia, y su tamaño podrá ser definido por el usuario. Si se encuentra alguno de estos errores, la orden no forma los polígonos y muestra un globo de error.
 
 En caso de que en el fichero de dibujo existan errores de este tipo, la información correspondiente se mostrará en la Ventana de tareas.
 
@@ -64,69 +49,57 @@ En caso de encontrar errores relacionados con polígonos el programa marcará es
 
 ### Puedes ejecutar la orden BINTOP desde la línea de comandos:
 
-BINTOP=\[tabla] \[polígonos_sin_area] \[polígonos_sin_centroide] \[centroides_duplicados] \[generar_archivo_errores]1] \[cargar_topológico_en_memoria\*2]
+BINTOP=\[tabla] \[polígonos_sin_area] \[polígonos_sin_centroide] \[topología_3D] \[centroides_duplicados] \[generar_archivo_errores] \[cargar_topológico_en_memoria]
 
-* \[tabla]: el primer parámetro a especificar es el directorio completo y nombre de la tabla de códigos.
+* \[tabla]: ruta y nombre de un archivo de texto con los códigos de las entidades que forman la topología. La orden lee la primera palabra de cada línea del archivo. Si no se puede abrir el archivo, la orden escribe el error en la ventana de resultados y termina.
 * \[polígonos_sin_area]: en caso de querer marcar los polígonos sin area se pondrá aquí el valor 1 (verdadero) en caso contrario se pondrá un 0 (falso).
-* \[polígonos_sin_centroide]: en caso de querer marcar polígonos sin centroide se pondrá el valor 1 (verdadero)
-* \[centroides_duplicados]: en caso de querer que el programa marque como error los centroides duplicados se podnrá aquí el valor 1.
-* \[generar_archivo_errores\*1]: si se desea generar un archivo de errores se necesitan especificar a continuación los siguientes parámetros:
-  * \[nombre_fichero_de_errores]: aquí se deberá especificar el directorio completo y nombre del fichero con los símbolos de rror.
-  * \[tamaño_de_error]: este es el tamaño de lo símbolos de error en metros.
+* \[polígonos_sin_centroide]: en caso de querer marcar polígonos sin centroide se pondrá el valor 1 (verdadero).
+* \[topología_3D]: 1 para calcular la topología en 3D, 0 para calcularla en 2D.
+* \[centroides_duplicados]: en caso de querer que el programa marque como error los centroides duplicados se pondrá aquí el valor 1.
+* \[generar_archivo_errores]: 1 para generar un archivo de errores. En ese caso se necesitan especificar a continuación los siguientes parámetros:
+  * \[nombre_fichero_de_errores]: ruta y nombre del fichero con los símbolos de error. Si no lleva ruta, se crea en la carpeta del archivo de dibujo. Si no termina en `bin`, se le añade la extensión `.bin`.
+  * \[tamaño_de_error]: este es el tamaño de los símbolos de error en metros.
   * \[cargar_como_referencia]: en caso de querer cargar el archivo automáticamente como referencia se deberá poner aquí un 1, en caso contrario se escribirá un 0.
-* \[cargar_topológico_en_memoria\*2]: en caso de querer cargar el archivo topológico en memoria se escribirá un 1 y se deberán especificar los siguientes parámetros:
-  * \[visible]: para activar la visibilidad de los rellenos de área se deberá escribir un 1.
-* \[usar_tabla_colores\*4]: aquí se especifica el directorio completo y nombre de la tabla de corrspondencia texto_código para los polígonos con centroide.
-* \[directorio_nombre_tabla_colores]: aquí se especifica el dirctorio completo y nombre del archivo de equivalencia de colores y centroides.
-* \[rellenar_polígonos_sin_centroide\*5]: para rellenar polígonos sin centroide se pondrá el valor 1.
-  * \[colorR]: componente del color rojo para el código de relleno
-  * \[colorG]: componente del color verde para el código de relleno
-  * \[colorB]: componente del color azul para el código de relleno
+* \[cargar_topológico_en_memoria]: 1 para cargar la topología en memoria, 0 para no cargarla.
+
+Todos los parámetros son obligatorios cuando se indica la tabla.
+
+Si la variable [CREAR\_TOPOLOGIAS\_ARCHIVOS\_REFERENCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/crear-topologias-archivos-referencia.md) está activada, la orden calcula una topología para cada archivo de dibujo cargado; si no, solo para el archivo de dibujo activo.
+
+También se puede indicar como único parámetro `#nombre`, donde _nombre_ es una topología definida en la tabla de códigos. En ese caso la orden toma los códigos, la opción de polígonos sin centroide y la opción 3D de esa definición, marca los polígonos sin área y los centroides duplicados, no genera fichero de errores y carga la topología en memoria.
 
 ### Ejemplos de ejecución de BINTOP por la línea de comandos:
 
-`bintop="c:\tabla1.tab" 1 0 0 0 1 1 1 "C:\color.tab" 1 255 127 32`
+`bintop="c:\tabla1.tab" 1 0 0 0 0 1`
 
-1. Hace topología con la tabla c:\tabla1
+1. Hace topología con la tabla c:\tabla1.tab
 2. Marca polígonos sin área
 3. No marcará polígonos sin centroide
-4. No marcará centroides duplicados
-5. No genera fichero de errores, muestra una descripción del error en la barra resultados
-6. Carga la topología en memoria
-7. Hará visibles mediante relleno a los polígonos sin área
-8. Utiliza tabla de equivalencia entre centroides y colores de relleno
-9. Directorio completo y nombre de la tabla de equivalencia de centroide-color
-10. Rellena polígonos sin centroide
-11. La componente del color rojo para el relleno de polígonos sin centroide 255
-12. La componente del color verde para el relleno de polígonos sin centroide 127
-13. La componente del color azul para el relleno de polígonos sin centroide 32
+4. Calcula la topología en 2D
+5. No marcará centroides duplicados
+6. No genera fichero de errores
+7. Carga la topología en memoria
 
-`bintop="c:\tabla1.tab" 1 1 1 1 "c:\err.bin" 2 1 1 1 1 "C:\color.tab" 1 255 127 32`
+`bintop="c:\tabla1.tab" 1 1 0 1 1 "c:\err.bin" 2 1 1`
 
-1. Hace topología con la tabla c:\tabla1
+1. Hace topología con la tabla c:\tabla1.tab
 2. Marca polígonos sin área
 3. Marca polígonos sin centroide
-4. Marca centroides duplicados
-5. Generando un fichero de errores
-6. El fichero será c:\err.bin
-7. Con errores con un tamaño de 2 metros
-8. Cargando el fichero de errores como referencia
-9. Carga la topología en memoria
-10. Hará visibles mediante relleno a los polígonos sin área
-11. Utiliza tabla de equivalencia entre centroides y colores de relleno
-12. Directorio completo y nombre de la tabla de equivalencia de centroide-color
-13. Rellena polígonos sin centroide
-14. La componente del color rojo para el relleno de polígonos sin centroide 255
-15. La componente del color verde para el relleno de polígonos sin centroide 127
-16. La componente del color azul para el relleno de polígonos sin centroide 32
+4. Calcula la topología en 2D
+5. Marca centroides duplicados
+6. Genera un fichero de errores
+7. El fichero será c:\err.bin
+8. Con errores con un tamaño de 2 metros
+9. Carga el fichero de errores como referencia
+10. Carga la topología en memoria
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](bintop.md)                                               |
+| Tipo de orden                                    | [Orden inmediata](bintop.md)                                                 |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | _Esta orden no tiene asociada ninguna opción de menú_                        |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesTopologia.dll                                                   |
-| Variables relacionadas                           | No tiene variables relacionadas                                              |
+| Variables relacionadas                           | [CREAR\_TOPOLOGIAS\_ARCHIVOS\_REFERENCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/crear-topologias-archivos-referencia.md) |
 | Nombre interno | {4FB24176-ED2B-4626-BB9B-1A80C76D2F7D} |

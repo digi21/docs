@@ -6,6 +6,14 @@ Genera una topología para ejecutar con posterioridad las órdenes de inundació
 
 No admite parámetros.
 
+## Observaciones
+
+La orden forma los polígonos con las entidades del archivo de dibujo activo que tienen algún código de la tabla de códigos y cuyo código no está apagado. La topología resultante sustituye a la topología temporal anterior.
+
+Los polígonos se ordenan por área según la opción **Orden de los polígonos** de la categoría **Topologías por inundación** del cuadro de configuración: **Ordenar de menor a mayor área** (valor por defecto) u **Ordenar de mayor a menor área**.
+
+Si se encuentran puntos dobles o no hay entidades con las que trabajar, la orden muestra un globo de error y no crea la topología.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](generar-topologia-inundacion-sin-islas.md) |
