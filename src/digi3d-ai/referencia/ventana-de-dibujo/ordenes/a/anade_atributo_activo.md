@@ -26,6 +26,8 @@ Esta orden se utiliza para asignar en el panel de Atributos Activos los atributo
 
 Si no se pasa ningún parámetro, la orden muestra un mensaje de error y no añade nada. Si el campo ya existe en el panel, la orden sustituye su tipo y su valor. Si no se pasa el valor, el campo toma el valor vacío o 0 del tipo indicado.
 
+Si el valor no es una macro, la orden lo convierte al tipo indicado. Los números decimales se escriben con punto (`12.5`), sea cual sea la configuración regional de Windows. Si el valor no se puede convertir, por ejemplo `abc` para un entero, la orden muestra un mensaje de error y no añade el campo.
+
 Si introducimos como valor a asignar una [Macro de base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md) el programa mostrará el nombre de la macro en el panel de atributos activos y el campo se configurará como un campo de sólo lectura. Al almacenar la geometría se almacenará el valor calculado.
 
 ## Características de la orden
