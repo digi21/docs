@@ -38,7 +38,23 @@ Esta categoría solo aparece si está activada la opción de mostrar el sistema 
 
 ### Motor de importación/exportación
 
-Los parámetros del importador o exportador del formato del archivo de dibujo. Cambian según la extensión del archivo seleccionado: por ejemplo, el archivo `.bind` de la captura muestra el modelo de datos, la cadena de conexión con la base de datos, la conexión en modo de solo lectura y la omisión de los archivos de referencia. Los explica la página de cada formato en [Importadores y exportadores](../../ventana-de-dibujo/importadores-y-exportadores/README.md).
+Los parámetros del importador o exportador del formato del archivo de dibujo. Cambian según la extensión del archivo seleccionado: por ejemplo, el archivo `.bind` de la captura muestra el modelo de datos, la cadena de conexión con la base de datos, la conexión en modo de solo lectura y la omisión de los archivos de referencia.
+
+Los formatos que se pueden abrir en una ventana de dibujo, y la página que explica sus parámetros (sección **Parámetros del motor de importación/exportación**):
+
+| Formato | Extensión | Parámetros |
+| :--- | :--- | :--- |
+| Archivos Digi | `.bin`, `.bik` | [Archivos Digi](../../ventana-de-dibujo/importadores-y-exportadores/bin.md) |
+| Archivos Digi de doble precisión | `.bind` | [Archivos Digi de doble precisión](../../ventana-de-dibujo/importadores-y-exportadores/bin-doble-precision.md) |
+| MicroStation DGN v8 | `.dgn` | [DGN](../../ventana-de-dibujo/importadores-y-exportadores/dgn.md) |
+| AutoCAD DWG | `.dwg` | [DWG](../../ventana-de-dibujo/importadores-y-exportadores/dwg.md) |
+| Shapefile de ESRI | `.shp` | [Shapefile](../../ventana-de-dibujo/importadores-y-exportadores/shp.md) |
+| Datawarehouse de Geomedia | `.mdb` | [Geomedia](../../ventana-de-dibujo/importadores-y-exportadores/geomedia.md) |
+| KML de Google Earth | `.kml` | [KML](../../ventana-de-dibujo/importadores-y-exportadores/kml.md) |
+| Conexión con PostGIS | `.pg` | [PostGIS](../../ventana-de-dibujo/importadores-y-exportadores/postgis.md) |
+| Esri FileGDB | `.gdb` | No tiene parámetros: la categoría aparece vacía. |
+| GeoPackage | `.gpkg` | No tiene parámetros: la categoría aparece vacía. |
+| WKT | `.wkt` | No tiene parámetros: la categoría aparece vacía. |
 
 ## Observaciones
 
