@@ -9,13 +9,22 @@ Compara la coordenada Z de los vértices de las entidades con la Z del modelo di
 | :--- | :--- | :--- |
 | 1...n | Códigos de las entidades a comparar. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden pide que selecciones las entidades a comparar |
 
+## Cuadro de diálogo Comparar Z con MDT
+
+![Cuadro de diálogo Comparar Z con MDT, con el campo Tolerancia](../../../../../images/comparar-z-mdt-tolerancia.png)
+
+Al empezar, la orden pide la tolerancia en este cuadro de diálogo.
+
+* **Tolerancia**: diferencia máxima admitida entre la Z de un vértice y la Z del modelo digital del terreno, en las unidades del sistema de referencia. El valor por defecto es 1.0.
+* **Aceptar**: compara las entidades con esa tolerancia.
+* **Cancelar**: termina la orden sin comparar. Dejar el campo vacío y pulsar **Aceptar** tiene el mismo efecto.
+
 ## Observaciones
 
-1. La orden pide la tolerancia en un cuadro de diálogo \(valor por defecto: 1.0, en las unidades del sistema de referencia\). Si se deja vacía, la orden termina.
-2. Si no hay ningún archivo cargado que pueda proyectar una Z \(un modelo digital del terreno\), la orden emite un sonido de error y termina.
-3. Para cada entidad, la orden recorre sus vértices. Un vértice que no se puede proyectar sobre ningún modelo se ignora. En la primera diferencia entre la Z del vértice y la Z del modelo mayor que la tolerancia, la orden añade una tarea de error al panel de tareas que lleva a ese vértice.
-4. Con parámetros, la orden analiza todas las entidades visibles y no borradas del archivo de dibujo que tienen alguno de los códigos indicados y termina sin pedir selección.
-5. Si está activa la opción de limpiar automáticamente el panel de tareas, la orden lo vacía antes de comparar.
+1. Si no hay ningún archivo cargado que pueda proyectar una Z \(un modelo digital del terreno\), la orden emite un sonido de error y termina.
+2. Para cada entidad, la orden recorre sus vértices. Un vértice que no se puede proyectar sobre ningún modelo se ignora. En la primera diferencia entre la Z del vértice y la Z del modelo mayor que la tolerancia, la orden añade una tarea de error al panel de tareas que lleva a ese vértice.
+3. Con parámetros, la orden analiza todas las entidades visibles y no borradas del archivo de dibujo que tienen alguno de los códigos indicados y termina sin pedir selección.
+4. Si está activa la opción de limpiar automáticamente el panel de tareas, la orden lo vacía antes de comparar.
 
 ## Características de la orden
 
