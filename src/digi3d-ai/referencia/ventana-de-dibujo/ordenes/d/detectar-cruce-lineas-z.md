@@ -9,9 +9,17 @@ Detecta cruces entre líneas y marca como error aquellas cuya diferencia en Z su
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
-## Observaciones
+## Cuadro de diálogo Detectar cruces entre líneas si se supera tolerancia en Z
 
-Al ejecutarse, la orden muestra un cuadro de diálogo que solicita la tolerancia en Z, en unidades del sistema de referencia \(valor por defecto 1.0\). Si dejas el valor vacío o cancelas el cuadro de diálogo, la orden termina.
+![Cuadro de diálogo Detectar cruces entre líneas si se supera tolerancia en Z, con el campo Tolerancia](../../../../../images/detectar-cruce-lineas-z-tolerancia.png)
+
+Al empezar, la orden pide la tolerancia en este cuadro de diálogo.
+
+* **Tolerancia**: diferencia máxima admitida entre las Z de las dos líneas en el punto de cruce, en las unidades del sistema de referencia. El valor por defecto es 1.0.
+* **Aceptar**: busca los cruces con esa tolerancia.
+* **Cancelar**: termina la orden sin buscar cruces. Dejar el campo vacío y pulsar **Aceptar** tiene el mismo efecto.
+
+## Observaciones
 
 La orden crea una tarea de error por cada cruce en el que la diferencia de Z entre las dos líneas, interpolada en el punto de cruce, sea mayor que la tolerancia.
 
