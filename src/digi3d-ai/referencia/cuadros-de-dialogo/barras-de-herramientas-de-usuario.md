@@ -32,6 +32,8 @@ Selecciona la opción del menú **Herramientas/Barras de herramientas de usuario
 
 ## Datos de botón de barra de herramientas
 
+![Cuadro de diálogo Datos de botón de barra de herramientas](../../../images/datos-de-boton-de-barra-de-herramientas.png)
+
 * **Texto del botón**: el texto que muestra el botón.
 * **Tooltip del botón**: el texto que aparece al situar el ratón sobre el botón.
 * **Imagen asociada al botón**: el archivo de imagen del botón. **Examinar...** permite seleccionar un archivo de mapa de bits (`.bmp`).
