@@ -19,6 +19,10 @@ Selecciona la opción del menú **Herramientas/Configuración de ratones, joysti
 
 La tabla de coeficientes indica cuánto cambia cada coordenada del cursor (filas X, Y y Z) al mover cada eje del dispositivo (columnas X, Y y Z). Por ejemplo, un 1 en la fila Y y la columna X hace que el movimiento del eje X del dispositivo cambie la coordenada Y del cursor. Un valor negativo invierte el sentido.
 
+Ejemplo: un trackball dedicado a la Z. Con **Ratón de Z**, mover la bola de izquierda a derecha sube y baja la coordenada Z (fila Z, columna X = 1):
+
+![Cuadro de diálogo Parámetros de ratón con un ratón de Z](../../../images/parametros-de-raton-z.png)
+
 **Parámetros de ratón** añade:
 
 * **Normal**: el eje X del ratón mueve la X del cursor, el eje Y mueve la Y en sentido contrario y el eje Z mueve la Z.
