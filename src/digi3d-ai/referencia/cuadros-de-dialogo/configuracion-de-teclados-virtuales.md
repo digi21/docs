@@ -1,26 +1,28 @@
 # Configuración de teclados virtuales
 <!-- id: configuracion-de-teclados-virtuales -->
 
-![Cuadro de dialogo Configuración de teclados virtuales](../../../images/configuraciontecladosvirtuales.png)
+![Cuadro de diálogo Configuración de teclados virtuales](../../../images/configuracion-de-teclados-virtuales.png)
 
-Este cuadro de diálogo te permite indicar la ubicación de los archivos de configuración de teclas.
+Este cuadro de diálogo indica qué archivos de asignación de teclas (`.keyboard.xml`) carga Digi3D.AI y en qué orden.
 
 ## Abrir el cuadro de diálogo
 
-Para abrir este cuadro de diálogo selecciona la opción del menú **Herramientas/Configuración de teclados virtuales**. Esta opción del menú no aparece si tienes alguna ventana de dibujo o fotogramétrica abierta. Únicamente aparece en el menú que muestra el programa cuando no tienes ninguna ventana abierta.
+Selecciona la opción del menú **Herramientas/Configuración de teclados virtuales**. La opción solo aparece en el menú que muestra Digi3D.AI cuando no hay ninguna ventana de dibujo ni fotogramétrica abierta.
 
-## Uso del cuadro de diálogo
+## Campos
 
-* Pulsando el botón **Añadir** podemos seleccionar archivos a añadir.
-* Pulsando el botón **Quitar** podemos eliminar el archivo seleccionado.
-* Con las flechas de **Arriba** y **Abajo** podemos cambiar el orden de carga de los archivos.
-* Podemos deshabilitar la carga de un archivo sin necesidad de eliminarlo. Para ello tan sólo tenemos que deshabilitar el archivo quitando la marca en el botón de chequeo que aparece a la izquierda de cada archivo.
+* **Archivos de asignación de teclas**: los archivos configurados, en el orden en que se cargan. La casilla de la izquierda de cada archivo indica si se carga. Desmarca la casilla para dejar de cargar un archivo sin quitarlo de la lista.
+* **Añadir...**: selecciona un archivo `.keyboard.xml` y lo añade al final de la lista, con la casilla marcada. Si el archivo ya está en la lista, no se añade.
+* **Quitar**: quita de la lista el archivo seleccionado.
+* **^** y **v**: suben o bajan una posición el archivo seleccionado.
+* **Aceptar**: guarda la lista.
+* **Cancelar**: cierra el cuadro de diálogo sin guardar los cambios.
 
 ## Observaciones
 
-Al abrir una ventana de dibujo o una ventana fotogramétrica se cargarán en memoria todos los archivos de configuración de teclas que indiques en este cuadro de diálogo (y que tengan marcado el botón de chequeo que aparece a la izquierda de la ruta del archivo de configuración de teclas).
+Al abrir una ventana de dibujo o una ventana fotogramétrica, Digi3D.AI carga todos los archivos de la lista que tienen la casilla marcada.
 
-En caso de tener cargado más de un archivo de configuración de teclas, puedes cambiar de uno a otro mediante:
+Si hay más de un archivo cargado, cambia de uno a otro con:
 
 * La orden [CAMBIA_TECLAS_MNU](../ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md).
 * El desplegable de la [Barra de herramientas Teclados](../barras-de-herramientas/teclados.md).
