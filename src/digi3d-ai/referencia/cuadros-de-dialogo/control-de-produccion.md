@@ -9,6 +9,8 @@ Este cuadro de diálogo solicita el usuario que va a trabajar en el equipo. Digi
 
 * **Lista de usuarios**: los usuarios creados en este equipo. Selecciona tu nombre de usuario.
 * **Crear...**: abre el cuadro de diálogo **Nuevo usuario (control de producción)**, que solicita el nombre del usuario nuevo. El usuario nuevo se añade a la lista y queda seleccionado. Si ya existe un usuario con ese nombre, no se añade.
+
+  ![Cuadro de diálogo Nuevo usuario (control de producción)](../../../images/nuevo-usuario-control-de-produccion.png)
 * **Aceptar**: inicia Digi3D.AI con el usuario seleccionado. Sin ningún usuario seleccionado, no hace nada.
 * **Salir**: cierra Digi3D.AI.
 
