@@ -1,9 +1,9 @@
-<!-- id: soporte-tecnico -->
 ---
 description: Ayuda online de productos Digi21
 ---
 
 # Soporte técnico
+<!-- id: soporte-tecnico -->
 
 Las dudas, los problemas y las peticiones de funcionalidades nuevas para _Digi3D.AI_ se envían como tiques de soporte técnico desde la web de Digi21: [https://www.digi21.net/Soporte](https://www.digi21.net/Soporte).
 
