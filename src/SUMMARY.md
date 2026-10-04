@@ -920,6 +920,7 @@
       * [Resultados](digi3d-ai/referencia/paneles/resultados.md)
       * [Resultados de la búsqueda 1 y 2](digi3d-ai/referencia/paneles/resultados-de-la-busqueda-1-y-2.md)
     * [Cuadros de diálogo](digi3d-ai/referencia/cuadros-de-dialogo/README.md)
+      * [Acerca de Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/acerca-de-digi3d-ai.md)
       * [Configuración](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/README.md)
         * [Aceleración de manivelas](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/aceleracion-de-manivelas/README.md)
           * [Tiempo de muestreo para aceleración](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/aceleracion-de-manivelas/tiempo-de-muestreo-para-aceleracion.md)
