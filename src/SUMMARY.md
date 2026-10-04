@@ -922,6 +922,7 @@
     * [Cuadros de diálogo](digi3d-ai/referencia/cuadros-de-dialogo/README.md)
       * [Acerca de Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/acerca-de-digi3d-ai.md)
       * [Archivo de puntos de apoyo](digi3d-ai/referencia/cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md)
+      * [Barras de herramientas de usuario](digi3d-ai/referencia/cuadros-de-dialogo/barras-de-herramientas-de-usuario.md)
       * [Buscar orden](digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md)
       * [Configuración](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/README.md)
         * [Aceleración de manivelas](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/aceleracion-de-manivelas/README.md)
