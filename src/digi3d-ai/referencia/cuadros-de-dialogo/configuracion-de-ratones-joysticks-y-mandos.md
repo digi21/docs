@@ -1,6 +1,8 @@
 # Configuración de ratones, joysticks, mandos,...
 <!-- id: configuracion-de-ratones-joysticks-y-mandos -->
 
+![Cuadro de diálogo Configuración de ratones, joysticks, mandos](../../../images/configuracion-de-ratones-joysticks-y-mandos.png)
+
 Este cuadro de diálogo configura cómo mueven el cursor de la ventana fotogramétrica los ratones, joysticks y mandos que _Windows_ detecta como dispositivos HID.
 
 ## Abrir el cuadro de diálogo
@@ -9,8 +11,8 @@ Selecciona la opción del menú **Herramientas/Configuración de ratones, joysti
 
 ## Campos
 
-* **Dispositivos HID detectados**: los ratones, joysticks y mandos conectados al equipo.
-* **Configurar...**: abre los parámetros del dispositivo seleccionado: **Parámetros de ratón** para un ratón y **Parámetros del dispositivo** para cualquier otro dispositivo.
+* **Dispositivos HID**: los ratones, joysticks y mandos conectados al equipo, con el nombre de producto que informa cada dispositivo. Si el dispositivo no informa de su nombre, aparece como **Desconocido**.
+* **Configurar...**: abre los parámetros del dispositivo seleccionado. Está deshabilitado mientras no hay ningún dispositivo seleccionado. Abre **Parámetros de ratón** para un ratón y **Parámetros del dispositivo** para cualquier otro dispositivo.
 * **Salir**: cierra el cuadro de diálogo.
 
 ## Parámetros de ratón y Parámetros del dispositivo
