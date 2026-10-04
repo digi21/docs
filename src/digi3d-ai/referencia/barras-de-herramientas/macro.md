@@ -23,7 +23,7 @@ Elige dónde se almacena la macro:
 
 ![Cuadro de diálogo Almacenar archivo de macro-instrucciones](../../../images/almacenar-archivo-de-macro-instrucciones.png)
 
-* **Directorio destino**: carpeta donde se crea el archivo. No se puede editar aquí: se cambia en la pestaña **Archivo de dibujo** del cuadro de diálogo [Nuevo proyecto](../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md). Si no hay ninguna carpeta indicada, Digi3D.AI avisa de que no se puede almacenar el archivo y no abre este cuadro de diálogo.
+* **Directorio destino**: carpeta donde se crea el archivo. No se puede editar aquí: se cambia en la opción [Directorio de macroinstrucciones](../cuadros-de-dialogo/configuracion/diging/directorio-de-macroinstrucciones.md) de la sección **DigiNG** de **Herramientas/Configuración**. Si no hay ninguna carpeta indicada, Digi3D.AI avisa de que no se puede almacenar el archivo y no abre este cuadro de diálogo.
 * **Nombre del archivo a generar**: nombre del archivo. Digi3D.AI le antepone `@`, el prefijo de los archivos de macroinstrucciones.
 * **Contenido del archivo a generar**: las órdenes grabadas, una por línea. Puedes modificarlas antes de guardar.
 * **Aceptar**: crea el archivo con el contenido del campo anterior. Si ya existe un archivo con ese nombre, lo sustituye.
