@@ -11,6 +11,16 @@ No admite parámetros.
 
 La orden solicita que selecciones una entidad y muestra el cuadro de diálogo de edición de códigos con los códigos de esa entidad. Si aceptas el cuadro de diálogo con cambios, la orden sustituye la entidad por una copia con los códigos editados. Si eliminas todos los códigos, la orden borra la entidad.
 
+## Cuadro de diálogo Asignar un ID existente
+
+![Cuadro de diálogo Asignar un ID existente](../../../../../images/asignar-un-id-existente.png)
+
+Lo abre el botón de asignar un ID existente del editor de códigos. Enlaza el código seleccionado con un registro que ya existe en la base de datos, en lugar de crear un registro nuevo.
+
+* **ID**: identificador del registro de la base de datos con el que se enlaza el código.
+* **Aceptar**: enlaza el código con ese registro.
+* **Cancelar**: cierra el cuadro de diálogo sin cambiar el enlace.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](editar-cod.md)                                                                                                                              |
