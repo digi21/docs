@@ -19,6 +19,18 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 
 ### Botones
 
-* Botón que añade un atributo nuevo al listado de códigos activos.
-* Botón elimina el atributo activo seleccionado.
+* **Añadir atributo**: abre el cuadro de diálogo **Añadir atributo activo**.
+* **Eliminar atributo**: elimina el atributo activo seleccionado.
+
+## Cuadro de diálogo Añadir atributo activo
+
+![Cuadro de diálogo Añadir atributo activo](../../../images/anadir-atributo-activo.png)
+
+Añade un atributo a la lista de atributos activos.
+
+* **Nombre del atributo**: nombre del atributo. Si ya hay un atributo activo con ese nombre, no se añade otro.
+* **Tipo de valor**: tipo de dato del atributo: cadena de caracteres, entero con o sin signo de 8, 16, 32 o 64 bits, coma flotante de precisión simple o doble, o fecha. El atributo se añade con un valor vacío o cero, que se cambia después en el panel.
+* **Valor automático**: opcional. Una de las [macros de base de datos](../editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md), como `%UID%` o `%ENTITY_AREA%`. Digi3D.AI calcula su valor al almacenar cada entidad. Un atributo con valor automático no se puede editar en el panel.
+* **Aceptar**: añade el atributo. Está desactivado mientras el nombre esté vacío.
+* **Cancelar**: cierra el cuadro de diálogo sin añadir el atributo.
 
