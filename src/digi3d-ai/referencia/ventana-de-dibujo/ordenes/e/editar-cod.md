@@ -29,6 +29,17 @@ Esta orden muestra este cuadro de diálogo con los códigos de la entidad selecc
 * **Aceptar**: aplica los cambios a la entidad y crea en la base de datos los registros nuevos.
 * **Cancelar**: cierra el cuadro de diálogo sin cambiar la entidad.
 
+## Cuadro de diálogo Editar parámetros avanzados del código
+
+![Cuadro de diálogo Editar parámetros avanzados del código](../../../../../images/editar-parametros-avanzados-del-codigo.png)
+
+Lo abre el botón **Avanzado** del editor de códigos. Cambia a mano la tabla y el registro de la base de datos enlazados con el código seleccionado.
+
+* **Tabla**: número de la tabla de la base de datos.
+* **Registro**: número del registro de esa tabla.
+* **Aceptar**: enlaza el código con esa tabla y ese registro. Digi3D.AI no comprueba que la tabla corresponda al código ni que el registro exista en la base de datos.
+* **Cancelar**: cierra el cuadro de diálogo sin cambiar el enlace.
+
 ## Cuadro de diálogo Asignar un ID existente
 
 ![Cuadro de diálogo Asignar un ID existente](../../../../../images/asignar-un-id-existente.png)
