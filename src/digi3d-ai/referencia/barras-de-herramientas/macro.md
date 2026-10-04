@@ -3,9 +3,28 @@
 
 ![Barra de herramientas Macro](../../../images/macro.png)
 
-Permite la grabación de macros que se podrán almacenar en una pulsación de tecla.
+Graba una secuencia de órdenes para almacenarla en una pulsación de tecla o en un archivo de macroinstrucciones.
 
 ## Botones
 
-* Botón para comenzar la grabación de la macro. Cuando se pulsa la ventana de dibujo muestra un cuadro de color rojo para indicar que se está almacenando una macro.
-* Botón para finalizar la grabación de la macro. Cuando se pulsa muestra un cuadro de diálogo solicitando dónde almacenar la macro.  Si seleccionamos por ejemplo una pulsación de tecla, se nos invitará a pulsar una tecla. Al pulsar la tecla se mostrará el cuadro de diálogo de la orden [TECLA](../ventana-de-dibujo/ordenes/t/tecla.md)con la secuencia de órdenes que hayamos ejecutado preconfigurada.
+* **Comenzar la grabación**: a partir de este momento, Digi3D.AI anota cada orden que ejecutas. La ventana de dibujo muestra un recuadro rojo mientras se graba la macro.
+* **Finalizar la grabación**: termina la grabación y abre el cuadro de diálogo **Macro preparada para ser almacenada**. Si no se ha grabado ninguna orden, no hace nada más.
+
+## Cuadro de diálogo Macro preparada para ser almacenada
+
+![Cuadro de diálogo Macro preparada para ser almacenada](../../../images/macro-preparada-para-ser-almacenada.png)
+
+Elige dónde se almacena la macro:
+
+* **Almacenar la macro en una pulsación de tecla**: Digi3D.AI pide que pulses una tecla y abre el cuadro de diálogo de la orden [TECLA](../ventana-de-dibujo/ordenes/t/tecla.md) con la secuencia de órdenes grabada. Cada vez que pulses esa tecla se ejecutará la macro.
+* **Crear un archivo de macroinstrucciones**: abre el cuadro de diálogo **Almacenar archivo de macro-instrucciones**. El archivo se podrá ejecutar después como una orden más.
+
+## Cuadro de diálogo Almacenar archivo de macro-instrucciones
+
+![Cuadro de diálogo Almacenar archivo de macro-instrucciones](../../../images/almacenar-archivo-de-macro-instrucciones.png)
+
+* **Directorio destino**: carpeta donde se crea el archivo. No se puede editar aquí: se cambia en la pestaña **Archivo de dibujo** del cuadro de diálogo [Nuevo proyecto](../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md). Si no hay ninguna carpeta indicada, Digi3D.AI avisa de que no se puede almacenar el archivo y no abre este cuadro de diálogo.
+* **Nombre del archivo a generar**: nombre del archivo. Digi3D.AI le antepone `@`, el prefijo de los archivos de macroinstrucciones.
+* **Contenido del archivo a generar**: las órdenes grabadas, una por línea. Puedes modificarlas antes de guardar.
+* **Aceptar**: crea el archivo con el contenido del campo anterior. Si ya existe un archivo con ese nombre, lo sustituye.
+* **Cancelar**: cierra el cuadro de diálogo sin crear el archivo.
