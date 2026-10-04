@@ -1,4 +1,5 @@
 # Cargar superficies de color
+<!-- id: cargar-superficies-de-color -->
 
 [VirtuaLand Cargar](../fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-cargar.md)
 

@@ -1,4 +1,5 @@
 # Calcular
+<!-- id: imagen-calcular -->
 
 [Ficha de herramientas Imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/)
 

@@ -1,4 +1,5 @@
 # Creando una cuenta y enviando el primer tique de soporte técnico
+<!-- id: creando-cuenta-soporte-tecnico -->
 
 El soporte técnico de Digi21 funciona dentro de la web [www.digi21.net](https://www.digi21.net). Para crear tiques necesitas una cuenta en esa web. Si ya tienes una cuenta, por ejemplo porque has descargado software de Digi21, usa esa misma cuenta.
 

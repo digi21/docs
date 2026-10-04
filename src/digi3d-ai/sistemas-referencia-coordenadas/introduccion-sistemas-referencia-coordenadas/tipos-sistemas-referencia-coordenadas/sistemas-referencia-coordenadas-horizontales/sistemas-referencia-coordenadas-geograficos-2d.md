@@ -1,4 +1,5 @@
 # Sistemas de Referencia de Coordenadas Geográficos 2D
+<!-- id: sistemas-referencia-coordenadas-geograficos-2d -->
 
 Representan puntos como coordenadas polares, es decir, ángulos. Tienen dos dimensiones, una para la _Latitud_ y otra para la _Longitud_.
 

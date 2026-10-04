@@ -1,4 +1,5 @@
 # SELECCIONA\_TODO\_EN\_CURSOR
+<!-- id: selecciona-todo-en-cursor -->
 
 Selecciona con un solo clic todas las entidades que se cruzan con el cursor.
 

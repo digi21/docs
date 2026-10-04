@@ -1,4 +1,5 @@
 # Archivos Shapefile de ESRI
+<!-- id: shp -->
 
 Importador y exportador de **Archivos Shapefile de ESRI**.
 

@@ -1,4 +1,5 @@
 # Extraer límites LiDAR
+<!-- id: extraer-limites-lidar -->
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
 

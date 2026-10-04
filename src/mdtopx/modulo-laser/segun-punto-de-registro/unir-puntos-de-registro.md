@@ -1,4 +1,5 @@
 # Unir puntos de registro
+<!-- id: unir-puntos-de-registro -->
 
 [Según punto de registro](/mdtopx/modulo-laser/segun-punto-de-registro/)
 

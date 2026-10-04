@@ -1,4 +1,5 @@
 # JUNTAR\_VERTICES\_CERCANOS
+<!-- id: juntar-vertices-cercanos -->
 
 Junta vértices cercanos por tolerancia.
 

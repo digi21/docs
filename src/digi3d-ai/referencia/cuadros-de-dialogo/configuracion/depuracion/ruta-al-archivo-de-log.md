@@ -1,4 +1,5 @@
 # Ruta al archivo de LOG
+<!-- id: ruta-al-archivo-de-log -->
 
 Permite indicar la ubicación y el nombre del archivo de LOG que Digi3D.AI creará cuando la opción [Crear archivo de LOG](crear-archivo-de-log.md) esté configurada como **Sí**.
 

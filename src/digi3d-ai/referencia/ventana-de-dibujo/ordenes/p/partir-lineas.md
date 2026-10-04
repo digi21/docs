@@ -1,4 +1,5 @@
 # PARTIR\_LINEAS
+<!-- id: partir-lineas -->
 
 Parte las líneas en sus intersecciones por código.
 

@@ -1,4 +1,5 @@
 # DIVIDIR
+<!-- id: dividir -->
 
 Inserta textos o símbolos a lo largo de una entidad lineal.
 

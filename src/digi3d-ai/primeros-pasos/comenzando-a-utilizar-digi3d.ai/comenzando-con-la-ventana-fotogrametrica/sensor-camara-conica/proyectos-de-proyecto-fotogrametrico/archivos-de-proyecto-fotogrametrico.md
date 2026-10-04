@@ -1,4 +1,5 @@
 # Archivos de proyecto fotogramétrico
+<!-- id: archivos-de-proyecto-fotogrametrico -->
 
 Al aceptar el cuadro de diálogo [Crear archivo de proyecto fotogramétrico](/digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md) se creó un archivo con extensión [.d3dprj](archivos-de-proyecto-fotogrametrico.md).  
 Este archivo informa de las pasadas que tiene el proyecto así como de los modelos de cada pasada.

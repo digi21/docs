@@ -1,4 +1,5 @@
 # IR\_A
+<!-- id: ir-a -->
 
 Lleva el índice del restituidor Digi3D al punto donde esté el cursor o al punto que se le especifique.
 

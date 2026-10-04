@@ -1,4 +1,5 @@
 # Orientación
+<!-- id: orientacion -->
 
 [Ficha de herramientas Imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/)
 

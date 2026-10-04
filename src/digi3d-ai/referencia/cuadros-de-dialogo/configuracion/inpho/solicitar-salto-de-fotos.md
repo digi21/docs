@@ -1,4 +1,5 @@
 # Solicitar salto de fotos
+<!-- id: solicitar-salto-de-fotos -->
 
 Si se activa, se muestra un cuadro de diálogo solicitando el número de fotos a saltar al cargar un proyecto fotogramétrico.
 

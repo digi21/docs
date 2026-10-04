@@ -1,4 +1,5 @@
 # FIN
+<!-- id: fin -->
 
 Da por finalizada la sesión de trabajo sobre el fichero actual.
 

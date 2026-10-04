@@ -1,4 +1,5 @@
 # Midiendo la primera orientación absoluta de un proyecto
+<!-- id: midiendo-primera-orientacion-absoluta-proyecto -->
 
 El proceso de medir una orientación absoluta consiste en identificar en el modelo puntos con coordenadas conocidas. Estos puntos son los denominados puntos de apoyo.
 

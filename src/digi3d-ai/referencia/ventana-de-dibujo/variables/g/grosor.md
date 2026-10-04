@@ -1,4 +1,5 @@
 # GROSOR
+<!-- id: grosor -->
 
 Asigna un grosor adicional a las entidades que se visualizan en la ventana de dibujo.
 

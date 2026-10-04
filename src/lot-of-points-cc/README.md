@@ -1,4 +1,5 @@
 # Lot Of Points CC
+<!-- id: lot-of-points-cc -->
 
 **Lot Of Points Cloud Compare** es un visualizador de nubes de puntos densas obtenidas mediante el dispositivo Leica ScanStation  que proporciona las siguientes características:
 

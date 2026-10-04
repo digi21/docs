@@ -1,4 +1,5 @@
 # FORMATO\_AUTONUM
+<!-- id: formato-autonum -->
 
 Permite especificar el formato de la cadena de texto a dibujar cuando se utiliza la orden [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md).
 

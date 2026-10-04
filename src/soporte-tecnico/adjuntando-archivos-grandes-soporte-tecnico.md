@@ -1,4 +1,5 @@
 # Adjuntando archivos a un tique de soporte técnico
+<!-- id: adjuntando-archivos-grandes-soporte-tecnico -->
 
 Los archivos se adjuntan dentro del propio tique, al crearlo o al responder. No hay límite de tamaño por archivo ni por mensaje: puedes adjuntar imágenes de un vuelo o archivos _.las_ completos.
 

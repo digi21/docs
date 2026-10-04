@@ -1,4 +1,5 @@
 # BLOQUE\_2P
+<!-- id: bloque-2p -->
 
 Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán ser insertadas posteriormente en cualquier dibujo.
 

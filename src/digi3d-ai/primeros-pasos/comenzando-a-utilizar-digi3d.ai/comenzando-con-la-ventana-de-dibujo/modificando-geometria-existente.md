@@ -1,4 +1,5 @@
 # Modificando una geometría existente
+<!-- id: modificando-geometria-existente -->
 
 Aprende a **modificar una geometría existente** siguiendo los siguientes pasos:
 

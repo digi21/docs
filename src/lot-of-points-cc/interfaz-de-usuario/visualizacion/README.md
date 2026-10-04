@@ -1,4 +1,5 @@
 # Visualización
+<!-- id: visualizacion -->
 
 La pestaña Visualización proporciona comandos relacionados con la visualización de la nube de puntos, así como de posición/orientación de la cámara.
 

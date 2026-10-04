@@ -1,4 +1,5 @@
 # Archivos de conexión con PostGIS
+<!-- id: postgis -->
 
 Importador y exportador de **Archivos de conexión con PostGIS**.
 

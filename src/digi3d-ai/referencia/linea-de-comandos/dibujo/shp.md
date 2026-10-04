@@ -1,4 +1,5 @@
 # shp
+<!-- id: shp-2 -->
 
 Indica que el archivo de dibujo a abrir en la ventana de dibujo son los archivos _shapefile_ localizados en el directorio especificado.
 

@@ -1,4 +1,5 @@
 # MMI + Nube de puntos
+<!-- id: mmi-nube-de-puntos -->
 
 [Ficha de herramientas MMI](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-mmi.md)
 

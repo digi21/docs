@@ -1,4 +1,5 @@
 # Coordenada Z
+<!-- id: coordenada-z -->
 
 ![Barra de herramientas Coordenada Z](../../../images/coordenadaz.png)
 

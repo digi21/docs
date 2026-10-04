@@ -1,4 +1,5 @@
 # Redondear la cota Z de las curvas
+<!-- id: redondea-z -->
 
 Archivo: `redondea_z.py` · orden con parámetros.
 

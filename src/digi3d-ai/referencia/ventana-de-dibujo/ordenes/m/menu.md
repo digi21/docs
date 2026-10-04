@@ -1,4 +1,5 @@
 # MENU
+<!-- id: menu -->
 
 Lanza un menú de usuario de Digi3D a partir de su número.
 

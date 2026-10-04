@@ -1,4 +1,5 @@
 # ZOOM\_MEMORIA
+<!-- id: zoom-memoria -->
 
 Vuelve al factor de zoom anterior de la ventana fotogramétrica.
 

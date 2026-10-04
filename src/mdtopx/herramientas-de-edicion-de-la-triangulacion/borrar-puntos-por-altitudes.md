@@ -1,4 +1,5 @@
 # Borrar puntos por altitudes
+<!-- id: borrar-puntos-por-altitudes -->
 
 [Borrar vértices del TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/borra-vertices-del-tin.md)
 

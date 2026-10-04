@@ -1,4 +1,5 @@
 # Archivos ASCII de Kork
+<!-- id: kork -->
 
 Importador y exportador de **Archivos ASCII de Kork**.
 

@@ -1,4 +1,5 @@
 # Configuración
+<!-- id: configuracion -->
 
 ![Cuadro de diálogo Configuración](../../../../images/cuadrodialogoconfiguracion.png)
 

@@ -1,4 +1,5 @@
 # VER\_SOLO\_CÓDIGOS\_ACTIVOS
+<!-- id: ver-solo-codigos-activos -->
 
 Activa únicamente los códigos activos y apaga el resto, en la pantalla de dibujo y en la pantalla estereoscópica.
 

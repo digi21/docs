@@ -1,4 +1,5 @@
 # MIDE\_SEGMENTO\_XYZ
+<!-- id: mide-segmento-xyz -->
 
 Mide \(en el espacio, con la coordenada Z\) el segmento seleccionado en la línea seleccionada.
 

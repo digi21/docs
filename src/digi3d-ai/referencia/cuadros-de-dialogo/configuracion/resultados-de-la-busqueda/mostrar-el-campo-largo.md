@@ -1,4 +1,5 @@
 # Mostrar el campo Largo
+<!-- id: mostrar-el-campo-largo -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Largo**.
 

@@ -1,4 +1,5 @@
 # XYZLINEA
+<!-- id: xyzlinea -->
 
 Añade vértices a la orden que se esté ejecutando.
 

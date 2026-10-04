@@ -1,4 +1,5 @@
 # Tablas de códigos
+<!-- id: tablas-de-codigos -->
 
 Ahora no es posible cargar múltiples tablas de códigos simultáneamente, por lo tanto, ha desaparecido la antigua opción _Herramientas/Tablas_.
 

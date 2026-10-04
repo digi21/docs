@@ -1,4 +1,5 @@
 # RATON\_DIGI3D
+<!-- id: raton-digi3d -->
 
 Captura y descaptura el ratón de Windows en la ventana fotogramétrica.
 

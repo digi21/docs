@@ -1,4 +1,5 @@
 # EXTIENDE\_EXTREMO
+<!-- id: extiende-extremo -->
 
 Prolonga el extremo de una polilínea dinámicamente.
 

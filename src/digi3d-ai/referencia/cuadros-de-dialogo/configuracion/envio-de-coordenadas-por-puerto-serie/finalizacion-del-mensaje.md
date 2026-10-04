@@ -1,4 +1,5 @@
 # Finalización del mensaje
+<!-- id: finalizacion-del-mensaje -->
 
 Indica los bytes con los que finaliza cada mensaje enviado por el puerto serie.
 

@@ -1,4 +1,5 @@
 # ELIMINAR\_PUNTOS\_DOBLES
+<!-- id: eliminar-puntos-dobles -->
 
 Elimina los puntos dobles de las entidades del archivo de dibujo activo. Si no se indica ningún parámetro, se eliminan únicamente los que coincidan en X,Y,Z. Si el parámetro es distinto de 0, se eliminan también los que coincidan únicamente en X,Y.
 

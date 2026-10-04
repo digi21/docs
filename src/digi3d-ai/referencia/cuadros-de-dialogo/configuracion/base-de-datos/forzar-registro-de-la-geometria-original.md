@@ -1,4 +1,5 @@
 # Forzar registro de la geometría original
+<!-- id: forzar-registro-de-la-geometria-original -->
 
 Si se activa, las geometrías obtenidas a partir de otra existente (al mover, copiar, partir, duplicar, etc.) apuntarán al mismo registro de la base de datos que la geometría original.
 

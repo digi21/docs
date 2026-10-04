@@ -1,4 +1,5 @@
 # Cortar por hojas
+<!-- id: cortar-por-hojas -->
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
 

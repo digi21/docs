@@ -1,4 +1,5 @@
 # Ubicación del archivo de esquemas Von Grouber para orientaciones relativas
+<!-- id: ubicacion-esquemas-von-grouber -->
 
 Digi3D.AI no requiere de archivo de configuración de esquemas de relativa pues incorpora una opción que calcula las foto-coordenadas de Von Grouber automáticamente en función del tamaño de la imagen.
 

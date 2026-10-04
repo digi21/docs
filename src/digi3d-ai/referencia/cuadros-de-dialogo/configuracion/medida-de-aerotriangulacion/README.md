@@ -1,4 +1,5 @@
 # Medida de aerotriangulación
+<!-- id: medida-de-aerotriangulacion -->
 
 Configura la medida de aerotriangulación del sensor Cónico.
 

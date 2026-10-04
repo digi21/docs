@@ -1,4 +1,5 @@
 # Digi3D.AI
+<!-- id: digi3d-ai -->
 
 Digi3D.AI es una completa _Estación de Fotogrametría Digital_ que permite el registro de entidades geográficas a partir de imágenes aéreas, cámaras cónicas analógicas y digitales, Intergraph Digital Mapping Camera System, Vexcel UltraCamX, sensores de barrido como Leica ADS40/80, sensores satelitales como Ikonos, QuickBird, procedentes de Fotogrametría terrestre, a partir de ortofotos + MDTs y/o MDS y a partir de nubes de puntos densas.
 

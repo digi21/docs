@@ -1,4 +1,5 @@
 # Archivos de imagen 360 MMS
+<!-- id: archivos-de-imagen-360-mms -->
 
 [Módulo MMS](/mdtopx/modulo-mms/)
 

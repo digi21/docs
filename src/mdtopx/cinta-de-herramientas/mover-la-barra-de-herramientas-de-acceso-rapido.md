@@ -1,4 +1,5 @@
 # Mover la barra de herramientas de acceso rápido
+<!-- id: mover-la-barra-de-herramientas-de-acceso-rapido -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

@@ -1,4 +1,5 @@
 # Activar ordenador
+<!-- id: activar-ordenador -->
 
 Este programa activa un ordenador en una determinada llave de protección. Este programa requiere de una conexión a Internet. Si el ordenador que pretendes activar en la llave de protección no dispone de conexión a internet, utiliza el programa [Activar ordenador Offline](/acerca-llaves-proteccion/programas-relacionados-con-licencias-y-llaves-de-proteccion/activar-ordenador-offline/).\
 \

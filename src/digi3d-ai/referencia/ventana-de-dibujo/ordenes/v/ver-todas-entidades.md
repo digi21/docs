@@ -1,4 +1,5 @@
 # VER\_TODAS\_ENTIDADES
+<!-- id: ver-todas-entidades -->
 
 Activa la visualización de todas las entidades.
 

@@ -1,4 +1,5 @@
 # Rotular vial
+<!-- id: rotular-vial -->
 
 [Viales General](../../fichas-de-herramientas/ficha-de-herramientas-viales/viales-general.md)
 

@@ -1,4 +1,5 @@
 # SELECCIONA\_FUERA\_POLIGONO
+<!-- id: selecciona-fuera-poligono -->
 
 Permite digitalizar un nuevo polígono y selecciona todas las entidades que estén completamente fuera del polígono.
 

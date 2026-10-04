@@ -1,4 +1,5 @@
 # VER\_SOLO\_ENTIDADES\_SIN\_ENLACE\_BBDD
+<!-- id: ver-solo-entidades-sin-enlace-bbdd -->
 
 Muestra únicamente las entidades en las que ninguno de sus códigos tiene enlace a la base de datos.
 

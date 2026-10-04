@@ -1,4 +1,5 @@
 # BORRAR\_TAREAS
+<!-- id: borrar-tareas -->
 
 Borra las tareas que se muestran en ese momento en la ventana de tareas.
 

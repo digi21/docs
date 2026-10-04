@@ -1,4 +1,5 @@
 # Importador/Exportador de archivos binarios de precisión simple (*.bin)
+<!-- id: importador-exportador-de-archivos-binarios-de-precision-simple -->
 
 Configuración del importador/exportador de archivos binarios de precisión simple (BIN).
 

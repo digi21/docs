@@ -1,4 +1,5 @@
 # CUADROS\_4P
+<!-- id: cuadros-4p -->
 
 Dibuja escaleras o matrices de polígonos de cuatro lados.
 

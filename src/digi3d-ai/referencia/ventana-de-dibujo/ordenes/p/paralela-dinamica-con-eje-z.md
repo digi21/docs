@@ -1,4 +1,5 @@
 # PARALELA\_DINAMICA\_CON\_EJE\_Z
+<!-- id: paralela-dinamica-con-eje-z -->
 
 Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros. Se calcula la diferencia de Z entre el punto seleccionado y el digitalizado.
 

@@ -1,4 +1,5 @@
 # Control topológico
+<!-- id: control-topologico -->
 
 Configura la orden [CONTROL\_TOPOLOGICO\_CASES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-topologico-cases.md).
 

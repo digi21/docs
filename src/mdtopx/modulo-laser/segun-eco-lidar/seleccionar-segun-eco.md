@@ -1,4 +1,5 @@
 # Seleccionar según eco
+<!-- id: seleccionar-segun-eco -->
 
 [Según eco LIDAR](/mdtopx/modulo-laser/segun-eco-lidar/)
 

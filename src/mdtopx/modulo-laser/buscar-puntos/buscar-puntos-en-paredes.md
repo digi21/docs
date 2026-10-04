@@ -1,4 +1,5 @@
 # Buscar puntos en Paredes
+<!-- id: buscar-puntos-en-paredes -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

@@ -1,4 +1,5 @@
 # Introducción a los Sistemas de Referencia de Coordenadas
+<!-- id: introduccion-sistemas-referencia-coordenadas -->
 
 ## Localización de una coordenada en la tierra
 

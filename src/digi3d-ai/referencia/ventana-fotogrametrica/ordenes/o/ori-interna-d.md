@@ -1,4 +1,5 @@
 # ORI\_INTERNA\_D
+<!-- id: ori-interna-d -->
 
 Realiza la **Orientación Interna** de la imagen derecha del par estereoscópico cargado en la ventana fotogramétrica.
 

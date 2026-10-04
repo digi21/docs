@@ -1,4 +1,5 @@
 # ANULA\_ORDENES
+<!-- id: anula-ordenes -->
 
 Deja de ejecutar la orden que se está ejecutando en ese momento y las órdenes que esta haya interrumpido.
 

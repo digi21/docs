@@ -1,4 +1,5 @@
 # Velocidad en baudios
+<!-- id: velocidad-en-baudios -->
 
 Indica la velocidad, en baudios, a la que se envía la información por el puerto serie. Debe coincidir con la velocidad configurada en el dispositivo receptor.
 

@@ -1,4 +1,5 @@
 # ASIGNAR\_ETIQUETAS\_ARCHIVO\_DIBUJO
+<!-- id: asignar-etiquetas-archivo-dibujo -->
 
 Recibe dos parámetros: [ruta al archivo de dibujo] [etiquetas a asignar]. Asigna las etiquetas al archivo en el panel de archivos de dibujo.
 

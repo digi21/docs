@@ -1,4 +1,5 @@
 # Cubicación de acopios
+<!-- id: mdtopx-acopios -->
 
 Funciones del paquete [`mdtopx`](mdtopx.md) para clasificar la nube de puntos del interior de una nave
 (por ejemplo, un escaneo SLAM) y **cubicar los acopios** de material que hay en ella. Es el mismo

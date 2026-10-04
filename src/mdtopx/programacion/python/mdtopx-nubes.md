@@ -1,4 +1,5 @@
 # Nubes de puntos
+<!-- id: mdtopx-nubes -->
 
 Funciones del paquete [`mdtopx`](mdtopx.md) para nubes de puntos: filtrado por rejilla, ajuste de
 planos y troceado o filtrado de archivos sin cargarlos en memoria.

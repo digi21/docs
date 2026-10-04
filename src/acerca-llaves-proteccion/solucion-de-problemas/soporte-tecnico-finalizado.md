@@ -1,4 +1,5 @@
 # Soporte técnico finalizado
+<!-- id: soporte-tecnico-finalizado -->
 
 Estás intentando ejecutar una versión de cualquiera de nuestros programas publicada con fecha posterior a la fecha máxima de soporte técnico que habías contratado.
 

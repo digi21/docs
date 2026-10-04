@@ -1,4 +1,5 @@
 # digi21.io
+<!-- id: digi21.io -->
 
 Lectura de archivos de dibujo de Digi3D.AI. Hay un **módulo independiente por formato**,
 y todos comparten la misma interfaz: una función `open` que devuelve un

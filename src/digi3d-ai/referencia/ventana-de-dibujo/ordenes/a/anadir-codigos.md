@@ -1,4 +1,5 @@
 # ANADIR\_CODIGOS
+<!-- id: anadir-codigos -->
 
 Añade los códigos de la lista de códigos activos a una entidad seleccionada.
 

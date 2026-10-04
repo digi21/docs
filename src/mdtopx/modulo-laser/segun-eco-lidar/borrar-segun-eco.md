@@ -1,4 +1,5 @@
 # Borrar según eco
+<!-- id: borrar-segun-eco -->
 
 [Según eco LIDAR](/mdtopx/modulo-laser/segun-eco-lidar/)
 

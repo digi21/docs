@@ -1,4 +1,5 @@
 # Aerotriangulación manual
+<!-- id: aerotriangulacion-manual -->
 
 Digi3D.AI permite medir aerotriangulaciones de manera manual.
 

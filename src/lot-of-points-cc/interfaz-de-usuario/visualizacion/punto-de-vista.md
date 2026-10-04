@@ -1,4 +1,5 @@
 # Punto de vista
+<!-- id: punto-de-vista-2 -->
 
 Este grupo agrupa comandos para cambiar la orientación y posición de la cámara.
 

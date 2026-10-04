@@ -1,4 +1,5 @@
 # PATRON
+<!-- id: patron -->
 
 Activa y desactiva la visualización en pantalla de los patrones de línea en el fichero de dibujo.
 

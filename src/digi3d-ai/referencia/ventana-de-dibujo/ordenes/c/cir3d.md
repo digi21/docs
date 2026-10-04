@@ -1,4 +1,5 @@
 # CIR3D
+<!-- id: cir3d -->
 
 Dibuja la circunferencia que pasa por tres puntos dados, en el plano que definen esos tres puntos.
 

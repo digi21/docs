@@ -1,4 +1,5 @@
 # Digi21.DigiNG.IO
+<!-- id: digi21.diging.io -->
 
 Proporciona los tipos relacionados con archivos de dibujo.
 

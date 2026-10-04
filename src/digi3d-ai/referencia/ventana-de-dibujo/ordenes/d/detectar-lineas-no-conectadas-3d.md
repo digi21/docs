@@ -1,4 +1,5 @@
 # DETECTAR\_LINEAS\_NO\_CONECTADAS\_3D
+<!-- id: detectar-lineas-no-conectadas-3d -->
 
 Crea una tarea de error por cada extremo de línea que no esté conectado por código en 3D.
 

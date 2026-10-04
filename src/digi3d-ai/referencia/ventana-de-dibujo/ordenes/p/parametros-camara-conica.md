@@ -1,4 +1,5 @@
 # PARAMETROS\_CAMARA\_CONICA
+<!-- id: parametros-camara-conica -->
 
 Asigna parámetros de la cámara cónica.
 

@@ -1,4 +1,5 @@
 # SALIR
+<!-- id: salir -->
 
 Guarda el archivo de dibujo activo y cierra Digi3D.AI.
 

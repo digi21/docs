@@ -1,4 +1,5 @@
 # Substring
+<!-- id: substring -->
 
 Devuelve _Cantidad_ caracteres desde la posición _Inicio_ de la macro sobre la que se ejecuta esta función.
 

@@ -1,4 +1,5 @@
 # Cambiando la velocidad de la ventana fotogramétrica
+<!-- id: cambiando-la-velocidad-ventana-foto -->
 
 Puedes cambiar la velocidad con la que te desplazas en la ventana fotogramétrica para desplazarte más rápido o con más precisión.
 

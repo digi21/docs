@@ -1,4 +1,5 @@
 # Triangulación 3D
+<!-- id: triangulacion-3d -->
 
 [Obtener modelo digital](/mdtopx/modulo-laser/obtener-modelo-digital/)
 

@@ -1,4 +1,5 @@
 # ZOOMV
+<!-- id: zoomv -->
 
 Visualiza por pantalla el contenido de una zona de dibujo que el usuario ha de indicar, delimitando el contorno con una ventana.
 

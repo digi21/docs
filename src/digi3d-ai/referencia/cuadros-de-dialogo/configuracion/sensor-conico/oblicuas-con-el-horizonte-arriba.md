@@ -1,4 +1,5 @@
 # Oblicuas con el horizonte arriba
+<!-- id: oblicuas-con-el-horizonte-arriba -->
 
 Indica cómo se muestran los pares oblicuos cuando las imágenes se presentan proyectadas \(opción [Modo de presentación de imágenes](modo-de-presentacion-de-imagenes.md) en **Proyectar**\).
 

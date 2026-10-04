@@ -1,4 +1,5 @@
 # VER\_DESCONOCIDO
+<!-- id: ver-desconocido -->
 
 Activa o desactiva la visualización de elementos desconocidos.
 

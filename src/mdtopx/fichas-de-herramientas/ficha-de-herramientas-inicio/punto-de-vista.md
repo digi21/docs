@@ -1,4 +1,5 @@
 # Punto de Vista
+<!-- id: punto-de-vista -->
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 

@@ -1,4 +1,5 @@
 # Formato
+<!-- id: formato -->
 
 El archivo de configuración de teclas tiene un nodo principal Keyboard que tiene a su vez nodos hijos de tipo Key.
 

@@ -1,4 +1,5 @@
 # Sistemas de Referencia de Coordenadas Compuestos
+<!-- id: sistemas-referencia-coordenadas-compuestos -->
 
 Digi3D.AI únicamente permite trabajar con sistemas de referencia de coordenadas _3D_. En la mayoría de ocasiones querremos seleccionar un sistema de referencia de coordenadas proyectado, pero estos son _2D_, por lo tanto no son directamente seleccionables por Digi3D.AI. La solución son los sistemas de referencia de coordenadas compuestos, que son la composición de dos sistemas de referencia de coordenadas: uno horizontal \(_2D_\) y uno vertical \(_1D_\) dando como resultado un sistema de referencia de coordenadas _3D_.
 

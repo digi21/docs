@@ -1,4 +1,5 @@
 # Seleccionar según punto de registro
+<!-- id: seleccionar-segun-punto-de-registro -->
 
 [Según punto de registro](/mdtopx/modulo-laser/segun-punto-de-registro/)
 

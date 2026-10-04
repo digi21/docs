@@ -1,4 +1,5 @@
 # Variables
+<!-- id: variables -->
 
 Las variables son un tipo especial de orden que no realizan ninguna acción, sino que sirven para que almacenemos valores que utilizarán otras órdenes con posterioridad.
 

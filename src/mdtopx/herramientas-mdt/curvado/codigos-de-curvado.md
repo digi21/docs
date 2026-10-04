@@ -1,4 +1,5 @@
 # Códigos de Curvado
+<!-- id: codigos-de-curvado -->
 
 [Cuadro de diálogo Curvado](./)
 

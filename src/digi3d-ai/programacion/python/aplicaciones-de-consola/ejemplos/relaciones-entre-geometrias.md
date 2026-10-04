@@ -1,4 +1,5 @@
 # Relaciones entre geometrías
+<!-- id: relaciones-entre-geometrias -->
 
 Toda [geometría](../../referencia/digi21.base/geometry.md) dispone de métodos para consultar
 su relación espacial con otra, al estilo de bibliotecas como Shapely:

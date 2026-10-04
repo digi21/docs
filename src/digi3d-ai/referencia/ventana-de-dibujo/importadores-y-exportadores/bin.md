@@ -1,4 +1,5 @@
 # Archivos Digi
+<!-- id: bin -->
 
 Importador y exportador de **Archivos Digi**.
 

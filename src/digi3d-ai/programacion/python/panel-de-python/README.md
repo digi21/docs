@@ -1,4 +1,5 @@
 # Panel de Python
+<!-- id: panel-de-python -->
 
 Digi3D.AI incorpora un **intérprete de Python embebido** que ejecuta guiones **dentro de la
 propia aplicación**, con acceso a la **ventana de dibujo activa**, las órdenes, los paneles y

@@ -1,4 +1,5 @@
 # Opciones de generalización
+<!-- id: curvado-avanzado -->
 
 ![Cuadro de diálogo Opciones de generalización](../../../images/image-46.png)
 

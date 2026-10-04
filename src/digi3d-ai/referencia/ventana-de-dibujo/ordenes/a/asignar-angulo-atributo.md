@@ -1,4 +1,5 @@
 # ASIGNAR\_ANGULO\_ATRIBUTO
+<!-- id: asignar-angulo-atributo -->
 
 Solicita al usuario que digitalice dos puntos y asigna el ángulo trigonométrico del segundo respecto al primero en el campo de base de datos pasado por parámetros.
 

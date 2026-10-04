@@ -1,4 +1,5 @@
 # Superficie mágica
+<!-- id: superficie-magica -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

@@ -1,4 +1,5 @@
 # Secciones Tipo
+<!-- id: secciones-tipo -->
 
 [Ficha de herramientas Viales](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/)
 

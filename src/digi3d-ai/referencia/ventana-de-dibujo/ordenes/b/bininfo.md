@@ -1,4 +1,5 @@
 # BININFO
+<!-- id: bininfo -->
 
 Visualiza por pantalla información relativa a las entidades de los ficheros de dibujo cargados.
 

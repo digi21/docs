@@ -1,4 +1,5 @@
 # Paquete `mdtopx.io`
+<!-- id: mdtopx-io -->
 
 El paquete `mdtopx.io` da acceso a los **formatos de archivo** de MDTopX. Cada formato es un
 **plugin** (una DLL) y tiene un módulo de Python propio dentro de uno de estos subpaquetes, según el

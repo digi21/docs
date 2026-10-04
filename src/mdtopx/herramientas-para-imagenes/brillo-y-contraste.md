@@ -1,4 +1,5 @@
 # Brillo y contraste
+<!-- id: brillo-y-contraste -->
 
 [Editar imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/editar-imagen.md)
 

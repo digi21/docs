@@ -1,4 +1,5 @@
 # Líneas eléctricas
+<!-- id: lineas-electricas -->
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
 

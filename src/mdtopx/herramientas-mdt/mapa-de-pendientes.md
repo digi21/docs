@@ -1,4 +1,5 @@
 # Mapa de Pendientes
+<!-- id: mapa-de-pendientes -->
 
 [Mapa de pendientes](/mdtopx/como/como-mapa-de-pendientes.md)
 

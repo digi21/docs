@@ -1,4 +1,5 @@
 # Dibujando puntos, patrón y escala de dibujo
+<!-- id: dibujando-puntos-patron-escala -->
 
 1. Pulsa los prismáticos en la [Barra de herramientas Código](/digi3d-ai/referencia/barras-de-herramientas/codigo.md). Aparece el cuadro de diálogo **Seleccione códigos**, aquí podemos ver los distintos códigos que tiene la tabla de códigos que seleccionamos cuando creamos el archivo de dibujo:
 

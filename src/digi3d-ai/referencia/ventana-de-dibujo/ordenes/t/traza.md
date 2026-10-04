@@ -1,4 +1,5 @@
 # TRAZA
+<!-- id: traza -->
 
 Crea un gráfico de hojas en forma de traza con centroides para crear con posterioridad hojas con la orden [RECORTA\_TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recorta-traza.md).
 

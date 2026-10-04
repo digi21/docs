@@ -1,4 +1,5 @@
 # SELECCIONA\_ULTIMO
+<!-- id: selecciona-ultimo -->
 
 Selecciona la última entidad registrada en el fichero de dibujo, cuando se ha ejecutado una orden en la cual se pide seleccionar una entidad.
 

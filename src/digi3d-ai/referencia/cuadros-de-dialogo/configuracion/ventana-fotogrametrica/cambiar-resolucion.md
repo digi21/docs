@@ -1,4 +1,5 @@
 # Cambiar resolución
+<!-- id: cambiar-resolucion -->
 
 Indica si se cambia la resolución del monitor al cargar una vista estereoscópica.
 

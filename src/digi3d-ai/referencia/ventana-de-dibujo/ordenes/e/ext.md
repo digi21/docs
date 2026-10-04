@@ -1,4 +1,5 @@
 # EXT
+<!-- id: ext -->
 
 Estira o recorta una entidad hasta el punto de intersección con otra entidad dada.
 

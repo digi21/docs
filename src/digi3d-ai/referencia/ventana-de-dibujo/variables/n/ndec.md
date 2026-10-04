@@ -1,4 +1,5 @@
 # NDEC
+<!-- id: ndec -->
 
 Fija el número de decimales que van a aparecer en los textos numéricos utilizados para indicar valores de coordenadas X Y Z, distancias, superficies, etc.
 

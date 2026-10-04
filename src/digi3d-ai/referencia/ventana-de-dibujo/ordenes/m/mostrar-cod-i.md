@@ -1,4 +1,5 @@
 # MOSTRAR\_COD\_I
+<!-- id: mostrar-cod-i -->
 
 Muestra todos los códigos de los segmentos que forman un recinto topológico por inundación.
 

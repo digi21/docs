@@ -1,4 +1,5 @@
 # COTA
+<!-- id: cota -->
 
 Digitaliza una cota altimétrica.
 

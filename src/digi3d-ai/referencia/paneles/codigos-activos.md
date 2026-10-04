@@ -1,4 +1,5 @@
 # Códigos activos
+<!-- id: codigos-activos -->
 
 ![Panel códigos activos mostrando como códigos activos el 050146 y 060533](../../../images/panelcodigosactivos.png)
 

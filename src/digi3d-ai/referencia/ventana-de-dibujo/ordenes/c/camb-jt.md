@@ -1,4 +1,5 @@
 # CAMB\_JT
+<!-- id: camb-jt -->
 
 Modifica la justificación de uno o varios textos existentes en el dibujo.
 

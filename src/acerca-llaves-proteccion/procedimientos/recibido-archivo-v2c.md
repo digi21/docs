@@ -1,4 +1,5 @@
 # Recibido archivo V2C
+<!-- id: recibido-archivo-v2c -->
 
 Si has convertido una llave de protección provisional a permanente, o si has comprado algún producto y has indicado que quieres almacenar las licencias en una llave de protección de tu propiedad \(independientemente de si esta llave de protección es por software permanente o por hardware\), te habremos enviado un archivo con extensión: _.v2_c.
 

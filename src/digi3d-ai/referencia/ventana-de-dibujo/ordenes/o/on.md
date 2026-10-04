@@ -1,4 +1,5 @@
 # ON
+<!-- id: on -->
 
 Activa la visualización de uno o varios códigos en la ventana de dibujo.
 

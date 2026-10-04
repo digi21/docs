@@ -1,4 +1,5 @@
 # INSR
+<!-- id: insr -->
 
 Permite insertar un bloque, almacenado en un fichero de dibujo, en una determinada posición del fichero de trabajo actual.
 

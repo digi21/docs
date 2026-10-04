@@ -1,4 +1,5 @@
 # MOD\_Z\_MÚLTIPLE
+<!-- id: mod-z-multiple -->
 
 Modifica el trazado geométrico de varias entidades en XYZ.
 

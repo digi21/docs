@@ -1,4 +1,5 @@
 # Imagen Cubicación
+<!-- id: imagen-cubicacion -->
 
 [Generar a partir del TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/generar-a-partir-del-tin.md)
 

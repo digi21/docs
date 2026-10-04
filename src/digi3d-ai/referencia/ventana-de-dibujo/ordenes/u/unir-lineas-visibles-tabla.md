@@ -1,4 +1,5 @@
 # UNIR\_LINEAS\_VISIBLES\_TABLA
+<!-- id: unir-lineas-visibles-tabla -->
 
 Une las lineas visibles en pantalla siempre que al nodo no lleguen más de dos entidades con el mismo código.(siempre que tengan el mismo código y continuidad geométrica).
 

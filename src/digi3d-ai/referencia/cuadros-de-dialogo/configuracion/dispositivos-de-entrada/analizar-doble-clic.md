@@ -1,4 +1,5 @@
 # Analizar doble clic
+<!-- id: analizar-doble-clic -->
 
 Indica si Digi3D.AI analizará las pulsaciones del pedal/botón de Dato y enviará eventos de tipo doble clic.
 

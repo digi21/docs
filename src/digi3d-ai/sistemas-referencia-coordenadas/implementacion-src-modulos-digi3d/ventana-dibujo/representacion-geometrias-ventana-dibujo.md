@@ -1,4 +1,5 @@
 # Representación de geometrías en la ventana de dibujo
+<!-- id: representacion-geometrias-ventana-dibujo -->
 
 La ventana de dibujo muestra las geometrías en el sistema de referencia de coordenadas seleccionado.
 

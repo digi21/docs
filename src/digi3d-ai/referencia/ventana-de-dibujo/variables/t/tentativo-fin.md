@@ -1,4 +1,5 @@
 # TENTATIVO\_FIN
+<!-- id: tentativo-fin -->
 
 Si está activa, finaliza automáticamente el registro de un elemento lineal cuando se acepta un tentativo sobre otra entidad.
 

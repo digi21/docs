@@ -1,4 +1,5 @@
 # Borrar según color registrado
+<!-- id: borrar-segun-color-registrado -->
 
 [Según color registrado](/mdtopx/modulo-laser/segun-color-registrado/)
 

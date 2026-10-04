@@ -1,4 +1,5 @@
 # BORRA\_V
+<!-- id: borra-v -->
 
 Borra el dibujo de las entidades gráficas que se encuentran dentro de los límites de una entidad, definida previamente por el usuario.
 

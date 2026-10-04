@@ -1,4 +1,5 @@
 # CREAR\_VISTA\_BBDD
+<!-- id: crear-vista-bbdd -->
 
 Crea un archivo de dibujo virtual que muestra campos de base de datos de un archivo de dibujo determinado.
 

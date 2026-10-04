@@ -1,4 +1,5 @@
 # Copiar atributos de BBDD al clonar
+<!-- id: copiar-atributos-de-bbdd-al-clonar -->
 
 Indica si, al clonar una entidad, se copian los atributos de la base de datos de la entidad original a la nueva.
 

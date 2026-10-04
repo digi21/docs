@@ -1,4 +1,5 @@
 # Objetos MDT
+<!-- id: objetos-mdt -->
 
 [Ficha de herramientas Edición TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/)
 

@@ -1,4 +1,5 @@
 # INS
+<!-- id: ins -->
 
 Inserta un fichero de dibujo en el fichero de trabajo.
 

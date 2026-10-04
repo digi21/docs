@@ -1,4 +1,5 @@
 # Licencia y copyright
+<!-- id: licencia-y-copyright -->
 
 Vexcel, UltraCam, ActiveX, Internet Explorer, Microsoft, Visual Basic, Visual Basic .NET, Visual C# .NET, Visual C++ .NET, Visual Studio, Visual Studio, Windows, Windows 95, Windows 98, Windows 2000, Windows Millennium Edition, Windows .NET server family, Windows NT, Windows XP, Windows Vista y Windows 7 son marcas registradas o marcas comerciales de Microsoft Corporation en los Estados Unidos y/o en otros países.
 

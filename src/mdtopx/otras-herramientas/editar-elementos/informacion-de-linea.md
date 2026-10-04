@@ -1,4 +1,5 @@
 # Información de línea
+<!-- id: informacion-de-linea -->
 
 [Elementos](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
 

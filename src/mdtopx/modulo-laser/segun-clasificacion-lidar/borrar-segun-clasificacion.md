@@ -1,4 +1,5 @@
 # Borrar según clasificación
+<!-- id: borrar-segun-clasificacion -->
 
 [Según clasificación LIDAR](/mdtopx/modulo-laser/segun-clasificacion-lidar/)
 

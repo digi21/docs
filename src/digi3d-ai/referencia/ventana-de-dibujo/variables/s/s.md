@@ -1,4 +1,5 @@
 # S
+<!-- id: s-3 -->
 
 Indica si _Digi3D.AI_ suavizará automáticamente la línea que está digitalizando al finalizarla.
 

@@ -1,4 +1,5 @@
 # PUNTO\_R
+<!-- id: punto-r -->
 
 Inserta un símbolo puntual en el dibujo permitiendo al usuario indicar una rotación.
 

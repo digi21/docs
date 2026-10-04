@@ -1,4 +1,5 @@
 # Listado secciones tipo
+<!-- id: listado-secciones-tipo -->
 
 [Secciones Tipo](/mdtopx/modulo-viales/secciones-tipo/)
 

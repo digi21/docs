@@ -1,4 +1,5 @@
 # Digi21.Utilities
+<!-- id: digi21.utilities -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.Utilities/) proporciona herramientas y utilidades para el desarrollo de aplicaciones con el motor de Digi3D.AI.
 

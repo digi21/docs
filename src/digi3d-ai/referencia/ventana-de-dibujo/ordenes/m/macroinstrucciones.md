@@ -1,4 +1,5 @@
 # MACROINSTRUCCIONES
+<!-- id: macroinstrucciones-2 -->
 
 Ejecuta macroinstrucciones, también llamadas arrobas.
 

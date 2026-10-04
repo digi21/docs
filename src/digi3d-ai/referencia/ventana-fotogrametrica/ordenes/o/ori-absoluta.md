@@ -1,4 +1,5 @@
 # ORI\_ABSOLUTA
+<!-- id: ori-absoluta -->
 
 Realiza la **Orientación Absoluta** del modelo cargado en la ventana fotogramétrica.
 

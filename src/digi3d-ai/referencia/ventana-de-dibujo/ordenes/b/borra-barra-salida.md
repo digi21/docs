@@ -1,4 +1,5 @@
 # BORRA\_BARRA\_SALIDA
+<!-- id: borra-barra-salida -->
 
 Borra el contenido de la barra de salida.
 

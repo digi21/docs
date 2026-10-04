@@ -1,4 +1,5 @@
 # Perfiles de cubicación
+<!-- id: perfiles-de-cubicacion -->
 
 [Cuadro de diálogo Cubicación](./)
 

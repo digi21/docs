@@ -1,4 +1,5 @@
 # PRODUCCION
+<!-- id: produccion -->
 
 Permite generar un fichero con la información acerca de la producción del archivo de dibujo abierto en ese momento.
 

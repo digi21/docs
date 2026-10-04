@@ -1,4 +1,5 @@
 # Macroinstrucciones
+<!-- id: macroinstrucciones -->
 
 Las macroinstrucciones son una secuencia de órdenes a las que se les asigna un nombre.
 

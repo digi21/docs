@@ -1,4 +1,5 @@
 # CONTROL\_CALIDAD\_ENTIDADES\_VISIBLES
+<!-- id: control-calidad-entidades-visibles -->
 
 Realiza análisis de control de calidad a las entidades visibles
 

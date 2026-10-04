@@ -1,4 +1,5 @@
 # JUNTAR
+<!-- id: juntar -->
 
 Traslada todos los puntos en un entorno, que será determinado por el tamaño del cursor, a un mismo punto. Solo cambian las coordenadas X e Y de los vértices; la Z no cambia.
 

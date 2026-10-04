@@ -1,4 +1,5 @@
 # LISTA
+<!-- id: lista -->
 
 Nos da información de la entidad que se ha seleccionado.
 

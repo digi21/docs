@@ -1,4 +1,5 @@
 # EXPLOTAR\_POLIGONO
+<!-- id: explotar-poligono -->
 
 Divide el polígono en todas las entidades que lo forman.
 

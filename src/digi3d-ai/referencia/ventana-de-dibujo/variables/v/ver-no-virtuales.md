@@ -1,4 +1,5 @@
 # VER\_NO\_VIRTUALES
+<!-- id: ver-no-virtuales -->
 
 Activa o desactiva la visualización de las entidades no virtuales.
 

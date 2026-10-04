@@ -1,4 +1,5 @@
 # CAMARA\_ORTOFONAL
+<!-- id: camara-ortofonal -->
 
 Asigna como cámara en la ventana de dibujo una cámara ortogonal.
 

@@ -1,4 +1,5 @@
 # CORTAR\_F
+<!-- id: cortar-f -->
 
 Genera un nuevo fichero con los elementos que se encuentren dentro de los límites de una entidad de dibujo elegida por el usuario.
 

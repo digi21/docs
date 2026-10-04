@@ -1,4 +1,5 @@
 # RECORTAR\_POLÍGONO
+<!-- id: recortar-poligono -->
 
 Recorta un polígono eliminando la parte de éste que intersecciona con un límite.
 

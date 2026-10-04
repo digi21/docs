@@ -1,4 +1,5 @@
 # Exportar archivos BIN, DXF o DGN
+<!-- id: exportar-archivos-bin-dxf-o-dgn -->
 
 La aplicación permite exportar el modelo digital a formato de archivo de dibujo para DIGI, AutoCad o MicroStation. Cuando se exporta a alguno de estos formatos transforma la información en entidades de dibujo, por ello, se perderán las condiciones para poder ser utilizado posteriormente en cálculos con modelos digitales, ya que se tratarán sólo de dibujos.
 

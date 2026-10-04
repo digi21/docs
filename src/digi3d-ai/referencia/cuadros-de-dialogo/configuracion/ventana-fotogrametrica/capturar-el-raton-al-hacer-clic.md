@@ -1,4 +1,5 @@
 # Capturar el ratón al hacer clic
+<!-- id: capturar-el-raton-al-hacer-clic -->
 
 Indica si se captura el ratón en la vista estereoscópica al hacer clic sobre ella.
 

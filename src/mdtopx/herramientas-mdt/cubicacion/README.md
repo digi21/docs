@@ -1,4 +1,5 @@
 # Cubicación
+<!-- id: cubicacion -->
 
 [Cubicación](/mdtopx/desde-linea-de-comando/linea-de-comando-cubicacion.md)
 

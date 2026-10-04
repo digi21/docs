@@ -1,4 +1,5 @@
 # CARGAR\_TAREAS
+<!-- id: cargar-tareas -->
 
 Carga un fichero de tareas previamente generado con la orden [GUARDAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guardar-tareas.md) en la ventana de tareas en el momento de la ejecución de la orden.
 

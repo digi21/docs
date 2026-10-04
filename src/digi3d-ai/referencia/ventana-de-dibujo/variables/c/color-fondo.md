@@ -1,4 +1,5 @@
 # COLOR_FONDO
+<!-- id: color-fondo -->
 
 Cambia el color de fondo de la ventana de dibujo.
 

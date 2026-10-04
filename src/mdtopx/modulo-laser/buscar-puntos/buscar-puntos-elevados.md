@@ -1,5 +1,6 @@
 
 # Buscar puntos elevados
+<!-- id: buscar-puntos-elevados -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

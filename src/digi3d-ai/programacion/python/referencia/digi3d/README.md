@@ -1,4 +1,5 @@
 # Módulo digi3d
+<!-- id: digi3d-4 -->
 
 `digi3d` es el módulo que Digi3D.AI pone a disposición de los guiones que se ejecutan **dentro
 del programa**: el [panel de Python](../../panel-de-python/README.md) y los

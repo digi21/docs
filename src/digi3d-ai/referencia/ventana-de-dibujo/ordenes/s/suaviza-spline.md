@@ -1,4 +1,5 @@
 # SUAVIZA\_SPLINE
+<!-- id: suaviza-spline -->
 
 Suaviza una línea creando una spline cúbica.
 

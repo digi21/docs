@@ -1,4 +1,5 @@
 # IR\_A\_PUNTO\_APOYO
+<!-- id: ir-a-punto-apoyo -->
 
 Mueve el restituidor a un punto de apoyo elegido de un archivo de puntos.
 

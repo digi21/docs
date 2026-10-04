@@ -1,4 +1,5 @@
 # SELECCIONA\_LINEA
+<!-- id: selecciona-linea -->
 
 Selecciona aquellas líneas que crucen con una línea virtual generada por el usuario.
 

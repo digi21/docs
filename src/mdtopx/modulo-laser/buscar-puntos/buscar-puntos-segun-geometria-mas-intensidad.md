@@ -1,4 +1,5 @@
 # Buscar puntos según geometría más intensidad
+<!-- id: buscar-puntos-segun-geometria-mas-intensidad -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

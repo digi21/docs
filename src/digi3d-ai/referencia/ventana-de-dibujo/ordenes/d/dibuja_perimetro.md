@@ -1,4 +1,5 @@
 # DIBUJA\_PERÍMETRO
+<!-- id: dibuja-perimetro -->
 
 Calcula el perímetro \(la longitud\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición indicada por el usuario.
 

@@ -1,4 +1,5 @@
 # MOSTRAR\_ESTEREO
+<!-- id: mostrar-stereo -->
 
 Elige qué se muestra en la ventana fotogramétrica: la imagen ráster, la superposición o las dos.
 

@@ -1,4 +1,5 @@
 # DETECTAR\_ERRORES\_ATRIBUTOS\_BBDD\_CASES
+<!-- id: detectar-errores-atributos-bbdd-cases -->
 
 Detecta líneas y polígonos de dos archivos de dibujo distintos que tienen continuidad geométrica pero con atributos de BBDD distintos.
 

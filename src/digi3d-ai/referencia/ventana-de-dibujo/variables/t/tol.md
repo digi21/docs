@@ -1,4 +1,5 @@
 # TOL
+<!-- id: tol-2 -->
 
 Establece el _factor de tolerancia_ en el proceso de [generalización](tol.md).
 

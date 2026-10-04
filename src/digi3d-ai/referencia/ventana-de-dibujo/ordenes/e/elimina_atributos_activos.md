@@ -1,4 +1,5 @@
 # ELIMINA\_ATRIBUTOS\_ACTIVOS
+<!-- id: elimina-atributos-activos -->
 
 Elimina todos los atributos del panel [atributos-activos.md](../../../paneles/atributos-activos.md).
 

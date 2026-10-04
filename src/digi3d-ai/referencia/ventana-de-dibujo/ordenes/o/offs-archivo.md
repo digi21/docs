@@ -1,4 +1,5 @@
 # OFFS\_ARCHIVO
+<!-- id: offs-archivo -->
 
 Desactiva códigos en la ventana fotogramétrica para un determinado número de archivo.
 

@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Plugin.TaskPanel
+<!-- id: digi21.diging.plugin.taskpanel -->
 
 Proporciona tareas relacionadas con la ventana de dibujo de Digi3D.AI.
 

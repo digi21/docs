@@ -1,4 +1,5 @@
 # Otras herramientas
+<!-- id: otras-herramientas -->
 
 * [Lista de códigos](lista-de-codigos/README.md)
 * [Editar elementos](editar-elementos/README.md)

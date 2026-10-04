@@ -1,4 +1,5 @@
 # Aerotriangulando el segundo modelo
+<!-- id: aerotriangulando-segundo-modelo -->
 
 Digi3D.AI al igual que ocurría cuando realizamos la [segunda orientación absoluta](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-absoluta/midiendo-segunda-orientacion-absoluta.md) de un proyecto, no nos va a permitir que cambiemos la ubicación de un punto ya medido en una determinada foto si este punto ya había sido medido en esa foto.
 

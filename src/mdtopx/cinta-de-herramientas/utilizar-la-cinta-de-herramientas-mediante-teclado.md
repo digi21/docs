@@ -1,4 +1,5 @@
 # Utilizar la cinta de herramientas mediante teclado
+<!-- id: utilizar-la-cinta-de-herramientas-mediante-teclado -->
 
 Si prefiere utilizar el teclado en lugar ratón, MDTopX proporciona accesos directos de teclado para permitirle realizar tareas rápidamente sin utilizar el ratón.
 

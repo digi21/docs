@@ -1,4 +1,5 @@
 # Activar ordenador Offline
+<!-- id: activar-ordenador-offline -->
 
 Este programa realiza la misma función que el programa [Activar ordenador](/acerca-llaves-proteccion/programas-relacionados-con-licencias-y-llaves-de-proteccion/activar-ordenador.md), pero en ordenadores que tienen restringido el acceso a Internet.
 

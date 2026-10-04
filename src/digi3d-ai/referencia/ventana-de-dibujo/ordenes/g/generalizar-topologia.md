@@ -1,4 +1,5 @@
 # GENERALIZAR\_TOPOLOGIA
+<!-- id: generalizar-topologia -->
 
 Elimina centroides y líneas para agrupar polígonos vecinos con el mismo centroide en la topología pasada por parámetros.
 

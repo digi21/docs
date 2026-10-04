@@ -1,4 +1,5 @@
 # Envío de coordenadas por puerto serie
+<!-- id: envio-de-coordenadas-por-puerto-serie -->
 
 Configura el envío de las coordenadas de la ventana fotogramétrica a través del puerto serie.
 

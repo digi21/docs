@@ -1,4 +1,5 @@
 # ASIGNA\_ATRIBUTO\_BBDD\_ENTIDAD
+<!-- id: asigna-atributo-bbdd-entidad -->
 
 Asigna un nuevo valor a un campo en la BBDD para una entidad.
 

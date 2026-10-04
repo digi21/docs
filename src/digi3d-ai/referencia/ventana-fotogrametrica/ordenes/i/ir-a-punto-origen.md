@@ -1,4 +1,5 @@
 # IR\_A\_PUNTO\_ORIGEN
+<!-- id: ir-a-punto-origen -->
 
 Lleva al usuario al centro del modelo estereoscópico.
 

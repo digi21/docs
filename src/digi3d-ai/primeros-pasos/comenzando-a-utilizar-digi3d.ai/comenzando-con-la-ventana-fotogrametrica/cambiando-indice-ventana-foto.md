@@ -1,4 +1,5 @@
 # Cambiando el tipo de índice en la ventana fotogramétrica
+<!-- id: cambiando-indice-ventana-foto -->
 
 Puedes cambiar tanto la forma como el color del índice de la ventana fotogramétrica.
 

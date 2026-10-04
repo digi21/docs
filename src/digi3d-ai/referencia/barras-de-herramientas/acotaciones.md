@@ -1,4 +1,5 @@
 # Acotaciones
+<!-- id: acotaciones -->
 
 ![Barra de herramientas Acotaciones](../../../images/acotaciones.png)
 

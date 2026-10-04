@@ -1,4 +1,5 @@
 # Tabla de códigos
+<!-- id: tabla-de-codigos -->
 
 ![Panel tabla de códigos mostrando el código 020123 como código activo](../../../images/paneltablacodigos.png)
 

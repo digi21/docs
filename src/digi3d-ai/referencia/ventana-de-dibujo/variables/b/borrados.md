@@ -1,4 +1,5 @@
 # BORRADOS
+<!-- id: borrados -->
 
 Activa o desactiva la visualización de aquellas entidades que han sido borradas con posterioridad a la última compresión del fichero.
 

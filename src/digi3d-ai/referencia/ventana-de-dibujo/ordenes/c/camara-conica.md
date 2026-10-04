@@ -1,4 +1,5 @@
 # CAMARA\_CONICA
+<!-- id: camara-conica -->
 
 Asigna como cámara en la ventana de dibujo una cámara cónica.
 

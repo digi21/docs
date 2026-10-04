@@ -1,4 +1,5 @@
 # Sistemas de Referencia de Coordenadas Proyectados
+<!-- id: sistema-referencia-coordenadas-proyectados -->
 
 Estos sistemas siempre tienen asociado un sistema de referencia de coordenadas geográfico \(_2D_ o _3D_\) y sirven para representar una coordenada del sistema de referencia de coordenadas geográfico asociado \(que son siempre coordenadas polares, es decir, ángulos\) como una coordenada rectangular, aplicando para ello una proyección.
 

@@ -1,4 +1,5 @@
 # Acción al finalizar la línea
+<!-- id: accion-al-finalizar-la-linea -->
 
 ![Barra de herramientas Acción al finalizar la línea](../../../images/accionalfinalizarlinea.png)
 

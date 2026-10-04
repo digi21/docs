@@ -1,4 +1,5 @@
 # Tabla de Peraltes
+<!-- id: tabla-de-peraltes-2 -->
 
 * [Lista de tablas de peraltes](lista-de-tablas-de-peraltes.md)
 * [Tabla de peraltes](tabla-de-peraltes.md)

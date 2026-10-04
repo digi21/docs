@@ -1,4 +1,5 @@
 # Mostrar todas las etiquetas
+<!-- id: mostrar-todas-las-etiquetas -->
 
 Si se activa, se muestran todas las etiquetas de la tabla de códigos, en lugar de mostrar únicamente las etiquetas asociadas a los códigos de las entidades cargadas en el archivo de dibujo.
 

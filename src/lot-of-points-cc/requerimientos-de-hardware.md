@@ -1,4 +1,5 @@
 # Requerimientos de hardware
+<!-- id: requerimientos-de-hardware -->
 
 El programa requiere los siguientes componentes de hardware:
 

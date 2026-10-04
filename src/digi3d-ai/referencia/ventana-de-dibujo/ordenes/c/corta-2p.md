@@ -1,4 +1,5 @@
 # CORTA\_2P
+<!-- id: corta-2p -->
 
 Corta una entidad por dos puntos de la misma.
 

@@ -1,4 +1,5 @@
 # Herramientas de edición de la triangulación
+<!-- id: herramientas-de-edicion-de-la-triangulacion -->
 
 * [Información adicional de triangulación](informacion-adicional-de-triangulacion.md)
 * [Borrar fuera o dentro de límites](borrar-fuera-o-dentro-de-limites.md)

@@ -1,4 +1,5 @@
 # Esquema de aerotriangulación
+<!-- id: esquema-aerotriangulacion -->
 
 Al medir una aerotriangulación somos libres de nombrar los puntos como queramos y de ubicalos en la posición que nos interese, pero para incrementar la productividad, podemos pre-configurar el programa para indicarle cuántos puntos, con qué nombres y dónde queremos que estén ubicados aproximadamente queremos que aporte cada foto de nuestro proyecto.
 

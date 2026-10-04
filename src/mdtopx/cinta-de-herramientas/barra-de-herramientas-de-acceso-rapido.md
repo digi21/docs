@@ -1,4 +1,5 @@
 # Barra de herramientas de acceso rápido
+<!-- id: barra-de-herramientas-de-acceso-rapido -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

@@ -1,4 +1,5 @@
 # OpenStreetMap (mapa de teselas)
+<!-- id: osm-slippy-map -->
 
 Importador de **OpenStreetMap (mapa de teselas)**.
 

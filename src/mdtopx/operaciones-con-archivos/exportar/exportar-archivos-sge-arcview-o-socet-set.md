@@ -1,4 +1,5 @@
 # Exportar archivos SGE, ArcView o Socet Set
+<!-- id: exportar-archivos-sge-arcview-o-socet-set -->
 
 La aplicación permite exportar el modelo digital del terreno en formato SGE para el Servicio Geográfico del Ejército, en formato para la aplicación ArcView o en formato para la aplicación Socet Set.
 

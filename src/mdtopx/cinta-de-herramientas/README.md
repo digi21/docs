@@ -1,4 +1,5 @@
 # Cinta de herramientas
+<!-- id: cinta-de-herramientas -->
 
 [Interfaz de usuario](../introduccion/interfaz-de-usuario.md)
 

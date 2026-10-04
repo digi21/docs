@@ -1,4 +1,5 @@
 # PARALELA
+<!-- id: paralela -->
 
 Dibuja líneas paralelas a una o varias entidades, a una distancia determinada.
 

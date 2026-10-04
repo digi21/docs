@@ -1,4 +1,5 @@
 # Selecciones
+<!-- id: selecciones -->
 
 Esta pestaña permite añadir selecciones con nombre cuya ejecución devuelven un conjunto de geometrías que cumplen con una determinada condición.
 

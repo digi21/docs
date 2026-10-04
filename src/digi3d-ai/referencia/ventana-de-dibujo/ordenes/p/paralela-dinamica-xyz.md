@@ -1,4 +1,5 @@
 # PARALELA\_DINÁMICA\_XYZ
+<!-- id: paralela-dinamica-xyz -->
 
 Dibuja una línea paralela a una entidad a la distancia que especifique el operador, teniendo en cuenta la Z de la ventana fotogramétrica.
 

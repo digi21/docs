@@ -1,4 +1,5 @@
 # Archivos Ascii de Digi
+<!-- id: ascii-de-digi -->
 
 Importador y exportador de **Archivos Ascii de Digi**.
 

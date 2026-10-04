@@ -1,4 +1,5 @@
 # ONS\_TIPO
+<!-- id: ons-tipo -->
 
 Activa códigos en la pantalla fotogramétrica.
 

@@ -1,4 +1,5 @@
 # Ubicación de los archivos de tablas
+<!-- id: ubicacion-archivo-tablas -->
 
 Los instaladores de versiones anteriores de Digi3D, al ser anteriores a Windows Vista y a Windows 7, almacenaban los directorios de tablas en la carpeta _`c:\Archivos de programa\Digi21.net\Digi3D 2007\Tablas`_.
 

@@ -1,4 +1,5 @@
 # Orientación interna de la cámara derecha
+<!-- id: orientacion-interna-camara-derecha -->
 
 Si ya disponemos de la orientación interna de una cámara podemos realizar la orientación interna de la otra cámara de forma totalmente automática.
 

@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Plugin.Commands
+<!-- id: digi21.diging.plugin.commands -->
 
 Proporciona tipos para implementar extensiones que publiquen órdenes en la ventana de dibujo de Digi3D.AI.
 

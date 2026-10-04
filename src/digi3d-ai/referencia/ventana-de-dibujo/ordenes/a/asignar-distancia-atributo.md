@@ -1,4 +1,5 @@
 # ASIGNAR\_DISTANCIA\_ATRIBUTO
+<!-- id: asignar-distancia-atributo -->
 
 Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia entre los dos puntos en el campo de base de datos pasado por parámetros
 

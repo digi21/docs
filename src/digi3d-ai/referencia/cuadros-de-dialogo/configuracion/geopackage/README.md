@@ -1,4 +1,5 @@
 # GeoPackage
+<!-- id: geopackage-2 -->
 
 Configuración del importador/exportador de archivos GeoPackage.
 

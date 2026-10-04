@@ -1,4 +1,5 @@
 # Cuadrados y rectángulos
+<!-- id: cuadrados-y-rectangulos -->
 
 Permite ejecutar órdenes relacionadas con cuadrados y rectángulos.
 

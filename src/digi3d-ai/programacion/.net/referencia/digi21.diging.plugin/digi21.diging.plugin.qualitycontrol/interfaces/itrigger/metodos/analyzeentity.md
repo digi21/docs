@@ -1,4 +1,5 @@
 # AnalyzeEntity
+<!-- id: analyzeentity -->
 
 Espacio de nombres: [Digi21.DigiNG.Plugin.QualityControl](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/)  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)

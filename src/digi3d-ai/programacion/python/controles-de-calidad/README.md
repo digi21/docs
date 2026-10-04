@@ -1,4 +1,5 @@
 # Controles de calidad
+<!-- id: controles-de-calidad -->
 
 Un **control de calidad** es una función de Python que comprueba si una geometría cumple una
 regla y comunica un error (o una advertencia) cuando no la cumple. Digi3D.AI los ejecuta

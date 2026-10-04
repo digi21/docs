@@ -1,4 +1,5 @@
 # Permitir vértices consecutivos con la misma coordenada XY
+<!-- id: permitir-vertices-consecutivos-con-la-misma-coordenada-xy -->
 
 Si se activa, las herramientas de filtrado de vértices consecutivos duplicados permitirán vértices consecutivos con las mismas coordenadas X e Y pero con distinta coordenada Z.
 

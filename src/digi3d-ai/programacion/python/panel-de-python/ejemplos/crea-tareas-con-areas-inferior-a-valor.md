@@ -1,4 +1,5 @@
 # Crear tareas con áreas pequeñas
+<!-- id: crea-tareas-con-areas-inferior-a-valor -->
 
 Archivo: `crea_tareas_con_areas_inferior_a_valor.py` · guion para el [panel de Guiones Python](../README.md).
 Hay un [vídeo](https://youtu.be/JwA4ymWz1zo) que lo explica.

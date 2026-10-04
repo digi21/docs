@@ -1,4 +1,5 @@
 # ACOPLAR
+<!-- id: acoplar -->
 
 Genera un archivo TIFF con las entidades de los archivos de dibujo visibles que caen dentro de una línea de límite rectangular, dibujadas con su simbología.
 

@@ -1,4 +1,5 @@
 # CONTROL\_CALIDAD\_SELECCION
+<!-- id: control-calidad-seleccion -->
 
 Realiza análisis de control de calidad a las entidades seleccionadas
 

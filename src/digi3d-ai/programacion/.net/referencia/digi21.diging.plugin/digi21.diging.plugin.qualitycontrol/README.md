@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Plugin.QualityControl
+<!-- id: digi21.diging.plugin.qualitycontrol -->
 
 Proporciona tipos para implementar controles de calidad en la ventana de dibujo de Digi3D.AI.
 

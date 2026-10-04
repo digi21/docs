@@ -1,4 +1,5 @@
 # Cargar archivo
+<!-- id: cargar-archivo -->
 
 Al pulsar la opción Cargar Archivo el programa muestra el cuadro de diálogo "Selecciona el archivo a cargar" que permite cargar un archivo .LAS generado por el propio programa.
 

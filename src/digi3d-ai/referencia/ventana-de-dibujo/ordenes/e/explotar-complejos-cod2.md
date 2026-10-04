@@ -1,4 +1,5 @@
 # EXPLOTAR\_COMPLEJOS\_COD2
+<!-- id: explotar-complejos-cod2 -->
 
 Divide varios elementos complejos por código, sin respetar el código de los sub-elementos.
 

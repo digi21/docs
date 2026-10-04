@@ -1,4 +1,5 @@
 # PARALIZAR
+<!-- id: paralizar -->
 
 Paraliza una o varias de las múltiples vistas estereoscópicas que tenga abiertas el usuario en el momento de la ejecución.
 

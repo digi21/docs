@@ -1,4 +1,5 @@
 # INSERTAR\_VERTICE\_INTERSECCION\_LINEAS
+<!-- id: insertar-vertice-interseccion-lineas -->
 
 Inserta un vértice en la intersección de las líneas de los códigos pasados por parámetro.
 

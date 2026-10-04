@@ -1,4 +1,5 @@
 # IR\_PRINCIPIO
+<!-- id: ir-principio -->
 
 Establece las coordenadas a las que se desplazará la ventana fotogramétrica al finalizar una línea.
 

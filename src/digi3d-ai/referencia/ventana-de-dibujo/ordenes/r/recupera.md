@@ -1,4 +1,5 @@
 # RECUPERA
+<!-- id: recupera -->
 
 Permite recuperar los elementos marcados con la señal de borrado en el fichero de dibujo, debemos tener la orden [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) activada.
 

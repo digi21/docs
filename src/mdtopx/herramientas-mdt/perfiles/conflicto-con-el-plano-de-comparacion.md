@@ -1,4 +1,5 @@
 # Conflicto con el plano de comparación
+<!-- id: conflicto-con-el-plano-de-comparacion -->
 
 En el proceso de cálculo de los perfiles, longitudinales y transversales, el programa puede detectar que alguno de los perfiles tiene algún con cota inferior a la cota del plano de comparación. Esto puede ocurrir porque se ha seleccionado una cota absoluta para el plano de comparación, y ésta resulta demasiado grande para que todos los perfiles se encuentren por encima de este plano.
 

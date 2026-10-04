@@ -1,4 +1,5 @@
 # Deshacer
+<!-- id: deshacer -->
 
 ![Barra de herramientas Deshacer](../../../images/deshacer.png)
 

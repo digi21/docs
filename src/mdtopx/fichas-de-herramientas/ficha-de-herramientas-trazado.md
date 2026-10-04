@@ -1,4 +1,5 @@
 # Ficha de herramientas Trazado
+<!-- id: ficha-de-herramientas-trazado -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

@@ -1,4 +1,5 @@
 # Buscar geometría
+<!-- id: buscar-geometria -->
 
 [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md)
 

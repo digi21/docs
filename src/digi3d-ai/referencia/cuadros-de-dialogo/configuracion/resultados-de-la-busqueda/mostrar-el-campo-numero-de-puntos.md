@@ -1,4 +1,5 @@
 # Mostrar el campo Número de puntos
+<!-- id: mostrar-el-campo-numero-de-puntos -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Número de puntos**.
 

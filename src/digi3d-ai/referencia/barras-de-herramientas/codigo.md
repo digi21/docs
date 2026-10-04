@@ -1,4 +1,5 @@
 # Código
+<!-- id: codigo -->
 
 ![Barra de herramientas código](../../../images/codigo.png)
 

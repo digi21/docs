@@ -1,4 +1,5 @@
 # Cómo ejecutar guiones de Python
+<!-- id: ejecutar-guiones -->
 
 Digi3D.AI puede ejecutar guiones de Python de **tres** maneras: desde el panel, como una
 orden (por su nombre, desde la consola de órdenes) y como control de calidad.

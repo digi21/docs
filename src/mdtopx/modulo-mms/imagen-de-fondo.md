@@ -1,4 +1,5 @@
 # Imagen de fondo
+<!-- id: imagen-de-fondo -->
 
 [Ficha de herramientas MMS](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-mms.md)
 

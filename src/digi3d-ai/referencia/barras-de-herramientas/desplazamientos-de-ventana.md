@@ -1,4 +1,5 @@
 # Desplazamientos de ventana
+<!-- id: desplazamientos-de-ventana -->
 
 ![Barra de herramientas Desplazamientos de ventana](../../../images/desplazamientosdeventana.png)
 

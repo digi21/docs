@@ -1,4 +1,5 @@
 # AUTOMODOB
+<!-- id: automodob -->
 
 Activa o desactiva el modo de búsqueda automático.
 

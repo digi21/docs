@@ -1,4 +1,5 @@
 # Dibujo
+<!-- id: dibujo -->
 
 Ordena abrir una ventana de dibujo.
 

@@ -1,4 +1,5 @@
 # Copia de seguridad
+<!-- id: copia-de-seguridad -->
 
 Configura las copias de seguridad del archivo de dibujo.
 

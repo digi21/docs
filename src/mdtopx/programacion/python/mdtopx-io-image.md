@@ -1,4 +1,5 @@
 # Paquete `mdtopx.io.image`
+<!-- id: mdtopx-io-image -->
 
 Formatos de **imágenes en color** (ortofotos, mapas). Leen a `scene.images` y escriben las imágenes
 de la escena. Siguen la [interfaz común](mdtopx-io.md#interfaz-común-de-los-formatos) (`info`, `read`,

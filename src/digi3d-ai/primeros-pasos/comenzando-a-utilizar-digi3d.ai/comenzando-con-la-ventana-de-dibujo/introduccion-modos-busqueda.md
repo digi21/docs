@@ -1,4 +1,5 @@
 # Introducción a los modos de búsqueda
+<!-- id: introduccion-modos-busqueda -->
 
 Conoce algunos de los **modos de búsqueda de Digi3D.AI** siguiendo los siguientes pasos:
 

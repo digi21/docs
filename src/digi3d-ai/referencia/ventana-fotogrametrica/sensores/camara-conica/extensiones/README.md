@@ -1,4 +1,5 @@
 # Extensiones de Cónico
+<!-- id: extensiones -->
 
 El sensor Cónico puede obtener las calibraciones de cámara y las orientaciones de los modelos a partir de archivos generados por los siguientes programas y formatos:
 

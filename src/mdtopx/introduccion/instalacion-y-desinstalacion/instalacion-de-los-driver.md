@@ -1,4 +1,5 @@
 # Instalación de la suite de licencias
+<!-- id: instalacion-de-los-driver -->
 
 Si es la primera vez que se instala MDTopX en el ordenador, se deberá instalar la suite de licencias que incluye un conjunto de programas para la gestión de la llave de protección.
 

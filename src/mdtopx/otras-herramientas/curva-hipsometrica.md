@@ -1,4 +1,5 @@
 # Curva hipsométrica
+<!-- id: curva-hipsometrica -->
 
 [Vista](/mdtopx/modulo-laser/vista/)
 

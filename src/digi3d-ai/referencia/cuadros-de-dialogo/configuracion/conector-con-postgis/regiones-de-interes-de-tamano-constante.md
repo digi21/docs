@@ -1,4 +1,5 @@
 # Regiones de interés de tamaño constante
+<!-- id: regiones-de-interes-de-tamano-constante -->
 
 Si se activa, en el panel de archivos de dibujo podrás configurar el tamaño que tendrán las regiones de interés que se solicitan a PostGIS.
 

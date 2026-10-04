@@ -1,4 +1,5 @@
 # Inicio del programa
+<!-- id: inicio-del-programa -->
 
 El programa de instalación habrá creado un icono de inicio en el escritorio de Windows y una carpeta en el menú Programas del Inicio de Windows.
 

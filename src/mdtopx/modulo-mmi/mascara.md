@@ -1,4 +1,5 @@
 # Máscara
+<!-- id: mascara -->
 
 [Ficha de herramientas MMI](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-mmi.md)
 

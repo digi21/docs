@@ -1,4 +1,5 @@
 # Alquileres
+<!-- id: alquileres -->
 
 Si ya dispones de una llave de protección (por hardware o software), puedes alquilar alguna licencia de nuestros programas. Para ello será necesario que tengas a mano el _Key ID_ de tu llave de protección. Puedes obtener el _KeyID_ de tu llave de protección haciendo clic en el siguiente enlace: [Sentinel Keys](http://localhost:1947/\_int\_/devices.html).
 

@@ -1,4 +1,5 @@
 # Borrar según punto de registro
+<!-- id: borrar-segun-punto-de-registro -->
 
 [Según punto de registro](/mdtopx/modulo-laser/segun-punto-de-registro/)
 

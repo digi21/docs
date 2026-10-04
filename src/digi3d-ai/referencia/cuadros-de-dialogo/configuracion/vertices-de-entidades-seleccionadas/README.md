@@ -1,4 +1,5 @@
 # Vértices de entidades seleccionadas
+<!-- id: vertices-de-entidades-seleccionadas -->
 
 Configura la marca que se muestra sobre los vértices de las entidades seleccionadas.
 

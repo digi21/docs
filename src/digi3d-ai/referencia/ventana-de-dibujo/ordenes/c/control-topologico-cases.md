@@ -1,4 +1,5 @@
 # CONTROL\_TOPOLOGICO\_CASES
+<!-- id: control-topologico-cases -->
 
 Detecta polígonos vecinos con centroides distintos entre archivos de dibujo.
 

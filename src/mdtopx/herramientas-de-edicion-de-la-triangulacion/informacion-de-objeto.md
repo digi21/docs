@@ -1,4 +1,5 @@
 # Información de Objeto
+<!-- id: informacion-de-objeto -->
 
 [Objetos MDT](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/objetos-mdt.md)
 

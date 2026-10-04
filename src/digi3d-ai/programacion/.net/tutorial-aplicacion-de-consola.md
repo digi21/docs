@@ -1,4 +1,5 @@
 # Tutorial: crear una aplicación de consola
+<!-- id: tutorial-aplicacion-de-consola -->
 
 En este tutorial crearás `ListarEntidades`, una aplicación de consola que abre un archivo binario de Digi3D.AI (`.bin`) y muestra sus entidades. La aplicación se puede copiar a cualquier carpeta del equipo y ejecutar sin abrir Digi3D.AI.
 

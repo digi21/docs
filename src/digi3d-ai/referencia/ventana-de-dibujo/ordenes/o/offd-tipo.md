@@ -1,4 +1,5 @@
 # OFFD\_TIPO
+<!-- id: offd-tipo -->
 
 Desactiva códigos en la pantalla fotogramétrica y en la de dibujo.
 

@@ -1,4 +1,5 @@
 # Interpolación subpixel
+<!-- id: interpolacion-subpixel -->
 
 Indica si los cálculos se realizan con interpolación de subpixel.
 

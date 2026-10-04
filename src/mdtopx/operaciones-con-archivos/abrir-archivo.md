@@ -1,4 +1,5 @@
 # Abrir archivo
+<!-- id: abrir-archivo -->
 
 [Botón de MDTopX](/mdtopx/introduccion/boton-de-mdtopx.md)
 

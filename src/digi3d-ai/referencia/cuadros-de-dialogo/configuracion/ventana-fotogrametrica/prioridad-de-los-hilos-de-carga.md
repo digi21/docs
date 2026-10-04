@@ -1,4 +1,5 @@
 # Prioridad de los hilos de carga
+<!-- id: prioridad-de-los-hilos-de-carga -->
 
 Indica la prioridad de los hilos de trabajo encargados de la carga de teselas en segundo plano.
 

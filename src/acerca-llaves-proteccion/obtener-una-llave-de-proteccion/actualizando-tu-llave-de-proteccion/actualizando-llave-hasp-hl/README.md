@@ -1,4 +1,5 @@
 # Actualización de tu llave de protección Hasp HL
+<!-- id: actualizando-llave-hasp-hl -->
 
 Sigue las siguientes instrucciones si ya dispones de una llave de protección _Hasp HL._
 

@@ -1,4 +1,5 @@
 # RECUPERA\_COD
+<!-- id: recupera-cod -->
 
 Recupera todas aquellas entidades borradas que tengan un código igual al tecleado.
 

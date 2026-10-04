@@ -1,4 +1,5 @@
 # PUNTO
+<!-- id: punto -->
 
 Dibuja un punto en el archivo actual.
 

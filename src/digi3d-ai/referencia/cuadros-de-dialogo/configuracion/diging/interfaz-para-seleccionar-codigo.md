@@ -1,4 +1,5 @@
 # Interfaz para seleccionar código
+<!-- id: interfaz-para-seleccionar-codigo -->
 
 El programa proporciona tres ventanas distintas para seleccionar el código activo; son excluyentes (solo se puede utilizar una).
 

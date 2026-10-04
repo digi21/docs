@@ -1,4 +1,5 @@
 # No se pudo conectar con la llave de protección especificada
+<!-- id: no-se-pudo-conectar-llave-proteccion -->
 
 No hemos conseguido conectarnos con la llave de protección que tienes configurada para el uso del programa que ha mostrado este mensaje de error.
 

@@ -1,4 +1,5 @@
 # Tipos de geometría en los parámetros de las órdenes
+<!-- id: tipos-de-geometria -->
 
 Algunas órdenes reciben un parámetro con letras. Cada letra indica un tipo de geometría al que afecta la orden: por ejemplo, `ON_TIPO=020101 LP` activa las líneas y los puntos del código `020101`.
 

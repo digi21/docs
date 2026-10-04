@@ -1,4 +1,5 @@
 # MIDE\_PERÍMETRO\_LINEA
+<!-- id: mide-perimetro-linea -->
 
 Mide el perímetro \(en el plano\) de la línea seleccionada.
 

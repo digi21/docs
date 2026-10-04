@@ -1,4 +1,5 @@
 # Al seleccionar un código
+<!-- id: al-seleccionar-un-codigo -->
 
 Si cambiamos de código activo con la orden [COD](../../ventana-de-dibujo/ordenes/c/cod.md)o seleccionando un código en cualquiera de las ventanas del programa que permiten cambiar de código como por ejemplo la [barra de herramientas código](../../barras-de-herramientas/codigo.md), el programa ejecutará de manera automática las siguientes órdenes:
 

@@ -1,4 +1,5 @@
 # Códigos LiDAR
+<!-- id: codigos-lidar -->
 
 [Superficie mágica](/mdtopx/modulo-laser/buscar-puntos/superficie-magica/)
 

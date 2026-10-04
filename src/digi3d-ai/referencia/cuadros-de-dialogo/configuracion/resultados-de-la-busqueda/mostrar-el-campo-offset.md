@@ -1,4 +1,5 @@
 # Mostrar el campo Offset
+<!-- id: mostrar-el-campo-offset -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Offset**.
 

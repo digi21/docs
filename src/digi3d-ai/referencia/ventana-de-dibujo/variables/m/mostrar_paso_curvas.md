@@ -1,4 +1,5 @@
 # MOSTRAR\_PASO\_CURVAS
+<!-- id: mostrar-paso-curvas -->
 
 Activa o desactiva la visualización, mediante animaciones, de las zonas por donde deben cruzar las curvas de nivel en función de la _Z activa_.
 

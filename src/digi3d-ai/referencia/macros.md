@@ -1,4 +1,5 @@
 # Macros
+<!-- id: macros -->
 
 Algunas ventanas de texto de ciertos cuadros de diálogo admiten que se introduzcamos una macro en vez de un texto. El programa cuando sea necesario sustituirá esa macro dinámicamente por un valor calculado.
 

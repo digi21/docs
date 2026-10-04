@@ -1,4 +1,5 @@
 # C
+<!-- id: c-3 -->
 
 Indica si _Digi3D.AI_ cerrará automáticamente la línea que está digitalizando al finalizarla.
 

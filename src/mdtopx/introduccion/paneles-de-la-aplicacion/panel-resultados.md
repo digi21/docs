@@ -1,4 +1,5 @@
 # Panel Resultados
+<!-- id: panel-resultados -->
 
 [Paneles de la aplicación](/mdtopx/introduccion/paneles-de-la-aplicacion/)
 

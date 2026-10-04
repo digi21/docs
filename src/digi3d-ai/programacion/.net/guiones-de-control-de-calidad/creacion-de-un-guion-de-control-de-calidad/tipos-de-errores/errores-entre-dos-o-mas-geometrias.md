@@ -1,4 +1,5 @@
 # Errores entre dos o más geometrías
+<!-- id: errores-entre-dos-o-mas-geometrias -->
 
 El guion puede comunicar a Digi3D.AI que ha localizado un error de relación entre la geometría que se ha ordenado almacenar y otra geometría existente en el archivo de dibujo lanzando una excepción de tipo [GeometricRelationException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometricrelationexception.md):
 

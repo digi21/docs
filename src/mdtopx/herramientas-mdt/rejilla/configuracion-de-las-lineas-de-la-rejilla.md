@@ -1,4 +1,5 @@
 # Configuración de las líneas de la rejilla
+<!-- id: configuracion-de-las-lineas-de-la-rejilla -->
 
 [Cuadro de diálogo Rejilla](./)
 

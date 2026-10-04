@@ -1,4 +1,5 @@
 # Módulo Edificios
+<!-- id: modulo-edificios -->
 
 [¿Qué es MDTopX?](../introduccion/mdtopx.md)
 

@@ -1,4 +1,5 @@
 # Origen del píxel
+<!-- id: origen-del-pixel -->
 
 Especifica el origen del píxel en la ventana fotogramétrica.
 

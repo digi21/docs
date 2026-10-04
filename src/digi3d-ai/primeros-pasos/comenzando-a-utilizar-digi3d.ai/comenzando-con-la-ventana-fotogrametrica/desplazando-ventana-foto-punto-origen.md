@@ -1,4 +1,5 @@
 # Desplazando la vista al punto de origen del modelo
+<!-- id: desplazando-ventana-foto-punto-origen -->
 
 En ocasiones hacemos [tentativos](desplazando-ventana-foto-punto-origen.md) en una entidad que está fuera de los límites de nuestro modelo estereoscópico, o realizamos un movimiento muy grande con nuestro dispositivo de entrada y la ventana fotogramétrica se desplaza a unas coordenadas en las que no hay imagen.
 

@@ -1,4 +1,5 @@
 # Parámetros de visualización
+<!-- id: parametros-de-visualizacion-2 -->
 
 Este grupo agrupa comandos para controlar los parámetros de visualización de la nube de puntos.
 

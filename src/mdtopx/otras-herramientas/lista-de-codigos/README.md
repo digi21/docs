@@ -1,4 +1,5 @@
 # Lista de códigos
+<!-- id: lista-de-codigos -->
 
 En este cuadro de diálogo aparecen los códigos que el programa utilizará para pintar las entidades en pantalla. Si algún código en los documentos no estuviera en esta lista, el color de la entidad sería gris y con grosor por defecto.
 

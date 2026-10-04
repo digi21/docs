@@ -1,4 +1,5 @@
 # Acción a realizar con el contorno exterior
+<!-- id: accion-a-realizar-con-el-contorno-exterior -->
 
 Indica qué se hace con la línea que forma el contorno exterior al crear un polígono con la orden [CREAR\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-poligono.md).
 

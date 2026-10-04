@@ -1,4 +1,5 @@
 # VER\_SOLO\_CON\_ENLACE\_BBDD
+<!-- id: ver-solo-con-enlace-bbdd -->
 
 Muestra únicamente las entidades que tienen algún enlace a la base de datos.
 

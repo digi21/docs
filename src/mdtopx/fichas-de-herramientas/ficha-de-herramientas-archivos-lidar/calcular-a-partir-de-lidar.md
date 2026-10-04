@@ -1,4 +1,5 @@
 # Calcular a partir de LIDAR
+<!-- id: calcular-a-partir-de-lidar -->
 
 [Ficha de herramientas Láser](./)
 

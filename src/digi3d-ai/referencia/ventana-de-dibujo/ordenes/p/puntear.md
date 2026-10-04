@@ -1,4 +1,5 @@
 # PUNTEAR
+<!-- id: puntear -->
 
 Rellena el interior de una entidad superficial de contorno cerrado con una trama de puntos.
 

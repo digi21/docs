@@ -1,4 +1,5 @@
 # CAMB\_ESC\_ACT
+<!-- id: camb-esc-act -->
 
 Asigna la escala activa a uno o varios puntos del dibujo.
 

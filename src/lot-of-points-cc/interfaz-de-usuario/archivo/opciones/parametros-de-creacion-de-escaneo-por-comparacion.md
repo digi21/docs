@@ -1,4 +1,5 @@
 # Parámetros de creación de escaneo por comparación
+<!-- id: parametros-de-creacion-de-escaneo-por-comparacion -->
 
 En esta sección de la configuración se configuran los parámetros de creación del archivo de comparación.
 

@@ -1,4 +1,5 @@
 # Mover
+<!-- id: mover-2 -->
 
 ![Barra de herramientas Mover](../../../images/mover.png)
 

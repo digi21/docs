@@ -1,4 +1,5 @@
 # Permitir instalar versiones BETA
+<!-- id: permitir-instalar-versiones-beta -->
 
 Permite configurar si, al comprobar si existe una versión nueva, Digi3D.AI tendrá en cuenta también las versiones BETA (versiones que aún no se han probado al 100 % y que pueden contener errores).
 

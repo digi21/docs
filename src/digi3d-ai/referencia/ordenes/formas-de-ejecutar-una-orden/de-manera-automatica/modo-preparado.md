@@ -1,4 +1,5 @@
 # Modo preparado
+<!-- id: modo-preparado -->
 
 Digi3D.AI está en modo preparado cuando no está ejecutando ninguna orden.
 

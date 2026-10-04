@@ -1,4 +1,5 @@
 # Agrupar tareas por coordenadas
+<!-- id: agrupar-tareas-por-coordenadas -->
 
 Si se habilita, se agrupan todas las tareas que tienen la misma coordenada, para evitar repetir las mismas coordenadas varias veces.
 

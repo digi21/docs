@@ -1,4 +1,5 @@
 # Base de datos
+<!-- id: base-de-datos-3 -->
 
 ![Editor de tablas de códigos mostrando la tabla Edificaciones con sus campos ID y Propietario](../../../../../images/pestanabasedatos.png)
 

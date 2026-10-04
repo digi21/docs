@@ -1,4 +1,5 @@
 # PythonCommand
+<!-- id: python-command -->
 
 Módulo: `digi3d`
 

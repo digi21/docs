@@ -1,4 +1,5 @@
 # Panel Propiedades Documento Proyecto
+<!-- id: panel-propiedades-documento-proyecto -->
 
 [Panel Propiedades](/mdtopx/introduccion/paneles-de-la-aplicacion/panel-propiedades/)
 

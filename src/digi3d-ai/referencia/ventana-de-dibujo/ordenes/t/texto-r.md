@@ -1,4 +1,5 @@
 # TEXTO\_R
+<!-- id: texto-r -->
 
 Inserta un texto en el dibujo en la dirección indicada por el usuario.
 

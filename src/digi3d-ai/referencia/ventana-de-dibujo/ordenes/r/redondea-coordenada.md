@@ -1,4 +1,5 @@
 # REDONDEA\_COORDENADA
+<!-- id: redondea-coordenada -->
 
 Sustituye por un valor dado las coordenadas X o Y de los vértices de las líneas y polígonos seleccionados que difieren de ese valor como máximo una tolerancia.
 

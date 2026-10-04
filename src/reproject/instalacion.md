@@ -1,4 +1,5 @@
 # Instalación
+<!-- id: instalacion -->
 
 Reproject se distribuye en la Microsoft Store: [Reproject en la Microsoft Store](https://apps.microsoft.com/detail/9PFMLFNXDQLN).
 

@@ -1,4 +1,5 @@
 # AYUDA
+<!-- id: ayuda -->
 
 Abre la ayuda de Digi3D.AI.
 

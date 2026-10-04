@@ -1,4 +1,5 @@
 # Centroide
+<!-- id: centroide -->
 
 Un centroide es un texto dentro de un [polígono topológico](poligonos-topologicos.md).
 

@@ -1,4 +1,5 @@
 # Sistema de Referencia de Coordenadas Desconocido
+<!-- id: sistema-referencia-vertical-desconocido -->
 
 En ocasiones desconocemos el sistema de coordenadas en el que están las coordenadas de un archivo (archivo de aerotriangulación, archivo de puntos de apoyo, archivo de dibujo,...)
 

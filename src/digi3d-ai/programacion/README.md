@@ -1,4 +1,5 @@
 # Programación
+<!-- id: programacion -->
 
 Digi3D.AI publica una serie de ensamblados que permiten crear tanto aplicaciones que acceden al motor de importación/exportación, motor de topología, etc., como extensiones que permiten añadir opciones en el panel de búsqueda y crear comandos nuevos y cear controles de calidad que se ejecutan al almacenar geometrías o a petición del usuario.
 

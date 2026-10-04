@@ -1,4 +1,5 @@
 # DESELECCIONA\_TODO
+<!-- id: deselecciona-todo -->
 
 Deselecciona todas las entidades que estén seleccionadas.
 

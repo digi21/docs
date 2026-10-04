@@ -1,4 +1,5 @@
 # Desplazando la ventana fotogramétrica a unas coordenadas conocidas
+<!-- id: desplazando-ventana-foto-a-coordenadas -->
 
 Existen varias formas de ordenar a la vista de Digi3D que se desplace a una determinada ubicación.
 

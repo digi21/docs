@@ -1,4 +1,5 @@
 # AGRUPAR\_ENTIDADES\_VISIBLES\_DUPLICADAS
+<!-- id: agrupar-entidades-visibles-duplicadas -->
 
 Agrupa todas las entidades visibles duplicadas en una única entidad.
 

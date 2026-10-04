@@ -1,4 +1,5 @@
 # BORRA\_R
+<!-- id: borra-r -->
 
 Borra códigos por recinto topológico.
 

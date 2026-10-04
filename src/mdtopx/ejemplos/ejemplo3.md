@@ -1,4 +1,5 @@
 # Ejemplo 3: Cálculo de un movimiento de tierras
+<!-- id: ejemplo3 -->
 
 [Ejemplos](/mdtopx/ejemplos/)
 

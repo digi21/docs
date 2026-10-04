@@ -1,4 +1,5 @@
 # Orientación relativa
+<!-- id: orientacion-relativa -->
 
 La orientación relativa permite que nos desplacemos el el modelo estereoscópicamente. Una vez realizada la orientación relativa de un modelo, el movimiento de la coordenada Z modificará la posición de las imágenes.
 

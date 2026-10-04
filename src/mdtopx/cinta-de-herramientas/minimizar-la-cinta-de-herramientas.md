@@ -1,4 +1,5 @@
 # Minimizar la cinta de herramientas
+<!-- id: minimizar-la-cinta-de-herramientas -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

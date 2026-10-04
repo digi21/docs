@@ -1,4 +1,5 @@
 # Ficha de Herramientas MDT
+<!-- id: ficha-de-herramientas-mdt -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

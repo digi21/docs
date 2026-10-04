@@ -1,4 +1,5 @@
 # EDITAR
+<!-- id: editar -->
 
 Modifica la posición planimétrica \(X, Y\) de los vértices de un elemento.
 

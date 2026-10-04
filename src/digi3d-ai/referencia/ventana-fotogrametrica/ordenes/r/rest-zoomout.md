@@ -1,4 +1,5 @@
 # REST\_ZOOM\_OUT
+<!-- id: rest-zoomout -->
 
 Disminuye el factor de Zoom de las imágenes que se visualizan en la pantalla estereoscópica.
 

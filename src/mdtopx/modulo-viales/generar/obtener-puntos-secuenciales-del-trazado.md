@@ -1,4 +1,5 @@
 # Obtener puntos secuenciales del trazado
+<!-- id: obtener-puntos-secuenciales-del-trazado -->
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)
 

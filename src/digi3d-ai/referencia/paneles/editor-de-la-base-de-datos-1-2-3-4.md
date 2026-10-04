@@ -1,4 +1,5 @@
 # Editor de la base de datos 1,2,3,4
+<!-- id: editor-de-la-base-de-datos-1-2-3-4 -->
 
 ![Panel Editor de la base de datos 1](../../../images/editordelabasededatos.png)
 

@@ -1,4 +1,5 @@
 # Insertar vértice interior
+<!-- id: insertar-vertice-interior -->
 
 [Cuadro de diálogo Calcular alzado nuevo](calcular-alzado-nuevo/)
 

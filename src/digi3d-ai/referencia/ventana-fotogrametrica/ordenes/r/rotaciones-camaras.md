@@ -1,4 +1,5 @@
 # ROTACIONES\_CÁMARAS
+<!-- id: rotaciones-camaras -->
 
 ![Cuadro de diálogo de rotaciones de cámaras](../../../../../images/rotacionescamaras.png)
 

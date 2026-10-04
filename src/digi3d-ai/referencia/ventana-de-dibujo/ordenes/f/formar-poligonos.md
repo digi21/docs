@@ -1,4 +1,5 @@
 # FORMAR\_POLIGONOS
+<!-- id: formar-poligonos -->
 
 Crea/modifica polígonos mediante inundaciones y eliminando segmentos comunes
 

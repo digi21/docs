@@ -1,4 +1,5 @@
 # Texto del callejero del Catastro
+<!-- id: dibuja-texto-extraido-callejero-catastro -->
 
 Archivo: `dibuja_texto_extraido_callejero_catastro.py` · **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)).
 

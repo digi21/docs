@@ -1,4 +1,5 @@
 # Guiones Python
+<!-- id: guiones-python -->
 
 Digi3D.AI reconoce como órdenes nativas aquellos guiones Python ubicados en el Directorio de Macroinstrucciones.
 

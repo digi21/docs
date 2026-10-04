@@ -1,4 +1,5 @@
 # ARCO
+<!-- id: arco -->
 
 Dibuja un arco en el espacio a partir de tres puntos definidos por el usuario.
 

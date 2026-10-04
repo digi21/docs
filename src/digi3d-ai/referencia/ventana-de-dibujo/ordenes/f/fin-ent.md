@@ -1,4 +1,5 @@
 # FIN\_ENT
+<!-- id: fin-ent -->
 
 Da por finalizada la definición geométrica de una entidad.
 

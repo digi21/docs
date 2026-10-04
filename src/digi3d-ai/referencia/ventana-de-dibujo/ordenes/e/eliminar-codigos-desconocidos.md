@@ -1,4 +1,5 @@
 # ELIMINAR\_CODIGOS\_DESCONOCIDOS
+<!-- id: eliminar-codigos-desconocidos -->
 
 Elimina todos los códigos desconocidos del archivo de dibujo.
 

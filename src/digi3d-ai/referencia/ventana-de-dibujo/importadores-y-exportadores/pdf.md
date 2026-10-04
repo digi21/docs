@@ -1,4 +1,5 @@
 # Archivos Adobe Pdf
+<!-- id: pdf -->
 
 Exportador de **Archivos Adobe Pdf**.
 

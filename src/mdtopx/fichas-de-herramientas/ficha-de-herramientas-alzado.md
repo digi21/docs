@@ -1,4 +1,5 @@
 # Ficha de herramientas Alzado
+<!-- id: ficha-de-herramientas-alzado -->
 
 [Cinta de herramientas Alzado](/mdtopx/cinta-de-herramientas/)
 

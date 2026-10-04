@@ -1,4 +1,5 @@
 # Parámetros Activos
+<!-- id: parametros-activos -->
 
 ![Barra de herramientas Parámetros Activos](../../../images/parametros-activos.png)
 

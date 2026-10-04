@@ -1,4 +1,5 @@
 # VER\_COORDENADAS
+<!-- id: ver-coordenadas -->
 
 Muestra coordenadas en la barra de mensajes de la pantalla estereoscópica.
 

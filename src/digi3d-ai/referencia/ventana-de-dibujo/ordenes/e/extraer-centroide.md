@@ -1,4 +1,5 @@
 # EXTRAER\_CENTROIDE
+<!-- id: extraer-centroide -->
 
 Dibuja el centroide del polígono o la línea que se seleccione.
 

@@ -1,4 +1,5 @@
 # ESTIRA\_RECORTA\_POR\_TOLERANCIA
+<!-- id: estira-recorta-por-tolerancia -->
 
 Estira o recorta extremos de líneas visibles para que toquen a otras.
 

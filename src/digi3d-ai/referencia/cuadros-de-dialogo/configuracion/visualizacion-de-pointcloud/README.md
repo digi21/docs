@@ -1,4 +1,5 @@
 # Visualización de PointCloud
+<!-- id: visualizacion-de-pointcloud -->
 
 Configura la visualización de las nubes de puntos.
 

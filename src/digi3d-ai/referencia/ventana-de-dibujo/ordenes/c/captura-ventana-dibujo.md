@@ -1,4 +1,5 @@
 # CAPTURA\_VENTANA\_DIBUJO
+<!-- id: captura-ventana-dibujo -->
 
 Crea un archivo .PNG con el contenido de la ventana de dibujo.
 

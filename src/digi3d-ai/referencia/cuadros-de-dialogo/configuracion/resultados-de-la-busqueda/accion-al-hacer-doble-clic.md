@@ -1,4 +1,5 @@
 # Acción al hacer doble clic
+<!-- id: accion-al-hacer-doble-clic-2 -->
 
 Indica cómo se comportará la ventana de dibujo al hacer doble clic sobre una entidad seleccionada en el panel Resultados de la búsqueda.
 

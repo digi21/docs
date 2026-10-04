@@ -1,4 +1,5 @@
 # Propiedades
+<!-- id: propiedades -->
 
 ![Panel propiedades](../../../images/panelpropiedades.png)
 

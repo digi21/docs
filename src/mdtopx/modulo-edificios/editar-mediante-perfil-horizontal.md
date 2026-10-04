@@ -1,4 +1,5 @@
 # Editar mediante perfil horizontal
+<!-- id: editar-mediante-perfil-horizontal -->
 
 [Ficha de herramientas Edificios](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edificios.md)
 

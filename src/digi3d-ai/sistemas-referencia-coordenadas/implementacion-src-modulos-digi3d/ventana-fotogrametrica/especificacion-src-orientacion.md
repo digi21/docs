@@ -1,4 +1,5 @@
 # Especificación del Sistema de Coordenadas de Referencia de la Orientación
+<!-- id: especificacion-src-orientacion -->
 
 El Sistema de _Coordenadas de Referencia Terreno_ lo especifica la orientación del modelo fotogramétrico. Si no existe una orientación del modelo fotogramétrico, el Sistema de Coordenadas de Referencia Terreno coincidirá con el [Sistema de Coordenadas de Referencia del Sensor](/digi3d-ai/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-fotogrametrica/especificacion-src-sensor.md).
 

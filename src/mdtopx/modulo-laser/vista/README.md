@@ -1,4 +1,5 @@
 # Vista
+<!-- id: vista-2 -->
 
 * [Preprocesar](preprocesar.md)
 * [Propiedades Documento Láser](propiedades-documento-laser.md)

@@ -1,4 +1,5 @@
 # UNDO
+<!-- id: undo -->
 
 Deshace las últimas acciónes efectuadas por el programa.
 

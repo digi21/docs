@@ -1,4 +1,5 @@
 # Ficha de herramientas Proyecto
+<!-- id: ficha-de-herramientas-proyecto -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

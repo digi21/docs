@@ -1,4 +1,5 @@
 # DETECTAR\_INTERSECCION\_SENTIDO
+<!-- id: detectar-interseccion-sentido -->
 
 Detecta líneas y polígonos que se unen en un nodo con sentidos de digitalización incompatibles.
 

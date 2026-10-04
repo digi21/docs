@@ -1,4 +1,5 @@
 # ERR+
+<!-- id: err-mas -->
 
 Teniendo el fichero gráfico generado con los programas [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md), cargado como referencia sobre el archivo de trabajo, podemos visualizar, con un zoom centrado, el error siguiente al mostrado actualmente en el fichero.
 

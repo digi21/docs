@@ -1,4 +1,5 @@
 # ON\_TIPO
+<!-- id: on-tipo -->
 
 Activa códigos en la pantalla ortogonal.
 

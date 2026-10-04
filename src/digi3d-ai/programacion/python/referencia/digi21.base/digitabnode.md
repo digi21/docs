@@ -1,4 +1,5 @@
 # DigiTabNode
+<!-- id: digitabnode -->
 
 Módulo: [digi21.base](README.md)
 

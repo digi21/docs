@@ -1,4 +1,5 @@
 # BUSCAR
+<!-- id: buscar -->
 
 Especifica criterios de búsqueda para entidades.
 

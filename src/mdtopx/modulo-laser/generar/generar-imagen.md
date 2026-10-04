@@ -1,4 +1,5 @@
 # Generar imagen
+<!-- id: generar-imagen -->
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
 

@@ -1,4 +1,5 @@
 # Reglas Soporte Técnico
+<!-- id: reglas-soporte-tecnico -->
 
 El soporte técnico resuelve antes un tique que trae toda la información desde el primer mensaje. Sigue estas reglas al crear un tique de soporte técnico.
 

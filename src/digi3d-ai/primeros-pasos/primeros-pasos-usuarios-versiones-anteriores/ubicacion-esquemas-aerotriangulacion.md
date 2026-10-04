@@ -1,4 +1,5 @@
 # Ubicación del archivo de esquemas de aerotriangulación
+<!-- id: ubicacion-esquemas-aerotriangulacion -->
 
 El instalador de Digi3D.AI crea una copia del archivo de esquemas de aerotriangulación asistida, pero no almacena la ruta a ese archivo en la configuración del programa.
 

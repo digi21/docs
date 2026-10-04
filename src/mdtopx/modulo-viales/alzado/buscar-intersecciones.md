@@ -1,4 +1,5 @@
 # Buscar intersecciones
+<!-- id: buscar-intersecciones -->
 
 [Cuadro de diálogo Calcular alzado nuevo](calcular-alzado-nuevo/)
 

@@ -1,4 +1,5 @@
 # PROYECTA\_COD\_ETIQUETA
+<!-- id: proyecta-cod-etiqueta -->
 
 Proyecta todas la entidades con un determinado código sobre los MDTs cargados que tengan asignada la etiqueta indicada.
 

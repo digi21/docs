@@ -1,4 +1,5 @@
 # Archivo de configuración Digi3DNET.db
+<!-- id: archivo-de-configuracion-digi3dnet.db -->
 
 Es una base de datos que almacena la configuración de Digi3D.AI.
 

@@ -1,4 +1,5 @@
 # CONFIGURAR\_MOSTRAR\_PASO\_CURVAS
+<!-- id: configurar-mostrar-paso-curvas -->
 
 Configura la tolerancia y los códigos que usa la visualización del paso de curvas de nivel \(variable [MOSTRAR\_PASO\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/mostrar_paso_curvas.md)\).
 

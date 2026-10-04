@@ -1,4 +1,5 @@
 # PUNTO\_VISTA
+<!-- id: punto-vista -->
 
 Sitúa el punto de vista de la ventana ortográfica en una de las vistas predefinidas.
 

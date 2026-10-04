@@ -1,4 +1,5 @@
 # Variables de tipo texto
+<!-- id: variables-de-tipo-texto -->
 
 Son variables que pueden almacenar textos.
 

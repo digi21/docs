@@ -1,4 +1,5 @@
 # CAMB\_CARÁCTER
+<!-- id: camb-caracter -->
 
 Sustituye un carácter de texto determinado por otro diferente.
 

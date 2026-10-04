@@ -1,4 +1,5 @@
 # DIBUJA\_ALTURA
+<!-- id: dibuja-altura -->
 
 Inserta un texto con la diferencia de altura \(el incremento de la coordenada Z\) entre dos puntos digitalizados por el usuario.
 

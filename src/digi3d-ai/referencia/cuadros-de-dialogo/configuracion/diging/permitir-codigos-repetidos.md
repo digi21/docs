@@ -1,4 +1,5 @@
 # Permitir códigos repetidos
+<!-- id: permitir-codigos-repetidos -->
 
 Si se activa, podrás asignar el mismo código varias veces a una misma geometría.
 

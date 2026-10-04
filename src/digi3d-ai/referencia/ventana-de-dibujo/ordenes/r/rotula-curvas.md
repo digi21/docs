@@ -1,4 +1,5 @@
 # ROTULA\_CURVAS
+<!-- id: rotula-curvas -->
 
 Rotula una o varias curvas de una vez con su cota correspondiente.
 

@@ -1,4 +1,5 @@
 # Modo de presentación de imágenes
+<!-- id: modo-de-presentacion-de-imagenes -->
 
 Indica cómo se mostrarán las imágenes.
 

@@ -1,4 +1,5 @@
 # Buscar puntos aéreos
+<!-- id: buscar-puntos-aereos -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

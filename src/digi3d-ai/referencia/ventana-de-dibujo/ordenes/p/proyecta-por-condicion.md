@@ -1,4 +1,5 @@
 # PROYECTA\_POR\_CONDICION
+<!-- id: proyecta-por-condicion -->
 
 Proyecta los vértices de las entidades con un determinado código sobre los MDT cargados si la diferencia de Z cumple una condición.
 

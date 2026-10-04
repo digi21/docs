@@ -1,4 +1,5 @@
 # EDITAR\_Z
+<!-- id: editar-z -->
 
 Modifica la coordenada Z de la entidad seleccionada.
 

@@ -1,4 +1,5 @@
 # Base de datos
+<!-- id: base-de-datos-4 -->
 
 Esta categoría permite configurar la relación de este código con base de datos.
 

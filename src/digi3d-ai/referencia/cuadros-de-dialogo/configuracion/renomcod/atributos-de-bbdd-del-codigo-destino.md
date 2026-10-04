@@ -1,4 +1,5 @@
 # Atributos de BBDD del código destino
+<!-- id: atributos-de-bbdd-del-codigo-destino -->
 
 Indica cómo se rellenan los atributos de base de datos del código destino al sustituir un código con la orden [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md).
 

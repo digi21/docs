@@ -1,4 +1,5 @@
 # Panel Propiedades Documento Imagen
+<!-- id: panel-propiedades-documento-imagen -->
 
 [Panel Propiedades](/mdtopx/introduccion/paneles-de-la-aplicacion/panel-propiedades/)
 

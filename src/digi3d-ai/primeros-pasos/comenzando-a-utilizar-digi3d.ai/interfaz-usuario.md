@@ -1,4 +1,5 @@
 # Interfaz de usuario de Digi3D.AI
+<!-- id: interfaz-usuario -->
 
 El interfaz de usuario de Digi3D.AI consiste en varias áreas detalladas a continuación:
 

@@ -1,4 +1,5 @@
 # Mapa de tintas hipsométricas
+<!-- id: como-mapa-de-tintas-hipsometricas -->
 
 [Herramientas MDT Productos ráster](../fichas-de-herramientas/ficha-de-herramientas-mdt/)
 

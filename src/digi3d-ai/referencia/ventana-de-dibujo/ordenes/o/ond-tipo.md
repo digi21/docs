@@ -1,4 +1,5 @@
 # OND\_TIPO
+<!-- id: ond-tipo -->
 
 Activa códigos en la pantalla fotogramétrica y la de dibujo.
 

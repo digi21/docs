@@ -1,4 +1,5 @@
 # XYLINEA
+<!-- id: xylinea -->
 
 Esta orden añade vértices a la orden que se esté ejecutando. Estos vértices añadidos se extraen de una línea seleccionada al estilo de la orden EDITAR, con las teclas + y - se van añadiendo vértices (respetando la Z activa).
 			Al pulsar la barra de espacio se finaliza la orden y se introducen los vértices en la entidad que se estuviera ejecutando previamente. También se puede finalizar la orden con el botón de Data, lo que genera además un vértice en el punto donde se realizó el Data.

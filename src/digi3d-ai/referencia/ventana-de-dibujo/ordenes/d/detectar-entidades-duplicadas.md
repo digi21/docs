@@ -1,4 +1,5 @@
 # DETECTAR\_ENTIDADES\_DUPLICADAS
+<!-- id: detectar-entidades-duplicadas -->
 
 Detecta todas las entidades que están duplicadas por código.
 

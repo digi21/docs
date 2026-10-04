@@ -1,4 +1,5 @@
 # Seleccionar según tiempo GPS
+<!-- id: seleccionar-segun-tiempo-gps -->
 
 [Según tiempo GPS](/mdtopx/modulo-laser/segun-tiempo-gps/)
 

@@ -1,4 +1,5 @@
 # Importar Imágenes
+<!-- id: importar-imagenes -->
 
 [Importar archivo](/mdtopx/operaciones-con-archivos/importar/importar-archivo.md)
 

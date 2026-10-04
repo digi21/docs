@@ -1,4 +1,5 @@
 # SELECCIONA\_COD
+<!-- id: selecciona-cod -->
 
 Selecciona todas las entidades que tengan entre sus códigos los seleccionados.
 

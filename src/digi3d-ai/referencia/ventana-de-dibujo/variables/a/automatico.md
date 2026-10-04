@@ -1,4 +1,5 @@
 # AUTOMATICO
+<!-- id: automatico -->
 
 Indica si _Digi3D.AI_ ejecutará automáticamente una orden al digitalizar un punto cuando el programa está en modo preparado (si no se está ejecutando ninguna orden).
 

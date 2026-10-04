@@ -1,4 +1,5 @@
 # Digi21.DigiNG
+<!-- id: digi21.diging -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG/) proporciona los tipos básicos para poder interactuar con Digi3D.AI.
 

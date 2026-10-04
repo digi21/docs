@@ -1,4 +1,5 @@
 # RECONOCER\_VOZ
+<!-- id: reconocer-voz -->
 
 Activa o desactiva el análisis de voz en tiempo real.
 

@@ -1,4 +1,5 @@
 # Ficha de herramientas Clasificar LiDAR
+<!-- id: ficha-de-herramientas-clasificar-lidar -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

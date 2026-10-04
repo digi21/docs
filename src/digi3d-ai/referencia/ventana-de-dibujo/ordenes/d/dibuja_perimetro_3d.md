@@ -1,4 +1,5 @@
 # DIBUJA\_PERÍMETRO\_3D
+<!-- id: dibuja-perimetro-3d -->
 
 Calcula el perímetro 3D \(la longitud real, teniendo en cuenta los desniveles\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición indicada por el usuario.
 

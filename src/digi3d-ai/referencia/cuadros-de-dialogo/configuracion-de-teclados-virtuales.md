@@ -1,4 +1,5 @@
 # Configuración de teclados virtuales
+<!-- id: configuracion-de-teclados-virtuales -->
 
 ![Cuadro de dialogo Configuración de teclados virtuales](../../../images/configuraciontecladosvirtuales.png)
 

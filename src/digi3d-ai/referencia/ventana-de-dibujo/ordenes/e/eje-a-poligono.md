@@ -1,4 +1,5 @@
 # EJE\_A\_POLIGONO
+<!-- id: eje-a-poligono -->
 
 Dibuja un polígono que rodea a una línea existente.
 

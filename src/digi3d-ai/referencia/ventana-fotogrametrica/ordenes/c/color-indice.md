@@ -1,4 +1,5 @@
 # COLOR\_ÍNDICE
+<!-- id: color-indice -->
 
 Permite cambiar el color de los índices en la pantalla estereoscópica.
 

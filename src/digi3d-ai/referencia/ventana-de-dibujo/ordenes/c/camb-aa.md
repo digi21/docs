@@ -1,4 +1,5 @@
 # CAMB\_AA
+<!-- id: camb-aa -->
 
 Asigna el ángulo activo a la rotación de uno o varios textos o puntos del dibujo.
 

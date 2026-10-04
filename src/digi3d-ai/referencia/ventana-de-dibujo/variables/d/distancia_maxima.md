@@ -1,4 +1,5 @@
 # DISTANCIA\_MÁXIMA
+<!-- id: distancia-maxima -->
 
 Establece una restricción de tamaño máximo de segmento para la orden línea.
 

@@ -1,4 +1,5 @@
 # ANULA\_ENTIDADES\_DE\_INTERES
+<!-- id: anula-entidades-de-interes -->
 
 Anula las entidades de interés de modo que todas las entidades cargadas se activan para todos los procesos.
 

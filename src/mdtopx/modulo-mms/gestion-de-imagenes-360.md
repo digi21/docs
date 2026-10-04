@@ -1,4 +1,5 @@
 # Gestión de imágenes 360
+<!-- id: gestion-de-imagenes-360 -->
 
 [Módulo MMS](/mdtopx/modulo-mms/)
 

@@ -1,4 +1,5 @@
 # EXT2X
+<!-- id: ext2x -->
 
 Prolonga dos entidades hasta su intersección.
 

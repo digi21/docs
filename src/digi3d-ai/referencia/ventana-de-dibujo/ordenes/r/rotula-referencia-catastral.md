@@ -1,4 +1,5 @@
 # ROTULA\_REFERENCIA\_CATASTRAL
+<!-- id: rotula-referencia-catastral -->
 
 Consulta al servicio web del Catastro de España la referencia catastral en las coordenadas de inserción e inserta un texto con la referencia catastral.
 

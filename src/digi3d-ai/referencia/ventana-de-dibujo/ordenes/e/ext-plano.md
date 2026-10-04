@@ -1,4 +1,5 @@
 # EXT\_PLANO
+<!-- id: ext-plano -->
 
 Solicita que se seleccione un plano y a continuación solicita que se seleccione una línea. Extiende el extremo más cercano a la selección al plano.
 

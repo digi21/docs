@@ -1,4 +1,5 @@
 # ABRIR\_GOOGLE\_MAPS
+<!-- id: abrir-google-maps -->
 
 Solicita un punto y abre una ventana de Google Maps centrada en las coordenadas de ese punto.
 

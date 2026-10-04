@@ -1,4 +1,5 @@
 # Tentativo corta la línea seleccionada
+<!-- id: tentativo-corta-la-linea-seleccionada -->
 
 Indica cuándo un tentativo corta la línea seleccionada. Solo tiene efecto si la variable [TENTATIVO\_CORTA](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tentativo-corta.md) está activada.
 

@@ -1,4 +1,5 @@
 # VELOCIDAD\_MAS\_XY
+<!-- id: velocidad-mas-xy -->
 
 Aumenta la velocidad de las manivelas en XY.
 

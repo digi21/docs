@@ -1,4 +1,5 @@
 # ESCALERA
+<!-- id: escalera -->
 
 Dibuja escaleras en el espacio.
 

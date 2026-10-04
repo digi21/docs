@@ -1,4 +1,5 @@
 # Precisión de las coordenadas imagen
+<!-- id: precision-de-las-coordenadas-imagen -->
 
 Indica la precisión, en píxeles, de las coordenadas imagen medidas.
 

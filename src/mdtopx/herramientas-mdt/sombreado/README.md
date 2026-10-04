@@ -1,4 +1,5 @@
 # Sombreado
+<!-- id: sombreado -->
 
 [Sombreado](/mdtopx/desde-linea-de-comando/linea-de-comando-sombreado.md)
 

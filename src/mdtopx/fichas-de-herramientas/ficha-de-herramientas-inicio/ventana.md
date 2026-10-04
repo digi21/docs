@@ -1,4 +1,5 @@
 # Ventana
+<!-- id: ventana-2 -->
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 

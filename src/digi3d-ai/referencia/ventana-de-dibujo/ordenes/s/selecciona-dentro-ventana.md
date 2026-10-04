@@ -1,4 +1,5 @@
 # SELECCIONA\_DENTRO\_VENTANA
+<!-- id: selecciona-dentro-ventana -->
 
 Permite digitalizar una nueva ventana y selecciona todas las entidades que estén completamente dentro de la ventana.
 

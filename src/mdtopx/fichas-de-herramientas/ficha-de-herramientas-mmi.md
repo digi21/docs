@@ -1,4 +1,5 @@
 # Ficha de herramientas MMI
+<!-- id: ficha-de-herramientas-mmi -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

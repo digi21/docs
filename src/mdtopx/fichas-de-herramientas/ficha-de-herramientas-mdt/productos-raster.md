@@ -1,4 +1,5 @@
 # Productos ráster
+<!-- id: productos-raster -->
 
 [Ficha de Herramientas MDT](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-mdt/)
 

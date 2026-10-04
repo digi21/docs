@@ -1,4 +1,5 @@
 # Borrar triángulos por pendientes
+<!-- id: borrar-triangulos-por-pendientes -->
 
 [Borrar triángulos del TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/borrar-triangulos-del-tin.md)
 

@@ -1,4 +1,5 @@
 # Exportar archivos ASCII o grid de ArcInfo
+<!-- id: exportar-archivos-ascii-o-grid-de-arcinfo -->
 
 La aplicación permite exportar el modelo digital del terreno en formato ASCII que es un archivo de texto fácilmente legible o en formato GRID para la aplicación ArcInfo.
 

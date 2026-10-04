@@ -1,4 +1,5 @@
 # Funciones del módulo
+<!-- id: functions -->
 
 Módulo: `digi3d`
 

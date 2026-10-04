@@ -1,4 +1,5 @@
 # Variables booleanas
+<!-- id: variables-booleanas -->
 
 Son variables que pueden tener dos valores: verdadero/falso.
 

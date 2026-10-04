@@ -1,4 +1,5 @@
 # Texto del callejero de Azure Maps
+<!-- id: dibuja-texto-extraido-servicio-mapas-azure -->
 
 Archivo: `dibuja_texto_extraido_servicio_mapas_azure.py` · **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)).
 

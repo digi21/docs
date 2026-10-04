@@ -1,4 +1,5 @@
 # ELIMINAR\_TODAS\_ENTIDADES\_DUPLICADAS
+<!-- id: eliminar-todas-entidades-duplicadas -->
 
 Elimina todas las entidades duplicadas, por código.
 

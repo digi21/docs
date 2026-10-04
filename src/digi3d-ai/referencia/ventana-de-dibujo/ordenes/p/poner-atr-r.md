@@ -1,4 +1,5 @@
 # PONER\_ATR\_R
+<!-- id: poner-atr-r -->
 
 Añade los códigos activos a las entidades que forman el contorno de los recintos seleccionados en la topología temporal.
 

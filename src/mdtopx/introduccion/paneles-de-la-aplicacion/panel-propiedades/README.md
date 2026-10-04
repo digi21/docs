@@ -1,4 +1,5 @@
 # Panel Propiedades
+<!-- id: panel-propiedades -->
 
 [Paneles de la aplicación](/mdtopx/introduccion/paneles-de-la-aplicacion/)
 

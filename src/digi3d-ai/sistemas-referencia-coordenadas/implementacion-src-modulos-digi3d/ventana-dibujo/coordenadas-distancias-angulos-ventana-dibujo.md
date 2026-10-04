@@ -1,4 +1,5 @@
 # Coordenadas, distancias, ángulos y áreas para las órdenes que se ejecutan en la ventana de dibujo
+<!-- id: coordenadas-distancias-angulos-ventana-dibujo -->
 
 ## Coordenadas
 

@@ -1,4 +1,5 @@
 # Tipo de conexión
+<!-- id: tipo-de-conexion -->
 
 Permite configurar el tipo de conexión a Internet de Digi3D.AI. Si el equipo se conecta a Internet a través de un servidor _PROXY_, debes indicarlo aquí.
 

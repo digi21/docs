@@ -1,4 +1,5 @@
 # COPIA\_R
+<!-- id: copia-r -->
 
 Realiza una copia de una entidad de dibujo permitiendo rotarla con un segundo dato.
 

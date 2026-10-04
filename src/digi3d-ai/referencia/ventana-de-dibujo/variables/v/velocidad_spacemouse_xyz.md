@@ -1,4 +1,5 @@
 # VELOCIDAD\_SPACEMOUSE\_XYZ
+<!-- id: velocidad-spacemouse-xyz -->
 
 Configura el factor de velocidad de desplazamiento para el dispositivo _SpaceMouse_ en la ventana de dibujo.
 

@@ -1,4 +1,5 @@
 # Información de triángulo
+<!-- id: informacion-de-triangulo -->
 
 [Elementos](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
 

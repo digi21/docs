@@ -1,4 +1,5 @@
 # ZOOM2P
+<!-- id: zoom2p -->
 
 Permite desplazarnos con el ratón en la pantalla de DigiNG.
 

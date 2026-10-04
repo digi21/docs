@@ -1,4 +1,5 @@
 # Criterio de comparación de centroides
+<!-- id: criterio-de-comparacion-de-centroides -->
 
 Indica el criterio con el que la orden [CONTROL\_TOPOLOGICO\_CASES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-topologico-cases.md) compara los centroides de los polígonos vecinos.
 

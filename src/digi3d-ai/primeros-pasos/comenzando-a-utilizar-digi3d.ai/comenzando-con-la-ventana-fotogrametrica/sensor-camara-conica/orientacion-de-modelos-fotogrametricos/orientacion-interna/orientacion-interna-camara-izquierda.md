@@ -1,4 +1,5 @@
 # Orientación interna de la cámara izquierda
+<!-- id: orientacion-interna-camara-izquierda -->
 
 Comenzaremos realizando la orientación interna de la imagen izquieda y continuaremos con el de la imagen derecha. El de la imagen derecha se realizará de forma automática pues Digi3D.AI se basará en la orientación de la cámara izquierda para localizar las marcas fiduciales en la cámara derecha.
 

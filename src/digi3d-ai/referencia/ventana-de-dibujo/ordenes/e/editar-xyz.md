@@ -1,4 +1,5 @@
 # EDITAR\_XYZ
+<!-- id: editar-xyz -->
 
 Modifica la posición tridimensional \(X, Y, Z\) de los vértices de un elemento.
 

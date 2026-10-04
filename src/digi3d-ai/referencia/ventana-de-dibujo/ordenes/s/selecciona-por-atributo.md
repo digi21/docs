@@ -1,4 +1,5 @@
 # SELECCIONA\_POR\_ATRIBUTO
+<!-- id: selecciona-por-atributo -->
 
 Envía una selección a la orden activa por atributos de base de datos.
 

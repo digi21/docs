@@ -1,4 +1,5 @@
 # Cambiar clasificación en gráfico
+<!-- id: cambiar-clasificacion-en-grafico -->
 
 [Editar puntos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)
 

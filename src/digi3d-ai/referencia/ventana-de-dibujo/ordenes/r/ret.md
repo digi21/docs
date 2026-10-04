@@ -1,4 +1,5 @@
 # RET
+<!-- id: ret -->
 
 Retranquea un segmento de una entidad.
 

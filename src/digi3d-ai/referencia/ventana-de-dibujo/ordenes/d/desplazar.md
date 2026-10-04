@@ -1,4 +1,5 @@
 # DESPLAZAR
+<!-- id: desplazar -->
 
 Desplaza entidades del archivo de dibujo distancias definidas por el usuario mediante desplazamientos en X, Y y Z.
 

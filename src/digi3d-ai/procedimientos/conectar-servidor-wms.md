@@ -1,4 +1,5 @@
 # Conectarse a un servidor WMS
+<!-- id: conectar-servidor-wms -->
 
 Digi3D.AI puede mostrar en la ventana de dibujo las capas de un servidor WMS (*Web Map Service*), por ejemplo la ortofoto del PNOA, debajo de la cartografía. La conexión se guarda en un archivo `.wmsconnection` que se carga como archivo de referencia. Cada vez que cambias el zoom, Digi3D.AI pide al servidor la imagen de las capas activas para la zona visible.
 

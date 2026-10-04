@@ -1,4 +1,5 @@
 # Parámetros del archivo base
+<!-- id: parametros-del-archivo-base -->
 
 En esta sección de la configuración se configuran los parámetros del archivo base (archivo contra el cual se comparan los escaneos solicitados a petición).
 

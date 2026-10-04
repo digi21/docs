@@ -1,4 +1,5 @@
 # Digi21.DigiNG.IO.Shp
+<!-- id: digi21.diging.io.shp -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Io.Shp) proporciona un importador/exportador de archivos Shapefile.
 

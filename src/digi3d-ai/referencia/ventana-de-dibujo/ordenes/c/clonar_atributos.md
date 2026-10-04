@@ -1,4 +1,5 @@
 # CLONAR\_ATRIBUTOS
+<!-- id: clonar-atributos -->
 
 Clona los atributos de la entidad seleccionada.
 

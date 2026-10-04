@@ -1,4 +1,5 @@
 # PROGRAMA
+<!-- id: programa -->
 
 Ejecuta un programa externo o abre un archivo con la aplicación que tenga asociada.
 

@@ -1,4 +1,5 @@
 # ON\_ARCHIVO
+<!-- id: on-archivo -->
 
 Activa códigos en la ventana de dibujo para un determinado número de archivo.
 

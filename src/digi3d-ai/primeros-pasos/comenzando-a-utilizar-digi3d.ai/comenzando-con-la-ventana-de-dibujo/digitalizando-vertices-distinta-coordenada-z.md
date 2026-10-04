@@ -1,4 +1,5 @@
 # Digitalizando vértices con distinta coordenada Z
+<!-- id: digitalizando-vertices-distinta-coordenada-z -->
 
 Digitaliza vértices con distinta coordenada Z introduciendo coordenadas siguiendo estos pasos:
 

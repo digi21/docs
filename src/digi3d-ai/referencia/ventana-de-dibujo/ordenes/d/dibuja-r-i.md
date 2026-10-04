@@ -1,4 +1,5 @@
 # DIBUJA\_R\_I
+<!-- id: dibuja-r-i -->
 
 Dibuja recintos topológicos por inundación.
 

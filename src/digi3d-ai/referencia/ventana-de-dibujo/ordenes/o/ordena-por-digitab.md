@@ -1,4 +1,5 @@
 # ORDENA\_POR\_DIGI\_TAB
+<!-- id: ordena-por-digitab -->
 
 Reordena las entidades de un archivo según el orden en la tabla de códigos activa.
 

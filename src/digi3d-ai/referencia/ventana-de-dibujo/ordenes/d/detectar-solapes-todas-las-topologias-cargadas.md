@@ -1,4 +1,5 @@
 # DETECTAR\_SOLAPES\_TODAS\_LAS\_TOPOLOGIAS\_CARGADAS
+<!-- id: detectar-solapes-todas-las-topologias-cargadas -->
 
 Marca como error solapes entre polígonos de todas las topologías cargadas.
 

@@ -1,4 +1,5 @@
 # FIJAXY
+<!-- id: fijaxy -->
 
 Activa o desactiva la opción de forzar que la variación de las coordenadas planimétricas se realice en intervalos múltiplos de la equidistancia.
 

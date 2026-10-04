@@ -1,4 +1,5 @@
 # REST\_ZOOM\_IN
+<!-- id: rest-zoomin -->
 
 Aumenta el factor de Zoom de las imágenes que se visualizan en la pantalla estereoscópica.
 

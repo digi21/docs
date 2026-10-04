@@ -1,4 +1,5 @@
 # BORRAR\_HUECO
+<!-- id: borrar-hueco -->
 
 Permite borrar un hueco de un polígono.
 

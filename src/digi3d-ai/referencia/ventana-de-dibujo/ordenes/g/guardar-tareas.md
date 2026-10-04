@@ -1,4 +1,5 @@
 # GUARDAR\_TAREAS
+<!-- id: guardar-tareas -->
 
 Guarda en un archivo XML las tareas del panel de tareas.
 

@@ -1,4 +1,5 @@
 # Editar
+<!-- id: editar-3 -->
 
 * [Filtrar puntos](filtrar-puntos.md)
 * [Promediar pasadas](promediar-pasadas.md)

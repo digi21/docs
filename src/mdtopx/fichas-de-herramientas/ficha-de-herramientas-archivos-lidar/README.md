@@ -1,4 +1,5 @@
 # Ficha de herramientas Archivos LiDAR
+<!-- id: ficha-de-herramientas-archivos-lidar -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

@@ -1,4 +1,5 @@
 # ESFERA\_ANTERIOR
+<!-- id: esfera-anterior -->
 
 Entra en la esfera anterior.
 

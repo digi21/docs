@@ -1,4 +1,5 @@
 # Detectar polígonos sin área
+<!-- id: detectar-poligonos-sin-area -->
 
 Indica si se añade una tarea al [panel de tareas](../../../paneles/tareas.md) por cada polígono sin área que se localiza al formar la topología.
 

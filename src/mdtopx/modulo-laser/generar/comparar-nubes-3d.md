@@ -1,4 +1,5 @@
 # Comparar nubes 3D
+<!-- id: comparar-nubes-3d -->
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
 

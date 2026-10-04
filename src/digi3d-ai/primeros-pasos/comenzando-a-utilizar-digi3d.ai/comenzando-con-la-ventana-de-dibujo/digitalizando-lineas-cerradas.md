@@ -1,4 +1,5 @@
 # Digitalizando líneas cerradas
+<!-- id: digitalizando-lineas-cerradas -->
 
 Para digitalizar líneas cerradas, sigue los siguientes pasos:
 

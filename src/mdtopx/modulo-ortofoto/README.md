@@ -1,4 +1,5 @@
 # Módulo Ortofoto
+<!-- id: modulo-ortofoto -->
 
 [¿Qué es MDTopX?](../introduccion/mdtopx.md)
 

@@ -1,4 +1,5 @@
 # La geometría no tiene errores
+<!-- id: la-geometria-no-tiene-errores -->
 
 Si la geometría que se está analizando no tiene ningún error, el guion devolverá la geometría sin modificar como en el siguiente ejemplo:
 

@@ -1,4 +1,5 @@
 # EXT\_P
+<!-- id: ext-p -->
 
 Estira o recorta una entidad hasta su intersección con otra quedando ambas partidas en el punto de intersección, es decir, genera un nodo en este punto.
 

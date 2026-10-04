@@ -1,4 +1,5 @@
 # Módulo ScanStation
+<!-- id: modulo-scanstation -->
 
 [¿Qué es MDTopX?](../introduccion/mdtopx.md)
 

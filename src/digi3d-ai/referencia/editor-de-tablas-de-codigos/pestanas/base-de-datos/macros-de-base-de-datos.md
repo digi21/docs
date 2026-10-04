@@ -1,4 +1,5 @@
 # Macros de base de datos
+<!-- id: macros-de-base-de-datos -->
 
 Las macros de base de datos son valores que le indican a Digi3D.AI que se deben calcular en el momento en el que se crea un registro en la base de datos.
 

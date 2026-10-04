@@ -1,4 +1,5 @@
 # SPLINE
+<!-- id: spline -->
 
 Dibuja una figura usando arcos convirtiéndolos en una curva fluida.
 

@@ -1,4 +1,5 @@
 # Archivo de configuración de teclas
+<!-- id: archivo-de-configuracion-de-teclas -->
 
 Es un archivo .xml que almacena una serie de comandos a ejecutar si se pulsa una determinada tecla. Estos archivos tienen extensión: _.keyboard.xml._
 

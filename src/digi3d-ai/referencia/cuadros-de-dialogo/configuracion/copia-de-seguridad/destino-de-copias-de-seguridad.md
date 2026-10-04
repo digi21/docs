@@ -1,4 +1,5 @@
 # Destino de copias de seguridad
+<!-- id: destino-de-copias-de-seguridad -->
 
 Configura la ruta y el nombre del archivo que se genera cada vez que se realiza una copia de seguridad.
 

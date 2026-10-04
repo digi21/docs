@@ -1,4 +1,5 @@
 # Crear servidor
+<!-- id: crear-servidor -->
 
 Permite configurar si Digi3D.AI creará un servidor para informar al resto de equipos cada vez que se actualice un archivo de dibujo. Resulta útil cuando varios equipos trabajan de forma simultánea sobre los mismos archivos de dibujo de referencia.
 

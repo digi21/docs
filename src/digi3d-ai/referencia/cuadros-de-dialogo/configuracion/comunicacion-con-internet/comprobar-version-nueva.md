@@ -1,4 +1,5 @@
 # Comprobar versión nueva
+<!-- id: comprobar-version-nueva -->
 
 Permite configurar si Digi3D.AI comprobará si existe una versión nueva cada vez que arranque.
 

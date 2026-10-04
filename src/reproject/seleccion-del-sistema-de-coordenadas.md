@@ -1,4 +1,5 @@
 # Selección del sistema de coordenadas
+<!-- id: seleccion-del-sistema-de-coordenadas -->
 
 El botón **…** de **Sistema de coordenadas origen** o de **Sistema de coordenadas destino** abre el cuadro **Seleccionar sistema de referencia de coordenadas**.
 

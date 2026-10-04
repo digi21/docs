@@ -1,4 +1,5 @@
 # Sustituir rutas por sustituidores
+<!-- id: sustituir-rutas-por-sustituidores -->
 
 Si está activo, el programa sustituirá las rutas seleccionadas por sustituidores cuando sea posible. De esta manera se evitan los directorios absolutos en los archivos de configuración.
 

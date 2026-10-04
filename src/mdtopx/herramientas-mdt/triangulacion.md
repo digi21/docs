@@ -1,4 +1,5 @@
 # Triangulación
+<!-- id: triangulacion -->
 
 [Triangulación](/mdtopx/desde-linea-de-comando/linea-de-comando-triangulacion.md)
 

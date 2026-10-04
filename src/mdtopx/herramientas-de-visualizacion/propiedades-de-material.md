@@ -1,4 +1,5 @@
 # Propiedades de material
+<!-- id: propiedades-de-material -->
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 

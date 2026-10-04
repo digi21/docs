@@ -1,4 +1,5 @@
 # Dibujando las primeras líneas
+<!-- id: dibujando-primeras-lineas -->
 
 Conoce los botones del ratón:
 

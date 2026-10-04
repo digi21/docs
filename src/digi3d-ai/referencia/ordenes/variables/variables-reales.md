@@ -1,4 +1,5 @@
 # Variables reales
+<!-- id: variables-reales -->
 
 Son variables que pueden almacenar un número real \(con decimales\).
 

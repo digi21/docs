@@ -1,4 +1,5 @@
 # Paquete `mdtopx.io.model`
+<!-- id: mdtopx-io-model -->
 
 Formatos de **modelos BIM**.
 

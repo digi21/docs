@@ -1,4 +1,5 @@
 # R\_PUNTO
+<!-- id: r-punto -->
 
 Rota un símbolo puntual previamente insertado en el archivo de dibujo.
 

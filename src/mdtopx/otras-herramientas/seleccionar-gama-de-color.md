@@ -1,4 +1,5 @@
 # Seleccionar gama de color
+<!-- id: seleccionar-gama-de-color -->
 
 [Vista de superficie de MDT](../herramientas-de-visualizacion/vista-de-superficie-de-mdt.md)
 

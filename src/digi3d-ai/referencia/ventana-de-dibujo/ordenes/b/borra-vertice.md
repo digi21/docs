@@ -1,4 +1,5 @@
 # BORRA\_VERTICE
+<!-- id: borra-vertice -->
 
 Elimina un vértice de una entidad lineal.
 

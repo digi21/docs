@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Plugin
+<!-- id: digi21.diging.plugin -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Plugin) proporciona clases estáticas para interactuar con Digi3D.AI así como tipos para crear extensiones de Digi3D.AI como órdenes, buscadores de geometrías, controles de calidad, etc.
 

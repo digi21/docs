@@ -1,4 +1,5 @@
 # RENOMCOD
+<!-- id: renomcod -->
 
 Cambia el código correspondiente a una serie de entidades por otro código, ya sea el activo o el código que se especifique en la llamada a la orden.
 

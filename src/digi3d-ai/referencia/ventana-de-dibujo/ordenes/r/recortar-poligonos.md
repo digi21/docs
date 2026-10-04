@@ -1,4 +1,5 @@
 # RECORTAR\_POLÍGONOS
+<!-- id: recortar-poligonos -->
 
 Recorta todos los polígonos que interseccionen con un límite.
 

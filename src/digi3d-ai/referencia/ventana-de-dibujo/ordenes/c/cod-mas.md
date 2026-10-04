@@ -1,4 +1,5 @@
 # COD+
+<!-- id: cod-mas -->
 
 Añade uno o varios códigos a la lista de códigos activos.
 

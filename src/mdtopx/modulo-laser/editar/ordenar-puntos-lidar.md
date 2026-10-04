@@ -1,4 +1,5 @@
 # Ordenar puntos LiDAR
+<!-- id: ordenar-puntos-lidar -->
 
 [Editar puntos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)
 

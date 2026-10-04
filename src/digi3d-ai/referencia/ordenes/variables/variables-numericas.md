@@ -1,4 +1,5 @@
 # Variables numéricas
+<!-- id: variables-numericas -->
 
 Son variables que pueden almacenar un número entero \(sin decimales\).
 

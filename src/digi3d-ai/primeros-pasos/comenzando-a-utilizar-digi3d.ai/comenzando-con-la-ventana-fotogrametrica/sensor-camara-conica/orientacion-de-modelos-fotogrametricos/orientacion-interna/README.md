@@ -1,4 +1,5 @@
 # Orientación interna
+<!-- id: orientacion-interna -->
 
 La orientación interna es la que le permite a Digi3D.AI relacionar las coordenadas fiduciales que aparecen en el certificado de calibración de la cámara con las coordenadas píxel de dichas marcas fiduciales en la imagen.
 

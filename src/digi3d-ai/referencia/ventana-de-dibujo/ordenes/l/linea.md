@@ -1,4 +1,5 @@
 # LINEA
+<!-- id: linea -->
 
 Dibuja una línea en el archivo actual.
 

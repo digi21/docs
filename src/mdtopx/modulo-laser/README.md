@@ -1,4 +1,5 @@
 # Módulo Láser
+<!-- id: modulo-laser -->
 
 [¿Qué es MDTopX?](../introduccion/mdtopx.md)
 

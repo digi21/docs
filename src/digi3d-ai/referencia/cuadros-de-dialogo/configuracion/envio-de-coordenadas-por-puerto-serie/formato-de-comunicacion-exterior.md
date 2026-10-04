@@ -1,4 +1,5 @@
 # Formato de comunicación exterior
+<!-- id: formato-de-comunicacion-exterior -->
 
 Indica el formato en el que se enviarán las coordenadas por el puerto serie.
 

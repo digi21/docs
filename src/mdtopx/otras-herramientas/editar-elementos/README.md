@@ -1,4 +1,5 @@
 # Editar elementos
+<!-- id: editar-elementos-2 -->
 
 * [Información de línea](informacion-de-linea.md)
 * [Información adicional de línea](informacion-adicional-de-linea.md)

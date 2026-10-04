@@ -1,4 +1,5 @@
 # CREA\_DEM
+<!-- id: crea-dem -->
 
 Genera una nueva triangulación a partir de cartografía existente dentro del límite seleccionado y proyecta sobre esa triangulación una malla regular de puntos, que guarda en un archivo LAS, en un archivo GeoTIFF o en los dos.
 

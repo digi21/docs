@@ -1,4 +1,5 @@
 # Utilizar archivos de proyecto
+<!-- id: utilizar-archivos-de-proyecto -->
 
 Si se habilita, la pestaña de archivo de dibujo del cuadro de diálogo de nuevo proyecto muestra únicamente un cuadro de opción para seleccionar el proyecto.
 

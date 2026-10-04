@@ -1,4 +1,5 @@
 # Resolución
+<!-- id: resolucion -->
 
 Indica la resolución que se seleccionará para el [monitor indicado](monitor-a-cambiar-la-resolucion.md).
 

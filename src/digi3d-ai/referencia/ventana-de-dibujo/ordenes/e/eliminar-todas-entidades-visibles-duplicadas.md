@@ -1,4 +1,5 @@
 # ELIMINAR\_TODAS\_ENTIDADES\_VISIBLES\_DUPLICADAS
+<!-- id: eliminar-todas-entidades-visibles-duplicadas -->
 
 Elimina todas las entidades visibles duplicadas.
 

@@ -1,4 +1,5 @@
 # Cambiando la radiometría de las imágenes de la ventana fotogramétrica
+<!-- id: cambiando-radiometria-ventana-foto -->
 
 Puedes cambiar en cualquier momento los parámetros de brillo, contraste y gamma de la ventana fotogramétrica.
 

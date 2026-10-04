@@ -1,4 +1,5 @@
 # Creando nuestro primer archivo de dibujo
+<!-- id: creando-primer-archivo-dibujo -->
 
 ## Procedimiento a seguir
 

@@ -1,4 +1,5 @@
 # Reiniciar las variables al abrir un archivo de dibujo
+<!-- id: reiniciar-variables-al-abrir-dibujo -->
 
 Indica si abrir o crear un archivo de dibujo devuelve las variables de la ventana de dibujo a su valor inicial.
 

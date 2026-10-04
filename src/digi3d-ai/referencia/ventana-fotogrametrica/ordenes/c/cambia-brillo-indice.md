@@ -1,4 +1,5 @@
 # CAMBIA\_BRILLO\_ÍNDICE
+<!-- id: cambia-brillo-indice -->
 
 Cambia la intensidad de los índices conjunta o independientemente.
 

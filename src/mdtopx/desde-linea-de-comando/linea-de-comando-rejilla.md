@@ -1,4 +1,5 @@
 # Rejilla
+<!-- id: linea-de-comando-rejilla -->
 
 [Rejilla](../como/como-rejilla.md)
 

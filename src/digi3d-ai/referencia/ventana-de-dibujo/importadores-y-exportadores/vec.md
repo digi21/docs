@@ -1,4 +1,5 @@
 # Archivos VEC de Latino
+<!-- id: vec -->
 
 Importador y exportador de **Archivos VEC de Latino**.
 

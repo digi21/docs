@@ -1,4 +1,5 @@
 # Color de fondo
+<!-- id: color-de-fondo -->
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 

@@ -1,4 +1,5 @@
 # Borrar puntos por pendiente
+<!-- id: borrar-puntos-por-pendiente -->
 
 [Borrar vértices del TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/borra-vertices-del-tin.md)
 

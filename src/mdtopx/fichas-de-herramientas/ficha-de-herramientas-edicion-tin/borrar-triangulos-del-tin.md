@@ -1,4 +1,5 @@
 # Borrar triángulos del TIN
+<!-- id: borrar-triangulos-del-tin -->
 
 [Ficha de herramientas Edición TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/)
 

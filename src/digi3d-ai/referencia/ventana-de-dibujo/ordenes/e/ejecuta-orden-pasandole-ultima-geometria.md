@@ -1,4 +1,5 @@
 # EJECUTA\_ORDEN\_PASANDOLE\_ULTIMA\_GEOMETRIA
+<!-- id: ejecuta-orden-pasandole-ultima-geometria -->
 
 Esta orden permite incluir en macroinstrucciones y órdenes en pulsaciones de teclas la posibilidad de ejecutar una orden que espera a que se seleccione una geometría
 

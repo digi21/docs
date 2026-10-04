@@ -1,4 +1,5 @@
 # INS\_FOTO\_2P\_AA
+<!-- id: ins-foto-2p-aa -->
 
 Inserta una imagen en el archivo de dibujo mediante dos puntos y ángulo activo.
 

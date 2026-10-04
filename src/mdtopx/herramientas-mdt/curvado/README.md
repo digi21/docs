@@ -1,4 +1,5 @@
 # Curvado
+<!-- id: curvado -->
 
 [Curvado](/mdtopx/desde-linea-de-comando/linea-de-comando-curvado.md)
 

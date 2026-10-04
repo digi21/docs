@@ -1,4 +1,5 @@
 # CRUCE
+<!-- id: cruce -->
 
 Dibuja el cruce de una entidad con otras dos, de forma que el tramo de la primera comprendido entre los puntos de intersección con las dos últimas, se elimina del dibujo.
 

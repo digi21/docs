@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Topology
+<!-- id: digi21.diging.topology -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Topology/) proporciona herramientas y utilidades para el análisis topológico de geometrías.
 

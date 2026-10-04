@@ -1,4 +1,5 @@
 # CAMBIA\_TECLAS\_MNU
+<!-- id: cambia-teclas-mnu -->
 
 Permite cambiar el fichero de teclas.
 

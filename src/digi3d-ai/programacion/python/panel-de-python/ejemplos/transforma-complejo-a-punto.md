@@ -1,4 +1,5 @@
 # Transformar complejos en puntos
+<!-- id: transforma-complejo-a-punto -->
 
 Archivo: `transforma_complejo_a_punto.py` · guion para el [panel de Guiones Python](../README.md).
 

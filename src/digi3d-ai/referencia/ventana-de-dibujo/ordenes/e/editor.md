@@ -1,4 +1,5 @@
 # EDITOR
+<!-- id: editor -->
 
 Permite editar las coordenadas de la geometría que se seleccione.
 

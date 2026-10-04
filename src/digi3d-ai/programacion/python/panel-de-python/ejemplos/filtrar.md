@@ -1,4 +1,5 @@
 # Filtrar curvas (finas y maestras)
+<!-- id: filtrar -->
 
 Archivo: `filtrar.py` · orden con parámetros.
 

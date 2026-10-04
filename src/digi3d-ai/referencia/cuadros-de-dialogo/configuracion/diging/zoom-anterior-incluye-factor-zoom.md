@@ -1,4 +1,5 @@
 # ZOOM\_ANTERIOR incluye los cambios del factor de zoom
+<!-- id: zoom-anterior-incluye-factor-zoom -->
 
 Indica qué órdenes guardan la vista que restaura [ZOOM\_ANTERIOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-anterior.md).
 

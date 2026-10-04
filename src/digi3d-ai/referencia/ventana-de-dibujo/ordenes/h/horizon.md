@@ -1,4 +1,5 @@
 # HORIZON
+<!-- id: horizon -->
 
 Se utiliza para hacer líneas de señalización horizontal, mediante la inserción de símbolos \(compuestos por segmentos horizontales y verticales\) y de espacios en blanco.
 

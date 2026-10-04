@@ -1,4 +1,5 @@
 # EXPLOTAR\_PUNTOS
+<!-- id: explotar-puntos -->
 
 Convierte el símbolo de cada punto del archivo de dibujo activo en líneas independientes con los códigos del punto, y borra el punto.
 

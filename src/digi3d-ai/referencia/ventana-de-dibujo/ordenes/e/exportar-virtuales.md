@@ -1,4 +1,5 @@
 # EXPORTAR\_VIRTUALES
+<!-- id: exportar-virtuales -->
 
 Exporta únicamente las entidades virtuales a un archivo nuevo.
 

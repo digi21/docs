@@ -1,4 +1,5 @@
 # Parámetros del ajuste RPCBA
+<!-- id: parametros-del-ajuste-rpcba -->
 
 Configura las precisiones a priori del ajuste de bloques de los coeficientes RPC \(RPCBA\) del sensor [Satélite RPC](/digi3d-ai/referencia/ventana-fotogrametrica/sensores/rpc/README.md).
 

@@ -1,4 +1,5 @@
 # CONTROL\_CALIDAD\_COD
+<!-- id: control-calidad-cod -->
 
 Realiza análisis de control de calidad por código
 

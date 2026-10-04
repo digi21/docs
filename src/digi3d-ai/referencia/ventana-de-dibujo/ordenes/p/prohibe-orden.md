@@ -1,4 +1,5 @@
 # PROHIBE\_ORDEN
+<!-- id: prohibe-orden -->
 
 Prohíbe que se ejecute la orden especificada por parámetros.
 

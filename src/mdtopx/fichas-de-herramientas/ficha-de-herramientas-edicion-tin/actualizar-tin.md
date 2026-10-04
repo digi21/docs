@@ -1,4 +1,5 @@
 # Actualizar TIN
+<!-- id: actualizar-tin -->
 
 [Ficha de herramientas Edición TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/)
 

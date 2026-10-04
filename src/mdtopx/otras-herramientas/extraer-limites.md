@@ -1,4 +1,5 @@
 # Extraer límites
+<!-- id: extraer-limites -->
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
 

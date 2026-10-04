@@ -1,4 +1,5 @@
 # Extender/Recortar
+<!-- id: extender-recortar -->
 
 ![Barra de herramientas Extender/Recortar](../../../images/extenderrecortar.png)
 

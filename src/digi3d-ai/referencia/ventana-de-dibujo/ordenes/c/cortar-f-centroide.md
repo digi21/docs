@@ -1,4 +1,5 @@
 # CORTAR\_F\_CENTROIDE
+<!-- id: cortar-f-centroide -->
 
 Genera un nuevo fichero con los elementos que se encuentren dentro de los límites de una entidad de dibujo con un centroide específico.
 

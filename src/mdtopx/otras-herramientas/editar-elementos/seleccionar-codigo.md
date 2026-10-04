@@ -1,4 +1,5 @@
 # Seleccionar código
+<!-- id: seleccionar-codigo -->
 
 [Editar Elementos](../../fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
 

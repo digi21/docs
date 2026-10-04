@@ -1,4 +1,5 @@
 # Comprobar licencias
+<!-- id: comprobar-licencias -->
 
 Este programa te permite comprobar las licencias de tu llave de protección.
 

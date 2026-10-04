@@ -1,4 +1,5 @@
 # PATRONS
+<!-- id: patrons -->
 
 Activa/desactiva la visualización de los patrones de línea en la pantalla de visualización estereoscópica.
 

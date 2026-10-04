@@ -1,4 +1,5 @@
 # Consolidar alquiler
+<!-- id: consolidar-alquiler -->
 
 Este programa descarga de nuestros servidores las licencias de los alquileres que acabas de adquirir y las almacena en tu llave de protección.\
 \

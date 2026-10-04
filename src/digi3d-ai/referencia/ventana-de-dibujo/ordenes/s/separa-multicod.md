@@ -1,4 +1,5 @@
 # SEPARA\_MULTICOD
+<!-- id: separa-multicod -->
 
 Explota entidades con múltiples códigos en múltiples entidades con un solo código.
 

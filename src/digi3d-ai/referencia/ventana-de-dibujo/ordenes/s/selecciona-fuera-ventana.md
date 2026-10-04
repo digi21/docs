@@ -1,4 +1,5 @@
 # SELECCIONA\_FUERA\_VENTANA
+<!-- id: selecciona-fuera-ventana -->
 
 Permite digitalizar una nueva ventana y selecciona todas las entidades que estén completamente fuera de la ventana.
 

@@ -1,4 +1,5 @@
 # Editar objetos
+<!-- id: editar-objetos -->
 
 [Ficha de herramientas MMS](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-mms.md)
 

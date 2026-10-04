@@ -1,4 +1,5 @@
 # Ventana fotogramétrica
+<!-- id: ventana-fotogrametrica-3 -->
 
 Configura la visualización estereoscópica y el comportamiento de la ventana fotogramétrica.
 

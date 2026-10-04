@@ -1,4 +1,5 @@
 # Vista
+<!-- id: vista -->
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 

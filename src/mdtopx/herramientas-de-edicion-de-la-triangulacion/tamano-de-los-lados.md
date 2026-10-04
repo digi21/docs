@@ -1,5 +1,6 @@
 
 # Tamaño de los lados
+<!-- id: tamano-de-los-lados -->
 
 [Borrar triángulos del TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/borrar-triangulos-del-tin.md)
 

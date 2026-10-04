@@ -1,4 +1,5 @@
 # MIDE\_PERP
+<!-- id: mide-perp -->
 
 Mide la perpendicular a un segmento seleccionado.
 

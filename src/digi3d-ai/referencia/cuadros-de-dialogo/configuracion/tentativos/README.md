@@ -1,4 +1,5 @@
 # Tentativos
+<!-- id: tentativos -->
 
 Configura el comportamiento de los tentativos.
 

@@ -1,4 +1,5 @@
 # Digi21.DigiNG.IO.Bin
+<!-- id: digi21.diging.io.bin -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Io.Bin/) proporciona un importador/exportador de archivos binarios clásicos de Digi3D.AI.
 

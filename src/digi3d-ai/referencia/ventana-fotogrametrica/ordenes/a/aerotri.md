@@ -1,4 +1,5 @@
 # AEROTRI
+<!-- id: aerotri -->
 
 Realiza medidas de Aerotriangulación.
 

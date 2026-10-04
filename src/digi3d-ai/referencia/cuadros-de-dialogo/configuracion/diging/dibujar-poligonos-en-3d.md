@@ -1,4 +1,5 @@
 # Dibujar polígonos en 3D
+<!-- id: dibujar-poligonos-en-3d -->
 
 Si se activa, los polígonos se dibujan con coordenada Z. Si el polígono tiene diferencias muy grandes de Z, puede que no se represente correctamente.
 

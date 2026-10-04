@@ -1,4 +1,5 @@
 # Preprocesar
+<!-- id: preprocesar -->
 
 [Vista de puntos láser](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/vista-de-puntos-laser.md)
 

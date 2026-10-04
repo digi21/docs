@@ -1,4 +1,5 @@
 # LIMPIA
+<!-- id: limpia -->
 
 Corta las entidades que atraviesan el contorno de textos o de líneas límite y borra o recodifica los tramos que quedan dentro.
 

@@ -1,4 +1,5 @@
 # Mostrar el campo Número de códigos
+<!-- id: mostrar-el-campo-numero-de-codigos -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Número de códigos**.
 

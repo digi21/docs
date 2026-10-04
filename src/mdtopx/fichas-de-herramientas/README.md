@@ -1,4 +1,5 @@
 # Fichas de herramientas
+<!-- id: fichas-de-herramientas -->
 
 * [Inicio](ficha-de-herramientas-inicio/README.md)
 * [Editar](ficha-de-herramientas-editar/README.md)

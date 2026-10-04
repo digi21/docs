@@ -1,4 +1,5 @@
 # ASIGNA\_ATRIBUTO
+<!-- id: asigna-atributo -->
 
 Esta orden asigna un valor a un atributo en la lista de atributos activos en la barra
 			acoplable de base de datos.

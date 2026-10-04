@@ -1,4 +1,5 @@
 # Macro
+<!-- id: macro -->
 
 ![Barra de herramientas Macro](../../../images/macro.png)
 

@@ -1,4 +1,5 @@
 # Colores
+<!-- id: colores -->
 
 ![Editor de tablas de códigos mostrando la pestaña de colores](../../../../images/pestanacolores.png)
 

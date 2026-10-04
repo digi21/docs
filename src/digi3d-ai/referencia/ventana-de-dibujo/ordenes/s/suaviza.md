@@ -1,4 +1,5 @@
 # SUAVIZA
+<!-- id: suaviza -->
 
 Suaviza la forma geométrica de un elemento lineal existente en el dibujo.
 

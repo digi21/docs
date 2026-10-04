@@ -1,4 +1,5 @@
 # PARALELA\_DA
+<!-- id: paralela-da -->
 
 Dibuja una paralela con los parámetros especificados en la variable Distancia Activa.
 

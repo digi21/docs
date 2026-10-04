@@ -1,4 +1,5 @@
 # CAMB\_Z\_ACTIVA
+<!-- id: camb-z-activa -->
 
 Cambia la Z de uno o más elementos a la Z que está activa en ese momento.
 

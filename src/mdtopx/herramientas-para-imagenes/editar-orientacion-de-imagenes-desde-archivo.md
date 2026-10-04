@@ -1,4 +1,5 @@
 # Editar orientación de imágenes desde archivo
+<!-- id: editar-orientacion-de-imagenes-desde-archivo -->
 
 [Orientación](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/orientacion.md)
 

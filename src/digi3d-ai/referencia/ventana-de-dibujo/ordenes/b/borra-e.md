@@ -1,4 +1,5 @@
 # BORRA\_E
+<!-- id: borra-e -->
 
 Borra del dibujo las entidades gráficas y textos que se indiquen.
 

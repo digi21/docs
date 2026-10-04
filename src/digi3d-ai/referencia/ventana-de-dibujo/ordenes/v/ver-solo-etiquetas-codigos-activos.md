@@ -1,4 +1,5 @@
 # VER\_SOLO\_ETIQUETAS\_CÓDIGOS\_ACTIVOS
+<!-- id: ver-solo-etiquetas-codigos-activos -->
 
 Activa únicamente los códigos pertenecientes a las etiquetas a las que pertenecen los códigos activos.
 

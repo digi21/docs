@@ -1,4 +1,5 @@
 # AGREGA
+<!-- id: agrega -->
 
 Añade las coordenadas de un punto al fichero de puntos que se haya definido en la pantalla de inicio de DigiNG, o que se haya determinado con [FICHERO\_P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fichero-p.md).
 

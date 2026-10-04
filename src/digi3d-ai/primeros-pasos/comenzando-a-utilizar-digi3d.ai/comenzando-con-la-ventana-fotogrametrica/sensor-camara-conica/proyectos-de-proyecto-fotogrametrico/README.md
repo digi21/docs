@@ -1,4 +1,5 @@
 # Proyectos de proyecto fotogramétrico
+<!-- id: proyectos-de-proyecto-fotogrametrico -->
 
 Los archivos de proyecto de _proyecto fotogramétrico_ permiten que cambiemos rápidamente de modelo con tan solo un clic en el [Panel Proyecto fotogramétrico](/digi3d-ai/referencia/paneles/proyecto-fotogrametrico.md).
 

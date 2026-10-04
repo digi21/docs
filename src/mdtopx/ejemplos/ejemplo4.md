@@ -1,4 +1,5 @@
 # Ejemplo 4: Obtener un mapa de tintas hipsométricas
+<!-- id: ejemplo4 -->
 
 [Ejemplos](/mdtopx/ejemplos/)
 

@@ -1,4 +1,5 @@
 # N
+<!-- id: n-2 -->
 
 Activa como dispositivo de entrada el fichero ASCII especificado en la pantalla de inicio de DigiNG o mediante la orden [FICHERO\_P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fichero-p.md).
 

@@ -1,4 +1,5 @@
 # Editor de la base de datos
+<!-- id: editor-de-la-base-de-datos -->
 
 Configura el comportamiento del editor de la base de datos.
 

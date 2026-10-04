@@ -1,4 +1,5 @@
 # Guitarra
+<!-- id: guitarra -->
 
 [Cuadro de diálogo Perfiles](./)
 

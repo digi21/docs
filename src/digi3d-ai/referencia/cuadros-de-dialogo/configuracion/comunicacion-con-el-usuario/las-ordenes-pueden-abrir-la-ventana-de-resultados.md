@@ -1,4 +1,5 @@
 # Las órdenes pueden abrir la ventana de resultados
+<!-- id: las-ordenes-pueden-abrir-la-ventana-de-resultados -->
 
 Indica si las órdenes, los guiones de Python y los complementos .NET abren la [ventana de resultados](../../../paneles/resultados.md) cuando escriben en ella.
 

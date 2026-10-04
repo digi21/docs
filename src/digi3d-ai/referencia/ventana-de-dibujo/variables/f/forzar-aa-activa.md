@@ -1,4 +1,5 @@
 # FORZAR\_AA\_ACTIVA
+<!-- id: forzar-aa-activa -->
 
 Si está activada, tanto en restitución como en edición, todos los textos que genere cualquier orden, como puedan ser [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md), se almacenan con el _ángulo activo_ vigente en el momento de la ejecución de dichas órdenes.
 

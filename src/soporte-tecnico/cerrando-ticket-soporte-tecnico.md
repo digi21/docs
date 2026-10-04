@@ -1,4 +1,5 @@
 # Cerrando un tique de soporte técnico
+<!-- id: cerrando-ticket-soporte-tecnico -->
 
 Un tique de soporte técnico está en uno de estos dos estados:
 

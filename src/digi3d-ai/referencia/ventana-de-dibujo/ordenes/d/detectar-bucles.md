@@ -1,4 +1,5 @@
 # DETECTAR\_BUCLES
+<!-- id: detectar-bucles -->
 
 Detecta bucles \(o auto intersecciones\) en entidades de tipo Línea y Polígono.
 

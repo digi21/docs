@@ -1,4 +1,5 @@
 # Datos escáner
+<!-- id: datos-escaner -->
 
 [Ficha de herramientas ScanStation](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-scanstation.md)
 

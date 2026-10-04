@@ -1,4 +1,5 @@
 # Mostrar panel lateral
+<!-- id: mostrar-panel-lateral -->
 
 Si se activa, se muestra un panel lateral en la ventana fotogramétrica que permite cambiar la radiometría de las imágenes mostradas.
 

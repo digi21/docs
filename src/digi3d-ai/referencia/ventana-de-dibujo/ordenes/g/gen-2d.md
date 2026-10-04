@@ -1,4 +1,5 @@
 # GEN\_2D
+<!-- id: gen-2d -->
 
 Generaliza líneas y polígonos midiendo las distancias solo en el plano XY: la Z de los vértices no interviene. Conserva los vértices que la entidad comparte con otras entidades del archivo de dibujo.
 

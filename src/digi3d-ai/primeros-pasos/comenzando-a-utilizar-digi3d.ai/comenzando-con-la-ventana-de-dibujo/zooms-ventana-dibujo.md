@@ -1,4 +1,5 @@
 # Zooms en la ventana de dibujo
+<!-- id: zooms-ventana-dibujo -->
 
 Sigue los siguientes pasos para hacer un [zoom extendido](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoome.md):
 

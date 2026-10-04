@@ -1,4 +1,5 @@
 # EDITAR\_TEXTO
+<!-- id: editar-texto -->
 
 Edita un texto del fichero de dibujo.
 

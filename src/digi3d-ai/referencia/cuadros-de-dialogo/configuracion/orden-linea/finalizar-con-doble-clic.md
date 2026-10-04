@@ -1,4 +1,5 @@
 # Finalizar con doble clic
+<!-- id: finalizar-con-doble-clic -->
 
 Indica si la línea que se está registrando con la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) finaliza al hacer doble clic.
 

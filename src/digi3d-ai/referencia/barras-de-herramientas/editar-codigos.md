@@ -1,4 +1,5 @@
 # Editar códigos
+<!-- id: editar-codigos -->
 
 ![Barra de herramientas Editar Códigos](../../../images/editarcodigos.png)
 

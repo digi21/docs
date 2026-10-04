@@ -1,4 +1,5 @@
 # AREA
+<!-- id: area -->
 
 Calcula la superficie de entidades gráficas cerradas y sitúa en la pantalla un texto con este valor, en la posición indicada por el usuario.
 

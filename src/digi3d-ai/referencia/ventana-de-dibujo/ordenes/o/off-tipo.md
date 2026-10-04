@@ -1,4 +1,5 @@
 # OFF\_TIPO
+<!-- id: off-tipo -->
 
 Desactiva códigos en la pantalla ortogonal.
 

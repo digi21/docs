@@ -1,4 +1,5 @@
 # UNIR\_LINEAS\_TABLA
+<!-- id: unir-lineas-tabla -->
 
 Une las lineas en pantalla siempre que al nodo no lleguen más de dos entidades con el mismo código.(siempre que tengan el mismo código y continuidad geométrica) por código.
 

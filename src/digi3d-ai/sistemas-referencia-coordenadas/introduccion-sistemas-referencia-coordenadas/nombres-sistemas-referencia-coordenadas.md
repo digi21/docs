@@ -1,4 +1,5 @@
 # Nombres de los Sistemas de Referencia de Coordenadas
+<!-- id: nombres-sistemas-referencia-coordenadas -->
 
 Todos los sistemas de referencia de coordenadas tienen un nombre asociado. La forma de dar nombre a un sistema de referencia de coordenadas está estandarizada, de modo que el nombre de todos los sistemas de referencia de coordenadas de un determinado tipo seguirán el mismo patrón.
 

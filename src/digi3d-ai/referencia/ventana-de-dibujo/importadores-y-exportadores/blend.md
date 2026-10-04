@@ -1,4 +1,5 @@
 # Archivos Blend
+<!-- id: blend -->
 
 Importador y exportador de **Archivos Blend**.
 

@@ -1,4 +1,5 @@
 # ACUERDO
+<!-- id: acuerdo -->
 
 Dibuja un acuerdo circular entre dos segmentos con un vértice común de una entidad.
 

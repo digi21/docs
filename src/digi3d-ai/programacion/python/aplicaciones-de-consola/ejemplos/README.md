@@ -1,4 +1,5 @@
 # Ejemplos de programación
+<!-- id: ejemplos -->
 
 Tutoriales con ejemplos para aprender a programar **aplicaciones de consola** con la API de
 Python de Digi3D.AI. Cada tema parte de un objetivo práctico y muestra el código completo.

@@ -1,4 +1,5 @@
 # Puntos por tesela
+<!-- id: puntos-por-tesela -->
 
 Indica el número de puntos que se quiere almacenar en cada tesela de los archivos de nivel de detalle.
 

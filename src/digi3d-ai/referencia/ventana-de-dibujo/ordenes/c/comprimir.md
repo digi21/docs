@@ -1,4 +1,5 @@
 # COMPRIMIR
+<!-- id: comprimir -->
 
 Elimina en el fichero de dibujo todos los elementos que tengan la marca de borrado y actualiza las topologías cargadas en memoria.
 

@@ -1,4 +1,5 @@
 # CAMB\_TEXTO
+<!-- id: camb-texto -->
 
 Sustituye todos los textos iguales por otro que ha de ser especificado por el usuario.
 

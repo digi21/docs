@@ -1,4 +1,5 @@
 # Seleccionar según color registrado
+<!-- id: seleccionar-segun-color-registrado -->
 
 [Según color registrado](/mdtopx/modulo-laser/segun-color-registrado/)
 

@@ -1,4 +1,5 @@
 # Fin orden
+<!-- id: fin-orden -->
 
 Permite indicar la ruta del archivo _.wav_ con el sonido que se reproduce cuando finaliza una orden.
 

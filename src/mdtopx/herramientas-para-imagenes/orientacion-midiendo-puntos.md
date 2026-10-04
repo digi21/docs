@@ -1,4 +1,5 @@
 # Orientación Midiendo Puntos
+<!-- id: orientacion-midiendo-puntos -->
 
 [Orientación](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/orientacion.md)
 

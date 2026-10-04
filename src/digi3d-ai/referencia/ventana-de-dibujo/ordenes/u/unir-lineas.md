@@ -1,4 +1,5 @@
 # UNIR\_LINEAS
+<!-- id: unir-lineas -->
 
 Une las líneas visibles que comparten alguno de los códigos indicados.
 

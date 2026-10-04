@@ -1,4 +1,5 @@
 # BLOQUEA_Z
+<!-- id: bloquea-z -->
 
 Bloquea la coordenada _Z_ de la ventana fotogramétrica en el valor exacto en el que se encuentra en ese momento, de modo que no cambie mientras te desplazas.
 

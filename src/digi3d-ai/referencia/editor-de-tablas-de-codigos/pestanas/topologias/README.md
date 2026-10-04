@@ -1,4 +1,5 @@
 # Topologías
+<!-- id: topologias -->
 
 Permite configurar las topologías que se pueden generar mediante el menú [Topología](/digi3d-ai/referencia/ventana-de-dibujo/menus/topologia.md)de Digi3D.AI.
 

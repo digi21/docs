@@ -1,4 +1,5 @@
 # TRIM
+<!-- id: trim -->
 
 Corta una entidad hasta su punto de intersección con el borde de otra.
 

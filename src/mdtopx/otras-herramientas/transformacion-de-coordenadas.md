@@ -1,4 +1,5 @@
 # Transformación de coordenadas
+<!-- id: transformacion-de-coordenadas -->
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
 

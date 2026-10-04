@@ -1,4 +1,5 @@
 # Generar a partir del TIN
+<!-- id: generar-a-partir-del-tin -->
 
 [Ficha de herramientas Edición TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/)
 

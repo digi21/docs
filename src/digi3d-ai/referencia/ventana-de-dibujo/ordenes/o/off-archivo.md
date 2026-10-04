@@ -1,4 +1,5 @@
 # OFF\_ARCHIVO
+<!-- id: off-archivo -->
 
 Desactiva códigos en la ventana de dibujo para un determinado número de archivo.
 

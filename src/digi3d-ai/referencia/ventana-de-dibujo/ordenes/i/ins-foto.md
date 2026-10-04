@@ -1,4 +1,5 @@
 # INS\_FOTO
+<!-- id: ins-foto -->
 
 Inserta una imagen en el archivo de dibujo mediante dos puntos: el primero para el centro y el segundo para indicar la rotación y escala.
 

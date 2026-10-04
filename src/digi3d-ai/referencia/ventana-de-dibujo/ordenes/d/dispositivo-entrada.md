@@ -1,4 +1,5 @@
 # DISPOSITIVO\_ENTRADA
+<!-- id: dispositivo-entrada -->
 
 Establece el dispositivo de entrada de la ventana de dibujo (por ejemplo, un GPS), desactivando el ratón.
 

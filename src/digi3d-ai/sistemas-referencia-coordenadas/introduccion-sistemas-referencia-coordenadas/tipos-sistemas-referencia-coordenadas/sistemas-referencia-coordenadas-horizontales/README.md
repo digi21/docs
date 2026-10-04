@@ -1,4 +1,5 @@
 # Sistemas de Referencia de Coordenadas Horizontales
+<!-- id: sistemas-referencia-coordenadas-horizontales -->
 
 Representan coordenadas en dos o tres dimensiones, habitualmente son _X,Y_ o _Latitud,Longitud,\_o \_X,Y,Z_ y _Latitud,Longitud,Altitud_.
 

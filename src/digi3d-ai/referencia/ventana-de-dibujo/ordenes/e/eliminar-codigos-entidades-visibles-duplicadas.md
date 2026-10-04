@@ -1,4 +1,5 @@
 # ELIMINAR\_CODIGOS\_ENTIDADES\_VISIBLES\_DUPLICADAS
+<!-- id: eliminar-codigos-entidades-visibles-duplicadas -->
 
 Elimina los códigos comunes de todas las entidades visibles duplicadas.
 

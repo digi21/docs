@@ -1,4 +1,5 @@
 # OFFD
+<!-- id: offd -->
 
 Desactiva el código \(o códigos\) que no se desean visualizar en la pantalla de dibujo, tanto en DigiNG como en la pantalla de visión estereoscópica.
 

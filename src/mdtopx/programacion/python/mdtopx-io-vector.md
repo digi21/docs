@@ -1,4 +1,5 @@
 # Paquete `mdtopx.io.vector`
+<!-- id: mdtopx-io-vector -->
 
 Formatos de **dibujo**. Leen a `scene.polylines`, `scene.texts`, `scene.points` y, en los formatos que
 las admiten, `scene.clouds`. Cada entidad lleva su código en `layer_code` y, si el formato los tiene,

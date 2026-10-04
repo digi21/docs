@@ -1,4 +1,5 @@
 # TENTATIVO\_CORTA
+<!-- id: tentativo-corta -->
 
 Tentativa y corta la entidad en la que se ha hecho el tentativo.
 

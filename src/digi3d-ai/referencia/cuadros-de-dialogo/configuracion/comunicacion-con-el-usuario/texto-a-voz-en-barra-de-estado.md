@@ -1,4 +1,5 @@
 # Texto a voz en barra de estado
+<!-- id: texto-a-voz-en-barra-de-estado -->
 
 Indica si Digi3D.AI utilizará síntesis de voz para narrar los mensajes que las órdenes muestran en la barra de estado.
 

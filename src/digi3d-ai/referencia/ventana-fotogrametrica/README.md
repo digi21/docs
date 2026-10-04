@@ -1,4 +1,5 @@
 # Ventana fotogramétrica
+<!-- id: ventana-fotogrametrica-2 -->
 
 Referencia de la ventana fotogramétrica:
 

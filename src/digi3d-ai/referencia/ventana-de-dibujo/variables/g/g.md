@@ -1,4 +1,5 @@
 # G
+<!-- id: g-3 -->
 
 Activa o desactiva la función de [generalización](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md).
 

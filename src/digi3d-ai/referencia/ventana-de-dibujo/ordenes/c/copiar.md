@@ -1,4 +1,5 @@
 # COPIAR
+<!-- id: copiar -->
 
 Realiza una copia de una entidad de dibujo.
 

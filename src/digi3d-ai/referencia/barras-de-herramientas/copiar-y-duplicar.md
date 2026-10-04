@@ -1,4 +1,5 @@
 # Copiar y duplicar
+<!-- id: copiar-y-duplicar -->
 
 ![Barra de herramientas Copiar y duplicar](../../../images/copiaryduplicar.png)
 

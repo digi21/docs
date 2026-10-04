@@ -1,4 +1,5 @@
 # Rectificación epipolar
+<!-- id: rectificacion-epipolar -->
 
 Especifica el tipo de rectificación epipolar a realizar.
 

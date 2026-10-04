@@ -1,4 +1,5 @@
 # Eliminando la última entidad digitalizada
+<!-- id: eliminando-ultima-entidad -->
 
 Elimina entidades siguiendo estos pasos:
 

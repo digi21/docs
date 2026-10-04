@@ -1,4 +1,5 @@
 # PARALELA\_DINÁMICA\_Z\_FIJA
+<!-- id: paralela-dinamica-z-fija -->
 
 Dibuja una línea paralela a una entidad a la distancia que especifique el operador, con una determinada Z.
 

@@ -1,4 +1,5 @@
 # Paneles de la aplicación
+<!-- id: paneles-de-la-aplicacion -->
 
 [Interfaz de usuario](/lot-of-points-cc/interfaz-de-usuario/)
 

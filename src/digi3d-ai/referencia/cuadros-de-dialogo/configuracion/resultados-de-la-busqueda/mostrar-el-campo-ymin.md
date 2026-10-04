@@ -1,4 +1,5 @@
 # Mostrar el campo Ymin
+<!-- id: mostrar-el-campo-ymin -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Ymin**.
 

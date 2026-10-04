@@ -1,4 +1,5 @@
 # MOD
+<!-- id: mod -->
 
 Modifica el trazado geométrico de una entidad en XY.
 

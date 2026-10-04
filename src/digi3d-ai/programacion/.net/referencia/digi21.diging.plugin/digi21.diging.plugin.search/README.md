@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Plugin.Search
+<!-- id: digi21.diging.plugin.search -->
 
 Proporciona tipos para implementar extensiones que publiquen buscadores en el panel de búsqueda de Digi3D.AI.
 

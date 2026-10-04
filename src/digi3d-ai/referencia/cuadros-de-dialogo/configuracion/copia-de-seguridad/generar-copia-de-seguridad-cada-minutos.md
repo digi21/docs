@@ -1,4 +1,5 @@
 # Generar copia de seguridad cada (minutos)
+<!-- id: generar-copia-de-seguridad-cada-minutos -->
 
 Indica cada cuánto tiempo, en minutos, se genera una copia de seguridad del archivo de dibujo. Para deshabilitar las copias de seguridad automáticas, introduce **0**.
 

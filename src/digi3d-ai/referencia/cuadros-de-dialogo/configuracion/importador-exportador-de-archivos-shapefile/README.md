@@ -1,4 +1,5 @@
 # Importador/Exportador de archivos Shapefile
+<!-- id: importador-exportador-de-archivos-shapefile -->
 
 Configuración del importador/exportador de archivos Shapefile.
 

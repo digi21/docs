@@ -1,4 +1,5 @@
 # Propiedades de iluminación
+<!-- id: propiedades-de-iluminacion -->
 
 [Ficha de herramientas Inicio](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-inicio/)
 

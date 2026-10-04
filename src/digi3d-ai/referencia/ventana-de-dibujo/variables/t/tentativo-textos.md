@@ -1,4 +1,5 @@
 # TENTATIVO\_TEXTOS
+<!-- id: tentativo-textos -->
 
 Si está activa, el tentativo también busca textos además del resto de entidades.
 

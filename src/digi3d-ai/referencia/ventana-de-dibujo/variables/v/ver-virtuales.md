@@ -1,4 +1,5 @@
 # VER\_VIRTUALES
+<!-- id: ver-virtuales -->
 
 Activa o desactiva la visualización de las entidades virtuales.
 

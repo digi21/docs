@@ -1,4 +1,5 @@
 # FORZAR\_ALMACENAR\_GEOMETRIAS\_SIN\_ENLACE\_BBDD
+<!-- id: forzar-almacenar-geometrias-sin-enlace-bbdd -->
 
 Si se activa, las geometrías nuevas y las geometrías modificadas se almacenan sin enlace a base de datos: sus códigos pierden la tabla, el identificador y los atributos de base de datos.
 

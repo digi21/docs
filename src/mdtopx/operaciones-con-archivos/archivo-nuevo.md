@@ -1,4 +1,5 @@
 # Archivo Nuevo
+<!-- id: archivo-nuevo -->
 
 [Botón de MDTopX](../introduccion/boton-de-mdtopx.md)
 

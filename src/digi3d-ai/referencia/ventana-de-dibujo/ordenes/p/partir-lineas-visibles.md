@@ -1,4 +1,5 @@
 # PARTIR\_LINEAS\_VISIBLES
+<!-- id: partir-lineas-visibles -->
 
 Parte las entidades visibles por sus intersecciones.
 

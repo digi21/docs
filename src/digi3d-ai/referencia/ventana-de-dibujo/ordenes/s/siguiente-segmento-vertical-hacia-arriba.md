@@ -1,4 +1,5 @@
 # SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ARRIBA
+<!-- id: siguiente-segmento-vertical-hacia-arriba -->
 
 Configura la orden activa para indicar que el siguiente segmento a insertar será vertical y formado por dos puntos.
 

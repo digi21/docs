@@ -1,4 +1,5 @@
 # Generar límites de imagen
+<!-- id: generar-limites-de-imagen -->
 
 [Calcular](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/imagen-calcular.md)
 

@@ -1,4 +1,5 @@
 # CAL\_ORTO
+<!-- id: cal-orto -->
 
 Efectúa el cálculo para generar ortofotografías.
 

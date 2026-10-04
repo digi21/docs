@@ -1,4 +1,5 @@
 # COTAS\_CURVAS
+<!-- id: cotas-curvas -->
 
 Asigna cota a las curvas de nivel de manera global.
 

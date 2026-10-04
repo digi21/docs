@@ -1,4 +1,5 @@
 # BINPLT
+<!-- id: binplt -->
 
 Explota la simbología con la escala configurada en la pestaña Archivo de dibujo.
 

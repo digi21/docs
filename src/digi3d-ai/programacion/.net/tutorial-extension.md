@@ -1,4 +1,5 @@
 # Tutorial: crear una extensión
+<!-- id: tutorial-extension -->
 
 En este tutorial crearás una extensión de Digi3D.AI con una orden, `HOLA_MUNDO`, que escribe un mensaje en la ventana de resultados. Una extensión es una biblioteca (`.dll`) que Digi3D.AI carga al arrancar. Sus órdenes se ejecutan dentro del programa, con acceso al archivo de dibujo abierto, a los archivos de referencia y a las ventanas de Digi3D.AI.
 

@@ -1,4 +1,5 @@
 # EXPORTAR\_ENTIDADES\_SELECCIONADAS
+<!-- id: exportar-entidades-seleccionadas -->
 
 Exporta las geometrías seleccionadas a un archivo de dibujo.
 

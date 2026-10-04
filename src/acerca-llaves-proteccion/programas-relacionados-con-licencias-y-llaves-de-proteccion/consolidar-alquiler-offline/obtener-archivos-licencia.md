@@ -1,4 +1,5 @@
 # Obtener Archivos Licencia
+<!-- id: obtener-archivos-licencia -->
 
 Este programa se comunica con el servidor de licencias de Digi21 y obtiene un archivo de licencia con los alquileres de una determinada llave.
 

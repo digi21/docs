@@ -1,4 +1,5 @@
 # Resultados
+<!-- id: resultados -->
 
 ![Panel de resultados](../../../images/panelresultados.png)
 

@@ -1,4 +1,5 @@
 # Seleccionar según clasificación
+<!-- id: seleccionar-segun-clasificacion -->
 
 [Según clasificación LIDAR](/mdtopx/modulo-laser/segun-clasificacion-lidar/)
 

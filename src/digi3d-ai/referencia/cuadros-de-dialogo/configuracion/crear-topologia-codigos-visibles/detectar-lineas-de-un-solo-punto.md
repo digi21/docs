@@ -1,4 +1,5 @@
 # Detectar líneas de un solo punto
+<!-- id: detectar-lineas-de-un-solo-punto -->
 
 Indica si se añade una tarea al [panel de tareas](../../../paneles/tareas.md) por cada línea con un único punto que se localiza al formar la topología.
 

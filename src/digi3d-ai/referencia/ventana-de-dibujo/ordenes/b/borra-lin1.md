@@ -1,4 +1,5 @@
 # BORRA\_LIN1
+<!-- id: borra-lin1 -->
 
 Borra en el archivo de trabajo:
 

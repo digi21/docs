@@ -1,4 +1,5 @@
 # Archivos de configuración de teclas
+<!-- id: archivos-configuracion-teclas -->
 
 Hemos modernizado el formato de los archivos de configuración de teclas \(los archivos _teclas.mnu_\).
 

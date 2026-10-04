@@ -1,4 +1,5 @@
 # ASIGNAR\_REPRESENTACIONES
+<!-- id: asignar-representaciones -->
 
 Asigna un archivo de representaciones para modificar la representación de las geometrías en pantalla.
 

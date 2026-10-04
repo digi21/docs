@@ -1,4 +1,5 @@
 # CAMBIAR\_VALORES\_BBDD
+<!-- id: cambiar-valores-bbdd -->
 
 Cambia valores en la BBDD asociada con el archivo de dibujo.
 

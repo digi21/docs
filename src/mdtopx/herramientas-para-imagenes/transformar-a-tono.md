@@ -1,4 +1,5 @@
 # Transformar a tono
+<!-- id: transformar-a-tono -->
 
 [Filtros](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/filtros.md)
 

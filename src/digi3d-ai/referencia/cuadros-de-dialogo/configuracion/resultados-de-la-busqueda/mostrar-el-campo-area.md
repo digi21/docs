@@ -1,4 +1,5 @@
 # Mostrar el campo Área
+<!-- id: mostrar-el-campo-area -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Área**.
 

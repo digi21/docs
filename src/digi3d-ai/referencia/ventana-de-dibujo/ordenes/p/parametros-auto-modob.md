@@ -1,4 +1,5 @@
 # PARAMETROS\_AUTO\_MODOB
+<!-- id: parametros-auto-modob -->
 
 Carga el archivo XML con la configuración del modo de búsqueda automático.
 

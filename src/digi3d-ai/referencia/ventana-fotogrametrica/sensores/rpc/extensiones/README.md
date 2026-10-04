@@ -1,4 +1,5 @@
 # Extensiones de Satélite RPC
+<!-- id: extensiones-2 -->
 
 El sensor Satélite RPC puede obtener los coeficientes RPC de las imágenes de satélite a partir de archivos en los siguientes formatos:
 

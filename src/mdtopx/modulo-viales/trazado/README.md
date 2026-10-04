@@ -1,4 +1,5 @@
 # Trazado
+<!-- id: trazado -->
 
 * [Información del trazado](informacion-del-trazado.md)
 * [Editar un trazado](editar-un-trazado.md)

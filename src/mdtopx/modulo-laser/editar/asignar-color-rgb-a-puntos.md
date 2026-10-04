@@ -1,4 +1,5 @@
 # Asignar color RGB a puntos
+<!-- id: asignar-color-rgb-a-puntos -->
 
 [Editar puntos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)
 

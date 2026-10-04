@@ -1,4 +1,5 @@
 # Tentativo
+<!-- id: tentativo -->
 
 ![Barra de herramientas Tentativo](../../../images/tentativo.png)
 

@@ -1,4 +1,5 @@
 # ENTRAR\_EN\_ESFERA
+<!-- id: entrar-en-esfera -->
 
 Entra en una esfera seleccionando un punto en pantalla.
 

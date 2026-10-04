@@ -1,4 +1,5 @@
 # Orientación interna
+<!-- id: orientacion-interna-2 -->
 
 Configura el comportamiento de la orientación interna del sensor Cónico.
 

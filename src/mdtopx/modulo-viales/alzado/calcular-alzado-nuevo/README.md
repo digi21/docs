@@ -1,4 +1,5 @@
 # Calcular alzado nuevo
+<!-- id: calcular-alzado-nuevo -->
 
 [Ficha de herramientas Alzado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-alzado.md)
 

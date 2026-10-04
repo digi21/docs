@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Entities
+<!-- id: digi21.diging.entities -->
 
 Proporciona los tipos relacionados con geometrías.
 

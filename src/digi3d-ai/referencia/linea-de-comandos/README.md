@@ -1,4 +1,5 @@
 # Línea de comandos
+<!-- id: linea-de-comandos -->
 
 Digi3D.AI admite que le pasemos parámetros desde la línea de comandos.
 

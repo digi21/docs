@@ -1,4 +1,5 @@
 # ASIGNAR\_Z\_CENTROIDE
+<!-- id: asignar-z-centroide -->
 
 Asigna la Z del centroide a las líneas que forman cada polígono de las topologías indicadas.
 

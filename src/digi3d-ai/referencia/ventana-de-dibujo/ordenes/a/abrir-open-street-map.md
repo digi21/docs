@@ -1,4 +1,5 @@
 # ABRIR\_OPEN\_STREET\_MAP
+<!-- id: abrir-open-street-map -->
 
 Solicita un punto y abre una ventana de Open Street Map en las coordenadas de ese punto.
 

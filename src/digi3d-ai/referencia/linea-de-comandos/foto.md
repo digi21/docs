@@ -1,4 +1,5 @@
 # Foto
+<!-- id: foto -->
 
 Ordena abrir una ventana fotogramétrica.
 

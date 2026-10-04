@@ -1,4 +1,5 @@
 # Ejecutar órdenes asignadas a códigos al clonar
+<!-- id: ejecutar-ordenes-asignadas-a-codigos-al-clonar -->
 
 Si se activa, al clonar una entidad se ejecutan las órdenes asignadas en la tabla de códigos a los códigos que tenga la entidad.
 

@@ -1,4 +1,5 @@
 # Ejemplo 2: Obtener los perfiles longitudinales y transversales de una traza
+<!-- id: ejemplo2 -->
 
 [Ejemplos](/mdtopx/ejemplos/)
 

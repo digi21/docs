@@ -1,4 +1,5 @@
 # EXPLOTAR\_POLIGONOS\_COD
+<!-- id: explotar-poligonos-cod -->
 
 Divide varios polígonos, en todas las entidades que los forman.
 

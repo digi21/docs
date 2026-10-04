@@ -1,4 +1,5 @@
 # Polígonos topológicos
+<!-- id: poligonos-topologicos -->
 
 Un polígono topológico es una relación de líneas en un determinado orden que si se juntan forman un polígono cerrado.
 

@@ -1,4 +1,5 @@
 # INSERTAR\_HUECO
+<!-- id: insertar-hueco -->
 
 Inserta un hueco en un polígono o en una línea cerrada.
 

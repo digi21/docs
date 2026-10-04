@@ -1,4 +1,5 @@
 # BinDouble
+<!-- id: bindouble -->
 
 ## classe
 

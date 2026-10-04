@@ -1,4 +1,5 @@
 # DETECTAR\_ENTIDADES\_VISIBLES\_DUPLICADAS
+<!-- id: detectar-entidades-visibles-duplicadas -->
 
 Detecta todas las entidades visibles que están duplicadas.
 

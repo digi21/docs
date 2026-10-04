@@ -1,4 +1,5 @@
 # Sensores
+<!-- id: sensores -->
 
 La ventana fotogramétrica puede mostrar modelos obtenidos con distintos sensores.
 

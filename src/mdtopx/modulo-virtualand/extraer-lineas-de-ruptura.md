@@ -1,4 +1,5 @@
 # Extraer líneas de ruptura
+<!-- id: extraer-lineas-de-ruptura -->
 
 [VirtuaLand General](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-general.md)
 

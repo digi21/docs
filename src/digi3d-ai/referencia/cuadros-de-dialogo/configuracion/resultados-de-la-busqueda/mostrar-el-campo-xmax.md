@@ -1,4 +1,5 @@
 # Mostrar el campo Xmax
+<!-- id: mostrar-el-campo-xmax -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Xmax**.
 

@@ -1,4 +1,5 @@
 # Elimina activaciones y alquileres
+<!-- id: elimina-activaciones-alquileres -->
 
 Este programa _formatea_ la memoria destinada a las activaciones y alquileres/demostraciones de una llave de protección.
 

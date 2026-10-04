@@ -1,4 +1,5 @@
 # Aprendiendo a desplazarnos con el ratón en la ventana fotogramétrica
+<!-- id: desplazando-ventana-foto-raton -->
 
 Puedes capturar el ratón de Windows en la ventana fotogramétrica para hacer que esta se desplace con el ratón de Windows, independientemente de que dispongas o no de un [topo-mouse](desplazando-ventana-foto-raton.md) o de [sistemas de manivelas](desplazando-ventana-foto-raton.md)
 

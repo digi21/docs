@@ -1,4 +1,5 @@
 # CLONAR\_CÓDIGOS
+<!-- id: clonar-codigos -->
 
 Sustituye los códigos de la lista de códigos activos por los de una entidad seleccionada.
 

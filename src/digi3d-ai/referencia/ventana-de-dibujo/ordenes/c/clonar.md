@@ -1,4 +1,5 @@
 # CLONAR
+<!-- id: clonar -->
 
 Clona las propiedades \(códigos, ángulo activo, altura de texto,...\) de la entidad seleccionada.
 

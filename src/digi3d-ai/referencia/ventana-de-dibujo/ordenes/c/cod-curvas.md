@@ -1,4 +1,5 @@
 # COD\_CURVAS
+<!-- id: cod-curvas -->
 
 Define el código de las curvas directoras y finas.
 

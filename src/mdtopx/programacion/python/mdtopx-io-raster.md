@@ -1,4 +1,5 @@
 # Paquete `mdtopx.io.raster`
+<!-- id: mdtopx-io-raster -->
 
 Formatos de **rejillas de cotas** (modelos digitales de elevaciones en malla regular). Leen a
 `scene.grids` (la rejilla está en `scene.grids[0].grid`, un [`Grid`](mdtopx.md#tipos-geométricos)) y
