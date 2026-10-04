@@ -5,7 +5,9 @@ Las barras de herramientas de usuario son barras con botones que ejecutan órden
 
 ## Manejador de barras de herramientas
 
-Selecciona la opción del menú **Herramientas/Barras de herramientas de usuario...** para abrir este cuadro de diálogo. Muestra la lista de barras de herramientas de usuario y estos botones, que actúan sobre la barra seleccionada:
+![Cuadro de diálogo Manejador de barras de herramientas](../../../images/manejador-de-barras-de-herramientas.png)
+
+Selecciona la opción del menú **Herramientas/Barras de herramientas de usuario...** para abrir este cuadro de diálogo. Muestra la lista **Barras de herramientas instaladas** y estos botones. Los que actúan sobre una barra están deshabilitados mientras no hay ninguna seleccionada:
 
 * **Nueva**: abre el cuadro de diálogo [Crear/Modificar barra de herramienta](#crearmodificar-barra-de-herramienta) para crear una barra.
 * **Modificar**: abre el mismo cuadro de diálogo con los datos de la barra seleccionada.
@@ -13,6 +15,7 @@ Selecciona la opción del menú **Herramientas/Barras de herramientas de usuario
 * **Mostrar** y **Ocultar**: muestran u ocultan la barra en la ventana principal.
 * **Exportar**: solicita una carpeta y crea en ella la carpeta **BarraHerramientas** seguida del título de la barra. En esa carpeta guarda el archivo **BarraHerramientas.ini** con la definición de la barra y una copia de las imágenes de los botones.
 * **Importar**: solicita una carpeta exportada con **Exportar** y añade la barra que contiene.
+* **Salir**: cierra el cuadro de diálogo. Los cambios se aplican en el momento, sin necesidad de aceptar.
 
 ## Crear/Modificar barra de herramienta
 
