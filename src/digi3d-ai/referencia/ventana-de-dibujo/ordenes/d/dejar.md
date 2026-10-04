@@ -15,7 +15,16 @@ Si no hay ningún archivo de referencia cargado, la orden muestra un mensaje de 
 
 Si indicas el parámetro, la orden descarga ese archivo de referencia sin mostrar ningún cuadro de diálogo. Si la ruta contiene espacios, escríbela entre comillas dobles.
 
-Sin parámetro, si solo hay un archivo de referencia cargado, la orden lo descarga directamente. Si hay varios, la orden muestra un cuadro de diálogo para seleccionar los archivos a descargar.
+Sin parámetro, si solo hay un archivo de referencia cargado, la orden lo descarga directamente. Si hay varios, la orden muestra el cuadro de diálogo **Dejar fichero de referencia**.
+
+## Cuadro de diálogo Dejar fichero de referencia
+
+![Cuadro de diálogo Dejar fichero de referencia](../../../../../images/dejar-fichero-de-referencia.png)
+
+* **Lista de archivos**: los archivos de referencia cargados. Selecciona uno o varios con las teclas Ctrl y Mayúsculas.
+* **Todos**: descarga todos los archivos de referencia.
+* **Aceptar**: descarga los archivos seleccionados. Sin ningún archivo seleccionado, no hace nada.
+* **Cancelar**: cierra el cuadro de diálogo sin descargar ningún archivo.
 
 ## Características de la orden
 
