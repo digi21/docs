@@ -1291,6 +1291,7 @@
       * [Configurar proyectos](digi3d-ai/referencia/cuadros-de-dialogo/configurar-proyectos.md)
       * [Control de producción](digi3d-ai/referencia/cuadros-de-dialogo/control-de-produccion.md)
       * [Crear modelo](digi3d-ai/referencia/cuadros-de-dialogo/crear-modelo.md)
+      * [Crear proyecto fotogramétrico](digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md)
       * [Crear múltiples modelos](digi3d-ai/referencia/cuadros-de-dialogo/crear-multiples-modelos.md)
       * [Error en los atributos de usuario](digi3d-ai/referencia/cuadros-de-dialogo/error-en-los-atributos-de-usuario.md)
       * [Introduce un punto terreno del archivo de puntos](digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md)
