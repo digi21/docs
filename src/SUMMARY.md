@@ -1297,6 +1297,7 @@
       * [Nuevo proyecto](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/README.md)
         * [Sensores fotogramétricos](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md)
         * [Archivo de dibujo](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md)
+      * [Parámetros de importación/Exportación](digi3d-ai/referencia/cuadros-de-dialogo/parametros-de-importacion-exportacion.md)
       * [Programar botones](digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md)
       * [Selecciona códigos](digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md)
       * [Seleccione códigos](digi3d-ai/referencia/cuadros-de-dialogo/seleccione-codigos.md)
