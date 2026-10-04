@@ -23,11 +23,15 @@ Ejemplo: un trackball dedicado a la Z. Con **Ratón de Z**, mover la bola de izq
 
 ![Cuadro de diálogo Parámetros de ratón con un ratón de Z](../../../images/parametros-de-raton-z.png)
 
+Ejemplo: un ratón para la X y la Y. Con **Normal**, el ratón mueve la X y la Y del cursor. En esta captura está marcada **La rueda cambia el Factor de Zoom**, así que la rueda cambia el zoom. Desmarcada, la rueda cambia la Z (fila Z, columna Z = 1):
+
+![Cuadro de diálogo Parámetros de ratón con un ratón para XY](../../../images/parametros-de-raton-xy.png)
+
 **Parámetros de ratón** añade:
 
-* **Normal**: el eje X del ratón mueve la X del cursor, el eje Y mueve la Y en sentido contrario y el eje Z mueve la Z.
+* **Normal**: el eje X del ratón mueve la X del cursor, el eje Y mueve la Y en sentido contrario y el eje Z (la rueda) mueve la Z.
 * **Ratón de Z**: el movimiento horizontal del ratón cambia la Z del cursor, y ningún eje mueve la X ni la Y. Sirve para dedicar un segundo ratón a la Z.
-* **La rueda cambia el Factor de Zoom**: girar la rueda hacia delante ejecuta la orden ZOOMIN de la ventana fotogramétrica, y hacia atrás, ZOOMOUT.
+* **La rueda cambia el Factor de Zoom**: girar la rueda hacia delante ejecuta la orden ZOOMIN de la ventana fotogramétrica, y hacia atrás, ZOOMOUT. Con esta opción marcada la rueda no actúa como eje Z.
 * **Este ratón se utilizará exclusivamente para la ventana fotogramétrica**: Digi3D.AI guarda esta opción, pero la versión actual no la aplica.
 
 Pulsa **Aceptar** para guardar los parámetros o **Cancelar** para descartarlos.
