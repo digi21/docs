@@ -1,4 +1,5 @@
 # Panel LiDAR
+<!-- id: panel-lidar -->
 
 [Paneles de la aplicación](/mdtopx/introduccion/paneles-de-la-aplicacion/)
 

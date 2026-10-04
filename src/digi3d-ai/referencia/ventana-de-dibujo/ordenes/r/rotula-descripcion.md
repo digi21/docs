@@ -1,4 +1,5 @@
 # ROTULA\_DESCRIPCION
+<!-- id: rotula-descripcion -->
 
 Rotula entidades puntuales con un texto cuyo texto es la descripción del código del punto que se está rotulando.
 

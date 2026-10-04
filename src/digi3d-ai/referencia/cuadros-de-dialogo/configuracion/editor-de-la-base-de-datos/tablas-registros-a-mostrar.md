@@ -1,4 +1,5 @@
 # Tablas/Registros a mostrar
+<!-- id: tablas-registros-a-mostrar -->
 
 Indica qué tablas y registros mostrará el panel del editor de la base de datos.
 

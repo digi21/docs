@@ -1,4 +1,5 @@
 # CONTROL\_CALIDAD\_AL\_FINALIZAR\_ENTIDAD
+<!-- id: control-calidad -->
 
 Activa o desactiva el análisis de controles de calidad en tiempo real al finalizar de digitalizar una entidad.
 

@@ -1,4 +1,5 @@
 # TRANSFORMA
+<!-- id: transforma -->
 
 Realiza transformaciones en el archivo de dibujo.
 

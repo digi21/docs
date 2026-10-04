@@ -1,4 +1,5 @@
 # Sistemas de Referencia de Coordenadas
+<!-- id: sistemas-referencia-coordenadas -->
 
 Una de las principales novedades de Digi3D.AI, es que este sabe en todo momento el sistema de referencia en el que están las coordenadas de cada uno de los archivos cargados \(modelo fotogramétrico, ventanas de dibujo, ...\) y es capaz de realizar transformaciones de coordenadas entre distintos sistemas de referencia de coordenadas.
 

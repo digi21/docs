@@ -1,4 +1,5 @@
 # Paquete `mdtopx.io.malla`
+<!-- id: mdtopx-io-malla -->
 
 Formatos de **mallas trianguladas** (TIN). Leen a `scene.meshes`: una `MeshEntity` por malla, con la
 malla en `mesh` (`vertices` y `triangles`). Siguen la

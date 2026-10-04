@@ -1,4 +1,5 @@
 # Editar polilínea
+<!-- id: editar-polilinea -->
 
 ![Barra de herramientas Editar polilínea](../../../images/editarpolilinea.png)
 

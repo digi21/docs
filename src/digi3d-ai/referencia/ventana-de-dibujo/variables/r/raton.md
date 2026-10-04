@@ -1,4 +1,5 @@
 # RATON
+<!-- id: raton -->
 
 Establece el ratón como unidad de entrada de datos al programa.
 

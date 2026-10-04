@@ -1,4 +1,5 @@
 # DETECTAR\_CRUCE\_LINEAS\_VISIBLES
+<!-- id: detectar-cruce-lineas-visibles -->
 
 Crea una tarea de error por cada intersección de líneas visibles detectada.
 

@@ -1,4 +1,5 @@
 # Modo benchmark
+<!-- id: modo-benchmark -->
 
 Indica si la vista estereoscópica de Digi3D.AI se regenerará constantemente, incluso si no se recibe ningún evento. Resulta útil para medir el rendimiento.
 

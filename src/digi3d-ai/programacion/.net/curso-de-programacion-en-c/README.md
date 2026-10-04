@@ -1,4 +1,5 @@
 # Curso de programación en C\#
+<!-- id: curso-de-programacion-en-c -->
 
 En este curso aprenderás a manejar los tipos que publica Digi3D.AI.
 

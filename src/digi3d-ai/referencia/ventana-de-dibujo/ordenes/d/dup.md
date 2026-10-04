@@ -1,4 +1,5 @@
 # DUP
+<!-- id: dup -->
 
 Realiza una copia de una entidad sobre sí misma.
 

@@ -1,4 +1,5 @@
 # CLONAR\_CAMPOS\_BBDD
+<!-- id: clonar-campos-bbdd -->
 
 Clona los campos de BBDD de la geometría seleccionada.
 

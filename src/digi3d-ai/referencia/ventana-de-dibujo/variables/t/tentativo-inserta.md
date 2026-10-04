@@ -1,4 +1,5 @@
 # TENTATIVO\_INSERTA
+<!-- id: tentativo-inserta -->
 
 Inserta un nodo en las entidades lineales sobre las que hacemos tentativo, al registrar líneas.
 

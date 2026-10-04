@@ -1,4 +1,5 @@
 # ZOOM\_ENTIDAD
+<!-- id: zoom-entidad -->
 
 Ejecuta un zoom en la entidad seleccionada.
 

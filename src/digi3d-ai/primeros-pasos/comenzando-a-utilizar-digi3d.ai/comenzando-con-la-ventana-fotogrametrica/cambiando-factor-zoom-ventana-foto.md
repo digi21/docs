@@ -1,4 +1,5 @@
 # Aprendiendo a cambiar el factor de zoom
+<!-- id: cambiando-factor-zoom-ventana-foto -->
 
 Existen múltiples maneras de cambiar el factor de zoom en la ventana fotogramétrica. Cambiar el factor de zoom te servirá para:
 

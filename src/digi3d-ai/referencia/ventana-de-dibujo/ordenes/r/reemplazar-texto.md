@@ -1,4 +1,5 @@
 # REEMPLAZAR\_TEXTO
+<!-- id: reemplazar-texto -->
 
 Reemplazar un texto por otro.
 

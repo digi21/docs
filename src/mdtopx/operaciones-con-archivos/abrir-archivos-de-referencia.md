@@ -1,4 +1,5 @@
 # Abrir archivos de referencia
+<!-- id: abrir-archivos-de-referencia -->
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
 

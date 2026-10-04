@@ -1,4 +1,5 @@
 # CURSOR
+<!-- id: cursor -->
 
 Establece el tamaño del cursor.
 

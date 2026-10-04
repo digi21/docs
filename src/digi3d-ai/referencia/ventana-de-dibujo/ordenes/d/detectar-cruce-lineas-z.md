@@ -1,4 +1,5 @@
 # DETECTAR\_CRUCE\_LINEAS\_Z
+<!-- id: detectar-cruce-lineas-z -->
 
 Detecta cruces entre líneas y marca como error aquellas cuya diferencia en Z supere una tolerancia
 

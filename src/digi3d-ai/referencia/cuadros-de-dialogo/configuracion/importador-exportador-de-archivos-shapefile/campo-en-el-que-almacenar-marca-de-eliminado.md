@@ -1,4 +1,5 @@
 # Campo en el que almacenar marca de eliminado
+<!-- id: campo-en-el-que-almacenar-marca-de-eliminado -->
 
 Indica el nombre del campo del archivo DBF en el que se almacena el valor que marca una geometría como eliminada.
 

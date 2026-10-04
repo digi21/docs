@@ -1,4 +1,5 @@
 # Carga de registros
+<!-- id: carga-de-registros -->
 
 Permite configurar el momento en el que se cargan de la base de datos los atributos de cada código.
 

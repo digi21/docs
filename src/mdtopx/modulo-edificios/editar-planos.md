@@ -1,4 +1,5 @@
 # Editar planos
+<!-- id: editar-planos -->
 
 [Ficha de herramientas Edificios](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edificios.md)
 

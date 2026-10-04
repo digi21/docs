@@ -1,4 +1,5 @@
 # Configurar carga de imagen
+<!-- id: configurar-carga-de-imagen -->
 
 [Cuadro de diálogo Cargar texturas](./)
 

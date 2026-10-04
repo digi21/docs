@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Plugin.Menú
+<!-- id: digi21.diging.plugin.menu -->
 
 Proporciona tipos para modificar los menús de la ventana de dibujo de Digi3D.AI.
 

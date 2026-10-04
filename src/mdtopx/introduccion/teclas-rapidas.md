@@ -1,4 +1,5 @@
 # Teclas rápidas con operaciones asociadas
+<!-- id: teclas-rapidas -->
 
 MDTopX tiene por defecto una serie de operaciones asociadas a una combinación de teclas, que permitirá al usuario ser más ágil en la ejecución de herramientas. No obstante, esta asociación puede ser modificada desde el cuadro de diálogo [Opciones](/lot-of-points-cc/interfaz-de-usuario/archivo/opciones/).
 

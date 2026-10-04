@@ -1,4 +1,5 @@
 # INC
+<!-- id: inc -->
 
 Establece como incremento de registro activo el valor que indique el usuario al ejecutar esta orden.
 

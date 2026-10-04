@@ -1,4 +1,5 @@
 # Digi21.OpenGis
+<!-- id: digi21.opengis -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.OpenGis/) proporciona herramientas para interactuar de transformaciones OpenGis de Digi3D.AI.
 

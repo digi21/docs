@@ -1,4 +1,5 @@
 # Configurar LM Studio
+<!-- id: lm-studio -->
 
 [LM Studio](https://lmstudio.ai) es una aplicación de escritorio gratuita que ejecuta modelos de
 lenguaje en tu propio equipo. Con LM Studio, el [asistente con IA](README.md) funciona sin conexión a

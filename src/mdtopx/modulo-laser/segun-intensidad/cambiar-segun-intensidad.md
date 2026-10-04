@@ -1,4 +1,5 @@
 # Cambiar según intensidad
+<!-- id: cambiar-segun-intensidad -->
 
 [Según intensidad](/mdtopx/modulo-laser/segun-intensidad/)
 

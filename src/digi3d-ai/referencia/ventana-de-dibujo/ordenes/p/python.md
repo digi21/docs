@@ -1,4 +1,5 @@
 # PYTHON
+<!-- id: python -->
 
 Ejecuta un guión de Python, opcionalmente pasándole argumentos.
 

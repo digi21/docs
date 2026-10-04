@@ -1,4 +1,5 @@
 # Usuario
+<!-- id: usuario -->
 
 Permite indicar el nombre de usuario del servidor _PROXY_.
 

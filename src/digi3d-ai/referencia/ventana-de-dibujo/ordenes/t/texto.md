@@ -1,4 +1,5 @@
 # TEXTO
+<!-- id: texto -->
 
 Inserta un texto en el archivo de dibujo.
 

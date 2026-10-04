@@ -1,4 +1,5 @@
 # EXPLOTAR\_COMPLEJOS\_COD
+<!-- id: explotar-complejos-cod -->
 
 Explota las entidades complejas quedando divididas por las cadenas de líneas que componen la entidad compleja.
 

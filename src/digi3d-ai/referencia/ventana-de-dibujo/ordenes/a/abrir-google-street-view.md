@@ -1,4 +1,5 @@
 # ABRIR\_GOOGLE\_STREET\_VIEW
+<!-- id: abrir-google-street-view -->
 
 Solicita un punto y abre una ventana de Google Street View en las coordenadas de ese punto.
 

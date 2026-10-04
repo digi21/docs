@@ -1,4 +1,5 @@
 # INS\_3D
+<!-- id: ins-3d -->
 
 Inserta un bloque en 3D a partir de tres puntos: el primero fija la posición, el segundo la orientación y el tercero la rotación.
 

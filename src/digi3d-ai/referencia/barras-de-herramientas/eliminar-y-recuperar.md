@@ -1,4 +1,5 @@
 # Eliminar y recuperar
+<!-- id: eliminar-y-recuperar -->
 
 ![Barra de herramientas Eliminar y recuperar](../../../images/eliminaryrecuperar.png)
 

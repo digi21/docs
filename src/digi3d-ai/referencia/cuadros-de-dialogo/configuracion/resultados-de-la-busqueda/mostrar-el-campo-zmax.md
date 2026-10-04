@@ -1,4 +1,5 @@
 # Mostrar el campo Zmax
+<!-- id: mostrar-el-campo-zmax -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Zmax**.
 

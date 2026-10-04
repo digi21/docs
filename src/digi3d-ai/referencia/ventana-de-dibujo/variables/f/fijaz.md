@@ -1,4 +1,5 @@
 # FIJAZ
+<!-- id: fijaz -->
 
 Activa o desactiva la opción de fijar el valor de la coordenada Z al múltiplo más próximo de la [equidistancia](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) de curvas de nivel.
 

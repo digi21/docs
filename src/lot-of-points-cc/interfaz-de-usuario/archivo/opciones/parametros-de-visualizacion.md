@@ -1,4 +1,5 @@
 # Parámetros de visualización
+<!-- id: parametros-de-visualizacion -->
 
 En esta sección de la configuración se configuran los parámetros de configuración de la visualización.
 

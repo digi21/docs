@@ -1,4 +1,5 @@
 # CompletelyWithin
+<!-- id: completelywithin -->
 
 &#x20;está completamente incluida en la segunda área de tipo Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)

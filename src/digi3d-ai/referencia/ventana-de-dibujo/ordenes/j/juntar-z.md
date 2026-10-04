@@ -1,4 +1,5 @@
 # JUNTAR\_Z
+<!-- id: juntar-z -->
 
 Asigna la Z de un punto digitalizado al vértice más cercano de cada línea próxima a ese punto.
 

@@ -1,4 +1,5 @@
 # ASIGNAR\_AZIMUT\_ATRIBUTO
+<!-- id: asignar-azimut-atributo -->
 
 Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en el campo de base de datos pasado por parámetros
 

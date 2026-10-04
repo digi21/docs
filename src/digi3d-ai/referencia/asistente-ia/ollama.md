@@ -1,4 +1,5 @@
 # Configurar Ollama
+<!-- id: ollama -->
 
 [Ollama](https://ollama.com) es un programa gratuito y de código abierto que ejecuta modelos de
 lenguaje como un servicio de Windows. Con Ollama, el [asistente con IA](README.md) funciona sin

@@ -1,4 +1,5 @@
 # ESCALA
+<!-- id: escala -->
 
 Al ejecutar esta orden, se informa de la escala de visualización actual del fichero de dibujo.
 

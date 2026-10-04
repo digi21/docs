@@ -1,4 +1,5 @@
 # Ajustar a rango de altitudes
+<!-- id: ajustar-a-rango-de-altitudes -->
 
 [Cuadro de diálogo Mapa de tintas hipsométricas](./)
 

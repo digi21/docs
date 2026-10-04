@@ -1,4 +1,5 @@
 # EDITAR\_ATRIBUTOS
+<!-- id: editar-atributos -->
 
 Edita los atributos de la entidad seleccionada.
 

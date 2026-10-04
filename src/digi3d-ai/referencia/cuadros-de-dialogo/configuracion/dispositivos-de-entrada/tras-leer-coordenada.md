@@ -1,4 +1,5 @@
 # Tras leer coordenada
+<!-- id: tras-leer-coordenada -->
 
 Indica si el hilo de lectura de coordenadas cede el control a la aplicación principal después de analizar una coordenada, o si continúa analizando coordenadas sin cederlo.
 

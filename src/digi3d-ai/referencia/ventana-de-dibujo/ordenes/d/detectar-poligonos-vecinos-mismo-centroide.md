@@ -1,4 +1,5 @@
 # DETECTAR\_POLIGONOS\_VECINOS\_MISMO\_CENTROIDE
+<!-- id: detectar-poligonos-vecinos-mismo-centroide -->
 
 Marca como error aquellos polígonos que son vecinos y que tienen el mismo centroide.
 

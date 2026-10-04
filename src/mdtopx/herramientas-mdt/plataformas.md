@@ -1,4 +1,5 @@
 # Plataformas
+<!-- id: plataformas -->
 
 [Plataformas](/mdtopx/herramientas-mdt/plataformas.md)
 

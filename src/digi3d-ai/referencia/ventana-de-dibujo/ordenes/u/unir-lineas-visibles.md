@@ -1,4 +1,5 @@
 # UNIR\_LINEAS\_VISIBLES
+<!-- id: unir-lineas-visibles -->
 
 Une las lineas visibles en pantalla (siempre que tengan el mismo código y continuidad geométrica).
 

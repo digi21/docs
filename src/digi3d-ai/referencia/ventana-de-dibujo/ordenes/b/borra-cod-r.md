@@ -1,4 +1,5 @@
 # BORRA\_COD\_R
+<!-- id: borra-cod-r -->
 
 Borra un código (atributo) de las entidades que forman el contorno de los recintos seleccionados en la topología temporal.
 

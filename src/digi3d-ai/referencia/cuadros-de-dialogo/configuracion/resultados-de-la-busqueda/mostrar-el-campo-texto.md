@@ -1,4 +1,5 @@
 # Mostrar el campo Texto
+<!-- id: mostrar-el-campo-texto -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Texto**.
 

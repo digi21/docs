@@ -1,4 +1,5 @@
 # TOPOLOGIA\_A\_POLIGONO
+<!-- id: topologia-a-poligono -->
 
 Genera polígonos a partir de la topología pasada por parámetros.
 

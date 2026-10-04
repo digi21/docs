@@ -1,4 +1,5 @@
 # Right
+<!-- id: right -->
 
 Devuelve los _Cantidad_ últimos caracteres de la macro sobre la que se ejecuta esta función.
 

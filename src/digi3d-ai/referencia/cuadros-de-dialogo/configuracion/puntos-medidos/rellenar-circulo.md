@@ -1,4 +1,5 @@
 # Rellenar círculo
+<!-- id: rellenar-circulo -->
 
 Indica si se rellena el círculo que muestra los puntos medidos.
 

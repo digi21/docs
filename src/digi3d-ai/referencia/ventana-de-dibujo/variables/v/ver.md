@@ -1,4 +1,5 @@
 # VER
+<!-- id: ver -->
 
 Activa la verificación por parte del usuario de la selección del tentativo.
 

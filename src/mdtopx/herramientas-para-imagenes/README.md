@@ -1,4 +1,5 @@
 # Herramientas para imágenes
+<!-- id: herramientas-para-imagenes -->
 
 * [Orientación Midiendo Puntos](orientacion-midiendo-puntos.md)
 * [Editar orientación de imagen](editar-orientacion-de-imagen.md)

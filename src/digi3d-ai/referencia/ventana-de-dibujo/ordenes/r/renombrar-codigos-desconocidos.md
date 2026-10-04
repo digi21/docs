@@ -1,4 +1,5 @@
 # RENOMBRAR\_CODIGOS\_DESCONOCIDOS
+<!-- id: renombrar-codigos-desconocidos -->
 
 Permite renombrar los códigos desconocidos localizados en el archivo de dibujo.
 

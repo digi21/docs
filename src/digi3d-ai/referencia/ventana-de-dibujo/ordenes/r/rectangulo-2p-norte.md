@@ -1,4 +1,5 @@
 # RECTANGULO\_2P\_NORTE
+<!-- id: rectangulo-2p-norte -->
 
 Dibuja un rectángulo orientado al norte definido por dos puntos opuestos en diagonal.
 

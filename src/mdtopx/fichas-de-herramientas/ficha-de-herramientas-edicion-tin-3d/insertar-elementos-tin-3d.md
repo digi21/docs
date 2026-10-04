@@ -1,4 +1,5 @@
 # Insertar elementos TIN 3D
+<!-- id: insertar-elementos-tin-3d -->
 
 [Ficha de herramientas Edición TIN 3D](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin-3d/)
 

@@ -1,4 +1,5 @@
 # Generador de archivos de Ortofoto Estereoscópica
+<!-- id: generador-de-archivos-de-ortofoto-estereoscopica -->
 
 ![Generador de archivos de ortofoto estereoscópica](../../images/generadorarchivosortofotoestereoscopica.png)
 

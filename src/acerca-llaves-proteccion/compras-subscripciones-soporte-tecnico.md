@@ -1,4 +1,5 @@
 # Compras y subscripciones de soporte técnico
+<!-- id: compras-subscripciones-soporte-tecnico -->
 
 Si ya dispones de una llave de protección (por hardware o software), puedes comprar una licencia de cualquiera de nuestros programas. Si no dispones de una llave de protección, puedes crear una llave provisional siguiendo los pasos que aparecen en [Creando una llave de software provisional](/acerca-llaves-proteccion/obtener-una-llave-de-proteccion/creando-llave-provisional.md).
 

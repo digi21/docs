@@ -1,4 +1,5 @@
 # Topología
+<!-- id: topologia -->
 
 Permite ejecutar acciones relacionadas con las [topologías](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/)configuradas en la tabla de códigos activa.
 

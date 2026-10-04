@@ -1,4 +1,5 @@
 # TRIM\_M
+<!-- id: trim-m -->
 
 Recorta múltiples entidades, seleccionando primero la línea de límite y luego digitalizando un límite virtual.
 

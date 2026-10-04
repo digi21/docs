@@ -1,4 +1,5 @@
 # Acción a realizar con la geometría que se inserta en INSERTAR\_HUECO
+<!-- id: accion-a-realizar-con-la-geometria-que-se-inserta -->
 
 Indica qué se hace con la geometría que seleccionas como hueco en la orden [INSERTAR\_HUECO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insertar-hueco.md) después de insertarla en el polígono.
 

@@ -1,4 +1,5 @@
 # Dispositivos de entrada
+<!-- id: dispositivos-de-entrada -->
 
 Configura el comportamiento de los dispositivos de entrada (pedales, manivelas y codificadores).
 

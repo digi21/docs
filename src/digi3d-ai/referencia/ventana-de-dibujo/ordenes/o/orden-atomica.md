@@ -1,4 +1,5 @@
 # ORDEN\_ATOMICA
+<!-- id: orden-atomica -->
 
 Ejecuta las órdenes pasadas por parámetros como órdenes atómicas.
 

@@ -1,4 +1,5 @@
 # Sensor Cónico
+<!-- id: sensor-conico -->
 
 Configura el comportamiento general del sensor Cónico (cámara métrica).
 

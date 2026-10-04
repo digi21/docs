@@ -1,4 +1,5 @@
 # INSERTAR\_VERTICE\_INTERSECCION\_LINEAS\_VISIBLES
+<!-- id: insertar-vertice-interseccion-lineas-visibles -->
 
 Inserta un vértice en la intersección de las líneas que son visibles en la vista ortogonal.
 

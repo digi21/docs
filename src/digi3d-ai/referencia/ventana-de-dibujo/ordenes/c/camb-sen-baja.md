@@ -1,4 +1,5 @@
 # CAMB\_SEN\_BAJA
+<!-- id: camb-sen-baja -->
 
 Modifica el sentido en que se han registrado los puntos después de haber digitalizado un elemento gráfico. La línea queda digitalizada desde el extremo más alto hacia el más bajo.
 

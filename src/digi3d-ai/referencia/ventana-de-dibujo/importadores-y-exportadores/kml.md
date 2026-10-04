@@ -1,4 +1,5 @@
 # Archivos KML de Google Earth
+<!-- id: kml -->
 
 Importador y exportador de **Archivos KML de Google Earth**.
 

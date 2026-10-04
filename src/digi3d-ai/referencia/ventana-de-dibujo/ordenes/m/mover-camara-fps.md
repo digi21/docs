@@ -1,4 +1,5 @@
 # MOVER\_CAMARA\_FPS
+<!-- id: mover-camara-fps -->
 
 Mueve la cámara cónica como un juego en primera persona.
 

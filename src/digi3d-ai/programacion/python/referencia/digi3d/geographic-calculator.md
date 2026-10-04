@@ -1,4 +1,5 @@
 # GeographicCalculator
+<!-- id: geographic-calculator -->
 
 Módulo: `digi3d`
 

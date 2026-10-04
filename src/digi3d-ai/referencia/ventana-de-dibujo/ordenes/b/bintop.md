@@ -1,4 +1,5 @@
 # BINTOP
+<!-- id: bintop -->
 
 1.  Calcula la topología del archivo de dibujo activo: forma los polígonos a partir de los tramos (líneas) y les asocia los centroides (textos) que tengan los códigos seleccionados. La topología se identifica con la ruta del archivo de dibujo y la extensión TOP, y se puede cargar en memoria para que la usen otras órdenes. La orden no guarda la topología en disco.
 

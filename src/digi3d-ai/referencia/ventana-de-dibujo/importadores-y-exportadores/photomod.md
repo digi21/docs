@@ -1,4 +1,5 @@
 # Photomod
+<!-- id: photomod -->
 
 Importador y exportador de **Photomod**.
 

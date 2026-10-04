@@ -1,4 +1,5 @@
 # Ficha de herramientas MMS
+<!-- id: ficha-de-herramientas-mms -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

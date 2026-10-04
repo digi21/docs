@@ -1,4 +1,5 @@
 # Barra de estado
+<!-- id: barra-de-estado-2 -->
 
 [Interfaz de usuario](interfaz-de-usuario.md)
 

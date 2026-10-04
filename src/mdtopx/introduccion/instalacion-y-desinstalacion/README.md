@@ -1,4 +1,5 @@
 # Instalación y desinstalación
+<!-- id: instalacion-y-desinstalacion -->
 
 Si es la primera vez que instala el programa, la instalación consta de tres pasos:
 

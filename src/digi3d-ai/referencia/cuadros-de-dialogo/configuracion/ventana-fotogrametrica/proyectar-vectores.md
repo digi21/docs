@@ -1,4 +1,5 @@
 # Proyectar vectores
+<!-- id: proyectar-vectores -->
 
 Indica si los vectores se proyectan en la cámara estereoscópica de forma síncrona o asíncrona.
 

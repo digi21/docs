@@ -1,4 +1,5 @@
 # SALVAR
+<!-- id: salvar -->
 
 Establece cada cuántos minutos se hace automáticamente una copia de seguridad del archivo de dibujo activo.
 

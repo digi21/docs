@@ -1,4 +1,5 @@
 # EXT\_XYZ
+<!-- id: ext-xyz -->
 
 Estira o recorta una entidad contra un límite haciendo que la coordenada Z del extremo ajustado coincida con la del límite.
 

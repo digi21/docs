@@ -1,4 +1,5 @@
 # Operaciones con archivos
+<!-- id: operaciones-con-archivos -->
 
 * [Proyectos de MDTopX](proyectos-de-mdtopx.md)
 * [Archivo Nuevo](archivo-nuevo.md)

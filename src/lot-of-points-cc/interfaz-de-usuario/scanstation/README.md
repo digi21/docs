@@ -1,4 +1,5 @@
 # ScanStation
+<!-- id: scanstation -->
 
 La pestaña ScanStation permite interactuar con el escáner.
 

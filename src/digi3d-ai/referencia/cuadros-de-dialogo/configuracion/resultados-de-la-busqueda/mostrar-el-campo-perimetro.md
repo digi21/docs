@@ -1,4 +1,5 @@
 # Mostrar el campo Perímetro
+<!-- id: mostrar-el-campo-perimetro -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Perímetro**.
 

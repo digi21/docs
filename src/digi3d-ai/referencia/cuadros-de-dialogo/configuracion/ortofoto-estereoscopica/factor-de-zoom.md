@@ -1,4 +1,5 @@
 # Factor de zoom
+<!-- id: factor-de-zoom -->
 
 Indica el factor de zoom que se aplica al ejecutar las órdenes de zoom acercar y alejar. Es un valor positivo mayor que 1,0; si introduces un valor menor, se utiliza 1,0.
 

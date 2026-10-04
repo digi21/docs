@@ -1,4 +1,5 @@
 # Editar puntos en archivos LIDAR
+<!-- id: editar-puntos-en-archivos-lidar -->
 
 [Ficha de herramientas Láser](./)
 

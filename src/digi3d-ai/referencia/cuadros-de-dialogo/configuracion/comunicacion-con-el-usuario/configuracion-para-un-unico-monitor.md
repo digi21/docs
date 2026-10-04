@@ -1,4 +1,5 @@
 # Configuración para un único monitor
+<!-- id: configuracion-para-un-unico-monitor -->
 
 Permite indicar si vas a utilizar el programa con un único monitor o con varios.
 

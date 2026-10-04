@@ -1,4 +1,5 @@
 # IMPORTAR\_UNIENDO\_POLIGONOS
+<!-- id: importar-uniendo-poligonos -->
 
 Importa uno o varios archivos en el archivo de dibujo y une los polígonos importados que sean colindantes con los del archivo de dibujo y que tengan los mismos códigos y atributos de base de datos.
 

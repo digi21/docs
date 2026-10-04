@@ -1,4 +1,5 @@
 # DESAGRUPAR\_ENTIDADES
+<!-- id: desagrupar-entidades -->
 
 Desagrupa las entidades que tengan más de un código en múltiples entidades con un único código.
 

@@ -1,4 +1,5 @@
 # Imágenes ráster
+<!-- id: raster -->
 
 Importador de **Imágenes ráster**.
 

@@ -1,4 +1,5 @@
 # Indicar al tentativo que siga buscando
+<!-- id: indicar-tentativo-seguir-buscando -->
 
 Para indicar al tentativo que **siga buscando**, cuando ejecuto una orden que solicita seleccionar una entidad, sigue los siguientes pasos:
 

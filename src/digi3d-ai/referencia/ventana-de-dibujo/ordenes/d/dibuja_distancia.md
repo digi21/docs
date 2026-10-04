@@ -1,4 +1,5 @@
 # DIBUJA\_DISTANCIA
+<!-- id: dibuja-distancia -->
 
 Inserta un texto con la distancia planimétrica \(2D\) entre dos puntos digitalizados por el usuario.
 

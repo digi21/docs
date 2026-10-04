@@ -1,4 +1,5 @@
 # Ejemplo 6: Cálculo de una plataforma
+<!-- id: ejemplo-6-calculo-de-una-plataforma -->
 
 [Ejemplos](/mdtopx/ejemplos/)
 

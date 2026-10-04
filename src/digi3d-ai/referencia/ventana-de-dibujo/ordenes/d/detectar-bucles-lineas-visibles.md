@@ -1,4 +1,5 @@
 # DETECTAR\_BUCLES\_LINEAS\_VISIBLES
+<!-- id: detectar-bucles-lineas-visibles -->
 
 Detecta bucles en líneas visibles
 

@@ -1,4 +1,5 @@
 # DIGI3D
+<!-- id: digi3d -->
 
 Asocia el cursor de **DigiNG** a los movimientos de **Digi3D**.
 

@@ -1,4 +1,5 @@
 # Importador/Exportador de archivos de Google Earth (*.kml)
+<!-- id: importador-exportador-de-archivos-de-google-earth -->
 
 Configuración del importador/exportador de archivos de Google Earth (KML).
 

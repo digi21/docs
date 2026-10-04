@@ -1,4 +1,5 @@
 # Añadir centroide
+<!-- id: anadir-centroide -->
 
 ![Cuadro de diálogo Añadir centroide](../../../../../images/cuadrodialogoanadircentroide.png)
 

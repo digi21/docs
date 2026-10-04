@@ -1,4 +1,5 @@
 # Borrar según intensidad
+<!-- id: borrar-segun-intensidad -->
 
 [Según intensidad](/mdtopx/modulo-laser/segun-intensidad/)
 

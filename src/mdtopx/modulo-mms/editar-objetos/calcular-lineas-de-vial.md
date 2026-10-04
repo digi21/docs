@@ -1,4 +1,5 @@
 # Calcular líneas de vial
+<!-- id: calcular-lineas-de-vial -->
 
 [Ficha de herramientas MMS Editar objetos](./)
 

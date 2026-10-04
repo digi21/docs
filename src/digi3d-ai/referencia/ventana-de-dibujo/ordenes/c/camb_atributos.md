@@ -1,4 +1,5 @@
 # CAMB\_ATRIBUTOS
+<!-- id: camb-atributos -->
 
 Sustituye los atributos de la geometría seleccionada por los activos en el panel Atributos Activos.
 

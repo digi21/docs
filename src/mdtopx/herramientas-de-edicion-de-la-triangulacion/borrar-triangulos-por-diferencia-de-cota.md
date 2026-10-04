@@ -1,4 +1,5 @@
 # Borrar triángulos por diferencia de cota
+<!-- id: borrar-triangulos-por-diferencia-de-cota -->
 
 [Borrar triángulos del TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/borrar-triangulos-del-tin.md)
 

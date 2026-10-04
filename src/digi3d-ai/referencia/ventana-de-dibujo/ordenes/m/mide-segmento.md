@@ -1,4 +1,5 @@
 # MIDE\_SEGMENTO
+<!-- id: mide-segmento -->
 
 Mide \(en el plano\) el segmento seleccionado en la línea seleccionada.
 

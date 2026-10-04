@@ -1,4 +1,5 @@
 # Satélite RPC
+<!-- id: rpc -->
 
 El sensor Satélite RPC permite trabajar con imágenes de satélite que utilizan el modelo de coeficientes polinómicos racionales (RPC, *Rational Polynomial Coefficients*).
 

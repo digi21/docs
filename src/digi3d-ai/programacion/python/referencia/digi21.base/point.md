@@ -1,4 +1,5 @@
 # Point
+<!-- id: point-2 -->
 
 Módulo: [digi21.base](README.md)
 

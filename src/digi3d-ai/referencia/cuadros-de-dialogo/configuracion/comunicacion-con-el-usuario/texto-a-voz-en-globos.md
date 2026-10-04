@@ -1,4 +1,5 @@
 # Texto a voz en globos
+<!-- id: texto-a-voz-en-globos -->
 
 Indica si Digi3D.AI utilizará síntesis de voz para narrar el contenido de los globos que muestran las órdenes.
 

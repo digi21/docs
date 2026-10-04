@@ -1,4 +1,5 @@
 # ZOOME\_R
+<!-- id: zoome-r -->
 
 Realiza un zoom extendido por recinto, calculando topologías en tiempo real.
 

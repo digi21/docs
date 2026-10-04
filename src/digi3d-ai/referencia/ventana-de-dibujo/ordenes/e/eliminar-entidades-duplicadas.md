@@ -1,4 +1,5 @@
 # ELIMINAR\_ENTIDADES\_DUPLICADAS
+<!-- id: eliminar-entidades-duplicadas -->
 
 Elimina las entidades duplicadas manteniendo únicamente la que tenga un código que esté antes en la línea de comandos, por código.
 

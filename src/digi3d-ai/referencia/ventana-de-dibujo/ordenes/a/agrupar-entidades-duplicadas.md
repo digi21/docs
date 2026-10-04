@@ -1,4 +1,5 @@
 # AGRUPAR\_ENTIDADES\_DUPLICADAS
+<!-- id: agrupar-entidades-duplicadas -->
 
 Agrupa todas las entidades duplicadas en una única entidad por código.
 

@@ -1,4 +1,5 @@
 # Información general de la aplicación
+<!-- id: informacion-general -->
 
 Digi3D.AI es la evolución de dos programas que nacen como productos independientes y que terminan mezclándose en una única aplicación.
 

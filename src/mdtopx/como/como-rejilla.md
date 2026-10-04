@@ -1,4 +1,5 @@
 # Rejilla
+<!-- id: como-rejilla -->
 
 [Herramientas MDT Productos ráster](../fichas-de-herramientas/ficha-de-herramientas-mdt/productos-raster.md)
 

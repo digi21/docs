@@ -1,4 +1,5 @@
 # Generar
+<!-- id: generar-2 -->
 
 * [Curvado a partir de LIDAR](curvado-a-partir-de-lidar.md)
 * [Rejilla a partir de LIDAR](rejilla-a-partir-de-lidar.md)

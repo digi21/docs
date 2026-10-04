@@ -1,4 +1,5 @@
 # Barras de herramientas
+<!-- id: barras-de-herramientas -->
 
 Digi3D.AI dispone de múltiples barras de herramientas.
 

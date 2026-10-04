@@ -1,4 +1,5 @@
 # Crear cadenas WKT compatibles con
+<!-- id: crear-cadenas-wkt-compatibles-con -->
 
 Permite configurar el tipo de cadenas WKT que crea el programa al generar los sistemas de referencia de coordenadas.
 

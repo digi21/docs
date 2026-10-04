@@ -1,4 +1,5 @@
 # Configuración para tarjetas gráficas antiguas
+<!-- id: configuracion-tarjetas-graficas-antiguas -->
 
 Digi3D.AI requiere una tarjeta gráfica moderna con al menos 64 núcleos.
 

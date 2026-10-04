@@ -1,4 +1,5 @@
 # REPITE
+<!-- id: repite -->
 
 Si está activa, repite la última orden que se ha ejecutado para las órdenes que admiten repetición.
 

@@ -1,4 +1,5 @@
 # FICHERO\_P
+<!-- id: fichero-p -->
 
 Establece o cambia el fichero de puntos que utiliza DigiNG sin necesidad de abandonar la sesión de trabajo y salir a la pantalla de inicio del programa.
 

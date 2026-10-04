@@ -1,4 +1,5 @@
 # Encender/apagar objetos del MDT
+<!-- id: encender-apagar-objetos-del-mdt -->
 
 [Herramientas MDT Vista de MDT](../fichas-de-herramientas/ficha-de-herramientas-mdt/vista-de-mdt.md)
 

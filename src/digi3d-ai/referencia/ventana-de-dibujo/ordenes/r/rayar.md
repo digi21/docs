@@ -1,4 +1,5 @@
 # RAYAR
+<!-- id: rayar -->
 
 Raya el interior de una entidad superficial de contorno cerrado.
 

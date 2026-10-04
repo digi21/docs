@@ -1,4 +1,5 @@
 # Asignar secciones tipo a vial
+<!-- id: asignar-secciones-tipo-a-vial -->
 
 [Secciones Tipo](/mdtopx/modulo-viales/secciones-tipo/)
 

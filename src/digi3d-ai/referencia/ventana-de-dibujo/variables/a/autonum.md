@@ -1,4 +1,5 @@
 # AUTONUM
+<!-- id: autonum -->
 
 Establece el _incremento de auto numeración_.
 

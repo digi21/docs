@@ -1,4 +1,5 @@
 # BORRAR\_TEXTO
+<!-- id: borrar-texto -->
 
 Borra todos los textos cuyo "texto" coincida con alguno de los parámetros (admite comodines).
 

@@ -1,4 +1,5 @@
 # Archivos de dibujo
+<!-- id: archivos-de-dibujo -->
 
 Las coordenadas de las geometrías almacenadas en los archivos de dibujo cargados están en un sistema de referencia de coordenadas.
 

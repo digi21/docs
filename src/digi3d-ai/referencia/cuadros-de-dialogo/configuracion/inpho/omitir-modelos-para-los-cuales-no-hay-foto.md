@@ -1,4 +1,5 @@
 # Omitir modelos para los cuales no hay foto
+<!-- id: omitir-modelos-para-los-cuales-no-hay-foto -->
 
 Si se activa, al cargar un proyecto fotogramétrico no se mostrarán los modelos para los cuales no se ha localizado alguna de sus fotos.
 

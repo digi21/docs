@@ -1,4 +1,5 @@
 # Especificando el número máximo de vértices en una polilínea
+<!-- id: especificando-numero-maximo-vertices -->
 
 Especifica el **número máximo de vértices en una polilínea** siguiendo los siguientes pasos:
 

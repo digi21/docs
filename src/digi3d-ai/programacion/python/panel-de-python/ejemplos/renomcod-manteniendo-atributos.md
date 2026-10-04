@@ -1,4 +1,5 @@
 # Renombrar un código manteniendo sus atributos
+<!-- id: renomcod-manteniendo-atributos -->
 
 Archivo: `renomcod_manteniendo_atributos.py` · orden con parámetros.
 

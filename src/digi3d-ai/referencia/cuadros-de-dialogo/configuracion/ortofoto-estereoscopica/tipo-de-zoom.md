@@ -1,4 +1,5 @@
 # Tipo de zoom
+<!-- id: tipo-de-zoom-2 -->
 
 Indica cómo cambian el zoom las órdenes de zoom acercar y alejar en la ventana fotogramétrica.
 

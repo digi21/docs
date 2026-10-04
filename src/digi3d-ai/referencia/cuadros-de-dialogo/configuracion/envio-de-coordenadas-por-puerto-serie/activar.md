@@ -1,4 +1,5 @@
 # Activar
+<!-- id: activar -->
 
 Indica si la ventana fotogramétrica enviará las coordenadas por el puerto serie.
 

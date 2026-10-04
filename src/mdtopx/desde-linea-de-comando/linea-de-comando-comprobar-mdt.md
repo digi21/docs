@@ -1,4 +1,5 @@
 # Comprobar MDT
+<!-- id: linea-de-comando-comprobar-mdt -->
 
 [Comprobar MDT](/mdtopx/desde-linea-de-comando/linea-de-comando-comprobar-mdt.md)
 

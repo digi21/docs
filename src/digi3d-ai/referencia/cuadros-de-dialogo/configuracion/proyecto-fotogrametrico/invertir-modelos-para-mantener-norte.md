@@ -1,4 +1,5 @@
 # Invertir modelos para mantener norte
+<!-- id: invertir-modelos-para-mantener-norte -->
 
 Si se activa, al cambiar de modelo mediante el panel de proyecto fotogramétrico, Digi3D.AI rotará e intercambiará las imágenes cuando sea necesario para asegurarse de que la orientación es similar a la del modelo activo.
 

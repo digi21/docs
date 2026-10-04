@@ -1,4 +1,5 @@
 # Envíanos un archivo C2V
+<!-- id: envianos-un-archivo-c2v -->
 
 Los archivos **C**lient**2V**endor contienen el estado de tu llave de protección y es lo que necesitamos para poder hacer modificaciones remotamente.
 

@@ -1,4 +1,5 @@
 # Midiendo la aerotriangulación del modelo 107-108
+<!-- id: midiendo-aetrotriangulacion-modelo-107-108 -->
 
 En este ejemplo vamos a aerotriangular los modelos _107-108_ y _108-109_. Como es un proyecto formado por una única pasada, mediremos al menos _5_ puntos por foto, que serán los siguientes: _1070, 1071, 1072, 1073, 1074, 1080, 1081, 1082, 1083, 1084, 1090, 1091, 1092, 1093, 1094._
 

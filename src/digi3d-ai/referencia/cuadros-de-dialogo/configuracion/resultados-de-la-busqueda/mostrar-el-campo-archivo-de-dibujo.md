@@ -1,4 +1,5 @@
 # Mostrar el campo Archivo de dibujo
+<!-- id: mostrar-el-campo-archivo-de-dibujo -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Archivo de dibujo**.
 

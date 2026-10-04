@@ -1,4 +1,5 @@
 # Proveedores en la nube
+<!-- id: proveedores -->
 
 Esta página explica cómo configurar en el [panel de chat con IA](README.md) cada proveedor que
 funciona como servicio en internet. Para ejecutar el modelo en tu propio equipo, consulta

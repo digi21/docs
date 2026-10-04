@@ -1,4 +1,5 @@
 # SQL
+<!-- id: sql -->
 
 Ejecuta las consultas SQL especificadas en el archivo pasado por parámetros.
 

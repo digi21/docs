@@ -1,4 +1,5 @@
 # Tareas
+<!-- id: tareas -->
 
 ![Panel de tareas](../../../images/paneltareas.png)
 

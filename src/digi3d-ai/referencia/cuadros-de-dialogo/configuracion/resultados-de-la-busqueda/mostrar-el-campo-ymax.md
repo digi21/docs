@@ -1,4 +1,5 @@
 # Mostrar el campo Ymax
+<!-- id: mostrar-el-campo-ymax -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Ymax**.
 

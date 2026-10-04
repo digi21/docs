@@ -1,4 +1,5 @@
 # CORTAR\_Y\_BORRAR
+<!-- id: cortar-y-borrar -->
 
 Corta o descompone un elemento en otros dos y luego elimina uno de los dos elementos creados.
 

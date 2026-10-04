@@ -1,4 +1,5 @@
 # GUARDAR\_RESULTADOS
+<!-- id: guardar-resultados -->
 
 Guarda en un archivo TXT el contenido del panel de resultados.
 

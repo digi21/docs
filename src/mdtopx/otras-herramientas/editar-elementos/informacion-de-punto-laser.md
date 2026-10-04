@@ -1,4 +1,5 @@
 # Información de punto láser
+<!-- id: informacion-de-punto-laser -->
 
 [Elementos](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
 

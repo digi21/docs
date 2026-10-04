@@ -1,4 +1,5 @@
 # CLONAR\_CÓDIGOS+
+<!-- id: clonar-codigos-mas -->
 
 Añade los códigos de una entidad seleccionada a la lista de códigos activa.
 

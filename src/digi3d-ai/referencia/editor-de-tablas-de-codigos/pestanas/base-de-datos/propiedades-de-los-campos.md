@@ -1,4 +1,5 @@
 # Propiedades de los campos
+<!-- id: propiedades-de-los-campos -->
 
 Esta categoría permite configurar las propiedades de un campo de base de datos.
 

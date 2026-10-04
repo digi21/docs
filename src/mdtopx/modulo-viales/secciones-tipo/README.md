@@ -1,4 +1,5 @@
 # Secciones Tipo
+<!-- id: secciones-tipo-2 -->
 
 * [Listado secciones tipo](listado-secciones-tipo.md)
 * [Sección tipo](seccion-tipo.md)

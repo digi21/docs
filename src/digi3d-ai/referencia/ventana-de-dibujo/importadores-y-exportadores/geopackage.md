@@ -1,4 +1,5 @@
 # Archivos GeoPackage
+<!-- id: geopackage -->
 
 Importador y exportador de **Archivos GeoPackage**.
 

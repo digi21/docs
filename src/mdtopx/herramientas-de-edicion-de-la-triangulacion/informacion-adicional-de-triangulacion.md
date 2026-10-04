@@ -1,4 +1,5 @@
 # Información adicional de triangulación
+<!-- id: informacion-adicional-de-triangulacion -->
 
 [Vista TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/vista-tin.md)
 

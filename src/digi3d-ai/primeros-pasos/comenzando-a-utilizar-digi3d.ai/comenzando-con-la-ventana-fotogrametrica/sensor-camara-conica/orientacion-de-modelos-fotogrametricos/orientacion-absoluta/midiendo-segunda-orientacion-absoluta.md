@@ -1,4 +1,5 @@
 # Midiendo la segunda orientación absoluta
+<!-- id: midiendo-segunda-orientacion-absoluta -->
 
 La segunda orientación absoluta es más sencilla que la primera, pues el programa ya sabe la posición de algunos puntos en una de las imágenes.
 

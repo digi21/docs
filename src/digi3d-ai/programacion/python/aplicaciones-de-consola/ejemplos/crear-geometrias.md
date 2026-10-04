@@ -1,4 +1,5 @@
 # Crear geometrías
+<!-- id: crear-geometrias -->
 
 Las geometrías están en el paquete `digi21.base`. Todas se construyen indicando sus
 [códigos](../../referencia/digi21.base/featurecode.md) (como objetos `FeatureCode` o como

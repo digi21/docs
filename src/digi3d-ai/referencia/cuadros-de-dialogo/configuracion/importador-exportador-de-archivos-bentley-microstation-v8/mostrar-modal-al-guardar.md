@@ -1,4 +1,5 @@
 # Mostrar modal al guardar
+<!-- id: mostrar-modal-al-guardar -->
 
 Si se habilita, se muestra un cuadro de diálogo modal indicando que se está guardando el archivo mientras se guarda.
 

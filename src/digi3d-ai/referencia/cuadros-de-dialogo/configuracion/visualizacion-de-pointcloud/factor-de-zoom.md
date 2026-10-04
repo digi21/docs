@@ -1,4 +1,5 @@
 # Factor de zoom
+<!-- id: factor-de-zoom-2 -->
 
 Indica el factor de zoom que se aplica al ejecutar las órdenes de zoom acercar y alejar en una nube de puntos. Es un valor positivo mayor que 1,0.
 

@@ -1,4 +1,5 @@
 # Perfiles transversales
+<!-- id: perfiles-transversales -->
 
 [Cuadro de diálogo Perfiles](./)
 

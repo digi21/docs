@@ -1,4 +1,5 @@
 # Cargar DIGI.TAB
+<!-- id: cargar-digi.tab -->
 
 [Lista de códigos](/mdtopx/otras-herramientas/lista-de-codigos/)
 

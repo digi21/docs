@@ -1,4 +1,5 @@
 # FORZAR\_CÓDIGO\_ACTIVO
+<!-- id: forzar-codigo-activo -->
 
 Si está activada, tanto en restitución como en edición, todas las entidades que genere cualquier orden, como puedan ser [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md), se almacenan con los _códigos activos_ vigentes en el momento de la ejecución de dichas órdenes.
 

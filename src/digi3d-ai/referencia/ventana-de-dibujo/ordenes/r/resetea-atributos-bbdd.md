@@ -1,4 +1,5 @@
 # RESETEA\_ATRIBUTOS\_BBDD
+<!-- id: resetea-atributos-bbdd -->
 
 Asigna como atributos activos los atributos de BBDD de la tabla de códigos para un código.
 

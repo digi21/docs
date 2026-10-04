@@ -1,4 +1,5 @@
 # TEXTO\_EDITABLE
+<!-- id: texto-editable -->
 
 Actúa igual que la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md) pero si se le pasan parámetros, no oculta el control de edición.
 

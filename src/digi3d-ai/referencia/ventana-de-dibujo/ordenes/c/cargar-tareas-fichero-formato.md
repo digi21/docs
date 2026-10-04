@@ -1,4 +1,5 @@
 # CARGAR\_TAREAS\_FICHERO\_FORMATO
+<!-- id: cargar-tareas-fichero-formato -->
 
 Carga un fichero de texto con cualquier formato que contenga coordenadas de puntos.
 

@@ -1,4 +1,5 @@
 # Estilos
+<!-- id: estilos -->
 
 ![Editor de tablas de códigos mostrando la pestaña Estilos](../../../../images/pestanaestilos.png)
 

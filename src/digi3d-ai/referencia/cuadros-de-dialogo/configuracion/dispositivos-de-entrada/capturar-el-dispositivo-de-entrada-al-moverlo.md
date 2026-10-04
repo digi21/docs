@@ -1,4 +1,5 @@
 # Capturar el dispositivo de entrada al moverlo
+<!-- id: capturar-el-dispositivo-de-entrada-al-moverlo -->
 
 Si se activa, basta con mover el dispositivo de entrada para que quede seleccionado como dispositivo de entrada de la ventana de dibujo.
 

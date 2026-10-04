@@ -1,4 +1,5 @@
 # OFF\_EXPRESIÓN\_PYTHON
+<!-- id: off-expresion-python -->
 
 Desactiva la visualización de geometrías que devuelvan verdadero en la [expresión Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros.
 

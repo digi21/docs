@@ -1,4 +1,5 @@
 # CIR2P
+<!-- id: cir2p -->
 
 Dibuja una circunferencia mediante el centro y un punto de la misma.
 

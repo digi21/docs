@@ -1,4 +1,5 @@
 # CARGA\_P
+<!-- id: carga-p -->
 
 Lee el contenido de un fichero ASCII de coordenadas, incorporando al archivo de trabajo un punto por cada conjunto de coordenadas \(X Y Z\) leídas.
 

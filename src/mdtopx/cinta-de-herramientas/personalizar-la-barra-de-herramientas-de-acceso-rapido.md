@@ -1,4 +1,5 @@
 # Personalizar la barra de herramientas de acceso rápido
+<!-- id: personalizar-la-barra-de-herramientas-de-acceso-rapido -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

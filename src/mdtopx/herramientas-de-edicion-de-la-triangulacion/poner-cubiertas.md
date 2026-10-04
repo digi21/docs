@@ -1,4 +1,5 @@
 # Añadir objetos al MDT
+<!-- id: poner-cubiertas -->
 
 [Objetos MDT](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/objetos-mdt.md)
 

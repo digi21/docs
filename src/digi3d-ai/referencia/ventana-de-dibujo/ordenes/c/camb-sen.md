@@ -1,4 +1,5 @@
 # CAMB\_SEN
+<!-- id: camb-sen -->
 
 Modifica el sentido en que se han registrado los puntos después de haber digitalizado un elemento gráfico.
 

@@ -1,4 +1,5 @@
 # Cambiando el código de una entidad
+<!-- id: cambiando-codigo-entidad -->
 
 Aprende a **cambiar el código** de una entidad siguiendo los siguientes pasos:
 

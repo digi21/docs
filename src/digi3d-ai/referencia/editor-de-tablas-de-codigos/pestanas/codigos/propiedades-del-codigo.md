@@ -1,4 +1,5 @@
 # Propiedades del código
+<!-- id: propiedades-del-codigo -->
 
 Esta categoría permite configurar las propiedades de un código.
 

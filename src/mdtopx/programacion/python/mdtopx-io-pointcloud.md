@@ -1,4 +1,5 @@
 # Paquete `mdtopx.io.pointcloud`
+<!-- id: mdtopx-io-pointcloud -->
 
 Formatos de **nubes de puntos** y **trayectorias**. Leen a `scene.clouds` (una `CloudEntity` por nube,
 con su `PointCloud` en `cloud`) y escriben las nubes de la escena. Todos siguen la

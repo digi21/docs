@@ -1,4 +1,5 @@
 # Insertar nuevo punto en MDT
+<!-- id: insertar-nuevo-punto-en-mdt -->
 
 Esta herramienta permite insertar un nuevo punto en el modelo digital. El usuario debe indicar una posición planimétrica del nuevo punto y la aplicación mostrará un cuadro de diálogo con la cota interpolada sobre la triangulación:
 

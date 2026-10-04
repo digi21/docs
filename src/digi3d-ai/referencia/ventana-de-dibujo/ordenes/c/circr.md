@@ -1,4 +1,5 @@
 # CIRCR
+<!-- id: circr -->
 
 Dibuja una circunferencia mediante la definición de su centro y el radio introducido numéricamente.
 

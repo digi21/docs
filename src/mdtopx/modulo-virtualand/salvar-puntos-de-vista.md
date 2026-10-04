@@ -1,4 +1,5 @@
 # Salvar puntos de vista
+<!-- id: salvar-puntos-de-vista -->
 
 [VirtuaLand Generar Video](../fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-generar-video.md)
 

@@ -1,4 +1,5 @@
 # Panel Propiedades Documento Dibujo
+<!-- id: panel-propiedades-documento-dibujo -->
 
 [Panel Propiedades](/mdtopx/introduccion/paneles-de-la-aplicacion/panel-propiedades/)
 

@@ -1,4 +1,5 @@
 # ROTAR\_CÁMARA\_FPS
+<!-- id: rotar-camara-fps -->
 
 Rota la cámara en la ventana de dibujo mediante movimientos del ratón.
 

@@ -1,4 +1,5 @@
 # Permitir animaciones de opacidad
+<!-- id: permitir-animaciones-de-opacidad -->
 
 Si se activa, las teselas recién cargadas se muestran con una animación.
 

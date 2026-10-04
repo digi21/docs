@@ -1,4 +1,5 @@
 # MAXPUNTOS
+<!-- id: maxpuntos -->
 
 Establece el número máximo de puntos que tendrá un tipo de entidad.
 

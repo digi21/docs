@@ -1,4 +1,5 @@
 # Precisión planimétrica del apoyo
+<!-- id: precision-planimetrica-del-apoyo -->
 
 Indica la precisión planimétrica de los puntos de apoyo, en unidades de medida del usuario. Antes del ajuste, Digi3D.AI la convierte a las unidades del sistema de referencia de coordenadas del sensor.
 

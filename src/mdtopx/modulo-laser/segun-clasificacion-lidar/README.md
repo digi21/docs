@@ -1,4 +1,5 @@
 # Según clasificación LIDAR
+<!-- id: segun-clasificacion-lidar -->
 
 [Ficha de herramientas Puntos LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-puntos-lidar/)
 

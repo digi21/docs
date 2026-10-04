@@ -1,4 +1,5 @@
 # Reconocimiento de voz
+<!-- id: reconocimiento-de-voz -->
 
 ![Editor de tablas de códigos mostrando la pestaña Reconocimiento de voz](../../../../images/pestanareconocimientovoz.png)
 

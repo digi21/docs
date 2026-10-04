@@ -1,4 +1,5 @@
 # Parámetros del escáner
+<!-- id: parametros-del-escaner -->
 
 En esta sección de la configuración se configuran los parámetros específicos del escáner Leica ScanStation.
 

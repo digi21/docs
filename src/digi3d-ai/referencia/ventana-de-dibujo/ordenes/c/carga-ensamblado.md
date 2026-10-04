@@ -1,4 +1,5 @@
 # CARGA\_ENSAMBLADO
+<!-- id: carga-ensamblado -->
 
 Carga el ensamblado pasado por parámetros.
 

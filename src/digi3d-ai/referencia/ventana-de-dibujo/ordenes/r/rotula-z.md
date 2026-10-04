@@ -1,4 +1,5 @@
 # ROTULA\_Z
+<!-- id: rotula-z -->
 
 Rotula un punto o varios puntos con su Z correspondiente.
 

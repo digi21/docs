@@ -1,4 +1,5 @@
 # BUSCAR\_CENTROIDE\_I
+<!-- id: buscar-centroide-i -->
 
 Busca, por inundación, el centroide del polígono topológico sobre el que se está trabajando.
 

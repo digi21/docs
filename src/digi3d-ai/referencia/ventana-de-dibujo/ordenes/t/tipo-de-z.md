@@ -1,4 +1,5 @@
 # TIPO\_DE\_Z
+<!-- id: tipo-de-z -->
 
 Indica al programa la manera de registrar las coordenadas de Z de los vértices de las entidades lineales.
 

@@ -1,4 +1,5 @@
 # Ventana de dibujo
+<!-- id: ventana-dibujo -->
 
 La ventana de dibujo tiene asignado un sistema de referencia de coordenadas. Este sistema de referencia de coordenadas gobierna las siguientes funcionalidades:
 

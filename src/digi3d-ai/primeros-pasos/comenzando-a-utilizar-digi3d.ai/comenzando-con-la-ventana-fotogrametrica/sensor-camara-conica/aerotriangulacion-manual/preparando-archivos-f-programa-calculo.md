@@ -1,4 +1,5 @@
 # Preparando los archivos .f para un programa de cálculo
+<!-- id: preparando-archivos-f-programa-calculo -->
 
 Los programas de cálculo de aerotriangulaciones requieren **un único archivo** con las fotocoordenadas los puntos medidos en cada una de las fotos del proyecto.
 

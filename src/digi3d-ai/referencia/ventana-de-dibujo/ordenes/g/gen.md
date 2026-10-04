@@ -1,4 +1,5 @@
 # GEN
+<!-- id: gen -->
 
 Generaliza líneas, polígonos y entidades complejas: elimina los vértices superfluos midiendo las distancias en el espacio (X, Y y Z).
 

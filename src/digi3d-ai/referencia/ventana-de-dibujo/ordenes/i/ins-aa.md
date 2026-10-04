@@ -1,4 +1,5 @@
 # INS\_AA
+<!-- id: ins-aa -->
 
 Inserta un fichero de dibujo en el archivo de trabajo girado el ángulo activo.
 

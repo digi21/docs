@@ -1,4 +1,5 @@
 # EXT
+<!-- id: ext-2 -->
 
 Configura la orden [EXT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext.md).
 

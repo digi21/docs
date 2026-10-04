@@ -1,4 +1,5 @@
 # ALINEAR
+<!-- id: alinear -->
 
 Mueve los vértices cuya distancia a la línea virtual digitalizada sea inferior o igual al valor de la [distancia activa principal](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md).
 

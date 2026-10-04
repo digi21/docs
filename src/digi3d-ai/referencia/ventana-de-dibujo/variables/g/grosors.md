@@ -1,4 +1,5 @@
 # GROSORS
+<!-- id: grosors -->
 
 Grosor adicional con que se muestran los vectores en la pantalla estereoscópica.
 

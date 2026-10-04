@@ -1,4 +1,5 @@
 # TRIANGULAR\_PUNTOS\_TOPOLOGIA\_EXCEPTO
+<!-- id: triangular-puntos-topologia-excepto -->
 
 Calcula una triangulación con las líneas de una topología exceptuando las líneas que tengan un determinado código.
 

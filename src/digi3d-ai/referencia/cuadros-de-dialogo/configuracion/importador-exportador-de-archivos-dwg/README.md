@@ -1,4 +1,5 @@
 # Importador/Exportador de archivos DWG
+<!-- id: importador-exportador-de-archivos-dwg -->
 
 Configuración del importador/exportador de archivos DWG.
 

@@ -1,4 +1,5 @@
 # Compatibilidad
+<!-- id: compatibilidad -->
 
 ## Sistema operativo
 

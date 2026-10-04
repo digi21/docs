@@ -1,4 +1,5 @@
 # PONER\_XY
+<!-- id: poner-xy -->
 
 Coloca dos textos numéricos con los valores de las coordenadas X,Y del punto que selecciones.
 

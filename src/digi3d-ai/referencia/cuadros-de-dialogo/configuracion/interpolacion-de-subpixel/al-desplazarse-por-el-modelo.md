@@ -1,4 +1,5 @@
 # Al desplazarse por el modelo
+<!-- id: al-desplazarse-por-el-modelo -->
 
 Si el sensor admite trabajar con interpolación de subpixel, indica si se utiliza al desplazarse por el modelo (roaming).
 

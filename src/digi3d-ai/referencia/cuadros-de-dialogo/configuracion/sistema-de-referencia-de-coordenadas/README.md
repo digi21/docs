@@ -1,4 +1,5 @@
 # Sistema de referencia de coordenadas
+<!-- id: sistema-de-referencia-de-coordenadas -->
 
 Configura el comportamiento de Digi3D.AI con los sistemas de referencia de coordenadas.
 

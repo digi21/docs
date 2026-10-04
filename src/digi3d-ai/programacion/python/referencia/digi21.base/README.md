@@ -1,4 +1,5 @@
 # digi21.base
+<!-- id: digi21.base -->
 
 Tipos del núcleo de Digi3D.AI. No abre archivos (para eso está
 [digi21.io](../digi21.io/README.md)).

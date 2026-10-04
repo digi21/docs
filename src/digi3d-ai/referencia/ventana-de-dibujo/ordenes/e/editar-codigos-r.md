@@ -1,4 +1,5 @@
 # EDITAR\_CODIGOS\_R
+<!-- id: editar-codigos-r -->
 
 Edita los códigos de las entidades que forman el recinto topológico seleccionado
 

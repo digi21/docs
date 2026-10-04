@@ -1,4 +1,5 @@
 # Prioridad del hilo
+<!-- id: prioridad-del-hilo -->
 
 Indica la prioridad del hilo de trabajo que se comunica con los codificadores en segundo plano. Una prioridad más alta mejora la respuesta de los dispositivos de entrada, pero consume más recursos del equipo.
 

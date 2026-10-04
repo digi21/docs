@@ -1,4 +1,5 @@
 # Escaleras
+<!-- id: escaleras -->
 
 ![Barra de herramientas Escaleras](../../../images/escaleras.png)
 

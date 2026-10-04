@@ -1,4 +1,5 @@
 # DETECTAR\_LINEAS\_VISIBLES\_NO\_CONECTADAS
+<!-- id: detectar-lineas-visibles-no-conectadas -->
 
 Crea una tarea de error por cada extremo de línea visible que no esté conectado.
 

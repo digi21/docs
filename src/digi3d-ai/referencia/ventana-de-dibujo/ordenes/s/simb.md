@@ -1,4 +1,5 @@
 # SIMB
+<!-- id: simb -->
 
 Rellena el interior de una entidad superficial de contorno cerrado usando una trama de símbolos.
 

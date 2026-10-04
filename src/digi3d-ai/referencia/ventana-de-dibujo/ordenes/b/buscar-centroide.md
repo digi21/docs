@@ -1,4 +1,5 @@
 # BUSCAR\_CENTROIDE
+<!-- id: buscar-centroide -->
 
 Localiza el centroide dentro de un recinto, después de haber cargado uno o varios topológicos.
 

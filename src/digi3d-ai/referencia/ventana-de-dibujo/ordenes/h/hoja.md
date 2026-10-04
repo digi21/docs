@@ -1,4 +1,5 @@
 # HOJA
+<!-- id: hoja -->
 
 Crea un archivo de dibujo con un marco de hoja a una determinada escala, con marcas cada cierta distancia y rótulos de coordenadas.
 

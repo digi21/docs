@@ -1,4 +1,5 @@
 # Comprimir llave
+<!-- id: comprimir-llave -->
 
 Las llaves de protección tienen memoria suficiente para almacenar unas 20 activaciones aproximadamente (este valor depende del tamaño del archivo de configuración obtenido al consultar por las características del hardware al ordenador), por lo que podrás conectarla a distintos equipos y activarlos.
 

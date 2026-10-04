@@ -1,4 +1,5 @@
 # CARGA\_F
+<!-- id: carga-f -->
 
 Visualiza en pantalla, junto al fichero actual de dibujo, uno o varios ficheros gráficos de referencia.
 

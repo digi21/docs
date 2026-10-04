@@ -1,4 +1,5 @@
 # Archivos de orientación absoluta
+<!-- id: archivos-orientacion-absoluta -->
 
 Al aceptar la orientación absoluta, se crea un archivo con el nombre _\(foto izquierda\) - \(foto derecha\).absl.xml_ en el directorio del proyecto del modelo fotogramétrico.
 

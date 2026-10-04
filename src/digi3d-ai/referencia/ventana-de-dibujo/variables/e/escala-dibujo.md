@@ -1,4 +1,5 @@
 # ESCALA\_DIBUJO
+<!-- id: escala-dibujo -->
 
 Indica la escala con la que se representa el patrón en pantalla.
 

@@ -1,4 +1,5 @@
 # Aplicaciones de consola
+<!-- id: aplicaciones-de-consola -->
 
 Programas de Python **normales**, que se ejecutan en un intérprete de Python **fuera de
 Digi3D.AI** (el que **incluye el propio programa** o uno tuyo de 3.12). Sirven para **leer y

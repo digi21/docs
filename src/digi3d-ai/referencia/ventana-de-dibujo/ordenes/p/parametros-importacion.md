@@ -1,4 +1,5 @@
 # PARAMETROS\_IMPORTACIÓN
+<!-- id: parametros-importacion -->
 
 Especifica los parámetros que se enviarán al importador o exportador correspondiente, de modo que no aparezca el cuadro de diálogo de configuración al importar o exportar un archivo de ese tipo.
 

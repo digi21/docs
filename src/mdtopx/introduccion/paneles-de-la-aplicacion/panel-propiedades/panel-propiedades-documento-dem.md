@@ -1,4 +1,5 @@
 # Panel Propiedades Documento DEM
+<!-- id: panel-propiedades-documento-dem -->
 
 [Panel Propiedades](/mdtopx/introduccion/paneles-de-la-aplicacion/panel-propiedades/)
 

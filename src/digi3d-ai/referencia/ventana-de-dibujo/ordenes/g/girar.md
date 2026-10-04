@@ -1,4 +1,5 @@
 # GIRAR
+<!-- id: girar -->
 
 Gira la ventana de visualización.
 

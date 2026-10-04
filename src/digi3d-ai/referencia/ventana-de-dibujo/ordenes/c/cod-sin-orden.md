@@ -1,4 +1,5 @@
 # COD\_SIN\_ORDEN
+<!-- id: cod-sin-orden -->
 
 Sustituye la lista de códigos activos, igual que la orden [COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md).
 

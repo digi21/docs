@@ -1,4 +1,5 @@
 # Control de producción
+<!-- id: control-de-produccion -->
 
 Configura el control de producción del equipo.
 

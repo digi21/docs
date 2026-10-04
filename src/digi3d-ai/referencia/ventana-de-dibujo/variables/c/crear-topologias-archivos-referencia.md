@@ -1,4 +1,5 @@
 # CREAR\_TOPOLOGIAS\_ARCHIVOS\_REFERENCIA
+<!-- id: crear-topologias-archivos-referencia -->
 
 Si se activa, la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md) crea las topologías en todos los archivos de dibujo cargados (el archivo activo y los archivos de referencia) en lugar de solo en el archivo activo.
 

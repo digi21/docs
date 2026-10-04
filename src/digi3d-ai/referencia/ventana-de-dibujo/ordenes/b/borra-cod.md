@@ -1,4 +1,5 @@
 # BORRA\_COD
+<!-- id: borra-cod -->
 
 Borra todas aquellas entidades que tengan un código igual al indicado por el usuario.
 

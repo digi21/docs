@@ -1,4 +1,5 @@
 # Archivos generados al medir una aerotriangulación
+<!-- id: archivos-generados-aerotriangulacion -->
 
 Al aceptar una medida de aerotriangulación se genera en la subcarpeta **Aerotriangulación** un archivo cuyo nombre sigue el patrón _foto izquierda - foto derecha.mod_ con las coordenadas modelo de los puntos medidos en un determinado modelo.
 

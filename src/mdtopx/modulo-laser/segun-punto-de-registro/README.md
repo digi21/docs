@@ -1,4 +1,5 @@
 # Según punto de registro
+<!-- id: segun-punto-de-registro -->
 
 [Ficha de herramientas Puntos LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-puntos-lidar/)
 

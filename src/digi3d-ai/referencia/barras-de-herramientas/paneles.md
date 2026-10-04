@@ -1,4 +1,5 @@
 # Paneles
+<!-- id: paneles -->
 
 ![Barra de herramientas Paneles](../../../images/paneles.png)
 

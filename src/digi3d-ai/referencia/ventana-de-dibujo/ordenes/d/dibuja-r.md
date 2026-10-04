@@ -1,4 +1,5 @@
 # DIBUJA\_R
+<!-- id: dibuja-r -->
 
 Dibuja recintos topológicos a partir de una topología cargada.
 

@@ -1,4 +1,5 @@
 # Desplazando la ventana fotogramétrica a un punto de apoyo
+<!-- id: desplazando-ventana-foto-a-punto-apoyo -->
 
 Si dispones de un archivo de [puntos de apoyo](desplazando-ventana-foto-a-punto-apoyo.md) puedes ordenarle a la vista estereoscópica que se desplace a las coordenadas de un determinado punto de apoyo.
 

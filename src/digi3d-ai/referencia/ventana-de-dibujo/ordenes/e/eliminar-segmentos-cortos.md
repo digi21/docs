@@ -1,4 +1,5 @@
 # ELIMINAR\_SEGMENTOS\_CORTOS
+<!-- id: eliminar-segmentos-cortos -->
 
 Elimina automáticamente vértices de geometrías para evitar que éstas tengan segmentos cuyo perímetro sea inferior a un valor especificado.
 

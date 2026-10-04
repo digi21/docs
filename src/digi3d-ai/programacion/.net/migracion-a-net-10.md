@@ -1,4 +1,5 @@
 # Migración a .NET 10
+<!-- id: migracion-a-net-10 -->
 
 Digi3D.AI se ejecuta sobre **.NET 10**. Los ensamblados .NET que instala y los paquetes [NuGet](https://www.nuget.org/profiles/Digi21) con los que se programa contra ellos pasan a la **versión 26.0.0**.
 

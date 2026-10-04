@@ -1,4 +1,5 @@
 # Herramientas de visualización
+<!-- id: herramientas-de-visualizacion -->
 
 * [Vista de superficie de MDT](vista-de-superficie-de-mdt.md)
 * [Encender/apagar objetos del MDT](encender-apagar-objetos-del-mdt.md)

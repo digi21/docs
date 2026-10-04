@@ -1,4 +1,5 @@
 # Modo de trabajo
+<!-- id: modo-de-trabajo -->
 
 Indica cómo se marcan las dos esquinas de la ventana en la orden [ZOOMV](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomv.md).
 

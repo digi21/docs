@@ -1,4 +1,5 @@
 # Ubicación del sistema de Referencia de Coordenadas en función del tipo de archivo de dibujo
+<!-- id: ubicacion-src-archivos-dibujo -->
 
 Algunos formatos de archivo de dibujo incorporan el sistema de referencia de coordenadas asociado en el propio archivo \(como es el caso de los archivos [.bind](ubicacion-src-archivos-dibujo.md)\). Otros formatos de archivo de dibujo no están preparados para almacenar dentro del propio archivo el sistema de referencia de coordenadas asociado, de modo que éste se almacena en un archivo con extensión [.prj](ubicacion-src-archivos-dibujo.md) mediante una cadena [Well Known Text](https://es.wikipedia.org/wiki/Well_Known_Text).
 

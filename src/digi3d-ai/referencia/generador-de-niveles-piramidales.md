@@ -1,4 +1,5 @@
 # Generador de Niveles Piramidales
+<!-- id: generador-de-niveles-piramidales -->
 
 ![Generador de niveles piramidales](../../images/generadordenivelespiramidales.png)
 

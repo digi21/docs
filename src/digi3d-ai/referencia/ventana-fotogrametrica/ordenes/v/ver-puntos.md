@@ -1,4 +1,5 @@
 # VER\_MARCAS
+<!-- id: ver-puntos -->
 
 Elige qué puntos medidos se muestran sobre cada imagen de la ventana fotogramétrica.
 

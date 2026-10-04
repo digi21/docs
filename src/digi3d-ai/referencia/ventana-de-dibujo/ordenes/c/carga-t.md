@@ -1,4 +1,5 @@
 # CARGA\_T
+<!-- id: carga-t -->
 
 Lee la información de un fichero ASCII que contiene coordenadas y textos, incorporando al archivo de trabajo el texto en las coordenadas indicadas.
 

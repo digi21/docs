@@ -1,4 +1,5 @@
 # DENSIFICA
+<!-- id: densifica -->
 
 Inserta vértices en las líneas y polígonos de los códigos indicados para que ningún tramo supere una distancia.
 

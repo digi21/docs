@@ -1,4 +1,5 @@
 # Importador/Exportador de formato VEC de Latino
+<!-- id: importador-exportador-de-formato-vec-de-latino -->
 
 Configuración del importador/exportador del formato VEC de Latino.
 

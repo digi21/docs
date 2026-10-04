@@ -1,4 +1,5 @@
 # Archivo
+<!-- id: editar-archivo -->
 
 [Ficha de herramientas Editar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-editar/)
 

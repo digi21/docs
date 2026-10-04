@@ -1,4 +1,5 @@
 # ONS\_ARCHIVO
+<!-- id: ons-archivo -->
 
 Activa códigos en la ventana fotogramétrica para un determinado número de archivo.
 

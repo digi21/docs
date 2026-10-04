@@ -1,4 +1,5 @@
 # COD
+<!-- id: cod -->
 
 Establece el código con el que se van a dibujar las entidades.
 

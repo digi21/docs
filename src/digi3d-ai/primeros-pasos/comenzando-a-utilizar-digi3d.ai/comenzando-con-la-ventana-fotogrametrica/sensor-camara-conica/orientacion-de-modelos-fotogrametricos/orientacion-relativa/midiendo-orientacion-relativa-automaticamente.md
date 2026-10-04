@@ -1,4 +1,5 @@
 # Midiendo la orientación relativa automáticamente
+<!-- id: midiendo-orientacion-relativa-automaticamente -->
 
 Digi3D.AI puede medir la orientación relativa automáticamente mediante algoritmos de [correlación](midiendo-orientacion-relativa-automaticamente.md), de manera que no será necesario medir ningún punto para realizar la orientación relativa.
 

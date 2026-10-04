@@ -1,4 +1,5 @@
 # PONER\_COD\_RECINTO\_CENTROIDE
+<!-- id: poner-cod-recinto-centroide -->
 
 Añade el código de recinto a las entidades que forman el contorno de los recintos topológicos seleccionados y, además, inserta en el centroide del recinto un texto con el código de centroide.
 

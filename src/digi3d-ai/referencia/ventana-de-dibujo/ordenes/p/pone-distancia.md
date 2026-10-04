@@ -1,4 +1,5 @@
 # PONE\_DISTANCIA
+<!-- id: pone-distancia -->
 
 Coloca un texto con el valor de la distancia entre dos puntos.
 

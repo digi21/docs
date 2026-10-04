@@ -1,4 +1,5 @@
 # Tipos de Sistemas de Referencia de Coordenadas
+<!-- id: tipos-sistemas-referencia-coordenadas -->
 
 Ayuda online de productos Digi21
 

@@ -1,4 +1,5 @@
 # Visibilidad
+<!-- id: visibilidad -->
 
 [Herramientas MDT Productos ráster](../fichas-de-herramientas/ficha-de-herramientas-mdt/productos-raster.md)
 

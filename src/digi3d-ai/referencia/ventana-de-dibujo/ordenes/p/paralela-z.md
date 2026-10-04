@@ -1,4 +1,5 @@
 # PARALELA\_Z
+<!-- id: paralela-z -->
 
 Dibuja una paralela a una línea existente asignando la Z del punto digitalizado a todos los vértices de la paralela generada.
 

@@ -1,4 +1,5 @@
 # Sonidos
+<!-- id: sonidos -->
 
 Permite configurar el dispositivo que se utiliza para emitir los sonidos del programa.
 

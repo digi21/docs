@@ -1,4 +1,5 @@
 # Mostrar el campo Índice
+<!-- id: mostrar-el-campo-indice -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Índice**.
 

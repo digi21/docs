@@ -1,4 +1,5 @@
 # CREAR\_POLÍGONO
+<!-- id: crear-poligono -->
 
 Crea un polígono con huecos a partir de líneas cerradas existentes.
 

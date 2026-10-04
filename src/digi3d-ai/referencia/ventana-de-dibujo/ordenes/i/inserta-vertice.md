@@ -1,4 +1,5 @@
 # INSERTA\_VÉRTICE
+<!-- id: inserta-vertice -->
 
 Inserta un vértice en una línea o en un polígono.
 

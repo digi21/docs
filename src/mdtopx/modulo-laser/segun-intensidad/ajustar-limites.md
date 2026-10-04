@@ -1,4 +1,5 @@
 # Ajustar límites
+<!-- id: ajustar-limites -->
 
 [Según intensidad](/mdtopx/modulo-laser/segun-intensidad/)
 

@@ -1,4 +1,5 @@
 # Archivos de orientación relativa
+<!-- id: archivos-orientacion-relativa -->
 
 Al aceptar la orientación relativa, se crea un archivo con el nombre _\(foto izquierda\) - \(foto derecha\).rel.xml_ en el directorio del proyecto del modelo fotogramétrico.
 

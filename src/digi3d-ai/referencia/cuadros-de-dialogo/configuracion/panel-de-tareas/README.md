@@ -1,4 +1,5 @@
 # Panel de tareas
+<!-- id: panel-de-tareas -->
 
 Configura el comportamiento del panel de tareas.
 

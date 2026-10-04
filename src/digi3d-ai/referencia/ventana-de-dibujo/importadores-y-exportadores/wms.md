@@ -1,4 +1,5 @@
 # WMS (Web Map Service)
+<!-- id: wms -->
 
 Importador de **WMS (Web Map Service)**.
 

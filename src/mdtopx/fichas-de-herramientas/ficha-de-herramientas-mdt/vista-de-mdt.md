@@ -1,4 +1,5 @@
 # Vista de MDT
+<!-- id: vista-de-mdt -->
 
 [Ficha de herramientas Herramientas MDT](./)
 

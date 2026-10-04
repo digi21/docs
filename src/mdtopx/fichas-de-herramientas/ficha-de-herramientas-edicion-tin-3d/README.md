@@ -1,4 +1,5 @@
 # Ficha de herramientas Edición TIN 3D
+<!-- id: ficha-de-herramientas-edicion-tin-3d -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

@@ -1,4 +1,5 @@
 # U
+<!-- id: u-2 -->
 
 Borra el último vértice de la entidad que se está registrando en el momento de ejecutar la orden.
 

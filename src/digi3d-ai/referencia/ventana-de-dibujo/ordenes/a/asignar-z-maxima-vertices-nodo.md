@@ -1,4 +1,5 @@
 # ASIGNAR\_Z\_MAXIMA\_VERTICES\_NODO
+<!-- id: asignar-z-maxima-vertices-nodo -->
 
 Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de todos para que se ajuste a la Z máxima.
 

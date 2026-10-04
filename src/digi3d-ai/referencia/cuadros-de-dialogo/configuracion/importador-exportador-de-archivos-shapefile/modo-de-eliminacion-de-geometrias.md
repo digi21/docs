@@ -1,4 +1,5 @@
 # Modo de eliminación de geometrías
+<!-- id: modo-de-eliminacion-de-geometrias -->
 
 Indica cómo se especifica en el Shapefile que una geometría está eliminada.
 

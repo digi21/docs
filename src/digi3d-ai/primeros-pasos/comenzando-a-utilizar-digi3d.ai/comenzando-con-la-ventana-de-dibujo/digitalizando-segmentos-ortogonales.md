@@ -1,4 +1,5 @@
 # Digitalizando segmentos ortogonales al último segmento de la polilínea que estamos digitalizando
+<!-- id: digitalizando-segmentos-ortogonales -->
 
 Para digitalizar segmentos ortogonales al último segmento de la polilínea que estás digitalizando, sigue los siguientes pasos:
 

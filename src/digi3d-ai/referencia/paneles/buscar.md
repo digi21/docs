@@ -1,4 +1,5 @@
 # Buscar
+<!-- id: buscar-2 -->
 
 ![](../../../images/panelbuscar.png)
 

@@ -1,4 +1,5 @@
 # COPIA2P
+<!-- id: copia-2p -->
 
 Copia una entidad de dibujo, aplicando traslación, factor de escala y giro.
 

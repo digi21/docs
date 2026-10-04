@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Entities.Relations
+<!-- id: digi21.diging.entities.relations -->
 
 Proporciona tipos relacionados con la relación entre geometrías.
 

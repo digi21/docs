@@ -1,4 +1,5 @@
 # MUESTRA\_AYUDA
+<!-- id: muestra-ayuda -->
 
 Muestra un documento HTML en el panel de ayuda del programa.
 

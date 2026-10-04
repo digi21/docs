@@ -1,4 +1,5 @@
 # ESFERA\_SIGUIENTE
+<!-- id: esfera-siguiente -->
 
 Entra en la siguiente esfera.
 

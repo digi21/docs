@@ -1,4 +1,5 @@
 # Escanear
+<!-- id: escanear-2 -->
 
 Al pulsar este botón el programa realiza las siguientes tareas:
 

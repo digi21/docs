@@ -1,4 +1,5 @@
 # Mostrar el campo Primer código
+<!-- id: mostrar-el-campo-primer-codigo -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Primer código**.
 

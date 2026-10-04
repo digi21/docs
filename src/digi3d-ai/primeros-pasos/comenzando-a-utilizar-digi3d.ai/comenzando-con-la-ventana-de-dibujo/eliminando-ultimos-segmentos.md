@@ -1,4 +1,5 @@
 # Eliminando los últimos segmentos de la polilínea que estoy digitalizando
+<!-- id: eliminando-ultimos-segmentos -->
 
 Para eliminar los últimos segmentos de la polilínea que estás digitalizando, sigue los siguientes pasos:
 

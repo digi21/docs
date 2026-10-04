@@ -1,4 +1,5 @@
 # BINTRAM
+<!-- id: bintram -->
 
 Automatiza la edición del archivo de dibujo.
 

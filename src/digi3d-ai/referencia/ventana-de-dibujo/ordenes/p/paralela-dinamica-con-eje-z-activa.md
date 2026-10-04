@@ -1,4 +1,5 @@
 # PARALELA\_DINAMICA\_CON\_EJE\_Z\_ACTIVA
+<!-- id: paralela-dinamica-con-eje-z-activa -->
 
 Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros. Todos los vértices de la paralela y del eje toman la Z del punto digitalizado.
 

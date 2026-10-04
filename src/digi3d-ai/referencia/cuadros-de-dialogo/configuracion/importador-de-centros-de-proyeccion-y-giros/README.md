@@ -1,4 +1,5 @@
 # Importador de Centros de Proyección y Giros (.eo, .imu)
+<!-- id: importador-de-centros-de-proyeccion-y-giros -->
 
 Configura el importador de orientaciones a partir de archivos de centros de proyección y giros (_.eo_, _.imu_).
 

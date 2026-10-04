@@ -1,4 +1,5 @@
 # ZOOMDER
+<!-- id: zoomder -->
 
 Permite una visualización selectiva del dibujo hacia la derecha.
 

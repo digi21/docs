@@ -1,4 +1,5 @@
 # Entrar
+<!-- id: entrar -->
 
 Permite indicar la ruta del archivo _.wav_ con el sonido que se reproduce cuando el usuario entra dentro del polígono seleccionado con la orden [LIMITE_1](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limite-1.md).
 

@@ -1,4 +1,5 @@
 # Comparación 3D
+<!-- id: comparacion-3d -->
 
 [Ficha de herramientas ScanStation](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-scanstation.md)
 

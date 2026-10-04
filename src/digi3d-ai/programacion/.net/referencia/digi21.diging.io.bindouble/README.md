@@ -1,4 +1,5 @@
 # Digi21.DigiNG.IO.BinDouble
+<!-- id: digi21.diging.io.bindouble -->
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Io.BinDouble) proporciona un importador/exportador de archivos binarios de doble precisión de Digi3D.AI.
 

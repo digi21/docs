@@ -1,4 +1,5 @@
 # Archivos PointCloud
+<!-- id: pointcloud -->
 
 Importador y exportador de **Archivos PointCloud**.
 

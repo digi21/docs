@@ -1,4 +1,5 @@
 # Bloqueo de mayúsculas actúa como mayúsculas
+<!-- id: bloqueo-de-mayusculas-actua-como-mayusculas -->
 
 Si se activa, cuando está activado el bloqueo de mayúsculas y se pulsa una tecla, el programa considera que se ha pulsado la combinación Shift + tecla.
 

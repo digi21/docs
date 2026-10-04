@@ -1,4 +1,5 @@
 # COD\_COTAS
+<!-- id: cod-cotas -->
 
 Permite indicar un código con el que se digitalizarán cotas altimétricas.
 

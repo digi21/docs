@@ -1,4 +1,5 @@
 # Códigos según diferencia de cota
+<!-- id: codigos-segun-diferencia-de-cota -->
 
 ![Cuadro de diálogo Códigos según diferencia de cota](../../../images/image-151.png)
 

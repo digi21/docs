@@ -1,4 +1,5 @@
 # CEBRA\_4P
+<!-- id: cebra-4p -->
 
 Facilita el dibujo de pasos de cebra, introduciendo sólo el número de las franjas blancas y 4 puntos que definan la forma y posición de los pasos de cebra.
 

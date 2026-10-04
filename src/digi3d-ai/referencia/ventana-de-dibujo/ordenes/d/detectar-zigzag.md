@@ -1,4 +1,5 @@
 # DETECTAR\_ZIGZAG
+<!-- id: detectar-zigzag -->
 
 Analiza líneas y detecta ZigZags en sus vértices.
 

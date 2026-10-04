@@ -1,4 +1,5 @@
 # Eliminar curvas por equidistancia
+<!-- id: elimina-curvas-por-equidistancia -->
 
 Archivo: `elimina_curvas_por_equidistancia.py` · orden con parámetros.
 

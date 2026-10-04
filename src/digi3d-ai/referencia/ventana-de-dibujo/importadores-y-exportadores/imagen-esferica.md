@@ -1,4 +1,5 @@
 # Archivos de orientación de imagen esférica de Leica Pegasus
+<!-- id: imagen-esferica -->
 
 Importador de **Archivos de orientación de imagen esférica de Leica Pegasus**.
 

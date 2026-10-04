@@ -1,4 +1,5 @@
 # ESC_ACT
+<!-- id: esc-act -->
 
 Establece el _factor de escala_ activo de puntos e inserción de bloques.
 

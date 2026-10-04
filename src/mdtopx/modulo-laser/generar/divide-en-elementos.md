@@ -1,4 +1,5 @@
 # Divide en elementos
+<!-- id: divide-en-elementos -->
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
 

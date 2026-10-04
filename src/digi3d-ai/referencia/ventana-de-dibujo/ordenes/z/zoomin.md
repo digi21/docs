@@ -1,4 +1,5 @@
 # ZOOMIN
+<!-- id: zoomin -->
 
 Aumenta el factor de zoom.
 

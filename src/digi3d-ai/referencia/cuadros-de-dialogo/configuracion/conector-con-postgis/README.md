@@ -1,4 +1,5 @@
 # Conector con PostGis
+<!-- id: conector-con-postgis -->
 
 Configuración del conector con bases de datos PostGIS.
 

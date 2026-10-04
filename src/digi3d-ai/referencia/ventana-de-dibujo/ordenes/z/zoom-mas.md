@@ -1,4 +1,5 @@
 # ZOOM+
+<!-- id: zoom-mas -->
 
 Aumenta el factor de zoom.
 

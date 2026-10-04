@@ -1,4 +1,5 @@
 # Enumeraciones
+<!-- id: enumerations -->
 
 Módulo: `digi3d`
 

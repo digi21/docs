@@ -1,4 +1,5 @@
 # Conectar con servidores
+<!-- id: conectar-con-servidores -->
 
 Permite configurar si Digi3D.AI se conectará con el servidor que haya bloqueado un archivo de dibujo, para obtener sus modificaciones en tiempo real.
 

@@ -1,4 +1,5 @@
 # LIMITE\_0
+<!-- id: limite-0 -->
 
 Desactiva una zona de trabajo, establecida como límite por la orden LIMITE\_1.
 

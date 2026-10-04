@@ -1,4 +1,5 @@
 # Selecciona llave
+<!-- id: selecciona-llave -->
 
 Este programa permite especificar con qué llave de protección debe conectarse un programa en particular.
 

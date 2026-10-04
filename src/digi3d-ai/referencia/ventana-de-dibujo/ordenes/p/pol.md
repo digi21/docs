@@ -1,4 +1,5 @@
 # POL
+<!-- id: pol -->
 
 Dibuja un polígono.
 

@@ -1,4 +1,5 @@
 # ANADE\_CODIGOS\_ACTIVOS\_Y\_CENTROIDE
+<!-- id: anade-codigos-activos-y-centroide -->
 
 Añade los códigos activos a las entidades que forman el contorno de los recintos seleccionados en la topología temporal y, opcionalmente, inserta un centroide en el recinto.
 

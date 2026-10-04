@@ -1,4 +1,5 @@
 # CORTAR\_E
+<!-- id: cortar-e -->
 
 Corta o descompone un elemento en otros dos.
 

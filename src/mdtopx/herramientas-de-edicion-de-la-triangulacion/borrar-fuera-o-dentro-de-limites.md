@@ -1,4 +1,5 @@
 # Borrar fuera o dentro de límites
+<!-- id: borrar-fuera-o-dentro-de-limites -->
 
 [Editar Archivo](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-archivo.md)
 

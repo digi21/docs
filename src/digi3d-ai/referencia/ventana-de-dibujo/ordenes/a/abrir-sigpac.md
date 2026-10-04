@@ -1,4 +1,5 @@
 # ABRIR\_SIGPAC
+<!-- id: abrir-sigpac -->
 
 Solicita un punto y abre una ventana del visor de SIGPAC en las coordenadas de ese punto.
 

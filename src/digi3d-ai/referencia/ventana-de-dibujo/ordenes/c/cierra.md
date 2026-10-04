@@ -1,4 +1,5 @@
 # CIERRA
+<!-- id: cierra -->
 
 Cierra una entidad ya existente en el fichero de dibujo.
 

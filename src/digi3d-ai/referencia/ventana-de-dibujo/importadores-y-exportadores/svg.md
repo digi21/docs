@@ -1,4 +1,5 @@
 # Archivos Scalable Vector Graphics
+<!-- id: svg -->
 
 Importador y exportador de **Archivos Scalable Vector Graphics**.
 

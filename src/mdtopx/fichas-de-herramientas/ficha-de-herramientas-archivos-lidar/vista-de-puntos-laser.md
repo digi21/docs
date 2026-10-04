@@ -1,4 +1,5 @@
 # Vista de puntos láser
+<!-- id: vista-de-puntos-laser -->
 
 [Ficha de herramientas Láser](../ficha-de-herramientas-puntos-lidar/)
 

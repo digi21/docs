@@ -1,4 +1,5 @@
 # R\_TEXTO
+<!-- id: r-texto -->
 
 Rota un texto ya existente en el archivo de dibujo.
 

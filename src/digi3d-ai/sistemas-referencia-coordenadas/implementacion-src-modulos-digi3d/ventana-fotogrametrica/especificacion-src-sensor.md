@@ -1,4 +1,5 @@
 # Especificación del Sistema de Referencia de Coordenadas del Sensor
+<!-- id: especificacion-src-sensor -->
 
 Todos los sensores tienen asociado un sistema de referencia de coordenadas. Algunos tienen un sistema de referencia de coordenadas fijo y otros lo tienen variable.
 

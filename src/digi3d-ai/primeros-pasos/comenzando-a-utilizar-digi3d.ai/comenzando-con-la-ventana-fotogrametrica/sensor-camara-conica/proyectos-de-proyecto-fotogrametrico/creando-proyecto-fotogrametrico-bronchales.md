@@ -1,4 +1,5 @@
 # Creando un proyecto fotogramétrico para Bronchales
+<!-- id: creando-proyecto-fotogrametrico-bronchales -->
 
 El cuadro de diálogo [Cuadro de diálogo Crear proyecto fotogramétrico](/digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md) permite crear tanto archivos de _proyecto fotogramétrico_ como archivos de proyecto [.d3d](creando-proyecto-fotogrametrico-bronchales.md).
 

@@ -1,4 +1,5 @@
 # La geometría tiene errores pero se pueden solventar automáticamente sustituyéndola por otra
+<!-- id: la-geometria-tiene-errores-pero-se-pueden-solventar-automaticamente-sustituyendola-por-otr -->
 
 El guion puede convertir la geometría en otra completamente distinta como en el siguiente ejemplo que devuelve un punto si la geometría a almacenar es una línea:
 

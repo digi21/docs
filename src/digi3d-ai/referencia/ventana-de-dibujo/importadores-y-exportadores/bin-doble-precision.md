@@ -1,4 +1,5 @@
 # Archivos Digi de doble precisión
+<!-- id: bin-doble-precision -->
 
 Importador y exportador de **Archivos Digi de doble precisión**.
 

@@ -1,4 +1,5 @@
 # MODO\_STREAM
+<!-- id: modo-stream -->
 
 Activa o desactiva el modo de digitalización continuo (*stream*) de la ventana fotogramétrica. Con el modo activo, al pulsar el botón o pedal de dato se empiezan a enviar coordenadas de forma continua hasta que se vuelve a pulsar.
 

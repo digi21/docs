@@ -1,4 +1,5 @@
 # Referencias
+<!-- id: referencias -->
 
 Permite especificar los ensamblados de referencia a incluir a la hora de compilar los [guiones de control de calidad](../../pestanas/codigos/propiedades-del-codigo.md#guion) que se pueden asignar a cada código.
 

@@ -1,4 +1,5 @@
 # Panel Propiedades Documento TIN
+<!-- id: panel-propiedades-documento-tin -->
 
 [Panel Propiedades](/mdtopx/introduccion/paneles-de-la-aplicacion/panel-propiedades/)
 

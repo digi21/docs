@@ -1,4 +1,5 @@
 # Según intensidad
+<!-- id: segun-intensidad -->
 
 [Ficha de herramientas Puntos LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-puntos-lidar/)
 

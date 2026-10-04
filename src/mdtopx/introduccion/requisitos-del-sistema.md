@@ -1,4 +1,5 @@
 # Requisitos del sistema
+<!-- id: requisitos-del-sistema -->
 
 MDTopX se ejecuta sobre el sistema operativo Microsoft Windows \(Vista, 7, 8, 10 u 11) en 32 o 64 bits.
 

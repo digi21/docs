@@ -1,4 +1,5 @@
 # TRIM\_LADO
+<!-- id: trim-lado -->
 
 Recorta múltiples entidades, seleccionando primero la línea de límite y luego digitalizando un punto a un lado.
 

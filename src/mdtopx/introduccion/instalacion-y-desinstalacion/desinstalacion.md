@@ -1,4 +1,5 @@
 # Desinstalación
+<!-- id: desinstalacion -->
 
 Para desinstalar MDTopX, utilice la herramienta Agregar o quitar programas disponible en el Panel de control de Windows, de la siguiente manera:
 

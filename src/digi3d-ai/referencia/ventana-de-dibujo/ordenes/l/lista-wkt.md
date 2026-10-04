@@ -1,4 +1,5 @@
 # LISTA\_WKT
+<!-- id: lista-wkt -->
 
 Lista la geometría seleccionada en formato WKT.
 

@@ -1,4 +1,5 @@
 # Panel imágenes de fondo
+<!-- id: panel-imagenes-de-fondo -->
 
 [Paneles de la aplicación](/mdtopx/introduccion/paneles-de-la-aplicacion/)
 

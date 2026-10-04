@@ -1,4 +1,5 @@
 # Tema
+<!-- id: tema -->
 
 Permite configurar el tema visual del programa.
 

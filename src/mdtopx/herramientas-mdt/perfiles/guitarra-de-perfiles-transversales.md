@@ -1,4 +1,5 @@
 # Guitarra de perfiles transversales
+<!-- id: guitarra-de-perfiles-transversales -->
 
 [Cuadro de diálogo Perfiles transversales](perfiles-transversales.md)
 

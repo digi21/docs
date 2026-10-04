@@ -1,4 +1,5 @@
 # AJUSTA\_LIMITES\_ARCHIVOS\_DIBUJO
+<!-- id: ajusta-limites-archivos-dibujo -->
 
 Agrupa e inserta por tolerancia vértices en las líneas de case entre límites de modelos moviendo los vértices de las geometrías que llegan a esos vértices modificados.
 

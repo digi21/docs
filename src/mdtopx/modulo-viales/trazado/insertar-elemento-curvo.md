@@ -1,4 +1,5 @@
 # Insertar elemento curvo
+<!-- id: insertar-elemento-curvo -->
 
 [Ficha de herramientas Trazado](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-trazado.md)
 

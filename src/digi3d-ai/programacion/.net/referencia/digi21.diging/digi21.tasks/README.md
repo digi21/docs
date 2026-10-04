@@ -1,4 +1,5 @@
 # Digi21.Tasks
+<!-- id: digi21.tasks -->
 
 Este espacio de nombres proporciona tipos relacionados con tareas, resultados y progresos.
 

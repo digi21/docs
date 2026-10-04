@@ -1,4 +1,5 @@
 # ACOTA\_H\_AUTOMATICA
+<!-- id: acota-h-automatica -->
 
 Si el sensor activo lo admite, proyecta una línea hacia abajo y hacia arriba y acota la intersección de esta línea con el modelo.
 

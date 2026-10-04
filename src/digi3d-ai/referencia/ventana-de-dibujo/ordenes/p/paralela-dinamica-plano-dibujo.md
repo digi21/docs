@@ -1,4 +1,5 @@
 # PARALELA\_DINAMICA\_PLANO\_DIBUJO
+<!-- id: paralela-dinamica-plano-dibujo -->
 
 Realiza una paralela dinámica en el plano que tenga la ventana de dibujo.
 

@@ -1,4 +1,5 @@
 # ¿Cómo
+<!-- id: como -->
 
 * [Triangular](como-triangulacion.md)
 * [Curvar](como-curvado.md)

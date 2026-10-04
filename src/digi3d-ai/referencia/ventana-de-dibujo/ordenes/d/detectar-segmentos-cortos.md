@@ -1,4 +1,5 @@
 # DETECTAR\_SEGMENTOS\_CORTOS
+<!-- id: detectar-segmentos-cortos -->
 
 Detecta líneas y polígonos con segmentos de longitud inferior al valor especificado.
 

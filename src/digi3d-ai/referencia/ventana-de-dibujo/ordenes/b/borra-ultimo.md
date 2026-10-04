@@ -1,4 +1,5 @@
 # BORRA\_ULTIMO
+<!-- id: borra-ultimo -->
 
 Borra la última entidad registrada en el fichero de dibujo.
 

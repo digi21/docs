@@ -1,4 +1,5 @@
 # Cuadro de herramientas
+<!-- id: cuadro-de-herramientas-2 -->
 
 ![Editor de tablas de códigos mostrando la pestaña Cuadro de herramientas](../../../../images/pestanacuadroherramientas.png)
 

@@ -1,4 +1,5 @@
 # CAMB\_COD
+<!-- id: camb-cod -->
 
 Cambia el código asignado a un elemento gráfico.
 

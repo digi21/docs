@@ -1,4 +1,5 @@
 # TRIANGULAR\_LINEAS\_EXCEPTO\_PUNTOS\_CON\_CODIGO
+<!-- id: triangular-lineas-excepto-puntos-con-codigo -->
 
 Calcula una triangulación exceptuando aquellos nodos a los que lleguen una línea con un determinado código.
 

@@ -1,4 +1,5 @@
 # Ortofoto estereoscópica
+<!-- id: ortofoto-estereoscopica-2 -->
 
 Configura el sensor [Ortofoto estereoscópica](/digi3d-ai/referencia/ventana-fotogrametrica/sensores/ortofoto-estereoscopica.md).
 

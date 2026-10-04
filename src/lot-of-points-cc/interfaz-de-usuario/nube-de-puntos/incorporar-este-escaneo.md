@@ -1,4 +1,5 @@
 # Incorporar este escaneo
+<!-- id: incorporar-este-escaneo -->
 
 Al pulsar el botón Incorporar este escaneo se añadirán los puntos de este escaneo al archivo base de manera que, si se escanease exactamente este archivo otra vez, todos los puntos tendrían una distancia 0.
 

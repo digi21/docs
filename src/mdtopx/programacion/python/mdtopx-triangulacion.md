@@ -1,4 +1,5 @@
 # Triangulación y volúmenes
+<!-- id: mdtopx-triangulacion -->
 
 Funciones del paquete [`mdtopx`](mdtopx.md) para generar mallas a partir de puntos y calcular
 volúmenes.

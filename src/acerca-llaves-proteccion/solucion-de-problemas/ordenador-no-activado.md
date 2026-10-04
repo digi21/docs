@@ -1,4 +1,5 @@
 # Ordenador no activado
+<!-- id: ordenador-no-activado -->
 
 Este mensaje tiene tres posibles causas:
 

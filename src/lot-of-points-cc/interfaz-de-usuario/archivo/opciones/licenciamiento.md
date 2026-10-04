@@ -1,4 +1,5 @@
 # Licenciamiento
+<!-- id: licenciamiento -->
 
 En esta sección de la configuración se configuran los parámetros de la licencia del producto.
 

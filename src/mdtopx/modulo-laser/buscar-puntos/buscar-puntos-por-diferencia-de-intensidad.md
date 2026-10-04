@@ -1,4 +1,5 @@
 # Buscar puntos por diferencia de intensidad
+<!-- id: buscar-puntos-por-diferencia-de-intensidad -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

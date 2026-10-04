@@ -1,4 +1,5 @@
 # RECORTA\_TRAZA
+<!-- id: recorta-traza -->
 
 Crea una serie de hojas al estilo de la orden [HOJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/h/hoja.md).
 

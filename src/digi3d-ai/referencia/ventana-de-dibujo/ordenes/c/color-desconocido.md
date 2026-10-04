@@ -1,4 +1,5 @@
 # COLOR\_DESCONOCIDO
+<!-- id: color-desconocido -->
 
 Establece el color con el que se dibujan las entidades cuyo código es desconocido.
 

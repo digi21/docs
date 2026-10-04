@@ -1,4 +1,5 @@
 # COPIA\_ATRIBUTO\_BBDD\_ENTIDAD\_EN\_ENTIDAD
+<!-- id: copia-atributo-bbdd-entidad-en-entidad -->
 
 Copia el valor de un campo de la base de datos de una entidad en un campo de otra entidad.
 

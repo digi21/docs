@@ -1,4 +1,5 @@
 # PONE\_ALTURA
+<!-- id: pone-altura -->
 
 Coloca un texto con el valor de la diferencia en altura entre dos puntos que registrará el usuario.
 

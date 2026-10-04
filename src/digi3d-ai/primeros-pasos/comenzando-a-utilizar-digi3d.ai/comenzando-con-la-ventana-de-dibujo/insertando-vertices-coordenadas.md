@@ -1,4 +1,5 @@
 # Insertando vértices en coordenadas conocidas
+<!-- id: insertando-vertices-coordenadas -->
 
 Inserta vértices en coordenadas conocidas siguiendo los siguientes pasos:
 

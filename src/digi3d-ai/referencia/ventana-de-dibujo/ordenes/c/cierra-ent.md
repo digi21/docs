@@ -1,4 +1,5 @@
 # CIERRA\_ENT
+<!-- id: cierra-ent -->
 
 Cierra la línea que se está ejecutando y la finaliza.
 

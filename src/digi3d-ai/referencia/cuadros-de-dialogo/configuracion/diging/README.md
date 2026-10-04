@@ -1,4 +1,5 @@
 # DigiNG
+<!-- id: diging -->
 
 Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
 

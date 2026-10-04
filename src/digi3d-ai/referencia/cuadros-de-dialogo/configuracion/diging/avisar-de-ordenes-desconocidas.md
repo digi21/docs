@@ -1,4 +1,5 @@
 # Avisar de órdenes desconocidas
+<!-- id: avisar-de-ordenes-desconocidas -->
 
 Indica si Digi3D.AI escribe un aviso en la [ventana de resultados](../../../paneles/resultados.md) cuando se ejecuta una orden que no existe.
 

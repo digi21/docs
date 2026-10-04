@@ -1,4 +1,5 @@
 # CONTINUAR\_LINEA
+<!-- id: continuar-linea -->
 
 Continúa una determinada línea seleccionada.
 

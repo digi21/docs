@@ -1,4 +1,5 @@
 # Memorizar parámetros
+<!-- id: memorizar-parametros -->
 
 Si se activa, se memorizan parámetros como las coordenadas, el nivel de zoom, etc., para recuperarlos la próxima vez que se cargue el modelo.
 

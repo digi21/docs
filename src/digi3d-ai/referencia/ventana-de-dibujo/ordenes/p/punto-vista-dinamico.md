@@ -1,4 +1,5 @@
 # PUNTO\_VISTA\_DINAMICO
+<!-- id: punto-vista-dinamico -->
 
 Permite girar dinámicamente el punto de vista de la ventana ortográfica mediante una esfera de rotación.
 

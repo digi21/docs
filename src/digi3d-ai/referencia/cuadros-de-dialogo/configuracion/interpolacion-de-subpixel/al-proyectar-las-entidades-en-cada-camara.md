@@ -1,4 +1,5 @@
 # Al proyectar las entidades en cada cámara
+<!-- id: al-proyectar-las-entidades-en-cada-camara -->
 
 Si el sensor admite trabajar con interpolación de subpixel, indica si se utiliza al proyectar las entidades en cada cámara.
 

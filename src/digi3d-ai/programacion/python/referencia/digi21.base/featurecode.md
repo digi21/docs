@@ -1,4 +1,5 @@
 # FeatureCode
+<!-- id: featurecode -->
 
 Módulo: [digi21.base](README.md)
 

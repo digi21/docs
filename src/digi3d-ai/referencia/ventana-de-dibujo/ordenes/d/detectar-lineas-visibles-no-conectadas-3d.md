@@ -1,4 +1,5 @@
 # DETECTAR\_LINEAS\_VISIBLES\_NO\_CONECTADAS\_3D
+<!-- id: detectar-lineas-visibles-no-conectadas-3d -->
 
 Crea una tarea de error por cada extremo de línea visible que no esté conectado en 3D.
 

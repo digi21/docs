@@ -1,4 +1,5 @@
 # VER\_SOLO\_ENTIDADES\_SELECCIONADAS
+<!-- id: ver-solo-entidades-seleccionadas -->
 
 Oculta todas las entidades excepto las seleccionadas.
 

@@ -1,4 +1,5 @@
 # XY
+<!-- id: xy -->
 
 Introduce las coordenadas de uno o varios puntos.
 

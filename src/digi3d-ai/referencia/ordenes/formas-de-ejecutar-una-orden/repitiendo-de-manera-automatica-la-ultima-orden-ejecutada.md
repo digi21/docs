@@ -1,4 +1,5 @@
 # Repitiendo de manera automática la última orden ejecutada
+<!-- id: repitiendo-de-manera-automatica-la-ultima-orden-ejecutada -->
 
 Si tenemos configurada la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) la orden activa.
 

@@ -1,4 +1,5 @@
 # Alto Busqueda x4
+<!-- id: alto-busqueda-x4 -->
 
 Indica el alto de la ventana de búsqueda al correlar un punto en el nivel piramidal x4.
 

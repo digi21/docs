@@ -1,4 +1,5 @@
 # Ayuda dinámica
+<!-- id: ayuda-dinamica -->
 
 ![Panel Ayuda dinámica](../../../images/ayudadinamica.png)
 

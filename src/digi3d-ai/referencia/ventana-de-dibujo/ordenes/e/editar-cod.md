@@ -1,4 +1,5 @@
 # EDITAR\_COD
+<!-- id: editar-cod -->
 
 Edita los códigos de la entidad seleccionada.
 

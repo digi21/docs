@@ -1,4 +1,5 @@
 # EXT\_M
+<!-- id: ext-m -->
 
 Estira o recorta un grupo de entidades hasta que interseccionen con otra entidad dada.
 

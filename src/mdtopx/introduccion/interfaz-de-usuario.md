@@ -1,4 +1,5 @@
 # Interfaz de usuario
+<!-- id: interfaz-de-usuario -->
 
 ![Interfaz de usuario de MDTopX](../../images/interfaz-de-usuario-1.jpg)
 

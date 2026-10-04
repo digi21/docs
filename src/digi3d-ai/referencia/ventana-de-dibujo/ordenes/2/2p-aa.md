@@ -1,4 +1,5 @@
 # 2P_AA
+<!-- id: 2p-aa -->
 
 Dibuja un rectángulo girado.
 

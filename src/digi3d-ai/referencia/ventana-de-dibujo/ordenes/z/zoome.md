@@ -1,4 +1,5 @@
 # ZOOME
+<!-- id: zoome -->
 
 Realiza un zoom extendido.
 

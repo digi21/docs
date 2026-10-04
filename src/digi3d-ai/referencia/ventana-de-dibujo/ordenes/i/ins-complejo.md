@@ -1,4 +1,5 @@
 # INS\_COMPLEJO
+<!-- id: ins-complejo -->
 
 Inserta el contenido de un archivo de dibujo como un único elemento complejo puntual.
 

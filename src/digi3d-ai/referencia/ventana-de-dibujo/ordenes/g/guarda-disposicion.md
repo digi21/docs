@@ -1,4 +1,5 @@
 # GUARDA\_DISPOSICION
+<!-- id: guarda-disposicion -->
 
 Guarda la disposición de ventanas y visualización del archivo de dibujo de DigiNG.
 

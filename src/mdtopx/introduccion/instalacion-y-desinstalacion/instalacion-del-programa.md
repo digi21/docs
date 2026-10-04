@@ -1,4 +1,5 @@
 # Instalación del programa
+<!-- id: instalacion-del-programa -->
 
 En esta sección se describe cómo instalar MDTopX en el disco duro e iniciar la aplicación. Antes de comenzar, se deberá comprobar que se cumplen los requisitos mínimos indicados en los [Requisitos del sistema](/mdtopx/introduccion/requisitos-del-sistema.md).
 

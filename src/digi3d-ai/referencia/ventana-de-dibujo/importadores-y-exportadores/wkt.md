@@ -1,4 +1,5 @@
 # Archivos Well Known Text
+<!-- id: wkt -->
 
 Importador y exportador de **Archivos Well Known Text**.
 

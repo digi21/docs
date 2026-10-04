@@ -1,4 +1,5 @@
 # ON\_EXPRESIÓN\_PYTHON
+<!-- id: on-expresion-python -->
 
 Activa la visualización de geometrías que devuelvan verdadero en la [expresión Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros.
 

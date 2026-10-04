@@ -1,4 +1,5 @@
 # DETECTAR\_SOLAPES\_TOPOLOGIAS
+<!-- id: detectar-solapes-topologias -->
 
 Marca como error solapes entre polígonos de una topología contra las seleccionadas en un listado de topologías cargadas.
 

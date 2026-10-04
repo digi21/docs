@@ -1,4 +1,5 @@
 # Ejecutar una orden desde la línea de comandos
+<!-- id: ejecutar-una-orden-desde-la-linea-de-comandos -->
 
 Para ejecutar una orden desde la línea de comandos, tan solo tendremos que pulsar **Enter** y el programa nos mostrará en la barra de mensajes una ventana para introducir el nombre de la orden a ejecutar.
 

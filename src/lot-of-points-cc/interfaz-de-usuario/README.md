@@ -1,4 +1,5 @@
 # Interfaz de usuario
+<!-- id: interfaz-de-usuario-2 -->
 
 El programa dispone de una barra de herramientas denominada Ribbon que permite interactuar con el programa.
 

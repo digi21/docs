@@ -1,4 +1,5 @@
 # CEBRA
+<!-- id: cebra -->
 
 Facilita el dibujo de pasos de cebra.
 

@@ -1,4 +1,5 @@
 # Ejemplos de controles de calidad
+<!-- id: ejemplos-3 -->
 
 En el repositorio de GitHub
 [**Guiones-Control-Calidad-Python-Digi3D**](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D)

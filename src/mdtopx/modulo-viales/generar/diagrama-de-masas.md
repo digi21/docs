@@ -1,4 +1,5 @@
 # Diagrama de masas
+<!-- id: diagrama-de-masas -->
 
 [Viales Generar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-viales/viales-generar.md)
 

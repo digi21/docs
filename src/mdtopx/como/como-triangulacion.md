@@ -1,4 +1,5 @@
 # Triangulación
+<!-- id: como-triangulacion -->
 
 [Ficha de Herramientas MDT](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-mdt/)
 

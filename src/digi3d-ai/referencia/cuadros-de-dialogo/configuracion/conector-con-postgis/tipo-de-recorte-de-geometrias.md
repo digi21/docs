@@ -1,4 +1,5 @@
 # Tipo de recorte de geometrías
+<!-- id: tipo-de-recorte-de-geometrias -->
 
 Indica si las geometrías que devuelve el servidor PostGIS se recortan a la ventana de la región de interés y dónde se hace el recorte.
 

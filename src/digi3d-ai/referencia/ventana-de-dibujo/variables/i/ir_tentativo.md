@@ -1,4 +1,5 @@
 # IR\_TENTATIVO
+<!-- id: ir-tentativo -->
 
 Indica si, al tentativar \(enganchar el cursor\) sobre una entidad, el restituidor se desplaza a las coordenadas tentativadas.
 

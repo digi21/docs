@@ -1,4 +1,5 @@
 # Puntos medidos
+<!-- id: puntos-medidos -->
 
 Configura cómo se almacenan y se representan los puntos medidos (puntos de apoyo y de aerotriangulación).
 

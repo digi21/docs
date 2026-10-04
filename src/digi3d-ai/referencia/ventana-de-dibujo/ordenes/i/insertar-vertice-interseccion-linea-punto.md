@@ -1,4 +1,5 @@
 # INSERTAR\_VERTICE\_INTERSECCION\_LINEA\_PUNTO
+<!-- id: insertar-vertice-interseccion-linea-punto -->
 
 Inserta un vértice en la intersección de líneas con puntos
 

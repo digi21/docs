@@ -1,4 +1,5 @@
 # ZOOM\_ANTERIOR
+<!-- id: zoom-anterior -->
 
 Restaura la vista que tenía la ventana de dibujo antes del último cambio de vista.
 

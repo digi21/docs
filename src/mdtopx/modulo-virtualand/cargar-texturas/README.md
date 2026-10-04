@@ -1,4 +1,5 @@
 # Cargar texturas
+<!-- id: cargar-texturas -->
 
 [VirtuaLand Cargar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-cargar.md)
 

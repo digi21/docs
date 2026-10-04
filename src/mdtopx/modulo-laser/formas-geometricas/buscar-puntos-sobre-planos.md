@@ -1,4 +1,5 @@
 # Buscar puntos sobre planos
+<!-- id: buscar-puntos-sobre-planos -->
 
 [Buscar formas geométricas](./)
 

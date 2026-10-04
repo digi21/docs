@@ -1,4 +1,5 @@
 # ZOOMP
+<!-- id: zoomp -->
 
 Permite hacer un centrado del dibujo en el punto que escoja el operador.
 

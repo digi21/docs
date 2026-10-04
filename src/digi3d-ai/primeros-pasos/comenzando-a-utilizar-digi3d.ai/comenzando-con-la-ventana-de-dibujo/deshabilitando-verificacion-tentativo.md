@@ -1,4 +1,5 @@
 # Deshabilitando la verificación de tentativo
+<!-- id: deshabilitando-verificacion-tentativo -->
 
 Aprende a deshabilitar la verificación de tentativo siguiendo los siguientes pasos:
 

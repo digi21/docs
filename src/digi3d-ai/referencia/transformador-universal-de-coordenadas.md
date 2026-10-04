@@ -1,4 +1,5 @@
 # Transformador Universal de Coordenadas (sustituido por Reproject)
+<!-- id: transformador-universal-de-coordenadas -->
 
 El programa Transformador Universal de Coordenadas se ha sustituido por **Reproject**.
 

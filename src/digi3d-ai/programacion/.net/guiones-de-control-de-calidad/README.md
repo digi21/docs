@@ -1,4 +1,5 @@
 # Guiones de control de calidad
+<!-- id: guiones-de-control-de-calidad -->
 
 Digi3D.AI dispone de un menú denominado **Control de Calidad** que permite habilitar la característica de analizar el control de calidad de las geometrías justo antes de ser almacenadas o que permite analizar el control de calidad de geometrías ya existentes.
 

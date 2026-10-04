@@ -1,4 +1,5 @@
 # Configurar rayo
+<!-- id: configurar-rayo -->
 
 [Cuadro de diálogo Sombreado](./)
 

@@ -1,4 +1,5 @@
 # Proyectar solo geometrías que solapan con modelo (BETA)
+<!-- id: proyectar-solo-geometrias-que-solapan-con-modelo -->
 
 Si se habilita, únicamente se proyectarán las geometrías que solapen con las máximas y mínimas del modelo fotogramétrico.
 

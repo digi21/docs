@@ -1,4 +1,5 @@
 # Comunicación con Internet
+<!-- id: comunicacion-con-internet -->
 
 Configura los parámetros que requieren comunicación con Internet, así como el servidor _PROXY_ en caso de disponer de uno.
 

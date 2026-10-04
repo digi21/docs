@@ -1,4 +1,5 @@
 # Mostrar el campo Rotación
+<!-- id: mostrar-el-campo-rotacion -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Rotación**.
 

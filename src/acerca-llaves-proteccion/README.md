@@ -1,4 +1,5 @@
 # Acerca de las llaves de protección
+<!-- id: acerca-llaves-proteccion -->
 
 Todos nuestros programas requieren de una llave de protección. En estas llaves de protección almacenamos las licencias de los productos que has comprado, alquilado o para los cuales has solicitado una demostración.
 

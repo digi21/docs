@@ -1,4 +1,5 @@
 # VER\_SOLO\_CÓDIGOS\_ENTIDAD\_SELECCIONADA
+<!-- id: var-solo-codigos-entidad-seleccionada -->
 
 Deja activos en pantalla solamente los códigos de la entidad seleccionada, apagando el resto.
 

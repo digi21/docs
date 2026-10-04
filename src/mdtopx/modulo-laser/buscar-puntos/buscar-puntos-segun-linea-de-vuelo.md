@@ -1,4 +1,5 @@
 # Buscar puntos según línea de vuelo
+<!-- id: buscar-puntos-segun-linea-de-vuelo -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

@@ -1,4 +1,5 @@
 # Archivos Datawarehouse de Geomedia
+<!-- id: geomedia -->
 
 Importador y exportador de **Archivos Datawarehouse de Geomedia**.
 

@@ -1,4 +1,5 @@
 # Limitar el zoom máximo
+<!-- id: limitar-el-zoom-maximo -->
 
 Permite indicar si la ventana de dibujo tendrá una limitación a la hora de hacer zoom.
 

@@ -1,4 +1,5 @@
 # Módulos de Digi3D.AI que tienen asignado su propio sistema de referencia de coordenadas
+<!-- id: implementacion-src-modulos-digi3d -->
 
 Digi3D.AI está formado por varios módulos que interaccionan entre sí: por un lado tiene el interfaz de usuario \(menús, barras de herramientas\), por otro lado tiene ventanas \(ventanas fotogramétricas y ventanas de dibujo\), tiene también sensores \(_ADS40/80, cónico, satelital_\), archivos de dibujo \(._bind, .bin, .shp_, ...\), archivos de configuración \(de teclas, de tablas de códigos...\)
 

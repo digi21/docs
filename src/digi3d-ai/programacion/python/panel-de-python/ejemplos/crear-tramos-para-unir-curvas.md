@@ -1,4 +1,5 @@
 # Unir curvas de nivel cercanas
+<!-- id: crear-tramos-para-unir-curvas -->
 
 Archivo: `crear_tramos_para_unir_curvas.py` · guion para el [panel de Guiones Python](../README.md).
 Hay un [vídeo](https://youtu.be/9NV45QXFFvg) que lo explica.

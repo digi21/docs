@@ -1,4 +1,5 @@
 # ZOOMIZQ
+<!-- id: zoomizq -->
 
 Permite una visualización selectiva del dibujo hacia la izquierda.
 

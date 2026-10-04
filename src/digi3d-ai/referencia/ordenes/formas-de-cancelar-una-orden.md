@@ -1,4 +1,5 @@
 # Formas de cancelar una orden
+<!-- id: formas-de-cancelar-una-orden -->
 
 Podemos cancelar la orden que se está ejecutando de las siguientes maneras:
 

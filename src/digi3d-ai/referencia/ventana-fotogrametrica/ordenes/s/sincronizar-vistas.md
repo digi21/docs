@@ -1,4 +1,5 @@
 # SINCRONIZAR\_VISTAS
+<!-- id: sincronizar-vistas -->
 
 Ésta orden es de utilidad al tener abiertas varias vistas estereoscópicas.  
 Con la sincronización activada, las coordenadas de los índices se sincronizan en todas las vistas, de forma que todas muestran la misma zona.

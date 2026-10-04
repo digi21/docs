@@ -1,4 +1,5 @@
 # SELECCIONA\_INDICE
+<!-- id: selecciona-indice -->
 
 Permite seleccionar una entidad mediante su índice de registro.
 

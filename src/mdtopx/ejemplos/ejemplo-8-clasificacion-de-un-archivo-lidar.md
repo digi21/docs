@@ -1,4 +1,5 @@
 # Ejemplo 8: Clasificación de un archivo LiDAR
+<!-- id: ejemplo-8-clasificacion-de-un-archivo-lidar -->
 
 [Ejemplos](/mdtopx/ejemplos/)
 

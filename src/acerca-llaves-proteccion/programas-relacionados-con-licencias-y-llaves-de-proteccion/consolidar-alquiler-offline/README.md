@@ -1,4 +1,5 @@
 # Consolidar alquiler Offline
+<!-- id: consolidar-alquiler-offline -->
 
 Este programa permite programar en una llave de protección los alquileres adquiridos en ordenadores sin conexión a internet.
 

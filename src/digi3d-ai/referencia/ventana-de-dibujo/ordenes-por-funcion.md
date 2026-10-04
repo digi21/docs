@@ -1,4 +1,5 @@
 # Órdenes por función
+<!-- id: ordenes-por-funcion -->
 
 Esta página agrupa las órdenes de la ventana de dibujo por la función que realizan. Los grupos siguen los menús de la ventana de dibujo. Las órdenes que no tienen opción de menú están en el grupo que corresponde a lo que hacen.
 

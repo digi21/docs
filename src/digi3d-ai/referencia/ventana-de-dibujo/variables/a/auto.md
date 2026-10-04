@@ -1,4 +1,5 @@
 # AUTO
+<!-- id: auto -->
 
 Activa o desactiva el autocentrado de la ventana de dibujo cuando el dispositivo de entrada es la ventana fotogramétrica.
 

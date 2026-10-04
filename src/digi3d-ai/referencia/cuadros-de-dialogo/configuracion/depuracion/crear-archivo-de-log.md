@@ -1,4 +1,5 @@
 # Crear archivo de LOG
+<!-- id: crear-archivo-de-log -->
 
 Permite configurar si Digi3D.AI generará un archivo de LOG en el que se irán almacenando las operaciones que realiza el programa.
 

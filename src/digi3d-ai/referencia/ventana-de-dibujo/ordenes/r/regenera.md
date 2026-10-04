@@ -1,4 +1,5 @@
 # REGENERA
+<!-- id: regenera -->
 
 Regenera la pantalla, actualizando la visualización del fichero de dibujo.
 

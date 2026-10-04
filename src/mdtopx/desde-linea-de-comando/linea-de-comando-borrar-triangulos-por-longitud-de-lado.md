@@ -1,4 +1,5 @@
 # Borrar triángulos por longitud de lado
+<!-- id: linea-de-comando-borrar-triangulos-por-longitud-de-lado -->
 
 [Borrar triángulos por longitud de lado](/mdtopx/desde-linea-de-comando/linea-de-comando-borrar-triangulos-por-longitud-de-lado.md)
 

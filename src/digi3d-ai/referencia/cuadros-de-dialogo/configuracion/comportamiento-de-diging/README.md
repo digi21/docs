@@ -1,4 +1,5 @@
 # Comportamiento de DigiNG
+<!-- id: comportamiento-de-diging -->
 
 Configura aspectos del comportamiento de DigiNG.
 

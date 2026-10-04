@@ -1,4 +1,5 @@
 # Barra de mensajes al tentativar y panel de tentativos
+<!-- id: barra-mensajes-al-tentativar -->
 
 Conoce la barra de mensajes al tentativar y el panel de tentativos:
 

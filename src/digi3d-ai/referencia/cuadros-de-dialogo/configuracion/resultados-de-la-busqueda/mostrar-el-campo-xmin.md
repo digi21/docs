@@ -1,4 +1,5 @@
 # Mostrar el campo Xmin
+<!-- id: mostrar-el-campo-xmin -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Xmin**.
 

@@ -1,4 +1,5 @@
 # Información adicional de línea
+<!-- id: informacion-adicional-de-linea -->
 
 [Información de línea](/mdtopx/otras-herramientas/editar-elementos/informacion-de-linea.md)
 

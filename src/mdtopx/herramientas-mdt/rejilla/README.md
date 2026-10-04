@@ -1,4 +1,5 @@
 # Rejilla
+<!-- id: rejilla -->
 
 [Rejilla](/mdtopx/desde-linea-de-comando/linea-de-comando-rejilla.md)
 

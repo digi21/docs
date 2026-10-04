@@ -1,4 +1,5 @@
 # ON\_SOLO\_EXPRESIÓN\_PYTHON
+<!-- id: on-solo-expresion-python -->
 
 Activa la visualización únicamente de las geometrías que devuelvan verdadero en la [expresión Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) pasada por parámetros.
 

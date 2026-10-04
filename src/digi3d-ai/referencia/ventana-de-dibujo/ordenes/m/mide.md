@@ -1,4 +1,5 @@
 # MIDE
+<!-- id: mide -->
 
 Calcula y presenta por pantalla la distancia entre dos puntos.
 

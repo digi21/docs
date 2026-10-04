@@ -1,4 +1,5 @@
 # FICHERO\_DIBUJO
+<!-- id: fichero-dibujo -->
 
 Especifica al sistema el fichero de dibujo con el cual se va a trabajar, entre los archivos de referencia cargados con la orden [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md).
 

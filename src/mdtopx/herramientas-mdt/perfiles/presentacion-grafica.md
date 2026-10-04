@@ -1,4 +1,5 @@
 # Presentación gráfica
+<!-- id: presentacion-grafica -->
 
 ![Cuadro de diálogo Presentación gráfica](../../../images/image-55.png)
 

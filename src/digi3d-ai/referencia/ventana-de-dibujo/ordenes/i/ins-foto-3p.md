@@ -1,4 +1,5 @@
 # INS\_FOTO\_3P
+<!-- id: ins-foto-3p -->
 
 Inserta una imagen en el archivo de dibujo mediante tres puntos.
 

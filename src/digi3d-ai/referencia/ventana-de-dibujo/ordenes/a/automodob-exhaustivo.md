@@ -1,4 +1,5 @@
 # AUTOMODOB\_EXHAUSTIVO
+<!-- id: automodob-exhaustivo -->
 
 Activa o desactiva el modo de búsqueda exhaustivo. Este modo evita que hagas tentativo en una entidad cuyo código no esté especificado en la tabla de búsqueda.
 

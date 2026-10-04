@@ -1,4 +1,5 @@
 # Consumo de memoria bajo demanda
+<!-- id: consumo-de-memoria-bajo-demanda -->
 
 Si se activa, la memoria se solicita a medida que se va cargando la imagen. Esto puede mejorar el uso de memoria, pero puede ralentizar el cambio rápido de modelos.
 

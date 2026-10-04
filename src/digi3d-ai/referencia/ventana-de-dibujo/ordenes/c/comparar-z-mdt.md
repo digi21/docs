@@ -1,4 +1,5 @@
 # COMPARAR\_Z\_MDT
+<!-- id: comparar-z-mdt -->
 
 Compara la coordenada Z de los vértices de las entidades con la Z del modelo digital del terreno cargado y añade al panel de tareas las entidades en las que la diferencia supera una tolerancia.
 

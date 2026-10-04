@@ -1,4 +1,5 @@
 # Propiedades Documento Láser
+<!-- id: propiedades-documento-laser -->
 
 [Vista de puntos láser](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/vista-de-puntos-laser.md)
 

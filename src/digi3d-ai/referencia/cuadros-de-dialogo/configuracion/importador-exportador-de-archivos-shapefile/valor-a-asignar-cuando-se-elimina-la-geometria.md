@@ -1,4 +1,5 @@
 # Valor a asignar cuando se elimina la geometría
+<!-- id: valor-a-asignar-cuando-se-elimina-la-geometria -->
 
 Indica el valor que se almacena en el [campo de marca de eliminado](campo-en-el-que-almacenar-marca-de-eliminado.md) al eliminar una geometría.
 

@@ -1,4 +1,5 @@
 # SpaceMouse
+<!-- id: spacemouse -->
 
 En esta sección de la configuración se configuran los parámetros del dispositivo SpaceMouse.
 

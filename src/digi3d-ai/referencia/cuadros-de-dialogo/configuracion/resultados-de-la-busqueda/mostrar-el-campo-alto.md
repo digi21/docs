@@ -1,4 +1,5 @@
 # Mostrar el campo Alto
+<!-- id: mostrar-el-campo-alto -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Alto**.
 

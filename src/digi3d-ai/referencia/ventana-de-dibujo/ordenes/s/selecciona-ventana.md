@@ -1,4 +1,5 @@
 # SELECCIONA\_VENTANA
+<!-- id: selecciona-ventana -->
 
 Permite digitalizar una nueva ventana y selecciona todas las entidades que solapan con la ventana.
 

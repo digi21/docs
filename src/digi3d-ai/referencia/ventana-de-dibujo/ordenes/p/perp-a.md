@@ -1,4 +1,5 @@
 # PERP\_A
+<!-- id: perp-a -->
 
 Dibuja segmentos perpendiculares a una entidad dada.
 

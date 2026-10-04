@@ -1,4 +1,5 @@
 # Mostrar solo modelos cargados
+<!-- id: mostrar-solo-modelos-cargados -->
 
 Si se activa, el panel de proyecto fotogramétrico mostrará únicamente los modelos que ha podido cargar.
 

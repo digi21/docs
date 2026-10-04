@@ -1,4 +1,5 @@
 # Permitir seleccionar códigos inexistentes
+<!-- id: permitir-seleccionar-codigos-inexistentes -->
 
 Indica si se le permitirá al usuario seleccionar como código activo un código que no exista en la tabla de códigos.
 

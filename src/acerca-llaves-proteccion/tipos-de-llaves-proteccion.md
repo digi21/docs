@@ -1,4 +1,5 @@
 # Tipos de llaves de protección
+<!-- id: tipos-de-llaves-proteccion -->
 
 Existen dos tipos de llaves de protección: Por _hardware_ y por _software_. Cada una tiene sus ventajas con respecto a la otra.
 

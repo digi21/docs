@@ -1,4 +1,5 @@
 # Arcos y circunferencias
+<!-- id: arcos-y-circunferencias -->
 
 Configura cómo se generan los arcos y las circunferencias.
 

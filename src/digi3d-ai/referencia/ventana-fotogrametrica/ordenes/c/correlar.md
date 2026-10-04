@@ -1,4 +1,5 @@
 # CORRELAR
+<!-- id: correlar -->
 
 Permite que el restituidor se pose en Z buscando el punto homólogo al punto sobre el cual esta centrado el cursor en la imagen izquierda.
 

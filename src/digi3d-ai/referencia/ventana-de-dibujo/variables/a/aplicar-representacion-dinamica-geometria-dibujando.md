@@ -1,4 +1,5 @@
 # APLICAR\_REPRESENTACION\_DINAMICA\_GEOMETRIA\_DIBUJANDO
+<!-- id: aplicar-representacion-dinamica-geometria-dibujando -->
 
 Si se habilita, se aplicarán las representaciones dinámicas a la geometría que se está dibujando.
 

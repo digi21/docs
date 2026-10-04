@@ -1,4 +1,5 @@
 # EQUIDISTANCIA
+<!-- id: equidistancia -->
 
 Establece el valor de la equidistancia de curvas de nivel.
 

@@ -1,4 +1,5 @@
 # Archivos GeoJSON
+<!-- id: geojson -->
 
 Exportador de **Archivos GeoJSON**.
 

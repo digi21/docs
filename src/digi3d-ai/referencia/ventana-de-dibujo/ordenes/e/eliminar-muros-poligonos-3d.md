@@ -1,4 +1,5 @@
 # ELIMINAR\_MUROS\_POLIGONOS\_3D
+<!-- id: eliminar-muros-poligonos-3d -->
 
 Analiza polígonos creados mediante topologías 3D y elimina muros que superen un determinado alto.
 

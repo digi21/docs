@@ -1,4 +1,5 @@
 # Ficha de herramientas Puntos LiDAR
+<!-- id: ficha-de-herramientas-puntos-lidar -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

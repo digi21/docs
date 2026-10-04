@@ -1,4 +1,5 @@
 # Opciones
+<!-- id: opciones-2 -->
 
 Al pulsar el botón Archivo, se nos muestra una ventana con las opciones de configuración del programa donde modelos configurar los siguientes aspectos:
 

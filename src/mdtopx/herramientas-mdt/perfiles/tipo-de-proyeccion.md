@@ -1,4 +1,5 @@
 # Tipo de proyección
+<!-- id: tipo-de-proyeccion -->
 
 ![Cuadro de diálogo Tipo de proyección sobre MDT](../../../images/image-54.png)
 

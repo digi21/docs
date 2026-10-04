@@ -1,4 +1,5 @@
 # TRAMAR
+<!-- id: tramar -->
 
 Trama el interior de una entidad superficial de contorno cerrado.
 

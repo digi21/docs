@@ -1,4 +1,5 @@
 # Valor que indica que la geometría NO está eliminada
+<!-- id: valor-que-indica-que-la-geometria-no-esta-eliminada -->
 
 Indica el valor del [campo de marca de eliminado](campo-en-el-que-almacenar-marca-de-eliminado.md) que identifica una geometría no eliminada.
 

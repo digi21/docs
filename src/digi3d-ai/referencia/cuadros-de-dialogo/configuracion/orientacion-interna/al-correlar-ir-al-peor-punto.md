@@ -1,4 +1,5 @@
 # Al correlar ir al peor punto
+<!-- id: al-correlar-ir-al-peor-punto -->
 
 Indica si, al finalizar el proceso de correlación, la vista estereoscópica se desplaza al punto con peores residuos.
 

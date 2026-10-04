@@ -1,4 +1,5 @@
 # Reset vacía la pila de órdenes
+<!-- id: reset-vacia-la-pila-de-ordenes -->
 
 Si se habilita, al pulsar el botón de RESET se anulan todas las órdenes de la pila de órdenes, en vez de solo la orden activa.
 

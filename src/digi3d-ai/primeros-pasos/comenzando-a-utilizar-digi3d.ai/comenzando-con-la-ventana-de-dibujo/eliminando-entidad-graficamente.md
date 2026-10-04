@@ -1,4 +1,5 @@
 # Eliminando una entidad gráficamente y primera selección
+<!-- id: eliminando-entidad-graficamente -->
 
 Elimina entidades siguiendo estos pasos:
 

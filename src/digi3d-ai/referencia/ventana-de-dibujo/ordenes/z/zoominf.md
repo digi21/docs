@@ -1,4 +1,5 @@
 # ZOOMINF
+<!-- id: zoominf -->
 
 Permite una visualización selectiva del dibujo hacia abajo.
 

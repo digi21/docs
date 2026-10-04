@@ -1,4 +1,5 @@
 # Resultados de la búsqueda 1 y 2
+<!-- id: resultados-de-la-busqueda-1-y-2 -->
 
 ![Panel Resultados de la búsqueda](../../../images/panelresultadosdelabusqueda.png)
 

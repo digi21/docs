@@ -1,4 +1,5 @@
 # ONSOLO
+<!-- id: onsolo -->
 
 Activa únicamente los códigos especificados en la ventana de dibujo y en la ventana fotogramétrica.
 

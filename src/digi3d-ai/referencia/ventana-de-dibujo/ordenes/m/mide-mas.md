@@ -1,4 +1,5 @@
 # MIDE+
+<!-- id: mide-mas -->
 
 Calcula el perímetro en el plano, el perímetro en el espacio y el área de la polilínea que forman un conjunto de vértices.
 

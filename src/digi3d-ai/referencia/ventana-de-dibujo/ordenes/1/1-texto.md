@@ -1,4 +1,5 @@
 # 1TEXTO
+<!-- id: 1-texto -->
 
 Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\) una única vez independientemente del estado del conmutador [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md).
 

@@ -1,4 +1,5 @@
 # Ficha de herramientas Edificios
+<!-- id: ficha-de-herramientas-edificios -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

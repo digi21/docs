@@ -1,4 +1,5 @@
 # TOL\_ANG
+<!-- id: tol-ang-2 -->
 
 Establece el _factor de tolerancia angular_ en el proceso de [generalización](tol-ang.md).
 

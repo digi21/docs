@@ -1,4 +1,5 @@
 # Digitalizando elementos ortogonales a un ángulo determinado
+<!-- id: digitalizando-elementos-ortofonales-angulo -->
 
 Aprende a **digitalizar elementos ortogonales a un ángulo determinado** siguiendo los siguientes pasos:
 

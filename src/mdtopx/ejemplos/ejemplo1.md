@@ -1,4 +1,5 @@
 # Ejemplo 1: Curvado a partir de una nube de puntos
+<!-- id: ejemplo1 -->
 
 [Ejemplos](/mdtopx/ejemplos/)
 

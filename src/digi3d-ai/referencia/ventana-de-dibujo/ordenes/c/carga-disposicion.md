@@ -1,4 +1,5 @@
 # CARGA\_DISPOSICION
+<!-- id: carga-disposicion -->
 
 Carga una disposición previamente guardada de ventanas y visualización en DigiNG.
 

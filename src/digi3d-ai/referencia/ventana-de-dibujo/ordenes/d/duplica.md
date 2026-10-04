@@ -1,4 +1,5 @@
 # DUPLICA
+<!-- id: duplica -->
 
 Duplica una entidad respetando su código.
 

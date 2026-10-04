@@ -1,4 +1,5 @@
 # PARALELA\_DINÁMICA
+<!-- id: paralela-dinamica -->
 
 Dibuja una línea paralela a una entidad a la distancia que especifique el operador, nos irá mostrando cómo queda la paralela según movemos el cursor.
 

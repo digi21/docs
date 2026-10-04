@@ -1,4 +1,5 @@
 # Digi21.DigiNG
+<!-- id: digi21.diging-2 -->
 
 Proporciona tipos para interactuar con la ventana de dibujo de Digi3D.AI.
 

@@ -1,4 +1,5 @@
 # RECTANGULO\_DR
+<!-- id: rectangulo-dr -->
 
 Digitaliza un rectángulo con las dimensiones especificadas permitiendo rotarlo.
 

@@ -1,4 +1,5 @@
 # Mostrar campo Sistema de referencia de coordenadas
+<!-- id: mostrar-campo-sistema-de-referencia-de-coordenadas -->
 
 Si se activa, muestra la opción **Sistema de referencia de coordenadas** en la pestaña **Archivo de dibujo** del cuadro de diálogo **Nuevo proyecto**.
 

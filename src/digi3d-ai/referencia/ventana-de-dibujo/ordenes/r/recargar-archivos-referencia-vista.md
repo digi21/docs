@@ -1,4 +1,5 @@
 # RECARGAR\_ARCHIVOS\_REFERENCIA\_VISTA
+<!-- id: recargar-archivos-referencia-vista -->
 
 Recarga los archivos de referencia que admiten región de interés para con las entidades que solapan con la vista actual.
 

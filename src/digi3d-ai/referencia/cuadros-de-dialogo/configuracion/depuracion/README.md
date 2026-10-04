@@ -1,4 +1,5 @@
 # Depuración
+<!-- id: depuracion -->
 
 Genera archivos de depuración que permiten detectar problemas.
 

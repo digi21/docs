@@ -1,4 +1,5 @@
 # Asistente con IA
+<!-- id: asistente-ia -->
 
 El **panel de chat con IA** permite pedir a un asistente de inteligencia artificial, **en lenguaje
 natural**, que consulte y modifique el dibujo activo. Escribe lo que necesitas —por ejemplo *«haz un

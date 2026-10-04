@@ -1,4 +1,5 @@
 # Buscar objetos en el trazado
+<!-- id: buscar-objetos-en-el-trazado -->
 
 [Ficha de herramientas MMS Trazado](./)
 

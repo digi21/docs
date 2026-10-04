@@ -1,4 +1,5 @@
 # COPIAR\_CENTROIDE\_I
+<!-- id: copiar-centroide-i -->
 
 Copia el centroide de un recinto de la topología temporal en otros recintos que no tienen centroide.
 

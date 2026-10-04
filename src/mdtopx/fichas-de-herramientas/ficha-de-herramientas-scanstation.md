@@ -1,4 +1,5 @@
 # Ficha de herramientas ScanStation
+<!-- id: ficha-de-herramientas-scanstation -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

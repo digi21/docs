@@ -1,4 +1,5 @@
 # Información de elemento de proyecto
+<!-- id: informacion-de-elemento-de-proyecto -->
 
 [Panel Proyecto](/mdtopx/introduccion/paneles-de-la-aplicacion/panel-proyecto.md)
 

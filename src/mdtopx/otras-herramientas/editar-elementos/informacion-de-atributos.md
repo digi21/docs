@@ -1,4 +1,5 @@
 # Información de atributos
+<!-- id: informacion-de-atributos -->
 
 [Elementos](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)
 

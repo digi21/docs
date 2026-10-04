@@ -1,4 +1,5 @@
 # DETECTAR\_CRUCE\_LINEAS
+<!-- id: detectar-cruce-lineas -->
 
 Crea una tarea de error por cada intersección de líneas detectada por código.
 

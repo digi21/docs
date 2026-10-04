@@ -1,4 +1,5 @@
 # Ficha de herramientas Editar
+<!-- id: ficha-de-herramientas-editar -->
 
 [Cinta de herramientas](/mdtopx/cinta-de-herramientas/)
 

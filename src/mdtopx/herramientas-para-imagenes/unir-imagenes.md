@@ -1,4 +1,5 @@
 # Unir imágenes
+<!-- id: unir-imagenes -->
 
 [Calcular](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/imagen-calcular.md)
 

@@ -1,4 +1,5 @@
 # TECLA
+<!-- id: tecla -->
 
 Asigna órdenes de Digi3D.AI a pulsaciones de teclas en el teclado virtual activo.
 

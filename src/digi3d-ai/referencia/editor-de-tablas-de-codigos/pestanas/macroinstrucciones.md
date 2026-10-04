@@ -1,4 +1,5 @@
 # Macroinstrucciones
+<!-- id: macroinstrucciones-3 -->
 
 Esta pestaña permite añadir [macroinstrucciones](macroinstrucciones.md)a la tabla de códigos.
 

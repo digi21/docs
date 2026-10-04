@@ -1,4 +1,5 @@
 # CAMB\_MAXPUNTOS
+<!-- id: camb-maxpuntos -->
 
 Divide las entidades lineales, con un número de vértices superior al especificado, en varios tramos con menor número de vértices.
 

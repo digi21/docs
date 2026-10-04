@@ -1,4 +1,5 @@
 # GUARDAR\_TABLA\_CODIGOS
+<!-- id: guardar-tabla-codigos -->
 
 Guarda en un archivo la tabla de códigos activa.
 

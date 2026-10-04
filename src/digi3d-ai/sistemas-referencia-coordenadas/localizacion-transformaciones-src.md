@@ -1,4 +1,5 @@
 # Localización de transformaciones entre distintos sistemas de referencia de coordenadas
+<!-- id: localizacion-transformaciones-src -->
 
 Digi3D.AI en ocasiones tiene que transformar coordenadas entre distintos sistemas de referencia de coordenadas. Para poder realizar esta operación, necesita localizar una _transformación matemática_ entre ambos sistemas.
 

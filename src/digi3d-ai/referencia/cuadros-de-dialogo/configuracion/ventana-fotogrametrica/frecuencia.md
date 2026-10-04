@@ -1,4 +1,5 @@
 # Frecuencia
+<!-- id: frecuencia -->
 
 Indica la frecuencia, en Hz, que se seleccionará para el [monitor indicado](monitor-a-cambiar-la-resolucion.md).
 

@@ -1,4 +1,5 @@
 # Tipo de marca
+<!-- id: tipo-de-marca -->
 
 Indica la marca que se muestra sobre los vértices de las entidades seleccionadas.
 

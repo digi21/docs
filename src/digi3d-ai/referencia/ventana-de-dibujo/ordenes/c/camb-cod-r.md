@@ -1,4 +1,5 @@
 # CAMB\_COD\_R
+<!-- id: camb-cod-r -->
 
 Cambia el código por recinto topológico.
 

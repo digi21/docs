@@ -1,4 +1,5 @@
 # Panel Proyecto
+<!-- id: panel-proyecto -->
 
 [Paneles de la aplicación](/mdtopx/introduccion/paneles-de-la-aplicacion/)
 

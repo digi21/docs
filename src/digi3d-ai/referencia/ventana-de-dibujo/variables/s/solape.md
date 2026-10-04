@@ -1,4 +1,5 @@
 # SOLAPE
+<!-- id: solape -->
 
 Establece el valor del porcentaje de solape de la ventana.
 

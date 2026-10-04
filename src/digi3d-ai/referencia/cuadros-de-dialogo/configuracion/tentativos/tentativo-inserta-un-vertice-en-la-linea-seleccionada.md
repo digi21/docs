@@ -1,4 +1,5 @@
 # Tentativo inserta un vértice en la línea seleccionada
+<!-- id: tentativo-inserta-un-vertice-en-la-linea-seleccionada -->
 
 Indica cuándo un tentativo inserta un vértice en la línea seleccionada. Solo tiene efecto si la variable [TENTATIVO\_INSERTA](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tentativo-inserta.md) está activada.
 

@@ -1,4 +1,5 @@
 # Transformar
+<!-- id: transformar -->
 
 [Ficha de herramientas Imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/)
 

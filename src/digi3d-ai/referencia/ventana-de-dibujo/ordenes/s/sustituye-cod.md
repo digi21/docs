@@ -1,4 +1,5 @@
 # SUSTITUYE\_COD
+<!-- id: sustituye-cod -->
 
 Sustituye los códigos de la entidad seleccionada por los activos.
 

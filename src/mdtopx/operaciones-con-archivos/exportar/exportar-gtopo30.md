@@ -1,4 +1,5 @@
 # Exportar GTOPO30
+<!-- id: exportar-gtopo30 -->
 
 El programa permite exportar el modelo digital generado al formato GTOPO30 del USGS. Para ello presenta el explorador de Windows para indicar nombre de archivo y carpeta y dos campos especificando características del modelo digital: La separación de la malla y la unidad de la cota de los puntos:
 

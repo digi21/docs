@@ -1,4 +1,5 @@
 # Estereoscopía
+<!-- id: estereoscopia -->
 
 Indica el método utilizado para mostrar la estereoscopía.
 

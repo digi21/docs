@@ -1,4 +1,5 @@
 # DETECTAR\_ERRORES\_CONTINUIDAD\_LINEAS\_CASES
+<!-- id: detectar-errores-continuidad-lineas-cases -->
 
 Detecta errores de continuidad en líneas que finalizan en el límite de dos modelos y que no continuan en el siguiente modelo.
 

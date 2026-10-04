@@ -1,4 +1,5 @@
 # Intérprete incluido, pip y entornos virtuales
+<!-- id: pip-y-entornos-virtuales -->
 
 Digi3D.AI **incluye su propio intérprete de Python 3.12 (x64)**. No necesitas instalar Python
 en el sistema: al instalar el programa se despliega, en la carpeta de la aplicación, un

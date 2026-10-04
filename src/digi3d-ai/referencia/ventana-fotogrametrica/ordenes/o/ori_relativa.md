@@ -1,4 +1,5 @@
 # ORI\_RELATIVA
+<!-- id: ori-relativa -->
 
 Realiza la **Orientación Relativa** de la imagen derecha del par estereoscópico cargado en la ventana fotogramétrica.
 

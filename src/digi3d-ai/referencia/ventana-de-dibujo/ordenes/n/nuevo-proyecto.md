@@ -1,4 +1,5 @@
 # NUEVO\_PROYECTO
+<!-- id: nuevo-proyecto -->
 
 Muestra el cuadro de diálogo para abrir un modelo fotogramétrico o un archivo de dibujo.
 

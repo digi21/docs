@@ -1,4 +1,5 @@
 # Añadir topología
+<!-- id: anadir-topologia -->
 
 ![Cuadro de diálogo Añadir Topología](../../../../../images/cuadrodialogoanadirtopologia.png)
 

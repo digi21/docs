@@ -1,4 +1,5 @@
 # Archivos AutoCAD DWG
+<!-- id: dwg -->
 
 Importador y exportador de **Archivos AutoCAD DWG**.
 

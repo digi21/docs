@@ -1,4 +1,5 @@
 # Presentación de las barras de herramientas básicas
+<!-- id: barras-herramientas-basicas -->
 
 Al ejecutar **Digi3D.AI** te aparecerán visibles todas las **Barras de herramientas**, para seleccionar las barras de herramientas básicas, sigue los siguientes pasos:
 

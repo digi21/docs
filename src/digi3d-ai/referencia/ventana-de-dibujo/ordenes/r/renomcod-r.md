@@ -1,4 +1,5 @@
 # RENOMCOD\_R
+<!-- id: renomcod-r -->
 
 Renombra códigos por recinto topológico.
 

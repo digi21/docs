@@ -1,4 +1,5 @@
 # Proyección sobre la nube de puntos
+<!-- id: proyeccion-sobre-la-nube-de-puntos -->
 
 [Generar a partir de LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/calcular-a-partir-de-lidar.md)
 

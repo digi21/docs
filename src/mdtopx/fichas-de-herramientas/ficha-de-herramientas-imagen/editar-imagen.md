@@ -1,4 +1,5 @@
 # Editar imagen
+<!-- id: editar-imagen -->
 
 [Ficha de herramientas Imagen](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/)
 

@@ -1,4 +1,5 @@
 # BLOQUE
+<!-- id: bloque -->
 
 Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán ser insertadas posteriormente en cualquier dibujo.
 

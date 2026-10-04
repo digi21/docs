@@ -1,4 +1,5 @@
 # Borrar el enlace a base de datos
+<!-- id: borra-atr -->
 
 Archivo: `borra_atr.py` · guion para el [panel de Guiones Python](../README.md).
 

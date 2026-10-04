@@ -1,4 +1,5 @@
 # Zoom extendido
+<!-- id: zoom-extendido -->
 
 Indica la acción que realiza la orden Zoom extendido (REST_ZOOME).
 

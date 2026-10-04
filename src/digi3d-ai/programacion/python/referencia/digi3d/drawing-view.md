@@ -1,4 +1,5 @@
 # DrawingView
+<!-- id: drawing-view -->
 
 Módulo: `digi3d`
 

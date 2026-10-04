@@ -1,4 +1,5 @@
 # OFFS\_TIPO
+<!-- id: offs-tipo -->
 
 Desactiva códigos en la pantalla fotogramétrica.
 

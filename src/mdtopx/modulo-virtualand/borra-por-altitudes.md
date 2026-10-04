@@ -1,4 +1,5 @@
 # Borra por altitudes
+<!-- id: borra-por-altitudes -->
 
 [VirtuaLand Editar](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-editar.md)
 

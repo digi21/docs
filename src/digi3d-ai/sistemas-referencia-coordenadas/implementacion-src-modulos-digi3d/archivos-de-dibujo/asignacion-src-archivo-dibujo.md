@@ -1,4 +1,5 @@
 # Asignación del Sistema de Referencia de Coordenadas a un archivo de dibujo
+<!-- id: asignacion-src-archivo-dibujo -->
 
 Hasta ahora, si cargábamos un proyecto que no proporcionaba Sistema de Referencia de Coordenadas, Digi3D.AI asignaba de forma automática a los modelos cargados un Sistema Local (desconocido).
 

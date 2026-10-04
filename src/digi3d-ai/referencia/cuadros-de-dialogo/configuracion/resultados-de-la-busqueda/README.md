@@ -1,4 +1,5 @@
 # Resultados de la búsqueda
+<!-- id: resultados-de-la-busqueda -->
 
 Configura el comportamiento del panel Resultados de la búsqueda y qué campos (columnas) muestra.
 

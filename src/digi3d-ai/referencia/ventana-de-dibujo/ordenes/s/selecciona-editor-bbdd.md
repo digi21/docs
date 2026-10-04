@@ -1,4 +1,5 @@
 # SELECCIONA\_EDITOR\_BBDD
+<!-- id: selecciona-editor-bbdd -->
 
 Selecciona en el dibujo las entidades enlazadas a los registros que estén seleccionados en un editor de base de datos.
 

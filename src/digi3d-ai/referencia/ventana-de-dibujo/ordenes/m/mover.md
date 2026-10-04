@@ -1,4 +1,5 @@
 # MOVER
+<!-- id: mover -->
 
 Cambia la posición de una o varias entidades en X, Y y Z.
 

@@ -1,4 +1,5 @@
 # CUADROS
+<!-- id: cuadros -->
 
 Traza segmentos tanto paralelos como perpendiculares a la base.
 

@@ -1,4 +1,5 @@
 # Cónico
+<!-- id: camara-conica-2 -->
 
 El sensor Cónico permite trabajar con modelos fotogramétricos obtenidos con cámaras métricas o cónicas (fotogrametría aérea y terrestre clásica): orientación interna, relativa y absoluta, medida de aerotriangulación, etc.
 

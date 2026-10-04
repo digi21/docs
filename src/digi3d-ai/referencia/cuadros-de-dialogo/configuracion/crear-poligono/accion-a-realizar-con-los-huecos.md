@@ -1,4 +1,5 @@
 # Acción a realizar con los huecos
+<!-- id: accion-a-realizar-con-los-huecos -->
 
 Indica qué se hace con las líneas que forman los huecos al crear un polígono con la orden [CREAR\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-poligono.md).
 

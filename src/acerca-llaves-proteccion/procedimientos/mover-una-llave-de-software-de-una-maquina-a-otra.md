@@ -1,4 +1,5 @@
 # Mover una llave de software de una máquina a otra
+<!-- id: mover-una-llave-de-software-de-una-maquina-a-otra -->
 
 Las llaves de protección **por software** se pueden mover de un equipo a otro mediante el programa [ActualizarLlaveLDK.exe](http://digi21.blob.core.windows.net/download/ActualizarLlaveLDK.exe).
 

@@ -1,4 +1,5 @@
 # Importadores y exportadores
+<!-- id: importadores-y-exportadores -->
 
 Digi3D.AI lee y escribe distintos formatos de archivo mediante **importadores y exportadores**. Cada uno declara qué puede hacer:
 

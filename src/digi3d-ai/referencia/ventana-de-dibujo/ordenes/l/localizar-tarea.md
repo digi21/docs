@@ -1,4 +1,5 @@
 # LOCALIZAR\_TAREA
+<!-- id: localizar-tarea -->
 
 Esta orden solicita al usuario que digitalize un punto y se localiza y selecciona la tarea que hubiera en ese punto (si es que había alguna).
 

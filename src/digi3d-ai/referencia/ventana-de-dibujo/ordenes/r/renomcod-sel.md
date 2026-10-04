@@ -1,4 +1,5 @@
 # RENOMCOD\_SEL
+<!-- id: renomcod-sel -->
 
 Cambia el código correspondiente otro código a las entidades seleccionadas.
 

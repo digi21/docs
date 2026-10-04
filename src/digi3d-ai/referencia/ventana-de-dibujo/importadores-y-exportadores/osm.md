@@ -1,4 +1,5 @@
 # OpenStreetMap (OSM)
+<!-- id: osm -->
 
 Importador de **OpenStreetMap (OSM)**.
 

@@ -1,4 +1,5 @@
 # Primeros pasos usuarios versiones anteriores
+<!-- id: primeros-pasos-usuarios-versiones-anteriores -->
 
 Si eres usuario de versiones anteriores de Digi3D.AI, aquí encontrarás información de gran utilidad con respecto a los cambios que nos hemos visto obligados a realizar en esta versión.
 

@@ -1,4 +1,5 @@
 # PhotoScan
+<!-- id: photoscan-2 -->
 
 Configura el importador de orientaciones de Agisoft PhotoScan/Metashape.
 

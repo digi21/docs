@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Cameras
+<!-- id: digi21.diging.cameras -->
 
 Proporciona tipos relacionados con la cámara en la ventana de dibujo.
 

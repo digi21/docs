@@ -1,4 +1,5 @@
 # BAJA\_Z
+<!-- id: baja-z -->
 
 Baja la Z del cursor en una cuantía igual a la [equidistancia](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) de curvas que se tenga establecida.
 

@@ -1,4 +1,5 @@
 # ESCALERA\_DA
+<!-- id: escalera-da -->
 
 Dibuja una escalera en el espacio, especificando el ancho de los peldaños.
 

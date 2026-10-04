@@ -1,4 +1,5 @@
 # Digi21.DigiNG.Plugin.Databases
+<!-- id: digi21.diging.plugin.databases -->
 
 Proporciona tipos para implementar extensiones que publiquen proveedores de propiedades dinámicas de base de datos en la ventana de dibujo de Digi3D.AI.
 

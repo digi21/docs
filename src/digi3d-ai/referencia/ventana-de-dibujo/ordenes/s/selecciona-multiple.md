@@ -1,4 +1,5 @@
 # SELECCIONA\_MULTIPLE
+<!-- id: selecciona-multiple -->
 
 Permite seleccionar y deseleccionar múltiples entidades.
 

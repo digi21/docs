@@ -1,4 +1,5 @@
 # UNIR
+<!-- id: unir -->
 
 Une dos entidades lineales que has de seleccionar, generando un único elemento de dibujo.
 

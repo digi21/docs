@@ -1,4 +1,5 @@
 # Escaneado Auto
+<!-- id: escaneado-auto -->
 
 [Ficha de herramientas ScanStation](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-scanstation.md)
 

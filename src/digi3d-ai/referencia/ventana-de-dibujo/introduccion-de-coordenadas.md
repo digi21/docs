@@ -1,4 +1,5 @@
 # Introducción de coordenadas
+<!-- id: introduccion-de-coordenadas -->
 
 La mayoría de [órdenes interactivas](../ordenes/ordenes-interactivas.md) solicitan al usuario que digitalize uno o varios puntos.
 

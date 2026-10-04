@@ -1,4 +1,5 @@
 # Copia de seguridad con API CopyFile
+<!-- id: copia-de-seguridad-con-api-copyfile -->
 
 Indica si la copia de seguridad se realizará copiando el archivo mediante la API CopyFile de Windows, o generando un archivo nuevo y clonando las entidades una por una.
 

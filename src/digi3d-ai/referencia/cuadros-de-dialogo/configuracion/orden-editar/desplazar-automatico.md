@@ -1,4 +1,5 @@
 # Desplazar automático
+<!-- id: desplazar-automatico -->
 
 Indica si el cursor se desplaza automáticamente al vértice siguiente \(o al anterior\) al pulsar el botón de Dato durante la edición de vértices.
 

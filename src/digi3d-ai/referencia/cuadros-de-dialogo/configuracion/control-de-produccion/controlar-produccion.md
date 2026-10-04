@@ -1,4 +1,5 @@
 # Controlar producción
+<!-- id: controlar-produccion -->
 
 Indica si este equipo controlará la producción.
 

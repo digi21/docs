@@ -1,4 +1,5 @@
 # Atributos Activos
+<!-- id: atributos-activos -->
 
 
 ![Panel Atributos Activos con algunos atributos](../../../images/PanelAtributosActivos.png)

@@ -1,4 +1,5 @@
 # Digi21.DigiNG.DigiTab
+<!-- id: digi21.diging.digitab -->
 
 Proporciona tipos relacionados con tablas de códigos.
 

@@ -1,4 +1,5 @@
 # Ventana Fotogramétrica
+<!-- id: ventana-fotogrametrica -->
 
 ## Resúmen de la operativa de la ventana fotogramétrica
 

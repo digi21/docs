@@ -1,4 +1,5 @@
 # TRIANGULAR
+<!-- id: triangular -->
 
 Calcula la triangulación de un Modelo Digital del Terreno \(MDT\) a partir de las geometrías de la ventana de dibujo.
 

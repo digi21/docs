@@ -1,4 +1,5 @@
 # Mostrar el campo Ancho
+<!-- id: mostrar-el-campo-ancho -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Ancho**.
 

@@ -1,4 +1,5 @@
 # Circunferencias
+<!-- id: circunferencias -->
 
 ![Barra de herramientas Circunferencias](../../../images/circunferencias.png)
 

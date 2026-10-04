@@ -1,4 +1,5 @@
 # Resultados de plano calculado
+<!-- id: resultados-de-plano-calculado -->
 
 [Cuadro de diálogo Calcular Plano](calcular-plano.md)
 

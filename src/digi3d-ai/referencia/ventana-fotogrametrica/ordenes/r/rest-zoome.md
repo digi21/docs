@@ -1,4 +1,5 @@
 # REST\_ZOOME
+<!-- id: rest-zoome -->
 
 Hace un Zoom extendido de las imágenes que se visualizan en la pantalla estereoscópica.
 

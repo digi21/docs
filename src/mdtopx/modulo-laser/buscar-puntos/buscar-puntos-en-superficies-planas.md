@@ -1,4 +1,5 @@
 # Buscar puntos en Superficies Planas
+<!-- id: buscar-puntos-en-superficies-planas -->
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 

@@ -1,4 +1,5 @@
 # Proyecto fotogramétrico
+<!-- id: proyecto-fotogrametrico-2 -->
 
 Configura el comportamiento del panel de proyecto fotogramétrico.
 

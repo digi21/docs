@@ -1,4 +1,5 @@
 # Nombre a mostrar
+<!-- id: nombre-a-mostrar -->
 
 Indica qué texto se utilizará como nombre de los campos de la base de datos.
 

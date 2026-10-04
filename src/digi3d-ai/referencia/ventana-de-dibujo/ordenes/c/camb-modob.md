@@ -1,4 +1,5 @@
 # CAMB\_MODOB
+<!-- id: camb-modob -->
 
 Establece el modo de búsqueda o enganche gráfico a elementos del dibujo.
 

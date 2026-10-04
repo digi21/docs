@@ -1,4 +1,5 @@
 # Aceptar tentativos al pulsar dato
+<!-- id: aceptar-tentativos-al-pulsar-dato -->
 
 Indica en qué momento se acepta un tentativo cuando no hay ninguna orden en ejecución o cuando la orden en ejecución es [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md).
 

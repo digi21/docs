@@ -1,4 +1,5 @@
 # P
+<!-- id: p-3 -->
 
 Dibuja una paralela a una entidad lineal, automáticamente cuando se termina de registrar la entidad.
 

@@ -1,4 +1,5 @@
 # Teclados
+<!-- id: teclados -->
 
 ![Barra de herramientas Teclados](../../../images/barraherramientasteclas.png)
 

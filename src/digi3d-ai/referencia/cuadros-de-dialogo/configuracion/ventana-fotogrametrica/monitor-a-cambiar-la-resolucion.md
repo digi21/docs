@@ -1,4 +1,5 @@
 # Monitor a cambiar la resolución
+<!-- id: monitor-a-cambiar-la-resolucion -->
 
 Indica la pantalla cuya resolución se cambiará al cargar una vista estereoscópica.
 

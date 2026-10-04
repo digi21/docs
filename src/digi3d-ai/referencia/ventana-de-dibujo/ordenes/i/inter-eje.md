@@ -1,4 +1,5 @@
 # INTER\_EJE
+<!-- id: inter-eje -->
 
 Interpola una entidad entre otras dos seleccionadas por el usuario.
 

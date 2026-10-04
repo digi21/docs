@@ -1,4 +1,5 @@
 # Comprar una llave de hardware
+<!-- id: comprar-llave-hardware -->
 
 Si has decidido comprar una llave de hardware, sigue las siguientes instrucciones:
 

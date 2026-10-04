@@ -1,4 +1,5 @@
 # DETECTAR\_LINEAS\_NO\_CONECTADAS
+<!-- id: detectar-lineas-no-conectadas -->
 
 Crea una tarea de error por cada extremo de línea que no esté conectado por código con otra entidad.
 

@@ -1,4 +1,5 @@
 # Finalización de polilínea
+<!-- id: finalizacion-de-polilinea -->
 
 ![Barra de herramientas Finalización de polilínea](../../../images/finalizacionpolilinea.png)
 

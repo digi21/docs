@@ -1,4 +1,5 @@
 # Creación de un guion de control de calidad
+<!-- id: creacion-de-un-guion-de-control-de-calidad -->
 
 Los controles de calidad son guiones que se asignan en el campo [Guion](../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#guion) de los códigos en una tabla de códigos.
 

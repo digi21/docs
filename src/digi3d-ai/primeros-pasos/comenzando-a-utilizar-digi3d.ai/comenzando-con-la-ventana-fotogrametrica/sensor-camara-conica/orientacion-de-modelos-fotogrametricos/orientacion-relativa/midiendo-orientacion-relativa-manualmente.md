@@ -1,4 +1,5 @@
 # Midiendo la orientación relativa manualmente
+<!-- id: midiendo-orientacion-relativa-manualmente -->
 
 El proceso de medir la orientación relativa consiste en medir puntos homólogos en ambas imágenes. Mediremos un punto en la imagen izquierda y a continuación el punto homólogo en la imagen derecha. Repetiremos este proceso varias veces y al final tendremos realizada la orientación relativa.
 

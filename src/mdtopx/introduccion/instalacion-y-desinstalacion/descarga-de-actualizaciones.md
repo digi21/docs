@@ -1,4 +1,5 @@
 # Descarga de actualizaciones
+<!-- id: descarga-de-actualizaciones -->
 
 El equipo de desarrollo de Digi21.net pone a disposición de sus usuarios versiones periódicas de sus programas con nuevas herramientas que pueden ser descargadas desde su página web.
 

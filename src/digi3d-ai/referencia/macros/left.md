@@ -1,4 +1,5 @@
 # Left
+<!-- id: left -->
 
 Devuelve los _Cantidad_ primeros caracteres de la macro sobre la que se ejecuta esta función.
 

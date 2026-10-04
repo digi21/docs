@@ -1,4 +1,5 @@
 # Nuevo proyecto
+<!-- id: nuevo-proyecto-2 -->
 
 Este cuadro de diálogo permite cargar un modelo fotogramétrico en la ventana fotogramétrica o un archivo de dibujo en la ventana de dibujo, en función de si la pestaña activa es [Sensores fotogramétricos](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md).
 

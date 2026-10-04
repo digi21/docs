@@ -1,4 +1,5 @@
 # Convirtiendo una llave provisional en permanente
+<!-- id: convirtiendo-llave-provisional-permanente -->
 
 Si has decidido comprar una llave de _software_, sigue las siguientes instrucciones:
 

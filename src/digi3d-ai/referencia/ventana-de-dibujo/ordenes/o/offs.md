@@ -1,4 +1,5 @@
 # OFFS
+<!-- id: offs -->
 
 Desactiva códigos en la pantalla estereoscópica.
 

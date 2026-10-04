@@ -1,4 +1,5 @@
 # Añadir códigos desconocidos
+<!-- id: anadir-codigos-desconocidos -->
 
 Indica si se añadirán a la tabla de códigos activa los códigos de las entidades para las cuales no se ha localizado código de transformación.
 

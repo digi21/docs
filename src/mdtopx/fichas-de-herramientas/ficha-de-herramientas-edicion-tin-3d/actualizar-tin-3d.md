@@ -1,4 +1,5 @@
 # Actualizar TIN 3D
+<!-- id: actualizar-tin-3d -->
 
 [Ficha de herramientas Edición TIN 3D](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin-3d/)
 

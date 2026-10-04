@@ -1,4 +1,5 @@
 # ANADIR\_CODIGOS\_BORDES\_POLIGONOS\_TOPOLOGIA
+<!-- id: anadir-codigos-bordes-poligonos-topologia -->
 
 Añade los códigos activos a las líneas que forman el borde de los polígonos que tengan un determinado centroide para una determinada topología.
 

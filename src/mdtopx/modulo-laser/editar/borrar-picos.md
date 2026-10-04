@@ -1,4 +1,5 @@
 # Borrar picos
+<!-- id: borrar-picos -->
 
 [Editar puntos LIDAR](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)
 

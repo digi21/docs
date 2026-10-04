@@ -1,4 +1,5 @@
 # Paquete `mdtopx`
+<!-- id: mdtopx-3 -->
 
 El paquete raíz contiene el **motor de cálculo** de MDTopX: los tipos geométricos, la **escena** que
 intercambian todos los formatos y los algoritmos. Es el mismo motor que usa MDTopX por dentro.

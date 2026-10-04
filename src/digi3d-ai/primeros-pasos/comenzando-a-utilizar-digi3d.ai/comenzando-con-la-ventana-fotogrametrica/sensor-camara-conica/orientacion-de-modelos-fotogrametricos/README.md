@@ -1,4 +1,5 @@
 # Orientando modelos fotogramétricos de sensor de cámara cónica
+<!-- id: orientacion-de-modelos-fotogrametricos -->
 
 En este tutorial vamos a enseñarte a realizar las orientaciones necesarias para poder digitalizar sobre un modelo fotogramétrico de cámara cónica.
 

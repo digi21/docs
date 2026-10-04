@@ -1,4 +1,5 @@
 # LIMITE\_1
+<!-- id: limite-1 -->
 
 Establece una zona de trabajo, cuyos límites se corresponderán con el contorno geométrico de una línea.
 

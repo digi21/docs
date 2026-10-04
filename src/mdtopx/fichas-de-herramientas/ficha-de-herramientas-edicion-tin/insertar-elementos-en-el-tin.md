@@ -1,4 +1,5 @@
 # Insertar elementos en el TIN
+<!-- id: insertar-elementos-en-el-tin -->
 
 [Ficha de herramientas Edición TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/)
 

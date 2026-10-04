@@ -1,4 +1,5 @@
 # Geometry
+<!-- id: geometry -->
 
 Módulo: [digi21.base](README.md)
 

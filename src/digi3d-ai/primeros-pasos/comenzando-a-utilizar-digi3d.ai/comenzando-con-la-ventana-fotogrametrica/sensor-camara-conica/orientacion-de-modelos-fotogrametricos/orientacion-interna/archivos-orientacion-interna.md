@@ -1,4 +1,5 @@
 # Archivos de orientación interna
+<!-- id: archivos-orientacion-interna -->
 
 Al aceptar la orientación interna se crea un archivo con el mismo nombre que la imagen que acabamos de orientar pero con extensión _.in.xml_ en el directorio de proyecto del modelo fotogramétrico.
 

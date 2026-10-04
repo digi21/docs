@@ -1,4 +1,5 @@
 # ZFIJA
+<!-- id: zfija -->
 
 Asigna a todos los vértices de la geometría/s seleccionada/s una misma coordenada Z, múltiplo de la equidistancia.
 

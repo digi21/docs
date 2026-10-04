@@ -1,4 +1,5 @@
 # Mostrar el campo Zmin
+<!-- id: mostrar-el-campo-zmin -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Zmin**.
 

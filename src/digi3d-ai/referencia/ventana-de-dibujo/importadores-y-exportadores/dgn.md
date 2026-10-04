@@ -1,4 +1,5 @@
 # Archivos DGNv8
+<!-- id: dgn -->
 
 Importador y exportador de **Archivos DGNv8**.
 

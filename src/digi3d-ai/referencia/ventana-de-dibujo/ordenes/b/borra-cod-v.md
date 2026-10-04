@@ -1,4 +1,5 @@
 # BORRA\_COD\_V
+<!-- id: borra-cod-v -->
 
 Borra todas aquellas entidades que tengan un código igual al teclado por el usuario y que además estén asociadas a una ventana, bien en el interior de la ventana, bien en solape con ella o bien que se corten con la ventana misma.
 

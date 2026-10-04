@@ -1,4 +1,5 @@
 # CREAR\_CENTROIDES
+<!-- id: crear-centroides -->
 
 Crea los centroides de los polígonos de las topologías cargadas.
 

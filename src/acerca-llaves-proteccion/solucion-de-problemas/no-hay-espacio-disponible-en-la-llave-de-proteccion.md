@@ -1,4 +1,5 @@
 # No hay espacio disponible en la llave de protección
+<!-- id: no-hay-espacio-disponible-en-la-llave-de-proteccion -->
 
 Si al activar un ordenador en la llave de protección con el programa [Activar Ordenador](../programas-relacionados-con-licencias-y-llaves-de-proteccion/activar-ordenador.md) o con el programa [Activar Ordenador Offline](../programas-relacionados-con-licencias-y-llaves-de-proteccion/activar-ordenador-offline/) aparece el mensaje:
 

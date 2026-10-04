@@ -1,4 +1,5 @@
 # De manera automática si el programa está en modo preparado
+<!-- id: de-manera-automatica -->
 
 Digi3D.AI ejecutará órdenes de manera automática si se cumplen las siguientes condiciones:
 

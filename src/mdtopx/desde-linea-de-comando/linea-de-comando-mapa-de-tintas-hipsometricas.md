@@ -1,4 +1,5 @@
 # Mapa de tintas hipsométricas
+<!-- id: linea-de-comando-mapa-de-tintas-hipsometricas -->
 
 [Mapa de tintas hipsométricas](/mdtopx/desde-linea-de-comando/linea-de-comando-mapa-de-tintas-hipsometricas.md)
 

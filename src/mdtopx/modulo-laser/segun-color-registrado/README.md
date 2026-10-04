@@ -1,4 +1,5 @@
 # Según color registrado
+<!-- id: segun-color-registrado -->
 
 [Ficha de herramientas Puntos LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-puntos-lidar/)
 

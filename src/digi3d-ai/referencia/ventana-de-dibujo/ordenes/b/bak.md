@@ -1,4 +1,5 @@
 # BAK
+<!-- id: bak -->
 
 Realiza una copia de seguridad del fichero de dibujo activo.
 

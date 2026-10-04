@@ -1,4 +1,5 @@
 # Coordenadas Z en proyecto son ortométricas haciéndose pasar por elipsoidales
+<!-- id: coordenadas-z-en-proyecto-son-ortometricas-haciendose-pasar-por-elipsoidales -->
 
 Indica cómo se introdujeron las coordenadas Z en el proyecto de PhotoScan.
 

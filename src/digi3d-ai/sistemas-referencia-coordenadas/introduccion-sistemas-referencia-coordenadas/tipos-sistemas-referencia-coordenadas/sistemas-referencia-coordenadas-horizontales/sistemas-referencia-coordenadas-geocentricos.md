@@ -1,4 +1,5 @@
 # Sistemas de Referencia de Coordenadas Geocéntricos
+<!-- id: sistemas-referencia-coordenadas-geocentricos -->
 
 ![Gráfico mostrando mostrando sistemas de referencia de coordenadas geocéntrico y topocéntrico](../../../../../images/geocentrico-y-topocentrico.png)
 

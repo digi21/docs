@@ -1,4 +1,5 @@
 # El patrón también afecta a las líneas
+<!-- id: patron-afecta-lineas -->
 
 La orden [PATRON](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/patron.md), representa en Digi3D.AI las entidades almacenadas en el archivo de dibujo con la representaicón indicada en la tabla de códigos, esto va a afectar tanto a entidades puntuales como lineales.
 

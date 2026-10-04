@@ -1,4 +1,5 @@
 # Ventana de dibujo
+<!-- id: ventana-de-dibujo -->
 
 Conceptos de la ventana de dibujo (en la sección Conceptos):
 

@@ -1,4 +1,5 @@
 # Nube de puntos
+<!-- id: nube-de-puntos -->
 
 La pestaña Nube de puntos proporciona herramientas para la manipulación de la nube de puntos.
 

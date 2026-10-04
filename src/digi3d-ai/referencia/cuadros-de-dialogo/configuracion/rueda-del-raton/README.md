@@ -1,4 +1,5 @@
 # Rueda del ratón
+<!-- id: rueda-del-raton -->
 
 Configura el comportamiento de la rueda del ratón en la ventana de dibujo.
 

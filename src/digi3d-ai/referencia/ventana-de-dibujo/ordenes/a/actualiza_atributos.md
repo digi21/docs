@@ -1,4 +1,5 @@
 # ACTUALIZA\_ATRIBUTOS
+<!-- id: actualiza-atributos -->
 
 Actualiza los atributos de la geometría seleccionada con los activos en el panel Atributos Activos.
 

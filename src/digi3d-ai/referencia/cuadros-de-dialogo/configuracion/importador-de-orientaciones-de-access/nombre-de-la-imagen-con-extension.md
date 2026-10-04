@@ -1,4 +1,5 @@
 # Nombre de la imagen con extensión
+<!-- id: nombre-de-la-imagen-con-extension -->
 
 Indica si en la base de datos aparece el nombre de la imagen con extensión.
 

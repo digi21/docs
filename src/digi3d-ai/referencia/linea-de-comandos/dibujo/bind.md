@@ -1,4 +1,5 @@
 # bind
+<!-- id: bind -->
 
 Indica que el archivo de dibujo a abrir en la ventana de dibujo es binario de doble precisión (con extensión .bind)
 

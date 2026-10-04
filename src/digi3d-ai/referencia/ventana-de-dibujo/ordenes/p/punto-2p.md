@@ -1,4 +1,5 @@
 # PUNTO\_2P
+<!-- id: punto-2p -->
 
 Dibuja un punto en el archivo actual con la escala y rotación calculados con el segundo punto insertado.
 

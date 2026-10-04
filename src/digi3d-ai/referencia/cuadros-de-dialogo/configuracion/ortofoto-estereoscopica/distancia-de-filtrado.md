@@ -1,4 +1,5 @@
 # Distancia de filtrado
+<!-- id: distancia-de-filtrado -->
 
 Indica la diferencia de Z con respecto a la Z media de la tesela a partir de la cual se filtra un punto del MDT.
 

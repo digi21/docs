@@ -1,4 +1,5 @@
 # Órdenes
+<!-- id: ordenes-4 -->
 
 Esta pestaña permite configurar órdenes que se [ejecutarán automáticamente](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/al-seleccionar-un-codigo.md) por parte de Digi3D.AI al trabajar en la ventana de dibujo con esta tabla de códigos cargada.
 

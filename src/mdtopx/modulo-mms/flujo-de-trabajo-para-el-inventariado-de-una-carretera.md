@@ -1,4 +1,5 @@
 # Flujo de trabajo para el inventariado de una carretera
+<!-- id: flujo-de-trabajo-para-el-inventariado-de-una-carretera -->
 
 [Módulo MMS](/mdtopx/modulo-mms/)
 

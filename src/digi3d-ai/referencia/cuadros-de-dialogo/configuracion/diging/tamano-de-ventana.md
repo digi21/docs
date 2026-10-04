@@ -1,4 +1,5 @@
 # Tamaño de ventana
+<!-- id: tamano-de-ventana -->
 
 Si has habilitado la opción [Limitar el zoom máximo](limitar-el-zoom-maximo.md), introduce en este campo el tamaño mínimo (en unidades del archivo de dibujo cargado) que podrá representar la ventana de dibujo.
 

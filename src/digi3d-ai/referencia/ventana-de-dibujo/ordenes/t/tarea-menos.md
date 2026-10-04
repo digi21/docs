@@ -1,4 +1,5 @@
 # TAREA-
+<!-- id: tarea-menos -->
 
 Lleva al usuario a las coordenadas de cada una de las tareas que se están mostrando en la ventana de tareas en ese momento, en sentido descendente.
 

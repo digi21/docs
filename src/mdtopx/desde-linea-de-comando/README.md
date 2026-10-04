@@ -1,4 +1,5 @@
 # Desde línea de comando
+<!-- id: desde-linea-de-comando -->
 
 MDTopX permite ser ejecutado desde la línea de comando pasando parámetros para configurar el cálculo. Para ello necesita de un archivo ASCII llamado MDTop.INI en el mismo directorio desde donde se está ejecutando la llamada. En este archivo estarán las opciones de configuración.
 

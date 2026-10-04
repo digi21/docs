@@ -1,4 +1,5 @@
 # Midiendo automáticamente orientaciones internas y relativas
+<!-- id: midiendo-automaticamente-internas-relativas -->
 
 Podemos configurar Digi3D.AI para que realice las siguientes comprobaciones cada vez que cargamos un archivo de _proyecto fotogramétrico_:
 

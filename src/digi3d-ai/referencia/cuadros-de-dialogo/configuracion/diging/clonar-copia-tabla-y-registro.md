@@ -1,4 +1,5 @@
 # Clonar copia Tabla y Registro
+<!-- id: clonar-copia-tabla-y-registro -->
 
 Si se activa, al clonar una geometría con enlace a la base de datos se copia el enlace (Tabla y Registro).
 

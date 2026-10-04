@@ -1,4 +1,5 @@
 # CURVAR
+<!-- id: curvar -->
 
 Realiza el curvado de una triangulación.
 

@@ -1,4 +1,5 @@
 # Camera
+<!-- id: camera-2 -->
 
 Módulo: [digi21.base](README.md)
 

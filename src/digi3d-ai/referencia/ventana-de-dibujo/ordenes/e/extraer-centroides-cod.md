@@ -1,4 +1,5 @@
 # EXTRAER\_CENTROIDES\_COD
+<!-- id: extraer-centroides-cod -->
 
 Genera un centroide dentro de los polígonos o líneas cerradas que tengan alguno de los códigos seleccionados
 

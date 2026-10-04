@@ -1,4 +1,5 @@
 # Borra vértices del TIN
+<!-- id: borra-vertices-del-tin -->
 
 [Ficha de herramientas Edición TIN](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-edicion-tin/)
 

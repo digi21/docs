@@ -1,4 +1,5 @@
 # Cuadro de herramientas
+<!-- id: cuadro-de-herramientas -->
 
 ![Panel Cuadro de herramientas](../../../images/panelcuadroherramientas.png)
 

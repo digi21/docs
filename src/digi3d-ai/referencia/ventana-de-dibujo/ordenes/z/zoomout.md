@@ -1,4 +1,5 @@
 # ZOOMOUT
+<!-- id: zoomout -->
 
 Disminuye el factor de zoom.
 

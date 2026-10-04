@@ -1,4 +1,5 @@
 # AJUSTA\_AREA
+<!-- id: ajusta-area -->
 
 Mueve el segmento seleccionado para ajustar el área de la línea cerrada seleccionada al área deseada.
 

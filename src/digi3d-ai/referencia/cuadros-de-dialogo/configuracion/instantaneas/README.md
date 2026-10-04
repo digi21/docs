@@ -1,4 +1,5 @@
 # Instantáneas
+<!-- id: instantaneas -->
 
 Configura cómo se guardan las instantáneas (capturas de imagen) que generan algunas órdenes.
 

@@ -1,4 +1,5 @@
 # Importador/Exportador de archivos binarios de doble precisión (*.bind)
+<!-- id: importador-exportador-de-archivos-binarios-de-doble-precision -->
 
 Configuración del importador/exportador de archivos binarios de doble precisión (BIND).
 

@@ -1,4 +1,5 @@
 # Tipo de zoom
+<!-- id: tipo-de-zoom -->
 
 Indica qué hace la ventana de dibujo cuando la orden [BUSCAR\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/buscar-centroide.md) localiza un centroide.
 

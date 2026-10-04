@@ -1,4 +1,5 @@
 # Cerrado 2D
+<!-- id: cerrado-2d -->
 
 Indica si los paneles Resultados de la búsqueda mostrarán el campo **Cerrado 2D**.
 

@@ -1,4 +1,5 @@
 # CORTAR\_POLÍGONO
+<!-- id: cortar-poligono -->
 
 Recorta un polígono en varios polígonos en función de las intersecciones del polígono a recortar y la línea de corte.
 

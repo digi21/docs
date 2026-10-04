@@ -1,4 +1,5 @@
 # Imagen 360
+<!-- id: imagen-360 -->
 
 [Ficha de herramientas ScanStation](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-scanstation.md)
 

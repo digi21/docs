@@ -1,4 +1,5 @@
 # Tipos de errores
+<!-- id: tipos-de-errores -->
 
 Cuando Digi3D.AI ejecuta el control de calidad espera que éste indique que la geometría no tiene errores, que el guion devuelva una geometría nueva o que el guion le lance una excepción para indicar un error.
 

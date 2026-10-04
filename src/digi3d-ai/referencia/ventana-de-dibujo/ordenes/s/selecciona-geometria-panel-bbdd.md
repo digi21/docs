@@ -1,4 +1,5 @@
 # SELECCIONA\_GEOMETRIA\_PANEL\_BBDD
+<!-- id: selecciona-geometria-panel-bbdd -->
 
 Selecciona en los paneles editores de bases de datos la geometría que se corresponde con la geometría seleccionada
 

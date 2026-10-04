@@ -1,4 +1,5 @@
 # AUTO_RATÓN
+<!-- id: auto-raton -->
 
 Activa o desactiva el autocentrado de la ventana de dibujo cuando el dispositivo de entrada es el ratón.
 

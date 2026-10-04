@@ -1,4 +1,5 @@
 # ESCALAR\_VELOCIDAD
+<!-- id: escalar-velocidad -->
 
 Activa o desactiva el escalado de la velocidad de las manivelas en función del zoom de visualización.
 

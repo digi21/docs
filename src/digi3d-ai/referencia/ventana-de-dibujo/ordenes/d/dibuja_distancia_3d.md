@@ -1,4 +1,5 @@
 # DIBUJA\_DISTANCIA\_3D
+<!-- id: dibuja-distancia-3d -->
 
 Inserta un texto con la distancia real \(3D\) entre dos puntos digitalizados por el usuario, teniendo en cuenta la diferencia de cota entre ambos.
 

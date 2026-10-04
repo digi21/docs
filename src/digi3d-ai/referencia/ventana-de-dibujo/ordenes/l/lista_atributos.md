@@ -1,4 +1,5 @@
 # LISTA\_ATRIBUTOS
+<!-- id: lista-atributos -->
 
 Muestra en el panel de resultados los atributos de la geometría seleccionada.
 

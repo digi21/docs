@@ -1,4 +1,5 @@
 # ELIMINAR\_ENTIDADES\_VISIBLES\_DUPLICADAS
+<!-- id: eliminar-entidades-visibles-duplicadas -->
 
 Elimina las entidades visibles duplicadas manteniendo únicamente la que tenga un código que esté antes en la tabla de códigos.
 

@@ -1,4 +1,5 @@
 # Creando una llave de software provisional
+<!-- id: creando-llave-provisional -->
 
 Si no dispones de una llave de protección _Hasp HL_ tendrás que crear una llave de protección temporal en tu ordenador. Esta llave es una llave de software, de modo que no es necesario que te enviemos ningún hardware y podrás comenzar a utilizar nuestras aplicaciones rápidamente.\
 \

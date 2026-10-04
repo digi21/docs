@@ -1,4 +1,5 @@
 # ABRIR\_BING\_MAPS
+<!-- id: abrir-bing-maps -->
 
 Abre una ventana de Bing Maps en las coordenadas donde está el cursor en la ventana de dibujo.
 

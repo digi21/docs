@@ -1,4 +1,5 @@
 # MODIFICA\_VÉRTICE
+<!-- id: modifica-vertice -->
 
 Modifica la posición de un vértice en una línea o en un polígono.
 
