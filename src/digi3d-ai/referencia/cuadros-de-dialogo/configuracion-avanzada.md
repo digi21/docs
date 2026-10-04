@@ -1,6 +1,8 @@
 # Configuración avanzada
 <!-- id: configuracion-avanzada -->
 
+![Cuadro de diálogo Configuración avanzada](../../../images/configuracion-avanzada.png)
+
 Este cuadro de diálogo ejecuta sentencias SQL sobre el [archivo de configuración Digi3DNET.db](../archivos/archivo-de-configuracion-digi3dnet.db.md), que guarda la configuración común a todos los usuarios del equipo. Sirve para aplicar de una vez un conjunto de cambios de configuración preparado en un guion, como los que publican Digi21 y otros usuarios en el [repositorio de guiones de configuración avanzada](https://github.com/digi21/ConfiguracionesAvanzadasDigi3D).
 
 ## Abrir el cuadro de diálogo
@@ -12,6 +14,8 @@ Selecciona la opción del menú **Herramientas/Configuración avanzada...**. La 
 1. Escribe las sentencias SQL en el campo de texto, o pulsa **Cargar...** y selecciona un archivo `.sql`. El archivo se lee en UTF-8 y su contenido sustituye al que haya en el campo.
 2. Pulsa **Enviar** para ejecutar las sentencias.
 3. Pulsa **Salir** para cerrar el cuadro de diálogo.
+
+El enlace **Repositorio de guiones de configuración avanzada** abre ese repositorio en el navegador.
 
 Al pulsar **Enviar**, Digi3D.AI procesa el campo de texto línea a línea:
 
