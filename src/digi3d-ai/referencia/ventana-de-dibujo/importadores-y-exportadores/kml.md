@@ -19,6 +19,15 @@ PARAMETROS_IMPORTACION=.kml <Titulo> <Descripcion>
 | 2 | Descripción | Sí |
 
 
+## Parámetros del motor de importación/exportación
+
+Estas propiedades aparecen en la categoría **Motor de importación/exportación** de la pestaña [Archivo de dibujo](../../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md) del cuadro de diálogo Nuevo proyecto y de los cuadros de diálogo que abren, importan o exportan archivos de este formato. Su valor inicial es el de la última vez que se usó el formato.
+
+| Propiedad | Valores | Qué hace |
+| :--- | :--- | :--- |
+| Título | Texto. | Título del documento que se muestra en Google Earth. Se escribe al crear el archivo. |
+| Descripción | Texto. | Descripción que aparece debajo del título en Google Earth. Se escribe al crear el archivo. |
+
 ## Características del importador/exportador
 
 | | |
