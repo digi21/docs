@@ -18,6 +18,8 @@ Selecciona la opción del menú **Herramientas/Programar botones...**. La opció
 
 ## Orden asignada a botón
 
+![Cuadro de diálogo Orden asignada a botón](../../../images/orden-asignada-a-boton.png)
+
 Este cuadro de diálogo lo abren **Programar botones** y el botón **Configurar bot.** del cuadro de diálogo [Configuración de dispositivos de entrada](configuracion-de-dispositivos-de-entrada.md).
 
 * **Orden a ejecutar**: la orden que ejecuta el botón, o una de estas acciones: **Dato**, **Tentativo**, **Cancelar**, **Combinar** y **Embrague**. Puedes escribir el nombre de cualquier orden.
