@@ -13,7 +13,7 @@ Compara la coordenada Z de los vértices de las entidades con la Z del modelo di
 
 ![Cuadro de diálogo Comparar Z con MDT, con el campo Tolerancia](../../../../../images/comparar-z-mdt-tolerancia.png)
 
-Al empezar, la orden pide la tolerancia en este cuadro de diálogo.
+Esta orden solicita la tolerancia en este cuadro de diálogo.
 
 * **Tolerancia**: diferencia máxima admitida entre la Z de un vértice y la Z del modelo digital del terreno, en las unidades del sistema de referencia. El valor por defecto es 1.0.
 * **Aceptar**: compara las entidades con esa tolerancia.
