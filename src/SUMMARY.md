@@ -1288,6 +1288,7 @@
       * [Configuración de ratones, joysticks, mandos,...](digi3d-ai/referencia/cuadros-de-dialogo/configuracion-de-ratones-joysticks-y-mandos.md)
       * [Configuración de teclados virtuales](digi3d-ai/referencia/cuadros-de-dialogo/configuracion-de-teclados-virtuales.md)
       * [Configurar proyectos](digi3d-ai/referencia/cuadros-de-dialogo/configurar-proyectos.md)
+      * [Control de producción](digi3d-ai/referencia/cuadros-de-dialogo/control-de-produccion.md)
       * [Introduce un punto terreno del archivo de puntos](digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md)
       * [Nuevo proyecto](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/README.md)
         * [Sensores fotogramétricos](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md)
