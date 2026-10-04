@@ -18,6 +18,14 @@ PARAMETROS_IMPORTACION=.svg <ancho>
 | 1 | Ancho de la imagen | Sí |
 
 
+## Parámetros del motor de importación/exportación
+
+Estas propiedades aparecen en la categoría **Motor de importación/exportación** de los cuadros de diálogo que importan o exportan archivos de este formato. Este formato no se puede abrir directamente en una ventana de dibujo, así que no aparecen en el cuadro de diálogo Nuevo proyecto. Su valor inicial es el de la última vez que se usó el formato.
+
+| Propiedad | Valores | Qué hace |
+| :--- | :--- | :--- |
+| Ancho del dibujo | Número entero, en píxeles. Por defecto, 400. | Ancho de la imagen que se crea. El alto se calcula para conservar la proporción del dibujo. |
+
 ## Características del importador/exportador
 
 | | |

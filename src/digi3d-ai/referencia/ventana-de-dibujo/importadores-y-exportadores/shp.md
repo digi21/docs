@@ -19,6 +19,16 @@ PARAMETROS_IMPORTACION=.shp <Precision> <Codificacion>
 | 2 | Codificación | Sí |
 
 
+## Parámetros del motor de importación/exportación
+
+Estas propiedades aparecen en la categoría **Motor de importación/exportación** de la pestaña [Archivo de dibujo](../../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md) del cuadro de diálogo Nuevo proyecto y de los cuadros de diálogo que abren, importan o exportan archivos de este formato. Su valor inicial es el de la última vez que se usó el formato.
+
+| Propiedad | Valores | Qué hace |
+| :--- | :--- | :--- |
+| Decimales de precisión | Número entero. Por defecto, 0. | Al exportar, redondea las coordenadas a este número de decimales. Con 0 no se redondean. |
+| Codificación | Página de códigos: las de MS-DOS y _Windows_ de cada idioma, y UTF-8. Por defecto, UTF-8. | Codificación de los textos del archivo `.dbf` que se crea, que también se escribe en un archivo `.cpg`. Al leer, solo se usa si el `.dbf` no indica su codificación y no hay archivo `.cpg`. |
+| Cargar región de interés (BETA) | Sí o No. Por defecto, No. | Con **Sí**, al abrir el archivo se carga solo la región de interés. La región se selecciona con el botón derecho sobre el archivo en el panel de archivos de dibujo. |
+
 ## Características del importador/exportador
 
 | | |
