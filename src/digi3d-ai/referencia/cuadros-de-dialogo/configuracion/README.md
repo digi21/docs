@@ -1,7 +1,7 @@
 # Configuración
 <!-- id: configuracion -->
 
-![Cuadro de diálogo Configuración](../../../../images/cuadrodialogoconfiguracion.png)
+![Cuadro de diálogo Configuración](../../../../images/configuracion.png)
 
 Este cuadro de diálogo permite configurar todos los aspectos Digi3D.AI.
 
@@ -20,6 +20,11 @@ Para cambiar una configuración sigue los siguientes pasos:
 * Localiza dentro de la categoría el parámetro que quieres cambiar.
 * Cambia el valor.
 * Pulsa el botón **Aceptar**.
+
+El cuadro de diálogo tiene además estos elementos:
+
+* **Buscar**: filtra las opciones por texto, sin distinguir mayúsculas de minúsculas. Muestra las opciones cuyo nombre contiene el texto y las categorías que las contienen, y despliega esas categorías. Si el texto aparece en el nombre de una categoría, se muestra la categoría plegada, con todas sus opciones. Con el campo vacío se muestran todas las categorías, plegadas.
+* **Área de descripción**: la parte inferior del cuadro de diálogo muestra la descripción de la opción seleccionada.
 
 ## Opciones de configuración
 
