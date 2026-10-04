@@ -23,7 +23,7 @@ Selecciona la opción del menú **Herramientas/Programar botones...**. La opció
 Este cuadro de diálogo lo abren **Programar botones** y el botón **Configurar bot.** del cuadro de diálogo [Configuración de dispositivos de entrada](configuracion-de-dispositivos-de-entrada.md).
 
 * **Orden a ejecutar**: la orden que ejecuta el botón, o una de estas acciones: **Dato**, **Tentativo**, **Cancelar**, **Combinar** y **Embrague**. Puedes escribir el nombre de cualquier orden.
-* **Buscar...**: abre el cuadro de diálogo de búsqueda de órdenes, para elegir una orden por su nombre o su descripción.
+* **Buscar...**: abre el cuadro de diálogo [Buscar orden](buscar-orden.md), para elegir una orden por su nombre o su descripción.
 * **Defecto**: devuelve al botón su acción por defecto.
 * **Aceptar**: guarda la asignación.
 * **Cancelar**: cierra el cuadro de diálogo sin cambiar la asignación.
