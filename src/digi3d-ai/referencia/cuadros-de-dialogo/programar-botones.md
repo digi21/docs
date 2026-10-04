@@ -1,6 +1,8 @@
 # Programar botones
 <!-- id: programar-botones -->
 
+![Cuadro de diálogo Asignación de botones de Programar botones](../../../images/asignacion-de-botones-raton.png)
+
 Este cuadro de diálogo asigna una orden o una acción a cada botón de los ratones conectados al equipo. Su título es **Asignación de botones**.
 
 ## Abrir el cuadro de diálogo
