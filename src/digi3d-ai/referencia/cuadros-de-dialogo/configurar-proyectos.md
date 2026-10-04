@@ -14,7 +14,9 @@ Selecciona la opción del menú **Herramientas/Configurar proyectos**. La opció
 ## Campos
 
 * **Configuración**: la configuración que se edita.
-* **Nueva**: solicita el nombre de una configuración nueva y la añade a la lista. Si ya existe una configuración con ese nombre, muestra un aviso y no la añade. La configuración nueva no se guarda hasta pulsar **Guardar**.
+* **Nueva**: abre el cuadro de diálogo **Nuevo proyecto de archivos de dibujo**, que solicita el nombre de la configuración nueva, y la añade a la lista. Si ya existe una configuración con ese nombre, muestra un aviso y no la añade. La configuración nueva no se guarda hasta pulsar **Guardar**.
+
+  ![Cuadro de diálogo Nuevo proyecto de archivos de dibujo](../../../images/nuevo-proyecto-de-archivos-de-dibujo.png)
 * **Eliminar**: elimina la configuración seleccionada en el momento, sin pulsar **Guardar**.
 * **Rejilla de propiedades** de la configuración:
   * **Sistema de referencia de coordenadas**: el sistema de referencia de coordenadas de la ventana de dibujo.
