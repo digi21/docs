@@ -1280,6 +1280,7 @@
           * [Factor de zoom](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/visualizacion-de-pointcloud/factor-de-zoom.md)
         * [VM Quasi-Panoramic](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/vm-quasi-panoramic/README.md)
           * [Activar epipolar por defecto](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/vm-quasi-panoramic/activar-epipolar-por-defecto.md)
+      * [Configuración avanzada](digi3d-ai/referencia/cuadros-de-dialogo/configuracion-avanzada.md)
       * [Configuración de teclados virtuales](digi3d-ai/referencia/cuadros-de-dialogo/configuracion-de-teclados-virtuales.md)
       * [Nuevo proyecto](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/README.md)
         * [Sensores fotogramétricos](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md)
