@@ -14,7 +14,7 @@ La orden requiere una topología temporal creada, por ejemplo con la orden [FORM
 1. Pulsa el botón de datos dentro de un recinto para seleccionarlo. Mantén pulsada la tecla Control para añadir o quitar recintos de la selección.
 2. Pulsa la barra espaciadora para aplicar el cambio. Pulsa Escape para cancelar la orden.
 
-La orden sustituye por el primer código activo el código de las entidades que forman el contorno exterior de los recintos seleccionados. Si una entidad tiene varios códigos, la orden muestra un cuadro de diálogo para elegir el código que se sustituye.
+La orden sustituye por el primer código activo el código de las entidades que forman el contorno exterior de los recintos seleccionados. Si una entidad tiene varios códigos, la orden muestra el cuadro de diálogo [Seleccionar código](camb-cod.md) para elegir el código que se sustituye.
 
 ## Características de la orden
 
