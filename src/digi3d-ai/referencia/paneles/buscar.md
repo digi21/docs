@@ -15,6 +15,29 @@ Los tipos de búsqueda que trae Digi3D.AI están en el repositorio de código ab
   * **Orden activa**: la orden que se está ejecutando. Si la orden admite selección múltiple, recibe las entidades localizadas y realiza su tarea con ellas.
 * **Buscar**: busca en el archivo de dibujo activo de la ventana de dibujo. Se habilita al elegir un tipo de búsqueda; si no hay ninguna ventana de dibujo abierta, no hace nada.
 
+## Tipos de búsqueda
+
+![Desplegable de tipos de búsqueda del panel Buscar](../../../images/panel-buscar-tipos.png)
+
+* Buscar por expresión Python
+* Complejos por código
+* Entidades con atributo nulo
+* Entidades con atributo nulo por campo
+* Líneas que cruzan con otras líneas
+* Polígonos por código
+* Puntos por código
+* Textos por cadena
+* Textos por código
+* Textos por código y cadena
+* Todas las entidades
+* Todas las entidades por código
+* Todas las líneas
+* Todas las líneas por criterio
+* Todos los complejos
+* Todos los polígonos
+* Todos los puntos
+* Todos los textos
+
 ## Mostrar el panel
 
 Selecciona la opción del menú **Editar/Buscar**.
