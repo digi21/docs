@@ -1,7 +1,7 @@
 # Códigos activos
 <!-- id: codigos-activos -->
 
-![Panel códigos activos mostrando como códigos activos el 050146 y 060533](../../../images/panelcodigosactivos.png)
+![Panel códigos activos mostrando como códigos activos el 050146, el 040523 y el 060526](../../../images/panelcodigosactivos.png)
 
 Este panel permite seleccionar el código o códigos activos en caso de estar trabajando con multi codificación.
 
