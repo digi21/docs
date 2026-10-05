@@ -910,6 +910,7 @@
       * [Archivos de dibujo](digi3d-ai/referencia/paneles/archivos-de-dibujo.md)
       * [Ayuda dinámica](digi3d-ai/referencia/paneles/ayuda-dinamica.md)
       * [Buscar](digi3d-ai/referencia/paneles/buscar.md)
+      * [Cámaras](digi3d-ai/referencia/paneles/camaras.md)
       * [Campos de la base de datos](digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md)
       * [Códigos activos](digi3d-ai/referencia/paneles/codigos-activos.md)
       * [Atributos Activos](digi3d-ai/referencia/paneles/atributos-activos.md)
