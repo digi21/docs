@@ -13,7 +13,7 @@ Parte por los puntos de cruce todas las líneas que cruzan la geometría selecci
 
 * No se borra ningún tramo. Cada trozo conserva los códigos de la línea original.
 * La línea seleccionada no se modifica.
-* Se parten las líneas visibles y en la zona de interés. Las líneas borradas solo se parten si la ventana de dibujo muestra los borrados.
+* Se parten las líneas visibles y en la zona de interés del archivo de trabajo. Las líneas borradas no se parten.
 * Si una línea cerrada cruza la línea seleccionada, sus trozos empiezan y terminan en los puntos de cruce: el vértice inicial de la línea cerrada no produce un corte adicional.
 * Si ninguna línea cruza la seleccionada, suena el aviso de error.
 * Para cortar y además borrar o recodificar los tramos interiores a una línea cerrada, usa [LIMPIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limpia.md).
