@@ -29,7 +29,7 @@ No admite parámetros.
 | Tipo de orden | [Orden interactiva](partir-lineas-que-cruzan.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Análisis geométricos/Partir líneas por el punto de cruce/Líneas que cruzan la geometría seleccionada |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
