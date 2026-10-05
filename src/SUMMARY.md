@@ -509,6 +509,7 @@
           * [PARAMETROS\_CAMARA\_CONICA](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-camara-conica.md)
           * [PARAMETROS\_IMPORTACION](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md)
           * [PARTIR\_LINEAS](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas.md)
+          * [PARTIR\_LINEAS\_QUE\_CRUZAN](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-que-cruzan.md)
           * [PARTIR\_LINEAS\_VISIBLES](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md)
           * [PATRONS](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/patrons.md)
           * [PERP](digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp.md)
