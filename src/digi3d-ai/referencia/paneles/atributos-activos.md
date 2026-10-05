@@ -19,8 +19,12 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 
 ### Botones
 
-* **Añadir atributo**: abre el cuadro de diálogo **Añadir atributo activo**.
-* **Eliminar atributo**: elimina el atributo activo seleccionado.
+* **Añadir atributo activo**: abre el cuadro de diálogo **Añadir atributo activo**.
+* **Eliminar atributo seleccionado**: elimina el atributo activo seleccionado.
+* **Limpiar**: elimina todos los atributos activos.
+* **Clonar atributos**: ejecuta la orden [CLONAR\_ATRIBUTOS](../ventana-de-dibujo/ordenes/c/clonar_atributos.md), que sustituye los atributos activos por los de la geometría que selecciones.
+
+Los botones están desactivados si no hay ninguna ventana de dibujo abierta.
 
 ## Cuadro de diálogo Añadir atributo activo
 
