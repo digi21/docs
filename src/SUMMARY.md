@@ -916,6 +916,7 @@
       * [Atributos Activos](digi3d-ai/referencia/paneles/atributos-activos.md)
       * [Cuadro de herramientas](digi3d-ai/referencia/paneles/cuadro-de-herramientas.md)
       * [Editor de la base de datos 1,2,3,4](digi3d-ai/referencia/paneles/editor-de-la-base-de-datos-1-2-3-4.md)
+      * [Instantáneas](digi3d-ai/referencia/paneles/instantaneas.md)
       * [Propiedades](digi3d-ai/referencia/paneles/propiedades.md)
       * [Propiedades de visualización](digi3d-ai/referencia/paneles/propiedades-de-visualizacion.md)
       * [Proyecto fotogramétrico](digi3d-ai/referencia/paneles/proyecto-fotogrametrico.md)
