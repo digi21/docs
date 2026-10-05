@@ -907,6 +907,7 @@
       * [Teclados](digi3d-ai/referencia/barras-de-herramientas/teclados.md)
       * [Tentativo](digi3d-ai/referencia/barras-de-herramientas/tentativo.md)
     * [Paneles](digi3d-ai/referencia/paneles/README.md)
+      * [Archivos de dibujo](digi3d-ai/referencia/paneles/archivos-de-dibujo.md)
       * [Ayuda dinámica](digi3d-ai/referencia/paneles/ayuda-dinamica.md)
       * [Buscar](digi3d-ai/referencia/paneles/buscar.md)
       * [Campos de la base de datos](digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md)
