@@ -9,6 +9,8 @@ Parte por los puntos de cruce todas las líneas que cruzan la geometría selecci
 2. Digi3D.AI parte en los puntos de cruce todas las líneas visibles que cruzan la línea seleccionada.
 3. Selecciona otra línea para repetir la operación, o pulsa **Esc** para terminar.
 
+La orden admite selección múltiple: si se seleccionan varias líneas (por ejemplo, con una selección por ventana o enviando a la **Orden activa** los resultados del panel [Buscar](/digi3d-ai/referencia/paneles/buscar.md)), cada una actúa como límite y una línea que cruza varias se parte por todas. Las líneas seleccionadas no se parten entre sí.
+
 ## Observaciones
 
 * No se borra ningún tramo. Cada trozo conserva los códigos de la línea original.
