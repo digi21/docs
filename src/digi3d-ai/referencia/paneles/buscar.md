@@ -1,26 +1,29 @@
 # Buscar
 <!-- id: buscar-2 -->
 
-![](../../../images/panelbuscar.png)
+![Panel Buscar](../../../images/panel-buscar.png)
 
-Permite buscar geometrías según un criterio.
+Este panel busca entidades del archivo de dibujo según un criterio.
 
-Dispone de un desplegable en el que seleccionamos el tipo de búsqueda que queremos realizar. En función del tipo de búsqueda el programa nos mostrará en el contenido principal del panel distintas opciones.
+## Campos
 
-El último desplegable nos permite enviar el resultado de la búsqueda a una de las siguientes opciones:
+* **Tipo de búsqueda** (desplegable superior): el criterio de búsqueda. Según el tipo elegido, la zona central del panel muestra sus opciones.
+* **Enviar los resultados a**: dónde se envían las entidades localizadas:
+  * Ventana **Resultados de la búsqueda 1** o **Resultados de la búsqueda 2**.
+  * **Orden activa**: la orden que se está ejecutando. Si la orden admite selección múltiple, recibe las entidades localizadas y realiza su tarea con ellas.
+* **Buscar**: busca en el archivo de dibujo activo de la ventana de dibujo. Se habilita al elegir un tipo de búsqueda; si no hay ninguna ventana de dibujo abierta, no hace nada.
 
-* Panel Resultados de la búsqueda 1 o 2.
-* A la orden activa (orden que se esté ejecutando en este momento).
+## Mostrar el panel
 
-Si se está ejecutando una orden que admita selección múltiple de geometrías y seleccionamos en el campo _Enviar los resultados a_ la opción **Orden activa**, el programa enviará automáticamente las geometrías localizadas a la orden activa. Esta orden realizará la tarea que le corresponda.
+Selecciona la opción del menú **Editar/Buscar**.
 
 ## Ejemplo
 
-Supongamos que queremos exportar todos los textos del archivo de dibujo a un archivo nuevo. Podemos hacerlo siguiendo las siguientes instrucciones.
+Para exportar todos los textos del archivo de dibujo a un archivo nuevo:
 
-* Seleccionamos la opción del menú **Archivo/Exportar entidades seleccionadas...**
-* Abrimos el panel de búsqueda mediante la opción **Editar/Buscar**.
-* Seleccionamos la opción **Todos los textos**.
-* Pulsamos el botón **Buscar**.
-* Introducimos el nombre del archivo a crear.
-* Pulsamos el botón **Guardar**.
+1. Selecciona la opción del menú **Archivo/Exportar entidades seleccionadas...**.
+2. Abre el panel con la opción **Editar/Buscar**.
+3. Selecciona el tipo de búsqueda **Todos los textos**.
+4. En **Enviar los resultados a**, selecciona **Orden activa**.
+5. Pulsa **Buscar**.
+6. Escribe el nombre del archivo a crear y pulsa **Guardar**.
