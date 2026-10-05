@@ -1,6 +1,11 @@
 # Nuevo proyecto
 <!-- id: nuevo-proyecto-2 -->
 
-Este cuadro de diálogo permite cargar un modelo fotogramétrico en la ventana fotogramétrica o un archivo de dibujo en la ventana de dibujo, en función de si la pestaña activa es [Sensores fotogramétricos](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md).
+Este cuadro de diálogo abre un modelo fotogramétrico en una ventana fotogramétrica o un archivo de dibujo en una ventana de dibujo, según la pestaña activa al pulsar **OK**:
 
-![Cuadro de diálogo Nuevo proyecto mostrando el contenido de la pestaña Archivo de dibujo](../../../../images/cuadrodialogonuevoproyecto.png)
+* [Sensores fotogramétricos](sensores-fotogrametricos.md): abre o crea un modelo fotogramétrico.
+* [Archivo de dibujo](archivo-de-dibujo.md): abre un archivo de dibujo.
+
+![Cuadro de diálogo Nuevo proyecto con la pestaña Archivo de dibujo](../../../../images/cuadrodialogonuevoproyecto.png)
+
+Digi3D.AI lo muestra al arrancar sin argumentos y con la opción del menú **Archivo/Abrir**.
