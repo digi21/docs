@@ -5,6 +5,8 @@
 
 Este panel busca entidades del archivo de dibujo según un criterio.
 
+Los tipos de búsqueda que trae Digi3D.AI están en el repositorio de código abierto [DigiNG.Search](https://github.com/digi21/DigiNG.Search). Puedes consultar en él cómo está hecho cada tipo de búsqueda y usarlo como ejemplo para programar los tuyos.
+
 ## Campos
 
 * **Tipo de búsqueda** (desplegable superior): el criterio de búsqueda. Según el tipo elegido, la zona central del panel muestra sus opciones.
