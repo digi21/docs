@@ -1,6 +1,8 @@
 # Seleccione códigos
 <!-- id: seleccione-codigos -->
 
+![Cuadro de diálogo Seleccione códigos](../../../images/seleccione-codigos.png)
+
 Este cuadro de diálogo busca códigos en la tabla de códigos para que selecciones uno o varios. Lo abre el botón **Añadir...** del cuadro de diálogo [Selecciona códigos](selecciona-codigos.md), y lo abren directamente algunas órdenes, como [COD](../ventana-de-dibujo/ordenes/c/cod.md). La barra de título puede mostrar un texto propio de la orden que lo ha abierto.
 
 ## Campos
