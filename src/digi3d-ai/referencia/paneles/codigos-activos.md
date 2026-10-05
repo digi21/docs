@@ -15,11 +15,18 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 
 ### Botones
 
-* Botón que añade un código al listado de códigos activos.
-* Botón elimina el código seleccionado del listado de códigos activos.
-* Botón que ejecuta la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
-* Botón que ejecuta la orden [CLONAR_CODIGOS](../ventana-de-dibujo/ordenes/c/clonar-codigos.md).
-* Botón que ejecuta la orden [CLONAR_CODIGOS+](../ventana-de-dibujo/ordenes/c/clonar-codigos-mas.md).
+* **Añadir códigos**: ejecuta la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md), que añade códigos a la lista de códigos activos.
+* **Quitar códigos**: quita el código seleccionado de la lista de códigos activos.
+* **Seleccionar códigos**: ejecuta la orden [COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md), que sustituye la lista de códigos activos por los códigos que selecciones.
+* **Copiar códigos de entidad**: ejecuta la orden [CLONAR_CODIGOS](../ventana-de-dibujo/ordenes/c/clonar-codigos.md), que sustituye la lista de códigos activos por los de la entidad que selecciones.
+* **Añadir códigos de entidad**: ejecuta la orden [CLONAR_CODIGOS+](../ventana-de-dibujo/ordenes/c/clonar-codigos-mas.md), que añade a la lista de códigos activos los de la entidad que selecciones.
+
+## Columnas
+
+* **Código**: nombre del código.
+* **Tabla** e **Id**: tabla de la base de datos y número de registro asociados al código, si se trabaja con base de datos.
+* **Color**: color del código en la tabla de códigos.
+* **Descripción**: descripción del código en la tabla de códigos.
 
 ## Base de datos
 
