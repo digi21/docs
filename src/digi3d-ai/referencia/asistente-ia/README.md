@@ -1,6 +1,8 @@
 # Asistente con IA
 <!-- id: asistente-ia -->
 
+![Panel Chat con IA con una consulta sobre los códigos más repetidos](../../../images/panel-chat-ia.png)
+
 El **panel de chat con IA** permite pedir a un asistente de inteligencia artificial, **en lenguaje
 natural**, que consulte y modifique el dibujo activo. Escribe lo que necesitas —por ejemplo *«haz un
 zoom al primer edificio»*, *«¿cuántas curvas de nivel hay?»* o *«borra los textos con el código
