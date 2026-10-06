@@ -16,6 +16,8 @@ Inserta un fichero de dibujo en el fichero de trabajo.
 
 Los ficheros de dibujo \(BIN\) se refieren a cualquier archivo DigiNG, o a los creados por el usuario con las órdenes [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md).
 
+Los archivos BIN y BIND se insertan sin mostrar el cuadro de diálogo de parámetros de importación: un archivo BIN se lee con precisión de centímetros y origen global \(0, 0, 0\), y un archivo BIND se lee sin base de datos y sin sus archivos de referencia.
+
 El fichero, sea del tipo que sea, se insertará con un factor de escala igual al valor de la escala activa \([ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md).
 
 ## Características de la orden
