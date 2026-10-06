@@ -7,7 +7,7 @@ Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán se
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Archivo que se va a crear. Si se indica, la orden no muestra el cuadro de diálogo de selección de archivo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte**. Puede aparecer el cuadro de selección de formato, si varios formatos usan esa extensión, o el de parámetros del formato, si su configuración lo pide | Ruta de archivo | Si |
+| 1 | Archivo que se va a crear. Si se indica, la orden no muestra el cuadro de diálogo de selección de archivo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte**. Puede aparecer el cuadro de selección de formato, si varios formatos usan esa extensión, o el de parámetros del formato, si su configuración lo pide. En los formatos BIN y BIND no aparece el de parámetros: un archivo BIN se crea con precisión de centímetros y origen global (0, 0, 0), y un archivo BIND sin base de datos | Ruta de archivo | Si |
 
 ## Observaciones
 
