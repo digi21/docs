@@ -924,6 +924,7 @@
       * [Tareas](digi3d-ai/referencia/paneles/tareas.md)
       * [Resultados](digi3d-ai/referencia/paneles/resultados.md)
       * [Resultados de la búsqueda 1 y 2](digi3d-ai/referencia/paneles/resultados-de-la-busqueda-1-y-2.md)
+      * [Visualización de códigos](digi3d-ai/referencia/paneles/visualizacion-de-codigos.md)
     * [Cuadros de diálogo](digi3d-ai/referencia/cuadros-de-dialogo/README.md)
       * [Acerca de Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/acerca-de-digi3d-ai.md)
       * [Archivo de puntos de apoyo](digi3d-ai/referencia/cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md)
