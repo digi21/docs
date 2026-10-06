@@ -7,7 +7,8 @@ Digi3D.AI muestra este cuadro de diálogo al abrir un archivo de dibujo que tien
 
 * **Lista de archivos de referencia**: los archivos de referencia asociados al archivo de dibujo, con el nombre del archivo y su carpeta. Marca los archivos que quieres cargar. Al abrir el cuadro de diálogo están todos marcados.
 * **Todos** y **Ninguno**: marcan o desmarcan todos los archivos.
-* **Aceptar**: carga los archivos marcados.
-* **Cancelar**: abre el archivo de dibujo sin cargar ningún archivo de referencia.
+* **Eliminar**: quita de la lista los archivos seleccionados. Al pulsar **Aceptar** dejan de estar asociados al archivo de dibujo, igual que con la orden [DEJAR](../ventana-de-dibujo/ordenes/d/dejar.md).
+* **Aceptar**: carga los archivos marcados y quita del archivo de dibujo los eliminados.
+* **Cancelar**: abre el archivo de dibujo sin cargar ningún archivo de referencia y sin quitar los eliminados.
 
-Los archivos que no se cargan siguen asociados al archivo de dibujo y vuelven a aparecer en la lista la próxima vez que lo abras. Para quitar un archivo de referencia del archivo de dibujo, déjalo con la orden [DEJAR](../ventana-de-dibujo/ordenes/d/dejar.md).
+Los archivos que no se marcan siguen asociados al archivo de dibujo y vuelven a aparecer en la lista la próxima vez que lo abras.
