@@ -45,10 +45,6 @@ Según la orden, las letras se escriben de una de estas formas:
 
 Muchas órdenes interactivas ejecutan TENTATIVO internamente con una cadena fija, por ejemplo `L*@` para seleccionar solo líneas del archivo de dibujo activo.
 
-### BORRA\_COD y RECUPERA\_COD
-
-`B` no tiene efecto: estas órdenes no tratan imágenes.
-
 ### PROYECTA\_COD, PROYECTA\_COD\_ETIQUETA y PROYECTA\_POR\_CONDICION
 
 * `B` no tiene efecto.
@@ -58,10 +54,11 @@ Muchas órdenes interactivas ejecutan TENTATIVO internamente con una cadena fija
 
 `*` incluye todos los tipos de geometría, también los que no tienen letra, como los objetos OLE.
 
-### ON\_TIPO, OFF\_TIPO, ONS\_TIPO, OFFS\_TIPO, OND\_TIPO y OFFD\_TIPO
+### BORRA\_COD, RECUPERA\_COD, ON\_TIPO, OFF\_TIPO, ONS\_TIPO, OFFS\_TIPO, OND\_TIPO y OFFD\_TIPO
 
 * `P` incluye también los puntos orientados y los multipuntos.
 * `*` incluye todos los tipos de geometría, también los que no tienen letra, como los círculos y los objetos OLE.
+* BORRA\_COD borra los tipos indicados y RECUPERA\_COD los recupera.
 * ON\_TIPO, ONS\_TIPO y OND\_TIPO muestran los tipos indicados. OFF\_TIPO, OFFS\_TIPO y OFFD\_TIPO los ocultan. Las geometrías de los demás tipos conservan su estado.
 
 ### COPIAR, COPIA2P, COPIA\_R, DUP, DUPLICA, MOVER y MOVER\_Z
@@ -100,8 +97,8 @@ Solo los puntos y los textos tienen ángulo. `P` y `C` indican puntos, `T` texto
 | Orden | Forma del parámetro | Letras con efecto |
 | :--- | :--- | :--- |
 | TENTATIVO | Cadena de letras | `L` `P` `C` `T` `H` `G` `B` `*` `@` `-` |
-| [BORRA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod.md) | Pares «código tipo» | `L` `P` `C` `T` `H` `G` `*` |
-| [RECUPERA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recupera-cod.md) | Pares «código tipo» | `L` `P` `C` `T` `H` `G` `*` |
+| [BORRA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod.md) | Pares «código tipo» | `L` `P` `C` `T` `H` `G` `B` `*` |
+| [RECUPERA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recupera-cod.md) | Pares «código tipo» | `L` `P` `C` `T` `H` `G` `B` `*` |
 | [ON\_TIPO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on-tipo.md) | Pares «código tipo» | `L` `P` `C` `T` `H` `G` `B` `*` |
 | [OFF\_TIPO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off-tipo.md) | Pares «código tipo» | `L` `P` `C` `T` `H` `G` `B` `*` |
 | [ONS\_TIPO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ons-tipo.md) | Pares «código tipo» | `L` `P` `C` `T` `H` `G` `B` `*` |
