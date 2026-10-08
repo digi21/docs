@@ -11,7 +11,7 @@ No es la sección [Dispositivos de entrada](configuracion/dispositivos-de-entrad
 
 Selecciona la opción del menú **Herramientas/Configuración de dispositivos de entrada...**. La opción solo aparece en el menú que muestra Digi3D.AI cuando no hay ninguna ventana de dibujo ni fotogramétrica abierta.
 
-El cuadro de diálogo también se abre al abrir una ventana fotogramétrica si Digi3D.AI no consigue comunicarse con el dispositivo de entrada seleccionado. En ese caso aparece el aviso **Error al conectar con el dispotivo de entrada**, con tres opciones:
+El cuadro de diálogo también se abre al abrir una ventana fotogramétrica si Digi3D.AI no consigue comunicarse con el dispositivo de entrada seleccionado. En ese caso aparece el aviso **Error al conectar con el dispositivo de entrada**, con tres opciones:
 
 * **Volver a probar a comunicar con el dispositivo**: intenta otra vez la comunicación.
 * **Configurar el dispositivo de entrada.**: abre este cuadro de diálogo. Al cerrarlo, Digi3D.AI intenta comunicarse con el dispositivo seleccionado.
@@ -28,7 +28,7 @@ El cuadro de diálogo también se abre al abrir una ventana fotogramétrica si D
 
 Los botones **Configurar...**, **Configurar bot.** y **Comprobar...** están desactivados con **Ninguno** seleccionado.
 
-**Configurar bot.** y **Comprobar...** se comunican con el dispositivo antes de abrir su cuadro de diálogo. Si la comunicación falla, Digi3D.AI muestra el aviso **Error al conectar con el dispotivo de entrada** con la descripción del error, y el cuadro de diálogo no se abre.
+**Configurar bot.** y **Comprobar...** se comunican con el dispositivo antes de abrir su cuadro de diálogo. Si la comunicación falla, Digi3D.AI muestra el aviso **Error al conectar con el dispositivo de entrada** con la descripción del error, y el cuadro de diálogo no se abre.
 
 ## Configurar: parámetros del dispositivo
 
@@ -50,11 +50,13 @@ Estos parámetros se guardan para el equipo y para cada dispositivo por separado
 3. Repite los pasos anteriores con cada botón que quieras programar.
 4. Pulsa **Esc** para terminar.
 
+Cada asignación se guarda al pulsar **Aceptar** en el cuadro de diálogo **Orden asignada a botón**. Pulsar **Cancelar** en el cuadro de diálogo **Configuración de dispositivos de entrada** no deshace las asignaciones.
+
 ## Comprobar: Test de codificadores
 
 ![Cuadro de diálogo Test de codificadores](../../../images/test-de-codificadores.png)
 
-Muestra los valores de **X**, **Y**, **Z** y **Pedal** que envía el dispositivo. Mueve las manivelas y pulsa los pedales para comprobar que los valores cambian. El botón **Poner a 0** pone los contadores a cero.
+Muestra los valores de **X**, **Y**, **Z** y **Pedal** que envía el dispositivo. Mueve las manivelas y pulsa los pedales para comprobar que los valores cambian. El botón **Poner a 0** pone los contadores a cero. El cuadro de diálogo no tiene botón de cierre: se cierra con **Esc**.
 
 ## Observaciones
 
