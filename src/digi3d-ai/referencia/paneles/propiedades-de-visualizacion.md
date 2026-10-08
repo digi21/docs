@@ -9,7 +9,7 @@ Este panel modifica cómo se dibujan las imágenes y los vectores en la ventana 
 
 * **Intercambiar ojos**: muestra la imagen izquierda al ojo derecho y la imagen derecha al ojo izquierdo.
 * **Mostrar imágenes**: si se desactiva, la ventana fotogramétrica solo dibuja los vectores. Los controles de radiometría se deshabilitan.
-* **Imágenes a las que aplicar el cambio**: imágenes a las que se aplican el brillo, el contraste y la gamma: **Ambas imágenes**, **Imagen izquierda** o **Imagen derecha**.
+* **Imágenes a las que aplicar el cambio**: imágenes a las que se aplican el brillo, el contraste, la gamma, el negativo, los tonos de gris, la interpolación bilineal y el escalado de color: **Ambas imágenes**, **Imagen izquierda** o **Imagen derecha**.
 * **Brillo**: de -100 a 100. El valor predeterminado es 0.
 * **Contraste**: de -100 a 100. El valor predeterminado es 0.
 * **Gamma**: de 0 a 300, en centésimas (100 equivale a una gamma de 1,0). El valor predeterminado es 100.
@@ -24,6 +24,19 @@ Este panel modifica cómo se dibujan las imágenes y los vectores en la ventana 
 * **Mostrar solo puntos comunes**: dibuja solo los puntos medidos en las dos imágenes del modelo. Se habilita al activar **Mostrar puntos medidos**.
 
 Digi3D.AI guarda el brillo, el contraste, la gamma, el negativo, el escalado de color y la interpolación bilineal en el registro del usuario, y los aplica al abrir la siguiente ventana fotogramétrica.
+
+## DEM
+
+Esta sección dibuja sobre las imágenes los puntos de un modelo digital de elevaciones (DEM). Solo aparece si en el registro del usuario hay un alias de alguna de estas órdenes de DEM: guardar DEM, proyectar DEM, proyectar línea sobre DEM o mover Z sobre DEM. Sus controles están deshabilitados si la ventana de dibujo no tiene cargado un DEM en formato TIFF.
+
+* **Mostrar puntos de DEM**: dibuja los puntos del DEM en la ventana fotogramétrica.
+* **Distancia entre puntos**: distancia entre los puntos dibujados. El desplegable ofrece de 1 a 40 veces el tamaño de celda del DEM. Al cargar el DEM se selecciona 40 veces el tamaño de celda.
+* **Escalar distancia en función del zoom**: multiplica la distancia entre puntos por el factor de reducción de la imagen que se está dibujando. Al alejar el zoom, los puntos se dibujan más separados.
+* **Color del DEM**: color de los puntos.
+* **Tamaño de los puntos**: tamaño de los puntos, de 1 a 10.
+* **Mostrar triángulos**: dibuja el DEM con triángulos.
+
+Digi3D.AI guarda en el registro del usuario el color, el tamaño de los puntos, **Escalar distancia en función del zoom** y **Mostrar triángulos**.
 
 ## Mostrar el panel
 
