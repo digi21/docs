@@ -6,6 +6,7 @@
   * [Compatibilidad](digi3d-ai/compatibilidad.md)
   * [Información para usuarios de versiones anteriores](digi3d-ai/usuarios-de-versiones-anteriores/README.md)
     * [Actualizar los controles de calidad Python de una tabla de códigos](digi3d-ai/usuarios-de-versiones-anteriores/actualizar-guiones-python.md)
+    * [Actualizar las expresiones Python de selecciones y órdenes](digi3d-ai/usuarios-de-versiones-anteriores/actualizar-expresiones-python.md)
   * [Primeros pasos](digi3d-ai/primeros-pasos/README.md)
     * [Instalación de Digi3D.AI](digi3d-ai/primeros-pasos/instalacion-digi3d-ai.md)
     * [Usuarios de versiones anteriores](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/README.md)
