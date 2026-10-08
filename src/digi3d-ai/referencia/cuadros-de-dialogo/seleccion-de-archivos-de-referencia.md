@@ -12,3 +12,5 @@ Digi3D.AI muestra este cuadro de diálogo al abrir un archivo de dibujo que tien
 * **Cancelar**: abre el archivo de dibujo sin cargar ningún archivo de referencia y sin quitar los eliminados.
 
 Los archivos que no se marcan siguen asociados al archivo de dibujo y vuelven a aparecer en la lista la próxima vez que lo abras.
+
+La lista sale del [archivo de archivos de referencia](../archivos/archivo-de-archivos-de-referencia.md) del archivo de dibujo.
