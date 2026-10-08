@@ -30,7 +30,7 @@ Inserta vértices cada 2 m como máximo en las entidades de todos los códigos q
 
 ## Cuadro de diálogo
 
-Si ejecutas la orden sin parámetros, o solo con la distancia, aparece el cuadro de diálogo [Selecciona códigos](/digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md) para elegir los códigos o una etiqueta de la tabla de códigos, con un campo propio para escribir la **Distancia máxima (m)**. La orden recuerda la última distancia que has usado.
+Si ejecutas la orden sin parámetros, o solo con la distancia, aparece el cuadro de diálogo [Selecciona códigos](/digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md) para elegir los códigos o una etiqueta de la tabla de códigos, con un campo propio para escribir la **Distancia máxima (m)**. El cuadro propone la última distancia aceptada en él (5 la primera vez). Si la distancia se indica como parámetro, el cuadro muestra esa distancia; la que se indica por parámetro no se guarda.
 
 ![Cuadro de diálogo Densificar polilíneas](../../../../../images/densifica.png)
 
@@ -42,8 +42,11 @@ También se puede ejecutar desde **Dibujar/Densificar polilíneas...**.
 - La longitud de cada tramo se mide en planta: la Z no interviene. Si el archivo de dibujo está en coordenadas geográficas, la distancia se mide igualmente en metros.
 - La Z de los vértices nuevos se interpola linealmente entre la de los dos vértices del tramo.
 - Un tramo cuya longitud es igual a la distancia, o menor, no se divide.
-- Solo se modifican las entidades visibles, no borradas y dentro de la región de interés.
-- La distancia tiene que ser mayor que 0.
+- Solo se modifican las entidades del archivo de dibujo activo que están visibles, no borradas y dentro de la región de interés.
+- Cada entidad densificada se sustituye por una copia con los vértices nuevos.
+- La distancia tiene que ser mayor que 0. Si no lo es, la orden muestra «La distancia máxima entre vértices tiene que ser mayor que 0.» y no modifica nada.
+- Si una línea pasaría de 10.000.000 de vértices, o si un tramo no se puede medir, la orden muestra un mensaje de error y no modifica ninguna entidad.
+- Sin códigos, la orden termina sin hacer nada.
 
 ## Véase también
 
