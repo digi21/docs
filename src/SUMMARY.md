@@ -1314,6 +1314,8 @@
       * [Selecciona códigos](digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md)
       * [Seleccione códigos](digi3d-ai/referencia/cuadros-de-dialogo/seleccione-codigos.md)
     * [Archivos](digi3d-ai/referencia/archivos/README.md)
+      * [Archivo de archivos de referencia](digi3d-ai/referencia/archivos/archivo-de-archivos-de-referencia.md)
+      * [Archivo de propiedades de la carpeta](digi3d-ai/referencia/archivos/archivo-de-propiedades-de-la-carpeta.md)
       * [Archivo de configuración Digi3DNET.db](digi3d-ai/referencia/archivos/archivo-de-configuracion-digi3dnet.db.md)
       * [Archivo de configuración de teclas](digi3d-ai/referencia/archivos/archivo-de-configuracion-de-teclas/README.md)
         * [Formato](digi3d-ai/referencia/archivos/archivo-de-configuracion-de-teclas/formato.md)
