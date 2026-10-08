@@ -16,9 +16,11 @@ Para resolverlo, sustituye el entorno Python de la tabla de códigos por la últ
 1. **Haz una copia de seguridad del archivo de la tabla de códigos.** Los controles nuevos no funcionan con las versiones anteriores de Digi3D: si vas a seguir usando la tabla con ellas, usa la copia.
 2. Abre la tabla de códigos con el [Editor de tablas de códigos](../referencia/editor-de-tablas-de-codigos/README.md).
 3. Selecciona la pestaña [Entorno Python](../referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md).
-4. Pulsa el botón **Descargar de GitHub la última versión**. El contenido de la pestaña se sustituye por la versión descargada.
+4. Pulsa el botón **Descargar de GitHub la última versión**, debajo del editor. El contenido de la pestaña se sustituye por la versión descargada.
 5. Pulsa **Aplicar**.
 6. Pulsa **Aceptar**.
+
+![Pestaña Entorno Python con el botón Descargar de GitHub la última versión](../../images/pestana-entorno-python.png)
 
 Al abrir de nuevo el archivo de dibujo en Digi3D.AI, los controles de calidad funcionan.
 

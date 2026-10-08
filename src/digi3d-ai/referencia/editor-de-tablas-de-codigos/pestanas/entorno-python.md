@@ -1,6 +1,8 @@
 # Entorno Python
 <!-- id: entorno-python -->
 
+![Pestaña Entorno Python del editor de tablas de códigos](../../../../images/pestana-entorno-python.png)
+
 Esta pestaña contiene el código Python que Digi3D.AI carga con la tabla de códigos: las funciones de los [controles de calidad](../../../programacion/python/controles-de-calidad/README.md) y las funciones auxiliares que usan las expresiones Python de la tabla.
 
 ## Campos
