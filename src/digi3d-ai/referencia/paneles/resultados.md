@@ -1,9 +1,13 @@
 # Resultados
 <!-- id: resultados -->
 
-![Panel de resultados](../../../images/panelresultados.png)
+![Panel Resultados con la salida de la orden BININFO](../../../images/panel-resultados.png)
 
-Este panel muestra resultados generados por ciertas órdenes como la orden [BININFO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bininfo.md).
+Este panel muestra los mensajes de Digi3D.AI y los resultados que escriben ciertas órdenes, como [BININFO](../ventana-de-dibujo/ordenes/b/bininfo.md). Cada mensaje se añade al final y el panel se desplaza para mostrarlo.
+
+## Barra de herramientas
+
+* **Limpiar**: borra el contenido del panel.
 
 ## Mostrar el panel
 
