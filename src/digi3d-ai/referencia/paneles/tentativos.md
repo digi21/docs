@@ -20,7 +20,10 @@ Al hacer doble clic sobre un código, este pasa a ser el código activo de la ve
 
 ## Mostrar el panel
 
-Se puede mostrar el panel mediante la opción del menú **Ventana/Tentativos**.
+Se puede mostrar el panel de las siguientes formas:
+
+* Mediante la opción del menú **Ventana/Tentativos**.
+* Pulsando Alt+Mayús+S.
 
 ## Véase también
 
