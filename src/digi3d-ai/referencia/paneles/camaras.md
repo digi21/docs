@@ -1,13 +1,14 @@
 # Cámaras
 <!-- id: panel-camaras -->
 
-![Panel Cámaras con cuatro cámaras](../../../images/panel-camaras.png)
+![Panel Cámaras con tres cámaras](../../../images/panel-camaras.png)
 
 Este panel define las cámaras con las que la ventana de dibujo muestra el dibujo en perspectiva. Cada cámara es un grupo con su nombre. El nombre de la cámara activa aparece en blanco y el de las demás en gris. Para activar otra cámara, haz clic en su nombre.
 
 ## Barra de herramientas
 
-* **Añadir cámara**: añade una cámara con los mismos parámetros que la cámara activa y la hace activa.
+* **Añadir cámara** (**+**): añade una cámara con los mismos parámetros que la cámara activa y la hace activa.
+* **Eliminar cámara** (**−**): elimina la cámara seleccionada después de pedir confirmación. La última cámara no se puede eliminar.
 
 ## Campos de cada cámara
 
