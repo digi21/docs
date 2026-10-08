@@ -17,6 +17,8 @@ La orden también acepta el formato antiguo de siete parámetros, en el que el p
 
 Con otro número de parámetros, la orden los ignora y muestra un cuadro de diálogo con las equidistancias, los códigos, el factor de suavizado y la opción de respetar las curvas existentes con sus códigos.
 
+![Cuadro de diálogo Curvado](../../../../../images/curvado.png)
+
 ## Observaciones
 
 1. Selecciona la línea que actúa como límite de la zona a curvar.
