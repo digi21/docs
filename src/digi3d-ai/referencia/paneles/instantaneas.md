@@ -3,7 +3,9 @@
 
 ![Panel Instantáneas mostrando la instantánea de un punto de apoyo](../../../images/panel-instantaneas.png)
 
-Este panel muestra la instantánea del punto que se está midiendo: la imagen que se guardó al medir ese mismo punto en una orientación anterior. La cruz señala la posición del punto en la instantánea, de modo que puedes localizarlo en el modelo.
+Este panel muestra la instantánea del punto que se está midiendo: la imagen que se guardó al medir ese mismo punto en una orientación anterior. Un aspa (X) de 31 píxeles en el centro del panel señala la posición del punto en la instantánea, de modo que puedes localizarlo en el modelo. El aspa se dibuja con el color del índice de la ventana fotogramétrica.
+
+El zoom de la instantánea es el mismo que el de la ventana fotogramétrica: al cambiar el zoom de la ventana fotogramétrica, cambia también el de la instantánea.
 
 El panel aparece automáticamente en la ventana fotogramétrica al ejecutar la orden [AEROTRI](../ventana-fotogrametrica/ordenes/a/aerotri.md) (opción **Medida de aerotriangulación** del menú **Orientaciones**) y se cierra al terminarla. No se puede abrir desde ningún otro sitio.
 
@@ -17,3 +19,5 @@ El panel solo muestra algo si al medir los puntos se guardaron sus instantáneas
 
 * Activa la opción [Almacenar instantánea](../cuadros-de-dialogo/configuracion/orientacion-absoluta/almacenar-instantanea.md) de la configuración.
 * El directorio y el tamaño de las instantáneas se configuran en [Instantáneas](../cuadros-de-dialogo/configuracion/instantaneas/README.md).
+
+El panel lee la instantánea del archivo `<punto>.bmp`, donde `<punto>` es el nombre del punto, dentro del directorio de instantáneas configurado. Ese directorio es relativo al directorio de trabajo.
