@@ -7,9 +7,16 @@ Permite generar un fichero con la información acerca de la producción del arch
 
 No admite parámetros.
 
-## Observaciones
+## Cuadro de diálogo Control de producción
 
-La orden muestra un cuadro de diálogo en el que indicas el archivo HTML de salida y la pausa máxima, en minutos \(valor por defecto: 5\).
+![Cuadro de diálogo Control de producción](../../../../../images/control-de-produccion-orden.png)
+
+Esta orden solicita en este cuadro de diálogo:
+
+* **Pausa máxima**: en minutos (valor por defecto: 5). El valor se recuerda para la próxima vez.
+* **Examinar...**: elige el archivo HTML del informe. El botón **Comenzar** se habilita después de elegirlo.
+
+## Observaciones
 
 La orden calcula la producción a partir de la fecha y hora de creación de las líneas no borradas del archivo de dibujo. Las demás entidades no se tienen en cuenta. Dos líneas consecutivas del mismo día separadas por menos de la pausa máxima cuentan como tiempo de trabajo.
 
