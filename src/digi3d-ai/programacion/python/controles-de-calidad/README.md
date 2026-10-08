@@ -22,8 +22,10 @@ Hay un repositorio con muchos controles listos para usar:
 
 ## Cómo se asignan a un código
 
-En el **Editor de Tablas de Códigos**, en la pestaña *Python*, se pegan los guiones con las
-funciones de control. Después, en cada código, se añaden los controles deseados en el campo
+En el **Editor de Tablas de Códigos**, en la pestaña [Entorno Python](../../../referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md),
+se pegan los guiones con las funciones de control, o se descargan los de Digi21 con el botón
+**Descargar de GitHub la última versión**. Las tablas de versiones anteriores de Digi3D hay que
+[actualizarlas](../../../usuarios-de-versiones-anteriores/actualizar-guiones-python.md). Después, en cada código, se añaden los controles deseados en el campo
 **Controles de calidad a aplicar**, indicando los parámetros de cada uno.
 
 ## Cómo se declara un control de calidad
