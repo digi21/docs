@@ -1,36 +1,37 @@
 # Tareas
 <!-- id: tareas -->
 
-![Panel de tareas](../../../images/paneltareas.png)
+![Panel Tareas con errores de intersección de líneas](../../../images/panel-tareas.png)
 
-Este panel muestra tareas (habitualmente errores) generadas por órdenes que son capaces de generar tareas, como por ejemplo la orden [DETECTAR_LINEAS_NO_CONECTADAS](../ventana-de-dibujo/ordenes/d/detectar-bucles.md).
+Este panel muestra las tareas (errores, advertencias y mensajes) que generan algunas órdenes, como [DETECTAR_LINEAS_NO_CONECTADAS](../ventana-de-dibujo/ordenes/d/detectar-bucles.md) o las órdenes de control topológico, y algunos importadores al cargar un archivo de dibujo.
 
-Las tareas se muestran en el contenido principal del panel con cuatro columnas:
+Al hacer doble clic sobre una tarea se ejecuta su acción: centrar una geometría en la ventana de dibujo, hacer zoom a una geometría, mostrar un cuadro de diálogo, etc. Algunas tareas tienen además un menú contextual con más opciones, que se abre con el botón derecho del ratón.
 
-| Columna     | Descripción                                                                        |
-| ----------- | ---------------------------------------------------------------------------------- |
-| Tipo        | Muestra un icono indicando si la tarea es un Error, una Advertencia o un Mensaje.  |
-| Descripción | Descripción del error/advertencia/mensaje.                                         |
-| Archivo     | Archivo al que pertenece la geometría que ha desencadenado que se genere la tarea. |
-| Módulo      | Extensión de Digi3D.AI que implementa la orden que ha generado la tarea.          |
+## Columnas
 
-Estas columnas son ordenables, de manera que, si pulsamos sobre el título de una columna, se ordenará por dicha columna o ascendente o descendentemente, en función del número de veces que pulsamos el título de la columna.
+| Columna     | Descripción |
+| ----------- | ----------- |
+| Categoría   | Icono que indica si la tarea es un error, una advertencia o un mensaje. |
+| Orden       | Número de la tarea en el orden en el que se generó. |
+| Descripción | Descripción de la tarea. |
+| Archivo     | Archivo de dibujo al que pertenece la geometría que ha generado la tarea. |
+| Módulo      | Extensión de Digi3D.AI que ha generado la tarea. |
+| Acciones    | Casilla **No es un error**, en las tareas que la admiten. |
 
-Si hacemos doble clic sobre una tarea se desencadenará una acción que podrá ser que el programa centre una geometría en la ventana de dibujo, que haga un zoom extendido a una geometría, que se muestre un cuadro de diálogo, etc.
+Al pulsar sobre el título de una columna, las tareas se ordenan por esa columna, de forma ascendente o descendente.
+
+Cuando una orden genera varias tareas iguales, la primera muestra una flecha a la izquierda de la descripción. Al desplegarla se muestran las demás como subtareas.
+
+## No es un error
+
+Al marcar la casilla **No es un error** de una tarea, esa tarea y sus subtareas se añaden al archivo `tareasdescartadas.txt` de la carpeta del archivo de dibujo. Las tareas de ese archivo no se vuelven a mostrar cuando se generan de nuevo. Al desmarcar la casilla, la tarea se quita del archivo.
 
 ## Barra de herramientas
 
-Dispone de una barra de herramientas que permite interactuar con el contenido del panel.
-
-### Botones
-
-* Botón que activa/desactiva la visualización de tareas marcadas como error.
-* Botón que activa/desactiva la visualización de tareas marcadas como advertencia.
-* Botón que activa/desactiva la visualización de tareas marcadas como mensaje.
-* Cuadro para introducir un criterio de búsqueda.
-* Botón que ejecuta la siguiente tarea que tenga la palabra introducida en cuadro de búsqueda.
-* Botón que ejecuta la tarea anterior que tenga la palabra introducida en cuadro de búsqueda.
-* Botón que activa/desactiva la visualización de tareas ocultas.
+* **Errores**, **Advertencias** y **Mensajes**: muestran el número de tareas de cada tipo. Al pulsarlos se muestran u ocultan las tareas de ese tipo.
+* **Buscar**: cuadro para escribir un texto. Al pulsar Intro, se selecciona la siguiente tarea cuya descripción contiene el texto. La búsqueda distingue mayúsculas de minúsculas.
+* **Anterior** y **Siguiente**: seleccionan la tarea anterior o la siguiente cuya descripción contiene el texto del cuadro **Buscar**.
+* **Borrar tareas**: elimina todas las tareas del panel.
 
 ## Mostrar el panel
 
