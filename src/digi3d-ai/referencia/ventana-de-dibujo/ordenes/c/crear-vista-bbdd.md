@@ -11,19 +11,23 @@ No admite parámetros.
 
 ![Cuadro de diálogo Crear una vista de base de datos](../../../../../images/crear-una-vista-de-base-de-datos.png)
 
-Esta orden solicita en este cuadro de diálogo el archivo de dibujo del que crear la vista. El desplegable muestra solo los archivos de dibujo cargados que tienen una base de datos asociada. Si no hay ninguno, la orden lo indica y termina.
+Esta orden solicita en este cuadro de diálogo el archivo de dibujo del que crear la vista. El desplegable muestra solo los archivos de dibujo cargados que tienen una base de datos asociada. El botón **Aceptar** está deshabilitado hasta que se elige un archivo.
+
+Si no hay cargado ningún archivo con base de datos, aparece el mensaje «No hay cargado ningún archivo con base de datos asociada» y la orden termina.
 
 ## Observaciones
 
-Al pulsar **Aceptar**, la orden añade un archivo de referencia llamado «Vista de base de datos de: *archivo*» y muestra el panel [Archivos de dibujo](../../../paneles/archivos-de-dibujo.md). Esta vista escribe en el centro de cada geometría no borrada el valor de un campo de la base de datos, dentro de un rectángulo con fondo, o *NULL* si el campo está vacío. Solo lo escribe para los códigos cuya tabla es la elegida.
+Al pulsar **Aceptar**, la orden añade un archivo de referencia llamado «Vista de base de datos de: *archivo*» y muestra el panel [Archivos de dibujo](../../../paneles/archivos-de-dibujo.md). Esta vista escribe el valor de un campo de la base de datos dentro de un rectángulo con fondo, o *NULL* si el campo está vacío. El texto empieza en el centro de la geometría. Solo lo escribe para las geometrías no borradas cuyo centro está en pantalla y para los códigos cuya tabla es la elegida.
+
+La vista no muestra nada hasta que se eligen la tabla y el campo.
 
 En el panel Archivos de dibujo, las propiedades de la vista permiten elegir:
 
-* **Tabla**: la tabla de la base de datos de la que se toma el valor.
+* **Tabla**: la tabla de la base de datos de la que se toma el valor. Al cambiar la tabla, **Campo** se vacía.
 * **Campo**: el campo de esa tabla que se muestra.
-* **Color de fondo**: el color del rectángulo que rodea al texto.
-* **Color del texto**: el color del texto.
-* **Altura**: el tamaño del texto, en píxeles.
+* **Color de fondo**: el color del rectángulo que rodea al texto. Por defecto, azul.
+* **Color del texto**: el color del texto. Por defecto, blanco.
+* **Altura**: el tamaño del texto, en píxeles. Por defecto, 20.
 
 ## Características de la orden
 
