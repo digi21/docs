@@ -7,7 +7,7 @@ Este cuadro de diálogo indica qué archivos de asignación de teclas (`.keyboar
 
 ## Abrir el cuadro de diálogo
 
-Selecciona la opción del menú **Herramientas/Configuración de teclados virtuales**. La opción solo aparece en el menú que muestra Digi3D.AI cuando no hay ninguna ventana de dibujo ni fotogramétrica abierta.
+Selecciona la opción del menú **Herramientas/Configurar teclados virtuales...**. La opción solo aparece en el menú que muestra Digi3D.AI cuando no hay ninguna ventana de dibujo ni fotogramétrica abierta. Con los proyectos activados, la opción está deshabilitada.
 
 ## Campos
 
@@ -15,12 +15,14 @@ Selecciona la opción del menú **Herramientas/Configuración de teclados virtua
 * **Añadir...**: selecciona un archivo `.keyboard.xml` y lo añade al final de la lista, con la casilla marcada. Si el archivo ya está en la lista, no se añade.
 * **Quitar**: quita de la lista el archivo seleccionado.
 * **^** y **v**: suben o bajan una posición el archivo seleccionado.
-* **Aceptar**: guarda la lista.
+* **Aceptar**: guarda la lista. La lista se guarda para el usuario de _Windows_ actual; cada usuario del equipo tiene la suya.
 * **Cancelar**: cierra el cuadro de diálogo sin guardar los cambios.
 
 ## Observaciones
 
-Al abrir una ventana de dibujo o una ventana fotogramétrica, Digi3D.AI carga todos los archivos de la lista que tienen la casilla marcada.
+Al abrir una ventana de dibujo o una ventana fotogramétrica, Digi3D.AI carga todos los archivos de la lista que tienen la casilla marcada. Con los proyectos activados, Digi3D.AI no usa esta lista: carga solo el archivo indicado en **Teclado** en la configuración del proyecto (ver [Configurar proyectos](configurar-proyectos.md)).
+
+Si un archivo no se puede cargar, Digi3D.AI muestra el error «No se pudo cargar un archivo de configuración de teclas», con la ruta del archivo y la causa en **Más información**, y continúa con el archivo siguiente.
 
 Si hay más de un archivo cargado, cambia de uno a otro con:
 
