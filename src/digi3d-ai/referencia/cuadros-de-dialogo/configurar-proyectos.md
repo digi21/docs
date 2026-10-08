@@ -20,12 +20,13 @@ Selecciona la opción del menú **Herramientas/Configurar proyectos**. La opció
 * **Eliminar**: elimina la configuración seleccionada en el momento, sin pulsar **Guardar**.
 * **Rejilla de propiedades** de la configuración:
   * **Sistema de referencia de coordenadas**: el sistema de referencia de coordenadas de la ventana de dibujo.
-  * **Registro**: **Escala**, **Incremento de registro**, **Equidistancia**, **Tolerancia a generalizar**, **Corrección de Z** y **Sigma**. Son los mismos parámetros de la pestaña [Archivo de dibujo](nuevo-proyecto/archivo-de-dibujo.md).
-  * **Entorno**: **Tabla de códigos** y **Teclado** (archivo de asignación de teclas). **Directorio de macroinstrucciones** y **Directorio de símbolos** se guardan, pero Nuevo proyecto no los aplica.
+  * **Registro**: **Escala**, **Incremento de registro**, **Equidistancia**, **Altura de textos**, **Tolerancia a generalizar**, **Corrección de Z** y **Sigma**. Son los mismos parámetros de la pestaña [Archivo de dibujo](nuevo-proyecto/archivo-de-dibujo.md). **Escala** admite cualquier valor y ofrece una lista de escalas de 100 a 250000.
+  * **Entorno**: **Tabla de códigos**, **Directorio de macroinstrucciones**, **Teclado** (archivo de asignación de teclas), **Directorio de símbolos** y **Orden de inicio**. **Orden de inicio** es la orden que se ejecuta cada vez que se abre un archivo de dibujo; para ejecutar un archivo de macroinstrucciones, escribe `@` seguido de su ruta. Si **Directorio de macroinstrucciones** o **Directorio de símbolos** están vacíos, Digi3D.AI usa los directorios del cuadro de diálogo **Configuración**.
 * **Configurar parámetros de importación/exportación**: si está marcada, la configuración incluye los parámetros de los importadores/exportadores. Selecciona un formato en la lista inferior para editar sus propiedades en la rejilla **Propiedades del importador/exportador**. Al abrir un archivo de dibujo con esta configuración, se usan estos parámetros y Nuevo proyecto no muestra la categoría del motor de importación/exportación.
 * **Guardar**: guarda la configuración seleccionada.
 * **Salir**: cierra el cuadro de diálogo. Los cambios que no se han guardado se pierden.
 
 ## Observaciones
 
+* Si Digi3D.AI no se ejecuta como administrador, **Guardar** y **Eliminar** muestran el icono del escudo de elevación de _Windows_. Al pulsarlos no se pide elevación: guardan o eliminan la configuración igualmente.
 * Las configuraciones son comunes a todos los usuarios del equipo: se guardan en el [archivo de configuración Digi3DNET.db](../archivos/archivo-de-configuracion-digi3dnet.db.md).
