@@ -10,8 +10,8 @@ Los tipos de búsqueda que trae Digi3D.AI están en el repositorio de código ab
 ## Campos
 
 * **Tipo de búsqueda** (desplegable superior): el criterio de búsqueda. Según el tipo elegido, la zona central del panel muestra sus opciones.
-* **Enviar los resultados a**: dónde se envían las entidades localizadas:
-  * Ventana **Resultados de la búsqueda 1** o **Resultados de la búsqueda 2**.
+* **Enviar los resultados a**: dónde se envían las entidades localizadas. Al abrir el panel está seleccionada la ventana **Resultados de la búsqueda 1**.
+  * Ventana **Resultados de la búsqueda 1** o **Resultados de la búsqueda 2**: Digi3D.AI muestra el panel elegido, borra los resultados que contenía y añade las entidades localizadas.
   * **Orden activa**: la orden que se está ejecutando. Si la orden admite selección múltiple, recibe las entidades localizadas y realiza su tarea con ellas.
 * **Buscar**: busca en el archivo de dibujo activo de la ventana de dibujo. Se habilita al elegir un tipo de búsqueda; si no hay ninguna ventana de dibujo abierta, no hace nada.
 
