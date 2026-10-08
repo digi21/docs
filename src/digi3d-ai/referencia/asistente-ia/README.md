@@ -28,15 +28,20 @@ La primera vez que abres el panel hay que elegir un proveedor y configurarlo:
 2. Pulsa el botón **⚙** de la cabecera. Aparecen los campos **URL** y **API key**.
 3. Escribe la **API key** (clave de acceso) que te ha dado el proveedor. Los servidores locales no
    necesitan clave.
-4. Revisa la **URL**. El campo muestra la dirección habitual del proveedor; cámbiala solo si el
-   proveedor lo requiere: Azure OpenAI, un servidor local en otro equipo o un servidor compatible con la
-   API de OpenAI.
+4. Revisa la **URL**. Si el campo está vacío, Digi3D.AI usa la dirección habitual del proveedor, que
+   aparece en gris dentro del campo. Azure OpenAI y OpenAI-compatible no tienen dirección habitual: en
+   esos proveedores escribe la URL. Cámbiala también para un servidor local en otro equipo.
 5. Pulsa **Guardar**.
-6. Elige el modelo en el desplegable **Modelo**.
+6. Elige el modelo en el desplegable **Modelo**. Sin un modelo elegido, el asistente no envía la
+   petición y muestra un aviso en la conversación.
 
-La API key se guarda cifrada en el equipo. Digi3D.AI guarda la
-configuración de cada proveedor por separado, así que puedes cambiar de proveedor sin volver a
-escribir las claves.
+Digi3D.AI guarda la configuración de cada proveedor por separado, así que puedes cambiar de proveedor
+sin volver a escribir las claves. La URL y el modelo se guardan para cada usuario de _Windows_. La API
+key se guarda cifrada con la protección de datos de _Windows_ (DPAPI) a nivel de equipo: la comparten
+todos los usuarios del equipo y no sirve si se copia a otro equipo.
+
+Al guardar una URL o una API key nuevas, el asistente olvida la conversación en curso, aunque los
+mensajes siguen en pantalla.
 
 Las instrucciones de cada proveedor están en estas páginas:
 
@@ -52,8 +57,10 @@ Las instrucciones de cada proveedor están en estas páginas:
 El desplegable **Modelo** muestra:
 
 - los modelos recomendados del proveedor, si los tiene;
-- los modelos que devuelve el servidor del proveedor. Digi3D.AI pide esta lista al abrir el panel, al
-  cambiar de proveedor y al guardar la configuración. Para pedirla otra vez, pulsa **↻**;
+- los modelos que devuelve el servidor del proveedor. Digi3D.AI pide esta lista al arrancar, al
+  cambiar a un proveedor cuya lista todavía no se ha pedido y al guardar una URL o una API key nuevas.
+  No la pide si falta la URL o si falta la API key en un proveedor que la necesita. Azure OpenAI no
+  ofrece esta lista. Para pedirla otra vez, pulsa **↻**;
 - **Otro...**, para escribir a mano el identificador de un modelo que no aparece en la lista.
 
 Digi3D.AI recuerda el modelo elegido para cada proveedor.
@@ -125,8 +132,8 @@ confirmación:
 - borrar geometrías del dibujo;
 - acceder a la red o a servicios web.
 
-Pulsa **Permitir** para ejecutar la operación o **Cancelar** para impedirla. Si cancelas, el asistente
-recibe el aviso y no lo vuelve a intentar. Si marcas **Permitir el resto de operaciones de esta
+Pulsa **Permitir** para ejecutar la operación o **Cancelar** para impedirla. Si cancelas, la operación
+no se ejecuta y el asistente recibe un aviso que le indica que no la repita. Si marcas **Permitir el resto de operaciones de esta
 conversación**, Digi3D.AI no vuelve a preguntar hasta que empieces una conversación nueva.
 
 ## Detener al asistente
@@ -134,7 +141,9 @@ conversación**, Digi3D.AI no vuelve a preguntar hasta que empieces una conversa
 - Mientras el asistente espera la respuesta del proveedor, pulsa **Detener**.
 - Mientras el asistente ejecuta una operación sobre el dibujo, Digi3D.AI no responde a la interfaz y
   el botón **Detener** no funciona: pulsa **Esc** con Digi3D.AI en primer plano. La operación se detiene
-  en menos de un segundo y el asistente te informa de que se ha cancelado.
+  en cuanto vuelve a ejecutar código Python, y el asistente te informa de que se ha cancelado. Si en
+  ese momento está dentro de una función de Digi3D.AI que tarda, la operación se detiene cuando esa
+  función termina.
 - Una operación que tarda más de **5 minutos** se detiene sola. El límite se puede cambiar (ver
   [Ajustes avanzados](#ajustes-avanzados)).
 
@@ -172,8 +181,9 @@ operaciones.
 ## Ajustes avanzados
 
 Estos ajustes se cambian en el registro de Windows, en la clave
-`HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration`. Son valores DWORD. Digi3D.AI los lee
-al abrir el panel de chat.
+`HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration`. Son valores DWORD.
+`ClaudeChatLimiteSegundos` se lee en cada operación del asistente. Los demás se leen al arrancar
+Digi3D.AI, así que un cambio requiere reiniciar el programa.
 
 | Valor | Por omisión | Efecto |
 |---|---|---|
@@ -181,6 +191,7 @@ al abrir el panel de chat.
 | `ClaudeChatConfirmaciones` | 1 | 0 desactiva el cuadro **Confirmación de seguridad**. No se recomienda. |
 | `ClaudeChatTokens` | 0 | 1 muestra en la cabecera los *tokens* (unidades de texto por las que cobran los proveedores) consumidos en la conversación. |
 | `ClaudeChatDebug` | 0 | 1 muestra en la conversación el código que ejecuta el asistente y su resultado, para diagnosticar problemas. |
+| `CrearPanelChat` | 1 | 0 hace que Digi3D.AI no cree el panel de chat al arrancar. |
 
 Un administrador puede sustituir las instrucciones que recibe el asistente creando el archivo de
 texto `%PROGRAMDATA%\Digi3D.NET\ChatSystemPromptParteA.txt`. Si el archivo existe y no está vacío,
