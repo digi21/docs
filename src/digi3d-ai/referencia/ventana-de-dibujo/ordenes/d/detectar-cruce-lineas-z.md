@@ -21,18 +21,27 @@ Esta orden solicita la tolerancia en este cuadro de diálogo.
 
 ## Observaciones
 
-La orden crea una tarea de error por cada cruce en el que la diferencia de Z entre las dos líneas, interpolada en el punto de cruce, sea mayor que la tolerancia.
+En cada cruce en el que la diferencia de Z entre las dos líneas, interpolada en el punto de cruce, sea mayor que la tolerancia, la orden crea dos tareas de error en el panel de tareas: una para cada línea. Las tareas tienen el mismo texto que las de [DETECTAR\_CRUCE\_LINEAS](detectar-cruce-lineas.md): «Se ha localizado una intersección entre líneas». La orden detecta también los cruces de una línea consigo misma.
 
 La orden analiza las líneas y polígonos \(incluidos sus huecos\) visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados. Los códigos admiten los comodines \* y ?. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
 
-Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple y analiza las entidades seleccionadas.
+Si no indicas ningún código, la orden espera a que selecciones un conjunto de entidades mediante una selección múltiple, analiza las entidades seleccionadas y termina.
+
+Si está activada la opción [Vaciar automáticamente](../../../cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel de tareas, la orden vacía el panel al aceptar la tolerancia. La opción está activada por defecto.
+
+Escribe los decimales de la tolerancia con punto: con coma, la orden ignora la parte decimal (`1,5` se lee como 1).
+
+## Opciones de menú
+
+* **Análisis geométricos/Detectar cruces entre líneas si se supera tolerancia en Z/Líneas visibles**: ejecuta la orden con el parámetro `*`, que analiza todas las líneas visibles.
+* Debajo, el submenú muestra una opción por cada etiqueta de la tabla de códigos. Cada opción analiza las líneas con códigos de esa etiqueta.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-cruce-lineas-z.md) |
+| Tipo de orden | [Orden interactiva](detectar-cruce-lineas-z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Análisis geométricos/Detectar cruces entre líneas si se supera tolerancia en Z/Líneas visibles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |
