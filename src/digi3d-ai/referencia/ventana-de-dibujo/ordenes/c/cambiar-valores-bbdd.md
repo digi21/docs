@@ -14,19 +14,25 @@ No admite parámetros.
 Esta orden solicita los códigos y el cambio a realizar en este cuadro de diálogo.
 
 * **Lista de códigos**: los códigos cuyas geometrías se van a cambiar. Se manejan igual que en el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md): **Añadir…** añade códigos, **Borrar** quita el seleccionado y **Limpiar** vacía la lista.
-* **Campo**: el campo de la base de datos que se cambia. El desplegable muestra solo los campos que tienen las tablas de todos los códigos de la lista.
+* **Campo**: el campo de la base de datos que se cambia. El desplegable muestra solo los campos que tienen las tablas de todos los códigos de la lista. El botón **Aceptar** solo está habilitado si hay un campo elegido.
 * **Buscar valor**: el valor que debe tener el campo para que se cambie.
   * **Cualquier valor**: cambia el campo sea cual sea su valor.
   * **Nulo**: cambia solo los campos vacíos.
   * Si no se marca ninguna de las dos, cambia los campos cuyo valor es igual al texto del cuadro.
+  * Si se marcan las dos, **Cualquier valor** tiene prioridad sobre **Nulo**.
 * **Reemplazar por**: el valor nuevo.
   * **Nulo**: deja el campo vacío.
-  * **Uid**: asigna a cada geometría un identificador único (GUID) nuevo.
+  * **Uid**: asigna un identificador único (GUID) nuevo, sin llaves, a cada código que cumple la búsqueda. Una geometría con varios códigos coincidentes recibe un GUID distinto en cada uno.
   * Si no se marca ninguna de las dos, asigna el texto del cuadro.
+  * Si se marcan las dos, **Nulo** tiene prioridad sobre **Uid**.
 
 ## Observaciones
 
-La orden recorre las entidades visibles, no borradas y dentro de la zona de interés del archivo de dibujo activo. En cada código de esas entidades que coincide con uno de los seleccionados, aplica el cambio descrito en el cuadro de diálogo.
+La orden recorre las entidades visibles, no borradas y dentro de la zona de interés del archivo de dibujo activo. En cada código de esas entidades que coincide con uno de los seleccionados, aplica el cambio descrito en el cuadro de diálogo. Cada cambio se guarda en la base de datos en ese momento.
+
+Si la base de datos está abierta en solo lectura, aparece el mensaje «La base de datos está abierta en solo lectura. No se ha cambiado ningún valor.» y la orden termina sin cambiar nada.
+
+Si falla el almacenamiento de un valor en la base de datos, la orden muestra el mensaje de error. Según el tipo de error, la orden deja de procesar el resto de geometrías o continúa con la siguiente. Los cambios guardados antes del error se conservan.
 
 ## Características de la orden
 
