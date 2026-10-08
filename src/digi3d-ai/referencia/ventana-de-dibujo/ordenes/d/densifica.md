@@ -30,7 +30,9 @@ Inserta vértices cada 2 m como máximo en las entidades de todos los códigos q
 
 ## Cuadro de diálogo
 
-Si ejecutas la orden sin parámetros, o solo con la distancia, aparece un cuadro de diálogo para elegir los códigos o una etiqueta de la tabla de códigos, y escribir la **Distancia máxima (m)**. La orden recuerda la última distancia que has usado.
+Si ejecutas la orden sin parámetros, o solo con la distancia, aparece el cuadro de diálogo [Selecciona códigos](/digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md) para elegir los códigos o una etiqueta de la tabla de códigos, con un campo propio para escribir la **Distancia máxima (m)**. La orden recuerda la última distancia que has usado.
+
+![Cuadro de diálogo Densificar polilíneas](../../../../../images/densifica.png)
 
 También se puede ejecutar desde **Dibujar/Densificar polilíneas...**.
 
