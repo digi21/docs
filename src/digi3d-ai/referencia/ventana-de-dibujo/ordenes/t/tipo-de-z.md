@@ -19,15 +19,20 @@ El cambio de un tipo de Z a otro lo puedes hacer tecleando `TIPO_DE_Z=2`
 
 ## Observaciones
 
+* El valor vale 2 (Libre) al iniciar Digi3D.AI y no se guarda entre sesiones.
+* Los valores fuera del intervalo 0-4 se comportan como Libre.
+* El cambio se aplica también a la línea que se está digitalizando.
+* Un punto que no cumple la restricción no se registra y suena el aviso de error. En modo continuo (*stream*) el punto se descarta sin aviso.
+
 Esta orden resulta práctica en las ocasiones en las cuales se necesita restituir un curso de agua en una zona muy llana y se necesita asegurar que el registro se hace de forma descendente.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable entera](tipo-de-z.md) |
+| Tipo de orden | [Variable numérica](/digi3d-ai/referencia/ordenes/variables/variables-numericas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Z descendente<br>Dibujar/Restricciones de polilíneas/Z descendente moderada<br>Dibujar/Restricciones de polilíneas/Sin restricciones de Z<br>Dibujar/Restricciones de polilíneas/Z ascendente moderada<br>Dibujar/Restricciones de polilíneas/Z ascendente |
+| Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[POL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pol.md) |
