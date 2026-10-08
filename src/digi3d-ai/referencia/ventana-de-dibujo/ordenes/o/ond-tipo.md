@@ -15,7 +15,11 @@ En esta orden, `P` incluye los puntos, los complejos puntuales, los puntos orien
 
 La orden muestra las geometrías del código de los tipos indicados. Las geometrías de los demás tipos conservan su estado. Un código que comienza por `#` representa todos los códigos de la tabla de códigos que tienen asignada esa etiqueta.
 
-Sin parámetros, la orden muestra un cuadro de diálogo con la lista de códigos y una casilla por tipo de geometría \(líneas, puntos, textos, polígonos y complejos\). La orden muestra los tipos marcados. Con todas las casillas marcadas, la orden afecta a todos los tipos de geometría, también a los que no tienen casilla, como las imágenes.
+La orden actúa sobre todos los archivos de dibujo cargados. Cambia a la vez la ventana de dibujo y las ventanas fotogramétricas.
+
+Los parámetros se indican en pares «código tipo». Con un solo parámetro, la orden no hace nada.
+
+Sin parámetros, la orden muestra el cuadro de diálogo [Selecciona códigos](/digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md) con las casillas **Líneas**, **Puntos**, **Textos**, **Polígonos** y **Complejos**, y los botones **Todos** y **Ninguno**, que marcan y desmarcan las cinco casillas. Cada vez que se ejecuta la orden, el cuadro se abre con la lista de códigos vacía y las cinco casillas marcadas. La orden muestra los tipos marcados de los códigos de la lista. Con las cinco casillas marcadas, la orden afecta a todos los tipos de geometría, también a las imágenes. Sin ninguna casilla marcada, la orden no cambia nada.
 
 ## Características de la orden
 
