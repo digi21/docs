@@ -11,7 +11,7 @@ Selecciona la opción del menú **Herramientas/Configuración de ratones, joysti
 
 ## Campos
 
-* **Dispositivos HID**: los ratones, joysticks y mandos conectados al equipo, con el nombre de producto que informa cada dispositivo. Si el dispositivo no informa de su nombre, aparece como **Desconocido**.
+* **Dispositivos HID detectados**: los ratones, joysticks y mandos conectados al equipo, con el nombre de producto que informa cada dispositivo. Si el dispositivo no informa de su nombre, aparece como **Desconocido**. La lista se rellena al iniciar Digi3D.AI: un dispositivo que se conecta después no aparece hasta que se reinicia el programa. Un joystick que Digi3D.AI no puede abrir no aparece en la lista.
 * **Configurar...**: abre los parámetros del dispositivo seleccionado. Está deshabilitado mientras no hay ningún dispositivo seleccionado. Abre **Parámetros de ratón** para un ratón y **Parámetros del dispositivo** para cualquier otro dispositivo.
 * **Salir**: cierra el cuadro de diálogo.
 
@@ -40,5 +40,5 @@ Pulsa **Aceptar** para guardar los parámetros o **Cancelar** para descartarlos.
 
 ## Observaciones
 
-* Los parámetros se guardan para el usuario de _Windows_ y para cada dispositivo por separado.
+* Los parámetros se guardan para el usuario de _Windows_ y para el nombre de producto del dispositivo. Dos dispositivos con el mismo nombre comparten los parámetros.
 * Para asignar órdenes a los botones de un ratón, utiliza el cuadro de diálogo [Programar botones](programar-botones.md).
