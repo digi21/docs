@@ -9,8 +9,8 @@ Este panel muestra páginas HTML de ayuda. Al abrirlo muestra una página que ex
   1. Escribe el nombre del archivo .html en el campo [Archivo de ayuda](../editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md) del código, en el **Editor de tablas de códigos**.
   2. Activa la opción [Mostrar ayudas por código](../cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/mostrar-ayudas-por-codigo.md) del cuadro de diálogo **Configuración**.
   3. Indica en [Directorio de ayudas de códigos](../cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/directorio-de-ayudas-de-codigos.md) la carpeta que contiene los archivos .html.
-* **La ayuda de un campo de la base de datos.** Al seleccionar un campo en el panel [Campos de la base de datos](campos-de-la-base-de-datos.md), el panel muestra su nombre, su descripción y, si el campo tiene una lista de valores, una tabla con el valor, el título y la descripción de cada uno.
-* **Cualquier documento HTML** que se indique con la orden [MUESTRA_AYUDA](../ventana-de-dibujo/ordenes/m/muestra-ayuda.md), por ejemplo desde una macroinstrucción.
+* **La ayuda de un campo de la base de datos.** Al seleccionar un campo en el panel [Campos de la base de datos](campos-de-la-base-de-datos.md), el panel muestra el campo con el mismo título que el panel **Campos de la base de datos** (su nombre, su título o los dos, según la opción [Nombre a mostrar](../cuadros-de-dialogo/configuracion/base-de-datos/nombre-a-mostrar.md) de la configuración), su descripción y, si el campo tiene una lista de valores, una tabla con el valor, el título y la descripción de cada uno.
+* **Cualquier documento HTML** que se indique con la orden [MUESTRA_AYUDA](../ventana-de-dibujo/ordenes/m/muestra-ayuda.md), por ejemplo desde una macroinstrucción. La orden muestra el panel y carga el documento solo si el archivo existe o si es una dirección web.
 
 ## Mostrar el panel
 
