@@ -7,11 +7,16 @@ Ejecuta macroinstrucciones, también llamadas arrobas.
 
 No admite parámetros.
 
-## Observaciones
+## Cuadro de diálogo Ejecutar archivo de macroinstrucciones
 
-Las arrobas se pueden teclear directamente \(sin el sufijo @\) ó seleccionarse de la lista en la ventana que aparece al ejecutar la orden.
+![Cuadro de diálogo Ejecutar archivo de macroinstrucciones](../../../../../images/ejecutar-archivo-de-macroinstrucciones.png)
 
-En la lista sólo se muestran las arrobas que existen en el directorio de tablas, que se define en el cuadro de diálogo Nuevo Proyecto.
+Esta orden solicita la macroinstrucción a ejecutar en este cuadro de diálogo.
+
+* **Nombre**: escribe el nombre de la macroinstrucción, sin la arroba, y pulsa Intro o el botón **Ejecutar**. Mientras escribes, la lista muestra solo las macroinstrucciones cuyo nombre o descripción contienen el texto.
+* **Lista**: haz doble clic sobre una macroinstrucción para ejecutarla. La lista muestra:
+  * las macroinstrucciones de la [tabla de códigos](../../../editor-de-tablas-de-codigos/pestanas/macroinstrucciones.md), con su descripción;
+  * los archivos de macroinstrucciones (`@nombre`) del [directorio de macroinstrucciones](../../../cuadros-de-dialogo/configuracion/diging/directorio-de-macroinstrucciones.md). Si la primera línea del archivo empieza por `//`, el resto de esa línea se muestra como descripción.
 
 ## Características de la orden
 
@@ -24,4 +29,3 @@ En la lista sólo se muestran las arrobas que existen en el directorio de tablas
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {B1A86A33-6B33-40b2-8C84-693696E7418B} |
-
