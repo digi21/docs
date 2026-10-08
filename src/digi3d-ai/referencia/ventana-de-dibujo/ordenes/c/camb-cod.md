@@ -11,13 +11,17 @@ No admite parámetros.
 
 Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden hay que establecer como código activo el nuevo código con la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
 
-Si la entidad tiene un solo código, la orden le asigna los códigos activos; si el primer código activo tiene comodines, se combina antes con el código de la entidad. Si tiene varios códigos, la orden muestra el cuadro de diálogo **Seleccionar código** para elegir el código que se sustituye por el primer código activo.
+Si el primer código activo tiene comodines, la orden lo combina con el primer código de la entidad. Lo hace así también cuando la entidad tiene varios códigos y se elige cambiar otro de ellos.
+
+Si la entidad tiene un solo código, la orden le asigna los códigos activos. Si tiene varios códigos, la orden muestra el cuadro de diálogo **Seleccionar código** para elegir el código que se sustituye por el primer código activo.
 
 ![Cuadro de diálogo Seleccionar código](../../../../../images/seleccionar-codigo.png)
 
-Selecciona en la lista el código a cambiar y pulsa **Aceptar**. **Cancelar** deja la entidad sin cambios.
+Selecciona en la lista el código a cambiar y pulsa **Aceptar**. **Cancelar**, o **Aceptar** sin ningún código seleccionado, deja la entidad sin cambios.
 
-Esta orden admite selección múltiple. Al terminar, la ventana de resultados muestra el número de entidades seleccionadas y el número de entidades procesadas.
+La orden solo cambia entidades del archivo de dibujo activo. Si seleccionas una entidad de otro archivo de dibujo cargado, suena el aviso de error y la entidad no cambia.
+
+Esta orden admite selección múltiple. Con selección múltiple, la orden ignora las entidades de los demás archivos de dibujo cargados y muestra el cuadro de diálogo **Seleccionar código** una vez por cada entidad que tiene varios códigos. Al terminar, la ventana de resultados muestra el número de entidades seleccionadas y el número de entidades procesadas.
 
 ## Características de la orden
 
