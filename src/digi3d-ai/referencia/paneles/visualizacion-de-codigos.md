@@ -16,12 +16,24 @@ Este panel permite activar y desactivar la visualización de cada código, por s
 * **Código**: nombre del código.
 * **Color**: color del código en la tabla de códigos.
 * **Descripción**: descripción del código en la tabla de códigos.
-* Las dos últimas columnas tienen una casilla que activa o desactiva la visualización del código: la primera en la ventana de dibujo y la segunda en la ventana fotogramétrica.
+* **Ventana de dibujo**: casilla que activa o desactiva la visualización del código en la ventana de dibujo.
+* **Ventana fotogramétrica**: casilla que activa o desactiva la visualización del código en la ventana fotogramétrica.
 
 ## Códigos que aparecen
 
 * Si el archivo de dibujo admite geometrías nuevas, aparecen todos los códigos de la tabla de códigos, de modo que se puede desactivar un código antes de que exista ninguna geometría con él.
-* Si el archivo es de solo lectura o no puede almacenar geometrías, como una conexión con un servidor WMS, solo aparecen los códigos de sus geometrías. Una conexión WMS no tiene geometrías, así que su lista está vacía.
+* Si el archivo es de solo lectura o no puede almacenar geometrías, como una conexión con un servidor WMS, solo aparecen los códigos de sus geometrías. Una conexión WMS no tiene geometrías, así que su lista está vacía y el panel muestra «Este archivo de dibujo no tiene ninguna geometría.».
+* Cuando se añade al archivo una geometría con un código que no está en la lista, ese código se añade a la lista.
+* Los códigos que no existen en la tabla de códigos no aparecen.
+
+## Mostrar el panel
+
+Se puede mostrar el panel de las siguientes formas:
+
+* Mediante la opción del menú **Ventana/Visualización de códigos**.
+* Pulsando Alt+Mayús+V.
+
+La [barra de herramientas Paneles](../barras-de-herramientas/paneles.md) no tiene ningún botón para este panel.
 
 ## Órdenes relacionadas
 
