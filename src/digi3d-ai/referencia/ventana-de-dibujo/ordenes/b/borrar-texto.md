@@ -1,23 +1,55 @@
 # BORRAR\_TEXTO
 <!-- id: borrar-texto -->
 
-Borra todos los textos cuyo "texto" coincida con alguno de los parámetros (admite comodines).
+Borra los textos del archivo de dibujo activo cuyo contenido coincide con alguno de los textos indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Contenido de los textos a borrar (uno o más). Admite los comodines `*` y `?` | Si |
+| 1 … N | Texto a borrar. Admite los comodines `*` y `?`. Un texto con espacios se escribe entre comillas dobles o simples | Sí |
 
 ## Observaciones
 
-La orden compara el contenido de cada texto del archivo de dibujo activo con los valores indicados y borra los textos que coinciden con alguno de ellos.
+La orden recorre los textos del archivo de dibujo activo. No tiene en cuenta los demás archivos de dibujo cargados ni la zona de interés, y borra también los textos que no están visibles.
 
-Con uno o más parámetros, la orden borra sin mostrar ningún cuadro de diálogo; la comparación usa comodines y distingue entre mayúsculas y minúsculas. Sin parámetros, la orden muestra el cuadro de diálogo **Borrar textos**, en el que se escriben los textos a borrar, uno por línea, y se eligen las opciones **Diferenciar entre mayúsculas y minúsculas** y **Utilizar comodines**. Cada línea del cuadro de diálogo es un texto completo, aunque contenga espacios o comas; las líneas vacías se ignoran.
+Un texto se borra si su contenido **completo** coincide con alguno de los textos indicados. Para borrar los textos que contienen `PK` en cualquier posición, escribe `*PK*`.
+
+Los comodines son dos:
+
+- `*` sustituye a cualquier secuencia de caracteres, incluida la secuencia vacía.
+- `?` sustituye a un carácter exactamente.
+
+Con los comodines activos no se puede buscar un `*` o un `?` literal.
+
+### Con parámetros
+
+Cada parámetro es un texto a borrar. Los parámetros se separan con espacios, tabuladores o el signo `=`; la coma no separa parámetros. Para borrar un texto que contiene espacios, escríbelo entre comillas: `BORRAR_TEXTO "PUNTO KILOMETRICO"`.
+
+La orden no muestra ningún cuadro de diálogo. La comparación usa comodines y distingue entre mayúsculas y minúsculas. Al terminar suena un pitido, aunque la orden no haya borrado ningún texto.
+
+### Sin parámetros
+
+La orden muestra el cuadro de diálogo **Borrar textos**:
+
+![Cuadro de diálogo Borrar textos](../../../../../images/borrar-texto.png)
+
+Escribe en el cuadro **Introduce los textos a eliminar (un texto por línea)** un texto por línea. Cada línea es un texto completo, aunque contenga espacios, comas o comillas. La orden quita los espacios y tabuladores del principio y del final de cada línea, e ignora las líneas vacías.
+
+- **Diferenciar entre mayúsculas y minúsculas**: si está marcada, `Rio` no coincide con `RIO`. Si está desmarcada, coinciden, también con letras acentuadas y con la ñ (`camión` coincide con `CAMIÓN`).
+- **Utilizar comodines**: si está marcada, `*` y `?` funcionan como comodines. Si está desmarcada, la orden los compara como caracteres normales.
+
+El cuadro de diálogo se abre siempre vacío y con las dos casillas desmarcadas: no recuerda los valores de la ejecución anterior. **Cancelar** cierra el cuadro de diálogo sin borrar nada.
+
+### Deshacer y archivos de solo lectura
+
+La orden [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) recupera de una vez todos los textos borrados por una ejecución de la orden.
+
+Si el archivo de dibujo activo es de solo lectura, la orden no borra ningún texto, suena el aviso de error y aparece el mensaje **Está intentando almacenar una entidad en un archivo de solo lectura**.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](borrar-texto.md) |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
