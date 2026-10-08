@@ -1,7 +1,7 @@
 # ASIGNAR\_REPRESENTACIONES
 <!-- id: asignar-representaciones -->
 
-Asigna un archivo de representaciones para modificar la representación de las geometrías en pantalla.
+Asigna una lista de reglas de representación dinámica, definidas en Python en la tabla de códigos, para modificar la representación de las geometrías en pantalla.
 
 ## Parámetros
 
@@ -9,21 +9,82 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden muestra un cuadro de diálogo con las funciones de representación disponibles. En el cuadro de diálogo puedes:
+La orden abre el cuadro de diálogo **Asignar representaciones**.
 
-* Añadir funciones a la lista de representaciones a aplicar, o eliminarlas de ella.
-* Cargar un archivo de representaciones o guardar la lista actual en un archivo.
+![Cuadro de diálogo Asignar representaciones](../../../../../images/asignar-representaciones.png)
 
-Al aceptar, la orden asigna la lista de representaciones al documento y regenera la vista. Si cancelas, no cambia nada.
+El cuadro se abre con la lista **Reglas a ejecutar** vacía. No muestra las reglas asignadas anteriormente.
+
+### Reglas disponibles
+
+La lista **Reglas disponibles** muestra las funciones del código de la pestaña [Entorno Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md) de la tabla de códigos que cumplen dos condiciones:
+
+* Llevan el decorador `@dynamic_representation_rule()`.
+* Tienen al menos tres parámetros.
+
+La columna **Nombre de la regla** muestra el nombre de la función. La columna **Descripción** muestra su cadena de documentación (*docstring*); si la función no tiene, muestra `None`. Si la tabla de códigos no define ninguna regla, la lista lo indica.
+
+Digi3D.AI llama a cada regla con tres argumentos con nombre, así que los tres primeros parámetros de la función tienen que llamarse así:
+
+* `geometry`: la geometría que se va a dibujar.
+* `code_drawing`: el código con el que se dibuja.
+* `representations`: la lista de representaciones calculada por las reglas anteriores, o la del código si es la primera regla.
+
+La función devuelve la lista de representaciones con la que se dibuja la geometría. Los parámetros a partir del cuarto son los parámetros propios de la regla. Escríbelos como nombres simples, sin valor por defecto ni anotación de tipo:
+
+```python
+@dynamic_representation_rule()
+def mi_regla(geometry, code_drawing, representations, nombre_codigo, color_asignar):
+    """Descripción que aparece en la columna Descripción"""
+    ...
+    return representations
+```
+
+### Filtrar las reglas
+
+El cuadro de texto situado debajo de **Reglas disponibles** filtra la lista por el nombre de la regla. Escribe una o varias palabras separadas por espacios. La lista muestra las reglas cuyo nombre contiene todas las palabras. El filtro distingue mayúsculas de minúsculas y no busca en la descripción.
+
+### Añadir y eliminar reglas
+
+Para añadir una regla a **Reglas a ejecutar**, selecciónala y pulsa **Añadir**, o haz doble clic sobre ella. Las reglas se aplican en el orden de la lista, y una regla puede añadirse varias veces con parámetros distintos.
+
+Si la regla tiene parámetros propios, se abre el cuadro **Parámetros de la regla de representación dinámica**, con una fila por parámetro:
+
+* Un parámetro cuyo nombre contiene `color` se pide con un selector de color. La regla recibe el color como texto `"R G B"`, por ejemplo `"255 0 0"`.
+* El resto de parámetros se piden como texto. Un entero o un número decimal con punto, sin ceros a la izquierda, se pasa como número. Cualquier otro valor, por ejemplo `020`, se pasa como texto.
+
+Si cancelas el cuadro de parámetros, no se añade la regla. En la lista, la regla se muestra con sus valores, por ejemplo `asignar_color({"color_asignar":"255 0 0", "nombre_codigo":"020"})`.
+
+Para quitar una regla de **Reglas a ejecutar**, selecciónala y pulsa **Eliminar**.
+
+### Archivos de representaciones
+
+La lista **Reglas a ejecutar** puede guardarse en un archivo `.representations`. Es un archivo de texto con una regla por línea, escrita tal como aparece en la lista.
+
+* **Guardar...** guarda la lista en un archivo. Propone el primer archivo del desplegable superior.
+* **Cargar...** abre un archivo y sustituye el contenido de **Reglas a ejecutar** por las reglas del archivo.
+* El desplegable superior contiene los últimos 10 archivos cargados o guardados. Elegir uno sustituye la lista por su contenido. Los archivos que ya no existen no aparecen.
+
+Guardar escribe el archivo en el momento, y la lista de archivos recientes se actualiza al cargar o guardar, aunque después pulses **Cancelar**. Si el archivo no se puede crear, Digi3D.AI muestra un mensaje de error.
+
+Para que una lista de reglas forme parte de la tabla de códigos, añade el archivo `.representations` en la pestaña **Representaciones dinámicas** del editor de tablas de códigos. Después puedes activarla desde el menú **Ver/Representaciones dinámicas** o con la orden [REPRESENTACION\_DINAMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/representacion-dinamica.md).
+
+### Aceptar y cancelar
+
+**Aceptar** asigna las reglas de **Reglas a ejecutar** a la tabla de códigos cargada y regenera la vista. Si la lista está vacía, desactiva la representación dinámica. La asignación no se guarda en la tabla de códigos ni en el archivo de dibujo.
+
+**Cancelar** cierra el cuadro sin cambiar la representación.
+
+Si una regla lanza una excepción o no devuelve una lista de representaciones, Digi3D.AI no muestra ningún mensaje. Esa regla y las siguientes no se aplican a esa geometría, que se dibuja con lo que hayan calculado las reglas anteriores.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](asignar-representaciones.md) |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Representaciones dinámicas/Asignar representaciones manualmente... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | No tiene variables relacionadas |
+| Variables relacionadas | [APLICAR\_REPRESENTACION\_DINAMICA\_GEOMETRIA\_DIBUJANDO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aplicar-representacion-dinamica-geometria-dibujando.md) |
 | Órdenes relacionadas | [REPRESENTACION\_DINAMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/representacion-dinamica.md) |
 | Nombre interno | {0023298C-F9CC-4EAD-838B-520AFD345D62} |
