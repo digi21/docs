@@ -13,3 +13,10 @@ Este cuadro de diálogo crea un archivo de modelo (`.d3d`) y lo añade a la pasa
 * **Área de descripción**: la parte inferior muestra la descripción del parámetro seleccionado.
 * **Crear**: crea el archivo del modelo en el directorio de trabajo, con el nombre del modelo que proporciona el sensor y la extensión `.d3d` (con el sensor Cónico, por ejemplo, **107-108.d3d**). Después añade el modelo a la lista **Modelos** y cierra el cuadro de diálogo.
 * **Cancelar**: cierra el cuadro de diálogo sin crear el modelo.
+
+## Observaciones
+
+* El cuadro de diálogo no valida los campos. **Crear** acepta los parámetros del sensor tal como estén.
+* Si el archivo `.d3d` ya existe, **Crear** lo actualiza con el directorio de trabajo, el sensor y sus parámetros, y conserva el resto de su contenido.
+* Si no se puede escribir el archivo, Digi3D.AI muestra el error «No se ha podido crear el modelo fotogramétrico.», con la ruta del archivo y la descripción del fallo. El modelo se añade igualmente a la lista **Modelos**.
+* **Crear** no comprueba si el modelo ya está en la lista **Modelos**. Si ya está, el modelo aparece dos veces.
