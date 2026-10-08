@@ -3,6 +3,8 @@
 
 Los controles de calidad Python de las tablas de códigos creadas para versiones anteriores de Digi3D no son compatibles con Digi3D.AI. Al abrir un archivo de dibujo con una de esas tablas, o al analizar el control de calidad, Digi3D.AI muestra un error como este:
 
+![Error No module named 'digi3d.relations'](../../images/error-no-module-digi3d-relations.png)
+
 ```text
 ModuleNotFoundError: No module named 'digi3d.relations'; 'digi3d' is not a package
 ```
