@@ -1,43 +1,94 @@
 # Selecciones
 <!-- id: selecciones -->
 
-Esta pestaña permite añadir selecciones con nombre cuya ejecución devuelven un conjunto de geometrías que cumplen con una determinada condición.
+Esta pestaña define selecciones con nombre. Cada selección es una expresión Python que se evalúa con cada geometría de los archivos de dibujo. Selecciona las geometrías para las que la expresión es verdadera.
 
-Las selecciones al igual que las [etiquetas](codigos/propiedades-del-codigo.md#etiquetas)asociadas con los códigos, alteran el interfaz de usuario de Digi3D.AI, pues determinados menús mostrarán las selecciones proporcionadas por la tabla de códigos activa.
+Cada selección tiene un **nombre** y una **expresión**. La lista de la pestaña muestra una fila por selección, con las columnas **Nombre** y **Expresión Python**. El nombre no puede repetirse: al añadir una selección con un nombre que ya existe, el editor avisa y no la añade.
 
-Las selecciones tienen un **nombre** y una **expresión** en el lenguaje de programación _Python_. Esta expresión devolverá verdadero para todas las geometrías del archivo de dibujo que cumplan la condición que define la selección.
+## Botones
 
-## Ejemplos:
+| Botón | Acción |
+| :--- | :--- |
+| **Añadir** | Abre el cuadro de diálogo **Nueva selección**, donde se escriben el nombre y la expresión. |
+| **Modificar** | Abre el mismo cuadro con el nombre y la expresión de la fila seleccionada. |
+| **Eliminar** | Elimina la fila seleccionada. |
 
-La selección "Todas las geometrías" se definirá de la siguiente manera:
+Los cambios se guardan en la tabla de códigos al pulsar el botón de aplicar del editor.
+
+## Dónde se usan las selecciones
+
+Las selecciones modifican la interfaz de Digi3D.AI. Los nombres de las selecciones de la tabla de códigos activa aparecen como opciones en dos menús:
+
+* **Ver/(selecciones de la tabla de códigos)**: ejecuta [ON\_SOLO\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_solo_expresion_python.md) con la expresión de la selección.
+* **Inmediato/Selecciona por expresión Python.../(selecciones de la tabla de códigos)**: ejecuta [SELECCIONA\_EXPRESION\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona_expresion_python.md) con la expresión de la selección.
+
+Las órdenes [ON\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md), [OFF\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off_expresion_python.md) y [ON\_SOLO\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_solo_expresion_python.md) también admiten el nombre de una selección como parámetro, precedido de `#`:
+
+```text
+ON_EXPRESION_PYTHON=#Edificios
+```
+
+## La expresión
+
+* Es una única expresión de Python, no un guion: no admite `import`, asignaciones ni bloques.
+* La variable `g` contiene la geometría que se está evaluando. Es un objeto [Geometry](/digi3d-ai/programacion/python/referencia/digi21.base/geometry.md) cuyo tipo concreto es `Point`, `Text`, `Line`, `Polygon` o `Complex`.
+* No se crea ninguna variable por atributo de base de datos. Los atributos del primer código están en el diccionario `g.codes[0].attributes` (nombre del campo → valor). Para leer un campo, usa `g.codes[0].attributes.get('campo')`, que devuelve `None` si el campo no existe.
+* La expresión debe devolver `True` o `False`. También se acepta `None` (falso) o un número (verdadero si es distinto de 0). Una cadena, una lista u otro tipo produce un error.
+* La expresión puede llamar a las funciones definidas en el [entorno Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md) de la tabla de códigos.
+
+| Expresión | Significado |
+| :--- | :--- |
+| `g.codes[0].code` | Primer código de la geometría. |
+| `g.has_code('02*')` | La geometría tiene un código que cumple el patrón. Admite los comodines `*` y `?`. |
+| `len(g)` | Número de vértices. |
+| `g[0]` | Coordenadas `(x, y, z)` del primer vértice. |
+| `type(g).__name__` | Tipo de la geometría: `'Point'`, `'Text'`, `'Line'`, `'Polygon'` o `'Complex'`. |
+| `g.area`, `g.perimeter_2d` | Área y perímetro en planta. Solo en líneas y polígonos. |
+| `g.closed` | Indica si la geometría está cerrada. Solo en líneas, polígonos y complejos. |
+| `g.text` | Cadena de un texto. Solo en textos. |
+
+Si la expresión falla con alguna geometría, por ejemplo con `g.area` en un punto, Digi3D.AI muestra el error de Python. Comprueba antes el tipo: `type(g).__name__ == 'Line' and g.area > 100`.
+
+## Cuadro de diálogo Nueva selección
+
+El cuadro tiene estos controles:
+
+* **Nombre**: nombre de la selección.
+* Campo que sigue a `return`: expresión Python.
+* **Fragmentos de código** y **Añadir fragmento**: añaden al final de la expresión el fragmento elegido en el desplegable.
+
+Los textos de ayuda del cuadro y los fragmentos que mencionan `digi3DGeometry`, `Points.Count`, `Codes[0].Name` o variables por atributo, como `hazpol == "SI"`, describen una API anterior. Escribe las expresiones con `g`, como se explica en esta página.
+
+## Ejemplos
+
+Todas las geometrías:
 
 ```python
 True
 ```
 
-Esta expresión se ejecutará por cada geometría del archivo de dibujo y como devuelve siempre verdadero \(**True** en _Python_\), seleccionará todas las geometrías del archivo de dibujo.
+La expresión se evalúa con cada geometría y devuelve siempre verdadero, así que selecciona todas.
 
-Las expresiones se ejecutan en un ámbito _\(scope\)_ que tiene una variable local que representa a la geometría a la que se le está realizando la prueba. Esta variable se denomina **digi3DGeometry**. Podemos utilizar las propiedades de este objeto como criterio en la selección, como por ejemplo seleccionar las geometrías que tengan como primer código el código "020400"
-
-```python
-digi3DGeometry.Codes[0].Name == '020400'
-```
-
-...o seleccionar las geometrías que tengan 3 vértices:
+Geometrías cuyo primer código es `020400`:
 
 ```python
-digi3DGeometry.Points.Count == 3
+g.codes[0].code == '020400'
 ```
 
-El ámbito _\(scope\)_ en el que se ejecuta la expresión también proporciona tantas variables como atributos de base de datos tenga el primer código de la geometría, de manera que si la geometría tiene un enlace a base de datos con tres campos: _ID_, _Propietario_, _Plantas_, en el entorno existirán esas tres variables que se podrán utilizar en el cuerpo de la expresión como, por ejemplo:
+Geometrías con 3 vértices:
 
 ```python
-Plantas == 3
+len(g) == 3
 ```
 
-Y combinaciones con varios objetos:
+Geometrías cuyo campo `Plantas` es 3:
 
 ```python
-Propietario == 'Dylan' and Plantas > 3 and digi3DGeometry.Codes[0].Name == '010101' and digi3DGeometry.Points.Count == 7
+g.codes[0].attributes.get('Plantas') == 3
 ```
 
+Combinación de condiciones:
+
+```python
+g.codes[0].attributes.get('Propietario') == 'Dylan' and g.codes[0].attributes.get('Plantas') > 3 and g.codes[0].code == '010101' and len(g) == 7
+```
