@@ -7,13 +7,26 @@ Cambia valores en la BBDD asociada con el archivo de dibujo.
 
 No admite parámetros.
 
+## Cuadro de diálogo Cambiar atributo de base de datos
+
+![Cuadro de diálogo Cambiar atributo de base de datos](../../../../../images/cambiar-atributo-de-base-de-datos.png)
+
+Esta orden solicita los códigos y el cambio a realizar en este cuadro de diálogo.
+
+* **Lista de códigos**: los códigos cuyas geometrías se van a cambiar. Se manejan igual que en el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md): **Añadir…** añade códigos, **Borrar** quita el seleccionado y **Limpiar** vacía la lista.
+* **Campo**: el campo de la base de datos que se cambia. El desplegable muestra solo los campos que tienen las tablas de todos los códigos de la lista.
+* **Buscar valor**: el valor que debe tener el campo para que se cambie.
+  * **Cualquier valor**: cambia el campo sea cual sea su valor.
+  * **Nulo**: cambia solo los campos vacíos.
+  * Si no se marca ninguna de las dos, cambia los campos cuyo valor es igual al texto del cuadro.
+* **Reemplazar por**: el valor nuevo.
+  * **Nulo**: deja el campo vacío.
+  * **Uid**: asigna a cada geometría un identificador único (GUID) nuevo.
+  * Si no se marca ninguna de las dos, asigna el texto del cuadro.
+
 ## Observaciones
 
-La orden muestra un cuadro de diálogo para seleccionar los códigos y, debajo, los datos del cambio: el campo, el valor antiguo y el valor nuevo.
-
-La orden recorre las entidades visibles, no borradas y dentro de la zona de interés del archivo de dibujo activo. En cada código de esas entidades que coincide con uno de los seleccionados, sustituye el valor del campo por el valor nuevo si el valor actual es igual al valor antiguo. Con la casilla de cualquier valor, sustituye el valor sea cual sea. Con la casilla de identificador único, asigna a cada código un GUID nuevo en lugar del valor nuevo.
-
-Con la casilla de valor antiguo nulo, solo cambia los códigos en los que el campo está vacío (nulo). Con la casilla de valor nuevo nulo, deja el campo vacío en lugar de asignar el valor nuevo o el GUID.
+La orden recorre las entidades visibles, no borradas y dentro de la zona de interés del archivo de dibujo activo. En cada código de esas entidades que coincide con uno de los seleccionados, aplica el cambio descrito en el cuadro de diálogo.
 
 ## Características de la orden
 
