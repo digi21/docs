@@ -6,8 +6,9 @@ orden (por su nombre, desde la consola de órdenes) y como control de calidad.
 
 ## 1. Desde el panel de Guiones Python
 
-Un panel acoplable (menú **Ver**) donde puedes **teclear o pegar** un guion y ejecutarlo al
-momento. Es lo más cómodo para probar y para tareas puntuales.
+Un panel acoplable (menú **Ventana/Guion Python**) donde puedes **teclear o pegar** un guion y
+ejecutarlo al momento. Es lo más cómodo para probar y para tareas puntuales. Se describe en
+[Guion Python](../../../referencia/paneles/guion-python.md).
 
 ```python
 import digi3d
