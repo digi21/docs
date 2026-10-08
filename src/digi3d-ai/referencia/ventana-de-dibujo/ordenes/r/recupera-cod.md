@@ -11,7 +11,7 @@ Recupera todas aquellas entidades borradas que tengan un código igual al teclea
 
 ## Observaciones
 
-La llamada a la orden se realiza escribiendo RECUPERA\_COD=&lt;código&gt; &lt;tipo de entidad&gt;. El tipo de entidad es obligatorio en cada par. En esta orden, `P` incluye los puntos y los complejos puntuales, y `B` no tiene efecto.
+La llamada a la orden se realiza escribiendo RECUPERA\_COD=&lt;código&gt; &lt;tipo de entidad&gt;. El tipo de entidad es obligatorio en cada par. En esta orden, `P` incluye los puntos, los complejos puntuales, los puntos orientados y los multipuntos, `B` indica las imágenes y `*` incluye todos los tipos de geometría, igual que en [ON\_TIPO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on-tipo.md).
 
 Si el código empieza por `#`, la orden utiliza todos los códigos de la tabla de códigos que tienen esa etiqueta.
 
