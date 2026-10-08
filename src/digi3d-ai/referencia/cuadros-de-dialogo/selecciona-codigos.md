@@ -6,13 +6,13 @@ Una orden abre este cuadro de diálogo para que indiques los códigos con los qu
 ## Campos
 
 * **Desplegable superior**: lista las etiquetas de la tabla de códigos, precedidas de `#`. Al elegir una etiqueta, la lista de códigos se sustituye por los códigos que la tienen.
-* **Lista de códigos**: los códigos que recibirá la orden, con su color, su tipo y su descripción.
-* **Añadir...**: abre el cuadro de diálogo [Seleccione códigos](seleccione-codigos.md), que busca códigos en la tabla de códigos y los añade a la lista.
+* **Lista de códigos**: los códigos que recibirá la orden, con su color, su tipo y su descripción. Al abrir el cuadro de diálogo, la lista contiene los códigos que le pasa la orden; si la orden no le pasa ninguno, está vacía.
+* **Añadir...**: abre el cuadro de diálogo [Seleccione códigos](seleccione-codigos.md), que busca códigos en la tabla de códigos y los añade a la lista. No comprueba si el código ya está en la lista, así que un código puede aparecer repetido.
 * **Borrar**: quita de la lista el código seleccionado.
 * **Limpiar**: vacía la lista.
 * **Opciones de la orden**: algunas órdenes, como BINTOP y BINTRAM, añaden sus propios campos debajo de la lista. Los explica la página de cada orden. Al pulsar F1 en un cuadro de diálogo con opciones de una orden, se abre la página de esa orden.
 * **Aceptar**: entrega a la orden los códigos de la lista.
-* **Cancelar**: cierra el cuadro de diálogo sin entregar los códigos.
+* **Cancelar**: cierra el cuadro de diálogo y entrega a la orden una lista de códigos vacía, también cuando la orden había pasado códigos al abrirlo.
 
 ## Uso del cuadro de diálogo
 
