@@ -9,6 +9,8 @@ Permite cambiar la cota de entidades situadas dentro de una entidad cerrada.
 | :--- | :--- | :--- |
 | 1 | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) a los que se cambia la cota, como una cadena de letras. Por ejemplo, `PT`. En esta orden `B` no tiene efecto | Sí. Si no se especifica, la orden muestra un cuadro de diálogo para elegir los tipos al seleccionar el límite |
 
+![Cuadro de diálogo Mover Z por ventana](../../../../../images/mover-z-por-ventana.png)
+
 ## Observaciones
 
 Antes de ejecutar la orden debes dibujar una línea cerrada que servirá de límite.
