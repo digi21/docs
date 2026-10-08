@@ -18,14 +18,30 @@ Selecciona la opción del menú **Herramientas/Programar botones...**. La opció
 
 La asignación se guarda para el usuario de _Windows_ y para el nombre del dispositivo. Dos dispositivos con el mismo nombre comparten la asignación.
 
+Mientras el cuadro de diálogo espera que pulses un botón, el puntero del ratón está oculto. El cuadro de diálogo no tiene botón de cierre: se cierra con **Esc**.
+
+### Números de los botones del ratón
+
+Cada botón del ratón tiene un número:
+
+| Botón | Número |
+| :--- | :--- |
+| Izquierdo | 1 |
+| Central | 2 |
+| Derecho | 4 |
+| Cuarto botón | 8 |
+| Quinto botón | 16 |
+
+Las acciones también son números: **Dato** es 1, **Tentativo** es 2 y **Cancelar** es 4. Por eso, sin ninguna asignación, el botón izquierdo introduce un dato, el central un tentativo y el derecho cancela.
+
 ## Orden asignada a botón
 
 ![Cuadro de diálogo Orden asignada a botón](../../../images/orden-asignada-a-boton.png)
 
 Este cuadro de diálogo lo abren **Programar botones** y el botón **Configurar bot.** del cuadro de diálogo [Configuración de dispositivos de entrada](configuracion-de-dispositivos-de-entrada.md).
 
-* **Orden a ejecutar**: la orden que ejecuta el botón, o una de estas acciones: **Dato**, **Tentativo**, **Cancelar**, **Combinar** y **Embrague**. Puedes escribir el nombre de cualquier orden.
-* **Buscar...**: abre el cuadro de diálogo [Buscar orden](buscar-orden.md), para elegir una orden por su nombre o su descripción.
+* **Orden a ejecutar**: la orden que ejecuta el botón, o una de estas acciones: **Dato**, **Tentativo**, **Cancelar**, **Combinar** y **Embrague**. Puedes escribir el nombre de cualquier orden. Si escribes un número distinto de 0, el botón actúa como el botón con ese número. Por ejemplo, con `4` el botón actúa como el botón derecho del ratón.
+* **Buscar...**: abre el cuadro de diálogo [Buscar orden](buscar-orden.md), para elegir una orden por su nombre o su descripción. La orden elegida se escribe en **Orden a ejecutar**. La asignación no se guarda hasta pulsar **Aceptar**.
 * **Defecto**: devuelve al botón su acción por defecto.
 * **Aceptar**: guarda la asignación.
 * **Cancelar**: cierra el cuadro de diálogo sin cambiar la asignación.
