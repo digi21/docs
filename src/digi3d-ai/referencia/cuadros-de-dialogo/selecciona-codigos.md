@@ -1,16 +1,16 @@
 # Selecciona códigos
 <!-- id: selecciona-codigos -->
 
-Una orden abre este cuadro de diálogo para que indiques los códigos con los que va a trabajar. Lo abren, entre otras, las órdenes [ON](../ventana-de-dibujo/ordenes/o/on.md), [OFF](../ventana-de-dibujo/ordenes/o/off.md), [BORRA\_COD](../ventana-de-dibujo/ordenes/b/borra-cod.md), [BINTOP](../ventana-de-dibujo/ordenes/b/bintop.md) y [BINTRAM](../ventana-de-dibujo/ordenes/b/bintram.md). La barra de título puede mostrar un texto propio de la orden que lo ha abierto.
+Una orden abre este cuadro de diálogo para que indiques los códigos con los que va a trabajar. Lo abren, entre otras, las órdenes [ON](../ventana-de-dibujo/ordenes/o/on.md), [OFF](../ventana-de-dibujo/ordenes/o/off.md), [ON\_TIPO](../ventana-de-dibujo/ordenes/o/on-tipo.md), [OFF\_TIPO](../ventana-de-dibujo/ordenes/o/off-tipo.md), [BORRA\_COD](../ventana-de-dibujo/ordenes/b/borra-cod.md), [BINTOP](../ventana-de-dibujo/ordenes/b/bintop.md) y [BINTRAM](../ventana-de-dibujo/ordenes/b/bintram.md). La barra de título puede mostrar un texto propio de la orden que lo ha abierto.
 
 ## Campos
 
-* **Desplegable superior**: lista las etiquetas de la tabla de códigos, precedidas de `#`. Al elegir una etiqueta, la lista de códigos se sustituye por los códigos que la tienen.
-* **Lista de códigos**: los códigos que recibirá la orden, con su color, su tipo y su descripción. Al abrir el cuadro de diálogo, la lista contiene los códigos que le pasa la orden; si la orden no le pasa ninguno, está vacía.
+* **Desplegable superior**: lista las etiquetas de la tabla de códigos, precedidas de `#`. Al elegir una etiqueta, la lista de códigos se sustituye por los códigos que la tienen. Después el desplegable vuelve a quedar vacío y el foco pasa a la lista de códigos.
+* **Lista de códigos**: los códigos que recibirá la orden, con su color, su tipo y su descripción. Al abrir el cuadro de diálogo, la lista contiene los códigos que le pasa la orden; si la orden no le pasa ninguno, está vacía. Al abrirse el cuadro de diálogo, el foco está en esta lista. Solo se puede seleccionar un código a la vez.
 * **Añadir...**: abre el cuadro de diálogo [Seleccione códigos](seleccione-codigos.md), que busca códigos en la tabla de códigos y los añade a la lista. No comprueba si el código ya está en la lista, así que un código puede aparecer repetido.
 * **Borrar**: quita de la lista el código seleccionado.
 * **Limpiar**: vacía la lista.
-* **Opciones de la orden**: algunas órdenes, como BINTOP y BINTRAM, añaden sus propios campos debajo de la lista. Los explica la página de cada orden. Al pulsar F1 en un cuadro de diálogo con opciones de una orden, se abre la página de esa orden.
+* **Opciones de la orden**: algunas órdenes, como BINTOP, BINTRAM, BORRA\_COD y ON\_TIPO, añaden sus propios campos debajo de la lista. Los explica la página de cada orden. Al pulsar F1 en un cuadro de diálogo con opciones de una orden, se abre la página de esa orden.
 * **Aceptar**: entrega a la orden los códigos de la lista.
 * **Cancelar**: cierra el cuadro de diálogo y entrega a la orden una lista de códigos vacía, también cuando la orden había pasado códigos al abrirlo.
 
@@ -24,3 +24,5 @@ Una orden abre este cuadro de diálogo para que indiques los códigos con los qu
 ## Observaciones
 
 Si está activada la opción [Auto-Pulsar Añadir… en los diálogos que solicitan códigos](configuracion/diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md), el cuadro de diálogo pulsa **Añadir...** al abrirse.
+
+El cuadro de diálogo recuerda su posición y su tamaño por separado para cada orden. ON\_TIPO, OFF\_TIPO y sus variantes ONS\_TIPO, OFFS\_TIPO, OND\_TIPO y OFFD\_TIPO comparten la misma posición y el mismo tamaño.
