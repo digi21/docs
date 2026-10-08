@@ -13,11 +13,11 @@ Si se ejecuta sin parámetros, la orden muestra un cuadro de diálogo para intro
 
 ## Observaciones
 
-El valor por defecto es 0, que desactiva la auto numeración.
+El valor vale 0 al iniciar Digi3D.AI, y 0 desactiva la auto numeración. El valor no se guarda entre sesiones. Un valor negativo hace que la numeración decrezca.
 
-Si tenemos un valor distinto de 0 y ejecutamos la orden [TEXTO](../../ordenes/t/texto.md) sin pasarle ningún parámetro, ésta propone como texto a insertar el último número insertado más el valor de esta variable, con el formato indicado en [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md). Al digitalizar el texto, el programa extrae el número del texto insertado y lo toma como último número insertado. El valor de esta variable no cambia.
+Si tenemos un valor distinto de 0 y ejecutamos la orden [TEXTO](../../ordenes/t/texto.md) sin pasarle ningún parámetro, ésta propone como texto a insertar el último número insertado más el valor de esta variable, con el formato indicado en [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md). Al digitalizar el texto, el programa extrae el número del texto insertado y lo toma como último número insertado. El valor de esta variable no cambia. Si FORMATO\_AUTONUM no es un formato válido para un número entero, se usa `%d`.
 
-La orden [AGREGA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/agrega.md) también utiliza esta variable para proponer el nombre del punto.
+La orden [AGREGA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/agrega.md) también utiliza esta variable para proponer el nombre del punto. En AGREGA, el último número se extrae del nombre del punto aceptado.
 
 ## Ejemplos
 
