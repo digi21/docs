@@ -1,7 +1,7 @@
 # Archivo de archivos de referencia
 <!-- id: archivo-de-archivos-de-referencia -->
 
-Digi3D.AI guarda junto a cada archivo de dibujo un archivo con sus archivos de referencia. Se llama como el archivo de dibujo, con la extensión `.reference_files.json`: por ejemplo, `plano.reference_files.json` para `plano.bin`.
+Digi3D.AI guarda junto a cada archivo de dibujo un archivo con sus archivos de referencia. Se llama como el archivo de dibujo, incluida su extensión, seguido de `.reference_files.json`: por ejemplo, `plano.bin.reference_files.json` para `plano.bin`. Así, `plano.bin` y `plano.dgn` de la misma carpeta tienen cada uno el suyo.
 
 Para cada archivo de referencia guarda:
 
