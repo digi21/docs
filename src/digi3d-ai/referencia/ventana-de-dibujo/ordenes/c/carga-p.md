@@ -9,7 +9,13 @@ Lee el contenido de un fichero ASCII de coordenadas, incorporando al archivo de 
 | :--- | :--- | :--- | :--- |
 | 1 | Nombre del fichero ASCII de coordenadas | Ruta de archivo | Si |
 
-Sin parámetros, la orden muestra un cuadro de diálogo para elegir el fichero y los códigos del punto, del texto con el número de punto y del texto con la cota.
+Sin parámetros, la orden muestra un cuadro de diálogo para elegir el fichero y los códigos del punto, del texto con el número de punto y del texto con la cota:
+
+![Cuadro de diálogo de CARGA_P](../../../../../images/carga-p.png)
+
+* **Código del punto**: por defecto, el primer código activo.
+* **Código del texto de número de punto**: por defecto, `PUNTOS`.
+* **Código del rótulo de Z del punto**: por defecto, `COTAS`.
 
 ## Observaciones
 
