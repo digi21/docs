@@ -17,7 +17,7 @@ Sin parámetro:
 
 - Si no hay ninguna topología cargada, la orden muestra un mensaje de error y termina.
 - Si solo hay una topología cargada, la orden la descarga directamente.
-- Si hay varias, la orden muestra un cuadro de diálogo para seleccionar las topologías a descargar. Funciona igual que el de la orden [DEJAR](dejar.md#cuadro-de-diálogo-dejar-fichero-de-referencia): selección de una o varias topologías, **Todos**, **Aceptar** y **Cancelar**.
+- Si hay varias, la orden muestra un cuadro de diálogo para seleccionar las topologías a descargar. Funciona igual que el de la orden [DEJAR](dejar.md#cuadro-de-diálogo-dejar-fichero-de-referencia): cada clic sobre una topología la selecciona o la deselecciona, sin necesidad de pulsar Ctrl ni Mayúsculas; **\* Todos** descarga todas, **Aceptar** descarga las seleccionadas y **Cancelar** cierra el cuadro sin descargar ninguna.
 
 ## Ejemplo
 
