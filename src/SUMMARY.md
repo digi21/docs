@@ -926,6 +926,7 @@
       * [Proyecto fotogramétrico](digi3d-ai/referencia/paneles/proyecto-fotogrametrico.md)
       * [Tabla de códigos](digi3d-ai/referencia/paneles/tabla-de-codigos.md)
       * [Tareas](digi3d-ai/referencia/paneles/tareas.md)
+      * [Tentativos](digi3d-ai/referencia/paneles/tentativos.md)
       * [Resultados](digi3d-ai/referencia/paneles/resultados.md)
       * [Resultados de la búsqueda 1 y 2](digi3d-ai/referencia/paneles/resultados-de-la-busqueda-1-y-2.md)
       * [Visualización de códigos](digi3d-ai/referencia/paneles/visualizacion-de-codigos.md)
