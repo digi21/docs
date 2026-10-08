@@ -14,6 +14,30 @@ Efectúa el cálculo para generar ortofotografías.
 
 Los tres primeros parámetros se indican juntos. Sin ellos, la orden solicita que selecciones la línea que delimita la ortofoto y muestra un cuadro de diálogo con las opciones del cálculo.
 
+## Cuadro de diálogo Creación de Ortofotos
+
+![Cuadro de diálogo Creación de Ortofotos](../../../../../images/cal-orto.png)
+
+**Parámetros de la ortofoto**
+
+* **Imagen de la que extraer la ortofoto**: imagen del modelo estereoscópico que se proyecta.
+* **Tamaño del píxel**: en las unidades del sistema de referencia del dibujo, que se muestran a la derecha.
+* **Tipo de interpolación**: vecino más próximo, bilineal o bicúbica.
+* **Hilos de ejecución**: número de hilos que calculan la ortofoto en paralelo.
+* **Tamaño de imagen resultante** y **Peso estimado de la imagen**: se calculan a partir de la línea seleccionada y del tamaño del píxel.
+
+**Parámetros GeoTIFF**
+
+* **Ruta al archivo GeoTIFF a crear**: el botón **...** permite elegirla.
+* **Guardar canal alpha (de transparencia)**: añade al TIFF un canal de transparencia.
+* **Tamaño de las teselas**: tamaño en píxeles de los mosaicos del TIFF.
+* **Nivel piramidal máximo a crear** y **Niveles piramidales autocontenidos**: niveles de resolución reducida que se guardan dentro del TIFF. La segunda opción se habilita si el nivel máximo no es 0.
+
+**Archivos de georreferenciación adicionales**
+
+* **Almacenar también un archivo Tiff World File**: genera el archivo `.tfw`.
+* **Almacenar también una superposición en KML**: genera un archivo KML. **Nombre de la capa** y **Descripción** se habilitan con esta opción.
+
 ## Observaciones
 
 La orden requiere un modelo estereoscópico cargado y al menos un archivo de dibujo que permita proyectar (por ejemplo, un modelo digital del terreno) para obtener la Z de cada píxel.
