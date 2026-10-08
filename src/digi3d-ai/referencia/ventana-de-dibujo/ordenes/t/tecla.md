@@ -11,21 +11,53 @@ Asigna órdenes de Digi3D.AI a pulsaciones de teclas en el teclado virtual activ
 
 ## Observaciones
 
-Esta orden permite crear o modificar las asignaciones del teclado virtual activo (archivo `.keyboard.xml`) sin editar el archivo. Si no hay ningún teclado virtual cargado, la orden pregunta si se quiere crear uno y pide el nombre del archivo.
+Esta orden crea o modifica las asignaciones del teclado virtual activo (archivo `.keyboard.xml`) sin editar el archivo a mano.
 
-1. Pulsa la tecla o la combinación de teclas a asignar, por ejemplo _Ctrl+a_ o _Mayús+F3_. Las teclas _Mayús_, _Ctrl_, _Alt_, _Pausa_ y _Bloq Mayús_ no se pueden asignar solas.
-2. Escribe en el cuadro de diálogo de asignación las órdenes, una por línea, y la descripción. El cuadro muestra las órdenes que ya tiene asignadas la tecla.
-3. Pulsa _Aceptar_ para guardar la asignación. La orden vuelve a esperar otra tecla.
-4. Pulsa _Esc_ para terminar la orden.
+1. Al ejecutar la orden aparece un cuadro con el texto _Pulsa una tecla o Esc para salir de la orden Tecla_.
+2. Pulsa la tecla o la combinación de teclas a asignar, por ejemplo _Ctrl+a_ o _Mayús+F3_. Las teclas _Mayús_, _Ctrl_, _Alt_, _Pausa_ y _Bloq Mayús_ no se pueden asignar solas, y _Esc_ no se puede asignar.
+3. Se abre el cuadro de diálogo **Asignación de tecla**:
 
-Si se indica el parámetro, el cuadro de diálogo de asignación muestra las órdenes leídas del archivo y la orden termina después de la primera asignación aceptada.
+   ![Cuadro de diálogo Asignación de tecla](../../../../../images/tecla.png)
+
+   * **Tecla**: el nombre de la tecla pulsada. Es de solo lectura.
+   * **Control**, **Mayúsculas** y **Alt**: indican qué modificadores estaban pulsados junto con la tecla. Están deshabilitadas porque la combinación la fija la pulsación. Para asignar otra combinación, pulsa _Cancelar_ y pulsa la combinación nueva.
+   * **Descripción de la tarea**: el texto que describe lo que hace la tecla.
+   * **Órdenes**: las órdenes que se ejecutan al pulsar la tecla, una por línea.
+
+   Si la tecla ya tiene una asignación, el cuadro muestra sus órdenes y su descripción.
+4. Pulsa _Aceptar_. La asignación sustituye a la anterior y se guarda en ese momento en el archivo `.keyboard.xml` del teclado virtual activo. La orden vuelve a esperar otra tecla.
+5. Pulsa _Esc_ para terminar la orden.
+
+Si pulsas _Cancelar_ en el cuadro de asignación, la tecla conserva su asignación anterior y la orden vuelve a esperar otra tecla.
+
+Para eliminar la asignación de una tecla, borra todas sus órdenes y pulsa _Aceptar_.
+
+El nombre de la tecla que se guarda depende del idioma de la distribución de teclado de Windows.
+
+### Si no hay ningún teclado virtual cargado
+
+Al pulsar _Aceptar_ en el cuadro de asignación, Digi3D.AI pregunta si se quiere crear un archivo de asignación de teclas y pide su nombre. Si respondes _No_ o cancelas la selección del archivo, la asignación no se guarda.
+
+### Si no se puede guardar el archivo
+
+Digi3D.AI muestra un cuadro con tres opciones:
+
+* **Continuar**: la asignación se mantiene solo en memoria y se pierde al cerrar el programa.
+* **Volver a probar**: intenta guardar el archivo otra vez.
+* **Guardar en otro archivo**: pide otra ruta. Después hay que configurar Digi3D.AI para que cargue ese archivo.
+
+### Con parámetro
+
+Si se indica el parámetro, el cuadro de asignación muestra las órdenes leídas del archivo, no las que ya tenía la tecla, y la descripción aparece vacía. La orden termina después de pulsar _Aceptar_ o _Cancelar_ en el cuadro de asignación. El archivo se lee con la codificación ANSI de Windows. Si no se puede abrir, la orden se comporta como si no se hubiera indicado el parámetro.
+
+Este modo es el que usa Digi3D.AI al asignar a una tecla una macroinstrucción grabada.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](tecla.md) |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Inmediato/Teclados virtuales/Asignar una orden al teclado virtual activo... |
+| Opción del menú donde aparece la orden | Inmediato/Teclados virtuales/Asignar una orden al teclado virtual activo...<br>Ventana fotogramétrica/Teclado/Programador de teclas |
 | Barra de herramientas en la que aparece la orden | Teclados |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
@@ -34,5 +66,4 @@ Si se indica el parámetro, el cuadro de diálogo de asignación muestra las ór
 
 ## Nota
 
-Tienes que tener en cuenta que Digi3D.AI no puede importar tus archivos de tecla antiguos, tenemos un [programa de consola](/digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/archivos-configuracion-teclas.md) que te puede ayudar a importarlos.
-
+Digi3D.AI no puede importar los archivos de teclas de versiones anteriores. Para importarlos, usa el [programa de consola](/digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/archivos-configuracion-teclas.md).
