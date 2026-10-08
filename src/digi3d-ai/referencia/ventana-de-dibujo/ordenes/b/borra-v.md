@@ -1,51 +1,70 @@
 # BORRA\_V
 <!-- id: borra-v -->
 
-Borra el dibujo de las entidades gráficas que se encuentran dentro de los límites de una entidad, definida previamente por el usuario.
+Borra las entidades que están dentro de una línea cerrada que actúa de ventana, las que la solapan o las que quedan fuera de ella. En el modo **Corte** corta las líneas por el borde de la ventana.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Código de las líneas que actúan como ventana | Código | Si |
-| 2 | Tipo de recorte | 0, 1 o 2 (ver la tabla siguiente) | Si |
-| 3 | Borrar los elementos externos | 0 = no, 1 = sí | Si |
+| 1 | Código de las líneas que actúan de ventana | Código | Sí |
+| 2 | Tipo de recorte | 0 = Interior, 1 = Corte, 2 = Solape | Sí |
+| 3 | Borrar los elementos externos | 0 = no, 1 = sí | Sí |
 
-Si se indican los tres parámetros, la orden no muestra el cuadro de diálogo ni pide seleccionar la ventana: usa como ventana cada línea cerrada del dibujo que tenga el código indicado y que no esté borrada, esté visible y esté dentro de la zona de interés, y termina. Si se indican menos de tres parámetros, la orden ignora los parámetros y funciona de forma interactiva.
+Los parámetros se indican los tres o ninguno. Con menos de tres, la orden los ignora y funciona de forma interactiva.
 
-Sin parámetros, la orden muestra un cuadro de diálogo con el tipo de recorte y la casilla _Borrar los elementos externos_, y después pide seleccionar la línea que actúa como ventana. Los tipos de recorte son:
+Con los tres parámetros, la orden no muestra el cuadro de diálogo ni pide seleccionar nada. Muestra el mensaje «Calculando...» y usa como ventana, una tras otra, cada línea del archivo activo o de los archivos de referencia visibles que cumple todas estas condiciones: tiene el código indicado, está cerrada, tiene al menos 4 vértices, no está borrada, está visible y está dentro de la zona de interés. Las ventanas no se borran ni se cortan entre sí. Al terminar, la orden finaliza.
 
-| Tipo de recorte | Descripción |
-| :--- | :--- |
-| 0 | Borra sólo los elementos que se encuentren totalmente incluidos dentro de los límites de la entidad. En el caso de que además esté marcada la casilla _Borrar los elementos externos_ no se borran las entidades interiores a la ventana, sino las exteriores a la misma, excepto aquellas que tengan puntos dentro de la ventana |
-| 1 | Borra todos aquellos elementos que se hallen total o parcialmente en el interior de la entidad, cortándolos si rebasan los límites de ésta. Es decir, no se borran los trozos de los elementos que estén fuera de la entidad. Si además está activada la casilla _Borrar los elementos externos_ se borran los elementos externos, de forma total o parcial |
-| 2 | El borde de la entidad actúa como límite de separación, borrándose todo lo que se encuentre total o parcialmente en su interior. Con esta opción se borrarán los elementos que tengan algún punto en el interior de la entidad. Si además está señalada la casilla _Borrar los elementos externos_ se borrarán aquellas entidades exteriores a la ventana que no tengan ningún punto dentro de la misma. |
+Si el tipo de recorte no es 0, 1 ni 2, suena el aviso de error, aparece el globo «Tipo de recorte incorrecto» y la orden termina sin cambiar el dibujo.
 
 ## Observaciones
 
-Antes de ejecutar la orden, tendremos que tener definida una línea que será la que va a actuar como ventana para borrar.
+Sin parámetros, la orden muestra el cuadro de diálogo **Borrar ventana**:
 
-Tenemos la posibilidad de marcar la casilla _Borrar los elementos externos_, para que lo que se borre sean las entidades que quedan fuera de la ventana.
+![Cuadro de diálogo Borrar ventana](../../../../../images/borra-v.png)
 
-La orden solo borra entidades del archivo de dibujo activo.
+Cada vez que se ejecuta la orden, el cuadro aparece con **1 Corte** seleccionado y la casilla **Borrar los elementos externos** desmarcada. Si pulsas **Cancelar**, la orden termina sin hacer nada.
+
+Al pulsar **Aceptar**, la orden muestra el mensaje «Selecciona la línea que actúa de borde.». La línea tiene que existir antes de ejecutar la orden, estar cerrada y tener al menos 4 vértices. Si la entidad seleccionada no es una línea o no cumple esas condiciones, suena el aviso de error y la orden sigue esperando a que selecciones otra. Al seleccionar una línea válida, la orden borra y termina.
+
+Sin la casilla **Borrar los elementos externos**, la orden borra el interior de la ventana:
+
+| Tipo de recorte | Texto en el cuadro | Qué borra |
+| :--- | :--- | :--- |
+| 0 | Interior (cualquier elemento que se encuentre totalmente dentro de la línea de límite) | Las líneas que tienen todos sus vértices dentro de la ventana o sobre el borde, y los polígonos y complejos que están completamente dentro |
+| 1 | Corte (corta los elementos por la línea de límite) | Corta las líneas que atraviesan el borde: borra los trozos interiores y conserva los exteriores. Borra las líneas que están enteras dentro de la ventana. No borra ni corta los polígonos ni los complejos |
+| 2 | Solape (cualquier elemento que tenga al menos un punto dentro de la línea de límite) | Las líneas que tienen al menos un vértice dentro de la ventana o sobre el borde, y los polígonos y complejos que tienen algún vértice dentro |
+
+Con la casilla **Borrar los elementos externos** marcada, la orden borra el exterior de la ventana:
+
+| Tipo de recorte | Qué borra |
+| :--- | :--- |
+| 0 | Las líneas que no tienen ningún vértice dentro de la ventana ni sobre el borde, y los polígonos y complejos que están completamente fuera |
+| 1 | Corta las líneas que atraviesan el borde: borra los trozos exteriores y conserva los interiores. Borra las líneas que están enteras fuera de la ventana. No borra ni corta los polígonos ni los complejos |
+| 2 | Las líneas que tienen al menos un vértice fuera de la ventana, también las que cruzan el borde, y los polígonos y complejos que tienen algún vértice fuera |
+
+Los puntos, los complejos puntuales y los textos se clasifican en los tres modos por su primer vértice: dentro de la ventana o sobre el borde, o fuera. Los multipuntos y las imágenes se clasifican por sus vértices: en los modos Interior y Corte se borran si todos sus vértices quedan en la zona que se borra; en el modo Solape, si alguno queda en ella.
+
+En el modo Corte, cada línea cortada se borra y sus trozos conservados se añaden como líneas nuevas con los códigos de la original. Una línea cerrada que se corta queda en trozos abiertos.
+
+La orden solo borra entidades del archivo de dibujo activo. Excluye las entidades borradas, las que están fuera de la zona de interés, la propia ventana y las entidades que tienen apagados \([OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md)\) todos sus códigos.
+
+Lo que borra y añade la orden se deshace con [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md).
 
 ### Ejemplo
 
 `BORRA_V=LIMITE 1 0`
 
-Usa como ventana todas las líneas cerradas con el código `LIMITE`, borra las entidades interiores y corta las líneas que cruzan el límite.
-
-Los códigos que estén apagados no se tendrán en cuenta al ejecutar esta orden.
+Usa como ventana cada línea cerrada con el código `LIMITE`. Corta las líneas que cruzan el borde, borra los trozos interiores y las entidades interiores, y conserva las líneas `LIMITE`.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](borra-v.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Borra ventana |
+| Opción del menú donde aparece la orden | Editar/Borrar ventana |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md)<br>[BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md) |
 | Nombre interno | {290F947C-CAAD-4945-8524-9E71C9713108} |
-
