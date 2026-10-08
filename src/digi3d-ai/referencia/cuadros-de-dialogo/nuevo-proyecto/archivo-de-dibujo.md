@@ -11,7 +11,7 @@ Selecciona la opción del menú **Archivo/Abrir** y pulsa la pestaña **Archivo 
 
 ## Campos
 
-* **Archivo de dibujo**: ruta del archivo que se abre. El desplegable ofrece los diez últimos archivos abiertos, y el botón **...** permite buscar uno.
+* **Archivo de dibujo**: ruta del archivo que se abre. El desplegable ofrece los diez últimos archivos abiertos desde esta pestaña, y el botón **...** permite buscar uno.
 * **Mostrar esta página al ejecutar Digi3D**: el cuadro de diálogo Nuevo proyecto se abre en esta pestaña en lugar de en [Sensores fotogramétricos](sensores-fotogrametricos.md).
 
 Debajo del archivo hay una rejilla de propiedades agrupadas en categorías.
@@ -20,7 +20,7 @@ Debajo del archivo hay una rejilla de propiedades agrupadas en categorías.
 
 Esta categoría solo aparece si está activada la opción de mostrar el sistema de referencia al abrir un archivo de dibujo.
 
-* **Sistema de referencia de coordenadas de la ventana de dibujo**: el sistema en el que trabaja la ventana. **El del archivo de dibujo** utiliza el que tenga el archivo.
+* **Sistema de referencia de coordenadas de la ventana de dibujo**: el sistema en el que trabaja la ventana. **El del archivo de dibujo** utiliza el que tenga el archivo. Si la categoría no aparece, la ventana trabaja en un sistema de referencia compuesto local.
 
 ### Registro
 
@@ -28,6 +28,7 @@ Esta categoría solo aparece si está activada la opción de mostrar el sistema 
 * **Operación**: **Guardar** almacena los valores de incremento de registro, equidistancia y tolerancia a generalizar, junto con la altura de los textos, para la escala indicada. **Cargar** recupera los valores almacenados para esa escala.
 * **Incremento de registro**: cada cuántos metros se registra un punto al digitalizar en modo continuo.
 * **Equidistancia**: cada cuántos metros se registra una curva de nivel.
+* **Altura de textos**: altura de los textos que se registran, la de la variable [AT](../../ventana-de-dibujo/variables/a/at.md).
 * **Tolerancia a generalizar**: longitud mínima de un segmento al digitalizar en modo continuo.
 * **Corrección de Z**: diferencia de Z entre operadores. Hay que ajustarla si quien hizo la orientación absoluta no es quien restituye el modelo.
 * **Sigma**: valor por debajo del cual dos valores se consideran idénticos.
@@ -35,6 +36,7 @@ Esta categoría solo aparece si está activada la opción de mostrar el sistema 
 ### Entorno
 
 * **Tabla de códigos**: archivo con los códigos, su representación y su traducción, en formato `.dt` o `.tab.xml`. El desplegable ofrece las últimas tablas utilizadas.
+* **Orden de inicio**: orden que se ejecuta cada vez que se abre un archivo de dibujo, también desde la línea de comandos. Se ejecuta después de las órdenes de inicio de la tabla de códigos y antes de la orden indicada en la línea de comandos. Para ejecutar un archivo de macroinstrucciones, escribe `@` seguido de su ruta.
 
 ### Motor de importación/exportación
 
@@ -58,4 +60,11 @@ Los formatos que se pueden abrir en una ventana de dibujo, y la página que expl
 
 ## Observaciones
 
-Si está activada la opción de utilizar proyectos de archivos de dibujo, la rejilla solo muestra la categoría **Configuración de archivo de dibujo**, con la configuración que se aplica al archivo. Las configuraciones se crean en **Herramientas/Configurar proyectos**.
+Al pulsar **Aceptar**, Digi3D.AI guarda los valores de la rejilla. La próxima vez que abras esta pestaña, son los valores iniciales. La primera vez, los valores son: escala 1000, incremento de registro 1, equidistancia 1, altura de textos 1,5, tolerancia a generalizar 0,04, corrección de Z 0 y sigma 0,001.
+
+Si está activada la opción de utilizar proyectos de archivos de dibujo, la rejilla muestra la categoría **Configuración de archivo de dibujo**, con la configuración que se aplica al archivo. Las configuraciones se crean en [Configurar proyectos](../configurar-proyectos.md). Si la configuración elegida no configura los parámetros del motor de importación/exportación, la rejilla muestra también la categoría **Motor de importación/exportación**. Al pulsar **Aceptar**, los valores de registro, la tabla de códigos, la orden de inicio y el sistema de referencia de coordenadas se sustituyen por los de la configuración elegida. Si no hay ninguna configuración elegida, Digi3D.AI muestra el error «No ha seleccionado ninguna configuración de archivo de dibujo.».
+
+## Errores al abrir el archivo
+
+* Si ya hay una ventana de dibujo abierta, Digi3D.AI muestra el error «No se pueden abrir dos archivos de dibujo simultáneamente.» y no abre el archivo.
+* Si la ruta del archivo no es válida, Digi3D.AI muestra el cuadro **Error al crear el archivo de dibujo** con el texto «No se ha podido crear el archivo de dibujo.».
