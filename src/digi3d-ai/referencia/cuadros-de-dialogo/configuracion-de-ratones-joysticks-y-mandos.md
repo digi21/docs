@@ -19,6 +19,8 @@ Selecciona la opción del menú **Herramientas/Configuración de ratones, joysti
 
 La tabla de coeficientes indica cuánto cambia cada coordenada del cursor (filas X, Y y Z) al mover cada eje del dispositivo (columnas X, Y y Z). Por ejemplo, un 1 en la fila Y y la columna X hace que el movimiento del eje X del dispositivo cambie la coordenada Y del cursor. Un valor negativo invierte el sentido.
 
+Si el dispositivo no tiene parámetros guardados, la tabla vale `1 0 0` en la fila X, `0 -1 0` en la fila Y y `0 0 1` en la fila Z: cada eje mueve su coordenada, y el eje Y en sentido contrario.
+
 Ejemplo: un trackball dedicado a la Z. Con **Ratón de Z**, mover la bola de izquierda a derecha sube y baja la coordenada Z (fila Z, columna X = 1):
 
 ![Cuadro de diálogo Parámetros de ratón con un ratón de Z](../../../images/parametros-de-raton-z.png)
@@ -32,7 +34,7 @@ Ejemplo: un ratón para la X y la Y. Con **Normal**, el ratón mueve la X y la Y
 * **Normal**: el eje X del ratón mueve la X del cursor, el eje Y mueve la Y en sentido contrario y el eje Z (la rueda) mueve la Z.
 * **Ratón de Z**: el movimiento horizontal del ratón cambia la Z del cursor, y ningún eje mueve la X ni la Y. Sirve para dedicar un segundo ratón a la Z.
 * **La rueda cambia el Factor de Zoom**: girar la rueda hacia delante ejecuta la orden ZOOMIN de la ventana fotogramétrica, y hacia atrás, ZOOMOUT. Con esta opción marcada la rueda no actúa como eje Z.
-* **Este ratón se utilizará exclusivamente para la ventana fotogramétrica**: Digi3D.AI guarda esta opción, pero la versión actual no la aplica.
+* **Este ratón se utilizará exclusivamente para la ventana fotogramétrica**: Digi3D.AI guarda esta opción, pero no tiene ningún efecto: el ratón solo mueve el cursor de la ventana fotogramétrica mientras esta tiene el ratón capturado, esté marcada o no.
 
 Pulsa **Aceptar** para guardar los parámetros o **Cancelar** para descartarlos.
 
