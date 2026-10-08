@@ -33,11 +33,18 @@ Selecciona la opción del menú **Herramientas/Barras de herramientas de usuario
 * **Eliminar**: elimina el botón seleccionado.
 * **Aceptar**: guarda la barra. **Cancelar** descarta los cambios.
 
+Una barra que se guarda sin botones no se vuelve a crear la siguiente vez que se inicia Digi3D.AI.
+
 ## Datos de botón de barra de herramientas
 
 ![Cuadro de diálogo Datos de botón de barra de herramientas](../../../images/datos-de-boton-de-barra-de-herramientas.png)
 
 * **Texto del botón**: el texto que muestra el botón.
 * **Tooltip del botón**: el texto que aparece al situar el ratón sobre el botón.
-* **Imagen asociada al botón**: el archivo de imagen del botón. **Examinar...** permite seleccionar un archivo de mapa de bits (`.bmp`).
+* **Imagen asociada al botón**: el archivo de imagen del botón. Digi3D.AI la escala a 16×16 píxeles. **Examinar...** abre un cuadro de selección de archivos con los filtros **Archivos de mapa de bits** (`.bmp`) y **Todos los archivos**.
 * **Orden a ejecutar cuando se pulse el botón**: la orden, con sus parámetros, tal como se escribiría en la línea de órdenes.
+* **Aceptar**: guarda los datos del botón. Está deshabilitado en estos casos:
+  * **Tooltip del botón** está vacío.
+  * **Texto del botón** e **Imagen asociada al botón** están vacíos a la vez.
+  * El archivo indicado en **Imagen asociada al botón** no existe.
+  * **Orden a ejecutar cuando se pulse el botón** está vacío.
