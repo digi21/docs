@@ -3,6 +3,8 @@
 
 Las barras de herramientas de usuario son barras con botones que ejecutan órdenes de Digi3D.AI. Cada usuario de _Windows_ tiene las suyas.
 
+Los botones de estas barras están deshabilitados mientras no hay ninguna ventana de dibujo ni fotogramétrica abierta.
+
 ## Manejador de barras de herramientas
 
 ![Cuadro de diálogo Manejador de barras de herramientas](../../../images/manejador-de-barras-de-herramientas.png)
@@ -11,10 +13,10 @@ Selecciona la opción del menú **Herramientas/Barras de herramientas de usuario
 
 * **Nueva**: abre el cuadro de diálogo [Crear/Modificar barra de herramienta](#crearmodificar-barra-de-herramienta) para crear una barra.
 * **Modificar**: abre el mismo cuadro de diálogo con los datos de la barra seleccionada.
-* **Eliminar**: elimina la barra.
+* **Eliminar**: elimina la barra sin pedir confirmación.
 * **Mostrar** y **Ocultar**: muestran u ocultan la barra en la ventana principal.
 * **Exportar**: solicita una carpeta y crea en ella la carpeta **BarraHerramientas** seguida del título de la barra. En esa carpeta guarda el archivo **BarraHerramientas.ini** con la definición de la barra y una copia de las imágenes de los botones.
-* **Importar**: solicita una carpeta exportada con **Exportar** y añade la barra que contiene.
+* **Importar**: solicita una carpeta exportada con **Exportar** y añade la barra que contiene. Si la carpeta no contiene el archivo **BarraHerramientas.ini**, o el archivo no define ningún botón, no se añade ninguna barra y no aparece ningún aviso.
 * **Salir**: cierra el cuadro de diálogo. Los cambios se aplican en el momento, sin necesidad de aceptar.
 
 ## Crear/Modificar barra de herramienta
@@ -41,7 +43,7 @@ Una barra que se guarda sin botones no se vuelve a crear la siguiente vez que se
 
 * **Texto del botón**: el texto que muestra el botón.
 * **Tooltip del botón**: el texto que aparece al situar el ratón sobre el botón.
-* **Imagen asociada al botón**: el archivo de imagen del botón. Digi3D.AI la escala a 16×16 píxeles. **Examinar...** abre un cuadro de selección de archivos con los filtros **Archivos de mapa de bits** (`.bmp`) y **Todos los archivos**.
+* **Imagen asociada al botón**: el archivo de imagen del botón. Digi3D.AI la escala a 16×16 píxeles. **Examinar...** abre un cuadro de selección de archivos con los filtros **Archivos de mapa de bits** (`.bmp`) y **Todos los archivos**. Aunque el filtro **Todos los archivos** permite elegir otros formatos, Digi3D.AI solo carga imágenes BMP.
 * **Orden a ejecutar cuando se pulse el botón**: la orden, con sus parámetros, tal como se escribiría en la línea de órdenes.
 * **Aceptar**: guarda los datos del botón. Está deshabilitado en estos casos:
   * **Tooltip del botón** está vacío.
