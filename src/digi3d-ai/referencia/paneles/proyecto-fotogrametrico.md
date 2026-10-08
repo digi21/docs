@@ -1,7 +1,7 @@
 # Proyecto fotogramétrico
 <!-- id: proyecto-fotogrametrico -->
 
-![Panel proyecto fotogramétrico](../../../images/panelproyectofotogrametrico.png)
+![Panel Proyecto fotogramétrico con una pasada y dos modelos](../../../images/panel-proyecto-fotogrametrico.png)
 
 Permite crear archivos de proyecto fotogramétrico, así como cargar archivos de proyectos fotogramétricos creados por otros programas.
 
@@ -15,10 +15,16 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 
 ### Botones
 
-* Botón para crear un nuevo archivo de proyecto fotogramétrico.
-* Botón para cargar un archivo de proyecto fotogramétrico existente.
-* Botón para activar el cambio automático de modelo.
-* Desplegable que permite seleccionar el punto de vista en caso de que el archivo de proyecto fotogramétrico cargado proporcione distintos puntos de vista desde una misma estación.
+* **Nuevo**: crea un nuevo archivo de proyecto fotogramétrico.
+* **Cargar**: carga un archivo de proyecto fotogramétrico existente.
+* **Descargar**: descarga el proyecto fotogramétrico cargado.
+* **Cambio automático de modelo**: activa o desactiva el cambio automático de modelo.
+* **Punto de vista**: desplegable que permite seleccionar el punto de vista en caso de que el archivo de proyecto fotogramétrico cargado proporcione distintos puntos de vista desde una misma estación.
+* **Abrir en ventana nueva**: si está activado, al pulsar sobre un modelo se abre en una ventana fotogramétrica nueva en lugar de cambiar el modelo de la ventana fotogramétrica activa.
+* **Ir al modelo anterior** e **Ir al siguiente modelo** (flechas izquierda y derecha): cargan en la ventana fotogramétrica activa el modelo anterior o el siguiente de la misma pasada.
+* **Ir al modelo de la pasada anterior** e **Ir al modelo de la pasada siguiente** (flechas arriba y abajo): cargan en la ventana fotogramétrica activa el modelo de la pasada anterior o de la siguiente.
+
+Los botones de las flechas solo están habilitados cuando hay un proyecto fotogramétrico cargado y una ventana fotogramétrica abierta.
 
 ## Mostrar el panel
 
