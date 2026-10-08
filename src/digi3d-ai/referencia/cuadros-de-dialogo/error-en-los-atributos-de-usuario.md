@@ -12,7 +12,7 @@ Digi3D.AI muestra este cuadro de diálogo cuando no puede guardar en la base de 
 ## Campos
 
 * **Cadena de error**: el mensaje que devolvió el motor de base de datos o el control de calidad.
-* **Rejilla de atributos**: los atributos de la entidad, con el atributo que ha fallado seleccionado. Corrige su valor aquí.
+* **Rejilla de atributos**: muestra solo el atributo que ha fallado. Corrige su valor aquí. La rejilla queda vacía si el campo pertenece a un grupo del esquema de la tabla o está marcado como oculto.
 * **Volver a probar**: intenta guardar otra vez la entidad con los valores corregidos.
 * **Cancelar**: Digi3D.AI pregunta qué hacer con la entidad:
   * Volver a asignar un valor al atributo: muestra otra vez este cuadro de diálogo.
