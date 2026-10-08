@@ -11,6 +11,12 @@ No es la sección [Dispositivos de entrada](configuracion/dispositivos-de-entrad
 
 Selecciona la opción del menú **Herramientas/Configuración de dispositivos de entrada...**. La opción solo aparece en el menú que muestra Digi3D.AI cuando no hay ninguna ventana de dibujo ni fotogramétrica abierta.
 
+El cuadro de diálogo también se abre al abrir una ventana fotogramétrica si Digi3D.AI no consigue comunicarse con el dispositivo de entrada seleccionado. En ese caso aparece el aviso **Error al conectar con el dispotivo de entrada**, con tres opciones:
+
+* **Volver a probar a comunicar con el dispositivo**: intenta otra vez la comunicación.
+* **Configurar el dispositivo de entrada.**: abre este cuadro de diálogo. Al cerrarlo, Digi3D.AI intenta comunicarse con el dispositivo seleccionado.
+* **Continuar.**: abre la ventana fotogramétrica sin dispositivo de entrada.
+
 ## Campos
 
 * **Desplegable**: los dispositivos de entrada que admiten las extensiones instaladas. **Ninguno** indica que no se usa ningún dispositivo de entrada.
@@ -21,6 +27,8 @@ Selecciona la opción del menú **Herramientas/Configuración de dispositivos de
 * **Cancelar**: cierra el cuadro de diálogo sin cambiar el dispositivo.
 
 Los botones **Configurar...**, **Configurar bot.** y **Comprobar...** están desactivados con **Ninguno** seleccionado.
+
+**Configurar bot.** y **Comprobar...** se comunican con el dispositivo antes de abrir su cuadro de diálogo. Si la comunicación falla, Digi3D.AI muestra el aviso **Error al conectar con el dispotivo de entrada** con la descripción del error, y el cuadro de diálogo no se abre.
 
 ## Configurar: parámetros del dispositivo
 
