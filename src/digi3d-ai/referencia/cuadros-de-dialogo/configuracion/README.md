@@ -23,8 +23,14 @@ Para cambiar una configuración sigue los siguientes pasos:
 
 El cuadro de diálogo tiene además estos elementos:
 
-* **Buscar**: filtra las opciones por texto, sin distinguir mayúsculas de minúsculas. Muestra las opciones cuyo nombre contiene el texto y las categorías que las contienen, y despliega esas categorías. Si el texto aparece en el nombre de una categoría, se muestra la categoría plegada, con todas sus opciones. Con el campo vacío se muestran todas las categorías, plegadas.
-* **Área de descripción**: la parte inferior del cuadro de diálogo muestra la descripción de la opción seleccionada.
+* **Buscar**: filtra las opciones por texto, sin distinguir mayúsculas de minúsculas. Sí distingue las vocales acentuadas: `area` no encuentra **Área**. Muestra las opciones cuyo nombre contiene el texto y las categorías que las contienen, y despliega esas categorías. Si el texto aparece en el nombre de una categoría, se muestra la categoría plegada, con todas sus opciones. Con el campo vacío se muestran todas las categorías, plegadas.
+* **Área de descripción**: la parte inferior del cuadro de diálogo muestra la descripción de la opción seleccionada. Algunas opciones no tienen descripción y el área queda vacía.
+* **Aceptar**: guarda los cambios. Si Digi3D.AI no se ejecuta como administrador, el botón muestra el escudo del Control de cuentas de usuario de _Windows_.
+* **Cancelar**: cierra el cuadro de diálogo sin guardar los cambios. Las opciones que añaden algunas extensiones, como [EXT puede extender fuera de límites](ext/ext-puede-extender-fuera-de-limites.md), no se guardan, pero Digi3D.AI usa el valor nuevo hasta que se cierra la aplicación.
+
+Al pulsar F1, se abre la página de ayuda de la opción seleccionada. Si la opción no tiene página asignada, se abre la de su categoría o, si tampoco la tiene, esta página.
+
+Al aceptar, si has cambiado alguna opción que no se aplica hasta reiniciar, por ejemplo **Tema** o **Configuración para un único monitor**, Digi3D.AI muestra el mensaje «Los cambios no serán visibles hasta que reinicie la aplicación».
 
 ## Opciones de configuración
 
@@ -94,6 +100,7 @@ Configura los parámetros relacionados con la comunicación y la interfaz de usu
 * **[Directorio de ayudas de códigos](comunicacion-con-el-usuario/directorio-de-ayudas-de-codigos.md)** — Directorio de los archivos HTML de ayuda de los códigos.
 * **[Utilizar archivos de proyecto](comunicacion-con-el-usuario/utilizar-archivos-de-proyecto.md)** — Simplifica la pestaña de archivo de dibujo del nuevo proyecto.
 * **[Mostrar todas las etiquetas](comunicacion-con-el-usuario/mostrar-todas-las-etiquetas.md)** — Muestra todas las etiquetas de la tabla de códigos.
+* **[Preguntar qué archivos de referencia cargar](comunicacion-con-el-usuario/preguntar-que-archivos-de-referencia-cargar.md)** — Al abrir un archivo de dibujo con archivos de referencia, pregunta cuáles se cargan.
 
 ### Comunicación con Internet
 
@@ -102,9 +109,11 @@ Configura los parámetros que requieren comunicación con Internet, así como el
 * **[Tipo de conexión](comunicacion-con-internet/tipo-de-conexion.md)** — Indica el tipo de conexión a Internet.
 * **[Dirección](comunicacion-con-internet/direccion.md)** — Dirección del servidor proxy.
 * **[Usuario](comunicacion-con-internet/usuario.md)** — Usuario del servidor proxy.
-* **[Contraseña](comunicacion-con-internet/contrasena.md)** — Contraseña del servidor proxy.
+* **[Contraseña](comunicacion-con-internet/contrasena.md)** — Contraseña del servidor proxy. Si vacías el campo y aceptas, se conserva la contraseña guardada anteriormente.
 * **[Comprobar versión nueva](comunicacion-con-internet/comprobar-version-nueva.md)** — Comprueba si existe una versión nueva cada vez que se inicia la aplicación.
 * **[Permitir instalar versiones BETA](comunicacion-con-internet/permitir-instalar-versiones-beta.md)** — Incluye las versiones BETA al comprobar si hay una versión nueva.
+
+Las opciones **Comprobar versión nueva** y **Permitir instalar versiones BETA** no aparecen en las versiones BETA de Digi3D.AI.
 
 ### Conector con PostGis
 
@@ -663,4 +672,4 @@ Configura el sensor VM Quasi-Panoramic.
 
 ## Observaciones
 
-Los parámetros configurados con este cuadro de diálogo se almacenan en el archivo de configuración [Digi3DNET.db](../../archivos/archivo-de-configuracion-digi3dnet.db.md) o en la entrada del registro **Computer\HKEY_CURRENT_USER\SOFTWARE\Digi21\Digi3D.AI**.
+Los parámetros configurados con este cuadro de diálogo se almacenan en el archivo de configuración [Digi3DNET.db](../../archivos/archivo-de-configuracion-digi3dnet.db.md) o en la entrada del registro **Computer\HKEY_CURRENT_USER\SOFTWARE\Digi21\Digi3D.NET**.
