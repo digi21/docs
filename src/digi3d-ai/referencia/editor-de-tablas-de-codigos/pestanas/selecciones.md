@@ -57,7 +57,21 @@ El cuadro tiene estos controles:
 * Campo que sigue a `return`: expresión Python.
 * **Fragmentos de código** y **Añadir fragmento**: añaden al final de la expresión el fragmento elegido en el desplegable.
 
-Los textos de ayuda del cuadro y los fragmentos que mencionan `digi3DGeometry`, `Points.Count`, `Codes[0].Name` o variables por atributo, como `hazpol == "SI"`, describen una API anterior. Escribe las expresiones con `g`, como se explica en esta página.
+El desplegable ofrece operadores (`==`, `!=`, `<`, `>`, `<=`, `>=`, `and`, `and not`, `not`, `True`, `False`) y estos fragmentos de la geometría `g`:
+
+| Fragmento | Significado |
+| :--- | :--- |
+| `type(g).__name__ == 'Point'` | Comprueba el tipo de la geometría. Hay uno por cada tipo: `Point`, `Line`, `Text`, `Polygon` y `Complex`. |
+| `g.has_code('code')` | La geometría tiene un código que cumple el patrón. |
+| `len(g)` | Número de vértices. |
+| `g[0]` | Coordenadas del primer vértice. |
+| `g.codes[0].attributes.get('field')` | Valor de un campo de base de datos del primer código. |
+| `g.area` | Área. |
+| `g.perimeter_2d` | Perímetro en planta. |
+| `g.closed` | Indica si la geometría está cerrada. |
+| `g.text` | Cadena de un texto. |
+
+Sustituye `code` y `field` por el código o el campo que necesites.
 
 ## Ejemplos
 
