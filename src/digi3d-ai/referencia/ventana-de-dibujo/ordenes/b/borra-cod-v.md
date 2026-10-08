@@ -13,7 +13,9 @@ La orden pide primero que selecciones la línea que actúa de borde (ventana). L
 
 No se borrarán aquellos códigos que estén apagados \([OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md)\).
 
-Después de seleccionar la ventana, la orden muestra un cuadro de diálogo en el que se eligen los códigos y el **Modo de búsqueda**:
+Después de seleccionar la ventana, la orden muestra el cuadro de diálogo [Selecciona códigos](/digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md) con un campo propio, **Modo de búsqueda**, debajo de la lista de códigos:
+
+![Cuadro de diálogo Borrar por código por ventana](../../../../../images/borra-cod-v.png)
 
 | Modo de búsqueda | Descripción |
 | :--- | :--- |
@@ -22,12 +24,6 @@ Después de seleccionar la ventana, la orden muestra un cuadro de diálogo en el
 | Solape | Borra las entidades que tienen al menos un punto dentro de la ventana |
 
 La orden busca en todos los archivos de dibujo cargados. Una entidad se borra entera si tiene cualquiera de los códigos elegidos, aunque tenga además otros códigos. Si no hay ninguna entidad que borrar, suena el aviso de error.
-
-Para elegir los códigos se puede utilizar una de estas opciones:
-
-* Cargar de archivo...: carga un archivo de muestra de códigos previamente generado y guardado.
-* Guardar en archivo...: podemos guardar mediante un nombre, la lista de códigos seleccioanada para una posterior utilización. Los archivos generados estarán en formato .xml.
-* Seleccionar de forma manual los códigos que queremos borrar.
 
 ## Características de la orden
 

@@ -19,12 +19,7 @@ La orden actúa solo sobre las entidades del archivo de dibujo activo que no est
 
 Esta orden también permite borrar códigos secundarios. Si la entidad solo tiene el código indicado, se borra la entidad. Si tiene más códigos, la orden quita el código indicado y conserva la entidad con el resto de códigos.
 
-En la parte inferior de la ventana, se podrá especificar si se quieren borrar líneas, puntos, textos, complejos o polígonos. La selección se aplica a todos los códigos elegidos.
-
-Existen dos opciones:
-
-* Cargar de archivo...: para cargar un archivo de borrados de códigos previamente generado y guardado.
-* Guardar en archivo...: si seleccionamos esta opción el programa nos da la opción de guardar mediante un nombre, la lista de códigos seleccionada para una posterior utilización. Esto es muy práctico a la hora de borrar diferentes grupos de códigos. Los archivos generados estarán en formato .XML.
+Los códigos se eligen en el cuadro de diálogo [Selecciona códigos](/digi3d-ai/referencia/cuadros-de-dialogo/selecciona-codigos.md). En la parte inferior del cuadro se indica si se quieren borrar líneas, puntos, textos, complejos o polígonos. La selección se aplica a todos los códigos elegidos.
 
 ## Características de la orden
 
