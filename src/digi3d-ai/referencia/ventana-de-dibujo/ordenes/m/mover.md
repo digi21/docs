@@ -16,6 +16,8 @@ Cambia la posición de una o varias entidades en X, Y y Z.
 
 La orden desplaza las entidades el vector \(punto origen, punto destino\), incluida la diferencia de Z. Solo se pueden mover entidades del modelo actual.
 
+Si el control de calidad descarta la entidad movida, la entidad original se conserva sin cambios. Con varias entidades seleccionadas, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se mueven.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mover.md) |
