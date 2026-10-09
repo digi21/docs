@@ -8,6 +8,8 @@ Este cuadro de diálogo edita una lista de pares de valores. Lo abre el botón *
 | Leer únicamente las geometrías que tengan los siguientes valores | Parámetros del motor de importación/exportación de [PostGIS](../ventana-de-dibujo/importadores-y-exportadores/postgis.md) | **Campo** y **Valor** | Solo se leen las geometrías cuyo campo tiene ese valor. Al guardar entidades, el campo toma ese valor. |
 | Rutas a sustituir | Propiedades del sensor [ADS](../ventana-fotogrametrica/sensores/ads.md) | **Ruta a sustituir** y **Sustituir por** | En las rutas que lee el sensor, la primera ruta se sustituye por la segunda. |
 
+![Cuadro de diálogo Sustituidores abierto desde PostGIS](../../../images/sustituidores.png)
+
 ## Campos
 
 * **Lista**: un par por fila.
@@ -20,6 +22,8 @@ Este cuadro de diálogo edita una lista de pares de valores. Lo abre el botón *
 ## Cuadro de diálogo Añadir sustituidor
 
 Tiene dos cuadros de texto, uno por columna, con el título de la columna encima. **Aceptar** añade o modifica la fila; **Cancelar** la deja como estaba.
+
+![Cuadro de diálogo Añadir sustituidor](../../../images/anadir-sustituidor.png)
 
 ## Observaciones
 

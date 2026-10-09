@@ -59,6 +59,12 @@ Los cuadros de diálogo de los demás dispositivos tienen la misma tabla de ejes
 
 ![Cuadro de diálogo Configuración del dispositivo TopoMouse USB](../../../images/configuracion-topomouse-usb.png)
 
+![Cuadro de diálogo Parámetros para tarjetas PCI](../../../images/parametros-tarjetas-pci.png)
+
+![Cuadro de diálogo Parámetros para UDP/IP](../../../images/parametros-udp-ip.png)
+
+![Cuadro de diálogo Configuración del dispositivo Stealth 3D Mouse](../../../images/configuracion-stealth-3d-mouse.png)
+
 Si nunca se ha guardado la configuración de un dispositivo, el cuadro de diálogo muestra los valores que usa el dispositivo por defecto. **Aceptar** guarda los valores y **Cancelar** cierra el cuadro de diálogo sin guardarlos.
 
 Cada dispositivo guarda su configuración por separado. La de Stealth 3D Mouse y TopoMouse USB se guarda para el usuario de _Windows_; la de los demás dispositivos, para el equipo.
