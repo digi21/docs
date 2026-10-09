@@ -32,14 +32,28 @@ Los botones **Configurar...**, **Configurar bot.** y **Comprobar...** están des
 
 ## Configurar: parámetros del dispositivo
 
-Cada dispositivo tiene su propio cuadro de diálogo de configuración. Los dispositivos que se conectan por puerto serie, como el Rest4, muestran **Parámetros para tarjetas serie**:
+Cada dispositivo tiene su propio cuadro de diálogo de configuración. Los dispositivos que se conectan por puerto serie (Rest4, FCodic, TopoMouse Serie y SEC-232m) muestran **Parámetros para tarjetas serie**:
 
 ![Cuadro de diálogo Parámetros para tarjetas serie](../../../images/parametros-para-tarjetas-serie.png)
 
 * **Puerto serie**: número del puerto COM al que está conectado el dispositivo.
 * **X se mueve por los ejes**, **Y se mueve por los ejes** y **Z se mueve por los ejes**: cuánto cambia cada coordenada del cursor (filas) al mover cada eje del dispositivo (columnas **X**, **Y** y **Z**). Un valor negativo invierte el sentido. Por ejemplo, un `-1` en la fila de la Z y la columna Z hace que la manivela de la Z mueva el cursor en sentido contrario.
 
-Estos parámetros se guardan para el equipo y para cada dispositivo por separado.
+Los cuadros de diálogo de los demás dispositivos tienen la misma tabla de ejes y, en la primera fila, el parámetro propio de cada dispositivo:
+
+| Dispositivo | Cuadro de diálogo | Primera fila |
+| --- | --- | --- |
+| COMBox | **Parámetros de configuración de COMBox** | **Puerto serie** |
+| IBox | **Parámetros de configuración de IBox** | **Puerto serie**. Añade la casilla **El dispositivo es un Softmouse o un Stealth 3D Mouse**, que gira 45° los ejes X e Y del dispositivo. |
+| DPW | **Parámetros para tarjetas PCI** | **Leer la tarjeta cada** _n_ **milisegundos**: tiempo entre dos lecturas de la tarjeta. |
+| DPW-USB | **Parámetros de configuración de DPW-USB** | **Leer el dispositivo cada** _n_ **milisegundos**: tiempo entre dos lecturas del dispositivo. |
+| UDP/IP | **Parámetros para UDP/IP** | **Puerto**: puerto UDP en el que Digi3D.AI recibe las coordenadas. |
+| Stealth 3D Mouse S1Z/S2Z/S3Z | **Configuración del dispositivo Stealth 3D Mouse** | Ninguna: solo la tabla de ejes. |
+| TopoMouse USB | **Configuración del dispositivo TopoMouse USB** | Ninguna: solo la tabla de ejes. |
+
+Si nunca se ha guardado la configuración de un dispositivo, el cuadro de diálogo muestra los valores que usa el dispositivo por defecto. **Aceptar** guarda los valores y **Cancelar** cierra el cuadro de diálogo sin guardarlos.
+
+Cada dispositivo guarda su configuración por separado. La de Stealth 3D Mouse y TopoMouse USB se guarda para el usuario de _Windows_; la de los demás dispositivos, para el equipo.
 
 ## Configurar bot.: Asignación de botones
 
