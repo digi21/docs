@@ -5,6 +5,8 @@ Esta pestaña guarda en la tabla de códigos listas de reglas de representación
 
 Las reglas son funciones Python de la pestaña [Entorno Python](entorno-python.md) con el decorador `@dynamic_representation_rule()`. Un archivo `.representations` es un archivo de texto con una regla por línea y los valores de sus parámetros.
 
+![Pestaña Representaciones dinámicas](../../../../images/pestana-representaciones-dinamicas.png)
+
 ## Controles
 
 * **Lista de representaciones** (columna **Nombre**): una fila por representación dinámica de la tabla de códigos.

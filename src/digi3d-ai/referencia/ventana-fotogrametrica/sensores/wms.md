@@ -63,4 +63,6 @@ El sensor añade estos botones a la barra de herramientas de la ventana fotogram
 | **-** | Multiplica por 2 el tamaño de píxel: el servidor devuelve imágenes de una zona mayor. |
 | **Tamaño pixel** | Abre el cuadro de diálogo **Indica el tamaño de píxel**, que muestra el tamaño de píxel actual en el campo **Tamaño de píxel**. **Aceptar** aplica el valor escrito si es distinto del actual; **Cancelar** cierra el cuadro sin cambiarlo. |
 
+![Cuadro de diálogo Indica el tamaño de píxel](../../../../images/sensor-wms-tamano-pixel.png)
+
 Al cambiar el tamaño de píxel con **+**, **-** o **Tamaño pixel**, el origen del modelo pasa a ser la posición actual del cursor y Digi3D.AI vuelve a pedir las teselas.
