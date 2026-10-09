@@ -1,6 +1,8 @@
 # Renombrar etiquetas
 <!-- id: renombrar-etiquetas -->
 
+![Cuadro de diálogo Renombrar etiquetas](../../../../../images/renombrar-etiquetas.png)
+
 Este cuadro de diálogo aparece con la opción **Códigos/Renombrar etiquetas...**. Cambia el nombre de una [etiqueta](../../pestanas/codigos/propiedades-del-codigo.md#etiquetas) en todos los códigos que la tienen.
 
 ## Controles

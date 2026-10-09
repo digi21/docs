@@ -3,6 +3,8 @@
 
 Esta categoría permite configurar las propiedades de un campo de base de datos.
 
+![Propiedades del campo Id de la tabla Edificaciones, con la propiedad Comparable seleccionada](../../../../../images/propiedades-de-los-campos.png)
+
 ## Título
 
 Permite configurar el nombre del campo que se mostrará al usuario en las distintas ventanas que muestran campos de base de datos, como el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md).

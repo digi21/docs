@@ -22,6 +22,8 @@ Antes de **Símbolos invisibles**, **Estilos idénticos** y **Estilos no utiliza
 
 ## ¿Eliminar estilos superfluos?
 
+![Cuadro de diálogo ¿Eliminar estilos superfluos?](../../../../../images/eliminar-estilos-superfluos.png)
+
 **Estilos idénticos** muestra este cuadro de diálogo por cada grupo de estilos con la misma representación. La lista **Se han localizado los siguientes estilos con idéntica representación** muestra el grupo: el primer estilo es el que se conserva y los siguientes son los superfluos.
 
 * **Sí a todo**: elimina los superfluos de este grupo y de los siguientes sin volver a preguntar.
