@@ -3,52 +3,57 @@
 
 Permite añadir los códigos de las geometrías \(líneas y textos de centroide\) que forman parte de la topología.
 
-Al aceptar este cuadro de diálogo se añadirán a la topología todos los códigos seleccionados. Todos ellos se almacenarán con la misma configuración \(relación con la topología, condición para excluir, etc.\).
+Lo abren los botones **Añadir** y **Modificar** de la lista de códigos de la topología. Al aceptar este cuadro de diálogo se añaden a la topología todos los códigos de la lista, con la misma configuración \(relación con la topología, expresión para excluir, coordenadas Z, etc.\). Con **Modificar**, la lista contiene el código que se modifica y los botones **Limpiar**, **Borrar** y **Añadir...** están deshabilitados.
 
-## Ventanas
+## Lista de códigos a añadir
 
-Este cuadro de diálogo dispone de las siguientes ventanas:
+Muestra la lista de códigos que se añadirán a la topología al aceptar el cuadro de diálogo.
 
-### Lista de códigos a añadir
+* **Limpiar**: borra todos los códigos de la lista.
+* **Borrar**: elimina el código seleccionado.
+* **Añadir...**: abre el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md) y añade los códigos elegidos.
 
-Muestra la lista de códigos que se añadirán a la topología al aceptar el cuadro ed diálogo.
+## Prioridad del código
 
-Tiene tres botones asociados:
+Número entero. Si una línea tiene varios códigos de la topología, se usa la configuración del código con mayor prioridad. La opción de nodo **Asignar al nodo la coordenada Z de la línea con mayor prioridad** compara este valor entre los dos tramos.
 
-* **Limpiar** Borra todos los códigos añadidos en la lista de códigos a añadir.
-* **Borrar** Elimina los códigos seleccionados en la lista de códigos a añadir.
-* **Añadir** Permite añadir códigos a la lista de códigos a añadir.
+## Relación de estos códigos con la topología
 
-### Relación de estos códigos con la topología
+Indica si la presencia de una línea con alguno de estos códigos asegura que se forme un polígono:
 
-Permite configurar si la presencia de una línea con alguno de los códigos que se van a añadir va a asegurar que se forme un polígono.
+* **Es obligatorio que exista un tramo con este código para formar el polígono.** El analizador de topologías tiene en cuenta un [polígono topológico](poligonos-topologicos.md) solo si tiene al menos un tramo con este código.
+* **La presencia de un tramo con este código garantiza que se forma el polígono.** El analizador de topologías tiene en cuenta un polígono topológico si tiene al menos un tramo con este código.
+* **La presencia de un tramo con este código NO garantiza que se forma el polígono.** Si el analizador de topologías forma un recinto solo con líneas con este código, no tiene en cuenta ese recinto.
+* **La presencia de un tramo con este código NO garantiza que se forma el polígono pero SI huecos.** Como la anterior, pero los recintos formados con estas líneas sí cuentan como huecos.
 
-Se pueden configurar uno de los siguientes valores:
+## Expresión Python para excluir la geometría
 
-* **Es obligatorio que exista un tramo con este código para formar el polígono.** Si se selecciona esta opción, el analizador de topologías tendrá en consideración un  [polígono topológico](poligonos-topologicos.md) únicamente si tiene al menos un tramo con este código.
-* **La presencia de un tramo con este código garantiza que se forme el polígono.** Si se selecciona esta opción, el analizador de topologías tendrá en consideración un _polígono topológico_ si tiene al menos un tramo con este código.
-* **La presencia de un tramo con este código NO garantiza que se forme el polígono.** Si se selecciona esta opción, si el analizador de topologías consigue formar un recinto topológico únicamente con líneas con este código, no se tendrá en consideración dicho recinto topológico.
+Expresión Python que se evalúa para cada línea con estos códigos al formar los polígonos. Si el resultado es verdadero, la línea no se usa para formar polígonos topológicos. Vacía, no se excluye ninguna línea.
 
-## Condición para excluir la geometría
+## Coordenada Z que proporciona un tramo con este código al nodo para el caso general
 
-Permite introducir un campo de base de datos y un valor para dicho campo. Si el analizador de topologías localiza una línea con este código y dicha línea tiene en la base de datos asignado el valor configurado, dicha línea no se tendrá en consideración para formar polígonos topológicos.
+Se usa si la opción [Coordenadas Z del polígono](anadir-topologia.md#coordenadas-z-del-poligono) de la topología toma la Z de las geometrías del polígono. Indica qué coordenada Z recibe el nodo en el que un tramo con este código se encuentra con otro tramo:
 
-Ejemplo, si se introduce aquí el valor:
+* **Asignar al nodo la coordenada Z de la línea con mayor prioridad**
+* **Asignar al nodo la coordenada Z del tramo con este código**
+* **Asignar al nodo la coordenada Z del otro tramo**
+* **Asignar al nodo la coordenada Z máxima de entre los dos tramos**
+* **Asignar al nodo la coordenada Z mínima de entre los dos tramos**
+* **Asignar al nodo la coordenada del centroide**
+* **Interpolar**
+* **Asignar al nodo la obtenida al proyectar sus coordenadas sobre los MDTs cargados**
 
-```text
-formar_poligono=No
-```
+## Coordenada Z a asignar a los vértices de un tramo con este código para el caso general
 
-Todas aquellas líneas con este código que tengan almacenado en la base de datos el valor "No" para el campo "formar\_polígono" no se utilizarán para formar polígonos topológicos.
+Cada opción combina una acción con una condición:
 
-### Tipo de coordenada Z
+* Acciones: **Respetar las coordenadas Z de los vértices**, **Interpolar entre los dos nodos del tramo**, **Asignar la coordenada Z del centroide** y **Proyectar sobre un MDT cargado**.
+* Condiciones: **siempre**, **si el tramo coincidía en Z en ambos extremos**, **si el tramo coincidía en Z en al menos un extremo** y **si la Z ganadora en ambos nodos fue la de este tramo**.
 
-Permite la manera en la que aportarán coordenadas Z las líneas con este código a la hora de formar polígonos de esta topología en caso de que se haya configurado el valor **2.5D a partir de las geometrías del polígono** o el valor **3D a partir de las geometrías del polígono** en la opción [Coordenadas Z del polígono](anadir-topologia.md#coordenadas-z-del-poligono)de la topología.
+## Etiqueta asignada al MDT
 
-Se puede seleccionar una de las siguientes opciones:
+Solo se habilita si el nodo o los vértices se proyectan sobre un MDT. Vacía, se proyecta sobre cualquier MDT cargado; con una etiqueta, solo sobre los MDT que la tienen.
 
-* **No respetar las coordenadas Z del segmento** Si se selecciona esta opción, se interpolarán las coordenadas Z del segmento entre las de otros segmentos que sí que proporcionen coordenada Z.
-* **Respetar las coordenadas Z del segmento** Si se selecciona esta opción, se respetarán las coordenadas Z del segmento.
-* **Proyectar sobre un MDT cargado** Si se selecciona esta opción se proyectarán las coordenadas Z del segmento sobre algún archivo MDT cargado en el momento de generar los polígonos a partir de la topología.
-* **Respetar la coordenada Z si es coincidente en XYZ** Respeta las coordenadas Z del segmento únicamente si la coordenada Z del nodo inicial o del final coincide con la coordenada Z de la otra línea que llega a uno de esos nodos.  En caso de que no coincida la coordenada Z ni del nodo inicial ni del final, no se respetarán las coordenadas Z de esta línea.
+## Configuración de la coordenada Z para casos particulares de este código con otros códigos
 
+Excepciones a la regla general del nodo para cuando un tramo con este código se encuentra con un tramo de otro código. **Añadir** abre el cuadro de diálogo **Añadir caso particular de tratamiento de Z entre tramos**; **Borrar** elimina el caso seleccionado y **Limpiar** los elimina todos.
