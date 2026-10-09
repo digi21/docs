@@ -66,6 +66,8 @@ Cada entidad modificada se sustituye por una copia corregida. Las entidades cuya
 
 Si la longitud indicada como parámetro no es un número mayor que 0, la orden muestra «La longitud mínima de los segmentos tiene que ser un número mayor que 0.», emite el sonido de error y no modifica nada.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad modificada, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |

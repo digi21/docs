@@ -61,6 +61,8 @@ La orden no descarga la topología: los arcos y los centroides no cambian.
 
 [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) deshace de una vez todos los borrados y los trozos añadidos.
 
+Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un recinto, se conservan esas líneas sin cortar y no se añade ningún trozo. Los demás recintos se procesan con normalidad.
+
 ## Características de la orden
 
 | Tipo de orden | Orden inmediata |

@@ -18,6 +18,8 @@ Por cada grupo de entidades duplicadas, la orden borra todas las entidades del g
 * Si se pasan códigos como parámetro, la orden es inmediata: analiza las entidades del archivo de dibujo que tienen visible alguno de esos códigos. La entidad que se conserva es la que tiene el código que aparece antes en la lista de parámetros.
 * Si no se pasan parámetros, la orden es interactiva: solicita una [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) y analiza las entidades seleccionadas. La entidad que se conserva es la primera del grupo.
 
+Si el control de calidad descarta la entidad agrupada de un grupo de duplicadas, se conservan las entidades duplicadas de ese grupo. Los demás grupos se agrupan con normalidad.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](agrupar-entidades-duplicadas.md) si se pasan parámetros; [orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) si no se pasan |

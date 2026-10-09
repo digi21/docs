@@ -15,6 +15,8 @@ Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de
 
 La orden solo analiza las entidades visibles que tienen alguno de los códigos pasados como parámetro. Sin códigos, la orden no hace nada.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad modificada, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asignar-z-maxima-vertices-nodo.md) |

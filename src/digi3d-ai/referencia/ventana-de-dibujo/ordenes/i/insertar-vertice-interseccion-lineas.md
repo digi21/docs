@@ -11,6 +11,8 @@ Inserta un vértice en la intersección de las líneas de los códigos pasados p
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no aplica el cambio y se conservan todas las líneas originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](insertar-vertice-interseccion-lineas.md) |

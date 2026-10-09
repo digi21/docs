@@ -13,6 +13,8 @@ La orden analiza las entidades no borradas, visibles, dentro de la zona de inter
 
 En cada grupo de entidades duplicadas, la orden quita a cada entidad los códigos que ya tiene otra entidad anterior del grupo. Si una entidad se queda sin códigos, la orden la borra.
 
+Si Digi3D.AI descarta alguna de las copias nuevas, la orden no aplica el cambio y se conservan todas las entidades originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-codigos-entidades-visibles-duplicadas.md) |

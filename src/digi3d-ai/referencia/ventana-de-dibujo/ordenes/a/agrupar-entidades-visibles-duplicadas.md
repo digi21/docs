@@ -13,6 +13,8 @@ Dos entidades son duplicadas si son del mismo tipo (línea, punto o texto), tien
 
 Por cada grupo de entidades duplicadas, la orden borra todas las entidades del grupo y añade una copia de la primera con los códigos de todas. Si el registro no permite geometrías con códigos repetidos, los códigos repetidos se añaden una sola vez.
 
+Si el control de calidad descarta la entidad agrupada de un grupo de duplicadas, se conservan las entidades duplicadas de ese grupo. Los demás grupos se agrupan con normalidad.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](agrupar-entidades-visibles-duplicadas.md) |
