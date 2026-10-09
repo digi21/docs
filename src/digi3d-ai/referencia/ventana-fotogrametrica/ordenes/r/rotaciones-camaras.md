@@ -1,29 +1,29 @@
-# ROTACIONES\_CÁMARAS
+# ROTACIONES\_CAMARAS
 <!-- id: rotaciones-camaras -->
 
-![Cuadro de diálogo de rotaciones de cámaras](../../../../../images/rotacionescamaras.png)
-
-Permite cambiar la rotación visualización de las imágenes en la ventana fotogramétrica.
+Gira las imágenes de la ventana fotogramétrica con los ángulos _Omega_, _Phi_ y _Kappa_ de cada cámara.
 
 ## Parámetros
 
-Esta orden no admite parámetros
+Esta orden no admite parámetros.
 
 ## Observaciones
 
-Esta orden te va a permitir cambiar dinámicamente los ángulos _Omega_, _Phi_ y _Kappa_ con los que se visualizan las imágenes en la ventana fotogramétrica.
+Esta orden solicita los ángulos de giro de cada imagen en el cuadro de diálogo **Rotaciones de las cámaras**.
 
-  
-Puedes utilizar los deslizadores para cambiar los ángulos o asignar valores tecleándolos en los cuadros que aparece a la derecha de cada deslizador.
+![Cuadro de diálogo Rotaciones de las cámaras](../../../../../images/rotacionescamaras.png)
 
-  
-Si aceptas el cuadro de diálogo, se mantendrán los ajustes que has realizado. Si cancelas, se volverá a asignar a las imágenes los ajustes que tuvieran antes de ejecutar la orden.
+El cuadro de diálogo tiene un deslizador y un campo para cada ángulo: _Omega_, _Phi_ y _Kappa_ de la cámara izquierda y de la cámara derecha. Los ángulos van de -180 a 180 grados. El deslizador avanza en pasos de 0,1 grados; en el campo se puede escribir cualquier valor de ese intervalo.
 
-  
-Digi3D.AI memorizará \(almacenando en el archivo .D3D asociado a cada modelo\) los valores de los ángulos, de manera que la próxima vez que cargues ese modelo en particular, las imágenes mantendrán la rotación.
+Cada cambio se aplica a la imagen en el momento, tanto al mover un deslizador como al escribir un valor válido en un campo. Mientras el texto de un campo no es un número entre -180 y 180, por ejemplo mientras escribes el signo de un valor negativo, la imagen no cambia. Al pulsar **Aceptar** se validan los seis campos y, si alguno no es válido, aparece un mensaje y el cuadro de diálogo sigue abierto.
 
-  
-Si el modelo cargado es monoscópico, los deslizadores de la cámara derecha aparecerán deshabilitados, y los ángulos de rotación de la única imagen se modificarán mediante los controles para la cámara izquierda.
+Si pulsas **Cancelar**, las imágenes vuelven a los ángulos que tenían al ejecutar la orden.
+
+Si el modelo cargado es monoscópico, los controles de la cámara derecha aparecen deshabilitados y los de la cámara izquierda giran la única imagen.
+
+Si el sensor está proyectando las imágenes, la orden no abre el cuadro de diálogo: muestra un globo que indica que en ese modo las imágenes no se pueden girar a mano, porque el sensor las gira a la dirección de la base para que la paralaje quede horizontal. En ese caso la opción del menú aparece deshabilitada.
+
+El sensor de cámara cónica guarda los ángulos de la cámara izquierda y de la cámara derecha en el archivo del modelo, de manera que al volver a cargar ese modelo las imágenes mantienen el giro. No guarda un giro que coincida con el de una rectificación epipolar, porque ese lo calcula el sensor.
 
 ## Características de la orden
 
@@ -36,4 +36,3 @@ Si el modelo cargado es monoscópico, los deslizadores de la cámara derecha apa
 | Nombre interno | {C96276F0-D517-4AAB-A662-4A7FEC6BCFA8} |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
-
