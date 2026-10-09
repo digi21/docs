@@ -7,7 +7,22 @@ Esta categoría permite configurar la relación de este código con base de dato
 
 Este desplegable permite configurar la tabla a mostrar en las ventanas que muestran atributos de base de datos, como el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md) al seleccionar este código.
 
-Muestra un desplegable que permite seleccionar alguna de las tablas añadidas en la pestaña [Base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/base-de-datos.md).
+Muestra un desplegable que permite seleccionar alguna de las tablas añadidas en la pestaña [Base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/README.md).
+
+## Valores por defecto
+
+Valores que se asignan a los campos de la base de datos de las geometrías que se digitalizan con este código. La propiedad muestra el primer par `campo=valor`, seguido de `...` si hay más de uno.
+
+El botón **...** abre el cuadro de diálogo **Campos por defecto**:
+
+![Cuadro de diálogo Campos por defecto sin campos](../../../../../images/campos-por-defecto.png)
+
+* **Valores por defecto**: un campo por fila, con su valor. Escribe el valor en la columna derecha.
+* **Añadir**: abre el cuadro de diálogo **Nombre del campo**, que pide el nombre del campo y añade una fila con el valor vacío. No comprueba si el campo existe en la tabla ni si ya está en la lista.
+* **Eliminar**: elimina el campo seleccionado. Se habilita al seleccionar un campo.
+* **Aceptar** guarda la lista; **Cancelar** la deja como estaba.
+
+![Cuadro de diálogo Nombre del campo](../../../../../images/nombre-del-campo.png)
 
 ## Condiciones
 
