@@ -1,6 +1,8 @@
 # Códigos
 <!-- id: codigos -->
 
+![Editor de tablas de códigos mostrando la pestaña Códigos](../../../../../images/pestana-codigos.png)
+
 Esta pestaña configura los códigos de la tabla de códigos y sus representaciones.
 
 ## Lista de códigos

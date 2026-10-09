@@ -1,6 +1,8 @@
 # Añadir etiqueta a múltiples códigos
 <!-- id: anadir-etiqueta-a-multiples-codigos -->
 
+![Cuadro de diálogo Añadir etiqueta a múltiples códigos](../../../../../images/anadir-etiqueta-a-multiples-codigos.png)
+
 Este cuadro de diálogo aparece con la opción **Códigos/Añadir etiqueta a múltiples códigos...**. Añade una [etiqueta](../../pestanas/codigos/propiedades-del-codigo.md#etiquetas) a varios códigos a la vez.
 
 ## Controles

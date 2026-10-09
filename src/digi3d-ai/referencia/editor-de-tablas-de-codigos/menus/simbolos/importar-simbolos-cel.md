@@ -1,6 +1,8 @@
 # Importar símbolos de un archivo .cel
 <!-- id: importar-simbolos-cel -->
 
+![Cuadro de diálogo Importar símbolos de un archivo .cel](../../../../../images/importar-simbolos-cel.png)
+
 Esta opción del menú **Símbolos** convierte las células de una biblioteca de células de MicroStation (`.cel`) en símbolos de Digi3D.AI: un archivo de dibujo `.bin` por célula.
 
 ## Controles
