@@ -11,7 +11,7 @@ Lista de los estilos de la tabla de códigos. Al seleccionar uno, sus propiedade
 
 * **Nuevo**: crea un estilo.
 * **Duplicar**: crea una copia del estilo seleccionado. Se deshabilita mientras el estilo tiene cambios sin aplicar.
-* **Eliminar**: elimina el estilo seleccionado. No se puede eliminar el último estilo. Si algún código usa el estilo, un cuadro de tareas lista esos códigos y ofrece sustituirlo por el primer estilo de la lista (por el segundo, si se elimina el primero) o elegir el sustituto en el cuadro **Selecciona el estilo**.
+* **Eliminar**: elimina el estilo seleccionado. No se puede eliminar el último estilo. Si algún código usa el estilo, un cuadro de tareas lista esos códigos y ofrece sustituirlo por el primer estilo de la lista (por el segundo, si se elimina el primero) o elegir el sustituto en el cuadro [Selecciona el estilo](selecciona-el-estilo.md).
 
 ## Previsualización y Zoom
 
@@ -47,7 +47,7 @@ Lista de valores que alternan un tramo dibujado (pluma abajo) y un hueco (pluma 
 
 Si se activa, el estilo dibuja un símbolo a lo largo de la línea, o en la posición del punto si la geometría es puntual. Los siguientes campos se habilitan con esta casilla:
 
-* **Símbolo**: nombre del símbolo. Los símbolos son archivos de dibujo `.bin` de la carpeta configurada en **Herramientas/Configuración...**, habitualmente `C:\ProgramData\Digi3D.NET\Símbolos`. El botón **...** abre el cuadro **Selecciona el símbolo**, que muestra los símbolos de esa carpeta.
+* **Símbolo**: nombre del símbolo. Los símbolos son archivos de dibujo `.bin` de la carpeta configurada en **Herramientas/Configuración...**, habitualmente `C:\ProgramData\Digi3D.NET\Símbolos`. El botón **...** abre el cuadro [Selecciona el símbolo](selecciona-el-simbolo.md), que muestra los símbolos y las texturas de esa carpeta.
 * **Distancia**: separación entre símbolos a lo largo de la línea. Con 0 no se dibuja el símbolo en la línea.
 * **Distancia inicial**: distancia desde el primer vértice de la línea hasta el primer símbolo.
 * **Factor de escala en X** y **Factor de escala en Y**: escala horizontal y vertical del símbolo. Con 0 no se dibuja el símbolo.

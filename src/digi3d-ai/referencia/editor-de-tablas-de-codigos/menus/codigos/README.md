@@ -13,7 +13,7 @@ Las opciones de este menú actúan sobre la lista de la pestaña [Códigos](../.
 | **Importar códigos de archivo .dgn...** | Abre el cuadro [Importar códigos de archivo .dgn](importar-codigos-dgn.md). |
 | **Importar códigos de archivo de catálogo de NGIX...** | Abre el cuadro [Importar catálogo de NGIX](importar-catalogo-ngix.md). |
 | **Importar códigos de tabla BINDXF...** | Añade los códigos de una tabla de traducción BINDXF. |
-| **Importar códigos de archivo de definición de espacio de trabajo de ArcGIS...** | Añade los códigos de un archivo XML de espacio de trabajo de ArcGIS. |
+| **Importar códigos de archivo de definición de espacio de trabajo de ArcGIS...** | Añade los códigos de un archivo XML de espacio de trabajo de ArcGIS. Después de elegir los archivos pide la versión del esquema en el cuadro [Versión de ArcGIS](../version-de-arcgis.md) y el estilo de los códigos en el cuadro [Selecciona el estilo](../../pestanas/selecciona-el-estilo.md). |
 | **Importar códigos de un archivo .CSV [código] [nivel] [color] [estilo] [peso] [célula] [descripción]...** | Añade códigos con sus parámetros de traducción a DGN desde un archivo CSV. |
 | **Completar parámetros de importación/exportación** | Calcula los parámetros de importación y exportación que faltan en los códigos. |
 | **Sustituir parámetros de importación/exportación por los calculados automáticamente** | Sustituye los parámetros de importación y exportación de los códigos por los calculados. |
