@@ -886,6 +886,7 @@
         * [Ortofoto estereoscópica](digi3d-ai/referencia/ventana-fotogrametrica/sensores/ortofoto-estereoscopica.md)
         * [ADS](digi3d-ai/referencia/ventana-fotogrametrica/sensores/ads.md)
         * [VM Quasi-Panoramic](digi3d-ai/referencia/ventana-fotogrametrica/sensores/vm-quasi-panoramic.md)
+        * [Web Map Service](digi3d-ai/referencia/ventana-fotogrametrica/sensores/wms.md)
     * [Barras de herramientas](digi3d-ai/referencia/barras-de-herramientas/README.md)
       * [Acción al finalizar la línea](digi3d-ai/referencia/barras-de-herramientas/accion-al-finalizar-la-linea.md)
       * [Acotaciones](digi3d-ai/referencia/barras-de-herramientas/acotaciones.md)
