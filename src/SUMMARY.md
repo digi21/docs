@@ -870,6 +870,7 @@
             * [Summit](digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/extensiones/summit.md)
             * [Vexcel](digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/extensiones/vexcel.md)
         * [Satélite RPC](digi3d-ai/referencia/ventana-fotogrametrica/sensores/rpc/README.md)
+          * [Ajuste en bloque de RPCs](digi3d-ai/referencia/ventana-fotogrametrica/sensores/rpc/ajuste-en-bloque-de-rpcs.md)
           * [Extensiones](digi3d-ai/referencia/ventana-fotogrametrica/sensores/rpc/extensiones/README.md)
             * [Ikonos](digi3d-ai/referencia/ventana-fotogrametrica/sensores/rpc/extensiones/ikonos.md)
             * [Inpho](digi3d-ai/referencia/ventana-fotogrametrica/sensores/rpc/extensiones/inpho.md)
