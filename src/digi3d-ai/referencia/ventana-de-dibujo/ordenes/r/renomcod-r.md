@@ -13,9 +13,9 @@ La orden trabaja sobre las topologías cargadas con [BINTOP](/digi3d-ai/referenc
 
 ### Cuadro de diálogo
 
-![Cuadro de diálogo Seleccione los códigos de los centroides](../../../../../images/renomcod-r.png)
+![Cuadro de diálogo Selecciona los códigos de los centroides](../../../../../images/renomcod-r.png)
 
-Al ejecutar la orden se muestra el cuadro _Seleccione los códigos de los centroides_:
+Al ejecutar la orden se muestra el cuadro _Selecciona los códigos de los centroides_:
 
 | Campo | Descripción | Valor por defecto |
 | :--- | :--- | :--- |
