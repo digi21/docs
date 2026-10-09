@@ -23,6 +23,8 @@ Al ejecutar la orden sin parámetros aparecerá la siguiente ventana en la cual 
 
 ![](../../../../../images/color_indice.jpg)
 
+Pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
+
 El color elegido se aplica a los dos índices.
 
 ## Características de la orden
