@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden necesita una topología para inundación cargada. Si no la hay, muestra un mensaje de error y termina.
+Esta es una orden de inundación: actúa sobre los recintos en los que haces clic, y necesita una topología para inundación cargada en memoria. Antes de ejecutarla, genera esa topología con [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), y vuelve a generarla si has modificado las líneas del dibujo. Si no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina, y la opción del menú **Inundación/Generar polígono** está deshabilitada.
 
 1. Pulsa el pedal de registro dentro de un recinto para seleccionarlo. Mantén pulsada la tecla Ctrl para añadir recintos a la selección o quitarlos de ella.
 2. Pulsa el pedal tentativo para pasar al siguiente recinto que contiene el punto.

@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Requiere que exista una topología por inundación (topología temporal); en caso contrario, la orden muestra un aviso y termina.
+Esta es una orden de inundación: actúa sobre los recintos en los que haces clic, y necesita una topología para inundación cargada en memoria. Antes de ejecutarla, genera esa topología con [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), y vuelve a generarla si has modificado las líneas del dibujo. Si no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina, y las opciones del menú **Inundación/Copiar centroide** y **Topología/Copiar centroide** están deshabilitadas.
 
 1. Pulsa el botón de datos dentro de un recinto que tenga centroide y pulsa la barra espaciadora. La orden toma el centroide de ese recinto.
 2. Pulsa el botón de datos dentro de un recinto sin centroide y pulsa la barra espaciadora. La orden añade una copia del centroide en el punto central calculado por la topología para ese recinto.
@@ -23,7 +23,7 @@ Si el recinto seleccionado en el paso 1 no tiene centroide, o el del paso 2 ya t
 | Tipo de orden | [Orden interactiva](copiar-centroide-i.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Topología/Copiar centroide |
+| Opción del menú donde aparece la orden | Inundación/Copiar centroide<br>Topología/Copiar centroide |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

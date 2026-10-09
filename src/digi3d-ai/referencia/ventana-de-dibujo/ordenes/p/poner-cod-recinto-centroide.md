@@ -14,7 +14,7 @@ Añade el código de recinto a las entidades que forman el contorno de los recin
 
 Si faltan parámetros, la orden muestra el aviso «Faltan parámetros» y termina.
 
-Requiere que exista una topología por inundación (topología temporal); en caso contrario, la orden no se ejecuta.
+Esta es una orden de inundación: actúa sobre los recintos en los que haces clic, y necesita una topología para inundación cargada en memoria. Antes de ejecutarla, genera esa topología con [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), y vuelve a generarla si has modificado las líneas del dibujo. Si los parámetros están completos y no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina.
 
 Al ejecutarse, la orden establece el código de centroide como código activo.
 
