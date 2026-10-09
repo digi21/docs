@@ -3,7 +3,7 @@
 
 ![Cuadro de diálogo Introduce un punto terreno del archivo de puntos](../../../images/introduce-punto-terreno.png)
 
-Este cuadro de diálogo pide el punto de apoyo que vas a medir. Lo abren los paneles de [orientación absoluta](../ventana-fotogrametrica/ordenes/o/ori-absoluta.md), de medida de aerotriangulación y de orientación genérica, que usan los sensores que la admiten. Muestra los puntos del [archivo de puntos de apoyo](archivo-de-puntos-de-apoyo.md).
+Este cuadro de diálogo pide el punto de apoyo que vas a medir. Lo abren los paneles de [orientación absoluta](../ventana-fotogrametrica/ordenes/o/ori-absoluta.md), de [medida de aerotriangulación](../ventana-fotogrametrica/ordenes/a/aerotri.md) y [Orientación](../paneles/orientacion.md), que usan los sensores que la admiten. Muestra los puntos del [archivo de puntos de apoyo](archivo-de-puntos-de-apoyo.md).
 
 ## Campos
 
