@@ -13,6 +13,8 @@ Elimina los puntos dobles de las entidades del archivo de dibujo activo. Si no s
 
 La orden solo procesa líneas y polígonos (incluidos sus huecos) que no estén borrados, que sean visibles y que estén dentro de la zona de interés.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad sin puntos dobles, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-puntos-dobles.md) |

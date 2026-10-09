@@ -106,6 +106,8 @@ La orden transforma las entidades del archivo de dibujo activo que no están bor
 
 Al terminar, la orden recalcula los límites del archivo de dibujo. [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) deshace la transformación completa de una sola vez.
 
+Si Digi3D.AI descarta alguna de las entidades transformadas, la orden no aplica la transformación y las entidades originales se conservan.
+
 ## Características de la orden
 
 | Tipo de orden | Orden inmediata |

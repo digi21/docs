@@ -53,6 +53,8 @@ También se puede ejecutar desde **Dibujar/Densificar polilíneas...**.
 - [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md): hacen la operación contraria, eliminar vértices.
 - [INSERTA\_VERTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inserta-vertice.md): inserta un único vértice en el punto que indicas.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad densificada, solo se conserva su original y las demás se densifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](densifica.md) |
