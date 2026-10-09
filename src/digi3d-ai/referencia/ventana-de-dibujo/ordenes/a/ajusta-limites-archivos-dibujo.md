@@ -56,6 +56,8 @@ Cada geometría modificada se sustituye por una copia: la orden borra la origina
 
 La orden no muestra ningún mensaje al terminar, tampoco si no encuentra líneas con el código del límite. Todos los cambios forman una sola operación: _Deshacer_ los revierte de una vez.
 
+Si Digi3D.AI descarta alguna de las entidades nuevas, no se aplica la parte del ajuste a la que pertenece y se conservan las entidades originales de esa parte. El resto del ajuste se aplica con normalidad.
+
 ## Características de la orden
 
 | Tipo de orden | Orden inmediata |

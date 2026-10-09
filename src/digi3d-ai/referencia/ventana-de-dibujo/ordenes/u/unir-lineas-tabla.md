@@ -11,6 +11,8 @@ Une las lineas en pantalla siempre que al nodo no lleguen más de dos entidades 
 | :--- | :--- | :--- |
 | 1 | Código o códigos (uno o más, separados por espacios) | Si |
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna línea y se conservan todas las originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-lineas-tabla.md) |

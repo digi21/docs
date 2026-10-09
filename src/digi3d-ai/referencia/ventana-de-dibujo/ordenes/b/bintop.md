@@ -143,6 +143,8 @@ Ejemplos:
 * `bintop="c:\tabla1.tab" 1 0 0 0 0 1`: forma la topología con los códigos de `c:\tabla1.tab`, en 2D, informa de los polígonos sin área, no informa de los polígonos sin centroide ni de los centroides duplicados, no genera fichero de errores y carga la topología en memoria.
 * `bintop="c:\tabla1.tab" 1 1 0 1 1 "c:\err.bin" 2 1 1`: igual, pero informa de todos los errores, los guarda en `c:\err.bin` con marcas de tamaño 2, carga ese fichero como referencia y carga la topología en memoria.
 
+Si el control de calidad descarta la línea corregida, se conserva la línea original y no cuenta como corregida.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
