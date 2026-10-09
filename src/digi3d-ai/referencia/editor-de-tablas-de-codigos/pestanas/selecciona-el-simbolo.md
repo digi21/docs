@@ -10,7 +10,7 @@ Este cuadro de diálogo lo abre el botón **...** del campo **Símbolo** en la p
 * **Lista**: en orden alfabético, los símbolos (archivos de dibujo `.bin`) y las texturas (imágenes en los formatos que admite Digi3D.AI) de la carpeta de símbolos configurada en [Herramientas/Configuración...](../menus/herramientas/configuracion.md). Al abrirse está seleccionado el símbolo que tiene el estilo. Hacer doble clic en un elemento equivale a seleccionarlo y pulsar **Aceptar**.
 * **Vista previa**: a la derecha de la lista, dibuja el símbolo seleccionado con el color del texto del tema. Una textura se dibuja sobre un damero gris y blanco, para que se vean sus zonas transparentes.
 * **Centrar**: dibuja el símbolo con su centro en el centro de la vista previa. Sin marcar, el origen del símbolo queda en el centro.
-* **Ajustar escala**: amplía o reduce el símbolo para que ocupe la vista previa.
+* **Ajustar escala**: amplía o reduce el símbolo para que su lado mayor ocupe la vista previa. La escala se aplica respecto al centro de la vista previa: si **Centrar** no está marcada, parte del símbolo puede quedar fuera. Un símbolo sin dimensiones, como uno formado solo por un texto, se dibuja sin cambiar la escala.
 * **Aceptar**: escribe en el campo **Símbolo** de la pestaña **Estilos** el nombre del símbolo o de la textura seleccionados. Si no hay ningún elemento seleccionado, no hace nada.
 * **Cancelar**: cierra el cuadro sin cambiar el símbolo.
 
