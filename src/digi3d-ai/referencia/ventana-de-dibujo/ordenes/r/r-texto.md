@@ -17,6 +17,8 @@ La orden solicita tres datos:
 
 Pulsa el botón de reset para cancelar la orden.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](r-texto.md) |
