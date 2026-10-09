@@ -3,7 +3,7 @@
 
 ![Cuadro de diálogo Archivo de puntos de apoyo](../../../images/archivo-de-puntos-de-apoyo.png)
 
-Este cuadro de diálogo indica el archivo con las coordenadas terreno de los puntos de apoyo y su sistema de referencia de coordenadas. Lo abren la orden [ORI\_ABSOLUTA](../ventana-fotogrametrica/ordenes/o/ori-absoluta.md), la medida de aerotriangulación ([AEROTRI](../ventana-fotogrametrica/ordenes/a/aerotri.md)) y la orientación genérica, que usan los sensores monoscópicos, ADS40, de ortofoto y satelitales:
+Este cuadro de diálogo indica el archivo con las coordenadas terreno de los puntos de apoyo y su sistema de referencia de coordenadas. Lo abren la orden [ORI\_ABSOLUTA](../ventana-fotogrametrica/ordenes/o/ori-absoluta.md), la medida de aerotriangulación ([AEROTRI](../ventana-fotogrametrica/ordenes/a/aerotri.md)) y el panel [Orientación](../paneles/orientacion.md), que usan los sensores monoscópicos, ADS40, de ortofoto y satelitales:
 
 * al empezar, si el modelo no tiene archivo de puntos de apoyo o no se puede leer;
 * al pulsar el botón para cambiar el archivo de puntos de apoyo en el panel de la orientación.

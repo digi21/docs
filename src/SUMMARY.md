@@ -922,6 +922,7 @@
       * [Editor de la base de datos 1,2,3,4](digi3d-ai/referencia/paneles/editor-de-la-base-de-datos-1-2-3-4.md)
       * [Guion Python](digi3d-ai/referencia/paneles/guion-python.md)
       * [Instantáneas](digi3d-ai/referencia/paneles/instantaneas.md)
+      * [Orientación](digi3d-ai/referencia/paneles/orientacion.md)
       * [Propiedades](digi3d-ai/referencia/paneles/propiedades.md)
       * [Propiedades de la entidad seleccionada](digi3d-ai/referencia/paneles/propiedades-de-la-entidad-seleccionada.md)
       * [Propiedades de visualización](digi3d-ai/referencia/paneles/propiedades-de-visualizacion.md)
