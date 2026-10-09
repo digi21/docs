@@ -29,6 +29,12 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 | Codificación | Página de códigos: las de MS-DOS y _Windows_ de cada idioma, y UTF-8. Por defecto, UTF-8. | Codificación de los textos del archivo `.dbf` que se crea, que también se escribe en un archivo `.cpg`. Al leer, solo se usa si el `.dbf` no indica su codificación y no hay archivo `.cpg`. |
 | Cargar región de interés (BETA) | Sí o No. Por defecto, No. | Con **Sí**, al abrir el archivo se carga solo la región de interés. La región se selecciona con el botón derecho sobre el archivo en el panel de archivos de dibujo. |
 
+## Archivos dañados
+
+Si el índice `.shx` de una geometría apunta fuera del archivo `.shp`, si el `.shp` está truncado o si el registro de una geometría en el `.dbf` está dañado, esa geometría no se carga y se añade un error a la lista de errores de la carga, con el nombre de la capa y el número de la geometría. Se cargan las demás geometrías de la capa.
+
+La copia de seguridad incluye también las capas que no tienen archivo `.dbf`.
+
 ## Características del importador/exportador
 
 | | |
