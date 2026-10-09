@@ -1,6 +1,8 @@
 # Cuadrados y rectángulos
 <!-- id: cuadrados-y-rectangulos -->
 
+![Barra de herramientas Cuadrados y rectángulos](../../../images/cuadradosyrectangulos.png)
+
 Permite ejecutar órdenes relacionadas con cuadrados y rectángulos.
 
 ## Botones
