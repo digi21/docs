@@ -14,6 +14,8 @@ No admite parámetros.
 
 La orden crea un complejo con una copia de las entidades seleccionadas y borra las entidades originales.
 
+Si el control de calidad descarta el complejo nuevo, se conservan todas las entidades originales y no se añade el complejo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](crear-complejo.md) |

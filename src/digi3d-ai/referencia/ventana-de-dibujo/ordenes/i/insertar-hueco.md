@@ -19,6 +19,8 @@ En la configuración de las órdenes, la categoría **INSERTAR\_HUECO** tiene do
 * **Acción a realizar con la geometría que se inserta en INSERTAR\_HUECO**: no eliminar la geometría que forma el hueco, eliminarla o preguntar.
 * **Permitir añadir más de un hueco**: si está activa, la orden admite varios huecos seguidos y termina al pulsar la barra espaciadora.
 
+Si la propiedad de la acción sobre la geometría del hueco indica preguntar, la orden pregunta si se borra el hueco antes de añadir el polígono. Si el control de calidad descarta el polígono nuevo, se conservan la entidad original y la geometría del hueco, y no se borra ninguna.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](insertar-hueco.md) |

@@ -13,6 +13,8 @@ Esta orden está diseñada para las entidades complejas de archivos en formato D
 
 La orden solicita que selecciones una entidad compleja del modelo actual. También admite una selección múltiple, en la que solo procesa las entidades complejas. Cada entidad resultante conserva sus propios códigos.
 
+Si Digi3D.AI descarta alguna de las entidades resultantes, la orden no explota el complejo y el complejo original se conserva. Con selección múltiple, si descarta alguna, se conservan todos los complejos originales y no se explota ninguno.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](explotar-complejo.md) |

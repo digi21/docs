@@ -15,6 +15,8 @@ No admite parámetros.
 
 El polígono toma los códigos del contorno exterior. Según la configuración de la orden, el contorno exterior y los huecos originales se conservan, se borran o la orden pregunta si se borran. Por defecto se borra el contorno exterior y se conservan los huecos.
 
+La orden pregunta qué entidades se borran antes de añadir el polígono. Si el control de calidad descarta el polígono nuevo, se conservan todas las entidades originales y no se borra ninguna.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](crear-poligono.md) |

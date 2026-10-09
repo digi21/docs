@@ -11,6 +11,8 @@ No admite parámetros.
 
 La orden solicita que selecciones un polígono del modelo actual. También admite una selección múltiple, en la que solo procesa los polígonos. Cada polígono se convierte en una línea con el contorno exterior y los códigos del polígono, y en una línea por cada hueco con los códigos del hueco.
 
+Si Digi3D.AI descarta alguna de las entidades resultantes, la orden no explota el polígono y el polígono original se conserva. Con selección múltiple, si descarta alguna, se conservan todos los polígonos originales y no se explota ninguno.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](explotar-poligono.md) |
