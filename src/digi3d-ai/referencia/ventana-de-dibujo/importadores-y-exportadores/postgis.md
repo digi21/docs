@@ -33,7 +33,7 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 | Usuario | Texto. | Usuario con el que se conecta al servidor. |
 | Contraseña | Texto oculto. | Contraseña del usuario. Se guarda sin cifrar en el archivo `.pg`. |
 | Base de datos | Texto. | Base de datos del servidor a la que se conecta. |
-| Leer únicamente las geometrías que tengan los siguientes valores | Tabla de pares campo y valor. El botón **...** abre el cuadro de diálogo para editarla. | Solo se leen las geometrías cuyos campos tienen esos valores. Al guardar entidades, esos campos toman el valor indicado. |
+| Leer únicamente las geometrías que tengan los siguientes valores | Tabla de pares campo y valor. El botón **...** abre el cuadro de diálogo [Sustituidores](../../cuadros-de-dialogo/sustituidores.md) para editarla. | Solo se leen las geometrías cuyos campos tienen esos valores. Al guardar entidades, esos campos toman el valor indicado. |
 
 ## Características del importador/exportador
 
