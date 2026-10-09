@@ -33,7 +33,7 @@ La opción solo afecta a esta orden. Se aplica la próxima vez que se genera la 
 ## Cómo se forman los recintos
 
 * Entran solo las líneas visibles del archivo de dibujo activo: las de códigos encendidos y, si los códigos desconocidos están visibles, también las de códigos que no están en la tabla de códigos. Las líneas cuyos códigos están todos apagados no forman recintos.
-* Los puntos, los textos y las demás geometrías que no son líneas no forman recintos.
+* Los puntos, los textos y las demás geometrías que no son líneas no forman recintos. Los textos visibles que quedan dentro de un recinto se asocian como centroide al recinto más pequeño que los contiene.
 * Los nodos de la topología son los extremos de las líneas. Dos líneas que se cruzan no cierran recintos en el cruce si no terminan en él, aunque compartan un vértice. Pártelas antes con [PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md).
 * Una línea suelta, que no cierra ningún recinto, no forma recinto por sí misma.
 
@@ -48,6 +48,8 @@ Si no se puede formar la topología, la orden muestra un globo de error con el t
 | No se han encontrado entidades con las que trabajar | No hay ninguna línea visible con la que formar recintos. |
 
 Una sola línea visible con puntos dobles o con un único vértice impide formar la topología, aunque su código no esté en la tabla de códigos.
+
+Las líneas con puntos dobles o de un solo punto se añaden además al panel de tareas, una tarea por entidad. Cada tarea lleva a su entidad al hacer clic en ella. Si está activada la opción [Vaciar automáticamente](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel de tareas, la orden vacía el panel antes de añadir las tareas.
 
 Cuando la topología se forma, la orden no dibuja nada ni muestra ningún mensaje. La topología resultante sustituye a la topología temporal anterior.
 
