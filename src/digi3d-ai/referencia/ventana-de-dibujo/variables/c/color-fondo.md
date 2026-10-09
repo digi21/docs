@@ -23,7 +23,7 @@ Esta orden se puede ejecutar con un parámetro, con tres parámetros o sin pará
 
 ### Sin parámetros
 
-Si ejecutamos esta orden sin parámetros, esta mostrará el cuadro de diálogo de selección de colores de Windows.
+Si ejecutamos esta orden sin parámetros, esta mostrará el cuadro de diálogo de selección de colores de Windows. En el cuadro, pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
 
 ## Observaciones
 
