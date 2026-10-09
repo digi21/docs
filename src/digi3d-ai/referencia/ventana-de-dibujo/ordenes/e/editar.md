@@ -22,6 +22,8 @@ Puedes moverte a lo largo de la entidad y realizar diferentes modificaciones, ut
 * Pulsando la tecla Espacio \(barra espaciadora\) se aceptan las modificaciones.
 * Pulsando la tecla Esc se anula la orden.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](editar.md) |
