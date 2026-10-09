@@ -23,7 +23,7 @@ Esta orden se puede ejecutar con un parámetro, con tres parámetros o sin pará
 
 ### Sin parámetros
 
-Si ejecutamos esta orden sin parámetros, esta mostrará el cuadro de diálogo de selección de color de Digi3D. En el cuadro, pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
+Si se ejecuta esta orden sin parámetros, muestra el cuadro de diálogo [Seleccionar color](../../../cuadros-de-dialogo/seleccionar-color.md) con la paleta de la tabla de códigos activa. Al elegir un color de la paleta, el color de fondo toma el valor RGB de esa entrada, no su número: si después cambia la paleta, el fondo no cambia. El cuadro no muestra la opacidad (**A**), porque el color de fondo es siempre opaco. Si no hay ninguna tabla de códigos cargada, muestra el cuadro sin paleta. En el cuadro, pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
 
 ## Observaciones
 
