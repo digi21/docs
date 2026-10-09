@@ -88,6 +88,8 @@ Si marcas **Generar un archivo de errores**, la orden crea un símbolo de error 
 
 El botón **Configurar...**, habilitado con la casilla, abre el cuadro _Configuración del archivo de errores_:
 
+![Cuadro de diálogo Configuración del archivo de errores](../../../../../images/bintram-configuracion-archivo-errores.png)
+
 | Campo | Descripción | Valor por defecto |
 | :--- | :--- | :--- |
 | Archivo de errores | Ruta del archivo. El botón **...** abre el cuadro para elegirlo y su formato. Si cancelas ese cuadro, se conserva el nombre anterior. No puede estar vacío | `err.bin` en la carpeta del archivo de dibujo |
