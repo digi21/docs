@@ -18,10 +18,10 @@
   <use href="#nuevo" x="200" y="180"/>
 
   <line x1="262" y1="124" x2="221" y2="166" stroke="#555" stroke-width="1"/>
-  <text x="264" y="122" fill="#555" font-size="12">tramo más corto que el perímetro</text>
+  <text x="264" y="122" fill="#555" font-size="12">tramo más corto que la longitud mínima</text>
 
   <text x="240" y="362" text-anchor="middle" fill="#222">En cada línea o polígono, el vértice final de un tramo</text>
-  <text x="240" y="380" text-anchor="middle" fill="#222">más corto que el perímetro indicado se elimina.</text>
+  <text x="240" y="380" text-anchor="middle" fill="#222">más corto que la longitud mínima se elimina.</text>
   <text x="240" y="398" text-anchor="middle" fill="#222">Los vértices intermedios de otras entidades (verde)</text>
   <text x="240" y="416" text-anchor="middle" fill="#222">con esas coordenadas pasan al vértice que se conserva.</text>
 
