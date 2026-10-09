@@ -3,6 +3,8 @@
 
 Este cuadro de diálogo lo abre el botón **...** del campo **Símbolo** en la pestaña [Estilos](estilos.md). Permite elegir el símbolo o la textura del estilo.
 
+![Cuadro de diálogo Selecciona el símbolo](../../../../images/selecciona-el-simbolo.png)
+
 ## Controles
 
 * **Lista**: en orden alfabético, los símbolos (archivos de dibujo `.bin`) y las texturas (imágenes en los formatos que admite Digi3D.AI) de la carpeta de símbolos configurada en [Herramientas/Configuración...](../menus/herramientas/configuracion.md). Al abrirse está seleccionado el símbolo que tiene el estilo. Hacer doble clic en un elemento equivale a seleccionarlo y pulsar **Aceptar**.

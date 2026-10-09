@@ -134,6 +134,8 @@ Permite indicar el conjunto de órdenes que se ejecutarán cuando el usuario pul
 
 El botón **...** de las dos propiedades de órdenes abre el cuadro de diálogo **Órdenes**, con un cuadro de texto que contiene una orden por línea. **Aceptar** guarda las líneas; se quitan los espacios del principio y del final de cada una. La propiedad muestra la primera orden, seguida de `...` si hay más de una.
 
+![Cuadro de diálogo Órdenes](../../../../../images/cuadro-ordenes.png)
+
 ## Archivo de ayuda
 
 Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](/digi3d-ai/referencia/paneles/ayuda-dinamica.md) si se selecciona este código.

@@ -8,6 +8,8 @@ Este cuadro de diálogo permite elegir uno de los [estilos](estilos.md) de la ta
 * **Herramientas/Comprobaciones/Códigos/Códigos con estilos inexistentes**, para sustituir los estilos que no existen. Consulta [Comprobaciones](../menus/herramientas/comprobaciones.md).
 * **Códigos/Importar códigos de archivo de definición de espacio de trabajo de ArcGIS...**, después de [Versión de ArcGIS](../menus/version-de-arcgis.md). En este caso el título es **Selecciona el estilo a asignar a los puntos**.
 
+![Cuadro de diálogo Selecciona el estilo](../../../../images/selecciona-el-estilo.png)
+
 ## Controles
 
 * **Lista de estilos**: los estilos de la tabla de códigos en el orden de la pestaña **Estilos**. Al abrirse está seleccionado el primero. Hacer doble clic en un estilo equivale a seleccionarlo y pulsar **Aceptar**.

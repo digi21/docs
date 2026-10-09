@@ -5,6 +5,8 @@ Permite añadir los códigos de las geometrías \(líneas y textos de centroide\
 
 Lo abren los botones **Añadir** y **Modificar** de la lista de códigos de la topología. Al aceptar este cuadro de diálogo se añaden a la topología todos los códigos de la lista, con la misma configuración \(relación con la topología, expresión para excluir, coordenadas Z, etc.\). Con **Modificar**, la lista contiene el código que se modifica y los botones **Limpiar**, **Borrar** y **Añadir...** están deshabilitados.
 
+![Cuadro de diálogo Seleccionar códigos para topología](../../../../../images/seleccionar-codigos-para-topologia.png)
+
 ## Lista de códigos a añadir
 
 Muestra la lista de códigos que se añadirán a la topología al aceptar el cuadro de diálogo.

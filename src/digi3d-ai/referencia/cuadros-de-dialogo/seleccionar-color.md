@@ -6,6 +6,8 @@ Este cuadro de diálogo elige un color. Tiene dos versiones:
 * **Con paleta**: lo abre el botón **...** de las propiedades de color de las representaciones de un código en la pestaña [Códigos](../editor-de-tablas-de-codigos/pestanas/codigos/README.md) del editor de tablas de códigos: **Color** (ventana de dibujo), **Color estéreo** (ventana fotogramétrica), **Color relleno** y **Color relleno recinto**. Permite elegir un color de la paleta de la tabla de códigos o un color RGB con transparencia.
 * **Sin paleta**: lo abren el resto de las propiedades de color, como las del cuadro de diálogo [Configuración](configuracion/README.md) o el color de fondo de un campo de base de datos, y las órdenes [COLOR_FONDO](../ventana-de-dibujo/variables/c/color-fondo.md), [COLOR_INDICE](../ventana-fotogrametrica/ordenes/c/color-indice.md) y [COLOR_DESCONOCIDO](../ventana-de-dibujo/ordenes/c/color-desconocido.md). Elige un color RGB.
 
+![Cuadro de diálogo Seleccionar color con paleta](../../../images/seleccionar-color-con-paleta.png)
+
 ![Cuadro de diálogo Seleccionar color sin paleta](../../../images/seleccionar-color-sin-paleta.png)
 
 ## Campos
