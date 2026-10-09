@@ -1,7 +1,9 @@
 # Topologías
 <!-- id: topologias -->
 
-Permite configurar las topologías que se pueden generar mediante el menú [Topología](/digi3d-ai/referencia/ventana-de-dibujo/menus/topologia.md)de Digi3D.AI.
+![Editor de tablas de códigos mostrando la pestaña Topologías](../../../../../images/pestana-topologias.png)
+
+Permite configurar las topologías que se pueden generar mediante el menú [Topología](/digi3d-ai/referencia/ventana-de-dibujo/menus/topologia.md) de Digi3D.AI.
 
 ## Descripción
 
@@ -35,6 +37,7 @@ Dispone de los siguientes botones:
 
 * **Añadir** Permite añadir un código a la topología seleccionada mediante el cuadro de diálogo [Seleccionar códigos para topología](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/seleccionar-codigos-para-topologia.md). 
 * **Eliminar** Elimina el código seleccionado.
+* **Modificar** Permite modificar el código seleccionado mediante el mismo cuadro de diálogo.
 
 ### Lista de centroides
 

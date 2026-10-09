@@ -3,22 +3,17 @@
 
 ![Editor de tablas de códigos mostrando la pestaña Reconocimiento de voz](../../../../images/pestanareconocimientovoz.png)
 
-Esta pestaña permite que añadamos comandos a ejecutar mediante los servicios de reconocimiento de voz de Windows si está habilitada la variable global [RECONOCER_VOZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/reconocer-voz.md).
+Esta pestaña configura comandos de voz: frases que, al reconocerlas el servicio de reconocimiento de voz de Windows, ejecutan una orden. Digi3D.AI solo escucha si la variable [RECONOCER\_VOZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/reconocer-voz.md) está activada.
 
-Muestra en el contenido principal una lista de los comandos de voz configurados. Al seleccionar uno de ellos, se habilitan los botones **Modificar** y **Eliminar**.
+## Controles
 
-## Botón Añadir
+* **Lista de comandos**, con las columnas **Comando de voz** y **Orden a ejecutar**.
+* **Añadir**: abre el cuadro de diálogo **Comando de voz**, con dos campos:
+  * **Comandos de voz (separados por punto y coma;)**: una o varias frases que ejecutan la orden, separadas por `;`.
+  * **Orden a ejecutar**: la orden que se ejecuta al reconocer cualquiera de las frases.
+* **Modificar**: abre el mismo cuadro con los datos del comando seleccionado.
+* **Eliminar**: elimina el comando seleccionado.
 
-Permite añadir un nuevo comando de voz.
+**Modificar** y **Eliminar** se habilitan al seleccionar un comando.
 
-Al pulsarlo aparece un cuadro de diálogo que permite añadir distintas frases (separadas por punto y coma) que desencadenan que se ejecute el comando.
-
-Después indicaremos el comando a ejecutar.
-
-## Botón Modificar
-
-Permite modificar el comando de voz seleccionado en la lista de comandos de voz.
-
-## Botón Eliminar
-
-Permite eliminar el comando de voz seleccionado en la lista de comandos de voz.
+Los cambios de esta pestaña se aplican a la tabla de códigos al pulsar **Aplicar** o **Aceptar**.

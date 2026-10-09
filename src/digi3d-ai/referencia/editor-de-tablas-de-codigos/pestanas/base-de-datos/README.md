@@ -1,31 +1,32 @@
 # Base de datos
 <!-- id: base-de-datos-3 -->
 
-![Editor de tablas de códigos mostrando la tabla Edificaciones con sus campos ID y Propietario](../../../../../images/pestanabasedatos.png)
+![Editor de tablas de códigos mostrando la tabla Edificaciones con sus campos](../../../../../images/pestanabasedatos.png)
 
-Permite configurar las tablas y los esquemas de cada una de estas tablas de base de datos.
+Esta pestaña configura las tablas de la base de datos y los campos de cada tabla. Cada código puede enlazar con una tabla mediante su propiedad [Tabla](../codigos/base-de-datos.md#tabla).
 
 ## Tablas
 
-Muestra las tablas de base de datos definidas en esta tabla de códigos.
+Lista de las tablas definidas en la tabla de códigos.
 
-### Botón Nueva
-
-Permite añadir una nueva tabla al listado de tablas.
-
-### Botón Borrar
-
-Permite eliminar la tabla seleccionada en el listado de tablas.
+* **Nueva**: pide el nombre de la tabla y la crea con un campo `Id` de clave principal. La tabla nueva se añade a la tabla de códigos al aplicar los cambios.
+* **Borrar**: elimina la tabla seleccionada. Si algún código enlaza con ella, un cuadro de tareas ofrece tres opciones:
+  * **Quitar el enlace a esta tabla a dichos códigos**: deja vacía la propiedad **Tabla** de esos códigos y elimina la tabla.
+  * **Mantener la tabla pero vacía**: elimina todos los campos salvo un campo `Id` nuevo y mantiene los enlaces de los códigos.
+  * **Cancelar**: no hace nada.
 
 ## Campos
 
-Muestra los campos de la tabla seleccionada en **Tablas**.
+Lista de los campos de la tabla seleccionada. Su barra de herramientas tiene cuatro botones:
 
-Esta ventana tiene una barra de herramientas con los siguientes botones:
+* **Nuevo** (+): añade un campo. Escribe su nombre en la lista.
+* **Eliminar** (x): elimina el campo seleccionado.
+* **Subir** y **Bajar** (flechas): cambian la posición del campo seleccionado en la tabla.
 
-* **Nuevo** Al pulsarlo se creará un nuevo campo en la tabla. Debemos introducir el nombre del campo.
-* **Eliminar** Elimina el campo seleccionado en el listado de campos.
-* **Subir** Cambia el orden de los campos en la tabla subiendo de posición el seleccionado en el listado de campos.
-* **Bajar** Cambia el orden de los campos en la tabla bajando de posición el seleccionado en el listado de campos.
+Al seleccionar un campo, sus [propiedades](propiedades-de-los-campos.md) aparecen a la derecha.
 
-Al seleccionar un campo, aparecerán sus [propiedades](propiedades-de-los-campos.md) en la parte derecha.
+## Aplicar los cambios
+
+Los cambios de la tabla seleccionada se aplican al pulsar **Aplicar** o **Aceptar**. Si seleccionas otra tabla o cambias de pestaña con cambios sin aplicar, el editor pregunta si aplicarlos.
+
+El menú [Base de datos](../../menus/base-de-datos/README.md) tiene opciones que actúan sobre todas las tablas a la vez.
