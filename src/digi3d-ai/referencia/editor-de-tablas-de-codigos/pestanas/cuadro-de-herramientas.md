@@ -36,4 +36,4 @@ Al seleccionar una acción se habilitan dos campos:
 * **Órdenes a ejecutar**: órdenes que ejecuta la acción, una por línea.
 * **Etiquetas**: etiquetas de la acción.
 
-Los cambios de esta pestaña se escriben en la tabla de códigos al hacerlos. Se guardan en el archivo con **Archivo/Guardar** o al pulsar **Aceptar** y responder que sí a la pregunta de guardar los cambios.
+Los cambios de esta pestaña se aplican a la tabla de códigos al pulsar **Aplicar** o **Aceptar**. Si cambias de pestaña, los cambios se conservan sin aplicar. **Cancelar** cierra el editor sin aplicarlos.
