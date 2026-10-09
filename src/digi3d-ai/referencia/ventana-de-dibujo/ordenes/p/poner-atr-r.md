@@ -17,7 +17,7 @@ Al mover el cursor, el recinto que contiene el cursor se ilumina:
 
 * Pulsa el botón de datos dentro de un recinto para seleccionarlo. La selección anterior se descarta.
 * Mantén pulsada la tecla Ctrl al pulsar el botón de datos para añadir el recinto a la selección o quitarlo de ella.
-* Pulsa el botón de tentativo para pasar al siguiente recinto que contiene el punto.
+* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto y que no está ya seleccionado. Si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error.
 * Pulsa el botón de reset para deseleccionar todos los recintos.
 * Pulsa Esc para cancelar la orden.
 

@@ -12,7 +12,7 @@ No admite parámetros.
 Esta es una orden de inundación: actúa sobre los recintos en los que haces clic, y necesita una topología para inundación cargada en memoria. Antes de ejecutarla, genera esa topología con [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), y vuelve a generarla si has modificado las líneas del dibujo. Si no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina, y la opción del menú **Inundación/Cambiar códigos** está deshabilitada.
 
 1. Pulsa el botón de datos dentro de un recinto para seleccionarlo. Mantén pulsada la tecla Control para añadir o quitar recintos de la selección.
-2. Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el cursor. Sin ningún recinto seleccionado, el botón de tentativo actúa como el botón de datos. Pulsa el botón de reset para vaciar la selección.
+2. Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el cursor y que no está ya seleccionado. Si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error. Sin ningún recinto seleccionado, el botón de tentativo actúa como el botón de datos. Pulsa el botón de reset para vaciar la selección.
 3. Pulsa la barra espaciadora para aplicar el cambio. La orden termina después de aplicarlo. Pulsa Escape para cancelar la orden.
 
 La orden cambia las entidades que forman el contorno exterior de los recintos seleccionados:
