@@ -49,6 +49,8 @@ En el modo Corte, cada línea cortada se borra y sus trozos conservados se añad
 
 La orden solo borra entidades del archivo de dibujo activo. Excluye las entidades borradas, las que están fuera de la zona de interés, la propia ventana y las entidades que tienen apagados \([OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md)\) todos sus códigos.
 
+Para usar como ventana los recintos de una topología, y borrar solo las entidades de unos códigos, usa [BORRA\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-r.md).
+
 Lo que borra y añade la orden se deshace con [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md).
 
 ### Ejemplo
@@ -66,5 +68,5 @@ Usa como ventana cada línea cerrada con el código `LIMITE`. Corta las líneas 
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
-| Órdenes relacionadas | [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md)<br>[BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md) |
+| Órdenes relacionadas | [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md)<br>[BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md)<br>[BORRA\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-r.md) |
 | Nombre interno | {290F947C-CAAD-4945-8524-9E71C9713108} |
