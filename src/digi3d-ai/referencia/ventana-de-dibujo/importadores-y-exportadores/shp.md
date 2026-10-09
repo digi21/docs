@@ -35,6 +35,8 @@ Si el índice `.shx` de una geometría apunta fuera del archivo `.shp`, si el `.
 
 La copia de seguridad incluye también las capas que no tienen archivo `.dbf`.
 
+Si la capa está abierta en solo lectura, almacenar, eliminar o recuperar una geometría muestra el mensaje «La capa _capa_ está abierta en solo lectura: no se pueden almacenar, eliminar ni recuperar geometrías en ella.» y el archivo no se modifica.
+
 ## Características del importador/exportador
 
 | | |
