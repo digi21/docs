@@ -48,8 +48,8 @@ Los cuadros de diálogo de los demás dispositivos tienen la misma tabla de ejes
 | DPW | **Parámetros para tarjetas PCI** | **Leer la tarjeta cada** _n_ **milisegundos**: tiempo entre dos lecturas de la tarjeta. |
 | DPW-USB | **Parámetros de configuración de DPW-USB** | **Leer el dispositivo cada** _n_ **milisegundos**: tiempo entre dos lecturas del dispositivo. |
 | UDP/IP | **Parámetros para UDP/IP** | **Puerto**: puerto UDP en el que Digi3D.AI recibe las coordenadas. |
-| Stealth 3D Mouse S1Z/S2Z/S3Z | **Configuración del dispositivo Stealth 3D Mouse** | Ninguna: solo la tabla de ejes. |
-| TopoMouse USB | **Configuración del dispositivo TopoMouse USB** | Ninguna: solo la tabla de ejes. |
+| Stealth 3D Mouse S1Z/S2Z/S3Z | **Configuración del dispositivo Stealth 3D Mouse** | Ninguna: solo la tabla de ejes, cuyas filas se llaman **X afectada por los ejes**, **Y afectada por los ejes** y **Z afectada por los ejes**. |
+| TopoMouse USB | **Configuración del dispositivo TopoMouse USB** | Ninguna: solo la tabla de ejes, cuyas filas se llaman **X afectada por los ejes**, **Y afectada por los ejes** y **Z afectada por los ejes**. |
 
 ![Cuadro de diálogo Parámetros de configuración de COMBox](../../../images/parametros-combox.png)
 
