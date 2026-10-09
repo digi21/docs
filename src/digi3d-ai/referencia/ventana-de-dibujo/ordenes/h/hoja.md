@@ -20,7 +20,7 @@ Al pulsar **Aceptar**, la orden crea el archivo con estas entidades:
   * Junto a cada media cruz, un rótulo con esa coordenada sin decimales, fuera del marco: debajo del lado inferior, encima del superior, a la izquierda del lado izquierdo y a la derecha del derecho.
   * En cada esquina, un rótulo con su X y otro con su Y, con el número de decimales indicado.
 * Con **Medias cruces** desactivado, rótulos de coordenadas con el número de decimales indicado junto a la cruz de la izquierda y la de la derecha de la fila inferior de cruces y de la fila superior: el rótulo de X al lado de la cruz, hacia el interior, y el de Y girado 90°, encima de las cruces de la fila inferior y debajo de las de la fila superior.
-* Las entidades del archivo de dibujo actual que son visibles y están en la zona de interés, sin los códigos apagados:
+* Las entidades de todos los archivos de dibujo cargados, el actual y los de referencia, que son visibles y están en la zona de interés, sin los códigos apagados:
   * Las líneas, recortadas por el marco: se copian los trozos interiores.
   * Los puntos y los textos cuyo punto de inserción está dentro del marco.
   * Los polígonos, los elementos complejos, los multipuntos y las imágenes que quedan enteros dentro del marco. Los que cruzan el marco no se copian.
