@@ -51,6 +51,7 @@
       * [Interfaz de usuario de la ventana fotogramétrica](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/interfaz-usuario-ventana-fotogrametrica.md)
       * [Cargando el primer par estereoscópico](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/cargando-primer-modelo-estereoscopico.md)
       * [Desplazando la ventana fotogramétrica a unas coordenadas conocidas](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/desplazando-ventana-foto-a-coordenadas.md)
+      * [Desplazando la ventana fotogramétrica a una referencia catastral](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/desplazando-ventana-foto-a-referencia-catastral.md)
       * [Desplazando la ventana fotogramétrica a un punto de apoyo](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/desplazando-ventana-foto-a-punto-apoyo.md)
       * [Aprendiendo a desplazarnos con el ratón en la ventana fotogramétrica](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/desplazando-ventana-foto-raton.md)
       * [Desplazando la vista al punto de origen del modelo](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/desplazando-ventana-foto-punto-origen.md)
