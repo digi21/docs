@@ -17,6 +17,8 @@ Sin parámetros, la orden espera a que selecciones las entidades y une las líne
 
 En el menú aparece como un submenú generado dinámicamente, con una entrada por cada etiqueta de la tabla de códigos; al elegir una, se unen entre sí las líneas visibles cuyos códigos tienen esa etiqueta.
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna línea y se conservan todas las originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-lineas.md) |

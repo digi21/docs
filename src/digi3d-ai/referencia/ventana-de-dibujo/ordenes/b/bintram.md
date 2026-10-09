@@ -146,6 +146,8 @@ Ejemplo:
 
 Usa los códigos de `C:\ASTE.tab`; genera `C:\err.bind`, borrándolo si existe, con símbolos de 2 m de códigos `cod1`, `cod2` y `cod3`, y lo carga al terminar; alarga o recorta con 0,3 m; no agrupa ni inserta vértices; marca los cruces con diferencia de Z mayor que 0,2; marca los extremos sueltos con otra línea a menos de 0,5 m; marca las líneas, los puntos y los textos duplicados, y une las líneas por código.
 
+Cada paso se aplica completo o no se aplica: si Digi3D.AI descarta alguna de las entidades nuevas de un paso, ese paso no cambia el archivo de dibujo y se conservan las entidades originales. Los demás pasos se aplican con normalidad. Si el control de calidad descarta la entidad agrupada al agrupar duplicadas, se conservan las entidades duplicadas de ese grupo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |

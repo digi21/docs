@@ -17,6 +17,8 @@ La orden solo une las líneas visibles que tienen alguno de los códigos pasados
 
 Cada línea se une como mucho una vez en cada ejecución. Para unir una cadena de más de dos líneas, ejecuta la orden varias veces.
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna línea y se conservan todas las originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-xyz.md) |

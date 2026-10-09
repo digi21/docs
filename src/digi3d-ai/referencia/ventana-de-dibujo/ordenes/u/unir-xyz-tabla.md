@@ -17,6 +17,8 @@ Sin parámetros, la orden emite un sonido de error y no hace nada.
 
 Cada línea se une como mucho una vez en cada ejecución. Para unir una cadena de más de dos líneas, ejecuta la orden varias veces.
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna línea y se conservan todas las originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-xyz-tabla.md) |

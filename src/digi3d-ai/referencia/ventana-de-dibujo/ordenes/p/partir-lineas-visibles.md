@@ -9,6 +9,8 @@ Parte las entidades visibles por sus intersecciones.
 
 No admite parámetros.
 
+Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no parte ninguna línea y se conservan todas las originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](partir-lineas-visibles.md) |

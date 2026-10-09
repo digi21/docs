@@ -7,6 +7,8 @@ Une las lineas visibles en pantalla (siempre que tengan el mismo código y conti
 
 No admite parámetros.
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna línea y se conservan todas las originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](unir-lineas-visibles.md) |
