@@ -51,6 +51,14 @@ Los cuadros de diálogo de los demás dispositivos tienen la misma tabla de ejes
 | Stealth 3D Mouse S1Z/S2Z/S3Z | **Configuración del dispositivo Stealth 3D Mouse** | Ninguna: solo la tabla de ejes. |
 | TopoMouse USB | **Configuración del dispositivo TopoMouse USB** | Ninguna: solo la tabla de ejes. |
 
+![Cuadro de diálogo Parámetros de configuración de COMBox](../../../images/parametros-combox.png)
+
+![Cuadro de diálogo Parámetros de configuración de IBox, con la casilla El dispositivo es un Softmouse o un Stealth 3D Mouse](../../../images/parametros-ibox.png)
+
+![Cuadro de diálogo Parámetros de configuración de DPW-USB](../../../images/parametros-dpw-usb.png)
+
+![Cuadro de diálogo Configuración del dispositivo TopoMouse USB](../../../images/configuracion-topomouse-usb.png)
+
 Si nunca se ha guardado la configuración de un dispositivo, el cuadro de diálogo muestra los valores que usa el dispositivo por defecto. **Aceptar** guarda los valores y **Cancelar** cierra el cuadro de diálogo sin guardarlos.
 
 Cada dispositivo guarda su configuración por separado. La de Stealth 3D Mouse y TopoMouse USB se guarda para el usuario de _Windows_; la de los demás dispositivos, para el equipo.
