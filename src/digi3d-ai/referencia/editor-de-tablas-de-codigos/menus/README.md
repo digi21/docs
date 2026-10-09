@@ -9,4 +9,4 @@ La barra de menús del editor de tablas de códigos tiene estos menús:
 * [Base de datos](base-de-datos/README.md): importar esquemas y modificar campos de todas las tablas.
 * **Macroinstrucciones**: importar macroinstrucciones de una carpeta. Se describe en la pestaña [Macroinstrucciones](../pestanas/macroinstrucciones.md).
 * [Códigos](codigos/README.md): importar códigos y modificar varios códigos a la vez.
-* [Herramientas](herramientas/README.md): comprobaciones, referencias y configuración.
+* [Herramientas](herramientas/README.md): comprobaciones y configuración.
