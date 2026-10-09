@@ -136,27 +136,17 @@ Permite especificar el nombre del archivo de ayuda que se mostrará en el panel 
 
 El archivo indicado en este campo debe existir en el [directorio de ayudas de usuario](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/comunicacion-con-el-usuario/directorio-de-ayudas-de-codigos.md) configurado en el programa.
 
-## Analizar control de calidad
+## Tamaño expresado en píxeles
 
-Indica si a este código se le van a pasar controles de calidad.
+Si vale **Sí**, los textos y puntos con este código se dibujan con su altura en píxeles: el nivel de zoom no cambia su tamaño en pantalla.
 
-Se pueden seleccionar las siguientes opciones:
+## Escala de representación
 
-* **No** Indica que no se analizarán las geometrías con este código al ejecutar controles de calidad.
-* **Si** Indica que se analizarán las geometrías con este al ejecutar controles de calidad.
+Denominador de la escala de visualización más pequeña a la que se dibuja la geometría. Con 5000, la geometría se dibuja a 1:5000 y a escalas mayores, como 1:2000, pero no a escalas menores, como 1:10000. Con 0 se dibuja siempre.
 
-## Lenguaje
+## Control de calidad
 
-Indica el lenguaje de programación con el que está programado el guion que ejecuta el control de calidad en las geometrías con este código en caso de haber configurado la opción Si en el campo [Analizar reglas de modelo semántico](propiedades-del-codigo.md#analizar-reglas-de-modelo-semantico).
+Esta categoría tiene dos propiedades:
 
-Se pueden seleccionar las siguientes opciones:
-
-* **CSharp** Indica que el guion está programado en el lenguaje de programación C#.
-* **VisualBasic** Indica que el guion está programado en el lenguaje de programación Visual Basic .NET
-* **JScript** Indica que el guion está programado en el lenguaje de programación JScript .NET.
-
-## Guion
-
-Código fuente del guion de control de calidad.
-
-La creación de guiones de control de calidad requiere unos conocimientos mínimos de programación. Puedes aprender más en [Guiones de control de calidad](/digi3d-ai/programacion/.net/guiones-de-control-de-calidad/).
+* **Analizar control de calidad al digitalizar**: si vale **Sí**, al digitalizar una geometría con este código se analizan los controles de calidad en los que interviene el código. Los controles de calidad asignados se analizan siempre al ejecutar las opciones del menú **Control de calidad**, valga lo que valga esta propiedad.
+* **Controles de calidad a aplicar**: el botón de la propiedad abre el cuadro **Controles de calidad**, que asigna al código funciones de control de calidad de la pestaña [Entorno Python](../entorno-python.md). Consulta [Controles de calidad en Python](/digi3d-ai/programacion/python/controles-de-calidad/README.md).
