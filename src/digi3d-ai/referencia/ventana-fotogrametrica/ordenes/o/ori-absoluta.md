@@ -9,14 +9,14 @@ No admite parámetros.
 
 ## Panel Orientación absoluta
 
-![Panel Orientación absoluta con cinco puntos medidos](../../../../../images/panel-orientacion-absoluta.png)
+![Panel Orientación absoluta con cinco puntos medidos y la vista extendida](../../../../../images/panel-orientacion-absoluta.png)
 
 Esta orden muestra este panel, en el que se miden los puntos de apoyo y se ven los residuos de la orientación. Los botones que no se pueden usar en cada momento aparecen desactivados.
 
 * **Archivo de puntos**: archivo con las coordenadas terreno de los puntos de apoyo. El botón **...** abre el cuadro de diálogo [Archivo de puntos de apoyo](../../../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md) para cambiarlo.
 * **Sistema de referencia de coordenadas**: el sistema de las coordenadas del archivo de puntos.
 * **Vista extendida**: añade a la lista las coordenadas terreno (**X**, **Y**, **Z**) y modelo (**Xmod**, **Ymod**, **Zmod**) de cada punto. Digi3D.AI recuerda su estado.
-* **Lista de puntos medidos**: el nombre de cada punto (**N**), sus residuos en X, Y y Z (**Ex**, **Ey**, **Ez**) y su **Descripción**. Hacer doble clic en un punto lleva el cursor a él para volver a medirlo.
+* **Lista de puntos medidos**: el nombre de cada punto (**N**), sus residuos en X, Y y Z (**Ex**, **Ey**, **Ez**) y su **Descripción**. Hacer clic en un punto lleva el cursor a él; hacer doble clic, además, lo deja listo para volver a medirlo.
 * **Primero XY, luego Z**: el punto se mide en dos pasos: el primer dato registra la posición en planta y el segundo, la Z.
 * **Saltar (Esc)**: mientras se espera la medida de un punto, lo descarta y pasa al siguiente. Con un punto seleccionado en la lista, quita la selección.
 * **Correlar**: ejecuta la orden CORRELAR para ajustar automáticamente la posición en la otra imagen.
