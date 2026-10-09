@@ -9,7 +9,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Es necesario que se esté ejecutando previamente una orden que admita selección múltiple. La orden necesita una topología temporal calculada; si no la hay, muestra el aviso «No hay ninguna topología temporal creada» y termina.
+Esta es una orden de inundación: actúa sobre los recintos en los que haces clic, y necesita una topología para inundación cargada en memoria. Antes de ejecutarla, genera esa topología con [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), y vuelve a generarla si has modificado las líneas del dibujo.
+
+Es necesario que se esté ejecutando previamente una orden que admita selección múltiple; si no la hay, la orden muestra el aviso «No se está ejecutando ninguna orden que admita selección múltiple.», emite el sonido de error y termina. Si la hay pero no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina. En los dos casos, la opción del menú **Inmediato/Selecciona por inundación** está deshabilitada.
 
 1. Pulsa el pulsador de datos dentro de un recinto para seleccionarlo. Mantén pulsada la tecla `Ctrl` para añadir o quitar recintos de la selección.
 2. Pulsa el pulsador de tentativo para pasar al siguiente recinto que contiene el punto.

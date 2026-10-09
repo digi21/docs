@@ -1,11 +1,17 @@
 # DESCARGAR\_TOPOLOGIA\_INUNDACION
 <!-- id: descargar-topologia-inundacion -->
 
-Descarga la topologia para inundación cargada en memoria
+Descarga la topología para inundación cargada en memoria.
 
 ## Parámetros
 
 No admite parámetros.
+
+## Observaciones
+
+La orden elimina de la memoria la topología temporal que generaron [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), quita el resaltado de los recintos y regenera la vista. No modifica el archivo de dibujo.
+
+Después de descargarla, las órdenes de inundación muestran el aviso «No hay ninguna topología temporal creada» y terminan hasta que vuelvas a generar la topología. La opción del menú **Inundación/Descargar topología para inundaciones** está deshabilitada mientras no hay topología.
 
 ## Características de la orden
 

@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Tienes que tener cargada una topología para poder ejecutar la orden MOSTRAR\_COD\_I; si no hay ninguna, la orden muestra un aviso y termina.
+Esta es una orden de inundación: actúa sobre los recintos en los que haces clic, y necesita una topología para inundación cargada en memoria. Antes de ejecutarla, genera esa topología con [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), y vuelve a generarla si has modificado las líneas del dibujo. Si no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina.
 
 1. Haz clic dentro del recinto, que se rellenará de color. Mantén pulsada la tecla Control para seleccionar varios recintos.
 2. Pulsa la barra espaciadora. La orden escribe los códigos de cada segmento del contorno junto al centro de ese segmento.
