@@ -15,6 +15,8 @@ Esta orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-
 
 Si el valor de un atributo activo es un valor especial (macro), la orden lo evalúa para cada geometría y asigna el resultado convertido al tipo del campo.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](camb_atributos.md)                                                                                                                              |

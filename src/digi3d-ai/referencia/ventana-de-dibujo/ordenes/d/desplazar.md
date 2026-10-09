@@ -23,6 +23,8 @@ Una vez ejecutada la orden, cada pulsación del pedal de registro o del tentativ
 
 Mueve una o varias entidades una cantidad fija de 0.5 m en Z.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se desplazan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](desplazar.md) |

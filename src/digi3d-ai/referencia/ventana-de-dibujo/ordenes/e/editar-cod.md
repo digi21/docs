@@ -60,6 +60,8 @@ Lo abre el botón **Asignar ID** del editor de códigos. Enlaza el código selec
 * **Aceptar**: enlaza el código con ese registro. Digi3D.AI no comprueba que exista un registro con ese ID.
 * **Cancelar**: cierra el cuadro de diálogo sin cambiar el enlace.
 
+Si el control de calidad descarta la copia con los códigos editados, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](editar-cod.md)                                                                                                                              |

@@ -25,6 +25,8 @@ CAMB\_MAXPUNTOS=020126
 
 Dividirá todas aquellas entidades lineales cuyo código sea 020126, en tramos que tengan 500 vértices cada uno. Cada tramo empieza en el último vértice del tramo anterior. El último tramo puede tener menos vértices.
 
+Si el control de calidad descarta cualquiera de los tramos nuevos, se conserva la línea original completa y no se añade ningún tramo. Con varias líneas, cada una se trata de forma independiente.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-maxpuntos.md) sin parámetros; [orden inmediata](camb-maxpuntos.md) con parámetros |

@@ -19,6 +19,8 @@ Sin parámetros, la orden pide que selecciones la línea o las líneas. Con cód
 
 La orden solo compara la Z del primer y del último vértice. Si la Z del primero es mayor, invierte el orden de todos los vértices; si no, la línea no cambia. Los vértices intermedios no se reordenan.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-sen-sube.md) |

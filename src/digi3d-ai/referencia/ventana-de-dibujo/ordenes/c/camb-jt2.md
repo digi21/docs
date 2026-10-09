@@ -20,6 +20,8 @@ Formas de ejecutar CAMB\_JT2:
 * Sin parámetros: la orden solicita que selecciones los textos. Admite selección múltiple.
 * Con parámetros: la orden modifica sin pedir datos todos los textos visibles, no borrados y dentro de la zona de interés que tengan alguno de los códigos indicados.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-jt2.md) sin parámetros; [orden inmediata](camb-jt2.md) con parámetros |

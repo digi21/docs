@@ -17,6 +17,8 @@ Sin parámetros, la orden pide que selecciones una o varias geometrías y se rep
 
 Con parámetros, la orden no pide selección: procesa todas las geometrías visibles y dentro de la zona de interés que tienen alguno de los códigos indicados, y termina.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](zfija.md) |

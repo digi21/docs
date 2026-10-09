@@ -21,6 +21,8 @@ Con códigos, la orden sustituye por su spline todas las líneas visibles de eso
 
 El resultado es la spline cúbica que pasa por los vértices de la línea original: cada tramo se sustituye por 10 vértices, y el último vértice se conserva. A diferencia de [SUAVIZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/suaviza.md), la separación entre los vértices nuevos no depende del incremento de registro INC.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se suavizan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](suaviza-spline.md) |

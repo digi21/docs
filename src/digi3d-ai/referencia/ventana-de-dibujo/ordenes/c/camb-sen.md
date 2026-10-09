@@ -19,6 +19,8 @@ Sin parámetros, la orden pide que selecciones la línea o las líneas. Con cód
 
 En caso de líneas con patrón, como puede ser el código para masa de árboles, al cambiar el sentido cambiará el lado hacia el que está dirigido el patrón.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-sen.md) |

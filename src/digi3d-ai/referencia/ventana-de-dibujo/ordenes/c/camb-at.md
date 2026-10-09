@@ -17,6 +17,8 @@ Con parámetros, la orden modifica sin pedir datos todos los textos visibles, no
 
 Antes de ejecutar la orden debes asignar la nueva altura de texto con la orden [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md).
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-at.md) sin parámetros; [orden inmediata](camb-at.md) con parámetros |

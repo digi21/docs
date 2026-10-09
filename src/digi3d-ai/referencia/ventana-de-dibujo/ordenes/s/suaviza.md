@@ -23,6 +23,8 @@ El resultado es una línea sin quiebros y de contorno más suave, ya que la func
 
 Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la variable [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md), por lo que a menor valor del incremento de registro mayor efecto de suavizado se consigue.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se suavizan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](suaviza.md) |

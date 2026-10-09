@@ -11,6 +11,8 @@ No admite parámetros.
 
 Al seleccionar la entidad y aceptar la selección, el cursor queda enganchado y el programa pedirá posar el nuevo vértice. El vértice se inserta en el tramo seleccionado, entre sus dos vértices. Solo se pueden seleccionar entidades del modelo actual.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](inserta-vertice.md) |
