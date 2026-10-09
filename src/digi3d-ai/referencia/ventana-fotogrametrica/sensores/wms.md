@@ -14,6 +14,10 @@ En la pestaña [Sensores fotogramétricos](../../cuadros-de-dialogo/nuevo-proyec
 3. En **Capa**, elige la capa que quieres ver. Digi3D.AI no elige ninguna capa por defecto: si pulsas **Aceptar** sin elegirla, muestra el mensaje «Elige una capa del servidor WMS.» y el cuadro de diálogo sigue abierto.
 4. Al elegir la capa aparecen las demás propiedades, con los valores que propone Digi3D.AI.
 
+![Propiedad Capa vacía tras conectar con el servidor](../../../../images/sensor-wms-url-servidor.png)
+
+![Propiedades del sensor Web Map Service con la capa elegida](../../../../images/sensor-wms-propiedades.png)
+
 > En el servidor del PNOA (`http://www.ign.es/wms-inspire/pnoa-ma`), la ortofoto es la capa **Ortoimagen** (`OI.OrthoimageCoverage`). La capa **Mosaico** (`OI.MosaicElement`) muestra las huellas de los vuelos, no la ortofoto.
 
 | Propiedad | Descripción |
@@ -41,6 +45,8 @@ Al abrir el modelo, Digi3D.AI se conecta al servidor y muestra el cuadro de diá
 * **Persona de contacto**, **Organización**, **Posición**, **Dirección**, **Ciudad**, **Provincia**, **Código postal**, **País**, **Teléfono** y **Correo electrónico**.
 * **Precio**: las tarifas del servicio.
 * **Restricciones de uso**: las condiciones de uso del servicio.
+
+![Cuadro de diálogo Acepta o rechaza las restricciones de uso del servicio](../../../../images/sensor-wms-restricciones-de-uso.png)
 
 Pulsa **Acepto** para abrir el modelo. Con **No acepto**, el modelo no se abre y Digi3D.AI muestra el mensaje **No se han aceptado las condiciones de uso del servicio.** El cuadro aparece cada vez que se abre el modelo.
 
