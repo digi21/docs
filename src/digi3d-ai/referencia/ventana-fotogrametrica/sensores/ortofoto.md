@@ -7,7 +7,7 @@ El sensor Ortofoto permite medir sobre una ortofotografía. El modelo tiene una 
 
 Al abrir el modelo, el sensor toma la georreferenciación de la propia imagen: las etiquetas GeoTIFF, la cabecera del ECW o el world file que está junto a la imagen: _.tfw_ para TIFF, _.eww_ para ECW, _.j2w_ para JPEG 2000 y _.sdw_ para MrSID.
 
-Si la imagen no tiene georreferenciación, el modelo se abre igualmente en coordenadas de píxel. Para georreferenciarla, ejecuta **Orientación afín**. Si el world file existe pero no se puede leer, Digi3D.AI muestra el error y no abre el modelo.
+Si la imagen no tiene georreferenciación, el modelo se abre igualmente en coordenadas de píxel: la X es la columna y la Y es el alto de la imagen menos la fila, de modo que la esquina inferior izquierda es el origen y la Y crece hacia arriba de la imagen, como en una ortofoto georreferenciada. Para georreferenciarla, ejecuta **Orientación afín**. Si el world file existe pero no se puede leer, Digi3D.AI muestra el error y no abre el modelo.
 
 ## Orientación afín
 
