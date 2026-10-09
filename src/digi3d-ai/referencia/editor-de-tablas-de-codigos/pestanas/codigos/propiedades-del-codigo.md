@@ -130,6 +130,10 @@ Permite indicar el conjunto de órdenes que se ejecutarán cuando se seleccione 
 
 Permite indicar el conjunto de órdenes que se ejecutarán cuando el usuario pulse el botón de Dato si este código está activo.
 
+### Cuadro de diálogo Órdenes
+
+El botón **...** de las dos propiedades de órdenes abre el cuadro de diálogo **Órdenes**, con un cuadro de texto que contiene una orden por línea. **Aceptar** guarda las líneas; se quitan los espacios del principio y del final de cada una. La propiedad muestra la primera orden, seguida de `...` si hay más de una.
+
 ## Archivo de ayuda
 
 Permite especificar el nombre del archivo de ayuda que se mostrará en el panel [Ayuda dinámica](/digi3d-ai/referencia/paneles/ayuda-dinamica.md) si se selecciona este código.
@@ -150,3 +154,17 @@ Esta categoría tiene dos propiedades:
 
 * **Analizar control de calidad al digitalizar**: si vale **Sí**, al digitalizar una geometría con este código se analizan los controles de calidad en los que interviene el código. Los controles de calidad asignados se analizan siempre al ejecutar las opciones del menú **Control de calidad**, valga lo que valga esta propiedad.
 * **Controles de calidad a aplicar**: el botón de la propiedad abre el cuadro **Controles de calidad**, que asigna al código funciones de control de calidad de la pestaña [Entorno Python](../entorno-python.md). Consulta [Controles de calidad en Python](/digi3d-ai/programacion/python/controles-de-calidad/README.md).
+
+### Cuadro de diálogo Controles de calidad
+
+![Cuadro de diálogo Controles de calidad](../../../../../images/controles-de-calidad.png)
+
+* **Controles de calidad disponibles**: las funciones de control de calidad, con su descripción. **Añadir**, o hacer doble clic en una fila, la añade a la lista inferior.
+* **Controles de calidad a aplicar al código**: las funciones asignadas al código, en el orden en que se aplican. **Eliminar** quita la seleccionada; **Subir** y **Bajar** cambian su posición.
+* **Aceptar** guarda la lista en la propiedad, una función por línea. El cuadro de diálogo se puede redimensionar y recuerda su tamaño y su posición.
+
+### Cuadro de diálogo Parámetros del control de calidad
+
+![Cuadro de diálogo Parámetros del control de calidad con tres parámetros](../../../../../images/parametros-del-control-de-calidad.png)
+
+Si la función que se añade tiene parámetros, **Añadir** abre este cuadro de diálogo con una fila por parámetro. Al pulsar **Aceptar**, la función se añade con sus valores como diccionario de Python, por ejemplo `atributo_bbdd_debe_ser_igual({"nombre_atributo":"TIPO", "valor_esperado":3, "mensaje":"Tipo incorrecto"})`. Un valor formado solo por cifras y puntos se escribe sin comillas; el resto, entre comillas.
