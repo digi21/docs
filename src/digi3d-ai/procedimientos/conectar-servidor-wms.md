@@ -24,10 +24,11 @@ El siguiente vídeo muestra el procedimiento completo:
 
    ![Cuadro de diálogo Ruta al servidor WMS con la URL GetCapabilities del PNOA y el archivo a crear vacío](../../images/wms-ruta-al-servidor.png)
 
-3. En **URL GetCapabilities del servidor WMS.**, escribe la URL del servidor. El cuadro de diálogo propone la del PNOA del IGN.
-4. Pulsa **...** y elige la carpeta y el nombre del archivo `.wmsconnection` que se va a crear. El botón **Aceptar** permanece deshabilitado hasta que indicas el archivo.
+3. En **URL GetCapabilities del servidor WMS**, escribe la URL del servidor. El cuadro de diálogo propone la del PNOA del IGN.
+4. Pulsa **...** y elige la carpeta y el nombre del archivo `.wmsconnection` que se va a crear, o escribe la ruta en **Archivo a crear**. El botón **Aceptar** permanece deshabilitado hasta que indicas el archivo.
 5. Pulsa **Aceptar**. Digi3D.AI se conecta al servidor y lee sus capacidades:
    - Si la conexión falla, no se crea el archivo.
+   - Si el archivo no se puede crear, por ejemplo en una carpeta sin permiso de escritura, Digi3D.AI muestra el mensaje **No se ha podido crear el archivo** con su ruta.
    - Si la conexión funciona, se crea el archivo. Si hay una ventana de dibujo abierta, Digi3D.AI lo carga en ella como archivo de referencia y muestra el panel **Archivos de dibujo**.
 
 ## 2. Cargar la conexión en la ventana de dibujo
