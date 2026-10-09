@@ -4,5 +4,4 @@
 | Opción | Acción |
 | :--- | :--- |
 | **Comprobaciones** | Submenú con las [comprobaciones](comprobaciones.md) de estilos, códigos y base de datos. |
-| **Referencias...** | Abre el cuadro [Ensamblados referenciados](referencias.md). |
 | **Configuración...** | Abre el cuadro [Configuración](configuracion.md). |

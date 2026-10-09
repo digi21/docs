@@ -41,8 +41,6 @@ Digi3D.AI llama a este método en los guiones de control de calidad que se puede
 
 Estos guiones son programas en C\# que Digi3D.AI compila en el momento de cargar la tabla de códigos generando en el directorio temporal de Windows un ensamblado por cada guion de control de calidad localizado en la tabla de códigos.
 
-Como el proceso de compilación de un ensamblado requiere que se introduzcan ensamblados de referencia como: _System.dll_, _System.Core.dll_, el [Editor de Tablas de Códigos](../../../../../../../../referencia/editor-de-tablas-de-codigos/) dispone de la opción del menú [Herramientas/Referencias](../../../../../../../../referencia/editor-de-tablas-de-codigos/menus/herramientas/referencias.md).
-
 Puedes aprender más en [Guiones de Control de Calidad](../../../../../../guiones-de-control-de-calidad/).
 
 ## Ejemplo:

@@ -1379,7 +1379,6 @@
           * [Renombrar etiquetas](digi3d-ai/referencia/editor-de-tablas-de-codigos/menus/codigos/renombrar-etiquetas.md)
         * [Herramientas](digi3d-ai/referencia/editor-de-tablas-de-codigos/menus/herramientas/README.md)
           * [Comprobaciones](digi3d-ai/referencia/editor-de-tablas-de-codigos/menus/herramientas/comprobaciones.md)
-          * [Referencias](digi3d-ai/referencia/editor-de-tablas-de-codigos/menus/herramientas/referencias.md)
           * [Configuración](digi3d-ai/referencia/editor-de-tablas-de-codigos/menus/herramientas/configuracion.md)
     * [Utilidades](digi3d-ai/referencia/utilidades/README.md)
       * [Generador de archivos de Ortofoto Estereoscópica](digi3d-ai/referencia/generador-de-archivos-de-ortofoto-estereoscopica.md)
