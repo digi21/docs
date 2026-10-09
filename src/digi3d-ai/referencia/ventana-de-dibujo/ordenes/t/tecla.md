@@ -13,7 +13,9 @@ Asigna órdenes de Digi3D.AI a pulsaciones de teclas en el teclado virtual activ
 
 Esta orden crea o modifica las asignaciones del teclado virtual activo (archivo `.keyboard.xml`) sin editar el archivo a mano.
 
-1. Al ejecutar la orden aparece un cuadro con el texto _Pulsa una tecla o Esc para salir de la orden Tecla_.
+1. Al ejecutar la orden aparece un cuadro con el texto _Pulsa una tecla o Esc para salir de la orden Tecla_:
+
+   ![Cuadro Pulsa una tecla o Esc para salir de la orden Tecla](../../../../../images/tecla-pulsa-una-tecla.png)
 2. Pulsa la tecla o la combinación de teclas a asignar, por ejemplo _Ctrl+a_ o _Mayús+F3_. Las teclas _Mayús_, _Ctrl_, _Alt_, _Pausa_ y _Bloq Mayús_ no se pueden asignar solas, y _Esc_ no se puede asignar.
 3. Se abre el cuadro de diálogo **Asignación de tecla**:
 
@@ -52,6 +54,15 @@ Si se indica el parámetro, el cuadro de asignación muestra las órdenes leída
 
 Este modo es el que usa Digi3D.AI al asignar a una tecla una macroinstrucción grabada.
 
+### Sin ninguna ventana de dibujo abierta
+
+La opción del menú **Ventana fotogramétrica/Teclado/Programador de teclas** ejecuta esta orden si hay alguna ventana de dibujo abierta. Si solo hay ventanas fotogramétricas, ejecuta la versión de la extensión _Digi3D.CommonCommands.dll_ (nombre interno {4726C0C5-1522-4c56-A439-0D644E6D1BFE}). Esa versión muestra los mismos cuadros y guarda las asignaciones en el mismo teclado virtual, con dos diferencias:
+
+* No admite el parámetro: no tiene nombre de orden y solo se ejecuta desde esa opción del menú.
+* El cuadro **Asignación de tecla** no se puede redimensionar ni guarda su posición.
+
+En la ventana fotogramétrica, la tecla _Intro_ abre siempre el cuadro [Introduce el nombre de la orden](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/README.md), aunque tenga órdenes asignadas.
+
 ## Características de la orden
 
 | Tipo de orden | Orden inmediata |
@@ -59,7 +70,7 @@ Este modo es el que usa Digi3D.AI al asignar a una tecla una macroinstrucción g
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Teclados virtuales/Asignar una orden al teclado virtual activo...<br>Ventana fotogramétrica/Teclado/Programador de teclas |
 | Barra de herramientas en la que aparece la orden | Teclados |
-| Extensión | DigiNG.OrdenesStandard.dll |
+| Extensión | DigiNG.OrdenesStandard.dll (Digi3D.CommonCommands.dll si no hay ventanas de dibujo abiertas) |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CAMBIA\_TECLAS\_MNU](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md) |
 | Nombre interno | {EB6809CA-AA03-4dfb-9D7A-D639EFDBC051} |
