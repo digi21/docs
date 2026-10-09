@@ -35,6 +35,8 @@ Los códigos se eligen en el cuadro de diálogo [Selecciona códigos](/digi3d-ai
 
 Cada vez que se ejecuta la orden, el cuadro se abre con la lista de códigos vacía y las cinco casillas marcadas. No recuerda la selección anterior.
 
+Si Digi3D.AI descarta la copia sin el código indicado de una entidad con más de un código, se conserva la entidad original. Las demás entidades se tratan con normalidad.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden inmediata](borra-cod.md)                                              |

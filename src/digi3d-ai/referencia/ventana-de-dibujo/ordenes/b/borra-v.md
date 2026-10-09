@@ -59,6 +59,8 @@ Lo que borra y añade la orden se deshace con [UNDO](/digi3d-ai/referencia/venta
 
 Usa como ventana cada línea cerrada con el código `LIMITE`. Corta las líneas que cruzan el borde, borra los trozos interiores y las entidades interiores, y conserva las líneas `LIMITE`.
 
+En el modo Corte, si Digi3D.AI descarta alguno de los trozos conservados, la orden no corta ninguna de las líneas que atraviesan el borde y se conservan enteras. El resto del borrado se aplica con normalidad.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |

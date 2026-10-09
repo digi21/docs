@@ -13,6 +13,8 @@ Crear elementos complejos agrupando entidades con el mismo código.
 
 Para cada código, la orden crea un complejo con ese código que contiene una copia de las entidades no borradas del archivo de dibujo activo cuyo primer código coincide exactamente con él, y borra las entidades originales. Los comodines no se interpretan: `CREAR_COMPLEJOS_COD=*` solo agrupa las entidades cuyo código es literalmente `*`.
 
+Si el control de calidad descarta el complejo de un código, se conservan las entidades originales de ese código. Los complejos de los demás códigos se crean con normalidad.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](crear-complejos-cod.md) |

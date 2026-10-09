@@ -29,6 +29,8 @@ La orden solo busca y borra entidades del archivo de dibujo activo. Excluye las 
 
 Una entidad se borra entera si tiene cualquiera de los códigos elegidos, aunque tenga además otros códigos. Si no hay ninguna entidad que borrar, suena el aviso de error.
 
+En el modo Corte, si el control de calidad descarta alguno de los trozos conservados, se conservan todas las líneas cortadas sin cortar y no se añade ningún trozo. Las entidades que se borran enteras se borran igualmente.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](borra-cod-v.md) |

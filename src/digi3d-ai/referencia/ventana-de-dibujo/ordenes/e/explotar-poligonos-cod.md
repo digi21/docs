@@ -13,6 +13,8 @@ Divide varios polígonos, en todas las entidades que los forman.
 
 Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos. La orden explota los polígonos visibles, dentro de la zona de interés y del archivo de dibujo activo que tienen alguno de los códigos. Cada polígono se convierte en una línea con el contorno exterior y los códigos del polígono, y en una línea por cada hueco con los códigos del hueco.
 
+Si Digi3D.AI descarta alguna de las entidades resultantes, la orden no explota ningún polígono y se conservan todos los originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](explotar-poligonos-cod.md) |

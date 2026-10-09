@@ -15,6 +15,8 @@ Esta orden está diseñada para las entidades complejas de archivos en formato D
 
 Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccionar los códigos. La orden explota las entidades complejas visibles, dentro de la zona de interés y del archivo de dibujo activo que tienen alguno de los códigos. Cada entidad resultante conserva sus propios códigos. Al terminar, la orden muestra cuántas entidades ha explotado y cuántas ha creado.
 
+Si Digi3D.AI descarta alguna de las entidades resultantes, la orden no explota ningún complejo y se conservan todos los originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](explotar-complejos-cod.md) |

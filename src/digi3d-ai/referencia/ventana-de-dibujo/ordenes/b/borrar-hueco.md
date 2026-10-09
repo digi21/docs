@@ -11,6 +11,8 @@ No admite parámetros.
 
 Selecciona con el cursor un vértice del hueco que quieres borrar. La orden solo acepta polígonos del archivo de dibujo activo; con cualquier otra entidad suena el aviso de error. Si el vértice seleccionado pertenece al límite exterior del polígono, la orden muestra el aviso «Esta orden no permite borrar el límite exterior de un polígono» y pide otro vértice. El polígono original se borra y se añade una copia sin el hueco.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](borrar-hueco.md) |
