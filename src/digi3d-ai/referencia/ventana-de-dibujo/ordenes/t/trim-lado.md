@@ -13,6 +13,8 @@ No admite parámetros.
 
 Se recortarán todas las entidades que se encuentren en el lado indicado por el punto digitalizado.
 
+Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no recorta ninguna entidad y se conservan todas las originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](trim-lado.md) |
