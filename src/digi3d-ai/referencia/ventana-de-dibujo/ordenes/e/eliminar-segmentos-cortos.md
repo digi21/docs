@@ -42,7 +42,7 @@ Si pulsas _Cancelar_, la orden termina sin modificar nada.
 
 ### Entidades que se corrigen
 
-La orden corrige las líneas y los polígonos del archivo de dibujo activo que no están borrados, están visibles y están dentro de la zona de interés, y que tienen alguno de los códigos indicados. Una entidad se corrige si alguno de sus tramos, en el contorno o en un hueco, mide menos que la longitud mínima. La longitud se mide en planta, entre vértices consecutivos, igual que en DETECTAR\_SEGMENTOS\_CORTOS. Un tramo de longitud igual a la mínima no es corto.
+La orden corrige las líneas y los polígonos del archivo de dibujo activo que no están borrados, están visibles y están dentro de la zona de interés, y que tienen alguno de los códigos indicados. Una entidad se corrige si alguno de sus tramos, en el contorno o en un hueco, mide menos que la longitud mínima. La longitud se mide en planta, entre vértices consecutivos, igual que en DETECTAR\_SEGMENTOS\_CORTOS. Un tramo de longitud igual a la mínima no es corto. Una línea o un hueco con menos de dos vértices no tiene tramos y la orden no lo modifica.
 
 Si el sistema de referencia de coordenadas de la ventana de dibujo es proyectado \(UTM, Lambert, etc.\) o local, la longitud está en las unidades de las coordenadas. Si es geográfico, la orden proyecta cada contorno y cada hueco en una proyección estereográfica oblicua con origen en su primer vértice, y la longitud está en metros.
 
