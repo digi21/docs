@@ -68,7 +68,7 @@ Se pueden introducir valores directamente en la tabla de códigos o se pueden ex
 
 Se pueden introducir tantos valores como sea necesarios, y se introducen como una tripleta separada por el carácter \| \(que se puede introducir pulsando la combinación de teclas _AltGr + 1_.
 
-`[valor]|[título][descripción]`
+`[valor]|[título]|[descripción]`
 
 * Valor es el valor que se va a almacenar en la base de datos.
 * Título es el título que verá el usuario en el desplegable, que no tiene por qué coincidir con el valor, se utiliza para facilitar el trabajo al usuario.
@@ -93,7 +93,7 @@ Si introducimos en este campo una consulta SQL de selección entre símbolos de 
 El programa extraerá los campos de la consulta.
 
 * Si la consulta devuelve un único campo, se utilizará este campo tanto para el valor como para el texto a mostrar al usuario para cada registro devuelto.
-* Si la consulta devuelve más de un campo, se utilizará el primer campo para el valor a asignar y el segundo para el texto a mostrar al u
+* Si la consulta devuelve más de un campo, se utilizará el primer campo para el valor a asignar y el segundo para el texto a mostrar al usuario.
 
 ## Restringir valores
 
@@ -101,7 +101,23 @@ En caso de que se haya indicado una lista de valores, si se activa esta opción,
 
 ## Mostrar cuadro de búsqueda
 
-En caso de que se haya indicado una lista de valores, si se activa esta opción, se mostrará un botón con tres puntos junto al botón de desplegable. Al pulsar este botón de tres puntos se mostrará un cuadro de diálogo que permite buscar el término a seleccionar.
+Si vale **Sí**, el campo muestra un botón **...** junto al botón del desplegable. El botón abre el cuadro de diálogo **Buscar valor**.
+
+El botón aparece solo si se cumplen todas estas condiciones:
+
+* El campo es de tipo **Carácter** o **Numérico**. Los campos de tipo real y de tipo fecha no muestran el botón, aunque esta propiedad valga **Sí**.
+* El campo tiene una [Lista de valores](#lista-de-valores). Sin lista de valores, esta propiedad no se guarda en la tabla de códigos.
+* Si la lista de valores es una consulta `%SELECT ...%`, la consulta se ejecuta sin error. Si falla, el campo se muestra como un cuadro de texto con el valor almacenado.
+* El campo no es la clave principal y es visible.
+
+El botón aparece en las ventanas que muestran los campos como una cuadrícula de propiedades: el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md), el panel [Propiedades de la entidad seleccionada](/digi3d-ai/referencia/paneles/propiedades-de-la-entidad-seleccionada.md), el cuadro de diálogo [Editor de códigos](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-cod.md#cuadro-de-dialogo-editor-de-codigos) y el cuadro de diálogo [Error en los atributos de usuario](/digi3d-ai/referencia/cuadros-de-dialogo/error-en-los-atributos-de-usuario.md). El panel [Editor de la base de datos](/digi3d-ai/referencia/paneles/editor-de-la-base-de-datos-1-2-3-4.md) muestra los registros en una tabla y no tiene este botón.
+
+### Cuadro de diálogo Buscar valor
+
+* **Término a buscar**: texto que se busca. La lista muestra los títulos de la lista de valores que contienen ese texto, sin distinguir mayúsculas de minúsculas, ordenados alfabéticamente.
+* **Lista**: al abrir el cuadro de diálogo muestra todos los títulos. **Aceptar** se habilita al seleccionar uno.
+* **Aceptar**: asigna al campo el valor que corresponde al título seleccionado.
+* **Cancelar**: cierra el cuadro de diálogo sin cambiar el campo.
 
 ## Solo lectura
 
