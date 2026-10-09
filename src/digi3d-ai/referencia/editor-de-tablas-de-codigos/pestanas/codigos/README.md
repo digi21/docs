@@ -32,7 +32,7 @@ La cuadrícula inferior izquierda muestra las propiedades del código selecciona
 
 La lista **Estilos visuales** muestra las representaciones del código. Una geometría con este código se dibuja con todas ellas, en el orden de la lista.
 
-* **Añadir**: abre el cuadro **Selecciona el estilo** y añade una representación con el estilo elegido.
+* **Añadir**: abre el cuadro [Selecciona el estilo](../selecciona-el-estilo.md) y añade una representación con el estilo elegido.
 * **Eliminar**: elimina la representación seleccionada.
 * **Subir** y **Bajar**: cambian el orden de la representación seleccionada.
 

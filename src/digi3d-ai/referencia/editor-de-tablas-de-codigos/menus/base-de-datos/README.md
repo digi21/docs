@@ -12,7 +12,7 @@ Las opciones de este menú actúan sobre las tablas de la pestaña [Base de dato
 | **Importar esquema de una base de datos en formato CATDBS...** | Igual que la anterior, para bases de datos en formato CATDBS. |
 | **Importar esquema de directorio con shapefiles...** | Crea una tabla por cada shapefile de una carpeta. |
 | **Importar esquema de archivo de catálogo de características MGCP...** | Crea las tablas de un catálogo de características MGCP. |
-| **Importar esquema de archivo de definición de espacio de trabajo de ArcGIS...** | Crea las tablas de un archivo XML de espacio de trabajo de ArcGIS. Pide antes la versión del esquema en el cuadro **Versión de ArcGIS**. |
+| **Importar esquema de archivo de definición de espacio de trabajo de ArcGIS...** | Crea las tablas de un archivo XML de espacio de trabajo de ArcGIS. Después de elegir los archivos pide la versión del esquema en el cuadro [Versión de ArcGIS](../version-de-arcgis.md). |
 
 ## Campos
 

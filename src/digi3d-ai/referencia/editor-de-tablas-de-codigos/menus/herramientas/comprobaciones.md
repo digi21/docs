@@ -10,7 +10,7 @@ El submenú **Herramientas/Comprobaciones** busca problemas en la tabla de códi
 | **Estilos/Símbolos inexistentes** | Códigos puntuales cuyas representaciones no tienen ningún estilo con símbolo, y que por tanto no se ven. Solo los lista. |
 | **Estilos/Estilos idénticos** | Estilos con la misma representación. Ver [¿Eliminar estilos superfluos?](#eliminar-estilos-superfluos). |
 | **Estilos/Estilos no utilizados** | Estilos que no usa ningún código. Ofrece eliminarlos. |
-| **Códigos/Códigos con estilos inexistentes** | Códigos con representaciones que usan un estilo que no existe. Ofrece sustituirlo por un estilo que se elige en el cuadro **Selecciona el estilo**. |
+| **Códigos/Códigos con estilos inexistentes** | Códigos con representaciones que usan un estilo que no existe. Ofrece sustituirlo por un estilo que se elige en el cuadro [Selecciona el estilo](../../pestanas/selecciona-el-estilo.md). |
 | **Base de datos/Tablas inexistentes** | Tablas que algún código usa en su propiedad **Tabla** y que no existen en la pestaña Base de datos. Solo las lista. |
 | **Base de datos/Tablas sin clave primaria** | Tablas sin campo de clave principal. Solo las lista. |
 | **Base de datos/Tablas con múltiples claves primarias** | Tablas con más de un campo de clave principal. Solo las lista. |
