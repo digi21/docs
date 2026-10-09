@@ -19,6 +19,7 @@ Hay sensores monoscópicos (muestran una única imagen), sensores estereoscópic
 | [ADS](ads.md) | Cámaras de barrido lineal (pushbroom) ADS de Leica | Tri-estereoscópico | No | No |
 | [VM Quasi-Panoramic](vm-quasi-panoramic.md) | Imágenes cuasi-panorámicas | Estereoscópico | No | No |
 | [Web Map Service](wms.md) | Capas de un servidor WMS | Monoscópico | No | No |
+| [Web Map Tile Service](wmts.md) | Capas teseladas de un servidor WMTS | Monoscópico | No | No |
 
 La columna **Sintético** indica que el modelo no se forma a partir de imágenes reales, sino que se genera de forma sintética (por ejemplo, a partir de una nube de puntos o de una ortofotografía y un modelo digital de superficies).
 
