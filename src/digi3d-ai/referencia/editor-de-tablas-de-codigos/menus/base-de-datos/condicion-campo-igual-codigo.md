@@ -5,6 +5,8 @@ Este cuadro de diálogo aparece con la opción **Base de datos/Códigos/Añadir 
 
 Por ejemplo, con el campo `mslink`, el código `010101` recibe la condición `mslink=010101`.
 
+![Cuadro de diálogo Introduce el nombre del campo](../../../../../images/condicion-campo-igual-codigo.png)
+
 ## Controles
 
 * **Introduce el nombre del campo que se añadirá como condición, por ejemplo "mslink"**: nombre del campo.

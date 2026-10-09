@@ -12,6 +12,8 @@ Las reglas son funciones Python de la pestaña [Entorno Python](entorno-python.m
 * **Lista de representaciones** (columna **Nombre**): una fila por representación dinámica de la tabla de códigos.
 * **Contenido**: el cuadro de texto de la derecha muestra, sin permitir editarlo, el contenido de la representación seleccionada.
 * **Añadir**: abre el cuadro de diálogo **Abrir** para elegir un archivo `.representations`. La representación toma como nombre el del archivo sin extensión, y como contenido, el texto del archivo. Si ya existe una representación con ese nombre, su contenido se sustituye por el del archivo.
+
+  ![Cuadro de diálogo Abrir con el tipo Archivos de representaciones](../../../../images/abrir-archivo-representaciones.png)
 * **Eliminar**: elimina la representación seleccionada. Se habilita al seleccionar una fila.
 
 Para cambiar el contenido de una representación, edita el archivo `.representations` y añádelo otra vez.
