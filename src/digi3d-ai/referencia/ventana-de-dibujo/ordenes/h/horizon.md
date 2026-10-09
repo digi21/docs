@@ -55,6 +55,8 @@ Si la línea termina a mitad de un trazo, ese último trazo no se crea. Una lín
 
 La orden borra cada línea original y añade sus trazos al archivo de dibujo activo. Los trazos **no** conservan el código de la línea original: se crean con el código activo y los atributos activos.
 
+Mientras genera los trazos, la orden no inserta vértices en las intersecciones aunque esté activada la inserción automática. Al terminar, restaura el valor anterior de la inserción automática.
+
 Antes de modificar el archivo, la orden estima cuántos trazos va a crear. Si son más de 1.000.000, muestra un mensaje y termina sin modificar nada. Aumenta el largo o el espacio.
 
 Si una extensión o el formato del archivo impiden borrar una línea, esa línea se conserva sin trazos y la orden emite el sonido de error.
