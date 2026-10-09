@@ -7,19 +7,25 @@ Para ver las capas de un servidor WMS en la ventana de dibujo, consulta [Conecta
 
 ## Crear el modelo
 
-En el cuadro de diálogo [Crear modelo](../../cuadros-de-dialogo/crear-modelo.md), con el sensor **Web Map Service** seleccionado, **Propiedades del sensor** muestra al principio solo la propiedad **URL servidor**:
+En la pestaña [Sensores fotogramétricos](../../cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo **Nuevo proyecto**, con **Crear un archivo de modelo fotogramétrico nuevo** y el **Tipo de sensor** **Web Map Service**, **Propiedades del sensor** muestra al principio solo la propiedad **URL servidor**:
 
 1. En **URL servidor**, escribe la URL **GetCapabilities** del servidor WMS. Digi3D.AI se conecta al servidor y lee sus capacidades. Mientras tanto, la barra de estado muestra **Estableciendo conexión con el servidor...**.
-2. Si la conexión funciona, aparecen las demás propiedades:
+2. Si la conexión funciona, aparece la propiedad **Capa**, vacía y seleccionada.
+3. En **Capa**, elige la capa que quieres ver. Digi3D.AI no elige ninguna capa por defecto: si pulsas **Aceptar** sin elegirla, muestra el mensaje «Elige una capa del servidor WMS.» y el cuadro de diálogo sigue abierto.
+4. Al elegir la capa aparecen las demás propiedades, con los valores que propone Digi3D.AI.
+
+> En el servidor del PNOA (`http://www.ign.es/wms-inspire/pnoa-ma`), la ortofoto es la capa **Ortoimagen** (`OI.OrthoimageCoverage`). La capa **Mosaico** (`OI.MosaicElement`) muestra las huellas de los vuelos, no la ortofoto.
 
 | Propiedad | Descripción |
 | :--- | :--- |
-| **Capa** | Capa del servidor que se muestra en el modelo. El desplegable lista los títulos de las capas que publica el servidor. Por defecto, la primera. |
+| **Capa** | Capa del servidor que se muestra en el modelo. El desplegable lista los títulos de las capas que publica el servidor. No tiene valor por defecto. |
 | **Sistema de referencia espacial** | Sistema de referencia de coordenadas en el que se piden las imágenes al servidor, de entre los que el servidor admite para la capa elegida. Los códigos EPSG se muestran con el nombre del sistema; si Digi3D.AI no lo conoce, se muestra **<Desconocido>**. Es también el sistema de referencia del modelo. |
 | **Origen X** y **Origen Y** | Coordenadas en las que se carga el modelo. Digi3D.AI propone el centro del recuadro de la capa en el sistema de referencia elegido. |
 | **Tamaño pixel** | Tamaño del píxel con el que se piden las imágenes al servidor, en unidades del sistema de referencia. |
 
-Al cambiar **URL servidor**, **Capa** o **Sistema de referencia espacial**, Digi3D.AI vuelve a proponer el origen.
+Al cambiar **Capa** o **Sistema de referencia espacial**, Digi3D.AI vuelve a proponer el origen. Al cambiar **URL servidor**, la capa vuelve a quedar vacía y hay que elegirla otra vez.
+
+El origen propuesto puede caer fuera de la zona con imagen. En el PNOA, el recuadro de las capas incluye las islas Canarias, y su centro (-7, 35,5 en CRS:84) está en el mar. En ese caso, escribe en **Origen X** y **Origen Y** un punto de tu zona de trabajo.
 
 Si el sistema de referencia elegido es geográfico (por ejemplo CRS:84 o EPSG:4326), el tamaño de píxel propuesto se expresa en grados y equivale a 1 metro en el centro de la capa, calculado con las fórmulas geodésicas de Sodano sobre el elipsoide del sistema; en un sistema proyectado se propone 1 unidad del sistema.
 
