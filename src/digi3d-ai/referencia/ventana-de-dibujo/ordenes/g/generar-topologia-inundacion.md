@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden forma los polígonos con las líneas del archivo de dibujo activo que tienen algún código de la tabla de códigos y cuyo código no está apagado. La topología resultante sustituye a la topología temporal anterior. Si no se puede formar la topología, la orden muestra un globo de error con la causa.
+La orden forma los polígonos con las líneas visibles del archivo de dibujo activo: las de códigos encendidos y, si los códigos desconocidos están visibles, también las de códigos que no están en la tabla de códigos. Una línea visible con puntos dobles o con un solo vértice impide formar la topología, aunque su código no esté en la tabla. La topología resultante sustituye a la topología temporal anterior. Si no se puede formar la topología, la orden muestra un globo de error con la causa.
 
 ## Características de la orden
 
