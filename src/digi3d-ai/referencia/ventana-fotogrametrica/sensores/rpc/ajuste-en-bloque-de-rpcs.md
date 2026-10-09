@@ -23,7 +23,7 @@ Si no se cumple alguna condición, Digi3D.AI muestra un mensaje y la orden termi
 
 Archivo de texto con un punto por línea: nombre, X, Y, Z y, opcionalmente, una descripción, separados por espacios. Las líneas con menos de cuatro campos se ignoran. Solo se cargan los puntos cuya proyección cae dentro de las dos imágenes.
 
-El campo **Archivo de puntos** muestra la ruta del archivo cargado. El botón **...** permite elegir otro archivo (`.xyz`, `.pnt`, `.ctl` o `.txt`): la lista pasa a contener los puntos del archivo nuevo y las medidas de los puntos con el mismo nombre se conservan. Si el archivo no se puede abrir, se mantiene el anterior.
+El campo **Archivo de puntos** muestra la ruta del archivo cargado. El botón **...** permite elegir otro archivo (`.xyz`, `.pnt`, `.ctl` o `.txt`): la lista pasa a contener los puntos del archivo nuevo y las medidas de los puntos con el mismo nombre se conservan. Las medidas de los puntos que no están en el archivo nuevo se siguen guardando en el archivo `.rpcba`, pero no entran en el ajuste. Si el archivo no se puede abrir, se mantiene el anterior.
 
 ## Lista de puntos
 
@@ -46,7 +46,7 @@ Si se activa la casilla **Vista extendida**, la lista añade las columnas **X**,
 1. Haz clic en el punto en la lista. Digi3D.AI lleva el cursor a sus coordenadas y la barra de estado muestra el mensaje **Digitaliza el punto *nombre* estereoscópicamente**.
 2. Coloca el cursor sobre el punto en estereoscopía y pulsa el botón de registro. Digi3D.AI guarda la fila y la columna del cursor en las dos imágenes y recalcula el ajuste.
 
-El ajuste se calcula cuando el número de puntos medidos alcanza el valor de [Número de puntos para calcular](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/numero-de-puntos-para-calcular.md). Las precisiones del ajuste se configuran en [Parámetros del ajuste RPCBA](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/README.md).
+El ajuste se calcula cuando el número de puntos medidos alcanza el valor de [Número de puntos para calcular](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/numero-de-puntos-para-calcular.md). Solo cuentan y entran en el ajuste los puntos medidos que están en el archivo de puntos. Si el ajuste no converge en 100 iteraciones, los RPC no cambian, y las columnas de residuos y los RMS quedan vacíos. Las precisiones del ajuste se configuran en [Parámetros del ajuste RPCBA](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/README.md).
 
 ## Botones
 
@@ -68,7 +68,7 @@ Los campos están vacíos mientras no haya ajuste calculado.
 
 ## Opciones
 
-* **Mostrar el resultado del ajuste en tiempo real al remedir un punto**: con un punto seleccionado, cada movimiento del cursor recalcula el ajuste como si el punto estuviera medido en la posición del cursor y actualiza la lista y los RMS. La medida no se guarda hasta que se pulsa el botón de registro.
+* **Mostrar el resultado del ajuste en tiempo real al remedir un punto**: con un punto seleccionado, cada movimiento del cursor recalcula el ajuste como si el punto estuviera medido en la posición del cursor y actualiza la lista y los RMS. La medida no se guarda hasta que se pulsa el botón de registro. Durante **Eliminar paralaje** el ajuste no se recalcula.
 * **Seleccionar automáticamente siguiente punto**: después de medir un punto, Digi3D.AI selecciona el primer punto sin medir, por orden de nombre, y lleva el cursor a él.
 
 ## Aceptar y Cancelar
