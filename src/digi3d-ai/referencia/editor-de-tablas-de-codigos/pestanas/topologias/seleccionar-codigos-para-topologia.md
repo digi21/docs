@@ -22,9 +22,9 @@ Número entero. Si una línea tiene varios códigos de la topología, se usa la 
 Indica si la presencia de una línea con alguno de estos códigos asegura que se forme un polígono:
 
 * **Es obligatorio que exista un tramo con este código para formar el polígono.** El analizador de topologías tiene en cuenta un [polígono topológico](poligonos-topologicos.md) solo si tiene al menos un tramo con este código.
-* **La presencia de un tramo con este código garantiza que se forma el polígono.** El analizador de topologías tiene en cuenta un polígono topológico si tiene al menos un tramo con este código.
-* **La presencia de un tramo con este código NO garantiza que se forma el polígono.** Si el analizador de topologías forma un recinto solo con líneas con este código, no tiene en cuenta ese recinto.
-* **La presencia de un tramo con este código NO garantiza que se forma el polígono pero SI huecos.** Como la anterior, pero los recintos formados con estas líneas sí cuentan como huecos.
+* **La presencia de un tramo con este código garantiza que se forme el polígono.** El analizador de topologías tiene en cuenta un polígono topológico si tiene al menos un tramo con este código.
+* **La presencia de un tramo con este código NO garantiza que se forme el polígono.** Si el analizador de topologías forma un recinto solo con líneas con este código, no tiene en cuenta ese recinto.
+* **La presencia de un tramo con este código NO garantiza que se forme el polígono, pero sí huecos.** Como la anterior, pero los recintos formados con estas líneas sí cuentan como huecos.
 
 ## Expresión Python para excluir la geometría
 
