@@ -15,7 +15,7 @@ Valores que se asignan a los campos de la base de datos de las geometrías que s
 
 El botón **...** abre el cuadro de diálogo **Campos por defecto**:
 
-![Cuadro de diálogo Campos por defecto sin campos](../../../../../images/campos-por-defecto.png)
+![Cuadro de diálogo Campos por defecto con un campo](../../../../../images/campos-por-defecto.png)
 
 * **Valores por defecto**: un campo por fila, con su valor. Escribe el valor en la columna derecha.
 * **Añadir**: abre el cuadro de diálogo **Nombre del campo**, que pide el nombre del campo y añade una fila con el valor vacío. No comprueba si el campo existe en la tabla ni si ya está en la lista.

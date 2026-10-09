@@ -64,7 +64,7 @@ Este botón se habilita únicamente si la ortofoto indicada existe y se ha relle
 
 Si ninguno de los modelos digitales solapa con la ortofoto, el programa lo indica y no empieza el proceso. Mientras dura el proceso, todos los campos y los botones quedan deshabilitados.
 
-Al terminar, el programa muestra un mensaje y vacía los campos **Ortofoto** y **Modelo digital de superficie**. Si alguna tesela no se ha podido crear, el mensaje indica cuántas han quedado vacías. Si el proceso falla, el programa muestra el motivo y conserva los campos para que puedas volver a intentarlo.
+Al terminar, el programa muestra un mensaje y vacía los campos **Ortofoto**, **Modelo digital de superficie** y **Modelo digital del terreno**. Si alguna tesela no se ha podido crear, el mensaje indica cuántas han quedado vacías. Si el proceso falla, el programa muestra el motivo y conserva los campos para que puedas volver a intentarlo.
 
 ## Cancelar
 
