@@ -13,6 +13,8 @@ No admite parámetros
 
 Se recortarán todas las entidades que interseccionen con el límite virtual.
 
+Si Digi3D.AI descarta alguno de los trozos nuevos de una entidad, la orden no la recorta y la entidad original se conserva. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se recortan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](trim-m.md) |

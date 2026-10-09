@@ -9,6 +9,8 @@ Corta una entidad hasta su punto de intersección con el borde de otra.
 
 No admite parámetros.
 
+Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no corta la entidad y la entidad original se conserva.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](trim.md) |

@@ -20,6 +20,8 @@ Los extremos de las líneas conservan su coordenada Z original.
 
 La orden termina después de procesar los dos puntos.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se ajustan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext-m.md) |

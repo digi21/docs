@@ -24,6 +24,8 @@ Si no hay ninguna intersección válida, la orden emite el sonido de error y no 
 
 Si las dos líneas tienen el mismo código y los mismos atributos de base de datos, la orden las une en una sola línea con [UNIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir.md).
 
+Si el control de calidad descarta cualquiera de las dos líneas prolongadas, se conservan las dos líneas originales y no se añade ninguna de las nuevas.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext2x.md) |
