@@ -55,7 +55,7 @@ Si la regla tiene parámetros propios, se abre el cuadro **Parámetros de la reg
 El cuadro muestra una fila por parámetro, bajo la categoría **Parámetros de la regla de representación**. Cada fila lleva el nombre del parámetro tal como está escrito en la función, por ejemplo `nombre_codigo`, y su valor. Al abrirse, la primera fila está seleccionada. El panel inferior muestra el nombre de la fila seleccionada y la cadena de documentación (*docstring*) de la regla; Python no permite describir cada parámetro por separado.
 
 * Un parámetro cuyo nombre contiene `color`, en minúsculas, se pide con un selector de color. Empieza en negro. Pulsa el botón situado a la derecha del valor para abrir el selector. La regla recibe el color como texto `"R G B"`, por ejemplo `"255 0 0"`.
-* El resto de parámetros empieza vacío y se escribe como texto. Un entero o un número decimal con punto, sin ceros a la izquierda, se pasa como número. Cualquier otro valor, por ejemplo `020`, se pasa como texto.
+* El resto de parámetros empieza vacío y se escribe como texto. Un parámetro cuyo nombre contiene `codigo`, en minúsculas, se pasa siempre como texto, aunque esté formado solo por cifras, por ejemplo `120400`. En los demás parámetros, un entero o un número decimal con punto, sin ceros a la izquierda, se pasa como número; cualquier otro valor, por ejemplo `020`, se pasa como texto.
 
 **Aceptar** añade la regla a **Reglas a ejecutar** con los valores escritos. No comprueba los valores: admite campos vacíos y códigos que no existen en la tabla de códigos. **Cancelar** cierra el cuadro sin añadir la regla. En la lista, la regla se muestra con sus valores, por ejemplo `asignar_color({"color_asignar":"255 0 0", "nombre_codigo":"020"})`.
 
