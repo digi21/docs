@@ -16,6 +16,8 @@ La orden recorre los recintos válidos de la topología indicada en el archivo d
 
 La orden muestra un aviso y termina si faltan parámetros, si no hay ningún MDT cargado, si no hay ninguna topología cargada o si la topología indicada no existe.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad proyectada, solo se conserva su original y las demás se proyectan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](proyecta-puntos-topologia.md) |

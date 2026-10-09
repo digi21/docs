@@ -21,6 +21,8 @@ Antes de ejecutar la orden debes dibujar una línea cerrada que servirá de lím
 
 La orden suma la diferencia de Z entre el punto destino y el punto origen a las entidades visibles de los tipos elegidos que quedan dentro del límite, y muestra cuántas entidades ha modificado. Las entidades que cruzan el límite no se modifican.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad movida, solo se conserva su original y las demás se mueven.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](mover-z-v.md) |

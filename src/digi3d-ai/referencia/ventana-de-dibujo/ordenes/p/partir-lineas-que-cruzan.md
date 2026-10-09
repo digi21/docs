@@ -24,6 +24,8 @@ La orden admite selección múltiple: si se seleccionan varias líneas (por ejem
 
 No admite parámetros.
 
+Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no parte ninguna de las líneas que cruzan la línea seleccionada y se conservan enteras. Con selección múltiple, cada línea seleccionada se trata de forma independiente.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](partir-lineas-que-cruzan.md) |

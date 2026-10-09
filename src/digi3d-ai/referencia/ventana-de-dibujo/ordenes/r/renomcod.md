@@ -75,6 +75,8 @@ Los botones solo examinan las entidades que había en el archivo cuando empezó 
 
 [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) deshace de una vez todas las sustituciones de una ejecución de la orden, también las que hayas hecho con varios botones del cuadro.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, solo se conserva su original y las demás se renombran.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |

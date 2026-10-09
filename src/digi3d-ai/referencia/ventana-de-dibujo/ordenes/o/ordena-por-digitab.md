@@ -15,6 +15,8 @@ La orden trabaja sobre el archivo de dibujo activo y ordena por el primer códig
 
 En caso de querer invertir el orden de las entidades, la secuencia será `ORDENA_POR_DIGI_TAB=-1`
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad reescrita, solo se conserva su original y las demás se reordenan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ordena-por-digitab.md) |

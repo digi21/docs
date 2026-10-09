@@ -11,6 +11,8 @@ No admite parámetros.
 
 Un código es desconocido cuando no está definido en la tabla de códigos. La orden recorre las entidades no borradas del archivo de referencia activo y quita a cada una sus códigos desconocidos. Si todos los códigos de una entidad son desconocidos, la orden borra la entidad.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad sin los códigos desconocidos, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-codigos-desconocidos.md) |

@@ -19,6 +19,8 @@ Si el texto a buscar o el de reemplazo contienen espacios, escríbelos entre com
 
 Si faltan parámetros, la orden muestra un aviso y termina. Si la orden modifica algún texto, muestra cuántos textos ha modificado.
 
+Cada texto se trata de forma independiente: si Digi3D.AI descarta un texto modificado, solo se conserva su original y los demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](reemplazar-texto.md) |

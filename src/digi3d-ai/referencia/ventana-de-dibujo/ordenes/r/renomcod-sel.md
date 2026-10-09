@@ -52,6 +52,8 @@ La orden termina después de tratar la primera selección, aunque ninguna entida
 
 Si indicas los parámetros y la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activa, la orden se repite con los mismos códigos. Si los códigos se indican en el cuadro, la orden no se repite.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, solo se conserva su original y las demás se renombran.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |

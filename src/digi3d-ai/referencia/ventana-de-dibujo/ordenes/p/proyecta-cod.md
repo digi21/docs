@@ -27,6 +27,8 @@ El tipo es obligatorio en cada par. En esta orden, `B` no tiene efecto. En los c
 
 `proyecta_cod=020400 p`
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad proyectada, solo se conserva su original y las demás se proyectan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](proyecta-cod.md) |

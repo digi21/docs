@@ -64,6 +64,8 @@ Todos los cambios de una ejecución se deshacen de una vez con la orden de desha
 
 Digi3D.AI recuerda los valores del cuadro entre ejecuciones. La primera vez, las rutas y el código están vacíos, el tipo de recorte es _Limpiar textos_ y la casilla está marcada.
 
+Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un límite, se conservan esas líneas sin cortar y no se añade ningún trozo. Los demás límites se procesan con normalidad. Si descarta una entidad de dentro con el código de los tramos, se conserva su original.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](limpia.md) |
