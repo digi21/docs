@@ -22,6 +22,8 @@ La orden trabaja con las líneas visibles del archivo de referencia y con sus ex
 
    Si la línea no llega a la otra línea, se estira; si la sobrepasa, se recorta. Solo cambian la X y la Y del extremo; la Z se conserva.
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no aplica ningún cambio y se conservan todas las líneas originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](estira-recorta-por-tolerancia.md) |

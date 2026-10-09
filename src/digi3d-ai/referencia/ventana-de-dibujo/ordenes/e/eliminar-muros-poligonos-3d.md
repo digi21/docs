@@ -18,6 +18,8 @@ Cuando el contorno sube por un muro y después baja por otro, la orden resta a l
 
 La orden sustituye cada polígono modificado por el resultado. Si faltan parámetros, la orden muestra un aviso y termina.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta un polígono modificado, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](eliminar-muros-poligonos-3d.md) |

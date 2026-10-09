@@ -12,6 +12,8 @@ Inserta un vértice en la intersección de líneas con puntos
 | 1 | Tolerancia | No |
 | 2 | Código o códigos (uno o más) | Si |
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una línea modificada, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](insertar-vertice-interseccion-linea-punto.md) |

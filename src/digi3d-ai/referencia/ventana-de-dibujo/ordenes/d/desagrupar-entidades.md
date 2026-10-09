@@ -11,6 +11,8 @@ No admite parámetros.
 
 La orden solo procesa las entidades visibles que estén dentro de la zona de interés. Por cada entidad con más de un código, la orden crea una copia con cada uno de sus códigos y borra la entidad original.
 
+Si Digi3D.AI descarta alguna de las copias nuevas, la orden no aplica el cambio y se conservan todas las entidades originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](desagrupar-entidades.md) |

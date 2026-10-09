@@ -9,6 +9,8 @@ Inserta un vértice en la intersección de las líneas que son visibles en la vi
 
 No admite parámetros.
 
+Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no aplica el cambio y se conservan todas las líneas originales.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](insertar-vertice-interseccion-lineas-visibles.md) |

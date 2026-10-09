@@ -14,6 +14,8 @@ Un nodo es un punto en el que coinciden en X e Y los extremos de dos o más lín
 | 1 | Tolerancia en Z | No |
 | 2 | Código o códigos (uno o más) | No |
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad modificada, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asignar-z-maxima-vertices-nodo-tol.md) |

@@ -15,6 +15,8 @@ La orden necesita al menos una topología cargada; si no la hay, muestra un mens
 
 Para cada polígono con centroide de la topología del archivo de dibujo activo, la orden asigna a todos los vértices de las líneas del contorno exterior la Z del centroide. No modifica las líneas de los huecos.
 
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una línea modificada, solo se conserva su original y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](asignar-z-centroide.md) |
