@@ -13,6 +13,8 @@ Esta orden no admite parámetros.
 
 Esta orden suele utilizarse para dibujar cruces de caminos, carreteras, etc....
 
+Si el control de calidad descarta la primera línea modificada, se conserva la línea original. Si descarta cualquiera de las entidades nuevas del segundo paso (la segunda línea o los dos trozos del borde), se conservan la segunda línea y el borde originales y no se añade ninguna de las nuevas.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cruce.md) |

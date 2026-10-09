@@ -22,6 +22,8 @@ La orden parte el límite en dos líneas en el punto de intersección. Si el pun
 
 La orden termina después de ajustar una línea.
 
+Si el control de calidad descarta cualquiera de las entidades nuevas (la línea extendida o los dos trozos de la línea límite), se conservan las dos entidades originales y no se añade ninguna de las nuevas.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext-p.md) |
