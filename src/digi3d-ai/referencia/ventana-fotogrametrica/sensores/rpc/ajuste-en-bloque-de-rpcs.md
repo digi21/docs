@@ -53,7 +53,7 @@ El ajuste se calcula cuando el número de puntos medidos alcanza el valor de [N�
 | Botón | Acción |
 |---|---|
 | **Saltar (Esc)** | Deselecciona el punto que se está midiendo. Durante **Eliminar paralaje**, cancela la eliminación. Equivale a pulsar la tecla **Esc**. |
-| **Eliminar paralaje** | Desplaza los RPC de la imagen derecha para eliminar el paralaje en un punto. Digitaliza un punto: Digi3D.AI bloquea la imagen izquierda en esa posición. Digitaliza después el mismo punto en la imagen derecha: la diferencia de fila y de columna entre las dos pulsaciones se suma a la corrección de la imagen derecha. La barra de estado indica qué imagen hay que digitalizar. |
+| **Eliminar paralaje** | Desplaza los RPC de la imagen derecha para eliminar el paralaje en un punto. Digitaliza un punto: Digi3D.AI bloquea la imagen izquierda en esa posición. Digitaliza después el mismo punto en la imagen derecha: la diferencia de fila y de columna entre las dos pulsaciones se suma a la corrección de la imagen derecha. La barra de estado indica qué imagen hay que digitalizar. La corrección se mantiene hasta que se recalcula el ajuste: al medir, desmedir, quitar o saltar un punto, o al cambiar de archivo de puntos. Si se pulsa **Aceptar** antes, se guarda con el ajuste. |
 | **Desmedir** | Borra las medidas del punto seleccionado y recalcula el ajuste. El punto sigue en la lista. |
 | **Quitar punto** | Quita el punto seleccionado de la lista y borra sus medidas. El archivo de puntos no se modifica. |
 | **¿Peor 2D?** | Selecciona el punto con mayor residuo en imagen (el mayor valor absoluto de fila o columna en cualquiera de las dos imágenes) y lleva el cursor a él para remedirlo. |
@@ -68,7 +68,7 @@ Los campos están vacíos mientras no haya ajuste calculado.
 
 ## Opciones
 
-* **Mostrar el resultado del ajuste en tiempo real al remedir un punto**: con un punto seleccionado, cada movimiento del cursor recalcula el ajuste como si el punto estuviera medido en la posición del cursor y actualiza la lista y los RMS. La medida no se guarda hasta que se pulsa el botón de registro. Durante **Eliminar paralaje** el ajuste no se recalcula.
+* **Mostrar el resultado del ajuste en tiempo real al remedir un punto**: con un punto seleccionado, cada movimiento del cursor recalcula el ajuste como si el punto estuviera medido en la posición del cursor y actualiza la lista y los RMS. La medida no se guarda hasta que se pulsa el botón de registro. El ajuste no se recalcula durante **Eliminar paralaje** ni después, mientras se mantenga la corrección de paralaje.
 * **Seleccionar automáticamente siguiente punto**: después de medir un punto, Digi3D.AI selecciona el primer punto sin medir, por orden de nombre, y lleva el cursor a él.
 
 ## Aceptar y Cancelar
