@@ -13,6 +13,8 @@ No admite parámetros.
 
 Esta orden solicita que se seleccione una polilínea. Una vez seleccionada se prolongará el extremo más cercano a la selección hasta interseccionar con las coordenadas del cursor.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](ext.md)                                                                                                                                     |

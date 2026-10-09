@@ -11,6 +11,8 @@ Esta orden no admite parámetros.
 
 La orden trabaja sobre el archivo de dibujo activo y ordena por el primer código de cada entidad. Convierte el código en número entero leyendo sus primeras cifras; por ejemplo, `020101` y `20101` se ordenan como 20101.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ordena-por-codigo-n.md) |

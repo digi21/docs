@@ -11,6 +11,8 @@ No admite parámetros.
 
 La orden trabaja sobre el archivo de dibujo activo y ordena alfabéticamente por el primer código de cada entidad.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](ordena-por-codigo.md) |

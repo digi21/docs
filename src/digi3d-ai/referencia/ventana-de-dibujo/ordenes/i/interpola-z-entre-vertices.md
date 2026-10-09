@@ -7,6 +7,8 @@ Solicita que se seleccione una línea por un vértice y luego solicita que se se
 
 No admite parámetros.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](interpola-z-entre-vertices.md) |
