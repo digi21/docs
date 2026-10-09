@@ -21,6 +21,8 @@ Cada cambio se aplica a las imágenes en el momento, tanto al mover un deslizado
 * **Aceptar**: valida los doce campos y termina la orden. Si algún campo no es válido, aparece un mensaje y el panel sigue abierto. La orientación modificada se usa mientras el modelo está cargado; no se guarda en los archivos de orientación.
 * **Cancelar**: devuelve las dos cámaras a la orientación que tenían al ejecutar la orden y termina la orden.
 
+Si hay otra orden ejecutándose encima del panel, **Aceptar** y **Cancelar** emiten el sonido de error y no hacen nada hasta que esa orden termina.
+
 ## Características de la orden
 
 | Tipo de orden | Orden interactiva |

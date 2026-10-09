@@ -30,7 +30,7 @@ Si la imagen ya tenía una orientación interna medida, el panel se abre con las
 * **Omitir**: mientras se miden las marcas, salta la marca pedida; esa marca no interviene en el cálculo. Mientras se remide una marca, cancela la medida. También se ejecuta con **Esc**.
 * **Rem. todos**: borra las marcas medidas y empieza a medirlas desde la primera.
 * **Remedir**: vuelve a medir la marca seleccionada. Está deshabilitado si la opción **Auto remedir** está activa. Mientras se mueve el cursor, la lista muestra los residuos que daría la nueva posición.
-* **Borrar**: quita de la lista la fila de la marca seleccionada.
+* **Borrar**: deja la marca seleccionada como omitida: borra sus coordenadas medidas y sus residuos, y la marca deja de intervenir en el cálculo.
 * **¿Peor?**: selecciona la marca con el residuo más grande y lleva el cursor a ella.
 * **Aceptar**: calcula la orientación interna con las marcas medidas, la guarda en el archivo `<imagen>.in.xml` del directorio de trabajo y termina la orden. Si la otra imagen no tiene orientación interna, le asigna también esta. Está habilitado cuando se han medido u omitido todas las marcas y hay al menos tres medidas. También se ejecuta con **Ctrl+Intro**.
 * **Cancelar**: termina la orden y la imagen conserva la orientación interna que tenía.
