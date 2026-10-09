@@ -13,7 +13,7 @@ Establece el color con el que se dibujan las entidades cuyo código es desconoci
 
 ## Observaciones
 
-Si no se indica ningún parámetro, se muestra un cuadro de diálogo para elegir el color. En el cuadro, pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura. Si se indica un único parámetro, se interpreta como el índice (0-255) de un color de la paleta. Si se indican tres, son las componentes roja, verde y azul (0-255). Con dos parámetros, o con un índice fuera del intervalo 0-255, la orden emite un sonido de error y no cambia el color.
+Si no se indica ningún parámetro, se muestra el cuadro de diálogo [Seleccionar color](../../../cuadros-de-dialogo/seleccionar-color.md) con la paleta de la tabla de códigos activa. Al elegir un color de la paleta, el color desconocido toma el valor RGB de esa entrada, no su número: si después cambia la paleta, el color no cambia. El cuadro no muestra la opacidad (**A**), porque el color es siempre opaco. Si no hay ninguna tabla de códigos cargada, muestra el cuadro sin paleta. En el cuadro, pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura. Si se indica un único parámetro, se interpreta como el índice (0-255) de un color de la paleta. Si se indican tres, son las componentes roja, verde y azul (0-255). Con dos parámetros, o con un índice fuera del intervalo 0-255, la orden emite un sonido de error y no cambia el color.
 
 ## Características de la orden
 
