@@ -57,6 +57,8 @@ Por ejemplo, con tres vértices alineados en planta a 5 m unos de otros y el cen
 - Con **TOL\_ANG** igual a 0 no se elimina ningún vértice que no esté exactamente alineado con los extremos de su tramo: cualquier ángulo mayor que 0 lo conserva.
 - La entidad que seleccionas tiene que pertenecer al modelo actual. Con un código como parámetro, se generalizan las entidades con ese código de todo el archivo de dibujo.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se generalizan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](gen.md) |

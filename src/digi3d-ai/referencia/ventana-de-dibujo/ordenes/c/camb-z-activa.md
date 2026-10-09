@@ -13,6 +13,8 @@ Coloca el cursor a la Z deseada, ejecuta la orden _CAMB\_Z\_ACTIVA_ y selecciona
 
 Tras seleccionar una entidad, la orden sigue activa y solicita otra. Con selección múltiple, la orden modifica todas las entidades seleccionadas y termina.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-z-activa.md) |

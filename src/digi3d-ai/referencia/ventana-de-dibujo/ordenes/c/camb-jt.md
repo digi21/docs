@@ -33,6 +33,8 @@ Antes de ejecutar esta orden hay que cambiar la justificación de testo a la des
 
 Podemos cambiar la justificación a un texto en concreto o a los textos que tengan un código determinado con CAMB\_JT=&lt;código&gt;.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-jt.md) sin parámetros; [orden inmediata](camb-jt.md) con parámetros |

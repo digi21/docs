@@ -35,6 +35,8 @@ El primer y el último vértice de la entidad se conservan siempre.
 - `GEN_2D` no generaliza los huecos de los polígonos ni las entidades complejas. Para ellos, usa [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md).
 - La entidad que seleccionas tiene que pertenecer al modelo actual. Con un código como parámetro, se generalizan las entidades con ese código de todo el archivo de dibujo.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se generalizan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](gen-2d.md) |

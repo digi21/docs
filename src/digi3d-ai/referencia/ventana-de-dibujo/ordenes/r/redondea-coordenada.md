@@ -20,6 +20,8 @@ Por ejemplo, `REDONDEA_COORDENADA=20 1e-5` convierte una X de 20,000004 en 20.
 
 La orden admite selección simple y selección múltiple, y solo modifica líneas y polígonos del modelo actual.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](redondea-coordenada.md) |

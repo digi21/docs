@@ -35,6 +35,8 @@ Las curvas acotadas pasan a tener los códigos `021123` y `021124`. Al terminar,
 
 Si el código activo no tiene comodines, la orden solo cambia la Z y las curvas conservan sus códigos.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cotas-curvas.md) |

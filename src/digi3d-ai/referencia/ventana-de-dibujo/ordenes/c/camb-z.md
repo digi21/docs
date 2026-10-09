@@ -17,6 +17,8 @@ Con parámetros, la orden asigna sin pedir datos el valor de la variable [Z](/di
 
 En caso de tratarse de una entidad que tiene diferentes valores de Z, todos estos se sustituirán por un único valor.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-z.md) sin parámetros; [orden inmediata](camb-z.md) con parámetros |

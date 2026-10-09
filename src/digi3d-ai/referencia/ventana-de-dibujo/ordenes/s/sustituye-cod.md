@@ -13,6 +13,8 @@ Selecciona la entidad con el pulsador de datos o con el pulsador de tentativo. L
 
 La orden admite selección múltiple: con una orden de selección (por ejemplo [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md)) se sustituyen los códigos de todas las entidades seleccionadas que sean visibles, no estén borradas, estén dentro de la zona de interés y pertenezcan al archivo de dibujo activo.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](sustituye-cod.md) |

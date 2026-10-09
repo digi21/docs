@@ -20,6 +20,8 @@ Al hacer el cambio se modificarán todas las apariciones del carácter anterior 
 
 `CAMB_CARACTER=<carácter anterior> <carácter nuevo>`
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden inmediata](camb-caracter.md) |

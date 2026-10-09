@@ -15,6 +15,8 @@ Esto en un principio podría carecer de sentido, pero en caso de que el archivo 
 
 Esto tiene utilidad en caso de haber realizado alguna modificación en el esquema de base de datos en la tabla de códigos, como por ejemplo añadir algún campo como por ejemplo la rotación de los puntos y textos. Al volver a almacenar estas geometrías, se rellenarán automáticamente estos campos.
 
+Si el control de calidad descarta la geometría reescrita, la geometría original se conserva sin cambios. Con varias geometrías, cada una se trata de forma independiente: solo se conserva el original de cada geometría descartada y las demás se reescriben.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](reescribe.md)                                            |

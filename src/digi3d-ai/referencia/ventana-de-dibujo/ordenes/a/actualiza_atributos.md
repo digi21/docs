@@ -19,6 +19,8 @@ Al ejecutar esta orden solicita que seleccionemos la geometría o geometrías a 
 
 Esta orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md), de manera que podemos modificar múltiples geometrías simultáneamente.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md)                                                                                                          |
