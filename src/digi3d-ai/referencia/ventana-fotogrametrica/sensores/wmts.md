@@ -15,6 +15,8 @@ También puedes escribir la cadena directamente en la propiedad.
 
 ## Parámetros de conexión a Web Map Tile Service
 
+![Cuadro de diálogo Parámetros de conexión a Web Map Tile Service conectado a NASA GIBS](../../../../images/parametros-conexion-wmts.png)
+
 1. En **URL de la conexión**, escribe la URL **GetCapabilities** del servidor WMTS y pulsa **Conectar**. Digi3D.AI se conecta al servidor y lee sus capacidades. Si la conexión falla, muestra el error y vacía los demás campos.
 2. Si la conexión funciona, el cuadro muestra, sin permitir editarlos, el nombre del servicio en **Servicio**, su **Descripción** y sus **Restricciones de acceso**.
 3. Elige la capa en el desplegable **Capa**, que lista en orden alfabético los títulos de las capas que publica el servidor. Por defecto, la primera. **Descripción de la capa** muestra la descripción que publica el servidor para la capa elegida.
