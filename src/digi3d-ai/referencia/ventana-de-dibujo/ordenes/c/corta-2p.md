@@ -13,6 +13,8 @@ No admite parámetros.
 
 Únicamente hay que seleccionar los dos puntos por los que queremos cortar la entidad. El tramo cortado se borrará.
 
+Si el control de calidad descarta cualquiera de los dos trozos nuevos, se conserva la entidad original completa y no se añade ningún trozo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](corta-2p.md) |

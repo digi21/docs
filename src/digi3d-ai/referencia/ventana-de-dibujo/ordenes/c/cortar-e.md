@@ -9,6 +9,8 @@ Corta o descompone un elemento en otros dos.
 
 No admite parámetros.
 
+Si el control de calidad descarta cualquiera de los dos trozos nuevos, se conserva la entidad original completa y no se añade ningún trozo.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](cortar-e.md) |

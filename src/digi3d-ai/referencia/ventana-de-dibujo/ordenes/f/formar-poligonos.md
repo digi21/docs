@@ -13,6 +13,8 @@ No admite parámetros.
 2. Selecciona dos polígonos contiguos para localizar sus caras comunes. Pulsa Suprimir para eliminar las caras comunes y unir los dos polígonos, o Esc para deseleccionarlas. Si los dos polígonos tienen códigos o atributos distintos, la orden pregunta cuál de los dos conservar o si no se unen.
 3. Pulsa la barra espaciadora para aceptar. La orden crea un polígono, con sus huecos, por cada recinto. Si un recinto no tiene códigos asignados, la orden pide el código; si se cancela, ese recinto no se crea. Las entidades seleccionadas en el paso 1 se borran.
 
+Si el control de calidad descarta cualquiera de los polígonos nuevos, se conservan todas las entidades seleccionadas y no se añade ningún polígono.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](formar-poligonos.md) |
