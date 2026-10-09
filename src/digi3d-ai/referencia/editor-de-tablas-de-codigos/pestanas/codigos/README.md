@@ -36,7 +36,7 @@ La lista **Estilos visuales** muestra las representaciones del código. Una geom
 * **Eliminar**: elimina la representación seleccionada.
 * **Subir** y **Bajar**: cambian el orden de la representación seleccionada.
 
-Al seleccionar una representación, la cuadrícula **Propiedades del estilo** muestra su color, grosor, color y grosor en estéreo, relleno y el resto de sus propiedades.
+Al seleccionar una representación, la cuadrícula **Propiedades del estilo** muestra su color, grosor, color y grosor en estéreo, relleno y el resto de sus propiedades. El botón **...** de las propiedades de color abre el cuadro de diálogo [Seleccionar color](../../../cuadros-de-dialogo/seleccionar-color.md) con la paleta de la tabla de códigos.
 
 ## Aplicar los cambios
 
