@@ -7,9 +7,15 @@ Marca como error aquellos polígonos que se formen al formar una topología con 
 
 No admite parámetros.
 
+## Observaciones
+
+La orden une los arcos y los centroides de todas las topologías cargadas, de todos los archivos de dibujo, y forma con ellos una topología nueva. Por cada recinto de esa topología que no tiene centroide, añade al [panel de tareas](/digi3d-ai/referencia/paneles/tareas.md) una tarea «Polígono sin centroide asociado» situada en un punto interior del recinto, sin indicar archivo.
+
+Si encuentra algún recinto sin centroide, la orden emite el sonido de error. Si no encuentra ninguno, no muestra ningún mensaje.
+
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-poligonos-sin-centroide-topologias-cargadas.md) |
+| Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Detectar recintos topológicos sin centroide en las topologías cargadas |
