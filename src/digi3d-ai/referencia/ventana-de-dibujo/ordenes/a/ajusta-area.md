@@ -12,6 +12,8 @@ Mueve el segmento seleccionado para ajustar el área de la línea cerrada selecc
 | 1 | Número máximo de iteraciones (por defecto 100) | Si |
 | 2 | Sigma | Si |
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ajusta-area.md) |

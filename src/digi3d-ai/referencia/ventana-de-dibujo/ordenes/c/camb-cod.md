@@ -23,6 +23,8 @@ La orden solo cambia entidades del archivo de dibujo activo. Si seleccionas una 
 
 Esta orden admite selección múltiple. Con selección múltiple, la orden ignora las entidades de los demás archivos de dibujo cargados y muestra el cuadro de diálogo **Seleccionar código** una vez por cada entidad que tiene varios códigos. Al terminar, la ventana de resultados muestra el número de entidades seleccionadas y el número de entidades procesadas.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](camb-cod.md) |

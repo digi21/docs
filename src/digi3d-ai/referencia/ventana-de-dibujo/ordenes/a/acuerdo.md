@@ -20,6 +20,8 @@ El vértice se sustituye por un arco del radio indicado, tangente a los dos tram
 
 Si el radio es tan grande que algún punto de tangencia cae fuera de su tramo, la orden muestra el mensaje **No se pudo realizar el acuerdo con los datos facilitados.** y no modifica la línea.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](acuerdo.md) |

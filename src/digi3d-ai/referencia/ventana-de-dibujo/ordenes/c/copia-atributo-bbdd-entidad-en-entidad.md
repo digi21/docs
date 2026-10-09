@@ -19,6 +19,8 @@ La orden asigna el valor del campo origen al campo destino de todos los códigos
 
 Si falta alguno de los dos parámetros, la orden emite un sonido de error, muestra un aviso y termina.
 
+Si Digi3D.AI descarta la entidad con el atributo modificado (por ejemplo, por una restricción de la base de datos o de una extensión), la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](copia-atributo-bbdd-entidad-en-entidad.md) |

@@ -17,6 +17,8 @@ La orden comprueba al ejecutarse que se han pasado los tres parámetros, que el 
 
 A continuación, la orden solicita que selecciones una entidad. Solo se pueden seleccionar entidades del modelo actual que tengan el código indicado. La orden asigna el valor al campo en los atributos de ese código de la entidad, convertido al tipo que ya tenga el campo, y termina.
 
+Si Digi3D.AI descarta la entidad con el atributo modificado (por ejemplo, por una restricción de la base de datos o de una extensión), la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |

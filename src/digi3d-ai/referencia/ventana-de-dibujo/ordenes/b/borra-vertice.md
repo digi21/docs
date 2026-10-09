@@ -11,6 +11,8 @@ No admite parámetros
 
 Selecciona con el cursor el vértice a eliminar. La orden solo acepta líneas y polígonos del archivo de dibujo activo; con cualquier otra entidad suena el aviso de error. La entidad original se borra y se añade una copia sin el vértice.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](borra-vertice.md) |

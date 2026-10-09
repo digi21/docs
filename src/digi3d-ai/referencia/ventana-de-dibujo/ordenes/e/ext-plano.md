@@ -9,6 +9,8 @@ Solicita que se seleccione un plano y a continuación solicita que se seleccione
 
 No admite parámetros.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext-plano.md) |

@@ -24,6 +24,8 @@ La orden no termina tras ajustar una línea: sigue pidiendo líneas con el mismo
 
 Con la opción **EXT puede extender fuera de límites**, de la categoría **EXT** del cuadro de diálogo de configuración, la orden considera infinitos el primer y el último segmento del límite.
 
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](ext.md) |
