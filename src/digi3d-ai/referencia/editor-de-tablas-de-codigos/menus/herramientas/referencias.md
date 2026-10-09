@@ -1,17 +1,10 @@
 # Referencias
 <!-- id: referencias -->
 
-Permite especificar los ensamblados de referencia a incluir a la hora de compilar los [guiones de control de calidad](../../pestanas/codigos/propiedades-del-codigo.md#guion) que se pueden asignar a cada código.
+![Cuadro de diálogo Ensamblados referenciados](../../../../../images/referencias-ensamblados.png)
 
-Habitualmente introduciremos los siguientes ensamblados de referencia:
+La opción **Herramientas/Referencias...** abre el cuadro **Ensamblados referenciados**, con una lista de ensamblados .NET, uno por línea. La lista se guarda en la tabla de códigos, en el elemento `referenceAssemblies`.
 
-```text
-System.dll
-System.Core.dll
-Digi21.DigiNG, Version=21.0.0.0, Culture=neutral, PublicKeyToken=6751d7d8a775bb8c
-Digi21.DigiNG.Plugin, Version=21.0.0.0, Culture=neutral, PublicKeyToken=6751d7d8a775bb8c
+La lista servía para compilar los guiones de control de calidad escritos en C#, Visual Basic .NET o JScript .NET. Digi3D.AI ya no usa esos guiones: los controles de calidad se escriben en Python en la pestaña [Entorno Python](../../pestanas/entorno-python.md), y ninguna parte del programa lee esta lista.
 
-```
-
-
-
+**Aceptar** guarda la lista en la tabla de códigos; las líneas vacías se descartan. **Cancelar** cierra el cuadro sin cambiarla.
