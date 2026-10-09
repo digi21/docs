@@ -14,7 +14,7 @@ Esta es una orden de inundación: actúa sobre los recintos en los que haces cli
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple; si no la hay, la orden muestra el aviso «No se está ejecutando ninguna orden que admita selección múltiple.», emite el sonido de error y termina. Si la hay pero no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina. En los dos casos, la opción del menú **Inmediato/Selecciona por inundación** está deshabilitada.
 
 1. Pulsa el pulsador de datos dentro de un recinto para seleccionarlo. Mantén pulsada la tecla `Ctrl` para añadir o quitar recintos de la selección.
-2. Pulsa el pulsador de tentativo para pasar al siguiente recinto que contiene el punto.
+2. Pulsa el pulsador de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto y que no está ya seleccionado. Si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error.
 3. Pulsa la barra espaciadora para enviar a la orden activa las entidades del contorno exterior de los recintos seleccionados.
 
 El pulsador de reset vacía la selección de recintos. La tecla `Esc` termina la orden.

@@ -18,7 +18,7 @@ Esta es una orden de inundación: actúa sobre los recintos en los que haces cli
 
 Al ejecutarse, la orden establece el código de centroide como código activo.
 
-La selección de recintos funciona igual que en la orden [PONER\_ATR\_R](poner-atr-r.md): botón de datos para seleccionar, Ctrl para añadir o quitar recintos, tentativo para pasar al siguiente recinto, reset para deseleccionar y Esc para cancelar. Pulsa la barra espaciadora para aceptar la selección.
+La selección de recintos funciona igual que en la orden [PONER\_ATR\_R](poner-atr-r.md): botón de datos para seleccionar, Ctrl para añadir o quitar recintos, tentativo para sustituir el último recinto seleccionado por el siguiente que contiene el punto y que no está ya seleccionado (si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error), reset para deseleccionar y Esc para cancelar. Pulsa la barra espaciadora para aceptar la selección.
 
 Al aceptar, la orden añade el código de recinto a cada entidad del contorno exterior de los recintos seleccionados e inserta un texto en el centroide del primer recinto seleccionado. El texto tiene como contenido y código el código de centroide, y la altura, justificación y rotación de las variables [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 

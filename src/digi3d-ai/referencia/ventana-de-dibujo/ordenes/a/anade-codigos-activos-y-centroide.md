@@ -17,7 +17,7 @@ La orden muestra el mensaje «Selecciona el área a la que añadir los códigos 
 
 * Pulsa el botón de datos dentro de un recinto para seleccionarlo. La selección anterior se descarta.
 * Mantén pulsada la tecla Ctrl al pulsar el botón de datos para añadir el recinto a la selección o quitarlo de ella.
-* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto. Si no hay más recintos, el último recinto sale de la selección y la orden emite el sonido de error.
+* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto y que no está ya seleccionado. Si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error.
 * Pulsa el botón de reset para vaciar la selección.
 * Pulsa la barra espaciadora para aceptar la selección. Si no hay ningún recinto seleccionado, la orden emite el sonido de error.
 * Pulsa Esc para terminar la orden.
