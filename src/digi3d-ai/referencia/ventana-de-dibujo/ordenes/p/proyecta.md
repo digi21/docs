@@ -13,6 +13,8 @@ La orden proyecta sobre los MDT cargados las entidades que selecciones, de cualq
 
 La orden sigue activa después de cada selección. Si no hay ningún MDT cargado, la orden muestra un aviso y termina.
 
+Si el control de calidad descarta la entidad proyectada, la entidad original se conserva sin cambios. Con varias entidades seleccionadas, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se proyectan.
+
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](proyecta.md) |
