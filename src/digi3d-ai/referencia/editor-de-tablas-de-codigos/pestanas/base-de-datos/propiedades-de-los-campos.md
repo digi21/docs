@@ -114,6 +114,8 @@ El botón aparece en las ventanas que muestran los campos como una cuadrícula d
 
 ### Cuadro de diálogo Buscar valor
 
+![Cuadro de diálogo Buscar valor](../../../../../images/buscar-valor.png)
+
 * **Término a buscar**: texto que se busca. La lista muestra los títulos de la lista de valores que contienen ese texto, sin distinguir mayúsculas de minúsculas, ordenados alfabéticamente.
 * **Lista**: al abrir el cuadro de diálogo muestra todos los títulos. **Aceptar** se habilita al seleccionar uno.
 * **Aceptar**: asigna al campo el valor que corresponde al título seleccionado.
