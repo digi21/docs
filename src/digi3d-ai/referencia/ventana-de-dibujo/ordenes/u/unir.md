@@ -25,6 +25,8 @@ Sin parámetros, la orden pide que selecciones las dos líneas. El punto de sele
 Si las dos líneas tienen el mismo código y los mismos atributos de base de datos, la orden las une sin preguntar. En los demás casos:
 
 * Si los códigos son iguales y los atributos de base de datos son distintos, la orden muestra un cuadro de diálogo con los campos que difieren. En él eliges cancelar la unión, unir con los atributos de la primera línea o unir con los atributos de la segunda.
+
+  ![Cuadro de diálogo Se está intentando unir dos entidades con distintos atributos de base de datos](../../../../../images/unir-distintos-atributos.png)
 * Si los códigos son distintos, la orden depende de la opción **Si las dos líneas tienen códigos distintos**, de la categoría **Unir** del cuadro de diálogo de configuración:
   * Con el valor **No unir las líneas** (valor por defecto), la orden emite el sonido de error, muestra el mensaje «Se han seleccionado líneas con códigos distintos.» y no une las líneas.
   * Con el valor **Preguntar el código de la línea a generar**, la orden muestra un cuadro de diálogo con los códigos de cada línea. En él eliges los códigos de la primera línea, los de la segunda o no unir las líneas.
