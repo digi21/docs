@@ -29,12 +29,12 @@ Si el proyecto no tiene asociado un sistema de referencia de coordenadas, al car
 
 ### Sistema vertical
 
-Si el sistema del proyecto solo tiene componente horizontal y la opción [Solicitar sistema vertical para sensores](../cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/solicitar-sistema-vertical-para-sensores.md) de la configuración está en **Sí**, al cargar el proyecto aparece el cuadro **Sistema de referencia de coordenadas vertical desconocido**, el mismo que al cargar un [modelo sin sistema vertical](../ventana-fotogrametrica/sensores/camara-conica/sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-vertical). Tiene dos opciones:
+Solo los proyectos de Inpho y de PhotoScan muestran este cuadro. Si el sistema del proyecto solo tiene componente horizontal y la opción [Solicitar sistema vertical para sensores](../cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/solicitar-sistema-vertical-para-sensores.md) de la configuración está en **Sí**, al cargar el proyecto aparece el cuadro **Sistema de referencia de coordenadas vertical desconocido**, el mismo que al cargar un [modelo sin sistema vertical](../ventana-fotogrametrica/sensores/camara-conica/sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-vertical). Tiene dos opciones:
 
 * **Conozco el Sistema de Referencia de Coordenadas Vertical de este modelo y quiero indicar cuál es.**: muestra el cuadro de selección de sistema de referencia de coordenadas vertical. El proyecto usa el sistema horizontal del archivo con el vertical seleccionado. Si se cancela el cuadro de selección, actúa como la opción siguiente.
 * **Desconozco el Sistema de Referencia de Coordenadas de este modelo.**: el proyecto usa el sistema horizontal del archivo con un sistema vertical desconocido. Digi3D.AI no transforma la coordenada Z.
 
-Aunque el texto de las opciones dice que se modificará el archivo, Digi3D.AI no escribe nada en el archivo de proyecto: la elección no se guarda y el cuadro vuelve a aparecer cada vez que se carga el proyecto. Cerrar el cuadro sin elegir equivale a la segunda opción.
+Aunque el texto de las opciones dice que se modificará el archivo, Digi3D.AI no escribe nada en el archivo de proyecto: la elección no se guarda y el cuadro vuelve a aparecer cada vez que se carga el proyecto.
 
 Un proyecto de Inpho puede declarar en `$COORDINATE_SYSTEM` un sistema de Esri con un `VERTCS` a continuación del `PROJCS`, por ejemplo `PROJCS["ETRS_1989_UTM_Zone_30N",…],VERTCS["EGM2008_Geoid",…]`. Si Digi3D.AI reconoce los dos como sistemas de EPSG, el proyecto usa el sistema compuesto equivalente (en el ejemplo, ETRS89 / UTM zone 30N + EGM2008 height) y el cuadro no aparece.
 
