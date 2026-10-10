@@ -16,7 +16,7 @@ Esta orden crea o modifica las asignaciones del teclado virtual activo (archivo 
 1. Al ejecutar la orden aparece un cuadro con el texto _Pulsa una tecla o Esc para salir de la orden Tecla_:
 
    ![Cuadro Pulsa una tecla o Esc para salir de la orden Tecla](../../../../../images/tecla-pulsa-una-tecla.png)
-2. Pulsa la tecla o la combinación de teclas a asignar, por ejemplo _Ctrl+a_ o _Mayús+F3_. Las teclas _Mayús_, _Ctrl_, _Alt_, _Pausa_ y _Bloq Mayús_ no se pueden asignar solas, y _Esc_ no se puede asignar.
+2. Pulsa la tecla o la combinación de teclas a asignar, por ejemplo _Ctrl+a_ o _Mayús+F3_. Las teclas _Mayús_, _Ctrl_, _Alt_, _Pausa_ y _Bloq Mayús_ no se pueden asignar solas, y _Esc_ no se puede asignar. _F1_ sí se puede asignar: mientras este cuadro espera la tecla, _F1_ no abre la ayuda (consulta [Asignar F1](#asignar-f1)).
 3. Se abre el cuadro de diálogo **Asignación de tecla**:
 
    ![Cuadro de diálogo Asignación de tecla](../../../../../images/tecla.png)
@@ -35,6 +35,12 @@ Si pulsas _Cancelar_ en el cuadro de asignación, la tecla conserva su asignaci�
 Para eliminar la asignación de una tecla, borra todas sus órdenes y pulsa _Aceptar_.
 
 El nombre de la tecla que se guarda depende del idioma de la distribución de teclado de Windows.
+
+### Asignar F1
+
+La asignación de _F1_ se usa solo cuando el foco está en la ventana de dibujo o en la ventana fotogramétrica. En los cuadros de diálogo, incluido el cuadro **Asignación de tecla**, _F1_ sigue abriendo la ayuda.
+
+Si _F1_ no tiene ninguna asignación, en la ventana de dibujo ejecuta la orden [AYUDA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/ayuda.md), que abre la página de la orden en curso o la portada de la ayuda. En la ventana fotogramétrica abre la portada.
 
 ### Si no hay ningún teclado virtual cargado
 
