@@ -851,6 +851,7 @@
           * [ZOOM\_MEMORIA](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/z/zoom_memoria.md)
       * [Sensores](digi3d-ai/referencia/ventana-fotogrametrica/sensores/README.md)
         * [Cónico](digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/README.md)
+          * [Modelo sin sistema de referencia de coordenadas](digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/sistema-de-referencia-del-modelo.md)
           * [Extensiones](digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/extensiones/README.md)
             * [Access](digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/extensiones/access.md)
             * [AeroOffice](digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/extensiones/aerooffice.md)
