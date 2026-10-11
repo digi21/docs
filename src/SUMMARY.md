@@ -1316,6 +1316,7 @@
       * [Error al almacenar datos en la base de datos](digi3d-ai/referencia/cuadros-de-dialogo/error-al-almacenar-datos-en-la-base-de-datos.md)
       * [Error en los atributos de usuario](digi3d-ai/referencia/cuadros-de-dialogo/error-en-los-atributos-de-usuario.md)
       * [Introduce un punto terreno del archivo de puntos](digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md)
+      * [No has introducido un campo obligatorio](digi3d-ai/referencia/cuadros-de-dialogo/no-has-introducido-un-campo-obligatorio.md)
       * [Nuevo proyecto](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/README.md)
         * [Sensores fotogramétricos](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md)
         * [Archivo de dibujo](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md)
