@@ -13,6 +13,14 @@ Se pueden ejecutar tres tipos de órdenes:
 * [Macroinstrucciones](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/macroinstrucciones.md)
 * [Guiones Python](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/guiones-python.md)
 
+## Histórico de órdenes
+
+Al abrirse, el campo muestra la última orden ejecutada. Pulsa **Flecha arriba** y **Flecha abajo** para recorrer las órdenes ejecutadas anteriormente; al pasar de la más antigua se vuelve a la más reciente, y al revés.
+
+Digi3D.AI guarda el histórico en el archivo `%APPDATA%\Digi3D\HistoricoOrdenes.txt` cada vez que ejecutas una orden, así que se conserva al cerrar el programa. El archivo contiene las 1000 órdenes más recientes, una por línea. Una orden igual a la anterior no se vuelve a guardar.
+
+Cada ventana de dibujo lee el archivo al abrirse. Una orden ejecutada en otra ventana de dibujo o en otra instancia de Digi3D.AI aparece en el histórico de las ventanas de dibujo que se abran después.
+
 ## En la ventana fotogramétrica
 
 En la ventana fotogramétrica, al pulsar **Intro** se abre el cuadro de diálogo **Introduce el nombre de la orden**. _Intro_ abre siempre este cuadro, aunque la tecla tenga órdenes asignadas en el teclado virtual activo.
