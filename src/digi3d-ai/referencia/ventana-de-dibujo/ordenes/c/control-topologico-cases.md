@@ -22,7 +22,7 @@ Detecta polígonos vecinos con centroides distintos entre archivos de dibujo.
 | Tipo de orden | [Orden inmediata](control-topologico-cases.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Topología/Control topológico Archivo de dibujo <-> archivos de referencia/Todas las topologías<br>Topología/Control topológico Archivo de dibujo <-> archivos de referencia/\(una opción por topología cargada\)<br>Topología/Control topológico entre todas las topologías cargadas/Todas las topologías<br>Topología/Control topológico entre todas las topologías cargadas/\(una opción por topología cargada\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

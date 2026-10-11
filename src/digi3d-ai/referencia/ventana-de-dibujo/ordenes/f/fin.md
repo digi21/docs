@@ -16,7 +16,7 @@ Con esta orden, se cierra el fichero de dibujo activo, pero no sale de la ejecuc
 | Tipo de orden | [Orden inmediata](fin.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Botón X situado en la zona superior derecha de la barra de menú |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

@@ -22,7 +22,7 @@ El resultado final es que la imagen se orienta formando el rectángulo que solap
 | Tipo de orden | [Orden interactiva](ins-foto-3p.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Dibujar/Imagen/Mediante tres puntos_ |
+| Opción del menú donde aparece la orden | Dibujar/Imagen/Mediante tres puntos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |

@@ -23,7 +23,7 @@ Esta orden respeta la relación de aspecto de la imagen.
 | Tipo de orden | [Orden interactiva](ins-foto.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Dibujar/Imagen/Mediante dos puntos: Centro y radio_ |
+| Opción del menú donde aparece la orden | Dibujar/Imagen/Mediante dos puntos: centro y radio... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | No tiene variables relacionadas |

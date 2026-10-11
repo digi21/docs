@@ -20,7 +20,7 @@ Los escalones se construyen por interpolación entre los lados ya dibujados.
 | Tipo de orden | [Orden interactiva](escalera-da.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Dibujar/Mas/Escalera indicando el tamaño del peldaño |
+| Opción del menú donde aparece la orden | Dibujar/Más/Escalera indicando el tamaño del peldaño |
 | Barra de herramientas en la que aparece la orden | Escaleras |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |

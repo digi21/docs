@@ -20,7 +20,7 @@ La distancia se calcula en planimetría \(coordenadas X, Y\), sin tener en cuent
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Dibujar/Acotar/Distancia entre dos puntos |
+| Opción del menú donde aparece la orden | Dibujar/Acotar/Distancia 2D |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |

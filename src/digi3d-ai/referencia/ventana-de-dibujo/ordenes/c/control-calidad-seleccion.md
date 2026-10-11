@@ -12,7 +12,7 @@ No admite parámetros.
 | Tipo de orden | [Orden interactiva](control-calidad-seleccion.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Control de Calidad/Analizar control de calidad/Por selección |
+| Opción del menú donde aparece la orden | Control de calidad/Analizar control de calidad/Por selección |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

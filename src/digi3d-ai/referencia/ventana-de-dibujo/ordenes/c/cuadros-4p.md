@@ -24,7 +24,7 @@ El resultado gráfico final, puede ser cualquiera de los siguientes:
 | Tipo de orden | [Orden interactiva](cuadros-4p.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Dibujar/Mas/Rejilla con 4 puntos |
+| Opción del menú donde aparece la orden | Dibujar/Más/Rejilla con 4 puntos |
 | Barra de herramientas en la que aparece la orden | Rejillas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |

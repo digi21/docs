@@ -23,7 +23,7 @@ Esta orden solicita la macroinstrucción a ejecutar en este cuadro de diálogo.
 | Tipo de orden | [Orden interactiva](macroinstrucciones.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Inmediato/Ejecutar un archivo de macroinstrucciones \(@\)... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

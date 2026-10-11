@@ -18,7 +18,7 @@ Pulsa el [botón de dato](punto.md) del ratón para dibujar el punto en las coor
 | Tipo de orden | [Orden interactiva](punto.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Dibujar/Punto con ángulo activo |
+| Opción del menú donde aparece la orden | Dibujar/Punto con ángulo activo y escala activas |
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |

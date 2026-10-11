@@ -22,7 +22,7 @@ Si se detectan auto intersecciones, se añadirán entradas en el [Panel Tareas](
 | Tipo de orden | [Orden inmediata](detectar-bucles.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Análisis geométricos/Detectar bucles |
+| Opción del menú donde aparece la orden | Análisis geométricos/Detectar bucles/\(una opción por etiqueta\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

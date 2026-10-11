@@ -16,7 +16,7 @@ La orden solicita que se seleccione una geometría. Una vez seleccionada sustitu
 | Tipo de orden                                    | [Orden interactiva](clonar_atributos.md)                                     |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
-| Opción del menú donde aparece la orden           | Inmediato/Más/Clona los atributos de una entidad                             |
+| Opción del menú donde aparece la orden           | Inmediato/Más/Clonar los atributos de una entidad                            |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |

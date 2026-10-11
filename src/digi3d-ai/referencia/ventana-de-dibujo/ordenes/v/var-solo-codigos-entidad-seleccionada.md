@@ -16,7 +16,7 @@ Selecciona una o varias entidades. La orden apaga todos los códigos y enciende 
 | Tipo de orden | [Orden interactiva](var-solo-codigos-entidad-seleccionada.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Ver/Sólo los códigos de las entidades seleccionadas |
+| Opción del menú donde aparece la orden | Ver/Solo los códigos de las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

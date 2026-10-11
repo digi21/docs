@@ -20,7 +20,7 @@ La orden muestra en la barra de estado un campo con el radio, que puedes cambiar
 | Tipo de orden | [Orden interactiva](circr.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Dibujar/Mas/Circunferencia con centro y radio |
+| Opción del menú donde aparece la orden | Dibujar/Más/Circunferencia con centro y radio |
 | Barra de herramientas en la que aparece la orden | Circunferencias |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

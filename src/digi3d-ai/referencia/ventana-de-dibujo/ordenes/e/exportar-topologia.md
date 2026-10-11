@@ -20,7 +20,7 @@ La orden exporta, de cada topología marcada, los recintos válidos que tienen c
 | Tipo de orden | [Orden inmediata](exportar-topologia.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Topología/Exportar topologías cargadas como polígonos a archivo/Seleccionando topologías... |
+| Opción del menú donde aparece la orden | Topología/Exportar topologías cargadas como polígonos a archivo/Seleccionando topologías...<br>Topología/Exportar topologías cargadas como polígonos a archivo/Todas las topologías...<br>Topología/Exportar topologías cargadas como polígonos a archivo/\(una opción por topología cargada\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

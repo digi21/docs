@@ -26,7 +26,7 @@ La eliminación real de las entidades borradas se produce al ejecutar la orden [
 | Tipo de orden | [Orden inmediata](recupera-cod.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Mas/Recuperar entidades por código |
+| Opción del menú donde aparece la orden | Editar/Más/Recuperar entidades por código |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

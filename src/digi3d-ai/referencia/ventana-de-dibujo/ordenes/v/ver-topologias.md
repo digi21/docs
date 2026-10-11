@@ -41,7 +41,7 @@ Al pulsar _Aceptar_, la orden aplica el orden y la visibilidad de la lista, rege
 | Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Topología/Ver (con parámetros) |
+| Opción del menú donde aparece la orden | Topología/Ver/Todas las topologías<br>Topología/Ver/Ninguna topología<br>Topología/Ver/(una opción por cada topología cargada) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

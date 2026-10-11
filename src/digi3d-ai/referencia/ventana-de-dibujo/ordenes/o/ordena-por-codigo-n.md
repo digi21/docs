@@ -18,7 +18,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Tipo de orden | [Orden inmediata](ordena-por-codigo-n.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Avandazado/Ordenar las entidades del archivo de dibujo por código numérico |
+| Opción del menú donde aparece la orden | Editar/Avanzado/Ordenar las entidades del archivo de dibujo por código numérico |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

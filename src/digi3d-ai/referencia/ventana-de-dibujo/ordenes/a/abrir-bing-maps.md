@@ -20,7 +20,7 @@ El parámetro se pasa tal cual a Bing Maps como estilo del mapa (`style`).
 | Tipo de orden | [Orden inmediata](abrir-bing-maps.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Zooms/Abrir una ventana de Bing Maps en la posición actual/Vista aérea...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Carreteras...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Vista aérea con etiquetas...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Ojo de pájaro...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Ojo de pájaro con etiquetas... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

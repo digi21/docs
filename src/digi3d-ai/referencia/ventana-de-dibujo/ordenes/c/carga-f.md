@@ -30,7 +30,7 @@ Los ficheros de referencia se usan en modo lectura, pudiéndose ejecutar sobre e
 | Tipo de orden | [Orden interactiva](carga-f.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Archivo/Cargar archivo de referencia |
+| Opción del menú donde aparece la orden | Archivo/Cargar archivo de referencia... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

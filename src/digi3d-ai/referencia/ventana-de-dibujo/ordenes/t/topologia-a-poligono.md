@@ -23,7 +23,7 @@ La orden crea un polígono, con sus huecos, por cada recinto válido de la topol
 | Tipo de orden | [Orden inmediata](topologia-a-poligono.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Topología/Transformar topologías cargadas a polígonos |
+| Opción del menú donde aparece la orden | Topología/Transformar topologías cargadas a polígonos/Todas las topologías<br>Topología/Transformar topologías cargadas a polígonos/(una opción por cada topología cargada) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

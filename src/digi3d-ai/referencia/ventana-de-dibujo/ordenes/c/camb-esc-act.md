@@ -24,7 +24,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Tipo de orden | [Orden interactiva](camb-esc-act.md) sin parámetros; [orden inmediata](camb-esc-act.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | Si, cuando se ejecuta sin parámetros |
-| Opción del menú donde aparece la orden | Editar/Puntos/Cambiar Escala Activa |
+| Opción del menú donde aparece la orden | Editar/Puntos/Cambiar escala activa |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md) — escala activa<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
