@@ -1,7 +1,7 @@
 # ANADE\_ATRIBUTO\_ACTIVO
 <!-- id: anade-atributo-activo -->
 
-Añade un atributo al panel [atributos-activos.md](../../../paneles/atributos-activos.md).
+Añade un atributo al panel [Atributos activos](../../../paneles/atributos-activos.md).
 
 ## Parámetros
 
