@@ -16,7 +16,7 @@ Ajusta el factor de zoom para que el dibujo completo se visualice en la pantalla
 | Tipo de orden | [Orden inmediata](zoome.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Zooms/Zoom Extendido |
+| Opción del menú donde aparece la orden | Zooms/Zoom extendido |
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
