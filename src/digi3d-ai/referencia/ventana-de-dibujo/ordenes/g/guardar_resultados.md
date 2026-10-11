@@ -14,7 +14,7 @@ Guarda en un archivo TXT el contenido del panel de resultados.
 | Tipo de orden                                    | [Orden inmediata](guardar_resultados.md)                                     |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
-| Opción del menú donde aparece la orden           | Ventana/Resultados/Guardar archivo de resultados.                            |
+| Opción del menú donde aparece la orden           | Ventana/Resultados/Guardar archivo de resultados...                           |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |

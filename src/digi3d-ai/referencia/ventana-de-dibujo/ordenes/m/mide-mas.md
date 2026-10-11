@@ -18,7 +18,7 @@ Si se ejecuta mientras otra orden espera una distancia, la orden le pasa el per�
 | Tipo de orden | [Orden interactiva](mide-mas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Inmediato/Medir una con varios puntos |
+| Opción del menú donde aparece la orden | Inmediato/Medir una distancia con varios puntos |
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

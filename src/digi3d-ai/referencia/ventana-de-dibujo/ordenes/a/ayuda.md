@@ -22,7 +22,7 @@ En la ventana fotogramétrica, _F1_ sin asignación, o asignada solo a AYUDA, ab
 | Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Ayuda/Ayuda Digi3D... |
+| Opción del menú donde aparece la orden | Ayuda/Ayuda de Digi3D... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

@@ -20,7 +20,7 @@ Los lados del rectángulo siguen la dirección del [ángulo activo](../../variab
 | Tipo de orden                                    | [Orden interactiva](../../../ordenes/ordenes-interactivas.md)        |
 | ------------------------------------------------ | -------------------------------------------------------------------- |
 | Repite automáticamente                           | Si                                                                   |
-| Opción del menú donde aparece la orden           | Dibujar/Mas/Rectángulo con dos puntos y ángulo activo                |
+| Opción del menú donde aparece la orden           | Dibujar/Más/Rectángulo con 2 puntos y ángulo activo                |
 | Barra de herramientas en la que aparece la orden | Cuadrados y rectángulos                                              |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                             |
 | Variables relacionadas                           | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |

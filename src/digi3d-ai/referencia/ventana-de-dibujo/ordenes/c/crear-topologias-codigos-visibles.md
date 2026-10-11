@@ -20,7 +20,7 @@ Según la configuración de la orden, añade al panel de tareas los polígonos s
 | Tipo de orden | [Orden inmediata](crear-topologias-codigos-visibles.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Topología/Crear topogía con los códigos visibles |
+| Opción del menú donde aparece la orden | Topología/Crear topología con los códigos visibles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

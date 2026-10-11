@@ -20,7 +20,7 @@ Dos polígonos vecinos se agrupan cuando sus centroides tienen el mismo texto y 
 | Tipo de orden | [Orden inmediata](generalizar-topologia.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Topología/Generalizar topología/Todas las topologías<br>Topología/Generalizar topología/\(una opción por topología cargada\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

@@ -16,7 +16,7 @@ La orden alterna el fichero activo entre el primer y el segundo fichero de dibuj
 | Tipo de orden | [Orden inmediata](cambia-ficheros.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | En Archivo podemos seleccionar el fichero con el que queremos trabajar |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

@@ -18,7 +18,7 @@ El efecto visual sería equiparable al de una matriz de cuadrados o rectángulos
 | Tipo de orden | [Orden interactiva](cuadros.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Dibujar/Mas/Rejilla con 3 puntos |
+| Opción del menú donde aparece la orden | Dibujar/Más/Rejilla con 3 puntos |
 | Barra de herramientas en la que aparece la orden | Rejillas |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |

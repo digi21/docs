@@ -24,7 +24,7 @@ Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna lín
 | Tipo de orden | [Orden inmediata](unir-xyz.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Análisis geométricos/Unir líneas si coincide la Z/Independientemente del número de líneas que lleguen al nodo/Líneas visibles<br>Análisis geométricos/Unir líneas si coincide la Z/Independientemente del número de líneas que lleguen al nodo/(una opción por cada etiqueta de la tabla de códigos) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

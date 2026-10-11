@@ -28,7 +28,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 | Tipo de orden | [Orden interactiva](mover-z-v.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | MDT/Mover puntos en Z por ventana |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |

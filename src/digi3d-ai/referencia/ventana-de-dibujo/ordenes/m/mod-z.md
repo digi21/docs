@@ -24,7 +24,7 @@ Independientemente del código utilizado al dibujar la entidad modificadora, és
 | Tipo de orden | [Orden interactiva](mod-z.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XYZ una polilínea existente con la que se está registrando |
+| Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XYZ una polilínea existente con la que estás registrando |
 | Barra de herramientas en la que aparece la orden | Modifica |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

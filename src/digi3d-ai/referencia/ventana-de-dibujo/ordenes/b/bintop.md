@@ -150,7 +150,7 @@ Si el control de calidad descarta la línea corregida, se conserva la línea ori
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Topología/Crear topologías (con `#nombre`) |
+| Opción del menú donde aparece la orden | Topología/Crear topologías/Crear todas las topologías<br>Topología/Crear topologías/(una opción por etiqueta) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | [CREAR\_TOPOLOGIAS\_ARCHIVOS\_REFERENCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/crear-topologias-archivos-referencia.md) |

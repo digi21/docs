@@ -28,7 +28,7 @@ Sin parámetro:
 | Tipo de orden | [Orden inmediata](dejar-top.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Topología/Descargar topologías |
+| Opción del menú donde aparece la orden | Topología/Descargar topologías/Todas las topologías<br>Topología/Descargar topologías/\(una opción por topología cargada\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
 | Variables relacionadas | No tiene variables relacionadas |

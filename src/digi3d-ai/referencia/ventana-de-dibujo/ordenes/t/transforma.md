@@ -113,7 +113,7 @@ Si Digi3D.AI descarta alguna de las entidades transformadas, la orden no aplica 
 | Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Avanzado/Transformar el archivo de dibujo \(Helmert, afín, absoluta, traslación, escala, tensor\)... |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

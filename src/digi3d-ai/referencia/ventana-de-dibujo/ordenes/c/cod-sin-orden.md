@@ -18,7 +18,7 @@ A diferencia de [COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md),
 | Tipo de orden | [Orden inmediata](cod-sin-orden.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Inmediato/Códigos activos ... |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

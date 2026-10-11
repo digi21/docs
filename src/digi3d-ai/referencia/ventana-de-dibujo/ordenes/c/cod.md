@@ -20,7 +20,7 @@ No se puede dibujar ningún elemento si no hay un código activo. Si se cambia d
 | Tipo de orden | [Orden inmediata](cod.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Inmediato/Más/Añadir códigos activos... |
+| Opción del menú donde aparece la orden | Inmediato/Códigos activos... |
 | Barra de herramientas en la que aparece la orden | Código |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

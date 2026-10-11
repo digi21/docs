@@ -24,7 +24,7 @@ La orden pide primero el archivo de imagen. Después requiere la entrada de las 
 | Tipo de orden | [Orden interactiva](ins-foto-2p-aa.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Dibujar/Imagen/Mediante dos puntos y ángulo activo_ |
+| Opción del menú donde aparece la orden | Dibujar/Imagen/Mediante dos puntos y ángulo activo... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo |

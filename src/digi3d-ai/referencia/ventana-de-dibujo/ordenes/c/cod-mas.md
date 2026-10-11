@@ -18,7 +18,7 @@ Al añadir cada código, la orden ejecuta las órdenes que la tabla de códigos 
 | Tipo de orden | [Orden inmediata](cod-mas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Inmediato/Códigos activos _..._ |
+| Opción del menú donde aparece la orden | Inmediato/Más/Añadir códigos activos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

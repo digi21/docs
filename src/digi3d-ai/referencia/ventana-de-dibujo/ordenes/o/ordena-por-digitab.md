@@ -22,7 +22,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 | Tipo de orden | [Orden inmediata](ordena-por-digitab.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Editar/Avanzado/Ordenar las entidades del archivo de dibujo según el orden en la tabla |
+| Opción del menú donde aparece la orden | Editar/Avanzado/Ordenar las entidades del archivo de dibujo según el orden en la tabla de códigos<br>Editar/Avanzado/Ordenar las entidades del archivo de dibujo según el orden en la tabla de códigos decreciente |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
