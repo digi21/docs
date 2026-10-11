@@ -74,6 +74,6 @@ Los cambios del estilo seleccionado se aplican al pulsar **Aplicar** o **Aceptar
 Aparece cuando el estilo seleccionado tiene cambios sin aplicar y cambias de pestaña, pulsas **Aceptar** o eliges **Nuevo**, **Abrir...**, **Guardar**, **Guardar como...** o una de las opciones de crear paquete del menú [Archivo](../menus/archivo/README.md).
 
 * **Aplicar los cambios**: aplica los cambios al estilo. Si cambiaste el nombre, los códigos que usan el estilo pasan a usar el nombre nuevo. Si ya existe otro estilo con ese nombre, el editor lo avisa y no aplica los cambios. Es el botón predeterminado.
-* **Descartar los cambios**: descarta los cambios y deja la lista sin estilo seleccionado. Si el estilo era nuevo, lo borra.
+* **Descartar los cambios**: descarta los cambios y deja la lista sin estilo seleccionado. Si el estilo era nuevo, lo borra. Esc equivale a este botón.
 
 **Más información** explica que los cambios de un estilo afectan a otras páginas; por ejemplo, el nombre de un estilo aparece en los códigos de la pestaña Códigos. Con los dos botones, el cambio de pestaña o la operación continúa.

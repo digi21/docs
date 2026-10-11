@@ -9,7 +9,7 @@ Esta pestaña configura las tablas de la base de datos y los campos de cada tabl
 
 Lista de las tablas definidas en la tabla de códigos.
 
-* **Buscar tabla**: deja en la lista solo las tablas cuyo nombre contiene el texto escrito, sin distinguir mayúsculas y minúsculas. Con el cuadro vacío, la lista muestra todas las tablas. Si el texto oculta la tabla que estás editando, se carga la primera tabla visible; si la tabla oculta tenía cambios sin aplicar, antes aparece el cuadro [No se han aplicado cambios](#al-seleccionar-otra-tabla). Una tabla nueva sin aplicar se muestra siempre.
+* **Buscar tabla**: deja en la lista solo las tablas cuyo nombre contiene el texto escrito, sin distinguir mayúsculas y minúsculas. Con el cuadro vacío, la lista muestra todas las tablas. Si el texto oculta la tabla que estás editando, se carga la primera tabla visible; si la tabla oculta tenía cambios sin aplicar, antes aparece el cuadro [No se han aplicado cambios](#al-seleccionar-otra-tabla). Si la lista se actualiza por otra causa, como las opciones de crear tablas del menú Base de datos, la tabla que estás editando sigue en la lista aunque no contenga el texto; una tabla nueva sin aplicar se muestra siempre.
 * **Nueva**: pide el nombre de la tabla y la crea con un campo `ID` de clave principal. La tabla nueva se añade a la tabla de códigos al aplicar los cambios.
 * **Borrar**: elimina la tabla seleccionada. Una tabla nueva sin aplicar se quita de la lista. Si algún código enlaza con la tabla, aparece el cuadro [Hay códigos que enlazan con la tabla](#hay-códigos-que-enlazan-con-la-tabla).
 
@@ -21,7 +21,7 @@ Este cuadro aparece al pulsar **Borrar** cuando uno o varios códigos tienen la 
 
 * **Quitar el enlace y borrar la tabla**: deja en blanco la propiedad **Tabla** de esos códigos y borra la tabla de la tabla de códigos.
 * **Mantener la tabla vacía**: elimina los campos de la tabla y deja solo un campo `ID` nuevo. Los códigos siguen enlazando con la tabla. El cambio queda pendiente hasta que pulses **Aplicar**.
-* **Cancelar**: no borra la tabla ni modifica ningún código. Es el botón predeterminado.
+* **Cancelar**: no borra la tabla ni modifica ningún código. Es el botón predeterminado. Esc equivale a **Cancelar**.
 
 **Más información** explica que, si se borra la tabla sin quitar el enlace, los códigos quedan enlazados con una tabla que no existe.
 
@@ -37,7 +37,7 @@ Al seleccionar un campo, sus [propiedades](propiedades-de-los-campos.md) aparece
 
 ## Aplicar los cambios
 
-Los cambios de la tabla seleccionada se aplican al pulsar **Aplicar** o **Aceptar**. Si la tabla tiene cambios sin aplicar, el editor pregunta qué hacer con ellos al seleccionar otra tabla, al pulsar **Nueva** y al cambiar de página.
+Los cambios de la tabla seleccionada se aplican al pulsar **Aplicar** o **Aceptar**. Si la tabla tiene cambios sin aplicar, el editor pregunta qué hacer con ellos al seleccionar otra tabla, al pulsar **Nueva** y al cambiar de página. En los cuadros sin botón **Cancelar**, Esc equivale a **Descartar los cambios**.
 
 ### Al seleccionar otra tabla
 
@@ -54,7 +54,7 @@ Aparece al pulsar **Nueva**. Además de los dos botones del cuadro anterior, tie
 
 * **Aplicar los cambios**: aplica los cambios y pide el nombre de la tabla nueva.
 * **Descartar los cambios**: descarta los cambios y pide el nombre de la tabla nueva.
-* **Cancelar**: no crea ninguna tabla. La tabla conserva los cambios sin aplicar.
+* **Cancelar**: no crea ninguna tabla. La tabla conserva los cambios sin aplicar. Esc equivale a **Cancelar**.
 
 ### Al cambiar de página
 
