@@ -31,7 +31,7 @@ El sensor de cámara cónica guarda los ángulos de la cámara izquierda y de la
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Transformación de las imágenes/Rotaciones de las cámaras... |
-| Barra de herramientas en la que aparece la orden | Esta orden no aparece en ninguna barra de herramientas |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
 | Nombre interno | {C96276F0-D517-4AAB-A662-4A7FEC6BCFA8} |
 | Variables relacionadas | No tiene variables relacionadas |
