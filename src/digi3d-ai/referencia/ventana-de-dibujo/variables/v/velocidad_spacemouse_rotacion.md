@@ -34,8 +34,8 @@ VELOCIDAD_SPACEMOUSE_ROTACION=0.001
 | Tipo de variable                                 | [Real](../../../ordenes/variables/variables-reales.md) |
 | ------------------------------------------------ | ------------------------------------------------------ |
 | Repite automáticamente                           | No                                                     |
-| Opción del menú donde aparece la orden           | No dispone de opción en un menú.                       |
-| Barra de herramientas en la que aparece la orden | No aparece en ninguna barra de herramientas.           |
+| Opción del menú donde aparece la orden           | _Esta orden no tiene asociada ninguna opción de menú_  |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                             |
 | Variables relacionadas                           | No tiene variables relacionadas                        |
 | Nombre interno | {970EE219-2ADA-423C-9623-B4064204307F} |

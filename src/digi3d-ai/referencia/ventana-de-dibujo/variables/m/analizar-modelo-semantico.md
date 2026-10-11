@@ -17,7 +17,7 @@ El análisis se realiza únicamente en las entidades que tengan un código para 
 | Tipo de varible | [Booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Modelo semántico/Analizar modelo semántico al finalizar entidad_ |
-| Barra de herramientas en la que aparece la orden | _Esta orden no está asignada a ninguna barra de herramientas._ |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 
