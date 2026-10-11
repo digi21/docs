@@ -17,7 +17,7 @@ Al seleccionar la entidad, el vértice seleccionado queda enganchado al cursor y
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Mover un vértice de una polilínea |
-| Barra de herramientas en la que aparece la orden | Editar polilinea |
+| Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [BORRA\_VERTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-vertice.md)<br>[INSERTA\_VÉRTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inserta-vertice.md) |

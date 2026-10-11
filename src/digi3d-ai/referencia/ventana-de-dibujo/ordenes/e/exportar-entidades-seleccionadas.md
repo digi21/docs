@@ -20,8 +20,8 @@ Después de la selección, la orden exporta las entidades igual que [EXPORTAR](/
 | Tipo de orden | [Orden interactiva](exportar-entidades-seleccionadas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Archivo/Exportar entidades seleccionadas |
-| Barra de herramientas en la que aparece la orden | Esta orden no aparece en ninguna barra de herramientas |
+| Opción del menú donde aparece la orden | Archivo/Exportar entidades seleccionadas... |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md)<br>[EXPORTAR\_VIRTUALES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar-virtuales.md) |

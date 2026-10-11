@@ -24,8 +24,8 @@ Independientemente del código utilizado al dibujar la entidad modificadora, és
 | Tipo de orden | [Orden interactiva](mod-z-multiple.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XYZ múltiples polilíneas existentes con la que estás registrando |
+| Barra de herramientas en la que aparece la orden | Modifica |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [MOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md)<br>[MOD\_MÚLTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-multiple.md)<br>[MOD\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z.md) |
