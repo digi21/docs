@@ -18,7 +18,7 @@ En este tema vamos a aprender a configurar Digi3D.AI para que realice las tres c
 Es necesario que finalices los pasos de [Creando un proyecto fotogramétrico para Bronchales](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/proyectos-de-proyecto-fotogrametrico/creando-proyecto-fotogrametrico-bronchales.md) antes de continuar.
 
 1. Abre un explorador de archivos y elimina las orientaciones _internas_, _relativas_ y _absolutas_ del proyecto **exceptuando** la orientación interna de una de las imágenes.
-2. En Digi3D.AI, selecciona la opción del menú **Herramientas/Configuración**. Aparecerá el cuadro de diálogo [Configuración](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/).
+2. En Digi3D.AI, selecciona la opción del menú **Herramientas/Configuración...**. Aparecerá el cuadro de diálogo [Configuración](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/).
 3. Localiza y despliega la sección **Proyecto fotogramétrico**.
 4. Cambia el valor de los parámetros _Comprobar imágenes, Correlar internas y Correlar relativas_ a **Si**.
 5. Pulsa el botón **Aceptar**.

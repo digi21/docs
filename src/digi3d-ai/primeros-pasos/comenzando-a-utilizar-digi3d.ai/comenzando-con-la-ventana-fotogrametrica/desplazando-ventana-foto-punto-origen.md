@@ -5,7 +5,7 @@ En ocasiones hacemos [tentativos](desplazando-ventana-foto-punto-origen.md) en u
 
 Si no disponemos de archivo de puntos de apoyo y si no conocemos las coordenadas de un punto dentro del modelo podemos forzar a la ventana fotogramétrica a que se ubique en las coordenadas de origen del modelo.
 
-* Abre el menú **Ventana fotogramétrica** y selecciona la opción **Ir a punto de origen**.
+* Abre el menú **Ventana fotogramétrica** y selecciona la opción **Ir a punto origen**.
 
 Comprobarás que Digi3D.AI se ha desplazado al punto de origen del modelo.
 

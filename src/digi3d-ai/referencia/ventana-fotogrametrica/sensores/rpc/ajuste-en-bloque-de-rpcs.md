@@ -5,7 +5,7 @@
 
 El panel **Ajuste en bloque de RPCs** calcula una corrección de los coeficientes RPC de las dos imágenes del modelo a partir de puntos de apoyo medidos en estereoscopía (ajuste RPCBA, *RPC Block Adjustment*). La corrección compensa desplazamientos y deformaciones afines de las coordenadas imagen.
 
-Para abrirlo, selecciona la opción **Ventana fotogramétrica/Orientaciones/Ajuste en bloque de RPCs**. La opción solo funciona si:
+Para abrirlo, selecciona la opción **Ventana fotogramétrica/Ajuste en bloque de RPCs**. La opción solo funciona si:
 
 * El sensor activo es el sensor [Satélite RPC](README.md) estereoscópico.
 * No hay otra orden de ajuste en bloque de RPCs en ejecución.

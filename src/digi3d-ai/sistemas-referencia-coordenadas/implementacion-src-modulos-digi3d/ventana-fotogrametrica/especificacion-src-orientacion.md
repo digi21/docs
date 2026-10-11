@@ -7,5 +7,5 @@ Algunos sensores permiten realizar una orientación del modelo fotogramétrico. 
 
 ## Comprobación del Sistema de Coordenadas de Referencia Terreno actual
 
-Puedes seleccionar la opción del menú **Ventana fotogramétrica/Ver información**. En el Panel de resultados aparecerá indicado con el título **Sistema de referencia de coordenadas de la orientación.**
+Puedes seleccionar la opción del menú **Ventana fotogramétrica/Ver información del modelo**. En el Panel de resultados aparecerá indicado con el título **Sistema de referencia de coordenadas de la orientación.**
 

@@ -16,7 +16,7 @@ El menú está dividido en tres grupos:
 ### **Herramientas relacionadas con centroides de topologías**
 
 * **Buscar centroide** Permite centrar la ventana de dibujo en el centroide del polígono topológico seleccionado.
-* **Crear centroides automáticamente** Crea automáticamente centroides en aquellos polígonos topológicos que no tengan un centroide asociado para la topología seleccionada.
+* **Crear centroides automáticamente...** Crea automáticamente centroides en aquellos polígonos topológicos que no tengan un centroide asociado para la topología seleccionada.
 
 ### **Transformación de topologías en polígonos**
 

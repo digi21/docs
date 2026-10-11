@@ -7,7 +7,7 @@ Este cuadro de diálogo permite configurar todos los aspectos Digi3D.AI.
 
 ## Abrir el cuadro de diálogo
 
-Para abrir este cuadro de diálogo selecciona la opción del menú **Herramientas/Configuración**.
+Para abrir este cuadro de diálogo selecciona la opción del menú **Herramientas/Configuración...**.
 
 ## Uso del cuadro de diálogo
 

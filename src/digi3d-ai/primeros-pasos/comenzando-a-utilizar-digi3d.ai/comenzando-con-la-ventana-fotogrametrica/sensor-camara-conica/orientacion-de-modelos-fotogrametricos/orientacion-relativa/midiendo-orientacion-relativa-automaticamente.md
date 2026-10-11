@@ -7,7 +7,7 @@ El programa medirá puntos homólogos automáticamente. Al ser un proceso comple
 
 Es necesario que finalices los pasos de [Archivos de orientación relativa](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-relativa/archivos-orientacion-relativa.md) antes de ejecutar los siguientes pasos para medir una orientación relativa automáticamente:
 
-1. Selecciona la opción de menú **Ventana fotogramétrica/Orientaciones/Orientación relativa**, que ejecuta la orden [ORI\_RELATIVA](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori_relativa.md).
+1. Selecciona la opción de menú **Ventana fotogramétrica/Orientación relativa**, que ejecuta la orden [ORI\_RELATIVA](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori_relativa.md).
 2. Comprueba que en la barra de mensajes aparece una barra de progreso indicando que se está calculando el recubrimiento de las imágenes.
 3. Si todo ha ido bien, deberías ver ambas imágenes en la misma posición.
 4. Aparecerá el panel **Orientación relativa**.

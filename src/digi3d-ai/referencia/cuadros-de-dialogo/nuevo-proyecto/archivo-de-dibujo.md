@@ -7,7 +7,7 @@ Esta pestaña del cuadro de diálogo [Nuevo proyecto](README.md) abre un archivo
 
 ## Abrir la pestaña
 
-Selecciona la opción del menú **Archivo/Abrir** y pulsa la pestaña **Archivo de dibujo**.
+Selecciona la opción del menú **Archivo/Nuevo/Abrir modelo fotogramétrico o archivo de dibujo...** y pulsa la pestaña **Archivo de dibujo**.
 
 ## Campos
 

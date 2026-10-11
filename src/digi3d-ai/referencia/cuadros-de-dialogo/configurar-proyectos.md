@@ -9,7 +9,7 @@ Las configuraciones se usan en la pestaña [Archivo de dibujo](nuevo-proyecto/ar
 
 ## Abrir el cuadro de diálogo
 
-Selecciona la opción del menú **Herramientas/Configurar proyectos**. La opción solo está habilitada si está activada la opción **Utilizar archivos de proyecto**.
+Selecciona la opción del menú **Herramientas/Configurar proyectos...**. La opción solo está habilitada si está activada la opción **Utilizar archivos de proyecto**.
 
 ## Campos
 

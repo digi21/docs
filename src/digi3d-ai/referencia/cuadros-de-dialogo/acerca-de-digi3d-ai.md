@@ -7,7 +7,7 @@ Este cuadro de diálogo muestra la versión de Digi3D.AI, los datos de la licenc
 
 ## Abrir el cuadro de diálogo
 
-Selecciona la opción del menú **Ayuda/Acerca de Digi3D**.
+Selecciona la opción del menú **Ayuda/Acerca de Digi3D...**.
 
 ## Campos
 

@@ -12,7 +12,7 @@ Esto lo podemos hacer mediante un esquema de aerotriangulación, en el que bási
 
 De esta manera, si indicamos que éste es el esquema que queremos seguir a la hora de realizar la medida, el programa nos llevará automáticamente a los puntos que aporte cada foto y tan solo tendremos que medir el punto por esa zona, donde más nos interese. De esta manera no existirá la posibilidad de equivocarnos con el nombre del punto ni con su ubicación aproximada.
 
-Los esquemas de aerotriangulación se extraen del archivo indicado en **Herramientas/Configuración** en la sección **Medida de aerotriangulación** en el valor **Esquemas.**
+Los esquemas de aerotriangulación se extraen del archivo indicado en **Herramientas/Configuración...** en la sección **Medida de aerotriangulación** en el valor **Esquemas.**
 
 El instalador de Digi3D.AI crea un archivo de esquemas en la carpeta _%ProgramData%\Digi3D.AI\Esquemas Orientaciones_ con el nombre _Esquemas de medida de aerotriangulación.aerotrischeme.xml_.
 
