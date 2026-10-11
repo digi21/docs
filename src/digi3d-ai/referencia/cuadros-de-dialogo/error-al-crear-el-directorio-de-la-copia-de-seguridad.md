@@ -13,15 +13,17 @@ El cuadro aparece con la orden [BAK](../ventana-de-dibujo/ordenes/b/bak.md), con
 
 ## Botones
 
-El cuadro no se puede cerrar con la tecla Esc ni con el botón de cierre de la ventana: tienes que elegir uno de estos botones.
+El cuadro no tiene botón de cierre. La tecla Esc equivale a **Cancelar**.
 
 * **Volver a probar**: Digi3D.AI intenta crear otra vez el directorio. Si vuelve a fallar, muestra otra vez el cuadro. Usa esta opción después de conectar el dispositivo de copias de seguridad o de recuperar el acceso a la red.
 * **Cancelar**: Digi3D.AI no hace la copia de seguridad.
 
 ## No se ha podido realizar la copia de seguridad
 
-Si el directorio existe o se ha creado, Digi3D.AI escribe la copia de seguridad. Si el exportador del formato del archivo de dibujo devuelve un error, Digi3D.AI muestra el cuadro **No se ha podido realizar la copia de seguridad**. Este cuadro tiene el mismo comportamiento:
+![Cuadro No se ha podido realizar la copia de seguridad](../../../images/error-al-realizar-la-copia-de-seguridad.png)
+
+Si el directorio existe o se ha creado, Digi3D.AI escribe la copia de seguridad. Si el exportador del formato del archivo de dibujo devuelve un error, Digi3D.AI muestra el cuadro **No se ha podido realizar la copia de seguridad**, con el título de ventana **Error al realizar la copia de seguridad**. Este cuadro tiene el mismo comportamiento:
 
 * **Más información**: el mensaje de error del exportador y la ruta del archivo de la copia de seguridad.
-* **Volver a probar**: Digi3D.AI intenta escribir otra vez la copia de seguridad.
-* **Cancelar**: Digi3D.AI no hace la copia de seguridad.
+* **Volver a probar**: Digi3D.AI intenta escribir otra vez la copia de seguridad. Si vuelve a fallar, muestra otra vez el cuadro.
+* **Cancelar** (o la tecla Esc): Digi3D.AI no hace la copia de seguridad.
