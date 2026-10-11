@@ -20,8 +20,8 @@ Esta orden sólo tiene efecto mientras la entidad no se finalice. Es similar a l
 | Tipo de orden | [Orden interactiva](um.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | Dibujar/Borrar un segmento de la línea que estás dibujando/Múltiples segmentos (1 punto) |
+| Barra de herramientas en la que aparece la orden | Finalización de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [U](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u.md)<br>[U2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u2.md) |

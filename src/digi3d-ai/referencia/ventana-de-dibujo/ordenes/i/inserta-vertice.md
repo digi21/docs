@@ -18,8 +18,8 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Tipo de orden | [Orden interactiva](inserta-vertice.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
-| Opción del menú donde aparece la orden | Editar/Polilíneas/Inserta un vértice a una polilínea |
-| Barra de herramientas en la que aparece la orden | Editar polilíneas |
+| Opción del menú donde aparece la orden | Editar/Polilíneas/Insertar un vértice a una polilínea |
+| Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [BORRA\_VERTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-vertice.md)<br>[DENSIFICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/densifica.md)<br>[MODIFICA\_VÉRTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/modifica-vertice.md) |

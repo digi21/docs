@@ -16,8 +16,8 @@ Cuando se realiza una regeneración, al igual que cuando se redibuja la pantalla
 | Tipo de orden | [Orden inmediata](regenera.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | Zooms/Regenerar |
+| Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |

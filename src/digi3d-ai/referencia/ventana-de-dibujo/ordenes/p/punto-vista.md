@@ -18,8 +18,8 @@ Si no indicas el parámetro, o su valor no está entre 1 y 10, la orden solicita
 | Tipo de orden | [Orden interactiva](punto-vista.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Zooms/Punto de vista/Superior, Inferior, Izquierdo, Derecho, Frontal, Trasero, Isométrico SW, Isométrico SE, Isométrico NE e Isométrico NW |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | Zooms/Punto de vista/Cámara/Objetivo<br>Zooms/Punto de vista/Superior<br>Zooms/Punto de vista/Inferior<br>Zooms/Punto de vista/Izquierdo<br>Zooms/Punto de vista/Derecho<br>Zooms/Punto de vista/Frontal<br>Zooms/Punto de vista/Trasero<br>Zooms/Punto de vista/Isométrico SW<br>Zooms/Punto de vista/Isométrico NW<br>Zooms/Punto de vista/Isométrico NE<br>Zooms/Punto de vista/Isométrico SE |
+| Barra de herramientas en la que aparece la orden | Punto de vista |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [GIRAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/girar.md)<br>[PUNTO\_VISTA\_DINAMICO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-vista-dinamico.md) |

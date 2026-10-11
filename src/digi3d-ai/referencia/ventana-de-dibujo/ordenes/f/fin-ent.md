@@ -20,8 +20,8 @@ Esta orden está asignada por defecto a uno de los pedales y al botón derecho d
 | Tipo de orden | [Orden inmediata](fin-ent.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | Dibujar/Finalizar la línea que estás dibujando |
+| Barra de herramientas en la que aparece la orden | Finalización de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CIERRA\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cierra-ent.md)<br>[LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) |
