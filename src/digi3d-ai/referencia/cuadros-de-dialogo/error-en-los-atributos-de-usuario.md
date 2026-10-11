@@ -13,9 +13,9 @@ Si el motor de base de datos acepta los valores de los campos pero rechaza el re
 
 ## Campos
 
-* **Cadena de error**: el mensaje de error. Lo genera el motor de base de datos, el control de calidad o el propio Digi3D.AI cuando un campo que no admite longitud 0 está vacío.
+* **Se ha producido el siguiente error**: el mensaje de error. Lo genera el motor de base de datos, el control de calidad o el propio Digi3D.AI cuando un campo que no admite longitud 0 está vacío.
 * **Rejilla de atributos**: muestra solo el atributo que ha fallado. Corrige su valor aquí. La rejilla queda vacía si el campo pertenece a un grupo del esquema de la tabla o está marcado como oculto.
 * **Volver a probar**: intenta guardar otra vez la entidad con los valores corregidos.
-* **Cancelar** (o la tecla Esc): Digi3D.AI muestra el cuadro [No has introducido un campo obligatorio](no-has-introducido-un-campo-obligatorio.md) para que elijas entre volver a asignar el valor, conservar la entidad sin el registro de ese código o eliminar la entidad.
+* **Cancelar** (o la tecla Esc): Digi3D.AI muestra el cuadro [Atributos de base de datos no válidos](atributos-de-base-de-datos-no-validos.md) para que elijas entre volver a asignar el valor, conservar la entidad sin el registro de ese código o eliminar la entidad.
 
   Si el error lo produjo un control de calidad, **Cancelar** descarta la entidad sin preguntar.
