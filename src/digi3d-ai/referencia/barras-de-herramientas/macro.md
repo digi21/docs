@@ -16,10 +16,11 @@ Digi3D.AI anota cada orden cuando la orden termina. Una orden que sigue activa a
 
 ![Cuadro de diálogo Macro preparada para ser almacenada](../../../images/macro-preparada-para-ser-almacenada.png)
 
-Elige dónde se almacena la macro:
+Elige dónde se almacena la macro. El cuadro no se puede cerrar con la tecla Esc ni con el botón de cierre de la ventana: tienes que elegir uno de estos botones.
 
 * **Almacenar la macro en una pulsación de tecla**: Digi3D.AI escribe las órdenes grabadas en un archivo temporal y ejecuta la orden [TECLA](../ventana-de-dibujo/ordenes/t/tecla.md) con ese archivo. TECLA pide que pulses una tecla y abre su cuadro de diálogo con la secuencia de órdenes grabada. Cada vez que pulses esa tecla se ejecutará la macro. Si no se puede crear el archivo temporal, Digi3D.AI muestra el error «Error al crear el archivo temporal...».
 * **Crear un archivo de macroinstrucciones**: abre el cuadro de diálogo **Almacenar archivo de macro-instrucciones**. El archivo se podrá ejecutar después como una orden más.
+* **Descartar la macro**: borra las órdenes grabadas y no almacena nada.
 
 ## Cuadro de diálogo Almacenar archivo de macro-instrucciones
 
