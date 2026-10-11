@@ -24,6 +24,6 @@ Este cuadro aparece cuando la tabla de códigos tiene cambios sin guardar y puls
 * **Guardar**: guarda la tabla en su archivo. Si la tabla aún no tiene archivo, pide el nombre del archivo como **Guardar como**. Es el botón predeterminado.
 * **Guardar como**: pide un nombre de archivo y guarda la tabla en ese archivo.
 * **Descartar**: no guarda nada y la operación continúa: el editor se cierra o se crea o abre la otra tabla de códigos.
-* **Cancelar**: no guarda nada y la tabla de códigos sigue abierta.
+* **Cancelar**: no guarda nada y la tabla de códigos sigue abierta. Esc equivale a **Cancelar**.
 
 Si cancelas el cuadro de selección del archivo, este cuadro vuelve a aparecer. Si no se puede escribir el archivo, el editor muestra un error y la tabla de códigos sigue abierta.

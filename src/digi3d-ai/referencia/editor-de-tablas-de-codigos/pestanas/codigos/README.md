@@ -47,7 +47,7 @@ Los cambios del código seleccionado se aplican al pulsar **Aplicar** o **Acepta
 Si el código tiene cambios sin aplicar y pulsas **Nuevo...**, **Copiar...**, **Subir** o **Bajar**, aparece el cuadro **No se han aplicado cambios**:
 
 * **Aplicar los cambios**: aplica los cambios al código. Es el botón predeterminado.
-* **Descartar los cambios**: descarta los cambios del código. Si el código era nuevo, lo quita de la lista.
+* **Descartar los cambios**: descarta los cambios del código. Si el código era nuevo, lo quita de la lista. Esc equivale a este botón.
 
 Después, **Nuevo...** y **Copiar...** continúan y piden el nombre del código; **Copiar...** no continúa si el código descartado era nuevo, porque ya no hay código que copiar. **Subir** y **Bajar** no mueven el código: vuelve a pulsar el botón.
 
@@ -58,7 +58,7 @@ Después, **Nuevo...** y **Copiar...** continúan y piden el nombre del código;
 Aparece cuando el código seleccionado tiene cambios sin aplicar y cambias de pestaña, pulsas **Aceptar** o eliges **Nuevo**, **Abrir...**, **Guardar**, **Guardar como...** o una de las opciones de crear paquete del menú [Archivo](../../menus/archivo/README.md).
 
 * **Aplicar los cambios**: aplica los cambios al código. Es el botón predeterminado.
-* **Descartar los cambios**: descarta los cambios del código. Si el código era nuevo, lo quita de la lista.
+* **Descartar los cambios**: descarta los cambios del código. Si el código era nuevo, lo quita de la lista. Esc equivale a este botón.
 
 **Más información** explica que los cambios de otras páginas, como el nombre de un estilo visual, pueden afectar a los códigos. Con los dos botones, el cambio de pestaña o la operación continúa y las cuadrículas de propiedades se vacían.
 
