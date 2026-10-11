@@ -16,7 +16,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](punto-2p.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Punto escalado/rotado con dos puntos |

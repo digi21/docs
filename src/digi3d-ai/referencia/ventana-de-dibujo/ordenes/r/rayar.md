@@ -21,7 +21,7 @@ Solo se añaden los tramos de raya que quedan dentro del contorno. Las rayas se 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](rayar.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

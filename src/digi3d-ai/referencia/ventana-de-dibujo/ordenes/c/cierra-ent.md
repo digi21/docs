@@ -15,7 +15,7 @@ Con la orden SPLINE, la línea debe tener al menos tres puntos; si no los tiene,
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](cierra-ent.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Cerrar la línea que se está dibujando |

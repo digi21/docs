@@ -20,7 +20,7 @@ Esta orden respeta la relación de aspecto de la imagen.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ins-foto.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Imagen/Mediante dos puntos: centro y radio... |

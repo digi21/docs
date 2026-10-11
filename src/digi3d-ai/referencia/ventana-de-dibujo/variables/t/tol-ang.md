@@ -31,7 +31,7 @@ Con **TOL\_ANG** igual a 0 no se elimina ningún vértice que no esté exactamen
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](tol-ang.md) |
+| Tipo de orden | [Variable real](/digi3d-ai/referencia/ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

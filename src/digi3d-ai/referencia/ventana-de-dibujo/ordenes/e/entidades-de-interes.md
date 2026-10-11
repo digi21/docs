@@ -13,7 +13,7 @@ Selecciona las entidades con una orden de selección múltiple, como [SELECCIONA
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](entidades-de-interes.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Seleccionar entidades de interés |

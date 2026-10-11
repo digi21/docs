@@ -19,7 +19,7 @@ La orden ajusta la vista a la ventana que engloba las entidades del contorno ext
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](zoome-r.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom a la extensión del recinto (por inundación) |

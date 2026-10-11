@@ -17,7 +17,7 @@ El pie toma la Z del punto digitalizado. Para que tome la Z del tramo, usa [PERP
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](perp.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Polilínea cuyo primer segmento es perpendicular a un segmento |

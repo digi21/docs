@@ -17,7 +17,7 @@ Al soltar el botón, [ZOOM\_ANTERIOR](zoom-anterior.md) puede devolver la vista 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](zoom2p.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Zooms/Desplazar la vista |

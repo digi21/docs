@@ -24,7 +24,7 @@ El factor de zoom no cambia.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](zoomp.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Centrar la vista en un punto digitalizado |

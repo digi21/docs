@@ -15,7 +15,7 @@ El zoom se efectúa centrado en el punto donde se encuentra el cursor: ese punto
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoomout.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

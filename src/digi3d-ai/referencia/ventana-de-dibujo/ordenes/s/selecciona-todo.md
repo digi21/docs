@@ -13,7 +13,7 @@ La orden marca todas las entidades del archivo de dibujo activo que no están bo
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-todo.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Selecciona todo |

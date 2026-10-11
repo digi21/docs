@@ -21,7 +21,7 @@ Esta orden no rotulará entidades que están desactivadas con la orden [OFF](/di
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](rotula-curvas.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Rotular curvas de nivel... |

@@ -11,7 +11,7 @@ Establece el dispositivo de entrada de la ventana de dibujo (por ejemplo, un GPS
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](dispositivo-entrada.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

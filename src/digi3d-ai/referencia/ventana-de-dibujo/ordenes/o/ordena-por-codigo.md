@@ -15,7 +15,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](ordena-por-codigo.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Avanzado/Ordenar las entidades del archivo de dibujo por código alfanumérico |

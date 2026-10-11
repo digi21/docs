@@ -13,7 +13,7 @@ Con esta orden, se cierra el fichero de dibujo activo, pero no sale de la ejecuc
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](fin.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

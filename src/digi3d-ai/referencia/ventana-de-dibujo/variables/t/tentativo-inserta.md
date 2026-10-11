@@ -23,7 +23,7 @@ Al iniciar Digi3D.AI la variable está desactivada. Si está activada [AUTOMODOB
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](tentativo-inserta.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Tentativo inserta |

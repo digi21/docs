@@ -34,7 +34,7 @@ Las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](tol.md) |
+| Tipo de orden | [Variable real](/digi3d-ai/referencia/ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

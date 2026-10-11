@@ -13,7 +13,7 @@ El efecto visual es de alejamiento. La orden divide el ancho y el alto de la zon
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom-menos.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom - |

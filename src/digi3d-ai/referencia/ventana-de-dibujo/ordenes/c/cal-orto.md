@@ -48,7 +48,7 @@ Si el tamaño del píxel no es mayor que 0, la orden muestra un mensaje de error
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cal-orto.md) sin parámetros; [orden inmediata](cal-orto.md) con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](cal-orto.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ortofoto/Crear ortofoto... |

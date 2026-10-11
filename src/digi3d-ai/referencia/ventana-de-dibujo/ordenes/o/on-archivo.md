@@ -18,7 +18,7 @@ Si solo indicas el índice del archivo, la orden no hace nada. Un parámetro que
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](on-archivo.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

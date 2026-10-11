@@ -11,7 +11,7 @@ Indica si los modelos digitales del terreno cargados modifican la coordenada Z d
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](mdt-mueve-digi3d.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

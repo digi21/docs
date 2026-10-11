@@ -17,7 +17,7 @@ Hay que determinar el valor del _ángulo activo_ antes de ejecutar la orden ORTO
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](orto-aa.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Ortogonal al ángulo activo |

@@ -31,7 +31,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](proyecta-cod.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Proyectar entidades contra los MDT cargados por código... |

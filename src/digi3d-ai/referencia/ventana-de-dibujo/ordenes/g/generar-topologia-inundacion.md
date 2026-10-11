@@ -74,7 +74,7 @@ La topología se calcula al ejecutar la orden y no se actualiza al editar el dib
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](generar-topologia-inundacion.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Generar topología para inundaciones |

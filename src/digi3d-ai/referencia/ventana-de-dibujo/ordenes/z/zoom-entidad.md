@@ -13,7 +13,7 @@ Selecciona una o varias entidades. La orden ajusta la vista a la ventana que eng
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](zoom-entidad.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom a entidades seleccionadas |

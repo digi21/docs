@@ -24,7 +24,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-jt2.md) sin parámetros; [orden inmediata](camb-jt2.md) con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](camb-jt2.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -23,7 +23,7 @@ Sin parámetros, la orden muestra el cuadro de diálogo [Selecciona códigos](/d
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](offd-tipo.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Desactivar visualización de códigos (por código y tipo)... |

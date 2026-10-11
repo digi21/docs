@@ -20,7 +20,7 @@ Esta orden impide la visualización de estos elementos, insertando una marca de 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](borra-e.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Eliminar las entidades seleccionadas |

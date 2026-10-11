@@ -13,7 +13,7 @@ Esta orden trabaja por geometrías y no por códigos. Si una geometría se marca
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](off_todo.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Ninguna entidad |

@@ -47,7 +47,7 @@ La orden exporta las entidades no borradas, visibles, no virtuales y dentro de l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](exportar.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Exportar... |

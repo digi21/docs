@@ -19,7 +19,7 @@ Pulsa Esc para terminar sin crear nada.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](dibuja-r-i.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Generar polígono |

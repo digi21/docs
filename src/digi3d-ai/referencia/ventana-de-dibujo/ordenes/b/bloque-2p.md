@@ -17,7 +17,7 @@ Después del cuadro de diálogo, la orden pide el punto de origen y a continuaci
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](bloque-2p.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Crear un bloque \(2 puntos\)... |

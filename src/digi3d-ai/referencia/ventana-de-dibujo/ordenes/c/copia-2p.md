@@ -21,7 +21,7 @@ Con esta orden puedes copiar entidades pertenecientes a archivos de referencia.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](copia-2p.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Copiar una entidad cambiando su tamaño/orientación \(2 puntos\) |

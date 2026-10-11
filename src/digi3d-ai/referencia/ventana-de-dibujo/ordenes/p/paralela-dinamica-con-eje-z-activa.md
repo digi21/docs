@@ -18,7 +18,7 @@ Todos los vértices de la paralela y del eje toman la Z del punto digitalizado.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](paralela-dinamica-con-eje-z-activa.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica con eje con Z activa |

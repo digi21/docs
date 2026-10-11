@@ -13,7 +13,7 @@ Sólo tiene efecto mientras la entidad no se finalice. Cada ejecución borra un 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](u.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Borrar un segmento de la línea que estás dibujando/El último segmento |

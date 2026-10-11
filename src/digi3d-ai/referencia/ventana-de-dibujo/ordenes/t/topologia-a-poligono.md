@@ -20,7 +20,7 @@ La orden crea un polígono, con sus huecos, por cada recinto válido de la topol
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](topologia-a-poligono.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Transformar topologías cargadas a polígonos/Todas las topologías<br>Topología/Transformar topologías cargadas a polígonos/(una opción por cada topología cargada) |

@@ -17,7 +17,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](eliminar-puntos-dobles.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Eliminar puntos dobles/Puntos que coincidan en X,Y,Z<br>Análisis geométricos/Eliminar puntos dobles/Puntos que coincidan en X,Y |

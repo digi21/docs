@@ -15,7 +15,7 @@ Si no indicas el parámetro, o su valor no está entre 1 y 10, la orden solicita
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](punto-vista.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Punto de vista/Cámara/Objetivo<br>Zooms/Punto de vista/Superior<br>Zooms/Punto de vista/Inferior<br>Zooms/Punto de vista/Izquierdo<br>Zooms/Punto de vista/Derecho<br>Zooms/Punto de vista/Frontal<br>Zooms/Punto de vista/Trasero<br>Zooms/Punto de vista/Isométrico SW<br>Zooms/Punto de vista/Isométrico NW<br>Zooms/Punto de vista/Isométrico NE<br>Zooms/Punto de vista/Isométrico SE |

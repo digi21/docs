@@ -19,7 +19,7 @@ La orden termina después de duplicar la entidad seleccionada. Si seleccionas va
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](duplica.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Duplicar una entidad \(geometría y códigos\) |

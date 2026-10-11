@@ -13,7 +13,7 @@ Selecciona una o varias entidades. La orden apaga todos los códigos y enciende 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](var-solo-codigos-entidad-seleccionada.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Solo los códigos de las entidades seleccionadas |

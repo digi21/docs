@@ -23,7 +23,7 @@ Si se cancela el cuadro de diálogo, la orden termina sin crear el archivo.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](bloque.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Crear un bloque... |

@@ -15,7 +15,7 @@ La variable se activa cada vez que se abre un archivo de dibujo. Al cambiar su v
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](ver-no-virtuales.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Entidades no virtuales |

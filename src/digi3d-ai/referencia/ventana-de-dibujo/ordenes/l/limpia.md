@@ -68,7 +68,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un l�
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](limpia.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Más/Recortar polilíneas dentro de polígonos o del área de influencia de un texto... |

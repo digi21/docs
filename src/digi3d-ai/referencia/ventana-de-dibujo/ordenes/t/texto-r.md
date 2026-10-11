@@ -21,7 +21,7 @@ El texto se crea con los códigos activos, la altura [AT](/digi3d-ai/referencia/
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](texto-r.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Texto con dos puntos |

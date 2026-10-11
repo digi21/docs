@@ -41,7 +41,7 @@ Para activar solo algunos tipos de geometría de un código, ejecuta [ON\_TIPO](
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](on.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

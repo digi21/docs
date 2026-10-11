@@ -17,7 +17,7 @@ Es necesario que se esté ejecutando previamente una orden que admita selección
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-multiple.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar múltiples entidades |

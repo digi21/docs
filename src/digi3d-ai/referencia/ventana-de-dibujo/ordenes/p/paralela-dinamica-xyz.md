@@ -17,7 +17,7 @@ A la Z de todos los vértices de la paralela se le suma la diferencia de Z entre
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](paralela-dinamica-xyz.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica en XYZ |

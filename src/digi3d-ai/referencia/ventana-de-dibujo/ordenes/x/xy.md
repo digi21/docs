@@ -43,7 +43,7 @@ Si pulsas _Cancelar_, la orden termina sin enviar ningún punto. El contenido de
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](xy.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Inserción manual de coordenadas |

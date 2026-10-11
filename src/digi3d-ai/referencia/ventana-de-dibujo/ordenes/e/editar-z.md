@@ -21,7 +21,7 @@ La orden solicita que selecciones una línea o un polígono del modelo actual y 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](editar-z.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Editar vértices en Z |

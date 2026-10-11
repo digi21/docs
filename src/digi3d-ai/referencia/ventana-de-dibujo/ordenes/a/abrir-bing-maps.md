@@ -17,7 +17,7 @@ El parámetro se pasa tal cual a Bing Maps como estilo del mapa (`style`).
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](abrir-bing-maps.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Abrir una ventana de Bing Maps en la posición actual/Vista aérea...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Carreteras...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Vista aérea con etiquetas...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Ojo de pájaro...<br>Zooms/Abrir una ventana de Bing Maps en la posición actual/Ojo de pájaro con etiquetas... |

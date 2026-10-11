@@ -13,7 +13,7 @@ La orden muestra un cuadro de diálogo para indicar el archivo y guarda en él l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](guardar-tabla-codigos.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Guardar tabla de códigos... |

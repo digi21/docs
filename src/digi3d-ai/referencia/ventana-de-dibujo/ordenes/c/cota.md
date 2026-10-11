@@ -22,7 +22,7 @@ El texto digitalizado tendrá tantos decimales como los especificados en la vari
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cota.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Cota altimétrica |

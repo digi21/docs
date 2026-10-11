@@ -21,7 +21,7 @@ Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna lín
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](unir-xyz.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Unir líneas si coincide la Z/Independientemente del número de líneas que lleguen al nodo/Líneas visibles<br>Análisis geométricos/Unir líneas si coincide la Z/Independientemente del número de líneas que lleguen al nodo/(una opción por cada etiqueta de la tabla de códigos) |

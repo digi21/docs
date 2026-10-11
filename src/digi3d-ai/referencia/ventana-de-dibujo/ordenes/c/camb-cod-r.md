@@ -24,7 +24,7 @@ Si pulsas **Cancelar** en el cuadro de diálogo **Seleccionar código**, la orde
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-cod-r.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Cambiar códigos |

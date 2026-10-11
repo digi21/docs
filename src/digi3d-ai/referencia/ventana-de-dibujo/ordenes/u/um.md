@@ -17,7 +17,7 @@ Esta orden sólo tiene efecto mientras la entidad no se finalice. Es similar a l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](um.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Borrar un segmento de la línea que estás dibujando/Múltiples segmentos (1 punto) |

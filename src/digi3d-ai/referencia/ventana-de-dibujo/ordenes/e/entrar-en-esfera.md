@@ -13,7 +13,7 @@ La orden requiere un archivo de imágenes esféricas cargado; si no lo hay, mues
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](entrar-en-esfera.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

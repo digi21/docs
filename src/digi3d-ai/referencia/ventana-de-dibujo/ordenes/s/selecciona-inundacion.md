@@ -21,7 +21,7 @@ El pulsador de reset vacía la selección de recintos. La tecla `Esc` termina la
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-inundacion.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Selecciona por inundación |

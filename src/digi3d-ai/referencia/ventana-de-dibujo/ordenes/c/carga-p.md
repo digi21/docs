@@ -44,7 +44,7 @@ Con el parámetro, el código del punto es el primer código activo, el código 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](carga-p.md) sin parámetros; [orden inmediata](carga-p.md) con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](carga-p.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -17,7 +17,7 @@ Si está activo, el programa escucha comandos por el micrófono del ordenador. S
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](reconocer-voz.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Reconocer voz |

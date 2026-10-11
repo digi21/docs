@@ -17,7 +17,7 @@ Cuando está activado, DigiNG utiliza la información de la [tabla de códigos](
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](patron.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Activar patrón |

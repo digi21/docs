@@ -18,7 +18,7 @@ Pulsa el pulsador de datos o el de tentativo sobre las entidades. La orden selec
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-todo-en-cursor.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Selecciona todas las entidades que interseccionan con el cursor |

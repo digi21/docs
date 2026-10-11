@@ -13,7 +13,7 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](auto.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Activar el autoseguimiento de cámara para sensor fotogramétrico |

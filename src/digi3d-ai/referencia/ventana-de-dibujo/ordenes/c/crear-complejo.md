@@ -18,7 +18,7 @@ Si el control de calidad descarta el complejo nuevo, se conservan todas las enti
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](crear-complejo.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Crear un elemento complejo |

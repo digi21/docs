@@ -24,7 +24,7 @@ Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](repite.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Variables booleanas/Repetir la última orden |

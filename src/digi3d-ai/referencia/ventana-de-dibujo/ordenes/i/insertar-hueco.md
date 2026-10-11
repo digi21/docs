@@ -23,7 +23,7 @@ Si la propiedad de la acción sobre la geometría del hueco indica preguntar, la
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](insertar-hueco.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polígonos/Insertar hueco en polígono |

@@ -17,7 +17,7 @@ Esta orden es utilizada cuando se está curvando. Una vez que el operador ha ter
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](sube-z.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Subir la coordenada Z al siguiente múltiplo de equidistancia |

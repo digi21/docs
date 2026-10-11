@@ -15,7 +15,7 @@ Al seleccionar la línea, la paralela se genera a la [distancia activa DA](/digi
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](paralela-da.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -17,7 +17,7 @@ Dos polígonos vecinos se agrupan cuando sus centroides tienen el mismo texto y 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](generalizar-topologia.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Generalizar topología/Todas las topologías<br>Topología/Generalizar topología/\(una opción por topología cargada\) |

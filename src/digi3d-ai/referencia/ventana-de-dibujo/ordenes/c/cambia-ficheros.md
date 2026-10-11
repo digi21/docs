@@ -13,7 +13,7 @@ La orden alterna el fichero activo entre el primer y el segundo fichero de dibuj
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](cambia-ficheros.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

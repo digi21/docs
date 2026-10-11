@@ -17,7 +17,7 @@ Mientras la orden está activa, el cursor se oculta y queda capturado en la vent
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](mover-camara-fps.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Mover cámara FPS |

@@ -17,7 +17,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](alinear.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

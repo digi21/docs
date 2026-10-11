@@ -13,7 +13,7 @@ Si el control de calidad descarta cualquiera de los dos trozos nuevos, se conser
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cortar-e.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Partir una polilínea |

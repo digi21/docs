@@ -21,7 +21,7 @@ Independientemente del código utilizado al dibujar la entidad modificadora, és
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mod-z.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XYZ una polilínea existente con la que estás registrando |

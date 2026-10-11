@@ -19,7 +19,7 @@ Si se detectan auto intersecciones, se añadirán entradas en el [Panel Tareas](
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-bucles.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar bucles/\(una opción por etiqueta\) |

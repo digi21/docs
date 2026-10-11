@@ -17,7 +17,7 @@ Si Digi3D.AI descarta alguna de las copias nuevas, la orden no aplica el cambio 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](separa-multicod.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Más/Separar códigos generando geometría duplicada |

@@ -19,7 +19,7 @@ Si no indicas ningún código, la orden espera a que selecciones un conjunto de 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-interseccion-sentido.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar cambios de sentido en intersecciones/Entidades visibles<br>Análisis geométricos/Detectar cambios de sentido en intersecciones/\(una opción por etiqueta\) |

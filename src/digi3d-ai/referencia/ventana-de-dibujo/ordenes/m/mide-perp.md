@@ -15,7 +15,7 @@ Selecciona un tramo y digitaliza un punto: la orden muestra la distancia en plan
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mide-perp.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Medir una distancia perpendicular |

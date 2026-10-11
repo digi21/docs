@@ -35,7 +35,7 @@ Los límites son las líneas cerradas en 2D, visibles, no borradas y en la zona 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](cortar-f-centroide.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

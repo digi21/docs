@@ -15,7 +15,7 @@ La orden analiza las entidades del archivo de dibujo activo que no están borrad
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](control-calidad-cod.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Control de calidad/Analizar control de calidad/Por código... |

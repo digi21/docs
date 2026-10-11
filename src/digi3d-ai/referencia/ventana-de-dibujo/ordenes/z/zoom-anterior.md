@@ -15,7 +15,7 @@ La orden guarda a su vez la vista que sustituye, así que si la ejecutas dos vec
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom-anterior.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom anterior |

@@ -13,7 +13,7 @@ Si no hay ninguna tarea, la orden muestra un mensaje de error y termina. Si en e
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](localizar-tarea.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ventana/Tareas/Localizar tarea |

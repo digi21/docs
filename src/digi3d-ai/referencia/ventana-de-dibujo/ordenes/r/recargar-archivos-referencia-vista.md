@@ -13,7 +13,7 @@ La orden solo se puede ejecutar cuando no hay otra orden activa; en caso contrar
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](recargar-archivos-referencia-vista.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Recargar archivos que admiten región de interés con las entidades que solapan con la ventana activa (BETA) |

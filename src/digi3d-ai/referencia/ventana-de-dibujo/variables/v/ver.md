@@ -19,7 +19,7 @@ Si la oren está desactivada, al intentar un enganche a una entidad con el botó
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](ver.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Verificar |

@@ -10,7 +10,7 @@
 | Tipo |Lineal<br>Puntual<br>Virtual|
 | Descripción | Descripción del código |
 
-* Si Digi3D.AI está en [modo preparado](dibujando-puntos-patron-escala.md) y el código activo es un [código lineal](dibujando-puntos-patron-escala.md), al pusar el [botón de dato](dibujando-puntos-patron-escala.md) sobre la ventana de dibujo, Digi3D.AI ejecutará de manera automática la orden [**LINEA**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y dibujará una polilínea.
+* Si Digi3D.AI está en [modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el código activo es un [código lineal](dibujando-puntos-patron-escala.md), al pusar el [botón de dato](dibujando-puntos-patron-escala.md) sobre la ventana de dibujo, Digi3D.AI ejecutará de manera automática la orden [**LINEA**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y dibujará una polilínea.
 * Si Digi3D.AI está en **modo preparado** y el código activo es un [código puntual](dibujando-puntos-patron-escala.md), al pulsar el **botón de dato** sobre la ventana de dibujo, Digi3D.AI ejecutará la orden [**PUNTO**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md).
 
 Sigue los siguientes pasos para digitalizar un punto:

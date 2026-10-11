@@ -13,7 +13,7 @@ El porcentaje de solape, se define con la orden [SOLAPE](/digi3d-ai/referencia/v
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoominf.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom abajo |
