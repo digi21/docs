@@ -57,7 +57,7 @@ Digi3D.AI calcula la orientación relativa cuando hay tantos puntos medidos como
 | Tipo de orden | Orden interactiva |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Ventana fotogramétrica/Orientaciones/Orientación relativa (opción que añade el sensor de cámara cónica) |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Orientación relativa (opción que añade el sensor de cámara cónica) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.ConicSensor.dll |
 | Variables relacionadas | No tiene variables relacionadas |
