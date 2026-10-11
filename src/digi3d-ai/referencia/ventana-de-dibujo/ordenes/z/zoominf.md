@@ -16,8 +16,8 @@ El porcentaje de solape, se define con la orden [SOLAPE](/digi3d-ai/referencia/v
 | Tipo de orden | [Orden inmediata](zoominf.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Zooms/Zoom Abajo |
-| Barra de herramientas en la que aparece la orden | Zooms |
+| Opción del menú donde aparece la orden | Zooms/Zoom abajo |
+| Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [SOLAPE](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/solape.md) — porcentaje de solape de la ventana |
 | Órdenes relacionadas | [ZOOMDER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomder.md)<br>[ZOOMIZQ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomizq.md)<br>[ZOOMSUP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomsup.md) |
