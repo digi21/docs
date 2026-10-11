@@ -11,7 +11,7 @@ Digi3D.AI requiere que las imágenes TIFF estén teseladas (formadas por un mosa
 
 Digi3D.AI requiere además que las imágenes TIFF tengan niveles piramidales (que son la misma imagen, pero a distintas resoluciones). Estos niveles piramidales pueden estar autocontenidos dentro de la propia imagen TIFF o en un archivo externo (habitualmente un archivo con extensión .pyr, que es en realidad un archivo TIFF al que se le ha cambiado la extensión a .pyr y que tiene los niveles piramidales 2, 3, 4,...).
 
-Si al cargar en Digi3D.AI una imagen TIFF el programa detecta que esta no está formada por teselas, mostrará un cuadro de diálogo solicitando si convertirla en compatible.&#x20;
+Si al cargar en Digi3D.AI una imagen TIFF el programa detecta que esta no está formada por teselas, muestra el cuadro [Localizada una imagen no preparada para Digi3D.AI](cuadros-de-dialogo/localizada-una-imagen-no-preparada-para-digi3d-ai.md), que permite convertirla en compatible.
 
 Si al cargar en Digi3D.AI una imagen TIFF el programa detecta que está teselada pero no tiene niveles piramidales, Digi3D.AI **no va a preguntar** si convertir la imagen en una imagen compatible, puesto que ya es compatible.
 
