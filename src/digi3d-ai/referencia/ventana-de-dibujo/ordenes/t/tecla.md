@@ -48,11 +48,15 @@ Al pulsar _Aceptar_ en el cuadro de asignación, Digi3D.AI pregunta si se quiere
 
 ### Si no se puede guardar el archivo
 
-Digi3D.AI muestra un cuadro con tres opciones:
+Si el archivo `.keyboard.xml` no se puede escribir (por ejemplo, por falta de permisos), Digi3D.AI muestra el cuadro **Localizado un error al almacenar el archivo de teclas**:
+
+![Cuadro Localizado un error al almacenar el archivo de teclas](../../../../../images/error-al-almacenar-el-archivo-de-teclas.png)
+
+**Más información** muestra la ruta del archivo y el error devuelto por el sistema operativo. El cuadro no tiene botón de cierre.
 
 * **Continuar**: la asignación se mantiene solo en memoria y se pierde al cerrar el programa.
-* **Volver a probar**: intenta guardar el archivo otra vez.
-* **Guardar en otro archivo**: pide otra ruta. Después hay que configurar Digi3D.AI para que cargue ese archivo.
+* **Volver a probar** (o la tecla Esc): intenta guardar el archivo otra vez. Si vuelve a fallar, muestra otra vez el cuadro.
+* **Guardar en otro archivo**: pide otra ruta y guarda en ella el teclado virtual entero. Hasta que cierres Digi3D.AI, las asignaciones siguientes de ese teclado se guardan en el archivo nuevo. Digi3D.AI no cambia su configuración: para que cargue el archivo nuevo en las próximas sesiones, añádelo en [Configuración de teclados virtuales](../../../cuadros-de-dialogo/configuracion-de-teclados-virtuales.md) o, con los proyectos activados, en **Teclado** de la [configuración del proyecto](../../../cuadros-de-dialogo/configurar-proyectos.md). Si cancelas la selección de la ruta, Digi3D.AI intenta guardar otra vez en el archivo original.
 
 ### Con parámetro
 
