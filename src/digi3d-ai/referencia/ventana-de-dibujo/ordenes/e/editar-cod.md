@@ -37,7 +37,7 @@ Esta orden muestra este cuadro de diálogo con los códigos de la entidad selecc
 
 ### Apertura desde el error al almacenar en la base de datos
 
-Si Digi3D.AI no consigue almacenar los atributos de un código en la base de datos, muestra el cuadro «El modelo de datos no ha conseguido almacenar la información en la base de datos». La opción **Editar los atributos de base de datos.** abre este cuadro de diálogo con ese único código. En este caso los botones **Subir**, **Bajar**, **Borrar** y **Añadir nuevo** están deshabilitados. Al cerrar el cuadro, Digi3D.AI vuelve a intentar almacenar el código.
+Si Digi3D.AI no consigue almacenar los atributos de un código en la base de datos, muestra el cuadro de diálogo [Error al almacenar datos en la base de datos](../../../cuadros-de-dialogo/error-al-almacenar-datos-en-la-base-de-datos.md). La opción **Editar los atributos de base de datos** abre este cuadro de diálogo con ese único código. En este caso los botones **Subir**, **Bajar**, **Borrar** y **Añadir nuevo** están deshabilitados. Al cerrar el cuadro, Digi3D.AI vuelve a intentar almacenar el código.
 
 ## Cuadro de diálogo Editar parámetros avanzados del código
 
