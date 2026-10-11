@@ -3,7 +3,7 @@
 
 Bloquea la coordenada _Z_ de la ventana fotogramétrica en el valor exacto en el que se encuentra en ese momento, de modo que no cambie mientras te desplazas.
 
-A diferencia de la orden [FIJA_Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) de la ventana de dibujo —que bloquea la _Z_ en el múltiplo de la equidistancia de curvas de nivel más cercano—, **BLOQUEA_Z** mantiene la coordenada _Z_ exacta en la que te encuentres, ya que la ventana fotogramétrica no maneja curvas de nivel ni equidistancias.
+A diferencia de la orden [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) de la ventana de dibujo —que bloquea la _Z_ en el múltiplo de la equidistancia de curvas de nivel más cercano—, **BLOQUEA_Z** mantiene la coordenada _Z_ exacta en la que te encuentres, ya que la ventana fotogramétrica no maneja curvas de nivel ni equidistancias.
 
 Es una orden conmutador: al ejecutarla de nuevo se libera la _Z_ y vuelve a moverse con normalidad.
 
