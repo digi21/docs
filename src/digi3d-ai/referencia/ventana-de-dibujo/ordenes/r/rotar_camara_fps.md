@@ -22,8 +22,8 @@ Con el parámetro 1, la orden envía la posición y la orientación de la cámar
 | Tipo de orden | [Orden interactiva](rotar_camara_fps.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | No aparece en ningún menú. |
-| Barra de herramientas en la que aparece la orden | No aparece en ninguna barra de herramientas. |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [VELOCIDAD\_SPACEMOUSE\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/velocidad_spacemouse_xyz.md) — factor de velocidad del SpaceMouse en la ventana de dibujo |
 | Órdenes relacionadas | [MOVER\_CAMARA\_FPS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-camara-fps.md) |
