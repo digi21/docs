@@ -16,7 +16,7 @@ Activa o desactiva la visualización de elementos desconocidos.
 | Tipo de orden | [Variable booleana](ver-desconocido.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción del menú_ |
+| Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Visualizar entidades con código desconocido |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |

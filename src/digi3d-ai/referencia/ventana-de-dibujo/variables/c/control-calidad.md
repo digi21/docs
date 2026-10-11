@@ -20,7 +20,7 @@ Por defecto está activada.
 | Tipo de variable                                 | [Booleana](../../../ordenes/variables/variables-booleanas.md)     |
 | ------------------------------------------------ | ----------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                |
-| Opción del menú donde aparece la orden           | Control de calidad/Analizar control de calidad al finalizar entidad |
-| Barra de herramientas en la que aparece la orden | _Esta orden no está asignada a ninguna barra de herramientas._    |
+| Opción del menú donde aparece la orden           | Control de calidad/Analizar control de calidad al digitalizar entidad |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                        |
 | Nombre interno | {09E80E6F-2ED2-4FDA-9DD1-2E3826A3F0C3} |

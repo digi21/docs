@@ -16,7 +16,7 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 | Tipo de orden | [Variable booleana](auto.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Zooms/Activar el autoseguimiento de cámara para sensor fotogramétrico |
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [AUTO_RATON](auto-raton.md) — autocentrado cuando el dispositivo de entrada es el ratón |

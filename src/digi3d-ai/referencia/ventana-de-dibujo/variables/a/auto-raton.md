@@ -22,7 +22,7 @@ A partir de ese momento, la ventana de dibujo va siguiendo al cursor (cuando se 
 | Tipo de variable                                 | [Booleana](../../../ordenes/variables/variables-booleanas.md) |
 | ------------------------------------------------ | ------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                            |
-| Opción del menú donde aparece la orden           | Zooms/Activar el auto seguimiento de cámara para ratón        |
+| Opción del menú donde aparece la orden           | Zooms/Activar el autoseguimiento de cámara para ratón        |
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana                                    |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                    |
 | Variables relacionadas                           | [SOLAPE](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/solape.md)                                      |

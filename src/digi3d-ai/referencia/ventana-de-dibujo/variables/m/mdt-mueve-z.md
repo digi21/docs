@@ -22,8 +22,8 @@ La variable se desactiva cada vez que se abre un archivo de dibujo.
 | Tipo de orden | [Variable booleana](../variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | MDT/Proyectar la coordenada Z al moverse sobre un MDT cargado |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | MDT/Proyectar la coordenada Z al mover sobre un MDT cargado |
+| Barra de herramientas en la que aparece la orden | MDT |
 | Extensión | DigiNG.OrdenesMDT.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {ED25771C-ED54-4357-A7AD-05C976348ABD} |

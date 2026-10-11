@@ -22,7 +22,7 @@ El suavizado usa como separación entre puntos el valor de la variable [INC](/di
 | Tipo de orden | [Variable booleana](s.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Suavizar |
+| Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Suavizarla |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md) |

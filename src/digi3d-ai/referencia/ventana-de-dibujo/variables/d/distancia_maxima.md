@@ -48,8 +48,8 @@ DISTANCIA_MAXIMA=12.5
 | Tipo de variable                                 | [Real](../../../ordenes/variables/variables-reales.md)                        |
 | ------------------------------------------------ | ----------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                            |
-| Opción del menú donde aparece la orden           | Inmediato/Restricciones de polilíneas/Perímetro máximo del siguiente segmento |
-| Barra de herramientas en la que aparece la orden | Parámetros activos                                                            |
+| Opción del menú donde aparece la orden           | Dibujar/Restricciones de polilíneas/Perímetro máximo del siguiente segmento |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                    |
 | Variables relacionadas                           | No tiene variables relacionadas                                               |
 | Nombre interno                                   | {C3276631-6A15-4AFF-B013-924EF597AC44}                                        |
