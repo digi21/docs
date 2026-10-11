@@ -8,4 +8,4 @@ Este cuadro de diálogo abre un modelo fotogramétrico en una ventana fotogramé
 
 ![Cuadro de diálogo Nuevo proyecto con la pestaña Archivo de dibujo](../../../../images/cuadrodialogonuevoproyecto.png)
 
-Digi3D.AI lo muestra al arrancar sin argumentos y con la opción del menú **Archivo/Abrir**.
+Digi3D.AI lo muestra al arrancar sin argumentos y con la opción del menú **Archivo/Nuevo/Abrir modelo fotogramétrico o archivo de dibujo...**.

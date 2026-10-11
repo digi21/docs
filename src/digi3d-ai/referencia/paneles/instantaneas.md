@@ -7,7 +7,7 @@ Este panel muestra la instantánea del punto que se está midiendo: la imagen qu
 
 El zoom de la instantánea es el mismo que el de la ventana fotogramétrica: al cambiar el zoom de la ventana fotogramétrica, cambia también el de la instantánea.
 
-El panel aparece automáticamente en la ventana fotogramétrica al ejecutar la orden [AEROTRI](../ventana-fotogrametrica/ordenes/a/aerotri.md) (opción **Medida de aerotriangulación** del menú **Orientaciones**) y se cierra al terminarla. No se puede abrir desde ningún otro sitio.
+El panel aparece automáticamente en la ventana fotogramétrica al ejecutar la orden [AEROTRI](../ventana-fotogrametrica/ordenes/a/aerotri.md) (opción **Medida de aerotriangulación** del menú **Ventana fotogramétrica**) y se cierra al terminarla. No se puede abrir desde ningún otro sitio.
 
 ## Barra de herramientas
 

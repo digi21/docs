@@ -15,7 +15,7 @@ Sigue los siguientes pasos para configurar el archivo de esquemas de Von Grouber
 
 1. Ejecuta **Digi3D.AI**.
 2. Cierra el cuadro de diálogo **Nuevo proyecto**.
-3. Ejecuta la opción del menú **Herramientas/Configuración**.
+3. Ejecuta la opción del menú **Herramientas/Configuración...**.
 4. Localiza la sección **Medida de aerotriangulación**.
 5. En el campo **Esquemas** pega la ruta del archivo \(copiándola de la tabla anterior en función del sistema operativo\) o localiza la ruta de tu achivo de esquemas personalizado.
 6. Acepta el cuadro de diálogo **Configuración**.
