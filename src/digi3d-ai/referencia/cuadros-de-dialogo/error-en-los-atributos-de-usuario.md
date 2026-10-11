@@ -9,6 +9,8 @@ Digi3D.AI muestra este cuadro de diálogo cuando no puede guardar en la base de 
 * El esquema de la tabla en la tabla de códigos indica que un campo no admite longitud cero y el atributo está vacío.
 * Un control de calidad que se ejecuta al dibujar rechaza el valor de un atributo.
 
+Si el motor de base de datos acepta los valores de los campos pero rechaza el registro al guardarlo, Digi3D.AI muestra el cuadro de diálogo [Error al almacenar datos en la base de datos](error-al-almacenar-datos-en-la-base-de-datos.md).
+
 ## Campos
 
 * **Cadena de error**: el mensaje que devolvió el motor de base de datos o el control de calidad.
