@@ -10,3 +10,12 @@ El archivo XML de cámaras de PhotoScan indica el sistema de referencia de coord
 Si el nodo `<reference>` indica un sistema que Digi3D.AI no reconoce, el bloque está georreferenciado: Digi3D.AI transforma las coordenadas del bloque al sistema del `.prj` o al seleccionado en el cuadro, igual que con un sistema reconocido.
 
 Sin nodo `<reference>` o con un sistema local, las coordenadas del modelo son las que resultan de aplicar la transformación del bloque (nodo `<transform>`) a las coordenadas internas de PhotoScan, sin transformación entre sistemas de referencia. El sistema seleccionado solo indica en qué sistema están esas coordenadas, así que debe ser el sistema de las coordenadas de referencia (puntos de apoyo o posiciones de las cámaras) del proyecto de PhotoScan.
+
+## Componentes de Metashape
+
+Metashape 2 divide el bloque en componentes cuando la orientación no puede enlazar todas las fotografías entre sí. Cada componente tiene su propia transformación (nodo `<transform>` del componente) y cada fotografía indica a qué componente pertenece. Digi3D.AI aplica a cada fotografía la transformación de su componente, así que las fotografías de todos los componentes quedan en el mismo sistema de referencia de coordenadas.
+
+Dos fotografías de componentes distintos no forman un modelo, porque Metashape no las ha orientado juntas:
+
+- Si seleccionas como fotografía izquierda y derecha dos fotografías de componentes distintos, Digi3D.AI muestra un mensaje de error y no carga el modelo.
+- Cuando Digi3D.AI crea automáticamente los modelos de cada pasada, no crea el modelo entre dos fotografías consecutivas que pertenecen a componentes distintos.
