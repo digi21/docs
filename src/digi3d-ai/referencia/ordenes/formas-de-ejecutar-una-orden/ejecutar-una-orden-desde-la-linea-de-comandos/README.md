@@ -15,7 +15,12 @@ Se pueden ejecutar tres tipos de órdenes:
 
 ## Histórico de órdenes
 
-Al abrirse, el campo muestra la última orden ejecutada. Pulsa **Flecha arriba** y **Flecha abajo** para recorrer las órdenes ejecutadas anteriormente; al pasar de la más antigua se vuelve a la más reciente, y al revés.
+El campo se abre vacío. Las flechas recorren las órdenes ejecutadas anteriormente:
+
+* **Flecha arriba** muestra la orden más reciente y, en cada pulsación siguiente, la anterior. Al llegar a la más antigua, el campo la sigue mostrando.
+* **Flecha abajo** muestra la orden siguiente, más reciente. Al pasar de la más reciente, el campo recupera el texto que contenía antes de la primera pulsación de **Flecha arriba**.
+
+Las flechas recorren el histórico completo aunque el campo contenga texto: no buscan solo las órdenes que empiezan por ese texto. Para repetir la última orden, pulsa **Flecha arriba** y después **Intro**.
 
 Digi3D.AI guarda el histórico en el archivo `%APPDATA%\Digi3D\HistoricoOrdenes.txt` cada vez que ejecutas una orden, así que se conserva al cerrar el programa. El archivo contiene las 1000 órdenes más recientes, una por línea. Una orden igual a la anterior no se vuelve a guardar.
 
