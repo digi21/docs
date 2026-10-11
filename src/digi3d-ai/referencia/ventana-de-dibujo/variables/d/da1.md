@@ -36,8 +36,8 @@ DA1=12.45
 | Tipo de variable | [Real](../../../ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
-| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Opción del menú donde aparece la orden | Inmediato/Distancia activa (con dos puntos) |
+| Barra de herramientas en la que aparece la orden | Parámetros activos |
 | Extensión | DigiNG.OrdenesStandard.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {5F10DD07-28E7-4195-B0BE-EC2519D71225} |
