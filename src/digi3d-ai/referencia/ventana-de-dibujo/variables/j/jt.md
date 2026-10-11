@@ -31,7 +31,7 @@ El desplegable muestra la justificación activa al abrir el cuadro. **Aceptar** 
 
 Las órdenes que crean textos, como [TEXTO](../../ordenes/t/texto.md), [TEXTO\_R](../../ordenes/t/texto-r.md), [1TEXTO](../../ordenes/1/1-texto.md), [COTA](../../ordenes/c/cota.md), [AREA](../../ordenes/a/area.md), [ROTULA\_CURVAS](../../ordenes/r/rotula-curvas.md), [ROTULA\_Z](../../ordenes/r/rotula-z.md), [CARGA\_T](../../ordenes/c/carga-t.md) o [CARGA\_P](../../ordenes/c/carga-p.md), asignan esta justificación a los textos nuevos. [CAMB\_JT](../../ordenes/c/camb-jt.md) y [CAMB\_JT2](../../ordenes/c/camb-jt2.md) la asignan a textos existentes.
 
-Si [FORZAR\_JT\_ACTIVA](../f/forzar-jt-activa.md) está activada, las órdenes que copian o duplican textos, como [COPIAR](../../ordenes/c/copiar.md), [COPIA\_2P](../../ordenes/c/copia-2p.md) o [COPIA\_R](../../ordenes/c/copia-r.md), almacenan los textos con esta justificación en vez de con la original.
+Si [FORZAR\_JT\_ACTIVA](../f/forzar-jt-activa.md) está activada, las órdenes que copian o duplican textos, como [COPIAR](../../ordenes/c/copiar.md), [COPIA2P](../../ordenes/c/copia-2p.md) o [COPIA\_R](../../ordenes/c/copia-r.md), almacenan los textos con esta justificación en vez de con la original.
 
 [CLONAR](../../ordenes/c/clonar.md) aplicada sobre un texto establece como justificación activa la de ese texto.
 
