@@ -23,7 +23,7 @@ Si la entrada de coordenadas se realiza desde el restituidor, el valor de Z es t
 
 Si ejecutas la orden sin parámetros, la barra de estado muestra un cuadro de texto para escribir el valor.
 
-Al asignar la Z, la orden activa la variable [FIJA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md), mueve el cursor a la Z indicada y bloquea la coordenada Z.
+Al asignar la Z, la orden activa la variable [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md), mueve el cursor a la Z indicada y bloquea la coordenada Z.
 
 ## Características de la orden
 
@@ -33,5 +33,5 @@ Al asignar la Z, la orden activa la variable [FIJA\_Z](/digi3d-ai/referencia/ven
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Establecer la coordenada Z activa |
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
-| Variables relacionadas | [FIJA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) |
+| Variables relacionadas | [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) |
 | Nombre interno | {01BEC16F-3059-4103-934D-835BBBD4887B} |

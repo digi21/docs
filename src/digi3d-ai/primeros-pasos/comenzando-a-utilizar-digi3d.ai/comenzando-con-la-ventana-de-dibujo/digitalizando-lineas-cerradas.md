@@ -10,7 +10,7 @@ Para digitalizar líneas cerradas, sigue los siguientes pasos:
 También puedes cerrar entidades lineales, siguiendo los siguientes pasos:
 
 1. Visualiza la [Barra de herramientas Acción al finalizar línea](/digi3d-ai/referencia/barras-de-herramientas/accion-al-finalizar-la-linea.md), si no está activa, aprende a activarla pulsando [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md).
-2. **Selecciona** el primer botón de la [Barra de herramientas Acción al finalizar línea](/digi3d-ai/referencia/barras-de-herramientas/accion-al-finalizar-la-linea.md), así activarás la variable [C](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/), que indica a **Digi3D.AI** que cuando digitalices una línea, ésta se cierre de manera automática.
+2. **Selecciona** el primer botón de la [Barra de herramientas Acción al finalizar línea](/digi3d-ai/referencia/barras-de-herramientas/accion-al-finalizar-la-linea.md), así activarás la variable [C](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/c.md), que indica a **Digi3D.AI** que cuando digitalices una línea, ésta se cierre de manera automática.
 3. **Dibuja** una polilínea haciendo **clic** sobre la ventana de dibujo con el [botón de dato](digitalizando-lineas-cerradas.md) del ratón, al finalizarla pulsando el [botón de cancelar](digitalizando-lineas-cerradas.md) del ratón, ésta se cerrará automáticamente, independientemente del número de vértices que tenga la polilínea.
 
 ## Vídeo
