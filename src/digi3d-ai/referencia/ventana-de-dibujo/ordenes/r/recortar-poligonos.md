@@ -24,7 +24,7 @@ Analiza las intersecciones de la línea seleccionada con los polígonos visibles
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polígonos/Recortar polígonos |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
-| Extensión | DigiNG.OrdenesStandard.dll |
+| Extensión | DigiNG.Commands.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CORTAR\_POLÍGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-poligono.md)<br>[RECORTAR\_POLÍGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recortar-poligono.md) |
 | Código fuente | [DigiNG.Commands](https://github.com/digi21/DigiNG.Commands) |
