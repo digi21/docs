@@ -16,7 +16,8 @@ Esta orden no admite parámetros.
 | Tipo de orden | Conmutador |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Bloquear Z |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Extensión | Digi3D.CommonCommands.dll |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |

@@ -21,7 +21,7 @@ Con la sincronización activada, las coordenadas de los índices se sincronizan 
 | Tipo de orden | Orden inmediata |
 | :--- | :--- |
 | Repite automáticamente | No |
-| Opción del menú donde aparece la orden | Ventana fotogramétrica/Múltiples vistas/Sincronizar Vistas |
+| Opción del menú donde aparece la orden | Ventana fotogramétrica/Múltiples vistas/Sincronizar vistas |
 | Barra de herramientas en la que aparece la orden | Sincronización de vistas |
 | Extensión | Digi3D.CommonCommands.dll |
 | Variables relacionadas | No tiene variables relacionadas |
