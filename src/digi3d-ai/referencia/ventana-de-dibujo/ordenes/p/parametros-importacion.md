@@ -40,7 +40,7 @@ Una vez ejecutada la orden PARAMETROS\_IMPORTACIÓN, el usuario puede ejecutar l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](parametros-importacion.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

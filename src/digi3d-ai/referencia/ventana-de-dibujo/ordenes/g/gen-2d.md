@@ -39,7 +39,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](gen-2d.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

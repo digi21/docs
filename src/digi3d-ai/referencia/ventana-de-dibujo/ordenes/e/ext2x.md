@@ -28,7 +28,7 @@ Si el control de calidad descarta cualquiera de las dos líneas prolongadas, se 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ext2x.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Extender dos líneas existentes hasta su intersección |

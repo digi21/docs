@@ -19,7 +19,7 @@ El texto tiene la altura, la justificación y la rotación de [AT](/digi3d-ai/re
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](rotula-z.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Rotular Z de puntos por código... |

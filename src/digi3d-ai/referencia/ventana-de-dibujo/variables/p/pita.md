@@ -17,7 +17,7 @@ La variable se activa cada vez que se abre un archivo de dibujo.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](pita.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -33,7 +33,7 @@ En el modo Corte, si el control de calidad descarta alguno de los trozos conserv
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](borra-cod-v.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Más/Cortar por polígono y código... |

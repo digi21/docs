@@ -21,7 +21,7 @@ Muestra el valor actual de la escala de dibujo
 
 ## Características de la orden
 
-| Tipo de orden | [Variable real](escala-dibujo.md) |
+| Tipo de orden | [Variable real](/digi3d-ai/referencia/ordenes/variables/variables-reales.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

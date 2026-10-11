@@ -18,7 +18,7 @@ La orden muestra un aviso y termina si se indican menos de dos parámetros, si n
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](triangular-puntos-topologia-excepto.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -17,7 +17,7 @@ Si Digi3D.AI descarta alguna de las entidades resultantes, la orden no explota e
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](explotar-complejo.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Complejos/Descomponer un elemento complejo |

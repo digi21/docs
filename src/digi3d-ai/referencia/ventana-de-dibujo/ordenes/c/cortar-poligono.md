@@ -28,7 +28,7 @@ Los polígonos generados tendrán el mismo código que el polígono original. En
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cortar-poligono.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polígonos/Cortar polígono |

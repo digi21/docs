@@ -23,7 +23,7 @@ Puedes ejecutar la orden desde la línea de comandos con la siguiente secuencia:
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](saca-p.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

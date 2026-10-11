@@ -13,7 +13,7 @@ Solo admite líneas; si se selecciona otro tipo de entidad, la orden emite un so
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mide-perimetro-linea-xyz.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Mide perímetro de línea |

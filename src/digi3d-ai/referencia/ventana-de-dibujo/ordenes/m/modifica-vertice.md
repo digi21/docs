@@ -13,7 +13,7 @@ Al seleccionar la entidad, el vértice seleccionado queda enganchado al cursor y
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](modifica-vertice.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Mover un vértice de una polilínea |

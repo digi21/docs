@@ -19,7 +19,7 @@ La orden pregunta qué entidades se borran antes de añadir el polígono. Si el 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](crear-poligono.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Polígono a partir de polilíneas existentes |

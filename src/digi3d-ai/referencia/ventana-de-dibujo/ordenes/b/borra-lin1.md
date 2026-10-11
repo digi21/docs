@@ -28,7 +28,7 @@ Borrará aquellas líneas cuya longitud sea inferior a 0.01
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](borra-lin1.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

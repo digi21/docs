@@ -20,7 +20,7 @@ Esta orden abre la ventana acoplable **Salida** y escribe en ella el sistema de 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](bininfo.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Información del archivo |

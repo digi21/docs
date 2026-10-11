@@ -13,7 +13,7 @@ Si está activa, el tentativo también busca textos además del resto de entidad
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](tentativo-textos.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Tentativar textos |

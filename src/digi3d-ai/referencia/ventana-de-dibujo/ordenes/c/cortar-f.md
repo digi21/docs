@@ -27,7 +27,7 @@ Si activas la opción Invertir selección, el nuevo fichero se genera con las en
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cortar-f.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Cortar fichero... |

@@ -15,7 +15,7 @@ La orden ejecuta la orden indicada en el parámetro. Si esa orden espera la sele
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](ejecuta-orden-pasandole-ultima-geometria.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

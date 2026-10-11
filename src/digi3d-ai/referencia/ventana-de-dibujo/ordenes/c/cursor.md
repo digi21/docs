@@ -23,7 +23,7 @@ Si se teclea la orden CURSOR sin parámetros, el tamaño cambia sucesivamente en
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](cursor.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Cambiar el tamaño del cursor |

@@ -19,7 +19,7 @@ El resultado final es que la imagen se orienta formando el rectángulo que solap
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ins-foto-3p.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Imagen/Mediante tres puntos... |

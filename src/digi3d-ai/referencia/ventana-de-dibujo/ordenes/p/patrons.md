@@ -11,7 +11,7 @@ Activa/desactiva la visualización de los patrones de línea en la pantalla de v
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](patrons.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Activar patrón en la vista fotogramétrica |

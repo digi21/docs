@@ -21,7 +21,7 @@ La orden pide primero el archivo de imagen. Después requiere la entrada de las 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ins-foto-2p-aa.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Imagen/Mediante dos puntos y ángulo activo... |

@@ -15,7 +15,7 @@ El efecto visual sería equiparable al de una matriz de cuadrados o rectángulos
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cuadros.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Rejilla con 3 puntos |

@@ -26,7 +26,7 @@ Si los tres puntos están alineados no definen un plano: la orden avisa y espera
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cir3d.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Extensión | DigiNG.OrdenesStandard.dll |

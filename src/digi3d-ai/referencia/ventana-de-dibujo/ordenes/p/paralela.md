@@ -24,7 +24,7 @@ La paralela conserva la Z de la línea original. Las paralelas se generan con el
 ## Características de la orden
 
 
-| Tipo de orden | [Orden interactiva](paralela.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela clásica (selección/distancia/lado) |

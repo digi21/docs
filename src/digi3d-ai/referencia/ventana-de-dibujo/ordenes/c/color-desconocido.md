@@ -17,7 +17,7 @@ Si no se indica ningún parámetro, se muestra el cuadro de diálogo [Selecciona
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](color-desconocido.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Color desconocido... |

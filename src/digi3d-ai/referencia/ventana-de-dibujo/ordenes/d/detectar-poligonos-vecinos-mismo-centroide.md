@@ -17,7 +17,7 @@ Dos polígonos válidos de la topología se consideran vecinos cuando comparten 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-poligonos-vecinos-mismo-centroide.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Detectar recintos topológicos vecinos con el mismo centroide/Todas las topologías<br>Topología/Detectar recintos topológicos vecinos con el mismo centroide/\(una opción por topología cargada\) |

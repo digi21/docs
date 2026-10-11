@@ -15,7 +15,7 @@ La orden pedirá la digitalización del punto de inserción y a continuación un
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](punto-r.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Punto rotado |

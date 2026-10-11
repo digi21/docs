@@ -13,7 +13,7 @@ La orden muestra un cuadro de diálogo para seleccionar el fichero de puntos. Si
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](fichero-p.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

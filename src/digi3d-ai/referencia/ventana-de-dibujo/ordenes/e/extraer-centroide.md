@@ -15,7 +15,7 @@ El centroide es un texto situado en un punto interior de la entidad, con los có
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](extraer-centroide.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Centroides/De entidad seleccionada |

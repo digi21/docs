@@ -17,7 +17,7 @@ Si el control de calidad descarta el complejo de un código, se conservan las en
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](crear-complejos-cod.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

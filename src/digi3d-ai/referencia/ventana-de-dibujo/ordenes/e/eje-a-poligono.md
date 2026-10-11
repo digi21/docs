@@ -20,7 +20,7 @@ El polígono rodea la línea a la misma distancia por los dos lados. Si la líne
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](eje-a-poligono.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Más/Eje a polígono |

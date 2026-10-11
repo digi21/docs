@@ -16,7 +16,7 @@ Inserta el contenido de un archivo de dibujo como un único elemento complejo pu
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ins-complejo.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

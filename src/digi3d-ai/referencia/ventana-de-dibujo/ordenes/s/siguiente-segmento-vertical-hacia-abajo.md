@@ -20,7 +20,7 @@ Compárala con [SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ARRIBA](/digi3d-ai/referen
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](siguiente-segmento-vertical-hacia-abajo.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

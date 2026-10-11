@@ -13,7 +13,7 @@ Cuando se realiza una regeneración, al igual que cuando se redibuja la pantalla
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](regenera.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Regenerar |

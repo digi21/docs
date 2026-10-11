@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](anula-repite-comando-activo.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Anular repetición en orden activa |

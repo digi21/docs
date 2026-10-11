@@ -13,7 +13,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no parte ninguna lí
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](partir-lineas-visibles.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Partir líneas por el punto de cruce/Líneas visibles |

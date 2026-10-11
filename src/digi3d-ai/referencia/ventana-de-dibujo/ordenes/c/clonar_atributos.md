@@ -13,7 +13,7 @@ La orden solicita que se seleccione una geometría. Una vez seleccionada sustitu
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](clonar_atributos.md)                                     |
+| Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                     |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | Inmediato/Más/Clonar los atributos de una entidad                            |

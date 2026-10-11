@@ -19,7 +19,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](camb_atributos.md)                                                                                                                              |
+| Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                                                                                                              |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Repite automáticamente                           | Si                                                                                                                                                              |
 | Opción del menú donde aparece la orden           | Editar/Cambiar los atributos de una entidad por los activos                                                                                                     |

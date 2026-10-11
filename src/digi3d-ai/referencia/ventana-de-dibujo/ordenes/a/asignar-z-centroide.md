@@ -19,7 +19,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una línea m
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](asignar-z-centroide.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Asignar la Z del centroide a las líneas que forman el polígono/Todas las topologías |

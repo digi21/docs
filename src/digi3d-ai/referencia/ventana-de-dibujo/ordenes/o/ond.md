@@ -33,7 +33,7 @@ Para activar solo algunos tipos de geometría de un código, ejecuta [OND\_TIPO]
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](ond.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Todos los códigos |

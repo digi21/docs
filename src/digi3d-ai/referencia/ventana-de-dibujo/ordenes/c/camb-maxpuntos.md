@@ -29,7 +29,7 @@ Si el control de calidad descarta cualquiera de los tramos nuevos, se conserva l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](camb-maxpuntos.md) sin parámetros; [orden inmediata](camb-maxpuntos.md) con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](camb-maxpuntos.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -18,7 +18,7 @@ Inserta un bloque en 3D a partir de tres puntos: el primero fija la posición, e
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ins-3d.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

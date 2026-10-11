@@ -15,7 +15,7 @@ Una vez que el límite ha sido establecido, el sistema avisa con una señal acú
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](limite-1.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -18,7 +18,7 @@ Pulsa el botón de reset para deseleccionar el recinto y Esc para cancelar la or
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](buscar-centroide-i.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Buscar centroide |

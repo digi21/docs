@@ -33,7 +33,7 @@ También es posible ejecutar la orden especificando el código desde la línea d
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](borra-cod-r.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Eliminar código... |

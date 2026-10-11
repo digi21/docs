@@ -15,7 +15,7 @@ Al añadir cada código, la orden ejecuta las órdenes que la tabla de códigos 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](cod-mas.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Más/Añadir códigos activos... |

@@ -15,7 +15,7 @@ Después de descargarla, las órdenes de inundación muestran el aviso «No hay 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](descargar-topologia-inundacion.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Descargar topología para inundaciones |

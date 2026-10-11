@@ -15,7 +15,7 @@ La orden solo funciona mientras dibujas una línea con la orden [LINEA](/digi3d-
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](arco-tangente.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Arco tangente |

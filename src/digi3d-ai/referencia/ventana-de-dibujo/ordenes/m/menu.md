@@ -15,7 +15,7 @@ La orden muestra el menú como un menú contextual de 25 opciones. Si no hay men
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](menu.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ventana/Otras ventanas/Menú |

@@ -55,7 +55,7 @@ Cuando la topología se forma, la orden no dibuja nada ni muestra ningún mensaj
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](generar-topologia-inundacion-sin-islas.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Generar topología para inundaciones (sin huecos) |

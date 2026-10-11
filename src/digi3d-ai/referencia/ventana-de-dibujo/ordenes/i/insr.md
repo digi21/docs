@@ -17,7 +17,7 @@ El fichero, sea del tipo que sea, se insertará con un factor de escala igual al
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](insr.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Insertar un bloque con dos puntos... |

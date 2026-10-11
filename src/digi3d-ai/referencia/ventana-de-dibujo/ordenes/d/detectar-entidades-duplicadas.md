@@ -17,7 +17,7 @@ Si no indicas ningún código, la orden espera a que selecciones un conjunto de 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-entidades-duplicadas.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

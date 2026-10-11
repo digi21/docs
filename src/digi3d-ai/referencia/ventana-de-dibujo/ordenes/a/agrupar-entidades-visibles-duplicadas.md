@@ -17,7 +17,7 @@ Si el control de calidad descarta la entidad agrupada de un grupo de duplicadas,
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](agrupar-entidades-visibles-duplicadas.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Agrupar entidades duplicadas/Entidades visibles |

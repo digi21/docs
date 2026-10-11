@@ -19,7 +19,7 @@ El suavizado usa como separación entre puntos el valor de la variable [INC](/di
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](s.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Suavizarla |

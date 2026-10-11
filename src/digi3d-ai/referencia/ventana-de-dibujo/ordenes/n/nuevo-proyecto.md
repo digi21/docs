@@ -14,7 +14,7 @@ No puedes abrir dos archivos de dibujo simultáneamente.
 ## Características de la orden
 
 
-| Tipo de orden | [Orden inmediata](nuevo-proyecto.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Nuevo/Abrir modelo fotogramétrico o archivo de dibujo... |

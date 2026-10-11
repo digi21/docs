@@ -17,7 +17,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos de una entidad, la orden no la
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](trim-m.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Recortar múltiples líneas en el cruce con otra línea |

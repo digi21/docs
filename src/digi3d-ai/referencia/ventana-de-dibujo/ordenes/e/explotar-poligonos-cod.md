@@ -17,7 +17,7 @@ Si Digi3D.AI descarta alguna de las entidades resultantes, la orden no explota n
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](explotar-poligonos-cod.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Editar/Polígonos/Descomponer polígono por código... |

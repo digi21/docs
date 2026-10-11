@@ -20,7 +20,7 @@ Los dos textos tienen la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](poner-xy.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Acotar/Texto con coordenadas X e Y de un punto |

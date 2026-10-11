@@ -19,7 +19,7 @@ Si el control de calidad descarta la geometría reescrita, la geometría origina
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](reescribe.md)                                            |
+| Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                            |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | Si                                                                           |
 | Opción del menú donde aparece la orden           | Editar/Reescribe geometrías seleccionadas                                    |

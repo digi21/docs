@@ -13,7 +13,7 @@ Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no aplica el cambio
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](insertar-vertice-interseccion-lineas-visibles.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Insertar un vértice en el punto de cruce de las líneas/Líneas visibles |

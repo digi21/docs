@@ -17,7 +17,7 @@ Esta orden está asignada por defecto a uno de los pedales y al botón derecho d
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](fin-ent.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Finalizar la línea que estás dibujando |

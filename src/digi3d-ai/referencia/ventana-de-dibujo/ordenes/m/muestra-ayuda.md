@@ -11,7 +11,7 @@ Muestra un documento HTML en el panel de ayuda del programa.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](muestra-ayuda.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -17,7 +17,7 @@ Importa uno o varios archivos en el archivo de dibujo y une los polígonos impor
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](importar-uniendo-poligonos.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Importar uniendo polígonos... |

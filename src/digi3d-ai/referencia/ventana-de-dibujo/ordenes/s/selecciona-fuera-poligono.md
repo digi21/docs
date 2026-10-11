@@ -15,7 +15,7 @@ Digitaliza los vértices del polígono con el pulsador de datos y ciérralo con 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-fuera-poligono.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar entidades fuera de polígono |

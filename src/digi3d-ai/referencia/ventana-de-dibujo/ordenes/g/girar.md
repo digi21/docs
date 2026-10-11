@@ -25,7 +25,7 @@ Sin parámetros, la orden no hace nada. Con dos a cinco parámetros, la orden mu
 ## Características de la orden
 
 
-| Tipo de orden | [Orden inmediata](girar.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden |Zooms/Rotación de la cámara/0 grados<br>Zooms/Rotación de la cámara/90 grados<br>Zooms/Rotación de la cámara/180 grados<br>Zooms/Rotación de la cámara/270 grados|

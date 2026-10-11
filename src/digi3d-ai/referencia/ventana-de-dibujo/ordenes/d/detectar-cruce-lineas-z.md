@@ -38,7 +38,7 @@ Escribe los decimales de la tolerancia con punto: con coma, la orden ignora la p
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](detectar-cruce-lineas-z.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar cruces entre líneas si se supera tolerancia en Z/Líneas visibles |

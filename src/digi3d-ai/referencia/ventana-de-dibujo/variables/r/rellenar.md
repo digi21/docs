@@ -19,7 +19,7 @@ La variable es propia de cada ventana de dibujo. Al cambiar su valor, la ventana
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](rellenar.md) |
+| Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Rellenar polígonos |

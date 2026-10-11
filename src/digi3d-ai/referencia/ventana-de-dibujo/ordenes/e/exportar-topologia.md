@@ -17,7 +17,7 @@ La orden exporta, de cada topología marcada, los recintos válidos que tienen c
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](exportar-topologia.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Exportar topologías cargadas como polígonos a archivo/Seleccionando topologías...<br>Topología/Exportar topologías cargadas como polígonos a archivo/Todas las topologías...<br>Topología/Exportar topologías cargadas como polígonos a archivo/\(una opción por topología cargada\) |

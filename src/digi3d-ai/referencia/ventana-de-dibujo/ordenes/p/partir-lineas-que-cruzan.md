@@ -28,7 +28,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no parte ninguna de 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](partir-lineas-que-cruzan.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Análisis geométricos/Partir líneas por el punto de cruce/Líneas que cruzan la geometría seleccionada |

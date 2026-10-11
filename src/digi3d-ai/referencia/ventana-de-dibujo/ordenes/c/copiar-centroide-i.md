@@ -20,7 +20,7 @@ Si el recinto seleccionado en el paso 1 no tiene centroide, o el del paso 2 ya t
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](copiar-centroide-i.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inundación/Copiar centroide<br>Topología/Copiar centroide |

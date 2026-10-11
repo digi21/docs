@@ -22,7 +22,7 @@ Si el control de calidad descarta la entidad agrupada de un grupo de duplicadas,
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](agrupar-entidades-duplicadas.md) si se pasan parámetros; [orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) si no se pasan |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) si se pasan parámetros; [orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) si no se pasan |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

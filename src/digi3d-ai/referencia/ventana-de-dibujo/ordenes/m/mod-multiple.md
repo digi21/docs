@@ -21,7 +21,7 @@ La orden sigue pidiendo entidades a modificar con el mismo trazado hasta que pul
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](mod-multiple.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XY múltiples polilíneas existentes con la que estás registrando |

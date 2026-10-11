@@ -17,7 +17,7 @@ La orden busca en el archivo de dibujo activo las entidades visibles y dentro de
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](selecciona-cod.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar por código... |

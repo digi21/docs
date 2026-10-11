@@ -17,7 +17,7 @@ DigiNG puede hacer la copia de seguridad automáticamente cada cierto tiempo. Es
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](bak.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Guardar una copia de seguridad |

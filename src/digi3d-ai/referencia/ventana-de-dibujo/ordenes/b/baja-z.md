@@ -17,7 +17,7 @@ La orden resta la equidistancia a la Z actual del cursor; no redondea el resulta
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](baja-z.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Bajar la coordenada Z al múltiplo de equidistancia anterior |

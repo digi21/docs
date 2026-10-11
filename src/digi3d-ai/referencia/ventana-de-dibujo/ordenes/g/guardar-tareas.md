@@ -11,7 +11,7 @@ Guarda en un archivo XML las tareas del panel de tareas.
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden inmediata](guardar-tareas.md)                                         |
+| Tipo de orden                                    | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md)                                         |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Repite automáticamente                           | No                                                                           |
 | Opción del menú donde aparece la orden           | Ventana/Tareas/Guardar archivo de tareas (xml)                               |

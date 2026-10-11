@@ -23,7 +23,7 @@ Cada texto se trata de forma independiente: si Digi3D.AI descarta un texto modif
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](reemplazar-texto.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

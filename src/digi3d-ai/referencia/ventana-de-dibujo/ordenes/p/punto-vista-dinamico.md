@@ -13,7 +13,7 @@ La orden dibuja un círculo en la ventana. Pulsa el botón de datos y, sin solta
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](punto-vista-dinamico.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Punto de vista/Esfera |

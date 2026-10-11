@@ -19,7 +19,7 @@ Detecta polígonos vecinos con centroides distintos entre archivos de dibujo.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](control-topologico-cases.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Control topológico Archivo de dibujo <-> archivos de referencia/Todas las topologías<br>Topología/Control topológico Archivo de dibujo <-> archivos de referencia/\(una opción por topología cargada\)<br>Topología/Control topológico entre todas las topologías cargadas/Todas las topologías<br>Topología/Control topológico entre todas las topologías cargadas/\(una opción por topología cargada\) |

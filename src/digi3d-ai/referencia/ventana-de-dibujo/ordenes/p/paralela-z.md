@@ -15,7 +15,7 @@ Funciona como [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paral
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](paralela-z.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela clásica (selección/distancia/lado) con Z activa |

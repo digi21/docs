@@ -22,7 +22,7 @@ Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repi
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](copia-r.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

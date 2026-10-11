@@ -17,7 +17,7 @@ Los escalones se construyen por interpolación entre los lados ya dibujados.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](escalera-da.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Escalera indicando el tamaño del peldaño |

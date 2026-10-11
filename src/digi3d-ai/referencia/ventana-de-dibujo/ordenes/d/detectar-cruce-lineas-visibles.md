@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-cruce-lineas-visibles.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar cruces entre líneas/Líneas visibles |

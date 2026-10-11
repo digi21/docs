@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](ir-a.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

@@ -13,7 +13,7 @@ No se pueden recuperar entidades que no estén borradas.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](recupera.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Recuperar las entidades seleccionadas |

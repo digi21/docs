@@ -17,7 +17,7 @@ Si el control de calidad descarta la primera línea modificada, se conserva la l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](cruce.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Crear un cruce de caminos |

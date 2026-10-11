@@ -13,7 +13,7 @@ El efecto visual es de aproximación. La orden multiplica el ancho y el alto de 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](zoom-mas.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Zooms/Zoom + |

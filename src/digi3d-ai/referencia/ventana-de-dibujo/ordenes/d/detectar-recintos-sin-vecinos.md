@@ -21,7 +21,7 @@ La orden solo tiene en cuenta los recintos topológicos válidos.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](detectar-recintos-sin-vecinos.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Detectar recintos topológicos sin vecinos... |

@@ -25,7 +25,7 @@ Esta orden solicita puntos hasta que pulses el pedal/botón de finalizar entidad
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](linea.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Polilínea |

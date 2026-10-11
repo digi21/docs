@@ -17,7 +17,7 @@ La distancia es la que hay entre el cursor y el vértice o el tramo más cercano
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](paralela-dinamica.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica en XY |

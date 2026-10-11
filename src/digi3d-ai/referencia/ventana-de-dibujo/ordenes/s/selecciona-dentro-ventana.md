@@ -15,7 +15,7 @@ Digitaliza dos esquinas opuestas de la ventana con el pulsador de datos. La vent
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](selecciona-dentro-ventana.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar ventana por inclusión |

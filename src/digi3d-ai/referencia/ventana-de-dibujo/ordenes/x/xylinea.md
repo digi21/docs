@@ -16,7 +16,7 @@ Selecciona la línea o el polígono de origen con el pulsador de datos o con el 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](xylinea.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

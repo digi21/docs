@@ -27,7 +27,7 @@ Los ficheros de referencia se usan en modo lectura, pudiéndose ejecutar sobre e
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](carga-f.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Archivo/Cargar archivo de referencia... |

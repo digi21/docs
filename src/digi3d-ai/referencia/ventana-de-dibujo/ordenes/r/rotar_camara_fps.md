@@ -19,7 +19,7 @@ Con el parámetro 1, la orden envía la posición y la orientación de la cámar
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](rotar_camara_fps.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

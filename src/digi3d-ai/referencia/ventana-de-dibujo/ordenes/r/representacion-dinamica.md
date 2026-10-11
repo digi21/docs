@@ -15,7 +15,7 @@ Si no indicas el parámetro, la orden desactiva la representación dinámica. Si
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](representacion-dinamica.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Representaciones dinámicas/Sin representación dinámica |
