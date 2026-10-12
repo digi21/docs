@@ -87,7 +87,8 @@ iguales; `-3.70123456` se releería como `-3.70123`.
 
 ## Véase también
 
-- [Referencia: digi21.io.kml](../../referencia/digi21.io/README.md#digi21iokml)
-- [Referencia: digi21.io.geojson](../../referencia/digi21.io/README.md#digi21iogeojson)
+- [Referencia: digi21.io.kml](../../referencia/digi21.io/kml.md) — incluye cómo conservar el código de
+  cada geometría con una tabla de códigos.
+- [Referencia: digi21.io.geojson](../../referencia/digi21.io/geojson.md)
 - [Formato KML](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/kml.md)
 - [Formato GeoJSON](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/geojson.md)

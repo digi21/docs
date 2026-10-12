@@ -7,12 +7,16 @@ formato, todos con la misma interfaz: una función `open` que devuelve un objeto
 
 | Módulo | Formato |
 |---|---|
-| `digi21.io.bindouble` | BinDouble (`.bind`) |
-| `digi21.io.bin` | Bin (`.bin`) |
-| `digi21.io.asciidigi` | ASCII Digi (`.asc`) |
-| `digi21.io.dgn` | MicroStation DGN (`.dgn`) |
-| `digi21.io.dwg` | AutoCAD DWG (`.dwg`) |
-| `digi21.io.dxf` | AutoCAD DXF (`.dxf`) |
+| [`digi21.io.bindouble`](../../referencia/digi21.io/bindouble.md) | BinDouble (`.bind`) |
+| [`digi21.io.bin`](../../referencia/digi21.io/bin.md) | Bin (`.bin`) |
+| [`digi21.io.asciidigi`](../../referencia/digi21.io/asciidigi.md) | ASCII Digi (`.asc`) |
+| [`digi21.io.dgn`](../../referencia/digi21.io/dgn.md) | MicroStation DGN (`.dgn`) |
+| [`digi21.io.dwg`](../../referencia/digi21.io/dwg.md) | AutoCAD DWG (`.dwg`) |
+| [`digi21.io.dxf`](../../referencia/digi21.io/dxf.md) | AutoCAD DXF (`.dxf`) |
+
+Este tema usa estos seis módulos. Los demás formatos (GeoJSON, KML, SVG, WKT, GeoPackage, SHP,
+GeoMedia, PostGIS, IFC y VEC) se leen igual; la página de cada módulo, en el índice de
+[digi21.io](../../referencia/digi21.io/README.md), tiene un ejemplo de lectura.
 
 ## Abrir y recorrer
 
