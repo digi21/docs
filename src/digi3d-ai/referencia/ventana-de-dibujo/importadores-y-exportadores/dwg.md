@@ -32,10 +32,10 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 | :--- | :--- | :--- |
 | Archivo de plantilla | Archivo `.dwg`. Opcional. | Archivo que se usa como base al crear un archivo nuevo. Sin plantilla, el archivo nuevo se crea con las capas y los bloques de la tabla de códigos. |
 | Versión | AutoCAD 11/12, 13, 14, 2000, 2004, 2007, 2010 o 2013. Por defecto, AutoCAD 2000. | Versión con la que se escribe el archivo. |
-| Importar bloques como | Punto o elemento complejo puntual. Por defecto, Punto. | Con **Punto**, cada referencia de bloque se lee como un punto con su posición, su giro y su escala. Con **Elemento complejo puntual**, la versión actual no importa las referencias de bloque. |
+| Importar bloques como | Punto o elemento complejo puntual. Por defecto, Punto. | Con **Punto**, cada referencia de bloque se lee como un punto con su posición, su giro y su escala. Con **Elemento complejo puntual**, cada referencia de bloque se lee como un elemento complejo puntual que contiene las entidades del bloque. Las tablas y las referencias múltiples (MINSERT) no se leen como elemento complejo. |
 | Importar bloques | Sí o No. Por defecto, No. | Al abrir un archivo existente, crea un archivo `.bin` por cada bloque en la carpeta de **Ruta de importación**. |
 | Ruta de importación | Carpeta. | Carpeta donde se crean los archivos `.bin` de los bloques. |
-| Importar paleta | Sí o No. Por defecto, No. | Al abrir un archivo existente, importa su paleta de colores. |
+| Importar paleta | Sí o No. Por defecto, No. | Al abrir un archivo existente, sustituye la paleta de la tabla de códigos por la paleta estándar de 256 colores de AutoCAD. No lee la paleta del archivo. |
 | Utilizar colores archivo dibujo | Sí o No. Por defecto, No. | Con **Sí**, las entidades con color propio en el archivo conservan ese color. Con **No**, toman el color de su capa. |
 
 Los archivos `.dxf` muestran las mismas propiedades y una más:
@@ -44,7 +44,34 @@ Los archivos `.dxf` muestran las mismas propiedades y una más:
 | :--- | :--- | :--- |
 | Tipo de archivo | Ascii o Binario. Por defecto, Ascii. | Formato con el que se escribe el archivo `.dxf`. |
 
-En la versión actual, las demás propiedades de un archivo `.dxf` toman el valor de las de `.dwg`, y los cambios que se hagan en ellas no se guardan.
+Las propiedades de los archivos `.dxf` se guardan aparte de las de `.dwg`. Si una propiedad nunca se ha guardado para `.dxf`, su valor inicial es el de `.dwg`.
+
+Los archivos `.dxf` se pueden importar y exportar, pero no se pueden abrir en una ventana de dibujo.
+
+### Parámetros de línea de comandos de los archivos DXF
+
+La orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md) con la extensión `.dxf` recibe parámetros distintos de los de `.dwg`:
+
+```
+PARAMETROS_IMPORTACION=.dxf <Version> <Binario> <ImportarBloquesComoPuntualDigi> <UtilizarColoresArchivoDibujo>
+```
+
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Versión de AutoCAD (0 = AutoCAD 11/12 … 7 = AutoCAD 2013) | No |
+| 2 | Tipo de archivo (0 = Ascii, 1 = Binario) | No |
+| 3 | Importar bloques como punto (0/1) | No |
+| 4 | Utilizar los colores del archivo de dibujo (0/1) | No |
+
+En los parámetros de `.dwg`, la versión es también el índice de la lista (0 = AutoCAD 11/12 … 7 = AutoCAD 2013). Un parámetro de `.dwg` que se omite toma el valor 0 o vacío, no el valor guardado.
+
+### Sistema de referencia de coordenadas
+
+El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que el archivo de dibujo. Si ese archivo no existe (por ejemplo, al crear un archivo nuevo), Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido. Si el archivo se abre en solo lectura o se importa, no se crea el `.prj` y el sistema elegido solo se usa durante la sesión. Consulta [Ubicación del sistema de referencia de coordenadas](../../../sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/archivos-de-dibujo/ubicacion-src-archivos-dibujo.md).
+
+### Opciones de la configuración
+
+El cuadro de diálogo Configuración tiene más opciones de este formato en [Importador/exportador de archivos DWG](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-dwg/README.md).
 
 ## Características del importador/exportador
 
