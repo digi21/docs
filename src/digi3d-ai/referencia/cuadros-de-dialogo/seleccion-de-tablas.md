@@ -3,7 +3,7 @@
 
 ![Cuadro de diálogo Selección de tablas](../../../images/seleccion-de-tablas.png)
 
-Digi3D.AI muestra este cuadro de diálogo al abrir un archivo o una base de datos con varias capas o tablas de geometrías, si está activada la opción de preguntar por las capas a cargar de ese formato. Por ejemplo, la opción [Preguntar por capas al cargar](configuracion/geopackage/preguntar-por-capas-al-cargar.md) de GeoPackage.
+Digi3D.AI muestra este cuadro de diálogo al abrir un archivo o una base de datos con capas o tablas de geometrías, aunque solo tenga una, si está activada la opción de preguntar por las capas a cargar de ese formato. Por ejemplo, la opción [Preguntar por capas al cargar](configuracion/geopackage/preguntar-por-capas-al-cargar.md) de GeoPackage.
 
 ## Campos
 
