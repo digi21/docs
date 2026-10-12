@@ -88,7 +88,8 @@ Página del formato: [ASCII de Digi](/digi3d-ai/referencia/ventana-de-dibujo/imp
 | `decimals` | `int` | `3` | Número de decimales de cada coordenada. |
 
 > El exportador de ASCII de Digi escribe los polígonos sin vértices, y al leer el archivo la
-> entidad anterior gana un vértice erróneo. No escribas polígonos en este formato. El sistema de
+> entidad anterior gana un vértice erróneo. No escribas polígonos en este formato. Los elementos
+> complejos se escriben, pero al leer el archivo no aparecen. El sistema de
 > coordenadas se guarda en un archivo `.prj` junto al dibujo.
 
 ### `digi21.io.dgn`
@@ -110,7 +111,9 @@ Página del formato: [DGN](/digi3d-ai/referencia/ventana-de-dibujo/importadores-
 | `resource_files` | `str` | `""` | Rutas de archivos de recursos de MicroStation separadas por punto y coma. |
 
 > El exportador de DGN **descarta sin avisar** las geometrías cuyo código no tiene traducción
-> DGN en la tabla de códigos: pasa una `digitab` que defina esos códigos. Al leer, cada elemento
+> DGN en la tabla de códigos: pasa una `digitab` que defina esos códigos, y cárgala con
+> `DigiTab.load` **después** de `import digi21.io.dgn` (cargada antes, la tabla no tiene la
+> traducción DGN y el archivo queda vacío sin ningún error). Al leer, cada elemento
 > tiene solo el código de su nivel. El sistema de coordenadas se guarda en un archivo `.prj` junto
 > al dibujo.
 
