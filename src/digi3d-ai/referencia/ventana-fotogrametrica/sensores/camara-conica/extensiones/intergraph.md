@@ -65,3 +65,4 @@ Al abrir el archivo `project` en el panel [Proyecto fotogramétrico](../../../..
 * «No se ha localizado el archivo "photo" en el directorio *carpeta*», y los equivalentes para `camera` y `model`: falta uno de los archivos del proyecto.
 * «No se han localizado los datos de la foto *imagen*»: el archivo `photo` no contiene la imagen.
 * «No se ha encontrado la cámara «*cámara*» en el archivo de cámaras del proyecto.»: el archivo `camera` no contiene la cámara de `camera_name:`.
+* «Las fotos del modelo *modelo* no tienen EO_parameters, y el modelo no tiene la línea AO_parametersL o AO_parametersR en el archivo "model".»: alguna de las dos imágenes no tiene `EO_parameters:` en el archivo `photo` y al bloque del modelo en el archivo `model` le falta `AO_parametersL:` o `AO_parametersR:`.
