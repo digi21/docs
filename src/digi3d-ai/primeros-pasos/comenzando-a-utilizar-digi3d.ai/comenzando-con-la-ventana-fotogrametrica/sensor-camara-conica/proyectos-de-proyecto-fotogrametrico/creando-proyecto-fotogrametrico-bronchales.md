@@ -17,7 +17,7 @@ Es necesario que finalices los pasos de [Midiendo la segunda orientación absolu
 8. Localiza el archivo _107-108.d3d_, selecciónalo y pulsa el botón **Abrir**. Aparecerá el modelo _107-108_ en el listado **Modelos**.
 9. Vuelve a pulsar el botón **Cargar** y carga el modelo _108-109.d3d_.
 10. Pulsa el botón **Aceptar**. Desaparecerá el cuadro de diálogo _Crear archivo de proyecto fotogramétrico_ y se cargará el proyecto en el panel **Proyecto fotogramétrico**.
-11. Comprueba en el el panel **Proyecto fotogramétrico** aparece una sección denominada _Pasada: 1_. Si despliegas dicha sección puedes comprobar que aparecen los dos modelos: el _107-108_ y el _108-109_.
+11. Comprueba que en el panel **Proyecto fotogramétrico** aparece una sección denominada _Pasada: 1_. Si despliegas dicha sección puedes comprobar que aparecen los dos modelos: el _107-108_ y el _108-109_.
 12. Haz clic sobre el modelo 107-108, comprobarás que se abre una ventana fotogramétrica con ese modelo.
 13. Haz clic sobre el modelo 108-109. Comprobarás se cambiará el modelo mostrado en la ventana fotogramétrica.
 

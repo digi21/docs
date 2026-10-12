@@ -27,10 +27,10 @@ Digitaliza una polilínea cuyos vértices tengan distinto valor de Z siguiendo l
 2. **Pulsa** el primer botón de la [Barra de herramientas coordenada Z](/digi3d-ai/referencia/barras-de-herramientas/coordenada-z.md), introduce como nuevo valor de coordenada Z 200 m.
 3. Pulsa **Enter** e introduce un nuevo vértice.
 4. **Finaliza** la polilínea pulsando el [botón de cancelar](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón.
-5. **Comprueba** que tienes seleccionado el modo de búsqueda **4. Busca el vértice más cercano en XYZ**. Si no está seleccionado, seleccionalo en el desplegable de la [Barra de herramientas tentativo](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md).
+5. **Comprueba** que tienes seleccionado el modo de búsqueda **4. Busca el vértice más cercano en XYZ**. Si no está seleccionado, selecciónalo en el desplegable de la [Barra de herramientas tentativo](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md).
 6. **Tentativa** cada uno de los vértices para ver sus coordenadas Z.
 
-Para modifica la coordenada Z con un tentativo que tenga Z, sigue los siguientes pasos:
+Para modificar la coordenada Z con un tentativo que tenga Z, sigue los siguientes pasos:
 
 Al seleccionar el primer botón de la Barra de herramientas coordenada Z, se activa el segundo botón bloqueando así la coordenada Z \(variable [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md)\), esta opción se utiliza principalmente para la digitalización de curvas de nivel.
 
