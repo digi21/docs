@@ -10,7 +10,7 @@ La extensión **Pix4D** lee las orientaciones exteriores y la calibración de la
 
 En el campo **Archivo de aerotriangulación**, selecciona el tipo **Archivos de calibración externa de Pix4D (\*_calibrated_external_camera_parameters.txt)**. La extensión solo lee archivos cuyo nombre termina en `_calibrated_external_camera_parameters.txt`.
 
-Cada línea del archivo contiene el nombre del archivo de imagen, las coordenadas X, Y y Z del centro de proyección y los giros omega, phi y kappa. Digi3D.AI compara la primera palabra de cada línea con el nombre del archivo de imagen del modelo, con extensión, sin distinguir mayúsculas de minúsculas. Las líneas que no coinciden, como la de cabecera, no se leen.
+Cada línea del archivo contiene el nombre del archivo de imagen, las coordenadas X, Y y Z del centro de proyección y los giros omega, phi y kappa. Digi3D.AI compara la primera palabra de cada línea con el nombre del archivo de imagen del modelo, con extensión, sin distinguir mayúsculas de minúsculas. Las líneas que no coinciden, como la de cabecera, y las que tienen menos de siete palabras no se leen.
 
 Los giros están en grados sexagesimales y Digi3D.AI construye la matriz de rotación con el orden omega, phi, kappa. Esta extensión no usa la configuración del importador de centros de proyección y giros.
 
@@ -55,7 +55,8 @@ La extensión lee el sistema del archivo `.prj` con el mismo nombre que el archi
 
 ## Mensajes de error
 
-* «No se pudo abrir el archivo: *archivo*»: Digi3D.AI no puede abrir el archivo de orientaciones exteriores, o ninguna línea del archivo corresponde a la imagen izquierda o a la imagen derecha del modelo.
+* «No se pudo abrir el archivo: *archivo*»: Digi3D.AI no puede abrir el archivo de orientaciones exteriores.
+* «No se ha localizado la orientación de la imagen *imagen* en el archivo *archivo*»: ninguna línea de siete palabras o más del archivo corresponde a la imagen izquierda o a la imagen derecha del modelo.
 * «La primera línea del archivo no es "Pix4D camera calibration file"»: el archivo de cámara no es de Pix4D.
 * «No se ha localizado la línea que comienza por "#Focal Length mm assuming a sensor width of" en el archivo *archivo*» y «La línea que comienza por "#Focal" no tiene el formato esperado (ancho x alto mm) en el archivo *archivo*»: falta el tamaño del sensor o no tiene el formato *ancho*`x`*alto*`mm`.
 * «No se ha localizado la línea que indica…»: falta una de las líneas `F`, `Px`, `Py`, `K1`, `K2`, `K3`, `T1` o `T2` del archivo de cámara.
