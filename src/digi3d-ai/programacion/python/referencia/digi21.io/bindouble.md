@@ -26,7 +26,7 @@ open(path, digitab=None) -> DrawingFile
 Devuelve un [DrawingFile](../digi21.base/drawingfile.md). `DrawingFile.crs` es el sistema de
 coordenadas de la cabecera del archivo.
 
-Si `path` no existe, lanza `RuntimeError` (no `FileNotFoundError`, como los demás módulos).
+Si `path` no existe, lanza `FileNotFoundError`.
 
 ## create
 
