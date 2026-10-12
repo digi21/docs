@@ -21,6 +21,7 @@ La extensión crea la cámara de una imagen a partir de:
 
 * El archivo de cámara del modelo, si tiene extensión `.cam`.
 * Si el archivo de cámara no es un `.cam`, el archivo `<imagen>.orientation.xml` de la carpeta de la imagen, si existe.
+* Si no existe `<imagen>.orientation.xml`, el archivo `<imagen>.ori` de la carpeta de la imagen, si existe y tiene el formato de un archivo `.cam`.
 
 ### Archivo .cam
 
