@@ -17,8 +17,8 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 |  |  |
 | :--- | :--- |
-| Point2D\(Point3D\) | Inicializa una nueva instancia de [Point2D](point2d.md)copiando datos de un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-| Point2D\(double\) | Inicializa una nueva instancia de [Point2D](point2d.md)asignando a las coordenadas X e Y el valor pasado por parámetros. |
+| Point2D\(Point3D\) | Inicializa una nueva instancia de Point2D copiando datos de un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
+| Point2D\(double\) | Inicializa una nueva instancia de Point2D asignando a las coordenadas X e Y el valor pasado por parámetros. |
 | Point2D\(double, double\) | Inicializa una nueva instancia de [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md) asignando a las coordenadas X a Y los valores pasados por parámetros. |
 
 ## Propiedades
@@ -27,9 +27,9 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 | :--- | :--- |
 | X | Devuelve o asigna la coordenada X del [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 | Y | Devuelve o asigna la coordenada Y del [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
-| Module | Devuelve la distancia entre las coordenadas del [Point2D](point2d.md)y el origen \(0,0\). |
-| SquaredModule | Devuelve la distancia al cuadrado entre las coordenadas del [Point2D](point2d.md)y el origen \(0,0\). |
-| Normalized | Devuelve un nuevo [Point2D](point2d.md)cuyo módulo es 1.0. |
+| Module | Devuelve la distancia entre las coordenadas del Point2D y el origen \(0,0\). |
+| SquaredModule | Devuelve la distancia al cuadrado entre las coordenadas del Point2D y el origen \(0,0\). |
+| Normalized | Devuelve un nuevo Point2D cuyo módulo es 1.0. |
 | IsEmpty | Devuelve verdadero si las coordenadas X e Y son 0.0. |
 | Azimuth | Devuelve el azimut del vector que va del origen \(0,0\) al [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 
@@ -38,12 +38,12 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 |  |  |
 | :--- | :--- |
-| DotProduct(Point2D, Point2D) | Devuelve el producto escalar de dos [Point2D](point2d.md). |
+| DotProduct(Point2D, Point2D) | Devuelve el producto escalar de dos Point2D. |
 | CalculateModule(Point3D, Point3D) | Calcula el módulo en el plano entre un [Point3D](point3d.md)y un [Point3D](point3d.md). |
-| CalculateModule(Point3D, Point2D) | Calcula el módulo en el plano entre un [Point3D](point3d.md)y un [Point2D](point2d.md). |
-| CalculateModule(Point2D, Point3D) | Calcula el módulo en el plano entre un [Point2D](point2d.md)y un [Point3D](point3d.md). |
-| CalculateModule(Point2D, Point2D) | Calcula el módulo en el plano entre dos [Point2D](point2d.md). |
-| CalculateSquaredModule(Point2D, Point2D) | Calcula el módulo al cuadrado entre dos [Point2D](point2d.md). |
+| CalculateModule(Point3D, Point2D) | Calcula el módulo en el plano entre un [Point3D](point3d.md)y un Point2D. |
+| CalculateModule(Point2D, Point3D) | Calcula el módulo en el plano entre un Point2D y un [Point3D](point3d.md). |
+| CalculateModule(Point2D, Point2D) | Calcula el módulo en el plano entre dos Point2D. |
+| CalculateSquaredModule(Point2D, Point2D) | Calcula el módulo al cuadrado entre dos Point2D. |
 | [Offset(Point2D)](idesplazable/metodos/offset.md#offset-point-2-d) |Desplaza la geometría tantas unidades en X, Y como se indique en el parámetro.<br>(Heredado de [IDesplazable](idesplazable/))|
 | [Offset(Point3D)](idesplazable/metodos/offset.md#offset-point-3-d) |Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro.<br>(Heredado de [IDesplazable](idesplazable/))|
 | [Offset(double, double)](idesplazable/metodos/offset.md#offset-double-double) |Desplaza la geometría tantas unidades en X, Y como se indique en los parámetros.<br>(Heredado de [IDesplazable](idesplazable/))|
@@ -55,12 +55,12 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 |  |  |
 | :--- | :--- |
-| Point3D | Transforma el [Point2D](point2d.md)en un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-| == | Devuelve verdadero si los dos [Point2D](point2d.md)tienen idénticas coordenadas. |
-| != | Devuelve verdadero si los dos [Point2D](point2d.md)tienen distintas coordenadas. |
-| + | Devuelve un [Point2D](point2d.md)cuyas coordenadas son la suma de los dos [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
-| - | Devuelve un [Point2D](point2d.md)cuyas coordenadas son la resta de los dos [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
-| \* | Devuelve un [Point2D](point2d.md)cuyas coordenadas son las coordenadas del [Point2D](point2d.md)a la izquierda del operador por el escalar a la derecha del operador. |
-| / | Devuelve un [Point2D](point2d.md)cuyas coordenadas son las coordenadas del [Point2D](point2d.md)a la izquierda del operador divididas por el escalar a la derecha del operador. |
+| Point3D | Transforma el Point2D en un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
+| == | Devuelve verdadero si los dos Point2D tienen idénticas coordenadas. |
+| != | Devuelve verdadero si los dos Point2D tienen distintas coordenadas. |
+| + | Devuelve un Point2D cuyas coordenadas son la suma de los dos [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| - | Devuelve un Point2D cuyas coordenadas son la resta de los dos [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| \* | Devuelve un Point2D cuyas coordenadas son las coordenadas del Point2D a la izquierda del operador por el escalar a la derecha del operador. |
+| / | Devuelve un Point2D cuyas coordenadas son las coordenadas del Point2D a la izquierda del operador divididas por el escalar a la derecha del operador. |
 |  |  |
 
