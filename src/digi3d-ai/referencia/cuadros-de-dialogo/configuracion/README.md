@@ -535,7 +535,7 @@ Configura el comportamiento de la rueda del ratón en la ventana de dibujo.
 
 * **[Porcentaje de zoom rueda](rueda-del-raton/porcentaje-de-zoom-rueda.md)** — Factor de zoom por cada movimiento de la rueda.
 * **[Animaciones zoom rueda](rueda-del-raton/animaciones-zoom-rueda.md)** — Número de animaciones en los zooms con rueda.
-* **[Sincronizar zooms con Digi3D](rueda-del-raton/sincronizar-zooms-con-digi3d.md)** — Sincroniza el zoom de DigiNG con el de las vistas de Digi3D.
+* **[Sincronizar zooms con Digi3D](rueda-del-raton/sincronizar-zooms-con-digi3d.md)** — Sincroniza el zoom de la ventana de dibujo con el de las vistas de Digi3D.
 
 ### Rutas
 
