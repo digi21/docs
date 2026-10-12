@@ -3,7 +3,7 @@
 
 Al aceptar una medida de aerotriangulación se genera en la subcarpeta **Aerotriangulación** un archivo cuyo nombre sigue el patrón _foto izquierda - foto derecha.mod_ con las coordenadas modelo de los puntos medidos en un determinado modelo.
 
-Además, al igual que al medir una orientación absoluta, se crean en esa carpeta archivos con _.f_ en formato [PatB](archivos-generados-aerotriangulacion.md) con las fotocoordenadas de los puntos medidos en cada foto.
+Además, al igual que al medir una orientación absoluta, se crean en esa carpeta archivos con _.f_ en formato [PatB](/digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/extensiones/patb.md) con las fotocoordenadas de los puntos medidos en cada foto.
 
 Es necesario que finalices los pasos de [Midiendo la aerotriangulación del modelo 107-108](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/midiendo-aetrotriangulacion-modelo-107-108.md) antes de ejecutar los siguientes pasos para comprobar los archivos que se han generado:
 

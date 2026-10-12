@@ -9,7 +9,7 @@ Vamos a aprender a cargar un par estereoscópico y a interactuar con la ventana 
 3. Selecciona la pestaña **Sensores Fotogramétricos**.
 4. En el campo **Directorio de trabajo** selecciona la ruta %EjemplosDigi3D%\Pumarín.
 5. En el campo **Tipo de sensor** selecciona **Cónico \(estereoscópico\)**. Comprobarás que la sección titulada **Propiedades del sensor** varía para solicitar los archivos requeridos para cargar un modelo estereoscópico de cámara cónica.      
-6. En el campo **Archivo de aerotriangulación** indica la ruta al archivo %EjemplosDigi3D%\Pumarín\Pumarín.eo. Este es un archivo de aerotriangulación en [formato PatB](cargando-primer-modelo-estereoscopico.md).
+6. En el campo **Archivo de aerotriangulación** indica la ruta al archivo %EjemplosDigi3D%\Pumarín\Pumarín.eo. Este es un archivo de aerotriangulación en [formato PatB](/digi3d-ai/referencia/ventana-fotogrametrica/sensores/camara-conica/extensiones/patb.md).
 7. En el campo **Imagen izquierda** indica la ruta al archivo %EjemplosDigi3D%\Pumarín\126.tif
 8. En el campo **Imagen derecha** indica la ruta al archivo %EjemplosDigi3D%\Pumarín\127.tif
 9. En el campo **Cámara izquierda** indica la ruta al archivo %EjemplosDigi3D%\Pumarín\120mm.cam

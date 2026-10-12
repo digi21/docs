@@ -1,7 +1,7 @@
 # Creando un proyecto fotogramétrico para Bronchales
 <!-- id: creando-proyecto-fotogrametrico-bronchales -->
 
-El cuadro de diálogo [Cuadro de diálogo Crear proyecto fotogramétrico](/digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md) permite crear tanto archivos de _proyecto fotogramétrico_ como archivos de proyecto [.d3d](creando-proyecto-fotogrametrico-bronchales.md).
+El cuadro de diálogo [Cuadro de diálogo Crear proyecto fotogramétrico](/digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md) permite crear tanto archivos de _proyecto fotogramétrico_ como archivos de proyecto [.d3d](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md).
 
 En este ejemplo vamos a crear un archivo de _proyecto fotogramétrico_ que indique que el proyecto tiene una única _pasada_, y que esta _pasada_ está compuesta por dos modelos: el _107-108_ y el _108-109_.
 
@@ -13,7 +13,7 @@ Es necesario que finalices los pasos de [Midiendo la segunda orientación absolu
 4. Localiza la ruta del proyecto de Bronchales y teclea el nombre del archivo a crear, por ejemplo _Proyecto de Bronchales_. Pulsa **Abrir**.
 5. En el desplegable **Sensor** selecciona **Cónico \(estereoscópico\)**. Esta es la opción por defecto de este desplegable.
 6. En **Pasadas** pulsa el botón **Crear**. Aparecerá el cuadro de diálogo [Propiedades de la pasada](/digi3d-ai/referencia/cuadros-de-dialogo/propiedades-de-la-pasada.md). Por defecto se indica que el nombre de la pasada será _Pasada: 1_. Pulsa el botón **Aceptar**. Comprobarás que en la lista **Pasadas** aparece el nombre de la pasada que acabamos de crear.
-7. Con la opción _Pasada: 1_ seleccionada en la lista **Pasadas**, pulsa el botón **Cargar** de la lista **Modelos**. Esto nos va a permitir añadir archivos de proyecto [.d3d](creando-proyecto-fotogrametrico-bronchales.md) en la lista **Modelos**. Aparecerá el cuadro de diálogo **Abrir**.
+7. Con la opción _Pasada: 1_ seleccionada en la lista **Pasadas**, pulsa el botón **Cargar** de la lista **Modelos**. Esto nos va a permitir añadir archivos de proyecto [.d3d](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) en la lista **Modelos**. Aparecerá el cuadro de diálogo **Abrir**.
 8. Localiza el archivo _107-108.d3d_, selecciónalo y pulsa el botón **Abrir**. Aparecerá el modelo _107-108_ en el listado **Modelos**.
 9. Vuelve a pulsar el botón **Cargar** y carga el modelo _108-109.d3d_.
 10. Pulsa el botón **Aceptar**. Desaparecerá el cuadro de diálogo _Crear archivo de proyecto fotogramétrico_ y se cargará el proyecto en el panel **Proyecto fotogramétrico**.

@@ -10,12 +10,12 @@
 | Tipo |Lineal<br>Puntual<br>Virtual|
 | Descripción | Descripción del código |
 
-* Si Digi3D.AI está en [modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el código activo es un [código lineal](dibujando-puntos-patron-escala.md), al pusar el [botón de dato](dibujando-puntos-patron-escala.md) sobre la ventana de dibujo, Digi3D.AI ejecutará de manera automática la orden [**LINEA**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y dibujará una polilínea.
-* Si Digi3D.AI está en **modo preparado** y el código activo es un [código puntual](dibujando-puntos-patron-escala.md), al pulsar el **botón de dato** sobre la ventana de dibujo, Digi3D.AI ejecutará la orden [**PUNTO**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md).
+* Si Digi3D.AI está en [modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el código activo es un [código lineal](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#tipo), al pusar el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) sobre la ventana de dibujo, Digi3D.AI ejecutará de manera automática la orden [**LINEA**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y dibujará una polilínea.
+* Si Digi3D.AI está en **modo preparado** y el código activo es un [código puntual](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#tipo), al pulsar el **botón de dato** sobre la ventana de dibujo, Digi3D.AI ejecutará la orden [**PUNTO**](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md).
 
 Sigue los siguientes pasos para digitalizar un punto:
 
-1. Asegúrate de que Digi3D.AI esta en **modo preparado**. Si no es así, pulsa la tecla **Esc** del teclado o el [botón de cancelar](dibujando-puntos-patron-escala.md) hasta que Digi3D.AI esté en **modo preparado**. 
+1. Asegúrate de que Digi3D.AI esta en **modo preparado**. Si no es así, pulsa la tecla **Esc** del teclado o el [botón de cancelar](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) hasta que Digi3D.AI esté en **modo preparado**. 
 2. Selecciona un **código puntual**.
 3. Pulsa con el **botón de dato** sobre la ventana de dibujo. Digi3D.AI insertará un punto en las coordenadas en las que has pulsado el botón de dato.
 
