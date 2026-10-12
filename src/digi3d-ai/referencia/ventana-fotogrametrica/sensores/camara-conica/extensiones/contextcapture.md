@@ -30,4 +30,4 @@ Para cada imagen, Digi3D.AI lee el centro de proyección de `Pose/Center` (`x`, 
 
 ## Sistema de referencia de coordenadas
 
-La extensión usa el sistema de `SpatialReferenceSystems/SRS/Definition`, el primer nodo `SRS` del archivo. No lee archivos `.prj` ni muestra los cuadros de [Modelo sin sistema de referencia de coordenadas](../sistema-de-referencia-del-modelo.md), tampoco si el sistema no tiene componente vertical.
+La extensión usa el sistema de `SpatialReferenceSystems/SRS/Definition`, el primer nodo `SRS` del archivo. Si no existe, Digi3D.AI muestra el mensaje «No se ha localizado el nodo SpatialReferenceSystems/SRS/Definition en el archivo de ContextCapture». No lee archivos `.prj` ni muestra los cuadros de [Modelo sin sistema de referencia de coordenadas](../sistema-de-referencia-del-modelo.md), tampoco si el sistema no tiene componente vertical.
