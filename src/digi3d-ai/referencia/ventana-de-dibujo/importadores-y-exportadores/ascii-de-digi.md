@@ -34,6 +34,23 @@ El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que 
 * Al importar, se usa la propiedad **Sistema de referencia de coordenadas**. Si vale **Desconocido** o es un sistema local, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**. El sistema no se escribe en ningún `.prj`.
 * Al exportar, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido.
 
+## Formato del archivo
+
+Cada entidad empieza por una línea de cabecera: una letra con el tipo, `=` si la entidad está viva o un espacio si está borrada, el código, el número de vértices o de entidades y el número de atributos. Detrás van las líneas propias del tipo y, al final, una línea por atributo.
+
+| Tipo | Entidad | Cabecera | Líneas detrás de la cabecera |
+| :--- | :--- | :--- | :--- |
+| `C` | Línea o punto | `C=<código> <vértices> <atributos>` | Una línea `x y z` por vértice. Con un solo vértice, la entidad es un punto. |
+| `T` | Texto | `T=<código> 1 <atributos>` | `altura justificación giro`, `x y z` del punto de inserción y el texto. |
+| `B` | Imagen | `B=<código> 2 <atributos>` | Centro, giros y escala (`x y z` cada uno) y la ruta de la imagen. |
+| `E` | Polígono | `E=<código> <vértices> <atributos> <contornos interiores>` | Una línea `x y z` por vértice del contorno exterior y cada contorno interior como una entidad `C`. |
+| `X` | Elemento complejo | `X=<código> <entidades> <atributos>` | Cada entidad del complejo como una entidad `C`. |
+| `Y` | Elemento complejo puntual | `Y=<código> <entidades> <atributos>` | `x y z giro` del punto de inserción (giro en grados sexagesimales) y cada entidad como una entidad `C`. |
+
+Cada atributo es una línea `A <tabla> <registro> <código>`. Un código que contiene un espacio, `=`, `,` o un tabulador se escribe entre comillas dobles.
+
+El exportador no escribe puntos orientados, mallas, objetos OLE, entidades de MDT ni elementos complejos con entidades que no sean puntos o líneas. Al importar, las entidades de un tipo desconocido se omiten con un aviso; es el caso de las cabeceras `h`, `A`, `D`, `P`, `M`, `O` y `m` que escribían versiones anteriores sin vértices.
+
 ## Características del importador/exportador
 
 | | |
