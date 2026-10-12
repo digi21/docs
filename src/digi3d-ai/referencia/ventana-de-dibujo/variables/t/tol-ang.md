@@ -1,7 +1,7 @@
 # TOL\_ANG
 <!-- id: tol-ang-2 -->
 
-Establece el _factor de tolerancia angular_ en el proceso de [generalización](tol-ang.md).
+Establece el _factor de tolerancia angular_ en el proceso de [generalización](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md).
 
 ## Parámetros
 

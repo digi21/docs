@@ -29,7 +29,7 @@ Por cada línea, la orden crea un texto desplazado respecto a las coordenadas le
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](carga-t.md) con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

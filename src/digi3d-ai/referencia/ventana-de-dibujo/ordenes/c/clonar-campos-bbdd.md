@@ -13,7 +13,7 @@ La orden solicita que se seleccione una geometría. Para cada campo de BBDD de l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](clonar-campos-bbdd.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Más/Clonar los campos de BBDD de una entidad |

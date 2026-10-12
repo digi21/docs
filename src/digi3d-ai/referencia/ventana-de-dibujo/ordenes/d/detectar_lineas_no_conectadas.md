@@ -21,7 +21,7 @@ Resulta útil como control de calidad topológico para localizar líneas que deb
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar_lineas_no_conectadas.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar líneas no conectadas/\(una opción por etiqueta\) |

@@ -11,9 +11,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Para crear una curva [SPLINE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/spline.md) hay que definir los puntos por los que va a atravesar. A medida que se digitalizan los puntos, el movimiento del cursor actuará sobre los vértices que actúan como tensores.
+Para crear una curva SPLINE hay que definir los puntos por los que va a atravesar. A medida que se digitalizan los puntos, el movimiento del cursor actuará sobre los vértices que actúan como tensores.
 
-Las _SPLINES_ generadas en DIGI son [SPLINES CÚBICAS](spline.md).
+Las _SPLINES_ generadas en DIGI son SPLINES CÚBICAS.
 
 ## Características de la orden
 
