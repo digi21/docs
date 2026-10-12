@@ -24,7 +24,9 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 
 | Propiedad | Valores | Qué hace |
 | :--- | :--- | :--- |
-| Ancho del dibujo | Número entero, en píxeles. Por defecto, 400. | Ancho de la imagen que se crea. El alto se calcula para conservar la proporción del dibujo. |
+| Ancho del dibujo | Número entero, en píxeles. Por defecto, 400. | Ancho de la imagen que se crea. El alto se calcula para conservar la proporción del dibujo. Solo se usa al exportar. |
+
+Digi3D.AI guarda el valor de la propiedad en la configuración del usuario.
 
 ## Características del importador/exportador
 
@@ -33,4 +35,4 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 | Extensiones | `.svg` |
 | Importación (orden [IMPORTAR](../ordenes/i/importar.md)) | Sí |
 | Exportación (orden [EXPORTAR](../ordenes/e/exportar.md)) | Sí |
-| Se puede abrir una ventana de dibujo con este formato | Sí |
+| Se puede abrir una ventana de dibujo con este formato | No |

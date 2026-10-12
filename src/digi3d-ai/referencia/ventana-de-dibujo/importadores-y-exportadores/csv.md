@@ -10,15 +10,16 @@ Parámetros del importador/exportador para pasar mediante línea de comandos med
 Por ejemplo:
 
 ```
-PARAMETROS_IMPORTACION=.csv <Separador> <NombreColumnaX> <NombreColumnaY> <NombreColumnaZ>
+PARAMETROS_IMPORTACION=.csv <Separador> 0 0 0 <NombreColumnaX> <NombreColumnaY> <NombreColumnaZ>
 ```
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Carácter separador de campos | Sí |
-| 2 | Nombre de la columna X | Sí |
-| 3 | Nombre de la columna Y | Sí |
-| 4 | Nombre de la columna Z | Sí |
+| 1 | Carácter separador de campos | No |
+| 2, 3 y 4 | No se usan, pero tienen que estar presentes | No |
+| 5 | Nombre de la columna X | No |
+| 6 | Nombre de la columna Y | No |
+| 7 | Nombre de la columna Z | No |
 
 
 ## Parámetros del motor de importación/exportación
@@ -27,10 +28,14 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 
 | Propiedad | Valores | Qué hace |
 | :--- | :--- | :--- |
-| Separador de campos | Tabulador, coma, comillas dobles, comillas simples o barra vertical. Por defecto, tabulador. | Carácter que separa los campos de cada línea. |
-| Columna X, Columna Y, Columna Z | Texto: nombre de la columna en la primera línea del archivo. | Columnas de las que se leen las coordenadas, sin distinguir mayúsculas de minúsculas. Si no existe la columna, la coordenada vale 0. |
+| Separador de campos | Tabulador, Coma (,), Comillas dobles (""), Comillas simples ('') u Operador O (\|). Por defecto, tabulador. | Carácter que separa los campos de cada línea. |
+| Columna X, Columna Y, Columna Z | Texto: nombre de la columna en la primera línea del archivo. Por defecto, vacío. | Columnas de las que se leen las coordenadas, sin distinguir mayúsculas de minúsculas. Si no existe la columna, la coordenada vale 0. |
 
-Cada línea se importa como un punto, con todas sus columnas como datos.
+Cada línea se importa como un punto, con todas sus columnas como datos. Digi3D.AI guarda los valores de las propiedades en la configuración del usuario.
+
+### Sistema de referencia de coordenadas
+
+El sistema de referencia se lee de un archivo `.prj` con el mismo nombre que el archivo. Si no existe, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**. Al importar no se crea el `.prj`: el sistema elegido solo se usa durante la sesión.
 
 ## Características del importador/exportador
 

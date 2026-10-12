@@ -7,6 +7,10 @@ Importador y exportador de **Archivos IFC**.
 
 Esta extensión no recibe parámetros por la línea de comandos.
 
+## Parámetros del motor de importación/exportación
+
+Este formato no añade propiedades a la categoría **Motor de importación/exportación** de los cuadros de diálogo que importan o exportan archivos de este formato.
+
 ## Características del importador/exportador
 
 | | |
