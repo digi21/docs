@@ -9,7 +9,7 @@ En el campo **Archivo de aerotriangulación**, selecciona el tipo **Archivos de 
 
 El archivo `.blk` es un archivo binario con estructura HFA. Digi3D.AI comprueba la cabecera `EHFA_HEADER_TAG` y que el diccionario del archivo define las estructuras `Camera_DataV4` o `Camera_DataV3`, `Triangulation_Parameters`, `Camera_InfoV4` o `Camera_Info`, `InitExt_Info` y `ROImg_Info` con la definición que conoce. Si una estructura no existe o tiene otra definición, Digi3D.AI muestra un mensaje que la nombra, por ejemplo «El formato de la estructura "Camera_DataV4" no es compatible con esta implementación».
 
-Digi3D.AI busca cada imagen en las estructuras `Image_data` por el nombre del archivo de imagen, sin carpeta y sin distinguir mayúsculas de minúsculas. Para la orientación exterior compara el nombre sin extensión; para la cámara, con extensión.
+Digi3D.AI busca cada imagen en las estructuras `Image_data` por el nombre del archivo de imagen, sin carpeta y sin distinguir mayúsculas de minúsculas. Compara el nombre sin extensión, tanto para la orientación exterior como para la cámara.
 
 La extensión no proporciona orientación absoluta.
 
@@ -35,3 +35,4 @@ La extensión lee el sistema del archivo `.prj` con el mismo nombre que el archi
 * «No se ha podido cargar el archivo: *archivo*. Windows informó de la siguiente cadena de error: *error*»: Digi3D.AI no puede abrir el archivo.
 * «Se localizó un error desconocido al crear el modelo para las imágenes: *izquierda* y *derecha* en el archivo *archivo*»: Digi3D.AI no encuentra la orientación exterior de alguna de las dos imágenes o no puede leerla.
 * «No se ha localizado la orientación de la imagen: *imagen* en el archivo: *archivo*.»: Digi3D.AI no encuentra la imagen al leer la cámara.
+* «Las marcas fiduciales de la cámara número *n* tienen *n* valores, un número impar, en el archivo: *archivo*»: a una marca fiducial de la cámara le falta la coordenada y.
