@@ -75,7 +75,7 @@ Cada polígono se escribe como un sombreado (HATCH) de relleno sólido (`SOLID`)
 
 - Cada anillo exterior es un bucle del sombreado y cada hueco, otro bucle.
 - Un elemento complejo formado solo por polígonos se escribe como un único sombreado con los bucles de todos sus polígonos, en la capa del código del elemento complejo. Los polígonos del complejo pierden su código propio: al leerlos, todos tienen el código de esa capa. Un elemento complejo con otras entidades no se escribe.
-- El sombreado es plano: todos los vértices del polígono y de sus huecos toman la Z del primer vértice.
+- El sombreado es plano: todos los vértices del polígono y de sus huecos toman la Z del primer vértice. Si los vértices no tienen todos la misma Z, la propiedad **Polígonos con Z no constante** del código decide qué se escribe (consulta el apartado *Polígonos con Z no constante*).
 - No se escribe, y se informa del error, un polígono cuyo anillo exterior o alguno de sus huecos tiene menos de tres vértices.
 - No se escribe, y se informa del error, una geometría que al leerla daría otros polígonos: polígonos de un complejo que se solapan, un polígono dentro de otro sin estar en uno de sus huecos, una isla igual a un hueco, o un hueco fuera de su polígono o igual a él.
 - En AutoCAD 11/12 no existe el sombreado: el archivo guarda un bloque de triángulos rellenos (SOLID) con los datos del sombreado, y Digi3D.AI lo vuelve a leer como polígono. Otros programas pueden ver solo el bloque. Los códigos secundarios de la entidad no se conservan en esta versión.
@@ -89,6 +89,22 @@ Al leer un sombreado, Digi3D.AI convierte cada bucle cerrado en un anillo. Los a
 | Ignorar | Los que no están dentro de ningún bucle | Ninguno; los interiores se descartan |
 
 Con un único bucle exterior se crea un polígono con sus huecos. Con varios, un elemento complejo con un polígono por cada exterior. Un sombreado sin bucles cerrados se lee como antes: como un elemento complejo con las entidades en las que se descompone. El patrón, la escala y el ángulo del sombreado no se leen, y al volver a guardar el polígono se escribe con relleno sólido.
+
+### Polígonos con Z no constante
+
+En el editor de tablas de códigos, la pestaña [Códigos](../../editor-de-tablas-de-codigos/pestanas/codigos/README.md) muestra para cada código, en la categoría **Importador/Exportador de archivos AutoCAD (\*.dwg)**, la propiedad **Polígonos con Z no constante**. Esta propiedad decide cómo se escriben en los archivos `.dwg` y `.dxf` los polígonos con ese código, y los elementos complejos formados solo por polígonos, cuando sus vértices no tienen todos la misma Z. Se comparan los vértices de los anillos exteriores y de los huecos de todos los polígonos, sin tolerancia.
+
+| Valor | Valor en el archivo de la tabla de códigos | Qué se escribe |
+| :--- | :--- | :--- |
+| Sombreado plano. Valor por defecto. | `FlatHatch` | Un sombreado a la Z del primer vértice, igual que un polígono con Z constante. La primera vez que se escribe un polígono así con un código en cada archivo, Digi3D.AI muestra un aviso: «Los polígonos con el código *código* cuyos vértices no tienen todos la misma Z se almacenan como sombreado, que es plano: el sombreado toma la Z del primer vértice. […]». |
+| Polilínea 3D cerrada | `Polyline3D` | Una polilínea 3D (POLYLINE) cerrada con la Z de cada vértice del anillo exterior. Al leer el archivo se obtiene una línea cerrada, no un polígono. Un polígono con huecos y un elemento complejo de varios polígonos no se escriben, y se informa del error. |
+| No exportar | `Reject` | La entidad no se escribe y se informa del error: «No se puede almacenar en un archivo dwg el polígono con el código *código*: sus vértices no tienen todos la misma Z y los parámetros del código indican que no se exporte.». |
+
+Un polígono con todos los vértices a la misma Z se escribe siempre como sombreado, tenga la propiedad el valor que tenga.
+
+En el archivo de la tabla de códigos, la propiedad es el elemento `<iodwg:polygon nonConstantZ="..."/>` dentro de `<iodwg:transform>`. Una tabla de códigos sin ese elemento usa **Sombreado plano**.
+
+En los módulos `digi21.io.dwg` y `digi21.io.dxf` de Python, una entidad que no se escribe cuenta en `rejected` y el motivo aparece en `warnings`.
 
 ### Códigos que no se exportan
 

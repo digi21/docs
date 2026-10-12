@@ -60,7 +60,10 @@ Qué hace el exportador:
 
 - Escribe cada `Polygon` como un sombreado (HATCH) de relleno sólido: un bucle por el contorno y
   otro por cada hueco. El sombreado es plano: todos los vértices toman la Z del primero (tercer
-  ejemplo).
+  ejemplo), y `warnings` lo avisa una vez por código. La propiedad **Polígonos con Z no constante**
+  de la traducción DWG del código (`<iodwg:polygon nonConstantZ="..."/>`) permite escribir esos
+  polígonos como polilínea 3D cerrada o no escribirlos; consulta
+  [Archivos AutoCAD DWG](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/dwg.md).
 - Escribe un `Complex` formado solo por polígonos como un único sombreado (cuarto ejemplo), en la
   capa del código del `Complex`: al releerlo, todas las partes tienen ese código. Un `Complex` con
   otras geometrías no se escribe: `add` devuelve `False` y `warnings` recoge el error.
