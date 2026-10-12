@@ -15,7 +15,7 @@ PARAMETROS_IMPORTACION=.shp <Precision> <Codificacion>
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Precisión | Sí |
+| 1 | Precisión, de 0 a 12. Con un valor fuera de ese rango, la orden muestra un error y no cambia los parámetros. | Sí |
 | 2 | Codificación (identificador de controlador de idioma, *LDID*, que se escribe en la cabecera del archivo `.dbf`, en decimal; 255 = UTF-8) | Sí |
 
 Un parámetro que se omite toma el valor 0, no el valor guardado.
@@ -27,7 +27,7 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 
 | Propiedad | Valores | Qué hace |
 | :--- | :--- | :--- |
-| Decimales de precisión | Número entero. Por defecto, 0. | Al guardar cada geometría en el archivo, al exportar o al editar, redondea sus coordenadas a este número de decimales. Con 0 no se redondean. |
+| Decimales de precisión | Número entero de 0 a 12. Por defecto, 0. Un valor fuera del rango se sustituye por el límite más próximo, también si viene de la configuración guardada. | Al guardar cada geometría en el archivo, al exportar o al editar, redondea sus coordenadas a este número de decimales. Con 0 no se redondean. Una coordenada cuya magnitud no permite representar ese número de decimales se guarda sin redondear. |
 | Codificación | Página de códigos de la lista, con su número entre paréntesis: las de MS-DOS, _Windows_ y Macintosh de cada idioma, las asiáticas y UTF-8. Por defecto, UTF-8. | Codificación de los textos del archivo `.dbf` que se crea, que también se escribe en un archivo `.cpg`. Al leer, solo se usa si el `.dbf` no indica su codificación y no hay archivo `.cpg`. |
 | Cargar región de interés (BETA) | Sí o No. Por defecto, No. | Con **Sí**, al abrir el archivo se carga solo la región de interés. La región se selecciona con el botón derecho sobre el archivo en el panel de archivos de dibujo. |
 
