@@ -20,7 +20,7 @@ Los campos necesarios son los siguientes:
 * **Sobrescribir archivo**: Si se desea sobrescribir un posible archivo existente.
 * **Cargar como referencia**: Si se desean cargar los límites vectoriales después de terminado el cálculo.
 
-Aceptando estos datos, el programa mostrará un [cuadro de diálogo](/mdtopx/modulo-laser/formas-geometricas/buscar-puntos-sobre-planos.md) donde se pueden gestionar los puntos que definen el plano.
+Aceptando estos datos, el programa mostrará un cuadro de diálogo donde se pueden gestionar los puntos que definen el plano.
 
 Vea también:
 

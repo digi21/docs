@@ -1,7 +1,7 @@
 # Comprobar MDT
 <!-- id: linea-de-comando-comprobar-mdt -->
 
-[Comprobar MDT](/mdtopx/desde-linea-de-comando/linea-de-comando-comprobar-mdt.md)
+[Comprobar MDT](/mdtopx/como/como-comprobar-mdt.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

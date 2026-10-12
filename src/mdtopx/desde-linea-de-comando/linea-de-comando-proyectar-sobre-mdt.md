@@ -1,7 +1,7 @@
 # Proyectar sobre MDT
 <!-- id: linea-de-comando-proyectar-sobre-mdt -->
 
-[Proyectar sobre MDT](/mdtopx/desde-linea-de-comando/linea-de-comando-proyectar-sobre-mdt.md)
+[Proyectar sobre MDT](/mdtopx/como/como-proyeccion-sobre-mdt.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

@@ -1,7 +1,7 @@
 # Curvado
 <!-- id: linea-de-comando-curvado -->
 
-[Curvado](/mdtopx/desde-linea-de-comando/linea-de-comando-curvado.md)
+[Curvado](/mdtopx/como/como-curvado.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

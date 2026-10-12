@@ -1,7 +1,7 @@
 # Plataformas
 <!-- id: plataformas -->
 
-[Plataformas](/mdtopx/herramientas-mdt/plataformas.md)
+[Plataformas](/mdtopx/como/como-plataformas.md)
 
 ![Cuadro de diálogo Plataformas](../../images/image-58.png)
 
