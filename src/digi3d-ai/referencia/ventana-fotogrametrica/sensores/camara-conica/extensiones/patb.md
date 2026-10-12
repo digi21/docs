@@ -40,3 +40,4 @@ La extensión lee el sistema del archivo `.prj` con el mismo nombre que el archi
 
 * «Se ha localizado el siguiente error al abrir el archivo *archivo*: *error*»: Digi3D.AI no puede abrir el archivo de aerotriangulación.
 * «No se ha localizado la orientación de la imagen: *imagen* en el archivo: *archivo*»: ningún bloque del archivo corresponde a la imagen izquierda o a la imagen derecha del modelo.
+* «El bloque de la imagen: *imagen* en el archivo: *archivo* está incompleto: la línea *n* tiene *n* valores y se esperaban *m*»: la primera línea del bloque tiene menos de cinco palabras, la segunda menos de cinco valores, la tercera menos de cuatro, o el archivo termina antes de la tercera línea.
