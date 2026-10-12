@@ -181,33 +181,6 @@ Genera archivos de depuración que permiten detectar problemas.
 * **[Crear archivo de LOG](depuracion/crear-archivo-de-log.md)** — Si se activa, el programa almacenará en un archivo de LOG información para ayudar a detectar errores.
 * **[Ruta al archivo de LOG](depuracion/ruta-al-archivo-de-log.md)** — Ruta al archivo de LOG a crear.
 
-### Ventana de dibujo
-
-Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
-
-* **[Limitar el zoom máximo](diging/limitar-el-zoom-maximo.md)** — Impone un factor de zoom máximo en la ventana de dibujo.
-* **[Tamaño de ventana](diging/tamano-de-ventana.md)** — Tamaño mínimo que podrá representar la ventana de dibujo.
-* **[ZOOM\_ANTERIOR incluye los cambios del factor de zoom](diging/zoom-anterior-incluye-factor-zoom.md)** — Indica si ZOOM+, ZOOM-, ZOOMIN, ZOOMOUT y la rueda del ratón guardan la vista que restaura ZOOM\_ANTERIOR.
-* **[Reiniciar las variables al abrir un archivo de dibujo](diging/reiniciar-variables-al-abrir-dibujo.md)** — Indica si abrir o crear un archivo de dibujo devuelve las variables a su valor inicial.
-* **[Interfaz para seleccionar código](diging/interfaz-para-seleccionar-codigo.md)** — Ventana que se usa para seleccionar el código activo.
-* **[Permitir seleccionar códigos inexistentes](diging/permitir-seleccionar-codigos-inexistentes.md)** — Permite seleccionar como activo un código que no existe en la tabla.
-* **[Permitir códigos repetidos](diging/permitir-codigos-repetidos.md)** — Permite asignar el mismo código varias veces a una geometría.
-* **[Orden dibujo (multi código)](diging/orden-dibujo-multi-codigo.md)** — Orden en el que se dibujan los códigos de una geometría multicódigo.
-* **[Permitir vértices consecutivos con la misma coordenada XY](diging/permitir-vertices-consecutivos-con-la-misma-coordenada-xy.md)** — Permite vértices consecutivos con la misma XY y distinta Z.
-* **[Dibujar polígonos en 3D](diging/dibujar-poligonos-en-3d.md)** — Dibuja los polígonos con coordenada Z.
-* **[Directorio de macroinstrucciones](diging/directorio-de-macroinstrucciones.md)** — Directorio de los archivos de macroinstrucciones.
-* **[Directorio de símbolos](diging/directorio-de-simbolos.md)** — Directorio de la definición de células.
-* **[Opacidad para entidades no de interés](diging/opacidad-para-entidades-no-de-interes.md)** — Opacidad de las geometrías que no son de interés.
-* **[Ejecutar órdenes asignadas a códigos al clonar](diging/ejecutar-ordenes-asignadas-a-codigos-al-clonar.md)** — Ejecuta las órdenes de los códigos al clonar una entidad.
-* **[Avisar de órdenes desconocidas](diging/avisar-de-ordenes-desconocidas.md)** — Escribe un aviso en la ventana de resultados al ejecutar una orden que no existe.
-* **[Copiar atributos de BBDD al clonar](diging/copiar-atributos-de-bbdd-al-clonar.md)** — Copia los atributos de base de datos al clonar.
-* **[Clonar copia Tabla y Registro](diging/clonar-copia-tabla-y-registro.md)** — Copia el enlace a Tabla y Registro al clonar.
-* **[Bloqueo de mayúsculas actúa como mayúsculas](diging/bloqueo-de-mayusculas-actua-como-mayusculas.md)** — El bloqueo de mayúsculas se interpreta como Shift + tecla.
-* **[Reset vacía la pila de órdenes](diging/reset-vacia-la-pila-de-ordenes.md)** — RESET anula todas las órdenes de la pila.
-* **[Escape vacía la pila de órdenes](diging/escape-vacia-la-pila-de-ordenes.md)** — Esc vacía toda la pila de órdenes.
-* **[Auto-Pulsar Añadir… en los diálogos que solicitan códigos](diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md)** — Pulsa automáticamente Añadir en los diálogos que piden códigos.
-* **[Mostrar campo Sistema de referencia de coordenadas](diging/mostrar-campo-sistema-de-referencia-de-coordenadas.md)** — Muestra el campo SRC en la pestaña Archivo de dibujo de Nuevo proyecto.
-
 ### Dispositivos de entrada
 
 Configura el comportamiento de los dispositivos de entrada (pedales, manivelas y codificadores).
@@ -618,6 +591,33 @@ Configura la orden GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS.
 Configura la orden UNIR.
 
 * **[Si las dos líneas tienen códigos distintos](unir/si-las-dos-lineas-tienen-codigos-distintos.md)** — Pregunta el código de la línea resultante o no une las líneas.
+
+### Ventana de dibujo
+
+Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
+
+* **[Limitar el zoom máximo](diging/limitar-el-zoom-maximo.md)** — Impone un factor de zoom máximo en la ventana de dibujo.
+* **[Tamaño de ventana](diging/tamano-de-ventana.md)** — Tamaño mínimo que podrá representar la ventana de dibujo.
+* **[ZOOM\_ANTERIOR incluye los cambios del factor de zoom](diging/zoom-anterior-incluye-factor-zoom.md)** — Indica si ZOOM+, ZOOM-, ZOOMIN, ZOOMOUT y la rueda del ratón guardan la vista que restaura ZOOM\_ANTERIOR.
+* **[Reiniciar las variables al abrir un archivo de dibujo](diging/reiniciar-variables-al-abrir-dibujo.md)** — Indica si abrir o crear un archivo de dibujo devuelve las variables a su valor inicial.
+* **[Interfaz para seleccionar código](diging/interfaz-para-seleccionar-codigo.md)** — Ventana que se usa para seleccionar el código activo.
+* **[Permitir seleccionar códigos inexistentes](diging/permitir-seleccionar-codigos-inexistentes.md)** — Permite seleccionar como activo un código que no existe en la tabla.
+* **[Permitir códigos repetidos](diging/permitir-codigos-repetidos.md)** — Permite asignar el mismo código varias veces a una geometría.
+* **[Orden dibujo (multi código)](diging/orden-dibujo-multi-codigo.md)** — Orden en el que se dibujan los códigos de una geometría multicódigo.
+* **[Permitir vértices consecutivos con la misma coordenada XY](diging/permitir-vertices-consecutivos-con-la-misma-coordenada-xy.md)** — Permite vértices consecutivos con la misma XY y distinta Z.
+* **[Dibujar polígonos en 3D](diging/dibujar-poligonos-en-3d.md)** — Dibuja los polígonos con coordenada Z.
+* **[Directorio de macroinstrucciones](diging/directorio-de-macroinstrucciones.md)** — Directorio de los archivos de macroinstrucciones.
+* **[Directorio de símbolos](diging/directorio-de-simbolos.md)** — Directorio de la definición de células.
+* **[Opacidad para entidades no de interés](diging/opacidad-para-entidades-no-de-interes.md)** — Opacidad de las geometrías que no son de interés.
+* **[Ejecutar órdenes asignadas a códigos al clonar](diging/ejecutar-ordenes-asignadas-a-codigos-al-clonar.md)** — Ejecuta las órdenes de los códigos al clonar una entidad.
+* **[Avisar de órdenes desconocidas](diging/avisar-de-ordenes-desconocidas.md)** — Escribe un aviso en la ventana de resultados al ejecutar una orden que no existe.
+* **[Copiar atributos de BBDD al clonar](diging/copiar-atributos-de-bbdd-al-clonar.md)** — Copia los atributos de base de datos al clonar.
+* **[Clonar copia Tabla y Registro](diging/clonar-copia-tabla-y-registro.md)** — Copia el enlace a Tabla y Registro al clonar.
+* **[Bloqueo de mayúsculas actúa como mayúsculas](diging/bloqueo-de-mayusculas-actua-como-mayusculas.md)** — El bloqueo de mayúsculas se interpreta como Shift + tecla.
+* **[Reset vacía la pila de órdenes](diging/reset-vacia-la-pila-de-ordenes.md)** — RESET anula todas las órdenes de la pila.
+* **[Escape vacía la pila de órdenes](diging/escape-vacia-la-pila-de-ordenes.md)** — Esc vacía toda la pila de órdenes.
+* **[Auto-Pulsar Añadir… en los diálogos que solicitan códigos](diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md)** — Pulsa automáticamente Añadir en los diálogos que piden códigos.
+* **[Mostrar campo Sistema de referencia de coordenadas](diging/mostrar-campo-sistema-de-referencia-de-coordenadas.md)** — Muestra el campo SRC en la pestaña Archivo de dibujo de Nuevo proyecto.
 
 ### Ventana fotogramétrica
 
