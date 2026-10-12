@@ -39,12 +39,12 @@ Esta orden solicita en este cuadro de diálogo qué atributos de base de datos t
 
 ![Cuadro de diálogo Se está intentando unir dos entidades con distintos atributos de base de datos](../../../../../images/unir-distintos-atributos.png)
 
-El cuadro muestra una tabla con los campos que tienen distinto valor. La columna **Campo** contiene el nombre del campo. La primera columna **Valor** contiene el valor en la primera línea seleccionada y la segunda columna **Valor**, el valor en la segunda. La comparación no tiene en cuenta los campos marcados con `comparable="0"` en el esquema de la base de datos ni los campos binarios.
+El cuadro muestra una tabla con los campos que tienen distinto valor. La columna **Campo** contiene el nombre del campo. La primera columna **Valor** contiene el valor en la primera línea seleccionada y la segunda columna **Valor**, el valor en la segunda. La comparación no tiene en cuenta los campos marcados con `comparable="0"` en el esquema de la base de datos ni los campos binarios. El campo de clave primaria (por ejemplo, **Id**) sí se compara si no está marcado con `comparable="0"`; en ese caso, dos líneas enlazadas a registros distintos muestran siempre este cuadro, aunque el resto de campos coincida.
 
 * **Cancelar la operación de unir.**: no une las líneas. Es la opción por defecto.
 * **Unirlas adoptando los atributos de la primera entidad seleccionada.**: une las líneas. La línea unida conserva los códigos y los atributos de la primera línea.
 * **Unirlas adoptando los atributos de la segunda entidad seleccionada.**: une las líneas. La línea unida recibe los códigos y los atributos de la segunda línea.
-* **Más información**: despliega un texto que indica que el cuadro aparece cuando dos entidades con enlace a base de datos tienen algún atributo distinto, sin contar el campo marcado como clave primaria, para que decidas si las unes y con qué atributos. El texto pone como ejemplo una carretera con el atributo Carriles igual a 2 y otra con Carriles igual a 10: la línea unida tendrá 2 o 10 carriles según la opción que elijas.
+* **Más información**: despliega un texto que indica que el cuadro aparece cuando dos entidades con enlace a base de datos tienen algún atributo distinto, para que decidas si las unes y con qué atributos. El texto dice que no se cuenta el campo marcado como clave primaria, pero ese campo sí se compara, como se ve en la fila **Id** de la imagen. El texto pone como ejemplo una carretera con el atributo Carriles igual a 2 y otra con Carriles igual a 10: la línea unida tendrá 2 o 10 carriles según la opción que elijas.
 
 Si una de las dos líneas no pertenece al modelo actual, la opción elegida no cambia los atributos: la línea del modelo actual conserva los suyos.
 
