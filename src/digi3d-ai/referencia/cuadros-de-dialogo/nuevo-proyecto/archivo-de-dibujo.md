@@ -54,9 +54,14 @@ Los formatos que se pueden abrir en una ventana de dibujo, y la página que expl
 | Datawarehouse de Geomedia | `.mdb` | [Geomedia](../../ventana-de-dibujo/importadores-y-exportadores/geomedia.md) |
 | KML de Google Earth | `.kml` | [KML](../../ventana-de-dibujo/importadores-y-exportadores/kml.md) |
 | Conexión con PostGIS | `.pg` | [PostGIS](../../ventana-de-dibujo/importadores-y-exportadores/postgis.md) |
-| Esri FileGDB | `.gdb` | No tiene parámetros: la categoría aparece vacía. |
-| GeoPackage | `.gpkg` | No tiene parámetros: la categoría aparece vacía. |
-| WKT | `.wkt` | No tiene parámetros: la categoría aparece vacía. |
+| Esri FileGDB | `.gdb` | [FileGDB](../../ventana-de-dibujo/importadores-y-exportadores/filegdb.md). La categoría aparece vacía; al aceptar se muestra el cuadro de diálogo de selección de dataset. |
+| GeoPackage | `.gpkg` | [GeoPackage](../../ventana-de-dibujo/importadores-y-exportadores/geopackage.md). La categoría aparece vacía. |
+| WKT | `.wkt` | [WKT](../../ventana-de-dibujo/importadores-y-exportadores/wkt.md). La categoría aparece vacía. |
+| ArcGIS DEM | `.asc` | [ArcGIS DEM](../../ventana-de-dibujo/importadores-y-exportadores/arcgis-dem.md). No tiene parámetros. |
+| Imágenes ráster | Las de los formatos de imagen | [Imágenes ráster](../../ventana-de-dibujo/importadores-y-exportadores/raster.md) |
+| WMS | `.wmsconnection` | [WMS](../../ventana-de-dibujo/importadores-y-exportadores/wms.md) |
+
+Si el formato necesita un sistema de referencia de coordenadas y el archivo no lo tiene (por ejemplo, al crear un archivo nuevo), al pulsar **Aceptar** Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**. La página de cada formato explica dónde se guarda el sistema elegido.
 
 ## Observaciones
 
