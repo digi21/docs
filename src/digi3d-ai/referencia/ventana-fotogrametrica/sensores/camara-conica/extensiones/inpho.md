@@ -29,6 +29,14 @@ En los dos casos, Digi3D.AI lee la focal de `$FOCAL_LENGTH`, el punto principal 
 
 Con otro valor, Digi3D.AI muestra el mensaje «Se ha localizado una cámara con el tipo de distorsión: *tipo* no soportado».
 
+Mensajes de los datos de distorsión:
+
+* «La tabla $DISTORTION_TABLE del archivo *archivo* tiene un número de puntos de rejilla no válido: *nx* x *ny*»: el número de puntos de la rejilla en X o en Y no está entre 1 y 1000.
+* «Un bloque de $DISTORTION_TABLE del archivo *archivo* no contiene exactamente *nx* x *ny* valores»: el bloque de correcciones en X o el de correcciones en Y tiene más o menos valores que puntos tiene la rejilla.
+* «Una línea de $DISTORTION del archivo *archivo* tiene menos de 2 valores: *línea*»: una línea de la tabla de `SimpleRadial` no tiene radio y distorsión.
+
+Si no se localiza la cámara de una imagen, ni por su `$CAMERA_ID` ni por el nombre de la imagen, Digi3D.AI muestra el mensaje «No se localizó la cámara con identificador: *identificador* en el archivo: *archivo*».
+
 ## Orientaciones exteriores
 
 En la sección `$PHOTO` de cada imagen, Digi3D.AI lee:
