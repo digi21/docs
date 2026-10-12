@@ -24,13 +24,13 @@ Para cambiar una configuración sigue los siguientes pasos:
 El cuadro de diálogo tiene además estos elementos:
 
 * **Buscar**: filtra las opciones por texto, sin distinguir mayúsculas de minúsculas. Sí distingue las vocales acentuadas: `area` no encuentra **Área**. Muestra las opciones cuyo nombre contiene el texto y las categorías que las contienen, y despliega esas categorías. Si el texto aparece en el nombre de una categoría, se muestra la categoría plegada, con todas sus opciones. Con el campo vacío se muestran todas las categorías, plegadas.
-* **Área de descripción**: la parte inferior del cuadro de diálogo muestra la descripción de la opción seleccionada. Algunas opciones no tienen descripción y el área queda vacía.
+* **Área de descripción**: la parte inferior del cuadro de diálogo muestra en negrita el nombre del elemento seleccionado y, debajo, su descripción. Las categorías y algunas opciones no tienen descripción y solo muestran el nombre.
 * **Aceptar**: guarda los cambios. Si Digi3D.AI no se ejecuta como administrador, el botón muestra el escudo del Control de cuentas de usuario de _Windows_.
 * **Cancelar**: cierra el cuadro de diálogo sin guardar los cambios. Las opciones que añaden algunas extensiones, como [EXT puede extender fuera de límites](ext/ext-puede-extender-fuera-de-limites.md), no se guardan, pero Digi3D.AI usa el valor nuevo hasta que se cierra la aplicación.
 
 Al pulsar F1, se abre la página de ayuda de la opción seleccionada. Si la opción no tiene página asignada, se abre la de su categoría o, si tampoco la tiene, esta página.
 
-Al aceptar, si has cambiado alguna opción que no se aplica hasta reiniciar, por ejemplo **Tema** o **Configuración para un único monitor**, Digi3D.AI muestra el mensaje «Los cambios no serán visibles hasta que reinicie la aplicación».
+Al aceptar, si has cambiado alguna opción que no se aplica hasta reiniciar, por ejemplo **Tema**, **Configuración para un único monitor**, **Interfaz para seleccionar código** u **Orden dibujo (multi código)**, Digi3D.AI muestra el mensaje «Los cambios no serán visibles hasta que reinicie la aplicación».
 
 ## Opciones de configuración
 
@@ -74,7 +74,7 @@ Configura la orden BUSCAR\_CENTROIDE.
 
 ### Comportamiento de la ventana de dibujo
 
-Configura aspectos del comportamiento de la ventana de dibujo.
+Contiene la opción **Número de recientes**.
 
 * **[Número de recientes](comportamiento-de-diging/numero-de-recientes.md)** — Número de archivos de la lista de recientes.
 
@@ -594,7 +594,7 @@ Configura la orden UNIR.
 
 ### Ventana de dibujo
 
-Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
+Agrupa las opciones de la ventana de dibujo: zoom, selección de códigos, órdenes, clonado, directorios de macroinstrucciones y de símbolos, y el campo **Sistema de referencia de coordenadas** del cuadro de diálogo **Nuevo proyecto**.
 
 * **[Limitar el zoom máximo](diging/limitar-el-zoom-maximo.md)** — Impone un factor de zoom máximo en la ventana de dibujo.
 * **[Tamaño de ventana](diging/tamano-de-ventana.md)** — Tamaño mínimo que podrá representar la ventana de dibujo.
@@ -616,7 +616,7 @@ Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
 * **[Bloqueo de mayúsculas actúa como mayúsculas](diging/bloqueo-de-mayusculas-actua-como-mayusculas.md)** — El bloqueo de mayúsculas se interpreta como Shift + tecla.
 * **[Reset vacía la pila de órdenes](diging/reset-vacia-la-pila-de-ordenes.md)** — RESET anula todas las órdenes de la pila.
 * **[Escape vacía la pila de órdenes](diging/escape-vacia-la-pila-de-ordenes.md)** — Esc vacía toda la pila de órdenes.
-* **[Auto-Pulsar Añadir… en los diálogos que solicitan códigos](diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md)** — Pulsa automáticamente Añadir en los diálogos que piden códigos.
+* **[Auto-pulsar Añadir... en los diálogos que solicitan códigos](diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md)** — Pulsa automáticamente Añadir en los diálogos que piden códigos.
 * **[Mostrar campo Sistema de referencia de coordenadas](diging/mostrar-campo-sistema-de-referencia-de-coordenadas.md)** — Muestra el campo SRC en la pestaña Archivo de dibujo de Nuevo proyecto.
 
 ### Ventana fotogramétrica

@@ -1268,7 +1268,7 @@
           * [Bloqueo de mayúsculas actúa como mayúsculas](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/bloqueo-de-mayusculas-actua-como-mayusculas.md)
           * [Reset vacía la pila de órdenes](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/reset-vacia-la-pila-de-ordenes.md)
           * [Escape vacía la pila de órdenes](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/escape-vacia-la-pila-de-ordenes.md)
-          * [Auto-Pulsar Añadir… en los diálogos que solicitan códigos](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md)
+          * [Auto-pulsar Añadir... en los diálogos que solicitan códigos](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md)
           * [Mostrar campo Sistema de referencia de coordenadas](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/mostrar-campo-sistema-de-referencia-de-coordenadas.md)
         * [Ventana fotogramétrica](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/README.md)
           * [Mostrar panel lateral](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ventana-fotogrametrica/mostrar-panel-lateral.md)
