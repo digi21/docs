@@ -1,7 +1,9 @@
 # Modelo sin sistema de referencia de coordenadas
 <!-- id: modelo-sin-sistema-de-referencia -->
 
-Al cargar un modelo del sensor [Cónico](README.md), la extensión que lee el archivo de aerotriangulación obtiene de él el sistema de referencia de coordenadas del modelo. Si el archivo no lo indica, o lo indica sin componente vertical, Digi3D.AI muestra uno de los cuadros de esta página.
+Al cargar un modelo del sensor [Cónico](README.md), la extensión que lee el archivo de aerotriangulación obtiene de él el sistema de referencia de coordenadas del modelo. Si el archivo no lo indica, o lo indica sin componente vertical, la mayoría de las extensiones muestran uno de los cuadros de esta página.
+
+Muestran el cuadro de sistema horizontal las extensiones [Access](extensiones/access.md), [AeroOffice](extensiones/aerooffice.md), [DVP](extensiones/dvp.md), [EspaKernel](extensiones/espakernel.md), [IMU](extensiones/imu.md), [Intergraph](extensiones/intergraph.md), [LPS](extensiones/lps.md), [PatB](extensiones/patb.md), [Pix4D](extensiones/pix4d.md) y [Summit](extensiones/summit.md). La extensión [PhotoScan](extensiones/photoscan.md), que lee los proyectos de Metashape, lo muestra solo si el proyecto no indica sistema o indica un sistema local. Las extensiones [Inpho](extensiones/inpho.md) y [Digi3D](extensiones/digi3d.md) no lo muestran: si no obtienen el sistema del archivo, asignan al modelo un sistema desconocido. La extensión [ContextCapture](extensiones/contextcapture.md) no carga el modelo si el archivo no indica sistema.
 
 Por ejemplo, la extensión [IMU](extensiones/imu.md) lee el sistema de un archivo `.eo` en este orden: el archivo `.prj` con el mismo nombre que el `.eo` (`Bronchales.prj` para `Bronchales.eo`), el código EPSG del propio `.eo` y, si no hay ninguno de los dos, el cuadro de sistema horizontal.
 
@@ -12,10 +14,10 @@ Por ejemplo, la extensión [IMU](extensiones/imu.md) lee el sistema de un archiv
 El cuadro **¿Quieres asignar uno?** («No hemos localizado el Sistema de Referencia de Coordenadas de este modelo») ofrece tres opciones:
 
 * **Conozco el Sistema de Referencia de Coordenadas de este modelo y quiero indicar cuál es.**: muestra el cuadro de selección de sistema de referencia de coordenadas. Al aceptar, crea un archivo `.prj` con el sistema seleccionado junto al archivo de aerotriangulación, con su mismo nombre (con la extensión [DVP](extensiones/dvp.md), junto a la imagen izquierda). Si se cancela el cuadro de selección, actúa como la opción siguiente.
-* **Desconozco el Sistema de Referencia de Coordenadas de este modelo.**: crea el archivo `.prj` con un sistema desconocido.
-* **Quiero que me preguntéis la próxima vez.**: asigna al modelo un sistema desconocido y no crea ningún archivo `.prj`. El cuadro vuelve a aparecer la próxima vez que se carga el modelo.
+* **Desconozco el Sistema de Referencia de Coordenadas de este modelo.**: crea el archivo `.prj` con un sistema compuesto desconocido, de nombre «Sistema de coordenadas horizontal local + Sistema de coordenadas vertical local».
+* **Quiero que me preguntéis la próxima vez.**: asigna al modelo el mismo sistema desconocido y no crea ningún archivo `.prj`. El cuadro vuelve a aparecer la próxima vez que se carga el modelo.
 
-Las extensiones leen ese `.prj` antes de preguntar, así que el cuadro no vuelve a aparecer para ese archivo de aerotriangulación. Para cambiar el sistema, edita o borra el `.prj`.
+Las extensiones leen ese `.prj` antes de preguntar, así que el cuadro no vuelve a aparecer para ese archivo de aerotriangulación. Para cambiar el sistema, edita o borra el `.prj`. Si no se puede crear el `.prj` (por ejemplo, porque la carpeta es de solo lectura), Digi3D.AI no muestra ningún mensaje, el modelo se carga con el sistema elegido y el cuadro vuelve a aparecer en la siguiente carga.
 
 Con un sistema desconocido, Digi3D.AI no transforma las coordenadas del modelo a otros sistemas: por ejemplo, no puede comunicar la ventana fotogramétrica con Google Earth.
 
