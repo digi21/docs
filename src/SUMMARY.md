@@ -1316,6 +1316,7 @@
       * [Crear múltiples modelos](digi3d-ai/referencia/cuadros-de-dialogo/crear-multiples-modelos.md)
       * [Error al almacenar datos en la base de datos](digi3d-ai/referencia/cuadros-de-dialogo/error-al-almacenar-datos-en-la-base-de-datos.md)
       * [Error al crear el directorio de la copia de seguridad](digi3d-ai/referencia/cuadros-de-dialogo/error-al-crear-el-directorio-de-la-copia-de-seguridad.md)
+      * [Error de control de calidad](digi3d-ai/referencia/cuadros-de-dialogo/error-de-control-de-calidad.md)
       * [Error en los atributos de usuario](digi3d-ai/referencia/cuadros-de-dialogo/error-en-los-atributos-de-usuario.md)
       * [Introduce un punto terreno del archivo de puntos](digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md)
       * [Localizada una imagen no preparada para Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/localizada-una-imagen-no-preparada-para-digi3d-ai.md)
