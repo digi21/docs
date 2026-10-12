@@ -44,7 +44,7 @@ El cuadro muestra una tabla con los campos que tienen distinto valor. La columna
 * **Cancelar la operación de unir.**: no une las líneas. Es la opción por defecto.
 * **Unirlas adoptando los atributos de la primera entidad seleccionada.**: une las líneas. La línea unida conserva los códigos y los atributos de la primera línea.
 * **Unirlas adoptando los atributos de la segunda entidad seleccionada.**: une las líneas. La línea unida recibe los códigos y los atributos de la segunda línea.
-* **Más información**: despliega un texto que indica que dos entidades con enlace a base de datos solo se pueden unir si coinciden todos sus atributos, excepto el campo marcado como clave primaria. El texto pone como ejemplo una carretera con el atributo Carriles igual a 2 y otra con Carriles igual a 10.
+* **Más información**: despliega un texto que indica que el cuadro aparece cuando dos entidades con enlace a base de datos tienen algún atributo distinto, sin contar el campo marcado como clave primaria, para que decidas si las unes y con qué atributos. El texto pone como ejemplo una carretera con el atributo Carriles igual a 2 y otra con Carriles igual a 10: la línea unida tendrá 2 o 10 carriles según la opción que elijas.
 
 Si una de las dos líneas no pertenece al modelo actual, la opción elegida no cambia los atributos: la línea del modelo actual conserva los suyos.
 
