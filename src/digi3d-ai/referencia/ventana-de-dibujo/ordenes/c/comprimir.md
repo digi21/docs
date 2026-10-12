@@ -22,7 +22,7 @@ La orden ejecuta estos pasos:
 
 Tras ejecutar esta orden no se puede recuperar ninguna de las entidades borradas ni deshacer las operaciones anteriores.
 
-Si otra instancia de Digi3D.AI tiene cargado el mismo archivo como archivo de referencia, al terminar la compresión esa instancia muestra el mensaje «Archivo comprimido».
+Si otra instancia de Digi3D.AI tiene cargado el mismo archivo en solo lectura y recibe los cambios que se hacen en él, al terminar la compresión esa instancia muestra un mensaje que indica que otra instancia ha comprimido el archivo. A partir de ese momento deja de recibir los cambios del archivo, porque las entidades que tiene en memoria ya no se corresponden con el archivo comprimido: para cargar el archivo comprimido y volver a recibir sus cambios, ciérralo y vuelve a abrirlo en esa instancia. Los archivos que detectan los cambios externos, como los `.vec`, se vuelven a cargar solos y no muestran el mensaje.
 
 ### El archivo de dibujo está bloqueado
 
@@ -41,7 +41,7 @@ Si no puede cambiar el nombre del archivo porque otro programa, normalmente un a
 El cuadro muestra la ruta del archivo y ofrece dos opciones:
 
 * **Volver a intentarlo.**: Digi3D.AI vuelve a intentar cambiar el nombre del archivo. Si lo consigue, continúa con la compresión. Si no, vuelve a mostrar el cuadro.
-* **Cancelar la compresión.**: Digi3D.AI no modifica el archivo. Las entidades borradas siguen en el archivo con la marca de borrado, y se quitarán la próxima vez que lo comprimas. El dibujo sigue abierto y puedes seguir trabajando con él. Las entidades borradas ya no están en memoria, así que en esta sesión no se pueden recuperar; al volver a abrir el archivo se cargan de nuevo con la marca de borrado. Las otras instancias de Digi3D.AI no reciben el mensaje «Archivo comprimido».
+* **Cancelar la compresión.**: Digi3D.AI no modifica el archivo. Las entidades borradas siguen en el archivo con la marca de borrado, y se quitarán la próxima vez que lo comprimas. El dibujo sigue abierto y puedes seguir trabajando con él. Las entidades borradas ya no están en memoria, así que en esta sesión no se pueden recuperar; al volver a abrir el archivo se cargan de nuevo con la marca de borrado. Las otras instancias de Digi3D.AI no reciben el aviso de que el archivo se ha comprimido.
 
 **Más información** describe los tres pasos de la compresión y propone cerrar el programa que bloquea el archivo o deshabilitar el antivirus antes de pulsar **Volver a intentarlo**.
 
