@@ -41,7 +41,7 @@ Insertada la geometría 12345
 [COMIENZO DE TRANSACCIÓN] <- Este nodo se inserta siempre antes de instanciar la orden
 ```
 
-Para hacer esto utilizamos el método [NewTransaction](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/newtransaction.md) pasando como parámetro _verdadero_, justo antes de añadir o eliminar la geometría. Al pasar _verdadero_ ocurre lo siguiente:
+Para hacer esto utilizamos el método NewTransaction pasando como parámetro _verdadero_, justo antes de añadir o eliminar la geometría. Al pasar _verdadero_ ocurre lo siguiente:
 
 * Digi3D.AI comprueba si el último nodo añadido en la pila de UNDO es un nodo de COMIENZO DE TRANSACCIÓN. En caso afirmativo, no hace nada.
 * En caso contrario, añade un nodo de FIN DE TRANSACCIÓN e inmediatamente después añade un nodo de COMIENZO DE TRANSACCIÓN.
@@ -69,4 +69,4 @@ Insertada la geometría 111
 
 Si el usuario ahora ejecuta la orden UNDO, ésta no sabrá qué hacer, pues no puede localizar en la pila de UNDO un nodo de FIN DE TRANSACCIÓN y como la orden UNDO únicamente elimina lo que hay entre un nodo de FIN DE TRANSACCIÓN y el nodo de COMIENZO DE TRANSACCIÓN, pues no deshace nada.
 
-Para solucionar este problema, podemos llamar al método [NewTransaction](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/newtransaction.md) para que se inserte un nodo de FIN DE TRANSACCIÓN en la pila.
+Para solucionar este problema, podemos llamar al método NewTransaction para que se inserte un nodo de FIN DE TRANSACCIÓN en la pila.

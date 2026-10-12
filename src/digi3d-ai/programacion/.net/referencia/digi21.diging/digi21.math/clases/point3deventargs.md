@@ -16,7 +16,7 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 |  |  |
 | :--- | :--- |
-| Point3DEventArgs\(Point3D\) | Inicializa una nueva instancia de [Point3DEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3deventargs.md) pasado por parámetros. |
+| Point3DEventArgs\(Point3D\) | Inicializa una nueva instancia de Point3DEventArgs pasado por parámetros. |
 
 ## Propiedades
 

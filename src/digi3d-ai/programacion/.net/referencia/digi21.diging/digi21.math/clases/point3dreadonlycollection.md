@@ -18,7 +18,7 @@ Implementa: [IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.c
 
 |  |  |
 | :--- | :--- |
-| Count | Devuelve el número de elementos contenidos en el [Point3DReadOnlyCollection](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3dreadonlycollection.md). |
+| Count | Devuelve el número de elementos contenidos en el Point3DReadOnlyCollection. |
 | Item\[Int32\] | Asigna o devuelve el elemento en el índice especificado. |
 
 ## Métodos
@@ -27,6 +27,6 @@ Implementa: [IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.c
 | :--- | :--- |
 | Clear\(\) | Elimina todos los [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
 | Contains\(Point3D\) | Determina si el [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-| CopyTo\(Point3D\[\], int\) | Copia los elementos del [Point3DReadOnlyCollection](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3dreadonlycollection.md), comenzando en un índice en particular. |
+| CopyTo\(Point3D\[\], int\) | Copia los elementos del Point3DReadOnlyCollection, comenzando en un índice en particular. |
 | IndexOf\(Point3D\) | Determina el índice de un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
 

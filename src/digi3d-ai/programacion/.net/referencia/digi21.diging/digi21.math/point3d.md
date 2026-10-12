@@ -40,8 +40,8 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 | :--- | :--- |
 | DotProduct\(Point2D, Point2D\) | Devuelve el producto escalar de dos [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
 | CrossProduct\(Point3D, Point3D\) | Devuelve el producto vectorial de dos [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-| CalculateModule\(Point3D, Point3D\) | Calcula el módulo en el espacio entre un [Point3D](point3d.md)y un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-| CalculateModule\(Point3D, Point2D\) | Calcula el módulo en el espacio entre un [Point3D](point3d.md)y un [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| CalculateModule\(Point3D, Point3D\) | Calcula el módulo en el espacio entre un Point3D y un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
+| CalculateModule\(Point3D, Point2D\) | Calcula el módulo en el espacio entre un Point3D y un [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 | CalculateModule\(Point2D, Point3D\) | Calcula el módulo en el espacio entre un [Point2D](point2d.md)y un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
 | CalculateModule\(Point2D, Point2D\) | Calcula el módulo en el espacio entre dos [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 | CalculateSquaredModule\(Point3D, Point3D\) | Calcula el módulo en el espacio al cuadrado entre dos [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
@@ -55,7 +55,7 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 |  |  |
 | :--- | :--- |
-| Point2D | Transforma el [Point3D](point3d.md)en un [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
+| Point2D | Transforma el Point3D en un [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md). |
 | == | Devuelve verdadero si los dos [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)tienen idénticas coordenadas. |
 | != | Devuelve verdadero si los dos [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)tienen distintas coordenadas. |
 | + | Devuelve un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
