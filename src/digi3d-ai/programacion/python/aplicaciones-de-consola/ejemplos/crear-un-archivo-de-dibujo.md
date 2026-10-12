@@ -80,12 +80,11 @@ print(f"{writer.written} entidades escritas, {writer.rejected} rechazadas")
 ```
 
 ```
-No se ha escrito: Polygon ['PARC']
-3 entidades escritas, 1 rechazadas
+4 entidades escritas, 0 rechazadas
 ```
 
-`add` devuelve `False` cuando la geometría no se escribe. Aquí el exportador de DXF no admite
-polígonos. `version=7` escribe un DXF de AutoCAD 2013.
+`add` devuelve `False` cuando la geometría no se escribe. Aquí se escriben todas: el exportador de
+DXF escribe el polígono como un sombreado (HATCH). `version=7` escribe un DXF de AutoCAD 2013.
 
 ## Revisar los avisos del exportador
 
@@ -101,7 +100,6 @@ No se han localizado parámetros para traducir a DWG/DXF entidades con el códig
 No se localizó ninguna entrada para traducir el código: VERT. La entidad se ha almacenado en la capa 'VERT'.
 No se localizó ninguna entrada para traducir el código: LINDE. La entidad se ha almacenado en la capa 'LINDE'.
 No se localizó ninguna entrada para traducir el código: PARC. La entidad se ha almacenado en la capa 'PARC'.
-Error al almacenar una entidad: No se pueden almacenar polígonos en un archivo dwg.
 No se localizó ninguna entrada para traducir el código: ROTULO. La entidad se ha almacenado en la capa 'ROTULO'.
 ```
 
