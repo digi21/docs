@@ -24,7 +24,7 @@ No admite parámetros.
 
 El archivo LAS contiene los puntos de la malla situados dentro del límite que se pueden proyectar sobre la triangulación. Si no se proyecta ningún punto, no se crea el archivo LAS y la orden no muestra ningún aviso. Si no se puede crear el archivo LAS, aparece el mensaje «Error al crear el archivo temporal...».
 
-El archivo TIFF es un ráster de 32 bits en coma flotante que cubre el rectángulo envolvente del límite, con valor sin datos -32767.
+El archivo TIFF es un ráster de 32 bits en coma flotante que cubre el rectángulo envolvente del límite, con valor sin datos -32767. Su georreferencia sitúa la esquina superior izquierda del ráster en la esquina NW del rectángulo envolvente, con celdas de lado igual a la equidistancia. Cada celda contiene la Z de la triangulación en el centro de la celda, o -32767 si ese centro queda fuera de la triangulación.
 
 ## Características de la orden
 
