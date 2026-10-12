@@ -16,7 +16,7 @@ Cada imagen ocupa un bloque que empieza por una línea `frame` y termina en una 
 * La línea siguiente a `frame`: su primera palabra es el nombre de la imagen. Digi3D.AI lo compara sin extensión con el nombre del archivo de imagen del modelo sin extensión, sin distinguir mayúsculas de minúsculas.
 * La línea siguiente a `geometry`: un elemento XML `geometry` en una sola línea con el centro de proyección (`e`, `n`, `z`) y los giros (`omega`, `phi`, `kappa`) en grados centesimales. Digi3D.AI construye la matriz de rotación con el orden omega, phi, kappa.
 * La línea siguiente a la de `geometry`: un elemento XML `camera` en una sola línea con la calibración de la cámara.
-* La línea que empieza por `ground_mean_height`.
+* La línea que empieza por `ground_mean_height`: su segunda palabra es la altura media del terreno.
 
 Esquema de un bloque, con `…` en lugar de los valores:
 
@@ -70,4 +70,5 @@ En el panel [Proyecto fotogramétrico](../../../../paneles/proyecto-fotogrametri
 * «No se ha podido abrir el archivo: *archivo*»: Digi3D.AI no puede abrir el archivo `.els` o el `.esp`.
 * «No se han localizado los parámetros de la imagen: *imagen* en el archivo: *archivo*»: ningún bloque `frame` corresponde a la imagen.
 * «No se ha localizado la palabra "*palabra*" en el archivo: *archivo*»: falta `geometry`, `ground_mean_height` o `frame_end` en un bloque.
+* «"*elemento*" tiene *n* valores y se esperaban *m* en el archivo: *archivo*»: la línea `ground_mean_height` no tiene valor, un elemento del XML `camera` (`pp_x_y`, `r_1_2_3`, `t_1_2` o `sen_h_w_pix`) tiene menos valores de los que indica la tabla de la sección [Cámara](#cámara), o una línea del `.esp` solo tiene el nombre de una imagen.
 * «Error en la línea: *n*, columna: *n*» o «Error al cargar el archivo: *archivo* Línea: *n*, columna: *n*»: un elemento XML `geometry` o `camera` no está bien formado.
