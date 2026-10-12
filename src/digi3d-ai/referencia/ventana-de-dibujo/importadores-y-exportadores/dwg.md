@@ -69,6 +69,10 @@ En los parámetros de `.dwg`, la versión es también el índice de la lista (0 
 
 El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que el archivo de dibujo. Si ese archivo no existe (por ejemplo, al crear un archivo nuevo), Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido. Si el archivo se abre en solo lectura o se importa, no se crea el `.prj` y el sistema elegido solo se usa durante la sesión. Consulta [Ubicación del sistema de referencia de coordenadas](../../../sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/archivos-de-dibujo/ubicacion-src-archivos-dibujo.md).
 
+### Códigos que no se exportan
+
+Si en la tabla de códigos la traducción DWG de un código tiene **Traducir este código** = Falso (atributo `export="0"`), las entidades con ese código no se escriben en el archivo. Al almacenar una de esas entidades en una ventana de dibujo DWG, Digi3D.AI la descarta y muestra un globo: «El código *código* no se exporta a DWG (export="0" en la tabla de códigos); la entidad no se ha almacenado.». El globo aparece una vez por código mientras Digi3D.AI está abierto.
+
 ### Opciones de la configuración
 
 El cuadro de diálogo Configuración tiene más opciones de este formato en [Importador/exportador de archivos DWG](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-dwg/README.md).
