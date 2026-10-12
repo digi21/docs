@@ -51,7 +51,9 @@ para PostGIS, en el mismo orden, y se pasan solo por nombre.
 
 Restricciones de `server`, `user`, `password` y `database` (cada una lanza `ValueError`):
 
-- no pueden tener saltos de línea, comillas simples ni barras invertidas;
+- no pueden tener saltos de línea;
+- no pueden tener a la vez comillas simples y dobles, porque el archivo de conexión delimita cada
+  valor con la comilla que el valor no contiene;
 - no pueden tener caracteres fuera de la página de códigos ANSI de Windows, porque el archivo de
   conexión se escribe en ella.
 
