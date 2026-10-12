@@ -1,6 +1,8 @@
 # Archivo
 <!-- id: menu-archivo-editor-tablas -->
 
+![Menú Archivo del editor de tablas de códigos con tres tablas recientes](../../../../../images/digitab-menu-archivo-recientes.png)
+
 | Opción | Acción |
 | :--- | :--- |
 | **Nuevo** | Crea una tabla de códigos vacía. Si la tabla abierta tiene cambios sin guardar, antes muestra el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios). |
@@ -15,6 +17,12 @@ Antes de escribir el archivo o el paquete, **Guardar**, **Guardar como...** y la
 
 ## Tablas de códigos recientes
 
-Al final del menú están las 10 últimas tablas de códigos que has abierto con **Abrir...** o con la propia lista, o que has guardado con **Guardar como...** o desde el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios). La más reciente es la **1**. Abrir o guardar una tabla que ya está en la lista la pasa al primer puesto. Las tablas cuya ruta tiene 260 caracteres o más no se añaden.
+Al final del menú están las 10 últimas tablas de códigos que has abierto con **Abrir...** o con la propia lista, o que has guardado con **Guardar como...** o desde el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios) cuando ese cuadro pide el nombre del archivo. La más reciente es la **1**. Abrir o guardar una tabla que ya está en la lista la pasa al primer puesto. Las tablas cuya ruta tiene 260 caracteres o más no se añaden. En el menú, las rutas largas se abrevian con `...`.
+
+Si eliges una tabla reciente que ya no existe, o cuya ruta es una carpeta, el editor muestra este aviso y quita la entrada de la lista:
+
+![Aviso de tabla de códigos reciente que ya no existe](../../../../../images/digitab-tabla-reciente-no-existe.png)
+
+Si la tabla no se puede abrir por otro motivo, por ejemplo porque la unidad no está conectada o no tienes permiso de acceso, la entrada se queda en la lista.
 
 La lista se guarda para tu usuario de Windows y se conserva al cerrar el editor.
