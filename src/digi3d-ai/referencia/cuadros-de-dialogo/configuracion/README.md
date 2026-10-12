@@ -72,9 +72,9 @@ Configura la orden BUSCAR\_CENTROIDE.
 
 * **[Tipo de zoom](buscar-centroide/tipo-de-zoom.md)** — Centra la ventana en el centroide localizado o hace zoom sobre él.
 
-### Comportamiento de DigiNG
+### Comportamiento de la ventana de dibujo
 
-Configura aspectos del comportamiento de DigiNG.
+Configura aspectos del comportamiento de la ventana de dibujo.
 
 * **[Número de recientes](comportamiento-de-diging/numero-de-recientes.md)** — Número de archivos de la lista de recientes.
 
@@ -181,7 +181,7 @@ Genera archivos de depuración que permiten detectar problemas.
 * **[Crear archivo de LOG](depuracion/crear-archivo-de-log.md)** — Si se activa, el programa almacenará en un archivo de LOG información para ayudar a detectar errores.
 * **[Ruta al archivo de LOG](depuracion/ruta-al-archivo-de-log.md)** — Ruta al archivo de LOG a crear.
 
-### DigiNG
+### Ventana de dibujo
 
 Configura los parámetros del motor principal de la ventana de dibujo (DigiNG).
 
