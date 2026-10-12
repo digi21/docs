@@ -1,7 +1,7 @@
 # Base de datos
 <!-- id: base-de-datos-3 -->
 
-![Editor de tablas de códigos mostrando la tabla Edificaciones con sus campos](../../../../../images/pestanabasedatos.png)
+![Editor de tablas de códigos mostrando la tabla VIAS con sus campos](../../../../../images/pestanabasedatos.png)
 
 Esta pestaña configura las tablas de la base de datos y los campos de cada tabla. Cada código puede enlazar con una tabla mediante su propiedad [Tabla](../codigos/base-de-datos.md#tabla).
 
@@ -49,6 +49,8 @@ Aparece al seleccionar otra tabla de la lista y cuando el texto de **Buscar tabl
 * **Descartar los cambios**: descarta los cambios y carga la tabla seleccionada. Si la tabla era nueva, la quita de la lista.
 
 ### Al pulsar Nueva
+
+![Cuadro No se han aplicado cambios al pulsar Nueva](../../../../../images/digitab-cambios-tabla-al-pulsar-nueva.png)
 
 Aparece al pulsar **Nueva**. Además de los dos botones del cuadro anterior, tiene **Cancelar**:
 
