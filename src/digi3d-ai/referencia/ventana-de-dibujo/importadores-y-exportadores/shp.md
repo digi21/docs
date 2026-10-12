@@ -16,7 +16,7 @@ PARAMETROS_IMPORTACION=.shp <Precision> <Codificacion>
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Precisión | Sí |
-| 2 | Codificación (número de la página de códigos del archivo `.dbf`; 255 = UTF-8) | Sí |
+| 2 | Codificación (identificador de controlador de idioma, *LDID*, que se escribe en la cabecera del archivo `.dbf`, en decimal; 255 = UTF-8) | Sí |
 
 Un parámetro que se omite toma el valor 0, no el valor guardado.
 
@@ -28,7 +28,7 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 | Propiedad | Valores | Qué hace |
 | :--- | :--- | :--- |
 | Decimales de precisión | Número entero. Por defecto, 0. | Al guardar cada geometría en el archivo, al exportar o al editar, redondea sus coordenadas a este número de decimales. Con 0 no se redondean. |
-| Codificación | Página de códigos de la lista, con su nombre en inglés: las de MS-DOS, _Windows_ y Macintosh de cada idioma, las asiáticas y UTF-8. Por defecto, UTF-8. | Codificación de los textos del archivo `.dbf` que se crea, que también se escribe en un archivo `.cpg`. Al leer, solo se usa si el `.dbf` no indica su codificación y no hay archivo `.cpg`. |
+| Codificación | Página de códigos de la lista, con su número entre paréntesis: las de MS-DOS, _Windows_ y Macintosh de cada idioma, las asiáticas y UTF-8. Por defecto, UTF-8. | Codificación de los textos del archivo `.dbf` que se crea, que también se escribe en un archivo `.cpg`. Al leer, solo se usa si el `.dbf` no indica su codificación y no hay archivo `.cpg`. |
 | Cargar región de interés (BETA) | Sí o No. Por defecto, No. | Con **Sí**, al abrir el archivo se carga solo la región de interés. La región se selecciona con el botón derecho sobre el archivo en el panel de archivos de dibujo. |
 
 Las tres propiedades aparecen tanto al crear el archivo como al abrir uno existente. Digi3D.AI guarda sus valores en la configuración del usuario.
