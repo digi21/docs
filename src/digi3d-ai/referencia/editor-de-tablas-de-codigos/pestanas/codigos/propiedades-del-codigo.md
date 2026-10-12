@@ -161,6 +161,7 @@ Esta categoría tiene dos propiedades:
 
 ![Cuadro de diálogo Controles de calidad](../../../../../images/controles-de-calidad.png)
 
+* **Buscar control**: deja en **Controles de calidad disponibles** solo las funciones cuyo nombre contiene el texto escrito, sin distinguir mayúsculas, minúsculas ni acentos. Con el cuadro vacío, la lista muestra todas las funciones. El texto no filtra la lista de controles a aplicar: los controles que ya has añadido se conservan al pulsar **Aceptar** aunque el texto oculte su función. La función seleccionada sigue seleccionada mientras el texto no la oculte; si la oculta, la lista queda sin selección y **Añadir** se desactiva. Pulsar Intro en este cuadro no cierra el cuadro de diálogo.
 * **Controles de calidad disponibles**: las funciones de control de calidad, con su descripción. **Añadir**, o hacer doble clic en una fila, la añade a la lista inferior.
 * **Controles de calidad a aplicar al código**: las funciones asignadas al código, en el orden en que se aplican. **Eliminar** quita la seleccionada; **Subir** y **Bajar** cambian su posición.
 * **Aceptar** guarda la lista en la propiedad, una función por línea. El cuadro de diálogo se puede redimensionar y recuerda su tamaño y su posición.
