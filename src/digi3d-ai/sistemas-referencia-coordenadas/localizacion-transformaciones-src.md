@@ -16,7 +16,7 @@ Las transformaciones especificadas en la base de datos _EPSG_ son siempre entre
 
 No existe ninguna transformación de coordenadas de referencia entre sistemas compuestos (que son la mayoría que vamos a utilizar con Digi3D.AI), pero Digi3D.AI se encarga de localizar correctamente las transformaciones entre sistemas compuestos y horizontales y verticales de forma transparente para el usuario.
 
-Si uno de los dos sistemas es compuesto, como por ejemplo _ED50 / UTM Zone 30N + EGM06_ se localizará la transformación horizontal por un lado y vertical por otro realizando una serie de operaciones de concatenación que encapsulan ambas transformaciones en una única transformación.
+Si uno de los dos sistemas es compuesto, como por ejemplo _ED50 / UTM Zone 30N + EGM96 height_ se localizará la transformación horizontal por un lado y vertical por otro realizando una serie de operaciones de concatenación que encapsulan ambas transformaciones en una única transformación.
 
 No existen transformaciones entre todos los sistemas de referencia de coordenadas. Por ejemplo, no existe ninguna transformación entre los sistemas de coordenadas horizontales _ED50 / UTM Zone 30N y NAD83(NSR2007) / Florida East (ftUS)._
 
@@ -29,11 +29,16 @@ Cuando Digi3D.AI intenta localizar una transformación entre dos sistemas pueden
     En este caso, Digi3D.AI utilizará dicha transformación sin preguntarle nada al usuario. La transformación se asignará de forma transparente para el usuario.
 2.  Que no se localice ninguna transformación entre ambos sistemas.
 
-    Si se está intentando localizar una transformación horizontal:
+    Si se está intentando localizar una transformación horizontal, Digi3D.AI muestra un cuadro de tareas con el mensaje de error del motor de transformaciones y los nombres de los dos sistemas, y cancela la operación que necesitaba la transformación. El mismo cuadro aparece si no se localiza una transformación vertical y cancelas el cuadro de diálogo **Selección de transformación vertical**, que se describe más abajo.
 
-    En este caso Digi3D.AI le comunicará al usuario la imposibilidad de localizar una transformación mediante un cuadro de diálogo mostrando toda la información posible para que el usuario sepa cual es el problema. Generalmente esto cancela la operación que se estaba realizando, por ejemplo, la siguiente captura de pantalla se muestra al intentar abrir una ventana de dibujo con un sistema incompatible con el de la ventana fotogramétrica (que ya está abierta). Una vez aceptado el cuadro de diálogo por parte del usuario se cancelará la creación de la ventana de dibujo.
+    El cuadro depende de los sistemas entre los que falta la transformación:
 
-    ![](../../images/mensaje-de-error-porque-no-existe-transformacion-entre-dos-sistemas.png)
+    * **Entre la ventana de dibujo y un archivo de dibujo.** Aparece el cuadro **Se localizó un problema al crear una transformación entre dos sistemas de coordenadas de referencia** («No se ha podido crear la transformación o no se ha localizado ninguna transformación válida»). **Más información** muestra el código EPSG y el nombre de los dos sistemas, y propone seleccionar el sistema Local para la ventana de dibujo. Digi3D.AI no carga el archivo de dibujo: si es el archivo con el que se abre la ventana de dibujo, la ventana no se abre; si es un archivo de referencia, no se añade.
+    * **Entre la ventana fotogramétrica y la ventana de dibujo.** Aparece el cuadro **No se ha podido localizar o crear una transformación**. Si se estaba abriendo la ventana de dibujo, la ventana no se abre. Si se estaba cargando un modelo con la ventana de dibujo abierta, el modelo no se carga.
+
+    La siguiente captura corresponde al primer caso. El sistema de la ventana de dibujo es _ETRS89 / UTM zone 30N + EGM96 height_. El sistema del archivo de dibujo es _ETRS89 / UTM zone 30N + Sistema de coordenadas vertical local_. Digi3D.AI asigna ese sistema vertical local a todo archivo de dibujo cuyo sistema no tiene componente vertical. No existe ninguna transformación entre _EGM96 height_ y un sistema vertical local, y el cuadro **Selección de transformación vertical** se canceló, así que el archivo no se carga.
+
+    ![Cuadro de tareas Se localizó un problema al crear una transformación entre dos sistemas de coordenadas de referencia](../../images/mensaje-de-error-porque-no-existe-transformacion-entre-dos-sistemas.png)
 
     Si por el contrario se estaba intentando localizar una transformación vertical, Digi3D.AI muestra el cuadro de diálogo **Selección de transformación vertical**.
 
