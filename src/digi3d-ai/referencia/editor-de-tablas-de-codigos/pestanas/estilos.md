@@ -9,8 +9,8 @@ Esta pestaña configura los estilos con los que se dibujan las geometrías. Cada
 
 Lista de los estilos de la tabla de códigos. Al seleccionar uno, sus propiedades aparecen en la parte inferior y su dibujo en **Previsualización**.
 
-* **Nuevo**: crea un estilo.
-* **Duplicar**: crea una copia del estilo seleccionado. Se deshabilita mientras el estilo tiene cambios sin aplicar.
+* **Nuevo**: crea un estilo llamado **Estilo*N***, con el primer número libre, de línea continua y sin símbolo. El estilo queda sin aplicar.
+* **Duplicar**: crea una copia del estilo seleccionado llamada **Copia de: *nombre***, sin aplicar. Se deshabilita mientras el estilo tiene cambios sin aplicar.
 * **Eliminar**: elimina el estilo seleccionado. No se puede eliminar el último estilo. Si algún código usa el estilo, un cuadro de tareas lista esos códigos y ofrece sustituirlo por el primer estilo de la lista (por el segundo, si se elimina el primero) o elegir el sustituto en el cuadro [Selecciona el estilo](selecciona-el-estilo.md).
 
 ## Previsualización y Zoom
@@ -32,26 +32,26 @@ Indica cómo se dibuja una línea con este estilo. No se aplica a las geometría
 
 ### Definición de patrón
 
-Lista de valores que alternan un tramo dibujado (pluma abajo) y un hueco (pluma arriba), en unidades del dibujo. Por ejemplo, para dibujar `---- - ---- - ----`:
+Lista de valores que alternan un tramo dibujado (pluma abajo) y un hueco (pluma arriba), en milímetros a la escala de dibujo: a escala 1:1000, 1 equivale a 1 metro. Los valores se separan con espacios o comas. Por ejemplo, para dibujar `---- - ---- - ----`:
 
 ```
 4 1 1 1
 ```
 
-* Dibuja una línea de 4 unidades.
-* Deja un espacio de 1 unidad.
-* Dibuja una línea de 1 unidad.
-* Deja un espacio de 1 unidad.
+* Dibuja una línea de 4 mm.
+* Deja un espacio de 1 mm.
+* Dibuja una línea de 1 mm.
+* Deja un espacio de 1 mm.
 
 ## Incluir un símbolo equidistante
 
 Si se activa, el estilo dibuja un símbolo a lo largo de la línea, o en la posición del punto si la geometría es puntual. Los siguientes campos se habilitan con esta casilla:
 
 * **Símbolo**: nombre del símbolo. Los símbolos son archivos de dibujo `.bin` de la carpeta configurada en **Herramientas/Configuración...**, habitualmente `C:\ProgramData\Digi3D.NET\Símbolos`. El botón **...** abre el cuadro [Selecciona el símbolo](selecciona-el-simbolo.md), que muestra los símbolos y las texturas de esa carpeta.
-* **Distancia**: separación entre símbolos a lo largo de la línea. Con 0 no se dibuja el símbolo en la línea.
+* **Distancia**: separación entre símbolos a lo largo de la línea, en milímetros a la escala de dibujo, como **Distancia inicial**. Con 0 no se dibuja el símbolo en la línea.
 * **Distancia inicial**: distancia desde el primer vértice de la línea hasta el primer símbolo.
 * **Factor de escala en X** y **Factor de escala en Y**: escala horizontal y vertical del símbolo. Con 0 no se dibuja el símbolo.
-* **Rotación del símbolo**: rotación en grados sexagesimales.
+* **Rotación del símbolo**: rotación en grados sexagesimales, en sentido horario y relativa a la dirección de cada tramo de la línea. En las geometrías puntuales se usa la rotación del punto.
 
 > Si no aparece el símbolo que buscas, comprueba la carpeta de símbolos en **Herramientas/Configuración...**
 
@@ -65,7 +65,7 @@ Si se activa, en lugar de la geometría se dibuja como texto el valor de un camp
 
 ## Aplicar los cambios
 
-Los cambios del estilo seleccionado se aplican al pulsar **Aplicar** o **Aceptar**. Si seleccionas otro estilo o cambias de pestaña con cambios sin aplicar, el editor pregunta si aplicarlos.
+Los cambios del estilo seleccionado se aplican al pulsar **Aplicar** o **Aceptar**. Si seleccionas otro estilo o pulsas **Nuevo** con cambios sin aplicar, el editor pregunta «¿Quieres guardar los cambios?»: **Sí** los aplica y **No** los descarta. Al cambiar de pestaña aparece el cuadro de la sección siguiente.
 
 ### Al cambiar de página
 
