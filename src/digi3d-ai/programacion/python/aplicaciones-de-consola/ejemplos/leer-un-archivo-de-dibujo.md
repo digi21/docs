@@ -74,3 +74,4 @@ for geometry in drawing:
 - [Referencia: digi21.io](../../referencia/digi21.io/README.md)
 - [Referencia: DrawingFile](../../referencia/digi21.base/drawingfile.md)
 - [Crear geometrías](crear-geometrias.md)
+- [Crear un archivo de dibujo](crear-un-archivo-de-dibujo.md)

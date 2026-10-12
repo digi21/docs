@@ -12,6 +12,7 @@ obtener sus [geometrías](geometry.md) una a una.
 | Propiedad | Tipo | Descripción |
 |---|---|---|
 | `path` | `str` | Ruta del archivo de dibujo. |
+| `crs` | `str` | WKT del sistema de coordenadas del archivo, o cadena vacía si el archivo no lo tiene. Sirve para pasarlo a `create` al convertir de un formato a otro. |
 
 ## Iteración
 
@@ -36,4 +37,5 @@ for geometry in drawing:
 ## Véase también
 
 - [digi21.io](../digi21.io/README.md)
+- [DrawingWriter](drawingwriter.md) — escribe un archivo de dibujo nuevo.
 - [Curso: leer un archivo de dibujo](../../aplicaciones-de-consola/ejemplos/leer-un-archivo-de-dibujo.md)
