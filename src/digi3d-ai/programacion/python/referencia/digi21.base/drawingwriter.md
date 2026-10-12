@@ -16,7 +16,7 @@ lo cierra al salir del bloque, o llama a `close()` al terminar.
 | `path` | `str` | Ruta del archivo de dibujo. |
 | `closed` | `bool` | `True` si el escritor ya se ha cerrado. |
 | `written` | `int` | Número de entidades escritas. En los formatos que no admiten varios códigos por entidad, una geometría con *n* códigos cuenta *n*. |
-| `rejected` | `int` | Número de geometrías que no se han escrito: borradas, virtuales, sin vértices, de un tipo que el formato no admite, o de las que el exportador ha informado de un error. |
+| `rejected` | `int` | Número de geometrías que no se han escrito: borradas, virtuales, sin vértices, de un tipo que el formato no admite, con códigos que el formato no sabe traducir, o de las que el exportador ha informado de un error. `warnings` explica cada motivo una vez. |
 | `warnings` | `list[str]` | Avisos del exportador del formato (códigos sin traducción en la tabla, capas creadas, errores al escribir una entidad…). |
 
 ## Métodos
@@ -24,10 +24,11 @@ lo cierra al salir del bloque, o llama a `close()` al terminar.
 | Método | Devuelve | Descripción |
 |---|---|---|
 | `add(geometry)` | `bool` | Escribe una copia de la [geometría](geometry.md). Devuelve `False` si no se ha escrito (se suma a `rejected`). Lanza `ValueError` si la geometría no tiene ningún código. |
-| `close()` | `None` | Termina el archivo. Si el escritor ya está cerrado, no hace nada. |
+| `close()` | `None` | Termina el archivo. Si el escritor ya está cerrado, no hace nada. Lanza `RuntimeError` si el exportador informa de un error al terminar el archivo (por ejemplo, no puede sustituir el destino); el escritor queda cerrado igualmente. |
 
 Llamar a `add` con el escritor cerrado, o volver a usarlo en un `with`, lanza `ValueError`. Los
-errores del exportador del formato llegan como `RuntimeError` con su mensaje.
+errores del exportador del formato llegan como `RuntimeError` con su mensaje. Si el bloque `with`
+termina con una excepción, un error al cerrar el archivo no la sustituye.
 
 ## Qué hace con cada geometría
 
