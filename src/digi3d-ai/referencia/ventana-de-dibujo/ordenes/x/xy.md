@@ -35,7 +35,7 @@ Teclea un punto por línea. Las líneas pueden terminar en CR LF, en LF o en CR.
 | `distancia<ángulo` | Distancia y ángulo en grados centesimales respecto al punto anterior, sin cambiar la Z. El ángulo se mide desde el eje X en sentido antihorario |
 | `distancia<<ángulo` | Distancia y ángulo en grados sexagesimales respecto al punto anterior, sin cambiar la Z. El ángulo se mide desde el eje X en sentido antihorario |
 
-Las coordenadas polares (`<` y `<<`) son siempre relativas al punto anterior y no llevan `@`. Una línea que empieza por `@` y contiene `<` tiene un solo valor, y la orden la ignora.
+Las coordenadas polares (`<` y `<<`) son siempre relativas al punto anterior y no llevan `@`. En una línea que empieza por `@`, el signo `<` no indica coordenadas polares: `@10<50` tiene un solo valor y la orden la ignora.
 
 La orden ignora las líneas vacías, las líneas con un solo valor y los valores que siguen al tercero. Un valor que no empieza por un número cuenta como 0; si empieza por un número, la orden usa ese número e ignora el resto del valor.
 
