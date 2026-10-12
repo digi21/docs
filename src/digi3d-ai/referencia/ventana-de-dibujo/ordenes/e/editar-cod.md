@@ -26,7 +26,7 @@ Esta orden muestra este cuadro de diálogo con los códigos de la entidad selecc
 * **Borrar**: quita el código seleccionado de la entidad. Solo está habilitado si hay un código seleccionado. La tecla Supr en la lista hace lo mismo.
 * **Añadir nuevo**: abre el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md) para añadir códigos a la entidad. La tecla Insert en la lista hace lo mismo. Los códigos que la entidad ya tiene no se añaden otra vez, salvo que esté activada la opción [Permitir códigos repetidos](../../../cuadros-de-dialogo/configuracion/diging/permitir-codigos-repetidos.md).
 * **Atributos**: los campos del registro de la base de datos enlazado con el código seleccionado. El título de la categoría es el nombre de la tabla. No se muestran la clave primaria ni los campos marcados como no visibles. Los campos que no se pueden editar aparecen atenuados.
-* **Avanzado**: abre el cuadro de diálogo **Editar parámetros avanzados del código**, que cambia la tabla y el ID del registro enlazado. Si el ID del código no es numérico, el botón no hace nada.
+* **Avanzado**: abre el cuadro de diálogo **Editar parámetros avanzados del código**, que cambia la tabla y el ID del registro enlazado. Si no hay ningún código seleccionado o el ID del código no es numérico, el botón no hace nada.
 * **Asignar ID**: abre el cuadro de diálogo **Asignar un ID existente**.
 * **Nuevo ID**: al aceptar, se creará un registro nuevo en la base de datos para el código seleccionado.
 * **Quitar**: desenlaza el código seleccionado de la base de datos y borra sus atributos.
@@ -43,10 +43,10 @@ Si Digi3D.AI no consigue almacenar los atributos de un código en la base de dat
 
 ![Cuadro de diálogo Editar parámetros avanzados del código](../../../../../images/editar-parametros-avanzados-del-codigo.png)
 
-Lo abre el botón **Avanzado** del editor de códigos. Cambia a mano la tabla y el registro de la base de datos enlazados con el código seleccionado.
+Lo abre el botón **Avanzado** del editor de códigos. Cambia a mano la tabla y el registro de la base de datos enlazados con el código seleccionado. El cuadro avisa de que no se comprueba si el número de tabla corresponde al código de la entidad ni si el número de registro existe en la base de datos, y termina con el texto «Utiliza este cuadro con precaución.»
 
-* **Tabla**: número de la tabla de la base de datos.
-* **Registro**: número del registro de esa tabla.
+* **Tabla**: número de la tabla de la base de datos. Al abrir el cuadro contiene la tabla actual del código.
+* **Registro**: número del registro de esa tabla. Al abrir el cuadro contiene el ID actual del código.
 * **Aceptar**: enlaza el código con esa tabla y ese registro. Digi3D.AI no comprueba que la tabla corresponda al código ni que el registro exista en la base de datos.
 * **Cancelar**: cierra el cuadro de diálogo sin cambiar el enlace.
 
