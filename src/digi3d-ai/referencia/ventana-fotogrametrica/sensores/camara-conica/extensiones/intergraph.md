@@ -44,7 +44,7 @@ Digi3D.AI busca cada imagen del modelo en el archivo `photo` por el nombre del a
 
 ## Orientaciones exteriores
 
-Si la imagen izquierda tiene `EO_parameters:` en el archivo `photo`, Digi3D.AI usa los `EO_parameters:` de las dos imágenes. Si no, usa `AO_parametersL:` y `AO_parametersR:` del modelo. Los giros están en grados sexagesimales y Digi3D.AI construye la matriz de rotación con el orden omega, phi, kappa.
+Si las dos imágenes tienen `EO_parameters:` en el archivo `photo`, Digi3D.AI usa los `EO_parameters:` de las dos imágenes. Si no, usa `AO_parametersL:` y `AO_parametersR:` del modelo. Los giros están en grados sexagesimales y Digi3D.AI construye la matriz de rotación con el orden omega, phi, kappa.
 
 ## Cámara
 
