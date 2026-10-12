@@ -47,7 +47,7 @@ Qué hace el exportador:
 - Escribe cada geometría como un `Feature` con su primer código en la propiedad `Layer`. Una geometría
   con varios códigos se escribe una vez por código.
 - Escribe los textos como puntos con el texto en la propiedad `text`.
-- Escribe las coordenadas con 6 decimales.
+- Escribe las coordenadas con precisión completa: `open` las lee con el mismo valor.
 
 Excepciones de `create`: `ValueError` si `crs` no es válido; `FileNotFoundError` si la carpeta de
 `path` no existe.

@@ -45,12 +45,10 @@ y se pasan solo por nombre.
 Qué hace el exportador:
 
 - Escribe las coordenadas **sin transformarlas**: pásale geometrías con longitud y latitud en grados.
-- Escribe las coordenadas con **6 cifras significativas**: una latitud de 40 grados se guarda con 4
-  decimales (unos 11 m).
+- Escribe las coordenadas con precisión completa: `open` las lee con el mismo valor.
 - No escribe textos: `add` devuelve `False`.
-- Escribe el código como nombre del `Placemark` **solo si el código está en la tabla de códigos**. Con
-  un código que no está en la tabla, o sin tabla, escribe `(desconocido)`, y `open` lee ese nombre
-  como código. `warnings` no lo avisa.
+- Escribe el código de la geometría como nombre del `Placemark`, y `open` lee ese nombre como código.
+  La descripción del código solo se escribe si el código está en la tabla de códigos.
 - Escribe el archivo al cerrar el escritor.
 
 Excepciones de `create`: `ValueError` si `crs` no es válido; `FileNotFoundError` si la carpeta de
@@ -155,10 +153,10 @@ print(punto[0])
 ```
 
 ```
-(-3.70123, 40.4168, 657.123)
+(-3.70123456, 40.41678912, 657.123)
 ```
 
-Cada coordenada conserva 6 cifras significativas.
+Las coordenadas se leen con el mismo valor con el que se escribieron.
 
 ## Véase también
 
