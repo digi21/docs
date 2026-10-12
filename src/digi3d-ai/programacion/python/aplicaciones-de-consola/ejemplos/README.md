@@ -11,6 +11,8 @@ Para la descripción detallada de cada clase y método, consulta la
 
 - [Leer un archivo de dibujo](leer-un-archivo-de-dibujo.md) — abrir un archivo y recorrer
   sus geometrías.
+- [Crear un archivo de dibujo](crear-un-archivo-de-dibujo.md) — escribir geometrías en un
+  archivo nuevo y convertir un archivo de un formato a otro.
 - [Crear geometrías](crear-geometrias.md) — construir puntos, líneas, polígonos, textos y
   complejos.
 - [Relaciones entre geometrías](relaciones-entre-geometrias.md) — consultar si dos

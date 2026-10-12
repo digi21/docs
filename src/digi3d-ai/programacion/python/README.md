@@ -6,7 +6,7 @@ Digi3D.AI se puede **programar en Python**. Según dónde y cómo se ejecute el 
 
 | Forma | Qué es | ¿Usa el objeto `digi3d`? |
 |---|---|---|
-| [Aplicaciones de consola](aplicaciones-de-consola/README.md) | Programas Python normales (fuera de Digi3D.AI) que leen y procesan archivos de dibujo. | No |
+| [Aplicaciones de consola](aplicaciones-de-consola/README.md) | Programas Python normales (fuera de Digi3D.AI) que leen, procesan y crean archivos de dibujo. | No |
 | [Panel de Python](panel-de-python/README.md) | Guiones que se ejecutan dentro de Digi3D.AI, sobre el dibujo activo. | Sí |
 | [Controles de calidad](controles-de-calidad/README.md) | Funciones que validan las geometrías de un código. | Sí |
 
@@ -17,8 +17,9 @@ Digi3D.AI se puede **programar en Python**. Según dónde y cómo se ejecute el 
 ## Aplicaciones de consola
 
 Programas de Python **normales**, ejecutados en un intérprete de tu sistema **fuera de
-Digi3D.AI**, que usan los paquetes `digi21.base` y `digi21.io` para **leer y procesar archivos
-de dibujo** (convertir, extraer información, generar informes…). No usan el objeto `digi3d`.
+Digi3D.AI**, que usan los paquetes `digi21.base` y `digi21.io` para **leer, procesar y crear
+archivos de dibujo** (convertir de un formato a otro, extraer información, generar informes…). No
+usan el objeto `digi3d`.
 
 - [Ir a la sección](aplicaciones-de-consola/README.md)
 - [Ejemplos de programación](aplicaciones-de-consola/ejemplos/README.md)
@@ -45,5 +46,5 @@ bajo demanda). También usan el objeto `digi3d`.
 ## Referencia
 
 La [Referencia de la API](referencia/README.md) describe formalmente los tres módulos:
-`digi21.base` (tipos del núcleo), `digi21.io` (lectura de archivos) y `digi3d` (el módulo
+`digi21.base` (tipos del núcleo), `digi21.io` (lectura y escritura de archivos) y `digi3d` (el módulo
 disponible dentro del programa).

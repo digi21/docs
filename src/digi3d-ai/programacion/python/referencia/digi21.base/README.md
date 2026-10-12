@@ -1,7 +1,7 @@
 # digi21.base
 <!-- id: digi21.base -->
 
-Tipos del núcleo de Digi3D.AI. No abre archivos (para eso está
+Tipos del núcleo de Digi3D.AI. No abre ni crea archivos (para eso está
 [digi21.io](../digi21.io/README.md)).
 
 ```python
@@ -23,7 +23,8 @@ from digi21.base import Point, Line, Polygon, FeatureCode, DigiTab, Camera
 | [Polygon](polygon.md) | Un polígono (línea cerrada con huecos). |
 | [Complex](complex.md) | Un elemento complejo que agrupa geometrías. |
 | [Camera](camera.md) | Una cámara (posición, rotaciones, proyección). |
-| [DrawingFile](drawingfile.md) | Un archivo de dibujo abierto (lo devuelve `digi21.io`). |
+| [DrawingFile](drawingfile.md) | Un archivo de dibujo abierto (lo devuelve `open` de `digi21.io`). |
+| [DrawingWriter](drawingwriter.md) | Un archivo de dibujo que se está escribiendo (lo devuelve `create` de `digi21.io`). |
 
 ## Enumeraciones
 

@@ -2,9 +2,9 @@
 <!-- id: aplicaciones-de-consola -->
 
 Programas de Python **normales**, que se ejecutan en un intérprete de Python **fuera de
-Digi3D.AI** (el que **incluye el propio programa** o uno tuyo de 3.12). Sirven para **leer y
-procesar archivos de dibujo** (convertir formatos, extraer información, generar informes, hacer
-controles por lotes…) sin necesidad de abrir el programa.
+Digi3D.AI** (el que **incluye el propio programa** o uno tuyo de 3.12). Sirven para **leer,
+procesar y crear archivos de dibujo** (convertir de un formato a otro, extraer información,
+generar informes, hacer controles por lotes…) sin necesidad de abrir el programa.
 
 > Digi3D.AI **trae su propio intérprete de Python 3.12** en la carpeta de instalación, con
 > `digi21` ya disponible. Consulta [Intérprete incluido, pip y entornos virtuales](pip-y-entornos-virtuales.md).
@@ -13,11 +13,11 @@ Usan dos paquetes:
 
 | Paquete | Para qué sirve |
 |---|---|
-| `digi21.base` | Tipos del núcleo: códigos, geometrías, tablas de códigos y cámara. No abre archivos. |
-| `digi21.io.<formato>` | Lectura de archivos de dibujo. Un módulo por formato (`bindouble`, `bin`, `asciidigi`, `dgn`, `dwg`, `dxf`). |
+| `digi21.base` | Tipos del núcleo: códigos, geometrías, tablas de códigos y cámara. No abre ni crea archivos. |
+| `digi21.io.<formato>` | Lectura (`open`) y escritura (`create`) de archivos de dibujo. Un módulo por formato (`bindouble`, `bin`, `asciidigi`, `dgn`, `dwg`, `dxf`). |
 
 `digi21.io` se apoya en `digi21.base`: al abrir un archivo se obtienen geometrías que son
-instancias de los tipos de `digi21.base`.
+instancias de los tipos de `digi21.base`, y al crear uno se escriben geometrías de esos tipos.
 
 > En esta forma de programación **no** existe el objeto `digi3d`: ese solo está disponible dentro
 > de Digi3D.AI, en el [panel de Python](../panel-de-python/README.md) y en los
@@ -32,6 +32,16 @@ import digi21.io.bindouble as bind
 drawing = bind.open("ciudad.bind")
 for geometry in drawing:
     print(type(geometry).__name__, len(geometry), "vértices")
+```
+
+```python
+import digi21.io.bindouble as bind
+import digi21.io.dxf as dxf
+
+origen = bind.open("ciudad.bind")
+with dxf.create("ciudad.dxf", crs=origen.crs) as writer:
+    for geometry in origen:
+        writer.add(geometry)
 ```
 
 ```python
@@ -55,6 +65,6 @@ if linea.crosses(otra_linea):
 
 - [Intérprete incluido, pip y entornos virtuales](pip-y-entornos-virtuales.md) — usa el Python que
   trae Digi3D.AI e instala paquetes de terceros (numpy…) con un entorno virtual.
-- [Ejemplos de programación](ejemplos/README.md) — aprende leyendo archivos, creando geometrías
-  y consultando relaciones espaciales.
+- [Ejemplos de programación](ejemplos/README.md) — aprende leyendo y creando archivos, creando
+  geometrías y consultando relaciones espaciales.
 - [Referencia de la API](../referencia/README.md) — `digi21.base` y `digi21.io`.
