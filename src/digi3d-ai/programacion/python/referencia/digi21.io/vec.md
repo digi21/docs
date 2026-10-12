@@ -134,12 +134,11 @@ print(writer.warnings)
 
 ```
 False
-['The code 040645 is not in the digitab.']
+['The format cannot store a complex.']
 ```
 
-Sin tabla de códigos, el aviso atribuye el rechazo al código, pero el motivo es el tipo de
-geometría: el formato no admite complejos. Para conservar su contenido, escribe cada geometría hija
-por separado (`for hija in bloque: writer.add(hija)`).
+El formato no admite complejos. Para conservar su contenido, escribe cada geometría hija por
+separado (`for hija in bloque: writer.add(hija)`).
 
 ## Véase también
 
