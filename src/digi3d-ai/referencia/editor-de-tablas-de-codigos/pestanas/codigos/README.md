@@ -13,18 +13,21 @@ Botones de la lista:
 
 * **Nuevo...**: abre el cuadro **Nuevo código**, que pide el nombre del código y avisa si ya existe en la tabla de códigos.
 * **Copiar...**: crea un código nuevo con las propiedades del seleccionado; pide su nombre en el mismo cuadro.
-* **Eliminar**: elimina el código seleccionado.
+* **Eliminar**: elimina el código seleccionado, sin pedir confirmación.
 * **Subir** y **Bajar**: cambian la posición del código seleccionado.
+
+**Eliminar**, **Subir**, **Bajar** y las opciones del menú contextual modifican la tabla de códigos en el momento, sin pulsar **Aplicar**.
 * **Buscar...**: abre el cuadro **Buscar**, que localiza un código por su nombre. Sus casillas **Permitir buscar por descripción**, **Coincidir mayúsculas/minúsculas** y **Solo palabras completas** ajustan la búsqueda.
 * **Buscar sig.**: busca la siguiente coincidencia con los mismos criterios.
 
 ## Propiedades del código
 
-La cuadrícula inferior izquierda muestra las propiedades del código seleccionado, en tres categorías:
+La cuadrícula inferior izquierda muestra las propiedades del código seleccionado, en estas categorías:
 
 * [Propiedades del código](propiedades-del-codigo.md).
 * [Base de datos](base-de-datos.md).
 * **Control de calidad**: la casilla **Analizar control de calidad al digitalizar** y **Controles de calidad a aplicar**, que abre el cuadro **Controles de calidad**.
+* Una categoría por cada importador/exportador que traduce códigos, por ejemplo **Importador/Exportador de archivos AutoCAD (\*.dwg)** o **Importador/Exportador de archivos Shapefile de ESRI (\*.shp, shx, dbf)**, con los parámetros de traducción del código a ese formato. Los parámetros de cada formato se describen en su página de [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md); por ejemplo, la propiedad **Polígonos con Z no constante** de la imagen está en la página de [DWG](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/dwg.md), y se aplica también a los archivos DXF.
 
 ## Previsualización y estilos visuales
 
@@ -49,7 +52,7 @@ Si el código tiene cambios sin aplicar y pulsas **Nuevo...**, **Copiar...**, **
 * **Aplicar los cambios**: aplica los cambios al código. Es el botón predeterminado.
 * **Descartar los cambios**: descarta los cambios del código. Si el código era nuevo, lo quita de la lista. Esc equivale a este botón.
 
-Después, **Nuevo...** y **Copiar...** continúan y piden el nombre del código; **Copiar...** no continúa si el código descartado era nuevo, porque ya no hay código que copiar. **Subir** y **Bajar** no mueven el código: vuelve a pulsar el botón.
+Después, **Nuevo...** y **Copiar...** continúan y piden el nombre del código; **Copiar...** no continúa si el código descartado era nuevo, porque ya no hay código que copiar. **Subir** y **Bajar** no mueven el código: vuelve a seleccionar el código en la lista y pulsa el botón.
 
 ### Al cambiar de página
 
