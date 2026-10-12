@@ -1,7 +1,7 @@
 # Midiendo la orientación relativa automáticamente
 <!-- id: midiendo-orientacion-relativa-automaticamente -->
 
-Digi3D.AI puede medir la orientación relativa automáticamente mediante algoritmos de [correlación](midiendo-orientacion-relativa-automaticamente.md), de manera que no será necesario medir ningún punto para realizar la orientación relativa.
+Digi3D.AI puede medir la orientación relativa automáticamente mediante algoritmos de [correlación](/digi3d-ai/referencia/cuadros-de-dialogo/orientacion-relativa-automatica-por-correlacion.md), de manera que no será necesario medir ningún punto para realizar la orientación relativa.
 
 El programa medirá puntos homólogos automáticamente. Al ser un proceso completamente automático es posible que algún punto no se mida correctamente. La manera de solucionar este problema es medir muchos más puntos \(cuando seguiste los pasos de [Midiendo la orientación relativa manualmente](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-relativa/midiendo-orientacion-relativa-manualmente.md), asumir que un pequeño porcentaje de estos puntos estará medido de manera incorrecta y calcular la orientación relativa teniendo en cuenta esto precisamente, que algún punto no estará medido correctamente. El cálculo de la orientación relativa de Digi3D.AI utiliza _estimadores robustos_, y gracias a ellos se detectan estos puntos mal medidos y el resultado final es que no se tienen en consideración, obteniendo una orientación relativa perfecta.
 

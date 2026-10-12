@@ -3,9 +3,9 @@
 
 Aprende a **modificar una geometría existente** siguiendo los siguientes pasos:
 
-1. **Dibuja** una geometría similar a la del vídeo, para ello haz **clic** con el [botón de dato](modificando-geometria-existente.md) del ratón sobre la ventana de dibujo.
+1. **Dibuja** una geometría similar a la del vídeo, para ello haz **clic** con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón sobre la ventana de dibujo.
 2. **Visualiza** la [Barra de herramientas Modifica](/digi3d-ai/referencia/barras-de-herramientas/modifica.md), si no está activa, aprende a activarla pulsando [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md). Los botones de esta barra de herramientas están deshabilitados, únicamente se habilitan cuando digitalizas una polilínea.
-3. **Tentativa** con el [botón de tentativo](modificando-geometria-existente.md) sobre la polilínea que has dibujado al principio en el tramo que quieras modificar, y **dibuja** la nueva geometría que debería tener la línea anterior.
+3. **Tentativa** con el [botón de tentativo](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) sobre la polilínea que has dibujado al principio en el tramo que quieras modificar, y **dibuja** la nueva geometría que debería tener la línea anterior.
 4. Sin finalizar la línea **pulsa** sobre el botón [Modifica una polilínea existente](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md) de la [Barra de herramientas Modifica](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/BarraDeHerramientasModifica.md).
 5. En la esquina inferior izquierda **Digi3D.AI** informa de que se está ejecutando la orden [MOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md) del ratón. La polilínea se modifica automáticamente.
 

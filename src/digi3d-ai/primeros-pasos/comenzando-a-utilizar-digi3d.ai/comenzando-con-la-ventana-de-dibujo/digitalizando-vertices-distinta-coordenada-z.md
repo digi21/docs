@@ -26,7 +26,7 @@ Digitaliza una polilínea cuyos vértices tengan distinto valor de Z siguiendo l
 1. **Digitaliza** el primer segmento de la polilínea con la Z activa en este momento.
 2. **Pulsa** el primer botón de la [Barra de herramientas coordenada Z](/digi3d-ai/referencia/barras-de-herramientas/coordenada-z.md), introduce como nuevo valor de coordenada Z 200 m.
 3. Pulsa **Enter** e introduce un nuevo vértice.
-4. **Finaliza** la polilínea pulsando el [botón de cancelar](digitalizando-vertices-distinta-coordenada-z.md) del ratón.
+4. **Finaliza** la polilínea pulsando el [botón de cancelar](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón.
 5. **Comprueba** que tienes seleccionado el modo de búsqueda **4. Busca el vértice más cercano en XYZ**. Si no está seleccionado, seleccionalo en el desplegable de la [Barra de herramientas tentativo](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md).
 6. **Tentativa** cada uno de los vértices para ver sus coordenadas Z.
 

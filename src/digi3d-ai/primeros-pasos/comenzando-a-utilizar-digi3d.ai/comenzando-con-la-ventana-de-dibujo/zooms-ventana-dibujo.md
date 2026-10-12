@@ -12,13 +12,13 @@ Sigue los siguientes pasos para hacer un **Zoom extendido** mediante el menú **
 Sigue los siguientes pasos si quieres hacer [Zoom ventana](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomv.md):
 
 1. Pulsa el botón **Zoom ventana** de la [Barra de herramientas Zooms](/digi3d-ai/referencia/barras-de-herramientas/zooms.md). Comprobarás que en la ventana izquierda de la barra de mensajes, Digi3D.AI está mostrando que se está ejecutando la orden **ZOOMV**. La orden está invitándote a digitalizar el primer punto de la ventana.
-2. Pulsa con el [botón de dato](zooms-ventana-dibujo.md) en la ventana de dibujo. La orden de Zoom ventana ahora estará solicitando que digitalices el segundo punto en la ventana de dibujo.
-3. Pulsa con el [botón de dato](zooms-ventana-dibujo.md) en otra zona de la ventana de dibujo. Digi3D.AI cambiará el factor de zoom de la ventana de dibujo y ahora estará mostrando el área comprendida por los dos puntos que has digitalizado.
+2. Pulsa con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) en la ventana de dibujo. La orden de Zoom ventana ahora estará solicitando que digitalices el segundo punto en la ventana de dibujo.
+3. Pulsa con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) en otra zona de la ventana de dibujo. Digi3D.AI cambiará el factor de zoom de la ventana de dibujo y ahora estará mostrando el área comprendida por los dos puntos que has digitalizado.
 
 Sigue los siguientes pasos para hacer **Zoom ventana** mediante el menú **Zooms**:
 
 1. Selecciona la opción del menú **Zooms/Zoom ventana**. Comprobarás que en la ventana izquierda de la barra de mensajes, Digi3D.AI está mostrando que se está ejecutando la orden **ZOOMV**. La orden está invitándote a digitalizar el primer punto de la ventana.
-2. Pulsa con el [botón de dato](zooms-ventana-dibujo.md) en la ventana de dibujo. La orden de Zoom ventana ahora estará solicitando que digitalices el segundo punto en la ventana de dibujo.
+2. Pulsa con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) en la ventana de dibujo. La orden de Zoom ventana ahora estará solicitando que digitalices el segundo punto en la ventana de dibujo.
 3. Pulsa con el botón de dato en otra zona de la ventana de dibujo. Digi3D.AI cambiará el factor de zoom de la ventana de dibujo y ahora estará mostrando el área comprendida por los dos puntos que has digitalizado.
 
 Sigue los siguientes pasos para hacer [Zoom de acercar](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-mas.md):

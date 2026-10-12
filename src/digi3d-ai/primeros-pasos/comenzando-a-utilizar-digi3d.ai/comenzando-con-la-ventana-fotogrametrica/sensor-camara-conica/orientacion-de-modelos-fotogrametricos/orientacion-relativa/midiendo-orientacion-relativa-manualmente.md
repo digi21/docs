@@ -5,7 +5,7 @@ El proceso de medir la orientación relativa consiste en medir puntos homólogos
 
 Los puntos donde se mide la orientación relativa no son al azar, siguen el esquema de _Von Grouber_ que Digi3D.AI es capaz de calcular de forma automática, así que será Digi3D.AI quien se encargue de indicarnos la zona en la cual tendremos que medir puntos.
 
-Como Digi3D.AI dispone de algoritmos de [correlación](midiendo-orientacion-relativa-manualmente.md) es posible que los puntos homólogos se localicen automáticamente y que tan solo tengamos que aceptar las medidas que va realizando automáticamente Digi3D.AI por nosotros.
+Como Digi3D.AI dispone de algoritmos de correlación es posible que los puntos homólogos se localicen automáticamente y que tan solo tengamos que aceptar las medidas que va realizando automáticamente Digi3D.AI por nosotros.
 
 Es necesario que finalices los pasos de [Orientación interna](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-interna/) antes de ejecutar los siguientes pasos para realizar la orientación relativa manual:
 
