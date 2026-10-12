@@ -15,17 +15,19 @@ PARAMETROS_IMPORTACION=.dgn <RutaArchivoPlantilla> <CriterioCodigos> <UtilizarAr
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ruta del archivo plantilla | Sí |
-| 2 | Criterio para asignar los códigos | Sí |
-| 3 | Utilizar archivo de células (0/1) | Sí |
-| 4 | Archivo de células | Sí |
-| 5 | Transformar niveles de las entidades que forman la célula (0/1) | Sí |
-| 6 | Importar la paleta (0/1) | Sí |
-| 7 | Utilizar los colores del DGN (0/1) | Sí |
-| 8 | Importar células como puntual de Digi (0/1) | Sí |
-| 9 | Incremento de registro de splines | Sí |
-| 10 | Formato de los desconocidos | Sí |
-| 11 | Rutas de los archivos de recursos | Sí |
+| 1 | Ruta del archivo plantilla | No |
+| 2 | Criterio para asignar los códigos | No |
+| 3 | Utilizar archivo de células (0/1) | No |
+| 4 | Archivo de células | Se omite si el parámetro 3 vale 0 |
+| 5 | Transformar niveles de las entidades que forman la célula (0/1) | Se omite si el parámetro 3 vale 0 |
+| 6 | Importar la paleta (0/1) | No |
+| 7 | Utilizar los colores del DGN (0/1) | No |
+| 8 | Importar células como puntual de Digi (0/1) | No |
+| 9 | Incremento de registro de splines | No |
+| 10 | Formato de los desconocidos | No |
+| 11 | Rutas de los archivos de recursos | No |
+
+Los parámetros 4 y 5 solo se escriben si el parámetro 3 vale 1. Si el parámetro 3 vale 0, el parámetro siguiente es **Importar la paleta** y los demás se adelantan dos posiciones. El parámetro 2 es la posición del criterio en la lista **Criterio para códigos** del cuadro de diálogo, empezando por 0. Un valor mayor que 16 se toma como 16, así que los dos últimos criterios de la lista no se pueden fijar con esta orden.
 
 
 ## Parámetros del motor de importación/exportación
@@ -43,8 +45,18 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 | Colores de las entidades | Colores del archivo DGN, o colores de la tabla de códigos activa. Por defecto, los del archivo DGN. | De dónde toman las entidades su color y su grosor al leer el archivo. |
 | Importar células como | Punto o elemento complejo puntual. Por defecto, Punto. | Tipo de entidad en que se convierte cada célula al leer el archivo. |
 | Incremento de registro splines | Número real. Por defecto, 1. | Distancia entre vértices al convertir las splines en polilíneas al leer. Un valor menor que 1 se toma como 1. |
-| Formato desconocidos | Texto con los sustituidores `$(Nivel)`, `$(Color)`, `$(Estilo)`, `$(Grosor)` y `$(GrupoGrafico)`. Por defecto, `$(Nivel)`. | Nombre del código que se crea para los elementos sin traducción en la tabla de códigos. |
+| Formato desconocidos | Texto con los sustituidores `$(Nivel)`, `$(Color)`, `$(Estilo)`, `$(Grosor)` y `$(GrupoGrafico)`. Por defecto, `$(Nivel)`. | Nombre del código que se crea para los elementos sin traducción en la tabla de códigos. Si está vacío, se usa `$(Nivel)`. |
 | Archivos de recursos de simbología | Rutas de archivos de recursos de MicroStation separadas por punto y coma. El último tiene más prioridad. | Archivos de recursos que se cargan al abrir el archivo. |
+
+Todas las propiedades aparecen tanto al crear el archivo como al abrir uno existente. Digi3D.AI guarda sus valores en la configuración del usuario.
+
+### Sistema de referencia de coordenadas
+
+El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que el archivo de dibujo. Si ese archivo no existe (por ejemplo, al crear un archivo nuevo), Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido. Si el archivo se abre en solo lectura o se importa, no se crea el `.prj` y el sistema elegido solo se usa durante la sesión. Consulta [Ubicación del sistema de referencia de coordenadas](../../../sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/archivos-de-dibujo/ubicacion-src-archivos-dibujo.md).
+
+### Opciones de la configuración
+
+El cuadro de diálogo Configuración tiene más opciones de este formato en [Importador/exportador de archivos Bentley MicroStation v8](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-bentley-microstation-v8/README.md).
 
 ## Características del importador/exportador
 
