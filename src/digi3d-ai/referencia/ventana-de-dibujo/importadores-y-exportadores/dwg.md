@@ -69,6 +69,27 @@ En los parámetros de `.dwg`, la versión es también el índice de la lista (0 
 
 El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que el archivo de dibujo. Si ese archivo no existe (por ejemplo, al crear un archivo nuevo), Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido. Si el archivo se abre en solo lectura o se importa, no se crea el `.prj` y el sistema elegido solo se usa durante la sesión. Consulta [Ubicación del sistema de referencia de coordenadas](../../../sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/archivos-de-dibujo/ubicacion-src-archivos-dibujo.md).
 
+### Polígonos y sombreados
+
+Cada polígono se escribe como un sombreado (HATCH) de relleno sólido (`SOLID`) sin asociar, en la capa que da la traducción del código y con el color de la capa:
+
+- Cada anillo exterior es un bucle del sombreado y cada hueco, otro bucle.
+- Un elemento complejo formado solo por polígonos se escribe como un único sombreado con los bucles de todos sus polígonos, en la capa del código del elemento complejo. Los polígonos del complejo pierden su código propio: al leerlos, todos tienen el código de esa capa. Un elemento complejo con otras entidades no se escribe.
+- El sombreado es plano: todos los vértices del polígono y de sus huecos toman la Z del primer vértice.
+- No se escribe, y se informa del error, un polígono cuyo anillo exterior o alguno de sus huecos tiene menos de tres vértices.
+- No se escribe, y se informa del error, una geometría que al leerla daría otros polígonos: polígonos de un complejo que se solapan, un polígono dentro de otro sin estar en uno de sus huecos, una isla igual a un hueco, o un hueco fuera de su polígono o igual a él.
+- En AutoCAD 11/12 no existe el sombreado: el archivo guarda un bloque de triángulos rellenos (SOLID) con los datos del sombreado, y Digi3D.AI lo vuelve a leer como polígono. Otros programas pueden ver solo el bloque. Los códigos secundarios de la entidad no se conservan en esta versión.
+
+Al leer un sombreado, Digi3D.AI convierte cada bucle cerrado en un anillo. Los arcos, las elipses y las curvas spline de los bordes se convierten en vértices con las opciones [Mínimo de puntos](../../cuadros-de-dialogo/configuracion/arcos-y-circunferencias/minimo-de-puntos.md) y [Máximo de puntos](../../cuadros-de-dialogo/configuracion/arcos-y-circunferencias/maximo-de-puntos.md) de la configuración: un arco recibe la parte de **Máximo de puntos** que corresponde a su ángulo, nunca menos que **Mínimo de puntos**. Los bucles se clasifican por inclusión geométrica según el estilo del sombreado:
+
+| Estilo del sombreado | Bucles que son exterior | Bucles que son hueco |
+| :--- | :--- | :--- |
+| Normal | Los que están dentro de un número par de bucles (0, 2…) | Los que están dentro de un número impar de bucles |
+| Exterior | Los que no están dentro de ningún bucle | Los que están dentro de un único bucle; los más interiores se descartan |
+| Ignorar | Los que no están dentro de ningún bucle | Ninguno; los interiores se descartan |
+
+Con un único bucle exterior se crea un polígono con sus huecos. Con varios, un elemento complejo con un polígono por cada exterior. Un sombreado sin bucles cerrados se lee como antes: como un elemento complejo con las entidades en las que se descompone. El patrón, la escala y el ángulo del sombreado no se leen, y al volver a guardar el polígono se escribe con relleno sólido.
+
 ### Códigos que no se exportan
 
 Si en la tabla de códigos la traducción DWG de un código tiene **Traducir este código** = Falso (atributo `export="0"`), las entidades con ese código no se escriben en el archivo. Al almacenar una de esas entidades en una ventana de dibujo DWG, Digi3D.AI la descarta y muestra un globo: «El código *código* no se exporta a DWG (export="0" en la tabla de códigos); la entidad no se ha almacenado.». El globo aparece una vez por código mientras Digi3D.AI está abierto.

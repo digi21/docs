@@ -26,6 +26,9 @@ Devuelve un [DrawingFile](../digi21.base/drawingfile.md). Sin tabla de códigos,
 entidad es el nombre de su capa. El sistema de coordenadas sale del archivo `.prj` con el mismo
 nombre que el dibujo. Si `path` no existe, lanza `FileNotFoundError`.
 
+Un sombreado (HATCH) se lee como en [digi21.io.dwg](dwg.md#open): un `Polygon` con sus huecos, o un
+`Complex` de polígonos si tiene varios bucles exteriores.
+
 ## create
 
 ```python
@@ -49,9 +52,11 @@ para DXF, en el mismo orden, y se pasan solo por nombre.
 
 Qué hace el exportador:
 
-- **No escribe polígonos ni complejos**: `add` devuelve `False` y `warnings` recoge el error
-  (`No se pueden almacenar polígonos en un archivo dwg`, también en DXF). Un polígono se puede
-  escribir como línea cerrada (primer ejemplo).
+- Escribe cada `Polygon`, y cada `Complex` formado solo por polígonos, como un sombreado (HATCH) de
+  relleno sólido, igual que [digi21.io.dwg](dwg.md#create). El sombreado es plano: todos los
+  vértices toman la Z del primero. Un `Complex` con otras geometrías no se escribe: `add` devuelve
+  `False` y `warnings` recoge el error.
+- No escribe las geometrías cuyo código la tabla dice que no se exporta.
 - Sin `iodwg:transform`, escribe cada código en una capa con su nombre, y `warnings` lo indica.
 - Si junto al destino ya hay un `.prj` con el mismo nombre, lo **conserva** en lugar de escribir
   `crs`, y `warnings` lo avisa.
@@ -67,13 +72,13 @@ Los ejemplos de esta página se han ejecutado con Python 3.12; la salida que se 
 
 ```python
 import digi21.io.dxf as dxf
-from digi21.base import Line, Point, Text
+from digi21.base import Line, Point, Polygon, Text
 
 with dxf.create("parcelas.dxf", crs="EPSG:25830") as writer:
     writer.add(Point((500010.0, 4400010.0, 650.0), ["010123"]))
     writer.add(Line(["040645"], [(500000, 4400000, 650), (500100, 4400000, 652), (500100, 4400080, 655)]))
-    writer.add(Line(["020402"], [(500000, 4400000, 650), (500100, 4400000, 652),
-                                 (500100, 4400080, 655), (500000, 4400000, 650)]))
+    writer.add(Polygon(["020402"], [(500000, 4400000, 650), (500100, 4400000, 652),
+                                    (500100, 4400080, 655), (500000, 4400000, 650)]))
     writer.add(Text("Parcela 12", (500050, 4400040, 653), ["020402"], text_height=2.5))
 
 print(writer.written, "escritas,", writer.rejected, "rechazadas")
@@ -83,19 +88,20 @@ print(writer.written, "escritas,", writer.rejected, "rechazadas")
 4 escritas, 0 rechazadas
 ```
 
-La parcela se escribe como una `Line` cerrada (el último vértice repite el primero), no como un
-`Polygon`.
+La parcela se escribe como un sombreado.
 
 ### Leer y clasificar por tipo
 
 ```python
 import digi21.io.dxf as dxf
-from digi21.base import Line, Text
+from digi21.base import Line, Polygon, Text
 
 for geometry in dxf.open("parcelas.dxf"):
     capa = geometry.codes[0].code
     if isinstance(geometry, Text):
         print(capa, "texto:", geometry.text)
+    elif isinstance(geometry, Polygon):
+        print(capa, "polígono con", len(list(geometry.holes)), "huecos")
     elif isinstance(geometry, Line):
         print(capa, "línea cerrada" if geometry.closed else "línea abierta", len(geometry), "vértices")
     else:
@@ -105,9 +111,11 @@ for geometry in dxf.open("parcelas.dxf"):
 ```
 010123 Point
 040645 línea abierta 3 vértices
-020402 línea cerrada 4 vértices
+020402 polígono con 0 huecos
 020402 texto: Parcela 12
 ```
+
+`Polygon` deriva de `Line`: por eso se pregunta antes por `Polygon`.
 
 ### Convertir un archivo BinDouble a DXF
 
@@ -125,13 +133,11 @@ print(writer.written, "escritas,", writer.rejected, "rechazadas")
 ```
 
 ```
-No se ha escrito: Polygon ['020402']
-3 escritas, 1 rechazadas
+4 escritas, 0 rechazadas
 ```
 
 `parcelas.bind` es el archivo que crea el primer ejemplo de [digi21.io.bindouble](bindouble.md).
-Para no perder los polígonos, conviértelos en líneas cerradas como en el tercer ejemplo de
-[digi21.io.dwg](dwg.md).
+Ninguna geometría se rechaza: el polígono se escribe como un sombreado.
 
 ### Escribir un DXF binario
 
