@@ -7,6 +7,14 @@ Importador de **OpenStreetMap (mapa de teselas)**.
 
 Esta extensión no recibe parámetros por la línea de comandos.
 
+## Parámetros del motor de importación/exportación
+
+Este formato no añade propiedades a la categoría **Motor de importación/exportación** de los cuadros de diálogo.
+
+### Sistema de referencia de coordenadas
+
+Digi3D.AI no pide el sistema de referencia: el mapa de teselas está siempre en coordenadas geográficas WGS 84 (EPSG 4326).
+
 ## Características del importador/exportador
 
 | | |
