@@ -35,22 +35,22 @@ Implementa: [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 
 | ​Title | ​Title |
 | :--- | :--- |
-| ​[W](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/w)​ |Devuelve el punto al oeste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[SW](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/sw)​ |Devuelve el punto al sudeste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[S](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/s)​ |Devuelve el punto al sur del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[SE](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/se)​ |Devuelve el punto al sudeste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[E](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/e)​ |Devuelve el punto al este del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[NE](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ne)​ |Devuelve el punto al noreste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[N](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/n)​ |Devuelve el punto al norte del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[NW](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/nw)​ |Devuelve el punto al noreste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Center](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/center)​ |Devuelve el punto en el centro del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Height](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/height)​ |Devuelve el alto del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Width](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/width)​ |Devuelve el ancho del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Valid](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/valid)​ |Indica si la ventana del Window2D es válida.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Xmin](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmin)​ |Devuelve la coordenada X mínima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Ymin](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymin)​ |Devuelve la coordenada Y mínima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Xmax](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/xmax)​ |Devuelve la coordenada X máxima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
-| ​[Ymax](https://app.gitbook.com/@digi21/s/ayuda-de-digi21/~/drafts/-MXH1bS47Iib8Zhh9V4J/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/iwindow2d/propiedades/ymax)​ |Devuelve la coordenada Y máxima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​W​ |Devuelve el punto al oeste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​SW​ |Devuelve el punto al sudeste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​S​ |Devuelve el punto al sur del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​SE​ |Devuelve el punto al sudeste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​E​ |Devuelve el punto al este del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​NE​ |Devuelve el punto al noreste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​N​ |Devuelve el punto al norte del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​NW​ |Devuelve el punto al noreste del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Center​ |Devuelve el punto en el centro del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Height​ |Devuelve el alto del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Width​ |Devuelve el ancho del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Valid​ |Indica si la ventana del Window2D es válida.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Xmin​ |Devuelve la coordenada X mínima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Ymin​ |Devuelve la coordenada Y mínima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Xmax​ |Devuelve la coordenada X máxima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
+| ​Ymax​ |Devuelve la coordenada Y máxima del Window2D.<br>(Heredado de [IWindow2D](iwindow2d/))|
 
 
 ## ​Métodos
