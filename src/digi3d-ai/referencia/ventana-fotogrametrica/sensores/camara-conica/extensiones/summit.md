@@ -47,4 +47,5 @@ Al abrir el `.smtxml` en el panel [Proyecto fotogramétrico](../../../../paneles
 * «Error al cargar el archivo: *archivo* Línea: *n*, columna: *n*»: el XML no está bien formado.
 * «No se ha podido crear la cámara porque no se ha localizado la variable *clave*»: falta `FOCAL_LENGTH:`, `PRINCIPAL_POINT:`, `IS_DIGITAL:`, `FILM_WIDTH:` o `FILM_HEIGHT:`.
 * «El valor de la variable "CAM_DIGITAL_CAM_ROTATION" no pertenece al conjunto {0,1,2,3}»: el giro de la cámara no es válido.
+* «El nodo *nodo* tiene *n* valores y se esperaban 3 en el archivo: *archivo*»: `Exterior/ProjectionCenter` o `Exterior/Angles` de una imagen tiene menos de tres valores.
 * «Error desconocido al cargar el archivo: *archivo*»: error al leer el archivo, por ejemplo porque falta un nodo que Digi3D.AI necesita.
