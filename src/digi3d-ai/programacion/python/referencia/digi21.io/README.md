@@ -31,7 +31,8 @@ open(path, digitab=None) -> DrawingFile
 | `path` | `str` | Ruta del archivo a leer. |
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos (opcional). Si no se indica, se usa una vacía. |
 
-Devuelve un [DrawingFile](../digi21.base/drawingfile.md).
+Devuelve un [DrawingFile](../digi21.base/drawingfile.md). Si `path` no es un archivo existente,
+lanza `FileNotFoundError` en los módulos `asciidigi`, `dgn`, `dwg` y `dxf`.
 
 ## `create`
 
@@ -64,9 +65,10 @@ Página del formato: [BIN](/digi3d-ai/referencia/ventana-de-dibujo/importadores-
 | `precision` | `int` | `2` | Número de decimales que se guardan. Las coordenadas se guardan como enteros de 32 bits. |
 | `global_origin` | `tuple` | `(0.0, 0.0, 0.0)` | Origen `(x, y, z)` que se resta a las coordenadas antes de guardarlas. |
 
-> El archivo no guarda ni `precision` ni `global_origin`: `open` lo lee con 2 decimales y origen
-> `(0, 0, 0)`. Los códigos se guardan con 6 caracteres como máximo: `"VERTICE"` se escribe
-> `"VERTIC"`. El sistema de coordenadas se guarda en un archivo `.prj` junto al dibujo.
+> El formato BIN no tiene cabecera de archivo, así que no guarda ni `precision` ni
+> `global_origin`: `open` lo lee con 2 decimales y origen `(0, 0, 0)`. Los códigos se guardan con 6
+> caracteres como máximo: `"VERTICE"` se escribe `"VERTIC"`, y `warnings` incluye un aviso por cada
+> código truncado. El sistema de coordenadas se guarda en un archivo `.prj` junto al dibujo.
 
 ### `digi21.io.bindouble`
 
@@ -87,10 +89,9 @@ Página del formato: [ASCII de Digi](/digi3d-ai/referencia/ventana-de-dibujo/imp
 |---|---|---|---|
 | `decimals` | `int` | `3` | Número de decimales de cada coordenada. |
 
-> El exportador de ASCII de Digi escribe los polígonos sin vértices, y al leer el archivo la
-> entidad anterior gana un vértice erróneo. No escribas polígonos en este formato. Los elementos
-> complejos se escriben, pero al leer el archivo no aparecen. El sistema de
-> coordenadas se guarda en un archivo `.prj` junto al dibujo.
+> El formato guarda puntos, líneas, polígonos con sus contornos interiores, textos, imágenes y
+> elementos complejos cuyas geometrías son puntos o líneas. `add` devuelve `False` con cualquier
+> otro tipo. El sistema de coordenadas se guarda en un archivo `.prj` junto al dibujo.
 
 ### `digi21.io.dgn`
 
@@ -110,12 +111,12 @@ Página del formato: [DGN](/digi3d-ai/referencia/ventana-de-dibujo/importadores-
 | `unknown_code_format` | `str` | `"$(Level)"` | Nombre del código que se crea para los elementos sin traducción en la tabla de códigos. |
 | `resource_files` | `str` | `""` | Rutas de archivos de recursos de MicroStation separadas por punto y coma. |
 
-> El exportador de DGN **descarta sin avisar** las geometrías cuyo código no tiene traducción
-> DGN en la tabla de códigos: pasa una `digitab` que defina esos códigos, y cárgala con
-> `DigiTab.load` **después** de `import digi21.io.dgn` (cargada antes, la tabla no tiene la
-> traducción DGN y el archivo queda vacío sin ningún error). Al leer, cada elemento
-> tiene solo el código de su nivel. El sistema de coordenadas se guarda en un archivo `.prj` junto
-> al dibujo.
+> Una geometría cuyo código no tiene traducción DGN en la tabla de códigos se escribe en un nivel
+> con el nombre del código y con los parámetros por defecto, y `warnings` lo indica. Si la tabla
+> dice que el código no se exporta, `add` devuelve `False`. Carga la `digitab` con `DigiTab.load`
+> **después** de `import digi21.io.dgn`: la primera tabla que se carga en el proceso solo recibe
+> la traducción de los formatos cuyo módulo ya se ha importado. Al leer, cada elemento tiene solo
+> el código de su nivel. El sistema de coordenadas se guarda en un archivo `.prj` junto al dibujo.
 
 ### `digi21.io.dwg`
 
@@ -131,8 +132,10 @@ Página del formato: [DWG](/digi3d-ai/referencia/ventana-de-dibujo/importadores-
 | `import_palette` | `bool` | `False` | Al abrir un archivo existente, sustituye la paleta por la de AutoCAD. |
 | `use_drawing_colors` | `bool` | `False` | Las entidades con color propio en el archivo conservan ese color. |
 
-> El exportador de DWG no escribe polígonos: `add` devuelve `False` y `warnings` recoge el
-> error. El sistema de coordenadas se guarda en un archivo `.prj` junto al dibujo.
+> El exportador de DWG no escribe polígonos ni elementos complejos: `add` devuelve `False` y
+> `warnings` recoge el error. Tampoco escribe las geometrías cuyo código la tabla dice que no se
+> exporta. Si el archivo no se puede guardar al cerrar el escritor, `warnings` recoge el error. El
+> sistema de coordenadas se guarda en un archivo `.prj` junto al dibujo.
 
 ### `digi21.io.dxf`
 
