@@ -4,7 +4,7 @@
 Elimina entidades siguiendo estos pasos:
 
 1. **Digitaliza** varias entidades lineales en la ventana de dibujo.
-2. Localiza la [Barra de herramientas eliminar y recuperar](/digi3d-ai/referencia/barras-de-herramientas/eliminar-y-recuperar.md) en _Digi3D.AI_. Si no la encuentras pulsa [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md) para localizarla.
+2. Localiza la [Barra de herramientas eliminar y recuperar](/digi3d-ai/referencia/barras-de-herramientas/eliminar-y-recuperar.md) en _Digi3D.AI_. Si no la encuentras pulsa [aquí](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/barras-herramientas-basicas.md) para localizarla.
 3. **Pulsa** el segundo botón de la [Barra de herramientas eliminar y recuperar](/digi3d-ai/referencia/barras-de-herramientas/eliminar-y-recuperar.md), que corresponde a la orden [BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md).
 4. **Selecciona** el modo de búsqueda **0. Vértice o proyección en XY**.
 5. **Selecciona** la entidad a borrar con el [botón de tentativo](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón. _Digi3D.AI_ mostrará una animación indicando el sentido en el que fue dibujada la entidad y sus vértices.

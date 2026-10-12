@@ -4,7 +4,7 @@
 Aprende a **cambiar el código** de una entidad siguiendo los siguientes pasos:
 
 1. **Dibuja** un edificio con el código _050146 EDIFICIO PRIVADO._
-2. **Visualiza** la [Barra de herramientas Editar códigos](/digi3d-ai/referencia/barras-de-herramientas/editar-codigos.md), si no está activa, aprende a activarla pulsando [aquí](https://github.com/digi21/docs/tree/7fc627c885c16fb88afc7cc05a6df2a2f4a54563/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/PresentacionDeBarrasHerramientasBasicas.md).
+2. **Visualiza** la [Barra de herramientas Editar códigos](/digi3d-ai/referencia/barras-de-herramientas/editar-codigos.md), si no está activa, aprende a activarla pulsando [aquí](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/barras-herramientas-basicas.md).
 3. **Pulsa** el primer botón de la [Barra de herramientas Editar códigos](/digi3d-ai/referencia/barras-de-herramientas/editar-codigos.md), este botón ejecuta la orden [EDITAR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-cod.md).
 4. **DIGI3D.AI** solicita que selecciones el elemento para editar código. **Selecciona** el edificio con el [botón de tentativo](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón.
 5. **Confirma** la selección con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón.
