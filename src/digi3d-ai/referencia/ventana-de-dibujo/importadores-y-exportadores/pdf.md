@@ -18,7 +18,10 @@ PARAMETROS_IMPORTACION=.pdf <Tamano> <Escala> <ExplotarSimbologia> <Titulo>
 | 1 | Tamaño | Sí |
 | 2 | Escala | Sí |
 | 3 | Explotar simbología (0/1) | Sí |
-| 4 | Título | Sí |
+| 4 | No se usa | Sí |
+| 5 | Título | Sí |
+
+El título es el quinto parámetro: para indicarlo hay que escribir antes un cuarto parámetro cualquiera. Un parámetro que se omite conserva su valor por defecto.
 
 
 ## Parámetros del motor de importación/exportación
@@ -28,7 +31,7 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 | Propiedad | Valores | Qué hace |
 | :--- | :--- | :--- |
 | Tamaño del papel | **Ajustar al modelo**, las series A, RA y B, y los tamaños de papel americanos e ingleses (Letter, Legal, Ledger, Tabloid…). Por defecto, Ajustar al modelo. | Tamaño de la página. Con **Ajustar al modelo**, la página mide lo que ocupa el dibujo a la escala de impresión. |
-| Escala de impresión | Número real. Por defecto, la escala de dibujo. | Escala a la que se dibujan las entidades en el papel. |
+| Escala de impresión | Número real. Por defecto, la **Escala** de la pestaña [Archivo de dibujo](../../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md) del cuadro de diálogo Nuevo proyecto. | Escala a la que se dibujan las entidades en el papel. El valor que se escribe aquí no se guarda: la próxima exportación vuelve a proponer la escala del cuadro de diálogo Nuevo proyecto. |
 | Explotar simbología | Sí o No. Por defecto, Sí. | Con **Sí**, las líneas se dibujan con su simbología. |
 | Título | Texto. | Título del documento PDF. |
 

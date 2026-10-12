@@ -17,6 +17,15 @@ PARAMETROS_IMPORTACION=.wkt <Ancho>
 | :--- | :--- | :--- |
 | 1 | Ancho de la imagen | Sí |
 
+El formato acepta este parámetro, pero no lo usa.
+
+## Parámetros del motor de importación/exportación
+
+Este formato no añade propiedades a la categoría **Motor de importación/exportación** de los cuadros de diálogo: la categoría aparece vacía al crear o abrir un archivo.
+
+### Sistema de referencia de coordenadas
+
+El formato no guarda el sistema de referencia. Cuando lo necesita, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**, y el sistema elegido no se guarda.
 
 ## Características del importador/exportador
 
