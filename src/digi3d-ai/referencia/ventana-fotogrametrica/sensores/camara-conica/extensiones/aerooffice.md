@@ -25,7 +25,7 @@ Digi3D.AI comprueba y lee el archivo en este orden:
    | `Easting` | Coordenada X del centro de proyección. |
    | `Northing` | Coordenada Y del centro de proyección. |
    | `Height` o `HeightORTO` | Coordenada Z del centro de proyección. |
-   | `Omega`, `Phi`, `Kappa` | Giros en grados sexagesimales. |
+   | `Omega`, `Phi`, `Kappa` | Giros en grados sexagesimales. Digi3D.AI construye la matriz de rotación con el orden omega, phi, kappa. |
 
 4. Las líneas siguientes contienen los datos, una imagen por línea. Digi3D.AI no lee las líneas que tienen menos columnas de las necesarias.
 
