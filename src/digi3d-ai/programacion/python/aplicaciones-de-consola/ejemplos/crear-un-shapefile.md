@@ -133,7 +133,8 @@ Se ha intentado almacenar una entidad con código: 010123 sin tabla asignada ni 
 
 ## Véase también
 
-- [Referencia: digi21.io.shp](../../referencia/digi21.io/README.md#digi21ioshp)
+- [Referencia: digi21.io.shp](../../referencia/digi21.io/shp.md) — parámetros, requisitos y más
+  ejemplos (conversión, codificación de los `.dbf`).
 - [Convertir a GeoPackage](convertir-a-geopackage.md)
 - [Crear un archivo de dibujo](crear-un-archivo-de-dibujo.md)
 - [Formato SHP](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/shp.md)

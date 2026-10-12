@@ -79,13 +79,15 @@ b'%PDF-1.7'
 - `page_size` es un tamaño de papel (`"A4"`, `"A3"`, `"Letter"`…) o `"auto"`, que da a la página
   la extensión del dibujo a la escala `scale` (por defecto 1000, es decir, 1:1000).
 - `explode_symbology=True`, el valor por defecto, dibuja los tipos de línea de cada código;
-  `False` dibuja cada geometría con una línea continua.
+  `False` dibuja cada geometría con una línea continua. Pasa siempre `False`: con `True`, una tabla
+  de códigos y alguna línea, el proceso de Python termina al cerrar el escritor (ver
+  [digi21.io.pdf](../../referencia/digi21.io/pdf.md)).
 - `title` es el título del documento.
 - La página se dibuja al cerrar el escritor. No se dibujan las geometrías de los códigos que la
   tabla marca como no imprimibles.
 
 ## Véase también
 
-- [Referencia: digi21.io.svg](../../referencia/digi21.io/README.md#digi21iosvg)
-- [Referencia: digi21.io.wkt](../../referencia/digi21.io/README.md#digi21iowkt)
-- [Referencia: digi21.io.pdf](../../referencia/digi21.io/README.md#digi21iopdf)
+- [Referencia: digi21.io.svg](../../referencia/digi21.io/svg.md)
+- [Referencia: digi21.io.wkt](../../referencia/digi21.io/wkt.md)
+- [Referencia: digi21.io.pdf](../../referencia/digi21.io/pdf.md)

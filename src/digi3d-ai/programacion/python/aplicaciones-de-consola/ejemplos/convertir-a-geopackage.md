@@ -101,6 +101,7 @@ sustituido, o uno que el proceso ya había cargado.
 
 ## Véase también
 
-- [Referencia: digi21.io.geopackage](../../referencia/digi21.io/README.md#digi21iogeopackage)
+- [Referencia: digi21.io.geopackage](../../referencia/digi21.io/geopackage.md) — requisitos y más
+  ejemplos (crear desde cero, consultar las tablas con `sqlite3`).
 - [Crear un shapefile](crear-un-shapefile.md)
 - [Formato GeoPackage](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/geopackage.md)

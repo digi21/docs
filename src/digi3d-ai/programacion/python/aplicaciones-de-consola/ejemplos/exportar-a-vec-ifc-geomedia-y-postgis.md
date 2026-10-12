@@ -58,15 +58,20 @@ import digi21.io.geomedia as geomedia
 
 digitab = base.DigiTab.load("modelo.tab.xml")
 with geomedia.create("almacen.mdb", digitab) as writer:
-    writer.add(base.Line(["AAB010"], [(-6.97, 38.88, 0.0), (-6.96, 38.88, 0.0)]))
+    writer.add(base.Line(["LAP030"], [(-6.97, 38.88, 200.0), (-6.96, 38.88, 201.0), (-6.96, 38.89, 202.0)]))
 print(writer.written, writer.warnings)
 ```
 
-Cada código necesita un elemento `ioGeomedia:transform` con su clase de entidad. El sistema de
+```
+1 []
+```
+
+Cada código necesita un elemento `ioGeomedia:transform` con su clase de entidad, y la geometría
+tiene que ser del tipo de esa clase: `LAP030` es una clase de líneas del modelo MGCP. El sistema de
 coordenadas es el de la tabla `GCoordSystem` del almacén. Hace falta el proveedor Microsoft Access
-Database Engine. El módulo se ha comprobado con una copia de un almacén real que no se puede
-publicar (lee sus 11.514 geometrías, añade una línea y al releer hay 11.515); el código de este
-ejemplo no se ha ejecutado tal cual.
+Database Engine. El ejemplo se ha ejecutado contra una copia de un almacén real que no se puede
+publicar (11.514 geometrías; al releer hay 11.515). La página de
+[digi21.io.geomedia](../../referencia/digi21.io/geomedia.md) tiene más ejemplos con ese almacén.
 
 ## PostGIS
 
@@ -94,7 +99,10 @@ disponible.
 
 ## Véase también
 
-- [Referencia: digi21.io](../../referencia/digi21.io/README.md#digi21iovec)
+- Referencia: [digi21.io.vec](../../referencia/digi21.io/vec.md),
+  [digi21.io.ifc](../../referencia/digi21.io/ifc.md),
+  [digi21.io.geomedia](../../referencia/digi21.io/geomedia.md) y
+  [digi21.io.postgis](../../referencia/digi21.io/postgis.md)
 - [Formato VEC](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/vec.md)
 - [Formato IFC](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/ifc.md)
 - [Formato GeoMedia](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/geomedia.md)

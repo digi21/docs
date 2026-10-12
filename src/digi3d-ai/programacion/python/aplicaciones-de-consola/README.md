@@ -14,7 +14,7 @@ Usan dos paquetes:
 | Paquete | Para qué sirve |
 |---|---|
 | `digi21.base` | Tipos del núcleo: códigos, geometrías, tablas de códigos y cámara. No abre ni crea archivos. |
-| `digi21.io.<formato>` | Lectura (`open`) y escritura (`create`) de archivos de dibujo. Un módulo por formato (`bindouble`, `bin`, `asciidigi`, `dgn`, `dwg`, `dxf`). |
+| `digi21.io.<formato>` | Lectura (`open`) y escritura (`create`) de archivos de dibujo. Un módulo por formato (`bin`, `bindouble`, `asciidigi`, `dgn`, `dwg`, `dxf`, `geojson`, `kml`, `svg`, `wkt`, `geopackage`, `shp`, `pdf`, `geomedia`, `postgis`, `ifc`, `vec`), cada uno con su página y sus ejemplos en la [referencia de digi21.io](../referencia/digi21.io/README.md). |
 
 `digi21.io` se apoya en `digi21.base`: al abrir un archivo se obtienen geometrías que son
 instancias de los tipos de `digi21.base`, y al crear uno se escriben geometrías de esos tipos.

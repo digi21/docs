@@ -5,7 +5,9 @@ Tutoriales con ejemplos para aprender a programar **aplicaciones de consola** co
 Python de Digi3D.AI. Cada tema parte de un objetivo práctico y muestra el código completo.
 
 Para la descripción detallada de cada clase y método, consulta la
-[Referencia](../../referencia/README.md).
+[Referencia](../../referencia/README.md). Cada módulo de formato de `digi21.io` tiene además su propia
+página con ejemplos de lectura, creación y conversión: consulta el índice de
+[digi21.io](../../referencia/digi21.io/README.md).
 
 ## Temas
 

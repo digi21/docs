@@ -8,18 +8,18 @@ generar un dibujo desde cero como para **convertir un archivo de un formato a ot
 
 | Módulo | Formato |
 |---|---|
-| `digi21.io.bindouble` | BinDouble (`.bind`) |
-| `digi21.io.bin` | Bin (`.bin`) |
-| `digi21.io.asciidigi` | ASCII Digi (`.asc`) |
-| `digi21.io.dgn` | MicroStation DGN (`.dgn`) |
-| `digi21.io.dwg` | AutoCAD DWG (`.dwg`) |
-| `digi21.io.dxf` | AutoCAD DXF (`.dxf`) |
+| [`digi21.io.bindouble`](../../referencia/digi21.io/bindouble.md) | BinDouble (`.bind`) |
+| [`digi21.io.bin`](../../referencia/digi21.io/bin.md) | Bin (`.bin`) |
+| [`digi21.io.asciidigi`](../../referencia/digi21.io/asciidigi.md) | ASCII Digi (`.asc`) |
+| [`digi21.io.dgn`](../../referencia/digi21.io/dgn.md) | MicroStation DGN (`.dgn`) |
+| [`digi21.io.dwg`](../../referencia/digi21.io/dwg.md) | AutoCAD DWG (`.dwg`) |
+| [`digi21.io.dxf`](../../referencia/digi21.io/dxf.md) | AutoCAD DXF (`.dxf`) |
 
 Hay más módulos (GeoJSON, KML, SVG, WKT, GeoPackage, SHP, PDF, GeoMedia, PostGIS, IFC y VEC) con sus
 propias páginas de ejemplo; este tema usa los seis de la tabla.
 
-Los parámetros de cada formato (precisión, versión de AutoCAD, plantilla…) están en la
-[referencia de digi21.io](../../referencia/digi21.io/README.md#create).
+Los parámetros de cada formato (precisión, versión de AutoCAD, plantilla…) están en la página de su
+módulo, en el índice de [digi21.io](../../referencia/digi21.io/README.md).
 
 ## Crear un archivo BIN desde cero
 
@@ -120,8 +120,10 @@ with dxf.create("parcelas.dxf", digitab, crs=origen.crs) as writer:
         writer.add(geometry)
 ```
 
-Con DGN la tabla de códigos es imprescindible: su exportador descarta sin avisar las geometrías
-cuyo código no tiene traducción DGN en la tabla.
+Con DGN, una geometría cuyo código no tiene traducción DGN en la tabla se escribe en un nivel con
+el nombre del código y con los parámetros por defecto, y `warnings` lo indica. Para que DGN reciba la
+traducción de la tabla, importa `digi21.io.dgn` antes de `DigiTab.load` (ver
+[digi21.io.dgn](../../referencia/digi21.io/dgn.md)).
 
 ## Errores
 
