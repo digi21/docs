@@ -23,6 +23,6 @@ Una orden abre este cuadro de diálogo para que indiques los códigos con los qu
 
 ## Observaciones
 
-Si está activada la opción [Auto-Pulsar Añadir… en los diálogos que solicitan códigos](configuracion/diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md), el cuadro de diálogo pulsa **Añadir...** al abrirse.
+Si está activada la opción [Auto-pulsar Añadir... en los diálogos que solicitan códigos](configuracion/diging/auto-pulsar-anadir-en-los-dialogos-que-solicitan-codigos.md), el cuadro de diálogo pulsa **Añadir...** al abrirse.
 
 El cuadro de diálogo recuerda su posición y su tamaño por separado para cada orden. ON\_TIPO, OFF\_TIPO y sus variantes ONS\_TIPO, OFFS\_TIPO, OND\_TIPO y OFFD\_TIPO comparten la misma posición y el mismo tamaño.
