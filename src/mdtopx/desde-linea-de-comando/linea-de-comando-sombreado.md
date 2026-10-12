@@ -1,7 +1,7 @@
 # Sombreado
 <!-- id: linea-de-comando-sombreado -->
 
-[Sombreado](/mdtopx/desde-linea-de-comando/linea-de-comando-sombreado.md)
+[Sombreado](/mdtopx/como/como-sombreado.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

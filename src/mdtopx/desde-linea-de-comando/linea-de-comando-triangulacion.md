@@ -1,7 +1,7 @@
 # Triangulación
 <!-- id: linea-de-comando-triangulacion -->
 
-[Triangulación](/mdtopx/desde-linea-de-comando/linea-de-comando-triangulacion.md)
+[Triangulación](/mdtopx/como/como-triangulacion.md)
 
 &#x20;Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

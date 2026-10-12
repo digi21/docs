@@ -1,7 +1,7 @@
 # Cubicación
 <!-- id: linea-de-comando-cubicacion -->
 
-[Cubicación](/mdtopx/desde-linea-de-comando/linea-de-comando-cubicacion.md)
+[Cubicación](/mdtopx/como/como-cubicacion.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

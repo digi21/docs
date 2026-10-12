@@ -1,7 +1,7 @@
 # Borrar triángulos por longitud de lado
 <!-- id: linea-de-comando-borrar-triangulos-por-longitud-de-lado -->
 
-[Borrar triángulos por longitud de lado](/mdtopx/desde-linea-de-comando/linea-de-comando-borrar-triangulos-por-longitud-de-lado.md)
+[Borrar triángulos por longitud de lado](/mdtopx/herramientas-de-edicion-de-la-triangulacion/tamano-de-los-lados.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

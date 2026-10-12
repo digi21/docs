@@ -1,7 +1,7 @@
 # Mapa de tintas hipsométricas
 <!-- id: linea-de-comando-mapa-de-tintas-hipsometricas -->
 
-[Mapa de tintas hipsométricas](/mdtopx/desde-linea-de-comando/linea-de-comando-mapa-de-tintas-hipsometricas.md)
+[Mapa de tintas hipsométricas](/mdtopx/como/como-mapa-de-tintas-hipsometricas.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 

@@ -1,7 +1,7 @@
 # Perfiles
 <!-- id: linea-de-comando-perfiles -->
 
-[Perfiles](/mdtopx/desde-linea-de-comando/linea-de-comando-perfiles.md)
+[Perfiles](/mdtopx/como/como-perfiles.md)
 
 Para ejecutar esta herramienta desde la línea de comando se deberá escribir la siguiente secuencia:
 
