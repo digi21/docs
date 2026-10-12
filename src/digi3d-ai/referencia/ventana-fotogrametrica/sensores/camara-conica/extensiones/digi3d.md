@@ -21,8 +21,6 @@ La extensión crea la cámara de una imagen a partir de:
 
 * El archivo de cámara del modelo, si tiene extensión `.cam`.
 * Si el archivo de cámara no es un `.cam`, el archivo `<imagen>.orientation.xml` de la carpeta de la imagen, si existe.
-* Si no existe `<imagen>.orientation.xml`, el archivo `<imagen>.ori` de la carpeta de la imagen, si existe y tiene el formato de un archivo `.cam`.
-
 ### Archivo .cam
 
 Un archivo `.cam` es un archivo de texto con formato INI y una sección `[Camara]`. Si el archivo no tiene esa sección, la extensión no lo lee. En el cuadro de selección de cámara, el tipo es **Archivos de cámara de Digi3D** (`*.cam`).
