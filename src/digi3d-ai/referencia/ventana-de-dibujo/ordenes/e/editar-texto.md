@@ -9,13 +9,13 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden muestra el mensaje «Selecciona el texto a editar...» y solicita que selecciones un texto con el botón de dato o con el de tentativo. Solo se pueden seleccionar textos del archivo de dibujo activo. La orden no admite otros tipos de entidad, como complejos o cotas, ni textos borrados. Si la entidad seleccionada no es válida, suena el aviso de error.
+La orden muestra el mensaje «Selecciona el texto a editar...» y solicita que selecciones un texto con el botón de dato o con el de tentativo. Solo se pueden seleccionar textos del archivo de dibujo activo. La orden no admite otros tipos de entidad, como complejos o cotas, ni textos borrados. Si la entidad seleccionada no es válida, suena el aviso de error y la orden sigue solicitando un texto.
 
 Tras seleccionar el texto, la orden muestra el cuadro de diálogo **Editar texto** con el contenido actual. La orden edita un solo texto cada vez.
 
 Al aceptar el cuadro de diálogo:
 
-* Si el contenido ha cambiado, la orden sustituye el texto por una copia con el contenido nuevo. La copia conserva el código, la posición, la altura, la rotación, la justificación y los atributos del original. La copia se añade al final del archivo de dibujo y el texto original se borra. Si el original no se puede borrar, o la copia no se puede añadir, el texto no cambia y suena el aviso de error.
+* Si el contenido ha cambiado, la orden sustituye el texto por una copia con el contenido nuevo. La copia conserva el código, la posición, la altura, la rotación, la justificación y los atributos del original. La copia se añade al final del archivo de dibujo, el texto original se borra y suena el aviso de fin de orden. Si el original no se puede borrar, o la copia no se puede añadir, el texto no cambia y suena el aviso de error.
 * Si el contenido no ha cambiado, el texto no se modifica.
 * Si el campo está vacío, el texto no se modifica y suena el aviso de error. Para borrar un texto, usa una orden de borrado.
 
@@ -29,7 +29,9 @@ Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repi
 
 ![Cuadro de diálogo Editar texto](../../../../../images/editar-texto.png)
 
-* **Introduzca aquí el nuevo texto**: contenido del texto. Al abrir el cuadro de diálogo, el campo contiene el texto actual. El campo es de una sola línea.
+Esta orden solicita en este cuadro de diálogo el nuevo contenido del texto seleccionado.
+
+* **Introduce aquí el nuevo texto**: contenido del texto. Al abrir el cuadro de diálogo, el campo contiene el texto actual. El campo es de una sola línea.
 * **Aceptar**: sustituye el texto por el contenido del campo.
 * **Cancelar**: cierra el cuadro de diálogo sin cambiar el texto.
 
