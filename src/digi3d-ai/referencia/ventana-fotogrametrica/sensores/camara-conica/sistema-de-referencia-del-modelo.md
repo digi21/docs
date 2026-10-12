@@ -21,9 +21,11 @@ Con un sistema desconocido, Digi3D.AI no transforma las coordenadas del modelo a
 
 ## Sistema de referencia de coordenadas vertical
 
+![Cuadro Sistema de referencia de coordenadas vertical desconocido](../../../../../images/modelo-sin-sistema-de-referencia-vertical.png)
+
 Si el sistema que proporciona el archivo de aerotriangulación solo tiene componente horizontal y la opción [Solicitar sistema vertical para sensores](../../../cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/solicitar-sistema-vertical-para-sensores.md) de la configuración está en **Sí**, aparece el cuadro **Sistema de referencia de coordenadas vertical desconocido** («El Sistema de Referencia de Coordenadas de este modelo no tiene componente vertical») con dos opciones:
 
 * **Conozco el Sistema de Referencia de Coordenadas Vertical de este modelo y quiero indicar cuál es.**: muestra el cuadro de selección de sistema de referencia de coordenadas vertical. El modelo usa el sistema horizontal del archivo con el vertical seleccionado. Si se cancela el cuadro de selección, actúa como la opción siguiente.
 * **Desconozco el Sistema de Referencia de Coordenadas de este modelo.**: el modelo usa el sistema horizontal del archivo con un sistema vertical desconocido. Digi3D.AI no transforma la coordenada Z.
 
-La elección no se guarda en ningún archivo, así que el cuadro vuelve a aparecer cada vez que se carga el modelo. Con la opción **Solicitar sistema vertical para sensores** en **No**, el cuadro no aparece y el sistema vertical es desconocido.
+Aunque el texto de las dos opciones dice que se modifica el archivo del que se extrajo el sistema, la elección no se guarda en ningún archivo, así que el cuadro vuelve a aparecer cada vez que se carga el modelo. Con la opción **Solicitar sistema vertical para sensores** en **No**, el cuadro no aparece y el sistema vertical es desconocido.
