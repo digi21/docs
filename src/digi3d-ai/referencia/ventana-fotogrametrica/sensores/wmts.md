@@ -5,7 +5,9 @@ El sensor Web Map Tile Service muestra en la ventana fotogramétrica una capa de
 
 ## Crear el modelo
 
-En la pestaña [Sensores fotogramétricos](../../cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo **Nuevo proyecto**, o en el cuadro de diálogo [Crear modelo](../../cuadros-de-dialogo/crear-modelo.md), con el sensor **Web Map Tile Service**, **Propiedades del sensor** muestra solo la propiedad **URL del servidor**:
+En la pestaña [Sensores fotogramétricos](../../cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo **Nuevo proyecto**, con **Crear un archivo de modelo fotogramétrico nuevo** y el **Tipo de sensor** **Web Map Tile Service**, **Propiedades del sensor** muestra solo la propiedad **URL del servidor**:
+
+![Pestaña Sensores fotogramétricos con el sensor Web Map Tile Service y la URL del PNOA](../../../../images/sensor-wmts-nuevo-proyecto.png)
 
 1. En **URL del servidor**, escribe la URL **GetCapabilities** del servidor WMTS. Por ejemplo, la del PNOA del IGN:
 
@@ -24,7 +26,7 @@ Cuando la rejilla muestra un modelo existente, o uno preparado con **Crear uno n
 El archivo de modelo se llama `servidor - capa.d3d`, con el nombre del servidor de la URL y el título de la capa. Por ejemplo, `www.ign.es - Imágenes de satélite Sentinel y ortofotos PNOA.d3d`. Un modelo que todavía no tiene capa se llama como el servidor: `www.ign.es.d3d`.
 
 * Los caracteres que Windows no admite en un nombre de archivo se sustituyen: `\`, `/` y `|` por `-`; `:`, `*`, `?` y `%` por `_`; `"` por `'`; `<` y `>` por paréntesis. Un puerto se escribe con `_`: `servidor_8080`.
-* Al crear el modelo, si en el directorio de trabajo ya existe un archivo de modelo Web Map Tile Service del mismo servidor y la misma capa, Digi3D.AI lo reutiliza: escribe en él la configuración nueva. Si existe un archivo con ese nombre de otro servidor, de otra capa o de otro sensor, el modelo nuevo se llama `servidor - capa (2).d3d`, `servidor - capa (3).d3d`, etc.
+* Al crear el modelo, si en el directorio de trabajo ya existe un archivo de modelo Web Map Tile Service del mismo servidor, con la misma capa, el mismo estilo, el mismo formato y la misma matriz de teselas, Digi3D.AI lo reutiliza: escribe en él la configuración nueva. Si existe un archivo con ese nombre que difiere en cualquiera de esos datos o es de otro sensor, el modelo nuevo se llama `servidor - capa (2).d3d`, `servidor - capa (3).d3d`, etc.
 * Al elegir otra capa en el panel, Digi3D.AI cambia el nombre del archivo al de la capa nueva, también la primera vez que eliges una capa en un modelo sin capa. El nombre nuevo nunca sustituye a un archivo que ya existe: si existe, se añade ` (2)`, ` (3)`, etc. La barra de título de la ventana fotogramétrica y el título del panel muestran el nombre nuevo.
 * Si el nombre del archivo no es uno de los que genera Digi3D.AI (por ejemplo, porque lo has cambiado tú, o porque el modelo se creó con una versión anterior, que lo llamaba con la cadena de conexión entera), el archivo conserva su nombre aunque cambies de capa.
 
@@ -59,10 +61,10 @@ Las propiedades **Servicio**, **Proveedor**, **Restricciones de uso**, **Tarifas
 | :--- | :--- |
 | **Capa** | Capa del servidor que se muestra en la ventana fotogramétrica. El desplegable lista en orden alfabético los títulos de las capas que publica el servidor; si dos capas tienen el mismo título, se muestra también su identificador entre paréntesis. En un modelo sin capa, el resto de propiedades de esta categoría no aparece hasta que eliges una. |
 | **Descripción de la capa** | Descripción que publica el servidor para la capa. No se puede modificar. |
-| **Estilo** | Estilo de la capa con el que se piden las teselas. |
+| **Estilo** | Estilo de la capa con el que se piden las teselas, por su identificador. |
 | **Formato de imagen** | Formato de las teselas. El desplegable solo ofrece `image/jpeg` e `image/png`, de entre los formatos que el servidor admite para la capa. |
 | **Matriz de teselas** | Conjunto de matrices de teselas (*TileMatrixSet*) de la capa. Cada matriz del conjunto es un nivel piramidal del modelo. |
-| **Sistema de referencia** | Sistema de referencia de coordenadas de la matriz de teselas, que es también el del modelo. No se puede modificar: depende de la matriz. |
+| **Sistema de referencia** | Sistema de referencia de coordenadas de la matriz de teselas, que es también el del modelo. Muestra el nombre del sistema o, si Digi3D.AI no lo reconoce, el texto que publica el servidor. No se puede modificar: depende de la matriz. |
 | **Tamaño de píxel** | Tamaño de píxel del nivel con más detalle de la matriz, en unidades del sistema de referencia. No se puede modificar: lo fija el servidor. |
 | **Origen X** y **Origen Y** | Coordenadas en las que se abre el modelo. Por defecto, el centro de la matriz de teselas. Al cambiarlas, la ventana fotogramétrica se desplaza a ellas. |
 
@@ -89,4 +91,4 @@ Las coordenadas del modelo van en las unidades del sistema de referencia, con el
 
 Digi3D.AI guarda las teselas que recibe en la carpeta temporal de Windows, en la subcarpeta **Caché WMTS**, por servidor, capa, estilo y matriz de teselas. Una tesela que ya está en la caché no se vuelve a pedir.
 
-Si el servidor no devuelve una imagen, el panel [Resultados](../../paneles/resultados.md) muestra el motivo.
+Si el servidor no devuelve una imagen del formato pedido, la tesela se dibuja en rojo y el panel [Resultados](../../paneles/resultados.md) muestra el motivo con la petición enviada. Si el servidor no devuelve datos, la tesela se dibuja en rojo sin ningún mensaje.
