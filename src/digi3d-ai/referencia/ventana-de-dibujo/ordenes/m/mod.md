@@ -27,14 +27,17 @@ Esta orden permite "arreglar" curvas de nivel que se corten. Sólo tienes que di
 
 ### Modificar una entidad cerrada
 
-Si la entidad que se modifica está cerrada (o es el contorno o un hueco de un polígono) y los dos extremos de la entidad modificadora quedan sobre ella, el nuevo tramo divide la entidad en dos recintos y hay dos soluciones posibles. Digi3D.AI muestra el cuadro de diálogo **Localizadas dos soluciones** para que elijas una:
+Si la entidad que se modifica está cerrada (o es el contorno o un hueco de un polígono) y los dos extremos de la entidad modificadora quedan sobre ella, el nuevo tramo divide la entidad en dos recintos y hay dos soluciones posibles.
+
+Esta orden solicita en el cuadro de diálogo **Localizadas dos soluciones** qué solución se conserva. El cuadro muestra el texto «Se han localizado dos soluciones. Selecciona la que quieres conservar.»
 
 ![Cuadro de diálogo Localizadas dos soluciones](../../../../../images/localizadas-dos-soluciones.png)
 
-* Cada dibujo muestra la entidad original con un color atenuado y, en rojo, el contorno de una de las soluciones.
-* **Solución 1**, a la izquierda, es la de más área y está seleccionada por defecto. **Solución 2**, a la derecha, es la de menos área.
+* Cada dibujo muestra la entidad original con un color atenuado, con sus huecos si es un polígono, y en rojo el contorno de una de las soluciones. Los dos dibujos tienen la misma escala.
+* **Solución 1 (entidad con más área)**: la solución del dibujo de la izquierda. Está seleccionada por defecto.
+* **Solución 2 (entidad con menos área)**: la solución del dibujo de la derecha.
 * **Aceptar** sustituye la entidad por la solución seleccionada.
-* **Cancelar** deja la entidad sin cambios. Si MOD se ejecutó sin parámetro, la entidad modificadora se descarta y termina la orden LINEA. Con parámetro, LINEA sigue activa con la entidad modificadora.
+* **Cancelar** deja la entidad sin cambios y emite el sonido de error. Si MOD se ejecutó sin parámetro, la entidad modificadora se descarta y termina la orden LINEA. Con parámetro, LINEA sigue activa con la entidad modificadora.
 
 Si se modifica el contorno de un polígono con huecos, una solución solo es válida si todos los huecos quedan dentro de su contorno. Si solo una de las dos es válida, se aplica sin mostrar el cuadro. Si no lo es ninguna, se muestra el mensaje «No se ha podido realizar la modificación porque el polígono dejaría huecos fuera del contorno exterior.» y la entidad no cambia.
 
