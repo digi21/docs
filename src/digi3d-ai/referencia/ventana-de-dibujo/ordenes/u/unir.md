@@ -24,14 +24,29 @@ Sin parámetros, la orden pide que selecciones las dos líneas. El punto de sele
 
 Si las dos líneas tienen el mismo código y los mismos atributos de base de datos, la orden las une sin preguntar. En los demás casos:
 
-* Si los códigos son iguales y los atributos de base de datos son distintos, la orden muestra un cuadro de diálogo con los campos que difieren. En él eliges cancelar la unión, unir con los atributos de la primera línea o unir con los atributos de la segunda.
+* Si los códigos son iguales y algún atributo de base de datos tiene distinto valor, la orden muestra el cuadro de diálogo **Se está intentando unir dos entidades con distintos atributos de base de datos**, descrito en la sección siguiente.
+* Si los códigos son distintos, la orden emite el sonido de error. Lo que hace después depende de la opción **Si las dos líneas tienen códigos distintos**, de la categoría **Unir** del cuadro de diálogo de configuración:
+  * Con el valor **No unir las líneas** (valor por defecto), la orden muestra el mensaje «Se han seleccionado líneas con códigos distintos.» y no une las líneas.
+  * Con el valor **Preguntar el código de la línea a generar**, la orden muestra un cuadro de diálogo con el texto «Selecciona los códigos a almacenar en la geometría nueva» y tres botones: los códigos de la primera línea (botón por defecto), los códigos de la segunda línea y **No unir las dos líneas**.
 
-  ![Cuadro de diálogo Se está intentando unir dos entidades con distintos atributos de base de datos](../../../../../images/unir-distintos-atributos.png)
-* Si los códigos son distintos, la orden depende de la opción **Si las dos líneas tienen códigos distintos**, de la categoría **Unir** del cuadro de diálogo de configuración:
-  * Con el valor **No unir las líneas** (valor por defecto), la orden emite el sonido de error, muestra el mensaje «Se han seleccionado líneas con códigos distintos.» y no une las líneas.
-  * Con el valor **Preguntar el código de la línea a generar**, la orden muestra un cuadro de diálogo con los códigos de cada línea. En él eliges los códigos de la primera línea, los de la segunda o no unir las líneas.
+La orden trata también como códigos distintos dos líneas con el mismo código en estos casos: la tabla de base de datos del código es distinta en cada línea, o los ID son distintos y la primera línea no tiene atributos cargados o las dos tienen distinto número de atributos.
 
 Si el control de calidad descarta la línea unida, se conservan las dos líneas originales y no se añade la unión. Si una de las dos líneas no pertenece al modelo actual y el control de calidad descarta la línea modificada, la línea original se conserva sin cambios. Con la unión por ventana, cada par de líneas se trata de forma independiente.
+
+## Cuadro de diálogo Se está intentando unir dos entidades con distintos atributos de base de datos
+
+Esta orden solicita en este cuadro de diálogo qué atributos de base de datos tendrá la línea unida. La orden lo muestra cuando las dos líneas tienen los mismos códigos y algún atributo con distinto valor.
+
+![Cuadro de diálogo Se está intentando unir dos entidades con distintos atributos de base de datos](../../../../../images/unir-distintos-atributos.png)
+
+El cuadro muestra una tabla con los campos que tienen distinto valor. La columna **Campo** contiene el nombre del campo. La primera columna **Valor** contiene el valor en la primera línea seleccionada y la segunda columna **Valor**, el valor en la segunda. La comparación no tiene en cuenta los campos marcados con `comparable="0"` en el esquema de la base de datos ni los campos binarios.
+
+* **Cancelar la operación de unir.**: no une las líneas. Es la opción por defecto.
+* **Unirlas adoptando los atributos de la primera entidad seleccionada.**: une las líneas. La línea unida conserva los códigos y los atributos de la primera línea.
+* **Unirlas adoptando los atributos de la segunda entidad seleccionada.**: une las líneas. La línea unida recibe los códigos y los atributos de la segunda línea.
+* **Más información**: despliega un texto que indica que dos entidades con enlace a base de datos solo se pueden unir si coinciden todos sus atributos, excepto el campo marcado como clave primaria. El texto pone como ejemplo una carretera con el atributo Carriles igual a 2 y otra con Carriles igual a 10.
+
+Si una de las dos líneas no pertenece al modelo actual, la opción elegida no cambia los atributos: la línea del modelo actual conserva los suyos.
 
 ## Características de la orden
 
