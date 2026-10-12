@@ -25,7 +25,7 @@ La extensión crea la cámara de una imagen a partir de:
 
 ### Archivo .cam
 
-Un archivo `.cam` es un archivo de texto con formato INI y una sección `[Camara]`. Si el archivo no tiene esa sección, la extensión no lo lee.
+Un archivo `.cam` es un archivo de texto con formato INI y una sección `[Camara]`. Si el archivo no tiene esa sección, la extensión no lo lee. En el cuadro de selección de cámara, el tipo es **Archivos de cámara de Digi3D** (`*.cam`).
 
 | Clave | Valores |
 |---|---|
