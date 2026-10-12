@@ -66,7 +66,7 @@ Point 010123 Madrid
 ```
 
 Solo se guarda el primer código de cada geometría; una geometría con varios códigos se escribe una
-vez por código. Las coordenadas se escriben con 6 decimales.
+vez por código. Las coordenadas se escriben con precisión completa.
 
 ## Releer el KML
 
@@ -81,9 +81,8 @@ Line 3 vértices (-3.7038, 40.4168, 657.0)
 Polygon 4 vértices (-3.7, 40.41, 650.0)
 ```
 
-El exportador de KML escribe las coordenadas con **6 cifras significativas**: una latitud de 40
-grados se guarda con 4 decimales, unos 11 m. Las de este ejemplo tienen 4 decimales y se releen
-iguales; `-3.70123456` se releería como `-3.70123`.
+El exportador de KML escribe las coordenadas con precisión completa, así que se releen con el mismo
+valor.
 
 ## Véase también
 
