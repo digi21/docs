@@ -15,6 +15,9 @@ generar un dibujo desde cero como para **convertir un archivo de un formato a ot
 | `digi21.io.dwg` | AutoCAD DWG (`.dwg`) |
 | `digi21.io.dxf` | AutoCAD DXF (`.dxf`) |
 
+Hay más módulos (GeoJSON, KML, SVG, WKT, GeoPackage, SHP, PDF, GeoMedia, PostGIS, IFC y VEC) con sus
+propias páginas de ejemplo; este tema usa los seis de la tabla.
+
 Los parámetros de cada formato (precisión, versión de AutoCAD, plantilla…) están en la
 [referencia de digi21.io](../../referencia/digi21.io/README.md#create).
 
@@ -39,7 +42,7 @@ print(writer.written, "entidades escritas en", writer.path)
 ```
 
 - `crs` es el sistema de coordenadas del archivo, como `"EPSG:<código>"` o como WKT. Es
-  obligatorio: los seis formatos lo guardan. El formato BIN lo escribe en `parcelas.prj`.
+  obligatorio en los seis formatos de la tabla, que lo guardan. El formato BIN lo escribe en `parcelas.prj`.
 - El bloque `with` cierra el escritor al terminar. El archivo **no está completo hasta que se
   cierra**; sin `with`, llama a `writer.close()`.
 - El formato BIN guarda los códigos con 6 caracteres como máximo.

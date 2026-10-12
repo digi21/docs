@@ -11,7 +11,7 @@ obtener sus [geometrías](geometry.md) una a una.
 
 | Propiedad | Tipo | Descripción |
 |---|---|---|
-| `path` | `str` | Ruta del archivo de dibujo. |
+| `path` | `str` | Ruta del archivo de dibujo. Los módulos de GeoJSON, KML, SVG, WKT, GeoPackage, SHP, Geomedia, PostGIS, IFC y VEC la devuelven absoluta; en SHP es la carpeta de las capas. |
 | `crs` | `str` | WKT del sistema de coordenadas del archivo, o cadena vacía si el archivo no lo tiene. Sirve para pasarlo a `create` al convertir de un formato a otro. |
 
 ## Iteración
@@ -20,8 +20,9 @@ obtener sus [geometrías](geometry.md) una a una.
 |---|---|
 | `for geometry in drawing:` | Recorre las geometrías del archivo, leyéndolas una a una. |
 
-> El recorrido es **perezoso**: las geometrías se leen del archivo según se itera. Son
-> propiedad del archivo de dibujo; trátalas como de solo lectura durante el recorrido.
+> El recorrido es **perezoso**: las geometrías se leen del archivo según se itera. Cada
+> geometría mantiene abierto el archivo del que sale, así que sigue siendo válida después de soltar
+> el `DrawingFile` (por ejemplo, en `list(modulo.open(ruta))`). Trátalas como de solo lectura.
 
 ## Ejemplo
 
