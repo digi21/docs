@@ -11,7 +11,7 @@ Conoce algunos de los **modos de búsqueda de Digi3D.AI** siguiendo los siguient
 Modo de búsqueda **0. Vértice o proyección en XY**: Localiza un vértice o proyección en el rango de búsqueda del cursor.
 
 1. **Selecciona** el modo de búsqueda **0. Vértice o proyección en XY**, en el desplegable de la [Barra de herramientas Tentativo](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md).
-2. Acércate a un vértice de la línea y seleccionalo con el [botón de tentativo](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón
+2. Acércate a un vértice de la línea y selecciónalo con el [botón de tentativo](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón
    * Si te acercas a una zona donde no tengas un vértice y pulsas el Botón central del ratón, **Digi3D.AI** localizará la proyección.
    * Si pulsas el Botón central del ratón en una zona donde no tengas ni vértice ni proyección, **Digi3D.AI** mostrará un sonido de error.
 
