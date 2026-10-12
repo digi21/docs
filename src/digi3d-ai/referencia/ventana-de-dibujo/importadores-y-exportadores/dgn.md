@@ -27,7 +27,7 @@ PARAMETROS_IMPORTACION=.dgn <RutaArchivoPlantilla> <CriterioCodigos> <UtilizarAr
 | 10 | Formato de los desconocidos | No |
 | 11 | Rutas de los archivos de recursos | Sí. Si se omite, se queda vacío |
 
-Los parámetros 4 y 5 solo se escriben si el parámetro 3 vale 1. Si el parámetro 3 vale 0, el parámetro siguiente es **Importar la paleta** y los demás se adelantan dos posiciones. El parámetro 2 es la posición del criterio en la lista **Criterio para códigos** del cuadro de diálogo, empezando por 0. Un valor mayor que 16 se toma como 16, así que los dos últimos criterios de la lista no se pueden fijar con esta orden.
+Los parámetros 4 y 5 solo se escriben si el parámetro 3 vale 1. Si el parámetro 3 vale 0, el parámetro siguiente es **Importar la paleta** y los demás se adelantan dos posiciones. El parámetro 2 es la posición del criterio en la lista **Criterio para códigos** del cuadro de diálogo, empezando por 0. Los valores van de 0 a 18; uno mayor que 18 se toma como 18 y uno negativo como 0.
 
 
 ## Parámetros del motor de importación/exportación
