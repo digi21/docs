@@ -13,7 +13,7 @@ Un código tiene enlace a la base de datos si tiene una tabla asignada. La orden
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](ver-solo-sin-enlace-bbdd.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Ver/Solo entidades sin algún enlace a BBDD |

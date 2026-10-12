@@ -22,7 +22,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](camb-aa.md) con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
 | Repite automáticamente | Si, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Puntos/Establecer ángulo activo<br>Editar/Textos/Cambiar ángulo activo de texto |

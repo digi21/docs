@@ -36,7 +36,7 @@ Si falla el almacenamiento de un valor en la base de datos, la orden muestra el 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden inmediata](cambiar-valores-bbdd.md) |
+| Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Base de Datos/Cambiar valores BBDD... |

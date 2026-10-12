@@ -13,7 +13,7 @@ Inserta un nodo en las entidades lineales sobre las que hacemos tentativo, al re
 
 ## Observaciones
 
-Puedes activar o desactivar la función de [TENTATIVO\_INSERTA](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tentativo-inserta.md) llamándola desde el menú de pantalla.
+Puedes activar o desactivar la función de TENTATIVO\_INSERTA llamándola desde el menú de pantalla.
 
 El vértice se inserta cuando el tentativo cae sobre un segmento de una línea o de un polígono, no sobre un vértice existente. La Z del vértice nuevo se interpola entre los dos vértices del segmento.
 

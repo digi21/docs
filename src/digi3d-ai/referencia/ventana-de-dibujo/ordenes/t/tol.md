@@ -1,7 +1,7 @@
 # TOL
 <!-- id: tol -->
 
-Establece el _factor de tolerancia_ en el proceso de [generalización](tol.md).
+Establece el _factor de tolerancia_ en el proceso de [generalización](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md).
 
 ## Parámetros
 

@@ -64,7 +64,7 @@ Si el control de calidad descarta la copia con los códigos editados, la entidad
 
 ## Características de la orden
 
-| Tipo de orden                                    | [Orden interactiva](editar-cod.md)                                                                                                                              |
+| Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                                                                                                              |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Repite automáticamente                           | Si                                                                                                                                                              |
 | Opción del menú donde aparece la orden           | Editar/Editar los códigos de una entidad...                                                                                                                     |

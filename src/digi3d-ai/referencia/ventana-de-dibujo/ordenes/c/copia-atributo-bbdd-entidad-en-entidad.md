@@ -23,7 +23,7 @@ Si Digi3D.AI descarta la entidad con el atributo modificado (por ejemplo, por un
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](copia-atributo-bbdd-entidad-en-entidad.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

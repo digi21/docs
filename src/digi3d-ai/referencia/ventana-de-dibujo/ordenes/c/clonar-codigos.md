@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Características de la orden
 
-| Tipo de orden | [Orden Interactiva](clonar-codigos.md) |
+| Tipo de orden | [Orden Interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Más/Asignar los códigos de una entidad existente |

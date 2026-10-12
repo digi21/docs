@@ -23,7 +23,7 @@ LISTA=C:\BROCHALES\listado1
 
 ## Características de la orden
 
-| Tipo de orden | [De información](lista.md) |
+| Tipo de orden | De información |
 | :--- | :--- |
 | Repite automáticamente | Si |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

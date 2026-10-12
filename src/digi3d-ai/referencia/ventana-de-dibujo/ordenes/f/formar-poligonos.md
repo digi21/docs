@@ -21,7 +21,7 @@ La orden no usa la topología de inundaciones que haya cargada: forma su propia 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](formar-poligonos.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Polígono mediante inundaciones |

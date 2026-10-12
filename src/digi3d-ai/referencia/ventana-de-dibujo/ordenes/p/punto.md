@@ -11,7 +11,7 @@ Dibuja un punto en el archivo actual.
 
 ## Observaciones
 
-Pulsa el [botón de dato](punto.md) del ratón para dibujar el punto en las coordenadas del cursor. El punto toma como rotación el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
+Pulsa el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón para dibujar el punto en las coordenadas del cursor. El punto toma como rotación el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 
 ## Características de la orden
 
