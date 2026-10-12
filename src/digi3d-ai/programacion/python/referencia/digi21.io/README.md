@@ -34,9 +34,10 @@ que se escriben, son instancias de sus tipos.
 Cada página tiene la firma de `open` y `create`, los parámetros del formato, lo que el exportador
 rechaza, lo que necesita de la tabla de códigos y ejemplos ejecutados con su salida.
 
-El formato File Geodatabase de Esri (`.gdb`) no tiene módulo: su motor abre siempre un cuadro de
-diálogo para elegir el *dataset* (conjunto de clases de entidad), tanto al leer como al escribir, y
-desde un programa de consola no hay nadie que lo responda.
+El formato File Geodatabase de Esri (`.gdb`) no tiene módulo. Su motor recibe el *dataset* (conjunto
+de clases de entidad) como parámetro; sin el parámetro, en la aplicación abre un cuadro de diálogo
+para elegirlo, y en un programa de consola usa el único *dataset* de la geodatabase o, si hay varios,
+lanza un error que pide el parámetro.
 
 ## open
 
