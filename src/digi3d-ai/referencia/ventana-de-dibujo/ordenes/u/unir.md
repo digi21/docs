@@ -29,7 +29,7 @@ Si las dos líneas tienen el mismo código y los mismos atributos de base de dat
   * Con el valor **No unir las líneas** (valor por defecto), la orden muestra el mensaje «Se han seleccionado líneas con códigos distintos.» y no une las líneas.
   * Con el valor **Preguntar el código de la línea a generar**, la orden muestra un cuadro de diálogo con el texto «Selecciona los códigos a almacenar en la geometría nueva» y tres botones: los códigos de la primera línea (botón por defecto), los códigos de la segunda línea y **No unir las dos líneas**.
 
-La orden trata también como códigos distintos dos líneas con el mismo código en estos casos: la tabla de base de datos del código es distinta en cada línea, o los ID son distintos y la primera línea no tiene atributos cargados o las dos tienen distinto número de atributos.
+La orden trata también como códigos distintos dos líneas con el mismo código en estos casos: la tabla de base de datos del código es distinta en cada línea, o los ID son distintos y la primera línea no tiene atributos cargados o las dos tienen distinto número de atributos. En estos casos, con el valor **No unir las líneas**, el mensaje es «Las líneas seleccionadas tienen el mismo código, pero distinta tabla de base de datos o distinto registro (ID) de la base de datos.».
 
 Si el control de calidad descarta la línea unida, se conservan las dos líneas originales y no se añade la unión. Si una de las dos líneas no pertenece al modelo actual y el control de calidad descarta la línea modificada, la línea original se conserva sin cambios. Con la unión por ventana, cada par de líneas se trata de forma independiente.
 
