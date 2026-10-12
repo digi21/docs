@@ -26,11 +26,11 @@ Si una imagen ya está teselada y tiene niveles piramidales, el programa no hace
 
 Abre un explorador de archivos, selecciona los archivos a transformar y suéltalos en la lista mediante la técnica de Arrastrar y Soltar.
 
-De entre todos los archivos que arrastres, el programa solo añade a la lista los que tienen extensión .tif o .tip. Un archivo que ya está en la lista no se añade otra vez.
+De entre todos los archivos que arrastres, el programa solo añade a la lista los que tienen extensión .tif, .tiff o .smti. Un archivo que ya está en la lista no se añade otra vez.
 
 Mientras dura el proceso, el programa no añade los archivos que se arrastran.
 
-Si arrastras una carpeta, el programa pregunta si quieres incluir los archivos .TIFF de esa carpeta y de sus subcarpetas. Si contestas **Sí**, añade los archivos .tif de la carpeta y de todas sus subcarpetas; si contestas **No**, no añade ningún archivo de la carpeta. La pregunta aparece una sola vez cada vez que arrastras, aunque sueltes varias carpetas.
+Si arrastras una carpeta, el programa pregunta si quieres incluir los archivos .TIFF de esa carpeta y de sus subcarpetas. Si contestas **Sí**, añade los archivos .tif, .tiff y .smti de la carpeta y de todas sus subcarpetas; si contestas **No**, no añade ningún archivo de la carpeta. La pregunta aparece una sola vez cada vez que arrastras, aunque sueltes varias carpetas.
 
 ### Botón Borrar
 
@@ -38,7 +38,7 @@ Elimina de la lista el archivo seleccionado. La lista solo permite seleccionar u
 
 ### Botón Añadir
 
-Abre un cuadro de diálogo que permite seleccionar uno o varios archivos con extensión .tif, .smti o .pyr y los añade a la lista.
+Abre un cuadro de diálogo que permite seleccionar uno o varios archivos con extensión .tif, .tiff o .smti y los añade a la lista. Los archivos .pyr no se admiten porque son los archivos de niveles piramidales que genera el programa.
 
 ## Directorio de salida
 
@@ -47,7 +47,7 @@ Este campo es opcional. El botón **...** abre el selector de carpetas.
 * Si indicas un directorio, el programa genera las imágenes resultantes en ese directorio con el mismo nombre que la imagen original. Si el directorio no existe, lo crea; solo crea el último nivel de la ruta, así que la carpeta que lo contiene tiene que existir. Admite [sustituidores](cuadros-de-dialogo/sustituidores.md); si la ruta cambia al sustituirlos, la ventana de resultados muestra la ruta resultante.
 * Si lo dejas vacío, el programa renombra la imagen original añadiendo al final del nombre, detrás de la extensión, el sufijo `__0` (o `__1`, `__2`... si ya existe), por ejemplo `foto.tif__0`, y guarda la imagen nueva con el nombre original.
 
-El directorio de salida solo se aplica a las imágenes que el programa tesela. Los niveles piramidales externos se crean siempre en la carpeta de la imagen original.
+El directorio de salida solo se aplica a las imágenes que el programa tesela. Los niveles piramidales externos de una imagen que el programa tesela se crean junto a la imagen resultante, a partir de ella; los de una imagen que ya estaba teselada se crean en la carpeta de la imagen original.
 
 ## Tamaño de tesela
 
@@ -97,7 +97,7 @@ Cuanto mayor sea este valor, más rápido será el proceso, pero más lentas se 
 
 ## Transformar
 
-Pulsa este botón para comenzar el proceso. Solo está habilitado si la lista tiene algún archivo. Mientras dura el proceso, todos los controles salvo **Salir** quedan deshabilitados, la ventana de resultados muestra el archivo y el nivel piramidal que se están creando, y la primera barra de progreso muestra el avance de la operación en curso. La segunda barra de progreso no se actualiza. Cada archivo procesado desaparece de la lista, también si su transformación ha fallado; el motivo del fallo queda en la ventana de resultados. Al terminar, el programa muestra «Trabajo finalizado satisfactoriamente» o el número de errores encontrados.
+Pulsa este botón para comenzar el proceso. Solo está habilitado si la lista tiene algún archivo. Mientras dura el proceso, todos los controles salvo **Salir** quedan deshabilitados, la ventana de resultados muestra el archivo y el nivel piramidal que se están creando, y la primera barra de progreso muestra el avance de la operación en curso y la segunda, cuántos archivos de la lista se han procesado. Cada archivo procesado desaparece de la lista, también si su transformación ha fallado; el motivo del fallo queda en la ventana de resultados. Al terminar, el programa muestra «Trabajo finalizado satisfactoriamente» o el número de errores encontrados.
 
 ## Salir
 
