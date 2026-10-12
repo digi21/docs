@@ -52,8 +52,9 @@ open(path, digitab=None) -> DrawingFile
 Devuelve un [DrawingFile](../digi21.base/drawingfile.md). El recorrido es perezoso: las geometrías se
 leen según se itera. `DrawingFile.crs` es el sistema de coordenadas del archivo, o una cadena vacía.
 
-Si `path` no existe, lanza `FileNotFoundError`, salvo `bin` y `bindouble`, que lanzan `RuntimeError`.
-`digi21.io.pdf` no tiene `open`.
+Si `path` no existe, lanza `FileNotFoundError`. `digi21.io.pdf` no tiene `open`.
+`digi21.io.bin` añade a `open` los parámetros `precision` y `global_origin`, porque el formato BIN no
+los guarda en el archivo.
 
 ## create
 

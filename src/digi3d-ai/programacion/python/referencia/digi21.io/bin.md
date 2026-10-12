@@ -15,19 +15,22 @@ El nombre `bin` coincide con la función `bin()` de Python: impórtalo con otro 
 ## open
 
 ```python
-open(path, digitab=None) -> DrawingFile
+open(path, digitab=None, *, precision=2, global_origin=(0.0, 0.0, 0.0)) -> DrawingFile
 ```
 
-| Argumento | Tipo | Descripción |
-|---|---|---|
-| `path` | `str` | Ruta del archivo `.bin`. |
-| `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos (opcional). Si no se indica, se usa una vacía. |
+| Parámetro | Tipo | Por defecto | Descripción |
+|---|---|---|---|
+| `path` | `str` | — | Ruta del archivo `.bin`. |
+| `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. Si no se indica, se usa una vacía. |
+| `precision` | `int` | `2` | Número de decimales con el que se escribió el archivo. |
+| `global_origin` | `tuple` | `(0.0, 0.0, 0.0)` | Origen `(x, y, z)` con el que se escribió el archivo. Se suma a las coordenadas leídas. |
 
 Devuelve un [DrawingFile](../digi21.base/drawingfile.md). El archivo no guarda ni la precisión ni el
-origen global: `open` lo lee siempre con **2 decimales** y origen `(0, 0, 0)`. El sistema de
-coordenadas sale del archivo `.prj` con el mismo nombre que el dibujo.
+origen global: pasa a `open` los mismos valores de `precision` y `global_origin` que a `create`. El
+sistema de coordenadas sale del archivo `.prj` con el mismo nombre que el dibujo.
 
-Si `path` no existe, lanza `RuntimeError` (no `FileNotFoundError`, como los demás módulos).
+`precision` y `global_origin` se pasan solo por nombre. Si `path` no existe, `open` lanza
+`FileNotFoundError`; si `global_origin` contiene un valor infinito o `nan`, lanza `ValueError`.
 
 ## create
 
@@ -59,9 +62,10 @@ Excepciones de `create`: `ValueError` si falta `crs` o no es válido; `FileNotFo
 de `path` no existe.
 
 > [!WARNING]
-> Como el archivo no guarda `precision`, un archivo escrito con una precisión distinta de 2 se lee
-> con un factor de escala: con `precision=3`, `open` devuelve las coordenadas multiplicadas por 10
-> (ver el último ejemplo). `open` no tiene un parámetro para indicar la precisión.
+> Como el archivo no guarda `precision`, un archivo leído con una precisión distinta de la que se usó
+> al escribirlo devuelve las coordenadas con un factor de escala: un archivo escrito con
+> `precision=3` y leído con el valor por defecto, 2, devuelve las coordenadas multiplicadas por 10
+> (ver el último ejemplo).
 
 ## Ejemplos
 
@@ -137,7 +141,7 @@ print(writer.written, "escritas,", writer.rejected, "rechazadas")
 ### Escribir con un origen global
 
 Con `global_origin`, el archivo guarda las coordenadas relativas a ese origen. Como el archivo no lo
-guarda, el programa que lo lee tiene que sumarlo:
+guarda, hay que pasar el mismo origen a `open`:
 
 ```python
 import digi21.io.bin as bin_
@@ -147,17 +151,17 @@ origen_global = (500000.0, 4400000.0, 0.0)
 with bin_.create("origen.bin", crs="EPSG:25830", global_origin=origen_global) as writer:
     writer.add(Line(["040645"], [(500000.12, 4400000.25, 650.5), (500100.5, 4400080.75, 655.0)]))
 
-# El archivo no guarda el origen: open() devuelve las coordenadas relativas a él.
-ox, oy, oz = origen_global
-for geometry in bin_.open("origen.bin"):
-    for x, y, z in geometry:
-        print((x, y, z), "->", (x + ox, y + oy, z + oz))
+print("Sin origen:", [list(g) for g in bin_.open("origen.bin")])
+print("Con origen:", [list(g) for g in bin_.open("origen.bin", global_origin=origen_global)])
 ```
 
 ```
-(0.12, 0.25, 650.5) -> (500000.12, 4400000.25, 650.5)
-(100.5, 80.75, 655.0) -> (500100.5, 4400080.75, 655.0)
+Sin origen: [[(0.12, 0.25, 650.5), (100.5, 80.75, 655.0)]]
+Con origen: [[(500000.12, 4400000.25, 650.5), (500100.5, 4400080.75, 655.0)]]
 ```
+
+`open` mantiene el archivo abierto mientras exista el `DrawingFile` o alguna de sus geometrías: para
+abrir el mismo archivo otra vez, suelta antes las del primero.
 
 ### Códigos de más de 6 caracteres
 
@@ -189,14 +193,17 @@ from digi21.base import Point
 
 with bin_.create("precision.bin", crs="EPSG:25830", precision=3) as writer:
     writer.add(Point((1.234, 5.678, 9.0), ["010123"]))
+print([list(g) for g in bin_.open("precision.bin", precision=3)])
 print([list(g) for g in bin_.open("precision.bin")])
 ```
 
 ```
+[[(1.234, 5.678, 9.0)]]
 [[(12.34, 56.78, 90.0)]]
 ```
 
-El archivo guarda `1234`, `5678` y `9000`; `open` los divide entre 100 en lugar de entre 1000.
+El archivo guarda `1234`, `5678` y `9000`. Con `precision=3`, `open` los divide entre 1000; con el
+valor por defecto, 2, los divide entre 100.
 
 ## Véase también
 
