@@ -5,7 +5,7 @@ La extensión **Vexcel** lee la calibración de la cámara de la cabecera de las
 
 ## Qué lee
 
-La extensión no usa el archivo de cámara del modelo: lee la propia imagen. Funciona con imágenes con extensión `.tif`, `.tiff`, `.smti` o `.pyr` cuya descripción (etiqueta TIFF *ImageDescription*) empieza por `Vexcel` o `UltraCam`. Con otras imágenes, Digi3D.AI prueba con las demás extensiones (consulta [Cámara](../README.md#cámara)).
+La extensión no usa el archivo de cámara del modelo: lee la propia imagen. Funciona con imágenes con extensión `.tif`, `.tiff`, `.smti` o `.pyr` cuya descripción (etiqueta TIFF *ImageDescription*) empieza por `Vexcel` o `UltraCam`. Con otras imágenes, y con las que Digi3D.AI no puede abrir como TIFF, Digi3D.AI prueba con las demás extensiones (consulta [Cámara](../README.md#cámara)).
 
 De la descripción, Digi3D.AI lee el valor que sigue a cada una de estas claves:
 
@@ -21,5 +21,4 @@ La cámara no tiene corrección de distorsión.
 
 ## Mensajes de error
 
-* «No se pudo abrir el archivo: *imagen* o no es un archivo TIFF válido»: Digi3D.AI no puede abrir la imagen como TIFF.
 * «Error al intentar obtener los parámetros de la cámara desde el archivo .tiff: *imagen* No se localizó *clave*»: la descripción de la imagen no contiene una de las claves de la tabla.
