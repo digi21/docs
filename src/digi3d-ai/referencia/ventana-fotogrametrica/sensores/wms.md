@@ -25,7 +25,7 @@ Cuando la rejilla muestra un modelo existente, o uno preparado con **Crear uno n
 
 El archivo de modelo se llama `servidor - capa.d3d`, con el nombre del servidor de la URL y el título de la capa. Por ejemplo, `www.ign.es - Ortoimagen.d3d`. Un modelo que todavía no tiene capa se llama como el servidor: `www.ign.es.d3d`.
 
-* Los caracteres que Windows no admite en un nombre de archivo se sustituyen: `\`, `/` y `|` por `-`; `:`, `*` y `?` por `_`; `"` por `'`; `<` y `>` por paréntesis. Un puerto se escribe con `_`: `servidor_8080`.
+* Los caracteres que Windows no admite en un nombre de archivo se sustituyen: `\`, `/` y `|` por `-`; `:`, `*`, `?` y `%` por `_`; `"` por `'`; `<` y `>` por paréntesis. Un puerto se escribe con `_`: `servidor_8080`.
 * Al crear el modelo, si en el directorio de trabajo ya existe un archivo de modelo Web Map Service del mismo servidor y la misma capa, Digi3D.AI lo reutiliza: escribe en él la configuración nueva. Si existe un archivo con ese nombre de otro servidor, de otra capa o de otro sensor, el modelo nuevo se llama `servidor - capa (2).d3d`, `servidor - capa (3).d3d`, etc.
 * Al elegir otra capa en el panel, Digi3D.AI cambia el nombre del archivo al de la capa nueva, también la primera vez que eliges una capa en un modelo sin capa. El nombre nuevo nunca sustituye a un archivo que ya existe: si existe, se añade ` (2)`, ` (3)`, etc. La barra de título de la ventana fotogramétrica y el título del panel muestran el nombre nuevo.
 * Si el nombre del archivo no es uno de los que genera Digi3D.AI (por ejemplo, porque lo has cambiado tú, o porque el modelo se creó con una versión anterior, que lo llamaba con 32 caracteres hexadecimales), el archivo conserva su nombre aunque cambies de capa.
