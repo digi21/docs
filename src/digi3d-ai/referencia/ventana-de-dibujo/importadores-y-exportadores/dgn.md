@@ -25,7 +25,7 @@ PARAMETROS_IMPORTACION=.dgn <RutaArchivoPlantilla> <CriterioCodigos> <UtilizarAr
 | 8 | Importar células como puntual de Digi (0/1) | No |
 | 9 | Incremento de registro de splines | No |
 | 10 | Formato de los desconocidos | No |
-| 11 | Rutas de los archivos de recursos | No |
+| 11 | Rutas de los archivos de recursos | Sí. Si se omite, se queda vacío |
 
 Los parámetros 4 y 5 solo se escriben si el parámetro 3 vale 1. Si el parámetro 3 vale 0, el parámetro siguiente es **Importar la paleta** y los demás se adelantan dos posiciones. El parámetro 2 es la posición del criterio en la lista **Criterio para códigos** del cuadro de diálogo, empezando por 0. Un valor mayor que 16 se toma como 16, así que los dos últimos criterios de la lista no se pueden fijar con esta orden.
 
