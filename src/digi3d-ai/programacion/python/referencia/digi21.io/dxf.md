@@ -54,7 +54,8 @@ Qué hace el exportador:
 
 - Escribe cada `Polygon`, y cada `Complex` formado solo por polígonos, como un sombreado (HATCH) de
   relleno sólido, igual que [digi21.io.dwg](dwg.md#create). El sombreado es plano: todos los
-  vértices toman la Z del primero. Un `Complex` con otras geometrías no se escribe: `add` devuelve
+  vértices toman la Z del primero, salvo que la propiedad **Polígonos con Z no constante** del código
+  diga otra cosa. Un `Complex` con otras geometrías no se escribe: `add` devuelve
   `False` y `warnings` recoge el error.
 - No escribe las geometrías cuyo código la tabla dice que no se exporta.
 - Sin `iodwg:transform`, escribe cada código en una capa con su nombre, y `warnings` lo indica.
