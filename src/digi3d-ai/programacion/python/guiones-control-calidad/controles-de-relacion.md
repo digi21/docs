@@ -3,8 +3,8 @@
 
 Estos controles de calidad de
 [guiones.py](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D/blob/main/guiones.py) comparan
-la geometría analizada con las geometrías no borradas del archivo de dibujo que tienen un código
-determinado. La página [Repositorio de controles de calidad en Python](README.md) explica cómo se instala el
+la geometría analizada con las geometrías no borradas que tienen un código determinado. Digi3D.AI recorre
+las geometrías de todos los archivos cargados: el archivo de dibujo y los archivos de referencia. La página [Repositorio de controles de calidad en Python](README.md) explica cómo se instala el
 archivo y cómo se asigna un control a un código.
 
 ## Parámetros comunes

@@ -28,7 +28,7 @@ modifican solo el primer elemento de la lista, `representations[0]`, y devuelven
 | Parámetro | Descripción |
 |---|---|
 | `nombre_codigo` | Código al que se aplica la regla. Admite los comodines `?` y `*`, pero no varias palabras ni etiquetas. La regla no cambia nada si el código con el que se dibuja la geometría no coincide. |
-| `color_asignar` | Color. El cuadro de parámetros de ASIGNAR\_REPRESENTACIONES lo escribe como texto `"R G B"`. La función `texto_a_color` lo convierte a `#RRGGBBFF`; un texto `"R G B A"` lo convierte a `#RRGGBBAA`. Un texto de una sola palabra se asigna sin cambios. |
+| `color_asignar` | Color. El cuadro de parámetros de ASIGNAR\_REPRESENTACIONES lo escribe como texto `"R G B"`. La función `texto_a_color` lo convierte a `#RRGGBBFF`; un texto `"R G B A"` lo convierte a `#RRGGBBAA`. Un texto de una sola palabra se asigna sin cambios, salvo `#`, que produce `#000000ff`. Un texto de dos palabras o de más de cuatro produce `#ff0000ff`. |
 | `grosor_asignar` | Grosor. La regla lo convierte con `int()`. |
 | `nombre_atributo` | Nombre del atributo. |
 | `valor_esperado` | Valor con el que se compara el atributo. |

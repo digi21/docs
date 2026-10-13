@@ -56,8 +56,8 @@ controles al terminar de digitalizar cada geometría, antes de guardarla en el a
 ### Cómo se escriben los parámetros
 
 El cuadro **Parámetros del control de calidad** guarda los valores como un diccionario de Python. Un número
-entero sin ceros a la izquierda o un número con punto decimal se guarda como número; el resto se guarda
-como texto. La regla completa está en
+entero sin ceros a la izquierda, un valor formado solo por ceros (`0`, `00`) o un número con punto decimal
+(`0.5`, `.5`, `020.`) se guarda como número; el resto se guarda como texto. La regla completa está en
 [Cuadro de diálogo Parámetros del control de calidad](../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md).
 Un código formado solo por cifras y sin cero a la izquierda, como `120400`, se guarda por tanto como número. Los controles que buscan códigos llaman a `split()` sobre el parámetro, y
 con un número fallan con el error `AttributeError: 'int' object has no attribute 'split'`. Un código con
@@ -94,8 +94,8 @@ def compara_codigos_con_comodines(codigo_a, codigo_b):
 
 ### La geometría analizada no se excluye
 
-Los controles de relación entre geometrías recorren las geometrías no borradas del archivo de dibujo con la
-función auxiliar `alguna_geometria`. La línea que debería saltar la geometría analizada no la salta, porque
+Los controles de relación entre geometrías recorren las geometrías no borradas de todos los archivos
+cargados (el archivo de dibujo y los archivos de referencia) con la función auxiliar `alguna_geometria`. La línea que debería saltar la geometría analizada no la salta, porque
 ejecuta `pass` en lugar de `continue`:
 
 ```python
@@ -108,7 +108,10 @@ for g in no_eliminadas(digi3d.current_view()):
 Cuando el control se ejecuta con las órdenes de control de calidad, la geometría analizada ya está en el
 archivo de dibujo. Si su código coincide con el parámetro `código_o_etiqueta_...`, el control la compara
 consigo misma. Por ejemplo, `si_es_punto_debe_estar_separado_de_punto` con el mismo código del punto
-analizado da siempre error, y `si_es_punto_debe_coincidir_con_punto` no da nunca error. En tiempo real la
+analizado da siempre error, y `si_es_punto_debe_coincidir_con_punto` no da nunca error.
+`si_es_linea_solo_puede_continuar_con_lineas_con_codigo` busca líneas que **no** tienen los códigos del
+parámetro: ese control compara la línea analizada consigo misma cuando el código de la línea no está en
+el parámetro. En tiempo real la
 geometría todavía no está en el archivo de dibujo y el problema no aparece.
 
 ## Páginas de esta sección
