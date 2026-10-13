@@ -16,3 +16,5 @@ Para empezar, sigue uno de los dos tutoriales:
 Si tienes programas creados para versiones anteriores (paquetes 24.0.0 o .NET 8), lee [Migración a .NET 10](migracion-a-net-10.md).
 
 Para aprender a usar los tipos de la API, sigue el [curso de programación en C#](curso-de-programacion-en-c/README.md).
+
+El repositorio público [Ejemplos-Programacion-Digi3D](https://github.com/digi21/Ejemplos-Programacion-Digi3D) contiene programas completos: aplicaciones de consola que leen y escriben archivos `.bind`, una extensión y utilidades para tablas de códigos. Cada ejemplo está explicado en [Ejemplos de programación](ejemplos/README.md).
