@@ -34,7 +34,7 @@ Estos métodos solo analizan vértices; no calculan intersecciones entre lados. 
 
 | Relación | Condición |
 | :--- | :--- |
-| Iguales | Los dos anillos exteriores tienen los mismos vértices, y los huecos también, con cualquier vértice inicial y sentido. Los vértices repetidos consecutivos no cuentan. |
+| Iguales | Los dos anillos exteriores tienen los mismos vértices, y los huecos también, con cualquier vértice inicial y sentido. Los vértices repetidos consecutivos no cuentan. También son iguales si hay vértices comunes y ningún vértice de un área está dentro ni fuera de la otra (los vértices que no son comunes están sobre los lados de la otra área). |
 | Disjuntas | Ningún vértice de un área está dentro de la otra y no hay vértices comunes. |
 | `a` completamente dentro de `b` | Los vértices de `a` están dentro de `b`, ninguno es común y ningún vértice de `b`, huecos incluidos, está dentro de `a`. |
 | `a` dentro de `b` | Ningún vértice de `a` está fuera de `b`, al menos uno es común y ningún vértice de `b`, huecos incluidos, está dentro de `a`. Si ningún vértice de `a` está dentro de `b`, se comprueba si el punto interior de `a` está dentro de `b`. |
