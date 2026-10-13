@@ -7,20 +7,7 @@ Código: [Binselec en GitHub](https://github.com/digi21/Ejemplos-Programacion-Di
 
 ## Compilar
 
-El proyecto del repositorio usa `net8.0-windows10.0.17763.0` y los paquetes `Digi21.DigiNG`, `Digi21.DigiNG.IO.BinDouble`, `Digi21.DigiNG.Plugin` y `Digi21.Utilities` 24.0.0, más `Digi21.Digi3D.App` 24.0.1. Para compilarlo contra Digi3D.AI para .NET 10, sigue los pasos de [Compilar un ejemplo para .NET 10](README.md#compilar-un-ejemplo-para-net-10). El proyecto queda con:
-
-```xml
-<TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
-...
-<PackageReference Include="Digi21.DigiNG" Version="26.0.0" />
-<PackageReference Include="Digi21.DigiNG.Io.BinDouble" Version="26.0.0" />
-<PackageReference Include="Digi21.DigiNG.Plugin" Version="26.0.0" />
-<PackageReference Include="Digi21.Utilities" Version="26.0.0" />
-```
-
-En el `.csproj` del repositorio, las versiones de los tres primeros paquetes están en un elemento `<Version>` dentro de `PackageReference`. Cambia el valor de ese elemento.
-
-Compila el proyecto desde la carpeta del repositorio:
+El proyecto usa .NET 10 (`net10.0`) y los paquetes `Digi21.DigiNG`, `Digi21.DigiNG.IO.BinDouble`, `Digi21.DigiNG.Plugin` y `Digi21.Utilities` 26.0.0. Compila el proyecto desde la carpeta del repositorio:
 
 ```
 dotnet build Binselec\Binselec.csproj -c Release -o C:\Herramientas\Binselec
@@ -56,9 +43,9 @@ foreach (var archivo in archivos)
     using var archivoEntrada = new BinDouble(archivo.Name);
     Console.WriteLine($"Analizando el archivo: {archivo.Name}");
 
-    // TieneAlgúnCódigo es un método de extensión de Digi21.Utilities.
+    // Descarta las entidades borradas. TieneAlgúnCódigo es un método de extensión de Digi21.Utilities.
     var entidades = from entidad in archivoEntrada
-        where entidad.TieneAlgúnCódigo(args.Skip(1))
+        where !entidad.Deleted && entidad.TieneAlgúnCódigo(args.Skip(1))
         select entidad;
 
     foreach (var entidad in entidades)
@@ -67,7 +54,7 @@ foreach (var archivo in archivos)
 ```
 
 - `TieneAlgúnCódigo` compara el nombre de cada código de la entidad con los argumentos, carácter a carácter. No admite comodines. `Digi21.Utilities` tiene también el método `TieneAlgúnCódigoConComodín`, que sí los admite.
-- El programa no comprueba la propiedad `Deleted`, así que también evalúa las entidades borradas.
+- El programa no copia las entidades que tienen la propiedad `Deleted` a `true`.
 - `new BinDouble(args[0])` abre el archivo de salida en lectura y escritura. Si el archivo no existe, lo crea. Si existe, añade las entidades a las que ya tiene.
 - El programa obtiene la lista de archivos `.bind` antes de abrir el archivo de salida. Si el archivo de salida ya existía en la carpeta actual, también aparece en la lista de archivos de entrada. Indica como salida un archivo que no exista.
 - Al crear el archivo de salida, el programa no indica su sistema de referencia: no pasa un delegado que devuelva el WKT, como hace [comprimir](comprimir.md).

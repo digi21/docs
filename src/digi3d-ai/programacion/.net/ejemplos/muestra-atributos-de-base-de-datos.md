@@ -7,16 +7,7 @@ Código: [MuestraAtributosBBDDGeometriasArchivoBinD en GitHub](https://github.co
 
 ## Compilar
 
-El proyecto del repositorio usa .NET 8 y los paquetes `Digi21.DigiNG` y `Digi21.DigiNG.IO.BinDouble` 24.0.0, más `Digi21.Digi3D.App` 24.0.1. Para compilarlo contra Digi3D.AI para .NET 10, sigue los pasos de [Compilar un ejemplo para .NET 10](README.md#compilar-un-ejemplo-para-net-10). Las versiones están en un elemento `<Version>` dentro de cada `PackageReference`. El proyecto queda con:
-
-```xml
-<TargetFramework>net10.0</TargetFramework>
-...
-<PackageReference Include="Digi21.DigiNG" Version="26.0.0" />
-<PackageReference Include="Digi21.DigiNG.Io.BinDouble" Version="26.0.0" />
-```
-
-Compila el proyecto desde la carpeta del repositorio:
+El proyecto usa .NET 10 y los paquetes `Digi21.DigiNG` y `Digi21.DigiNG.IO.BinDouble` 26.0.0. Compila el proyecto desde la carpeta del repositorio:
 
 ```
 dotnet build MuestraAtributosBBDDGeometriasArchivoBinD\MuestraAtributosBBDDGeometriasArchivoBinD.csproj -c Release -o C:\Herramientas\MuestraAtributos
@@ -54,6 +45,10 @@ using var archivoEntrada = new BinDouble(args[2], parámetrosbbdd, tabla);
 
 foreach (var entidad in archivoEntrada)
 {
+    // Las entidades borradas no se muestran.
+    if (entidad.Deleted)
+        continue;
+
     // Cada código de la entidad tiene sus propios atributos.
     foreach (var código in entidad.Codes)
     foreach (var clave in código.Attributes)
@@ -65,5 +60,5 @@ foreach (var entidad in archivoEntrada)
 
 - El programa escribe una línea `<campo>: <valor>` por cada atributo de cada código.
 - El separador entre entidades se escribe con `Console.Write`, sin salto de línea, así que la primera línea de la entidad siguiente empieza a continuación de los guiones.
-- El programa no comprueba la propiedad `Deleted`, así que también muestra los atributos de las entidades borradas.
+- El programa no muestra los atributos de las entidades que tienen la propiedad `Deleted` a `true`.
 - `new BinDouble(args[2], parámetrosbbdd, tabla)` abre el archivo en lectura y escritura. Si la ruta no existe, `BinDouble` crea un archivo `.bind` vacío.

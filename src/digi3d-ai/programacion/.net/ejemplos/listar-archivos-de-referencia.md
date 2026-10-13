@@ -7,15 +7,7 @@ Código: [ListarArchivosReferenciaEnBinD en GitHub](https://github.com/digi21/Ej
 
 ## Compilar
 
-El proyecto del repositorio usa .NET 8 y los paquetes `Digi21.DigiNG.IO.BinDouble` 24.0.0 y `Digi21.Digi3D.App` 24.0.1. Para compilarlo contra Digi3D.AI para .NET 10, sigue los pasos de [Compilar un ejemplo para .NET 10](README.md#compilar-un-ejemplo-para-net-10). La versión de `Digi21.DigiNG.Io.BinDouble` está en un elemento `<Version>` dentro de `PackageReference`. El proyecto queda con:
-
-```xml
-<TargetFramework>net10.0</TargetFramework>
-...
-<PackageReference Include="Digi21.DigiNG.Io.BinDouble" Version="26.0.0" />
-```
-
-Compila el proyecto desde la carpeta del repositorio:
+El proyecto usa .NET 10 y el paquete `Digi21.DigiNG.IO.BinDouble` 26.0.0. Compila el proyecto desde la carpeta del repositorio:
 
 ```
 dotnet build ListarArchivosReferenciaEnBinD\ListarArchivosReferenciaEnBinD.csproj -c Release -o C:\Herramientas\ListarArchivosReferenciaEnBinD
@@ -32,7 +24,7 @@ C:\Herramientas\ListarArchivosReferenciaEnBinD\ListarArchivosReferenciaEnBinD.ex
 | `<tabla de códigos>` | Ruta del archivo de tabla de códigos con el que se abre el archivo de dibujo. |
 | `<archivo bind>` | Archivo `.bind` cuyos archivos de referencia se muestran. |
 
-Si faltan argumentos, el programa escribe en la salida de error el formato de uso. La línea de ejemplo de ese mensaje es la del programa `EliminaCodigoDeArchivoBin` y no sirve para este programa.
+Si faltan argumentos, el programa escribe en la salida de error el formato de uso y la línea de ejemplo `ListarArchivosReferenciaEnBinD.exe digiBCA.Tab.xml 29091711.bind`.
 
 ## Cómo funciona
 

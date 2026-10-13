@@ -7,17 +7,7 @@ Código: [Bind2Shape en GitHub](https://github.com/digi21/Ejemplos-Programacion-
 
 ## Compilar
 
-El proyecto del repositorio usa .NET 8 y los paquetes `Digi21.DigiNG`, `Digi21.DigiNG.IO.BinDouble` y `Digi21.DigiNG.IO.Shp` 24.0.0, más `Digi21.Digi3D.App` 24.0.1. Para compilarlo contra Digi3D.AI para .NET 10, sigue los pasos de [Compilar un ejemplo para .NET 10](README.md#compilar-un-ejemplo-para-net-10). Las versiones están en un elemento `<Version>` dentro de cada `PackageReference`. El proyecto queda con:
-
-```xml
-<TargetFramework>net10.0</TargetFramework>
-...
-<PackageReference Include="Digi21.DigiNG" Version="26.0.0" />
-<PackageReference Include="Digi21.DigiNG.Io.BinDouble" Version="26.0.0" />
-<PackageReference Include="Digi21.DigiNG.Io.Shp" Version="26.0.0" />
-```
-
-Compila el proyecto desde la carpeta del repositorio:
+El proyecto usa .NET 10 y los paquetes `Digi21.DigiNG`, `Digi21.DigiNG.IO.BinDouble` y `Digi21.DigiNG.IO.Shp` 26.0.0. Compila el proyecto desde la carpeta del repositorio:
 
 ```
 dotnet build Bind2Shape\Bind2Shape.csproj -c Release -o C:\Herramientas\Bind2Shape
@@ -34,15 +24,13 @@ C:\Herramientas\Bind2Shape\Bind2Shape.exe tablacodigos.tab.xml basedatos.mdb arc
 | `<tabla de códigos>` | Ruta del archivo de tabla de códigos. |
 | `<base de datos.mdb>` | Ruta de la base de datos Access con los atributos. |
 | `<archivo bin a traducir>` | Archivo `.bind` que se convierte. |
-| `<salida>` | Ruta de un archivo `.shp` dentro de la carpeta de salida. |
+| `<archivo .shp de salida>` | Ruta de un archivo `.shp`. El programa crea los shapefiles en la carpeta de esa ruta (`shapefiles` en el ejemplo anterior). |
 
-El archivo `Readme.md` del ejemplo indica que:
+El mensaje de uso del programa y el archivo `Readme.md` del ejemplo describen igual el cuarto argumento:
 
-- el exportador de Shapefile de Digi3D.AI necesita como salida la ruta de un archivo `.shp`, aunque ese archivo puede no llegar a crearse si ninguna geometría va a esa capa;
-- el programa guarda los shapefiles en la carpeta de esa ruta (`shapefiles` en el ejemplo anterior);
-- el programa no crea la carpeta de salida, así que la carpeta tiene que existir.
-
-El mensaje de uso del programa llama al cuarto argumento «carpeta de salida» y pone como ejemplo `shapefiles`, sin nombre de archivo. El `Readme.md` del ejemplo usa la forma `shapefiles\prueba.shp`.
+- El exportador de Shapefile de Digi3D.AI crea un shapefile por capa en la carpeta del archivo `.shp` indicado. El archivo indicado puede no llegar a crearse si ninguna geometría va a esa capa.
+- El exportador toma como carpeta la parte de la ruta anterior a la última barra invertida. Si el argumento es una carpeta sin nombre de archivo, por ejemplo `C:\salida\shapefiles`, los shapefiles se crean en `C:\salida`.
+- El programa no crea la carpeta de salida, así que la carpeta tiene que existir.
 
 La cadena de conexión usa el proveedor OLE DB `Microsoft.ACE.OLEDB.16.0`, que tiene que estar instalado en el equipo en su versión de 64 bits. El modelo de datos es `CATDBS`; los modelos de datos están descritos en la opción `--mdat` de [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md).
 
@@ -67,6 +55,10 @@ using var archivoSalida = new Shp(args[3], tabla, () => archivoEntrada.Wkt);
 
 foreach (var entidad in archivoEntrada)
 {
+    // Shapefile no tiene marca de borrado: las entidades borradas no se exportan.
+    if (entidad.Deleted)
+        continue;
+
     try
     {
         var clonada = entidad.Clone();
@@ -80,5 +72,3 @@ foreach (var entidad in archivoEntrada)
     }
 }
 ```
-
-El programa no comprueba la propiedad `Deleted`, así que también intenta convertir las entidades borradas.

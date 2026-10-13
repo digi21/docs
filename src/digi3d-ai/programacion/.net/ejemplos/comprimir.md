@@ -7,15 +7,7 @@ Código: [comprimir en GitHub](https://github.com/digi21/Ejemplos-Programacion-D
 
 ## Compilar
 
-El proyecto del repositorio usa .NET 8 y los paquetes `Digi21.DigiNG.IO.BinDouble` 24.0.0 y `Digi21.Digi3D.App` 24.0.1. Para compilarlo contra Digi3D.AI para .NET 10, sigue los pasos de [Compilar un ejemplo para .NET 10](README.md#compilar-un-ejemplo-para-net-10). El proyecto queda con:
-
-```xml
-<TargetFramework>net10.0</TargetFramework>
-...
-<PackageReference Include="Digi21.DigiNG.IO.BinDouble" Version="26.0.0" />
-```
-
-Compila el proyecto desde la carpeta del repositorio:
+El proyecto usa .NET 10 y el paquete `Digi21.DigiNG.IO.BinDouble` 26.0.0. Compila el proyecto desde la carpeta del repositorio:
 
 ```
 dotnet build comprimir\comprimir.csproj -c Release -o C:\Herramientas\comprimir
