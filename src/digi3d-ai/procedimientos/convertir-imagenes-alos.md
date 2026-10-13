@@ -59,7 +59,7 @@ Las imágenes de dos detectores consecutivos se solapan 32 píxeles. Alos2Digi3D
 
 En los dos casos, Alos2Digi3D copia los píxeles de todos los archivos `IMG-NN` de la escena y coloca cada imagen en la posición que corresponde a su número de detector. La zona de un detector que falta dentro de ese intervalo queda en negro: en el primer ejemplo, la zona del detector 4.
 
-### Tamaño del tile
+### Tamaño de tesela
 
 Indica el tamaño en píxeles de las teselas: 64, 128, 256, 512, 1024, 2048 o 4096. El valor por defecto es 1024. Las teselas son cuadradas, y el tamaño se aplica a la imagen y a todos los niveles piramidales.
 
