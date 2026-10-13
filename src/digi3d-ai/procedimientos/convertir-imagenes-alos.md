@@ -130,6 +130,7 @@ Los TIFF no tienen georreferencia ni orientación. Ninguna de las [extensiones d
 | Se omite la escena *archivo VOL*: el archivo *archivo IMG* tiene *n* bytes por píxel, y la conversión solo admite archivos de 1 byte por píxel. | Un archivo `IMG-NN` no tiene exactamente un byte por píxel. |
 | No se pudo leer el archivo *archivo VOL*: *motivo* | Alos2Digi3D no ha podido abrir o leer uno de los archivos `IMG-NN` de la escena. El mensaje da la ruta del archivo VOL, no la del archivo `IMG-NN`, y el motivo del error. |
 | Se omite la escena *archivo VOL*: no se puede crear el archivo *archivo TIFF*. | Alos2Digi3D no ha podido crear el TIFF, por ejemplo porque la carpeta no tiene permiso de escritura. |
+| Se omite la escena *archivo VOL*: error de libtiff al escribir o releer el archivo *archivo TIFF* (*motivo*). Se ha borrado el archivo incompleto. | La escritura del TIFF ha fallado después de crearlo, por ejemplo porque el disco se ha llenado. El motivo es el mensaje de la biblioteca libtiff, en inglés, o **libtiff no da el motivo**. |
 | Error inesperado al procesar el archivo *archivo VOL*: *motivo* | Error no previsto durante la conversión de la escena. |
 | Error inesperado al procesar el archivo *archivo VOL* | Error no previsto y sin descripción durante la conversión de la escena. |
 
