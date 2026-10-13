@@ -15,8 +15,8 @@ A continuación, el listado de paquetes NuGet:
 * [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 * [Digi21.Utilities](/digi3d-ai/programacion/.net/referencia/digi21.utilities.md)
 * [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
-* [Digi21.OpenGis](/digi3d-ai/programacion/.net/referencia/digi21.opengis.md)
-* [Digi21.Epsg](/digi3d-ai/programacion/.net/referencia/digi21.epsg.md)
+* [Digi21.CoordinateSystems](/digi3d-ai/programacion/.net/referencia/digi21.coordinatesystems/)
+* [Digi21.OpenGis](/digi3d-ai/programacion/.net/referencia/digi21.opengis.md) y [Digi21.Epsg](/digi3d-ai/programacion/.net/referencia/digi21.epsg.md): paquetes de las versiones para .NET Framework. En .NET 10 los sustituye `Digi21.CoordinateSystems`.
 * [Digi21.DigiNG.IO.Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/)
 * [Digi21.DigiNG.IO.BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/)
 * [Digi21.DigiNG.IO.Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/)
