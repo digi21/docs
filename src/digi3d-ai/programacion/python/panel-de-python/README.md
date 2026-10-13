@@ -18,6 +18,10 @@ for geometry in view:
 
 ## Formas de ejecutar un guion
 
+![Panel Guion Python con un guion que exporta las geometrías a un archivo CSV](../../../../images/panel-guion-python.png)
+
+El panel [Guion Python](../../../referencia/paneles/guion-python.md) muestra el editor del guion y su salida.
+
 Un guion se puede ejecutar desde el **panel de Guiones Python**, **como una orden** (por su
 nombre, desde la consola de órdenes) o como **control de calidad**. Lo explica
 [Cómo ejecutar guiones](ejecutar-guiones.md).
