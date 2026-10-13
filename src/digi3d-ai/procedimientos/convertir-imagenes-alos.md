@@ -14,7 +14,7 @@ Digi3D.AI no abre los archivos CEOS. El programa Alos2Digi3D convierte cada esce
   - El archivo de volumen `VOL-<escena>-<producto>`. Alos2Digi3D solo usa el nombre de este archivo, no lee su contenido.
   - Al menos cuatro archivos de imagen `IMG-NN-<escena>-<producto>`, donde `NN` es el número de detector CCD, de `01` a `08`. `<escena>` y `<producto>` son el segundo y el tercer fragmento del nombre del archivo VOL, separados por guiones.
 
-  Todos los archivos `IMG-NN` de la escena tienen el mismo número de píxeles por línea, que tiene que ser mayor que 32, y el mismo número de líneas.
+  Todos los archivos `IMG-NN` de la escena tienen una banda, un byte por píxel, el mismo número de píxeles por línea y el mismo número de líneas.
 
   Alos2Digi3D no lee los archivos `LED-`, `TRL-` ni el resto de archivos de la escena.
 - Permiso de escritura en la carpeta de cada escena. Alos2Digi3D guarda el TIFF en esa carpeta.
@@ -122,12 +122,12 @@ Los TIFF no tienen georreferencia ni orientación. Ninguna de las [extensiones d
 | Mensaje | Causa |
 | :--- | :--- |
 | La escena *archivo VOL* solo tiene *n* de las 4 imágenes de sensor esperadas | La carpeta tiene menos de cuatro archivos `IMG-NN` con el mismo `<escena>` y `<producto>` que el archivo VOL. Si el nombre del archivo VOL no tiene tres fragmentos separados por guiones, *n* vale 0. |
-| El archivo *archivo IMG* no tiene el formato CEOS esperado (campo *campo*) | Un campo de la cabecera del archivo `IMG-NN` no tiene el valor que exige el formato CEOS. El mensaje da el nombre del campo en inglés, como la especificación del formato. |
+| El archivo *archivo IMG* no tiene el formato CEOS esperado (campo *campo*) | Un campo de la cabecera del archivo `IMG-NN` no tiene el valor que exige el formato CEOS. El mensaje da el nombre del campo en inglés, como la especificación del formato. Con el campo `ImagenCEOS.imageRecordLength`, la longitud de los registros no es la que espera Alos2Digi3D: 98 bytes más el número de píxeles por línea. Con `ImagenCEOS.numberOfImageRecords`, el archivo no tiene ninguna línea. |
 | Se omite la escena *archivo VOL*: el archivo *archivo IMG* tiene *n* bandas, y la conversión solo admite archivos de una banda. | Un archivo `IMG-NN` no tiene exactamente una banda. |
 | Se omite la escena *archivo VOL*: el archivo *archivo IMG* está truncado. Mide *n* bytes y necesita al menos *m*. | Un archivo `IMG-NN` termina antes que los datos que indica su cabecera, por ejemplo porque la copia o la descarga no terminó. |
 | Se omite la escena *archivo VOL*: el archivo *archivo IMG* tiene *n* píxeles por línea y el archivo *archivo IMG* tiene *m*. Todas las imágenes de detector deben tener la misma anchura de línea. | Dos archivos `IMG-NN` de la escena tienen distinto número de píxeles por línea. |
 | Se omite la escena *archivo VOL*: el archivo *archivo IMG* tiene *n* líneas y el archivo *archivo IMG* tiene *m*. Todas las imágenes de detector deben tener el mismo número de líneas. | Dos archivos `IMG-NN` de la escena tienen distinto número de líneas. |
-| Se omite la escena *archivo VOL*: sus imágenes de detector tienen *n* píxeles por línea, y la conversión necesita más de 32, que es el solape entre detectores. | Los archivos `IMG-NN` tienen 32 píxeles por línea o menos. |
+| Se omite la escena *archivo VOL*: el archivo *archivo IMG* tiene *n* bytes por píxel, y la conversión solo admite archivos de 1 byte por píxel. | Un archivo `IMG-NN` no tiene exactamente un byte por píxel. |
 | No se pudo leer el archivo *archivo VOL*: *motivo* | Alos2Digi3D no ha podido abrir o leer uno de los archivos `IMG-NN` de la escena. El mensaje da la ruta del archivo VOL, no la del archivo `IMG-NN`, y el motivo del error. |
 | Se omite la escena *archivo VOL*: no se puede crear el archivo *archivo TIFF*. | Alos2Digi3D no ha podido crear el TIFF, por ejemplo porque la carpeta no tiene permiso de escritura. |
 | Error inesperado al procesar el archivo *archivo VOL*: *motivo* | Error no previsto durante la conversión de la escena. |
