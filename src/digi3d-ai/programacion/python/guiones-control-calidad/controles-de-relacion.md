@@ -62,7 +62,7 @@ La función auxiliar no compara la geometría analizada consigo misma. Consulta
 |---|---|
 | `si_es_area_debe_ser_adyacente_area` | Ningún área cumple `como_poligono(área).adjacent(como_poligono(geometry))`. |
 | `si_es_area_debe_estar_completamente_dentro_de_area` | Ningún área cumple `como_poligono(geometry).completely_within(área)`. |
-| `si_es_area_debe_estar_dentro_de_area` | Ningún área cumple `como_poligono(geometry).within(como_poligono(área))`. |
+| `si_es_area_debe_estar_dentro_de_area` | Ningún área cumple `within` ni `completely_within` con `como_poligono(geometry)` y `como_poligono(área)`: la geometría analizada no está dentro del área, ni tocando su borde con al menos dos vértices ni sin tocarlo. |
 | `si_es_area_debe_ser_estar_separado_de_area` | Algún área cumple `not como_poligono(área).disjoint(como_poligono(geometry))`. |
 | `si_es_area_debe_ser_igual_a_otra_area` | Ningún área cumple `como_poligono(área).equals(geometry)`. |
 | `si_es_area_debe_unirse_con_otra_area` | Ningún área cumple `como_poligono(área).touches(como_poligono(geometry))`. |
