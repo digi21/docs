@@ -16,9 +16,38 @@ Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view
 
 Un _Área_ en este contexto se refiere a líneas cerradas, de manera que engloba tanto a cualquier geometría de tipo [ReadOnlyPolygon](../../../digi21.diging.entities/clases/readonlypolygon/)o cualquier [ReadOnlyLine](../../../digi21.diging.entities/clases/readonlyline/)que esté cerrado.
 
-El resultado de uno de estos métodos estáticos es excluyente, lo que significa que, si [Adjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/adjacent.md) devolverá _Falso_.
+Las relaciones entre dos áreas son excluyentes: para cada par de áreas `a` y `b`, en ese orden, se cumple exactamente una de estas nueve:
 
-Estos métodos únicamente analizan vértices existentes, es decir, que si no hay un vértice común entre las dos geometrías que se cruzan, su cruce pasará desapercibido.
+| Relación | Método que devuelve _Verdadero_ |
+| :--- | :--- |
+| Iguales | [Equal](metodos-estaticos/equal.md) |
+| Disjuntas | [Disjoint](metodos-estaticos/disjoint.md) |
+| Tienen un punto de unión | [Join](metodos-estaticos/join.md) |
+| Adyacentes | [Adjacent](metodos-estaticos/adjacent.md) |
+| `a` completamente dentro de `b` | [CompletelyWithin](metodos-estaticos/completelywithin.md)`(a, b)` |
+| `a` dentro de `b` | [Within](metodos-estaticos/within.md)`(a, b)` |
+| `b` completamente dentro de `a` | [CompletelyWithin](metodos-estaticos/completelywithin.md)`(b, a)` |
+| `b` dentro de `a` | [Within](metodos-estaticos/within.md)`(b, a)` |
+| Se solapan | [Overlap](metodos-estaticos/overlap.md) |
+
+Estos métodos solo analizan vértices; no calculan intersecciones entre lados. Para cada vértice de un área se comprueba si coincide con un vértice de la otra área (vértice común) o si está dentro o fuera de la otra área. Un vértice que está dentro de un hueco de la otra área cuenta como fuera. Un vértice que está sobre un lado de la otra área sin coincidir con ningún vértice suyo se ignora. Las comparaciones se hacen en planta, sin tener en cuenta la coordenada Z, con la tolerancia de la precisión del archivo, y el resultado no depende del vértice inicial ni del sentido de recorrido de los anillos.
+
+| Relación | Condición |
+| :--- | :--- |
+| Iguales | Los dos anillos exteriores tienen los mismos vértices, y los huecos también, con cualquier vértice inicial y sentido. Los vértices repetidos consecutivos no cuentan. |
+| Disjuntas | Ningún vértice de un área está dentro de la otra y no hay vértices comunes. |
+| `a` completamente dentro de `b` | Los vértices de `a` están dentro de `b`, ninguno es común y ningún vértice de `b`, huecos incluidos, está dentro de `a`. |
+| `a` dentro de `b` | Ningún vértice de `a` está fuera de `b`, al menos uno es común y ningún vértice de `b`, huecos incluidos, está dentro de `a`. Si ningún vértice de `a` está dentro de `b`, se comprueba si el punto interior de `a` está dentro de `b`. |
+| Adyacentes | Ningún vértice de un área está dentro de la otra, hay vértices comunes y al menos un lado común (dos vértices comunes consecutivos en los dos anillos). |
+| Tienen un punto de unión | Ningún vértice de un área está dentro de la otra, hay vértices comunes y ningún lado común. |
+| Se solapan | Cualquier otro caso: hay vértices de un área dentro de la otra y ninguna de las dos contiene a la otra. |
+
+Consecuencias de analizar solo vértices:
+
+* Si dos áreas se cruzan sin vértices comunes en el cruce ni vértices dentro de la otra área, el cruce pasa desapercibido: las áreas se consideran disjuntas.
+* Si dos áreas comparten un tramo de lado sin vértices comunes, tampoco se detecta el contacto.
+
+Si un área tiene un anillo sin cerrar, de área nula o con una espiga (un vértice cuyos dos vecinos coinciden), estos métodos lanzan una excepción que indica el motivo y las coordenadas.
 
 ## Métodos estáticos
 

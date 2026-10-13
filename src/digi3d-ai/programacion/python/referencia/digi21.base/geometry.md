@@ -62,7 +62,8 @@ resuelven según el **tipo concreto** de las dos geometrías. En `within`, `adja
 [Polygon](polygon.md) o una [Line](line.md) cerrada.
 
 > Estas relaciones se basan en los **vértices y nodos compartidos**, no en intersecciones
-> calculadas. Si la combinación de tipos no soporta la relación, se lanza `TypeError`.
+> calculadas. Las comparaciones se hacen en planta, sin tener en cuenta la coordenada Z.
+> Si la combinación de tipos no soporta la relación, se lanza `TypeError`.
 
 | Método | `self` | Argumento | Verdadero si… |
 |---|---|---|---|
@@ -80,6 +81,46 @@ resuelven según el **tipo concreto** de las dos geometrías. En `within`, `adja
 | `touches(other)` | Line/Polygon | Line/Polygon | Comparten algún punto (se tocan). |
 | `endpoint_touches(other)` | Line | Line/Polygon | Un extremo de la línea toca un extremo de la otra línea/área. |
 | `endpoint_touches_interior(line)` | Line | Line | Un extremo de la línea toca la otra línea pero no en sus extremos. |
+
+### Relaciones entre dos áreas
+
+Cuando `self` es un [Polygon](polygon.md) y el argumento es un polígono o una línea
+cerrada, las relaciones `equals`, `disjoint`, `touches`, `adjacent`, `completely_within`,
+`within` y `overlaps` son excluyentes: para cada par `a`, `b` se cumple exactamente una de
+estas.
+
+| Relación | Verdadero |
+|---|---|
+| Iguales | `a.equals(b)` |
+| Disjuntas | `a.disjoint(b)` |
+| Se tocan | `a.touches(b)` |
+| Adyacentes | `a.adjacent(b)` |
+| `a` completamente dentro de `b` | `a.completely_within(b)` |
+| `a` dentro de `b` | `a.within(b)` |
+| `b` completamente dentro de `a` | `b.completely_within(a)`, si `b` es un polígono |
+| `b` dentro de `a` | `b.within(a)`, si `b` es un polígono |
+| Se solapan | `a.overlaps(b)` |
+
+Para cada vértice de un área se comprueba si coincide con un vértice de la otra área
+(vértice común) o si está dentro o fuera de la otra área. Un vértice dentro de un hueco
+cuenta como fuera. Un vértice sobre un lado de la otra área que no coincide con ningún
+vértice suyo se ignora. El resultado no depende del vértice inicial ni del sentido de
+recorrido de los anillos.
+
+| Relación | Condición |
+|---|---|
+| Iguales | Los anillos exteriores y los huecos tienen los mismos vértices, con cualquier vértice inicial y sentido. Los vértices repetidos consecutivos no cuentan. |
+| Disjuntas | Ningún vértice de un área está dentro de la otra y no hay vértices comunes. |
+| `a` completamente dentro de `b` | Los vértices de `a` están dentro de `b`, ninguno es común y ningún vértice de `b`, huecos incluidos, está dentro de `a`. |
+| `a` dentro de `b` | Ningún vértice de `a` está fuera de `b`, al menos uno es común y ningún vértice de `b`, huecos incluidos, está dentro de `a`. Si ningún vértice de `a` está dentro de `b`, se comprueba si el punto interior de `a` está dentro de `b`. |
+| Adyacentes | Ningún vértice de un área está dentro de la otra, hay vértices comunes y al menos un lado común (dos vértices comunes consecutivos en los dos anillos). |
+| Se tocan | Ningún vértice de un área está dentro de la otra, hay vértices comunes y ningún lado común. |
+| Se solapan | Cualquier otro caso: hay vértices de un área dentro de la otra y ninguna de las dos contiene a la otra. |
+
+Si dos áreas se cruzan sin vértices comunes en el cruce ni vértices dentro de la otra
+área, el cruce pasa desapercibido y las áreas se consideran disjuntas. Si un área tiene un
+anillo sin cerrar, de área nula o con una espiga (un vértice cuyos dos vecinos coinciden),
+estas relaciones lanzan `RuntimeError` con el motivo y las coordenadas.
 
 ## Ejemplo
 
