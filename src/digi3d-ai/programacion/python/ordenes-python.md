@@ -51,7 +51,9 @@ archivo de dibujo.
 * La orden [PYTHON](../../referencia/ventana-de-dibujo/ordenes/p/python.md) ejecuta un guion por su nombre
   de archivo: `PYTHON=filtrar.py 020124 020123 1`.
 
-Si una orden de Digi3D.AI tiene el mismo nombre que el archivo, Digi3D.AI ejecuta su orden y no el guion.
+Si una orden de la ventana de dibujo tiene el mismo nombre que el archivo, Digi3D.AI ejecuta esa orden y
+no el guion. Las órdenes de la ventana fotogramétrica se buscan después del archivo `.py`: si existe el
+guion, Digi3D.AI ejecuta el guion.
 
 Los parámetros llegan al guion en la variable global `argv`, una tupla de cadenas. Digi3D.AI separa los
 parámetros por espacios, tabuladores y signos `=`, así que un parámetro no puede contener espacios. La
@@ -114,12 +116,15 @@ Explicación completa: [Crear tareas con áreas pequeñas](panel-de-python/ejemp
 
 ### CREAR_TRAMOS_PARA_UNIR_CURVAS
 
-Busca pares de geometrías no borradas cuyo primer código es `020123`, con la misma Z en el primer vértice,
-cuyos extremos están a menos de 10 unidades en planta y no coinciden. Para cada par crea una línea de dos
-vértices que une esos extremos, con los códigos de la primera geometría. La distancia se calcula con la
-[calculadora geográfica](referencia/digi3d/geographic-calculator.md) de la ventana de dibujo. Al terminar,
-el guion muestra un globo con el número de tramos creados. El código `020123` y la distancia 10 están
-escritos en el guion.
+Compara cada par de geometrías no borradas cuyo primer código es `020123`. El guion descarta el par si la
+Z del primer vértice es distinta o si algún extremo de una geometría coincide con algún extremo de la otra.
+Si no lo descarta, prueba las combinaciones de extremos en este orden: origen-origen, origen-fin,
+fin-origen y fin-fin. Con la primera combinación cuyos extremos están a menos de 10 unidades en planta,
+crea una línea de dos vértices que une esos extremos, con los códigos de la primera geometría. La
+distancia se calcula con la [calculadora geográfica](referencia/digi3d/geographic-calculator.md) de la
+ventana de dibujo. Al terminar, si ha creado algún tramo, el guion muestra un globo con el número de tramos
+y emite el sonido de fin; si no ha creado ninguno, muestra el globo «No se ha añadido nada» y emite el
+sonido de error. El código `020123` y la distancia 10 están escritos en el guion.
 
 ```python
 if calculadora.calculate_distance_2d(coordenada_origen_a, coordenada_origen_b) < distancia:
@@ -224,7 +229,7 @@ Explicación completa: [Filtrar curvas (finas y maestras)](panel-de-python/ejemp
 
 ### REDONDEA_Z
 
-Redondea al entero más próximo la Z de todos los vértices de las geometrías no borradas que tienen el
+Redondea a entero con la función `round` de Python la Z de todos los vértices de las geometrías no borradas que tienen el
 código de maestra o el de fina. Por cada geometría, la orden añade una línea nueva con los mismos códigos y
 las coordenadas redondeadas, y borra la original.
 
@@ -237,7 +242,8 @@ coordenadas.append((coordenada[0], coordenada[1], round(coordenada[2])))
 clon = digi3d.Line(curva.codes, coordenadas)
 ```
 
-La geometría nueva es siempre una línea, aunque la original sea de otro tipo.
+La geometría nueva es siempre una línea, aunque la original sea de otro tipo. `round` redondea los valores
+terminados en ,5 al entero par: 2,5 pasa a 2 y 3,5 pasa a 4.
 
 Explicación completa: [Redondear la cota Z de las curvas](panel-de-python/ejemplos/redondea-z.md).
 
