@@ -49,9 +49,9 @@ Las condiciones usan los métodos de relación de [Geometry](../referencia/digi2
 `terminates_within`, `endpoint_touches`, `endpoint_touches_interior`, `coincident` y
 `coincident_and_terminates`. Cada método admite solo algunas combinaciones de tipos de geometría. Con una
 combinación no admitida, el método lanza `TypeError: La relacion '…' no esta definida para esa combinacion
-de tipos de geometria.`. Los controles de este archivo solo llaman a combinaciones admitidas: cuando una
-relación exige un polígono, convierten la línea cerrada con la función auxiliar `como_poligono`, que
-devuelve un polígono sin huecos con los vértices de la línea.
+de tipos de geometria.`. Los controles de este archivo solo llaman a combinaciones admitidas. Los controles
+de áreas convierten las líneas cerradas con la función auxiliar `como_poligono`, que devuelve un polígono
+sin huecos con los vértices de la línea.
 
 La función auxiliar no compara la geometría analizada consigo misma. Consulta
 [La geometría analizada no se compara consigo misma](README.md#la-geometría-analizada-no-se-compara-consigo-misma).
@@ -60,19 +60,21 @@ La función auxiliar no compara la geometría analizada consigo misma. Consulta
 
 | Control | Da error si |
 |---|---|
-| `si_es_area_debe_ser_adyacente_area` | Ningún área cumple `área.adjacent(geometry)`. |
+| `si_es_area_debe_ser_adyacente_area` | Ningún área cumple `como_poligono(área).adjacent(como_poligono(geometry))`. |
 | `si_es_area_debe_estar_completamente_dentro_de_area` | Ningún área cumple `como_poligono(geometry).completely_within(área)`. |
-| `si_es_area_debe_estar_dentro_de_area` | Ningún área cumple `geometry.within(área)`. |
-| `si_es_area_debe_ser_estar_separado_de_area` | Algún área cumple `not área.disjoint(geometry)`. |
+| `si_es_area_debe_estar_dentro_de_area` | Ningún área cumple `como_poligono(geometry).within(como_poligono(área))`. |
+| `si_es_area_debe_ser_estar_separado_de_area` | Algún área cumple `not como_poligono(área).disjoint(como_poligono(geometry))`. |
 | `si_es_area_debe_ser_igual_a_otra_area` | Ningún área cumple `como_poligono(área).equals(geometry)`. |
-| `si_es_area_debe_unirse_con_otra_area` | Ningún área cumple `área.touches(geometry)`. |
+| `si_es_area_debe_unirse_con_otra_area` | Ningún área cumple `como_poligono(área).touches(como_poligono(geometry))`. |
 | `si_es_area_debe_solapar_otra_area` | Ningún área cumple `como_poligono(geometry).overlaps(área)`. |
 | `si_es_area_no_puede_solapar_otra_area` | Algún área cumple `como_poligono(geometry).overlaps(área)`. |
 
-`completely_within` y `overlaps` solo admiten un polígono como geometría analizada, y `equals` no admite una
-línea comparada con un polígono. Por eso esos cuatro controles convierten la línea cerrada en polígono. En
-los dos controles de solape, una línea cerrada comparada con otra línea cerrada se evalúa como solape de
-áreas, igual que dos polígonos: dos áreas que solo comparten un lado no se solapan.
+Todos estos controles convierten con `como_poligono` las líneas cerradas que intervienen en la relación, de
+modo que una línea cerrada da el mismo resultado que un polígono sin huecos con los mismos vértices. Sin la
+conversión, `digi21.base` evalúa una línea cerrada con las relaciones de líneas, y `completely_within`,
+`overlaps` y `equals` lanzan `TypeError` con algunas combinaciones. Por ejemplo, dos áreas que solo
+comparten un lado no se solapan, y un área dentro de otra no está separada de ella, sean polígonos o líneas
+cerradas.
 
 ## La geometría analizada es una línea
 
