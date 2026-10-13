@@ -26,7 +26,7 @@ La rama `main` contiene la solución `Ejemplos-programacion-digi3d.sln` con un p
 
 Los proyectos del repositorio usan **.NET 10** (`net10.0`) y los paquetes NuGet de Digi21 de la versión **26.0.0**. Ningún proyecto referencia el paquete `Digi21.Digi3D.App`. La página [Migración a .NET 10](../migracion-a-net-10.md) explica los cambios respecto a los paquetes 24.0.0.
 
-La extensión `DigiNG.IO.Gps` es la excepción: sigue configurada para .NET 8 y los paquetes 24.0.0, y no compila (ver [DigiNG.IO.Gps](gps.md)).
+La extensión `DigiNG.IO.Gps` usa `net10.0-windows10.0.19041.0`, porque necesita la API de localización de Windows, y el paquete `Digi21.CoordinateSystems` para transformar coordenadas (ver [DigiNG.IO.Gps](gps.md)).
 
 ## Compilar un ejemplo
 
@@ -54,7 +54,7 @@ Para abrir un archivo solo para leerlo, usa un constructor con `readOnly` y pasa
 
 ## Compilar la solución
 
-La solución completa no compila, porque el proyecto `DigiNG.IO.Gps` falla con cualquier versión de los paquetes. Compila cada proyecto por separado.
+Compila cada proyecto por separado con `dotnet build`, como en la sección anterior.
 
 ## Ejemplos
 
@@ -69,4 +69,4 @@ La solución completa no compila, porque el proyecto `DigiNG.IO.Gps` falla con c
 | [MuestraAtributosBBDDGeometriasArchivoBinD](muestra-atributos-de-base-de-datos.md) | Aplicación de consola | Muestra los atributos de base de datos de las entidades de un archivo `.bind`. | Sí |
 | [Bind2Shape](bind2shape.md) | Aplicación de consola | Convierte un archivo `.bind` con atributos de base de datos a Shapefile. | Sí |
 | [BindADwg](bind-a-dwg.md) | Aplicación de consola | Convierte un archivo `.bind` a DWG. | Sí, con Digi3D.AI instalado: referencia el ensamblado `Digi21.DigiNG.IO.Dwg` de la carpeta de instalación |
-| [DigiNG.IO.Gps](gps.md) | Extensión | Añade las órdenes `GPS` y `GPS_CLASICO`, que usan un receptor GPS como dispositivo de entrada. | No: usa tipos de .NET Framework y una API de transformación de coordenadas que los paquetes 26.0.0 no tienen |
+| [DigiNG.IO.Gps](gps.md) | Extensión | Añade las órdenes `GPS` y `GPS_CLASICO`, que usan un receptor GPS como dispositivo de entrada. | Sí |
