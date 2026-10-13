@@ -13,13 +13,13 @@ Los tres son **utilidades independientes**: leen la tabla de códigos con la cla
 
 ## Compilar
 
-Los proyectos usan .NET 8 y no referencian ningún paquete NuGet. Compilan sin cambios con el SDK de .NET 10. Ejecuta desde la carpeta del repositorio, por ejemplo:
+Los proyectos usan .NET 10 y no referencian ningún paquete NuGet. Ejecuta desde la carpeta del repositorio, por ejemplo:
 
 ```
 dotnet build AnadeEtiquetaAMultiplesCodigosTablaCodigos\AnadeEtiquetaAMultiplesCodigosTablaCodigos.csproj -c Release -o C:\Herramientas\AnadeEtiqueta
 ```
 
-Para ejecutar el programa compilado hace falta el runtime de .NET 8. Si el equipo solo tiene .NET 10, cambia `TargetFramework` a `net10.0` en el `.csproj` antes de compilar.
+Para ejecutar el programa compilado hace falta el runtime de .NET 10.
 
 ## Formato de la tabla de códigos que usan
 

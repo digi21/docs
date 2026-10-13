@@ -90,6 +90,12 @@ Para compilarlo contra Digi3D.AI para .NET 10:
 2. Sustituye `System.Device.Location` en `ProveedorLocation.cs` por una API de localización disponible en .NET 10, por ejemplo `Windows.Devices.Geolocation`, o elimina la orden `GPS` y su proveedor.
 3. Añade referencias a paquetes que contengan `Digi21.OpenGis.CoordinateSystems`, `Digi21.OpenGis.CoordinateTransformations`, `Digi21.OpenGis.Epsg`, `SelectTransformationHelper` y `CreateVerticalTransformationHelper`.
 
-Con los pasos 1 y 2 (eliminando la orden `GPS`) y los paquetes `Digi21.OpenGis` 22.0.0 y `Digi21.Epsg` 22.0.0 de nuget.org, el proyecto compila. Esos dos paquetes contienen ensamblados para .NET Framework 4.6 (`lib\net46`), y la restauración avisa con `warning NU1701`. No está comprobado que la extensión funcione dentro de Digi3D.AI para .NET 10 con esos ensamblados.
+El paso 3 no tiene solución con los paquetes 26.0.0:
+
+- `Digi21.DigiNG` y `Digi21.DigiNG.Plugin` 26.0.0 no contienen ninguna API de transformación de coordenadas. La clase `GeographicCalculator` solo calcula áreas, distancias y perímetros.
+- Digi3D.AI para .NET 10 no instala ensamblados .NET con los espacios de nombres `Digi21.OpenGis.*`. Las transformaciones de coordenadas de Digi3D.AI están en bibliotecas nativas sin API .NET.
+- Los paquetes `Digi21.OpenGis` 22.0.0 y `Digi21.Epsg` 22.0.0 de nuget.org contienen ensamblados de referencia para .NET Framework 4.6 (`lib\net46`). Con ellos el proyecto compila, con el aviso `warning NU1701`, pero al ejecutarse no hay ningún ensamblado que implemente esos tipos.
+
+Por eso el proyecto del repositorio sigue sin migrar. Para compilarlo hace falta un paquete 26.0.0 con una API .NET de transformación de coordenadas, y que Digi3D.AI instale su implementación.
 
 `DotSpatial.Positioning` 1.9.0 también contiene solo ensamblados para .NET Framework, y la restauración avisa igualmente con `warning NU1701`.
