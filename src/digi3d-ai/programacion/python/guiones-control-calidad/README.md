@@ -62,8 +62,9 @@ entero sin ceros a la izquierda, un valor formado solo por ceros (`0`, `00`) o u
 Un código formado solo por cifras y sin cero a la izquierda, como `120400`, se guarda por tanto como número.
 Los controles convierten a texto el parámetro antes de buscar códigos, así que `120400` funciona igual que
 un código guardado como texto. Un código con cero a la izquierda, como `020123`, se guarda como texto y no
-cambia. Un código formado solo por ceros, como `00`, se guarda como el número `0`, y la conversión produce
-el texto `0`, que no coincide con `00`.
+cambia. La conversión escribe el número tal como lo escribe Python, que puede ser distinto del código
+original: `00` se guarda como `0`, `12.` como `12.0`, `.5` como `0.5` y `1.10` como `1.1`. Esos códigos no
+coinciden con el texto que se escribió.
 
 ### Códigos, comodines y etiquetas
 
