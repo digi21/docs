@@ -23,7 +23,7 @@ Para ejecutar el programa compilado hace falta el runtime de .NET 8. Si el equip
 
 ## Formato de la tabla de códigos que usan
 
-Los tres programas buscan cada código con la expresión XPath `/digitab/codes/code[@name='<código>']`:
+`AnadeEtiquetaAMultiplesCodigosTablaCodigos` y `AnadeControlCalidadPythonAMultiplesCodigos` buscan cada código con la expresión XPath `/digitab/codes/code[@name='<código>']`. `EliminaControlesCalidadPythonDuplicados` no recibe códigos: recorre todos los elementos `/digitab/codes/code/quality_control`.
 
 - Las etiquetas están en el atributo `tags` del elemento `code`, separadas por comas. Ver [Etiquetas](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#etiquetas).
 - Los controles de calidad están en el elemento `quality_control`, hijo de `code`. Los programas tratan cada línea del texto de `quality_control` como un control de calidad. Ver [Control de calidad](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#control-de-calidad) y [Controles de calidad en Python](/digi3d-ai/programacion/python/controles-de-calidad/README.md).

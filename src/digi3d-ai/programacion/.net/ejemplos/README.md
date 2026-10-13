@@ -46,6 +46,18 @@ La carpeta de destino contiene el `.exe` del ejemplo y ninguna DLL de los paquet
 
 Varios proyectos referencian el paquete `Microsoft.CSharp`. El SDK de .NET 10 avisa (`warning NU1510`) de que esa referencia no hace falta; el aviso no impide compilar.
 
+## Apertura de archivos con BinDouble
+
+Varios ejemplos abren los archivos `.bind` con constructores de `BinDouble` que no reciben el argumento `readOnly`, o que lo reciben con valor `false`. Esos constructores abren el archivo en lectura y escritura:
+
+- Si el archivo no existe, `BinDouble` lo crea.
+- Si el archivo existe, `BinDouble` lo abre sin vaciarlo, y `Add` añade las entidades a las que ya tiene.
+- Si el archivo existe pero no se puede abrir para escribir, por ejemplo porque tiene el atributo de solo lectura, `BinDouble` lo abre en solo lectura sin lanzar ninguna excepción. En ese caso la excepción se produce después, al llamar a `Add`.
+
+Para abrir un archivo solo para leerlo, usa un constructor con `readOnly` y pasa `true`.
+
+## Compilar la solución
+
 La solución completa no compila, porque los proyectos `BindADwg` y `DigiNG.IO.Gps` fallan con cualquier versión de los paquetes. Compila cada proyecto por separado.
 
 ## Ejemplos

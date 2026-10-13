@@ -31,7 +31,7 @@ C:\Herramientas\comprimir\comprimir.exe <archivo .bind>
 |---|---|
 | `<archivo .bind>` | Ruta del archivo que se comprime. El programa sustituye este archivo por el archivo comprimido. |
 
-Si falta el argumento, el programa escribe `Se esperaban parámetros: [archivo a comprimir]`. Si el archivo no existe, escribe `El archivo <ruta> no existe`. Los dos mensajes van a la salida de error.
+El programa escribe `Comprimiendo archivo <ruta>...` al empezar a copiar las entidades y `Trabajo finalizado` al terminar. Si falta el argumento, el programa escribe `Se esperaban parámetros: [archivo a comprimir]`. Si el archivo no existe, escribe `El archivo <ruta> no existe`. Los dos mensajes van a la salida de error.
 
 ## Cómo funciona
 

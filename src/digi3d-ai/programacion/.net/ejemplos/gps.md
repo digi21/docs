@@ -23,7 +23,7 @@ Cada orden añade a Digi3D.AI un panel llamado **Gps**, acoplado a la izquierda,
 - **Tentativo**: envía la última posición como una pulsación del botón de tentativo.
 - **Cancelar**: envía la última posición como una pulsación del botón de cancelar.
 
-Mientras **Dato** no está pulsado, cada posición se envía sin botón. La barra de estado de Digi3D.AI muestra el número de satélites (`GPS_CLASICO`) o el estado del GPS (`GPS`).
+Mientras **Dato** no está pulsado, cada posición se envía sin botón. **Tentativo** y **Cancelar** dejan **Dato** sin pulsar antes de enviar la posición. Cada cambio de estado de **Dato** envía también la última posición, con el botón que corresponde al nuevo estado. La barra de estado de Digi3D.AI muestra el número de satélites (`GPS_CLASICO`) o el estado del GPS (`GPS`).
 
 ## Cómo funciona
 
@@ -70,7 +70,7 @@ Digi21.DigiNG.DigiNG.SendInputDeviceEvent(
     button);
 ```
 
-`button` vale `InputDeviceButton.Snap` (tentativo), `InputDeviceButton.Cancel`, `InputDeviceButton.Data` si **Dato** está pulsado, o `InputDeviceButton.None`.
+`button` vale `InputDeviceButton.Snap` (tentativo), `InputDeviceButton.Cancel`, `InputDeviceButton.Data` si **Dato** está pulsado, o `InputDeviceButton.None`. En el código del ejemplo, la llamada a `SendInputDeviceEvent` está dentro de un `BeginInvoke`, que la ejecuta en el hilo del panel, y dentro de un bloque `try` con un `catch` vacío: si la llamada produce una excepción, el panel no avisa.
 
 Para añadir paneles y opciones de menú desde una extensión, consulta en el curso de programación en C# las lecciones [Paneles acoplables](../curso-de-programacion-en-c/paneles-acoplables.md) y [Añadiendo órdenes al menú de Digi3D.AI](../curso-de-programacion-en-c/anadiendo-ordenes-al-menu-de-digi3d.ai.md).
 
