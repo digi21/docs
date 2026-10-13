@@ -31,6 +31,8 @@ Digi3D.AI incluye las bibliotecas de terceros que se enumeran a continuación. C
 
 Digi3D.AI se basa en parte en el trabajo del Independent JPEG Group.
 
+El texto completo de la licencia y de los avisos de cada biblioteca está en el archivo `THIRD-PARTY-NOTICES.txt`, que el programa de instalación copia en la carpeta de instalación de Digi3D.AI. Con la carpeta de instalación predeterminada, la ruta es `C:\Program Files\Digi21.net\Digi3D.AI\THIRD-PARTY-NOTICES.txt`. El archivo incluye también el aviso de propiedad del conjunto de datos EPSG de la IOGP (International Association of Oil and Gas Producers), que Digi3D.AI instala en `epsg-v10_066.sqlite`.
+
 ### Bibliotecas de código abierto
 
 | Biblioteca | Versión | Licencia | Titular del copyright | Uso en Digi3D.AI |
