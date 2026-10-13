@@ -53,7 +53,7 @@ El texto completo de la licencia y de los avisos de cada biblioteca está en el 
 | [LASzip](https://laszip.org/) | 3.5.0 | `Apache-2.0` (Apache License 2.0) | rapidlasso GmbH | Lectura de archivos LAZ. |
 | [libE57Format](https://github.com/asmaloney/libE57Format) | 3.3.0 | `BSL-1.0` (Boost Software License 1.0) | Kevin Ackley y Andy Maloney | Lectura de archivos E57. |
 | [libffi](https://github.com/libffi/libffi) | 3.5.2 | `MIT` (licencia MIT) | Anthony Green, Red Hat, Inc. y otros | Llamadas a funciones nativas desde Python (`ctypes`). |
-| [libjpeg-turbo](https://libjpeg-turbo.org/) | 3.1.4 | `IJG AND BSD-3-Clause AND Zlib` (licencia del IJG, BSD de 3 cláusulas y zlib) | D. R. Commander, Independent JPEG Group y Viktor Szathmáry | Lectura y escritura de imágenes JPEG. |
+| [libjpeg-turbo](https://libjpeg-turbo.org/) | 3.1.4.1 | `IJG AND BSD-3-Clause AND Zlib` (licencia del IJG, BSD de 3 cláusulas y zlib) | D. R. Commander, Independent JPEG Group y Viktor Szathmáry | Lectura y escritura de imágenes JPEG. |
 | [liblzma (XZ Utils)](https://tukaani.org/xz/) | 5.8.2 | `0BSD` (BSD Zero Clause) | Autores y colaboradores de XZ Utils | Compresión LZMA para LibTIFF y para Python. |
 | [libpng](https://github.com/pnggroup/libpng) | 1.6.55 | `libpng-2.0` (licencia de libpng 2.0) | The PNG Reference Library Authors | Lectura y escritura de imágenes PNG. |
 | [libpq (PostgreSQL)](https://www.postgresql.org/) | 18.3 | `PostgreSQL` (licencia de PostgreSQL) | PostgreSQL Global Development Group y The Regents of the University of California | Conexión con bases de datos PostGIS. |
