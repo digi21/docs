@@ -43,10 +43,10 @@ El texto completo de la licencia y de los avisos de cada biblioteca está en el 
 | [bzip2](https://sourceware.org/bzip2/) | 1.0.8 | `bzip2-1.0.6` (licencia de bzip2) | Julian R. Seward | Compresión bzip2 para libzip y para Python. |
 | [CLI11](https://github.com/CLIUtils/CLI11) | 2.6.2 | `BSD-3-Clause` (BSD de 3 cláusulas) | University of Cincinnati (desarrollada por Henry Schreiner) | Lectura de los parámetros de la línea de órdenes. |
 | [Clipper](https://sourceforge.net/projects/polyclipping/) | 6.4.2 | `BSL-1.0` (Boost Software License 1.0) | Angus Johnson | Recorte de polígonos dentro de assimp. |
-| [curl](https://curl.se/) (libcurl) | 8.19.0 | `curl AND BSD-3-Clause AND ISC` (licencia de curl, BSD de 3 cláusulas e ISC) | Daniel Stenberg y colaboradores | Descargas HTTP del visor de nubes de puntos. |
+| [curl](https://curl.se/) (libcurl) | 8.19.0 | `curl AND ISC AND BSD-4-Clause-UC` (licencia de curl, ISC y BSD de 4 cláusulas de la Universidad de California) | Daniel Stenberg y colaboradores | Descargas HTTP del visor de nubes de puntos. |
 | [Expat](https://github.com/libexpat/libexpat) | 2.7.4 | `MIT` (licencia MIT) | Thai Open Source Software Center Ltd, Clark Cooper y los mantenedores de Expat | Lectura de XML en Python. |
 | [GLEW](https://github.com/nigels-com/glew) | 2.2.0 | `BSD-3-Clause AND MIT` (BSD de 3 cláusulas y MIT) | Milan Ikits, Marcelo E. Magallon, Lev Povalahev, Brian Paul y The Khronos Group | Inicialización de las extensiones de OpenGL. |
-| [GLM](https://github.com/g-truc/glm) | 1.0.3 | `MIT` (licencia MIT) | G-Truc Creation | Cálculo matricial en el motor OpenGL. |
+| [GLM](https://github.com/g-truc/glm) | 1.0.3 | Happy Bunny License o `MIT` (licencia MIT), a elección del licenciatario | G-Truc Creation | Cálculo matricial en el motor OpenGL. |
 | [Guidelines Support Library (GSL)](https://github.com/microsoft/GSL) | 4.2.1 | `MIT` (licencia MIT) | Microsoft Corporation | Tipos auxiliares de C++ en todos los módulos. |
 | [IFC++](https://github.com/ifcquery/ifcplusplus) | 4.1.1 | `MIT` (licencia MIT) | Fabian Gerold | Exportación a formato IFC. |
 | [kuba--/zip](https://github.com/kuba--/zip) | 0.3.7 | `MIT` (licencia MIT) | Kuba Podgórski | Lectura de archivos ZIP dentro de assimp. |
