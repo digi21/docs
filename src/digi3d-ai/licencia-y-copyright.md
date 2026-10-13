@@ -45,7 +45,7 @@ El texto completo de la licencia y de los avisos de cada biblioteca está en el 
 | [Clipper](https://sourceforge.net/projects/polyclipping/) | 6.4.2 | `BSL-1.0` (Boost Software License 1.0) | Angus Johnson | Recorte de polígonos dentro de assimp. |
 | [curl](https://curl.se/) (libcurl) | 8.19.0 | `curl AND ISC AND BSD-4-Clause-UC` (licencia de curl, ISC y BSD de 4 cláusulas de la Universidad de California) | Daniel Stenberg y colaboradores | Descargas HTTP del visor de nubes de puntos. |
 | [Expat](https://github.com/libexpat/libexpat) | 2.7.4 | `MIT` (licencia MIT) | Thai Open Source Software Center Ltd, Clark Cooper y los mantenedores de Expat | Lectura de XML en Python. |
-| [GLEW](https://github.com/nigels-com/glew) | 2.2.0 | `BSD-3-Clause AND MIT` (BSD de 3 cláusulas y MIT) | Milan Ikits, Marcelo E. Magallon, Lev Povalahev, Brian Paul y The Khronos Group | Inicialización de las extensiones de OpenGL. |
+| [GLEW](https://github.com/nigels-com/glew) | 2.3.1 | `BSD-3-Clause AND MIT` (BSD de 3 cláusulas y MIT) | Milan Ikits, Marcelo E. Magallon, Lev Povalahev, Brian Paul y The Khronos Group | Inicialización de las extensiones de OpenGL. |
 | [GLM](https://github.com/g-truc/glm) | 1.0.3 | Happy Bunny License o `MIT` (licencia MIT), a elección del licenciatario | G-Truc Creation | Cálculo matricial en el motor OpenGL. |
 | [Guidelines Support Library (GSL)](https://github.com/microsoft/GSL) | 4.2.1 | `MIT` (licencia MIT) | Microsoft Corporation | Tipos auxiliares de C++ en todos los módulos. |
 | [IFC++](https://github.com/ifcquery/ifcplusplus) | 4.1.1 | `MIT` (licencia MIT) | Fabian Gerold | Exportación a formato IFC. |
@@ -53,12 +53,12 @@ El texto completo de la licencia y de los avisos de cada biblioteca está en el 
 | [LASzip](https://laszip.org/) | 3.5.0 | `Apache-2.0` (Apache License 2.0) | rapidlasso GmbH | Lectura de archivos LAZ. |
 | [libE57Format](https://github.com/asmaloney/libE57Format) | 3.3.0 | `BSL-1.0` (Boost Software License 1.0) | Kevin Ackley y Andy Maloney | Lectura de archivos E57. |
 | [libffi](https://github.com/libffi/libffi) | 3.5.2 | `MIT` (licencia MIT) | Anthony Green, Red Hat, Inc. y otros | Llamadas a funciones nativas desde Python (`ctypes`). |
-| [libjpeg-turbo](https://libjpeg-turbo.org/) | 2.1.5 y 3.1.4 | `IJG AND BSD-3-Clause AND Zlib` (licencia del IJG, BSD de 3 cláusulas y zlib) | D. R. Commander, Independent JPEG Group y Viktor Szathmáry | Lectura y escritura de imágenes JPEG. |
-| [liblzma (XZ Utils)](https://tukaani.org/xz/) | 5.4.1 y 5.8.2 | Dominio público (5.4.1) y `0BSD` (BSD Zero Clause, 5.8.2) | Autores y colaboradores de XZ Utils | Compresión LZMA para LibTIFF y para Python. |
-| [libpng](https://github.com/pnggroup/libpng) | 1.6.39 | `libpng-2.0` (licencia de libpng 2.0) | The PNG Reference Library Authors | Lectura y escritura de imágenes PNG. |
+| [libjpeg-turbo](https://libjpeg-turbo.org/) | 3.1.4 | `IJG AND BSD-3-Clause AND Zlib` (licencia del IJG, BSD de 3 cláusulas y zlib) | D. R. Commander, Independent JPEG Group y Viktor Szathmáry | Lectura y escritura de imágenes JPEG. |
+| [liblzma (XZ Utils)](https://tukaani.org/xz/) | 5.8.2 | `0BSD` (BSD Zero Clause) | Autores y colaboradores de XZ Utils | Compresión LZMA para LibTIFF y para Python. |
+| [libpng](https://github.com/pnggroup/libpng) | 1.6.55 | `libpng-2.0` (licencia de libpng 2.0) | The PNG Reference Library Authors | Lectura y escritura de imágenes PNG. |
 | [libpq (PostgreSQL)](https://www.postgresql.org/) | 18.3 | `PostgreSQL` (licencia de PostgreSQL) | PostgreSQL Global Development Group y The Regents of the University of California | Conexión con bases de datos PostGIS. |
-| [LibTIFF](https://libtiff.gitlab.io/libtiff/) | 4.5.0 y 4.7.1 | `libtiff` (licencia de LibTIFF) | Sam Leffler y Silicon Graphics, Inc. | Lectura y escritura de imágenes TIFF. |
-| [libzip](https://libzip.org/) | 1.9.2 | `BSD-3-Clause` (BSD de 3 cláusulas) | Dieter Baron y Thomas Klausner | Lectura y escritura de archivos ZIP. |
+| [LibTIFF](https://libtiff.gitlab.io/libtiff/) | 4.7.1 | `libtiff` (licencia de LibTIFF) | Sam Leffler y Silicon Graphics, Inc. | Lectura y escritura de imágenes TIFF. |
+| [libzip](https://libzip.org/) | 1.11.4 | `BSD-3-Clause` (BSD de 3 cláusulas) | Dieter Baron y Thomas Klausner | Lectura y escritura de archivos ZIP. |
 | [Microsoft WebView2 (cargador)](https://www.nuget.org/packages/Microsoft.Web.WebView2) | 1.0.3967.48 | `BSD-3-Clause` (BSD de 3 cláusulas) | Microsoft Corporation | Panel de chat con IA. |
 | [MiniZip](https://github.com/madler/zlib/tree/master/contrib/minizip) | 1.3.1 | `Zlib` (licencia zlib) | Gilles Vollant y Mathias Svensson | Lectura de archivos ZIP dentro de assimp. |
 | [nlohmann/json](https://github.com/nlohmann/json) | 3.12.0 | `MIT` (licencia MIT) | Niels Lohmann | Lectura y escritura de JSON. |
