@@ -8,10 +8,11 @@ y órdenes de ejemplo que se explican en esta sección, listos para descargar y 
 Puedes ejecutarlos de dos maneras:
 
 - Desde el [panel de Guiones Python](../README.md), pegando o abriendo el guion.
-- Instalándolos como **órdenes**: copia el `.py` en tu carpeta de macroinstrucciones o pégalo en la
-  pestaña de macroinstrucciones de la tabla de códigos. A partir de ahí Digi3D.AI reconoce el nombre
-  del archivo (en mayúsculas) como una orden más. Las órdenes que reciben parámetros se invocan con
-  `NOMBRE=parámetro1 parámetro2 ...`.
+- Instalándolos como **órdenes**: copia el `.py` en tu directorio de macroinstrucciones. A partir de ahí
+  Digi3D.AI reconoce el nombre del archivo como una orden más. Las órdenes que reciben parámetros se
+  invocan con `NOMBRE=parámetro1 parámetro2 ...`. La página
+  [Órdenes en Python del repositorio ComandosDigi3DPython](../../ordenes-python.md) indica en qué carpetas
+  busca Digi3D.AI el archivo y resume cada orden.
 
 Cada página muestra el código completo y lo explica paso a paso. Están ordenadas de menor a mayor
 dificultad.
