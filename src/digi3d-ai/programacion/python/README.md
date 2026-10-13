@@ -43,6 +43,15 @@ bajo demanda). También usan el objeto `digi3d`.
 - [Ejemplos de programación](controles-de-calidad/ejemplos/README.md)
 - [Referencia de la API](referencia/README.md)
 
+## Repositorios de guiones de Digi21
+
+Digi21 publica en GitHub dos repositorios de guiones para Digi3D.AI:
+
+- [Órdenes en Python del repositorio ComandosDigi3DPython](ordenes-python.md): guiones que se ejecutan
+  como órdenes desde la línea de comandos.
+- [Repositorio de controles de calidad en Python](guiones-control-calidad/README.md): el archivo
+  `guiones.py`, con controles de calidad y reglas de representación dinámica para la tabla de códigos.
+
 ## Referencia
 
 La [Referencia de la API](referencia/README.md) describe formalmente los tres módulos:

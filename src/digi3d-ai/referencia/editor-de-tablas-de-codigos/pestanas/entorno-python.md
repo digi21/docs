@@ -12,4 +12,6 @@ Esta pestaña contiene el código Python que Digi3D.AI carga con la tabla de có
 
 Los cambios se guardan en la tabla de códigos al pulsar **Aplicar** o **Aceptar**.
 
+La página [Repositorio de controles de calidad en Python](../../../programacion/python/guiones-control-calidad/README.md) describe los controles de calidad y las reglas de representación dinámica de `guiones.py`.
+
 Para actualizar una tabla de códigos creada con una versión anterior de Digi3D, consulta [Actualizar los controles de calidad Python de una tabla de códigos](../../../usuarios-de-versiones-anteriores/actualizar-guiones-python.md).
