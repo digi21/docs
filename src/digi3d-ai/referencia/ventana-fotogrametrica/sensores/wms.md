@@ -17,7 +17,7 @@ En la pestaña [Sensores fotogramétricos](../../cuadros-de-dialogo/nuevo-proyec
    https://www.ign.es/wms-inspire/pnoa-ma?request=GetCapabilities&service=WMS
    ```
 
-2. Pulsa **Aceptar**. Digi3D.AI crea el archivo de modelo y abre la ventana fotogramétrica, vacía, con el panel **Web Map Service** abierto para elegir la capa.
+2. Pulsa **Aceptar**. Digi3D.AI crea el archivo de modelo y abre la ventana fotogramétrica, vacía, con el panel **Web Map Service** abierto para elegir la capa. Si el servidor publica una sola capa que puede dibujar, Digi3D.AI elige esa capa al abrir la ventana fotogramétrica (consulta [Abrir el modelo](#abrir-el-modelo)).
 
 Al pulsar **Aceptar**, Digi3D.AI comprueba la URL sin conectar con el servidor. Si la propiedad está vacía, muestra el mensaje «Escribe la URL GetCapabilities del servidor WMS.»; si la URL no es válida (por ejemplo, empieza por `ftp://`), muestra «La URL del servidor no es válida» con la URL. En los dos casos selecciona la propiedad **URL del servidor** y el cuadro de diálogo sigue abierto. Si la URL no lleva esquema, Digi3D.AI añade `http://`.
 
@@ -29,22 +29,24 @@ El archivo de modelo se llama `servidor - capa.d3d`, con el nombre del servidor 
 
 * Los caracteres que Windows no admite en un nombre de archivo se sustituyen: `\`, `/` y `|` por `-`; `:`, `*`, `?` y `%` por `_`; `"` por `'`; `<` y `>` por paréntesis. Un puerto se escribe con `_`: `servidor_8080`.
 * Al crear el modelo, si en el directorio de trabajo ya existe un archivo de modelo Web Map Service del mismo servidor, con la misma capa, el mismo sistema de referencia, el mismo estilo y el mismo formato, Digi3D.AI lo reutiliza: escribe en él la configuración nueva. Si existe un archivo con ese nombre que difiere en cualquiera de esos datos o es de otro sensor, el modelo nuevo se llama `servidor - capa (2).d3d`, `servidor - capa (3).d3d`, etc.
-* Al elegir otra capa en el panel, Digi3D.AI cambia el nombre del archivo al de la capa nueva, también la primera vez que eliges una capa en un modelo sin capa. El nombre nuevo nunca sustituye a un archivo que ya existe: si existe, se añade ` (2)`, ` (3)`, etc. La barra de título de la ventana fotogramétrica y el título del panel muestran el nombre nuevo.
+* Al elegir otra capa en el panel, Digi3D.AI cambia el nombre del archivo al de la capa nueva, también la primera vez que eliges una capa en un modelo sin capa y cuando Digi3D.AI elige la única capa del servidor. El nombre nuevo nunca sustituye a un archivo que ya existe: si existe, se añade ` (2)`, ` (3)`, etc. La barra de título de la ventana fotogramétrica muestra el nombre nuevo.
 * Si el nombre del archivo no es uno de los que genera Digi3D.AI (por ejemplo, porque lo has cambiado tú, o porque el modelo se creó con una versión anterior, que lo llamaba con 32 caracteres hexadecimales), el archivo conserva su nombre aunque cambies de capa.
 
 ## Abrir el modelo
 
 Al abrir el modelo, Digi3D.AI se conecta al servidor. Si la URL no es válida o el servidor no responde, muestra el error y no abre el modelo.
 
-Si el modelo no tiene capa, la ventana fotogramétrica se abre vacía. Si el servidor ya no publica la capa del modelo, la ventana se abre vacía y el panel [Resultados](../../paneles/resultados.md) muestra el mensaje «La capa *capa* del modelo no está en el servidor *servidor*. Elige otra en el panel Web Map Service.». En los dos casos, elige la capa en el panel.
+Si el modelo no tiene capa y el servidor publica varias capas que puede dibujar, la ventana fotogramétrica se abre vacía y la capa se elige en el panel. Si el modelo no tiene capa y el servidor publica una sola capa que puede dibujar, Digi3D.AI elige esa capa igual que si la eligieras en el panel: toma el primer sistema de referencia de la capa, propone el origen y el tamaño de píxel, cambia el nombre del archivo de modelo a `servidor - capa.d3d`, guarda la configuración en el archivo y muestra la imagen en la ventana fotogramétrica. Las capas que solo agrupan otras no cuentan.
+
+Si el servidor ya no publica la capa del modelo, la ventana se abre vacía y el panel [Resultados](../../paneles/resultados.md) muestra el mensaje «La capa *capa* del modelo no está en el servidor *servidor*. Elige otra en el panel Web Map Service.». En este caso Digi3D.AI no elige ninguna capa aunque el servidor publique una sola: la capa se elige en el panel.
 
 Los modelos creados con versiones anteriores se abren igual. Ya no aparece el cuadro de diálogo **Acepta o rechaza las restricciones de uso del servicio**: las restricciones de uso se muestran en el panel.
 
 ## Panel Web Map Service
 
-Al abrir el modelo, Digi3D.AI acopla a la derecha de la ventana principal el panel **Web Map Service: *nombre del modelo***. Cada ventana fotogramétrica de un modelo Web Map Service tiene su propio panel, que se cierra con ella. Los cambios que haces en el panel se aplican a la ventana fotogramétrica y se guardan en el archivo de modelo en ese momento.
+Al abrir el modelo, Digi3D.AI acopla a la derecha de la ventana principal el panel **Web Map Service**. Cada ventana fotogramétrica de un modelo Web Map Service tiene su propio panel, que se cierra con ella. Los cambios que haces en el panel se aplican a la ventana fotogramétrica y se guardan en el archivo de modelo en ese momento.
 
-En un modelo recién creado, el panel muestra los datos del servidor y la **Capa** sin elegir:
+En un modelo recién creado de un servidor con varias capas, el panel muestra los datos del servidor y la **Capa** sin elegir:
 
 ![Panel Web Map Service de un modelo sin capa](../../../../images/sensor-wms-panel-sin-capa.png)
 
@@ -52,7 +54,7 @@ En un modelo recién creado, el panel muestra los datos del servidor y la **Capa
 
 | Propiedad | Descripción |
 | :--- | :--- |
-| **URL del servidor** | URL GetCapabilities del servidor WMS. Al cambiarla, Digi3D.AI se conecta al servidor nuevo (la barra de estado muestra **Estableciendo conexión con el servidor...**), la capa queda sin elegir y la ventana fotogramétrica se vacía. El archivo de modelo pasa a llamarse como el servidor nuevo, y Digi3D.AI borra de él la última posición y el factor de escala. Si la conexión falla, muestra el error y conserva el servidor anterior. |
+| **URL del servidor** | URL GetCapabilities del servidor WMS. Al cambiarla, Digi3D.AI se conecta al servidor nuevo (la barra de estado muestra **Estableciendo conexión con el servidor...**), la capa queda sin elegir y la ventana fotogramétrica se vacía. El archivo de modelo pasa a llamarse como el servidor nuevo, y Digi3D.AI borra de él la última posición y el factor de escala. Si el servidor nuevo publica una sola capa que puede dibujar, Digi3D.AI elige esa capa como al abrir el modelo, y el archivo pasa a llamarse `servidor - capa.d3d`. Si la conexión falla, muestra el error y conserva el servidor anterior. |
 | **Servicio** | Título que publica el servidor. La zona de descripción del panel muestra el resumen del servicio. |
 | **Organización** | Organización que publica el servicio. |
 | **Contacto** | Persona de contacto, correo electrónico y teléfono que publica el servidor. |

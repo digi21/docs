@@ -15,7 +15,7 @@ En la pestaña [Sensores fotogramétricos](../../cuadros-de-dialogo/nuevo-proyec
    https://www.ign.es/wmts/pnoa-ma?request=GetCapabilities&service=WMTS
    ```
 
-2. Pulsa **Aceptar**. Digi3D.AI crea el archivo de modelo y abre la ventana fotogramétrica, vacía, con el panel **Web Map Tile Service** abierto para elegir la capa.
+2. Pulsa **Aceptar**. Digi3D.AI crea el archivo de modelo y abre la ventana fotogramétrica, vacía, con el panel **Web Map Tile Service** abierto para elegir la capa. Si el servidor publica una sola capa, como el PNOA del ejemplo, Digi3D.AI elige esa capa al abrir la ventana fotogramétrica (consulta [Abrir el modelo](#abrir-el-modelo)).
 
 Al pulsar **Aceptar**, Digi3D.AI comprueba la URL sin conectar con el servidor. Si la propiedad está vacía, muestra el mensaje «Escribe la URL GetCapabilities del servidor WMTS.»; si la URL no es válida (por ejemplo, empieza por `ftp://`), muestra «La URL del servidor WMTS no es válida» con la URL. En los dos casos selecciona la propiedad **URL del servidor** y el cuadro de diálogo sigue abierto. Si la URL no lleva esquema, Digi3D.AI añade `http://`.
 
@@ -27,26 +27,28 @@ El archivo de modelo se llama `servidor - capa.d3d`, con el nombre del servidor 
 
 * Los caracteres que Windows no admite en un nombre de archivo se sustituyen: `\`, `/` y `|` por `-`; `:`, `*`, `?` y `%` por `_`; `"` por `'`; `<` y `>` por paréntesis. Un puerto se escribe con `_`: `servidor_8080`.
 * Al crear el modelo, si en el directorio de trabajo ya existe un archivo de modelo Web Map Tile Service del mismo servidor, con la misma capa, el mismo estilo, el mismo formato y la misma matriz de teselas, Digi3D.AI lo reutiliza: escribe en él la configuración nueva. Si existe un archivo con ese nombre que difiere en cualquiera de esos datos o es de otro sensor, el modelo nuevo se llama `servidor - capa (2).d3d`, `servidor - capa (3).d3d`, etc.
-* Al elegir otra capa en el panel, Digi3D.AI cambia el nombre del archivo al de la capa nueva, también la primera vez que eliges una capa en un modelo sin capa. El nombre nuevo nunca sustituye a un archivo que ya existe: si existe, se añade ` (2)`, ` (3)`, etc. La barra de título de la ventana fotogramétrica y el título del panel muestran el nombre nuevo.
+* Al elegir otra capa en el panel, Digi3D.AI cambia el nombre del archivo al de la capa nueva, también la primera vez que eliges una capa en un modelo sin capa y cuando Digi3D.AI elige la única capa del servidor. El nombre nuevo nunca sustituye a un archivo que ya existe: si existe, se añade ` (2)`, ` (3)`, etc. La barra de título de la ventana fotogramétrica muestra el nombre nuevo.
 * Si el nombre del archivo no es uno de los que genera Digi3D.AI (por ejemplo, porque lo has cambiado tú, o porque el modelo se creó con una versión anterior, que lo llamaba con la cadena de conexión entera), el archivo conserva su nombre aunque cambies de capa.
 
 ## Abrir el modelo
 
 Al abrir el modelo, Digi3D.AI se conecta al servidor. Si la URL no es válida o el servidor no responde, muestra el error y no abre el modelo. Si el archivo de modelo no contiene la configuración del sensor, muestra el mensaje **El archivo de proyecto no contiene el nodo \<connectionString\> del sensor WMTS**.
 
-Si el modelo no tiene capa, la ventana fotogramétrica se abre vacía. Si el servidor ya no publica la capa, el estilo, el formato o la matriz de teselas del modelo, la ventana se abre vacía y el panel [Resultados](../../paneles/resultados.md) muestra el mensaje «La capa, el estilo, el formato o la matriz de teselas del modelo no están en el servidor *servidor*. Elígelos en el panel Web Map Tile Service.». En los dos casos, elige la capa en el panel.
+Si el modelo no tiene capa y el servidor publica varias, la ventana fotogramétrica se abre vacía y la capa se elige en el panel. Si el modelo no tiene capa y el servidor publica una sola, Digi3D.AI elige esa capa igual que si la eligieras en el panel: toma el primer estilo, el primer formato de imagen admitido y la primera matriz de teselas que publica el servidor, cambia el nombre del archivo de modelo a `servidor - capa.d3d`, guarda la configuración en el archivo y muestra la imagen en la ventana fotogramétrica.
+
+Si el servidor ya no publica la capa, el estilo, el formato o la matriz de teselas del modelo, la ventana se abre vacía y el panel [Resultados](../../paneles/resultados.md) muestra el mensaje «La capa, el estilo, el formato o la matriz de teselas del modelo no están en el servidor *servidor*. Elígelos en el panel Web Map Tile Service.». En este caso Digi3D.AI no elige ninguna capa aunque el servidor publique una sola: la capa se elige en el panel.
 
 Los modelos creados con versiones anteriores se abren igual.
 
 ## Panel Web Map Tile Service
 
-Al abrir el modelo, Digi3D.AI acopla a la derecha de la ventana principal el panel **Web Map Tile Service: *nombre del modelo***. Cada ventana fotogramétrica de un modelo Web Map Tile Service tiene su propio panel, que se cierra con ella. Los cambios que haces en el panel se aplican a la ventana fotogramétrica y se guardan en el archivo de modelo en ese momento.
+Al abrir el modelo, Digi3D.AI acopla a la derecha de la ventana principal el panel **Web Map Tile Service**. Cada ventana fotogramétrica de un modelo Web Map Tile Service tiene su propio panel, que se cierra con ella. Los cambios que haces en el panel se aplican a la ventana fotogramétrica y se guardan en el archivo de modelo en ese momento.
 
 ### Servidor
 
 | Propiedad | Descripción |
 | :--- | :--- |
-| **URL del servidor** | URL GetCapabilities del servidor WMTS. Al cambiarla, Digi3D.AI se conecta al servidor nuevo, la capa queda sin elegir y la ventana fotogramétrica se vacía. Si la conexión falla, muestra el error y conserva el servidor anterior. |
+| **URL del servidor** | URL GetCapabilities del servidor WMTS. Al cambiarla, Digi3D.AI se conecta al servidor nuevo, la capa queda sin elegir y la ventana fotogramétrica se vacía. Si el servidor nuevo publica una sola capa, Digi3D.AI elige esa capa como al abrir el modelo. Si la conexión falla, muestra el error y conserva el servidor anterior. |
 | **Servicio** | Título que publica el servidor. La zona de descripción del panel muestra la descripción del servicio. |
 | **Proveedor** | Organización que publica el servicio. |
 | **Restricciones de uso** | Condiciones de uso del servicio que publica el servidor. Al seleccionar la propiedad, la zona de descripción del panel muestra el texto completo. |
@@ -66,16 +68,29 @@ Las propiedades **Servicio**, **Proveedor**, **Restricciones de uso**, **Tarifas
 | **Matriz de teselas** | Conjunto de matrices de teselas (*TileMatrixSet*) de la capa. Cada matriz del conjunto es un nivel piramidal del modelo. |
 | **Sistema de referencia** | Sistema de referencia de coordenadas de la matriz de teselas, que es también el del modelo. Muestra el nombre del sistema o, si Digi3D.AI no lo reconoce, el texto que publica el servidor. No se puede modificar: depende de la matriz. |
 | **Tamaño de píxel** | Tamaño de píxel del nivel con más detalle de la matriz, en unidades del sistema de referencia. No se puede modificar: lo fija el servidor. |
-| **Origen X** y **Origen Y** | Coordenadas en las que se abre el modelo. Por defecto, el centro de la matriz de teselas. Al cambiarlas, la ventana fotogramétrica se desplaza a ellas. |
+| **Origen X** y **Origen Y** | Coordenadas en las que se abre el modelo. Por defecto, la Puerta del Sol de Madrid; consulta [Origen por defecto](#origen-por-defecto). Al cambiarlas, la ventana fotogramétrica se desplaza a ellas. |
 
 Al elegir una capa, Digi3D.AI conserva el estilo, el formato y la matriz de teselas si la capa nueva los tiene; si no, elige el primero de los que publica.
 
 Al cambiar de capa o de matriz de teselas:
 
 * Si el sistema de referencia no cambia, la ventana fotogramétrica sigue en la misma posición.
-* Si cambia, la ventana se desplaza al centro de la matriz nueva, el origen vuelve a ser ese centro, la ventana de dibujo vuelve a calcular la transformación de coordenadas entre los dos sistemas, y Digi3D.AI borra del archivo de modelo la última posición y el factor de escala, que estaban en el sistema anterior.
+* Si cambia, la ventana se desplaza al origen por defecto de la matriz nueva, el origen vuelve a ser el origen por defecto, la ventana de dibujo vuelve a calcular la transformación de coordenadas entre los dos sistemas, y Digi3D.AI borra del archivo de modelo la última posición y el factor de escala, que estaban en el sistema anterior.
 
 Si un cambio no se puede aplicar, Digi3D.AI muestra el mensaje «No se ha podido aplicar el cambio» con el motivo, y el panel vuelve a mostrar los valores del modelo.
+
+### Origen por defecto
+
+Mientras no cambies **Origen X** y **Origen Y**, el modelo se abre en la Puerta del Sol de Madrid (longitud -3,703790, latitud 40,416775, en ETRS89), transformada al sistema de referencia de la matriz de teselas. Por ejemplo, en la matriz `EPSG:25830` del PNOA el origen es X = 440291,284 e Y = 4474254,600; en `InspireCRS84Quad`, X = -3,70379 e Y = 40,416775.
+
+Digi3D.AI usa el centro de la matriz de teselas en lugar de la Puerta del Sol en estos casos:
+
+* El sistema de referencia de la matriz es local, porque Digi3D.AI no lo reconoce.
+* La transformación de coordenadas desde ETRS89 falla.
+* La Puerta del Sol cae fuera del nivel con más detalle de la matriz.
+* El servidor publica los límites de la capa en ese nivel (*TileMatrixLimits*) y la Puerta del Sol cae en una tesela fuera de ellos.
+
+El centro se redondea al múltiplo más próximo del tamaño de píxel del nivel con más detalle. Por ejemplo, el centro de la matriz `InspireCRS84Quad` es X = 0 e Y = 0.
 
 ## Sistema de referencia y coordenadas
 
