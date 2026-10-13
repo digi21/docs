@@ -109,3 +109,4 @@ C처mo localiza el programa las DLL, y c처mo indicarle otra carpeta de instalaci�
 
 - Para ejecutar c처digo dentro de Digi3D.AI, con acceso al archivo de dibujo abierto y a la ventana de resultados, crea una extensi처n: [Tutorial: crear una extensi처n](tutorial-extension.md).
 - Para conocer los tipos de la API, consulta la [referencia](referencia/README.md) y el [curso de programaci처n en C#](curso-de-programacion-en-c/README.md).
+- Para ver otras aplicaciones de consola que recorren y escriben archivos `.bind`, consulta los [ejemplos de programaci처n](ejemplos/README.md). El ejemplo [comprimir](ejemplos/comprimir.md) recorre las entidades con `foreach` y salta las que tienen `Deleted`, como este tutorial.
