@@ -85,6 +85,7 @@
           * [Preparando los archivos .f para un programa de cálculo](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/preparando-archivos-f-programa-calculo.md)
   * [Procedimientos](digi3d-ai/procedimientos/README.md)
     * [Conectarse a un servidor WMS](digi3d-ai/procedimientos/conectar-servidor-wms.md)
+    * [Convertir imágenes ALOS a TIFF con Alos2Digi3D](digi3d-ai/procedimientos/convertir-imagenes-alos.md)
   * [Conceptos](digi3d-ai/conceptos/README.md)
     * [Órdenes y variables](digi3d-ai/referencia/ordenes/README.md)
       * [Variables](digi3d-ai/referencia/ordenes/variables/README.md)
