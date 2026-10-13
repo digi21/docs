@@ -28,22 +28,28 @@ Si otra instancia de Digi3D.AI tiene cargado el mismo archivo en solo lectura y 
 
 Para comprimir un archivo `.bin` o `.bind`, Digi3D.AI ejecuta estos pasos:
 
-1. Cambia el nombre del archivo añadiéndole la extensión `.comprimiendo` (por ejemplo, `dibujo.bin.comprimiendo`). Si ya existe un archivo con ese nombre, añade además un número: `.comprimiendo1`, `.comprimiendo2`...
-2. Crea un archivo nuevo con el nombre original y escribe en él las entidades no borradas.
-3. Borra el archivo renombrado. Si no puede borrarlo, lo indica con un aviso y el archivo renombrado se queda en la carpeta; puedes borrarlo.
+1. Comprueba que puede cambiar el nombre del archivo.
+2. Crea un archivo nuevo con el nombre del archivo y la extensión `.comprimiendo` añadida (por ejemplo, `dibujo.bin.comprimiendo`), con los mismos permisos que el archivo original, y escribe en él las entidades no borradas.
+3. Pone el archivo nuevo en lugar del original. El archivo resultante conserva los atributos (por ejemplo, oculto), los permisos, la fecha de creación y los flujos de datos alternativos del original. El original pasa a llamarse con la extensión `.original` añadida.
+4. Borra el archivo con la extensión `.original`. Si no puede borrarlo, lo indica con un aviso y el archivo se queda en la carpeta; puedes borrarlo.
 
-Si falla el paso 2, Digi3D.AI borra el archivo a medio escribir, devuelve su nombre al archivo original, que no se ha modificado, y muestra un mensaje con el motivo. Si el fallo se produce al escribir las entidades, los cambios que hagas después en el dibujo no se guardarán en el archivo: cierra el dibujo y vuelve a abrirlo. Si Digi3D.AI no puede devolver su nombre al archivo original, el mensaje indica la ruta del archivo renombrado, que contiene el dibujo sin comprimir; cierra el dibujo y cambia el nombre de ese archivo al nombre original.
+Si falla el paso 2, Digi3D.AI borra el archivo a medio escribir y muestra un mensaje con el motivo; el archivo de dibujo no se modifica. Si el fallo se produce al escribir las entidades, los cambios que hagas después en el dibujo no se guardarán en el archivo: cierra el dibujo y vuelve a abrirlo. Si en el paso 3 el original queda con la extensión `.original` y Digi3D.AI no puede devolverle su nombre, el mensaje indica la ruta de ese archivo, que contiene el dibujo sin comprimir; cierra el dibujo y cambia el nombre de ese archivo al nombre original.
 
-Si no puede cambiar el nombre del archivo porque otro programa, normalmente un antivirus, lo tiene bloqueado, muestra el cuadro de tareas **No se ha podido cambiar el nombre del archivo de dibujo**:
+Si en el paso 1 no puede cambiar el nombre del archivo, porque el archivo es de solo lectura o porque otro programa, normalmente un antivirus, lo tiene bloqueado, muestra el cuadro de tareas **No se ha podido cambiar el nombre del archivo de dibujo**:
 
 ![Cuadro de tareas No se ha podido cambiar el nombre del archivo de dibujo](../../../../../images/comprimir-archivo-bloqueado.png)
 
 El cuadro muestra la ruta del archivo y ofrece dos opciones:
 
-* **Volver a intentarlo.**: Digi3D.AI vuelve a intentar cambiar el nombre del archivo. Si lo consigue, continúa con la compresión. Si no, vuelve a mostrar el cuadro.
+* **Volver a intentarlo.**: Digi3D.AI vuelve a comprobar si puede cambiar el nombre del archivo. Si puede, continúa con la compresión. Si no, vuelve a mostrar el cuadro.
 * **Cancelar la compresión.**: Digi3D.AI no modifica el archivo. Las entidades borradas siguen en el archivo con la marca de borrado, y se quitarán la próxima vez que lo comprimas. El dibujo sigue abierto y puedes seguir trabajando con él. Las entidades borradas ya no están en memoria, así que en esta sesión no se pueden recuperar; al volver a abrir el archivo se cargan de nuevo con la marca de borrado. Las otras instancias de Digi3D.AI no reciben el aviso de que el archivo se ha comprimido.
 
-**Más información** describe los tres pasos de la compresión y propone cerrar el programa que bloquea el archivo o deshabilitar el antivirus antes de pulsar **Volver a intentarlo**.
+**Más información** describe los pasos de la compresión y propone quitar el atributo de solo lectura, cerrar el programa que bloquea el archivo o deshabilitar el antivirus antes de pulsar **Volver a intentarlo**.
+
+Si en el paso 3 no puede poner el archivo nuevo en lugar del original, muestra el cuadro de tareas **No se ha podido sustituir el archivo de dibujo**, con la ruta de los dos archivos y el error de Windows:
+
+* **Volver a intentarlo.**: Digi3D.AI vuelve a intentar poner el archivo nuevo en lugar del original y, si lo consigue, termina la compresión.
+* **Cancelar la compresión.**: Digi3D.AI borra el archivo nuevo. El archivo de dibujo no se modifica, pero los cambios que hagas en el dibujo no se guardarán en él: cierra el dibujo y vuelve a abrirlo. Si otro programa tiene abierto el archivo nuevo, Digi3D.AI no puede borrarlo y el archivo `.comprimiendo` se queda en la carpeta; puedes borrarlo.
 
 ## Características de la orden
 
