@@ -44,6 +44,8 @@ Los modelos creados con versiones anteriores se abren igual.
 
 Al abrir el modelo, Digi3D.AI acopla a la derecha de la ventana principal el panel **Web Map Tile Service**. Cada ventana fotogramétrica de un modelo Web Map Tile Service tiene su propio panel, que se cierra con ella. Los cambios que haces en el panel se aplican a la ventana fotogramétrica y se guardan en el archivo de modelo en ese momento.
 
+![Panel Web Map Tile Service con la capa de imágenes de satélite Sentinel y ortofotos del PNOA](../../../../images/sensor-wmts-panel.png)
+
 ### Servidor
 
 | Propiedad | Descripción |
