@@ -39,7 +39,8 @@ def si_es_area_no_puede_solapar_otra_area(geometry, adding_geometry, code_index,
     if not es_area(geometry):
         return
 
-    if algun_area_con_codigo(geometry, código_o_etiqueta_areas_analizar, lambda área: geometry.overlaps(área)):
+    poligono = como_poligono(geometry)
+    if algun_area_con_codigo(geometry, código_o_etiqueta_areas_analizar, lambda área: poligono.overlaps(área)):
         return digi3d.GeometryError(mensaje)
 ```
 
@@ -48,34 +49,30 @@ Las condiciones usan los métodos de relación de [Geometry](../referencia/digi2
 `terminates_within`, `endpoint_touches`, `endpoint_touches_interior`, `coincident` y
 `coincident_and_terminates`. Cada método admite solo algunas combinaciones de tipos de geometría. Con una
 combinación no admitida, el método lanza `TypeError: La relacion '…' no esta definida para esa combinacion
-de tipos de geometria.` y Digi3D.AI muestra el error en un cuadro de mensaje. Las notas de cada tabla indican
-en qué casos ocurre.
+de tipos de geometria.`. Los controles de este archivo solo llaman a combinaciones admitidas: cuando una
+relación exige un polígono, convierten la línea cerrada con la función auxiliar `como_poligono`, que
+devuelve un polígono sin huecos con los vértices de la línea.
 
-La función auxiliar no excluye la geometría analizada. Consulta
-[La geometría analizada no se excluye](README.md#la-geometría-analizada-no-se-excluye).
+La función auxiliar no compara la geometría analizada consigo misma. Consulta
+[La geometría analizada no se compara consigo misma](README.md#la-geometría-analizada-no-se-compara-consigo-misma).
 
 ## La geometría analizada es un área
 
 | Control | Da error si |
 |---|---|
 | `si_es_area_debe_ser_adyacente_area` | Ningún área cumple `área.adjacent(geometry)`. |
-| `si_es_area_debe_estar_completamente_dentro_de_area` | Ningún área cumple `geometry.completely_within(área)`. |
+| `si_es_area_debe_estar_completamente_dentro_de_area` | Ningún área cumple `como_poligono(geometry).completely_within(área)`. |
 | `si_es_area_debe_estar_dentro_de_area` | Ningún área cumple `geometry.within(área)`. |
 | `si_es_area_debe_ser_estar_separado_de_area` | Algún área cumple `not área.disjoint(geometry)`. |
-| `si_es_area_debe_ser_igual_a_otra_area` | Ningún área cumple `área.equals(geometry)`. |
+| `si_es_area_debe_ser_igual_a_otra_area` | Ningún área cumple `como_poligono(área).equals(geometry)`. |
 | `si_es_area_debe_unirse_con_otra_area` | Ningún área cumple `área.touches(geometry)`. |
-| `si_es_area_debe_solapar_otra_area` | Ningún área cumple `geometry.overlaps(área)`. |
-| `si_es_area_no_puede_solapar_otra_area` | Algún área cumple `geometry.overlaps(área)`. |
+| `si_es_area_debe_solapar_otra_area` | Ningún área cumple `como_poligono(geometry).overlaps(área)`. |
+| `si_es_area_no_puede_solapar_otra_area` | Algún área cumple `como_poligono(geometry).overlaps(área)`. |
 
-Combinaciones que lanzan `TypeError`:
-
-* `si_es_area_debe_estar_completamente_dentro_de_area`: la geometría analizada es una línea cerrada.
-  `completely_within` solo admite un polígono como geometría analizada.
-* `si_es_area_debe_ser_igual_a_otra_area`: la geometría analizada es un polígono y el área con la que se
-  compara es una línea cerrada. `equals` no admite una línea comparada con un polígono.
-* `si_es_area_debe_solapar_otra_area` y `si_es_area_no_puede_solapar_otra_area`: la geometría analizada es
-  una línea cerrada y el área con la que se compara es un polígono. `overlaps` no admite una línea
-  comparada con un polígono.
+`completely_within` y `overlaps` solo admiten un polígono como geometría analizada, y `equals` no admite una
+línea comparada con un polígono. Por eso esos cuatro controles convierten la línea cerrada en polígono. En
+los dos controles de solape, una línea cerrada comparada con otra línea cerrada se evalúa como solape de
+áreas, igual que dos polígonos: dos áreas que solo comparten un lado no se solapan.
 
 ## La geometría analizada es una línea
 
@@ -97,20 +94,21 @@ Combinaciones que lanzan `TypeError`:
 | `si_es_linea_debe_terminar_en_linea` | Ninguna línea cumple `geometry.endpoint_touches_interior(línea)`: el extremo de la geometría analizada toca la otra línea fuera de sus extremos. |
 | `si_es_linea_solo_puede_continuar_con_lineas_con_codigo` | Alguna línea que **no** tiene los códigos del parámetro cumple `geometry.endpoint_touches(línea)`. |
 
-La cadena de documentación de algunos de estos controles no coincide con el código. La tabla describe lo que
-hace el código. Por ejemplo, la de `si_es_linea_debe_cruzar_linea` habla de áreas y la de
-`si_es_linea_debe_ser_igual_a_linea` describe la condición contraria.
-
 ### si_es_linea_no_puede_cruzar_linea
 
-Este control compara la línea analizada con las geometrías no borradas que tienen los códigos del parámetro
-y cuya caja envolvente en planta se solapa con la de la línea analizada. Por cada cruce devuelve un
+Este control compara la línea analizada con las geometrías de tipo `Line` no borradas que tienen los códigos
+del parámetro y cuya caja envolvente en planta se solapa con la de la línea analizada. Salta el resto de
+tipos, porque `cross_vertices` solo admite dos líneas. Por cada cruce devuelve un
 [GeometryRelationError](../referencia/digi3d/exceptions.md) con la otra geometría, el `mensaje` y las
 coordenadas del vértice de cruce. En tiempo real (`adding_geometry` vale `True`) devuelve solo el primer
-cruce. Este control sí salta la geometría analizada.
+cruce. Este control también salta la geometría analizada.
 
 ```python
 for candidato in candidatos:
+    # cross_vertices solo admite dos geometrías de tipo Line
+    if type(candidato) is not digi3d.Line:
+        continue
+
     if candidato == geometry:
         continue
 
@@ -124,10 +122,6 @@ for candidato in candidatos:
     for vertice in vertices_de_cruce:
         errores_detectados.append(digi3d.GeometryRelationError(candidato, mensaje, geometry[vertice]))
 ```
-
-Este control no filtra los candidatos por tipo. `cross_vertices` solo admite dos líneas: si una geometría
-con los códigos del parámetro es un polígono, un punto, un texto o un complejo y su caja envolvente se
-solapa con la de la línea analizada, el control lanza `TypeError`.
 
 ## La geometría analizada es un punto
 

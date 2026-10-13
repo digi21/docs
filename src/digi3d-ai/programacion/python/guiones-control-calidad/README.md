@@ -59,9 +59,11 @@ El cuadro **Parámetros del control de calidad** guarda los valores como un dicc
 entero sin ceros a la izquierda, un valor formado solo por ceros (`0`, `00`) o un número con punto decimal
 (`0.5`, `.5`, `020.`) se guarda como número; el resto se guarda como texto. La regla completa está en
 [Cuadro de diálogo Parámetros del control de calidad](../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md).
-Un código formado solo por cifras y sin cero a la izquierda, como `120400`, se guarda por tanto como número. Los controles que buscan códigos llaman a `split()` sobre el parámetro, y
-con un número fallan con el error `AttributeError: 'int' object has no attribute 'split'`. Un código con
-cero a la izquierda, como `020123`, se guarda como texto y funciona.
+Un código formado solo por cifras y sin cero a la izquierda, como `120400`, se guarda por tanto como número.
+Los controles convierten a texto el parámetro antes de buscar códigos, así que `120400` funciona igual que
+un código guardado como texto. Un código con cero a la izquierda, como `020123`, se guarda como texto y no
+cambia. Un código formado solo por ceros, como `00`, se guarda como el número `0`, y la conversión produce
+el texto `0`, que no coincide con `00`.
 
 ### Códigos, comodines y etiquetas
 
@@ -92,27 +94,23 @@ def compara_codigos_con_comodines(codigo_a, codigo_b):
     return False
 ```
 
-### La geometría analizada no se excluye
+### La geometría analizada no se compara consigo misma
 
 Los controles de relación entre geometrías recorren las geometrías no borradas de todos los archivos
-cargados (el archivo de dibujo y los archivos de referencia) con la función auxiliar `alguna_geometria`. La línea que debería saltar la geometría analizada no la salta, porque
-ejecuta `pass` en lugar de `continue`:
+cargados (el archivo de dibujo y los archivos de referencia) con la función auxiliar `alguna_geometria`,
+que salta la geometría analizada:
 
 ```python
 for g in no_eliminadas(digi3d.current_view()):
     # No contamos la geometría que se está analizando
     if g == geometría_analizando:
-        pass
+        continue
 ```
 
-Cuando el control se ejecuta con las órdenes de control de calidad, la geometría analizada ya está en el
-archivo de dibujo. Si su código coincide con el parámetro `código_o_etiqueta_...`, el control la compara
-consigo misma. Por ejemplo, `si_es_punto_debe_estar_separado_de_punto` con el mismo código del punto
-analizado da siempre error, y `si_es_punto_debe_coincidir_con_punto` no da nunca error.
-`si_es_linea_solo_puede_continuar_con_lineas_con_codigo` busca líneas que **no** tienen los códigos del
-parámetro: ese control compara la línea analizada consigo misma cuando el código de la línea no está en
-el parámetro. En tiempo real la
-geometría todavía no está en el archivo de dibujo y el problema no aparece.
+Con las órdenes de control de calidad, la geometría analizada ya está en el archivo de dibujo. Aunque su
+código coincida con el parámetro `código_o_etiqueta_...`, el control no la compara consigo misma. Por
+ejemplo, `si_es_punto_debe_estar_separado_de_punto` con el mismo código del punto analizado solo da error
+si otro punto con ese código no está separado de él.
 
 ## Páginas de esta sección
 

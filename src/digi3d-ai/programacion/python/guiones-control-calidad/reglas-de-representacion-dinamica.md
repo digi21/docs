@@ -141,18 +141,6 @@ if valorAtributo not in colores_atributo_bbdd:
 representations[0].color = colores_atributo_bbdd[valorAtributo]
 ```
 
-## Reglas que no funcionan como indica su nombre
-
-* `asignar_color_relleno_si_poligono_tiene_numero_huecos_menor_valor` y
-  `asignar_grosor_si_poligono_tiene_numero_huecos_menor_valor` usan la variable `valor`, que no existe en
-  esas funciones; el parámetro se llama `numero_huecos`. Con un polígono del código indicado, la regla lanza
-  `NameError`. Digi3D.AI no muestra el error: esa regla y las siguientes no se aplican a la geometría.
-* `asignar_color_relleno_si_z_minima_igual_valor` compara con `<`: cambia el relleno si la Z mínima es
-  menor que `valor`, no si es igual.
-* `asignar_color_relleno_si_atributo_bbdd_menor_valor` y
-  `asignar_color_relleno_si_atributo_diccionario_atributos_menor_valor` están definidas dos veces con el
-  mismo código. Python conserva la segunda definición y el comportamiento no cambia.
-
 ## Véase también
 
 * [ASIGNAR\_REPRESENTACIONES](../../../referencia/ventana-de-dibujo/ordenes/a/asignar-representaciones.md)

@@ -31,7 +31,7 @@ comparación exacta.
 ```python
 @quality_control()
 def debe_tener_todos_los_vertices_con_la_misma_coordenada_z(geometry, adding_geometry, code_index):
-    'Comunica un error si localiza un vértice con la coordenada Z distinta de la del vértice anterior'
+    'Comunica un error si localiza un vértice con la coordenada Z distinta de la del primer vértice'
     if digi3d.same_coordinates(geometry.min[2], geometry.max[2]):
         return
 
@@ -75,7 +75,7 @@ primer vértice que no cumple la condición.
 | `marcar_error_si_diferencia_z_al_proyectar_mdt_superior_a` | El valor absoluto de la diferencia entre la Z proyectada y la Z del vértice es mayor que `distancia`. |
 | `marcar_error_si_diferencia_z_al_proyectar_mdt_inferior_a` | El valor absoluto de la diferencia es menor que `distancia`. |
 | `marcar_error_si_diferencia_z_de_zetas_absolutas_al_proyectar_mdt_es_superior_a_valor` | El valor absoluto de la diferencia entre las dos Z truncadas a entero es mayor que `distancia`. |
-| `marcar_error_si_diferencia_z_de_zetas_absolutas_al_proyectar_mdt_es_interior_a_valor` | El valor absoluto de la diferencia entre las dos Z truncadas a entero es menor que `distancia`. El mensaje de error dice «superior». |
+| `marcar_error_si_diferencia_z_de_zetas_absolutas_al_proyectar_mdt_es_interior_a_valor` | El valor absoluto de la diferencia entre las dos Z truncadas a entero es menor que `distancia`. |
 
 Los dos últimos controles convierten cada Z con `int()`, que elimina los decimales, antes de restar.
 
@@ -114,8 +114,7 @@ el control calcula el valor absoluto de la diferencia entre la Z del vértice de
 | `al_tocar_lineas_debe_haber_una_diferencia_de_z_superior_o_igual_a` | Menor que `tolerancia`. |
 | `al_tocar_lineas_debe_haber_una_diferencia_de_z_igual_a` | Distinta de `tolerancia`. |
 
-Los cinco controles tienen la misma cadena de documentación, que describe solo el primer caso. Devuelven una
-lista con un `GeometryError` por cada punto de contacto que falla, con las coordenadas del vértice de la
+Los cinco controles devuelven una lista con un `GeometryError` por cada punto de contacto que falla, con las coordenadas del vértice de la
 geometría analizada. En tiempo real devuelven solo el primero.
 
 ```python

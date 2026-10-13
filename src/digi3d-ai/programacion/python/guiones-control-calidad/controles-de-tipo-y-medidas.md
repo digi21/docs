@@ -15,7 +15,7 @@ si la geometría no es del tipo indicado. El mensaje incluye el primer código d
 | Control | Da error si la geometría no es |
 |---|---|
 | `debe_ser_area` | Un polígono o una línea cerrada en planta. |
-| `debe_ser_complejo` | Un complejo. El mensaje de error dice «deben ser de tipo Texto». |
+| `debe_ser_complejo` | Un complejo. |
 | `debe_ser_linea` | Una geometría de tipo `Line`. Un polígono da error. |
 | `debe_ser_poligono` | Un polígono. |
 | `debe_ser_punto` | Un punto. |
@@ -43,12 +43,9 @@ resultado en metros o metros cuadrados también cuando el sistema de coordenadas
 | `debe_tener_perimetro_mayor_o_igual` | `perimetro` | El perímetro en planta es menor que `perimetro`. |
 | `debe_tener_perimetro_mayor` | `perimetro` | El perímetro en planta es menor o igual que `perimetro`. |
 
-La cadena de documentación de `debe_tener_area_igual_o_mayor` dice «Tiene que tener un perímetro superior a
-un valor». El código comprueba el área.
-
 ```python
 if abs(digi3d.current_view().geographic_calculator.calculate_area(geometry)) < area_minima:
-    return digi3d.GeometryError('Las geometrías con el código {} deben ser tener un área mayor o igual que {}'.format(geometry.codes[0].code, area_minima))
+    return digi3d.GeometryError('Las geometrías con el código {} deben tener un área mayor o igual que {}'.format(geometry.codes[0].code, area_minima))
 ```
 
 Escribe `area_minima` y `perimetro` como números. El control compara el valor sin convertirlo: un texto
@@ -58,8 +55,8 @@ produce un `TypeError`.
 
 `debe_tener_ancho_y_alto_mayor_o_igual_valor_o_linea(ancho, alto)` calcula las dimensiones de la caja
 envolvente en planta de la geometría. La dimensión menor tiene que ser mayor o igual que `ancho` y la mayor,
-mayor o igual que `alto`. Si no lo son, el control devuelve un `GeometryError` que indica que la geometría
-debería haberse digitalizado como una línea.
+mayor o igual que `alto`. Si no lo son, el control devuelve un `GeometryError` con los valores de `ancho` y
+`alto` que indica que la geometría debería haberse digitalizado como una línea.
 
 ```python
 ancho_geometria = geometry.max[0] - geometry.min[0]
@@ -68,8 +65,6 @@ alto_geometria = geometry.max[1] - geometry.min[1]
 if min(ancho_geometria, alto_geometria) >= ancho and max(ancho_geometria, alto_geometria) >= alto:
     return
 ```
-
-El texto del error contiene los marcadores `{}` sin sustituir, porque el código no llama a `format`.
 
 ## Distancia mínima entre puntos
 
