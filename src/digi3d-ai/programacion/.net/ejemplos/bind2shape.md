@@ -46,7 +46,7 @@ El mensaje de uso del programa llama al cuarto argumento «carpeta de salida» y
 
 La cadena de conexión usa el proveedor OLE DB `Microsoft.ACE.OLEDB.16.0`, que tiene que estar instalado en el equipo en su versión de 64 bits. El modelo de datos es `CATDBS`; los modelos de datos están descritos en la opción `--mdat` de [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md).
 
-Por cada entidad que convierte, el programa escribe un signo más (`+`) en la consola. Si la conversión de una entidad produce una excepción, el programa escribe `Se localizó el siguiente error: <mensaje>` en la salida de error y continúa con la entidad siguiente.
+Por cada entidad que convierte, el programa escribe un signo más (`+`) en la consola. Si la conversión de una entidad produce una excepción, el programa escribe `Se localizó el siguiente error: <mensaje>` en la salida de error y continúa con la entidad siguiente. Un bloque `try` exterior, que el fragmento siguiente no muestra, escribe el mismo mensaje y termina el programa si falla la carga de la tabla de códigos, la apertura del archivo `.bind` con su base de datos o la creación del Shapefile.
 
 ## Cómo funciona
 

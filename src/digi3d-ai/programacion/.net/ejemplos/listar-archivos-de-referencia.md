@@ -51,4 +51,4 @@ foreach (var reference in bin.ReferenceFiles)
 
 `new BinDouble(args[1], tabla)` abre el archivo en lectura y escritura. Si la ruta no existe, `BinDouble` crea un archivo `.bind` vacío y el programa no muestra nada. Para abrir el archivo en solo lectura, pasa `true` como tercer argumento: `new BinDouble(args[1], tabla, true)`.
 
-`ReferenceFiles` devuelve las rutas de archivos de referencia que el archivo `.bind` guarda en su interior. Digi3D.AI guarda además, junto a cada archivo de dibujo, un archivo `.reference_files.json` (ver [Archivo de archivos de referencia](/digi3d-ai/referencia/archivos/archivo-de-archivos-de-referencia.md)); el programa no lee ese archivo.
+`ReferenceFiles` devuelve las rutas de archivos de referencia que el archivo `.bind` guarda en su interior, salvo las marcadas como borradas. La primera lectura de `ReferenceFiles` recorre todas las entidades del archivo para encontrar esas rutas. Digi3D.AI guarda además, junto a cada archivo de dibujo, un archivo `.reference_files.json` (ver [Archivo de archivos de referencia](/digi3d-ai/referencia/archivos/archivo-de-archivos-de-referencia.md)); el programa no lee ese archivo.

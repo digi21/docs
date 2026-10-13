@@ -40,6 +40,9 @@ Por cada entidad, el programa escribe en la consola un signo menos (`-`) si la e
 ## Cómo funciona
 
 ```csharp
+var rutaArchivoOriginal = args[0];
+var rutaArchivoCrear = args[1];
+
 var archivoEntrada = new BinDouble(rutaArchivoOriginal);
 // La salida se crea con el sistema de referencia (WKT) del archivo original.
 var archivoSalida = new BinDouble(rutaArchivoCrear, () => archivoEntrada.Wkt);
