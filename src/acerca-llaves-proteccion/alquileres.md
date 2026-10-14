@@ -17,7 +17,7 @@ El proceso de alquiler es muy sencillo:
 
 ## Aviso de que el alquiler está a punto de expirar
 
-Durante los 30 días anteriores a que expire tu período de alquiler te mostraremos cada vez que ejecutes el programa una ventana indicándote el número de días restantes de alquiler para recordarte que te quedan pocos días.
+Durante los 30 días anteriores a que expire tu período de alquiler te mostraremos cada vez que ejecutes el programa una ventana indicándote la fecha y la hora (UTC) en la que termina el alquiler.
 
 A continuación, te mostramos cómo avisa _Digi3D.AI_ de que quedan pocos días de alquiler:
 
