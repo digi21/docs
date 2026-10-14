@@ -8,6 +8,8 @@ Sigue los siguientes pasos para comprobar las licencias almacenadas en una deter
 1. Pulsa el botón de **Inicio/Programas/Digi21.NET/Licencias/Comprobar Licencias**. Aparecerá el programa _Comprobar Licencias_.
 2. Verás la página **Selecciona llave de protección**. Puedes comprobar que el botón **Siguiente** está deshabilitado. Se habilitará cuando selecciones una llave de protección de la lista de llaves que aparecen en esta página. Selecciona la llave para la cual quieres comprobar sus licencias y pulsa el botón **Siguiente.** Transcurridos unos segundos aparecerá la página **Propiedades de la llave de protección.**
 
+![Página Propiedades de la llave de protección con los datos del propietario y las fechas de fin de alquiler de cada producto](../../images/comprobar-licencias-propiedades.png)
+
 A continuación, te mostramos los campos que puede mostrar el programa y la condición para que se muestren:
 
 | Campo                                | Descripción                                                                                                                                                              | Condición                                                                                                                                 |
