@@ -91,6 +91,8 @@ Durante la conversión:
 
 Al terminar la lista, Alos2Digi3D muestra el mensaje **Trabajo finalizado** con el número de escenas convertidas y el número de escenas no convertidas. Si alguna escena no se ha convertido, el mensaje lleva el icono de advertencia, y la zona de registro da el motivo de cada escena no convertida (consulta [Mensajes de la zona de registro](#mensajes-de-la-zona-de-registro)).
 
+![Mensaje Trabajo finalizado con dos escenas convertidas y ninguna sin convertir](../../images/alos2digi3d-trabajo-finalizado.png)
+
 Si la conversión no llega a empezar, o se interrumpe por un error fuera de la conversión de una escena, Alos2Digi3D muestra el mensaje **La conversión se ha interrumpido por un error inesperado. Los archivos que quedan en la lista no se han procesado.**
 
 ### Cancelar la conversión
