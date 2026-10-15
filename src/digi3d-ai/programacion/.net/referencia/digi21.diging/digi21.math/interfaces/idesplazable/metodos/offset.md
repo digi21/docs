@@ -1,78 +1,35 @@
 # Offset
 <!-- id: offset-2 -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Desplaza la geometría.
-
-## Sobrecargas
-
-|  |  |
-| :--- | :--- |
-| [Offset\(Point2D\)](offset.md#offset-point-2-d) | Desplaza la geometría tantas unidades en X, Y como se indique en el parámetro. |
-| [Offset\(Point3D\)](offset.md#offset-point-3-d) | Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro. |
-| [Offset\(double, double\)](offset.md#offset-double-double) | Desplaza la geometría tantas unidades en X, Y como se indique en los parámetros. |
-| [Offset\(double, double, double\)](offset.md#offset-double-doublem-double) | Desplaza la geometría tantas unidades en X, Y, Z como se indique en los parámetros. |
-
-## Offset\(Point2D\)
-
-Desplaza la geometría tantas unidades en X, Y como se indique en el parámetro.
+Desplaza el objeto sumando un incremento a sus coordenadas. Método de [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/).
 
 ```csharp
 void Offset(Point2D offset);
-```
-
-## Parámetros
-
-`offset`[Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md)  
-Punto que define cuántas unidades desplazar la geometría en X y en Y.
-
-## Offset\(Point3D\)
-
-Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro.
-
-```csharp
 void Offset(Point3D offset);
-```
-
-## Parámetros
-
-`offset`[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)  
-Punto que define cuántas unidades desplazar la geometría en X, Y, Z.
-
-## Offset\(double, double\)
-
-Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro.
-
-```csharp
 void Offset(double x, double y);
-```
-
-## Parámetros
-
-`x`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Número de unidades a desplazar la geometría en X.
-
-`y`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Número de unidades en a desplazar la geometría en Y.
-
-## Offset\(double, double, double\)
-
-Desplaza la geometría tantas unidades en X, Y, Z como se indique en el parámetro.
-
-```csharp
 void Offset(double x, double y, double z);
 ```
 
 ## Parámetros
 
-`x`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Número de unidades a desplazar la geometría en X.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `offset` | Incremento. Con [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md), el incremento en Z es 0. |
+| `x`, `y`, `z` | Incremento en X, en Y y en Z. La sobrecarga sin `z` usa un incremento en Z de 0. |
 
-`y`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Número de unidades en a desplazar la geometría en Y.
+Las cuatro sobrecargas tienen el mismo efecto con el mismo incremento: `Offset(new Point2D(x, y))`, `Offset(x, y)` y `Offset(x, y, 0)` son equivalentes.
 
-`z`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Número de unidades en a desplazar la geometría en Z.
+`Point2D` y `Window2D` ignoran el incremento en Z.
 
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | En `Line`, `Point` y `Text`: la entidad pertenece a un archivo de dibujo (su propiedad `Owner` no es `null`). En `Window2D` y `Window3D`: la ventana no está inicializada (su propiedad `Valid` es `false`). |
+
+## Ejemplo
+
+El ejemplo de [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/) desplaza una línea, un texto y un `Point3D`.
