@@ -1,86 +1,66 @@
 # Constructores
 <!-- id: constructores-15 -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/).
+Constructores de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/). Son `protected`: solo se llaman desde el constructor de una clase derivada. Ningún constructor valida sus parámetros ni lanza excepciones. Una propiedad sin parámetro en el constructor vale `null`, salvo `Severity`, que vale `TaskSeverity.Error`.
 
 ## Sobrecargas
 
-|  |  |
+| Constructor | Descripción |
 | :--- | :--- |
-| [TaskBase\(\)](constructores.md#taskbase) | Inicializa una nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/). |
-| [TaskBase\(string, TaskSeverity\)](constructores.md#taskbase-string-taskseverity) | Inicializa una nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/) asignándole un título y parámetro de gravedad. |
-| [TaskBase\(string, TaskSeverity, string, string\)](constructores.md#taskbase-string-taskseverity-string-string) | Inicializa una nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/) asignándole un título, parámetro de gravedad, nombre de archivo de dibujo y nombre del módulo. |
-| [TaskBase\(string, TaskSeverity, string, string, ITask\[\]\)](constructores.md#taskbase-string-taskseverity-string-string-itask) | Inicializa una nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/) asignándole un título, parámetro de gravedad, nombre de archivo de dibujo, nombre del módulo y subtareas. |
+| `TaskBase()` | Crea una tarea sin título, con gravedad `Error`. |
+| `TaskBase(string, TaskSeverity)` | Crea una tarea con título y gravedad. |
+| `TaskBase(string, TaskSeverity, string, string)` | Crea una tarea con título, gravedad, archivo de dibujo y módulo. |
+| `TaskBase(string, TaskSeverity, string, string, ITask[])` | Crea una tarea con título, gravedad, archivo de dibujo, módulo y subtareas. |
 
-## TaskBase\(\)
-
-Inicializa une nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/).
+## TaskBase()
 
 ```csharp
-public TaskBase()
+protected TaskBase()
 ```
 
-## TaskBase\(string, TaskSeverity\)
+`Title`, `DrawingFile`, `Module` y `Children` valen `null`; `Severity` vale `TaskSeverity.Error`. La clase derivada asigna las propiedades después.
 
-Inicializa une nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/) asignándole un título y parámetro de gravedad.
+## TaskBase(string, TaskSeverity)
 
 ```csharp
-public TaskBase(string title, TaskSeverity severity)
+protected TaskBase(string title, TaskSeverity severity)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `title` | Valor de `Title`. |
+| `severity` | Valor de `Severity`: [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md). |
 
-`title` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Título de la tarea.
-
-`severity` [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md)  
-Gravedad de la tarea.
-
-## TaskBase\(string, TaskSeverity, string, string\)
-
-Inicializa une nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/) asignándole un título, parámetro de gravedad, nombre de archivo de dibujo y nombre del módulo.
+## TaskBase(string, TaskSeverity, string, string)
 
 ```csharp
-public TaskBase(string title, TaskSeverity severity, string drawingFile, string module)
+protected TaskBase(string title, TaskSeverity severity, string drawingFile, string module)
 ```
 
-`title` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Título de la tarea.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `title` | Valor de `Title`. |
+| `severity` | Valor de `Severity`. |
+| `drawingFile` | Valor de `DrawingFile`: ruta del archivo de dibujo al que se refiere la tarea. |
+| `module` | Valor de `Module`: nombre del módulo que genera la tarea. |
 
-`severity` [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md)  
-Gravedad de la tarea.
+## TaskBase(string, TaskSeverity, string, string, ITask[])
 
-`drawingFile` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Ruta al archivo de dibujo en el que se ha producido el escenario que ha desencadenado la creación de esta tarea.
-
-`module` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Nombre del módulo que ha generado la tarea.
-
-## TaskBase\(string, TaskSeverity, string, string, ITask\[\]\)
-
-Inicializa une nueva instancia de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/) asignándole un título, parámetro de gravedad, nombre de archivo de dibujo, nombre del módulo y subtareas.
-
-```text
-public TaskBase(string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
+```csharp
+protected TaskBase(string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 ```
 
-`title` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Título de la tarea.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `title` | Valor de `Title`. |
+| `severity` | Valor de `Severity`. |
+| `drawingFile` | Valor de `DrawingFile`. |
+| `module` | Valor de `Module`. |
+| `children` | Valor de `Children`: subtareas, o `null`. El constructor guarda la referencia al array, no una copia. |
 
-`severity` [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md)  
-Gravedad de la tarea.
+## Ejemplo
 
-`drawingFile` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Ruta al archivo de dibujo en el que se ha producido el escenario que ha desencadenado la creación de esta tarea.
-
-`module` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Nombre del módulo que ha generado la tarea.
-
-`children` [ITask\[\]](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=net-5.0)  
-Subtareas.
-
-
-
+La clase `TareaConsola` del [ejemplo de TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/#ejemplo) llama al constructor de cinco parámetros.
