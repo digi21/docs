@@ -1502,7 +1502,6 @@
                   * [Top](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/ortographiccamera/propiedades/top.md)
             * [Enumeraciones](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/enumeraciones/README.md)
               * [StandarPointOfView](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/enumeraciones/standarpointofview.md)
-          * [Digi21.Databases](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.databases.md)
           * [Digi21.DigiNG.DigiTab](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/README.md)
             * [Clases](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/README.md)
               * [DigiTab](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/README.md)
