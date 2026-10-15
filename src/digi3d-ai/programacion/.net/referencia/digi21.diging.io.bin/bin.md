@@ -85,7 +85,7 @@ Los avisos que se producen dentro del constructor (por ejemplo, un código de la
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Añade la entidad y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada y la vuelve a escribir en el archivo. La entidad sigue en el archivo con `Deleted` a `true`. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Posición de la entidad en el archivo, o `-1` si la entidad no pertenece a este archivo. |
+| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
 | `void Dispose()` | Cierra el archivo. |
 
 Excepciones de `Add` y `Delete`:

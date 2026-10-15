@@ -41,7 +41,7 @@ public Shp(string path, DigiTab digiTab, DelegateGetWkt GetWkt, bool readOnly, C
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `path` | Ruta de un archivo `.shp`. La carpeta del archivo es la carpeta de las capas: se toma la parte de la ruta anterior a la última barra invertida (`\`). La carpeta tiene que existir. |
+| `path` | Ruta de un archivo `.shp`. La carpeta del archivo es la carpeta de las capas: se toma la parte de la ruta anterior a la última barra invertida (`\`). |
 | `digiTab` | Tabla de códigos que relaciona los códigos con las capas. Sin este parámetro se usa una tabla de códigos vacía: al leer, se añade a esa tabla un código por cada capa; al escribir, ninguna entidad tiene un código con traducción al formato Shapefile y no se guarda nada. |
 | `GetWkt` | Delegado [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md) que devuelve el WKT del sistema de referencia de coordenadas. Solo se llama si la carpeta no tiene capas. |
 | `readOnly` | `true` para abrir las capas en solo lectura. Sin este parámetro vale `false`. |
@@ -75,23 +75,23 @@ Los constructores lanzan `Exception`, con el mensaje del error, si falla la aper
 | Método | Descripción |
 | :--- | :--- |
 | `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades de todas las capas, capa a capa. Solo se puede pedir una vez por cada `Shp`: la segunda llamada lanza `InvalidOperationException`. Las entidades son de solo lectura y su propiedad `Owner` es este archivo. |
-| `void Add(Entity entity)` | Guarda la entidad en la capa de su código y los atributos de su código (`Code.Attributes`) en la tabla `.dbf` de la capa. Si la capa no existe, la crea. Si la entidad no se puede guardar en esa capa (por ejemplo, un punto en una capa de líneas), no hace nada. |
-| `void Add(IEnumerable<Entity> entities)` | Llama a la operación de `Add(Entity)` con cada entidad, en el orden de la enumeración. |
+| `void Add(Entity entity)` | Guarda la entidad en la capa de su código y los atributos de su código (`Code.Attributes`) en la tabla `.dbf` de la capa. Si la capa no existe, la crea. No hace nada, sin excepción ni mensaje, si la entidad no se puede guardar en esa capa (por ejemplo, un punto en una capa de líneas) o si su código no está en la tabla de códigos. |
+| `void Add(IEnumerable<Entity> entities)` | Guarda las entidades en el orden de la enumeración. A diferencia de `Add(Entity)`, comprueba solo lectura, `Owner` y número de códigos en todas las entidades, y notifica con `TaskAdded` y `ResultsAdded` las entidades que no se pueden guardar en la capa de su código. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Llama a `Add(Entity)` y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada en su capa. Según la opción [Modo de eliminación de geometrías](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-shapefile/modo-de-eliminacion-de-geometrias.md) de Digi3D.AI, se marca el registro del `.dbf` como borrado o se escribe un valor en un campo. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Posición de la entidad en el archivo, o `-1` si la entidad no pertenece a este archivo. |
+| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
 | `void Dispose()` | Cierra las capas. |
 
-Una entidad no se guarda, y se notifica un mensaje con `ResultsAdded` (una sola vez por código), si su código no está en la tabla de códigos, no tiene traducción al formato Shapefile, no tiene nombre de capa o su tabla de base de datos no existe en el esquema de la tabla de códigos.
+Al guardar, una entidad no se escribe, y se notifica un mensaje con `ResultsAdded` (una sola vez por código), si su código no tiene traducción al formato Shapefile, no tiene nombre de capa o su tabla de base de datos no existe en el esquema de la tabla de códigos. Un código con la traducción desactivada no se escribe y no genera mensaje.
 
 Excepciones de `Add` y `Delete`:
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `ArgumentNullException` | `entity` o `entities` es `null`. `Delete(IEnumerable<Entity>)` no comprueba si `entities` es `null`. |
+| `ArgumentNullException` | `entities` es `null` en `Add(IEnumerable<Entity>)`, o `entity` es `null` en `Delete(Entity)`. `Add(Entity)` con `null` lanza `NullReferenceException`, y `Delete(IEnumerable<Entity>)` no comprueba si `entities` es `null`. |
 | `InvalidOperationException` | Las capas están en solo lectura; la entidad pertenece a otro archivo (su `Owner` es otro archivo), o la entidad tiene más de un código. `Add(Entity)` solo hace estas comprobaciones si la entidad se puede guardar en la capa de su código. |
-| `Exception` | El código de la entidad tiene atributos (`Code.Attributes` no está vacío) y no está en la tabla de códigos, no tiene tabla de base de datos o su tabla no tiene esquema. También, con el mensaje del error, si la tabla `.dbf` rechaza los atributos. |
+| `Exception` | El código de la entidad tiene atributos (`Code.Attributes` no está vacío) y no tiene tabla de base de datos o su tabla no tiene esquema; con `Add(IEnumerable<Entity>)`, también si el código no está en la tabla de códigos. También, con el mensaje del error, si la tabla `.dbf` rechaza los atributos. |
 
 ## Eventos
 
