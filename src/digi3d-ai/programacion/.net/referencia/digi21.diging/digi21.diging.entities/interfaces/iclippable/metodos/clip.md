@@ -20,15 +20,13 @@ IEnumerable<Entity> Clip(ReadOnlyLine limit)
 
 Una enumeración de entidades nuevas sin archivo de dibujo (`Owner` es `null`), de lectura y escritura, con los códigos de esta entidad. Esta entidad no se modifica.
 
-El método calcula las intersecciones de esta entidad con `limit`, forma los recintos que delimitan los tramos resultantes de las dos y se queda con los recintos cuyo punto interior no está fuera de esta entidad:
+El método calcula las intersecciones de esta entidad con `limit`. En una línea abierta, parte la línea por esas intersecciones. En una línea cerrada o un polígono, forma los recintos que delimitan los tramos resultantes de las dos y se queda con los recintos cuyo punto interior no está fuera de esta entidad:
 
 | Tipo | Resultado |
 | :--- | :--- |
 | `ReadOnlyLine`, `Line` cerrada en X, Y | Una `Line` cerrada por cada recinto. Si `limit` no corta la línea, la enumeración está vacía. |
-| `ReadOnlyLine`, `Line` abierta | En la versión 26.0.0, la enumeración está siempre vacía. Lee la nota de este apartado. |
+| `ReadOnlyLine`, `Line` abierta | Una `Line` por cada tramo de esta línea entre dos intersecciones con `limit`. `limit` no se parte. Si `limit` no corta la línea, la enumeración está vacía. |
 | `ReadOnlyPolygon`, `Polygon` | Un `Polygon`, con sus huecos, por cada recinto; los recintos que quedan dentro de un hueco del polígono no se devuelven. Si `limit` no corta el contorno ni los huecos, solo se divide el polígono cuando `limit` está completamente dentro de él. Si el resultado es un único polígono, la enumeración está vacía. |
-
-> En la versión 26.0.0, `Clip` de una línea abierta devuelve siempre una enumeración vacía: la función interna que divide la línea recibe por valor las listas de tramos que debería rellenar, de modo que el método no recibe ningún tramo.
 
 ## Excepciones
 
