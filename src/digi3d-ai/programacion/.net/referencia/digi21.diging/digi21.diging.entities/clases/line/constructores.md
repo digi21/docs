@@ -2,64 +2,48 @@
 <!-- id: constructores-6 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md).
+Constructores de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/). Los dos crean una línea sin vértices, que no pertenece a ningún archivo de dibujo, con `Attributes` vacío y sin color, grosor ni color de relleno propios.
 
-## Sobrecargas
-
-|  |  |
-| :--- | :--- |
-| [Line\(Code\)](constructores.md#line-code) | Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)con un código. |
-| [Line\(IEnumerable&lt;Code&gt;\)](constructores.md#line-ienumerable-less-than-code-greater-than) | Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)con múltiples códigos. |
-
-## Line\(Code\)
-
-Inicializa una nueva instancia de [Complex](../complex/)con un código.
+<a id="line-code"></a>
+## Line(Code)
 
 ```csharp
-public Complex(Code code);
+public Line(Code code)
 ```
 
-### Parámetros
+Crea una línea con un código.
 
-`code` [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/)  
-Código a asignar al nuevo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)  y le asigna el código _020400_.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `code` | Código de la línea. |
 
 ```csharp
 var línea = new Line(new Code("020400"));
 ```
 
-## Line\(IEnumerable&lt;Code&gt;\)
-
-Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md) con múltiples códigos.
+<a id="line-ienumerable-code"></a>
+## Line(IEnumerable&lt;Code&gt;)
 
 ```csharp
-public Line(IEnumerable<Code> codigos);
+public Line(IEnumerable<Code> codigos)
 ```
 
-### Parámetros
+Crea una línea con los códigos de `codigos`, en el orden de la enumeración. Una enumeración vacía crea una línea sin códigos.
 
-`codes` [IEnumerable&lt;Code&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-5.0)  
-Códigos a asignar al nuevo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md).
+| Parámetro | Descripción |
+| :--- | :--- |
+| `codigos` | Códigos de la línea. |
 
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)y le asigna los códigos _020400_ y _ABCDE_.
+| Excepción | Cuándo |
+| :--- | :--- |
+| `NullReferenceException` | `codigos` es `null`. |
 
 ```csharp
 var línea = new Line(new[]
 {
     new Code("020400"),
-    new Code("ABCDE")
-};
+    new Code("ABCDE"),
+});
 ```
-
-## 
-
-
-
