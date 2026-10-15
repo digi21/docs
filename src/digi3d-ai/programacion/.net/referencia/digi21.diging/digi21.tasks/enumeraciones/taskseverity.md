@@ -1,24 +1,23 @@
 # TaskSeverity
 <!-- id: taskseverity -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta enumeración define los tipos de gravedad de un [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/).
+Gravedad de una tarea ([ITask.Severity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/severity.md)). El panel de tareas muestra un icono distinto para cada valor.
 
 ```csharp
 public enum TaskSeverity
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-5.0)→ TaskSeverity
+## Valores
 
-## Campos
-
-|  |  |  |
+| Valor | Número | Significado |
 | :--- | :--- | :--- |
-| Error | 0 | La tarea representa un error. |
-| Warning | 1 | La tarea representa una advertencia. |
-| Message | 2 | La tarea representa un mensaje. |
+| `Error` | 0 | Error. Es el valor por defecto de la enumeración y el de `TaskBase.Severity` si el constructor no recibe la gravedad. |
+| `Warning` | 1 | Advertencia. |
+| `Message` | 2 | Mensaje informativo. |
 
-## 
+## Ejemplo
 
+El [ejemplo de TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/#ejemplo) crea tareas con los tres valores.
