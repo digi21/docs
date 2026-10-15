@@ -1955,6 +1955,7 @@
           * [DgnBlockCriteria](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgnblockcriteria.md)
         * [Digi21.DigiNG.IO.Dwg](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/README.md)
           * [Dwg](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwg.md)
+          * [DwgParameters](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwgparameters.md)
         * [Digi21.CoordinateSystems](digi3d-ai/programacion/.net/referencia/digi21.coordinatesystems/README.md)
           * [CoordinateSystem](digi3d-ai/programacion/.net/referencia/digi21.coordinatesystems/coordinatesystem.md)
           * [CoordinateTransformation](digi3d-ai/programacion/.net/referencia/digi21.coordinatesystems/coordinatetransformation.md)
