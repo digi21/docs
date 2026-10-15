@@ -1913,7 +1913,6 @@
         * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/README.md)
           * [ClosedLoop](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/closedloop.md)
           * [ClosedLoopWithHoles](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/closedloopwithholes.md)
-          * [ComparadorPoint2DRango](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/comparadorpoint2drango.md)
           * [DuplicityDetector](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/duplicitydetector.md)
           * [IntersectionDetector](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/intersectiondetector.md)
           * [NodeDetector](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/nodedetector.md)
