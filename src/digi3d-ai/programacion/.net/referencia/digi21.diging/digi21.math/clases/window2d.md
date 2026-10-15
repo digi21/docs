@@ -201,7 +201,7 @@ public static Window2D Union(IWindow3D window, double xMin, double xMax, double 
 
 Devuelve el rectángulo que contiene `window` y el punto, o `window` y el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`). Lanza `InvalidOperationException` si `Xmin` de `window` es `null`: a diferencia del método `Union` de instancia, estas sobrecargas no aceptan una ventana no inicializada.
 
-> En la versión 26.0.0, si `Xmin` de la primera ventana vale exactamente `0`, las sobrecargas estáticas de `Union` descartan esa ventana y devuelven solo el punto, el rectángulo o la segunda ventana. Para una ventana que puede tener `Xmin` igual a 0, usa el método `Union` de instancia sobre una copia.
+> En la versión 26.0.0, si `Xmin` de la primera ventana vale exactamente `0`, las sobrecargas estáticas de `Union` descartan esa ventana y devuelven solo el punto, el rectángulo o la segunda ventana. `Union(Window2D, Window2D)` también lo hace, porque llama a esas sobrecargas. Para una ventana que puede tener `Xmin` igual a 0, usa el método `Union` de instancia sobre una copia.
 
 ### Intersection
 
