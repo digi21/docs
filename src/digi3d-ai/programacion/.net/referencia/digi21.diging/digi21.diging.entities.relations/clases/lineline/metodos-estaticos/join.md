@@ -2,26 +2,33 @@
 <!-- id: join-3 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si las dos [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) se unen.
+Indica si las dos líneas se tocan en un vértice intermedio común, sin compartir lados ni cruzarse.
 
-![L&#xED;nea se une con l&#xED;nea](../../../../../../../../../images/lineaunelinea.png)
+![Línea se une con línea](../../../../../../../../../images/lineaunelinea.png)
 
 ```csharp
 public static bool Join(ReadOnlyLine a, ReadOnlyLine b)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primera línea, de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
+| `b` | Segunda línea. |
 
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Primera línea.
+## Valor devuelto
 
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)  
-Segunda línea.
+`true` si se cumplen las tres condiciones:
 
-## Devuelve
+* Un vértice intermedio de `a` coincide con un vértice intermedio de `b`.
+* Las líneas no comparten ningún lado: no hay dos vértices consecutivos de `a` que coincidan con dos vértices consecutivos de `b`.
+* Las líneas no se cruzan en el primer vértice intermedio de `a` que coincide con un vértice intermedio de `b`, con el criterio de [Across](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/lineline/metodos-estaticos/across.md). Los demás vértices comunes no se analizan.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si las líneas se unen.
+Si las líneas solo coinciden en sus extremos, el método devuelve `false`; para ese caso usa [EndpointJoinEndpoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/lineline/metodos-estaticos/endpointjoinendpoint.md) o [EndpointJoinExcludingEndpoints](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/lineline/metodos-estaticos/endpointjoinexcludingendpoints.md).
 
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
