@@ -20,4 +20,5 @@ A continuación, el listado de paquetes NuGet:
 * [Digi21.DigiNG.IO.BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/)
 * [Digi21.DigiNG.IO.Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/)
 * [Digi21.DigiNG.IO.Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/)
+* [Digi21.DigiNG.IO.Dgn](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/) y [Digi21.DigiNG.IO.Dwg](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/): ensamblados que instala Digi3D.AI y que no tienen paquete NuGet.
 
