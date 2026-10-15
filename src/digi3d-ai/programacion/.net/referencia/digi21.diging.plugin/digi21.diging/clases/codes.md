@@ -10,7 +10,7 @@ Códigos activos de la ventana de dibujo, cuadros de diálogo para seleccionar c
 public class Codes
 ```
 
-La clase no tiene constructores públicos. El objeto se obtiene con la propiedad estática [DigiNG.Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), que lanza `NullReferenceException` si no hay ninguna ventana de dibujo abierta. El objeto queda ligado a la ventana de dibujo activa en el momento de obtenerlo: cuando esa ventana se cierra, todos los miembros lanzan `ObjectDisposedException`.
+La clase no tiene constructores públicos. El objeto se obtiene con la propiedad estática [DigiNG.Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), que lanza `NullReferenceException` si no hay ninguna ventana de dibujo abierta. Mientras se cierra la ventana de dibujo activa (por ejemplo, dentro de un manejador de `DestroyingWindow` o del evento `Disposing` de una orden), la ventana ya no tiene documento, y los métodos que lo usan lanzan `NullReferenceException`. El objeto queda ligado a la ventana de dibujo activa en el momento de obtenerlo: cuando esa ventana se cierra, todos los miembros lanzan `ObjectDisposedException`.
 
 Los códigos se representan con la estructura [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). Los métodos buscan cada código por su nombre en la [tabla de códigos](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/) de la ventana de dibujo.
 

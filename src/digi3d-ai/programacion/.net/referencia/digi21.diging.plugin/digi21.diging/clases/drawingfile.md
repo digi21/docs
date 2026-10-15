@@ -57,6 +57,7 @@ Excepciones de `Add`, `Delete` y `Undelete`:
 | `ArgumentNullException` | `entity` o `entities` es `null`. Las sobrecargas de `Delete` y `Undelete` que reciben `IEnumerable<Entity>` no comprueban si `entities` es `null`. |
 | `InvalidOperationException` | La entidad pertenece a otro archivo (su `Owner` es otro archivo). Para copiar una entidad de un archivo a otro, añade la copia que devuelve `Clone()`. En las sobrecargas que reciben `IEnumerable<Entity>`, la excepción se lanza antes de modificar la ventana de dibujo. |
 | `ObjectDisposedException` | Se ha llamado a `Dispose`, Digi3D.AI ya ha cerrado el archivo o la ventana de dibujo se ha cerrado. |
+| `NullReferenceException` | La ventana de dibujo activa se está cerrando y ya no tiene documento (por ejemplo, dentro de un manejador de `DestroyingWindow` o del evento `Disposing` de una orden). Afecta a `Add`, `Delete`, `Undelete`, `Compress` y `Backup`. |
 
 ## Eventos
 
