@@ -1923,6 +1923,7 @@
         * [Digi21.Utilities](digi3d-ai/programacion/.net/referencia/digi21.utilities/README.md)
           * [IListExtension](digi3d-ai/programacion/.net/referencia/digi21.utilities/ilistextension.md)
           * [IReadOnlyDrawingFileExtension](digi3d-ai/programacion/.net/referencia/digi21.utilities/ireadonlydrawingfileextension.md)
+          * [MemoryDrawingFile](digi3d-ai/programacion/.net/referencia/digi21.utilities/memorydrawingfile.md)
         * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
         * [Digi21.DigiNG.IO.Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/README.md)
           * [Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
