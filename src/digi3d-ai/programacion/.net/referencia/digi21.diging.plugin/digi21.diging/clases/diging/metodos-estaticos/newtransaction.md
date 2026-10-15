@@ -10,7 +10,7 @@ Abre una transacción nueva en la pila de deshacer de la ventana de dibujo activ
 public static void NewTransaction(bool finishCurrentTransaction = true)
 ```
 
-El valor por defecto `true` está declarado en el paquete NuGet: con el paquete, el compilador de C# convierte `NewTransaction()` en `NewTransaction(true)`. El ensamblado instalado con Digi3D.AI declara el parámetro sin valor por defecto, así que un proyecto que referencia directamente ese ensamblado tiene que pasar el argumento.
+El parámetro es opcional: el compilador de C# convierte `NewTransaction()` en `NewTransaction(true)`.
 
 ## Parámetros
 
