@@ -42,8 +42,8 @@ if (args.Length != 1)
     return 1;
 }
 
-// Abre el archivo en solo lectura, con 3 decimales y sin desplazamiento de origen.
-using var archivo = new Bin(args[0], 3, new Point3D(0, 0, 0), true);
+// Abre el archivo en solo lectura, con 2 decimales y sin desplazamiento de origen.
+using var archivo = new Bin(args[0], 2, new Point3D(0, 0, 0), true);
 
 var total = 0;
 foreach (var entidad in archivo)
@@ -72,7 +72,7 @@ return 0;
 
 El programa:
 
-- abre el archivo con la clase `Bin`. El último argumento, `true`, lo abre en solo lectura;
+- abre el archivo con la clase [`Bin`](referencia/digi21.diging.io.bin/bin.md). El último argumento, `true`, lo abre en solo lectura. En la versión 26.0.0 los archivos `.bin` se leen siempre con 2 decimales y origen (0, 0, 0), con independencia de los dos argumentos anteriores;
 - recorre las entidades con `foreach`, porque un archivo de dibujo es una colección de entidades (`IEnumerable<Entity>`);
 - salta las entidades eliminadas, que siguen en el archivo marcadas con `Deleted`;
 - según el tipo de cada entidad (línea, polígono, punto, texto o complejo), muestra sus códigos y un dato de la geometría.
