@@ -1,33 +1,66 @@
 # ReadOnlyComplex
 <!-- id: readonlycomplex -->
 
-
-
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta clase implementa una geometría de tipo Complejo \(que es una geometría compuesta por una colección de geometrías\) de solo lectura.
+Complejo de solo lectura: una entidad con sus propios códigos formada por otras entidades. Es el tipo de los complejos que devuelven los archivos de dibujo al recorrer sus entidades.
 
 ```csharp
 public class ReadOnlyComplex : Entity
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) → ReadOnlyComplex
+Herencia: `Object` → [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) → `ReadOnlyComplex`
 
-Tipos derivados: [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/)
+Tipos derivados: [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/).
+
+Implementa: las interfaces de `Entity`. A diferencia de las líneas y los polígonos, un complejo no implementa `ISnapable`, `IClippable` ni `ITrimable`.
+
+La clase no tiene constructores públicos. Para crear un complejo, usa [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/).
+
+Los miembros heredados de `Entity` se describen en [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
 
 ## Propiedades
 
-|  |  |
+| Propiedad | Descripción |
 | :--- | :--- |
-| [Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/propiedades/entities.md). |
+| [`IEnumerable<Entity> Entities { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/propiedades/entities.md) | Entidades del complejo. En la versión 26.0.0 lanza `InvalidCastException`; lee la página de la propiedad. |
 
 ## Métodos
 
-|  |  |
+| Método | Descripción |
 | :--- | :--- |
-| [Clone\(\)](metodos/clone.md) | Devuelve una nueva instancia de [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/) de manera que no es de solo lectura. |
-| ToString | Convierte este [ReadOnlyComplex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/) en una cadena legible para los humanos. |
+| [`Complex Clone()`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/metodos/clone.md) | Copia de lectura y escritura del complejo, con una copia de cada entidad. |
+| `string ToString()` | Texto localizado con el tipo y los datos de `Entity`. No incluye las entidades del complejo. |
 
+## Ejemplo
 
+Este programa lista los complejos de un archivo `.bind` con el tipo y el código de cada una de sus entidades:
 
+```csharp
+using Digi21.DigiNG.Entities;
+using Digi21.DigiNG.IO.BinDouble;
+
+if (args.Length != 1)
+{
+    Console.WriteLine("Uso: LeeComplejos <entrada.bind>");
+    return 1;
+}
+
+using var entrada = new BinDouble(args[0], new DatabaseConnectionProperties(), true);
+
+foreach (var entidad in entrada)
+{
+    if (entidad.Deleted || entidad is not ReadOnlyComplex complejo)
+        continue;
+
+    Console.WriteLine($"Complejo {complejo.Codes[0].Name}");
+
+    // ReadOnlyComplex.Entities lanza InvalidCastException en la versión 26.0.0:
+    // se recorren las entidades de la copia que devuelve Clone().
+    foreach (var parte in complejo.Clone().Entities)
+        Console.WriteLine($"  {parte.GetType().Name} {parte.Codes[0].Name}");
+}
+
+return 0;
+```
