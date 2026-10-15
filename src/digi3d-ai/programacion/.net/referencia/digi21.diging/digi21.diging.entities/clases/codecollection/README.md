@@ -36,10 +36,10 @@ Si la entidad es de solo lectura (pertenece a un archivo de dibujo), los método
 | `void Add(Code item)` | Añade el código al final. |
 | `void Insert(int index, Code item)` | Inserta el código en la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor que `Count`. |
 | `void Clear()` | Quita todos los códigos. |
-| `bool Remove(Code item)` | Quita de la entidad el primer código cuyo nombre coincide con `item.Name` según [Code.Compare](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/metodos-estaticos/compare.md) (lee la nota de este apartado). Devuelve `false` si ningún nombre coincide. |
+| `bool Remove(Code item)` | Quita de la colección y de la entidad el código de la posición que devuelve `IndexOf(item)`: el primero cuyo nombre coincide con `item.Name` según [Code.Compare](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/metodos-estaticos/compare.md). Devuelve `false` si ningún nombre coincide. |
 | `void RemoveAt(int index)` | Quita el código de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
 | `int IndexOf(Code item)` | Posición del primer código cuyo nombre coincide con `item.Name` según `Code.Compare`, con los comodines `*` y `?`. Devuelve `-1` si ninguno coincide. No compara `Table` ni `Id`. |
-| `bool Contains(Code item)` | `true` si la colección contiene un código igual a `item` según `Code.Equals`, que compara todos los campos, también la referencia de `Attributes`. Un `Code` creado con el mismo nombre que un código de la colección no lo contiene. |
+| `bool Contains(Code item)` | `true` si `IndexOf(item)` no devuelve `-1`: compara el nombre, con los comodines `*` y `?`, y no compara `Table`, `Id` ni `Attributes`. |
 | `void CopyTo(Code[] array, int arrayIndex)` | Copia los códigos en `array` a partir de `arrayIndex`. |
 | `IEnumerator<Code> GetEnumerator()` | Enumerador de los códigos. |
 
@@ -48,8 +48,6 @@ Excepciones de los métodos que modifican la colección (`Add`, `Insert`, `Clear
 | Excepción | Cuándo |
 | :--- | :--- |
 | `InvalidOperationException` | La entidad es de solo lectura. |
-
-> En la versión 26.0.0, `Remove` quita el código de la entidad por su nombre (`IndexOf`) y después quita el código de la copia que guarda la colección con `Code.Equals`. Si `item` no es la misma instancia que se añadió (por ejemplo, un `Code` nuevo con el mismo nombre), la entidad pierde el código, la colección lo sigue mostrando y `Remove` devuelve `false`. Para quitar un código por su nombre, usa `RemoveAt(IndexOf(código))`.
 
 ## Ejemplo
 
@@ -87,7 +85,7 @@ línea.Codes.RemoveAt(0);
 foreach (var c in línea.Codes)
     Console.WriteLine($"{c.Name} {c.Visible:X8}");          // 020400 00000000, 040100 FFFFFFFF
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(línea);
 
 // La línea ya pertenece al archivo: la colección es de solo lectura.
