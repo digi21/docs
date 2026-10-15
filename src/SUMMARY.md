@@ -1580,7 +1580,6 @@
                 * [Propiedades](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/README.md)
                   * [Coordinate](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/coordinate.md)
                   * [Rotation](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md)
-                * [Métodos](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/metodos.md)
               * [Polygon](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/README.md)
                 * [Constructores](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/constructores.md)
                 * [Propiedades](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/propiedades/README.md)
