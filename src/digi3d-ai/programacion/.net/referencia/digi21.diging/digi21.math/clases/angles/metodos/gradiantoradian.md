@@ -1,33 +1,29 @@
 # GradianToRadian
 <!-- id: gradiantoradian -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Transforma un ángulo centesimal a radián.
+Convierte un ángulo de grados centesimales a radianes. Método de [Angles](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/).
 
 ```csharp
-public static double GradianToRadian(this double gradian);
+public static double GradianToRadian(this double gradian)
 ```
+
+El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.GradianToRadian(valor)`.
 
 ## Parámetros
 
-`gradian`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo en centesimal a transformar.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `gradian` | Ángulo en grados centesimales. |
 
 ## Devuelve
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Valor transformado en radianes.
+`gradian * π / 200`. El resultado no se normaliza.
 
-## Ejemplos
-
-El siguiente ejemplo solicita al usuario un ángulo en centesimal y lo muestra en radianes:
+## Ejemplo
 
 ```csharp
-Console.Write("Introduce un ángulo en centesimal: ");
-var centesimal = double.Parse(Console.Read());
-
-Console.WriteLine($"Radianes: {Angles.GradianToRadian(centesimal)}");
+Console.WriteLine(Angles.GradianToRadian(100.0)); // π/2
 ```
-

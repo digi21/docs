@@ -1,57 +1,36 @@
 # RotationsToMatrix
 <!-- id: rotationstomatrix -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Crea una matriz de Euler a partir de ángulos Omega, Phi, Kappa.
+Calcula la matriz de giro de 3 × 3 de los giros omega (eje X), phi (eje Y) y kappa (eje Z). Método de [Angles](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/).
 
 ```csharp
-public static void RotationsToMatrix(double omega, double phi, double kappa, out double[,] eulerMatrix);
+public static void RotationsToMatrix(double omega, double phi, double kappa, out double[,] eulerMatrix)
 ```
 
 ## Parámetros
 
-`omega`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo _Omega_ en radianes.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `omega` | Giro alrededor del eje X, en radianes. |
+| `phi` | Giro alrededor del eje Y, en radianes. |
+| `kappa` | Giro alrededor del eje Z, en radianes. |
+| `eulerMatrix` | Matriz nueva de 3 × 3 con los elementos siguientes (ω = `omega`, φ = `phi`, κ = `kappa`). |
 
-`phi`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo _Phi_ en radianes.
+| | Columna 0 | Columna 1 | Columna 2 |
+| :--- | :--- | :--- | :--- |
+| Fila 0 | cos φ · cos κ | cos ω · sin κ + sin ω · sin φ · cos κ | sin ω · sin κ − cos ω · sin φ · cos κ |
+| Fila 1 | −cos φ · sin κ | cos ω · cos κ − sin ω · sin φ · sin κ | sin ω · cos κ + cos ω · sin φ · sin κ |
+| Fila 2 | sin φ | −sin ω · cos φ | cos ω · cos φ |
 
-`kappa`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo _Kappa_ en radianes.
+El índice `eulerMatrix[fila, columna]` sigue la tabla. [MatrixToRotations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/matrixtorotations.md) hace la operación inversa.
 
-`eulerMatrix`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Parámetro de salida en el que se almacenará la matriz de Euler.
-
-## Ejemplos
-
-El siguiente ejemplo solicita al usuario tres ángulos \(omega, phi y kappa\), crea una matriz de Euler y luego extrae estos ángulos y los imprime en la consola.
+## Ejemplo
 
 ```csharp
-Console.Write("Omega: ");
-var omega = double.Parse(Console.Read());
-
-Console.Write("Phi: ");
-var phi = double.Parse(Console.Read());
-
-Console.Write("Kappa: ");
-var kappa = double.Parse(Console.Read());
-
-Angles.RotationsToMatrix(
-    Angles.SexagesimalToRadian(omega),
-    Angles.SexagesimalToRadian(phi),
-    Angles.SexagesimalToRadian(kappa),
-    out var euler);
-
-Angles.MatrixToRotations(
-    euler,
-    out omega,
-    out phi,
-    out kappa);
-
-Console.WriteLine($"Omega: {Angles.RadianToSexagesimal(omega)}");
-Console.WriteLine($"Phi: {Angles.RadianToSexagesimal(phi)}");
-Console.WriteLine($"Kappa: {Angles.RadianToSexagesimal(kappa)}");
+Angles.RotationsToMatrix(0.0, 0.0, Math.PI / 2, out var matriz);
+// matriz[0, 0] ≈ 0, matriz[0, 1] = 1, matriz[1, 0] = -1
+Console.WriteLine($"{matriz[0, 0]} {matriz[0, 1]} {matriz[1, 0]}");
 ```
-

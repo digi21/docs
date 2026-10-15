@@ -1,49 +1,35 @@
 # SexagesimalToDMS
 <!-- id: sexagesimaltodms -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Extrae Grados, Minutos, Segundos a partir de una fracción decimal.
+Descompone un ángulo en grados sexagesimales con fracción decimal en grados, minutos, segundos y signo. Método de [Angles](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/).
 
 ```csharp
-public static void SexagesimalToDMS(this double sexagesimal, out int degrees, out int minutes, out double seconds, out bool east);
+public static void SexagesimalToDMS(this double sexagesimal, out int degrees, out int minutes, out double seconds, out bool east)
 ```
+
+El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.SexagesimalToDMS(valor, out …)`.
 
 ## Parámetros
 
-`sexagesimal`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo en sexagesimal a partir del cual se calculará el resto de parámetros.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `sexagesimal` | Ángulo en grados sexagesimales con fracción decimal. |
+| `degrees` | Parte entera de \|`sexagesimal`\|. |
+| `minutes` | Parte entera de los minutos de \|`sexagesimal`\|, entre 0 y 59. |
+| `seconds` | Segundos restantes, con fracción decimal. |
+| `east` | `true` si `sexagesimal` es mayor que 0. Con `sexagesimal` igual a 0 vale `false`. |
 
-`degrees`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Parámetro de salida en el que se almacenarán los grados.
+`degrees`, `minutes` y `seconds` son siempre positivos o 0: el signo se devuelve en `east`. Para longitudes, `true` significa este; para latitudes, norte.
 
-`minutes`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Parámetro de salida en el que se almacenarán los minutos.
+Los segundos arrastran el error de redondeo de la fracción decimal: 3,7025° devuelve 8,99999… segundos en lugar de 9. Redondea `seconds` al número de decimales que muestres.
 
-`seconds`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Parámetro de salida en el que se almacenarán los segundos.
-
-`east`[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Parámetro de salida en el que se almacenará un verdadero si el ángulo original era positivo y por lo tanto si es longitud está al este y si es latitud estará al norte.
-
-## Devuelve
-
-Este método no devuelve ningún valor.
-
-## Ejemplos
-
-El siguiente ejemplo solicita al usuario una posición de latitud y muestra en la consola el valor calculado:
+## Ejemplo
 
 ```csharp
-Console.Write("Latitud: ");
-var latitud = double.Parse(Console.ReadLine());
-
-Angles.SexagesimalToDMS(latitud, out var grados, out var minutos, out var segundos, out var norte);
-
-Console.WriteLine($"Grados: {grado}");
-Console.WriteLine($"Minutos: {minutos}");
-Console.WriteLine($"Segundos: {segundos}");
-Console.WriteLine(norte ? "Norte" : "Sur");
+Angles.SexagesimalToDMS(-3.7025, out var grados, out var minutos, out var segundos, out var positivo);
+// grados = 3, minutos = 42, segundos ≈ 9, positivo = false
+Console.WriteLine($"{grados} {minutos} {segundos} {positivo}");
 ```
-

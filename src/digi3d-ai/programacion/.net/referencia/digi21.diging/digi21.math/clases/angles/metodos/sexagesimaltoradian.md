@@ -1,33 +1,29 @@
 # SexagesimalToRadian
 <!-- id: sexagesimaltoradian -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Transforma un ángulo sexagesimal a radianes.
+Convierte un ángulo de grados sexagesimales con fracción decimal a radianes. Método de [Angles](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/).
 
 ```csharp
-public static double SexagesimalToRadian(this double sexagesimal);
+public static double SexagesimalToRadian(this double sexagesimal)
 ```
+
+El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.SexagesimalToRadian(valor)`.
 
 ## Parámetros
 
-`sexagesimal`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo sexagesimal para transformar.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `sexagesimal` | Ángulo en grados sexagesimales con fracción decimal (por ejemplo, 30,5 para 30° 30'). Para convertir grados, minutos y segundos, usa antes [DMSToSexagesimal](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/dmstosexagesimal.md). |
 
 ## Devuelve
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Valor transformado en radianes.
+`sexagesimal * π / 180`. El resultado no se normaliza.
 
-## Ejemplos
-
-El siguiente ejemplo solicita al usuario un ángulo en sexagesimal y lo muestra en radianes:
+## Ejemplo
 
 ```csharp
-Console.Write("Introduce un ángulo en sexagesimal: ");
-var sexagesimal = double.Parse(Console.Read());
-
-Console.WriteLine($"Centesimal: {Angles.SexagesimalToRadian(sexagesimal)}");
+Console.WriteLine(Angles.SexagesimalToRadian(180.0)); // π
 ```
-
