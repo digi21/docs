@@ -1925,6 +1925,7 @@
           * [IReadOnlyDrawingFileExtension](digi3d-ai/programacion/.net/referencia/digi21.utilities/ireadonlydrawingfileextension.md)
           * [MemoryDrawingFile](digi3d-ai/programacion/.net/referencia/digi21.utilities/memorydrawingfile.md)
           * [UtilidadesDigiNG](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadesdiging.md)
+          * [UtilidadesEntity](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadesentity.md)
         * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
         * [Digi21.DigiNG.IO.Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/README.md)
           * [Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
