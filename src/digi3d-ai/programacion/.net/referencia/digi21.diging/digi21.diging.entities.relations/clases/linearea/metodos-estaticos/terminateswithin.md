@@ -1,58 +1,38 @@
 # TerminatesWithin
 <!-- id: terminateswithin -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si uno de los extremos de la línea está dentro del área.
+Indica si la línea entra en el área desde fuera y termina dentro de ella.
 
 ![Línea termina en área](../../../../../../../../../images/lineaterminaenarea.png)
 
-## Sobrecargas
-
-|                                                                                                                      |                                                                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [TerminatesWithin(ReadOnlyLine, ReadOnlyLine)](terminateswithin.md#terminateswithin-readonlyline-readonlyline)       | Indica si uno de los extremos de la línea finaliza dentro del área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).       |
-| [TerminatesWithin(ReadOnlyLine, ReadOnlyPolygon)](terminateswithin.md#terminateswithin-readonlyline-readonlypolygon) | Indica si uno de los extremos de la línea finaliza dentro del área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
-
-## TerminatesWithin(ReadOnlyLine, ReadOnlyLine)
-
-Indica si uno de los extremos de la línea finaliza dentro del área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
-
 ```csharp
 public static bool TerminatesWithin(ReadOnlyLine line, ReadOnlyLine area)
-```
-
-### Parámetros
-
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
-
-`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea finaliza dentro del área.
-
-## TerminatesWithin(ReadOnlyLine, ReadOnlyPolygon)
-
-Indica si uno de los extremos de la línea finaliza dentro del área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
-
-```csharp
 public static bool TerminatesWithin(ReadOnlyLine line, ReadOnlyPolygon area)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `line` | Línea. |
+| `area` | Área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
+## Valor devuelto
 
-`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Área.
+`true` si se cumplen las dos condiciones:
 
-## Devuelve
+* Al menos un vértice de la línea está fuera del área. Un vértice dentro de un hueco de un polígono está fuera.
+* El primer o el último vértice de la línea está dentro del área.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea finaliza dentro del área.
+Los vértices situados sobre el borde no cuentan como dentro ni como fuera. Una línea con los dos extremos dentro y algún vértice intermedio fuera también devuelve `true`.
+
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `line` o `area` es `null`. |
+
+## Ejemplo
+
+Lee el [ejemplo de LineArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/#ejemplo).

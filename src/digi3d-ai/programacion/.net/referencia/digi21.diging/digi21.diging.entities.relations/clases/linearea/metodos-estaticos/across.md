@@ -1,61 +1,42 @@
 # Across
 <!-- id: across -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si la línea cruza el área.
+Indica si la línea cruza el área: entra por un punto del borde y sale por otro pasando por el interior.
 
 ![Línea que cruza área](../../../../../../../../../images/lineacruzaarea.png)
 
 ![Línea que cruza área](../../../../../../../../../images/lineacruzaarea2.png)
 
-## Sobrecargas
-
-|                                                                                        |                                                                                                                         |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Across(ReadOnlyLine, ReadOnlyLine)](across.md#across-readonlyline-readonlyline)       | Indica si la línea cruza el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).       |
-| [Across(ReadOnlyLine, ReadOnlyPolygon)](across.md#across-readonlyline-readonlypolygon) | Indica si la línea cruza el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
-
-## Across(ReadOnlyLine, ReadOnlyLine)
-
-Indica si la línea cruza el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
-
 ```csharp
 public static bool Across(ReadOnlyLine line, ReadOnlyLine area)
+public static bool Across(ReadOnlyLine line, ReadOnlyPolygon area)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `line` | Línea. |
+| `area` | Área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
+## Valor devuelto
 
-`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Área.
+El método recorre los vértices de `line` y toma los que están sobre el borde del área (sobre un vértice o sobre un lado). Para cada dos de esos vértices consecutivos en el recorrido, con índices `i` y `j` (`i < j`), comprueba un punto de la línea:
 
-## Devuelve
+* Si `j = i + 1`, el punto medio del lado de la línea entre los dos vértices.
+* Si no, el vértice `j - 1`.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea cruza el área.
+Devuelve `true` en cuanto uno de esos puntos está dentro del área. Con un `ReadOnlyPolygon`, el borde incluye los huecos y un punto dentro de un hueco no está dentro del área.
 
-## Across(ReadOnlyLine, ReadOnlyPolygon)
+Una línea que cruza el borde sin tener un vértice sobre él no se detecta. Tampoco se detecta una línea que tiene un solo vértice sobre el borde.
 
-Indica si la línea cruza el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
+## Excepciones
 
-```csharp
- public static bool Across(ReadOnlyLine line, ReadOnlyPolygon area)
-```
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `line` o `area` es `null`. |
 
-### Parámetros
+## Ejemplo
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
-
-`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea cruza el área.
-
+Lee el [ejemplo de LineArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/#ejemplo).
