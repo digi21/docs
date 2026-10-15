@@ -29,7 +29,6 @@ dotnet add package Digi21.DigiNG.Plugin --version 26.0.0
 | [Digi21.DigiNG.Plugin.Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/README.md) | Órdenes: clase base `Command`, atributos de registro y datos de los eventos. |
 | [Digi21.DigiNG.Plugin.Databases](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.databases/README.md) | Propiedades dinámicas: valores por defecto de campos de base de datos calculados por la extensión. |
 | [Digi21.DigiNG.Plugin.Menu](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.menu/README.md) | Opciones del menú de la ventana de dibujo que ejecutan órdenes de la extensión. |
-| [Digi21.DigiNG.Plugin.QualityControl](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/README.md) | Interfaz y excepciones de control de calidad. Digi3D.AI no las usa en la versión 26.0.0. |
 | [Digi21.DigiNG.Plugin.Search](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.search/README.md) | Buscadores del panel de búsqueda. |
 | [Digi21.DigiNG.Plugin.TaskPanel](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.taskpanel/README.md) | Tareas del panel de tareas. |
 
