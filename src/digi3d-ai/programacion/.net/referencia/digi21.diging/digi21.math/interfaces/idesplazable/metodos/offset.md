@@ -22,7 +22,7 @@ void Offset(double x, double y, double z);
 
 Las cuatro sobrecargas tienen el mismo efecto con el mismo incremento: `Offset(new Point2D(x, y))`, `Offset(x, y)` y `Offset(x, y, 0)` son equivalentes.
 
-`Point2D` y `Window2D` ignoran el incremento en Z. En `Line`, `Point` y `Text`, `Offset` recalcula las coordenadas mínimas y máximas de la entidad.
+`Point2D` y `Window2D` ignoran el incremento en Z. En `Line`, `Point` y `Text`, `Offset` recalcula las coordenadas mínimas y máximas de la entidad y las de cada entidad que la contiene (el complejo del que forma parte o el polígono del que es un hueco).
 
 ## Excepciones
 
