@@ -27,7 +27,7 @@ public LocalizableCommandInMenuAttribute(Type resourceManagerProvider, string ti
 
 El constructor lanza `ArgumentException` si `resourceManagerProvider` no tiene una propiedad estática no pública de tipo `ResourceManager` o si el recurso no contiene la clave `titleResource`.
 
-Digi3D.AI crea el atributo cada vez que el usuario abre el submenú de la posición `group`, no al cargar la extensión. En la versión 26.0.0, Digi3D.AI no captura la `ArgumentException` del constructor en ese momento: comprueba las claves de los recursos antes de distribuir la extensión.
+Digi3D.AI crea el atributo cada vez que el usuario abre el submenú de la posición `group`, no al cargar la extensión. Si el constructor lanza `ArgumentException` en ese momento, Digi3D.AI no añade la opción de esa orden al menú y escribe el mensaje de la excepción con `System.Diagnostics.Trace`.
 
 ## Ejemplo
 
