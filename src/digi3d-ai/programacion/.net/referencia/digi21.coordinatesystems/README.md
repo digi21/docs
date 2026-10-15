@@ -49,12 +49,12 @@ Console.WriteLine($"{punto.X:F3} {punto.Y:F3}");   // 440291.284 4474254.600
 
 ## Base de datos de EPSG
 
-La biblioteca necesita la base de datos de EPSG en formato SQLite que instala Digi3D.AI. Dentro de Digi3D.AI, y en un equipo con Digi3D.AI instalado, no hace falta hacer nada: la primera operación que la necesita abre la base de datos que indica la configuración de Digi3D.AI (valor `EpsgConnectionStringSqlite`) y busca las rejillas de transformación (NTv2, modelos de geoide) en la carpeta que indica el valor `OpenGisFiles`.
+La biblioteca necesita la base de datos de EPSG en formato SQLite que instala Digi3D.AI: el archivo `epsg-fiel.sqlite`, con la versión 12.057 del conjunto de datos de EPSG y las tablas del esquema oficial de EPSG (tablas `epsg_*`). El programa de instalación copia ese archivo en `C:\ProgramData\Digi3D.NET\OpenGis\`. Dentro de Digi3D.AI, y en un equipo con Digi3D.AI instalado, no hace falta hacer nada: la primera operación que necesita la base de datos abre el archivo que indica la configuración de Digi3D.AI (valor `EpsgCrsKitSqlite` de la clave `HKLM\Software\Digi21\Digi3D.NET\App\Configuration`) y busca las rejillas de transformación (NTv2, modelos de geoide) en la carpeta que indica el valor `OpenGisFiles`.
 
 Para usar otra base de datos, llama a `CoordinateSystemsLibrary.Initialize` antes de crear ningún sistema:
 
 ```csharp
-CoordinateSystemsLibrary.Initialize(@"C:\ProgramData\Digi3D.NET\OpenGis\epsg-v10_066.sqlite");
+CoordinateSystemsLibrary.Initialize(@"C:\ProgramData\Digi3D.NET\OpenGis\epsg-fiel.sqlite");
 ```
 
 | Miembro | Descripción |
