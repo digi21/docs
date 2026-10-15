@@ -1,24 +1,33 @@
 # Distance
 <!-- id: distance -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve un vector cuyo módulo es la distancia al punto más cercano a la geometría.
+Devuelve el vector desde una coordenada hasta el punto más cercano de la entidad. Es un método de [ISnapable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/).
 
 ```csharp
-Point3D Distance(Point3D coordinate);‌
+Point3D Distance(Point3D coordinate)
 ```
 
 ## Parámetros
 
-`coordinate`[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)  
-Coordenadas del punto a analizar.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `coordinate` | Coordenada de origen del vector. |
 
-## Devuelve
+## Valor devuelto
 
-[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)  
-Vector desde el punto `coordinate` al punto más cercano de la geometría.
+Un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md) con la diferencia `punto más cercano - coordinate` en X, Y y Z. `Module` es la distancia en el espacio y `Point2D.Module` la distancia en el plano XY.
 
+| Tipo | Punto más cercano |
+| :--- | :--- |
+| `ReadOnlyLine`, `Line`, `ReadOnlyPolygon`, `Polygon` | El método calcula el vértice más cercano y la proyección sobre el segmento más cercano, como [NearestVertex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestvertex.md) y [NearestSegment](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestsegment.md), y usa la proyección si existe y está más cerca en el plano XY que el vértice; si no, usa el vértice. En un polígono solo se analiza el contorno exterior. A diferencia de `NearestSegment`, no lanza una excepción si ninguna proyección cae dentro de un segmento. |
+| `ReadOnlyPoint`, `Point` | `Coordinate` del punto. |
+| `ReadOnlyText`, `Text` | `Coordinate` (punto de inserción) del texto. |
 
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | La entidad es una línea o un polígono sin vértices. |
