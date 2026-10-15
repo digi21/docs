@@ -1,22 +1,15 @@
 # Name
 <!-- id: name-2 -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el [nombre](../../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#codigo)del código.
+Nombre del código.
 
 ```csharp
-public string Name { get; set; }
+public string Name { get; }
 ```
 
 ## Valor de la propiedad
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)
-
-Nombre del código.
-
-
-
-
-
+`string`. Es el [código](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md) que se asigna a las entidades. La propiedad es de solo lectura: el nombre se indica en el constructor.

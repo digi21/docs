@@ -1,10 +1,10 @@
 # Description
 <!-- id: description -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna una [descripción](../../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#descripcion) del código.
+Descripción del código.
 
 ```csharp
 public string Description { get; set; }
@@ -12,11 +12,8 @@ public string Description { get; set; }
 
 ## Valor de la propiedad
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)
+`string` con la [descripción](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md) del código.
 
-Descripción del código.
+## Excepciones
 
-
-
-
-
+Si el objeto es de solo lectura (tabla de códigos no modificable o código ya añadido con `AddCode`), la asignación lanza `InvalidOperationException`.

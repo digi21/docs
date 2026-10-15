@@ -1,10 +1,10 @@
 # Color
 <!-- id: color-2 -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el color del código en la ventana de dibujo.
+Color del código en la ventana de dibujo.
 
 ```csharp
 public string Color { get; set; }
@@ -12,17 +12,15 @@ public string Color { get; set; }
 
 ## Valor de la propiedad
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)
+`string` con uno de estos formatos:
 
-Color de la tabla de códigos.
+| Formato | Ejemplo | Color |
+| :--- | :--- | :--- |
+| Número | `122` | Color con ese índice en la [paleta de colores](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/colores.md) de la tabla de códigos. Se usa el valor absoluto, y los valores mayores que 255 se tratan como 255. |
+| `#RRGGBBAA` | `#FF0000FF` | Componentes rojo, verde, azul y alfa (opacidad) en hexadecimal, de `00` a `FF`. |
 
-## Observaciones
+La propiedad lee y escribe la primera representación del código.
 
-Si el color es una cadena con un número entre 0 y 255 como por ejemplo `122` se utilizará el color correspondiente en la [paleta de colores](../../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/colores.md#paleta-de-colores) de la tabla de códigos.
+## Excepciones
 
-Si por el contrario es un valor en de color HTML como por ejemplo `#221345` se extraerán las componentes R, G y B del color HTML.
-
-
-
-
-
+Si el objeto es de solo lectura (tabla de códigos no modificable o código ya añadido con `AddCode`), la asignación lanza `InvalidOperationException`.
