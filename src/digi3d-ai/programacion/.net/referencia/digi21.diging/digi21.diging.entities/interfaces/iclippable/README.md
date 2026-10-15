@@ -35,7 +35,7 @@ if (args.Length != 1)
     return 1;
 }
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 
 var parcela = new Polygon(new Code("050101"));
 parcela.Points.Add(new[]
