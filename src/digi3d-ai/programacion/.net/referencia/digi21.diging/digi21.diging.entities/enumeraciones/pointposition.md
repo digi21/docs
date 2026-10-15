@@ -2,23 +2,22 @@
 <!-- id: pointposition -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta enumeración especifica la posición de una coordenada con respecto a un polígono o línea cerrada.
+Posición de una coordenada respecto a una entidad cerrada, en el plano XY. La devuelve [ICloseable.AnalyzePointPosition](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/metodos/analyzepointposition.md).
 
 ```csharp
 public enum PointPosition
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-5.0)→ PointPosition
+## Valores
 
-## Campos
+| Valor | Número | Significado |
+| :--- | ---: | :--- |
+| `Exterior` | 0 | La coordenada está fuera del recinto. En un polígono, también si está dentro de uno de sus huecos. |
+| `Interior` | 1 | La coordenada está dentro del recinto y, en un polígono, fuera de todos sus huecos. |
+| `Tangent` | 2 | La coordenada está sobre el borde del recinto o, en un polígono, sobre el borde de un hueco. |
 
-|  |  |  |
-| :--- | :--- | :--- |
-| Exterior | 0 | El punto está en el exterior del [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) |
-| Interior | 1 | El punto está en el interior del [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) |
-| Tangent | 2 | El punto está en la línea límite del [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) |
+## Ejemplo
 
-## 
-
+El [ejemplo de ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/#ejemplo) consulta la posición de tres coordenadas respecto a un polígono con un hueco: una en el interior, otra dentro del hueco y otra sobre el borde.
