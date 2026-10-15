@@ -339,6 +339,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 ### Otras órdenes inmediatas
 
 * [AGREGA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/agrega.md): Añade las coordenadas de un punto al fichero de puntos que se haya definido en la pantalla de inicio de DigiNG, o que se haya determinado con FICHERO\_P.
+* [COPIAR\_COORDENADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar-coordenadas.md): Copia al portapapeles las coordenadas de un punto digitalizado.
 * [CURSOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cursor.md): Establece el tamaño del cursor.
 * [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md): Introduce las coordenadas de uno o varios puntos.
 

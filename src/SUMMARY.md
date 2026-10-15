@@ -277,6 +277,7 @@
           * [COPIA2P](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-2p.md)
           * [COPIAR](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md)
           * [COPIAR\_CENTROIDE\_I](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar-centroide-i.md)
+          * [COPIAR\_COORDENADAS](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar-coordenadas.md)
           * [COPIA\_ATRIBUTO\_BBDD\_ENTIDAD\_EN\_ENTIDAD](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-atributo-bbdd-entidad-en-entidad.md)
           * [COPIA\_R](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-r.md)
           * [CORTAR\_E](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-e.md)
