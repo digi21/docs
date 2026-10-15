@@ -63,7 +63,7 @@ Consecuencias de analizar solo vértices:
 | [Disjoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/disjoint.md) | `true` si las dos áreas son disjuntas. |
 | [Equal](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/equal.md) | `true` si las dos áreas son iguales. |
 | [Join](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/join.md) | `true` si las dos áreas solo se tocan en vértices comunes, sin lados comunes. |
-| [OuterRingAdjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/outerringadjacent.md) | Mismo resultado que `Adjacent`. |
+| [OuterRingAdjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/outerringadjacent.md) | Resultado de `Adjacent` con el anillo exterior de cada polígono, sin los huecos. |
 | [Overlap](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/overlap.md) | `true` si las dos áreas se solapan. Devuelve además un vértice de un área que está dentro de la otra. |
 | [Within](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/within.md) | `true` si la primera área está dentro de la segunda con al menos un vértice común. |
 
@@ -111,7 +111,7 @@ Console.WriteLine($"CompletelyWithin(a, d): {AreaArea.CompletelyWithin(a, d)}");
 if (AreaArea.Overlap(a, c, out var vértice))
     Console.WriteLine($"a y c se solapan; vértice de a dentro de c: ({vértice.X}, {vértice.Y})"); // (10, 10)
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(a);
 archivo.Add(b);
 archivo.Add(c);

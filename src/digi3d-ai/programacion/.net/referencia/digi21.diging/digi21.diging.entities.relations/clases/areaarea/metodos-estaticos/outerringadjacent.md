@@ -21,9 +21,7 @@ public static bool OuterRingAdjacent(ReadOnlyPolygon a, ReadOnlyPolygon b)
 
 ## Valor devuelto
 
-El mismo valor que [Adjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/adjacent.md) con los mismos argumentos.
-
-> En la versión 26.0.0, `OuterRingAdjacent` llama al mismo código que `Adjacent`: también tiene en cuenta los huecos de los polígonos. Un área adyacente a un hueco de un polígono devuelve `true`, aunque el nombre del método indique que solo se analiza el anillo exterior.
+El valor que devuelve [Adjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/adjacent.md) si cada `ReadOnlyPolygon` se sustituye por una línea cerrada con los vértices de su anillo exterior. Los huecos de los polígonos no intervienen: un área adyacente solo a un hueco de un polígono no es adyacente a ese polígono.
 
 ## Excepciones
 
