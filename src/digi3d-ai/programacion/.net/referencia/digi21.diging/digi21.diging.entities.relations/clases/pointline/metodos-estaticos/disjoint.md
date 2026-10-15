@@ -2,26 +2,33 @@
 <!-- id: disjoint-5 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
 Indica si el punto y la línea son disjuntos.
 
-![Punto y l&#xED;nea disjuntos](../../../../../../../../../images/puntolineanocoincidentes.png)
+![Punto y línea disjuntos](../../../../../../../../../images/puntolineanocoincidentes.png)
 
 ```csharp
 public static bool Disjoint(ReadOnlyPoint point, ReadOnlyLine line)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `point` | Punto, de tipo [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| `line` | Línea, de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
 
-`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Punto.
+## Valor devuelto
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Línea.
+`true` si la coordenada del punto no coincide con ningún vértice de la línea, extremos incluidos. Un punto sobre un lado de la línea que no coincide con ningún vértice devuelve `true`.
 
-## Devuelve
+Con un `Point` creado en memoria, el método devuelve siempre `true`; lee la nota de [PointLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/).
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si el punto y la línea son disjuntos.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `point` o `line` es `null`. |
+
+## Ejemplo
+
+Lee el [ejemplo de PointLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/#ejemplo).

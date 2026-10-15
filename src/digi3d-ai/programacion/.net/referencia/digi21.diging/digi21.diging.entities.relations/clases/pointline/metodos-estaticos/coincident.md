@@ -2,26 +2,33 @@
 <!-- id: coincident-2 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si el punto y la línea son coincidentes.
+Indica si el punto coincide con un vértice intermedio de la línea.
 
-![Punto coincidente con l&#xED;nea](../../../../../../../../../images/puntolineacoincidentes.png)
+![Punto coincidente con línea](../../../../../../../../../images/puntolineacoincidentes.png)
 
 ```csharp
 public static bool Coincident(ReadOnlyPoint point, ReadOnlyLine line)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `point` | Punto, de tipo [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| `line` | Línea, de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
 
-`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Punto.
+## Valor devuelto
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Línea.
+`true` si la coordenada del punto coincide con un vértice de la línea que no es ni el primero ni el último. Si el punto coincide con un extremo, el método devuelve `false` y [CoincidentAndTerminate](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/metodos-estaticos/coincidentandterminate.md) devuelve `true`. Con una línea de dos vértices, el método devuelve siempre `false`.
 
-## Devuelve
+Con un `Point` creado en memoria, el método devuelve siempre `false`; lee la nota de [PointLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/).
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si el punto y la línea son coincidentes.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `point` o `line` es `null`. |
+
+## Ejemplo
+
+Lee el [ejemplo de PointLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/#ejemplo).
