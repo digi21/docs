@@ -1,24 +1,36 @@
 # Errores de la geometría que se está analizando
 <!-- id: errores-de-la-geometria-que-se-esta-analizando -->
 
-El guion puede comunicar a Digi3D.AI que la geometría no cumple con el control de calidad lanzando una excepción excepción de tipo [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometryexception.md): 
+Para comunicar que la geometría analizada no cumple el control, la función devuelve un `digi3d.GeometryError`:
 
-```csharp
-using System;
-using Digi21.DigiNG.Entities;
-using Digi21.DigiNG.Plugin.QualityControl;
-
-namespace DigiTab
-{
-    public class Desencadenador : ITrigger 
-    {
-	      public Entity AnalyzeEntity(Entity entidad, bool almacenandoEntidad) 
-		    {
-		        if( !(entidad is ReadOnlyLine) )
-		            throw new GeometryException(String.Format("Las geometrías con el código {0} deben ser líneas.", entidad.Codes[0].Name));
-		        return entidad;
-        }
-    }
-}
+```python
+GeometryError(message)
+GeometryError(message, coordinates)
 ```
 
+| Argumento | Descripción |
+| :--- | :--- |
+| `message` | Descripción del error. |
+| `coordinates` | Tupla `(x, y, z)` con la posición del error, por ejemplo el vértice que lo provoca. |
+
+* Al digitalizar, Digi3D.AI abre el cuadro de diálogo **Error de control de calidad** con el mensaje. **Almacenar la geometría** la guarda y, si el error tiene coordenadas, desplaza la vista a ellas. **No almacenar la geometría** la descarta.
+* Bajo demanda, Digi3D.AI añade una tarea de error al panel de tareas. Con coordenadas, la tarea lleva a esas coordenadas; sin coordenadas, encuadra la geometría. En un punto, la tarea lleva a la coordenada del punto.
+
+## Ejemplo
+
+Del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). La función informa del primer vértice cuya Z es inferior a la del vértice anterior, con las coordenadas de ese vértice:
+
+```python
+@quality_control()
+def debe_tener_coordenadas_z_crecientes_moderado(geometry, adding_geometry, code_index):
+    'Comunica un error si se localiza un vértice cuya coordenada Z sea inferior a la coordenada Z del vértice anterior.'
+    zPrevia = geometry[0][2]
+
+    for coordenada in geometry:
+        zActual = coordenada[2]
+
+        if zActual < zPrevia:
+            return digi3d.GeometryError("Vértice con la Z inferior al anterior", coordenada)
+
+        zPrevia = zActual
+```
