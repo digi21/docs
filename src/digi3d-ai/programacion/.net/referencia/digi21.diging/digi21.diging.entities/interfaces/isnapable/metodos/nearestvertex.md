@@ -31,9 +31,7 @@ Distancia en el plano XY entre `coordinate` y `nearestVertex`.
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `InvalidOperationException` | La entidad es una línea sin vértices. |
-
-En la versión 26.0.0, `ReadOnlyPolygon.NearestVertex` no comprueba si el polígono tiene vértices: con un polígono vacío el resultado no está definido.
+| `InvalidOperationException` | La entidad es una línea o un polígono sin vértices. |
 
 ## Ejemplo
 
