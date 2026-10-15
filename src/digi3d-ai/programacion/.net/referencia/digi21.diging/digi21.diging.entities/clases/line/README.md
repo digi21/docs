@@ -44,7 +44,7 @@ Los miembros de `ReadOnlyLine` y de `Entity` se describen en sus páginas.
 | [`void Offset(double x, double y)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/metodos/offset.md) | Suma `x` e `y` a todos los vértices. |
 | [`void Offset(double x, double y, double z)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/metodos/offset.md) | Suma `x`, `y` y `z` a todos los vértices. |
 
-Los métodos `Offset` recalculan las coordenadas mínimas y máximas de la línea después de desplazarla, y también las de cada entidad que la contiene: el complejo del que forma parte o el polígono del que es un hueco.
+Los métodos `Offset` recalculan las coordenadas mínimas y máximas de la línea después de desplazarla, y también las de cada entidad que la contiene: el complejo del que forma parte o el polígono del que es un hueco. La caja de un polígono solo depende de su contorno exterior, así que desplazar un hueco no la cambia.
 
 Excepciones de `Close`, `ChangeDirection` y `Offset`:
 
