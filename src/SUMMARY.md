@@ -1938,6 +1938,7 @@
           * [ComparadorPoint2DRango](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/comparadorpoint2drango.md)
           * [DuplicityDetector](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/duplicitydetector.md)
           * [IntersectionDetector](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/intersectiondetector.md)
+          * [NodeDetector](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/nodedetector.md)
         * [Digi21.DigiNG.IO.Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/README.md)
           * [Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
         * [Digi21.DigiNG.IO.BinDouble](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/README.md)
