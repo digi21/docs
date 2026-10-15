@@ -1,25 +1,24 @@
 # PaneDock
 <!-- id: panedock -->
 
-Espacio de nombres: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Digi3D`  
+Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Esta enumeración define dónde acoplar un panel.
+Borde de la ventana principal de Digi3D.AI donde se acopla un panel. Lo usan [Panes.Add](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/panes.md), [Pane.DockPane](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/pane.md) y [Pane.DockSidePane](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/pane.md).
 
 ```csharp
 public enum PaneDock
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-5.0)→ PaneDock
+## Valores
 
-## Campos
-
-|  |  |  |
+| Valor | Número | Significado |
 | :--- | :--- | :--- |
-| Left | 0 | El panel se acoplará a la izquierda. |
-| Top | 1 | El panel se acoplará arriba. |
-| Right | 2 | El panel se acoplará a la derecha. |
-| Bottom | 3 | El panel se acoplará abajo. |
+| `Left` | 0 | Borde izquierdo. |
+| `Top` | 1 | Borde superior. |
+| `Right` | 2 | Borde derecho. |
+| `Bottom` | 3 | Borde inferior. Un valor que no pertenece a la enumeración también acopla el panel abajo. |
 
+## Ejemplo
 
-
+Los ejemplos de [Panes](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/panes.md) y de [Pane](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/pane.md) usan `PaneDock.Left` y `PaneDock.Right`.
