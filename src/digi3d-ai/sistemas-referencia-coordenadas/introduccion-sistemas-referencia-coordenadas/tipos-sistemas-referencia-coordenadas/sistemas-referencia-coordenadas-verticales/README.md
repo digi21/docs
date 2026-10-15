@@ -13,5 +13,5 @@ Existen los siguientes tipos:
 
 Digi3D.AI únicamente va a permitir seleccionar un sistema de coordenadas de vertical como la parte vertical de un [sistema de referencia de coordenadas compuesto](../sistemas-referencia-coordenadas-compuestos.md).
 
-Los sistemas EGM08_REDNAP Península y EGM08_REDNAP Canarias se sustituyen automáticamente por los sistemas oficiales de EPSG _Alicante height_ y _Tenerife height_. Consulta [EGM08_REDNAP pasa a Alicante height y Tenerife height](egm08-rednap-sustituido-por-alicante-height.md).
+Los sistemas EGM08_REDNAP Península y EGM08_REDNAP Canarias se sustituyen automáticamente por los sistemas oficiales de EPSG _Alicante height_ y _Tenerife height_. Consulta [EGM08_REDNAP pasa a Alicante height y Tenerife height](/digi3d-ai/usuarios-de-versiones-anteriores/egm08-rednap-sustituido-por-alicante-height.md).
 
