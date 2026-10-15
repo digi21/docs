@@ -14,7 +14,7 @@ Sigue los siguientes pasos para crear tu primer **Archivo de dibujo**:
    * En **Tabla de códigos**, selecciona el botón de los tres puntos y teclea %Programdata%, selecciona el directorio **Digi3D.AI**. Éste es el directorio donde se instalan las tablas y configuraciones de Digi3D.AI.
    * Selecciona el directorio **Tablas**.
    * Selecciona el archivo **Digi.tab.xml**, que será el archivo de tablas que vas a utilizar en todo el curso.
-   * En **Directorio de símbolos**, tenemos que seleccionar la siguiente ruta **C:\ProgramData\Digi3D.AI\Símbolos**, mediante el botón de los tres puntos.
+   * En **Directorio de símbolos**, tenemos que seleccionar la siguiente ruta **C:\ProgramData\Digi3D.NET\Símbolos**, mediante el botón de los tres puntos.
 
    Esto únicamente lo tendrás que hacer una vez al abrir un fichero nuevo en Digi3D.AI o cada vez que cambies la Tabla de códigos.
 
