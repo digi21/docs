@@ -28,9 +28,9 @@ Es necesario que finalices los pasos de [Midiendo la orientación relativa autom
 7. Pulsa el botón **...** para para especificar el sistema de referencia de coordenadas de los puntos de apoyo. Aparecerá el **Cuadro de diálogo Sistema de Referencia de Coordenadas**.
 8. Selecciona la opción **Proyectado + Vertical** en la parte iquierda.
 9. En el desplegable **Sistema de referencia de coordenadas proyectado** localiza la opción _WGS 84 / UTM Zone 30N_.
-10. En el desplegable **Sistema de coordenadas vertical** selecciona _EGM08\_REDNAP Península_.
+10. En el desplegable **Sistema de coordenadas vertical** selecciona _Alicante height_.
 11. Pulsa el botón **OK**.
-12. Comprueba que el cuadro de diálogo **Archivo de puntos de apoyo** muestra en el campo **Sistema de referencia de coordenadas** lo siguiente: _WGS 84 / UTM Zone 30N + EGM08\_REDNAP Península_.
+12. Comprueba que el cuadro de diálogo **Archivo de puntos de apoyo** muestra en el campo **Sistema de referencia de coordenadas** lo siguiente: _WGS 84 / UTM Zone 30N + Alicante height_.
 13. Pulsa el botón **Aceptar**.
 14. Comprueba que en el panel **Orientación absoluta** aparece tanto la ruta del archivo de puntos de apoyo como el sistema de referencia de coordenadas de éste.
 15. Pulsa el botón **Añadir**. Aparecerá el [Cuadro de diálogo Introduce un punto terreno del archivo de puntos](/digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md). Selecciona el punto **7** y pulsa el botón **Aceptar**.
