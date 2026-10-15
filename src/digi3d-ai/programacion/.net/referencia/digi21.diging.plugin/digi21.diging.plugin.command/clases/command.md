@@ -58,7 +58,7 @@ Los métodos `On…` son virtuales. Digi3D.AI los llama para notificar cada even
 
 | Método | Descripción |
 | :--- | :--- |
-| `void Dispose()` | Termina la orden: Digi3D.AI la quita de la pila de órdenes y produce `Disposing`. Si el usuario ya había terminado la orden (por ejemplo, con Escape), Digi3D.AI no la encuentra en la pila y no produce `Disposing` otra vez. Solo la primera llamada tiene efecto: las siguientes no hacen nada. En un objeto que Digi3D.AI no ha apilado, `Dispose` no quita nada de la pila. Después de `Dispose`, `Commands.Push(Command)` lanza `ObjectDisposedException` con el objeto. |
+| `void Dispose()` | Termina la orden: Digi3D.AI la quita de la pila de órdenes y produce `Disposing`. Si la orden ya había terminado (por ejemplo, porque el usuario pulsó Escape), `Dispose` no vuelve a quitarla de la pila, no cierra ninguna transacción y no produce `Disposing` otra vez. Solo la primera llamada tiene efecto: las siguientes no hacen nada. En un objeto que Digi3D.AI no ha apilado, `Dispose` no quita nada de la pila. Después de `Dispose`, `Commands.Push(Command)` lanza `ObjectDisposedException` con el objeto; con una orden que ya ha terminado sin llamar a `Dispose`, lanza `InvalidOperationException`. |
 | `virtual void OnInitialize()` | Produce `Initialize`. |
 | `virtual void OnSetFocus()` | Produce `SetFocus`. |
 | `virtual void OnLostFocus()` | Produce `LostFocus`. |
