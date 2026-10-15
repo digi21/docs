@@ -1,10 +1,10 @@
 # DatabaseTables
 <!-- id: databasetables -->
 
-Espacio de nombres: [Digi21.DigiNG.IO](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.IO`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve un diccionario cuya clave es el nombre de una tabla y cuyo valor es el número de tabla.
+Tablas de la base de datos asociada al archivo de dibujo.
 
 ```csharp
 IDictionary<string, int> DatabaseTables { get; }
@@ -12,7 +12,6 @@ IDictionary<string, int> DatabaseTables { get; }
 
 ## Valor de la propiedad
 
-[IDictionary&lt;string, int&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)
+`IDictionary<string, int>`: la clave es el nombre de la tabla y el valor es su número de tabla en la base de datos. El diccionario está vacío si el archivo no tiene base de datos ([ConnectionString](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/propiedades/connectionstring.md) vacía).
 
-Diccionario de tablas de base de datos y sus números.
-
+Cada lectura de la propiedad crea un diccionario nuevo: modificar el diccionario no cambia la base de datos.

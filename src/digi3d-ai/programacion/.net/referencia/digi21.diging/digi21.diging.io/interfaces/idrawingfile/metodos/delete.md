@@ -1,39 +1,43 @@
 # Delete
 <!-- id: delete -->
 
-Espacio de nombres: [Digi21.DigiNG.IO](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.IO`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Elimina geometrías al archivo de dibujo.
+Elimina entidades del archivo de dibujo.
 
 ## Sobrecargas
 
-|  |  |
+| Método | Descripción |
 | :--- | :--- |
-| [Delete\(Entity\)](delete.md#delete-entity) | Elimina un [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo de dibujo. |
-| [Delete\(IEnumerable&lt;Entity&gt;\)](delete.md#delete-ienumerable-less-than-entity-greater-than) | Elimina una enumeración de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo de dibujo. |
+| `Delete(Entity)` | Elimina una entidad. |
+| `Delete(IEnumerable<Entity>)` | Elimina varias entidades. |
 
-## Delete\(Entity\)
+Cada implementación decide cómo se elimina la entidad. [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), por ejemplo, la marca como eliminada y la vuelve a escribir: la entidad sigue en el archivo con `Deleted` a `true`. Lee la página de cada clase.
 
-Elimina un [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo de dibujo.
+## Delete(Entity)
 
 ```csharp
 void Delete(Entity entity);
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `entity` | [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo que se elimina. |
 
-`entity` [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/)  
-Geometría para eliminar del archivo de dibujo.
-
-## Delete\(IEnumerable&lt;Entity&gt;\)
-
-Elimina una enumeración de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo de dibujo.
+## Delete(IEnumerable&lt;Entity&gt;)
 
 ```csharp
 void Delete(IEnumerable<Entity> entities);
 ```
 
-`entities` [IEnumerable&lt;Entity&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?view=net-5.0)  
-Geometrías a eliminar del archivo de dibujo.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `entities` | Entidades del archivo que se eliminan. |
 
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `entity` es `null`. `Delete(IEnumerable<Entity>)` no comprueba si `entities` es `null` en `Bin` ni en `DrawingFile`. |
+| `InvalidOperationException` | La entidad pertenece a otro archivo. También, en las implementaciones que comprueban [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) (por ejemplo `Bin`), el archivo está abierto en solo lectura. |

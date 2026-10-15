@@ -1,152 +1,66 @@
 # Add
 <!-- id: add -->
 
-Espacio de nombres: [Digi21.DigiNG.IO](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.IO`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Añade geometrías al archivo de dibujo.
+Añade entidades al final del archivo de dibujo.
 
 ## Sobrecargas
 
-|  |  |
+| Método | Descripción |
 | :--- | :--- |
-| [Add\(Entity\)](add.md#add-entity) | Añade una [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) al archivo de dibujo. |
-| [Add\(Complex\)](add.md#add-complex) | Añade una geometría de tipo [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/). |
-| [Add\(IEnumerable&lt;Entity&gt;\)](add.md#add-ienumerable-less-than-entity-greater-than) | Añade una enumeración de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/). |
-| [Add\(Line\)](add.md#add-line) | Añade una geometría de tipo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md). |
-| [Add\(Point\)](add.md#add-point) | Añade una geometría de tipo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/). |
-| [Add\(Polygon\)](add.md#add-polygon) | Añade una geometría de tipo [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/). |
-| [Add\(Text\)](add.md#add-text) | Añade una geometría de tipo [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/). |
+| `Add(Entity)` | Añade una entidad. |
+| `Add(IEnumerable<Entity>)` | Añade varias entidades, en el orden de la enumeración. |
+| `Add(Line), Add(Point), Add(Text), Add(Polygon), Add(Complex)` | Añaden una entidad de ese tipo y la devuelven con su tipo de solo lectura. |
 
-## Add\(Entity\)
+Después de añadir una entidad, su propiedad `Owner` es el archivo. Una entidad que pertenece a otro archivo (su `Owner` es otro archivo) no se puede añadir: añade la copia que devuelve `Clone()`, que no pertenece a ningún archivo.
 
-Añade una [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) al archivo de dibujo.
+## Add(Entity)
 
 ```csharp
 void Add(Entity entity);
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `entity` | [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) que se añade al final del archivo. |
 
-`entity` [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/)  
-Geometría para añadir al archivo de dibujo.
-
-## Add\(Complex\)
-
-Añade una geometría de tipo [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/).
-
-```csharp
- ReadOnlyComplex Add(Complex complex);
-```
-
-### Parámetros
-
-`complex` [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/)  
-Complejo para añadir al archivo de dibujo.
-
-## Devuelve
-
-[ReadOnlyComplex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/)  
-Geometría solo lectura correspondiente a la geometría que se acaba de almacenar, pues las geometrías una vez se almacenan en un archivo de dibujo no se pueden modificar.
-
-## Add\(IEnumerable&lt;Entity&gt;\)
-
-Añade una enumeración de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
+## Add(IEnumerable&lt;Entity&gt;)
 
 ```csharp
 void Add(IEnumerable<Entity> entities);
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `entities` | Entidades que se añaden al final del archivo, en el orden de la enumeración. |
 
-`entities` [IEnumerable&lt;Entity&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?view=net-5.0)  
-Geometrías para añadir al archivo de dibujo.
+Si una entidad pertenece a otro archivo, el método lanza la excepción al llegar a esa entidad. Lo que pasa con las entidades anteriores depende de la implementación: en [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md) ya están añadidas; lee la página de cada clase.
 
-## Add\(Line\)
-
-Añade una geometría de tipo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md).
+## Add(Line), Add(Point), Add(Text), Add(Polygon), Add(Complex)
 
 ```csharp
 ReadOnlyLine Add(Line line);
-```
-
-### Parámetros
-
-`line` [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)  
-Línea para añadir al archivo de dibujo.
-
-## Devuelve
-
-[ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Geometría solo lectura correspondiente a la geometría que se acaba de almacenar, pues las geometrías una vez se almacenan en un archivo de dibujo no se pueden modificar.
-
-## Add\(Point\)
-
-Añade una geometría de tipo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/).
-
-```csharp
 ReadOnlyPoint Add(Point point);
-```
-
-### Parámetros
-
-`point` [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/)  
-Punto para añadir al archivo de dibujo.
-
-## Devuelve
-
-[ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Geometría solo lectura correspondiente a la geometría que se acaba de almacenar, pues las geometrías una vez se almacenan en un archivo de dibujo no se pueden modificar.
-
-## Add\(Polygon\)
-
-Añade una geometría de tipo [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/).
-
-```csharp
+ReadOnlyText Add(Text text);
 ReadOnlyPolygon Add(Polygon polygon);
+ReadOnlyComplex Add(Complex complex);
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `line`, `point`, `text`, `polygon`, `complex` | [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/), [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/), [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/), [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/) o [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/) que se añade al final del archivo. |
 
-`polygon` [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/)  
-Polígono para añadir al archivo de dibujo.
+Valor devuelto: la misma instancia que recibe el método, con el tipo de solo lectura del que deriva: [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/), [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/), [ReadOnlyText](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/), [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) o [ReadOnlyComplex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/). Estas sobrecargas llaman a `Add(Entity)`.
 
-## Devuelve
+## Excepciones
 
-[ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)  
-Geometría solo lectura correspondiente a la geometría que se acaba de almacenar, pues las geometrías una vez se almacenan en un archivo de dibujo no se pueden modificar.
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | El parámetro es `null`. |
+| `InvalidOperationException` | La entidad pertenece a otro archivo. También, en las implementaciones que comprueban [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) (por ejemplo `Bin`), el archivo está abierto en solo lectura. |
 
-## Add\(Text\)
+## Ejemplo
 
-Añade una geometría de tipo [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
-
-```csharp
- ReadOnlyText Add(Text text);
-```
-
-### Parámetros
-
-`text` [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/)  
-Texto para añadir al archivo de dibujo.
-
-## Devuelve
-
-[ReadOnlyText](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/)  
-Geometría solo lectura correspondiente a la geometría que se acaba de almacenar, pues las geometrías una vez se almacenan en un archivo de dibujo no se pueden modificar.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+El [ejemplo de IReadOnlyDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/#ejemplo) añade a un archivo la copia de cada punto de otro archivo.
