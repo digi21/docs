@@ -1,10 +1,10 @@
 # Severity
 <!-- id: severity -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve un [TaskSeverity](../../../enumeraciones/taskseverity.md)indicando el tipo de tarea.
+Gravedad de la tarea.
 
 ```csharp
 TaskSeverity Severity { get; }
@@ -12,7 +12,4 @@ TaskSeverity Severity { get; }
 
 ## Valor de la propiedad
 
-[TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md)
-
-Tipo de tarea.
-
+[TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md): `Error`, `Warning` o `Message`. El panel de tareas muestra el icono de error, de advertencia o de mensaje según este valor. Un valor que no es `Error` ni `Warning` se muestra con el icono de mensaje.

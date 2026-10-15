@@ -1831,7 +1831,7 @@
             * [Interfaces](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/README.md)
               * [ITask](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/README.md)
                 * [Propiedades](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/README.md)
-                  * [Children](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/childs.md)
+                  * [Children](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/children.md)
                   * [Module](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/module.md)
                   * [DrawingFile](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/drawingfile.md)
                   * [Severity](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/severity.md)

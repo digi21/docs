@@ -1,18 +1,15 @@
 # Module
 <!-- id: module -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el nombre del módulo que generó la tarea.
+Nombre del módulo que generó la tarea.
 
 ```csharp
- string Module { get; }
+string Module { get; }
 ```
 
 ## Valor de la propiedad
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)
-
-Nombre del módulo que generó esta tarea.
-
+`string`: nombre del módulo, por ejemplo el nombre de la extensión o del ensamblado. El panel de tareas lo muestra en la columna del módulo. Las tareas que genera [Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md), por ejemplo, llevan el valor `Digi21.DigiNG.IO.Shp`.
