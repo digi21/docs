@@ -1,10 +1,10 @@
 # Alias
 <!-- id: alias -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna los [alias](../../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#alias)del código.
+Alias del código.
 
 ```csharp
 public IEnumerable<string> Alias { get; set; }
@@ -12,11 +12,8 @@ public IEnumerable<string> Alias { get; set; }
 
 ## Valor de la propiedad
 
-[IEnumerable&lt;string&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?view=net-5.0)
+`IEnumerable<string>` con los [alias](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md) del código. `HasCode` y el indizador de [DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/) encuentran el código también por sus alias. La lectura devuelve una matriz nueva: modificarla no cambia el código. La asignación sustituye todos los alias por los de la enumeración.
 
-Enumeración con los [alias](../../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#alias) del código.
+## Excepciones
 
-
-
-
-
+Si el objeto es de solo lectura (tabla de códigos no modificable o código ya añadido con `AddCode`), la asignación lanza `InvalidOperationException`. Si el valor asignado es `null`, lanza `NullReferenceException`.

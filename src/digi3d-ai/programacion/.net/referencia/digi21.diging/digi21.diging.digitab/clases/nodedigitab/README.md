@@ -1,35 +1,87 @@
 # NodeDigiTab
 <!-- id: nodedigitab -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta clase representa un código en una tabla de códigos [DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/).
+Código de una tabla de códigos [DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/).
 
 ```csharp
 public sealed class NodeDigiTab : IDisposable
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → NodeDigiTab
+Implementa: `IDisposable`. El ensamblado de referencia del paquete NuGet declara `public sealed class NodeDigiTab`, sin `IDisposable`: con el paquete no se puede usar `using` ni llamar a `Dispose`, y el código nativo se libera cuando el recolector de elementos no utilizados finaliza el objeto.
+
+Un `NodeDigiTab` se obtiene de dos formas:
+
+- Con [Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/codes.md) o con el indizador [this[string]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md) de una `DigiTab`. El objeto no es una copia: asignar una propiedad cambia el código en la tabla de códigos, en memoria. Si la tabla de códigos no es modificable, la asignación lanza `InvalidOperationException`.
+- Con el [constructor](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/constructores.md), para añadirlo después a una tabla con [AddCode](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/addcode.md). Después de `AddCode`, ese objeto es de solo lectura.
+
+Las asignaciones de un objeto de solo lectura lanzan `InvalidOperationException`.
 
 ## Constructores
 
-|  |  |
+| Constructor | Descripción |
 | :--- | :--- |
-| [NodeDigiTab\(string\)](constructores.md) | Inicializa una nueva instancia de [NodeDigiTab](./)con el nombre pasado por parámetros. |
+| [NodeDigiTab(string name)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/constructores.md) | Crea un código lineal con el nombre indicado. |
 
 ## Propiedades
 
-|  |  |
+| Propiedad | Descripción |
 | :--- | :--- |
-| [Alias](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/alias.md)del código. |
-| [Color](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/color.md) | Devuelve o asigna el color del código en la ventana de dibujo. |
-| [ColorPhotogrammetric](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/colorphotogrammetric.md) | Devuelve o asigna el color del código en la ventana fotogramétrica. |
-| [Description](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/description.md) del código. |
-| [Type](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/type.md) | Devuelve o asigna el tipo de geometría que representa el código. |
-| [Name](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/name.md) del código. |
-| [Priority](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/priority.md) asignado al código. |
-| [Table](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/table.md) | Devuelve o asigna la tabla de base de datos vinculada con el código. |
-| [Tags](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/tags.md)asociadas con el código. |
-| [Values](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/values.md) asociado con el código. |
+| [string Name](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/name.md) | Nombre del código. Solo lectura. |
+| [string Description](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/description.md) | Descripción del código. |
+| [GeometryType Type](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/type.md) | Tipo de geometría: punto, línea o virtual. |
+| [int Priority](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/priority.md) | Prioridad del código. |
+| [string Color](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/color.md) | Color en la ventana de dibujo. |
+| [string ColorPhotogrammetric](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/colorphotogrammetric.md) | Color en la ventana fotogramétrica. |
+| [IEnumerable&lt;string&gt; Tags](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/tags.md) | Etiquetas del código. |
+| [IEnumerable&lt;string&gt; Alias](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/alias.md) | Alias del código. |
+| [string Table](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/table.md) | Tabla de base de datos vinculada al código. |
+| [Dictionary&lt;string, string&gt; Values](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/values.md) | Valores del código. Solo lectura. |
 
+## Métodos
+
+| Método | Descripción |
+| :--- | :--- |
+| `void Dispose()` | Libera el código nativo. Después de `Dispose`, el objeto no se puede usar. No existe en el ensamblado de referencia del paquete NuGet. |
+
+## Ejemplo
+
+Este programa añade el código de punto `PUNTO_CONTROL` a una tabla de códigos y la guarda en otro archivo:
+
+```csharp
+using Digi21.DigiNG.DigiTab;
+
+if (args.Length != 2)
+{
+    Console.WriteLine("Uso: AnadeCodigo <entrada.tab.xml> <salida.tab.xml>");
+    return 1;
+}
+
+using var tabla = DigiTab.Load(args[0]);
+
+if (tabla.HasCode("PUNTO_CONTROL"))
+{
+    Console.WriteLine("La tabla ya tiene el código PUNTO_CONTROL.");
+    return 1;
+}
+
+var código = new NodeDigiTab("PUNTO_CONTROL")
+{
+    Description = "Punto de control",
+    Color = "#FF0000FF",
+    ColorPhotogrammetric = "#FFFF00FF",
+    Priority = 10,
+    Tags = ["control", "topografía"],
+    // Enum.Parse obtiene el número del ensamblado instalado; lee la página de GeometryType.
+    Type = Enum.Parse<GeometryType>("Point"),
+};
+
+// Después de AddCode, las propiedades de 'código' son de solo lectura.
+tabla.AddCode(código);
+tabla.Write(args[1]);
+
+Console.WriteLine($"{tabla.Codes.Count()} códigos escritos en {args[1]}.");
+return 0;
+```

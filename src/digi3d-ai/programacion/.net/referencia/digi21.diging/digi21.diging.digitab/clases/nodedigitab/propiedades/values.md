@@ -1,20 +1,15 @@
 # Values
 <!-- id: values -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el [diccionario de valores](../../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#valores) asociado con el código.
+Valores del código.
 
 ```csharp
-public Dictionary<string, string> Values Tags { get; set; }
+public Dictionary<string, string> Values { get; }
 ```
 
 ## Valor de la propiedad
 
-[IDictionary&lt;string, string&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)
-
-Diccionario de valores asociado con el código.
-
-
-
+`Dictionary<string, string>` con los [valores](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md) del código: nombre del campo y valor convertido a texto. Cada lectura crea un diccionario nuevo: modificarlo no cambia el código. La propiedad no tiene descriptor de acceso `set`.
