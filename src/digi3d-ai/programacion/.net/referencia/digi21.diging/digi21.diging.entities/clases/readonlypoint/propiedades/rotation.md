@@ -2,9 +2,9 @@
 <!-- id: rotation-2 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el ángulo de rotación \(en radianes\) del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
+Devuelve la rotación del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/), en radianes.
 
 ```csharp
 public double Rotation { get; }
@@ -12,9 +12,6 @@ public double Rotation { get; }
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
+Ángulo en radianes. La entidad nativa lo guarda en grados sexagesimales multiplicados por 100; la propiedad lo convierte a radianes.
 
-Ángulo de rotación en radianes del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
-
-
-
+[Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) oculta esta propiedad con una versión que también se puede asignar: [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md).
