@@ -1,10 +1,10 @@
 # Center
 <!-- id: center -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el punto en el centro de la ventana o geometría que implemente esta interfaz.
+Centro de la ventana.
 
 ```csharp
 Point2D Center { get; }
@@ -12,7 +12,12 @@ Point2D Center { get; }
 
 ## Valor de la propiedad
 
-[Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md)
+[Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md): (`(Xmin + Xmax) / 2`, `(Ymin + Ymax) / 2`).
 
-Un punto 3D con la coordenada \(X central, Y central\) de la ventana.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) lanza la excepción si `Xmin` es `null`. |
+
+Volver a [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/).

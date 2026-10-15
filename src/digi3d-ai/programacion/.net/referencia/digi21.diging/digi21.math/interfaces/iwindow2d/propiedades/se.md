@@ -1,10 +1,10 @@
 # SE
 <!-- id: se -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el punto al sudeste de la ventana o geometría que implemente esta interfaz.
+Esquina sureste de la ventana.
 
 ```csharp
 Point2D SE { get; }
@@ -12,7 +12,12 @@ Point2D SE { get; }
 
 ## Valor de la propiedad
 
-[Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md)
+[Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md): (`Xmax`, `Ymin`).
 
-Un punto 3D con la coordenada \(X máxima, Y mínima\) de la ventana.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) lanza la excepción si `Xmin` es `null`. |
+
+Volver a [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/).
