@@ -7,9 +7,9 @@ De todos modos, puedes configurar el archivo con los esquemas de Von Grouver igu
 
 El instalador de Digi3D.AI instala una copia del archivo que se instalaba con la versión 2007 en la siguiente ubicación en función del sistema operativo:
 
-| Windows XP | C:\Documents and Settings\All Users\Datos de programa\Digi3D3D.NET\Esquemas Orientaciones\Esquemas de orientación relativa.relscheme.xml |
+| Sistema operativo | Ubicación |
 | :--- | :--- |
-| Windows 7 | C:\ProgramData\Digi3D.AI\Esquemas Orientaciones\Esquemas de orientación relativa.relscheme.xml |
+| Windows 10/11 | C:\ProgramData\Digi3D.NET\Esquemas Orientaciones\Esquemas de orientación relativa.relscheme.xml |
 
 Sigue los siguientes pasos para configurar el archivo de esquemas de Von Grouber para orientaciones relativas:
 
