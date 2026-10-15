@@ -46,7 +46,7 @@ Una entidad no se puede modificar cuando pertenece a un archivo de dibujo (su pr
 | [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/) | Entidades que pueden delimitar un recinto. |
 | [IDirectionable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/idirectionable/) | Entidades cuyo sentido se puede invertir. |
 | [ISnapable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/) | Entidades en las que se busca el vértice o el segmento más cercano a una coordenada. |
-| [ITrimable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/) | Entidades a las que se resta el recinto de una línea límite. |
+| [ITrimable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/) | Entidades a las que se resta el recinto de una línea límite. |
 
 ## Enumeraciones
 

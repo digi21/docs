@@ -14,7 +14,7 @@ Herencia: `Object` → [Entity](/digi3d-ai/programacion/.net/referencia/digi21.d
 
 Tipos derivados: [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/).
 
-Implementa: [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/), [ISnapable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/), [IClippable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/), [ITrimable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/), y las interfaces de `Entity`.
+Implementa: [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/), [ISnapable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/), [IClippable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/), [ITrimable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/), y las interfaces de `Entity`.
 
 La clase no tiene constructores públicos. Para crear una línea, usa [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/). Para modificar una línea leída de un archivo, modifica la copia que devuelve `Clone()`.
 
@@ -48,7 +48,7 @@ Los miembros heredados de `Entity` (códigos, colores, atributos, coordenadas m�
 | [`double NearestVertex(Point3D coordinate, out Point3D nearestVertex, out int vertex)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestvertex.md) | Distancia en el plano X, Y al vértice más cercano; devuelve sus coordenadas y su índice. Lanza `InvalidOperationException` si la línea no tiene vértices. |
 | [`double NearestSegment(Point3D coordinate, out Point3D calculatedCoordinate, out int segment)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestsegment.md) | Distancia en el plano X, Y al segmento más cercano entre los segmentos sobre los que cae la proyección perpendicular de `coordinate`; devuelve la proyección y el índice del segmento (el del vértice inicial). Lanza `InvalidOperationException` si la línea no tiene vértices y `Exception` si la proyección no cae sobre ningún segmento. |
 | [`IEnumerable<Entity> Clip(ReadOnlyLine limit)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/metodos/clip.md) | Divide la línea por sus intersecciones con `limit`. Lee la nota de este apartado. |
-| [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/metodos/trim.md) | Polígonos que forman el recinto de esta línea menos el recinto de `limit`. |
+| [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/metodos/trim.md) | Polígonos que forman el recinto de esta línea menos el recinto de `limit`. |
 | `string ToString()` | Texto localizado con el tipo, los datos de `Entity` y el número de vértices. |
 
 `Clip` según la línea:

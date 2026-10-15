@@ -12,7 +12,7 @@ public interface IClippable
 
 Tipos que la implementan: [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) (y [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/)) y [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) (y [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/)).
 
-Para quedarse solo con la parte de un recinto que no está dentro de otro, usa [ITrimable.Trim](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/metodos/trim.md).
+Para quedarse solo con la parte de un recinto que no está dentro de otro, usa [ITrimable.Trim](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/metodos/trim.md).
 
 ## Métodos
 
