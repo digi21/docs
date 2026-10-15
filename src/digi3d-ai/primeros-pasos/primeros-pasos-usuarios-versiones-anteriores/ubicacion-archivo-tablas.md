@@ -7,8 +7,7 @@ Esta ubicación no es válida para sistemas operativos Windows Vista y Windows 7
 
 | Sistema operativo | Ubicación |
 | :--- | :--- |
-| Windows XP | C:\Documents and Settings\All Users\Datos de programa\Digi3D.NET\ |
-| Windows 7/8/10/11 | C:\ProgramData\Digi3D.NET\ |
+| Windows 10/11 | C:\ProgramData\Digi3D.NET\ |
 
 Es posible que no puedas visualizar estas carpetas con el explorador de archivos, pero están ahí, así que cuando quieras seleccionar algún archivo de estas carpetas, teclea la ruta en el explorador de archivos y verás \(tras pulsar Intro\) que éste te muestra el contenido de estas carpetas.
 

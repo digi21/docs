@@ -7,9 +7,9 @@ Si vas a realizar medidas de aerotriangulación tendrás que indicar la ruta en 
 
 A continuación tienes la ruta donde copia el instalador de Digi3D.AI el archivo que se copiaba en la versión 2007 en función del sistema operativo:
 
-| Windows XP | C:\Documents and Settings\All Users\Datos de programa\Digi3D3D.NET Esquemas Orientaciones                                                   Esquemas de medida de aerotriangulación.aerotrischeme.xml |
+| Sistema operativo | Ubicación |
 | :--- | :--- |
-| Windows 7 | C:\ProgramData\Digi3D.AI\Esquemas Orientaciones\Esquemas de medida de aerotriangulación.aerotrischeme.xml |
+| Windows 10/11 | C:\ProgramData\Digi3D.NET\Esquemas Orientaciones\Esquemas de medida de aerotriangulación.aerotrischeme.xml |
 
 Sigue los siguientes pasos para configurar el archivo de esquemas de Von Grouber para orientaciones relativas:
 
