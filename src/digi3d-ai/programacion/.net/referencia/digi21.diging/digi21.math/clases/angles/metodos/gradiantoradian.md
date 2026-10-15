@@ -10,8 +10,6 @@ Convierte un ángulo de grados centesimales a radianes. Método de [Angles](/dig
 public static double GradianToRadian(this double gradian)
 ```
 
-El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.GradianToRadian(valor)`.
-
 ## Parámetros
 
 | Parámetro | Descripción |

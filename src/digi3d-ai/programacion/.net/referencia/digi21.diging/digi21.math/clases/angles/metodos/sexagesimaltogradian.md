@@ -10,8 +10,6 @@ Convierte un ángulo de grados sexagesimales con fracción decimal a grados cent
 public static double SexagesimalToGradian(this double sexagesimal)
 ```
 
-El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.SexagesimalToGradian(valor)`.
-
 ## Parámetros
 
 | Parámetro | Descripción |

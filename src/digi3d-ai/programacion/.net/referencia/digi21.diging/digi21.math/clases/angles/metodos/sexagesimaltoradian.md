@@ -10,8 +10,6 @@ Convierte un ángulo de grados sexagesimales con fracción decimal a radianes. M
 public static double SexagesimalToRadian(this double sexagesimal)
 ```
 
-El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.SexagesimalToRadian(valor)`.
-
 ## Parámetros
 
 | Parámetro | Descripción |
