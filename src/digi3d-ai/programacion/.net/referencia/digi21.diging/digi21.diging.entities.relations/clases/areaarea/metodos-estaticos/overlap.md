@@ -1,119 +1,41 @@
 # Overlap
 <!-- id: overlap -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si las dos áreas solapan.
+Indica si dos áreas se solapan y devuelve un vértice de un área que está dentro de la otra.
 
 ![Área solapa área](../../../../../../../../../images/areasolapaarea.png)
 
 ![Área solapa área](../../../../../../../../../images/areasolapaarea2.png)
 
-## Sobrecargas
-
-|                                                                                                                            |                                                                                                                                                                                                                                                                                |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Overlap(ReadOnlyLine, ReadOnlyLine, out Point3D)](overlap.md#overlap-readonlyline-readonlyline-out-point-3-d)             | Indica si las dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) solapan y devuelve además las coordenadas de un punto por el que se cruzan.                                                                                            |
-| [Overlap(ReadOnlyLine, ReadOnlyPolygon, out Point3D)](overlap.md#overlap-readonlyline-readonlypolygon-out-point-3-d)       | Indica si el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) y devuelve además las coordenadas de un punto por el que se cruzan. |
-| [Overlap(ReadOnlyPolygon, ReadOnlyLine, out Point3D)](overlap.md#overlap-readonlypolygon-readonlyline-out-point-3-d)       | Indica si el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) y devuelve además las coordenadas de un punto por el que se cruzan. |
-| [Overlap(ReadOnlyPolygon, ReadOnlyPolygon, out Point3D)](overlap.md#overlap-readonlypolygon-readonlypolygon-out-point-3-d) | Indica si las dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) solapan y devuelve además las coordenadas de un punto por el que se cruzan.                                                                                      |
-
-## Overlap(ReadOnlyLine, ReadOnlyLine, out Point3D)
-
-Indica si las dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) solapan y devuelve además las coordenadas de un punto por el que se cruzan.
-
 ```csharp
 public static bool Overlap(ReadOnlyLine a, ReadOnlyLine b, out Point3D coordinate)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-`coordinate` [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)\
-Una coordenada en la que cortan los polígonos. Este parámetro se puede utilizar para mostrar un error al usuario en caso de que el solape sea un error.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas solapan.
-
-## Overlap(ReadOnlyLine, ReadOnlyPolygon, out Point3D)
-
-Indica si el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) y devuelve además las coordenadas de un punto por el que se cruzan.
-
-```csharp
 public static bool Overlap(ReadOnlyLine a, ReadOnlyPolygon b, out Point3D coordinate)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
-
-`coordinate` [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)\
-Una coordenada en la que cortan los polígonos. Este parámetro se puede utilizar para mostrar un error al usuario en caso de que el solape sea un error.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas solapan.
-
-## Overlap(ReadOnlyPolygon, ReadOnlyLine, out Point3D)
-
-Indica si el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) y devuelve además las coordenadas de un punto por el que se cruzan.
-
-```csharp
 public static bool Overlap(ReadOnlyPolygon a, ReadOnlyLine b, out Point3D coordinate)
-```
-
-### Parámetros
-
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-`coordinate` [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)\
-Una coordenada en la que cortan los polígonos. Este parámetro se puede utilizar para mostrar un error al usuario en caso de que el solape sea un error.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas solapan.
-
-## Overlap(ReadOnlyPolygon, ReadOnlyPolygon, out Point3D)
-
-Indica si las dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) solapan y devuelve además las coordenadas de un punto por el que se cruzan.
-
-```csharp
 public static bool Overlap(ReadOnlyPolygon a, ReadOnlyPolygon b, out Point3D coordinate)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primera área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| `b` | Segunda área. |
+| `coordinate` | Parámetro de salida de tipo [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). Si el método devuelve `true`, contiene el primer vértice de `a` que está dentro de `b` o, si ningún vértice de `a` está dentro de `b`, el primer vértice de `b` que está dentro de `a`, con su coordenada Z. Si el método devuelve `false`, contiene (0, 0, 0). Sirve, por ejemplo, para señalar al usuario el lugar del solape. |
 
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
+## Valor devuelto
 
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
+`true` si las áreas no cumplen ninguna de las otras relaciones de [AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/): hay vértices de un área dentro de la otra y ninguna de las dos contiene a la otra. Por ejemplo, `a` tiene vértices dentro y fuera de `b`, y `b` tiene algún vértice dentro de `a`.
 
-`coordinate` [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)\
-Una coordenada en la que cortan los polígonos. Este parámetro se puede utilizar para mostrar un error al usuario en caso de que el solape sea un error.
+Como el método solo analiza vértices, dos áreas cuyos lados se cruzan sin que ningún vértice de una quede dentro de la otra no se solapan: [Disjoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/disjoint.md) devuelve `true` si además no tienen vértices comunes.
 
-## Devuelve
+## Excepciones
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas solapan.
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
+| `SEHException` | Un área tiene un anillo sin cerrar, de área nula o con una espiga. Lee las [excepciones de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#excepciones). |
 
+## Ejemplo
 
-
+Lee el [ejemplo de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#ejemplo).

@@ -1,84 +1,33 @@
 # OuterRingAdjacent
 <!-- id: outerringadjacent -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si los límites exteriores de las áreas son adyacentes.
+Indica si dos áreas son adyacentes.
 
 ![Área adyacente área](../../../../../../../../../images/areaadyacentearea.png)
 
-## Observaciones
-
-Este método tiene en consideración únicamente el límite exterior de los [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/), de manera que, si la otra área es adyacente a algún hueco, no se considerará.
-
-## Sobrecargas
-
-|                                                                                                                               |                                                                                                                                                                                                                                       |
-| ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [OuterRingAdjacent(ReadOnlyLine, ReadOnlyPolygon)](outerringadjacent.md#outerringadjacent-readonlyline-readonlypolygon)       | Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
-| [OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyLine)](outerringadjacent.md#outerringadjacent-readonlypolygon-readonlyline)       | Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
-| [OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyPolygon)](outerringadjacent.md#outerringadjacent-readonlypolygon-readonlypolygon) | Indica si el límite exterior de los dos  [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.                                                                                                |
-
-## OuterRingAdjacent(ReadOnlyLine, ReadOnlyPolygon)
-
-Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
-
 ```csharp
-public static bool OuterRingAdjacent(ReadOnlyLine a, ReadOnlyPolygon b) 
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son adyacentes.
-
-## OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyLine)
-
-Indica si el área [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
-
-```csharp
+public static bool OuterRingAdjacent(ReadOnlyLine a, ReadOnlyPolygon b)
 public static bool OuterRingAdjacent(ReadOnlyPolygon a, ReadOnlyLine b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son adyacentes.
-
-## OuterRingAdjacent(ReadOnlyPolygon, ReadOnlyPolygon)
-
-Indica si el límite exterior de los dos  [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.
-
-```csharp
 public static bool OuterRingAdjacent(ReadOnlyPolygon a, ReadOnlyPolygon b)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primera área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| `b` | Segunda área. |
 
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
+## Valor devuelto
 
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
+El mismo valor que [Adjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/adjacent.md) con los mismos argumentos.
 
-## Devuelve
+> En la versión 26.0.0, `OuterRingAdjacent` llama al mismo código que `Adjacent`: también tiene en cuenta los huecos de los polígonos. Un área adyacente a un hueco de un polígono devuelve `true`, aunque el nombre del método indique que solo se analiza el anillo exterior.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son adyacentes.
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
+| `SEHException` | Un área tiene un anillo sin cerrar, de área nula o con una espiga. Lee las [excepciones de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#excepciones). |

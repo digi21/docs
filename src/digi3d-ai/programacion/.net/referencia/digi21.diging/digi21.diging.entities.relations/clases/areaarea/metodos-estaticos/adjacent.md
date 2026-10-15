@@ -1,102 +1,42 @@
 # Adjacent
 <!-- id: adjacent -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si dos áreas son adyacentes.
+Indica si dos áreas son adyacentes: comparten al menos un lado y ningún vértice de una está dentro de la otra.
 
 ![Área adyacente área](../../../../../../../../../images/areaadyacentearea.png)
 
-## Sobrecargas
-
-|                                                                                                    |                                                                                                                                                                                                     |
-| -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Adjacent(ReadOnlyLine, ReadOnlyLine)](adjacent.md#adjacent-readonlyline-readonlyline)             | Indica si dos areas de tipo [ReadOnlyLine](../../../../digi21.diging.entities/clases/readonlyline/)son adyacentes.                                                                                 |
-| [Adjacent(ReadOnlyLine, ReadOnlyPolygon)](adjacent.md#adjacent-readonlyline-readonlypolygon)       | Indica si dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) son adyacentes. |
-| [Adjacent(ReadOnlyPolygon, ReadOnlyLine)](adjacent.md#adjacent-readonlypolygon-readonlyline)       | Indica si dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes. |
-| [Adjacent(ReadOnlyPolygon, ReadOnlyPolygon)](adjacent.md#adjacent-readonlypolygon-readonlypolygon) | Indica si dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.                                                                           |
-
-## Adjacent(ReadOnlyLine, ReadOnlyLine)
-
-Indica si dos areas de tipo [ReadOnlyLine](../../../../digi21.diging.entities/clases/readonlyline/)son adyacentes.
-
 ```csharp
 public static bool Adjacent(ReadOnlyLine a, ReadOnlyLine b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son adyacentes.
-
-## Adjacent(ReadOnlyLine, ReadOnlyPolygon)
-
-Indica si dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) son adyacentes.
-
-```csharp
 public static bool Adjacent(ReadOnlyLine a, ReadOnlyPolygon b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son adyacentes.
-
-## Adjacent(ReadOnlyPolygon, ReadOnlyLine)
-
-Indica si dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.
-
-```csharp
 public static bool Adjacent(ReadOnlyPolygon a, ReadOnlyLine b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son adyacentes.
-
-## Adjacent(ReadOnlyPolygon, ReadOnlyPolygon)
-
-Indica si dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son adyacentes.
-
-```csharp
 public static bool Adjacent(ReadOnlyPolygon a, ReadOnlyPolygon b)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primera área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| `b` | Segunda área. |
 
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
+## Valor devuelto
 
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
+`true` si se cumplen las tres condiciones:
 
-## Devuelve
+* Ningún vértice de `a` está dentro de `b` y ningún vértice de `b` está dentro de `a`.
+* Las dos áreas tienen vértices comunes.
+* Dos vértices consecutivos de un anillo de `a` son también vértices consecutivos de un anillo de `b` (un lado común). Los anillos de los huecos también cuentan.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son adyacentes.
+Si las dos áreas son iguales, o una está dentro de la otra, el método devuelve `false`. La clasificación completa está en [AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/). Si las áreas tienen vértices comunes pero ningún lado común, devuelve `true` el método [Join](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/join.md).
+
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
+| `SEHException` | Un área tiene un anillo sin cerrar, de área nula o con una espiga. Lee las [excepciones de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#excepciones). |
+
+## Ejemplo
+
+Lee el [ejemplo de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#ejemplo).
