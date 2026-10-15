@@ -2,21 +2,22 @@
 <!-- id: itrimmable -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Este interfaz define los métodos que deben implementar las geometrías que se pueden recortar al interseccionar con un límite.
+Recinto al que se le puede restar el área de otro recinto.
 
 ```csharp
 public interface ITrimable
 ```
 
-Tipos derivados: [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)
+Tipos que la implementan: [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) (y [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/)) y [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) (y [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/)).
 
 ## Métodos
 
-|  |  |
+| Miembro | Descripción |
 | :--- | :--- |
-| [Trim](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/metodos/trim.md) | Recorta la geometría contra el límite pasado por parámetros. |
+| [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/metodos/trim.md) | Devuelve, como polígonos nuevos, las partes de esta entidad que no están dentro de `limit`. |
 
+## Ejemplo
 
-
+El [ejemplo de IClippable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/#ejemplo) usa `Trim` para obtener la parte de una parcela que queda fuera de un límite.
