@@ -8,6 +8,7 @@ Esta barra de herramientas permite realizar acciones relacionadas con los tentat
 ## Botones
 
 * Ventana que muestra las coordenadas del tentativo (snap) activo.
+* Botón **Copiar coordenadas al portapapeles**, que copia al portapapeles como texto las coordenadas del tentativo activo que muestra la ventana anterior: X, Y y Z separadas por un espacio y con el número de decimales de la ventana de dibujo. Si no hay ningún tentativo activo, el botón no copia nada.
 * Desplegable que permite seleccionar un [modo de búsqueda](../ventana-de-dibujo/variables/m/modob.md).
 * Botón que permite activar/desactivar el estado de la variable [AUTOMODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob.md).
 * Botón que permite activar/desactivar el estado de la variable [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md).
