@@ -1,20 +1,15 @@
 # Yaw
 <!-- id: yaw -->
 
-Espacio de nombres: [Digi21.DigiNG.Cameras](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.Cameras`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el ángulo \(en sexagesimal\) de rotación en el eje _Yaw_.
+Giro de la cámara sobre el eje Z del archivo de dibujo, en grados sexagesimales.
 
 ```csharp
- public double Yaw { get; set; }
+public float Yaw { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
-
-Ángulo de rotación en sexagesimal en el eje _Yaw_.
-
-
-
+`float`. La ventana de dibujo aplica `Yaw` después de `Pitch` y `Roll`, sobre el eje Z del archivo de dibujo. En una vista cenital (`Pitch` y `Roll` a 0), `Yaw` gira la vista en el plano X, Y. Lee el apartado de los giros en [Camera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/camera/).
