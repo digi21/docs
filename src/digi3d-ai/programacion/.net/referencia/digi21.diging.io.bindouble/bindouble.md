@@ -57,7 +57,8 @@ Sistema de referencia de coordenadas:
 Base de datos:
 
 - Sin el parámetro `databaseProperties`, el constructor usa la base de datos de la última configuración del importador de archivos `.bind` que el usuario guardó en Digi3D.AI. Para abrir el archivo sin base de datos, pasa `new DatabaseConnectionProperties()`.
-- La base de datos se abre en solo lectura si así lo indica la configuración del usuario en Digi3D.AI (valor `BaseDatosSoloLectura`), también cuando se pasa `databaseProperties`. con `ResultsAdded` el modelo de datos, la cadena de conexión y el final de la conexión.
+- La base de datos se abre en solo lectura si así lo indica la configuración del usuario en Digi3D.AI (valor `BaseDatosSoloLectura`), también cuando se pasa `databaseProperties`.
+- Al conectar con una base de datos, el constructor notifica con `ResultsAdded` el modelo de datos, la cadena de conexión y el final de la conexión.
 
 Si `readOnly` es `false` y el archivo existe pero no se puede abrir en escritura (por ejemplo, porque otro proceso lo tiene abierto o porque tiene el atributo de solo lectura), el archivo se abre en solo lectura y `CanWrite` vale `false`. El constructor no lanza ninguna excepción en ese caso.
 
