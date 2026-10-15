@@ -30,7 +30,7 @@ var complejo = new Complex(new Code("100000"));
 public Complex(IEnumerable<Code> codes)
 ```
 
-Crea un complejo con los códigos de `codes`, en el orden de la enumeración. En el ensamblado instalado el parámetro se llama `codigos`.
+Crea un complejo con los códigos de `codes`, en el orden de la enumeración.
 
 | Parámetro | Descripción |
 | :--- | :--- |
