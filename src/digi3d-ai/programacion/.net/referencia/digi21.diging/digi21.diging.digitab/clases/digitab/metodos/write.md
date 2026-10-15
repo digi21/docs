@@ -32,6 +32,7 @@ El formato se elige por la extensión de `path`, sin distinguir mayúsculas de m
 | `ArgumentNullException` | `path` es `null`. |
 | `InvalidOperationException` | La tabla de códigos está cifrada. No se escribe nada. |
 | `IOException` | El código nativo no ha podido escribir la tabla de códigos. El mensaje incluye `path`. |
+| `Exception` | El código nativo ha lanzado un error propio al escribir; el mensaje es el del error. |
 | `Exception` | Error al escribir el archivo que el código nativo notifica con una excepción. El mensaje describe el error. |
 
 Los mensajes de las excepciones están en el idioma de la interfaz de Digi3D.AI.
