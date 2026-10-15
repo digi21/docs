@@ -1,9 +1,9 @@
 # Ubicación de los archivos de tablas
 <!-- id: ubicacion-archivo-tablas -->
 
-Los instaladores de versiones anteriores de Digi3D, al ser anteriores a Windows Vista y a Windows 7, almacenaban los directorios de tablas en la carpeta _`c:\Archivos de programa\Digi21.net\Digi3D 2007\Tablas`_.
+Los instaladores de versiones anteriores de Digi3D almacenaban los directorios de tablas en la carpeta _`c:\Archivos de programa\Digi21.net\Digi3D 2007\Tablas`_.
 
-Esta ubicación no es válida para sistemas operativos Windows Vista y Windows 7, pues los usuarios no tienen permisos para realizar modificaciones en estos directorios \(aunque sean administradores\), de modo que el instalador de Digi3D.AI ubica los archivos de tablas \(tabla de códigos por defecto, configuración de teclas por defecto, directorio de símbolos, …\) en una de las siguientes carpetas en función del sistema operativo:
+Esta ubicación no es válida en Windows 10 y Windows 11, pues los usuarios no tienen permisos para realizar modificaciones en estos directorios \(aunque sean administradores\), de modo que el instalador de Digi3D.AI ubica los archivos de tablas \(tabla de códigos por defecto, configuración de teclas por defecto, directorio de símbolos, …\) en la siguiente carpeta:
 
 | Sistema operativo | Ubicación |
 | :--- | :--- |
