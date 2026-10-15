@@ -1,62 +1,46 @@
 # CreateParallel
 <!-- id: createparallel -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Instancia una nueva [Line](../../line/)que es una paralela de la [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) pasada por parámetros.
+Devuelve una [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/) nueva paralela a una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). Es un método de extensión de [GeometryFactory](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/geometryfactory/).
 
-## Sobrecargas
+```csharp
+public static Line CreateParallel(this ReadOnlyLine line, double distance)
+public static Line CreateParallel(this ReadOnlyLine line, double distanceXY, double distanceZ)
+```
 
-|  |  |
+## Parámetros
+
+| Parámetro | Descripción |
 | :--- | :--- |
-| [CreateParallel\(this ReadOnlyLine, double\)](createparallel.md#createparallel-this-readonlyline-double) | Instancia una nueva [Line](../../line/)que es una paralela \(en el plano XY\) de la [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) pasada por parámetros. |
-| [CreateParallel\(this ReadOnlyLine, double, double\)](createparallel.md#createparallel-this-readonlyline-double-double) | Instancia una nueva [Line](../../line/)que es una paralela \(en el espacio\) de la [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) pasada por parámetros. |
+| `line` | Línea original. No se modifica. |
+| `distance`, `distanceXY` | Distancia en el plano XY entre la línea original y la paralela. Con un valor positivo la paralela queda a la derecha del sentido de avance de `line` (del primer vértice al último); con un valor negativo, a la izquierda. |
+| `distanceZ` | Valor que se suma a la Z de cada vértice de la paralela. |
 
-## CreateParallel\(this ReadOnlyLine, double\)
+## Valor devuelto
 
-Instancia una nueva [Line](../../line/)que es una paralela \(en el plano XY\) de la [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) pasada por parámetros.
+Una `Line` nueva con `Owner` a `null` (`ReadOnly` es `false`), con los códigos, colores y atributos de `line` y el mismo número de vértices. La Z de cada vértice es la del vértice original (más `distanceZ` en la segunda sobrecarga).
 
-```csharp
-public static Line CreateParallel(this ReadOnlyLine line, double distance);‌
-```
+## Cálculo
 
-### Parámetros
+Cada vértice se desplaza en la dirección de la bisectriz de los dos segmentos que llegan a él:
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Linea para la cual queremos generar una paralela.
+- La distancia se divide entre el coseno de la mitad del ángulo que giran los dos segmentos, para que cada lado de la paralela quede a `distance` del lado original. El coseno se limita a un mínimo de 0,3: en un giro de más de unos 145° el vértice se desplaza 3,33 veces `distance` como máximo y esos dos lados de la paralela quedan a menos de `distance` del original.
+- El primer y el último vértice de una línea abierta se desplazan en perpendicular a su segmento.
+- Si la línea está cerrada en X, Y y Z (el primer vértice es igual al último), el primer y el último vértice se calculan con el segmento anterior y el siguiente, como el resto.
 
-`distance` [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Distancia en el plano X, Y a la cual se generará la paralela. Si es un valor positivo la paralela se creará a la derecha de la geometría existente, y si es negativo a la izquierda.
+Después del desplazamiento se eliminan los lazos que forma la paralela al cortarse consigo misma (la línea necesita al menos 4 vértices para esta comprobación) y se recalculan las coordenadas mínimas y máximas.
 
-### Devuelve
+La línea original debe tener al menos dos vértices: el método no lo comprueba.
 
-[Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)  
-Nueva línea.
+## Excepciones
 
-## CreateParallel\(this ReadOnlyLine, double, double\)
+| Excepción | Cuándo |
+| :--- | :--- |
+| `NullReferenceException` | `line` es `null`. |
 
-Instancia una nueva [Line](../../line/)que es una paralela \(en el espacio\) de la [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) pasada por parámetros.
+## Ejemplo
 
-```csharp
-public static Line CreateParallel(this ReadOnlyLine line, double distanceXY, double distanceZ);‌
-```
-
-### Parámetros
-
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Linea para la cual queremos generar una paralela.
-
-`distanceXY` [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Distancia en el plano X, Y a la cual se generará la paralela. Si es un valor positivo la paralela se creará a la derecha de la geometría existente, y si es negativo a la izquierda.
-
-`distanceZ` [Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Distancia en el plano eje Z a la cual se generará la paralela. 
-
-### Devuelve
-
-[Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)  
-Nueva línea.
-
-
-
+El [ejemplo de GeometryFactory](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/geometryfactory/#ejemplo) usa las dos sobrecargas.
