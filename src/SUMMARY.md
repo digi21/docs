@@ -10,7 +10,7 @@
     * [EGM08_REDNAP pasa a Alicante height y Tenerife height](digi3d-ai/usuarios-de-versiones-anteriores/egm08-rednap-sustituido-por-alicante-height.md)
   * [Primeros pasos](digi3d-ai/primeros-pasos/README.md)
     * [Instalación de Digi3D.AI](digi3d-ai/primeros-pasos/instalacion-digi3d-ai.md)
-    * [Usuarios de versiones anteriores](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/README.md)
+    * [Información para usuarios de versiones 2005 y 2007](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/README.md)
       * [Configuración para tarjetas gráficas antiguas](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/configuracion-tarjetas-graficas-antiguas.md)
       * [Ubicación de los archivos de tablas](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/ubicacion-archivo-tablas.md)
       * [Archivos de configuración de teclas](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/archivos-configuracion-teclas.md)
