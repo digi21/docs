@@ -69,7 +69,7 @@ En la tabla, **Menú** es la ruta del submenú en la interfaz en español y **Po
 | `ViewGroup3Group3` | 46 | Ver > Parámetros de visualización | Tras «Rellenar polígonos en la vista fotogramétrica». |
 | `ViewGroup3Group4` | 47 | Ver > Parámetros de visualización | Tras «Mostrar sombreados en la ventana fotogramétrica». |
 | `ViewGroup3Group5` | 48 | Ver > Parámetros de visualización | Tras el separador posterior a las órdenes de `ViewGroup3Group4`. |
-| `ViewGroup3Group6` | 49 | — | No aparece: el menú no tiene marcador para este grupo. |
+| `ViewGroup3Group6` | 49 | Ver > Parámetros de visualización | Tras «Entidades virtuales». |
 | `ZoomsGroup1` | 50 | Zooms | Tras «Zoom anterior». |
 | `ZoomsGroup2` | 51 | Zooms | Tras «Zoom a la extensión del recinto (por inundación)». |
 | `ZoomsGroup3` | 52 | Zooms | Tras «Mover cámara FPS». |
@@ -148,7 +148,7 @@ En la tabla, **Menú** es la ruta del submenú en la interfaz en español y **Po
 | `GeometricAnalysisGroup1Group7` | 125 | Análisis geométricos > Detectar bucles | Tras «Líneas visibles». |
 | `GeometricAnalysisGroup1Group8` | 126 | Análisis geométricos > Detectar bucles | Tras la lista de etiquetas. |
 | `GeometricAnalysisGroup1Group9` | 127 | Análisis geométricos > Detectar ZigZag | Tras «Líneas visibles». |
-| `GeometricAnalysisGroup1Group10` | 128 | Análisis geométricos > Detectar ZigZag | No aparece: el marcador de esta posición muestra la lista de etiquetas de «Detectar ZigZag». |
+| `GeometricAnalysisGroup1Group10` | 128 | Análisis geométricos > Detectar ZigZag | Tras la lista de etiquetas. |
 | `GeometricAnalysisGroup2` | 129 | Análisis geométricos | Tras «Detectar errores de atributos de BBDD entre archivos». |
 | `GeometricAnalysisGroup2Group1` | 130 | Análisis geométricos > Detectar líneas no conectadas | Tras «Líneas visibles». |
 | `GeometricAnalysisGroup2Group2` | 131 | Análisis geométricos > Detectar líneas no conectadas | Tras la lista de etiquetas. |
@@ -156,11 +156,11 @@ En la tabla, **Menú** es la ruta del submenú en la interfaz en español y **Po
 | `GeometricAnalysisGroup2Group4` | 133 | Análisis geométricos > Detectar líneas no conectadas (3D) | Tras la lista de etiquetas. |
 | `GeometricAnalysisGroup3` | 134 | Análisis geométricos | Tras «Desagrupar entidades». |
 | `GeometricAnalysisGroup4` | 135 | Análisis geométricos | Tras «Unir líneas si coincide la Z». |
-| `SemanticModelGroup1` | 136 | Control de calidad | No aparece: en la posición del grupo, tras «Analizar control de calidad», se muestran las órdenes de `FloodingGroup1`. |
-| `SemanticModelGroup1Group1` | 137 | Control de calidad > Analizar control de calidad | No aparece: en la posición del grupo, tras «Geometrías visibles», se muestran las órdenes de `FloodingGroup1`. |
-| `SemanticModelGroup1Group2` | 138 | Control de calidad > Analizar control de calidad | No aparece: en la posición del grupo, tras la lista de etiquetas, se muestran las órdenes de `FloodingGroup1`. |
-| `SemanticModelGroup2` | 139 | Control de calidad | No aparece: en la posición del grupo, tras «Analizar control de calidad al digitalizar entidad», se muestran las órdenes de `FloodingGroup1`. |
-| `FloodingGroup1` | 140 | Inundación | Tras «Descargar topología para inundaciones». Las órdenes de este grupo aparecen también en las cuatro posiciones de los grupos `SemanticModelGroup…`. |
+| `SemanticModelGroup1` | 136 | Control de calidad | Tras «Analizar control de calidad». |
+| `SemanticModelGroup1Group1` | 137 | Control de calidad > Analizar control de calidad | Tras «Geometrías visibles». |
+| `SemanticModelGroup1Group2` | 138 | Control de calidad > Analizar control de calidad | Tras la lista de etiquetas. |
+| `SemanticModelGroup2` | 139 | Control de calidad | Tras «Analizar control de calidad al digitalizar entidad». |
+| `FloodingGroup1` | 140 | Inundación | Tras «Descargar topología para inundaciones». |
 | `FloodingGroup2` | 141 | Inundación | Tras «Cambiar códigos». |
 | `FloodingGroup3` | 142 | Inundación | Tras «Copiar centroide». |
 | `TopologyGroup1` | 143 | Topología | Tras «Descargar topologías». |
@@ -197,11 +197,7 @@ En la tabla, **Menú** es la ruta del submenú en la interfaz en español y **Po
 | `WindowGroup2Group1` | 174 | Ventana > Barras de herramientas | Tras «Barra de herramientas». |
 | `WindowGroup3` | 175 | Ventana y Análisis geométricos | Tras «Organizar iconos» y, en Análisis geométricos, en los grupos 3, 4 y 5: dos veces en «Detectar entidades duplicadas», «Agrupar entidades duplicadas» y «Eliminar entidades duplicadas», dos veces en cada submenú de «Unir líneas» («Independientemente del número de líneas que lleguen al nodo» y «En nodos a los que llegan dos entidades») y tras «Juntar vértices cercanos...». |
 
-En la versión 26.0.0, ocho valores no producen ninguna opción en su posición:
-
-- `ViewGroup3Group6`, `InmediateGroup10Group1` y `TopologyGroup3Group3`: el menú no tiene marcador para esos grupos.
-- `GeometricAnalysisGroup1Group10`: Digi3D.AI usa el marcador para la lista de etiquetas de **Detectar ZigZag**.
-- `SemanticModelGroup1`, `SemanticModelGroup1Group1`, `SemanticModelGroup1Group2` y `SemanticModelGroup2`: los cuatro marcadores del menú **Control de calidad** muestran las órdenes de `FloodingGroup1`.
+Dos valores no producen ninguna opción: `InmediateGroup10Group1` y `TopologyGroup3Group3`. El menú no tiene marcador para esos grupos.
 
 ## Ejemplo
 
