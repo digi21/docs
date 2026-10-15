@@ -1,58 +1,47 @@
 # Disjoint
 <!-- id: disjoint-2 -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si la línea es disjunta al área.
+Indica si la línea y el área son disjuntas.
 
 ![Línea disjunta a área](../../../../../../../../../images/lineaareanocoincidentes1.png)
 
-### Sobrecargas
-
-|                                                                                              |                                                                                                                                |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| [Disjoint(ReadOnlyLine, ReadOnlyLine)](disjoint.md#disjoint-readonlyline-readonlyline)       | Indica si la línea es disjunta al área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).        |
-| [Disjoint(ReadOnlyLine, ReadOnlyPolygon)](disjoint.md#disjoint-readonlyline-readonlypolygon) | Indica si la línea es adyacente al área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
-
-## Disjoint(ReadOnlyLine, ReadOnlyLine)
-
-Indica si la línea es disjunta al área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
-
 ```csharp
 public static bool Disjoint(ReadOnlyLine line, ReadOnlyLine area)
+public static bool Disjoint(ReadOnlyLine line, ReadOnlyPolygon area)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `line` | Línea. |
+| `area` | Área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
+## Valor devuelto
 
-`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Área.
+### Disjoint(ReadOnlyLine, ReadOnlyLine)
 
-## Devuelve
+`true` si se cumplen las dos condiciones:
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea es y el área son disjuntas.
+* Ningún vértice de `line` coincide con un vértice de `area`, o las cajas envolventes en planta no se tocan.
+* No todos los vértices de `line` están dentro de `area`.
 
-## Disjoint(ReadOnlyLine, ReadOnlyPolygon)
+La sobrecarga solo descarta las líneas con todos sus vértices dentro del área. Una línea con unos vértices dentro y otros fuera, sin vértices comunes con el área, también devuelve `true`.
 
-Indica si la línea es adyacente al área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
+### Disjoint(ReadOnlyLine, ReadOnlyPolygon)
 
-```csharp
-public static bool Disjoint(ReadOnlyLine line, ReadOnlyPolygon area) 
-```
+> En la versión 26.0.0, esta sobrecarga devuelve `true` solo si se cumplen las cuatro condiciones siguientes, y `false` en cualquier otro caso:
+>
+> * Las cajas envolventes en planta de la línea y del polígono se tocan.
+> * Ningún vértice de la línea coincide con un vértice del anillo exterior.
+> * Para algún hueco del polígono, [Join](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/join.md)`(line, hueco)` devuelve `true`.
+> * No todos los vértices de la línea están dentro del polígono.
+>
+> Por tanto, con un polígono sin huecos o con una línea alejada del polígono, la sobrecarga devuelve `false`.
 
-### Parámetros
+## Excepciones
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
-
-`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea es y el área son disjuntas.
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `line` o `area` es `null`. |

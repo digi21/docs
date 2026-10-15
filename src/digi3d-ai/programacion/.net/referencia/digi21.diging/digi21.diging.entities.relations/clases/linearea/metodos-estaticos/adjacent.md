@@ -1,58 +1,36 @@
 # Adjacent
 <!-- id: adjacent-2 -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si la línea es adyacente al área.
+Indica si la línea es adyacente al área: recorre parte del borde del área sin entrar en ella.
 
 ![Línea adyacente a área](../../../../../../../../../images/lineaadyacentearea.png)
 
-## Sobrecargas
-
-|                                                                                              |                                                                                                                                |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| [Adjacent(ReadOnlyLine, ReadOnlyLine)](adjacent.md#adjacent-readonlyline-readonlyline)       | Indica si la línea es adyacente al área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).       |
-| [Adjacent(ReadOnlyLine, ReadOnlyPolygon)](adjacent.md#adjacent-readonlyline-readonlypolygon) | Indica si la línea es adyacente al área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
-
-## Adjacent(ReadOnlyLine, ReadOnlyLine)
-
-Indica si la línea es adyacente al área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
-
 ```csharp
 public static bool Adjacent(ReadOnlyLine line, ReadOnlyLine area)
-```
-
-### Parámetros
-
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
-
-`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea es adyacente al área.
-
-## Adjacent(ReadOnlyLine, ReadOnlyPolygon)
-
-Indica si la línea es adyacente al área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
-
-```csharp
 public static bool Adjacent(ReadOnlyLine line, ReadOnlyPolygon area)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `line` | Línea. |
+| `area` | Área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
 
-`line` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Línea.
+## Valor devuelto
 
-`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Área.
+`true` si se cumplen las dos condiciones:
 
-## Devuelve
+* La línea comparte al menos un lado con el área: dos vértices consecutivos de la línea coinciden con dos vértices consecutivos del área. Con un `ReadOnlyPolygon`, el lado puede ser del anillo exterior o de un hueco.
+* Ningún vértice de la línea está dentro del área. Los vértices fuera del área o sobre el borde están permitidos.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si la línea es adyacente al área.
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `line` o `area` es `null`. |
+
+## Ejemplo
+
+Lee el [ejemplo de LineArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/#ejemplo).
