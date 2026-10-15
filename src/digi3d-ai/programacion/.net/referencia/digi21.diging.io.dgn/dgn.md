@@ -49,7 +49,7 @@ El sistema de referencia de coordenadas del archivo se obtiene así:
 
 En los casos 2 y 3, si el archivo no se abre en solo lectura, se crea el archivo `.prj` con ese WKT.
 
-Los constructores lanzan `Exception`, con el mensaje del error, si no se puede abrir o crear el archivo `.dgn` o el `.prj`.
+Los constructores lanzan `ArgumentOutOfRangeException` si `parameters.CodeCriteria` no es un valor de [DgnCodeCriteria](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgncodecriteria.md), y `Exception`, con el mensaje del error, si no se puede abrir o crear el archivo `.dgn` o el `.prj`.
 
 Los avisos que se producen dentro del constructor se notifican con el evento `TaskAdded` antes de que el constructor termine. Un manejador que se suscribe después de crear el `Dgn` no recibe esos avisos.
 
