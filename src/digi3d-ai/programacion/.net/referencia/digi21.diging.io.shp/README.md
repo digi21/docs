@@ -1,7 +1,7 @@
 # Digi21.DigiNG.IO.Shp
 <!-- id: digi21.diging.io.shp -->
 
-Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Io.Shp) proporciona un importador/exportador de archivos Shapefile.
+Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.IO.Shp/) proporciona un importador/exportador de archivos Shapefile.
 
 ### Package manager
 ```bash
@@ -18,7 +18,9 @@ dotnet add package Digi21.DigiNG.IO.Shp --version 26.0.0
 <PackageReference Include="Digi21.DigiNG.IO.Shp" Version="26.0.0" />
 ```
 
+## Tipos
 
-
-
-
+| Tipo | Descripción |
+| :--- | :--- |
+| [Shp](shp.md) | Carpeta de archivos Shapefile de ESRI: cada archivo `.shp` es una capa. |
+| [CodePage](shp.md#codepage) | Codificación de los textos de las tablas `.dbf`. |
