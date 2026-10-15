@@ -14,18 +14,12 @@ public IEnumerable<Entity> Entities { get; }
 
 Las entidades del complejo, en orden, del tipo de cada una. Las entidades de un complejo que pertenece a un archivo de dibujo tienen como `Owner` ese archivo y son de solo lectura.
 
-> En la versión 26.0.0, la propiedad lanza `InvalidCastException` siempre: devuelve el enumerador de las entidades convertido en `IEnumerable<Entity>`, y el enumerador no implementa esa interfaz. Para recorrer las entidades de un complejo leído de un archivo, recorre `Entities` de la copia que devuelve [Clone](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/metodos/clone.md). En un [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/), `Complex.Entities` oculta esta propiedad y funciona, salvo si se lee con una variable de tipo `ReadOnlyComplex`.
-
-## Excepciones
-
-| Excepción | Cuándo |
-| :--- | :--- |
-| `InvalidCastException` | Siempre, en la versión 26.0.0. |
+Cada llamada a `GetEnumerator` crea un enumerador nuevo. `MoveNext` lanza `InvalidOperationException` si el número de entidades del complejo cambia durante el recorrido. En un [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/), `Complex.Entities` oculta esta propiedad y devuelve una colección de lectura y escritura.
 
 ## Ejemplo
 
 ```csharp
 // complejo es un ReadOnlyComplex leído de un archivo.
-foreach (var parte in complejo.Clone().Entities)
+foreach (var parte in complejo.Entities)
     Console.WriteLine(parte.GetType().Name);
 ```

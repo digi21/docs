@@ -24,7 +24,7 @@ Los miembros heredados de `Entity` se describen en [Entity](/digi3d-ai/programac
 
 | Propiedad | Descripción |
 | :--- | :--- |
-| [`IEnumerable<Entity> Entities { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/propiedades/entities.md) | Entidades del complejo. En la versión 26.0.0 lanza `InvalidCastException`; lee la página de la propiedad. |
+| [`IEnumerable<Entity> Entities { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/propiedades/entities.md) | Entidades del complejo, en orden, del tipo de cada una. |
 
 ## Métodos
 
@@ -47,7 +47,7 @@ if (args.Length != 1)
     return 1;
 }
 
-using var entrada = new BinDouble(args[0], new DatabaseConnectionProperties(), true);
+using var entrada = new BinDouble(args[0], true);
 
 foreach (var entidad in entrada)
 {
@@ -56,9 +56,7 @@ foreach (var entidad in entrada)
 
     Console.WriteLine($"Complejo {complejo.Codes[0].Name}");
 
-    // ReadOnlyComplex.Entities lanza InvalidCastException en la versión 26.0.0:
-    // se recorren las entidades de la copia que devuelve Clone().
-    foreach (var parte in complejo.Clone().Entities)
+    foreach (var parte in complejo.Entities)
         Console.WriteLine($"  {parte.GetType().Name} {parte.Codes[0].Name}");
 }
 
