@@ -1928,6 +1928,7 @@
           * [UtilidadesEntity](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadesentity.md)
           * [UtilidadesReadOnlyLine](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadesreadonlyline.md)
           * [UtilidadesSecuenciaEntity](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadessecuenciaentity.md)
+          * [UtilidadesSecuenciaIntersecciones](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadessecuenciaintersecciones.md)
         * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
         * [Digi21.DigiNG.IO.Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/README.md)
           * [Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
