@@ -10,8 +10,6 @@ Calcula áreas, perímetros y distancias según el sistema de referencia de coor
 public sealed class GeographicCalculator
 ```
 
-El paquete de referencia declara la clase como `public class`, sin `sealed`.
-
 La clase no tiene constructores públicos. El objeto se obtiene con la propiedad estática [DigiNG.GeographicCalculator](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), que crea un objeto nuevo en cada lectura. El objeto queda ligado a la ventana de dibujo activa en el momento de obtenerlo: cuando esa ventana se cierra, todos los métodos lanzan `ObjectDisposedException`.
 
 El cálculo depende de la parte horizontal del sistema de referencia de coordenadas de la ventana de dibujo:
@@ -28,15 +26,11 @@ El cálculo depende de la parte horizontal del sistema de referencia de coordena
 | `double CalculateDistance2D(Point2D pointA, Point2D pointB)`<br>`double CalculateDistance2D(Point3D pointA, Point3D pointB)` | Distancia entre los dos puntos en el plano X, Y. |
 | `double CalculateDistance3D(Point3D pointA, Point3D pointB)` | Distancia entre los dos puntos teniendo en cuenta la diferencia de Z. Con un sistema geográfico, es la raíz cuadrada de la suma de los cuadrados de la distancia geodésica y la diferencia de Z. |
 | `double CalculatePerimeter2D(ReadOnlyLine line)` | Suma de las distancias en el plano X, Y entre cada vértice de la línea y el siguiente. |
-| `double CalculatePerimeter3D(ReadOnlyLine line)` | Suma de las distancias 3D entre cada vértice de la línea y el siguiente. Lee la nota de este apartado. |
+| `double CalculatePerimeter3D(ReadOnlyLine line)` | Suma de las distancias 3D entre cada vértice de la línea y el siguiente, con la Z de cada vértice. |
 | `double CalculateArea(ReadOnlyLine line)` | Área de la línea en el plano X, Y. Lanza `Exception` si la línea no está cerrada (`Closed` vale `false`). |
-| `double CalculateArea(ReadOnlyPolygon polygon)` | Área del contorno exterior del polígono menos el área de cada hueco. Lee la nota de este apartado. |
+| `double CalculateArea(ReadOnlyPolygon polygon)` | Área del contorno exterior del polígono menos el área de cada hueco, calculada con los vértices del hueco. |
 
 El área tiene signo: es positiva si los vértices están en sentido horario y negativa si están en sentido antihorario. `CalculateArea(ReadOnlyPolygon)` resta el área de cada hueco con su signo, así que un hueco con el sentido contrario al del contorno exterior suma su área en lugar de restarla. Para obtener el área sin signo, usa `Math.Abs`.
-
-> En la versión 26.0.0:
-> - `CalculatePerimeter3D` no usa la Z de los vértices y devuelve el mismo valor que `CalculatePerimeter2D`.
-> - `CalculateArea(ReadOnlyPolygon)` calcula mal el área de un hueco que no tiene el mismo número de vértices que el contorno exterior: con menos vértices, el cálculo incluye vértices del contorno exterior; con más vértices, escribe fuera de la memoria reservada.
 
 Los parámetros son [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md), [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md), [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) y [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
 
