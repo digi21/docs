@@ -2,58 +2,36 @@
 <!-- id: disjoint-4 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
 Indica si el punto y el área son disjuntos.
 
-![Punto y &#xE1;rea disjuntos](../../../../../../../../../images/puntoareanocoincidentes.png)
-
-## Sobrecargas
-
-|  |  |
-| :--- | :--- |
-| [Disjoint\(ReadOnlyPoint, ReadOnlyLine\)](disjoint.md#disjoint-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
-| [Disjoint\(ReadOnlyPoint, ReadOnlyPolygon\)](disjoint.md#disjoint-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos. |
-
-## Disjoint\(ReadOnlyPoint, ReadOnlyLine\)
-
-Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos.
+![Punto y área disjuntos](../../../../../../../../../images/puntoareanocoincidentes.png)
 
 ```csharp
 public static bool Disjoint(ReadOnlyPoint point, ReadOnlyLine area)
-```
-
-### Parámetros
-
-`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Punto.
-
-`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Area.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si el punto y la línea son disjuntos.
-
-## Disjoint\(ReadOnlyPoint, ReadOnlyPolygon\)
-
-Indica si el [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/) son disjuntos.
-
-```csharp
 public static bool Disjoint(ReadOnlyPoint point, ReadOnlyPolygon area)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `point` | Punto, de tipo [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| `area` | Área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). En el ensamblado instalado, este parámetro se llama `line` o `polygon`. |
 
-`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Punto.
+## Valor devuelto
 
-`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)  
-Area.
+`true` si el punto no coincide con ningún vértice del área (anillo exterior ni huecos) y no está en el interior del área. Es el valor contrario de `Coincident(point, area) || Within(point, area)`.
 
-## Devuelve
+El método devuelve `true` con un punto fuera del área, con un punto dentro de un hueco de un polígono y con un punto sobre un lado del área que no coincide con ningún vértice.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si el punto y la línea son disjuntos.
+Con un `Point` creado en memoria, el método devuelve siempre `true`; lee la nota de [PointArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointarea/).
 
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `point` o `area` es `null`. |
+
+## Ejemplo
+
+Lee el [ejemplo de PointArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointarea/#ejemplo).

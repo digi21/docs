@@ -2,58 +2,34 @@
 <!-- id: coincident -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si el punto y el área son coincidentes.
+Indica si el punto coincide con un vértice del área.
 
-![Punto y &#xE1;rea coincidentes](../../../../../../../../../images/puntoareacoincidentes.png)
-
-## Sobrecargas
-
-|  |  |
-| :--- | :--- |
-| [Coincident\(ReadOnlyPoint, ReadOnlyLine\)](coincident.md#coincident-readonlypoint-readonlyline) | Indica si el [ReadOnlyPoint](../../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
-| [Coincident\(ReadOnlyPoint, ReadOnlyPolygon\)](coincident.md#coincident-readonlypoint-readonlypolygon) | Indica si el [ReadOnlyPoint](../../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
-
-## Coincident\(ReadOnlyPoint, ReadOnlyLine\)
-
-Indica si el [ReadOnlyPoint](../../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+![Punto y área coincidentes](../../../../../../../../../images/puntoareacoincidentes.png)
 
 ```csharp
 public static bool Coincident(ReadOnlyPoint point, ReadOnlyLine area)
-```
-
-### Parámetros
-
-`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Punto.
-
-`area` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)  
-Area.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si el punto y la línea son coincidentes.
-
-## Coincident\(ReadOnlyPoint, ReadOnlyPolygon\)
-
-Indica si el [ReadOnlyPoint](../../../../digi21.diging.entities/clases/readonlypoint/)es coincidente con el área de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
-
-```csharp
 public static bool Coincident(ReadOnlyPoint point, ReadOnlyPolygon area)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `point` | Punto, de tipo [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| `area` | Área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). En el ensamblado instalado, este parámetro se llama `line` o `polygon`. |
 
-`point` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Punto.
+## Valor devuelto
 
-`area` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)  
-Area.
+`true` si la coordenada del punto coincide con un vértice del área. Con un `ReadOnlyPolygon`, el vértice puede ser del anillo exterior o de un hueco. Un punto sobre un lado del área, sin coincidir con un vértice, devuelve `false`.
 
-## Devuelve
+Con un `Point` creado en memoria, el método devuelve siempre `false`; lee la nota de [PointArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointarea/).
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si el punto y la línea son coincidentes.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `point` o `area` es `null`. |
+
+## Ejemplo
+
+Lee el [ejemplo de PointArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointarea/#ejemplo).
