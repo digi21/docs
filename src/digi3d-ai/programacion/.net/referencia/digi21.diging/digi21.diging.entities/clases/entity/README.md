@@ -90,7 +90,7 @@ Console.WriteLine($"{línea.Color} {línea.Weight} {línea.FillColor?.ToString()
 Console.WriteLine($"{línea.Width} {línea.Height} {línea.Depth}");                         // 10 5 2
 Console.WriteLine(línea.ReadOnly);                                                        // False
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(línea);
 
 // La entidad pertenece ahora al archivo y es de solo lectura.
