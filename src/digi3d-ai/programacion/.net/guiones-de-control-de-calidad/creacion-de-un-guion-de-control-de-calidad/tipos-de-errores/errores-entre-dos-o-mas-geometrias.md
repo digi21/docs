@@ -1,32 +1,64 @@
 # Errores entre dos o más geometrías
 <!-- id: errores-entre-dos-o-mas-geometrias -->
 
-El guion puede comunicar a Digi3D.AI que ha localizado un error de relación entre la geometría que se ha ordenado almacenar y otra geometría existente en el archivo de dibujo lanzando una excepción de tipo [GeometricRelationException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometricrelationexception.md):
+Para comunicar que la relación de la geometría analizada con otras geometrías no cumple el control (por ejemplo, que dos líneas se cruzan), la función devuelve un `digi3d.GeometryRelationError`:
 
-```csharp
-using System;
-using System.Collections.Generic;
-using Digi21.DigiNG.Entities;
-using Digi21.DigiNG.Plugin.QualityControl;
-using Digi21.Utilities;
-using ng = Digi21.DigiNG.DigiNG;
-
-namespace DigiTab
-{
-    public class Desencadenador : ITrigger 
-    {
-	    public Entity AnalyzeEntity(Entity entidad, bool almacenandoEntidad) 
-        {
-		    var existentes = new List<Entity>(ng.DrawingFile.QueTenganElCódigo(entidad.Codes[0].Name));
-            if( existentes.Count == 0)
-                return entidad;
-                
-            if( existentes.Count == 0)
-                return entidad;
-                
-            throw new GeometricRelationException(existentes[0], "Ya existe una geometría con este código");  
-        }
-    }
-}
+```python
+GeometryRelationError(otherGeometry, message)
+GeometryRelationError(otherGeometry, message, coordinates)
+GeometryRelationError(geometries, message)
+GeometryRelationError(geometries, message, coordinates)
 ```
 
+| Argumento | Descripción |
+| :--- | :--- |
+| `otherGeometry` | La otra geometría que interviene en el error. |
+| `geometries` | Lista de las otras geometrías que intervienen. |
+| `message` | Descripción del error. |
+| `coordinates` | Tupla `(x, y, z)` con la posición del error. |
+
+* Al digitalizar, Digi3D.AI lo trata como un `GeometryError`: abre el cuadro de diálogo **Error de control de calidad**.
+* Bajo demanda, Digi3D.AI añade una tarea de error al panel de tareas con una subtarea para la geometría analizada y otra para cada geometría relacionada. Si el error tiene coordenadas, la tarea principal lleva a ellas.
+
+Para localizar las otras geometrías, la función recorre la ventana de dibujo con `digi3d.current_view()`.
+
+## Ejemplo
+
+Del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). `no_eliminadas`, `cuyas_maximas_minimas_solapen_con` y `que_tengan_el_codigo_o_etiqueta` son funciones auxiliares del mismo archivo `guiones.py`. Al digitalizar, la función devuelve el primer cruce; bajo demanda, devuelve una lista con todos:
+
+```python
+@quality_control()
+def si_es_linea_no_puede_cruzar_linea(geometry, adding_geometry, code_index, código_o_etiqueta_lineas_analizar, mensaje):
+    'Si la geometría que se está analizando es una línea, comunica un error si esta se cruza con otra línea.'
+    if type(geometry) is not digi3d.Line:
+        return
+
+    candidatos = no_eliminadas(digi3d.current_view())
+    candidatos = cuyas_maximas_minimas_solapen_con(candidatos, geometry)
+    candidatos = que_tengan_el_codigo_o_etiqueta(candidatos, código_o_etiqueta_lineas_analizar)
+
+    errores_detectados = []
+
+    for candidato in candidatos:
+        # cross_vertices solo admite dos geometrías de tipo Line
+        if type(candidato) is not digi3d.Line:
+            continue
+
+        if candidato == geometry:
+            continue
+
+        vertices_de_cruce = geometry.cross_vertices(candidato, adding_geometry)
+        if len(vertices_de_cruce) == 0:
+            continue
+        
+        if adding_geometry:
+            return digi3d.GeometryRelationError(candidato, mensaje, geometry[vertices_de_cruce[0]])
+
+        for vertice in vertices_de_cruce:
+            errores_detectados.append(digi3d.GeometryRelationError(candidato, mensaje, geometry[vertice]))
+
+    if len(errores_detectados) == 0:
+        return
+
+    return errores_detectados  
+```
