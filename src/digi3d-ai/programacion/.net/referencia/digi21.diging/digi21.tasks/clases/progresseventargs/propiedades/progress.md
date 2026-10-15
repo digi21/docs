@@ -1,18 +1,15 @@
 # Progress
 <!-- id: progress -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el valor de progreso.
+Porcentaje de progreso de la operación.
 
 ```csharp
- public int Progress { get; }
+public int Progress { get; }
 ```
 
 ## Valor de la propiedad
 
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0)
-
-Progreso. Es un número entre 0 y 100.
-
+`int`: valor del parámetro `progress` del [constructor](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/constructores.md), o 0 si ese valor era negativo.
