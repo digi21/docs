@@ -1,18 +1,34 @@
 # LocalizableCommandInMenuAttribute
 <!-- id: localizablecommandinmenuattribute -->
 
-Espacio de nombres: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.Plugin.Menu`  
+Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Decora una clase para convertirla en una opción de un menú asignándole un título obtenido de un archivo de recursos localizable.
+Igual que [CommandInMenuAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.menu/atributos/commandinmenuattribute.md), con el texto de la opción del menú leído de los recursos de la extensión.
 
 ```csharp
+[AttributeUsage(AttributeTargets.Class)]
 public class LocalizableCommandInMenuAttribute : CommandInMenuAttribute
 ```
 
+Hereda de: [CommandInMenuAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.menu/atributos/commandinmenuattribute.md).
+
 ## Constructores
 
-|  |  |
-| :--- | :--- |
-| LocalizableCommandInMenuAttribute\(Type, string, MenuItemGroup\) |  |
+```csharp
+public LocalizableCommandInMenuAttribute(Type resourceManagerProvider, string titleResource, MenuItemGroup group)
+```
 
+| Parámetro | Descripción |
+| :--- | :--- |
+| `resourceManagerProvider` | Tipo con una propiedad estática no pública de tipo `ResourceManager`. Las condiciones son las de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md#proveedor-de-recursos). |
+| `titleResource` | Clave del recurso con el texto de la opción. Se asigna a `Title`. |
+| `group` | Posición del menú. Se asigna a `Group`. |
+
+El constructor lanza `ArgumentException` si `resourceManagerProvider` no tiene una propiedad estática no pública de tipo `ResourceManager` o si el recurso no contiene la clave `titleResource`.
+
+Digi3D.AI crea el atributo cada vez que el usuario abre el submenú de la posición `group`, no al cargar la extensión. En la versión 26.0.0, Digi3D.AI no captura la `ArgumentException` del constructor en ese momento: comprueba las claves de los recursos antes de distribuir la extensión.
+
+## Ejemplo
+
+El ejemplo de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md#ejemplo) añade la orden `CUENTA_LINEAS` al menú **Herramientas**, después de **Configuración...**, con el texto del recurso `CuentaLineasMenu`.
