@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Botón del dispositivo de entrada. Lo usan [DigiNG.SendInputDeviceEvent](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), para indicar el botón del evento que se envía, y `OnMove` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md) (evento `Move`), para indicar el botón pulsado mientras se mueve el cursor.
+Botón del dispositivo de entrada. Lo usan [DigiNG.SendInputDeviceEvent](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), para indicar el botón del evento que se envía, y `OnMove` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md) (evento `Move`), para indicar el botón pulsado mientras se mueve el cursor.
 
 ```csharp
 public enum InputDeviceButton

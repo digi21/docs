@@ -11,7 +11,7 @@ Añade una opción al menú de la ventana de dibujo que ejecuta la orden impleme
 public class CommandInMenuAttribute : Attribute
 ```
 
-El atributo solo tiene efecto en una clase registrada como orden, es decir, con [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/commandattribute.md) o [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md).
+El atributo solo tiene efecto en una clase registrada como orden, es decir, con [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/commandattribute.md) o [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md).
 
 Cada vez que el usuario abre el submenú que contiene la posición `Group`, Digi3D.AI lee este atributo en todas las órdenes .NET registradas y añade, en esa posición, una opción con el texto `Title` por cada orden cuyo `Group` coincide. Al seleccionar la opción, Digi3D.AI ejecuta la orden por su nombre, sin parámetros. La tabla de [MenuItemGroup](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.menu/enumeraciones/menuitemgroup.md) indica la posición de cada grupo y los grupos que no aparecen en el menú.
 
@@ -41,4 +41,4 @@ public CommandInMenuAttribute(string title, MenuItemGroup group)
 
 ## Ejemplo
 
-La orden de ejemplo de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md#ejemplo) tiene los atributos `[Command(Name = "MIDE_DISTANCIA")]` y `[CommandInMenu("Medir la distancia entre dos puntos", MenuItemGroup.InmediateGroup4)]`. La opción **Medir la distancia entre dos puntos** aparece en el menú **Inmediato**, después de **Mide segmento**, y ejecuta `MIDE_DISTANCIA`.
+La orden de ejemplo de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md#ejemplo) tiene los atributos `[Command(Name = "MIDE_DISTANCIA")]` y `[CommandInMenu("Medir la distancia entre dos puntos", MenuItemGroup.InmediateGroup4)]`. La opción **Medir la distancia entre dos puntos** aparece en el menú **Inmediato**, después de **Mide segmento**, y ejecuta `MIDE_DISTANCIA`.

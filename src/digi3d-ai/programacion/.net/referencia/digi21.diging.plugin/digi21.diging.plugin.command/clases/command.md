@@ -10,17 +10,17 @@ Clase base de las órdenes de Digi3D.AI escritas en .NET. Una orden recibe los e
 public abstract class Command : ICommand, IDisposable
 ```
 
-Implementa: [ICommand](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/interfaces/icommand.md) e `IDisposable`.
+Implementa: [ICommand](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/interfaces/icommand.md) e `IDisposable`.
 
 ## Registro de la orden
 
-Digi3D.AI recorre los tipos públicos de cada extensión que carga y registra como orden cada clase que tiene el atributo [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/commandattribute.md) o [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md). El nombre de la orden es la propiedad `Name` del atributo convertida a minúsculas. El [tutorial de extensiones](/digi3d-ai/programacion/.net/tutorial-extension.md) explica cómo se carga una extensión.
+Digi3D.AI recorre los tipos públicos de cada extensión que carga y registra como orden cada clase que tiene el atributo [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/commandattribute.md) o [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md). El nombre de la orden es la propiedad `Name` del atributo convertida a minúsculas. El [tutorial de extensiones](/digi3d-ai/programacion/.net/tutorial-extension.md) explica cómo se carga una extensión.
 
 Cada vez que el usuario ejecuta la orden, Digi3D.AI crea un objeto nuevo de la clase con su constructor público sin parámetros y lo convierte a `Command`:
 
 - Si la clase no tiene constructor público sin parámetros, Digi3D.AI muestra un mensaje de error y no ejecuta la orden.
 - Si el constructor lanza una excepción, Digi3D.AI muestra el mensaje de la excepción (el de `InnerException`, si existe) y no ejecuta la orden.
-- La clase tiene que derivar de `Command`. Implementar [ICommand](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/interfaces/icommand.md) sin derivar de `Command` no basta.
+- La clase tiene que derivar de `Command`. Implementar [ICommand](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/interfaces/icommand.md) sin derivar de `Command` no basta.
 
 Una orden también se puede apilar desde código, sin atributo, con el método `Push` de [Commands](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/commands.md).
 
@@ -68,8 +68,8 @@ Los métodos `On…` son virtuales. Digi3D.AI los llama para notificar cada even
 | `virtual bool OnSnapUp(Point3D groundPoint)` | Produce `SnapUp` y devuelve `true` si la orden tiene algún manejador de `SnapUp`; si no, devuelve `false`. |
 | `virtual bool OnResetDown(Point3D groundPoint)` | Produce `ResetDown` y devuelve `true` si la orden tiene algún manejador de `ResetDown`; si no, devuelve `false`. Si devuelve `false`, Digi3D.AI emite un pitido y termina la orden. |
 | `virtual bool OnResetUp(Point3D groundPoint)` | Produce `ResetUp`. Lee la nota de este apartado. |
-| `virtual void OnMove(Point3D groundPoint, InputDeviceButton button)` | Produce `Move` con un [MoveEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/moveeventargs.md). |
-| `virtual void OnEntitySelected(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex)` | Produce `EntitySelected` con un [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/entityselectedeventargs.md). |
+| `virtual void OnMove(Point3D groundPoint, InputDeviceButton button)` | Produce `Move` con un [MoveEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/moveeventargs.md). |
+| `virtual void OnEntitySelected(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex)` | Produce `EntitySelected` con un [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/entityselectedeventargs.md). |
 
 `groundPoint` contiene las coordenadas terreno del cursor en el momento del evento.
 
@@ -89,7 +89,7 @@ Los métodos `On…` son virtuales. Digi3D.AI los llama para notificar cada even
 | `EventHandler<Point3DEventArgs> ResetDown` | El usuario pulsa el botón de reset. |
 | `EventHandler<Point3DEventArgs> ResetUp` | El usuario suelta el botón de reset. Lee la nota del apartado «Métodos». |
 | `EventHandler<MoveEventArgs> Move` | El usuario desplaza el cursor en la ventana de dibujo. |
-| `EventHandler<EntitySelectedEventArgs> EntitySelected` | La orden recibe una entidad seleccionada. Los casos están en [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/entityselectedeventargs.md). |
+| `EventHandler<EntitySelectedEventArgs> EntitySelected` | La orden recibe una entidad seleccionada. Los casos están en [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/entityselectedeventargs.md). |
 | `EventHandler Disposing` | La orden termina. Lee el apartado «Ciclo de vida». |
 
 Los eventos de botón usan [Point3DEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3deventargs.md): `Coordinates` contiene las coordenadas terreno del cursor.
@@ -172,4 +172,4 @@ public class OrdenMideDistancia : Command
 }
 ```
 
-La página de [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/entityselectedeventargs.md) tiene un ejemplo que sobrescribe `OnDataUp` en lugar de suscribirse a `DataUp`.
+La página de [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/entityselectedeventargs.md) tiene un ejemplo que sobrescribe `OnDataUp` en lugar de suscribirse a `DataUp`.

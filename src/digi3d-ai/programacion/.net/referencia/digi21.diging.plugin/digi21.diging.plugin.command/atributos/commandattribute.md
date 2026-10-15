@@ -11,7 +11,7 @@ Marca una clase como orden de Digi3D.AI y le asigna el nombre con el que el usua
 public class CommandAttribute : Attribute
 ```
 
-Digi3D.AI registra como orden cada clase pública de la extensión que tiene este atributo o un atributo derivado, como [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md). La clase tiene que derivar de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md) y tener un constructor público sin parámetros.
+Digi3D.AI registra como orden cada clase pública de la extensión que tiene este atributo o un atributo derivado, como [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md). La clase tiene que derivar de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md) y tener un constructor público sin parámetros.
 
 El nombre de la orden es `Name` convertido a minúsculas: Digi3D.AI no distingue mayúsculas de minúsculas al ejecutarla. Si ya hay una orden .NET registrada con ese nombre, Digi3D.AI conserva la que ya tenía y no registra la nueva; la orden `CARGA_ENSAMBLADO` lo indica en la ventana de resultados. Si `Name` es `null`, Digi3D.AI no registra la clase.
 
@@ -52,4 +52,4 @@ public class OrdenMideDistancia2D : Command
 }
 ```
 
-La orden completa de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md#ejemplo) usa `[Command(Name = "MIDE_DISTANCIA")]`.
+La orden completa de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md#ejemplo) usa `[Command(Name = "MIDE_DISTANCIA")]`.

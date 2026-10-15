@@ -11,7 +11,7 @@ Marca una clase como orden de Digi3D.AI y lee el nombre, la descripción y la di
 public class LocalizableCommandAttribute : CommandAttribute
 ```
 
-Hereda de: [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/commandattribute.md). Digi3D.AI trata las dos clases igual.
+Hereda de: [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/commandattribute.md). Digi3D.AI trata las dos clases igual.
 
 ## Proveedor de recursos
 
