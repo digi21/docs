@@ -61,8 +61,6 @@ Base de datos:
 
 Si `readOnly` es `false` y el archivo existe pero no se puede abrir en escritura (por ejemplo, porque otro proceso lo tiene abierto o porque tiene el atributo de solo lectura), el archivo se abre en solo lectura y `CanWrite` vale `false`. El constructor no lanza ninguna excepción en ese caso.
 
-> En la versión 26.0.0, el constructor `BinDouble(string, DatabaseConnectionProperties, DigiTab, DelegateGetWkt, bool)` no aplica `readOnly`: abre el archivo siempre en escritura. El constructor `BinDouble(string, DatabaseConnectionProperties)` toma de la configuración del usuario en Digi3D.AI si se leen los archivos de referencia (valor `OmitirCargaArchivosReferencia`); el resto de constructores los leen siempre.
-
 Los constructores lanzan `Exception`, con el mensaje del error, en estos casos:
 
 - no se puede abrir ni crear el archivo;
@@ -94,12 +92,12 @@ Los avisos que se producen dentro del constructor se notifican con el evento `Ta
 | Método | Descripción |
 | :--- | :--- |
 | `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades del archivo. Solo se puede pedir una vez por cada `BinDouble`: la segunda llamada lanza `InvalidOperationException`. Para recorrer el archivo otra vez, crea otro `BinDouble`. Las entidades son de solo lectura (`ReadOnlyLine`, `ReadOnlyPoint`, `ReadOnlyText`, `ReadOnlyPolygon` o `ReadOnlyComplex`) y su propiedad `Owner` es este archivo. Las entidades eliminadas también se devuelven, con `Deleted` a `true`. |
-| `void Add(Entity entity)` | Añade la entidad al final del archivo. Guarda en el archivo los valores de `entity.Attributes` que no son `null` y, en la base de datos, los atributos de cada código (`Code.Attributes`). Después de la llamada, `entity.Owner` es este archivo. |
+| `void Add(Entity entity)` | Añade la entidad al final del archivo. Guarda en el archivo los valores de `entity.Attributes` que no son `null` y, si el archivo tiene base de datos, los atributos de cada código (`Code.Attributes`). Sin base de datos, los atributos de los códigos no se guardan. Después de la llamada, `entity.Owner` es este archivo. |
 | `void Add(IEnumerable<Entity> entities)` | Añade las entidades al final del archivo, en el orden de la enumeración, con los atributos de sus códigos. Esta sobrecarga no guarda `entity.Attributes`. Si una entidad provoca una excepción, las entidades anteriores ya están añadidas. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Añade la entidad y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada en el archivo. La entidad sigue en el archivo con `Deleted` a `true`. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
+| `int IndexOf(Entity entity)` | Posición de la entidad entre las entidades que el archivo tiene en memoria, o `-1` si la entidad no pertenece a este archivo o no está entre ellas. Con `null` lanza `NullReferenceException`. |
 | `void Dispose()` | Cierra el archivo. |
 
 Excepciones de `Add` y `Delete`:
@@ -108,7 +106,7 @@ Excepciones de `Add` y `Delete`:
 | :--- | :--- |
 | `ArgumentNullException` | `entity` o `entities` es `null`. `Delete(IEnumerable<Entity>)` no comprueba si `entities` es `null`. |
 | `InvalidOperationException` | El archivo está abierto en solo lectura, o la entidad pertenece a otro archivo (su `Owner` es otro archivo). Para copiar una entidad de un archivo a otro, añade la copia que devuelve `Clone()`. |
-| `Exception` | Un código de la entidad tiene atributos (`Code.Attributes` no está vacío) y, en la tabla de códigos, ese código no tiene tabla de base de datos o su tabla no tiene esquema. También, con el mensaje del error, si la base de datos rechaza los atributos. |
+| `Exception` | El archivo tiene base de datos, un código de la entidad tiene atributos (`Code.Attributes` no está vacío) y, en la tabla de códigos, ese código no tiene tabla de base de datos o su tabla no tiene esquema. También, con el mensaje del error, si la base de datos rechaza los atributos. |
 
 Si la entidad ya está guardada en este archivo, `Add` y `Delete` no la vuelven a escribir: solo actualizan en el archivo la marca de eliminada.
 
