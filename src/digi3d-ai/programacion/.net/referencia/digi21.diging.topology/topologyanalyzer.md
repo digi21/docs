@@ -101,7 +101,7 @@ Asigna a la propiedad `Centroid` de cada polígono de `polygons` el primer texto
 | `duplicatedCentroids` | Recibe cada polígono que contiene más de un texto, junto con todos esos textos (el asignado incluido). |
 | `progressChanged` | Recibe el porcentaje de avance, de 0 a 99: se llama antes de analizar cada polígono, cuando el porcentaje cambia. |
 
-> En la versión 26.0.0 un mismo texto se puede asignar como centroide a varios polígonos: el código no marca como usado el texto asignado.
+Los polígonos se analizan en el orden de `polygons`. Un texto asignado como centroide a un polígono no se tiene en cuenta en los polígonos siguientes, ni para asignarlo ni para `duplicatedCentroids`. Un texto que un polígono contiene pero no se le asigna sigue disponible para los polígonos siguientes.
 
 Lanza `NullReferenceException` si algún elemento de `polygons` tiene `Polygon` a `null`, por ejemplo un `ClosedLoopWithHoles` creado con su constructor.
 
