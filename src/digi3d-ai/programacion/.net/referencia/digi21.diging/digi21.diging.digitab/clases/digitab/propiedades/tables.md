@@ -1,10 +1,10 @@
 # Tables
 <!-- id: tables -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve un diccionario de esquemas de base de datos.
+Tablas de base de datos que define el esquema de la tabla de códigos, con sus campos.
 
 ```csharp
 public IDictionary<string, IList<Tuple<string, Type>>> Tables { get; }
@@ -12,9 +12,15 @@ public IDictionary<string, IList<Tuple<string, Type>>> Tables { get; }
 
 ## Valor de la propiedad
 
-[IDictionary&lt;string, IList&lt;Tuple&lt;string, Type&gt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)
+Diccionario nuevo en cada lectura. La clave es el nombre de la tabla de base de datos y el valor es la lista de sus campos, en el orden del esquema. Cada campo es una tupla con el nombre del campo (`Item1`) y su tipo .NET (`Item2`):
 
-Devuelve un diccionario cuya clave es el nombre de cada una de las tablas cuyo esquema tenga definida la tabla de códigos y cuyo valor es una lista de cada uno de sus campos. La lista es de tipo tupla y el primer valor es el nombre de cada uno de los campos de la tabla, y el segundo valor es el tipo de campo.
+| Tipo del campo en el esquema | `Item2` |
+| :--- | :--- |
+| Carácter | `typeof(string)` |
+| Numérico | `typeof(int)` |
+| Coma flotante | `typeof(float)` |
+| Otro | `null` |
 
+Modificar el diccionario o las listas no cambia la tabla de códigos.
 
-
+La propiedad [NodeDigiTab.Table](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/propiedades/table.md) de cada código indica a cuál de estas tablas de base de datos está vinculado.

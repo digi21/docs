@@ -1,10 +1,10 @@
 # Codes
 <!-- id: codes -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve una enumeración de [NodeDigiTab](../../nodedigitab/)con las características de cada código perteneciente a la tabla de códigos.
+Códigos de la tabla de códigos.
 
 ```csharp
 public IEnumerable<NodeDigiTab> Codes { get; }
@@ -12,9 +12,6 @@ public IEnumerable<NodeDigiTab> Codes { get; }
 
 ## Valor de la propiedad
 
-[IEnumerable&lt;NodeDigiTab&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-5.0)
+`IEnumerable<NodeDigiTab>`. Cada lectura crea una matriz nueva con un [NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/) por código, en el orden de la tabla. Los `NodeDigiTab` no son copias: asignar una propiedad de uno de ellos cambia el código en la tabla. En una tabla no modificable, esas asignaciones lanzan `InvalidOperationException`.
 
-Códigos pertenecientes a la tabla de códigos.
-
-
-
+La matriz no cambia si después se añaden códigos con `AddCode`: lee la propiedad otra vez.

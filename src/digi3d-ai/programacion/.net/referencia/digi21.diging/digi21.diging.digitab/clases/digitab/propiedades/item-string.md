@@ -1,24 +1,36 @@
-# Item\[string\]
+# Item[string]
+<!-- id: digi21.diging.digitab.digitab.item -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el [NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/) con las características del código cuyo nombre coincide con el parámetro.
+Código de la tabla cuyo nombre o alias es el indicado.
 
 ```csharp
-public NodeDigiTab this[string name] 
+public NodeDigiTab this[string name] { get; }
 ```
 
 ## Parámetros
 
-`name`[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Nombre del código a obtener.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `name` | Nombre o alias del código. Se usan los 255 primeros caracteres. |
 
 ## Valor de la propiedad
 
-[NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/)
+[NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/) del primer código, en el orden de la tabla, cuyo nombre o alguno de cuyos alias es igual a `name`. La comparación distingue mayúsculas de minúsculas y no admite comodines: `*` y `?` se comparan como caracteres. El `NodeDigiTab` no es una copia: asignar una de sus propiedades cambia el código en la tabla.
 
-Código solicitado
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentOutOfRangeException` | Ningún código tiene ese nombre ni ese alias. Para comprobarlo antes, usa [HasCode](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md). |
 
+## Ejemplo
 
+```csharp
+using var tabla = DigiTab.Load(@"C:\Tablas\tabla.tab.xml");
+
+if (tabla.HasCode("020100"))
+    Console.WriteLine(tabla["020100"].Description);
+```
