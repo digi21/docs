@@ -2,9 +2,9 @@
 <!-- id: holes-2 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve una lista de solo lectura con los huecos del [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/).
+Huecos del polígono.
 
 ```csharp
 public IReadOnlyList<ReadOnlyLine> Holes { get; }
@@ -12,13 +12,15 @@ public IReadOnlyList<ReadOnlyLine> Holes { get; }
 
 ## Valor de la propiedad
 
-[IReadOnlyList&lt;ReadOnlyLine&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0)
+Una colección de solo lectura con los huecos, en orden. Cada hueco es una línea cerrada. Los huecos de un polígono que pertenece a un archivo de dibujo tienen como `Owner` ese archivo y son de solo lectura.
 
-Huecos del polígono.
+La primera lectura de la propiedad crea la colección, y las lecturas siguientes devuelven la misma instancia. La colección refleja los huecos que tiene el polígono en cada momento.
 
-## Observaciones
+En un [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/), `Polygon.Holes` oculta esta propiedad y devuelve una colección de lectura y escritura.
 
-Un polígono puede tener 0 o más huecos. Los son líneas cerradas que tienen la particularidad de que no se salen del polígono principal.
+## Ejemplo
 
-
-
+```csharp
+foreach (var hueco in polígono.Holes)
+    Console.WriteLine($"Hueco de {hueco.Points.Count} vértices");
+```
