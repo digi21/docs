@@ -2,19 +2,20 @@
 <!-- id: textheight-2 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna la altura de textos del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
+Devuelve o asigna la altura del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
 
 ```csharp
-public double TextHeight { get; }
+public new double TextHeight { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
+Altura del texto. En un `Text` nuevo vale 0. La asignación no comprueba el valor.
 
-Justificación de textos del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
+## Excepciones
 
-
-
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | Se asigna el valor y el texto es de solo lectura (`ReadOnly` es `true`). |

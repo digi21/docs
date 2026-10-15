@@ -2,19 +2,22 @@
 <!-- id: coordinate-4 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna las coordenadas de inserción del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
+Devuelve o asigna la coordenada de inserción del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
 
 ```csharp
-public Point3D Coordinate { get; set; }
+public new Point3D Coordinate { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)
+[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md) con las coordenadas X, Y y Z del punto de inserción. La posición del texto respecto a este punto la indica [Justification](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/justification.md). En un `Text` nuevo vale (0, 0, 0).
 
-Coordenadas de inserción del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
+La asignación no recalcula las coordenadas mínimas y máximas de la entidad (`Xmin`, `Valid`…).
 
+## Excepciones
 
-
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | Se asigna el valor y el texto es de solo lectura (`ReadOnly` es `true`). |

@@ -2,19 +2,22 @@
 <!-- id: rotation-4 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el ángulo de rotación \(en radianes\) del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
+Devuelve o asigna la rotación del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
 
 ```csharp
-public double Rotation { get; }
+public new double Rotation { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
+Ángulo en centésimas de grado sexagesimal: 9000 son 90°. En un `Text` nuevo vale 0.
 
-Ángulo de rotación en radianes del [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/).
+La propiedad lee y asigna sin conversión el campo de la entidad nativa en el que los importadores de Digi3D.AI (DGN, DWG, Geomedia…) guardan el ángulo en grados sexagesimales multiplicados por 100. [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md), en cambio, convierte ese valor a radianes. Para pasar de radianes a este valor, multiplica por `18000 / Math.PI`.
 
+## Excepciones
 
-
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | Se asigna el valor y el texto es de solo lectura (`ReadOnly` es `true`). |
