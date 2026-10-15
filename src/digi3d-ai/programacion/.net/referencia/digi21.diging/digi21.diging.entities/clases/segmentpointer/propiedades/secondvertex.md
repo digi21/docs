@@ -2,9 +2,9 @@
 <!-- id: secondvertex -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el índice al segundo vértice en el [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+Devuelve el índice del segundo vértice del segmento al que apunta el [SegmentPointer](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/segmentpointer/).
 
 ```csharp
 public int SecondVertex { get; }
@@ -12,7 +12,4 @@ public int SecondVertex { get; }
 
 ## Valor de la propiedad
 
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0)
-
-Índice al segundo vértice del [ReadOnlyLine](../../readonlyline/)al que está apuntando este [SegmentPointer](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/segmentpointer/).
-
+Valor del parámetro `secondVertex` del constructor: índice del vértice en `Line.Points`.
