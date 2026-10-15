@@ -1,32 +1,29 @@
 # StandarPointOfView
 <!-- id: standarpointofview -->
 
-Espacio de nombres: [Digi21.DigiNG.Cameras](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.Cameras`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta enumeración define los tipos de orientación estándar de una cámara.
+Orientaciones predefinidas de una cámara respecto al modelo.
 
 ```csharp
 public enum StandarPointOfView
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-5.0)→ StandarPointOfView
+Ningún miembro público de Digi3D.AI recibe ni devuelve este tipo: la orientación de una [Camera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/camera/) se indica con `Pitch`, `Yaw` y `Roll`.
 
-## Campos
+## Valores
 
-|  |  |  |
+| Valor | Número | Significado |
 | :--- | :--- | :--- |
-| Top | 0 | Indica que la cámara está encima del modelo apuntando para abajo. |
-| Bottom | 1 | Indica que la cámara está debajo del modelo apuntando para arriba. |
-| Left | 2 | Indica que la cámara está a la izquierda del modelo apuntando para la derecha. |
-| Right | 3 | Indica que la cámara está a la derecha del modelo apuntando para la izquierda. |
-| Front | 4 | Indica que la cámara está en frente del modelo mirando para atrás. |
-| Back | 5 | Indica que la cámara está detrás del modelo mirando para delante. |
-| SW | 6 | Indica que la cámara está en el sudoeste del modelo mirando para el centro de este. |
-| SE | 7 | Indica que la cámara está en el sudeste del modelo mirando para el centro de este. |
-| NE | 8 | Indica que la cámara está en el noreste del modelo mirando para el centro de este. |
-| NW | 9 | Indica que la cámara está en el noroeste del modelo mirando para el centro de este. |
-| Free | 10 | Indica que la cámara tiene una orientación que no coincide con ninguna de las anteriores. |
-
-## 
-
+| `Top` | 0 | Cámara encima del modelo, mirando hacia abajo. |
+| `Bottom` | 1 | Cámara debajo del modelo, mirando hacia arriba. |
+| `Left` | 2 | Cámara a la izquierda del modelo, mirando hacia la derecha. |
+| `Right` | 3 | Cámara a la derecha del modelo, mirando hacia la izquierda. |
+| `Front` | 4 | Cámara delante del modelo, mirando hacia atrás. |
+| `Back` | 5 | Cámara detrás del modelo, mirando hacia delante. |
+| `SW` | 6 | Cámara al suroeste del modelo, mirando hacia su centro. |
+| `SE` | 7 | Cámara al sureste del modelo, mirando hacia su centro. |
+| `NE` | 8 | Cámara al noreste del modelo, mirando hacia su centro. |
+| `NW` | 9 | Cámara al noroeste del modelo, mirando hacia su centro. |
+| `Free` | 10 | Orientación distinta de las anteriores. |
