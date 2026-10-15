@@ -62,11 +62,12 @@ complejo.Entities.Add(eje);
 
 Console.WriteLine(complejo.Entities.Count);   // 2
 
-// Recorrer con foreach: el indexador de Entities solo admite elementos Line.
+Console.WriteLine(complejo.Entities[0].GetType().Name); // Point
+
 foreach (var entidad in complejo.Entities)
     Console.WriteLine(entidad.GetType().Name); // Point, Line
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(complejo);
 return 0;
 ```
