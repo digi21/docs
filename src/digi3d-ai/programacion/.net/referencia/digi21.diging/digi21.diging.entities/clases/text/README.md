@@ -16,7 +16,7 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 Un `Text` creado con sus constructores no pertenece a ningún archivo de dibujo (`Owner` es `null`) y se puede modificar. Al añadirlo a un archivo de dibujo con `IDrawingFile.Add`, `Owner` pasa a ser ese archivo y la entidad pasa a ser de solo lectura: los descriptores `set` y los métodos `Offset` lanzan `InvalidOperationException`. Para modificar un texto guardado, modifica la copia que devuelve [Clone](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/metodos/clone.md).
 
-Un `Text` nuevo tiene la cadena vacía, la coordenada (0, 0, 0), la altura 0, la rotación 0 y la justificación `SouthWest`. Asignar `Coordinate` o llamar a `Offset` no recalcula las coordenadas mínimas y máximas de la entidad ([IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)): en un `Text` creado por código, `Valid` vale `false`, `Xmin` vale `null`, y `Width`, `Center`, `Color`, `Weight` y `FillColor` lanzan `InvalidOperationException`.
+Un `Text` nuevo tiene la cadena vacía, la coordenada (0, 0, 0), la altura 0, la rotación 0 y la justificación `SouthWest`, y sus coordenadas mínimas y máximas ([IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)) están sin calcular: `Valid` vale `false`, `Xmin` vale `null`, y `Width`, `Center`, `Color`, `Weight` y `FillColor` lanzan `InvalidOperationException`. Asignar `Coordinate` desplaza el texto y recalcula las coordenadas mínimas y máximas. Los métodos `Offset` desplazan el texto y no las recalculan.
 
 `Rotation` no usa la misma unidad que [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md): el valor de un texto está en centésimas de grado sexagesimal. Lee [Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md).
 
@@ -27,7 +27,7 @@ El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se he
 | Miembro | Descripción |
 | :--- | :--- |
 | [`Text(Code code)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/constructores.md) | Crea un texto con un código. |
-| [`Text(IEnumerable<Code> codigos)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/constructores.md) | Crea un texto con varios códigos, en el orden de la enumeración. |
+| [`Text(IEnumerable<Code> codes)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/constructores.md) | Crea un texto con varios códigos, en el orden de la enumeración. |
 
 ## Propiedades
 
@@ -65,7 +65,7 @@ if (args.Length != 1)
     return 1;
 }
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 
 // Un rótulo por cada valor de TextJustification, todos con el mismo punto de inserción en X.
 var y = 4480000.0;

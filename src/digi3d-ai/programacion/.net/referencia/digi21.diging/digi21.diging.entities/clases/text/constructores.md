@@ -8,7 +8,7 @@ Crean un [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.dig
 
 ```csharp
 public Text(Code code)
-public Text(IEnumerable<Code> codigos)
+public Text(IEnumerable<Code> codes)
 ```
 
 ## Parámetros
@@ -16,7 +16,7 @@ public Text(IEnumerable<Code> codigos)
 | Parámetro | Descripción |
 | :--- | :--- |
 | `code` | [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) del texto. |
-| `codigos` | Códigos del texto, en el orden de la enumeración. Puede estar vacía. |
+| `codes` | Códigos del texto, en el orden de la enumeración. Puede estar vacía. |
 
 `CreationTime` toma la hora del sistema en UTC en el momento de la construcción.
 
@@ -24,7 +24,7 @@ public Text(IEnumerable<Code> codigos)
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `NullReferenceException` | `codigos` es `null`. |
+| `NullReferenceException` | `codes` es `null`. |
 
 ## Ejemplo
 
