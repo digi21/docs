@@ -10,14 +10,14 @@ Constructores de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging
 ## Polygon(Code)
 
 ```csharp
-public Polygon(Code codigo)
+public Polygon(Code code)
 ```
 
 Crea un polígono con un código.
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `codigo` | Código del polígono. |
+| `code` | Código del polígono. |
 
 ```csharp
 var polígono = new Polygon(new Code("080100"));
@@ -27,18 +27,18 @@ var polígono = new Polygon(new Code("080100"));
 ## Polygon(IEnumerable&lt;Code&gt;)
 
 ```csharp
-public Polygon(IEnumerable<Code> codigos)
+public Polygon(IEnumerable<Code> codes)
 ```
 
-Crea un polígono con los códigos de `codigos`, en el orden de la enumeración. Una enumeración vacía crea un polígono sin códigos.
+Crea un polígono con los códigos de `codes`, en el orden de la enumeración. Una enumeración vacía crea un polígono sin códigos.
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `codigos` | Códigos del polígono. |
+| `codes` | Códigos del polígono. |
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `NullReferenceException` | `codigos` es `null`. |
+| `NullReferenceException` | `codes` es `null`. |
 
 ```csharp
 var polígono = new Polygon(new[]
