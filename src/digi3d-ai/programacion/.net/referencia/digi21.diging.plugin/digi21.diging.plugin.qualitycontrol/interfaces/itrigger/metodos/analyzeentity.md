@@ -29,10 +29,10 @@ Digi3D.AI entiende que, si este método no lanza ninguna excepción, que debe al
 
 Las excepciones que espera recibir Digi3D.AI cuando llama a este método son las siguientes:
 
-* [DatabaseAttributeException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/databaseattributeexception.md)
-* [DigitizeAsPointException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/digitizeaspointexception.md)
-* [GeometricRelationException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometricrelationexception.md)
-* [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometryexception.md)
+* [DatabaseAttributeException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/databaseattributeexception.md)
+* [DigitizeAsPointException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/digitizeaspointexception.md)
+* [GeometricRelationException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometricrelationexception.md)
+* [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometryexception.md)
 * [WarningException](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.warningexception?view=net-5.0)
 
 ## Observaciones
@@ -45,7 +45,7 @@ Puedes aprender más en [Guiones de Control de Calidad](../../../../../../guione
 
 ## Ejemplo:
 
-El siguiente guion de ejemplo asignado a un determinado código lanza una excepción de tipo [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/excepciones/geometryexception.md):
+El siguiente guion de ejemplo asignado a un determinado código lanza una excepción de tipo [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometryexception.md):
 
 ```csharp
 using System;

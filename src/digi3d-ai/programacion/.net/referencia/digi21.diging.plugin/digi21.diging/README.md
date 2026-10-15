@@ -11,7 +11,7 @@ Proporciona tipos para interactuar con la ventana de dibujo de Digi3D.AI.
 | [AddingEntityEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/addingentityeventargs.md) | Esta clase proporciona argumentos de evento cuando se va a almacenar una geometría. |
 | [Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/codes.md) | Esta clase permite realizar tareas relacionadas con códigos. |
 | [Commands](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/commands.md) | Esta clase permite realizar tareas relacionadas con órdenes. |
-| [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging.md) | Esta clase estática permite interactuar con la ventana de dibujo de Digi3D.AI. |
+| [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/) | Esta clase estática permite interactuar con la ventana de dibujo de Digi3D.AI. |
 | [DigitizingLineOptions](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/digitizinglineoptions.md) | Esta clase proporciona propiedades que permiten configurar los parámetros de la línea que se está digitalizando. |
 | [DrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/propiedades/drawingfile.md) | Esta clase permite interactuar con el archivo de dibujo. |
 | [EntityEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/entityeventargs.md) | Esta clase proporciona argumentos de evento para informar que se ha añadido o eliminado una geometría del archivo de dibujo. |
