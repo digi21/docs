@@ -2,9 +2,9 @@
 <!-- id: closed -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si el primer y último vértices de la geometría coinciden en sus coordenadas X, Y.
+Indica si la entidad está cerrada en el plano XY. Es una propiedad de [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/).
 
 ```csharp
 bool Closed { get; }
@@ -12,7 +12,13 @@ bool Closed { get; }
 
 ## Valor de la propiedad
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)
+| Tipo | Valor |
+| :--- | :--- |
+| `ReadOnlyLine`, `Line` | `true` si la X y la Y del primer vértice son iguales a las del último, con la tolerancia de comparación de números reales de Digi3D.AI. La Z no se compara. |
+| `ReadOnlyPolygon`, `Polygon` | Siempre `true`. |
 
-Verdadero si la geometría está cerrada en el plano X,Y, es decir, que su primer vértice y el último coinciden en sus coordenadas X, Y.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | La entidad es una línea con menos de 2 vértices. |

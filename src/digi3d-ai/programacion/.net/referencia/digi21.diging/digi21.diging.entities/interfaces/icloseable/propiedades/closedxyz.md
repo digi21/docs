@@ -2,9 +2,9 @@
 <!-- id: closedxyz -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si el primer y último vértices de la geometría coinciden en sus coordenadas X, Y, Z.
+Indica si la entidad está cerrada en X, Y y Z. Es una propiedad de [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/).
 
 ```csharp
 bool ClosedXYZ { get; }
@@ -12,7 +12,15 @@ bool ClosedXYZ { get; }
 
 ## Valor de la propiedad
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)
+| Tipo | Valor |
+| :--- | :--- |
+| `ReadOnlyLine`, `Line` | `true` si la X, la Y y la Z del primer vértice son iguales a las del último, con la tolerancia de comparación de números reales de Digi3D.AI. |
+| `ReadOnlyPolygon`, `Polygon` | Siempre `true`, aunque la Z del primer y el último vértice sean distintas. |
 
-Verdadero si la geometría está cerrada en el espacio, es decir, que su primer vértice y el último coinciden en sus coordenadas X, Y, Z.
+Una línea con `ClosedXYZ` a `true` también tiene `Closed` a `true`. Al revés no: una línea cuyo primer y último vértice solo difieren en Z tiene `Closed` a `true` y `ClosedXYZ` a `false`.
 
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | La entidad es una línea con menos de 2 vértices. |
