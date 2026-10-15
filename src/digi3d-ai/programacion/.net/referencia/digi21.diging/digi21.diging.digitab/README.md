@@ -1,16 +1,17 @@
 # Digi21.DigiNG.DigiTab
 <!-- id: digi21.diging.digitab -->
 
-Proporciona tipos relacionados con tablas de códigos.
+Tipos para leer, modificar y guardar tablas de códigos.
 
 ## Clases
 
-* [DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/)
-* [NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/)
+| Clase | Descripción |
+| :--- | :--- |
+| [DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/) | Tabla de códigos en memoria. |
+| [NodeDigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/) | Código de una tabla de códigos. |
 
 ## Enumeraciones
 
-* [GeometryType](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/enumeraciones/geometrytype.md)
-
-
-
+| Enumeración | Descripción |
+| :--- | :--- |
+| [GeometryType](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/enumeraciones/geometrytype.md) | Tipo de geometría de un código: punto, línea o virtual. |
