@@ -1,107 +1,40 @@
 # Join
 <!-- id: join -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si dos áreas tienen un punto en común.
+Indica si dos áreas tienen un punto de unión: se tocan en vértices comunes sin compartir ningún lado.
 
 ![Las dos áreas tienen un punto en común](../../../../../../../../../images/areaunearea.png)
 
-![Las dos áeras tienen un punto en común](../../../../../../../../../images/areaunearea2.png)
-
-## Sobrecargas
-
-|                                                                                        |                                                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Join(ReadOnlyLine, ReadOnlyLine)](join.md#join-readonlyline-readonlyline)             | Indica si las dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) tienen un punto de unión.                                                                          |
-| [Join(ReadOnlyLine, ReadOnlyPolygon)](join.md#join-readonlyline-readonlypolygon)       | Indica dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) tienen un punto en común. |
-| [Join(ReadOnlyPolygon, ReadOnlyLine)](join.md#join-readonlypolygon-readonlyline)       | Indica dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) tienen un punto en común. |
-| [Join(ReadOnlyPolygon, ReadOnlyPolygon)](join.md#join-readonlypolygon-readonlypolygon) | Indica las dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) tienen un punto en común.                                                                       |
-
-## Join(ReadOnlyLine, ReadOnlyLine)
-
-Indica si las dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) tienen un punto de unión.
+![Las dos áreas tienen un punto en común](../../../../../../../../../images/areaunearea2.png)
 
 ```csharp
 public static bool Join(ReadOnlyLine a, ReadOnlyLine b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas tienen un punto de unión.
-
-## Join(ReadOnlyLine, ReadOnlyPolygon)
-
-Indica dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) tienen un punto en común.
-
-```csharp
 public static bool Join(ReadOnlyLine a, ReadOnlyPolygon b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas tienen un punto de unión.
-
-## Join(ReadOnlyPolygon, ReadOnlyLine)
-
-Indica dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) tienen un punto en común.
-
-```csharp
 public static bool Join(ReadOnlyPolygon a, ReadOnlyLine b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas tienen un punto de unión.
-
-## Join(ReadOnlyPolygon, ReadOnlyPolygon)
-
-Indica las dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) tienen un punto en común.
-
-```csharp
 public static bool Join(ReadOnlyPolygon a, ReadOnlyPolygon b)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primera área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| `b` | Segunda área. |
 
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
+## Valor devuelto
 
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
+`true` si se cumplen las tres condiciones:
 
-## Devuelve
+* Ningún vértice de `a` está dentro de `b` y ningún vértice de `b` está dentro de `a`.
+* Las dos áreas tienen al menos un vértice común.
+* Ningún lado de un anillo de `a` es también un lado de un anillo de `b`. Si comparten un lado, devuelve `true` el método [Adjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/adjacent.md).
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas tienen un punto de unión.
+Si todos los vértices de un área son comunes o están sobre los lados de la otra, el resultado depende de un punto interior de esa área: si el punto está dentro de la otra área, el método devuelve `false` y [Within](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/metodos-estaticos/within.md) devuelve `true`.
 
+## Excepciones
 
-
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
+| `SEHException` | Un área tiene un anillo sin cerrar, de área nula o con una espiga. Lee las [excepciones de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#excepciones). |

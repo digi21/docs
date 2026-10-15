@@ -1,103 +1,43 @@
 # Disjoint
 <!-- id: disjoint -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
 Indica si dos áreas son disjuntas.
 
 ![Área disjunta área](../../../../../../../../../images/areadisjuntaarea.png)
 
-## Sobrecargas
-
-|                                                                                                    |                                                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Disjoint(ReadOnlyLine, ReadOnlyLine)](disjoint.md#disjoint-readonlyline-readonlyline)             | Indica si las dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) son disjuntas.                                                                          |
-| [Disjoint(ReadOnlyLine, ReadOnlyPolygon)](disjoint.md#disjoint-readonlyline-readonlypolygon)       | Indica dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) son disjuntas. |
-| [Disjoint(ReadOnlyPolygon, ReadOnlyLine)](disjoint.md#disjoint-readonlypolygon-readonlyline)       | Indica dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son disjuntas. |
-| [Disjoint(ReadOnlyPolygon, ReadOnlyPolygon)](disjoint.md#disjoint-readonlypolygon-readonlypolygon) | Indica las dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son disjuntas.                                                                       |
-
-## Disjoint(ReadOnlyLine, ReadOnlyLine)
-
-Indica si las dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) son disjuntas.
-
 ```csharp
 public static bool Disjoint(ReadOnlyLine a, ReadOnlyLine b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son disjuntas.
-
-## Disjoint(ReadOnlyLine, ReadOnlyPolygon)
-
-Indica dos áreas de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) son disjuntas.
-
-```csharp
 public static bool Disjoint(ReadOnlyLine a, ReadOnlyPolygon b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera área.
-
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son disjuntas.
-
-## Disjoint(ReadOnlyPolygon, ReadOnlyLine)
-
-Indica dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son disjuntas.
-
-```csharp
 public static bool Disjoint(ReadOnlyPolygon a, ReadOnlyLine b)
-```
-
-### Parámetros
-
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
-
-`b` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Segunda área.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son disjuntas.
-
-## Disjoint(ReadOnlyPolygon, ReadOnlyPolygon)
-
-Indica las dos áreas de tipo [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) son disjuntas.
-
-```csharp
 public static bool Disjoint(ReadOnlyPolygon a, ReadOnlyPolygon b)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primera área: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| `b` | Segunda área. |
 
-`a` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Primera área.
+## Valor devuelto
 
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda área.
+`true` si las áreas no son iguales y se cumple una de estas condiciones:
 
-## Devuelve
+* Las cajas envolventes en planta de las dos áreas no se tocan.
+* Las áreas no tienen vértices comunes y ningún vértice de un área está dentro de la otra.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos áreas son disjuntas.
+Un vértice que está dentro de un hueco de la otra área cuenta como fuera, así que un área dentro de un hueco de un polígono es disjunta de ese polígono si no comparte vértices con el hueco.
 
+Como el método solo analiza vértices, dos áreas que se cruzan sin tener vértices dentro de la otra ni vértices comunes también son disjuntas.
+
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
+| `SEHException` | Un área tiene un anillo sin cerrar, de área nula o con una espiga. Lee las [excepciones de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#excepciones). |
+
+## Ejemplo
+
+Lee el [ejemplo de AreaArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/areaarea/#ejemplo).
