@@ -2,28 +2,20 @@
 <!-- id: color-3 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el color de la geometría en caso de tener asignado uno que no sea el de la tabla de códigos.
+Color propio de la entidad. Una entidad sin color propio se dibuja con el color que la tabla de códigos asigna a su código.
 
 ```csharp
-public int? Color  { get; }
+public int? Color { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Nullable&lt;Int32&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)
+Índice de la [paleta de colores](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/colores.md#paleta-de-colores) de la tabla de códigos, o `null` si la entidad no tiene color propio. Asignar `null` quita el color propio.
 
-Color de la geometría en caso de tener uno asignado que no sea el de la tabla de códigos.  
-`null` en caso de que no tenga asignado un color.
+## Excepciones
 
-## Observaciones
-
-Las geometrías se dibujan habitualmente con el color que tengan asignada en la tabla de códigos.
-
-Digi3D.AI no dispone de ninguna orden que permita sobrescribir este valor, de manera que un usuario no puede asignar un color específico a una geometría, sin embargo, algunos importadores como el de DGNs puede asignar este color si la geometría en el DGN tiene asignado un color por entidad en vez de por capa.
-
-En caso de que el valor no sea `null` el valor será un índice a la [paleta de color](../../../../../../../../referencia/editor-de-tablas-de-codigos/pestanas/colores.md#paleta-de-colores)de la tabla de códigos cargada.
-
-
-
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | `get`: la entidad no tiene coordenadas mínimas y máximas (`Valid` es `false`). `set`: la entidad es de solo lectura. |

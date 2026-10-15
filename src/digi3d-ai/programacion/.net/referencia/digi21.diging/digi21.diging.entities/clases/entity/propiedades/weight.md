@@ -2,26 +2,20 @@
 <!-- id: weight -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el grosor de la geometría en caso de tener asignado uno que no sea el de la tabla de códigos.
+Grosor propio de la entidad. Una entidad sin grosor propio se dibuja con el grosor que la tabla de códigos asigna a su código.
 
 ```csharp
-public int? Weight { get; }
+public int? Weight { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Nullable&lt;Int32&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)
+El grosor, o `null` si la entidad no tiene grosor propio. Asignar `null` quita el grosor propio.
 
-Grosor de la geometría en caso de tener uno asignado que no sea el de la tabla de códigos.  
-`null` en caso de que no tenga asignado un grosor.
+## Excepciones
 
-## Observaciones
-
-Las geometrías se dibujan habitualmente con el grosor que tengan asignado en la tabla de códigos.
-
-Digi3D.AI no dispone de ninguna orden que permita sobrescribir este valor, de manera que un usuario no puede asignar un grosor específico a una geometría, sin embargo, algunos importadores como el de DGNs puede asignar este grosor si la geometría en el DGN tiene asignado un grosor por entidad en vez de por capa.
-
-
-
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | `get`: la entidad no tiene coordenadas mínimas y máximas (`Valid` es `false`). `set`: la entidad es de solo lectura. |

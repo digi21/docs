@@ -2,9 +2,9 @@
 <!-- id: owner -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el archivo de dibujo al que pertenece el [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
+Archivo de dibujo al que pertenece la entidad.
 
 ```csharp
 public IDrawingFile Owner { get; }
@@ -12,15 +12,6 @@ public IDrawingFile Owner { get; }
 
 ## Valor de la propiedad
 
-[IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/)
+El [IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/) del que se leyó la entidad o al que se añadió, o `null` si la entidad no pertenece a ningún archivo: una entidad creada con un constructor y todavía sin añadir, o una copia hecha con `Clone()`.
 
-Archivo de dibujo al que pertenece la geometría o `null` en caso de que la geometría no pertenezca a ningún archivo de dibujo.
-
-## Observaciones
-
-Al almacenar una geometría en un archivo de dibujo, inmediatamente esta se convierte en una geometría de solo lectura, de manera que ya no se podrán utilizar las propiedades de asignación.
-
-Para saber si una geometría es de solo lectura podemos utilizar la propiedad [ReadOnly](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/readonly.md).
-
-
-
+Mientras `Owner` no es `null`, la entidad es de solo lectura ([ReadOnly](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/readonly.md)). Un archivo de dibujo no admite entidades que pertenecen a otro archivo: añade la copia que devuelve `Clone()`.

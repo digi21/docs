@@ -1,22 +1,15 @@
 # UserData
 <!-- id: userdata -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/) \
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Permite almacenar un objeto definido por el usuario.
+Objeto del programador asociado a la entidad.
 
 ```csharp
-public object UserData { get; set;  }‌
+public object UserData { get; set; }
 ```
 
-## Valor de la propiedad [](#valor-de-la-propiedad)
+## Valor de la propiedad
 
-[Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)
-
-Valor de usuario.&#x20;
-
-Digi3D.AI no utiliza este valor, ni lo almacena en los archivos de dibujo ni entiende lo que se está almacenando aquí.
-
-
-
+El objeto asignado, o `null`. La biblioteca no usa este valor: no lo guarda en los archivos de dibujo y `Clone()` no lo copia. Se puede asignar también en una entidad de solo lectura.

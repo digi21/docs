@@ -1,17 +1,17 @@
 # Hidden
 <!-- id: hidden -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/) \
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Especifica ocultar en la ventana de dibujo la geometría representada por este [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/)
+Oculta la entidad en la ventana de dibujo.
 
 ```csharp
-public bool Hidden { get; set; }‌
+public bool Hidden { get; set; }
 ```
 
-## Valor de la propiedad [](#valor-de-la-propiedad)
+## Valor de la propiedad
 
-‌​[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)​‌
+`true` si la entidad está oculta. Con `Hidden` a `true`, [Visible](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/visible.md) vale `false`.
 
-_Verdadero_ si ocultar la geometría. _Falso_ en caso contrario.‌
+El descriptor `set` no comprueba si la entidad es de solo lectura: se puede asignar en una entidad leída de un archivo de dibujo. `Clone()` no copia el valor.
