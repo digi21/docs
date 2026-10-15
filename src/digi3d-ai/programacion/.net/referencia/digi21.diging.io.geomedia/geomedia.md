@@ -33,7 +33,7 @@ public Geomedia(string path, DigiTab digiTab, DelegateGetWkt GetWkt, bool readOn
 | :--- | :--- |
 | `path` | Ruta del archivo `.mdb`. El archivo tiene que existir y tener al menos una capa. |
 | `digiTab` | Tabla de códigos que relaciona los códigos con las capas. Sin este parámetro se usa una tabla de códigos vacía, y se añade a esa tabla un código por cada capa. |
-| `GetWkt` | Delegado [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md). En la versión 26.0.0 el constructor no lo usa: el sistema de referencia de coordenadas sale siempre del archivo, como se describe en la propiedad `Wkt`. |
+| `GetWkt` | Delegado [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md) que devuelve el WKT del sistema de referencia de coordenadas. Se llama una sola vez, si la tabla `GCoordSystem` del archivo no declara un sistema UTM o geográfico en ETRS89 o WGS 84. Si devuelve una cadena vacía, o sin delegado, se usa el sistema de la configuración del usuario en Digi3D.AI. |
 | `readOnly` | `true` para abrir el archivo en solo lectura. Sin este parámetro vale `false`. |
 
 Las sobrecargas de esta clase no muestran el cuadro de diálogo de selección de capas: cargan todas las capas.
@@ -67,7 +67,7 @@ Los constructores lanzan `Exception`, con el mensaje del error, si no se puede c
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Llama a `Add(Entity)` y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada y la guarda en su capa. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
+| `int IndexOf(Entity entity)` | Posición de la entidad entre las entidades que el archivo tiene en memoria, o `-1` si la entidad no pertenece a este archivo o no está entre ellas. Con `null` lanza `NullReferenceException`. |
 | `void Dispose()` | Cierra el archivo. |
 
 Excepciones de `Add` y `Delete`:
