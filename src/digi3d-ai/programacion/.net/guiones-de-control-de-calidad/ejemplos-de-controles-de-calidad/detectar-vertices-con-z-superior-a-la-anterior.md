@@ -1,36 +1,32 @@
 # Detectar vértices con Z superior a la del anterior vértice
 <!-- id: detectar-vertices-con-z-superior-a-la-anterior -->
 
-Vamos a crear un control de calidad que asignaremos a códigos de planimetría que tengan que se tengan que digitalizar forzosamente desde la cota más alta a la más baja. 
+La función `debe_tener_coordenadas_z_decrecientes_moderado` del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D) comunica un error si un vértice tiene la coordenada Z superior a la del vértice anterior. Sirve, por ejemplo, para un río digitalizado desde el nacimiento hacia la desembocadura.
 
-Este guion analizará únicamente líneas y analizará la coordenada Z de los vértices de la línea. En caso de detectar el error, se lanzará una excepción de tipo [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometryexception.md) indicando el error, así como las coordenadas donde se ha localizado el error.
+```python
+@quality_control()
+def debe_tener_coordenadas_z_decrecientes_moderado(geometry, adding_geometry, code_index):
+    'Comunica un error si se localiza un vértice cuya coordenada Z sea superior a la coordenada Z del vértice anterior.'
+    zPrevia = geometry[0][2]
 
-```csharp
-using System;
-using Digi21.DigiNG.Entities;
-using Digi21.DigiNG.Plugin.QualityControl;
+    for coordenada in geometry:
+        zActual = coordenada[2]
 
-namespace DigiTab
-{
-    public class Desencadenador : ITrigger 
-    {
-	    public Entity AnalyzeEntity(Entity entidad, bool almacenandoEntidad) 
-        {
-            if( !(entidad is ReadOnlyLine))
-                return entidad;
-                
-            var linea = entidad as ReadOnlyLine;
-            
-            var z = linea.Points[0].Z;
-            foreach(var vertice in linea.Points) {
-                if( vertice.Z > z )
-                    throw new GeometryException("Detectado vértice con coordenada Z superior al anterior", vertice);
-                z = vertice.Z;    
-            }
+        if zActual > zPrevia:
+            return digi3d.GeometryError("Vértice con la Z superior al anterior", coordenada)
 
-            return entidad;
-        }
-    }
-}
+        zPrevia = zActual
 ```
 
+* `geometry[0]` es la tupla `(x, y, z)` del primer vértice, y `geometry[0][2]` su Z.
+* `for coordenada in geometry` recorre los vértices en orden.
+* El error lleva las coordenadas del vértice que lo provoca: al digitalizar, **Almacenar la geometría** desplaza la vista a ese vértice; bajo demanda, la tarea del panel de tareas lleva a él.
+* La función devuelve el primer vértice erróneo. Un vértice con la misma Z que el anterior no es un error; la función `debe_tener_coordenadas_z_decrecientes` del mismo archivo sí lo considera error.
+
+## Asignación al código
+
+La función no tiene parámetros adicionales. En la propiedad **Controles de calidad a aplicar** del código, la línea es:
+
+```
+debe_tener_coordenadas_z_decrecientes_moderado
+```
