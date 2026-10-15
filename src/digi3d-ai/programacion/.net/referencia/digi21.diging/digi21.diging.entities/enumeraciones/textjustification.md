@@ -2,29 +2,30 @@
 <!-- id: textjustification -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta enumeración define los tipos de justificación de textos soportados.
+Posición del punto de inserción de un texto respecto al rectángulo que ocupa la cadena. La usan [ReadOnlyText.Justification](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/justification.md) y [Text.Justification](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/justification.md).
 
 ```csharp
 public enum TextJustification
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-5.0)→ TextJustification
+## Valores
 
-## Campos
+| Valor | Número | Significado |
+| :--- | ---: | :--- |
+| `SouthWest` | 0 | El punto de inserción es la esquina inferior izquierda (suroeste) del texto. |
+| `West` | 1 | El punto de inserción es el punto medio del lado izquierdo (oeste). |
+| `NorthWest` | 2 | El punto de inserción es la esquina superior izquierda (noroeste). |
+| `North` | 3 | El punto de inserción es el punto medio del lado superior (norte). |
+| `NorthEast` | 4 | El punto de inserción es la esquina superior derecha (noreste). |
+| `East` | 5 | El punto de inserción es el punto medio del lado derecho (este). |
+| `SouthEast` | 6 | El punto de inserción es la esquina inferior derecha (sureste). |
+| `South` | 7 | El punto de inserción es el punto medio del lado inferior (sur). |
+| `Center` | 8 | El punto de inserción es el centro del texto. |
 
-|  |  |  |
-| :--- | :--- | :--- |
-| SouthWest | 0 | El punto de inserción está al sudoeste del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| West | 1 | El punto de inserción está al oeste del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| NorthWest | 2 | El punto de inserción está al noroeste del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| North | 3 | El punto de inserción está al norte del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| NorthEast | 4 | El punto de inserción está al noreste del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| East | 5 | El punto de inserción está al este del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| SouthEast | 6 | El punto de inserción está al sudeste del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| South | 7 | El punto de inserción está al sur del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
-| Center | 8 | El punto de inserción está en el centro del [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+Los números coinciden con los que guarda la entidad nativa de Digi3D.AI. Un `Text` nuevo tiene la justificación `SouthWest`.
 
-## 
+## Ejemplo
 
+El [ejemplo de Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/#ejemplo) crea un texto con cada valor de la enumeración.
