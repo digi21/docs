@@ -1,18 +1,17 @@
 # Zmax
 <!-- id: zmax -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve la coordenada Z máxima de ventana o geometría que implemente esta interfaz.
+Coordenada Z máxima de la ventana.
 
 ```csharp
-double Zmax { get; set; }
+double Zmax { get; }
 ```
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
+`double`: la coordenada Z máxima. Si [Xmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/xmin.md) es `null`, la ventana no está inicializada y este valor no tiene significado.
 
-Devuelve el valor Z máxima de la ventana o geometría en caso de que la ventana se haya inicializado con al menos un punto.
-
+Volver a [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).

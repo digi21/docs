@@ -1,10 +1,10 @@
 # Depth
 <!-- id: depth -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el largo de la ventana o geometría que implemente esta interfaz.
+Profundidad de la ventana.
 
 ```csharp
 double Depth { get; }
@@ -12,7 +12,12 @@ double Depth { get; }
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
+`double`: `Zmax - Zmin`.
 
-Devuelve el valor Z máxima - Z mínima.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) lanza la excepción si `Xmin` es `null`. |
+
+Volver a [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).

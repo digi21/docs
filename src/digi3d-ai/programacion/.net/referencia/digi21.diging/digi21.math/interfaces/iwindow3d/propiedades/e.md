@@ -1,10 +1,10 @@
 # E
 <!-- id: e-5 -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el punto al este de la ventana o geometría que implemente esta interfaz.
+Punto medio del lado este de la ventana.
 
 ```csharp
 Point3D E { get; }
@@ -12,7 +12,14 @@ Point3D E { get; }
 
 ## Valor de la propiedad
 
-[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md)
+[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md): (`Xmax`, `(Ymin + Ymax) / 2`, `Zmin`).
 
-Un punto 3D con la coordenada \(X máxima, Y central, Z mínima\) de la ventana.
+La coordenada Z de los ocho puntos cardinales es `Zmin`.
 
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) lanza la excepción si `Xmin` es `null`. |
+
+Volver a [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).

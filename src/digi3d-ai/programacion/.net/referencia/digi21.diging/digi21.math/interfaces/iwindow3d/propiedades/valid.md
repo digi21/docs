@@ -1,10 +1,10 @@
 # Valid
 <!-- id: valid-2 -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si la ventana es válida.
+Indica si la ventana está inicializada y sus límites están ordenados.
 
 ```csharp
 bool Valid { get; }
@@ -12,8 +12,8 @@ bool Valid { get; }
 
 ## Valor de la propiedad
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)
+`bool`. En [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md), `true` si `Xmin` no es `null`, `Xmin <= Xmax`, `Ymin <= Ymax` y `Zmin <= Zmax`. La propiedad no lanza excepciones.
 
-Verdadero si la ventana se ha inicializado con al menos un punto.  
-Falso si la ventana se ha instanciado, pero aún no se ha inicializado con ningún punto.
+Una `Window3D` con `Xmin` distinto de `null` y un mínimo mayor que su máximo tiene `Valid` a `false`, pero `Width`, `Height`, `Depth` y los puntos cardinales no lanzan excepción: devuelven los valores calculados con esos límites, por ejemplo un ancho negativo.
 
+Volver a [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).
