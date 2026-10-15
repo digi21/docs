@@ -65,7 +65,7 @@ Console.WriteLine($"EndpointJoinEndpoint(a, c): {LineLine.EndpointJoinEndpoint(a
 Console.WriteLine($"EndpointJoinExcludingEndpoints(d, a): {LineLine.EndpointJoinExcludingEndpoints(d, a)}"); // True
 Console.WriteLine($"Equal(a, inversa): {LineLine.Equal(a, inversa)}");                               // True
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(new Entity[] { a, b, c, d });
 return 0;
 ```
