@@ -25,7 +25,7 @@ El método calcula las intersecciones de esta entidad con `limit`. En una línea
 | Tipo | Resultado |
 | :--- | :--- |
 | `ReadOnlyLine`, `Line` cerrada en X, Y | Una `Line` cerrada por cada recinto. Si `limit` no corta la línea, la enumeración está vacía. |
-| `ReadOnlyLine`, `Line` abierta | Una `Line` por cada tramo de esta línea entre dos intersecciones con `limit`. `limit` no se parte. Si `limit` no corta la línea, la enumeración está vacía. |
+| `ReadOnlyLine`, `Line` abierta | Los tramos en que `limit` parte esta línea: con N intersecciones, N + 1 líneas, incluidos el tramo inicial y el final. `limit` no se parte. Si `limit` no corta la línea, la enumeración está vacía. |
 | `ReadOnlyPolygon`, `Polygon` | Un `Polygon`, con sus huecos, por cada recinto; los recintos que quedan dentro de un hueco del polígono no se devuelven. Si `limit` no corta el contorno ni los huecos, solo se divide el polígono cuando `limit` está completamente dentro de él. Si el resultado es un único polígono, la enumeración está vacía. |
 
 ## Excepciones

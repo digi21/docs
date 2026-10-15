@@ -54,7 +54,7 @@ Los miembros heredados de `Entity` (códigos, colores, atributos, coordenadas m�
 `Clip` según la línea:
 
 - Línea cerrada: devuelve líneas cerradas, una por cada recinto en que `limit` divide el recinto de esta línea. Devuelve una colección vacía si las dos líneas no se cortan. Lanza `Exception` si el análisis topológico encuentra puntos dobles o arcos de un solo punto.
-- Línea abierta: devuelve una línea por cada tramo de esta línea entre dos intersecciones con `limit`; `limit` no se parte. Devuelve una colección vacía si las dos líneas no se cortan.
+- Línea abierta: devuelve los tramos en que `limit` parte esta línea (con N intersecciones, N + 1 líneas, incluidos el tramo inicial y el final); `limit` no se parte. Devuelve una colección vacía si las dos líneas no se cortan.
 
 ## Ejemplo
 
