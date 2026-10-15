@@ -1,20 +1,15 @@
 # FieldOfView
 <!-- id: fieldofview -->
 
-Espacio de nombres: [Digi21.DigiNG.Cameras](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.Cameras`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el campo de visión vertical \(expresado en ángulos sexagesimales\).
+Ángulo de visión vertical de la perspectiva, en grados sexagesimales.
 
 ```csharp
-  public double FieldOfView { get; set; }
+public double FieldOfView { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
-
-Campo de visión vertical \(expresado en ángulos sexagesimales\).
-
-
-
+`double`. La ventana de dibujo pasa este valor como ángulo vertical a `gluPerspective`; el ángulo horizontal resulta de la proporción de la ventana de dibujo. Al leer la cámara de la ventana de dibujo con `DigiNG.Camera`, el objeto devuelto no rellena esta propiedad: vale 0. Asígnala antes de volver a asignar la cámara a la ventana de dibujo.
