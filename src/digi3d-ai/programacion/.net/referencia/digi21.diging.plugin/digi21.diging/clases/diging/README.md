@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Clase estática que da acceso a la ventana de dibujo activa de Digi3D.AI: su archivo de dibujo, sus opciones, la pila de deshacer, la selección y el dibujo de entidades, y los eventos de alta y baja de entidades. Solo funciona dentro de Digi3D.AI, desde una extensión (una orden, un buscador, un control de calidad…).
+Clase estática que da acceso a la ventana de dibujo activa de Digi3D.AI: su archivo de dibujo, sus opciones, la pila de deshacer, la selección y el dibujo de entidades, y los eventos de alta y baja de entidades. Solo funciona dentro de Digi3D.AI, desde una extensión (una orden, un buscador, una propiedad dinámica…).
 
 ```csharp
 public static class DigiNG
@@ -18,9 +18,9 @@ Si no hay ninguna ventana de dibujo abierta:
 
 | Miembros | Comportamiento |
 | :--- | :--- |
-| `DrawingFile`, `LockUndo`, `Camera` (`get`), `Commands`, `Codes`, `LicenseInfo`, `Undo`, `NewTransaction`, `FinishTransaction`, `SelectEntity`, `Project`, `RenderScene`, `SetVisible`, `DrawEntity`, `AnimateEntity`, `DeanimateEntity`, `DeanimateAll` | Lanzan `NullReferenceException`. |
+| `DrawingFile`, `ReferenceFiles`, `DigiTab`, `Wkt`, `LockUndo`, `Camera`, `Commands`, `Codes`, `LicenseInfo`, `WindowSize`, `DeviceContextHandle`, `RenderContextHandle`, `Undo`, `NewTransaction`, `FinishTransaction`, `SelectEntity`, `Project`, `GetResultPythonExpression`, `SelectByPythonExpression`, `SendInputDeviceEvent`, `RenderScene`, `SetVisible`, `DrawEntity`, `AnimateEntity`, `DeanimateEntity`, `DeanimateAll` | Lanzan `NullReferenceException`. |
 | `ActiveParameters`, `InputDeviceOptions`, `VisualizationOptions` | Devuelven `null`. |
-| `ReferenceFiles`, `GeographicCalculator`, `Wkt`, `DeviceContextHandle`, `RenderContextHandle`, `WindowSize`, `DigiTab`, `Camera` (`set`), `SendInputDeviceEvent`, `GetResultPythonExpression`, `SelectByPythonExpression` | No lo comprueban: acceden a un puntero nativo nulo. `GeographicCalculator` devuelve un objeto cuyos métodos acceden a ese puntero. |
+| `GeographicCalculator` | No lo comprueba: devuelve un objeto cuyos métodos acceden a un puntero nativo nulo. |
 
 Los métodos no comprueban si sus argumentos son `null`: un argumento `null` produce `NullReferenceException`.
 
@@ -47,9 +47,7 @@ Los métodos no comprueban si sus argumentos son `null`: un argumento `null` pro
 
 ### Cámara de la ventana de dibujo
 
-El descriptor `get` de `Camera` devuelve un objeto nuevo con la cámara actual: una [ConicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/coniccamera/) si la cámara es cónica y una [OrthographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/) si no lo es. Las dos copian `Name`, `Position`, `Pitch`, `Yaw` y `Roll` de la cámara actual. En la cámara ortográfica, `Left` y `Right` valen la mitad del ancho del volumen de visión con signo negativo y positivo; `Bottom` y `Top`, la mitad del alto; `Near` y `Far`, la mitad de la profundidad.
-
-> En la versión 26.0.0, el descriptor `get` no copia el campo de visión de la cámara cónica: `FieldOfView` conserva el valor por defecto de `ConicCamera`.
+El descriptor `get` de `Camera` devuelve un objeto nuevo con la cámara actual: una [ConicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/coniccamera/) si la cámara es cónica y una [OrthographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/) si no lo es. Las dos copian `Name`, `Position`, `Pitch`, `Yaw` y `Roll` de la cámara actual. La cámara cónica copia además `FieldOfView`, `Near` y `Far`. En la cámara ortográfica, `Left` y `Right` valen la mitad del ancho del volumen de visión con signo negativo y positivo; `Bottom` y `Top`, la mitad del alto; `Near` y `Far`, la mitad de la profundidad.
 
 El descriptor `set` aplica a la ventana de dibujo la cámara que recibe. De una `OrthographicCamera` usa `Right - Left`, `Top - Bottom` y `Far - Near` como ancho, alto y profundidad del volumen de visión; de una `ConicCamera` usa `FieldOfView`, `Near` y `Far`. Con cualquier otra clase derivada de [Camera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/camera/) lanza `Exception`.
 
@@ -68,7 +66,7 @@ El descriptor `set` aplica a la ventana de dibujo la cámara que recibe. De una 
 | Método | Descripción |
 | :--- | :--- |
 | `void SelectEntity(Point3D groundPoint)` | Ejecuta la orden de tentativo y simula una pulsación del botón de tentativo en las coordenadas `groundPoint`. Si el tentativo localiza una entidad, la orden activa la recibe en `OnEntitySelected` (evento `EntitySelected` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md)). |
-| `void SelectEntity(Point3D groundPoint, Func<Entity, bool> callbackIncludeGeometry)` | Igual que la sobrecarga anterior, pero el tentativo solo tiene en cuenta las entidades para las que `callbackIncludeGeometry` devuelve `true`. En el paquete de referencia el parámetro se llama `predicate`. |
+| `void SelectEntity(Point3D groundPoint, Func<Entity, bool> includeGeometry)` | Igual que la sobrecarga anterior, pero el tentativo solo tiene en cuenta las entidades para las que `includeGeometry` devuelve `true`. |
 | `double? Project(Point3D groundPoint)` | Calcula la coordenada Z en las coordenadas X, Y de `groundPoint` con el primer archivo cargado en la ventana de dibujo que admite proyección de coordenadas (por ejemplo, un modelo digital del terreno). Devuelve `null` si ningún archivo devuelve una Z. La Z de `groundPoint` no se usa. |
 | `bool GetResultPythonExpression(Entity entity, string expression)` | Evalúa la expresión de Python `expression` con la variable `g` asignada a la entidad y devuelve el resultado convertido a `bool`. Si la evaluación falla, Digi3D.AI muestra el error en un cuadro de mensaje y el método devuelve `false`. |
 | `IEnumerable<Entity> SelectByPythonExpression(IEnumerable<Entity> entities, string expression)` | Evalúa la expresión de Python `expression` con cada entidad asignada a la variable `g` y devuelve las entidades para las que el resultado es `true`. Si la evaluación falla, Digi3D.AI muestra el error en un cuadro de mensaje. |
@@ -115,16 +113,14 @@ Digi3D.AI agrupa los cambios del archivo de dibujo en transacciones. La orden [U
 - Una transacción que se cierra sin cambios se descarta.
 - Un cambio que se hace sin ninguna transacción abierta (por ejemplo, desde un panel después de que la orden haya terminado) abre una transacción que queda abierta hasta el siguiente cierre. Mientras esa transacción sigue abierta, `UNDO` no la deshace.
 
-`LockUndo` bloquea el mecanismo de deshacer: mientras está bloqueado, las órdenes que se ejecutan no abren una transacción propia (sus cambios se guardan en la transacción abierta) y `DrawingFile.Compress` no comprime el archivo. La propiedad es un contador: asignar `true` lo incrementa, asignar `false` lo decrementa, y el descriptor `get` devuelve `true` mientras el contador no vale 0. Cada asignación de `true` se compensa con una de `false`.
-
-> En la versión 26.0.0, el contador no tiene signo: asignar `false` con el contador a 0 lo deja en su valor máximo, y el mecanismo de deshacer queda bloqueado.
+`LockUndo` bloquea el mecanismo de deshacer: mientras está bloqueado, las órdenes que se ejecutan no abren una transacción propia (sus cambios se guardan en la transacción abierta) y `DrawingFile.Compress` no comprime el archivo. La propiedad es un contador: asignar `true` lo incrementa, asignar `false` lo decrementa si no vale 0, y el descriptor `get` devuelve `true` mientras el contador no vale 0. Cada asignación de `true` se compensa con una de `false`.
 
 ## Eventos
 
 | Evento | Descripción |
 | :--- | :--- |
 | `EventHandler<AddingEntityEventArgs> AddingEntity` | Se produce antes de guardar una entidad que se añade al archivo de dibujo activo, después de los controles de calidad. Si un manejador asigna `true` a `Cancel` ([AddingEntityEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/addingentityeventargs.md)), la entidad se descarta. |
-| `EventHandler<EntityEventArgs> EntityAdded` | Se produce después de guardar una entidad añadida al archivo de dibujo activo. No se produce si `AddingEntity` ha descartado la entidad. |
+| `EventHandler<EntityEventArgs> EntityAdded` | Se produce después de guardar una entidad añadida al archivo de dibujo activo. No se produce si `AddingEntity` ha descartado la entidad ni si el archivo de dibujo no ha podido guardarla. |
 | `EventHandler<EntityEventArgs> EntityDeleted` | Se produce después de eliminar una entidad del archivo de dibujo activo, también al deshacer el alta de una entidad. |
 | `EventHandler<EntityEventArgs> EntityRecovered` | Se produce después de recuperar una entidad eliminada, también al deshacer la eliminación de una entidad. |
 | `EventHandler<EventArgs> PreRender` | Se produce al principio del dibujo de la ventana de dibujo, con el contexto OpenGL de la ventana seleccionado. El manejador puede dibujar con OpenGL. |
@@ -136,15 +132,9 @@ Notas sobre los eventos:
 
 - Los eventos son estáticos: un manejador sigue suscrito después de que termine la orden que lo suscribió, hasta que se quita con `-=`. El argumento `sender` es siempre `null`.
 - `EntityAdded`, `EntityDeleted` y `EntityRecovered` pasan la entidad en la propiedad `Entity` de [EntityEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/entityeventargs.md).
-- `AddingEntity`, `EntityAdded`, `EntityDeleted` y `EntityRecovered` se producen en las operaciones sobre una sola entidad: `DrawingFile.Add(Entity)`, `DrawingFile.Delete(Entity)`, `DrawingFile.Undelete(Entity)`, las órdenes que digitalizan o eliminan entidades de una en una, y el deshacer de esas operaciones. Las operaciones en bloque `DrawingFile.Add(IEnumerable<Entity>)` y `DrawingFile.Delete(IEnumerable<Entity>)` no producen ninguno de los cuatro eventos; el deshacer de una eliminación en bloque produce `EntityDeleted` (ver la nota siguiente).
+- `AddingEntity`, `EntityAdded`, `EntityDeleted` y `EntityRecovered` se producen en las operaciones sobre una sola entidad: `DrawingFile.Add(Entity)`, `DrawingFile.Delete(Entity)`, `DrawingFile.Undelete(Entity)`, las órdenes que digitalizan o eliminan entidades de una en una, y el deshacer de esas operaciones. Las operaciones en bloque `DrawingFile.Add(IEnumerable<Entity>)` y `DrawingFile.Delete(IEnumerable<Entity>)` no producen ninguno de los cuatro eventos. `DrawingFile.Undelete(IEnumerable<Entity>)` y el deshacer de una eliminación en bloque producen `EntityRecovered` por cada entidad recuperada.
 - Si un manejador de `AddingEntity`, `EntityAdded`, `EntityDeleted` o `EntityRecovered` lanza una excepción, Digi3D.AI muestra la excepción en un cuadro de diálogo; en `AddingEntity`, la entidad se guarda. Las excepciones de los manejadores de `PreRender`, `PostRender`, `WindowCreated` y `DestroyingWindow` se descartan sin aviso.
 - `DestroyingWindow` no indica qué ventana se cierra. Si la ventana que se cierra es la activa, durante el evento esa ventana ya no tiene documento: los miembros de `DigiNG` que acceden al documento acceden a un puntero nulo, excepto `DrawingFile`, que devuelve la última instancia si el archivo sigue abierto.
-
-> En la versión 26.0.0:
-> - `EntityAdded` se produce también cuando el archivo de dibujo no ha podido guardar la entidad.
-> - `DrawingFile.Undelete(IEnumerable<Entity>)` y el deshacer de una eliminación en bloque producen `EntityDeleted` por cada entidad recuperada, en lugar de `EntityRecovered`.
-> - `PostRender` solo se produce si hay algún manejador suscrito a `PreRender`.
-
 ## Ejemplo
 
 Esta orden anima durante 5 segundos las líneas cerradas del archivo de dibujo activo y escribe en la ventana de resultados cuántas hay:
