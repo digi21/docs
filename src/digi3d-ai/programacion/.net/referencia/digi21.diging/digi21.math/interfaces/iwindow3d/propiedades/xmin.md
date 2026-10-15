@@ -1,19 +1,19 @@
 # Xmin
 <!-- id: xmin-2 -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve la coordenada X mínima de ventana o geometría que implemente esta interfaz.
+Coordenada X mínima de la ventana.
 
 ```csharp
-double? Xmin { get; set; }
+double? Xmin { get; }
 ```
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)?
+`double?`: la coordenada X mínima, o `null` si la ventana no está inicializada. Una [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) no está inicializada cuando se crea con `new Window3D()`.
 
-Devuelve el valor X mínima de la ventana o geometría en caso de que la ventana se haya inicializado con al menos un punto.  
-Devuelve `null` si la ventana aún no se ha inicializado.
+`Window3D` lanza `InvalidOperationException` al leer `Width`, `Height`, `Depth`, `Center` o uno de los ocho puntos cardinales si `Xmin` es `null`.
 
+Volver a [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).
