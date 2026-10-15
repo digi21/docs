@@ -8,7 +8,7 @@ Indica si la tabla de códigos tiene un código cuyo nombre o alguno de cuyos al
 
 ```csharp
 public bool HasCode(string name)
-public bool HasCode(string name, bool allowWilcards)
+public bool HasCode(string name, bool allowWildcards)
 ```
 
 ## Parámetros
@@ -16,7 +16,7 @@ public bool HasCode(string name, bool allowWilcards)
 | Parámetro | Descripción |
 | :--- | :--- |
 | `name` | Nombre que se busca. Se usan los 255 primeros caracteres. |
-| `allowWilcards` | `true` para comparar con comodines. `HasCode(name)` equivale a `HasCode(name, false)`. |
+| `allowWildcards` | `true` para comparar con comodines. `HasCode(name)` equivale a `HasCode(name, false)`. |
 
 ## Devuelve
 
@@ -24,9 +24,9 @@ public bool HasCode(string name, bool allowWilcards)
 
 ## Comparación
 
-Con `allowWilcards` a `false`, el nombre o el alias tiene que ser igual a `name`, distinguiendo mayúsculas de minúsculas. `*` y `?` se comparan como caracteres. Es la misma comparación que usa el indizador [this[string]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md).
+Con `allowWildcards` a `false`, el nombre o el alias tiene que ser igual a `name`, distinguiendo mayúsculas de minúsculas. `*` y `?` se comparan como caracteres. Es la misma comparación que usa el indizador [this[string]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md).
 
-Con `allowWilcards` a `true`, las dos cadenas se comparan carácter a carácter, distinguiendo mayúsculas de minúsculas, con estas reglas:
+Con `allowWildcards` a `true`, las dos cadenas se comparan carácter a carácter, distinguiendo mayúsculas de minúsculas, con estas reglas:
 
 | Carácter | Efecto |
 | :--- | :--- |
