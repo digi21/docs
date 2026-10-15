@@ -14,7 +14,7 @@ Herencia: `Object` → `ValueType` → `VertexPointer`
 
 La estructura solo guarda los dos valores que recibe el constructor: no comprueba que `line` no sea `null` ni que el índice esté dentro de `line.Points`, y no se actualiza si la línea cambia. `default(VertexPointer)` tiene `Line` a `null` y `Vertex` a 0.
 
-El método `DetectNodes` de la clase `NodeDetector` del paquete [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md) agrupa por coordenada los `VertexPointer` de los vértices que forman nodos.
+El método `DetectNodes` de la clase `NodeDetector` del paquete [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/) agrupa por coordenada los `VertexPointer` de los vértices que forman nodos.
 
 ## Constructores
 

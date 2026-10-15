@@ -14,7 +14,7 @@ Herencia: `Object` → `ValueType` → `SegmentPointer`
 
 La estructura solo guarda los tres valores que recibe el constructor: no comprueba que `line` no sea `null` ni que los índices estén dentro de `line.Points`, y no se actualiza si la línea cambia. `default(SegmentPointer)` tiene `Line` a `null` y los dos índices a 0.
 
-El método `DetectIntersections` de la clase `IntersectionDetector` del paquete [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md) agrupa por coordenada los `SegmentPointer` de los segmentos que se cortan.
+El método `DetectIntersections` de la clase `IntersectionDetector` del paquete [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/) agrupa por coordenada los `SegmentPointer` de los segmentos que se cortan.
 
 ## Constructores
 
