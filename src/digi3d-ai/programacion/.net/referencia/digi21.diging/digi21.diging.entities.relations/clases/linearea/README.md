@@ -30,7 +30,7 @@ Los métodos analizan la posición de los vértices y los vértices comunes; no 
 | :--- | :--- |
 | [Across](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/across.md) | `true` si la línea atraviesa el interior del área entre dos de sus vértices situados sobre el borde. |
 | [Adjacent](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/adjacent.md) | `true` si la línea comparte al menos un lado con el borde del área y ningún vértice de la línea está dentro. |
-| [Disjoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/disjoint.md) | `true` si la línea y el área no tienen vértices comunes y no todos los vértices de la línea están dentro del área. Lee la página: la sobrecarga con `ReadOnlyPolygon` no devuelve ese resultado. |
+| [Disjoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/disjoint.md) | `true` si la línea y el área no tienen vértices comunes y no todos los vértices de la línea están dentro del área. |
 | [EndpointJoin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/endpointjoin.md) | `true` si el primer o el último vértice de la línea coincide con un vértice del área. |
 | [Join](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/join.md) | `true` si un vértice intermedio de la línea coincide con un vértice del área, sin lados comunes ni cruce. |
 | [TerminatesWithin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/terminateswithin.md) | `true` si la línea tiene algún vértice fuera del área y empieza o termina dentro. |
@@ -80,7 +80,7 @@ Console.WriteLine($"Adjacent(borde, área): {LineArea.Adjacent(borde, área)}");
 Console.WriteLine($"Across(cruza, área): {LineArea.Across(cruza, área)}");                     // True
 Console.WriteLine($"EndpointJoin(esquina, área): {LineArea.EndpointJoin(esquina, área)}");     // True
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(área);
 archivo.Add(new Entity[] { entra, dentro, borde, cruza, esquina });
 return 0;
