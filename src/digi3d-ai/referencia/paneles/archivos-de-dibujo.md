@@ -32,7 +32,7 @@ Al hacer clic con el botón derecho sobre el nombre de un archivo aparecen estas
   * **Sí**: comprime el archivo y lo descarga. Si no se puede comprimir, muestra un error y no lo descarga.
   * **No**: descarga el archivo sin comprimirlo.
   * **Cancelar**: no descarga el archivo.
-* **Mostrar sistema de referencia de coordenadas horizontal...** y **Mostrar sistema de referencia de coordenadas vertical...**: muestran el sistema de referencia del archivo.
+* **Mostrar sistema de referencia de coordenadas horizontal...** y **Mostrar sistema de referencia de coordenadas vertical...**: muestran el sistema de referencia del archivo en el cuadro de diálogo [Parámetros del sistema de referencia de coordenadas](../cuadros-de-dialogo/parametros-del-sistema-de-referencia-de-coordenadas.md).
 
 ## Mostrar el panel
 
