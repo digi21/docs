@@ -20,15 +20,15 @@ Como deriva de `TaskGotoPoint`, Digi3D.AI dibuja el icono de la tarea en `Coordi
 public TaskEntityGotoPoint()
 public TaskEntityGotoPoint(Point3D coordinates, Entity entity, int seconds, string title, TaskSeverity severity)
 public TaskEntityGotoPoint(Point3D coordinates, Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module)
-public TaskEntityGotoPoint(Point3D coordinates, Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] childs)
+public TaskEntityGotoPoint(Point3D coordinates, Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 public TaskEntityGotoPoint(Point3D coordinates, Color color, int size, Entity entity, int seconds, string title, TaskSeverity severity)
 public TaskEntityGotoPoint(Point3D coordinates, Color color, int size, Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module)
-public TaskEntityGotoPoint(Point3D coordinates, Color color, int size, Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] childs)
+public TaskEntityGotoPoint(Point3D coordinates, Color color, int size, Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 ```
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `coordinates`, `color`, `size`, `title`, `severity`, `drawingFile`, `module`, `childs` | Los mismos que en los constructores de [TaskGotoPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.taskpanel/taskgotopoint.md), con los mismos valores por defecto. |
+| `coordinates`, `color`, `size`, `title`, `severity`, `drawingFile`, `module`, `children` | Los mismos que en los constructores de [TaskGotoPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.taskpanel/taskgotopoint.md), con los mismos valores por defecto. |
 | `entity` | [Entidad](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) que se resalta. Se devuelve en `Entity`. |
 | `seconds` | Segundos durante los que se resalta la entidad. Se devuelve en `Seconds`. |
 

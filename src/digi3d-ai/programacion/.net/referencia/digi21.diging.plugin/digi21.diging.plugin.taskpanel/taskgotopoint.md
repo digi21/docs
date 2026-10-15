@@ -24,10 +24,10 @@ Si la tarea tiene `Severity` igual a `TaskSeverity.Error` y se añade directamen
 public TaskGotoPoint()
 public TaskGotoPoint(Point3D coordinates, string title, TaskSeverity severity)
 public TaskGotoPoint(Point3D coordinates, string title, TaskSeverity severity, string drawingFile, string module)
-public TaskGotoPoint(Point3D coordinates, string title, TaskSeverity severity, string drawingFile, string module, ITask[] childs)
+public TaskGotoPoint(Point3D coordinates, string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 public TaskGotoPoint(Point3D coordinates, Color color, int size, string title, TaskSeverity severity)
 public TaskGotoPoint(Point3D coordinates, Color color, int size, string title, TaskSeverity severity, string drawingFile, string module)
-public TaskGotoPoint(Point3D coordinates, Color color, int size, string title, TaskSeverity severity, string drawingFile, string module, ITask[] childs)
+public TaskGotoPoint(Point3D coordinates, Color color, int size, string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 ```
 
 | Parámetro | Descripción |
@@ -39,7 +39,7 @@ public TaskGotoPoint(Point3D coordinates, Color color, int size, string title, T
 | `severity` | Gravedad de la tarea, de la enumeración [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md). |
 | `drawingFile` | Archivo de dibujo al que se refiere la tarea. El panel lo muestra en su columna de archivo. |
 | `module` | Nombre del módulo que ha generado la tarea, por ejemplo el nombre de la orden. |
-| `childs` | Tareas hijas. |
+| `children` | Tareas hijas. |
 
 El constructor sin parámetros deja `Title`, `DrawingFile`, `Module` y `Children` a `null`, `Severity` a `TaskSeverity.Error` y `Coordinates` a `Point3D` por defecto, con el color y el tamaño por defecto. Asigna las propiedades después de crear el objeto.
 

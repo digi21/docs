@@ -18,7 +18,7 @@ Herencia: [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi2
 public TaskZoomEntity()
 public TaskZoomEntity(Entity entity, int seconds, string title, TaskSeverity severity)
 public TaskZoomEntity(Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module)
-public TaskZoomEntity(Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] childs)
+public TaskZoomEntity(Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 ```
 
 Los parámetros y los valores por defecto son los de los constructores de [TaskAnimateEntity](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.taskpanel/taskanimateentity.md).
