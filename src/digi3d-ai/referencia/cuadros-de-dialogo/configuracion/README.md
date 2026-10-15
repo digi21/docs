@@ -446,8 +446,6 @@ Configura el importador de orientaciones de Agisoft PhotoScan/Metashape.
 Configura el comportamiento del panel de proyecto fotogramétrico.
 
 * **[Mostrar solo modelos cargados](proyecto-fotogrametrico/mostrar-solo-modelos-cargados.md)** — Muestra solo los modelos que se han podido cargar.
-* **[Invertir modelos para mantener norte](proyecto-fotogrametrico/invertir-modelos-para-mantener-norte.md)** — Invierte las imágenes al cambiar de modelo para mantener la orientación.
-* **[Umbral para invertir modelo](proyecto-fotogrametrico/umbral-para-invertir-modelo.md)** — Diferencia de orientación a partir de la cual se invierte el modelo.
 
 ### Puntos medidos
 
@@ -543,7 +541,7 @@ Configura el comportamiento general del sensor Cónico (cámara métrica).
 * **[Almacenar Orientation.xml al cargar modelo](sensor-conico/almacenar-orientation-xml-al-cargar-modelo.md)** — Genera un .orientation.xml por foto al cargar.
 * **[Activar epipolar por defecto](sensor-conico/activar-epipolar-por-defecto.md)** — Activa la rectificación epipolar al cargar el par.
 * **[Rectificación epipolar](sensor-conico/rectificacion-epipolar.md)** — Tipo de rectificación epipolar.
-* **[Rotar el modelo para respetar el Norte](sensor-conico/rotar-el-modelo-para-respetar-el-norte.md)** — Rota el modelo para que el norte quede arriba.
+* **[Mantener el norte arriba](sensor-conico/rotar-el-modelo-para-respetar-el-norte.md)** — Gira el modelo 180 grados si el norte quedaría abajo, proyectando y en ortogonal.
 * **[Proyecto fotogramétrico: Comprobar imágenes](sensor-conico/proyecto-fotogrametrico-comprobar-imagenes.md)** — Comprueba la compatibilidad de las imágenes del proyecto.
 * **[Proyecto fotogramétrico: Correlar internas](sensor-conico/proyecto-fotogrametrico-correlar-internas.md)** — Correla las internas que falten.
 * **[Proyecto fotogramétrico: Correlar relativas](sensor-conico/proyecto-fotogrametrico-correlar-relativas.md)** — Correla las relativas que falten.
