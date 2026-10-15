@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Archivo de dibujo cargado en una ventana de dibujo de Digi3D.AI. Solo existe dentro de Digi3D.AI: se usa desde las extensiones (órdenes, buscadores, controles de calidad…).
+Archivo de dibujo cargado en una ventana de dibujo de Digi3D.AI. Solo existe dentro de Digi3D.AI: se usa desde las extensiones (órdenes, buscadores, propiedades dinámicas…).
 
 ```csharp
 public class DrawingFile : IDrawingFile, IDisposable
