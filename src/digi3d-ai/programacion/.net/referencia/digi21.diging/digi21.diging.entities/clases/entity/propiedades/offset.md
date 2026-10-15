@@ -1,19 +1,21 @@
-# Offset
+# FilePointer
 <!-- id: offset -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/) \
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el _offset_ en el que está almacenada la geometría representada por este [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) en el archivo de dibujo.
+Identificador de la entidad en el archivo de dibujo del que se leyó o en el que se guardó.
 
 ```csharp
-public ulong Offset { get;  }‌
+public string FilePointer { get; }
 ```
 
-## Valor de la propiedad [](#valor-de-la-propiedad)
+## Valor de la propiedad
 
-[Uint64](https://docs.microsoft.com/en-us/dotnet/api/system.uint64?view=net-5.0)
+El identificador que asigna el importador del formato del archivo. El contenido del texto depende del formato.
 
-‌Offset donde se ubica la geometría en el [IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/) en caso de que la geometría esté almacenada en un archivo de dibujo.
+## Excepciones
 
-Si la geometría no pertenece a ningún archivo de dibujo se lanzará una excepción de tipo [InvalidOperationException](https://docs.microsoft.com/en-us/dotnet/api/system.invalidoperationexception?view=net-5.0).
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | La entidad no tiene datos de ningún archivo de dibujo; por ejemplo, una entidad creada con un constructor que no se ha añadido a ningún archivo. |

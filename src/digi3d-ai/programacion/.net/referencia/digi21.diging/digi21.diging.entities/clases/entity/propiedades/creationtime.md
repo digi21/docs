@@ -1,22 +1,18 @@
 # CreationTime
 <!-- id: creationtime -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve la fecha de creación de la geometría representada por este [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/)
+Fecha y hora de creación de la entidad.
 
 ```csharp
-public DateTime CreationTime { get; }‌
+public DateTime CreationTime { get; }
 ```
 
-## Valor de la propiedad <a id="valor-de-la-propiedad"></a>
+## Valor de la propiedad
 
-[DateTime](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-5.0)​‌
+Fecha y hora con precisión de segundos y `DateTimeKind.Unspecified`.
 
-‌Fecha de creación de la geometría.
-
-## Observaciones
-
-Digi3D.AI asigna una fecha de creación a las geometrías en el momento en el que se almacenan en un archivo de dibujo.
-
+- En una entidad creada con un constructor, o con `Clone()`, es la hora UTC del momento en que se creó el objeto.
+- En una entidad leída de un archivo `.bin` o `.bind`, es la fecha que el archivo guarda con la entidad.

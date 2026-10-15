@@ -1,10 +1,10 @@
 # Codes
 <!-- id: codes-2 -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve la colección de códigos de la geometría asociada con este [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
+Códigos de la entidad.
 
 ```csharp
 public IList<Code> Codes { get; }
@@ -12,6 +12,14 @@ public IList<Code> Codes { get; }
 
 ## Valor de la propiedad
 
-`IList<Code>`, con los [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) de la geometría.
+Una [CodeCollection](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/codecollection/), siempre la misma instancia para cada entidad. Los cambios en la colección se aplican a la entidad. Si la entidad es de solo lectura, los métodos que modifican la colección lanzan `InvalidOperationException`.
 
-Objeto en el que se almacenan los códigos de la geometría.
+Cada elemento es una copia del [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/). Para cambiar un código, modifica la copia y asígnala con el indexador.
+
+## Ejemplo
+
+```csharp
+var código = línea.Codes[0];
+código.Visible = 0;
+línea.Codes[0] = código;
+```
