@@ -1329,6 +1329,7 @@
         * [Archivo de dibujo](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md)
       * [Orientación relativa automática por correlación](digi3d-ai/referencia/cuadros-de-dialogo/orientacion-relativa-automatica-por-correlacion.md)
       * [Parámetros de importación/Exportación](digi3d-ai/referencia/cuadros-de-dialogo/parametros-de-importacion-exportacion.md)
+      * [Parámetros del sistema de referencia de coordenadas](digi3d-ai/referencia/cuadros-de-dialogo/parametros-del-sistema-de-referencia-de-coordenadas.md)
       * [Programar botones](digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md)
       * [Selección de archivos de referencia](digi3d-ai/referencia/cuadros-de-dialogo/seleccion-de-archivos-de-referencia.md)
       * [Selección de tablas](digi3d-ai/referencia/cuadros-de-dialogo/seleccion-de-tablas.md)
