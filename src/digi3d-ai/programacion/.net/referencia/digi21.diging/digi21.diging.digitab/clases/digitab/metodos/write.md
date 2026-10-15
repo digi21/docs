@@ -25,13 +25,16 @@ El formato se elige por la extensión de `path`, sin distinguir mayúsculas de m
 
 `Write` no cambia la propiedad [Path](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/path.md).
 
-`Write` no lanza ninguna excepción y no escribe nada si la tabla de códigos está cifrada o si no se puede escribir el XML. Para confirmar que el archivo se ha escrito, comprueba que existe después de la llamada.
-
 ## Excepciones
 
 | Excepción | Cuándo |
 | :--- | :--- |
+| `ArgumentNullException` | `path` es `null`. |
+| `InvalidOperationException` | La tabla de códigos está cifrada. No se escribe nada. |
+| `IOException` | El código nativo no ha podido escribir la tabla de códigos. El mensaje incluye `path`. |
 | `Exception` | Error al escribir el archivo que el código nativo notifica con una excepción. El mensaje describe el error. |
+
+Los mensajes de las excepciones están en el idioma de la interfaz de Digi3D.AI.
 
 ## Ejemplo
 
