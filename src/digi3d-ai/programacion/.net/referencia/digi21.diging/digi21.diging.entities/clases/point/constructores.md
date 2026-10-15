@@ -2,64 +2,30 @@
 <!-- id: constructores-7 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/).
+Crean un [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) de lectura y escritura, sin archivo de dibujo (`Owner` es `null`), con la coordenada (0, 0, 0) y la rotación 0.
 
-## Sobrecargas
+```csharp
+public Point(Code code)
+public Point(IEnumerable<Code> codigos)
+```
 
-|  |  |
+## Parámetros
+
+| Parámetro | Descripción |
 | :--- | :--- |
-| [Point\(Code\)](constructores.md#point-code) | Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)con un código. |
-| [Point\(IEnumerable&lt;Code&gt;\)](constructores.md#point-ienumerable-less-than-code-greater-than) | Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)con múltiples códigos. |
+| `code` | [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) del punto. |
+| `codigos` | Códigos del punto, en el orden de la enumeración. Puede estar vacía. |
 
-## Point\(Code\)
+`CreationTime` toma la hora del sistema en UTC en el momento de la construcción.
 
-Inicializa una nueva instancia de [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/)con un código.
+## Excepciones
 
-```csharp
-public Point(Code code);
-```
+| Excepción | Cuándo |
+| :--- | :--- |
+| `NullReferenceException` | `codigos` es `null`. |
 
-### Parámetros
+## Ejemplo
 
-`code` [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/)  
-Código a asignar al nuevo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) y le asigna el código _020400_.
-
-```csharp
-var punto = new Point(new Code("020400"));
-```
-
-## Point\(IEnumerable&lt;Code&gt;\)
-
-Inicializa una nueva instancia de [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) con múltiples códigos.
-
-```csharp
-public Point(IEnumerable<Code> codigos);
-```
-
-### Parámetros
-
-`codes` [IEnumerable&lt;Code&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-5.0)  
-Códigos a asignar al nuevo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/)y le asigna los códigos _020400_ y _ABCDE_.
-
-```csharp
-var punto = new Point(new[]
-{
-    new Code("020400"),
-    new Code("ABCDE")
-};
-```
-
-## 
-
-
-
+El [ejemplo de Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/#ejemplo) usa `Point(Code)`.
