@@ -20,14 +20,14 @@ Al digitalizar:
 
 * Un error de geometría (`GeometryError` o `GeometryRelationError`) abre el cuadro de diálogo **Error de control de calidad**, con el mensaje del error y dos opciones: **Almacenar la geometría** y **No almacenar la geometría**. Si el error tiene coordenadas, **Almacenar la geometría** desplaza la vista a esas coordenadas. **No almacenar la geometría** descarta la geometría y muestra el mensaje en un globo.
 
-    ![Cuadro de diálogo Error de control de calidad](../../../../images/errorgeometryexception.png)
+    ![Cuadro de diálogo Error de control de calidad](../../../../../images/errorgeometryexception.png)
 
 * Una advertencia (`GeometryWarning`) se muestra en un globo y la geometría se guarda.
 * Un error de un campo de base de datos (`DatabaseFieldError`) abre un cuadro de diálogo para corregir el valor del campo. Si el usuario cancela, la geometría no se guarda. Si lo corrige, Digi3D.AI vuelve a ejecutar los controles del código; los errores de geometría y las advertencias con un mensaje ya mostrado no se vuelven a mostrar.
 
 Bajo demanda, cada error y cada advertencia se añade al [panel de tareas](/digi3d-ai/referencia/paneles/tareas.md). Hacer doble clic en una tarea desplaza la vista a las coordenadas del error o a la geometría.
 
-![Panel de tareas con errores de control de calidad](../../../../images/paneltareasmostrandogeometryexception.png)
+![Panel de tareas con errores de control de calidad](../../../../../images/paneltareasmostrandogeometryexception.png)
 
 ## Páginas de esta sección
 

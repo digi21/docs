@@ -86,6 +86,7 @@ su superficie llega a un mínimo (p. ej. 100 m²).
 ## Véase también
 
 - [Ejemplos de controles de calidad](ejemplos/README.md) — colección lista para usar.
+- [Guiones de control de calidad](guiones-de-control-de-calidad/README.md): cuándo ejecuta Digi3D.AI los controles, cómo se asignan a un código y qué hace con cada tipo de error.
 - [Excepciones](../referencia/digi3d/exceptions.md) — los tipos de error y advertencia que devuelve un control.
 - [Referencia: módulo `digi3d`](../referencia/digi3d/README.md) — el objeto que usan los controles.
 - [Cómo ejecutar guiones](../panel-de-python/ejecutar-guiones.md)
