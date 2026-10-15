@@ -15,7 +15,7 @@ ahora como _ETRS89 / UTM zone 30N + Alicante height_.
 ## Por qué cambia
 
 Los sistemas EGM08_REDNAP no forman parte de la base de datos EPSG. Digi21 los añadió a la base de datos que
-distribuía Digi3D.AI con dos códigos propios, 69036406 y 69036407, para poder usar el modelo de geoide
+distribuía Digi3D.NET con dos códigos propios, 69036406 y 69036407, para poder usar el modelo de geoide
 EGM08-REDNAP del Instituto Geográfico Nacional.
 
 EPSG publica ahora sistemas oficiales que usan ese mismo modelo de geoide:
@@ -30,7 +30,7 @@ códigos propios.
 
 Los sistemas nuevos usan los mismos archivos de rejilla que los anteriores, `EGM08_REDNAP.txt` para la Península
 y `EGM08_REDNAP_Canarias.txt` para Canarias, en la carpeta `C:\ProgramData\Digi3D.NET\OpenGis`. Las alturas
-ortométricas y las elipsoidales que calcula Digi3D.AI son las mismas que antes.
+ortométricas y las elipsoidales que calcula Digi3D.AI son las mismas que calculaba Digi3D.NET.
 
 Por ejemplo, en el punto de latitud 40° y longitud −3°, una altura ortométrica de 100 m en _Alicante height_ se
 convierte en una altura elipsoidal de 151,850 m en ETRS89. La diferencia, 51,850 m, es el valor de la rejilla
@@ -67,8 +67,7 @@ sistemas de referencia:
 | La Palma | La Palma height | 9400 |
 | El Hierro | El Hierro height | 9401 |
 
-## Archivos abiertos con versiones anteriores
+## Archivos abiertos con Digi3D.NET
 
-Las versiones anteriores de Digi3D.AI ya incluían _Alicante height_ y los sistemas de las islas, con sus
-operaciones de geoide. Un archivo guardado con la versión nueva se abre con una versión anterior con el mismo
-sistema de referencia.
+Digi3D.NET ya incluía _Alicante height_ y los sistemas de las islas, con sus operaciones de geoide. Un archivo
+guardado con Digi3D.AI se abre con Digi3D.NET con el mismo sistema de referencia.
