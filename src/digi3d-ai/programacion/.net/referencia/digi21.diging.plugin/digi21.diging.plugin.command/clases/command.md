@@ -31,9 +31,9 @@ Una orden también se puede apilar desde código, sin atributo, con el método `
 3. Digi3D.AI apila la orden y produce `Initialize`. En ese momento no produce `SetFocus`.
 4. Mientras la orden es la primera de la pila, recibe los eventos del dispositivo de entrada: `DataDown`, `DataUp`, `SnapDown`, `SnapUp`, `ResetDown`, `ResetUp`, `Move` y `EntitySelected`.
 5. Si se apila otra orden encima (por ejemplo, un zoom o la orden de tentativo), Digi3D.AI produce `LostFocus` y la orden deja de recibir eventos. Cuando la otra orden termina y esta vuelve a ser la primera de la pila, Digi3D.AI produce `SetFocus`.
-6. La orden termina cuando el código llama a `Dispose`, cuando el usuario pulsa Escape o cuando el usuario pulsa el botón de reset y la orden no tiene manejador de `ResetDown`. En los tres casos Digi3D.AI quita la orden de la pila y produce `Disposing`. Después de `Disposing`, la orden no recibe más eventos.
+6. La orden termina cuando el código llama a `Dispose`, cuando el usuario pulsa Escape, cuando el usuario pulsa el botón de reset y la orden no tiene manejador de `ResetDown`, cuando el código llama a `Commands.Pop()` con la orden en la cima de la pila o cuando se cierra la ventana de dibujo con la orden en la pila. En todos los casos Digi3D.AI quita la orden de la pila y produce `Disposing`. Después de `Disposing`, la orden no recibe más eventos.
 
-`Disposing` no se produce si la orden se quita con `Commands.Pop()`: ese método quita la orden de la pila sin pasar por el mecanismo de finalización de la orden.
+Al cerrar la ventana de dibujo, Digi3D.AI produce `Disposing` cuando la ventana ya no tiene documento: un manejador de `Disposing` no debe usar los miembros que acceden al documento, como `DigiNG.NewTransaction` o `DrawingFile.Add`. Una excepción que lance un manejador de `Disposing` no sale de Digi3D.AI: se escribe con `System.Diagnostics.Trace`.
 
 Si un manejador de evento lanza una excepción, Digi3D.AI muestra su mensaje (el de `InnerException`, si existe) en un cuadro de mensaje y la orden sigue en la pila.
 
@@ -58,7 +58,7 @@ Los métodos `On…` son virtuales. Digi3D.AI los llama para notificar cada even
 
 | Método | Descripción |
 | :--- | :--- |
-| `void Dispose()` | Termina la orden: Digi3D.AI la quita de la pila de órdenes y produce `Disposing`. Si la orden ya había terminado (por ejemplo, porque el usuario pulsó Escape), `Dispose` no vuelve a quitarla de la pila, no cierra ninguna transacción y no produce `Disposing` otra vez. Solo la primera llamada tiene efecto: las siguientes no hacen nada. En un objeto que Digi3D.AI no ha apilado, `Dispose` no quita nada de la pila. Después de `Dispose`, `Commands.Push(Command)` lanza `ObjectDisposedException` con el objeto; con una orden que ya ha terminado sin llamar a `Dispose`, lanza `InvalidOperationException`. |
+| `void Dispose()` | Termina la orden: Digi3D.AI la quita de la pila de órdenes y produce `Disposing`. Si la orden ya había terminado (con Escape, con `Commands.Pop()` o al cerrarse la ventana de dibujo), `Dispose` no vuelve a quitarla de la pila, no cierra ninguna transacción y no produce `Disposing` otra vez. Solo la primera llamada tiene efecto: las siguientes no hacen nada. En un objeto que Digi3D.AI no ha apilado, `Dispose` no quita nada de la pila. Después de `Dispose`, `Commands.Push(Command)` lanza `ObjectDisposedException` con el objeto; con una orden que ya ha terminado sin llamar a `Dispose`, lanza `InvalidOperationException`. |
 | `virtual void OnInitialize()` | Produce `Initialize`. |
 | `virtual void OnSetFocus()` | Produce `SetFocus`. |
 | `virtual void OnLostFocus()` | Produce `LostFocus`. |
