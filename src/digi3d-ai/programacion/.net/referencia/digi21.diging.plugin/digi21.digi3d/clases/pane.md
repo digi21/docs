@@ -16,7 +16,9 @@ public class Pane
 public Pane()
 ```
 
-El constructor existe para las clases derivadas que se crean con las sobrecargas genéricas de `Panes.Add<T>`. Un `Pane` creado con `new` no está asociado a ningún panel: sus propiedades y métodos acceden a un puntero nulo de código nativo.
+El constructor existe para las clases derivadas que se crean con las sobrecargas genéricas de `Panes.Add<T>`. Un `Pane` creado con `new` no está asociado a ningún panel: sus propiedades y métodos lanzan `ObjectDisposedException`. `Panes.Add<T>` asocia el objeto al panel después de ejecutar el constructor, así que en el constructor de la clase derivada las propiedades y métodos también lanzan `ObjectDisposedException`; el constructor solo puede suscribirse a los eventos.
+
+Cada propiedad y cada método busca el panel en el administrador de paneles de Digi3D.AI. Si Digi3D.AI ya ha destruido el panel (por ejemplo, al cerrar la aplicación), lanzan `ObjectDisposedException`.
 
 ## Propiedades
 
