@@ -40,7 +40,7 @@ Una entidad tiene uno o más códigos, en su propiedad [Entity.Codes](/digi3d-ai
 
 | Método | Descripción |
 | :--- | :--- |
-| `string ToString()` | Devuelve un texto localizado con el nombre del código y, si `Table` tiene valor, con la tabla y el identificador. En la versión 26.0.0, el texto con tabla empieza por «Code (deleted)» aunque el código no esté eliminado. |
+| `string ToString()` | Devuelve un texto localizado con el nombre del código y, si `Table` tiene valor, con la tabla y el identificador. En inglés: `Code: "nombre" Table: t Id: i`. |
 
 ## Métodos estáticos
 
@@ -92,7 +92,7 @@ var línea = new Line(new[] { maestra, directora });
 línea.Points.Add(new Point3D(0, 0, 100));
 línea.Points.Add(new Point3D(10, 0, 100));
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(línea);
 return 0;
 ```
