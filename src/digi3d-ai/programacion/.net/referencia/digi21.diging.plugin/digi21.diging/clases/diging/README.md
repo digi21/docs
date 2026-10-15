@@ -18,9 +18,8 @@ Si no hay ninguna ventana de dibujo abierta:
 
 | Miembros | Comportamiento |
 | :--- | :--- |
-| `DrawingFile`, `ReferenceFiles`, `DigiTab`, `Wkt`, `LockUndo`, `Camera`, `Commands`, `Codes`, `LicenseInfo`, `WindowSize`, `DeviceContextHandle`, `RenderContextHandle`, `Undo`, `NewTransaction`, `FinishTransaction`, `SelectEntity`, `Project`, `GetResultPythonExpression`, `SelectByPythonExpression`, `SendInputDeviceEvent`, `RenderScene`, `SetVisible`, `DrawEntity`, `AnimateEntity`, `DeanimateEntity`, `DeanimateAll` | Lanzan `NullReferenceException`. |
+| `DrawingFile`, `ReferenceFiles`, `DigiTab`, `Wkt`, `LockUndo`, `Camera`, `Commands`, `Codes`, `LicenseInfo`, `WindowSize`, `DeviceContextHandle`, `RenderContextHandle`, `Undo`, `NewTransaction`, `FinishTransaction`, `SelectEntity`, `Project`, `GetResultPythonExpression`, `SelectByPythonExpression`, `SendInputDeviceEvent`, `RenderScene`, `SetVisible`, `DrawEntity`, `AnimateEntity`, `DeanimateEntity`, `DeanimateAll`, `GeographicCalculator` | Lanzan `NullReferenceException`. |
 | `ActiveParameters`, `InputDeviceOptions`, `VisualizationOptions` | Devuelven `null`. |
-| `GeographicCalculator` | No lo comprueba: devuelve un objeto cuyos métodos acceden a un puntero nativo nulo. |
 
 Los métodos no comprueban si sus argumentos son `null`: un argumento `null` produce `NullReferenceException`.
 
