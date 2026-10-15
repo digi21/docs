@@ -16,7 +16,7 @@ Términos de esta página:
 - Azimut: ángulo desde el norte (eje Y positivo), en el sentido de las agujas del reloj.
 - Ángulo trigonométrico: ángulo desde el este (eje X positivo), en sentido contrario a las agujas del reloj.
 
-El paquete NuGet `Digi21.DigiNG` declara los métodos con un solo parámetro de entrada como métodos de extensión de `double` (`this double`), y `MatrixToRotations` como método de extensión de `double[,]`. El ensamblado instalado con Digi3D.AI no los marca como métodos de extensión. Un programa compilado con el paquete funciona con las dos formas de llamada; las páginas usan la llamada estática (`Angles.RadianToGradian(x)`), que compila también con el ensamblado instalado.
+Los métodos con un solo parámetro de entrada son métodos de extensión de `double` (`this double`), y `MatrixToRotations` es método de extensión de `double[,]`: `x.RadianToGradian()` equivale a `Angles.RadianToGradian(x)`. `DMSToSexagesimal` y `RotationsToMatrix` no son métodos de extensión. Las páginas usan la llamada estática.
 
 ## Métodos estáticos
 
@@ -36,7 +36,7 @@ El paquete NuGet `Digi21.DigiNG` declara los métodos con un solo parámetro de 
 | [RotationsToMatrix](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/rotationstomatrix.md) | Giros omega, phi y kappa a matriz de giro de 3 × 3. |
 | [MatrixToRotations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/matrixtorotations.md) | Matriz de giro de 3 × 3 a giros omega, phi y kappa. |
 
-Ningún método lanza excepciones por el valor de los ángulos: un argumento `NaN` produce un resultado `NaN`. `NormalizeAngle`, `AzimuthToTrigonometric` y `TrigonometricToAzimuth` suman o restan 2π en un bucle hasta llevar el ángulo al intervalo [0, 2π]: con un ángulo infinito el bucle no termina, y con un ángulo de valor absoluto muy grande (del orden de 10¹⁵ radianes) tarda horas.
+Solo `NormalizeAngle` lanza excepciones por el valor del ángulo: `ArgumentOutOfRangeException` con `NaN` o un infinito. En los demás métodos, un argumento `NaN` produce un resultado `NaN`.
 
 ## Ejemplo
 

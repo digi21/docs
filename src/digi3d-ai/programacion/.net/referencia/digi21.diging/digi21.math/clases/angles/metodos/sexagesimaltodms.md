@@ -10,8 +10,6 @@ Descompone un ángulo en grados sexagesimales con fracción decimal en grados, m
 public static void SexagesimalToDMS(this double sexagesimal, out int degrees, out int minutes, out double seconds, out bool east)
 ```
 
-El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.SexagesimalToDMS(valor, out …)`.
-
 ## Parámetros
 
 | Parámetro | Descripción |

@@ -10,8 +10,6 @@ Calcula los giros omega, phi y kappa de una matriz de giro de 3 × 3. Es la oper
 public static void MatrixToRotations(this double[,] eulerMatrix, out double omega, out double phi, out double kappa)
 ```
 
-El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.MatrixToRotations(matriz, out …)`.
-
 ## Parámetros
 
 | Parámetro | Descripción |

@@ -10,8 +10,6 @@ Convierte un azimut (ángulo desde el norte, en el sentido de las agujas del rel
 public static double AzimuthToTrigonometric(this double radians)
 ```
 
-El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.AzimuthToTrigonometric(valor)`.
-
 ## Parámetros
 
 | Parámetro | Descripción |
@@ -20,7 +18,7 @@ El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo co
 
 ## Devuelve
 
-El ángulo trigonométrico en radianes: `5π/2 − radians`, normalizado al intervalo [0, 2π] con [NormalizeAngle](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/normalizeangle.md). Con un argumento infinito el método no termina.
+El ángulo trigonométrico en radianes: `5π/2 − radians`, normalizado al intervalo [0, 2π] con el mismo cálculo que [NormalizeAngle](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/normalizeangle.md). A diferencia de `NormalizeAngle`, el método no lanza excepciones: un argumento `NaN` devuelve `NaN`, `+∞` devuelve `−∞` y `−∞` devuelve `+∞`.
 
 ## Ejemplo
 

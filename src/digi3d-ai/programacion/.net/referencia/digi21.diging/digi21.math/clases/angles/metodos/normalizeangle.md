@@ -10,19 +10,21 @@ Lleva un ángulo en radianes al intervalo [0, 2π]. Método de [Angles](/digi3d-
 public static double NormalizeAngle(this double radians)
 ```
 
-El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.NormalizeAngle(valor)`.
-
 ## Parámetros
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `radians` | Ángulo en radianes. |
+| `radians` | Ángulo en radianes. Tiene que ser un número finito. |
 
 ## Devuelve
 
-El ángulo equivalente entre 0 y 2π, ambos incluidos: 2π se devuelve como 2π, no como 0. Un argumento `NaN` devuelve `NaN`.
+El ángulo equivalente entre 0 y 2π, ambos incluidos. Un valor dentro de [0, 2π] se devuelve sin cambios: 2π se devuelve como 2π, no como 0. Un valor fuera de ese intervalo se sustituye por el resto de dividirlo entre 2π, con el signo del dividendo (la función `fmod` de C); si el resto es negativo, se le suma 2π. Un múltiplo negativo de 2π devuelve `+0`.
 
-El método suma 2π mientras el ángulo es negativo y resta 2π mientras es mayor que 2π. Con un argumento infinito el bucle no termina, y con un argumento de valor absoluto muy grande el número de iteraciones es `|radians| / 2π`.
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentOutOfRangeException` | `radians` es `NaN`, `+∞` o `−∞`. |
 
 ## Ejemplo
 
