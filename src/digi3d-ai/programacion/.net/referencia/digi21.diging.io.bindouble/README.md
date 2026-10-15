@@ -1,7 +1,7 @@
 # Digi21.DigiNG.IO.BinDouble
 <!-- id: digi21.diging.io.bindouble -->
 
-Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.Io.BinDouble) proporciona un importador/exportador de archivos binarios de doble precisión de Digi3D.AI.
+Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG.IO.BinDouble/) proporciona un importador/exportador de archivos binarios de doble precisión de Digi3D.AI.
 
 ### Package manager
 ```bash
@@ -18,7 +18,9 @@ dotnet add package Digi21.DigiNG.IO.BinDouble --version 26.0.0
 <PackageReference Include="Digi21.DigiNG.IO.BinDouble" Version="26.0.0" />
 ```
 
+## Tipos
 
-
-
-
+| Tipo | Descripción |
+| :--- | :--- |
+| [BinDouble](bindouble.md) | Archivo de dibujo en el formato binario de doble precisión (`.bind`). |
+| [DatabaseConnectionProperties](bindouble.md#databaseconnectionproperties) | Modelo de datos y cadena de conexión de la base de datos de un `BinDouble`. |
