@@ -1545,6 +1545,7 @@
                 * [Métodos estáticos](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/metodos-estaticos/README.md)
                   * [Compare](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/metodos-estaticos/compare.md)
                   * [Compose](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/metodos-estaticos/compose.md)
+              * [CodeCollection](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/codecollection/README.md)
               * [Complex](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/README.md)
                 * [Constructores](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/constructores.md)
                 * [Propiedades](digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/propiedades/README.md)
