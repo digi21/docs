@@ -144,11 +144,9 @@ public static Window3D Union(Window3D window, double xMin, double xMax, double y
 public static Window3D Union(IWindow3D window, double xMin, double xMax, double yMin, double yMax, double zMin, double zMax)
 ```
 
-Devuelve la caja que contiene `window` y el punto o la caja de los seis límites. Con `PointF` o `Point`, la Z del punto es 0. Lanza `InvalidOperationException` si `Xmin` de `window` es `null`: a diferencia del método `Union` de instancia, estas sobrecargas no aceptan una ventana no inicializada.
+Devuelve la caja que contiene `window` y el punto o la caja de los seis límites. Con `PointF` o `Point`, la Z del punto es 0. Si `Xmin` de `window` es `null`, devuelve la caja de dimensiones 0 del punto o la caja de los seis límites.
 
 Las sobrecargas con `IWindow3D` lanzan `NullReferenceException` si el argumento es `null`. Los métodos no modifican sus argumentos.
-
-> En la versión 26.0.0, si `Xmin` de la primera ventana vale exactamente `0`, las sobrecargas estáticas de `Union` descartan esa ventana y devuelven solo el punto, la caja de los seis límites o la segunda ventana. Para una ventana que puede tener `Xmin` igual a 0, usa el método `Union` de instancia sobre una copia.
 
 ## Operadores
 
@@ -162,7 +160,7 @@ Convierte la ventana en una [Window2D](/digi3d-ai/programacion/.net/referencia/d
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `InvalidOperationException` | Se lee `Width`, `Height`, `Depth`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Contains`, `Intersect` o `Intersect2D`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También en las sobrecargas estáticas de `Union` con un primer argumento no inicializado. |
+| `InvalidOperationException` | Se lee `Width`, `Height`, `Depth`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Contains`, `Intersect` o `Intersect2D`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También en el método `Union` de instancia sobre una ventana inicializada con una ventana no inicializada como argumento. |
 | `NullReferenceException` | Un argumento de tipo `IWindow3D` es `null`. |
 
 ## Ejemplo
