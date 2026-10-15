@@ -39,9 +39,6 @@ En el objeto que devuelve `Commands.Top`, `OnEntitySelected` requiere que la ord
 | Evento | Descripción |
 | :--- | :--- |
 | `EventHandler Disposing` | Se produce cuando la orden termina. En el objeto que devuelve `Commands.Top`, se produce cuando la orden de la primera posición termina. |
-
-> El paquete NuGet `Digi21.DigiNG.Plugin` 26.0.0 no declara el evento `Disposing` en `ICommand`; el ensamblado que instala Digi3D.AI sí lo declara. Una clase compilada con el paquete que implemente `ICommand` directamente no implementa `add_Disposing` ni `remove_Disposing`, y el CLR no puede cargarla con el ensamblado instalado (`TypeLoadException`). Las clases que derivan de `Command` no se ven afectadas. El parámetro `button` de `OnMove` se llama `InputDeviceButton` en el ensamblado instalado.
-
 ## Ejemplo
 
 Este método envía una pulsación y una liberación del botón de dato a la orden que ocupa la primera posición de la pila:
