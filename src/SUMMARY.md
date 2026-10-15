@@ -1922,6 +1922,7 @@
             * [TaskZoomEntity](digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.taskpanel/taskzoomentity.md)
         * [Digi21.Utilities](digi3d-ai/programacion/.net/referencia/digi21.utilities/README.md)
           * [IListExtension](digi3d-ai/programacion/.net/referencia/digi21.utilities/ilistextension.md)
+          * [IReadOnlyDrawingFileExtension](digi3d-ai/programacion/.net/referencia/digi21.utilities/ireadonlydrawingfileextension.md)
         * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
         * [Digi21.DigiNG.IO.Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/README.md)
           * [Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
