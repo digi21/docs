@@ -26,7 +26,7 @@ Complex(codes=())
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `add(geometry)` | — | Añade una geometría. La propiedad pasa al complejo. Lanza `ValueError` si `geometry` es `None`, o si es el propio complejo o uno de los complejos que lo contienen. |
+| `add(geometry)` | — | Añade una geometría. La propiedad pasa al complejo. Lanza `ValueError` si el complejo es de solo lectura, si `geometry` es `None` o si `geometry` es el propio complejo o uno de los complejos que lo contienen. |
 | `insert(position, geometry)` | — | Inserta una geometría en la posición indicada. Lanza `ValueError` en los mismos casos que `add`. |
 | `remove(geometry)` | `bool` |Elimina la geometría indicada<br>devuelve `True` si se eliminó.|
 | `clear()` | — | Elimina todas las geometrías. |

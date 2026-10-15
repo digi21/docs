@@ -28,7 +28,7 @@ Una colección, siempre la misma instancia para cada complejo, que trabaja direc
 | `IsReadOnly` | `true` si el complejo es de solo lectura. |
 | `GetEnumerator()` | Enumerador de las entidades, del tipo de cada una (`Line`, `Point`, `Text`, `Polygon` o `Complex`). Lanza `InvalidOperationException` en `MoveNext` si el número de entidades cambia durante el recorrido. |
 
-Los métodos que modifican la colección lanzan `InvalidOperationException` si el complejo es de solo lectura. `Add`, `Insert` y el `set` del indexador lanzan además `ArgumentNullException` si la entidad es `null`, e `InvalidOperationException` si la entidad es el propio complejo o uno de los complejos que lo contienen, porque se formaría un ciclo.
+Los métodos que modifican la colección lanzan `InvalidOperationException` si el complejo es de solo lectura. `Add`, `Insert` y el `set` del indexador lanzan además `ArgumentNullException` si la entidad es `null`, e `InvalidOperationException` si la entidad es el propio complejo o uno de los complejos que lo contienen, porque se formaría un ciclo. Si el complejo es de solo lectura, la excepción de solo lectura se lanza antes que las otras dos; en el `set` del indexador, la comprobación del índice va primero.
 
 Esta propiedad oculta [ReadOnlyComplex.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/propiedades/entities.md).
 
