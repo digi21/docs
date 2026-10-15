@@ -36,7 +36,7 @@ Si la entidad pertenece a un archivo de dibujo (su propiedad `Owner` no es `null
 | `bool Remove(Point3D item)` | Elimina el primer vértice igual a `item`. Devuelve `false` si no hay ninguno. |
 | `void RemoveAt(int index)` | Elimina el vértice de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor o igual que `Count`. |
 | `void Clear()` | Elimina todos los vértices. |
-| `bool Contains(Point3D vertice)` | `true` si algún vértice es igual a `vertice`. |
+| `bool Contains(Point3D vertex)` | `true` si algún vértice es igual a `vertex`. |
 | `int IndexOf(Point3D item)` | Posición del primer vértice igual a `item`, o `-1`. |
 | `void CopyTo(Point3D[] array, int arrayIndex)` | Copia los vértices en `array` a partir de `arrayIndex`. Lanza `ArgumentNullException` si `array` es `null`, `ArgumentOutOfRangeException` si `arrayIndex` es negativo e `IndexOutOfRangeException` si los vértices no caben en `array`. |
 | `IEnumerator<Point3D> GetEnumerator()` | Enumerador de los vértices. `MoveNext` lanza `InvalidOperationException` si el número de vértices cambia durante el recorrido. |
