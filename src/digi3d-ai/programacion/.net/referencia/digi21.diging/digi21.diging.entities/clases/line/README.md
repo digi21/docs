@@ -44,6 +44,8 @@ Los miembros de `ReadOnlyLine` y de `Entity` se describen en sus páginas.
 | [`void Offset(double x, double y)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/metodos/offset.md) | Suma `x` e `y` a todos los vértices. |
 | [`void Offset(double x, double y, double z)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/metodos/offset.md) | Suma `x`, `y` y `z` a todos los vértices. |
 
+Los métodos `Offset` recalculan las coordenadas mínimas y máximas de la línea después de desplazarla.
+
 Excepciones de `Close`, `ChangeDirection` y `Offset`:
 
 | Excepción | Cuándo |
