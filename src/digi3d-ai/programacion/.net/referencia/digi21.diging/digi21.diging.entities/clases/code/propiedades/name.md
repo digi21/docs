@@ -2,19 +2,14 @@
 <!-- id: name-3 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el nombre del código.
+Nombre del código: el que identifica el código en la tabla de códigos.
 
 ```csharp
-public string Name Id { get; }
+public string Name { get; }
 ```
 
 ## Valor de la propiedad
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)
-
-Nombre del código.
-
-
-
+El nombre que se pasa al constructor. En `default(Code)` vale `null`. El valor no se puede cambiar: para cambiar el código de una entidad, asigna otro `Code` a `Entity.Codes[i]`.

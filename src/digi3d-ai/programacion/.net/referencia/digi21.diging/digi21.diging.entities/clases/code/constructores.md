@@ -1,132 +1,103 @@
 # Constructores
 <!-- id: constructores-4 -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de la estructura [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/).
+Constructores de [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/).
 
-## Observaciones
+| Constructor | `Table`, `Id` | `Attributes` | `Visible`, `VisiblePhotogrammetricWindow` |
+| :--- | :--- | :--- | :--- |
+| `Code(string name)` | `null`, `null` | Diccionario vacío | `0xFFFFFFFF` |
+| `Code(string name, IDictionary<string, object> attributes)` | `null`, `null` | El diccionario `attributes`, sin copiarlo | `0xFFFFFFFF` |
+| `Code(string name, int table, int id)` | `table`, `id` | Diccionario vacío | `0xFFFFFFFF` |
+| `Code(string name, int? table, int? id)` | `table`, `id` | Diccionario vacío | `1` |
 
-El número de tabla es el número asignado para ese nombre de tabla en la tabla especial de base de datos MSCATALOG o CATDBS.
+Ningún constructor comprueba sus parámetros: `name` y `attributes` pueden ser `null`.
 
-Los importadores/exportadores proporcionan la propiedad [DatabaseTables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/databasetables.md) que devuelve un diccionario con los nombres de tablas, así como su número.
+El número de tabla es el que la tabla tiene en la tabla de catálogo de la base de datos (`CATDBS` o `MSCATALOG`). La propiedad [DatabaseTables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/databasetables.md) del archivo de dibujo devuelve el nombre y el número de cada tabla.
 
-## Sobrecargas
-
-|                                                                                                                             |                                                                                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [Code(string)](constructores.md#code-string)                                                                                | Inicializa una nueva instancia de [Code](./)asignándole un nombre.                                                                      |
-| [Code(string, IDictionary\<string, object>)](constructores.md#code-string-idictionary-less-than-string-object-greater-than) |                                                                                                                                          |
-| [Code(string, int?, int?)](constructores.md#code-string-int-int)                                                            | Inicializa una nueva instancia de [Code](./)asignándole un nombre, identificador de tabla de base de datos e identificador de registro. |
-| [Code(string, int, int)](constructores.md#code-string-int-int-1)                                                            | Inicializa una nueva instancia de [Code](./)asignándole un nombre, identificador de tabla de base de datos e identificador de registro. |
-
+<a id="code-string"></a>
 ## Code(string)
 
-Inicializa una nueva instancia de [Code](./)asignándole un nombre.
-
 ```csharp
-public Code(string name);
+public Code(string name)
 ```
 
-### Parámetros
+Crea un código sin enlace a la base de datos.
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)\
-Nombre que asignar al código
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo código cuyo nombre es _020400_.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `name` | Nombre del código. |
 
 ```csharp
 var código = new Code("020400");
 ```
 
-## Code(string, IDictionary\<string, object>)
-
-Inicializa una nueva instancia de [Code](./)asignándole un nombre y un diccionario de atributos.
-
-```csharp
-public Code(string name, IDictionary<string, object> attributes);
-```
-
-### Parámetros
-
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)\
-Nombre que asignar al código
-
-`attributes` [IDictionary<>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.idictionary-2?view=net-5.0)\
-Nombre que asignar al código
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo código cuyo nombre es _020400_ y le asigna una serie de atributos:
+<a id="code-string-idictionary-string-object"></a>
+## Code(string, IDictionary&lt;string, object&gt;)
 
 ```csharp
-var código = new Code("020400",
-    new Dictionary<string, object>
-    {
-        {"Propietario", "Dylan"},
-        {"Alturas", 3},
-        {"Superficie", 200.0}
-    });
+public Code(string name, IDictionary<string, object> atributes)
 ```
 
-## Code(string, int?, int?)
+Crea un código sin enlace a la base de datos con los atributos indicados. La propiedad `Attributes` es el mismo diccionario que se pasa: los cambios posteriores en el diccionario se ven en el código.
 
-Inicializa una nueva instancia de [Code](./)asignándole un nombre, identificador de tabla de base de datos e identificador de registro.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `atributes` | Atributos del código: nombre del campo de la base de datos y valor. En el ensamblado instalado el parámetro se llama `attributes`. |
 
 ```csharp
-public Code(string name, int? table, int? id);
+var código = new Code("020400", new Dictionary<string, object>
+{
+    { "Propietario", "Dylan" },
+    { "Alturas", 3 },
+    { "Superficie", 200.0 },
+});
 ```
 
-### Parámetros
-
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)\
-Nombre que asignar al código
-
-`table` [Nullable\<int>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)\
-Número de tabla de base de datos
-
-`id` [Nullable\<int>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)\
-Identificador del _PrimaryKey_ de la tabla de base de datos con los datos asignados al [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo código cuyo nombre es _020400_, y que tiene su información de base de datos en el registro _25522_ de la tabla _2_ de la base de datos.
-
-```csharp
-var código = new Code("020400", 2, 25522);
-```
-
+<a id="code-string-int-int"></a>
 ## Code(string, int, int)
 
-Inicializa una nueva instancia de [Code](./)asignándole un nombre, identificador de tabla de base de datos e identificador de registro.
-
 ```csharp
-public Code(string name, int? table, int? id);
+public Code(string name, int table, int id)
 ```
 
-### Parámetros
+Crea un código enlazado con el registro `id` de la tabla número `table`.
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)\
-Nombre que asignar al código
-
-`table` [Nullable\<int>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)\
-Número de tabla de base de datos
-
-`id` [Nullable\<int>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)\
-Identificador del _PrimaryKey_ de la tabla de base de datos con los datos asignados al [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo código cuyo nombre es _020400_, y que tiene su información de base de datos en el registro _25522_ de la tabla _2_ de la base de datos.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `name` | Nombre del código. |
+| `table` | Número de la tabla de la base de datos. |
+| `id` | Identificador del registro en la tabla: el valor de su clave principal. |
 
 ```csharp
 var código = new Code("020400", 2, 25522);
 ```
 
-##
+<a id="code-string-int-int-1"></a>
+## Code(string, int?, int?)
 
+```csharp
+public Code(string name, int? table, int? id)
+```
 
+Crea un código con tabla y registro opcionales. Con `table` e `id` a `null` equivale a `Code(name)`, salvo en la visibilidad.
 
+En la versión 26.0.0, este constructor asigna `1` a `Visible` y a `VisiblePhotogrammetricWindow`, en lugar de `0xFFFFFFFF`. El bit `1` corresponde a las líneas: una entidad de otro tipo que solo tiene este código no se muestra. Para mostrarla, asigna `0xFFFFFFFF` a las dos propiedades.
+
+| Parámetro | Descripción |
+| :--- | :--- |
+| `name` | Nombre del código. |
+| `table` | Número de la tabla de la base de datos, o `null`. |
+| `id` | Identificador del registro, o `null`. |
+
+```csharp
+int? tabla = null;
+int? registro = null;
+var código = new Code("020400", tabla, registro)
+{
+    Visible = 0xFFFFFFFF,
+    VisiblePhotogrammetricWindow = 0xFFFFFFFF,
+};
+```

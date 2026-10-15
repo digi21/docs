@@ -2,19 +2,36 @@
 <!-- id: visible -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si está habilitada la visualización de este [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) en la ventana de dibujo.
+Máscara de bits de los tipos de entidad que se muestran con este código en la ventana de dibujo.
 
 ```csharp
-public bool Visible { get; set; }
+public uint Visible { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)
+Cada bit corresponde a un tipo de entidad. Una entidad se muestra en la ventana de dibujo si alguno de sus códigos tiene activo el bit de su tipo y la entidad no está oculta ([Entity.Hidden](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/hidden.md)). El resultado se lee en [Entity.Visible](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/visible.md).
 
-Visibilidad del código en la ventana de dibujo.
+| Bit | Tipo de entidad |
+| :--- | :--- |
+| `0x1` | Línea |
+| `0x2` | Punto |
+| `0x4` | Texto |
+| `0x8` | Complejo |
+| `0x10` | Polígono |
+| `0x20` | Complejo puntual |
 
+`0xFFFFFFFF` muestra todos los tipos y `0` no muestra ninguno. Los constructores asignan `0xFFFFFFFF`, salvo `Code(string, int?, int?)`, que asigna `1` (lee [Constructores](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/constructores.md)).
 
+`Code` es una estructura: asignar `Visible` en un elemento de `Entity.Codes` modifica una copia. Asigna después la copia a `Entity.Codes[i]`.
 
+## Ejemplo
+
+```csharp
+// Oculta los puntos con el primer código de la línea, y muestra el resto de tipos.
+var código = línea.Codes[0];
+código.Visible = 0xFFFFFFFF & ~0x2u;
+línea.Codes[0] = código;
+```
