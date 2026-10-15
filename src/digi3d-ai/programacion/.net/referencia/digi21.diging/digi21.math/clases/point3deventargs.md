@@ -1,26 +1,53 @@
 # Point3DEventArgs
 <!-- id: point3deventargs -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Argumento de evento para los eventos que comunican de que algo ha sucedido en unas determinadas coordenadas [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md).
+Argumento de los eventos que notifican una coordenada. Lo reciben los eventos `DataDown`, `DataUp`, `ResetDown`, `ResetUp`, `SnapDown` y `SnapUp` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md), declarados como `EventHandler<Point3DEventArgs>`.
 
 ```csharp
 public class Point3DEventArgs : EventArgs
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [EventArgs](https://docs.microsoft.com/en-us/dotnet/api/system.eventargs?view=net-5.0)→ Point3DEventArgs
-
 ## Constructores
 
-|  |  |
-| :--- | :--- |
-| Point3DEventArgs\(Point3D\) | Inicializa una nueva instancia de Point3DEventArgs pasado por parámetros. |
+```csharp
+public Point3DEventArgs(Point3D coordinates)
+```
+
+Crea el argumento con la coordenada `coordinates`.
 
 ## Propiedades
 
-|  |  |
+| Propiedad | Descripción |
 | :--- | :--- |
-| Coordinates | Devuelve o asigna el [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md) en el que se ha generado el evento. |
+| `Point3D Coordinates { get; }` | Coordenada que se pasó al constructor. |
 
+## Ejemplo
+
+Esta orden escribe en la ventana de resultados las coordenadas de cada pulsación del botón de datos y termina al pulsar el botón de reset:
+
+```csharp
+using Digi21.Digi3D;
+using Digi21.DigiNG.Plugin.Command;
+using Digi21.Math;
+
+namespace Ejemplos;
+
+[Command(Name = "MARCA_COORDENADAS")]
+public class MarcaCoordenadas : Command
+{
+    public MarcaCoordenadas()
+    {
+        DataUp += MuestraCoordenadas;
+        ResetUp += (sender, e) => Dispose();
+    }
+
+    private void MuestraCoordenadas(object sender, Point3DEventArgs e)
+    {
+        Digi3D.OutputWindow.Show();
+        Digi3D.OutputWindow.WriteLine($"X={e.Coordinates.X:F3} Y={e.Coordinates.Y:F3} Z={e.Coordinates.Z:F3}");
+    }
+}
+```
