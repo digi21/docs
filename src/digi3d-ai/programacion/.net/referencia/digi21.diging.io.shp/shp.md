@@ -80,7 +80,7 @@ Los constructores lanzan `Exception`, con el mensaje del error, si falla la aper
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Llama a `Add(Entity)` y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada en su capa. Según la opción [Modo de eliminación de geometrías](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-shapefile/modo-de-eliminacion-de-geometrias.md) de Digi3D.AI, se marca el registro del `.dbf` como borrado o se escribe un valor en un campo. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
+| `int IndexOf(Entity entity)` | Posición de la entidad entre las entidades que el archivo tiene en memoria, o `-1` si la entidad no pertenece a este archivo o no está entre ellas. Con `null` lanza `NullReferenceException`. |
 | `void Dispose()` | Cierra las capas. |
 
 Al guardar, una entidad no se escribe, y se notifica un mensaje con `ResultsAdded` (una sola vez por código), si su código no tiene traducción al formato Shapefile, no tiene nombre de capa o su tabla de base de datos no existe en el esquema de la tabla de códigos. Un código con la traducción desactivada no se escribe y no genera mensaje.
@@ -148,7 +148,7 @@ Identificador de controlador de idioma (*LDID*) que se escribe en la cabecera de
 | `Korean_ANSI_OEM` | 78 (0x4E) |
 | `ChineseBig5_Taiwan` | 79 (0x4F) |
 | `Thai_ANSI_OEM` | 80 (0x50) |
-| `CurrentANSICP` | 81 (0x51) |
+| `CurrentANSICP` | 87 (0x57) |
 | `ANSI` | 87 (0x57) |
 | `WesternEuropeanANSI` | 88 (0x58) |
 | `SpanishANSI` | 89 (0x59) |
@@ -179,7 +179,7 @@ Identificador de controlador de idioma (*LDID*) que se escribe en la cabecera de
 | `BalticWindows` | 204 (0xCC) |
 | `UTF_8` | 255 (0xFF) |
 
-`CurrentANSICP` vale 81 (0x51). El valor 0x57 (87) es `ANSI`.
+`CurrentANSICP` y `ANSI` valen 0x57 (87), la página de códigos ANSI actual (1252). El ensamblado de referencia del paquete NuGet 26.0.0 declara `CurrentANSICP = 0x51`, que no es un LDID válido: usa `ANSI`.
 
 ## Ejemplo
 
