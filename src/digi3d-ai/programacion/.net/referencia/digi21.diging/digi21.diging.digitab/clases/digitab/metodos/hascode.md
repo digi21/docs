@@ -1,76 +1,48 @@
 # HasCode
 <!-- id: hascode -->
 
-Espacio de nombres: [Digi21.DigiNG.DigiTab](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.DigiTab`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si la tabla de códigos contiene un código
-
-## Sobrecargas
-
-|  |  |
-| :--- | :--- |
-| [HasCode\(string\)](hascode.md#hascode-string) | Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros. |
-| [HasCode\(string, bool\)](hascode.md#hascode-string-bool) | Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros permitiendo indicar si aplicar lógica de comodines. |
-
-## HasCode\(string\)
-
-Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros.
+Indica si la tabla de códigos tiene un código cuyo nombre o alguno de cuyos alias coincide con el nombre indicado.
 
 ```csharp
 public bool HasCode(string name)
-```
-
-## Parámetros
-
-`name`[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Nombre del código que se está consultando.
-
-## Devuelve
-
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si la tabla de códigos contiene el código especificado.
-
-## Ejemplo
-
-El siguiente ejemplo carga una tabla de códigos e indica si ésta tiene el código 020400.
-
-```csharp
-var tabla = DigiTab.Load("tabla.tab.xml");
-if( tabla.HasCode("0204400") )
-    Console.WriteLine("La tabla tiene el códiogo 020400");
-```
-
-## HasCode\(string, bool\)
-
-Indica si la tabla de códigos contiene un código cuyo nombre sea el pasado por parámetros permitiendo indicar si aplicar lógica de comodines.
-
-```csharp
 public bool HasCode(string name, bool allowWilcards)
 ```
 
 ## Parámetros
 
-`name`[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Nombre del código que se está consultando.
-
-`allowWillcards`[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Valor que indica si utilizar comodines.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `name` | Nombre que se busca. Se usan los 255 primeros caracteres. |
+| `allowWilcards` | `true` para comparar con comodines. `HasCode(name)` equivale a `HasCode(name, false)`. |
 
 ## Devuelve
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si la tabla de códigos contiene el código especificado.
+`true` si algún código de la tabla coincide con `name` en su nombre o en alguno de sus alias.
+
+## Comparación
+
+Con `allowWilcards` a `false`, el nombre o el alias tiene que ser igual a `name`, distinguiendo mayúsculas de minúsculas. `*` y `?` se comparan como caracteres. Es la misma comparación que usa el indizador [this[string]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md).
+
+Con `allowWilcards` a `true`, las dos cadenas se comparan carácter a carácter, distinguiendo mayúsculas de minúsculas, con estas reglas:
+
+| Carácter | Efecto |
+| :--- | :--- |
+| `*` | Coincide con el resto de la otra cadena, también si está vacío. |
+| `?` | Coincide con un carácter cualquiera. No coincide con el final de la otra cadena. |
+
+Los comodines valen en las dos cadenas: en `name` y en los nombres y alias de la tabla. Por ejemplo, `HasCode("0204*", true)` es `true` si la tabla tiene un código `020401`, y `HasCode("020401", true)` es `true` si la tabla tiene un código `0204*`.
 
 ## Ejemplo
 
-El siguiente ejemplo carga una tabla de códigos e indica si ésta tiene un código que comienza por 0204.
-
 ```csharp
-var tabla = DigiTab.Load("tabla.tab.xml");
-if( tabla.HasCode("0204*", true) )
-    Console.WriteLine("La tabla tiene al menos un código cuyo nombre comienza por 0204");
+using var tabla = DigiTab.Load(@"C:\Tablas\tabla.tab.xml");
+
+if (tabla.HasCode("020400"))
+    Console.WriteLine("La tabla tiene el código 020400.");
+
+if (tabla.HasCode("0204*", true))
+    Console.WriteLine("La tabla tiene al menos un código que empieza por 0204.");
 ```
-
-
-
