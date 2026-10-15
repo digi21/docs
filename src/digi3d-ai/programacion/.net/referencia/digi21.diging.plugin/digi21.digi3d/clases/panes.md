@@ -24,6 +24,7 @@ public Pane Add(Form form, Size size, PaneDock initialDock, bool allowClose)
 
 public T Add<T>(Form form, params object[] args) where T : Pane
 public T Add<T>(Form form, Size size, params object[] args) where T : Pane
+public T Add<T>(Form form, Size size, bool allowClose, params object[] args) where T : Pane
 public T Add<T>(Form form, PaneDock initialDock, params object[] args) where T : Pane
 public T Add<T>(Form form, Size size, PaneDock initialDock, params object[] args) where T : Pane
 public T Add<T>(Form form, PaneDock initialDock, bool allowClose, params object[] args) where T : Pane
@@ -40,13 +41,11 @@ Crea un panel acoplable que contiene `form` y devuelve el [Pane](/digi3d-ai/prog
 | `allowClose` | `false` para que el panel no tenga botón de cerrar y el usuario no pueda cerrarlo. Las sobrecargas sin `allowClose` usan `true`. |
 | `args` | Argumentos del constructor de `T`. |
 
-Las sobrecargas genéricas crean el objeto devuelto con `Activator.CreateInstance(typeof(T), args)`: `T` es una clase derivada de `Pane` con un constructor público que admite `args`. Así, la clase derivada puede recibir datos en el constructor y manejar los eventos del panel. El constructor de `T` se ejecuta antes de que el objeto quede asociado al panel, así que en el constructor no se pueden usar las propiedades ni los métodos de `Pane`. El ejemplo de [Pane](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/pane.md) usa una sobrecarga genérica.
+Las sobrecargas genéricas crean el objeto devuelto con `Activator.CreateInstance(typeof(T), args)`: `T` es una clase derivada de `Pane` con un constructor público que admite `args`. Así, la clase derivada puede recibir datos en el constructor y manejar los eventos del panel. El constructor de `T` se ejecuta antes de que el objeto quede asociado al panel, así que en el constructor las propiedades y los métodos de `Pane` lanzan `ObjectDisposedException`. El ejemplo de [Pane](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/pane.md) usa una sobrecarga genérica.
 
 El usuario no puede poner flotante un panel creado con `Add`: el panel solo se puede acoplar.
 
-Digi3D.AI destruye todos los paneles creados con `Add` al cerrar un archivo de dibujo y al cerrar la aplicación. Antes de destruir cada panel produce sus eventos `Closing` y `Closed`. Después de esa destrucción, el objeto `Pane` sigue apuntando al panel destruido: no uses sus propiedades ni sus métodos.
-
-> El ensamblado instalado tiene además la sobrecarga `public T Add<T>(Form form, Size size, bool allowClose, params object[] args) where T : Pane`, que acopla el panel a la derecha. El paquete NuGet no la declara, así que una extensión compilada con el paquete no la puede llamar.
+Digi3D.AI destruye todos los paneles creados con `Add` al cerrar un archivo de dibujo y al cerrar la aplicación. Antes de destruir cada panel produce sus eventos `Closing` y `Closed`. Después de esa destrucción, las propiedades y los métodos del objeto `Pane` lanzan `ObjectDisposedException`.
 
 Excepciones:
 
