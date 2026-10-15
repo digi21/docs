@@ -1,10 +1,10 @@
 # Disjoint
 <!-- id: disjoint-3 -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si las dos [ReadOnlyLine](../../../../digi21.diging.entities/clases/readonlyline/)son disjuntas.
+Indica si las dos líneas son disjuntas.
 
 ![Línea disjunta con línea](../../../../../../../../../images/lineanocoincidentelinea.png)
 
@@ -12,15 +12,23 @@ Indica si las dos [ReadOnlyLine](../../../../digi21.diging.entities/clases/reado
 public static bool Disjoint(ReadOnlyLine a, ReadOnlyLine b)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primera línea, de tipo [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/). |
+| `b` | Segunda línea. |
 
-`a` [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/)\
-Primera línea.
+## Valor devuelto
 
-`b` [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/)\
-Segunda línea.
+`true` si las cajas envolventes en planta de las dos líneas no se tocan o si ningún vértice de `a` coincide con un vértice de `b`. Los extremos cuentan como vértices.
 
-## Devuelve
+Como solo se comparan vértices, dos líneas cuyos lados se cruzan sin un vértice común son disjuntas.
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-_Verdadero_ si las dos líneas son disjuntas.
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
+
+## Ejemplo
+
+Lee el [ejemplo de LineLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/lineline/#ejemplo).
