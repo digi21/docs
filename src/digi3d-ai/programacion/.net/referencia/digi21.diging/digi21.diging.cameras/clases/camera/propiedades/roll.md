@@ -1,20 +1,15 @@
 # Roll
 <!-- id: roll -->
 
-Espacio de nombres: [Digi21.DigiNG.Cameras](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.Cameras`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve o asigna el ángulo \(en sexagesimal\) de rotación en el eje _Roll_.
+Giro de la cámara sobre el eje Y, en grados sexagesimales.
 
 ```csharp
- public double Roll { get; set; }
+public float Roll { get; set; }
 ```
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
-
-Ángulo de rotación en sexagesimal en el eje _Roll_.
-
-
-
+`float`. La ventana de dibujo aplica `Roll` después de `Pitch` y antes de `Yaw`. Lee el apartado de los giros en [Camera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/camera/).
