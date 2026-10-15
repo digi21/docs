@@ -21,7 +21,7 @@ La tarea se añade al panel con [Digi3D.Tasks.Add](/digi3d-ai/programacion/.net/
 ```csharp
 public TaskMessageBox()
 public TaskMessageBox(string title, string description, TaskSeverity severity, string drawingFile, string module)
-public TaskMessageBox(string title, string description, TaskSeverity severity, string drawingFile, string module, ITask[] childs)
+public TaskMessageBox(string title, string description, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 ```
 
 | Parámetro | Descripción |
@@ -31,7 +31,7 @@ public TaskMessageBox(string title, string description, TaskSeverity severity, s
 | `severity` | Gravedad de la tarea, de la enumeración [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md). |
 | `drawingFile` | Archivo de dibujo al que se refiere la tarea. Admite `null`. |
 | `module` | Nombre del módulo que ha generado la tarea, por ejemplo el nombre de la orden. Admite `null`. |
-| `childs` | Tareas hijas. |
+| `children` | Tareas hijas. |
 
 El constructor sin parámetros deja la descripción a `null`, así que el cuadro de mensaje sale vacío. Como la descripción solo se asigna en el constructor, usa uno de los otros dos constructores.
 

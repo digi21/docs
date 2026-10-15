@@ -20,7 +20,7 @@ La tarea se añade al panel con [Digi3D.Tasks.Add](/digi3d-ai/programacion/.net/
 public TaskAnimateEntity()
 public TaskAnimateEntity(Entity entity, int seconds, string title, TaskSeverity severity)
 public TaskAnimateEntity(Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module)
-public TaskAnimateEntity(Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] childs)
+public TaskAnimateEntity(Entity entity, int seconds, string title, TaskSeverity severity, string drawingFile, string module, ITask[] children)
 ```
 
 | Parámetro | Descripción |
@@ -31,7 +31,7 @@ public TaskAnimateEntity(Entity entity, int seconds, string title, TaskSeverity 
 | `severity` | Gravedad de la tarea, de la enumeración [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md). |
 | `drawingFile` | Archivo de dibujo al que se refiere la tarea. |
 | `module` | Nombre del módulo que ha generado la tarea, por ejemplo el nombre de la orden. |
-| `childs` | Tareas hijas. |
+| `children` | Tareas hijas. |
 
 El constructor sin parámetros deja `Entity`, `Title`, `DrawingFile`, `Module` y `Children` a `null`, `Seconds` a 0 y `Severity` a `TaskSeverity.Error`.
 
