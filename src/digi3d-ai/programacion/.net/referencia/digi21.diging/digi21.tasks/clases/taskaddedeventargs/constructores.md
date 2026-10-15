@@ -1,19 +1,15 @@
 # Constructores
 <!-- id: constructores-14 -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [TaskAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/) configurado con la tarea que se acaba de añadir.
+Crea un [TaskAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/) con una tarea.
 
 ```csharp
 public TaskAddedEventArgs(ITask task)
 ```
 
-### Parámetros
-
-`task` [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/)  
-Tarea que se acaba de añadir.
-
-
-
+| Parámetro | Descripción |
+| :--- | :--- |
+| `task` | Tarea que devuelve la propiedad `Task`: [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/). El constructor no la valida: admite `null`. |
