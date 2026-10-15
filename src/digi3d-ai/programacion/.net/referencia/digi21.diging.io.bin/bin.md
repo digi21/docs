@@ -36,8 +36,8 @@ Abre el archivo `path`. Si `readOnly` es `false` (el valor de las sobrecargas si
 | Parámetro | Descripción |
 | :--- | :--- |
 | `path` | Ruta del archivo `.bin`. |
-| `decimals` | Número de decimales de las coordenadas. Se devuelve en la propiedad `Decimals`. Lee la nota de este apartado. |
-| `globalOrigin` | Origen que se resta de las coordenadas al guardarlas. Se devuelve en la propiedad `GlobalOrigin`. Lee la nota de este apartado. |
+| `decimals` | Número de decimales de las coordenadas: al guardar, cada coordenada se multiplica por 10 elevado a `decimals`, y al leer se divide. Se devuelve en la propiedad `Decimals`. |
+| `globalOrigin` | Origen que se resta de las coordenadas al guardarlas y se suma al leerlas. Se devuelve en la propiedad `GlobalOrigin`. |
 | `GetWkt` | Delegado [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md) que devuelve el WKT del sistema de referencia de coordenadas. Solo se llama si no existe el archivo `.prj`. |
 | `digiTab` | [Tabla de códigos](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/) que traduce los códigos del archivo. Sin este parámetro se usa una tabla de códigos vacía, y los códigos del archivo se añaden a esa tabla según se leen. |
 | `readOnly` | `true` para abrir el archivo en solo lectura. |
@@ -50,8 +50,6 @@ El sistema de referencia de coordenadas del archivo se obtiene así:
 
 En los casos 2 y 3, si el archivo no se abre en solo lectura, se crea el archivo `.prj` con ese WKT.
 
-> En la versión 26.0.0, el archivo se lee y se escribe siempre con 2 decimales y con origen (0, 0, 0): los constructores no aplican los valores de `decimals` y `globalOrigin`, que solo se devuelven en las propiedades `Decimals` y `GlobalOrigin`.
-
 Los constructores lanzan `Exception`, con el mensaje del error, si no se puede abrir o crear el archivo `.bin` o el `.prj`.
 
 Los avisos que se producen dentro del constructor (por ejemplo, un código de la tabla de códigos que no tiene traducción al formato `.bin`) se notifican con el evento `TaskAdded` antes de que el constructor termine. Un manejador que se suscribe después de crear el `Bin` no recibe esos avisos.
@@ -61,8 +59,8 @@ Los avisos que se producen dentro del constructor (por ejemplo, un código de la
 | Propiedad | Descripción |
 | :--- | :--- |
 | `string Path` | Ruta del archivo. |
-| `int Decimals` | Valor del parámetro `decimals` del constructor. |
-| `Point3D GlobalOrigin` | Valor del parámetro `globalOrigin` del constructor. |
+| `int Decimals` | Número de decimales con el que se leen y se escriben las coordenadas: el valor del parámetro `decimals` del constructor. |
+| `Point3D GlobalOrigin` | Origen global con el que se leen y se escriben las coordenadas: el valor del parámetro `globalOrigin` del constructor. |
 | `bool CanRead` | Siempre `true`. |
 | `bool CanWrite` | `false` si el archivo se abrió en solo lectura. |
 | `string Wkt` | WKT del sistema de referencia de coordenadas del archivo. |
@@ -85,7 +83,7 @@ Los avisos que se producen dentro del constructor (por ejemplo, un código de la
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Añade la entidad y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada y la vuelve a escribir en el archivo. La entidad sigue en el archivo con `Deleted` a `true`. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
+| `int IndexOf(Entity entity)` | Posición de la entidad entre las entidades que el archivo tiene en memoria, o `-1` si la entidad no pertenece a este archivo o no está entre ellas. Con `null` lanza `NullReferenceException`. |
 | `void Dispose()` | Cierra el archivo. |
 
 Excepciones de `Add` y `Delete`:
