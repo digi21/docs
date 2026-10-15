@@ -50,7 +50,7 @@ Crea la orden con `Args` vacío y `AllowRepeat` a `false`. La clase es abstracta
 | Propiedad | Descripción |
 | :--- | :--- |
 | `string[] Args { get; }` | Parámetros que el usuario escribe después del nombre de la orden, separados por espacios, tabuladores, saltos de línea o el signo `=`. Por ejemplo, `MIDE_DISTANCIA=2` da `["2"]` y `MIDE_DISTANCIA=2 3` da `["2", "3"]`. Es un vector vacío en el constructor y cuando la orden no tiene parámetros. Una orden apilada con `Commands.Push(Command)` no tiene parámetros. |
-| `bool AllowRepeat { get; set; }` | Valor `false` por defecto. En la versión 26.0.0, Digi3D.AI no lee esta propiedad: las órdenes .NET no se repiten al terminar, aunque esté activa la variable de repetición de órdenes. |
+| `bool AllowRepeat { get; set; }` | Indica si Digi3D.AI vuelve a ejecutar la orden cuando la orden sale de la pila. Valor `false` por defecto. La orden se repite si se cumplen las cuatro condiciones: `AllowRepeat` vale `true`, el nombre de la orden está entre los que Digi3D.AI registra al cargar la extensión (lee el apartado «Registro de la orden»; una orden apilada con `Commands.Push` sin atributo no se repite), la variable de repetición de órdenes está activa ([Commands.AllowRepeat](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/commands.md)) y la repetición no está bloqueada ([Commands.LockRepeat](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/commands.md)). Para repetir la orden, Digi3D.AI la ejecuta por su nombre con los mismos parámetros: crea un objeto nuevo de la clase. `Commands.Push(string, false)` asigna `false` a esta propiedad. |
 
 ## Métodos
 
@@ -58,7 +58,7 @@ Los métodos `On…` son virtuales. Digi3D.AI los llama para notificar cada even
 
 | Método | Descripción |
 | :--- | :--- |
-| `void Dispose()` | Termina la orden: Digi3D.AI la quita de la pila de órdenes y produce `Disposing`. Si el usuario ya había terminado la orden (por ejemplo, con Escape), Digi3D.AI no la encuentra en la pila y no produce `Disposing` otra vez. Llama a `Dispose` una sola vez por objeto: la primera llamada libera la referencia a la orden nativa y la segunda accede a esa referencia ya liberada. Tampoco se puede llamar en un objeto que Digi3D.AI no ha apilado. |
+| `void Dispose()` | Termina la orden: Digi3D.AI la quita de la pila de órdenes y produce `Disposing`. Si el usuario ya había terminado la orden (por ejemplo, con Escape), Digi3D.AI no la encuentra en la pila y no produce `Disposing` otra vez. Solo la primera llamada tiene efecto: las siguientes no hacen nada. En un objeto que Digi3D.AI no ha apilado, `Dispose` no quita nada de la pila. Después de `Dispose`, `Commands.Push(Command)` lanza `ObjectDisposedException` con el objeto. |
 | `virtual void OnInitialize()` | Produce `Initialize`. |
 | `virtual void OnSetFocus()` | Produce `SetFocus`. |
 | `virtual void OnLostFocus()` | Produce `LostFocus`. |
@@ -67,13 +67,11 @@ Los métodos `On…` son virtuales. Digi3D.AI los llama para notificar cada even
 | `virtual bool OnSnapDown(Point3D groundPoint)` | Produce `SnapDown` y devuelve `true` si la orden tiene algún manejador de `SnapDown`; si no, devuelve `false`. Si devuelve `false`, Digi3D.AI ejecuta la orden de tentativo, que localiza la entidad o el vértice más cercano al cursor. |
 | `virtual bool OnSnapUp(Point3D groundPoint)` | Produce `SnapUp` y devuelve `true` si la orden tiene algún manejador de `SnapUp`; si no, devuelve `false`. |
 | `virtual bool OnResetDown(Point3D groundPoint)` | Produce `ResetDown` y devuelve `true` si la orden tiene algún manejador de `ResetDown`; si no, devuelve `false`. Si devuelve `false`, Digi3D.AI emite un pitido y termina la orden. |
-| `virtual bool OnResetUp(Point3D groundPoint)` | Produce `ResetUp`. Lee la nota de este apartado. |
+| `virtual bool OnResetUp(Point3D groundPoint)` | Produce `ResetUp` y devuelve `true` si la orden tiene algún manejador de `ResetUp`; si no, devuelve `false`. |
 | `virtual void OnMove(Point3D groundPoint, InputDeviceButton button)` | Produce `Move` con un [MoveEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/moveeventargs.md). |
 | `virtual void OnEntitySelected(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex)` | Produce `EntitySelected` con un [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/entityselectedeventargs.md). |
 
 `groundPoint` contiene las coordenadas terreno del cursor en el momento del evento.
-
-> En la versión 26.0.0, `OnResetUp` comprueba si hay manejadores de `SnapUp` en lugar de `ResetUp`: el evento `ResetUp` solo se produce si la orden también tiene un manejador de `SnapUp`, y el método devuelve `false` si la orden no tiene manejador de `SnapUp`. Para recibir la liberación del botón de reset, sobrescribe `OnResetUp`.
 
 ## Eventos
 
@@ -87,7 +85,7 @@ Los métodos `On…` son virtuales. Digi3D.AI los llama para notificar cada even
 | `EventHandler<Point3DEventArgs> SnapDown` | El usuario pulsa el botón de tentativo. |
 | `EventHandler<Point3DEventArgs> SnapUp` | El usuario suelta el botón de tentativo. |
 | `EventHandler<Point3DEventArgs> ResetDown` | El usuario pulsa el botón de reset. |
-| `EventHandler<Point3DEventArgs> ResetUp` | El usuario suelta el botón de reset. Lee la nota del apartado «Métodos». |
+| `EventHandler<Point3DEventArgs> ResetUp` | El usuario suelta el botón de reset. |
 | `EventHandler<MoveEventArgs> Move` | El usuario desplaza el cursor en la ventana de dibujo. |
 | `EventHandler<EntitySelectedEventArgs> EntitySelected` | La orden recibe una entidad seleccionada. Los casos están en [EntitySelectedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/entityselectedeventargs.md). |
 | `EventHandler Disposing` | La orden termina. Lee el apartado «Ciclo de vida». |
