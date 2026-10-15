@@ -98,7 +98,7 @@ Amplía la ventana para que contenga el punto o la ventana del argumento. De un 
 - Si `Xmin` no es `null` y el argumento es una ventana no inicializada, lanza `InvalidOperationException`.
 - Las sobrecargas `IWindow2D` e `IWindow3D` lanzan `NullReferenceException` si `window` es `null`.
 
-> `Union(double, double, double, double)` interpreta sus parámetros por posición como `xMin`, `xMax`, `yMin`, `yMax`, aunque el ensamblado y el paquete los declaran con los nombres `xMin`, `yMin`, `xMax`, `yMax`. Para añadir el rectángulo de (`x1`, `y1`) a (`x2`, `y2`), llama a `Union(x1, x2, y1, y2)` sin argumentos con nombre, o usa `Union(new Window2D(x1, y1, x2, y2))`.
+`Union(double xMin, double yMin, double xMax, double yMax)` añade el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`), con los parámetros en el mismo orden que el constructor. Las sobrecargas estáticas de `Union` con cuatro `double` usan otro orden: `xMin`, `xMax`, `yMin`, `yMax`.
 
 ### Intersection
 
@@ -151,7 +151,7 @@ Devuelve `Xmin=… Ymin=… Xmax=… Ymax=… Width=… Height=…` o, si `Xmin`
 
 ## Métodos estáticos
 
-En las sobrecargas de este apartado, `a` y `wndA` son la primera ventana y `b` y `wndB` la segunda. Los métodos no modifican sus argumentos. Las sobrecargas que reciben `IWindow2D` o `IWindow3D` lanzan `NullReferenceException` si el argumento es `null`.
+En las sobrecargas de este apartado, `a` y `windowA` son la primera ventana y `b` y `windowB` la segunda. Los métodos no modifican sus argumentos. Las sobrecargas que reciben `IWindow2D` o `IWindow3D` lanzan `NullReferenceException` si el argumento es `null`.
 
 ### Union
 
@@ -199,9 +199,7 @@ public static Window2D Union(IWindow2D window, double xMin, double xMax, double 
 public static Window2D Union(IWindow3D window, double xMin, double xMax, double yMin, double yMax)
 ```
 
-Devuelve el rectángulo que contiene `window` y el punto, o `window` y el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`). Lanza `InvalidOperationException` si `Xmin` de `window` es `null`: a diferencia del método `Union` de instancia, estas sobrecargas no aceptan una ventana no inicializada.
-
-> En la versión 26.0.0, si `Xmin` de la primera ventana vale exactamente `0`, las sobrecargas estáticas de `Union` descartan esa ventana y devuelven solo el punto, el rectángulo o la segunda ventana. `Union(Window2D, Window2D)` también lo hace, porque llama a esas sobrecargas. Para una ventana que puede tener `Xmin` igual a 0, usa el método `Union` de instancia sobre una copia.
+Devuelve el rectángulo que contiene `window` y el punto, o `window` y el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`). Si `Xmin` de `window` es `null`, devuelve la ventana de ancho y alto 0 del punto, o el rectángulo de los cuatro límites.
 
 ### Intersection
 
@@ -230,22 +228,22 @@ Devuelve el rectángulo común a las dos ventanas. Si no se solapan, el resultad
 ### Contains
 
 ```csharp
-public static bool Contains(Window2D wndA, Window2D wndB)
-public static bool Contains(Window2D wndA, Window3D wndB)
-public static bool Contains(Window3D wndA, Window2D wndB)
-public static bool Contains(Window3D wndA, Window3D wndB)
-public static bool Contains(Window2D wndA, IWindow2D wndB)
-public static bool Contains(Window2D wndA, IWindow3D wndB)
-public static bool Contains(Window3D wndA, IWindow2D wndB)
-public static bool Contains(Window3D wndA, IWindow3D wndB)
-public static bool Contains(IWindow2D wndA, Window2D wndB)
-public static bool Contains(IWindow2D wndA, Window3D wndB)
-public static bool Contains(IWindow3D wndA, Window2D wndB)
-public static bool Contains(IWindow3D wndA, Window3D wndB)
+public static bool Contains(Window2D windowA, Window2D windowB)
+public static bool Contains(Window2D windowA, Window3D windowB)
+public static bool Contains(Window3D windowA, Window2D windowB)
+public static bool Contains(Window3D windowA, Window3D windowB)
+public static bool Contains(Window2D windowA, IWindow2D windowB)
+public static bool Contains(Window2D windowA, IWindow3D windowB)
+public static bool Contains(Window3D windowA, IWindow2D windowB)
+public static bool Contains(Window3D windowA, IWindow3D windowB)
+public static bool Contains(IWindow2D windowA, Window2D windowB)
+public static bool Contains(IWindow2D windowA, Window3D windowB)
+public static bool Contains(IWindow3D windowA, Window2D windowB)
+public static bool Contains(IWindow3D windowA, Window3D windowB)
 public static bool Contains(double? xMinA, double xMaxA, double yMinA, double yMaxA, double? xMinB, double xMaxB, double yMinB, double yMaxB)
 ```
 
-Devuelve `true` si `wndB` está dentro de `wndA` en el plano X, Y, bordes incluidos. No hay sobrecarga con las dos ventanas de tipo interfaz. Lanza `InvalidOperationException` si `Xmin` de una de las dos ventanas es `null`.
+Devuelve `true` si `windowB` está dentro de `windowA` en el plano X, Y, bordes incluidos. No hay sobrecarga con las dos ventanas de tipo interfaz. Lanza `InvalidOperationException` si `Xmin` de una de las dos ventanas es `null`.
 
 ### Intersects
 
@@ -268,7 +266,7 @@ Devuelve `true` si las dos ventanas tienen algún punto común en el plano X, Y,
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `InvalidOperationException` | Se lee `Width`, `Height`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Intersection`, `Contains` o `Intersects`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También en las sobrecargas estáticas de `Union` con un primer argumento no inicializado. |
+| `InvalidOperationException` | Se lee `Width`, `Height`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Intersection`, `Contains` o `Intersects`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También en el método `Union` de instancia sobre una ventana inicializada con una ventana no inicializada como argumento. |
 | `NullReferenceException` | Un argumento de tipo `IWindow2D` o `IWindow3D` es `null`. |
 
 ## Ejemplo
