@@ -1,18 +1,31 @@
 # LocalizableSearcherAttribute
 <!-- id: localizablesearcherattribute -->
 
-Espacio de nombres: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.Plugin.Search`  
+Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Decora una clase para convertirla en una opción a mostrar en la lista de opciones del panel de búsqueda obteniendo el título de un archivo de recursos localizable.
+Igual que [SearcherAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.search/atributos/searcherattribute.md), con el título leído de los recursos de la extensión.
 
 ```csharp
- public class LocalizableSearcherAttribute : SearcherAttribute
+[AttributeUsage(AttributeTargets.Class)]
+public class LocalizableSearcherAttribute : SearcherAttribute
 ```
+
+Hereda de: [SearcherAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.search/atributos/searcherattribute.md).
 
 ## Constructores
 
-|  |  |
-| :--- | :--- |
-| LocalizableSearcherAttribute\(Type, string\) |  |
+```csharp
+public LocalizableSearcherAttribute(Type resourceManagerProvider, string resourceKey)
+```
 
+| Parámetro | Descripción |
+| :--- | :--- |
+| `resourceManagerProvider` | Tipo con una propiedad estática no pública de tipo `ResourceManager`. Las condiciones son las de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md#proveedor-de-recursos). |
+| `resourceKey` | Clave del recurso con el título. Se asigna a `Title`. |
+
+El constructor lanza `ArgumentException` si `resourceManagerProvider` no tiene una propiedad estática no pública de tipo `ResourceManager` o si el recurso no contiene la clave `resourceKey`. Digi3D.AI crea el atributo al cargar la extensión; si el constructor lanza la excepción, no registra ese buscador ni los siguientes de la misma DLL.
+
+## Ejemplo
+
+El ejemplo de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md#ejemplo) registra el buscador `BuscadorLineasCerradas` con `[LocalizableSearcher(typeof(Recursos), "BuscarLineasCerradas")]`.
