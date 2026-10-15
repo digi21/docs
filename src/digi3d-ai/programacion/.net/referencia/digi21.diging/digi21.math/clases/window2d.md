@@ -1,176 +1,323 @@
 # Window2D
 <!-- id: window2d -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta clase implementa una ventana en dos dimensiones.
+Ventana (rectángulo alineado con los ejes) en el plano X, Y, con operaciones de unión, intersección, contención y desplazamiento.
 
 ```csharp
 public struct Window2D : IWindow2D, IDesplazable
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0) → Window2D
+Implementa: [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) e [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/).
 
-Implementa: [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/)
+`Window2D` es una estructura (tipo por valor): una asignación copia la ventana, y los métodos que modifican la ventana (`Offset`, `Inflate` y `Union` de instancia) no tienen efecto si se llaman sobre una copia, por ejemplo sobre el valor que devuelve una propiedad.
+
+Una ventana no inicializada tiene `Xmin` a `null`. Es el estado de `new Window2D()` y de `default(Window2D)`. El método `Union` de instancia inicializa una ventana no inicializada con los límites del argumento, así que una envolvente se calcula partiendo de `new Window2D()` y llamando a `Union` con cada punto.
+
+Los parámetros `Point` y `PointF` son de `System.Drawing`; `Size` también.
 
 ## Constructores
 
-|                                           |                                                                                                                                                    |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Window2D(Point3D)                         | Inicializa una nueva instancia de un Window2D cuyas máximas y mínimas coinciden con el [Point3D](point3d.md)pasado por parámetros. |
-| Window2D(Point2D)                         | Inicializa una nueva instancia de un Window2D cuyas máximas y mínimas coinciden con el [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md) pasado por parámetros. |
-| Window2D(double, double, double, double)  | Inicializa una nueva instancia de un Window2D cuyas máximas y mínimas coinciden con los valores pasados por parámetros.             |
-| Window2D(double?, double, double, double) | Inicializa una nueva instancia de un Window2D cuyas máximas y mínimas coinciden con los valores pasados por parámetros.             |
-| Window2D(IWindow3D)                       | Inicializa una nueva instancia de un Window2D cuyas máximas y mínimas coinciden con las del objeto pasado por parámetros.           |
-| Window2D(IWindow2D)                       | Inicializa una nueva instancia de un Window2D cuyas máximas y mínimas coinciden con las del objeto pasado por parámetros.           |
+```csharp
+public Window2D(double xMin, double yMin, double xMax, double yMax)
+public Window2D(double? xMin, double yMin, double xMax, double yMax)
+public Window2D(Point2D point)
+public Window2D(Point3D point)
+public Window2D(IWindow2D window)
+public Window2D(IWindow3D window)
+```
 
-## Propiedades estáticas
+| Constructor | Descripción |
+| :--- | :--- |
+| `Window2D(double xMin, double yMin, double xMax, double yMax)` | Crea la ventana con esos límites. No comprueba que `xMin <= xMax` ni que `yMin <= yMax`: si no se cumple, `Valid` es `false`. |
+| `Window2D(double? xMin, double yMin, double xMax, double yMax)` | Igual que el anterior. Si `xMin` es `null`, la ventana no está inicializada. |
+| `Window2D(Point2D point)`, `Window2D(Point3D point)` | Crea una ventana de ancho y alto 0 en la X y la Y del punto. |
+| `Window2D(IWindow2D window)`, `Window2D(IWindow3D window)` | Copia `Xmin`, `Ymin`, `Xmax` e `Ymax` de `window`, incluido un `Xmin` a `null`. De un `IWindow3D` descarta `Zmin` y `Zmax`. Lanza `NullReferenceException` si `window` es `null`. |
 
-|            |                                                                      |
-| ---------- | -------------------------------------------------------------------- |
-| WholeWorld | Devuelve un Window2D que representa todo el universo. |
+## Campos estáticos
 
-## ‌Propiedades
+| Campo | Descripción |
+| :--- | :--- |
+| `static readonly Window2D WholeWorld` | Ventana de (`-double.MaxValue`, `-double.MaxValue`) a (`double.MaxValue`, `double.MaxValue`). |
 
-| ​Title                                                                                                                                                                                      | ​Title                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ​[W](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/w.md)      |
-| ​[SW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/sw.md)    |
-| ​[S](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/)        |
-| ​[SE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/se.md)    |
-| ​[E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/)       |
-| ​[NE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ne.md)    |
-| ​[N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md)      |
-| ​[NW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/nw.md)    |
-| ​[Center](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/center.md)  |
-| ​[Height](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/height.md)                |
-| ​[Width](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/width.md)               |
-| ​[Valid](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/valid.md)  |
-| ​[Xmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/xmin.md) |
-| ​[Ymin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ymin.md) |
-| ​[Xmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/xmax.md) |
-| ​[Ymax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/propiedades/ymax.md) |
+## Propiedades
 
-## ​Métodos
+| Propiedad | Descripción |
+| :--- | :--- |
+| [double? Xmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/xmin.md) | Coordenada X mínima, o `null` si la ventana no está inicializada. |
+| [double Ymin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/ymin.md), [double Xmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/xmax.md), [double Ymax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/ymax.md) | Coordenada Y mínima, X máxima e Y máxima. |
+| [bool Valid](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/valid.md) | `true` si `Xmin` no es `null`, `Xmin <= Xmax` e `Ymin <= Ymax`. |
+| [double Width](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/width.md), [double Height](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/height.md) | `Xmax - Xmin` e `Ymax - Ymin`. |
+| [Point2D Center](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/center.md) | Centro de la ventana. |
+| [NW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/nw.md), [N](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/n.md), [NE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/ne.md), [E](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/e.md), [SE](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/se.md), [S](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/s.md), [SW](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/sw.md), [W](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/w.md) | Esquinas y puntos medios de los lados, de tipo `Point2D`. |
 
-|                                                                                                             |                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Offset(Point2D)](../interfaces/idesplazable/metodos/offset.md#offset-point-2-d)                            |Desplaza el Window2D tantas unidades en X, Y como se indique en el parámetro.<br>(Heredado de [IDesplazable](../interfaces/idesplazable/))|
-| [Offset(Point3D)](../interfaces/idesplazable/metodos/offset.md#offset-point-3-d)                            |Desplaza el Window2D tantas unidades en X, Y, Z como se indique en el parámetro.<br>(Heredado de [IDesplazable](../interfaces/idesplazable/))|
-| [Offset(double, double)](../interfaces/idesplazable/metodos/offset.md#offset-double-double)                 |Desplaza el Window2D tantas unidades en X, Y como se indique en los parámetros.<br>(Heredado de [IDesplazable](../interfaces/idesplazable/))|
-| [Offset(double, double, double)](../interfaces/idesplazable/metodos/offset.md#offset-double-doublem-double) |Desplaza el Window2D tantas unidades en X, Y, Z como se indique en los parámetros.<br>(Heredado de [IDesplazable](../interfaces/idesplazable/))|
-| Inflate(double, double)                                                                                     | Hace crecer tanto la X mínima como la X máxima del Window2D tantas unidades como las especificadas en el primer parámetro y de manera similar en el eje Y con el valor especificado en el segundo parámetro.                     |
-| Inflate(Point2D)                                                                                            | Hace crecer tanto la X mínima, X máxima, Y mínima, Y máxima del Window2D pasado por parámetro.                                                                |
-| Inflate(Size)                                                                                               | Hace crecer tanto la X mínima, X máxima, Y mínima, Y máxima del Window2D pasado por parámetro. |
-| Union(IWindow3D)                                                                                            | Hace crecer si es necesario el Window2D para que contenga al [IWindow3D](../interfaces/iwindow3d/)pasado por parámetros.                                                                                                        |
-| Union(IWindow2D)                                                                                            | Hace crecer si es necesario el Window2D para que contenga al [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasado por parámetros.                                                                                                        |
-| Union(Window3D)                                                                                             | Hace crecer si es necesario el Window2D para que contenga al [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md)  pasado por parámetros.                                                                                                                     |
-| Union(Window2D)                                                                                             | Hace crecer si es necesario el Window2D para que contenga al   Window2D pasado por parámetros.                                                                                                                    |
-| Union(Point3D)                                                                                              | Hace crecer si es necesario el Window2D para que contenga al [Point3D](point3d.md)pasado por parámetros.                                                                                                                        |
-| Union(Point2D)                                                                                              | Hace crecer si es necesario el Window2D para que contenga al [Point2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point2d.md) pasado por parámetros.                                                                                                                        |
-| Union(PointF)                                                                                               | Hace crecer si es necesario el Window2D para que contenga al [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasado por parámetros.                                                     |
-| Union(Point)                                                                                                | Hace crecer si es necesario el Window2D para que contenga al [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasado por parámetros.                                                       |
-| Union(double, double, double, double)                                                                       | Hace crecer si es necesario el Window2D para que contenga las máximas y mínimas pasadas por parámetros.                                                                                                                          |
-| Intersection(double?, double, double, double)                                                               | Calcula la intersección entre el Window2D y las máximas y mínimas pasadas por parámetro.                                                                                                                                         |
-| Intersection(IWindow3D)                                                                                     | Calcula la intersección entre el Window2D y el [IWindow3D](../interfaces/iwindow3d/)pasado por parámetro.                                                                                                                       |
-| Intersection(IWindow2D)                                                                                     | Calcula la intersección entre el Window2D y el [IWindow2D](../interfaces/iwindow2d/)pasado por parámetro.                                                                                                                       |
-| Intersection(Window3D)                                                                                      | Calcula la intersección entre el Window2D y el [Window3D](window3d.md)pasado por parámetro.                                                                                                                                     |
-| Intersection(Window2D)                                                                                      | Calcula la intersección entre el Window2D y el Window2D pasado por parámetro.                                                                                                                                     |
-| Contains(double, double, double, double)                                                                    | Indica si el Window2D contiene las máximas y mínimas pasadas por parámetros.                                                                                                                                                     |
-| Contains(IWindow3D)                                                                                         | Indica si el Window2D contiene al [IWindow3D](../interfaces/iwindow3d/)pasado por parámetro.                                                                                                                                    |
-| Contains(IWindow2D)                                                                                         | Indica si el Window2D contiene al [IWindow2D](../interfaces/iwindow2d/)pasado por parámetro.                                                                                                                                    |
-| Contains(Window3D)                                                                                          | Indica si el Window2D contiene al [Window3D](window3d.md)pasado por parámetro.                                                                                                                                                  |
-| Contains(Window2D)                                                                                          | Indica si el Window2D contiene al Window2D pasado por parámetro.                                                                                                                                                  |
-| Contains(Point3D)                                                                                           | Indica si el Window2D contiene al [Point3D](point3d.md)pasado por parámetro.                                                                                                                                                    |
-| Contains(Point2D)                                                                                           | Indica si el Window2D contiene al [Point2D](point2d.md)pasado por parámetro.                                                                                                                                                    |
-| Contains(PointF)                                                                                            | Indica si el Window2D contiene al [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasado por parámetro.                                                                                 |
-| Contains(Point)                                                                                             | Indica si el Window2D contiene al [Point](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.point?view=net-5.0)pasado por parámetro.                                                                                   |
-| Intersects(double, double, double, double)                                                                  | Indica si el Window2D intersecciona con las máximas y mínimas pasadas por parámetros.                                                                                                                                            |
-| Intersects(double?, double, double, double)                                                                 | Indica si el Window2D intersecciona con las máximas y mínimas pasadas por parámetros.                                                                                                                                            |
-| Intersects(IWindow3D)                                                                                       | Indica si el Window2D intersecciona con el [IWindow3D](../interfaces/iwindow3d/)pasado por parámetro.                                                                                                                           |
-| Intersects(IWindow2D)                                                                                       | Indica si el Window2D intersecciona con el [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasado por parámetro.                                                                                                                           |
-| Intersects(Window3D)                                                                                        | Indica si el Window2D intersecciona con el [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasado por parámetro.                                                                                                                                         |
-| Intersects(Window2D)                                                                                        | Indica si el Window2D intersecciona con el Window2D pasado por parámetro.                                                                                                                                         |
-| ToString()                                                                                                  | Convierte este Window2D en una cadena legible para los humanos.                                                                                                                                                                  |
+`Width`, `Height`, `Center` y los ocho puntos lanzan `InvalidOperationException` si `Xmin` es `null`. Si `Xmin` no es `null` pero `Valid` es `false` (un mínimo mayor que su máximo), no lanzan excepción y devuelven los valores calculados con esos límites.
+
+## Métodos
+
+### Offset
+
+```csharp
+public void Offset(double x, double y)
+public void Offset(double x, double y, double z)
+public void Offset(Point2D offset)
+public void Offset(Point3D offset)
+```
+
+Suma `x` a `Xmin` y `Xmax`, e `y` a `Ymin` e `Ymax`. Las sobrecargas con `z` o con `Point3D` descartan la Z. Lanza `InvalidOperationException` si `Xmin` es `null`. Son los métodos de [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/).
+
+### Inflate
+
+```csharp
+public void Inflate(double x, double y)
+public void Inflate(Point2D size)
+public void Inflate(Size size)
+```
+
+Resta `x` de `Xmin` y la suma a `Xmax`; resta `y` de `Ymin` y la suma a `Ymax`. El ancho crece `2 * x` y el alto `2 * y`. Un valor negativo reduce la ventana. `Inflate(Point2D)` usa `size.X` y `size.Y`; `Inflate(Size)` usa `size.Width` y `size.Height`. Lanza `InvalidOperationException` si `Xmin` es `null`.
+
+### Union
+
+```csharp
+public void Union(Point2D point)
+public void Union(Point3D point)
+public void Union(PointF point)
+public void Union(Point point)
+public void Union(Window2D window)
+public void Union(Window3D window)
+public void Union(IWindow2D window)
+public void Union(IWindow3D window)
+public void Union(double xMin, double yMin, double xMax, double yMax)
+```
+
+Amplía la ventana para que contenga el punto o la ventana del argumento. De un `Point3D` o de una ventana tridimensional solo se usan X e Y.
+
+- Si `Xmin` es `null`, la ventana toma los límites del argumento: un punto produce una ventana de ancho y alto 0, y una ventana se copia tal cual, aunque no esté inicializada.
+- Si `Xmin` no es `null` y el argumento es una ventana no inicializada, lanza `InvalidOperationException`.
+- Las sobrecargas `IWindow2D` e `IWindow3D` lanzan `NullReferenceException` si `window` es `null`.
+
+> `Union(double, double, double, double)` interpreta sus parámetros por posición como `xMin`, `xMax`, `yMin`, `yMax`, aunque el ensamblado y el paquete los declaran con los nombres `xMin`, `yMin`, `xMax`, `yMax`. Para añadir el rectángulo de (`x1`, `y1`) a (`x2`, `y2`), llama a `Union(x1, x2, y1, y2)` sin argumentos con nombre, o usa `Union(new Window2D(x1, y1, x2, y2))`.
+
+### Intersection
+
+```csharp
+public Window2D Intersection(Window2D window)
+public Window2D Intersection(Window3D window)
+public Window2D Intersection(IWindow2D window)
+public Window2D Intersection(IWindow3D window)
+public Window2D Intersection(double? xMin, double xMax, double yMin, double yMax)
+```
+
+Devuelve el rectángulo común a esta ventana y al argumento, sin modificar esta ventana. Si las ventanas no se solapan, el resultado tiene `Xmin` a `null` y `Valid` a `false`. Si solo se tocan en un borde, el resultado es válido, con ancho o alto 0. Lanza `InvalidOperationException` si `Xmin` de esta ventana o del argumento es `null`.
+
+### Contains
+
+```csharp
+public bool Contains(Point2D point)
+public bool Contains(Point3D point)
+public bool Contains(PointF point)
+public bool Contains(Point point)
+public bool Contains(Window2D window)
+public bool Contains(Window3D window)
+public bool Contains(IWindow2D window)
+public bool Contains(IWindow3D window)
+public bool Contains(double xMin, double xMax, double yMin, double yMax)
+```
+
+Devuelve `true` si el punto o la ventana del argumento está dentro de esta ventana en el plano X, Y. Los bordes cuentan como interiores: un punto sobre el borde está contenido. Lanza `InvalidOperationException` si `Xmin` de esta ventana es `null` o, en las sobrecargas que reciben una ventana, si `Xmin` del argumento es `null`.
+
+### Intersects
+
+```csharp
+public bool Intersects(Window2D window)
+public bool Intersects(Window3D window)
+public bool Intersects(IWindow2D window)
+public bool Intersects(IWindow3D window)
+public bool Intersects(double xMin, double xMax, double yMin, double yMax)
+public bool Intersects(double? xMin, double xMax, double yMin, double yMax)
+```
+
+Devuelve `true` si esta ventana y el argumento tienen algún punto común en el plano X, Y, incluido un borde compartido. Lanza `InvalidOperationException` si `Xmin` de esta ventana o del argumento es `null`.
+
+### ToString
+
+```csharp
+public override string ToString()
+```
+
+Devuelve `Xmin=… Ymin=… Xmax=… Ymax=… Width=… Height=…` o, si `Xmin` es `null`, `(Uninitialized window)`. El texto está en el idioma de la interfaz de usuario (`CultureInfo.CurrentUICulture`): en español, `Ancho` y `Alto`, y `(Ventana sin inicializar)`.
 
 ## Métodos estáticos
 
-|                                                                                |                                                                                                                                                                                                                                     |
-| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Union(IWindow3D, Point3D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el [Point3D](point3d.md)pasados por parámetros.                                                                    |
-| Union(IWindow3D, Point2D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el [Point2D](point2d.md)pasados por parámetros.                                                                    |
-| Union(IWindow2D, Point3D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [Point3D](point3d.md)pasados por parámetros.                                                                    |
-| Union(IWindow2D, Point2D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [Point2D](point2d.md)pasados por parámetros.                                                                    |
-| Union(Window3D, Point3D)                                                       | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el [Point3D](point3d.md)pasados por parámetros.                                                                                  |
-| Union(Window3D, Point2D)                                                       | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el [Point2D](point2d.md)pasados por parámetros.                                                                                  |
-| Union(Window2D, Point3D)                                                       | Instancia un nuevo Window2D que abarcará las máximas del Window2D y el [Point3D](point3d.md)pasados por parámetros.                                                                                  |
-| Union(Window2D, Point2D)                                                       | Instancia un nuevo Window2D que abarcará las máximas del Window2D y el [Point2D](point2d.md)pasados por parámetros.                                                                                  |
-| Union(IWindow3D, PointF)                                                       | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
-| Union(IWindow2D, PointF)                                                       | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
-| Union(Window3D, PointF)                                                        | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros.               |
-| Union(Window2D, PointF)                                                        | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [PointF](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.pointf?view=net-5.0) pasados por parámetros. |
-| Union(IWindow3D, Point)                                                        | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros.   |
-| Union(IWindow2D, Point)                                                        | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros.   |
-| Union(Window3D, Point)                                                         | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros.                 |
-| Union(Window2D, Point)                                                         | Instancia un nuevo Window2D que abarcará las máximas del Window2D y el [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) pasados por parámetros.                 |
-| Union(IWindow3D, IWindow3D)                                                    | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el [IWindow3D](../interfaces/iwindow3d/)pasados por parámetros.                                                    |
-| Union(IWindow2D, IWindow3D)                                                    | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [IWindow3D](../interfaces/iwindow3d/)pasados por parámetros.                                                    |
-| Union(IWindow3D, IWindow2D)                                                    | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el [IWindow2D](../interfaces/iwindow2d/)pasados por parámetros.                                                    |
-| Union(IWindow2D, IWindow2D)                                                    | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [IWindow2D](../interfaces/iwindow2d/)pasados por parámetros.                                                    |
-| Union(IWindow3D, Window3D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el [Window3D](window3d.md)pasados por parámetros.                                                                  |
-| Union(IWindow3D, Window2D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y el Window2D pasados por parámetros.                                                                  |
-| Union(IWindow2D, Window3D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el [Window3D](window3d.md)pasados por parámetros.                                                                  |
-| Union(IWindow2D, Window2D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y el Window2D pasados por parámetros.                                                                  |
-| Union(Window3D, IWindow3D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el [IWindow3D](../interfaces/iwindow3d/)pasados por parámetros.                                                                  |
-| Union(Window3D, IWindow2D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el [IWindow2D](../interfaces/iwindow2d/)pasados por parámetros.                                                                  |
-| Union(Window2D, IWindow3D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del Window2D y el [IWindow3D](../interfaces/iwindow3d/)pasados por parámetros.                                                                  |
-| Union(Window2D, IWindow2D)                                                     | Instancia un nuevo Window2D que abarcará las máximas del Window2D y el [IWindow2D](../interfaces/iwindow2d/)pasados por parámetros.                                                                  |
-| Union(Window3D, Window3D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el [Window3D](window3d.md)pasados por parámetros.                                                                                |
-| Union(Window3D, Window2D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y el Window2D pasados por parámetros.                                                                                |
-| Union(Window2D, Window3D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del Window2D y el [Window3D](window3d.md)pasados por parámetros.                                                                                |
-| Union(Window2D, Window2D)                                                      | Instancia un nuevo Window2D que abarcará las máximas del Window2D y el Window2D pasados por parámetros.                                                                                |
-| Union(IWindow3D, double, double, double, double)                               | Instancia un nuevo Window2D que abarcará las máximas del [IWindow3D](../interfaces/iwindow3d/)y las máximas y mínimas pasadas por parámetros.                                                                       |
-| Union(IWindow2D, double, double, double, double)                               | Instancia un nuevo Window2D que abarcará las máximas del [IWindow2D](../interfaces/iwindow2d/)y las máximas y mínimas pasadas por parámetros.                                                                       |
-| Union(Window3D, double, double, double, double)                                | Instancia un nuevo Window2D que abarcará las máximas del [Window3D](window3d.md)y las máximas y mínimas pasadas por parámetros.                                                                                     |
-| Union(Window2D, double, double, double, double)                                | Instancia un nuevo Window2D que abarcará las máximas del Window2D y las máximas y mínimas pasadas por parámetros.                                                                                     |
-| Intersection(double?, double, double, double, double?, double, double, double) | Instancia un nuevo Window2D que abarcará la intersección las máximas y mínimas pasadas por parámetros.                                                                                                               |
-| Intersection(IWindow3D, IWindow3D)                                             | Instancia un nuevo Window2D que abarcará la intersección [IWindow3D](../interfaces/iwindow3d/)y el [IWindow3D](../interfaces/iwindow3d/)pasados por parámetros.                                                    |
-| Intersection(IWindow3D, IWindow2D)                                             | Instancia un nuevo Window2D que abarcará la intersección [IWindow3D](../interfaces/iwindow3d/)y el [IWindow2D](../interfaces/iwindow2d/)pasados por parámetros.                                                    |
-| Intersection(IWindow2D, IWindow3D)                                             | Instancia un nuevo Window2D que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros.                                                    |
-| Intersection(IWindow2D, IWindow2D)                                             | Instancia un nuevo Window2D que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros.                                                    |
-| Intersection(IWindow3D, Window3D)                                              | Instancia un nuevo Window2D que abarcará la intersección [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/) pasados por parámetros.                                                                  |
-| Intersection(IWindow3D, Window2D)                                              | Instancia un nuevo Window2D que abarcará la intersección [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/) pasados por parámetros.                                                                  |
-| Intersection(IWindow2D, Window3D)                                              | Instancia un nuevo Window2D que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros.                                                                  |
-| Intersection(IWindow2D, Window2D)                                              | Instancia un nuevo Window2D que abarcará la intersección [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) pasados por parámetros.                                                                  |
-| Intersection(Window3D, IWindow3D)                                              | Instancia un nuevo Window2D que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros.                                                                  |
-| Intersection(Window3D, IWindow2D)                                              | Instancia un nuevo Window2D que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros.                                                                  |
-| Intersection(Window2D, IWindow3D)                                              | Instancia un nuevo Window2D que abarcará la intersección Window2D pasados por parámetros.                                                                  |
-| Intersection(Window2D, IWindow2D)                                              | Instancia un nuevo Window2D que abarcará la intersección Window2D pasados por parámetros.                                                                  |
-| Intersection(Window3D, Window3D)                                               | Instancia un nuevo Window2D que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros.                                                                                |
-| Intersection(Window3D, Window2D)                                               | Instancia un nuevo Window2D que abarcará la intersección [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) pasados por parámetros.                                                                                |
-| Intersection(Window2D, Window3D)                                               | Instancia un nuevo Window2D que abarcará la intersección Window2D pasados por parámetros.                                                                                |
-| Intersection(Window2D, Window2D)                                               | Instancia un nuevo Window2D que abarcará la intersección Window2D pasados por parámetros.                                                                                |
-| Contains(double?, double, double, double, double?, double, double, double)     | Indica si la ventana formada por los primeros cuatro parámetros contiene a la formada por los últimos cuatro parámetros.                                                                                                            |
-| Contains(IWindow3D, Window3D)                                                  | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).                                                                       |
-| Contains(IWindow3D, Window2D)                                                  | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).                                                                       |
-| Contains(IWindow2D, Window3D)                                                  | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/).                                                                       |
-| Contains(IWindow2D, Window2D)                                                  | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/).                                                                       |
-| Contains(Window3D, IWindow3D)                                                  | Indica si la ventana representada por el parámetro [Window3D](window3d.md)contiene a la representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).                                                                       |
-| Contains(Window3D, IWindow2D)                                                  | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md).                                                                       |
-| Contains(Window2D, IWindow3D)                                                  | Indica si la ventana representada por el parámetro Window2D.                                                                       |
-| Contains(Window2D, IWindow2D)                                                  | Indica si la ventana representada por el parámetro Window2D.                                                                       |
-| Contains(Window3D, Window3D)                                                   | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md).                                                                                     |
-| Contains(Window3D, Window2D)                                                   | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md).                                                                                     |
-| Contains(Window2D, Window3D)                                                   | Indica si la ventana representada por el parámetro Window2D.                                                                                     |
-| Contains(Window2D, Window2D)                                                   | Indica si la ventana representada por el parámetro Window2D.                                                                                     |
-| Intersects(double, double, double, double, double, double, double, double)     | Indica si la ventana formada por los primeros cuatro parámetros intersecciona con la formada por los últimos cuatro parámetros.                                                                                                     |
-| Intersects(double?, double, double, double, double?, double, double, double)   | Indica si la ventana formada por los primeros cuatro parámetros intersecciona con la formada por los últimos cuatro parámetros.                                                                                                     |
-| Intersects(IWindow3D, IWindow3D)                                               | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).                                                  |
-| Intersects(IWindow3D, IWindow2D)                                               | Indica si la ventana representada por el parámetro [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).                                                  |
-| Intersects(IWindow2D, IWindow3D)                                               | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/).                                                  |
-| Intersects(IWindow2D, IWindow2D)                                               | Indica si la ventana representada por el parámetro [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/).                                                  |
-| Intersects(Window3D, Window3D)                                                 | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md).                                                                              |
-| Intersects(Window3D, Window2D)                                                 | Indica si la ventana representada por el parámetro [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md).                                                                              |
-| Intersects(Window2D, Window3D)                                                 | Indica si la ventana representada por el parámetro Window2D.                                                                              |
-| Intersects(Window2D, Window2D)                                                 | Indica si la ventana representada por el parámetro Window2D.                                                                              |
+En las sobrecargas de este apartado, `a` y `wndA` son la primera ventana y `b` y `wndB` la segunda. Los métodos no modifican sus argumentos. Las sobrecargas que reciben `IWindow2D` o `IWindow3D` lanzan `NullReferenceException` si el argumento es `null`.
+
+### Union
+
+```csharp
+public static Window2D Union(Window2D a, Window2D b)
+public static Window2D Union(Window2D a, Window3D b)
+public static Window2D Union(Window3D a, Window2D b)
+public static Window2D Union(Window3D a, Window3D b)
+public static Window2D Union(Window2D a, IWindow2D b)
+public static Window2D Union(Window2D a, IWindow3D b)
+public static Window2D Union(Window3D a, IWindow2D b)
+public static Window2D Union(Window3D a, IWindow3D b)
+public static Window2D Union(IWindow2D a, Window2D b)
+public static Window2D Union(IWindow2D a, Window3D b)
+public static Window2D Union(IWindow3D a, Window2D b)
+public static Window2D Union(IWindow3D a, Window3D b)
+public static Window2D Union(IWindow2D a, IWindow2D b)
+public static Window2D Union(IWindow2D a, IWindow3D b)
+public static Window2D Union(IWindow3D a, IWindow2D b)
+public static Window2D Union(IWindow3D a, IWindow3D b)
+```
+
+Devuelve el rectángulo que contiene `a` y `b`. Si una de las dos ventanas no está inicializada, devuelve la otra; si ninguna lo está, devuelve `a` (no inicializada).
+
+```csharp
+public static Window2D Union(Window2D window, Point2D point)
+public static Window2D Union(Window2D window, Point3D point)
+public static Window2D Union(Window2D window, PointF point)
+public static Window2D Union(Window2D window, Point point)
+public static Window2D Union(Window3D window, Point2D point)
+public static Window2D Union(Window3D window, Point3D point)
+public static Window2D Union(Window3D window, PointF point)
+public static Window2D Union(Window3D window, Point point)
+public static Window2D Union(IWindow2D window, Point2D point)
+public static Window2D Union(IWindow2D window, Point3D point)
+public static Window2D Union(IWindow2D window, PointF point)
+public static Window2D Union(IWindow2D window, Point point)
+public static Window2D Union(IWindow3D window, Point2D point)
+public static Window2D Union(IWindow3D window, Point3D point)
+public static Window2D Union(IWindow3D window, PointF point)
+public static Window2D Union(IWindow3D window, Point point)
+public static Window2D Union(Window2D window, double xMin, double xMax, double yMin, double yMax)
+public static Window2D Union(Window3D window, double xMin, double xMax, double yMin, double yMax)
+public static Window2D Union(IWindow2D window, double xMin, double xMax, double yMin, double yMax)
+public static Window2D Union(IWindow3D window, double xMin, double xMax, double yMin, double yMax)
+```
+
+Devuelve el rectángulo que contiene `window` y el punto, o `window` y el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`). Lanza `InvalidOperationException` si `Xmin` de `window` es `null`: a diferencia del método `Union` de instancia, estas sobrecargas no aceptan una ventana no inicializada.
+
+> En la versión 26.0.0, si `Xmin` de la primera ventana vale exactamente `0`, las sobrecargas estáticas de `Union` descartan esa ventana y devuelven solo el punto, el rectángulo o la segunda ventana. Para una ventana que puede tener `Xmin` igual a 0, usa el método `Union` de instancia sobre una copia.
+
+### Intersection
+
+```csharp
+public static Window2D Intersection(Window2D windowA, Window2D windowB)
+public static Window2D Intersection(Window2D windowA, Window3D windowB)
+public static Window2D Intersection(Window3D windowA, Window2D windowB)
+public static Window2D Intersection(Window3D windowA, Window3D windowB)
+public static Window2D Intersection(Window2D windowA, IWindow2D windowB)
+public static Window2D Intersection(Window2D windowA, IWindow3D windowB)
+public static Window2D Intersection(Window3D windowA, IWindow2D windowB)
+public static Window2D Intersection(Window3D windowA, IWindow3D windowB)
+public static Window2D Intersection(IWindow2D windowA, Window2D windowB)
+public static Window2D Intersection(IWindow2D windowA, Window3D windowB)
+public static Window2D Intersection(IWindow3D windowA, Window2D windowB)
+public static Window2D Intersection(IWindow3D windowA, Window3D windowB)
+public static Window2D Intersection(IWindow2D windowA, IWindow2D windowB)
+public static Window2D Intersection(IWindow2D windowA, IWindow3D windowB)
+public static Window2D Intersection(IWindow3D windowA, IWindow2D windowB)
+public static Window2D Intersection(IWindow3D windowA, IWindow3D windowB)
+public static Window2D Intersection(double? xMinA, double xMaxA, double yMinA, double yMaxA, double? xMinB, double xMaxB, double yMinB, double yMaxB)
+```
+
+Devuelve el rectángulo común a las dos ventanas. Si no se solapan, el resultado tiene `Xmin` a `null`. Lanza `InvalidOperationException` si `Xmin` de una de las dos ventanas (o `xMinA` o `xMinB`) es `null`.
+
+### Contains
+
+```csharp
+public static bool Contains(Window2D wndA, Window2D wndB)
+public static bool Contains(Window2D wndA, Window3D wndB)
+public static bool Contains(Window3D wndA, Window2D wndB)
+public static bool Contains(Window3D wndA, Window3D wndB)
+public static bool Contains(Window2D wndA, IWindow2D wndB)
+public static bool Contains(Window2D wndA, IWindow3D wndB)
+public static bool Contains(Window3D wndA, IWindow2D wndB)
+public static bool Contains(Window3D wndA, IWindow3D wndB)
+public static bool Contains(IWindow2D wndA, Window2D wndB)
+public static bool Contains(IWindow2D wndA, Window3D wndB)
+public static bool Contains(IWindow3D wndA, Window2D wndB)
+public static bool Contains(IWindow3D wndA, Window3D wndB)
+public static bool Contains(double? xMinA, double xMaxA, double yMinA, double yMaxA, double? xMinB, double xMaxB, double yMinB, double yMaxB)
+```
+
+Devuelve `true` si `wndB` está dentro de `wndA` en el plano X, Y, bordes incluidos. No hay sobrecarga con las dos ventanas de tipo interfaz. Lanza `InvalidOperationException` si `Xmin` de una de las dos ventanas es `null`.
+
+### Intersects
+
+```csharp
+public static bool Intersects(Window2D windowA, Window2D windowB)
+public static bool Intersects(Window2D windowA, Window3D windowB)
+public static bool Intersects(Window3D windowA, Window2D windowB)
+public static bool Intersects(Window3D windowA, Window3D windowB)
+public static bool Intersects(IWindow2D windowA, IWindow2D windowB)
+public static bool Intersects(IWindow2D windowA, IWindow3D windowB)
+public static bool Intersects(IWindow3D windowA, IWindow2D windowB)
+public static bool Intersects(IWindow3D windowA, IWindow3D windowB)
+public static bool Intersects(double? xMinA, double xMaxA, double yMinA, double yMaxA, double? xMinB, double xMaxB, double yMinB, double yMaxB)
+public static bool Intersects(double xMinA, double xMaxA, double yMinA, double yMaxA, double xMinB, double xMaxB, double yMinB, double yMaxB)
+```
+
+Devuelve `true` si las dos ventanas tienen algún punto común en el plano X, Y, incluido un borde compartido. No hay sobrecargas que mezclen una estructura y una interfaz. Las sobrecargas con ventanas o con `double?` lanzan `InvalidOperationException` si `Xmin` de una de las dos ventanas es `null`; la sobrecarga con ocho `double` no lanza excepciones.
+
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | Se lee `Width`, `Height`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Intersection`, `Contains` o `Intersects`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También en las sobrecargas estáticas de `Union` con un primer argumento no inicializado. |
+| `NullReferenceException` | Un argumento de tipo `IWindow2D` o `IWindow3D` es `null`. |
+
+## Ejemplo
+
+Este programa calcula la ventana que envuelve tres puntos, la cruza con otra ventana y la amplía:
+
+```csharp
+using Digi21.Math;
+
+Point2D[] puntos =
+{
+    new Point2D(440000, 4470000),
+    new Point2D(440250, 4470100),
+    new Point2D(440120, 4469900),
+};
+
+// Una Window2D creada con new Window2D() no está inicializada: Xmin es null.
+var envolvente = new Window2D();
+Console.WriteLine(envolvente.Valid);        // False
+
+foreach (var punto in puntos)
+    envolvente.Union(punto);
+
+Muestra(envolvente);
+
+var hoja = new Window2D(440100, 4469950, 440500, 4470300);
+Console.WriteLine(hoja.Contains(puntos[1]));          // True
+Console.WriteLine(envolvente.Intersects(hoja));       // True
+
+var comun = envolvente.Intersection(hoja);
+Muestra(comun);
+
+var lejana = new Window2D(500000, 4400000, 500100, 4400100);
+var vacia = envolvente.Intersection(lejana);
+Console.WriteLine(vacia.Valid);             // False: las ventanas no se solapan
+
+// Amplía 10 unidades por cada lado.
+envolvente.Inflate(10, 10);
+Muestra(envolvente);
+
+static void Muestra(IWindow2D ventana)
+{
+    if (!ventana.Valid)
+    {
+        Console.WriteLine("Ventana no válida");
+        return;
+    }
+
+    Console.WriteLine($"X: {ventana.Xmin} a {ventana.Xmax}, Y: {ventana.Ymin} a {ventana.Ymax}");
+    Console.WriteLine($"Ancho {ventana.Width}, alto {ventana.Height}, centro {ventana.Center}");
+}
+```
