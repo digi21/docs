@@ -47,14 +47,14 @@ Los miembros heredados de `Entity` (códigos, colores, atributos, coordenadas m�
 | [`Point3D Distance(Point3D coordinate)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/distance.md) | Vector desde `coordinate` hasta el punto más cercano de la línea: el vértice más cercano o la proyección sobre el segmento más cercano, el que esté más cerca en el plano X, Y. Lanza `InvalidOperationException` si la línea no tiene vértices. |
 | [`double NearestVertex(Point3D coordinate, out Point3D nearestVertex, out int vertex)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestvertex.md) | Distancia en el plano X, Y al vértice más cercano; devuelve sus coordenadas y su índice. Lanza `InvalidOperationException` si la línea no tiene vértices. |
 | [`double NearestSegment(Point3D coordinate, out Point3D calculatedCoordinate, out int segment)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestsegment.md) | Distancia en el plano X, Y al segmento más cercano entre los segmentos sobre los que cae la proyección perpendicular de `coordinate`; devuelve la proyección y el índice del segmento (el del vértice inicial). Lanza `InvalidOperationException` si la línea no tiene vértices y `Exception` si la proyección no cae sobre ningún segmento. |
-| [`IEnumerable<Entity> Clip(ReadOnlyLine limit)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/metodos/clip.md) | Divide la línea por sus intersecciones con `limit`. Lee la nota de este apartado. |
+| [`IEnumerable<Entity> Clip(ReadOnlyLine limit)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/metodos/clip.md) | Divide la línea por sus intersecciones con `limit`. Lee la lista que sigue a esta tabla. |
 | [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/metodos/trim.md) | Polígonos que forman el recinto de esta línea menos el recinto de `limit`. |
 | `string ToString()` | Texto localizado con el tipo, los datos de `Entity` y el número de vértices. |
 
 `Clip` según la línea:
 
 - Línea cerrada: devuelve líneas cerradas, una por cada recinto en que `limit` divide el recinto de esta línea. Devuelve una colección vacía si las dos líneas no se cortan. Lanza `Exception` si el análisis topológico encuentra puntos dobles o arcos de un solo punto.
-- Línea abierta: en la versión 26.0.0 devuelve siempre una colección vacía.
+- Línea abierta: devuelve una línea por cada tramo de esta línea entre dos intersecciones con `limit`; `limit` no se parte. Devuelve una colección vacía si las dos líneas no se cortan.
 
 ## Ejemplo
 
@@ -70,8 +70,8 @@ if (args.Length != 2)
     return 1;
 }
 
-using var entrada = new BinDouble(args[0], new DatabaseConnectionProperties(), true);
-using var salida = new BinDouble(args[1], new DatabaseConnectionProperties(), () => entrada.Wkt);
+using var entrada = new BinDouble(args[0], true);
+using var salida = new BinDouble(args[1], () => entrada.Wkt);
 
 foreach (var entidad in entrada)
 {
