@@ -16,8 +16,6 @@ En la tabla, **Menú** es la ruta del submenú en la interfaz en español y **Po
 
 ## Valores
 
-> El ensamblado de referencia del paquete NuGet `Digi21.DigiNG.Plugin` 26.0.0 declara 170 valores: le faltan `GeometricAnalysisGroup1Group9`, `GeometricAnalysisGroup1Group10` y `GeometricAnalysisGroup2Group1` a `GeometricAnalysisGroup2Group4`, y desde `GeometricAnalysisGroup2` sus números son menores que los del ensamblado instalado (por ejemplo, `TopologyGroup1` vale 137 en el paquete y 143 en Digi3D.AI). Un atributo compilado con el paquete coloca la orden en otro grupo.
->
 > Digi3D.AI solo añade las órdenes .NET a los menús si el valor de registro `MostrarMenusNativos` (del usuario) vale 0.
 
 | Valor | Número | Menú | Posición |
