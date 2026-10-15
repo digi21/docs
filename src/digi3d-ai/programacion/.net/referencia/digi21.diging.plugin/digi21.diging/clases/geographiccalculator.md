@@ -10,7 +10,7 @@ Calcula áreas, perímetros y distancias según el sistema de referencia de coor
 public sealed class GeographicCalculator
 ```
 
-La clase no tiene constructores públicos. El objeto se obtiene con la propiedad estática [DigiNG.GeographicCalculator](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), que crea un objeto nuevo en cada lectura. El objeto queda ligado a la ventana de dibujo activa en el momento de obtenerlo: cuando esa ventana se cierra, todos los métodos lanzan `ObjectDisposedException`.
+La clase no tiene constructores públicos. El objeto se obtiene con la propiedad estática [DigiNG.GeographicCalculator](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), que crea un objeto nuevo en cada lectura y lanza `NullReferenceException` si no hay ninguna ventana de dibujo abierta. El objeto queda ligado a la ventana de dibujo activa en el momento de obtenerlo: cuando esa ventana se cierra, todos los métodos lanzan `ObjectDisposedException`.
 
 El cálculo depende de la parte horizontal del sistema de referencia de coordenadas de la ventana de dibujo:
 
