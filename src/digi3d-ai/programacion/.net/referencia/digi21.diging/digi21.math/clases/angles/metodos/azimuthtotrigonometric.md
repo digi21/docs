@@ -1,41 +1,31 @@
 # AzimuthToTrigonometric
 <!-- id: azimuthtotrigonometric -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Transforma un ángulo azimutal a trigonométrico.
+Convierte un azimut (ángulo desde el norte, en el sentido de las agujas del reloj) en un ángulo trigonométrico (ángulo desde el este, en sentido contrario a las agujas del reloj). Método de [Angles](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/).
 
 ```csharp
-public static double AzimuthToTrigonometric(this double radians);
+public static double AzimuthToTrigonometric(this double radians)
 ```
+
+El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.AzimuthToTrigonometric(valor)`.
 
 ## Parámetros
 
-`radians`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo en radianes a transformar.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `radians` | Azimut en radianes. |
 
 ## Devuelve
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Valor transformado en radianes.
+El ángulo trigonométrico en radianes: `5π/2 − radians`, normalizado al intervalo [0, 2π] con [NormalizeAngle](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/normalizeangle.md). Con un argumento infinito el método no termina.
 
-## Ejemplos
-
-El siguiente ejemplo solicita al usuario un ángulo en sexagesimal. El programa lo transforma a radianes se llama a este método y se vuelve a transformar a sexagesimal para mostrarlo por la consola:
+## Ejemplo
 
 ```csharp
-Console.Write("Introduce un azimut en sexagesimal: ");
-var azimut = double.Parse(Console.Read());
-
-var azimutRadianes = Angles.SexagesimalToRadian(azimut);
-var trigonometricoRadianes = Angles.AzimuthToTrigonometric(azimutRadianes);
-var trigonometricoSexagesimal = Angles.RadianToSexagesimal(trigonometricoRadianes);
-
-Console.WriteLine($"Ángulo trigonométrico: {trigonometricoSexagesimal}");
+// Azimut de 30° (desde el norte, sentido horario): 60° trigonométricos.
+var trigonometrico = Angles.AzimuthToTrigonometric(Angles.SexagesimalToRadian(30.0));
+Console.WriteLine(Angles.RadianToSexagesimal(trigonometrico)); // ≈ 60
 ```
-
-## Observaciones
-
-Este método recibe y devuelve ángulos en radianes.
-

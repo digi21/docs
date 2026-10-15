@@ -1,33 +1,29 @@
 # SexagesimalToGradian
 <!-- id: sexagesimaltogradian -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Transforma un ángulo sexagesimal a centesimal.
+Convierte un ángulo de grados sexagesimales con fracción decimal a grados centesimales. Método de [Angles](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/).
 
 ```csharp
-public static double SexagesimalToGradian(this double sexagesimal);
+public static double SexagesimalToGradian(this double sexagesimal)
 ```
+
+El ensamblado instalado con Digi3D.AI declara el método sin `this`: llámalo como `Angles.SexagesimalToGradian(valor)`.
 
 ## Parámetros
 
-`sexagesimal`[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Ángulo sexagesimal para transformar.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `sexagesimal` | Ángulo en grados sexagesimales con fracción decimal. |
 
 ## Devuelve
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Valor transformado en centesimal.
+El ángulo en grados centesimales: `sexagesimal * 200 / 180`, calculado a través de radianes. El resultado no se normaliza.
 
-## Ejemplos
-
-El siguiente ejemplo solicita al usuario un ángulo sexagesimal y lo muestra en centesimal:
+## Ejemplo
 
 ```csharp
-Console.Write("Introduce un ángulo en sexagesimal: ");
-var sexagesimal = double.Parse(Console.Read());
-
-Console.WriteLine($"Centesimal: {Angles.SexagesimalToGradian(sexagesimal)}");
+Console.WriteLine(Angles.SexagesimalToGradian(90.0)); // 100
 ```
-
