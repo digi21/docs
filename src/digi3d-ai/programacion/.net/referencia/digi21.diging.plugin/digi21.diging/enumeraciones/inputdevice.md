@@ -1,21 +1,22 @@
 # InputDevice
 <!-- id: inputdevice -->
 
-Espacio de nombres: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: `Digi21.DigiNG`  
+Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Esta enumeración define el tipo de dispositivo de entrada en la ventana de dibujo.
+Dispositivo de entrada de la ventana de dibujo. Es el tipo de la propiedad [InputDeviceOptions.InputDevice](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/inputdeviceoptions.md).
 
 ```csharp
 public enum InputDevice
 ```
 
-‌Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0) → [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-5.0) → InputDevice
+## Valores
 
-## Campos <a id="campos"></a>
-
-| ​Title | ​Title | ​Title |
+| Valor | Número | Descripción |
 | :--- | :--- | :--- |
-| Mouse | 0 | El dispositivo de entrada es el ratón. |
-| PhotogrammetricView | 1 | El dispositivo de entrada es la ventana fotogramétrica. |
+| `Mouse` | 0 | El dispositivo de entrada es el ratón. |
+| `PhotogrammetricView` | 1 | El dispositivo de entrada es la ventana fotogramétrica. |
 
+## Ejemplo
+
+El ejemplo de [InputDeviceOptions](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/inputdeviceoptions.md) lee el dispositivo de entrada y lo escribe en la ventana de resultados.
