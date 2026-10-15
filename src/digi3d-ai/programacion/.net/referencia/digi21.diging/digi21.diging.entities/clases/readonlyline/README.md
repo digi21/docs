@@ -2,52 +2,94 @@
 <!-- id: readonlyline -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta clase implementa una geometría de tipo línea \(que en realidad es una polilínea\) de solo lectura.
+Línea de solo lectura: una sucesión de vértices con coordenadas X, Y, Z. Es el tipo de las líneas que devuelven los archivos de dibujo al recorrer sus entidades.
 
 ```csharp
 public class ReadOnlyLine : Entity, ICloseable, ISnapable, IClippable, ITrimable
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) → ReadOnlyLine
+Herencia: `Object` → [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) → `ReadOnlyLine`
 
-Tipos derivados: [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)
+Tipos derivados: [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/).
 
-Implementa: [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/)
+Implementa: [ICloseable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/), [ISnapable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/), [IClippable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/), [ITrimable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/), y las interfaces de `Entity`.
+
+La clase no tiene constructores públicos. Para crear una línea, usa [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/). Para modificar una línea leída de un archivo, modifica la copia que devuelve `Clone()`.
+
+Una línea está cerrada si su último vértice tiene las mismas coordenadas X, Y que el primero. Una línea cerrada delimita un recinto: los miembros de `ICloseable` y `Area` solo tienen sentido en líneas cerradas.
+
+Los miembros heredados de `Entity` (códigos, colores, atributos, coordenadas mínimas y máximas) se describen en [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
 
 ## Propiedades
 
-
-|  |  |
+| Propiedad | Descripción |
 | :--- | :--- |
-| [Area](propiedades/area.md) | Devuelve el área del [ReadOnlyLine](./). |
-| [Perimeter3D](propiedades/perimeter3d.md) | Devuelve el perímetro 3D del [ReadOnlyLine](./). |
-| [Perimeter](propiedades/perimeter.md) | Devuelve el perímetro en el plano X, Y del [ReadOnlyLine](./). |
-| [InteriorPoint](../../interfaces/icloseable/propiedades/interiorpoint.md) |Calcula un punto interior en el [ReadOnlyLine](./).<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
-| [ClosedXYZ](../../interfaces/icloseable/propiedades/closedxyz.md) |Indica si el primer y último vértices del [ReadOnlyLine](./) coinciden en X, Y, Z.<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
-| [Closed](../../interfaces/icloseable/propiedades/closed.md) |Indica si el primer y último vértices del [ReadOnlyLine](./) coinciden en X, Y.<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
-| [LastSegment](propiedades/lastsegment.md) | Devuelve un [Segment](../../../digi21.math/clases/segment.md) referenciando al último segmento del [ReadOnlyLine](./). |
-| [FirstSegment](propiedades/firstsegment.md) | Devuelve un [Segment](../../../digi21.math/clases/segment.md)referenciando al primer segmento del [ReadOnlyLine](./). |
-| [LastVertex](propiedades/lastvertex.md) | Devuelve un [Point3D](../../../digi21.math/clases/point3d.md)con las coordenadas del último vértice del [ReadOnlyLine](./). |
-| [FirstVertex](propiedades/firstvertex.md) | Devuelve un [Point3D](../../../digi21.math/clases/point3d.md)con las coordenadas del primer vértice del [ReadOnlyLine](./). |
-| [Points](propiedades/points.md) | Devuelve un [IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0)con los vértices del [ReadOnlyLine](./). |
-
+| [`IReadOnlyList<Point3D> Points { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/points.md) | Vértices de la línea. |
+| [`Point3D FirstVertex { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/firstvertex.md) | Primer vértice. |
+| [`Point3D LastVertex { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/lastvertex.md) | Último vértice. |
+| [`Segment FirstSegment { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/firstsegment.md) | Segmento del primer al segundo vértice. |
+| [`Segment LastSegment { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/lastsegment.md) | Segmento del penúltimo al último vértice. |
+| [`double Perimeter { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/perimeter.md) | Longitud en el plano X, Y. |
+| [`double Perimeter3D { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/perimeter3d.md) | Longitud en el espacio. |
+| [`double Area { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/propiedades/area.md) | Área con signo del recinto en el plano X, Y. |
+| [`bool Closed { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/propiedades/closed.md) | `true` si el primer y el último vértice coinciden en X, Y. Lanza `InvalidOperationException` si la línea tiene menos de 2 vértices. |
+| [`bool ClosedXYZ { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/propiedades/closedxyz.md) | `true` si el primer y el último vértice coinciden en X, Y, Z. Lanza `InvalidOperationException` si la línea tiene menos de 2 vértices. |
+| [`Point3D InteriorPoint { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/propiedades/interiorpoint.md) | Un punto en el interior del recinto. Lanza `InvalidOperationException` si la línea no está cerrada. |
 
 ## Métodos
 
-
-|  |  |
+| Método | Descripción |
 | :--- | :--- |
-| [AnalyzePointPosition(Point3D)](../../interfaces/icloseable/metodos/analyzepointposition.md) |Devuelve un [PointPosition](../../enumeraciones/pointposition.md)especificando la posición relativa de un determinado punto con el [ReadOnlyLine](./).<br>(Heredado de [ICloseable](../../interfaces/icloseable/))|
-| [Clip(ReadOnlyLine)](../../interfaces/iclippable/metodos/clip.md) |Devuelve un conjunto de geometrías que son el resultado de recortar el [ReadOnlyLine](./) por el límite especificado.<br>(Heredado de [IClippable](../../interfaces/iclippable/))|
-| [Clone()](metodos/clone.md) | Devuelve una nueva instancia de [Line](../line/) idéntica a la actual pero que no está asignada a ningún [IDrawingFile](../../../digi21.diging.io/interfaces/idrawingfile/) de manera que no es de solo lectura. |
-| [Distance(Point3D)](../../interfaces/isnapable/metodos/distance.md) |Devuelve un vector cuyo módulo es la distancia al punto más cercano a la geometría.<br>(Heredado de [ISnapable](../../interfaces/isnapable/))|
-| [NearestSegment(Point3D, out Point3D, out int)](../../interfaces/isnapable/metodos/nearestsegment.md) |Indica el segmento más cercano y calcula la proyección a dicho segmento además de devolver la distancia a dicho punto.<br>(Heredado de [ISnapable](../../interfaces/isnapable/))|
-| [NearestVertex(Point3D, out Point3D, out int)](../../interfaces/isnapable/metodos/nearestvertex.md) |Indica el vértice más cercano, así como su índice y distancia.<br>(Heredado de [ISnapable](../../interfaces/isnapable/))|
-| ToString() |Convierte este [ReadOnlyLine](./) en una cadena legible para los humanos.<br>(Heredado de [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0))|
-| [Trim(ReadOnlyLine, bool)](../../interfaces/itrimmable/metodos/trim.md) |Indica el vértice más cercano, así como su índice y distancia.<br>(Heredado de [ITrimable](../../interfaces/itrimmable/))|
+| [`Line Clone()`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/metodos/clone.md) | Copia de lectura y escritura de la línea. |
+| [`PointPosition AnalyzePointPosition(Point3D coordinate)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/metodos/analyzepointposition.md) | Posición de `coordinate` con respecto al recinto, en el plano X, Y: `Interior`, `Exterior` o `Tangent` (sobre el borde). Lanza `InvalidOperationException` si la línea no está cerrada. Una línea cerrada con menos de 4 vértices devuelve siempre `Exterior`. |
+| [`Point3D Distance(Point3D coordinate)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/distance.md) | Vector desde `coordinate` hasta el punto más cercano de la línea: el vértice más cercano o la proyección sobre el segmento más cercano, el que esté más cerca en el plano X, Y. Lanza `InvalidOperationException` si la línea no tiene vértices. |
+| [`double NearestVertex(Point3D coordinate, out Point3D nearestVertex, out int vertex)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestvertex.md) | Distancia en el plano X, Y al vértice más cercano; devuelve sus coordenadas y su índice. Lanza `InvalidOperationException` si la línea no tiene vértices. |
+| [`double NearestSegment(Point3D coordinate, out Point3D calculatedCoordinate, out int segment)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestsegment.md) | Distancia en el plano X, Y al segmento más cercano entre los segmentos sobre los que cae la proyección perpendicular de `coordinate`; devuelve la proyección y el índice del segmento (el del vértice inicial). Lanza `InvalidOperationException` si la línea no tiene vértices y `Exception` si la proyección no cae sobre ningún segmento. |
+| [`IEnumerable<Entity> Clip(ReadOnlyLine limit)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/metodos/clip.md) | Divide la línea por sus intersecciones con `limit`. Lee la nota de este apartado. |
+| [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/metodos/trim.md) | Polígonos que forman el recinto de esta línea menos el recinto de `limit`. |
+| `string ToString()` | Texto localizado con el tipo, los datos de `Entity` y el número de vértices. |
 
+`Clip` según la línea:
 
+- Línea cerrada: devuelve líneas cerradas, una por cada recinto en que `limit` divide el recinto de esta línea. Devuelve una colección vacía si las dos líneas no se cortan. Lanza `Exception` si el análisis topológico encuentra puntos dobles o arcos de un solo punto.
+- Línea abierta: en la versión 26.0.0 devuelve siempre una colección vacía.
 
+## Ejemplo
 
+Este programa lista las líneas de un archivo `.bind` con su longitud y escribe en otro archivo una copia de cada línea cerrada con el sentido cambiado:
+
+```csharp
+using Digi21.DigiNG.Entities;
+using Digi21.DigiNG.IO.BinDouble;
+
+if (args.Length != 2)
+{
+    Console.WriteLine("Uso: LeeLineas <entrada.bind> <salida.bind>");
+    return 1;
+}
+
+using var entrada = new BinDouble(args[0], new DatabaseConnectionProperties(), true);
+using var salida = new BinDouble(args[1], new DatabaseConnectionProperties(), () => entrada.Wkt);
+
+foreach (var entidad in entrada)
+{
+    if (entidad.Deleted || entidad is not ReadOnlyLine línea || línea.Points.Count < 2)
+        continue;
+
+    Console.WriteLine($"{línea.Codes[0].Name}: {línea.Points.Count} vértices, {línea.Perimeter:F2} m");
+
+    // Las líneas cerradas se copian a la salida con el sentido cambiado.
+    if (!línea.Closed)
+        continue;
+
+    Console.WriteLine($"  Área {línea.Area:F2}, punto interior {línea.InteriorPoint}");
+
+    var copia = línea.Clone();
+    copia.ChangeDirection();
+    salida.Add(copia);
+}
+
+return 0;
+```

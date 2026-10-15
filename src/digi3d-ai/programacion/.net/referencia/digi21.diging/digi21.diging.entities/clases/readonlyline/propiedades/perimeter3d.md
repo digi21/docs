@@ -2,9 +2,9 @@
 <!-- id: perimeter3d -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el perímetro en el espacio del [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+Longitud de la línea en el espacio.
 
 ```csharp
 public double Perimeter3D { get; }
@@ -12,7 +12,10 @@ public double Perimeter3D { get; }
 
 ## Valor de la propiedad
 
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)
+La suma de las longitudes en X, Y, Z de los segmentos, del primer vértice al último. En una línea abierta no se suma el tramo del último vértice al primero. Una línea con un solo vértice devuelve `0`.
 
-Perímetro de la línea en el espacio.
+## Excepciones
 
+| Excepción | Cuándo |
+| :--- | :--- |
+| `InvalidOperationException` | La línea no tiene vértices. |

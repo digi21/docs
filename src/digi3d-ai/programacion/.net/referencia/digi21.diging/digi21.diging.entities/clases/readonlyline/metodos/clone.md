@@ -1,19 +1,23 @@
 # Clone
 <!-- id: clone-3 -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)   
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)​‌
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md) de manera que no es de solo lectura.
+Devuelve una copia de lectura y escritura de la línea, que no pertenece a ningún archivo de dibujo.
 
 ```csharp
-public new Line Clone();‌
+public new Line Clone()
 ```
 
-## Devuelve
+## Valor devuelto
 
-[Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)  
-Nueva geometría clonada.
+Una [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/) con los vértices, los códigos, `Color`, `Weight`, `FillColor` y `Deleted` de esta línea. Los datos que se copian y los que no se describen en [Entity.Clone](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/metodos/clone.md).
 
+## Ejemplo
 
-
+```csharp
+// línea es una ReadOnlyLine leída de un archivo.
+var copia = línea.Clone();
+copia.ChangeDirection();
+```
