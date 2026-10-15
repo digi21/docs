@@ -8,7 +8,7 @@ Crean un [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.di
 
 ```csharp
 public Point(Code code)
-public Point(IEnumerable<Code> codigos)
+public Point(IEnumerable<Code> codes)
 ```
 
 ## Parámetros
@@ -16,7 +16,7 @@ public Point(IEnumerable<Code> codigos)
 | Parámetro | Descripción |
 | :--- | :--- |
 | `code` | [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) del punto. |
-| `codigos` | Códigos del punto, en el orden de la enumeración. Puede estar vacía. |
+| `codes` | Códigos del punto, en el orden de la enumeración. Puede estar vacía. |
 
 `CreationTime` toma la hora del sistema en UTC en el momento de la construcción.
 
@@ -24,7 +24,7 @@ public Point(IEnumerable<Code> codigos)
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `NullReferenceException` | `codigos` es `null`. |
+| `NullReferenceException` | `codes` es `null`. |
 
 ## Ejemplo
 

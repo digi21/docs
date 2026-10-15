@@ -14,7 +14,7 @@ public new Point3D Coordinate { get; set; }
 
 [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md) con las coordenadas X, Y y Z de inserción. En un `Point` nuevo vale (0, 0, 0).
 
-La asignación no recalcula las coordenadas mínimas y máximas de la entidad (`Xmin`, `Valid`…).
+La asignación recalcula las coordenadas mínimas y máximas de la entidad (`Xmin`, `Valid`…): las dos esquinas valen la coordenada asignada.
 
 ## Excepciones
 

@@ -16,7 +16,7 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 Un `Point` creado con sus constructores no pertenece a ningún archivo de dibujo (`Owner` es `null`) y se puede modificar. Al añadirlo a un archivo de dibujo con `IDrawingFile.Add`, `Owner` pasa a ser ese archivo y la entidad pasa a ser de solo lectura: los descriptores `set` y los métodos `Offset` lanzan `InvalidOperationException`. Para modificar un punto guardado, modifica la copia que devuelve [Clone](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/metodos/clone.md).
 
-Un `Point` nuevo tiene la coordenada (0, 0, 0) y la rotación 0. Asignar `Coordinate` o llamar a `Offset` no recalcula las coordenadas mínimas y máximas de la entidad ([IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)): en un `Point` creado por código, `Valid` vale `false`, `Xmin` vale `null`, y `Width`, `Center`, `Color`, `Weight` y `FillColor` lanzan `InvalidOperationException`.
+Un `Point` nuevo tiene la coordenada (0, 0, 0) y la rotación 0, y sus coordenadas mínimas y máximas ([IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)) están sin calcular: `Valid` vale `false`, `Xmin` vale `null`, y `Width`, `Center`, `Color`, `Weight` y `FillColor` lanzan `InvalidOperationException`. Asignar `Coordinate` recalcula las coordenadas mínimas y máximas. Los métodos `Offset` no las recalculan.
 
 El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se heredan de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) y de [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/).
 
@@ -25,7 +25,7 @@ El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se he
 | Miembro | Descripción |
 | :--- | :--- |
 | [`Point(Code code)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/constructores.md) | Crea un punto con un código. |
-| [`Point(IEnumerable<Code> codigos)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/constructores.md) | Crea un punto con varios códigos, en el orden de la enumeración. |
+| [`Point(IEnumerable<Code> codes)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/constructores.md) | Crea un punto con varios códigos, en el orden de la enumeración. |
 
 ## Propiedades
 
@@ -60,7 +60,7 @@ if (args.Length != 1)
     return 1;
 }
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 
 var vértice = new Point(new Code("030101"))
 {
