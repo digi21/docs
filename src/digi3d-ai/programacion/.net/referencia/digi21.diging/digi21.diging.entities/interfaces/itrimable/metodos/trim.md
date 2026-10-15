@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve las partes de la entidad que no están dentro de una línea límite cerrada, como polígonos nuevos. Es un método de [ITrimable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/).
+Devuelve las partes de la entidad que no están dentro de una línea límite cerrada, como polígonos nuevos. Es un método de [ITrimable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/).
 
 ```csharp
 IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)

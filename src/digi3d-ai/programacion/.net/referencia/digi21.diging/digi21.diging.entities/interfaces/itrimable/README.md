@@ -16,7 +16,7 @@ Tipos que la implementan: [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia
 
 | Miembro | Descripción |
 | :--- | :--- |
-| [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimmable/metodos/trim.md) | Devuelve, como polígonos nuevos, las partes de esta entidad que no están dentro de `limit`. |
+| [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/metodos/trim.md) | Devuelve, como polígonos nuevos, las partes de esta entidad que no están dentro de `limit`. |
 
 ## Ejemplo
 
