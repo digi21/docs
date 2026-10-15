@@ -24,8 +24,8 @@ Los miembros de `ReadOnlyPolygon` y de `Entity` se describen en sus páginas.
 
 | Constructor | Descripción |
 | :--- | :--- |
-| [`Polygon(Code codigo)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/constructores.md#polygon-code) | Polígono sin vértices ni huecos con un código. |
-| [`Polygon(IEnumerable<Code> codigos)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/constructores.md#polygon-ienumerable-code) | Polígono sin vértices ni huecos con varios códigos. |
+| [`Polygon(Code code)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/constructores.md#polygon-code) | Polígono sin vértices ni huecos con un código. |
+| [`Polygon(IEnumerable<Code> codes)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/constructores.md#polygon-ienumerable-code) | Polígono sin vértices ni huecos con varios códigos. |
 
 ## Propiedades
 
@@ -98,7 +98,7 @@ vecina.Points.Add(new[]
 var unión = Polygon.JoinPolygons(parcela, vecina);
 Console.WriteLine($"{unión.Width} x {unión.Height}, {unión.Holes.Count} huecos");
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(unión);
 return 0;
 ```
