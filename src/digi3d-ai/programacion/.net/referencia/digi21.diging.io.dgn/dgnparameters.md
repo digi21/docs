@@ -18,12 +18,10 @@ public struct DgnParameters
 | :--- | :--- | :--- |
 | `string TemplateFile` | Archivo `.dgn` que se copia como base cuando `path` no existe. | `null`: sin plantilla. |
 | `string CellFile` | Archivo de células (`.cel`) del que se toma la forma de las células al escribir. Si es `null`, la forma de las células se toma de la carpeta de símbolos de Digi3D.AI. | `null`: carpeta de símbolos. |
-| `DgnCodeCriteria CodeCriteria` | Criterio para buscar el código de cada elemento en la tabla de códigos. Lee la nota de este apartado. | `Level`. |
+| `DgnCodeCriteria CodeCriteria` | Criterio para buscar el código de cada elemento en la tabla de códigos. Ver [DgnCodeCriteria](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgncodecriteria.md). Con un valor que no está en `DgnCodeCriteria`, el constructor de `Dgn` lanza `ArgumentOutOfRangeException`. | `Level`. |
 | `DgnBlockCriteria BlockCriteria` | Tipo de entidad en que se convierte cada célula al leer el archivo. Ver [DgnBlockCriteria](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgnblockcriteria.md). | `Complex`. |
 | `double SplineIncrement` | Distancia, en unidades del dibujo, entre los vértices que se generan al convertir las splines en polilíneas al leer. Un valor menor que 1 se trata como 1. | `0`, que se trata como 1. |
 | `string FormatForUnknownCodes` | Nombre del código que se crea para un elemento sin traducción en la tabla de códigos. Admite los sustituidores `$(Level)`, `$(Color)`, `$(Style)`, `$(Thickness)` y `$(GraphicGroup)`, y sus equivalentes en español `$(Nivel)`, `$(Estilo)`, `$(Grosor)` y `$(GrupoGrafico)`. | `null` o vacío: el nombre del nivel (`$(Level)`). |
-
-> En la versión 26.0.0 el constructor de `Dgn` no aplica `CodeCriteria`: usa el criterio de la última configuración del importador/exportador DGN que guardó Digi3D.AI para el usuario, el mismo valor inicial que muestra la propiedad **Criterio para códigos** del cuadro de diálogo. Si nunca se ha guardado, el criterio es **Nivel**.
 
 El constructor de `Dgn` fija además estas propiedades del importador, que no se pueden cambiar desde `DgnParameters`:
 
@@ -33,7 +31,7 @@ El constructor de `Dgn` fija además estas propiedades del importador, que no se
 | Importar paleta | Sí |
 | Colores de las entidades | Colores del archivo DGN |
 
-La propiedad **Archivos de recursos de simbología** toma el valor de la última configuración del importador/exportador DGN, igual que `CodeCriteria`.
+La propiedad **Archivos de recursos de simbología** toma el valor de la última configuración del importador/exportador DGN que Digi3D.AI guardó para el usuario.
 
 ## Ejemplo
 

@@ -10,7 +10,7 @@ Criterio con el que se busca en la tabla de códigos el código de Digi3D.AI de 
 public enum DgnCodeCriteria
 ```
 
-> En la versión 26.0.0 el constructor de [Dgn](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgn.md) no aplica el valor de `DgnParameters.CodeCriteria`: usa el criterio de la última configuración del importador/exportador DGN guardada para el usuario.
+El constructor de [Dgn](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgn.md) aplica el valor de `DgnParameters.CodeCriteria`. Con un valor que no está en esta enumeración, el constructor lanza `ArgumentOutOfRangeException`.
 
 ## Valores
 
@@ -25,7 +25,7 @@ public enum DgnCodeCriteria
 | `LevelWeight` | 6 | Nombre del nivel y grosor. |
 | `GraphicsGroup` | 7 | Grupo gráfico. |
 
-Los números coinciden con las posiciones 0 a 7 de la lista **Criterio para códigos** del importador/exportador [Archivos DGNv8](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/dgn.md). Los criterios de las posiciones 8 a 18 de esa lista (Geographics, NGix, número de nivel…) no tienen valor en esta enumeración.
+Los números coinciden con las posiciones 0 a 7 de la lista **Criterio para códigos** del importador/exportador [Archivos DGNv8](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/dgn.md). Los criterios de las posiciones 8 a 18 de esa lista (Geographics, NGix, número de nivel…) no tienen valor en esta enumeración, y un `Dgn` no los puede usar.
 
 ## Ejemplo
 
