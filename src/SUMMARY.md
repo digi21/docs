@@ -1932,7 +1932,7 @@
           * [UtilidadesSecuenciaPoint2D](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadessecuenciapoint2d.md)
           * [UtilidadesSecuenciaReadOnlyFile](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadessecuenciareadonlyfile.md)
           * [UtilidadesSecuenciaVertexPointer](digi3d-ai/programacion/.net/referencia/digi21.utilities/utilidadessecuenciavertexpointer.md)
-        * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
+        * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology/README.md)
         * [Digi21.DigiNG.IO.Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/README.md)
           * [Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
         * [Digi21.DigiNG.IO.BinDouble](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/README.md)
