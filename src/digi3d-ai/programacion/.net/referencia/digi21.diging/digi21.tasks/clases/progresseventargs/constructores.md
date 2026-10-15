@@ -1,19 +1,15 @@
 # Constructores
 <!-- id: constructores-12 -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [ProgressEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/) configurado con un determinado valor de progreso.
+Crea un [ProgressEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/) con un porcentaje de progreso.
 
 ```csharp
 public ProgressEventArgs(int progress)
 ```
 
-### Parámetros
-
-`progress` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0)  
-Valor de progreso. Es un número entre 0 y 100.
-
-
-
+| Parámetro | Descripción |
+| :--- | :--- |
+| `progress` | Porcentaje de progreso, normalmente de 0 a 100. El constructor guarda `Math.Max(0, progress)`: un valor negativo se guarda como 0. No limita el valor por arriba. |
