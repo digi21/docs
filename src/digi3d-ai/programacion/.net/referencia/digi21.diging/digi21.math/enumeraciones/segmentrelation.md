@@ -1,23 +1,26 @@
 # SegmentRelation
 <!-- id: segmentrelation -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Especifica la relación entre dos [Segment](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/segment.md).
+Posición relativa de las rectas que pasan por los extremos de dos [Segment](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/segment.md). La devuelven `Segment.AnalyzeRelation` (en el espacio) y `Segment.AnalyzeRelationPlaneXY` (en el plano X, Y).
 
 ```csharp
 public enum SegmentRelation
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [ValueType](https://docs.microsoft.com/en-us/dotnet/api/system.valuetype?view=net-5.0)→ [Enum](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-5.0)→ SegmentRelation
+El cálculo se hace con las rectas, no con los segmentos: dos segmentos con relación `Cutted` pueden no tocarse si el punto de corte de las rectas está fuera de alguno de ellos.
 
-## Campos
+## Valores
 
-|  |  |  |
+| Valor | Número | Significado |
 | :--- | :--- | :--- |
-| Crossed | 0 | Especifica que los dos [Segment](../clases/segment.md)se cruzan. |
-| Cutted | 1 | Especifica que los dos [Segment](../clases/segment.md)se cortan. |
-| Paralel | 2 | Especifica que los dos [Segment](../clases/segment.md)son paralelos. |
-| Coincident | 3 | Especifica que los dos [Segment](../clases/segment.md)son coincidentes. |
+| `Crossed` | 0 | Las rectas se cruzan: no son paralelas y no están en el mismo plano. Solo lo devuelve `AnalyzeRelation`. |
+| `Cutted` | 1 | Las rectas se cortan en un punto. |
+| `Paralel` | 2 | Las rectas son paralelas y distintas. |
+| `Coincident` | 3 | Las rectas son la misma recta. |
 
+## Ejemplo
+
+El ejemplo de [Segment](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/segment.md) compara la relación de dos segmentos en el espacio y en el plano X, Y.
