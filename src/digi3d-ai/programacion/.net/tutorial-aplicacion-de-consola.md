@@ -72,7 +72,7 @@ return 0;
 
 El programa:
 
-- abre el archivo con la clase [`Bin`](referencia/digi21.diging.io.bin/bin.md). El último argumento, `true`, lo abre en solo lectura. En la versión 26.0.0 los archivos `.bin` se leen siempre con 2 decimales y origen (0, 0, 0), con independencia de los dos argumentos anteriores;
+- abre el archivo con la clase [`Bin`](referencia/digi21.diging.io.bin/bin.md). El segundo argumento es el número de decimales con el que se guardaron las coordenadas, el tercero el origen global y el último, `true`, abre el archivo en solo lectura;
 - recorre las entidades con `foreach`, porque un archivo de dibujo es una colección de entidades (`IEnumerable<Entity>`);
 - salta las entidades eliminadas, que siguen en el archivo marcadas con `Deleted`;
 - según el tipo de cada entidad (línea, polígono, punto, texto o complejo), muestra sus códigos y un dato de la geometría.
