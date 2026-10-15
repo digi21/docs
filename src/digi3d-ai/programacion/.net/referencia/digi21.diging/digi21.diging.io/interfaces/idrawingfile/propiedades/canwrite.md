@@ -1,10 +1,10 @@
 # CanWrite
 <!-- id: canwrite -->
 
-Espacio de nombres: [Digi21.DigiNG.IO](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.IO`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si el importador puede almacenar geometrías en el archivo.
+Indica si se pueden añadir y eliminar entidades en el archivo de dibujo.
 
 ```csharp
 bool CanWrite { get; }
@@ -12,7 +12,6 @@ bool CanWrite { get; }
 
 ## Valor de la propiedad
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)
+`bool`: `false` si el archivo está abierto en solo lectura. En [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), `Add` y `Delete` lanzan `InvalidOperationException` cuando `CanWrite` vale `false`. [DrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/drawingfile.md) devuelve siempre `true`.
 
-_Verdadero_ si el importador puede almacenar geometrías en el archivo de dibujo.
-
+Comprueba esta propiedad antes de llamar a [Add](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/metodos/add.md) o [Delete](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/metodos/delete.md) en un método que recibe un `IDrawingFile` de cualquier formato.

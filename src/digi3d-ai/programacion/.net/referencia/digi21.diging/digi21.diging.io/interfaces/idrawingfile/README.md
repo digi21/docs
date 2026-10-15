@@ -1,40 +1,46 @@
 # IDrawingFile
 <!-- id: idrawingfile -->
 
-Espacio de nombres: [Digi21.DigiNG.IO](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.DigiNG.IO`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta interfaz define los métodos que implementan los importadores/exportadores de archivos.
+Archivo de dibujo en el que se pueden leer, añadir y eliminar entidades.
 
 ```csharp
 public interface IDrawingFile : IReadOnlyDrawingFile
 ```
 
-Tipos derivados: [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
+Implementa: [IReadOnlyDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/), que a su vez implementa `IEnumerable<Entity>` e [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/).
 
-Implementa: [IReadOnlyDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/)
+Implementaciones: [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md), [Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md), [Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md) y [DrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/drawingfile.md).
+
+Una entidad añadida con `Add` pasa a pertenecer al archivo: su propiedad `Owner` es el archivo. Una entidad que pertenece a otro archivo no se puede añadir: se añade la copia que devuelve `Clone()`.
 
 ## Propiedades
 
-|  |  |
+| Propiedad | Descripción |
 | :--- | :--- |
-| [CanRead](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canread.md) | Indica si el importador puede leer geometrías del archivo. |
-| [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) | Indica si el importador puede almacenar geometrías en el archivo. |
-| [DatabaseTables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/databasetables.md) | Devuelve un diccionario cuya clave es el nombre de una tabla y cuyo valor es el número de tabla. |
-| [Path](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/propiedades/path.md) | Devuelve la ruta del archivo de dibujo. |
-| [Wkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/wkt.md) especificando el Sistema de Referencia en el que están las coordenadas de las geometrías del archivo de dibujo. |
+| [CanRead](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canread.md) | `true` si el formato del archivo permite leer entidades. |
+| [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) | `true` si se pueden añadir y eliminar entidades. |
+| [DatabaseTables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/databasetables.md) | Tablas de la base de datos asociada al archivo: nombre de la tabla y número de tabla. |
+| [ConnectionString](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/propiedades/connectionstring.md) | Cadena de conexión de la base de datos asociada al archivo. Heredada de `IReadOnlyDrawingFile`. |
+| [Path](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/propiedades/path.md) | Ruta del archivo de dibujo. Heredada de `IReadOnlyDrawingFile`. |
+| [Visible](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/propiedades/visible.md) | Visibilidad del archivo en la ventana de dibujo. Heredada de `IReadOnlyDrawingFile`. |
+| [Wkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/propiedades/wkt.md) | WKT del sistema de referencia de coordenadas del archivo. Heredada de `IReadOnlyDrawingFile`. |
+| `Xmin`, `Ymin`, `Zmin`, `Xmax`, `Ymax`, `Zmax`, `Valid`, `Width`, `Height`, `Depth`, `Center`, `NW`, `N`, `NE`, `E`, `SE`, `S`, `SW`, `W` | Coordenadas mínimas y máximas de las entidades del archivo. Heredadas de [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/). |
 
 ## Métodos
 
-|  |  |
+| Método | Descripción |
 | :--- | :--- |
-| [Add\(Entity\)](metodos/add.md#add-entity) | Añade una [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) al archivo de dibujo. |
-| [Add\(Complex\)](metodos/add.md#add-complex) | Añade una geometría de tipo [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/). |
-| [Add\(IEnumerable&lt;Entity&gt;\)](metodos/add.md#add-ienumerable-less-than-entity-greater-than) | Añade una enumeración de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/). |
-| [Add\(Line\)](metodos/add.md#add-line) | Añade una geometría de tipo [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md). |
-| [Add\(Point\)](metodos/add.md#add-point) | Añade una geometría de tipo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/). |
-| [Add\(Polygon\)](metodos/add.md#add-polygon) | Añade una geometría de tipo [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/). |
-| [Add\(Text\)](metodos/add.md#add-text) | Añade una geometría de tipo [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/). |
-| [Delete\(Entity\)](metodos/delete.md#delete-entity) | Elimina un [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo de dibujo. |
-| [Delete\(IEnumerable&lt;Entity&gt;\)](metodos/delete.md#delete-ienumerable-less-than-entity-greater-than) | Elimina una enumeración de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo de dibujo. |
+| [Add(Entity)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/metodos/add.md) | Añade una entidad al final del archivo. |
+| [Add(IEnumerable&lt;Entity&gt;)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/metodos/add.md) | Añade varias entidades al final del archivo, en el orden de la enumeración. |
+| [Add(Line)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/metodos/add.md)<br>`Add(Point)`, `Add(Text)`, `Add(Polygon)`, `Add(Complex)` | Añaden una entidad de ese tipo y la devuelven con su tipo de solo lectura (`ReadOnlyLine`, `ReadOnlyPoint`, `ReadOnlyText`, `ReadOnlyPolygon` o `ReadOnlyComplex`). |
+| [Delete(Entity)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/metodos/delete.md) | Elimina una entidad del archivo. |
+| [Delete(IEnumerable&lt;Entity&gt;)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/metodos/delete.md) | Elimina varias entidades del archivo. |
+| [IndexOf(Entity)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/metodos/indexof.md) | Posición de la entidad en el archivo, o `-1`. Heredado de `IReadOnlyDrawingFile`. |
+| `IEnumerator<Entity> GetEnumerator()` | Enumerador de las entidades del archivo. Heredado de `IEnumerable<Entity>`. |
 
+## Ejemplo
+
+El [ejemplo de IReadOnlyDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/#ejemplo) copia los puntos de un archivo a un `IDrawingFile` con `CanWrite` y `Add`.
