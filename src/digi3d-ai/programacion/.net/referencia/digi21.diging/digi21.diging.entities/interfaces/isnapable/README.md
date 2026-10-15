@@ -37,7 +37,7 @@ if (args.Length != 1)
     return 1;
 }
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 
 var línea = new Line(new Code("040101"));
 línea.Points.Add(new Point3D(0.0, 0.0, 0.0));
