@@ -1,19 +1,19 @@
 # Digi21.DigiNG.Plugin.Databases
 <!-- id: digi21.diging.plugin.databases -->
 
-Proporciona tipos para implementar extensiones que publiquen proveedores de propiedades dinámicas de base de datos en la ventana de dibujo de Digi3D.AI.
+Espacio de nombres: `Digi21.DigiNG.Plugin.Databases`  
+Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
+
+Tipos para escribir propiedades dinámicas: valores por defecto de los campos de base de datos que calcula una extensión a partir de la entidad que se almacena.
 
 ## Atributos
 
-|  |  |
+| Atributo | Descripción |
 | :--- | :--- |
-| [DynamicPropertyAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.databases/atributos/dynamicpropertyattribute.md) | Decora una clase para convertirla en un proveedor de propiedades de Base de Datos dinámico. |
+| [DynamicPropertyAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.databases/atributos/dynamicpropertyattribute.md) | Marca una clase como proveedor de una propiedad dinámica e indica su nombre. |
 
 ## Interfaces
 
-|  |  |
+| Interfaz | Descripción |
 | :--- | :--- |
-| [IDynamicProperty](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.databases/interfaces/idynamicproperty.md) | Este interfaz define los métodos que debe implementar un proveedor de propiedades de Base de Datos dinámico. |
-
-
-
+| [IDynamicProperty](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.databases/interfaces/idynamicproperty.md) | Método que calcula el valor de la propiedad dinámica para una entidad. |
