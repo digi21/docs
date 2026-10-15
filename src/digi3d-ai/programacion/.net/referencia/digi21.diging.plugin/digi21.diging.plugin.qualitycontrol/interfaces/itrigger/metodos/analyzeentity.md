@@ -1,69 +1,75 @@
 # AnalyzeEntity
 <!-- id: analyzeentity -->
 
-Espacio de nombres: [Digi21.DigiNG.Plugin.QualityControl](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/)  
+Espacio de nombres: `Digi21.DigiNG.Plugin.QualityControl`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Este método es llamado por Digi3D.AI para analizar el control de calidad de una geometría.
+Método de [ITrigger](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/interfaces/itrigger/README.md) que analiza una entidad.
 
 ```csharp
-Entity AnalyzeEntity(Entity entity, bool addingEntity);
+Entity AnalyzeEntity(Entity entity, bool addingEntity)
 ```
+
+En la versión 26.0.0, Digi3D.AI no llama a este método. Los guiones de control de calidad de la tabla de códigos se escriben en Python: lee [Controles de calidad en Python](/digi3d-ai/programacion/python/controles-de-calidad/README.md).
 
 ## Parámetros
 
-`entity`[Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/)  
-Geometría a analizar.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `entity` | Entidad que se analiza ([Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/README.md)). |
+| `addingEntity` | `true` si la entidad se está almacenando; `false` si se analiza una entidad que ya está en el archivo de dibujo. |
 
-`addingEntity`[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-Verdadero si el análisis se ha desencadenado porque se está almacenando una geometría \(antes de almacenarla\) o Falso si el análisis se ha desencadenado porque el usuario ha ordenado hacer un control de calidad manualmente.
+## Valor devuelto
 
-## Devuelve
-
-[Double](https://docs.microsoft.com/en-us/dotnet/api/system.double?view=net-5.0)  
-Geometría a almacenar. No tiene por qué ser la geometría original, puede ser otra como por ejemplo una geometría de tipo [Point](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/) y su perímetro por ejemplo era muy pequeño y el control de calidad decide que hay que transformarla en un punto.
+La entidad que se almacenaría: la propia `entity` si cumple el control de calidad, u otra entidad que la sustituye.
 
 ## Excepciones
 
-Digi3D.AI entiende que, si este método no lanza ninguna excepción, que debe almacenar la geometría que se está analizando, y si recibe una excepción, no va a almacenar la geometría y va a comunicar al usuario un error.
+Las excepciones del espacio de nombres describen los errores:
 
-Las excepciones que espera recibir Digi3D.AI cuando llama a este método son las siguientes:
+| Excepción | Error |
+| :--- | :--- |
+| [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometryexception.md) | Error en la geometría de la entidad. |
+| [GeometricRelationException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometricrelationexception.md) | Error en la relación con otra entidad. |
+| [DatabaseAttributeException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/databaseattributeexception.md) | Error en un atributo de base de datos. |
+| [DigitizeAsPointException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/digitizeaspointexception.md) | La entidad se tendría que digitalizar como punto. |
 
-* [DatabaseAttributeException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/databaseattributeexception.md)
-* [DigitizeAsPointException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/digitizeaspointexception.md)
-* [GeometricRelationException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometricrelationexception.md)
-* [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometryexception.md)
-* [WarningException](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.warningexception?view=net-5.0)
+## Ejemplo
 
-## Observaciones
-
-Digi3D.AI llama a este método en los guiones de control de calidad que se pueden almacenar en la tabla de códigos para cada código.
-
-Estos guiones son programas en C\# que Digi3D.AI compila en el momento de cargar la tabla de códigos generando en el directorio temporal de Windows un ensamblado por cada guion de control de calidad localizado en la tabla de códigos.
-
-Puedes aprender más en [Guiones de Control de Calidad](../../../../../../guiones-de-control-de-calidad/).
-
-## Ejemplo:
-
-El siguiente guion de ejemplo asignado a un determinado código lanza una excepción de tipo [GeometryException](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.qualitycontrol/clases/geometryexception.md):
+Este control de calidad de curvas de nivel comprueba que la entidad es una línea, que no es demasiado corta, que su Z es constante y que el primer código tiene el atributo `COTA`.
 
 ```csharp
-using System;
 using Digi21.DigiNG.Entities;
 using Digi21.DigiNG.Plugin.QualityControl;
 
-namespace DigiTab
+namespace ControlCalidad;
+
+public class ControlCurvas : ITrigger
 {
-    public class Desencadenador : ITrigger 
+    public Entity AnalyzeEntity(Entity entity, bool addingEntity)
     {
-	      public Entity AnalyzeEntity(Entity entidad, bool almacenandoEntidad) 
-		    {
-		        if( !(entity is ReadOnlyLine) )
-		            throw new GeometryException(String.Format("Las geometrías con el código {0} deben ser líneas.", entidad.Codes[0].Name));
-		        
-						return entidad;
+        if (entity is not ReadOnlyLine línea)
+            throw new GeometryException("Las curvas de nivel deben ser líneas.");
+
+        if (línea.Points.Count < 2 || línea.Perimeter < 0.5)
+            throw new DigitizeAsPointException(línea.Codes[0].Name, "La línea es demasiado corta.");
+
+        for (var i = 1; i < línea.Points.Count; i++)
+        {
+            if (línea.Points[i].Z != línea.Points[0].Z)
+                throw new GeometryException("La curva de nivel no tiene Z constante.", línea.Points[i]);
         }
+
+        if (!línea.Codes[0].Attributes.ContainsKey("COTA"))
+        {
+            throw new DatabaseAttributeException(
+                "Falta el atributo COTA.",
+                0,
+                "COTA",
+                [Tuple.Create("Asignar la Z de la curva", "ASIGNA_COTA")]);
+        }
+
+        return entity;
     }
 }
 ```
-
