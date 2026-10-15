@@ -1,10 +1,10 @@
 # Id
 <!-- id: id -->
 
-Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)\
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el valor del _PrimaryKey_ del registro de base de datos al que apunta la geometría que tiene asignado este [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/).
+Identificador del registro de la base de datos enlazado con el código: el valor de la clave principal del registro en la tabla [Table](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/propiedades/table.md).
 
 ```csharp
 public int? Id { get; }
@@ -12,7 +12,6 @@ public int? Id { get; }
 
 ## Valor de la propiedad
 
-[Nullable\<int>](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)
+El identificador, o `null` si el código no tiene registro asignado. En un código leído de un archivo de dibujo también vale `null` si el identificador del registro es un GUID.
 
-Valor del PrimaryKey que tiene la información de base de datos de la [Entity](../../entity/)poseedora de este [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) o `null` en caso de que el código no tenga enlace a base de datos.
-
+El valor se asigna en el constructor; no se puede cambiar.

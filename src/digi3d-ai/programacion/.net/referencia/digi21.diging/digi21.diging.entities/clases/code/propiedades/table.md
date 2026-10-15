@@ -2,9 +2,9 @@
 <!-- id: table-2 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el valor del número de tabla en la que existen los datos de base de datos asociados con este [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/).
+Número de la tabla de la base de datos que guarda el registro enlazado con el código.
 
 ```csharp
 public int? Table { get; }
@@ -12,17 +12,8 @@ public int? Table { get; }
 
 ## Valor de la propiedad
 
-[Nullable&lt;int&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1?view=net-5.0)
+El número de tabla, o `null` si el código no está enlazado con la base de datos.
 
-Número de tabla si el código tiene datos de base de datos o `null` en caso contrario.
+El número de tabla es el que la tabla tiene en la tabla de catálogo de la base de datos (`CATDBS` o `MSCATALOG`). La propiedad [DatabaseTables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/databasetables.md) del archivo de dibujo devuelve el nombre y el número de cada tabla.
 
-## Observaciones
-
-Una geometría puede tener tantos códigos como desee, y los códigos opcionalmente pueden apuntar a un determinado registro de una determinada tabla de base de datos.
-
-Al conectar con una base de datos habitualmente existe una tabla denominada CATDBS o MSCATALOG que es un índice que relaciona número de tabla con nombre de tabla.
-
-El número que se almacena en esta propiedad es el número de tabla que tiene una tabla en particular en la tabla CATDBS o MSCATALOG.
-
-
-
+El valor se asigna en el constructor; no se puede cambiar.
