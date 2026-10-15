@@ -1,32 +1,32 @@
 # Point3DReadOnlyCollection
 <!-- id: point3dreadonlycollection -->
 
-Espacio de nombres: [Digi21.Math](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Math`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Esta clase implementa una colección de solo lectura de objetos [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md).
+Lista de solo lectura de los vértices de una entidad.
 
 ```csharp
 public class Point3DReadOnlyCollection : IReadOnlyList<Point3D>
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → Point3DReadOnlyCollection
+Implementa: `IReadOnlyList<Point3D>`.
 
-Implementa: [IReadOnlyList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ireadonlylist-1?view=net-5.0)
+La clase no tiene constructores públicos, y ningún miembro del ensamblado devuelve un `Point3DReadOnlyCollection` en la versión 26.0.0: la propiedad `Points` de [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) y de [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) se declara como `IReadOnlyList<Point3D>`.
 
 ## Propiedades
 
-|  |  |
+| Propiedad | Descripción |
 | :--- | :--- |
-| Count | Devuelve el número de elementos contenidos en el Point3DReadOnlyCollection. |
-| Item\[Int32\] | Asigna o devuelve el elemento en el índice especificado. |
+| `int Count { get; }` | Número de vértices. |
+| `Point3D this[int index] { get; }` | Vértice de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor o igual que `Count`. |
 
 ## Métodos
 
-|  |  |
+| Método | Descripción |
 | :--- | :--- |
-| Clear\(\) | Elimina todos los [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-| Contains\(Point3D\) | Determina si el [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-| CopyTo\(Point3D\[\], int\) | Copia los elementos del Point3DReadOnlyCollection, comenzando en un índice en particular. |
-| IndexOf\(Point3D\) | Determina el índice de un [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md). |
-
+| `bool Contains(Point3D vertice)` | `true` si algún vértice es igual a `vertice` según el operador `==` de [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md), que usa la tolerancia [Precision.Epsilon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/precision.md). |
+| `int IndexOf(Point3D item)` | Posición del primer vértice igual a `item` con la misma regla que `Contains`, o `-1`. |
+| `int IndexOf(Point2D item)` | Posición del primer vértice con la X y la Y iguales a las de `item` según `Precision.Epsilon`, o `-1`. La Z no se compara. |
+| `void CopyTo(Point3D[] array, int arrayIndex)` | Copia los vértices en `array` a partir de `arrayIndex`. Lanza `ArgumentNullException` si `array` es `null`, `ArgumentOutOfRangeException` si `arrayIndex` es negativo e `IndexOutOfRangeException` si los vértices no caben en `array`. |
+| `IEnumerator<Point3D> GetEnumerator()` | Enumerador de los vértices. |
