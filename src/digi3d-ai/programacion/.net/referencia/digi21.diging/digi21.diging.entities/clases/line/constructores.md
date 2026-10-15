@@ -27,18 +27,18 @@ var línea = new Line(new Code("020400"));
 ## Line(IEnumerable&lt;Code&gt;)
 
 ```csharp
-public Line(IEnumerable<Code> codigos)
+public Line(IEnumerable<Code> codes)
 ```
 
-Crea una línea con los códigos de `codigos`, en el orden de la enumeración. Una enumeración vacía crea una línea sin códigos.
+Crea una línea con los códigos de `codes`, en el orden de la enumeración. Una enumeración vacía crea una línea sin códigos.
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `codigos` | Códigos de la línea. |
+| `codes` | Códigos de la línea. |
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `NullReferenceException` | `codigos` es `null`. |
+| `NullReferenceException` | `codes` es `null`. |
 
 ```csharp
 var línea = new Line(new[]

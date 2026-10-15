@@ -25,7 +25,7 @@ Los miembros de `ReadOnlyLine` y de `Entity` se describen en sus páginas.
 | Constructor | Descripción |
 | :--- | :--- |
 | [`Line(Code code)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/constructores.md#line-code) | Línea sin vértices con un código. |
-| [`Line(IEnumerable<Code> codigos)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/constructores.md#line-ienumerable-code) | Línea sin vértices con varios códigos. |
+| [`Line(IEnumerable<Code> codes)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/constructores.md#line-ienumerable-code) | Línea sin vértices con varios códigos. |
 
 ## Propiedades
 
@@ -91,7 +91,7 @@ Console.WriteLine(parcela.AnalyzePointPosition(new Point3D(15, 10, 0))); // Inte
 parcela.Offset(100, 0);
 Console.WriteLine(parcela.FirstVertex); // Primer vértice desplazado 100 en X.
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 archivo.Add(parcela);
 return 0;
 ```
