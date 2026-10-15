@@ -57,7 +57,7 @@ Sistema de referencia de coordenadas:
 Base de datos:
 
 - Sin el parámetro `databaseProperties`, el constructor usa la base de datos de la última configuración del importador de archivos `.bind` que el usuario guardó en Digi3D.AI. Para abrir el archivo sin base de datos, pasa `new DatabaseConnectionProperties()`.
-- Al conectar con una base de datos, el constructor notifica con `ResultsAdded` el modelo de datos, la cadena de conexión y el final de la conexión.
+- La base de datos se abre en solo lectura si así lo indica la configuración del usuario en Digi3D.AI (valor `BaseDatosSoloLectura`), también cuando se pasa `databaseProperties`. con `ResultsAdded` el modelo de datos, la cadena de conexión y el final de la conexión.
 
 Si `readOnly` es `false` y el archivo existe pero no se puede abrir en escritura (por ejemplo, porque otro proceso lo tiene abierto o porque tiene el atributo de solo lectura), el archivo se abre en solo lectura y `CanWrite` vale `false`. El constructor no lanza ninguna excepción en ese caso.
 
@@ -76,7 +76,7 @@ Los avisos que se producen dentro del constructor se notifican con el evento `Ta
 | Propiedad | Descripción |
 | :--- | :--- |
 | `string Path` | Ruta del archivo. |
-| `IEnumerable<string> ReferenceFiles` | Rutas de los archivos de referencia que guarda el archivo, sin las marcadas como eliminadas. Si las entidades no se han leído todavía, la primera lectura de la propiedad recorre el archivo entero. |
+| `IEnumerable<string> ReferenceFiles` | Rutas de los archivos de referencia que guarda el archivo, sin las marcadas como eliminadas. Mientras las entidades no se han recorrido hasta el final, cada lectura de la propiedad recorre el resto del archivo. Después de un `foreach` completo, la propiedad no vuelve a recorrerlo. |
 | `bool CanRead` | `true` si el archivo se puede leer. |
 | `bool CanWrite` | `false` si el archivo está abierto en solo lectura. |
 | `string Wkt` | WKT del sistema de referencia de coordenadas del archivo. |
@@ -95,11 +95,11 @@ Los avisos que se producen dentro del constructor se notifican con el evento `Ta
 | :--- | :--- |
 | `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades del archivo. Solo se puede pedir una vez por cada `BinDouble`: la segunda llamada lanza `InvalidOperationException`. Para recorrer el archivo otra vez, crea otro `BinDouble`. Las entidades son de solo lectura (`ReadOnlyLine`, `ReadOnlyPoint`, `ReadOnlyText`, `ReadOnlyPolygon` o `ReadOnlyComplex`) y su propiedad `Owner` es este archivo. Las entidades eliminadas también se devuelven, con `Deleted` a `true`. |
 | `void Add(Entity entity)` | Añade la entidad al final del archivo. Guarda en el archivo los valores de `entity.Attributes` que no son `null` y, en la base de datos, los atributos de cada código (`Code.Attributes`). Después de la llamada, `entity.Owner` es este archivo. |
-| `void Add(IEnumerable<Entity> entities)` | Añade las entidades al final del archivo, en el orden de la enumeración. Si una entidad provoca una excepción, las entidades anteriores ya están añadidas. |
+| `void Add(IEnumerable<Entity> entities)` | Añade las entidades al final del archivo, en el orden de la enumeración, con los atributos de sus códigos. Esta sobrecarga no guarda `entity.Attributes`. Si una entidad provoca una excepción, las entidades anteriores ya están añadidas. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Añade la entidad y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada en el archivo. La entidad sigue en el archivo con `Deleted` a `true`. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Posición de la entidad en el archivo, o `-1` si la entidad no pertenece a este archivo. |
+| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
 | `void Dispose()` | Cierra el archivo. |
 
 Excepciones de `Add` y `Delete`:

@@ -38,16 +38,16 @@ La clase no tiene constructores públicos. El archivo de dibujo activo de la ven
 | Método | Descripción |
 | :--- | :--- |
 | `IEnumerator<Entity> GetEnumerator()` | Devuelve un enumerador de las entidades del archivo. Se puede recorrer el archivo tantas veces como se quiera. Si el número de entidades cambia durante el recorrido (por ejemplo, porque se llama a `Add`), `MoveNext` lanza `InvalidOperationException`: para añadir entidades durante un recorrido, guárdalas en una lista y añádelas al terminar. |
-| `void Add(Entity entity)` | Añade la entidad a la ventana de dibujo. La entidad se guarda en el archivo de dibujo activo de la ventana en el momento de la llamada. Si el archivo tiene base de datos, se guardan también los atributos de los códigos (`Code.Attributes`). |
+| `void Add(Entity entity)` | Añade la entidad a la ventana de dibujo. La entidad se guarda en el archivo de dibujo activo de la ventana en el momento de la llamada. Si el archivo tiene base de datos, se guardan también los atributos de los códigos (`Code.Attributes`). La entidad se descarta sin excepción si el archivo activo es de solo lectura, si un manejador de `DigiNG.AddingEntity` o una extensión la rechaza, o si falla el alta en la base de datos; `entity.Owner` vale este archivo también en ese caso. |
 | `void Add(IEnumerable<Entity> entities)` | Añade las entidades a la ventana de dibujo en una sola operación. Esta sobrecarga no copia los atributos de los códigos. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Llama a `Add(Entity)` y devuelve la misma instancia con el tipo de solo lectura. |
-| `void Delete(Entity entity)` | Elimina la entidad de la ventana de dibujo. |
+| `void Delete(Entity entity)` | Elimina la entidad del archivo de dibujo activo de la ventana. Si la entidad no está en ese archivo, no hace nada. |
 | `void Delete(IEnumerable<Entity> entities)` | Elimina las entidades en una sola operación. |
-| `void Undelete(Entity entity)` | Recupera una entidad eliminada. |
+| `void Undelete(Entity entity)` | Recupera una entidad eliminada del archivo de dibujo activo de la ventana. Si la entidad no está en ese archivo, no hace nada. |
 | `void Undelete(IEnumerable<Entity> entities)` | Recupera las entidades en una sola operación. |
 | `void Compress()` | Comprime el archivo de dibujo (elimina del archivo las entidades eliminadas), si el formato lo permite. Es la misma operación que la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md). |
 | `void Backup()` | Hace una copia de seguridad del archivo de dibujo. |
-| `int IndexOf(Entity entity)` | Posición de la entidad en el archivo, o `-1` si la entidad no pertenece a este archivo. |
+| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
 | `void Dispose()` | Desconecta este objeto del archivo. No cierra el archivo. |
 
 Excepciones de `Add`, `Delete` y `Undelete`:
@@ -62,7 +62,7 @@ Excepciones de `Add`, `Delete` y `Undelete`:
 
 | Evento | Descripción |
 | :--- | :--- |
-| `EventHandler<Entity> EntityAdded` | Se produce cada vez que se guarda una entidad en el archivo. El segundo argumento es la entidad guardada. Una excepción que lance un manejador no llega a Digi3D.AI ni impide que se llame a los demás manejadores: se escribe en `System.Diagnostics.Trace`. |
+| `EventHandler<Entity> EntityAdded` | Se produce cada vez que el archivo va a escribir una entidad, antes de escribirla: al añadirla y también al eliminarla o recuperarla. El segundo argumento es la entidad guardada. Una excepción que lance un manejador no llega a Digi3D.AI ni impide que se llame a los demás manejadores: se escribe en `System.Diagnostics.Trace`. |
 
 ## Ejemplo
 

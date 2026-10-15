@@ -62,12 +62,12 @@ Los constructores lanzan `Exception`, con el mensaje del error, si no se puede c
 | Método | Descripción |
 | :--- | :--- |
 | `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades de todas las capas. Solo se puede pedir una vez por cada `Geomedia`: la segunda llamada lanza `InvalidOperationException`. Las entidades son de solo lectura y su propiedad `Owner` es este archivo. |
-| `void Add(Entity entity)` | Guarda la entidad en la capa de su primer código. No hace nada si el código no está en la tabla de códigos, si el archivo no tiene capa para ese código o si la capa no admite ese tipo de geometría. |
+| `void Add(Entity entity)` | Guarda la entidad en la capa de su primer código. No hace nada si el código no está en la tabla de códigos, si el archivo no tiene capa para ese código o si la capa no admite ese tipo de geometría. Excepción: una entidad que ya está guardada en este archivo se vuelve a guardar sin esas comprobaciones, y si no hay capa para su código se lanza una excepción. |
 | `void Add(IEnumerable<Entity> entities)` | Llama a la operación de `Add(Entity)` con cada entidad, en el orden de la enumeración. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Llama a `Add(Entity)` y devuelve la misma instancia con el tipo de solo lectura. |
 | `void Delete(Entity entity)` | Marca la entidad como eliminada y la guarda en su capa. |
 | `void Delete(IEnumerable<Entity> entities)` | Llama a `Delete(Entity)` con cada entidad. |
-| `int IndexOf(Entity entity)` | Posición de la entidad en el archivo, o `-1` si la entidad no pertenece a este archivo. |
+| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
 | `void Dispose()` | Cierra el archivo. |
 
 Excepciones de `Add` y `Delete`:
