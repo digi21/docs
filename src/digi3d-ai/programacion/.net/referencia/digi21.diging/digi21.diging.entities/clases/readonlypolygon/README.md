@@ -40,7 +40,7 @@ Los miembros heredados de `Entity` se describen en [Entity](/digi3d-ai/programac
 | [`Polygon Clone()`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/metodos/clone.md) | Copia de lectura y escritura del polígono, con sus huecos. |
 | [`PointPosition AnalyzePointPosition(Point3D point)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/icloseable/metodos/analyzepointposition.md) | Posición de la coordenada con respecto al recinto, en el plano X, Y. Devuelve `Interior` dentro del contorno exterior y fuera de los huecos, `Exterior` fuera del contorno exterior o dentro de un hueco, y `Tangent` sobre el contorno exterior o sobre el borde de un hueco. Un contorno sin cerrar o con menos de 4 vértices devuelve `Exterior`. En el ensamblado instalado el parámetro se llama `coordinate`. |
 | [`Point3D Distance(Point3D coordinate)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/distance.md) | Vector desde `coordinate` hasta el punto más cercano del contorno exterior (un vértice o la proyección sobre un segmento). Lanza `InvalidOperationException` si el polígono no tiene vértices. |
-| [`double NearestVertex(Point3D coordinate, out Point3D nearestVertex, out int vertex)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestvertex.md) | Distancia en el plano X, Y al vértice más cercano del contorno exterior; devuelve sus coordenadas y su índice. No comprueba si el polígono tiene vértices. |
+| [`double NearestVertex(Point3D coordinate, out Point3D nearestVertex, out int vertex)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestvertex.md) | Distancia en el plano X, Y al vértice más cercano del contorno exterior; devuelve sus coordenadas y su índice. Lanza `InvalidOperationException` si el polígono no tiene vértices. |
 | [`double NearestSegment(Point3D coordinate, out Point3D calculatedCoordinate, out int segment)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestsegment.md) | Distancia en el plano X, Y al segmento más cercano del contorno exterior entre los segmentos sobre los que cae la proyección perpendicular; devuelve la proyección y el índice del segmento. Lanza `InvalidOperationException` si el polígono no tiene vértices y `Exception` si la proyección no cae sobre ningún segmento. |
 | [`IEnumerable<Entity> Clip(ReadOnlyLine limit)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/metodos/clip.md) | Divide el polígono por `limit`. Lee la nota de este apartado. |
 | [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/metodos/trim.md) | Polígonos que forman el recinto de este polígono menos el recinto de `limit`. |
@@ -62,8 +62,8 @@ if (args.Length != 2)
     return 1;
 }
 
-using var entrada = new BinDouble(args[0], new DatabaseConnectionProperties(), true);
-using var salida = new BinDouble(args[1], new DatabaseConnectionProperties(), () => entrada.Wkt);
+using var entrada = new BinDouble(args[0], true);
+using var salida = new BinDouble(args[1], () => entrada.Wkt);
 
 foreach (var entidad in entrada)
 {
