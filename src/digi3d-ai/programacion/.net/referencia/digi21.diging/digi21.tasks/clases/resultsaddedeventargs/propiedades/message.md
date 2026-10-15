@@ -1,10 +1,10 @@
 # Message
 <!-- id: message -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el mensaje emitido por el generador del evento.
+Texto informativo que envía el generador del evento.
 
 ```csharp
 public string Message { get; }
@@ -12,7 +12,4 @@ public string Message { get; }
 
 ## Valor de la propiedad
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)
-
-Mensaje emitido por el generador del evento.
-
+`string`: valor del parámetro `message` del [constructor](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/constructores.md).

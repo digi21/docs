@@ -1,26 +1,29 @@
 # ResultsAddedEventArgs
 <!-- id: resultsaddedeventargs -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Argumento de evento para los eventos que comunican resultados.
+Argumento de un evento [ResultsAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/resultsaddedeventhandler.md): texto informativo de una operación.
 
 ```csharp
 public class ResultsAddedEventArgs : EventArgs
 ```
 
-Herencia [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0) → [EventArgs](https://docs.microsoft.com/en-us/dotnet/api/system.eventargs?view=net-5.0)→ ResultsAddedEventArgs
+Los archivos de dibujo ([Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md), [Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md), [Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md)) lo envían en su evento `ResultsAdded`.
 
 ## Constructores
 
-|  |  |
+| Constructor | Descripción |
 | :--- | :--- |
-| [ResultsAddedEventArgs\(string\)](constructores.md) | Inicializa una nueva instancia de [ResultsAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/) configurado con un determinado valor de progreso. |
+| [ResultsAddedEventArgs(string)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/constructores.md) | Crea el argumento con el texto `message`. |
 
 ## Propiedades
 
-|  |  |
+| Propiedad | Descripción |
 | :--- | :--- |
-| [Message](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/propiedades/message.md) | Devuelve el mensaje emitido por el generador del evento. |
+| [Message](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/propiedades/message.md) | Texto informativo. |
 
+## Ejemplo
+
+El [ejemplo de TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/#ejemplo) envía y recibe `ResultsAddedEventArgs`.
