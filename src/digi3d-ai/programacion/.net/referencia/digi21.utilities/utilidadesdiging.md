@@ -28,11 +28,13 @@ Devuelve las entidades del archivo de dibujo activo (`DigiNG.DrawingFile`) y, a 
 public static int ArchivoPropietarioDeEntidad(Entity entidad)
 ```
 
-Devuelve `0` si `entidad` pertenece al archivo de dibujo activo, y `1 + i` si pertenece al archivo de referencia de índice `i` en `DigiNG.ReferenceFiles`. La pertenencia se comprueba con [IReadOnlyDrawingFileExtension.Contains](/digi3d-ai/programacion/.net/referencia/digi21.utilities/ireadonlydrawingfileextension.md), que compara `entidad.Owner` con cada archivo.
+Devuelve `0` si `entidad` pertenece al archivo de dibujo activo, y `1 + i` si pertenece al archivo de referencia de índice `i` en `DigiNG.ReferenceFiles`. La pertenencia se comprueba en este orden:
 
-Lanza `Exception` con el mensaje «La entidad no pertenece a ningún archivo» si ninguna comparación es cierta.
+1. Si `entidad.Owner` es el archivo `DigiNG.DrawingFile` ([IReadOnlyDrawingFileExtension.Contains](/digi3d-ai/programacion/.net/referencia/digi21.utilities/ireadonlydrawingfileextension.md)), devuelve `0`.
+2. Si `entidad.Owner` no es `null`, devuelve `1 + i` para el primer archivo de referencia cuya propiedad `Path` es igual a `entidad.Owner.Path`, sin distinguir mayúsculas de minúsculas.
+3. Si `entidad.Owner` es `null`, recorre las entidades de cada archivo de referencia y después las del archivo activo, y devuelve la posición del primer archivo que contiene la misma instancia `entidad`.
 
-> En la versión 26.0.0 el método no devuelve nunca un valor mayor que `0`: `Entity.Owner` es un `IDrawingFile` y los archivos de `DigiNG.ReferenceFiles` solo implementan `IReadOnlyDrawingFile`, así que para una entidad de un archivo de referencia el método lanza la excepción.
+Lanza `Exception` con el mensaje «La entidad no pertenece a ningún archivo» si ninguna comprobación es cierta.
 
 ## Ejemplo
 
