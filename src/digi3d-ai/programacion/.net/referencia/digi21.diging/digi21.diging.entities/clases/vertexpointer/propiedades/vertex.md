@@ -2,9 +2,9 @@
 <!-- id: vertex -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve el índice al vértice en el [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/).
+Devuelve el índice del vértice al que apunta el [VertexPointer](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/).
 
 ```csharp
 public int Vertex { get; }
@@ -12,7 +12,4 @@ public int Vertex { get; }
 
 ## Valor de la propiedad
 
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-5.0)
-
-Índice al vértice del [ReadOnlyLine](../../readonlyline/)al que está apuntando este [VertexPointer](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/).
-
+Valor del parámetro `vertex` del constructor: índice del vértice en `Line.Points`.
