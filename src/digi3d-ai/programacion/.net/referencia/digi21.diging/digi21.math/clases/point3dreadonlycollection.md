@@ -12,7 +12,7 @@ public class Point3DReadOnlyCollection : IReadOnlyList<Point3D>
 
 Implementa: `IReadOnlyList<Point3D>`.
 
-La clase no tiene constructores públicos, y ningún miembro del ensamblado devuelve un `Point3DReadOnlyCollection` en la versión 26.0.0: la propiedad `Points` de [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) y de [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) se declara como `IReadOnlyList<Point3D>`.
+La clase no tiene constructores públicos, y ningún miembro del ensamblado devuelve un `Point3DReadOnlyCollection`: la propiedad `Points` de [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) y de [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) se declara como `IReadOnlyList<Point3D>`.
 
 ## Propiedades
 
@@ -25,7 +25,7 @@ La clase no tiene constructores públicos, y ningún miembro del ensamblado devu
 
 | Método | Descripción |
 | :--- | :--- |
-| `bool Contains(Point3D vertice)` | `true` si algún vértice es igual a `vertice` según el operador `==` de [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md), que usa la tolerancia [Precision.Epsilon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/precision.md). |
+| `bool Contains(Point3D vertex)` | `true` si algún vértice es igual a `vertex` según el operador `==` de [Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md), que usa la tolerancia [Precision.Epsilon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/precision.md). |
 | `int IndexOf(Point3D item)` | Posición del primer vértice igual a `item` con la misma regla que `Contains`, o `-1`. |
 | `int IndexOf(Point2D item)` | Posición del primer vértice con la X y la Y iguales a las de `item` según `Precision.Epsilon`, o `-1`. La Z no se compara. |
 | `void CopyTo(Point3D[] array, int arrayIndex)` | Copia los vértices en `array` a partir de `arrayIndex`. Lanza `ArgumentNullException` si `array` es `null`, `ArgumentOutOfRangeException` si `arrayIndex` es negativo e `IndexOutOfRangeException` si los vértices no caben en `array`. |
