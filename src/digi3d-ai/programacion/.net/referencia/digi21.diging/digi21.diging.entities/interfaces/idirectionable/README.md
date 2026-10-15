@@ -33,7 +33,7 @@ if (args.Length != 1)
     return 1;
 }
 
-using var archivo = new BinDouble(args[0], new DatabaseConnectionProperties());
+using var archivo = new BinDouble(args[0]);
 
 var cauce = new Line(new Code("060101"));
 cauce.Points.Add(new Point3D(0.0, 0.0, 120.0));
