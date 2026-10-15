@@ -1957,6 +1957,7 @@
           * [Dwg](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwg.md)
           * [DwgParameters](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwgparameters.md)
           * [DwgVersion](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwgversion.md)
+          * [DwgImportBlocksAs](digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwgimportblocksas.md)
         * [Digi21.CoordinateSystems](digi3d-ai/programacion/.net/referencia/digi21.coordinatesystems/README.md)
           * [CoordinateSystem](digi3d-ai/programacion/.net/referencia/digi21.coordinatesystems/coordinatesystem.md)
           * [CoordinateTransformation](digi3d-ai/programacion/.net/referencia/digi21.coordinatesystems/coordinatetransformation.md)
