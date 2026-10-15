@@ -24,7 +24,7 @@ Para poder continuar es necesario que sigas los pasos de [Midiendo automáticame
 15. En **Archivo de puntos** del panel _Medida de aerotriangulación_ pulsa el botón de los tres puntos. Aparecerá el [Cuadro de diálogo Archivo de puntos de apoyo](/digi3d-ai/referencia/cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md).
 16. Pulsa el botón de los tres puntos para  cambiar el archivo de puntos de apoyo. Aparecerá el cuadro de diálgo **Abrir**.
 17. Localiza el archivo **Puntos de apoyo de Bronchales para aerotriangular.xyz** y pulsa el botón **Abrir**. Este es un archivo de puntos de apoyo reducido que únicamente dispone de 4 puntos de apoyo.
-18. Si el sistema de referencia de coordenadas asociado no es _WGS 84 / UTM Zone 30N + EGM08\_REDNAP Península_, selecciónalo.
+18. Si el sistema de referencia de coordenadas asociado no es _WGS 84 / UTM Zone 30N + Alicante height_, selecciónalo.
 19. Pulsa el botón **Aceptar**.
 20. Vamos a medir ahora los puntos 7 y 6. Para ello, pulsa el botón **Añadir** del _panel de Medida de aerotriangulación_. Aparecerá el _cuadro de diálogo Introduce un punto terreno del archivo de puntos_.
 21. Selecciona el punto 7 y mídelo \([recuerda donde estaba](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-absoluta/midiendo-primera-orientacion-absoluta-proyecto.md)\).
