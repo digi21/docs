@@ -1920,8 +1920,6 @@
             * [TaskZoomEntity](digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.taskpanel/taskzoomentity.md)
         * [Digi21.Utilities](digi3d-ai/programacion/.net/referencia/digi21.utilities.md)
         * [Digi21.DigiNG.Topology](digi3d-ai/programacion/.net/referencia/digi21.diging.topology.md)
-        * [Digi21.OpenGis](digi3d-ai/programacion/.net/referencia/digi21.opengis.md)
-        * [Digi21.Epsg](digi3d-ai/programacion/.net/referencia/digi21.epsg.md)
         * [Digi21.DigiNG.IO.Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/README.md)
           * [Bin](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)
         * [Digi21.DigiNG.IO.BinDouble](digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/README.md)
