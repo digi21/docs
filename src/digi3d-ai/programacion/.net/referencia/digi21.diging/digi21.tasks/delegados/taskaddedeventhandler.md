@@ -1,22 +1,20 @@
 # TaskAddedEventHandler
 <!-- id: taskaddedeventhandler -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Define un tipo de delegado usado por para comunicar que se ha añadido una tarea.
+Delegado de los eventos que notifican una tarea nueva, como el evento `TaskAdded` de [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md).
 
 ```csharp
 public delegate void TaskAddedEventHandler(object sender, TaskAddedEventArgs e);
 ```
 
-## Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `sender` | Objeto que genera el evento. |
+| `e` | [TaskAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/) con la tarea en `Task`. |
 
-`sender` [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object?view=net-5.0)  
-Objeto que envía el evento.
+## Ejemplo
 
-`e` [TaskAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/)  
-Argumentos del evento.
-
-
-
+El [ejemplo de TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/#ejemplo) declara un evento de este tipo y se suscribe a él.
