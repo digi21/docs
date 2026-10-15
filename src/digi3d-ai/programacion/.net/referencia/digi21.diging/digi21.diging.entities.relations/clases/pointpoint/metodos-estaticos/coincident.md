@@ -2,9 +2,9 @@
 <!-- id: coincident-3 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si los puntos son coincidentes.
+Indica si los dos puntos son coincidentes.
 
 ![Dos puntos coincidentes](../../../../../../../../../images/puntopuntocoincidentes.png)
 
@@ -12,16 +12,21 @@ Indica si los puntos son coincidentes.
 public static bool Coincident(ReadOnlyPoint a, ReadOnlyPoint b)
 ```
 
-### Parámetros
+| Parámetro | Descripción |
+| :--- | :--- |
+| `a` | Primer punto, de tipo [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/). |
+| `b` | Segundo punto. |
 
-`a` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Primer punto.
+## Valor devuelto
 
-`b` [ReadOnlyPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/)  
-Segundo punto.
+`true` si las coordenadas X e Y de los dos puntos son idénticas. La coordenada Z no se compara. Lee en [PointPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointpoint/) por qué la tolerancia `Precision.Epsilon` no se aplica y por qué un `Point` creado en memoria nunca es coincidente.
 
-## Devuelve
+## Excepciones
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)  
-_Verdadero_ si los dos puntos son coincidentes.
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `a` o `b` es `null`. |
 
+## Ejemplo
+
+Lee el [ejemplo de PointPoint](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointpoint/#ejemplo).
