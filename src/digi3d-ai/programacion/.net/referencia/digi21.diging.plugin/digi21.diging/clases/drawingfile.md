@@ -47,7 +47,7 @@ La clase no tiene constructores públicos. El archivo de dibujo activo de la ven
 | `void Undelete(IEnumerable<Entity> entities)` | Recupera las entidades en una sola operación. |
 | `void Compress()` | Comprime el archivo de dibujo (elimina del archivo las entidades eliminadas), si el formato lo permite. Es la misma operación que la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md). |
 | `void Backup()` | Hace una copia de seguridad del archivo de dibujo. |
-| `int IndexOf(Entity entity)` | Devuelve `-1` si la entidad no pertenece a este archivo. Si pertenece, busca la entidad entre las entidades que el archivo tiene en memoria y devuelve su posición o, si no la encuentra, el número de entidades recorridas. |
+| `int IndexOf(Entity entity)` | Posición de la entidad entre las entidades que el archivo tiene en memoria, o `-1` si la entidad no pertenece a este archivo o no está entre ellas. Con `null` lanza `NullReferenceException`. |
 | `void Dispose()` | Desconecta este objeto del archivo. No cierra el archivo. |
 
 Excepciones de `Add`, `Delete` y `Undelete`:
