@@ -28,7 +28,7 @@ Crea el atributo con las tres propiedades a `null`. Las propiedades se asignan c
 | Propiedad | Descripción |
 | :--- | :--- |
 | `string Name { get; set; }` | Nombre de la orden. |
-| `string Description { get; set; }` | Descripción de la orden. En la versión 26.0.0, Digi3D.AI no la muestra. |
+| `string Description { get; set; }` | Descripción de la orden. El cuadro de diálogo [Buscar orden](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) la muestra al seleccionar la orden y busca el texto escrito también en ella. |
 | `string HelpUrl { get; set; }` | Dirección de la página de ayuda de la orden. En la versión 26.0.0, Digi3D.AI no la usa. |
 
 ## Ejemplo
