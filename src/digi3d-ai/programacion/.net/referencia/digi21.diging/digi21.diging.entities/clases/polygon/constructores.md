@@ -2,62 +2,48 @@
 <!-- id: constructores-8 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/).
+Constructores de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/). Los dos crean un polígono sin vértices ni huecos, que no pertenece a ningún archivo de dibujo, con `Attributes` vacío y sin color, grosor ni color de relleno propios.
 
-## Sobrecargas
+<a id="polygon-code"></a>
+## Polygon(Code)
 
-|  |  |
+```csharp
+public Polygon(Code codigo)
+```
+
+Crea un polígono con un código.
+
+| Parámetro | Descripción |
 | :--- | :--- |
-| [Polygon\(Code\)](constructores.md#polygon-code) | Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)con un código. |
-| [Polygon\(IEnumerable&lt;Code&gt;\)](constructores.md#polygon-ienumerable-less-than-code-greater-than) | Inicializa una nueva instancia de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/vertexpointer/propiedades/line.md)con múltiples códigos. |
-
-## Polygon\(Code\)
-
-Inicializa una nueva instancia de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/)con un código.
+| `codigo` | Código del polígono. |
 
 ```csharp
-public Polygon(Code code);
+var polígono = new Polygon(new Code("080100"));
 ```
 
-### Parámetros
-
-`code` [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/)  
-Código a asignar al nuevo [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/) y le asigna el código _020400_.
+<a id="polygon-ienumerable-code"></a>
+## Polygon(IEnumerable&lt;Code&gt;)
 
 ```csharp
-var polígono = new Polygon(new Code("020400"));
+public Polygon(IEnumerable<Code> codigos)
 ```
 
-## Polygon\(IEnumerable&lt;Code&gt;\)
+Crea un polígono con los códigos de `codigos`, en el orden de la enumeración. Una enumeración vacía crea un polígono sin códigos.
 
-Inicializa una nueva instancia de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/) con múltiples códigos.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `codigos` | Códigos del polígono. |
 
-```csharp
-public Polygon(IEnumerable<Code> codigos);
-```
-
-### Parámetros
-
-`codes` [IEnumerable&lt;Code&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-5.0)  
-Códigos a asignar al nuevo [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/)y le asigna los códigos _020400_ y _ABCDE_.
+| Excepción | Cuándo |
+| :--- | :--- |
+| `NullReferenceException` | `codigos` es `null`. |
 
 ```csharp
 var polígono = new Polygon(new[]
 {
-    new Code("020400"),
-    new Code("ABCDE")
-};
+    new Code("080100"),
+    new Code("ABCDE"),
+});
 ```
-
-## 
-
