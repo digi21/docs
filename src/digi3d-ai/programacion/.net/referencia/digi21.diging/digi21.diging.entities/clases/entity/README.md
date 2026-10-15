@@ -41,7 +41,7 @@ Mientras `Valid` es `false`:
 | [`int? Color { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/color.md) | Color propio de la entidad, o `null` si usa el de la tabla de códigos. |
 | [`DateTime CreationTime { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/creationtime.md) | Fecha y hora de creación de la entidad. |
 | [`bool Deleted { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/deleted.md) | `true` si la entidad está marcada como eliminada. |
-| [`string FilePointer { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/offset.md) | Identificador de la entidad en su archivo de dibujo. |
+| [`string FilePointer { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/filepointer.md) | Identificador de la entidad en su archivo de dibujo. |
 | [`int? FillColor { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/fillcolor.md) | Color de relleno propio, o `null` si usa el de la tabla de códigos. |
 | [`bool Hidden { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/hidden.md) | `true` para ocultar la entidad. |
 | [`IDrawingFile Owner { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/owner.md) | Archivo de dibujo al que pertenece la entidad, o `null`. |

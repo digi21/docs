@@ -10,7 +10,7 @@ Propiedades de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 | [Color](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/color.md) | Color propio de la entidad. |
 | [CreationTime](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/creationtime.md) | Fecha y hora de creación. |
 | [Deleted](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/deleted.md) | Marca de entidad eliminada. |
-| [FilePointer](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/offset.md) | Identificador de la entidad en su archivo de dibujo. |
+| [FilePointer](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/filepointer.md) | Identificador de la entidad en su archivo de dibujo. |
 | [FillColor](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/fillcolor.md) | Color de relleno propio. |
 | [Hidden](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/hidden.md) | Oculta la entidad. |
 | [Owner](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/propiedades/owner.md) | Archivo de dibujo al que pertenece la entidad. |
