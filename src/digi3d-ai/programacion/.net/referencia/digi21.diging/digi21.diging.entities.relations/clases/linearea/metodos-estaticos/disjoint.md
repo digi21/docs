@@ -31,14 +31,11 @@ La sobrecarga solo descarta las líneas con todos sus vértices dentro del área
 
 ### Disjoint(ReadOnlyLine, ReadOnlyPolygon)
 
-> En la versión 26.0.0, esta sobrecarga devuelve `true` solo si se cumplen las cuatro condiciones siguientes, y `false` en cualquier otro caso:
->
-> * Las cajas envolventes en planta de la línea y del polígono se tocan.
-> * Ningún vértice de la línea coincide con un vértice del anillo exterior.
-> * Para algún hueco del polígono, [Join](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/linearea/metodos-estaticos/join.md)`(line, hueco)` devuelve `true`.
-> * No todos los vértices de la línea están dentro del polígono.
->
-> Por tanto, con un polígono sin huecos o con una línea alejada del polígono, la sobrecarga devuelve `false`.
+Sigue el criterio de la sobrecarga anterior, con los huecos:
+
+* Si las cajas envolventes en planta de `line` y de `area` no se tocan, devuelve `true`.
+* Si un vértice de `line` coincide con un vértice del anillo exterior o de un hueco, devuelve `false`.
+* En otro caso, devuelve `true` salvo que todos los vértices de `line` estén dentro del polígono. Un vértice dentro de un hueco está fuera del polígono.
 
 ## Excepciones
 
