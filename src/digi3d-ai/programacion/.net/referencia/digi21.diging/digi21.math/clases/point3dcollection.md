@@ -58,7 +58,7 @@ vértices.Add(new Point3D(0.0, 0.0, 0.0));
 vértices.Add(new Point3D(10.0, 0.0, 0.0));
 vértices.Add(new Point3D(10.0, 10.0, 0.0));
 
-// Insert no admite el índice Count: para añadir al final se usa Add.
+// Inserta el vértice en la posición 1; con el índice Count lo añadiría al final.
 vértices.Insert(1, new Point3D(5.0, -1.0, 0.0));
 
 // Contains, IndexOf y Remove comparan con Precision.Epsilon.
