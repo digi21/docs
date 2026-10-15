@@ -11,7 +11,7 @@ Constructores de [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/di
 | `Code(string name)` | `null`, `null` | Diccionario vacío | `0xFFFFFFFF` |
 | `Code(string name, IDictionary<string, object> attributes)` | `null`, `null` | El diccionario `attributes`, sin copiarlo | `0xFFFFFFFF` |
 | `Code(string name, int table, int id)` | `table`, `id` | Diccionario vacío | `0xFFFFFFFF` |
-| `Code(string name, int? table, int? id)` | `table`, `id` | Diccionario vacío | `1` |
+| `Code(string name, int? table, int? id)` | `table`, `id` | Diccionario vacío | `0xFFFFFFFF` |
 
 Ningún constructor comprueba sus parámetros: `name` y `attributes` pueden ser `null`.
 
@@ -82,9 +82,7 @@ var código = new Code("020400", 2, 25522);
 public Code(string name, int? table, int? id)
 ```
 
-Crea un código con tabla y registro opcionales. Con `table` e `id` a `null` equivale a `Code(name)`, salvo en la visibilidad.
-
-En la versión 26.0.0, este constructor asigna `1` a `Visible` y a `VisiblePhotogrammetricWindow`, en lugar de `0xFFFFFFFF`. El bit `1` corresponde a las líneas: una entidad de otro tipo que solo tiene este código no se muestra. Para mostrarla, asigna `0xFFFFFFFF` a las dos propiedades.
+Crea un código con tabla y registro opcionales. Con `table` e `id` a `null` equivale a `Code(name)`.
 
 | Parámetro | Descripción |
 | :--- | :--- |
@@ -95,9 +93,5 @@ En la versión 26.0.0, este constructor asigna `1` a `Visible` y a `VisiblePhoto
 ```csharp
 int? tabla = null;
 int? registro = null;
-var código = new Code("020400", tabla, registro)
-{
-    Visible = 0xFFFFFFFF,
-    VisiblePhotogrammetricWindow = 0xFFFFFFFF,
-};
+var código = new Code("020400", tabla, registro);
 ```
