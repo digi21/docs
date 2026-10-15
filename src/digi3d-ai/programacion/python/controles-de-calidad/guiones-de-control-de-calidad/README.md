@@ -33,4 +33,4 @@ Bajo demanda, cada error y cada advertencia se añade al [panel de tareas](/digi
 
 * [Creación de un guion de control de calidad](creacion-de-un-guion-de-control-de-calidad/README.md): cómo se declara una función de control de calidad y cómo se asigna a un código.
 * [Tipos de errores](creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/README.md): qué puede devolver la función y qué hace Digi3D.AI con cada resultado.
-* [Ejemplos de controles de calidad](ejemplos-de-controles-de-calidad/README.md).
+* [Ejemplos de controles de calidad](../ejemplos/README.md).

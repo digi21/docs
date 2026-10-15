@@ -24,3 +24,9 @@ Para entender cómo se escribe, se declara y se asigna un control, consulta
 
 La página [Repositorio de controles de calidad en Python](../../guiones-control-calidad/README.md) describe
 cada control y cada regla de representación dinámica de `guiones.py`, con sus parámetros.
+
+## Ejemplos explicados
+
+| Ejemplo | Qué comprueba |
+| :--- | :--- |
+| [Detectar vértices con Z superior a la del anterior vértice](detectar-vertices-con-z-superior-a-la-anterior.md) | Que la Z de los vértices de la geometría no aumente. |
