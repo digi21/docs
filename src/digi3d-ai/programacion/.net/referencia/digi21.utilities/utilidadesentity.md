@@ -32,7 +32,7 @@ Los métodos sin `ConComodín` comparan los nombres con `==`: `*` y `?` son cara
 | `IEnumerable<string> CódigosComunes(this Entity entidad, IEnumerable<string> códigos)` | Devuelve los elementos de `códigos` que coinciden, con comodines, con algún código de la entidad. Devuelve los textos de `códigos`, no los nombres de los códigos de la entidad, sin repetir. El orden es el de la búsqueda: para cada código de la entidad, en su orden, se recorren los elementos de `códigos`. |
 | `bool AlgúnCódigoVisible(this Entity entidad)`<br>`bool AlgúnCódigoVisible(this Entity entidad, bool códigosDesconocidosSonVisibles)` | `true` si la propiedad `Visible` de algún código de la entidad es distinta de `0`. Una entidad sin códigos devuelve `false`. No se consulta la propiedad `Hidden` de la entidad. El parámetro `códigosDesconocidosSonVisibles` no cambia el resultado: solo se usa si leer `Code.Visible` lanza una excepción, y `Code.Visible` no lanza excepciones. |
 | `IEnumerable<ReadOnlyLine> ExplotaAReadOnlyLine(this Entity entidad)` | Devuelve la entidad convertida en líneas. Lee los detalles a continuación. |
-| `bool CódigosIdénticos(this Entity entidadA, Entity entidadB, List<string> listaErrores = null)` | Compara el número de códigos de las dos entidades. Lee los detalles a continuación. |
+| `bool CódigosIdénticos(this Entity entidadA, Entity entidadB, List<string> listaErrores = null)` | `true` si las dos entidades tienen los mismos códigos, por nombre y sin importar el orden. Lee los detalles a continuación. |
 
 Si `entidad` es `null`, todos los métodos lanzan `NullReferenceException` menos `ExplotaAReadOnlyLine`, que devuelve una secuencia vacía.
 
@@ -51,10 +51,10 @@ La secuencia se evalúa al recorrerla.
 
 ### CódigosIdénticos
 
-> En la versión 26.0.0 el método solo compara el **número** de códigos: no compara sus nombres. Dos entidades con el mismo número de códigos devuelven `true` aunque los códigos sean distintos.
+Compara el número de códigos y sus nombres. Los nombres se comparan con `==`, sin comodines, y el orden de los códigos no importa. Cada código de `entidadA` se empareja con un código de `entidadB` del mismo nombre que no se ha emparejado antes: un nombre que aparece dos veces en una entidad tiene que aparecer dos veces en la otra.
 
-- Si `listaErrores` es `null`, devuelve `false` cuando el número de códigos es distinto y `true` en otro caso.
-- Si `listaErrores` no es `null` y el número de códigos es distinto, añade a la lista el mensaje «Las dos entidades tienen un número distinto de códigos». Devuelve `true` solo si la lista está vacía al terminar, así que una lista que ya tenía mensajes produce `false`.
+- Si `listaErrores` es `null`, devuelve `false` cuando el número de códigos es distinto o algún código queda sin pareja, y `true` en otro caso.
+- Si `listaErrores` no es `null`, añade a la lista el mensaje «Las dos entidades tienen un número distinto de códigos» si el número de códigos es distinto, y el mensaje «El código *nombre* no está en la otra entidad» por cada código que queda sin pareja: primero los de `entidadA` y después los de `entidadB`. Devuelve `true` solo si la lista está vacía al terminar, así que una lista que ya tenía mensajes produce `false`.
 
 ## Ejemplo
 
