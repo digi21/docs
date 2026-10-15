@@ -33,9 +33,8 @@ El objeto es modificable hasta que se pasa a [AddCode](/digi3d-ai/programacion/.
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `NullReferenceException` | `name` es `null`. |
-
-El constructor no comprueba la longitud de `name`. Un nombre de más de 255 caracteres escribe fuera del espacio reservado para el nombre.
+| `ArgumentNullException` | `name` es `null`. |
+| `ArgumentException` | `name` tiene más de 255 caracteres. |
 
 ## Ejemplo
 
