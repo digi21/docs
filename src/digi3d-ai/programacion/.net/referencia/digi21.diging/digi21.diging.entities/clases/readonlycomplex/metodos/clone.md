@@ -14,12 +14,11 @@ public new Complex Clone()
 
 Un [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/) con una copia de cada entidad del complejo, los códigos, `Color`, `Weight`, `FillColor` y `Deleted` de este complejo. Los datos que se copian y los que no se describen en [Entity.Clone](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/metodos/clone.md).
 
-En la versión 26.0.0, recorrer `Entities` de la copia es la forma de leer las entidades de un complejo leído de un archivo, porque [ReadOnlyComplex.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/propiedades/entities.md) lanza `InvalidCastException`.
-
 ## Ejemplo
 
 ```csharp
 // complejo es un ReadOnlyComplex leído de un archivo.
-foreach (var parte in complejo.Clone().Entities)
-    Console.WriteLine(parte.GetType().Name);
+var copia = complejo.Clone();
+if (copia.Entities.Count > 0)
+    copia.Entities.RemoveAt(0);
 ```
