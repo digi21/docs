@@ -1,72 +1,76 @@
 # NewTransaction
 <!-- id: newtransaction -->
 
-Espacio de nombres: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)\
+Espacio de nombres: `Digi21.DigiNG`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Crea una nueva transacción en la pila de transacciones de UNDO.
+Abre una transacción nueva en la pila de deshacer de la ventana de dibujo activa. Es un método estático de la clase [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/).
 
 ```csharp
-public static void NewTransaction(bool finishCurrentTransaction=true)
+public static void NewTransaction(bool finishCurrentTransaction = true)
 ```
 
-### Parámetros
+El valor por defecto `true` está declarado en el paquete NuGet: con el paquete, el compilador de C# convierte `NewTransaction()` en `NewTransaction(true)`. El ensamblado instalado con Digi3D.AI declara el parámetro sin valor por defecto, así que un proyecto que referencia directamente ese ensamblado tiene que pasar el argumento.
 
-`finishCurrentTransaction` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-5.0)\
-Booleano que indica si finalizar la transacción actual.
+## Parámetros
+
+| Parámetro | Descripción |
+| :--- | :--- |
+| `finishCurrentTransaction` | `true` para cerrar la transacción abierta más reciente antes de abrir la nueva, como hace [FinishTransaction](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/finishtransaction.md). `false` para abrir la nueva transacción dentro de la que está abierta. |
+
+## Excepciones
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `NullReferenceException` | No hay ninguna ventana de dibujo abierta. |
 
 ## Observaciones
 
-El motor de Digi3D.AI inserta en la pila de [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) un nodo de comienzo de transacción inmediatamente antes de ejecutar el comando, e inserta automáticamente un nodo de fin de transacción cuando se destruye la orden.
+El funcionamiento de las transacciones se explica en el apartado «Transacciones de deshacer» de [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/). En resumen: Digi3D.AI abre una transacción al ejecutar una orden y cierra la transacción abierta más reciente cuando la orden termina; la orden [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) deshace de una vez la última transacción cerrada.
 
-Veamos por ejemplo cómo queda la pila de UNDO si se ejecuta una orden que añade la geometría 12345, y se elimina la geometría 67890:
+`NewTransaction(true)` divide los cambios de una orden en varias transacciones. Si una orden elimina dos entidades y llama a `NewTransaction(true)` antes de cada eliminación, la pila queda así:
 
+1. La transacción que abrió Digi3D.AI al ejecutar la orden se cierra en la primera llamada. No tiene cambios, así que se descarta.
+2. La transacción que abre la primera llamada recibe la primera eliminación y se cierra en la segunda llamada.
+3. La transacción que abre la segunda llamada recibe la segunda eliminación y se cierra cuando la orden termina.
+
+El usuario tiene que ejecutar `UNDO` dos veces para recuperar las dos entidades.
+
+`NewTransaction(false)` abre una transacción dentro de la que está abierta. Cada llamada con `false` se cierra con una llamada a `FinishTransaction`. Si la transacción interior no se cierra, el cierre que hace Digi3D.AI al terminar la orden cierra la transacción interior, y la transacción de la orden queda abierta: sus cambios no se deshacen hasta el siguiente cierre.
+
+Con `true`, el cierre de la transacción incluye el proceso que describe [FinishTransaction](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/finishtransaction.md).
+
+## Ejemplo
+
+Esta orden elimina los puntos del archivo de dibujo activo, cada punto en su propia transacción. Cada `UNDO` recupera un punto:
+
+```csharp
+using Digi21.DigiNG;
+using Digi21.DigiNG.Entities;
+using Digi21.DigiNG.Plugin.Command;
+
+namespace Ejemplos;
+
+[Command(Name = "ELIMINA_PUNTOS_UNO_A_UNO")]
+public class EliminaPuntosUnoAUno : Command
+{
+    public EliminaPuntosUnoAUno()
+    {
+        Initialize += (sender, e) =>
+        {
+            var puntos = DigiNG.DrawingFile
+                .OfType<ReadOnlyPoint>()
+                .Where(punto => !punto.Deleted)
+                .ToList();
+
+            foreach (var punto in puntos)
+            {
+                DigiNG.NewTransaction(true);
+                DigiNG.DrawingFile.Delete(punto);
+            }
+
+            Dispose();
+        };
+    }
+}
 ```
-[FIN DE TRANSACCIÓN] <- Este nodo se inserta siempre que finaliza una orden
-Eliminada la geometría 67890
-Insertada la geometría 12345
-[COMIENZO DE TRANSACCIÓN] <- Este nodo se inserta siempre antes de instanciar la orden
-```
-
-Si ahora el usuario ejecuta la orden UNDO, Digi3D.AI buscará en la pila el primer nodo FIN DE TRANSACCIÓN y deshará todo lo que encuentre ahí hasta localizar el nodo COMIENZO DE TRANSACCIÓN.
-
-Si queremos modificar este comportamiento para que el usuario tenga que ejecutar la orden UNDO tantas veces como geometrías se hayan modificado (en este ejemplo dos veces) tenemos que insertar un nodo de fin de transacción y uno de comienzo de transacción justo antes de modificar cada geometría:
-
-```
-[FIN DE TRANSACCIÓN] <- Este nodo se inserta siempre que finaliza una orden
-Eliminada la geometría 67890
-[COMIENZO DE TRANSACCIÓN]
-[FIN DE TRANSACCIÓN] 
-Insertada la geometría 12345
-[COMIENZO DE TRANSACCIÓN] <- Este nodo se inserta siempre antes de instanciar la orden
-```
-
-Para hacer esto utilizamos el método NewTransaction pasando como parámetro _verdadero_, justo antes de añadir o eliminar la geometría. Al pasar _verdadero_ ocurre lo siguiente:
-
-* Digi3D.AI comprueba si el último nodo añadido en la pila de UNDO es un nodo de COMIENZO DE TRANSACCIÓN. En caso afirmativo, no hace nada.
-* En caso contrario, añade un nodo de FIN DE TRANSACCIÓN e inmediatamente después añade un nodo de COMIENZO DE TRANSACCIÓN.
-
-¿Cuándo pasar _falso_ en el parámetro de este método?
-
-Podría darse el caso de que implementemos un comando que muestre un panel lateral y que el comando finalize inmediatamente (lo que hará que Digi3D inserte un nodo de COMIENZO DE TRANSACCIÓN de transacción, ejecute el comando y al finalizar éste se añada un nodo de FIN DE TRANSACCIÓN), de manera que la pila quedaría así:
-
-```
-[FIN DE TRANSACCIÓN] <- Este nodo se inserta siempre que finaliza una orden
-[COMIENZO DE TRANSACCIÓN] <- Este nodo se inserta siempre antes de instanciar la orden
-```
-
-Cuando Digi3D.AI añade un nodo de FIN DE TRANSACCIÓN, comprueba si el último nodo de la pila es un nodo de COMIENZO DE TRANSACCIÓN. En caso afirmativo, en vez de añadir un noro de FIN DE TRANSACCIÓN inmediatamente después del nodo COMIENZO DE TRANSACCIÓN lo que hace es eliminar el nodo COMIENZO DE TRANSACCIÓN, de manera que la pila quedaría vacía:
-
-```
- 
-```
-
-En este escenario la orden ha finalizado, pero el panel sigue visualizándose. Si este panel tiene algún interfaz de usuario (como un botón) que desencadene que se inserten o eliminen geometrías, como no estamos dentro de ninguna transacción los nodos UNDO que se añadan en la pila de UNDO quedarán huérfanos, es decir, que si el panel añade por ejemplo la geometría 111, la pila de UNDO queda así:
-
-```
-Insertada la geometría 111
-```
-
-Si el usuario ahora ejecuta la orden UNDO, ésta no sabrá qué hacer, pues no puede localizar en la pila de UNDO un nodo de FIN DE TRANSACCIÓN y como la orden UNDO únicamente elimina lo que hay entre un nodo de FIN DE TRANSACCIÓN y el nodo de COMIENZO DE TRANSACCIÓN, pues no deshace nada.
-
-Para solucionar este problema, podemos llamar al método NewTransaction para que se inserte un nodo de FIN DE TRANSACCIÓN en la pila.
