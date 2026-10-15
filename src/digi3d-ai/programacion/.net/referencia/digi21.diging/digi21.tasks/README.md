@@ -1,38 +1,37 @@
 # Digi21.Tasks
 <!-- id: digi21.tasks -->
 
-Este espacio de nombres proporciona tipos relacionados con tareas, resultados y progresos.
+Espacio de nombres del ensamblado [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/) con los tipos de tareas, resultados y progreso.
 
-## Observaciones
-
-Una tarea en este contexto es un error, advertencia o mensaje generado por alguna extensión y que habitualmente el operador ver en el [panel de tareas](../../../../../referencia/paneles/tareas.md).
+Una tarea es un error, una advertencia o un mensaje que genera una extensión o un archivo de dibujo. Digi3D.AI muestra las tareas en el [panel de tareas](/digi3d-ai/referencia/paneles/tareas.md); una extensión las añade con [Tasks.Add](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/tasks.md). Los archivos de dibujo ([Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md), [Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md), [Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md)) notifican sus tareas, sus resultados y su progreso con los eventos `TaskAdded`, `ResultsAdded` y `ProgressChanged`, que usan los delegados de este espacio de nombres.
 
 ## Interfaces
 
-|  |  |
+| Interfaz | Descripción |
 | :--- | :--- |
-| [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/) | Este interfaz define los métodos y propiedades que implementan las distintas tareas de Digi3D.AI. |
+| [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/) | Miembros de una tarea: título, gravedad, archivo de dibujo, módulo, subtareas y la acción que se ejecuta con un doble clic en el panel de tareas. |
 
 ## Clases
 
-|  |  |
+| Clase | Descripción |
 | :--- | :--- |
-| [ProgressEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/) | Argumento de evento para los eventos que comunican que ha variado el progreso de una tarea. |
-| [ResultsAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/) | Argumento de evento para los eventos que comunican resultados. |
-| [TaskAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/) | Argumento de evento para los eventos que añaden tareas. |
-| [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/). |
+| [ProgressEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/progresseventargs/) | Argumento de un evento `ProgressEventHandler`: porcentaje de progreso. |
+| [ResultsAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/) | Argumento de un evento `ResultsAddedEventHandler`: texto informativo. |
+| [TaskAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskaddedeventargs/) | Argumento de un evento `TaskAddedEventHandler`: tarea nueva. |
+| [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/) | Clase base abstracta que implementa `ITask` salvo el método `Execute`. |
 
 ## Enumeraciones
 
-|  |  |
+| Enumeración | Descripción |
 | :--- | :--- |
-| [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md). |
+| [TaskSeverity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/enumeraciones/taskseverity.md) | Gravedad de una tarea: `Error`, `Warning` o `Message`. |
 
 ## Delegados
 
-|  |  |
+| Delegado | Descripción |
 | :--- | :--- |
-| [ProgressEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/progresseventhandler.md) | Define un tipo de delegado usado por para comunicar que ha variado el progreso de un proceso. |
-| [ResultsAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/resultsaddedeventhandler.md) | Define un tipo de delegado usado por para comunicar un nuevo mensaje. |
-| [TaskAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/taskaddedeventhandler.md) | Define un tipo de delegado usado por para comunicar que se ha añadido una tarea. |
+| [ProgressEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/progresseventhandler.md) | Evento que notifica un porcentaje de progreso. |
+| [ResultsAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/resultsaddedeventhandler.md) | Evento que notifica un texto informativo. |
+| [TaskAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/taskaddedeventhandler.md) | Evento que notifica una tarea nueva. |
 
+El [ejemplo de TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/#ejemplo) usa todos los tipos de este espacio de nombres.
