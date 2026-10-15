@@ -57,3 +57,7 @@ Digi21 publica en GitHub dos repositorios de guiones para Digi3D.AI:
 La [Referencia de la API](referencia/README.md) describe formalmente los tres módulos:
 `digi21.base` (tipos del núcleo), `digi21.io` (lectura y escritura de archivos) y `digi3d` (el módulo
 disponible dentro del programa).
+
+Para transformar coordenadas entre sistemas de referencia desde un programa de Python, usa el paquete
+[crskit](referencia/crskit/README.md), la biblioteca de sistemas de referencia de Digi3D.AI. Digi3D.AI no
+lo distribuye: se instala con `pip install crskit`.

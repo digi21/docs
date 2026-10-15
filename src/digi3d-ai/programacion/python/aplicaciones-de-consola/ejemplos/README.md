@@ -28,3 +28,6 @@ página con ejemplos de lectura, creación y conversión: consulta el índice de
   complejos.
 - [Relaciones entre geometrías](relaciones-entre-geometrias.md) — consultar si dos
   geometrías se cruzan, se tocan, una está dentro de otra, etc.
+- [Transformar coordenadas con crskit](../../referencia/crskit/ejemplos.md) — convertir puntos entre
+  sistemas de referencia con la base de datos de EPSG de Digi3D.AI, leer el WKT de un sistema y usar
+  los códigos propios de Digi3D.AI. Necesita el paquete `crskit` (`pip install crskit`).

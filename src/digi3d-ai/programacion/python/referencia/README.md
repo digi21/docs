@@ -10,6 +10,7 @@ Descripción formal de la API de Python de Digi3D.AI, organizada por módulos.
 | [digi21.base](digi21.base/README.md) | Tipos del núcleo: códigos, geometrías, tablas de códigos y cámara. |
 | [digi21.io](digi21.io/README.md) | Lectura y escritura de archivos de dibujo (un módulo por formato). |
 | [digi3d](digi3d/README.md) | El módulo disponible **dentro de Digi3D.AI**: ventana de dibujo, órdenes, tareas… (reexporta `digi21.base`). |
+| [crskit](crskit/README.md) | Sistemas de referencia de coordenadas y transformación de coordenadas con la base de datos de EPSG. Paquete de PyPI que no distribuye Digi3D.AI: se instala con `pip install crskit`. |
 
 ## Convención de nombres
 

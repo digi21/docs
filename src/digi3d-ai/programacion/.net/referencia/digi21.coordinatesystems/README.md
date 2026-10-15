@@ -3,6 +3,8 @@
 
 Este paquete [NuGet](https://www.nuget.org/packages/Digi21.CoordinateSystems/) proporciona los tipos para transformar coordenadas entre sistemas de referencia de coordenadas (SRC) de la base de datos de EPSG con el motor de Digi3D.AI. Depende del paquete [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/), del que toma `Point2D`, `Point3D` y el resolvedor que carga los ensamblados de la carpeta de instalación de Digi3D.AI.
 
+Para Python, consulta el paquete [crskit](/digi3d-ai/programacion/python/referencia/crskit/README.md).
+
 ### Package manager
 ```bash
 Install-Package Digi21.CoordinateSystems -Version 26.0.0
