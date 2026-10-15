@@ -16,6 +16,10 @@ En la tabla, **Menú** es la ruta del submenú en la interfaz en español y **Po
 
 ## Valores
 
+> El ensamblado de referencia del paquete NuGet `Digi21.DigiNG.Plugin` 26.0.0 declara 170 valores: le faltan `GeometricAnalysisGroup1Group9`, `GeometricAnalysisGroup1Group10` y `GeometricAnalysisGroup2Group1` a `GeometricAnalysisGroup2Group4`, y desde `GeometricAnalysisGroup2` sus números son menores que los del ensamblado instalado (por ejemplo, `TopologyGroup1` vale 137 en el paquete y 143 en Digi3D.AI). Un atributo compilado con el paquete coloca la orden en otro grupo.
+>
+> Digi3D.AI solo añade las órdenes .NET a los menús si el valor de registro `MostrarMenusNativos` (del usuario) vale 0.
+
 | Valor | Número | Menú | Posición |
 | :--- | ---: | :--- | :--- |
 | `FileGroup1` | 0 | Archivo | Tras «Nuevo/Abrir modelo fotogramétrico o archivo de dibujo...». |
@@ -193,7 +197,7 @@ En la tabla, **Menú** es la ruta del submenú en la interfaz en español y **Po
 | `WindowGroup1Group7` | 172 | Ventana > Otras ventanas | Tras «Menú». |
 | `WindowGroup2` | 173 | Ventana | Tras «Pantalla completa». |
 | `WindowGroup2Group1` | 174 | Ventana > Barras de herramientas | Tras «Barra de herramientas». |
-| `WindowGroup3` | 175 | Ventana | Tras «Organizar iconos». |
+| `WindowGroup3` | 175 | Ventana y Análisis geométricos | Tras «Organizar iconos» y, en Análisis geométricos, en los grupos 3, 4 y 5: dos veces en «Detectar entidades duplicadas», «Agrupar entidades duplicadas» y «Eliminar entidades duplicadas», dos veces en cada submenú de «Unir líneas» («Independientemente del número de líneas que lleguen al nodo» y «En nodos a los que llegan dos entidades») y tras «Juntar vértices cercanos...». |
 
 En la versión 26.0.0, ocho valores no producen ninguna opción en su posición:
 
