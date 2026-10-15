@@ -32,7 +32,7 @@ Si la entidad pertenece a un archivo de dibujo (su propiedad `Owner` no es `null
 | :--- | :--- |
 | `void Add(Point3D item)` | Añade el vértice al final. |
 | `void Add(IEnumerable<Point3D> points)` | Llama a `Add(Point3D)` con cada punto, en el orden de la enumeración. Lanza `NullReferenceException` si `points` es `null`. El paquete NuGet `Digi21.DigiNG` no declara esta sobrecarga: solo se puede llamar compilando con el ensamblado instalado con Digi3D.AI. |
-| `void Insert(int index, Point3D item)` | Inserta el vértice en la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor o igual que `Count`: para añadir al final, usa `Add`. |
+| `void Insert(int index, Point3D item)` | Inserta el vértice en la posición `index`. Con `index` igual a `Count`, añade el vértice al final. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor que `Count`. |
 | `bool Remove(Point3D item)` | Elimina el primer vértice igual a `item`. Devuelve `false` si no hay ninguno. |
 | `void RemoveAt(int index)` | Elimina el vértice de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor o igual que `Count`. |
 | `void Clear()` | Elimina todos los vértices. |

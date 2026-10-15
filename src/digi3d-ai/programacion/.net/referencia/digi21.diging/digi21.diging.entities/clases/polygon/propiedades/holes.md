@@ -17,7 +17,7 @@ Una colección, siempre la misma instancia para cada polígono, que trabaja dire
 | Miembro | Descripción |
 | :--- | :--- |
 | `Add(Line item)` | Añade `item` como último hueco. La línea pasa a pertenecer al polígono: no la añadas a otro polígono, a un complejo ni a un archivo de dibujo. |
-| `Insert(int index, Line item)` | Inserta `item` en la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor o igual que `Count`: para añadir al final, usa `Add`. |
+| `Insert(int index, Line item)` | Inserta `item` en la posición `index`. Con `index` igual a `Count`, añade `item` al final. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor que `Count`. |
 | `this[int index]` | `get`: el hueco de la posición `index`. `set`: sustituye el hueco por otra línea, que pasa a pertenecer al polígono. Lanza `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
 | `Remove(Line item)` | Quita el hueco si es la misma línea (la misma instancia de la entidad nativa). Devuelve `false` si no lo es. |
 | `RemoveAt(int index)` | Quita el hueco de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
