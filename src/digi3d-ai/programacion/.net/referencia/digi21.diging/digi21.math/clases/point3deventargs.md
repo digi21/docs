@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.Math`  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Argumento de los eventos que notifican una coordenada. Lo reciben los eventos `DataDown`, `DataUp`, `ResetDown`, `ResetUp`, `SnapDown` y `SnapUp` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md), declarados como `EventHandler<Point3DEventArgs>`.
+Argumento de los eventos que notifican una coordenada. Lo reciben los eventos `DataDown`, `DataUp`, `ResetDown`, `ResetUp`, `SnapDown` y `SnapUp` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md), declarados como `EventHandler<Point3DEventArgs>`.
 
 ```csharp
 public class Point3DEventArgs : EventArgs

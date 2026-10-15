@@ -21,7 +21,7 @@ public LocalizableCommandInMenuAttribute(Type resourceManagerProvider, string ti
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `resourceManagerProvider` | Tipo con una propiedad estática no pública de tipo `ResourceManager`. Las condiciones son las de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md#proveedor-de-recursos). |
+| `resourceManagerProvider` | Tipo con una propiedad estática no pública de tipo `ResourceManager`. Las condiciones son las de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md#proveedor-de-recursos). |
 | `titleResource` | Clave del recurso con el texto de la opción. Se asigna a `Title`. |
 | `group` | Posición del menú. Se asigna a `Group`. |
 
@@ -31,4 +31,4 @@ Digi3D.AI crea el atributo cada vez que el usuario abre el submenú de la posici
 
 ## Ejemplo
 
-El ejemplo de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md#ejemplo) añade la orden `CUENTA_LINEAS` al menú **Herramientas**, después de **Configuración...**, con el texto del recurso `CuentaLineasMenu`.
+El ejemplo de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md#ejemplo) añade la orden `CUENTA_LINEAS` al menú **Herramientas**, después de **Configuración...**, con el texto del recurso `CuentaLineasMenu`.

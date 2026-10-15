@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG.Plugin.Command`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Datos del evento `EntitySelected` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md): la entidad que recibe la orden y el punto y el segmento de la selección.
+Datos del evento `EntitySelected` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md): la entidad que recibe la orden y el punto y el segmento de la selección.
 
 ```csharp
 public class EntitySelectedEventArgs : EventArgs

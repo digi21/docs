@@ -203,4 +203,4 @@ En la versión 26.0.0, ocho valores no producen ninguna opción en su posición:
 
 ## Ejemplo
 
-La orden de ejemplo de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md#ejemplo) usa `MenuItemGroup.InmediateGroup4`: la opción aparece en el menú **Inmediato**, después de **Mide segmento**.
+La orden de ejemplo de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md#ejemplo) usa `MenuItemGroup.InmediateGroup4`: la opción aparece en el menú **Inmediato**, después de **Mide segmento**.

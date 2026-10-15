@@ -97,4 +97,4 @@ public sealed class BuscadorLineasLargas : ISearcher, IDisposable
 }
 ```
 
-El ejemplo de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/localizablecommandattribute.md#ejemplo) tiene un buscador sin formulario.
+El ejemplo de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md#ejemplo) tiene un buscador sin formulario.

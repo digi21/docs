@@ -10,7 +10,7 @@ Métodos con los que Digi3D.AI notifica a una orden los eventos de la ventana de
 public interface ICommand
 ```
 
-[Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md) implementa esta interfaz. Digi3D.AI solo ejecuta como órdenes las clases que derivan de `Command`: una clase que implementa `ICommand` sin derivar de `Command` no se puede ejecutar como orden.
+[Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md) implementa esta interfaz. Digi3D.AI solo ejecuta como órdenes las clases que derivan de `Command`: una clase que implementa `ICommand` sin derivar de `Command` no se puede ejecutar como orden.
 
 La propiedad `Top` de [Commands](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/commands.md) devuelve un `ICommand` que representa la orden que ocupa la primera posición de la pila de órdenes, sea una orden de Digi3D.AI o una orden .NET, o `null` si la pila está vacía. Cada método de ese objeto envía el evento correspondiente a esa orden. El objeto no se actualiza si cambia la pila: después de que la orden termine, no llames a sus métodos.
 
@@ -30,7 +30,7 @@ La propiedad `Top` de [Commands](/digi3d-ai/programacion/.net/referencia/digi21.
 | `void OnMove(Point3D groundPoint, InputDeviceButton button)` | Notifica el desplazamiento del cursor a `groundPoint`. `button` es el botón del dispositivo de entrada pulsado durante el desplazamiento ([InputDeviceButton](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/enumeraciones/inputdevicebutton.md)). |
 | `void OnEntitySelected(Entity entity, Point3D groundPoint, int firstVertex, int secondVertex)` | Notifica que se ha seleccionado `entity` en `groundPoint`, en el segmento que va del vértice `firstVertex` al vértice `secondVertex`. |
 
-Los métodos `On…Down` y `On…Up` devuelven `true` si la orden ha procesado el evento. El significado del valor devuelto en cada botón está en la tabla de métodos de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md).
+Los métodos `On…Down` y `On…Up` devuelven `true` si la orden ha procesado el evento. El significado del valor devuelto en cada botón está en la tabla de métodos de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md).
 
 En el objeto que devuelve `Commands.Top`, `OnEntitySelected` requiere que la orden admita la selección de entidades. Si la orden de Digi3D.AI que ocupa la primera posición no admite selección, la llamada provoca un acceso a memoria no válido.
 
@@ -68,4 +68,4 @@ public static class Pulsaciones
 }
 ```
 
-El ejemplo de una orden completa está en [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md#ejemplo).
+El ejemplo de una orden completa está en [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md#ejemplo).

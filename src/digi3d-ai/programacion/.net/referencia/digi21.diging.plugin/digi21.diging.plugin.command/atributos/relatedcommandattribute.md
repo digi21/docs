@@ -29,4 +29,4 @@ Crea el atributo con `Name` a `null`.
 
 ## Ejemplo
 
-El ejemplo de [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/atributos/commandattribute.md#ejemplo) relaciona la orden `MIDE_DISTANCIA_2D` con `MIDE_DISTANCIA`.
+El ejemplo de [CommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/commandattribute.md#ejemplo) relaciona la orden `MIDE_DISTANCIA_2D` con `MIDE_DISTANCIA`.

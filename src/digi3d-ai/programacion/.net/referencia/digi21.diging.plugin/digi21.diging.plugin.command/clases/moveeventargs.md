@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG.Plugin.Command`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Datos del evento `Move` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md), que se produce cuando el usuario desplaza el cursor en la ventana de dibujo.
+Datos del evento `Move` de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md), que se produce cuando el usuario desplaza el cursor en la ventana de dibujo.
 
 ```csharp
 public class MoveEventArgs : EventArgs
@@ -29,4 +29,4 @@ Si hay un botón pulsado y no ha pasado el tiempo de espera configurado desde la
 
 ## Ejemplo
 
-La orden de ejemplo de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.commands/clases/command.md#ejemplo) usa `Coordinates` en el manejador de `Move` para mostrar la distancia al primer punto en la barra de estado.
+La orden de ejemplo de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md#ejemplo) usa `Coordinates` en el manejador de `Move` para mostrar la distancia al primer punto en la barra de estado.
