@@ -1,52 +1,36 @@
 # Guiones de control de calidad
 <!-- id: guiones-de-control-de-calidad -->
 
-Digi3D.AI dispone de un menú denominado **Control de Calidad** que permite habilitar la característica de analizar el control de calidad de las geometrías justo antes de ser almacenadas o que permite analizar el control de calidad de geometrías ya existentes.
+Los controles de calidad de Digi3D.AI son funciones de Python. La tabla de códigos guarda las funciones en la pestaña [Entorno Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md) y asigna a cada código las funciones que se le aplican en la propiedad **Controles de calidad a aplicar** ([Propiedades del código](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md)).
 
-En ambos casos Digi3D.AI no es quien realiza el control de calidad, sino que delega la acción al [guion](../../../referencia/editor-de-tablas-de-codigos/pestanas/codigos/propiedades-del-codigo.md#guion) asignado para tal efecto en el código de la geometría en la tabla de códigos, de manera que es responsabilidad del usuario especificar en la tabla de códigos su propio control de calidad.
+Digi3D.AI no compila ningún ensamblado .NET para los controles de calidad: el intérprete de Python que lleva Digi3D.AI ejecuta el contenido de la pestaña Entorno Python cada vez que se carga o cambia la tabla de códigos, y llama a las funciones asignadas a cada código.
 
-Si al cargar la tabla de códigos se detecta que hay guiones de control de calidad, Digi3D.AI compila cada guion (puede haber tantos como códigos) en un ensamblado temporal almacenado en la carpeta _TEMP_ de Windows.
+La referencia del lenguaje de los controles de calidad está en [Controles de calidad en Python](/digi3d-ai/programacion/python/controles-de-calidad/README.md). El repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D) contiene 64 controles listos para usar, descritos en [Repositorio de controles de calidad en Python](/digi3d-ai/programacion/python/guiones-control-calidad/README.md).
 
-### ¿Qué es un guion de control de calidad?
+## Cuándo se ejecutan
 
-Los guiones de control de calidad son ensamblados que publican una clase que proporciona un método encargado de analizar el control de calidad de una geometría que se le pasa por parámetro.&#x20;
+* **Al digitalizar.** Si la variable [CONTROL_CALIDAD_AL_FINALIZAR_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/control-calidad.md) está activada (menú **Control de calidad/Analizar control de calidad al digitalizar entidad**) y el código de la geometría tiene a **Sí** la propiedad **Analizar control de calidad al digitalizar**, Digi3D.AI ejecuta los controles del código antes de guardar la geometría. Cada función recibe `adding_geometry=True`.
+* **Bajo demanda.** Las órdenes [CONTROL_CALIDAD_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-calidad-cod.md), [CONTROL_CALIDAD_ENTIDADES_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-calidad-entidades-visibles.md), [CONTROL_CALIDAD_SELECCION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-calidad-seleccion.md) y las opciones del menú **Control de calidad** ejecutan los controles de cada código de cada geometría analizada, valga lo que valga la propiedad **Analizar control de calidad al digitalizar**. Cada función recibe `adding_geometry=False`.
 
-Digi3D.AI instanciará la clase y llamará al método por cada geometría que se analice.
+Una geometría con varios códigos se analiza una vez por código: cada vez, la función recibe en `code_index` el índice del código que se analiza.
 
-### Ejecución del guion
+## Cómo comunica Digi3D.AI los errores
 
-Este guion se puede ejecutar de dos maneras distintas:
+Al digitalizar:
 
-* Si está habilitada la opción del menú **Control de calidad/Analizar control de calidad al digitalizar entidad** cuando se digitaliza una geometría, justo antes de almacenarla se ejecuta guion si la entidad tiene asignado un guion en sus códigos.
-* Si el usuario selecciona la opción del menú **Control de calidad/Analizar control de calidad**. En este caso se ejecutará el guion por cada geometría existente que tenga asociado en alguno de sus códigos un guion en la tabla de código.
+* Un error de geometría (`GeometryError` o `GeometryRelationError`) abre el cuadro de diálogo **Error de control de calidad**, con el mensaje del error y dos opciones: **Almacenar la geometría** y **No almacenar la geometría**. Si el error tiene coordenadas, **Almacenar la geometría** desplaza la vista a esas coordenadas. **No almacenar la geometría** descarta la geometría y muestra el mensaje en un globo.
 
-### ¿Qué puede hacer un guion?
+    ![Cuadro de diálogo Error de control de calidad](../../../../images/errorgeometryexception.png)
 
-Los guiones pueden realizar tres tareas:
+* Una advertencia (`GeometryWarning`) se muestra en un globo y la geometría se guarda.
+* Un error de un campo de base de datos (`DatabaseFieldError`) abre un cuadro de diálogo para corregir el valor del campo. Si el usuario cancela, la geometría no se guarda. Si lo corrige, Digi3D.AI vuelve a ejecutar los controles del código; los errores de geometría y las advertencias con un mensaje ya mostrado no se vuelven a mostrar.
 
-* Devolver la geometría a analizar sin modificación alguna. El guion realizará esta acción si la geometría cumple con el control de calidad.
-* Sustituir la geometría a analizar por otra completamente distinta. El guion realizará esta acción para hacer que una geometría cumpla con el control de calidad, como por ejemplo convertir líneas en puntos si el perímetro de la línea es inferior a un valor umbral y el control de calidad admite este cambio, por ejemplo.
-* Lanzar una excepción para comunicarle a Digi3D.AI que la geometría no cumple con el control de calidad. El guion realizará esta acción para comunicarle al usuario que la geometría no cumple con el control de calidad.
+Bajo demanda, cada error y cada advertencia se añade al [panel de tareas](/digi3d-ai/referencia/paneles/tareas.md). Hacer doble clic en una tarea desplaza la vista a las coordenadas del error o a la geometría.
 
-### ¿Cómo comunica Digi3D.AI un error al usuario?
+![Panel de tareas con errores de control de calidad](../../../../images/paneltareasmostrandogeometryexception.png)
 
-*   Si el análisis se ha desencadenado porque se está almacenando una geometría y está habilitada la opción **Control de calidad/Analizar control de calidad al digitalizar entidad**, Digi3D.AI mostrará cuadros de diálogo al usuario en función del tipo de error.\
+## Páginas de esta sección
 
-
-    ![Error mostrado al digitalizar una geometría](../../../../images/errorgeometryexception.png)
-
-
-
-
-* Si el análisis se ha desencadenado porque el usuario ha solicitado realizar un análisis de control de calidad, los errores detectados se mostrarán en el [panel de tareas](../../../referencia/paneles/tareas.md).
-
-![](../../../../images/paneltareasmostrandogeometryexception.png)
-
-### ¿Qué tipo de errores puede comunicar el guion a Digi3D.AI?
-
-Se pueden comunicar tanto errores de atributos de base de datos como geométricos.
-
-En caso de errores geométricos, se puede comunicar a Digi3D.AI que la geometría tiene un error geométrico de manera independiente o que la geometría tiene un error geométrico con respecto a otra geometría, como por ejemplo una geometría que cruza a otra si esto está prohibido en el control de calidad.
-
-Puedes aprender más en [Tipos de errores](/digi3d-ai/programacion/.net/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/).
-
+* [Creación de un guion de control de calidad](creacion-de-un-guion-de-control-de-calidad/README.md): cómo se declara una función de control de calidad y cómo se asigna a un código.
+* [Tipos de errores](creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/README.md): qué puede devolver la función y qué hace Digi3D.AI con cada resultado.
+* [Ejemplos de controles de calidad](ejemplos-de-controles-de-calidad/README.md).
