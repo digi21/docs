@@ -1,19 +1,15 @@
 # Constructores
 <!-- id: constructores-13 -->
 
-Espacio de nombres: [Digi21.Tasks](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Espacio de nombres: `Digi21.Tasks`  
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [ResultsAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/) configurado con un determinado valor de progreso.
+Crea un [ResultsAddedEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/resultsaddedeventargs/) con un texto informativo.
 
 ```csharp
 public ResultsAddedEventArgs(string message)
 ```
 
-### Parámetros
-
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-5.0)  
-Mensaje del evento.
-
-
-
+| Parámetro | Descripción |
+| :--- | :--- |
+| `message` | Texto que devuelve la propiedad `Message`. El constructor no lo valida: admite `null`. |
