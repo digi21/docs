@@ -2,64 +2,48 @@
 <!-- id: constructores-5 -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Inicializa una nueva instancia de [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/).
+Constructores de [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/). Los dos crean un complejo sin entidades, que no pertenece a ningún archivo de dibujo, con `Attributes` vacío y sin color, grosor ni color de relleno propios.
 
-## Sobrecargas
+<a id="complex-code"></a>
+## Complex(Code)
 
-|  |  |
+```csharp
+public Complex(Code code)
+```
+
+Crea un complejo con un código.
+
+| Parámetro | Descripción |
 | :--- | :--- |
-| [Complex\(Code\)](constructores.md#complex-code) | Inicializa una nueva instancia de [Complex](./)con un código. |
-| [Complex\(IEnumerable&lt;Code&gt;\)](constructores.md#complex-ienumerable-less-than-code-greater-than) | Inicializa una nueva instancia de [Complex](./)con múltiples códigos. |
-
-## Complex\(Code\)
-
-Inicializa una nueva instancia de [Complex](./)con un código.
+| `code` | Código del complejo. |
 
 ```csharp
-public Complex(Code code);
+var complejo = new Complex(new Code("100000"));
 ```
 
-### Parámetros
-
-`code` [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/)  
-Código a asignar al nuevo [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Complex](./)y le asigna el código _020400_.
+<a id="complex-ienumerable-code"></a>
+## Complex(IEnumerable&lt;Code&gt;)
 
 ```csharp
-var complejo = new Complex(new Code("020400"));
+public Complex(IEnumerable<Code> codes)
 ```
 
-## Complex\(IEnumerable&lt;Code&gt;\)
+Crea un complejo con los códigos de `codes`, en el orden de la enumeración. En el ensamblado instalado el parámetro se llama `codigos`.
 
-Inicializa una nueva instancia de [Complex](./)con múltiples códigos.
+| Parámetro | Descripción |
+| :--- | :--- |
+| `codes` | Códigos del complejo. |
 
-```csharp
-public Complex(IEnumerable<Code> codigos);
-```
-
-### Parámetros
-
-`codes` [IEnumerable&lt;Code&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-5.0)  
-Códigos a asignar al nuevo [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/).
-
-#### Ejemplos
-
-El siguiente ejemplo instancia un nuevo [Complex](./)y le asigna los códigos _020400_ y _ABCDE_.
+| Excepción | Cuándo |
+| :--- | :--- |
+| `NullReferenceException` | `codes` es `null`. |
 
 ```csharp
 var complejo = new Complex(new[]
 {
-    new Code("020400"),
-    new Code("ABCDE")
-};
+    new Code("100000"),
+    new Code("ABCDE"),
+});
 ```
-
-## 
-
-
-

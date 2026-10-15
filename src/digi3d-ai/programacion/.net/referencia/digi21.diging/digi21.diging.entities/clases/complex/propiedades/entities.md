@@ -2,9 +2,9 @@
 <!-- id: entities -->
 
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
-Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/)
+Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve la lista de [Entity](../../entity/)que forman el [Complex](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/complex/).
+Entidades del complejo, de lectura y escritura.
 
 ```csharp
 public new IList<Entity> Entities { get; }
@@ -12,9 +12,34 @@ public new IList<Entity> Entities { get; }
 
 ## Valor de la propiedad
 
-[IList&lt;Entity&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1?view=net-5.0)
+Una colección, siempre la misma instancia para cada complejo, que trabaja directamente sobre las entidades del complejo.
 
-Lista de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/).
+| Miembro | Descripción |
+| :--- | :--- |
+| `Add(Entity item)` | Añade `item` como última entidad. La entidad pasa a pertenecer al complejo: no la añadas a otro complejo, a un polígono ni a un archivo de dibujo. |
+| `Insert(int index, Entity item)` | Inserta `item` en la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor o igual que `Count`: para añadir al final, usa `Add`. |
+| `this[int index]` | `get`: la entidad de la posición `index`; en la versión 26.0.0 lanza `InvalidCastException` si esa entidad no es una línea (lee la nota de este apartado). `set`: sustituye la entidad por otra, que pasa a pertenecer al complejo. Los dos lanzan `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
+| `Remove(Entity item)` | Quita la entidad si es la misma (la misma instancia de la entidad nativa). Devuelve `false` si no lo es. |
+| `RemoveAt(int index)` | Quita la entidad de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
+| `Clear()` | Quita todas las entidades. |
+| `IndexOf(Entity item)`, `Contains(Entity item)` | Buscan la misma entidad, no una entidad con las mismas coordenadas. |
+| `CopyTo(Entity[] array, int arrayIndex)` | Copia las entidades. Lanza `ArgumentNullException` si `array` es `null` y `ArgumentOutOfRangeException` si `arrayIndex` es negativo. |
+| `Count` | Número de entidades. |
+| `IsReadOnly` | `true` si el complejo es de solo lectura. |
+| `GetEnumerator()` | Enumerador de las entidades, del tipo de cada una (`Line`, `Point`, `Text`, `Polygon` o `Complex`). Lanza `InvalidOperationException` en `MoveNext` si el número de entidades cambia durante el recorrido. |
 
+Los métodos que modifican la colección lanzan `InvalidOperationException` si el complejo es de solo lectura.
 
+> En la versión 26.0.0, el descriptor `get` del indexador convierte la entidad en `Line` y lanza `InvalidCastException` con un punto, un texto, un polígono o un complejo. Para leer las entidades, recórrelas con `foreach` o con `CopyTo`.
 
+Esta propiedad oculta [ReadOnlyComplex.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlycomplex/propiedades/entities.md).
+
+## Ejemplo
+
+```csharp
+foreach (var entidad in complejo.Entities)
+{
+    if (entidad is Point punto)
+        Console.WriteLine(punto.Coordinate);
+}
+```
