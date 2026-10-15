@@ -98,7 +98,7 @@ Amplía la ventana para que contenga el punto o la ventana del argumento. De un 
 - Si `Xmin` no es `null` y el argumento es una ventana no inicializada, lanza `InvalidOperationException`.
 - Las sobrecargas `IWindow2D` e `IWindow3D` lanzan `NullReferenceException` si `window` es `null`.
 
-`Union(double xMin, double yMin, double xMax, double yMax)` añade el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`), con los parámetros en el mismo orden que el constructor. Las sobrecargas estáticas de `Union` con cuatro `double` usan otro orden: `xMin`, `xMax`, `yMin`, `yMax`.
+`Union(double xMin, double yMin, double xMax, double yMax)` añade el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`), con los parámetros en el mismo orden que el constructor. Las sobrecargas estáticas de `Union` con cuatro `double` usan el mismo orden.
 
 ### Intersection
 
@@ -193,10 +193,10 @@ public static Window2D Union(IWindow3D window, Point2D point)
 public static Window2D Union(IWindow3D window, Point3D point)
 public static Window2D Union(IWindow3D window, PointF point)
 public static Window2D Union(IWindow3D window, Point point)
-public static Window2D Union(Window2D window, double xMin, double xMax, double yMin, double yMax)
-public static Window2D Union(Window3D window, double xMin, double xMax, double yMin, double yMax)
-public static Window2D Union(IWindow2D window, double xMin, double xMax, double yMin, double yMax)
-public static Window2D Union(IWindow3D window, double xMin, double xMax, double yMin, double yMax)
+public static Window2D Union(Window2D window, double xMin, double yMin, double xMax, double yMax)
+public static Window2D Union(Window3D window, double xMin, double yMin, double xMax, double yMax)
+public static Window2D Union(IWindow2D window, double xMin, double yMin, double xMax, double yMax)
+public static Window2D Union(IWindow3D window, double xMin, double yMin, double xMax, double yMax)
 ```
 
 Devuelve el rectángulo que contiene `window` y el punto, o `window` y el rectángulo de (`xMin`, `yMin`) a (`xMax`, `yMax`). Si `Xmin` de `window` es `null`, devuelve la ventana de ancho y alto 0 del punto, o el rectángulo de los cuatro límites.
