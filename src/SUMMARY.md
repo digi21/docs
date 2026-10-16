@@ -1236,6 +1236,7 @@
           * [Solicitar sistema vertical para sensores](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/solicitar-sistema-vertical-para-sensores.md)
           * [Trabajar con sistemas 2D (horizontales) si el vertical es desconocido](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/trabajar-con-sistemas-2d-si-el-vertical-es-desconocido.md)
           * [Crear cadenas WKT compatibles con](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/crear-cadenas-wkt-compatibles-con.md)
+          * [Sistema de referencia desconocido](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/sistema-de-referencia-desconocido.md)
           * [Transformaciones memorizadas](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/sistema-de-referencia-de-coordenadas/transformaciones-memorizadas.md)
         * [Tentativos](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/tentativos/README.md)
           * [Aceptar tentativos al pulsar dato](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/tentativos/aceptar-tentativos-al-pulsar-dato.md)
