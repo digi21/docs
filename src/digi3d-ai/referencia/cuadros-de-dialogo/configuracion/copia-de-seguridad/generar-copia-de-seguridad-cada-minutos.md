@@ -4,3 +4,20 @@
 Indica cada cuánto tiempo, en minutos, se genera una copia de seguridad del archivo de dibujo. Para deshabilitar las copias de seguridad automáticas, introduce **0**.
 
 La comprobación se realiza únicamente al almacenar una geometría: cada vez que se almacena una geometría se comprueba si se ha superado el número de minutos indicado y, en caso afirmativo, se genera la copia de seguridad y se reinicia el contador. Si no se almacena ninguna geometría no se genera ninguna copia, de modo que si dejas el programa abierto sin interactuar no se acumularán copias de más.
+
+## Dónde se almacena
+
+| Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
+| :--- | :--- |
+| Carpeta | `DigiNG\Configuration` |
+| Tabla | `Ints` |
+| Valor | `MinutosCopiaSeguridad` |
+| Valor por defecto | 0 |
+
+Estas sentencias SQL asignan el valor 1, exista o no la fila. Ejecútalas en el cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) y reinicia Digi3D.AI:
+
+```sql
+INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
+DELETE FROM Ints WHERE Value = 'MinutosCopiaSeguridad' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
+INSERT INTO Ints (Key, Value, Data) SELECT Id, 'MinutosCopiaSeguridad', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
+```

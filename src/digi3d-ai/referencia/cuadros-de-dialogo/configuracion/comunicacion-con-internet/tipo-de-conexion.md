@@ -10,3 +10,20 @@ Si no se ha configurado, el valor es **Directa**.
 * **Directa**. El equipo se conecta a Internet directamente, sin un PROXY de por medio.
 * **Proxy con configuración del registro**. Utiliza el PROXY con la configuración almacenada en Windows.
 * **Servidor proxy**. Permite configurar manualmente la [dirección](direccion.md) del proxy, el [usuario](usuario.md) y la [contraseña](contrasena.md).
+
+## Dónde se almacena
+
+| Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
+| :--- | :--- |
+| Carpeta | `App\Configuration` |
+| Tabla | `Ints` |
+| Valor | `TipoConexionInternet` |
+| Valor por defecto | 0 |
+
+Estas sentencias SQL asignan el valor 1, exista o no la fila. Ejecútalas en el cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) y reinicia Digi3D.AI:
+
+```sql
+INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
+DELETE FROM Ints WHERE Value = 'TipoConexionInternet' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
+INSERT INTO Ints (Key, Value, Data) SELECT Id, 'TipoConexionInternet', 1 FROM Keys WHERE Path = 'App\Configuration';
+```

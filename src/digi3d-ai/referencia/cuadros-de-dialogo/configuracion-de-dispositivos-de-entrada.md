@@ -90,3 +90,99 @@ Muestra los valores de **X**, **Y**, **Z** y **Pedal** que envía el dispositivo
 
 * El dispositivo seleccionado se guarda para el usuario de _Windows_, no para el equipo.
 * Para configurar los ratones, joysticks y mandos que _Windows_ detecta como dispositivos HID, utiliza el cuadro de diálogo [Configuración de ratones, joysticks, mandos,...](configuracion-de-ratones-joysticks-y-mandos.md).
+
+## Dónde se almacena
+
+El dispositivo seleccionado se guarda en el registro de _Windows_, para el usuario:
+
+| Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration` |
+| :--- | :--- |
+| Valor | `Codificadores` |
+| Tipo | `REG_SZ` (nombre del dispositivo, como aparece en el desplegable) |
+| Valor por defecto | (vacío): ningún dispositivo |
+
+Los parámetros de Stealth 3D Mouse y de TopoMouse USB también se guardan en el registro de _Windows_, para el usuario. Son tres valores `REG_SZ`, `TensorX`, `TensorY` y `TensorZ`, con las filas de la tabla de ejes como números separados por espacios:
+
+| Dispositivo | Clave del registro |
+| :--- | :--- |
+| Stealth 3D Mouse S1Z/S2Z/S3Z | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\Digi3D\IO\Digi3D.IO.S1Z` |
+| TopoMouse USB | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\Digi3D\IO\Digi3D.IO.TopoMouseUsb` |
+
+Los valores por defecto son `1 0 0 0` para `TensorX`, `0 1 0 0` para `TensorY` y `0 0 1 0` para `TensorZ`.
+
+Los parámetros de los demás dispositivos son comunes a todos los usuarios del equipo y se guardan en el [archivo de configuración Digi3DNET.db](../archivos/archivo-de-configuracion-digi3dnet.db.md), en una carpeta por dispositivo. Estas sentencias SQL asignan el puerto serie 3 al dispositivo IBox, exista o no la fila. Ejecútalas en el cuadro de diálogo [Configuración avanzada](configuracion-avanzada.md) y reinicia Digi3D.AI:
+
+```sql
+INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\IO\TarjDigi3D\IBox');
+DELETE FROM Ints WHERE Value = 'PuertoSerieCodificadores' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\IO\TarjDigi3D\IBox');
+INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PuertoSerieCodificadores', 3 FROM Keys WHERE Path = 'Digi3D\IO\TarjDigi3D\IBox';
+```
+
+### Carpeta `Digi3D\IO\TarjDigi3D\<dispositivo>`
+
+`<dispositivo>` es el nombre del dispositivo de entrada configurado (tarjeta serie genérica, ISA, DPW USB…). Las carpetas siguientes, con el nombre de un dispositivo concreto, contienen los mismos valores.
+
+| Valor | Tabla | Por defecto | Qué hace |
+| :--- | :--- | :--- | :--- |
+| `BombardeoCodificadores` | `Ints` | 1 | Milisegundos entre dos lecturas de los codificadores del dispositivo. |
+| `PuertoSerieCodificadores` | `Ints` | 1 | Número del puerto serie del dispositivo. |
+| `TensorX` | `Texts` | depende del dispositivo | Fila X de la matriz que transforma las lecturas de los codificadores en desplazamientos. Cuatro números separados por espacios. |
+| `TensorY` | `Texts` | depende del dispositivo | Fila Y de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+| `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+
+### Carpeta `Digi3D\IO\TarjDigi3D\DatEmComBox`
+
+| Valor | Tabla | Por defecto | Qué hace |
+| :--- | :--- | :--- | :--- |
+| `PuertoSerieCodificadores` | `Ints` | 1 | Número del puerto serie del dispositivo. |
+| `TensorX` | `Texts` | depende del dispositivo | Fila X de la matriz que transforma las lecturas de los codificadores en desplazamientos. Cuatro números separados por espacios. |
+| `TensorY` | `Texts` | depende del dispositivo | Fila Y de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+| `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+
+### Carpeta `Digi3D\IO\TarjDigi3D\DPW`
+
+| Valor | Tabla | Por defecto | Qué hace |
+| :--- | :--- | :--- | :--- |
+| `BombardeoCodificadores` | `Ints` | 1 | Milisegundos entre dos lecturas de los codificadores del dispositivo. |
+| `TensorX` | `Texts` | depende del dispositivo | Fila X de la matriz que transforma las lecturas de los codificadores en desplazamientos. Cuatro números separados por espacios. |
+| `TensorY` | `Texts` | depende del dispositivo | Fila Y de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+| `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+
+### Carpeta `Digi3D\IO\TarjDigi3D\DPWUsb`
+
+| Valor | Tabla | Por defecto | Qué hace |
+| :--- | :--- | :--- | :--- |
+| `BombardeoCodificadores` | `Ints` | 1 | Milisegundos entre dos lecturas de los codificadores del dispositivo. |
+| `TensorX` | `Texts` | depende del dispositivo | Fila X de la matriz que transforma las lecturas de los codificadores en desplazamientos. Cuatro números separados por espacios. |
+| `TensorY` | `Texts` | depende del dispositivo | Fila Y de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+| `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+
+### Carpeta `Digi3D\IO\TarjDigi3D\IBox`
+
+| Valor | Tabla | Por defecto | Qué hace |
+| :--- | :--- | :--- | :--- |
+| `DispositivoEsMouse` | `Ints` | 1 | Si vale 1, el dispositivo IBox funciona como ratón. |
+| `PuertoSerieCodificadores` | `Ints` | 1 | Número del puerto serie del dispositivo. |
+| `TensorX` | `Texts` | depende del dispositivo | Fila X de la matriz que transforma las lecturas de los codificadores en desplazamientos. Cuatro números separados por espacios. |
+| `TensorY` | `Texts` | depende del dispositivo | Fila Y de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+| `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+
+### Carpeta `Digi3D\IO\TarjDigi3D\SEC-232m`
+
+| Valor | Tabla | Por defecto | Qué hace |
+| :--- | :--- | :--- | :--- |
+| `PuertoSerieCodificadores` | `Ints` | valor de `Digi3D\IO\TarjDigi3D\PuertoSerieCodificadores` | Número del puerto serie del dispositivo. |
+| `TensorX` | `Texts` | depende del dispositivo | Fila X de la matriz que transforma las lecturas de los codificadores en desplazamientos. Cuatro números separados por espacios. |
+| `TensorY` | `Texts` | depende del dispositivo | Fila Y de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+| `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+
+### Carpeta `Digi3D\IO\TarjDigi3D\UdpIp`
+
+| Valor | Tabla | Por defecto | Qué hace |
+| :--- | :--- | :--- | :--- |
+| `Puerto` | `Ints` | 8888 | Puerto UDP en el que Digi3D.AI recibe las coordenadas. |
+| `TensorX` | `Texts` | depende del dispositivo | Fila X de la matriz que transforma las lecturas de los codificadores en desplazamientos. Cuatro números separados por espacios. |
+| `TensorY` | `Texts` | depende del dispositivo | Fila Y de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+| `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
+
+La asignación de botones de **Configurar bot.** se guarda como se indica en [Programar botones](programar-botones.md).

@@ -3,7 +3,9 @@
 
 ![Cuadro de diálogo Configuración avanzada](../../../images/configuracion-avanzada.png)
 
-Este cuadro de diálogo ejecuta sentencias SQL sobre el [archivo de configuración Digi3DNET.db](../archivos/archivo-de-configuracion-digi3dnet.db.md), que guarda la configuración común a todos los usuarios del equipo. Sirve para aplicar de una vez un conjunto de cambios de configuración preparado en un guion, como los que publican Digi21 y otros usuarios en el [repositorio de guiones de configuración avanzada](https://github.com/digi21/ConfiguracionesAvanzadasDigi3D).
+Este cuadro de diálogo ejecuta sentencias SQL sobre el [archivo de configuración Digi3DNET.db](../archivos/archivo-de-configuracion-digi3dnet.db.md), que guarda la configuración común a todos los usuarios del equipo. Sirve para aplicar de una vez un conjunto de cambios de configuración preparado en un guion.
+
+La página de cada opción de los cuadros de diálogo [Configuración](configuracion/README.md), [Configurar proyectos](configurar-proyectos.md) y [Configuración de dispositivos de entrada](configuracion-de-dispositivos-de-entrada.md) indica, en la sección **Dónde se almacena**, dónde se guarda la opción y las sentencias SQL que la cambian.
 
 ## Abrir el cuadro de diálogo
 
@@ -14,8 +16,6 @@ Selecciona la opción del menú **Herramientas/Configuración avanzada...**. La 
 1. Escribe las sentencias SQL en el campo de texto, o pulsa **Cargar...** y selecciona un archivo `.sql`. El cuadro de diálogo **Abrir** se abre en la última carpeta desde la que cargaste un archivo. El archivo se lee en UTF-8 y su contenido sustituye al que haya en el campo.
 2. Pulsa **Enviar** para ejecutar las sentencias.
 3. Pulsa **Salir** para cerrar el cuadro de diálogo.
-
-El enlace **Repositorio de guiones de configuración avanzada** abre ese repositorio en el navegador.
 
 Al pulsar **Enviar**, Digi3D.AI procesa el campo de texto línea a línea:
 
@@ -44,7 +44,7 @@ UPDATE Ints SET Data = 1 WHERE Value = 'FullMDI3D' AND Key = (SELECT Id FROM Key
 
 Un valor que Digi3D.AI no ha leído nunca no tiene fila en su tabla. En ese caso `UPDATE` no modifica nada y hay que añadir la fila con `INSERT`.
 
-La página [Valores del archivo de configuración](../archivos/valores-del-archivo-de-configuracion-digi3dnet.db.md) enumera todos los valores que Digi3D.AI guarda en la base de datos, con su carpeta, su tabla, su valor por defecto y el cuadro de diálogo que los modifica, o si solo se pueden cambiar por SQL.
+La sección **Dónde se almacena** de la página de cada opción indica la carpeta, la tabla y el nombre de su valor, su valor por defecto y las tres sentencias que lo asignan. Si la opción se guarda en el registro de _Windows_ y no en esta base de datos, la sección lo indica. La página [Valores del archivo de configuración](../archivos/valores-del-archivo-de-configuracion-digi3dnet.db.md) enumera los valores que no tienen página de opción, como los que solo se pueden cambiar por SQL.
 
 ## Cómo escribir un guion
 
@@ -63,35 +63,25 @@ INSERT INTO Ints (Key, Value, Data) SELECT Id, 'NombreDelValor', 1 FROM Keys WHE
 * Guarda los archivos `.sql` en UTF-8 sin BOM.
 * Después de ejecutar un guion, cierra Digi3D.AI y vuelve a abrirlo. Muchos valores solo se leen al arrancar el programa. Además, Digi3D.AI lee las opciones de los importadores al arrancar, y al pulsar **Aceptar** en el cuadro de diálogo **Configuración** vuelve a guardarlas con el valor leído: sin reiniciar, ese cuadro sustituiría los valores que acaba de escribir el guion.
 
-## Guiones del repositorio
-
-El [repositorio de guiones de configuración avanzada](https://github.com/digi21/ConfiguracionesAvanzadasDigi3D) contiene cinco guiones que eligen el formato de archivo de dibujo por defecto.
-
-Digi3D.AI ordena los formatos de archivo de dibujo de menor a mayor según el valor entero `Order` de la carpeta `DigiNG\IO\<formato>`. El primer formato de la lista es el que proponen los cuadros de diálogo de guardar. Cada guion asigna 1 a todos los formatos y 0 al formato elegido:
-
-| Guion | Formato por defecto |
-| :--- | :--- |
-| `FormatoArchivoPorDefectoArchivosDgn.sql` | DGN de MicroStation V8 |
-| `FormatoArchivoPorDefectoArchivosDwg.sql` | DWG |
-| `FormatoArchivoPorDefectoBinarioClasico.sql` | Binario de precisión simple (_.bin_) |
-| `FormatoArchivoPorDefectoBinarioDoblePrecision.sql` | Binario de doble precisión (_.bind_) |
-| `FormatoArchivoPorDefectoShapefile.sql` | Shapefile |
-
-Contenido de `FormatoArchivoPorDefectoArchivosDgn.sql`:
-
-```sql
--- Este guión configura Digi3D.NET para que el formato de archivo por defecto sea archivos DGN
-UPDATE Ints SET Data=1 WHERE Value='Order' AND Key IN (SELECT id FROM Keys WHERE Path LIKE 'DigiNG\IO\%');
-UPDATE Ints SET Data=0 WHERE Value='Order' AND Key=(SELECT id FROM Keys WHERE Path LIKE 'DigiNG\IO\Digi21.Io.Dgn');
-```
-
-Los otros cuatro guiones solo cambian el nombre de la carpeta de la última línea: `Digi21.Io.Dwg`, `Digi21.Io.Bin`, `Digi21.Io.BinDouble` y `Digi21.Io.SHP`.
-
-Los formatos que tienen el mismo valor de `Order` no tienen un orden fijo entre ellos. Para fijar también el segundo y el tercer formato, usa el guion [Fijar el orden de varios formatos](#fijar-el-orden-de-varios-formatos).
-
 ## Más ejemplos
 
-Los guiones siguientes no están en el repositorio. Copia cada uno en el campo de texto y pulsa **Enviar**.
+Copia cada guion en el campo de texto y pulsa **Enviar**.
+
+### Elegir el formato de archivo de dibujo por defecto
+
+Digi3D.AI ordena los formatos de archivo de dibujo de menor a mayor según el valor entero `Order` de la carpeta `DigiNG\IO\<formato>`. El primer formato de la lista es el que proponen los cuadros de diálogo de guardar. Este guion asigna 1 a todos los formatos y 0 al formato DGN:
+
+```sql
+-- Este guion configura Digi3D.AI para que el formato de archivo por defecto sea archivos DGN
+UPDATE Ints SET Data=1 WHERE Value='Order' AND Key IN (SELECT Id FROM Keys WHERE Path LIKE 'DigiNG\IO\%');
+UPDATE Ints SET Data=0 WHERE Value='Order' AND Key IN (SELECT Id FROM Keys WHERE Path LIKE 'DigiNG\IO\Digi21.Io.Dgn');
+```
+
+Para elegir otro formato, cambia el nombre de la carpeta de la última línea: `Digi21.Io.Dwg` (DWG), `Digi21.Io.Bin` (binario de precisión simple, _.bin_), `Digi21.Io.BinDouble` (binario de doble precisión, _.bind_) o `Digi21.Io.Shp` (Shapefile).
+
+La última línea usa `Key IN (...)` y no `Key = (...)`: `LIKE` encuentra las dos carpetas del formato DGN, `Digi21.Io.DGN` y `Digi21.Io.Dgn`, y con `=` SQLite solo usaría la primera, que puede no ser la que tiene el valor `Order`.
+
+Los formatos que tienen el mismo valor de `Order` no tienen un orden fijo entre ellos. Para fijar también el segundo y el tercer formato, usa el guion [Fijar el orden de varios formatos](#fijar-el-orden-de-varios-formatos).
 
 ### Fijar el orden de varios formatos
 
