@@ -7,7 +7,8 @@ Permite configurar el idioma en el que se muestra la interfaz de usuario de Digi
 
 Uno de los idiomas instalados (por ejemplo, **Español** o **English**).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -23,3 +24,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Texts WHERE Value = 'PreferredLanguage' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'PreferredLanguage', 'es-ES' FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

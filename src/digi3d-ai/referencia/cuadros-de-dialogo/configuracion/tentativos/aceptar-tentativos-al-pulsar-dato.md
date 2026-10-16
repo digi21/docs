@@ -8,7 +8,8 @@ Indica en qué momento se acepta un tentativo cuando no hay ninguna orden en eje
 * **Sí**. El tentativo se acepta al pulsar el botón de Dato. Así puedes confirmar el tentativo y seguir registrando la línea sin levantar el pedal.
 * **No** \(valor por defecto\). El tentativo se acepta al soltar el botón de Dato.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Extensiones\DigiNG.OrdenesStandard\Linea` |
 | :--- | :--- |
@@ -17,3 +18,5 @@ Indica en qué momento se acepta un tentativo cuando no hay ninguna orden en eje
 | Valor por defecto | 0 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

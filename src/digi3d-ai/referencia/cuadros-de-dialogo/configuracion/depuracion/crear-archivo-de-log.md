@@ -12,7 +12,8 @@ La ubicación del archivo se indica en la opción [Ruta al archivo de LOG](ruta-
 * **Sí**. Digi3D.AI crea el archivo de LOG y almacena en él la información de las operaciones que va realizando.
 * **No**. Digi3D.AI no genera ningún archivo de LOG.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -28,3 +29,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'GenerarArchivoLog' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'GenerarArchivoLog', 1 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

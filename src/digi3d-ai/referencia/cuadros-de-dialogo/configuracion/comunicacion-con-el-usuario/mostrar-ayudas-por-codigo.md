@@ -8,7 +8,8 @@ Indica si Digi3D.AI mostrará en el [panel de ayuda dinámica](../../../paneles/
 * **Sí**. Se muestra la ayuda HTML del código activo en el panel de ayuda dinámica.
 * **No**. No se muestra la ayuda HTML del código activo.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Ints WHERE Value = 'MostrarAyudasCodigos' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'MostrarAyudasCodigos', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

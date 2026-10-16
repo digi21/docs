@@ -5,7 +5,8 @@ Indica el número mínimo de puntos medidos en la imagen izquierda para que se c
 
 El valor por defecto es 1.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -21,3 +22,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.Rpc\Extensi
 DELETE FROM Ints WHERE Value = 'NumeroPuntosMedidosParaCalcularRpcba' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.Rpc\Extensions\RPCBA');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'NumeroPuntosMedidosParaCalcularRpcba', 0 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.Rpc\Extensions\RPCBA';
 ```
+
+</details>

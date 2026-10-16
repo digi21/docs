@@ -3,7 +3,8 @@
 
 Ruta del archivo PNG con la imagen que se muestra cuando se selecciona el índice grande.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -19,3 +20,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Texts WHERE Value = 'RutaIndiceGrande' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'RutaIndiceGrande', 'C:\Indices\grande.png' FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

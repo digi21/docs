@@ -8,7 +8,8 @@ Permite configurar si Digi3D.AI se conectará con el servidor que haya bloqueado
 * **Sí**. Digi3D.AI se conecta con el servidor que ha bloqueado el archivo de dibujo y recibe sus modificaciones en tiempo real.
 * **No**. Digi3D.AI no se conecta con otros servidores de archivos de referencia.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'ConectarConServidoresArchivosReferencia' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ConectarConServidoresArchivosReferencia', 0 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

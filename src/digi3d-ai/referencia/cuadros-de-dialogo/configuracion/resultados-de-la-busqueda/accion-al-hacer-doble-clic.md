@@ -9,7 +9,8 @@ Indica cómo se comportará la ventana de dibujo al hacer doble clic sobre una e
 * **Desplazar la cámara al centro de la entidad**. La ventana desplaza la cámara hasta el centro de la entidad, sin cambiar el nivel de zoom.
 * **Mantenerse en el sitio**. La ventana no cambia la vista.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\Digi3D\Configuration\FindResults` |
 | :--- | :--- |
@@ -18,3 +19,5 @@ Indica cómo se comportará la ventana de dibujo al hacer doble clic sobre una e
 | Valor por defecto | 0 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

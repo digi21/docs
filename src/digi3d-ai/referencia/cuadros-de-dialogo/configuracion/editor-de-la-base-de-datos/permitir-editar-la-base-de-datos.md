@@ -8,7 +8,8 @@ Indica si se le permitirá al usuario editar la base de datos con el editor de l
 * **Sí**. El usuario puede editar la base de datos desde el editor.
 * **No**. El editor de la base de datos es de solo lectura.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Configuration\DatabaseEditor')
 DELETE FROM Ints WHERE Value = 'PermitirEditar' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Configuration\DatabaseEditor');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PermitirEditar', 1 FROM Keys WHERE Path = 'Digi3D\Configuration\DatabaseEditor';
 ```
+
+</details>

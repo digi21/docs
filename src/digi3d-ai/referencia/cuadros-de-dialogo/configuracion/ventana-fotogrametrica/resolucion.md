@@ -7,7 +7,8 @@ Indica la resolución que se seleccionará para el [monitor indicado](monitor-a-
 
 Una de las resoluciones admitidas por el monitor seleccionado.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -23,3 +24,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Texts WHERE Value = 'Resolucion' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'Resolucion', '1920 x 1080 x 32' FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

@@ -3,7 +3,8 @@
 
 Indica el tamaño que tendrán las teselas para aquellas imágenes que no están formadas por teselas, como las JPG.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -19,3 +20,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'TamanoTiles' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'TamanoTiles', 256 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

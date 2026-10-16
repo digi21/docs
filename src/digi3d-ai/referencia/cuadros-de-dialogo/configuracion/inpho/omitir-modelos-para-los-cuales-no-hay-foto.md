@@ -8,7 +8,8 @@ Si se activa, al cargar un proyecto fotogramétrico no se mostrarán los modelos
 * **Sí**. Se omiten los modelos sin foto localizada.
 * **No**. Se muestran todos los modelos.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.ConicSensor
 DELETE FROM Ints WHERE Value = 'OmitirModelosParaLosCualesNoSeLocalizaFoto' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Inpho');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'OmitirModelosParaLosCualesNoSeLocalizaFoto', 0 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Inpho';
 ```
+
+</details>

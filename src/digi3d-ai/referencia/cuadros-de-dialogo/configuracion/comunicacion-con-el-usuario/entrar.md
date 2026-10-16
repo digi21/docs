@@ -5,7 +5,8 @@ Permite indicar la ruta del archivo _.wav_ con el sonido que se reproduce cuando
 
 Solo se utiliza si en [Sonidos](sonidos.md) has seleccionado **Tarjeta de sonido**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration` |
 | :--- | :--- |
@@ -14,3 +15,5 @@ Solo se utiliza si en [Sonidos](sonidos.md) has seleccionado **Tarjeta de sonido
 | Valor por defecto | (vacío) |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

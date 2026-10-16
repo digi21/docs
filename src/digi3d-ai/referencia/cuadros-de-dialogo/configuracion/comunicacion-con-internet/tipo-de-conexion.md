@@ -11,7 +11,8 @@ Si no se ha configurado, el valor es **Directa**.
 * **Proxy con configuración del registro**. Utiliza el PROXY con la configuración almacenada en Windows.
 * **Servidor proxy**. Permite configurar manualmente la [dirección](direccion.md) del proxy, el [usuario](usuario.md) y la [contraseña](contrasena.md).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -27,3 +28,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'TipoConexionInternet' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'TipoConexionInternet', 1 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

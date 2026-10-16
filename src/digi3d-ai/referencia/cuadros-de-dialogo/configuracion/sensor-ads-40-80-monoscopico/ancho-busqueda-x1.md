@@ -5,7 +5,8 @@ Indica el ancho de la ventana de búsqueda al correlar un punto en el nivel pira
 
 El valor por defecto es 20.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\Digi3D\Extensiones\Digi3D.ADS40Sensor` |
 | :--- | :--- |
@@ -14,3 +15,5 @@ El valor por defecto es 20.
 | Valor por defecto | 20 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

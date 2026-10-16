@@ -10,7 +10,8 @@ Esta opción no aparece en las versiones BETA de Digi3D.AI.
 * **Sí**. Digi3D.AI comprueba si existe una versión nueva cada vez que arranca.
 * **No**. Digi3D.AI no comprueba si existe una versión nueva.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -26,3 +27,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'ComprobarVersiónNueva' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ComprobarVersiónNueva', 0 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

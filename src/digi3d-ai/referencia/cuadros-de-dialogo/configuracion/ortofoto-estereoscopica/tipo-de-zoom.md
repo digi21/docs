@@ -8,7 +8,8 @@ Indica cómo cambian el zoom las órdenes de zoom acercar y alejar en la ventana
 * **Modificando la focal de la cámara**. Cada zoom cambia en 1 grado el campo de visión de la cámara.
 * **Cambiando la posición de la cámara** \(valor por defecto\). Cada zoom acerca o aleja la cámara según el [Factor de zoom](factor-de-zoom.md).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.Stereoscopi
 DELETE FROM Ints WHERE Value = 'ZoomsCambioFocal' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ZoomsCambioFocal', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto';
 ```
+
+</details>

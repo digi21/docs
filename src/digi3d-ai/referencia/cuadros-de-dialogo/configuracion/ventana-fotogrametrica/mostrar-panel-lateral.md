@@ -8,7 +8,8 @@ Si se activa, se muestra un panel lateral en la ventana fotogramétrica que perm
 * **Sí**. Se muestra el panel lateral de radiometría.
 * **No**. No se muestra el panel lateral.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'MostrarPanelLateral' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'MostrarPanelLateral', 0 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

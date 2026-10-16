@@ -8,7 +8,8 @@ Si está activo, el importador/exportador de PostGIS no almacena ni elimina geom
 * **Sí**. Las geometrías nuevas, modificadas o eliminadas no se guardan en PostGIS y no se muestra ningún error.
 * **No** \(valor por defecto\). Las geometrías se almacenan y se eliminan en PostGIS.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\IO\Digi21.Io.PostGIS');
 DELETE FROM Ints WHERE Value = 'SoloLecturaSilencioso' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\IO\Digi21.Io.PostGIS');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'SoloLecturaSilencioso', 1 FROM Keys WHERE Path = 'DigiNG\IO\Digi21.Io.PostGIS';
 ```
+
+</details>

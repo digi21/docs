@@ -8,7 +8,8 @@ Si el sistema de referencia de coordenadas proporcionado por el sensor no incluy
 * **Sí**. Se pregunta por el sistema de referencia vertical cuando el sensor no lo proporciona.
 * **No**. Se asume que el sistema vertical es desconocido.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'SolicitarSistemaVerticalSiElSensorEs2D' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'SolicitarSistemaVerticalSiElSensorEs2D', 1 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

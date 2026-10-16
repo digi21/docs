@@ -91,7 +91,8 @@ Muestra los valores de **X**, **Y**, **Z** y **Pedal** que envía el dispositivo
 * El dispositivo seleccionado se guarda para el usuario de _Windows_, no para el equipo.
 * Para configurar los ratones, joysticks y mandos que _Windows_ detecta como dispositivos HID, utiliza el cuadro de diálogo [Configuración de ratones, joysticks, mandos,...](configuracion-de-ratones-joysticks-y-mandos.md).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 El dispositivo seleccionado se guarda en el registro de _Windows_, para el usuario:
 
@@ -186,3 +187,5 @@ INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PuertoSerieCodificadores', 3 FRO
 | `TensorZ` | `Texts` | depende del dispositivo | Fila Z de la matriz que transforma las lecturas de los codificadores en desplazamientos. |
 
 La asignación de botones de **Configurar bot.** se guarda como se indica en [Programar botones](programar-botones.md).
+
+</details>

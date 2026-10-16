@@ -9,7 +9,8 @@ Indica qué texto se utilizará como nombre de los campos de la base de datos.
 * **Título**. Muestra el título descriptivo del campo.
 * **Nombre y título**. Muestra el nombre interno y el título descriptivo.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -25,3 +26,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Configuration\DatabaseEditor')
 DELETE FROM Ints WHERE Value = 'TipoTitulosCampos' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Configuration\DatabaseEditor');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'TipoTitulosCampos', 1 FROM Keys WHERE Path = 'Digi3D\Configuration\DatabaseEditor';
 ```
+
+</details>

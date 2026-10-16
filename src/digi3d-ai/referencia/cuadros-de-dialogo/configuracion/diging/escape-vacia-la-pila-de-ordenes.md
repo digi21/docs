@@ -8,7 +8,8 @@ Si se activa, al pulsar la tecla Esc se vacía por completo la pila de órdenes.
 * **Sí**. Esc vacía toda la pila de órdenes.
 * **No**. Esc no vacía la pila de órdenes.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Ints WHERE Value = 'EscapeVaciaPilaOrdenes' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'EscapeVaciaPilaOrdenes', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

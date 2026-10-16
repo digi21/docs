@@ -8,7 +8,8 @@ Si se habilita, al pulsar el botón de RESET se anulan todas las órdenes de la 
 * **Sí**. RESET vacía toda la pila de órdenes.
 * **No**. RESET anula solo la orden activa.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Ints WHERE Value = 'ResetVaciaPilaOrdenes' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ResetVaciaPilaOrdenes', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

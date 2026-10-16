@@ -8,7 +8,8 @@ Indica si se cambia la resolución del monitor al cargar una vista estereoscópi
 * **Sí**. Se cambia la resolución del monitor al abrir la vista estereoscópica.
 * **No**. No se cambia la resolución del monitor.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'CambiarResolucion' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'CambiarResolucion', 1 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

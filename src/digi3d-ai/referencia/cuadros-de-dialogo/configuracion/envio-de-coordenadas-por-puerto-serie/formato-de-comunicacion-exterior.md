@@ -10,7 +10,8 @@ Indica el formato en el que se enviarán las coordenadas por el puerto serie.
 * **pedal-x-y-z (ASCII), entero ×100**. Coordenadas en formato entero multiplicadas por 100.
 * **pedal-x-y-z (ASCII), entero ×1000**. Coordenadas en formato entero multiplicadas por 1000.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -26,3 +27,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\ComunicacionExterior');
 DELETE FROM Ints WHERE Value = 'FormatoComunicacionExterior' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\ComunicacionExterior');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'FormatoComunicacionExterior', 1 FROM Keys WHERE Path = 'Digi3D\ComunicacionExterior';
 ```
+
+</details>

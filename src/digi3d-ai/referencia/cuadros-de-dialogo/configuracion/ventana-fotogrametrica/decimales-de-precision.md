@@ -3,7 +3,8 @@
 
 Indica el número de decimales que se utilizan para mostrar las coordenadas y los residuos en los cuadros de diálogo y ventanas.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -19,3 +20,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'DecimalesPrecision' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'DecimalesPrecision', 3 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

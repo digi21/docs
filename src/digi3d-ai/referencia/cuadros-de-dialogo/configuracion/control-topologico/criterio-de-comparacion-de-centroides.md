@@ -8,7 +8,8 @@ Indica el criterio con el que la orden [CONTROL\_TOPOLOGICO\_CASES](/digi3d-ai/r
 * **El texto del centroide** \(valor por defecto\). Se comparan los textos de los centroides.
 * **El código \(y atributos\) del centroide**. Se comparan los códigos y los atributos de los centroides.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Extensiones\DigiNG.OrdenesTopo
 DELETE FROM Ints WHERE Value = 'ControlTopologicoTextoCentroide' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Extensiones\DigiNG.OrdenesTopologia\ControlTopologico');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ControlTopologicoTextoCentroide', 0 FROM Keys WHERE Path = 'DigiNG\Extensiones\DigiNG.OrdenesTopologia\ControlTopologico';
 ```
+
+</details>

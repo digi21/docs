@@ -5,7 +5,8 @@ Indica la precisión altimétrica de los puntos de apoyo, en metros.
 
 El valor por defecto es 0,5.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -21,3 +22,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.Rpc\Extensi
 DELETE FROM Doubles WHERE Value = 'PrecisionAltimetricaApoyo' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.Rpc\Extensions\RPCBA');
 INSERT INTO Doubles (Key, Value, Data) SELECT Id, 'PrecisionAltimetricaApoyo', 0.5 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.Rpc\Extensions\RPCBA';
 ```
+
+</details>

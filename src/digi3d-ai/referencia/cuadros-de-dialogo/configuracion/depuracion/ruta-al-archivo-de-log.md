@@ -5,7 +5,8 @@ Permite indicar la ubicación y el nombre del archivo de LOG que Digi3D.AI crear
 
 Se espera la ruta completa de un archivo de texto \(con extensión _.txt_\). Si la opción **Crear archivo de LOG** está configurada como **No**, este valor no se utiliza.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -21,3 +22,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Texts WHERE Value = 'RutaArchivoLog' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'RutaArchivoLog', 'C:\Registros\Digi3D.log' FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

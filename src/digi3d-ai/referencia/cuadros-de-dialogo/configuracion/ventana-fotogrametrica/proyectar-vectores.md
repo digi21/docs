@@ -8,7 +8,8 @@ Indica si los vectores se proyectan en la cámara estereoscópica de forma sínc
 * **Síncrono**. Los vectores se proyectan de forma síncrona.
 * **Asíncrono**. Los vectores se proyectan de forma asíncrona.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'ProyectarVectoresSíncrono' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ProyectarVectoresSíncrono', 1 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

@@ -3,7 +3,8 @@
 
 Indica el tamaño, en píxeles (ancho y alto), de las instantáneas que se generan.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 Ancho de la instantánea:
 
@@ -22,3 +23,5 @@ Alto de la instantánea:
 | Valor por defecto | 500 |
 
 Son valores de cada usuario de _Windows_: no están en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no los modifican.
+
+</details>

@@ -8,7 +8,8 @@ Indica qué órdenes guardan la vista que restaura [ZOOM\_ANTERIOR](/digi3d-ai/r
 * **Sí**. La guardan las órdenes que desplazan la vista y también las que solo cambian el factor de zoom: [ZOOM+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-mas.md), [ZOOM-](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-menos.md), [ZOOMIN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomin.md), [ZOOMOUT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomout.md) y la rueda del ratón. ZOOM\_ANTERIOR deshace entonces el último paso de zoom.
 * **No** \(valor por defecto\). Solo la guardan las órdenes que desplazan la vista, como [ZOOMV](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomv.md) o [ZOOMP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomp.md).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Configuration` |
 | :--- | :--- |
@@ -17,3 +18,5 @@ Indica qué órdenes guardan la vista que restaura [ZOOM\_ANTERIOR](/digi3d-ai/r
 | Valor por defecto | 0 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

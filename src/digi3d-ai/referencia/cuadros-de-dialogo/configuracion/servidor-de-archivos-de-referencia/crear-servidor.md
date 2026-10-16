@@ -10,7 +10,8 @@ El servidor se publica en el [puerto](puerto.md) indicado.
 * **Sí**. Digi3D.AI crea el servidor y avisa al resto de equipos cuando se actualiza un archivo de dibujo.
 * **No**. Digi3D.AI no crea ningún servidor.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -26,3 +27,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'ServidorArchivosReferencia' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ServidorArchivosReferencia', 0 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

@@ -8,7 +8,8 @@ Si se activa, la memoria se solicita a medida que se va cargando la imagen. Esto
 * **Sí**. La memoria se solicita bajo demanda.
 * **No**. La memoria se reserva por adelantado.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'ConsumoMemoriabajoDemanda' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ConsumoMemoriabajoDemanda', 0 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>
