@@ -2,4 +2,4 @@
 
 <!-- Generado desde la base de datos de digi21.net. No editar a mano. -->
 
-* [2025.2.55.386](2025-2-55-386.md) — 18/09/2026 · 31 novedades, 17 correcciones
+* [2027.0.0.409](2027-0-0-409.md) — 16/10/2026 · 157 novedades, 7 correcciones
