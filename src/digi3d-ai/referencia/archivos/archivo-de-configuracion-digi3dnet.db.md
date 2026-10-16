@@ -13,7 +13,9 @@ El problema de almacenar la configuración para todos los usuarios en la entrada
 
 Este archivo de puede copiar entre equipos para evitar configurar lo mismo en varias máquinas.
 
-El instalador de Digi3D.AI no crea este archivo, sino que sigue almacenando los parámetros para el equipo en el registro, en **LOCAL\_MACHINE** \(puesto que al instalar el programa tenemos la garantía de ser administrador del equipo\). La primera vez que arranquemos Digi3D.AI, éste comprobará que el archivo no existe y lo creará de nuevo a partir de la información almacenada en **LOCAL\_MACHINE**.
+El instalador de Digi3D.AI no crea este archivo, sino que sigue almacenando los parámetros para el equipo en el registro, en **LOCAL\_MACHINE** \(puesto que al instalar el programa tenemos la garantía de ser administrador del equipo\). La primera vez que arranca, Digi3D.AI crea el archivo con las tablas vacías. Después, cada vez que lee un valor que no está en el archivo, lo copia de **LOCAL\_MACHINE** o, si allí tampoco existe, guarda su valor por defecto. Los valores reales son la excepción: solo se guardan si existen en **LOCAL\_MACHINE**; si no, Digi3D.AI usa el valor por defecto sin guardarlo. Por eso el archivo solo contiene los valores que Digi3D.AI ha leído alguna vez.
 
-Este archivo se puede editar con programas con _DB Browser For SQLite_.
+Este archivo se puede editar con programas con _DB Browser For SQLite_ o con el cuadro de diálogo [Configuración avanzada](../cuadros-de-dialogo/configuracion-avanzada.md).
+
+La página [Valores del archivo de configuración](valores-del-archivo-de-configuracion-digi3dnet.db.md) enumera los valores que guarda el archivo, con su carpeta, su tabla, su valor por defecto y el cuadro de diálogo que los modifica.
 

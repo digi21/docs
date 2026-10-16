@@ -1342,6 +1342,7 @@
       * [Archivo de configuración Digi3DNET.db](digi3d-ai/referencia/archivos/archivo-de-configuracion-digi3dnet.db.md)
       * [Archivo de configuración de teclas](digi3d-ai/referencia/archivos/archivo-de-configuracion-de-teclas/README.md)
         * [Formato](digi3d-ai/referencia/archivos/archivo-de-configuracion-de-teclas/formato.md)
+        * [Valores del archivo de configuración](digi3d-ai/referencia/archivos/valores-del-archivo-de-configuracion-digi3dnet.db.md)
     * [Línea de comandos](digi3d-ai/referencia/linea-de-comandos/README.md)
       * [Dibujo](digi3d-ai/referencia/linea-de-comandos/dibujo/README.md)
         * [bind](digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md)
