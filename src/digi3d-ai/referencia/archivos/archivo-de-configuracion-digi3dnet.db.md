@@ -17,5 +17,5 @@ El instalador de Digi3D.AI no crea este archivo, sino que sigue almacenando los 
 
 Este archivo se puede editar con programas con _DB Browser For SQLite_ o con el cuadro de diálogo [Configuración avanzada](../cuadros-de-dialogo/configuracion-avanzada.md).
 
-La página [Valores del archivo de configuración](valores-del-archivo-de-configuracion-digi3dnet.db.md) enumera los valores que guarda el archivo, con su carpeta, su tabla, su valor por defecto y el cuadro de diálogo que los modifica.
+La página de cada opción de los cuadros de diálogo [Configuración](../cuadros-de-dialogo/configuracion/README.md), [Configurar proyectos](../cuadros-de-dialogo/configurar-proyectos.md) y [Configuración de dispositivos de entrada](../cuadros-de-dialogo/configuracion-de-dispositivos-de-entrada.md) indica, en la sección **Dónde se almacena**, la carpeta, la tabla y el nombre del valor que guarda la opción, y las sentencias SQL que lo cambian. La página [Valores del archivo de configuración](valores-del-archivo-de-configuracion-digi3dnet.db.md) enumera los valores que no tienen página de opción.
 

@@ -31,3 +31,20 @@ Número de fotos que quedan entre la foto izquierda y la foto derecha de cada mo
 Carga el proyecto con los modelos formados según la opción elegida. Si se pulsa la tecla **Esc**, el cuadro de diálogo se cierra y el proyecto se carga sin saltar fotos.
 
 > **Ver también:** [Omitir modelos para los cuales no hay foto](omitir-modelos-para-los-cuales-no-hay-foto.md), que se aplica después de formar los modelos.
+
+## Dónde se almacena
+
+| Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
+| :--- | :--- |
+| Carpeta | `Digi3D\Extensiones\Digi3D.ConicSensor\Inpho` |
+| Tabla | `Ints` |
+| Valor | `MostrarDialogoSaltoFotos` |
+| Valor por defecto | 0 |
+
+Estas sentencias SQL asignan el valor 1, exista o no la fila. Ejecútalas en el cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) y reinicia Digi3D.AI:
+
+```sql
+INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.ConicSensor\Inpho');
+DELETE FROM Ints WHERE Value = 'MostrarDialogoSaltoFotos' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Inpho');
+INSERT INTO Ints (Key, Value, Data) SELECT Id, 'MostrarDialogoSaltoFotos', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Inpho';
+```

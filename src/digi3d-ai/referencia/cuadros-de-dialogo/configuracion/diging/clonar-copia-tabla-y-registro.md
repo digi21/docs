@@ -7,3 +7,13 @@ Si se activa, al clonar una geometría con enlace a la base de datos se copia el
 
 * **Sí**. La geometría clonada conserva el enlace a Tabla y Registro de la original.
 * **No**. La geometría clonada no copia el enlace a Tabla y Registro.
+
+## Dónde se almacena
+
+| Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Configuration` |
+| :--- | :--- |
+| Valor | `ClonarCopiaTablaRegistro` |
+| Tipo | `REG_DWORD` |
+| Valor por defecto | 1 |
+
+Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
