@@ -8,7 +8,8 @@ Indica si se añade una tarea al [panel de tareas](../../../paneles/tareas.md) p
 * **Sí** \(valor por defecto\). Se añade una tarea por cada línea con puntos dobles.
 * **No**. Las líneas con puntos dobles no generan tareas.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Extensiones\DigiNG.OrdenesTopo
 DELETE FROM Ints WHERE Value = 'LineasConPuntosDobles' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Extensiones\DigiNG.OrdenesTopologia\TopologiaCodigosVisibles');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'LineasConPuntosDobles', 0 FROM Keys WHERE Path = 'DigiNG\Extensiones\DigiNG.OrdenesTopologia\TopologiaCodigosVisibles';
 ```
+
+</details>

@@ -8,7 +8,8 @@ Si se habilita, la pestaña de archivo de dibujo del cuadro de diálogo de nuevo
 * **Sí**. La pestaña de archivo de dibujo muestra solo la selección de proyecto.
 * **No**. La pestaña de archivo de dibujo muestra las opciones habituales.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Ints WHERE Value = 'UtilizarProyectosArchivosDibujo' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'UtilizarProyectosArchivosDibujo', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

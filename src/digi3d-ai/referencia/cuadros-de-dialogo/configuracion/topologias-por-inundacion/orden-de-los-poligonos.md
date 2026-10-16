@@ -8,7 +8,8 @@ Indica el criterio con el que la orden [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISL
 * **Ordenar de menor a mayor área** \(valor por defecto\).
 * **Ordenar de mayor a menor área**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Extensiones\DigiNG.OrdenesTopologia\GenerarTopologiaInundacion` |
 | :--- | :--- |
@@ -17,3 +18,5 @@ Indica el criterio con el que la orden [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISL
 | Valor por defecto | 1 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

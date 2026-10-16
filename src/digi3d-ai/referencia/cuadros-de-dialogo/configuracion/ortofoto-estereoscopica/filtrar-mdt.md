@@ -8,7 +8,8 @@ Indica si se filtran los puntos del modelo digital del terreno de cada tesela. E
 * **Sí**. Se filtran los puntos del MDT.
 * **No** \(valor por defecto\). No se filtran los puntos del MDT.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.Stereoscopi
 DELETE FROM Ints WHERE Value = 'FiltrarMdt' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'FiltrarMdt', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto';
 ```
+
+</details>

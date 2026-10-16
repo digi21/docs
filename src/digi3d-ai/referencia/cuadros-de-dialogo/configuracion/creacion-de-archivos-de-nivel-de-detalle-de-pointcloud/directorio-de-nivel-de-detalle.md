@@ -3,7 +3,8 @@
 
 Indica la ruta donde se almacenarán los archivos de nivel de detalle.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -19,3 +20,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.PointCloud'
 DELETE FROM Texts WHERE Value = 'DirectorioLod' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'DirectorioLod', 'D:\NivelesDeDetalle' FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud';
 ```
+
+</details>

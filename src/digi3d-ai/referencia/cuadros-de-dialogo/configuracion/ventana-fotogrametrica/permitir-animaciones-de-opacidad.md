@@ -8,7 +8,8 @@ Si se activa, las teselas recién cargadas se muestran con una animación.
 * **Sí**. Las teselas recién cargadas aparecen con una animación.
 * **No**. Las teselas aparecen sin animación.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'PermitirAnimaciónOpacidad' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PermitirAnimaciónOpacidad', 1 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

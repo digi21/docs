@@ -9,7 +9,8 @@ Solo se utiliza si la opción [Cambiar resolución](cambiar-resolucion.md) está
 
 Una de las pantallas detectadas en el equipo.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -25,3 +26,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'MonitorEstereo' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'MonitorEstereo', 1 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

@@ -10,7 +10,8 @@ Esta opción no aparece en las versiones BETA de Digi3D.AI.
 * **Sí**. Al comprobar si existe una versión nueva, Digi3D.AI incluye las versiones BETA.
 * **No**. Digi3D.AI solo tiene en cuenta las versiones estables.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -26,3 +27,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'ComprobarVersiónBETA' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ComprobarVersiónBETA', 1 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

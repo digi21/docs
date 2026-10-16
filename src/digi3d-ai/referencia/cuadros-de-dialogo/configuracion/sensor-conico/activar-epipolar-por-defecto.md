@@ -8,7 +8,8 @@ Si está activo, Digi3D.AI activará la rectificación epipolar automáticamente
 * **Sí**.
 * **No**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\Digi3D\Extensiones\Digi3D.ConicSensor\EpipolarRectification` |
 | :--- | :--- |
@@ -17,3 +18,5 @@ Si está activo, Digi3D.AI activará la rectificación epipolar automáticamente
 | Valor por defecto | 1 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

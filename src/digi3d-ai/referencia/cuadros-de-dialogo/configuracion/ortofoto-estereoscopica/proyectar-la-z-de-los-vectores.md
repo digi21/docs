@@ -8,7 +8,8 @@ Indica si se proyecta siempre la coordenada Z de los vectores en la ventana foto
 * **Sí**. Los vectores se proyectan con su coordenada Z.
 * **No** \(valor por defecto\). Los vectores no se proyectan siempre con su coordenada Z.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.Stereoscopi
 DELETE FROM Ints WHERE Value = 'ProyectarZVectores' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ProyectarZVectores', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto';
 ```
+
+</details>

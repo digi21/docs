@@ -11,7 +11,8 @@ Digi3D.AI ha emitido históricamente sonidos para que los operadores identifique
 * **Altavoz del sistema (asíncrono)**. Los sonidos se emiten por el altavoz del sistema de manera asíncrona.
 * **Tarjeta de sonido**. Los sonidos se emiten por la tarjeta de sonido (requiere indicar la ruta de los archivos WAV de cada evento: Dato, Fin orden, etc.).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration` |
 | :--- | :--- |
@@ -20,3 +21,5 @@ Digi3D.AI ha emitido históricamente sonidos para que los operadores identifique
 | Valor por defecto | 1 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

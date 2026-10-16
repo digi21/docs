@@ -3,7 +3,8 @@
 
 Indica el directorio donde se localizan los archivos _.htm_ (o _.html_) asociados a cada código del digi.tab.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -19,3 +20,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Texts WHERE Value = 'DirectorioAyudasCodigos' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'DirectorioAyudasCodigos', 'C:\AyudasCodigos' FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

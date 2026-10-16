@@ -8,7 +8,8 @@ Si está activo, el cálculo de la orientación relativa se realizará en los se
 * **Sí**.
 * **No**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.ConicSensor
 DELETE FROM Ints WHERE Value = 'CalcularEnLaNube' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\RelativeOrientation');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'CalcularEnLaNube', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\RelativeOrientation';
 ```
+
+</details>

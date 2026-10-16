@@ -11,7 +11,8 @@ Indica la prioridad del hilo de trabajo que se comunica con los codificadores en
 * **Por encima de lo normal**.
 * **La más alta**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -27,3 +28,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\IO\TarjDigi3D');
 DELETE FROM Ints WHERE Value = 'Prioridad' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\IO\TarjDigi3D');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'Prioridad', 2 FROM Keys WHERE Path = 'Digi3D\IO\TarjDigi3D';
 ```
+
+</details>

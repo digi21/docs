@@ -8,7 +8,8 @@ Si se activa y el usuario crea un sistema de referencia de coordenadas con el si
 * **Sí**. Se trabaja con sistemas 2D cuando el vertical es desconocido.
 * **No**. Se crea un sistema compuesto y se pregunta por el sistema vertical.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'TrabajarConSistemasHorizontalesSiElVerticalEsDesconocido' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'TrabajarConSistemasHorizontalesSiElVerticalEsDesconocido', 1 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

@@ -9,7 +9,8 @@ Permite configurar el tipo de cadenas WKT que crea el programa al generar los si
 * **Esri Projection Engine sin código EPSG**. Genera las cadenas WKT compatibles con el motor de proyecciones de Esri, sin incluir el código EPSG.
 * **Esri Projection Engine con código EPSG**. Genera las cadenas WKT compatibles con el motor de proyecciones de Esri, incluyendo el código EPSG.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -25,3 +26,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Ints WHERE Value = 'GenerarSistemasReferenciaCompatiblesEsriProjectionEngine' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'GenerarSistemasReferenciaCompatiblesEsriProjectionEngine', 1 FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

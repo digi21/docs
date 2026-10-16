@@ -3,7 +3,8 @@
 
 Indica el porcentaje máximo de la RAM total del ordenador que se le permite consumir al algoritmo.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -19,3 +20,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.PointCloud'
 DELETE FROM Ints WHERE Value = 'PorcentajeMaximoConsumoMemoriaCrearLod' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PorcentajeMaximoConsumoMemoriaCrearLod', 90 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud';
 ```
+
+</details>

@@ -8,7 +8,8 @@ Indica qué hace la ventana de dibujo cuando la orden [BUSCAR\_CENTROIDE](/digi3
 * **Centrar la ventana en el centroide** \(valor por defecto\). La ventana se desplaza hasta el centroide sin cambiar el factor de zoom.
 * **Zoom al centroide**. La ventana hace un zoom sobre el centroide.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Extensiones\DigiNG.OrdenesStandard\DigiNG.OrdenesTopologia\BuscarCentroide` |
 | :--- | :--- |
@@ -17,3 +18,5 @@ Indica qué hace la ventana de dibujo cuando la orden [BUSCAR\_CENTROIDE](/digi3
 | Valor por defecto | 0 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

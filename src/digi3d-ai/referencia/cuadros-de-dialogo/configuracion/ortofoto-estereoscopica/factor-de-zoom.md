@@ -5,7 +5,8 @@ Indica el factor de zoom que se aplica al ejecutar las órdenes de zoom acercar 
 
 Solo se utiliza si en [Tipo de zoom](tipo-de-zoom.md) has seleccionado **Cambiando la posición de la cámara**. El valor por defecto es 1,2.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -21,3 +22,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.Stereoscopi
 DELETE FROM Doubles WHERE Value = 'FactorZoom' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto');
 INSERT INTO Doubles (Key, Value, Data) SELECT Id, 'FactorZoom', 1.2 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.StereoscopicOrthophoto';
 ```
+
+</details>

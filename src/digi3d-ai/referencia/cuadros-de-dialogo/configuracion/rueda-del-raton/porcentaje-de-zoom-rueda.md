@@ -3,7 +3,8 @@
 
 Indica el factor de zoom que se aplica con cada movimiento de la rueda del ratón. Al girar la rueda hacia abajo, el ancho y el alto de la zona visible se dividen por este valor (alejamiento); al girarla hacia arriba, se multiplican por él (aproximación). Las órdenes [ZOOM+](../../../ventana-de-dibujo/ordenes/z/zoom-mas.md), [ZOOM-](../../../ventana-de-dibujo/ordenes/z/zoom-menos.md), [ZOOMIN](../../../ventana-de-dibujo/ordenes/z/zoomin.md) y [ZOOMOUT](../../../ventana-de-dibujo/ordenes/z/zoomout.md) usan el mismo valor. El valor por defecto es 0,99.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Configuration` |
 | :--- | :--- |
@@ -12,3 +13,5 @@ Indica el factor de zoom que se aplica con cada movimiento de la rueda del rató
 | Valor por defecto | 0.99 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

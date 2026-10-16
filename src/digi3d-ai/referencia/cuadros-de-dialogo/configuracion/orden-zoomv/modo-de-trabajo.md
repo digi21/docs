@@ -8,7 +8,8 @@ Indica cómo se marcan las dos esquinas de la ventana en la orden [ZOOMV](/digi3
 * **Pulsando Dato dos veces** \(valor por defecto\). Cada esquina se marca al soltar el botón de Dato.
 * **Arrastrando y soltando**. La primera esquina se marca al pulsar el botón de Dato y la segunda al soltarlo después de desplazar el cursor. Si sueltas el botón sin desplazar el cursor, no se hace zoom y la orden espera otro arrastre.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Extensiones\DigiNG.OrdenesStandard\ZoomV` |
 | :--- | :--- |
@@ -17,3 +18,5 @@ Indica cómo se marcan las dos esquinas de la ventana en la orden [ZOOMV](/digi3
 | Valor por defecto | 1 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

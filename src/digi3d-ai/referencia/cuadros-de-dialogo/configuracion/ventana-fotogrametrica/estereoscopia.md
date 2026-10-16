@@ -7,7 +7,8 @@ Indica el método utilizado para mostrar la estereoscopía.
 
 Uno de los métodos de visualización estereoscópica disponibles en tu equipo (dependen del hardware y de los módulos instalados).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -23,3 +24,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'TipoEstereo' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'TipoEstereo', 1 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

@@ -8,7 +8,8 @@ Si se activa, se pulsa automáticamente el botón **Añadir** en los cuadros de 
 * **Sí**. Se pulsa automáticamente el botón Añadir.
 * **No**. Hay que pulsar el botón Añadir manualmente.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Ints WHERE Value = 'PulsarAutomaticamenteBotonAnadircodigoEnCuadrosDeDialogoQueSolicitanCodigo' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PulsarAutomaticamenteBotonAnadircodigoEnCuadrosDeDialogoQueSolicitanCodigo', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

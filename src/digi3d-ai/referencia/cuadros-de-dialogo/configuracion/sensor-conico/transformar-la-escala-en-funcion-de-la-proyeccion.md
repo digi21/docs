@@ -8,7 +8,8 @@ Si está activo, al cargar modelos en UTM se aplicará el factor de escala K a l
 * **Sí**.
 * **No**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.ConicSensor
 DELETE FROM Ints WHERE Value = 'TransformarEscalaEnFunciónProyección' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'TransformarEscalaEnFunciónProyección', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor';
 ```
+
+</details>

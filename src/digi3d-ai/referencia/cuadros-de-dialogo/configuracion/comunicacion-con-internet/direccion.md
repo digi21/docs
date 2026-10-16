@@ -5,7 +5,8 @@ Permite indicar la dirección del servidor _PROXY_.
 
 Solo se utiliza cuando en [Tipo de conexión](tipo-de-conexion.md) has seleccionado la opción **Servidor proxy**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -21,3 +22,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration');
 DELETE FROM Texts WHERE Value = 'DirecciónProxy' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'DirecciónProxy', 'proxy.miempresa.com:8080' FROM Keys WHERE Path = 'App\Configuration';
 ```
+
+</details>

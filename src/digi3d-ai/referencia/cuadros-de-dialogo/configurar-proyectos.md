@@ -31,7 +31,8 @@ Selecciona la opción del menú **Herramientas/Configurar proyectos...**. La opc
 * Si Digi3D.AI no se ejecuta como administrador, **Guardar** y **Eliminar** muestran el icono del escudo de elevación de _Windows_. Al pulsarlos no se pide elevación: guardan o eliminan la configuración igualmente.
 * Las configuraciones son comunes a todos los usuarios del equipo: se guardan en el [archivo de configuración Digi3DNET.db](../archivos/archivo-de-configuracion-digi3dnet.db.md).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 Cada configuración se guarda en una carpeta del archivo de configuración Digi3DNET.db:
 
@@ -216,3 +217,5 @@ Carpeta `DigiNG\Configuration\Projects\<proyecto>\DigiNG\IO\<formato>`. Se edita
 | Valor | Tabla | Por defecto | Qué hace | Campo |
 | :--- | :--- | :--- | :--- | :--- |
 | `ancho` | `Ints` | 400 | Ancho del dibujo en píxeles. | — |
+
+</details>

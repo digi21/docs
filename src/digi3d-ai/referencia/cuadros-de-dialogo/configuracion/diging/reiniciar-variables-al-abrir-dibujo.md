@@ -12,7 +12,8 @@ Las variables son comunes a todos los archivos de dibujo abiertos, así que el c
 
 La escala, [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md), [TOL](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md), [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) y [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) no dependen de esta opción: toman siempre los valores indicados al abrir el archivo de dibujo.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Configuration` |
 | :--- | :--- |
@@ -21,3 +22,5 @@ La escala, [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md), [T
 | Valor por defecto | 1 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

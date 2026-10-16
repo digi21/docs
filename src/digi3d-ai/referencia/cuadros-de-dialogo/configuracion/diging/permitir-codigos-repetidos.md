@@ -8,7 +8,8 @@ Si se activa, podrás asignar el mismo código varias veces a una misma geometr�
 * **Sí**. Se permite que una geometría tenga el mismo código varias veces.
 * **No**. No se permiten códigos repetidos en una geometría.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Ints WHERE Value = 'PermitirGeometriasConCodigosRepetidos' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PermitirGeometriasConCodigosRepetidos', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

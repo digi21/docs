@@ -5,7 +5,8 @@ Configura la ruta y el nombre del archivo que se genera cuando se realiza una co
 
 Al igual que [Destino de copias de seguridad](destino-de-copias-de-seguridad.md), este campo admite [macros](../../../macros.md).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -21,3 +22,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Texts WHERE Value = 'DestinoCopiasSeguridadAlComprimir' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'DestinoCopiasSeguridadAlComprimir', '$(PathOfDrawingFile)Copia de seguridad de $(DrawingFileName) con fecha $(DateUnderscore) a las $(TimeUnderscore)$(DrawingFileExtension)' FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

@@ -8,7 +8,8 @@ Indica cómo se mostrarán las imágenes.
 * **Proyectar** (valor por omisión). Las imágenes se muestran proyectadas.
 * **Ortogonal**. Las imágenes se muestran de forma ortogonal.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.ConicSensor
 DELETE FROM Ints WHERE Value = 'ProyectarImagenes3' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ProyectarImagenes3', 0 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor';
 ```
+
+</details>

@@ -9,7 +9,8 @@ Indica las unidades en las que están almacenados los giros en los archivos _.eo
 * **Sexagesimal**.
 * **Centesimal**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -25,3 +26,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.ConicSensor
 DELETE FROM Ints WHERE Value = 'UnidadesAngulos' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Importadores\ImportadorCentroProyGiros');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'UnidadesAngulos', 0 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Importadores\ImportadorCentroProyGiros';
 ```
+
+</details>

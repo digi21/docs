@@ -5,7 +5,8 @@ Indica el nombre que se asigna a la topología si no se pasa como parámetro al 
 
 Admite [macros](../../../macros.md). El valor por defecto es `Topología creada a las $(HoraCompleta)`.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -21,3 +22,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Extensiones\DigiNG.OrdenesTopo
 DELETE FROM Texts WHERE Value = 'NombreTopologiaDefecto' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Extensiones\DigiNG.OrdenesTopologia\TopologiaCodigosVisibles');
 INSERT INTO Texts (Key, Value, Data) SELECT Id, 'NombreTopologiaDefecto', 'Topología creada a las $(HoraCompleta)' FROM Keys WHERE Path = 'DigiNG\Extensiones\DigiNG.OrdenesTopologia\TopologiaCodigosVisibles';
 ```
+
+</details>

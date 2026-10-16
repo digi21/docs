@@ -12,7 +12,8 @@ Indica desde qué lado mira la cámara al seleccionar la opción **Ventana fotog
 * **Frontal**.
 * **Trasera**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -28,3 +29,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.PointCloud'
 DELETE FROM Ints WHERE Value = 'AnguloCamaraIrPuntoOrigen' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'AnguloCamaraIrPuntoOrigen', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud';
 ```
+
+</details>

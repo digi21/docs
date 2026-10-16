@@ -11,7 +11,8 @@ Indica la prioridad de los hilos de trabajo encargados de la carga de teselas en
 * **Por encima de lo normal**.
 * **La más alta**.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -27,3 +28,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('App\Configuration\Scroll');
 DELETE FROM Ints WHERE Value = 'Prioridad' AND Key = (SELECT Id FROM Keys WHERE Path = 'App\Configuration\Scroll');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'Prioridad', 2 FROM Keys WHERE Path = 'App\Configuration\Scroll';
 ```
+
+</details>

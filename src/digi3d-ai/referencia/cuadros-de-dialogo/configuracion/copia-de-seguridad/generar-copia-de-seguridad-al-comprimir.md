@@ -8,7 +8,8 @@ Indica si Digi3D.AI generará automáticamente una copia de seguridad del archiv
 * **Sí**. Se genera una copia de seguridad antes de comprimir.
 * **No**. No se genera ninguna copia de seguridad al comprimir.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('DigiNG\Configuration');
 DELETE FROM Ints WHERE Value = 'GenerarCopiaSeguridadAlComprimir' AND Key = (SELECT Id FROM Keys WHERE Path = 'DigiNG\Configuration');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'GenerarCopiaSeguridadAlComprimir', 1 FROM Keys WHERE Path = 'DigiNG\Configuration';
 ```
+
+</details>

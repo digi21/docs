@@ -8,7 +8,8 @@ Indica si la ventana fotogramétrica enviará las coordenadas por el puerto seri
 * **Sí**. La ventana fotogramétrica envía las coordenadas por el puerto serie.
 * **No**. No se envían coordenadas por el puerto serie.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -24,3 +25,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\ComunicacionExterior');
 DELETE FROM Ints WHERE Value = 'ActivarComunicacionExterior' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\ComunicacionExterior');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'ActivarComunicacionExterior', 1 FROM Keys WHERE Path = 'Digi3D\ComunicacionExterior';
 ```
+
+</details>

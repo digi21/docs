@@ -3,7 +3,8 @@
 
 Permite cargar solo una parte de los puntos de la nube. **0** = no decimar; **X** = importar un punto de cada X (por ejemplo, 100 carga un punto de cada 100).
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -19,3 +20,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.PointCloud'
 DELETE FROM Ints WHERE Value = 'Decimar' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'Decimar', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud';
 ```
+
+</details>

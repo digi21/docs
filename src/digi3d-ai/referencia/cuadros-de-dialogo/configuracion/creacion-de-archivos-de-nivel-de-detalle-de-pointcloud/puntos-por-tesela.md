@@ -7,7 +7,8 @@ Cada tesela se dibuja con un búfer de vértices \(VBO\) y una llamada de dibujo
 
 El valor por defecto es 16000.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -23,3 +24,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.PointCloud'
 DELETE FROM Ints WHERE Value = 'PuntosPorNodo' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'PuntosPorNodo', 16000 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.PointCloud';
 ```
+
+</details>

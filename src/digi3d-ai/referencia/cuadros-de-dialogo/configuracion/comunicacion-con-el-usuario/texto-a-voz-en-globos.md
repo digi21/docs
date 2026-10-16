@@ -8,7 +8,8 @@ Indica si Digi3D.AI utilizará síntesis de voz para narrar el contenido de los 
 * **Sí**. Se narra por voz el contenido de los globos.
 * **No**. No se narra por voz el contenido de los globos.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Registro | `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration` |
 | :--- | :--- |
@@ -17,3 +18,5 @@ Indica si Digi3D.AI utilizará síntesis de voz para narrar el contenido de los 
 | Valor por defecto | 0 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican.
+
+</details>

@@ -32,7 +32,8 @@ Carga el proyecto con los modelos formados según la opción elegida. Si se puls
 
 > **Ver también:** [Omitir modelos para los cuales no hay foto](omitir-modelos-para-los-cuales-no-hay-foto.md), que se aplica después de formar los modelos.
 
-## Dónde se almacena
+<details>
+<summary>Dónde se almacena</summary>
 
 | Archivo | [Digi3DNET.db](../../../archivos/archivo-de-configuracion-digi3dnet.db.md) |
 | :--- | :--- |
@@ -48,3 +49,5 @@ INSERT OR IGNORE INTO Keys (Path) VALUES ('Digi3D\Extensiones\Digi3D.ConicSensor
 DELETE FROM Ints WHERE Value = 'MostrarDialogoSaltoFotos' AND Key = (SELECT Id FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Inpho');
 INSERT INTO Ints (Key, Value, Data) SELECT Id, 'MostrarDialogoSaltoFotos', 1 FROM Keys WHERE Path = 'Digi3D\Extensiones\Digi3D.ConicSensor\Inpho';
 ```
+
+</details>
