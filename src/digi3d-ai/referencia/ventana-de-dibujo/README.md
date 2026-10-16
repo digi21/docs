@@ -1,11 +1,6 @@
 # Ventana de dibujo
 <!-- id: ventana-de-dibujo -->
 
-Conceptos de la ventana de dibujo (en la sección Conceptos):
-
-* [Introducción de coordenadas](/digi3d-ai/referencia/ventana-de-dibujo/introduccion-de-coordenadas.md)
-* [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md)
-
 Referencia de la ventana de dibujo:
 
 * [Órdenes](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/README.md) y [Órdenes por función](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-por-funcion.md)
