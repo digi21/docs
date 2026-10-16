@@ -1,7 +1,7 @@
 # FIN\_ENT
 <!-- id: fin-ent -->
 
-Da por finalizada la definición geométrica de una entidad.
+Finaliza la línea que se está dibujando.
 
 ## Parámetros
 
@@ -9,11 +9,16 @@ No admite parámetros.
 
 ## Observaciones
 
-Tras esta orden puedes seguir trazando nuevas entidades con la orden y código de dibujo activos.
+La orden actúa sobre la orden de dibujo activa, que tiene que admitir ser finalizada. La admiten [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md), POL, SPLINE, TRIM\_M, SELECCIONA\_POLIGONO, SELECCIONA\_DENTRO\_POLIGONO y SELECCIONA\_FUERA\_POLIGONO. Si no hay ninguna orden activa, o la orden activa no admite ser finalizada, suena el aviso de error y no ocurre nada más.
 
-Si la orden activa no admite ser finalizada, suena el aviso de error.
+Con la orden LINEA:
 
-Esta orden está asignada por defecto a uno de los pedales y al botón derecho del ratón.
+* Si la línea solo tiene un punto, no se almacena y la orden LINEA termina.
+* Si tiene dos o más, antes de almacenarla se suaviza si la variable [S](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/s.md) está activada, se generaliza si lo está [G](/digi3d-ai/referencia/ventana-de-dibujo/variables/g/g.md) y se cierra si lo está [C](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/c.md). Después se eliminan los puntos duplicados.
+* Si la variable [P](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/p.md) está activada, se almacena además una copia paralela a la distancia indicada en [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md).
+* La orden LINEA sigue activa con el mismo código, así que el siguiente punto empieza una línea nueva.
+
+Para finalizar la línea cerrándola, usa [CIERRA\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cierra-ent.md).
 
 ## Características de la orden
 
