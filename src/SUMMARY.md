@@ -1111,6 +1111,8 @@
           * [Al proyectar las entidades en cada cámara](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/interpolacion-de-subpixel/al-proyectar-las-entidades-en-cada-camara.md)
         * [Medida de aerotriangulación](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/medida-de-aerotriangulacion/README.md)
           * [Esquemas](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/medida-de-aerotriangulacion/esquemas.md)
+        * [Orden AREA](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-area/README.md)
+          * [Unidad de superficie](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-area/unidad-de-superficie.md)
         * [Orden EDITAR, EDITAR\_XY, EDITAR\_XYZ](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-editar/README.md)
           * [Desplazar automático](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-editar/desplazar-automatico.md)
         * [Orden línea](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-linea/README.md)

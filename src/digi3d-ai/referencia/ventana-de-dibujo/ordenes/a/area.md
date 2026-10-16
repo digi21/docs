@@ -14,7 +14,9 @@ No admite parámetros.
 
 Una vez ejecutada la orden, el programa pedirá seleccionar la entidad cerrada a la cual se quiere rotular con el área. La orden solo acepta líneas y polígonos. Si la línea no está cerrada, la orden calcula el área cerrándola entre el último y el primer vértice. En un polígono, la orden resta el área de los huecos, sea cual sea su sentido de giro; el signo del resultado es el del contorno exterior.
 
-A continuación aparece en la Barra de Estado el sufijo para el área. Este sufijo es opcional, por defecto aparece la cadena m2. El usuario puede introducir el texto que desee y una vez que el usuario está de acuerdo con el sufijo, deberá dar el punto de destino para ubicar el texto del área.
+El área se escribe en la unidad de la opción [Unidad de superficie](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-area/unidad-de-superficie.md) de la configuración: metros cuadrados (por defecto), hectáreas o kilómetros cuadrados.
+
+A continuación aparece en la barra de estado el sufijo del área, que corresponde a esa unidad: `m2`, `ha` o `km2`. El sufijo se puede cambiar por cualquier otro texto, pero el valor sigue en la unidad configurada. Después, indica el punto donde se coloca el texto del área.
 
 El texto se crea con la [altura de textos](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), la [justificación de textos](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y el número de decimales de la ventana de dibujo.
 
