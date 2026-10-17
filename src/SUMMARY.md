@@ -1411,6 +1411,7 @@
       * [Proveedores en la nube](digi3d-ai/referencia/asistente-ia/proveedores.md)
       * [Configurar LM Studio](digi3d-ai/referencia/asistente-ia/lm-studio.md)
       * [Configurar Ollama](digi3d-ai/referencia/asistente-ia/ollama.md)
+      * [Servidor MCP](digi3d-ai/referencia/asistente-ia/servidor-mcp.md)
   * [Programación](digi3d-ai/programacion/README.md)
     * [.NET](digi3d-ai/programacion/.net/README.md)
       * [Migración a .NET 10](digi3d-ai/programacion/.net/migracion-a-net-10.md)

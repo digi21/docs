@@ -205,5 +205,7 @@ API de Digi3D.AI que recibe el asistente se añade siempre.
 
 ## Véase también
 
+- [Servidor MCP](servidor-mcp.md): para que Claude Code, Claude Desktop u otro cliente MCP trabaje en
+  Digi3D.AI con las mismas posibilidades que este panel.
 - [Programación en Python](../../programacion/python/README.md): para automatizar tareas escribiendo
   tus propios guiones. El asistente usa esta misma API.
