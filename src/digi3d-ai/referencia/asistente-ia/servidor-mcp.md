@@ -6,8 +6,9 @@ El **servidor MCP** permite que un cliente de IA externo a Digi3D.AI —por ejem
 Context Protocol*) es el protocolo que usan estos clientes para conectarse a herramientas externas.
 
 El cliente trabaja con las mismas posibilidades que el [panel de chat con IA](README.md): ejecuta
-código Python sobre el dibujo con la API de Digi3D.AI, lanza órdenes y ve la ventana de dibujo. Tú ves
-en Digi3D.AI lo que hace el cliente mientras trabaja.
+código Python sobre el dibujo con la API de Digi3D.AI, lanza órdenes, abre y cierra dibujos, controla la
+ventana fotogramétrica y ve las dos ventanas. Tú ves en Digi3D.AI lo que hace el cliente mientras
+trabaja.
 
 ## Activar el servidor
 
@@ -76,10 +77,10 @@ recibe un error que lo indica.
 | Herramienta | Qué hace |
 |---|---|
 | `run_python` | Ejecuta código Python en el intérprete de Digi3D.AI, con el mismo entorno restringido que el panel de chat. Devuelve lo que imprime el código y los errores. Es la herramienta principal: consulta, crea, modifica y borra geometrías. |
-| `run_command` | Ejecuta una orden de Digi3D.AI igual que si se escribiera en la línea de órdenes, por ejemplo `NOMBRE=parámetros`. Indica si la orden ha terminado, ha fallado, no existe o se ha quedado activa esperando datos. |
+| `run_command` | Ejecuta una orden de Digi3D.AI igual que si se escribiera en la línea de órdenes, por ejemplo `NOMBRE=parámetros`. Indica si la orden ha terminado, ha fallado, no existe o se ha quedado activa esperando datos. Si solo está abierta la ventana fotogramétrica, ejecuta las órdenes de esa ventana. |
 | `list_commands` | Lista las órdenes con su título y su descripción. Admite un filtro de texto. |
-| `get_state` | Devuelve la ventana de dibujo activa: archivos cargados, archivo activo, número de geometrías, códigos activos, sistema de coordenadas, extensión, escala activa, equidistancia y orden en curso. |
-| `view_screenshot` | Devuelve una imagen de la ventana de dibujo activa, para que el cliente compruebe lo que ha dibujado. |
+| `get_state` | Devuelve el estado de la ventana de dibujo (archivos cargados, archivo activo, número de geometrías, códigos activos, sistema de coordenadas, extensión, escala activa, equidistancia y orden en curso), de la ventana fotogramétrica (modelo, sensor, posición del cursor, zoom y cámara 3D) y del proyecto fotogramétrico cargado. |
+| `view_screenshot` | Devuelve una imagen de la ventana de dibujo o de la ventana fotogramétrica, para que el cliente compruebe lo que ha dibujado o dónde está el cursor. |
 | `get_api_reference` | Devuelve la referencia completa de la API de Python de Digi3D.AI. También está disponible como recurso `digi3d://api-reference`. |
 
 Al conectarse, el cliente recibe además las mismas instrucciones de uso de la API que recibe el
@@ -89,11 +90,20 @@ asistente del panel de chat.
 
 - **Dibujar y editar.** El cliente crea puntos, líneas, polígonos y textos con `run_python`, les asigna
   códigos y los añade al dibujo. También modifica y borra geometrías.
+- **Abrir y cerrar dibujos.** El cliente cierra el dibujo abierto y abre otro archivo, con su tabla de
+  códigos y sus parámetros. Digi3D.AI abre un solo dibujo a la vez. Los parámetros que el cliente no
+  indica toman los últimos valores usados en el cuadro de abrir dibujo.
+- **Ventana fotogramétrica.** El cliente carga un proyecto fotogramétrico y uno de sus modelos, abre
+  un archivo `.d3d`, mueve el cursor a unas coordenadas o al punto de origen, cambia el zoom, pasa al
+  modelo o a la pasada siguiente o anterior y, en los modelos de nube de puntos y de ortofoto
+  estereoscópica, cambia la posición y la orientación de la cámara.
 - **Órdenes interactivas.** Una orden que espera que el usuario marque puntos con el ratón o con el
   pedal se queda activa, y el cliente no puede marcarlos. Completa o cancela esa orden en Digi3D.AI con
   **Esc**. Para dibujar, el cliente usa `run_python`.
 - **Cuadros de diálogo.** Si una orden abre un cuadro de diálogo, la petición del cliente espera a que
-  lo cierres.
+  lo cierres. Lo mismo ocurre si al abrir un dibujo, un proyecto o un modelo Digi3D.AI pregunta algo,
+  por ejemplo el sistema de coordenadas de un proyecto que no lo tiene. El cliente no puede abrir menús
+  ni rellenar cuadros de diálogo.
 - **Una operación cada vez.** Digi3D.AI ejecuta las peticiones de una en una. Si llega una petición
   mientras se espera la respuesta a un cuadro de diálogo, el cliente recibe un aviso de que Digi3D.AI
   está ocupado y puede repetirla después.
