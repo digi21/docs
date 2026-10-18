@@ -2027,6 +2027,7 @@
           * [digi21.io.vec](digi3d-ai/programacion/python/referencia/digi21.io/vec.md)
         * [digi3d](digi3d-ai/programacion/python/referencia/digi3d/README.md)
           * [DrawingView](digi3d-ai/programacion/python/referencia/digi3d/drawing-view.md)
+          * [PhotogrammetricView](digi3d-ai/programacion/python/referencia/digi3d/photogrammetric-view.md)
           * [Command](digi3d-ai/programacion/python/referencia/digi3d/command.md)
           * [PythonCommand](digi3d-ai/programacion/python/referencia/digi3d/python-command.md)
           * [Topología](digi3d-ai/programacion/python/referencia/digi3d/topology.md)

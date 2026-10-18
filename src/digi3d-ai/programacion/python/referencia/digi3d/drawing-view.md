@@ -206,7 +206,7 @@ z = view.project((430000, 4480000))
 
 | Método | Descripción |
 |---|---|
-| `close()` | Cierra la ventana activa. |
+| `close()` | Cierra la ventana de dibujo y sus archivos, igual que cuando la cierra el usuario. Las geometrías ya están guardadas en los archivos, así que no se pierde nada. Devuelve `False` si la ventana sigue abierta porque el usuario ha cancelado el aviso de geometrías borradas. Después de cerrarla, no uses este objeto. |
 
 ## Véase también
 

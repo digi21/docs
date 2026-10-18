@@ -12,7 +12,124 @@ current_view() -> DrawingView
 ```
 
 Devuelve la [DrawingView](drawing-view.md) activa (o `None` si no hay ninguna). Es el
-punto de entrada habitual de un guion.
+punto de entrada habitual de un guion. Si la ventana activa es la ventana fotogramétrica, devuelve la
+ventana de dibujo abierta.
+
+## Abrir un dibujo
+
+```python
+open_drawing(path, code_table=None, scale=None, register_increment=None, equidistance=None,
+             text_height=None, tolerance=None, z_correction=None, sigma=None, crs_wkt=None) -> DrawingView
+```
+
+Abre un archivo de dibujo en una ventana de dibujo nueva y devuelve su [DrawingView](drawing-view.md).
+Hace lo mismo que el cuadro de abrir dibujo, sin mostrarlo. Si el archivo no existe, el formato lo
+crea.
+
+Digi3D.AI abre un solo dibujo a la vez: si ya hay uno abierto, la función lanza `RuntimeError`.
+Ciérralo antes con [`DrawingView.close()`](drawing-view.md#otros-métodos).
+
+| Argumento | Tipo | Descripción |
+|---|---|---|
+| `path` | `str` | Ruta del archivo de dibujo. La carpeta tiene que existir. |
+| `code_table` | `str` | Ruta de la tabla de códigos. El archivo tiene que existir. |
+| `scale` | `float` | Escala de visualización de los patrones. |
+| `register_increment` | `float` | Incremento de registro. |
+| `equidistance` | `float` | Equidistancia entre curvas de nivel. |
+| `text_height` | `float` | Altura de los textos. |
+| `tolerance` | `float` | Tolerancia de generalización. |
+| `z_correction` | `float` | Corrección de Z. |
+| `sigma` | `float` | Sigma. |
+| `crs_wkt` | `str` | Sistema de coordenadas de la ventana de dibujo, en WKT. |
+
+Los argumentos que no se pasan toman los últimos valores usados en el cuadro de abrir dibujo. Los que
+se pasan quedan como últimos valores usados, igual que con el cuadro; si el dibujo no se puede abrir,
+Digi3D.AI restaura los valores anteriores. Las opciones del formato son las últimas que se usaron con
+ese formato.
+
+Mientras se abre el dibujo, Digi3D.AI puede mostrar un cuadro de diálogo al usuario, por ejemplo si
+falta un archivo de referencia. La función espera a que el usuario lo cierre.
+
+```python
+import digi3d
+
+view = digi3d.current_view()
+if view is not None:
+    view.close()
+view = digi3d.open_drawing(r"C:\Proyectos\hoja2.bin", code_table=r"C:\Proyectos\tabla.tab")
+```
+
+## Ventana fotogramétrica y proyectos
+
+### photogrammetric_view
+
+```python
+photogrammetric_view() -> PhotogrammetricView | None
+```
+
+Devuelve la [ventana fotogramétrica](photogrammetric-view.md) activa, o `None` si no hay ninguna.
+
+### open_photogrammetric_file
+
+```python
+open_photogrammetric_file(path) -> PhotogrammetricView
+```
+
+Abre un archivo de modelo fotogramétrico (`.d3d`) en una ventana fotogramétrica nueva y la devuelve.
+Lanza `ValueError` si el archivo no es `.d3d` y `RuntimeError` si Digi3D.AI no puede abrirlo.
+
+### open_project
+
+```python
+open_project(path) -> bool
+```
+
+Carga un proyecto fotogramétrico en el panel de proyectos, igual que el botón **Cargar** del panel.
+Devuelve `False` si no se ha cargado; Digi3D.AI muestra el motivo al usuario. Si el proyecto no tiene
+sistema de coordenadas, Digi3D.AI se lo pide al usuario y la función espera la respuesta.
+
+### project
+
+```python
+project() -> dict | None
+```
+
+Devuelve el proyecto cargado en el panel de proyectos, o `None` si no hay ninguno:
+
+| Clave | Tipo | Descripción |
+|---|---|---|
+| `file` | `str` | Ruta del archivo del proyecto. |
+| `viewpoint` | `str` | Punto de vista seleccionado en el panel. |
+| `viewpoints` | `list[str]` | Puntos de vista del proyecto. |
+| `models` | `list[dict]` | En un proyecto de modelos, los modelos del punto de vista seleccionado: `strip` (pasada), `name` (nombre) y `loadable` (si se puede cargar). |
+| `photos` | `list[str]` | En un proyecto de fotos, los nombres de las fotos. |
+
+### load_model
+
+```python
+load_model(name, new_window=False) -> bool
+```
+
+Carga un modelo del proyecto, igual que un clic en un modelo del panel de proyectos. En un proyecto de
+fotos, el nombre del modelo es `izquierda-derecha`, con los nombres de dos fotos distintas.
+
+- Si hay una ventana fotogramétrica abierta, el modelo sustituye al de esa ventana y se carga en
+  segundo plano **después de que termine el guion**. Comprueba
+  [`model_name`](photogrammetric-view.md#modelo-cargado) en un guion posterior.
+- Si no hay ninguna ventana, o con `new_window=True`, abre una ventana fotogramétrica nueva antes de
+  devolver.
+
+Lanza `RuntimeError` si no hay ningún proyecto cargado y `ValueError` si el proyecto no tiene ese
+modelo en el punto de vista seleccionado o si el panel muestra el modelo deshabilitado. Devuelve
+`False` si no ha podido empezar la carga.
+
+```python
+import digi3d
+
+if digi3d.open_project(r"C:\Proyectos\vuelo.d3dprj"):
+    modelos = digi3d.project()["models"]
+    digi3d.load_model(modelos[0]["name"])
+```
 
 ## Mensajes y avisos
 
@@ -77,5 +194,6 @@ if digi3d.ask_question("¿Continuar?"):
 ## Véase también
 
 - [DrawingView](drawing-view.md)
+- [PhotogrammetricView](photogrammetric-view.md)
 - [Tareas](tasks.md)
 - [Enumeraciones](enumerations.md)
