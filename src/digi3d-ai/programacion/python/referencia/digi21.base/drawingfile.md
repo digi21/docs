@@ -24,6 +24,11 @@ obtener sus [geometrías](geometry.md) una a una.
 > geometría mantiene abierto el archivo del que sale, así que sigue siendo válida después de soltar
 > el `DrawingFile` (por ejemplo, en `list(modulo.open(ruta))`). Trátalas como de solo lectura.
 
+> Dentro de Digi3D.AI, los archivos de [`view.files`](../digi3d/drawing-view.md#geometrías-de-cada-archivo)
+> también son `DrawingFile`, pero Digi3D.AI ya ha leído su contenido: recorrerlos no devuelve sus
+> geometrías. Para obtener las geometrías de un archivo cargado, recorre la ventana de dibujo y filtra
+> por la propiedad [`file`](geometry.md#propiedades) de cada geometría.
+
 ## Ejemplo
 
 ```python

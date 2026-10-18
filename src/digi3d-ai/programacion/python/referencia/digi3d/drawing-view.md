@@ -29,6 +29,56 @@ archivos de dibujo cargados:
 > Las geometrías que devuelve son propiedad de la aplicación: no se pueden reasignar
 > (`view[i] = ...` lanza `TypeError`).
 
+### Geometrías de cada archivo
+
+`view.files` es la lista de archivos cargados: el primero es el archivo de dibujo y los demás son los
+archivos de referencia. La propiedad [`file`](../digi21.base/geometry.md#propiedades) de cada geometría
+devuelve el archivo que la contiene. Para trabajar con las geometrías de un archivo, recorre `view` y
+filtra por `g.file`.
+
+No recorras un `view.files[i]` para obtener sus geometrías: la iteración de
+[DrawingFile](../digi21.base/drawingfile.md) lee el archivo desde el disco y solo sirve para un archivo
+abierto con [digi21.io](../digi21.io/README.md).
+
+```python
+import collections
+import digi3d
+
+view = digi3d.current_view()
+
+# Número de geometrías de cada archivo cargado
+por_archivo = collections.Counter(g.file.path for g in view if g.file is not None)
+for ruta, cantidad in por_archivo.items():
+    print(f"{ruta}: {cantidad} geometrías")
+
+# Geometrías de un archivo de referencia concreto
+referencia = view.files[1]
+geometrias = [g for g in view if g.file is not None and g.file.path == referencia.path]
+print(len(geometrias))
+```
+
+Ejemplo: localizar en qué archivo están las geometrías alejadas de la zona de trabajo, que hacen que el
+zoom extendido muestre la cartografía como un punto.
+
+```python
+import math
+import statistics
+import digi3d
+
+view = digi3d.current_view()
+geometrias = [g for g in view if not g.deleted]
+
+# Centro de la zona de trabajo: la mediana de los centros de las geometrías
+cx = statistics.median((g.min[0] + g.max[0]) / 2 for g in geometrias)
+cy = statistics.median((g.min[1] + g.max[1]) / 2 for g in geometrias)
+
+for g in geometrias:
+    distancia = math.hypot((g.min[0] + g.max[0]) / 2 - cx, (g.min[1] + g.max[1]) / 2 - cy)
+    if distancia > 20000:
+        archivo = g.file.path if g.file is not None else "(sin archivo)"
+        print(f"{distancia / 1000:.1f} km  {[c.code for c in g.codes]}  {archivo}")
+```
+
 ## Geometrías: añadir, borrar y recuperar
 
 | Método | Descripción |
