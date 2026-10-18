@@ -42,7 +42,7 @@ Ciérralo antes con [`DrawingView.close()`](drawing-view.md#otros-métodos).
 | `z_correction` | `float` | Corrección de Z. |
 | `sigma` | `float` | Sigma. |
 | `crs_wkt` | `str` | Sistema de coordenadas de la ventana de dibujo, en WKT. |
-| `references` | `list[str]` | Archivos de referencia que se cargan. Si no se indica, se cargan los archivos de referencia guardados con el dibujo. |
+| `references` | `list[str]` | Archivos de referencia que se cargan. Si no se indica, se cargan los archivos de referencia guardados con el dibujo. Un archivo que no estaba guardado queda guardado con el dibujo, igual que cuando lo carga el usuario. |
 
 Los argumentos que no se pasan toman los últimos valores usados en el cuadro de abrir dibujo. Los que
 se pasan quedan como últimos valores usados, igual que con el cuadro; si el dibujo no se puede abrir,
@@ -62,10 +62,17 @@ empieza por `Warning:` en la salida del guion:
 | La tabla de códigos no se puede cargar. | El dibujo no se abre. |
 | Hay que elegir la transformación entre dos sistemas de coordenadas y no hay ninguna guardada. | El archivo no se carga. Ábrelo una vez desde Digi3D.AI para elegirla; después se usa la guardada. |
 | Varios formatos pueden leer el archivo. | El archivo no se carga. |
+| El archivo no tiene sistema de coordenadas. | Lo mismo que cancelar el cuadro de selección del sistema de coordenadas. |
+| Hay que elegir las capas o tablas del archivo. | El archivo no se carga. |
 | El proyecto fotogramétrico no tiene sistema de coordenadas. | Se carga con un sistema local, sin crear el archivo `.prj`. |
 | Cualquier otro mensaje con botones. | No, cancelar o abortar, según los botones del mensaje. |
 
-Si la función falla, el mensaje de la excepción incluye los avisos.
+Si `open_drawing` falla, el mensaje de la excepción incluye los avisos. Las órdenes de inicio que
+ejecutan la tabla de códigos y el dibujo al abrir la ventana también reciben las respuestas prudentes.
+
+Algunos cuadros no se pueden evitar todavía y siguen esperando al usuario: el aviso de licencia, la
+petición del sistema de coordenadas de un modelo de cámara cónica cuya aerotriangulación no lo tiene y
+la elección del sistema de coordenadas de un GeoPackage que tiene varios.
 
 ```python
 import digi3d
