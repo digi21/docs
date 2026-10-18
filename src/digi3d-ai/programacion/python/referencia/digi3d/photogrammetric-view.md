@@ -36,6 +36,7 @@ Después de asignar una posición o un zoom, vuelve a leer la propiedad para con
 | Método | Descripción |
 |---|---|
 | `go_to_origin()` | Mueve el cursor al punto de origen del modelo. |
+| `close()` | Cierra la ventana fotogramétrica activa, igual que cuando la cierra el usuario. Devuelve `False` si la ventana sigue abierta. |
 
 ```python
 p = digi3d.photogrammetric_view()
