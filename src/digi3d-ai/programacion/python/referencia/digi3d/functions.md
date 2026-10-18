@@ -19,7 +19,8 @@ ventana de dibujo abierta.
 
 ```python
 open_drawing(path, code_table=None, scale=None, register_increment=None, equidistance=None,
-             text_height=None, tolerance=None, z_correction=None, sigma=None, crs_wkt=None) -> DrawingView
+             text_height=None, tolerance=None, z_correction=None, sigma=None, crs_wkt=None,
+             references=None) -> DrawingView
 ```
 
 Abre un archivo de dibujo en una ventana de dibujo nueva y devuelve su [DrawingView](drawing-view.md).
@@ -41,14 +42,30 @@ Ciérralo antes con [`DrawingView.close()`](drawing-view.md#otros-métodos).
 | `z_correction` | `float` | Corrección de Z. |
 | `sigma` | `float` | Sigma. |
 | `crs_wkt` | `str` | Sistema de coordenadas de la ventana de dibujo, en WKT. |
+| `references` | `list[str]` | Archivos de referencia que se cargan. Si no se indica, se cargan los archivos de referencia guardados con el dibujo. |
 
 Los argumentos que no se pasan toman los últimos valores usados en el cuadro de abrir dibujo. Los que
 se pasan quedan como últimos valores usados, igual que con el cuadro; si el dibujo no se puede abrir,
 Digi3D.AI restaura los valores anteriores. Las opciones del formato son las últimas que se usaron con
 ese formato.
 
-Mientras se abre el dibujo, Digi3D.AI puede mostrar un cuadro de diálogo al usuario, por ejemplo si
-falta un archivo de referencia. La función espera a que el usuario lo cierre.
+## Abrir sin cuadros de diálogo
+
+`open_drawing`, `open_project`, `load_model` y `open_photogrammetric_file` no muestran ningún cuadro de
+diálogo, para que un guion o un cliente MCP no se quede esperando a que el usuario conteste. Cuando
+Digi3D.AI preguntaría algo al usuario, la función toma la respuesta prudente y escribe un aviso que
+empieza por `Warning:` en la salida del guion:
+
+| Situación | Respuesta |
+|---|---|
+| Un archivo de referencia no existe. | No se carga; el resto del dibujo se abre. |
+| La tabla de códigos no se puede cargar. | El dibujo no se abre. |
+| Hay que elegir la transformación entre dos sistemas de coordenadas y no hay ninguna guardada. | El archivo no se carga. Ábrelo una vez desde Digi3D.AI para elegirla; después se usa la guardada. |
+| Varios formatos pueden leer el archivo. | El archivo no se carga. |
+| El proyecto fotogramétrico no tiene sistema de coordenadas. | Se carga con un sistema local, sin crear el archivo `.prj`. |
+| Cualquier otro mensaje con botones. | No, cancelar o abortar, según los botones del mensaje. |
+
+Si la función falla, el mensaje de la excepción incluye los avisos.
 
 ```python
 import digi3d

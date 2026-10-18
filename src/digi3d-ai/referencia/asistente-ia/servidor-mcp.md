@@ -101,9 +101,10 @@ asistente del panel de chat.
   pedal se queda activa, y el cliente no puede marcarlos. Completa o cancela esa orden en Digi3D.AI con
   **Esc**. Para dibujar, el cliente usa `run_python`.
 - **Cuadros de diálogo.** Si una orden abre un cuadro de diálogo, la petición del cliente espera a que
-  lo cierres. Lo mismo ocurre si al abrir un dibujo, un proyecto o un modelo Digi3D.AI pregunta algo,
-  por ejemplo el sistema de coordenadas de un proyecto que no lo tiene. El cliente no puede abrir menús
-  ni rellenar cuadros de diálogo.
+  lo cierres. Abrir un dibujo, un proyecto o un modelo no muestra ninguno: lo que Digi3D.AI
+  preguntaría recibe la respuesta prudente y el cliente recibe un aviso (ver
+  [Abrir sin cuadros de diálogo](../../programacion/python/referencia/digi3d/functions.md#abrir-sin-cuadros-de-diálogo)).
+  El cliente no puede abrir menús ni rellenar cuadros de diálogo.
 - **Una operación cada vez.** Digi3D.AI ejecuta las peticiones de una en una. Si llega una petición
   mientras se espera la respuesta a un cuadro de diálogo, el cliente recibe un aviso de que Digi3D.AI
   está ocupado y puede repetirla después.
