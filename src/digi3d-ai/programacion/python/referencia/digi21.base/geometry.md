@@ -34,6 +34,7 @@ Toda geometría se comporta como una secuencia de vértices `(x, y, z)`:
 | `last_vertex` | `tuple` | L | Último vértice `(x, y, z)`. |
 | `code_count` | `int` | L | Número de códigos. |
 | `owner` | `tuple` | L |`(geometría_propietaria, índice)` si pertenece a un contenedor<br>`(None, 0)` si no.|
+| `file` | [`DrawingFile`](drawingfile.md) | L | Archivo cargado en la ventana de dibujo que contiene la geometría, por ejemplo `g.file.path`. Devuelve `None` para las geometrías de un complejo y para las que no se han añadido al dibujo. Solo existe en los guiones que se ejecutan dentro de Digi3D.AI, después de importar `digi3d`. |
 
 ## Métodos
 
