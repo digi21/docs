@@ -10,7 +10,9 @@ Graba una secuencia de órdenes para almacenarla en una pulsación de tecla o en
 * **Grabar macro**: a partir de este momento, Digi3D.AI anota cada orden que ejecutas. La ventana de dibujo muestra un recuadro rojo mientras se graba la macro.
 * **Parar la grabación de la macro...**: termina la grabación y abre el cuadro de diálogo **Macro preparada para ser almacenada**. Si no se ha grabado ninguna orden, no hace nada más.
 
-Digi3D.AI anota cada orden cuando la orden termina. Una orden que sigue activa al pulsar **Parar la grabación de la macro...** no se anota. Algunas órdenes internas de Digi3D.AI no se anotan nunca.
+Digi3D.AI anota cada orden cuando la orden termina, con los parámetros con los que se ha ejecutado. Una orden que sigue activa al pulsar **Parar la grabación de la macro...** no se anota. Algunas órdenes internas de Digi3D.AI no se anotan nunca.
+
+Algunas órdenes que piden los datos en un cuadro de diálogo, como [DENSIFICA](../ventana-de-dibujo/ordenes/d/densifica.md), [TRANSFORMA](../ventana-de-dibujo/ordenes/t/transforma.md) y [GUARDAR\_TABLA\_CODIGOS](../ventana-de-dibujo/ordenes/g/guardar-tabla-codigos.md), anotan como parámetros lo que eliges en el cuadro. Al ejecutar la macro, la orden trabaja con esos valores y no vuelve a abrir el cuadro. Si cancelas el cuadro, la orden no se anota. Las demás órdenes con cuadro de diálogo se anotan sin los valores elegidos, y al ejecutar la macro vuelven a abrir el cuadro.
 
 ## Cuadro de diálogo Macro preparada para ser almacenada
 
