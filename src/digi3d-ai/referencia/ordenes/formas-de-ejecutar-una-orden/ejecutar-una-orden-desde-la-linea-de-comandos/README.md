@@ -13,6 +13,26 @@ Se pueden ejecutar tres tipos de órdenes:
 * [Macroinstrucciones](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/macroinstrucciones.md)
 * [Guiones Python](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/guiones-python.md)
 
+## Autocompletado y ayuda de los parámetros
+
+Mientras escribes el nombre de la orden, el campo propone el primer nombre de orden que empieza por lo escrito y deja seleccionada la parte que añade. Si sigues escribiendo, el texto seleccionado se sustituye. Pulsa **Tab** para aceptar la propuesta: el cursor pasa al final del texto y la propuesta deja de estar seleccionada.
+
+Para pasar parámetros a la orden, escribe un signo igual (=) después del nombre y los parámetros separados por espacios, por ejemplo `densifica=5 020100`. Un parámetro que contiene espacios se escribe entre comillas dobles o simples.
+
+Si la orden escrita describe sus parámetros, encima del campo aparece una ayuda con las formas de ejecutarla:
+
+* Cada renglón es una forma de ejecutar la orden. Solo aparecen las formas que admiten lo que llevas escrito.
+* Cada parámetro aparece como `<nombre: tipo>`. El tipo es un número entero, un número real, un texto, un archivo, un código o la lista de valores que admite, separados por `|`.
+* El parámetro que toca escribir aparece en **negrita**.
+* `...` detrás de un parámetro indica que admite uno o más valores. Un grupo de parámetros entre paréntesis seguido de `...`, por ejemplo `(<código: código> <tipos de entidad: texto>)...`, se repite completo una o más veces.
+* Algunos parámetros solo existen según el valor de un parámetro anterior. Por ejemplo, en [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md), los siete parámetros del archivo de errores solo existen si el segundo parámetro vale `1`. Esos parámetros aparecen en la ayuda cuando escribes el valor del que dependen.
+* _(abre un cuadro de diálogo)_ al final de un renglón indica que, con esa forma, la orden pide en un cuadro de diálogo los datos que faltan.
+* Si el parámetro que toca escribir admite una lista de valores, debajo de las formas aparece lo que hace cada valor que empieza por lo que llevas escrito, por ejemplo `2 = partir las líneas por el cruce`.
+
+Cuando el parámetro que estás escribiendo solo admite una lista de valores, el campo propone el primer valor que empieza por lo escrito, igual que con el nombre de la orden. **Tab** acepta la propuesta.
+
+La ayuda se oculta cuando el campo pierde el foco. Los nombres de los parámetros y las descripciones de los valores aparecen en el idioma de Digi3D.AI.
+
 ## Histórico de órdenes
 
 El campo se abre con la última orden ejecutada, seleccionada. Para repetirla, pulsa **Intro** otra vez. Si escribes cualquier carácter, sustituye a la orden seleccionada. Si todavía no se ha ejecutado ninguna orden, el campo se abre vacío.
