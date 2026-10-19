@@ -126,11 +126,13 @@ Al pulsar **Aceptar**, la orden guarda las opciones de los cinco pasos, las tole
 
 ### Ejecución con parámetros
 
-`BINTRAM=[tabla] [generar archivo de errores *1] [corregir *2] [agrupar *3] [insertar *4] [cruces *5] [extremos *6] [duplicadas *7] [unión *8]`
+`BINTRAM=[tabla o #etiqueta] [generar archivo de errores *1] [corregir *2] [agrupar *3] [insertar *4] [cruces *5] [extremos *6] [duplicadas *7] [unión *8]`
 
 Todos los parámetros son obligatorios. Si falta alguno, la orden emite el sonido de error, muestra el aviso _Faltan parámetros_ y termina sin modificar el dibujo. Las distancias van en metros, como en el cuadro. Los valores no se comprueban ni se guardan.
 
-* **tabla**: ruta, entre comillas, de un archivo de texto con los códigos. La orden toma la primera palabra de cada línea. Si no puede abrir el archivo, escribe el error en el panel Resultados y termina.
+* **tabla o #etiqueta**: una de estas dos formas:
+  * la ruta, entre comillas, de un archivo de texto con los códigos. La orden toma la primera palabra de cada línea. Si no puede abrir el archivo, escribe el error en el panel Resultados y termina;
+  * `#` seguido del nombre de una etiqueta de la tabla de códigos, por ejemplo `#altimetria`. La orden usa los códigos que tienen esa etiqueta, en el orden en que están en la tabla de códigos; es el orden que decide qué entidad se conserva con `*7` igual a `2` o `4`. Si ningún código tiene la etiqueta, escribe el error en el panel Resultados y termina.
 * **\*1** `1` o `0`. Con `1` siguen siete parámetros: `[archivo de errores] [eliminar si existe 1/0] [tamaño del error] [código de cruces] [código de extremos] [código de duplicadas] [cargar como archivo de dibujo 1/0]`. Si el archivo no lleva ruta, se crea en la carpeta del archivo de dibujo. Si su nombre no termina en `bind`, la orden le añade `.bind`.
 * **\*2** `1` o `0`. Con `1` sigue la tolerancia de alargar o recortar.
 * **\*3** `1` o `0`. Con `1` sigue la tolerancia de agrupar vértices.
@@ -145,6 +147,12 @@ Ejemplo:
 `BINTRAM="C:\ASTE.tab" 1 "C:\err.bind" 1 2 cod1 cod2 cod3 1 1 0.3 0 0 4 0.2 2 0.5 1 1 1 1 1`
 
 Usa los códigos de `C:\ASTE.tab`; genera `C:\err.bind`, borrándolo si existe, con símbolos de 2 m de códigos `cod1`, `cod2` y `cod3`, y lo carga al terminar; alarga o recorta con 0,3 m; no agrupa ni inserta vértices; marca los cruces con diferencia de Z mayor que 0,2; marca los extremos sueltos con otra línea a menos de 0,5 m; marca las líneas, los puntos y los textos duplicados, y une las líneas por código.
+
+`BINTRAM=#altimetria 0 0 0 0 2 0 0 1`
+
+Usa los códigos que tienen la etiqueta `altimetria`; no genera archivo de errores; no alarga, agrupa ni inserta vértices; parte las líneas por los cruces; no busca extremos no conectados ni duplicadas, y une las líneas por código.
+
+Mientras escribes los parámetros en la línea de órdenes, la ayuda que aparece encima muestra en negrita el parámetro que toca escribir y, debajo, el significado de cada valor que admite. Los parámetros que dependen de un valor anterior, como los siete del archivo de errores, aparecen cuando escribes ese valor.
 
 Cada paso se aplica completo o no se aplica: si Digi3D.AI descarta alguna de las entidades nuevas de un paso, ese paso no cambia el archivo de dibujo y se conservan las entidades originales. Los demás pasos se aplican con normalidad. Si el control de calidad descarta la entidad agrupada al agrupar duplicadas, se conservan las entidades duplicadas de ese grupo.
 
