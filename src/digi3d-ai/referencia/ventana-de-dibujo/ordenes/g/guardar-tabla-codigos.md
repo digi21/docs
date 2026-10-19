@@ -5,11 +5,15 @@ Guarda en un archivo la tabla de códigos activa.
 
 ## Parámetros
 
-No admite parámetros.
+| Número de parámetro | Descripción | Opcional |
+| :--- | :--- | :--- |
+| 1 | Archivo en el que se guarda la tabla de códigos. Si la ruta contiene espacios, escríbela entre comillas. | Sí |
 
 ## Observaciones
 
-La orden muestra un cuadro de diálogo para indicar el archivo y guarda en él la tabla de códigos. La extensión por defecto es `.tab.xml`. Si la tabla de códigos activa está cifrada, la orden termina sin mostrar el cuadro de diálogo ni guardar nada.
+Sin parámetros, la orden muestra un cuadro de diálogo para indicar el archivo y guarda en él la tabla de códigos. La extensión por defecto es `.tab.xml`. Con el archivo como parámetro, guarda la tabla en ese archivo sin mostrar el cuadro. Si la tabla de códigos activa está cifrada, la orden termina sin mostrar el cuadro de diálogo ni guardar nada.
+
+Si se graba una macro, la orden anota como parámetro el archivo elegido en el cuadro. Si cancelas el cuadro, no se anota.
 
 ## Características de la orden
 

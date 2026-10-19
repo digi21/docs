@@ -5,7 +5,27 @@ Aplica una transformación de coordenadas a las entidades del archivo de dibujo 
 
 ## Parámetros
 
-No admite parámetros.
+Sin parámetros, la orden muestra el cuadro de diálogo _Transformación_. Con parámetros, aplica la transformación sin mostrar el cuadro. Hay dos formas:
+
+`TRANSFORMA=[tipo] [archivo]`
+
+* **tipo**: `HELMERT`, `AFIN`, `ABSOLUTA`, `TRASLACION`, `TENSOR3X3` o `TENSOR4X4`, sin distinguir mayúsculas. Son los tipos del desplegable del cuadro, salvo la escala.
+* **archivo**: el archivo de puntos o de la matriz que pide ese tipo en el cuadro. Si la ruta contiene espacios, escríbela entre comillas.
+
+`TRANSFORMA=ESCALA [factor X] [factor Y] [factor Z] [escalar la altura de los textos]`
+
+* **factor X**, **factor Y** y **factor Z**: números reales, con punto decimal.
+* **escalar la altura de los textos**: `1` escala la altura de los textos; `0` la conserva.
+
+Si los parámetros no corresponden a ninguna de las dos formas, la orden muestra un mensaje de error y termina sin transformar nada.
+
+Ejemplos:
+
+`TRANSFORMA=HELMERT "C:\puntos.txt"`
+
+`TRANSFORMA=ESCALA 2 2 1 0`
+
+Si se graba una macro, la orden anota como parámetros el tipo y los valores elegidos en el cuadro. Si cancelas el cuadro, no se anota.
 
 ## Observaciones
 
