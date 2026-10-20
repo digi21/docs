@@ -6,7 +6,7 @@ Novedades y correcciones de cada versión publicada de Digi3D.AI.
 
 ## 2026
 
-* [2027.0.0.410](2026/2027-0-0-410.md) — 17/10/2026 · 158 novedades, 7 correcciones
+* [2027.0.0.411](2026/2027-0-0-411.md) — 20/10/2026 · 163 novedades, 9 correcciones
 
 ## 2025
 
