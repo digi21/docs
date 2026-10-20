@@ -25,23 +25,33 @@ Selecciona **Ventana → Chat con IA**. El panel es acoplable, como los demás p
 La primera vez que abres el panel hay que elegir un proveedor y configurarlo:
 
 1. Elige el proveedor en el desplegable **Proveedor** de la cabecera del panel.
-2. Pulsa el botón **⚙** de la cabecera. Aparecen los campos **URL** y **API key**.
-3. Escribe la **API key** (clave de acceso) que te ha dado el proveedor. Los servidores locales no
-   necesitan clave.
-4. Revisa la **URL**. Si el campo está vacío, Digi3D.AI usa la dirección habitual del proveedor, que
-   aparece en gris dentro del campo. Azure OpenAI y OpenAI-compatible no tienen dirección habitual: en
-   esos proveedores escribe la URL. Cámbiala también para un servidor local en otro equipo.
-5. Pulsa **Guardar**.
+2. Pulsa el botón de engranaje **⚙** de la cabecera. Se abre el cuadro de diálogo
+   [Configuración](../cuadros-de-dialogo/configuracion/README.md) con la categoría
+   [**Asistente de IA**](../cuadros-de-dialogo/configuracion/asistente-de-ia/README.md) seleccionada.
+3. Despliega el elemento del proveedor y escribe la
+   [**Clave de API**](../cuadros-de-dialogo/configuracion/asistente-de-ia/clave-de-api-del-proveedor-de-ia.md)
+   que te ha dado el proveedor. Los servidores locales no necesitan clave.
+4. Revisa la [**URL**](../cuadros-de-dialogo/configuracion/asistente-de-ia/url-del-proveedor-de-ia.md).
+   Si el campo está vacío, Digi3D.AI usa la dirección habitual del proveedor. Azure OpenAI y
+   OpenAI-compatible no tienen dirección habitual: en esos proveedores escribe la URL. Cámbiala también
+   para un servidor local en otro equipo.
+5. Pulsa **Aceptar**.
 6. Elige el modelo en el desplegable **Modelo**. Sin un modelo elegido, el asistente no envía la
    petición y muestra un aviso en la conversación.
 
 Digi3D.AI guarda la configuración de cada proveedor por separado, así que puedes cambiar de proveedor
-sin volver a escribir las claves. La URL y el modelo se guardan para cada usuario de _Windows_. La API
-key se guarda cifrada con la protección de datos de _Windows_ (DPAPI) a nivel de equipo: la comparten
+sin volver a escribir las claves. La URL y el modelo se guardan para cada usuario de _Windows_. La clave
+de API se guarda cifrada con la protección de datos de _Windows_ (DPAPI) a nivel de equipo: la comparten
 todos los usuarios del equipo y no sirve si se copia a otro equipo.
 
-Al guardar una URL o una API key nuevas, el asistente olvida la conversación en curso, aunque los
-mensajes siguen en pantalla.
+Al aceptar el cuadro Configuración con una URL o una clave de API nuevas del proveedor activo, el
+asistente olvida la conversación en curso, aunque los mensajes siguen en pantalla.
+
+La categoría **Asistente de IA** contiene además estas opciones del panel:
+[Mostrar el código de run_python](../cuadros-de-dialogo/configuracion/asistente-de-ia/mostrar-codigo-run-python.md),
+[Mostrar el contador de tokens](../cuadros-de-dialogo/configuracion/asistente-de-ia/mostrar-contador-de-tokens.md),
+[Confirmar las operaciones peligrosas](../cuadros-de-dialogo/configuracion/asistente-de-ia/confirmar-operaciones-peligrosas.md)
+y [Crear el panel de chat al iniciar](../cuadros-de-dialogo/configuracion/asistente-de-ia/crear-panel-de-chat-al-iniciar.md).
 
 Las instrucciones de cada proveedor están en estas páginas:
 
@@ -58,8 +68,9 @@ El desplegable **Modelo** muestra:
 
 - los modelos recomendados del proveedor, si los tiene;
 - los modelos que devuelve el servidor del proveedor. Digi3D.AI pide esta lista al arrancar, al
-  cambiar a un proveedor cuya lista todavía no se ha pedido y al guardar una URL o una API key nuevas.
-  No la pide si falta la URL o si falta la API key en un proveedor que la necesita. Azure OpenAI no
+  cambiar a un proveedor cuya lista todavía no se ha pedido y al aceptar el cuadro Configuración con una
+  URL o una clave de API nuevas. No la pide si falta la URL o si falta la clave de API en un proveedor
+  que la necesita. Azure OpenAI no
   ofrece esta lista. Para pedirla otra vez, pulsa **↻**;
 - **Otro...**, para escribir a mano el identificador de un modelo que no aparece en la lista.
 
@@ -180,18 +191,23 @@ operaciones.
 
 ## Ajustes avanzados
 
-Estos ajustes se cambian en el registro de Windows, en la clave
-`HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration`. Son valores DWORD.
-`ClaudeChatLimiteSegundos` se lee en cada operación del asistente. Los demás se leen al arrancar
-Digi3D.AI, así que un cambio requiere reiniciar el programa.
+El límite de duración de una operación se cambia en el registro de Windows, en la clave
+`HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration`. Es un valor DWORD que Digi3D.AI
+lee en cada operación del asistente.
 
 | Valor | Por omisión | Efecto |
 |---|---|---|
 | `ClaudeChatLimiteSegundos` | 300 | Segundos que puede durar una operación del asistente antes de detenerse sola. 0 quita el límite. |
-| `ClaudeChatConfirmaciones` | 1 | 0 desactiva el cuadro **Confirmación de seguridad**. No se recomienda. |
-| `ClaudeChatTokens` | 0 | 1 muestra en la cabecera los *tokens* (unidades de texto por las que cobran los proveedores) consumidos en la conversación. |
-| `ClaudeChatDebug` | 0 | 1 muestra en la conversación el código que ejecuta el asistente y su resultado, para diagnosticar problemas. |
-| `CrearPanelChat` | 1 | 0 hace que Digi3D.AI no cree el panel de chat al arrancar. |
+
+Las demás opciones del panel se cambian en el cuadro Configuración, categoría
+[Asistente de IA](../cuadros-de-dialogo/configuracion/asistente-de-ia/README.md):
+
+| Opción | Valor del registro | Por omisión |
+|---|---|---|
+| [Confirmar las operaciones peligrosas](../cuadros-de-dialogo/configuracion/asistente-de-ia/confirmar-operaciones-peligrosas.md) | `ClaudeChatConfirmaciones` | Sí |
+| [Mostrar el contador de tokens](../cuadros-de-dialogo/configuracion/asistente-de-ia/mostrar-contador-de-tokens.md) | `ClaudeChatTokens` | No |
+| [Mostrar el código de run_python](../cuadros-de-dialogo/configuracion/asistente-de-ia/mostrar-codigo-run-python.md) | `ClaudeChatDebug` | No |
+| [Crear el panel de chat al iniciar](../cuadros-de-dialogo/configuracion/asistente-de-ia/crear-panel-de-chat-al-iniciar.md) | `CrearPanelChat` | Sí |
 
 Un administrador puede sustituir las instrucciones que recibe el asistente creando el archivo de
 texto `%PROGRAMDATA%\Digi3D.NET\ChatSystemPromptParteA.txt`. Si el archivo existe y no está vacío,

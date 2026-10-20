@@ -99,7 +99,8 @@ petición. La primera petición después de una pausa es, por eso, más lenta.
 2. Elige **Ollama** en el desplegable **Proveedor**. Ollama no necesita API key.
 3. Si Ollama está en el mismo equipo, deja la URL que aparece por omisión: `http://localhost:11434/v1`.
    Si Ollama está en un servidor de la red, pulsa **⚙**, cambia `localhost` por el nombre o la dirección
-   IP del servidor y pulsa **Guardar** (ver *Usar Ollama como servidor de la red*).
+   IP del servidor en la **URL** de Ollama, en la categoría **Asistente de IA** del cuadro Configuración, y
+   pulsa **Aceptar** (ver *Usar Ollama como servidor de la red*).
 4. Elige `gpt-oss:20b` en el desplegable **Modelo**.
 
 ## 6. Probar la configuración

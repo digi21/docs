@@ -14,8 +14,9 @@ en la web de cada proveedor antes de empezar.
    se indica en su sección.
 2. En Digi3D.AI, selecciona **Ventana → Chat con IA**.
 3. Elige el proveedor en el desplegable **Proveedor**.
-4. Pulsa **⚙**, pega la API key en el campo **API key** y pulsa **Guardar**. Digi3D.AI pide al proveedor
-   la lista de modelos disponibles para tu cuenta.
+4. Pulsa **⚙**. Se abre el cuadro Configuración con la categoría **Asistente de IA**. Despliega el
+   elemento del proveedor, pega la clave en el campo **Clave de API** y pulsa **Aceptar**. Digi3D.AI pide
+   al proveedor la lista de modelos disponibles para tu cuenta.
 5. Elige el modelo en el desplegable **Modelo**.
 6. Escribe una de las [peticiones de ejemplo](README.md#ejemplos-de-peticiones) para comprobar que
    funciona.
@@ -89,7 +90,7 @@ El modelo tiene que admitir el uso de herramientas y un contexto de al menos 32.
 | Mensaje o síntoma | Causa y solución |
 |---|---|
 | *No hay ningún modelo elegido para…* | El desplegable **Modelo** está vacío. Elige un modelo, o escribe su identificador con **Otro...**. |
-| *No se pudo obtener la lista de modelos…* | La URL o la API key no son correctas, o no hay conexión con el proveedor. Revísalas con **⚙** y pulsa **↻**. |
+| *No se pudo obtener la lista de modelos…* | La URL o la API key no son correctas, o no hay conexión con el proveedor. Revísalas con **⚙** (categoría **Asistente de IA** del cuadro Configuración) y pulsa **↻**. |
 | *Error HTTP 401* | La API key no es válida o ha caducado. Genera otra en la web del proveedor. |
 | *Error HTTP 429* | Se ha superado el límite de uso o el saldo de la cuenta. Digi3D.AI repite la petición hasta 3 veces; si el error persiste, revisa la cuenta en la web del proveedor. |
 | El asistente responde con código en lugar de hacer la tarea | El modelo no admite el uso de herramientas. Elige otro modelo. |

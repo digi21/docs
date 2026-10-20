@@ -14,23 +14,28 @@ trabaja.
 
 El servidor está desactivado por omisión. Para activarlo:
 
-1. Abre el panel de chat con **Ventana → Chat con IA**.
-2. Pulsa el botón **⚙** de la cabecera del panel.
-3. En el bloque **Servidor MCP**, marca **Activado**.
-4. Si el puerto 4457 está ocupado por otro programa, escribe otro número en **Puerto** y pulsa
-   **Aplicar**.
+1. Selecciona **Herramientas/Configuración...**. Se abre el cuadro de diálogo
+   [Configuración](../cuadros-de-dialogo/configuracion/README.md).
+2. Abre la categoría [**Servidor MCP**](../cuadros-de-dialogo/configuracion/servidor-mcp/README.md).
+3. Cambia [**Activado**](../cuadros-de-dialogo/configuracion/servidor-mcp/activar-servidor-mcp.md) a
+   **Sí**.
+4. Si otro programa usa el puerto 4457, escribe otro número en
+   [**Puerto**](../cuadros-de-dialogo/configuracion/servidor-mcp/puerto-del-servidor-mcp.md).
+5. Pulsa **Aceptar**. Si has cambiado **Activado**, **Puerto** o **Token**, Digi3D.AI reinicia el
+   servidor.
 
-Debajo de las casillas aparece el estado del servidor: **Escuchando en http://127.0.0.1:4457/mcp**
-cuando funciona. Si aparece **el puerto está ocupado**, otro programa —normalmente otra instancia de
-Digi3D.AI— usa ese puerto: cambia el número del puerto o cierra la otra instancia.
+Cuando el servidor arranca, Digi3D.AI escribe en la ventana **Resultados** la dirección
+`http://127.0.0.1:4457/mcp`, con el puerto configurado. Si el puerto está ocupado, escribe en esa
+ventana que el servidor no ha arrancado: otro programa —normalmente otra instancia de Digi3D.AI— usa ese
+puerto. Cambia el número del puerto o cierra la otra instancia.
 
-Digi3D.AI recuerda si el servidor está activado y lo arranca cada vez que se inicia el programa. Cuando
-el servidor arranca, Digi3D.AI escribe la dirección en la ventana **Resultados**.
+Digi3D.AI recuerda si el servidor está activado y lo arranca cada vez que se inicia el programa.
 
 ## Conectar Claude Code
 
-1. En el bloque **Servidor MCP**, pulsa **Copiar orden para Claude Code**. Digi3D.AI copia al
-   portapapeles una orden como esta:
+1. En la categoría **Servidor MCP** del cuadro Configuración, pulsa el botón **Copiar** de la opción
+   [**Claude Code**](../cuadros-de-dialogo/configuracion/servidor-mcp/conectar-claude-code.md). Digi3D.AI
+   copia al portapapeles una orden como esta:
 
    ```
    claude mcp add --transport http digi3d http://127.0.0.1:4457/mcp --header "Authorization: Bearer 3f9a…"
@@ -40,8 +45,9 @@ el servidor arranca, Digi3D.AI escribe la dirección en la ventana **Resultados*
 3. Abre Claude Code y pide algo sobre el dibujo, por ejemplo *«dibuja en Digi3D una línea de (0,0,0) a
    (100,100,0) con el código 020100 y haz una captura de la ventana»*.
 
-La orden incluye el **token**, una clave que Digi3D.AI genera la primera vez que se activa el servidor.
-Digi3D.AI rechaza cualquier petición que no lleve ese token.
+La orden incluye el [**token**](../cuadros-de-dialogo/configuracion/servidor-mcp/token-del-servidor-mcp.md),
+una clave que Digi3D.AI genera la primera vez que se activa el servidor. Digi3D.AI rechaza cualquier
+petición que no lleve ese token.
 
 ## Conectar Claude Desktop
 
@@ -49,14 +55,15 @@ Claude Desktop no se conecta directamente a una dirección HTTP local: lanza un 
 por su entrada y su salida estándar. Ese programa es `Digi3D.Mcp.exe`, que está en la carpeta de
 instalación de Digi3D.AI y reenvía cada mensaje a la instancia de Digi3D.AI abierta.
 
-1. En el bloque **Servidor MCP**, pulsa **Copiar configuración de Claude Desktop**. Digi3D.AI copia al
-   portapapeles un fragmento como este:
+1. En la categoría **Servidor MCP** del cuadro Configuración, pulsa el botón **Copiar** de la opción
+   [**Claude Desktop**](../cuadros-de-dialogo/configuracion/servidor-mcp/conectar-claude-desktop.md).
+   Digi3D.AI copia al portapapeles un fragmento como este:
 
    ```json
    {
      "mcpServers": {
        "digi3d": {
-         "command": "C:\\Program Files\\Digi21\\Digi3D.AI\\Digi3D.Mcp.exe"
+         "command": "C:\\Program Files\\Digi21.net\\Digi3D.AI\\Digi3D.Mcp.exe"
        }
      }
    }
@@ -127,16 +134,18 @@ preguntar a ningún cliente MCP hasta que el servidor se reinicie.
 
 - El servidor solo acepta conexiones del propio equipo (`127.0.0.1`). Otros equipos de la red no
   pueden conectarse.
-- Cada petición debe llevar el token. Pulsa **Regenerar token** si crees que otra persona lo conoce;
-  después vuelve a configurar los clientes, porque el token anterior deja de valer.
+- Cada petición debe llevar el token. Pulsa **Regenerar** en la opción **Token** del cuadro Configuración y **Aceptar** si crees que otra
+  persona lo conoce; después vuelve a configurar los clientes, porque el token anterior deja de valer.
 - El servidor rechaza las peticiones que vienen de una página web abierta en el navegador.
 - El token se guarda sin cifrar en el registro de _Windows_ del usuario y en
   `%LOCALAPPDATA%\Digi3D.NET\mcp.json`. Cualquier programa que se ejecute con tu usuario puede leerlo.
 
 ## Ajustes en el registro
 
-Los valores están en la clave `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration`. Sirven,
-por ejemplo, si el panel de chat está desactivado con `CrearPanelChat`. Digi3D.AI los lee al arrancar.
+Las opciones de la categoría [Servidor MCP](../cuadros-de-dialogo/configuracion/servidor-mcp/README.md)
+del cuadro Configuración se guardan en la clave
+`HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\App\Configuration`. Esta tabla permite cambiarlas fuera
+del cuadro, por ejemplo con una herramienta de despliegue. Digi3D.AI las lee al arrancar.
 
 | Valor | Tipo | Por omisión | Efecto |
 |---|---|---|---|

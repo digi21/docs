@@ -52,6 +52,17 @@ Configura cómo se generan los arcos y las circunferencias.
 * **[Mínimo de puntos](arcos-y-circunferencias/minimo-de-puntos.md)** — Número mínimo de vértices de un arco.
 * **[Máximo de puntos](arcos-y-circunferencias/maximo-de-puntos.md)** — Número máximo de vértices de un arco.
 
+### Asistente de IA
+
+Configura el panel de chat con IA: la URL y la clave de API de cada proveedor, y el comportamiento del panel.
+
+* **[URL](asistente-de-ia/url-del-proveedor-de-ia.md)** — Dirección base de la API de un proveedor.
+* **[Clave de API](asistente-de-ia/clave-de-api-del-proveedor-de-ia.md)** — Clave que da el proveedor para usar su API.
+* **[Mostrar el código de run_python](asistente-de-ia/mostrar-codigo-run-python.md)** — Muestra en el chat el código Python que ejecuta el asistente.
+* **[Mostrar el contador de tokens](asistente-de-ia/mostrar-contador-de-tokens.md)** — Muestra en la cabecera del panel los tokens de la conversación.
+* **[Confirmar las operaciones peligrosas](asistente-de-ia/confirmar-operaciones-peligrosas.md)** — Pide confirmación antes de borrar geometrías, escribir o borrar archivos o acceder a la red.
+* **[Crear el panel de chat al iniciar](asistente-de-ia/crear-panel-de-chat-al-iniciar.md)** — Crea el panel de chat al arrancar Digi3D.AI.
+
 ### Barras de herramientas
 
 Configura el aspecto de las barras de herramientas.
@@ -553,6 +564,16 @@ Permite a varios equipos compartir en tiempo real las modificaciones de los arch
 * **[Crear servidor](servidor-de-archivos-de-referencia/crear-servidor.md)** — Crea un servidor para informar al resto de equipos cuando se actualiza un archivo de dibujo.
 * **[Puerto](servidor-de-archivos-de-referencia/puerto.md)** — Puerto en el que se crea el servidor.
 * **[Conectar con servidores](servidor-de-archivos-de-referencia/conectar-con-servidores.md)** — Se conecta con el servidor que ha bloqueado un archivo de dibujo para recibir sus modificaciones en tiempo real.
+
+### Servidor MCP
+
+Configura el servidor que permite a Claude Code, Claude Desktop u otro cliente MCP trabajar en Digi3D.AI.
+
+* **[Activado](servidor-mcp/activar-servidor-mcp.md)** — Activa el servidor MCP.
+* **[Puerto](servidor-mcp/puerto-del-servidor-mcp.md)** — Puerto TCP en el que escucha el servidor.
+* **[Token](servidor-mcp/token-del-servidor-mcp.md)** — Clave que envían los clientes para conectar.
+* **[Claude Code](servidor-mcp/conectar-claude-code.md)** — Copia la orden que conecta Claude Code.
+* **[Claude Desktop](servidor-mcp/conectar-claude-desktop.md)** — Copia la configuración que conecta Claude Desktop.
 
 ### Sistema de referencia de coordenadas
 

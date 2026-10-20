@@ -67,7 +67,8 @@ ejemplo `openai/gpt-oss-20b:2`) y las dos copias ocupan memoria de la tarjeta gr
 2. Elige **LM Studio** en el desplegable **Proveedor**. LM Studio no necesita API key.
 3. Si LM Studio está en el mismo equipo, deja la URL que aparece por omisión: `http://localhost:1234/v1`.
    Si está en otro equipo de la red, pulsa **⚙**, cambia `localhost` por el nombre o la dirección IP de
-   ese equipo y pulsa **Guardar**.
+   ese equipo en la **URL** de LM Studio, en la categoría **Asistente de IA** del cuadro Configuración, y
+   pulsa **Aceptar**.
 4. El desplegable **Modelo** muestra los modelos **cargados** en LM Studio. Elige `openai/gpt-oss-20b`.
 
 ## 6. Probar la configuración
