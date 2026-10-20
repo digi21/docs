@@ -3,6 +3,8 @@
 
 Configura el [servidor MCP](../../../asistente-ia/servidor-mcp.md), que permite a Claude Code, Claude Desktop u otro cliente MCP trabajar en Digi3D.AI.
 
+![Cuadro de diálogo Configuración con la categoría Servidor MCP desplegada](../../../../../images/configuracion-servidor-mcp.png)
+
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 
 ## Opciones
