@@ -5,11 +5,11 @@ El botón **Copiar** copia al portapapeles el fragmento de `claude_desktop_confi
 
 ## Uso
 
-1. Pulsa **Copiar**.
-2. En Claude Desktop, abre **Settings → Developer → Edit Config**. Se abre el archivo `claude_desktop_config.json`.
-3. Añade la entrada `digi3d` dentro de `mcpServers`. Si el archivo no tiene `mcpServers`, pega el fragmento completo.
-4. Reinicia Claude Desktop.
-5. Pulsa **Aceptar** en el cuadro Configuración para activar el servidor si no lo estaba.
+1. Activa la opción [Activado](activar-servidor-mcp.md).
+2. Pulsa **Copiar**. Antes de copiar, el botón guarda **Activado**, **Puerto** y **Token** y, si alguno ha cambiado, reinicia el servidor.
+3. En Claude Desktop, abre **Settings → Developer → Edit Config**. Se abre el archivo `claude_desktop_config.json`.
+4. Añade la entrada `digi3d` dentro de `mcpServers`. Si el archivo no tiene `mcpServers`, pega el fragmento completo.
+5. Reinicia Claude Desktop.
 
 El fragmento copiado tiene este formato. La ruta es la de la carpeta donde está instalado Digi3D.AI:
 
@@ -25,4 +25,4 @@ El fragmento copiado tiene este formato. La ruta es la de la carpeta donde está
 
 El fragmento no contiene el puerto ni el token: `Digi3D.Mcp.exe` los lee del archivo `%LOCALAPPDATA%\Digi3D.NET\mcp.json`, que Digi3D.AI escribe al arrancar el servidor y borra al pararlo. Si Digi3D.AI no está abierto, el cliente recibe un error que lo indica.
 
-Si el token está vacío, el botón crea uno nuevo antes de copiar. Si el portapapeles no está disponible, Digi3D.AI muestra el mensaje «No se ha podido copiar al portapapeles.».
+Si el token está vacío, el botón crea uno nuevo y lo guarda antes de copiar. Si el portapapeles no está disponible, Digi3D.AI muestra el mensaje «No se ha podido copiar al portapapeles.».

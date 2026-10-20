@@ -7,9 +7,9 @@ Cambia el puerto si otro programa, normalmente otra instancia de Digi3D.AI, ya u
 
 ## Valores posibles
 
-Un número entero entre 1 y 65535. Si el valor está fuera de ese rango, Digi3D.AI conserva el puerto anterior.
+Un número entero entre 1 y 65535. Si el valor está fuera de ese rango, al pulsar **Aceptar**, **Regenerar** o **Copiar** Digi3D.AI muestra el mensaje «El puerto del servidor MCP tiene que estar entre 1 y 65535.» y no guarda nada: el cuadro sigue abierto para corregirlo.
 
-Si cambias esta opción, **Activado** o **Token**, Digi3D.AI reinicia el servidor al pulsar **Aceptar**.
+Si cambias esta opción, **Activado** o **Token**, Digi3D.AI reinicia el servidor al pulsar **Aceptar**, **Regenerar** o **Copiar**.
 
 <details>
 <summary>Dónde se almacena</summary>

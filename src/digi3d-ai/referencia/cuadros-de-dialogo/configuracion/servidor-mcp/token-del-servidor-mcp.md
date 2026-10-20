@@ -5,11 +5,11 @@ Clave que los clientes MCP envían en cada petición para conectar con el [servi
 
 ## Botón Regenerar
 
-El botón **Regenerar** crea un token nuevo de 64 caracteres hexadecimales (32 bytes aleatorios). El token nuevo se guarda al pulsar **Aceptar**. Cuando el servidor se reinicia, los clientes configurados con el token anterior dejan de conectar: vuelve a configurarlos con [Claude Code](conectar-claude-code.md) o [Claude Desktop](conectar-claude-desktop.md).
+El botón **Regenerar** crea un token nuevo de 64 caracteres hexadecimales (32 bytes aleatorios), lo guarda junto con **Activado** y **Puerto** y reinicia el servidor, sin esperar a **Aceptar**. Desde ese momento, los clientes configurados con el token anterior dejan de conectar: vuelve a configurarlos con [Claude Code](conectar-claude-code.md) o [Claude Desktop](conectar-claude-desktop.md).
 
-Si el token está vacío, el botón **Copiar** de Claude Code o de Claude Desktop crea un token nuevo antes de copiar. Si el token sigue vacío al arrancar el servidor, Digi3D.AI crea uno y lo guarda.
+Si el token está vacío, el botón **Copiar** de Claude Code o de Claude Desktop crea un token nuevo y lo guarda antes de copiar. Si el token sigue vacío al arrancar el servidor, Digi3D.AI crea uno y lo guarda.
 
-Si cambias esta opción, **Activado** o **Puerto**, Digi3D.AI reinicia el servidor al pulsar **Aceptar**.
+Si cambias esta opción, **Activado** o **Puerto**, Digi3D.AI reinicia el servidor.
 
 <details>
 <summary>Dónde se almacena</summary>

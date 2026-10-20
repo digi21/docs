@@ -17,6 +17,6 @@ Configura estas opciones desde el cuadro de diálogo de **[Configuración](../RE
 
 Los cambios se guardan al pulsar **Aceptar** en el cuadro Configuración. Si has cambiado **Activado**, **Puerto** o **Token**, Digi3D.AI guarda los tres valores y reinicia el servidor. Si no has cambiado ninguno de los tres, el servidor sigue funcionando sin reiniciarse.
 
-Los botones **Copiar** usan los valores que muestra el cuadro en ese momento, aunque todavía no hayas pulsado **Aceptar**.
+Los botones **Regenerar** y **Copiar** aplican ya los tres valores que muestra el cuadro, del mismo modo: lo copiado conecta aunque después pulses **Cancelar**.
 
 La opción [Confirmar las operaciones peligrosas](../asistente-de-ia/confirmar-operaciones-peligrosas.md) de la categoría Asistente de IA también afecta a los clientes MCP.

@@ -7,7 +7,7 @@ Claude, OpenAI, Azure OpenAI, Kimi y OpenRouter necesitan clave de API. LM Studi
 
 Digi3D.AI guarda la clave cifrada con DPAPI (*Data Protection API*, la protección de datos de _Windows_) con alcance de equipo. Todos los usuarios de _Windows_ del equipo comparten la clave, y el valor cifrado no sirve en otro equipo.
 
-Digi3D.AI guarda la clave solo si la has cambiado en el cuadro. Elimina los espacios del principio y del final.
+Digi3D.AI guarda la clave solo si la has cambiado en el cuadro. Elimina los espacios del principio y del final. Para borrar la clave guardada, vacía el campo y pulsa **Aceptar**.
 
 ## Valores posibles
 
