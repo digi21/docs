@@ -71,7 +71,7 @@ La opción del menú **Ventana fotogramétrica/Teclado/Programador de teclas** e
 * No admite el parámetro: no tiene nombre de orden y solo se ejecuta desde esa opción del menú.
 * El cuadro **Asignación de tecla** no se puede redimensionar ni guarda su posición.
 
-En la ventana fotogramétrica, la tecla _Intro_ abre siempre el cuadro [Introduce el nombre de la orden](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/README.md), aunque tenga órdenes asignadas.
+En la ventana fotogramétrica, la tecla _Intro_ abre siempre el [campo para escribir una orden](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/README.md#en-la-ventana-fotogramétrica) en la barra de mensajes, aunque tenga órdenes asignadas.
 
 ## Características de la orden
 

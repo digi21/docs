@@ -50,14 +50,16 @@ Cada ventana de dibujo lee el archivo al abrirse. Una orden ejecutada en otra ve
 
 ## En la ventana fotogramétrica
 
-En la ventana fotogramétrica, al pulsar **Intro** se abre el cuadro de diálogo **Introduce el nombre de la orden**. _Intro_ abre siempre este cuadro, aunque la tecla tenga órdenes asignadas en el teclado virtual activo.
+En la ventana fotogramétrica, al pulsar **Intro** la barra de mensajes muestra el mismo campo que en la ventana de dibujo. _Intro_ abre siempre este campo, aunque la tecla tenga órdenes asignadas en el teclado virtual activo.
 
-![Cuadro de diálogo Introduce el nombre de la orden](../../../../../images/introduce-el-nombre-de-la-orden.png)
+El campo funciona igual que en la ventana de dibujo, con estas diferencias:
 
-* **Orden**: el nombre de la orden. Para pasarle parámetros, escribe el nombre, un signo igual (=) y los parámetros, por ejemplo `velocidad=5.75 4.22`. Todo lo que sigue al primer signo igual se pasa a la orden como parámetros.
-* **Usar texto predictivo**: con la casilla marcada, la lista del campo **Orden** contiene en minúsculas los nombres de todas las [órdenes de la ventana fotogramétrica](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/README.md) y completa el nombre mientras se escribe. Con la casilla desmarcada, la lista contiene las órdenes ejecutadas desde este cuadro desde que se inició Digi3D.AI, ordenadas alfabéticamente, y el campo muestra la última orden ejecutada. Digi3D.AI guarda el estado de la casilla al pulsar **Ejecutar**.
-* **Ejecutar**: cierra el cuadro y ejecuta la orden. Pulsar _Intro_ equivale a pulsar este botón.
+* Solo ejecuta [órdenes de la ventana fotogramétrica](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/README.md), y el autocompletado propone solo sus nombres.
+* Las órdenes de la ventana fotogramétrica no describen sus parámetros: encima del campo aparecen el título y la descripción de la orden escrita, en lugar de las formas de ejecutarla.
+* Todo lo que sigue al primer signo igual se pasa a la orden como parámetros, por ejemplo `velocidad=5.75 4.22`.
+* Pulsa _Esc_ para cerrar el campo sin ejecutar ninguna orden.
+* El histórico es distinto del de la ventana de dibujo. Digi3D.AI lo guarda en el archivo `%APPDATA%\Digi3D\HistoricoOrdenesFotogrametria.txt`, con las mismas reglas.
 
-Pulsa _Esc_ para cerrar el cuadro sin ejecutar ninguna orden.
+Si el campo de la ventana de dibujo está abierto, al pulsar **Intro** en la ventana fotogramétrica el foco pasa a ese campo. Al abrir el campo de la ventana de dibujo, el de la ventana fotogramétrica se cierra.
 
-Este cuadro solo ejecuta órdenes de la ventana fotogramétrica. También admite el nombre interno de la orden entre llaves, por ejemplo `{3BE1084C-E1BC-4b4f-AD45-611112560D6B}=5.75` para [VELOCIDAD](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad.md). Si el nombre no corresponde a ninguna orden de la ventana fotogramétrica, Digi3D.AI emite el sonido de error y no ejecuta nada.
+El campo también admite el nombre interno de la orden entre llaves, por ejemplo `{3BE1084C-E1BC-4b4f-AD45-611112560D6B}=5.75` para [VELOCIDAD](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad.md), y el nombre de la orden en el otro idioma de Digi3D.AI. Si el nombre no corresponde a ninguna orden de la ventana fotogramétrica, Digi3D.AI emite el sonido de error y no ejecuta nada.
