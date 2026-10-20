@@ -16,9 +16,9 @@ La extensión no proporciona orientación absoluta.
 El archivo contiene la calibración de la cámara. Si el modelo no tiene archivo de cámara, Digi3D.AI la lee del archivo de aerotriangulación (consulta [Cámara](../README.md#cámara)): busca la cámara que indica `$CAMERA_ID` en la sección `$PHOTO` de la imagen y la lee de la sección `$CAMERA` o `$CAMERA_DEFINITION` con ese `$TYPE` o `$ID`.
 
 * **Cámara analógica** (`$KIND` igual a `FilmFrame`): la orientación interna sale de `$INT_ORI` en la sección `$PHOTO` de la imagen.
-* **Cámara digital** (cualquier otro `$KIND`): la orientación interna sale de `$CCD_INTERIOR_ORIENTATION`, y el tamaño de la imagen, de `$CCD_COLUMNS` y `$CCD_ROWS`. Si la cámara tiene varias calibraciones (`$CALIBRATION_SET`), Digi3D.AI usa la que indica `$ACTIVE_CALIBRATION`.
+* **Cámara digital** (cualquier otro `$KIND`): la orientación interna sale de `$CCD_INTERIOR_ORIENTATION`, y el tamaño de la imagen, de `$CCD_COLUMNS` y `$CCD_ROWS`. Si la cámara tiene varias calibraciones (`$CALIBRATION_SET`), Digi3D.AI lee la orientación interna, la focal, el punto principal y la distorsión de la que indica `$ACTIVE_CALIBRATION`, que es la que Inpho usó en la aerotriangulación.
 
-En los dos casos, Digi3D.AI lee la focal de `$FOCAL_LENGTH`, el punto principal de `$PRINCIPAL_POINT_PPS` o `$PRINCIPAL_POINT_PPA`, y el modelo de distorsión de `$DISTORTION_TYPE`:
+En los dos casos, Digi3D.AI lee la focal de `$FOCAL_LENGTH`, el punto principal de `$PRINCIPAL_POINT_PPS` o `$PRINCIPAL_POINT_PPA`, y el modelo de distorsión de `$DISTORTION_TYPE`. Solo lee los datos del bloque de la propia cámara, o del bloque de su calibración activa, hasta su `$END`:
 
 | `$DISTORTION_TYPE` | Datos que lee |
 |---|---|
@@ -34,6 +34,16 @@ Mensajes de los datos de distorsión:
 * «La tabla $DISTORTION_TABLE del archivo *archivo* tiene un número de puntos de rejilla no válido: *nx* x *ny*»: el número de puntos de la rejilla en X o en Y no está entre 1 y 1000.
 * «Un bloque de $DISTORTION_TABLE del archivo *archivo* no contiene exactamente *nx* x *ny* valores»: el bloque de correcciones en X o el de correcciones en Y tiene más o menos valores que puntos tiene la rejilla.
 * «Una línea de $DISTORTION del archivo *archivo* tiene menos de 2 valores: *línea*»: una línea de la tabla de `SimpleRadial` no tiene radio y distorsión.
+
+### Origen de los píxeles
+
+Si la cámara digital tiene `$PIXEL_REFERENCE : CenterTopLeft`, su orientación interna da los píxeles con el origen en el centro del píxel superior izquierdo. Digi3D.AI cuenta los píxeles desde la esquina de ese píxel, así que suma medio píxel a la orientación interna. Con cualquier `$PIXEL_REFERENCE`, la cámara ya fija el origen de los píxeles y la opción [Origen del píxel](../../../../cuadros-de-dialogo/configuracion/ventana-fotogrametrica/origen-del-pixel.md) no se le aplica.
+
+### Convertir la cámara a .cam
+
+Para obtener un archivo `.cam` de Digi3D con la cámara de un proyecto de Inpho, usa **Convertir a .cam...** en el cuadro de diálogo [Editor de archivos de cámara](../../../../cuadros-de-dialogo/editor-archivos-camara.md#convertir-a-cam). El `.cam` sale de la calibración activa.
+
+### Cámara no localizada
 
 Si no se localiza la cámara de una imagen, ni por su `$CAMERA_ID` ni por el nombre de la imagen, Digi3D.AI muestra el mensaje «No se localizó la cámara con identificador: *identificador* en el archivo: *archivo*».
 
