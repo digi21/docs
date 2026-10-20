@@ -96,10 +96,16 @@ El mensaje del resultado indica:
 
 * **Error medio cuadrático** y **Error máximo**: distancia, en píxeles de la foto, entre el píxel de la cámara de origen y el del archivo `.cam` para el mismo rayo.
 * **Valores**: el valor de `TipoValorDistorsion` elegido.
-* **Tamaño del píxel**: si la cámara de origen da la focal en mm, como Inpho, el tamaño del píxel se deduce de ella. Si no, se usa el de la propiedad **Tamaño del píxel X** de la cuadrícula: escribe el tamaño del píxel de la cámara y vuelve a convertir. El tamaño del píxel solo cambia la escala de las longitudes del `.cam`, no los rayos.
+* **Tamaño del píxel**: las cámaras de Inpho, LPS, Summit, DVP, Pix4D, Vexcel, Intergraph y Digi3D dan la focal en mm, y el tamaño del píxel se deduce de ella. Las de PhotoScan, Metashape, ContextCapture, OpenCV y RapidCal no la dan en mm: para ellas se usa el de la propiedad **Tamaño del píxel X** de la cuadrícula. Si no es el de la cámara, escribe el tamaño correcto y vuelve a convertir. El tamaño del píxel solo cambia la escala de las longitudes del `.cam`, no los rayos.
 * Si la cámara de origen usa otros ejes, como Metashape, el mensaje avisa de que las orientaciones externas del proyecto de origen no sirven con el `.cam`, porque el `.cam` da los ejes con X hacia la derecha e Y hacia arriba de la foto.
+* Si la cámara de origen fija su propio origen de los píxeles (Inpho con `$PIXEL_REFERENCE`, Metashape, OpenCV o ContextCapture) y la opción [Origen del píxel](configuracion/ventana-fotogrametrica/origen-del-pixel.md) está en **Centro del píxel**, el mensaje avisa de que Digi3D.AI desplazará medio píxel el `.cam` y no la cámara de origen: las dos se separan 0,7 píxeles. Con la opción en **Esquina superior izquierda del píxel**, las dos coinciden.
 
-El error es casi nulo cuando la cámara de origen usa el mismo modelo. Si la cámara de origen tiene términos que el `.cam` no tiene, queda un error residual. Por ejemplo, el `.cam` no tiene el coeficiente `k4` (r⁸) de Metashape: en una cámara con `k4` = −0,28 quedan 0,05 px de error medio cuadrático y 0,45 px en las esquinas.
+El error es casi nulo cuando la cámara de origen usa el mismo modelo, o cuando su orientación interna está girada 90°, 180° o 270° respecto a los píxeles. Queda un error residual en estos casos:
+
+* La cámara de origen tiene términos que el `.cam` no tiene. Por ejemplo, el `.cam` no tiene el coeficiente `k4` (r⁸) de Metashape: en una cámara con `k4` = −0,28 quedan 0,05 px de error medio cuadrático y 0,45 px en las esquinas.
+* La orientación interna está girada un ángulo que no es múltiplo de 90°: el `.cam` no tiene un parámetro de giro. Con un giro de 0,1° el error medio cuadrático es de unos 7 px.
+
+En una cámara analógica, la orientación interna es la de la foto elegida: el `.cam` solo reproduce las fotos digitalizadas igual que esa.
 
 Mensajes:
 
