@@ -3,6 +3,8 @@
 
 Configura el [panel de chat con IA](../../../asistente-ia/README.md): la dirección y la clave de API de cada proveedor, y cuatro opciones de comportamiento del panel.
 
+![Cuadro de diálogo Configuración con la categoría Asistente de IA desplegada](../../../../../images/configuracion-asistente-de-ia.png)
+
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**. El botón **⚙** de la cabecera del panel de chat abre ese cuadro con esta categoría seleccionada.
 
 ## Opciones
