@@ -60,6 +60,8 @@ El campo funciona igual que en la ventana de dibujo, con estas diferencias:
 * Pulsa _Esc_ para cerrar el campo sin ejecutar ninguna orden.
 * El histórico es distinto del de la ventana de dibujo. Digi3D.AI lo guarda en el archivo `%APPDATA%\Digi3D\HistoricoOrdenesFotogrametria.txt`, con las mismas reglas.
 
+![Campo de la ventana fotogramétrica con el título y la descripción de la orden escrita](../../../../../images/barramensajessolicitandoordenfotogrametria.png)
+
 Si el campo de la ventana de dibujo está abierto, al pulsar **Intro** en la ventana fotogramétrica el foco pasa a ese campo. Al abrir el campo de la ventana de dibujo, el de la ventana fotogramétrica se cierra.
 
 El campo también admite el nombre interno de la orden entre llaves, por ejemplo `{3BE1084C-E1BC-4b4f-AD45-611112560D6B}=5.75` para [VELOCIDAD](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad.md), y el nombre de la orden en el otro idioma de Digi3D.AI. Si el nombre no corresponde a ninguna orden de la ventana fotogramétrica, Digi3D.AI emite el sonido de error y no ejecuta nada.
