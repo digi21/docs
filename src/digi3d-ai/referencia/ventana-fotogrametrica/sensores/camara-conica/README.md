@@ -24,6 +24,8 @@ Al cargar un modelo, el sensor lee los archivos del directorio de trabajo del mo
 2. Si no la encuentra, usa el archivo de cámara del modelo.
 3. Si tampoco hay archivo de cámara, muestra el cuadro **Archivo de cámara para la imagen izquierda** (o **derecha**) para seleccionar uno. Si se cancela, el modelo no se carga.
 
+Para crear o editar un archivo de cámara, o para convertir a `.cam` de Digi3D la cámara de otro formato o de un proyecto, usa el cuadro de diálogo [Editor de archivos de cámara](../../../cuadros-de-dialogo/editor-archivos-camara.md).
+
 ### Orientación relativa
 
 * **Con Archivo de aerotriangulación**: las extensiones intentan leer ese archivo. Si una de ellas lo lee, las orientaciones exteriores salen de él. Los archivos `<izquierda>-<derecha>.rel.xml`, `<izquierda>-<derecha>.rel` y `<imagen>.orientation.xml` del directorio de trabajo solo se usan si ninguna extensión lee el archivo de aerotriangulación.

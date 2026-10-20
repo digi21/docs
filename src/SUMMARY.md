@@ -1332,6 +1332,7 @@
       * [Crear modelo](digi3d-ai/referencia/cuadros-de-dialogo/crear-modelo.md)
       * [Crear proyecto fotogramétrico](digi3d-ai/referencia/cuadros-de-dialogo/crear-proyecto-fotogrametrico.md)
       * [Crear múltiples modelos](digi3d-ai/referencia/cuadros-de-dialogo/crear-multiples-modelos.md)
+      * [Editor de archivos de cámara](digi3d-ai/referencia/cuadros-de-dialogo/editor-archivos-camara.md)
       * [Error al almacenar datos en la base de datos](digi3d-ai/referencia/cuadros-de-dialogo/error-al-almacenar-datos-en-la-base-de-datos.md)
       * [Error al crear el directorio de la copia de seguridad](digi3d-ai/referencia/cuadros-de-dialogo/error-al-crear-el-directorio-de-la-copia-de-seguridad.md)
       * [Error de control de calidad](digi3d-ai/referencia/cuadros-de-dialogo/error-de-control-de-calidad.md)
