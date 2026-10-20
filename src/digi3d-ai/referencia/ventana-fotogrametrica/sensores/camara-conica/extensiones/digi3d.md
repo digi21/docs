@@ -24,26 +24,73 @@ La extensión crea la cámara de una imagen a partir de:
 
 ### Archivo .cam
 
-Un archivo `.cam` es un archivo de texto con formato INI y una sección `[Camara]`. Si el archivo no tiene esa sección, la extensión no lo lee. En el cuadro de selección de cámara, el tipo es **Archivos de cámara de Digi3D** (`*.cam`).
+Un archivo `.cam` es un archivo de texto con formato INI y una sección `[Camara]` o `[Camera]`. Si el archivo no tiene ninguna de las dos secciones, la extensión no lo lee. En el cuadro de selección de cámara, el tipo es **Archivos de cámara de Digi3D** (`*.cam`). Los archivos `.cam` se crean y se editan con el cuadro de diálogo [Editor de archivos de cámara](../../../../cuadros-de-dialogo/editor-archivos-camara.md).
 
-| Clave | Valores |
-|---|---|
-| `Focal` | Focal, o focal en X y focal en Y. Obligatoria. |
-| `PuntoPrincipal` o `PP` | Coordenadas X e Y del punto principal. Obligatoria. |
-| `PPS` | Punto de mejor simetría. Por defecto, el punto principal. |
-| `Escala` | Escala general. Por defecto, 1. |
-| `TipoDistorsionTangencial` | `No`, `Brown` u `OpenCV`. Por defecto, `Brown`. |
-| `p1`, `p2` | Coeficientes de distorsión tangencial. Por defecto, 0. |
-| `TipoDesortogonalidad` | `No` o `Fraser`. Por defecto, `Fraser`. |
-| `B1`, `b2` | Afinidad y desortogonalidad. Por defecto, 0. |
-| `TamanoPixel` | Tamaño del píxel, uno o dos valores. Indica que la cámara es digital. |
+La sección y las claves se pueden escribir en español o en inglés. Digi3D.AI busca cada clave primero con el nombre en el idioma de la interfaz y después con el nombre en el otro idioma, así que un mismo archivo se lee con la interfaz en los dos idiomas. Las longitudes van en mm.
+
+| Clave en español | Clave en inglés | Valores |
+|---|---|---|
+| `Focal` | `Focal` | Focal, o focal en X y focal en Y. Obligatoria. |
+| `PuntoPrincipal` o `PP` | `PrincipalPoint` o `PP` | Coordenadas X e Y del punto principal, respecto al centro de la imagen y con el eje Y hacia arriba. Obligatoria. |
+| `PPS` | `PPS` | Punto de mejor simetría. Por defecto, el punto principal. |
+| `Escala` | `Scale` | Escala general. Por defecto, 1. |
+| `TipoDistorsionTangencial` | `TypeTangentialDistortion` | `No`, `Brown` u `OpenCV`. Por defecto, `Brown`. |
+| `p1`, `p2` | `p1`, `p2` | Coeficientes de distorsión tangencial. Por defecto, 0. |
+| `TipoDesortogonalidad` | `TypeDesortogonality` | `No` o `Fraser`. Por defecto, `Fraser`. |
+| `B1`, `b2` | `B1`, `b2` | Afinidad y desortogonalidad. Por defecto, 0. |
+| `TamanoPixel` | `PixelSize` | Tamaño del píxel, uno o dos valores. Indica que la cámara es digital. |
+| `TipoValorDistorsion` | `KindOfDistortionValues` | 1 = corrección (de medida a ideal), 0 = error (de ideal a medida). |
+| `Pol` | `Pol` | `K1_R2_K2_R4` o `K1_R3_K2_R5`: potencias del radio del polinomio de distorsión radial. |
+| `k0`, `k1`, `k2`, `k3` | `k0`, `k1`, `k2`, `k3` | Coeficientes del polinomio. |
+| `OperacionRadial` | `OperacionRadial` | `X_CORRECTION` o `X_PLUS_X_CORRECTION_R`. Por defecto, `X_CORRECTION`. |
+| `TipoCorreccion` | `TypeCorrection` | `FotoAFiducial` (en inglés, `PhotoToFiductial`): el polinomio se evalúa en coordenadas foto, en mm. Con cualquier otro valor, en coordenadas cámara. |
+| `Distorsion1`, `Distorsion2`… | `Distorsion1`, `Distorsion2`… | Radio y distorsión de la tabla de distorsión. |
+| `Fiducial1`, `Fiducial2`… | `Fiducial1`, `Fiducial2`… | Coordenadas X e Y de las marcas fiduciales. |
 
 La distorsión radial se indica de una de estas dos formas:
 
-* **Polinomio** (con la clave `Pol`): la cámara debe ser digital (`TamanoPixel`). Claves `TipoValorDistorsion` (1 = corrección, 0 = error; por defecto, 1), `k0` (por defecto, 1), `k1`, `k2`, `k3`, `pol` (`K1_R2_K2_R4` o `K1_R3_K2_R5`), `OperacionRadial` (`X_CORRECTION` o `X_PLUS_X_CORRECTION_R`) y `TipoCorreccion` (`FotoAFiducial` u otro valor).
-* **Tabla de radio y distorsión** (sin la clave `Pol`): claves `Distorsion1`, `Distorsion2`… con dos valores (radio y distorsión) y `TipoValorDistorsion` obligatoria (0 = error, 1 = corrección). Sin `TamanoPixel`, la cámara es analógica y necesita al menos cuatro marcas fiduciales en `Fiducial1`, `Fiducial2`… con sus coordenadas X e Y.
+* **Polinomio** (con la clave `Pol`): la cámara debe ser digital (`TamanoPixel`). `TipoValorDistorsion` vale 1 por defecto. Con `OperacionRadial=X_CORRECTION`, el polinomio multiplica la coordenada y `k0` vale 1 por defecto; con `X_PLUS_X_CORRECTION_R`, el polinomio da el incremento del radio y `k0` vale 0 por defecto.
+* **Tabla de radio y distorsión** (sin la clave `Pol`): claves `Distorsion1`, `Distorsion2`… con dos valores (radio y distorsión), en cualquier orden, y `TipoValorDistorsion` obligatoria. Sin `TamanoPixel`, la cámara es analógica y necesita al menos cuatro marcas fiduciales en `Fiducial1`, `Fiducial2`… con sus coordenadas X e Y.
 
-Ejemplo de cámara digital con tabla de distorsión:
+#### Ejemplo de cámara digital con polinomio
+
+Esta es la calibración de una Phase One iXM-RS150F con objetivo RS 110 mm, calculada con Australis:
+
+```
+[Camara]
+Focal=108.2782
+PuntoPrincipal=0.0351 -0.2000
+TamanoPixel=0.00376
+Pol=K1_R2_K2_R4
+OperacionRadial=X_CORRECTION
+TipoValorDistorsion=1
+TipoCorreccion=FotoAFiducial
+k0=1
+k1=-5.04633e-06
+k2=7.03636e-10
+k3=1.04997e-13
+TipoDistorsionTangencial=Brown
+p1=-1.34225e-06
+p2=2.48277e-06
+TipoDesortogonalidad=Fraser
+B1=-5.10651e-06
+b2=2.72499e-06
+```
+
+Australis y este tipo de cámara usan el mismo modelo: las correcciones se calculan en mm, sobre la coordenada medida, con el eje Y hacia arriba y el origen en el centro de la imagen. Los valores del informe de Australis se copian sin cambiar ningún signo: `C` en `Focal`, `XP` e `YP` en `PuntoPrincipal`, `K1` a `K3` en `k1` a `k3`, `P1` y `P2` en `p1` y `p2`, y `B1` y `B2` en `B1` y `b2`.
+
+Con las claves en inglés, el mismo archivo empieza así:
+
+```
+[Camera]
+Focal=108.2782
+PrincipalPoint=0.0351 -0.2000
+PixelSize=0.00376
+KindOfDistortionValues=1
+TypeCorrection=PhotoToFiductial
+```
+
+#### Ejemplo de cámara digital con tabla de distorsión
 
 ```
 [Camara]
