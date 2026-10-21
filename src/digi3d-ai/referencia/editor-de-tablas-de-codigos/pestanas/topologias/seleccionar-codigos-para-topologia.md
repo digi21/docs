@@ -34,7 +34,7 @@ Expresión Python que se evalúa para cada línea con estos códigos al formar l
 
 ## Coordenada Z que proporciona un tramo con este código al nodo para el caso general
 
-Se usa si la opción [Coordenadas Z del polígono](anadir-topologia.md#coordenadas-z-del-poligono) de la topología toma la Z de las geometrías del polígono. Indica qué coordenada Z recibe el nodo en el que un tramo con este código se encuentra con otro tramo:
+Se usa si la opción [Coordenadas Z del polígono](anadir-topologia.md#coordenadas-z-del-polígono) de la topología toma la Z de las geometrías del polígono. Indica qué coordenada Z recibe el nodo en el que un tramo con este código se encuentra con otro tramo:
 
 * **Asignar al nodo la coordenada Z de la línea con mayor prioridad**
 * **Asignar al nodo la coordenada Z del tramo con este código**
