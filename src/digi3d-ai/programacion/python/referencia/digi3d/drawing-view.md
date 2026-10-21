@@ -109,7 +109,7 @@ view.recover(seleccion)
 ## Tabla de códigos
 
 La ventana da acceso a la tabla de códigos (`digi.tab`) del proyecto con la propiedad
-[`digitab`](#propiedades-de-informacion) (la tabla como secuencia de
+[`digitab`](#propiedades-de-información) (la tabla como secuencia de
 [DigiTabNode](../digi21.base/digitabnode.md)) y con `digi_tab` (un diccionario
 `{código: DigiTabNode}`).
 
