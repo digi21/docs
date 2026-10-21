@@ -46,7 +46,7 @@ Se puede seleccionar una de las siguientes opciones:
 
 ## Etiqueta del MDT sobre el que proyectar
 
-En caso de que en el campo [Coordenadas Z del polígono](anadir-topologia.md#coordenadas-z-del-poligono) se configure la opción **Proyectar sobre un MDT cargado** se puede configurar aquí una etiqueta.
+En caso de que en el campo [Coordenadas Z del polígono](anadir-topologia.md#coordenadas-z-del-polígono) se configure la opción **Proyectar sobre un MDT cargado** se puede configurar aquí una etiqueta.
 
 En caso de configurar aquí una etiqueta, únicamente se utilizarán los archivos MDT que tengan asociada esta etiqueta.
 
