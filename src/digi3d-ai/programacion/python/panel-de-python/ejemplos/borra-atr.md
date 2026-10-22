@@ -1,11 +1,19 @@
 # Borrar el enlace a base de datos
 <!-- id: borra-atr -->
 
-Archivo: `borra_atr.py` · guion para el [panel de Guiones Python](../README.md).
+Archivo: `borra_atr.py` · orden `BORRA_ATR`, sin parámetros. También se puede ejecutar desde el
+[panel de Guiones Python](../README.md).
 
-Recorre todas las geometrías y las sustituye por clones cuyos códigos son **nuevos, sin enlace a la
-base de datos** (sin tabla, ni registro, ni atributos). Útil para "limpiar" un archivo de su
-información de BBDD.
+Recorre todas las geometrías del dibujo y las sustituye por clones cuyos códigos son **nuevos, sin enlace
+a la base de datos** (sin tabla, ni registro, ni atributos).
+
+## Cómo se usa
+
+Escribe en la línea de comandos:
+
+```
+BORRA_ATR
+```
 
 ## El código
 
@@ -15,7 +23,13 @@ import digi3d
 view = digi3d.current_view()
 
 def creaClonSinAtributosBaseDatos(entidad):
-    clon = entidad.clone()
+    """Crea un clon de la entidad sustituyendo sus códigos por unos nuevos sin diccionario de BBDD.
+    Argumentos:
+        entidad: Entidad a clonar
+    Devuelve:
+        Entidad clonada sin enlace a base de datos
+    """
+    clon = entidad.clone()  
     codes = []
     for codigo in entidad.codes:
         codes.append(digi3d.FeatureCode(codigo.code))
@@ -37,17 +51,17 @@ view.redraw()
 
 - `entidad.clone()` crea una copia editable de la geometría (las geometrías de la vista son de solo
   lectura).
-- **La clave está en cómo se recrean los códigos**: por cada código de la geometría tomamos solo su
-  **cadena** (`codigo.code`) y construimos un código nuevo con
+- **Los códigos se recrean a partir de su cadena**: por cada código de la geometría, el guion toma solo
+  la cadena (`codigo.code`) y construye un código nuevo con
   [`digi3d.FeatureCode(codigo.code)`](../../referencia/digi21.base/featurecode.md).
-  - El constructor `FeatureCode(code)` recibe la **cadena** del código y crea un código "limpio", sin
-    tabla, ni identificador, ni atributos de base de datos. Eso es justo lo que queremos.
-  - Si en cambio quisiéramos conservar la tabla y el registro, copiaríamos esas propiedades
-    (`.table`, `.id`); ese es el caso del ejemplo
-    [renomcod](renomcod-manteniendo-atributos.md).
+  - El constructor `FeatureCode(code)` recibe la cadena del código y crea un código sin tabla, ni
+    identificador, ni atributos de base de datos.
+  - Para conservar la tabla y el registro hay que copiar también las propiedades `.table` e `.id` del
+    código original, como hace el ejemplo [renomcod](renomcod-manteniendo-atributos.md).
 - `clon.codes = tuple(codes)` asigna la nueva lista de códigos al clon.
-- Acumulamos en dos listas (`anadir` con los clones, `eliminar` con los originales) y aplicamos los
-  cambios en bloque: `view.add(...)` y `view.delete(...)`.
+- El guion acumula los clones en la lista `anadir` y los originales en la lista `eliminar`, y aplica los
+  cambios en bloque con `view.add(...)` y `view.delete(...)`.
+- El bucle recorre todas las geometrías de la vista, también las borradas.
 
 ## Véase también
 

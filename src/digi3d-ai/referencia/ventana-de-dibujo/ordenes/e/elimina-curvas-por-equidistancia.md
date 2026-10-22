@@ -9,7 +9,7 @@ Borra las curvas de nivel con los códigos indicados cuya coordenada Z es múlti
 | :--- | :--- | :--- | :--- |
 | 1 | Código de las curvas de nivel | Código | No |
 | 2 y siguientes, excepto el último | Más códigos de curvas de nivel | Códigos | Sí |
-| Último | Equidistancia | Número. Admite la coma o el punto como separador decimal | No |
+| Último | Equidistancia | Número mayor que cero. Admite la coma o el punto como separador decimal | No |
 
 Por ejemplo, `ELIMINA_CURVAS_POR_EQUIDISTANCIA=020123 020124 5` borra las curvas con código `020123` o `020124` cuya Z es múltiplo de 5.
 
@@ -19,7 +19,7 @@ La orden borra las geometrías que tienen alguno de los códigos indicados y cuy
 
 La orden emite el sonido de error y muestra un cuadro con el motivo en estos casos:
 
-* Hay menos de dos parámetros o el último no es un número. El cuadro muestra también la forma de uso.
+* Hay menos de dos parámetros o el último no es un número mayor que cero. El cuadro muestra también la forma de uso.
 * Ninguna geometría tiene los códigos indicados.
 * Ninguna geometría con esos códigos tiene una Z múltiplo de la equidistancia.
 

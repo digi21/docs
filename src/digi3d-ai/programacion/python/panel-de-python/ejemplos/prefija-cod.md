@@ -18,9 +18,11 @@ geometría.
 
 ## Cómo se usa
 
-1. Copia `prefija_cod.py` en el directorio de macroinstrucciones. La página
-   [Órdenes en Python del repositorio ComandosDigi3DPython](../../ordenes-python.md) explica dónde busca
-   Digi3D.AI el archivo.
+1. Si tu versión de Digi3D.AI no instala las órdenes del repositorio ComandosDigi3DPython en la carpeta
+   `OrdenesPython` de su carpeta de instalación, copia `prefija_cod.py` en el directorio de
+   macroinstrucciones. La página
+   [Órdenes en Python del repositorio ComandosDigi3DPython](../../ordenes-python.md) explica en qué
+   carpetas busca Digi3D.AI el archivo y cómo se modifica una orden instalada.
 2. Asigna la orden a dos teclas o a dos botones de una barra de herramientas, una con cada prefijo:
 
    ```
@@ -36,6 +38,9 @@ los códigos de la geometría tienen ya un prefijo, la geometría no cambia y su
 conserva su tabla y su registro de base de datos. Cada geometría modificada queda en una transacción
 propia, así que cada UNDO deshace el cambio de una sola geometría.
 
+Si no se indica exactamente un parámetro, la orden emite el sonido de error y muestra un cuadro con el
+mensaje «Falta el prefijo.» y la forma de uso.
+
 La orden necesita una versión de Digi3D.AI con
 [`PythonCommand.select_geometry`](../../referencia/digi3d/python-command.md#seleccionar-una-geometría).
 
@@ -44,8 +49,16 @@ La orden necesita una versión de Digi3D.AI con
 ```python
 import digi3d
 
+USO = 'PREFIJA_COD=[prefijo]'
+
 # Prefijos de los códigos que ya están tratados. El prefijo que recibe la orden se añade a esta lista.
 PREFIJOS = ('ACT_', 'BAI_')
+
+
+def error(mensaje):
+    """Emite el sonido de error y muestra el mensaje con la forma de uso de la orden."""
+    digi3d.music(digi3d.MusicType.Error)
+    digi3d.show_info('{}\n\nUso: {}'.format(mensaje, USO))
 
 
 class PrefijaCod(digi3d.PythonCommand):
@@ -89,12 +102,10 @@ class PrefijaCod(digi3d.PythonCommand):
         return nuevo
 
 
-if len(argv) != 1:
-    digi3d.music(digi3d.MusicType.Error)
-    raise Exception('Número de parámetros incorrecto. Se esperaba el prefijo, por ejemplo prefija_cod=BAI_')
-
 v = digi3d.current_view()
-if v is None:
+if len(argv) != 1:
+    error('Falta el prefijo.')
+elif v is None:
     print('No hay ninguna ventana de dibujo abierta')
 else:
     # Variable global: el objeto de Python sigue existiendo después de terminar el guion.
@@ -106,7 +117,9 @@ else:
 
 - **El parámetro**: Digi3D.AI deja los parámetros de la orden en la variable global `argv`. Con
   `PREFIJA_COD=BAI_`, `argv` vale `('BAI_',)`. Digi3D.AI separa los parámetros por espacios, tabuladores y
-  signos `=`, así que el prefijo no puede contener ninguno de esos caracteres.
+  signos `=`, así que el prefijo no puede contener ninguno de esos caracteres. Si `argv` no tiene
+  exactamente un elemento, la función `error` emite el sonido de error y muestra el motivo y la forma de
+  uso con [`digi3d.show_info`](../../referencia/digi3d/functions.md), y el guion no crea la orden.
 - **La selección**: en `on_data_up` la orden llama a
   [`select_geometry`](../../referencia/digi3d/python-command.md#seleccionar-una-geometría), que busca la
   geometría más próxima al dato igual que el pedal de tentativo. Digi3D.AI entrega la geometría encontrada
