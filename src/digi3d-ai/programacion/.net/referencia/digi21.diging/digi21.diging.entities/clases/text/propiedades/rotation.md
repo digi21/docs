@@ -12,9 +12,9 @@ public new double Rotation { get; set; }
 
 ## Valor de la propiedad
 
-Ángulo en centésimas de grado sexagesimal: 9000 son 90°. En un `Text` nuevo vale 0.
+Ángulo en grados sexagesimales, en sentido antihorario desde el eje X. En un `Text` nuevo vale 0. Es la misma unidad que [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md).
 
-La propiedad lee y asigna sin conversión el campo de la entidad nativa en el que los importadores de Digi3D.AI (DGN, DWG, Geomedia…) guardan el ángulo en grados sexagesimales multiplicados por 100. [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md), en cambio, convierte ese valor a radianes. Para pasar de radianes a este valor, multiplica por `18000 / Math.PI`.
+En versiones anteriores esta propiedad estaba en centésimas de grado. Para convertir un valor en centésimas, divídelo por 100.
 
 ## Excepciones
 

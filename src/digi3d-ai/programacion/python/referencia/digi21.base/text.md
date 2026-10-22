@@ -15,7 +15,7 @@ Text(text, coordinates, codes=(), rotation=0.0, text_height=1.0,
 | `text` | `str` | Cadena de texto. |
 | `coordinates` | `tuple` | Coordenadas `(x, y, z)`. |
 | `codes` | iterable | Códigos. |
-| `rotation` | `float` | Rotación. |
+| `rotation` | `float` | Rotación en grados, en sentido antihorario desde el eje X. |
 | `text_height` | `float` | Altura del texto. |
 | `text_justification` | [TextJustification](textjustification.md) | Justificación. |
 
@@ -25,7 +25,7 @@ Text(text, coordinates, codes=(), rotation=0.0, text_height=1.0,
 |---|---|---|---|
 | `text` | `str` | L/E | Cadena de texto. |
 | `height` | `float` | L/E | Altura del texto. |
-| `rotation` | `float` | L/E | Rotación del texto. |
+| `rotation` | `float` | L/E | Rotación del texto, en grados, en sentido antihorario desde el eje X. En versiones anteriores estaba en centésimas de grado. |
 | `justification` | [TextJustification](textjustification.md) | L/E | Justificación del texto. |
 
 Hereda además todas las propiedades y métodos de [Geometry](geometry.md).

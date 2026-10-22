@@ -13,14 +13,14 @@ Point(coordinates, codes=(), rotation=0.0, scale=(1.0, 1.0, 1.0))
 |---|---|---|
 | `coordinates` | `tuple` | Coordenadas `(x, y, z)`. |
 | `codes` | iterable | Códigos (`FeatureCode` o `str`). |
-| `rotation` | `float` | Rotación. |
+| `rotation` | `float` | Rotación en grados, en sentido antihorario desde el eje X. |
 | `scale` | `tuple` | Escala `(x, y, z)`. |
 
 ## Propiedades
 
 | Propiedad | Tipo | L/E | Descripción |
 |---|---|---|---|
-| `rotation` | `float` | L/E | Rotación del punto. |
+| `rotation` | `float` | L/E | Rotación del punto, en grados, en sentido antihorario desde el eje X. En versiones anteriores estaba en radianes. |
 | `scale` | `tuple` | L/E | Escala `(x, y, z)`. |
 
 Hereda además todas las propiedades y métodos de [Geometry](geometry.md).
