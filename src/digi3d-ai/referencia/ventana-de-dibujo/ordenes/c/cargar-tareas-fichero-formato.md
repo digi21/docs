@@ -59,6 +59,7 @@ Si la opción [Vaciar automáticamente](/digi3d-ai/referencia/cuadros-de-dialogo
 | Opción del menú donde aparece la orden | Ventana/Tareas/Cargar archivo de tareas (ascii) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borrar-tareas.md)<br>[CARGAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cargar-tareas.md)<br>[GUARDAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guardar-tareas.md)<br>[TAREA+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tarea-mas.md)<br>[TAREA-](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tarea-menos.md) |
 | Nombre interno | {6E345000-A069-4a06-94BF-5E7D0ACBB0D1} |

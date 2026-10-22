@@ -25,6 +25,7 @@ El texto tiene la altura, la justificación y la rotación de [AT](/digi3d-ai/re
 | Opción del menú donde aparece la orden | Dibujar/Rotular Z de puntos por código... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
 | Órdenes relacionadas | [COTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cota.md)<br>[ROTULA\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-curvas.md)<br>[ROTULA\_DESCRIPCION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-descripcion.md) |
 | Nombre interno | {C0859A31-1DBC-4a5f-A13A-65260F5C5318} |

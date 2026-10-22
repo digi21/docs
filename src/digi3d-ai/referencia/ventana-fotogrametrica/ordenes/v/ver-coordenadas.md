@@ -22,6 +22,7 @@ Muestra coordenadas en la barra de mensajes de la pantalla estereoscópica.
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {0DF1B5EC-8C91-463a-BD31-27FA665C0C9B} |

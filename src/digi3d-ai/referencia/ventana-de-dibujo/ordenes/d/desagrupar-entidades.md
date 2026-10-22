@@ -21,6 +21,7 @@ Si Digi3D.AI descarta alguna de las copias nuevas, la orden no aplica el cambio 
 | Opción del menú donde aparece la orden | Análisis geométricos/Desagrupar entidades |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [SEPARA\_MULTICOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/separa-multicod.md) |
 | Nombre interno | {427C8FCD-7BB0-4BC2-84CF-7FF35670F365} |

@@ -29,6 +29,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [JUNTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/j/juntar.md) |
 | Nombre interno | {A8120372-9CF4-4ff9-A6DE-035E717C746A} |

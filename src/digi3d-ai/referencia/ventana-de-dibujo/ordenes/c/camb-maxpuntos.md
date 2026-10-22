@@ -35,6 +35,7 @@ Si el control de calidad descarta cualquiera de los tramos nuevos, se conserva l
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md) — número máximo de puntos de un tipo de entidad<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {68887B83-3512-412c-8100-B2F134A73248} |

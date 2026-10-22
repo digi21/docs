@@ -27,6 +27,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [COMPARAR\_Z\_MDT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comparar-z-mdt.md)<br>[PROYECTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta.md)<br>[PROYECTA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod.md)<br>[PROYECTA\_COD\_ETIQUETA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod-etiqueta.md)<br>[PROYECTA\_PUNTOS\_TOPOLOGIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-puntos-topologia.md) |
 | Nombre interno | {0E223FD8-DFE3-43ED-B42C-15C3CED6CED8} |

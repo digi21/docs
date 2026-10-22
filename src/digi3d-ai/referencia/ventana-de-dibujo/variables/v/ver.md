@@ -25,6 +25,7 @@ Si la oren está desactivada, al intentar un enganche a una entidad con el botó
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Verificar |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {00C9CFB9-8403-4ab4-8E3D-82CE3328292B} |
 

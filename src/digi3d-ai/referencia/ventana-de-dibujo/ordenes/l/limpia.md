@@ -74,6 +74,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un l�
 | Opción del menú donde aparece la orden | Editar/Más/Recortar polilíneas dentro de polígonos o del área de influencia de un texto... |
 | Barra de herramientas en la que aparece la orden | [Eliminar y recuperar](/digi3d-ai/referencia/barras-de-herramientas/eliminar-y-recuperar.md) |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md)<br>[PARTIR\_LINEAS\_QUE\_CRUZAN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-que-cruzan.md) |
 | Nombre interno | {417FAB22-3EA8-4629-A51C-0EF65F253206} |

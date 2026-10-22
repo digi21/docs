@@ -53,6 +53,7 @@ Si pulsas _Cancelar_, la orden termina sin enviar ningún punto. El contenido de
 | Opción del menú donde aparece la orden | Inmediato/Inserción manual de coordenadas |
 | Barra de herramientas en la que aparece la orden | Coordenadas |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/2/2p.md)<br>[3P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/3/3p.md)<br>[LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[POL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pol.md)<br>[RECTANGULO\_DR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rectangulo-dr.md)<br>[XYLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xylinea.md)<br>[XYZLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xyzlinea.md) |
 | Nombre interno | {140CD659-1BAF-4db6-A70B-2DB907255CB2} |

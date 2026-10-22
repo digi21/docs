@@ -19,6 +19,7 @@ Si está activa, el tentativo también busca textos además del resto de entidad
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Tentativar textos |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {5736B270-526C-47ec-9FE4-FC471475B2DF} |
 

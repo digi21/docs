@@ -21,6 +21,7 @@ El efecto visual sería equiparable al de una matriz de cuadrados o rectángulos
 | Opción del menú donde aparece la orden | Dibujar/Más/Rejilla con 3 puntos |
 | Barra de herramientas en la que aparece la orden | Rejillas |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [CUADROS\_4P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cuadros-4p.md)<br>[ESCALERA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/escalera.md) |
 | Nombre interno | {D8557157-D1DA-475b-8988-67474F895E53} |

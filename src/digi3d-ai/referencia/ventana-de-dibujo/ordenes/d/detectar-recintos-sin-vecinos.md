@@ -27,6 +27,7 @@ La orden solo tiene en cuenta los recintos topológicos válidos.
 | Opción del menú donde aparece la orden | Topología/Detectar recintos topológicos sin vecinos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {BADFF305-9DA2-4E11-98EA-B0BD184B6111} |

@@ -35,6 +35,7 @@ VELOCIDAD_SPACEMOUSE_XYZ=0.001
 | Opción del menú donde aparece la orden           | _Esta orden no tiene asociada ninguna opción de menú_  |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                             |
+| Implementación | Nativa |
 | Variables relacionadas                           | No tiene variables relacionadas                        |
 | Nombre interno                                   | {C075944F-4B38-443B-927E-54BDBEB8C55C}                 |
 |                                                  |                                                        |

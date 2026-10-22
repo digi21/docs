@@ -47,6 +47,7 @@ El símbolo se dibuja solo si el código activo usa una fuente de Digi. Si el c�
 | Opción del menú donde aparece la orden | Dibujar/Más/Rellenar polígono con símbolos |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto |
 | Órdenes relacionadas | [DIVIDIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dividir.md)<br>[PUNTEAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/puntear.md)<br>[RAYAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rayar.md)<br>[TRAMAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tramar.md) |
 | Nombre interno | {8C69C4FD-E23F-4c34-A90E-EEC98079CD61} |

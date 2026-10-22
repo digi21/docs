@@ -76,6 +76,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 | Opción del menú donde aparece la orden | Análisis geométricos/Eliminar segmentos cortos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [DETECTAR\_SEGMENTOS\_CORTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-segmentos-cortos.md)<br>[UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) |
 | Nombre interno | {C3857680-4931-4331-AB7C-FFD14D3360E3} |

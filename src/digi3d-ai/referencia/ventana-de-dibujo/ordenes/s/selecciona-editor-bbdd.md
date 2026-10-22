@@ -23,6 +23,7 @@ La orden envía a la orden activa las entidades visibles y dentro de la zona de 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [SELECCIONA\_GEOMETRIA\_PANEL\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-geometria-panel-bbdd.md) |
 | Nombre interno | {175A9D2E-D7B2-4915-816D-6F7D65E68EF4} |

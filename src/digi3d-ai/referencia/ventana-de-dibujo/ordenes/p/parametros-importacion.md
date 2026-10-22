@@ -46,6 +46,7 @@ Una vez ejecutada la orden PARAMETROS\_IMPORTACIÓN, el usuario puede ejecutar l
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md)<br>[EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md)<br>[IMPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/importar.md) |
 | Nombre interno | {E7720090-FD63-48aa-9136-A9623665E777} |

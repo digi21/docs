@@ -21,6 +21,7 @@ A diferencia de [COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md),
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod.md)<br>[COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) |
 | Nombre interno | {6533DB11-E184-45cb-B78F-2C98D3FA7C77} |

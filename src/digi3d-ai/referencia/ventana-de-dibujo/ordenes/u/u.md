@@ -19,6 +19,7 @@ Sólo tiene efecto mientras la entidad no se finalice. Cada ejecución borra un 
 | Opción del menú donde aparece la orden | Dibujar/Borrar un segmento de la línea que estás dibujando/El último segmento |
 | Barra de herramientas en la que aparece la orden | Finalización de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[U2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u2.md)<br>[UM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/um.md) |
 | Nombre interno | {1E52E0A9-9A41-4e7e-B12D-D26C9AD80D3A} |

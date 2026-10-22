@@ -41,5 +41,6 @@ Los valores negativos se toman en valor absoluto y los mayores de 255 se limitan
 | Opción del menú donde aparece la orden           | _Esta orden no tiene asociada ninguna opción de menú_                        |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
+| Implementación | Nativa |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
 | Nombre interno | {CC84B0E0-EFB8-48bc-97A2-DEF9AB885021} |

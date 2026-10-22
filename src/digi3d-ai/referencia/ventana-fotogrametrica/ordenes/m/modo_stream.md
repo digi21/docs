@@ -21,6 +21,7 @@ Sin parámetros, la orden alterna el estado: lo activa si está desactivado y lo
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Modo stream |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {F31431CB-318C-415A-B04E-928613854166} |

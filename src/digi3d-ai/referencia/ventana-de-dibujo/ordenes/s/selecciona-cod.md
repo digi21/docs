@@ -23,6 +23,7 @@ La orden busca en el archivo de dibujo activo las entidades visibles y dentro de
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar por código... |
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ENTIDADES\_DE\_INTERES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/entidades-de-interes.md)<br>[SELECCIONA\_EXPRESION\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona_expresion_python.md)<br>[SELECCIONA\_POR\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-por-atributo.md) |
 | Nombre interno | {EDFDC360-67F1-4954-B873-1FA761933B79} |

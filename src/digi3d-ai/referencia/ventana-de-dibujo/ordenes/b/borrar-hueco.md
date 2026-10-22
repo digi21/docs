@@ -21,6 +21,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Opción del menú donde aparece la orden | Editar/Polígonos/Borrar hueco de polígono |
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [INSERTAR\_HUECO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insertar-hueco.md) |
 | Nombre interno | {8AB62341-E643-4188-9925-D81B17AB56BA} |

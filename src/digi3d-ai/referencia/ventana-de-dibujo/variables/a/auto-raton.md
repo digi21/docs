@@ -25,5 +25,6 @@ A partir de ese momento, la ventana de dibujo va siguiendo al cursor (cuando se 
 | Opción del menú donde aparece la orden           | Zooms/Activar el autoseguimiento de cámara para ratón        |
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana                                    |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                    |
+| Implementación | Nativa |
 | Variables relacionadas                           | [SOLAPE](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/solape.md)                                      |
 | Nombre interno                                   | {934B9959-9112-4eef-880C-2C9CB237643D}                        |

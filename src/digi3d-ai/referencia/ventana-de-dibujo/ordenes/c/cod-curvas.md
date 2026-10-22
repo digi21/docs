@@ -48,6 +48,7 @@ La orden no muestra mensajes y no comprueba que los códigos existan en la tabla
 | Opción del menú donde aparece la orden | Inmediato/Códigos especiales/Códigos de curvas de nivel...<br>Inmediato/Códigos especiales/Seleccionar códigos automáticamente en función de equidistancia |
 | Barra de herramientas en la que aparece la orden | Órdenes automáticas |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) — separa las directoras de las finas<br>[AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md) — ejecuta LINEA al pulsar el botón de datos |
 | Órdenes relacionadas | [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[COD\_COTAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-cotas.md)<br>[COTAS\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cotas-curvas.md)<br>[ROTULA\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-curvas.md) |
 | Nombre interno | {ACAEC197-BA66-40cd-B5D0-DD4C349F4BD1} |

@@ -33,5 +33,6 @@ Al asignar la Z, la orden activa la variable [FIJAZ](/digi3d-ai/referencia/venta
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Establecer la coordenada Z activa |
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) |
 | Nombre interno | {01BEC16F-3059-4103-934D-835BBBD4887B} |

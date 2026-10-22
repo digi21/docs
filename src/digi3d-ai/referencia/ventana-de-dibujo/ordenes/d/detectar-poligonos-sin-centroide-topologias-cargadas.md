@@ -21,6 +21,7 @@ Si encuentra algún recinto sin centroide, la orden emite el sonido de error. Si
 | Opción del menú donde aparece la orden | Topología/Detectar recintos topológicos sin centroide en las topologías cargadas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CREAR\_CENTROIDES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-centroides.md) |
 | Nombre interno | {A502D54C-566B-40CC-8090-7C4F7619B8A0} |

@@ -21,5 +21,6 @@ La variable se activa cada vez que se abre un archivo de dibujo. Al cambiar su v
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Entidades virtuales |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {43045B94-1448-4BF3-BB22-2954CE91BD8D} |

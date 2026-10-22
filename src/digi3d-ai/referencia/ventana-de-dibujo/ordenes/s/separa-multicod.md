@@ -23,6 +23,7 @@ Si Digi3D.AI descarta alguna de las copias nuevas, la orden no aplica el cambio 
 | Opción del menú donde aparece la orden | Editar/Más/Separar códigos generando geometría duplicada |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [DESAGRUPAR\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/desagrupar-entidades.md) |
 | Nombre interno | {E1056769-9785-414E-BF51-6837CE331FA9} |

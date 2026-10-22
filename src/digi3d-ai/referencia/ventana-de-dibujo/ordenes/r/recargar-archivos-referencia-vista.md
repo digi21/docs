@@ -19,6 +19,7 @@ La orden solo se puede ejecutar cuando no hay otra orden activa; en caso contrar
 | Opción del menú donde aparece la orden | Archivo/Recargar archivos que admiten región de interés con las entidades que solapan con la ventana activa (BETA) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md) |
 | Nombre interno | {16285ED9-6C19-4AEE-A186-56E6B457C0D2} |

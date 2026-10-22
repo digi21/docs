@@ -53,6 +53,7 @@ La orden exporta las entidades no borradas, visibles, no virtuales y dentro de l
 | Opción del menú donde aparece la orden | Archivo/Exportar... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [EXPORTAR\_ENTIDADES\_SELECCIONADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar-entidades-seleccionadas.md)<br>[EXPORTAR\_VIRTUALES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar-virtuales.md)<br>[IMPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/importar.md)<br>[PARAMETROS\_IMPORTACIÓN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md) |
 | Nombre interno | {DC4164CD-347F-4f98-A060-7DDBC76699DF} |

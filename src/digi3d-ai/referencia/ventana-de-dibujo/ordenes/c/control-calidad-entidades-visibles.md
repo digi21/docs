@@ -19,6 +19,7 @@ La orden analiza las entidades del archivo de dibujo activo que no están borrad
 | Opción del menú donde aparece la orden | Control de calidad/Analizar control de calidad/Geometrías visibles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CONTROL\_CALIDAD\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-calidad-cod.md)<br>[CONTROL\_CALIDAD\_SELECCION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/control-calidad-seleccion.md) |
 | Nombre interno | {6B2DF121-2A4E-4677-9E31-F34D3FD78CF0} |

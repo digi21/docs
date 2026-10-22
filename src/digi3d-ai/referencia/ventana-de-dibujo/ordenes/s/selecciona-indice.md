@@ -63,6 +63,7 @@ La orden emite el sonido de error y no envía nada en estos casos:
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar entidad por posición en el archivo... |
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) |
 | Órdenes relacionadas | [SELECCIONA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ultimo.md) |
 | Nombre interno | {C735FB18-183F-4884-A85D-F08521DC40BC} |

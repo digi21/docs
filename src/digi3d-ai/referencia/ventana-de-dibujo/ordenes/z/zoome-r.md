@@ -25,6 +25,7 @@ La orden ajusta la vista a la ventana que engloba las entidades del contorno ext
 | Opción del menú donde aparece la orden | Zooms/Zoom a la extensión del recinto (por inundación) |
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [ZOOME](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoome.md) |
 | Nombre interno | {8E5DA4E4-9A06-43a8-A94A-4EFD9A16BCB7} |

@@ -23,6 +23,7 @@ La orden analiza las líneas visibles que tengan alguno de los códigos indicado
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar ZigZag/Líneas visibles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {EC558A4F-3869-46D3-8C17-0EF403A37260} |

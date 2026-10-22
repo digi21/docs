@@ -89,6 +89,7 @@ Si una regla lanza una excepción o no devuelve una lista de representaciones, D
 | Opción del menú donde aparece la orden | Ver/Representaciones dinámicas/Asignar representaciones manualmente... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [APLICAR\_REPRESENTACION\_DINAMICA\_GEOMETRIA\_DIBUJANDO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aplicar-representacion-dinamica-geometria-dibujando.md) |
 | Órdenes relacionadas | [REPRESENTACION\_DINAMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/representacion-dinamica.md) |
 | Nombre interno | {0023298C-F9CC-4EAD-838B-520AFD345D62} |

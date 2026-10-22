@@ -17,5 +17,6 @@ Si se activa, las geometrías nuevas y las geometrías modificadas se almacenan 
 | Opción del menú donde aparece la orden | Base de Datos/Forzar a que las geometrías nuevas o modificadas no tengan enlace de BBDD |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {19743A2E-8973-4A4C-B627-969DDC012079} |

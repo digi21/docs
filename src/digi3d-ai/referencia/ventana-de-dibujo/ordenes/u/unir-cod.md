@@ -25,6 +25,7 @@ Si el control de calidad descarta la línea unida, se conservan las dos líneas 
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Unir polilíneas por ventana y código |
 | Barra de herramientas en la que aparece la orden | Unir |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [UNIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir.md)<br>[UNIR\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas.md) |
 | Nombre interno | {FB78D878-2695-4CC6-A300-22415BB52172} |

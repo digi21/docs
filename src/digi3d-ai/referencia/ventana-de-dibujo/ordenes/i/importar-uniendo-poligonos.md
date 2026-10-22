@@ -23,6 +23,7 @@ Importa uno o varios archivos en el archivo de dibujo y une los polígonos impor
 | Opción del menú donde aparece la orden | Archivo/Importar uniendo polígonos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [IMPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/importar.md) |
 | Nombre interno | {C0011422-669C-442A-B3D8-0BADCAEFD939} |

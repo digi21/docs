@@ -59,6 +59,7 @@ Para no tener que ejecutar la orden en cada sesión, añádela a las órdenes de
 | Opción del menú donde aparece la orden | Inmediato/Códigos especiales/Código de cotas... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AUTOMATICO](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/automatico.md) — digitalización automática según el código activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) — número de decimales |
 | Órdenes relacionadas | [COTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cota.md) |
 | Nombre interno | {2A57AF5B-FDF2-4251-A736-362FF025D5E1} |

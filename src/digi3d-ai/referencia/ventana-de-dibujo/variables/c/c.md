@@ -25,6 +25,7 @@ Si está activada la variable booleana **C**, al finalizar la línea con el bot�
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Cerrarla |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {453C8D5D-5698-4f0b-B243-53668C3F78C9} |
 

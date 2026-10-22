@@ -23,6 +23,7 @@ Esta orden sólo tiene efecto mientras la entidad no se finalice. Es similar a l
 | Opción del menú donde aparece la orden | Dibujar/Borrar un segmento de la línea que estás dibujando/Múltiples segmentos (1 punto) |
 | Barra de herramientas en la que aparece la orden | Finalización de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [U](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u.md)<br>[U2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u2.md) |
 | Nombre interno | {395EB869-DC3F-450e-8271-913F96FE9F2F} |

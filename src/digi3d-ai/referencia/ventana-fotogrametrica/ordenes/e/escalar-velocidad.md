@@ -29,6 +29,7 @@ El escalado está activado por defecto en cada ventana fotogramétrica que se ab
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Velocidades/Escalar según zoom |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [VELOCIDAD](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/v/velocidad.md) |
 | Nombre interno | {FD1A17B2-F83C-450b-B583-1CC3F6322467} |

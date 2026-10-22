@@ -60,6 +60,7 @@ Lo abre el botón **Añadir** del editor de atributos. Añade el atributo a la e
 | Opción del menú donde aparece la orden           | _Editar/Editar atributos de una entidad..._ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas                           | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas                             | [CAMB\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb_atributos.md)<br>[CLONAR\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/clonar_atributos.md)<br>[EDITAR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-cod.md)<br>[LISTA\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/lista_atributos.md) |
 | Nombre interno                                   | {C3B968CE-2D7C-4D4D-890F-950700FA1EE2} |

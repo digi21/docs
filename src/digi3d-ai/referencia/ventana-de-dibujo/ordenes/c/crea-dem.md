@@ -34,6 +34,7 @@ El archivo TIFF es un ráster de 32 bits en coma flotante que cubre el rectángu
 | Opción del menú donde aparece la orden | MDT/Crear DEM... |
 | Barra de herramientas en la que aparece la orden | Triangulación |
 | Extensión | DigiNG.OrdenesMDT.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [TRIANGULAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular.md) |
 | Nombre interno | {3B6F710E-0DFD-46E0-A5B6-407DB853C480} |

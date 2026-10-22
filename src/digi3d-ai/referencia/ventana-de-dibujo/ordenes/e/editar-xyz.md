@@ -29,6 +29,7 @@ Esta orden trabaja igual que la orden [EDITAR](/digi3d-ai/referencia/ventana-de-
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Editar vértices en XYZ |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [EDITAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar.md)<br>[EDITAR\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-z.md)<br>[EDITOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editor.md) |
 | Nombre interno | {434E3B43-FC90-477f-B819-7552284150B6} |

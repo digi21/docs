@@ -29,6 +29,7 @@ Esta orden se suele utilizar en el dibujo de curvas de nivel, forzando a que la 
 | Opción del menú donde aparece la orden | Inmediato/Coordenada Z/Fijar la coordenada Z al múltiplo de equidistancia más cercano |
 | Barra de herramientas en la que aparece la orden | Coordenada Z |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md) |
 | Nombre interno | {17B6ECF4-E5F7-4fc6-8030-CE8C698D08B7} |
 

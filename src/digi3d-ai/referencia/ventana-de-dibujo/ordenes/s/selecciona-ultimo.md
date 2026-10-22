@@ -29,6 +29,7 @@ Si combinas la orden _SELECCIONA\_ULTIMO_ con la orden [ZOOM\_ENTIDAD](/digi3d-a
 | Opción del menú donde aparece la orden | Inmediato/Seleccionar última entidad |
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md)<br>[EJECUTA\_ORDEN\_PASANDOLE\_ULTIMA\_GEOMETRIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ejecuta-orden-pasandole-ultima-geometria.md)<br>[SELECCIONA\_INDICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-indice.md) |
 | Nombre interno | {86671AB1-AFE0-4af5-8695-8BF8B5BE1E67} |

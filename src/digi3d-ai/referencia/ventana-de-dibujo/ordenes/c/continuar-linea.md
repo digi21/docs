@@ -21,6 +21,7 @@ No admite parámetros.
 | Opción del menú donde aparece la orden | Dibujar/Continuar polilínea |
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) — activa o desactiva las señales acústicas |
 | Órdenes relacionadas | [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) |
 | Nombre interno | {8BCECA78-3971-42ec-849B-F93B672A52E7} |

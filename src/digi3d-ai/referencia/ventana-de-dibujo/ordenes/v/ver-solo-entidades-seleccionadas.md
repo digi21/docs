@@ -19,6 +19,7 @@ Selecciona una o varias entidades. La orden oculta el resto de entidades de todo
 | Opción del menú donde aparece la orden | Ver/Solo las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [VER\_SOLO\_CÓDIGOS\_ENTIDAD\_SELECCIONADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/var-solo-codigos-entidad-seleccionada.md)<br>[VER\_TODAS\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-todas-entidades.md) |
 | Nombre interno | {D20FD3D1-6B04-41B2-96CB-E2C114ADDDAC} |

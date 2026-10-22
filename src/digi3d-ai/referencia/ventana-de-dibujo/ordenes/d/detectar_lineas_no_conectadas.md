@@ -27,6 +27,7 @@ Resulta útil como control de calidad topológico para localizar líneas que deb
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar líneas no conectadas/\(una opción por etiqueta\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [DETECTAR\_LINEAS\_NO\_CONECTADAS\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-lineas-no-conectadas-3d.md)<br>[DETECTAR\_LINEAS\_VISIBLES\_NO\_CONECTADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-lineas-visibles-no-conectadas.md)<br>[DETECTAR\_LINEAS\_VISIBLES\_NO\_CONECTADAS\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-lineas-visibles-no-conectadas-3d.md) |
 | Nombre interno | {47D061F8-0F07-463B-B1E5-183743E5548C} |

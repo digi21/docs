@@ -69,6 +69,7 @@ En el modo Corte, si Digi3D.AI descarta alguno de los trozos conservados, la ord
 | Opción del menú donde aparece la orden | Editar/Borrar ventana |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md)<br>[BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md)<br>[BORRA\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-r.md) |
 | Nombre interno | {290F947C-CAAD-4945-8524-9E71C9713108} |

@@ -17,6 +17,7 @@ No admite parámetros.
 | Opción del menú donde aparece la orden | Dibujar/Interpolar curvas con 4 puntos... |
 | Barra de herramientas en la que aparece la orden | Interpolación |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [INTER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter.md) |
 | Nombre interno | {949F298F-5D9A-4762-88C8-B8514EEFA9AE} |

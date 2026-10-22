@@ -28,6 +28,7 @@ Al activar la sincronización, la orden aplica a todas las vistas el factor de z
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Múltiples vistas/Sincronizar zooms |
 | Barra de herramientas en la que aparece la orden | Sincronización de vistas |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [PARALIZAR](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/p/paralizar.md)<br>[SINCRONIZAR\_VISTAS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-vistas.md) |
 | Nombre interno | {D3984B08-4B0C-4033-A01D-DA4148584EC9} |

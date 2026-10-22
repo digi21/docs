@@ -17,6 +17,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Interpolar Z entre vértices |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {27ECA172-E41A-4A4B-8166-1484633C4A1F} |

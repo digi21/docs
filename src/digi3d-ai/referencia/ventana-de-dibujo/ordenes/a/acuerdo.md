@@ -30,6 +30,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Redondear un vértice |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [ARCO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco.md) |
 | Nombre interno | {63EDB2B3-4DC6-4584-9EFC-AAE939D3FFB3} |

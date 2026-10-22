@@ -25,6 +25,7 @@ La orden rechaza las líneas en zigzag, es decir, las que tienen un vértice cuy
 | Opción del menú donde aparece la orden | Dibujar/Interpolar eje de dos líneas existentes |
 | Barra de herramientas en la que aparece la orden | Interpolación |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [INTER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter.md) |
 | Nombre interno | {4B787BBC-9658-4f8c-B83E-C83D3005FC91} |

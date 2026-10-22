@@ -30,6 +30,7 @@ Si pulsas **Cancelar** en el cuadro de diálogo **Seleccionar código**, la orde
 | Opción del menú donde aparece la orden | Inundación/Cambiar códigos |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRA\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-r.md)<br>[RENOMCOD\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-r.md) |
 | Nombre interno | {2D62711E-182D-43e9-BA19-4DFC7CE81D11} |

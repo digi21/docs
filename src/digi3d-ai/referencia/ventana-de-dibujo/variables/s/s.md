@@ -25,6 +25,7 @@ El suavizado usa como separación entre puntos el valor de la variable [INC](/di
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Suavizarla |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md) |
 | Nombre interno | {E108CB63-71BE-4f3d-AFA0-BF1D9D59BE96} |
 

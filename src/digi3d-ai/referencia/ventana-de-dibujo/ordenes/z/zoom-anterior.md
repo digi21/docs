@@ -21,6 +21,7 @@ La orden guarda a su vez la vista que sustituye, así que si la ejecutas dos vec
 | Opción del menú donde aparece la orden | Zooms/Zoom anterior |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ZOOM\_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-entidad.md)<br>[ZOOM2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom2p.md)<br>[ZOOME](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoome.md)<br>[ZOOMP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomp.md)<br>[ZOOMV](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomv.md) |
 | Nombre interno | {62F4D239-8713-438A-AB00-EEFDDF499ACF} |

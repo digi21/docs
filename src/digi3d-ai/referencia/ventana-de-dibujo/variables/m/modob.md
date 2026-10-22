@@ -98,5 +98,6 @@ Activa el modo 12 con el modo 1 como secundario. En las entidades en las que el 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | [Tentativo](../../../barras-de-herramientas/tentativo.md) (desplegable de modo de búsqueda) |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [CAMB\_MODOB](../../ordenes/c/camb-modob.md)<br>[AUTOMODOB](../../ordenes/a/automodob.md)<br>[CURSOR](../../ordenes/c/cursor.md)<br>[FIJAZ](../f/fijaz.md) |
 | Nombre interno | {4B0321A1-67A4-4209-89A9-3F55C6AB2539} |

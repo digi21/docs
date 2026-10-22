@@ -29,6 +29,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Ordenando sus coordenadas Z descendentemente |
 | Barra de herramientas en la que aparece la orden | Sentido de la polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [CAMB\_SEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-sen.md)<br>[CAMB\_SEN\_SUBE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-sen-sube.md) |
 | Nombre interno | {D010A20E-6879-4837-A8B8-F454089755D4} |

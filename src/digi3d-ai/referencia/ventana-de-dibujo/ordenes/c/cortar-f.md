@@ -33,6 +33,7 @@ Si activas la opción Invertir selección, el nuevo fichero se genera con las en
 | Opción del menú donde aparece la orden | Editar/Cortar fichero... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CORTAR\_F\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-f-centroide.md) |
 | Nombre interno | {AA1F6B68-B71D-476a-AF82-66284E4B79DE} |

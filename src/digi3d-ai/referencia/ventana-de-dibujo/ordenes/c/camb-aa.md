@@ -28,6 +28,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Opción del menú donde aparece la orden | Editar/Puntos/Establecer ángulo activo<br>Editar/Textos/Cambiar ángulo activo de texto |
 | Barra de herramientas en la que aparece la orden | Puntos<br>Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [CAMB\_AT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-at.md)<br>[CAMB\_ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-esc-act.md)<br>[CAMB\_JT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-jt.md)<br>[CAMB\_JT2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-jt2.md)<br>[R\_PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/r-punto.md)<br>[R\_TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/r-texto.md) |
 | Nombre interno | {574ECF13-972A-4efb-A037-6E036D1036D2} |

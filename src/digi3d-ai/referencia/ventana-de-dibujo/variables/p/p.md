@@ -32,6 +32,7 @@ La paralela solo se crea al finalizar una línea digitalizada con la orden [LINE
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Crear automáticamente una paralela \(según distancia activa\) |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) |
 | Nombre interno | {89889DCE-1E5E-4c13-B08E-C66B10DF26BC} |
 

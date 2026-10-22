@@ -19,6 +19,7 @@ No se ha registrado ninguna observación.
 | Opción del menú donde aparece la orden | Ventana/Resultados/Limpiar resultados |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [GUARDAR\_RESULTADOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guardar_resultados.md) |
 | Nombre interno | {9B6F355C-3865-4c84-BF56-AE5864D8E5F9} |

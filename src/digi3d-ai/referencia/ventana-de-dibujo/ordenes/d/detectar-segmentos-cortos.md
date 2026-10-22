@@ -58,6 +58,7 @@ Si pulsas _Cancelar_, la orden termina sin analizar nada.
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar segmentos cortos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ELIMINAR\_SEGMENTOS\_CORTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-segmentos-cortos.md) |
 | Nombre interno | {C91882C6-2398-4E30-8C3B-39E1BC404237} |

@@ -24,6 +24,7 @@ Si solo indicas el índice del archivo, la orden no hace nada. Un parámetro que
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [OFFS\_ARCHIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/offs-archivo.md)<br>[ON\_ARCHIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on-archivo.md)<br>[ONS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ons.md) |
 | Nombre interno | {24FB18B7-6510-4AFB-A539-A53B719D3045} |

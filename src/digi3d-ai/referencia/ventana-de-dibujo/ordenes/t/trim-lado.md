@@ -23,6 +23,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no recorta ninguna e
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Recortar múltiples líneas en el cruce con otra línea \(a un lado\) |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [TRIM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/trim.md)<br>[TRIM\_M](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/trim-m.md) |
 | Nombre interno | {D2EF5B75-4075-450B-9A06-00A941807D71} |

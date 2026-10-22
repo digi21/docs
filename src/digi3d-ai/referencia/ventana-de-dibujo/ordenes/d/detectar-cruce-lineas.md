@@ -23,6 +23,7 @@ Si no indicas ningún código, la orden espera a que selecciones un conjunto de 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [DETECTAR\_CRUCE\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas-visibles.md)<br>[DETECTAR\_CRUCE\_LINEAS\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas-z.md)<br>[PARTIR\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas.md) |
 | Nombre interno | {0077B774-71F9-4366-A651-539D8A6CFAF9} |

@@ -24,6 +24,7 @@ Por defecto está desactivada.
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Generalizar \(eliminar puntos superfluos\) |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [TOL](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md), [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md) |
 | Nombre interno | {F0D74387-1158-4e57-BFF0-FDC2D07B518A} |
 

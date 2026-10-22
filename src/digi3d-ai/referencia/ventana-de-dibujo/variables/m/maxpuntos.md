@@ -39,6 +39,7 @@ La orden [CAMB\_MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cam
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Establecer el número máximo de puntos de una línea |
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [C](/digi3d-ai/referencia/ventana-de-dibujo/variables/c/c.md)<br>[G](/digi3d-ai/referencia/ventana-de-dibujo/variables/g/g.md)<br>[S](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/s.md) |
 | Nombre interno | {89DE5C40-863D-4654-85F1-211FB9DC3AF3} |
 

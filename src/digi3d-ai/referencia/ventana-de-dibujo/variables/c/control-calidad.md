@@ -25,4 +25,5 @@ Por defecto está activada.
 | Opción del menú donde aparece la orden           | Control de calidad/Analizar control de calidad al digitalizar entidad |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                        |
+| Implementación | Nativa |
 | Nombre interno | {09E80E6F-2ED2-4FDA-9DD1-2E3826A3F0C3} |

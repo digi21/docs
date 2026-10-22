@@ -71,6 +71,7 @@ Si una extensión o el formato del archivo impiden borrar una línea, esa línea
 | Opción del menú donde aparece la orden | Dibujar/Más/Líneas de señalización horizontal |
 | Barra de herramientas en la que aparece la orden | Señalización horizontal |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CEBRA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cebra.md)<br>[CEBRA\_4P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cebra-4p.md)<br>[UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) |
 | Nombre interno | {340C33D2-7D89-4772-AFF1-D274F8735395} |

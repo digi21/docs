@@ -31,6 +31,7 @@ Sin parámetro:
 | Opción del menú donde aparece la orden | Topología/Descargar topologías/Todas las topologías<br>Topología/Descargar topologías/\(una opción por topología cargada\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md)<br>[CREAR\_TOPOLOGIAS\_CODIGOS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-topologias-codigos-visibles.md) |
 | Nombre interno | {EAB36190-29B7-42de-9AF0-D48298D5286B} |

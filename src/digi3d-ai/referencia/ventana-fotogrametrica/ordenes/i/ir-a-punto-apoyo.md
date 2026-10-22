@@ -35,6 +35,7 @@ El cuadro de diálogo se puede redimensionar y guarda su tamaño y su posición.
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Ir a punto de apoyo... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [IR\_A](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ir-a.md)<br>[IR\_A\_PUNTO\_ORIGEN](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/i/ir-a-punto-origen.md) |
 | Nombre interno | {9FCD076A-DD12-42a7-980E-FC2392C95419} |

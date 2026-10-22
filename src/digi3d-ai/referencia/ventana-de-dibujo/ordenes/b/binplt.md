@@ -21,6 +21,7 @@ Si Digi3D.AI descarta alguno de los trazos nuevos, la orden no aplica el cambio 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [ESCALA\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/escala-dibujo.md) |
 | Órdenes relacionadas | [EXPLOTAR\_PUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-puntos.md) |
 | Nombre interno | {C08928A2-D95D-499D-AFDF-A552FBEAA5E1} |

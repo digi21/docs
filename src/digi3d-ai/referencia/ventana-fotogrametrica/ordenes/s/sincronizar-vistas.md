@@ -24,6 +24,7 @@ Con la sincronización activada, las coordenadas de los índices se sincronizan 
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Múltiples vistas/Sincronizar vistas |
 | Barra de herramientas en la que aparece la orden | Sincronización de vistas |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [PARALIZAR](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/p/paralizar.md)<br>[SINCRONIZAR\_ZOOMS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-zooms.md) |
 | Nombre interno | {77951F58-D42F-4340-9866-7DAD40DB7F29} |

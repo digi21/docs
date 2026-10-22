@@ -24,6 +24,7 @@ Elige qué se muestra en la ventana fotogramétrica: la imagen ráster, la super
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {7F6A08F2-41CA-4ef7-8DC1-5CC6C00B3EC6} |

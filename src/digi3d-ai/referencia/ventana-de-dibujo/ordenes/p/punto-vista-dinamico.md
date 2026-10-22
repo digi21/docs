@@ -19,6 +19,7 @@ La orden dibuja un círculo en la ventana. Pulsa el botón de datos y, sin solta
 | Opción del menú donde aparece la orden | Zooms/Punto de vista/Esfera |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [PUNTO\_VISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-vista.md) |
 | Nombre interno | {EEB9677A-4458-4EAF-801B-F6AC3E60A074} |

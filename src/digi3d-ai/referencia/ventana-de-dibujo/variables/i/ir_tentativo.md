@@ -21,5 +21,6 @@ Esta variable está activada de forma predeterminada.
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Ir tentativo |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {710E0C29-4DC0-410d-8A24-B8C14913182F} |

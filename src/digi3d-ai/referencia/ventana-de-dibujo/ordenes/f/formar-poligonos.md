@@ -27,6 +27,7 @@ La orden no usa la topología de inundaciones que haya cargada: forma su propia 
 | Opción del menú donde aparece la orden | Dibujar/Polígono mediante inundaciones |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CREAR\_POLÍGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-poligono.md)<br>[POL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pol.md) |
 | Nombre interno | {F3F9E21F-BC9A-432E-B9D2-4DCBB070CCE4} |

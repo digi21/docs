@@ -19,6 +19,7 @@ Activa o desactiva la visualización de elementos desconocidos.
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Visualizar entidades con código desconocido |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {F5CE3810-9B12-407b-876D-88297058D4B1} |
 

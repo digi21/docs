@@ -44,6 +44,7 @@ Escribe los decimales de la tolerancia con punto: con coma, la orden ignora la p
 | Opción del menú donde aparece la orden | Análisis geométricos/Detectar cruces entre líneas si se supera tolerancia en Z/Líneas visibles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [DETECTAR\_CRUCE\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas.md)<br>[DETECTAR\_CRUCE\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas-visibles.md) |
 | Nombre interno | {DACB177A-0871-415C-BDE5-801586CB9171} |

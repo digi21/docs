@@ -33,6 +33,7 @@ La intensidad de los índices es un valor que puede variar entre 0 y 255 y esta 
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Índices/Brillo/Izquierda/Derecha/Aclarar<br>Ventana fotogramétrica/Índices/Brillo/Izquierda/Derecha/Oscurecer<br>Ventana fotogramétrica/Índices/Brillo/Izquierda/Derecha/Establecer el brillo original<br>Ventana fotogramétrica/Índices/Brillo/Izquierda/Aclarar<br>Ventana fotogramétrica/Índices/Brillo/Izquierda/Oscurecer<br>Ventana fotogramétrica/Índices/Brillo/Izquierda/Establecer el brillo original<br>Ventana fotogramétrica/Índices/Brillo/Derecha/Aclarar<br>Ventana fotogramétrica/Índices/Brillo/Derecha/Oscurecer<br>Ventana fotogramétrica/Índices/Brillo/Derecha/Establecer el brillo original |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.CommonCommands.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [COLOR\_ÍNDICE](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/c/color-indice.md) |
 | Nombre interno | {E1F08BCD-AC59-473a-8D45-5A3C8386551C} |

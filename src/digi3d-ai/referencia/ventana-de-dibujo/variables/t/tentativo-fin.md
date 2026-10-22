@@ -27,6 +27,7 @@ Al iniciar Digi3D.AI la variable está desactivada. Si está activada [AUTOMODOB
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Tentativo y fin |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {14285ACD-EC5D-4895-B10D-8BEFF282EC48} |
 

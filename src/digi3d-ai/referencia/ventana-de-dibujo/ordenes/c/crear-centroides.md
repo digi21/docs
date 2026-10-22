@@ -52,6 +52,7 @@ La topología cargada pasa a tener los centroides creados, sin volver a formarse
 | Opción del menú donde aparece la orden | Topología/Crear centroides automáticamente.../Todas las topologías, que ejecuta la orden sin parámetros. En el mismo submenú aparece una opción por cada topología cargada, que ejecuta la orden con el nombre de esa topología como parámetro. Las opciones están desactivadas si no hay ninguna topología cargada |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — establece el valor del ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — establece la altura de los textos<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — cambia la justificación del texto al insertarlo<br>[NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) — número de decimales |
 | Órdenes relacionadas | [DETECTAR\_POLIGONOS\_SIN\_CENTROIDE\_TOPOLOGIAS\_CARGADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-poligonos-sin-centroide-topologias-cargadas.md)<br>[UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) |
 | Nombre interno | {E6B3BAA5-7326-4976-A759-51C8660DDFAF} |

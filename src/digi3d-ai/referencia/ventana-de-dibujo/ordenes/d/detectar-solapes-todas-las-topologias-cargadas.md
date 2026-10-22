@@ -29,6 +29,7 @@ La orden no modifica el dibujo.
 | Opción del menú donde aparece la orden | Topología/Detectar solapes entre topologías/Entre todas las topologías cargadas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [DETECTAR\_SOLAPES\_TOPOLOGIAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-solapes-topologias.md) |
 | Nombre interno | {63B4E673-7503-42C2-A2A8-C3A4338C1587} |

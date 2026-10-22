@@ -21,6 +21,7 @@ No admite parámetros.
 | Opción del menú donde aparece la orden | Dibujar/Más/Paso de cebra con 3 puntos |
 | Barra de herramientas en la que aparece la orden | Señalización horizontal |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [CEBRA\_4P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cebra-4p.md) |
 | Nombre interno | {E805C5AC-338A-4943-8F5D-6BAA7BD6A591} |

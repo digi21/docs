@@ -21,5 +21,6 @@ Por defecto está desactivada.
 | Opción del menú donde aparece la orden | Ver/Representaciones dinámicas/Aplicar representaciones dinámicas en la geometría que se está dibujando |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {38C0DDC5-7AEE-4E23-9B64-13C242BD2B1E} |

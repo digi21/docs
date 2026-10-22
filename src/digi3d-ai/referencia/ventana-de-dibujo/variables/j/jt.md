@@ -59,5 +59,6 @@ Muestra la justificación activa en un globo, por ejemplo **Justificación: (3) 
 | Opción del menú donde aparece la orden | Dibujar/Justificación de texto/Sudoeste<br>Dibujar/Justificación de texto/Oeste<br>Dibujar/Justificación de texto/Noroeste<br>Dibujar/Justificación de texto/Norte<br>Dibujar/Justificación de texto/Noreste<br>Dibujar/Justificación de texto/Este<br>Dibujar/Justificación de texto/Sudeste<br>Dibujar/Justificación de texto/Sur<br>Dibujar/Justificación de texto/Centro |
 | Barra de herramientas en la que aparece la orden | Textos (botón desplegable con la barra Justificación de textos, un botón por valor) |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [FORZAR\_JT\_ACTIVA](../f/forzar-jt-activa.md) |
 | Nombre interno | {77F3855D-5146-436f-AEB1-9468D43AE611} |

@@ -32,6 +32,7 @@ La orden solo usa los parámetros si recibe al menos dos \(la tolerancia y un c�
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Configurar paso de curvas... |
 | Barra de herramientas en la que aparece la orden | Tentativo \(desplegable del botón Mostrar paso de curvas\) |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [MOSTRAR\_PASO\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/mostrar_paso_curvas.md) — activa o desactiva la visualización del paso de curvas |
 | Órdenes relacionadas | [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md), [Z](/digi3d-ai/referencia/ventana-de-dibujo/variables/z/z.md) |
 | Nombre interno | {FEB6782B-86C0-43C4-A5B4-2AE8B5D13F26} |

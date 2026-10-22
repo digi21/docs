@@ -23,6 +23,7 @@ La orden muestra en la barra de estado un campo con el radio, que puedes cambiar
 | Opción del menú donde aparece la orden | Dibujar/Más/Circunferencia con centro y radio |
 | Barra de herramientas en la que aparece la orden | Circunferencias |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CIR2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir2p.md)<br>[CIR3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3d.md)<br>[CIR3P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3p.md) |
 | Nombre interno | {958A46FD-8051-4660-82A2-F5A14F314854} |

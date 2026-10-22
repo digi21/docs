@@ -31,6 +31,7 @@ Esta variable se desactiva cada vez que se inicia Digi3D.AI.
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Mostrar paso de curvas |
 | Barra de herramientas en la que aparece la orden | Tentativo |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) |
 | Órdenes relacionadas | [CONFIGURAR\_MOSTRAR\_PASO\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/configurar-mostrar-paso-curvas.md) |
 | Nombre interno | {9D6A4AC4-08FF-43AB-97BF-60E9D6DC7BB2} |

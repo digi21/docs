@@ -50,6 +50,7 @@ La orden sustituye por una copia corregida cada entidad que tiene alguna X o alg
 | Opción del menú donde aparece la orden | Análisis geométricos/Juntar vértices cercanos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [JUNTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/j/juntar.md) |
 | Nombre interno | {8312B2CC-7C50-456A-81A0-36737CE1B41C} |

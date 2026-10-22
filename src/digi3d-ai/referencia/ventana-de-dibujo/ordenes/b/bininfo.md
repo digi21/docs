@@ -26,6 +26,7 @@ Esta orden abre la ventana acoplable **Salida** y escribe en ella el sistema de 
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Información del archivo |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {0454D92C-B79A-479a-8565-D0095F5BF4BA} |

@@ -23,6 +23,7 @@ Si no se indica ningún parámetro, se muestra el cuadro de diálogo [Selecciona
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Color desconocido... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {B114FEAC-4ABD-46F8-B4B2-4E1D8DE0E29A} |

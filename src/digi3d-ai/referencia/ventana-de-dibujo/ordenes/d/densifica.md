@@ -63,6 +63,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 | Opción del menú donde aparece la orden | Dibujar/Densificar polilíneas... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md)<br>[GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md)<br>[INSERTA\_VÉRTICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inserta-vertice.md) |
 | Nombre interno | {33AB2DA1-4007-4BA9-B637-7F5CDAEA33E3} |

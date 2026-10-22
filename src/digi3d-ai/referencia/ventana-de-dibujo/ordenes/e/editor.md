@@ -36,6 +36,7 @@ Al pulsar **Cancelar**, la orden termina sin modificar la línea.
 | Opción del menú donde aparece la orden | Editar/Editar las coordenadas de una geometría... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md) — número de decimales de las coordenadas |
 | Órdenes relacionadas | [EDITAR\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-xyz.md) |
 | Nombre interno | {B826AC47-F6A5-4D4B-8FE5-1DCDE8DA0FB1} |

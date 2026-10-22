@@ -30,6 +30,7 @@ El factor de zoom no cambia.
 | Opción del menú donde aparece la orden | Zooms/Centrar la vista en un punto digitalizado |
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ZOOM\_ANTERIOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-anterior.md)<br>[ZOOM2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom2p.md)<br>[ZOOMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zooma.md) |
 | Nombre interno | {06225501-1195-4b03-B53F-947B307BB745} |

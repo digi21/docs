@@ -25,6 +25,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una línea m
 | Opción del menú donde aparece la orden | Topología/Asignar la Z del centroide a las líneas que forman el polígono/Todas las topologías |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {CCEC81C6-855C-4BE7-AE8A-B29C4BB0023F} |

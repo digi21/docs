@@ -25,6 +25,7 @@ La variable se desactiva cada vez que se abre un archivo de dibujo.
 | Opción del menú donde aparece la orden | MDT/Proyectar la coordenada Z al mover sobre un MDT cargado |
 | Barra de herramientas en la que aparece la orden | MDT |
 | Extensión | DigiNG.OrdenesMDT.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {ED25771C-ED54-4357-A7AD-05C976348ABD} |
 

@@ -44,6 +44,7 @@ Al pulsar _Aceptar_, la orden aplica el orden y la visibilidad de la lista, rege
 | Opción del menú donde aparece la orden | Topología/Ver/Todas las topologías<br>Topología/Ver/Ninguna topología<br>Topología/Ver/(una opción por cada topología cargada) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md) |
 | Nombre interno | {EA4A64CD-BD28-43B0-A499-C44500C57813} |

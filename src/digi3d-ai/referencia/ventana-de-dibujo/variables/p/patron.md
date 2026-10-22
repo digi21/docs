@@ -23,6 +23,7 @@ Cuando está activado, DigiNG utiliza la información de la [tabla de códigos](
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Activar patrón |
 | Barra de herramientas en la que aparece la orden | Parámetros de visualización |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {00203494-2ED6-447b-A403-E11AE9267622} |
 

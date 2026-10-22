@@ -23,6 +23,7 @@ La variable se activa cada vez que se abre un archivo de dibujo.
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {1549F6A9-D545-4dc6-87BD-C46F3BA0CFDC} |
 

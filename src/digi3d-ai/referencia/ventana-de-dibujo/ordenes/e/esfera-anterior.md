@@ -21,6 +21,7 @@ La orden requiere un archivo de imágenes esféricas cargado y una esfera selecc
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ENTRAR\_EN\_ESFERA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/entrar-en-esfera.md)<br>[ESFERA\_SIGUIENTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/esfera-siguiente.md) |
 | Nombre interno | {3CAD1530-5409-4034-8F42-A316EBDC6DE4} |

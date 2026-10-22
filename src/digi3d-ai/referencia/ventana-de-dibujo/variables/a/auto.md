@@ -19,5 +19,6 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 | Opción del menú donde aparece la orden | Zooms/Activar el autoseguimiento de cámara para sensor fotogramétrico |
 | Barra de herramientas en la que aparece la orden | Desplazamientos de ventana |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AUTO_RATON](auto-raton.md) — autocentrado cuando el dispositivo de entrada es el ratón |
 | Nombre interno | {0E566C1B-3139-48a3-AEAF-DBAB58D1CCF2} |

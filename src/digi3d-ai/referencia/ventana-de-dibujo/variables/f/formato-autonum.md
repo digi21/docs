@@ -67,6 +67,7 @@ Si la cadena de formato tiene más de una conversión, o una conversión que no 
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/autonum.md) |
 | Nombre interno | {7E76B285-DABD-4265-88D7-4FCA2F35DA73} |
 

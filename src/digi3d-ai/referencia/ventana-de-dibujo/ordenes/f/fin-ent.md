@@ -28,6 +28,7 @@ Para finalizar la línea cerrándola, usa [CIERRA\_ENT](/digi3d-ai/referencia/ve
 | Opción del menú donde aparece la orden | Dibujar/Finalizar la línea que estás dibujando |
 | Barra de herramientas en la que aparece la orden | Finalización de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CIERRA\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cierra-ent.md)<br>[LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) |
 | Nombre interno | {A72F081C-713C-4cc4-B266-9C0772843DA1} |

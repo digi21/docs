@@ -37,6 +37,7 @@ Con **TOL\_ANG** igual a 0 no se elimina ningún vértice que no esté exactamen
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [TOL](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md) |
 | Nombre interno | {CAF1F0F2-7F03-4a0f-804C-B9E411772E09} |
 

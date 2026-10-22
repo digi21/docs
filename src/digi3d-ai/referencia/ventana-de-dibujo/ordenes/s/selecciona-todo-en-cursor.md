@@ -24,6 +24,7 @@ Pulsa el pulsador de datos o el de tentativo sobre las entidades. La orden selec
 | Opción del menú donde aparece la orden | Inmediato/Selecciona todas las entidades que interseccionan con el cursor |
 | Barra de herramientas en la que aparece la orden | Selecciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md) — verificación por parte del usuario de la selección del tentativo |
 | Órdenes relacionadas | [SELECCIONA\_LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-linea.md) |
 | Nombre interno | {2FA4CFE6-21C1-4497-B6FE-31559327539F} |

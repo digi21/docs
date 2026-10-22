@@ -39,6 +39,7 @@ AA=45
 | Opción del menú donde aparece la orden | Inmediato/Ángulo activo |
 | Barra de herramientas en la que aparece la orden | Parámetros activos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {55EDDC5E-2B30-4bd0-B4FF-1BD954EF937C} |
 

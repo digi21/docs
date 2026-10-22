@@ -61,6 +61,7 @@ Cuando la topología se forma, la orden no dibuja nada ni muestra ningún mensaj
 | Opción del menú donde aparece la orden | Inundación/Generar topología para inundaciones (sin huecos) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [DESCARGAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/descargar-topologia-inundacion.md)<br>[GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) |
 | Nombre interno | {73979743-2DC6-423F-A91F-AC1786742600} |

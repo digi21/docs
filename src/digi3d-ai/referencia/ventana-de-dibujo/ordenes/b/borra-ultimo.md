@@ -19,6 +19,7 @@ Cada vez que se ejecute la orden desaparecerá la última entidad no borrada del
 | Opción del menú donde aparece la orden | Editar/Eliminar la última entidad del archivo de dibujo |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md)<br>[SELECCIONA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ultimo.md) |
 | Nombre interno | {FEAEF6BB-98C6-4817-AEB5-87FDDAFB8D6E} |

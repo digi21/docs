@@ -25,6 +25,7 @@ Para copiar las coordenadas que se están mostrando sin digitalizar un punto, us
 | Opción del menú donde aparece la orden | Inmediato/Copiar coordenadas al portapapeles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [AGREGA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/agrega.md)<br>[XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md) |
 | Nombre interno | {266EFF98-5D43-4F52-8630-AD30F9A74C9F} |

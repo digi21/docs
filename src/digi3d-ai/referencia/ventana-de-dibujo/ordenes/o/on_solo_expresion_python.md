@@ -46,6 +46,7 @@ ON_SOLO_EXPRESION_PYTHON=#Edificios #Deportivo
 | Opción del menú donde aparece la orden | Ver/Solo las que cumplan con expresión Python...<br>Ver/(selecciones de la tabla de códigos) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [OFF\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off_expresion_python.md)<br>[ON\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md)<br>[ONSOLO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/onsolo.md)<br>[VER\_TODAS\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-todas-entidades.md) |
 | Nombre interno | {59456486-1146-4F25-B8BD-3435FD2FF715} |

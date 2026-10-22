@@ -27,6 +27,7 @@ Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna lín
 | Opción del menú donde aparece la orden | Análisis geométricos/Unir líneas si coincide la Z/En nodos a los que llegan dos entidades/Líneas visibles<br>Análisis geométricos/Unir líneas si coincide la Z/En nodos a los que llegan dos entidades/(una opción por cada etiqueta de la tabla de códigos) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [UNIR\_LINEAS\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-tabla.md)<br>[UNIR\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-xyz.md) |
 | Nombre interno | {40963DC8-B7E2-4EE8-B7E9-4CF9D3FCFC65} |

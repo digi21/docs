@@ -23,5 +23,6 @@ Por defecto está desactivada.
 | Opción del menú donde aparece la orden | Análisis geométricos/Insertar un vértice en el punto de cruce de las líneas/Insertar vértice en las intersecciones automáticamente al finalizar línea |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Nombre interno | {53054A2A-98D8-44D4-9404-7B86603F9759} |
 

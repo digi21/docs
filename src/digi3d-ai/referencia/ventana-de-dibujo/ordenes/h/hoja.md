@@ -68,6 +68,7 @@ Digi3D.AI recuerda las propiedades entre ejecuciones; las coordenadas de las esq
 | Opción del menú donde aparece la orden | Dibujar/Gráfico de hojas/Crear una hoja por coordenadas conocidas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [RECORTA\_TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recorta-traza.md)<br>[TRAZA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/traza.md) |
 | Nombre interno | {CF3F30DF-C61A-4424-AF32-AE28716A0EEC} |

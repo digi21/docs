@@ -23,6 +23,7 @@ Si se graba una macro, la orden anota como parámetro el archivo elegido en el c
 | Opción del menú donde aparece la orden | Archivo/Herramientas/Guardar tabla de códigos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {C84B6EB9-4E49-47BE-B8B5-190D30AB2679} |

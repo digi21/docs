@@ -60,6 +60,7 @@ DA=12.45 22.49
 | Opción del menú donde aparece la orden | Inmediato/Distancia activa (con cuatro puntos) |
 | Barra de herramientas en la que aparece la orden | Parámetros activos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {5481B0E5-F64A-4249-A51E-E9076404F0DA} |
 

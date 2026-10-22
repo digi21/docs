@@ -34,6 +34,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no parte ninguna de 
 | Opción del menú donde aparece la orden | Análisis geométricos/Partir líneas por el punto de cruce/Líneas que cruzan la geometría seleccionada |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [LIMPIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limpia.md)<br>[PARTIR\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas.md)<br>[PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md)<br>[TRIM\_LADO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/trim-lado.md) |
 | Nombre interno | {27530311-1881-405A-BD49-F18FE94A957B} |

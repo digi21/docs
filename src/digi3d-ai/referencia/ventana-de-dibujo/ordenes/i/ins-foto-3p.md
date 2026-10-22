@@ -25,6 +25,7 @@ El resultado final es que la imagen se orienta formando el rectángulo que solap
 | Opción del menú donde aparece la orden | Dibujar/Imagen/Mediante tres puntos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [INS\_FOTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-foto.md)<br>[INS\_FOTO\_2P\_AA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-foto-2p-aa.md) |
 | Nombre interno | {0339F78C-FCBF-46E3-8FCA-7F0B19B4D956} |

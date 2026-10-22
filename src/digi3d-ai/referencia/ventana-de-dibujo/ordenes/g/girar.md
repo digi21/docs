@@ -31,6 +31,7 @@ Sin parámetros, la orden no hace nada. Con dos a cinco parámetros, la orden mu
 | Opción del menú donde aparece la orden |Zooms/Rotación de la cámara/0 grados<br>Zooms/Rotación de la cámara/90 grados<br>Zooms/Rotación de la cámara/180 grados<br>Zooms/Rotación de la cámara/270 grados|
 | Barra de herramientas en la que aparece la orden | Rotación de la cámara |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [PUNTO\_VISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-vista.md) |
 | Nombre interno | {1A1D36C6-9CAE-47b2-8740-2E5AA4D36E23} |

@@ -23,6 +23,7 @@ Si el control de calidad descarta la primera línea modificada, se conserva la l
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Crear un cruce de caminos |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {E46C5B7B-41E3-45fd-9ACC-9D6958ADDB97} |

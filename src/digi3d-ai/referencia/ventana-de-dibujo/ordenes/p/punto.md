@@ -21,6 +21,7 @@ Pulsa el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-bot
 | Opción del menú donde aparece la orden | Dibujar/Punto con ángulo activo y escala activas |
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [PUNTO\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-2p.md)<br>[PUNTO\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-r.md) |
 | Nombre interno | {BBC273BC-ACA3-4e54-B2B8-4F5D347DABD1} |

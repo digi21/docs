@@ -31,6 +31,7 @@ Si hay otra orden ejecutándose encima del panel, **Aceptar** y **Cancelar** emi
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Modificar orientación del modelo (opción que añade el sensor de cámara cónica) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.ConicSensor.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ORI\_RELATIVA](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori_relativa.md)<br>[ROTACIONES\_CAMARAS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/r/rotaciones-camaras.md) |
 | Nombre interno | {22F02A11-BB26-444D-89B3-43D0F41803CB} |

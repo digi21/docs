@@ -17,6 +17,7 @@ No admite parámetros.
 | Opción del menú donde aparece la orden | Dibujar/Más/Rectángulo con 2 puntos orientado a norte |
 | Barra de herramientas en la que aparece la orden | Cuadrados y rectángulos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/2/2p.md)<br>[2P\_AA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/2/2p-aa.md)<br>[3P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/3/3p.md)<br>[RECTANGULO\_DR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rectangulo-dr.md) |
 | Nombre interno | {EDBBB1EB-6305-4E55-9A05-BEEDE794D376} |

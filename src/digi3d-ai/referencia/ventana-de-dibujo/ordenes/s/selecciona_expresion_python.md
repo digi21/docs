@@ -35,6 +35,7 @@ SELECCIONA_EXPRESION_PYTHON=type(g).__name__ == 'Text' and g.text == ''
 | Opción del menú donde aparece la orden | Inmediato/Selecciona por expresión Python.../Introduciendo expresión...<br>Inmediato/Selecciona por expresión Python.../(selecciones de la tabla de códigos) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) |
 | Órdenes relacionadas | [ON\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md)<br>[SELECCIONA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-cod.md)<br>[SELECCIONA\_POR\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-por-atributo.md) |
 | Nombre interno | {60FBEA4A-2F76-40BB-9201-12C85A211682} |

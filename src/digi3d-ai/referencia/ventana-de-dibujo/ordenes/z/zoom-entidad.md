@@ -19,6 +19,7 @@ Selecciona una o varias entidades. La orden ajusta la vista a la ventana que eng
 | Opción del menú donde aparece la orden | Zooms/Zoom a entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ZOOM\_ANTERIOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-anterior.md)<br>[ZOOME](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoome.md)<br>[ZOOMV](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomv.md) |
 | Nombre interno | {8FFBD152-DF4E-43db-8BC1-5DD02A417F78} |

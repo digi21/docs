@@ -25,6 +25,7 @@ La variable es propia de cada ventana de dibujo. Al cambiar su valor, la ventana
 | Opción del menú donde aparece la orden | Ver/Parámetros de visualización/Rellenar polígonos |
 | Barra de herramientas en la que aparece la orden | Parámetros de visualización |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {0F8FA533-635B-4b58-B386-EE9FA424B5BC} |
 

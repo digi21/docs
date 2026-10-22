@@ -51,6 +51,7 @@ Las órdenes MOD\_Z, MOD\_MÚLTIPLE y MOD\_Z\_MÚLTIPLE muestran el mismo cuadro
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XY una polilínea existente con la que estás registrando |
 | Barra de herramientas en la que aparece la orden | Modifica |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [MOD\_MÚLTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-multiple.md)<br>[MOD\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z.md)<br>[MOD\_Z\_MÚLTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z-multiple.md) |
 | Nombre interno | {0A6E6F7E-3A79-4726-BFAA-50A552634A5B} |

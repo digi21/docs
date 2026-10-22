@@ -23,6 +23,7 @@ Si la orden se ejecuta mientras se esta dibujando una entidad, sólo hay que esp
 | Opción del menú donde aparece la orden | Dibujar/Arco |
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) — activa o desactiva las señales acústicas |
 | Órdenes relacionadas | [ACUERDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/acuerdo.md)<br>[ARCO\_TANGENTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco-tangente.md)<br>[MULTIARCO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/multiarco.md) |
 | Nombre interno | {3267A72F-6510-42bd-984F-1CC756AE8E45} |

@@ -45,5 +45,6 @@ Muestra el valor actual en un globo.
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [GROSORS](grosors.md) |
 | Nombre interno | {D8D7E7B7-322C-4bbb-9BCD-43B0E71DD457} |

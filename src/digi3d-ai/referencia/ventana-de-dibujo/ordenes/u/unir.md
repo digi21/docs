@@ -57,6 +57,7 @@ Si una de las dos líneas no pertenece al modelo actual, la opción elegida no c
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Unir dos polilíneas |
 | Barra de herramientas en la que aparece la orden | Unir |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [EXT2X](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/ext2x.md)<br>[UNIR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-cod.md) |
 | Nombre interno | {88F56A67-0638-495d-99FB-6265DAD1CF1B} |

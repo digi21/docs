@@ -23,5 +23,6 @@ Puedes aprender más sobre órdenes automática en [Ejecutando órdenes de maner
 | Opción del menú donde aparece la orden           | Inmediato/Variables booleanas/Modo automático                 |
 | Barra de herramientas en la que aparece la orden | Órdenes automáticas                                           |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                    |
+| Implementación | Nativa |
 | Variables relacionadas                           | No tiene variables relacionadas                               |
 | Nombre interno                                   | {1FFBBCFE-F313-4854-93F5-1B9E9E15353D}                        |

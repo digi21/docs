@@ -81,6 +81,7 @@ En la ventana fotogramétrica, la tecla _Intro_ abre siempre el [campo para escr
 | Opción del menú donde aparece la orden | Inmediato/Teclados virtuales/Asignar una orden al teclado virtual activo...<br>Ventana fotogramétrica/Teclado/Programador de teclas |
 | Barra de herramientas en la que aparece la orden | Teclados |
 | Extensión | DigiNG.OrdenesStandard.dll (Digi3D.CommonCommands.dll si no hay ventanas de dibujo abiertas) |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CAMBIA\_TECLAS\_MNU](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md) |
 | Nombre interno | {EB6809CA-AA03-4dfb-9D7A-D639EFDBC051} |

@@ -27,6 +27,7 @@ Independientemente del código utilizado al dibujar la entidad modificadora, és
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XYZ una polilínea existente con la que estás registrando |
 | Barra de herramientas en la que aparece la orden | Modifica |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [MOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md)<br>[MOD\_MÚLTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-multiple.md)<br>[MOD\_Z\_MÚLTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z-multiple.md) |
 | Nombre interno | {27196CD6-E905-44ad-A4E2-31FFB7102EC5} |

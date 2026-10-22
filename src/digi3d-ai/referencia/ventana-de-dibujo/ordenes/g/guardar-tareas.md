@@ -17,6 +17,7 @@ Guarda en un archivo XML las tareas del panel de tareas.
 | Opción del menú donde aparece la orden           | Ventana/Tareas/Guardar archivo de tareas (xml)                               |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
+| Implementación | Nativa |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
 | Órdenes relacionadas                             | [BORRAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borrar-tareas.md)<br>[CARGAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cargar-tareas.md)<br>[CARGAR\_TAREAS\_FICHERO\_FORMATO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cargar-tareas-fichero-formato.md) |
 | Nombre interno | {0C72891D-301F-46f5-BFE2-7DB0924B2B53} |

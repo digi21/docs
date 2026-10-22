@@ -34,6 +34,7 @@ Esta orden resulta práctica en las ocasiones en las cuales se necesita restitui
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Z descendente<br>Dibujar/Restricciones de polilíneas/Z descendente moderada<br>Dibujar/Restricciones de polilíneas/Sin restricciones de Z<br>Dibujar/Restricciones de polilíneas/Z ascendente moderada<br>Dibujar/Restricciones de polilíneas/Z ascendente |
 | Barra de herramientas en la que aparece la orden | Restricciones de polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md)<br>[POL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pol.md) |
 | Nombre interno | {F3405A61-4894-487c-98C0-490005CFF029} |

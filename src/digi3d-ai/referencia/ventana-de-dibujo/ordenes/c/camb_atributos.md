@@ -25,6 +25,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 | Opción del menú donde aparece la orden           | Editar/Cambiar los atributos de una entidad por los activos                                                                                                     |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_                                                                                                        |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |
+| Implementación | Nativa |
 | Variables relacionadas                           | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas                             | [ACTUALIZA\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/actualiza_atributos.md)<br>[CLONAR\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/clonar_atributos.md)<br>[EDITAR\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar_atributos.md) |
 | Nombre interno                                   | {5F66A7F4-7575-4C61-962A-0E1A40E13FB4}                                                                                                                          |

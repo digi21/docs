@@ -30,6 +30,7 @@ El valor por defecto es 0.
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Permanecer en el sitio<br>Dibujar/Al finalizar la línea actual.../Ir al principio de esta<br>Dibujar/Al finalizar la línea actual.../Ir al principio de esta y subir Z<br>Dibujar/Al finalizar la línea actual.../Ir al principio de esta y bajar Z<br>Dibujar/Al finalizar la línea actual.../Subir Z<br>Dibujar/Al finalizar la línea actual.../Bajar Z |
 | Barra de herramientas en la que aparece la orden | Acción al finalizar línea |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Nombre interno | {F210493F-EAAD-4eeb-921D-CA828AC4129E} |
 
 

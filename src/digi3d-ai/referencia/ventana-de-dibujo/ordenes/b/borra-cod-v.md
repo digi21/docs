@@ -39,6 +39,7 @@ En el modo Corte, si el control de calidad descarta alguno de los trozos conserv
 | Opción del menú donde aparece la orden | Editar/Más/Cortar por polígono y código... |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod.md)<br>[BORRA\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-v.md) |
 | Nombre interno | {89AC83BA-9BC7-4c4d-8E5C-5384E892EB0F} |

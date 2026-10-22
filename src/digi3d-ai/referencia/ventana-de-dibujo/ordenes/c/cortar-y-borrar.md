@@ -19,6 +19,7 @@ Si el control de calidad descarta cualquiera de los dos trozos nuevos, se conser
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Partir una polilínea y eliminar uno de los dos extremos |
 | Barra de herramientas en la que aparece la orden | Partir |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [CORTA\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/corta-2p.md)<br>[CORTAR\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-e.md) |
 | Nombre interno | {2D4EAA24-227B-40E4-9E9A-2D189706CD40} |

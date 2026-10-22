@@ -136,6 +136,7 @@ Si Digi3D.AI descarta alguna de las entidades transformadas, la orden no aplica 
 | Opción del menú donde aparece la orden | Editar/Avanzado/Transformar el archivo de dibujo \(Helmert, afín, absoluta, traslación, escala, tensor\)... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) |
 | Nombre interno | {0D75B4EC-3036-4684-95A4-D2119B3A6E88} |

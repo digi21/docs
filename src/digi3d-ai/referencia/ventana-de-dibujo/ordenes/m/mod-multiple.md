@@ -27,6 +27,7 @@ La orden sigue pidiendo entidades a modificar con el mismo trazado hasta que pul
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Modificar en XY múltiples polilíneas existentes con la que estás registrando |
 | Barra de herramientas en la que aparece la orden | Modifica |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [MOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md)<br>[MOD\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z.md)<br>[MOD\_Z\_MÚLTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z-multiple.md) |
 | Nombre interno | {8F810FF6-B3F4-4080-9572-84554E9F33AE} |

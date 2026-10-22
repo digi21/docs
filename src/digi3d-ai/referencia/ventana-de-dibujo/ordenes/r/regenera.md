@@ -19,6 +19,7 @@ Cuando se realiza una regeneración, al igual que cuando se redibuja la pantalla
 | Opción del menú donde aparece la orden | Zooms/Regenerar |
 | Barra de herramientas en la que aparece la orden | Zooms |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {1B788F81-DB09-41af-A0F8-949E77856BD4} |

@@ -29,6 +29,7 @@ Si la propiedad de la acción sobre la geometría del hueco indica preguntar, la
 | Opción del menú donde aparece la orden | Editar/Polígonos/Insertar hueco en polígono |
 | Barra de herramientas en la que aparece la orden | Polígonos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BORRAR\_HUECO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borrar-hueco.md) |
 | Nombre interno | {0A26B11E-E894-4b05-8034-0E89323F6710} |

@@ -37,6 +37,7 @@ AT=10.5
 | Opción del menú donde aparece la orden | Dibujar/Altura de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Nombre interno | {CEE1BE4D-A720-49d4-A9EE-EF3C042B076C} |
 

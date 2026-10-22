@@ -26,6 +26,7 @@ Los dos textos tienen la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/
 | Opción del menú donde aparece la orden | Dibujar/Acotar/Texto con coordenadas X e Y de un punto |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md) — ángulo activo<br>[AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md) — altura de los textos<br>[DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa<br>[JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) — justificación del texto<br>[REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) — repite la última orden ejecutada |
 | Órdenes relacionadas | [PONE\_ALTURA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pone-altura.md)<br>[PONE\_DISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pone-distancia.md) |
 | Nombre interno | {E3808668-1118-4353-85B8-BEA3F4299DA1} |

@@ -54,6 +54,7 @@ Si el tamaño del píxel no es mayor que 0, la orden muestra un mensaje de error
 | Opción del menú donde aparece la orden | Ortofoto/Crear ortofoto... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesRaster.dll |
+| Implementación | Nativa |
 | Variables relacionadas | [DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md) — distancia activa |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {47972709-ACC5-4F6E-8B04-DEB6F73554B0} |

@@ -58,6 +58,7 @@ Si la imagen ya tenía una orientación interna medida, el panel se abre con las
 | Opción del menú donde aparece la orden | Ventana fotogramétrica/Orientación interna (izquierda) (opción que añade el sensor de cámara cónica) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | Digi3D.ConicSensor.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [ORI\_ABSOLUTA](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori-absoluta.md)<br>[ORI\_INTERNA\_D](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori-interna-d.md)<br>[ORI\_RELATIVA](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori_relativa.md) |
 | Nombre interno | {DFA42290-2F06-4afe-B852-24447ECA6A89} |

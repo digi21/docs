@@ -29,6 +29,7 @@ Si se cancela el cuadro de diálogo, la orden termina sin crear el archivo.
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Crear un bloque... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [BLOQUE\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque-2p.md)<br>[INS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins.md) |
 | Nombre interno | {6631BD75-5A59-423f-9196-B432B6DBF6D5} |

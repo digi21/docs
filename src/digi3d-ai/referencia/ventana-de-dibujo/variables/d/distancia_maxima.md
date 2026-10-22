@@ -51,5 +51,6 @@ DISTANCIA_MAXIMA=12.5
 | Opción del menú donde aparece la orden           | Dibujar/Restricciones de polilíneas/Perímetro máximo del siguiente segmento |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                    |
+| Implementación | Nativa |
 | Variables relacionadas                           | No tiene variables relacionadas                                               |
 | Nombre interno                                   | {C3276631-6A15-4AFF-B013-924EF597AC44}                                        |

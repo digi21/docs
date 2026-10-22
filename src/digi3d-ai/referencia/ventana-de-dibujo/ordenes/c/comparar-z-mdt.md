@@ -40,6 +40,7 @@ Esta orden solicita la tolerancia en este cuadro de diálogo.
 | Opción del menú donde aparece la orden | Análisis geométricos/Comparar Z con MDTs cargados/Geometrías visibles |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesMDT.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [PROYECTA\_POR\_CONDICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-por-condicion.md) |
 | Nombre interno | {08589CEE-2BEA-42BC-AD4E-5F65709CDA35} |

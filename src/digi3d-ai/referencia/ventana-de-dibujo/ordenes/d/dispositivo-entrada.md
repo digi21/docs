@@ -17,6 +17,7 @@ Establece el dispositivo de entrada de la ventana de dibujo (por ejemplo, un GPS
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md) |
 | Nombre interno | {C828EA8A-EE06-414D-B694-896C0AA89571} |

@@ -44,6 +44,7 @@ Esta orden solicita en este cuadro de diálogo los archivos de referencia que se
 | Opción del menú donde aparece la orden | Archivo/Descargar archivo de referencia... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md) |
 | Nombre interno | {99D6E304-1AE6-4eec-B6E5-D1A438009F11} |

@@ -23,6 +23,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 | Opción del menú donde aparece la orden | Análisis geométricos/Eliminar puntos dobles/Puntos que coincidan en X,Y,Z<br>Análisis geométricos/Eliminar puntos dobles/Puntos que coincidan en X,Y |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |
+| Implementación | Nativa |
 | Variables relacionadas | No tiene variables relacionadas |
 | Órdenes relacionadas | No tiene órdenes relacionadas |
 | Nombre interno | {9D15A184-EFC0-415A-97AD-A35D627FF94A} |

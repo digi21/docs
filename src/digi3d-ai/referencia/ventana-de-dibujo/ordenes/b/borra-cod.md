@@ -45,6 +45,7 @@ Si Digi3D.AI descarta la copia sin el código indicado de una entidad con más d
 | Opción del menú donde aparece la orden           | Editar/Eliminar entidades por código...                                      |
 | Barra de herramientas en la que aparece la orden | [Eliminar y recuperar](/digi3d-ai/referencia/barras-de-herramientas/eliminar-y-recuperar.md) |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |
+| Implementación | Nativa |
 | Variables relacionadas                           | No tiene variables relacionadas                                              |
 | Órdenes relacionadas                             | [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md)<br>[BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md)<br>[RECUPERA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recupera-cod.md) |
 | Nombre interno | {5ED4CD51-E4DB-4365-8522-F82BBC7813A2} |
