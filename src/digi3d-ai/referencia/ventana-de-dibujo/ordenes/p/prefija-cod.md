@@ -1,0 +1,39 @@
+# PREFIJA\_COD
+<!-- id: prefija-cod-2 -->
+
+Antepone un prefijo a los códigos de cada geometría que se selecciona con un dato, salvo a los códigos que ya tienen uno.
+
+## Parámetros
+
+| Número de parámetro | Descripción | Valores | Opcional |
+| :--- | :--- | :--- | :--- |
+| 1 | Prefijo | Cadena sin espacios, por ejemplo `BAI_` o `ACT_` | No |
+
+## Observaciones
+
+Con cada dato, la orden selecciona la geometría más próxima del archivo de dibujo activo, igual que el pedal de tentativo. Las geometrías de los archivos de referencia no se pueden seleccionar.
+
+La orden antepone el prefijo a cada código de la geometría que no empieza por `ACT_`, por `BAI_` ni por el prefijo indicado. Cada código conserva su tabla y su registro de base de datos. Si todos los códigos de la geometría tienen ya un prefijo, la geometría no cambia y la orden emite un pitido.
+
+Cada geometría modificada queda en una transacción propia, así que cada UNDO deshace el cambio de una sola geometría. La orden sigue activa hasta que pulsas reset.
+
+Para trabajar con varios prefijos, asigna la orden a una tecla o a un botón de una barra de herramientas por cada prefijo, por ejemplo `PREFIJA_COD=ACT_` y `PREFIJA_COD=BAI_`.
+
+Si falta el prefijo, la orden emite el sonido de error, muestra un cuadro con el motivo y la forma de uso y no se inicia.
+
+La orden es el guion de Python `prefija_cod.py` del repositorio [ComandosDigi3DPython](https://github.com/digi21/ComandosDigi3DPython). Digi3D.AI lo instala en la carpeta `OrdenesPython` de su carpeta de instalación. Para modificar la orden, por ejemplo para cambiar la lista de prefijos, copia el archivo en el [directorio de macroinstrucciones](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/directorio-de-macroinstrucciones.md) y edita la copia: Digi3D.AI ejecuta la copia en lugar del archivo instalado.
+
+La página [Prefijar los códigos de la geometría seleccionada](/digi3d-ai/programacion/python/panel-de-python/ejemplos/prefija-cod.md) explica el código.
+
+## Características de la orden
+
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
+| :--- | :--- |
+| Repite automáticamente | No |
+| Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
+| Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
+| Extensión | prefija\_cod.py |
+| Implementación | [Python](/digi3d-ai/programacion/python/ordenes-python.md) |
+| Código fuente | [prefija\_cod.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/prefija_cod.py) |
+| Variables relacionadas | No tiene variables relacionadas |
+| Órdenes relacionadas | [CAMB\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-cod.md)<br>[RENOMCOD\_MANTENIENDO\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-manteniendo-atributos.md) |

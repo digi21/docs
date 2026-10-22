@@ -73,8 +73,10 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [EDITAR\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar_atributos.md): Edita los atributos de la entidad seleccionada.
 * [EDITAR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-cod.md): Edita los códigos de la entidad seleccionada.
 * [ELIMINAR\_CODIGOS\_DESCONOCIDOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-codigos-desconocidos.md): Elimina todos los códigos desconocidos del archivo de dibujo.
+* [PREFIJA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/prefija-cod.md): Antepone un prefijo a los códigos de cada geometría que se selecciona con un dato, salvo a los códigos que ya tienen uno.
 * [RENOMBRAR\_CODIGOS\_DESCONOCIDOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renombrar-codigos-desconocidos.md): Permite renombrar los códigos desconocidos localizados en el archivo de dibujo.
 * [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md): Cambia el código correspondiente a una serie de entidades por otro código, ya sea el activo o el código que se especifique en la llamada a la orden.
+* [RENOMCOD\_MANTENIENDO\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-manteniendo-atributos.md): Cambia un código por otro en todas las geometrías que lo tienen y conserva la tabla y el registro de base de datos del código sustituido.
 * [RENOMCOD\_SEL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-sel.md): Cambia el código correspondiente otro código a las entidades seleccionadas.
 * [SEPARA\_MULTICOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/separa-multicod.md): Explota entidades con múltiples códigos en múltiples entidades con un solo código.
 * [SUSTITUYE\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/sustituye-cod.md): Sustituye los códigos de la entidad seleccionada por los activos.
@@ -180,6 +182,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [EXPLOTAR\_COMPLEJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-complejo.md): Explota las entidades complejas quedando divididas por las cadenas de líneas que componen la entidad compleja.
 * [EXPLOTAR\_COMPLEJOS\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-complejos-cod.md): Explota las entidades complejas quedando divididas por las cadenas de líneas que componen la entidad compleja.
 * [EXPLOTAR\_COMPLEJOS\_COD2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-complejos-cod2.md): Divide varios elementos complejos por código, sin respetar el código de los sub-elementos.
+* [TRANSFORMA\_COMPLEJO\_A\_PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/transforma-complejo-a-punto.md): Sustituye las geometrías de tipo complejo con los códigos indicados por puntos situados en el centro de su caja envolvente.
 
 ### Avanzado
 
@@ -426,6 +429,8 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 * [1TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/1/1-texto.md): Inserta el texto pasado por parámetros \(o introducido en la barra de mensajes\) una única vez independientemente del estado del conmutador REPITE.
 * [COTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cota.md): Digitaliza una cota altimétrica.
+* [DIBUJA\_TEXTO\_EXTRAIDO\_CALLEJERO\_CATASTRO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja-texto-extraido-callejero-catastro.md): Inserta en el punto pulsado un texto con la calle y el número del inmueble que devuelve el servicio de consulta por coordenadas del Catastro de España.
+* [DIBUJA\_TEXTO\_EXTRAIDO\_SERVICIO\_MAPAS\_AZURE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja-texto-extraido-servicio-mapas-azure.md): Inserta un texto orientado con el nombre de la calle que devuelve el servicio de búsqueda inversa de Azure Maps para el punto pulsado.
 * [ROTULA\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-curvas.md): Rotula una o varias curvas de una vez con su cota correspondiente.
 * [ROTULA\_REFERENCIA\_CATASTRAL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-referencia-catastral.md): Consulta al servicio web del Catastro de España la referencia catastral en las coordenadas de inserción e inserta un texto con la referencia catastral.
 * [ROTULA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-z.md): Rotula un punto o varios puntos con su Z correspondiente.
@@ -480,8 +485,11 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 ## MDT
 
+* [CREAR\_TRAMOS\_PARA\_UNIR\_CURVAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-tramos-para-unir-curvas.md): Crea líneas de dos vértices que unen los extremos próximos de curvas de nivel del mismo nivel que no están unidas.
 * [CREA\_DEM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crea-dem.md): Genera una nueva triangulación a partir de cartografía existente dentro del límite seleccionado y proyecta sobre esa triangulación una malla regular de puntos, que guarda en un archivo LAS, en un archivo GeoTIFF o en los dos.
 * [CURVAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/curvar.md): Realiza el curvado de una triangulación.
+* [ELIMINA\_CURVAS\_POR\_EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/elimina-curvas-por-equidistancia.md): Borra las curvas de nivel con los códigos indicados cuya coordenada Z es múltiplo de la equidistancia.
+* [FILTRAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/filtrar.md): Borra las curvas de nivel que no corresponden a una equidistancia y asigna el código de maestra o de fina al resto según su coordenada Z.
 * [MDT\_MUEVE\_DIGI3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mdt-mueve-digi3d.md): Indica si los modelos digitales del terreno cargados modifican la coordenada Z de Digi3D.
 * [MOVER\_Z\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z-v.md): Permite cambiar la cota de entidades situadas dentro de una entidad cerrada.
 * [PROYECTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta.md): Proyecta la/s geometría/a seleccionada/s.
@@ -489,6 +497,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [PROYECTA\_COD\_ETIQUETA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod-etiqueta.md): Proyecta todas la entidades con un determinado código sobre los MDTs cargados que tengan asignada la etiqueta indicada.
 * [PROYECTA\_POR\_CONDICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-por-condicion.md): Proyecta los vértices de las entidades con un determinado código sobre los MDT cargados si la diferencia de Z cumple una condición.
 * [PROYECTA\_PUNTOS\_TOPOLOGIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-puntos-topologia.md): Proyecta sobre los MDT cargados las entidades que forman los recintos de una topología.
+* [REDONDEA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/redondea-z.md): Redondea a entero la coordenada Z de todos los vértices de las curvas de nivel con los códigos indicados.
 * [TRIANGULAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular.md): Calcula la triangulación de un Modelo Digital del Terreno \(MDT\) a partir de las geometrías de la ventana de dibujo.
 * [TRIANGULAR\_LINEAS\_EXCEPTO\_PUNTOS\_CON\_CODIGO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular-lineas-excepto-puntos-con-codigo.md): Calcula una triangulación exceptuando aquellos nodos a los que lleguen una línea con un determinado código.
 * [TRIANGULAR\_PUNTOS\_TOPOLOGIA\_EXCEPTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular-puntos-topologia-excepto.md): Calcula una triangulación con las líneas de una topología exceptuando las líneas que tengan un determinado código.
@@ -603,6 +612,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ASIGNAR\_ANGULO\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el ángulo trigonométrico del segundo respecto al primero en el campo de base de datos pasado por parámetros.
 * [ASIGNAR\_AZIMUT\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-azimut-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en el campo de base de datos pasado por parámetros.
 * [ASIGNAR\_DISTANCIA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-distancia-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia entre los dos puntos en el campo de base de datos pasado por parámetros.
+* [BORRA\_ATR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-atr.md): Elimina el enlace a base de datos de todas las geometrías de la ventana de dibujo.
 * [CAMBIAR\_VALORES\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambiar-valores-bbdd.md): Cambia valores en la BBDD asociada con el archivo de dibujo.
 * [COPIA\_ATRIBUTO\_BBDD\_ENTIDAD\_EN\_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-atributo-bbdd-entidad-en-entidad.md): Copia el valor de un campo de la base de datos de una entidad en un campo de otra entidad.
 * [CREAR\_VISTA\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-vista-bbdd.md): Crea un archivo de dibujo virtual que muestra campos de base de datos de un archivo de dibujo determinado.
@@ -620,6 +630,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [CARGA\_DISPOSICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-disposicion.md): Carga una disposición previamente guardada de ventanas y visualización en DigiNG.
 * [CARGAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cargar-tareas.md): Carga un fichero de tareas previamente generado con la orden GUARDAR\_TAREAS en la ventana de tareas en el momento de la ejecución de la orden.
 * [CARGAR\_TAREAS\_FICHERO\_FORMATO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cargar-tareas-fichero-formato.md): Carga un fichero de texto con cualquier formato que contenga coordenadas de puntos.
+* [CREA\_TAREAS\_CON\_AREAS\_INFERIOR\_A\_VALOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crea-tareas-con-areas-inferior-a-valor.md): Añade al [panel de tareas](/digi3d-ai/referencia/paneles/tareas.md) una tarea por cada polígono o línea cerrada en planta cuya área, en valor absoluto, es menor que el valor indicado.
 * [GUARDA\_DISPOSICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guarda-disposicion.md): Guarda la disposición de ventanas y visualización del archivo de dibujo de DigiNG.
 * [GUARDAR\_RESULTADOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guardar_resultados.md): Guarda en un archivo TXT el contenido del panel de resultados.
 * [GUARDAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guardar-tareas.md): Guarda en un archivo XML las tareas del panel de tareas.
