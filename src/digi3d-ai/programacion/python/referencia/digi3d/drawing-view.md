@@ -198,6 +198,13 @@ z = view.project((430000, 4480000))
 | `active_angle` | `float` | Ángulo activo. |
 | `equidistance` | `float` | Equidistancia. |
 | `drawing_scale` | `tuple` | Escala de dibujo para la representación de símbolos y patrones. |
+| `text_justification` | `int` | Justificación de texto activa, de 0 a 8, con los valores de [TextJustification](../digi21.base/textjustification.md). Variable JT. |
+| `active_z` | `float` | Coordenada Z que se usa cuando `fixed_z` está activada. Variable Z. |
+| `elevation_point_codes` | `str` | Código con el que se registran automáticamente las cotas altimétricas y, opcionalmente, código de su texto. Variable COD_COTAS. |
+| `force_active_codes` | `bool` | Asigna los códigos activos a todas las geometrías que crea cualquier orden. Variable FORZAR_CODIGO_ACTIVO. |
+| `force_active_angle` | `bool` | Asigna el ángulo activo a todos los textos que crea cualquier orden. Variable FORZAR_AA_ACTIVA. |
+| `force_text_height` | `bool` | Asigna la altura de texto activa a todos los textos que crea cualquier orden. Variable FORZAR_AT_ACTIVA. |
+| `force_text_justification` | `bool` | Asigna la justificación de texto activa a todos los textos que crea cualquier orden. Variable FORZAR_JT_ACTIVA. |
 
 ## Visualización
 
@@ -212,12 +219,21 @@ z = view.project((430000, 4480000))
 | `cursor_size` | `int` | Tamaño del cursor. |
 | `decimal_count` | `int` | Número de decimales a mostrar en las coordenadas. |
 | `lock_coordinate_z` | `bool` | Bloquea/desbloquea la coordenada Z. |
+| `show_virtual` | `bool` | Muestra las geometrías virtuales. Variable VER_VIRTUALES. Llama a `redraw()` para ver el cambio. |
+| `show_non_virtual` | `bool` | Muestra las geometrías no virtuales. Variable VER_NO_VIRTUALES. Llama a `redraw()` para ver el cambio. |
+| `show_pattern_photogrammetric` | `bool` | Muestra los patrones de línea en la ventana fotogramétrica. Variable PATRONS. |
+| `extra_weight` | `int` | Grosor que se suma a las geometrías de la ventana de dibujo. Variable GROSOR. Llama a `redraw()` para ver el cambio. |
+| `extra_weight_photogrammetric` | `int` | Grosor que se suma a los vectores de la ventana fotogramétrica. Variable GROSORS. |
+| `show_contour_step` | `bool` | Muestra el paso de curvas. Variable MOSTRAR_PASO_CURVAS. |
+| `dynamic_representation_while_drawing` | `bool` | Aplica la representación dinámica a la geometría que se está dibujando. Variable APLICAR_REPRESENTACION_DINAMICA_GEOMETRIA_DIBUJANDO. |
 
 ## Modos de búsqueda y tentativo
 
 | Propiedad | Tipo | Descripción |
 |---|---|---|
-| `search_mode` | `int` | Modo de búsqueda activo. |
+| `search_mode` | `int` | Modo de búsqueda activo: el primero de `search_modes`. Al asignarlo, queda como único modo. |
+| `search_modes` | `list[int]` | Modos de búsqueda activos, que el tentativo prueba en orden. Variable MODOB. Necesita al menos un modo. |
+| `snap_texts` | `bool` | El tentativo busca también textos. Variable TENTATIVO_TEXTOS. |
 | `auto_search_mode` | `bool` | Modo de búsqueda automático. |
 | `exhaustive_auto_search_mode` | `bool` | Modo de búsqueda automático exhaustivo. |
 | `verify_snap` | `bool` | Verificación de tentativo. |
@@ -251,6 +267,13 @@ z = view.project((430000, 4480000))
 | `automatic_mode` | `bool` | Modo automático. |
 | `repeat` | `bool` | Repetición automática de comandos. |
 | `block_repeat` | `bool` | Bloquea el mecanismo de repetición. |
+| `beep` | `bool` | Activa las señales acústicas. Variable PITA. |
+| `dtm_moves_z` | `bool` | Actualiza la coordenada Z cuando el cursor pasa sobre los modelos digitales del terreno cargados. Variable MDT_MUEVE_Z. |
+| `dtm_moves_photogrammetric_window` | `bool` | Los modelos digitales del terreno cargados modifican la coordenada Z de la ventana fotogramétrica. Variable MDT_MUEVE_DIGI3D. |
+| `force_store_geometries_without_database_link` | `bool` | Almacena las geometrías que no se han podido enlazar con la base de datos. Variable FORZAR_ALMACENAR_GEOMETRIAS_SIN_ENLACE_BBDD. |
+| `create_topologies_in_reference_files` | `bool` | Crea las topologías también en los archivos de referencia. Variable CREAR_TOPOLOGIAS_ARCHIVOS_REFERENCIA. |
+| `spacemouse_speed_xyz` | `float` | Velocidad del SpaceMouse en X, Y y Z. Variable VELOCIDAD_SPACEMOUSE_XYZ. |
+| `spacemouse_speed_rotation` | `float` | Velocidad de rotación del SpaceMouse. Variable VELOCIDAD_SPACEMOUSE_ROTACION. |
 
 ## Otros métodos
 
