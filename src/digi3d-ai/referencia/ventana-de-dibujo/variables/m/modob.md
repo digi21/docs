@@ -46,11 +46,11 @@ En los modos XY, el punto toma la X y la Y de la entidad y la Z del cursor. En l
 | :--- | :--- | :--- |
 | 0 | Vértice o proyección en XY | Si hay un vértice de la entidad dentro del ámbito, se engancha a ese vértice. Si no lo hay, se engancha a la proyección del cursor sobre el segmento más cercano. |
 | 1 | Proyección o vértice en XY | Se engancha a la proyección del cursor sobre el segmento más cercano si esa proyección está dentro del ámbito. Si no lo está, se engancha al vértice más cercano. |
-| 2 | Vértices extremos de la entidad en XYZ | Se engancha al primer vértice de la entidad si está dentro del ámbito y, si no lo está, al último. Si ninguno de los dos está dentro del ámbito, no se engancha a esa entidad. |
+| 2 | Vértices extremos de la entidad en XYZ | Se engancha al primer o al último vértice de la entidad, al que esté dentro del ámbito. Si están los dos, se engancha al más cercano al cursor. Si ninguno de los dos está dentro del ámbito, no se engancha a esa entidad. |
 | 3 | Vértice o proyección en XYZ | Igual que el modo 0, con la Z de la entidad en el punto de enganche. |
 | 4 | Vértice más cercano en XYZ | Se engancha al vértice más cercano al cursor. Si el cursor está más cerca de un segmento que de cualquier vértice, se engancha al extremo de ese segmento más cercano al cursor, aunque ese extremo quede fuera del ámbito. |
 | 5 | Proyección o vértice en XYZ | Igual que el modo 1, con la Z de la entidad en el punto de enganche. |
-| 6 | Vértices extremos con la Z del cursor en XYZ | Igual que el modo 2, pero solo se engancha si la Z del vértice es igual a la Z del cursor. Sirve para continuar una curva de nivel con su misma Z. |
+| 6 | Vértices extremos con la Z del cursor en XYZ | Igual que el modo 2, pero solo tiene en cuenta los extremos cuya Z es igual a la Z del cursor. Sirve para continuar una curva de nivel con su misma Z. |
 | 7 | XY del último vértice y Z del cursor | No busca entidades. Durante las órdenes [LINEA](../../ordenes/l/linea.md) y [SELECCIONA\_POLIGONO](../../ordenes/s/selecciona-poligono.md), el tentativo registra un punto con la X y la Y del último vértice registrado y la Z del cursor. Si todavía no hay ningún vértice, emite un sonido de error. Fuera de esas órdenes, el tentativo no se engancha a nada. |
 | 8 | Punto medio del segmento en XYZ | En las líneas, se engancha al punto medio del segmento más cercano al cursor. En el resto de entidades, se engancha al vértice más cercano. |
 | 9 | Vértice más cercano en XY | Igual que el modo 4, con la Z del cursor. |
@@ -63,9 +63,9 @@ En los modos XY, el punto toma la X y la Y de la entidad y la Z del cursor. En l
 | 16 | Primer vértice de la entidad en XYZ | Igual que el modo 15, con la Z del vértice. |
 | 17 | Último vértice de la entidad en XY | Se engancha al último vértice de la entidad, aunque quede fuera del ámbito. |
 | 18 | Último vértice de la entidad en XYZ | Igual que el modo 17, con la Z del vértice. |
-| 19 | Vértice de Z mínima en XY | Se engancha al vértice de menor Z de la entidad. Si hay varios, se engancha al primero. |
+| 19 | Vértice de Z mínima en XY | Se engancha al vértice de menor Z de la entidad. Si hay varios, se engancha al más cercano al cursor. |
 | 20 | Vértice de Z mínima en XYZ | Igual que el modo 19, con la Z del vértice. |
-| 21 | Vértice de Z máxima en XY | Se engancha al vértice de mayor Z de la entidad. Si hay varios, se engancha al primero. |
+| 21 | Vértice de Z máxima en XY | Se engancha al vértice de mayor Z de la entidad. Si hay varios, se engancha al más cercano al cursor. |
 | 22 | Vértice de Z máxima en XYZ | Igual que el modo 21, con la Z del vértice. |
 
 En los modos 13 a 22 basta con que la entidad pase por el ámbito de búsqueda. El punto de enganche puede estar fuera del ámbito.
