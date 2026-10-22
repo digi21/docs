@@ -34,7 +34,7 @@ geometría.
    activa hasta que pulsas reset.
 
 La orden no cambia los códigos que ya empiezan por `ACT_`, por `BAI_` o por el prefijo indicado. Si todos
-los códigos de la geometría tienen ya un prefijo, la geometría no cambia y suena un pitido. Cada código
+los códigos de la geometría tienen ya un prefijo, la geometría no cambia y suena el sonido de error. Cada código
 conserva su tabla y su registro de base de datos. Cada geometría modificada queda en una transacción
 propia, así que cada UNDO deshace el cambio de una sola geometría.
 
@@ -79,7 +79,7 @@ class PrefijaCod(digi3d.PythonCommand):
 
     def on_geometry_selected(self, geometria, coordenadas, primer_vertice, segundo_vertice):
         if all(codigo.code.startswith(self.prefijos) for codigo in geometria.codes):
-            digi3d.music(digi3d.MusicType.Beep)
+            digi3d.music(digi3d.MusicType.Error)
             return
 
         # Las geometrías del dibujo son de solo lectura: se borra la original y se añade un clon con los códigos nuevos.

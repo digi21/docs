@@ -13,7 +13,7 @@ Antepone un prefijo a los códigos de cada geometría que se selecciona con un d
 
 Con cada dato, la orden selecciona la geometría más próxima del archivo de dibujo activo, igual que el pedal de tentativo. Las geometrías de los archivos de referencia no se pueden seleccionar.
 
-La orden antepone el prefijo a cada código de la geometría que no empieza por `ACT_`, por `BAI_` ni por el prefijo indicado. Cada código conserva su tabla y su registro de base de datos. Si todos los códigos de la geometría tienen ya un prefijo, la geometría no cambia y la orden emite un pitido.
+La orden antepone el prefijo a cada código de la geometría que no empieza por `ACT_`, por `BAI_` ni por el prefijo indicado. Cada código conserva su tabla y su registro de base de datos. Si todos los códigos de la geometría tienen ya un prefijo, la geometría no cambia y la orden emite el sonido de error.
 
 Cada geometría modificada queda en una transacción propia, así que cada UNDO deshace el cambio de una sola geometría. La orden sigue activa hasta que pulsas reset.
 
