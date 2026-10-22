@@ -33,12 +33,11 @@ archivos de dibujo cargados:
 
 `view.files` es la lista de archivos cargados: el primero es el archivo de dibujo y los demás son los
 archivos de referencia. La propiedad [`file`](../digi21.base/geometry.md#propiedades) de cada geometría
-devuelve el archivo que la contiene. Para trabajar con las geometrías de un archivo, recorre `view` y
-filtra por `g.file`.
+devuelve el archivo que la contiene.
 
-No recorras un `view.files[i]` para obtener sus geometrías: la iteración de
-[DrawingFile](../digi21.base/drawingfile.md) lee el archivo desde el disco y solo sirve para un archivo
-abierto con [digi21.io](../digi21.io/README.md).
+Cada `view.files[i]` es un [DrawingFile](../digi21.base/drawingfile.md) que se recorre en memoria:
+`for g in view.files[i]`, `len(view.files[i])` y `view.files[i][j]` devuelven las geometrías del
+archivo, incluidas las borradas, en el mismo orden que `view`.
 
 ```python
 import collections
@@ -53,8 +52,8 @@ for ruta, cantidad in por_archivo.items():
 
 # Geometrías de un archivo de referencia concreto
 referencia = view.files[1]
-geometrias = [g for g in view if g.file is not None and g.file.path == referencia.path]
-print(len(geometrias))
+print(len(referencia))
+borradas = [g for g in referencia if g.deleted]
 ```
 
 Ejemplo: localizar en qué archivo están las geometrías alejadas de la zona de trabajo, que hacen que el

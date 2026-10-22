@@ -24,10 +24,21 @@ obtener sus [geometrías](geometry.md) una a una.
 > geometría mantiene abierto el archivo del que sale, así que sigue siendo válida después de soltar
 > el `DrawingFile` (por ejemplo, en `list(modulo.open(ruta))`). Trátalas como de solo lectura.
 
-> Dentro de Digi3D.AI, los archivos de [`view.files`](../digi3d/drawing-view.md#geometrías-de-cada-archivo)
-> también son `DrawingFile`, pero Digi3D.AI ya ha leído su contenido: recorrerlos no devuelve sus
-> geometrías. Para obtener las geometrías de un archivo cargado, recorre la ventana de dibujo y filtra
-> por la propiedad [`file`](geometry.md#propiedades) de cada geometría.
+### Archivos cargados en Digi3D.AI
+
+Los archivos de [`view.files`](../digi3d/drawing-view.md#geometrías-de-cada-archivo) y de
+`view.drawing_file` también son `DrawingFile`. Estos archivos se recorren en memoria y admiten,
+además, longitud e índice:
+
+| Operación | Descripción |
+|---|---|
+| `for geometry in drawing:` | Recorre las geometrías que Digi3D.AI tiene cargadas, incluidas las borradas. |
+| `len(drawing)` | Número de geometrías cargadas. |
+| `drawing[i]` | Geometría en la posición `i`. |
+
+Las geometrías de un archivo cargado son las de la aplicación: las que se añaden con `view.add`
+aparecen en el recorrido. Un `DrawingFile` abierto con `open` no admite `len` ni índice y lanza
+`TypeError`.
 
 ## Ejemplo
 
