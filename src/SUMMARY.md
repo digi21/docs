@@ -1986,6 +1986,7 @@
           * [Renombrar un código manteniendo sus atributos](digi3d-ai/programacion/python/panel-de-python/ejemplos/renomcod-manteniendo-atributos.md)
           * [Texto del callejero del Catastro](digi3d-ai/programacion/python/panel-de-python/ejemplos/dibuja-texto-extraido-callejero-catastro.md)
           * [Texto del callejero de Azure Maps](digi3d-ai/programacion/python/panel-de-python/ejemplos/dibuja-texto-extraido-servicio-mapas-azure.md)
+          * [Prefijar los códigos de la geometría seleccionada](digi3d-ai/programacion/python/panel-de-python/ejemplos/prefija-cod.md)
       * [Órdenes en Python del repositorio ComandosDigi3DPython](digi3d-ai/programacion/python/ordenes-python.md)
       * [Controles de calidad](digi3d-ai/programacion/python/controles-de-calidad/README.md)
         * [Ejemplos de controles de calidad](digi3d-ai/programacion/python/controles-de-calidad/ejemplos/README.md)

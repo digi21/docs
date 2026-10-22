@@ -74,6 +74,7 @@ Los guiones que no usan `argv` también se pueden pegar en el panel
 | [dibuja_texto_extraido_servicio_mapas_azure.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/dibuja_texto_extraido_servicio_mapas_azure.py) | `DIBUJA_TEXTO_EXTRAIDO_SERVICIO_MAPAS_AZURE` | Ninguno. Orden interactiva |
 | [elimina_curvas_por_equidistancia.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/elimina_curvas_por_equidistancia.py) | `ELIMINA_CURVAS_POR_EQUIDISTANCIA` | Códigos y equidistancia |
 | [filtrar.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/filtrar.py) | `FILTRAR` | Código de maestra, código de fina, equidistancia |
+| [prefija_cod.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/prefija_cod.py) | `PREFIJA_COD` | Prefijo. Orden interactiva |
 | [redondea_z.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/redondea_z.py) | `REDONDEA_Z` | Código de maestra, código de fina |
 | [renomcod_manteniendo_atributos.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/renomcod_manteniendo_atributos.py) | `RENOMCOD_MANTENIENDO_ATRIBUTOS` | Código origen, código destino |
 | [transforma_complejo_a_punto.py](https://github.com/digi21/ComandosDigi3DPython/blob/main/transforma_complejo_a_punto.py) | `TRANSFORMA_COMPLEJO_A_PUNTO` | Ninguno. Los códigos están escritos en el guion |
@@ -226,6 +227,32 @@ def es_curva_fina_o_maestra(coordenada_z, equidistancia, decimalesPrecision, fac
 ```
 
 Explicación completa: [Filtrar curvas (finas y maestras)](panel-de-python/ejemplos/filtrar.md).
+
+### PREFIJA_COD
+
+Orden interactiva. Con cada dato, la orden selecciona la geometría más próxima del archivo de dibujo activo
+y antepone el prefijo indicado a sus códigos. No cambia los códigos que ya empiezan por `ACT_`, por `BAI_` o
+por el prefijo indicado. Cada código conserva su tabla y su registro, y cada geometría modificada queda en
+una transacción propia.
+
+```
+PREFIJA_COD=BAI_
+```
+
+```python
+def on_data_up(self, coordenadas):
+    ruta = self.view.drawing_file.path
+    self.select_geometry(coordenadas, lambda geometria: geometria.file is not None and geometria.file.path == ruta)
+    return True
+
+def on_geometry_selected(self, geometria, coordenadas, primer_vertice, segundo_vertice):
+    ...
+```
+
+Necesita una versión de Digi3D.AI con
+[`PythonCommand.select_geometry`](referencia/digi3d/python-command.md#seleccionar-una-geometría).
+
+Explicación completa: [Prefijar los códigos de la geometría seleccionada](panel-de-python/ejemplos/prefija-cod.md).
 
 ### REDONDEA_Z
 

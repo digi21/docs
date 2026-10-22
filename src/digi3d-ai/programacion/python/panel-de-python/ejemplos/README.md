@@ -35,6 +35,7 @@ dificultad.
 
 - [Texto del callejero del Catastro](dibuja-texto-extraido-callejero-catastro.md)
 - [Texto del callejero de Azure Maps](dibuja-texto-extraido-servicio-mapas-azure.md)
+- [Prefijar los códigos de la geometría seleccionada](prefija-cod.md)
 
 > El intérprete de Python embebido en Digi3D.AI solo dispone de la **biblioteca estándar** (no hay
 > paquetes de terceros como `numpy` o `requests`). Los ejemplos que consultan servicios web usan
