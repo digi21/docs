@@ -48,9 +48,9 @@ Si no se indica exactamente un parámetro, la orden emite el sonido de error y m
 mensaje «Falta el prefijo.» y la forma de uso.
 
 La orden necesita una versión de Digi3D.AI con
-[`PythonCommand.select_geometry`](../../referencia/digi3d/python-command.md#seleccionar-una-geometría) y,
-para la selección múltiple, con el evento
-[`on_geometries_selected`](../../referencia/digi3d/python-command.md#selección-múltiple).
+[`PythonCommand.select_geometry`](../../referencia/digi3d/python-command.md#seleccionar-una-geometría),
+el evento [`on_geometries_selected`](../../referencia/digi3d/python-command.md#selección-múltiple) y
+[`DrawingView.replace`](../../referencia/digi3d/drawing-view.md#sustituir-una-geometría).
 
 ## El código
 
@@ -110,24 +110,14 @@ class PrefijaCod(digi3d.PythonCommand):
             digi3d.music(digi3d.MusicType.Error)
             return
 
-        # Las geometrías del dibujo son de solo lectura: se borra cada original y se añade un clon con los códigos
-        # nuevos. Una a una, para que pasen los controles de calidad y los avisos a las extensiones. Si Digi3D.AI
-        # rechaza el clon, lo deja marcado como borrado y se recupera la original.
+        # Las geometrías del dibujo son de solo lectura: cada original se sustituye por un clon con los códigos nuevos.
+        # replace pasa los controles de calidad y avisa a las extensiones, y si Digi3D.AI rechaza el clon deja la
+        # original como estaba y devuelve None.
         cambiadas = 0
         for geometria in originales:
             clon = geometria.clone()
             clon.codes = tuple(self.prefija(codigo) for codigo in geometria.codes)
-            self.view.delete(geometria)
-            if not geometria.deleted:
-                continue
-            try:
-                self.view.add(clon)
-            except Exception:
-                self.view.recover(geometria)
-                raise
-            if clon.deleted:
-                self.view.recover(geometria)
-            else:
+            if self.view.replace(geometria, clon) is not None:
                 cambiadas += 1
 
         self.view.redraw()
@@ -187,11 +177,10 @@ else:
 - **Los prefijos**: `str.startswith` admite una tupla y devuelve `True` si la cadena empieza por
   cualquiera de sus elementos. La tupla `self.prefijos` contiene `ACT_`, `BAI_` y el prefijo recibido.
 - **El cambio de códigos**: las geometrías del dibujo son de solo lectura. Para cada geometría, la orden crea
-  un clon con `clone()`, le asigna los códigos nuevos, borra la original con `view.delete` y añade el clon con
-  `view.add`. Lo hace geometría a geometría y no con las versiones de lista de `view.delete` y `view.add`,
-  porque las de lista no ejecutan los controles de calidad ni avisan a las extensiones. Si Digi3D.AI rechaza el
-  clon, por ejemplo porque el formato del archivo no admite el código con prefijo, lo deja marcado como borrado
-  (`clon.deleted`), y la orden recupera la original con `view.recover`. Cada código nuevo es un
+  un clon con `clone()`, le asigna los códigos nuevos y sustituye la original por el clon con
+  [`view.replace`](../../referencia/digi3d/drawing-view.md#sustituir-una-geometría), que pasa los controles de
+  calidad y avisa a las extensiones. Si Digi3D.AI rechaza el clon, por ejemplo porque el formato del archivo no
+  admite el código con prefijo, `replace` deja la original como estaba y devuelve `None`. Cada código nuevo es un
   [FeatureCode](../../referencia/digi21.base/featurecode.md) con la tabla y el identificador del código
   original, como en el ejemplo [Renombrar un código manteniendo sus atributos](renomcod-manteniendo-atributos.md).
 - **Deshacer**: `self.new_transaction()` cierra la transacción de deshacer del dato o de la selección

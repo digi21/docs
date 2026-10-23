@@ -143,7 +143,8 @@ entregar la misma geometría dos veces, una por cada código enlazado al registr
 
 Todos los cambios que hace la orden antes de llamar a `new_transaction()` se deshacen con un solo UNDO.
 `view.delete` y `view.add` aceptan listas, pero sus versiones de lista no ejecutan los controles de calidad ni
-avisan a las extensiones. Para que lo hagan, llama a las dos funciones con cada geometría:
+avisan a las extensiones. Para que lo hagan, llama a las funciones con cada geometría, o sustituye cada una con
+[`view.replace`](drawing-view.md#sustituir-una-geometría):
 
 ```python
 import digi3d

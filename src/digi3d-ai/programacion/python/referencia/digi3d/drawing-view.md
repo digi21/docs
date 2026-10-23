@@ -88,11 +88,13 @@ for g in geometrias:
 | `delete(geometries)` | Borra un iterable o una lista de geometrías. |
 | `recover(geometry)` | Recupera una geometría borrada. |
 | `recover(geometries)` | Recupera un iterable o una lista de geometrías borradas. |
+| `replace(original, new)` | Sustituye `original` por `new` en una sola operación. Devuelve la geometría almacenada, o `None` si no ha sustituido nada. Consulta [Sustituir una geometría](#sustituir-una-geometría). |
 
 > En Digi3D.AI **borrar no elimina realmente** la geometría: solo la **marca como borrada** (lo
 > indica la propiedad `deleted` de la [geometría](../digi21.base/geometry.md)). Por eso se
 > puede **recuperar** con `recover`. Pasar una **lista** a `delete`/`recover` es bastante más rápido
-> que llamarlos de una en una.
+> que llamarlos de una en una, pero las versiones de lista de `add` y `delete` no ejecutan los
+> controles de calidad ni avisan a las extensiones.
 
 ```python
 linea = digi3d.Line(["CARR"], [(0, 0, 0), (10, 0, 0)])
@@ -103,6 +105,33 @@ seleccion = [g for g in view if g.has_code("020123")]
 view.delete(seleccion)
 # ... si algo va mal:
 view.recover(seleccion)
+```
+
+### Sustituir una geometría
+
+Las geometrías del dibujo son de solo lectura: para cambiar una, se crea un clon con `clone()`, se modifica el
+clon y se sustituye la original por él con `replace(original, new)`. `replace` borra la original y añade la
+nueva con las mismas comprobaciones que `add(geometry)`: controles de calidad, extensiones, base de datos y
+exportador del formato.
+
+- Devuelve la geometría almacenada. Normalmente es `new`, pero puede ser otra si una extensión o un control de
+  calidad la cambia al almacenarla.
+- Devuelve `None` y no cambia nada si `original` ya estaba borrada o no se ha podido borrar.
+- Devuelve `None` y recupera `original` si Digi3D.AI rechaza `new`, por ejemplo porque el formato del archivo
+  de dibujo no admite su código.
+- Si `original` pertenece a otro archivo cargado, no se borra: `new` se añade sin más.
+
+Recoge primero las geometrías en una lista y recorre la lista, no la vista: `replace` añade geometrías al
+archivo de dibujo que se está recorriendo.
+
+```python
+textos = [g for g in view if isinstance(g, digi3d.Text) and not g.deleted]
+for texto in textos:
+    clon = texto.clone()
+    clon.rotation = 0.0
+    if view.replace(texto, clon) is None:
+        print("No se ha podido sustituir un texto")
+view.redraw()
 ```
 
 ## Tabla de códigos
