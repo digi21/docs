@@ -137,8 +137,13 @@ Una orden que define `on_geometries_selected(geometries)` admite selección múl
 Si la orden no define `on_geometries_selected`, Digi3D.AI la trata como una orden que no admite selección
 múltiple: las órdenes de selección muestran el aviso de que la orden activa no la admite y no se inician.
 
-`view.delete` y `view.add` aceptan listas, así que la orden puede sustituir todas las geometrías de una vez
-y cerrar el cambio con un solo `new_transaction()`:
+Con la variable BORRADOS activada, la lista puede incluir geometrías borradas. Descártalas con la propiedad
+`deleted`: si la orden las borra otra vez, un UNDO las vuelve a mostrar. El editor de base de datos puede
+entregar la misma geometría dos veces, una por cada código enlazado al registro seleccionado.
+
+Todos los cambios que hace la orden antes de llamar a `new_transaction()` se deshacen con un solo UNDO.
+`view.delete` y `view.add` aceptan listas, pero sus versiones de lista no ejecutan los controles de calidad ni
+avisan a las extensiones. Para que lo hagan, llama a las dos funciones con cada geometría:
 
 ```python
 import digi3d
@@ -146,7 +151,9 @@ import digi3d
 class Borrar(digi3d.PythonCommand):
     def on_geometries_selected(self, geometries):
         ruta = self.view.drawing_file.path
-        self.view.delete([g for g in geometries if g.file is not None and g.file.path == ruta])
+        for g in geometries:
+            if not g.deleted and g.file is not None and g.file.path == ruta:
+                self.view.delete(g)
         self.view.redraw()
         self.new_transaction()
 
