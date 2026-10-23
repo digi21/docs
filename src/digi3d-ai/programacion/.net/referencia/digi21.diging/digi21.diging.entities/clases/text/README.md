@@ -18,7 +18,7 @@ Un `Text` creado con sus constructores no pertenece a ningún archivo de dibujo 
 
 Un `Text` nuevo tiene la cadena vacía, la coordenada (0, 0, 0), la altura 0, la rotación 0 y la justificación `SouthWest`, y sus coordenadas mínimas y máximas ([IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)) están sin calcular: `Valid` vale `false`, `Xmin` vale `null`, y `Width`, `Center`, `Color`, `Weight` y `FillColor` lanzan `InvalidOperationException`. Asignar `Coordinate` desplaza el texto y recalcula las coordenadas mínimas y máximas. Los métodos `Offset` desplazan el texto y también las recalculan, junto con las de cada entidad que contiene el texto, por ejemplo el complejo del que forma parte.
 
-`Rotation` no usa la misma unidad que [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md): el valor de un texto está en centésimas de grado sexagesimal. Lee [Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md).
+`Rotation` está en grados sexagesimales, como [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md). En versiones anteriores estaba en centésimas de grado: lee [Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md).
 
 El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se heredan de [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) y de [ReadOnlyText](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/).
 
@@ -36,7 +36,7 @@ El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se he
 | [`string Txt { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/txt.md) | Cadena del texto. |
 | [`Point3D Coordinate { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/coordinate.md) | Coordenada de inserción. |
 | [`double TextHeight { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/textheight.md) | Altura del texto. |
-| [`double Rotation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md) | Rotación, en centésimas de grado sexagesimal. |
+| [`double Rotation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md) | Rotación, en grados sexagesimales, en sentido antihorario desde el eje X. |
 | [`TextJustification Justification { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/justification.md) | Posición del punto de inserción respecto al texto. |
 
 ## Métodos

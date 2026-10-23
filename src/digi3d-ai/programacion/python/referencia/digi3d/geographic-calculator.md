@@ -17,7 +17,7 @@ coordenadas de la ventana de dibujo. Se obtiene de
 | `calculate_distance_azimuth(point_a, point_b)` | `tuple` | `(azimut_ab, azimut_ba, distancia_2d, distancia_3d)`. |
 | `calculate_distance_2d(point_a, point_b)` | `float` | Distancia 2D entre dos puntos. |
 | `calculate_distance_3d(point_a, point_b)` | `float` | Distancia 3D entre dos puntos. |
-| `calculate_trigonometric_angle(point_a, point_b)` | `float` | Ángulo trigonométrico que forman dos puntos. |
+| `calculate_trigonometric_angle(point_a, point_b)` | `float` | Ángulo trigonométrico de la recta que va de `point_a` a `point_b`, en grados sexagesimales, en sentido antihorario desde el eje X. Es la unidad de `rotation` en [Point](../digi21.base/point.md) y [Text](../digi21.base/text.md). |
 
 Las coordenadas se pasan como listas de tuplas `(x, y, z)`; los puntos, como tuplas
 `(x, y, z)`.

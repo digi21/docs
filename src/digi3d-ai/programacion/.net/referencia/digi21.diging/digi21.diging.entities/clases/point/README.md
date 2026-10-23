@@ -32,7 +32,7 @@ El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se he
 | Miembro | Descripción |
 | :--- | :--- |
 | [`Point3D Coordinate { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/coordinate.md) | Coordenada de inserción. |
-| [`double Rotation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md) | Rotación del símbolo, en radianes. |
+| [`double Rotation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md) | Rotación del símbolo, en grados sexagesimales, en sentido antihorario desde el eje X. |
 
 ## Métodos
 
@@ -65,12 +65,12 @@ using var archivo = new BinDouble(args[0]);
 var vértice = new Point(new Code("030101"))
 {
     Coordinate = new Point3D(450000.0, 4480000.0, 650.0),
-    Rotation = Math.PI / 4, // 45 grados, en radianes
+    Rotation = 45.0, // grados sexagesimales
 };
 
 // Add devuelve la misma instancia como ReadOnlyPoint: a partir de aquí es de solo lectura.
 ReadOnlyPoint guardado = archivo.Add(vértice);
-Console.WriteLine($"{guardado.Coordinate} rotación {guardado.Rotation} rad, ReadOnly = {guardado.ReadOnly}");
+Console.WriteLine($"{guardado.Coordinate} rotación {guardado.Rotation}°, ReadOnly = {guardado.ReadOnly}");
 
 // Para modificar un punto guardado se trabaja sobre una copia.
 Point copia = guardado.Clone();

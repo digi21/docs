@@ -25,7 +25,7 @@ El resto de miembros (códigos, colores, atributos, coordenadas mínimas y máxi
 | Miembro | Descripción |
 | :--- | :--- |
 | [`Point3D Coordinate { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/propiedades/coordinate.md) | Coordenada de inserción. |
-| [`double Rotation { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/propiedades/rotation.md) | Rotación del símbolo, en radianes. |
+| [`double Rotation { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypoint/propiedades/rotation.md) | Rotación del símbolo, en grados sexagesimales, en sentido antihorario desde el eje X. |
 
 ## Métodos
 

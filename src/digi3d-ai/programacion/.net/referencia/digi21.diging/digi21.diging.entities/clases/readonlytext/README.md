@@ -27,7 +27,7 @@ El resto de miembros (códigos, colores, atributos, coordenadas mínimas y máxi
 | [`string Txt { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/txt.md) | Cadena del texto. |
 | [`Point3D Coordinate { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/coordinate.md) | Coordenada de inserción. |
 | [`double TextHeight { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/textheight.md) | Altura del texto. |
-| [`double Rotation { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/rotation.md) | Rotación, en centésimas de grado sexagesimal. |
+| [`double Rotation { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/rotation.md) | Rotación, en grados sexagesimales, en sentido antihorario desde el eje X. |
 | [`TextJustification Justification { get; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/justification.md) | Posición del punto de inserción respecto al texto. |
 
 ## Métodos
