@@ -41,6 +41,7 @@ El texto completo de la licencia y de los avisos de cada biblioteca está en el 
 | [assimp](https://github.com/assimp/assimp) | 6.0.4 | `BSD-3-Clause` (BSD de 3 cláusulas) | assimp team | Carga de modelos 3D en el motor OpenGL. |
 | [Boost](https://www.boost.org/) | 1.52 | `BSL-1.0` (Boost Software License 1.0) | Autores de Boost | Dependencia del sensor VisionMap A3 Edge. |
 | [bzip2](https://sourceware.org/bzip2/) | 1.0.8 | `bzip2-1.0.6` (licencia de bzip2) | Julian R. Seward | Compresión bzip2 para libzip y para Python. |
+| [CDT](https://github.com/artem-ogre/CDT) | 1.4.4 | `MPL-2.0 AND BSD-3-Clause AND Apache-2.0 WITH LLVM-exception` (Mozilla Public License 2.0, BSD de 3 cláusulas y Apache License 2.0 con la excepción de LLVM) | Leica Geosystems Technology AB y colaboradores de CDT; William C. Lenthe (predicados geométricos); LLVM Project (`nth_element`) | Triangulación de polígonos y de los rellenos de los textos TrueType en la ventana fotogramétrica. |
 | [CLI11](https://github.com/CLIUtils/CLI11) | 2.6.2 | `BSD-3-Clause` (BSD de 3 cláusulas) | University of Cincinnati (desarrollada por Henry Schreiner) | Lectura de los parámetros de la línea de órdenes. |
 | [Clipper](https://sourceforge.net/projects/polyclipping/) | 6.4.2 | `BSL-1.0` (Boost Software License 1.0) | Angus Johnson | Recorte de polígonos dentro de assimp. |
 | [curl](https://curl.se/) (libcurl) | 8.19.0 | `curl AND ISC AND BSD-4-Clause-UC` (licencia de curl, ISC y BSD de 4 cláusulas de la Universidad de California) | Daniel Stenberg y colaboradores | Descargas HTTP del visor de nubes de puntos. |
@@ -63,7 +64,7 @@ El texto completo de la licencia y de los avisos de cada biblioteca está en el 
 | [MiniZip](https://github.com/madler/zlib/tree/master/contrib/minizip) | 1.3.1 | `Zlib` (licencia zlib) | Gilles Vollant y Mathias Svensson | Lectura de archivos ZIP dentro de assimp. |
 | [nlohmann/json](https://github.com/nlohmann/json) | 3.12.0 | `MIT` (licencia MIT) | Niels Lohmann | Lectura y escritura de JSON. |
 | [OpenSSL](https://www.openssl.org/) | 3.6.1 | `Apache-2.0` (Apache License 2.0) | The OpenSSL Project Authors | Conexiones cifradas de libpq y de Python. |
-| [poly2tri](https://github.com/jhasse/poly2tri) | 2023-12-27 | `BSD-3-Clause` (BSD de 3 cláusulas) | Poly2Tri Contributors | Triangulación de polígonos. |
+| [poly2tri](https://github.com/jhasse/poly2tri) | 2023-12-27 | `BSD-3-Clause` (BSD de 3 cláusulas) | Poly2Tri Contributors | Triangulación de polígonos dentro de assimp. |
 | [pugixml](https://github.com/zeux/pugixml) | 1.15 | `MIT` (licencia MIT) | Arseny Kapoulkine | Lectura de XML dentro de assimp. |
 | [pybind11](https://github.com/pybind/pybind11) | 3.0.1 | `BSD-3-Clause` (BSD de 3 cláusulas) | Wenzel Jakob | Módulos de Python `digi21`. |
 | [Python](https://www.python.org/) | 3.12.13 | `Python-2.0` (Python License 2.0) | Python Software Foundation | Intérprete de Python embebido y su biblioteca estándar. |
