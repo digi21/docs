@@ -121,6 +121,9 @@ exportador del formato.
   de dibujo no admite su código.
 - Si `original` pertenece a otro archivo cargado, no se borra: `new` se añade sin más.
 
+Si `replace` devuelve `None`, no vuelvas a pasar `new` a `replace` ni a `add`: Digi3D.AI puede haberla guardado
+entre las geometrías rechazadas. Crea otro clon.
+
 Recoge primero las geometrías en una lista y recorre la lista, no la vista: `replace` añade geometrías al
 archivo de dibujo que se está recorriendo.
 
