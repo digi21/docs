@@ -754,6 +754,7 @@
           * [TENTATIVO\_FIN](digi3d-ai/referencia/ventana-de-dibujo/variables/t/tentativo-fin.md)
           * [TENTATIVO\_INSERTA](digi3d-ai/referencia/ventana-de-dibujo/variables/t/tentativo-inserta.md)
           * [TENTATIVO\_TEXTOS](digi3d-ai/referencia/ventana-de-dibujo/variables/t/tentativo-textos.md)
+          * [TEXTO\_ORIENTADO\_CON\_CAMARA](digi3d-ai/referencia/ventana-de-dibujo/variables/t/texto-orientado-con-camara.md)
           * [TOL](digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md)
           * [TOL\_ANG](digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md)
         * [V](digi3d-ai/referencia/ventana-de-dibujo/variables/v/README.md)

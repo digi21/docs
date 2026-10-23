@@ -236,6 +236,7 @@ z = view.project((430000, 4480000))
 | `force_active_angle` | `bool` | Asigna el ángulo activo a todos los textos que crea cualquier orden. Variable FORZAR_AA_ACTIVA. |
 | `force_text_height` | `bool` | Asigna la altura de texto activa a todos los textos que crea cualquier orden. Variable FORZAR_AT_ACTIVA. |
 | `force_text_justification` | `bool` | Asigna la justificación de texto activa a todos los textos que crea cualquier orden. Variable FORZAR_JT_ACTIVA. |
+| `camera_oriented_text` | `bool` | TEXTO coloca el texto perpendicular a la dirección de la mirada de la cámara y TEXTO_R coloca el texto en un plano vertical. Variable TEXTO_ORIENTADO_CON_CAMARA. |
 
 ## Visualización
 
