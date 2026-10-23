@@ -3,7 +3,8 @@
 
 Archivo: `prefija_cod.py` · **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)) con un parámetro.
 
-La orden antepone un prefijo a los códigos de cada geometría que el usuario selecciona con un dato. Está
+La orden antepone un prefijo a los códigos de cada geometría que el usuario selecciona con un dato o con
+una orden de selección múltiple. Está
 pensada para los proyectos de actualización cartográfica en los que cada elemento está en uno de estos
 estados:
 
@@ -32,17 +33,24 @@ geometría.
 
 3. Pulsa la tecla o el botón del prefijo que quieras aplicar y haz clic en cada geometría. La orden sigue
    activa hasta que pulsas reset.
+4. Para cambiar muchas geometrías de una vez, ejecuta con la orden activa
+   [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md),
+   [SELECCIONA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-cod.md) o cualquier otra
+   orden de selección: la orden antepone el prefijo a todas las geometrías seleccionadas del archivo de dibujo.
 
 La orden no cambia los códigos que ya empiezan por `ACT_`, por `BAI_` o por el prefijo indicado. Si todos
-los códigos de la geometría tienen ya un prefijo, la geometría no cambia y suena el sonido de error. Cada código
-conserva su tabla y su registro de base de datos. Cada geometría modificada queda en una transacción
-propia, así que cada UNDO deshace el cambio de una sola geometría.
+los códigos de una geometría tienen ya un prefijo, esa geometría no cambia; si no cambia ninguna, suena el
+sonido de error. Cada código conserva su tabla y su registro de base de datos. Cada dato y cada selección
+múltiple quedan en una transacción propia: un UNDO deshace el cambio de la geometría del dato o de todas las
+geometrías de la selección.
 
 Si no se indica exactamente un parámetro, la orden emite el sonido de error y muestra un cuadro con el
 mensaje «Falta el prefijo.» y la forma de uso.
 
 La orden necesita una versión de Digi3D.AI con
-[`PythonCommand.select_geometry`](../../referencia/digi3d/python-command.md#seleccionar-una-geometría).
+[`PythonCommand.select_geometry`](../../referencia/digi3d/python-command.md#seleccionar-una-geometría) y,
+para la selección múltiple, con el evento
+[`on_geometries_selected`](../../referencia/digi3d/python-command.md#selección-múltiple).
 
 ## El código
 
@@ -78,18 +86,34 @@ class PrefijaCod(digi3d.PythonCommand):
         return True
 
     def on_geometry_selected(self, geometria, coordenadas, primer_vertice, segundo_vertice):
-        if all(codigo.code.startswith(self.prefijos) for codigo in geometria.codes):
+        self.prefija_geometrias([geometria])
+
+    # Las órdenes de selección múltiple y los paneles entregan aquí la lista de geometrías seleccionadas.
+    def on_geometries_selected(self, geometrias):
+        self.prefija_geometrias(geometrias)
+
+    def prefija_geometrias(self, geometrias):
+        # Solo se modifican las geometrías del archivo de dibujo: el tentativo, las órdenes de selección y los paneles
+        # entregan también las de los archivos de referencia.
+        ruta = self.view.drawing_file.path
+        originales = [geometria for geometria in geometrias
+                      if geometria.file is not None and geometria.file.path == ruta
+                      and not all(codigo.code.startswith(self.prefijos) for codigo in geometria.codes)]
+        if not originales:
             digi3d.music(digi3d.MusicType.Error)
             return
 
-        # Las geometrías del dibujo son de solo lectura: se borra la original y se añade un clon con los códigos nuevos.
-        clon = geometria.clone()
-        clon.codes = tuple(self.prefija(codigo) for codigo in geometria.codes)
-        self.view.delete(geometria)
-        self.view.add(clon)
+        # Las geometrías del dibujo son de solo lectura: se borran las originales y se añaden clones con los códigos nuevos.
+        clones = []
+        for geometria in originales:
+            clon = geometria.clone()
+            clon.codes = tuple(self.prefija(codigo) for codigo in geometria.codes)
+            clones.append(clon)
+        self.view.delete(originales)
+        self.view.add(clones)
         self.view.redraw()
 
-        # Una transacción por geometría: cada UNDO deshace el cambio de una sola geometría.
+        # Una transacción por selección: un UNDO deshace el cambio de todas las geometrías seleccionadas a la vez.
         self.new_transaction()
 
     def prefija(self, codigo):
@@ -129,15 +153,22 @@ else:
   geometría devuelve el archivo que la contiene. La orden solo acepta las geometrías cuyo archivo es el
   archivo de dibujo activo (`self.view.drawing_file`), porque las de los archivos de referencia no se
   pueden modificar.
+- **La selección múltiple**: como la orden define
+  [`on_geometries_selected`](../../referencia/digi3d/python-command.md#selección-múltiple), las órdenes de
+  selección y la opción **Enviar selección a la orden activa** de los paneles le entregan una lista de
+  geometrías. Esas geometrías no pasan por el filtro de `select_geometry` y pueden ser de cualquier archivo
+  cargado, así que `prefija_geometrias` vuelve a comparar el archivo de cada una con el archivo de dibujo. La
+  misma función trata la geometría del dato, que `on_geometry_selected` le pasa en una lista de un elemento:
+  también puede llegar sin filtrar, por ejemplo desde el pedal de tentativo.
 - **Los prefijos**: `str.startswith` admite una tupla y devuelve `True` si la cadena empieza por
   cualquiera de sus elementos. La tupla `self.prefijos` contiene `ACT_`, `BAI_` y el prefijo recibido.
-- **El cambio de códigos**: las geometrías del dibujo son de solo lectura. La orden crea un clon con
-  `clone()`, le asigna los códigos nuevos, borra la geometría original con `view.delete` y añade el clon
-  con `view.add`. Cada código nuevo es un
+- **El cambio de códigos**: las geometrías del dibujo son de solo lectura. La orden crea un clon de cada
+  geometría con `clone()`, le asigna los códigos nuevos, borra las originales con `view.delete` y añade los
+  clones con `view.add`; las dos funciones aceptan listas. Cada código nuevo es un
   [FeatureCode](../../referencia/digi21.base/featurecode.md) con la tabla y el identificador del código
   original, como en el ejemplo [Renombrar un código manteniendo sus atributos](renomcod-manteniendo-atributos.md).
-- **Deshacer**: `self.new_transaction()` cierra la transacción de deshacer de la geometría y abre otra
-  para la siguiente.
+- **Deshacer**: `self.new_transaction()` cierra la transacción de deshacer del dato o de la selección
+  múltiple y abre otra para la siguiente.
 - **La variable `orden`**: Digi3D.AI ejecuta los guiones en el espacio de nombres de `__main__`, que se
   conserva entre ejecuciones. El guion guarda la orden en una variable global para que el objeto de Python
   siga existiendo mientras la orden está activa, igual que el ejemplo
@@ -145,6 +176,6 @@ else:
 
 ## Véase también
 
-- [PythonCommand](../../referencia/digi3d/python-command.md) — `select_geometry`, `on_geometry_selected`, `new_transaction`
+- [PythonCommand](../../referencia/digi3d/python-command.md) — `select_geometry`, `on_geometry_selected`, `on_geometries_selected`, `new_transaction`
 - [FeatureCode](../../referencia/digi21.base/featurecode.md)
 - [Renombrar un código manteniendo sus atributos](renomcod-manteniendo-atributos.md)

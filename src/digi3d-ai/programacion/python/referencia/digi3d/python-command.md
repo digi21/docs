@@ -4,7 +4,7 @@
 Módulo: `digi3d`
 
 Clase base para **crear órdenes interactivas en Python**. Se hereda de ella y se
-redefinen los manejadores de eventos (movimiento del ratón, dato, reset, tentativo…); la
+redefinen los manejadores de eventos (movimiento del ratón, dato, reset, tentativo, selección…); la
 orden se pone en marcha con [`DrawingView.add_command`](drawing-view.md#órdenes).
 
 ## Constructores
@@ -51,6 +51,7 @@ nada más con él.
 | `on_move(coordinates, button)` | Al mover el cursor. |
 | `on_key_down(key)` | Al pulsar una tecla. |
 | `on_geometry_selected(geometry, coordinates, first_vertex, second_vertex)` | Cuando el usuario selecciona una geometría con el pedal de tentativo o la orden la selecciona con `select_geometry`. No devuelve nada. |
+| `on_geometries_selected(geometries)` | Cuando una orden de selección múltiple o un panel entrega varias geometrías a la orden. Consulta [Selección múltiple](#selección-múltiple). No devuelve nada. |
 
 `coordinates` es una tupla `(x, y, z)` con coordenadas terreno.
 
@@ -94,7 +95,8 @@ activa por otros caminos, entre ellos:
 - las órdenes [SELECCIONA_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ultimo.md) y
   [SELECCIONA_INDICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-indice.md);
 - la opción **Enviar selección a la orden activa** del menú contextual del editor de base de datos y del
-  panel de resultados de la búsqueda;
+  panel de resultados de la búsqueda, que entrega la primera geometría seleccionada si la orden no define
+  `on_geometries_selected`;
 - las tareas del panel de tareas que lanzan una orden sobre una geometría.
 
 Si la orden no define `on_geometry_selected`, Digi3D.AI la trata como una orden que no selecciona
@@ -117,6 +119,39 @@ digi3d.current_view().add_command(MostrarCodigos("Mostrar códigos"))
 
 El ejemplo [Prefijar los códigos de la geometría seleccionada](../../panel-de-python/ejemplos/prefija-cod.md)
 usa `filter` para descartar las geometrías de los archivos de referencia.
+
+## Selección múltiple
+
+Una orden que define `on_geometries_selected(geometries)` admite selección múltiple. Mientras está activa, estas
+órdenes y opciones le entregan la lista de geometrías seleccionadas:
+
+- las órdenes de selección, como [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md),
+  [SELECCIONA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-cod.md) o SELECCIONA\_POLIGONO;
+- la opción **Enviar selección a la orden activa** del menú contextual del editor de base de datos y del
+  panel de resultados de la búsqueda, que entrega todas las geometrías seleccionadas.
+
+| Argumento | Tipo | Descripción |
+|---|---|---|
+| `geometries` | `list` de [Geometry](../digi21.base/geometry.md) | Geometrías seleccionadas. Son las geometrías del dibujo y son de solo lectura, como en `on_geometry_selected`. Pueden ser de cualquier archivo cargado, incluidos los archivos de referencia: la orden decide cuáles trata comparando su propiedad `file` con `view.drawing_file`. |
+
+Si la orden no define `on_geometries_selected`, Digi3D.AI la trata como una orden que no admite selección
+múltiple: las órdenes de selección muestran el aviso de que la orden activa no la admite y no se inician.
+
+`view.delete` y `view.add` aceptan listas, así que la orden puede sustituir todas las geometrías de una vez
+y cerrar el cambio con un solo `new_transaction()`:
+
+```python
+import digi3d
+
+class Borrar(digi3d.PythonCommand):
+    def on_geometries_selected(self, geometries):
+        ruta = self.view.drawing_file.path
+        self.view.delete([g for g in geometries if g.file is not None and g.file.path == ruta])
+        self.view.redraw()
+        self.new_transaction()
+
+digi3d.current_view().add_command(Borrar("Borrar la selección"))
+```
 
 ## Ejemplo
 
