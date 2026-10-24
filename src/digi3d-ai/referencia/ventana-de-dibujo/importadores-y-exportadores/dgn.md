@@ -58,6 +58,19 @@ El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que 
 
 Si en la tabla de códigos la traducción DGN de un código tiene **Traducir este código** = Falso (atributo `export="0"`), las entidades con ese código no se escriben en el archivo. Al almacenar una de esas entidades en una ventana de dibujo DGN, Digi3D.AI la descarta y muestra un globo: «El código *código* no se exporta a DGN (export="0" en la tabla de códigos); la entidad no se ha almacenado.». El globo aparece una vez por código mientras Digi3D.AI está abierto.
 
+### Textos orientados
+
+Un texto orientado es un texto que no está en el plano XY. La variable [TEXTO\_ORIENTADO\_CON\_CAMARA](../variables/t/texto-orientado-con-camara.md) describe las órdenes que crean textos orientados.
+
+El tipo del modelo DGN decide si el archivo conserva la orientación de los textos:
+
+| Modelo | Al leer el archivo | Al escribir el archivo |
+| :--- | :--- | :--- |
+| 3D | El elemento de texto guarda su rotación en un cuaternión. Si la rotación es un giro alrededor del eje Z, Digi3D.AI lee un texto del plano XY con ese giro. Con cualquier otra rotación, Digi3D.AI lee un texto orientado con la rotación completa del elemento. | Digi3D.AI escribe en el cuaternión la rotación completa del texto orientado: la orientación y el giro alrededor del eje Z. Un texto del plano XY se escribe con un giro alrededor del eje Z. |
+| 2D | El elemento de texto solo guarda un ángulo, y Digi3D.AI lee un texto del plano XY con ese ángulo como giro. | Digi3D.AI escribe el giro del texto. Un texto orientado pierde la orientación. |
+
+Digi3D.AI lee un nodo de texto (*text node*, el elemento de MicroStation que agrupa varias líneas de texto) de un modelo 3D como un elemento complejo con los textos del nodo, y cada texto conserva su orientación.
+
 ### Opciones de la configuración
 
 El cuadro de diálogo Configuración tiene más opciones de este formato en [Importador/exportador de archivos Bentley MicroStation v8](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-bentley-microstation-v8/README.md).

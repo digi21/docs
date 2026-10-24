@@ -36,6 +36,32 @@ Las cuatro propiedades aparecen tanto al crear el archivo como al abrir uno exis
 
 El sistema de referencia se guarda en el propio archivo. Al crear un archivo nuevo o al exportar a este formato, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**. Al abrir un archivo existente, el sistema se lee del archivo y no se pide. Consulta [Ubicación del sistema de referencia de coordenadas](../../../sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/archivos-de-dibujo/ubicacion-src-archivos-dibujo.md).
 
+### Textos orientados
+
+Un texto orientado es un texto que no está en el plano XY. Además del giro alrededor del eje Z, un texto orientado tiene una orientación: un cuaternión unitario (w, x, y, z) que gira el texto en su sistema local (eje X en la línea base, eje Y hacia la parte superior de los caracteres y eje Z hacia el lector) antes de aplicar el giro. La variable [TEXTO\_ORIENTADO\_CON\_CAMARA](../variables/t/texto-orientado-con-camara.md) describe las órdenes que crean textos orientados.
+
+Cada texto ocupa un registro de entidad del archivo. Un texto del plano XY se guarda en un registro de tipo `Digi21.DigiNG.Text`. Un texto orientado se guarda en un registro de tipo `Digi21.DigiNG.Text2`, que contiene los campos de `Digi21.DigiNG.Text` seguidos de la orientación:
+
+| Campo | Tipo | Registro |
+| :--- | :--- | :--- |
+| Punto de inserción (x, y, z) | Tres números de doble precisión | `Text` y `Text2` |
+| Giro, en centésimas de grado sexagesimal | Número de doble precisión | `Text` y `Text2` |
+| Altura | Número de doble precisión | `Text` y `Text2` |
+| Justificación | Entero de 16 bits sin signo | `Text` y `Text2` |
+| Número de caracteres | Entero de 32 bits | `Text` y `Text2` |
+| Caracteres del texto | UTF-16, sin carácter nulo al final | `Text` y `Text2` |
+| Orientación (w, x, y, z) | Cuatro números de doble precisión | Solo `Text2` |
+
+Un giro con un número entero de centésimas se escribe como ese número entero, sin error de redondeo. La versión del archivo es la 5 tanto si el archivo contiene registros `Text2` como si no. Si el archivo termina antes de la orientación de un registro `Text2`, Digi3D.AI informa del error «El archivo está corrupto: no se pudo leer la orientación de un texto».
+
+Una versión de Digi3D que no reconoce el registro `Digi21.DigiNG.Text2` se comporta así:
+
+- Omite cada texto orientado con el error «Localizada una entidad de un tipo desconocido», carga el resto de entidades y, al terminar la carga, muestra el cuadro de diálogo con los errores.
+- Si el texto orientado forma parte de un elemento complejo o de un elemento complejo puntual, no carga el complejo ni las entidades del complejo anteriores al texto, y carga como entidades independientes las entidades del complejo posteriores al texto.
+- Al comprimir el archivo con la orden [COMPRIMIR](../ordenes/c/comprimir.md), escribe en el archivo solo las entidades que ha cargado: los textos orientados y las demás entidades que no ha cargado desaparecen del archivo.
+
+MDTopX omite los textos orientados sin mostrar ningún aviso.
+
 ### Opciones de la configuración
 
 El cuadro de diálogo Configuración tiene más opciones de este formato en [Importador/exportador de archivos binarios de doble precisión](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-binarios-de-doble-precision/README.md).

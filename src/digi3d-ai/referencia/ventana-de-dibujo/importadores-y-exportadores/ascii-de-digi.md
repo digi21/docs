@@ -41,7 +41,7 @@ Cada entidad empieza por una línea de cabecera: una letra con el tipo, `=` si l
 | Tipo | Entidad | Cabecera | Líneas detrás de la cabecera |
 | :--- | :--- | :--- | :--- |
 | `C` | Línea o punto | `C=<código> <vértices> <atributos>` | Una línea `x y z` por vértice. Con un solo vértice, la entidad es un punto. |
-| `T` | Texto | `T=<código> 1 <atributos>` | `altura justificación giro`, `x y z` del punto de inserción y el texto. |
+| `T` | Texto | `T=<código> 1 <atributos>` | `altura justificación giro` (un texto orientado añade `w x y z`), `x y z` del punto de inserción y el texto. |
 | `B` | Imagen | `B=<código> 2 <atributos>` | Centro, giros y escala (`x y z` cada uno) y la ruta de la imagen. |
 | `E` | Polígono | `E=<código> <vértices> <atributos> <contornos interiores>` | Una línea `x y z` por vértice del contorno exterior y cada contorno interior como una entidad `C`. |
 | `X` | Elemento complejo | `X=<código> <entidades> <atributos>` | Cada entidad del complejo como una entidad `C`. |
@@ -50,6 +50,14 @@ Cada entidad empieza por una línea de cabecera: una letra con el tipo, `=` si l
 Cada atributo es una línea `A <tabla> <registro> <código>`. Un código que contiene un espacio, `=`, `,` o un tabulador se escribe entre comillas dobles.
 
 El exportador no escribe puntos orientados, mallas, objetos OLE, entidades de MDT ni elementos complejos con entidades que no sean puntos o líneas. Al importar, las entidades de un tipo desconocido se omiten con un aviso; es el caso de las cabeceras `h`, `A`, `D`, `P`, `M`, `O` y `m` que escribían versiones anteriores sin vértices.
+
+### Textos orientados
+
+Un texto orientado es un texto que no está en el plano XY. La variable [TEXTO\_ORIENTADO\_CON\_CAMARA](../variables/t/texto-orientado-con-camara.md) describe las órdenes que crean textos orientados.
+
+En un texto orientado, la línea `altura justificación giro` lleva detrás los cuatro números `w x y z` de la orientación del texto: un cuaternión unitario que gira el texto en su sistema local (eje X en la línea base, eje Y hacia la parte superior de los caracteres y eje Z hacia el lector) antes de aplicar el giro. El giro y los cuatro números se escriben con hasta 17 cifras significativas, de modo que al leer el archivo se obtienen los mismos valores. En un texto del plano XY, la línea no lleva los cuatro números y el giro se escribe con dos decimales.
+
+El importador lee la orientación si la línea tiene siete palabras o más. Una versión de Digi3D que no lee la orientación usa solo las tres primeras palabras de la línea, y lee el texto orientado como un texto del plano XY con su giro.
 
 ## Características del importador/exportador
 

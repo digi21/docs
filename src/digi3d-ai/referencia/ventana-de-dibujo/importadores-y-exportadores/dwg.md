@@ -110,6 +110,27 @@ En los módulos `digi21.io.dwg` y `digi21.io.dxf` de Python, una entidad que no 
 
 Si en la tabla de códigos la traducción DWG de un código tiene **Traducir este código** = Falso (atributo `export="0"`), las entidades con ese código no se escriben en el archivo. Al almacenar una de esas entidades en una ventana de dibujo DWG, Digi3D.AI la descarta y muestra un globo: «El código *código* no se exporta a DWG (export="0" en la tabla de códigos); la entidad no se ha almacenado.». El globo aparece una vez por código mientras Digi3D.AI está abierto.
 
+### Textos orientados
+
+Un texto orientado es un texto que no está en el plano XY. La variable [TEXTO\_ORIENTADO\_CON\_CAMARA](../variables/t/texto-orientado-con-camara.md) describe las órdenes que crean textos orientados. Digi3D.AI lee y escribe la orientación de la misma manera en los archivos `.dwg` y en los `.dxf`.
+
+AutoCAD define el plano de cada entidad TEXT y MTEXT con su normal (vector de extrusión): el plano del texto es perpendicular a la normal. La rotación de un TEXT se mide desde el eje X del sistema de coordenadas del objeto (OCS), que es el sistema de coordenadas que AutoCAD calcula a partir de la normal de cada entidad.
+
+Al leer el archivo:
+
+- Si la normal de un TEXT no es +Z, Digi3D.AI calcula la línea base con la rotación medida en el OCS de esa normal y lee un texto orientado.
+- Si la normal de un MTEXT no es +Z, Digi3D.AI toma como línea base la dirección del MTEXT, que AutoCAD guarda en el sistema de coordenadas universal (WCS), y lee un texto orientado.
+- Si la normal es +Z, Digi3D.AI lee un texto del plano XY con la rotación como giro.
+- Un TEXT o un MTEXT con normal -Z se lee como un texto orientado con la cara legible hacia -Z.
+
+Al escribir el archivo:
+
+- Digi3D.AI escribe cada texto como un TEXT.
+- En un texto orientado, Digi3D.AI escribe como normal el eje Z del texto (perpendicular al plano del texto y hacia el lector) y como rotación el ángulo de la línea base medido en el OCS de esa normal.
+- Un texto del plano XY se escribe con normal +Z y con el giro como rotación.
+- Un texto cuyo contenido empieza por `@` se escribe como una referencia de bloque girada con el giro del texto, sin la orientación.
+- Los archivos `.bin` que crea la propiedad **Importar bloques** guardan el giro de cada texto del bloque, sin la orientación.
+
 ### Opciones de la configuración
 
 El cuadro de diálogo Configuración tiene más opciones de este formato en [Importador/exportador de archivos DWG](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-dwg/README.md).
