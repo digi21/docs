@@ -70,7 +70,7 @@ Los demás formatos no conservan la orientación: un texto orientado se escribe 
 | Formato | Ángulo del texto en el archivo |
 | :--- | :--- |
 | BIN, VEC y GeoJSON | El giro. GeoJSON escribe el giro en la propiedad `rotation` del punto. |
-| PDF | El giro: el texto se dibuja en planta, girado con ese ángulo. |
+| PDF | El giro: el texto se dibuja en planta desde su punto de inserción, girado con ese ángulo y con el alto del texto. Si el tamaño de la página sale de la extensión del dibujo, la página incluye el rectángulo en planta del texto. |
 | SHP, GeoPackage, FileGDB, PostGIS y WKT | Ninguno: el texto se escribe como un punto en su punto de inserción. |
 | SVG | Ninguno: el texto se escribe como un elemento `text` en la X y la Y de su punto de inserción. |
 | KML | El exportador KML no escribe textos. |
