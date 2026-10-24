@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Texto de lectura y escritura: una cadena, una coordenada de inserción, una altura, una rotación y una justificación.
+Texto de lectura y escritura: una cadena, una coordenada de inserción, una altura, una rotación, una orientación en el espacio y una justificación.
 
 ```csharp
 public class Text : ReadOnlyText, IDesplazable
@@ -16,7 +16,7 @@ Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 Un `Text` creado con sus constructores no pertenece a ningún archivo de dibujo (`Owner` es `null`) y se puede modificar. Al añadirlo a un archivo de dibujo con `IDrawingFile.Add`, `Owner` pasa a ser ese archivo y la entidad pasa a ser de solo lectura: los descriptores `set` y los métodos `Offset` lanzan `InvalidOperationException`. Para modificar un texto guardado, modifica la copia que devuelve [Clone](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/metodos/clone.md).
 
-Un `Text` nuevo tiene la cadena vacía, la coordenada (0, 0, 0), la altura 0, la rotación 0 y la justificación `SouthWest`, y sus coordenadas mínimas y máximas ([IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)) están sin calcular: `Valid` vale `false`, `Xmin` vale `null`, y `Width`, `Center`, `Color`, `Weight` y `FillColor` lanzan `InvalidOperationException`. Asignar `Coordinate` desplaza el texto y recalcula las coordenadas mínimas y máximas. Los métodos `Offset` desplazan el texto y también las recalculan, junto con las de cada entidad que contiene el texto, por ejemplo el complejo del que forma parte.
+Un `Text` nuevo tiene la cadena vacía, la coordenada (0, 0, 0), la altura 0, la rotación 0, la orientación `Quaternion.Identity` y la justificación `SouthWest`, y sus coordenadas mínimas y máximas ([IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/)) están sin calcular: `Valid` vale `false`, `Xmin` vale `null`, y `Width`, `Center`, `Color`, `Weight` y `FillColor` lanzan `InvalidOperationException`. Asignar `Coordinate` desplaza el texto y recalcula las coordenadas mínimas y máximas. Los métodos `Offset` desplazan el texto y también las recalculan, junto con las de cada entidad que contiene el texto, por ejemplo el complejo del que forma parte.
 
 `Rotation` está en grados sexagesimales, como [Point.Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/point/propiedades/rotation.md). En versiones anteriores estaba en centésimas de grado: lee [Rotation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md).
 
@@ -36,7 +36,8 @@ El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se he
 | [`string Txt { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/txt.md) | Cadena del texto. |
 | [`Point3D Coordinate { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/coordinate.md) | Coordenada de inserción. |
 | [`double TextHeight { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/textheight.md) | Altura del texto. |
-| [`double Rotation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md) | Rotación, en grados sexagesimales, en sentido antihorario desde el eje X. |
+| [`double Rotation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md) | Rotación, en grados sexagesimales, en sentido antihorario desde el eje X, alrededor del eje Z del mundo. |
+| [`Quaternion Orientation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/orientation.md) | Orientación en el espacio: un cuaternión que se aplica antes de `Rotation`, en el sistema local del texto. Se normaliza al asignarla. |
 | [`TextJustification Justification { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/justification.md) | Posición del punto de inserción respecto al texto. |
 
 ## Métodos

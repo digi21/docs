@@ -12,6 +12,7 @@ Clases y estructuras del espacio de nombres [Digi21.Math](/digi3d-ai/programacio
 | [Point3DEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3deventargs.md) | Argumento de evento con una coordenada. |
 | [Point3DReadOnlyCollection](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3dreadonlycollection.md) | Lista de solo lectura de `Point3D`. |
 | [Precision](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/precision.md) | Comparaciones de `double` con tolerancia. |
+| [Quaternion](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/quaternion.md) | Cuaternión de rotación. |
 | [Segment](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/segment.md) | Segmento entre dos puntos. |
 | [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) | Ventana en el plano X, Y. |
 | [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) | Ventana en el espacio. |

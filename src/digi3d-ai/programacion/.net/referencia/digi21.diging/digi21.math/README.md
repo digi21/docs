@@ -3,7 +3,7 @@
 
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Tipos para puntos, segmentos, ventanas (cajas de coordenadas mínimas y máximas), ángulos y comparación de números reales con tolerancia.
+Tipos para puntos, segmentos, ventanas (cajas de coordenadas mínimas y máximas), ángulos, cuaterniones de rotación y comparación de números reales con tolerancia.
 
 ## Clases
 
@@ -16,6 +16,7 @@ Tipos para puntos, segmentos, ventanas (cajas de coordenadas mínimas y máximas
 | [Point3DEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3deventargs.md) | Argumento de los eventos de una orden que notifican una coordenada. |
 | [Point3DReadOnlyCollection](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3dreadonlycollection.md) | Lista de solo lectura de `Point3D`. |
 | [Precision](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/precision.md) | Tolerancia (épsilon) y comparaciones de valores `double` con esa tolerancia. |
+| [Quaternion](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/quaternion.md) | Cuaternión de rotación, con las componentes `W`, `X`, `Y` y `Z`. Es el tipo de la orientación en el espacio de los textos. |
 | [Segment](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/segment.md) | Segmento entre dos `Point3D` y operaciones con la recta que pasa por sus extremos. |
 | [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md) | Ventana en el plano X, Y. |
 | [Window3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window3d.md) | Ventana en el espacio. |

@@ -16,6 +16,8 @@ public new double Rotation { get; set; }
 
 En versiones anteriores esta propiedad estaba en centésimas de grado. Para convertir un valor en centésimas, divídelo por 100.
 
+El giro es alrededor del eje Z del mundo y se aplica después de [Orientation](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/orientation.md), la orientación del texto en el espacio. Asignar `Rotation` no cambia `Orientation`.
+
 ## Excepciones
 
 | Excepción | Cuándo |
