@@ -49,7 +49,7 @@ Los miembros heredados de `Entity` (códigos, colores, atributos, coordenadas m�
 | [`double NearestSegment(Point3D coordinate, out Point3D calculatedCoordinate, out int segment)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/isnapable/metodos/nearestsegment.md) | Distancia en el plano X, Y al segmento más cercano entre los segmentos sobre los que cae la proyección perpendicular de `coordinate`; devuelve la proyección y el índice del segmento (el del vértice inicial). Lanza `InvalidOperationException` si la línea no tiene vértices y `Exception` si la proyección no cae sobre ningún segmento. |
 | [`IEnumerable<Entity> Clip(ReadOnlyLine limit)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/iclippable/metodos/clip.md) | Divide la línea por sus intersecciones con `limit`. Lee la lista que sigue a esta tabla. |
 | [`IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/itrimable/metodos/trim.md) | Polígonos que forman el recinto de esta línea menos el recinto de `limit`. |
-| `string ToString()` | Texto localizado con el tipo, los datos de `Entity` y el número de vértices. |
+| `string ToString()` | Texto localizado con el tipo, los datos de `Entity`, el número de vértices y el número y la coordenada de cada vértice. |
 
 `Clip` según la línea:
 
