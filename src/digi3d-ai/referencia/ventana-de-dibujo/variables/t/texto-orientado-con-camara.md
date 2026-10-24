@@ -53,6 +53,8 @@ Al iniciar Digi3D.AI la variable está desactivada.
 
 Desde Python, la variable se lee y se modifica con la propiedad `camera_oriented_text` de [DrawingView](/digi3d-ai/programacion/python/referencia/digi3d/drawing-view.md).
 
+La orientación en el espacio de un texto se lee y se asigna con la propiedad [`orientation`](/digi3d-ai/programacion/python/referencia/digi21.base/text.md#orientación-en-el-espacio) de `Text` en Python, y con la propiedad [`Orientation`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/orientation.md) de `Text` en .NET. En .NET, `ReadOnlyText` tiene la propiedad [`Orientation`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/orientation.md) de solo lectura.
+
 ## Características de la orden
 
 | Tipo de orden | [Variable booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
