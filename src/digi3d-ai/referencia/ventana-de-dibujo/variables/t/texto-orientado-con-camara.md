@@ -53,6 +53,30 @@ Al iniciar Digi3D.AI la variable está desactivada.
 
 Desde Python, la variable se lee y se modifica con la propiedad `camera_oriented_text` de [DrawingView](/digi3d-ai/programacion/python/referencia/digi3d/drawing-view.md).
 
+### Orientación de los textos en los archivos de dibujo
+
+Un texto orientado guarda su orientación en el espacio además del giro alrededor del eje Z. Estos formatos leen y escriben la orientación:
+
+| Formato | Dónde se guarda la orientación |
+| :--- | :--- |
+| [Archivos Digi de doble precisión](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/bin-doble-precision.md) (`.bind`) | En un registro de tipo `Digi21.DigiNG.Text2`. Las versiones de Digi3D que no reconocen el registro `Digi21.DigiNG.Text2` omiten los textos orientados. |
+| [Archivos Ascii de Digi](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/ascii-de-digi.md) (`.asc`) | En cuatro números al final de la línea del giro. |
+| [Archivos DGNv8](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/dgn.md) (`.dgn`) | En el cuaternión de rotación del elemento de texto de los modelos 3D. Un modelo 2D solo guarda el giro. |
+| [Archivos AutoCAD DWG](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/dwg.md) (`.dwg`, `.dxf`) | En la normal y la rotación de cada TEXT. Al leer el archivo, también en la normal y la dirección de cada MTEXT. |
+| [Archivos Datawarehouse de Geomedia](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/geomedia.md) (`.mdb`) | En la normal y la rotación de cada `TextPointGeometry`. El eje desde el que Digi3D.AI mide la rotación no se ha comprobado con archivos creados por GeoMedia. |
+
+Los demás formatos no conservan la orientación: un texto orientado se escribe como un texto del plano XY.
+
+| Formato | Ángulo del texto en el archivo |
+| :--- | :--- |
+| BIN, VEC y GeoJSON | El giro. GeoJSON escribe el giro en la propiedad `rotation` del punto. |
+| PDF | El giro: el texto se dibuja en planta, girado con ese ángulo. |
+| SHP, GeoPackage, FileGDB, PostGIS y WKT | Ninguno: el texto se escribe como un punto en su punto de inserción. |
+| SVG | Ninguno: el texto se escribe como un elemento `text` en la X y la Y de su punto de inserción. |
+| KML | El exportador KML no escribe textos. |
+
+En los textos que crean las órdenes TEXTO, 1TEXTO, TEXTO\_EDITABLE, TEXTO\_R y TEXTO\_R\_EDITABLE, el giro es el ángulo de la proyección de la línea base en el plano XY. En los formatos que escriben el giro, la línea base del texto conserva su dirección en planta.
+
 La orientación en el espacio de un texto se lee y se asigna con la propiedad [`orientation`](/digi3d-ai/programacion/python/referencia/digi21.base/text.md#orientación-en-el-espacio) de `Text` en Python, y con la propiedad [`Orientation`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/orientation.md) de `Text` en .NET. En .NET, `ReadOnlyText` tiene la propiedad [`Orientation`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlytext/propiedades/orientation.md) de solo lectura.
 
 ## Características de la orden
