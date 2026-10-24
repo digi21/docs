@@ -22,6 +22,16 @@ Al asignar la propiedad:
 
 `Quaternion` es un tipo de valor y la propiedad devuelve una copia. `texto.Orientation.X = 1.0` no compila (error CS1612): para cambiar una componente, asigna a la propiedad el cuaternión completo.
 
+## La dirección en planta va en Rotation
+
+Asigna a `Rotation` la dirección de la línea base en planta y usa `Orientation` solo para inclinar el texto fuera del plano XY, sin giro alrededor del eje Z. Para un texto en una fachada con la línea base a 30° en planta, asigna `Rotation = 30.0` y `Orientation = new Quaternion(1.0, 1.0, 0.0, 0.0)`, no `Rotation = 0.0` con un cuaternión que incluya los 30°. Las órdenes de Digi3D.AI y los importadores de DWG/DXF, DGN y Geomedia guardan los textos siempre de esta forma.
+
+Las dos formas dibujan el texto igual, pero el texto conserva el cuaternión asignado y no traslada a `Rotation` su giro alrededor del eje Z. Con un cuaternión que gira alrededor del eje Z:
+
+- `Rotation` no es la dirección del texto en planta. Asignar `Rotation = a` deja la línea base a `a` grados más el ángulo en planta que el cuaternión da por sí solo a la línea base.
+- Los formatos que solo guardan el giro (BIN, VEC, GeoJSON y PDF) escriben el texto con la dirección de `Rotation`. Consulta [Orientación de los textos en los archivos de dibujo](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/texto-orientado-con-camara.md#orientación-de-los-textos-en-los-archivos-de-dibujo).
+- Un texto del plano XY con un cuaternión que solo gira alrededor del eje Z cuenta como orientado. El formato BIND lo guarda en un registro `Digi21.DigiNG.Text2`, y las versiones de Digi3D anteriores a ese registro no cargan el texto.
+
 ## Excepciones
 
 | Excepción | Cuándo |

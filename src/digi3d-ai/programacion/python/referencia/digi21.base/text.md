@@ -66,6 +66,25 @@ Al asignar `orientation`, o al pasar el argumento `orientation` al constructor:
 la misma rotación, y `orientation` devuelve el cuaternión con el signo con el que se asignó. El clon
 que devuelve `clone()` tiene la misma orientación que el original.
 
+### La dirección en planta va en `rotation`
+
+Asigna a `rotation` la dirección de la línea base en planta y usa `orientation` solo para inclinar el
+texto fuera del plano XY, sin giro alrededor del eje Z. Para un texto en una fachada con la línea base
+a 30° en planta, asigna `rotation = 30` y `orientation = (cos 45°, sin 45°, 0, 0)`, no `rotation = 0`
+con un cuaternión que incluya los 30°. Las órdenes de Digi3D.AI y los importadores de DWG/DXF, DGN y
+Geomedia guardan los textos siempre de esta forma.
+
+Las dos formas dibujan el texto igual, pero el texto conserva el cuaternión asignado y no traslada a
+`rotation` su giro alrededor del eje Z. Con un cuaternión que gira alrededor del eje Z:
+
+- `rotation` no es la dirección del texto en planta. Asignar `rotation = a` deja la línea base a `a`
+  grados más el ángulo en planta que el cuaternión da por sí solo a la línea base.
+- Los formatos que solo guardan el giro (BIN, VEC, GeoJSON y PDF) escriben el texto con la dirección
+  de `rotation`. Consulta [Orientación de los textos en los archivos de dibujo](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/texto-orientado-con-camara.md#orientación-de-los-textos-en-los-archivos-de-dibujo).
+- Un texto del plano XY con un cuaternión que solo gira alrededor del eje Z cuenta como orientado. El
+  formato BIND lo guarda en un registro `Digi21.DigiNG.Text2`, y las versiones de Digi3D anteriores a
+  ese registro no cargan el texto.
+
 ## Ejemplo
 
 ```python
