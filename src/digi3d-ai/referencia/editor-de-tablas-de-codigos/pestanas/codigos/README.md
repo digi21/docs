@@ -41,6 +41,16 @@ La lista **Estilos visuales** muestra las representaciones del código. Una geom
 
 Al seleccionar una representación, la cuadrícula **Propiedades del estilo** muestra su color, grosor, color y grosor en estéreo, relleno y el resto de sus propiedades. El botón **...** de las propiedades de color abre el cuadro de diálogo [Seleccionar color](../../../cuadros-de-dialogo/seleccionar-color.md) con la paleta de la tabla de códigos.
 
+### Textos con fuente TrueType
+
+Estas propiedades de la representación controlan los textos del código:
+
+* **Fuente**: con el valor **TrueType**, los textos se dibujan con la fuente de la propiedad **Fuente TrueType**. Con un número, los textos se dibujan con esa fuente de Digi.
+* **Fuente TrueType**: nombre de una fuente TrueType instalada en _Windows_.
+* **Rellenar fuentes TrueType**: con **Sí**, la ventana fotogramétrica dibuja los textos TrueType rellenos; con **No**, dibuja solo el contorno de cada carácter. El relleno tiene el mismo color que el contorno. El valor por defecto es **Sí**. La ventana de dibujo dibuja siempre los textos TrueType rellenos, con cualquier valor de esta propiedad.
+
+Los sensores [PointCloud](/digi3d-ai/referencia/ventana-fotogrametrica/sensores/point-cloud.md) y [Ortofoto estereoscópica](/digi3d-ai/referencia/ventana-fotogrametrica/sensores/ortofoto-estereoscopica.md) dibujan los textos con la primera representación del código, así que usan el valor de **Rellenar fuentes TrueType** de esa representación. El resto de sensores usa el valor de cada representación.
+
 ## Aplicar los cambios
 
 Los cambios del código seleccionado se aplican al pulsar **Aplicar** o **Aceptar**, y también al seleccionar otro código en la lista: en ese caso el editor los aplica sin preguntar.
