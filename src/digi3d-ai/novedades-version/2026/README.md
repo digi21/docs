@@ -2,4 +2,4 @@
 
 <!-- Generado desde la base de datos de digi21.net. No editar a mano. -->
 
-* [2027.0.0.411](2027-0-0-411.md) — 20/10/2026 · 163 novedades, 9 correcciones
+* [2027.0.0.415](2027-0-0-415.md) — 25/10/2026 · 182 novedades, 25 correcciones

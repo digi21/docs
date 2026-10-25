@@ -2073,7 +2073,7 @@
           * [Ejemplos de programación](digi3d-ai/programacion/python/referencia/crskit/ejemplos.md)
   * [Novedades de la versión](digi3d-ai/novedades-version/README.md)
     * [2026](digi3d-ai/novedades-version/2026/README.md)
-      * [2027.0.0.411](digi3d-ai/novedades-version/2026/2027-0-0-411.md)
+      * [2027.0.0.415](digi3d-ai/novedades-version/2026/2027-0-0-415.md)
     * [2025](digi3d-ai/novedades-version/2025/README.md)
       * [2025.1.0.324](digi3d-ai/novedades-version/2025/2025-1-0-324.md)
       * [2025.0.0.309](digi3d-ai/novedades-version/2025/2025-0-0-309.md)
