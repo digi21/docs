@@ -1,7 +1,7 @@
 # Comprobar versión nueva
 <!-- id: comprobar-version-nueva -->
 
-Permite configurar si Digi3D.AI comprobará si existe una versión nueva cada vez que arranque.
+Permite configurar si Digi3D.AI comprobará si existe una versión nueva cada vez que arranque. Si existe, Digi3D.AI muestra el cuadro de diálogo [Localizada una versión nueva](../../localizada-una-version-nueva.md).
 
 Esta opción no aparece en las versiones BETA de Digi3D.AI.
 

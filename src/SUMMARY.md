@@ -1351,6 +1351,7 @@
       * [Error en los atributos de usuario](digi3d-ai/referencia/cuadros-de-dialogo/error-en-los-atributos-de-usuario.md)
       * [Introduce un punto terreno del archivo de puntos](digi3d-ai/referencia/cuadros-de-dialogo/introduce-punto-terreno.md)
       * [Localizada una imagen no preparada para Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/localizada-una-imagen-no-preparada-para-digi3d-ai.md)
+      * [Localizada una versión nueva](digi3d-ai/referencia/cuadros-de-dialogo/localizada-una-version-nueva.md)
       * [No se ha localizado un archivo de referencia](digi3d-ai/referencia/cuadros-de-dialogo/no-se-ha-localizado-un-archivo-de-referencia.md)
       * [No se ha podido cargar la tabla de códigos](digi3d-ai/referencia/cuadros-de-dialogo/no-se-ha-podido-cargar-la-tabla-de-codigos.md)
       * [Nuevo proyecto](digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/README.md)
