@@ -1,7 +1,7 @@
 # Botón de MDTopX
 <!-- id: boton-de-mdtopx -->
 
-[Interfaz de usuario](/lot-of-points-cc/interfaz-de-usuario/)
+[Interfaz de usuario](interfaz-de-usuario.md)
 
 La interfaz de usuario de MDTopX se ha rediseñado significativamente. El botón de MDTopX  remplaza el menú Archivo y está situado en la esquina superior izquierda de la interfaz.
 

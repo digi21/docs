@@ -1,7 +1,7 @@
 # Paneles de la aplicación
 <!-- id: paneles-de-la-aplicacion -->
 
-[Interfaz de usuario](/lot-of-points-cc/interfaz-de-usuario/)
+[Interfaz de usuario](../interfaz-de-usuario.md)
 
 Los paneles de la aplicación son ventanas adicionales que muestran información o herramientas adicionales que conviene tener visibles mientras se manipula un documento. Estos paneles pueden ser desactivados con sus correspondientes casillas desde la cinta de [Herramientas Inicio](../../fichas-de-herramientas/ficha-de-herramientas-inicio/)Los paneles pueden ser ubicados donde el usuario desee, pulsando sobre la barra de título del panel con el botón izquierdo del ratón y desplazándola, soltando donde se desee. Asimismo, las ventanas se pueden ocultar automáticamente cuando no se estén utilizando, pulsando sobre el icono "pin" que tienen en la esquina superior derecha
 

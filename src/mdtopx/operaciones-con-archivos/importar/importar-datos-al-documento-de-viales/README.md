@@ -3,7 +3,7 @@
 
 [Módulo Viales](/mdtopx/modulo-viales/)
 
-El programa permite importar datos almacenados en otros formatos al documento actual de viales. Para importar se deberá crear primero un documento vacío o abrir un documento de viales existente. A continuación se debería seleccionar la herramienta Importar del menú [Archivo](/lot-of-points-cc/interfaz-de-usuario/archivo/).
+El programa permite importar datos almacenados en otros formatos al documento actual de viales. Para importar datos, cree un documento de viales vacío o abra uno existente. En el documento de viales, seleccione la herramienta Importar del menú del [botón de MDTopX](/mdtopx/introduccion/boton-de-mdtopx.md).
 
 Los formatos contemplados son los siguientes:
 

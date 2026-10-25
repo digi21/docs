@@ -1,7 +1,7 @@
 # Teclas rápidas con operaciones asociadas
 <!-- id: teclas-rapidas -->
 
-MDTopX tiene por defecto una serie de operaciones asociadas a una combinación de teclas, que permitirá al usuario ser más ágil en la ejecución de herramientas. No obstante, esta asociación puede ser modificada desde el cuadro de diálogo [Opciones](/lot-of-points-cc/interfaz-de-usuario/archivo/opciones/).
+MDTopX asigna de forma predeterminada combinaciones de teclas a distintas operaciones. Puede modificar las combinaciones asignadas desde el cuadro de diálogo [Opciones](../otras-herramientas/opciones.md).
 
 Por defecto, las teclas con operaciones asociadas son las siguientes:
 
