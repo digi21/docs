@@ -57,7 +57,7 @@ La orden omite los marcos sin texto y los marcos cuyo texto está vacío. Si no 
 
 Por cada marco con texto, la orden crea en el directorio de salida el archivo `<texto>.<extensión>`: con el texto `H1` y la extensión `bin`, crea el archivo `H1.bin`. Si el archivo ya existe, la orden lo sobrescribe sin pedir confirmación. Si dos marcos tienen el mismo texto, el archivo del segundo sustituye al del primero.
 
-Mientras trabaja, la línea de órdenes muestra _Creando la hoja: \<archivo\>..._ para cada hoja.
+Mientras trabaja, la línea de comandos muestra _Creando la hoja: \<archivo\>..._ para cada hoja.
 
 ### Contenido de cada archivo
 
@@ -84,7 +84,7 @@ La orden no modifica el archivo de dibujo, así que no hay nada que deshacer. Lo
 
 ### Errores al crear una hoja
 
-Si no se puede crear el archivo de una hoja, por ejemplo porque el texto contiene caracteres que no son válidos en un nombre de archivo o porque el archivo está bloqueado por otro programa, la orden añade al panel de tareas un error _Error al crear la hoja_ con el nombre del archivo y la causa, y sigue con la hoja siguiente. Lo mismo ocurre si el formato no puede escribir o publicar el archivo de una hoja: el error aparece en el panel de tareas. Si alguna hoja falla, la orden termina con el sonido de error. Si todas se crean, la línea de órdenes muestra _Trabajo finalizado satisfactoriamente._
+Si no se puede crear el archivo de una hoja, por ejemplo porque el texto contiene caracteres que no son válidos en un nombre de archivo o porque el archivo está bloqueado por otro programa, la orden añade al panel de tareas un error _Error al crear la hoja_ con el nombre del archivo y la causa, y sigue con la hoja siguiente. Lo mismo ocurre si el formato no puede escribir o publicar el archivo de una hoja: el error aparece en el panel de tareas. Si alguna hoja falla, la orden termina con el sonido de error. Si todas se crean, la línea de comandos muestra _Trabajo finalizado satisfactoriamente._
 
 ## Cuadro de diálogo Recorta traza
 

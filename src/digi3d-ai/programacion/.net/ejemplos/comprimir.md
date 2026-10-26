@@ -1,7 +1,7 @@
 # comprimir
 <!-- id: ejemplo-net-comprimir -->
 
-`comprimir` es una **aplicación de consola** que elimina de un archivo `.bind` las entidades que tienen la marca de borrado. La orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md) elimina las mismas entidades del archivo de dibujo activo; el programa trabaja sobre un archivo indicado en la línea de órdenes y no abre Digi3D.AI.
+`comprimir` es una **aplicación de consola** que elimina de un archivo `.bind` las entidades que tienen la marca de borrado. La orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md) elimina las mismas entidades del archivo de dibujo activo; el programa trabaja sobre un archivo indicado en la línea de comandos y no abre Digi3D.AI.
 
 Código: [comprimir en GitHub](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/comprimir). El desarrollo del programa está explicado en el vídeo [Desarrollando una aplicación de consola para comprimir archivos .bind](https://youtu.be/6YrmK-p0FEw).
 

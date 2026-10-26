@@ -25,7 +25,7 @@ Digi3D.AI inicializa la clase al arrancar. En un programa que no se ejecuta dent
 | `static bool EnableSounds { get; set; }` | Activa o desactiva los sonidos de Digi3D.AI. Es la variable que consulta el método `Music`: con `false`, `Music` no reproduce nada. |
 | `static Color BackgroundColor { get; }` | Color de fondo de los cuadros de diálogo en el tema visual que ha elegido el usuario. Sirve para que los formularios de la extensión tengan los colores de Digi3D.AI. El canal alfa vale siempre 255. |
 | `static Color ForegroundColor { get; }` | Color del texto de los cuadros de diálogo en el tema visual que ha elegido el usuario. El canal alfa vale siempre 255. |
-| `static string CommandLine { get; }` | Parámetros de la línea de órdenes con los que se ha ejecutado Digi3D.AI, sin el nombre del ejecutable. |
+| `static string CommandLine { get; }` | Parámetros de la línea de comandos con los que se ha ejecutado Digi3D.AI, sin el nombre del ejecutable. |
 
 ## Métodos estáticos
 

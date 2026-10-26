@@ -55,7 +55,7 @@ Si escribes dos números enteros separados por un espacio o una coma, por ejempl
 
 Si no encuentra el punto, la orden muestra el mensaje _Error: No se pudo localizar el punto «nombre» en el archivo «archivo»_. En un rango, si falta uno de los dos extremos, muestra _Error: No se pudo localizar o el punto «inicio» o el punto «final» en el archivo «archivo»_ y no envía ningún punto.
 
-Mientras se muestra el cuadro, la línea de órdenes indica _Digitaliza punto_.
+Mientras se muestra el cuadro, la línea de comandos indica _Digitaliza punto_.
 
 Si pulsas _Cancelar_, o _Aceptar_ con el campo vacío, la orden termina.
 

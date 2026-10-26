@@ -33,7 +33,7 @@ Si pulsas _Cancelar_, la orden termina sin guardar los valores.
 
 ### Selección del eje
 
-Después del cuadro, la línea de órdenes indica _Selecciona línea de eje de traza..._. Selecciona la línea que sirve de eje con el pedal de datos o con el pedal tentativo. La orden ejecuta [TENTATIVO](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md) con la cadena `L*@`, que solo selecciona líneas del archivo de dibujo activo. Si la entidad seleccionada no es una línea, o tiene menos de 2 vértices, la orden emite el sonido de error y sigue esperando una línea.
+Después del cuadro, la línea de comandos indica _Selecciona línea de eje de traza..._. Selecciona la línea que sirve de eje con el pedal de datos o con el pedal tentativo. La orden ejecuta [TENTATIVO](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md) con la cadena `L*@`, que solo selecciona líneas del archivo de dibujo activo. Si la entidad seleccionada no es una línea, o tiene menos de 2 vértices, la orden emite el sonido de error y sigue esperando una línea.
 
 Al seleccionar el eje, la orden dibuja los marcos provisionales:
 
@@ -45,7 +45,7 @@ Si seleccionas otra línea, la orden borra los marcos provisionales y los calcul
 
 ### Ajuste y creación de las hojas
 
-Con el eje seleccionado, la línea de órdenes indica _[+] Desplaza las hojas hacia atrás [-] Desplaza las hojas hacia delante [Espacio] Crea las hojas_:
+Con el eje seleccionado, la línea de comandos indica _[+] Desplaza las hojas hacia atrás [-] Desplaza las hojas hacia delante [Espacio] Crea las hojas_:
 
 * La tecla **+** desplaza todos los marcos 50 unidades hacia atrás, en sentido contrario al de digitalización del eje. El primer marco empieza entonces antes del primer vértice.
 * La tecla **−** desplaza todos los marcos 50 unidades hacia delante. El primer marco empieza entonces después del primer vértice, y el principio del eje queda sin cubrir.

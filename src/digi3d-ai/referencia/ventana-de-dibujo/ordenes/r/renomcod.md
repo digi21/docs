@@ -48,7 +48,7 @@ La opción de configuración [Atributos de BBDD del código destino](/digi3d-ai/
 
 ### Ejecución con parámetros
 
-La orden muestra en la línea de órdenes _Renombrando el código: código buscado por código nuevo_ y el porcentaje de entidades examinadas. Después borra las entidades originales, añade las copias y emite un pitido.
+La orden muestra en la línea de comandos _Renombrando el código: código buscado por código nuevo_ y el porcentaje de entidades examinadas. Después borra las entidades originales, añade las copias y emite un pitido.
 
 ### Cuadro de diálogo
 

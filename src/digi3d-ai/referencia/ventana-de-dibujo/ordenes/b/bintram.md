@@ -152,7 +152,7 @@ Usa los códigos de `C:\ASTE.tab`; genera `C:\err.bind`, borrándolo si existe, 
 
 Usa los códigos que tienen la etiqueta `altimetria`; no genera archivo de errores; no alarga, agrupa ni inserta vértices; parte las líneas por los cruces; no busca extremos no conectados ni duplicadas, y une las líneas por código.
 
-Mientras escribes los parámetros en la línea de órdenes, la ayuda que aparece encima muestra en negrita el parámetro que toca escribir y, debajo, el significado de cada valor que admite. Los parámetros que dependen de un valor anterior, como los siete del archivo de errores, aparecen cuando escribes ese valor.
+Mientras escribes los parámetros en la línea de comandos, la ayuda que aparece encima muestra en negrita el parámetro que toca escribir y, debajo, el significado de cada valor que admite. Los parámetros que dependen de un valor anterior, como los siete del archivo de errores, aparecen cuando escribes ese valor.
 
 Cada paso se aplica completo o no se aplica: si Digi3D.AI descarta alguna de las entidades nuevas de un paso, ese paso no cambia el archivo de dibujo y se conservan las entidades originales. Los demás pasos se aplican con normalidad. Si el control de calidad descarta la entidad agrupada al agrupar duplicadas, se conservan las entidades duplicadas de ese grupo.
 

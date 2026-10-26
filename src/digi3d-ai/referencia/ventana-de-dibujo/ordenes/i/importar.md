@@ -33,7 +33,7 @@ Los parámetros de importación dependen del tipo de archivo que quieres importa
 
 ## Observaciones
 
-La opción **Defecto** está disponible para cualquiera de los tipos de archivo. Si activas esta opción, DigiNG guarda los parámetros del importador/exportador. Una vez guardados los parámetros, puedes ejecutar la orden _IMPORTAR_ indicando únicamente la ruta y el nombre del archivo en la línea de órdenes, por ejemplo:
+La opción **Defecto** está disponible para cualquiera de los tipos de archivo. Si activas esta opción, DigiNG guarda los parámetros del importador/exportador. Una vez guardados los parámetros, puedes ejecutar la orden _IMPORTAR_ indicando únicamente la ruta y el nombre del archivo en la línea de comandos, por ejemplo:
 
 `IMPORTAR=C:\Brochales\case1.bin`
 

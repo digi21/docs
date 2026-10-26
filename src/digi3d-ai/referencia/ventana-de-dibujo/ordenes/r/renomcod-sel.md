@@ -37,7 +37,7 @@ Si el código nuevo no está en la tabla de códigos, la orden lo asigna igualme
 
 ### Selección de las entidades
 
-Después del cuadro, o directamente si has indicado los parámetros, la línea de órdenes indica _Selecciona una entidad o entidades para cambiar sus códigos_. La orden no usa las entidades que estuvieran seleccionadas antes de ejecutarla.
+Después del cuadro, o directamente si has indicado los parámetros, la línea de comandos indica _Selecciona una entidad o entidades para cambiar sus códigos_. La orden no usa las entidades que estuvieran seleccionadas antes de ejecutarla.
 
 * **Selección simple:** selecciona una entidad con el pedal de datos o con el pedal tentativo. La orden ejecuta [TENTATIVO](/digi3d-ai/referencia/barras-de-herramientas/tentativo.md) con la cadena `LPTBGH*@`, que selecciona líneas, puntos, textos, imágenes, complejos y polígonos del archivo de dibujo activo. Si la entidad no pertenece al archivo de dibujo activo, la orden emite el sonido de error y sigue esperando.
 * **Selección múltiple:** usa una orden de selección múltiple, por ejemplo [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md). La orden ignora las entidades borradas y las que no pertenecen al archivo de dibujo activo.

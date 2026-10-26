@@ -35,7 +35,7 @@ create(path, digitab=None, crs="", *, width=400) -> DrawingWriter
 | `path` | `str` | — | Ruta del archivo `.wkt`. Si existe, se sustituye. |
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. Si no se indica, se usa una vacía. |
 | `crs` | `str` | `""` | Opcional. El archivo no guarda el sistema de coordenadas. |
-| `width` | `int` | `400` | Parámetro de la línea de órdenes del formato, mayor que 0. El exportador no lo usa. |
+| `width` | `int` | `400` | Parámetro de la línea de comandos del formato, mayor que 0. El exportador no lo usa. |
 
 Qué hace el exportador:
 

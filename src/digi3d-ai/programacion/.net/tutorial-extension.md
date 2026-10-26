@@ -91,7 +91,7 @@ La carpeta de destino contiene `HolaMundo.dll` y sus archivos de configuración,
 
 ### Para probarla
 
-En la línea de órdenes de Digi3D.AI, ejecuta la orden `CARGA_ENSAMBLADO` con la ruta de la DLL. Si la ruta tiene espacios, escríbela entre comillas. En la interfaz en inglés, la orden se llama `LOAD_ASSEMBLY`.
+En la línea de comandos de Digi3D.AI, ejecuta la orden `CARGA_ENSAMBLADO` con la ruta de la DLL. Si la ruta tiene espacios, escríbela entre comillas. En la interfaz en inglés, la orden se llama `LOAD_ASSEMBLY`.
 
 ```
 CARGA_ENSAMBLADO=C:\MisExtensiones\HolaMundo\HolaMundo.dll

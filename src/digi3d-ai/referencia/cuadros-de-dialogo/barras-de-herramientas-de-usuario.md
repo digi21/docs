@@ -44,7 +44,7 @@ Una barra que se guarda sin botones no se vuelve a crear la siguiente vez que se
 * **Texto del botón**: el texto que muestra el botón.
 * **Tooltip del botón**: el texto que aparece al situar el ratón sobre el botón.
 * **Imagen asociada al botón**: el archivo de imagen del botón. Digi3D.AI la escala a 16×16 píxeles. **Examinar...** abre un cuadro de selección de archivos con los filtros **Archivos de mapa de bits** (`.bmp`) y **Todos los archivos**. Aunque el filtro **Todos los archivos** permite elegir otros formatos, Digi3D.AI solo carga imágenes BMP.
-* **Orden a ejecutar cuando se pulse el botón**: la orden, con sus parámetros, tal como se escribiría en la línea de órdenes.
+* **Orden a ejecutar cuando se pulse el botón**: la orden, con sus parámetros, tal como se escribiría en la línea de comandos.
 * **Aceptar**: guarda los datos del botón. Está deshabilitado en estos casos:
   * **Tooltip del botón** está vacío.
   * **Texto del botón** e **Imagen asociada al botón** están vacíos a la vez.
