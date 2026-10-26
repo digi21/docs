@@ -3,7 +3,7 @@
 
 ![Cuadro de diálogo Configuración](../../../../images/configuracion.png)
 
-Este cuadro de diálogo permite configurar todos los aspectos Digi3D.AI.
+Este cuadro de diálogo permite configurar Digi3D.AI.
 
 ## Abrir el cuadro de diálogo
 
@@ -13,9 +13,9 @@ Para abrir este cuadro de diálogo selecciona la opción del menú **Herramienta
 
 Las configuraciones están agrupadas por categorías.
 
-Para cambiar una configuración sigue los siguientes pasos:
+Para cambiar una opción:
 
-* Localiza la categoría donde está la configuración que quieres realizar.
+* Localiza la categoría que contiene la opción que quieres cambiar.
 * Abre la categoría haciendo doble clic o pulsando la flecha de la izquierda.
 * Localiza dentro de la categoría el parámetro que quieres cambiar.
 * Cambia el valor.
@@ -74,7 +74,7 @@ Configura el aspecto de las barras de herramientas.
 Configura el comportamiento de Digi3D.AI con la base de datos.
 
 * **[Nombre a mostrar](base-de-datos/nombre-a-mostrar.md)** — Texto que se usa como nombre de los campos de la base de datos.
-* **[Forzar registro de la geometría original](base-de-datos/forzar-registro-de-la-geometria-original.md)** — Las geometrías derivadas apuntan al registro de la original.
+* **[Forzar registro de la geometría original](base-de-datos/forzar-registro-de-la-geometria-original.md)** — Si se activa esta opción, las geometrías derivadas se vinculan al registro de la geometría original.
 * **[Mostrar campos no visibles en el panel Propiedades de la entidad seleccionada](base-de-datos/mostrar-campos-no-visibles.md)** — Muestra los campos marcados como no visibles.
 
 ### Buscar centroide
@@ -165,7 +165,7 @@ Configura la creación de los archivos de nivel de detalle (LOD) de las nubes de
 
 * **[Porcentaje de RAM a consumir](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/porcentaje-de-ram-a-consumir.md)** — Porcentaje máximo de RAM que puede consumir el algoritmo.
 * **[Decimar](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/decimar.md)** — Carga solo un punto de cada X.
-* **[Puntos por tesela](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/puntos-por-tesela.md)** — Número de puntos que se quiere en cada tesela.
+* **[Puntos por tesela](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/puntos-por-tesela.md)** — Número de puntos que se desea tener en cada tesela.
 * **[Directorio de Nivel de Detalle](creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/directorio-de-nivel-de-detalle.md)** — Ruta donde se almacenan los archivos de nivel de detalle.
 
 ### CREAR\_POLIGONO
@@ -200,7 +200,7 @@ Configura el comportamiento de los dispositivos de entrada (pedales, manivelas y
 * **[Tras leer coordenada](dispositivos-de-entrada/tras-leer-coordenada.md)** — Si el hilo cede el control tras leer una coordenada o sigue analizando.
 * **[Tiempo de espera para pedales](dispositivos-de-entrada/tiempo-de-espera-para-pedales.md)** — Milisegundos que se ignoran los pedales tras un evento (evita ruido).
 * **[Tiempo de espera para modo contínuo](dispositivos-de-entrada/tiempo-de-espera-para-modo-continuo.md)** — Tiempo con el botón de Dato pulsado para bloquearlo.
-* **[Analizar doble clic](dispositivos-de-entrada/analizar-doble-clic.md)** — Detecta los dobles clic del botón/pedal de Dato.
+* **[Analizar doble clic](dispositivos-de-entrada/analizar-doble-clic.md)** — Detecta las pulsaciones dobles del botón/pedal de Dato.
 * **[Milisegundos doble clic](dispositivos-de-entrada/milisegundos-doble-clic.md)** — Tiempo por debajo del cual dos pulsaciones se consideran doble clic.
 * **[Capturar el dispositivo de entrada al moverlo](dispositivos-de-entrada/capturar-el-dispositivo-de-entrada-al-moverlo.md)** — Mover el dispositivo lo selecciona en la ventana de dibujo.
 
@@ -473,7 +473,7 @@ Configura cómo se almacenan y se representan los puntos medidos.
 
 Configura el entorno de Python que utiliza Digi3D.AI.
 
-* **[Directorio Home de Python](python/directorio-home-de-python.md)** — Directorio donde localizar las librerías de Python.
+* **[Directorio Home de Python](python/directorio-home-de-python.md)** — Directorio donde se localizan las bibliotecas de Python.
 
 ### Renomcod
 

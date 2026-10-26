@@ -1,7 +1,7 @@
 # Tabla
 <!-- id: tabla -->
 
-Nombre de la tabla en la que localizar las orientaciones.
+Indica el nombre de la tabla de la base de datos que contiene las orientaciones.
 
 <details>
 <summary>Dónde se almacena</summary>

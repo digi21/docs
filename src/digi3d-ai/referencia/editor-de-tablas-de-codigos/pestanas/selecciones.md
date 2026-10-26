@@ -3,7 +3,7 @@
 
 ![Editor de tablas de códigos mostrando la pestaña Expresiones](../../../../images/pestana-expresiones.png)
 
-Esta pestaña, **Expresiones**, define selecciones con nombre. Cada selección es una expresión Python que se evalúa con cada geometría de los archivos de dibujo. Selecciona las geometrías para las que la expresión es verdadera.
+Esta pestaña, **Expresiones**, define selecciones con nombre. Cada selección es una expresión Python que se evalúa con cada geometría de los archivos de dibujo. El programa selecciona las geometrías para las que la expresión es verdadera.
 
 Cada selección tiene un **nombre** y una **expresión**. La lista de la pestaña muestra una fila por selección, con las columnas **Nombre** y **Expresión Python**. El nombre no puede repetirse: al añadir una selección con un nombre que ya existe, el editor avisa y no la añade.
 

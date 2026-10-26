@@ -1,7 +1,7 @@
 # Directorio de Nivel de Detalle
 <!-- id: directorio-de-nivel-de-detalle -->
 
-Indica la ruta donde se almacenarán los archivos de nivel de detalle.
+Indica la ruta del directorio donde se almacenarán los archivos de nivel de detalle.
 
 <details>
 <summary>Dónde se almacena</summary>

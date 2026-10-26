@@ -1,7 +1,7 @@
 # Directorio Home de Python
 <!-- id: directorio-home-de-python -->
 
-Especifica el directorio donde Digi3D.AI localizará las librerías de Python.
+Especifica el directorio donde Digi3D.AI localizará las bibliotecas de Python.
 
 <details>
 <summary>Dónde se almacena</summary>

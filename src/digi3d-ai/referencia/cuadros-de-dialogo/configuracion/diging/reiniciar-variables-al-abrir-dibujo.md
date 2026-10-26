@@ -3,7 +3,7 @@
 
 Indica si abrir o crear un archivo de dibujo devuelve las variables de la ventana de dibujo a su valor inicial.
 
-Las variables son comunes a todos los archivos de dibujo abiertos, así que el cambio afecta también a los que ya estaban abiertos.
+Las variables son comunes a todos los archivos de dibujo abiertos, así que el cambio de valor de las variables afecta también a los archivos que ya estaban abiertos.
 
 ## Valores posibles
 

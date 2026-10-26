@@ -5,8 +5,8 @@ Si se activa, las herramientas de filtrado de vértices consecutivos duplicados 
 
 ## Valores posibles
 
-* **Sí**. Se permiten vértices consecutivos con la misma XY y distinta Z.
-* **No**. Se filtran los vértices consecutivos con la misma XY.
+* **Sí**. Se permiten vértices consecutivos con las mismas coordenadas X e Y y distinta coordenada Z.
+* **No**. Se filtran los vértices consecutivos con las mismas coordenadas X e Y.
 
 <details>
 <summary>Dónde se almacena</summary>

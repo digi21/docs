@@ -1,7 +1,7 @@
 # Decimar
 <!-- id: decimar -->
 
-Permite cargar solo una parte de los puntos de la nube. **0** = no decimar; **X** = importar un punto de cada X (por ejemplo, 100 carga un punto de cada 100).
+Permite cargar solo una parte de los puntos de la nube. Si introduces **0**, se cargan todos los puntos; si introduces **X**, se importa un punto de cada X puntos (por ejemplo, si introduces 100, se carga un punto de cada 100 puntos).
 
 <details>
 <summary>Dónde se almacena</summary>

@@ -1,7 +1,7 @@
 # Confirmar las operaciones peligrosas
 <!-- id: confirmar-operaciones-peligrosas -->
 
-Indica si Digi3D.AI muestra el cuadro **Confirmación de seguridad** antes de que el asistente del panel de chat, o un cliente del [servidor MCP](../../../asistente-ia/servidor-mcp.md), borre geometrías, escriba o borre archivos, ejecute comandos del sistema o acceda a la red.
+Indica si Digi3D.AI muestra el cuadro **Confirmación de seguridad** antes de que el asistente del panel de chat, o un cliente del [servidor MCP](../../../asistente-ia/servidor-mcp.md) (Model Context Protocol), borre geometrías, escriba o borre archivos, ejecute órdenes del sistema o acceda a la red.
 
 ## Valores posibles
 

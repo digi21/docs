@@ -1,7 +1,7 @@
 # Kappa
 <!-- id: kappa -->
 
-Nombre del campo con el ángulo Kappa.
+Indica el nombre del campo de la base de datos que contiene el ángulo Kappa.
 
 <details>
 <summary>Dónde se almacena</summary>

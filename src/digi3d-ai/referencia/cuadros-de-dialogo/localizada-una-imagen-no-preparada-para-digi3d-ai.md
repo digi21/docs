@@ -21,7 +21,7 @@ El cuadro no tiene botón de cierre. La tecla Esc equivale a **Cancelar la carga
 
 ## Casilla Aplicar esta opción a las demás imágenes no preparadas hasta cerrar Digi3D.AI
 
-Si marcas la casilla, Digi3D.AI guarda el botón que pulses (o la tecla Esc, que equivale a cancelar) y lo aplica sin mostrar el cuadro a todas las imágenes no preparadas que cargue hasta que cierres Digi3D.AI.
+Si marcas la casilla «Aplicar esta opción a las demás imágenes no preparadas hasta cerrar Digi3D.AI», Digi3D.AI guarda la acción del botón que pulses (o la cancelación con la tecla Esc) y la aplica sin mostrar el cuadro a todas las imágenes no preparadas que cargue hasta que cierres Digi3D.AI.
 
 ## Observaciones
 

@@ -1,7 +1,7 @@
 # Índice pequeño
 <!-- id: indice-pequeno -->
 
-Ruta del archivo PNG con la imagen que se muestra cuando se selecciona el índice pequeño.
+Indica la ruta del archivo de imagen en formato PNG (Portable Network Graphics) con la imagen que se muestra cuando se selecciona el índice pequeño.
 
 <details>
 <summary>Dónde se almacena</summary>

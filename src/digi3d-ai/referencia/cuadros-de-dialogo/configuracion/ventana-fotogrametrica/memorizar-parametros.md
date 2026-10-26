@@ -5,7 +5,7 @@ Si se activa, se memorizan parámetros como las coordenadas, el nivel de zoom, e
 
 ## Valores posibles
 
-* **Sí**. Se memorizan los parámetros del modelo para la próxima vez.
+* **Sí**. Se memorizan los parámetros del modelo para recuperarlos la próxima vez que cargues el modelo.
 * **No**. No se memorizan los parámetros del modelo.
 
 <details>

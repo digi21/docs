@@ -11,7 +11,7 @@ Configura estas opciones desde el cuadro de diálogo de **[Configuración](../RE
 
 * **[Activado](activar-servidor-mcp.md)** — Activa el servidor MCP.
 * **[Puerto](puerto-del-servidor-mcp.md)** — Puerto TCP en el que escucha el servidor.
-* **[Token](token-del-servidor-mcp.md)** — Clave que envían los clientes para conectar. Su botón **Regenerar** crea un token nuevo.
+* **[Token](token-del-servidor-mcp.md)** — Clave que envían los clientes para conectar con el servidor MCP. El botón **Regenerar** crea un token nuevo.
 * **[Claude Code](conectar-claude-code.md)** — El botón **Copiar** copia al portapapeles la orden que conecta Claude Code.
 * **[Claude Desktop](conectar-claude-desktop.md)** — El botón **Copiar** copia al portapapeles la configuración que conecta Claude Desktop.
 
@@ -19,6 +19,6 @@ Configura estas opciones desde el cuadro de diálogo de **[Configuración](../RE
 
 Los cambios se guardan al pulsar **Aceptar** en el cuadro Configuración. Si has cambiado **Activado**, **Puerto** o **Token**, Digi3D.AI guarda los tres valores y reinicia el servidor. Si no has cambiado ninguno de los tres, el servidor sigue funcionando sin reiniciarse.
 
-Los botones **Regenerar** y **Copiar** aplican ya los tres valores que muestra el cuadro, del mismo modo: lo copiado conecta aunque después pulses **Cancelar**.
+Los botones **Regenerar** y **Copiar** también guardan los valores de **Activado**, **Puerto** y **Token** que muestra el cuadro de diálogo y reinician el servidor si ha cambiado alguno de esos tres valores. La orden y la configuración copiadas permiten conectar con el servidor aunque pulses **Cancelar** después de copiar la orden o la configuración con Copiar.
 
 La opción [Confirmar las operaciones peligrosas](../asistente-de-ia/confirmar-operaciones-peligrosas.md) de la categoría Asistente de IA también afecta a los clientes MCP.

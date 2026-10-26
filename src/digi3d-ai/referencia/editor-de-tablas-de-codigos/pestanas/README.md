@@ -11,7 +11,7 @@ El editor de tablas de códigos organiza la tabla en estas pestañas, en este or
 * [Representaciones dinámicas](representaciones-dinamicas.md): listas de reglas de representación dinámica.
 * [Entorno Python](entorno-python.md): código Python de la tabla.
 * [Expresiones](selecciones.md): selecciones con nombre definidas por una expresión Python.
-* [Reconocimiento de voz](reconocimiento-de-voz.md): comandos de voz.
+* [Reconocimiento de voz](reconocimiento-de-voz.md): frases para el reconocimiento de voz.
 * [Cuadro de herramientas](cuadro-de-herramientas.md): contenido del panel Cuadro de herramientas.
 * [Topologías](topologias/README.md): topologías y sus centroides.
 * [Códigos](codigos/README.md): códigos y sus representaciones.

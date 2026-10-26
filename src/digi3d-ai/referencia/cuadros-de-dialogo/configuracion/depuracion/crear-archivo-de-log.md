@@ -1,15 +1,15 @@
 # Crear archivo de LOG
 <!-- id: crear-archivo-de-log -->
 
-Permite configurar si Digi3D.AI generará un archivo de LOG en el que se irán almacenando las operaciones que realiza el programa.
+Permite configurar si Digi3D.AI generará un archivo de registro de operaciones (LOG) en el que se almacenará información sobre las operaciones que realiza el programa.
 
-Este archivo resulta útil para diagnosticar problemas: si se produce un error, el contenido del LOG ayuda a localizar su causa.
+Si se produce un error, la información de las operaciones almacenada en el archivo de LOG ayuda a localizar la causa del error.
 
 La ubicación del archivo se indica en la opción [Ruta al archivo de LOG](ruta-al-archivo-de-log.md).
 
 ## Valores posibles
 
-* **Sí**. Digi3D.AI crea el archivo de LOG y almacena en él la información de las operaciones que va realizando.
+* **Sí**. Digi3D.AI crea el archivo de LOG y almacena en ese archivo información sobre las operaciones que realiza.
 * **No**. Digi3D.AI no genera ningún archivo de LOG.
 
 <details>

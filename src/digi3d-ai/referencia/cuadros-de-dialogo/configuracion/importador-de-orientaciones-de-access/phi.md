@@ -1,7 +1,7 @@
 # Phi
 <!-- id: phi -->
 
-Nombre del campo con el ángulo Phi.
+Indica el nombre del campo de la base de datos que contiene el ángulo Phi.
 
 <details>
 <summary>Dónde se almacena</summary>

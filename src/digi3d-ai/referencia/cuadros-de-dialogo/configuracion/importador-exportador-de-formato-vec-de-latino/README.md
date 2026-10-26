@@ -1,7 +1,7 @@
 # Importador/Exportador de formato VEC de Latino
 <!-- id: importador-exportador-de-formato-vec-de-latino -->
 
-Configuración del importador/exportador del formato VEC de Latino.
+Estas opciones configuran el importador/exportador del formato VEC de Latino.
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 

@@ -5,15 +5,15 @@
 
 | Opción | Acción |
 | :--- | :--- |
-| **Nuevo** | Crea una tabla de códigos vacía. Si la tabla abierta tiene cambios sin guardar, antes muestra el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios). |
-| **Abrir...** | Abre un archivo `.tab.xml`. Si la tabla abierta tiene cambios sin guardar, antes muestra el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios). Al abrir, ejecuta las [comprobaciones](../herramientas/comprobaciones.md) de la tabla. |
+| **Nuevo** | Crea una tabla de códigos vacía. Si la tabla abierta tiene cambios sin guardar, el editor muestra el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios) antes de crear la tabla nueva. |
+| **Abrir...** | Abre un archivo `.tab.xml`. Si la tabla abierta tiene cambios sin guardar, el editor muestra el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios) antes de abrir el archivo. Al abrir la tabla, el editor ejecuta las [comprobaciones](../herramientas/comprobaciones.md) de la tabla. |
 | **Guardar** | Guarda la tabla en su archivo. Si la tabla es nueva, funciona como **Guardar como...** |
 | **Guardar como...** | Guarda la tabla en otro archivo `.tab.xml`, que pasa a ser el archivo de la tabla. |
 | **Crear paquete de tabla de códigos...** | Guarda una copia de la tabla en un paquete `.dt`. La tabla abierta sigue asociada a su archivo. |
 | **Crear paquete de tabla de códigos cifrado...** | Abre el cuadro [Crear paquete de tablas de códigos cifrado](crear-paquete-cifrado.md). |
-| **1**, **2**... (tablas de códigos recientes) | Abre la tabla de códigos de esa entrada, igual que **Abrir...**: si la tabla abierta tiene cambios sin guardar, antes muestra el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios), y al abrir ejecuta las comprobaciones. Si el archivo ya no existe, muestra un aviso y quita la entrada de la lista. Si la unidad no está conectada (por ejemplo, un USB desenchufado o una unidad de red no disponible), la entrada se queda y aparece el aviso de que no se ha podido cargar la tabla. Mientras la lista está vacía, en su lugar aparece la opción **Tablas de códigos recientes**, desactivada. |
+| **1**, **2**... (tablas de códigos recientes) | Abre la tabla de códigos de esa entrada, igual que **Abrir...**: si la tabla abierta tiene cambios sin guardar, el editor muestra el cuadro [No has guardado los cambios](../../README.md#no-has-guardado-los-cambios) antes de abrir la tabla reciente, y al abrir la tabla ejecuta las comprobaciones. Si el archivo ya no existe, muestra un aviso y quita la entrada de la lista. Si la unidad no está conectada (por ejemplo, una memoria USB desenchufada o una unidad de red no disponible), la entrada se queda y aparece el aviso de que no se ha podido cargar la tabla. Mientras la lista está vacía, en su lugar aparece la opción **Tablas de códigos recientes**, desactivada. |
 
-Antes de escribir el archivo o el paquete, **Guardar**, **Guardar como...** y las dos opciones de crear paquete aplican los cambios de las pestañas que no se han aplicado con **Aplicar**, como **Aceptar**: Base de datos, Estilos y Códigos preguntan si aplicarlos, y el resto los aplica.
+Antes de escribir el archivo o el paquete, **Guardar**, **Guardar como...** y las dos opciones de crear paquete aplican los cambios pendientes de las pestañas sin necesidad de pulsar **Aplicar**, igual que **Aceptar**. En las pestañas Base de datos, Estilos y Códigos, el editor pregunta si quieres aplicar los cambios; en las demás pestañas, los aplica sin preguntar.
 
 ## Tablas de códigos recientes
 

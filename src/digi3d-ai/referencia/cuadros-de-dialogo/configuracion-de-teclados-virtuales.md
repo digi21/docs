@@ -15,7 +15,7 @@ Selecciona la opción del menú **Herramientas/Configurar teclados virtuales...*
 * **Añadir...**: selecciona un archivo `.keyboard.xml` y lo añade al final de la lista, con la casilla marcada. Si el archivo ya está en la lista, no se añade.
 * **Quitar**: quita de la lista el archivo seleccionado.
 * **^** y **v**: suben o bajan una posición el archivo seleccionado.
-* **Aceptar**: guarda la lista. La lista se guarda para el usuario de _Windows_ actual; cada usuario del equipo tiene la suya.
+* **Aceptar**: guarda la lista. La lista se guarda para el usuario de _Windows_ actual; cada usuario del equipo tiene su propia lista.
 * **Cancelar**: cierra el cuadro de diálogo sin guardar los cambios.
 
 ## Observaciones

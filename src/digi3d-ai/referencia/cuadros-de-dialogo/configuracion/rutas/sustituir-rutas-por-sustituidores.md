@@ -1,12 +1,12 @@
 # Sustituir rutas por sustituidores
 <!-- id: sustituir-rutas-por-sustituidores -->
 
-Si está activo, el programa sustituirá las rutas seleccionadas por sustituidores cuando sea posible. De esta manera se evitan los directorios absolutos en los archivos de configuración.
+Si activas esta opción, el programa sustituye las rutas seleccionadas por variables que representan directorios (sustituidores) cuando es posible. La sustitución evita guardar las rutas absolutas correspondientes en los archivos de configuración.
 
 ## Valores posibles
 
 * **Sí**. Las rutas se sustituyen por sustituidores cuando es posible.
-* **No**. Las rutas se almacenan tal cual, con su directorio absoluto.
+* **No**. Las rutas se almacenan tal cual, como rutas absolutas.
 
 <details>
 <summary>Dónde se almacena</summary>

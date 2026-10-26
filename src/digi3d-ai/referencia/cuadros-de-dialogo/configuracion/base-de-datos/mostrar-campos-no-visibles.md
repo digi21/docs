@@ -1,7 +1,7 @@
 # Mostrar campos no visibles en el panel Propiedades de la entidad seleccionada
 <!-- id: mostrar-campos-no-visibles -->
 
-Si se habilita, se mostrarán también los campos de la base de datos marcados como no visibles en el panel **Propiedades de la entidad seleccionada**.
+Si habilitas esta opción, el panel **Propiedades de la entidad seleccionada** mostrará también los campos de la base de datos marcados como no visibles.
 
 ## Valores posibles
 

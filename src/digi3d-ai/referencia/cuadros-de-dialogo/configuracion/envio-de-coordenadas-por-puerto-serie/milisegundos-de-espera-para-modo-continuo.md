@@ -1,7 +1,7 @@
 # Milisegundos de espera para modo continuo
 <!-- id: milisegundos-de-espera-para-modo-continuo -->
 
-Si el valor es distinto de **0**, indica los milisegundos que se esperarán para enviar una coordenada, desde que el usuario pulsa el pedal/botón de Dato y lo mantiene pulsado hasta que se empiezan a enviar coordenadas.
+Si el valor es distinto de **0**, indica el tiempo de espera, en milisegundos, desde que pulsas el botón o pedal de Dato hasta que se empiezan a enviar coordenadas, mientras mantienes pulsado el botón o pedal.
 
 <details>
 <summary>Dónde se almacena</summary>

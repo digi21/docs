@@ -9,7 +9,7 @@ El error se produce en uno de estos pasos:
 
 * Al leer el registro que ya tiene enlazado el código.
 * Al crear un registro nuevo en la tabla.
-* Al guardar el registro, después de asignar los valores de todos los campos. Por ejemplo, la base de datos tiene una columna que no admite valores nulos y que no recibe ningún valor, o un valor repetido en una columna de valores únicos.
+* Al guardar el registro, después de asignar los valores de todos los campos. Por ejemplo, el registro no proporciona ningún valor para una columna que no admite valores nulos, o proporciona un valor repetido para una columna de valores únicos.
 * Al leer el identificador del registro recién creado.
 
 Si lo que falla es la asignación del valor de un campo concreto, Digi3D.AI muestra en su lugar el cuadro de diálogo [Error en los atributos de usuario](error-en-los-atributos-de-usuario.md).

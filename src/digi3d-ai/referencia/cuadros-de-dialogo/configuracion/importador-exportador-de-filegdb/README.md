@@ -1,7 +1,7 @@
 # Importador Exportador de FileGdb
 <!-- id: importador-exportador-de-filegdb -->
 
-Configuración del importador/exportador de FileGDB.
+Estas opciones configuran el importador/exportador de FileGDB.
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 

@@ -3,7 +3,7 @@
 
 Muestra cuántas transformaciones entre sistemas de referencia aplica Digi3D.AI sin preguntar, porque se marcó **Utilizar siempre esta transformación** al elegirlas.
 
-Pulsa el botón de la opción para abrir el cuadro de diálogo **[Transformaciones memorizadas](../../transformaciones-memorizadas.md)**, en el que se pueden ver, eliminar o cambiar.
+Pulsa el botón de la opción para abrir el cuadro de diálogo **[Transformaciones memorizadas](../../transformaciones-memorizadas.md)**, en el que puedes ver, eliminar o cambiar las transformaciones memorizadas.
 
 <details>
 <summary>Dónde se almacena</summary>

@@ -1,7 +1,7 @@
 # X
 <!-- id: x-2 -->
 
-Nombre del campo con la coordenada X del centro de proyección.
+Indica el nombre del campo de la base de datos que contiene la coordenada X del centro de proyección.
 
 <details>
 <summary>Dónde se almacena</summary>

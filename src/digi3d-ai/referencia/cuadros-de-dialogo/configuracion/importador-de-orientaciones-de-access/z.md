@@ -1,7 +1,7 @@
 # Z
 <!-- id: z-5 -->
 
-Nombre del campo con la coordenada Z del centro de proyección.
+Indica el nombre del campo de la base de datos que contiene la coordenada Z del centro de proyección.
 
 <details>
 <summary>Dónde se almacena</summary>

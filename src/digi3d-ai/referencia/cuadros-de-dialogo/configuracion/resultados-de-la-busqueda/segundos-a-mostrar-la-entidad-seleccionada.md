@@ -1,7 +1,7 @@
 # Segundos a mostrar la entidad seleccionada
 <!-- id: segundos-a-mostrar-la-entidad-seleccionada -->
 
-Indica el número de segundos que Digi3D.AI resaltará la entidad seleccionada al hacer doble clic sobre una entidad en el panel Resultados de la búsqueda.
+Indica durante cuántos segundos Digi3D.AI resaltará la entidad seleccionada cuando haces doble clic sobre esa entidad en el panel Resultados de la búsqueda.
 
 <details>
 <summary>Dónde se almacena</summary>

@@ -1,9 +1,9 @@
 # Interfaz para seleccionar código
 <!-- id: interfaz-para-seleccionar-codigo -->
 
-El programa proporciona tres ventanas distintas para seleccionar el código activo; son excluyentes (solo se puede utilizar una).
+El programa proporciona tres ventanas distintas para seleccionar el código activo. Solo puedes utilizar una de estas ventanas a la vez.
 
-> Al cambiar esta opción tendrás que reiniciar el programa tras aceptar el cuadro de diálogo de configuración.
+> Reinicia el programa tras aceptar el cuadro de diálogo de configuración si cambias la opción Interfaz para seleccionar código.
 
 ## Valores posibles
 

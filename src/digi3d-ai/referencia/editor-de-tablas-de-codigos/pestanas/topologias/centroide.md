@@ -9,7 +9,7 @@ Un centroide es un texto dentro de un [polígono topológico](poligonos-topologi
 
 ## Huecos
 
-Se puede [configurar](anadir-topologia.md#centroide-para-huecos)como un parámetro de la topología un texto que representará a centroides que representarán huecos dentro de la topología.
+Puedes [configurar](anadir-topologia.md#centroide-para-huecos) un texto en la topología para identificar los centroides que representan huecos.
 
 Habitualmente se configura como texto de los centroides que representan huecos un asterisco (\*). Si al analizar una topología se localiza un polígono topológico con un centroide cuyo texto es el texto de centroides de huecos, ese polígono topológico no se formará.
 
@@ -17,7 +17,7 @@ Habitualmente se configura como texto de los centroides que representan huecos u
 
 Los centroides pueden tener asociado un diccionario de valores en la [topología](./).
 
-El diccionario de valores está compuesto por una sucesión de pares `clave=valor` como, por ejemplo, podríamos asignar al centroide "Fr" el siguiente diccionario de valores:
+El diccionario de valores contiene una sucesión de pares `clave=valor`. Por ejemplo, puedes asignar al centroide "Fr" el siguiente diccionario:
 
 ```
 tipo=1
@@ -35,10 +35,10 @@ Este diccionario se puede utilizar para almacenar información en la base de dat
 
 ### Ejemplo:
 
-Si se está exportando la topología a un formato de archivo que tenga una base de datos asociada, se puede configurar en un determinado campo de la tabla de base de datos asociada con el código del polígono que se va a generar como valor por defecto el valor:
+Si exportas la topología a un formato de archivo con una base de datos asociada, puedes asignar el siguiente valor por defecto a un campo de la tabla asociada al código del polígono que se va a generar:
 
 ```
 %CENTROID_VALUE=descripción%
 ```
 
-De esta manera, si el polígono que se está exportando tiene como centroide el centroide "Fr", en este el campo de base de datos se almacenará el texto "Frutal", y si el centroide es "Er" se almacenará "Erial".
+Si el centroide del polígono que exportas es "Fr", el campo de base de datos almacenará el texto "Frutal"; si el centroide del polígono es "Er", el campo almacenará "Erial".

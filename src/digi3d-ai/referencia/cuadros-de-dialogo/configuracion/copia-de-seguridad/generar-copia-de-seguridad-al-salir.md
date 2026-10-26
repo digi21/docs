@@ -5,8 +5,8 @@ Indica si Digi3D.AI generará automáticamente una copia de seguridad del archiv
 
 ## Valores posibles
 
-* **Sí**. Se genera una copia de seguridad al salir.
-* **No**. No se genera ninguna copia de seguridad al salir.
+* **Sí**. Se genera una copia de seguridad al cerrar la ventana de dibujo.
+* **No**. No se genera ninguna copia de seguridad al cerrar la ventana de dibujo.
 
 <details>
 <summary>Dónde se almacena</summary>

@@ -30,7 +30,7 @@ Indica si la presencia de una línea con alguno de estos códigos asegura que se
 
 ## Expresión Python para excluir la geometría
 
-Expresión Python que se evalúa para cada línea con estos códigos al formar los polígonos. Si el resultado es verdadero, la línea no se usa para formar polígonos topológicos. Vacía, no se excluye ninguna línea.
+Expresión Python que se evalúa para cada línea con los códigos de la lista del cuadro de diálogo al formar los polígonos. Si el resultado de la expresión es verdadero, la línea no se usa para formar polígonos topológicos. Una expresión vacía no excluye ninguna línea.
 
 ## Coordenada Z que proporciona un tramo con este código al nodo para el caso general
 
@@ -54,7 +54,7 @@ Cada opción combina una acción con una condición:
 
 ## Etiqueta asignada al MDT
 
-Solo se habilita si el nodo o los vértices se proyectan sobre un MDT. Vacía, se proyecta sobre cualquier MDT cargado; con una etiqueta, solo sobre los MDT que la tienen.
+El campo Etiqueta asignada al MDT solo se habilita si el nodo o los vértices se proyectan sobre un modelo digital del terreno (MDT). Si el campo Etiqueta asignada al MDT está vacío, la proyección se realiza sobre cualquier MDT cargado; si el campo contiene una etiqueta, la proyección se limita a los MDT que tienen esa etiqueta.
 
 ## Configuración de la coordenada Z para casos particulares de este código con otros códigos
 

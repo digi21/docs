@@ -1,11 +1,11 @@
 # Permitir editar la base de datos
 <!-- id: permitir-editar-la-base-de-datos -->
 
-Indica si se le permitirá al usuario editar la base de datos con el editor de la base de datos.
+Indica si puedes editar la base de datos desde el editor de la base de datos.
 
 ## Valores posibles
 
-* **Sí**. El usuario puede editar la base de datos desde el editor.
+* **Sí**. Puedes editar la base de datos desde el editor.
 * **No**. El editor de la base de datos es de solo lectura.
 
 <details>

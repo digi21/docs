@@ -1,7 +1,7 @@
 # Importador/Exportador de archivos Datawarehouse de Geomedia
 <!-- id: importador-exportador-de-archivos-datawarehouse-de-geomedia -->
 
-Configuración del importador/exportador de archivos Datawarehouse de Geomedia.
+Configura el importador/exportador de archivos Datawarehouse de Geomedia.
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 

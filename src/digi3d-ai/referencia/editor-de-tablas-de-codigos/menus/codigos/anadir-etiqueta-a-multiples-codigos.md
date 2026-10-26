@@ -8,7 +8,7 @@ Este cuadro de diálogo aparece con la opción **Códigos/Añadir etiqueta a mú
 ## Controles
 
 * **Etiqueta a añadir**: escribe una etiqueta nueva o elige una de las que ya usa la tabla de códigos.
-* **Lista de códigos**: códigos de la tabla, con las columnas **Código**, **Color**, **Tipo** y **Descripción**. Selecciona los códigos a los que quieres añadir la etiqueta; admite selección múltiple. Si un código ya la tiene, no se duplica.
+* **Lista de códigos**: códigos de la tabla, con las columnas **Código**, **Color**, **Tipo** y **Descripción**. Selecciona los códigos a los que quieres añadir la etiqueta; la lista admite selección múltiple. Si un código ya tiene la etiqueta, esta no se duplica.
 * **Aplicar**: añade la etiqueta a los códigos seleccionados y vacía el campo **Etiqueta a añadir**. El cuadro sigue abierto para añadir otra etiqueta.
 * **Cerrar**: cierra el cuadro.
 

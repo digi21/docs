@@ -1,7 +1,7 @@
 # Tiempo real
 <!-- id: tiempo-real -->
 
-Si está activo, al remedir un punto podrán observarse los resultados del cálculo antes de digitalizar el punto.
+Si activas esta opción, al remedir un punto puedes ver los resultados del cálculo antes de digitalizar el punto.
 
 ## Valores posibles
 

@@ -20,6 +20,6 @@ Para cambiar el contenido de una representación, edita el archivo `.representat
 
 ## Dónde se usan
 
-Con la tabla de códigos activa en la ventana de dibujo, los nombres de sus representaciones dinámicas aparecen en el menú **Ver/Representaciones dinámicas**. Elegir uno aplica esa lista de reglas a la representación de las geometrías. La orden [REPRESENTACION\_DINAMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/representacion-dinamica.md) hace lo mismo con el nombre como parámetro.
+Con la tabla de códigos activa en la ventana de dibujo, los nombres de las representaciones dinámicas de la tabla aparecen en el menú **Ver/Representaciones dinámicas**. Al elegir un nombre de representación dinámica en el menú Ver/Representaciones dinámicas, la ventana de dibujo aplica la lista de reglas seleccionada a la representación de las geometrías. La orden [REPRESENTACION\_DINAMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/representacion-dinamica.md) aplica la lista de reglas cuyo nombre recibe como parámetro.
 
 Los cambios de esta pestaña se aplican a la tabla de códigos al pulsar **Aplicar** o **Aceptar**.

@@ -5,8 +5,8 @@ Indica si Digi3D.AI arranca el [servidor MCP](../../../asistente-ia/servidor-mcp
 
 ## Valores posibles
 
-* **Sí**. Digi3D.AI arranca el servidor al aceptar el cuadro y cada vez que se inicia.
-* **No**. Digi3D.AI no arranca el servidor. Si estaba arrancado, lo para al aceptar el cuadro.
+* **Sí**. Digi3D.AI inicia el servidor MCP al aceptar el cuadro de diálogo y en cada inicio del programa mientras esta opción permanezca activada.
+* **No**. Digi3D.AI no inicia el servidor MCP. Si el servidor MCP estaba en ejecución, Digi3D.AI detiene el servidor al aceptar el cuadro de diálogo.
 
 Si cambias esta opción, **Puerto** o **Token**, Digi3D.AI reinicia el servidor al pulsar **Aceptar**.
 

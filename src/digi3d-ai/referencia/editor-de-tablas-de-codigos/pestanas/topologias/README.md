@@ -7,17 +7,17 @@ Permite configurar las topologías que se pueden generar mediante el menú [Topo
 
 ## Descripción
 
-Una topología es una selección de códigos de líneas agrupadas bajo un determinado nombre.
+Una topología es una selección de códigos de líneas agrupados bajo un nombre.
 
 Al analizar una determinada topología, el programa analizará geométricamente todas las líneas del archivo de dibujo que tengan algún código de los especificados en la topología.
 
 Se analizará la continuidad de estas líneas para localizar todos los [polígonos topológicos](poligonos-topologicos.md) que se puedan formar.
 
-Los _polígonos topológicos_ deben tener un [Centroide](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/centroide.md) en su interior. Si se localiza más de un centroide se considerará un error, y si no se localiza ninguno el programa puede que lo considere un error en función de cómo se haya configurado este escenario en la topología.
+El programa analiza la presencia de un [Centroide](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/centroide.md) en el interior de cada uno de los _polígonos topológicos_. Si el programa localiza más de un centroide en un polígono, considera un error la presencia de varios centroides en ese polígono. Si el programa no localiza ningún centroide en un polígono, la configuración de la topología determina si la ausencia de centroide se considera un error.
 
 ## Ventanas
 
-Este panel dispone de las siguientes ventanas:
+Esta pestaña dispone de las siguientes ventanas:
 
 ### Lista de topologías configuradas
 
@@ -25,9 +25,9 @@ Muestra un listado con todas las topologías configuradas en la tabla de código
 
 Dispone de los siguientes botones:
 
-* **Añadir** Permite añadir una nueva topología mediante el cuadro de diálogo [Añadir Topología](anadir-topologia.md). 
-* **Eliminar** Elimina la topología seleccionada.
-* **Modificar** Permite modificar la topología seleccionada mediante el cuadro de diálogo _Añadir topología_.
+* **Añadir**: permite añadir una nueva topología mediante el cuadro de diálogo [Añadir Topología](anadir-topologia.md). 
+* **Eliminar**: elimina la topología seleccionada.
+* **Modificar**: permite modificar la topología seleccionada mediante el cuadro de diálogo _Añadir topología_.
 
 ### Lista de códigos
 
@@ -35,9 +35,9 @@ Muestra un listado con todos los códigos con los que se forma la topología sel
 
 Dispone de los siguientes botones:
 
-* **Añadir** Permite añadir un código a la topología seleccionada mediante el cuadro de diálogo [Seleccionar códigos para topología](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/seleccionar-codigos-para-topologia.md). 
-* **Eliminar** Elimina el código seleccionado.
-* **Modificar** Permite modificar el código seleccionado mediante el mismo cuadro de diálogo.
+* **Añadir**: permite añadir un código a la topología seleccionada mediante el cuadro de diálogo [Seleccionar códigos para topología](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/seleccionar-codigos-para-topologia.md). 
+* **Eliminar**: elimina el código seleccionado.
+* **Modificar**: permite modificar el código seleccionado mediante el cuadro de diálogo Seleccionar códigos para topología.
 
 ### Lista de centroides
 
@@ -45,9 +45,9 @@ Muestra un listado con todos los centroides configurados para la topología sele
 
 Dispone de los siguientes botones:
 
-* **Añadir** Permite añadir centroides mediante el cuadro de diálogo [Añadir centroide](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-centroide.md).
-* **Eliminar** Elimina el centroide seleccionado.
-* **Modificar** Modifica el centroide seleccionado mediante el cuadro de diálogo _Añadir centroide_.
+* **Añadir**: permite añadir centroides mediante el cuadro de diálogo [Añadir centroide](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-centroide.md).
+* **Eliminar**: elimina el centroide seleccionado.
+* **Modificar**: modifica el centroide seleccionado mediante el cuadro de diálogo _Añadir centroide_.
 
 ### Diccionario de valores
 
@@ -55,7 +55,7 @@ Muestra el [diccionario de valores](centroide.md#diccionario-de-valores) asociad
 
 Dispone de los siguientes botones:
 
-* **Añadir** Permite añadir una nueva entrada al diccionario de valores mediante un cuadro de diálogo que permite introducir una clave y un valor.
-* **Eliminar** Elimina la entrada seleccionada en el diccionario de valores.
-* **Modificar** Modifica la entrada seleccionada en el diccionario de valores.
+* **Añadir**: permite añadir una nueva entrada al diccionario de valores mediante un cuadro de diálogo que permite introducir una clave y un valor.
+* **Eliminar**: elimina la entrada seleccionada en el diccionario de valores.
+* **Modificar**: modifica la entrada seleccionada en el diccionario de valores.
 

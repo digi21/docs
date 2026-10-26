@@ -1,7 +1,7 @@
 # Calcular en la nube
 <!-- id: calcular-en-la-nube -->
 
-Si está activo, el cálculo de la orientación relativa se realizará en los servidores en la nube de digi21.net.
+Si activas esta opción, el cálculo de la orientación relativa se realiza en los servidores en la nube de digi21.net.
 
 ## Valores posibles
 

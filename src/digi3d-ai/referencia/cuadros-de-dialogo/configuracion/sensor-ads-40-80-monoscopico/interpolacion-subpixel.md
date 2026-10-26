@@ -1,12 +1,12 @@
 # Interpolación subpixel
 <!-- id: interpolacion-subpixel -->
 
-Indica si los cálculos se realizan con interpolación de subpixel.
+Indica si los cálculos se realizan con interpolación subpíxel.
 
 ## Valores posibles
 
-* **Activada** \(valor por defecto\). Los cálculos se realizan con interpolación de subpixel.
-* **Desactivada**. Los cálculos se realizan sin interpolación de subpixel.
+* **Activada** \(valor por defecto\). Los cálculos se realizan con interpolación subpíxel.
+* **Desactivada**. Los cálculos se realizan sin interpolación subpíxel.
 
 <details>
 <summary>Dónde se almacena</summary>

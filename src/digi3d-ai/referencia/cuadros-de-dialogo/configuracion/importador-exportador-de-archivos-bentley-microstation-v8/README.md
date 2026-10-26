@@ -1,7 +1,7 @@
 # Importador/Exportador de archivos Bentley MicroStation v8 (*.dgn)
 <!-- id: importador-exportador-de-archivos-bentley-microstation-v8 -->
 
-Configuración del importador/exportador de archivos Bentley MicroStation v8 (DGN).
+Configura el importador/exportador de archivos Bentley MicroStation v8 (DGN).
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 

@@ -1,7 +1,7 @@
 # Almacenar instantánea
 <!-- id: almacenar-instantanea -->
 
-Si está activo, al medir un punto se almacenará una instantánea de dicho punto.
+Si activas esta opción, al medir un punto se almacena una instantánea del punto medido.
 
 ## Valores posibles
 

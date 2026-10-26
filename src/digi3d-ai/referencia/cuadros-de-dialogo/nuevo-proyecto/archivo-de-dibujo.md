@@ -14,7 +14,7 @@ Selecciona la opción del menú **Archivo/Nuevo/Abrir modelo fotogramétrico o a
 * **Archivo de dibujo**: ruta del archivo que se abre. El desplegable ofrece los diez últimos archivos abiertos desde esta pestaña, y el botón **...** permite buscar uno.
 * **Mostrar esta página al ejecutar Digi3D**: el cuadro de diálogo Nuevo proyecto se abre en esta pestaña en lugar de en [Sensores fotogramétricos](sensores-fotogrametricos.md).
 
-Debajo del archivo hay una rejilla de propiedades agrupadas en categorías.
+Debajo del campo **Archivo de dibujo** hay una rejilla de propiedades agrupadas en categorías.
 
 ### Sistema de referencia de coordenadas
 
@@ -30,7 +30,7 @@ Esta categoría solo aparece si está activada la opción de mostrar el sistema 
 * **Equidistancia**: cada cuántos metros se registra una curva de nivel.
 * **Altura de textos**: altura de los textos que se registran, la de la variable [AT](../../ventana-de-dibujo/variables/a/at.md).
 * **Tolerancia a generalizar**: longitud mínima de un segmento al digitalizar en modo continuo.
-* **Corrección de Z**: diferencia de Z entre operadores. Hay que ajustarla si quien hizo la orientación absoluta no es quien restituye el modelo.
+* **Corrección de Z**: diferencia de Z entre operadores. Ajusta esta diferencia si quien hizo la orientación absoluta no es quien restituye el modelo.
 * **Sigma**: valor por debajo del cual dos valores se consideran idénticos.
 
 ### Entorno
@@ -40,9 +40,9 @@ Esta categoría solo aparece si está activada la opción de mostrar el sistema 
 
 ### Motor de importación/exportación
 
-Los parámetros del importador o exportador del formato del archivo de dibujo. Cambian según la extensión del archivo seleccionado: por ejemplo, el archivo `.bind` de la captura muestra el modelo de datos, la cadena de conexión con la base de datos, la conexión en modo de solo lectura y la omisión de los archivos de referencia.
+Esta categoría muestra los parámetros del importador o exportador del formato del archivo de dibujo. Los parámetros cambian según la extensión del archivo seleccionado: por ejemplo, para el archivo `.bind` de la captura, la categoría muestra el modelo de datos, la cadena de conexión con la base de datos, la conexión en modo de solo lectura y la omisión de los archivos de referencia.
 
-Los formatos que se pueden abrir en una ventana de dibujo, y la página que explica sus parámetros (sección **Parámetros del motor de importación/exportación**):
+La tabla siguiente enumera los formatos que puedes abrir en una ventana de dibujo y enlaza a las páginas que explican sus parámetros, en la sección **Parámetros del motor de importación/exportación** de cada página:
 
 | Formato | Extensión | Parámetros |
 | :--- | :--- | :--- |
@@ -65,7 +65,7 @@ Si el formato necesita un sistema de referencia de coordenadas y el archivo no l
 
 ## Observaciones
 
-Al pulsar **Aceptar**, Digi3D.AI guarda los valores de la rejilla. La próxima vez que abras esta pestaña, son los valores iniciales. La primera vez, los valores son: escala 1000, incremento de registro 1, equidistancia 1, altura de textos 1,5, tolerancia a generalizar 0,04, corrección de Z 0 y sigma 0,001.
+Al pulsar **Aceptar**, Digi3D.AI guarda los valores de la rejilla. La próxima vez que abras la pestaña Archivo de dibujo, los valores guardados serán los valores iniciales. La primera vez que abras la pestaña, los valores son: escala 1:1000, incremento de registro 1 metro, equidistancia 1 metro, altura de textos 1,5 unidades de longitud del dibujo, tolerancia a generalizar 0,04 unidades de las coordenadas del archivo de dibujo, corrección de Z 0 y sigma 0,001.
 
 Si está activada la opción de utilizar proyectos de archivos de dibujo, la rejilla muestra la categoría **Configuración de archivo de dibujo**, con la configuración que se aplica al archivo. Las configuraciones se crean en [Configurar proyectos](../configurar-proyectos.md). Si la configuración elegida no configura los parámetros del motor de importación/exportación, la rejilla muestra también la categoría **Motor de importación/exportación**. Al pulsar **Aceptar**, los valores de registro, la tabla de códigos, la orden de inicio y el sistema de referencia de coordenadas se sustituyen por los de la configuración elegida. Si no hay ninguna configuración elegida, Digi3D.AI muestra el error «No ha seleccionado ninguna configuración de archivo de dibujo.», no abre el archivo y el cuadro de diálogo sigue abierto.
 

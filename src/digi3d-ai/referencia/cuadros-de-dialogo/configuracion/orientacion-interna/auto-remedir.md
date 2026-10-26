@@ -1,7 +1,7 @@
 # Auto remedir
 <!-- id: auto-remedir-2 -->
 
-Si está activo, al seleccionar un punto en la lista de puntos, este entrará automáticamente en modo remedir.
+Si activas esta opción, Digi3D.AI activa automáticamente el modo remedir para el punto que seleccionas en la lista de puntos.
 
 ## Valores posibles
 

@@ -176,7 +176,7 @@ Carpeta `DigiNG\Configuration\Projects\<proyecto>\DigiNG\IO\<formato>`. Se edita
 
 | Valor | Tabla | Por defecto | Qué hace | Campo |
 | :--- | :--- | :--- | :--- | :--- |
-| `Comprimir` | `Ints` | 1 | Si está activo se comprimirá la imagen en la memoria de la tarjeta gráfica. Esto le permitirá cargar más imágenes sin agotar la memoria de la tarjeta. | Comprimir |
+| `Comprimir` | `Ints` | 1 | Si está activo, se comprimirá la imagen en la memoria de la tarjeta gráfica. La compresión permite cargar más imágenes en la memoria de la tarjeta gráfica que sin comprimirlas. | Comprimir |
 | `NivelPiramidalCargar` | `Ints` | 0 | Indica el nivel piramidal a cargar. Si la imagen no dispone de ese nivel piramidal, se cargará el más cercano de entre los disponibles. | Nivel piramidal |
 
 #### `Digi21.Io.Pdf`
@@ -191,7 +191,7 @@ Carpeta `DigiNG\Configuration\Projects\<proyecto>\DigiNG\IO\<formato>`. Se edita
 
 | Valor | Tabla | Por defecto | Qué hace | Campo |
 | :--- | :--- | :--- | :--- | :--- |
-| `BaseDatos` | `Texts` | (vacío) | Indica la base de datos a la que conectar de entre las que dispone el servidor. | Base de datos |
+| `BaseDatos` | `Texts` | (vacío) | Indica la base de datos a la que conectar entre las disponibles en el servidor. | Base de datos |
 | `Condiciones` | `Texts` | (vacío) | Condiciones SQL adicionales para filtrar las geometrías que se cargan. | — |
 | `Contraseña` | `Texts` | (vacío) | Indica la contraseña de conexión al servidor. | Contraseña |
 | `Puerto` | `Ints` | 5432 | Indica el puerto de conexión al servidor. | Puerto |
@@ -202,7 +202,7 @@ Carpeta `DigiNG\Configuration\Projects\<proyecto>\DigiNG\IO\<formato>`. Se edita
 
 | Valor | Tabla | Por defecto | Qué hace | Campo |
 | :--- | :--- | :--- | :--- | :--- |
-| `CargarRegionDeInteres` | `Ints` | 0 | Si está activo, carga únicamente la región de interés. Para ello, seleccionar con el botón derecho el archivo en el panel de archivo de dibujo. | Cargar región de interés (BETA) |
+| `CargarRegionDeInteres` | `Ints` | 0 | Si está activo, carga únicamente la región de interés. Para definir la región de interés, selecciona con el botón derecho el archivo en el panel de archivo de dibujo. | Cargar región de interés (BETA) |
 | `ldid` | `Ints` | 255 | Indica la codificación con la que se almacenarán las cadenas de texto en la base de datos creada. | Codificación |
 | `precision` | `Ints` | 0 | Indica el número de decimales de precisión en la exportación, de 0 a 12. Asigna 0 si no deseas redondeo de precisión. | Decimales de precisión |
 

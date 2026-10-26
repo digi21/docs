@@ -5,8 +5,8 @@ Si se activa, al clonar una geometría con enlace a la base de datos se copia el
 
 ## Valores posibles
 
-* **Sí**. La geometría clonada conserva el enlace a Tabla y Registro de la original.
-* **No**. La geometría clonada no copia el enlace a Tabla y Registro.
+* **Sí**. La geometría clonada conserva el enlace a Tabla y Registro de la geometría original.
+* **No**. No se copia el enlace a Tabla y Registro en la geometría clonada.
 
 <details>
 <summary>Dónde se almacena</summary>

@@ -1,7 +1,7 @@
 # Importador/Exportador de archivos Shapefile
 <!-- id: importador-exportador-de-archivos-shapefile -->
 
-Configuración del importador/exportador de archivos Shapefile.
+Estas opciones configuran el importador/exportador de archivos Shapefile.
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 

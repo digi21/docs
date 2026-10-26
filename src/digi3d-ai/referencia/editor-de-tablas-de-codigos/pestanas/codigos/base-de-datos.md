@@ -1,11 +1,11 @@
 # Base de datos
 <!-- id: base-de-datos-4 -->
 
-Esta categoría permite configurar la relación de este código con base de datos.
+Esta categoría permite configurar la relación del código que editas con la base de datos.
 
 ## Tabla
 
-Este desplegable permite configurar la tabla a mostrar en las ventanas que muestran atributos de base de datos, como el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md) al seleccionar este código.
+Este desplegable permite seleccionar la tabla cuyos atributos se mostrarán en ventanas como el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md) cuando selecciones como activo el código que editas.
 
 Muestra un desplegable que permite seleccionar alguna de las tablas añadidas en la pestaña [Base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/README.md).
 
@@ -26,11 +26,11 @@ El botón **...** abre el cuadro de diálogo **Campos por defecto**:
 
 ## Condiciones
 
-Especifica las condiciones que debe tener un registro en la base de datos para considerar que éste es el código.
+Especifica las condiciones que debe cumplir un registro de la base de datos para que se asigne el código que editas a la geometría correspondiente.
 
 Este campo opcional tiene significado únicamente en archivos SIG como por ejemplo Shapefiles.
 
-Supongamos que tenemos un Shapefile con una tabla _Edificaciones_. Supongamos que uno de los campos de base de datos de la tabla Edificaciones es _Tipo_, que puede tener uno de los siguientes valores:
+Por ejemplo, un Shapefile tiene una tabla _Edificaciones_ con un campo _Tipo_ que puede tener uno de los siguientes valores:
 
 | Valor | Significado |
 | :--- | :--- |
@@ -51,7 +51,7 @@ En la tabla de códigos tendríamos que seleccionar en el campo [Tabla](base-de-
 
 El campo **Condiciones** soluciona este problema.
 
-Para el código 010101 introduciríamos el siguiente valor en **Condiciones**:
+Introduce para el código 010101 el siguiente valor en **Condiciones**:
 
 ```text
 Tipo=0
@@ -69,7 +69,7 @@ Para el código 010103:
 Tipo=2
 ```
 
-Y por último para el código 010104 dejaríamos en blanco el campo **Condiciones**.
+Deja en blanco para el código 010104 el campo **Condiciones**.
 
-De esta manera, el importador de Shapefiles si se encuentra una geometría que tenga asignado en el campo Tipo el valor 1, asignará a la geometría el código 010102.
+Así, si el importador de Shapefiles encuentra una geometría con el valor 1 en el campo Tipo, asignará el código 010102 a esa geometría.
 

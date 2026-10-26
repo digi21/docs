@@ -1,7 +1,7 @@
 # Milisegundos doble clic
 <!-- id: milisegundos-doble-clic -->
 
-Indica el tiempo, en milisegundos, por debajo del cual dos pulsaciones del botón de Dato se consideran un doble clic.
+Dos pulsaciones del botón de Dato se consideran un doble clic si el intervalo entre ambas es inferior al tiempo indicado, en milisegundos.
 
 <details>
 <summary>Dónde se almacena</summary>

@@ -1,7 +1,7 @@
 # Remedir múltiple
 <!-- id: remedir-multiple -->
 
-Si está activo, al remedir un punto la orden vuelve a solicitar que se remida el mismo punto hasta que se pulse Esc o se acepte o cancele el cuadro de diálogo.
+Si activas esta opción, al remedir un punto la orden de orientación absoluta te solicita que vuelvas a medir ese punto hasta que pulses Esc o aceptes o canceles el cuadro de diálogo de orientación absoluta.
 
 ## Valores posibles
 

@@ -1,7 +1,7 @@
 # Omega
 <!-- id: omega -->
 
-Nombre del campo con el ángulo Omega.
+Indica el nombre del campo de la base de datos que contiene el ángulo Omega.
 
 <details>
 <summary>Dónde se almacena</summary>

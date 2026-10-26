@@ -15,7 +15,7 @@ El título habitualmente coincide con el nombre del campo, pero no tiene por qu�
 
 Permite configurar una descripción que aparecerá en la parte inferior del _grid de propiedades_ que utilizan las distintas ventanas que muestran campos de la base de datos.
 
-Cuando el usuario hace clic en un campo, podrá leer esta descripción para entender el significado del campo.
+Al hacer clic en un campo, el programa muestra la descripción del campo.
 
 ## Clave principal
 
@@ -25,7 +25,7 @@ Permite indicar si el campo es la clave principal de la tabla.
 
 Indica el tipo de información que se va a almacenar en este campo en cada registro almacenado.
 
-Se pueden seleccionar uno de los siguientes tipos:
+Selecciona el tipo de dato del campo:
 
 * **Cadena de caracteres**. Selecciona esta opción si en el campo se van a almacenar textos.
 * **Número entero**. Selecciona esta opción si en el campo se van a almacenar números enteros.
@@ -40,7 +40,7 @@ Este valor tiene que ser siempre mayor que 0 y debe ser lo suficientemente grand
 
 ## Decimales
 
-En caso de que en el campo **Tipo** se haya seleccionado la opción **Número real**, introduciremos aquí el número de decimales que se almacenarán.
+Si has seleccionado **Número real** en el campo **Tipo**, introduce aquí el número de decimales que se almacenarán.
 
 Este campo tiene sentido en bases de datos de tipo XBASE \(que son las asociadas con Shapefiles\) pues en este tipo de bases de datos los números se almacenan como texto, de manera que es importante indicar el número de decimales.
 
@@ -66,17 +66,17 @@ Se pueden introducir valores directamente en la tabla de códigos o se pueden ex
 
 ### Valores directos
 
-Se pueden introducir tantos valores como sea necesarios, y se introducen como una tripleta separada por el carácter \| \(que se puede introducir pulsando la combinación de teclas _AltGr + 1_.
+Puedes introducir tantos valores como necesites. Escribe cada valor con su título y su descripción, separados por el carácter \| \(pulsa _AltGr + 1_ para introducir este carácter\).
 
 `[valor]|[título]|[descripción]`
 
 * Valor es el valor que se va a almacenar en la base de datos.
-* Título es el título que verá el usuario en el desplegable, que no tiene por qué coincidir con el valor, se utiliza para facilitar el trabajo al usuario.
-* Descripción es una descripción que aparecerá en la parte inferior de la ventana en la que se introducen valores de base de datos al seleccionar este campo como por ejemplo en el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md).
+* Título es el texto que verás en el desplegable. El título no tiene por qué coincidir con el valor almacenado y permite identificar cada opción del desplegable.
+* Descripción es el texto que aparecerá al seleccionar el campo de base de datos, en la parte inferior de la ventana en la que introduces valores de base de datos, como el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md).
 
 #### Ejemplo:
 
-Si en la base de datos se tiene que almacenar un "1" si el tipo de vegetación es "monte alto" y un "2" si es de tipo "monte bajo" introduciremos este valor:
+Si en la base de datos se tiene que almacenar un "1" cuando el tipo de vegetación es "monte alto" y un "2" cuando es "monte bajo", introduce este valor:
 
 ```text
 1|Monte alto|El tipo de vegetación de esta parcela es monte alto|2|Monte bajo|El tipo de vegetación de esta parcela es monte bajo
@@ -84,13 +84,13 @@ Si en la base de datos se tiene que almacenar un "1" si el tipo de vegetación e
 
 ### Mediante consulta SQL
 
-Si introducimos en este campo una consulta SQL de selección entre símbolos de porciento como, por ejemplo:
+Para extraer los valores mediante una consulta SQL de selección, introduce la consulta entre símbolos de porcentaje, como en este ejemplo:
 
 ```sql
 %SELECT IdCalle, NombreCalle FROM CALLES%
 ```
 
-El programa extraerá los campos de la consulta.
+El programa extrae los campos de la consulta.
 
 * Si la consulta devuelve un único campo, se utilizará este campo tanto para el valor como para el texto a mostrar al usuario para cada registro devuelto.
 * Si la consulta devuelve más de un campo, se utilizará el primer campo para el valor a asignar y el segundo para el texto a mostrar al usuario.
@@ -131,27 +131,27 @@ Permite indicar si el usuario puede dejar este campo sin rellenar.
 
 ## Comparable
 
-Algunas órdenes como por ejemplo la orden [UNIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir.md), en caso de que se pretenda unir dos líneas que tengan enlace a base de datos, únicamente unificará las dos líneas en caso de que sus códigos coincidan y de que los atributos de base de datos de cada una de ellas coincidan también.
+Algunas órdenes, como [UNIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir.md), solo unen dos líneas enlazadas a una base de datos si coinciden tanto los códigos como los atributos de base de datos de ambas líneas.
 
-Si tenemos por ejemplo el caso de que uno de los atributos de base de datos almacenados para cada línea sea el perímetro de la línea, nos encontraríamos con el problema de que la orden _UNIR_ no permitiría unir dos líneas con idénticos atributos de base de datos, pero con distinto perímetro. De manera que deberíamos poder indicar a la orden _UNIR_ que no tenga en cuenta el valor almacenado en el campo donde se almacena el perímetro para decidir si puede o no unir dos líneas.
+Si uno de los atributos almacena el perímetro de cada línea, la orden _UNIR_ no permitirá unir dos líneas con distinto perímetro aunque los demás atributos sean idénticos. Para unir dos líneas con distinto perímetro y con los demás atributos idénticos, debes indicar que la orden _UNIR_ no tenga en cuenta el campo que almacena el perímetro.
 
-Con esta opción podemos indicar que un campo en particular no es comparable, de manera que, en el ejemplo anterior, la orden _UNIR_ hará caso omiso del campo en el que se almacena el perímetro para decidir si se pueden o no unir dos geometrías.
+Con la opción Comparable puedes indicar que un campo no es comparable. En el ejemplo del perímetro, la orden _UNIR_ ignorará el campo que almacena el perímetro al decidir si se pueden unir las dos geometrías.
 
 ## Copiable
 
-Indica si al copiar una geometría con la orden [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md)se debe copiar el valor almacenado en este campo.
+Indica si al copiar una geometría con la orden [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md) se debe copiar el valor almacenado en este campo.
 
 ## Visible
 
-Indica si el campo de base de datos se mostrará en el interfaz de usuario del programa como por ejemplo en el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md).
+Indica si el campo de base de datos se mostrará en la interfaz de usuario del programa como por ejemplo en el panel [Campos de la base de datos](/digi3d-ai/referencia/paneles/campos-de-la-base-de-datos.md).
 
 ## Grupo
 
 Este campo es opcional, y en caso de introducir aquí algún nombre, las ventanas del programa que muestran campos de base de datos crearán categorías \(cuyo nombre coincide con el introducido aquí\) e introducirán el campo dentro de estas categorías.
 
-Se utiliza para agrupar campos relacionados en el interfaz de usuario de la aplicación.
+El campo Grupo se utiliza para agrupar campos relacionados en la interfaz de usuario de la aplicación.
 
 ## Color de fondo
 
-Indica el color de fondo que se utilizará en el interfaz de usuario del programa al mostrar este campo.
+Indica el color de fondo que se utilizará en la interfaz de usuario del programa al mostrar este campo.
 

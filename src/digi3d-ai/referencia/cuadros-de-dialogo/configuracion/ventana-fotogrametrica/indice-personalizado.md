@@ -1,7 +1,7 @@
 # Índice personalizado
 <!-- id: indice-personalizado -->
 
-Ruta del archivo PNG con la imagen que se muestra cuando se selecciona el índice personalizado.
+Indica la ruta del archivo de imagen en formato PNG (Portable Network Graphics) con la imagen que se muestra cuando se selecciona el índice personalizado.
 
 <details>
 <summary>Dónde se almacena</summary>

@@ -1,7 +1,7 @@
 # Imagen
 <!-- id: imagen -->
 
-Nombre del campo que contiene el nombre de la imagen.
+Indica el nombre del campo de la base de datos que contiene el nombre de la imagen.
 
 <details>
 <summary>Dónde se almacena</summary>

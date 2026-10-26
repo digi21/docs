@@ -1,7 +1,7 @@
 # Auto remedir peor
 <!-- id: auto-remedir-peor -->
 
-Si está activo, al pulsar el botón Peor se localizará el punto con mayor residuo y se solicitará automáticamente que se remida dicho punto.
+Si activas esta opción, al pulsar el botón Peor se localiza el punto con mayor residuo y se te solicita automáticamente que vuelvas a medir ese punto.
 
 ## Valores posibles
 

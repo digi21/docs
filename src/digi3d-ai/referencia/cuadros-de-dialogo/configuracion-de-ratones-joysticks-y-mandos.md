@@ -11,7 +11,7 @@ Selecciona la opción del menú **Herramientas/Configuración de ratones, joysti
 
 ## Campos
 
-* **Dispositivos HID detectados**: los ratones, joysticks y mandos conectados al equipo, con el nombre de producto que informa cada dispositivo. Si el dispositivo no informa de su nombre, aparece como **Desconocido**. La lista se rellena al iniciar Digi3D.AI: un dispositivo que se conecta después no aparece hasta que se reinicia el programa. Un joystick que Digi3D.AI no puede abrir no aparece en la lista.
+* **Dispositivos HID detectados**: los ratones, joysticks y mandos conectados al equipo, con el nombre de producto que proporciona cada dispositivo. Si el dispositivo no proporciona su nombre, aparece como **Desconocido**. La lista se rellena al iniciar Digi3D.AI: un dispositivo que se conecta después de iniciar Digi3D.AI no aparece hasta que se reinicia el programa. Un joystick que Digi3D.AI no puede abrir no aparece en la lista.
 * **Configurar...**: abre los parámetros del dispositivo seleccionado. Está deshabilitado mientras no hay ningún dispositivo seleccionado. Abre **Parámetros de ratón** para un ratón y **Parámetros del dispositivo** para cualquier otro dispositivo.
 * **Salir**: cierra el cuadro de diálogo.
 
@@ -25,7 +25,7 @@ Ejemplo: un trackball dedicado a la Z. Con **Ratón de Z**, mover la bola de izq
 
 ![Cuadro de diálogo Parámetros de ratón con un ratón de Z](../../../images/parametros-de-raton-z.png)
 
-Ejemplo: un ratón para la X y la Y. Con **Normal**, el ratón mueve la X y la Y del cursor. En esta captura está marcada **La rueda cambia el Factor de Zoom**, así que la rueda cambia el zoom. Desmarcada, la rueda cambia la Z (fila Z, columna Z = 1):
+Ejemplo: un ratón para la X y la Y. Con **Normal**, el ratón mueve la X y la Y del cursor. En esta captura está marcada **La rueda cambia el Factor de Zoom**, así que la rueda cambia el zoom. Con la casilla «La rueda cambia el Factor de Zoom» desmarcada, la rueda cambia la Z (fila Z, columna Z = 1):
 
 ![Cuadro de diálogo Parámetros de ratón con un ratón para XY](../../../images/parametros-de-raton-xy.png)
 

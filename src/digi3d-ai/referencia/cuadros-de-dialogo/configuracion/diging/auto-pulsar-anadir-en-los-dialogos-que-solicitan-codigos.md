@@ -6,7 +6,7 @@ Si se activa, se pulsa automáticamente el botón **Añadir** en los cuadros de 
 ## Valores posibles
 
 * **Sí**. Se pulsa automáticamente el botón Añadir.
-* **No**. Hay que pulsar el botón Añadir manualmente.
+* **No**. Pulsa el botón Añadir manualmente.
 
 <details>
 <summary>Dónde se almacena</summary>

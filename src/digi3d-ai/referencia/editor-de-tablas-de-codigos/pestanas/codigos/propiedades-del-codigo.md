@@ -7,7 +7,7 @@ Esta categoría permite configurar las propiedades de un código.
 
 Permite configurar el nombre del código.
 
-El nombre del código identifica al código y no puede haber más de un código en una tabla de códigos con el mismo nombre. Este nombre es el que podremos pasar como parámetros en órdenes como [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
+El nombre del código identifica al código y no puede haber más de un código en una tabla de códigos con el mismo nombre. Puedes pasar este nombre como parámetro a órdenes como [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
 
 ## Descripción
 
@@ -28,17 +28,17 @@ Un código puede tener:
 * Ninguna etiqueta asociada.
 * Una o varias etiquetas.
 
-En caso de que un código tenga más de una etiqueta, las separaremos con una coma.
+Separa con comas las etiquetas de un código si asignas más de una etiqueta.
 
-Ejemplo: si queremos asignar a un determinado código las etiquetas _planimetría_, _viales_ y _carreteras_, introduciremos en este campo el siguiente valor:
+Por ejemplo, para asignar a un código las etiquetas _planimetría_, _viales_ y _carreteras_, introduce este valor en el campo:
 
 ```
 planimetría, viales, carreteras
 ```
 
-Ciertas órdenes permiten trabajar con etiquetas. Podemos indicar a estas órdenes que les estamos pasando una etiqueta si ponemos el carácter almohadilla (#) delante de la etiqueta.
+Para pasar una etiqueta a una orden que admite etiquetas, escribe el carácter almohadilla (#) delante de la etiqueta.
 
-Ejemplo: La orden [OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md) oculta la visualización de las geometrías que tengan el código pasado por parámetro. Esta orden admite que le pasemos en vez de un código, una etiqueta, de manera que, si queremos dejar de visualizar todas las geometrías que tengan la etiqueta "_viales"_, ejecutaremos la siguiente orden:
+Ejemplo: La orden [OFF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/off.md) oculta la visualización de las geometrías que tengan el código pasado por parámetro. La orden OFF admite una etiqueta como parámetro en lugar de un código. Para ocultar todas las geometrías con la etiqueta "_viales"_, ejecuta la siguiente orden:
 
 ```
 off=#viales
@@ -46,17 +46,17 @@ off=#viales
 
 ### Menús dinámicos
 
-Digi3D.AI muestra en determinados menús (como por ejemplo el menú **Ver**), las etiquetas de la tabla de códigos activa, de manera que podremos ejecutar comandos que tomarán como datos de entrada todas las geometrías que tengan algún código que tenga asociada la etiqueta seleccionada.
+Digi3D.AI muestra las etiquetas de la tabla de códigos activa en determinados menús, como **Ver**. Desde los menús que muestran etiquetas puedes ejecutar órdenes que toman como datos de entrada todas las geometrías con algún código asociado a la etiqueta seleccionada.
 
-En el caso del menú **Ver**, si la tabla de códigos activa tiene códigos con la etiqueta _Vegetación_, mostrará una opción con la palabra _Vegetación**.**_ Si el usuario selecciona esta opción, el programa activará la visualización de todas las geometrías cuyos códigos tengan esta etiqueta.
+En el caso del menú **Ver**, si la tabla de códigos activa tiene códigos con la etiqueta _Vegetación_, el menú Ver mostrará una opción con la palabra _Vegetación**.**_ Si seleccionas la opción Vegetación, el programa activará la visualización de todas las geometrías cuyos códigos tengan la etiqueta Vegetación.
 
 ## Alias
 
 Permite indicar opcionalmente uno o varios alias para este código.
 
-Esto es útil si el operador está acostumbrado a trabajar con una nomenclatura, para que la curva de aprendizaje sea menor y no tenga que aprender los nuevos códigos.
+Los alias permiten utilizar nombres alternativos para los códigos.
 
-Ejemplo: Podemos añadir el alias "fina" al código "020123", de esta manera si el operador ejecuta desde la orden de comandos la siguiente orden:
+Por ejemplo, puedes añadir el alias "fina" al código "020123" y ejecutar la siguiente orden desde la línea de comandos:
 
 ```
 cod=fina
@@ -68,11 +68,11 @@ La orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md) se
 
 Permite crear un diccionario de valores asociado con el código.
 
-Este valor es opcional, y en caso de asignar valores, podemos indicar tantos como queramos.
+El diccionario de valores del código es opcional y admite tantos valores como necesites.
 
-La forma de introducir valores es siguiendo el patrón `propiedad=valor`_._ En caso de asignar más de un valor, los separaremos por comas.
+Introduce los valores del diccionario con el patrón `propiedad=valor`. Separa por comas los pares de propiedad y valor si asignas más de un valor.
 
-Ejemplo: Para asignar a un determinado código los valores: "ancho" con el valor "13" y "categoría" con el valor "002" introduciremos el siguiente valor en el campo Valores:
+Por ejemplo, para asignar a un código "ancho" con el valor "13" y "categoría" con el valor "002", introduce este texto en el campo Valores:
 
 ```
 ancho=13, categoría=002
@@ -86,39 +86,39 @@ Indica el tipo de geometría que representa el código.
 
 Se puede seleccionar una de las siguientes opciones:
 
-* **Lineal** Indica que este código está pensado para almacenar líneas.
-* **Puntual** Indica que este código está pensado para almacenar puntos.
-* **Virtual** Indica que este código está pensado para dibujar geometrías en la ventana de dibujo pero que estas geometrías no se almacenan en ningún archivo de dibujo.
+* **Lineal**: indica que el código que editas está pensado para almacenar líneas.
+* **Puntual**: indica que el código que editas está pensado para almacenar puntos.
+* **Virtual**: indica que el código que editas está pensado para dibujar geometrías en la ventana de dibujo pero que estas geometrías no se almacenan en ningún archivo de dibujo.
 
-El valor almacenado aquí no es un contrato vinculante, de manera que, si indicamos en este campo el valor _Puntual_ para un determinado código, y luego en la ventana de dibujo seleccionamos este código en particular y ejecutamos la orden [CIR2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir2p.md), podremos dibujar un círculo con este código que se ha marcado como puntual.
+El valor del campo Tipo no limita el tipo de geometría que puedes dibujar con el código que editas. Por ejemplo, si asignas el valor _Puntual_ a un código, seleccionas ese código en la ventana de dibujo y ejecutas [CIR2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir2p.md), puedes dibujar un círculo con ese código.
 
-El valor almacenado en este campo se utiliza criterio para [ejecutar órdenes de manera automática](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) si el programa está en [modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y el usuario pulsa el botón de Dato en la ventana de dibujo.
+El valor almacenado en el campo Tipo se utiliza como criterio para [ejecutar órdenes de manera automática](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) si el programa está en [modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md) y pulsas el botón de Dato en la ventana de dibujo.
 
 ## Automático
 
-Indica si al estar este código seleccionado como código activo y al estar el programa en[ modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md), si el usuario pulsa el botón de Dato en la ventana de dibujo, si se desencadenará el proceso que ejecuta una [orden de manera automática](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
+Indica si, con el código que editas activo y el programa en [modo preparado](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md), se ejecutará una [orden de manera automática](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/) al pulsar el botón de Dato en la ventana de dibujo.
 
 Se pueden seleccionar las siguientes opciones:
 
-* **Si** Indica que este código desencadena que se ejecuten órdenes automáticas.
-* **No** Indica que este código no desencadenará que se ejecuten órdenes automáticas.
+* **Si**: indica que el código que editas desencadena que se ejecuten órdenes automáticas.
+* **No**: indica que el código que editas no desencadenará que se ejecuten órdenes automáticas.
 
 ## Activado
 
-Permite indicar si el usuario podrá seleccionar este código para digitalizar entidades nuevas.
+Permite indicar si podrás seleccionar el código que editas para digitalizar entidades nuevas.
 
-Esta opción es útil para permitir mostrar y reconocer geometrías existentes pero no se quiere que se generen geometrías nuevas con este código.
+Si desactivas la opción Activado, puedes mostrar y reconocer geometrías existentes, pero no generar geometrías nuevas con el código que editas.
 
 Se pueden seleccionar las siguientes opciones:
 
-* **Si** Indica que este código se puede seleccionar para digitalizar entidades nuevas.
-* **No** Indica que este código no se puede seleccionar para digitalizar entidades nuevas.
+* **Si**: indica que el código que editas se puede seleccionar para digitalizar entidades nuevas.
+* **No**: indica que el código que editas no se puede seleccionar para digitalizar entidades nuevas.
 
 ## Modo Stream
 
 Indica si este código está pensado para digitalizar líneas en modo continuo.
 
-Determinadas geometrías como por ejemplo las curvas de nivel se digitalizan habitualmente en modo continuo. Eso requiere que el usuario mantenga pulsado el botón/pedal de dato mientras digitaliza la geometría.
+Determinadas geometrías como por ejemplo las curvas de nivel se digitalizan habitualmente en modo continuo. Para digitalizar en modo continuo, mantén pulsado el botón/pedal de dato mientras digitalizas la geometría.
 
 Con esta opción se puede indicar a la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) se deben añadir segmentos a la línea.
 
@@ -128,7 +128,7 @@ Permite indicar el conjunto de órdenes que se ejecutarán cuando se seleccione 
 
 ## Órdenes (pulsar dato)
 
-Permite indicar el conjunto de órdenes que se ejecutarán cuando el usuario pulse el botón de Dato si este código está activo.
+Permite indicar el conjunto de órdenes que se ejecutarán cuando pulses el botón de Dato si el código que editas está activo.
 
 ### Cuadro de diálogo Órdenes
 
@@ -162,7 +162,7 @@ Esta categoría tiene dos propiedades:
 ![Cuadro de diálogo Controles de calidad](../../../../../images/controles-de-calidad.png)
 
 * **Buscar control**: deja en **Controles de calidad disponibles** solo las funciones cuyo nombre contiene el texto escrito, sin distinguir mayúsculas, minúsculas ni acentos. Con el cuadro vacío, la lista muestra todas las funciones. El texto no filtra la lista de controles a aplicar: los controles que ya has añadido se conservan al pulsar **Aceptar** aunque el texto oculte su función. La función seleccionada sigue seleccionada mientras el texto no la oculte; si la oculta, la lista queda sin selección y **Añadir** se desactiva. Pulsar Intro en este cuadro no cierra el cuadro de diálogo.
-* **Controles de calidad disponibles**: las funciones de control de calidad, con su descripción. **Añadir**, o hacer doble clic en una fila, la añade a la lista inferior.
+* **Controles de calidad disponibles**: las funciones de control de calidad, con su descripción. Pulsa **Añadir** o haz doble clic en una fila para añadir la función seleccionada a la lista inferior.
 * **Controles de calidad a aplicar al código**: las funciones asignadas al código, en el orden en que se aplican. **Eliminar** quita la seleccionada; **Subir** y **Bajar** cambian su posición.
 * **Aceptar** guarda la lista en la propiedad, una función por línea. El cuadro de diálogo se puede redimensionar y recuerda su tamaño y su posición.
 

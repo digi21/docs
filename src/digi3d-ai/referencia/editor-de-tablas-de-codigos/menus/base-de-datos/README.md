@@ -9,7 +9,7 @@ Las opciones de este menú actúan sobre las tablas de la pestaña [Base de dato
 | :--- | :--- |
 | **Crear tablas automáticamente basándose en el código y asignar las tablas en los códigos** | Crea una tabla para cada código sin tabla y la asigna al código. |
 | **Importar esquema de una base de datos en formato Geographics...** | Abre el cuadro [Cadena de conexión](cadena-de-conexion.md) y sustituye todas las tablas de la tabla de códigos por las de esa base de datos. |
-| **Importar esquema de una base de datos en formato CATDBS...** | Igual que la anterior, para bases de datos en formato CATDBS. |
+| **Importar esquema de una base de datos en formato CATDBS...** | Abre el cuadro Cadena de conexión y sustituye todas las tablas de la tabla de códigos por las de la base de datos en formato CATDBS. |
 | **Importar esquema de directorio con shapefiles...** | Crea una tabla por cada shapefile de una carpeta. |
 | **Importar esquema de archivo de catálogo de características MGCP...** | Crea las tablas de un catálogo de características MGCP. |
 | **Importar esquema de archivo de definición de espacio de trabajo de ArcGIS...** | Crea las tablas de un archivo XML de espacio de trabajo de ArcGIS. Después de elegir los archivos pide la versión del esquema en el cuadro [Versión de ArcGIS](../version-de-arcgis.md). |
@@ -36,4 +36,4 @@ Las opciones de este menú actúan sobre las tablas de la pestaña [Base de dato
 | **Exportar a guion SQL...** | Escribe un guion SQL que crea las tablas. |
 | **Crear tablas en una base de datos vacía Access...** | Crea las tablas en una base de datos de Access vacía. |
 
-Antes de las opciones de **Campos**, el editor aplica los cambios pendientes de la tabla seleccionada en la pestaña **Base de datos**.
+Antes de ejecutar las opciones de **Campos**, el editor aplica los cambios pendientes de la tabla seleccionada en la pestaña **Base de datos**.

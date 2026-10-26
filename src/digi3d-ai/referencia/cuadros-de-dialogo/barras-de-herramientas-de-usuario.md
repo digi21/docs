@@ -1,7 +1,7 @@
 # Barras de herramientas de usuario
 <!-- id: barras-de-herramientas-de-usuario -->
 
-Las barras de herramientas de usuario son barras con botones que ejecutan órdenes de Digi3D.AI. Cada usuario de _Windows_ tiene las suyas.
+Las barras de herramientas de usuario son barras con botones que ejecutan órdenes de Digi3D.AI. Cada usuario de _Windows_ tiene sus propias barras de herramientas.
 
 Los botones de estas barras están deshabilitados mientras no hay ninguna ventana de dibujo ni fotogramétrica abierta.
 

@@ -3,7 +3,7 @@
 
 ![Cuadro de diálogo Control de producción](../../../images/control-de-produccion.png)
 
-Este cuadro de diálogo solicita el usuario que va a trabajar en el equipo. Digi3D.AI lo muestra al arrancar si está activada la opción [Controlar producción](configuracion/control-de-produccion/controlar-produccion.md) del cuadro de diálogo [Configuración](configuracion/README.md) y Digi3D.AI se ejecuta sin argumentos en la línea de órdenes.
+Este cuadro de diálogo solicita el nombre del usuario que va a trabajar en el equipo. Digi3D.AI muestra este cuadro de diálogo al iniciarse si está activada la opción [Controlar producción](configuracion/control-de-produccion/controlar-produccion.md) del cuadro de diálogo [Configuración](configuracion/README.md) y Digi3D.AI se ejecuta sin argumentos en la línea de órdenes.
 
 ## Campos
 

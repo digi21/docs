@@ -29,7 +29,7 @@ Botones de **Acciones**:
 * **Renombrar**: abre el cuadro **Renombrar acción** con el nombre de la acción seleccionada.
 * **Eliminar**: elimina la acción seleccionada.
 
-Renombrar una carpeta, un grupo o una acción, y añadir una acción, no comprueba si el nombre ya existe. Eliminar no pide confirmación.
+El editor no comprueba si el nombre ya existe al renombrar una carpeta, un grupo o una acción, ni al añadir una acción. Tampoco pide confirmación al eliminar una carpeta, un grupo o una acción.
 
 ## Órdenes a ejecutar y Etiquetas
 

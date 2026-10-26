@@ -1,7 +1,7 @@
 # Importador/Exportador de archivos binarios de doble precisión (*.bind)
 <!-- id: importador-exportador-de-archivos-binarios-de-doble-precision -->
 
-Configuración del importador/exportador de archivos binarios de doble precisión (BIND).
+Configura el importador/exportador de archivos binarios de doble precisión (BIND).
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 

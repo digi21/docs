@@ -56,7 +56,7 @@ La propiedad **Tipo de cámara** decide qué propiedades aparecen:
 | **B1**, **B2** | `B1`, `b2` |
 | **Coordenadas** (marcas fiduciales) | `Fiducial1`, `Fiducial2`... |
 
-Las tablas se escriben como pares de números separados por punto y coma. En la tabla de distorsión, cada par es un radio y su distorsión, en mm; en las marcas fiduciales, las coordenadas X e Y, en mm. Por ejemplo: `10 0.001; 20 0.002`. Si un par no son exactamente dos números, **Guardar** no escribe el archivo y muestra el mensaje «El texto «*par*» de «*propiedad*» no son dos números separados por un espacio...».
+Las tablas se escriben como pares de números separados por punto y coma. En la tabla de distorsión, cada par es un radio y su distorsión, en mm; en la tabla de marcas fiduciales, cada par contiene las coordenadas X e Y, en mm. Por ejemplo: `10 0.001; 20 0.002`. Si un par no contiene exactamente dos números, **Guardar** no escribe el archivo y muestra el mensaje «El texto «*par*» de «*propiedad*» no son dos números separados por un espacio...».
 
 El cuadro escribe el archivo con la sección y las claves en español. Escribe siempre `TipoValorDistorsion` y, en las cámaras con polinomio, también `TipoCorreccion`, aunque tengan el valor por defecto.
 
@@ -105,7 +105,7 @@ El error es casi nulo cuando la cámara de origen usa el mismo modelo, o cuando 
 * La cámara de origen tiene términos que el `.cam` no tiene. Por ejemplo, el `.cam` no tiene el coeficiente `k4` (r⁸) de Metashape: en una cámara con `k4` = −0,28 quedan 0,05 px de error medio cuadrático y 0,45 px en las esquinas.
 * La orientación interna está girada un ángulo que no es múltiplo de 90°: el `.cam` no tiene un parámetro de giro. Con un giro de 0,1° el error medio cuadrático es de unos 7 px.
 
-En una cámara analógica, la orientación interna es la de la foto elegida: el `.cam` solo reproduce las fotos digitalizadas igual que esa.
+En una cámara analógica, la orientación interna es la de la foto elegida: el `.cam` solo reproduce las fotos digitalizadas de la misma forma que la foto elegida.
 
 Mensajes:
 

@@ -3,7 +3,7 @@
 
 ![Cuadro Error al crear el directorio de la copia de seguridad](../../../images/error-al-crear-el-directorio-de-la-copia-de-seguridad.png)
 
-Antes de hacer una copia de seguridad, Digi3D.AI crea el directorio de destino si no existe. La ruta del archivo de la copia sale de la opción [Destino de copias de seguridad](configuracion/copia-de-seguridad/destino-de-copias-de-seguridad.md) o, si la copia se hace al comprimir, de [Destino de copias de seguridad al comprimir](configuracion/copia-de-seguridad/destino-de-copias-de-seguridad-al-comprimir.md). Digi3D.AI muestra este cuadro cuando el sistema operativo no permite crear ese directorio.
+Antes de hacer una copia de seguridad, Digi3D.AI crea el directorio de destino si no existe. La ruta del archivo de la copia se obtiene de la opción [Destino de copias de seguridad](configuracion/copia-de-seguridad/destino-de-copias-de-seguridad.md) o, si la copia se hace al comprimir, de [Destino de copias de seguridad al comprimir](configuracion/copia-de-seguridad/destino-de-copias-de-seguridad-al-comprimir.md). Digi3D.AI muestra este cuadro cuando el sistema operativo no permite crear ese directorio.
 
 El cuadro aparece con la orden [BAK](../ventana-de-dibujo/ordenes/b/bak.md), con la copia automática que se hace cada cierto número de minutos y con las copias que se hacen al salir y al comprimir.
 

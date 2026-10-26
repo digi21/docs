@@ -1,12 +1,12 @@
 # Al desplazarse por el modelo
 <!-- id: al-desplazarse-por-el-modelo -->
 
-Si el sensor admite trabajar con interpolación de subpixel, indica si se utiliza al desplazarse por el modelo (roaming).
+Si el sensor admite trabajar con interpolación de subpíxel, esta opción indica si los cálculos utilizan interpolación de subpíxel al desplazar las imágenes del modelo (roaming).
 
 ## Valores posibles
 
-* **Con interpolación de subpixel**. Los cálculos se realizan con interpolación de subpixel (más precisión, más tiempo de proceso).
-* **Sin interpolación de subpixel**. Los cálculos se realizan sin interpolación de subpixel.
+* **Con interpolación de subpixel**. Los cálculos se realizan con interpolación de subpíxel (más precisión y más tiempo de proceso que sin interpolación de subpíxel).
+* **Sin interpolación de subpixel**. Los cálculos se realizan sin interpolación de subpíxel.
 
 <details>
 <summary>Dónde se almacena</summary>

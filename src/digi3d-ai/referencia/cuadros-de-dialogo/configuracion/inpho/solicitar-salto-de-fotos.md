@@ -1,7 +1,7 @@
 # Solicitar salto de fotos
 <!-- id: solicitar-salto-de-fotos -->
 
-Si se activa, al abrir un proyecto de Inpho (archivo `.prj`) Digi3D.AI muestra el cuadro de diálogo **¿Saltar fotos?**, que indica cómo se forman los modelos estereoscópicos de cada pasada.
+Si activas esta opción, al abrir un proyecto de Inpho (archivo `.prj`) Digi3D.AI muestra el cuadro de diálogo **¿Saltar fotos?**, en el que puedes elegir cómo se forman los modelos estereoscópicos de cada pasada.
 
 ## Valores posibles
 
@@ -16,19 +16,19 @@ El desplegable indica cómo se forman los modelos de cada pasada. Las fotos de u
 
 | Opción | Modelos que se forman | Ejemplo con *n* = 1 |
 |---|---|---|
-| **No saltar fotos** | Cada foto con la siguiente. | 1-2, 2-3, 3-4… |
-| **Saltar fotos** | Cada foto con la que está *n* + 1 posiciones después. El modelo siguiente empieza en la foto derecha del anterior, así que las fotos intermedias no forman parte de ningún modelo. | 1-3, 3-5, 5-7… |
-| **Saltar fotos pero utilizarlas para otro modelo** | Cada foto con la que está *n* + 1 posiciones después, empezando un modelo en cada foto de la pasada. | 1-3, 2-4, 3-5… |
+| **No saltar fotos** | Cada foto que tiene una foto siguiente en la pasada forma un modelo con esa foto siguiente. | 1-2, 2-3, 3-4… |
+| **Saltar fotos** | Cada modelo se forma con una foto y la que está *n* + 1 posiciones después de esa foto en la pasada. Cada modelo posterior al primero empieza en la foto derecha del modelo anterior, así que las fotos intermedias no forman parte de ningún modelo. | 1-3, 3-5, 5-7… |
+| **Saltar fotos pero utilizarlas para otro modelo** | Cada modelo se forma con una foto y la que está *n* + 1 posiciones después de esa foto en la pasada. Se empieza un modelo en cada foto de la pasada que tiene otra foto *n* + 1 posiciones después. | 1-3, 2-4, 3-5… |
 
 El nombre de cada modelo es el de su foto izquierda y el de su foto derecha separados por un guion.
 
 ### Fotos a saltar
 
-Número de fotos que quedan entre la foto izquierda y la foto derecha de cada modelo. Este campo solo se muestra si se elige una opción distinta de **No saltar fotos**. Admite valores de 0 a 1000; con 0, las tres opciones forman los mismos modelos.
+Indica el número de fotos que quedan entre la foto izquierda y la foto derecha de cada modelo. El campo Fotos a saltar solo se muestra si se elige una opción distinta de **No saltar fotos**. El campo admite de 0 a 1000 fotos, ambos extremos incluidos; con 0 fotos, las tres opciones forman los mismos modelos.
 
 ### Aceptar
 
-Carga el proyecto con los modelos formados según la opción elegida. Si se pulsa la tecla **Esc**, el cuadro de diálogo se cierra y el proyecto se carga sin saltar fotos.
+Carga el proyecto con los modelos formados según la opción elegida. Si pulsas la tecla **Esc**, el cuadro de diálogo se cierra y el proyecto se carga sin saltar fotos.
 
 > **Ver también:** [Omitir modelos para los cuales no hay foto](omitir-modelos-para-los-cuales-no-hay-foto.md), que se aplica después de formar los modelos.
 

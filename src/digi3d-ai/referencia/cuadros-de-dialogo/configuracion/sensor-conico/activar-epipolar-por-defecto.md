@@ -1,7 +1,7 @@
 # Activar epipolar por defecto
 <!-- id: activar-epipolar-por-defecto -->
 
-Si está activo, Digi3D.AI activará la rectificación epipolar automáticamente al cargar el par estereoscópico.
+Si activas esta opción, Digi3D.AI activa la rectificación epipolar automáticamente al cargar el par estereoscópico.
 
 ## Valores posibles
 

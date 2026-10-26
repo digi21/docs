@@ -27,8 +27,8 @@ Al pulsar **Comenzar** desde el panel **Orientación relativa**, Digi3D.AI guard
 1. Busca la zona en la imagen derecha en los niveles piramidales 16 y 8.
 2. Recorre en espiral los puntos de alrededor y correla cada uno en los niveles 4 y 1. Acepta el punto si el factor de correlación supera el mínimo, hasta reunir el número de puntos por zona.
 
-La barra de estado muestra **Correlando zona N...** y el porcentaje. Después calcula la orientación relativa con estimadores robustos y excluye los puntos con residuos grandes. Si alguna zona se queda sin puntos, muestra un mensaje con las zonas afectadas. Si ninguna zona tiene puntos, muestra el mensaje **No hay puntos medidos con los que realizar el cálculo de orientación relativa.** y el cuadro de diálogo sigue abierto para cambiar los valores.
+La barra de estado muestra **Correlando zona N...** y el porcentaje de avance de la correlación. Tras correlar las zonas, Digi3D.AI calcula la orientación relativa con estimadores robustos y excluye los puntos cuyos residuos superan el umbral configurado como múltiplo de la desviación típica. Si alguna zona se queda sin puntos, muestra un mensaje con las zonas afectadas. Si ninguna zona tiene puntos, muestra el mensaje **No hay puntos medidos con los que realizar el cálculo de orientación relativa.** y el cuadro de diálogo sigue abierto para cambiar los valores.
 
-Si el cálculo termina, el cuadro de diálogo se cierra y el panel **Orientación relativa** muestra los puntos que intervienen en el cálculo. Si todas las zonas tienen puntos, los primeros de la lista son el mejor punto de cada zona, en el orden de las zonas.
+Si el cálculo termina, el cuadro de diálogo se cierra y el panel **Orientación relativa** muestra los puntos que intervienen en el cálculo. Si todas las zonas tienen puntos, la lista empieza con el punto de cada zona con el menor error calculado a partir de los residuos, en el orden de las zonas.
 
 **Salir** cierra el cuadro de diálogo sin correlar.

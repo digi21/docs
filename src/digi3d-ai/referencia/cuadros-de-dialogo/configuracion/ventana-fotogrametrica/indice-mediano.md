@@ -1,7 +1,7 @@
 # Índice mediano
 <!-- id: indice-mediano -->
 
-Ruta del archivo PNG con la imagen que se muestra cuando se selecciona el índice mediano.
+Indica la ruta del archivo de imagen en formato PNG (Portable Network Graphics) con la imagen que se muestra cuando se selecciona el índice mediano.
 
 <details>
 <summary>Dónde se almacena</summary>

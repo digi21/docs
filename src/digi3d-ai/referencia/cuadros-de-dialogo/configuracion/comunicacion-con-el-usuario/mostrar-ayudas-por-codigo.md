@@ -1,7 +1,7 @@
 # Mostrar ayudas por código
 <!-- id: mostrar-ayudas-por-codigo -->
 
-Indica si Digi3D.AI mostrará en el [panel de ayuda dinámica](../../../paneles/ayuda-dinamica.md) el archivo HTML asociado al código (asignado en el campo Archivo de ayuda) al seleccionarlo como código activo.
+Indica si, al seleccionar un código como activo, Digi3D.AI mostrará en el [panel de ayuda dinámica](../../../paneles/ayuda-dinamica.md) el archivo en lenguaje de marcado de hipertexto (HTML) asociado a ese código (asignado en el campo Archivo de ayuda).
 
 ## Valores posibles
 

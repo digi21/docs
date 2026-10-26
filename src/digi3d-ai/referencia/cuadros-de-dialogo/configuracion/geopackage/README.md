@@ -1,7 +1,7 @@
 # GeoPackage
 <!-- id: geopackage-2 -->
 
-Configuración del importador/exportador de archivos GeoPackage.
+Configura el importador/exportador de archivos GeoPackage.
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 

@@ -1,7 +1,7 @@
 # Tiempo de visualización
 <!-- id: tiempo-de-visualizacion -->
 
-Indica la duración, en minutos, de cada bloque de la barra de producción. La barra representa 12 horas. Cada bloque se pinta en verde si durante ese tiempo el usuario pulsó algún botón del ratón en una ventana de dibujo o algún pedal en una ventana fotogramétrica, y en rojo si no.
+Indica la duración, en minutos, de cada bloque de la barra de producción. La barra representa 12 horas. Cada bloque se pinta en verde si, durante el intervalo que representa, pulsaste algún botón del ratón en una ventana de dibujo o algún pedal en una ventana fotogramétrica. Si no pulsaste ninguno de estos botones o pedales durante ese intervalo, el bloque se pinta en rojo.
 
 ## Valores posibles
 

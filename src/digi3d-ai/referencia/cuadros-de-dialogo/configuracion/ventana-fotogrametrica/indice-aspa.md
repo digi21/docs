@@ -1,7 +1,7 @@
 # Índice aspa
 <!-- id: indice-aspa -->
 
-Ruta del archivo PNG con la imagen que se muestra cuando se selecciona el índice con forma de aspa.
+Indica la ruta del archivo de imagen en formato PNG (Portable Network Graphics) con la imagen que se muestra cuando se selecciona el índice con forma de aspa.
 
 <details>
 <summary>Dónde se almacena</summary>

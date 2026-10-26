@@ -5,8 +5,8 @@ Indica si se añadirán a la tabla de códigos activa los códigos de las entida
 
 ## Valores posibles
 
-* **Sí**. Los códigos no localizados se añaden a la tabla de códigos activa.
-* **No**. Los códigos no localizados no se añaden a la tabla de códigos.
+* **Sí**. Los códigos de las entidades para las que no se ha localizado un código de transformación se añaden a la tabla de códigos activa.
+* **No**. Los códigos de las entidades para las que no se ha localizado un código de transformación no se añaden a la tabla de códigos.
 
 <details>
 <summary>Dónde se almacena</summary>

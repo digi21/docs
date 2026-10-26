@@ -22,7 +22,7 @@ Una dirección URL. Estas son las direcciones por defecto:
 | Ollama | `http://localhost:11434/v1` |
 | OpenAI-compatible | Ninguna |
 
-Si la URL escrita es igual a la del proveedor, Digi3D.AI guarda el valor vacío. Así, si una versión posterior cambia la dirección por defecto, el proveedor sigue esa dirección.
+Si la dirección escrita es igual a la dirección por defecto del proveedor, Digi3D.AI guarda el valor vacío. Si el valor guardado está vacío y una versión posterior cambia la dirección por defecto del proveedor, Digi3D.AI usa la nueva dirección.
 
 El cambio se aplica al pulsar **Aceptar** en el cuadro Configuración. Si el proveedor es el activo en el panel de chat, el panel crea el asistente de nuevo y este olvida la conversación en curso.
 

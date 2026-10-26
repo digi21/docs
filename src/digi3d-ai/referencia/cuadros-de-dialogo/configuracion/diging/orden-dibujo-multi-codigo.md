@@ -3,7 +3,7 @@
 
 Indica el orden en el que se dibujan los códigos cuando una geometría tiene más de un código.
 
-Si una geometría tiene los códigos A, B y C, la ventana de dibujo la dibuja tres veces; con esta opción configuras si se dibuja primero el código A o al revés.
+Si una geometría tiene los códigos A, B y C, la ventana de dibujo representa la geometría tres veces, una por cada código. Con esta opción configuras si el orden de dibujo es A, B, C o C, B, A.
 
 ## Valores posibles
 

@@ -1,7 +1,7 @@
 # Conector con PostGis
 <!-- id: conector-con-postgis -->
 
-Configuración del conector con bases de datos PostGIS.
+Configura el conector con bases de datos PostGIS.
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.
 
