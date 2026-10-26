@@ -11,9 +11,11 @@ El punto de entrada habitual es [`current_view()`](functions.md#current_view), q
 [DrawingView](drawing-view.md) activa.
 
 `digi3d` **reexporta** además los tipos del núcleo de [digi21.base](../digi21.base/README.md),
-de modo que dentro de un guion se pueden usar directamente sin importar nada más:
+de modo que un guion que contiene la línea `import digi3d` puede usarlos con el prefijo `digi3d.`
+(por ejemplo, `digi3d.Line`) sin importar `digi21.base`. Para usar los tipos del núcleo sin el
+prefijo `digi3d.`, el guion debe importarlos con `from digi3d import ...`:
 
-`FeatureCode`, `Geometry`, `Point`, `Text`, `Line`, `Polygon`, `Complex`, `DigiTabNode`,
+`FeatureCode`, `Geometry`, `Point`, `Text`, `Line`, `Polygon`, `Complex`, `DigiTab`, `DigiTabNode`,
 `DrawingFile`, `Camera`, `TextJustification`, `StandardViewpoint`, `PointLineRelativePosition`.
 
 ## Clases

@@ -13,11 +13,12 @@ La orden usa nombres de selecciones solo si el primer parámetro empieza por `#`
 
 ## La expresión
 
-* Es una única expresión de Python, no un guion: no admite `import`, asignaciones ni bloques.
+* Es una única expresión de Python 3, no un guion: no admite `import`, asignaciones ni bloques. Python 3 no admite el operador `<>`: usa `!=`.
 * La variable `g` contiene la geometría que se está evaluando. Es un objeto [Geometry](/digi3d-ai/programacion/python/referencia/digi21.base/geometry.md) cuyo tipo concreto es `Point`, `Text`, `Line`, `Polygon` o `Complex`.
 * No se crea ninguna variable por atributo. Los atributos de base de datos del primer código están en el diccionario `g.codes[0].attributes` (nombre del campo → valor). Si los atributos aún no se han leído, leer `attributes` consulta la base de datos.
 * La expresión debe devolver `True` o `False`. También se acepta `None` (falso) o un número (verdadero si es distinto de 0). Una cadena, una lista u otro tipo produce un error.
-* La expresión puede llamar a las funciones definidas en el [entorno Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md) de la tabla de códigos.
+* La expresión puede usar las funciones integradas de Python (como `len` o `type`) y los nombres que define el [entorno Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md) de la tabla de códigos, incluidas sus funciones. Digi3D.AI ejecuta el entorno en el módulo `__main__` del intérprete de Python al abrir el archivo de dibujo y, cuando la orden se ejecuta desde la línea de comandos, un menú o una macroinstrucción, evalúa la expresión en ese mismo módulo.
+* Si la evaluación de la expresión consulta un nombre que no está definido en el módulo `__main__` (la variable `g` y los nombres del entorno) ni entre los nombres integrados de Python, Python lanza un error `NameError`. Por ejemplo, el entorno que se descarga de GitHub contiene la línea `import digi3d`, así que la expresión puede usar `digi3d.Text`; para escribir `Text` sin el prefijo `digi3d.`, el entorno debe importar ese nombre con una línea como `from digi3d import Text`.
 
 ## Cuadro de diálogo
 
@@ -42,7 +43,13 @@ Sustituye `code` y `field` por el código y el campo reales.
 
 ## Errores
 
-Si la expresión tiene un error de sintaxis, o falla con alguna geometría, Digi3D.AI muestra un mensaje con el error de Python. Por ejemplo, falla `g.area` en un punto, o `attributes['campo']` si el campo no existe. El mensaje aparece una vez por cada archivo de dibujo cargado, y en ese archivo la orden no cambia ninguna geometría.
+Si la expresión tiene un error de sintaxis, o lanza una excepción con alguna geometría, Digi3D.AI muestra un cuadro de mensaje que empieza por el tipo y el texto del error de Python, por ejemplo `NameError: name 'Text' is not defined`. Lanzan una excepción, por ejemplo, `g.area` en un punto y `attributes['campo']` si el campo no existe.
+
+Después del error, la orden deja de evaluar la expresión en el archivo de dibujo en el que se ha producido el error y no muestra ninguna geometría de ese archivo por esa expresión, aunque la expresión haya devuelto verdadero al evaluar otras geometrías del mismo archivo antes del error. Con varios nombres de selecciones (`#`), la orden muestra las geometrías que cumplen las selecciones cuya expresión no falla. Si quedan otros archivos de dibujo cargados, la orden evalúa la expresión en el siguiente archivo, así que el cuadro de mensaje aparece una vez por cada archivo de dibujo en el que falla la expresión. Con nombres de selecciones (`#`), aparece una vez por cada selección y cada archivo de dibujo en los que falla la expresión.
+
+Si la orden forma parte de una [macroinstrucción](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/macroinstrucciones.md) (`@`), Digi3D.AI ejecuta la orden siguiente de la macroinstrucción después de que el usuario cierre el cuadro de mensaje.
+
+La página [Actualizar los controles de calidad Python de una tabla de códigos](/digi3d-ai/usuarios-de-versiones-anteriores/actualizar-guiones-python.md#errores-después-de-sustituir-el-entorno) explica los errores `NameError` y `AttributeError` de las expresiones escritas para versiones anteriores de Digi3D.
 
 Para evitar errores:
 

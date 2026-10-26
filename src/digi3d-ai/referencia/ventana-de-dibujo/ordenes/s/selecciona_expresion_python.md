@@ -24,7 +24,7 @@ SELECCIONA_EXPRESION_PYTHON=type(g).__name__ == 'Text' and g.text == ''
 ## Observaciones
 
 * La orden evalúa solo las geometrías del archivo de dibujo activo que son visibles y están dentro de la zona de interés. Las geometrías borradas solo se evalúan si está activada la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md).
-* Si la expresión falla, Digi3D.AI muestra el error de Python y la orden en curso recibe una selección vacía.
+* Si la expresión falla, Digi3D.AI muestra el error de Python y la orden en curso recibe una selección vacía, aunque la expresión haya devuelto verdadero al evaluar otras geometrías del archivo activo antes del error. El apartado [Errores](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md#errores) de ON\_EXPRESIÓN\_PYTHON describe los errores.
 * El submenú **Inmediato/Selecciona por expresión Python...** muestra, debajo de **Introduciendo expresión...**, las selecciones de la tabla de códigos activa. Cada opción ejecuta esta orden con la expresión de esa selección. Las opciones están desactivadas mientras no haya una orden en curso que admita selección múltiple.
 
 ## Características de la orden

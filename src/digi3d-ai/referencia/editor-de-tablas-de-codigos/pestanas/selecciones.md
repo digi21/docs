@@ -32,11 +32,11 @@ ON_EXPRESION_PYTHON=#Edificios
 
 ## La expresión
 
-* Es una única expresión de Python, no un guion: no admite `import`, asignaciones ni bloques.
+* Es una única expresión de Python 3, no un guion: no admite `import`, asignaciones ni bloques. Python 3 no admite el operador `<>`: usa `!=`. Para leer el texto del primer código, sustituye el nombre de .NET `g.Codes[0].Name` por `g.codes[0].code`, de la [interfaz de programación de aplicaciones (API) de Python](/digi3d-ai/programacion/python/referencia/digi21.base/geometry.md).
 * La variable `g` contiene la geometría que se está evaluando. Es un objeto [Geometry](/digi3d-ai/programacion/python/referencia/digi21.base/geometry.md) cuyo tipo concreto es `Point`, `Text`, `Line`, `Polygon` o `Complex`.
 * No se crea ninguna variable por atributo de base de datos. Los atributos del primer código están en el diccionario `g.codes[0].attributes` (nombre del campo → valor). Para leer un campo, usa `g.codes[0].attributes.get('campo')`, que devuelve `None` si el campo no existe.
 * La expresión debe devolver `True` o `False`. También se acepta `None` (falso) o un número (verdadero si es distinto de 0). Una cadena, una lista u otro tipo produce un error.
-* La expresión puede llamar a las funciones definidas en el [entorno Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md) de la tabla de códigos.
+* La expresión puede usar las funciones integradas de Python (como `len` o `type`) y los nombres que define el [entorno Python](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md) de la tabla de códigos, incluidas sus funciones. Si la evaluación de la expresión consulta un nombre que no está definido en el módulo `__main__` (la variable `g` y los nombres del entorno) ni entre los nombres integrados de Python, Python lanza un error `NameError`. Para usar `Text` sin el prefijo `digi3d.`, el entorno debe importar ese nombre con una línea como `from digi3d import Text`. La página de [ON\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md#la-expresión) detalla qué nombres puede usar la expresión.
 
 | Expresión | Significado |
 | :--- | :--- |
@@ -49,7 +49,7 @@ ON_EXPRESION_PYTHON=#Edificios
 | `g.closed` | Indica si la geometría está cerrada. Solo en líneas, polígonos y complejos. |
 | `g.text` | Cadena de un texto. Solo en textos. |
 
-Si la expresión falla con alguna geometría, por ejemplo con `g.area` en un punto, Digi3D.AI muestra el error de Python. Comprueba antes el tipo: `type(g).__name__ == 'Line' and g.area > 100`.
+Si la expresión falla con alguna geometría, por ejemplo con `g.area` en un punto, Digi3D.AI muestra el error de Python. Comprueba el tipo de `g` antes de leer `g.area`: `type(g).__name__ == 'Line' and g.area > 100`. El apartado [Errores](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md#errores) de ON\_EXPRESIÓN\_PYTHON describe qué ocurre cuando la expresión falla.
 
 ## Cuadro de diálogo Nueva selección
 

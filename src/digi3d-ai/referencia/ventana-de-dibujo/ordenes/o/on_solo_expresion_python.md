@@ -35,7 +35,7 @@ ON_SOLO_EXPRESION_PYTHON=#Edificios #Deportivo
 
 ## Observaciones
 
-* Si la expresión falla, Digi3D.AI muestra el error de Python una vez por archivo de dibujo, y **todas las geometrías de ese archivo quedan ocultas**. Para volver a verlas, ejecuta [VER\_TODAS\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-todas-entidades.md).
+* Si la expresión falla, Digi3D.AI muestra el error de Python una vez por cada archivo de dibujo en el que falla la expresión (con nombres de selecciones, una vez por cada selección y archivo de dibujo en los que falla), y **todas las geometrías de ese archivo quedan ocultas**, salvo las que cumplen otra selección indicada con `#` cuya expresión no falla. Para mostrar las geometrías ocultas del archivo en el que ha fallado la expresión, ejecuta [VER\_TODAS\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-todas-entidades.md). Si la orden forma parte de una [macroinstrucción](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/macroinstrucciones.md) (`@`), Digi3D.AI ejecuta la orden siguiente de la macroinstrucción después de que el usuario cierre el cuadro de mensaje, y las geometrías que ON\_SOLO\_EXPRESIÓN\_PYTHON ha ocultado siguen ocultas. El apartado [Errores](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md#errores) de ON\_EXPRESIÓN\_PYTHON describe los errores.
 * Ocultar y mostrar por expresión es independiente de la visibilidad por código: una geometría cuyo código está apagado sigue sin dibujarse.
 
 ## Características de la orden

@@ -34,7 +34,7 @@ OFF_EXPRESION_PYTHON=#Edificios #Deportivo
 ## Observaciones
 
 * La orden actúa sobre todas las geometrías de todos los archivos de dibujo cargados.
-* Si la expresión falla, Digi3D.AI muestra el error de Python una vez por archivo de dibujo, y en ese archivo no se oculta ninguna geometría.
+* Si la expresión falla, Digi3D.AI muestra el error de Python una vez por cada archivo de dibujo en el que falla la expresión (con nombres de selecciones, una vez por cada selección y archivo de dibujo en los que falla), y en ese archivo OFF\_EXPRESIÓN\_PYTHON no oculta ninguna geometría por la expresión que falla. Con varios nombres de selecciones (`#`), OFF\_EXPRESIÓN\_PYTHON oculta las geometrías que cumplen las selecciones cuya expresión no falla. Si OFF\_EXPRESIÓN\_PYTHON forma parte de una [macroinstrucción](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/ejecutar-una-orden-desde-la-linea-de-comandos/macroinstrucciones.md) (`@`), Digi3D.AI ejecuta la orden siguiente de la macroinstrucción después de que el usuario cierre el cuadro de mensaje, aunque OFF\_EXPRESIÓN\_PYTHON no haya ocultado ninguna geometría. El apartado [Errores](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md#errores) de ON\_EXPRESIÓN\_PYTHON describe los errores.
 * Las geometrías ocultas no se dibujan en la ventana de dibujo ni en la ventana fotogramétrica. Para volver a mostrarlas, ejecuta [ON\_EXPRESIÓN\_PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md) o [VER\_TODAS\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-todas-entidades.md).
 
 ## Características de la orden
