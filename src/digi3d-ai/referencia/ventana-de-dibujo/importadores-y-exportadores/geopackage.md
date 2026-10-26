@@ -34,7 +34,7 @@ El cuadro de diálogo Configuración tiene más opciones de este formato en [Geo
 
 Las capas sin clave primaria, como las vistas, no se cargan: Digi3D.AI muestra un aviso con su nombre y carga el resto del archivo.
 
-Si varios códigos enlazan con la misma tabla, una entidad recibe el primer código cuyas condiciones cumple todas; un campo sin valor (NULL) no cumple ninguna condición.
+Si varios códigos enlazan con la misma tabla, una entidad recibe el primer código para el que cumple todas las condiciones; un campo sin valor (NULL) no cumple ninguna condición.
 
 ## Características del importador/exportador
 

@@ -5,7 +5,7 @@ Exportador de **Archivos Adobe Pdf**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
 
 Por ejemplo:
 
@@ -21,7 +21,7 @@ PARAMETROS_IMPORTACION=.pdf <Tamano> <Escala> <ExplotarSimbologia> <Titulo>
 | 4 | No se usa | Sí |
 | 5 | Título | Sí |
 
-El título es el quinto parámetro: para indicarlo hay que escribir antes un cuarto parámetro cualquiera. Un parámetro que se omite conserva su valor por defecto.
+Escribe un cuarto parámetro cualquiera antes de indicar el título como quinto parámetro. Los parámetros que omites conservan sus valores por defecto.
 
 
 ## Parámetros del motor de importación/exportación

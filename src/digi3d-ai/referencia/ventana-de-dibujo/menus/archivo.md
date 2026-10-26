@@ -1,5 +1,5 @@
 # Archivo
 <!-- id: archivo -->
 
-Permite ejecutar acciones relacionadas con archivos
+El menú Archivo permite ejecutar acciones relacionadas con archivos.
 

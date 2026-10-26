@@ -8,12 +8,12 @@ Activa o desactiva el análisis de voz en tiempo real.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor que indica si activar o desactivar el análisis de voz. |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Valor que indica si activar o desactivar el análisis de voz. |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones
 
-Si está activo, el programa escucha comandos por el micrófono del ordenador. Si se localiza algún comando de los especificados en la pestaña [Reconocimiento de voz](../../../editor-de-tablas-de-codigos/pestanas/reconocimiento-de-voz.md) del programa [Editor de tablas de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/), el programa ejecuta dicho comando.
+Si RECONOCER_VOZ está activada, el programa escucha órdenes por el micrófono del ordenador. Si reconoce alguna de las órdenes especificadas en la pestaña [Reconocimiento de voz](../../../editor-de-tablas-de-codigos/pestanas/reconocimiento-de-voz.md) del programa [Editor de tablas de códigos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/), el programa ejecuta la orden reconocida.
 
 ## Características de la orden
 

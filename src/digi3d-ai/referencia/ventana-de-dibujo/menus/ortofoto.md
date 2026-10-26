@@ -1,5 +1,5 @@
 # Ortofoto
 <!-- id: ortofoto -->
 
-Permite ejecutar acciones relacionadas con la creación de ortofografías.
+El menú Ortofoto permite ejecutar acciones relacionadas con la creación de ortofotografías.
 

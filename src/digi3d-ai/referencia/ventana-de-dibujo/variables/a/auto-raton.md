@@ -9,9 +9,9 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 
 ## Observaciones
 
-Si está activa, Digi3D.AI captura el ratón y se lo "roba" a Windows.
+Si la variable está activa, Digi3D.AI captura el ratón e impide que lo uses fuera de la ventana de dibujo.
 
-A partir de ese momento, la ventana de dibujo va siguiendo al cursor (cuando se mueve con el ratón del sistema) en sus desplazamientos por el dibujo, de manera que es imposible sacar el ratón de la ventana. Para liberarlo, tendremos que desactivar esta opción.
+Mientras AUTO_RATON esté activa, la ventana de dibujo sigue al cursor cuando lo mueves con el ratón del sistema por el dibujo. El cursor no puede salir de la ventana de dibujo mientras AUTO_RATON esté activa. Desactiva AUTO_RATON para liberar el ratón.
 
 ## Vídeo
 

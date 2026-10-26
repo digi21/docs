@@ -3,9 +3,9 @@
 
 Activa o desactiva el autocentrado de la ventana de dibujo cuando el dispositivo de entrada es la ventana fotogramétrica.
 
-Cuando está activa, si el cursor se sale de los límites de la ventana de dibujo, ésta se va centrando continuamente para que el cursor no desaparezca.
+Cuando AUTO está activa, si el cursor sobrepasa los límites de la ventana de dibujo, la ventana de dibujo se centra continuamente para que el cursor permanezca visible en la ventana de dibujo.
 
-Para el caso de que el dispositivo de entrada sea el ratón, se utiliza la variable [AUTO_RATON](auto-raton.md).
+Utiliza la variable [AUTO_RATON](auto-raton.md) si el dispositivo de entrada es el ratón.
 
 ## Parámetros
 

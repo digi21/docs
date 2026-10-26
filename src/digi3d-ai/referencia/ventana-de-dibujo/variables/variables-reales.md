@@ -10,9 +10,9 @@ La mayoría de estas órdenes, si se ejecutan sin parámetros, muestran en la ba
 
 ### Ejemplos
 
-La orden de tipo variable real:[ AT](a/at.md) configura la altura de los textos que se van a dibujar con la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md). 
+La orden de tipo variable real [ AT](a/at.md) configura la altura de los textos que se van a dibujar con la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md). 
 
-Si queremos asignar una altura de 1.25 ejecutaremos la siguiente orden:
+Ejecuta la siguiente orden para asignar una altura de 1.25 unidades de longitud de trabajo del dibujo:
 
 ```text
 AT=1.25

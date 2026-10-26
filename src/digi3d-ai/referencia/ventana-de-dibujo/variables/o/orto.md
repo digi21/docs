@@ -8,12 +8,12 @@ Activa o desactiva la modalidad de orto.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Modo automático |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones
 
-Si cuando se dibuja está activado, cada segmento que se trace, se fuerza a que sea perpendicular al anterior.
+Si ORTO está activada mientras dibujas, el programa fuerza cada segmento que traces a ser perpendicular al segmento anterior.
 
 ## Características de la orden
 

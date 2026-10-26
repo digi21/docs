@@ -5,7 +5,7 @@ Importador y exportador de **Archivos Ascii de Digi**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
 
 Por ejemplo:
 
@@ -29,14 +29,14 @@ Estas propiedades aparecen en la categoría **Motor de importación/exportación
 
 ### Sistema de referencia de coordenadas
 
-El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que el archivo de dibujo. Si ese archivo existe, Digi3D.AI lo utiliza. Si no existe:
+El sistema de referencia se guarda en un archivo `.prj` con el mismo nombre que el archivo de dibujo. Si el archivo `.prj` existe, Digi3D.AI lo utiliza. Si el archivo `.prj` no existe:
 
 * Al importar, se usa la propiedad **Sistema de referencia de coordenadas**. Si vale **Desconocido** o es un sistema local, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**. El sistema no se escribe en ningún `.prj`.
 * Al exportar, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido.
 
 ## Formato del archivo
 
-Cada entidad empieza por una línea de cabecera: una letra con el tipo, `=` si la entidad está viva o un espacio si está borrada, el código, el número de vértices o de entidades y el número de atributos. Detrás van las líneas propias del tipo y, al final, una línea por atributo.
+Cada entidad empieza por una línea de cabecera: una letra con el tipo, `=` si la entidad no está borrada o un espacio si está borrada, el código, el número de vértices o de entidades y el número de atributos. Después de la cabecera se escriben las líneas propias del tipo de entidad y, después de esas líneas, una línea por atributo.
 
 | Tipo | Entidad | Cabecera | Líneas detrás de la cabecera |
 | :--- | :--- | :--- | :--- |

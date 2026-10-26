@@ -1,25 +1,25 @@
 # DISTANCIA\_MÁXIMA
 <!-- id: distancia-maxima -->
 
-Establece una restricción de tamaño máximo de segmento para la orden línea.
+Establece una restricción de longitud máxima de segmento para la orden línea.
 
-Cuando está activo, los siguientes segmentos que se dibujen tendrán como máximo el valor asignado en esta variable.
+Cuando la restricción está activa, la longitud de los siguientes segmentos que dibujes no superará el valor asignado a esta variable.
 
 ## Parámetros
 
-Esta orden se puede ejecutar con un parámetro o sin parámetros
+Esta orden se puede ejecutar con un parámetro o sin parámetros.
 
 ### Con un parámetro
 
 | Número de parámetro | Descripción                                                                                         | Valores     | Opcional |
 | ------------------- | --------------------------------------------------------------------------------------------------- | ----------- | -------- |
-| 1                   | Distancia máxima a asignar o 0 si se desea deshabilitar la restricción de tamaño máximo de segmento | Número real | Si       |
+| 1                   | Distancia máxima que se asignará, o 0 para deshabilitar la restricción de longitud máxima de segmento | Número real | Sí       |
 
 ### Sin parámetros
 
-Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes el perímetro máximo de segmento, o que digitalicemos dos puntos para asignar la distancia entre ellos.
+Si no especificas ningún parámetro, el programa te solicitará que introduzcas en la barra de mensajes la longitud máxima de segmento o que digitalices dos puntos para que el programa asigne a la longitud máxima de segmento la distancia entre esos puntos.
 
-Si introducimos un 0, se deshabilitará la restricción de tamaño máximo de segmento.
+Si introduces un 0, se deshabilitará la restricción de longitud máxima de segmento.
 
 `DISTANCIA_MAXIMA=?` muestra el valor actual en un globo.
 
@@ -31,7 +31,7 @@ El valor por defecto es 0 (sin restricción).
 
 ## Ejemplos
 
-Para indicar que el siguiente segmento de la línea debe tener como máximo 12.5 metros ejecutaremos la orden:
+Ejecuta la orden para indicar que el siguiente segmento de la línea debe tener como máximo 12.5 metros:
 
 ```
 DISTANCIA_MAXIMA=12.5

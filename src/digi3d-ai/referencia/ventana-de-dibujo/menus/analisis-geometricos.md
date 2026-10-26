@@ -1,5 +1,5 @@
 # Análisis geométricos
 <!-- id: analisis-geometricos -->
 
-Permite ejecutar acciones relacionadas con el análisis geométricos.
+El menú Análisis geométricos permite ejecutar acciones relacionadas con el análisis geométrico.
 

@@ -1,26 +1,26 @@
 # REPITE
 <!-- id: repite -->
 
-Si está activa, repite la última orden que se ha ejecutado para las órdenes que admiten repetición.
+Si la variable está activa, el programa repite la última orden ejecutada, siempre que la orden admita repetición.
 
 ## Parámetros
 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Repetir |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Repetir |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones
 
-Algunas órdenes tienen la capacidad de auto-ejecutarse cada vez que finalizan. Podemos controlar si queremos o no que se auto-ejecuten estas órdenes al finalizarse mediante esta orden.
+La variable REPITE permite activar o desactivar la repetición automática de las órdenes que admiten repetición cuando esas órdenes finalizan.
 
-Esta orden es de tipo booleano, lo que significa que puede estar activa o desactiva. La variable se activa cada vez que se abre un archivo de dibujo.
+La variable REPITE puede estar activa o desactivada y se activa cada vez que se abre un archivo de dibujo.
 
-* Si la orden está activa y ejecutamos una orden que admite repetición, como por ejemplo [2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/2/2p.md), cuando se digitalice el cuadrado, la orden 2P se auto-destruirá, pero al estar activa la orden _REPITE_, _DigiNG_ volverá a ejecutar la orden _2P_ con los mismos parámetros.
-* Si la orden no está activa y ejecutamos una orden que admite repetición, cuando ésta se destruya no se volverá a ejecutar automáticamente.
+* Si la variable está activa y ejecutas una orden que admite repetición, como [2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/2/2p.md), al digitalizar el cuadrado, la orden 2P finalizará y _DigiNG_ volverá a ejecutar la orden _2P_ con los mismos parámetros.
+* Si la variable no está activa y ejecutas una orden que admite repetición, esa orden no se volverá a ejecutar automáticamente cuando finalice.
 
-Algunas órdenes no admiten auto-repetición, como por ejemplo la orden [BORRA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md), pues si esta orden admitiese repetición, si se ejecuta con el valor de REPITE activado, se borraría todo el modelo al ejecutarla.
+Algunas órdenes no admiten repetición automática, como la orden [BORRA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md), pues, si esta orden admitiera repetición y la ejecutaras con REPITE activada, se borraría todo el modelo.
 
 ## Características de la orden
 

@@ -25,7 +25,7 @@ DigiNG iría insertando los siguientes textos:
 
 `AUTONUM=1`, con `FORMATO_AUTONUM="%5d"`
 
-En este caso se ha modificado el ancho del texto, para que ponga por ejemplo " 1" en vez de "1". DigiNG iría insertando los siguientes textos:
+El formato "%5d" establece un ancho mínimo de 5 caracteres y completa el número con espacios a la izquierda. DigiNG insertaría los siguientes textos:
 
 ```text
     1
@@ -37,7 +37,7 @@ En este caso se ha modificado el ancho del texto, para que ponga por ejemplo " 1
 
 `AUTONUM=1`, con `FORMATO_AUTONUM="%05d"`
 
-En este caso se van a añadir ceros a la izquierda del número a la vez de ha modificarse el ancho del texto, para que ponga por ejemplo "00001" en vez de "1". DigiNG iría insertando los siguientes textos:
+El formato "%05d" establece un ancho mínimo de 5 caracteres y completa el número con ceros a la izquierda para obtener, por ejemplo, "00001" en vez de "1". DigiNG insertaría los siguientes textos:
 
 00001
 

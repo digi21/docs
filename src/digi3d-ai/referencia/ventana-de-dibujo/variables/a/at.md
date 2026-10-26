@@ -15,7 +15,7 @@ Esta orden se puede ejecutar con o sin parámetros.
 
 ### Sin parámetros
 
-Si ejecutamos esta orden sin parámetros, esta solicitará en la barra de estado que tecleemos el valor o que digitalicemos gráficamente dos puntos. Si se digitalizan dos puntos, se asignará el valor de altura de textos como la distancia entre los dos puntos digitalizados.
+Si ejecutas esta orden sin parámetros, la orden te solicitará en la barra de estado que teclees la altura de los textos o que digitalices dos puntos. Si digitalizas dos puntos, la orden asignará a la altura de los textos la distancia entre esos puntos.
 
 ## Observaciones
 
@@ -23,7 +23,7 @@ El valor por defecto es 1.5.
 
 ## Ejemplos
 
-Para asignar como altura de textos el valor 10.5
+Ejecuta la siguiente orden para asignar como altura de textos 10.5 unidades de longitud de trabajo del dibujo:
 
 ```text
 AT=10.5

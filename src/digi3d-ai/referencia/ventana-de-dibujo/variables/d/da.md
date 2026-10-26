@@ -1,11 +1,11 @@
 # DA
 <!-- id: da -->
 
-Asigna/consulta el valor de _distancia activa_ y el valor de la _distancia activa secundaria._
+Asigna o consulta el valor de la _distancia activa_ y el de la _distancia activa secundaria_.
 
 ## Parámetros
 
-Esta orden se puede ejecutar con un parámetro, con dos parámetros o sin parámetros
+Esta orden se puede ejecutar con un parámetro, con dos parámetros o sin parámetros.
 
 ### Con un parámetro
 
@@ -22,9 +22,9 @@ Esta orden se puede ejecutar con un parámetro, con dos parámetros o sin parám
 
 ### Sin parámetros
 
-Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes primero la distancia activa y luego la secundaria.
+Si no especificas ningún parámetro, el programa te solicitará que introduzcas en la barra de mensajes primero la distancia activa y, después de introducir la distancia activa, la distancia activa secundaria.
 
-Estas distancias las podemos introducir manualmente \(tecleando el valor y luego pulsando Enter\) o gráficamente en la ventana de dibujo. En caso de hacerlo gráficamente, se asignará la distancia en planimetría (sin tener en cuenta la Z) entre los dos puntos digitalizados.
+Introduce la distancia activa principal y la secundaria manualmente \(teclea cada valor y pulsa Enter\) o digitaliza dos puntos en la ventana de dibujo para indicar cada distancia. Si digitalizas dos puntos para indicar una distancia, el programa asignará la distancia en planimetría (sin tener en cuenta la Z) entre esos puntos.
 
 ### Consulta
 
@@ -36,13 +36,13 @@ El valor por defecto de las dos distancias es 1.
 
 ## Ejemplos
 
-Para asignar el valor 12.45 a la distancia activa principal y a la secundaria ejecutaremos la orden:
+Ejecuta la orden para asignar 12.45 unidades de longitud de trabajo del dibujo a la distancia activa principal y a la secundaria:
 
 ```text
 DA=12.45
 ```
 
-Para asignar como distancia activa principal el valor 12.45 y como distancia activa secundaria el valor 22.49 ejecutaremos la orden:
+Ejecuta la orden para asignar como distancia activa principal 12.45 unidades de longitud de trabajo del dibujo y como distancia activa secundaria 22.49 unidades de longitud de trabajo del dibujo:
 
 ```text
 DA=12.45 22.49

@@ -5,7 +5,7 @@ Importador de **Imágenes ráster**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md), con la extensión de la imagen.
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md), con la extensión de la imagen.
 
 Por ejemplo:
 
@@ -31,7 +31,7 @@ Digi3D.AI guarda los valores de las propiedades en la configuración del usuario
 
 ### Sistema de referencia de coordenadas
 
-El sistema de referencia se lee de la georreferenciación de la imagen. Si la imagen no lo tiene, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea un archivo `.prj` con el mismo nombre que la imagen con el sistema elegido.
+El sistema de referencia se lee de la georreferenciación de la imagen. Si la georreferenciación de la imagen no incluye un sistema de referencia, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y guarda el sistema elegido en un archivo `.prj` con el mismo nombre que la imagen.
 
 ## Características del importador/exportador
 

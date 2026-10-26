@@ -1,14 +1,14 @@
 # FORZAR\_AA\_ACTIVA
 <!-- id: forzar-aa-activa -->
 
-Si está activada, tanto en restitución como en edición, todos los textos que genere cualquier orden, como puedan ser [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md), se almacenan con el _ángulo activo_ vigente en el momento de la ejecución de dichas órdenes.
+Si la variable FORZAR_AA_ACTIVA está activada, tanto en restitución como en edición, todos los textos que genere cualquier orden, como [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md), se almacenan con el _ángulo activo_ vigente en el momento de la ejecución de cada orden.
 
 ## Parámetros
 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor que indica si se fuerza el ángulo activo |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Valor que indica si se fuerza el ángulo activo |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones

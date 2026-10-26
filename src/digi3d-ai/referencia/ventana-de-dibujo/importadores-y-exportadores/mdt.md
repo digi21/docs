@@ -13,7 +13,7 @@ Este formato no añade propiedades a la categoría **Motor de importación/expor
 
 ### Sistema de referencia de coordenadas
 
-El sistema de referencia se lee de un archivo `.prj` con el mismo nombre que el archivo. Si no existe, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido. Si el archivo se abre en solo lectura o se importa, no se crea el `.prj` y el sistema elegido solo se usa durante la sesión.
+El sistema de referencia se lee de un archivo `.prj` con el mismo nombre que el archivo MDT. Si el archivo `.prj` no existe, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo** y crea el `.prj` con el sistema elegido. Si el archivo MDT se abre en solo lectura o se importa, Digi3D.AI no crea el `.prj` y utiliza el sistema elegido únicamente durante la sesión.
 
 El sistema de referencia horizontal del archivo tiene que coincidir con el de la ventana de dibujo. Si no coincide, Digi3D.AI muestra el error «Sistemas de coordenadas de referencia incompatibles» y no carga el archivo.
 

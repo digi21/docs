@@ -1,19 +1,19 @@
 # ORTO\_AA
 <!-- id: orto-aa -->
 
-Traza entidades en las que sus tramos son perpendiculares entre sí, pero atendiendo a la dirección marcada por el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
+Traza entidades cuyos tramos son perpendiculares entre sí, tomando como referencia la dirección marcada por el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 
 ## Parámetros
 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Modo automático |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones
 
-Hay que determinar el valor del _ángulo activo_ antes de ejecutar la orden ORTO\_AA
+Define el valor del _ángulo activo_ antes de ejecutar la orden ORTO\_AA.
 
 ## Características de la orden
 

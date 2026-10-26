@@ -5,7 +5,7 @@ Importador y exportador de **Archivos de conexión con PostGIS**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
 
 Por ejemplo:
 
@@ -24,7 +24,7 @@ PARAMETROS_IMPORTACION=.pg <Servidor> <Puerto> <Usuario> <Contraseña> <BaseDeDa
 
 ## Parámetros del motor de importación/exportación
 
-Estas propiedades aparecen en la categoría **Motor de importación/exportación** de la pestaña [Archivo de dibujo](../../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md) del cuadro de diálogo Nuevo proyecto y de los cuadros de diálogo que abren, importan o exportan archivos de este formato. Se guardan en el propio archivo `.pg`, que contiene la conexión: si el archivo ya existe, sus valores iniciales salen de él; si no, de la última vez que se usó el formato.
+Estas propiedades aparecen en la categoría **Motor de importación/exportación** de la pestaña [Archivo de dibujo](../../cuadros-de-dialogo/nuevo-proyecto/archivo-de-dibujo.md) del cuadro de diálogo Nuevo proyecto y de los cuadros de diálogo que abren, importan o exportan archivos de este formato. Los valores de las propiedades del motor se guardan en el propio archivo `.pg`, que contiene la conexión: si el archivo ya existe, los valores iniciales de las propiedades se leen de ese archivo; si no existe, se usan los valores de las propiedades de la última vez que se utilizó el formato.
 
 | Propiedad | Valores | Qué hace |
 | :--- | :--- | :--- |

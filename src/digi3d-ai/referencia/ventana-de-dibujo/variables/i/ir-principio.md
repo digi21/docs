@@ -15,7 +15,7 @@ Si se ejecuta sin parámetros, la orden asigna el valor 1 si el valor actual es 
 
 ## Observaciones
 
-En ocasiones nos interesa que al finalizar una línea la ventana fotogramétrica se desplace al comienzo de ésta, o que se desplace al comienzo de ésta sumando o restando a la coordenada Z el valor de la [equidistancia](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
+La variable IR_PRINCIPIO permite que, al finalizar una línea, la ventana fotogramétrica se desplace al comienzo de la línea, con la Z del comienzo de la línea o con el resultado de sumar o restar a esa Z el valor de la [equidistancia](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
 
 Con los valores 2 a 5, si [FIJAZ](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/fijaz.md) está activada, la Z fijada pasa a ser la nueva Z.
 

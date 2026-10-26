@@ -46,7 +46,7 @@ Los parámetros de cada importador/exportador se le pasan mediante la orden [PAR
 
 ## Parámetros al crear y al abrir archivos
 
-Al crear, abrir, importar o exportar un archivo, la categoría **Motor de importación/exportación** de los cuadros de diálogo muestra las propiedades del formato. Algunos formatos muestran además otros cuadros de diálogo, y casi todos necesitan un sistema de referencia de coordenadas. La página de cada formato los explica en la sección **Parámetros del motor de importación/exportación**.
+Al crear, abrir, importar o exportar un archivo, la categoría **Motor de importación/exportación** de los cuadros de diálogo muestra las propiedades del formato. Digi3D.AI muestra además otros cuadros de diálogo para algunos formatos, y casi todos necesitan un sistema de referencia de coordenadas. La página de cada formato explica las propiedades, los cuadros de diálogo y el sistema de referencia en la sección **Parámetros del motor de importación/exportación**.
 
 | Formato | Propiedades del motor | Cuadros de diálogo al abrir o crear | Sistema de referencia de coordenadas |
 | :--- | :--- | :--- | :--- |

@@ -25,10 +25,10 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 ### Archivos de referencia
 
-* [CAMBIA\_FICHEROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-ficheros.md): Cambia el fichero de dibujo activo por el fichero de dibujo que tengas de referencia, intercambiándose.
+* [CAMBIA\_FICHEROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-ficheros.md): Intercambia el fichero de dibujo activo con el fichero de dibujo de referencia.
 * [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md): Visualiza en pantalla, junto al fichero actual de dibujo, uno o varios ficheros gráficos de referencia.
 * [DEJAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dejar.md): Descarga los ficheros de referencia que se encuentren unidos al fichero de trabajo.
-* [RECARGAR\_ARCHIVOS\_REFERENCIA\_VISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recargar-archivos-referencia-vista.md): Recarga los archivos de referencia que admiten región de interés para con las entidades que solapan con la vista actual.
+* [RECARGAR\_ARCHIVOS\_REFERENCIA\_VISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recargar-archivos-referencia-vista.md): Recarga los archivos de referencia que admiten región de interés con las entidades que solapan con la vista actual.
 
 ### Herramientas de archivo
 
@@ -46,22 +46,22 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 * [ANULA\_ENTIDADES\_DE\_INTERES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anula-entidades-de-interes.md): Anula las entidades de interés de modo que todas las entidades cargadas se activan para todos los procesos.
 * [BUSCAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/buscar.md): Especifica criterios de búsqueda para entidades.
-* [ENTIDADES\_DE\_INTERES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/entidades-de-interes.md): Especifica las entidades de interés en la que se centrarán las órdenes que realizan modificaciones sobre entidades.
+* [ENTIDADES\_DE\_INTERES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/entidades-de-interes.md): Especifica las entidades de interés sobre las que actuarán las órdenes que realizan modificaciones sobre entidades.
 * [REDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/redo.md): Rehace la última operación deshecha con la orden UNDO.
-* [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md): Deshace las últimas acciónes efectuadas por el programa.
+* [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md): Deshace las últimas acciones efectuadas por el programa.
 
 ### Eliminar, recortar y recuperar entidades
 
-* [BORRA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod.md): Borra todas aquellas entidades que tengan un código igual al indicado por el usuario.
-* [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md): Borra todas aquellas entidades que tengan un código igual al teclado por el usuario y que además estén asociadas a una ventana, bien en el interior de la ventana, bien en solape con ella o bien que se corten con la ventana misma.
+* [BORRA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod.md): Borra todas aquellas entidades que tengan un código igual al que indiques.
+* [BORRA\_COD\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-cod-v.md): Borra todas aquellas entidades que tengan un código igual al que teclees y que además estén asociadas a una ventana, bien en el interior de la ventana, bien en solape con ella o bien que se corten con la ventana misma.
 * [BORRA\_E](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-e.md): Borra del dibujo las entidades gráficas y textos que se indiquen.
 * [BORRA\_LIN1](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-lin1.md): Borra las líneas registradas con un solo punto y los elementos cuyos vértices coinciden todos.
 * [BORRA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-ultimo.md): Borra la última entidad registrada en el fichero de dibujo.
-* [BORRA\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-v.md): Borra el dibujo de las entidades gráficas que se encuentran dentro de los límites de una entidad, definida previamente por el usuario.
-* [CORTAR\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-f.md): Genera un nuevo fichero con los elementos que se encuentren dentro de los límites de una entidad de dibujo elegida por el usuario.
+* [BORRA\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-v.md): Borra del dibujo las entidades gráficas que se encuentran dentro de los límites de una entidad que hayas definido previamente.
+* [CORTAR\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-f.md): Genera un nuevo fichero con los elementos que se encuentren dentro de los límites de una entidad de dibujo que elijas.
 * [CORTAR\_F\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-f-centroide.md): Genera un nuevo fichero con los elementos que se encuentren dentro de los límites de una entidad de dibujo con un centroide específico.
 * [LIMPIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/limpia.md): Corta las entidades que atraviesan el contorno de textos o de líneas límite y borra o recodifica los tramos que quedan dentro.
-* [RECUPERA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recupera.md): Permite recuperar los elementos marcados con la señal de borrado en el fichero de dibujo, debemos tener la orden BORRADOS activada.
+* [RECUPERA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recupera.md): Recupera los elementos marcados con la señal de borrado en el fichero de dibujo si la orden BORRADOS está activada.
 * [RECUPERA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recupera-cod.md): Recupera todas aquellas entidades borradas que tengan un código igual al tecleado.
 
 ### Códigos y atributos de las entidades
@@ -77,18 +77,18 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [RENOMBRAR\_CODIGOS\_DESCONOCIDOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renombrar-codigos-desconocidos.md): Permite renombrar los códigos desconocidos localizados en el archivo de dibujo.
 * [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md): Cambia el código correspondiente a una serie de entidades por otro código, ya sea el activo o el código que se especifique en la llamada a la orden.
 * [RENOMCOD\_MANTENIENDO\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-manteniendo-atributos.md): Cambia un código por otro en todas las geometrías que lo tienen y conserva la tabla y el registro de base de datos del código sustituido.
-* [RENOMCOD\_SEL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-sel.md): Cambia el código correspondiente otro código a las entidades seleccionadas.
+* [RENOMCOD\_SEL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-sel.md): Sustituye el código de las entidades seleccionadas por otro código.
 * [SEPARA\_MULTICOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/separa-multicod.md): Explota entidades con múltiples códigos en múltiples entidades con un solo código.
 * [SUSTITUYE\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/sustituye-cod.md): Sustituye los códigos de la entidad seleccionada por los activos.
 
 ### Coordenadas: mover, copiar y duplicar
 
-* [CAMB\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-z.md): Sustituye la altitud asignada a un elemento gráfico, por un nuevo valor.
+* [CAMB\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-z.md): Sustituye la altitud asignada a un elemento gráfico por un nuevo valor.
 * [CAMB\_Z\_ACTIVA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-z-activa.md): Cambia la Z de uno o más elementos a la Z que está activa en ese momento.
 * [COPIA\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-r.md): Realiza una copia de una entidad de dibujo permitiendo rotarla con un segundo dato.
 * [COPIA2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-2p.md): Copia una entidad de dibujo, aplicando traslación, factor de escala y giro.
 * [COPIAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copiar.md): Realiza una copia de una entidad de dibujo.
-* [DESPLAZAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/desplazar.md): Desplaza entidades del archivo de dibujo distancias definidas por el usuario mediante desplazamientos en X, Y y Z.
+* [DESPLAZAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/desplazar.md): Desplaza entidades del archivo de dibujo según las distancias que indiques en X, Y y Z.
 * [DUP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dup.md): Realiza una copia de una entidad sobre sí misma.
 * [DUPLICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/duplica.md): Duplica una entidad respetando su código.
 * [EDITOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editor.md): Permite editar las coordenadas de la geometría que se seleccione.
@@ -97,7 +97,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [MOVER\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z.md): Permite cambiar la cota de una o varias entidades.
 * [REDONDEA\_COORDENADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/redondea-coordenada.md): Sustituye por un valor dado las coordenadas X o Y de los vértices de las líneas y polígonos seleccionados que difieren de ese valor como máximo una tolerancia.
 * [REESCRIBE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/reescribe.md): Reescribe las geometrías seleccionadas.
-* [ZFIJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zfija.md): Asigna a todos los vértices de la geometría/s seleccionada/s una misma coordenada Z, múltiplo de la equidistancia.
+* [ZFIJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zfija.md): Asigna a todos los vértices de las geometrías seleccionadas una misma coordenada Z, múltiplo de la equidistancia.
 
 ### Polilíneas
 
@@ -162,17 +162,17 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [CAMB\_CARÁCTER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-caracter.md): Sustituye un carácter de texto determinado por otro diferente.
 * [CAMB\_JT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-jt.md): Modifica la justificación de uno o varios textos existentes en el dibujo.
 * [CAMB\_JT2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-jt2.md): Modifica la justificación de uno o varios textos existentes en el dibujo, pero sin modificar su posición.
-* [CAMB\_TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-texto.md): Sustituye todos los textos iguales por otro que ha de ser especificado por el usuario.
+* [CAMB\_TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/camb-texto.md): Sustituye todos los textos iguales por otro que debes especificar.
 * [EDITAR\_TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-texto.md): Edita un texto del fichero de dibujo.
 * [R\_TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/r-texto.md): Rota un texto ya existente en el archivo de dibujo.
-* [REEMPLAZAR\_TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/reemplazar-texto.md): Reemplazar un texto por otro.
+* [REEMPLAZAR\_TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/reemplazar-texto.md): Reemplaza un texto por otro.
 
 ### Polígonos
 
 * [BORRAR\_HUECO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borrar-hueco.md): Permite borrar un hueco de un polígono.
 * [CORTAR\_POLÍGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cortar-poligono.md): Recorta un polígono en varios polígonos en función de las intersecciones del polígono a recortar y la línea de corte.
 * [EXPLOTAR\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-poligono.md): Divide el polígono en todas las entidades que lo forman.
-* [EXPLOTAR\_POLIGONOS\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-poligonos-cod.md): Divide varios polígonos, en todas las entidades que los forman.
+* [EXPLOTAR\_POLIGONOS\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/explotar-poligonos-cod.md): Divide varios polígonos en todas las entidades que los forman.
 * [INSERTAR\_HUECO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insertar-hueco.md): Inserta un hueco en un polígono o en una línea cerrada.
 * [RECORTAR\_POLÍGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recortar-poligono.md): Recorta un polígono eliminando la parte de éste que intersecciona con un límite.
 * [RECORTAR\_POLÍGONOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/recortar-poligonos.md): Recorta todos los polígonos que interseccionen con un límite.
@@ -191,7 +191,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ORDENA\_POR\_CÓDIGO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ordena-por-codigo.md): Ordena por código las entidades de un fichero, agrupando en el fichero las entidades por el código al que pertenezcan.
 * [ORDENA\_POR\_CÓDIGO\_N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ordena-por-codigo-n.md): Ordena por código numérico las entidades de un fichero, agrupando en el fichero las entidades por el código numérico al que pertenezcan.
 * [ORDENA\_POR\_DIGI\_TAB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/ordena-por-digitab.md): Reordena las entidades de un archivo según el orden en la tabla de códigos activa.
-* [ROTULA\_DESCRIPCION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-descripcion.md): Rotula entidades puntuales con un texto cuyo texto es la descripción del código del punto que se está rotulando.
+* [ROTULA\_DESCRIPCION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-descripcion.md): Rotula entidades puntuales con un texto que contiene la descripción del código del punto que se está rotulando.
 * [TRANSFORMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/transforma.md): Realiza transformaciones en el archivo de dibujo.
 
 ## Visualización de códigos y entidades
@@ -224,11 +224,11 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [VER\_SOLO\_CÓDIGOS\_ACTIVOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-codigos-activos.md): Activa únicamente los códigos activos y apaga el resto, en la pantalla de dibujo y en la pantalla estereoscópica.
 * [VER\_SOLO\_CÓDIGOS\_ENTIDAD\_SELECCIONADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/var-solo-codigos-entidad-seleccionada.md): Deja activos en pantalla solamente los códigos de la entidad seleccionada, apagando el resto.
 * [VER\_SOLO\_CON\_ENLACE\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-con-enlace-bbdd.md): Muestra únicamente las entidades que tienen algún enlace a la base de datos.
-* [VER\_SOLO\_ENTIDADES\_CON\_ENLACE\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-entidades-con-enlace-bbdd.md): Muestra únicamente las entidades en las que todos sus códigos tienen enlace a la base de datos.
+* [VER\_SOLO\_ENTIDADES\_CON\_ENLACE\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-entidades-con-enlace-bbdd.md): Muestra únicamente las entidades en las que cada código tiene enlace a la base de datos.
 * [VER\_SOLO\_ENTIDADES\_SELECCIONADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-entidades-seleccionadas.md): Oculta todas las entidades excepto las seleccionadas.
-* [VER\_SOLO\_ENTIDADES\_SIN\_ENLACE\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-entidades-sin-enlace-bbdd.md): Muestra únicamente las entidades en las que ninguno de sus códigos tiene enlace a la base de datos.
-* [VER\_SOLO\_ETIQUETAS\_CÓDIGOS\_ACTIVOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-etiquetas-codigos-activos.md): Activa únicamente los códigos pertenecientes a las etiquetas a las que pertenecen los códigos activos.
-* [VER\_SOLO\_ETIQUETAS\_ENTIDAD\_SELECCIONADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-etiquetas-entidad-seleccionada.md): Activa únicamente los códigos que pertenezcan a las distintas etiquetas a las que pertenecen los códigos de la entidad seleccionada.
+* [VER\_SOLO\_ENTIDADES\_SIN\_ENLACE\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-entidades-sin-enlace-bbdd.md): Muestra únicamente las entidades sin ningún código con enlace a la base de datos.
+* [VER\_SOLO\_ETIQUETAS\_CÓDIGOS\_ACTIVOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-etiquetas-codigos-activos.md): Activa únicamente los códigos que comparten alguna etiqueta con los códigos activos.
+* [VER\_SOLO\_ETIQUETAS\_ENTIDAD\_SELECCIONADA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-etiquetas-entidad-seleccionada.md): Activa únicamente los códigos que comparten alguna etiqueta con los códigos de la entidad seleccionada.
 * [VER\_SOLO\_SIN\_ENLACE\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-solo-sin-enlace-bbdd.md): Muestra únicamente las entidades que tienen al menos un código sin enlace a la base de datos.
 * [VER\_TODAS\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-todas-entidades.md): Activa la visualización de todas las entidades.
 
@@ -257,18 +257,18 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ZOOM\_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-entidad.md): Ejecuta un zoom en la entidad seleccionada.
 * [ZOOM-](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-menos.md): Disminuye el factor de zoom.
 * [ZOOM+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom-mas.md): Aumenta el factor de zoom.
-* [ZOOM2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom2p.md): Permite desplazarnos con el ratón en la pantalla de DigiNG.
-* [ZOOMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zooma.md): Centra la visualización de los elementos de la pantalla, en torno al punto donde está el cursor/restituidor.
-* [ZOOMDER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomder.md): Permite una visualización selectiva del dibujo hacia la derecha.
+* [ZOOM2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoom2p.md): Permite desplazar la vista con el ratón en la pantalla de DigiNG.
+* [ZOOMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zooma.md): Centra la vista en la posición actual del cursor.
+* [ZOOMDER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomder.md): Desplaza la vista del dibujo hacia la derecha.
 * [ZOOME](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoome.md): Realiza un zoom extendido.
 * [ZOOME\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoome-r.md): Realiza un zoom extendido por recinto, calculando topologías en tiempo real.
 * [ZOOMIN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomin.md): Aumenta el factor de zoom.
-* [ZOOMINF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoominf.md): Permite una visualización selectiva del dibujo hacia abajo.
-* [ZOOMIZQ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomizq.md): Permite una visualización selectiva del dibujo hacia la izquierda.
+* [ZOOMINF](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoominf.md): Desplaza la vista del dibujo hacia abajo.
+* [ZOOMIZQ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomizq.md): Desplaza la vista del dibujo hacia la izquierda.
 * [ZOOMOUT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomout.md): Disminuye el factor de zoom.
-* [ZOOMP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomp.md): Permite hacer un centrado del dibujo en el punto que escoja el operador.
-* [ZOOMSUP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomsup.md): Permite una visualización selectiva del dibujo hacia arriba.
-* [ZOOMV](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomv.md): Visualiza por pantalla el contenido de una zona de dibujo que el usuario ha de indicar, delimitando el contorno con una ventana.
+* [ZOOMP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomp.md): Centra la vista del dibujo en el punto que elijas.
+* [ZOOMSUP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomsup.md): Desplaza la vista del dibujo hacia arriba.
+* [ZOOMV](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/z/zoomv.md): Muestra en pantalla el contenido de una zona del dibujo que delimites con una ventana.
 
 ## Inmediato
 
@@ -300,7 +300,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 ### Medir y consultar entidades
 
-* [LISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/lista.md): Nos da información de la entidad que se ha seleccionado.
+* [LISTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/lista.md): Muestra información de la entidad que has seleccionado.
 * [LISTA\_ATRIBUTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/lista_atributos.md): Muestra en el panel de resultados los atributos de la geometría seleccionada.
 * [LISTA\_WKT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/lista-wkt.md): Lista la geometría seleccionada en formato WKT.
 * [MIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mide.md): Calcula y presenta por pantalla la distancia entre dos puntos.
@@ -322,10 +322,10 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [SELECCIONA\_FUERA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-fuera-ventana.md): Permite digitalizar una nueva ventana y selecciona todas las entidades que estén completamente fuera de la ventana.
 * [SELECCIONA\_INDICE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-indice.md): Permite seleccionar una entidad mediante su índice de registro.
 * [SELECCIONA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-inundacion.md): Envía las entidades que forman parte del límite del recinto seleccionado a la orden activa.
-* [SELECCIONA\_LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-linea.md): Selecciona aquellas líneas que crucen con una línea virtual generada por el usuario.
+* [SELECCIONA\_LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-linea.md): Selecciona aquellas líneas que crucen con una línea virtual que generes.
 * [SELECCIONA\_MULTIPLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-multiple.md): Permite seleccionar y deseleccionar múltiples entidades.
 * [SELECCIONA\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-poligono.md): Permite digitalizar un nuevo polígono y selecciona todas las entidades que solapan con este polígono.
-* [SELECCIONA\_TODO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-todo.md): Selecciona todas las entidades del archivo de dibujo cuando estamos ejecutando órdenes que admitan selección múltiple.
+* [SELECCIONA\_TODO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-todo.md): Selecciona todas las entidades del archivo de dibujo cuando ejecutas órdenes que admiten selección múltiple.
 * [SELECCIONA\_TODO\_EN\_CURSOR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-todo-en-cursor.md): Selecciona con un solo clic todas las entidades que se cruzan con el cursor.
 * [SELECCIONA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ultimo.md): Selecciona la última entidad registrada en el fichero de dibujo, cuando se ha ejecutado una orden en la cual se pide seleccionar una entidad.
 * [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md): Permite digitalizar una nueva ventana y selecciona todas las entidades que solapan con la ventana.
@@ -333,7 +333,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 ### Teclados virtuales y ejecución de órdenes
 
 * [ANULA\_ORDENES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anula-ordenes.md): Deja de ejecutar la orden que se está ejecutando en ese momento y las órdenes que esta haya interrumpido.
-* [ANULA\_REPITE\_COMANDO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anula-repite-comando-activo.md): Si está habilitada la opción de REPITE y se está ejecutando un comando que admite repetición, al ejecutar este comando el comando activo no se repetirá.
+* [ANULA\_REPITE\_COMANDO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anula-repite-comando-activo.md): Si está habilitada la opción de REPITE y se está ejecutando una orden que admite repetición, impide que esa orden se repita.
 * [CAMBIA\_TECLAS\_MNU](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md): Permite cambiar el fichero de teclas.
 * [ESCAPE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/escape.md): Termina o da por finalizada una orden.
 * [MACROINSTRUCCIONES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/macroinstrucciones.md): Ejecuta macroinstrucciones, también llamadas arrobas.
@@ -358,16 +358,16 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [PERP\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/perp-z.md): Sirve para trazar líneas perpendiculares a una entidad de dibujo.
 * [SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ABAJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/siguiente-segmento-vertical-hacia-abajo.md): Configura la orden activa para indicar que el siguiente segmento a insertar será vertical y formado por dos puntos.
 * [SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ARRIBA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/siguiente-segmento-vertical-hacia-arriba.md): Configura la orden activa para indicar que el siguiente segmento a insertar será vertical y formado por dos puntos.
-* [TIPO\_DE\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tipo-de-z.md): Indica al programa la manera de registrar las coordenadas de Z de los vértices de las entidades lineales.
+* [TIPO\_DE\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tipo-de-z.md): Indica al programa la manera de registrar las coordenadas Z de los vértices de las entidades lineales.
 * [U](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u.md): Borra el último vértice de la entidad que se está registrando en el momento de ejecutar la orden.
-* [U2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u2.md): Retrocede eliminando el último tramo dibujado de una entidad lineal, sin retroceder el cursor.
+* [U2](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/u2.md): Elimina el último tramo dibujado de una entidad lineal sin mover el cursor.
 * [UM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/um.md): Borra los últimos puntos de la entidad que se está registrando en el momento de llamar a la orden.
-* [XYLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xylinea.md): Esta orden añade vértices a la orden que se esté ejecutando.
-* [XYZLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xyzlinea.md): Añade vértices a la orden que se esté ejecutando.
+* [XYLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xylinea.md): Añade vértices a la línea que estás digitalizando.
+* [XYZLINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xyzlinea.md): Añade vértices a la línea que estás digitalizando.
 
 ### Arcos, splines y circunferencias
 
-* [ARCO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco.md): Dibuja un arco en el espacio a partir de tres puntos definidos por el usuario.
+* [ARCO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco.md): Dibuja un arco en el espacio a partir de tres puntos que definas.
 * [ARCO\_TANGENTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/arco-tangente.md): Dibuja un arco tangente al segmento anterior.
 * [CIR2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir2p.md): Dibuja una circunferencia mediante el centro y un punto de la misma.
 * [CIR3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cir3d.md): Dibuja la circunferencia que pasa por tres puntos dados, en el plano que definen esos tres puntos.
@@ -380,13 +380,13 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 * [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela.md): Dibuja líneas paralelas a una o varias entidades, a una distancia determinada.
 * [PARALELA\_DA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-da.md): Dibuja una paralela con los parámetros especificados en la variable Distancia Activa.
-* [PARALELA\_DINÁMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica.md): Dibuja una línea paralela a una entidad a la distancia que especifique el operador, nos irá mostrando cómo queda la paralela según movemos el cursor.
-* [PARALELA\_DINAMICA\_CON\_EJE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje.md): Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros.
-* [PARALELA\_DINAMICA\_CON\_EJE\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje-z.md): Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros.
-* [PARALELA\_DINAMICA\_CON\_EJE\_Z\_ACTIVA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje-z-activa.md): Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros.
+* [PARALELA\_DINÁMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica.md): Dibuja una línea paralela a una entidad a la distancia que especifiques y actualiza la representación de la paralela al mover el cursor.
+* [PARALELA\_DINAMICA\_CON\_EJE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje.md): Dibuja una paralela dinámica con los códigos activos y un eje entre la línea original y la paralela, con los códigos del eje indicados como parámetros.
+* [PARALELA\_DINAMICA\_CON\_EJE\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje-z.md): Dibuja una paralela dinámica con los códigos activos y un eje entre la línea original y la paralela, con los códigos del eje indicados como parámetros.
+* [PARALELA\_DINAMICA\_CON\_EJE\_Z\_ACTIVA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-con-eje-z-activa.md): Dibuja una paralela dinámica con los códigos activos y un eje entre la línea original y la paralela, con los códigos del eje indicados como parámetros.
 * [PARALELA\_DINAMICA\_PLANO\_DIBUJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-plano-dibujo.md): Realiza una paralela dinámica en el plano que tenga la ventana de dibujo.
-* [PARALELA\_DINÁMICA\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-xyz.md): Dibuja una línea paralela a una entidad a la distancia que especifique el operador, teniendo en cuenta la Z de la ventana fotogramétrica.
-* [PARALELA\_DINÁMICA\_Z\_FIJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-z-fija.md): Dibuja una línea paralela a una entidad a la distancia que especifique el operador, con una determinada Z.
+* [PARALELA\_DINÁMICA\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-xyz.md): Dibuja una línea paralela a una entidad a la distancia que especifiques, teniendo en cuenta la Z de la ventana fotogramétrica.
+* [PARALELA\_DINÁMICA\_Z\_FIJA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-dinamica-z-fija.md): Dibuja una línea paralela a una entidad a la distancia que especifiques, con una determinada Z.
 * [PARALELA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela-z.md): Dibuja una paralela a una línea existente asignando la Z del punto digitalizado a todos los vértices de la paralela generada.
 
 ### Figuras, señalización y rellenos
@@ -413,8 +413,8 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 ### Puntos
 
 * [PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md): Dibuja un punto en el archivo actual.
-* [PUNTO\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-2p.md): Dibuja un punto en el archivo actual con la escala y rotación calculados con el segundo punto insertado.
-* [PUNTO\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-r.md): Inserta un símbolo puntual en el dibujo permitiendo al usuario indicar una rotación.
+* [PUNTO\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-2p.md): Dibuja un punto en el archivo actual con la escala y la rotación calculadas a partir del segundo punto digitalizado.
+* [PUNTO\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto-r.md): Inserta un símbolo puntual en el dibujo permitiendo que indiques una rotación.
 * [SACA\_P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/saca-p.md): Coloca un punto junto a cada texto del archivo de dibujo que tenga alguno de los códigos indicados.
 
 ### Polígonos y centroides
@@ -435,20 +435,20 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ROTULA\_REFERENCIA\_CATASTRAL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-referencia-catastral.md): Consulta al servicio web del Catastro de España la referencia catastral en las coordenadas de inserción e inserta un texto con la referencia catastral.
 * [ROTULA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rotula-z.md): Rotula un punto o varios puntos con su Z correspondiente.
 * [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md): Inserta un texto en el archivo de dibujo.
-* [TEXTO\_EDITABLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto-editable.md): Actúa igual que la orden TEXTO pero si se le pasan parámetros, no oculta el control de edición.
-* [TEXTO\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto-r.md): Inserta un texto en el dibujo en la dirección indicada por el usuario.
-* [TEXTO\_R\_EDITABLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto-r-editable.md): Actúa igual que la orden TEXTO\_R pero si se le pasan parámetros, no oculta el control de edición.
+* [TEXTO\_EDITABLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto-editable.md): Actúa igual que la orden TEXTO pero, si indicas parámetros, no oculta el control de edición.
+* [TEXTO\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto-r.md): Inserta un texto en el dibujo en la dirección que indiques.
+* [TEXTO\_R\_EDITABLE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto-r-editable.md): Actúa igual que la orden TEXTO\_R pero, si indicas parámetros, no oculta el control de edición.
 
 ### Acotar
 
 * [ACOTA\_H\_AUTOMATICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/acota-h-automatica.md): Si el sensor activo lo admite, proyecta una línea hacia abajo y hacia arriba y acota la intersección de esta línea con el modelo.
-* [AREA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/area.md): Calcula la superficie de entidades gráficas cerradas y sitúa en la pantalla un texto con este valor, en la posición indicada por el usuario.
-* [DIBUJA\_ALTURA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_altura.md): Inserta un texto con la diferencia de altura \(el incremento de la coordenada Z\) entre dos puntos digitalizados por el usuario.
-* [DIBUJA\_DISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_distancia.md): Inserta un texto con la distancia planimétrica \(2D\) entre dos puntos digitalizados por el usuario.
-* [DIBUJA\_DISTANCIA\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_distancia_3d.md): Inserta un texto con la distancia real \(3D\) entre dos puntos digitalizados por el usuario, teniendo en cuenta la diferencia de cota entre ambos.
-* [DIBUJA\_PERÍMETRO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_perimetro.md): Calcula el perímetro \(la longitud\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición indicada por el usuario.
-* [DIBUJA\_PERÍMETRO\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_perimetro_3d.md): Calcula el perímetro 3D \(la longitud real, teniendo en cuenta los desniveles\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición indicada por el usuario.
-* [PONE\_ALTURA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pone-altura.md): Coloca un texto con el valor de la diferencia en altura entre dos puntos que registrará el usuario.
+* [AREA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/area.md): Calcula la superficie de entidades gráficas cerradas y sitúa en la pantalla un texto con este valor, en la posición que indiques.
+* [DIBUJA\_ALTURA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_altura.md): Inserta un texto con la diferencia de altura \(el incremento de la coordenada Z\) entre dos puntos que digitalices.
+* [DIBUJA\_DISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_distancia.md): Inserta un texto con la distancia planimétrica \(en dos dimensiones, 2D\) entre dos puntos que digitalices.
+* [DIBUJA\_DISTANCIA\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_distancia_3d.md): Inserta un texto con la distancia espacial \(en tres dimensiones, 3D\) entre dos puntos que digitalices, teniendo en cuenta la diferencia de cota entre ambos.
+* [DIBUJA\_PERÍMETRO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_perimetro.md): Calcula el perímetro \(la longitud\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición que indiques.
+* [DIBUJA\_PERÍMETRO\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_perimetro_3d.md): Calcula el perímetro 3D \(la longitud en el espacio, teniendo en cuenta los desniveles\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición que indiques.
+* [PONE\_ALTURA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pone-altura.md): Coloca un texto con el valor de la diferencia en altura entre dos puntos que registres.
 * [PONE\_DISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/pone-distancia.md): Coloca un texto con el valor de la distancia entre dos puntos.
 * [PONER\_XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/poner-xy.md): Coloca dos textos numéricos con los valores de las coordenadas X,Y del punto que selecciones.
 
@@ -456,7 +456,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 * [DENSIFICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/densifica.md): Inserta vértices en las líneas y polígonos de los códigos indicados para que ningún tramo supere una distancia.
 * [INTER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter.md): Interpola curvas de nivel.
-* [INTER\_EJE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter-eje.md): Interpola una entidad entre otras dos seleccionadas por el usuario.
+* [INTER\_EJE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter-eje.md): Interpola una entidad entre otras dos que selecciones.
 * [INTERPOLAR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/interpolar-cod.md): Interpola curvas de nivel con cuatro puntos tomando como directrices las entidades de un código.
 
 ### Complejos y bloques
@@ -464,7 +464,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md): Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán ser insertadas posteriormente en cualquier dibujo.
 * [BLOQUE\_2P](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque-2p.md): Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán ser insertadas posteriormente en cualquier dibujo.
 * [CREAR\_COMPLEJO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-complejo.md): Crea elementos complejos a partir de varias entidades.
-* [CREAR\_COMPLEJOS\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-complejos-cod.md): Crear elementos complejos agrupando entidades con el mismo código.
+* [CREAR\_COMPLEJOS\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/crear-complejos-cod.md): Crea elementos complejos agrupando entidades con el mismo código.
 * [INS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins.md): Inserta un fichero de dibujo en el fichero de trabajo.
 * [INS\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-3d.md): Inserta un bloque en 3D a partir de tres puntos: el primero fija la posición, el segundo la orientación y el tercero la rotación.
 * [INS\_AA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins-aa.md): Inserta un fichero de dibujo en el archivo de trabajo girado el ángulo activo.
@@ -492,14 +492,14 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [FILTRAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/filtrar.md): Borra las curvas de nivel que no corresponden a una equidistancia y asigna el código de maestra o de fina al resto según su coordenada Z.
 * [MDT\_MUEVE\_DIGI3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mdt-mueve-digi3d.md): Indica si los modelos digitales del terreno cargados modifican la coordenada Z de Digi3D.
 * [MOVER\_Z\_V](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mover-z-v.md): Permite cambiar la cota de entidades situadas dentro de una entidad cerrada.
-* [PROYECTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta.md): Proyecta la/s geometría/a seleccionada/s.
-* [PROYECTA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod.md): Proyecta entidades sobre el MDT cargado en le momento de ejecutarla.
-* [PROYECTA\_COD\_ETIQUETA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod-etiqueta.md): Proyecta todas la entidades con un determinado código sobre los MDTs cargados que tengan asignada la etiqueta indicada.
+* [PROYECTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta.md): Proyecta las geometrías seleccionadas sobre los modelos digitales del terreno cargados.
+* [PROYECTA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod.md): Proyecta entidades sobre el modelo digital del terreno (MDT) cargado en el momento de ejecutar la orden.
+* [PROYECTA\_COD\_ETIQUETA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-cod-etiqueta.md): Proyecta todas las entidades con un determinado código sobre los MDT cargados que tengan asignada la etiqueta indicada.
 * [PROYECTA\_POR\_CONDICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-por-condicion.md): Proyecta los vértices de las entidades con un determinado código sobre los MDT cargados si la diferencia de Z cumple una condición.
 * [PROYECTA\_PUNTOS\_TOPOLOGIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/proyecta-puntos-topologia.md): Proyecta sobre los MDT cargados las entidades que forman los recintos de una topología.
 * [REDONDEA\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/redondea-z.md): Redondea a entero la coordenada Z de todos los vértices de las curvas de nivel con los códigos indicados.
 * [TRIANGULAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular.md): Calcula la triangulación de un Modelo Digital del Terreno \(MDT\) a partir de las geometrías de la ventana de dibujo.
-* [TRIANGULAR\_LINEAS\_EXCEPTO\_PUNTOS\_CON\_CODIGO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular-lineas-excepto-puntos-con-codigo.md): Calcula una triangulación exceptuando aquellos nodos a los que lleguen una línea con un determinado código.
+* [TRIANGULAR\_LINEAS\_EXCEPTO\_PUNTOS\_CON\_CODIGO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular-lineas-excepto-puntos-con-codigo.md): Calcula una triangulación excluyendo los nodos a los que llegue una línea con un determinado código.
 * [TRIANGULAR\_PUNTOS\_TOPOLOGIA\_EXCEPTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/triangular-puntos-topologia-excepto.md): Calcula una triangulación con las líneas de una topología exceptuando las líneas que tengan un determinado código.
 
 ## Ortofoto y ráster
@@ -516,7 +516,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ASIGNAR\_Z\_MAXIMA\_VERTICES\_NODO\_TOL](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-z-maxima-vertices-nodo-tol.md): Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de todos para que se ajuste a la Z máxima siempre que su Z esté a menos de la tolerancia de la Z máxima.
 * [COMPARAR\_Z\_MDT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comparar-z-mdt.md): Compara la coordenada Z de los vértices de las entidades con la Z del modelo digital del terreno cargado y añade al panel de tareas las entidades en las que la diferencia supera una tolerancia.
 * [DESAGRUPAR\_ENTIDADES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/desagrupar-entidades.md): Desagrupa las entidades que tengan más de un código en múltiples entidades con un único código.
-* [DETECTAR\_BUCLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-bucles.md): Detecta bucles \(o auto intersecciones\) en entidades de tipo Línea y Polígono.
+* [DETECTAR\_BUCLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-bucles.md): Detecta bucles \(o autointersecciones\) en entidades de tipo Línea y Polígono.
 * [DETECTAR\_BUCLES\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-bucles-lineas-visibles.md): Detecta bucles en líneas visibles.
 * [DETECTAR\_CRUCE\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas.md): Crea una tarea de error por cada intersección de líneas detectada por código.
 * [DETECTAR\_CRUCE\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-cruce-lineas-visibles.md): Crea una tarea de error por cada intersección de líneas visibles detectada.
@@ -524,7 +524,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [DETECTAR\_ENTIDADES\_DUPLICADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-entidades-duplicadas.md): Detecta todas las entidades que están duplicadas por código.
 * [DETECTAR\_ENTIDADES\_VISIBLES\_DUPLICADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-entidades-visibles-duplicadas.md): Detecta todas las entidades visibles que están duplicadas.
 * [DETECTAR\_ERRORES\_ATRIBUTOS\_BBDD\_CASES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-errores-atributos-bbdd-cases.md): Detecta líneas y polígonos de dos archivos de dibujo distintos que tienen continuidad geométrica pero con atributos de BBDD distintos.
-* [DETECTAR\_ERRORES\_CONTINUIDAD\_LINEAS\_CASES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-errores-continuidad-lineas-cases.md): Detecta errores de continuidad en líneas que finalizan en el límite de dos modelos y que no continuan en el siguiente modelo.
+* [DETECTAR\_ERRORES\_CONTINUIDAD\_LINEAS\_CASES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-errores-continuidad-lineas-cases.md): Detecta errores de continuidad en líneas que finalizan en el límite de dos modelos y que no continúan en el siguiente modelo.
 * [DETECTAR\_INTERSECCION\_SENTIDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-interseccion-sentido.md): Detecta líneas y polígonos que se unen en un nodo con sentidos de digitalización incompatibles.
 * [DETECTAR\_LINEAS\_NO\_CONECTADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar_lineas_no_conectadas.md): Crea una tarea de error por cada extremo de línea que no esté conectado por código con otra entidad.
 * [DETECTAR\_LINEAS\_NO\_CONECTADAS\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-lineas-no-conectadas-3d.md): Crea una tarea de error por cada extremo de línea que no esté conectado por código en 3D.
@@ -536,7 +536,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ELIMINAR\_ENTIDADES\_DUPLICADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-entidades-duplicadas.md): Elimina las entidades duplicadas manteniendo únicamente la que tenga un código que esté antes en la línea de comandos, por código.
 * [ELIMINAR\_ENTIDADES\_VISIBLES\_DUPLICADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-entidades-visibles-duplicadas.md): Elimina las entidades visibles duplicadas manteniendo únicamente la que tenga un código que esté antes en la tabla de códigos.
 * [ELIMINAR\_PUNTOS\_DOBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-puntos-dobles.md): Elimina los puntos dobles de las entidades del archivo de dibujo activo.
-* [ELIMINAR\_SEGMENTOS\_CORTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-segmentos-cortos.md): Elimina automáticamente vértices de geometrías para evitar que éstas tengan segmentos cuyo perímetro sea inferior a un valor especificado.
+* [ELIMINAR\_SEGMENTOS\_CORTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-segmentos-cortos.md): Elimina automáticamente vértices de geometrías para evitar que esas geometrías tengan segmentos cuya longitud sea inferior a un valor especificado.
 * [ELIMINAR\_TODAS\_ENTIDADES\_DUPLICADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-todas-entidades-duplicadas.md): Elimina todas las entidades duplicadas, por código.
 * [ELIMINAR\_TODAS\_ENTIDADES\_VISIBLES\_DUPLICADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/eliminar-todas-entidades-visibles-duplicadas.md): Elimina todas las entidades visibles duplicadas.
 * [INSERTAR\_VERTICE\_INTERSECCION\_LINEA\_PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/insertar-vertice-interseccion-linea-punto.md): Inserta un vértice en la intersección de líneas con puntos.
@@ -546,11 +546,11 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [PARTIR\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas.md): Parte las líneas en sus intersecciones por código.
 * [PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md): Parte las entidades visibles por sus intersecciones.
 * [UNIR\_LINEAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas.md): Une las líneas visibles que comparten alguno de los códigos indicados.
-* [UNIR\_LINEAS\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-tabla.md): Une las lineas en pantalla siempre que al nodo no lleguen más de dos entidades con el mismo código.(siempre que tengan el mismo código y continuidad geométrica) por código.
-* [UNIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-visibles.md): Une las lineas visibles en pantalla (siempre que tengan el mismo código y continuidad geométrica).
-* [UNIR\_LINEAS\_VISIBLES\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-visibles-tabla.md): Une las lineas visibles en pantalla siempre que al nodo no lleguen más de dos entidades con el mismo código.(siempre que tengan el mismo código y continuidad geométrica).
-* [UNIR\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-xyz.md): Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión coincide la coordenada Z.
-* [UNIR\_XYZ\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-xyz-tabla.md): Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión coincide la coordenada Z y sólo llegan dos geometrías al nodo.
+* [UNIR\_LINEAS\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-tabla.md): Une por código las líneas en pantalla que tienen el mismo código y continuidad geométrica, siempre que al nodo no lleguen más de dos entidades con ese código.
+* [UNIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-visibles.md): Une las líneas visibles en pantalla siempre que tengan el mismo código y continuidad geométrica.
+* [UNIR\_LINEAS\_VISIBLES\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-lineas-visibles-tabla.md): Une las líneas visibles en pantalla que tienen el mismo código y continuidad geométrica, siempre que al nodo no lleguen más de dos entidades con ese código.
+* [UNIR\_XYZ](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-xyz.md): Une las líneas cuyos códigos indiques como parámetros si las líneas tienen la misma coordenada Z en el nodo de unión.
+* [UNIR\_XYZ\_TABLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/unir-xyz-tabla.md): Une las líneas cuyos códigos indiques como parámetros si las líneas tienen la misma coordenada Z en el nodo de unión y solo llegan dos geometrías a ese nodo.
 
 ## Control de calidad
 
@@ -562,7 +562,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 
 * [ANADE\_CODIGOS\_ACTIVOS\_Y\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anade-codigos-activos-y-centroide.md): Añade los códigos activos a las entidades que forman el contorno de los recintos seleccionados en la topología temporal y, opcionalmente, inserta un centroide en el recinto.
 * [BUSCAR\_CENTROIDE\_I](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/buscar-centroide-i.md): Busca, por inundación, el centroide del polígono topológico sobre el que se está trabajando.
-* [DESCARGAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/descargar-topologia-inundacion.md): Descarga la topologia para inundación cargada en memoria.
+* [DESCARGAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/descargar-topologia-inundacion.md): Elimina de la memoria la topología para inundación.
 * [DIBUJA\_R\_I](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja-r-i.md): Dibuja recintos topológicos por inundación.
 * [EDITAR\_CODIGOS\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/editar-codigos-r.md): Edita los códigos de las entidades que forman el recinto topológico seleccionado.
 * [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md): Genera una topología para ejecutar con posterioridad las órdenes de inundación.
@@ -601,17 +601,17 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [GENERALIZAR\_TOPOLOGIA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generalizar-topologia.md): Elimina centroides y líneas para agrupar polígonos vecinos con el mismo centroide en la topología pasada por parámetros.
 * [PONER\_COD\_RECINTO\_CENTROIDE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/poner-cod-recinto-centroide.md): Añade el código de recinto a las entidades que forman el contorno de los recintos topológicos seleccionados y, además, inserta en el centroide del recinto un texto con el código de centroide.
 * [RENOMCOD\_R](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod-r.md): Renombra códigos por recinto topológico.
-* [TOPOLOGIA\_A\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/topologia-a-poligono.md): Genera polígonos a partir de la topología pasada por parámetros.
-* [VER\_TOPOLOGIAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-topologias.md): Activa o desactiva la visualización de una topología así como cambia su orden.
+* [TOPOLOGIA\_A\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/topologia-a-poligono.md): Genera polígonos a partir de la topología indicada como parámetro.
+* [VER\_TOPOLOGIAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/v/ver-topologias.md): Muestra u oculta una topología y cambia su orden de dibujo.
 
 ## Base de datos
 
 * [ANADE\_ATRIBUTO\_ACTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/anade_atributo_activo.md): Añade un atributo al panel Atributos activos.
 * [ASIGNA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asigna-atributo.md): Esta orden asigna un valor a un atributo en la lista de atributos activos en la barra acoplable de base de datos.
 * [ASIGNA\_ATRIBUTO\_BBDD\_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asigna-atributo-bbdd-entidad.md): Asigna un nuevo valor a un campo en la BBDD para una entidad.
-* [ASIGNAR\_ANGULO\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el ángulo trigonométrico del segundo respecto al primero en el campo de base de datos pasado por parámetros.
-* [ASIGNAR\_AZIMUT\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-azimut-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en el campo de base de datos pasado por parámetros.
-* [ASIGNAR\_DISTANCIA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-distancia-atributo.md): Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia entre los dos puntos en el campo de base de datos pasado por parámetros.
+* [ASIGNAR\_ANGULO\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md): Solicita que digitalices dos puntos y asigna el ángulo trigonométrico del segundo respecto al primero al campo de base de datos indicado como parámetro.
+* [ASIGNAR\_AZIMUT\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-azimut-atributo.md): Solicita que digitalices dos puntos y asigna el valor del azimut al campo de base de datos indicado como parámetro.
+* [ASIGNAR\_DISTANCIA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-distancia-atributo.md): Solicita que digitalices dos puntos y asigna el valor de la distancia entre los dos puntos al campo de base de datos indicado como parámetro.
 * [BORRA\_ATR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/borra-atr.md): Elimina el enlace a base de datos de todas las geometrías de la ventana de dibujo.
 * [CAMBIAR\_VALORES\_BBDD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambiar-valores-bbdd.md): Cambia valores en la BBDD asociada con el archivo de dibujo.
 * [COPIA\_ATRIBUTO\_BBDD\_ENTIDAD\_EN\_ENTIDAD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/copia-atributo-bbdd-entidad-en-entidad.md): Copia el valor de un campo de la base de datos de una entidad en un campo de otra entidad.
@@ -634,7 +634,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [GUARDA\_DISPOSICION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guarda-disposicion.md): Guarda la disposición de ventanas y visualización del archivo de dibujo de DigiNG.
 * [GUARDAR\_RESULTADOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guardar_resultados.md): Guarda en un archivo TXT el contenido del panel de resultados.
 * [GUARDAR\_TAREAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/guardar-tareas.md): Guarda en un archivo XML las tareas del panel de tareas.
-* [LOCALIZAR\_TAREA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/localizar-tarea.md): Esta orden solicita al usuario que digitalize un punto y se localiza y selecciona la tarea que hubiera en ese punto (si es que había alguna).
+* [LOCALIZAR\_TAREA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/localizar-tarea.md): Solicita que digitalices un punto y localiza y selecciona la tarea que haya en ese punto, si existe alguna.
 * [MENU](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/menu.md): Lanza un menú de usuario de Digi3D a partir de su número.
 * [TAREA-](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tarea-menos.md): Lleva al usuario a las coordenadas de cada una de las tareas que se están mostrando en la ventana de tareas en ese momento, en sentido descendente.
 * [TAREA+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tarea-mas.md): Lleva al usuario a las coordenadas de cada una de las tareas que se están mostrando en la ventana de tareas en ese momento, en sentido ascendente.
@@ -655,7 +655,7 @@ La lista alfabética completa está en [Órdenes de la ventana de dibujo](/digi3
 * [ORDEN\_ATOMICA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/o/orden-atomica.md): Ejecuta las órdenes pasadas por parámetros como órdenes atómicas.
 * [PROGRAMA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/programa.md): Ejecuta un programa externo o abre un archivo con la aplicación que tenga asociada.
 * [PROHIBE\_ORDEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/prohibe-orden.md): Prohíbe que se ejecute la orden especificada por parámetros.
-* [PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/python.md): Ejecuta un guión de Python, opcionalmente pasándole argumentos.
+* [PYTHON](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/python.md): Ejecuta un guion de Python, opcionalmente pasándole argumentos.
 
 ## Ayuda
 

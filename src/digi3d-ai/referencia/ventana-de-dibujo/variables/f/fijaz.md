@@ -8,7 +8,7 @@ Activa o desactiva la opción de fijar el valor de la coordenada Z al múltiplo 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor que indica si se fija la coordenada Z |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Valor que indica si se fija la coordenada Z |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones
@@ -19,7 +19,7 @@ Al activarse, la orden redondea la Z del cursor al múltiplo de la equidistancia
 
 Por defecto está desactivada.
 
-Esta orden se suele utilizar en el dibujo de curvas de nivel, forzando a que la coordenada Z se registre con un valor constate igual a un múltiplo de la equidistancia.
+Si FIJAZ está activada, la coordenada Z se registra con un valor constante al dibujar curvas de nivel. Al activar FIJAZ con una equidistancia mayor que 0, la orden ajusta la Z al múltiplo más próximo de la equidistancia.
 
 ## Características de la orden
 

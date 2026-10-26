@@ -9,7 +9,7 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 
 ## Ejemplos
 
-Si queremos que el cursor se mueva en la ventana de dibujo a incrementos de 100 unidades, tendremos que ejecutar la siguiente secuencia de órdenes:
+Ejecuta la siguiente secuencia de órdenes para que el cursor se mueva en la ventana de dibujo en incrementos de 100 unidades de las coordenadas X e Y del dibujo:
 
 ```text
 EQUIDISTANCIA=100

@@ -8,14 +8,14 @@ Activa la verificación por parte del usuario de la selección del tentativo.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Modo automático |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones
 
-Si la la orden VER está activada, al efectuar un enganche a una entidad con el botón de tentatvo, ésta se presenta en pantalla con una animación, y el usuario puede verificar si la captura se realiza o no con dicha entidad.
+Si la orden VER está activada, al efectuar un enganche a una entidad con el botón de tentativo, la entidad se presenta en pantalla con una animación y puedes verificar si el enganche se realiza con esa entidad.
 
-Si la oren está desactivada, al intentar un enganche a una entidad con el botón de tentativo, el proceso se llevará a cabo sin pedir confirmación.
+Si la orden VER está desactivada, al intentar un enganche a una entidad con el botón de tentativo, el programa realizará el enganche sin pedir confirmación.
 
 ## Características de la orden
 

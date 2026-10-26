@@ -13,7 +13,7 @@ Asigna un valor a la coordenada Z.
 
 `Z=30`
 
-Establece como Z activa el valor de 30
+Establece como Z activa el valor 30 en las unidades de la coordenada Z del dibujo.
 
 ## Observaciones
 

@@ -9,7 +9,7 @@ Ver [parámetros de variables booleanas](../../../ordenes/variables/variables-bo
 
 ## Observaciones
 
-Puedes aprender más sobre órdenes automática en [Ejecutando órdenes de manera automática](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
+Consulta cómo ejecutar órdenes automáticamente en [Ejecutando órdenes de manera automática](../../../ordenes/formas-de-ejecutar-una-orden/de-manera-automatica/).
 
 ## Vídeo
 

@@ -17,13 +17,13 @@ Asigna como tolerancia angular 45 grados.
 
 `TOL_ANG=?`
 
-Muestra el valor actual de la tolerancia angular
+Muestra el valor actual de la tolerancia angular.
 
 ## Observaciones
 
 El valor se introduce en **grados sexagesimales**. Al iniciar Digi3D.AI vale 4,58, y el valor que asignes no se conserva al cerrar el programa.
 
-La tolerancia angular solo interviene en un tramo en el que ningún vértice supera la [tolerancia lineal](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md). En ese caso, las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) calculan para cada vértice intermedio el ángulo α con el que se separa de la recta que une los extremos del tramo, visto desde el extremo **más lejano** al vértice. Si el mayor de esos ángulos supera **TOL\_ANG**, el vértice se conserva para mantener la forma de la entidad, y el tramo se divide en dos por él.
+La tolerancia angular solo interviene en un tramo en el que la distancia de ningún vértice a la recta que une los extremos del tramo supera la [tolerancia lineal](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md). Cuando la tolerancia angular interviene en un tramo, las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) calculan para cada vértice intermedio el ángulo α de separación respecto a la recta que une los extremos del tramo, visto desde el extremo **más lejano** al vértice. Si el mayor de esos ángulos supera **TOL\_ANG**, se conserva el vértice correspondiente para mantener la forma de la entidad y se divide el tramo en dos por ese vértice.
 
 ![Un tramo A-B con tres vértices: P1 fuera de la tolerancia TOL se conserva, P2 dentro de TOL pero con un ángulo mayor que TOL_ANG se conserva, y P3 se elimina](../../../../../images/generalizacion-tol-tol-ang.svg)
 

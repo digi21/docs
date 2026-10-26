@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Si se está manejando Digi3D con manivelas y pedales, e interesa manejar DigiNG mediante el ratón del ordenador, se ejecuta esta orden para asociar al ratón como entrada de datos.
+Ejecuta la orden RATON para establecer el ratón del ordenador como dispositivo de entrada de datos si manejas Digi3D con manivelas y pedales.
 
 ## Características de la orden
 

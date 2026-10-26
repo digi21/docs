@@ -1,19 +1,19 @@
 # P
 <!-- id: p-3 -->
 
-Dibuja una paralela a una entidad lineal, automáticamente cuando se termina de registrar la entidad.
+Dibuja automáticamente una paralela a una entidad lineal cuando terminas de registrar la entidad.
 
 ## Parámetros
 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Modo automático |Si no se especifica ningún parámetro, el valor de la variable booleana cambiará de modo *Activado* a *Desactivado* y de *Desactivado* a *Activado*.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable booleana está activada o desactivada.| Sí |
 
 
 ## Observaciones
 
-La paralela que se genera, se dibujará con el mismo código que la entidad dibujada.
+Cuando la variable P está activada, el programa dibujará la paralela con el mismo código que la entidad original.
 
 Conviene fijar la [distancia activa](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), con su signo:
 

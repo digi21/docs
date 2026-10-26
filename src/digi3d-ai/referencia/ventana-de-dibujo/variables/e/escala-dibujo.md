@@ -13,11 +13,11 @@ Indica la escala con la que se representa el patrón en pantalla.
 
 `ESCALA_DIBUJO=1000`
 
-Asigna como escala de dibujo el valor 1000
+Asigna como escala de dibujo el valor 1000.
 
 `ESCALA_DIBUJO=?`
 
-Muestra el valor actual de la escala de dibujo
+Muestra el valor actual de la escala de dibujo.
 
 ## Características de la orden
 

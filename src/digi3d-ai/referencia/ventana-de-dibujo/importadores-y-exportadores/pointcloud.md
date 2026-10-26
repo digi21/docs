@@ -13,7 +13,7 @@ Este formato no añade propiedades a la categoría **Motor de importación/expor
 
 ### Al importar el archivo
 
-Digi3D.AI prepara los archivos de nivel de detalle de la nube de puntos y muestra el progreso en un cuadro de diálogo. Los parámetros de esa creación están en la sección [Creación de archivos de nivel de detalle de PointCloud](../../cuadros-de-dialogo/configuracion/creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/README.md) del cuadro de diálogo Configuración.
+Digi3D.AI prepara los archivos de nivel de detalle de la nube de puntos y muestra el progreso en un cuadro de diálogo. Los parámetros para crear los archivos de nivel de detalle están en la sección [Creación de archivos de nivel de detalle de PointCloud](../../cuadros-de-dialogo/configuracion/creacion-de-archivos-de-nivel-de-detalle-de-pointcloud/README.md) del cuadro de diálogo Configuración.
 
 ### Sistema de referencia de coordenadas
 

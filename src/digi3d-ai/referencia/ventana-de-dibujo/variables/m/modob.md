@@ -78,7 +78,7 @@ El punto toma la X y la Y de la intersección más cercana al cursor y la Z de l
 
 ### Modo de búsqueda automático
 
-Si [AUTOMODOB](../../ordenes/a/automodob.md) está activada y hay una tabla cargada con [PARAMETROS\_AUTO\_MODOB](../../ordenes/p/parametros-auto-modob.md), el tentativo sustituye el modo de búsqueda por el que la tabla asigna al código activo y al código de cada entidad analizada. Si la tabla no tiene ninguna fila para esa combinación, el tentativo activa el modo 0. Si además [AUTOMODOB\_EXHAUSTIVO](../../ordenes/a/automodob-exhaustivo.md) está activada, el tentativo descarta esa entidad en lugar de activar el modo 0. El modo que deja el tentativo sigue activo después.
+Si [AUTOMODOB](../../ordenes/a/automodob.md) está activada y hay una tabla cargada con [PARAMETROS\_AUTO\_MODOB](../../ordenes/p/parametros-auto-modob.md), el tentativo sustituye el modo de búsqueda por el que la tabla asigna al código activo y al código de cada entidad analizada. Si la tabla no tiene ninguna fila para la combinación del código activo y el código de la entidad analizada, el tentativo activa el modo 0. Si la tabla no contiene la combinación del código activo y el código de la entidad analizada y [AUTOMODOB\_EXHAUSTIVO](../../ordenes/a/automodob-exhaustivo.md) está activada, el tentativo descarta la entidad analizada en lugar de activar el modo 0. El modo que establece el tentativo sigue activo cuando finaliza el tentativo.
 
 ### Ejemplos
 

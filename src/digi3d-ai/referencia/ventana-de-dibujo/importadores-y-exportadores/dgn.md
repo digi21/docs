@@ -5,7 +5,7 @@ Importador y exportador de **Archivos DGNv8**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
 
 Por ejemplo:
 

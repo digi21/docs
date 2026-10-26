@@ -1,7 +1,7 @@
 # NDEC
 <!-- id: ndec -->
 
-Fija el número de decimales que van a aparecer en los textos numéricos utilizados para indicar valores de coordenadas X Y Z, distancias, superficies, etc.
+Fija el número de decimales que van a aparecer en los textos numéricos utilizados para indicar valores de coordenadas X, Y y Z, distancias, superficies, etc.
 
 ## Parámetros
 
@@ -13,11 +13,11 @@ Fija el número de decimales que van a aparecer en los textos numéricos utiliza
 
 `NDEC=3`
 
-Asigna como número de decimales el valor 3
+Asigna como número de decimales el valor 3.
 
 `NDEC=?`
 
-Muestra el valor actual del número de decimales
+Muestra el valor actual del número de decimales.
 
 ## Observaciones
 

@@ -17,7 +17,7 @@ Esta orden se puede ejecutar con parámetros o sin parámetros.
 
 ### Sin parámetros
 
-El programa solicitará en la barra de mensajes que introduzcamos el factor de escala, y propone los tres factores actuales (X, Y y Z). Podemos escribir uno, dos o tres factores, con el mismo significado que los parámetros, o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos a los tres ejes.
+El programa te solicita en la barra de mensajes que introduzcas el factor de escala y propone los tres factores actuales (X, Y y Z). Puedes escribir uno, dos o tres factores, con el mismo significado que los parámetros de la orden ESC_ACT, o digitalizar dos puntos en la ventana de dibujo. Si digitalizas dos puntos, el programa asignará la distancia entre esos puntos a los factores de escala de los tres ejes.
 
 ## Observaciones
 
@@ -25,7 +25,7 @@ Este factor se aplica a los puntos que crean órdenes como [PUNTO](/digi3d-ai/re
 
 ## Ejemplos
 
-Para asignar como factor de escala el valor 3 ejecutaremos el comando:
+Ejecuta la orden para asignar como factor de escala el valor 3:
 
 ```
 ESC_ACT=3

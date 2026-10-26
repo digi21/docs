@@ -21,11 +21,11 @@ Si ejecutas la orden sin parámetros, la barra de estado muestra un cuadro de te
 
 `SOLAPE=25`
 
-Asigna como solape el valor 25 %
+Asigna al solape entre vistas el 25 % del ancho de la ventana para los desplazamientos horizontales y el 25 % de la altura para los verticales.
 
 `SOLAPE=?`
 
-Muestra el valor actual del solape
+Muestra el valor actual del solape.
 
 ## Características de la orden
 

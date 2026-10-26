@@ -5,7 +5,7 @@ Importador y exportador de **Archivos Shapefile de ESRI**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
 
 Por ejemplo:
 
@@ -35,7 +35,7 @@ Las tres propiedades aparecen tanto al crear el archivo como al abrir uno existe
 
 ### Al abrir el archivo
 
-Cada archivo `.shp` es una capa. Al abrir o importar un archivo, Digi3D.AI carga todas las capas de su carpeta que tienen archivo `.shx`. Si está activada la opción [Preguntar por capas a cargar](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-shapefile/preguntar-por-capas-a-cargar.md) del cuadro de diálogo Configuración, antes muestra el cuadro de diálogo [Selección de tablas](../../cuadros-de-dialogo/seleccion-de-tablas.md) para elegir las capas que se cargan.
+Cada archivo `.shp` es una capa. Al abrir o importar un archivo, Digi3D.AI carga todas las capas de la carpeta del archivo abierto o importado que tienen archivo `.shx`. Si está activada la opción [Preguntar por capas a cargar](../../cuadros-de-dialogo/configuracion/importador-exportador-de-archivos-shapefile/preguntar-por-capas-a-cargar.md) del cuadro de diálogo Configuración, Digi3D.AI muestra, antes de cargar las capas, el cuadro de diálogo [Selección de tablas](../../cuadros-de-dialogo/seleccion-de-tablas.md) para elegir las capas que se cargan.
 
 ### Sistema de referencia de coordenadas
 

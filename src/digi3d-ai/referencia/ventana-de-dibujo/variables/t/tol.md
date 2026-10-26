@@ -17,7 +17,7 @@ Asigna como factor de tolerancia el valor 10 m.
 
 `TOL=?`
 
-Muestra el valor actual del factor de tolerancia
+Muestra el valor actual del factor de tolerancia.
 
 ## Observaciones
 
@@ -26,7 +26,7 @@ El valor del _factor de tolerancia_ se introduce en las unidades de las coordena
 Las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) generalizan con el algoritmo de Douglas-Peucker. Para cada tramo de la entidad, calculan la distancia de cada vértice intermedio a la **recta que une los extremos del tramo**, no al segmento formado por el vértice anterior y el siguiente:
 
 * Si algún vértice está a más de **TOL**, el más alejado se conserva y el tramo se divide en dos por ese vértice.
-* Si ninguno lo está, decide la tolerancia angular [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
+* Si ningún vértice está a una distancia de la recta que une los extremos del tramo mayor que **TOL**, la conservación de los vértices depende de la tolerancia angular [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
 
 `GEN` mide la distancia en el espacio, con la Z; `GEN_2D`, solo en el plano XY.
 

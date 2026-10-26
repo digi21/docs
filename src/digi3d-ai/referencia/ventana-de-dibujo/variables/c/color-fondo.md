@@ -11,7 +11,7 @@ Esta orden se puede ejecutar con un parámetro, con tres parámetros o sin pará
 
 | Número de parámetro | Descripción                                                            | Valores admitidos | Opcional |
 | ------------------- | ---------------------------------------------------------------------- | ----------------- | -------- |
-| 1                   | Índice al color de la paleta de colores de la tabla de códigos activa. | 0-255             | Si       |
+| 1                   | Índice del color de la paleta de colores de la tabla de códigos activa. | 0-255             | Sí       |
 
 ### Con tres parámetros
 
@@ -23,7 +23,7 @@ Esta orden se puede ejecutar con un parámetro, con tres parámetros o sin pará
 
 ### Sin parámetros
 
-Si se ejecuta esta orden sin parámetros, muestra el cuadro de diálogo [Seleccionar color](../../../cuadros-de-dialogo/seleccionar-color.md) con la paleta de la tabla de códigos activa. Al elegir un color de la paleta, el color de fondo toma el valor RGB de esa entrada, no su número: si después cambia la paleta, el fondo no cambia. El cuadro no muestra la opacidad (**A**), porque el color de fondo es siempre opaco. Si no hay ninguna tabla de códigos cargada, muestra el cuadro sin paleta. En el cuadro, pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
+Si ejecutas COLOR_FONDO sin parámetros, la orden muestra el cuadro de diálogo [Seleccionar color](../../../cuadros-de-dialogo/seleccionar-color.md) con la paleta de la tabla de códigos activa. Al elegir un color de la paleta, el color de fondo toma los componentes rojo, verde y azul (RGB) de esa entrada de la paleta, en lugar del índice del color: si la paleta cambia después de elegir el color, el fondo no cambia. El cuadro de diálogo no muestra la opacidad (**A**), porque el color de fondo es siempre opaco. Si no hay ninguna tabla de códigos cargada, la orden muestra el cuadro de diálogo sin paleta. En el cuadro de diálogo, pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
 
 ## Observaciones
 

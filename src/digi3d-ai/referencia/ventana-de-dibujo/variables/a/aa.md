@@ -15,17 +15,17 @@ Esta orden se puede ejecutar con o sin parámetros.
 
 ### Sin parámetros
 
-Si ejecutamos esta orden sin parámetros, esta solicitará en la barra de estado que tecleemos el valor o que digitalicemos gráficamente dos puntos. Si se digitalizan dos puntos, se asignará el valor del ángulo que forma el vector que une los dos puntos.
+Si ejecutas esta orden sin parámetros, la orden te solicitará en la barra de estado que teclees el valor del ángulo activo o que digitalices dos puntos. Si digitalizas dos puntos, la orden asignará al ángulo activo el ángulo del vector que va del primer punto al segundo.
 
 ## Observaciones
 
-El valor del _ángulo activo_, debe introducirse en grados sexagesimales. El origen de los ángulos coincide con el eje positivo de las coordenadas X, y el avance en sentido contrario al de las agujas del reloj.
+Introduce el valor del _ángulo activo_ en grados sexagesimales. El origen de los ángulos coincide con el eje positivo de las coordenadas X, y los ángulos aumentan en sentido contrario al de las agujas del reloj.
 
 El valor por defecto es 0.
 
 ## Ejemplos
 
-Para asignar como ángulo activo el valor 45º
+Ejecuta la siguiente orden para asignar como ángulo activo el valor 45 grados sexagesimales:
 
 ```text
 AA=45

@@ -5,7 +5,7 @@ Importador y exportador de **Archivos AutoCAD DWG**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
 
 Por ejemplo:
 
@@ -88,7 +88,7 @@ Al leer un sombreado, Digi3D.AI convierte cada bucle cerrado en un anillo. Los a
 | Exterior | Los que no están dentro de ningún bucle | Los que están dentro de un único bucle; los más interiores se descartan |
 | Ignorar | Los que no están dentro de ningún bucle | Ninguno; los interiores se descartan |
 
-Con un único bucle exterior se crea un polígono con sus huecos. Con varios, un elemento complejo con un polígono por cada exterior. Un sombreado sin bucles cerrados se lee como antes: como un elemento complejo con las entidades en las que se descompone. El patrón, la escala y el ángulo del sombreado no se leen, y al volver a guardar el polígono se escribe con relleno sólido.
+Con un único bucle exterior se crea un polígono con sus huecos. Con varios bucles exteriores se crea un elemento complejo con un polígono por cada bucle exterior. Un sombreado sin bucles cerrados se lee como un elemento complejo con las entidades en las que se descompone. El patrón, la escala y el ángulo del sombreado no se leen, y al guardar el polígono leído, Digi3D.AI lo escribe con relleno sólido.
 
 ### Polígonos con Z no constante
 

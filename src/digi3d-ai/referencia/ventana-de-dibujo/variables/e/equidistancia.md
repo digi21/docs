@@ -16,7 +16,7 @@ Esta orden se puede ejecutar con un parámetro o sin parámetros.
 
 ### Sin parámetros
 
-El programa solicitará en la barra de mensajes que introduzcamos el factor de equidistancia. Podemos introducir un valor con el teclado o podemos digitalizar dos puntos en la ventana de dibujo y se asignará la distancia entre ambos.
+El programa te solicitará en la barra de mensajes que introduzcas la equidistancia. Puedes introducir un valor con el teclado o digitalizar dos puntos en la ventana de dibujo. Si digitalizas dos puntos, el programa asignará a la equidistancia la distancia entre esos puntos.
 
 ## Observaciones
 
@@ -24,7 +24,7 @@ El valor por defecto de esta variable es el indicado en el campo **Equidistancia
 
 ## Ejemplos
 
-Para asignar como equidistancia el valor 5 ejecutaremos el comando:
+Ejecuta la orden para asignar como equidistancia 5 unidades de longitud de trabajo del dibujo:
 
 ```text
 EQUIDISTANCIA=5

@@ -1,5 +1,5 @@
 # Dibujar
 <!-- id: dibujar -->
 
-Permite ejecutar acciones relacionadas con digitalizar nuevas geometrías.
+El menú Dibujar permite ejecutar acciones relacionadas con la digitalización de nuevas geometrías.
 

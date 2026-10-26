@@ -5,7 +5,7 @@ Importador de **Valores separados por comas**.
 
 ## Parámetros
 
-Parámetros del importador/exportador para pasar mediante línea de comandos mediante la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
+Puedes pasar los siguientes parámetros al importador/exportador desde la línea de comandos con la orden [PARAMETROS_IMPORTACION](../ordenes/p/parametros-importacion.md).
 
 Por ejemplo:
 
@@ -35,7 +35,7 @@ Cada línea se importa como un punto, con todas sus columnas como datos. Digi3D.
 
 ### Sistema de referencia de coordenadas
 
-El sistema de referencia se lee de un archivo `.prj` con el mismo nombre que el archivo. Si no existe, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**. Al importar no se crea el `.prj`: el sistema elegido solo se usa durante la sesión.
+El sistema de referencia se lee de un archivo `.prj` con el mismo nombre que el archivo que se importa. Si el archivo `.prj` no existe, Digi3D.AI muestra el cuadro de diálogo **Selecciona el sistema de referencia de coordenadas a asignar al archivo**. Al importar no se crea el `.prj`: el sistema elegido solo se usa durante la sesión.
 
 ## Características del importador/exportador
 

@@ -1,11 +1,11 @@
 # DA1
 <!-- id: da1 -->
 
-Asigna/consulta el valor de _distancia activa_ primaria y asigna el mismo valor a la _distancia activa secundaria_.
+Asigna o consulta el valor de la _distancia activa_ principal y asigna el mismo valor a la _distancia activa secundaria_.
 
 ## Parámetros
 
-Esta orden se puede ejecutar con un parámetro o sin parámetros
+Esta orden se puede ejecutar con un parámetro o sin parámetros.
 
 ### Con un parámetro
 
@@ -19,13 +19,13 @@ La orden asigna siempre el mismo valor a las dos distancias: si se escribe un se
 
 ### Sin parámetros
 
-Si no se especifica ningún parámetro, el programa solicitará que introduzcamos en la barra de mensajes la distancia activa. El valor introducido se asigna a la distancia activa principal y a la secundaria.
+Si no especificas ningún parámetro, el programa te solicitará que introduzcas en la barra de mensajes la distancia activa. El valor introducido se asigna a la distancia activa principal y a la secundaria.
 
-Esta distancia la podemos introducir manualmente \(tecleando el valor y luego pulsando Enter\) o gráficamente en la ventana de dibujo. En caso de hacerlo gráficamente, se asignará la distancia en planimetría (sin tener en cuenta la Z) entre los dos puntos digitalizados.
+Introduce la distancia activa manualmente \(teclea el valor y pulsa Enter\) o digitaliza dos puntos en la ventana de dibujo. Si digitalizas dos puntos para indicar la distancia, el programa asignará la distancia en planimetría (sin tener en cuenta la Z) entre esos puntos.
 
 ## Ejemplos
 
-Para asignar el valor 12.45 a la distancia activa principal y a la secundaria ejecutaremos la orden:
+Ejecuta la orden para asignar 12.45 unidades de longitud de trabajo del dibujo a la distancia activa principal y a la secundaria:
 
 ```text
 DA1=12.45

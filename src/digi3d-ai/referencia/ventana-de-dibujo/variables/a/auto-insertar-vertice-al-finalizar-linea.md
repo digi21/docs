@@ -1,7 +1,7 @@
 # AUTO\_INSERTAR\_VÉRTICE\_INTERSECCIÓN\_AL\_FINALIZAR\_LINEA
 <!-- id: auto-insertar-vertice-al-finalizar-linea -->
 
-Establece si auto insertar vértices en las geometrías que cruzan a la que se está digitalizando.
+Establece si se insertan automáticamente vértices en las geometrías que se cruzan con la geometría que se está digitalizando.
 
 ## Parámetros
 
