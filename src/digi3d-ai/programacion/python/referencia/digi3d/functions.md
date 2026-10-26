@@ -42,7 +42,7 @@ Cierra el dibujo abierto con [`DrawingView.close()`](drawing-view.md#otros-méto
 | `z_correction` | `float` | Corrección de Z. |
 | `sigma` | `float` | Sigma. |
 | `crs_wkt` | `str` | Sistema de coordenadas de la ventana de dibujo, en WKT. |
-| `references` | `list[str]` | Archivos de referencia que se cargan. Si no se indica `references`, se cargan los archivos de referencia guardados con el dibujo. Un archivo que no estaba guardado queda guardado con el dibujo, igual que cuando cargas ese archivo. |
+| `references` | `list[str]` | Archivos de referencia que se cargan. Si no se indica `references`, se cargan los archivos de referencia guardados con el dibujo. Un archivo que no estaba guardado queda guardado con el dibujo, igual que cuando cargas ese archivo. Con la opción [Almacenar los archivos de referencia en un archivo .reference_files.json](../../../../referencia/cuadros-de-dialogo/configuracion/archivos-de-referencia/almacenar-los-archivos-de-referencia-en-un-archivo-json.md) desactivada, Digi3D.AI no lee ni guarda las referencias del archivo de archivos de referencia. |
 
 Los argumentos que no se pasan toman los últimos valores usados en el cuadro de abrir dibujo. Los que
 se pasan quedan como últimos valores usados, igual que con el cuadro; si el dibujo no se puede abrir,
@@ -65,7 +65,7 @@ empieza por `Warning:` en la salida del guion:
 | El archivo no tiene sistema de coordenadas. | Se obtiene el mismo resultado que al cancelar el cuadro de selección del sistema de coordenadas. |
 | Hay que elegir las capas o tablas del archivo. | El archivo no se carga. |
 | El proyecto fotogramétrico no tiene sistema de coordenadas. | Se carga con un sistema local, sin crear el archivo `.prj`. |
-| El dibujo que abre `open_drawing` tiene asociado un [proyecto fotogramétrico](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-fotogramétrico). | El proyecto no se carga. |
+| El dibujo que abre `open_drawing` tiene asociado un [proyecto fotogramétrico o un archivo de modelo fotogramétrico](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-o-modelo-fotogramétrico). | El proyecto no se carga y el modelo no se abre. |
 | Cualquier otro mensaje con botones. | La función elige No, cancelar o abortar, según los botones del mensaje. |
 
 Si `open_drawing` falla, el mensaje de la excepción incluye los avisos. Las órdenes de inicio que
@@ -103,6 +103,13 @@ open_photogrammetric_file(path) -> PhotogrammetricView
 Abre un archivo de modelo fotogramétrico (`.d3d`) en una ventana fotogramétrica nueva y la devuelve.
 Lanza `ValueError` si el archivo no es `.d3d` y `RuntimeError` si Digi3D.AI no puede abrirlo.
 
+Con la opción [Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia](../../../../referencia/cuadros-de-dialogo/configuracion/archivos-de-referencia/almacenar-el-proyecto-o-el-modelo-fotogrametrico.md)
+activada, si hay una ventana de dibujo abierta y el panel Proyecto fotogramétrico no tiene ningún proyecto
+cargado, `open_photogrammetric_file` guarda la ruta del
+archivo de modelo en el [archivo de archivos de referencia](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-o-modelo-fotogramétrico)
+del archivo de dibujo de la última ventana de dibujo que ha tenido el foco, salvo si ese archivo de
+dibujo es de solo lectura.
+
 ### open_project
 
 ```python
@@ -116,8 +123,9 @@ coordenadas, la función lo carga con un sistema local, sin crear el archivo `.p
 tabla de [Abrir sin cuadros de diálogo](#abrir-sin-cuadros-de-diálogo).
 
 Si carga el proyecto, la función guarda su ruta como último proyecto del panel, como el botón **Cargar**.
-Si hay una ventana de dibujo abierta y el archivo de dibujo de la última ventana de dibujo que ha tenido
-el foco no es de solo lectura, también guarda la ruta en el [archivo de archivos de referencia](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-fotogramétrico)
+Con la opción [Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia](../../../../referencia/cuadros-de-dialogo/configuracion/archivos-de-referencia/almacenar-el-proyecto-o-el-modelo-fotogrametrico.md)
+activada, si hay una ventana de dibujo abierta y el archivo de dibujo de la última ventana de dibujo que
+ha tenido el foco no es de solo lectura, también guarda la ruta en el [archivo de archivos de referencia](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-o-modelo-fotogramétrico)
 de ese archivo de dibujo.
 
 ### project

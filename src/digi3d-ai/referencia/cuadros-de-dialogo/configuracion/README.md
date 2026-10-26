@@ -45,6 +45,13 @@ Acelera el desplazamiento de las imágenes al mover las manivelas.
 * **[Factor de multiplicación](aceleracion-de-manivelas/factor-de-multiplicacion.md)** — Valor por el que se multiplica la velocidad al acelerar.
 * **[Tiempo de parada](aceleracion-de-manivelas/tiempo-de-parada.md)** — Tiempo sin movimiento tras el que finaliza la aceleración.
 
+### Archivos de referencia
+
+Configura qué guarda Digi3D.AI en el archivo de archivos de referencia de cada archivo de dibujo.
+
+* **[Almacenar los archivos de referencia en un archivo .reference_files.json](archivos-de-referencia/almacenar-los-archivos-de-referencia-en-un-archivo-json.md)** — Guarda los archivos de referencia del archivo de dibujo, con sus parámetros de importación y sus transformaciones, y los carga al abrir el archivo de dibujo.
+* **[Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia](archivos-de-referencia/almacenar-el-proyecto-o-el-modelo-fotogrametrico.md)** — Guarda la ruta del proyecto fotogramétrico o del archivo de modelo fotogramétrico, y carga ese proyecto o abre ese modelo al abrir el archivo de dibujo.
+
 ### Arcos y circunferencias
 
 Configura cómo se generan los arcos y las circunferencias.
