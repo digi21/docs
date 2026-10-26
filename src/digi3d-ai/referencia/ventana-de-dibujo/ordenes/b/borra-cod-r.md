@@ -7,7 +7,7 @@ Borra un código (atributo) de las entidades que forman el contorno de los recin
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Atributo | Código a borrar | Si |
+| 1 | Atributo | Código a borrar | Sí |
 
 Si no se indica el parámetro, la orden muestra un cuadro de diálogo para elegir el código.
 
@@ -15,15 +15,15 @@ Si no se indica el parámetro, la orden muestra un cuadro de diálogo para elegi
 
 Esta es una orden de inundación: actúa sobre los recintos en los que haces clic, y necesita una topología para inundación cargada en memoria. Antes de ejecutarla, genera esa topología con [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), y vuelve a generarla si has modificado las líneas del dibujo. Si no hay topología para inundación, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina sin pedir el código, y la opción del menú **Inundación/Eliminar código...** está deshabilitada.
 
-Al ejecutar la orden, el programa pedirá la selección del código \(atributo\) de las entidades, a continuación podrás picar dentro de los recintos y éstos se iluminarán:
+Al ejecutar la orden, el programa te pedirá que selecciones el código \(atributo\) de las entidades. Tras seleccionar el código, haz clic dentro de los recintos para seleccionarlos y resaltarlos:
 
 * Pulsa el botón de datos dentro de un recinto para seleccionarlo. La selección anterior se descarta.
 * Mantén pulsada la tecla Ctrl al pulsar el botón de datos para añadir el recinto a la selección o quitarlo de ella.
-* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto y que no está ya seleccionado. Si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error.
+* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene la posición del cursor y que no está ya seleccionado. Si no hay ningún recinto sin seleccionar que contenga la posición del cursor, la orden quita el último recinto de la selección y emite el sonido de error.
 * Pulsa el botón de reset para deseleccionar todos los recintos.
 * Pulsa Esc para cancelar la orden.
 
-Para aceptar la selección, deberás pulsar la barra espaciadora. La orden recorre las entidades del contorno exterior de los recintos seleccionados. Si una entidad solo tiene el código indicado, se borra la entidad. Si tiene más códigos, la orden quita el código indicado y conserva la entidad con el resto de códigos. Las entidades que no tienen el código indicado no se modifican.
+Pulsa la barra espaciadora para aceptar la selección. La orden recorre las entidades del contorno exterior de los recintos seleccionados. Si una entidad solo tiene el código indicado, se borra la entidad. Si una entidad del contorno exterior tiene el código indicado y otros códigos, la orden quita el código indicado y conserva la entidad con el resto de códigos. Las entidades que no tienen el código indicado no se modifican.
 
 También es posible ejecutar la orden especificando el código desde la línea de comandos.
 

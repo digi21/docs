@@ -1,21 +1,21 @@
 # CAMB\_MAXPUNTOS
 <!-- id: camb-maxpuntos -->
 
-Divide las entidades lineales, con un número de vértices superior al especificado, en varios tramos con menor número de vértices.
+Divide las entidades lineales que superan el número de vértices especificado en varios tramos con menos vértices.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Códigos de las líneas a dividir. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+| 1 … N | Códigos de las líneas a dividir. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Sí |
 
 Sin parámetros, la orden solicita que selecciones una línea. Con parámetros, la orden divide sin pedir datos todas las líneas visibles, no borradas y dentro de la zona de interés que tengan alguno de los códigos indicados.
 
 ## Observaciones
 
-El número máximo de vértices para entidades lineales queda determinado por el valor de [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md), este valor deberá estar definido antes de ejecutar la orden _CAMB\_MAXPUNTOS_. Si MAXPUNTOS es menor que 2, la orden no modifica ninguna línea.
+El número máximo de vértices para entidades lineales queda determinado por el valor de [MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/maxpuntos.md). Define el valor de MAXPUNTOS antes de ejecutar la orden _CAMB\_MAXPUNTOS_. Si MAXPUNTOS es menor que 2, la orden no modifica ninguna línea.
 
-Bien podemos ejecutar CAMB\_MAXPUNTOS sobre una determinada entidad o sobre todas las entidades que tengan un determinado código.
+Puedes ejecutar CAMB\_MAXPUNTOS sobre una determinada entidad o sobre todas las entidades que tengan un determinado código.
 
 ### Ejemplo
 
@@ -23,7 +23,7 @@ MAXPUNTOS=500
 
 CAMB\_MAXPUNTOS=020126
 
-Dividirá todas aquellas entidades lineales cuyo código sea 020126, en tramos que tengan 500 vértices cada uno. Cada tramo empieza en el último vértice del tramo anterior. El último tramo puede tener menos vértices.
+La orden divide todas las entidades lineales cuyo código sea 020126 en tramos de 500 vértices. A partir del segundo tramo, cada tramo empieza en el último vértice del tramo anterior. El último tramo puede tener menos vértices.
 
 Si el control de calidad descarta cualquiera de los tramos nuevos, se conserva la línea original completa y no se añade ningún tramo. Con varias líneas, cada una se trata de forma independiente.
 
@@ -31,7 +31,7 @@ Si el control de calidad descarta cualquiera de los tramos nuevos, se conserva l
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
+| Repite automáticamente | Sí, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -9,7 +9,7 @@ Dibuja una circunferencia mediante la definición de su centro y el radio introd
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Radio de la circunferencia | Número | Si |
+| 1 | Radio de la circunferencia, en unidades del sistema de referencia de coordenadas | Número | Sí |
 
 ## Observaciones
 
@@ -19,7 +19,7 @@ La orden muestra en la barra de estado un campo con el radio, que puedes cambiar
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Circunferencia con centro y radio |
 | Barra de herramientas en la que aparece la orden | Circunferencias |
 | Extensión | DigiNG.OrdenesStandard.dll |

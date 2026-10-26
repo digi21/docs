@@ -13,9 +13,9 @@ Detecta polígonos vecinos con centroides distintos entre archivos de dibujo.
 ## Observaciones
 
 1. Si faltan parámetros o la topología no existe, la orden emite un sonido de error, muestra un globo de aviso y termina.
-2. La orden compara cada polígono con centroide de un archivo con los polígonos con centroide de los demás archivos. Si los dos polígonos comparten un lado \(dos vértices consecutivos comunes\) y sus centroides son distintos, añade una tarea de error al panel de tareas con el lado común y los dos centroides.
+2. En los pares de archivos elegidos mediante el segundo parámetro, la orden compara cada polígono con centroide de un archivo con los polígonos con centroide de los demás archivos. Si los dos polígonos comparten un lado \(dos vértices consecutivos comunes\) y sus centroides son distintos, añade una tarea de error al panel Tareas con el lado común y los dos centroides.
 3. Los centroides se comparan por el texto o por los códigos, según la opción de configuración del control topológico \(por defecto, por el texto\).
-4. Si está activa la opción de limpiar automáticamente el panel de tareas, la orden lo vacía antes de analizar.
+4. Si está activa la opción de limpiar automáticamente el panel Tareas, la orden lo vacía antes de comparar los polígonos.
 
 ## Características de la orden
 

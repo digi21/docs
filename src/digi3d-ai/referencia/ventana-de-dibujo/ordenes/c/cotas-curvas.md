@@ -7,7 +7,7 @@ Asigna cota a las curvas de nivel de manera global.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | Códigos de las curvas de nivel. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden muestra un cuadro de diálogo para seleccionar los códigos |
+| 1...n | Códigos de las curvas de nivel. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Sí. Si no se especifica ningún parámetro, la orden muestra un cuadro de diálogo para seleccionar los códigos |
 
 ## Observaciones
 
@@ -16,7 +16,7 @@ Asigna cota a las curvas de nivel de manera global.
 
 La orden calcula el número de curvas esperado como la diferencia de Z entre los dos puntos dividida por la [equidistancia](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md), más uno. Si el número de líneas con esos códigos que corta el segmento no coincide, la orden muestra un globo de error y no modifica nada.
 
-Si coincide, la orden ordena las curvas por distancia al primer punto y asigna a todos los vértices de cada una la Z del primer punto más la equidistancia multiplicada por su posición \(0 para la más cercana\). Si el segundo punto tiene una Z menor que el primero, la orden resta la equidistancia en vez de sumarla: las cotas disminuyen a partir del primer punto.
+Si el número de líneas coincide con el número de curvas esperado, la orden ordena las curvas por distancia al primer punto y asigna a todos los vértices de cada curva la Z del primer punto más la equidistancia multiplicada por la posición de la curva en ese orden \(0 para la más cercana\). Si el segundo punto tiene una Z menor que la del primer punto, la orden resta la equidistancia en vez de sumarla: las cotas disminuyen a partir del primer punto.
 
 La orden no termina tras asignar las cotas: puedes digitalizar otro par de puntos. Pulsa **Esc** para terminar.
 
@@ -31,7 +31,7 @@ COD=0211*
 COTAS_CURVAS=02*
 ```
 
-Las curvas acotadas pasan a tener los códigos `021123` y `021124`. Al terminar, se recuperan los códigos originales con [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md).
+Las curvas acotadas pasan a tener los códigos `021123` y `021124`. Al terminar de acotar, recupera los códigos originales con [RENOMCOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/renomcod.md).
 
 Si el código activo no tiene comodines, la orden solo cambia la Z y las curvas conservan sus códigos.
 
@@ -41,7 +41,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -38,7 +38,7 @@ La orden ejecuta los pasos en este orden y cada uno trabaja sobre el resultado d
 ### Paso 1: Corrección de errores geométricos
 
 * **Alargar o recortar las líneas para conectar sus extremos sueltos a otra línea, a una distancia inferior a**: un extremo está suelto si no coincide en X e Y con el extremo de otra línea ni con el otro extremo de la misma línea. Si hay otra línea dentro de un cuadrado de lado el doble de la tolerancia centrado en el extremo, la orden lleva el extremo a su proyección sobre esa línea: alarga la línea si no llegaba y la recorta si se pasaba. El extremo conserva su Z. Además, la orden borra las líneas de dos vértices con algún extremo suelto cuya longitud en planta es menor que la tolerancia. Solo trata líneas, no polígonos.
-* **Agrupar los vértices cercanos, a una distancia inferior a**: los vértices de las líneas que están a menos de la tolerancia en planta pasan a la posición media del grupo. Cambia la X y la Y de esos vértices, no su Z. Solo trata líneas.
+* **Agrupar los vértices cercanos, a una distancia inferior a**: los vértices de las líneas que están a menos de la tolerancia en planta pasan a la posición media del grupo. La orden cambia la X y la Y de los vértices agrupados y conserva su Z. Solo trata líneas.
 * **Insertar en los segmentos los vértices cercanos aunque las líneas no se crucen, a una distancia inferior a**: si un vértice de una línea está a menos de la tolerancia de un segmento de otra línea, o de otro segmento de la misma, y su proyección cae dentro del segmento, la orden inserta en el segmento un vértice en la posición de ese vértice, con la Z interpolada en el segmento. Trata líneas, polígonos y sus huecos.
 
 ### Paso 2: Detección de cruces entre líneas
@@ -58,7 +58,7 @@ Trata solo líneas. Un extremo no está conectado si no coincide con el extremo 
 
 * **No buscar líneas no conectadas**.
 * **Marcar como error los extremos de líneas no conectados**: añade una tarea de error por cada extremo no conectado.
-* **Marcar como error solo los extremos no conectados que tienen otra línea a menos de la distancia máxima**: solo los extremos que tienen otra línea dentro de un cuadrado de lado el doble del valor de **Distancia máxima**, centrado en el extremo. Sirve para localizar líneas que no llegan a la línea en la que deberían terminar. El campo solo está habilitado con esta opción.
+* **Marcar como error solo los extremos no conectados que tienen otra línea a menos de la distancia máxima**: añade una tarea de error por cada extremo que tiene otra línea dentro de un cuadrado de lado el doble del valor de **Distancia máxima**, centrado en el extremo. Sirve para localizar líneas que no llegan a la línea en la que deberían terminar. El campo Distancia máxima solo está habilitado con la opción Marcar como error solo los extremos no conectados que tienen otra línea a menos de la distancia máxima.
 * **Marcar como error los extremos de líneas no conectados, comparando también la Z**: un extremo solo está conectado si coincide con otro extremo en X, Y y Z.
 
 ### Paso 4: Detección de entidades duplicadas
@@ -104,11 +104,11 @@ El símbolo de un cruce o de un extremo está en ese punto. El de una entidad du
 
 ### Resultados
 
-Al empezar, la orden muestra los paneles [Resultados](/digi3d-ai/referencia/paneles/resultados.md) y [Tareas](/digi3d-ai/referencia/paneles/tareas.md). Si está activada la opción de limpiar automáticamente el panel de tareas, lo vacía. Mientras trabaja, la orden muestra una barra de progreso.
+Al ejecutarse, la orden muestra los paneles [Resultados](/digi3d-ai/referencia/paneles/resultados.md) y [Tareas](/digi3d-ai/referencia/paneles/tareas.md). Si está activada la opción de limpiar automáticamente el panel de tareas, la orden vacía ese panel. Durante el procesamiento de las entidades, la orden muestra una barra de progreso.
 
 En el panel Resultados, la orden escribe un mensaje por cada paso que ejecuta y el número de entidades afectadas: las modificadas, las nuevas al partir, las borradas, las agrupadas o las unidas, y el número de errores de cruces, de extremos y de duplicadas.
 
-En el panel Tareas añade los errores:
+La orden añade los errores en el panel Tareas:
 
 | Error | Descripción | Información |
 | :--- | :--- | :--- |

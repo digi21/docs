@@ -1,7 +1,7 @@
 # ASIGNAR\_Z\_MAXIMA\_VERTICES\_NODO
 <!-- id: asignar-z-maxima-vertices-nodo -->
 
-Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de todos para que se ajuste a la Z máxima.
+Localiza todos los vértices que llegan a un determinado nodo y asigna a cada vértice la Z máxima del nodo.
 
 ![ASIGNAR_Z_MAXIMA_VERTICES_NODO: en un nodo con extremos de Z 100, 101,5 y 102, todos los extremos pasan a Z 102](../../../../../images/orden-asignar-z-maxima-vertices-nodo.svg)
 
@@ -15,7 +15,7 @@ Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de
 
 La orden solo analiza las entidades visibles que tienen alguno de los códigos pasados como parámetro. Sin códigos, la orden no hace nada.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad modificada, solo se conserva su original y las demás se modifican.
+La orden trata cada entidad de forma independiente: si Digi3D.AI descarta una entidad modificada, la orden conserva la entidad original. Las entidades que Digi3D.AI acepta se modifican.
 
 ## Características de la orden
 

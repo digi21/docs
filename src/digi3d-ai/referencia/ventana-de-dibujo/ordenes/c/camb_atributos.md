@@ -9,9 +9,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Al ejecutar esta orden solicita que seleccionemos la geometría o geometrías a cambiar sus atributos.&#x20;
+La orden solicita que selecciones las geometrías cuyos atributos quieres cambiar.&#x20;
 
-Esta orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md), de manera que podemos modificar múltiples geometrías simultáneamente.
+Esta orden admite [selección múltiple](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md), de manera que puedes modificar los atributos de varias geometrías simultáneamente.
 
 Si el valor de un atributo activo es un valor especial (macro), la orden lo evalúa para cada geometría y asigna el resultado convertido al tipo del campo.
 
@@ -21,7 +21,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                                                                                                              |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repite automáticamente                           | Si                                                                                                                                                              |
+| Repite automáticamente                           | Sí                                                                                                                                                              |
 | Opción del menú donde aparece la orden           | Editar/Cambiar los atributos de una entidad por los activos                                                                                                     |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_                                                                                                        |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |

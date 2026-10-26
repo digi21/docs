@@ -1,7 +1,7 @@
 # ASIGNA\_ATRIBUTO\_BBDD\_ENTIDAD
 <!-- id: asigna-atributo-bbdd-entidad -->
 
-Asigna un nuevo valor a un campo en la BBDD para una entidad.
+Asigna un nuevo valor a un campo de la base de datos para una entidad.
 
 ## Parámetros
 
@@ -15,7 +15,7 @@ Asigna un nuevo valor a un campo en la BBDD para una entidad.
 
 La orden comprueba al ejecutarse que se han pasado los tres parámetros, que el código tiene una tabla de base de datos asociada en la tabla de códigos, que esa tabla existe en el esquema de la base de datos y que tiene el campo indicado. Si falla alguna comprobación, muestra un mensaje de error y termina.
 
-A continuación, la orden solicita que selecciones una entidad. Solo se pueden seleccionar entidades del modelo actual que tengan el código indicado. La orden asigna el valor al campo en los atributos de ese código de la entidad, convertido al tipo que ya tenga el campo, y termina.
+A continuación, la orden solicita que selecciones una entidad. Solo se pueden seleccionar entidades del modelo actual que tengan el código indicado. La orden convierte el valor al tipo que ya tenga el campo, lo asigna al campo en los atributos del código indicado de la entidad seleccionada y termina.
 
 Si Digi3D.AI descarta la entidad con el atributo modificado (por ejemplo, por una restricción de la base de datos o de una extensión), la entidad original se conserva sin cambios.
 

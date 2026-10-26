@@ -1,13 +1,13 @@
 # BLOQUE
 <!-- id: bloque -->
 
-Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán ser insertadas posteriormente en cualquier dibujo.
+Almacena en un nuevo fichero una entidad o un conjunto de entidades que puedes insertar posteriormente en cualquier dibujo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Archivo que se va a crear. Si se indica, la orden no muestra el cuadro de diálogo de selección de archivo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte**. Puede aparecer el cuadro de selección de formato, si varios formatos usan esa extensión, o el de parámetros del formato, si su configuración lo pide. En los formatos BIN y BIND no aparece el de parámetros: un archivo BIN se crea con precisión de centímetros y origen global (0, 0, 0), y un archivo BIND sin base de datos | Ruta de archivo | Si |
+| 1 | Archivo que se va a crear. Si indicas la ruta del archivo, la orden no muestra el cuadro de diálogo de selección de archivo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte**. Puede aparecer el cuadro de selección de formato, si varios formatos usan la extensión del archivo, o el de parámetros del formato, si la configuración del formato requiere que indiques parámetros. En los formatos BIN y BIND no aparece el cuadro de parámetros: un archivo BIN se crea con precisión de centímetros y origen global (0, 0, 0), y un archivo BIND sin base de datos | Ruta de archivo | Sí |
 
 ## Observaciones
 
@@ -17,7 +17,7 @@ La ventana para generar el bloque es una línea que ya existe en el dibujo. Para
 2. Digitaliza el punto de origen. Las coordenadas de las entidades se guardan relativas a este punto.
 3. Selecciona la línea que actúa como ventana.
 
-La orden busca las entidades de todos los archivos de dibujo cargados que estén visibles, no borradas y dentro de la zona de interés, y guarda en el archivo las que cumplen la condición de inclusión. Con **1. Corte** guarda los trozos de las líneas que quedan dentro de la ventana. La línea ventana no se guarda. Las entidades del dibujo no se modifican.
+La orden busca en todos los archivos de dibujo cargados las entidades visibles, no borradas y dentro de la zona de interés, y guarda en el archivo del bloque las que cumplen la condición de inclusión. Con **1. Corte** guarda los trozos de las líneas que quedan dentro de la ventana. La línea que actúa como ventana no se guarda. Las entidades del dibujo no se modifican.
 
 Si se cancela el cuadro de diálogo, la orden termina sin crear el archivo.
 

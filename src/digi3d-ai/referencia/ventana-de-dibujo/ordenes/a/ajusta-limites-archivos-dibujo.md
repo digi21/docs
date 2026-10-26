@@ -1,7 +1,7 @@
 # AJUSTA\_LIMITES\_ARCHIVOS\_DIBUJO
 <!-- id: ajusta-limites-archivos-dibujo -->
 
-Ajusta las líneas de límite entre archivos de dibujo contiguos (cases): lleva a los límites los extremos libres cercanos de las líneas de cada archivo, inserta vértices en los límites donde llegan esas líneas y donde se acercan los límites del otro archivo, y agrupa los vértices cercanos de los límites moviendo con ellos los vértices de todas las geometrías que coinciden con ellos.
+Ajusta las líneas de límite entre archivos de dibujo contiguos (cases): desplaza hasta los límites los extremos libres cercanos de las líneas de cada archivo, inserta vértices en los límites donde llegan esas líneas y donde se acercan los límites del otro archivo, agrupa los vértices cercanos de los límites y desplaza los vértices de todas las geometrías que coinciden con los vértices agrupados.
 
 ## Parámetros
 
@@ -14,7 +14,7 @@ Si indicas menos de dos parámetros, la orden no tiene en cuenta ninguno y muest
 
 ## Observaciones
 
-La orden necesita al menos dos archivos de dibujo cargados, contando el activo y los de referencia. Con menos, emite el sonido de error, muestra el mensaje _Se necesitan al menos dos archivos de dibujo para ajustar los límites_ y termina.
+La orden necesita al menos dos archivos de dibujo cargados, contando el activo y los de referencia. Con menos de dos archivos de dibujo cargados, la orden emite el sonido de error, muestra el mensaje _Se necesitan al menos dos archivos de dibujo para ajustar los límites_ y termina.
 
 ### Cuadro de diálogo
 
@@ -27,7 +27,7 @@ El cuadro _Ajustar límites entre archivos de dibujo_ tiene estos controles:
 | Código del límite | Código de las líneas que forman el límite entre archivos, normalmente el marco de cada hoja. El botón **...** abre el cuadro de selección de códigos y copia en el campo el primer código elegido. Si cancelas ese cuadro, el campo conserva su valor |
 | Distancia máxima para ajustar extremos, insertar y agrupar vértices | Distancia, en las unidades de las coordenadas del dibujo, que la orden usa en los tres pasos del ajuste. 0,05 por defecto |
 
-Al pulsar _Aceptar_, el cuadro comprueba los datos. Si el código está vacío, muestra _Indica el código de las líneas del límite_. Si la distancia no es un número mayor que 0, escrito con punto decimal, muestra _La distancia tiene que ser un número mayor que 0_. En los dos casos el cuadro sigue abierto con el cursor en el campo.
+Al pulsar _Aceptar_, el cuadro comprueba los datos. Si el código está vacío, muestra _Indica el código de las líneas del límite_. Si la distancia no es un número mayor que 0, escrito con punto decimal, muestra _La distancia tiene que ser un número mayor que 0_. En los dos casos, el cuadro sigue abierto con el cursor en el campo que contiene el dato incorrecto.
 
 Con los datos correctos, el cuadro guarda el código y la distancia en los valores `CodigoLimite` y `Distancia` de la clave del registro `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Extensiones\DigiNG.OrdenesTopololgia\DialogoAjustarLimitesArchivosDibujo`. La siguiente vez que ejecutes la orden, el cuadro muestra esos valores. Si ejecutas la orden con parámetros, no se guarda nada.
 

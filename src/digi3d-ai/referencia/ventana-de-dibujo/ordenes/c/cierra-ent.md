@@ -1,7 +1,7 @@
 # CIERRA\_ENT
 <!-- id: cierra-ent -->
 
-Cierra la línea que se está ejecutando y la finaliza.
+Cierra la línea que estás dibujando y finaliza su digitalización.
 
 ## Parámetros
 
@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden actúa sobre la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) o [SPLINE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/spline.md) que está en curso. Cuando la ejecutas se añadirá un vértice a la línea con las mismas coordenadas que el primer vértice de la línea, si la línea no está ya cerrada, y la orden en curso finaliza la línea.
+Esta orden actúa sobre la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) o [SPLINE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/spline.md) que está en curso. Si la línea no está ya cerrada, CIERRA\_ENT añade un vértice con las mismas coordenadas que el primer vértice de la línea. La orden LINEA o SPLINE en curso finaliza la línea.
 
 Con la orden SPLINE, la línea debe tener al menos tres puntos; si no los tiene, la orden emite un sonido de error y la línea no se cierra. Si la orden en curso no es ninguna de las dos, CIERRA\_ENT emite un sonido de error.
 

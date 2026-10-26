@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Si por ejemplo se está dibujando una línea con la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md), y ejecutamos la orden _ANULA\_ORDENES_, se deja de ejecutar la orden LINEA y se anula también la entidad que se estuviera dibujando mediante dicha orden.
+Si estás dibujando una línea con la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y ejecutas la orden _ANULA\_ORDENES_, el programa detiene la orden LINEA y anula la entidad que estabas dibujando.
 
 ## Características de la orden
 

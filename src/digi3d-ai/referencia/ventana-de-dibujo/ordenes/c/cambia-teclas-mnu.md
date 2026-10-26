@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Cada vez que se ejecute esta orden establece como activo el siguiente archivo de teclas definido en la _configuración de Tablas de Digi3D_.
+Cada vez que ejecutas esta orden, el programa establece como activo el siguiente archivo de teclas definido en la _configuración de Tablas de Digi3D_.
 
 El teclado activo se muestra en la _barra de herramientas TeclasMnu_.
 

@@ -9,8 +9,8 @@ Dibuja una circunferencia mediante el centro y un punto de la misma.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Centro de la circunferencia | Coordenadas XYZ | Si |
-| 2 | Punto en el espacio de trabajo | Radio de la circunferencia | Si |
+| 1 | Centro de la circunferencia | Coordenadas X, Y y Z | Sí |
+| 2 | Punto en el espacio de trabajo | Radio de la circunferencia | Sí |
 
 ## Características de la orden
 

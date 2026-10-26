@@ -8,8 +8,8 @@ Añade un atributo al panel [Atributos activos](../../../paneles/atributos-activ
 | Número de parámetro | Descripción | Valores | Opcional |
 | - | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -- |
 | 1 | Nombre del campo         | Cadena de caracteres                                                                                                                                                                                                                                                                                                    | No |
-| 2 | Tipo de valor a almacenar | 0. Cadena de caracteres<br>1. Byte con signo<br>2. Byte sin signo<br>3. Entero corto con signo<br>4. Entero corto sin signo<br>5. Entero con signo<br>6. Entero sin signo<br>7. Entero de 64 bits con signo<br>8. Entero de 64 bits sin signo<br>9. Coma flotante simple<br>10. Coma flotante doble<br>11. Fecha<br>Si se omite, el campo es una cadena de caracteres.| Si |
-| 3 | Valor a asignar          | Valor compatible con el tipo o el nombre de alguna [Macro de base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md)                                                                                                                                                  | Si |
+| 2 | Tipo de valor a almacenar | 0. Cadena de caracteres<br>1. Byte con signo<br>2. Byte sin signo<br>3. Entero corto con signo<br>4. Entero corto sin signo<br>5. Entero con signo<br>6. Entero sin signo<br>7. Entero de 64 bits con signo<br>8. Entero de 64 bits sin signo<br>9. Coma flotante simple<br>10. Coma flotante doble<br>11. Fecha<br>Si se omite, el campo es una cadena de caracteres.| Sí |
+| 3 | Valor a asignar          | Valor compatible con el tipo o el nombre de alguna [Macro de base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md)                                                                                                                                                  | Sí |
 
 ### Ejemplos
 
@@ -23,7 +23,7 @@ anade_atributo_activo=Altura 9 %ENTITY_FIRST_VERTEX_Z%
 
 ## Observaciones
 
-Esta orden se utiliza para asignar en el panel de Atributos Activos los atributos que se almacenarán al dibujar una nueva geometría.
+Esta orden se utiliza para asignar en el panel Atributos activos los atributos que se almacenarán al dibujar una nueva geometría.
 
 Si no se pasa ningún parámetro, la orden muestra un mensaje de error y no añade nada. Si el campo ya existe en el panel, la orden sustituye su tipo y su valor. Si no se pasa el valor, el campo toma el valor vacío o 0 del tipo indicado.
 
@@ -35,7 +35,7 @@ Si el valor no es una macro, la orden lo convierte al tipo indicado. Los formato
 
 Si el valor no tiene ese formato o no cabe en el tipo, por ejemplo `-1` para un entero sin signo, la orden muestra un mensaje de error y no añade el campo.
 
-Si introducimos como valor a asignar una [Macro de base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md) el programa mostrará el nombre de la macro en el panel de atributos activos y el campo se configurará como un campo de sólo lectura. Al almacenar la geometría se almacenará el valor calculado.
+Si introduces una [Macro de base de datos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/base-de-datos/macros-de-base-de-datos.md) como valor, el programa mostrará el nombre de la macro en el panel Atributos activos y configurará el campo como de solo lectura. Al almacenar la geometría, el programa almacenará el valor calculado por la macro de base de datos.
 
 De las macros con parámetro, se admite `%ENTITY_ATTRIBUTE=nombre%`, que toma el valor del atributo `nombre` de la geometría. `%CENTROID_VALUE=…%` no se admite: solo tiene valor al exportar topologías.
 

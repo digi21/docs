@@ -1,7 +1,7 @@
 # BUSCAR\_CENTROIDE
 <!-- id: buscar-centroide -->
 
-Localiza el centroide dentro de un recinto, después de haber cargado uno o varios topológicos.
+Localiza el centroide dentro de un recinto cuando hay uno o varios archivos topológicos cargados.
 
 ## Parámetros
 
@@ -9,9 +9,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden sólo se podrá ejecutar cuando haya uno o varios ficheros topológicos cargados en memoria. Si no hay ninguno, la orden muestra el aviso «No hay ningún archivo de topología cargado» y termina.
+Esta orden solo se puede ejecutar cuando hay uno o varios archivos topológicos cargados en memoria. Si no hay ningún archivo topológico cargado en memoria, la orden muestra el aviso «No hay ningún archivo de topología cargado» y termina.
 
-Cuando se tiene cargado el archivo o archivos topológicos y se ejecuta la orden _BUSCAR\_CENTROIDE_ el programa indicará al usuario que seleccione el área en la que buscar el centroide. Al mover el cursor, la orden resalta el recinto que hay bajo el cursor.
+Cuando ejecutas la orden _BUSCAR\_CENTROIDE_ con uno o varios archivos topológicos cargados, el programa te pide que selecciones el área en la que buscar el centroide. Al mover el cursor, la orden resalta el recinto que hay bajo el cursor.
 
 Al pulsar el botón de datos:
 

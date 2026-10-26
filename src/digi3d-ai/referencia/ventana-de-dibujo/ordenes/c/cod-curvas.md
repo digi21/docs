@@ -7,9 +7,9 @@ Define el código con el que se activa el registro de curvas de nivel y los cód
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código activo que hace que las líneas se registren como curvas de nivel. Admite los comodines `*` y `?` y distingue mayúsculas de minúsculas | Si |
-| 2 | Código con el que se registran las curvas de nivel directoras | Si |
-| 3 | Código con el que se registran las curvas de nivel finas | Si |
+| 1 | Código activo que hace que las líneas se registren como curvas de nivel. Admite los comodines `*` y `?` y distingue mayúsculas de minúsculas | Sí |
+| 2 | Código con el que se registran las curvas de nivel directoras | Sí |
+| 3 | Código con el que se registran las curvas de nivel finas | Sí |
 
 Los parámetros van separados por espacios. Si se indican los tres, la orden los asigna sin mostrar ningún cuadro de diálogo y no tiene en cuenta los que sobren. Si se indican menos de tres, la orden no tiene en cuenta los que se hayan indicado y muestra el cuadro de diálogo **Curvas de nivel** con los códigos que hay configurados en ese momento.
 

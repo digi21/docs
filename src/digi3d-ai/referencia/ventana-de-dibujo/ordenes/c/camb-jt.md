@@ -7,7 +7,7 @@ Modifica la justificación de uno o varios textos existentes en el dibujo.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Sí |
 
 Sin parámetros, la orden solicita que selecciones los textos. Admite selección múltiple.
 
@@ -18,20 +18,20 @@ La justificación que se asigna es el valor de la variable [JT](/digi3d-ai/refer
 | Valor | Posición |
 | :--- | :--- |
 | 0 | Sitúa el punto de inserción al SO del texto |
-| 1 | Sitúa al punto de inserción al O del texto |
-| 2 | Sitúa al punto de inserción al NO del texto |
-| 3 | Sitúa al punto de inserción al N del texto |
-| 4 | Sitúa al punto de inserción al NE del texto |
-| 5 | Sitúa al punto de inserción al E del texto |
-| 6 | Sitúa al punto de inserción al SE del texto |
-| 7 | Sitúa al punto de inserción al S del texto |
-| 8 | Sitúa al punto de inserción al Centro del texto |
+| 1 | Sitúa el punto de inserción al oeste del texto |
+| 2 | Sitúa el punto de inserción al noroeste del texto |
+| 3 | Sitúa el punto de inserción al norte del texto |
+| 4 | Sitúa el punto de inserción al noreste del texto |
+| 5 | Sitúa el punto de inserción al este del texto |
+| 6 | Sitúa el punto de inserción al sudeste del texto |
+| 7 | Sitúa el punto de inserción al sur del texto |
+| 8 | Sitúa el punto de inserción en el centro del texto |
 
 ## Observaciones
 
-Antes de ejecutar esta orden hay que cambiar la justificación de testo a la deseada, con la orden [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).
+Antes de ejecutar esta orden, establece la justificación de texto deseada con la orden [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).
 
-Podemos cambiar la justificación a un texto en concreto o a los textos que tengan un código determinado con CAMB\_JT=&lt;código&gt;.
+Puedes cambiar la justificación de un texto concreto o la de los textos que tengan un código determinado con CAMB\_JT=&lt;código&gt;.
 
 Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
 
@@ -39,7 +39,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
+| Repite automáticamente | Sí, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar justificación de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |

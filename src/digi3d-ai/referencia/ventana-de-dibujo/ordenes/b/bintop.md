@@ -11,7 +11,7 @@ Sin parámetros, la orden muestra un cuadro de diálogo (apartado [Cuadro de di�
 
 ### Qué entidades intervienen
 
-La orden usa las entidades del archivo de dibujo activo que no están borradas, que están en la zona de interés y que son visibles (no ocultas y con algún código encendido). De ellas, solo las que tienen alguno de los códigos seleccionados:
+La orden usa las entidades del archivo de dibujo activo que no están borradas, que están en la zona de interés y que son visibles (no ocultas y con algún código visible). La orden solo utiliza las entidades que tienen alguno de los códigos seleccionados:
 
 * **Líneas**: cada línea es un arco. Sus dos extremos son nodos.
 * **Textos**: cada texto es un centroide candidato. La orden usa su punto de inserción.
@@ -55,8 +55,8 @@ La lista no puede estar vacía: si pulsas **Aceptar** sin códigos, el cuadro mu
 | Eliminar automáticamente entidades con un solo punto | Antes de formar la topología, borra los puntos del archivo activo que tienen alguno de los códigos seleccionados. No borra las líneas de un solo vértice | Marcada |
 | Informar del error de polígonos sin área | Añade una tarea por cada polígono sin área y, si se genera el fichero de errores, guarda su contorno con el código `NOAREA` | Marcada |
 | Marcar como error los polígonos sin centroide asignado | Marcada: añade una tarea por cada recinto sin centroide y guarda su contorno en el fichero de errores. Desmarcada: esos recintos no son válidos, y la orden añade una tarea «Línea que debería formar parte de polígono» por cada línea con los códigos seleccionados que no forma parte de ningún recinto válido | Marcada |
-| Marcar como error centroides duplicados | Añade una tarea por cada recinto con más de un centroide y otra por cada grupo de centroides que no están dentro de ningún recinto. En el fichero de errores, una marca `ERRCEN` en cada uno de esos textos | Marcada |
-| Cargar el archivo topológico en memoria | Añade la topología a las topologías cargadas. Desmarcada, la orden solo informa de los errores | Marcada |
+| Marcar como error centroides duplicados | Añade una tarea por cada recinto con más de un centroide y otra por cada grupo de centroides que no están dentro de ningún recinto. En el fichero de errores, añade una marca `ERRCEN` en cada texto que actúa como centroide duplicado | Marcada |
+| Cargar el archivo topológico en memoria | Añade la topología a las topologías cargadas. Si la casilla está desmarcada, la orden solo informa de los errores | Marcada |
 | Generar un fichero de errores | Habilita los tres campos siguientes | Marcada |
 | Fichero de errores | Ruta completa del fichero. El botón **...** abre el cuadro de guardar con los formatos que admiten escritura. El cuadro se abre siempre con `errtop.bind` en la carpeta del archivo activo | `<carpeta>\errtop.bind` |
 | Tamaño del error en metros | Mitad del lado de las marcas de error, en las unidades de las coordenadas del archivo: metros con un sistema proyectado, grados con uno geográfico | 1 |

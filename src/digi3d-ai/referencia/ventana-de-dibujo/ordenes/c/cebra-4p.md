@@ -1,13 +1,13 @@
 # CEBRA\_4P
 <!-- id: cebra-4p -->
 
-Facilita el dibujo de pasos de cebra, introduciendo sólo el número de las franjas blancas y 4 puntos que definan la forma y posición de los pasos de cebra.
+Dibuja un paso de cebra a partir del número de franjas blancas y de 4 puntos que definen la forma y la posición del paso de cebra.
 
 ![CEBRA_4P con N = 3: el cuadrilátero 1-2-3-4, con los lados 1→2 y 4→3 divididos en 5 partes, da 3 franjas cerradas](../../../../../images/orden-cebra-4p.svg)
 
 ## Parámetros
 
-No admite parámetros
+No admite parámetros.
 
 ## Características de la orden
 

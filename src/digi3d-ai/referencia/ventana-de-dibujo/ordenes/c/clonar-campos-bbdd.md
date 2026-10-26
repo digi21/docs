@@ -1,7 +1,7 @@
 # CLONAR\_CAMPOS\_BBDD
 <!-- id: clonar-campos-bbdd -->
 
-Clona los campos de BBDD de la geometría seleccionada.
+Clona los campos de base de datos de la geometría seleccionada.
 
 ## Parámetros
 
@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden solicita que se seleccione una geometría. Para cada campo de BBDD de los códigos activos, la orden copia el valor del campo con el mismo nombre en los códigos de la geometría seleccionada. Si varios códigos de la geometría tienen ese campo, usa el primero. Los campos que la geometría no tiene conservan su valor.
+La orden solicita que selecciones una geometría. Para cada campo de base de datos de los códigos activos, la orden copia el valor del campo con el mismo nombre en los códigos de la geometría seleccionada. Si varios códigos de la geometría tienen ese campo, la orden usa el valor del primer código. Los campos de los códigos activos que no existen en la geometría seleccionada conservan su valor.
 
 ## Características de la orden
 

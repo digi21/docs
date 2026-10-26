@@ -11,15 +11,15 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden solicita que se [introduzcan](../../introduccion-de-coordenadas.md) dos puntos, que son esquinas opuestas del rectángulo: la diagonal.
+Esta orden solicita que [introduzcas](../../introduccion-de-coordenadas.md) dos puntos que corresponden a esquinas opuestas del rectángulo y definen una diagonal.
 
-Los lados del rectángulo siguen la dirección del [ángulo activo](../../variables/a/aa.md) configurado en el momento de la digitalización del segundo punto. La orden [RECTANGULO\_2P\_NORTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rectangulo-2p-norte.md) hace lo mismo con el ángulo 0, es decir, con los lados paralelos a los ejes.
+Los lados del rectángulo siguen la dirección del [ángulo activo](../../variables/a/aa.md) configurado en el momento de la digitalización del segundo punto. La orden [RECTANGULO\_2P\_NORTE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/r/rectangulo-2p-norte.md) dibuja un rectángulo con el ángulo de 0 grados, es decir, con los lados paralelos a los ejes.
 
 ## Características de la orden
 
 | Tipo de orden                                    | [Orden interactiva](../../../ordenes/ordenes-interactivas.md)        |
 | ------------------------------------------------ | -------------------------------------------------------------------- |
-| Repite automáticamente                           | Si                                                                   |
+| Repite automáticamente                           | Sí                                                                   |
 | Opción del menú donde aparece la orden           | Dibujar/Más/Rectángulo con 2 puntos y ángulo activo                |
 | Barra de herramientas en la que aparece la orden | Cuadrados y rectángulos                                              |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                             |

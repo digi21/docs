@@ -1,7 +1,7 @@
 # CAMBIAR\_VALORES\_BBDD
 <!-- id: cambiar-valores-bbdd -->
 
-Cambia valores en la BBDD asociada con el archivo de dibujo.
+Cambia valores en la base de datos asociada con el archivo de dibujo.
 
 ## Parámetros
 
@@ -13,7 +13,7 @@ No admite parámetros.
 
 Esta orden solicita los códigos y el cambio a realizar en este cuadro de diálogo.
 
-* **Lista de códigos**: los códigos cuyas geometrías se van a cambiar. Se manejan igual que en el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md): **Añadir…** añade códigos, **Borrar** quita el seleccionado y **Limpiar** vacía la lista.
+* **Lista de códigos**: los códigos cuyas geometrías se van a cambiar. Se manejan igual que en el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md): **Añadir…** añade códigos, **Borrar** quita el código seleccionado y **Limpiar** vacía la lista.
 * **Campo**: el campo de la base de datos que se cambia. El desplegable muestra solo los campos que tienen las tablas de todos los códigos de la lista. El botón **Aceptar** solo está habilitado si hay un campo elegido.
 * **Buscar valor**: el valor que debe tener el campo para que se cambie.
   * **Cualquier valor**: cambia el campo sea cual sea su valor.

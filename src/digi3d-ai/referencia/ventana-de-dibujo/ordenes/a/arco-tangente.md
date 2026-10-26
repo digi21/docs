@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden solo funciona mientras dibujas una línea con la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y la línea tiene ya dos vértices o más. El arco sale del último vértice, tangente al último tramo, y termina en el punto que digitalizas. Sus vértices se añaden a la línea en curso.
+La orden solo funciona mientras dibujas una línea con la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) y la línea tiene ya dos vértices o más. El arco comienza en el último vértice, tangente al último tramo, y termina en el punto que digitalizas. Los vértices del arco se añaden a la línea en curso.
 
 ## Características de la orden
 

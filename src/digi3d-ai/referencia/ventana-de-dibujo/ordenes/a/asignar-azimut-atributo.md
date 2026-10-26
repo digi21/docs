@@ -1,7 +1,7 @@
 # ASIGNAR\_AZIMUT\_ATRIBUTO
 <!-- id: asignar-azimut-atributo -->
 
-Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en el campo de base de datos pasado por parámetros
+Solicita que digitalices dos puntos y asigna el valor del azimut al campo de base de datos indicado mediante los parámetros.
 
 ## Parámetros
 
@@ -14,7 +14,7 @@ Solicita al usuario que digitalice dos puntos y asigna el valor del azimut en el
 
 La orden asigna el valor al campo en la lista de atributos activos del código, igual que [ASIGNA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asigna-atributo.md). No modifica ninguna entidad existente.
 
-Mientras mueves el cursor después del primer punto, la orden muestra el valor en la barra de mensajes. El valor almacenado es el azimut del segundo punto respecto al primero (medido desde el norte en sentido horario, de 0 a 360), en grados sexagesimales, con el número de decimales de la ventana de dibujo. Para almacenar el ángulo trigonométrico (medido desde el eje X en sentido antihorario) usa [ASIGNAR\_ANGULO\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md).
+Mientras mueves el cursor después de introducir el primer punto, la orden muestra en la barra de mensajes el azimut de la posición del cursor respecto al primer punto. El valor almacenado es el azimut del segundo punto respecto al primero (medido desde el norte en sentido horario, desde 0 grados inclusive hasta 360 grados exclusive), en grados sexagesimales, con el número de decimales de la ventana de dibujo. Para almacenar el ángulo trigonométrico (medido desde el eje X en sentido antihorario) usa [ASIGNAR\_ANGULO\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md).
 
 Si falta alguno de los dos parámetros, la orden emite un sonido de error y termina.
 

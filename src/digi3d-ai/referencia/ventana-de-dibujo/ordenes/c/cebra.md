@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Únicamente tendremos que introducir el número de franjas blancas y 3 puntos que definal la forma y posición de los pasos de cebra.
+Introduce el número de franjas blancas y 3 puntos que definan la forma y la posición del paso de cebra.
 
 ## Características de la orden
 

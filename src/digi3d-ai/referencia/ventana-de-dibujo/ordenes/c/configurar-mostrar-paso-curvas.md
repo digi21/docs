@@ -7,8 +7,8 @@ Configura la tolerancia y los códigos que usa la visualización del paso de cur
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Tolerancia en Z, en las mismas unidades que la coordenada Z de los archivos de dibujo. Se escribe con punto decimal. | Si |
-| 2...n | Códigos de las líneas que se analizan. Admiten el comodín `*`. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si |
+| 1 | Tolerancia en Z, en las mismas unidades que la coordenada Z de los archivos de dibujo. Se escribe con punto decimal. | Sí |
+| 2...n | Códigos de las líneas que se analizan. Admiten el comodín `*`. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Sí |
 
 La orden solo usa los parámetros si recibe al menos dos \(la tolerancia y un código\). Con menos de dos muestra el cuadro de diálogo.
 

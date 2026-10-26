@@ -7,7 +7,7 @@ Asigna la Z del centroide a las líneas que forman cada polígono de las topolog
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Nombres de las topologías a incluir | Uno o más nombres de topologías cargadas, separados por espacios | Si |
+| 1 | Nombres de las topologías a incluir | Uno o más nombres de topologías cargadas, separados por espacios | Sí |
 
 ## Observaciones
 
@@ -15,7 +15,7 @@ La orden necesita al menos una topología cargada; si no la hay, muestra un mens
 
 Para cada polígono con centroide de la topología del archivo de dibujo activo, la orden asigna a todos los vértices de las líneas del contorno exterior la Z del centroide. No modifica las líneas de los huecos.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una línea modificada, solo se conserva su original y las demás se modifican.
+La orden trata cada entidad de forma independiente: si Digi3D.AI descarta una línea modificada, la orden conserva la línea original. Las entidades que Digi3D.AI acepta se modifican.
 
 ## Características de la orden
 

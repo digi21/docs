@@ -15,8 +15,8 @@ A continuación, la orden muestra este cuadro de diálogo:
 
 ![Cuadro de diálogo Acoplar](../../../../../images/acoplar.png)
 
-* **Archivo a crear**: ruta del archivo TIFF que se va a generar. El botón **...** permite elegirla.
-* **Tamaño de píxel**: en unidades del sistema de referencia de coordenadas. El botón **Calcular** abre la calculadora de tamaño de píxel, que obtiene el tamaño de píxel a partir del ancho en píxeles que quieres que tenga la imagen:
+* **Archivo a crear**: ruta del archivo TIFF (Tag Image File Format, formato de archivo de imagen con etiquetas) que se va a generar. El botón **...** permite elegir la ruta.
+* **Tamaño de píxel**: indica el tamaño de píxel en unidades del sistema de referencia de coordenadas. El botón **Calcular** abre la calculadora de tamaño de píxel, que obtiene el tamaño de píxel a partir del ancho en píxeles que quieres que tenga la imagen:
 
   ![Cuadro de diálogo Calculadora de tamaño de píxel](../../../../../images/calculadora-de-tamano-de-pixel.png)
 

@@ -7,8 +7,8 @@ Asigna el ángulo activo a la rotación de uno o varios textos o puntos del dibu
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código de las entidades a modificar. Puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
-| 2 | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md), como una cadena de letras. Solo los puntos y los textos tienen ángulo: `P` y `C` indican puntos, `T` textos y `*` ambos. Las demás letras no tienen efecto. `P` no incluye los complejos puntuales. Por defecto, ambos | Si |
+| 1 | Código de las entidades a modificar. Puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Sí |
+| 2 | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md), como una cadena de letras. Solo los puntos y los textos tienen ángulo: `P` y `C` indican puntos, `T` textos y `*` ambos. Las demás letras de tipos de geometría no tienen efecto. `P` no incluye los complejos puntuales. Por defecto, puntos y textos | Sí |
 
 Sin parámetros, la orden solicita que selecciones los textos o puntos. Admite selección múltiple.
 
@@ -16,7 +16,7 @@ Con parámetros, la orden modifica sin pedir datos todos los textos y puntos vis
 
 ## Observaciones
 
-Antes de ejecutar la orden debes asignar el nuevo ángulo activo con la orden [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
+Antes de ejecutar la orden, asigna el nuevo ángulo activo con la orden [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md).
 
 Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
 
@@ -24,7 +24,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
+| Repite automáticamente | Sí, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Puntos/Establecer ángulo activo<br>Editar/Textos/Cambiar ángulo activo de texto |
 | Barra de herramientas en la que aparece la orden | Puntos<br>Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden pide un punto. Se puede digitalizar con el pulsador de dato, engancharse en una entidad con el pulsador de tentativo y aceptar el punto, o introducir las coordenadas con la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
+La orden pide un punto. Puedes digitalizar el punto con el pulsador de dato, engancharte a una entidad con el pulsador de tentativo y aceptar el punto, o introducir las coordenadas con la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
 
 Al recibir el punto, la orden copia al portapapeles sus coordenadas X, Y y Z separadas por un espacio y con el número de decimales de la ventana de dibujo, el mismo formato que muestra la barra de herramientas [Coordenadas](/digi3d-ai/referencia/barras-de-herramientas/coordenadas.md). La orden muestra en un globo el texto copiado y termina.
 

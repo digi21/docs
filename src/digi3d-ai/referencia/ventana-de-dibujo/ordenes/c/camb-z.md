@@ -1,13 +1,13 @@
 # CAMB\_Z
 <!-- id: camb-z -->
 
-Sustituye la altitud asignada a un elemento gráfico, por un nuevo valor.
+Sustituye la altitud asignada a un elemento gráfico por un nuevo valor.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 … N | Códigos de las entidades a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Código | Si |
+| 1 … N | Códigos de las entidades a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Código | Sí |
 
 ## Observaciones
 
@@ -23,7 +23,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
+| Repite automáticamente | Sí, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Asignar coordenada Z a las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |

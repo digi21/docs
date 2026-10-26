@@ -7,7 +7,7 @@ Sustituye la lista de códigos activos, igual que la orden [COD](/digi3d-ai/refe
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | Códigos que pasan a ser los códigos activos. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden muestra el cuadro de diálogo de búsqueda de códigos |
+| 1...n | Códigos que pasan a ser los códigos activos. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Sí. Si no se especifica ningún parámetro, la orden muestra el cuadro de diálogo de búsqueda de códigos |
 
 ## Observaciones
 

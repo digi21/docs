@@ -11,7 +11,7 @@ No admite parámetros.
 
 La orden recorre todas las geometrías de la ventana de dibujo, también las borradas. Por cada geometría crea un clon cuyos códigos tienen el mismo nombre y no tienen tabla ni registro, añade los clones y borra las geometrías originales.
 
-La orden es el guion de Python `borra_atr.py` del repositorio [ComandosDigi3DPython](https://github.com/digi21/ComandosDigi3DPython). Digi3D.AI lo instala en la carpeta `OrdenesPython` de su carpeta de instalación. Para modificar la orden, copia el archivo en el [directorio de macroinstrucciones](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/directorio-de-macroinstrucciones.md) y edita la copia: Digi3D.AI ejecuta la copia en lugar del archivo instalado.
+La orden es el guion de Python `borra_atr.py` del repositorio [ComandosDigi3DPython](https://github.com/digi21/ComandosDigi3DPython). Digi3D.AI instala el guion en la carpeta `OrdenesPython`, dentro de la carpeta de instalación del programa. Para modificar la orden, copia el archivo en el [directorio de macroinstrucciones](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/diging/directorio-de-macroinstrucciones.md) y edita la copia: Digi3D.AI ejecuta la copia en lugar del archivo instalado.
 
 La página [Borrar el enlace a base de datos](/digi3d-ai/programacion/python/panel-de-python/ejemplos/borra-atr.md) explica el código.
 

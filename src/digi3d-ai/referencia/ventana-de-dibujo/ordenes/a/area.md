@@ -9,10 +9,10 @@ No admite parámetros.
 
 ## Observaciones
 
-* Si devuelve un valor positivo, indica que los elementos de la entidad cerrada han sido creados en el sentido de las agujas del reloj.
-* Si devuelve un valor negativo, indica que los elementos de la entidad cerrada han sido creados en el sentido contrario al del avance de las agujas del reloj.
+* Un área positiva indica que los elementos de la entidad cerrada se han creado en el sentido de las agujas del reloj.
+* Un área negativa indica que los elementos de la entidad cerrada se han creado en sentido contrario al de las agujas del reloj.
 
-Una vez ejecutada la orden, el programa pedirá seleccionar la entidad cerrada a la cual se quiere rotular con el área. La orden solo acepta líneas y polígonos. Si la línea no está cerrada, la orden calcula el área cerrándola entre el último y el primer vértice. En un polígono, la orden resta el área de los huecos, sea cual sea su sentido de giro; el signo del resultado es el del contorno exterior.
+Al ejecutar la orden, el programa te pedirá que selecciones la entidad cerrada cuya área quieres rotular. La orden solo acepta líneas y polígonos. Si la línea no está cerrada, la orden calcula el área cerrándola entre el último y el primer vértice. En un polígono, la orden resta el área de los huecos, sea cual sea su sentido de giro; el signo del resultado es el del contorno exterior.
 
 El área se escribe en la unidad de la opción [Unidad de superficie](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-area/unidad-de-superficie.md) de la configuración: metros cuadrados (por defecto), hectáreas o kilómetros cuadrados.
 

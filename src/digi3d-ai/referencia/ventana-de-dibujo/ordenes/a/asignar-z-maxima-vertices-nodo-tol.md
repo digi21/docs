@@ -1,7 +1,7 @@
 # ASIGNAR\_Z\_MAXIMA\_VERTICES\_NODO\_TOL
 <!-- id: asignar-z-maxima-vertices-nodo-tol -->
 
-Localiza todos los vértices que llegan a un determinado nodo y modifica la Z de todos para que se ajuste a la Z máxima siempre que su Z esté a menos de la tolerancia de la Z máxima.
+Localiza todos los vértices que llegan a un determinado nodo y asigna la Z máxima del nodo a cada vértice cuya diferencia de Z respecto a la Z máxima del nodo sea menor que la tolerancia.
 
 Un nodo es un punto en el que coinciden en X e Y los extremos de dos o más líneas o polígonos de los códigos indicados. La orden solo modifica el primer y el último vértice de cada entidad.
 
@@ -14,7 +14,7 @@ Un nodo es un punto en el que coinciden en X e Y los extremos de dos o más lín
 | 1 | Tolerancia en Z | No |
 | 2 | Código o códigos (uno o más) | No |
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad modificada, solo se conserva su original y las demás se modifican.
+La orden trata cada entidad de forma independiente: si Digi3D.AI descarta una entidad modificada, la orden conserva la entidad original. Las entidades que Digi3D.AI acepta se modifican.
 
 ## Características de la orden
 

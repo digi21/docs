@@ -7,7 +7,7 @@ Abre una ventana de Bing Maps en las coordenadas donde está el cursor en la ven
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Estilo del mapa (por defecto «a») | Si |
+| 1 | Estilo del mapa (por defecto «a») | Sí |
 
 ## Observaciones
 

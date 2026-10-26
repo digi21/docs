@@ -7,7 +7,7 @@ Lee la información de un fichero ASCII que contiene coordenadas y textos, incor
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Nombre del fichero ASCII | Ruta de archivo | Si |
+| 1 | Nombre del fichero con codificación ASCII (American Standard Code for Information Interchange, código estándar estadounidense para el intercambio de información) | Ruta de archivo | Sí |
 
 Sin parámetros, la orden muestra un cuadro de diálogo para elegir el fichero.
 
@@ -21,7 +21,7 @@ Cada línea del fichero contiene cinco valores separados por espacios, tabulador
 | 2 | Coordenada X | Número real |
 | 3 | Coordenada Y | Número real |
 | 4 | Coordenada Z | Número real |
-| 5 | Texto. Si el texto contiene espacios en blanco debe escribirse entre comillas \(" "\) | Texto |
+| 5 | Texto. Si el texto contiene espacios en blanco, escríbelo entre comillas \(" "\) | Texto |
 
 La orden ignora las líneas con menos de cinco valores.
 

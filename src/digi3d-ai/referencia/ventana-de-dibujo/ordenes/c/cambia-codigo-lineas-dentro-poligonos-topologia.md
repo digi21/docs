@@ -43,7 +43,7 @@ La orden solo trabaja con el archivo de dibujo activo y con los recintos que cad
 2. Recorre los recintos de cada topología que cumplen el tipo elegido. Con un centroide específico, compara el texto del centroide con el indicado distinguiendo mayúsculas y minúsculas.
 3. Cada recinto se trata con su contorno exterior y sus huecos. Lo que está dentro de un hueco queda fuera del recinto. Si dentro del hueco hay otro recinto, ese recinto se trata por separado.
 4. Para cada recinto:
-   * Una línea que cruza el contorno se corta por él. La orden borra la línea original y añade los tramos. Los tramos de dentro cambian de código y los de fuera conservan el original. Los tramos de fuera pueden cortarse de nuevo con los recintos siguientes.
+   * Una línea que cruza el contorno se corta por él. La orden borra la línea original y añade los tramos. Los tramos de dentro cambian de código y los de fuera conservan el código original. Los tramos de fuera pueden cortarse de nuevo con los recintos siguientes.
    * Una línea que no cruza el contorno se considera dentro si el punto medio de su tramo central está dentro del recinto o sobre el contorno. Por eso también cambia de código una línea que discurre por el contorno sin ser un arco de la topología.
    * Un punto, un texto o un complejo puntual cambia de código si está dentro o sobre el contorno. Un multipunto cambia de código si todos sus vértices lo están.
    * Los polígonos y los complejos no se tratan.
@@ -52,7 +52,7 @@ La orden cambia de código una entidad creando una copia con el código nuevo y 
 
 ### Cambio de código
 
-En cada entidad tratada, la orden sustituye cada código que casa con alguno de los códigos origen y conserva los demás códigos de la entidad. El código nuevo se forma a partir del código sustituido y del código destino:
+En cada entidad tratada, la orden sustituye cada código que coincide con alguno de los códigos origen y conserva los demás códigos de la entidad. El código nuevo se forma a partir del código sustituido y del código destino:
 
 * Cada carácter del destino que no es comodín sustituye al carácter de la misma posición.
 * Un `?` conserva el carácter original de esa posición.
@@ -69,7 +69,7 @@ Al terminar, la orden regenera la vista y emite un pitido. No muestra ningún me
 
 Los cambios forman una única operación de [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md).
 
-Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un recinto, se conservan esas líneas sin cortar y no se añade ningún trozo. Los demás recintos se procesan con normalidad. Si descarta una entidad de dentro con el código nuevo, se conserva su original.
+Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un recinto, se conservan esas líneas sin cortar y no se añade ningún trozo. La orden continúa procesando los demás recintos. Si Digi3D.AI descarta una entidad del interior del recinto con el código nuevo, se conserva la entidad original.
 
 ## Características de la orden
 

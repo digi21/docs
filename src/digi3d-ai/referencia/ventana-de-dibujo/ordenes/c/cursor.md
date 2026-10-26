@@ -11,7 +11,7 @@ Con el tamaño del cursor se establece el ámbito de la búsqueda cuando se sele
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Tamaño del cursor | Número entero mayor o igual que 1. Un valor menor se sustituye por 1 | Si. Si no se especifica, el tamaño pasa al valor siguiente: 1, 2, 3, 4 y de nuevo 1 |
+| 1 | Tamaño del cursor | Número entero mayor o igual que 1. Un valor menor se sustituye por 1 | Sí. Si no se especifica, el tamaño pasa al valor siguiente: 1, 2, 3, 4 y de nuevo 1 |
 
 ### Ejemplo
 
@@ -19,7 +19,7 @@ CURSOR=4
 
 Asigna como tamaño de cursor el valor 4.
 
-Si se teclea la orden CURSOR sin parámetros, el tamaño cambia sucesivamente entre 1 y 4.
+Si tecleas la orden CURSOR sin parámetros, el tamaño cambia sucesivamente entre 1 y 4.
 
 ## Características de la orden
 

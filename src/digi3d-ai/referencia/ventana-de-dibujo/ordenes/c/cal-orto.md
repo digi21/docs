@@ -7,10 +7,10 @@ Efectúa el cálculo para generar ortofotografías.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Tipo de interpolación: 0 vecino más próximo, 1 bilineal, 2 bicúbica | Si |
-| 2 | Nombre del archivo TIFF de salida | Si |
-| 3 | Código de la línea que delimita la ortofoto | Si |
-| 4 | Almacenar transparencia (0/1). Por defecto, 1 | Si |
+| 1 | Tipo de interpolación: 0 vecino más próximo, 1 bilineal, 2 bicúbica | Sí |
+| 2 | Nombre del archivo TIFF (Tag Image File Format, formato de archivo de imagen con etiquetas) de salida | Sí |
+| 3 | Código de la línea que delimita la ortofoto | Sí |
+| 4 | Almacenar transparencia: 0 para no almacenarla y 1 para almacenarla. Por defecto, 1 | Sí |
 
 Los tres primeros parámetros se indican juntos. Sin ellos, la orden solicita que selecciones la línea que delimita la ortofoto y muestra un cuadro de diálogo con las opciones del cálculo.
 
@@ -28,10 +28,10 @@ Los tres primeros parámetros se indican juntos. Sin ellos, la orden solicita qu
 
 **Parámetros GeoTIFF**
 
-* **Ruta al archivo GeoTIFF a crear**: el botón **...** permite elegirla.
+* **Ruta al archivo GeoTIFF a crear**: pulsa el botón **...** para elegir la ruta.
 * **Guardar canal alpha (de transparencia)**: añade al TIFF un canal de transparencia.
 * **Tamaño de las teselas**: tamaño en píxeles de los mosaicos del TIFF.
-* **Nivel piramidal máximo a crear** y **Niveles piramidales autocontenidos**: niveles de resolución reducida que se guardan dentro del TIFF. La segunda opción se habilita si el nivel máximo no es 0.
+* **Nivel piramidal máximo a crear** y **Niveles piramidales autocontenidos**: niveles de resolución reducida que se guardan dentro del TIFF. La opción **Niveles piramidales autocontenidos** se habilita si el nivel máximo no es 0.
 
 **Archivos de georreferenciación adicionales**
 

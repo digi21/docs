@@ -26,13 +26,13 @@ Si se ejecuta sin parámetros, la orden muestra el cuadro de diálogo **Cotas** 
 
 ![Cuadro de diálogo Cotas](../../../../../images/cod-cotas.png)
 
-* **Cuando mi código activo sea [código] quiero que el programa registre una cota.**: código del punto (parámetro 1). Si se deja vacío y se pulsa **Aceptar**, el programa deja de registrar cotas automáticamente.
+* **Cuando mi código activo sea [código] quiero que el programa registre una cota.**: código del punto (parámetro 1). Si dejas el campo vacío y pulsas **Aceptar**, el programa deja de registrar cotas automáticamente.
 * **Quiero que el texto de la cota se registre con un código diferente que el del punto.**: activa el campo **Código del texto de la cota**. Mientras la casilla está desmarcada, el campo está deshabilitado y el texto se registra con el código del punto.
 * **Código del texto de la cota**: código del texto (parámetro 2).
 
-Si se pulsa **Cancelar**, la configuración no cambia.
+Si pulsas **Cancelar**, la configuración no cambia.
 
-Los códigos se guardan en una variable de la aplicación, común a todas las ventanas de dibujo. La variable dura hasta que se cierra el programa y no se guarda: en cada arranque vale `020400 020400`.
+Los códigos se guardan en una variable de la aplicación, común a todas las ventanas de dibujo. La variable conserva su valor hasta que se cierra el programa y no se guarda entre sesiones: al iniciar el programa, el valor es `020400 020400`.
 
 Al pulsar el botón de datos sin ninguna orden en ejecución, el programa compara el primer código activo con el código del punto. Si coinciden, ejecuta la orden [COTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cota.md) en lugar de [PUNTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/punto.md) o [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md). Para que esto ocurra se tienen que cumplir tres condiciones:
 
@@ -49,7 +49,7 @@ Al registrar la cota, el programa añade al archivo de dibujo dos entidades:
 
 Si el código del punto tiene comodines, el punto se registra con el código activo, no con el patrón. Si un código no existe en la tabla de códigos, el punto o el texto se registran con ese código sin definir.
 
-Para no tener que ejecutar la orden en cada sesión, añádela a las órdenes de inicio de la tabla de códigos.
+Para no tener que ejecutar la orden en cada sesión, añade COD\_COTAS a las órdenes de inicio de la tabla de códigos.
 
 ## Características de la orden
 

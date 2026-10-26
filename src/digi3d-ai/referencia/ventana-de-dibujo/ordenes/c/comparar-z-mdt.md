@@ -1,13 +1,13 @@
 # COMPARAR\_Z\_MDT
 <!-- id: comparar-z-mdt -->
 
-Compara la coordenada Z de los vértices de las entidades con la Z del modelo digital del terreno cargado y añade al panel de tareas las entidades en las que la diferencia supera una tolerancia.
+Compara la coordenada Z de los vértices de las entidades con la Z del modelo digital del terreno (MDT) cargado y añade al panel Tareas una tarea por cada entidad en la que la diferencia supera una tolerancia.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | Códigos de las entidades a comparar. Los códigos admiten los comodines \* y ?. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden pide que selecciones las entidades a comparar |
+| 1...n | Códigos de las entidades a comparar. Los códigos admiten los comodines \* y ?. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Sí. Si no se especifica ningún parámetro, la orden pide que selecciones las entidades a comparar |
 
 ## Cuadro de diálogo Comparar Z con MDT
 
@@ -21,9 +21,9 @@ Esta orden solicita la tolerancia en este cuadro de diálogo.
 
 ## Observaciones
 
-1. Si está activada la opción [Vaciar automáticamente](../../../cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel de tareas, la orden vacía el panel al aceptar la tolerancia.
-2. Si no hay ningún archivo cargado que pueda proyectar una Z \(un modelo digital del terreno\), la orden emite un sonido de error y termina. La orden lo comprueba después de pedir la tolerancia y de vaciar el panel de tareas.
-3. Para cada entidad, la orden recorre sus vértices. Un vértice que no se puede proyectar sobre ningún modelo se ignora. En la primera diferencia entre la Z del vértice y la Z del modelo mayor que la tolerancia, la orden añade al panel de tareas una tarea de error con el texto «Geometría con vértices con coordenada Z que no coincide con los MDTs cargados», que lleva a ese vértice. Cada entidad genera como máximo una tarea.
+1. Si está activada la opción [Vaciar automáticamente](../../../cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel Tareas, la orden vacía el panel al aceptar la tolerancia.
+2. Si no hay ningún archivo cargado que pueda proyectar una Z \(un modelo digital del terreno\), la orden emite un sonido de error y termina. La orden comprueba si hay un archivo que pueda proyectar una Z después de pedir la tolerancia y, si está activada la opción de vaciado automático, de vaciar el panel Tareas.
+3. Para cada entidad, la orden recorre sus vértices. Un vértice que no se puede proyectar sobre ningún modelo se ignora. En la primera diferencia entre la Z del vértice y la Z del modelo mayor que la tolerancia, la orden añade al panel Tareas una tarea de error que permite localizar ese vértice, con el texto «Geometría con vértices con coordenada Z que no coincide con los MDTs cargados». Cada entidad analizada genera como máximo una tarea.
 4. Con parámetros, la orden analiza todas las entidades visibles y no borradas del archivo de dibujo que tienen alguno de los códigos indicados y termina sin pedir selección.
 5. Sin parámetros, la orden compara las entidades de cada selección múltiple y sigue activa: puedes hacer varias selecciones seguidas con la misma tolerancia.
 

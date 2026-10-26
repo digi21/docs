@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden solicita que se seleccione una geometría. Una vez seleccionada sustituye los atributos del panel Atributos Activos por los de la geometría seleccionada.
+La orden solicita que selecciones una geometría. Cuando seleccionas la geometría, la orden sustituye los atributos del panel Atributos Activos por los de esa geometría.
 
 ## Características de la orden
 

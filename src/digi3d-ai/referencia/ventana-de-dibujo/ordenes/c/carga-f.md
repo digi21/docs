@@ -16,9 +16,9 @@ Visualiza en pantalla, junto al fichero actual de dibujo, uno o varios ficheros 
 
 ## Observaciones
 
-Los archivos que se pueden cargar pueden ser .bin, .dgn, .dwg, .mdb, xyz ..., dependiendo del tipo de archivo seleccionado vamos a tener unos parámetros u otros.
+Puedes cargar archivos .bin, .dgn, .dwg, .mdb, xyz, etc. Los parámetros disponibles dependen del tipo de archivo seleccionado.
 
-Los ficheros de referencia se usan en modo lectura, pudiéndose ejecutar sobre ellos cualquier operación de este tipo \(listado de elementos, enganches gráficos,...\). No es posible dibujar nuevas entidades o hacer modificaciones sobre las entidades que pertenecen a estos ficheros, para ello debe ejecutarse la orden [CAMBIA\_FICHEROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-ficheros.md) para pasar el archivo de referencia a fichero actual de dibujo.
+Los ficheros de referencia se usan en modo lectura. Puedes ejecutar sobre estos ficheros cualquier operación de lectura \(listado de elementos, enganches gráficos, etc.\). Para dibujar nuevas entidades o modificar las entidades de un fichero de referencia, ejecuta la orden [CAMBIA\_FICHEROS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cambia-ficheros.md) para convertir el fichero de referencia en el fichero de dibujo activo.
 
 ## Véase también
 

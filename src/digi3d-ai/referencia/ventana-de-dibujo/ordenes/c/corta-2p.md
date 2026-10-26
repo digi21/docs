@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Únicamente hay que seleccionar los dos puntos por los que queremos cortar la entidad. El tramo cortado se borrará.
+Selecciona los dos puntos por los que quieres cortar la entidad. La orden borra el tramo comprendido entre esos puntos.
 
 Si el control de calidad descarta cualquiera de los dos trozos nuevos, se conserva la entidad original completa y no se añade ningún trozo.
 
@@ -19,7 +19,7 @@ Si el control de calidad descarta cualquiera de los dos trozos nuevos, se conser
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Partir una polilínea con 2 puntos |
 | Barra de herramientas en la que aparece la orden | Partir |
 | Extensión | DigiNG.OrdenesStandard.dll |

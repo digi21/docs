@@ -18,18 +18,18 @@ Si se indican menos de cuatro parámetros, la orden emite un sonido de error y m
 
 `CORTAR_F_CENTROIDE="C:\Trabajos\carpeta\" bin "2 0 0 0 0" HOJA`
 
-Siendo:
+En este ejemplo:
 
-* C:\Trabajos\carpeta, el directorio de salida en el cual quiere el usuario generar el archivo.
-* bin, es la extensión del archivo a generar
+* C:\Trabajos\carpeta es el directorio de salida en el que quieres generar el archivo.
+* bin es la extensión del archivo que se va a generar.
 * "2 0 0 0 0 " son los parámetros de exportación, en este caso 2 equivale a cm, 0 0 0 al origen y 0 para no bloquear.
-* HOJA, es el código con el cual se ha dibujado el límite y escrito los centroides.
+* HOJA es el código con el que se han dibujado los límites y se han escrito los centroides.
 
 ## Observaciones
 
-Esta orden permite de esta manera cortar ficheros desde la línea de comandos. El límite podrá ser un polígono irregular sin necesidad de seleccionar manualmente el límite.
+Esta orden permite cortar ficheros desde la línea de comandos. El límite puede ser un polígono irregular y no tienes que seleccionarlo manualmente.
 
-Pueden existir varios límites con la condición de que su centroide tenga el mismo código pero el texto sea diferente en cada caso. El programa genera un fichero que se llamará igual que el centroide. Si el archivo de una hoja ya existe, se sustituye.
+Pueden existir varios límites con la condición de que sus centroides tengan el mismo código, pero un texto diferente en cada caso. Por cada límite, el programa genera un fichero cuyo nombre es el texto del centroide del límite. Si el archivo de una hoja ya existe, se sustituye.
 
 Los límites son las líneas cerradas en 2D, visibles, no borradas y en la zona de interés que tienen el código indicado. El centroide de cada límite es el primer texto con ese código situado dentro del límite. Los límites sin centroide se ignoran. Las entidades que cruzan el límite se recortan y en el archivo solo se guarda la parte interior. Las entidades con el código de los límites (los límites y los centroides) no se guardan en ningún archivo.
 

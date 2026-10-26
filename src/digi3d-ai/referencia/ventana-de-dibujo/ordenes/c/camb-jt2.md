@@ -7,13 +7,13 @@ Modifica la justificación de uno o varios textos existentes en el dibujo, pero 
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Sí |
 
 La justificación que se asigna es el valor de la variable [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).
 
 ## Observaciones
 
-Antes de ejecutar esta orden hay que establecer la justificación de texto a la deseada, con la orden [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).
+Antes de ejecutar esta orden, establece la justificación de texto deseada con la orden [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md).
 
 Formas de ejecutar CAMB\_JT2:
 
@@ -26,7 +26,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
+| Repite automáticamente | Sí, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

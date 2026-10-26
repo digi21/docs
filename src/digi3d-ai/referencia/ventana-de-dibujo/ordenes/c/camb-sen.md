@@ -9,7 +9,7 @@ Modifica el sentido en que se han registrado los puntos después de haber digita
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 Sin parámetros, la orden pide que selecciones la línea o las líneas. Con códigos, cambia el sentido de todas las líneas visibles de esos códigos y termina:
 
@@ -17,7 +17,7 @@ Sin parámetros, la orden pide que selecciones la línea o las líneas. Con cód
 
 ## Observaciones
 
-En caso de líneas con patrón, como puede ser el código para masa de árboles, al cambiar el sentido cambiará el lado hacia el que está dirigido el patrón.
+En las líneas con patrón, como las del código para masa de árboles, cambiar el sentido de la línea cambia el lado hacia el que se dirige el patrón.
 
 Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
 
@@ -25,7 +25,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Cambiar el sentido de una línea |
 | Barra de herramientas en la que aparece la orden | Sentido de la polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |

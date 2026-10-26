@@ -7,8 +7,8 @@ Sustituye el contenido de los textos del archivo de dibujo activo que coinciden 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Texto a reemplazar | Texto | Si |
-| 2 | Texto nuevo | Texto | Si |
+| 1 | Texto a reemplazar | Texto | Sí |
+| 2 | Texto nuevo | Texto | Sí |
 
 Los dos parámetros se indican juntos. Con uno solo, la orden lo ignora y muestra el cuadro de diálogo. Si un texto contiene espacios o el signo `=`, escríbelo entre comillas dobles o simples. Para borrar los textos, indica `""` como texto nuevo.
 
@@ -27,12 +27,12 @@ La orden muestra el cuadro de diálogo **Cambia texto**:
 ![Cuadro de diálogo Cambia texto](../../../../../images/camb-texto.png)
 
 * **Buscar**: texto que se busca. Mientras está vacío, los botones Reemplazar, Reemplazar todos y Buscar siguiente están desactivados.
-* **Reemplazar por**: texto que sustituye a lo encontrado.
+* **Reemplazar por**: texto que sustituye al texto encontrado.
 * **Coincidir mayúsculas y minúsculas**: la búsqueda distingue mayúsculas y minúsculas.
 * **Solo palabras completas**: solo coinciden los textos cuyo contenido completo es igual a Buscar. La casilla no separa el texto en palabras. Sin ella, basta con que el texto contenga Buscar.
 * **Buscar siguiente**: desplaza la vista hasta el centro del siguiente texto que coincide y lo selecciona. Al llegar al final del archivo, muestra el aviso *Digi NG terminó de buscar en: documento. No se encontró el elemento buscado.*, y la siguiente pulsación vuelve a empezar desde el principio.
 * **Reemplazar**: sustituye el texto seleccionado, si sigue coincidiendo con Buscar y las casillas, y busca el siguiente. Si no hay ningún texto seleccionado, solo busca.
-* **Reemplazar todos**: sustituye todos los textos que coinciden. Si ya hay un texto encontrado con Buscar siguiente, empieza en ese texto y llega hasta el final del archivo. Si no sustituye ninguno, muestra el mismo aviso.
+* **Reemplazar todos**: sustituye todos los textos que coinciden. Si ya hay un texto encontrado con Buscar siguiente, la sustitución empieza en el texto encontrado y continúa hasta el final del archivo. Si no sustituye ningún texto, muestra el aviso *Digi NG terminó de buscar en: documento. No se encontró el elemento buscado.*
 * **Salir**: cierra el cuadro.
 
 Con **Solo palabras completas**, el reemplazo sustituye el contenido completo del texto. Sin ella, sustituye solo las partes que coinciden con Buscar; por ejemplo, buscar `Río` y reemplazar por `Arroyo` convierte `Río Tajo` en `Arroyo Tajo`. Si un texto queda vacío tras el reemplazo, la orden lo borra.
@@ -41,7 +41,7 @@ Los textos creados por un reemplazo no se vuelven a reemplazar mientras no cambi
 
 Si la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) está activada, el cuadro también busca entre los textos borrados.
 
-El cuadro recuerda Buscar, Reemplazar por y las dos casillas para la siguiente vez. La primera vez, **Coincidir mayúsculas y minúsculas** aparece desmarcada y **Solo palabras completas** marcada.
+El cuadro de diálogo conserva los valores de Buscar y Reemplazar por y el estado de las dos casillas para la siguiente vez que abras el cuadro de diálogo. La primera vez que abres el cuadro de diálogo, **Coincidir mayúsculas y minúsculas** aparece desmarcada y **Solo palabras completas** marcada.
 
 ### Cómo se guarda el cambio
 

@@ -1,7 +1,7 @@
 # CORTAR\_POLÍGONO
 <!-- id: cortar-poligono -->
 
-Recorta un polígono en varios polígonos en función de las intersecciones del polígono a recortar y la línea de corte.
+Recorta un polígono en varios polígonos en función de las intersecciones entre el polígono que se va a recortar y la línea de corte.
 
 ![CORTAR_POLIGONO: se selecciona el polígono (1) y la línea de corte (2); el polígono se divide en dos polígonos con su mismo código](../../../../../images/orden-cortar-poligono.svg)
 
@@ -15,11 +15,11 @@ Recorta un polígono en varios polígonos en función de las intersecciones del 
 
 Esta orden realiza las siguientes operaciones:
 
-1. Solicita al usuario que seleccione el polígono a modificar. Únicamente se va a permitir seleccionar polígonos \(con o sin huecos\) del archivo de dibujo activo. No se permitirán seleccionar otro tipo de entidades o de archivos de referencia.
-2. Solicita al usuario que seleccione la línea de corte.
+1. La orden solicita que selecciones el polígono que quieres modificar. Solo puedes seleccionar polígonos \(con o sin huecos\) del archivo de dibujo activo. No puedes seleccionar otros tipos de entidades ni polígonos de archivos de referencia.
+2. La orden solicita que selecciones la línea de corte.
 3. Analiza las intersecciones entre el polígono seleccionado y la línea de corte.
-   * Si la línea no intersecciona con el polígono lo comunica al usuario mediante un globo y no realiza ninguna operación.
-   * Si la línea únicamente intersecciona con los huecos del polígono \(sin Inter seccionar con el límite de este\) se lo comunica al usuario mediante un globo y no realiza ninguna operación.
+   * Si la línea no intersecciona con el polígono, la orden muestra un globo con esa información y no realiza ninguna operación.
+   * Si la línea únicamente intersecciona con los huecos del polígono \(sin interseccionar con el límite del polígono\), la orden muestra un globo con esa información y no realiza ninguna operación.
 4. Recorta el polígono en función de las intersecciones calculadas con la línea de corte.
 
 El polígono original será eliminado del archivo de dibujo.

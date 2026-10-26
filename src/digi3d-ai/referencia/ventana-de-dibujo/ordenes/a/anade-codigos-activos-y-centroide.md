@@ -17,7 +17,7 @@ La orden muestra el mensaje «Selecciona el área a la que añadir los códigos 
 
 * Pulsa el botón de datos dentro de un recinto para seleccionarlo. La selección anterior se descarta.
 * Mantén pulsada la tecla Ctrl al pulsar el botón de datos para añadir el recinto a la selección o quitarlo de ella.
-* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto y que no está ya seleccionado. Si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error.
+* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene la posición del cursor y que no está ya seleccionado. Si no hay ningún recinto sin seleccionar que contenga la posición del cursor, la orden quita el último recinto de la selección y emite el sonido de error.
 * Pulsa el botón de reset para vaciar la selección.
 * Pulsa la barra espaciadora para aceptar la selección. Si no hay ningún recinto seleccionado, la orden emite el sonido de error.
 * Pulsa Esc para terminar la orden.
@@ -28,15 +28,15 @@ Tras aceptar una selección, la orden sigue activa para seleccionar más recinto
 
 Al aceptar la selección, la orden procesa las líneas del contorno exterior y de los huecos de los recintos seleccionados. Una línea que comparten dos recintos seleccionados no se procesa, porque queda dentro de la zona seleccionada.
 
-A cada línea le añade al final los códigos activos que no tenga. Si está activada la opción que permite códigos repetidos, se los añade aunque ya los tenga. Una línea que no recibe ningún código no se modifica. Cada línea modificada se sustituye por una línea nueva con los mismos vértices, y la topología para inundaciones y las topologías cargadas del archivo de dibujo activo pasan a usar la línea nueva.
+La orden añade al final de la lista de códigos de cada línea los códigos activos que la línea no tenga. Si está activada la opción que permite códigos repetidos, la orden añade los códigos activos aunque la línea ya tenga esos códigos. Una línea que no recibe ningún código no se modifica. Cada línea modificada se sustituye por una línea nueva con los mismos vértices, y la topología para inundaciones y las topologías cargadas del archivo de dibujo activo pasan a usar la línea nueva.
 
 ### Cuadro de diálogo
 
 ![Cuadro de diálogo Insertar centroide](../../../../../images/anade-codigos-activos-y-centroide.png)
 
-Después de añadir los códigos, si hay un único código activo, la orden busca en la tabla de códigos las [topologías](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/README.md) cuyo único código es el código activo y que tienen [centroides](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/centroide.md) definidos. Por cada una muestra el cuadro _Insertar centroide_. Si hay varios códigos activos, la orden no muestra el cuadro.
+Después de añadir los códigos, si hay un único código activo, la orden busca en la tabla de códigos las [topologías](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/README.md) cuyo único código es el código activo y que tienen [centroides](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/centroide.md) definidos. Por cada topología que cumple esas condiciones, la orden muestra el cuadro _Insertar centroide_. Si hay varios códigos activos, la orden no muestra el cuadro.
 
-El desplegable contiene, en orden alfabético, los centroides de la topología. Cada centroide aparece con su descripción o, si no la tiene, con su texto. Al abrir el cuadro está seleccionado el primero.
+El desplegable contiene, en orden alfabético, los centroides de la topología que se está procesando. Cada centroide aparece con su descripción o, si el centroide no tiene descripción, con su texto. Al abrir el cuadro Insertar centroide, el primer centroide de la lista está seleccionado.
 
 _Introduce el nombre propio_ solo está habilitado si el centroide seleccionado es [variable](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-centroide.md#variable), por ejemplo para escribir nombres de calles.
 
@@ -52,7 +52,7 @@ Si pulsas _Cancelar_, la orden no inserta el texto. Los códigos ya se han añad
 
 ### Recintos procesados
 
-Los recintos procesados quedan coloreados con el color de relleno del centroide elegido. Quedan en gris si el centroide no tiene color de relleno, si pulsas _Cancelar_ o si la orden no muestra el cuadro. Las marcas se mantienen al terminar la orden con Esc.
+Los recintos procesados quedan coloreados con el color de relleno del centroide elegido. Los recintos quedan en gris si el centroide no tiene color de relleno, si pulsas _Cancelar_ o si la orden no muestra el cuadro Insertar centroide. Las marcas de los recintos procesados se mantienen al terminar la orden con Esc.
 
 [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) deshace de una vez los códigos añadidos y el texto insertado al aceptar una selección.
 

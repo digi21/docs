@@ -1,7 +1,7 @@
 # CONTROL\_CALIDAD\_SELECCION
 <!-- id: control-calidad-seleccion -->
 
-Realiza análisis de control de calidad a las entidades seleccionadas
+Realiza análisis de control de calidad de las entidades seleccionadas.
 
 ## Parámetros
 

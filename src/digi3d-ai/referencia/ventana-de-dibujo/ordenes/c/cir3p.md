@@ -9,15 +9,15 @@ Dibuja una circunferencia a partir de tres puntos dados.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Punto en el espacio de trabajo | Coordenadas XYZ | Si |
-| 2 | Punto en el espacio de trabajo | Coordenadas XYZ | Si |
-| 3 | Punto en el espacio de trabajo | Coordenadas XYZ | Si |
+| 1 | Punto en el espacio de trabajo | Coordenadas X, Y y Z | Sí |
+| 2 | Punto en el espacio de trabajo | Coordenadas XYZ | Sí |
+| 3 | Punto en el espacio de trabajo | Coordenadas XYZ | Sí |
 
 ## Observaciones
 
-El círculo se construye de tal forma, que el triángulo definido por esos tres puntos queda inscrito en su interior.
+El triángulo definido por los tres puntos introducidos queda inscrito en el círculo.
 
-La circunferencia se construye en el plano de la cámara: todos sus vértices quedan a la misma profundidad. Para que pase exactamente por tres puntos que no estén en ese plano —con la cámara libre de los sensores de nube de puntos y de ortofoto estereoscópica—, use [CIR3D](cir3d.md).
+La circunferencia se construye en el plano de la cámara: todos sus vértices quedan a la misma profundidad. Para dibujar una circunferencia que pase exactamente por tres puntos que no estén en el plano de la cámara —con la cámara libre de los sensores de nube de puntos y de ortofoto estereoscópica—, usa [CIR3D](cir3d.md).
 
 ## Características de la orden
 

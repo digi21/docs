@@ -7,9 +7,9 @@ Establece el color con el que se dibujan las entidades cuyo código es desconoci
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Componente roja, o índice de color en la paleta si es el único parámetro | 0-255 | Si |
-| 2 | Componente verde | 0-255 | Si |
-| 3 | Componente azul | 0-255 | Si |
+| 1 | Componente roja, o índice de color en la paleta si es el único parámetro | Entero de 0 a 255, ambos incluidos | Sí |
+| 2 | Componente verde | Entero de 0 a 255, ambos incluidos | Sí |
+| 3 | Componente azul | Entero de 0 a 255, ambos incluidos | Sí |
 
 ## Observaciones
 

@@ -13,13 +13,13 @@ No admite parámetros.
 
 Esta orden se utiliza para alinear segmentos de líneas. El usuario digitaliza una línea virtual formada por dos puntos y se localizan todos los vértices cuya distancia a la línea sea inferior a la _distancia activa principal._ Modifica la posición de todos esos vértices y los proyecta contra esa línea virtual.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad alineada, solo se conserva su original y las demás se alinean.
+La orden trata cada entidad de forma independiente: si Digi3D.AI descarta una entidad alineada, la orden conserva la entidad original. Las entidades que Digi3D.AI acepta se alinean.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Alinear los vértices de líneas \(2 puntos\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

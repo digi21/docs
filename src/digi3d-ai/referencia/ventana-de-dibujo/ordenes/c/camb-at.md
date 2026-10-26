@@ -7,7 +7,7 @@ Modifica la altura de uno o varios textos del dibujo.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Si |
+| 1 … N | Códigos de los textos a modificar. Cada código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta | Sí |
 
 Sin parámetros, la orden solicita que selecciones los textos. Admite selección múltiple.
 
@@ -15,7 +15,7 @@ Con parámetros, la orden modifica sin pedir datos todos los textos visibles, no
 
 ## Observaciones
 
-Antes de ejecutar la orden debes asignar la nueva altura de texto con la orden [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md).
+Antes de ejecutar la orden, asigna la nueva altura de texto con la orden [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md).
 
 Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
 
@@ -23,7 +23,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; [orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) con parámetros |
 | :--- | :--- |
-| Repite automáticamente | Si, cuando se ejecuta sin parámetros |
+| Repite automáticamente | Sí, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Textos/Cambiar altura de texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |

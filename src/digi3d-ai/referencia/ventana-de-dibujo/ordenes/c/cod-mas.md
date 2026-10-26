@@ -7,7 +7,7 @@ Añade uno o varios códigos a la lista de códigos activos.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | Códigos que se añaden a la lista de códigos activos. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden muestra el cuadro de diálogo de búsqueda de códigos y añade los códigos seleccionados |
+| 1...n | Códigos que se añaden a la lista de códigos activos. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Sí. Si no se especifica ningún parámetro, la orden muestra el cuadro de diálogo de búsqueda de códigos y añade los códigos seleccionados |
 
 ## Observaciones
 

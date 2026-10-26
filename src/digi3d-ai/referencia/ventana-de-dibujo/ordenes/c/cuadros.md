@@ -7,7 +7,7 @@ Traza segmentos tanto paralelos como perpendiculares a la base.
 
 ## Parámetros
 
-No admite parámetros
+No admite parámetros.
 
 ## Observaciones
 
@@ -17,7 +17,7 @@ El efecto visual sería equiparable al de una matriz de cuadrados o rectángulos
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Rejilla con 3 puntos |
 | Barra de herramientas en la que aparece la orden | Rejillas |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -12,7 +12,7 @@ Esta orden no admite parámetros.
 Esta orden abre la ventana acoplable **Salida** y escribe en ella el sistema de referencia de coordenadas de la ventana de dibujo (nombre y WKT) y el número de archivos de dibujo cargados. Después escribe la siguiente información para cada archivo cargado:
 
 * Sistema de referencia de coordenadas del archivo (nombre y WKT)
-* Número de líneas, puntos, textos, complejos, complejos puntuales, polígonos y bitmaps, cada uno con el total, los no eliminados y los eliminados
+* Número de entidades de cada tipo (líneas, puntos, textos, complejos, complejos puntuales, polígonos y bitmaps o imágenes ráster), con el total, las no eliminadas y las eliminadas
 * Total de entidades no eliminadas, eliminadas y total general
 * Coordenadas máximas y mínimas
 * Códigos conocidos

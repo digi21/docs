@@ -1,7 +1,7 @@
 # ASIGNAR\_DISTANCIA\_ATRIBUTO
 <!-- id: asignar-distancia-atributo -->
 
-Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia entre los dos puntos en el campo de base de datos pasado por parámetros
+Solicita que digitalices dos puntos y asigna el valor de la distancia entre los dos puntos al campo de base de datos indicado mediante los parámetros.
 
 ## Parámetros
 
@@ -14,7 +14,7 @@ Solicita al usuario que digitalice dos puntos y asigna el valor de la distancia 
 
 La orden asigna el valor al campo en la lista de atributos activos del código, igual que [ASIGNA\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asigna-atributo.md). No modifica ninguna entidad existente.
 
-Mientras mueves el cursor después del primer punto, la orden muestra el valor en la barra de mensajes. El valor almacenado es la distancia 3D entre los dos puntos, con el número de decimales de la ventana de dibujo.
+Mientras mueves el cursor después de introducir el primer punto, la orden muestra en la barra de mensajes la distancia tridimensional entre el primer punto y la posición del cursor. El valor almacenado es la distancia tridimensional entre los dos puntos, con el número de decimales de la ventana de dibujo.
 
 Si falta alguno de los dos parámetros, la orden emite un sonido de error y termina.
 

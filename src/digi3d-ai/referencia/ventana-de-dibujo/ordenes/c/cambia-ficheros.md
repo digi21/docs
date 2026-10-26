@@ -1,7 +1,7 @@
 # CAMBIA\_FICHEROS
 <!-- id: cambia-ficheros -->
 
-Cambia el fichero de dibujo activo por el fichero de dibujo que tengas de referencia, intercambiándose.
+Intercambia el fichero de dibujo activo y el fichero de referencia.
 
 ## Parámetros
 

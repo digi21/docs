@@ -1,13 +1,13 @@
 # CONTROL\_CALIDAD\_COD
 <!-- id: control-calidad-cod -->
 
-Realiza análisis de control de calidad por código
+Realiza análisis de control de calidad por código.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | Códigos de las entidades a analizar. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden muestra un cuadro de diálogo para seleccionar los códigos |
+| 1...n | Códigos de las entidades a analizar. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Sí. Si no se especifica ningún parámetro, la orden muestra un cuadro de diálogo para seleccionar los códigos |
 
 ## Observaciones
 

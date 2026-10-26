@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden necesita una ventana fotogramétrica abierta con un sensor que admita esta orden (el sensor de nubes de puntos). Si no la hay, o si el sensor activo no la admite, la orden muestra un mensaje de error y termina.
+La orden necesita una ventana fotogramétrica abierta con un sensor que admita esta orden (el sensor de nubes de puntos). Si no hay una ventana fotogramétrica abierta, o si el sensor activo no admite esta orden, la orden muestra un mensaje de error y termina.
 
 Mientras mueves el cursor, la orden busca el punto del modelo más cercano por debajo y el más cercano por encima de la posición del cursor y muestra la acotación provisional. Al introducir un punto, la orden añade al archivo de dibujo:
 
@@ -20,7 +20,7 @@ Mientras mueves el cursor, la orden busca el punto del modelo más cercano por d
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

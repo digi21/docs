@@ -9,8 +9,8 @@ Mueve el segmento seleccionado para ajustar el área de la línea cerrada selecc
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Número máximo de iteraciones (por defecto 100) | Si |
-| 2 | Sigma | Si |
+| 1 | Número máximo de iteraciones (por defecto 100) | Sí |
+| 2 | Sigma: tolerancia para la diferencia absoluta entre el área deseada y el área calculada, en unidades del sistema de referencia de coordenadas al cuadrado | Sí |
 
 Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
 

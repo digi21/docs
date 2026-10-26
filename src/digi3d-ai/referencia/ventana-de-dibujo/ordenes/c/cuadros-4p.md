@@ -11,19 +11,19 @@ No admite parámetros.
 
 ## Observaciones
 
-Se piden los puntos primero y segundo que definen la base, y luego los tercero y cuarto que forman el cuadrilátero.
+La orden solicita primero los dos puntos que definen la base y después el tercer y el cuarto punto que completan el cuadrilátero.
 
-El resultado gráfico final, puede ser cualquiera de los siguientes:
+El resultado gráfico final puede ser cualquiera de los siguientes:
 
 * Dibujo de cuadros.
-* Dibujo de escalones sólo en la dirección paralela a la base.
-* Dibujo de escalones sólo en la dirección perpendicular a la base.
+* Dibujo de escalones solo en la dirección paralela a la base.
+* Dibujo de escalones solo en la dirección perpendicular a la base.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Rejilla con 4 puntos |
 | Barra de herramientas en la que aparece la orden | Rejillas |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -9,9 +9,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden hay que establecer como código activo el nuevo código con la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
+Esta orden admite los comodines "\*" y "?". Antes de ejecutar la orden, establece el nuevo código como código activo con la orden [COD+](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-mas.md).
 
-Si el primer código activo tiene comodines, la orden lo combina con el primer código de la entidad. Lo hace así también cuando la entidad tiene varios códigos y se elige cambiar otro de ellos.
+Si el primer código activo tiene comodines, la orden lo combina con el primer código de la entidad. La orden combina el primer código activo con el primer código de la entidad también cuando la entidad tiene varios códigos y se elige cambiar otro código de la entidad.
 
 Si la entidad tiene un solo código, la orden le asigna los códigos activos. Si tiene varios códigos, la orden muestra el cuadro de diálogo **Seleccionar código** para elegir el código que se sustituye por el primer código activo.
 
@@ -29,7 +29,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Cambiar los códigos de una entidad por los activos |
 | Barra de herramientas en la que aparece la orden | Editar códigos |
 | Extensión | DigiNG.OrdenesStandard.dll |

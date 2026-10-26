@@ -1,13 +1,13 @@
 # CREAR\_COMPLEJOS\_COD
 <!-- id: crear-complejos-cod -->
 
-Crear elementos complejos agrupando entidades con el mismo código.
+Crea elementos complejos agrupando entidades con el mismo código.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | Códigos de las entidades a agrupar. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Si. Si no se especifica ningún parámetro, la orden muestra el cuadro de diálogo de búsqueda de códigos |
+| 1...n | Códigos de las entidades a agrupar. Un parámetro que empieza por `#` se sustituye por todos los códigos que tienen esa etiqueta en la tabla de códigos. | Sí. Si no se especifica ningún parámetro, la orden muestra el cuadro de diálogo de búsqueda de códigos |
 
 ## Observaciones
 

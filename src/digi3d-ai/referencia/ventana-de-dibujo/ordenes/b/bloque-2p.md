@@ -1,19 +1,19 @@
 # BLOQUE\_2P
 <!-- id: bloque-2p -->
 
-Almacena en un nuevo fichero una entidad o conjunto de entidades, que podrán ser insertadas posteriormente en cualquier dibujo.
+Almacena en un nuevo fichero una entidad o un conjunto de entidades que puedes insertar posteriormente en cualquier dibujo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Archivo que se va a crear. Si se indica, la orden no muestra el cuadro de diálogo de selección de archivo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte**. Puede aparecer el cuadro de selección de formato, si varios formatos usan esa extensión, o el de parámetros del formato, si su configuración lo pide | Ruta de archivo | Si |
+| 1 | Archivo que se va a crear. Si indicas la ruta del archivo, la orden no muestra el cuadro de diálogo de selección de archivo y usa la última configuración guardada del formato del archivo, con la condición de inclusión **1. Corte**. Puede aparecer el cuadro de selección de formato, si varios formatos usan la extensión del archivo, o el de parámetros del formato, si la configuración del formato requiere que indiques parámetros | Ruta de archivo | Sí |
 
 ## Observaciones
 
 Es similar a la orden [BLOQUE](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bloque.md), con la excepción de que la orden _BLOQUE\_2P_ toma dos puntos para girar el bloque a grabar. El cuadro de diálogo tiene las mismas opciones, incluida **Invertir selección**.
 
-Después del cuadro de diálogo, la orden pide el punto de origen y a continuación el punto de alineación. Las coordenadas de las entidades se guardan relativas al punto de origen y giradas alrededor del eje Z, de modo que la dirección del punto de origen al punto de alineación queda sobre el eje X del bloque. A continuación selecciona la línea que actúa como ventana.
+Al aceptar el cuadro de diálogo para guardar el archivo, la orden pide el punto de origen y a continuación el punto de alineación. Las coordenadas de las entidades se guardan relativas al punto de origen y giradas alrededor del eje Z, de modo que la dirección del punto de origen al punto de alineación queda sobre el eje X del bloque. Después de indicar los dos puntos, selecciona la línea que actúa como ventana.
 
 ## Características de la orden
 

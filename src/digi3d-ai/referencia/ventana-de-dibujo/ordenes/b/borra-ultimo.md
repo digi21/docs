@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Cada vez que se ejecute la orden desaparecerá la última entidad no borrada del archivo de dibujo activo. Esta orden no pide confirmación para ejecutarse.
+Cada vez que ejecutes la orden, el programa borrará la última entidad no borrada del archivo de dibujo activo. Esta orden no pide confirmación para ejecutarse.
 
 ## Características de la orden
 

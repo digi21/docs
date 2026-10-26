@@ -1,7 +1,7 @@
 # ANULA\_REPITE\_COMANDO\_ACTIVO
 <!-- id: anula-repite-comando-activo -->
 
-Si está habilitada la opción de REPITE y se está ejecutando un comando que admite repetición, al ejecutar este comando el comando activo no se repetirá.
+Si está habilitada la opción de REPITE, esta orden evita que se repita la orden activa, siempre que la orden activa admita repetición.
 
 ## Parámetros
 

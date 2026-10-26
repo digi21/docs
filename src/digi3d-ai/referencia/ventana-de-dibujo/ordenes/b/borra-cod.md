@@ -7,7 +7,7 @@ Borra las entidades que tienen el código indicado y son de los tipos de geometr
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Pares «código tipo». El código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta. El tipo es una cadena de letras de [tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Si |
+| 1 … N | Pares «código tipo». El código puede ser `#etiqueta` para indicar todos los códigos con esa etiqueta. El tipo es una cadena de letras de [tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Sí |
 
 En esta orden, `P` incluye los puntos, los complejos puntuales, los puntos orientados y los multipuntos, `B` indica las imágenes y `*` incluye todos los tipos de geometría.
 

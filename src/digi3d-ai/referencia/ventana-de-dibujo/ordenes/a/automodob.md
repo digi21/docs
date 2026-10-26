@@ -7,12 +7,12 @@ Activa o desactiva el modo de búsqueda automático.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo de búsqueda automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo Activado a Desactivado y de Desactivado a Activado.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Modo de búsqueda automático |Si no especificas ningún parámetro, la variable booleana cambia de Activado a Desactivado o de Desactivado a Activado.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo que indica si la variable está activada o desactivada.| Sí |
 
 ## Observaciones
 
-Antes de poder activar esta orden, hay que especificar la tabla de modo de búsqueda que se va a utilizar, mediante la orden [PARAMETROS\_AUTO\_MODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-auto-modob.md).  
-Puedes activar también, el modo de búsqueda exhaustivo, que evitará que se haga tentantivo en entidades que no estén especificadas en la tabla de búsqueda. La orden para activar este modo es [AUTOMODOB\_EXHAUSTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob-exhaustivo.md).
+Antes de activar el modo de búsqueda automático, especifica la tabla de modo de búsqueda que se va a utilizar mediante la orden [PARAMETROS\_AUTO\_MODOB](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-auto-modob.md).  
+Puedes activar también el modo de búsqueda exhaustivo, que evitará que hagas tentativo en entidades que no estén especificadas en la tabla de búsqueda. La orden para activar el modo de búsqueda exhaustivo es [AUTOMODOB\_EXHAUSTIVO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/automodob-exhaustivo.md).
 
 ## Características de la orden
 

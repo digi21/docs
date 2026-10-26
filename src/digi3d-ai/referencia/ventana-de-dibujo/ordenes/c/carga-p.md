@@ -7,7 +7,7 @@ Lee el contenido de un fichero ASCII de coordenadas, incorporando al archivo de 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Nombre del fichero ASCII de coordenadas | Ruta de archivo | Si |
+| 1 | Nombre del fichero de coordenadas con codificación ASCII (American Standard Code for Information Interchange, código estándar estadounidense para el intercambio de información) | Ruta de archivo | Sí |
 
 Sin parámetros, la orden muestra un cuadro de diálogo para elegir el fichero y los códigos del punto, del texto con el número de punto y del texto con la cota:
 

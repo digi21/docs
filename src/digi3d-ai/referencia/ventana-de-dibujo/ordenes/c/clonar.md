@@ -1,7 +1,7 @@
 # CLONAR
 <!-- id: clonar -->
 
-Clona las propiedades \(códigos, ángulo activo, altura de texto,...\) de la entidad seleccionada.
+Clona las propiedades \(códigos, ángulo activo, altura de texto, etc.\) de la entidad seleccionada.
 
 ## Parámetros
 

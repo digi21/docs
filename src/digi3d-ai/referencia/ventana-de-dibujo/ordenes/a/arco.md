@@ -11,9 +11,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Los tres puntos que van a definir el arco, bien se pueden indicar de forma gráfica, o introduciendo sus coordenadas por teclado mediante la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
+Puedes indicar los tres puntos que definen el arco de forma gráfica o introducir sus coordenadas por teclado mediante la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
 
-Si la orden se ejecuta mientras se esta dibujando una entidad, sólo hay que especificar los puntos segundo y tercero, ya que el primero se corresponde con el último registrado en la entidad.
+Si ejecutas la orden mientras dibujas una entidad, indica solo los puntos segundo y tercero del arco: el primer punto del arco corresponde al último punto registrado en la entidad.
 
 ## Características de la orden
 
