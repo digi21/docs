@@ -10,7 +10,7 @@ Especifica los parámetros que se enviarán al importador o exportador correspon
 | 1 | Extensión del formato, con el punto delante \(por ejemplo `.asc`\), o la ruta de un archivo con esa extensión \(por ejemplo `e:\trabajos\a.asc`\). | No |
 | 2 | Valores que se le pasan al importador/exportador, en el orden en que los espera. | No |
 
-El primer parámetro determina **qué** importador/exportador se configura \(a partir de la extensión\); el resto son los valores concretos que admite ese formato, que se describen en la página de cada uno dentro de [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md).
+El primer parámetro determina **qué** importador o exportador se configura \(a partir de la extensión\); los demás parámetros contienen los valores concretos que admite ese formato, que se describen en la página de cada formato dentro de [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md).
 
 ## Observaciones
 
@@ -28,7 +28,7 @@ Los valores se indican separados por espacios, sin necesidad de entrecomillarlos
 
 `PARAMETROS_IMPORTACION=.bin 3 1000 2000 0`
 
-Una vez ejecutada la orden PARAMETROS\_IMPORTACIÓN, el usuario puede ejecutar la orden de importación o exportación que le interese \([IMPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/importar.md), [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md) o [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md)\):
+Ejecuta la orden de importación o exportación que te interese \([IMPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/importar.md), [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md) o [CARGA\_F](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/carga-f.md)\) después de ejecutar PARAMETROS\_IMPORTACIÓN:
 
 `EXPORTAR=C:\prueba.dxf`
 

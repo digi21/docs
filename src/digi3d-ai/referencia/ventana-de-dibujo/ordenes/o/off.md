@@ -7,11 +7,11 @@ Desactiva la visualización de uno o varios códigos.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código/os que se ocultarán en la pantalla de dibujo | Si. |
+| 1 | Código o códigos que se ocultarán en la ventana de dibujo | Sí. |
 
 ### Ejemplos
 
-Oculta todos códigos en pantalla:
+Oculta todos los códigos en pantalla:
 
 ```text
 OFF=*

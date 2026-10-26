@@ -25,7 +25,7 @@ Ejemplos:
 
 `TRANSFORMA=ESCALA 2 2 1 0`
 
-Si se graba una macro, la orden anota como parámetros el tipo y los valores elegidos en el cuadro. Si cancelas el cuadro, no se anota.
+Si se graba una macro, la orden anota como parámetros el tipo y los valores elegidos en el cuadro. Si cancelas el cuadro, la orden no anota los parámetros.
 
 ## Observaciones
 
@@ -119,8 +119,8 @@ La orden muestra un mensaje, no transforma nada y deja el cuadro abierto en esto
 
 La orden transforma las entidades del archivo de dibujo activo que no están borradas, son visibles y están dentro de la zona de interés. No transforma los demás archivos de dibujo cargados. Cada entidad se borra y se sustituye por una copia transformada, que se añade al final del archivo.
 
-* Se transforman todos los vértices: los huecos de los polígonos y cada entidad de los complejos.
-* El giro de los textos, de los símbolos de los puntos y de los complejos puntuales cambia lo mismo que la transformación gira, en el plano XY, la dirección de ese giro. Con una transformación que refleja el dibujo, el texto sigue la dirección reflejada, pero los caracteres no se reflejan.
+* Se transforman todos los vértices, incluidos los de los huecos de los polígonos y los de cada entidad de los complejos.
+* La transformación modifica en el plano XY la dirección del giro de los textos, de los símbolos de los puntos y de los complejos puntuales. Con una transformación que refleja el dibujo, el texto sigue la dirección reflejada, pero los caracteres no se reflejan.
 * La altura de los textos solo cambia con la escala, si _Altura textos_ es _Sí_. Con el resto de tipos se conserva, aunque la transformación incluya un factor de escala.
 * El tamaño de los símbolos de los puntos no cambia.
 

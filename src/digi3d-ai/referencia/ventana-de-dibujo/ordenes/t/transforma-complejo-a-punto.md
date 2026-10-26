@@ -14,7 +14,7 @@ Por ejemplo, `TRANSFORMA_COMPLEJO_A_PUNTO=BAI_VEG_03_PT VEG_03_PT`.
 
 ## Observaciones
 
-La orden sustituye cada geometría de tipo complejo, no borrada, cuyo primer código es uno de los indicados por un punto situado en el centro de su caja envolvente, con los mismos códigos, rotación 0 y escala 1. La geometría original se borra.
+La orden sustituye por un punto cada geometría de tipo complejo que no esté borrada y cuyo primer código sea uno de los indicados. El punto se sitúa en el centro de la caja envolvente de la geometría original y conserva los códigos de esa geometría, con rotación de 0 grados y escala 1. La geometría original se borra.
 
 La orden resuelve el caso de los archivos DGN importados con los puntos como complejos en lugar de como puntos.
 

@@ -1,14 +1,14 @@
 # PROYECTA\_COD\_ETIQUETA
 <!-- id: proyecta-cod-etiqueta -->
 
-Proyecta todas la entidades con un determinado código sobre los MDTs cargados que tengan asignada la etiqueta indicada.
+Proyecta todas las entidades con un determinado código sobre los modelos digitales del terreno (MDT) cargados que tengan asignada la etiqueta indicada.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Etiqueta | No |
-| 2 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md), con el mismo formato que en [PROYECTA\_COD](proyecta-cod.md) | Si |
+| 2 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md), con el mismo formato que en [PROYECTA\_COD](proyecta-cod.md) | Sí |
 
 ## Observaciones
 

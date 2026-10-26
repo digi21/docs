@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Sólo tiene efecto mientras la entidad no se finalice. Cada ejecución borra un vértice. La orden actúa sobre las órdenes de dibujo que admiten borrar vértices, como [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md). Si no hay ninguna orden activa, emite un sonido de error.
+La orden U borra un vértice si la entidad tiene algún vértice y aún no ha finalizado, mientras esté activa una orden de dibujo que admita borrar vértices, como [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md). Si no hay ninguna orden activa, U emite un sonido de error.
 
 ## Características de la orden
 

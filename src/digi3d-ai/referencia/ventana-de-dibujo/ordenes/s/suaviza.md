@@ -9,19 +9,19 @@ Suaviza la forma geométrica de un elemento lineal existente en el dibujo.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos de las entidades a suavizar | Si |
+| 1 … N | Código o códigos de las entidades a suavizar | Sí |
 
 ## Observaciones
 
-La orden SUAVIZA se puede ejecutar especificando el parámetro de código, es decir, si deseas suavizar todas las entidades que tengan un cierto código la entrada a la orden sería:
+Indica el código como parámetro de la orden SUAVIZA para suavizar todas las entidades que tengan ese código:
 
 `SUAVIZA=020200`
 
 La orden necesita que se especifique el elemento, cuya selección se realizará de forma gráfica. Así, al llamar a la orden el programa solicita que el usuario seleccione la entidad.
 
-El resultado es una línea sin quiebros y de contorno más suave, ya que la función rellena la entidad con nuevos puntos.
+La orden añade puntos a la entidad para generar una línea sin quiebros.
 
-Los puntos nuevos que se crean, lo harán a una distancia igual al valor de la variable [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md), por lo que a menor valor del incremento de registro mayor efecto de suavizado se consigue.
+Los puntos nuevos se crean separados por una distancia igual al valor de la variable [INC](/digi3d-ai/referencia/ventana-de-dibujo/variables/i/inc.md).
 
 Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se suavizan.
 
@@ -29,7 +29,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Suavizar |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |

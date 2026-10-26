@@ -1,18 +1,18 @@
 # ZOOMP
 <!-- id: zoomp -->
 
-Permite hacer un centrado del dibujo en el punto que escoja el operador.
+Centra la vista del dibujo en el punto que elijas.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Coordenada X | Si |
-| 2 | Coordenada Y | Si |
+| 1 | Coordenada X | Sí |
+| 2 | Coordenada Y | Sí |
 
 ## Observaciones
 
-Sin parámetros, la orden pide que se digitalice el punto en el cual se quiere centrar la vista.
+Sin parámetros, la orden pide que digitalices el punto en el que quieres centrar la vista.
 
 Con los dos parámetros, la orden centra la vista en el punto (X, Y), en unidades del sistema de coordenadas del dibujo, sin pedir ningún punto. Si solo indicas la X, la orden ignora el parámetro y pide el punto.
 

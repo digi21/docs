@@ -1,7 +1,7 @@
 # SPLINE
 <!-- id: spline -->
 
-Dibuja una figura usando arcos convirtiéndolos en una curva fluida.
+Dibuja una figura mediante arcos y los convierte en una curva suave.
 
 ![SPLINE: cinco puntos digitalizados y la spline cúbica que pasa por ellos, con 10 vértices por tramo](../../../../../images/orden-spline.svg)
 
@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Para crear una curva SPLINE hay que definir los puntos por los que va a atravesar. A medida que se digitalizan los puntos, el movimiento del cursor actuará sobre los vértices que actúan como tensores.
+Define los puntos por los que pasará la curva SPLINE. A medida que digitalizas los puntos, el movimiento del cursor modifica los vértices que determinan la forma de la curva.
 
 Las _SPLINES_ generadas en DIGI son SPLINES CÚBICAS.
 
@@ -19,7 +19,7 @@ Las _SPLINES_ generadas en DIGI son SPLINES CÚBICAS.
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Spline |
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |

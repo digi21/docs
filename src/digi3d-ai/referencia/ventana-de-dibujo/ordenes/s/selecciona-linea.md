@@ -1,7 +1,7 @@
 # SELECCIONA\_LINEA
 <!-- id: selecciona-linea -->
 
-Selecciona aquellas líneas que crucen con una línea virtual generada por el usuario.
+Selecciona las líneas que se crucen con una línea virtual que digitalices.
 
 ## Parámetros
 
@@ -11,7 +11,7 @@ No admite parámetros.
 
 Es necesario que se esté ejecutando previamente una orden que admita selección múltiple.
 
-Digitaliza los dos extremos de la línea virtual con el pulsador de datos. La orden marca las líneas que la cruzan en pantalla. Solo se seleccionan entidades de tipo línea, visibles, no borradas y dentro de la zona de interés. Pulsa el pulsador de datos o la tecla `+` para enviarlas a la orden activa, o el pulsador de reset, la tecla `-` o `Esc` para cancelar. Si ninguna línea cruza, digitaliza otro segundo extremo.
+Digitaliza los dos extremos de la línea virtual con el pulsador de datos. La orden marca en pantalla las líneas que cruzan la línea virtual. Solo se seleccionan entidades de tipo línea, visibles, no borradas y dentro de la zona de interés. Pulsa el pulsador de datos o la tecla `+` para enviar las líneas marcadas a la orden activa, o el pulsador de reset, la tecla `-` o `Esc` para cancelar. Si ninguna línea cruza la línea virtual, digitaliza otro punto para el segundo extremo.
 
 ## Características de la orden
 

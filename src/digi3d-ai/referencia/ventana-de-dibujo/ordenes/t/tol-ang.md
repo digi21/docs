@@ -7,7 +7,7 @@ Establece el _factor de tolerancia angular_ en el proceso de [generalización](/
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor de la tolerancia angular, o `?` para mostrar el valor actual | Número real | Si |
+| 1 | Valor de la tolerancia angular en grados sexagesimales, o `?` para mostrar el valor actual | Número real | Sí |
 
 Sin parámetros, la orden solicita el valor en la barra de mensajes. Solo acepta el valor tecleado: si se digitaliza un punto, la orden emite un sonido de error y sigue esperando el valor.
 
@@ -19,13 +19,13 @@ Asigna como tolerancia angular 45 grados.
 
 `TOL_ANG=?`
 
-Muestra el valor actual de la tolerancia angular
+Muestra el valor actual de la tolerancia angular.
 
 ## Observaciones
 
 El valor se introduce en **grados sexagesimales**. Al iniciar Digi3D.AI vale 4,58.
 
-La tolerancia angular solo interviene en un tramo en el que ningún vértice supera la [tolerancia lineal](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md). En ese caso, las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) conservan el vértice intermedio con mayor desviación angular respecto a la recta que une los extremos del tramo, si esa desviación supera **TOL\_ANG**, y dividen el tramo en dos por él.
+La tolerancia angular solo interviene en un tramo en el que la distancia de cada vértice intermedio a la recta que une los extremos del tramo no supera la [tolerancia lineal](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md); en ese caso, las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) conservan el vértice intermedio con mayor desviación angular respecto a la recta que une los extremos del tramo, si esa desviación supera **TOL\_ANG**, y dividen el tramo en dos por ese vértice.
 
 ## Características de la orden
 

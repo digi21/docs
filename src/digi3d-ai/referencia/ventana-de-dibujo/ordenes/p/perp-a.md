@@ -9,11 +9,11 @@ Dibuja segmentos perpendiculares a una entidad dada.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo de asignación de cotas a la línea perpendicular | 0 ó 1 | Si |
+| 1 | Modo de asignación de cotas a la línea perpendicular | 0 o 1 | Sí |
 
 ## Observaciones
 
-Si la orden se ejecuta sin pasarle ningún parámetro, la línea que se genera tendrá la cota del punto desde el que se traza la perpendicular. Si a la orden se le pasa como parámetro la unidad, es decir, se ejecuta del siguiente modo:
+Si la orden se ejecuta sin pasarle ningún parámetro, la línea que se genera tendrá la cota del punto desde el que se traza la perpendicular. Si pasas el valor 1 como parámetro a la orden:
 
 PERP\_A=1
 
@@ -26,7 +26,7 @@ El programa asigna a la línea perpendicular las siguientes cotas:
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Múltiples líneas de dos puntos perpendiculares a una línea existente |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -1,27 +1,27 @@
 # OND
 <!-- id: ond -->
 
-Activa el código \(o códigos\) que se desea visualizar en el dibujo, tanto en la pantalla de visión estereoscópica como en Digi.NG.
+Activa la visualización del código \(o códigos\) que indiques en la ventana de dibujo y en la ventana fotogramétrica.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código/os que se mostrarán en la pantalla de dibujo | Si. Por defecto al abrir un fichero de dibujo aparecen todos los códigos visibles |
+| 1 | Código o códigos que se mostrarán en la ventana de dibujo | Sí. Por defecto, al abrir un archivo de dibujo aparecen todos los códigos visibles |
 
 ### Ejemplos
 
 `OND=*`
 
-Visualiza todos los códigos en pantalla
+Muestra todos los códigos en pantalla.
 
 `OND=02*`
 
-Visualiza todos los códigos que comiencen por 02
+Muestra todos los códigos que comiencen por 02.
 
 `OND=020123`
 
-Visualiza solamente los elementos cuyo código sea 020123
+Muestra solamente los elementos cuyo código sea 020123.
 
 ## Observaciones
 

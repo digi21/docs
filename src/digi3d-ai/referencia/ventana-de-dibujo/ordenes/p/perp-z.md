@@ -1,7 +1,7 @@
 # PERP\_Z
 <!-- id: perp-z -->
 
-Sirve para trazar líneas perpendiculares a una entidad de dibujo.
+Traza líneas perpendiculares a una entidad de dibujo.
 
 ![PERP_Z: la polilínea empieza en el pie de la perpendicular al tramo, pasa por el punto digitalizado y continúa con LINEA; en alzado, el pie toma la Z del tramo](../../../../../images/orden-perp-z.svg)
 

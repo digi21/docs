@@ -1,7 +1,7 @@
 # RECUPERA
 <!-- id: recupera -->
 
-Permite recuperar los elementos marcados con la señal de borrado en el fichero de dibujo, debemos tener la orden [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) activada.
+Permite recuperar los elementos marcados como borrados en el fichero de dibujo. Para recuperar estos elementos, debes tener la variable [BORRADOS](/digi3d-ai/referencia/ventana-de-dibujo/variables/b/borrados.md) activada.
 
 ## Parámetros
 
@@ -15,7 +15,7 @@ No se pueden recuperar entidades que no estén borradas.
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Recuperar las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Eliminar y recuperar |
 | Extensión | DigiNG.OrdenesStandard.dll |

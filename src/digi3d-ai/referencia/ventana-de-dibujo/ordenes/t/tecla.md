@@ -7,7 +7,7 @@ Asigna órdenes de Digi3D.AI a pulsaciones de teclas en el teclado virtual activ
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Archivo de texto con las órdenes a asignar, una por línea | Ruta de archivo | Si |
+| 1 | Archivo de texto con las órdenes que se van a asignar, una por línea | Ruta de archivo | Sí |
 
 ## Observaciones
 
@@ -26,7 +26,7 @@ Esta orden crea o modifica las asignaciones del teclado virtual activo (archivo 
    * **Descripción de la tarea**: el texto que describe lo que hace la tecla.
    * **Órdenes**: las órdenes que se ejecutan al pulsar la tecla, una por línea.
 
-   Si la tecla ya tiene una asignación, el cuadro muestra sus órdenes y su descripción.
+   Si la tecla ya tiene una asignación, el cuadro muestra las órdenes y la descripción de esa asignación.
 4. Pulsa _Aceptar_. La asignación sustituye a la anterior y se guarda en ese momento en el archivo `.keyboard.xml` del teclado virtual activo. La orden vuelve a esperar otra tecla.
 5. Pulsa _Esc_ para terminar la orden.
 

@@ -7,7 +7,7 @@ Activa la visualización de uno o varios códigos en la ventana de dibujo.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código/os que se mostrarán en la pantalla de dibujo | Si. |
+| 1 | Código o códigos que se mostrarán en la ventana de dibujo | Sí. |
 
 ### Ejemplos
 

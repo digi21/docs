@@ -7,7 +7,7 @@ Indica si los modelos digitales del terreno cargados modifican la coordenada Z d
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | 0 desactiva / 1 activa la opción (? para consultar el valor). Si no se especifica, la orden cambia la opción de activada a desactivada y viceversa | Si |
+| 1 | 0 desactiva la opción y 1 la activa (? para consultar el valor). Si no se especifica el parámetro, la orden cambia la opción de activada a desactivada y viceversa | Sí |
 
 ## Características de la orden
 

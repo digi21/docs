@@ -1,13 +1,13 @@
 # PATRONS
 <!-- id: patrons -->
 
-Activa/desactiva la visualización de los patrones de línea en la pantalla de visualización estereoscópica.
+Activa o desactiva la visualización de los patrones de línea en la pantalla de visualización estereoscópica.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | 0 desactiva / 1 activa (? para consultar). Sin parámetro, la orden alterna el estado actual | Si |
+| 1 | 0 desactiva la visualización y 1 la activa (? para consultar el estado). Sin parámetro, la orden alterna el estado actual | Sí |
 
 ## Características de la orden
 

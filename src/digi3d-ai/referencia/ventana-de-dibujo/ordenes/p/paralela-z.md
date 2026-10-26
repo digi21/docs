@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Funciona como [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela.md): seleccionas la línea, das la distancia y pinchas en el lado. La diferencia es que todos los vértices de la paralela toman la Z del punto con el que eliges el lado.
+Selecciona la línea, indica la distancia y haz clic en el lado de la línea en el que quieres generar la paralela, como en [PARALELA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/paralela.md). La diferencia es que todos los vértices de la paralela toman la Z del punto con el que eliges el lado.
 
 ## Características de la orden
 

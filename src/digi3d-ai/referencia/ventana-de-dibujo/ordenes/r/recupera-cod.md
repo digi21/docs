@@ -7,7 +7,7 @@ Recupera todas aquellas entidades borradas que tengan un código igual al teclea
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) de las entidades a recuperar. Se pueden indicar varios pares «código tipo» para recuperar entidades de distintos códigos a la vez | Si |
+| 1 … N | Código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) de las entidades a recuperar. Se pueden indicar varios pares «código tipo» para recuperar entidades de distintos códigos a la vez | Sí |
 
 ## Observaciones
 
@@ -19,7 +19,7 @@ Si no indicas parámetros, la orden muestra un cuadro de diálogo para seleccion
 
 La orden solo trata las entidades visibles y dentro de la zona de interés. Si una entidad borrada tiene el código indicado y otros más, la orden no recupera la entidad original: crea una copia con solo el código indicado.
 
-La eliminación real de las entidades borradas se produce al ejecutar la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md), a partir de ese momento, los registros correspondientes a estas entidades desaparecen del fichero, por lo tanto, no se podrá recuperar níngún código borrado una vez comprimido el fichero.
+Las entidades borradas se eliminan definitivamente al ejecutar la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md). Los registros correspondientes a estas entidades desaparecen del fichero, por lo que no puedes recuperar las entidades borradas una vez comprimido el fichero.
 
 ## Características de la orden
 

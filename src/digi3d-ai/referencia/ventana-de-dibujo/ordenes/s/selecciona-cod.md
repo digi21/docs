@@ -1,13 +1,13 @@
 # SELECCIONA\_COD
 <!-- id: selecciona-cod -->
 
-Selecciona todas las entidades que tengan entre sus códigos los seleccionados.
+Selecciona todas las entidades que tengan alguno de los códigos indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1...n | Códigos a seleccionar | Nombre de código, o `#etiqueta` para todos los códigos con esa etiqueta | Si; si no se indica ningún código, la orden muestra un cuadro de diálogo para seleccionar los códigos |
+| 1...n | Códigos a seleccionar | Nombre de código, o `#etiqueta` para todos los códigos con esa etiqueta | Sí; si no se indica ningún código, la orden muestra un cuadro de diálogo para seleccionar los códigos |
 
 ## Observaciones
 

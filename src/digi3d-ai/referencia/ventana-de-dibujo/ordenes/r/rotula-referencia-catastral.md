@@ -17,7 +17,7 @@ Si el servicio devuelve una referencia catastral, la orden inserta en el punto u
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

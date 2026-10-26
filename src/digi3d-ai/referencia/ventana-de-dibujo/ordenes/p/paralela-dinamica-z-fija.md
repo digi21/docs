@@ -1,7 +1,7 @@
 # PARALELA\_DINÁMICA\_Z\_FIJA
 <!-- id: paralela-dinamica-z-fija -->
 
-Dibuja una línea paralela a una entidad a la distancia que especifique el operador, con una determinada Z.
+Dibuja una línea paralela a una entidad a la distancia que indiques, con la Z del punto digitalizado.
 
 ![PARALELA_DINAMICA_Z_FIJA: en planta, la paralela a la distancia d del cursor; en alzado, todos los vértices de la paralela con la Z del punto digitalizado](../../../../../images/orden-paralela-dinamica-z-fija.svg)
 
@@ -11,7 +11,7 @@ Esta orden no admite parámetros, ya que la distancia a la que se va a generar l
 
 ## Observaciones
 
-Las paralelas las va a generar con el código que esté activo en el momento de ejecutar la orden.
+La orden genera las paralelas con el código que esté activo en el momento de ejecutarla.
 
 Todos los vértices de la paralela toman la Z del punto digitalizado.
 
@@ -19,7 +19,7 @@ Todos los vértices de la paralela toman la Z del punto digitalizado.
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica con Z activa |
 | Barra de herramientas en la que aparece la orden | Paralelas |
 | Extensión | DigiNG.OrdenesStandard.dll |

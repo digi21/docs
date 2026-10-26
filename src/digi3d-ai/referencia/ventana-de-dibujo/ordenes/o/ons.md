@@ -1,13 +1,13 @@
 # ONS
 <!-- id: ons -->
 
-Activa códigos en la pantalla estereoscópica.
+Activa códigos en la ventana fotogramétrica.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 

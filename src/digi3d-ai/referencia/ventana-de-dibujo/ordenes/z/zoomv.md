@@ -1,7 +1,7 @@
 # ZOOMV
 <!-- id: zoomv -->
 
-Visualiza por pantalla el contenido de una zona de dibujo que el usuario ha de indicar, delimitando el contorno con una ventana.
+Muestra en pantalla el contenido de una zona del dibujo que delimites con una ventana.
 
 ## Parámetros
 
@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La ventana se define señalando dos puntos en pantalla.
+Señala dos puntos en pantalla para definir la ventana.
 
 ## Características de la orden
 

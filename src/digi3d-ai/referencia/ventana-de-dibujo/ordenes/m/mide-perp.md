@@ -1,7 +1,7 @@
 # MIDE\_PERP
 <!-- id: mide-perp -->
 
-Mide la perpendicular a un segmento seleccionado.
+Mide la distancia perpendicular de un punto a la recta de un segmento seleccionado.
 
 ![MIDE_PERP: la distancia d en planta del punto digitalizado a la recta del tramo seleccionado](../../../../../images/orden-mide-perp.svg)
 

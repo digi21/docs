@@ -7,8 +7,8 @@ Envía a la orden que se está ejecutando las coordenadas de uno o varios puntos
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1, 2, 3 | Coordenadas X, Y y Z del primer punto | Número real | Si |
-| 4, 5, 6... | Coordenadas X, Y y Z de los puntos siguientes, de tres en tres | Número real | Si |
+| 1, 2, 3 | Coordenadas X, Y y Z del primer punto | Número real | Sí |
+| 4, 5, 6... | Coordenadas X, Y y Z de los puntos siguientes, de tres en tres | Número real | Sí |
 
 Los parámetros son siempre coordenadas absolutas. Si el último punto solo tiene X e Y, su Z es 0; si solo tiene X, la orden lo descarta.
 

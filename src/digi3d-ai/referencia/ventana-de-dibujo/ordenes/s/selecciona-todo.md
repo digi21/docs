@@ -1,7 +1,7 @@
 # SELECCIONA\_TODO
 <!-- id: selecciona-todo -->
 
-Selecciona todas las entidades del archivo de dibujo cuando estamos ejecutando órdenes que admitan selección múltiple.
+Selecciona todas las entidades del archivo de dibujo cuando ejecutas una orden que admite selección múltiple.
 
 ## Parámetros
 

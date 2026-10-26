@@ -16,7 +16,7 @@ Los dos parámetros se escriben separados por un espacio, por ejemplo `SELECCION
 
 El índice de la entidad es su posición dentro del archivo, contando también las entidades borradas.
 
-La orden no termina la orden en ejecución: le envía la entidad y esta sigue activa. Si la orden en ejecución admite selección simple, recibe la entidad como seleccionada en su primer vértice. Si no la admite, recibe una pulsación del pulsador de datos en el primer vértice de la entidad. SELECCIONA\_INDICE no marca la entidad como seleccionada, no centra la vista en ella ni cambia el zoom.
+SELECCIONA\_INDICE envía la entidad a la orden en ejecución, que sigue activa. Si la orden en ejecución admite selección simple, recibe la entidad como seleccionada en su primer vértice. Si la orden en ejecución no admite selección simple, recibe una pulsación del pulsador de datos en el primer vértice de la entidad. SELECCIONA\_INDICE no marca la entidad como seleccionada, no centra la vista en la entidad ni cambia el zoom.
 
 ### Cuadro de diálogo
 
@@ -38,7 +38,7 @@ Si pulsas _Aceptar_, el cuadro comprueba los dos valores:
 * Si el archivo seleccionado no tiene entidades, muestra el mensaje _El archivo de dibujo seleccionado no tiene entidades._ y sitúa el cursor en la lista.
 * Si el índice está vacío, no es un número natural o está fuera del rango, muestra el mensaje _El índice de la entidad tiene que ser un número entero entre 0 y N._, donde N es el último índice válido, y selecciona el contenido del campo.
 
-En los dos casos el cuadro sigue abierto. Si los dos valores son válidos, el cuadro se cierra y la orden hace lo mismo que si se hubieran indicado como parámetros.
+Si el archivo seleccionado no tiene entidades o el índice de la entidad no es válido, el cuadro sigue abierto. Si los dos valores son válidos, el cuadro se cierra y la orden envía la entidad igual que si hubieras indicado los dos valores como parámetros.
 
 Si pulsas _Cancelar_, la orden termina sin enviar nada.
 

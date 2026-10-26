@@ -1,7 +1,7 @@
 # UNDO
 <!-- id: undo -->
 
-Deshace las últimas acciónes efectuadas por el programa.
+Deshace las últimas acciones efectuadas por el programa.
 
 ## Parámetros
 
@@ -9,9 +9,9 @@ No admite parámetros.
 
 ## Observaciones
 
-Cuando se ejecutan órdenes, éstas se colocan en una pila, una orden encima de la otra orden precedente. Al ejecutar la orden UNDO se deshacen las órdenes según están colocadas en la pila, por lo tanto, la primera orden que se deshace es la última que se haya ejecutado, después la penúltima, y así sucesivamente.
+El programa guarda las órdenes ejecutadas en una pila, cada orden encima de la anterior. UNDO deshace las órdenes en el orden inverso al de ejecución: primero la última, después la penúltima y así sucesivamente.
 
-Cada ejecución de la orden UNDO sólo deshace una orden.
+Cada ejecución de la orden UNDO solo deshace una orden.
 
 ## Características de la orden
 

@@ -1,7 +1,7 @@
 # MOVER\_CAMARA\_FPS
 <!-- id: mover-camara-fps -->
 
-Mueve la cámara cónica como un juego en primera persona.
+Mueve la cámara cónica con controles de un juego en primera persona.
 
 ## Parámetros
 
@@ -11,7 +11,7 @@ No admite parámetros.
 
 Mientras la orden está activa, el cursor se oculta y queda capturado en la ventana de dibujo:
 
-* El movimiento horizontal del ratón gira la cámara alrededor del eje vertical \(kappa\) y el vertical la inclina \(omega\).
+* El movimiento horizontal del ratón gira la cámara alrededor del eje vertical \(kappa\) y el movimiento vertical inclina la cámara \(omega\).
 * Las teclas `W` y `S` avanzan y retroceden en la dirección de la vista; `A` y `D` desplazan la cámara a izquierda y derecha.
 * La tecla Esc termina la orden.
 

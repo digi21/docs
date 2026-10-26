@@ -1,7 +1,7 @@
 # SUBE\_Z
 <!-- id: sube-z -->
 
-Sube la Z en una cuantía igual a la equidistancia de curvas que se tenga establecida.
+Incrementa la Z del cursor en una cantidad igual a la equidistancia de curvas establecida.
 
 ## Parámetros
 
@@ -13,7 +13,7 @@ La orden suma la [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variabl
 
 La equidistancia se define en el _cuadro de diálogo de Nuevo Proyecto de DigiNG_ o mediante la ejecución de la orden [EQUIDISTANCIA](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/equidistancia.md).
 
-Esta orden es utilizada cuando se está curvando. Una vez que el operador ha terminado de restituir una curva de nivel deberá subir o bajar la Z de registro una cantidad igual a la equidistancia para comenzar con la siguiente curva de nivel.
+Esta orden se utiliza al restituir curvas de nivel. Aumenta o reduce la Z de registro en una cantidad igual a la equidistancia al terminar de restituir una curva de nivel para comenzar la siguiente curva de nivel.
 
 ## Características de la orden
 

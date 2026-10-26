@@ -1,7 +1,7 @@
 # ZOOMA
 <!-- id: zooma -->
 
-Centra la visualización de los elementos de la pantalla, en torno al punto donde está el cursor/restituidor.
+Centra la vista en el punto donde está el cursor/restituidor.
 
 ## Parámetros
 

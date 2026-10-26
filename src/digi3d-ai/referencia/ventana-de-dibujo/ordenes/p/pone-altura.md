@@ -1,7 +1,7 @@
 # PONE\_ALTURA
 <!-- id: pone-altura -->
 
-Coloca un texto con el valor de la diferencia en altura entre dos puntos que registrará el usuario.
+Coloca un texto con el valor de la diferencia en altura entre dos puntos que registres.
 
 ## Parámetros
 
@@ -17,7 +17,7 @@ El texto tendrá como ángulo de rotación, altura y justificación los valores 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

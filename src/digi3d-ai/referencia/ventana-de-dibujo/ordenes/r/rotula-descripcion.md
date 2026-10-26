@@ -1,13 +1,13 @@
 # ROTULA\_DESCRIPCION
 <!-- id: rotula-descripcion -->
 
-Rotula entidades puntuales con un texto cuyo texto es la descripción del código del punto que se está rotulando.
+Rotula entidades puntuales con un texto que contiene la descripción del código de cada punto.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 

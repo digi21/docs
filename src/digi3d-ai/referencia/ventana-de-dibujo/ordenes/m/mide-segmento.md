@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Solo admite líneas; si se selecciona otro tipo de entidad, la orden emite un sonido de error. La orden muestra la longitud en un globo. Si se ejecuta mientras otra orden espera una distancia, la orden le pasa la longitud en lugar de mostrarla.
+Solo admite líneas; si se selecciona otro tipo de entidad, la orden emite un sonido de error. La orden muestra la longitud en un globo. Si ejecutas MIDE\_SEGMENTO mientras otra orden espera una distancia, MIDE\_SEGMENTO entrega la longitud a la orden que espera, en lugar de mostrar el valor en un globo.
 
 ## Características de la orden
 

@@ -15,7 +15,7 @@ Si Digi3D.AI descarta alguno de los trozos nuevos, la orden no corta la entidad 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Recortar una línea en el cruce con otra línea |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |

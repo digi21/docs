@@ -55,7 +55,7 @@ Pulsa _Salir_ para cerrar el cuadro y terminar la orden. _Salir_ no deshace los 
 
 [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) deshace de una vez todos los renombrados hechos mientras el cuadro estuvo abierto.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, solo se conserva su original y las demás se renombran.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, se conserva sin cambios la entidad original correspondiente; se asignan los códigos nuevos a las entidades cuyos cambios se aceptan.
 
 ## Características de la orden
 

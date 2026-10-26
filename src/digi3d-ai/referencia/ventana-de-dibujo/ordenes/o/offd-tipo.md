@@ -1,13 +1,13 @@
 # OFFD\_TIPO
 <!-- id: offd-tipo -->
 
-Desactiva códigos en la pantalla fotogramétrica y en la de dibujo.
+Desactiva códigos en la ventana fotogramétrica y en la ventana de dibujo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) (uno o más), separados por espacios: `OFFD_TIPO=020101 L 030201 PT` | Si |
+| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) (uno o más), separados por espacios: `OFFD_TIPO=020101 L 030201 PT` | Sí |
 
 ## Observaciones
 

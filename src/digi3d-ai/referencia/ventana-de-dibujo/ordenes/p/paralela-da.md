@@ -11,13 +11,13 @@ No admite parámetros.
 
 ## Observaciones
 
-Al seleccionar la línea, la paralela se genera a la [distancia activa DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), a la derecha del sentido de digitalización de la línea. Con DA negativa sale a la izquierda. A la Z de todos los vértices se le suma la distancia DA2.
+Al seleccionar la línea, la paralela se genera a la [distancia activa DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), a la derecha del sentido de digitalización de la línea. Con DA negativa, la paralela se genera a la izquierda. La orden suma la distancia DA2 a la Z de todos los vértices de la paralela.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

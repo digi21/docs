@@ -7,7 +7,7 @@ Une las líneas visibles que comparten alguno de los códigos indicados.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 … N | Códigos de las líneas a unir, separados por espacios | — | Si |
+| 1 … N | Códigos de las líneas a unir, separados por espacios | — | Sí |
 
 ## Observaciones
 

@@ -1,13 +1,13 @@
 # REPRESENTACION\_DINAMICA
 <!-- id: representacion-dinamica -->
 
-Asigna como representación dinámica la pasada por parámetros.
+Asigna al documento de dibujo la representación dinámica cuyo nombre indiques como parámetro.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Nombre de la representación dinámica | Si |
+| 1 | Nombre de la representación dinámica | Sí |
 
 ## Observaciones
 

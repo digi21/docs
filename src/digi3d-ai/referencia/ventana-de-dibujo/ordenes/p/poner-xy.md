@@ -1,7 +1,7 @@
 # PONER\_XY
 <!-- id: poner-xy -->
 
-Coloca dos textos numéricos con los valores de las coordenadas X,Y del punto que selecciones.
+Coloca dos textos numéricos con los valores de las coordenadas X e Y del punto que selecciones.
 
 ## Parámetros
 
@@ -22,7 +22,7 @@ Los dos textos tienen la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Acotar/Texto con coordenadas X e Y de un punto |
 | Barra de herramientas en la que aparece la orden | Acotaciones |
 | Extensión | DigiNG.OrdenesStandard.dll |

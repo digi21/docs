@@ -1,13 +1,13 @@
 # MENU
 <!-- id: menu -->
 
-Lanza un menú de usuario de Digi3D a partir de su número.
+Muestra un menú de usuario de Digi3D a partir de su número.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Número del menú | Entero empezando por 0. Si no se especifica o no existe un menú con ese número, la orden muestra el último menú mostrado | Si |
+| 1 | Número del menú | Entero a partir de 0. Si no se especifica el número del menú o no existe un menú con el número indicado, la orden muestra el último menú mostrado | Sí |
 
 ## Observaciones
 

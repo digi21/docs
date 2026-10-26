@@ -7,15 +7,15 @@ Rota la cámara en la ventana de dibujo mediante movimientos del ratón.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Sincronizar la rotación con Digi3D | 0 (no) ó 1 (sí) | Si |
+| 1 | Sincronizar la rotación con Digi3D | 0 (no) o 1 (sí) | Sí |
 
 ## Observaciones
 
-Esta orden anula el movimiento del _SpaceMouse_ y lo rehabilita al finalizar.
+Esta orden desactiva el control de movimiento mediante _SpaceMouse_ y vuelve a activar ese control al finalizar la orden.
 
 La orden oculta el cursor y lo mantiene en el centro de la ventana. El desplazamiento horizontal del ratón cambia el giro kappa de la cámara y el desplazamiento vertical cambia el giro omega. Pulsa Esc para terminar la orden.
 
-Con el parámetro 1, la orden envía la posición y la orientación de la cámara a la ventana fotogramétrica si su sensor admite cámara en primera persona.
+Con el valor 1 en el parámetro, la orden envía la posición y la orientación de la cámara a la ventana fotogramétrica si el sensor de la ventana fotogramétrica admite cámara en primera persona.
 
 ## Características de la orden
 

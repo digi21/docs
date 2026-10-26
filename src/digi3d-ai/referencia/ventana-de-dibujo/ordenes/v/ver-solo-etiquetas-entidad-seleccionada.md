@@ -1,7 +1,7 @@
 # VER\_SOLO\_ETIQUETAS\_ENTIDAD\_SELECCIONADA
 <!-- id: ver-solo-etiquetas-entidad-seleccionada -->
 
-Activa únicamente los códigos que pertenezcan a las distintas etiquetas a las que pertenecen los códigos de la entidad seleccionada.
+Activa únicamente los códigos que comparten alguna etiqueta con los códigos de la entidad seleccionada.
 
 ## Parámetros
 

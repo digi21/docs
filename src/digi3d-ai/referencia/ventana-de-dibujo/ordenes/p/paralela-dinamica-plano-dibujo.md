@@ -1,7 +1,7 @@
 # PARALELA\_DINAMICA\_PLANO\_DIBUJO
 <!-- id: paralela-dinamica-plano-dibujo -->
 
-Realiza una paralela dinámica en el plano que tenga la ventana de dibujo.
+Dibuja una paralela dinámica en el plano de la ventana de dibujo.
 
 ![PARALELA_DINAMICA_PLANO_DIBUJO: la paralela se calcula en el plano de la ventana de dibujo; con la ventana en planta conserva la Z, con la ventana en alzado se desplaza en el plano vertical](../../../../../images/orden-paralela-dinamica-plano-dibujo.svg)
 
@@ -13,7 +13,7 @@ No admite parámetros.
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

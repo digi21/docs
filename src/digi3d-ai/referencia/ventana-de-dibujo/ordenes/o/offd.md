@@ -1,27 +1,27 @@
 # OFFD
 <!-- id: offd -->
 
-Desactiva el código \(o códigos\) que no se desean visualizar en la pantalla de dibujo, tanto en DigiNG como en la pantalla de visión estereoscópica.
+Desactiva la visualización del código \(o códigos\) que indiques en la ventana de dibujo y en la ventana fotogramétrica.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código/os que se ocultarán en la pantalla de dibujo | Si. Por defecto al abrir un fichero de dibujo aparecen todos los códigos visibles |
+| 1 | Código o códigos que se ocultarán en la ventana de dibujo | Sí. Por defecto, al abrir un archivo de dibujo aparecen todos los códigos visibles |
 
 ### Ejemplos
 
 `OFFD=*`
 
-Oculta todos códigos en pantalla
+Oculta todos los códigos en pantalla.
 
 `OFFD=02*`
 
-Oculta todos los códigos que comiencen por 02
+Oculta todos los códigos que comiencen por 02.
 
 `OFFD=020123`
 
-Oculta solamente los elementos cuyo código sea 020123
+Oculta solamente los elementos cuyo código sea 020123.
 
 ## Observaciones
 

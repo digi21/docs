@@ -13,7 +13,7 @@ La orden solicita tres datos:
 
 1. Selecciona el texto del modelo actual.
 2. Digitaliza un punto. La nueva rotación del texto es la dirección que va del punto de inserción del texto a este punto.
-3. Digitaliza el punto de destino. El texto se desplaza el vector que va del punto de selección al punto de destino.
+3. Digitaliza el punto de destino. El texto se desplaza según el vector que va del punto de selección al punto de destino.
 
 Pulsa el botón de reset para cancelar la orden.
 
@@ -23,7 +23,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Textos/Rotar un texto |
 | Barra de herramientas en la que aparece la orden | Textos |
 | Extensión | DigiNG.OrdenesStandard.dll |

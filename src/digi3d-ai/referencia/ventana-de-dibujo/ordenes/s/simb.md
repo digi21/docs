@@ -9,7 +9,7 @@ Rellena el interior de una entidad superficial de contorno cerrado con una trama
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 Sin parámetros, la orden pide que selecciones la línea que se va a rellenar. Con códigos, rellena todas las líneas cerradas visibles de esos códigos y termina.
 

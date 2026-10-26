@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Antes ejecutar esta orden es necesario dibujar una línea a modo de límite.
+Dibuja una línea que sirva de límite antes de ejecutar esta orden.
 
 1. Selecciona la línea límite con el pulsador de datos o con el pulsador de tentativo.
 2. La orden toma las entidades visibles, no borradas y dentro de la zona de interés que están dentro del límite, recorta las que lo cruzan y descarta los textos.

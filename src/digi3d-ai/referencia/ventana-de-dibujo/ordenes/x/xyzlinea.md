@@ -1,7 +1,7 @@
 # XYZLINEA
 <!-- id: xyzlinea -->
 
-Añade vértices a la orden que se esté ejecutando.
+Añade vértices a la línea que estás digitalizando.
 
 ## Parámetros.
 
@@ -13,7 +13,7 @@ Es necesario que se esté ejecutando la orden [LINEA](/digi3d-ai/referencia/vent
 
 Los vértices añadidos se extraen de una línea o polígono seleccionado con el pulsador de datos o con el pulsador de tentativo. La orden añade primero el vértice más cercano al punto señalado. Las teclas `+` y `-` avanzan o retroceden un vértice; al retroceder sobre un vértice ya añadido, la orden lo quita. Los vértices añadidos conservan sus coordenadas X, Y y Z.
 
-Al pulsar la barra de espacio se finaliza la orden y se introducen los vértices en la entidad que se estuviera ejecutando previamente. Si finalizas la orden con el botón Data, genera además de un vértice en el punto donde se realizó el Data.
+Pulsa la barra de espacio para finalizar la orden e introducir los vértices en la línea que estabas digitalizando. Si finalizas la orden con el botón Data, la orden añade además un vértice en el punto donde pulses ese botón.
 
 ## Características de la orden
 

@@ -7,7 +7,7 @@ Añade los códigos activos a las entidades que forman el contorno de los recint
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ordenar de forma inversa (0/1). La orden no utiliza este parámetro | Si |
+| 1 | Ordenar de forma inversa (0/1). La orden no utiliza este parámetro | Sí |
 
 ## Observaciones
 
@@ -17,7 +17,7 @@ Al mover el cursor, el recinto que contiene el cursor se ilumina:
 
 * Pulsa el botón de datos dentro de un recinto para seleccionarlo. La selección anterior se descarta.
 * Mantén pulsada la tecla Ctrl al pulsar el botón de datos para añadir el recinto a la selección o quitarlo de ella.
-* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto y que no está ya seleccionado. Si no hay ninguno, el último recinto sale de la selección y la orden emite el sonido de error.
+* Pulsa el botón de tentativo para sustituir el último recinto seleccionado por el siguiente recinto que contiene el punto y que no está ya seleccionado. Si no hay otro recinto que contenga el punto y que no esté ya seleccionado, el último recinto se elimina de la selección y la orden emite el sonido de error.
 * Pulsa el botón de reset para deseleccionar todos los recintos.
 * Pulsa Esc para cancelar la orden.
 
@@ -27,7 +27,7 @@ Para aceptar la selección, pulsa la barra espaciadora. La orden añade los cód
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Inundación/Añadir códigos activos |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesTopologia.dll |

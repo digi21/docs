@@ -7,7 +7,7 @@ Rotula un punto o varios puntos con su Z correspondiente.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 … N | Código o códigos de los puntos a rotular | Identificador del código | Si |
+| 1 … N | Código o códigos de los puntos a rotular | Identificador del código | Sí |
 
 ## Observaciones
 

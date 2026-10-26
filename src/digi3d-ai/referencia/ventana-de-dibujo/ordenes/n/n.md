@@ -23,7 +23,7 @@ Cada línea del archivo contiene los datos de un punto, separados entre sí por 
 | Segundo dato | Coordenada X | Número real | No |
 | Tercer dato | Coordenada Y | Número real | No |
 | Cuarto dato | Coordenada Z | Número real | No |
-| Quinto dato | Descripción del punto: el resto de la línea, espacios incluidos. Si va entre comillas, se quitan las comillas. Si AGREGA guardó el punto seleccionando una entidad con código, el código va delante de la descripción | Texto | Si |
+| Quinto dato | Descripción del punto: el resto de la línea, espacios incluidos. Si la descripción va entre comillas, la orden quita las comillas. Si AGREGA guardó el punto seleccionando una entidad con código, el código va delante de la descripción | Texto | Sí |
 
 ### Cuadro de diálogo
 
@@ -33,14 +33,14 @@ El cuadro _Introduce un punto terreno del archivo de puntos_ muestra los puntos 
 
 La orden busca el punto en este orden:
 
-1. Si has hecho clic en una fila y no has cambiado el campo, el punto de esa fila.
+1. Si has hecho clic en una fila y no has cambiado el campo _Introduce el número de punto terreno_, la orden busca el punto de esa fila.
 2. Un punto cuyo nombre es igual al texto del campo. Distingue mayúsculas y minúsculas.
 3. Si el texto es una sola palabra entre comillas, un punto con ese nombre sin las comillas.
 4. Si el texto es un número entero, el primer punto cuyo nombre es ese número: `5` encuentra el punto `005`.
 
 Si encuentra el punto, la orden desplaza el cursor a sus coordenadas y las envía como un punto a la orden activa. La orden activa recibe solo las coordenadas, no el nombre ni la descripción del punto.
 
-Si no hay ninguna orden activa, N ejecuta antes la orden que corresponde al código activo:
+Si no hay ninguna orden activa, N ejecuta, antes de enviar el punto, la orden que corresponde al código activo:
 
 - las órdenes asociadas al código en la tabla de códigos, si las tiene;
 - [COTA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cota.md), si el código activo coincide con el primer código de [COD\_COTAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cod-cotas.md);
@@ -65,7 +65,7 @@ Si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repi
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -7,15 +7,15 @@ Asigna el campo de visión y las distancias de los planos de recorte de la cáma
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Campo de visión vertical, en grados sexagesimales. Tiene que ser mayor que 0 y menor que 180. Valor por defecto: 45 | Si |
-| 2 | Distancia del plano de recorte cercano, en las unidades de las coordenadas del dibujo. Tiene que ser mayor que 0 y menor que la distancia lejana. Valor por defecto: 0,3 | Si |
-| 3 | Distancia del plano de recorte lejano, en las unidades de las coordenadas del dibujo. Tiene que ser mayor que la distancia cercana. Valor por defecto: 500 | Si |
+| 1 | Campo de visión vertical, en grados sexagesimales. Tiene que ser mayor que 0 y menor que 180. Valor por defecto: 45 | Sí |
+| 2 | Distancia del plano de recorte cercano, en las unidades de las coordenadas del dibujo. Tiene que ser mayor que 0 y menor que la distancia lejana. Valor por defecto: 0,3 | Sí |
+| 3 | Distancia del plano de recorte lejano, en las unidades de las coordenadas del dibujo. Tiene que ser mayor que la distancia cercana. Valor por defecto: 500 | Sí |
 
 Los parámetros usan el punto como separador decimal.
 
 ## Observaciones
 
-La cámara cónica solo dibuja las entidades que están entre el plano de recorte cercano y el lejano, medidos desde la posición de la cámara en la dirección en la que mira.
+La cámara cónica solo dibuja las entidades que están entre el plano de recorte cercano y el lejano. Las distancias de estos planos se miden desde la posición de la cámara en la dirección en la que mira.
 
 Si indicas los tres parámetros, la orden no muestra el cuadro de diálogo: comprueba los valores, los guarda y termina. Si un parámetro no es un número, o los valores no cumplen las condiciones de la tabla de parámetros, la orden muestra un mensaje de error y no guarda nada. La orden ignora los parámetros a partir del cuarto.
 

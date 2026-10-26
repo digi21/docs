@@ -9,13 +9,13 @@ Recorta todos los polígonos que interseccionen con un límite.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Eliminar la línea de límite | Cualquier valor, como por ejemplo un 1 | Si |
+| 1 | Eliminar la línea de límite | Cualquier valor, como por ejemplo un 1 | Sí |
 
 ## Observaciones
 
-Esta orden solicita que se seleccione una línea de límite. Esta línea debe ser una línea cerrada.
+Selecciona una línea cerrada como límite de recorte.
 
-Analiza las intersecciones de la línea seleccionada con los polígonos visibles \(que pueden ser entidades de tipo _polígono_ o entidades de tipo _línea_ si éstas están cerradas\) y elimina de los polígonos la parte que interseccione con el límite seleccionado. Es posible que recorte un polígono en varias partes si el límite de recorte divide completamente un polígono..
+La orden analiza las intersecciones de la línea seleccionada con los polígonos visibles \(que pueden ser entidades de tipo _polígono_ o entidades de tipo _línea_ cerradas\) y elimina de los polígonos la parte que interseccione con el límite seleccionado. La orden puede recortar un polígono en varias partes si el límite de recorte divide completamente el polígono.
 
 ## Características de la orden
 

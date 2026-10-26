@@ -9,11 +9,11 @@ No admite parámetros.
 
 ## Observaciones
 
-Los puntos se pueden seleccionar gráficamente con el ratón, o analíticamente por coordenadas con la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
+Puedes seleccionar los puntos con el ratón o introducir las coordenadas de los puntos con la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
 
-Tras el segundo punto, la orden muestra en un globo la distancia en el plano, los incrementos DX, DY y DZ, la distancia en el espacio, el acimut y el ángulo trigonométrico \(estos dos en grados sexagesimales\). Mientras se mueve el cursor después del primer punto, la orden muestra los mismos valores en la barra de estado.
+Después de seleccionar el primer punto y mientras mueves el cursor, la orden muestra en la barra de estado la distancia en el plano, los incrementos de las coordenadas X, Y y Z (DX, DY y DZ), la distancia en el espacio, el acimut y el ángulo trigonométrico \(el acimut y el ángulo trigonométrico en grados sexagesimales\); al seleccionar el segundo punto, la orden muestra esos valores en un globo.
 
-Si se ejecuta mientras otra orden espera una distancia, la orden le pasa la distancia en el plano.
+Si ejecutas MIDE mientras otra orden espera una distancia, la orden que espera recibe la distancia en el plano.
 
 ## Características de la orden
 

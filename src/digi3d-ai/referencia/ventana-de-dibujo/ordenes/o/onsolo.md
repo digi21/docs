@@ -7,7 +7,7 @@ Activa únicamente los códigos especificados en la ventana de dibujo y en la ve
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 

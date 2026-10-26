@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Cuando se realiza una regeneración, al igual que cuando se redibuja la pantalla mediante una de las órdenes de zoom, se puede parar el proceso pulsando la telca Esc.
+Pulsa la tecla Esc para detener la regeneración de la pantalla o el redibujado de la pantalla que realizan las órdenes de zoom.
 
 ## Características de la orden
 

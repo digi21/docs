@@ -1,13 +1,13 @@
 # ON\_TIPO
 <!-- id: on-tipo -->
 
-Activa códigos en la pantalla ortogonal.
+Activa códigos en la ventana de dibujo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) (uno o más), separados por espacios: `ON_TIPO=020101 L 030201 PT` | Si |
+| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) (uno o más), separados por espacios: `ON_TIPO=020101 L 030201 PT` | Sí |
 
 ## Observaciones
 

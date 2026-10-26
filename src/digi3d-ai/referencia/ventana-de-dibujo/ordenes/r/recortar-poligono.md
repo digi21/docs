@@ -1,7 +1,7 @@
 # RECORTAR\_POLÍGONO
 <!-- id: recortar-poligono -->
 
-Recorta un polígono eliminando la parte de éste que intersecciona con un límite.
+Recorta un polígono eliminando la parte que intersecciona con un límite.
 
 ![RECORTAR_POLIGONO: se selecciona el polígono (1) y un límite cerrado (2); se elimina del polígono la parte que queda dentro del límite](../../../../../images/orden-recortar-poligono.svg)
 
@@ -9,14 +9,14 @@ Recorta un polígono eliminando la parte de éste que intersecciona con un lími
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Eliminar la línea de límite | Cualquier valor, como por ejemplo un 1 | Si |
+| 1 | Eliminar la línea de límite | Cualquier valor, como por ejemplo un 1 | Sí |
 
 ## Observaciones
 
-Esta orden solicita que se seleccione un polígono a recortar. Únicamente permitirá seleccionar entidades de tipo _polígono_ o entidades de tipo _línea_ si ésta está cerrada.  
-A continuación solicita que se seleccione la entidad que actuará de límite. El límite puede ser una línea cerrada o un polígono. Si es un polígono, la orden usa como límite su contorno exterior e ignora sus huecos.
+Selecciona el polígono que quieres recortar. La orden solo permite seleccionar entidades de tipo _polígono_ o entidades de tipo _línea_ cerradas.  
+Selecciona la entidad que actuará como límite. El límite puede ser una línea cerrada o un polígono. Si la entidad que actúa como límite es un polígono, la orden usa como límite el contorno exterior del polígono e ignora los huecos del polígono.
 
-La orden analiza la intersección entre ambas entidades y crea un o unos \(pues es posible que la línea de límite parta el polígono en varias partes\) polígonos.
+La orden analiza la intersección entre el polígono que quieres recortar y la entidad que actúa como límite y crea uno o varios polígonos \(la línea de límite puede dividir el polígono en varias partes\).
 
 ## Características de la orden
 

@@ -1,7 +1,7 @@
 # PARALELA\_DINAMICA\_CON\_EJE
 <!-- id: paralela-dinamica-con-eje -->
 
-Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos paralelas con el código/s pasado/s por parámetros.
+Dibuja una paralela dinámica con los códigos activos y, entre la línea original y la paralela, un eje con los códigos indicados como parámetros.
 
 ![PARALELA_DINAMICA_CON_EJE: en planta, la paralela a la distancia d del cursor y el eje a d/2; en alzado, la paralela y el eje conservan la Z de la línea original](../../../../../images/orden-paralela-dinamica-con-eje.svg)
 
@@ -13,14 +13,14 @@ Dibuja una paralela dinámica con el código/s activo/s y un eje entre las dos p
 
 ## Observaciones
 
-Funciona como la paralela dinámica: seleccionas la línea y la paralela sigue al cursor hasta que pinchas. Además, la orden dibuja un eje a mitad de distancia entre la línea original y la paralela, con los códigos pasados como parámetros. La paralela se genera con el código activo.
+Selecciona la línea y haz clic para fijar la posición de la paralela; hasta que hagas clic, la posición de la paralela cambia al mover el cursor. Además, la orden dibuja un eje a mitad de distancia entre la línea original y la paralela, con los códigos pasados como parámetros. La paralela se genera con el código activo.
 La Z de la paralela y del eje es la de la línea original.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica con eje en XY |
 | Barra de herramientas en la que aparece la orden | Paralelas |
 | Extensión | DigiNG.OrdenesStandard.dll |

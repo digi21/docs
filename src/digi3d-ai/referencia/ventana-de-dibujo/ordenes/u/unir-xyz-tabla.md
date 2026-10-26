@@ -1,7 +1,7 @@
 # UNIR\_XYZ\_TABLA
 <!-- id: unir-xyz-tabla -->
 
-Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión coincide la coordenada Z y sólo llegan dos geometrías al nodo
+Une las líneas cuyos códigos indiques como parámetros si las líneas tienen la misma coordenada Z en el nodo de unión y solo llegan dos geometrías a ese nodo.
 
 ## Parámetros
 

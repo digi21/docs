@@ -7,15 +7,15 @@ Reordena las entidades de un archivo según el orden en la tabla de códigos act
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | `-1` para ordenar en orden inverso al de la tabla de códigos. Cualquier otro valor se ignora | Si |
+| 1 | `-1` para ordenar en orden inverso al de la tabla de códigos. Cualquier otro valor se ignora | Sí |
 
 ## Observaciones
 
 La orden trabaja sobre el archivo de dibujo activo y ordena por el primer código de cada entidad.
 
-En caso de querer invertir el orden de las entidades, la secuencia será `ORDENA_POR_DIGI_TAB=-1`
+Para invertir el orden de las entidades, ejecuta `ORDENA_POR_DIGI_TAB=-1`.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad reescrita, solo se conserva su original y las demás se reordenan.
+La orden trata cada entidad de forma independiente: si Digi3D.AI descarta una entidad reescrita, se conserva la versión original de esa entidad; las entidades cuyas reescrituras se aceptan se reordenan.
 
 ## Características de la orden
 

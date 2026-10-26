@@ -1,13 +1,13 @@
 # PROYECTA\_COD
 <!-- id: proyecta-cod -->
 
-Proyecta entidades sobre el MDT cargado en le momento de ejecutarla.
+Proyecta entidades sobre el modelo digital del terreno (MDT) cargado en el momento de ejecutar la orden.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) de las entidades a proyectar | Si |
+| 1 … N | Pares de código y [tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) de las entidades a proyectar | Sí |
 
 ## Observaciones
 
@@ -27,7 +27,7 @@ El tipo es obligatorio en cada par. En esta orden, `B` no tiene efecto. En los c
 
 `proyecta_cod=020400 p`
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad proyectada, solo se conserva su original y las demás se proyectan.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad proyectada, se conserva sin cambios la entidad original correspondiente; las entidades cuyas proyecciones se aceptan se proyectan.
 
 ## Características de la orden
 

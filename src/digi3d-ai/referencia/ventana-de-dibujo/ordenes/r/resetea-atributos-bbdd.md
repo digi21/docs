@@ -7,7 +7,7 @@ Asigna como atributos activos los atributos de BBDD de la tabla de códigos para
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código. Si no lo indicas, la orden utiliza el código seleccionado | Si |
+| 1 | Código. Si no lo indicas, la orden utiliza el código seleccionado | Sí |
 
 ## Características de la orden
 

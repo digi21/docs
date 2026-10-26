@@ -7,9 +7,9 @@ Sustituye un código por otro en las entidades del archivo de dibujo activo. Los
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Código que se busca | Código. Admite los comodines `*` y `?` | Si |
-| 2 | Código nuevo | Código. Admite los comodines `*` y `?` | Si |
-| 3 | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Cadena de letras: `L` líneas, `P` puntos y complejos puntuales, `C` líneas y puntos, `T` textos, `G` complejos, `H` polígonos, `B` imágenes. `*` incluye todos los tipos, también los que no tienen letra, como los multipuntos | Si |
+| 1 | Código que se busca | Código. Admite los comodines `*` y `?` | Sí |
+| 2 | Código nuevo | Código. Admite los comodines `*` y `?` | Sí |
+| 3 | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) | Cadena de letras: `L` líneas, `P` puntos y complejos puntuales, `C` líneas y puntos, `T` textos, `G` complejos, `H` polígonos, `B` imágenes. `*` incluye todos los tipos, también los que no tienen letra, como los multipuntos | Sí |
 
 Si no indicas los tres parámetros, la orden muestra el cuadro de diálogo _Reemplazar códigos_ y no usa los parámetros que hayas indicado.
 
@@ -35,7 +35,7 @@ Los dos códigos admiten los comodines `*` y `?`. El código nuevo se combina co
 * Un carácter del código nuevo sustituye al del código de la entidad en esa posición.
 * `?` conserva el carácter del código de la entidad.
 * `*` conserva el resto del código de la entidad.
-* Si el código nuevo no termina en `*`, el resultado tiene su longitud: `020124` con `02?` da `020`.
+* Si el código nuevo no termina en `*`, el resultado tiene la longitud del código nuevo: el código `020124` con el código nuevo `02?` da `020`.
 * Si un `?` cae en una posición que el código de la entidad no tiene, el resultado termina ahí: `A` con `A?C` da `A`.
 
 Por ejemplo, `RENOMCOD=02* 0211* *` cambia `020124` por `021124`.
@@ -75,7 +75,7 @@ Los botones solo examinan las entidades que había en el archivo cuando empezó 
 
 [UNDO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/undo.md) deshace de una vez todas las sustituciones de una ejecución de la orden, también las que hayas hecho con varios botones del cuadro.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, solo se conserva su original y las demás se renombran.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, se conserva sin cambios la entidad original correspondiente; se asignan los códigos nuevos a las entidades cuyos cambios se aceptan.
 
 ## Características de la orden
 

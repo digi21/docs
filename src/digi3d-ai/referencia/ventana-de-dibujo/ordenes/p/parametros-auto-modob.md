@@ -7,17 +7,17 @@ Carga el archivo XML con la configuración del modo de búsqueda automático.
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| Archivo | Opcional. Ruta del archivo XML de configuración. Si no lo indicas, la orden muestra un cuadro de diálogo para seleccionarlo. Si el archivo no existe, la orden emite un sonido de error y no carga nada. |
+| Archivo | Opcional. Ruta del archivo XML de configuración. Si no indicas la ruta, la orden muestra un cuadro de diálogo para seleccionar el archivo. Si el archivo no existe, la orden emite un sonido de error y no carga la configuración. |
 
 ## Observaciones
 
-Evita tener que conmutar entre los diferentes modos de búsqueda ya que cambiará automáticamente el modo de búsqueda para un determinado código.
+La configuración permite cambiar automáticamente el modo de búsqueda para un determinado código, sin tener que alternar entre los modos de forma manual.
 
 La configuración solo se aplica cuando la variable [AUTOMODOB](../a/automodob.md) está activada.
 
-Debes crear un archivo \(por ahora manual\) que asigna por cada código, qué modos de búsqueda se aplicarán cuando se tentative con otro determinado código.
+Crea manualmente un archivo de configuración que indique, para cada código, qué modos de búsqueda se aplicarán cuando tentatives con otro código determinado.
 
-Este archivo se podrá crear con el Bloc de Notas, podrá tener un nombre a elección del usuario pero deberá tener como extensión .XML.
+Crea el archivo de configuración con el Bloc de Notas y elige el nombre del archivo, con la extensión .XML.
 
 Cada elemento `subcode` admite estos atributos:
 
@@ -64,7 +64,7 @@ Cada elemento `subcode` admite estos atributos:
 </automodob>
 ```
 
-En este ejemplo se comprueba que si estamos dibujando líneas con códigos 020123 ó 020124, el programa tentativará automáticamente con el modo de búsqueda 12 sobre entidades de código 060140, 040124, 060126, 060142, 060522 y 030225. Además, se tentativará con el modo de búsqueda 6 sobre los códigos 020123, 020124, 020126 y 020127.
+En este ejemplo, si AUTOMODOB está activada y dibujas líneas con códigos 020123 o 020124, el programa tentativará automáticamente con el modo de búsqueda 12 sobre entidades de código 060140, 040124, 060126, 060142, 060522 y 030225, y con el modo de búsqueda 6 sobre entidades de código 020123, 020124, 020126 y 020127.
 
 ### Llamada a la orden:
 

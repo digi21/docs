@@ -1,7 +1,7 @@
 # SIGUIENTE\_SEGMENTO\_VERTICAL\_HACIA\_ABAJO
 <!-- id: siguiente-segmento-vertical-hacia-abajo -->
 
-Configura la orden activa para indicar que el siguiente segmento a insertar será vertical y formado por dos puntos.
+Configura la orden activa para indicar que el siguiente segmento a insertar será vertical y estará formado por dos puntos.
 
 ![SIGUIENTE_SEGMENTO_VERTICAL_HACIA_ABAJO en alzado: al digitalizar 1 se añade primero un vértice con la X e Y del último vértice y la Z de 1, y después 1](../../../../../images/orden-siguiente-segmento-vertical-hacia-abajo.svg)
 

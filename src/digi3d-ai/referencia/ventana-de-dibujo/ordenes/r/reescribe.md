@@ -9,11 +9,11 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden solicita que se seleccione una o varias geometrías (admite selección múltiple) y vuelve a almacenarlas en el archivo de dibujo.&#x20;
+Selecciona una o varias geometrías (la orden admite selección múltiple). La orden vuelve a almacenar las geometrías seleccionadas en el archivo de dibujo.&#x20;
 
-Esto en un principio podría carecer de sentido, pero en caso de que el archivo tenga enlace a base de datos, se volverán a generar los atributos en la base de datos para las nuevas geometrías.
+Si el archivo de dibujo está enlazado a una base de datos, la orden vuelve a generar en la base de datos los atributos de las geometrías que almacena.
 
-Esto tiene utilidad en caso de haber realizado alguna modificación en el esquema de base de datos en la tabla de códigos, como por ejemplo añadir algún campo como por ejemplo la rotación de los puntos y textos. Al volver a almacenar estas geometrías, se rellenarán automáticamente estos campos.
+Si has modificado el esquema de base de datos en la tabla de códigos, por ejemplo al añadir un campo para la rotación de los puntos y textos, la orden rellena automáticamente esos campos al volver a almacenar las geometrías.
 
 Si el control de calidad descarta la geometría reescrita, la geometría original se conserva sin cambios. Con varias geometrías, cada una se trata de forma independiente: solo se conserva el original de cada geometría descartada y las demás se reescriben.
 
@@ -21,7 +21,7 @@ Si el control de calidad descarta la geometría reescrita, la geometría origina
 
 | Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                            |
 | ------------------------------------------------ | ---------------------------------------------------------------------------- |
-| Repite automáticamente                           | Si                                                                           |
+| Repite automáticamente                           | Sí                                                                           |
 | Opción del menú donde aparece la orden           | Editar/Reescribe geometrías seleccionadas                                    |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                   |

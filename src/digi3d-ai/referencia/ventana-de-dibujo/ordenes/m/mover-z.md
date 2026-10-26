@@ -7,22 +7,22 @@ Permite cambiar la cota de una o varias entidades.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1...n | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Si. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
+| 1...n | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Sí. Si no se especifica ningún parámetro, se puede seleccionar cualquier tipo de entidad |
 
 ## Observaciones
 
-Se utiliza para elevar o hundir entidades una distancia constante, respetando las diferencias de cota entre los puntos de la entidad.
+La orden eleva o baja las entidades una distancia constante y conserva las diferencias de cota entre los puntos de cada entidad.
 
 1. Selecciona la entidad. El punto de selección se toma como punto origen. Si seleccionas varias entidades, digitaliza después el punto origen.
 2. Digitaliza el punto destino. La orden suma a todos los vértices la diferencia de Z entre el punto destino y el punto origen; X e Y no cambian.
 
-Si hay cargada una Triangulación de un Modelo Digital del Terreno \(MDT\), se puede modificar con esta orden la cota de los puntos de la triangulación.
+Si hay cargada una triangulación de un modelo digital del terreno \(MDT\), puedes modificar con esta orden la cota de los puntos de la triangulación.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Mover en Z las entidades seleccionadas |
 | Barra de herramientas en la que aparece la orden | Mover |
 | Extensión | DigiNG.OrdenesStandard.dll |

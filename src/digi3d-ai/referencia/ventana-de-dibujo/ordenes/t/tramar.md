@@ -9,7 +9,7 @@ Trama el interior de una entidad superficial de contorno cerrado.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 Sin parámetros, la orden pide que selecciones la línea cerrada que se va a tramar. Con códigos, trama todas las líneas cerradas visibles de esos códigos y termina.
 

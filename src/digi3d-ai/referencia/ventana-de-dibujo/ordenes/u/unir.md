@@ -9,7 +9,7 @@ Une dos entidades lineales que has de seleccionar, generando un único elemento 
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código de las líneas que se unen por ventana | Si |
+| 1 | Código de las líneas que se unen por ventana | Sí |
 
 Con un código como parámetro (`UNIR=<código>`), la orden une por ventana. Es la opción **Unir polilíneas por ventana y código** del menú:
 

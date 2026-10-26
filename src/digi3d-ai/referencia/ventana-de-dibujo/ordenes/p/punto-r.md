@@ -1,13 +1,13 @@
 # PUNTO\_R
 <!-- id: punto-r -->
 
-Inserta un símbolo puntual en el dibujo permitiendo al usuario indicar una rotación.
+Inserta un símbolo puntual en el dibujo con la rotación que indiques.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos del punto. Si no los indicas, el punto se almacena con el código activo | Si |
+| 1 … N | Código o códigos del punto. Si no los indicas, el punto se almacena con el código activo | Sí |
 
 ## Observaciones
 
@@ -17,7 +17,7 @@ La orden pedirá la digitalización del punto de inserción y a continuación un
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Punto rotado |
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |

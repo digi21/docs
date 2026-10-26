@@ -9,15 +9,15 @@ Dibuja líneas paralelas a una o varias entidades, a una distancia determinada.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código. Si se indica, la orden genera, sin pedir nada, la paralela de todas las líneas visibles con ese código a la [distancia activa DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), a la derecha de su sentido de digitalización, y suma DA2 a su Z. | Sí |
+| 1 | Código. Si se indica, la orden genera, sin solicitar más datos, una paralela a cada línea visible con ese código a la [distancia activa DA](/digi3d-ai/referencia/ventana-de-dibujo/variables/d/da.md), a la derecha del sentido de digitalización de cada línea, y suma DA2 a la Z de cada paralela. | Sí |
 
 ## Observaciones
 
 Sin parámetros:
 
 1. Selecciona la línea.
-2. Da la distancia: escríbela en la barra de estado y pulsa Intro, o digitaliza dos puntos (la distancia es la que hay entre ellos en planta).
-3. Pincha en el lado de la línea en el que quieres la paralela.
+2. Indica la distancia: escríbela en la barra de estado y pulsa Intro, o digitaliza dos puntos (la distancia es la separación entre los dos puntos en planta).
+3. Haz clic en el lado de la línea en el que quieres generar la paralela.
 
 La paralela conserva la Z de la línea original. Las paralelas se generan con el código que esté activo en el momento de ejecutar la orden.
 
@@ -26,7 +26,7 @@ La paralela conserva la Z de la línea original. Las paralelas se generan con el
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela clásica (selección/distancia/lado) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -1,7 +1,7 @@
 # PARALELA\_DINÁMICA\_XYZ
 <!-- id: paralela-dinamica-xyz -->
 
-Dibuja una línea paralela a una entidad a la distancia que especifique el operador, teniendo en cuenta la Z de la ventana fotogramétrica.
+Dibuja una línea paralela a una entidad a la distancia que indiques, teniendo en cuenta la Z de la ventana fotogramétrica.
 
 ![PARALELA_DINAMICA_XYZ: en planta, la paralela a la distancia d del cursor; en alzado, la paralela con la Z original más la diferencia de Z entre el punto de selección y el punto digitalizado](../../../../../images/orden-paralela-dinamica-xyz.svg)
 
@@ -11,7 +11,7 @@ Esta orden no admite parámetros, ya que la distancia a la que se va a generar l
 
 ## Observaciones
 
-Las paralelas las va a generar con el código que esté activo en el momento de ejecutar la orden.
+La orden genera las paralelas con el código que esté activo en el momento de ejecutarla.
 
 A la Z de todos los vértices de la paralela se le suma la diferencia de Z entre el punto con el que seleccionaste la línea y el punto digitalizado.
 
@@ -19,7 +19,7 @@ A la Z de todos los vértices de la paralela se le suma la diferencia de Z entre
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica en XYZ |
 | Barra de herramientas en la que aparece la orden | Paralelas |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -7,8 +7,8 @@ Sustituye un código por otro en las entidades que selecciones.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código que se sustituye | Si |
-| 2 | Código nuevo | Si |
+| 1 | Código que se sustituye | Sí |
+| 2 | Código nuevo | Sí |
 
 ## Observaciones
 
@@ -52,7 +52,7 @@ La orden termina después de tratar la primera selección, aunque ninguna entida
 
 Si indicas los parámetros y la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activa, la orden se repite con los mismos códigos. Si los códigos se indican en el cuadro, la orden no se repite.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, solo se conserva su original y las demás se renombran.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad con el código nuevo, se conserva sin cambios la entidad original correspondiente; se asignan los códigos nuevos a las entidades cuyos cambios se aceptan.
 
 ## Características de la orden
 

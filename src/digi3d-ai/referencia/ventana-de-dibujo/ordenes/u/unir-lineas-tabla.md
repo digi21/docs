@@ -1,7 +1,7 @@
 # UNIR\_LINEAS\_TABLA
 <!-- id: unir-lineas-tabla -->
 
-Une las lineas en pantalla siempre que al nodo no lleguen más de dos entidades con el mismo código.(siempre que tengan el mismo código y continuidad geométrica) por código.
+Une por código las líneas en pantalla que tienen el mismo código y continuidad geométrica, siempre que al nodo no lleguen más de dos entidades con ese código.
 
 ![UNIR_LINEAS_TABLA: las líneas se unen en un nodo al que llegan dos líneas y no se unen en un nodo al que llegan tres](../../../../../images/orden-unir-lineas-tabla.svg)
 
@@ -9,7 +9,7 @@ Une las lineas en pantalla siempre que al nodo no lleguen más de dos entidades 
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 Si Digi3D.AI descarta alguna de las líneas nuevas, la orden no une ninguna línea y se conservan todas las originales.
 

@@ -7,7 +7,7 @@ Establece cada cuántos minutos se hace automáticamente una copia de seguridad 
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Tiempo entre copias de seguridad automáticas, en minutos | Número entero | Si |
+| 1 | Tiempo entre copias de seguridad automáticas, en minutos | Número entero | Sí |
 
 ## Observaciones
 

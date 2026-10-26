@@ -1,7 +1,7 @@
 # PUNTO\_2P
 <!-- id: punto-2p -->
 
-Dibuja un punto en el archivo actual con la escala y rotación calculados con el segundo punto insertado.
+Dibuja un punto en el archivo actual con la escala y la rotación calculadas a partir del segundo punto digitalizado.
 
 ![PUNTO_2P: posición del punto (1) y segundo punto (2); la distancia 1-2 es la escala del símbolo y la dirección 1-2 su giro](../../../../../images/orden-punto-2p.svg)
 
@@ -18,7 +18,7 @@ No admite parámetros.
 
 | Tipo de orden | [Orden inmediata](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Punto escalado/rotado con dos puntos |
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |

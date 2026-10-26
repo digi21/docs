@@ -7,11 +7,11 @@ Modifica el trazado geométrico de una entidad en XY.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Cualquier valor. Si se especifica, la entidad modificadora no se descarta tras la modificación y la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) sigue activa con ella | Sí |
+| 1 | Cualquier valor. Si se especifica, la entidad modificadora no se descarta tras la modificación y la orden [LINEA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/l/linea.md) sigue activa con la entidad modificadora | Sí |
 
 ## Observaciones
 
-Tienes que dibujar una entidad que represente el nuevo trazado del elemento que quieres modificar, y sin dar por terminada ésta, ejecuta la orden MOD. El nuevo tramo dibujado debería engancharse en los puntos apropiados de la entidad a modificar.
+Dibuja una entidad que represente el nuevo trazado del elemento que quieres modificar y, sin finalizar la entidad que estás dibujando, ejecuta la orden MOD. Dibuja el nuevo tramo de modo que enlace con los puntos de la entidad que quieres modificar.
 
 Si no se está registrando ninguna línea, la orden muestra el aviso «No se está registrando ninguna línea» y termina. La entidad que se modifica tiene que ser una línea o un polígono.
 
@@ -19,11 +19,11 @@ Digi3D.AI proyecta en perpendicular el primer y el último vértice de la entida
 
 Si los dos extremos de la entidad modificadora quedan sobre la entidad modificada, la coordenada Z de sus vértices se interpola linealmente entre la Z de la entidad modificada en el punto inicial y en el punto final. Si solo se proyecta un extremo, la Z no cambia. Si no deseas modificar las cotas, utiliza la orden [MOD\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z.md).
 
-Independientemente del código utilizado al dibujar la entidad modificadora, éste se cambia por el de la entidad modificada.
+El código de la entidad modificadora se sustituye por el código de la entidad modificada, independientemente del código que hayas utilizado al dibujar la entidad modificadora.
 
 ### Ejemplo:
 
-Esta orden permite "arreglar" curvas de nivel que se corten. Sólo tienes que dibujar el tramo de la curva que quieres modificar. Podrías hacer esto con la orden EDITAR, pero es un proceso más lento, ya que requiere modificar los vértices de interés de uno en uno.
+Esta orden permite corregir curvas de nivel que se cortan. Dibuja el tramo de la curva que quieres modificar. También puedes corregir la curva con la orden EDITAR, que permite modificar los vértices de uno en uno.
 
 ### Modificar una entidad cerrada
 
@@ -39,7 +39,7 @@ Esta orden solicita en el cuadro de diálogo **Localizadas dos soluciones** qué
 * **Aceptar** sustituye la entidad por la solución seleccionada.
 * **Cancelar** deja la entidad sin cambios y emite el sonido de error. Si MOD se ejecutó sin parámetro, la entidad modificadora se descarta y termina la orden LINEA. Con parámetro, LINEA sigue activa con la entidad modificadora.
 
-Si se modifica el contorno de un polígono con huecos, una solución solo es válida si todos los huecos quedan dentro de su contorno. Si solo una de las dos es válida, se aplica sin mostrar el cuadro. Si no lo es ninguna, se muestra el mensaje «No se ha podido realizar la modificación porque el polígono dejaría huecos fuera del contorno exterior.» y la entidad no cambia.
+Si se modifica el contorno de un polígono con huecos, una solución solo es válida si todos los huecos quedan dentro del contorno resultante. Si solo una de las dos soluciones es válida, la orden aplica esa solución sin mostrar el cuadro de diálogo. Si ninguna solución es válida, se muestra el mensaje «No se ha podido realizar la modificación porque el polígono dejaría huecos fuera del contorno exterior.» y la entidad no cambia.
 
 Las órdenes MOD\_Z, MOD\_MÚLTIPLE y MOD\_Z\_MÚLTIPLE muestran el mismo cuadro en este caso.
 

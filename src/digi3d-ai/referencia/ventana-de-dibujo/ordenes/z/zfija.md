@@ -1,13 +1,13 @@
 # ZFIJA
 <!-- id: zfija -->
 
-Asigna a todos los vértices de la geometría/s seleccionada/s una misma coordenada Z, múltiplo de la equidistancia.
+Asigna a todos los vértices de las geometrías seleccionadas una misma coordenada Z, múltiplo de la equidistancia.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 
@@ -23,7 +23,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/ZFija (asignar la coordenada Z de vértices al múltiplo de equidistancia más cercano)/Geometrías seleccionadas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

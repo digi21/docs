@@ -17,7 +17,7 @@ Para cada vértice, la orden calcula la diferencia en valor absoluto entre la Z 
 
 Si no hay ningún MDT cargado, la orden muestra un aviso y termina. Si faltan parámetros, la orden emite un sonido de error y no hace nada.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad proyectada, solo se conserva su original y las demás se proyectan.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad proyectada, se conserva sin cambios la entidad original correspondiente; las entidades cuyas proyecciones se aceptan se proyectan.
 
 ## Características de la orden
 

@@ -7,7 +7,7 @@ Une polilíneas que comparten un código y que corta una línea de selección.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Código de las polilíneas a unir | — | Si |
+| 1 | Código de las polilíneas a unir | — | Sí |
 
 ## Observaciones
 

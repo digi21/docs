@@ -1,7 +1,7 @@
 # REEMPLAZAR\_TEXTO
 <!-- id: reemplazar-texto -->
 
-Reemplazar un texto por otro.
+Reemplaza un texto por otro.
 
 ## Parámetros
 
@@ -13,13 +13,13 @@ Reemplazar un texto por otro.
 
 ## Observaciones
 
-La orden busca en el archivo de dibujo activo los textos visibles, dentro de la zona de interés, que tienen el código indicado y contienen el texto a buscar. En cada uno sustituye todas las apariciones del texto a buscar por el texto de reemplazo. La búsqueda distingue mayúsculas y minúsculas.
+La orden busca en el archivo de dibujo activo los textos visibles, dentro de la zona de interés, que tienen el código indicado y contienen el texto a buscar. En cada texto encontrado, la orden sustituye todas las apariciones del texto a buscar por el texto de reemplazo. La búsqueda distingue mayúsculas y minúsculas.
 
 Si el texto a buscar o el de reemplazo contienen espacios, escríbelos entre comillas dobles.
 
 Si faltan parámetros, la orden muestra un aviso y termina. Si la orden modifica algún texto, muestra cuántos textos ha modificado.
 
-Cada texto se trata de forma independiente: si Digi3D.AI descarta un texto modificado, solo se conserva su original y los demás se modifican.
+Cada texto se trata de forma independiente: si Digi3D.AI descarta un texto modificado, se conserva sin cambios el texto original correspondiente; los textos cuyos cambios se aceptan se modifican.
 
 ## Características de la orden
 

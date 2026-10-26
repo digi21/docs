@@ -1,7 +1,7 @@
 # UNIR\_XYZ
 <!-- id: unir-xyz -->
 
-Une las líneas cuyos códigos se pasen por parámetros si en el nodo de unión coincide la coordenada Z
+Une las líneas cuyos códigos indiques como parámetros si las líneas tienen la misma coordenada Z en el nodo de unión.
 
 ![UNIR_XYZ: de tres líneas que llegan al mismo nodo, se unen las dos que tienen Z 100 en él; la de Z 104 no se une](../../../../../images/orden-unir-xyz.svg)
 

@@ -1,19 +1,19 @@
 # TEXTO\_EDITABLE
 <!-- id: texto-editable -->
 
-Actúa igual que la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md) pero si se le pasan parámetros, no oculta el control de edición.
+Actúa igual que la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md) pero, si indicas parámetros, no oculta el control de edición.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Texto que se propone en la barra de mensajes. Todo lo que sigue al nombre de la orden forma el texto, incluidos los espacios | Texto | Si |
+| 1 | Texto que se propone en la barra de mensajes. Todo lo que sigue al nombre de la orden forma el texto, incluidos los espacios | Texto | Sí |
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

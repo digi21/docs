@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-El último punto de un arco y el primero del siguiente es el mismo.
+En dos arcos consecutivos, el último punto del primer arco coincide con el primer punto del segundo arco.
 
 ## Características de la orden
 

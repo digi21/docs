@@ -1,7 +1,7 @@
 # ZOOMDER
 <!-- id: zoomder -->
 
-Permite una visualización selectiva del dibujo hacia la derecha.
+Desplaza la vista del dibujo hacia la derecha.
 
 ## Parámetros
 

@@ -9,7 +9,7 @@ Raya el interior de una entidad superficial de contorno cerrado.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 Sin parámetros, la orden pide que selecciones la línea cerrada que se va a rayar. Con códigos, raya todas las líneas cerradas visibles de esos códigos y termina.
 
@@ -23,7 +23,7 @@ Solo se añaden los tramos de raya que quedan dentro del contorno. Las rayas se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Rellenar polígono con rayas paralelas |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

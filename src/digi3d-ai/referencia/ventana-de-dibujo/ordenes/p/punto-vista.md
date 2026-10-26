@@ -7,7 +7,7 @@ Sitúa el punto de vista de la ventana ortográfica en una de las vistas predefi
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Número de punto de vista | 1 = Superior<br>2 = Inferior<br>3 = Izquierdo<br>4 = Derecho<br>5 = Frontal<br>6 = Trasero<br>7 = Isométrico SW<br>8 = Isométrico SE<br>9 = Isométrico NE<br>10 = Isométrico NW | Si |
+| 1 | Número de punto de vista | 1 = Superior<br>2 = Inferior<br>3 = Izquierdo<br>4 = Derecho<br>5 = Frontal<br>6 = Trasero<br>7 = Isométrico SW<br>8 = Isométrico SE<br>9 = Isométrico NE<br>10 = Isométrico NW | Sí |
 
 ## Observaciones
 

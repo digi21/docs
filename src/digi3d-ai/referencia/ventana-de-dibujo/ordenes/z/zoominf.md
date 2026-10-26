@@ -1,7 +1,7 @@
 # ZOOMINF
 <!-- id: zoominf -->
 
-Permite una visualización selectiva del dibujo hacia abajo.
+Desplaza la vista del dibujo hacia abajo.
 
 ## Parámetros
 
@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-El porcentaje de solape, se define con la orden [SOLAPE](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/solape.md).
+El porcentaje de solape se define con la orden [SOLAPE](/digi3d-ai/referencia/ventana-de-dibujo/variables/s/solape.md).
 
 ## Características de la orden
 

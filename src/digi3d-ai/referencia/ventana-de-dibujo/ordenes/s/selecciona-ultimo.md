@@ -9,7 +9,7 @@ Sin parámetros, la orden busca la última entidad de cualquier tipo. Cada pará
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1...n | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) a buscar | `l` líneas, `p` puntos y complejos puntuales, `c` líneas, puntos y complejos puntuales, `t` textos, `h` polígonos, `g` complejos, `b` imágenes, `o` objetos OLE, `*` todos los tipos anteriores | Si |
+| 1...n | [Tipo de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) a buscar | `l` líneas, `p` puntos y complejos puntuales, `c` líneas, puntos y complejos puntuales, `t` textos, `h` polígonos, `g` complejos, `b` imágenes, `o` objetos OLE, `*` todos los tipos anteriores | Sí |
 
 ## Observaciones
 

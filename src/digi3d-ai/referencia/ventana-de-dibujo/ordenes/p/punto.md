@@ -7,7 +7,7 @@ Dibuja un punto en el archivo actual.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos del punto. Si no los indicas, el punto se almacena con el código activo | Si |
+| 1 … N | Código o códigos del punto. Si no los indicas, el punto se almacena con el código activo | Sí |
 
 ## Observaciones
 
@@ -17,7 +17,7 @@ Pulsa el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-bot
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Punto con ángulo activo y escala activas |
 | Barra de herramientas en la que aparece la orden | Puntos |
 | Extensión | DigiNG.OrdenesStandard.dll |

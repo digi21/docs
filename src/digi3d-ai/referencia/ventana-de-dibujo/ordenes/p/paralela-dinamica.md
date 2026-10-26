@@ -1,7 +1,7 @@
 # PARALELA\_DINÁMICA
 <!-- id: paralela-dinamica -->
 
-Dibuja una línea paralela a una entidad a la distancia que especifique el operador, nos irá mostrando cómo queda la paralela según movemos el cursor.
+Dibuja una línea paralela a una entidad a la distancia que indiques. La orden muestra la posición de la paralela a medida que mueves el cursor.
 
 ![PARALELA_DINAMICA: en planta, la paralela a la distancia d del cursor a la línea; en alzado, la paralela conserva la Z de la línea original](../../../../../images/orden-paralela-dinamica.svg)
 
@@ -11,7 +11,7 @@ Esta orden no admite parámetros, ya que la distancia a la que se va a generar l
 
 ## Observaciones
 
-Las paralelas las va a generar con el código que esté activo en el momento de ejecutar la orden.
+La orden genera las paralelas con el código que esté activo en el momento de ejecutarla.
 
 La distancia es la que hay entre el cursor y el vértice o el tramo más cercano de la línea original. La paralela conserva la Z de la línea original.
 
@@ -19,7 +19,7 @@ La distancia es la que hay entre el cursor y el vértice o el tramo más cercano
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Más/Paralela dinámica en XY |
 | Barra de herramientas en la que aparece la orden | Paralelas |
 | Extensión | DigiNG.OrdenesStandard.dll |

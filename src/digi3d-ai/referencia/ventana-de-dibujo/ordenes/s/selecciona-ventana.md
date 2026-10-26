@@ -1,7 +1,7 @@
 # SELECCIONA\_VENTANA
 <!-- id: selecciona-ventana -->
 
-Permite digitalizar una nueva ventana y selecciona todas las entidades que solapan con la ventana.
+Permite digitalizar una nueva ventana y selecciona todas las entidades que se solapan con la ventana.
 
 ## Parámetros
 

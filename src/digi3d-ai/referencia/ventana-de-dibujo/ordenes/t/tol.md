@@ -7,7 +7,7 @@ Establece el _factor de tolerancia_ en el proceso de [generalización](/digi3d-a
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Valor de la tolerancia, o `?` para mostrar el valor actual | Número real | Si |
+| 1 | Valor de la tolerancia en metros, o `?` para mostrar el valor actual | Número real | Sí |
 
 Sin parámetros, la orden solicita el valor en la barra de mensajes. También se pueden digitalizar dos puntos; en ese caso la orden asigna la distancia entre ellos.
 
@@ -19,7 +19,7 @@ Asigna como factor de tolerancia el valor 10 m.
 
 `TOL=?`
 
-Muestra el valor actual del factor de tolerancia
+Muestra el valor actual del factor de tolerancia.
 
 ## Observaciones
 
@@ -28,7 +28,7 @@ El valor del _factor de tolerancia_ se introduce en metros. Su valor inicial es 
 Las órdenes [GEN](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen.md) y [GEN\_2D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/gen-2d.md) generalizan con el algoritmo de Douglas-Peucker. Para cada tramo de la entidad, calculan la distancia de cada vértice intermedio a la **recta que une los extremos del tramo**, no al segmento formado por el vértice anterior y el siguiente:
 
 * Si algún vértice está a más de **TOL**, el más alejado se conserva y el tramo se divide en dos por ese vértice.
-* Si ninguno lo está, decide la tolerancia angular [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
+* Si la distancia de cada vértice intermedio a la recta que une los extremos del tramo no supera la tolerancia lineal, se aplica la tolerancia angular [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md).
 
 `GEN` mide la distancia en el espacio, con la Z; `GEN_2D`, solo en el plano XY.
 

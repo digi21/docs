@@ -14,7 +14,7 @@ Por ejemplo, `REDONDEA_Z=020124 020123`.
 
 ## Observaciones
 
-La orden trabaja con las geometrías no borradas que tienen el código de maestra o el de fina. Por cada geometría, añade una línea nueva con los mismos códigos y con la Z de cada vértice redondeada con la función `round` de Python, y borra la geometría original.
+La orden trabaja con las geometrías no borradas que tienen el código de las curvas maestras o el de las curvas finas. Por cada geometría, añade una línea nueva con los mismos códigos y con la Z de cada vértice redondeada con la función `round` de Python, y borra la geometría original.
 
 La geometría nueva es siempre una línea, aunque la original sea de otro tipo. `round` redondea los valores terminados en ,5 al entero par: 2,5 pasa a 2 y 3,5 pasa a 4.
 

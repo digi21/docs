@@ -1,14 +1,14 @@
 # PYTHON
 <!-- id: python -->
 
-Ejecuta un guión de Python, opcionalmente pasándole argumentos.
+Ejecuta un guion de Python, opcionalmente pasándole argumentos.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Ruta del guión de Python | — | No |
-| 2 … N | Argumentos para el guión, uno por parámetro | — | Si |
+| 1 | Ruta del guion de Python | — | No |
+| 2 … N | Argumentos para el guion, uno por parámetro | — | Sí |
 
 ## Características de la orden
 

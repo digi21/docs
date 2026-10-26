@@ -55,7 +55,7 @@ La orden busca en el archivo de dibujo activo:
 
 La orden omite los marcos sin texto y los marcos cuyo texto está vacío. Si no encuentra ningún marco, la orden muestra el aviso _No se ha localizado ninguna línea de marco de hoja._, emite el sonido de error y termina.
 
-Por cada marco con texto, la orden crea en el directorio de salida el archivo `<texto>.<extensión>`: con el texto `H1` y la extensión `bin`, el archivo `H1.bin`. Si el archivo ya existe, la orden lo sobrescribe sin pedir confirmación. Si dos marcos tienen el mismo texto, el archivo del segundo sustituye al del primero.
+Por cada marco con texto, la orden crea en el directorio de salida el archivo `<texto>.<extensión>`: con el texto `H1` y la extensión `bin`, crea el archivo `H1.bin`. Si el archivo ya existe, la orden lo sobrescribe sin pedir confirmación. Si dos marcos tienen el mismo texto, el archivo del segundo sustituye al del primero.
 
 Mientras trabaja, la línea de órdenes muestra _Creando la hoja: \<archivo\>..._ para cada hoja.
 
@@ -112,7 +112,7 @@ Los valores de papel equivalen en el terreno a valor × escala ÷ 1000: con esca
 
 Si pulsas **Aceptar**, el cuadro comprueba los valores. Si el directorio de salida no existe, si la escala o la separación de las cruces no son mayores que 0, o si el formato elegido no tiene parámetros, el cuadro muestra un mensaje y sigue abierto sin guardar nada. Si los valores son válidos, la orden guarda la extensión y las propiedades generales, de las cruces y de las coordenadas en la clave del registro `HKEY_CURRENT_USER\Software\Digi21\Digi3D.NET\DigiNG\Extensiones\DigiNG.OrdenesStandard\RecortarTraza` y crea las hojas. La siguiente vez que ejecutes la orden, el cuadro muestra esos valores. El directorio de salida, el sistema de referencia de coordenadas y los parámetros del formato no se guardan.
 
-La primera vez, la extensión es la segunda de la lista; la escala es la configurada en Digi3D.AI o 1000; la altura de cruces 10; la separación 100; la altura de coordenadas 2; los códigos `HOJAS`; las medias cruces activadas y 2 decimales.
+Al abrir por primera vez el cuadro _Recorta traza_, la extensión es la segunda de la lista; la escala es la configurada en Digi3D.AI o 1000 si no hay ninguna escala configurada; la altura de cruces es 10 mm de papel; la separación entre cruces es 100 mm de papel; la altura de coordenadas es 2 mm de papel; los códigos del marco, de las cruces y de las coordenadas son `HOJAS`; las medias cruces están activadas y el número de decimales de las coordenadas es 2.
 
 Si pulsas **Cancelar**, la orden termina sin crear nada ni guardar los valores.
 
