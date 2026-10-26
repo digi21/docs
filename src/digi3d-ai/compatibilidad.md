@@ -15,18 +15,18 @@ Existen en el mercado tres tipos de tarjetas gráficas:
 
 _Digi3D.AI_ requiere trabajar con tarjetas gráficas compatibles con _OpenGL_ de gama media o profesional.
 
-La característica principal entre una tarjeta gráfica profesional y una de gama media \(a parte de su velocidad de procesamiento y capacidad de memoria\) es que las profesionales usualmente incorporan un _conector estéreo_ en la placa.
+Una diferencia entre una tarjeta gráfica profesional y una de gama media \(aparte de la velocidad de procesamiento y la capacidad de memoria\) es que las profesionales suelen incorporar un _conector estéreo_ en la placa.
 
-Este conector les permite garantizar que el estéreo entre Digi3D.AI y las gafas esté sincronizado, de manera que con estas tarjetas gráficas \(y siempre que se utilice el cable de sincronismo que comunica la tarjeta gráfica con el emisor de las gafas\) nunca se intercambiará la visión de estereoscópica a pseudo estereoscópica.
+El conector estéreo permite sincronizar la visualización estereoscópica de Digi3D.AI con las gafas. Con las tarjetas gráficas que incorporan el conector estéreo \(y siempre que utilices el cable de sincronismo que conecta la tarjeta gráfica con el emisor de las gafas\), la visión no alternará entre estereoscópica y pseudoestereoscópica.
 
 Determinadas funcionalidades de Digi3D.AI requieren que la tarjeta gráfica disponga de al menos 32 núcleos.
 
-* Si vas a utilizar Digi3D.AI únicamente para editar archivos de dibujo \(y no vas a cargar modelos estereoscópicos\) puedes utilizar tarjetas de gama media o alta.
-* Si vas a cargar modelos estereoscópicos la selección de tarjeta gráfica variará en función del monitor 3D a utilizar:
+* Si vas a utilizar Digi3D.AI únicamente para editar archivos de dibujo \(y no vas a cargar modelos estereoscópicos\), puedes utilizar tarjetas de gama media o alta.
+* Si vas a cargar modelos estereoscópicos, la selección de la tarjeta gráfica dependerá del monitor 3D que utilices:
   1. Si vas a utilizar un monitor 3D con polarización activa, como el de VOXEL SPACE, puedes utilizar tarjetas gráficas de gama media o alta.
-  2. Si tu monitor estereoscópico es un _Stereo Mirror_ la tarjeta gráfica no tiene por qué tener _conector estéreo_ en la placa, por lo tanto, no es necesario una tarjeta gráfica de nivel profesional. Puedes utilizar tarjetas gráficas de gama media o alta.
+  2. Si tu monitor estereoscópico es un _Stereo Mirror_, la tarjeta gráfica no necesita un _conector estéreo_ en la placa. Por tanto, no es necesaria una tarjeta gráfica de gama profesional. Puedes utilizar tarjetas gráficas de gama media o alta.
   3. Si vas a utilizar un monitor de estéreo activo, te recomendamos que utilices una tarjeta gráfica profesional con conector estéreo en la placa.
-  4. Si vas a utilizar estereoscopio, puedes utilizar tarjetas gráficas de gama media o alta. 
+  4. Si vas a utilizar un estereoscopio, puedes utilizar tarjetas gráficas de gama media o alta. 
   5. Si vas a utilizar anaglifo, puedes utilizar tarjetas gráficas de gama media o alta.
 
 ## Monitor estereoscópico
@@ -35,7 +35,7 @@ Te recomendamos el monitor 3D con polarización activa del fabricante VOXEL SPAC
 
 El monitor incorpora un filtro que alterna a gran velocidad la polarización circular entre el sentido horario y el antihorario. Con este monitor se utilizan gafas pasivas polarizadas, como las de las salas de cine 3D: no pesan y, a diferencia de las gafas activas, no tienen obturadores que interrumpan la visión.
 
-Lo explicamos con más detalle en la entrada del blog [Monitor 3D con polarización activa](https://www.digi21.net/Blog/monitor-3d-con-polarizacion-activa).
+La entrada del blog [Monitor 3D con polarización activa](https://www.digi21.net/Blog/monitor-3d-con-polarizacion-activa) explica con más detalle el funcionamiento del monitor.
 
 ## Dispositivo de entrada
 

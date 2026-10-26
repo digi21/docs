@@ -5,7 +5,7 @@ Digi3D.AI en ocasiones tiene que transformar coordenadas entre distintos sistema
 
 La base de datos _EPSG_ incluye una lista de las posibles transformaciones matemáticas existentes entre dos sistemas de referencia de coordenadas.
 
-Digi3D.AI consulta a la base de datos _EPSG_ siempre que precisa localizar una transformación entre dos sistemas de referencia de coordenadas. Si encuentra una transformación, utilizará esta transformación para transformar entre ambos sistemas de referencia de coordenadas.
+Digi3D.AI consulta a la base de datos _EPSG_ siempre que precisa localizar una transformación entre dos sistemas de referencia de coordenadas. Si Digi3D.AI encuentra en la base de datos _EPSG_ una transformación entre los dos sistemas de referencia de coordenadas, utiliza la transformación para convertir las coordenadas entre esos sistemas.
 
 Las transformaciones especificadas en la base de datos _EPSG_ son siempre entre
 
@@ -14,19 +14,19 @@ Las transformaciones especificadas en la base de datos _EPSG_ son siempre entre
 3. Sistemas horizontales 3D y sistemas verticales.
 4. Sistemas verticales y sistemas verticales.
 
-No existe ninguna transformación de coordenadas de referencia entre sistemas compuestos (que son la mayoría que vamos a utilizar con Digi3D.AI), pero Digi3D.AI se encarga de localizar correctamente las transformaciones entre sistemas compuestos y horizontales y verticales de forma transparente para el usuario.
+La base de datos _EPSG_ no define transformaciones directas entre sistemas compuestos. Digi3D.AI busca por separado las transformaciones horizontales y verticales necesarias para transformar las coordenadas entre sistemas compuestos y concatena las transformaciones que encuentra.
 
-Si uno de los dos sistemas es compuesto, como por ejemplo _ED50 / UTM Zone 30N + EGM96 height_ se localizará la transformación horizontal por un lado y vertical por otro realizando una serie de operaciones de concatenación que encapsulan ambas transformaciones en una única transformación.
+Si uno de los dos sistemas es compuesto, como _ED50 / UTM Zone 30N + EGM96 height_, Digi3D.AI localizará por separado las transformaciones horizontal y vertical y las concatenará en una única transformación.
 
 No existen transformaciones entre todos los sistemas de referencia de coordenadas. Por ejemplo, no existe ninguna transformación entre los sistemas de coordenadas horizontales _ED50 / UTM Zone 30N y NAD83(NSR2007) / Florida East (ftUS)._
 
-Digi3D.AI es muy restrictivo a la hora de localizar transformaciones entre sistemas de referencia de coordenadas horizontales. Si no se localiza una transformación entre sistemas horizontales se mostrará un mensaje de error al usuario, sin embargo es menos restrictivo a la hora de localizar transformaciones verticales, permitiendo al usuario especificar una transformación genérica en caso de no localizar una transformación vertical.
+Si Digi3D.AI no localiza una transformación entre sistemas de referencia de coordenadas horizontales, el programa muestra un mensaje de error. Si Digi3D.AI no localiza una transformación vertical, el programa permite especificar una transformación genérica.
 
 Cuando Digi3D.AI intenta localizar una transformación entre dos sistemas pueden darse tres posibilidades:
 
 1.  Que se localice una única transformación entre ambos sistemas.
 
-    En este caso, Digi3D.AI utilizará dicha transformación sin preguntarle nada al usuario. La transformación se asignará de forma transparente para el usuario.
+    Si Digi3D.AI localiza una única transformación entre los dos sistemas de referencia de coordenadas, el programa utilizará esa transformación sin solicitar tu intervención.
 2.  Que no se localice ninguna transformación entre ambos sistemas.
 
     Si se está intentando localizar una transformación horizontal, Digi3D.AI muestra un cuadro de tareas con el mensaje de error del motor de transformaciones y los nombres de los dos sistemas, y cancela la operación que necesitaba la transformación. El mismo cuadro aparece si no se localiza una transformación vertical y cancelas el cuadro de diálogo **Selección de transformación vertical**, que se describe más abajo.
@@ -59,4 +59,4 @@ Cuando Digi3D.AI intenta localizar una transformación entre dos sistemas pueden
     Digi3D.AI no incluye ninguna orden ni cuadro de diálogo para deshacer esta elección. Para que vuelva a mostrarse el cuadro de diálogo con ese par de sistemas, abre el Editor del Registro de Windows y borra la clave `<sistema de destino>` de esa ruta.
 3.  Que se localicen varias transformaciones entre ambos sistemas.
 
-    En este caso Digi3D.AI mostrará al usuario el **Cuadro de diálogo Localizadas Múltiples Transformaciones**.
+    Si Digi3D.AI localiza varias transformaciones entre los dos sistemas de referencia de coordenadas, el programa mostrará el **Cuadro de diálogo Localizadas Múltiples Transformaciones**.

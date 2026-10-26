@@ -1,11 +1,11 @@
 # Sistema de Referencia de Coordenadas Desconocido
 <!-- id: sistema-referencia-coordenadas-horizontal-desconocido -->
 
-En ocasiones desconocemos el sistema de coordenadas en el que están las coordenadas de un archivo (archivo de aerotriangulación, archivo de puntos de apoyo, archivo de dibujo,...)
+En ocasiones desconoces el sistema de coordenadas en el que están las coordenadas de un archivo (archivo de aerotriangulación, archivo de puntos de apoyo, archivo de dibujo,...).
 
-Si desconocemos el sistema de coordenadas de un archivo, cuando Digi3D.AI nos pregunte por dicho sistema de coordenadas, tendremos que indicar que éste es deconocido.
+Si desconoces el sistema de referencia de coordenadas de un archivo, indica que el sistema es desconocido cuando Digi3D.AI lo solicite.
 
-Los sistemas desconocidos tienen el inconveniente de que al ser desconocidos **no se puede** realizar ninguna **transformación de coordenadas** de un sistema de coordenadas **conocido a** uno **desconocido ni viceversa,** lo que significa que si tenemos cargado por ejemplo un modelo fotogramétrico en un sistema de coordenadas conocido, por ejemplo _ED 50 / UTM Zone 30N + EGM2008 Rednap península_, e intentamos cargar un archivo de dibujo con sistemas de referencia de coordenadas desconocido, Digi3D.AI mostrará el siguiente cuadro de error indicando que no sabe cómo transformar las coordenadas de la ventana fotogramétrica a la de la ventana de dibujo, porque una de ellas (en este caso la de la ventana de dibujo) es desconocida, obviamente no sabe cómo transformar entre algo conocido a algo desconocido (cuyas unidades podrían ser metros, pies, millas, micras,... no se sabe):
+**No se puede** realizar una **transformación de coordenadas** de un sistema de referencia de coordenadas **conocido a** uno **desconocido ni viceversa.** Por ejemplo, si cargas un modelo fotogramétrico en un sistema conocido, como _ED 50 / UTM Zone 30N + EGM2008 Rednap península_, e intentas cargar un archivo de dibujo con un sistema de referencia de coordenadas desconocido, Digi3D.AI mostrará el siguiente cuadro de error. El programa no puede transformar las coordenadas de la ventana fotogramétrica al sistema de referencia de coordenadas de la ventana de dibujo porque el sistema de referencia de coordenadas de la ventana de dibujo es desconocido. Ni siquiera se conocen las unidades del sistema desconocido (podrían ser metros, pies, millas, micras,...):
 
 ![Cuadro de diálogo indicando que no se ha podido localizar una transformación](../../../../../images/no-se-ha-podido-localizar-una-transformacion-fotogrametrica-conocido-dibujo-desconocido.png)
 

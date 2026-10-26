@@ -1,7 +1,7 @@
 # Sistemas de Referencia de Coordenadas
 <!-- id: sistemas-referencia-coordenadas -->
 
-Una de las principales novedades de Digi3D.AI, es que este sabe en todo momento el sistema de referencia en el que están las coordenadas de cada uno de los archivos cargados \(modelo fotogramétrico, ventanas de dibujo, ...\) y es capaz de realizar transformaciones de coordenadas entre distintos sistemas de referencia de coordenadas.
+Digi3D.AI asocia un sistema de referencia de coordenadas a cada archivo cargado \(modelo fotogramétrico, ventanas de dibujo, ...\) y permite realizar transformaciones de coordenadas entre distintos sistemas de referencia de coordenadas.
 
-En este tema se va a explicar el concepto de sistema de referencia de coordenadas, se indicarán los sistemas de referencia de coordenadas que acepta Digi3D.AI así como cómo y dónde se realizan transformaciones de coordenadas dentro del programa, cómo asignar sistemas de referencia de coordenadas a cada uno de los módulos que forman Digi3D.AI...
+Este tema explica el concepto de sistema de referencia de coordenadas y qué sistemas acepta Digi3D.AI. También describe cómo y dónde se transforman las coordenadas dentro del programa y cómo asignar un sistema de referencia de coordenadas a cada módulo de Digi3D.AI.
 

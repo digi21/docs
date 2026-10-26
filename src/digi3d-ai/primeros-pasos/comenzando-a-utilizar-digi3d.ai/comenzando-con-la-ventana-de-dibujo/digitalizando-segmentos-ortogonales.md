@@ -1,21 +1,21 @@
 # Digitalizando segmentos ortogonales al último segmento de la polilínea que estamos digitalizando
 <!-- id: digitalizando-segmentos-ortogonales -->
 
-Para digitalizar segmentos ortogonales al último segmento de la polilínea que estás digitalizando, sigue los siguientes pasos:
+Para digitalizar segmentos ortogonales al último segmento de la polilínea que estás digitalizando, sigue estos pasos:
 
-1. Visualiza la [Barra de herramientas Restricciones de polilínea](/digi3d-ai/referencia/barras-de-herramientas/restricciones-de-polilinea.md), si no la tienes activa, aprende a activarla pulsando [aquí](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/barras-herramientas-basicas.md).
+1. Visualiza la [Barra de herramientas Restricciones de polilínea](/digi3d-ai/referencia/barras-de-herramientas/restricciones-de-polilinea.md). Si no está activa, aprende a activarla pulsando [aquí](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/barras-herramientas-basicas.md).
 2. Comienza a digitalizar una polilínea con varios vértices, haciendo **clic** con el botón de dato sobre la **ventana de dibujo**.
 3. Pulsa sobre el primer botón de la [Barra de herramientas Restricciones de polilínea](/digi3d-ai/referencia/barras-de-herramientas/restricciones-de-polilinea.md), que es el que corresponde a la orden [ORTO](/digi3d-ai/referencia/ventana-de-dibujo/variables/o/orto.md).
-4. Sigue digitalizando la polilínea del principio, continuando haciendo **clic** con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) sobre la ventana de dibujo, y comprueba que ahora todos los nuevos segmentos van a ser ortogonales al último que se digitalices.
+4. Continúa digitalizando la polilínea haciendo **clic** con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) sobre la ventana de dibujo, y comprueba que ahora cada nuevo segmento es ortogonal al segmento anterior.
 5. Pulsa de nuevo sobre el primer botón de la [Barra de herramientas Restricciones de polilínea](/digi3d-ai/referencia/barras-de-herramientas/restricciones-de-polilinea.md), para **desactivar** la opción de ortogonalidad.
-6. Sigue digitalizando la polilínea comprobando que los nuevos segmentos que generes ya no son ortogonales.
-7. Puedes **activar o desactivar** la opción de ortogonalidad a lo largo de la polilínea tantas veces como necesites.
-8. Pulsa con el [botón de cancelar](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón), sobre la ventana de dibujo para **finalizar** la polilínea.
+6. Sigue digitalizando la polilínea y comprueba que los nuevos segmentos ya no están restringidos a ser ortogonales.
+7. **Activa o desactiva** la opción de ortogonalidad a lo largo de la polilínea tantas veces como necesites.
+8. Pulsa con el [botón de cancelar](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) sobre la ventana de dibujo para **finalizar** la polilínea.
 
-Puedes comenzar a digitalizar la polilínea con la opción [ORTO](/digi3d-ai/referencia/ventana-de-dibujo/variables/o/orto.md) activa, para ello sigue los siguientes pasos:
+Puedes comenzar a digitalizar la polilínea con la opción [ORTO](/digi3d-ai/referencia/ventana-de-dibujo/variables/o/orto.md) activa. Para ello, sigue estos pasos:
 
 1. Pulsa sobre el primer botón de la [Barra de herramientas Restricciones de polilínea](/digi3d-ai/referencia/barras-de-herramientas/restricciones-de-polilinea.md), que es el correspondiente a la orden [ORTO](/digi3d-ai/referencia/ventana-de-dibujo/variables/o/orto.md).
-2. Digitaliza el primer segmento de la polilínea, haciendo clic sobre la ventana de dibujo con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón. Este segmento será el que defina cual es la orientación de ortogonalidad.
+2. Digitaliza el primer segmento de la polilínea, haciendo clic sobre la ventana de dibujo con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón. Este segmento será el que defina la orientación de los segmentos ortogonales.
 3. Dibuja tantos segmentos como quieras para ver cómo funciona la orden activando y desactivando la opción de ortogonalidad de la [Barra de herramientas Restricciones de polilínea](/digi3d-ai/referencia/barras-de-herramientas/restricciones-de-polilinea.md).
 4. Haz clic con el [botón de cancelar](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón sobre la ventana de dibujo para finalizar la digitalización de la polilínea.
 

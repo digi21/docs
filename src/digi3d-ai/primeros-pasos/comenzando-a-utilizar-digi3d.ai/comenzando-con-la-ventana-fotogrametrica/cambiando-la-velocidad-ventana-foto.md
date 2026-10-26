@@ -19,9 +19,9 @@ Sin esta opción, el número de vueltas de manivela necesarias para recorrer la 
 
 ### Mediante el teclado
 
-Hemos asignado una serie de órdenes a pulsaciones de teclas que te van a permitir cambiar la velocidad de movimiento de una forma más rápida.
+Las siguientes teclas tienen asignadas órdenes que permiten cambiar la velocidad de movimiento sin abrir el menú:
 
-1. Pulsa la tecla **+** del teclado numérico, para incrementar la velocidad de movimiento en el plano XY.
-2. Pulsa la tecla **-** del teclado numérico, para decrementar la velocidad de movimiento en el plano XY.
-3. Pulsa la tecla **\*** del teclado numérico, para incrementar la velocidad de movimiento en el eje Z.
-4. Pulsa la tecla **/** del teclado numérico, para decrementar la velocidad de movimiento en el eje Z.
+1. Pulsa la tecla **+** del teclado numérico para incrementar la velocidad de movimiento en el plano XY.
+2. Pulsa la tecla **-** del teclado numérico para reducir la velocidad de movimiento en el plano XY.
+3. Pulsa la tecla **\*** del teclado numérico para incrementar la velocidad de movimiento en el eje Z.
+4. Pulsa la tecla **/** del teclado numérico para reducir la velocidad de movimiento en el eje Z.

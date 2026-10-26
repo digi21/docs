@@ -1,18 +1,18 @@
 # Preparando los archivos .f para un programa de cálculo
 <!-- id: preparando-archivos-f-programa-calculo -->
 
-Los programas de cálculo de aerotriangulaciones requieren **un único archivo** con las fotocoordenadas los puntos medidos en cada una de las fotos del proyecto.
+Los programas de cálculo de aerotriangulaciones requieren **un único archivo** con las fotocoordenadas de los puntos medidos en cada una de las fotos del proyecto.
 
-Digi3D.AI no ha creado un único archivo con las fotocoordenadas de todos los puntos medidos, sino que ha creado tantos archivos _.f_ como fotos formen parte del proyecto, de modo que tendremos que almacenar en un único archivo la información proporcionada por todos esos archivos _.f_ independientes.
+Digi3D.AI no ha creado un único archivo con las fotocoordenadas de todos los puntos medidos, sino que ha creado tantos archivos _.f_ como fotos formen parte del proyecto, de modo que debes almacenar en un único archivo la información proporcionada por todos esos archivos _.f_ independientes.
 
 Es necesario que finalices el paso [Aerotriangulando el segundo modelo](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/aerotriangulando-segundo-modelo.md) para poder continuar con este tutorial.
 
-1. Abre una consola de _DOS_ en el directorio **Aerotriangulación**. Para ello existe un truco muy sencillo:
+1. Abre una consola de _DOS_ en el directorio **Aerotriangulación**. Para ello, sigue estos pasos:
    * Localiza la carpeta _Aerotriangulación_ en un explorador de archivos.
    * **Pulsa** la tecla **Mayúsculas** de tu teclado.
    * Sin soltar la tecla _Mayúsculas_, pulsa con el **botón secundario** del ratón \(botón derecho\) sobre el nombre de la carpeta _Aerotriangulación_. Aparecerá un menú contextual.
    * Selecciona la opción **Abrir ventana de comandos aquí**. Se abrirá una ventana de _DOS_ ya ubicada en ese directorio.
-2. Ejecuta el comando: copy \*.f bronchales.f Con esto se creará un archivo llamado _Bronchales.f_ con el contenido de todos los archivos .f que existían en la carpeta Aerotriangulación.
+2. Ejecuta la orden «copy \*.f bronchales.f». Con esta orden se creará un archivo llamado _Bronchales.f_ con el contenido de todos los archivos .f que existían en la carpeta Aerotriangulación.
 3. Cierra la consola de _DOS_.
 
 El archivo _Bronchales.f_ será el que tienes que utilizar en tu programa de cálculo de aerotriangulaciones junto con el archivo de puntos de apoyo Puntos de apoyo de _Bronchales para aerotriangular.xyz_.

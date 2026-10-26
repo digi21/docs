@@ -3,7 +3,7 @@
 
 La orientación interna es la que le permite a Digi3D.AI relacionar las coordenadas fiduciales que aparecen en el certificado de calibración de la cámara con las coordenadas píxel de dichas marcas fiduciales en la imagen.
 
-Ya no es habitual el tener que realizar orientaciones internas, pues la inmensa mayoría de imágenes que vas a utilizar son digitales y Digi3D.AI calcula de forma automática las orientaciones internas si la cámara es digital, pero las imágenes del ejemplo **Bronchales** son analógicas, de modo que Digi3D.AI requiere que realicemos una orientación interna pues no sabe cómo se ubicó el negativo en el escáner a la hora de escanear las imágenes.
+Digi3D.AI calcula automáticamente las orientaciones internas si la cámara es digital. Las imágenes del ejemplo **Bronchales** son analógicas, por lo que debes realizar una orientación interna: Digi3D.AI no dispone de información sobre la posición del negativo en el escáner durante el escaneo.
 
 Para saber si el modelo cargado tiene la orientación interna realizada, abre el menú **Ventana fotogramétrica**. Las opciones **Orientación interna (izquierda)** y **Orientación interna (derecha)** aparecen marcadas si la imagen correspondiente tiene una orientación interna medida.
 

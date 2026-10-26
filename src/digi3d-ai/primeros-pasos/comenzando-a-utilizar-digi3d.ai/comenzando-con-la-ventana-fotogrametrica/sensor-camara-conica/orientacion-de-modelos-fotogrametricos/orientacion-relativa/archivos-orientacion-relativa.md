@@ -3,7 +3,7 @@
 
 Al aceptar la orientación relativa, se crea un archivo con el nombre _\(foto izquierda\) - \(foto derecha\).rel.xml_ en el directorio del proyecto del modelo fotogramétrico.
 
-Este archivo almacena el resultado de la orientación relativa así como las medidas realizadas por el usuario. Si eliminas un archivo de orientación relativa, al volver a cargar el modelo fotogramétrico se indicará \(mediante el botón correspondiente en la barra de herramientas de la ventana fotogramétrica, al no permanecer este pulsado\) que no se ha podido cargar dicha orientación relativa.
+El archivo de orientación relativa almacena el resultado de la orientación relativa así como las medidas realizadas por el usuario. Si eliminas un archivo de orientación relativa, al volver a cargar el modelo fotogramétrico el botón correspondiente de la barra de herramientas de la ventana fotogramétrica aparecerá sin pulsar \(lo que indica que no se ha podido cargar la orientación relativa\).
 
 Es necesario que finalices los pasos de [Midiendo la orientación relativa manualmente](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-relativa/midiendo-orientacion-relativa-manualmente.md) antes de ejecutar los siguientes pasos para comprobar los archivos que se han generado:
 

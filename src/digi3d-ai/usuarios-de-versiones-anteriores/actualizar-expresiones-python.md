@@ -1,7 +1,7 @@
 # Actualizar las expresiones Python de selecciones y órdenes
 <!-- id: actualizar-expresiones-python -->
 
-Las expresiones Python escritas para versiones anteriores de Digi3D (basadas en IronPython) no funcionan en Digi3D.AI. Afecta a las expresiones de:
+Las expresiones Python escritas para versiones anteriores de Digi3D (basadas en IronPython) no funcionan en Digi3D.AI. La incompatibilidad de las expresiones basadas en IronPython con Digi3D.AI afecta a las expresiones de:
 
 * Las [selecciones](../referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) de la tabla de códigos.
 * Las órdenes [ON\_EXPRESION\_PYTHON](../referencia/ventana-de-dibujo/ordenes/o/on_expresion_python.md), [OFF\_EXPRESION\_PYTHON](../referencia/ventana-de-dibujo/ordenes/o/off_expresion_python.md), [ON\_SOLO\_EXPRESION\_PYTHON](../referencia/ventana-de-dibujo/ordenes/o/on_solo_expresion_python.md) y [SELECCIONA\_EXPRESION\_PYTHON](../referencia/ventana-de-dibujo/ordenes/s/selecciona_expresion_python.md).
@@ -65,7 +65,7 @@ Expresión para Digi3D.AI:
 len(g) == 2 and g.codes[0].attributes.get('hazpol') == 'SI'
 ```
 
-> `attributes.get('Plantas') > 3` produce un error si la geometría no tiene el campo `Plantas`, porque `None` no se puede comparar con un número. Si hay geometrías sin ese campo, comprueba antes que existe: `g.codes[0].attributes.get('Plantas') is not None and g.codes[0].attributes.get('Plantas') > 3`.
+> `attributes.get('Plantas') > 3` produce un error si la geometría no tiene el campo `Plantas`, porque `None` no se puede comparar con un número. Si hay geometrías sin ese campo, comprueba que el campo existe antes de comparar su valor con un número: `g.codes[0].attributes.get('Plantas') is not None and g.codes[0].attributes.get('Plantas') > 3`.
 
 ## Equivalencias que no existen
 
@@ -86,7 +86,7 @@ En las órdenes que actúan sobre los archivos de dibujo cargados, el mensaje ap
 
 ## Dónde cambiar las expresiones
 
-* Las selecciones se editan en la pestaña [Selecciones](../referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) del Editor de tablas de códigos. Haz antes una copia de seguridad del archivo de la tabla de códigos si vas a seguir usándola con versiones anteriores.
+* Edita las selecciones en la pestaña [Selecciones](../referencia/editor-de-tablas-de-codigos/pestanas/selecciones.md) del Editor de tablas de códigos. Haz una copia de seguridad del archivo de la tabla de códigos antes de editar las selecciones si vas a seguir usando la tabla con versiones anteriores.
 * Las expresiones de las órdenes se escriben tras el signo `=` o en el cuadro de diálogo **Expresión Python**. Si las guardaste en un menú, un archivo de órdenes o un botón, actualiza el texto de la orden.
 
 ## Véase también

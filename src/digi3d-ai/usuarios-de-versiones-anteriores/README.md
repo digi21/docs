@@ -1,7 +1,7 @@
 # Información para usuarios de Digi3D.NET
 <!-- id: usuarios-de-versiones-anteriores -->
 
-Cambios que afectan a quien empieza a usar Digi3D.AI después de trabajar con Digi3D.NET, y cómo adaptar sus archivos.
+Esta sección describe los cambios que te afectan al empezar a usar Digi3D.AI después de trabajar con Digi3D.NET y explica cómo adaptar tus archivos.
 
 - [Actualizar los controles de calidad Python de una tabla de códigos](actualizar-guiones-python.md): resuelve el error `No module named 'digi3d.relations'` de las tablas de códigos creadas para Digi3D.NET.
 - [Actualizar las expresiones Python de selecciones y órdenes](actualizar-expresiones-python.md): traduce las expresiones escritas para Digi3D.NET (`digi3DGeometry`, `Points.Count`, `Atr`) a la sintaxis con `g`.

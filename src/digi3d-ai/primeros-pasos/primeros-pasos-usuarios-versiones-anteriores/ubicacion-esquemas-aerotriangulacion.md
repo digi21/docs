@@ -5,7 +5,7 @@ El instalador de Digi3D.AI crea una copia del archivo de esquemas de aerotriangu
 
 Si vas a realizar medidas de aerotriangulación tendrás que indicar la ruta en la opción Esquemas en la sección Orientación relativa del cuadro de diálogo de Configuración.
 
-A continuación tienes la ruta donde copia el instalador de Digi3D.AI el archivo que se copiaba en la versión 2007 en función del sistema operativo:
+La siguiente tabla muestra, según el sistema operativo, dónde copia el instalador de Digi3D.AI el archivo de esquemas que se instalaba con la versión 2007:
 
 | Sistema operativo | Ubicación |
 | :--- | :--- |
@@ -17,8 +17,8 @@ Sigue los siguientes pasos para configurar el archivo de esquemas de Von Grouber
 2. Cierra el cuadro de diálogo **Nuevo proyecto**.
 3. Ejecuta la opción del menú **Herramientas/Configuración...**.
 4. Localiza la sección **Medida de aerotriangulación**.
-5. En el campo **Esquemas** pega la ruta del archivo \(copiándola de la tabla anterior en función del sistema operativo\) o localiza la ruta de tu achivo de esquemas personalizado.
+5. Pega en el campo **Esquemas** la ruta del archivo de esquemas de aerotriangulación que corresponda a tu sistema operativo en la tabla o localiza la ruta de tu archivo de esquemas personalizado.
 6. Acepta el cuadro de diálogo **Configuración**.
 
-Vea también
+Consulta también
 

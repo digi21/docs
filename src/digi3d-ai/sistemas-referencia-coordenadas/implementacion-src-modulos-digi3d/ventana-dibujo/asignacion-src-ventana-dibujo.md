@@ -1,11 +1,11 @@
 # Asignación del Sistema de Referencia de Coordenadas de la Ventana de Dibujo
 <!-- id: asignacion-src-ventana-dibujo -->
 
-Digi3D.AI permite que especifiquemos el sistema de coordenadas de referencia de la ventana de dibujo mediante la opción **Sistema de coordenadas de la ventana de dibujo** de la sección **Sistema de coordenadas de referencia** de la pestaña Pestaña archivo de dibujo del [Cuadro de dialogo nuevo proyecto](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/README.md).
+Digi3D.AI permite que especifiques el sistema de referencia de coordenadas de la ventana de dibujo mediante la opción **Sistema de coordenadas de la ventana de dibujo** de la sección **Sistema de coordenadas de referencia** de la pestaña Archivo de dibujo del [Cuadro de dialogo nuevo proyecto](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/README.md).
 
-Al pulsar el botón de los tres puntos se muestra el **Cuadro de diálogo Sistema de Referencia de Coordenadas**. Si seleccionamos la opción **Heredar el sistema de coordenadas de referencia del primer archivo de dibujo cargado** se asignará como sistema de coordenadas de referencia de la ventana de dibujo el mismo que el que tenga asociado el primer archivo de dibujo que carguemos (cuya apertura ha desencadenado la creación de la ventana de dibujo).
+Al pulsar el botón de los tres puntos se muestra el **Cuadro de diálogo Sistema de Referencia de Coordenadas**. Si seleccionas la opción **Heredar el sistema de coordenadas de referencia del primer archivo de dibujo cargado** se asignará como sistema de coordenadas de referencia de la ventana de dibujo el mismo que el que tenga asociado el primer archivo de dibujo que cargues (cuya apertura ha desencadenado la creación de la ventana de dibujo).
 
-Una vez creada la ventana de dibujo **\*\*no** se puede cambiar\*\* su sistema de coordenadas de referencia asociado. Si queremos visualizar las geometrías en otro sistema de coordenadas de referencia distinto, tendremos que cerrar la ventana de dibujo y abrir una nueva en otro sistrma de coordenadas de referencia.
+Una vez creada la ventana de dibujo **\*\*no** se puede cambiar\*\* el sistema de coordenadas de referencia de la ventana de dibujo. Si quieres visualizar las geometrías en otro sistema de referencia de coordenadas, debes cerrar la ventana de dibujo y abrir una nueva en otro sistema de referencia de coordenadas.
 
 ## Vídeo
 

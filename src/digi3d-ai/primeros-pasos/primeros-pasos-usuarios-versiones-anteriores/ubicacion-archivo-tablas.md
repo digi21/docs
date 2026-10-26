@@ -9,5 +9,5 @@ Esta ubicación no es válida en Windows 10 y Windows 11, pues los usuarios no t
 | :--- | :--- |
 | Windows 10/11 | C:\ProgramData\Digi3D.NET\ |
 
-Es posible que no puedas visualizar estas carpetas con el explorador de archivos, pero están ahí, así que cuando quieras seleccionar algún archivo de estas carpetas, teclea la ruta en el explorador de archivos y verás \(tras pulsar Intro\) que éste te muestra el contenido de estas carpetas.
+Es posible que la carpeta que contiene el archivo de tablas de códigos no aparezca en el explorador de archivos. Para seleccionar un archivo de la carpeta, teclea la ruta de la carpeta en el explorador de archivos \(y pulsa Intro\) para ver el contenido de la carpeta.
 

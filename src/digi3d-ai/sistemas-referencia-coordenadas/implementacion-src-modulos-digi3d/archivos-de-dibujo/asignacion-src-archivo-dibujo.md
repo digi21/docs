@@ -1,17 +1,17 @@
 # Asignación del Sistema de Referencia de Coordenadas a un archivo de dibujo
 <!-- id: asignacion-src-archivo-dibujo -->
 
-Hasta ahora, si cargábamos un proyecto que no proporcionaba Sistema de Referencia de Coordenadas, Digi3D.AI asignaba de forma automática a los modelos cargados un Sistema Local (desconocido).
+Antes de incorporar el cuadro de diálogo de asignación del sistema de referencia de coordenadas, si cargabas un proyecto que no proporcionaba Sistema de Referencia de Coordenadas (SRC), Digi3D.AI asignaba de forma automática a los modelos cargados un Sistema Local (desconocido).
 
-Si conoces el sistema en el que están las orientaciones del proyecto y quieres asignarlo (para por ejemplo conectarnos con Google Earth), tenías que crear un archivo .prj con el mismo nombre que el archivo de aerotriangulación y especificar el Sistema de Referencia de Coordenadas adecuado.
+Si conocías el sistema en el que estaban las orientaciones del proyecto y querías asignarlo (por ejemplo, para conectarte con Google Earth), tenías que crear un archivo .prj con el mismo nombre que el archivo de aerotriangulación y especificar el Sistema de Referencia de Coordenadas adecuado.
 
-Debido a que este proceso no era muy intuitivo, lo hemos mejorado.\
-Ahora al cargar un modelo, si se detecta que éste no tiene asociado un SRC el programa va a mostrar el siguiente cuadro de diálogo:
+Digi3D.AI permite asignar el SRC sin crear manualmente el archivo .prj.\
+Al cargar un modelo sin un sistema de referencia de coordenadas asociado, el programa muestra el siguiente cuadro de diálogo:
 
 ![Cuadro de diálogo solicitando asignar un sistema de referencia de coordenadas a un modelo](../../../../images/modelo-sin-sistema-de-referencia.png)
 
-Este cuadro de diálogo es completamente auto-explicativo y realizará las acciones por nosotros.
+El cuadro de diálogo permite elegir las opciones con las que Digi3D.AI asigna el sistema de referencia de coordenadas al modelo.
 
 ## Vídeo
 
-Puedes ver esta funcionalidad en acción en el suiente enlace [https://youtu.be/2IB5l2D2nNc](https://youtu.be/2IB5l2D2nNc)
+El vídeo muestra cómo asignar el sistema de referencia de coordenadas al cargar un modelo: [https://youtu.be/2IB5l2D2nNc](https://youtu.be/2IB5l2D2nNc)

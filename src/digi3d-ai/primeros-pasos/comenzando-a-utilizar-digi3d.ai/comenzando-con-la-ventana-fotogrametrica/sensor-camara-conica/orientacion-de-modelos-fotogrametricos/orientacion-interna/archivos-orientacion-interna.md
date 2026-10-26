@@ -1,9 +1,9 @@
 # Archivos de orientación interna
 <!-- id: archivos-orientacion-interna -->
 
-Al aceptar la orientación interna se crea un archivo con el mismo nombre que la imagen que acabamos de orientar pero con extensión _.in.xml_ en el directorio de proyecto del modelo fotogramétrico.
+Al aceptar la orientación interna, Digi3D.AI crea un archivo con el mismo nombre que la imagen que acabas de orientar pero con extensión _.in.xml_ en el directorio de proyecto del modelo fotogramétrico.
 
-Este archivo almacena el resultado de la orientación interna así como las medidas realizadas por el usuario. Si eliminas un archivo de orientación interna, al volver a cargar el modelo fotogramétrico se indicará \(mediante el botón correspondiente en la barra de herramientas de la ventana fotogramétrica, al no permanecer este pulsado\) que no se ha podido cargar dicha orientación interna.
+El archivo de orientación interna almacena el resultado de la orientación interna así como las medidas realizadas por el usuario. Si eliminas un archivo de orientación interna, al volver a cargar el modelo fotogramétrico el botón correspondiente de la barra de herramientas de la ventana fotogramétrica aparecerá sin pulsar \(lo que indica que no se ha podido cargar la orientación interna\).
 
 Es necesario que finalices los pasos de [Orientación interna de la cámara derecha](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-interna/orientacion-interna-camara-derecha.md) antes de ejecutar los siguientes pasos para comprobar los archivos que se han generado:
 

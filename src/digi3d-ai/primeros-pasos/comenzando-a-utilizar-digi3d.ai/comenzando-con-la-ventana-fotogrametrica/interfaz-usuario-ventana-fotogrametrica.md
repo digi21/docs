@@ -1,7 +1,7 @@
 # Interfaz de usuario de la ventana fotogramétrica
 <!-- id: interfaz-usuario-ventana-fotogrametrica -->
 
-El interfaz de usuario de Digi3D.AI consiste en varias áreas detalladas a continuación:
+La interfaz de usuario de Digi3D.AI consiste en varias áreas detalladas a continuación:
 
 ![Interfaz de usuario de la ventana fotogramétrica](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/interfaz-usuario-ventana-fotogrametrica.md)
 

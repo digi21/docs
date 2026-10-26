@@ -8,18 +8,18 @@ Existen varias formas de ordenar a la ventana fotogramétrica que se desplace a 
 El cuadro de diálogo tiene un único campo con las tres coordenadas separadas por espacios, en el orden X, Y y Z. Al abrirse, el campo muestra las coordenadas terreno en las que está la ventana fotogramétrica, con tres decimales.
 
 1. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Ir a coordenadas...**
-2. Aparecerá el cuadro de diálogo **Ir a coordenadas terreno**.
+2. Comprueba que aparece el cuadro de diálogo **Ir a coordenadas terreno**.
 3. Sustituye el texto del campo por `281854.98 4821292.06 75.36`.
 4. Pulsa el botón **Aceptar**.
-5. La ventana fotogramétrica se desplazará al extremo de un muro.
+5. Comprueba que la ventana fotogramétrica se desplaza al extremo de un muro.
 
-Vamos a desplazar la ventana 10 unidades en la coordenada **X**.
+Sigue estos pasos para desplazar la ventana fotogramétrica 10 metros en la coordenada **X**:
 
 1. Abre el menú **Ventana fotogramétrica** y selecciona la opción **Ir a coordenadas...**
-2. El campo muestra las coordenadas actuales: `281854.980 4821292.060 75.360`.
+2. Comprueba que el campo muestra las coordenadas actuales: `281854.980 4821292.060 75.360`.
 3. Cambia el primer valor por **281864.98**.
 4. Pulsa el botón **Aceptar**.
-5. La ventana se ha desplazado 10 metros en X desde el extremo del muro.
+5. Comprueba que la ventana fotogramétrica se ha desplazado 10 metros en X desde el extremo del muro.
 
 ## Qué admite el campo
 
@@ -27,7 +27,7 @@ Vamos a desplazar la ventana 10 unidades en la coordenada **X**.
 * Si escribes más de tres valores, se usan los tres primeros.
 * Si alguno de los dos primeros valores no es un número, o el tercero existe y no es un número, al pulsar **Aceptar** suena un aviso, el cuadro de diálogo sigue abierto y el texto queda seleccionado para corregirlo.
 
-El cuadro de diálogo se puede ensanchar y guarda su tamaño y su posición para la próxima vez.
+Puedes ensanchar el cuadro de diálogo **Ir a coordenadas terreno**. Digi3D.AI conserva el tamaño y la posición del cuadro para la próxima vez que abras **Ir a coordenadas terreno**.
 
 ## Vídeo
 

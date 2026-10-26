@@ -1,16 +1,16 @@
 # Esquema de aerotriangulación
 <!-- id: esquema-aerotriangulacion -->
 
-Al medir una aerotriangulación somos libres de nombrar los puntos como queramos y de ubicalos en la posición que nos interese, pero para incrementar la productividad, podemos pre-configurar el programa para indicarle cuántos puntos, con qué nombres y dónde queremos que estén ubicados aproximadamente queremos que aporte cada foto de nuestro proyecto.
+Al medir una aerotriangulación, puedes dar a los puntos los nombres que quieras y ubicarlos donde te interese. Antes de medir los puntos, puedes configurar cuántos puntos debe aportar cada foto del proyecto, con qué nombres y en qué posiciones aproximadas.
 
-Esto lo podemos hacer mediante un esquema de aerotriangulación, en el que básicamente se le indica al programa:
+Un esquema de aerotriangulación permite indicar al programa los siguientes datos:
 
-1. Cada foto quiero que aporte tres puntos.
-2. El primer punto lo quiero medir aproximadamente en el centro de la foto y quiero que su nombre sea la concatenación del nombre de la foto + 0.
-3. El segundopunto lo quiero medir aproximadamente en el centro de la foto y quiero que su nombre sea la concatenación del nombre de la foto + 1.
-4. El tercer punto lo quiero medir aproximadamente en el centro de la foto y quiero que su nombre sea la concatenación del nombre de la foto + 2.
+1. Cada foto debe aportar tres puntos.
+2. El primer punto se mide aproximadamente en el centro de la foto y el nombre del primer punto es la concatenación del nombre de la foto + 0.
+3. El segundo punto se mide aproximadamente en el centro de la foto y el nombre del segundo punto es la concatenación del nombre de la foto + 1.
+4. El tercer punto se mide aproximadamente en el centro de la foto y el nombre del tercer punto es la concatenación del nombre de la foto + 2.
 
-De esta manera, si indicamos que éste es el esquema que queremos seguir a la hora de realizar la medida, el programa nos llevará automáticamente a los puntos que aporte cada foto y tan solo tendremos que medir el punto por esa zona, donde más nos interese. De esta manera no existirá la posibilidad de equivocarnos con el nombre del punto ni con su ubicación aproximada.
+De esta manera, si seleccionas este esquema para realizar la medida, el programa desplazará automáticamente la ventana fotogramétrica a los puntos que aporte cada foto y solo tendrás que medir cada punto en la zona indicada, donde más te interese. De esta manera no existirá la posibilidad de equivocarte con el nombre del punto ni con su ubicación aproximada.
 
 Los esquemas de aerotriangulación se extraen del archivo indicado en **Herramientas/Configuración...** en la sección **Medida de aerotriangulación** en el valor **Esquemas.**
 
@@ -18,9 +18,9 @@ El instalador de Digi3D.AI crea un archivo de esquemas en la carpeta _%ProgramDa
 
 Este archivo proporciona los siguientes esquemas de aerotriangulación:
 
-| Nombre del esquema | Número de puntos por foto | Válido para | Descripión |
+| Nombre del esquema | Número de puntos por foto | Válido para | Descripción |
 | :--- | :--- | :--- | :--- |
-| Sin esquema | 0 | Cualquier foto | Este esquema no proporciona ningún punto, por lo tanto es responsabilidad del usuario añadir puntos en la posición y con el nombre que le interese. |
+| Sin esquema | 0 | Cualquier foto | Este esquema no proporciona ningún punto; debes añadir los puntos en la posición y con el nombre que te interese. |
 | Varias pasadas con porcentajes | 3 | Cualquier foto | Esquema genérico que se adapta al tamaño de las fotos y que mide tres puntos por cada foto. |
 | Una pasada con porcentajes | 5 | Cualquier foto | Esquema genérico que se adapta al tamaño de las fotos y que mide cinco puntos por cada foto. |
 

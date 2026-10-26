@@ -1,18 +1,18 @@
 # Modificando una geometría existente
 <!-- id: modificando-geometria-existente -->
 
-Aprende a **modificar una geometría existente** siguiendo los siguientes pasos:
+Para **modificar una geometría existente**, sigue estos pasos:
 
-1. **Dibuja** una geometría similar a la del vídeo, para ello haz **clic** con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón sobre la ventana de dibujo.
-2. **Visualiza** la [Barra de herramientas Modifica](/digi3d-ai/referencia/barras-de-herramientas/modifica.md), si no está activa, aprende a activarla pulsando [aquí](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/barras-herramientas-basicas.md). Los botones de esta barra de herramientas están deshabilitados, únicamente se habilitan cuando digitalizas una polilínea.
+1. **Dibuja** una geometría similar a la del vídeo. Para ello, haz **clic** con el [botón de dato](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) del ratón sobre la ventana de dibujo.
+2. **Visualiza** la [Barra de herramientas Modifica](/digi3d-ai/referencia/barras-de-herramientas/modifica.md). Si no está activa, aprende a activarla pulsando [aquí](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-de-dibujo/barras-herramientas-basicas.md). Los botones de esta barra de herramientas están deshabilitados; únicamente se habilitan cuando digitalizas una polilínea.
 3. **Tentativa** con el [botón de tentativo](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#números-de-los-botones-del-ratón) sobre la polilínea que has dibujado al principio en el tramo que quieras modificar, y **dibuja** la nueva geometría que debería tener la línea anterior.
-4. Sin finalizar la línea **pulsa** sobre el botón [Modifica una polilínea existente](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md) de la [Barra de herramientas Modifica](/digi3d-ai/referencia/barras-de-herramientas/modifica.md).
+4. **Pulsa**, sin finalizar la línea, sobre el botón [Modifica una polilínea existente](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md) de la [Barra de herramientas Modifica](/digi3d-ai/referencia/barras-de-herramientas/modifica.md).
 5. En la esquina inferior izquierda **Digi3D.AI** informa de que se está ejecutando la orden [MOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md) del ratón. La polilínea se modifica automáticamente.
 
 Diferencia entre el botón [Modifica una polilínea existente](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md) y [Modifica en X, Y, Z una polilínea existente](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z.md):
 
 * **Modifica una polilínea existente**: No respeta la Z de los vértices que he introducido, interpolando la Z de esos vértices con las Z que tienen los puntos inicial y final de los vértices dónde se va a modificar la polilínea. Orden [MOD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod.md).
-* **Modifica en X, Y, Z una polilínea existente**: Se mantiene la Z de los vértices nuevo que se han digitalizado. Orden [MOD\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z.md).
+* **Modifica en X, Y, Z una polilínea existente**: Se mantiene la Z de los vértices nuevos que se han digitalizado. Orden [MOD\_Z](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/m/mod-z.md).
 
 ## Vídeo
 

@@ -1,16 +1,16 @@
 # Interfaz de usuario de Digi3D.AI
 <!-- id: interfaz-usuario -->
 
-El interfaz de usuario de Digi3D.AI consiste en varias áreas detalladas a continuación:
+La interfaz de usuario de Digi3D.AI consiste en varias áreas detalladas a continuación:
 
 ![Interfaz de usuario de Digi3D.AI](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/interfaz-usuario.md)
 
-| 1 | Barra de menús.         | Contiene los menús con opciones para ejecutar comandos en Digi3D.AI. Este menú variará en función de si tenemos o no abiertos archivos de dibujo o ventanas fotogramétricas y en función de la ventana que tenga el foco en un determinado momento.                        |
+| 1 | Barra de menús.         | Contiene los menús con opciones para ejecutar órdenes en Digi3D.AI. La barra de menús variará en función de si tienes abiertos archivos de dibujo o ventanas fotogramétricas y en función de la ventana que tenga el foco en un determinado momento.                        |
 | - | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2 | Barras de herramientas. | Contienen botones para ejecutar rápidamente comandos en Digi3D. Los botones permanecerán pulsados mientras se esté ejecutando un determinado comando o cuando esté activa la opción representada por el botón.                                                              |
-| 3 | Ventana fotogramétrica. | Muestra un modelo fotogramétrico. Esta ventana mostrará una o dos imágenes en función del tipo de modelo cargado (monoscópico o estereoscópico). En caso de que el modelo sea estereoscópico, mostrará las imágenes con de la forma configurada en la opción Estereoscopía. |
-| 4 | Ventana de dibujo       | Es el área donde vamos a dibujar/editar entidades.                                                                                                                                                                                                                          |
-| 5 | Paneles                 | Digi3D.AI dispone de múltiples paneles que nos van a permitir interactuar con distintas partes del programa.                                                                                                                                                               |
+| 2 | Barras de herramientas. | Contienen botones para ejecutar órdenes rápidamente en Digi3D. Los botones permanecerán pulsados mientras se esté ejecutando una orden o cuando esté activa la opción representada por el botón.                                                              |
+| 3 | Ventana fotogramétrica. | Muestra un modelo fotogramétrico. Esta ventana mostrará una o dos imágenes en función del tipo de modelo cargado (monoscópico o estereoscópico). En caso de que el modelo sea estereoscópico, mostrará las imágenes de la forma configurada en la opción Estereoscopía. |
+| 4 | Ventana de dibujo       | Es el área donde puedes dibujar y editar entidades.                                                                                                                                                                                                                          |
+| 5 | Paneles                 | Digi3D.AI dispone de múltiples paneles que te permiten interactuar con distintas partes del programa.                                                                                                                                                               |
 | 6 | Barra de mensajes       | Las distintas órdenes de Digi3D.AI se comunican con el usuario mediante la barra de mensajes.                                                                                                                                                                              |
 
 ## Vídeo
