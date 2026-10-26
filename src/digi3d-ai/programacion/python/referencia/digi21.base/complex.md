@@ -26,9 +26,9 @@ Complex(codes=())
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `add(geometry)` | — | Añade una geometría. La propiedad pasa al complejo. Lanza `ValueError` si el complejo es de solo lectura, si `geometry` es `None` o si `geometry` es el propio complejo o uno de los complejos que lo contienen. |
+| `add(geometry)` | — | Añade una geometría. El complejo asume la propiedad de la geometría. Lanza `ValueError` si el complejo es de solo lectura, si `geometry` es `None` o si `geometry` es el propio complejo o uno de los complejos que lo contienen. |
 | `insert(position, geometry)` | — | Inserta una geometría en la posición indicada, de 0 a `len(geometries)`; con `len(geometries)` la añade al final. Lanza `ValueError` en los mismos casos que `add` e `IndexError` si `position` está fuera de ese rango. |
-| `remove(geometry)` | `bool` |Elimina la geometría indicada<br>devuelve `True` si se eliminó.|
+| `remove(geometry)` | `bool` |Elimina la geometría indicada.<br>Devuelve `True` si se eliminó.|
 | `clear()` | — | Elimina todas las geometrías. |
 | `explode()` | `list` | Devuelve clones independientes de las geometrías que lo componen. |
 
@@ -53,8 +53,8 @@ for hija in bloque:
     print(type(hija).__name__)
 ```
 
-> **Propiedad de la memoria:** al añadir una geometría con `add`/`insert`, la propiedad
-> pasa al complejo. `explode()` devuelve clones independientes.
+> **Propiedad de la memoria:** al añadir una geometría con `add`/`insert`, el complejo
+> asume la propiedad de esa geometría. `explode()` devuelve clones independientes.
 
 ## Véase también
 

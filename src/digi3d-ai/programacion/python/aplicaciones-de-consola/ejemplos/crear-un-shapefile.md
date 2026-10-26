@@ -5,11 +5,11 @@ El módulo `digi21.io.shp` escribe shapefiles de ESRI con el mismo exportador qu
 [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md). A diferencia de los
 formatos de [Crear un archivo de dibujo](crear-un-archivo-de-dibujo.md), un shapefile tiene **una
 capa por tipo de geometría**, así que el exportador escribe **una capa por código** en la carpeta
-de destino y necesita que la tabla de códigos diga cómo se llama cada capa.
+de destino y necesita que la tabla de códigos indique el nombre de cada capa.
 
 ## La tabla de códigos
 
-Cada código que se escribe necesita en la tabla de códigos:
+Cada código que se escribe necesita los siguientes elementos en la tabla de códigos:
 
 - una **tabla de base de datos** asignada al código (atributo `table`) que exista en el esquema de
   base de datos (`databaseSchema`), con una clave primaria numérica;
@@ -68,7 +68,7 @@ Rechazada: The format cannot store a line with the code 010123.
 ['shp_010123.cpg', 'shp_010123.dbf', 'shp_010123.prj', 'shp_010123.shp', 'shp_010123.shx', 'shp_020402.cpg', 'shp_020402.dbf', 'shp_020402.prj', 'shp_020402.shp', 'shp_020402.shx', 'shp_040645.cpg', 'shp_040645.dbf', 'shp_040645.prj', 'shp_040645.shp', 'shp_040645.shx']
 ```
 
-- Las capas se llaman como dice `nameSHP`; el nombre `parcelas.shp` de la ruta no se usa, solo su
+- Las capas reciben el nombre indicado en `nameSHP`; de la ruta `parcelas.shp` solo se usa la
   carpeta.
 - La línea con el código `010123` se rechaza porque la capa de ese código es de puntos.
 - `precision=3` redondea las coordenadas a 3 decimales. Con el valor por defecto, 0, no se
@@ -99,13 +99,13 @@ Polygon ['020402'] 4 vértices
 Line ['040645'] 3 vértices
 ```
 
-El orden es el de las capas, no el de escritura. Los polígonos se leen con los vértices en el orden
+Las geometrías se leen en el orden de las capas, no en el orden en que se escribieron. Los vértices de los polígonos del ejemplo se leen, respecto al orden de escritura, en el orden
 contrario: el formato guarda el anillo exterior en el sentido de las agujas del reloj.
 
 ## Códigos sin configurar
 
-Una geometría cuyo código no cumple los requisitos se rechaza, y `warnings` dice por qué. Sin tabla
-de códigos, ningún código está en ella:
+Una geometría cuyo código no cumple los requisitos se rechaza, y `warnings` indica el motivo. Si no se proporciona una tabla
+de códigos, se rechazan todos los códigos:
 
 ```python
 import digi21.io.shp as shp

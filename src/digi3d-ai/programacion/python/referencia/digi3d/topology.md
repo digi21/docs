@@ -3,7 +3,7 @@
 
 Módulo: `digi3d`
 
-Tipos para trabajar con las **topologías** cargadas en memoria. Se obtienen de
+Estos tipos permiten trabajar con las **topologías** cargadas en memoria. Las topologías se obtienen de
 [`DrawingView.topologies`](drawing-view.md#propiedades-de-información), un diccionario
 `{nombre: [Topology]}`.
 

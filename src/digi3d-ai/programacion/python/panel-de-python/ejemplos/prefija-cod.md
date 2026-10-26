@@ -3,7 +3,7 @@
 
 Archivo: `prefija_cod.py` · **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)) con un parámetro.
 
-La orden antepone un prefijo a los códigos de cada geometría que el usuario selecciona con un dato o con
+La orden antepone un prefijo a los códigos de cada geometría que seleccionas con un dato o con
 una orden de selección múltiple. Está
 pensada para los proyectos de actualización cartográfica en los que cada elemento está en uno de estos
 estados:
@@ -24,7 +24,7 @@ geometría.
    macroinstrucciones. La página
    [Órdenes en Python del repositorio ComandosDigi3DPython](../../ordenes-python.md) explica en qué
    carpetas busca Digi3D.AI el archivo y cómo se modifica una orden instalada.
-2. Asigna la orden a dos teclas o a dos botones de una barra de herramientas, una con cada prefijo:
+2. Asigna la orden a dos teclas o a dos botones de una barra de herramientas, con un prefijo distinto en cada tecla o botón:
 
    ```
    PREFIJA_COD=ACT_
@@ -36,7 +36,7 @@ geometría.
 4. Para cambiar muchas geometrías de una vez, ejecuta con la orden activa
    [SELECCIONA\_VENTANA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ventana.md),
    [SELECCIONA\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-cod.md) o cualquier otra
-   orden de selección: la orden antepone el prefijo a todas las geometrías seleccionadas del archivo de dibujo.
+   orden de selección: la orden de prefijado antepone el prefijo a todas las geometrías seleccionadas del archivo de dibujo.
 
 La orden no cambia los códigos que ya empiezan por `ACT_`, por `BAI_` o por el prefijo indicado. Si todos
 los códigos de una geometría tienen ya un prefijo, esa geometría no cambia; si no cambia ninguna, suena el
@@ -184,7 +184,7 @@ else:
   [FeatureCode](../../referencia/digi21.base/featurecode.md) con la tabla y el identificador del código
   original, como en el ejemplo [Renombrar un código manteniendo sus atributos](renomcod-manteniendo-atributos.md).
 - **Deshacer**: `self.new_transaction()` cierra la transacción de deshacer del dato o de la selección
-  múltiple y abre otra para la siguiente.
+  múltiple y abre otra para el siguiente dato o selección.
 - **La variable `orden`**: Digi3D.AI ejecuta los guiones en el espacio de nombres de `__main__`, que se
   conserva entre ejecuciones. El guion guarda la orden en una variable global para que el objeto de Python
   siga existiendo mientras la orden está activa, igual que el ejemplo

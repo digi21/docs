@@ -19,7 +19,7 @@ Los controles leen uno de estos dos diccionarios:
 | Control | Parámetros | Da error si |
 |---|---|---|
 | `debe_tener_asignado_un_atributo` | `nombre_atributo`, `valor_esperado`, `mensaje` | `geometry.attributes` no contiene `nombre_atributo`. El control no usa `valor_esperado` ni `mensaje`. |
-| `debe_tener_asignado_un_atributo_con_valor_igual_a` | `nombre_atributo`, `valor_esperado`, `mensaje` | `geometry.attributes` no contiene `nombre_atributo`, o su valor es distinto de `valor_esperado`. |
+| `debe_tener_asignado_un_atributo_con_valor_igual_a` | `nombre_atributo`, `valor_esperado`, `mensaje` | `geometry.attributes` no contiene `nombre_atributo`, o el valor de ese atributo es distinto de `valor_esperado`. |
 
 Si el atributo no existe, los dos controles devuelven un [GeometryError](../referencia/digi3d/exceptions.md)
 con el texto «Se esperaba que esta geometría tuviera un atributo con nombre … pero no lo tiene». Si el valor

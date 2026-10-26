@@ -3,7 +3,7 @@
 
 Módulo: [crskit](README.md)
 
-Descripción de lo que exporta el paquete `crskit` versión 0.6.0. El paquete incluye las anotaciones de
+La interfaz de programación de aplicaciones (API) del paquete `crskit` versión 0.6.0 incluye las anotaciones de
 tipos (archivo `_crskit.pyi` y marca `py.typed`), así que los editores completan la API y `mypy` la
 comprueba.
 
@@ -13,7 +13,7 @@ import crskit
 
 ## Orden de los ejes
 
-Las coordenadas van en el orden de ejes que declara el SRC. En los SRC geográficos de EPSG, como
+Las coordenadas se expresan en el orden de ejes que declara el sistema de referencia de coordenadas (SRC). En los SRC geográficos del catálogo de parámetros geodésicos EPSG, como
 EPSG:4258 (ETRS89) y EPSG:4326 (WGS 84), la primera coordenada es la **latitud** y la segunda la
 **longitud**. La propiedad [`Crs.axes`](#crs) devuelve el orden:
 
@@ -67,12 +67,12 @@ ed50_a_etrs89 = crskit.transformation(crskit.crs_from_epsg(4230), crskit.crs_fro
                                       select_operation=peninsula)
 ```
 
-Lanza `GridFileNotFoundError` si la operación necesita una rejilla que no está en la carpeta de
+`transformation` lanza `GridFileNotFoundError` si la operación necesita una rejilla que no está en la carpeta de
 rejillas, y `TransformationNotFoundError` si no hay ninguna operación entre los dos SRC.
 
 ## Crs
 
-SRC. Se crea con `crs_from_epsg`, `crs_from_wkt` o `compound_crs`.
+La clase `Crs` representa un SRC. Las instancias de `Crs` se crean con `crs_from_epsg`, `crs_from_wkt` o `compound_crs`.
 
 | Miembro | Tipo | Descripción |
 | :--- | :--- | :--- |
@@ -90,7 +90,7 @@ SRC. Se crea con `crs_from_epsg`, `crs_from_wkt` o `compound_crs`.
 
 ## Transformation
 
-Transformación entre dos SRC. Se crea con [`transformation`](#transformation).
+La clase `Transformation` representa una transformación entre dos SRC. Las instancias de `Transformation` se crean con [`transformation`](#transformation).
 
 | Miembro | Tipo | Descripción |
 | :--- | :--- | :--- |
@@ -109,7 +109,7 @@ Transformación entre dos SRC. Se crea con [`transformation`](#transformation).
 
 ## CoordinateOperation
 
-Operación de EPSG entre dos SRC. `transformation` pasa una lista de operaciones a la función
+La clase `CoordinateOperation` representa una operación de EPSG entre dos SRC. `transformation` pasa una lista de operaciones a la función
 `select_operation`.
 
 | Propiedad | Tipo | Descripción |

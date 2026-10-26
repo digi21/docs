@@ -1,7 +1,7 @@
 # Aplicaciones de consola
 <!-- id: aplicaciones-de-consola -->
 
-Programas de Python **normales**, que se ejecutan en un intérprete de Python **fuera de
+Las aplicaciones de consola son programas de Python que se ejecutan en un intérprete de Python **fuera de
 Digi3D.AI** (el que **incluye el propio programa** o uno tuyo de 3.12). Sirven para **leer,
 procesar y crear archivos de dibujo** (convertir de un formato a otro, extraer información,
 generar informes, hacer controles por lotes…) sin necesidad de abrir el programa.
@@ -9,7 +9,7 @@ generar informes, hacer controles por lotes…) sin necesidad de abrir el progra
 > Digi3D.AI **trae su propio intérprete de Python 3.12** en la carpeta de instalación, con
 > `digi21` ya disponible. Consulta [Intérprete incluido, pip y entornos virtuales](pip-y-entornos-virtuales.md).
 
-Usan dos paquetes:
+Las aplicaciones de consola usan dos paquetes:
 
 | Paquete | Para qué sirve |
 |---|---|
@@ -56,9 +56,9 @@ if linea.crosses(otra_linea):
 
 ## Propiedad de la memoria
 
-> Una geometría **creada desde Python** la libera Python. En cuanto se **añade a un contenedor**
-> (como hueco de un `Polygon` o hijo de un `Complex`), la propiedad pasa al contenedor, que será
-> quien la libere. Las geometrías **devueltas al iterar** un archivo son propiedad del archivo:
+> Python libera las geometrías **creadas desde Python** que no pertenecen a un contenedor. En cuanto una geometría se **añade a un contenedor**
+> (como hueco de un `Polygon` o hijo de un `Complex`), el contenedor asume la propiedad de esa geometría y se encarga
+> de liberar la geometría. Las geometrías **devueltas al iterar** un archivo son propiedad del archivo:
 > trátalas como de solo lectura durante el recorrido.
 
 ## Enlaces

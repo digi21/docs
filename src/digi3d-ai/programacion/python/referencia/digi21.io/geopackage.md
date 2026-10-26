@@ -13,7 +13,7 @@ import digi21.io.geopackage as geopackage
 > [!IMPORTANT]
 > Importa `digi21.io.geopackage` **antes** de cargar la tabla de códigos con `DigiTab.load`. La
 > primera tabla que se carga en el proceso solo recibe los elementos `iogpkg:transform` si el módulo
-> ya está importado. Si se carga antes, todos los códigos se rechazan por no tener `iogpkg:transform`.
+> ya está importado. Si cargas la tabla de códigos antes de importar `digi21.io.geopackage`, todos los códigos se rechazan por no tener `iogpkg:transform`.
 
 ## open
 
@@ -72,8 +72,8 @@ Qué hace el exportador:
 
 - Rechaza las geometrías de un código sin `iogpkg:transform` o que no está en la tabla: `add`
   devuelve `False` y `warnings` lo explica una vez por código.
-- Una geometría de otro tipo que su tabla (un texto en una tabla `POLYGON`, una línea en una tabla
-  `POINT`) lanza
+- Al añadir una geometría cuyo tipo no coincide con el de la tabla (un texto en una tabla `POLYGON`, una línea en una tabla
+  `POINT`), se lanza
   `RuntimeError` con el mensaje del exportador.
 - El índice espacial necesita un `sqlite3.dll` con el módulo `rtree`. Si el `sqlite3.dll` que carga el
   proceso no lo tiene, `add` lanza `RuntimeError` con el mensaje `no such module: rtree`.

@@ -4,7 +4,7 @@
 Archivo: `transforma_complejo_a_punto.py` · orden `TRANSFORMA_COMPLEJO_A_PUNTO` con uno o varios
 parámetros: los códigos de las geometrías a transformar.
 
-Convierte las geometrías de tipo **Complejo** cuyo primer código es uno de los indicados en geometrías de
+La orden convierte las geometrías no borradas de tipo **Complejo** cuyo primer código es uno de los indicados en geometrías de
 tipo **Punto**, situadas en el centro de la caja envolvente del complejo. Se desarrolló para corregir
 archivos DGN que se habían importado con los puntos como complejos.
 
@@ -58,10 +58,10 @@ else:
 - `digi3d.current_view()` devuelve la [ventana de dibujo](../../referencia/digi3d/drawing-view.md) activa.
 - **Parámetros**: cada elemento de `argv` es un código. Si `argv` está vacío, la función `error` emite el
   sonido de error y muestra el motivo y la forma de uso con
-  [`digi3d.show_info`](../../referencia/digi3d/functions.md). Si no, el guion llama a
+  [`digi3d.show_info`](../../referencia/digi3d/functions.md). Si `argv` no está vacío, el guion llama a
   `transforma_complejo_a_punto` una vez por código y redibuja la ventana al final.
 - **Selección con `filter`**: `transforma_complejo_a_punto` recorre `vista` (todas las geometrías
-  cargadas) y se queda con las que cumplen tres condiciones: que no estén borradas (`not g.deleted`), que
+  cargadas) y selecciona las que cumplen tres condiciones: que no estén borradas (`not g.deleted`), que
   sean complejos (`type(g) is digi3d.Complex`) y que su primer código sea el código indicado
   (`g.codes[0].code == codigo`).
   - `g.codes` es la lista de [códigos](../../referencia/digi21.base/featurecode.md) de la geometría;
@@ -71,7 +71,7 @@ else:
     de modificar la vista.
 - **Centro del complejo**: `entidad.min` y `entidad.max` son las coordenadas mínima y máxima de la caja
   envolvente; su punto medio es el centro.
-- **Crear el punto**: `digi3d.Point(coordenadas, códigos, rotación, escala)`. El guion pasa
+- **Crear el punto**: el guion crea el punto con `digi3d.Point(coordenadas, códigos, rotación, escala)`. El guion pasa
   `entidad.codes` para que el punto tenga los mismos códigos que el complejo.
 - `vista.add(punto)` añade el punto y `vista.delete(entidad)` elimina el complejo original.
 - `vista.redraw()` regenera la ventana para mostrar los cambios.

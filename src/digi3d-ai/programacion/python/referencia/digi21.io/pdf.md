@@ -20,12 +20,12 @@ create(path, digitab=None, crs="", *, page_size="auto", scale=1000.0, explode_sy
 | Parámetro | Tipo | Por defecto | Descripción |
 |---|---|---|---|
 | `path` | `str` | — | Ruta del archivo `.pdf`. Si existe, se sustituye. |
-| `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. Da a cada código su color y su grosor, y dice si es imprimible. Si no se indica, se usa una vacía. |
+| `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. Asigna el color y el grosor a cada código e indica si el código es imprimible. Si no se indica `digitab`, se usa una tabla de códigos vacía. |
 | `crs` | `str` | `""` | Opcional. El PDF no guarda el sistema de coordenadas. |
-| `page_size` | `str` | `"auto"` | Tamaño de la página: `"auto"` (la extensión del dibujo a la escala `scale`) o uno de `"A0"`…`"A5"`, `"RA0"`…`"RA5"`, `"B0"`…`"B5"`, `"Quarto"`, `"Foolscap"`, `"Executive"`, `"GovernmentLetter"`, `"Letter"`, `"Legal"`, `"Ledger"`, `"Tabloid"`, `"Post"`, `"Crown"`, `"LargePost"`, `"Demy"`, `"Medium"`, `"Royal"`, `"Elephant"`, `"DoubleDemy"`, `"QuadDemy"`, `"STMT"`, `"Folio"`, `"Statement"`, `"Size10x14"`. No distingue mayúsculas. Otro valor, `ValueError`. |
+| `page_size` | `str` | `"auto"` | Tamaño de la página: `"auto"` (la extensión del dibujo a la escala `scale`) o uno de `"A0"`…`"A5"`, `"RA0"`…`"RA5"`, `"B0"`…`"B5"`, `"Quarto"`, `"Foolscap"`, `"Executive"`, `"GovernmentLetter"`, `"Letter"`, `"Legal"`, `"Ledger"`, `"Tabloid"`, `"Post"`, `"Crown"`, `"LargePost"`, `"Demy"`, `"Medium"`, `"Royal"`, `"Elephant"`, `"DoubleDemy"`, `"QuadDemy"`, `"STMT"`, `"Folio"`, `"Statement"`, `"Size10x14"`. `create` no distingue mayúsculas de minúsculas en `page_size`. Si se indica otro valor, se lanza `ValueError`. |
 | `scale` | `float` | `1000.0` | Denominador de la escala (1000 es 1:1000), mayor que 0. Con `page_size="auto"` determina el tamaño de la página. |
 | `explode_symbology` | `bool` | `True` | Dibuja la simbología de cada código (tipos de línea, símbolos). |
-| `title` | `str` | `""` | Título en la información del documento. Vacío, el PDF no tiene título. |
+| `title` | `str` | `""` | Título en la información del documento. Si `title` está vacío, el PDF no tiene título. |
 
 Los parámetros a partir de `page_size` son los de la orden
 [PARAMETROS_IMPORTACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md)

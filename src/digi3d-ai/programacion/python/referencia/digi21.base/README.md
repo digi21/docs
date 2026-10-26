@@ -1,7 +1,7 @@
 # digi21.base
 <!-- id: digi21.base -->
 
-Tipos del núcleo de Digi3D.AI. No abre ni crea archivos (para eso está
+Este paquete contiene los tipos del núcleo de Digi3D.AI. No abre ni crea archivos (para eso está
 [digi21.io](../digi21.io/README.md)).
 
 ```python

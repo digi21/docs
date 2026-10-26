@@ -148,7 +148,7 @@ Point {'stroke': '#A8A8A8', 'Layer': '010123', 'Description': 'Desconocido', 'te
 ```
 
 Sin tabla de códigos, `Description` es `Desconocido` y `stroke` es el color de los códigos
-desconocidos. Con una tabla, son la descripción y el color de cada código.
+desconocidos. Con una tabla de códigos, `Description` y `stroke` contienen, respectivamente, la descripción y el color de cada código.
 
 ## Véase también
 

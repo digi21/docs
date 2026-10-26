@@ -44,7 +44,7 @@ create(path, digitab=None, crs="", *, data_model="", connection_string="") -> Dr
 
 `data_model` y `connection_string` son los dos parámetros del formato en la orden
 [PARAMETROS_IMPORTACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md),
-y se pasan solo por nombre. Un valor con comillas dobles y simples a la vez lanza `ValueError`.
+y se pasan solo por nombre. Si un valor contiene comillas dobles y simples a la vez, se lanza `ValueError`.
 
 El exportador escribe todos los tipos de geometría de [digi21.base](../digi21.base/README.md):
 puntos, textos, líneas, polígonos y complejos.

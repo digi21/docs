@@ -40,11 +40,11 @@ create(path, digitab=None, crs="", *, precision=0, encoding=0xFF) -> DrawingWrit
 
 | Parámetro | Tipo | Por defecto | Descripción |
 |---|---|---|---|
-| `path` | `str` | — | Ruta de un `.shp` en la carpeta de destino. Solo se usa la carpeta: el nombre de cada capa sale de la tabla de códigos. |
+| `path` | `str` | — | Ruta de un `.shp` en la carpeta de destino. Solo se usa la carpeta: el nombre de cada capa se obtiene de la tabla de códigos. |
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. **Imprescindible**: cada código necesita su elemento `ioshp:transform` y una tabla de base de datos. |
 | `crs` | `str` | `""` | Sistema de coordenadas: un WKT o `"EPSG:<código>"`. **Obligatorio**. Se escribe en el `.prj` de cada capa nueva. |
-| `precision` | `int` | `0` | Decimales a los que se redondean las coordenadas, de 0 a 12. Con 0 no se redondean. Fuera de rango, `ValueError`. |
-| `encoding` | `int` | `0xFF` | Identificador de idioma (LDID, *language driver ID*) de la codificación de los `.dbf`, de 0 a 255. Con `0xFF`, el `.cpg` dice `UTF-8`; con `0x57`, `1252`. Fuera de rango, `ValueError`. |
+| `precision` | `int` | `0` | Número de decimales al que se redondean las coordenadas, de 0 a 12, ambos incluidos. Con 0 no se redondean. Si el valor está fuera de rango, se lanza `ValueError`. |
+| `encoding` | `int` | `0xFF` | Identificador de idioma (LDID, *language driver ID*) de la codificación de los `.dbf`, de 0 a 255, ambos incluidos. Con `0xFF`, el `.cpg` indica `UTF-8`; con `0x57`, indica `1252`. Si el valor está fuera de rango, se lanza `ValueError`. |
 
 `precision` y `encoding` son los dos parámetros del formato en la orden
 [PARAMETROS_IMPORTACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md),
@@ -73,7 +73,7 @@ Requisitos de la tabla de códigos para cada código que se escribe:
 Qué hace el exportador:
 
 - Rechaza las geometrías de un código que no cumple los requisitos, y `warnings` dice qué falta.
-- Rechaza una geometría de otro tipo que su capa (un texto en una capa de polígonos, una línea en
+- Rechaza una geometría cuyo tipo no coincide con el de su capa (un texto en una capa de polígonos, una línea en
   una capa de puntos).
 - Sustituye las capas con el mismo nombre y conserva las demás de la carpeta. Una capa que se
   sustituye **conserva su `.prj`**, y `warnings` avisa si algún `.prj` de la carpeta tiene otro

@@ -18,9 +18,9 @@ def debe_tener_coordenadas_z_decrecientes_moderado(geometry, adding_geometry, co
         zPrevia = zActual
 ```
 
-* `geometry[0]` es la tupla `(x, y, z)` del primer vértice, y `geometry[0][2]` su Z.
+* `geometry[0]` es la tupla `(x, y, z)` del primer vértice, y `geometry[0][2]` es la Z de ese vértice.
 * `for coordenada in geometry` recorre los vértices en orden.
-* El error lleva las coordenadas del vértice que lo provoca: al digitalizar, **Almacenar la geometría** desplaza la vista a ese vértice; bajo demanda, la tarea del panel de tareas lleva a él.
+* El error contiene las coordenadas del vértice cuya Z supera la del vértice anterior: al digitalizar, **Almacenar la geometría** desplaza la vista a ese vértice; bajo demanda, al hacer doble clic en la tarea del panel de tareas, la vista se desplaza al vértice indicado en el error.
 * La función devuelve el primer vértice erróneo. Un vértice con la misma Z que el anterior no es un error; la función `debe_tener_coordenadas_z_decrecientes` del mismo archivo sí lo considera error.
 
 ## Asignación al código

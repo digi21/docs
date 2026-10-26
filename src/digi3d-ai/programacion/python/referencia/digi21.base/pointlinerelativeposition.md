@@ -3,8 +3,8 @@
 
 Módulo: [digi21.base](README.md)
 
-Posición de un punto respecto a una [Line](line.md). Lo devuelve el método
-`calculate_position_point`.
+Esta enumeración indica la posición de un punto respecto a una [Line](line.md). El método
+`calculate_position_point` devuelve un valor de esta enumeración.
 
 | Valor | Significado |
 |---|---|

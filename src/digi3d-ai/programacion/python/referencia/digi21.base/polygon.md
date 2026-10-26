@@ -28,9 +28,9 @@ Polygon(codes, coordinates=[])
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `add_hole(hole)` | — | Añade una [Line](line.md) como hueco. La propiedad pasa al polígono. |
+| `add_hole(hole)` | — | Añade una [Line](line.md) como hueco. El polígono asume la propiedad de la línea. |
 | `insert_hole(position, hole)` | — | Inserta una [Line](line.md) como hueco en la posición indicada, de 0 al número de huecos; con el número de huecos la añade al final. Lanza `ValueError` si el polígono es de solo lectura o `hole` es `None`, e `IndexError` si `position` es mayor que el número de huecos. |
-| `remove_hole(hole)` | `bool` |Elimina el hueco indicado<br>devuelve `True` si se eliminó.|
+| `remove_hole(hole)` | `bool` |Elimina el hueco indicado.<br>Devuelve `True` si se eliminó.|
 | `clear_holes()` | — | Elimina todos los huecos. |
 | `explode()` | `list` | Devuelve clones independientes de las geometrías que lo componen. |
 

@@ -6,8 +6,8 @@ Módulo: [digi21.base](README.md)
 Escribe geometrías en un archivo de dibujo nuevo. No se construye directamente: lo devuelve la
 función `create` de los módulos de [digi21.io](../digi21.io/README.md#create).
 
-El archivo **no está completo hasta que se cierra**. Úsalo como gestor de contexto (`with`), que
-lo cierra al salir del bloque, o llama a `close()` al terminar.
+El archivo **no está completo hasta que se cierra**. Usa el escritor como gestor de contexto (`with`), que
+cierra el archivo cuando termina la ejecución del bloque `with`, o llama a `close()` al terminar de escribir.
 
 ## Propiedades
 
@@ -15,8 +15,8 @@ lo cierra al salir del bloque, o llama a `close()` al terminar.
 |---|---|---|
 | `path` | `str` | Ruta del archivo de dibujo. |
 | `closed` | `bool` | `True` si el escritor ya se ha cerrado. |
-| `written` | `int` | Número de entidades escritas. En los formatos que no admiten varios códigos por entidad, una geometría con *n* códigos cuenta *n*. |
-| `rejected` | `int` | Número de geometrías que no se han escrito: borradas, virtuales, sin vértices, de un tipo que el formato no admite, con códigos que el formato no sabe traducir, o de las que el exportador ha informado de un error. `warnings` explica cada motivo una vez. |
+| `written` | `int` | Número de entidades escritas. En los formatos que no admiten varios códigos por entidad, una geometría con *n* códigos cuenta como *n* entidades. |
+| `rejected` | `int` | Número de geometrías que no se han escrito: borradas, virtuales, sin vértices, de un tipo que el formato no admite, con códigos que el formato no puede traducir, o de las que el exportador ha informado de un error. `warnings` explica cada motivo una vez. |
 | `warnings` | `list[str]` | Avisos del exportador del formato (códigos sin traducción en la tabla, capas creadas, errores al escribir una entidad…). |
 
 ## Métodos
@@ -27,7 +27,7 @@ lo cierra al salir del bloque, o llama a `close()` al terminar.
 | `close()` | `None` | Termina el archivo. Si el escritor ya está cerrado, no hace nada. Lanza `RuntimeError` si el exportador informa de un error al terminar el archivo (por ejemplo, no puede sustituir el destino); el escritor queda cerrado igualmente. |
 
 Llamar a `add` con el escritor cerrado, o volver a usarlo en un `with`, lanza `ValueError`. Los
-errores del exportador del formato llegan como `RuntimeError` con su mensaje. Si el bloque `with`
+errores del exportador del formato se comunican mediante `RuntimeError`, con el mensaje del error. Si el bloque `with`
 termina con una excepción, un error al cerrar el archivo no la sustituye.
 
 ## Qué hace con cada geometría

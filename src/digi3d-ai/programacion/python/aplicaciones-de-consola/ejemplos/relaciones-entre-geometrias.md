@@ -14,7 +14,7 @@ if punto.within(parcela):
 
 > **Importante:** estas relaciones se basan en los **vértices y nodos compartidos** entre
 > las geometrías, no en intersecciones calculadas geométricamente. Por ejemplo, dos líneas
-> solo "se tocan" (`touches`) si comparten un vértice común, no si se cruzan por el aire.
+> solo "se tocan" (`touches`) si comparten un vértice, no si se cruzan sin compartir un vértice.
 
 > Si una relación no está definida para la combinación de tipos dada, se lanza un
 > `TypeError`. Consulta la tabla completa en

@@ -3,7 +3,7 @@
 
 El módulo `digi21.io.geopackage` escribe archivos OGC GeoPackage (`.gpkg`): una base de datos
 SQLite con una tabla por capa. Como en [Crear un shapefile](crear-un-shapefile.md), la tabla de
-códigos dice en qué tabla va cada código.
+códigos indica a qué tabla se asigna cada código.
 
 ## La tabla de códigos
 
@@ -61,7 +61,7 @@ Line ['040645'] 3 vértices
 ```
 
 - Los dos módulos se importan **antes** de `DigiTab.load`: la primera tabla de códigos que se carga
-  en el proceso solo recibe los parámetros de traducción de los módulos ya importados. Si se carga
+  en el proceso solo recibe los parámetros de traducción de los módulos ya importados. Si la tabla de códigos se carga
   antes de importar `digi21.io.geopackage`, todos los códigos se rechazan por no tener
   `iogpkg:transform`.
 - `crs` es obligatorio. El GeoPackage guarda el código EPSG del sistema horizontal.
@@ -70,7 +70,7 @@ Line ['040645'] 3 vértices
 ## Códigos sin tabla
 
 Una geometría cuyo código no está en la tabla de códigos o no tiene `iogpkg:transform` se rechaza, y
-`warnings` lo explica una vez por código. Sin tabla de códigos, ningún código está en ella:
+`warnings` indica el motivo del rechazo una vez por código. Si no se proporciona una tabla de códigos, se rechazan todos los códigos:
 
 ```python
 import digi21.io.geopackage as geopackage
@@ -88,14 +88,14 @@ False
 
 Con un código de la tabla sin `iogpkg:transform`, el aviso es
 `The code 040645 has no iogpkg:transform element in the digitab: its geometries are not written.`.
-Una geometría de otro tipo que su tabla, como una línea con un código cuya tabla es `POINT`, lanza
+Al añadir una geometría cuyo tipo no coincide con el de la tabla, como una línea con un código cuya tabla es `POINT`, se lanza
 `RuntimeError` con el mensaje del exportador.
 
 ## El módulo rtree de SQLite
 
 El índice espacial de GeoPackage es una tabla virtual R*Tree. Si el `sqlite3.dll` que carga el
-proceso no tiene ese módulo, `add` lanza `RuntimeError` con el mensaje `no such module: rtree`. El
-exportador de GeoPackage se compila con un SQLite que lo tiene; el error aparece cuando el
+proceso no tiene el módulo R*Tree, `add` lanza `RuntimeError` con el mensaje `no such module: rtree`. El
+exportador de GeoPackage se compila con un SQLite que incluye el módulo R*Tree; el error aparece cuando el
 `sqlite3.dll` que se carga es otro: el de la carpeta del programa, si otro componente lo ha
 sustituido, o uno que el proceso ya había cargado.
 

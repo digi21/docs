@@ -5,9 +5,9 @@ Archivo: `dibuja_texto_extraido_servicio_mapas_azure.py` · orden `DIBUJA_TEXTO_
 **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)) con un parámetro: la
 clave de Azure Maps.
 
-Variante del [ejemplo del Catastro](dibuja-texto-extraido-callejero-catastro.md) que usa el servicio
+Esta variante del [ejemplo del Catastro](dibuja-texto-extraido-callejero-catastro.md) usa el servicio
 **Azure Maps** e inserta el texto **rotado**. Cada texto necesita dos datos: el primero fija el punto de
-inserción y consulta la calle; el segundo marca la dirección de la rotación.
+inserción y hace que la orden consulte el nombre de la calle; el segundo marca la dirección de la rotación.
 
 ## Cómo se usa
 
@@ -101,9 +101,9 @@ else:
 - **Rotación a partir de dos puntos**:
   `self.view.geographic_calculator.calculate_trigonometric_angle(origen, destino)` devuelve el ángulo
   entre los dos puntos, y la orden lo pasa al texto.
-- **Texto rotado**: `digi3d.Text(texto, coordenadas, rotation=rotacion)`. La rotación se pasa **por
+- **Texto rotado**: la orden crea el texto con `digi3d.Text(texto, coordenadas, rotation=rotacion)`. La rotación se pasa **por
   nombre** (`rotation=...`) porque el tercer argumento posicional de `Text` es `codes`, no la rotación.
-- `self.new_transaction()` deja cada texto en una transacción propia, así que cada UNDO deshace un texto.
+- `self.new_transaction()` deja cada texto en una transacción propia, así que cada UNDO deshace la inserción de un texto.
 - La llamada web se hace, como en el ejemplo del Catastro, con `urllib.request` y `json`.
 
 ## Véase también

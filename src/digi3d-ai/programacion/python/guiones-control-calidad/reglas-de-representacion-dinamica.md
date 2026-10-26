@@ -127,7 +127,7 @@ Solo existen en las familias `asignar_color` y `asignar_color_relleno`:
 
 Estas reglas asignan un color aleatorio a cada valor distinto del atributo. Las geometrías con el mismo valor
 se dibujan con el mismo color. Los colores se guardan en un diccionario global del intérprete y se mantienen
-mientras Digi3D.AI no vuelve a cargar el entorno Python. Las dos reglas de `asignar_color` comparten el
+mientras Digi3D.AI no vuelva a cargar el entorno Python. Las dos reglas de `asignar_color` comparten el
 mismo diccionario.
 
 ```python

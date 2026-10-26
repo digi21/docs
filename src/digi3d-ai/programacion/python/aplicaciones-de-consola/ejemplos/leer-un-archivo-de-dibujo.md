@@ -58,8 +58,8 @@ for geometry in dxf.open("planta.dxf"):
 
 ## Usar una tabla de códigos
 
-Si se pasa una [`DigiTab`](../../referencia/digi21.base/digitab.md), los códigos de las
-geometrías leídas se resuelven contra ella (descripción, visibilidad, etc.):
+Si pasas una [`DigiTab`](../../referencia/digi21.base/digitab.md), la descripción, la visibilidad y las demás propiedades de los códigos de las
+geometrías leídas se obtienen de esa tabla:
 
 ```python
 import digi21.base as base

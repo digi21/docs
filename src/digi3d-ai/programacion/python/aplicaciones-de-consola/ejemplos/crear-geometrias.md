@@ -65,8 +65,8 @@ linea.displace((10.0, 0.0, 0.0))                       # mueve 10 m en X
 linea.transform(lambda p: (p[0] * 2, p[1] * 2, p[2]))  # escala XY x2
 ```
 
-> **Propiedad de la memoria:** una geometría creada desde Python la libera Python. Al
-> añadirla a un contenedor (`add_hole`, `add`, `insert`), la propiedad pasa al contenedor.
+> **Propiedad de la memoria:** Python libera las geometrías creadas desde Python que no pertenecen a un contenedor. Si añades
+> una geometría a un contenedor (`add_hole`, `add`, `insert`), el contenedor asume la propiedad de la geometría.
 
 ## Véase también
 

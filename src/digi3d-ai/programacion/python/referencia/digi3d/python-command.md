@@ -3,9 +3,9 @@
 
 Módulo: `digi3d`
 
-Clase base para **crear órdenes interactivas en Python**. Se hereda de ella y se
-redefinen los manejadores de eventos (movimiento del ratón, dato, reset, tentativo, selección…); la
-orden se pone en marcha con [`DrawingView.add_command`](drawing-view.md#órdenes).
+Esta clase es la base para **crear órdenes interactivas en Python**. Crea una clase derivada y
+redefine los manejadores de eventos (movimiento del ratón, dato, reset, tentativo, selección…).
+Inicia la orden con [`DrawingView.add_command`](drawing-view.md#órdenes).
 
 ## Constructores
 
@@ -33,14 +33,14 @@ PythonCommand(name)
 
 ## Eventos
 
-Redefine en la clase derivada los eventos a los que tenga que reaccionar la orden. Los eventos de pedales,
+Redefine en la clase derivada los manejadores de los eventos a los que tenga que reaccionar la orden. Los manejadores de los eventos de pedales,
 movimiento y teclado devuelven `True` si la orden ha procesado el evento; en ese caso Digi3D.AI no hace
 nada más con él.
 
 | Evento | Cuándo lo llama Digi3D.AI |
 |---|---|
 | `on_set_focus()` | Al iniciar la orden y cada vez que vuelve a ser la orden activa. |
-| `on_lost_focus()` | Cuando otra orden se pone encima de ella. |
+| `on_lost_focus()` | Cuando se apila otra orden sobre la orden actual. |
 | `on_data_down(coordinates)` | Al pulsar el botón o el pedal de dato. |
 | `on_data_up(coordinates)` | Al soltar el botón o el pedal de dato. |
 | `on_data_dbl_clk(coordinates)` | Al hacer doble clic con el botón de dato. |
@@ -50,7 +50,7 @@ nada más con él.
 | `on_snap_up(coordinates)` | Al soltar el botón o el pedal de tentativo. |
 | `on_move(coordinates, button)` | Al mover el cursor. |
 | `on_key_down(key)` | Al pulsar una tecla. |
-| `on_geometry_selected(geometry, coordinates, first_vertex, second_vertex)` | Cuando el usuario selecciona una geometría con el pedal de tentativo o la orden la selecciona con `select_geometry`. No devuelve nada. |
+| `on_geometry_selected(geometry, coordinates, first_vertex, second_vertex)` | Cuando seleccionas una geometría con el pedal de tentativo o la orden la selecciona con `select_geometry`. No devuelve nada. |
 | `on_geometries_selected(geometries)` | Cuando una orden de selección múltiple o un panel entrega varias geometrías a la orden. Consulta [Selección múltiple](#selección-múltiple). No devuelve nada. |
 
 `coordinates` es una tupla `(x, y, z)` con coordenadas terreno.
@@ -63,14 +63,14 @@ pedal de tentativo. Si encuentra una, Digi3D.AI llama al evento `on_geometry_sel
 - Sin la verificación de tentativo (variable [VER](/digi3d-ai/referencia/ventana-de-dibujo/variables/v/ver.md),
   o `view.verify_snap` en [DrawingView](drawing-view.md#modos-de-búsqueda-y-tentativo)), la llamada se
   produce antes de que `select_geometry` termine.
-- Con la verificación activada, Digi3D.AI muestra la geometría encontrada y espera a que el usuario la
-  confirme con un dato. La llamada se produce al confirmarla.
+- Con la verificación activada, Digi3D.AI muestra la geometría encontrada y espera a que
+  confirmes la geometría con un dato. Digi3D.AI llama a `on_geometry_selected` al confirmar la geometría.
 
 Si no encuentra ninguna geometría, Digi3D.AI emite el sonido de error y no llama al evento.
 
 `select_geometry` no selecciona nada y devuelve `False` en estos casos:
 
-- Ya hay un tentativo en curso, por ejemplo uno que espera la verificación del usuario.
+- Ya hay un tentativo en curso, por ejemplo uno que espera tu verificación.
 - El [modo de búsqueda](drawing-view.md#modos-de-búsqueda-y-tentativo) activo busca intersecciones. Ese modo
   lanza la orden INTERSECCION, que no admite el filtro.
 
@@ -143,7 +143,7 @@ entregar la misma geometría dos veces, una por cada código enlazado al registr
 
 Todos los cambios que hace la orden antes de llamar a `new_transaction()` se deshacen con un solo UNDO.
 `view.delete` y `view.add` aceptan listas, pero sus versiones de lista no ejecutan los controles de calidad ni
-avisan a las extensiones. Para que lo hagan, llama a las funciones con cada geometría, o sustituye cada una con
+avisan a las extensiones. Para que las funciones ejecuten los controles de calidad y avisen a las extensiones, llama a cada función con cada geometría, o sustituye cada geometría con
 [`view.replace`](drawing-view.md#sustituir-una-geometría):
 
 ```python

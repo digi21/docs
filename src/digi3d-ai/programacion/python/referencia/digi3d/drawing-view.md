@@ -35,9 +35,9 @@ archivos de dibujo cargados:
 archivos de referencia. La propiedad [`file`](../digi21.base/geometry.md#propiedades) de cada geometría
 devuelve el archivo que la contiene.
 
-Cada `view.files[i]` es un [DrawingFile](../digi21.base/drawingfile.md) que se recorre en memoria:
-`for g in view.files[i]`, `len(view.files[i])` y `view.files[i][j]` devuelven las geometrías del
-archivo, incluidas las borradas, en el mismo orden que `view`.
+Cada `view.files[i]` es un [DrawingFile](../digi21.base/drawingfile.md) que se recorre en memoria.
+`for g in view.files[i]`, `len(view.files[i])` y `view.files[i][j]` permiten recorrer las geometrías del
+archivo, obtener el número de geometrías y acceder a una geometría por índice, respectivamente. El recorrido de `view.files[i]` incluye las geometrías borradas y conserva el orden de las geometrías de ese archivo en `view`.
 
 ```python
 import collections
@@ -93,7 +93,7 @@ for g in geometrias:
 > En Digi3D.AI **borrar no elimina realmente** la geometría: solo la **marca como borrada** (lo
 > indica la propiedad `deleted` de la [geometría](../digi21.base/geometry.md)). Por eso se
 > puede **recuperar** con `recover`. Pasar una **lista** a `delete`/`recover` es bastante más rápido
-> que llamarlos de una en una, pero las versiones de lista de `add` y `delete` no ejecutan los
+> que llamar a esos métodos con cada geometría, pero las versiones de lista de `add` y `delete` no ejecutan los
 > controles de calidad ni avisan a las extensiones.
 
 ```python
@@ -109,8 +109,8 @@ view.recover(seleccion)
 
 ### Sustituir una geometría
 
-Las geometrías del dibujo son de solo lectura: para cambiar una, se crea un clon con `clone()`, se modifica el
-clon y se sustituye la original por él con `replace(original, new)`. `replace` borra la original y añade la
+Las geometrías del dibujo son de solo lectura: para cambiar una geometría, crea un clon con `clone()`, modifica el
+clon y sustituye la geometría original por el clon con `replace(original, new)`. `replace` borra la original y añade la
 nueva con las mismas comprobaciones que `add(geometry)`: controles de calidad, extensiones, base de datos y
 exportador del formato.
 
@@ -119,7 +119,7 @@ exportador del formato.
 - Devuelve `None` y no cambia nada si `original` ya estaba borrada o no se ha podido borrar.
 - Devuelve `None` y recupera `original` si Digi3D.AI rechaza `new`, por ejemplo porque el formato del archivo
   de dibujo no admite su código.
-- Si `original` pertenece a otro archivo cargado, no se borra: `new` se añade sin más.
+- Si `original` pertenece a otro archivo cargado, no se borra: `new` se añade al archivo de dibujo activo.
 
 Si `replace` devuelve `None`, no vuelvas a pasar `new` a `replace` ni a `add`: Digi3D.AI puede haberla guardado
 entre las geometrías rechazadas. Crea otro clon.
@@ -148,7 +148,7 @@ La ventana da acceso a la tabla de códigos (`digi.tab`) del proyecto con la pro
 |---|---|---|
 | `find_codes(concept)` | `list[str]` | Códigos cuyo código, descripción, etiquetas o alias contienen el concepto (sin distinguir mayúsculas ni acentos). |
 
-`find_codes` es la forma cómoda de localizar geometrías por concepto sin conocer sus códigos
+`find_codes` permite localizar geometrías por concepto sin conocer sus códigos
 de antemano:
 
 ```python
@@ -170,14 +170,14 @@ for g in view:
 | `run_command(command)` | método | Ejecuta una orden por su nombre. |
 | `add_command(command)` | método | Ejecuta una orden ([PythonCommand](python-command.md)) y la inicializa. |
 | `command_push(command, send_on_lost_event_to_current_command=True)` | método | Apila una orden ([Command](command.md)) en el tope de la pila. Acepta también el nombre de la orden (`str`). |
-| `command_pop()` | método (`bool`) |Quita la orden activa de la pila<br>devuelve `True` si queda otra.|
+| `command_pop()` | método (`bool`) |Quita la orden activa de la pila.<br>Devuelve `True` si queda otra orden en la pila.|
 | `command_top` | propiedad (L) | La orden actual ([Command](command.md)). |
 
 ## Transformación de coordenadas
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `to_geo(coordinates)` | `tuple` |Transforma unas coordenadas del sistema de la ventana a geográficas (EPSG:4326)<br>devuelve `(longitud, latitud)`.|
+| `to_geo(coordinates)` | `tuple` |Transforma unas coordenadas del sistema de la ventana a geográficas (EPSG:4326).<br>Devuelve `(longitud, latitud)`.|
 | `project(coordinates)` | `float` \| `None` | Proyecta las coordenadas sobre el terreno y devuelve la `z` resultante (o `None` si no se puede). Acepta `(x, y, z)`, `(x, y)` o `x, y`. |
 
 ```python
@@ -197,7 +197,7 @@ z = view.project((430000, 4480000))
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `ask_code(title, allow_multiple_selection=False)` | `tuple[str]` | Muestra el diálogo de selección de código y devuelve los códigos elegidos. |
+| `ask_code(title, allow_multiple_selection=False)` | `tuple[str]` | Muestra el cuadro de diálogo de selección de código y devuelve los códigos elegidos. |
 
 ## Propiedades de información
 
@@ -210,7 +210,7 @@ z = view.project((430000, 4480000))
 | `epsg_codes` | `tuple` | `(epsg_horizontal, epsg_vertical)`. |
 | `files` | iterable | Archivos de referencia cargados ([DrawingFile](../digi21.base/drawingfile.md)). |
 | `drawing_file` | `DrawingFile` | Archivo de dibujo activo. |
-| `digitab` | [DigiTab](../digi21.base/digitab.md) |Tabla de códigos activa del proyecto (secuencia de [DigiTabNode](../digi21.base/digitabnode.md))<br>la posición de cada nodo coincide con el `digitab_index` de los códigos de las geometrías.|
+| `digitab` | [DigiTab](../digi21.base/digitab.md) |Tabla de códigos activa del proyecto (secuencia de [DigiTabNode](../digi21.base/digitabnode.md)).<br>La posición de cada nodo coincide con el `digitab_index` de los códigos de las geometrías.|
 | `digi_tab` | `dict` | Diccionario `{código: DigiTabNode}` de la tabla activa. |
 | `geographic_calculator` | [GeographicCalculator](geographic-calculator.md) | Calculadora geográfica de la ventana. |
 | `topologies` | `dict` | Diccionario `{nombre: [Topology]}` de las topologías cargadas. |
@@ -297,7 +297,7 @@ z = view.project((430000, 4480000))
 | `auto_panning_photogrammetric_window` | `bool` | Zoom centrado automático en la ventana fotogramétrica. |
 | `overlap` | `float` | Porcentaje de solape en el zoom centrado automático. |
 | `automatic_mode` | `bool` | Modo automático. |
-| `repeat` | `bool` | Repetición automática de comandos. |
+| `repeat` | `bool` | Repetición automática de órdenes. |
 | `block_repeat` | `bool` | Bloquea el mecanismo de repetición. |
 | `beep` | `bool` | Activa las señales acústicas. Variable PITA. |
 | `dtm_moves_z` | `bool` | Actualiza la coordenada Z cuando el cursor pasa sobre los modelos digitales del terreno cargados. Variable MDT_MUEVE_Z. |
@@ -311,7 +311,7 @@ z = view.project((430000, 4480000))
 
 | Método | Descripción |
 |---|---|
-| `close()` | Cierra la ventana de dibujo y sus archivos, igual que cuando la cierra el usuario. Las geometrías ya están guardadas en los archivos, así que no se pierde nada. Devuelve `False` si la ventana sigue abierta porque el usuario ha cancelado el aviso de geometrías borradas. Después de cerrarla, no uses este objeto. |
+| `close()` | Cierra la ventana de dibujo y sus archivos, igual que cuando cierras la ventana. Las geometrías ya están guardadas en los archivos, así que no se pierden. Devuelve `False` si la ventana sigue abierta porque has cancelado el aviso de geometrías borradas. Después de cerrar la ventana, no uses el objeto `DrawingView` que representa la ventana cerrada. |
 
 ## Véase también
 

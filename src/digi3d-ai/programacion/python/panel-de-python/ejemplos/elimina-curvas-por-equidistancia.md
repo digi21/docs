@@ -4,7 +4,7 @@
 Archivo: `elimina_curvas_por_equidistancia.py` · orden `ELIMINA_CURVAS_POR_EQUIDISTANCIA` con parámetros:
 uno o varios códigos y la equidistancia.
 
-Elimina las curvas de nivel que tienen alguno de los códigos indicados y cuya cota Z es **múltiplo de la
+La orden elimina las curvas de nivel que tienen alguno de los códigos indicados y cuya cota Z es **múltiplo de la
 equidistancia**.
 
 ## Cómo se usa
@@ -105,11 +105,11 @@ else:
   [`digi3d.show_info`](../../referencia/digi3d/functions.md). Con `mostrar_uso=False` el cuadro muestra solo
   el mensaje, sin la forma de uso.
 - `EsMultiploDeEquidistancia` lee la cota del **primer vértice** de la curva (`entidad[0][2]`:
-  `entidad[0]` es el vértice `(x, y, z)`, y `[2]` su Z) y comprueba con el operador módulo si es múltiplo
+  `entidad[0]` es el vértice `(x, y, z)`, y `entidad[0][2]` es la Z del primer vértice) y comprueba con el operador módulo si es múltiplo
   de la equidistancia (`0 == z % equidistancia`).
 - **Dos filtros en cadena** dentro de `EliminaCurvas`:
   1. `curvasNivel`: las geometrías que tienen alguno de los códigos.
-  2. `curvasNivelAEliminar`: de entre las geometrías de `curvasNivel`, las que son múltiplo de la
+  2. `curvasNivelAEliminar`: de entre las geometrías de `curvasNivel`, aquellas cuya cota es múltiplo de la
      equidistancia.
 
   Los dos filtros se envuelven en `list(...)` porque el guion usa `len(...)` sobre el resultado (un

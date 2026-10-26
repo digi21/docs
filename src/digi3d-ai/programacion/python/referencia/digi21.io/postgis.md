@@ -4,7 +4,7 @@
 Módulo: [digi21.io](README.md)
 
 Lee las capas de una base de datos [PostGIS](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/postgis.md)
-y les **añade** geometrías. La ruta que reciben `open` y `create` es el **archivo de conexión** `.pg`,
+y les **añade** geometrías. La ruta que reciben `open` y `create` corresponde al **archivo de conexión** `.pg`,
 no un dibujo. El exportador no crea tablas.
 
 ```python
@@ -25,7 +25,7 @@ open(path, digitab=None) -> DrawingFile
 Se conecta a la base de datos del archivo de conexión y devuelve un
 [DrawingFile](../digi21.base/drawingfile.md) con las geometrías de sus capas: las tablas con una
 columna de geometría. Si `path` no existe, lanza `FileNotFoundError`; si no puede conectarse,
-`RuntimeError` con el mensaje del servidor.
+lanza `RuntimeError` con el mensaje del servidor.
 
 ## create
 
@@ -40,16 +40,16 @@ create(path, digitab=None, crs="", *, server="localhost", port=5432, user="", pa
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. **Imprescindible**: cada código necesita su elemento `ioPostGis:transform` con su tabla. |
 | `crs` | `str` | `""` | Opcional. El sistema es el de las capas; si `crs` no coincide, `warnings` lo avisa. |
 | `server` | `str` | `"localhost"` | Servidor de PostgreSQL. |
-| `port` | `int` | `5432` | Puerto, de 1 a 65535. Fuera de rango, `ValueError`. |
+| `port` | `int` | `5432` | Número de puerto, de 1 a 65535, ambos incluidos. Si el valor está fuera de rango, se lanza `ValueError`. |
 | `user` | `str` | `""` | Usuario. |
 | `password` | `str` | `""` | Contraseña. |
-| `database` | `str` | `""` | Base de datos. Si no está vacía, `create` escribe `path` con estos cinco valores. |
+| `database` | `str` | `""` | Base de datos. Si `database` no está vacío, `create` escribe en el archivo `path` los valores de `server`, `port`, `user`, `password` y `database`. |
 
 Los parámetros a partir de `server` son los de la orden
 [PARAMETROS_IMPORTACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md)
 para PostGIS, en el mismo orden, y se pasan solo por nombre.
 
-Restricciones de `server`, `user`, `password` y `database` (cada una lanza `ValueError`):
+Restricciones de `server`, `user`, `password` y `database` (si se incumple cualquiera de ellas, se lanza `ValueError`):
 
 - no pueden tener saltos de línea;
 - no pueden tener a la vez comillas simples y dobles, porque el archivo de conexión delimita cada

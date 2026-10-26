@@ -1,7 +1,7 @@
 # digi21.io
 <!-- id: digi21.io -->
 
-Lectura y escritura de archivos de dibujo de Digi3D.AI desde Python, con los mismos importadores y
+Este paquete permite leer y escribir archivos de dibujo de Digi3D.AI desde Python, con los mismos importadores y
 exportadores que la aplicación. Hay un **módulo independiente por formato**, y todos comparten la
 misma interfaz: una función `open` que devuelve un [DrawingFile](../digi21.base/drawingfile.md)
 iterable y una función `create` que devuelve un [DrawingWriter](../digi21.base/drawingwriter.md).
@@ -97,16 +97,16 @@ with modulo.create("destino.ext", digitab, crs="EPSG:25830") as writer:
 print(writer.written, writer.rejected)
 ```
 
-- `add(geometry)` devuelve `False` si la geometría no se escribe; `rejected` las cuenta.
+- `add(geometry)` devuelve `False` si la geometría no se escribe; `rejected` cuenta las geometrías que no se escriben.
 - `written` cuenta las entidades escritas. En los formatos que no admiten varios códigos por entidad,
   una geometría con *n* códigos se escribe *n* veces.
 - `warnings` es la lista de avisos del exportador: códigos sin traducción, capas creadas, geometrías
-  rechazadas… Los avisos del propio exportador salen en el idioma de la instalación; los del módulo
+  rechazadas… Los avisos del propio exportador se muestran en el idioma de la instalación; los del módulo
   de Python, en inglés.
 
 ### El sistema de coordenadas
 
-Los exportadores **no transforman coordenadas**: escriben las que reciben. `crs` solo dice en qué
+Los exportadores **no transforman coordenadas**: escriben las que reciben. `crs` solo indica en qué
 sistema están. Para convertir entre formatos, pasa el `crs` del origen:
 
 ```python
@@ -120,7 +120,7 @@ GeoJSON y KML esperan longitud y latitud en grados: el origen ya tiene que estar
 
 Los formatos que guardan el sistema en un archivo `.prj` (BIN, ASCII de Digi, DGN, DWG, DXF y SHP)
 **conservan el `.prj` que ya hubiera** junto al destino con el mismo nombre, en lugar de escribir el
-`crs` que se pasa a `create`, y `warnings` lo avisa. Para usar `crs`, borra antes ese `.prj`.
+`crs` que se pasa a `create`, y `warnings` indica que se conserva el archivo `.prj` existente. Para usar `crs`, borra ese `.prj` antes de crear el archivo.
 
 ### La tabla de códigos y el orden de importación
 

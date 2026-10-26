@@ -13,7 +13,7 @@ DatabaseFieldError(message, codeIndex, field)
 | `codeIndex` | Índice, en `geometry.codes`, del código cuyo campo es incorrecto. Normalmente, el `code_index` que recibe la función. |
 | `field` | Nombre del campo. |
 
-* Al digitalizar, Digi3D.AI abre un cuadro de diálogo para corregir el valor del campo. Si el usuario cancela, o si la tabla de códigos no tiene el esquema de la tabla del código, la geometría no se guarda. Si lo corrige, Digi3D.AI vuelve a ejecutar los controles del código.
+* Al digitalizar, Digi3D.AI abre un cuadro de diálogo para corregir el valor del campo. Si cancelas el cuadro de diálogo o si la tabla de códigos no tiene el esquema de la tabla del código, la geometría no se guarda. Si corriges el valor del campo, Digi3D.AI vuelve a ejecutar los controles del código.
 * Bajo demanda, Digi3D.AI añade una tarea de error al panel de tareas.
 
 ## Ejemplo

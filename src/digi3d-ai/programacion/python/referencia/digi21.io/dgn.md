@@ -13,7 +13,7 @@ import digi21.io.dgn as dgn
 > [!IMPORTANT]
 > Importa `digi21.io.dgn` **antes** de cargar la tabla de códigos con `DigiTab.load`. La primera
 > tabla que se carga en el proceso solo recibe los elementos `iodgn:transform` si el módulo ya está
-> importado. Si se carga antes, todos los códigos se escriben con los parámetros por defecto, en un
+> importado. Si cargas la tabla de códigos antes de importar `digi21.io.dgn`, todos los códigos se escriben con los parámetros por defecto, en un
 > nivel con el nombre del código (último ejemplo).
 
 ## open
@@ -28,7 +28,7 @@ open(path, digitab=None) -> DrawingFile
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos (opcional). Si no se indica, se usa una vacía. |
 
 Devuelve un [DrawingFile](../digi21.base/drawingfile.md). Cada elemento tiene un solo código: el de su
-nivel. El sistema de coordenadas sale del archivo `.prj` con el mismo nombre que el dibujo. Si `path`
+nivel. El sistema de coordenadas se obtiene del archivo `.prj` con el mismo nombre que el dibujo. Si `path`
 no existe, lanza `FileNotFoundError`.
 
 ## create
@@ -46,7 +46,7 @@ create(path, digitab=None, crs="", *, template="", code_criteria=0, use_cell_fil
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. Da a cada código su nivel, color, estilo y grosor (elemento `iodgn:transform`). Si no se indica, se usa una vacía. |
 | `crs` | `str` | `""` | Sistema de coordenadas: un WKT o `"EPSG:<código>"`. **Obligatorio**. Se escribe en un archivo `.prj` junto al dibujo. |
 | `template` | `str` | `""` | Archivo `.dgn` que se usa como semilla. Si está vacío, se crea un dibujo nuevo. |
-| `code_criteria` | `int` | `0` | Criterio para códigos, de 0 a 18 (0 es **Nivel**): posición en la lista **Criterio para códigos** del cuadro de diálogo del formato. Fuera de rango, `ValueError`. |
+| `code_criteria` | `int` | `0` | Criterio para códigos, de 0 a 18, ambos incluidos (0 es **Nivel**): posición en la lista **Criterio para códigos** del cuadro de diálogo del formato. Si el valor está fuera de rango, se lanza `ValueError`. |
 | `use_cell_file` | `bool` | `False` | Toma las células de un archivo de células de MicroStation. |
 | `cell_file` | `str` | `""` | Archivo `.cel`. Solo se usa si `use_cell_file` es `True`. |
 | `transform_cell_levels` | `bool` | `False` | Asigna a cada elemento de la célula el nivel, el color, el estilo y el grosor del código. Solo se usa si `use_cell_file` es `True`. |
@@ -179,7 +179,7 @@ Se ha creado el nivel: LINDE
 ['LINDE']
 ```
 
-Los avisos del exportador salen en el idioma de la instalación.
+Los avisos del exportador se muestran en el idioma de la instalación.
 
 ### La tabla cargada antes de importar el módulo
 

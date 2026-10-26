@@ -32,12 +32,12 @@ Line(codes, coordinates=[])
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `add_point(coordinates)` | `int` |Añade un vértice al final<br>devuelve el número de vértices resultante.|
+| `add_point(coordinates)` | `int` |Añade un vértice al final.<br>Devuelve el número de vértices resultante.|
 | `add_points(coordinates)` | — | Añade varios vértices al final. |
 | `close()` | — | Cierra la línea. |
 | `reverse()` | — | Invierte el sentido de la línea. |
 | `smooth(increment)` | — | Suaviza la línea. |
-| `generalize(tolerance, angular_tolerance)` | `bool` |Generaliza la línea<br>devuelve `True` si la modificó.|
+| `generalize(tolerance, angular_tolerance)` | `bool` |Generaliza la línea.<br>Devuelve `True` si la modificó.|
 | `parallelize(distance)` | — | Desplaza/paraleliza la línea la distancia indicada. |
 | `generate_spline()` | — | Genera una spline a partir de los vértices. |
 | `remove_duplicate_points(in_2d=False)` | — | Elimina vértices duplicados consecutivos. |

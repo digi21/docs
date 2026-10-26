@@ -23,7 +23,7 @@ open(path, digitab=None) -> DrawingFile
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos (opcional). Si no se indica, se usa una vacía. |
 
 Devuelve un [DrawingFile](../digi21.base/drawingfile.md). Sin tabla de códigos, el código de cada
-entidad es el nombre de su capa. El sistema de coordenadas sale del archivo
+entidad es el nombre de su capa. El sistema de coordenadas se obtiene del archivo
 `.prj` con el mismo nombre que el dibujo. Si `path` no existe, lanza `FileNotFoundError`.
 
 Un sombreado (HATCH) con un único bucle exterior se lee como un `Polygon` con sus huecos, y uno con
@@ -44,7 +44,7 @@ create(path, digitab=None, crs="", *, version=3, template="", import_blocks=Fals
 | `path` | `str` | — | Ruta del archivo `.dwg`. Si existe, se sustituye. |
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. Da a cada código su capa (elemento `iodwg:transform`). Si no se indica, se usa una vacía y cada código va a una capa con su nombre. |
 | `crs` | `str` | `""` | Sistema de coordenadas: un WKT o `"EPSG:<código>"`. **Obligatorio**. Se escribe en un archivo `.prj` junto al dibujo. |
-| `version` | `int` | `3` | Versión de AutoCAD, de 0 a 7: 0 = 11/12, 1 = 13, 2 = 14, 3 = 2000, 4 = 2004, 5 = 2007, 6 = 2010, 7 = 2013. Fuera de rango, `ValueError`. |
+| `version` | `int` | `3` | Versión de AutoCAD, de 0 a 7, ambos incluidos: 0 = 11/12, 1 = 13, 2 = 14, 3 = 2000, 4 = 2004, 5 = 2007, 6 = 2010, 7 = 2013. Si el valor está fuera de rango, se lanza `ValueError`. |
 | `template` | `str` | `""` | Archivo `.dwg` que se usa como plantilla. Si está vacío, se crea un dibujo nuevo. |
 | `import_blocks` | `bool` | `False` | Al abrir un archivo existente, crea un `.bin` por cada bloque en `blocks_folder`. |
 | `blocks_folder` | `str` | `""` | Carpeta de los `.bin` de los bloques. |
@@ -71,7 +71,7 @@ Qué hace el exportador:
 - No escribe, y `add` devuelve `False`, un polígono con un anillo de menos de tres vértices ni una
   geometría que al leerla daría otros polígonos: partes de un `Complex` que se solapan, una parte
   dentro de otra sin estar en uno de sus huecos, o un hueco fuera de su polígono.
-- No escribe las geometrías cuyo código la tabla dice que no se exporta.
+- No escribe las geometrías cuyo código está marcado en la tabla de códigos para que no se exporte.
 - Sin `iodwg:transform`, escribe cada código en una capa con su nombre, y `warnings` lo indica.
 - Si junto al destino ya hay un `.prj` con el mismo nombre, lo **conserva** en lugar de escribir
   `crs`, y `warnings` lo avisa.
@@ -155,7 +155,7 @@ Polygon: [(500000.0, 4400000.0, 650.0), (500100.0, 4400000.0, 650.0), (500100.0,
 
 `parcelas.bind` es el archivo que crea el primer ejemplo de [digi21.io.bindouble](bindouble.md). El
 polígono de origen tiene Z 650, 652 y 655; el sombreado es plano y el polígono releído tiene la Z del
-primer vértice en todos.
+primer vértice en todos los vértices.
 
 ### Escribir un polígono con un hueco y una isla
 

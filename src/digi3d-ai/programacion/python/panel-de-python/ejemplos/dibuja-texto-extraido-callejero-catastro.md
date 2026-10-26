@@ -4,7 +4,7 @@
 Archivo: `dibuja_texto_extraido_callejero_catastro.py` · orden `DIBUJA_TEXTO_EXTRAIDO_CALLEJERO_CATASTRO`,
 **orden interactiva** ([PythonCommand](../../referencia/digi3d/python-command.md)) sin parámetros.
 
-La orden queda activa **esperando datos del usuario**: cada vez que se pulsa el botón de dato dentro de un
+La orden queda activa **esperando datos del usuario**: cada vez que pulsas el botón de dato dentro de un
 edificio, consulta al servicio web del Catastro de España el nombre y el número de calle de esas
 coordenadas e inserta un texto con esa información.
 
@@ -125,8 +125,8 @@ else:
   En ese caso no inserta ningún texto.
 - **Insertar el texto**: `digi3d.Text(texto, coordenadas)` crea un
   [Text](../../referencia/digi21.base/text.md) en esas coordenadas.
-- **Arranque**: al final, el guion comprueba que hay una ventana de dibujo abierta y que su código EPSG
-  horizontal (`v.epsg_codes[0]`) está en `codigos_epsg_compatibles`. Si las dos condiciones se cumplen,
+- **Arranque**: las últimas instrucciones del guion comprueban que hay una ventana de dibujo abierta y que el código EPSG
+  horizontal de la ventana (`v.epsg_codes[0]`) está en `codigos_epsg_compatibles`. Si las dos condiciones se cumplen,
   lanza la orden con `v.add_command(...)`, que la deja activa esperando datos. Si alguna no se cumple, el
   guion escribe el motivo en el panel de resultados y no lanza la orden.
 

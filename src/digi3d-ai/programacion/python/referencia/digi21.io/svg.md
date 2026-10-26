@@ -35,7 +35,7 @@ create(path, digitab=None, crs="", *, width=400) -> DrawingWriter
 | `path` | `str` | — | Ruta del archivo `.svg`. Si existe, se sustituye. |
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. **Imprescindible**: cada código necesita su elemento `iosvg:transform`. |
 | `crs` | `str` | `""` | Opcional. SVG no guarda el sistema de coordenadas. |
-| `width` | `int` | `400` | Ancho del lienzo en píxeles, de 1 a 100000. El alto mantiene la proporción del dibujo. Fuera de rango, `ValueError`. |
+| `width` | `int` | `400` | Ancho del lienzo en píxeles, de 1 a 100000, ambos incluidos. El alto mantiene la proporción del dibujo. Si el valor está fuera de rango, se lanza `ValueError`. |
 
 `width` es el parámetro del formato en la orden
 [PARAMETROS_IMPORTACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md),

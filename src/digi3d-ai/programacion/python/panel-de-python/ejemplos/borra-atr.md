@@ -4,7 +4,7 @@
 Archivo: `borra_atr.py` · orden `BORRA_ATR`, sin parámetros. También se puede ejecutar desde el
 [panel de Guiones Python](../README.md).
 
-Recorre todas las geometrías del dibujo y las sustituye por clones cuyos códigos son **nuevos, sin enlace
+La orden recorre todas las geometrías de la ventana de dibujo, incluidas las borradas y las de los archivos de referencia, y las sustituye por clones cuyos códigos son **nuevos, sin enlace
 a la base de datos** (sin tabla, ni registro, ni atributos).
 
 ## Cómo se usa
@@ -56,7 +56,7 @@ view.redraw()
   [`digi3d.FeatureCode(codigo.code)`](../../referencia/digi21.base/featurecode.md).
   - El constructor `FeatureCode(code)` recibe la cadena del código y crea un código sin tabla, ni
     identificador, ni atributos de base de datos.
-  - Para conservar la tabla y el registro hay que copiar también las propiedades `.table` e `.id` del
+  - Para conservar la tabla y el registro, copia también las propiedades `.table` e `.id` del
     código original, como hace el ejemplo [renomcod](renomcod-manteniendo-atributos.md).
 - `clon.codes = tuple(codes)` asigna la nueva lista de códigos al clon.
 - El guion acumula los clones en la lista `anadir` y los originales en la lista `eliminar`, y aplica los

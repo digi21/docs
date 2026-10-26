@@ -42,9 +42,9 @@ El formato no tiene parámetros en la orden
 Qué hace el exportador:
 
 - Escribe puntos, líneas, polígonos y textos. **No escribe complejos**: `add` devuelve `False`.
-- Toma la capa de cada código de su `iovec:transform`. Sin él, asigna una capa nueva a cada código,
-  numeradas desde 0 en el orden en que aparecen los códigos.
-- Escribe en un archivo temporal junto a `path` y lo sustituye al cerrar el escritor. Si no puede,
+- Toma la capa de cada código del elemento `iovec:transform` de ese código. Si un código no tiene `iovec:transform`, el exportador asigna una capa nueva a ese código
+  y numera las capas desde 0 en el orden en que aparecen los códigos.
+- Escribe en un archivo temporal junto a `path` y sustituye el archivo de destino al cerrar el escritor. Si no puede sustituir el destino,
   `close` lanza `RuntimeError`.
 
 Excepciones de `create`: `ValueError` si `crs` no es válido; `FileNotFoundError` si la carpeta de
@@ -96,8 +96,8 @@ for (capa, tipo), n in sorted(conteo.items()):
 2 Text 1
 ```
 
-Sin `iovec:transform`, los códigos `010123`, `040645` y `020402` han ido a las capas 0, 1 y 2, y al
-leer el código de cada geometría es el número de la capa.
+Sin `iovec:transform`, los códigos `010123`, `040645` y `020402` se han asignado a las capas 0, 1 y 2, respectivamente, y al
+leer el archivo, el código de cada geometría es el número de la capa.
 
 ### Convertir un archivo BinDouble a VEC
 

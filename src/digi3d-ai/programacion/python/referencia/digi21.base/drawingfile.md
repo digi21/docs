@@ -21,8 +21,8 @@ obtener sus [geometrías](geometry.md) una a una.
 | `for geometry in drawing:` | Recorre las geometrías del archivo, leyéndolas una a una. |
 
 > El recorrido es **perezoso**: las geometrías se leen del archivo según se itera. Cada
-> geometría mantiene abierto el archivo del que sale, así que sigue siendo válida después de soltar
-> el `DrawingFile` (por ejemplo, en `list(modulo.open(ruta))`). Trátalas como de solo lectura.
+> geometría mantiene abierto el archivo del que procede, así que sigue siendo válida aunque dejes de conservar una referencia
+> al `DrawingFile` (por ejemplo, en `list(modulo.open(ruta))`). Trata las geometrías del archivo como de solo lectura.
 
 ### Archivos cargados en Digi3D.AI
 

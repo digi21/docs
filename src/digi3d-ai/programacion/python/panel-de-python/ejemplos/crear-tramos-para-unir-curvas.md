@@ -5,7 +5,7 @@ Archivo: `crear_tramos_para_unir_curvas.py` · orden `CREAR_TRAMOS_PARA_UNIR_CUR
 el código de las curvas y la distancia máxima. Hay un [vídeo](https://youtu.be/9NV45QXFFvg) que explica el
 guion.
 
-Busca pares de curvas de nivel con el código indicado y la misma cota cuyos extremos estén a menos de la
+La orden busca pares de curvas de nivel con el código indicado y la misma cota cuyos extremos estén a menos de la
 distancia indicada, y dibuja una línea de dos vértices (un "tramo") que une esos extremos.
 
 ## Cómo se usa
@@ -113,7 +113,7 @@ else:
 
 ## Cómo funciona
 
-- **Comprobación de los parámetros**: `argv[0]` es el código y `argv[1]` la distancia. Si `argv` no tiene
+- **Comprobación de los parámetros**: `argv[0]` es el código y `argv[1]` es la distancia. Si `argv` no tiene
   exactamente dos elementos, o si la función `numero` no puede convertir la distancia en número, la
   función `error` emite el sonido de error y muestra el motivo y la forma de uso con
   [`digi3d.show_info`](../../referencia/digi3d/functions.md). `numero` sustituye la coma por un punto antes
@@ -123,14 +123,14 @@ else:
   coordenadas de la ventana.
 - `crea_tramos` selecciona con `list(filter(...))` las geometrías no borradas cuyo primer código es el
   código indicado.
-- **Acceso a los vértices**: `curva[0]` es el primer vértice y `curva[len(curva)-1]` el último; cada
+- **Acceso a los vértices**: `curva[0]` es el primer vértice y `curva[len(curva)-1]` es el último; cada
   vértice es una tupla `(x, y, z)`. `len(curva)` es el número de vértices.
 - `coordenadas_unir` decide si dos curvas se unen:
   - Descarta el par si la Z del primer vértice de las dos curvas es distinta.
   - Descarta el par si algún extremo de una curva coincide con algún extremo de la otra.
   - Prueba las combinaciones de extremos en este orden: origen-origen, origen-fin, fin-origen y fin-fin.
     Devuelve las dos coordenadas de la primera combinación cuya distancia es menor que `distancia`, o
-    `None` si ninguna lo es.
+    `None` si ninguna combinación cumple esa condición.
 - **Doble bucle** `i` / `j` (con `j` empezando en `i+1`): compara cada curva con las siguientes, así que
   cada par se evalúa una sola vez.
 - Por cada par válido, el guion crea una [Line](../../referencia/digi21.base/line.md) de dos vértices con

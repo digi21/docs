@@ -13,12 +13,12 @@ GeometryError(message, coordinates)
 | `message` | Descripción del error. |
 | `coordinates` | Tupla `(x, y, z)` con la posición del error, por ejemplo el vértice que lo provoca. |
 
-* Al digitalizar, Digi3D.AI abre el cuadro de diálogo **Error de control de calidad** con el mensaje. **Almacenar la geometría** la guarda y, si el error tiene coordenadas, desplaza la vista a ellas. **No almacenar la geometría** la descarta.
+* Al digitalizar, Digi3D.AI abre el cuadro de diálogo **Error de control de calidad** con el mensaje. La opción **Almacenar la geometría** guarda la geometría y, si el error tiene coordenadas, desplaza la vista a esas coordenadas. La opción **No almacenar la geometría** descarta la geometría.
 * Bajo demanda, Digi3D.AI añade una tarea de error al panel de tareas. Con coordenadas, la tarea lleva a esas coordenadas; sin coordenadas, encuadra la geometría. En un punto, la tarea lleva a la coordenada del punto.
 
 ## Ejemplo
 
-Del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). La función informa del primer vértice cuya Z es inferior a la del vértice anterior, con las coordenadas de ese vértice:
+El ejemplo procede del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). La función informa del primer vértice cuya Z es inferior a la del vértice anterior, con las coordenadas de ese vértice:
 
 ```python
 @quality_control()

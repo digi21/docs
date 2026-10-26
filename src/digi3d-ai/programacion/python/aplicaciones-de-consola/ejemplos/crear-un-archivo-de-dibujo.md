@@ -2,8 +2,8 @@
 <!-- id: crear-un-archivo-de-dibujo -->
 
 Cada módulo de `digi21.io` tiene, además de `open`, una función `create` que crea un archivo de
-dibujo y devuelve un [`DrawingWriter`](../../referencia/digi21.base/drawingwriter.md). Con él se
-escriben geometrías creadas desde Python o leídas de otro archivo, así que sirve tanto para
+dibujo y devuelve un [`DrawingWriter`](../../referencia/digi21.base/drawingwriter.md). Este escritor permite
+escribir geometrías creadas desde Python o leídas de otro archivo, así que sirve tanto para
 generar un dibujo desde cero como para **convertir un archivo de un formato a otro**.
 
 | Módulo | Formato |
@@ -47,7 +47,7 @@ print(writer.written, "entidades escritas en", writer.path)
   cierra**; sin `with`, llama a `writer.close()`.
 - El formato BIN guarda los códigos con 6 caracteres como máximo.
 
-Para comprobarlo, se lee con `open`:
+Abre el archivo creado con `open` para comprobar el contenido:
 
 ```python
 for geometry in bin_.open("parcelas.bin"):
@@ -63,7 +63,7 @@ Text ['ROTULO'] 1 vértices
 
 ## Convertir un archivo BIN a DXF
 
-Se abre el origen con `open` y se pasa cada geometría al escritor del formato de destino. El
+Abre el archivo de origen con `open` y pasa cada geometría al escritor del formato de destino. El
 sistema de coordenadas se copia con [`DrawingFile.crs`](../../referencia/digi21.base/drawingfile.md):
 
 ```python
@@ -125,7 +125,7 @@ traducción de la tabla, importa `digi21.io.dgn` antes de `DigiTab.load` (ver
 
 ## Errores
 
-Los parámetros incorrectos lanzan `ValueError`; por ejemplo, olvidar `crs`:
+Si pasas parámetros incorrectos, se lanza `ValueError`; por ejemplo, si omites `crs` en un formato que requiere ese parámetro:
 
 ```python
 import digi21.io.dxf as dxf
@@ -140,7 +140,7 @@ except ValueError as error:
 crs is required: this format stores the coordinate reference system. Pass a WKT string or 'EPSG:<code>'.
 ```
 
-Los errores del exportador llegan como `RuntimeError` con su mensaje.
+El exportador comunica los errores mediante `RuntimeError`, con el mensaje del error.
 
 ## Exportar el dibujo activo desde Digi3D.AI
 
@@ -158,8 +158,7 @@ view.run_command(r"EXPORTAR=C:\trabajos\parcelas.dxf")
 
 Sin la orden
 [PARAMETROS_IMPORTACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/parametros-importacion.md),
-EXPORTAR abre el cuadro de diálogo de parámetros del formato y espera a que el usuario lo
-acepte. Los valores son los mismos que los parámetros de `create`, en el orden de la página de
+EXPORTAR abre el cuadro de diálogo de parámetros del formato y espera a que aceptes el cuadro de diálogo. Los valores corresponden a los parámetros de `create` y se pasan en el orden indicado en la página de
 cada formato en
 [Importadores y exportadores](/digi3d-ai/referencia/ventana-de-dibujo/importadores-y-exportadores/README.md).
 EXPORTAR también puede abrir un cuadro de diálogo si no consigue transformar las coordenadas del

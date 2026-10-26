@@ -28,7 +28,7 @@ Hace lo mismo que el cuadro de abrir dibujo, sin mostrarlo. Si el archivo no exi
 crea.
 
 Digi3D.AI abre un solo dibujo a la vez: si ya hay uno abierto, la función lanza `RuntimeError`.
-Ciérralo antes con [`DrawingView.close()`](drawing-view.md#otros-métodos).
+Cierra el dibujo abierto con [`DrawingView.close()`](drawing-view.md#otros-métodos) antes de abrir otro dibujo.
 
 | Argumento | Tipo | Descripción |
 |---|---|---|
@@ -42,7 +42,7 @@ Ciérralo antes con [`DrawingView.close()`](drawing-view.md#otros-métodos).
 | `z_correction` | `float` | Corrección de Z. |
 | `sigma` | `float` | Sigma. |
 | `crs_wkt` | `str` | Sistema de coordenadas de la ventana de dibujo, en WKT. |
-| `references` | `list[str]` | Archivos de referencia que se cargan. Si no se indica, se cargan los archivos de referencia guardados con el dibujo. Un archivo que no estaba guardado queda guardado con el dibujo, igual que cuando lo carga el usuario. |
+| `references` | `list[str]` | Archivos de referencia que se cargan. Si no se indica `references`, se cargan los archivos de referencia guardados con el dibujo. Un archivo que no estaba guardado queda guardado con el dibujo, igual que cuando cargas ese archivo. |
 
 Los argumentos que no se pasan toman los últimos valores usados en el cuadro de abrir dibujo. Los que
 se pasan quedan como últimos valores usados, igual que con el cuadro; si el dibujo no se puede abrir,
@@ -53,7 +53,7 @@ ese formato.
 
 `open_drawing`, `open_project`, `load_model` y `open_photogrammetric_file` no muestran ningún cuadro de
 diálogo, para que un guion o un cliente MCP no se quede esperando a que el usuario conteste. Cuando
-Digi3D.AI preguntaría algo al usuario, la función toma la respuesta prudente y escribe un aviso que
+Digi3D.AI preguntaría algo al usuario, la función toma la respuesta indicada en la tabla y escribe un aviso que
 empieza por `Warning:` en la salida del guion:
 
 | Situación | Respuesta |
@@ -62,13 +62,13 @@ empieza por `Warning:` en la salida del guion:
 | La tabla de códigos no se puede cargar. | El dibujo no se abre. |
 | Hay que elegir la transformación entre dos sistemas de coordenadas y no hay ninguna guardada. | El archivo no se carga. Ábrelo una vez desde Digi3D.AI para elegirla; después se usa la guardada. |
 | Varios formatos pueden leer el archivo. | El archivo no se carga. |
-| El archivo no tiene sistema de coordenadas. | Lo mismo que cancelar el cuadro de selección del sistema de coordenadas. |
+| El archivo no tiene sistema de coordenadas. | Se obtiene el mismo resultado que al cancelar el cuadro de selección del sistema de coordenadas. |
 | Hay que elegir las capas o tablas del archivo. | El archivo no se carga. |
 | El proyecto fotogramétrico no tiene sistema de coordenadas. | Se carga con un sistema local, sin crear el archivo `.prj`. |
-| Cualquier otro mensaje con botones. | No, cancelar o abortar, según los botones del mensaje. |
+| Cualquier otro mensaje con botones. | La función elige No, cancelar o abortar, según los botones del mensaje. |
 
 Si `open_drawing` falla, el mensaje de la excepción incluye los avisos. Las órdenes de inicio que
-ejecutan la tabla de códigos y el dibujo al abrir la ventana también reciben las respuestas prudentes.
+ejecutan la tabla de códigos y el dibujo al abrir la ventana también reciben las respuestas indicadas en la tabla.
 
 Algunos cuadros no se pueden evitar todavía y siguen esperando al usuario: el aviso de licencia, la
 petición del sistema de coordenadas de un modelo de cámara cónica cuya aerotriangulación no lo tiene y
@@ -141,7 +141,7 @@ fotos, el nombre del modelo es `izquierda-derecha`, con los nombres de dos fotos
   segundo plano **después de que termine el guion**. Comprueba
   [`model_name`](photogrammetric-view.md#modelo-cargado) en un guion posterior.
 - Si no hay ninguna ventana, o con `new_window=True`, abre una ventana fotogramétrica nueva antes de
-  devolver.
+  devolver el control al guion.
 
 Lanza `RuntimeError` si no hay ningún proyecto cargado y `ValueError` si el proyecto no tiene ese
 modelo en el punto de vista seleccionado o si el panel muestra el modelo deshabilitado. Devuelve
@@ -163,8 +163,8 @@ if digi3d.open_project(r"C:\Proyectos\vuelo.d3dprj"):
 | `print_statusbar(message)` | Escribe un mensaje en la barra de estado. |
 | `show_ballon(title, body, icon=BallonType.Info, time=1000)` | Muestra un globo informativo temporal ([BallonType](enumerations.md#ballontype)). |
 | `progress(value=-1)` | Actualiza la barra de progreso (porcentaje). |
-| `ask_question(question)` |Muestra un diálogo modal Sí/No<br>devuelve `True` o `False`.|
-| `show_info(message)` | Muestra un diálogo modal con información para el usuario. |
+| `ask_question(question)` |Muestra un cuadro de diálogo modal Sí/No.<br>Devuelve `True` o `False`.|
+| `show_info(message)` | Muestra un cuadro de diálogo modal con información para el usuario. |
 
 ## Paneles de resultados y tareas
 

@@ -175,10 +175,10 @@ Explicación completa: [Unir curvas de nivel cercanas](panel-de-python/ejemplos/
 
 ### DIBUJA_TEXTO_EXTRAIDO_CALLEJERO_CATASTRO
 
-Orden interactiva. Cada vez que pulsas el botón de dato, la orden envía las coordenadas del punto al
+Esta orden es interactiva. Cada vez que pulsas el botón de dato, la orden envía las coordenadas del punto al
 servicio web de consulta por coordenadas del Catastro de España e inserta en el punto un texto con el campo
 `ldt` de la respuesta, que contiene la calle y el número del inmueble.
-Cada texto queda en una transacción propia, así que cada UNDO deshace un texto.
+Cada texto queda en una transacción propia, así que cada UNDO deshace la inserción de un texto.
 
 ```
 DIBUJA_TEXTO_EXTRAIDO_CALLEJERO_CATASTRO
@@ -208,7 +208,7 @@ Explicación completa: [Texto del callejero del Catastro](panel-de-python/ejempl
 
 ### DIBUJA_TEXTO_EXTRAIDO_SERVICIO_MAPAS_AZURE
 
-Orden interactiva. El parámetro es la clave (*subscription key*) de tu cuenta de Azure Maps. El primer dato
+Esta orden es interactiva. El parámetro es la clave (*subscription key*) de tu cuenta de Azure Maps. El primer dato
 fija el punto de inserción: la orden convierte el punto a coordenadas geográficas con `view.to_geo` y
 consulta el nombre de la calle al servicio de búsqueda inversa de Azure Maps. El segundo dato fija la
 orientación: la orden inserta un texto con el nombre de la calle, girado el ángulo que forman los dos
@@ -265,7 +265,7 @@ código de maestra o el de fina:
 1. Borra las geometrías cuya Z del primer vértice no es múltiplo de la equidistancia.
 2. Asigna el código de maestra a las geometrías cuya Z es múltiplo del intervalo de maestras por la
    equidistancia.
-3. Asigna el código de fina al resto.
+3. Asigna el código de fina a las demás geometrías seleccionadas.
 
 ```
 FILTRAR=020124 020123 1
@@ -275,7 +275,7 @@ Los parámetros son el código de maestra, el código de fina, la equidistancia 
 intervalo de maestras: cada cuántas curvas hay una maestra. Si no se indica el intervalo, vale 5. Con
 `FILTRAR=020124 020123 1 4`, la orden asigna el código de maestra a las curvas cuya Z es múltiplo de 4.
 
-La equidistancia tiene que ser un número mayor que cero, y el intervalo de maestras un número entero mayor
+La equidistancia, expresada en las mismas unidades que las cotas Z del dibujo, tiene que ser un número mayor que cero, y el intervalo de maestras tiene que ser un número entero mayor
 que cero. La orden redondea la Z a tres decimales antes de comparar. Para cambiar el código, la orden añade
 un clon y borra la geometría original. El clon tiene un único código, el nuevo, sin tabla ni registro: la
 orden no conserva los demás códigos de la geometría.
@@ -291,7 +291,7 @@ Explicación completa: [Filtrar curvas (finas y maestras)](panel-de-python/ejemp
 
 ### PREFIJA_COD
 
-Orden interactiva. Con cada dato, la orden selecciona la geometría más próxima del archivo de dibujo activo
+Esta orden es interactiva. Con cada dato, la orden selecciona la geometría más próxima del archivo de dibujo activo
 y antepone el prefijo indicado a sus códigos. No cambia los códigos que ya empiezan por `ACT_`, por `BAI_` o
 por el prefijo indicado. Cada código conserva su tabla y su registro, y cada geometría modificada queda en
 una transacción propia.
@@ -350,8 +350,7 @@ nuevo conserva la tabla y el registro del código sustituido. Los demás código
 RENOMCOD_MANTENIENDO_ATRIBUTOS=A B
 ```
 
-La orden necesita exactamente dos parámetros. El comentario del guion indica que el archivo de dibujo se
-abra sin conexión a una base de datos.
+La orden necesita exactamente dos parámetros. El comentario del guion indica que debes abrir el archivo de dibujo sin conexión a una base de datos.
 
 ```python
 nuevo = digi3d.FeatureCode(códigoDestino)

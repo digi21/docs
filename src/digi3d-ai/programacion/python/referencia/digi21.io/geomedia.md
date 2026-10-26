@@ -54,7 +54,7 @@ Requisito de la tabla de códigos: cada código que se escribe necesita un eleme
 
 Qué hace el exportador:
 
-- Añade cada geometría a la clase de entidad de su código. Una geometría de otro tipo que su clase
+- Añade cada geometría a la clase de entidad de su código. Una geometría cuyo tipo no coincide con el de su clase
   (una línea abierta en una clase de áreas) se rechaza: `add` devuelve `False` y `warnings` lo indica.
 
 Excepciones de `create`: `FileNotFoundError` si `path` no existe; `RuntimeError` si el almacén no

@@ -3,7 +3,7 @@
 
 Módulo: `digi3d`
 
-Tipos para informar de errores y advertencias en los [controles de calidad](../../controles-de-calidad/README.md). La función de control de calidad los **devuelve** con `return` (uno, o una lista de ellos) para indicar que la geometría que se está analizando tiene un problema. No derivan de `BaseException`, así que `raise` no los admite.
+Estos tipos permiten informar de errores y advertencias en los [controles de calidad](../../controles-de-calidad/README.md). La función de control de calidad **devuelve** con `return` una instancia de estos tipos o una lista de instancias para indicar que la geometría que se está analizando tiene un problema. Los tipos de error y advertencia no derivan de `BaseException`, así que `raise` no admite instancias de estos tipos.
 
 ## GeometryError
 
@@ -21,7 +21,7 @@ GeometryError(message, coordinates)
 
 ## GeometryRelationError
 
-Error en la relación entre la geometría analizada y otra(s).
+Error en la relación entre la geometría analizada y una o varias geometrías.
 
 ```python
 GeometryRelationError(otherGeometry, message)

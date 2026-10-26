@@ -3,7 +3,7 @@
 
 Módulo: [digi21.base](README.md)
 
-Clase base de todas las geometrías. Define las propiedades, los métodos y el acceso a
+Esta clase es la base de todas las geometrías. Define las propiedades, los métodos y el acceso a
 coordenadas comunes a [Point](point.md), [Text](text.md), [Line](line.md),
 [Polygon](polygon.md) y [Complex](complex.md). No se construye directamente.
 
@@ -41,18 +41,18 @@ Toda geometría se comporta como una secuencia de vértices `(x, y, z)`:
 | Método | Devuelve | Descripción |
 |---|---|---|
 | `clone()` | `Geometry` | Devuelve un clon de la geometría. |
-| `compute_bounds()` | — | Recalcula las máximas y mínimas a partir de las coordenadas. |
+| `compute_bounds()` | — | Recalcula las coordenadas máximas y mínimas de la caja envolvente a partir de las coordenadas de la geometría. |
 | `transform(function)` | — | Aplica una función `(x, y, z) -> (x, y, z)` a todas las coordenadas. |
-| `displace(delta)` | — | Desplaza la geometría el `(dx, dy, dz)` indicado. |
-| `maxmin_overlaps(other)` | `bool` | Verdadero si las cajas envolventes 3D solapan. |
-| `maxmin_overlaps_2d(other)` | `bool` | Verdadero si las cajas envolventes 2D (en planta) solapan. |
+| `displace(delta)` | — | Desplaza la geometría según el vector `(dx, dy, dz)` indicado. |
+| `maxmin_overlaps(other)` | `bool` | Verdadero si las cajas envolventes de la geometría y de `other` en tres dimensiones (3D) se solapan. |
+| `maxmin_overlaps_2d(other)` | `bool` | Verdadero si las cajas envolventes de la geometría y de `other` en dos dimensiones (2D, en planta) se solapan. |
 | `identical_xy(other)` | `bool` | Verdadero si las dos geometrías son idénticas en planta (XY). |
 | `nearest_vertex_segment(coordinates)` | `tuple` | Vértice y segmento más cercanos: `(n_vertice, dist_vertice, (x,y,z), n_segmento, dist_segmento, (x,y,z))`. |
 | `completely_inside(window)` | `bool` | Verdadero si está completamente dentro de la ventana (una [Line](line.md)). |
 | `completely_outside(window)` | `bool` | Verdadero si está completamente fuera de la ventana (una [Line](line.md)). |
 | `overlaps_window(window, inside=True)` | `bool` | Verdadero si solapa con la ventana (una [Line](line.md)). |
 | `has_code(name)` | `bool` | Verdadero si la geometría tiene el código indicado. |
-| `add_code(code)` | `bool` |Añade un código (`FeatureCode` o `str`)<br>devuelve `True` si se añadió.|
+| `add_code(code)` | `bool` |Añade un código (`FeatureCode` o `str`).<br>Devuelve `True` si se añadió.|
 | `remove_code(code)` | — | Elimina el código indicado (`FeatureCode` o `str`). |
 
 ## Relaciones espaciales
@@ -64,7 +64,7 @@ resuelven según el **tipo concreto** de las dos geometrías. En `within`, `adja
 
 > Estas relaciones se basan en los **vértices y nodos compartidos**, no en intersecciones
 > calculadas. Las comparaciones se hacen en planta, sin tener en cuenta la coordenada Z.
-> Si la combinación de tipos no soporta la relación, se lanza `TypeError`.
+> Si la combinación de tipos no admite la relación, se lanza `TypeError`.
 
 | Método | `self` | Argumento | Verdadero si… |
 |---|---|---|---|
@@ -105,7 +105,7 @@ estas.
 Para cada vértice de un área se comprueba si coincide con un vértice de la otra área
 (vértice común) o si está dentro o fuera de la otra área. Un vértice dentro de un hueco
 cuenta como fuera. Un vértice sobre un lado de la otra área que no coincide con ningún
-vértice suyo se ignora. El resultado no depende del vértice inicial ni del sentido de
+vértice de esa área se ignora. El resultado no depende del vértice inicial ni del sentido de
 recorrido de los anillos.
 
 | Relación | Condición |

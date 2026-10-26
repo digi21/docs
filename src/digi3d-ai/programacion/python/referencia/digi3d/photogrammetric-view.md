@@ -18,7 +18,7 @@ if p is not None:
 ```
 
 El objeto no queda ligado a una ventana concreta: cada propiedad y cada método actúan sobre la ventana
-fotogramétrica activa en el momento de la llamada. Si el usuario cierra todas las ventanas
+fotogramétrica activa en el momento de la llamada. Si cierras todas las ventanas
 fotogramétricas, la llamada lanza `RuntimeError`.
 
 ## Posición del cursor y zoom
@@ -36,7 +36,7 @@ Después de asignar una posición o un zoom, vuelve a leer la propiedad para con
 | Método | Descripción |
 |---|---|
 | `go_to_origin()` | Mueve el cursor al punto de origen del modelo. |
-| `close()` | Cierra la ventana fotogramétrica activa, igual que cuando la cierra el usuario. Devuelve `False` si la ventana sigue abierta. |
+| `close()` | Cierra la ventana fotogramétrica activa, igual que cuando cierras la ventana. Devuelve `False` si la ventana sigue abierta. |
 
 ```python
 p = digi3d.photogrammetric_view()

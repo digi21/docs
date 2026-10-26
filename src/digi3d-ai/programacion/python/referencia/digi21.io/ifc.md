@@ -47,8 +47,8 @@ Qué escribe el exportador:
 
 - Solo **caras**: líneas o polígonos de **más de tres vértices** cuyos códigos son `LIMEXT` seguido de
   las componentes x, y y z de su normal. Rechaza cualquier otra geometría, y `warnings` lo explica.
-- Una cara cuya normal tiene una z menor que 0,1 es un muro (`IfcWall`); el resto, un forjado
-  (`IfcSlab`). Las dos se extruyen 0,3 m a lo largo de la normal.
+- Una cara cuya normal tiene una componente Z menor que 0,1 es un muro (`IfcWall`); las demás caras son forjados
+  (`IfcSlab`). Las caras de ambos tipos se extruyen 0,3 m a lo largo de la normal.
 - Una geometría no repite códigos, así que las componentes iguales de la normal se escriben con
   textos distintos: `["LIMEXT", "1", "0", "0.0"]`.
 - Escribe el modelo al cerrar el escritor.

@@ -5,9 +5,9 @@ En el repositorio de GitHub
 [**Guiones-Control-Calidad-Python-Digi3D**](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D)
 hay una colección de controles de calidad listos para usar y adaptar.
 
-Es un único `guiones.py` que reúne muchas funciones de control (decoradas con
-`@quality_control()`), junto con reglas de representación dinámica. Para usarlas, se carga el
-contenido en la pestaña *Entorno Python* del **Editor de Tablas de Códigos** y se asignan los controles
+El repositorio contiene un único archivo `guiones.py` que reúne funciones de control (decoradas con
+`@quality_control()`), junto con reglas de representación dinámica. Para usar estas funciones, carga el
+contenido del archivo en la pestaña *Entorno Python* del **Editor de Tablas de Códigos** y asigna los controles
 deseados a cada código.
 
 Algunos ejemplos de lo que comprueban:

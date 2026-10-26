@@ -4,9 +4,9 @@
 Archivo: `filtrar.py` · orden `FILTRAR` con parámetros: código de maestra, código de fina, equidistancia
 y, de forma opcional, intervalo de maestras.
 
-Reproduce el antiguo programa **FILTRAR** de Digi para MS-DOS. Para una equidistancia dada:
+La orden reproduce el antiguo programa **FILTRAR** de Digi para MS-DOS. Para una equidistancia dada:
 
-1. **Elimina** las curvas cuya cota no encaja con la escala (por ejemplo, una curva en Z = 100,5 cuando la
+1. **Elimina** las curvas cuya cota no es múltiplo de la equidistancia (por ejemplo, con las cotas Z y la equidistancia expresadas en metros, una curva en Z = 100,5 cuando la
    equidistancia es 1).
 2. **Reasigna** el código de curva fina o maestra según la cota.
 
@@ -154,9 +154,9 @@ else:
   - Si todas se cumplen, el guion llama a `filtrar` con el intervalo de maestras indicado o, si no hay
     cuarto parámetro, con 5.
 - **La matemática de las curvas** (las tres funciones `es_*`):
-  - `es_curva_fina_o_maestra`: la cota encaja con la escala si es múltiplo de la equidistancia.
+  - `es_curva_fina_o_maestra`: comprueba si la cota es múltiplo de la equidistancia.
   - `es_maestra`: además, la cota es múltiplo de `intervalo_maestras` × equidistancia.
-  - `es_fina`: la cota encaja con la escala pero **no** es maestra.
+  - `es_fina`: comprueba si la cota es múltiplo de la equidistancia pero **no** corresponde a una curva maestra.
   - El `factorEscala` multiplica los valores por 10^3 después de redondear la cota a tres decimales, y la
     comparación usa una tolerancia de `1e-5`. Así el módulo (`%`) no depende de los errores de redondeo de
     los números decimales. La equidistancia del archivo de dibujo se puede consultar también con

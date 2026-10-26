@@ -29,7 +29,7 @@ códigos cada vez que la tabla cambia. Para instalar `guiones.py`:
 Sin conexión a Internet, descarga `guiones.py` desde GitHub (botón **Download raw file**), copia su
 contenido y pégalo en el editor de la pestaña **Entorno Python**.
 
-El paso 3 borra las funciones propias que hubiera en la pestaña. Cópialas antes y pégalas después al final
+El paso 3 borra las funciones propias que hubiera en la pestaña. Copia las funciones propias de la pestaña antes de descargar `guiones.py` y pégalas al final
 del contenido descargado. Las tablas de códigos de versiones anteriores de Digi3D se actualizan con el
 procedimiento de
 [Actualizar los controles de calidad Python de una tabla de códigos](../../../usuarios-de-versiones-anteriores/actualizar-guiones-python.md).
@@ -99,7 +99,7 @@ def compara_codigos_con_comodines(codigo_a, codigo_b):
 
 Los controles de relación entre geometrías recorren las geometrías no borradas de todos los archivos
 cargados (el archivo de dibujo y los archivos de referencia) con la función auxiliar `alguna_geometria`,
-que salta la geometría analizada:
+que omite la geometría analizada:
 
 ```python
 for g in no_eliminadas(digi3d.current_view()):

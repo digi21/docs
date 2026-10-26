@@ -1,7 +1,7 @@
 # Exportar a VEC, IFC, GeoMedia y PostGIS
 <!-- id: exportar-a-vec-ifc-geomedia-y-postgis -->
 
-Cuatro módulos con particularidades propias: VEC e IFC crean archivos nuevos, mientras que GeoMedia y
+Los módulos VEC e IFC crean archivos nuevos, mientras que GeoMedia y
 PostGIS **añaden** geometrías a una base de datos que ya existe y ya tiene las capas.
 
 ## VEC e IFC
@@ -39,17 +39,17 @@ Complex ['IfcSlab'] 2 líneas
 ```
 
 - **VEC**: sin un elemento `iovec:transform` en la tabla de códigos, el exportador asigna una capa a
-  cada código, y al releer el código es el número de esa capa (`'0'`). El exportador escribe en un
-  archivo temporal y sustituye el destino al cerrar; si no puede, `close` lanza `RuntimeError`.
+  cada código, y al releer el archivo, el código es el número de esa capa (`'0'`). El exportador escribe en un
+  archivo temporal y sustituye el archivo de destino al cerrar el escritor; si no puede sustituir el archivo de destino, `close` lanza `RuntimeError`.
 - **IFC**: solo se escriben caras con el código `LIMEXT` seguido de las componentes de su normal.
-  Con la z de la normal por debajo de 0,1 la cara es un muro (`IfcWall`); si no, un forjado
-  (`IfcSlab`). Las dos se extruyen 0,3 m. Al releer, cada una es un complejo con las aristas del
+  Con la componente Z de la normal por debajo de 0,1, la cara es un muro (`IfcWall`); si no, un forjado
+  (`IfcSlab`). Las caras de ambos tipos se extruyen 0,3 m. Al releer el archivo, cada cara es un complejo con las aristas del
   sólido. La línea `messageCallback not set…` la escribe la biblioteca de IFC al leer el archivo.
 
 ## GeoMedia
 
 `digi21.io.geomedia` abre un almacén GeoMedia en Access (`.mdb`) que ya tiene sus clases de entidad
-en la tabla `GFeatures`, y le añade las geometrías. El exportador no sabe crear el almacén ni sus
+en la tabla `GFeatures`, y le añade las geometrías. El exportador no puede crear el almacén ni las
 capas: los archivos semilla de GeoMedia no tienen capas y no sirven como destino.
 
 ```python

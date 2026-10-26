@@ -3,7 +3,7 @@
 
 Módulo: [crskit](README.md)
 
-Programas completos que usan el paquete `crskit` con la base de datos de EPSG y las rejillas que
+Los programas de ejemplo usan el paquete `crskit` con la base de datos del catálogo de parámetros geodésicos EPSG y las rejillas que
 instala Digi3D.AI en `C:\ProgramData\Digi3D.NET\OpenGis\`. La salida de cada ejemplo se ha obtenido
 ejecutando el programa con `crskit` 0.6.0 y la base de datos de EPSG 12.057.
 
@@ -13,7 +13,7 @@ Antes de ejecutar los ejemplos, instala el paquete:
 pip install crskit
 ```
 
-En un equipo sin Digi3D.AI, instala `pip install crskit[epsg]`, cambia la llamada a `crskit.init` por
+En un equipo sin Digi3D.AI, ejecuta `pip install crskit[epsg]`, cambia la llamada a `crskit.init` por
 `crskit.init(data_directory=...)` con la carpeta de las rejillas y consulta
 [Inicialización](inicializacion.md).
 
@@ -23,7 +23,7 @@ puntos con NumPy.
 
 ## Convertir un punto de ETRS89 / UTM 30N a geográficas
 
-Convierte las coordenadas UTM de la Puerta del Sol de Madrid (EPSG:25830) a coordenadas geográficas
+El programa convierte las coordenadas UTM de la Puerta del Sol de Madrid (EPSG:25830) a coordenadas geográficas
 ETRS89 (EPSG:4258).
 
 ```python
@@ -56,7 +56,7 @@ EPSG:4258 declara primero la latitud, así que `transform` devuelve `[latitud, l
 
 ## Convertir de ETRS89 / UTM 30N + altura de Alicante a ETRS89 geográficas 3D
 
-Convierte un punto con coordenadas UTM y altura ortométrica (altura sobre el nivel medio del mar en
+El programa convierte un punto con coordenadas UTM y altura ortométrica (altura sobre el nivel medio del mar en
 Alicante, EPSG:5782) a coordenadas geográficas ETRS89 con altura elipsoidal (EPSG:4937). EPSG no tiene
 código para el SRC compuesto UTM 30N + altura de Alicante, así que el programa lo crea con
 `compound_crs`.
@@ -104,7 +104,7 @@ geoide EGM08-REDNAP está 51,112 m por encima del elipsoide.
 
 ## Leer el WKT de un sistema
 
-Escribe el WKT de ETRS89 / UTM 30N en tres dialectos, guarda un archivo `.prj` con el dialecto de ESRI
+El programa escribe la representación textual WKT (*Well-Known Text*) de ETRS89 / UTM 30N en tres dialectos, guarda un archivo `.prj` con el dialecto de ESRI
 y crea un SRC a partir de ese archivo.
 
 ```python

@@ -99,11 +99,11 @@ cerradas.
 ### si_es_linea_no_puede_cruzar_linea
 
 Este control compara la línea analizada con las geometrías de tipo `Line` no borradas que tienen los códigos
-del parámetro y cuya caja envolvente en planta se solapa con la de la línea analizada. Salta el resto de
+del parámetro y cuya caja envolvente en planta se solapa con la de la línea analizada. Omite las geometrías de otros
 tipos, porque `cross_vertices` solo admite dos líneas. Por cada cruce devuelve un
 [GeometryRelationError](../referencia/digi3d/exceptions.md) con la otra geometría, el `mensaje` y las
 coordenadas del vértice de cruce. En tiempo real (`adding_geometry` vale `True`) devuelve solo el primer
-cruce. Este control también salta la geometría analizada.
+cruce. Este control tampoco compara la geometría analizada consigo misma.
 
 ```python
 for candidato in candidatos:

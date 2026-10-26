@@ -6,8 +6,8 @@ orden (por su nombre, desde la consola de órdenes) y como control de calidad.
 
 ## 1. Desde el panel de Guiones Python
 
-Un panel acoplable (menú **Ventana/Guion Python**) donde puedes **teclear o pegar** un guion y
-ejecutarlo al momento. Es lo más cómodo para probar y para tareas puntuales. Se describe en
+El panel de Guiones Python es un panel acoplable (menú **Ventana/Guion Python**) donde puedes **teclear o pegar** un guion y
+ejecutarlo al momento. Permite probar guiones y realizar tareas puntuales. El panel se describe en
 [Guion Python](../../../referencia/paneles/guion-python.md).
 
 ```python
@@ -31,7 +31,7 @@ Puedes ejecutar un guion **por su nombre**, como si fuera una orden nativa de Di
 
 Cuando el nombre **no** corresponde a ninguna orden nativa, Digi3D.AI busca en el directorio
 de macroinstrucciones un archivo `.py` que se llame igual; si lo encuentra, lo carga en el
-intérprete y lo ejecuta pasándole los parámetros. Para el usuario es como una orden más.
+intérprete y lo ejecuta pasándole los parámetros. Puedes ejecutar el guion como cualquier otra orden.
 
 Por ejemplo, con `FILTRAR.py` en el directorio de macroinstrucciones, al escribir:
 
@@ -69,7 +69,7 @@ distancia = float(argv[1]) if len(argv) > 1 else 1.0
 
 Una función de Python puede actuar como **control de calidad** de un código: Digi3D.AI la
 ejecuta sobre las geometrías que tienen ese código para comprobar que cumplen ciertas reglas,
-ya sea bajo demanda o en tiempo real mientras se digitaliza. Se explican en
+ya sea bajo demanda o en tiempo real mientras digitalizas la geometría. Los controles se explican en
 [Controles de calidad](../controles-de-calidad/README.md).
 
 ## Véase también

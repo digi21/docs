@@ -55,8 +55,8 @@ produce un `TypeError`.
 
 `debe_tener_ancho_y_alto_mayor_o_igual_valor_o_linea(ancho, alto)` calcula las dimensiones de la caja
 envolvente en planta de la geometría. La dimensión menor tiene que ser mayor o igual que `ancho` y la mayor,
-mayor o igual que `alto`. Si no lo son, el control devuelve un `GeometryError` con los valores de `ancho` y
-`alto` que indica que la geometría debería haberse digitalizado como una línea.
+mayor o igual que `alto`. Si la dimensión menor es inferior a `ancho` o la mayor es inferior a `alto`, el control devuelve un `GeometryError` con los valores de `ancho` y
+`alto` y un mensaje que indica que la geometría debería haberse digitalizado como una línea.
 
 ```python
 ancho_geometria = geometry.max[0] - geometry.min[0]
@@ -70,9 +70,9 @@ if min(ancho_geometria, alto_geometria) >= ancho and max(ancho_geometria, alto_g
 
 `no_puede_estar_a_menor_distancia_que(código_o_etiqueta_puntos_analizar, distancia)` solo actúa si la
 geometría analizada es un punto. Recorre las geometrías no borradas que tienen los códigos del parámetro,
-salta la geometría analizada y calcula la distancia en planta entre el punto y cada vértice de cada
+omite la geometría analizada y calcula la distancia en planta entre el punto y cada vértice de cada
 geometría con la calculadora geográfica. Las geometrías con algún vértice a menos de `distancia` se añaden
-a la lista de error. En tiempo real el control se detiene en la primera.
+a la lista de error. En tiempo real, el control se detiene en la primera geometría que tiene un vértice a una distancia del punto analizado menor que `distancia`.
 
 Si la lista no está vacía, el control devuelve un
 [GeometryRelationError](../referencia/digi3d/exceptions.md) con la lista y el mensaje «Este punto está muy

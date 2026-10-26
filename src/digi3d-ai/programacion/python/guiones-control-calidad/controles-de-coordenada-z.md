@@ -8,7 +8,7 @@ la coordenada Z de los vértices de la geometría analizada. La página
 asigna un control a un código.
 
 Todos devuelven un [GeometryError](../referencia/digi3d/exceptions.md) con las coordenadas del vértice que
-falla, salvo los dos controles de curvas maestras y finas, que no indican coordenadas.
+incumple la condición, salvo los dos controles de curvas maestras y finas, que no indican coordenadas.
 
 ## Evolución de la Z a lo largo de la geometría
 
@@ -67,7 +67,7 @@ def es_maestra(coordenada_z, equidistancia, intervalo_maestras=5):
 
 Estos controles proyectan cada vértice sobre el terreno con el método `project` de la
 [ventana de dibujo](../referencia/digi3d/drawing-view.md). Si un vértice no se puede proyectar, el control
-lo salta. El parámetro `distancia` es la diferencia de Z permitida. El control devuelve el error en el
+omite ese vértice. El parámetro `distancia` es la diferencia de Z permitida, expresada en las mismas unidades que la coordenada Z del dibujo. El control devuelve el error en el
 primer vértice que no cumple la condición.
 
 | Control | Da error si |
@@ -104,7 +104,7 @@ El control toma las geometrías no borradas que tienen esos códigos y cuya caja
 solapa con la de la geometría analizada. Después llama a `digi3d.get_intersections`, que devuelve los
 vértices de la geometría analizada que coinciden en planta con un vértice de otra geometría. Un cruce entre
 dos segmentos sin vértice común no es un punto de contacto para estos controles. En cada punto de contacto,
-el control calcula el valor absoluto de la diferencia entre la Z del vértice de cada geometría.
+el control calcula el valor absoluto de la diferencia entre las Z de los vértices que coinciden en planta.
 
 | Control | Da error si la diferencia es |
 |---|---|
@@ -114,8 +114,8 @@ el control calcula el valor absoluto de la diferencia entre la Z del vértice de
 | `al_tocar_lineas_debe_haber_una_diferencia_de_z_superior_o_igual_a` | Menor que `tolerancia`. |
 | `al_tocar_lineas_debe_haber_una_diferencia_de_z_igual_a` | Distinta de `tolerancia`. |
 
-Los cinco controles devuelven una lista con un `GeometryError` por cada punto de contacto que falla, con las coordenadas del vértice de la
-geometría analizada. En tiempo real devuelven solo el primero.
+Bajo demanda, los cinco controles devuelven una lista con un `GeometryError` por cada punto de contacto que incumple la condición, con las coordenadas del vértice de la
+geometría analizada. En tiempo real devuelven solo el primer error.
 
 ```python
 intersecciones = digi3d.get_intersections(geometry, candidatos)

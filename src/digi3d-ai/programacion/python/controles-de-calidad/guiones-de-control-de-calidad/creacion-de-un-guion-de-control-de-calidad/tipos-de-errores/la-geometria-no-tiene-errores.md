@@ -7,7 +7,7 @@ Digi3D.AI pasa entonces a la siguiente línea de la propiedad **Controles de cal
 
 ## Ejemplo
 
-Del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). La función devuelve `None` en cuanto comprueba que la Z mínima y la máxima de la geometría coinciden:
+El ejemplo procede del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). La función devuelve `None` en cuanto comprueba que la Z mínima y la máxima de la geometría coinciden:
 
 ```python
 @quality_control()

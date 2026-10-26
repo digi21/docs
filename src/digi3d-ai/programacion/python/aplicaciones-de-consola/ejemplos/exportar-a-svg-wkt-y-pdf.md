@@ -1,7 +1,7 @@
 # Exportar a SVG, WKT y PDF
 <!-- id: exportar-a-svg-wkt-y-pdf -->
 
-Tres formatos que no guardan el sistema de coordenadas, así que en los tres `crs` es opcional:
+Los siguientes tres formatos no guardan el sistema de coordenadas, así que en los tres `crs` es opcional:
 
 - `digi21.io.svg` dibuja las geometrías en un lienzo SVG con el color, el grosor y el relleno de
   cada código.
@@ -64,7 +64,7 @@ b'%PDF-1.7'
   <iosvg:transform stroke-width="1.000000" stroke="#ad159d" stroke-linejoin="miter" stroke-linecap="butt" fill="0" fill-color="#ad159d" point-size="1.000000" />
   ```
 
-  En la tabla de este ejemplo el código `040645` no lo tiene, así que su línea se rechaza.
+  En la tabla de este ejemplo, el código `040645` no tiene el elemento `iosvg:transform`, así que la línea con ese código se rechaza.
 - `width` es el ancho del lienzo en píxeles; el alto mantiene la proporción del dibujo.
 - SVG es 2D: al releer con `svg.open`, la Z es 0 y los polígonos son líneas cerradas.
 

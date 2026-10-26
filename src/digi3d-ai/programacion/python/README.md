@@ -16,7 +16,7 @@ Digi3D.AI se puede **programar en Python**. Según dónde y cómo se ejecute el 
 
 ## Aplicaciones de consola
 
-Programas de Python **normales**, ejecutados en un intérprete de tu sistema **fuera de
+Las aplicaciones de consola son programas de Python ejecutados en un intérprete de tu sistema **fuera de
 Digi3D.AI**, que usan los paquetes `digi21.base` y `digi21.io` para **leer, procesar y crear
 archivos de dibujo** (convertir de un formato a otro, extraer información, generar informes…). No
 usan el objeto `digi3d`.
@@ -27,7 +27,7 @@ usan el objeto `digi3d`.
 
 ## Panel de Python
 
-Guiones que se ejecutan **dentro de Digi3D.AI**, con acceso al **dibujo activo** a través del
+El panel de Python permite ejecutar guiones **dentro de Digi3D.AI**, con acceso al **dibujo activo** a través del
 objeto `digi3d`. Se lanzan desde el panel de Guiones Python o como una orden por su nombre.
 
 - [Ir a la sección](panel-de-python/README.md)
@@ -36,7 +36,7 @@ objeto `digi3d`. Se lanzan desde el panel de Guiones Python o como una orden por
 
 ## Controles de calidad
 
-Funciones que **validan las geometrías** de un código (en tiempo real mientras se digitaliza o
+Los controles de calidad son funciones que **validan las geometrías** de un código (en tiempo real mientras se digitaliza o
 bajo demanda). También usan el objeto `digi3d`.
 
 - [Ir a la sección](controles-de-calidad/README.md)

@@ -4,8 +4,8 @@
 Archivo: `renomcod_manteniendo_atributos.py` · orden `RENOMCOD_MANTENIENDO_ATRIBUTOS` con dos parámetros:
 el código origen y el código destino.
 
-Cambia un código por otro **conservando la tabla y el registro** de base de datos. La orden estándar
-`RENOMCOD` puede perderlos según la conexión a la base de datos o la configuración de la tabla de códigos.
+La orden cambia un código por otro **conservando la tabla y el registro** de base de datos. La orden estándar
+`RENOMCOD` puede perder la tabla y el registro según la conexión a la base de datos o la configuración de la tabla de códigos.
 
 ## Cómo se usa
 
@@ -88,7 +88,7 @@ else:
 
 ## Cómo funciona
 
-- **Parámetros**: `argv[0]` es el código origen y `argv[1]` el código destino. Si `argv` no tiene
+- **Parámetros**: `argv[0]` es el código origen y `argv[1]` es el código destino. Si `argv` no tiene
   exactamente dos elementos, la función `error` emite el sonido de error y muestra el motivo y la forma de
   uso con [`digi3d.show_info`](../../referencia/digi3d/functions.md).
 - `TieneElCódigo` comprueba si la geometría tiene el código origen.

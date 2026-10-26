@@ -17,14 +17,14 @@ GeometryRelationError(geometries, message, coordinates)
 | `message` | Descripción del error. |
 | `coordinates` | Tupla `(x, y, z)` con la posición del error. |
 
-* Al digitalizar, Digi3D.AI lo trata como un `GeometryError`: abre el cuadro de diálogo **Error de control de calidad**.
-* Bajo demanda, Digi3D.AI añade una tarea de error al panel de tareas con una subtarea para la geometría analizada y otra para cada geometría relacionada. Si el error tiene coordenadas, la tarea principal lleva a ellas.
+* Al digitalizar, Digi3D.AI trata un `GeometryRelationError` como un `GeometryError`: abre el cuadro de diálogo **Error de control de calidad**.
+* Bajo demanda, Digi3D.AI añade una tarea de error al panel de tareas con una subtarea para la geometría analizada y otra para cada geometría relacionada. Si el error tiene coordenadas, al hacer doble clic en la tarea principal, Digi3D.AI desplaza la vista a las coordenadas del error.
 
 Para localizar las otras geometrías, la función recorre la ventana de dibujo con `digi3d.current_view()`.
 
 ## Ejemplo
 
-Del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). `no_eliminadas`, `cuyas_maximas_minimas_solapen_con` y `que_tengan_el_codigo_o_etiqueta` son funciones auxiliares del mismo archivo `guiones.py`. Al digitalizar, la función devuelve el primer cruce; bajo demanda, devuelve una lista con todos:
+El ejemplo procede del repositorio [Guiones-Control-Calidad-Python-Digi3D](https://github.com/digi21/Guiones-Control-Calidad-Python-Digi3D). `no_eliminadas`, `cuyas_maximas_minimas_solapen_con` y `que_tengan_el_codigo_o_etiqueta` son funciones auxiliares del archivo `guiones.py`. Si la geometría analizada es una línea y hay cruces, `si_es_linea_no_puede_cruzar_linea` devuelve un `GeometryRelationError` para el primer cruce al digitalizar, o una lista de `GeometryRelationError` con los cruces detectados bajo demanda:
 
 ```python
 @quality_control()

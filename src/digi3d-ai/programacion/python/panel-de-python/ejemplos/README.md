@@ -12,7 +12,7 @@ Puedes ejecutarlos de dos maneras:
   copia el `.py` en tu directorio de macroinstrucciones y edita esa copia, que tiene prioridad sobre la
   instalada. La página [Órdenes en Python del repositorio ComandosDigi3DPython](../../ordenes-python.md)
   indica en qué carpetas busca Digi3D.AI el archivo y resume cada orden.
-- Desde el [panel de Guiones Python](../README.md), pegando o abriendo el guion. Esta forma solo sirve para
+- Pega o abre el guion desde el [panel de Guiones Python](../README.md). La ejecución desde el panel solo sirve para
   los guiones que no reciben parámetros.
 
 Cada página muestra el código completo y lo explica paso a paso. Las páginas de cada grupo están ordenadas
@@ -44,7 +44,7 @@ de error y muestra un cuadro con el motivo y la forma de uso.
 
 > El intérprete de Python embebido en Digi3D.AI solo dispone de la **biblioteca estándar** (no hay
 > paquetes de terceros como `numpy` o `requests`). Los ejemplos que consultan servicios web usan
-> `urllib.request`, que sí forma parte de la stdlib.
+> `urllib.request`, que sí forma parte de la biblioteca estándar.
 
 ## Véase también
 

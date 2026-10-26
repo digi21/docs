@@ -57,7 +57,7 @@ Para instalarlo:
    python -c "import crskit; print(crskit.is_initialized())"
    ```
 
-   El comando escribe `False`: el paquete está instalado y todavía no tiene base de datos de EPSG.
+   La orden escribe `False`: el paquete se ha importado y no ha inicializado ninguna base de datos de EPSG.
    Consulta [Inicialización](inicializacion.md).
 
 El paquete `crskit` no contiene la base de datos de EPSG. En un equipo con Digi3D.AI instalado, usa la

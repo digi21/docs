@@ -4,8 +4,8 @@
 Archivo: `crea_tareas_con_areas_inferior_a_valor.py` · orden `CREA_TAREAS_CON_AREAS_INFERIOR_A_VALOR`
 con un parámetro: el área máxima. Hay un [vídeo](https://youtu.be/JwA4ymWz1zo) que explica el guion.
 
-Recorre el dibujo buscando líneas cerradas y polígonos con un **área menor que el valor indicado** y, por
-cada uno, crea una [tarea](../../referencia/digi3d/tasks.md) que, al hacer doble clic, lleva la vista a esa
+La orden recorre el dibujo buscando líneas cerradas y polígonos con un **área menor que el valor indicado** y, por
+cada geometría encontrada, crea una [tarea](../../referencia/digi3d/tasks.md) que, al hacer doble clic en la tarea, lleva la vista a esa
 geometría. Sirve para localizar recintos de área muy pequeña.
 
 ## Cómo se usa
@@ -80,8 +80,7 @@ else:
   motivo y la forma de uso con [`digi3d.show_info`](../../referencia/digi3d/functions.md).
 - **Conversión del número**: `numero` sustituye la coma por un punto antes de llamar a `float`, así que
   `100,5` y `100.5` dan el mismo valor. Si `float` lanza `ValueError`, `numero` devuelve `None`.
-- `crea_tareas` recorre todas las geometrías de la ventana de dibujo y **descarta** con `continue` las que
-  no interesan:
+- `crea_tareas` recorre todas las geometrías de la ventana de dibujo y **omite** con `continue` las siguientes geometrías:
   - Las que no son [Line](../../referencia/digi21.base/line.md) ni
     [Polygon](../../referencia/digi21.base/polygon.md).
   - Las líneas que no están cerradas en planta (`not g.closed_2d`): una línea abierta no encierra

@@ -27,7 +27,7 @@ open(path, digitab=None, *, precision=2, global_origin=(0.0, 0.0, 0.0)) -> Drawi
 
 Devuelve un [DrawingFile](../digi21.base/drawingfile.md). El archivo no guarda ni la precisión ni el
 origen global: pasa a `open` los mismos valores de `precision` y `global_origin` que a `create`. El
-sistema de coordenadas sale del archivo `.prj` con el mismo nombre que el dibujo.
+sistema de coordenadas se obtiene del archivo `.prj` con el mismo nombre que el dibujo.
 
 `precision` y `global_origin` se pasan solo por nombre. Si `path` no existe, `open` lanza
 `FileNotFoundError`; si `global_origin` contiene un valor infinito o `nan`, lanza `ValueError`.
@@ -56,7 +56,7 @@ Qué hace el exportador:
 - Guarda los códigos con **6 caracteres como máximo**: `"VERTICE"` se escribe `"VERTIC"`, y
   `warnings` incluye un aviso por cada código truncado.
 - Si junto al destino ya hay un `.prj` con el mismo nombre, lo **conserva** en lugar de escribir
-  `crs`, y `warnings` lo avisa. Para usar `crs`, borra antes ese `.prj`.
+  `crs`, y `warnings` indica que se conserva el archivo `.prj` existente. Para usar `crs`, borra ese `.prj` antes de crear el archivo.
 
 Excepciones de `create`: `ValueError` si falta `crs` o no es válido; `FileNotFoundError` si la carpeta
 de `path` no existe.
@@ -140,8 +140,8 @@ print(writer.written, "escritas,", writer.rejected, "rechazadas")
 
 ### Escribir con un origen global
 
-Con `global_origin`, el archivo guarda las coordenadas relativas a ese origen. Como el archivo no lo
-guarda, hay que pasar el mismo origen a `open`:
+Con `global_origin`, el archivo guarda las coordenadas relativas a ese origen. Como el archivo no guarda el origen global,
+pasa a `open` el mismo origen global que a `create`:
 
 ```python
 import digi21.io.bin as bin_
@@ -161,7 +161,7 @@ Con origen: [[(500000.12, 4400000.25, 650.5), (500100.5, 4400080.75, 655.0)]]
 ```
 
 `open` mantiene el archivo abierto mientras exista el `DrawingFile` o alguna de sus geometrías: para
-abrir el mismo archivo otra vez, suelta antes las del primero.
+abrir el mismo archivo otra vez, libera antes las referencias al primer `DrawingFile` y a sus geometrías.
 
 ### Códigos de más de 6 caracteres
 
@@ -183,7 +183,7 @@ El código VERTICE tiene más de 6 caracteres, el máximo del formato BIN. Se ha
 ['VERTIC']
 ```
 
-Los avisos del exportador salen en el idioma de la instalación.
+Los avisos del exportador se muestran en el idioma de la instalación.
 
 ### Precisión distinta de 2
 

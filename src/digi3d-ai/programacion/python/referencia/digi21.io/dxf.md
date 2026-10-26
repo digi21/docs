@@ -23,7 +23,7 @@ open(path, digitab=None) -> DrawingFile
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos (opcional). Si no se indica, se usa una vacía. |
 
 Devuelve un [DrawingFile](../digi21.base/drawingfile.md). Sin tabla de códigos, el código de cada
-entidad es el nombre de su capa. El sistema de coordenadas sale del archivo `.prj` con el mismo
+entidad es el nombre de su capa. El sistema de coordenadas se obtiene del archivo `.prj` con el mismo
 nombre que el dibujo. Si `path` no existe, lanza `FileNotFoundError`.
 
 Un sombreado (HATCH) se lee como en [digi21.io.dwg](dwg.md#open): un `Polygon` con sus huecos, o un
@@ -41,7 +41,7 @@ create(path, digitab=None, crs="", *, version=3, binary=False, import_blocks_as_
 | `path` | `str` | — | Ruta del archivo `.dxf`. Si existe, se sustituye. |
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | `None` | Tabla de códigos. Da a cada código su capa (elemento `iodwg:transform`). Si no se indica, se usa una vacía y cada código va a una capa con su nombre. |
 | `crs` | `str` | `""` | Sistema de coordenadas: un WKT o `"EPSG:<código>"`. **Obligatorio**. Se escribe en un archivo `.prj` junto al dibujo. |
-| `version` | `int` | `3` | Versión de AutoCAD, de 0 a 7: 0 = 11/12, 1 = 13, 2 = 14, 3 = 2000, 4 = 2004, 5 = 2007, 6 = 2010, 7 = 2013. Fuera de rango, `ValueError`. |
+| `version` | `int` | `3` | Versión de AutoCAD, de 0 a 7, ambos incluidos: 0 = 11/12, 1 = 13, 2 = 14, 3 = 2000, 4 = 2004, 5 = 2007, 6 = 2010, 7 = 2013. Si el valor está fuera de rango, se lanza `ValueError`. |
 | `binary` | `bool` | `False` | Escribe un DXF binario en lugar de uno ASCII. |
 | `import_blocks_as_point` | `bool` | `True` | Al leer, cada referencia de bloque se convierte en un punto. |
 | `use_drawing_colors` | `bool` | `False` | Las entidades con color propio en el archivo conservan ese color. |
@@ -55,9 +55,9 @@ Qué hace el exportador:
 - Escribe cada `Polygon`, y cada `Complex` formado solo por polígonos, como un sombreado (HATCH) de
   relleno sólido, igual que [digi21.io.dwg](dwg.md#create). El sombreado es plano: todos los
   vértices toman la Z del primero, salvo que la propiedad **Polígonos con Z no constante** del código
-  diga otra cosa. Un `Complex` con otras geometrías no se escribe: `add` devuelve
+  indique otro comportamiento. Un `Complex` con otras geometrías no se escribe: `add` devuelve
   `False` y `warnings` recoge el error.
-- No escribe las geometrías cuyo código la tabla dice que no se exporta.
+- No escribe las geometrías cuyo código está marcado en la tabla de códigos para que no se exporte.
 - Sin `iodwg:transform`, escribe cada código en una capa con su nombre, y `warnings` lo indica.
 - Si junto al destino ya hay un `.prj` con el mismo nombre, lo **conserva** en lugar de escribir
   `crs`, y `warnings` lo avisa.
@@ -116,7 +116,7 @@ for geometry in dxf.open("parcelas.dxf"):
 020402 texto: Parcela 12
 ```
 
-`Polygon` deriva de `Line`: por eso se pregunta antes por `Polygon`.
+`Polygon` deriva de `Line`: por eso el ejemplo comprueba primero si la geometría es de tipo `Polygon`.
 
 ### Convertir un archivo BinDouble a DXF
 

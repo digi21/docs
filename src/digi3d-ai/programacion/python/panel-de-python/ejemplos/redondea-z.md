@@ -4,7 +4,7 @@
 Archivo: `redondea_z.py` · orden `REDONDEA_Z` con dos parámetros: el código de maestra y el código de
 fina.
 
-Redondea a entero la coordenada Z de todos los vértices de las curvas de nivel no borradas que tienen
+La orden redondea a entero la coordenada Z de todos los vértices de las curvas de nivel no borradas que tienen
 alguno de los dos códigos indicados.
 
 ## Cómo se usa

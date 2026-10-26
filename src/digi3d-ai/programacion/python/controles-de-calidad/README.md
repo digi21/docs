@@ -17,15 +17,14 @@ Hay un repositorio con muchos controles listos para usar:
   digitaliza (dibuja) una geometría, **antes de almacenarla** se comprueban sus controles y,
   si no los cumple, se avisa al usuario con cuadros de diálogo.
 
-> Un código solo dispara controles si los tiene **asignados** en la tabla de códigos. Una
+> Digi3D.AI solo ejecuta los controles de un código si están **asignados** en la tabla de códigos. Una
 > geometría con un código sin controles asignados no genera ninguna comprobación.
 
 ## Cómo se asignan a un código
 
 En el **Editor de Tablas de Códigos**, en la pestaña [Entorno Python](../../../referencia/editor-de-tablas-de-codigos/pestanas/entorno-python.md),
-se pegan los guiones con las funciones de control, o se descargan los de Digi21 con el botón
-**Descargar de GitHub la última versión**. Las tablas de versiones anteriores de Digi3D hay que
-[actualizarlas](../../../usuarios-de-versiones-anteriores/actualizar-guiones-python.md). Después, en cada código, se añaden los controles deseados en el campo
+pega los guiones con las funciones de control o descarga los de Digi21 con el botón
+**Descargar de GitHub la última versión**. [Actualiza las tablas de versiones anteriores de Digi3D](../../../usuarios-de-versiones-anteriores/actualizar-guiones-python.md). Después, en cada código, añade los controles deseados en el campo
 **Controles de calidad a aplicar**, indicando los parámetros de cada uno.
 
 ## Cómo se declara un control de calidad
@@ -51,7 +50,7 @@ sustituta), mientras que bajo demanda conviene devolver **todos** los errores lo
 
 ## Cómo comunica el resultado
 
-- Si la geometría **cumple** la regla, la función sale con un simple `return` (sin valor).
+- Si la geometría **cumple** la regla, la función de control de calidad devuelve `None`, con un `return` sin valor o al terminar sin ejecutar un `return`.
 - Si **no** la cumple, devuelve uno de los tipos de [error o advertencia](../referencia/digi3d/exceptions.md):
   `GeometryError`, `GeometryRelationError`, `GeometryWarning` o `DatabaseFieldError`. Para
   comunicar varios problemas a la vez, devuelve una **lista** de ellos.
@@ -80,8 +79,8 @@ def debe_tener_area_igual_o_mayor(geometry, adding_geometry, code_index, minima)
         return digi3d.GeometryError(f"El área {abs(geometry.area):.2f} es menor que {minima}")
 ```
 
-Asignados al mismo código, estos dos controles comprueban que sus geometrías son áreas y que
-su superficie llega a un mínimo (p. ej. 100 m²).
+Asignados al mismo código, estos dos controles comprueban que las geometrías de ese código son áreas y que
+la superficie de cada geometría que es un área alcanza o supera un mínimo (p. ej. 100 m² si las coordenadas del dibujo están en metros).
 
 ## Véase también
 

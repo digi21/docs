@@ -22,7 +22,7 @@ open(path, digitab=None) -> DrawingFile
 | `path` | `str` | Ruta del archivo `.asc`. |
 | `digitab` | [DigiTab](../digi21.base/digitab.md) | Tabla de códigos (opcional). Si no se indica, se usa una vacía. |
 
-Devuelve un [DrawingFile](../digi21.base/drawingfile.md). El sistema de coordenadas sale del archivo
+Devuelve un [DrawingFile](../digi21.base/drawingfile.md). El sistema de coordenadas se obtiene del archivo
 `.prj` con el mismo nombre que el dibujo. Si `path` no existe, lanza `FileNotFoundError`.
 
 ## create
