@@ -163,6 +163,11 @@ Lanza `RuntimeError` si no hay ningún proyecto cargado y `ValueError` si el pro
 modelo en el punto de vista seleccionado o si el panel muestra el modelo deshabilitado. Devuelve
 `False` si no ha podido empezar la carga.
 
+Con la opción [Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia](../../../../referencia/cuadros-de-dialogo/configuracion/archivos-de-referencia/almacenar-el-proyecto-o-el-modelo-fotogrametrico.md)
+activada, cuando la ventana fotogramétrica activa termina de cargar el modelo, Digi3D.AI guarda la ruta del
+proyecto y el nombre del modelo en el [archivo de archivos de referencia](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-o-modelo-fotogramétrico)
+del archivo de dibujo abierto, salvo si ese archivo de dibujo es de solo lectura.
+
 ```python
 import digi3d
 
