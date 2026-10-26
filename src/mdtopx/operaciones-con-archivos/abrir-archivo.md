@@ -21,7 +21,8 @@ Los tipos de archivos contemplados en función del documento que se abrirá son:
 * [**Archivo de proyecto**](proyectos-de-mdtopx.md):
   * MDTX: Archivos propios de proyecto de MDTopX
 * **Modelo digital del terreno**:
-  * MDT: Archivos propios de MDTop que contienen un modelo digital del terreno de tipo TIN.
+  * MDT: Archivos propios de MDTop que contienen un modelo digital del terreno de tipo TIN. Si tiene [texturas integradas](../modulo-virtualand/integrar-texturas.md), se cargan al abrirlo (versión 9 del formato, que las versiones anteriores de MDTopX no abren).
+  * OBJ: Mallas Wavefront OBJ. Se leen los vértices y las caras, sin texturas; ver [Exportar a OBJ con texturas](../modulo-virtualand/exportar-obj.md#abrir-un-obj-en-mdtopx).
   * T3D: Archivos propios de MDTop que contienen un modelo digital del terreno de tipo TIN en 3D.
   * DEM: Modelo digital del terreno de formato rejilla procedente del módulo VirtuaLand de MDTop.
 * **Archivo de dibujo vectorial**:

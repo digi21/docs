@@ -9,11 +9,13 @@ malla en `mesh` (`vertices` y `triangles`). Siguen la
 |---|---|:-:|:-:|---|
 | `mdt` | MDT nativo de MDTopX (`.mdt`) | ✔ | — | — |
 | `stl` | Estereolitografía (`.stl`) | ✔ | ✔ | `write`: `ascii` (False) |
+| `obj` | Wavefront OBJ (`.obj`), con texturas al escribir | ✔ | ✔ | `write`: `local_origin` (True), `texture_size` (4096) |
 
 ## MDT nativo de MDTopX
 
 El módulo `mdt` lee los modelos digitales del terreno guardados por MDTopX (archivos `.mdt`, de
-cualquier versión: de la 3, la de MDTop, a la 8, la actual). Solo lee la **geometría**:
+cualquier versión: de la 3, la de MDTop, a la 9, la actual; la 9 es la 8 con las
+[texturas integradas](../../modulo-virtualand/integrar-texturas.md) al final). Solo lee la **geometría**:
 
 | Contenido del `.mdt` | En la escena |
 |---|---|
@@ -92,4 +94,33 @@ escena = mdt.read(r"C:\datos\Terreno.mdt")
 solo_terreno = mdtopx.Scene()
 solo_terreno.meshes = [escena.meshes[0]]
 stl.write(r"C:\datos\Terreno.stl", solo_terreno)
+```
+
+## Wavefront OBJ
+
+El módulo `obj` lee la malla de un archivo OBJ (vértices y caras; los polígonos se dividen en
+triángulos; no lee texturas, normales ni materiales, y los grupos forman una sola malla) y escribe las
+mallas de la escena con las **imágenes en planta georreferenciadas** de `scene.images` como texturas:
+el `.obj`, un `.mtl` y un PNG por trozo de textura. Es lo mismo que hace
+[Exportar a OBJ con texturas](../../modulo-virtualand/exportar-obj.md) en MDTopX:
+
+- Las imágenes se parten en trozos de `texture_size` píxeles como mucho, y los triángulos que cruzan
+  el borde de un trozo se parten por él. Si dos imágenes se solapan, manda la última de
+  `scene.images`, salvo donde es transparente (`has_alpha`).
+- Con `local_origin=True`, los vértices se escriben respecto al mínimo de la malla redondeado al metro,
+  anotado en la línea `# origen X Y Z` del `.obj` y en `<nombre>_origen.txt`. Al leer un OBJ con ese
+  origen, se suma.
+- El eje Z va hacia arriba.
+
+Exportar el terreno de un `.mdt` con una ortofoto como textura:
+
+```python
+import mdtopx
+from mdtopx.io.malla import mdt, obj
+from mdtopx.io.image import tiff
+
+escena = mdtopx.Scene()
+escena.meshes = [mdt.read(r"C:\datos\Terreno.mdt").meshes[0]]
+escena.images = tiff.read(r"C:\datos\orto.tif").images  # con su georreferencia en el GeoTIFF
+obj.write(r"C:\datos\Terreno.obj", escena)
 ```

@@ -2623,6 +2623,8 @@
     * [Borra en límites](mdtopx/modulo-virtualand/borra-en-limites.md)
     * [Cargar texturas](mdtopx/modulo-virtualand/cargar-texturas/README.md)
       * [Configurar carga de imagen](mdtopx/modulo-virtualand/cargar-texturas/configurar-carga-de-imagen.md)
+    * [Integrar texturas](mdtopx/modulo-virtualand/integrar-texturas.md)
+    * [Exportar a OBJ con texturas](mdtopx/modulo-virtualand/exportar-obj.md)
     * [Cargar superficies de color](mdtopx/modulo-virtualand/cargar-superficies-de-color.md)
     * [Cargar edificios](mdtopx/modulo-virtualand/cargar-edificios.md)
     * [Cargar Árboles](mdtopx/modulo-virtualand/cargar-arboles.md)
