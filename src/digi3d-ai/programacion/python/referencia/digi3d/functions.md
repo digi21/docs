@@ -65,6 +65,7 @@ empieza por `Warning:` en la salida del guion:
 | El archivo no tiene sistema de coordenadas. | Se obtiene el mismo resultado que al cancelar el cuadro de selección del sistema de coordenadas. |
 | Hay que elegir las capas o tablas del archivo. | El archivo no se carga. |
 | El proyecto fotogramétrico no tiene sistema de coordenadas. | Se carga con un sistema local, sin crear el archivo `.prj`. |
+| El dibujo que abre `open_drawing` tiene asociado un [proyecto fotogramétrico](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-fotogramétrico). | El proyecto no se carga. |
 | Cualquier otro mensaje con botones. | La función elige No, cancelar o abortar, según los botones del mensaje. |
 
 Si `open_drawing` falla, el mensaje de la excepción incluye los avisos. Las órdenes de inicio que
@@ -113,6 +114,11 @@ sin mostrar ningún cuadro de diálogo. Devuelve `False` si el proyecto no se ha
 aviso que empieza por `Warning:` en la salida del guion. Si el proyecto no tiene sistema de
 coordenadas, la función lo carga con un sistema local, sin crear el archivo `.prj`, como indica la
 tabla de [Abrir sin cuadros de diálogo](#abrir-sin-cuadros-de-diálogo).
+
+Si carga el proyecto, la función guarda su ruta como último proyecto del panel, como el botón **Cargar**.
+Si hay una ventana de dibujo abierta y el archivo de dibujo de la última ventana de dibujo que ha tenido
+el foco no es de solo lectura, también guarda la ruta en el [archivo de archivos de referencia](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-fotogramétrico)
+de ese archivo de dibujo.
 
 ### project
 

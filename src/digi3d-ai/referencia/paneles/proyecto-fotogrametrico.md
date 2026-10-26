@@ -11,7 +11,15 @@ Al pulsar sobre un modelo, el programa abre una ventana fotogramétrica con ese 
 
 Si el proyecto es de fotos y no de modelos, el panel muestra dos listas con las mismas fotos: la izquierda y la derecha. Al seleccionar una foto en cada lista se carga el modelo formado por las dos fotos.
 
-El panel guarda la ruta del último proyecto cargado con los botones **Nuevo** o **Cargar**, o con la función Python [open_project](../../programacion/python/referencia/digi3d/functions.md#open_project), y el cuadro de abrir archivo del botón **Cargar** propone ese proyecto. Digi3D.AI no carga ningún proyecto al iniciarse, salvo que la línea de comandos incluya el subcomando `proyecto`.
+El panel guarda la ruta del último proyecto cargado con los botones **Nuevo** o **Cargar**, o con la función Python [open_project](../../programacion/python/referencia/digi3d/functions.md#open_project). Digi3D.AI no carga ningún proyecto al iniciarse, salvo que la línea de comandos incluya el subcomando `proyecto` o que Digi3D.AI abra al iniciarse un archivo de dibujo con un proyecto asociado.
+
+## Proyecto asociado al archivo de dibujo
+
+Al cargar un proyecto con los botones **Nuevo** o **Cargar**, o con la función `open_project`, si hay alguna ventana de dibujo abierta, Digi3D.AI asocia el proyecto al archivo de dibujo de la última ventana de dibujo que ha tenido el foco: guarda la ruta del proyecto en el [archivo de archivos de referencia](../archivos/archivo-de-archivos-de-referencia.md#proyecto-fotogramétrico) de ese archivo de dibujo, salvo si el archivo de dibujo es de solo lectura.
+
+Al abrir un archivo de dibujo con un proyecto fotogramétrico asociado, Digi3D.AI carga el proyecto asociado si el panel no tiene ningún proyecto cargado. Si el panel tiene cargado otro proyecto, Digi3D.AI pregunta si quieres sustituir el proyecto del panel por el proyecto asociado al archivo de dibujo. La sección [Proyecto fotogramétrico](../archivos/archivo-de-archivos-de-referencia.md#proyecto-fotogramétrico) del archivo de archivos de referencia enumera los casos en los que Digi3D.AI no carga el proyecto asociado. Si cada zona de trabajo tiene su archivo de dibujo y su proyecto, asocia una vez el proyecto de cada zona a su archivo de dibujo: activa la ventana de ese archivo de dibujo, que no debe ser de solo lectura, y carga el proyecto.
+
+El cuadro de abrir archivo del botón **Cargar** propone el proyecto asociado al archivo de dibujo de la última ventana de dibujo que ha tenido el foco. Si no hay ninguna ventana de dibujo abierta o el archivo de dibujo de la última ventana de dibujo que ha tenido el foco no tiene un proyecto asociado, el cuadro de abrir archivo propone el último proyecto cargado.
 
 ## Modelos que no se pueden cargar
 
