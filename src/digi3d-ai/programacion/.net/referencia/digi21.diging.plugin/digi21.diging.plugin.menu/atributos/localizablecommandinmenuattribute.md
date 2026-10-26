@@ -22,7 +22,7 @@ public LocalizableCommandInMenuAttribute(Type resourceManagerProvider, string ti
 | Parámetro | Descripción |
 | :--- | :--- |
 | `resourceManagerProvider` | Tipo con una propiedad estática no pública de tipo `ResourceManager`. Las condiciones son las de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md#proveedor-de-recursos). |
-| `titleResource` | Clave del recurso con el texto de la opción. Se asigna a `Title`. |
+| `titleResource` | Clave del recurso con el texto de la opción. La cadena del recurso se asigna a `Title`. |
 | `group` | Posición del menú. Se asigna a `Group`. |
 
 El constructor lanza `ArgumentException` si `resourceManagerProvider` no tiene una propiedad estática no pública de tipo `ResourceManager` o si el recurso no contiene la clave `titleResource`.

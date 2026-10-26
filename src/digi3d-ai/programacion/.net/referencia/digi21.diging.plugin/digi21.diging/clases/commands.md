@@ -10,9 +10,9 @@ Pila de órdenes de la ventana de dibujo: ejecuta órdenes, consulta y quita la 
 public class Commands
 ```
 
-La clase no tiene constructores públicos. El objeto se obtiene con la propiedad estática [DigiNG.Commands](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), que lanza `NullReferenceException` si no hay ninguna ventana de dibujo abierta. Mientras se cierra la ventana de dibujo activa (por ejemplo, dentro de un manejador de `DestroyingWindow` o del evento `Disposing` de una orden), la ventana ya no tiene documento, y los métodos que lo usan lanzan `NullReferenceException`. El objeto queda ligado a la ventana de dibujo activa en el momento de obtenerlo: cuando esa ventana se cierra, todos los miembros lanzan `ObjectDisposedException`.
+La clase no tiene constructores públicos. El objeto se obtiene con la propiedad estática [DigiNG.Commands](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), que lanza `NullReferenceException` si no hay ninguna ventana de dibujo abierta. Mientras se cierra la ventana de dibujo activa (por ejemplo, dentro de un manejador de `DestroyingWindow` o del evento `Disposing` de una orden), la ventana ya no tiene documento, y los métodos que usan el documento lanzan `NullReferenceException`. El objeto queda ligado a la ventana de dibujo activa en el momento de leer `DigiNG.Commands`: cuando esa ventana se cierra, todos los miembros lanzan `ObjectDisposedException`.
 
-Las órdenes de Digi3D.AI forman una pila: la orden que ocupa la primera posición (la orden activa) recibe los eventos del dispositivo de entrada. Al ejecutar una orden, la orden nueva pasa a la primera posición; al terminar, la orden anterior vuelve a la primera posición.
+Las órdenes de Digi3D.AI forman una pila: la orden que ocupa la primera posición (la orden activa) recibe los eventos del dispositivo de entrada. Al ejecutar una orden, la orden nueva pasa a la primera posición; cuando la orden nueva termina, la orden anterior vuelve a la primera posición.
 
 ## Propiedades
 

@@ -61,7 +61,7 @@ Los métodos `Offset` implementan [IDesplazable.Offset](/digi3d-ai/programacion/
 
 | Operador | Descripción |
 | :--- | :--- |
-| `explicit operator Point2D(Point3D point)` | Convierte en el `Point2D` (X, Y). |
+| `explicit operator Point2D(Point3D point)` | Convierte el punto en el `Point2D` (X, Y). |
 | `bool operator ==(Point3D a, Point3D b)` | `true` si X, Y y Z son iguales según `Precision.Epsilon`. |
 | `bool operator !=(Point3D a, Point3D b)` | `true` si X, Y o Z son distintas según `Precision.Epsilon`. |
 | `bool operator ==(Point3D a, Point2D b)`<br>`bool operator ==(Point2D a, Point3D b)` | `true` si X e Y son iguales según `Precision.Epsilon`. La Z no se compara. |

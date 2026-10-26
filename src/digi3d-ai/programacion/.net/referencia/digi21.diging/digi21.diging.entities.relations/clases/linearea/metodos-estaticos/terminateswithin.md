@@ -25,7 +25,7 @@ public static bool TerminatesWithin(ReadOnlyLine line, ReadOnlyPolygon area)
 * Al menos un vértice de la línea está fuera del área. Un vértice dentro de un hueco de un polígono está fuera.
 * El primer o el último vértice de la línea está dentro del área.
 
-Los vértices situados sobre el borde no cuentan como dentro ni como fuera. Una línea con los dos extremos dentro y algún vértice intermedio fuera también devuelve `true`.
+Los vértices situados sobre el borde no cuentan como dentro ni como fuera. El método también devuelve `true` si la línea tiene los dos extremos dentro del área y algún vértice intermedio fuera.
 
 ## Excepciones
 

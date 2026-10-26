@@ -14,7 +14,7 @@ public new TextJustification Justification { get; set; }
 
 Un valor de [TextJustification](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/enumeraciones/textjustification.md). En un `Text` nuevo vale `SouthWest`.
 
-Un valor que no está definido en `TextJustification` no cambia la justificación.
+Asignar un valor que no está definido en `TextJustification` no cambia la justificación.
 
 ## Excepciones
 

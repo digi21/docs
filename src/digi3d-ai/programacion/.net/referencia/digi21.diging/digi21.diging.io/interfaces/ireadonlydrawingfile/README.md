@@ -14,7 +14,7 @@ Implementa: `IEnumerable<Entity>` (entidades del archivo, de tipo [Entity](/digi
 
 Interfaz derivada: [IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/), que añade la escritura.
 
-Implementaciones: [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md), [Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md), [Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md) [DrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/drawingfile.md), [Dgn](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgn.md), [Dwg](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwg.md) y [MemoryDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.utilities/memorydrawingfile.md). Todas implementan `IDrawingFile`.
+Implementaciones: [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md), [Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md), [Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md), [DrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/drawingfile.md), [Dgn](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dgn/dgn.md), [Dwg](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.dwg/dwg.md) y [MemoryDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.utilities/memorydrawingfile.md). Todas implementan `IDrawingFile`.
 
 Las entidades que devuelve el enumerador tienen como `Owner` el archivo que las devuelve. Cada implementación fija sus reglas de enumeración: por ejemplo, `Bin` solo permite pedir el enumerador una vez, y el enumerador de `DrawingFile` lanza `InvalidOperationException` si el número de entidades del archivo cambia durante el recorrido.
 
@@ -37,7 +37,7 @@ Las entidades que devuelve el enumerador tienen como `Owner` el archivo que las 
 
 ## Ejemplo
 
-Este programa muestra los datos de un archivo `.bin` con los miembros de `IReadOnlyDrawingFile` y copia sus puntos a otro archivo `.bin` con los de [IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/). Los dos métodos estáticos sirven para cualquier formato. El archivo de salida recibe el sistema de referencia de coordenadas de la entrada con un [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md):
+Este programa muestra los datos de un archivo `.bin` con los miembros de `IReadOnlyDrawingFile` y copia sus puntos a otro archivo `.bin` con los miembros de [IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/). Los dos métodos estáticos sirven para cualquier formato. El archivo de salida recibe el sistema de referencia de coordenadas del archivo de entrada con un [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md):
 
 ```csharp
 using Digi21.DigiNG.Entities;

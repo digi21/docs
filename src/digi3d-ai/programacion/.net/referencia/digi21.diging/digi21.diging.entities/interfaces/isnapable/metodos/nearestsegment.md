@@ -24,7 +24,7 @@ Distancia en el plano XY entre `coordinate` y `calculatedCoordinate`.
 
 | Tipo | Cálculo |
 | :--- | :--- |
-| `ReadOnlyLine`, `Line`, `ReadOnlyPolygon`, `Polygon` | Proyecta `coordinate` en perpendicular, en el plano XY, sobre la recta de cada segmento. Solo considera los segmentos en los que la proyección cae dentro del rectángulo que forman sus dos vértices, y de ellos elige el de menor distancia; con dos segmentos a la misma distancia, el de menor índice. En un polígono solo se analiza el contorno exterior. |
+| `ReadOnlyLine`, `Line`, `ReadOnlyPolygon`, `Polygon` | Proyecta `coordinate` en perpendicular, en el plano XY, sobre la recta de cada segmento. Solo considera los segmentos en los que la proyección cae dentro del rectángulo que forman sus dos vértices, y de ellos elige el de menor distancia a `coordinate`; si dos segmentos están a la misma distancia de `coordinate`, elige el de menor índice. En un polígono solo se analiza el contorno exterior. |
 | `ReadOnlyPoint`, `Point`, `ReadOnlyText`, `Text` | `calculatedCoordinate` es `Coordinate`, `segment` vale 0 y el valor devuelto es la distancia en el plano XY entre `coordinate` y `Coordinate`. No lanza excepciones. |
 
 ## Excepciones
@@ -32,7 +32,7 @@ Distancia en el plano XY entre `coordinate` y `calculatedCoordinate`.
 | Excepción | Cuándo |
 | :--- | :--- |
 | `InvalidOperationException` | La entidad es una línea o un polígono sin vértices. |
-| `Exception` | La entidad es una línea o un polígono y la proyección de `coordinate` no cae dentro de ningún segmento. También con un solo vértice, porque no hay segmentos. |
+| `Exception` | La entidad es una línea o un polígono y la proyección de `coordinate` no cae dentro de ningún segmento. La excepción también se lanza si la entidad tiene un solo vértice, porque no hay segmentos. |
 
 ## Ejemplo
 

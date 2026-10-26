@@ -14,5 +14,5 @@ public DateTime CreationTime { get; }
 
 Fecha y hora con precisión de segundos y `DateTimeKind.Unspecified`.
 
-- En una entidad creada con un constructor, o con `Clone()`, es la hora UTC del momento en que se creó el objeto.
-- En una entidad leída de un archivo `.bin` o `.bind`, es la fecha que el archivo guarda con la entidad.
+- En una entidad creada con un constructor o con `Clone()`, el valor es la fecha y hora en tiempo universal coordinado (UTC) del momento en que se creó el objeto.
+- En una entidad leída de un archivo `.bin` o `.bind`, el valor es la fecha y hora que el archivo guarda con la entidad.

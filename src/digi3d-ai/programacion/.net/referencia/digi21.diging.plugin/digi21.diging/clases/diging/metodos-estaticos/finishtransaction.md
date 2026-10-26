@@ -25,7 +25,7 @@ Si está activada la inserción automática de vértices en las intersecciones a
 Una orden no necesita llamar a este método: Digi3D.AI cierra la transacción cuando la orden termina. Este método se usa en dos casos:
 
 - Para cerrar una transacción abierta con [NewTransaction](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/newtransaction.md)`(false)`.
-- Para modificar el archivo de dibujo desde código que se ejecuta fuera de una orden, por ejemplo el manejador de un botón de un panel. Sin transacción, esos cambios quedan en una transacción abierta que `UNDO` no deshace. El código abre una transacción con `NewTransaction(false)` antes de los cambios y la cierra con `FinishTransaction()` después.
+- Para modificar el archivo de dibujo desde código que se ejecuta fuera de una orden, por ejemplo el manejador de un botón de un panel. Si el código no abre y cierra una transacción, esos cambios quedan en una transacción abierta que `UNDO` no deshace. El código abre una transacción con `NewTransaction(false)` antes de los cambios y la cierra con `FinishTransaction()` después de los cambios.
 
 El funcionamiento de las transacciones se explica en el apartado «Transacciones de deshacer» de [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/).
 

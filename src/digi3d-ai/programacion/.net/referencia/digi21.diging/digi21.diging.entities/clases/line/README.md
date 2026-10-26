@@ -12,7 +12,7 @@ public class Line : ReadOnlyLine, IDesplazable, IDirectionable
 
 Herencia: `Object` → [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) → [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) → `Line`
 
-Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/), [IDirectionable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/idirectionable/), y las interfaces de `ReadOnlyLine`.
+Implementa: [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/), [IDirectionable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/interfaces/idirectionable/) y las interfaces de `ReadOnlyLine`.
 
 Una `Line` recién creada no tiene vértices ni coordenadas mínimas y máximas. Los vértices se añaden con [Points](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/propiedades/points.md).
 

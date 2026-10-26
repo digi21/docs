@@ -14,10 +14,10 @@ Implementaciones: [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.digi
 
 Una extensión añade una tarea al panel con [Tasks.Add](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.digi3d/clases/tasks.md). El panel usa los miembros así:
 
-- `Title`, `DrawingFile` y `Module` son las columnas de la fila de la tarea.
-- `Severity` decide el icono de la fila.
+- El panel muestra los valores de `Title`, `DrawingFile` y `Module` en las columnas de la fila de la tarea.
+- El panel determina el icono de la fila a partir de `Severity`.
 - `Children` se lee una sola vez, en la llamada a `Tasks.Add`: cada subtarea es una fila hija de la tarea. Un cambio de `Children` posterior a esa llamada no cambia el panel.
-- `Execute` se llama cuando el operador hace doble clic en la fila.
+- El panel llama a `Execute` cuando haces doble clic en la fila de la tarea.
 
 ## Propiedades
 

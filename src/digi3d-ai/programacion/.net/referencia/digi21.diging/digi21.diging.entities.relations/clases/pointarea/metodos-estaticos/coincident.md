@@ -20,7 +20,7 @@ public static bool Coincident(ReadOnlyPoint point, ReadOnlyPolygon area)
 
 ## Valor devuelto
 
-`true` si la coordenada del punto coincide con un vértice del área. Con un `ReadOnlyPolygon`, el vértice puede ser del anillo exterior o de un hueco. Un punto sobre un lado del área, sin coincidir con un vértice, devuelve `false`.
+`true` si la coordenada del punto coincide con un vértice del área. Con un `ReadOnlyPolygon`, el vértice puede ser del anillo exterior o de un hueco. El método devuelve `false` si el punto está sobre un lado del área sin coincidir con un vértice.
 
 Con un `Point` creado en memoria, el método devuelve siempre `false`; lee la nota de [PointArea](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointarea/).
 

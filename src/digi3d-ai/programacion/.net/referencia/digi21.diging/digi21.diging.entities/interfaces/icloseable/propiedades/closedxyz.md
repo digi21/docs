@@ -15,7 +15,7 @@ bool ClosedXYZ { get; }
 | Tipo | Valor |
 | :--- | :--- |
 | `ReadOnlyLine`, `Line` | `true` si la X, la Y y la Z del primer vértice son iguales a las del último, con la tolerancia de comparación de números reales de Digi3D.AI. |
-| `ReadOnlyPolygon`, `Polygon` | Siempre `true`, aunque la Z del primer y el último vértice sean distintas. |
+| `ReadOnlyPolygon`, `Polygon` | Siempre `true`, aunque las coordenadas Z del primer y del último vértice sean distintas. |
 
 Una línea con `ClosedXYZ` a `true` también tiene `Closed` a `true`. Al revés no: una línea cuyo primer y último vértice solo difieren en Z tiene `Closed` a `true` y `ClosedXYZ` a `false`.
 

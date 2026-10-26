@@ -35,11 +35,11 @@ public static IEnumerable<IGrouping<Point2D, SegmentPointer>> DetectIntersection
     Func<Point2D, bool> insertIntersectionInThisCoordinate)
 ```
 
-Detecta las intersecciones entre todas las líneas de `entities` y las autointersecciones de cada línea (los cruces de una línea consigo misma). Hay una sobrecarga por cada combinación de los tres delegados: `DetectIntersections(entities)`, `DetectIntersections(entities, analyzeIntersectionsOfThisLine)`, `DetectIntersections(entities, analyzeIntersectionsBetweenThisLines)`, `DetectIntersections(entities, insertIntersectionInThisCoordinate)` y las de dos delegados, siempre en el orden de la firma completa. Un delegado que falta no filtra.
+Detecta las intersecciones entre todas las líneas de `entities` y las autointersecciones de cada línea (los cruces de una línea consigo misma). Hay una sobrecarga por cada combinación de los tres delegados: `DetectIntersections(entities)`, `DetectIntersections(entities, analyzeIntersectionsOfThisLine)`, `DetectIntersections(entities, analyzeIntersectionsBetweenThisLines)`, `DetectIntersections(entities, insertIntersectionInThisCoordinate)` y las de dos delegados, siempre en el orden de la firma completa. Si una sobrecarga no recibe un delegado, no aplica el filtro de ese delegado.
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `entities` | Líneas que se analizan. Se recorre una sola vez. |
+| `entities` | Líneas que se analizan. La secuencia se recorre una sola vez. |
 | `analyzeIntersectionsOfThisLine` | Se llama con cada línea de `entities`. Si devuelve `false`, la línea no se analiza. |
 | `analyzeIntersectionsBetweenThisLines` | Se llama con cada pareja de líneas cuyas cajas (coordenadas mínimas y máximas en XY) se tocan. Si devuelve `false`, no se buscan intersecciones entre las dos. Para las autointersecciones se llama con la misma línea en los dos parámetros. |
 | `insertIntersectionInThisCoordinate` | Se llama con la coordenada de cada intersección, una vez por cada línea que pasa por ella. Si devuelve `false`, ese `SegmentPointer` no se añade al resultado. |

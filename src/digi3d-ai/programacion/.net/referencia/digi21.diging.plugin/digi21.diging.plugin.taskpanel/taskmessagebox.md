@@ -33,7 +33,7 @@ public TaskMessageBox(string title, string description, TaskSeverity severity, s
 | `module` | Nombre del módulo que ha generado la tarea, por ejemplo el nombre de la orden. Admite `null`. |
 | `children` | Tareas hijas. |
 
-El constructor sin parámetros deja la descripción a `null`, así que el cuadro de mensaje sale vacío. Como la descripción solo se asigna en el constructor, usa uno de los otros dos constructores.
+El constructor sin parámetros deja la descripción a `null`, así que el cuadro de mensaje se muestra vacío. Para asignar la descripción, usa uno de los dos constructores que reciben el parámetro `description`, porque la descripción solo se puede asignar en el constructor.
 
 ## Propiedades
 
@@ -43,11 +43,11 @@ Propiedades heredadas de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi
 
 | Método | Descripción |
 | :--- | :--- |
-| `void Execute()` | Digi3D.AI lo llama al hacer doble clic en la tarea. Muestra un cuadro de mensaje modal con la descripción y el botón Aceptar, y vuelve cuando el usuario lo cierra. |
+| `void Execute()` | Digi3D.AI llama a `Execute` cuando haces doble clic en la tarea. `Execute` muestra un cuadro de mensaje modal con la descripción y el botón Aceptar, y retorna cuando el usuario cierra el cuadro de mensaje. |
 
 ## Ejemplo
 
-Esta orden añade un aviso por cada código del archivo de dibujo que solo tienen entidades eliminadas. Al hacer doble clic en una tarea, un cuadro de mensaje explica el aviso:
+Esta orden añade un aviso por cada código del archivo de dibujo que solo está asignado a entidades eliminadas. Al hacer doble clic en una tarea, un cuadro de mensaje explica el aviso:
 
 ```csharp
 using Digi21.Digi3D;

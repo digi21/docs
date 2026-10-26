@@ -19,7 +19,7 @@ Los proyectos usan .NET 10 y no referencian ningún paquete NuGet. Ejecuta desde
 dotnet build AnadeEtiquetaAMultiplesCodigosTablaCodigos\AnadeEtiquetaAMultiplesCodigosTablaCodigos.csproj -c Release -o C:\Herramientas\AnadeEtiqueta
 ```
 
-Para ejecutar el programa compilado hace falta el runtime de .NET 10.
+Para ejecutar el programa compilado necesitas el entorno de ejecución de .NET 10.
 
 ## Formato de la tabla de códigos que usan
 
@@ -114,7 +114,7 @@ Al asignar `InnerText`, `XmlDocument` sustituye la sección CDATA por texto esca
 
 ## EliminaControlesCalidadPythonDuplicados
 
-Elimina las líneas repetidas del elemento `quality_control` de todos los códigos de la tabla. Conserva la primera aparición de cada línea y el orden.
+`EliminaControlesCalidadPythonDuplicados` elimina las líneas repetidas del elemento `quality_control` de todos los códigos de la tabla. `EliminaControlesCalidadPythonDuplicados` conserva la primera aparición de cada línea y el orden de las líneas.
 
 ```
 EliminaControlesCalidadPythonDuplicados.exe <tabla de entrada> <tabla de salida>

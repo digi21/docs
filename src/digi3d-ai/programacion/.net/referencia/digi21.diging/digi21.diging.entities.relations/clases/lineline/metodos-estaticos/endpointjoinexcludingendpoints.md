@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.digin
 
 Indica si un extremo de la primera línea se une con la segunda línea en un vértice que no es extremo de la segunda.
 
-![Extremo de línea que se une a línea (excluyendo sus extremos)](../../../../../../../../../images/extremolineaunelineaexcluyendoextremos.png)
+![Extremo de una línea que se une a un vértice intermedio de otra línea](../../../../../../../../../images/extremolineaunelineaexcluyendoextremos.png)
 
 ```csharp
 public static bool EndpointJoinExcludingEndpoints(ReadOnlyLine a, ReadOnlyLine b)

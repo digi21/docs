@@ -17,7 +17,7 @@ Tipos que implementan la interfaz:
 - [IReadOnlyDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/ireadonlydrawingfile/) y, por tanto, todos los archivos de dibujo.
 - `Digi21.Utilities.MemoryDrawingFile`.
 
-Una ventana no inicializada tiene `Xmin` a `null`. `Window3D` lanza `InvalidOperationException` al leer `Width`, `Height`, `Depth`, `Center` o uno de los ocho puntos cardinales de una ventana no inicializada. Comprueba `Valid` antes de leerlos.
+Una ventana no inicializada tiene `Xmin` a `null`. `Window3D` lanza `InvalidOperationException` al leer `Width`, `Height`, `Depth`, `Center` o uno de los ocho puntos cardinales de una ventana no inicializada. Comprueba `Valid` antes de leer `Width`, `Height`, `Depth`, `Center` o uno de los ocho puntos cardinales.
 
 ## Propiedades
 

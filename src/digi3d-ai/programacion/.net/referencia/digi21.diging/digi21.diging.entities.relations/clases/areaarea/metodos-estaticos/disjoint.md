@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.digin
 
 Indica si dos áreas son disjuntas.
 
-![Área disjunta área](../../../../../../../../../images/areadisjuntaarea.png)
+![Área disjunta de otra área](../../../../../../../../../images/areadisjuntaarea.png)
 
 ```csharp
 public static bool Disjoint(ReadOnlyLine a, ReadOnlyLine b)

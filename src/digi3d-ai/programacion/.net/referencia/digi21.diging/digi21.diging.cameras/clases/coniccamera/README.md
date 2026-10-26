@@ -14,7 +14,7 @@ Hereda de [Camera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.
 
 Al asignar una `ConicCamera` a la propiedad `Camera` de la clase [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/), la ventana de dibujo usa `FieldOfView` como ángulo de visión vertical, `Near` y `Far` como distancias de los planos de recorte, y la proporción de la ventana de dibujo como relación entre ancho y alto.
 
-La `ConicCamera` que devuelve `DigiNG.Camera` tiene `FieldOfView` a 0, porque la lectura no copia el campo de visión de la ventana de dibujo. Antes de volver a asignar esa cámara, asigna `FieldOfView`; si no, la ventana de dibujo recibe un campo de visión de 0 grados.
+La `ConicCamera` que devuelve `DigiNG.Camera` tiene `FieldOfView` a 0 grados, porque la lectura no copia el campo de visión de la ventana de dibujo. Asigna un valor a `FieldOfView` de la cámara devuelta por `DigiNG.Camera` antes de asignar la cámara a `DigiNG.Camera`; si no asignas un valor a `FieldOfView`, la ventana de dibujo recibe un campo de visión de 0 grados.
 
 ## Constructores
 

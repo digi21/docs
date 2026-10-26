@@ -12,7 +12,7 @@ public interface ICloseable
 
 Tipos que la implementan: [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) (y [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/)) y [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/) (y [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/)).
 
-Un polígono siempre se considera cerrado. Una línea es un recinto si su primer y su último vértice coinciden en X e Y; `InteriorPoint` y `AnalyzePointPosition` lanzan `InvalidOperationException` con una línea que no lo cumple.
+Un polígono siempre se considera cerrado. Una línea es un recinto si su primer y su último vértice coinciden en X e Y; `InteriorPoint` y `AnalyzePointPosition` lanzan `InvalidOperationException` si el primer y el último vértice de la línea no coinciden en X e Y.
 
 ## Propiedades
 

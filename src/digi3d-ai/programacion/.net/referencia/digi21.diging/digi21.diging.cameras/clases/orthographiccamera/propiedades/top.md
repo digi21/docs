@@ -12,4 +12,4 @@ public double Top { get; set; }
 
 ## Valor de la propiedad
 
-`double`, en unidades del archivo de dibujo. La ventana de dibujo solo usa la diferencia `Top - Bottom` como alto de la vista, centrada en `Position`. Los constructores que reciben una ventana asignan `Ymax` de la ventana. La cámara que devuelve `DigiNG.Camera` tiene `Top = alto / 2`, relativo a `Position`. Lee [OrthographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/).
+`double`, en unidades del archivo de dibujo. La ventana de dibujo solo usa la diferencia `Top - Bottom` como alto de la vista, centrada en `Position`. Los constructores que reciben una ventana asignan a `Top` el valor de `Ymax` de esa ventana. La cámara que devuelve `DigiNG.Camera` tiene `Top = alto / 2`, un valor relativo a `Position`. Lee [OrthographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/).

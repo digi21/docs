@@ -12,13 +12,13 @@ public struct Window3D : IWindow3D, IDesplazable
 
 Implementa: [IWindow3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow3d/) e [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/).
 
-`Window3D` es una estructura (tipo por valor): una asignación copia la ventana, y los métodos que modifican la ventana (`Offset`, `Inflate` y `Union` de instancia) no tienen efecto si se llaman sobre una copia, por ejemplo sobre el valor que devuelve una propiedad.
+`Window3D` es una estructura (tipo de valor): una asignación copia la ventana, y los métodos que modifican la ventana (`Offset`, `Inflate` y `Union` de instancia) no modifican la ventana original si se llaman sobre una copia, por ejemplo sobre el valor que devuelve una propiedad.
 
 Una ventana no inicializada tiene `Xmin` a `null`. Es el estado de `new Window3D()` y de `default(Window3D)`. El método `Union` de instancia inicializa una ventana no inicializada con los límites del argumento, así que una envolvente se calcula partiendo de `new Window3D()` y llamando a `Union` con cada punto.
 
 A diferencia de [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md), `Window3D` no tiene un campo público `WholeWorld` ni métodos `Intersection`.
 
-Los parámetros `Point` y `PointF` son de `System.Drawing`; `Size` también. Un `Point` o un `PointF` se trata como un punto de Z igual a 0.
+Los tipos `Point` y `PointF` pertenecen a `System.Drawing`, al igual que `Size`. `Window3D` trata un `Point` o un `PointF` como un punto de Z igual a 0.
 
 ## Constructores
 
@@ -160,7 +160,7 @@ Convierte la ventana en una [Window2D](/digi3d-ai/programacion/.net/referencia/d
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `InvalidOperationException` | Se lee `Width`, `Height`, `Depth`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Contains`, `Intersect` o `Intersect2D`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También en el método `Union` de instancia sobre una ventana inicializada con una ventana no inicializada como argumento. |
+| `InvalidOperationException` | Se lee `Width`, `Height`, `Depth`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Contains`, `Intersect` o `Intersect2D`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También se lanza al llamar al método `Union` de instancia sobre una ventana inicializada con una ventana no inicializada como argumento. |
 | `NullReferenceException` | Un argumento de tipo `IWindow3D` es `null`. |
 
 ## Ejemplo

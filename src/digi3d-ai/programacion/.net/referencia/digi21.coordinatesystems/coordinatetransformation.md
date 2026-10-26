@@ -10,7 +10,7 @@ Transformación de coordenadas de un sistema de referencia de coordenadas a otro
 public sealed class CoordinateTransformation : IDisposable
 ```
 
-La transformación sostiene memoria de la biblioteca nativa. Llama a `Dispose` (o usa `using`) cuando ya no la necesites; si no, la libera el recolector de basura.
+La transformación utiliza memoria de la biblioteca nativa. Llama a `Dispose` (o usa `using`) cuando ya no necesites la transformación; si no llamas a `Dispose`, el recolector de basura libera la memoria de la transformación.
 
 ## Métodos estáticos
 
@@ -30,7 +30,7 @@ Crea la transformación de `source` a `target`. `options` indica cómo se elige 
 | `TransformationNotFoundException` | No hay ninguna transformación entre los dos sistemas, o no se puede construir (por ejemplo, porque falta el archivo de una rejilla NTv2). |
 | `CoordinateSystemException` | El usuario cancela un cuadro de diálogo, o el delegado `SelectOperation` devuelve un código que no está entre las operaciones que recibe. |
 
-Una excepción que lance uno de los delegados de `options` sale de `Create` sin cambios: es la misma instancia, con su pila.
+Si uno de los delegados de `options` lanza una excepción, esta se propaga desde `Create` sin cambios: se conservan la instancia de la excepción y su pila de llamadas.
 
 ## Propiedades
 
@@ -52,11 +52,11 @@ Una excepción que lance uno de los delegados de `options` sale de `Create` sin 
 | `Point2D Transform(Point2D point)` | Transforma un punto 2D. |
 | `Point3D Transform(Point3D point)` | Transforma un punto 3D. |
 | `void Transform(Span<Point3D> points)` | Transforma los puntos sobre el mismo bloque de memoria. |
-| `void Transform(ReadOnlySpan<Point3D> source, Span<Point3D> destination)` | Transforma los puntos de `source` y los escribe en `destination`, que puede solaparse con `source`. Lanza `ArgumentException` si `destination` es más corto. |
+| `void Transform(ReadOnlySpan<Point3D> source, Span<Point3D> destination)` | Transforma los puntos de `source` y los escribe en `destination`, que puede solaparse con `source`. Lanza `ArgumentException` si `destination` tiene menos elementos que `source`. |
 | `void Transform(Span<double> coordinates, int dimension)` | Transforma coordenadas guardadas seguidas (`x0, y0, x1, y1…` con `dimension` 2, o `x0, y0, z0…` con `dimension` 3) sobre el mismo bloque de memoria. |
-| `void Dispose()` | Libera la transformación y su inversa. Después, `Transform` e `Inverse` lanzan `ObjectDisposedException`. |
+| `void Dispose()` | Libera la transformación y su inversa. Después de que `Dispose` libere la transformación, los métodos `Transform` y el descriptor `get` de `Inverse` lanzan `ObjectDisposedException`. |
 
-Los métodos `Transform` lanzan `CoordinateSystemException` si un punto no se puede transformar, por ejemplo porque está fuera del área de una rejilla. En las sobrecargas con `Span` que transforman sobre el mismo bloque, los puntos anteriores al que falla ya están transformados y los siguientes no; el mensaje indica el índice del punto.
+Los métodos `Transform` lanzan `CoordinateSystemException` si un punto no se puede transformar, por ejemplo porque está fuera del área de una rejilla. En las sobrecargas con `Span` que transforman sobre el mismo bloque, los puntos anteriores al que falla ya están transformados y los siguientes no; el mensaje de la excepción indica el índice del punto que falla.
 
 ## Dimensiones
 

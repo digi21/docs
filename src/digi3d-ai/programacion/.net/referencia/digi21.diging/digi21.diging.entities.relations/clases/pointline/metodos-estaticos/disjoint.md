@@ -19,7 +19,7 @@ public static bool Disjoint(ReadOnlyPoint point, ReadOnlyLine line)
 
 ## Valor devuelto
 
-`true` si la coordenada del punto no coincide con ningún vértice de la línea, extremos incluidos. Un punto sobre un lado de la línea que no coincide con ningún vértice devuelve `true`.
+`true` si la coordenada del punto no coincide con ningún vértice de la línea, extremos incluidos. El método devuelve `true` si el punto está sobre un lado de la línea sin coincidir con ningún vértice.
 
 Con un `Point` creado en memoria, el método devuelve siempre `true`; lee la nota de [PointLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/clases/pointline/).
 

@@ -10,14 +10,14 @@ Código de una tabla de códigos [DigiTab](/digi3d-ai/programacion/.net/referenc
 public sealed class NodeDigiTab : IDisposable
 ```
 
-Implementa: `IDisposable`. El ensamblado de referencia del paquete NuGet declara `public sealed class NodeDigiTab`, sin `IDisposable`: con el paquete no se puede usar `using` ni llamar a `Dispose`, y el código nativo se libera cuando el recolector de elementos no utilizados finaliza el objeto.
+Implementa: `IDisposable`. El ensamblado de referencia del paquete NuGet declara `public sealed class NodeDigiTab`, sin `IDisposable`: el código compilado con el paquete no puede usar `using` con un `NodeDigiTab` ni llamar a `Dispose`, y el código nativo se libera cuando el recolector de basura finaliza el objeto.
 
 Un `NodeDigiTab` se obtiene de dos formas:
 
 - Con [Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/codes.md) o con el indizador [this[string]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md) de una `DigiTab`. El objeto no es una copia: asignar una propiedad cambia el código en la tabla de códigos, en memoria. Si la tabla de códigos no es modificable, la asignación lanza `InvalidOperationException`.
 - Con el [constructor](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/nodedigitab/constructores.md), para añadirlo después a una tabla con [AddCode](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/addcode.md). Después de `AddCode`, ese objeto es de solo lectura.
 
-Las asignaciones de un objeto de solo lectura lanzan `InvalidOperationException`.
+Las asignaciones a las propiedades de un objeto de solo lectura lanzan `InvalidOperationException`.
 
 ## Constructores
 

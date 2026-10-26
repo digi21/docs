@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.Tasks`  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Clase base abstracta para las tareas: implementa las propiedades de [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/) y deja el método `Execute` a la clase derivada.
+Clase base abstracta para las tareas: implementa las propiedades de [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/) y requiere que la clase derivada implemente el método `Execute`.
 
 ```csharp
 public abstract class TaskBase : ITask
@@ -27,7 +27,7 @@ Los constructores son `protected`: solo una clase derivada puede crear un `TaskB
 
 ## Propiedades
 
-Las cinco propiedades tienen descriptor de acceso `get` y `set` públicos. El `get` es la implementación de la propiedad de `ITask`.
+Las cinco propiedades tienen los descriptores de acceso `get` y `set` públicos. El descriptor `get` de cada propiedad implementa la propiedad correspondiente de `ITask`.
 
 | Propiedad | Descripción |
 | :--- | :--- |
@@ -41,7 +41,7 @@ Las cinco propiedades tienen descriptor de acceso `get` y `set` públicos. El `g
 
 | Método | Descripción |
 | :--- | :--- |
-| `abstract void Execute()` | Acción de la tarea. La clase derivada lo implementa. Consulta [ITask.Execute](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/metodos/execute.md). |
+| `abstract void Execute()` | Ejecuta la acción de la tarea. La clase derivada implementa este método. Consulta [ITask.Execute](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/metodos/execute.md). |
 
 ## Ejemplo
 

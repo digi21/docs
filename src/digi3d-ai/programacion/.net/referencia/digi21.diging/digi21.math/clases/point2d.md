@@ -34,7 +34,7 @@ Los operadores `==` y `!=` comparan cada coordenada con la tolerancia [Precision
 | `double SquaredModule { get; }` | Cuadrado del módulo: X² + Y². |
 | `Point2D Normalized { get; }` | Vector con la misma dirección y módulo 1. Si el módulo es 0, las coordenadas del resultado son `NaN`. |
 | `bool IsEmpty { get; }` | `true` si X e Y valen exactamente 0, sin tolerancia. |
-| `double Azimuth { get; }` | Azimut del vector en radianes, entre 0 y 2π: ángulo desde el eje Y positivo (norte), en el sentido de las agujas del reloj. El vector (0, 0) devuelve 0. |
+| `double Azimuth { get; }` | Azimut del vector en radianes, entre 0 y 2π, ambos incluidos: ángulo desde el eje Y positivo (norte), en el sentido de las agujas del reloj. Para el vector (0, 0), la propiedad devuelve 0 radianes. |
 
 ## Métodos
 
@@ -55,7 +55,7 @@ Los operadores `==` y `!=` comparan cada coordenada con la tolerancia [Precision
 
 | Operador | Descripción |
 | :--- | :--- |
-| `explicit operator Point3D(Point2D point)` | Convierte en el `Point3D` (X, Y, 0). |
+| `explicit operator Point3D(Point2D point)` | Convierte el punto en el `Point3D` (X, Y, 0). |
 | `bool operator ==(Point2D a, Point2D b)` | `true` si X e Y son iguales según `Precision.Epsilon`. |
 | `bool operator !=(Point2D a, Point2D b)` | `true` si X o Y son distintas según `Precision.Epsilon`. |
 | `Point2D operator +(Point2D a, Point2D b)` | Suma coordenada a coordenada. |

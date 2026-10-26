@@ -19,9 +19,9 @@ public static bool Compare(string codeNameA, string codeNameB)
 
 ## Valor devuelto
 
-`true` si los dos nombres coinciden. Los nombres se recorren carácter a carácter desde el principio:
+Devuelve `true` si los dos nombres coinciden. El método recorre los nombres carácter a carácter desde el principio:
 
-- Si en la posición actual cualquiera de los dos nombres tiene `*`, devuelve `true` sin comparar el resto.
+- Si en la posición actual cualquiera de los dos nombres tiene `*`, devuelve `true` sin comparar los caracteres restantes.
 - Si uno de los nombres se termina antes que el otro, devuelve `false`.
 - `?` en cualquiera de los dos nombres coincide con cualquier carácter.
 - El resto de caracteres se comparan sin convertir mayúsculas ni minúsculas.

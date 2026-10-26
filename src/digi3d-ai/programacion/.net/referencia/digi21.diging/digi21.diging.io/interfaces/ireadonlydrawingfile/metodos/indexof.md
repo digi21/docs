@@ -26,4 +26,4 @@ int IndexOf(Entity entity);
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `NullReferenceException` | `entity` es `null`. Las implementaciones no lo comprueban. |
+| `NullReferenceException` | `entity` es `null`. Las implementaciones no comprueban si el parámetro es nulo. |

@@ -45,7 +45,7 @@ Los cambios se hacen en memoria. Para guardarlos, llama a [Write](/digi3d-ai/pro
 | Método | Descripción |
 | :--- | :--- |
 | [bool HasCode(string name)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md) | Indica si la tabla tiene un código o un alias con ese nombre exacto. |
-| [bool HasCode(string name, bool allowWildcards)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md) | Igual, con comodines `*` y `?` si `allowWildcards` es `true`. |
+| [bool HasCode(string name, bool allowWildcards)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md) | Indica si la tabla tiene un código o un alias con el nombre indicado, con comodines `*` y `?` si `allowWildcards` es `true`. |
 | [void AddCode(NodeDigiTab code)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/addcode.md) | Añade un código a la tabla. |
 | [void Write(string path)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/write.md) | Guarda la tabla de códigos en un archivo. Lanza `InvalidOperationException` si la tabla está cifrada e `IOException` si no se puede escribir. |
 | `void Dispose()` | Libera la tabla de códigos nativa. |

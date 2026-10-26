@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG.IO`  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Función sin parámetros que devuelve el WKT (*Well-Known Text*, el texto que define un [sistema de referencia de coordenadas](/digi3d-ai/sistemas-referencia-coordenadas/)) que se asigna a un archivo de dibujo cuando el archivo no tiene uno.
+Función sin parámetros que devuelve el WKT (*Well-Known Text*, el texto que define un [sistema de referencia de coordenadas](/digi3d-ai/sistemas-referencia-coordenadas/)) que se asigna a un archivo de dibujo cuando el archivo no tiene un sistema de referencia de coordenadas.
 
 ```csharp
 public delegate string DelegateGetWkt();
@@ -17,7 +17,7 @@ Los constructores de los archivos de dibujo reciben este delegado en el parámet
 | [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md) | Si no existe el archivo `.prj`. |
 | [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md) | Si no existe el archivo `.bind`. |
 | [Shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md) | Si la carpeta no tiene capas. |
-| [Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md) | No lo llama: el sistema de referencia de coordenadas sale del archivo. |
+| [Geomedia](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.geomedia/geomedia.md) | `Geomedia` no llama a `DelegateGetWkt`: el sistema de referencia de coordenadas se obtiene del archivo. |
 
 Una expresión lambda que devuelve un `string` se convierte en este delegado, por ejemplo `() => entrada.Wkt`.
 

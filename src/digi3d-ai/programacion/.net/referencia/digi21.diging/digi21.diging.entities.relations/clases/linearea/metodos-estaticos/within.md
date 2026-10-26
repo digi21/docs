@@ -20,9 +20,9 @@ public static bool Within(ReadOnlyLine line, ReadOnlyPolygon area)
 
 ## Valor devuelto
 
-`true` si todos los vértices de la línea están dentro del área. Un vértice sobre el borde o dentro de un hueco de un polígono no está dentro, así que el método devuelve `false` si la línea toca el borde.
+`true` si todos los vértices de la línea están dentro del área. Un vértice sobre el borde o dentro de un hueco de un polígono no se considera interior al área, así que el método devuelve `false` si un vértice de la línea toca el borde.
 
-Como solo se analizan los vértices, el método devuelve `true` aunque un lado de la línea salga del área entre dos vértices interiores, por ejemplo al atravesar una entrante del contorno o un hueco.
+Como solo se analizan los vértices, el método devuelve `true` aunque un lado de la línea salga del área entre dos vértices interiores, por ejemplo al atravesar un entrante del contorno o un hueco.
 
 ## Excepciones
 

@@ -37,7 +37,7 @@ La vista se ajusta a la caja de la entidad sin margen. Para una entidad con anch
 
 ## Ejemplo
 
-Esta orden añade un error por cada polígono no eliminado del archivo de dibujo cuya área es menor que el valor que recibe como parámetro. Al hacer doble clic en una tarea, la ventana de dibujo encuadra el polígono y lo resalta durante 2 segundos:
+Esta orden recibe un límite de área en unidades cuadradas del archivo de dibujo como parámetro y añade un error por cada polígono no eliminado del archivo de dibujo cuya área es menor que el límite recibido. Al hacer doble clic en una tarea, la ventana de dibujo encuadra el polígono asociado a la tarea y lo resalta durante 2 segundos:
 
 ```csharp
 using System.Globalization;

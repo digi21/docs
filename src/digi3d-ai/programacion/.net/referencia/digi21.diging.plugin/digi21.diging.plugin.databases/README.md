@@ -10,7 +10,7 @@ Tipos para escribir propiedades dinámicas: valores por defecto de los campos de
 
 | Atributo | Descripción |
 | :--- | :--- |
-| [DynamicPropertyAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.databases/atributos/dynamicpropertyattribute.md) | Marca una clase como proveedor de una propiedad dinámica e indica su nombre. |
+| [DynamicPropertyAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.databases/atributos/dynamicpropertyattribute.md) | Marca una clase como proveedor de una propiedad dinámica e indica el nombre de la propiedad. |
 
 ## Interfaces
 

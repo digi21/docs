@@ -38,10 +38,10 @@ Si la entidad es de solo lectura (pertenece a un archivo de dibujo), los método
 | `void Clear()` | Quita todos los códigos. |
 | `bool Remove(Code item)` | Quita de la colección y de la entidad el código de la posición que devuelve `IndexOf(item)`: el primero cuyo nombre coincide con `item.Name` según [Code.Compare](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/metodos-estaticos/compare.md). Devuelve `false` si ningún nombre coincide. |
 | `void RemoveAt(int index)` | Quita el código de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
-| `int IndexOf(Code item)` | Posición del primer código cuyo nombre coincide con `item.Name` según `Code.Compare`, con los comodines `*` y `?`. Devuelve `-1` si ninguno coincide. No compara `Table` ni `Id`. |
+| `int IndexOf(Code item)` | Devuelve la posición del primer código cuyo nombre coincide con `item.Name` según `Code.Compare`, con los comodines `*` y `?`. `IndexOf` devuelve `-1` si ningún nombre de código coincide con `item.Name`. `IndexOf` no compara `Table` ni `Id`. |
 | `bool Contains(Code item)` | `true` si `IndexOf(item)` no devuelve `-1`: compara el nombre, con los comodines `*` y `?`, y no compara `Table`, `Id` ni `Attributes`. |
 | `void CopyTo(Code[] array, int arrayIndex)` | Copia los códigos en `array` a partir de `arrayIndex`. |
-| `IEnumerator<Code> GetEnumerator()` | Enumerador de los códigos. |
+| `IEnumerator<Code> GetEnumerator()` | Devuelve un enumerador de los códigos. |
 
 Excepciones de los métodos que modifican la colección (`Add`, `Insert`, `Clear`, `Remove`, `RemoveAt` y los descriptores `set` de los indexadores):
 

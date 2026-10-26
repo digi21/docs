@@ -1,7 +1,7 @@
 # Tutorial: crear una extensión
 <!-- id: tutorial-extension -->
 
-En este tutorial crearás una extensión de Digi3D.AI con una orden, `HOLA_MUNDO`, que escribe un mensaje en la ventana de resultados. Una extensión es una biblioteca (`.dll`) que Digi3D.AI carga al arrancar. Sus órdenes se ejecutan dentro del programa, con acceso al archivo de dibujo abierto, a los archivos de referencia y a las ventanas de Digi3D.AI.
+En este tutorial crearás una extensión de Digi3D.AI con una orden, `HOLA_MUNDO`, que escribe un mensaje en la ventana de resultados. Una extensión es una biblioteca de vínculos dinámicos (DLL, `.dll`) que Digi3D.AI carga al arrancar. Las órdenes de la extensión se ejecutan dentro de Digi3D.AI, con acceso al archivo de dibujo abierto, a los archivos de referencia y a las ventanas de Digi3D.AI.
 
 ## Requisitos
 
@@ -46,7 +46,7 @@ Sustituye el contenido de `HolaMundo.csproj` por:
 
 - `net10.0-windows`: las extensiones usan tipos de Windows, como los paneles de Digi3D.AI.
 - `EnableDynamicLoading`: prepara la biblioteca para cargarse desde otro programa. Si la extensión usa otros paquetes NuGet, sus DLL se copian a la carpeta de salida y Digi3D.AI las encuentra al cargarla.
-- `Digi21DisableAssemblyResolver`: deja fuera el archivo que el paquete añade para que las aplicaciones de consola encuentren los ensamblados de Digi3D.AI. Una extensión no lo necesita, porque Digi3D.AI ya tiene cargados esos ensamblados.
+- `Digi21DisableAssemblyResolver`: excluye del proyecto el archivo `Digi3DAssemblyResolver.cs` que añade el paquete `Digi21.DigiNG` para que las aplicaciones de consola encuentren los ensamblados de Digi3D.AI. Una extensión no necesita `Digi3DAssemblyResolver.cs`, porque Digi3D.AI ya tiene cargados esos ensamblados.
 
 ## 3. Escribir la orden
 
@@ -75,9 +75,11 @@ public class OrdenHolaMundo : Command
 
 - El atributo `[Command]` indica a Digi3D.AI que la clase es una orden, y `Name` es el nombre que se teclea para ejecutarla. Digi3D.AI no distingue mayúsculas y minúsculas en el nombre.
 - La clase hereda de `Command` y tiene un constructor público sin parámetros. Digi3D.AI crea un objeto de la clase con ese constructor cada vez que se ejecuta la orden; si la clase no lo tiene, muestra un error al ejecutarla.
-- El evento `Initialize` se produce al empezar la orden. Aquí muestra la ventana de resultados, escribe una línea y termina la orden con `Dispose()`. Una orden que espera a que el usuario marque puntos o seleccione entidades no llama a `Dispose()` hasta terminar; esas órdenes están explicadas en el [curso de programación en C#](curso-de-programacion-en-c/README.md).
+- El evento `Initialize` se produce al empezar la orden. En este ejemplo, el manejador de `Initialize` muestra la ventana de resultados, escribe una línea y termina la orden con `Dispose()`. Una orden que espera a que el usuario marque puntos o seleccione entidades no llama a `Dispose()` hasta que finaliza la ejecución de la orden; esas órdenes están explicadas en el [curso de programación en C#](curso-de-programacion-en-c/README.md).
 
 ## 4. Compilar la extensión
+
+Ejecuta la siguiente orden:
 
 ```
 dotnet build -c Release -o C:\MisExtensiones\HolaMundo
@@ -95,7 +97,7 @@ En la línea de órdenes de Digi3D.AI, ejecuta la orden `CARGA_ENSAMBLADO` con l
 CARGA_ENSAMBLADO=C:\MisExtensiones\HolaMundo\HolaMundo.dll
 ```
 
-La ventana de resultados muestra las órdenes que ha cargado:
+La ventana de resultados muestra las órdenes que Digi3D.AI ha cargado:
 
 ```
 Ensamblado C:\MisExtensiones\HolaMundo\HolaMundo.dll cargado. Órdenes: hola_mundo.
@@ -109,7 +111,7 @@ HOLA_MUNDO
 
 La ventana de resultados muestra `Hola mundo desde una extensión .NET 10.`
 
-La extensión queda cargada hasta que cierras Digi3D.AI. Si vuelves a cargar la misma DLL, Digi3D.AI conserva las órdenes que ya tenía y lo indica en la ventana de resultados. Para probar una versión nueva de la DLL, cierra Digi3D.AI, compila y vuelve a cargarla.
+La extensión queda cargada hasta que cierras Digi3D.AI. Si vuelves a cargar la misma DLL, Digi3D.AI conserva las órdenes registradas e indica en la ventana de resultados que los nombres de las órdenes ya están registrados. Para probar una versión nueva de la DLL, cierra Digi3D.AI, compila la extensión y vuelve a cargar la DLL en Digi3D.AI.
 
 Si la DLL no tiene ninguna clase pública con el atributo `[Command]`, la ventana de resultados lo indica y no se carga ninguna orden. Si la DLL no se puede cargar, Digi3D.AI muestra un mensaje con la causa del error.
 
@@ -121,7 +123,7 @@ Digi3D.AI carga al arrancar las extensiones registradas en la clave `HKEY_LOCAL_
 reg add "HKLM\SOFTWARE\Digi21\Digi3D.NET\DigiNG\Extensiones\Commands" /v "C:\MisExtensiones\HolaMundo\HolaMundo.dll" /t REG_SZ /d "Orden Hola mundo" /reg:64 /f
 ```
 
-Reinicia Digi3D.AI y ejecuta `HOLA_MUNDO`. Para dejar de cargarla, borra el valor:
+Reinicia Digi3D.AI y ejecuta `HOLA_MUNDO`. Para dejar de cargar la extensión al arrancar Digi3D.AI, borra el valor de registro:
 
 ```
 reg delete "HKLM\SOFTWARE\Digi21\Digi3D.NET\DigiNG\Extensiones\Commands" /v "C:\MisExtensiones\HolaMundo\HolaMundo.dll" /reg:64 /f

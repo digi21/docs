@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Color de relleno propio de la entidad. Una entidad sin color de relleno propio usa el que la tabla de códigos asigna a su código.
+Color de relleno propio de la entidad. Una entidad sin color de relleno propio usa el color de relleno que la tabla de códigos asigna al código de la entidad.
 
 ```csharp
 public int? FillColor { get; set; }

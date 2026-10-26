@@ -20,7 +20,7 @@ IEnumerable<Entity> Clip(ReadOnlyLine limit)
 
 Una enumeración de entidades nuevas sin archivo de dibujo (`Owner` es `null`), de lectura y escritura, con los códigos de esta entidad. Esta entidad no se modifica.
 
-El método calcula las intersecciones de esta entidad con `limit`. En una línea abierta, parte la línea por esas intersecciones. En una línea cerrada o un polígono, forma los recintos que delimitan los tramos resultantes de las dos y se queda con los recintos cuyo punto interior no está fuera de esta entidad:
+El método calcula las intersecciones de esta entidad con `limit`. Si la entidad es una línea abierta, el método divide la línea por las intersecciones calculadas. Si la entidad es una línea cerrada o un polígono, el método forma los recintos delimitados por los tramos de la entidad y de la línea límite, y devuelve los recintos cuyo punto interior no está fuera de esta entidad:
 
 | Tipo | Resultado |
 | :--- | :--- |

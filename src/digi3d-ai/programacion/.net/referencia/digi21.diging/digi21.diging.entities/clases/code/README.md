@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Código de una entidad. El nombre del código identifica en la tabla de códigos lo que representa la entidad. Opcionalmente, el código enlaza con un registro de una tabla de la base de datos del archivo de dibujo: el número de tabla (`Table`) y el identificador del registro (`Id`).
+Código de una entidad. El nombre del código identifica en la tabla de códigos lo que representa la entidad. Opcionalmente, el código enlaza con un registro de una tabla de la base de datos del archivo de dibujo mediante el número de tabla (`Table`) y el identificador del registro (`Id`).
 
 ```csharp
 public struct Code

@@ -12,11 +12,11 @@ public struct Window2D : IWindow2D, IDesplazable
 
 Implementa: [IWindow2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/) e [IDesplazable](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/idesplazable/).
 
-`Window2D` es una estructura (tipo por valor): una asignación copia la ventana, y los métodos que modifican la ventana (`Offset`, `Inflate` y `Union` de instancia) no tienen efecto si se llaman sobre una copia, por ejemplo sobre el valor que devuelve una propiedad.
+`Window2D` es una estructura (tipo de valor): una asignación copia la ventana, y los métodos que modifican la ventana (`Offset`, `Inflate` y `Union` de instancia) no modifican la ventana original si se llaman sobre una copia, por ejemplo sobre el valor que devuelve una propiedad.
 
 Una ventana no inicializada tiene `Xmin` a `null`. Es el estado de `new Window2D()` y de `default(Window2D)`. El método `Union` de instancia inicializa una ventana no inicializada con los límites del argumento, así que una envolvente se calcula partiendo de `new Window2D()` y llamando a `Union` con cada punto.
 
-Los parámetros `Point` y `PointF` son de `System.Drawing`; `Size` también.
+Los tipos `Point` y `PointF` pertenecen a `System.Drawing`, al igual que `Size`.
 
 ## Constructores
 
@@ -32,7 +32,7 @@ public Window2D(IWindow3D window)
 | Constructor | Descripción |
 | :--- | :--- |
 | `Window2D(double xMin, double yMin, double xMax, double yMax)` | Crea la ventana con esos límites. No comprueba que `xMin <= xMax` ni que `yMin <= yMax`: si no se cumple, `Valid` es `false`. |
-| `Window2D(double? xMin, double yMin, double xMax, double yMax)` | Igual que el anterior. Si `xMin` es `null`, la ventana no está inicializada. |
+| `Window2D(double? xMin, double yMin, double xMax, double yMax)` | Crea la ventana sin comprobar el orden de los límites. Si `xMin` es `null`, la ventana no está inicializada. |
 | `Window2D(Point2D point)`, `Window2D(Point3D point)` | Crea una ventana de ancho y alto 0 en la X y la Y del punto. |
 | `Window2D(IWindow2D window)`, `Window2D(IWindow3D window)` | Copia `Xmin`, `Ymin`, `Xmax` e `Ymax` de `window`, incluido un `Xmin` a `null`. De un `IWindow3D` descarta `Zmin` y `Zmax`. Lanza `NullReferenceException` si `window` es `null`. |
 
@@ -47,7 +47,7 @@ public Window2D(IWindow3D window)
 | Propiedad | Descripción |
 | :--- | :--- |
 | [double? Xmin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/xmin.md) | Coordenada X mínima, o `null` si la ventana no está inicializada. |
-| [double Ymin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/ymin.md), [double Xmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/xmax.md), [double Ymax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/ymax.md) | Coordenada Y mínima, X máxima e Y máxima. |
+| [double Ymin](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/ymin.md), [double Xmax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/xmax.md), [double Ymax](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/ymax.md) | Coordenadas Y mínima, X máxima e Y máxima. |
 | [bool Valid](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/valid.md) | `true` si `Xmin` no es `null`, `Xmin <= Xmax` e `Ymin <= Ymax`. |
 | [double Width](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/width.md), [double Height](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/height.md) | `Xmax - Xmin` e `Ymax - Ymin`. |
 | [Point2D Center](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/interfaces/iwindow2d/propiedades/center.md) | Centro de la ventana. |
@@ -76,7 +76,7 @@ public void Inflate(Point2D size)
 public void Inflate(Size size)
 ```
 
-Resta `x` de `Xmin` y la suma a `Xmax`; resta `y` de `Ymin` y la suma a `Ymax`. El ancho crece `2 * x` y el alto `2 * y`. Un valor negativo reduce la ventana. `Inflate(Point2D)` usa `size.X` y `size.Y`; `Inflate(Size)` usa `size.Width` y `size.Height`. Lanza `InvalidOperationException` si `Xmin` es `null`.
+Resta `x` de `Xmin` y lo suma a `Xmax`; resta `y` de `Ymin` y lo suma a `Ymax`. El ancho crece `2 * x` y el alto `2 * y`. Un valor negativo de `x` reduce el ancho de la ventana y un valor negativo de `y` reduce el alto. `Inflate(Point2D)` usa `size.X` y `size.Y`; `Inflate(Size)` usa `size.Width` y `size.Height`. `Inflate` lanza `InvalidOperationException` si `Xmin` es `null`.
 
 ### Union
 
@@ -266,12 +266,12 @@ Devuelve `true` si las dos ventanas tienen algún punto común en el plano X, Y,
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `InvalidOperationException` | Se lee `Width`, `Height`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Intersection`, `Contains` o `Intersects`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También en el método `Union` de instancia sobre una ventana inicializada con una ventana no inicializada como argumento. |
+| `InvalidOperationException` | Se lee `Width`, `Height`, `Center` o un punto cardinal, o se llama a `Offset`, `Inflate`, `Intersection`, `Contains` o `Intersects`, sobre una ventana con `Xmin` a `null`, o con un argumento de tipo ventana con `Xmin` a `null`. También se lanza al llamar al método `Union` de instancia sobre una ventana inicializada con una ventana no inicializada como argumento. |
 | `NullReferenceException` | Un argumento de tipo `IWindow2D` o `IWindow3D` es `null`. |
 
 ## Ejemplo
 
-Este programa calcula la ventana que envuelve tres puntos, la cruza con otra ventana y la amplía:
+Este programa calcula la ventana que envuelve tres puntos, calcula la intersección con otra ventana y amplía la ventana envolvente:
 
 ```csharp
 using Digi21.Math;

@@ -30,8 +30,8 @@ Una tarea es un error, una advertencia o un mensaje que genera una extensión o 
 
 | Delegado | Descripción |
 | :--- | :--- |
-| [ProgressEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/progresseventhandler.md) | Evento que notifica un porcentaje de progreso. |
-| [ResultsAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/resultsaddedeventhandler.md) | Evento que notifica un texto informativo. |
-| [TaskAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/taskaddedeventhandler.md) | Evento que notifica una tarea nueva. |
+| [ProgressEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/progresseventhandler.md) | Delegado de los eventos que notifican un porcentaje de progreso. |
+| [ResultsAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/resultsaddedeventhandler.md) | Delegado de los eventos que notifican un texto informativo. |
+| [TaskAddedEventHandler](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/delegados/taskaddedeventhandler.md) | Delegado de los eventos que notifican una tarea nueva. |
 
 El [ejemplo de TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/clases/taskbase/#ejemplo) usa todos los tipos de este espacio de nombres.

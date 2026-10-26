@@ -13,7 +13,7 @@ public class CommandAttribute : Attribute
 
 Digi3D.AI registra como orden cada clase pública de la extensión que tiene este atributo o un atributo derivado, como [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md). La clase tiene que derivar de [Command](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/clases/command.md) y tener un constructor público sin parámetros.
 
-El nombre de la orden es `Name` convertido a minúsculas: Digi3D.AI no distingue mayúsculas de minúsculas al ejecutarla. Si ya hay una orden .NET registrada con ese nombre, Digi3D.AI conserva la que ya tenía y no registra la nueva; la orden `CARGA_ENSAMBLADO` lo indica en la ventana de resultados. Si `Name` es `null`, Digi3D.AI no registra la clase.
+El nombre de la orden es `Name` convertido a minúsculas: Digi3D.AI no distingue mayúsculas de minúsculas al ejecutarla. Si ya hay una orden .NET registrada con ese nombre, Digi3D.AI conserva la orden registrada y no registra la orden nueva; la orden `CARGA_ENSAMBLADO` indica en la ventana de resultados que el nombre ya está registrado. Si `Name` es `null`, Digi3D.AI no registra la clase.
 
 ## Constructores
 
@@ -28,7 +28,7 @@ Crea el atributo con las tres propiedades a `null`. Las propiedades se asignan c
 | Propiedad | Descripción |
 | :--- | :--- |
 | `string Name { get; set; }` | Nombre de la orden. |
-| `string Description { get; set; }` | Descripción de la orden. El cuadro de diálogo [Buscar orden](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) la muestra al seleccionar la orden y busca el texto escrito también en ella. |
+| `string Description { get; set; }` | Descripción de la orden. El cuadro de diálogo [Buscar orden](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) muestra la descripción al seleccionar la orden y también busca el texto escrito en la descripción. |
 | `string HelpUrl { get; set; }` | Dirección de la página de ayuda de la orden. En la versión 26.0.0, Digi3D.AI no la usa. |
 
 ## Ejemplo

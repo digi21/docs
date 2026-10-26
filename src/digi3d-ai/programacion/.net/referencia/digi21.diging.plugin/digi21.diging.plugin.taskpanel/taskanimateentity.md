@@ -52,7 +52,7 @@ Propiedades heredadas de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi
 
 ## Ejemplo
 
-Esta orden añade un mensaje por cada texto no eliminado del archivo de dibujo que contiene la cadena que recibe como parámetro. Al hacer doble clic en una tarea, el texto se resalta durante 2 segundos:
+Esta orden recibe una cadena como parámetro y añade un mensaje por cada texto no eliminado que pertenece al archivo de dibujo y contiene la cadena recibida. Al hacer doble clic en una tarea, Digi3D.AI resalta el texto asociado a la tarea durante 2 segundos:
 
 ```csharp
 using Digi21.Digi3D;

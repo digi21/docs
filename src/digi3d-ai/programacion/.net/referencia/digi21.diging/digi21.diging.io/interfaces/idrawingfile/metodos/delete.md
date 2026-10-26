@@ -23,7 +23,7 @@ void Delete(Entity entity);
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `entity` | [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) del archivo que se elimina. |
+| `entity` | [Entity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/) que se elimina del archivo. |
 
 ## Delete(IEnumerable&lt;Entity&gt;)
 
@@ -40,4 +40,4 @@ void Delete(IEnumerable<Entity> entities);
 | Excepción | Cuándo |
 | :--- | :--- |
 | `ArgumentNullException` | `entity` es `null`. `Delete(IEnumerable<Entity>)` no comprueba si `entities` es `null` en `Bin` ni en `DrawingFile`. |
-| `InvalidOperationException` | La entidad pertenece a otro archivo. También, en las implementaciones que comprueban [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) (por ejemplo `Bin`), el archivo está abierto en solo lectura. |
+| `InvalidOperationException` | La entidad pertenece a otro archivo, o el archivo está abierto en solo lectura en las implementaciones que comprueban [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) (por ejemplo `Bin`). |

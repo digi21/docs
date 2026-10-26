@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.digin
 
 Indica si la línea toca el área en un vértice intermedio de la línea, sin recorrer el borde ni cruzarlo.
 
-![Línea junta área](../../../../../../../../../images/lineajuntaarea.png)
+![Línea que se une a un área](../../../../../../../../../images/lineajuntaarea.png)
 
 ```csharp
 public static bool Join(ReadOnlyLine line, ReadOnlyLine area)

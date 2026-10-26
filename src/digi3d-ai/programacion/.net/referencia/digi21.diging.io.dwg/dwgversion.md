@@ -14,7 +14,7 @@ public enum DwgVersion
 
 | Valor | Número | Formato del archivo |
 | :--- | :--- | :--- |
-| `Ac_12` | 0 | AutoCAD R11/R12 (AC1009). Es el valor de `new DwgParameters()`. |
+| `Ac_12` | 0 | AutoCAD R11/R12 (AC1009). `Ac_12` es el valor de la propiedad Version al crear `new DwgParameters()`. |
 | `Ac_13` | 1 | AutoCAD R13 (AC1012). |
 | `Ac_14` | 2 | AutoCAD R14 (AC1014). |
 | `Ac_2000` | 3 | AutoCAD 2000 (AC1015). |

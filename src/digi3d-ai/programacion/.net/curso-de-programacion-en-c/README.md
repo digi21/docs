@@ -3,7 +3,7 @@
 
 En este curso aprenderás a manejar los tipos que publica Digi3D.AI.
 
-En el momento de la grabación de los vídeos, el instalador de Digi3D.AI instalaba los ensamblados a los que hay que hacer referencia en la carpeta _Reference Assemblies_ de _Windows_, y al crear una aplicación o extensión, tenías que añadir como referencia estos ensamblados antes de compilar.
+Cuando se grabaron los vídeos, el instalador de Digi3D.AI copiaba los ensamblados en la carpeta _Reference Assemblies_ de _Windows_. Para crear una aplicación o extensión, tenías que añadir referencias a los ensamblados instalados en _Reference Assemblies_ antes de compilar.
 
-Esto ha cambiado hace tiempo ya, y ahora ya no se publican ensamblados en la carpeta, y la manera de hacer referencia a estos ensamblados es mediante paquetes [NuGet](https://www.nuget.org/profiles/Digi21).
+Ahora los ensamblados ya no se publican en la carpeta _Reference Assemblies_ de _Windows_. Para añadir referencias a los ensamblados, usa los paquetes [NuGet](https://www.nuget.org/profiles/Digi21).
 

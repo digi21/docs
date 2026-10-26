@@ -18,7 +18,7 @@ public static double AzimuthToTrigonometric(this double radians)
 
 ## Devuelve
 
-El ángulo trigonométrico en radianes: `5π/2 − radians`, normalizado al intervalo [0, 2π] con el mismo cálculo que [NormalizeAngle](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/normalizeangle.md). A diferencia de `NormalizeAngle`, el método no lanza excepciones: un argumento `NaN` devuelve `NaN`, `+∞` devuelve `−∞` y `−∞` devuelve `+∞`.
+El ángulo trigonométrico en radianes: `5π/2 − radians`, normalizado al intervalo [0, 2π] radianes (ambos extremos incluidos), con el mismo cálculo que [NormalizeAngle](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/normalizeangle.md). A diferencia de `NormalizeAngle`, el método no lanza excepciones: con un argumento `NaN`, el método devuelve `NaN`; con `+∞`, devuelve `−∞`; y con `−∞`, devuelve `+∞`.
 
 ## Ejemplo
 

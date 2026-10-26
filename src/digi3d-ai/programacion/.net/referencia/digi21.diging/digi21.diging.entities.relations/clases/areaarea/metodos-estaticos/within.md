@@ -19,7 +19,7 @@ public static bool Within(ReadOnlyPolygon a, ReadOnlyPolygon b)
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `a` | Área que se comprueba si está dentro de `b`: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
+| `a` | Área que se analiza para comprobar si está dentro de `b`: una [ReadOnlyLine](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlyline/) cerrada o un [ReadOnlyPolygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/readonlypolygon/). |
 | `b` | Área contenedora. |
 
 ## Valor devuelto

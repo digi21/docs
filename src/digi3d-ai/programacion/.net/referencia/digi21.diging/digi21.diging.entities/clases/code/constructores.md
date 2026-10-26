@@ -41,7 +41,7 @@ var código = new Code("020400");
 public Code(string name, IDictionary<string, object> atributes)
 ```
 
-Crea un código sin enlace a la base de datos con los atributos indicados. La propiedad `Attributes` es el mismo diccionario que se pasa: los cambios posteriores en el diccionario se ven en el código.
+Crea un código sin enlace a la base de datos con los atributos indicados. La propiedad `Attributes` contiene el mismo diccionario que se pasa al constructor: los cambios posteriores en el diccionario se reflejan en los atributos del código.
 
 | Parámetro | Descripción |
 | :--- | :--- |
@@ -82,7 +82,7 @@ var código = new Code("020400", 2, 25522);
 public Code(string name, int? table, int? id)
 ```
 
-Crea un código con tabla y registro opcionales. Con `table` e `id` a `null` equivale a `Code(name)`.
+Crea un código con tabla y registro opcionales. Si `table` e `id` son `null`, este constructor equivale a `Code(name)`.
 
 | Parámetro | Descripción |
 | :--- | :--- |

@@ -39,9 +39,9 @@ public LocalizableCommandAttribute(Type resourceManagerProvider, string nameReso
 | Parámetro | Descripción |
 | :--- | :--- |
 | `resourceManagerProvider` | Tipo que proporciona el `ResourceManager`. |
-| `nameResource` | Clave del recurso con el nombre de la orden. Se asigna a `Name`. |
-| `descriptionResource` | Clave del recurso con la descripción. Se asigna a `Description`, que el cuadro de diálogo [Buscar orden](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) muestra y en la que busca. Con el constructor de dos parámetros, `Description` vale `null` y la orden no tiene descripción en ese cuadro. |
-| `helpUrlResource` | Clave del recurso con la dirección de la ayuda. Se asigna a `HelpUrl`. |
+| `nameResource` | Clave del recurso con el nombre de la orden. La cadena del recurso se asigna a `Name`. |
+| `descriptionResource` | Clave del recurso con la descripción. La cadena del recurso se asigna a `Description`, que el cuadro de diálogo [Buscar orden](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) muestra y en la que busca el texto introducido por el usuario. Con el constructor de dos parámetros, `Description` vale `null` y la orden no tiene descripción en el cuadro de diálogo Buscar orden. |
+| `helpUrlResource` | Clave del recurso con la dirección de la ayuda. La cadena del recurso se asigna a `HelpUrl`. |
 
 Las propiedades que no tienen parámetro en la sobrecarga usada quedan a `null`.
 

@@ -10,7 +10,7 @@ Tipos para añadir las órdenes de una extensión al menú de la ventana de dibu
 
 | Atributo | Descripción |
 | :--- | :--- |
-| [CommandInMenuAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.menu/atributos/commandinmenuattribute.md) | Añade al menú una opción con un texto fijo que ejecuta la orden de la clase. |
+| [CommandInMenuAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.menu/atributos/commandinmenuattribute.md) | Añade al menú una opción que tiene un texto fijo y ejecuta la orden de la clase. |
 | [LocalizableCommandInMenuAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.menu/atributos/localizablecommandinmenuattribute.md) | Igual que `CommandInMenuAttribute`, con el texto leído de los recursos de la extensión. |
 
 ## Enumeraciones

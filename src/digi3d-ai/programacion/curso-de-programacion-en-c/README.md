@@ -2,9 +2,9 @@
 
 En este curso aprenderás a manejar los tipos que publica Digi3D.AI.
 
-En el momento de la grabación de los vídeos, el instalador de Diri3D.NET instalaba los ensamblados a los que hay que hacer referncia en la carpeta Reference Assemblies de Windows, y al crear una aplicación o extensión, tenías que añadir como referencia estos ensamblados antes de compilar. 
+Cuando se grabaron los vídeos, el instalador de Digi3D.NET instalaba los ensamblados en la carpeta Reference Assemblies de Windows. Al crear una aplicación o una extensión, tenías que añadir referencias a los ensamblados instalados en la carpeta Reference Assemblies de Windows antes de compilar. 
 
-Esto ha cambiado hace tiempo ya, y ahora ya no se publican ensamblados en la carpeta, y la manera de hacer referencia a estos ensamblados es mediante paquetes [NuGet](https://www.nuget.org/profiles/Digi21).
+Actualmente, los ensamblados ya no se publican en la carpeta Reference Assemblies de Windows. Para hacer referencia a los ensamblados, utiliza paquetes [NuGet](https://www.nuget.org/profiles/Digi21).
 
 
 

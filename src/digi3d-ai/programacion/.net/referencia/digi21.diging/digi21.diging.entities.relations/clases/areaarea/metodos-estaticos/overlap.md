@@ -6,9 +6,9 @@ Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.digin
 
 Indica si dos áreas se solapan y devuelve un vértice de un área que está dentro de la otra.
 
-![Área solapa área](../../../../../../../../../images/areasolapaarea.png)
+![Área que se solapa con otra área](../../../../../../../../../images/areasolapaarea.png)
 
-![Área solapa área](../../../../../../../../../images/areasolapaarea2.png)
+![Área que se solapa con otra área](../../../../../../../../../images/areasolapaarea2.png)
 
 ```csharp
 public static bool Overlap(ReadOnlyLine a, ReadOnlyLine b, out Point3D coordinate)

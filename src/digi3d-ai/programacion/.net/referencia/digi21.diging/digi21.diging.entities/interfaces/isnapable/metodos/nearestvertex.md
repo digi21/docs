@@ -24,7 +24,7 @@ Distancia en el plano XY entre `coordinate` y `nearestVertex`.
 
 | Tipo | Cálculo |
 | :--- | :--- |
-| `ReadOnlyLine`, `Line`, `ReadOnlyPolygon`, `Polygon` | Recorre todos los vértices y elige el de menor distancia en el plano XY; con dos vértices a la misma distancia, el de menor índice. En un polígono solo se analiza el contorno exterior. |
+| `ReadOnlyLine`, `Line`, `ReadOnlyPolygon`, `Polygon` | Recorre todos los vértices y elige el de menor distancia a `coordinate` en el plano XY; si dos vértices están a la misma distancia de `coordinate`, elige el de menor índice. En un polígono solo se analiza el contorno exterior. |
 | `ReadOnlyPoint`, `Point`, `ReadOnlyText`, `Text` | `nearestVertex` es `Coordinate` y `vertex` vale 0. |
 
 ## Excepciones

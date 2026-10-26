@@ -12,7 +12,7 @@ public double Perimeter { get; }
 
 ## Valor de la propiedad
 
-La suma de las longitudes en X, Y de los segmentos, del primer vértice al último. En una línea abierta no se suma el tramo del último vértice al primero. Una línea con un solo vértice devuelve `0`.
+La suma de las longitudes en X, Y de los segmentos, del primer vértice al último. En una línea abierta no se suma el tramo del último vértice al primero. La propiedad devuelve `0` si la línea tiene un solo vértice.
 
 ## Excepciones
 

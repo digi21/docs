@@ -9,7 +9,7 @@ Para usar esos ensamblados desde tu programa, referencia los paquetes [NuGet](ht
 
 La carga la hace un archivo que el paquete `Digi21.DigiNG` añade a los proyectos C#; está explicado en [Migración a .NET 10](../migracion-a-net-10.md#cómo-encuentra-tu-programa-los-ensamblados-de-digi3dai).
 
-A continuación, el listado de paquetes NuGet:
+Paquetes NuGet y ensamblados disponibles:
 
 * [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 * [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)

@@ -13,9 +13,9 @@ Crean una [OrthographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.di
 | `OrthographicCamera()` | Cámara con `Name` vacío y el resto de propiedades a 0. |
 | `OrthographicCamera(string name)` | Cámara con el nombre indicado y el resto de propiedades a 0. |
 | `OrthographicCamera(IWindow3D window)` | Cámara que abarca la ventana indicada, sin giros. |
-| `OrthographicCamera(string name, IWindow3D window)` | Igual que el anterior, con nombre. |
+| `OrthographicCamera(string name, IWindow3D window)` | Crea una cámara que abarca la ventana indicada, sin giros y con el nombre indicado. |
 | `OrthographicCamera(IWindow3D window, float yaw, float pitch, float roll)` | Cámara que abarca la ventana indicada, con giros. |
-| `OrthographicCamera(string name, IWindow3D window, float yaw, float pitch, float roll)` | Igual que el anterior, con nombre. |
+| `OrthographicCamera(string name, IWindow3D window, float yaw, float pitch, float roll)` | Crea una cámara que abarca la ventana indicada, con los giros y el nombre indicados. |
 
 ## OrthographicCamera()
 

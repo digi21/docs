@@ -21,23 +21,23 @@ Entre dos sistemas de referencia de coordenadas la base de datos de EPSG puede t
 
 ## Propiedades estáticas
 
-Cada lectura de estas propiedades devuelve una instancia nueva, así que se pueden modificar sin afectar a otras llamadas.
+Cada lectura de `BestAccuracy` o de `Interactive` devuelve una instancia nueva, que puedes modificar sin afectar a otras llamadas.
 
 ### BestAccuracy
 
-Opciones sin interfaz, y las que usa `Create` cuando no recibe opciones:
+Las opciones de `BestAccuracy` no muestran una interfaz y son las que usa `Create` cuando no recibe opciones:
 
-1. Si el usuario de Digi3D.AI marcó en el cuadro de diálogo de selección que se use siempre la misma operación para esos dos sistemas, se elige esa.
-2. Si no, se elige la operación de mejor exactitud (el valor de `Accuracy` más bajo; una operación sin exactitud va la última).
+1. Si marcaste en el cuadro de diálogo de selección de Digi3D.AI que se use siempre la misma operación para los sistemas de origen y destino de la transformación, se elige la operación guardada.
+2. Si no hay una operación guardada, se elige la operación con el valor de `Accuracy` más bajo (las operaciones sin exactitud declarada se consideran en último lugar).
 3. Si la operación elegida no se puede construir, por ejemplo porque falta el archivo de la rejilla NTv2, se descarta y se elige la siguiente.
 
-La transformación vertical es la que el usuario guardó para esos dos sistemas en el cuadro de diálogo de Digi3D.AI, si la hay.
+La transformación vertical es la que guardaste para los sistemas de origen y destino en el cuadro de diálogo de Digi3D.AI, si hay alguna guardada para esos sistemas.
 
 ### Interactive
 
-Opciones que preguntan al usuario con los cuadros de diálogo de Digi3D.AI: la elección de operación y el desplazamiento vertical entre dos sistemas sin transformación. Si el usuario marcó que se use siempre la misma elección, el cuadro de diálogo no aparece.
+Las opciones de `Interactive` muestran los cuadros de diálogo de Digi3D.AI para que elijas la operación y el desplazamiento vertical entre dos sistemas sin transformación. Si guardaste la elección de operación o de desplazamiento vertical para los sistemas de origen y destino, el cuadro de diálogo correspondiente no aparece.
 
-Solo se pueden usar desde el hilo principal de Digi3D.AI; desde otro hilo, `Create` lanza `InvalidOperationException`. En una aplicación de consola no hay hilo principal de Digi3D.AI y los cuadros de diálogo se muestran desde el hilo que llama. Si el usuario cancela un cuadro de diálogo, `Create` lanza `CoordinateSystemException`.
+Dentro de Digi3D.AI, las opciones de `Interactive` solo se pueden usar desde el hilo principal; desde otro hilo, `Create` lanza `InvalidOperationException`. En una aplicación de consola no hay hilo principal de Digi3D.AI y los cuadros de diálogo se muestran desde el hilo que llama a `Create`. Si cancelas un cuadro de diálogo, `Create` lanza `CoordinateSystemException`.
 
 ## Delegados
 
@@ -84,7 +84,7 @@ Transformación entre dos sistemas verticales.
 
 ## Ejemplo
 
-Elegir siempre la operación del IGN y, si no hay transformación vertical, sumar 10 metros:
+El ejemplo siguiente elige una operación del Instituto Geográfico Nacional (IGN) si hay alguna disponible; si no la hay, elige la primera operación de la lista. Si no hay transformación vertical, suma 10 metros a la altitud:
 
 ```csharp
 var opciones = new TransformationOptions

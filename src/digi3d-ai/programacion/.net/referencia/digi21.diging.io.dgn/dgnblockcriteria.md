@@ -14,7 +14,7 @@ public enum DgnBlockCriteria
 
 | Valor | Número | Significado |
 | :--- | :--- | :--- |
-| `Complex` | 0 | Cada célula se lee como un complejo (`ReadOnlyComplex`) que contiene las entidades de la célula. Es el valor de `new DgnParameters()`. |
+| `Complex` | 0 | Cada célula se lee como un complejo (`ReadOnlyComplex`) que contiene las entidades de la célula. `Complex` es el valor de la propiedad BlockCriteria al crear `new DgnParameters()`. |
 | `Point` | 1 | Cada célula se lee como un punto (`ReadOnlyPoint`). |
 
 Los dos valores se aplican a las células y a las células compartidas (*shared cells*). No se aplican a las células huérfanas (*orphan cells*) que MicroStation usa para agrupar formas: esas células se leen como polígono o como complejo con cualquiera de los dos valores.

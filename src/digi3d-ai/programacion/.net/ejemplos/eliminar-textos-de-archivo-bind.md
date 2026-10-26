@@ -25,7 +25,7 @@ C:\Herramientas\EliminarTextosDeArchivoBinD\EliminarTextosDeArchivoBinD.exe a.bi
 | `<archivo a crear>` | Archivo `.bind` en el que se escriben las entidades que no se eliminan. |
 | `<código 1>` `<texto 1>` … `<código n>` `<texto n>` | Pares de código y texto. El programa no copia los textos que tienen el código y cuyo contenido es el texto del par. Un código puede aparecer en varios pares. |
 
-El número total de argumentos tiene que ser par y como mínimo 4. Si no lo es, el programa escribe en la salida de error el formato de uso. Escribe entre comillas los textos con espacios, como `"Sin nombre"` en el ejemplo anterior; sin comillas, cada palabra es un argumento distinto.
+El programa requiere un número par de argumentos, con un mínimo de 4 argumentos. Si el número de argumentos no cumple ambas condiciones, el programa escribe en la salida de error el formato de uso. Escribe entre comillas los textos con espacios, como `"Sin nombre"` en el ejemplo anterior; sin comillas, cada palabra es un argumento distinto.
 
 Por cada entidad que no está borrada, el programa escribe en la consola un signo menos (`-`) si la elimina o un signo más (`+`) si la copia.
 

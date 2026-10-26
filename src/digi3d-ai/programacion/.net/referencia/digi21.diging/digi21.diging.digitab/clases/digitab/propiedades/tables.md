@@ -12,7 +12,7 @@ public IDictionary<string, IList<Tuple<string, Type>>> Tables { get; }
 
 ## Valor de la propiedad
 
-Diccionario nuevo en cada lectura. La clave es el nombre de la tabla de base de datos y el valor es la lista de sus campos, en el orden del esquema. Cada campo es una tupla con el nombre del campo (`Item1`) y su tipo .NET (`Item2`):
+Cada lectura de `Tables` devuelve un diccionario nuevo. La clave de cada entrada del diccionario es el nombre de la tabla de base de datos y el valor es la lista de campos de esa tabla, en el orden del esquema. Cada campo es una tupla con el nombre del campo (`Item1`) y su tipo .NET (`Item2`):
 
 | Tipo del campo en el esquema | `Item2` |
 | :--- | :--- |

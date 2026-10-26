@@ -37,7 +37,7 @@ El resto de miembros (códigos, colores, atributos, `Clone`, `Dispose`…) se he
 | [`Point3D Coordinate { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/coordinate.md) | Coordenada de inserción. |
 | [`double TextHeight { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/textheight.md) | Altura del texto. |
 | [`double Rotation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/rotation.md) | Rotación, en grados sexagesimales, en sentido antihorario desde el eje X, alrededor del eje Z del mundo. |
-| [`Quaternion Orientation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/orientation.md) | Orientación en el espacio: un cuaternión que se aplica antes de `Rotation`, en el sistema local del texto. Se normaliza al asignarla. |
+| [`Quaternion Orientation { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/orientation.md) | Orientación en el espacio: un cuaternión que se aplica antes de `Rotation`, en el sistema local del texto. El cuaternión se normaliza al asignar la propiedad. |
 | [`TextJustification Justification { get; set; }`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/propiedades/justification.md) | Posición del punto de inserción respecto al texto. |
 
 ## Métodos

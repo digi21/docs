@@ -12,7 +12,7 @@ public interface IWindow2D
 
 Tipos que implementan la interfaz: [Window2D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/window2d.md).
 
-Una ventana no inicializada tiene `Xmin` a `null`. `Window2D` lanza `InvalidOperationException` al leer `Width`, `Height`, `Center` o uno de los ocho puntos cardinales de una ventana no inicializada. Comprueba `Valid` antes de leerlos.
+Una ventana no inicializada tiene `Xmin` a `null`. `Window2D` lanza `InvalidOperationException` al leer `Width`, `Height`, `Center` o uno de los ocho puntos cardinales de una ventana no inicializada. Comprueba `Valid` antes de leer `Width`, `Height`, `Center` o uno de los ocho puntos cardinales.
 
 ## Propiedades
 

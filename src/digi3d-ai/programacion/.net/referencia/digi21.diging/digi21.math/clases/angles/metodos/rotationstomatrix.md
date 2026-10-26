@@ -25,7 +25,7 @@ public static void RotationsToMatrix(double omega, double phi, double kappa, out
 | Fila 1 | −cos φ · sin κ | cos ω · cos κ − sin ω · sin φ · sin κ | sin ω · cos κ + cos ω · sin φ · sin κ |
 | Fila 2 | sin φ | −sin ω · cos φ | cos ω · cos φ |
 
-El índice `eulerMatrix[fila, columna]` sigue la tabla. [MatrixToRotations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/matrixtorotations.md) hace la operación inversa.
+Los índices de `eulerMatrix[fila, columna]` corresponden a la fila y la columna de la tabla. [MatrixToRotations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/angles/metodos/matrixtorotations.md) calcula los ángulos de rotación a partir de la matriz de giro.
 
 ## Ejemplo
 

@@ -33,7 +33,7 @@ public Geomedia(string path, DigiTab digiTab, DelegateGetWkt GetWkt, bool readOn
 | :--- | :--- |
 | `path` | Ruta del archivo `.mdb`. El archivo tiene que existir y tener al menos una capa. |
 | `digiTab` | Tabla de códigos que relaciona los códigos con las capas. Sin este parámetro se usa una tabla de códigos vacía, y se añade a esa tabla un código por cada capa. |
-| `GetWkt` | Delegado [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md) que devuelve el WKT del sistema de referencia de coordenadas. Se llama una sola vez, si la tabla `GCoordSystem` del archivo no declara un sistema UTM o geográfico en ETRS89 o WGS 84. Si devuelve una cadena vacía, o sin delegado, se usa el sistema de la configuración del usuario en Digi3D.AI. |
+| `GetWkt` | Delegado [DelegateGetWkt](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/delegados/delegategetwkt.md) que devuelve la representación textual WKT (Well-Known Text) del sistema de referencia de coordenadas. El constructor llama al delegado una sola vez si la tabla `GCoordSystem` del archivo no declara un sistema en ETRS89 (sistema de referencia terrestre europeo de 1989) o WGS 84 (sistema geodésico mundial de 1984), con coordenadas geográficas o con proyección Universal Transversa de Mercator (UTM). Si el delegado devuelve una cadena vacía o no se proporciona ningún delegado, se usa el sistema de la configuración del usuario en Digi3D.AI. |
 | `readOnly` | `true` para abrir el archivo en solo lectura. Sin este parámetro vale `false`. |
 
 Las sobrecargas de esta clase no muestran el cuadro de diálogo de selección de capas: cargan todas las capas.
@@ -55,13 +55,13 @@ Los constructores lanzan `Exception`, con el mensaje del error, si no se puede c
 | `bool Valid` | `true` si las coordenadas mínimas y máximas son válidas. |
 | `double Width`, `double Height`, `double Depth` | `Xmax - Xmin`, `Ymax - Ymin` y `Zmax - Zmin`. |
 | `Point3D Center` | Centro de la caja que forman las coordenadas mínimas y máximas. |
-| `Point3D NW`, `N`, `NE`, `E`, `SE`, `S`, `SW`, `W` | Esquinas y puntos medios de los lados de esa caja en el plano X, Y. La `Z` de los ocho puntos es `Zmin`. |
+| `Point3D NW`, `N`, `NE`, `E`, `SE`, `S`, `SW`, `W` | Esquinas y puntos medios de los lados de la caja delimitada por las coordenadas mínimas y máximas en el plano X, Y. La `Z` de los ocho puntos es `Zmin`. |
 
 ## Métodos
 
 | Método | Descripción |
 | :--- | :--- |
-| `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades de todas las capas. Solo se puede pedir una vez por cada `Geomedia`: la segunda llamada lanza `InvalidOperationException`. Las entidades son de solo lectura y su propiedad `Owner` es este archivo. |
+| `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades de todas las capas. Solo se puede obtener una vez por cada `Geomedia`: la segunda llamada lanza `InvalidOperationException`. Las entidades que devuelve `GetEnumerator()` son de solo lectura y la propiedad `Owner` de cada entidad es el archivo representado por este objeto `Geomedia`. |
 | `void Add(Entity entity)` | Guarda la entidad en la capa de su primer código. No hace nada si el código no está en la tabla de códigos, si el archivo no tiene capa para ese código o si la capa no admite ese tipo de geometría. Excepción: una entidad que ya está guardada en este archivo se vuelve a guardar sin esas comprobaciones, y si no hay capa para su código se lanza una excepción. |
 | `void Add(IEnumerable<Entity> entities)` | Llama a la operación de `Add(Entity)` con cada entidad, en el orden de la enumeración. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Llama a `Add(Entity)` y devuelve la misma instancia con el tipo de solo lectura. |

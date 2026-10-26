@@ -3,7 +3,7 @@
 
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Tipos para que una extensión trabaje con la ventana de dibujo de Digi3D.AI: el archivo de dibujo activo, la pila de órdenes y de deshacer, los códigos, las opciones de digitalización y visualización, y los eventos de alta y baja de entidades. El punto de entrada es la clase estática [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/). Estos tipos solo funcionan dentro de Digi3D.AI.
+Tipos para que una extensión trabaje con la ventana de dibujo de Digi3D.AI: el archivo de dibujo activo, las pilas de órdenes y de deshacer, los códigos, las opciones de digitalización y visualización, y los eventos de alta y baja de entidades. El punto de entrada es la clase estática [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/). Estos tipos solo funcionan dentro de Digi3D.AI.
 
 ## Clases
 

@@ -86,13 +86,13 @@ Los avisos que se producen dentro del constructor se notifican con el evento `Ta
 | `bool Valid` | `true` si las coordenadas mínimas y máximas son válidas. |
 | `double Width`, `double Height`, `double Depth` | `Xmax - Xmin`, `Ymax - Ymin` y `Zmax - Zmin`. |
 | `Point3D Center` | Centro de la caja que forman las coordenadas mínimas y máximas. |
-| `Point3D NW`, `N`, `NE`, `E`, `SE`, `S`, `SW`, `W` | Esquinas y puntos medios de los lados de esa caja en el plano X, Y. La `Z` de los ocho puntos es `Zmin`. |
+| `Point3D NW`, `N`, `NE`, `E`, `SE`, `S`, `SW`, `W` | Esquinas y puntos medios de los lados de la caja delimitada por las coordenadas mínimas y máximas en el plano X, Y. La `Z` de los ocho puntos es `Zmin`. |
 
 ## Métodos
 
 | Método | Descripción |
 | :--- | :--- |
-| `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades del archivo. Solo se puede pedir una vez por cada `BinDouble`: la segunda llamada lanza `InvalidOperationException`. Para recorrer el archivo otra vez, crea otro `BinDouble`. Las entidades son de solo lectura (`ReadOnlyLine`, `ReadOnlyPoint`, `ReadOnlyText`, `ReadOnlyPolygon` o `ReadOnlyComplex`) y su propiedad `Owner` es este archivo. Las entidades eliminadas también se devuelven, con `Deleted` a `true`. |
+| `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades del archivo. Solo se puede obtener una vez por cada `BinDouble`: la segunda llamada lanza `InvalidOperationException`. Para recorrer el archivo otra vez, crea otro `BinDouble`. Las entidades que devuelve `GetEnumerator()` son de solo lectura (`ReadOnlyLine`, `ReadOnlyPoint`, `ReadOnlyText`, `ReadOnlyPolygon` o `ReadOnlyComplex`) y la propiedad `Owner` de cada entidad es el archivo representado por este objeto `BinDouble`. Las entidades eliminadas también se devuelven, con `Deleted` a `true`. |
 | `void Add(Entity entity)` | Añade la entidad al final del archivo. Guarda en el archivo los valores de `entity.Attributes` que no son `null` y, si el archivo tiene base de datos, los atributos de cada código (`Code.Attributes`). Sin base de datos, los atributos de los códigos no se guardan. Después de la llamada, `entity.Owner` es este archivo. |
 | `void Add(IEnumerable<Entity> entities)` | Añade las entidades al final del archivo, en el orden de la enumeración, con los atributos de sus códigos. Esta sobrecarga no guarda `entity.Attributes`. Si una entidad provoca una excepción, las entidades anteriores ya están añadidas. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Añade la entidad y devuelve la misma instancia con el tipo de solo lectura. |
@@ -116,7 +116,7 @@ Si la entidad ya está guardada en este archivo, `Add` y `Delete` no la vuelven 
 | Evento | Descripción |
 | :--- | :--- |
 | `ProgressEventHandler ProgressChanged` | Porcentaje de una operación larga, en `ProgressEventArgs.Progress`. |
-| `ResultsAddedEventHandler ResultsAdded` | Texto informativo, en `ResultsAddedEventArgs.Message`; por ejemplo, la conexión con la base de datos. |
+| `ResultsAddedEventHandler ResultsAdded` | Texto informativo, en `ResultsAddedEventArgs.Message`; por ejemplo, información sobre la conexión con la base de datos. |
 | `TaskAddedEventHandler TaskAdded` | Aviso o error, en `TaskAddedEventArgs.Task`: un [ITask](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.tasks/interfaces/itask/) con `Title`, `Severity` (`Error`, `Warning` o `Message`), `DrawingFile` y `Module`. |
 
 ## DatabaseConnectionProperties

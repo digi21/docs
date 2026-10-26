@@ -68,13 +68,13 @@ Los avisos que se producen dentro del constructor se notifican con el evento `Ta
 | `bool Valid` | `true` si las coordenadas mínimas y máximas son válidas. |
 | `double Width`, `double Height`, `double Depth` | `Xmax - Xmin`, `Ymax - Ymin` y `Zmax - Zmin`. |
 | `Point3D Center` | Centro de la caja que forman las coordenadas mínimas y máximas. |
-| `Point3D NW`, `N`, `NE`, `E`, `SE`, `S`, `SW`, `W` | Esquinas y puntos medios de los lados de esa caja en el plano X, Y. La `Z` de los ocho puntos es `Zmin`. |
+| `Point3D NW`, `N`, `NE`, `E`, `SE`, `S`, `SW`, `W` | Esquinas y puntos medios de los lados de la caja delimitada por las coordenadas mínimas y máximas en el plano X, Y. La `Z` de los ocho puntos es `Zmin`. |
 
 ## Métodos
 
 | Método | Descripción |
 | :--- | :--- |
-| `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades del archivo. Solo se puede pedir una vez por cada `Dgn`: la segunda llamada lanza `InvalidOperationException`. Las entidades son de solo lectura (`ReadOnlyLine`, `ReadOnlyPoint`, `ReadOnlyText`, `ReadOnlyPolygon` o `ReadOnlyComplex`) y su propiedad `Owner` es este archivo. |
+| `IEnumerator<Entity> GetEnumerator()` | Devuelve el enumerador de las entidades del archivo. Solo se puede obtener una vez por cada `Dgn`: la segunda llamada lanza `InvalidOperationException`. Las entidades que devuelve `GetEnumerator()` son de solo lectura (`ReadOnlyLine`, `ReadOnlyPoint`, `ReadOnlyText`, `ReadOnlyPolygon` o `ReadOnlyComplex`) y la propiedad `Owner` de cada entidad es el archivo representado por este objeto `Dgn`. |
 | `void Add(Entity entity)` | Añade la entidad al archivo. Antes de añadirla, copia en la entidad nativa los atributos de `entity.Attributes` cuyo valor no es `null`. Si el formato no admite la geometría, la entidad no se escribe. Después de la llamada, `entity.Owner` es este archivo. |
 | `void Add(IEnumerable<Entity> entities)` | Añade las entidades en el orden de la enumeración. A diferencia de `Add(Entity)`, no copia los atributos. Si una entidad pertenece a otro archivo, lanza la excepción al llegar a esa entidad: las entidades anteriores ya están añadidas. |
 | `ReadOnlyLine Add(Line line)`<br>`ReadOnlyPoint Add(Point point)`<br>`ReadOnlyText Add(Text text)`<br>`ReadOnlyPolygon Add(Polygon polygon)`<br>`ReadOnlyComplex Add(Complex complex)` | Llaman a `Add(Entity)` y devuelven la misma instancia con el tipo de solo lectura. |

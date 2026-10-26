@@ -14,7 +14,7 @@ PointPosition AnalyzePointPosition(Point3D coordinate)
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `coordinate` | Coordenada que se analiza. Su Z no se usa. |
+| `coordinate` | Coordenada que se analiza. La coordenada Z no se usa. |
 
 ## Valor devuelto
 

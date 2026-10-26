@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.digin
 
 Indica si dos áreas son adyacentes: comparten al menos un lado y ningún vértice de una está dentro de la otra.
 
-![Área adyacente área](../../../../../../../../../images/areaadyacentearea.png)
+![Área adyacente a otra área](../../../../../../../../../images/areaadyacentearea.png)
 
 ```csharp
 public static bool Adjacent(ReadOnlyLine a, ReadOnlyLine b)

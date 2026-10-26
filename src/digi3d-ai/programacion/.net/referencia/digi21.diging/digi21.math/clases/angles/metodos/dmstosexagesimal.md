@@ -20,7 +20,7 @@ public static void DMSToSexagesimal(int degrees, int minutes, double seconds, bo
 | `east` | `true` para un ángulo positivo (este o norte); `false` para un ángulo negativo (oeste o sur). |
 | `sexagesimal` | Resultado: `degrees + minutes / 60 + seconds / 3600`, con signo negativo si `east` es `false`. |
 
-El método no comprueba los rangos: `minutes` y `seconds` mayores que 59 se suman igual. Pasa `degrees`, `minutes` y `seconds` sin signo: con `east` igual a `false`, un `degrees` negativo se convierte en positivo y el resultado no es el esperado.
+El método no comprueba los rangos: los valores de `minutes` mayores que 59 minutos y los de `seconds` mayores que 59 segundos también se incorporan al cálculo. Pasa `degrees`, `minutes` y `seconds` sin signo: con `east` igual a `false`, un `degrees` negativo se convierte en positivo y el término de los grados en `sexagesimal` es positivo en vez de negativo.
 
 ## Ejemplo
 

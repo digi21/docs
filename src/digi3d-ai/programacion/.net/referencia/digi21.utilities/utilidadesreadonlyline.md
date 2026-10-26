@@ -62,7 +62,7 @@ Devuelve la menor de las cuatro distancias en el plano XY entre un extremo de `l
 public static void ExtremosMásCercanos(ReadOnlyLine líneaA, ReadOnlyLine líneaB, out int vérticeA, out int vérticeB)
 ```
 
-Calcula qué extremos de las dos líneas están más cerca en el plano XY. `vérticeA` y `vérticeB` reciben el índice del vértice: `0` para el primer vértice y `Points.Count - 1` para el último. Si varias parejas están a la misma distancia, gana la primera en este orden: primero-primero, primero-último, último-primero, último-último.
+Calcula qué extremos de las dos líneas están más cerca en el plano XY. `vérticeA` recibe el índice del extremo de `líneaA` y `vérticeB` recibe el índice del extremo de `líneaB`: `0` para el primer vértice y `Points.Count - 1` para el último vértice de cada línea. Si varias parejas están a la misma distancia, se elige la primera pareja según este orden: primero-primero, primero-último, último-primero, último-último.
 
 Este método no es un método de extensión: se llama como `UtilidadesReadOnlyLine.ExtremosMásCercanos(a, b, out var i, out var j)`.
 

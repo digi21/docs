@@ -22,7 +22,7 @@ public static void SexagesimalToDMS(this double sexagesimal, out int degrees, ou
 
 `degrees`, `minutes` y `seconds` son siempre positivos o 0: el signo se devuelve en `east`. Para longitudes, `true` significa este; para latitudes, norte.
 
-Los segundos arrastran el error de redondeo de la fracción decimal: 3,7025° devuelve 8,99999… segundos en lugar de 9. Redondea `seconds` al número de decimales que muestres.
+El error de redondeo de la fracción decimal afecta a los segundos: al convertir 3,7025°, el método asigna a `seconds` el valor de 8,99999… segundos en lugar de 9 segundos. Redondea `seconds` al número de decimales con el que vayas a mostrar los segundos.
 
 ## Ejemplo
 

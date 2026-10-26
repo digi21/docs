@@ -22,7 +22,7 @@ public LocalizableSearcherAttribute(Type resourceManagerProvider, string resourc
 | Parámetro | Descripción |
 | :--- | :--- |
 | `resourceManagerProvider` | Tipo con una propiedad estática no pública de tipo `ResourceManager`. Las condiciones son las de [LocalizableCommandAttribute](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging.plugin.command/atributos/localizablecommandattribute.md#proveedor-de-recursos). |
-| `resourceKey` | Clave del recurso con el título. Se asigna a `Title`. |
+| `resourceKey` | Clave del recurso con el título. La cadena del recurso se asigna a `Title`. |
 
 El constructor lanza `ArgumentException` si `resourceManagerProvider` no tiene una propiedad estática no pública de tipo `ResourceManager` o si el recurso no contiene la clave `resourceKey`. Digi3D.AI crea el atributo al cargar la extensión; si el constructor lanza la excepción, no registra ese buscador ni los siguientes de la misma DLL.
 

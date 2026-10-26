@@ -1,7 +1,7 @@
 # Migración a .NET 10
 <!-- id: migracion-a-net-10 -->
 
-Digi3D.AI se ejecuta sobre **.NET 10**. Los ensamblados .NET que instala y los paquetes [NuGet](https://www.nuget.org/profiles/Digi21) con los que se programa contra ellos pasan a la **versión 26.0.0**.
+Digi3D.AI se ejecuta sobre **.NET 10**. Los ensamblados .NET que instala Digi3D.AI y los paquetes [NuGet](https://www.nuget.org/profiles/Digi21) que permiten programar con esos ensamblados pasan a la **versión 26.0.0**.
 
 Esta página explica qué ha cambiado y qué hay que hacer con las aplicaciones de consola y las extensiones creadas con versiones anteriores.
 
@@ -21,12 +21,12 @@ El paquete `Digi21.Digi3D.App` ya no es necesario. Con .NET 10 no funciona: el S
 
 ## Cómo encuentra tu programa los ensamblados de Digi3D.AI
 
-El paquete `Digi21.DigiNG` añade a tu proyecto C# el archivo `Digi3DAssemblyResolver.cs`. Lo añade tanto si referencias `Digi21.DigiNG` directamente como si lo recibes a través de otro paquete, por ejemplo `Digi21.DigiNG.IO.Bin`. No aparece en el Explorador de soluciones y no tienes que modificarlo.
+El paquete `Digi21.DigiNG` añade a tu proyecto C# el archivo `Digi3DAssemblyResolver.cs`. El paquete añade `Digi3DAssemblyResolver.cs` tanto si referencias `Digi21.DigiNG` directamente como si recibes `Digi21.DigiNG` a través de otro paquete, por ejemplo `Digi21.DigiNG.IO.Bin`. `Digi3DAssemblyResolver.cs` no aparece en el Explorador de soluciones y no tienes que modificar ese archivo.
 
 Al iniciarse tu programa, ese código:
 
 1. Lee la carpeta de instalación de Digi3D.AI del valor `InstallDir` de la clave de registro `HKEY_LOCAL_MACHINE\SOFTWARE\Digi21\Digi3D.NET\App\Configuration`. La clave conserva el nombre `Digi3D.NET` para no perder la configuración de las instalaciones existentes.
-2. Cuando .NET no encuentra un ensamblado cuyo nombre empieza por `Digi21.`, lo busca en `<instalación>\<ensamblado>\<versión>\`. Busca también los ensamblados satélite de idioma, así que los mensajes salen en el idioma del programa.
+2. Cuando .NET no encuentra un ensamblado cuyo nombre empieza por `Digi21.`, lo busca en `<instalación>\<ensamblado>\<versión>\`. `Digi3DAssemblyResolver.cs` busca también los ensamblados satélite de idioma, así que los mensajes se muestran en el idioma del programa.
 
 Para usar otra carpeta de instalación, por ejemplo una copia de pruebas, asigna la ruta a la variable de entorno `DIGI3D_INSTALLDIR`.
 
@@ -75,7 +75,7 @@ Si solo cambias la versión de los paquetes y dejas `net8.0`, la restauración f
 
 ## Migrar una extensión
 
-Las extensiones (órdenes, buscadores, controles de calidad…) se cargan dentro de Digi3D.AI, que ya tiene cargados sus propios ensamblados. Una extensión compilada contra los paquetes 24.0.0 sigue encontrando `Digi21.DigiNG` y `Digi21.DigiNG.Plugin`: Digi3D.AI le entrega los de la versión 26.0.0.
+Las extensiones (órdenes, buscadores, controles de calidad…) se cargan dentro de Digi3D.AI, que ya tiene cargados sus propios ensamblados. Una extensión compilada contra los paquetes 24.0.0 sigue encontrando `Digi21.DigiNG` y `Digi21.DigiNG.Plugin`: Digi3D.AI proporciona a la extensión esos ensamblados en la versión 26.0.0.
 
 Aun así, recompila cada extensión:
 

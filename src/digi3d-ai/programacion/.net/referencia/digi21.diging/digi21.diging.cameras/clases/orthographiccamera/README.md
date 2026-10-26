@@ -31,9 +31,9 @@ La `OrthographicCamera` que devuelve `DigiNG.Camera` tiene `Left`, `Right`, `Top
 | [OrthographicCamera()](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Crea una cámara con `Name` vacío y el resto de propiedades a 0. |
 | [OrthographicCamera(string name)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Crea una cámara con el nombre indicado y el resto de propiedades a 0. |
 | [OrthographicCamera(IWindow3D window)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Crea una cámara que abarca la ventana indicada, sin giros. |
-| [OrthographicCamera(string name, IWindow3D window)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Igual que el anterior, con nombre. |
+| [OrthographicCamera(string name, IWindow3D window)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Crea una cámara que abarca la ventana indicada, sin giros y con el nombre indicado. |
 | [OrthographicCamera(IWindow3D window, float yaw, float pitch, float roll)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Crea una cámara que abarca la ventana indicada, con los giros indicados. |
-| [OrthographicCamera(string name, IWindow3D window, float yaw, float pitch, float roll)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Igual que el anterior, con nombre. |
+| [OrthographicCamera(string name, IWindow3D window, float yaw, float pitch, float roll)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/constructores.md) | Crea una cámara que abarca la ventana indicada, con los giros y el nombre indicados. |
 
 ## Propiedades
 

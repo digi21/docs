@@ -18,7 +18,7 @@ public static double NormalizeAngle(this double radians)
 
 ## Devuelve
 
-El ángulo equivalente entre 0 y 2π, ambos incluidos. Un valor dentro de [0, 2π] se devuelve sin cambios: 2π se devuelve como 2π, no como 0. Un valor fuera de ese intervalo se sustituye por el resto de dividirlo entre 2π, con el signo del dividendo (la función `fmod` de C); si el resto es negativo, se le suma 2π. Un múltiplo negativo de 2π devuelve `+0`.
+El ángulo equivalente entre 0 y 2π radianes, ambos incluidos. Un valor dentro de [0, 2π] se devuelve sin cambios: 2π se devuelve como 2π, no como 0. Un valor fuera del intervalo [0, 2π] radianes se sustituye por el resto de dividirlo entre 2π, con el signo del dividendo (la función `fmod` de C); si el resto es negativo, se le suma 2π. Si el argumento es un múltiplo negativo de 2π, el método devuelve `+0`.
 
 ## Excepciones
 

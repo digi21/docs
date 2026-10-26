@@ -22,9 +22,9 @@ public void AddCode(NodeDigiTab code)
 
 Después de la llamada, `code` es de solo lectura: asignar una de sus propiedades lanza `InvalidOperationException`. Para modificar el código añadido, obtenlo otra vez con el indizador [this[string]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md) o con [Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/codes.md).
 
-`AddCode` no comprueba si la tabla ya tiene un código con ese nombre. Para no duplicar el código, comprueba antes el nombre con [HasCode](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md).
+`AddCode` no comprueba si la tabla ya tiene un código con ese nombre. Para no duplicar el código, comprueba con [HasCode](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md) si el nombre ya existe antes de añadir el código.
 
-El cambio se hace en memoria. Para guardarlo, llama a [Write](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/write.md).
+El código se añade a la tabla en memoria. Para guardar la tabla, llama a [Write](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/write.md).
 
 ## Excepciones
 

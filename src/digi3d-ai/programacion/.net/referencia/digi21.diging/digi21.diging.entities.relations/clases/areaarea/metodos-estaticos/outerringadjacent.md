@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.digin
 
 Indica si dos áreas son adyacentes.
 
-![Área adyacente área](../../../../../../../../../images/areaadyacentearea.png)
+![Área adyacente a otra área](../../../../../../../../../images/areaadyacentearea.png)
 
 ```csharp
 public static bool OuterRingAdjacent(ReadOnlyLine a, ReadOnlyPolygon b)

@@ -21,9 +21,9 @@ IEnumerable<Polygon> Trim(ReadOnlyLine limit, bool coordinateZFromThisEntity)
 
 Una enumeración de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/) nuevos sin archivo de dibujo (`Owner` es `null`), con los códigos de esta entidad, también en sus huecos. Esta entidad no se modifica.
 
-El método calcula las intersecciones de esta entidad con `limit`, forma los recintos que delimitan los tramos resultantes de las dos y devuelve cada recinto que está dentro de esta entidad y no está dentro de `limit`. Para decidirlo, analiza el centroide de cada recinto.
+El método calcula las intersecciones de esta entidad con `limit`, forma los recintos delimitados por los tramos de la entidad y de la línea límite y devuelve cada recinto que está dentro de esta entidad y no está dentro de `limit`. El método analiza el centroide de cada recinto para decidir si el recinto está dentro de esta entidad y no está dentro de la línea límite.
 
-- Si `limit` no corta esta entidad y está fuera de ella, el resultado es un polígono con la geometría de esta entidad. Si `limit` la cubre por completo, la enumeración está vacía.
+- Si `limit` no corta esta entidad y está fuera de ella, el resultado es un polígono con la geometría de esta entidad. Si `limit` cubre esta entidad por completo, la enumeración está vacía.
 - Si esta entidad es una línea abierta, la enumeración está vacía: ningún recinto queda dentro de ella.
 - Si `limit` no está cerrada, ningún recinto queda dentro de `limit` y el método devuelve todas las partes de esta entidad divididas por `limit`.
 

@@ -18,7 +18,7 @@ public Pane()
 
 El constructor existe para las clases derivadas que se crean con las sobrecargas genéricas de `Panes.Add<T>`. Un `Pane` creado con `new` no está asociado a ningún panel: sus propiedades y métodos lanzan `ObjectDisposedException`. `Panes.Add<T>` asocia el objeto al panel después de ejecutar el constructor, así que en el constructor de la clase derivada las propiedades y métodos también lanzan `ObjectDisposedException`; el constructor solo puede suscribirse a los eventos.
 
-Cada propiedad y cada método busca el panel en el administrador de paneles de Digi3D.AI. Si Digi3D.AI ya ha destruido el panel (por ejemplo, al cerrar la aplicación), lanzan `ObjectDisposedException`.
+Cada propiedad y cada método buscan el panel en el administrador de paneles de Digi3D.AI. Si Digi3D.AI ya ha destruido el panel (por ejemplo, al cerrar la aplicación), las propiedades y los métodos lanzan `ObjectDisposedException`.
 
 ## Propiedades
 
@@ -52,7 +52,7 @@ Cada propiedad y cada método busca el panel en el administrador de paneles de D
 
 ## Eventos
 
-Todos los eventos son de tipo `EventHandler`. El parámetro `sender` es este `Pane` y `e` es un `EventArgs` vacío. Digi3D.AI produce cada evento cuando el gestor de paneles le notifica la acción correspondiente. Los eventos acabados en *-ing* se producen antes del cambio, y los acabados en *-ed*, después.
+Todos los eventos son de tipo `EventHandler`. El parámetro `sender` de cada evento es el objeto `Pane` y `e` es un `EventArgs` vacío. Digi3D.AI produce cada evento cuando el gestor de paneles le notifica la acción correspondiente. Los eventos acabados en *-ing* se producen antes del cambio de estado que indica el nombre del evento, y los acabados en *-ed*, después del cambio de estado correspondiente.
 
 | Evento | Se produce cuando |
 | :--- | :--- |

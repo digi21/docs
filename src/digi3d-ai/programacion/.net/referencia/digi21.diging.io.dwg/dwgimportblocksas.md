@@ -14,7 +14,7 @@ public enum DwgImportBlocksAs
 
 | Valor | Número | Significado |
 | :--- | :--- | :--- |
-| `Complex` | 0 | Cada referencia a bloque se lee como un complejo (`ReadOnlyComplex`) que contiene las entidades del bloque. Las tablas y las referencias múltiples (MINSERT) no se leen como complejo. Es el valor de `new DwgParameters()`. |
+| `Complex` | 0 | Cada referencia a bloque se lee como un complejo (`ReadOnlyComplex`) que contiene las entidades del bloque. Las tablas y las referencias múltiples (MINSERT) no se leen como complejos. `Complex` es el valor de la propiedad BlockCriteria al crear `new DwgParameters()`. |
 | `Point` | 1 | Cada referencia a bloque se lee como un punto (`ReadOnlyPoint`) en el punto de inserción de la referencia. |
 
 ## Ejemplo

@@ -23,7 +23,7 @@ El descriptor de acceso `set` no comprueba el valor: admite `null`.
 
 `Code` es una estructura: asignar `Attributes` en un elemento de `Entity.Codes` modifica una copia. Asigna después la copia a `Entity.Codes[i]`.
 
-Al añadir una entidad a un archivo `.bind` con base de datos, el archivo guarda en la base de datos los atributos de cada código. Lee [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md).
+Al añadir una entidad a un archivo `.bind` con base de datos, los atributos de cada código se guardan en la base de datos. Lee [BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/bindouble.md).
 
 ## Ejemplo
 

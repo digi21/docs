@@ -22,7 +22,7 @@ Todos los métodos devuelven una secuencia que se evalúa al recorrerla, como lo
 
 ### Filtros por tipo
 
-Estos cinco métodos están marcados `[Obsolete("Utilizar mejor OfType<T>")]`: el compilador emite el aviso CS0618. `OfType<ReadOnlyLine>()` de LINQ devuelve lo mismo.
+Los métodos `SoloLíneas`, `SoloPuntos`, `SoloTextos`, `SoloPolígonos` y `SoloComplejos` están marcados `[Obsolete("Utilizar mejor OfType<T>")]`: el compilador emite el aviso CS0618. `OfType<ReadOnlyLine>()` de `System.Linq.Enumerable` devuelve las mismas líneas que `SoloLíneas`.
 
 | Método | Descripción |
 | :--- | :--- |

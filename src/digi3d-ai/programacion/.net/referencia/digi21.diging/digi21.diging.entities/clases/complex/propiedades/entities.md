@@ -19,7 +19,7 @@ Una colección, siempre la misma instancia para cada complejo, que trabaja direc
 | `Add(Entity item)` | Añade `item` como última entidad. La entidad pasa a pertenecer al complejo: no la añadas a otro complejo, a un polígono ni a un archivo de dibujo. |
 | `Insert(int index, Entity item)` | Inserta `item` en la posición `index`. Con `index` igual a `Count`, añade `item` al final. Lanza `ArgumentOutOfRangeException` si `index` es negativo o mayor que `Count`. |
 | `this[int index]` | `get`: la entidad de la posición `index`, del tipo de esa entidad (`Line`, `Point`, `Text`, `Polygon` o `Complex`). `set`: sustituye la entidad por otra, que pasa a pertenecer al complejo. Los dos lanzan `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
-| `Remove(Entity item)` | Quita la entidad si es la misma (la misma instancia de la entidad nativa). Devuelve `false` si no lo es. |
+| `Remove(Entity item)` | Quita de la colección la entidad indicada si coincide con una de sus entidades (la misma instancia de la entidad nativa). `Remove` devuelve `false` si no encuentra la entidad indicada por `item`. |
 | `RemoveAt(int index)` | Quita la entidad de la posición `index`. Lanza `ArgumentOutOfRangeException` si `index` no está entre `0` y `Count - 1`. |
 | `Clear()` | Quita todas las entidades. |
 | `IndexOf(Entity item)`, `Contains(Entity item)` | Buscan la misma entidad, no una entidad con las mismas coordenadas. |

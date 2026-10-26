@@ -21,7 +21,7 @@ Constructores de [TaskBase](/digi3d-ai/programacion/.net/referencia/digi21.digin
 protected TaskBase()
 ```
 
-`Title`, `DrawingFile`, `Module` y `Children` valen `null`; `Severity` vale `TaskSeverity.Error`. La clase derivada asigna las propiedades después.
+`Title`, `DrawingFile`, `Module` y `Children` valen `null`; `Severity` vale `TaskSeverity.Error`. La clase derivada asigna las propiedades después de llamar al constructor.
 
 ## TaskBase(string, TaskSeverity)
 

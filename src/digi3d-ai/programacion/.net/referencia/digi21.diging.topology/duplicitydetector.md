@@ -27,7 +27,7 @@ Dos entidades son duplicadas si se cumplen todas estas condiciones, comparando c
 3. Tienen el mismo número de vértices. Un texto cuenta como un vértice: su punto de inserción.
 4. Cada vértice `k` de una coincide en X e Y con el vértice `k` o con el vértice `n − 1 − k` de la otra, siendo `n` el número de vértices. Así, una línea y la misma línea digitalizada al revés son duplicadas.
 
-No se comparan la Z, los códigos, los atributos, el texto de los textos ni el estado de eliminación: las entidades eliminadas también se analizan. Si no quieres incluirlas, fíltralas antes.
+El detector no compara la coordenada Z, los códigos, los atributos, el contenido de las entidades de texto ni el estado de eliminación: las entidades eliminadas también se analizan. Si no quieres incluir las entidades eliminadas, fíltralas antes de buscar duplicados.
 
 El orden de los grupos y el de las entidades dentro de cada grupo no es el de `entities`: el método ordena las entidades por su Y mínima.
 

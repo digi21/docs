@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Devuelve una copia de la entidad que no pertenece a ningún archivo de dibujo y que, por tanto, se puede modificar.
+Devuelve una copia de la entidad. La copia no pertenece a ningún archivo de dibujo y, por tanto, se puede modificar.
 
 ```csharp
 public Entity Clone()

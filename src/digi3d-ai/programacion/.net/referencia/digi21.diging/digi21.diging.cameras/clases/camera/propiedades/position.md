@@ -12,4 +12,4 @@ public Point3D Position { get; set; }
 
 ## Valor de la propiedad
 
-[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md) en coordenadas del archivo de dibujo. En una [OrthographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/), `Position` es el centro de la vista. Los constructores que reciben una ventana asignan el centro de esa ventana; los demás dejan `(0, 0, 0)`.
+[Point3D](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/point3d.md) en coordenadas del archivo de dibujo. En una [OrthographicCamera](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.cameras/clases/orthographiccamera/), `Position` es el centro de la vista. Los constructores que reciben una ventana asignan a `Position` el centro de esa ventana; los demás constructores dejan `Position` en `(0, 0, 0)`.

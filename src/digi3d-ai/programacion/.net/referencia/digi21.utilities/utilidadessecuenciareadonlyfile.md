@@ -17,7 +17,7 @@ public static class UtilidadesSecuenciaReadOnlyFile
 | `IEnumerable<Entity> EnumeraEntidades(this IEnumerable<IReadOnlyDrawingFile> archivos)` | Devuelve las entidades de cada archivo, archivo a archivo y en el orden de `archivos`. Incluye las entidades eliminadas. |
 | `IEnumerable<T> EnumeraEntidades<T>(this IEnumerable<IReadOnlyDrawingFile> archivos) where T : class` | Igual, pero solo las entidades que son de tipo `T`, por ejemplo `ReadOnlyLine`. |
 
-La secuencia se evalúa al recorrerla, y cada recorrido recorre otra vez los archivos. Un archivo que solo se puede recorrer una vez, como un [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), lanza `InvalidOperationException` en el segundo recorrido; envuélvelo en un [MemoryDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.utilities/memorydrawingfile.md) si lo necesitas.
+La secuencia se evalúa al recorrerla, y cada recorrido vuelve a leer las entidades de los archivos. Un archivo que solo se puede recorrer una vez, como un [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md), lanza `InvalidOperationException` en el segundo recorrido; envuélvelo en un [MemoryDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.utilities/memorydrawingfile.md) si necesitas recorrer el archivo más de una vez.
 
 ## Ejemplo
 

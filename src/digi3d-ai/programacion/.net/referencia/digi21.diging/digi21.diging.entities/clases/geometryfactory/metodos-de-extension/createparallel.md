@@ -27,7 +27,7 @@ Una `Line` nueva con `Owner` a `null` (`ReadOnly` es `false`), con los códigos,
 
 Cada vértice se desplaza en la dirección de la bisectriz de los dos segmentos que llegan a él:
 
-- La distancia se divide entre el coseno de la mitad del ángulo que giran los dos segmentos, para que cada lado de la paralela quede a `distance` del lado original. El coseno se limita a un mínimo de 0,3: en un giro de más de unos 145° el vértice se desplaza 3,33 veces `distance` como máximo y esos dos lados de la paralela quedan a menos de `distance` del original.
+- La distancia se divide entre el coseno de la mitad del ángulo que giran los dos segmentos, para que cada lado de la paralela quede a `distance` del lado original. El coseno se limita a un mínimo de 0,3: en un giro de más de unos 145° el vértice se desplaza como máximo el valor absoluto de `distance` dividido entre 0,3 (aproximadamente 3,33 veces el valor absoluto de `distance`) y esos dos lados de la paralela quedan a una distancia de los lados originales menor que el valor absoluto de `distance`.
 - El primer y el último vértice de una línea abierta se desplazan en perpendicular a su segmento.
 - Si la línea está cerrada en X, Y y Z (el primer vértice es igual al último), el primer y el último vértice se calculan con el segmento anterior y el siguiente, como el resto.
 

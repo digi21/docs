@@ -6,7 +6,7 @@ Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.digin
 
 Indica si la línea y el área son disjuntas.
 
-![Línea disjunta a área](../../../../../../../../../images/lineaareanocoincidentes1.png)
+![Línea disjunta de un área](../../../../../../../../../images/lineaareanocoincidentes1.png)
 
 ```csharp
 public static bool Disjoint(ReadOnlyLine line, ReadOnlyLine area)
@@ -27,7 +27,7 @@ public static bool Disjoint(ReadOnlyLine line, ReadOnlyPolygon area)
 * Ningún vértice de `line` coincide con un vértice de `area`, o las cajas envolventes en planta no se tocan.
 * No todos los vértices de `line` están dentro de `area`.
 
-La sobrecarga solo descarta las líneas con todos sus vértices dentro del área. Una línea con unos vértices dentro y otros fuera, sin vértices comunes con el área, también devuelve `true`.
+La sobrecarga solo descarta las líneas con todos sus vértices dentro del área. El método también devuelve `true` si la línea tiene unos vértices dentro del área y otros fuera, sin vértices comunes con el área.
 
 ### Disjoint(ReadOnlyLine, ReadOnlyPolygon)
 

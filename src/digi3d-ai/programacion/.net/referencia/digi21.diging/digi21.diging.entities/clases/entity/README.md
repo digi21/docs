@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Clase base abstracta de todas las entidades: códigos, colores, atributos, archivo de dibujo al que pertenece y coordenadas mínimas y máximas.
+Es la clase base abstracta de todas las entidades. Define los códigos, los colores, los atributos, el archivo de dibujo al que pertenece cada entidad y las coordenadas mínimas y máximas.
 
 ```csharp
 public abstract class Entity : IWindow3D, ICloneable
@@ -24,7 +24,7 @@ Para modificar una entidad de un archivo, modifica la copia que devuelve [Clone]
 
 ## Coordenadas mínimas y máximas
 
-Las propiedades de `IWindow3D` describen la caja que contiene las coordenadas de la entidad. Una entidad recién creada no tiene caja: `Valid` vale `false` hasta que la entidad tiene coordenadas. Las colecciones `Points` de `Line` y `Polygon` actualizan la caja en cada cambio. Asignar `Coordinate` en un `Point` o un `Text` no la actualiza.
+Las propiedades de `IWindow3D` describen la caja que contiene las coordenadas de la entidad. Una entidad recién creada no tiene caja: `Valid` vale `false` hasta que la entidad tiene coordenadas. Las colecciones `Points` de `Line` y `Polygon` actualizan la caja en cada cambio. Asignar `Coordinate` en un `Point` o un `Text` no actualiza la caja.
 
 Mientras `Valid` es `false`:
 
@@ -60,9 +60,9 @@ Mientras `Valid` es `false`:
 
 | Método | Descripción |
 | :--- | :--- |
-| [`Entity Clone()`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/metodos/clone.md) | Copia de la entidad que no pertenece a ningún archivo de dibujo. |
+| [`Entity Clone()`](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/entity/metodos/clone.md) | Devuelve una copia de la entidad. La copia no pertenece a ningún archivo de dibujo. |
 | `string ToString()` | Texto localizado con el tipo de entidad, las coordenadas mínimas y máximas, los códigos y los datos propios de cada tipo (vértices, coordenada, texto). |
-| `void Dispose()` | Libera la entidad nativa. Solo en el ensamblado instalado: el paquete de referencia no declara `IDisposable`, así que el código compilado con el paquete no puede llamarlo ni usar `using` con una entidad. Las entidades que forman parte de otra (huecos de un polígono, entidades de un complejo) no liberan nada. Después de `Dispose`, la entidad no se puede usar. |
+| `void Dispose()` | Libera la entidad nativa. `Dispose` solo está disponible en el ensamblado instalado: el paquete de referencia no declara `IDisposable`, así que el código compilado con el paquete no puede llamar a `Dispose` ni usar `using` con una entidad. En las entidades que forman parte de otra (huecos de un polígono, entidades de un complejo), este método no libera la entidad nativa. Después de llamar a `Dispose`, no puedes usar la entidad. |
 
 ## Ejemplo
 

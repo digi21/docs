@@ -14,7 +14,7 @@ Implementa: [IDrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging
 
 La clase no tiene constructores públicos. El archivo de dibujo activo de la ventana de dibujo activa se obtiene con la propiedad estática `DigiNG.DrawingFile`, que lanza `NullReferenceException` si no hay ninguna ventana de dibujo abierta. Mientras el archivo activo no cambia, la propiedad devuelve la misma instancia.
 
-`DrawingFile` no es dueño del archivo: el archivo lo cierra Digi3D.AI. Si Digi3D.AI ya ha cerrado el archivo, o si se ha llamado a `Dispose`, los miembros que acceden al archivo lanzan `ObjectDisposedException`. Después de `Dispose`, la siguiente lectura de `DigiNG.DrawingFile` devuelve una instancia nueva.
+Digi3D.AI se encarga de cerrar el archivo asociado a `DrawingFile`. Si Digi3D.AI ya ha cerrado el archivo, o si se ha llamado a `Dispose`, los miembros que acceden al archivo lanzan `ObjectDisposedException`. Después de llamar a `Dispose`, la siguiente lectura de `DigiNG.DrawingFile` devuelve una instancia nueva.
 
 ## Propiedades
 
@@ -47,7 +47,7 @@ La clase no tiene constructores públicos. El archivo de dibujo activo de la ven
 | `void Undelete(IEnumerable<Entity> entities)` | Recupera las entidades en una sola operación. |
 | `void Compress()` | Comprime el archivo de dibujo (elimina del archivo las entidades eliminadas), si el formato lo permite. Es la misma operación que la orden [COMPRIMIR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/comprimir.md). |
 | `void Backup()` | Hace una copia de seguridad del archivo de dibujo. |
-| `int IndexOf(Entity entity)` | Posición de la entidad entre las entidades que el archivo tiene en memoria, o `-1` si la entidad no pertenece a este archivo o no está entre ellas. Con `null` lanza `NullReferenceException`. |
+| `int IndexOf(Entity entity)` | Devuelve la posición de la entidad entre las entidades que el archivo tiene en memoria, o `-1` si la entidad no pertenece a este archivo o no está entre las entidades en memoria. Si la entidad es `null`, lanza `NullReferenceException`. |
 | `void Dispose()` | Desconecta este objeto del archivo. No cierra el archivo. |
 
 Excepciones de `Add`, `Delete` y `Undelete`:
@@ -63,7 +63,7 @@ Excepciones de `Add`, `Delete` y `Undelete`:
 
 | Evento | Descripción |
 | :--- | :--- |
-| `EventHandler<Entity> EntityAdded` | Se produce cada vez que el archivo va a escribir una entidad, antes de escribirla: al añadirla y también al eliminarla o recuperarla. El segundo argumento es la entidad guardada. Una excepción que lance un manejador no llega a Digi3D.AI ni impide que se llame a los demás manejadores: se escribe en `System.Diagnostics.Trace`. |
+| `EventHandler<Entity> EntityAdded` | Se produce cada vez que el archivo va a escribir una entidad, antes de escribirla: al añadirla y también al eliminarla o recuperarla. El segundo argumento es la entidad guardada. Las excepciones que lance un manejador no se propagan a Digi3D.AI ni impiden que se llame a los demás manejadores: se registran con `System.Diagnostics.Trace`. |
 
 ## Ejemplo
 

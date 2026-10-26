@@ -12,7 +12,7 @@ public static class DigiNG
 
 ## Ventana de dibujo activa
 
-Los miembros de `DigiNG` actúan sobre la ventana de dibujo activa: la última ventana de dibujo que ha recibido el foco. Cada vez que una ventana de dibujo recibe el foco, `DigiNG` crea objetos nuevos para las propiedades `Codes`, `Commands`, `ActiveParameters`, `InputDeviceOptions` y `VisualizationOptions`. Un objeto obtenido antes sigue ligado a la ventana de dibujo en la que se obtuvo; cuando esa ventana se cierra, sus miembros lanzan `ObjectDisposedException`.
+Los miembros de `DigiNG` actúan sobre la ventana de dibujo activa: la última ventana de dibujo que ha recibido el foco. Cada vez que una ventana de dibujo recibe el foco, `DigiNG` crea objetos nuevos para las propiedades `Codes`, `Commands`, `ActiveParameters`, `InputDeviceOptions` y `VisualizationOptions`. Un objeto obtenido antes de que cambie el foco sigue ligado a la ventana de dibujo en la que se obtuvo; cuando esa ventana se cierra, los miembros del objeto lanzan `ObjectDisposedException`.
 
 Si no hay ninguna ventana de dibujo abierta:
 
@@ -21,7 +21,7 @@ Si no hay ninguna ventana de dibujo abierta:
 | `DrawingFile`, `ReferenceFiles`, `DigiTab`, `Wkt`, `LockUndo`, `Camera`, `Commands`, `Codes`, `LicenseInfo`, `WindowSize`, `DeviceContextHandle`, `RenderContextHandle`, `Undo`, `NewTransaction`, `FinishTransaction`, `SelectEntity`, `Project`, `GetResultPythonExpression`, `SelectByPythonExpression`, `SendInputDeviceEvent`, `RenderScene`, `SetVisible`, `DrawEntity`, `AnimateEntity`, `DeanimateEntity`, `DeanimateAll`, `GeographicCalculator` | Lanzan `NullReferenceException`. |
 | `ActiveParameters`, `InputDeviceOptions`, `VisualizationOptions` | Devuelven `null`. |
 
-Mientras se cierra la ventana de dibujo activa (por ejemplo, dentro de un manejador de `DestroyingWindow` o del evento `Disposing` de una orden), la ventana ya no tiene documento. Los miembros que lo usan lanzan entonces `NullReferenceException`: `NewTransaction`, `FinishTransaction`, `LockUndo`, `Undo`, `Wkt`, `DigiTab`, `ReferenceFiles`, `SelectEntity`, `SetVisible`, `AnimateEntity`, `DeanimateEntity`, `DeanimateAll`, `GetResultPythonExpression` y `SelectByPythonExpression`, y los miembros de [DrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/drawingfile.md), [Commands](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/commands.md) y [Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/codes.md) que usan el documento.
+Mientras se cierra la ventana de dibujo activa (por ejemplo, dentro de un manejador de `DestroyingWindow` o del evento `Disposing` de una orden), la ventana ya no tiene documento. Los miembros que usan el documento lanzan entonces `NullReferenceException`: `NewTransaction`, `FinishTransaction`, `LockUndo`, `Undo`, `Wkt`, `DigiTab`, `ReferenceFiles`, `SelectEntity`, `SetVisible`, `AnimateEntity`, `DeanimateEntity`, `DeanimateAll`, `GetResultPythonExpression` y `SelectByPythonExpression`, y los miembros de [DrawingFile](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/drawingfile.md), [Commands](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/commands.md) y [Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/codes.md) que usan el documento.
 
 Los métodos no comprueban si sus argumentos son `null`: un argumento `null` produce `NullReferenceException`.
 
@@ -59,7 +59,7 @@ El descriptor `set` aplica a la ventana de dibujo la cámara que recibe. De una 
 | Método | Descripción |
 | :--- | :--- |
 | `bool Undo()` | Deshace la última transacción cerrada. Devuelve `false` si no hay ninguna transacción cerrada. Una transacción que sigue abierta no se deshace. |
-| [`void NewTransaction(bool finishCurrentTransaction = true)`](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/newtransaction.md) | Abre una transacción nueva en la pila de deshacer. Con `true`, antes cierra la transacción abierta más reciente. |
+| [`void NewTransaction(bool finishCurrentTransaction = true)`](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/newtransaction.md) | Abre una transacción nueva en la pila de deshacer. Con `true`, cierra la transacción abierta más reciente antes de abrir la nueva. |
 | [`void FinishTransaction()`](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/metodos-estaticos/finishtransaction.md) | Cierra la transacción abierta más reciente. |
 
 ### Selección, proyección y expresiones
@@ -135,7 +135,7 @@ Notas sobre los eventos:
 - `EntityAdded`, `EntityDeleted` y `EntityRecovered` pasan la entidad en la propiedad `Entity` de [EntityEventArgs](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/entityeventargs.md).
 - `AddingEntity`, `EntityAdded`, `EntityDeleted` y `EntityRecovered` se producen en las operaciones sobre una sola entidad: `DrawingFile.Add(Entity)`, `DrawingFile.Delete(Entity)`, `DrawingFile.Undelete(Entity)`, las órdenes que digitalizan o eliminan entidades de una en una, y el deshacer de esas operaciones. Las operaciones en bloque `DrawingFile.Add(IEnumerable<Entity>)` y `DrawingFile.Delete(IEnumerable<Entity>)` no producen ninguno de los cuatro eventos. `DrawingFile.Undelete(IEnumerable<Entity>)` y el deshacer de una eliminación en bloque producen `EntityRecovered` por cada entidad recuperada.
 - Si un manejador de `AddingEntity`, `EntityAdded`, `EntityDeleted` o `EntityRecovered` lanza una excepción, Digi3D.AI muestra la excepción en un cuadro de diálogo; en `AddingEntity`, la entidad se guarda. Las excepciones de los manejadores de `PreRender`, `PostRender`, `WindowCreated` y `DestroyingWindow` se descartan sin aviso.
-- `DestroyingWindow` no indica qué ventana se cierra. Si la ventana que se cierra es la activa, durante el evento esa ventana ya no tiene documento: los miembros de `DigiNG` que usan el documento lanzan `NullReferenceException` (lee el apartado de la ventana de dibujo cerrada), excepto `DrawingFile`, que devuelve la última instancia si el archivo sigue abierto.
+- `DestroyingWindow` no indica qué ventana se cierra. Si la ventana que se cierra es la activa, durante el evento esa ventana ya no tiene documento: los miembros de `DigiNG` que usan el documento lanzan `NullReferenceException` (lee el apartado «Ventana de dibujo activa»), excepto `DrawingFile`, que devuelve la última instancia si el archivo sigue abierto.
 ## Ejemplo
 
 Esta orden anima durante 5 segundos las líneas cerradas del archivo de dibujo activo y escribe en la ventana de resultados cuántas hay:

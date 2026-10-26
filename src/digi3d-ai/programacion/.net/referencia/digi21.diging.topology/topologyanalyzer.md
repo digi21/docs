@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG.Topology`  
 Ensamblado: [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/)
 
-Forma los polígonos que encierran un conjunto de líneas (la topología) y asigna a cada polígono un centroide, es decir, un texto situado en su interior.
+Forma los polígonos encerrados por un conjunto de líneas (la topología) y asigna a cada polígono un centroide, es decir, un texto situado en su interior.
 
 ```csharp
 public static class TopologyAnalyzer
@@ -18,7 +18,7 @@ public static class TopologyAnalyzer
 - Un anillo con área negativa es una isla. Las islas no se devuelven como polígonos. Si `analyzePolygonRelationship` es `true`, cada isla que queda dentro de un polígono se añade a `Holes` de ese polígono; una isla que está dentro de otra isla del mismo polígono no se añade.
 - Un anillo que pasa dos veces por el mismo vértice no encierra área y no se devuelve. Se notifica con `openPolygon`.
 
-Solo las líneas forman arcos, y solo sus extremos (primer y último vértice) son nodos: dos líneas que se cruzan sin compartir un extremo no se cortan. Usa [IntersectionDetector](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/intersectiondetector.md) para encontrar esos cruces.
+Solo las líneas forman arcos, y solo los extremos de las líneas (primer y último vértice) son nodos: dos líneas que se cruzan sin compartir un extremo no se dividen en el punto de cruce. Usa [IntersectionDetector](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/intersectiondetector.md) para encontrar esos cruces.
 
 Entidades que se tienen en cuenta:
 
@@ -55,7 +55,7 @@ Forma los polígonos de `entities` y los devuelve en una lista. Los parámetros 
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `entities` | Entidades de la topología. Se recorre una sola vez, al principio. |
+| `entities` | Entidades de la topología. La secuencia se recorre una sola vez, al principio del análisis. |
 | `analyzePolygonRelationship` | `true` para buscar las islas que están dentro de cada polígono y añadirlas a su `Holes`. Con `false`, `Holes` queda vacío. |
 | `progressChanged` | Recibe el porcentaje de avance, de 0 a 99. Se llama mientras se forman los anillos y otra vez, desde 0, mientras se buscan las islas. |
 | `lineWithDoublePoints` | Recibe cada línea cuyos dos primeros vértices, o sus dos últimos, tienen la misma X e Y. |
@@ -66,7 +66,7 @@ Los delegados `lineWithDoublePoints` y `entityWithOnlyOnePoint` se llaman con to
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `Exception` con el mensaje «Detectadas líneas con puntos dobles» | Alguna línea tiene iguales en XY sus dos primeros vértices o sus dos últimos. Tiene prioridad sobre la siguiente. |
+| `Exception` con el mensaje «Detectadas líneas con puntos dobles» | Alguna línea tiene iguales en XY sus dos primeros vértices o sus dos últimos. La excepción «Detectadas líneas con puntos dobles» tiene prioridad sobre la excepción «Detectadas entidades con un único punto». |
 | `Exception` con el mensaje «Detectadas entidades con un único punto» | `entities` contiene un punto o una línea con menos de 2 vértices. |
 | `Exception` con el mensaje «No hay datos suficientes» | `entities` no contiene ninguna línea válida. |
 

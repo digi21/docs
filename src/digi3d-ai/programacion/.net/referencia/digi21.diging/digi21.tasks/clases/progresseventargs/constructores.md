@@ -12,4 +12,4 @@ public ProgressEventArgs(int progress)
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `progress` | Porcentaje de progreso, normalmente de 0 a 100. El constructor guarda `Math.Max(0, progress)`: un valor negativo se guarda como 0. No limita el valor por arriba. |
+| `progress` | Porcentaje de progreso, normalmente entre el 0 % y el 100 %, ambos incluidos. El constructor guarda `Math.Max(0, progress)`: un valor negativo se guarda como 0 %. El constructor no impone un límite superior al porcentaje. |

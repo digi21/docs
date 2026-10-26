@@ -45,7 +45,7 @@ Las sobrecargas genéricas crean el objeto devuelto con `Activator.CreateInstanc
 
 El usuario no puede poner flotante un panel creado con `Add`: el panel solo se puede acoplar.
 
-Digi3D.AI destruye todos los paneles creados con `Add` al cerrar un archivo de dibujo y al cerrar la aplicación. Antes de destruir cada panel produce sus eventos `Closing` y `Closed`. Después de esa destrucción, las propiedades y los métodos del objeto `Pane` lanzan `ObjectDisposedException`.
+Digi3D.AI destruye todos los paneles creados con `Add` al cerrar un archivo de dibujo y al cerrar la aplicación. Antes de destruir cada panel, Digi3D.AI produce los eventos `Closing` y `Closed` del panel. Después de que Digi3D.AI destruya un panel, las propiedades y los métodos del objeto `Pane` lanzan `ObjectDisposedException`.
 
 Excepciones:
 

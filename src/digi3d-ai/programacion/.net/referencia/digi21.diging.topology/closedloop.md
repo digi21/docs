@@ -24,7 +24,7 @@ Crea un anillo vacío: `Polygon` y `Centroid` valen `null` y `Entities` es una l
 | :--- | :--- |
 | `Polygon Polygon` | [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/) nuevo con los vértices del anillo. Tiene un solo código, de nombre vacío (`""`), y no pertenece a ningún archivo de dibujo. En un `ClosedLoopWithHoles`, el polígono incluye también los huecos. |
 | `ReadOnlyText Centroid` | Texto asignado como centroide por `TopologyAnalyzer.AnalyzeCentroids`, o `null`. Después de `AnalyzeTopology` vale `null`. |
-| `List<Tuple<ReadOnlyLine, bool>> Entities` | Líneas (arcos) que forman el anillo, en el orden en que se recorren. `Item1` es la línea, la misma instancia que se pasó a `AnalyzeTopology`. `Item2` es `true` si el anillo recorre la línea de su primer a su último vértice y `false` si la recorre al revés. |
+| `List<Tuple<ReadOnlyLine, bool>> Entities` | Líneas (arcos) que forman el anillo, en el orden en que se recorren. `Item1` es la línea, la misma instancia que se pasó a `AnalyzeTopology`. `Item2` es `true` si el anillo recorre la línea desde el primer vértice hasta el último y `false` si la recorre al revés. |
 
 ## Ejemplo
 

@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Crean un [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/) de lectura y escritura, sin archivo de dibujo (`Owner` es `null`), con la cadena vacía, la coordenada (0, 0, 0), la altura 0, la rotación 0, la orientación [Quaternion.Identity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/quaternion.md) (el plano XY) y la justificación `SouthWest`.
+Los constructores crean un [Text](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/text/) de lectura y escritura, sin archivo de dibujo (`Owner` es `null`), con la cadena vacía, la coordenada (0, 0, 0), la altura de 0 unidades del archivo de dibujo, la rotación de 0 grados, la orientación [Quaternion.Identity](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.math/clases/quaternion.md) (el plano XY) y la justificación `SouthWest`.
 
 ```csharp
 public Text(Code code)
@@ -16,7 +16,7 @@ public Text(IEnumerable<Code> codes)
 | Parámetro | Descripción |
 | :--- | :--- |
 | `code` | [Code](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/code/) del texto. |
-| `codes` | Códigos del texto, en el orden de la enumeración. Puede estar vacía. |
+| `codes` | Códigos del texto, en el orden de la enumeración. La enumeración puede estar vacía. |
 
 `CreationTime` toma la hora del sistema en UTC en el momento de la construcción.
 

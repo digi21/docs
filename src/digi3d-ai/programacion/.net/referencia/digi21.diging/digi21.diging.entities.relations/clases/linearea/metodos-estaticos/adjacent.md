@@ -4,7 +4,7 @@
 Espacio de nombres: [Digi21.DigiNG.Entities.Relations](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities.relations/)  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Indica si la línea es adyacente al área: recorre parte del borde del área sin entrar en ella.
+Indica si la línea es adyacente al área: la línea recorre parte del borde del área sin entrar en el área.
 
 ![Línea adyacente a área](../../../../../../../../../images/lineaadyacentearea.png)
 

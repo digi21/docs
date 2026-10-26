@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.Math`  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Lista modificable de los vértices de una entidad. La devuelve la propiedad `Points` de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/) y de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/).
+La propiedad `Points` de [Line](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/line/) y de [Polygon](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.entities/clases/polygon/) devuelve una lista modificable de los vértices de la entidad.
 
 ```csharp
 public class Point3DCollection : IList<Point3D>, IReadOnlyList<Point3D>

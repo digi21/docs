@@ -33,7 +33,7 @@ Por cada línea añade dos [VertexPointer](/digi3d-ai/programacion/.net/referenc
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| `lines`, `model` | Líneas que se analizan. Se recorre una sola vez, al llamar al método. Los elementos `null` se omiten. |
+| `lines`, `model` | Líneas que se analizan. La secuencia se recorre una sola vez, al llamar al método. Los elementos `null` se omiten. |
 | `analyzeThisLine` | Se llama con cada línea. Si devuelve `false`, la línea no aporta nodos. |
 | `insertNodeAtThisCoordinates` | Se llama con la coordenada de cada extremo. Si devuelve `false`, ese extremo no se añade. |
 
@@ -42,9 +42,9 @@ El resultado:
 - Contiene todos los extremos, también los de una línea que no toca a ninguna otra: un nodo con un solo `VertexPointer` es un extremo libre. Para quedarte con los nodos en los que se juntan varias líneas, filtra con `nodo.Count() > 1`.
 - Contiene el primer y el último vértice de una línea cerrada en el mismo nodo, con dos `VertexPointer` de la misma línea.
 - Está ordenado por X y, a igual X, por Y. Se puede recorrer varias veces.
-- No excluye las líneas eliminadas: fíltralas antes o con `analyzeThisLine`.
+- No excluye las líneas eliminadas: fíltralas antes de llamar al método o con `analyzeThisLine`.
 
-`Line` de cada `VertexPointer` es la misma instancia de la secuencia de entrada. El método no comprueba que las líneas tengan vértices: quita antes las líneas sin vértices, como hace el ejemplo.
+`Line` de cada `VertexPointer` es la misma instancia de la secuencia de entrada. El método no comprueba que las líneas tengan vértices: quita las líneas sin vértices antes de llamar al método, como hace el ejemplo.
 
 ### FindAll
 

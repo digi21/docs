@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.Math`  
 Ensamblado: [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/)
 
-Tolerancia (épsilon) por debajo de la cual dos valores `double` se consideran iguales, y métodos de extensión de `double` que comparan con esa tolerancia.
+La clase define una tolerancia (épsilon) para considerar iguales dos valores `double` cuya diferencia absoluta sea menor que esa tolerancia, y proporciona métodos de extensión de `double` que comparan dos valores `double` con esa tolerancia.
 
 ```csharp
 public static class Precision

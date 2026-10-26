@@ -36,7 +36,7 @@ void Add(IEnumerable<Entity> entities);
 | :--- | :--- |
 | `entities` | Entidades que se añaden al final del archivo, en el orden de la enumeración. |
 
-Si una entidad pertenece a otro archivo, el método lanza la excepción al llegar a esa entidad. Lo que pasa con las entidades anteriores depende de la implementación: en [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md) ya están añadidas; lee la página de cada clase.
+Si una entidad pertenece a otro archivo, `Add` lanza `InvalidOperationException` al llegar a esa entidad. El estado de las entidades anteriores a la que provoca la excepción depende de la implementación: en [Bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md) ya están añadidas; lee la página de cada clase.
 
 ## Add(Line), Add(Point), Add(Text), Add(Polygon), Add(Complex)
 
@@ -59,7 +59,7 @@ Valor devuelto: la misma instancia que recibe el método, con el tipo de solo le
 | Excepción | Cuándo |
 | :--- | :--- |
 | `ArgumentNullException` | El parámetro es `null`. |
-| `InvalidOperationException` | La entidad pertenece a otro archivo. También, en las implementaciones que comprueban [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) (por ejemplo `Bin`), el archivo está abierto en solo lectura. |
+| `InvalidOperationException` | La entidad pertenece a otro archivo, o el archivo está abierto en solo lectura en las implementaciones que comprueban [CanWrite](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.io/interfaces/idrawingfile/propiedades/canwrite.md) (por ejemplo `Bin`). |
 
 ## Ejemplo
 

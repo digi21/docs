@@ -5,7 +5,7 @@ En este tutorial crearás `ListarEntidades`, una aplicación de consola que abre
 
 ## Requisitos
 
-- Digi3D.AI para .NET 10 instalado en el equipo. La aplicación usa los ensamblados que instala.
+- Digi3D.AI para .NET 10 instalado en el equipo. La aplicación usa los ensamblados que instala Digi3D.AI.
 - El SDK de .NET 10. Viene con Visual Studio 2026; también se puede instalar por separado desde [dot.net](https://dotnet.microsoft.com/download).
 
 Los pasos usan la línea de comandos (`dotnet`). En Visual Studio el resultado es el mismo: crea un proyecto *Aplicación de consola* para .NET 10 y añade el paquete desde *Administrar paquetes NuGet*.
@@ -21,11 +21,13 @@ cd ListarEntidades
 
 ## 2. Añadir el paquete NuGet
 
+Ejecuta la siguiente orden:
+
 ```
 dotnet add package Digi21.DigiNG.IO.Bin --version 26.0.0
 ```
 
-`Digi21.DigiNG.IO.Bin` contiene los tipos para leer y escribir archivos `.bin`, y depende de `Digi21.DigiNG`, que contiene los tipos de las entidades. NuGet añade los dos. No añadas `Digi21.Digi3D.App`: desde la versión 26.0.0 no hace falta (ver [Migración a .NET 10](migracion-a-net-10.md)).
+`Digi21.DigiNG.IO.Bin` contiene los tipos para leer y escribir archivos `.bin`, y depende de `Digi21.DigiNG`, que contiene los tipos de las entidades. NuGet añade los paquetes `Digi21.DigiNG.IO.Bin` y `Digi21.DigiNG`. No añadas `Digi21.Digi3D.App`: desde la versión 26.0.0 no hace falta (ver [Migración a .NET 10](migracion-a-net-10.md)).
 
 ## 3. Escribir el programa
 
@@ -72,12 +74,14 @@ return 0;
 
 El programa:
 
-- abre el archivo con la clase [`Bin`](referencia/digi21.diging.io.bin/bin.md). El segundo argumento es el número de decimales con el que se guardaron las coordenadas, el tercero el origen global y el último, `true`, abre el archivo en solo lectura;
+- abre el archivo con la clase [`Bin`](referencia/digi21.diging.io.bin/bin.md). El segundo argumento es el número de decimales con el que se guardaron las coordenadas, el tercero es el origen global y el último, `true`, indica que el archivo se abre en solo lectura;
 - recorre las entidades con `foreach`, porque un archivo de dibujo es una colección de entidades (`IEnumerable<Entity>`);
 - salta las entidades eliminadas, que siguen en el archivo marcadas con `Deleted`;
 - según el tipo de cada entidad (línea, polígono, punto, texto o complejo), muestra sus códigos y un dato de la geometría.
 
 ## 4. Ejecutar el programa
+
+Ejecuta la siguiente orden:
 
 ```
 dotnet run -- C:\Trabajos\prueba.bin
@@ -92,6 +96,8 @@ Con un archivo que contiene una línea con el código `020101` y un punto con el
 ```
 
 ## 5. Publicar el programa en cualquier carpeta
+
+Ejecuta la siguiente orden:
 
 ```
 dotnet publish -c Release -o C:\Herramientas\ListarEntidades

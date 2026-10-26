@@ -14,7 +14,7 @@ Tipos derivados: [ConicCamera](/digi3d-ai/programacion/.net/referencia/digi21.di
 
 La clase no tiene constructores públicos: se crea una `ConicCamera` o una `OrthographicCamera`.
 
-Una `Camera` es un objeto de datos: cambiar sus propiedades no cambia la ventana de dibujo. La propiedad estática `Camera` de la clase [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/) devuelve en cada lectura un objeto nuevo con la cámara de la ventana de dibujo activa (una `ConicCamera` o una `OrthographicCamera`), y la asignación aplica la cámara a esa ventana. Para modificar la cámara de la ventana, lee la propiedad, cambia el objeto y vuelve a asignarlo.
+Una `Camera` es un objeto de datos: cambiar sus propiedades no cambia la ventana de dibujo. La propiedad estática `Camera` de la clase [DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/digi21.diging/clases/diging/) devuelve en cada lectura un objeto nuevo con la cámara de la ventana de dibujo activa (una `ConicCamera` o una `OrthographicCamera`), y la asignación aplica la cámara a esa ventana. Para modificar la cámara de la ventana, lee la propiedad estática, modifica las propiedades del objeto devuelto y asigna ese objeto a la misma propiedad estática.
 
 Los tres giros están en grados sexagesimales. Con los tres a 0, la cámara mira en la dirección −Z con el eje +Y hacia arriba de la pantalla (vista cenital con el norte arriba). La ventana de dibujo aplica los giros en este orden: primero `Pitch` sobre el eje X, después `Roll` sobre el eje Y y por último `Yaw` sobre el eje Z.
 

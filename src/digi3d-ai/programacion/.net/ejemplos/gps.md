@@ -116,7 +116,7 @@ private void Gps_Coordenada(object sender, CoordenadasEventArgs e)
 }
 ```
 
-Si la transformación no se puede crear, o el usuario cancela un cuadro de diálogo, el panel desconecta el GPS y muestra un mensaje con el error.
+Si la transformación no se puede crear o cancelas un cuadro de diálogo, el panel desconecta el GPS y muestra un mensaje con el error.
 
 ### Envío de la posición
 

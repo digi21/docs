@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG.Plugin.Menu`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Añade una opción al menú de la ventana de dibujo que ejecuta la orden implementada por la clase.
+Añade al menú de la ventana de dibujo una opción que ejecuta la orden implementada por la clase.
 
 ```csharp
 [AttributeUsage(AttributeTargets.Class)]

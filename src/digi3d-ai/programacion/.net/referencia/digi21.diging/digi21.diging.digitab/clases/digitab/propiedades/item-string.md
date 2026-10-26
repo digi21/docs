@@ -24,7 +24,7 @@ public NodeDigiTab this[string name] { get; }
 
 | Excepción | Cuándo |
 | :--- | :--- |
-| `ArgumentOutOfRangeException` | Ningún código tiene ese nombre ni ese alias. Para comprobarlo antes, usa [HasCode](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md). |
+| `ArgumentOutOfRangeException` | Ningún código tiene ese nombre ni ese alias. Para comprobar si el código existe antes de acceder al indizador, usa [HasCode](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md). |
 
 ## Ejemplo
 
