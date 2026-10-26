@@ -1,34 +1,34 @@
 # RATON\_DIGI3D
 <!-- id: raton-digi3d -->
 
-Captura y descaptura el ratón de Windows en la ventana fotogramétrica.
+Captura y libera el ratón de Windows en la ventana fotogramétrica.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Modo automático |Si no se especifica ningún parámetro el valor de la variable booleana cambiará de modo Activado a Desactivado y de Desactivado a Activado.<br>**0**: Para desactivar la variable booleana.<br>**1**: Para activar la variable booleana.<br>**?**: Para consultar el valor de la variable booleana. Aparecerá un globo indicando si la orden está activada o desactivada.| Si |
+| 1 | Modo automático |Si no especificas ningún parámetro, la variable booleana pasa de Activado a Desactivado o de Desactivado a Activado, según el valor actual.<br>**0**: Desactiva la variable booleana.<br>**1**: Activa la variable booleana.<br>**?**: Consulta el valor de la variable booleana. Aparece un globo que indica si la orden está activada o desactivada.| Si |
 
 ## Observaciones
 
-Independientemente del dispositivo de entrada que tengamos seleccionado \(topo-mouse, sistemas de manivelas, etc.) siempre podemos utilizar cualquiera de los ratones conectados al sistema como dispositivo de entrada en la ventana fotogramétrica.
+Independientemente del dispositivo de entrada que tengas seleccionado \(topo-mouse, sistemas de manivelas, etc.), siempre puedes utilizar cualquiera de los ratones conectados al sistema como dispositivo de entrada en la ventana fotogramétrica.
 
-Cuando la ventana fotogramétrica captura el ratón, este deja de ser visible para Windows, ya que la ventana fotogramétrica oculta su icono hasta que se vuelve a liberar. Los movimientos del ratón se convertirán en movimientos de las imágenes mostradas en la ventana fotogramétrica.
+Cuando la ventana fotogramétrica captura el ratón, la ventana oculta el puntero del ratón hasta que se libera el ratón. Los movimientos del ratón se convierten en movimientos de las imágenes mostradas en la ventana fotogramétrica.
 
-Esta orden es booleana, lo que significa que cada vez que la ejecutemos se capturará o liberará el ratón en función de si está o no capturado: Si el ratón está capturado y la ejecutamos se liberará, y si está liberado y la ejecutamos, se capturará.
+Sin parámetros, esta orden alterna la captura del ratón: si el ratón está capturado, la orden lo libera; si está liberado, la orden lo captura.
 
-Esta orden no puede descapturar ratones configurados como ratones de uso exclusivo para la ventana fotogramétrica.
+La orden RATÓN_DIGI3D no puede liberar ratones configurados como ratones de uso exclusivo para la ventana fotogramétrica.
 
 Existen dos formas de capturar el ratón en la ventana fotogramétrica:
 
-1. Haciendo clic con el ratón en la ventana fotogramétrica \(si está activa la opción _Capturar el ratón al hacer clic_ de la sección _Estereoscopía_ del cuadro de diálogo _Configuración._
-2. Ejecutando la orden _RATÓN\_DIGI3D_.
+1. Haz clic con el ratón en la ventana fotogramétrica \(si está activa la opción _Capturar el ratón al hacer clic_ de la sección _Estereoscopía_ del cuadro de diálogo _Configuración_\).
+2. Ejecuta la orden _RATÓN\_DIGI3D_.
 
 Existen tres formas de liberar el ratón de la ventana fotogramétrica:
 
-1. Pulsando la tecla _Ctrl_ del teclado y mantenerla pulsada. Mientras la mantengamos pulsada se liberará el ratón que podremos utilizar para interactuar con los elementos de interfaz de usuario del programa, como por ejemplo menús o barras de herramientas. En el momento en el que soltemos la tecla _Ctrl_ el ratón volverá a capturarse.
-2. Ejecutando la orden _RATÓN\_DIGI3D_.
-3. Pulsando _Enter_ y luego _Esc_. Al pulsar _Enter_ se mostrará la ventana para introducir órdenes. Al pulsar la tecla _Esc_ cerraremos esta ventana. Esta combinación de teclas libera el ratón de la ventana fotogramétrica si estaba capturado.
+1. Pulsa la tecla _Ctrl_ del teclado y mantenla pulsada. Mientras mantengas pulsada la tecla _Ctrl_, el ratón estará liberado y podrás utilizar el ratón para interactuar con los elementos de la interfaz de usuario del programa, como los menús o las barras de herramientas. Cuando sueltes la tecla _Ctrl_, la ventana fotogramétrica volverá a capturar el ratón.
+2. Ejecuta la orden _RATÓN\_DIGI3D_.
+3. Pulsa _Enter_ y luego _Esc_. Al pulsar _Enter_, se muestra la ventana para introducir órdenes. Al pulsar _Esc_, se cierra la ventana para introducir órdenes. Esta combinación de teclas libera el ratón de la ventana fotogramétrica si estaba capturado.
 
 ## Características de la orden
 

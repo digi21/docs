@@ -11,12 +11,12 @@ No admite parámetros.
 
 ![Panel Orientación absoluta con cinco puntos medidos y la vista extendida](../../../../../images/panel-orientacion-absoluta.png)
 
-Esta orden muestra este panel, en el que se miden los puntos de apoyo y se ven los residuos de la orientación. Los botones que no se pueden usar en cada momento aparecen desactivados.
+La orden ORI_ABSOLUTA muestra el panel **Orientación absoluta**, en el que se miden los puntos de apoyo y se ven los residuos de la orientación. Los botones que no se pueden usar en cada momento aparecen desactivados.
 
 * **Archivo de puntos**: archivo con las coordenadas terreno de los puntos de apoyo. El botón **...** abre el cuadro de diálogo [Archivo de puntos de apoyo](../../../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md) para cambiarlo.
 * **Sistema de referencia de coordenadas**: el sistema de las coordenadas del archivo de puntos.
-* **Vista extendida**: añade a la lista las coordenadas terreno (**X**, **Y**, **Z**) y modelo (**Xmod**, **Ymod**, **Zmod**) de cada punto. Digi3D.AI recuerda su estado.
-* **Lista de puntos medidos**: el nombre de cada punto (**N**), sus residuos en X, Y y Z (**Ex**, **Ey**, **Ez**) y su **Descripción**. Hacer clic en un punto lleva el cursor a él; hacer doble clic, además, lo deja listo para volver a medirlo.
+* **Vista extendida**: añade a la lista las coordenadas del terreno (**X**, **Y**, **Z**) y del modelo (**Xmod**, **Ymod**, **Zmod**) de cada punto. Digi3D.AI recuerda si **Vista extendida** está activada.
+* **Lista de puntos medidos**: muestra el nombre de cada punto (**N**), sus residuos en X, Y y Z (**Ex**, **Ey**, **Ez**) y su **Descripción**. Al hacer clic en un punto, el cursor se desplaza al punto seleccionado. Al hacer doble clic en un punto, además, puedes volver a medir ese punto.
 * **Primero XY, luego Z**: el punto se mide en dos pasos: el primer dato registra la posición en planta y el segundo, la Z.
 * **Saltar (Esc)**: mientras se espera la medida de un punto, lo descarta y pasa al siguiente. Con un punto seleccionado en la lista, quita la selección.
 * **Correlar**: ejecuta la orden CORRELAR para ajustar automáticamente la posición en la otra imagen.
@@ -27,8 +27,8 @@ Esta orden muestra este panel, en el que se miden los puntos de apoyo y se ven l
 * **Usar todos**: vuelve a usar en X, Y y Z todos los puntos medidos.
 * **Completar**: recorre los puntos del archivo que quedan por medir.
 * **Borrar**: elimina el punto seleccionado y vuelve a calcular la orientación.
-* **No usar**, **Usar en Z**, **Usar en XY** y **Usar en XYZ**: qué coordenadas del punto seleccionado intervienen en el cálculo.
-* **Sobreescribir instantáneas**: al medir un punto, Digi3D.AI guarda una instantánea de cada imagen en la carpeta de instantáneas del proyecto. Con la casilla marcada sustituye las que ya existan; sin marcar, solo crea las que faltan.
+* **No usar**, **Usar en Z**, **Usar en XY** y **Usar en XYZ**: determinan qué coordenadas del punto seleccionado intervienen en el cálculo.
+* **Sobreescribir instantáneas**: al medir un punto, Digi3D.AI guarda una instantánea de cada imagen en la carpeta de instantáneas del proyecto. Con la casilla marcada, Digi3D.AI sustituye las instantáneas que ya existan; con la casilla sin marcar, crea únicamente las instantáneas que faltan.
 * **Aceptar**: guarda la orientación y termina la orden. Solo está disponible cuando hay puntos suficientes para calcularla.
 * **Cancelar**: termina la orden sin guardar la orientación.
 

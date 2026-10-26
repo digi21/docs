@@ -18,7 +18,7 @@ Los últimos _cantidad_ caracteres de los que genere la macro.
 
 ## Ejemplo
 
-Supongamos que la macro `$(CodigoCentroide)` se va a sustituir por el texto: 020400.
+Por ejemplo, si la macro `$(CodigoCentroide)` se sustituye por el texto 020400:
 
-Si queremos obtener el texto: 400 podemos hacerlo con la llamada `$(CodigoCentroide).Right(3)`
+Utiliza la llamada `$(CodigoCentroide).Right(3)` para obtener el texto 400.
 

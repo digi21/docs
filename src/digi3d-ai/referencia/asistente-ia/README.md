@@ -6,7 +6,7 @@
 El **panel de chat con IA** permite pedir a un asistente de inteligencia artificial, **en lenguaje
 natural**, que consulte y modifique el dibujo activo. Escribe lo que necesitas —por ejemplo *«haz un
 zoom al primer edificio»*, *«¿cuántas curvas de nivel hay?»* o *«borra los textos con el código
-050146»*— y el asistente lo realiza sobre la ventana de dibujo.
+050146»*— y el asistente ejecuta las operaciones solicitadas en la ventana de dibujo.
 
 No hace falta saber programar: el asistente traduce la petición a operaciones sobre el dibujo.
 
@@ -22,7 +22,7 @@ Selecciona **Ventana → Chat con IA**. El panel es acoplable, como los demás p
 
 ## Configurar el proveedor
 
-La primera vez que abres el panel hay que elegir un proveedor y configurarlo:
+Elige un proveedor y configúralo la primera vez que abras el panel:
 
 1. Elige el proveedor en el desplegable **Proveedor** de la cabecera del panel.
 2. Pulsa el botón de engranaje **⚙** de la cabecera. Se abre el cuadro de diálogo
@@ -95,7 +95,7 @@ los encuentra, en los textos del dibujo.
 - *«¿Cuántas curvas de nivel maestras hay?»* El asistente distingue las curvas maestras de las
   normales por el código y por la cota respecto a la equidistancia.
 - *«Llévame a la Plaza Mayor.»* Sustituye «Plaza Mayor» por un topónimo rotulado en tu dibujo. El
-  asistente busca el texto y hace un zoom a él.
+  asistente busca el texto y hace un zoom al texto.
 
 **Cálculos.** Comprueba el resultado con las órdenes de medida de Digi3D.AI.
 
@@ -139,7 +139,7 @@ cuadro **Confirmación de seguridad** con un resumen de lo que va a hacer el asi
 confirmación:
 
 - borrar o sobrescribir archivos en disco;
-- ejecutar comandos del sistema;
+- ejecutar órdenes del sistema;
 - borrar geometrías del dibujo;
 - acceder a la red o a servicios web.
 

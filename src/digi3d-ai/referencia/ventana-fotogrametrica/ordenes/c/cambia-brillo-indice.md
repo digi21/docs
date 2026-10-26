@@ -1,21 +1,21 @@
 # CAMBIA\_BRILLO\_ÍNDICE
 <!-- id: cambia-brillo-indice -->
 
-Cambia la intensidad de los índices conjunta o independientemente.
+Cambia el brillo de los dos índices a la vez o el de cada índice por separado.
 
 ## Parámetros
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| -4 | Pone la intensidad del índice izquierdo con su brillo original |
+| -4 | Restablece el brillo original del índice izquierdo |
 | -3 | Disminuye el brillo de los dos índices a la vez |
 | -2 | Disminuye el brillo del índice izquierdo |
 | -1 | Aumenta el brillo del índice izquierdo |
-| 0 | Pone la intensidad de los dos índices con su brillo original |
+| 0 | Restablece el brillo original de los dos índices |
 | 1 | Aumenta el brillo del índice derecho |
 | 2 | Disminuye el brillo del índice derecho |
 | 3 | Aumenta el brillo de los dos índices |
-| 4 | Pone la intensidad del índice derecho con su brillo original |
+| 4 | Restablece el brillo original del índice derecho |
 
 ### Ejemplo:
 
@@ -23,7 +23,7 @@ Cambia la intensidad de los índices conjunta o independientemente.
 
 ## Observaciones
 
-La intensidad de los índices es un valor que puede variar entre 0 y 255 y esta orden realiza incrementos/decrementos de 5 en 5 unidades.
+La orden CAMBIA_BRILLO_ÍNDICE aumenta o disminuye el valor del brillo de los índices en pasos de 5 dentro de la escala de 0 a 255, incluidos ambos extremos.
 
 ## Características de la orden
 

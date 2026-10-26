@@ -39,9 +39,9 @@ El archivo `tareasdescartadas.txt` está en la carpeta del último archivo de di
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
-* Mediante la opción del menú **Ventana/Tareas/Tareas**.
-* Pulsando Alt+Mayús+T.
+* Pulsa el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
+* Selecciona la opción del menú **Ventana/Tareas/Tareas**.
+* Pulsa Alt+Mayús+T.
 
 La opción del menú **Ventana/Tareas/Eliminar tareas** ejecuta la orden [BORRAR_TAREAS](../ventana-de-dibujo/ordenes/b/borrar-tareas.md). Solo está habilitada si el panel tiene alguna tarea.
 

@@ -5,7 +5,7 @@
 ![Panel Atributos Activos con algunos atributos](../../../images/PanelAtributosActivos.png)
 
 
-Este panel permite añadir atributos a asignar a la geometría.
+El panel Atributos activos permite añadir los atributos que se asignarán a las geometrías nuevas.
 
 Los atributos son pares clave-valor en los que se almacena información de cualquier tipo.
 

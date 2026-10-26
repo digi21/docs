@@ -3,15 +3,15 @@
 
 Las macroinstrucciones son una secuencia de órdenes a las que se les asigna un nombre.
 
-Para ejecutar una macroinstrucción tendremos que introducir en la línea de comandos el nombre de la macroinstrucción con un símbolo de arroba \(@\) delante.
+Introduce el nombre de la macroinstrucción en la línea de comandos con un símbolo de arroba \(@\) delante para ejecutar una macroinstrucción.
 
-Por ejemplo, para ejecutar la arroba: **curvas** introduciremos el siguiente comando en la [línea de comandos](./) del programa.
+Por ejemplo, para ejecutar la macroinstrucción **curvas**, introduce la siguiente orden en la [línea de comandos](./) del programa:
 
 ```text
 @curvas
 ```
 
-Al analizar la línea de comandos el programa detectará que el comando comienza con el símbolo arroba y automáticamente deducirá que se quiere ejecutar una macroinstrucción.
+Al analizar la línea de comandos, el programa reconocerá la arroba inicial como indicación de que debe ejecutar una macroinstrucción.
 
 El programa ejecutará todas las órdenes almacenadas en la macroinstrucción una por una.
 
@@ -39,5 +39,5 @@ on 020123
 
 se muestra en la lista con la descripción «Activa las curvas de nivel finas».
 
-> Si creas un archivo de macroinstrucciones con el bloc de notas, asegúrate después de quitarle la extensión .txt o si no tendrás que ejecutar la macroinstrucción con la extensión como, por ejemplo: @curvas.txt
+> Si creas un archivo de macroinstrucciones con el bloc de notas, quita la extensión .txt al guardar el archivo. Si conservas la extensión .txt, tendrás que incluirla al ejecutar la macroinstrucción, por ejemplo: @curvas.txt.
 

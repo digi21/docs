@@ -1,7 +1,7 @@
 # Proyecto
 <!-- id: proyecto -->
 
-Carga un archivo de proyecto fotogramétrico
+La orden proyecto carga un archivo de proyecto fotogramétrico.
 
 ## Opciones posicionales obligatorias
 

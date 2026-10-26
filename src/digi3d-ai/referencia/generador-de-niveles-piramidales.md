@@ -3,7 +3,7 @@
 
 ![Generador de niveles piramidales](../../images/generadordenivelespiramidales.png)
 
-Este programa transforma imágenes TIFF en batería para hacerlas compatibles con Digi3D.AI y crea niveles piramidales. Su ventana se titula **Crear teselas y niveles piramidales**.
+El Generador de Niveles Piramidales transforma imágenes TIFF (Tag Image File Format, formato de archivo de imagen con etiquetas) por lotes para hacerlas compatibles con Digi3D.AI y crea niveles piramidales. La ventana del programa se titula **Crear teselas y niveles piramidales**.
 
 ## Observaciones
 
@@ -15,9 +15,9 @@ Si al cargar en Digi3D.AI una imagen TIFF el programa detecta que esta no está 
 
 Si al cargar en Digi3D.AI una imagen TIFF el programa detecta que está teselada pero no tiene niveles piramidales, Digi3D.AI **no va a preguntar** si convertir la imagen en una imagen compatible, puesto que ya es compatible.
 
-Con el programa Generador de Niveles Piramidales puedes realizar en batería lo siguiente:
+Con el programa Generador de Niveles Piramidales puedes realizar por lotes lo siguiente:
 
-* Convertir un conjunto de imágenes TIFF no compatibles (sin teselas) en compatibles y de paso generarles sus niveles piramidales.
+* Convertir un conjunto de imágenes TIFF no compatibles (sin teselas) en imágenes teseladas compatibles con Digi3D.AI y generar los niveles piramidales de esas imágenes.
 * Crear los niveles piramidales de imágenes TIFF que ya están teseladas pero no los tienen. El programa no modifica la imagen: crea los niveles piramidales en un archivo externo, en la carpeta de la imagen original, aunque se haya indicado un **Directorio de salida**.
 
 Si una imagen ya está teselada y tiene niveles piramidales, el programa no hace nada con ella y lo indica en la ventana de resultados. El programa considera que una imagen teselada tiene niveles piramidales si el archivo TIFF contiene más de una imagen.

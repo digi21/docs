@@ -6,11 +6,11 @@ El archivo de configuración de teclas tiene un nodo principal Keyboard que tien
 Los nodos Key tienen los siguientes atributos:
 
 * **Name** para indicar el nombre de la tecla. Este nombre lo asigna automáticamente Windows en función del idioma.
-* **Description** para indicar una descripción de la función que realiza la secuencia de comandos asignada a la tecla.
+* **Description** para indicar una descripción de la función que realiza la secuencia de órdenes asignada a la tecla.
 * **Control** que tendrá el valor **true** en caso de que sea necesario tener pulsada la tecla _Control_ para identificar esta tecla.
 * **Shift** que tendrá el valor **true** en caso de que sea necesario tener pulsada la tecla _Shift_ para identificar esta tecla.
 
-Y la secuencia de órdenes a ejecutar se indican en un nodo CDATA hijo del nodo Key.
+La secuencia de órdenes que se ejecutará se indica en un nodo CDATA hijo del nodo Key.
 
 ```markup
 <?xml version="1.0" encoding="utf-8"?>
@@ -37,7 +37,7 @@ Y la secuencia de órdenes a ejecutar se indican en un nodo CDATA hijo del nodo 
 
 No es habitual modificar este archivo manualmente, sino mediante la orden [TECLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tecla.md).
 
-Si se hace mediante la orden TECLA, ésta añadirá una hoja de estilos en cascada al archivo .XML para que se muestre como una tabla HTML que el usuario pueda imprimir:
+Si modificas el archivo mediante la orden TECLA, la orden añadirá una hoja de estilos en cascada al archivo .XML para que se muestre como una tabla en lenguaje de marcado de hipertexto (HTML) que puedas imprimir:
 
 ```markup
 <?xml version="1.0" encoding="utf-8"?>
@@ -116,7 +116,7 @@ Al hacer doble clic sobre este archivo se mostrará de la siguiente manera:
 
 ## Archivo de asignación de teclas
 
-Este archivo especifica las órdenes asignadas a una pulsación de tecla
+El archivo de asignación de teclas especifica las órdenes asignadas a una pulsación de tecla.
 
 | Tecla | Mayúsculas | Control | Descripción |
 | :--- | :--- | :--- | :--- |

@@ -3,7 +3,7 @@
 
 ![Panel códigos activos mostrando como códigos activos el 050146, el 040523 y el 060526](../../../images/panelcodigosactivos.png)
 
-Este panel permite seleccionar el código o códigos activos en caso de estar trabajando con multi codificación.
+El panel Códigos activos permite seleccionar el código o los códigos activos cuando trabajas con varios códigos por geometría.
 
 Al almacenar una geometría nueva, esta recibe todos los códigos de la lista, no solo el que está seleccionado. La lista solo admite una fila seleccionada a la vez.
 
@@ -42,7 +42,7 @@ Si estamos trabajando con una base de datos, al seleccionar un determinado códi
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Mediante la opción del menú **Ventana/Códigos activos**.
-* Pulsando Alt+Mayús+C.
+* Selecciona la opción del menú **Ventana/Códigos activos**.
+* Pulsa Alt+Mayús+C.
 
-Las dos solo están habilitadas con la opción **Panel de multi-codificación**.
+Las dos formas de mostrar el panel solo están habilitadas si seleccionas la opción **Panel de multi-codificación** del campo Interfaz para seleccionar código de la configuración.

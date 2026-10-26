@@ -1,7 +1,7 @@
 # Modelo sin sistema de referencia de coordenadas
 <!-- id: modelo-sin-sistema-de-referencia -->
 
-Al cargar un modelo del sensor [Cónico](README.md), la extensión que lee el archivo de aerotriangulación obtiene de él el sistema de referencia de coordenadas del modelo. Si el archivo no lo indica, o lo indica sin componente vertical, la mayoría de las extensiones muestran uno de los cuadros de esta página.
+Al cargar un modelo del sensor [Cónico](README.md), la extensión que lee el archivo de aerotriangulación obtiene el sistema de referencia de coordenadas del modelo de ese archivo. Si el archivo no indica el sistema de referencia, o indica un sistema sin componente vertical, la mayoría de las extensiones muestran uno de los cuadros de esta página.
 
 Muestran el cuadro de sistema horizontal las extensiones [Access](extensiones/access.md), [AeroOffice](extensiones/aerooffice.md), [DVP](extensiones/dvp.md), [EspaKernel](extensiones/espakernel.md), [IMU](extensiones/imu.md), [Intergraph](extensiones/intergraph.md), [LPS](extensiones/lps.md), [PatB](extensiones/patb.md), [Pix4D](extensiones/pix4d.md) y [Summit](extensiones/summit.md). La extensión [PhotoScan](extensiones/photoscan.md), que lee los proyectos de Metashape, lo muestra solo si el proyecto no indica sistema o indica un sistema local. Las extensiones [Inpho](extensiones/inpho.md) y [Digi3D](extensiones/digi3d.md) no lo muestran: si no obtienen el sistema del archivo, asignan al modelo un sistema desconocido. La extensión [ContextCapture](extensiones/contextcapture.md) no carga el modelo si el archivo no indica sistema.
 

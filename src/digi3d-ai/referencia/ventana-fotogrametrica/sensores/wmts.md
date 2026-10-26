@@ -101,7 +101,7 @@ Digi3D.AI reconoce el sistema de referencia de la matriz de teselas (*SupportedC
 Las coordenadas del modelo van en las unidades del sistema de referencia, con el este o la longitud en X y el norte o la latitud en Y:
 
 * En un sistema geográfico (CRS:84, EPSG:4326, EPSG:4258...) van en grados. El tamaño de píxel de cada nivel es su *ScaleDenominator* por 0,28 mm, dividido entre 111.319,49 m por grado, como establece el estándar WMTS. Por ejemplo, el nivel 0 de la matriz `InspireCRS84Quad` del IGN tiene píxeles de 0,703125 grados y mide 360 grados de ancho.
-* En los códigos EPSG geográficos, el servidor da la esquina superior izquierda de la matriz en latitud, longitud; Digi3D.AI la lee en ese orden. Lo mismo con los sistemas proyectados cuya definición EPSG pone primero el norte.
+* En los códigos EPSG geográficos, el servidor da la esquina superior izquierda de la matriz en latitud, longitud; Digi3D.AI lee las coordenadas de la esquina superior izquierda de la matriz en ese orden. Digi3D.AI también respeta el orden de las coordenadas en los sistemas proyectados cuya definición EPSG pone primero el norte.
 * En un sistema proyectado van en sus unidades lineales (metros, o pies en los sistemas definidos en pies).
 
 ## Teselas y caché

@@ -1,7 +1,7 @@
 # MODIFICAR\_PARAMETROS\_MODELO
 <!-- id: modificar-parametros-modelo -->
 
-Modifica a mano la posición y los giros de las dos cámaras del modelo de cámara cónica cargado en la ventana fotogramétrica. Los cambios se ven en las imágenes mientras se editan.
+La orden MODIFICAR_PARAMETROS_MODELO permite modificar manualmente la posición y los giros de las dos cámaras del modelo de cámara cónica cargado en la ventana fotogramétrica. Los cambios se ven en las imágenes mientras editas los parámetros.
 
 ## Parámetros
 
@@ -21,7 +21,7 @@ Cada cambio se aplica a las imágenes en el momento, tanto al mover un deslizado
 * **Aceptar**: valida los doce campos y termina la orden. Si algún campo no es válido, aparece un mensaje y el panel sigue abierto. La orientación modificada se usa mientras el modelo está cargado; no se guarda en los archivos de orientación.
 * **Cancelar**: devuelve las dos cámaras a la orientación que tenían al ejecutar la orden y termina la orden.
 
-Si hay otra orden ejecutándose encima del panel, **Aceptar** y **Cancelar** emiten el sonido de error y no hacen nada hasta que esa orden termina.
+Si ejecutas otra orden mientras el panel está abierto, al pulsar **Aceptar** o **Cancelar** suena el sonido de error. Los botones **Aceptar** y **Cancelar** no realizan ninguna acción hasta que termina la orden ejecutada con el panel abierto.
 
 ## Características de la orden
 

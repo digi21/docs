@@ -51,8 +51,8 @@ petición que no lleve ese token.
 
 ## Conectar Claude Desktop
 
-Claude Desktop no se conecta directamente a una dirección HTTP local: lanza un programa y habla con él
-por su entrada y su salida estándar. Ese programa es `Digi3D.Mcp.exe`, que está en la carpeta de
+Claude Desktop no se conecta directamente a una dirección HTTP (protocolo de transferencia de hipertexto) local: inicia un programa y se comunica con ese programa
+por la entrada y la salida estándar. El programa `Digi3D.Mcp.exe` está en la carpeta de
 instalación de Digi3D.AI y reenvía cada mensaje a la instancia de Digi3D.AI abierta.
 
 1. En la categoría **Servidor MCP** del cuadro Configuración, pulsa el botón **Copiar** de la opción
@@ -75,7 +75,7 @@ instalación de Digi3D.AI y reenvía cada mensaje a la instancia de Digi3D.AI ab
    fragmento completo.
 4. Reinicia Claude Desktop.
 
-`Digi3D.Mcp.exe` no necesita el token: lo lee del archivo `%LOCALAPPDATA%\Digi3D.NET\mcp.json`, que
+`Digi3D.Mcp.exe` no necesita que indiques el token: lo lee del archivo `%LOCALAPPDATA%\Digi3D.NET\mcp.json`, que
 Digi3D.AI escribe al arrancar el servidor y borra al pararlo. Si Digi3D.AI no está abierto, el cliente
 recibe un error que lo indica.
 
@@ -125,7 +125,7 @@ asistente del panel de chat.
 Cada llamada a `run_python` o a `run_command` es un paso de **UNDO**.
 
 Las operaciones que piden confirmación en el panel de chat —borrar geometrías, borrar o sobrescribir
-archivos, ejecutar comandos del sistema y acceder a la red— también la piden cuando las ejecuta un
+archivos, ejecutar órdenes del sistema y acceder a la red— también la piden cuando las ejecuta un
 cliente MCP: Digi3D.AI muestra el cuadro **Confirmación de seguridad** y la petición espera tu
 respuesta. Si marcas **Permitir el resto de operaciones de esta conversación**, Digi3D.AI no vuelve a
 preguntar a ningún cliente MCP hasta que el servidor se reinicie.
@@ -149,10 +149,10 @@ del cuadro, por ejemplo con una herramienta de despliegue. Digi3D.AI las lee al 
 
 | Valor | Tipo | Por omisión | Efecto |
 |---|---|---|---|
-| `McpActivo` | DWORD | 0 | 1 arranca el servidor MCP al iniciar Digi3D.AI. |
+| `McpActivo` | DWORD | 0 | El valor 1 arranca el servidor MCP al iniciar Digi3D.AI. |
 | `McpPuerto` | DWORD | 4457 | Puerto en el que escucha el servidor. |
 | `McpToken` | Cadena | (vacío) | Token que deben enviar los clientes. Si está vacío, Digi3D.AI genera uno al arrancar el servidor. |
-| `ClaudeChatConfirmaciones` | DWORD | 1 | 0 desactiva el cuadro **Confirmación de seguridad**, también para los clientes MCP. No se recomienda. |
+| `ClaudeChatConfirmaciones` | DWORD | 1 | El valor 0 desactiva el cuadro **Confirmación de seguridad**, también para los clientes MCP. No se recomienda desactivar las confirmaciones porque Digi3D.AI dejaría de solicitar autorización para borrar geometrías o archivos, sobrescribir archivos, ejecutar órdenes del sistema y acceder a la red. |
 
 ## Véase también
 

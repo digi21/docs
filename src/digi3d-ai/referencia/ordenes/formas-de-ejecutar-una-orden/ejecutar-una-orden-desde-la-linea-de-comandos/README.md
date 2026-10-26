@@ -22,12 +22,12 @@ Para pasar parámetros a la orden, escribe un signo igual (=) después del nombr
 Si la orden escrita describe sus parámetros, encima del campo aparece una ayuda con las formas de ejecutarla:
 
 * Cada renglón es una forma de ejecutar la orden. Solo aparecen las formas que admiten lo que llevas escrito.
-* Cada parámetro aparece como `<nombre: tipo>`. El tipo es un número entero, un número real, un texto, un archivo, un código o la lista de valores que admite, separados por `|`.
+* Cada parámetro aparece como `<nombre: tipo>`. El tipo puede ser un número entero, un número real, un texto, un archivo, un código o una lista de valores admitidos separados por `|`.
 * El parámetro que toca escribir aparece en **negrita**.
 * `...` detrás de un parámetro indica que admite uno o más valores. Un grupo de parámetros entre paréntesis seguido de `...`, por ejemplo `(<código: código> <tipos de entidad: texto>)...`, se repite completo una o más veces.
 * Algunos parámetros solo existen según el valor de un parámetro anterior. Por ejemplo, en [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md), los siete parámetros del archivo de errores solo existen si el segundo parámetro vale `1`. Esos parámetros aparecen en la ayuda cuando escribes el valor del que dependen.
 * _(abre un cuadro de diálogo)_ al final de un renglón indica que, con esa forma, la orden pide en un cuadro de diálogo los datos que faltan.
-* Si el parámetro que toca escribir admite una lista de valores, debajo de las formas aparece lo que hace cada valor que empieza por lo que llevas escrito, por ejemplo `2 = partir las líneas por el cruce`.
+* Si el parámetro que estás escribiendo admite una lista de valores, debajo de las formas de ejecutar la orden aparece la descripción del efecto de cada valor que empieza por el texto introducido para ese parámetro, por ejemplo `2 = partir las líneas por el cruce`.
 
 Cuando el parámetro que estás escribiendo solo admite una lista de valores, el campo propone el primer valor que empieza por lo escrito, igual que con el nombre de la orden. **Tab** acepta la propuesta.
 

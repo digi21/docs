@@ -30,8 +30,8 @@ Este panel permite activar y desactivar la visualización de cada código, por s
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Mediante la opción del menú **Ventana/Visualización de códigos**.
-* Pulsando Alt+Mayús+V.
+* Selecciona la opción del menú **Ventana/Visualización de códigos**.
+* Pulsa Alt+Mayús+V.
 
 La [barra de herramientas Paneles](../barras-de-herramientas/paneles.md) no tiene ningún botón para este panel.
 

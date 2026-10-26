@@ -1,15 +1,15 @@
 # VER\_COORDENADAS
 <!-- id: ver-coordenadas -->
 
-Muestra coordenadas en la barra de mensajes de la pantalla estereoscópica.
+Muestra coordenadas en la barra de mensajes de la ventana fotogramétrica.
 
 ## Parámetros
 
 | Parámetro | Comportamiento de la orden |
 | :--- | :--- |
-| Ninguno | Alterna la visualización de coordenadas entre las siguientes opciones:no mostrar, mostrar coordenadas pixel, mostrar coordenadas Fiducial , mostrar coordenadas foto, mostrar coordenadas modelo, mostrar coordenadas terreno |
+| Ninguno | Alterna la visualización de coordenadas entre las siguientes opciones: no mostrar coordenadas, mostrar coordenadas píxel, mostrar coordenadas fiduciales, mostrar coordenadas foto, mostrar coordenadas modelo y mostrar coordenadas terreno |
 | 0 | No muestra ninguna coordenada |
-| 1 | Muestra coordenadas pixel |
+| 1 | Muestra coordenadas píxel |
 | 2 | Muestra coordenadas foto |
 | 3 | Muestra coordenadas modelo |
 | 4 | Muestra coordenadas terreno |

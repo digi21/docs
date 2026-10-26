@@ -15,8 +15,8 @@ La extensión no proporciona orientación absoluta.
 
 El archivo contiene la calibración de la cámara. Si el modelo no tiene archivo de cámara, Digi3D.AI la lee del archivo de aerotriangulación (consulta [Cámara](../README.md#cámara)): busca la cámara que indica `$CAMERA_ID` en la sección `$PHOTO` de la imagen y la lee de la sección `$CAMERA` o `$CAMERA_DEFINITION` con ese `$TYPE` o `$ID`.
 
-* **Cámara analógica** (`$KIND` igual a `FilmFrame`): la orientación interna sale de `$INT_ORI` en la sección `$PHOTO` de la imagen.
-* **Cámara digital** (cualquier otro `$KIND`): la orientación interna sale de `$CCD_INTERIOR_ORIENTATION`, y el tamaño de la imagen, de `$CCD_COLUMNS` y `$CCD_ROWS`. Si la cámara tiene varias calibraciones (`$CALIBRATION_SET`), Digi3D.AI lee la orientación interna, la focal, el punto principal y la distorsión de la que indica `$ACTIVE_CALIBRATION`, que es la que Inpho usó en la aerotriangulación.
+* **Cámara analógica** (`$KIND` igual a `FilmFrame`): la orientación interna se obtiene de `$INT_ORI` en la sección `$PHOTO` de la imagen.
+* **Cámara digital** (cualquier otro `$KIND`): la orientación interna se obtiene de `$CCD_INTERIOR_ORIENTATION`, y el tamaño de la imagen, de `$CCD_COLUMNS` y `$CCD_ROWS`. Si la cámara tiene varias calibraciones (`$CALIBRATION_SET`), Digi3D.AI lee la orientación interna, la focal, el punto principal y la distorsión de la calibración indicada por `$ACTIVE_CALIBRATION`, que es la que Inpho usó en la aerotriangulación.
 
 En los dos casos, Digi3D.AI lee la focal de `$FOCAL_LENGTH`, el punto principal de `$PRINCIPAL_POINT_PPS` o `$PRINCIPAL_POINT_PPA`, y el modelo de distorsión de `$DISTORTION_TYPE`. Solo lee los datos del bloque de la propia cámara, o del bloque de su calibración activa, hasta su `$END`:
 
@@ -41,7 +41,7 @@ Si la cámara digital tiene `$PIXEL_REFERENCE : CenterTopLeft`, su orientación 
 
 ### Convertir la cámara a .cam
 
-Para obtener un archivo `.cam` de Digi3D con la cámara de un proyecto de Inpho, usa **Convertir a .cam...** en el cuadro de diálogo [Editor de archivos de cámara](../../../../cuadros-de-dialogo/editor-archivos-camara.md#convertir-a-cam). El `.cam` sale de la calibración activa.
+Usa **Convertir a .cam...** en el cuadro de diálogo [Editor de archivos de cámara](../../../../cuadros-de-dialogo/editor-archivos-camara.md#convertir-a-cam) para obtener un archivo `.cam` de Digi3D con la cámara de un proyecto de Inpho. El archivo `.cam` se genera a partir de la calibración activa.
 
 ### Cámara no localizada
 

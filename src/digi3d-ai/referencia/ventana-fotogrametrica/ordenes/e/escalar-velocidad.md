@@ -17,7 +17,7 @@ Activa o desactiva el escalado de la velocidad de las manivelas en función del 
 
 ## Observaciones
 
-Con el escalado activado, el desplazamiento que produce cada pulso de las manivelas se divide por el factor de zoom: el cursor se mueve en pantalla a la misma velocidad con cualquier zoom. Con el escalado desactivado, cada pulso desplaza siempre la misma distancia en el modelo, sea cual sea el zoom.
+Con el escalado activado, el desplazamiento que produce cada pulso de las manivelas se divide por el factor de zoom: el cursor se mueve en pantalla a la misma velocidad con cualquier zoom. Con el escalado desactivado, cada pulso desplaza el cursor la misma distancia en el modelo, sea cual sea el zoom.
 
 El escalado está activado por defecto en cada ventana fotogramétrica que se abre. Se han detectado casos \(equipos con manivelas de pocos pulsos\) en los que al dibujar en modo continuo con zooms alejados las líneas se almacenaban "escalonadas" debido a la poca precisión del codificador. Desactivando el escalado desaparece ese efecto de escalonado en las líneas.
 

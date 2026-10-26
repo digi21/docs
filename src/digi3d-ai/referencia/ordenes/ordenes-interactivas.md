@@ -1,5 +1,5 @@
 # Órdenes interactivas
 <!-- id: ordenes-interactivas -->
 
-Son aquellas órdenes que requieren que el usuario interactúe con ellas, o digitalizando un punto con el dispositivo de entrada o introduciendo valores en cuadros de diálogo o ventanas.
+Estas órdenes requieren que digitalices un punto con el dispositivo de entrada o que introduzcas valores en cuadros de diálogo o ventanas.
 

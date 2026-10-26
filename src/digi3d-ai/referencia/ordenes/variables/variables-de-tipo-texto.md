@@ -5,13 +5,13 @@ Son variables que pueden almacenar textos.
 
 ## Parámetros
 
-Estas órdenes requieren que les pasemos por parámetro el valor a asignar.
+Pasa el valor como parámetro de la orden para asignar un valor a estas variables.
 
 ## Ejemplos
 
-La variable de tipo texto [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md) permite especificar el texto que se va a almacenar de manera automática al ejecutar la orden TEXTO si se ejecuta sin ningún parámetro pero la variable de tipo numérico AUTONUM tiene asignado un valor.
+La variable de tipo texto [FORMATO\_AUTONUM](/digi3d-ai/referencia/ventana-de-dibujo/variables/f/formato-autonum.md) permite especificar el texto que se va a almacenar de manera automática al ejecutar la orden TEXTO sin parámetros, si la variable numérica AUTONUM tiene asignado un valor.
 
-Si queremos por ejemplo digitalizar automáticamente la secuencia de textos _Hoja 1, Hoja 2, Hoja 3_, etc., ejecutaríamos la siguiente secuencia de comandos
+Ejecuta la siguiente secuencia de órdenes para digitalizar automáticamente la secuencia de textos _Hoja 1, Hoja 2, Hoja 3_, etc.:
 
 ```text
 FORMATO_AUTONUM="Hoja %d"

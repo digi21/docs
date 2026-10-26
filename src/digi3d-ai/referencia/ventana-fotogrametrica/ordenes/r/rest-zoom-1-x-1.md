@@ -1,7 +1,7 @@
 # REST\_ZOOM1X1
 <!-- id: rest-zoom-1-x-1 -->
 
-Muestra las imágenes que se visualizan en la pantalla estereoscópica con un factor de 1x.
+Muestra las imágenes de la ventana fotogramétrica con un factor de zoom de 1x.
 
 ## Parámetros
 

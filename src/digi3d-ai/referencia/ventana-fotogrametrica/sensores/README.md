@@ -3,9 +3,9 @@
 
 La ventana fotogramétrica puede mostrar modelos obtenidos con distintos sensores.
 
-Tienes que seleccionar el sensor con el que se han obtenido las imágenes o las nubes de puntos. Si el sensor con el que se han obtenido es una cámara Leica ADS100, tendrás que seleccionar el sensor `ADS`.
+Selecciona el sensor con el que se han obtenido las imágenes o las nubes de puntos. Si las imágenes se han obtenido con una cámara Leica ADS100, selecciona el sensor `ADS`.
 
-Cada sensor necesita un conjunto de datos distintos. La pestaña **Proyecto Fotogramétrico** del cuadro de diálogo **Nuevo Proyecto** adapta el interfaz de usuario en función del sensor seleccionado.
+Cada sensor necesita un conjunto de datos distinto. La pestaña **Proyecto Fotogramétrico** del cuadro de diálogo **Nuevo Proyecto** adapta la interfaz de usuario en función del sensor seleccionado.
 
 Hay sensores monoscópicos (muestran una única imagen), sensores estereoscópicos (muestran siempre un par de imágenes en estereoscopía) y sensores tri-estereoscópicos (que muestran siempre estereoscopía pero que te permiten seleccionar entre tres opciones para ver el modelo con más o menos sensación estereoscópica o con más o menos proyección).
 

@@ -23,7 +23,7 @@ El sensor Cónico puede obtener las calibraciones de cámara y las orientaciones
 
 ## Resumen de formatos
 
-La tabla indica, para cada extensión que lee orientaciones, el archivo que se selecciona como **Archivo de aerotriangulación** del modelo, si ese archivo contiene la calibración de la cámara y de dónde sale el sistema de referencia de coordenadas. «Cuadro» es el cuadro [¿Quieres asignar uno?](../sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-horizontal), que aparece si no hay ninguna de las fuentes anteriores. Si el archivo no contiene la cámara, indica un archivo de cámara en el modelo (consulta [Cámara](../README.md#cámara)).
+La tabla indica, para cada extensión que lee orientaciones, el archivo que se selecciona como **Archivo de aerotriangulación** del modelo, si ese archivo contiene la calibración de la cámara y de dónde se obtiene el sistema de referencia de coordenadas. «Cuadro» es el cuadro [¿Quieres asignar uno?](../sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-horizontal), que aparece si ninguna de las fuentes indicadas en la tabla proporciona el sistema de referencia de coordenadas. Si el archivo no contiene la cámara, indica un archivo de cámara en el modelo (consulta [Cámara](../README.md#cámara)).
 
 | Formato | Archivo de aerotriangulación | Cámara en el archivo | Sistema de referencia |
 |---|---|---|---|

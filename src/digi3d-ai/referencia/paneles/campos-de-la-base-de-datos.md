@@ -22,7 +22,7 @@ Cada fila es un campo de la tabla:
 
 Si se produce un error al leer los campos, el panel añade al panel [Tareas](tareas.md) un error «Error al mostrar los campos de la base de datos», muestra el panel Tareas y abre un cuadro de diálogo con el mensaje «Se ha detectado un error al intentar mostrar los campos de la base de datos.». La sección **Más información** de ese cuadro indica el código, la tabla, el identificador del registro, la tabla de códigos, el modelo de datos y la cadena de conexión.
 
-Al seleccionar un campo, la parte inferior del panel muestra su descripción, y el panel [Ayuda dinámica](ayuda-dinamica.md) muestra la descripción y la tabla de valores posibles, si la tiene.
+Al seleccionar un campo, la parte inferior del panel muestra la descripción del campo, y el panel [Ayuda dinámica](ayuda-dinamica.md) muestra la descripción y, si el campo tiene una lista de valores, la tabla de valores posibles.
 
 El nombre, la descripción, el valor por defecto y la lista de valores de cada campo se configuran en las [propiedades de los campos](../editor-de-tablas-de-codigos/pestanas/base-de-datos/propiedades-de-los-campos.md) de la tabla de códigos.
 
@@ -37,5 +37,5 @@ Los dos botones solo están habilitados si el panel muestra algún campo.
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Mediante la opción del menú **Ventana/Campos de la base de datos**.
-* Pulsando Alt+Mayús+B.
+* Selecciona la opción del menú **Ventana/Campos de la base de datos**.
+* Pulsa Alt+Mayús+B.

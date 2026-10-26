@@ -9,17 +9,17 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden lee la ruta del archivo de puntos del valor de registro `ArchivoPuntos`, el mismo que usa la pestaña [Sensores fotogramétricos](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo **Nuevo proyecto**. Si el valor está vacío o el archivo no existe, la orden muestra el cuadro de diálogo de Windows para abrir un archivo y guarda la ruta elegida en ese valor. Si se cancela, la orden termina con la música de error.
+La orden lee la ruta del archivo de puntos del valor de registro `ArchivoPuntos`, el mismo que usa la pestaña [Sensores fotogramétricos](/digi3d-ai/referencia/cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo **Nuevo proyecto**. Si el valor está vacío o el archivo no existe, la orden muestra el cuadro de diálogo de Windows para abrir un archivo y guarda la ruta elegida en ese valor. Si cancelas el cuadro de diálogo para abrir un archivo, la orden termina con la música de error.
 
-Después la orden solicita el punto en el cuadro de diálogo **Selecciona el punto de apoyo al que desplazar la ventana fotogramétrica**.
+Después de leer o seleccionar el archivo de puntos de apoyo, la orden solicita el punto en el cuadro de diálogo **Selecciona el punto de apoyo al que desplazar la ventana fotogramétrica**.
 
 ![Cuadro de diálogo Selecciona el punto de apoyo al que desplazar la ventana fotogramétrica](../../../../../images/ir-a-punto-apoyo.png)
 
 * **Archivo de puntos de apoyo**: ruta del archivo cargado. El botón **...** abre el cuadro de diálogo **Selecciona archivo de puntos de apoyo** para cargar otro archivo, y guarda la ruta elegida en el valor `ArchivoPuntos`.
 * **Escribe el nombre del punto de apoyo o selecciónalo en la lista**: al escribir, la lista selecciona el punto que se llama exactamente así o, si no hay ninguno, el primero cuyo nombre empieza por el texto escrito. No distingue mayúsculas de minúsculas. Si ningún nombre empieza por el texto, la lista se queda sin selección.
-* Lista de puntos: columnas **Punto**, **X**, **Y**, **Z** y **Descripción**. Cada línea del archivo con al menos cuatro datos \(nombre, X, Y y Z\) es un punto; el resto de la línea, si existe, es la descripción. Las demás líneas se ignoran.
+* La lista de puntos muestra las columnas **Punto**, **X**, **Y**, **Z** y **Descripción**. Cada línea del archivo con al menos cuatro datos \(nombre, X, Y y Z\) es un punto; el resto de la línea, si existe, es la descripción. Las demás líneas se ignoran.
 
-Al abrirse, el cuadro de diálogo tiene el foco en el campo del nombre. Para ir a un punto, escribe su nombre o selecciónalo en la lista y pulsa **Aceptar** o **Intro**, o haz doble clic sobre él. Si no hay ningún punto seleccionado, suena un aviso y el cuadro de diálogo sigue abierto.
+Al abrirse, el cuadro de diálogo de selección del punto de apoyo tiene el foco en el campo del nombre. Escribe el nombre del punto o selecciona el punto en la lista y pulsa **Aceptar** o **Intro** para desplazar la ventana fotogramétrica al punto. También puedes hacer doble clic sobre el punto en la lista. Si no hay ningún punto seleccionado, suena un aviso y el cuadro de diálogo sigue abierto.
 
 La orden mueve el restituidor a las coordenadas terreno del punto y suena un pitido. Si se cancela el cuadro de diálogo, la orden termina con la música de error.
 

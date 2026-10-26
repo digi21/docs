@@ -28,14 +28,14 @@ cabe en una tarjeta gráfica de 16 GB o más.
 1. Abre la pestaña **Discover** (icono de la lupa, en la barra lateral izquierda).
 2. Busca `gpt-oss-20b`.
 3. Elige el modelo de **openai** con la cuantización **MXFP4**. La cuantización es el formato en que se
-   guarda el modelo; MXFP4 es el original de gpt-oss-20b.
+   guarda el modelo; MXFP4 es el formato original de gpt-oss-20b.
 4. Comprueba que el modelo tiene la etiqueta de uso de herramientas (*Tool use*). Un modelo sin esa
    etiqueta responde con código en lugar de trabajar sobre el dibujo.
 5. Pulsa **Download** y espera a que termine la descarga.
 
 ## 3. Configurar el contexto del modelo
 
-Configura el contexto como valor por omisión del modelo, para no tener que repetirlo en cada carga:
+Configura el contexto como valor por omisión del modelo para no tener que repetir el ajuste en cada carga:
 
 1. Abre la pestaña **My Models** (icono de la carpeta, en la barra lateral izquierda).
 2. Pulsa el engranaje **⚙** junto a `gpt-oss-20b`.
@@ -44,7 +44,7 @@ Configura el contexto como valor por omisión del modelo, para no tener que repe
    | Parámetro | Valor | Motivo |
    |---|---|---|
    | **Context Length** | `32768` o más | Las instrucciones del asistente ocupan unos 22.000 *tokens*. |
-   | **GPU Offload** | Deslizador a la derecha del todo | Todas las capas del modelo en la tarjeta gráfica: máxima velocidad. |
+   | **GPU Offload** | Deslizador a la derecha del todo | LM Studio ejecuta todas las capas del modelo en la tarjeta gráfica. |
    | **Flash Attention** | Activado | Calcula la atención del modelo por bloques: el mismo resultado con menos memoria y más rápido en contextos largos. |
 
 Si ya tenías el modelo cargado, los cambios no se aplican hasta que lo expulsas (**Eject**) y lo

@@ -3,11 +3,11 @@
 
 Digi3D.AI almacena las órdenes en una pila.
 
-Cuando ejecutamos una orden, Digi3D.AI almacena dicha orden en la parte superior de la pila de órdenes. Una vez finaliza esta orden, la quita de la pila de órdenes. Cuando la pila está vacía, el programa se considera en [modo preparado](formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md).
+Cuando ejecutas una orden, Digi3D.AI la almacena en la parte superior de la pila de órdenes. Cuando la orden finaliza, Digi3D.AI quita la orden de la pila. Cuando la pila está vacía, el programa se considera en [modo preparado](formas-de-ejecutar-una-orden/de-manera-automatica/modo-preparado.md).
 
-Podemos pensar en la pila de órdenes como una pila de platos: Si ponemos primero un plato blanco, encima de este uno amarillo y encima de este uno rojo, al desapilar, quitaremos primero el rojo, luego el amarillo y por último el blanco.
+Las órdenes se retiran de la pila en orden inverso al de su ejecución. Si ejecutas una primera orden, después una segunda y, por último, una tercera, al desapilar se retira primero la tercera, después la segunda y, por último, la primera.
 
-Si se está ejecutando una orden y antes de finalizarla ejecutamos otra, la segunda se apilará sobre la primera. Cuando finalicemos la segunda podremos continuar con la primera.
+Si ejecutas otra orden antes de que finalice la orden en curso, la nueva orden se apila sobre la anterior. Cuando finaliza la nueva orden, puedes continuar con la orden interrumpida.
 
 ## Vídeo
 

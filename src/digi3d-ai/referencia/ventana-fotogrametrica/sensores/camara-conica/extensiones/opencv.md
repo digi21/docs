@@ -1,7 +1,7 @@
 # OpenCV
 <!-- id: opencv -->
 
-La extensión **OpenCV** lee calibraciones de cámara en el formato de OpenCV: matriz de la cámara y coeficientes de distorsión, en archivos de texto `.cocv`. Solo proporciona la cámara: las orientaciones exteriores salen de otra extensión.
+La extensión **OpenCV** lee calibraciones de cámara en el formato de OpenCV: matriz de la cámara y coeficientes de distorsión, en archivos de texto `.cocv`. La extensión OpenCV proporciona únicamente la cámara; otra extensión proporciona las orientaciones exteriores.
 
 En el cuadro de selección de cámara, el tipo es **Archivos de calibración de cámaras OpenCV** (`*.cocv`).
 

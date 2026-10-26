@@ -54,7 +54,7 @@ Cuanto mayor sea este valor, más rápido será el proceso, pero más lentas se 
 
 ## Resultados
 
-Debajo de **Hilos de ejecución**, el cuadro de texto muestra el nivel piramidal que se está creando y los errores y advertencias de la lectura de los archivos TIFF, y la barra de progreso el avance del nivel en curso.
+Debajo de **Hilos de ejecución**, el cuadro de texto muestra el nivel piramidal que se está creando y los errores y advertencias de la lectura de los archivos TIFF (Tag Image File Format, formato de archivo de imagen con etiquetas). La barra de progreso muestra el avance del nivel en curso.
 
 ## Aceptar
 

@@ -5,11 +5,11 @@ Son variables que pueden tener dos valores: verdadero/falso.
 
 ## Parámetros
 
-Podemos ejecutar una orden de tipo variable booleana de dos maneras: sin parámetros y con parámetros.
+Puedes ejecutar una orden de tipo variable booleana de dos maneras: sin parámetros y con parámetros.
 
 ### Sin parámetros
 
-Si ejecutamos una orden de tipo variable booleana sin parámetros, la variable cambiará su valor activo, por el contrario.
+Si ejecutas una orden de tipo variable booleana sin parámetros, el programa invierte el valor de la variable.
 
 ### Con parámetros
 
@@ -23,35 +23,35 @@ Las órdenes de tipo variable booleana admiten los siguientes parámetros:
 
 ## Ejemplos
 
-La orden de tipo variable booleana [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) hace que el programa haga sonar un sonido cuando se introduce un dato con el dispositivo de entrada o cuando se localiza un error.
+La orden de tipo variable booleana [PITA](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) controla si el programa emite un sonido al introducir un dato con el dispositivo de entrada o al localizar un error.
 
-Si el valor de _PITA_ es _Verdadero_ y ejecutamos el siguiente comando:
-
-```text
-PITA
-```
-
-Su valor pasará a _Falso_, y si ahora volvemos a ejecutar el comando:
+Si el valor de _PITA_ es _Verdadero_ y ejecutas la siguiente orden:
 
 ```text
 PITA
 ```
 
-Su valor pasará otra vez a _Verdadero_.
+El valor de _PITA_ pasará a _Falso_. Si vuelves a ejecutar la orden PITA sin parámetros:
 
-Para forzar a que la variable booleana _PITA_ tenga el valor _Verdadero_, ejecutaremos el siguiente comando:
+```text
+PITA
+```
+
+El valor de _PITA_ volverá a _Verdadero_.
+
+Ejecuta la siguiente orden para asignar el valor _Verdadero_ a la variable booleana _PITA_:
 
 ```text
 PITA=1
 ```
 
-Para forzar a que la variable booleana _PITA_ tenga el valor _Falso_, ejecutaremos el siguiente comando:
+Ejecuta la siguiente orden para asignar el valor _Falso_ a la variable booleana _PITA_:
 
 ```text
 PITA=0
 ```
 
-Para hacer que la variable booleana PITA nos muestre su valor en un globo, ejecutaremos el siguiente comando:
+Ejecuta la siguiente orden para consultar el valor de la variable booleana PITA en un globo:
 
 ```text
 PITA=?

@@ -17,5 +17,5 @@ La parte inferior del panel muestra la descripción de la orden seleccionada.
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
-* Mediante la opción del menú **Ventana/Otras ventanas/Propiedades**.
+* Pulsa el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
+* Selecciona la opción del menú **Ventana/Otras ventanas/Propiedades**.

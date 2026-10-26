@@ -50,13 +50,13 @@ ollama list
 ## 3. Ampliar el contexto
 
 Digi3D.AI se comunica con Ollama por la API compatible con OpenAI, y esa API no permite indicar el
-tamaño del contexto en cada petición: Ollama usa su valor por omisión. Hay que ampliarlo de una de
+tamaño del contexto en cada petición: Ollama usa el tamaño de contexto por omisión. Amplía el contexto de una de
 estas dos formas.
 
 **Desde la aplicación de Ollama:**
 
 1. Pulsa con el botón derecho en el icono de Ollama de la bandeja del sistema y abre **Settings**.
-2. Sube **Context length** a `32768` o más.
+2. Aumenta **Context length** a `32768` *tokens* o más.
 
 **Con una variable de entorno**, si tu versión de Ollama no tiene esa opción:
 
@@ -135,7 +135,7 @@ puerto solo a la red interna.
 
 ## Comandos útiles
 
-| Comando | Qué hace |
+| Orden | Qué hace |
 |---|---|
 | `ollama pull gpt-oss:20b` | Descarga un modelo. Los nombres de los modelos están en [ollama.com/library](https://ollama.com/library). |
 | `ollama list` | Lista los modelos descargados. |

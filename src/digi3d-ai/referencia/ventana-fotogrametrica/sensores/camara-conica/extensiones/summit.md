@@ -22,7 +22,7 @@ Del nodo `ImageInfo` de cada imagen, Digi3D.AI lee:
 * `Exterior/AngleUnits`: con `RADIANS`, los giros están en radianes; con cualquier otro valor, en grados sexagesimales.
 * `Rotation`: giro de la imagen en grados (0, 90, 180 o 270). Digi3D.AI aplica este giro a la imagen al cargarla y lo tiene en cuenta al crear la cámara.
 
-La altura media del terreno sale del atributo `AveZ` de `/SummitProject/ProjectZ`, o es 0 si el atributo no existe.
+Digi3D.AI obtiene la altura media del terreno del atributo `AveZ` de `/SummitProject/ProjectZ`, en las mismas unidades que la coordenada Z del centro de proyección. Si el atributo `AveZ` no existe, Digi3D.AI asigna a la altura media del terreno el valor 0 en esas unidades.
 
 ## Cámara
 

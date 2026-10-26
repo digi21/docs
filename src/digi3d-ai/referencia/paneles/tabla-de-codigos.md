@@ -24,4 +24,4 @@ Los botones solo están habilitados si hay una ventana de dibujo abierta.
 
 ## Mostrar el panel
 
-Se puede mostrar el panel mediante la opción del menú **Ventana/Tabla de códigos**.
+Selecciona la opción del menú **Ventana/Tabla de códigos** para mostrar el panel.

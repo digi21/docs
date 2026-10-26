@@ -14,5 +14,5 @@ Existen tres tipos de órdenes:
 Puedes aprender a ejecutar órdenes en [Formas de ejecutar una orden](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/).  
 Puedes aprender a finalizar una orden en [Formas de cancelar una orden](/digi3d-ai/referencia/ordenes/formas-de-cancelar-una-orden.md).
 
-Digi3D.AI dispone de una pila de órdenes que te puede resultar útil para interrumpir la orden activa para ejecutar otra orden y luego continuar con la que estaba. Puedes aprender más sobre esta funcionalidad en [Apilar y desapilar órdenes](/digi3d-ai/referencia/ordenes/apilar-y-desapilar-ordenes.md).
+La pila de órdenes de Digi3D.AI permite interrumpir la orden activa, ejecutar otra orden y continuar con la orden interrumpida cuando termine la segunda. Consulta el funcionamiento de la pila en [Apilar y desapilar órdenes](/digi3d-ai/referencia/ordenes/apilar-y-desapilar-ordenes.md).
 

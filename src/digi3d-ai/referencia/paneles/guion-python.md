@@ -18,7 +18,7 @@ Este panel es un editor de guiones de Python con resaltado de sintaxis. El guion
 
 ## Mostrar el panel
 
-Se puede mostrar el panel mediante la opción del menú **Ventana/Guion Python**.
+Selecciona la opción del menú **Ventana/Guion Python** para mostrar el panel.
 
 El panel solo existe si el valor de registro `CrearPanelPython` es distinto de 0. Por defecto vale 1.
 

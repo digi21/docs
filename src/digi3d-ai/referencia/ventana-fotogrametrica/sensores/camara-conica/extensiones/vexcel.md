@@ -1,7 +1,7 @@
 # Vexcel
 <!-- id: vexcel -->
 
-La extensión **Vexcel** lee la calibración de la cámara de la cabecera de las imágenes TIFF de las cámaras UltraCam de Vexcel. Solo proporciona la cámara: las orientaciones exteriores salen de otra extensión, por ejemplo [IMU](imu.md).
+La extensión **Vexcel** lee la calibración de la cámara de la cabecera de las imágenes TIFF (Tag Image File Format, formato de archivo de imagen con etiquetas) de las cámaras UltraCam de Vexcel. La extensión Vexcel proporciona únicamente la cámara; otra extensión proporciona las orientaciones exteriores, por ejemplo [IMU](imu.md).
 
 ## Qué lee
 

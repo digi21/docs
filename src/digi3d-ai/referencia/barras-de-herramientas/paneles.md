@@ -3,4 +3,4 @@
 
 ![Barra de herramientas Paneles](../../../images/paneles.png)
 
-Permite abrir los distintos paneles acoplables del programa
+La barra de herramientas Paneles permite abrir los distintos paneles acoplables del programa.

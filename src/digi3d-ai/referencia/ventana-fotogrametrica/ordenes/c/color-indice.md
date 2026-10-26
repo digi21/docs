@@ -19,11 +19,11 @@ Sin parámetros, la orden muestra el cuadro de diálogo de selección de color. 
 
 ## Observaciones
 
-Al ejecutar la orden sin parámetros aparecerá la siguiente ventana en la cual el usuario podrá seleccionar el color:
+Al ejecutar la orden sin parámetros, aparece el cuadro de diálogo en el que puedes seleccionar el color:
 
 ![](../../../../../images/color_indice.jpg)
 
-Pulsar **Aceptar** o Intro aplica los valores escritos en los cuadros R, G y B, sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
+Pulsa **Aceptar** o Intro para aplicar los valores escritos en los cuadros R (rojo), G (verde) y B (azul), sin necesidad de hacer clic en el color. El cuadro del valor hexadecimal es de solo lectura.
 
 El color elegido se aplica a los dos índices.
 

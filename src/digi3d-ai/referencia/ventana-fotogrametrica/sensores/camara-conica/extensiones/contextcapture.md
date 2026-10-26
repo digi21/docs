@@ -26,8 +26,8 @@ El archivo contiene la calibración de la cámara. Si el modelo no tiene archivo
 Para cada imagen, Digi3D.AI lee el centro de proyección de `Pose/Center` (`x`, `y`, `z`) y los giros de `Pose/Rotation`:
 
 * Si existe `Pose/Rotation/Omega`, lee `Omega`, `Phi` y `Kappa` en grados sexagesimales y construye la matriz de rotación con el orden omega, phi, kappa.
-* Si no, lee la matriz de rotación de `M_00` a `M_22`.
+* Si no existe el nodo `Pose/Rotation/Omega`, Digi3D.AI lee la matriz de rotación de `M_00` a `M_22`.
 
 ## Sistema de referencia de coordenadas
 
-La extensión usa el sistema de `SpatialReferenceSystems/SRS/Definition`, el primer nodo `SRS` del archivo. Si no existe, Digi3D.AI muestra el mensaje «No se ha localizado el nodo SpatialReferenceSystems/SRS/Definition en el archivo de ContextCapture». No lee archivos `.prj` ni muestra los cuadros de [Modelo sin sistema de referencia de coordenadas](../sistema-de-referencia-del-modelo.md), tampoco si el sistema no tiene componente vertical.
+La extensión usa el sistema de `SpatialReferenceSystems/SRS/Definition` del primer nodo `SRS` del archivo. Si el archivo no contiene el nodo `SpatialReferenceSystems/SRS/Definition`, Digi3D.AI muestra el mensaje «No se ha localizado el nodo SpatialReferenceSystems/SRS/Definition en el archivo de ContextCapture». No lee archivos `.prj` ni muestra los cuadros de [Modelo sin sistema de referencia de coordenadas](../sistema-de-referencia-del-modelo.md), tampoco si el sistema no tiene componente vertical.

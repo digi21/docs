@@ -1,7 +1,7 @@
 # RapidCal
 <!-- id: rapidcal -->
 
-La extensión **RapidCal** lee calibraciones de cámara de los archivos `.cal` de RapidCal. Solo proporciona la cámara: las orientaciones exteriores salen de otra extensión.
+La extensión **RapidCal** lee calibraciones de cámara de los archivos `.cal` de RapidCal. La extensión RapidCal proporciona únicamente la cámara; otra extensión proporciona las orientaciones exteriores.
 
 En el cuadro de selección de cámara, el tipo es **Archivos de cámara RapidCal** (`*.cal`). La extensión solo lee archivos con extensión `.cal` indicados como archivo de cámara del modelo o seleccionados cuando Digi3D.AI pide la cámara (consulta [Cámara](../README.md#cámara)).
 

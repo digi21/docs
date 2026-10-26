@@ -7,7 +7,7 @@ Permite crear archivos de proyecto fotogramétrico, así como cargar archivos de
 
 Una vez cargado un proyecto fotogramétrico, el contenido principal muestra un árbol con tantas ramas como pasadas se enumeren en el archivo de proyecto fotogramétrico y con tantas hojas como modelos existan en el proyecto.
 
-Al pulsar sobre un modelo se creará una ventana fotogramétrica mostrando dicho modelo o en caso de tener ya abierta una ventana fotogramétrica, se cambiará el modelo por el seleccionado.
+Al pulsar sobre un modelo, el programa abre una ventana fotogramétrica con ese modelo. Si ya hay una ventana fotogramétrica abierta, el programa muestra el modelo seleccionado en esa ventana.
 
 Si el proyecto es de fotos y no de modelos, el panel muestra dos listas con las mismas fotos: la izquierda y la derecha. Al seleccionar una foto en cada lista se carga el modelo formado por las dos fotos.
 
@@ -67,5 +67,5 @@ Los botones de las flechas solo están habilitados cuando hay un proyecto fotogr
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
-* Mediante la opción del menú **Ventana/Proyecto fotogramétrico**.
+* Pulsa el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
+* Selecciona la opción del menú **Ventana/Proyecto fotogramétrico**.

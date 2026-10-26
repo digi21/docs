@@ -37,11 +37,11 @@ La opción **Reiniciar** del menú ejecuta `VELOCIDAD=1.0 1.0`.
 
 `VELOCIDAD=5.75`
 
-Establece la velocidad de XY y Z a 5.75
+La orden establece en 5.75 los factores que multiplican los desplazamientos en el plano XY y en el eje Z.
 
 `VELOCIDAD=5.75 4.22`
 
-Establece la velocidad de XY a 5.75 y la de Z a 4.22
+La orden establece en 5.75 el factor que multiplica los desplazamientos en el plano XY y en 4.22 el factor que multiplica los desplazamientos en el eje Z.
 
 ## Características de la orden
 

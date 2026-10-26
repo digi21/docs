@@ -12,7 +12,7 @@ No admite parámetros.
 La orden muestra un globo o un mensaje de error y termina en estos casos:
 
 * Se está ejecutando otra orden de orientación.
-* El modelo tiene una orientación absoluta. Para remedir la relativa hay que eliminar antes el archivo de orientación absoluta.
+* El modelo tiene una orientación absoluta. Para volver a medir la orientación relativa, elimina primero el archivo de orientación absoluta.
 * La orientación relativa actual no es modificable.
 * No se ha indicado el archivo de esquemas de Von Gruber en la opción **Esquemas** de la categoría **Orientación relativa** de la configuración, o el archivo tiene un error de formato.
 
@@ -27,11 +27,11 @@ Cada punto se mide en dos pasos, como indica el texto de la parte inferior del p
 1. Digitaliza el punto en la imagen izquierda. Digi3D.AI bloquea la imagen izquierda y busca por correlación el punto homólogo en la imagen derecha.
 2. Digitaliza el punto homólogo en la imagen derecha. Pulsa **Esc** para volver al primer paso de ese punto.
 
-Digi3D.AI calcula la orientación relativa cuando hay tantos puntos medidos como indica la opción **Puntos para calcular** de la configuración (5 por omisión), y la vuelve a calcular con cada punto nuevo. Con un solo punto medido ajusta una orientación provisional que elimina la paralaje en ese punto.
+Digi3D.AI calcula la orientación relativa cuando hay tantos puntos medidos como indica la opción **Puntos para calcular** de la configuración (5 por omisión), y vuelve a calcular la orientación relativa con cada punto nuevo. Con un solo punto medido ajusta una orientación provisional que elimina el paralaje en ese punto.
 
-* **Esquema**: esquema de Von Gruber con las posiciones aproximadas de los puntos que se piden. Los esquemas se leen del archivo de esquemas. Digi3D.AI recuerda el esquema elegido. Al cambiarlo se borran los puntos medidos. Está deshabilitado si el modelo ya tenía una orientación relativa calculada.
-* **Vista extendida**: añade a la lista las coordenadas foto de cada punto en la imagen izquierda (**xl**, **yl**) y en la derecha (**xr**, **yr**) y sus coordenadas modelo (**Xmod**, **Ymod**, **Zmod**). Digi3D.AI recuerda su estado.
-* **Lista de puntos**: el número de cada punto (**N**), sus residuos en la imagen izquierda (**vXL**, **vYL**) y en la derecha (**vXR**, **vYR**) y la paralaje en Y (**py**). Los residuos y la paralaje están multiplicados por 1000, como indica el texto **Unidades de residuos y paralaje x1000**. Al hacer clic en un punto, el cursor va a él. Si la opción **Auto remedir** de la configuración está activa, además se empieza a remedir el punto.
+* **Esquema**: esquema de Von Gruber con las posiciones aproximadas de los puntos que se piden. Los esquemas se leen del archivo de esquemas. Digi3D.AI recuerda el esquema elegido. Al cambiar el esquema, se borran los puntos medidos. El control **Esquema** está deshabilitado si el modelo ya tenía una orientación relativa calculada.
+* **Vista extendida**: añade a la lista las fotocoordenadas de cada punto en la imagen izquierda (**xl**, **yl**) y en la derecha (**xr**, **yr**) y sus coordenadas en el modelo (**Xmod**, **Ymod**, **Zmod**). Digi3D.AI recuerda si **Vista extendida** está activada.
+* **Lista de puntos**: muestra el número de cada punto (**N**), sus residuos en la imagen izquierda (**vXL**, **vYL**) y en la derecha (**vXR**, **vYR**) y el paralaje en Y (**py**). Los residuos y el paralaje están multiplicados por 1000, como indica el texto **Unidades de residuos y paralaje x1000**. Al hacer clic en un punto, el cursor se desplaza al punto seleccionado. Si la opción **Auto remedir** de la configuración está activa, Digi3D.AI también inicia la nueva medición del punto seleccionado.
 * **Desviación estándar**: desviación estándar de la orientación relativa, multiplicada por 1000.
 * **Correlar todo**: abre el cuadro de diálogo [Orientación relativa automática por correlación](/digi3d-ai/referencia/cuadros-de-dialogo/orientacion-relativa-automatica-por-correlacion.md), que mide los puntos por correlación. Al terminar, la lista contiene los puntos correlados que intervienen en el cálculo.
 * **Remedir todo**: borra los puntos medidos y vuelve a pedirlos desde el primero.
@@ -41,7 +41,7 @@ Digi3D.AI calcula la orientación relativa cuando hay tantos puntos medidos como
 * **Remedir punto**: vuelve a medir el punto seleccionado. Necesita que estén medidos todos los puntos.
 * **Desbloquear**: mientras se mide un punto, vuelve al paso anterior y desbloquea la imagen izquierda. Equivale a **Esc**.
 * **Aceptar**: guarda la orientación relativa en el archivo de orientación relativa del modelo y termina la orden. Está habilitado cuando hay puntos suficientes para calcularla. También se ejecuta con **Ctrl+Intro**.
-* **Cancelar**: termina la orden y el modelo conserva la orientación relativa que tenía.
+* **Cancelar**: termina la orden y el modelo conserva la orientación relativa que tenía al ejecutar la orden.
 
 ### Teclas
 

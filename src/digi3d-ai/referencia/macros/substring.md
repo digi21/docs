@@ -10,7 +10,7 @@ Devuelve _Cantidad_ caracteres desde la posición _Inicio_ de la macro sobre la 
 ## Parámetros
 
 `inicio`\
-Posición del origen de la sub-cadena a devolver (la posición del primer carácter es 0)
+Posición inicial de la subcadena que se devolverá (la posición del primer carácter es 0).
 
 `cantidad`\
 Cantidad de caracteres a devolver.
@@ -21,7 +21,7 @@ Los _Cantidad_ caracteres comenzando por la posición _Inicio_.
 
 ## Ejemplo
 
-Supongamos que la macro `$(CodigoCentroide)` se va a sustituir por el texto: 020400.
+Por ejemplo, si la macro `$(CodigoCentroide)` se sustituye por el texto 020400:
 
-Si queremos obtener el texto: 2040 podemos hacerlo con la llamada `$(CodigoCentroide).Substring(1, 4)`
+Utiliza la llamada `$(CodigoCentroide).Substring(1, 4)` para obtener el texto 2040.
 

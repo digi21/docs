@@ -34,8 +34,8 @@ Si no hay ninguna ventana de dibujo abierta, al pulsar una opción aparece el me
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
-* Mediante la opción del menú **Ventana/Cuadro de herramientas**.
+* Pulsa el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
+* Selecciona la opción del menú **Ventana/Cuadro de herramientas**.
 
 ## Configuración del cuadro de herramientas
 

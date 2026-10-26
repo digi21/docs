@@ -19,7 +19,7 @@ en la web de cada proveedor antes de empezar.
    al proveedor la lista de modelos disponibles para tu cuenta.
 5. Elige el modelo en el desplegable **Modelo**.
 6. Escribe una de las [peticiones de ejemplo](README.md#ejemplos-de-peticiones) para comprobar que
-   funciona.
+   el proveedor funciona.
 
 ## Claude (Anthropic)
 

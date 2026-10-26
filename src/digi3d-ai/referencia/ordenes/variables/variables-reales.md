@@ -5,13 +5,13 @@ Son variables que pueden almacenar un número real \(con decimales\).
 
 ## Parámetros
 
-Estas órdenes requieren que les pasemos por parámetro el valor a asignar.
+Pasa el valor como parámetro de la orden para asignar un valor a estas variables.
 
 ## Ejemplos
 
-La orden de tipo variable real:[ AT](../../ventana-de-dibujo/variables/a/at.md) configura la altura de los textos que se van a dibujar con la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md).
+La orden de tipo variable real [ AT](../../ventana-de-dibujo/variables/a/at.md) configura la altura de los textos que se van a dibujar con la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md).
 
-Si queremos asignar una altura de 1.25 ejecutaremos la siguiente orden:
+Ejecuta la siguiente orden para asignar una altura de 1.25 unidades de longitud de trabajo del dibujo:
 
 ```text
 AT=1.25

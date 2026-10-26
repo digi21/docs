@@ -63,7 +63,7 @@ En el panel [Proyecto fotogramétrico](../../../../paneles/proyecto-fotogrametri
 * Digi3D.AI lee las cámaras y las orientaciones del archivo `.els` con el mismo nombre que el `.esp`, en su misma carpeta.
 * Las imágenes son los archivos *nombre*`.tif` de la carpeta del `.esp`. Si alguno de los dos no existe, el modelo no se puede cargar.
 * Todos los modelos forman una sola pasada con el nombre del archivo `.esp`. Cada modelo se llama *izquierda*`-`*derecha*.
-* El sistema de referencia sale del `.prj` con el mismo nombre que el `.esp` o, si no existe, del cuadro [¿Quieres asignar uno?](../sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-horizontal).
+* El sistema de referencia se obtiene del `.prj` con el mismo nombre que el `.esp` o, si no existe ese archivo `.prj`, del cuadro [¿Quieres asignar uno?](../sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-horizontal).
 
 ## Mensajes de error
 

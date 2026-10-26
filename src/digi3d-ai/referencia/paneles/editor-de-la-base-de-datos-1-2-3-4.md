@@ -29,6 +29,6 @@ Las tablas y los registros que se muestran dependen de la opción [Tablas/Regist
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
-* Mediante las opciones del menú **Base de datos/Editor de la base de datos 1** a **Base de datos/Editor de la base de datos 4**.
-* Pulsando Alt+Mayús+E, que muestra el panel **Editor de la base de datos 1**.
+* Pulsa el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
+* Selecciona una de las opciones del menú **Base de datos/Editor de la base de datos 1** a **Base de datos/Editor de la base de datos 4**.
+* Pulsa Alt+Mayús+E, que muestra el panel **Editor de la base de datos 1**.

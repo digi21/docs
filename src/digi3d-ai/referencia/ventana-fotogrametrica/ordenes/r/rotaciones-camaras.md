@@ -21,9 +21,9 @@ Si pulsas **Cancelar**, las imágenes vuelven a los ángulos que tenían al ejec
 
 Si el modelo cargado es monoscópico, los controles de la cámara derecha aparecen deshabilitados y los de la cámara izquierda giran la única imagen.
 
-Si el sensor está proyectando las imágenes, la orden no abre el cuadro de diálogo: muestra un globo que indica que en ese modo las imágenes no se pueden girar a mano, porque el sensor las gira a la dirección de la base para que la paralaje quede horizontal. En ese caso la opción del menú aparece deshabilitada.
+Si el sensor está proyectando las imágenes, la orden ROTACIONES_CAMARAS no abre el cuadro de diálogo: muestra un globo que indica que las imágenes no se pueden girar manualmente mientras el sensor las proyecta, porque el sensor las gira a la dirección de la base para que el paralaje quede horizontal. Mientras el sensor proyecta las imágenes, la opción del menú aparece deshabilitada.
 
-El sensor de cámara cónica guarda los ángulos de la cámara izquierda y de la cámara derecha en el archivo del modelo, de manera que al volver a cargar ese modelo las imágenes mantienen el giro. No guarda un giro que coincida con el de una rectificación epipolar, porque ese lo calcula el sensor.
+El sensor de cámara cónica guarda los ángulos de la cámara izquierda y de la cámara derecha en el archivo del modelo, de manera que al volver a cargar ese modelo las imágenes mantienen el giro. El sensor de cámara cónica no guarda un giro que coincida con el de una rectificación epipolar, porque el sensor calcula el giro de la rectificación epipolar.
 
 ## Características de la orden
 

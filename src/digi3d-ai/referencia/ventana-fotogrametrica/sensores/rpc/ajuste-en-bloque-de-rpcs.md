@@ -5,7 +5,7 @@
 
 El panel **Ajuste en bloque de RPCs** calcula una corrección de los coeficientes RPC de las dos imágenes del modelo a partir de puntos de apoyo medidos en estereoscopía (ajuste RPCBA, *RPC Block Adjustment*). La corrección compensa desplazamientos y deformaciones afines de las coordenadas imagen.
 
-Para abrirlo, selecciona la opción **Ventana fotogramétrica/Ajuste en bloque de RPCs**. La opción solo funciona si:
+Selecciona la opción **Ventana fotogramétrica/Ajuste en bloque de RPCs** para abrir el panel. La opción solo funciona si:
 
 * El sensor activo es el sensor [Satélite RPC](README.md) estereoscópico.
 * No hay otra orden de ajuste en bloque de RPCs en ejecución.
@@ -21,7 +21,7 @@ Si no se cumple alguna condición, Digi3D.AI muestra un mensaje y la orden termi
 
 ## Archivo de puntos
 
-Archivo de texto con un punto por línea: nombre, X, Y, Z y, opcionalmente, una descripción, separados por espacios. Las líneas con menos de cuatro campos se ignoran. Los nombres de los puntos distinguen mayúsculas: P1 y p1 son dos puntos distintos. Solo se cargan los puntos cuya proyección cae dentro de las dos imágenes.
+El archivo de puntos es un archivo de texto con un punto por línea: nombre, X, Y, Z y, opcionalmente, una descripción, separados por espacios. Las líneas con menos de cuatro campos se ignoran. Los nombres de los puntos distinguen mayúsculas: P1 y p1 son dos puntos distintos. Solo se cargan los puntos cuya proyección cae dentro de las dos imágenes.
 
 El campo **Archivo de puntos** muestra la ruta del archivo cargado. El botón **...** permite elegir otro archivo (`.xyz`, `.pnt`, `.ctl` o `.txt`): la lista pasa a contener los puntos del archivo nuevo y las medidas de los puntos con el mismo nombre se conservan. Las medidas de los puntos que no están en el archivo nuevo se siguen guardando en el archivo `.rpcba`, pero no entran en el ajuste. Si el archivo no se puede abrir, se mantiene el anterior.
 
@@ -53,7 +53,7 @@ El ajuste se calcula cuando el número de puntos medidos alcanza el valor de [N�
 | Botón | Acción |
 |---|---|
 | **Saltar (Esc)** | Deselecciona el punto que se está midiendo. Durante **Eliminar paralaje**, cancela la eliminación. Equivale a pulsar la tecla **Esc**. |
-| **Eliminar paralaje** | Desplaza los RPC de la imagen derecha para eliminar el paralaje en un punto. Digitaliza un punto: Digi3D.AI bloquea la imagen izquierda en esa posición. Digitaliza después el mismo punto en la imagen derecha: la diferencia de fila y de columna entre las dos pulsaciones se suma a la corrección de la imagen derecha. La barra de estado indica qué imagen hay que digitalizar. La corrección se mantiene hasta que se recalcula el ajuste: al medir, desmedir, quitar o saltar un punto, o al cambiar de archivo de puntos. Si se pulsa **Aceptar** antes, se guarda con el ajuste. |
+| **Eliminar paralaje** | Desplaza los RPC de la imagen derecha para eliminar el paralaje en un punto. Digitaliza un punto: Digi3D.AI bloquea la imagen izquierda en esa posición. Digitaliza el mismo punto en la imagen derecha después de digitalizarlo en la imagen izquierda: la diferencia de fila y de columna entre las dos pulsaciones se suma a la corrección de la imagen derecha. La barra de estado indica qué imagen hay que digitalizar. La corrección se mantiene hasta que se recalcula el ajuste: al medir, desmedir, quitar o saltar un punto, o al cambiar de archivo de puntos. Si pulsas **Aceptar** antes de que se recalcule el ajuste, la corrección se guarda con el ajuste. |
 | **Desmedir** | Borra las medidas del punto seleccionado y recalcula el ajuste. El punto sigue en la lista. |
 | **Quitar punto** | Quita el punto seleccionado de la lista y borra sus medidas. El archivo de puntos no se modifica. Si el punto quitado era el que se estaba midiendo, deja de estar seleccionado. |
 | **¿Peor 2D?** | Selecciona el punto con mayor residuo en imagen (el mayor valor absoluto de fila o columna en cualquiera de las dos imágenes) y lleva el cursor a él para remedirlo. |
@@ -80,4 +80,4 @@ Los campos están vacíos mientras no haya ajuste calculado.
 
 Si no hay ajuste calculado, **Aceptar** cierra el panel sin guardar nada.
 
-**Cancelar**, o terminar la orden de cualquier otra forma sin aceptar un ajuste, devuelve los RPC de las dos imágenes a los valores que tenían al empezar. Las medidas no se guardan.
+Si pulsas **Cancelar** o terminas la orden de cualquier otra forma sin aceptar un ajuste, los RPC de las dos imágenes recuperan los valores que tenían al ejecutar la orden. Digi3D.AI no guarda las medidas si terminas la orden sin aceptar un ajuste.

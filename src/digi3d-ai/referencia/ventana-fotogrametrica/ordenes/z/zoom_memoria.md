@@ -9,11 +9,11 @@ No admite parámetros.
 
 ## Observaciones
 
-Digi3D.AI memoriza los dos últimos factores de zoom que se aplican en la ventana fotogramétrica. La orden aplica el penúltimo. Ese cambio cuenta a su vez como un cambio de zoom, así que al ejecutarla de nuevo vuelve al factor de antes: la orden alterna entre dos factores de zoom, por ejemplo uno de detalle y otro para desplazarse rápido.
+Digi3D.AI memoriza los dos últimos factores de zoom que se aplican en la ventana fotogramétrica. La orden aplica el penúltimo factor memorizado. Esta aplicación se registra como un cambio de zoom, por lo que una nueva ejecución de la orden recupera el factor que había antes de la primera ejecución. La orden alterna entre los dos últimos factores de zoom memorizados, por ejemplo uno para ver detalles y otro para desplazarse por el modelo.
 
 Volver a aplicar el factor que ya es el último no cuenta como cambio de zoom. Así ocurre al abrir un modelo con el mismo factor con el que se cerró, al redibujar la ventana o, con [SINCRONIZAR\_ZOOMS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-zooms.md) activada, al aplicar el zoom en el resto de vistas.
 
-Los dos factores se guardan en el registro de Windows, en los valores `FactorZoomA` y `FactorZoomB`, y el valor `ÍndiceFactorZoom` indica cuál de los dos es el último. Por eso se conservan al cerrar el programa. Si no hay valores guardados, los dos factores valen 1.
+Los dos factores de zoom se guardan en el registro de Windows, en los valores `FactorZoomA` y `FactorZoomB`, y el valor `ÍndiceFactorZoom` indica cuál de los dos es el último. Por eso los dos factores de zoom se conservan al cerrar el programa. Si no hay valores guardados, los dos factores valen 1.
 
 ## Características de la orden
 

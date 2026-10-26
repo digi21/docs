@@ -3,7 +3,7 @@
 
 ![Barra de herramientas Finalización de polilínea](../../../images/finalizacionpolilinea.png)
 
-Permite ejecutar órdenes relacionadas con finalizar la línea que se está digitalizando y aún no se ha finalizado.
+La barra de herramientas Finalización de polilínea permite ejecutar órdenes relacionadas con la finalización de la línea que estás digitalizando.
 
 ## Botones
 

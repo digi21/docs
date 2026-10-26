@@ -7,7 +7,7 @@ El sensor Ortofoto permite medir sobre una ortofotografía. El modelo tiene una 
 
 Al abrir el modelo, el sensor toma la georreferenciación de la propia imagen: las etiquetas GeoTIFF, la cabecera del ECW o el world file que está junto a la imagen: _.tfw_ para TIFF, _.eww_ para ECW, _.j2w_ para JPEG 2000 y _.sdw_ para MrSID.
 
-Si la imagen no tiene georreferenciación, el modelo se abre igualmente en coordenadas de píxel: la X es la columna y la Y es el alto de la imagen menos la fila, de modo que la esquina inferior izquierda es el origen y la Y crece hacia arriba de la imagen, como en una ortofoto georreferenciada. Para georreferenciarla, ejecuta **Orientación afín**. Si el world file existe pero no se puede leer, Digi3D.AI muestra el error y no abre el modelo.
+Si la imagen no tiene georreferenciación, el modelo se abre igualmente en coordenadas de píxel: la X es la columna y la Y es el alto de la imagen menos la fila, de modo que la esquina inferior izquierda es el origen y la Y crece hacia arriba de la imagen, como en una ortofoto georreferenciada. Ejecuta **Orientación afín** para georreferenciar la imagen. Si el world file existe pero no se puede leer, Digi3D.AI muestra el error y no abre el modelo.
 
 ## Orientación afín
 
@@ -15,6 +15,6 @@ La opción **Orientación afín** del menú de la ventana fotogramétrica abre e
 
 Al abrir el modelo, si la carpeta del proyecto tiene ese world file, el sensor aplica la orientación afín sobre la georreferenciación de la imagen.
 
-Si el proyecto está en la carpeta de la imagen, ese archivo es el world file de la propia imagen. El sensor lo aplica una sola vez, y en lugar de las etiquetas GeoTIFF o de la cabecera del ECW. Al aceptar, el sensor guarda en él la transformación de píxel a terreno, de modo que sigue siendo un world file válido para otros programas. Antes de sustituir el world file y el archivo _.prj_ de la imagen, el sensor los copia con la extensión _.bak_ añadida (por ejemplo, _foto.tfw.bak_) si todavía no existe esa copia, y lo indica con un aviso. Si no puede hacer la copia, no guarda la orientación.
+Si el proyecto está en la carpeta de la imagen, el world file guardado por la orientación afín es el de la propia imagen. El sensor aplica el world file guardado por la orientación afín una sola vez, en lugar de las etiquetas GeoTIFF o de la cabecera del ECW. Al aceptar la orientación afín, el sensor guarda en el world file la transformación de píxel a terreno, de modo que el archivo sigue siendo un world file válido para otros programas. Antes de sustituir el world file y el archivo _.prj_ de la imagen, el sensor los copia con la extensión _.bak_ añadida (por ejemplo, _foto.tfw.bak_) si todavía no existe la copia de cada archivo, y el sensor muestra un aviso de la copia. Si el sensor no puede hacer la copia, no guarda la orientación.
 
 Los modelos de ortofoto se pueden abrir sin el módulo de fotogrametría, para orientar la ortofoto.

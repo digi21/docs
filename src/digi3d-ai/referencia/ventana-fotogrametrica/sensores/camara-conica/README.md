@@ -11,7 +11,7 @@ Los modelos del sensor Cónico se crean con el cuadro de diálogo [Crear modelo]
 
 ## Propiedades del sensor
 
-* **Archivo de aerotriangulación**: archivo del que se leen las orientaciones exteriores de las dos imágenes y, si lo incluye, la calibración de la cámara. Admite los formatos de las [extensiones](extensiones/README.md) activadas. Si el trabajo no está aerotriangulado, se deja vacío.
+* **Archivo de aerotriangulación**: archivo del que se leen las orientaciones exteriores de las dos imágenes y, si el archivo la incluye, la calibración de la cámara. Admite los formatos de las [extensiones](extensiones/README.md) activadas. Si el trabajo no está aerotriangulado, deja vacío el campo.
 * **Imagen izquierda** e **Imagen derecha**: archivos de imagen del modelo.
 
 ## De dónde salen las orientaciones
@@ -28,7 +28,7 @@ Para crear o editar un archivo de cámara, o para convertir a `.cam` de Digi3D l
 
 ### Orientación relativa
 
-* **Con Archivo de aerotriangulación**: las extensiones intentan leer ese archivo. Si una de ellas lo lee, las orientaciones exteriores salen de él. Los archivos `<izquierda>-<derecha>.rel.xml`, `<izquierda>-<derecha>.rel` y `<imagen>.orientation.xml` del directorio de trabajo solo se usan si ninguna extensión lee el archivo de aerotriangulación.
+* **Con Archivo de aerotriangulación**: las extensiones intentan leer ese archivo. Si una extensión lee el archivo de aerotriangulación, obtiene de ese archivo las orientaciones exteriores. Los archivos `<izquierda>-<derecha>.rel.xml`, `<izquierda>-<derecha>.rel` y `<imagen>.orientation.xml` del directorio de trabajo solo se usan si ninguna extensión lee el archivo de aerotriangulación.
 * **Sin Archivo de aerotriangulación**: el sensor carga, por este orden, `<izquierda>-<derecha>.rel.xml`, `<izquierda>-<derecha>.rel` o el par `<izquierda>.orientation.xml` y `<derecha>.orientation.xml`. Con el par de `.orientation.xml`, la orientación relativa no se puede modificar.
 * Si no se encuentra ninguna orientación, el sensor crea una orientación relativa provisional en un sistema de referencia de coordenadas desconocido, que se puede medir con la orden [ORI\_RELATIVA](../../ordenes/o/ori_relativa.md).
 
@@ -39,7 +39,7 @@ Con **Archivo de aerotriangulación**, la ventana [Resultados](../../../paneles/
 
 ### Orientación absoluta
 
-La orientación absoluta se lee del archivo de aerotriangulación si la extensión que lo lee la proporciona. Si no, de `<izquierda>-<derecha>.abs.xml` (o del formato antiguo `<izquierda>-<derecha>.abs2`). Sin ninguno de los dos, el modelo no tiene transformación absoluta: las coordenadas del modelo son las de la orientación relativa.
+La orientación absoluta se lee del archivo de aerotriangulación si la extensión que lo lee la proporciona. Si la extensión no proporciona orientación absoluta, el sensor lee la orientación absoluta de `<izquierda>-<derecha>.abs.xml` (o del formato antiguo `<izquierda>-<derecha>.abs2`). Sin orientación absoluta del archivo de aerotriangulación ni de los archivos de orientación absoluta, el modelo no tiene transformación absoluta: las coordenadas del modelo son las de la orientación relativa.
 
 ## Sistema de referencia de coordenadas
 

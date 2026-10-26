@@ -1,13 +1,13 @@
 # Variables
 <!-- id: variables -->
 
-Las variables son un tipo especial de orden que no realizan ninguna acción, sino que sirven para que almacenemos valores que utilizarán otras órdenes con posterioridad.
+Las variables son órdenes que almacenan valores y no realizan ninguna otra acción; otras órdenes utilizan los valores almacenados.
 
 Por ejemplo: la orden [TEXTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/texto.md).
 
-Como las variables son órdenes, se pueden ejecutar seleccionando opciones del menú, barras de herramientas o desde la línea de comando tal y como se explica en [Órdenes](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/ordenes.md).
+Como las variables son órdenes, puedes ejecutarlas seleccionando opciones del menú, pulsando botones de las barras de herramientas o desde la línea de comandos, tal como se explica en [Órdenes](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/ordenes.md).
 
-Podemos distinguir 4 tipos de variables en función de la información que pueden almacenar:
+Existen 4 tipos de variables en función de la información que pueden almacenar:
 
 * [Booleanas](variables-booleanas.md).
 * [Numéricas](variables-numericas.md).

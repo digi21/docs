@@ -7,6 +7,6 @@ Esta barra de herramientas permite realizar acciones relacionadas con [archivos 
 
 ## Botones
 
-* Desplegable que permite cambiar el teclado activo de entre todos los indicados para cargar con el cuadro de diálogo [Configuración de teclados virtuales](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion-de-teclados-virtuales.md).
+* Desplegable que permite cambiar el teclado activo entre los teclados configurados para cargarse mediante el cuadro de diálogo [Configuración de teclados virtuales](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion-de-teclados-virtuales.md).
 * Botón que cambia al siguiente teclado virtual, con el mismo efecto que la orden [CAMBIA_TECLAS_MNU](../ventana-de-dibujo/ordenes/c/cambia-teclas-mnu.md).
 * Botón que ejecuta la orden [TECLA](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/tecla.md).

@@ -11,7 +11,7 @@ Activa o desactiva el modo de digitalización continuo (*stream*) de la ventana 
 
 ## Observaciones
 
-Sin parámetros, la orden alterna el estado: lo activa si está desactivado y lo desactiva si está activo.
+Sin parámetros, la orden activa el modo stream si está desactivado y lo desactiva si está activo.
 
 ## Características de la orden
 

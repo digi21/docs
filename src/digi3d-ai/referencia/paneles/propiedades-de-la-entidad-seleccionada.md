@@ -9,7 +9,7 @@ El panel se actualiza cada vez que se tentativa una geometría con el botón de 
 
 ## Mostrar el panel
 
-Se puede mostrar el panel mediante la opción del menú **Ventana/Propiedades de la entidad seleccionada**.
+Selecciona la opción del menú **Ventana/Propiedades de la entidad seleccionada** para mostrar el panel.
 
 ## Lista de códigos
 

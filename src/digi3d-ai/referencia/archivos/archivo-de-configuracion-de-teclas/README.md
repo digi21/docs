@@ -1,7 +1,7 @@
 # Archivo de configuración de teclas
 <!-- id: archivo-de-configuracion-de-teclas -->
 
-Es un archivo .xml que almacena una serie de comandos a ejecutar si se pulsa una determinada tecla. Estos archivos tienen extensión: _.keyboard.xml._
+El archivo de configuración de teclas es un archivo .xml que almacena una serie de órdenes que se ejecutan al pulsar una determinada tecla. Los archivos de configuración de teclas tienen la extensión _.keyboard.xml_.
 
 El instalador de Digi3D.AI instala un archivo de configuración de teclas por defecto en el directorio `C:\ProgramData\Digi3D.NET\Tablas` con el nombre: `Teclas.keyboard.xml`.
 

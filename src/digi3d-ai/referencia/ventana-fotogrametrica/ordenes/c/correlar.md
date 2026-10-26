@@ -1,18 +1,18 @@
 # CORRELAR
 <!-- id: correlar -->
 
-Permite que el restituidor se pose en Z buscando el punto homólogo al punto sobre el cual esta centrado el cursor en la imagen izquierda.
+Ajusta la coordenada Z del restituidor buscando el punto homólogo del punto sobre el que está centrado el cursor en la imagen izquierda.
 
 ## Parámetros
 
 | Parámetro | Descripción |
 | :--- | :--- |
-| 0 \(o sin parámetro\) | Se posa en Z fijando la imagen izquierda |
-| 1 | Se posa en Z fijando la imagen derecha |
+| 0 \(o sin parámetro\) | Ajusta la coordenada Z manteniendo fija la imagen izquierda |
+| 1 | Ajusta la coordenada Z manteniendo fija la imagen derecha |
 
 ## Observaciones
 
-Al ejecutar la orden aparecerá un globo en la parte inferior derecha informando al usuario del factor de correlación de los puntos y de su paralaje.
+Al ejecutar la orden, aparece un globo en la parte inferior derecha que muestra el factor de correlación y el paralaje de los puntos.
 
 ## Características de la orden
 

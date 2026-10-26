@@ -1,7 +1,7 @@
 # SINCRONIZAR\_ZOOMS
 <!-- id: sincronizar-zooms -->
 
-Ésta orden es de utilidad al tener abiertas varias vistas estereoscópicas.  
+La orden SINCRONIZAR_ZOOMS permite sincronizar el zoom de varias vistas estereoscópicas abiertas.  
 Con la sincronización activada, cada cambio de zoom se aplica a la vez en todas las vistas abiertas.
 
 ## Parámetros

@@ -21,5 +21,5 @@ Los resultados pertenecen a la ventana de dibujo en la que se hizo la búsqueda:
 
 Se puede mostrar el panel de las siguientes formas:
 
-* Pulsando el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
-* Mediante las opciones del menú **Ventana/Resultados de la búsqueda/Resultados de la búsqueda 1** y **Ventana/Resultados de la búsqueda/Resultados de la búsqueda 2**.
+* Pulsa el botón correspondiente en la [barra de herramientas Paneles](../barras-de-herramientas/paneles.md).
+* Selecciona una de las opciones del menú **Ventana/Resultados de la búsqueda/Resultados de la búsqueda 1** y **Ventana/Resultados de la búsqueda/Resultados de la búsqueda 2**.

@@ -8,5 +8,5 @@ Permite ejecutar órdenes relacionadas con la interpolación de geometrías entr
 ## Botones
 
 * Botón que ejecuta la orden [INTER](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/inter.md).
-* Botón que ejecuta la orden [INTERPOLAR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/interpolar-cod.md)
+* Botón que ejecuta la orden [INTERPOLAR\_COD](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/interpolar-cod.md).
 * Botón que ejecuta la orden [INTER_EJE](../ventana-de-dibujo/ordenes/i/inter-eje.md).

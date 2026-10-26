@@ -5,9 +5,9 @@ Digi3D.AI dispone de múltiples barras de herramientas.
 
 Los usuarios avanzados acostumbrados a trabajar con órdenes asignadas a teclas del teclado no suelen utilizar barras de herramientas.
 
-Puedes hacer aparecer o desaparecer barras de herramientas pulsando con el **botón derecho del ratón** en cualquier menú del programa.
+Pulsa con el **botón derecho del ratón** en cualquier menú del programa para mostrar el menú de barras de herramientas.
 
 Aparecerá un menú contextual con los nombres de todas las barras de herramientas proporcionadas por el programa.
 
-Haciendo clic sobre el nombre de una de ellas haremos que aparezca o desaparezca.
+Pulsa el nombre de una barra de herramientas en el menú contextual para mostrarla u ocultarla.
 

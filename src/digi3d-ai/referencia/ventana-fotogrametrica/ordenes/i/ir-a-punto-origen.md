@@ -1,7 +1,7 @@
 # IR\_A\_PUNTO\_ORIGEN
 <!-- id: ir-a-punto-origen -->
 
-Lleva al usuario al centro del modelo estereoscópico.
+La orden IR_A_PUNTO_ORIGEN mueve el restituidor al centro del modelo estereoscópico.
 
 ## Parámetros
 
@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Si te encuentras fuera del modelo o quieres ir rápidamente al punto origen del modelo utiliza la orden **IR\_A\_PUNTO\_ORIGEN**.
+Utiliza la orden **IR\_A\_PUNTO\_ORIGEN** para mover el restituidor al punto origen del modelo cuando el restituidor esté fuera del modelo o quieras desplazarlo a ese punto.
 
 ## Características de la orden
 

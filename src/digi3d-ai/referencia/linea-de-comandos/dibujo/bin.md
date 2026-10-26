@@ -3,7 +3,7 @@
 
 
 
-Indica que el archivo de dibujo a abrir en la ventana de dibujo es binario de precisión simple (con extensión .bin)
+La suborden bin indica que el archivo de dibujo a abrir en la ventana de dibujo es binario de precisión simple (con extensión .bin).
 
 ## Opciones posicionales obligatorias
 
@@ -13,7 +13,7 @@ Indica que el archivo de dibujo a abrir en la ventana de dibujo es binario de pr
 
 ## Opciones&#x20;
 
-Estos valores son opcionales, y si se especifican modifican el valor por defecto que tienen asignados.
+Si especificas una de estas opciones, el valor que indiques sustituye al valor por defecto de esa opción.
 
 | Opción   | Descripción                                                                            | Valor por defecto |
 | -------- | -------------------------------------------------------------------------------------- | ----------------- |

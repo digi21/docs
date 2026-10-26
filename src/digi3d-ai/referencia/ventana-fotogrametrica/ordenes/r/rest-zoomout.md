@@ -1,7 +1,7 @@
 # REST\_ZOOM\_OUT
 <!-- id: rest-zoomout -->
 
-Disminuye el factor de Zoom de las imágenes que se visualizan en la pantalla estereoscópica.
+Disminuye el factor de zoom de las imágenes de la ventana fotogramétrica.
 
 ## Parámetros
 
@@ -11,7 +11,7 @@ No admite parámetros.
 
 La orden divide el factor de zoom entre 2.
 
-El factor de zoom activo en cada momento aparece en la parte inferior de la Ventana Estereoscópica.
+El factor de zoom activo en cada momento aparece en la parte inferior de la ventana fotogramétrica.
 
 Por debajo de 1, el factor se ajusta al nivel piramidal de la imagen más cercano \(1/2, 1/4, 1/8...\), así que el factor mínimo depende de los niveles piramidales que tengan las imágenes cargadas.
 

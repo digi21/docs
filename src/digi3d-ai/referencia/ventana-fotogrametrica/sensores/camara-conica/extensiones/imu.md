@@ -69,7 +69,7 @@ La extensión obtiene el sistema de referencia de coordenadas en este orden:
    * `EPSG_CODE;horizontal;vertical`: código EPSG del sistema horizontal y código EPSG del sistema vertical. Si el segundo código corresponde a un sistema vertical de EPSG, el modelo usa el sistema compuesto por los dos y Digi3D.AI no pregunta por el sistema vertical.
 
    Digi3D.AI usa el sistema horizontal con los ejes en el orden este, norte. Si el primer código ya corresponde a un sistema con componente vertical, Digi3D.AI lo usa tal cual y no lee el segundo código.
-3. Si no hay `.prj` ni línea `EPSG_CODE`, o si el código horizontal no está en la base de datos de EPSG, el cuadro [¿Quieres asignar uno?](../sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-horizontal).
+3. Si no hay `.prj` ni línea `EPSG_CODE`, o si el código horizontal no está en la base de datos de EPSG, Digi3D.AI muestra el cuadro [¿Quieres asignar uno?](../sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-horizontal).
 
 Si el código horizontal corresponde a un sistema sin componente vertical y falta el código vertical, o el código vertical no corresponde a un sistema vertical, aparece el cuadro [Sistema de referencia de coordenadas vertical desconocido](../sistema-de-referencia-del-modelo.md#sistema-de-referencia-de-coordenadas-vertical). Digi3D.AI guarda la respuesta en un archivo `.prj` con el mismo nombre que el archivo de aerotriangulación, en su misma carpeta, y no modifica el archivo `.eo` o `.imu`. Como el `.prj` tiene prioridad sobre la línea `EPSG_CODE`, el cuadro no vuelve a aparecer para ese archivo. Si ya existe un `.prj`, Digi3D.AI no lo sustituye.
 

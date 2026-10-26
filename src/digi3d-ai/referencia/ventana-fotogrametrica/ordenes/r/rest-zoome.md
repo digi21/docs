@@ -1,7 +1,7 @@
 # REST\_ZOOME
 <!-- id: rest-zoome -->
 
-Hace un Zoom extendido de las imágenes que se visualizan en la pantalla estereoscópica.
+Aplica un zoom extendido a las imágenes de la ventana fotogramétrica.
 
 ## Parámetros
 
@@ -11,7 +11,7 @@ No admite parámetros.
 
 La orden elige el factor de zoom con el que la imagen izquierda completa cabe en su vista.
 
-Lo que hace con las coordenadas depende de la opción [Zoom extendido](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ordenes-comunes-de-digi3d/zoom-extendido.md) del cuadro de diálogo de configuración:
+El desplazamiento del cursor al ejecutar la orden depende de la opción [Zoom extendido](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/ordenes-comunes-de-digi3d/zoom-extendido.md) del cuadro de diálogo de configuración:
 
 * **Cambia el factor de zoom y desplaza el equipo al centro del modelo**, el valor por defecto: la orden mueve el cursor al origen del modelo y después cambia el factor de zoom.
 * **Cambia el factor de zoom sin desplazar el equipo al centro del modelo**: la orden cambia el factor de zoom sin mover el cursor.

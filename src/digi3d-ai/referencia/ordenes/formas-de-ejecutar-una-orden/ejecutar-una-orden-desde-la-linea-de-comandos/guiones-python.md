@@ -3,6 +3,6 @@
 
 Digi3D.AI reconoce como órdenes nativas aquellos guiones Python ubicados en el Directorio de Macroinstrucciones.
 
-Para ejecutar un guion Python tan solo tendremos que introducir en la línea de comandos de Digi3D.AI el nombre del archivo Python. Si en el directorio de macroinstrucciones existe un archivo con el nombre del comando introducido y con extensión _.py_, entenderá que debe ejecutar dicho guion.
+Introduce el nombre del archivo Python en la línea de comandos de Digi3D.AI para ejecutar un guion Python. Si en el directorio de macroinstrucciones existe un archivo con el nombre de la orden introducida y con extensión _.py_, Digi3D.AI ejecutará ese guion.
 
 <video controls><source src="https://digi21.blob.core.windows.net/videos-ayuda/elimina_curvas_por_equidistancia2.mp4" type="video/mp4"></video>

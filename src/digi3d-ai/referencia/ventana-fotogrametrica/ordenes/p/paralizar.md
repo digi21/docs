@@ -1,7 +1,7 @@
 # PARALIZAR
 <!-- id: paralizar -->
 
-Paraliza una o varias de las múltiples vistas estereoscópicas que tenga abiertas el usuario en el momento de la ejecución.
+La orden PARALIZAR permite paralizar una o varias de las vistas estereoscópicas que tengas abiertas al ejecutar la orden.
 
 ## Parámetros
 
@@ -17,8 +17,8 @@ Paraliza una o varias de las múltiples vistas estereoscópicas que tenga abiert
 
 ## Observaciones
 
-Deberás activar la vista que deseas paralizar antes de ejecutar la orden, para ello haz clic en la barra de título.  
-Esta orden es incompatible con la orden [SINCRONIZAR_VISTAS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-vistas.md), **no** podrán estar activadas al mismo tiempo.
+Haz clic en la barra de título de la vista que quieras paralizar para activar esa vista antes de ejecutar la orden.  
+La orden PARALIZAR es incompatible con la orden [SINCRONIZAR_VISTAS](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/s/sincronizar-vistas.md), porque ambas órdenes **no** pueden estar activadas al mismo tiempo.
 
 ## Características de la orden
 

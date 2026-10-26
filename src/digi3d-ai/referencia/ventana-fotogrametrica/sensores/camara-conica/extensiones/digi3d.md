@@ -5,7 +5,7 @@ La extensión **Digi3D** lee los archivos de cámara y de orientación propios d
 
 ## Orientaciones
 
-La extensión busca en el directorio de trabajo del modelo, por este orden, con `<izquierda>` y `<derecha>` los nombres de las imágenes sin extensión:
+La extensión busca los siguientes archivos en el directorio de trabajo del modelo, por este orden. `<izquierda>` y `<derecha>` representan los nombres de las imágenes sin extensión:
 
 1. `<izquierda>-<derecha>.rel.xml`: orientación relativa (consulta [Archivos de orientación relativa](../../../../../primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-relativa/archivos-orientacion-relativa.md)).
 2. `<izquierda>-<derecha>.rel`: orientación relativa en el formato anterior.

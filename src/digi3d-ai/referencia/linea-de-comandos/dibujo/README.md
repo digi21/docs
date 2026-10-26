@@ -3,11 +3,11 @@
 
 Ordena abrir una ventana de dibujo.
 
-Este comando tiene una serie de subcomandos, así como una serie de opciones.
+La orden dibujo admite subórdenes y opciones.
 
 ## Opciones
 
-Estos valores son opcionales, y si se especifican modifican el valor por defecto que tienen asignados.
+Si especificas una de estas opciones, el valor que indiques sustituye al valor por defecto de esa opción.
 
 | Opción    | Descripción                                                                                                                                        | Valor por defecto |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
@@ -22,10 +22,10 @@ Estos valores son opcionales, y si se especifican modifican el valor por defecto
 
 ## Subcomandos
 
-| Comando         | Descripción                                                                                                                             |
+| Orden           | Descripción                                                                                                                             |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md)                                             |
 | [bin](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bin/bin.md)                                             |
-| [shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md)   | Indica que el archivo de dibujo a abrir en la ventana de dibujo son los archivos _shapefile_ localizados en el directorio especificado. |
+| [shp](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.shp/shp.md)   | Indica que se abrirán en la ventana de dibujo los archivos _shapefile_ del directorio especificado. |
 
 ##
