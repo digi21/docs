@@ -108,9 +108,11 @@ Lanza `ValueError` si el archivo no es `.d3d` y `RuntimeError` si Digi3D.AI no p
 open_project(path) -> bool
 ```
 
-Carga un proyecto fotogramétrico en el panel de proyectos, igual que el botón **Cargar** del panel.
-Devuelve `False` si no se ha cargado; Digi3D.AI muestra el motivo al usuario. Si el proyecto no tiene
-sistema de coordenadas, Digi3D.AI se lo pide al usuario y la función espera la respuesta.
+Carga un proyecto fotogramétrico en el panel de proyectos, igual que el botón **Cargar** del panel,
+sin mostrar ningún cuadro de diálogo. Devuelve `False` si el proyecto no se ha cargado; el motivo aparece como un
+aviso que empieza por `Warning:` en la salida del guion. Si el proyecto no tiene sistema de
+coordenadas, la función lo carga con un sistema local, sin crear el archivo `.prj`, como indica la
+tabla de [Abrir sin cuadros de diálogo](#abrir-sin-cuadros-de-diálogo).
 
 ### project
 

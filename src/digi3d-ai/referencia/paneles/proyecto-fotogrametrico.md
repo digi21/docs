@@ -11,7 +11,7 @@ Al pulsar sobre un modelo, el programa abre una ventana fotogramétrica con ese 
 
 Si el proyecto es de fotos y no de modelos, el panel muestra dos listas con las mismas fotos: la izquierda y la derecha. Al seleccionar una foto en cada lista se carga el modelo formado por las dos fotos.
 
-El panel recuerda el último proyecto cargado y lo vuelve a cargar al iniciar Digi3D.AI, si el archivo sigue existiendo.
+El panel guarda la ruta del último proyecto cargado con los botones **Nuevo** o **Cargar**, o con la función Python [open_project](../../programacion/python/referencia/digi3d/functions.md#open_project), y el cuadro de abrir archivo del botón **Cargar** propone ese proyecto. Digi3D.AI no carga ningún proyecto al iniciarse, salvo que la línea de comandos incluya el subcomando `proyecto`.
 
 ## Modelos que no se pueden cargar
 
@@ -42,7 +42,7 @@ Un proyecto de Inpho puede declarar en `$COORDINATE_SYSTEM` un sistema de Esri c
 
 * «No hemos localizado ninguna extensión que permita abrir el archivo seleccionado.»: ningún sensor instalado reconoce el archivo.
 * «El archivo de proyecto no proporciona ningún punto de vista, así que no se puede cargar ningún modelo de él.»
-* «No se puede cargar un proyecto mientras se está cargando un modelo en segundo plano. Espere a que termine.»
+* «No se puede cargar un proyecto mientras se está cargando un modelo en segundo plano. Espera a que termine.»
 
 ## Barra de herramientas
 
