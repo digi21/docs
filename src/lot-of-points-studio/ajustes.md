@@ -10,7 +10,7 @@ los modifica y cambia el foco; la página no tiene un botón de guardar.
 ## Carpeta de la caché
 
 **Carpeta de la caché de niveles de detalle** indica dónde prepara Studio las nubes. El valor por defecto es
-`%TEMP%\LOP`, la raíz que utiliza Lot Of Points. Dentro de ella se crean la carpeta `LiDAR` y una subcarpeta por
+`%TEMP%\LOP`, la raíz que utiliza Lot Of Points. Dentro de la carpeta raíz de la caché, Studio crea la carpeta `LiDAR` y una subcarpeta por
 archivo.
 
 Puedes escribir otra ubicación o elegirla con **Examinar…**. **Restaurar el valor por defecto** vuelve a seleccionar
@@ -21,7 +21,7 @@ Si escribes la ubicación a mano, sustituye `%TEMP%` por la ruta de la carpeta t
 seleccionarla con **Examinar…**.
 
 La carpeta debe coincidir con la del visor para que este encuentre las nubes preparadas en local. Cambiar el
-ajuste indica dónde se harán los trabajos siguientes; no traslada las cachés que ya existen.
+ajuste determina dónde creará Studio las cachés de los archivos que procese a continuación; no traslada las cachés que ya existen.
 
 ## Acceso al contenedor de Azure
 

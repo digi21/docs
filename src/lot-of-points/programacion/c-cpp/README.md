@@ -6,8 +6,8 @@ dinámico (DLL) de Windows de 64 bits. Cada comando declara su botón y ejecuta 
 propio. El comando elige las nubes y solicita al programa las operaciones que necesita.
 
 La interfaz de programación de aplicaciones (API) de C está definida en `lop_sdk.h`. La DLL exporta
-`lop_register_commands`, que devuelve sus declaraciones `lop_command`. La API de C++ envuelve esa interfaz
-con las clases de `lop/sdk.hpp`. La [API de Python](../python/referencia.md#comandos-de-python) expone las
+`lop_register_commands`, que devuelve sus declaraciones `lop_command`. La API de C++ permite utilizar la interfaz de C
+mediante las clases de `lop/sdk.hpp`. La [API de Python](../python/referencia.md#comandos-de-python) expone las
 mismas operaciones del anfitrión.
 
 ## Archivos del SDK

@@ -16,7 +16,7 @@ Deshabilitar una extensión retira todos sus botones; deshabilitar un comando re
 Los controles de comandos permanecen desactivados mientras la extensión esté deshabilitada.
 
 El programa aplica los cambios sin reiniciar y reconstruye las pestañas afectadas.
-Un comando de una DLL que esté ejecutándose conserva su biblioteca hasta que termina.
+Lot Of Points mantiene cargada la DLL de un comando mientras el comando se ejecuta.
 Un comando de Python en ejecución conserva las variables globales de su archivo cargado.
 
 ## Instalar extensiones
@@ -30,7 +30,7 @@ Para instalar una DLL:
 
 El programa busca primero en esa carpeta y después en `algorithms` de su instalación.
 El programa carga las DLL por orden alfabético dentro de cada carpeta.
-Las DLL deben exportar `lop_register_commands`; la rama actual no carga extensiones que exporten únicamente
+Las DLL deben exportar `lop_register_commands`; Lot Of Points no carga extensiones que exporten únicamente
 `lop_register`. Consulta [Instalar y comprobar una DLL](programacion/c-cpp/instalar-y-comprobar.md).
 
 Para instalar comandos de Python:
@@ -57,7 +57,7 @@ Los botones de los comandos propios que necesitan un documento se deshabilitan c
 ## Diagnósticos y cierre
 
 El panel **Salida** muestra los problemas de carga con el prefijo «Extensiones:».
-Un identificador repetido conserva la primera declaración y produce un aviso.
+Lot Of Points conserva la primera declaración válida de cada identificador y muestra un aviso si encuentra otra declaración con ese identificador.
 El programa publica cada aviso una vez por sesión.
 
 Al cerrar Lot Of Points con hilos de comandos de extensiones en ejecución, el programa solicita su cancelación

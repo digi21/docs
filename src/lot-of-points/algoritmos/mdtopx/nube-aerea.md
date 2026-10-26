@@ -29,7 +29,7 @@ distancias del cálculo. Con **Desclasificar primero** activado, el cálculo par
 desactivado, el cálculo parte de las clases existentes. Esta opción se añade en Lot Of Points.
 Las unidades de la tabla son las que declara la DLL para los parámetros.
 
-| Grupo | Parámetro | Unidad | Predeterminado | Rango declarado | Tipo |
+| Grupo | Parámetro | Unidad | Predeterminado | Rango declarado, con ambos extremos incluidos | Tipo |
 |---|---|---|---|---|---|
 | General | Distancia máxima entre puntos | m | 3 | 0,5 – 50 | Real |
 | General | Desclasificar primero | | No | Sí / No | Booleano |

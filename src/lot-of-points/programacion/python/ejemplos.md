@@ -142,7 +142,7 @@ for foto in lop.viewer.SphericalPhotos:
 
 ## Perfil del terreno con numpy
 
-Recorre la caja de las nubes de oeste a este por su centro, en 50 posiciones, y busca en cada una el punto cargado más
+Recorre la caja de las nubes desde la coordenada X mínima hasta la máxima por su centro, en 50 posiciones, y busca en cada una el punto cargado más
 bajo en un cilindro vertical de 0,5 unidades de la nube de radio, como la herramienta **Dibujar altura**. Escribe cuántas posiciones
 tienen punto y las cotas mínima y máxima.
 

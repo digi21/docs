@@ -21,8 +21,8 @@ los que quieres trabajar. Lot Of Points admite los siguientes formatos:
 | PCD (*Point Cloud Data*) | `.pcd` | Nube de puntos. |
 | GeoPackage | `.gpkg` | Capas vectoriales, una por tabla. |
 
-La primera apertura de una nube local requiere una preparación: el programa crea su **nivel de detalle**, o LOD
-(*level of detail*). Esta organización de los puntos permite cargar solo los que necesita la vista en cada momento,
+Si no existe una caché válida de la nube local, Lot Of Points prepara su **nivel de detalle**, o LOD
+(*level of detail*), al abrirla. Esta organización de los puntos permite cargar solo los que necesita la vista en cada momento,
 sin mantener la nube entera en memoria. El resultado queda en una caché que se reutiliza en las aperturas siguientes.
 
 En el panel **Capas**, la casilla de cada nube permite mostrarla u ocultarla. Al mantener el puntero sobre su fila
@@ -85,7 +85,7 @@ a las nuevas geometrías. El panel **Geometrías** muestra las geometrías de la
 La edición comienza delimitando la zona de trabajo. La pestaña **Herramientas de selección** ofrece cinco herramientas:
 **Esfera**, **Polilínea**, **Caja**, **Caja aplomada** y **Selección con cilindro**.
 Al completar una selección por región, el programa muestra **Acciones**.
-**Borrar** registra el borrado; **Clasificar** asigna una clase, y **Restaurar** recupera los puntos borrados
+**Borrar** registra el borrado de los puntos de la región seleccionada; **Clasificar** asigna una clase a los puntos de esa región, y **Restaurar** recupera los puntos borrados
 de la región. Los comandos de extensiones también pueden dejar una selección de puntos: esa selección admite
 **Borrar**, **Clasificar** y **Aislar**; **Restaurar** requiere una región.
 
@@ -95,7 +95,7 @@ para volver a mostrar los puntos que el aislamiento ocultaba. Las ediciones sigu
 o a los puntos aislados.
 
 El programa guarda las modificaciones locales en `<nube>.edits.log`, junto al original y con su extensión
-incluida: por ejemplo, `terreno.las.edits.log`. Las ediciones que usan una tabla por punto guardan
+incluida: por ejemplo, `terreno.las.edits.log`. Cuando una edición utiliza una tabla por punto, Lot Of Points guarda
 `<nube>.edits.<identificador>.table` junto al registro. El archivo original conserva su contenido.
 
 La barra de título contiene **Deshacer**, **Rehacer** e **Historial**, a la izquierda de **Configuración**.
@@ -124,8 +124,8 @@ de cada fotografía se obtiene al entrar en ella.
 Las nubes remotas admiten ediciones locales cuando tienen registro de ediciones e índices de cada punto
 en el original. Lot Of Points guarda esos registros en `%AppData%\edits\<nube>_<huella>\cloud.edits.log`
 y las tablas en `cloud.edits.<identificador>.table`, en la misma carpeta.
-La carpeta depende de la dirección de la nube sin la consulta de autorización; renovar el acceso no cambia
-esa identidad. Las ediciones locales no modifican los datos publicados en Azure.
+La carpeta depende de la dirección de la nube sin la consulta de autorización; renovar la autorización de acceso no cambia
+la carpeta de ediciones de la nube. Las ediciones locales no modifican los datos publicados en Azure.
 
 Los comandos por teselas pueden elegir nubes remotas. El modo de solo lectura no requiere registro
 de ediciones ni índices originales. Para regenerar el nivel de detalle de una nube remota que no conserva

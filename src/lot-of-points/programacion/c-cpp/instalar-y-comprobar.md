@@ -12,7 +12,7 @@ desarrollo de software (SDK) y exportar `lop_register_commands`.
 4. Copia la DLL y sus dependencias en esa carpeta.
 5. Abre Lot Of Points.
 
-El catálogo busca dependencias con las opciones de carga de Windows que incluyen la carpeta de la DLL
+Lot Of Points busca las dependencias de cada DLL con las opciones de carga de Windows que incluyen la carpeta de la DLL
 y los directorios predeterminados del sistema.
 El programa carga primero las DLL de `%AppData%\lop\algorithms` y después las de `algorithms`
 de la instalación, por orden alfabético en cada carpeta.

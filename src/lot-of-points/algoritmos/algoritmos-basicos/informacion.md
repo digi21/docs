@@ -18,7 +18,7 @@ que el del archivo original.
 
 ## Salida
 
-El comando escribe un bloque por nube después de completar `process_tiles`.
+El comando escribe un bloque por nube cuando `process_tiles` devuelve `LOP_OK`.
 Una nube sin puntos también tiene bloque, con el nombre, la ruta y el recuento 0.
 
 | Línea | Contenido |
@@ -47,7 +47,7 @@ densidades y porcentajes. El comando escribe textos y separadores numéricos en 
 El comando divide cada núcleo en celdas cuadradas y suma la superficie de las que contienen algún punto.
 Las celdas comienzan en la esquina del núcleo y no invaden el núcleo vecino.
 Las celdas del borde pueden tener un lado menor que el configurado.
-La densidad media divide el número de puntos entre la superficie ocupada.
+El comando calcula la densidad media dividiendo el número de puntos entre la superficie ocupada.
 
 | Parámetro | Unidad | Predeterminado | Rango, con ambos extremos incluidos |
 |---|---|---|---|
@@ -60,7 +60,7 @@ al cuadrado.
 | Característica | Valor |
 |---|---|
 | Lado del núcleo | 1000 unidades de la nube. |
-| Solape | 0. |
+| Ancho del solape | 0 unidades de la nube. |
 | Teselas simultáneas | No. |
 | Atributos adicionales requeridos | Ninguno. |
 | Modo | Solo lectura. |

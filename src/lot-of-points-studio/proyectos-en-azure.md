@@ -12,7 +12,7 @@ Introduce en [Ajustes](ajustes.md#acceso-al-contenedor-de-azure), antes de consu
 localizador uniforme de recursos (URL) del contenedor con una firma de acceso compartido (SAS, del inglés
 *Shared Access Signature*). La firma determina los permisos y la caducidad del acceso.
 
-Con la URL de solo lectura puedes consultar los proyectos, sus nubes, estadísticas y miniaturas. La página muestra
+Con una URL de solo lectura cuyo SAS tenga los permisos Read y List puedes consultar los proyectos, sus nubes, estadísticas y miniaturas. La página muestra
 el aviso **Solo consulta** y oculta los botones de publicación y eliminación. Para crear proyectos o modificar su
 contenido, configura también la URL con SAS de escritura.
 
@@ -25,8 +25,8 @@ Pulsa **Nuevo proyecto…**, escribe el nombre y confirma con **Crear**. El proy
 seleccionado. Studio rechaza un nombre que coincida con el nombre visible o el identificador de otro proyecto,
 sin distinguir entre mayúsculas y minúsculas.
 
-El nombre se utiliza en la dirección del catálogo publicado. Conviene conservar su escritura al volver a trabajar
-con él: Azure distingue las mayúsculas de las minúsculas. El cuadro de creación sustituye las barras por guiones
+El nombre se utiliza en la dirección del catálogo publicado. Al introducir la dirección de un catálogo publicado,
+respeta las mayúsculas y minúsculas del nombre de archivo: Azure distingue las mayúsculas de las minúsculas. El cuadro de creación sustituye las barras por guiones
 y retira los signos de interrogación del nombre.
 
 ## Añadir y publicar nubes
@@ -42,7 +42,7 @@ proyecto seleccionado se actualiza para mostrar la nube.
 
 Al publicar una nube por primera vez, su nombre y la dirección de sus archivos se forman a partir del nombre del
 original sin su extensión. Volver a publicar en esa misma dirección sustituye los datos de la nube y conserva el
-nombre que se le haya dado después en Studio. Si una nube nueva tiene una dirección distinta y su nombre visible
+nombre visible asignado a la nube en Studio. Si una nube nueva tiene una dirección distinta y su nombre visible
 ya está ocupado, Studio añade « (2)», « (3)» y los números siguientes hasta obtener un nombre libre.
 La coincidencia de nombres no sustituye una nube cuya dirección sea distinta.
 Para publicar dos nubes distintas en un mismo proyecto, utiliza nombres de archivo distintos, aunque procedan
@@ -67,8 +67,8 @@ Un catálogo ya abierto conserva el nombre hasta que el usuario cierra ese catá
 
 ## Qué ocurre con la caché local
 
-Si Studio ha creado una caché nueva para publicar una nube, intenta eliminarla al terminar la subida: ha sido un
-intermedio de publicación y la nube ya está disponible en Azure. Si la caché existía antes de ese trabajo, la
+Si Studio ha creado una caché nueva para publicar una nube, intenta eliminarla al terminar la subida: Studio creó esa caché
+para preparar los datos que publica en Azure y la nube ya está disponible en Azure. Si la caché existía antes de ese trabajo, la
 conserva, porque puede estar utilizándola Lot Of Points u otra aplicación.
 
 Si cancelas la subida o esta falla, la caché local se conserva. Puedes consultar el motivo en **Tareas** y volver

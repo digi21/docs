@@ -8,11 +8,11 @@ dimensiones, consultar las fotografías esféricas que la acompañan y tomar med
 varias nubes en una misma vista y combinarlas con capas vectoriales GeoPackage para dibujar sobre ellas.
 
 El trabajo comienza en el panel **Capas**, desde el que se abren tanto archivos locales como nubes publicadas en
-Azure con [Lot Of Points Studio](../lot-of-points-studio/README.md). A partir de ahí puedes ajustar la representación
-de los puntos, acercarte a una zona de interés o guardar una vista para volver a ella. La [introducción](introduccion.md) explica este recorrido
+Azure con [Lot Of Points Studio](../lot-of-points-studio/README.md). Después de abrir las nubes puedes ajustar la representación
+de los puntos, acercarte a una zona de interés o guardar una vista para volver a ella. La [introducción](introduccion.md) explica cómo abrir nubes, ajustar su representación y guardar vistas
 y presenta las herramientas de navegación, medida y edición.
 
-Para corregir una nube, selecciona una región o los puntos que deja un comando y aplica la acción.
+Para corregir una nube, selecciona una región o los puntos seleccionados por un comando y aplica Borrar, Clasificar o Aislar.
 Lot Of Points guarda las ediciones aparte del original, permite deshacerlas y puede exportar el original
 editado de una nube local a un nuevo archivo LAS (formato de intercambio de nubes de puntos).
 Las nubes remotas conservan sus ediciones en el equipo del usuario.

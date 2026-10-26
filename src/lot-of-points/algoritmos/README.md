@@ -2,7 +2,7 @@
 <!-- id: lot-of-points-algoritmos -->
 
 Los comandos de extensiones pueden procesar nubes por teselas mediante `process_tiles`.
-El comando elige las nubes y las opciones; Lot Of Points prepara las teselas, llama al cálculo y registra
+El comando elige las nubes y las opciones; Lot Of Points prepara las teselas, llama a la función `process_tile` para procesar cada tesela y registra
 los cambios de clasificación y borrado que el cálculo confirma.
 
 Una tesela es una región cuadrada en planta que abarca toda la altura de la nube.
@@ -104,6 +104,6 @@ El cálculo usa los vecinos del solape, pero el programa guarda únicamente los 
 La rejilla comienza en múltiplos del lado del núcleo. Las longitudes usan las unidades de las coordenadas
 de la nube; esas unidades pueden ser grados si la nube utiliza coordenadas geográficas.
 
-El programa entrega las clases editadas y excluye los puntos borrados. El programa también limita los puntos
-entregados cuando hay puntos aislados. Las teselas sin puntos en el núcleo se omiten.
+El programa entrega las clases editadas y excluye los puntos borrados. Cuando hay puntos aislados, el programa entrega únicamente los puntos
+incluidos en el aislamiento. Las teselas sin puntos en el núcleo se omiten.
 Si el comando habilita la concurrencia, el programa puede calcular varias teselas a la vez.

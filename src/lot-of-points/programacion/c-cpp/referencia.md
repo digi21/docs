@@ -20,7 +20,7 @@ al idioma recibido, o al inglés si la DLL no dispone de ese idioma.
 
 El programa conserva el orden del array para los botones de cada sección. El catálogo busca primero en
 `%AppData%\lop\algorithms` y después en `algorithms` de la instalación, con las DLL de cada carpeta por
-orden alfabético. Un identificador ya declarado conserva la primera declaración válida.
+orden alfabético. Lot Of Points conserva la primera declaración válida de cada identificador.
 
 Al pulsar un botón habilitado, Lot Of Points llama a:
 
@@ -50,10 +50,10 @@ con `host->log` antes de devolver `LOP_FAILED`. Ninguna excepción debe cruzar l
 
 Los comandos que declaran el mismo `new_tab_title` comparten pestaña. Las pestañas nuevas aparecen después
 de las propias de Lot Of Points. Cada DLL conserva sus secciones, aunque otra DLL use el mismo título de sección.
-Una pestaña existente que no esté declarada, o que sea contextual, produce un aviso y su botón no aparece.
+Si un comando indica una pestaña inexistente o contextual en `existing_tab_id`, Lot Of Points muestra un aviso y no muestra el botón de ese comando.
 
 El icono debe medir 32 × 32 píxeles, con dibujo negro sobre fondo transparente. El programa utiliza el canal
-alfa del PNG para teñir el dibujo con el color del tema.
+alfa del PNG para dibujar el icono con el color del tema.
 
 ### Requisitos del botón
 
@@ -158,7 +158,7 @@ int points_in_sphere(void* context, double const center[3], double radius,
 void release_points(void* context, lop_points* points);
 ```
 
-La consulta devuelve los puntos a distancia menor o igual que `radius`, con todo el detalle de las nubes,
+La consulta devuelve los puntos cuya distancia al centro `center` es menor o igual que `radius`, con todo el detalle de las nubes,
 sin puntos borrados y dentro del aislamiento vigente. El centro y el radio deben ser finitos; el radio debe
 ser mayor o igual que 0. Las longitudes usan las unidades de las coordenadas de la nube.
 
@@ -234,13 +234,13 @@ La función devuelve `LOP_OK`, `LOP_CANCELLED` o `LOP_FAILED`.
 
 | Miembro de `lop_tile_host` | Función |
 |---|---|
-| `report_tile_progress(context, fraction)` | Comunica la fracción completada de esa tesela, de 0 a 1. |
+| `report_tile_progress(context, fraction)` | Comunica la fracción completada de esa tesela, de 0 a 1, ambos incluidos. |
 | `cancelled(context)` | Indica que la función debe detenerse y devolver `LOP_CANCELLED`. |
 | `log(context, message)` | Escribe una línea en **Salida**. |
 | `max_worker_thread_count` | Número máximo de hilos simultáneos que debe usar el cálculo de esa tesela; como mínimo, 1. |
 
 Las funciones del anfitrión de la tesela admiten llamadas desde cualquier hilo durante `process_tile`.
-Con `LOP_TILES_CONCURRENT`, el programa puede llamar a varias teselas simultáneamente, con datos y resultados
+Con `LOP_TILES_CONCURRENT`, el programa puede ejecutar `process_tile` simultáneamente para varias teselas, con datos y resultados
 propios. El cálculo debe proteger el estado compartido y respetar `max_worker_thread_count`.
 
 ### Confirmación y errores
@@ -265,7 +265,7 @@ Un error al guardar puede dejar el evento confirmado en algunas nubes; **Salida*
 | `status(context, message)` | Escribe en la barra de estado; una cadena vacía o nula borra el mensaje. |
 | `cancelled(context)` | Indica la cancelación solicitada con **Esc** o con el botón de otro comando. |
 | `show_temporary_line(context, xyz, count, closed)` | Dibuja una polilínea de `count` vértices en coordenadas del mundo; 0 vértices la retiran y `closed != 0` cierra el trazado. |
-| `class_name(context, classification)` | Devuelve el nombre actual del panel **Clasificaciones**, o una cadena vacía si la clase no tiene nombre. La cadena permanece válida hasta que termina `run`. |
+| `class_name(context, classification)` | Devuelve el nombre actual de la clase `classification` definido en el panel **Clasificaciones**, o una cadena vacía si la clase no tiene nombre. La cadena permanece válida hasta que termina `run`. |
 | `load_geopackage(context, geopackage_file_path)` | Carga el archivo como capas de **Capas**, una por tabla. Devuelve `LOP_OK`, `LOP_CANCELLED` o `LOP_FAILED`; **Salida** recoge el motivo del fallo. |
 
 El anfitrión del comando y sus funciones son válidos hasta que termina `run`, también para los hilos creados

@@ -6,7 +6,7 @@ la altura de cada punto sobre el punto más bajo de su celda.
 El botón requiere alguna nube con registro de ediciones e índices del archivo original.
 
 El comando procesa las nubes abiertas que cumplen esas dos condiciones, incluidas las ocultas y las remotas.
-El comando escribe en **Salida** el motivo de las nubes omitidas.
+El comando escribe en **Salida** el motivo por el que omite cada nube.
 
 El cálculo divide la tesela en celdas cuadradas en planta y busca la cota mínima de cada celda.
 Un punto cuya altura sobre ese mínimo sea menor o igual que

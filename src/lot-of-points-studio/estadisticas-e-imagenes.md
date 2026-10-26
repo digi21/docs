@@ -9,13 +9,13 @@ miniaturas de las imágenes disponibles.
 
 Studio calcula las estadísticas al preparar las nubes y las incorpora al catálogo al publicarlas. No necesitas
 ejecutar una operación adicional para obtenerlas. Los catálogos antiguos pueden carecer de estos datos; volver
-a publicar las nubes permite incorporarlos.
+a publicar las nubes permite incorporar las estadísticas a los catálogos.
 
 | Dato | Qué representa |
 |---|---|
 | Nubes | Número de entradas del proyecto. |
 | Puntos | Puntos del nivel de detalle. El total del proyecto suma los datos de las nubes que tienen estadísticas. |
-| Tamaño | Suma del índice y del archivo de puntos, expresada en bytes (B), kilobytes (KB), megabytes (MB) o gigabytes (GB). No incluye las imágenes ni el archivo de atributos adicionales. |
+| Tamaño | Suma de los tamaños del archivo de índice y del archivo de puntos, expresada en bytes (B), kilobytes (KB), megabytes (MB) o gigabytes (GB). No incluye las imágenes ni el archivo de atributos adicionales. |
 | Clases | Números de las clases presentes en la nube. No es un recuento de puntos por clase. |
 | Tomas fotográficas | Número de tomas asociadas a la nube o al proyecto. Cada toma con seis caras de un cubo (*cubemap*) cuenta una vez, a partir de su archivo de orientación. |
 
@@ -39,5 +39,5 @@ Al publicar una nube, Studio incluye sus fotografías, los datos que sitúan cad
 para reconocerlas. Debajo de cada nube, la galería muestra una miniatura por toma. En los cubemaps se utiliza una
 de las caras para representar la toma, aunque se publican las seis caras y sus miniaturas para el visor.
 
-Las miniaturas conservan las proporciones de cada imagen y su nombre aparece al mantener el puntero sobre ellas.
+Las miniaturas conservan las proporciones de cada imagen. Al mantener el puntero sobre una miniatura, Studio muestra el nombre de la imagen correspondiente.
 Para recorrer las fotografías desde su posición de toma, abre el [proyecto en Lot Of Points](compartir-proyectos.md).

@@ -20,7 +20,7 @@ aplicación pueda cambiar mientras tanto.
 
 ## lop.run_command
 
-`lop.run_command(id)` lanza la orden igual que su botón de la cinta y vuelve enseguida: una orden interactiva (medir,
+`lop.run_command(id)` lanza la orden igual que su botón del ribbon y retorna sin esperar a que termine la orden: una orden interactiva (medir,
 seleccionar) queda esperando los clics del usuario, y un algoritmo sigue ejecutándose en segundo plano. La función no
 hace nada en estos casos:
 
@@ -34,15 +34,15 @@ hace nada en estos casos:
 | `lop.view.zoom-extents` | **Zoom extensión**. |
 | `lop.view.origin` | **Ir a origen**. |
 | `lop.view.deselect` | **Deseleccionar punto**. |
-| `lop.view.points`, `lop.view.spheres` | **Ver puntos** y **Ver esferas**: encienden o apagan los puntos y las esferas. |
+| `lop.view.points`, `lop.view.spheres` | **Ver puntos** y **Ver esferas**: alternan la visibilidad de los puntos y de las esferas, respectivamente. |
 | `lop.view.save-viewpoint`, `lop.view.open-viewpoint` | **Guardar vista** y **Abrir vista**. |
 | `lop.measure.distance`, `lop.measure.height`, `lop.measure.azimuth`, `lop.measure.angle` | **Dibujar distancia**, **Dibujar altura**, **Dibujar azimuth** y **Dibujar ángulo**. |
 | `lop.measure.copy-coordinates` | **Copiar coordenadas**. |
 | `lop.draw.point`, `lop.draw.line` | **Punto** y **Línea** de la pestaña **Dibujar**. |
 | `lop.draw.undo`, `lop.draw.redo` | **Deshacer** y **Rehacer** del dibujo. |
 | `lop.edit.sphere`, `lop.edit.polyline`, `lop.edit.box`, `lop.edit.plumbed-box`, `lop.edit.cylinder` | Las herramientas de selección **Esfera**, **Polilínea**, **Caja**, **Caja aplomada** y **Selección con cilindro**. |
-| `lop.edit.delete`, `lop.edit.classify`, `lop.edit.isolate` | **Borrar**, **Clasificar** y **Aislar**, sobre una región revisada o una selección de puntos. |
-| `lop.edit.restore` | **Restaurar**, únicamente sobre una región revisada. |
+| `lop.edit.delete`, `lop.edit.classify`, `lop.edit.isolate` | **Borrar**, **Clasificar** y **Aislar**, sobre una región seleccionada o una selección de puntos. |
+| `lop.edit.restore` | **Restaurar**, únicamente sobre una región seleccionada. |
 | `lop.edit.unisolate` | **Quitar aislamiento**, en **Vista aislada**. |
 | `lop.edit.undo`, `lop.edit.redo` | **Deshacer** y **Rehacer** de la barra de título. |
 | `lop.edit.export` | **Exportar editada**. |
@@ -65,8 +65,8 @@ origen arriba a la izquierda.
 | `NavigationReferencePoint` | `Point3D` o `None` | Un punto del nodo raíz de la primera nube para situar la cámara, si está disponible. |
 | `NearClipDistanceCloudUnits`, `FarClipDistanceCloudUnits` | `float`, lectura y escritura | Distancias de la cámara a los planos de recorte cercano y lejano, en unidades de la nube. |
 
-`Camera` coloca la cámara del visor, pero no cambia la cámara de Lot Of Points: el siguiente clic, el siguiente giro de
-la rueda o la siguiente orden devuelven la vista a la posición de la cámara de Lot Of Points. Para cambiar la vista de
+`Camera` aplica la posición y la orientación al dibujo del siguiente fotograma, sin actualizar el estado de cámara que utilizan las herramientas de navegación: el siguiente clic, el siguiente giro de
+la rueda o la siguiente orden devuelven la vista a la posición de cámara que utilizan esas herramientas. Para cambiar la vista de
 forma estable, usa las órdenes de vista con `lop.run_command` (`lop.view.top`, `lop.view.zoom-extents`...).
 
 ### Puntos bajo el cursor
@@ -78,7 +78,7 @@ forma estable, usa las órdenes de vista con `lop.run_command` (`lop.view.top`, 
 | `PixelRay(x, y)` | método → `Ray3D` | El rayo que sale de la cámara por el píxel (`x`, `y`). |
 | `PixelToCamera(x, y, cameraZ)` | método → `Point3D` | El píxel (`x`, `y`) a la profundidad `cameraZ`, en coordenadas de la cámara. |
 | `CameraToPixel(point)` | método → `Point3D` | El punto `point` proyectado en la pantalla. |
-| `FirstPointInCylinder(p1, p2, radius)` | método → `Point3D` o `None` | De los puntos cargados que caen en el cilindro de eje `p1`–`p2` y radio `radius`, el más cercano a `p1`. Con `p1` por debajo de la nube, da el suelo bajo un punto. |
+| `FirstPointInCylinder(p1, p2, radius)` | método → `Point3D` o `None` | Devuelve el punto cargado más cercano a `p1` dentro del cilindro de eje `p1`–`p2` y radio `radius`. |
 
 `LocatePoint` y `FirstPointInCylinder` buscan entre los puntos que el visor tiene cargados en ese momento, no entre
 todos los puntos del archivo.
@@ -93,12 +93,12 @@ todos los puntos del archivo.
 | `SelectByPolyline(vertices, radius)` | método | Selecciona los puntos a menos de `radius` de una polilínea: un cilindro por tramo. `vertices` es una lista de .NET de `Point3D` ([Listas](#listas)). |
 | `ClearSelection()` | método | Quita la selección. |
 | `HasPointSelection` | `bool`, lectura | Indica que hay una selección de puntos dejada por un comando. |
-| `LoadedSelectedPointCount` | `int`, lectura | Los puntos seleccionados del nivel de detalle cargado. El hilo de dibujo los cuenta: justo después de seleccionar, el valor puede no estar actualizado. |
+| `LoadedSelectedPointCount` | `int`, lectura | Número de puntos seleccionados del nivel de detalle cargado. El hilo de dibujo cuenta los puntos: justo después de seleccionar, el valor puede no estar actualizado. |
 | `ConfirmEdit(eventCode, actionKind, classCode)` | método → `int` | Anota la selección como un evento de edición con la acción `actionKind` (`EditAction`) y la clase `classCode` (0–255, solo para `EditAction.AssignClass`). Devuelve el número de nubes en las que se ha anotado. Lanza una excepción si no puede escribir el registro de ediciones. |
 | `IsolateSelection()` | método → `bool` | Aísla la región seleccionada o los puntos seleccionados y limita las ediciones siguientes al aislamiento. |
 | `RemoveIsolation()` | método | Quita el aislamiento. |
 | `HasIsolation` | `bool`, lectura | Si hay una región o puntos aislados. |
-| `EditingHistory` | lista de `WrittenEvent` | Los eventos escritos en los registros de ediciones de las nubes abiertas, en orden. |
+| `EditingHistory` | lista de `WrittenEvent` | Los eventos escritos en los registros de ediciones de las nubes abiertas. |
 | `EditableClouds` | lista de `str` | Rutas o direcciones de las nubes con registro de ediciones. La exportación del original editado admite únicamente nubes locales. |
 | `ExportEditedOriginal(originalPath, outputLasPath, percent)` | método → `int` | Escribe en `outputLasPath` un archivo LAS (formato de intercambio de nubes de puntos) con el original y sus ediciones aplicadas. Devuelve el número de puntos escritos. `percent` puede ser `None`. |
 
@@ -112,7 +112,7 @@ interfaz no responde hasta que termina.
 
 | Miembro | Tipo | Descripción |
 |---|---|---|
-| `SphericalPhotos` | lista de `ISphericalPhoto` | Las imágenes esféricas de las nubes abiertas, en su orden. |
+| `SphericalPhotos` | lista de `ISphericalPhoto` | Las imágenes esféricas de las nubes abiertas. |
 | `LocateSphere(x, y)` | método → `ISphericalPhoto` o `None` | La esfera que cruza el rayo del píxel (`x`, `y`). |
 | `SphereRadius` | `float`, lectura y escritura | El radio con el que se dibujan las esferas, en metros. |
 
@@ -142,7 +142,7 @@ interfaz no responde hasta que termina.
 Las propiedades sin «lectura» se leen y se escriben. Lot Of Points no guarda en su configuración el estado visual que
 cambia un guion.
 
-| `ColorAttribute` | Valor | En la cinta |
+| `ColorAttribute` | Valor | En el ribbon |
 |---|---|---|
 | `Rgb` | 0 | RGB (componentes rojo, verde y azul) |
 | `Classification` | 1 | Clasificación |
@@ -152,7 +152,7 @@ cambia un guion.
 | `ByCloud` | 5 | Por nube |
 | `ReturnNumber` | 6 | Número de retorno |
 
-| `ColorRamp` | Valor | En la cinta |
+| `ColorRamp` | Valor | En el ribbon |
 |---|---|---|
 | `Gray` | 0 | Escala de grises |
 | `Rainbow` | 1 | Arcoíris |
@@ -168,7 +168,7 @@ Estos miembros los usan las herramientas interactivas de Lot Of Points:
 |---|---|
 | `TemporaryGeometry` | La vista previa de la herramienta activa: una geometría de `Geometries` (`Point`, `Polyline`, `Dimension`, `Azimuth`, `Angle`) o `None`. |
 | `SelectedGeometry` | La geometría seleccionada, que el visor dibuja animada, o `None`. |
-| `ShowEditingGuide(vertices)` | La línea que sigue al cursor mientras se pincha una selección. |
+| `ShowEditingGuide(vertices)` | La línea que sigue al cursor mientras el usuario señala puntos para delimitar una región de selección. |
 | `ShowEditingArrows(arrows, highlighted)` | Las flechas que mueven las caras de una caja de selección. |
 | `RequestFirstLevelFraming(onArrive)` | Pide la medida del encuadre de la nube entera; la entrega a la función `onArrive` en un fotograma posterior. |
 | `IsolatedExtentOnAxes(right, up, front)` | La región aislada medida en los ejes de la cámara, o `None` si no hay aislamiento. |
@@ -182,7 +182,7 @@ Estos miembros los usan las herramientas interactivas de Lot Of Points:
 | `Ray3D` | `from Lop.Core.Services import Ray3D` | `Origin` y `Direction` (`Point3D`). |
 | `ColorRgba` | `from Lop.Core.Services import ColorRgba` | `ColorRgba(r, g, b, a)` con valores de 0 a 255; `ColorRgba.FromHex("#rrggbb")` o `"#aarrggbb"`; `R`, `G`, `B`, `A`; `ToHex()`. |
 | `EditAction` | `from Lop.Core.Services import EditAction` | `EditAction.Delete`, `EditAction.Restore`, `EditAction.AssignClass`. |
-| `WrittenEvent` | | `EventId` (identificador que expresa milisegundos desde 1970), `EventCode` (el código del evento) y `Clouds` (el número de nubes). |
+| `WrittenEvent` | | `EventId` (identificador que expresa milisegundos desde el 1 de enero de 1970 a las 00:00:00 UTC), `EventCode` (el código del evento) y `Clouds` (el número de nubes). |
 | `ISphericalPhoto` | | `Name`, `WorkingImagePath`, `Coordinates` (`Point3D`), `HasWorkingImages`, `HasThumbnail`, `OriginalPaths` (lista de `str`) y `ShowSphere` (`bool`, lectura y escritura: si su esfera se dibuja). |
 | `ColorAttribute`, `ColorRamp` | `from Lop.Core.Models import ColorAttribute, ColorRamp` | Los valores de las tablas de [Estado visual](#estado-visual). `int(ColorAttribute.Classification)` da el número que esperan las propiedades. |
 
@@ -236,13 +236,13 @@ def command_function(host):
 Exactamente uno de `existing_tab_id` y `new_tab_title` debe contener texto.
 Los identificadores de pestañas existentes son `lop.tab.view`, `lop.tab.draw`, `lop.tab.edit` y
 `lop.tab.classification`. `ribbon_section` determina la sección del plugin.
-`icon` es la ruta de una imagen PNG (*Portable Network Graphics*) de 32 × 32 píxeles, negro sobre transparente, relativo a la carpeta del guion.
+`icon` es la ruta de una imagen PNG (*Portable Network Graphics*), relativa a la carpeta del guion. La imagen debe medir 32 × 32 píxeles y contener un dibujo negro sobre fondo transparente.
 El tamaño máximo del icono es 1.048.576 bytes. Un icono ilegible o inválido produce un aviso y el botón
 usa el icono predeterminado.
 
 `requirements` combina `lop.REQUIRES_OPEN_CLOUD`, `lop.REQUIRES_VISIBLE_CLOUD` y
-`lop.REQUIRES_EDITABLE_CLOUD`. El programa habilita el botón y permite la ejecución cuando cumple
-todos los requisitos. Con 0, el botón no depende de esos requisitos.
+`lop.REQUIRES_EDITABLE_CLOUD`. El programa habilita el botón y permite ejecutar el comando cuando se cumplen
+todos los requisitos declarados por el comando. Con 0, el botón no depende de esos requisitos.
 Una nube editable para este requisito necesita registro de ediciones e índices en el archivo original.
 
 ```python
@@ -272,7 +272,7 @@ Las llamadas que esperan puntos o teselas bloquean el hilo del comando y permite
 | `clouds()` | Lista de `Cloud` en orden de **Capas**, o `None` al cancelar. |
 | `process_tiles(cloud_ids, options, process_tile)` | `TilesSummary` al terminar, `None` al cancelar; lanza `ProcessTilesFailed` si falla. |
 | `load_geopackage(geopackage_file_path)` | `True` si carga el archivo como capas; `False` al cancelar o fallar. **Salida** recoge el motivo del fallo. |
-| `parameter_value(id)` | Valor declarado del parámetro; lanza `KeyError` si el identificador no existe. |
+| `parameter_value(id)` | Valor del parámetro que el programa tomó al iniciar el comando; lanza `KeyError` si el identificador no existe. |
 
 `ask_point` espera un clic sobre una nube visible y ofrece al filtro `accept_point(point, cloud)`
 los candidatos no borrados que estén a 0,05 unidades de la nube o menos del punto pulsado.
@@ -373,6 +373,6 @@ Cuando la función termina normalmente, el programa valida y copia al resultado 
 o asignadas. El programa guarda únicamente los resultados de los puntos del núcleo.
 
 `TileHost` proporciona `report_tile_progress(fraction)`, `cancelled()`, `log(message)` y
-`max_worker_thread_count()`. El progreso va de 0 a 1.
+`max_worker_thread_count()`. `report_tile_progress` recibe una fracción de progreso entre 0 y 1, ambos incluidos.
 Después de terminar la función de la tesela, `cancelled()` devuelve `True`, los métodos de progreso
 y registro no realizan acciones y `max_worker_thread_count()` conserva su valor.

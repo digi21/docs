@@ -13,10 +13,10 @@ no necesita configurar un contenedor de Azure.
 
 Si vas a compartir las nubes, la página [Proyectos](proyectos-en-azure.md) permite agruparlas y publicarlas en un
 contenedor de Azure. Studio prepara cada nube, sube sus datos e imágenes y actualiza el catálogo del proyecto. Una
-vez publicado, puedes [copiar su enlace](compartir-proyectos.md) para abrirlo en Lot Of Points por *streaming*,
-sin descargar antes todas las nubes.
+vez publicado el proyecto, puedes [copiar su enlace](compartir-proyectos.md) para abrir las nubes del proyecto en Lot Of Points por *streaming*:
+el visor solicita los datos a medida que los necesita, sin descargar antes todas las nubes.
 
 La misma página permite consultar los proyectos publicados, sus [estadísticas e imágenes](estadisticas-e-imagenes.md).
-Con un acceso de solo lectura puedes revisar su contenido; con acceso de escritura puedes añadir nubes y eliminar
+Con un acceso de solo lectura puedes revisar el contenido de los proyectos publicados; con acceso de escritura puedes añadir nubes y eliminar
 las que ya no necesites. Los [ajustes](ajustes.md) reúnen la ubicación de la caché y las direcciones de acceso al
 contenedor.
