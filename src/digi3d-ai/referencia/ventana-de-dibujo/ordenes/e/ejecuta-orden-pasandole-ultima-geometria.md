@@ -1,7 +1,7 @@
 # EJECUTA\_ORDEN\_PASANDOLE\_ULTIMA\_GEOMETRIA
 <!-- id: ejecuta-orden-pasandole-ultima-geometria -->
 
-Esta orden permite incluir en macroinstrucciones y órdenes en pulsaciones de teclas la posibilidad de ejecutar una orden que espera a que se seleccione una geometría
+Permite ejecutar desde macroinstrucciones y órdenes asignadas a pulsaciones de teclas una orden que espera la selección de una geometría.
 
 ## Parámetros
 
@@ -11,7 +11,7 @@ Esta orden permite incluir en macroinstrucciones y órdenes en pulsaciones de te
 
 ## Observaciones
 
-La orden ejecuta la orden indicada en el parámetro. Si esa orden espera la selección de una geometría, la orden ejecuta a continuación [SELECCIONA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ultimo.md), que le pasa la última geometría visible del archivo de dibujo.
+La orden ejecuta la orden indicada en el parámetro. Si la orden indicada espera la selección de una geometría, EJECUTA\_ORDEN\_PASANDOLE\_ULTIMA\_GEOMETRIA ejecuta a continuación [SELECCIONA\_ULTIMO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/s/selecciona-ultimo.md), que pasa a la orden indicada la última geometría visible del archivo de dibujo.
 
 ## Características de la orden
 

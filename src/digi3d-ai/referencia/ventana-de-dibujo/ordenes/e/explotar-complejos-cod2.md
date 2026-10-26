@@ -1,13 +1,13 @@
 # EXPLOTAR\_COMPLEJOS\_COD2
 <!-- id: explotar-complejos-cod2 -->
 
-Divide varios elementos complejos por código, sin respetar el código de los sub-elementos.
+Descompone las entidades complejas de los códigos indicados y sustituye los códigos de las entidades que las forman por los del complejo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos de las entidades complejas a explotar | Si |
+| 1 … N | Código o códigos de las entidades complejas a explotar | Sí |
 
 ## Observaciones
 

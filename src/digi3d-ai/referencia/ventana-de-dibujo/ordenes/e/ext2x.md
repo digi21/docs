@@ -30,7 +30,7 @@ Si el control de calidad descarta cualquiera de las dos líneas prolongadas, se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Extender dos líneas existentes hasta su intersección |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |

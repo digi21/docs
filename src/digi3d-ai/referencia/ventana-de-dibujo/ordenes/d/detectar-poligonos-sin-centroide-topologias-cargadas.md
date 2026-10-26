@@ -1,7 +1,7 @@
 # DETECTAR\_POLIGONOS\_SIN\_CENTROIDE\_TOPOLOGIAS\_CARGADAS
 <!-- id: detectar-poligonos-sin-centroide-topologias-cargadas -->
 
-Marca como error aquellos polígonos que se formen al formar una topología con todos los recintos de las topologías cargadas y que no tengan un centroide.
+Forma una topología con todos los recintos de las topologías cargadas y marca como error los polígonos resultantes que no tienen centroide.
 
 ## Parámetros
 

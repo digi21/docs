@@ -7,7 +7,7 @@ Guarda en un archivo TXT el contenido del panel de resultados.
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Ruta del archivo a crear. Si no se especifica, el programa mostrará un cuadro de diálogo para que el usuario indique la ruta | Cadena de caracteres | Si |
+| 1 | Ruta del archivo que se va a crear. Si no indicas la ruta, el programa muestra un cuadro de diálogo para que la especifiques | Cadena de caracteres | Sí |
 
 ## Características de la orden
 

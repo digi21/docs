@@ -1,7 +1,7 @@
 # EXPLOTAR\_COMPLEJO
 <!-- id: explotar-complejo -->
 
-Explota las entidades complejas quedando divididas por las cadenas de líneas que componen la entidad compleja.
+Descompone las entidades complejas en las cadenas de líneas que las forman.
 
 ## Parámetros
 

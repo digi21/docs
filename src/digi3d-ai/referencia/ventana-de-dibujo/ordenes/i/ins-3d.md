@@ -13,7 +13,7 @@ Inserta un bloque en 3D a partir de tres puntos: el primero fija la posición, e
 
 * El primer punto es el punto de inserción: el origen \(0, 0, 0\) del bloque se coloca en él.
 * El segundo punto orienta el bloque: el eje Z negativo del bloque se alinea con la dirección que va del primer punto al segundo.
-* El tercer punto gira el bloque alrededor de ese eje.
+* El tercer punto determina el giro del bloque alrededor del eje Z negativo del bloque.
 * El bloque se inserta sin aplicar la escala activa.
 
 ## Características de la orden

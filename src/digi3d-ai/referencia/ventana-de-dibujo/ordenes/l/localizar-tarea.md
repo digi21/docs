@@ -1,7 +1,7 @@
 # LOCALIZAR\_TAREA
 <!-- id: localizar-tarea -->
 
-Esta orden solicita al usuario que digitalize un punto y se localiza y selecciona la tarea que hubiera en ese punto (si es que había alguna).
+Esta orden solicita que digitalices un punto y, si hay una tarea en ese punto, la localiza y la selecciona.
 
 ## Parámetros
 

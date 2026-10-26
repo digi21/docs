@@ -1,13 +1,13 @@
 # DETECTAR\_RECINTOS\_SIN\_VECINOS
 <!-- id: detectar-recintos-sin-vecinos -->
 
-Analiza los recintos topológicos de todas las topologías cargadas y muestra como error aquellos tramos que pertenezcan únicamente a un único recinto topológico, excluyendo aquellos que tengan entre sus códigos alguno de los indicados como códigos de límite.
+Analiza los recintos topológicos de todas las topologías cargadas y marca como error los tramos que pertenecen a un único recinto topológico, salvo los tramos que tienen alguno de los códigos de límite indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 y siguientes | Códigos de límite | Si |
+| 1 y siguientes | Códigos de límite | Sí |
 
 ## Observaciones
 

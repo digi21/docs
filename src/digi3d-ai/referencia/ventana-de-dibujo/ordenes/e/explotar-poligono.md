@@ -1,7 +1,7 @@
 # EXPLOTAR\_POLIGONO
 <!-- id: explotar-poligono -->
 
-Divide el polígono en todas las entidades que lo forman.
+Descompone el polígono en las entidades que lo forman.
 
 ## Parámetros
 

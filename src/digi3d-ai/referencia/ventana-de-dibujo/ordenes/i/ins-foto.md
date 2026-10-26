@@ -1,9 +1,9 @@
 # INS\_FOTO
 <!-- id: ins-foto -->
 
-Inserta una imagen en el archivo de dibujo mediante dos puntos: el primero para el centro y el segundo para indicar la rotación y escala.
+Inserta una imagen en el archivo de dibujo mediante dos puntos: el primero indica el centro y el segundo determina la rotación y la escala.
 
-![INS_FOTO: centro de la imagen (1) y punto medio del lado derecho (2), que dan medio ancho y giro](../../../../../images/orden-ins-foto.svg)
+![INS_FOTO: centro de la imagen (1) y punto medio del lado derecho (2), que determinan la mitad del ancho y el giro de la imagen](../../../../../images/orden-ins-foto.svg)
 
 ## Parámetros
 
@@ -14,7 +14,7 @@ No admite parámetros.
 La orden pide primero el archivo de imagen. Después:
 
 1. Digitaliza el centro de la imagen.
-2. Digitaliza el punto medio del lado derecho de la imagen. La distancia entre los dos puntos es la mitad del ancho de la imagen, y la dirección del primero al segundo es su giro.
+2. Digitaliza el punto medio del lado derecho de la imagen. La distancia entre los dos puntos es la mitad del ancho de la imagen, y la dirección del primer punto al segundo determina el giro de la imagen.
 
 Esta orden respeta la relación de aspecto de la imagen.
 

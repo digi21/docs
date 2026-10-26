@@ -1,7 +1,7 @@
 # GENERALIZAR\_TOPOLOGIA
 <!-- id: generalizar-topologia -->
 
-Elimina centroides y líneas para agrupar polígonos vecinos con el mismo centroide en la topología pasada por parámetros.
+Elimina centroides y líneas para agrupar, en la topología indicada como parámetro, polígonos vecinos cuyos centroides tienen el mismo texto y los mismos códigos.
 
 ## Parámetros
 

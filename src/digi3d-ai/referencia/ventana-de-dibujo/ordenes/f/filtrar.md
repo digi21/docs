@@ -1,7 +1,7 @@
 # FILTRAR
 <!-- id: filtrar-2 -->
 
-Borra las curvas de nivel que no corresponden a una equidistancia y asigna el código de maestra o de fina al resto según su coordenada Z. Reproduce el programa FILTRAR de Digi para MS-DOS.
+Borra las curvas de nivel que no corresponden a una equidistancia y asigna el código de maestra o de fina a las curvas restantes según la coordenada Z de cada curva. Reproduce el programa FILTRAR de Digi para MS-DOS.
 
 ## Parámetros
 
@@ -20,7 +20,7 @@ La orden trabaja con las geometrías no borradas que tienen el código de maestr
 
 1. Borra las geometrías cuya Z del primer vértice no es múltiplo de la equidistancia.
 2. Asigna el código de maestra a las geometrías cuya Z es múltiplo de la equidistancia multiplicada por el intervalo de maestras.
-3. Asigna el código de fina al resto.
+3. Asigna el código de fina a las geometrías restantes.
 
 La orden redondea la Z a tres decimales antes de comparar. Para cambiar el código, la orden añade un clon y borra la geometría original. El clon tiene un único código, el nuevo, sin tabla ni registro: la orden no conserva los demás códigos de la geometría.
 

@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Debemos introducir el número de escalones de la escalera, que serán paralelos a la base.
+Introduce el número de escalones de la escalera. Los escalones serán paralelos a la base.
 
 ## Características de la orden
 

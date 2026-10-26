@@ -1,17 +1,17 @@
 # DETECTAR\_LINEAS\_NO\_CONECTADAS\_3D
 <!-- id: detectar-lineas-no-conectadas-3d -->
 
-Crea una tarea de error por cada extremo de línea que no esté conectado por código en 3D.
+Crea una tarea de error por cada extremo de línea que no coincida en X, Y y Z con el extremo de otra línea de los códigos indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 
-Esta orden recorre las líneas visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados, y comprueba, para cada extremo, si coincide en X, Y y Z con el extremo de otra de esas líneas. Por cada extremo que quede suelto se genera una tarea de error.
+Esta orden recorre las líneas visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados, y comprueba, para cada extremo, si coincide en X, Y y Z con el extremo de otra de esas líneas. Por cada extremo sin conexión se genera una tarea de error.
 
 Cada código se compara de forma exacta. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
 

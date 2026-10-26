@@ -9,7 +9,7 @@ Dibuja un polígono que rodea a una línea existente.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código | Si |
+| 1 | Código | Sí |
 
 ## Observaciones
 

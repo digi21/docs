@@ -9,7 +9,7 @@ Asigna la Z de un punto digitalizado al vértice más cercano de cada línea pr�
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Tamaño del cursor, en píxeles | Número entero | Si |
+| 1 | Tamaño del cursor, en píxeles | Número entero | Sí |
 
 Sin parámetro, la orden usa el tamaño del cursor de la ventana de dibujo.
 
@@ -19,13 +19,13 @@ Al digitalizar un punto, la orden busca las líneas visibles que tienen un vért
 
 La orden termina después de procesar un punto.
 
-Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se modifican.
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Si hay varias entidades, la orden trata cada entidad de forma independiente: conserva la versión original de cada entidad cuya modificación se descarte y modifica las demás entidades.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

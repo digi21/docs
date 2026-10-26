@@ -5,11 +5,11 @@ Asocia el cursor de **DigiNG** a los movimientos de **Digi3D**.
 
 ## Parámetros
 
-No admite parámetros
+No admite parámetros.
 
 ## Observaciones
 
-Esta asociación la hace automáticamente al pulsar cualquier botón o pedal que se corresponda con **Dato**, **Tentativo** y **Fin\_Entidad**.
+El programa asocia automáticamente el cursor de **DigiNG** a los movimientos de **Digi3D** cuando pulsas un botón o pedal que corresponde a **Dato**, **Tentativo** o **Fin\_Entidad**.
 
 ## Características de la orden
 

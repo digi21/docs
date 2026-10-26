@@ -7,20 +7,20 @@ Exporta únicamente las entidades virtuales a un archivo nuevo.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Nombre del archivo de destino. Si no tiene extensión, la orden añade `.bind` | Si |
+| 1 | Nombre del archivo de destino. Si el nombre del archivo no tiene extensión, la orden añade `.bind` | Sí |
 
 Si no indicas el nombre del archivo, la orden muestra un cuadro de diálogo para seleccionar el archivo de destino, su formato y los parámetros de exportación. La orden funciona igual que [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md), pero solo exporta las entidades virtuales.
 
 ### Parámetros de exportación por formato
 
-Los parámetros de exportación dependerán del tipo de archivo que se desea exportar.
+Los parámetros de exportación dependen del formato del archivo de destino.
 
 
 | Archivo | Parámetro | Descripción |
 | :--- | :--- | :--- |
 | BIN |Precisión<br>Coordenadas del origen global|  |
-| DGN v8 |Archivo de células<br>Salto de entidades<br>Criterio para códigos<br>Códigos desconocidos|Archivo de células relacionado con el archivo DGN<br>Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria<br>Criterio a seguir para la selección del código de Digi para la representación de entidades (Nivel, Color, Estilo, Grosor, Célula ó únicamente Grupo Gráfico)<br>Código con que se generarán las entidades desconocidas, si no se especifica nada, el programa generará las entidades en el código desconocido standard (no seleccionable por parte del usuario)|
-| DWG ó DXF de AutoCAD | Versión de AutoCAD | Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
+| DGN v8 |Archivo de células<br>Salto de entidades<br>Criterio para códigos<br>Códigos desconocidos|Archivo de células relacionado con el archivo DGN<br>Carga un archivo DGN v8 de gran tamaño sin consumo de memoria<br>Criterio para seleccionar el código de Digi con el que se representan las entidades (Nivel, Color, Estilo, Grosor, Célula o únicamente Grupo Gráfico)<br>Código con el que se generan las entidades desconocidas. Si no indicas ningún código, el programa utiliza el código desconocido estándar (no puedes seleccionarlo)|
+| DWG o DXF de AutoCAD | Versión de AutoCAD | Versión de AutoCAD con la que se leerá el archivo resultante (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
 | ASCII de Kork | Sin parámetro |  |
 | MDB de Geomedia Datawarehose | Altura de textos | Es indispensable tener licencia de Geomedia |
 | Coordenadas XYZ | Número de decimales | Número de decimales para las coordenadas |

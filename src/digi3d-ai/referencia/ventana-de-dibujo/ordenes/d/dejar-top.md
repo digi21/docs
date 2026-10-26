@@ -1,13 +1,13 @@
 # DEJAR\_TOP
 <!-- id: dejar-top -->
 
-Descarga un fichero de topología, generado mediante la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md), de los cargados en el momento de ejecutar la orden.
+Descarga uno de los ficheros de topología generados mediante la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md) que estén cargados en el momento de ejecutar la orden.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ruta completa del archivo de topología a descargar | Si |
+| 1 | Ruta completa del archivo de topología a descargar | Sí |
 
 ## Observaciones
 
@@ -17,7 +17,7 @@ Sin parámetro:
 
 - Si no hay ninguna topología cargada, la orden muestra un mensaje de error y termina.
 - Si solo hay una topología cargada, la orden la descarga directamente.
-- Si hay varias, la orden muestra un cuadro de diálogo para seleccionar las topologías a descargar. Funciona igual que el de la orden [DEJAR](dejar.md#cuadro-de-diálogo-dejar-fichero-de-referencia): cada clic sobre una topología la selecciona o la deselecciona, sin necesidad de pulsar Ctrl ni Mayúsculas; **\* Todos** descarga todas, **Aceptar** descarga las seleccionadas y **Cancelar** cierra el cuadro sin descargar ninguna.
+- Si hay varias topologías cargadas, la orden muestra un cuadro de diálogo para seleccionar las topologías a descargar. El cuadro de diálogo funciona igual que el de la orden [DEJAR](dejar.md#cuadro-de-diálogo-dejar-fichero-de-referencia): cada clic sobre una topología la selecciona o la deselecciona, sin necesidad de pulsar Ctrl ni Mayúsculas; **\* Todos** descarga todas las topologías cargadas, **Aceptar** descarga las topologías seleccionadas y **Cancelar** cierra el cuadro sin descargar ninguna.
 
 ## Ejemplo
 

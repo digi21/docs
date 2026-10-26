@@ -1,18 +1,18 @@
 # INSERTAR\_VERTICE\_INTERSECCION\_LINEA\_PUNTO
 <!-- id: insertar-vertice-interseccion-linea-punto -->
 
-Inserta un vértice en la intersección de líneas con puntos
+Inserta un vértice en la intersección de líneas con puntos.
 
-![INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO: se inserta un vértice en la línea, en la proyección del punto que está a menos de la tolerancia; el punto más lejano no inserta ningún vértice](../../../../../images/orden-insertar-vertice-interseccion-linea-punto.svg)
+![INSERTAR_VERTICE_INTERSECCION_LINEA_PUNTO: se inserta un vértice en la línea, en la proyección del punto que está a menos de la tolerancia; no se inserta ningún vértice para el punto más lejano](../../../../../images/orden-insertar-vertice-interseccion-linea-punto.svg)
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
 | 1 | Tolerancia | No |
-| 2 | Código o códigos (uno o más) | Si |
+| 2 | Código o códigos (uno o más) | Sí |
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una línea modificada, solo se conserva su original y las demás se modifican.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una línea modificada, se conserva la versión original de esa línea y las demás líneas se modifican.
 
 ## Características de la orden
 

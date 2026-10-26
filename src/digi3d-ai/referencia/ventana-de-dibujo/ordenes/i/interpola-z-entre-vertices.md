@@ -1,7 +1,7 @@
 # INTERPOLA\_Z\_ENTRE\_VERTICES
 <!-- id: interpola-z-entre-vertices -->
 
-Solicita que se seleccione una línea por un vértice y luego solicita que se seleccione otro vértice de la misma línea. Una vez seleccionado el segundo, se interpola la coordenada Z de los vértices que estén entre los dos vértices seleccionados proporcionalmente a la distancia en planta \(XY\) recorrida a lo largo de la línea. Los dos vértices seleccionados conservan su Z.
+Selecciona una línea por uno de sus vértices y, a continuación, selecciona otro vértice de la misma línea. Al seleccionar el segundo vértice, la orden interpola la coordenada Z de los vértices intermedios proporcionalmente a la distancia en planta \(XY\) recorrida a lo largo de la línea. Los dos vértices seleccionados conservan su coordenada Z.
 
 ## Parámetros
 
@@ -13,7 +13,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Interpolar Z entre vértices |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

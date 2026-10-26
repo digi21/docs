@@ -11,7 +11,7 @@ No admite parámetros.
 
 La orden elimina de la memoria la topología temporal que generaron [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md) o [GENERAR\_TOPOLOGIA\_INUNDACION\_SIN\_ISLAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion-sin-islas.md), quita el resaltado de los recintos y regenera la vista. No modifica el archivo de dibujo.
 
-Después de descargarla, las órdenes de inundación muestran el aviso «No hay ninguna topología temporal creada» y terminan hasta que vuelvas a generar la topología. La opción del menú **Inundación/Descargar topología para inundaciones** está deshabilitada mientras no hay topología.
+Después de descargar la topología para inundación, las órdenes de inundación muestran el aviso «No hay ninguna topología temporal creada» y terminan si no has vuelto a generar la topología. La opción del menú **Inundación/Descargar topología para inundaciones** está deshabilitada mientras no hay topología.
 
 ## Características de la orden
 

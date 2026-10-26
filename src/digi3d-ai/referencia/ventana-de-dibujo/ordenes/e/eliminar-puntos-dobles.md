@@ -1,19 +1,19 @@
 # ELIMINAR\_PUNTOS\_DOBLES
 <!-- id: eliminar-puntos-dobles -->
 
-Elimina los puntos dobles de las entidades del archivo de dibujo activo. Si no se indica ningún parámetro, se eliminan únicamente los que coincidan en X,Y,Z. Si el parámetro es distinto de 0, se eliminan también los que coincidan únicamente en X,Y.
+Elimina los puntos dobles de las entidades del archivo de dibujo activo. Si no indicas ningún parámetro, la orden elimina únicamente los puntos que coinciden en X,Y,Z. Si el parámetro es distinto de 0, la orden elimina también los puntos que coincidan únicamente en X,Y.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Eliminar también los puntos que coincidan solo en X,Y (0/1) | Si |
+| 1 | Eliminar también los puntos que coincidan solo en X,Y (0/1) | Sí |
 
 ## Observaciones
 
 La orden solo procesa líneas y polígonos (incluidos sus huecos) que no estén borrados, que sean visibles y que estén dentro de la zona de interés.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad sin puntos dobles, solo se conserva su original y las demás se modifican.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad sin puntos dobles, se conserva la entidad original de la copia descartada y las demás entidades se modifican.
 
 ## Características de la orden
 

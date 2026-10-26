@@ -23,8 +23,8 @@ Esta orden muestra este cuadro de diálogo con los códigos de la entidad selecc
 
 * **Lista de códigos**: cada código de la entidad, con su **Tabla** y su **ID** en la base de datos, su color, su tipo y su descripción.
 * **Subir** y **Bajar**: cambian el orden del código seleccionado. Solo están habilitados si hay un código seleccionado.
-* **Borrar**: quita el código seleccionado de la entidad. Solo está habilitado si hay un código seleccionado. La tecla Supr en la lista hace lo mismo.
-* **Añadir nuevo**: abre el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md) para añadir códigos a la entidad. La tecla Insert en la lista hace lo mismo. Los códigos que la entidad ya tiene no se añaden otra vez, salvo que esté activada la opción [Permitir códigos repetidos](../../../cuadros-de-dialogo/configuracion/diging/permitir-codigos-repetidos.md).
+* **Borrar**: quita el código seleccionado de la entidad. El botón **Borrar** solo está habilitado si hay un código seleccionado. Pulsa Supr en la lista para quitar el código seleccionado.
+* **Añadir nuevo**: abre el cuadro de diálogo [Seleccione códigos](../../../cuadros-de-dialogo/seleccione-codigos.md) para añadir códigos a la entidad. Pulsa Insert en la lista para abrir el cuadro de diálogo Seleccione códigos. Los códigos que la entidad ya tiene no se añaden otra vez, salvo que esté activada la opción [Permitir códigos repetidos](../../../cuadros-de-dialogo/configuracion/diging/permitir-codigos-repetidos.md).
 * **Atributos**: los campos del registro de la base de datos enlazado con el código seleccionado. El título de la categoría es el nombre de la tabla. No se muestran la clave primaria ni los campos marcados como no visibles. Los campos que no se pueden editar aparecen atenuados.
 * **Avanzado**: abre el cuadro de diálogo **Editar parámetros avanzados del código**, que cambia la tabla y el ID del registro enlazado. Si no hay ningún código seleccionado o el ID del código no es numérico, el botón no hace nada.
 * **Asignar ID**: abre el cuadro de diálogo **Asignar un ID existente**.
@@ -37,13 +37,13 @@ Esta orden muestra este cuadro de diálogo con los códigos de la entidad selecc
 
 ### Apertura desde el error al almacenar en la base de datos
 
-Si Digi3D.AI no consigue almacenar los atributos de un código en la base de datos, muestra el cuadro de diálogo [Error al almacenar datos en la base de datos](../../../cuadros-de-dialogo/error-al-almacenar-datos-en-la-base-de-datos.md). La opción **Editar los atributos de base de datos** abre este cuadro de diálogo con ese único código. En este caso los botones **Subir**, **Bajar**, **Borrar** y **Añadir nuevo** están deshabilitados. Al cerrar el cuadro, Digi3D.AI vuelve a intentar almacenar el código.
+Si Digi3D.AI no consigue almacenar los atributos de un código en la base de datos, muestra el cuadro de diálogo [Error al almacenar datos en la base de datos](../../../cuadros-de-dialogo/error-al-almacenar-datos-en-la-base-de-datos.md). La opción **Editar los atributos de base de datos** abre el cuadro de diálogo **Editor de códigos** con el código cuyos atributos Digi3D.AI no consiguió almacenar. Si **Editor de códigos** se abre desde el error al almacenar en la base de datos, los botones **Subir**, **Bajar**, **Borrar** y **Añadir nuevo** están deshabilitados. Al cerrar **Editor de códigos**, Digi3D.AI vuelve a intentar almacenar el código.
 
 ## Cuadro de diálogo Editar parámetros avanzados del código
 
 ![Cuadro de diálogo Editar parámetros avanzados del código](../../../../../images/editar-parametros-avanzados-del-codigo.png)
 
-Lo abre el botón **Avanzado** del editor de códigos. Cambia a mano la tabla y el registro de la base de datos enlazados con el código seleccionado. El cuadro avisa de que no se comprueba si el número de tabla corresponde al código de la entidad ni si el número de registro existe en la base de datos, y termina con el texto «Utiliza este cuadro con precaución.»
+El botón **Avanzado** del editor de códigos abre el cuadro de diálogo **Editar parámetros avanzados del código**. El cuadro permite cambiar a mano la tabla y el registro de la base de datos enlazados con el código seleccionado. El cuadro avisa de que no se comprueba si el número de tabla corresponde al código de la entidad ni si el número de registro existe en la base de datos, y termina con el texto «Utiliza este cuadro con precaución.»
 
 * **Tabla**: número de la tabla de la base de datos. Al abrir el cuadro contiene la tabla actual del código.
 * **Registro**: número del registro de esa tabla. Al abrir el cuadro contiene el ID actual del código.
@@ -54,7 +54,7 @@ Lo abre el botón **Avanzado** del editor de códigos. Cambia a mano la tabla y 
 
 ![Cuadro de diálogo Asignar un ID existente](../../../../../images/asignar-un-id-existente.png)
 
-Lo abre el botón **Asignar ID** del editor de códigos. Enlaza el código seleccionado con el registro de la base de datos que tiene ese ID, en lugar de crear un registro nuevo.
+El botón **Asignar ID** del editor de códigos abre el cuadro de diálogo **Asignar un ID existente**. El cuadro enlaza el código seleccionado con el registro de la base de datos que tiene el ID indicado, en lugar de crear un registro nuevo.
 
 * **ID**: identificador del registro de la base de datos con el que se enlaza el código.
 * **Aceptar**: enlaza el código con ese registro. Digi3D.AI no comprueba que exista un registro con ese ID.
@@ -66,7 +66,7 @@ Si el control de calidad descarta la copia con los códigos editados, la entidad
 
 | Tipo de orden                                    | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                                                                                                              |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repite automáticamente                           | Si                                                                                                                                                              |
+| Repite automáticamente                           | Sí                                                                                                                                                              |
 | Opción del menú donde aparece la orden           | Editar/Editar los códigos de una entidad...                                                                                                                     |
 | Barra de herramientas en la que aparece la orden | Editar códigos                                                                                                                                                  |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |

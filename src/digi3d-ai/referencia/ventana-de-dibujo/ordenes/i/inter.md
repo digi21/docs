@@ -3,7 +3,7 @@
 
 Interpola curvas de nivel.
 
-![INTER: entre dos curvas de nivel de Z 100 y 110 se generan las curvas 102, 104, 106 y 108, múltiplos de la equidistancia](../../../../../images/orden-inter.svg)
+![INTER: entre dos curvas de nivel de Z 100 y 110 se generan las curvas de cotas 102, 104, 106 y 108, que son múltiplos de la equidistancia](../../../../../images/orden-inter.svg)
 
 ## Parámetros
 
@@ -13,7 +13,7 @@ No admite parámetros.
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Interpolar curvas entre dos líneas existentes |
 | Barra de herramientas en la que aparece la orden | Interpolación |
 | Extensión | DigiNG.OrdenesStandard.dll |

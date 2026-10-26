@@ -1,7 +1,7 @@
 # EXT\_PLANO
 <!-- id: ext-plano -->
 
-Solicita que se seleccione un plano y a continuación solicita que se seleccione una línea. Extiende el extremo más cercano a la selección al plano.
+Selecciona un plano y, a continuación, una línea. La orden extiende hasta el plano el extremo de la línea más cercano al punto de selección.
 
 ![EXT_PLANO: se selecciona la entidad que define el plano (1) y la línea (2); el extremo de la línea se lleva, siguiendo el último tramo, hasta el plano](../../../../../images/orden-ext-plano.svg)
 
@@ -15,7 +15,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

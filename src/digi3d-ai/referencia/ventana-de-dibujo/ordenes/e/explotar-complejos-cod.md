@@ -1,13 +1,13 @@
 # EXPLOTAR\_COMPLEJOS\_COD
 <!-- id: explotar-complejos-cod -->
 
-Explota las entidades complejas quedando divididas por las cadenas de líneas que componen la entidad compleja.
+Descompone las entidades complejas en las cadenas de líneas que las forman.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos de las entidades complejas a explotar | Si |
+| 1 … N | Código o códigos de las entidades complejas a explotar | Sí |
 
 ## Observaciones
 

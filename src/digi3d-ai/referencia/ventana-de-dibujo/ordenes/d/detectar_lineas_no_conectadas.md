@@ -1,17 +1,17 @@
 # DETECTAR\_LINEAS\_NO\_CONECTADAS
 <!-- id: detectar-lineas-no-conectadas -->
 
-Crea una tarea de error por cada extremo de línea que no esté conectado por código con otra entidad.
+Crea una tarea de error por cada extremo de línea que no coincida en X e Y con el extremo de otra línea de los códigos indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos de las líneas a comprobar | Si |
+| 1 … N | Código o códigos de las líneas a comprobar | Sí |
 
 ## Observaciones
 
-Esta orden recorre las líneas visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados, y comprueba, para cada extremo, si coincide en X e Y con el extremo de otra de esas líneas. Un extremo conectado con una línea de otro de los códigos indicados cuenta como conectado. Por cada extremo que quede suelto se genera una tarea de error, que el usuario puede ir revisando y corrigiendo posteriormente.
+Esta orden recorre las líneas visibles, dentro de la zona de interés, que tengan alguno de los códigos indicados, y comprueba, para cada extremo, si coincide en X e Y con el extremo de otra de esas líneas. Un extremo conectado con una línea de otro de los códigos indicados cuenta como conectado. Por cada extremo sin conexión se genera una tarea de error para que puedas revisar y corregir el extremo.
 
 Cada código se compara de forma exacta. Para incluir todos los códigos que tengan una etiqueta, antepón una almohadilla \(\#\) al nombre de la etiqueta.
 

@@ -7,11 +7,11 @@ Exporta las geometrías seleccionadas a un archivo de dibujo.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Nombre del archivo de destino. Si no tiene extensión, la orden añade `.bind` | Si |
+| 1 | Nombre del archivo de destino. Si el nombre del archivo no tiene extensión, la orden añade `.bind` | Sí |
 
 ## Observaciones
 
-Al ejecutar la orden ésta solicita que se seleccione una o varias entidades a exportar. Se pueden utilizar las órdenes de selección múltiple para seleccionar varias entidades simultáneamente.
+Al ejecutar la orden, selecciona las entidades que quieres exportar. Para seleccionar varias entidades a la vez, utiliza las órdenes de selección múltiple.
 
 Después de la selección, la orden exporta las entidades igual que [EXPORTAR](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/e/exportar.md): si no indicas el nombre del archivo, muestra un cuadro de diálogo para seleccionar el archivo de destino y su formato. Solo exporta las entidades no borradas, visibles, no virtuales y dentro de la zona de interés.
 

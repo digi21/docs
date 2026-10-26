@@ -58,7 +58,7 @@ Si cancelas el cuadro de selección de archivo, suena el aviso de error y la ord
 
 Si la escala o la separación no son mayores que 0, la orden muestra un mensaje y el cuadro de diálogo sigue abierto.
 
-Digi3D.AI recuerda las propiedades entre ejecuciones; las coordenadas de las esquinas no se recuerdan. La primera vez, la escala es la configurada en Digi3D.AI o 1000; la altura de cruces 10; la separación 100; la altura de coordenadas 2; los códigos `HOJAS`; las medias cruces activadas y 2 decimales.
+Digi3D.AI recuerda las propiedades entre ejecuciones; las coordenadas de las esquinas no se recuerdan. La primera vez que se ejecuta la orden, la escala es la configurada en Digi3D.AI o 1000 si no hay una escala configurada; la altura de cruces es 10 milímetros de papel; la separación entre cruces es 100 milímetros de papel; la altura de los rótulos de coordenadas es 2 milímetros de papel; los códigos son `HOJAS`; las medias cruces están activadas y el número de decimales es 2.
 
 ## Características de la orden
 

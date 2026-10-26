@@ -7,7 +7,7 @@ Descarga los ficheros de referencia que se encuentren unidos al fichero de traba
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ruta del archivo de referencia a descargar | Si |
+| 1 | Ruta del archivo de referencia a descargar | Sí |
 
 ## Observaciones
 
@@ -21,7 +21,7 @@ Sin parámetro, si solo hay un archivo de referencia cargado, la orden lo descar
 
 Al descargar un archivo de referencia:
 
-* La orden descarga también todas las topologías cargadas. Lo hace también cuando la ruta del parámetro no corresponde a ningún archivo cargado.
+* La orden descarga también todas las topologías cargadas, incluso cuando la ruta del parámetro no corresponde a ningún archivo cargado.
 * La orden quita el archivo de la lista de archivos de referencia asociados al archivo de dibujo. Al volver a abrir el archivo de dibujo, ese archivo de referencia ya no se carga.
 * Si el archivo no está abierto en solo lectura, tiene entidades marcadas como borradas y su formato guarda esa marca dentro del propio archivo, Digi3D.AI pregunta si quieres comprimirlo: «Quedan entidades marcadas como borradas que todavía no se han eliminado: (…) ¿Deseas comprimir ahora?». **Sí** comprime el archivo y lo descarga. **No** lo descarga sin comprimir. **Cancelar** anula la descarga de ese archivo.
 
@@ -29,7 +29,7 @@ Al descargar un archivo de referencia:
 
 ![Cuadro de diálogo Dejar fichero de referencia](../../../../../images/dejar-fichero-de-referencia.png)
 
-Esta orden solicita en este cuadro de diálogo los archivos de referencia que se descargan.
+En este cuadro de diálogo, selecciona los archivos de referencia que quieres descargar.
 
 * **Selecciona de esta lista los archivos a dejar**: los archivos de referencia cargados, con su ruta completa. El archivo de dibujo no aparece en la lista. Cada clic sobre un archivo lo selecciona o lo deselecciona, sin necesidad de pulsar Ctrl ni Mayúsculas.
 * **\* Todos**: descarga todos los archivos de referencia de la lista.

@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Para qué sirve
 
-Esta orden es la variante sin islas de [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md). Las dos calculan la topología temporal que necesitan las órdenes de inundación: haces clic dentro de un recinto y la orden de inundación localiza las líneas de su contorno, como la herramienta de relleno («bote de pintura») de un programa de dibujo. La lista de órdenes de inundación, cómo se ve el resultado, cuándo hay que regenerar la topología y cómo descargarla están en la página de [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md).
+Esta orden es la variante sin islas de [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md); ambas órdenes calculan la topología temporal que necesitan las órdenes de inundación. Al hacer clic dentro de un recinto, la orden de inundación localiza las líneas del contorno de ese recinto. La lista de órdenes de inundación, cómo se ve el resultado, cuándo hay que regenerar la topología y cómo descargarla están en la página de [GENERAR\_TOPOLOGIA\_INUNDACION](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/g/generar-topologia-inundacion.md).
 
 Si ejecutas una orden de inundación sin haber generado antes una de las dos topologías, la orden muestra el aviso «No hay ninguna topología temporal creada», emite el sonido de error y termina.
 
@@ -25,16 +25,16 @@ Esta orden no asigna huecos a los recintos:
 
 La orden ordena los recintos por área según la opción **[Orden de los polígonos](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/topologias-por-inundacion/orden-de-los-poligonos.md)** de la categoría **Topologías por inundación** del cuadro de diálogo de [Configuración](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/README.md):
 
-* **Ordenar de menor a mayor área** (valor por defecto): el botón de datos selecciona el recinto más pequeño que contiene el punto, y cada pulsación del botón de tentativo pasa al recinto siguiente en área que también lo contiene (de la isla al recinto que la rodea, y de este al que lo rodea a él).
+* **Ordenar de menor a mayor área** (valor por defecto): el botón de datos selecciona el recinto más pequeño que contiene el punto, y cada pulsación del botón de tentativo pasa al recinto siguiente en área que también lo contiene (de la isla al recinto que la rodea, y de ese recinto a los recintos exteriores sucesivos).
 * **Ordenar de mayor a menor área**: el recorrido es el inverso, del recinto más grande al más pequeño.
 
 La opción solo afecta a esta orden. Se aplica la próxima vez que se genera la topología.
 
 ## Cómo se forman los recintos
 
-* Entran solo las líneas visibles del archivo de dibujo activo: las de códigos encendidos y, si los códigos desconocidos están visibles, también las de códigos que no están en la tabla de códigos. Las líneas cuyos códigos están todos apagados no forman recintos.
+* La orden forma los recintos solo con las líneas visibles del archivo de dibujo activo: las de códigos visibles y, si los códigos desconocidos están visibles, también las de códigos que no están en la tabla de códigos. Las líneas cuyos códigos están todos ocultos no forman recintos.
 * Los puntos, los textos y las demás geometrías que no son líneas no forman recintos. Los textos visibles que quedan dentro de un recinto se asocian como centroide al recinto más pequeño que los contiene.
-* Los nodos de la topología son los extremos de las líneas. Dos líneas que se cruzan no cierran recintos en el cruce si no terminan en él, aunque compartan un vértice. Pártelas antes con [PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md).
+* Los nodos de la topología son los extremos de las líneas. Dos líneas que se cruzan no cierran recintos en el cruce si no terminan en él, aunque compartan un vértice. Antes de generar la topología, parte las líneas con [PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md).
 * Una línea suelta, que no cierra ningún recinto, no forma recinto por sí misma.
 
 ## Errores
@@ -49,7 +49,7 @@ Si no se puede formar la topología, la orden muestra un globo de error con el t
 
 Una sola línea visible con puntos dobles o con un único vértice impide formar la topología, aunque su código no esté en la tabla de códigos.
 
-Las líneas con puntos dobles o de un solo punto se añaden además al panel de tareas, una tarea por entidad. Cada tarea lleva a su entidad al hacer clic en ella. Si está activada la opción [Vaciar automáticamente](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel de tareas, la orden vacía el panel antes de añadir las tareas.
+Las líneas con puntos dobles o de un solo punto se añaden además al panel de tareas, una tarea por entidad. Al hacer clic en la tarea de una línea, la vista se centra en esa línea. Si está activada la opción [Vaciar automáticamente](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel de tareas, la orden vacía el panel antes de añadir las tareas.
 
 Cuando la topología se forma, la orden no dibuja nada ni muestra ningún mensaje. La topología resultante sustituye a la topología temporal anterior.
 

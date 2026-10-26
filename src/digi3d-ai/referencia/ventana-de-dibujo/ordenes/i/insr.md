@@ -1,7 +1,7 @@
 # INSR
 <!-- id: insr -->
 
-Permite insertar un bloque, almacenado en un fichero de dibujo, en una determinada posición del fichero de trabajo actual.
+Inserta un bloque almacenado en un archivo de dibujo en una posición del archivo de trabajo actual.
 
 ## Parámetros
 
@@ -13,13 +13,13 @@ Permite insertar un bloque, almacenado en un fichero de dibujo, en una determina
 
 La orden pide dos puntos: el punto de inserción y un punto de orientación. El bloque queda girado en la dirección de la recta que va del punto de inserción al punto de orientación.
 
-El fichero, sea del tipo que sea, se insertará con un factor de escala igual al valor de la escala activa \( [ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md).
+El archivo se inserta con un factor de escala igual al valor de la escala activa \( [ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md)\).
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Insertar un bloque con dos puntos... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

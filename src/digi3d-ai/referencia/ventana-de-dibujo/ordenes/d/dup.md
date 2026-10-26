@@ -7,11 +7,11 @@ Realiza una copia de una entidad sobre sí misma.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 y siguientes | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Si |
+| 1 y siguientes | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Sí |
 
 ## Observaciones
 
-La orden sólo requiere que selecciones la entidad. El nuevo elemento creado se superpone espacialmente al existente, con sus mismas características geométricas, de posición. La nueva entidad se generará con el código activo en el momento de ejecutar la orden.
+Selecciona la entidad que quieres duplicar. La copia se superpone a la entidad original, con la misma geometría y posición. La orden crea la copia con el código activo en el momento de ejecutar la orden.
 
 Sin parámetros, la orden permite seleccionar líneas, puntos, textos y polígonos.
 
@@ -21,7 +21,7 @@ La orden termina después de duplicar la entidad seleccionada. Si seleccionas va
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Duplicar una entidad \(únicamente geometría\) |
 | Barra de herramientas en la que aparece la orden | Copiar y duplicar |
 | Extensión | DigiNG.OrdenesStandard.dll |

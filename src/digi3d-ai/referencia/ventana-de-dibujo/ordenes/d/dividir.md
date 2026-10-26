@@ -9,9 +9,9 @@ Inserta un texto o un símbolo repetido a lo largo de una entidad lineal.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código de las líneas | Si |
-| 2 | Texto a insertar, o símbolo escrito como `@<nombre del símbolo>` | Si |
-| 3 | Un número: ángulo fijo de los textos, en grados sexagesimales, con el mismo origen y sentido que el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md). `P`: ángulo calculado en cada tramo, con el texto perpendicular al tramo. `A`: ángulo calculado en cada tramo, con el texto alineado con el tramo. Las letras no distinguen mayúsculas | Si |
+| 1 | Código de las líneas | Sí |
+| 2 | Texto a insertar, o símbolo escrito como `@<nombre del símbolo>` | Sí |
+| 3 | Un número: ángulo fijo de los textos, en grados sexagesimales, con el mismo origen y sentido que el [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md). `P`: ángulo calculado en cada tramo, con el texto perpendicular al tramo. `A`: ángulo calculado en cada tramo, con el texto alineado con el tramo. La orden no distingue mayúsculas de minúsculas en las letras | Sí |
 
 `DIVIDIR=<código> <texto o símbolo> [ángulo | P | A]`
 
@@ -30,7 +30,7 @@ Sin parámetros, la orden muestra el cuadro de diálogo **Dividir**:
 * **Primera distancia**: distancia desde el primer vértice de la línea hasta el primer texto. Empieza con el valor de la distancia activa principal.
 * **Segunda distancia**: distancia entre dos textos consecutivos. Empieza con el valor de la distancia activa secundaria.
 * **Calcular el ángulo activo dinámicamente**: el ángulo de cada texto se calcula con el tramo en el que cae. La casilla aparece marcada cada vez que se abre el cuadro.
-* **Texto perpendicular a la línea**: solo está disponible si está marcada la casilla anterior. Si está marcada, cada texto queda perpendicular al tramo de la línea en el que se inserta. Si no está marcada, cada texto queda alineado con el tramo y orientado para leerse de izquierda a derecha; en los tramos verticales se lee de abajo arriba. Digi3D.AI recuerda el valor de esta casilla entre ejecuciones.
+* **Texto perpendicular a la línea**: solo está disponible si está marcada la casilla **Calcular el ángulo activo dinámicamente**. Si la casilla **Texto perpendicular a la línea** está marcada, cada texto queda perpendicular al tramo de la línea en el que se inserta. Si la casilla **Texto perpendicular a la línea** no está marcada, cada texto queda alineado con el tramo y orientado para leerse de izquierda a derecha; en los tramos verticales se lee de abajo arriba. Digi3D.AI recuerda el valor de **Texto perpendicular a la línea** entre ejecuciones.
 * **Ángulo activo**: ángulo fijo de todos los textos, en grados sexagesimales. Empieza con el valor del [ángulo activo](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md). Solo está disponible con la casilla anterior desmarcada.
 
 Los valores del cuadro solo se usan en esa ejecución: no cambian DA ni AA. El campo **Texto a insertar** aparece vacío cada vez que se abre el cuadro.

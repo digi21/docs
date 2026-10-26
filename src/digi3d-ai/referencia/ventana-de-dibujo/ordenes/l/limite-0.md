@@ -1,11 +1,11 @@
 # LIMITE\_0
 <!-- id: limite-0 -->
 
-Desactiva una zona de trabajo, establecida como límite por la orden LIMITE\_1.
+Desactiva la zona de trabajo establecida como límite por la orden LIMITE\_1.
 
 ## Parámetros
 
-No admite parámetros
+No admite parámetros.
 
 ## Características de la orden
 

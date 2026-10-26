@@ -1,7 +1,7 @@
 # ESCALA
 <!-- id: escala -->
 
-Al ejecutar esta orden, se informa de la escala de visualización actual del fichero de dibujo.
+Muestra la escala de visualización actual del fichero de dibujo.
 
 ## Parámetros
 
@@ -13,7 +13,7 @@ Muestra la escala, por ejemplo `1:1000`, en un globo en la parte inferior izquie
 
 La orden divide la distancia en el terreno que ocupa el ancho de la pantalla entre el ancho físico del monitor, que por defecto es 30,5 cm. Por ejemplo, si en el ancho de la pantalla caben 305 m de terreno, la escala es 1:1000.
 
-La misma escala decide qué códigos se dibujan: un código con **Escala de representación** distinta de 0 en la tabla de códigos deja de dibujarse cuando la escala es menor que la que indica, por ejemplo a 1:10000 si su escala de representación es 5000.
+La escala de visualización determina qué códigos se dibujan: un código con **Escala de representación** distinta de 0 en la tabla de códigos deja de dibujarse cuando la escala de visualización es menor que la indicada en ese campo; por ejemplo, a 1:10000 si el campo **Escala de representación** vale 5000 (1:5000).
 
 ## Características de la orden
 

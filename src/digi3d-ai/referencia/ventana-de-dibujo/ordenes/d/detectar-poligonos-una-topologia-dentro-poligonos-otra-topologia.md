@@ -14,7 +14,7 @@ Detecta los recintos de una topología que están dentro de recintos de otras to
 
 La orden necesita al menos dos topologías cargadas. Si no hay ninguna, muestra el aviso «No hay ninguna topología cargada»; si hay solo una, muestra «Se necesitan al menos dos topologías cargadas». En los dos casos emite el sonido de error y termina. Con menos de dos topologías, la opción del menú está desactivada.
 
-Si indicas dos o más parámetros, la orden compara la topología del primer parámetro con las de los siguientes, sin mostrar el cuadro de diálogo. Los nombres no distinguen mayúsculas de minúsculas y los repetidos se comparan una sola vez. La orden muestra un aviso, emite el sonido de error y termina sin comprobar nada en estos casos:
+Si indicas dos o más parámetros, la orden compara la topología del primer parámetro con las de los siguientes, sin mostrar el cuadro de diálogo. La orden compara los nombres sin distinguir mayúsculas de minúsculas y compara una sola vez cada topología cuyo nombre se repite. La orden muestra un aviso, emite el sonido de error y termina sin comprobar nada en estos casos:
 
 * Alguna de las topologías no está cargada: «La topología X no está cargada».
 * La topología del primer parámetro aparece también entre las siguientes: «La topología a analizar no puede estar también entre las topologías con las que se compara».
@@ -32,7 +32,7 @@ Esta orden solicita los datos en el cuadro _Detectar polígonos de una topologí
 | Topología a analizar | Topología cuyos recintos se comprueban. La lista contiene las topologías cargadas, por nombre y en orden alfabético | La primera de la lista |
 | Topologías contra las que detectar inclusiones | Topologías cuyos recintos pueden contener a los de la topología a analizar. Contiene las demás topologías cargadas; se marcan con la casilla de cada fila | Ninguna marcada |
 
-Los botones _Todas_ y _Ninguna_ marcan o desmarcan todas las topologías de la lista. Al cambiar la topología a analizar, la lista se vuelve a llenar sin ella y las topologías que estaban marcadas siguen marcadas. El botón _Aceptar_ solo está activo si hay al menos una topología marcada.
+El botón _Todas_ marca todas las topologías de la lista y el botón _Ninguna_ las desmarca. Al cambiar la topología a analizar, la lista se vuelve a llenar sin la topología a analizar y las topologías que estaban marcadas siguen marcadas. El botón _Aceptar_ solo está activo si hay al menos una topología marcada.
 
 La orden no recuerda los valores: cada vez que se ejecuta, el cuadro muestra los valores por defecto.
 
@@ -45,7 +45,7 @@ La orden compara cada recinto de la topología a analizar con cada recinto de la
 Un recinto es la superficie de su contorno exterior menos la de sus huecos. La orden no tiene en cuenta, en ninguna de las topologías:
 
 * Los recintos sin centroide de una topología que no forma polígonos sin centroide.
-* Los recintos cuyo centroide los declara hueco (el texto de [centroide para huecos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-topologia.md) de la topología).
+* Los recintos cuyo centroide tiene el texto indicado en [centroide para huecos](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/anadir-topologia.md) de la topología.
 
 Un recinto A está dentro de un recinto B si toda la superficie de A pertenece a la de B:
 

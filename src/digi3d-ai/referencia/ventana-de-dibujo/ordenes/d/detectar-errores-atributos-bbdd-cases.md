@@ -1,13 +1,13 @@
 # DETECTAR\_ERRORES\_ATRIBUTOS\_BBDD\_CASES
 <!-- id: detectar-errores-atributos-bbdd-cases -->
 
-Detecta líneas y polígonos de dos archivos de dibujo distintos que tienen continuidad geométrica pero con atributos de BBDD distintos.
+Detecta líneas y polígonos de dos archivos de dibujo distintos que tienen continuidad geométrica pero cuyos atributos de base de datos son distintos.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 

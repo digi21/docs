@@ -25,11 +25,11 @@ El cuadro muestra siempre el valor 1: la orden no guarda la distancia de una eje
 
 ![JUNTAR_VERTICES_CERCANOS: las coordenadas X e Y que están a la distancia indicada o menos de un valor ya procesado toman ese valor](../../../../../images/orden-juntar-vertices-cercanos.svg)
 
-La orden recorre las entidades del archivo de dibujo activo en el orden en que están en el archivo. Las entidades borradas no se tratan. En cada entidad procesa:
+La orden recorre las entidades del archivo de dibujo activo en el orden en que están en el archivo. Las entidades borradas no se tratan. En cada entidad, la orden procesa:
 
 * sus vértices (en un punto o un texto, el punto de inserción; en un complejo, su punto de inserción);
 * los vértices de los huecos, si es un polígono;
-* los vértices de las entidades que lo forman, si es un complejo. No se procesan los huecos de un polígono que forma parte de un complejo ni las entidades de un complejo que está dentro de otro.
+* los vértices de las entidades que forman el complejo, si la entidad es un complejo. No se procesan los huecos de un polígono que forma parte de un complejo ni las entidades de un complejo que está dentro de otro.
 
 Las coordenadas X y las coordenadas Y se tratan por separado. Cada X se compara con las X ya procesadas: si encuentra una que difiere en la distancia indicada o menos, la X toma ese valor; si no, se conserva y pasa a ser una X procesada. Lo mismo se hace con las Y. Por eso:
 
@@ -40,7 +40,7 @@ La Z no cambia. Con una distancia negativa ninguna coordenada cambia.
 
 ### Resultado
 
-La orden sustituye por una copia corregida cada entidad que tiene alguna X o alguna Y distinta. Las entidades sin cambios no se tocan. Si ninguna cambia, el archivo no se modifica. La orden no muestra ningún mensaje al terminar.
+La orden sustituye por una copia corregida cada entidad en la que ha cambiado alguna coordenada X o Y. Las entidades sin cambios no se tocan. Si no cambia ninguna entidad, el archivo de dibujo activo no se modifica. La orden no muestra ningún mensaje al terminar.
 
 ## Características de la orden
 

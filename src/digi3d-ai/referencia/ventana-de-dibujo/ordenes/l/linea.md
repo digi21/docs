@@ -13,13 +13,13 @@ No admite parámetros. Las siguientes variables intervienen en el registro de la
 | [TOL](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol.md) |
 | [TOL\_ANG](/digi3d-ai/referencia/ventana-de-dibujo/variables/t/tol-ang.md) |
 
-Cuando se está dibujando una línea, se puede enganchar con otra entidad ya digitalizada mediante el pedal/botón de Tentativo. La modalidad de enganche se elige con la orden [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md).
+Mientras dibujas una línea, puedes enlazarla con otra entidad ya digitalizada mediante el pedal/botón de Tentativo. La modalidad de enganche se elige con la orden [MODOB](/digi3d-ai/referencia/ventana-de-dibujo/variables/m/modob.md).
 
 Es posible utilizar otras órdenes de digitalización de forma integrada con el dibujado de líneas.
 
 ## Observaciones
 
-No es necesario ejecutar esta orden para dibujar una línea, pues basta con seleccionar un código definido para una entidad lineal, y pulsar sobre Dato para dibujar una línea.
+Para dibujar una línea, basta con seleccionar un código definido para una entidad lineal y pulsar Dato; no necesitas ejecutar esta orden.
 
 Esta orden solicita puntos hasta que pulses el pedal/botón de finalizar entidad \(o ejecutes [FIN\_ENT](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/f/fin-ent.md)\). Entonces almacena la línea y termina. La tecla Esc solo cancela la orden si todavía no se ha registrado ningún punto; con una línea en curso, la tecla Esc no tiene efecto.
 
@@ -27,7 +27,7 @@ Esta orden solicita puntos hasta que pulses el pedal/botón de finalizar entidad
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Polilínea |
 | Barra de herramientas en la que aparece la orden | Polilíneas |
 | Extensión | DigiNG.OrdenesStandard.dll |

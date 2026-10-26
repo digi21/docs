@@ -57,13 +57,13 @@ Por ejemplo, con tres vértices alineados en planta a 5 m unos de otros y el cen
 - Con **TOL\_ANG** igual a 0 no se elimina ningún vértice que no esté exactamente alineado con los extremos de su tramo: cualquier ángulo mayor que 0 lo conserva.
 - La entidad que seleccionas tiene que pertenecer al modelo actual. Con un código como parámetro, se generalizan las entidades con ese código de todo el archivo de dibujo.
 
-Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se generalizan.
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Si hay varias entidades, la orden trata cada entidad de forma independiente: se conserva la entidad original de cada copia descartada y las demás entidades se generalizan.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Generalizar |
 | Barra de herramientas en la que aparece la orden | Editar polilínea |
 | Extensión | DigiNG.OrdenesStandard.dll |

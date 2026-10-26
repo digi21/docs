@@ -1,13 +1,13 @@
 # DETECTAR\_CRUCE\_LINEAS\_Z
 <!-- id: detectar-cruce-lineas-z -->
 
-Detecta cruces entre líneas y marca como error aquellas cuya diferencia en Z supere una tolerancia
+Detecta cruces entre líneas y marca como error los cruces en los que la diferencia de Z entre las líneas supera una tolerancia.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Cuadro de diálogo Detectar cruces entre líneas si se supera tolerancia en Z
 

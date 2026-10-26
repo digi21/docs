@@ -1,7 +1,7 @@
 # ESCAPE
 <!-- id: escape -->
 
-Termina o da por finalizada una orden.
+Termina la orden activa.
 
 ## Parámetros
 

@@ -6,7 +6,7 @@ Importa archivos de los siguientes tipos:
 * BIN \(DigiNG\)
 * DGN \(MicroStation v8\)
 * DWG \(AutoCad\)
-* .MDB Geomedia Datawarehouse \(para poder utilizar esta función es requisito indispensable tener licencia de Geomedia\)
+* .MDB Geomedia Datawarehouse \(requiere una licencia de Geomedia\)
 * ASCII de Kork
 * Coordenadas XYZ
 * ASCII de Digi
@@ -17,14 +17,14 @@ Importa archivos de los siguientes tipos:
 | :--- | :--- | :--- |
 | 1 | Nombre del archivo a importar. Si no se especifica, la orden muestra el cuadro de diálogo de selección de archivos, que admite seleccionar varios | Sí |
 
-Los parámetros de importación dependen del tipo de archivo que se desea importar.
+Los parámetros de importación dependen del tipo de archivo que quieres importar.
 
 
 | Archivo | Parámetro | Descripción |
 | :--- | :--- | :--- |
 | BIN |Precisión<br>Coordenadas del origen global|  |
-| DGN v8 |Archivo de células<br>Salto de entidades<br>Criterio para códigos<br>Códigos desconocidos|Archivo de células relacionado con el archivo DGN<br>Carga un archivo DGN v8 de gran tamaño sin cosumo de memoria<br>Criterio a seguir para la selección del código de Digi para la representación de entidades (Nivel, Color, Estilo, Grosor, Célula ó únicamente Grupo Gráfico)<br>Código con que se generarán las entidades desconocidas, si no se especifica nada, el programa generará las entidades en el código desconocido standard (no seleccionable por parte del usuario)|
-| DWG ó DXF de AutoCAD | Versión de AutoCAD | Con la cual se va a leer el archivo resultado (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
+| DGN v8 |Archivo de células<br>Salto de entidades<br>Criterio para códigos<br>Códigos desconocidos|Archivo de células relacionado con el archivo DGN<br>Carga un archivo DGN v8 de gran tamaño sin consumo de memoria<br>Criterio para seleccionar el código de Digi con el que se representan las entidades (Nivel, Color, Estilo, Grosor, Célula o únicamente Grupo Gráfico)<br>Código con el que se generarán las entidades desconocidas. Si no especificas un código, el programa usará el código desconocido estándar (no puedes seleccionarlo)|
+| DWG o DXF de AutoCAD | Versión de AutoCAD | Versión con la que se leerá el archivo resultante (AutoCAD 11/12, 13, 14, 200, 2004 o AutoCAD 2007) |
 | ASCII de Kork | Sin parámetro |  |
 | MDB de Geomedia Datawarehose | Altura de textos | Es indispensable tener licencia de Geomedia |
 | Coordenadas XYZ | Número de decimales | Número de decimales para las coordenadas |
@@ -33,7 +33,7 @@ Los parámetros de importación dependen del tipo de archivo que se desea import
 
 ## Observaciones
 
-En cualquiera de las opciones seleccionadas se presenta la opción de **Defecto**. Esta propiedad deDigiNG guardará en caso de estar activada los parámetros del importador/exportador. Con lo cual dará la posibilidad al usuario de ejecutar la orden _IMPORTAR_ a partir de entonces especificando únicamente la ruta y nombre del archivo en la línea de órdenes, por ejemplo:
+La opción **Defecto** está disponible para cualquiera de los tipos de archivo. Si activas esta opción, DigiNG guarda los parámetros del importador/exportador. Una vez guardados los parámetros, puedes ejecutar la orden _IMPORTAR_ indicando únicamente la ruta y el nombre del archivo en la línea de órdenes, por ejemplo:
 
 `IMPORTAR=C:\Brochales\case1.bin`
 

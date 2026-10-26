@@ -1,13 +1,13 @@
 # EXPLOTAR\_POLIGONOS\_COD
 <!-- id: explotar-poligonos-cod -->
 
-Divide varios polígonos, en todas las entidades que los forman.
+Descompone los polígonos de los códigos indicados en las entidades que los forman.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 

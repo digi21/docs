@@ -1,7 +1,7 @@
 # ENTIDADES\_DE\_INTERES
 <!-- id: entidades-de-interes -->
 
-Especifica las entidades de interés en la que se centrarán las órdenes que realizan modificaciones sobre entidades.
+Especifica las entidades de interés sobre las que actuarán las órdenes que modifican entidades.
 
 ## Parámetros
 

@@ -45,7 +45,7 @@ El nombre de un atributo no se puede cambiar. Para cambiarlo, elimina el atribut
 
 ![Cuadro de diálogo Añadir atributo activo](../../../../../images/anadir-atributo-activo-editar.png)
 
-Lo abre el botón **Añadir** del editor de atributos. Añade el atributo a la entidad, no a la lista de atributos activos. A diferencia del cuadro de diálogo del mismo nombre del panel Atributos activos, no tiene el campo **Valor automático**.
+El botón **Añadir** del editor de atributos abre el cuadro de diálogo **Añadir atributo activo**. El cuadro de diálogo **Añadir atributo activo** del editor de atributos añade el atributo a la entidad, no a la lista de atributos activos. A diferencia del cuadro de diálogo del mismo nombre del panel Atributos activos, el cuadro del editor de atributos no tiene el campo **Valor automático**.
 
 * **Nombre del atributo**: nombre del atributo. Distingue mayúsculas de minúsculas. Si la entidad ya tiene un atributo con ese nombre, el cuadro de diálogo se cierra sin añadir el atributo y sin mostrar ningún aviso.
 * **Tipo de valor**: tipo de dato del atributo: cadena de caracteres, entero con o sin signo de 8, 16, 32 o 64 bits, coma flotante de precisión simple o doble, o fecha. Al abrir el cuadro de diálogo está seleccionado **Cadena de caracteres**. El atributo se añade al final de la lista con un valor vacío o cero, que se cambia después en el editor.

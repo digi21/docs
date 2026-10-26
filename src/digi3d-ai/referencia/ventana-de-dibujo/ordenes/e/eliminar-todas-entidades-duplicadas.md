@@ -7,7 +7,7 @@ Elimina todas las entidades duplicadas, por código.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos de las entidades a procesar | Si |
+| 1 … N | Código o códigos de las entidades a procesar | Sí |
 
 ## Observaciones
 

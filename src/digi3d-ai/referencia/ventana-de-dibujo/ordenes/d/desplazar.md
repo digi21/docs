@@ -1,7 +1,7 @@
 # DESPLAZAR
 <!-- id: desplazar -->
 
-Desplaza entidades del archivo de dibujo distancias definidas por el usuario mediante desplazamientos en X, Y y Z.
+Desplaza entidades del archivo de dibujo las distancias que indiques en X, Y y Z.
 
 ## Parámetros
 
@@ -23,7 +23,7 @@ Una vez ejecutada la orden, cada pulsación del pedal de registro o del tentativ
 
 Mueve una o varias entidades una cantidad fija de 0.5 m en Z.
 
-Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se desplazan.
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Si hay varias entidades, la orden trata cada entidad de forma independiente: se conserva la entidad original de cada copia descartada y las demás entidades se desplazan.
 
 ## Características de la orden
 

@@ -9,13 +9,13 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden solicita que se seleccione una geometría. Una vez seleccionada, abre el panel de resultados (en caso de que no estuviera abierto ya) e imprime en este los atributos de la geometría.
+La orden solicita que selecciones una geometría. Al seleccionar la geometría, la orden abre el panel de resultados (si todavía está cerrado) y muestra los atributos de la geometría en ese panel.
 
 ## Características de la orden
 
 | Tipo de orden                                    | [De información](lista.md)                                                                                                                                      |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repite automáticamente                           | Si                                                                                                                                                              |
+| Repite automáticamente                           | Sí                                                                                                                                                              |
 | Opción del menú donde aparece la orden           | _Esta orden no tiene asociada ninguna opción de menú_                                                                                                           |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_                                                                                    |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |

@@ -11,7 +11,7 @@ No admite parámetros.
 
 La orden solo admite polígonos y líneas cerradas; si seleccionas otra entidad, emite un sonido de error. También admite una selección múltiple, en la que ignora las entidades que no sean polígonos ni líneas cerradas.
 
-El centroide es un texto situado en un punto interior de la entidad, con los códigos de la entidad y con el nombre de su primer código como contenido. Su ángulo, su altura y su justificación son los valores de las variables AA, AT y JT.
+El centroide es un texto situado en un punto interior de la entidad, con los códigos de la entidad y con el nombre de su primer código como contenido. El ángulo, la altura y la justificación del texto toman los valores de las variables AA, AT y JT, respectivamente.
 
 ## Características de la orden
 

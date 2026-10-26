@@ -13,7 +13,7 @@ Corta las líneas que atraviesan el contorno de unos límites (textos, líneas o
 | 4 | Borrar los tramos dentro de los límites | `1`: borra lo que queda dentro de los límites. Con otro valor, lo conserva |
 | 5 | Código para los tramos dentro de los límites | Código que se aplica a lo que queda dentro de los límites cuando el parámetro 4 no vale `1`. Admite los comodines `?` y `*` |
 
-Sin parámetros, la orden muestra el cuadro de diálogo. Con parámetros hay que indicar los cinco. Con menos de cinco, la orden emite un sonido de error, muestra el aviso _Faltan parámetros_ con el texto _Número de parámetros incorrecto_ y termina. Los parámetros a partir del sexto se ignoran. Con parámetros, la orden no muestra el cuadro de diálogo ni cambia los valores que recuerda el cuadro.
+Sin parámetros, la orden muestra el cuadro de diálogo. Si ejecutas la orden con parámetros, indica los cinco parámetros. Con menos de cinco parámetros, la orden emite un sonido de error, muestra el aviso _Faltan parámetros_ con el texto _Número de parámetros incorrecto_ y termina. Los parámetros a partir del sexto se ignoran. Con parámetros, la orden no muestra el cuadro de diálogo ni cambia los valores guardados del cuadro de diálogo.
 
 ## Observaciones
 
@@ -37,7 +37,7 @@ En los polígonos, lo que queda dentro de un hueco se considera fuera del límit
 
 La orden procesa los límites uno detrás de otro. Para cada límite, toma las entidades no borradas cuyo código está en la tabla de líneas a cortar, aunque no estén visibles o estén fuera de la zona de interés:
 
-* **Líneas**: si cruzan el límite, la orden las parte en los puntos de corte. Cada tramo queda dentro o fuera según el punto medio de su segmento central; un tramo sobre el borde del límite cuenta como dentro. Los tramos de fuera sustituyen a la línea original con sus mismos códigos. Una línea que no cruza el límite queda entera dentro o entera fuera.
+* **Líneas**: si cruzan el límite, la orden las parte en los puntos de corte. Cada tramo queda dentro o fuera del límite según el punto medio del segmento central de ese tramo; un tramo sobre el borde del límite cuenta como dentro. Los tramos de fuera sustituyen a la línea original y conservan los códigos de esa línea. Una línea que no cruza el límite queda entera dentro o entera fuera.
 * **Puntos, complejos puntuales y textos**: quedan dentro si su punto de inserción está dentro del límite o sobre su borde.
 * **Multipuntos e imágenes**: quedan dentro si todos sus vértices están dentro del límite.
 * **Polígonos y complejos**: no se cortan ni se borran.
@@ -45,8 +45,8 @@ La orden procesa los límites uno detrás de otro. Para cada límite, toma las e
 Con lo que queda dentro del límite, la orden hace lo siguiente:
 
 * Si **Borrar los tramos dentro de los límites** está marcada (o el parámetro 4 vale `1`), lo borra.
-* Si no está marcada y el código está vacío, conserva los tramos interiores con el código de la línea original. El resultado es que la línea queda partida en el borde del límite.
-* Si no está marcada y hay código, sustituye los tramos interiores y las entidades que quedan dentro por copias con el código nuevo. El código nuevo se compone carácter a carácter sobre el primer código de la entidad: `?` conserva el carácter original y `*` conserva el resto del código original. Por ejemplo, con el código `??9*`, el código `020101` pasa a `029101`; con `030450`, cualquier código pasa a `030450`. La entidad resultante tiene un único código.
+* Si la casilla **Borrar los tramos dentro de los límites** no está marcada y el campo **Código para los tramos dentro de los límites** está vacío, la orden conserva los tramos interiores con el código de la línea original. El resultado es que la línea queda partida en el borde del límite.
+* Si la casilla **Borrar los tramos dentro de los límites** no está marcada y el campo **Código para los tramos dentro de los límites** contiene un código, la orden sustituye los tramos interiores y las entidades que quedan dentro por copias con el código nuevo. El código nuevo se compone carácter a carácter sobre el primer código de la entidad: `?` conserva el carácter original y `*` conserva el resto del código original. Por ejemplo, con el código `??9*`, el código `020101` pasa a `029101`; con `030450`, cualquier código pasa a `030450`. La entidad resultante tiene un único código.
 
 Todos los cambios de una ejecución se deshacen de una vez con la orden de deshacer.
 
@@ -58,13 +58,13 @@ Todos los cambios de una ejecución se deshacen de una vez con la orden de desha
 * **Tabla de códigos de líneas a cortar**: ruta de la tabla de las entidades que se cortan, con su botón **...**. Los dos botones abren el cuadro en la carpeta de la última tabla elegida con cualquiera de ellos.
 * **Tipo de recorte**: _Limpiar textos_, _Limpiar líneas cerradas_ o _Limpiar líneas abiertas o cerradas_. Corresponde a los valores `0`, `1` y `2` del primer parámetro.
 * **Borrar los tramos dentro de los límites**: si está marcada, la orden borra lo que queda dentro de los límites, y el campo **Código para los tramos dentro de los límites** se deshabilita.
-* **Código para los tramos dentro de los límites**: código que se aplica a lo que queda dentro de los límites. Solo está habilitado con la casilla anterior desmarcada.
+* **Código para los tramos dentro de los límites**: código que se aplica a lo que queda dentro de los límites. El campo **Código para los tramos dentro de los límites** solo está habilitado cuando la casilla **Borrar los tramos dentro de los límites** está desmarcada.
 
 **Aceptar** guarda los valores y ejecuta la orden. Si alguna de las tablas no se puede abrir, la orden muestra el mensaje de error y el cuadro sigue abierto para corregir la ruta. **Cancelar** cierra el cuadro sin modificar el dibujo ni guardar los valores.
 
-Digi3D.AI recuerda los valores del cuadro entre ejecuciones. La primera vez, las rutas y el código están vacíos, el tipo de recorte es _Limpiar textos_ y la casilla está marcada.
+Digi3D.AI recuerda los valores del cuadro entre ejecuciones. La primera vez que se ejecuta la orden, las rutas y el código están vacíos, el tipo de recorte es _Limpiar textos_ y la casilla **Borrar los tramos dentro de los límites** está marcada.
 
-Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un límite, se conservan esas líneas sin cortar y no se añade ningún trozo. Los demás límites se procesan con normalidad. Si descarta una entidad de dentro con el código de los tramos, se conserva su original.
+Si Digi3D.AI descarta alguno de los trozos nuevos de las líneas que corta un límite, se conservan esas líneas sin cortar y no se añade ningún trozo. La orden continúa procesando los demás límites. Si Digi3D.AI descarta una entidad interior con el código de los tramos, se conserva la versión original de esa entidad.
 
 ## Características de la orden
 

@@ -1,19 +1,19 @@
 # ERR
 <!-- id: err -->
 
-Teniendo el fichero gráfico generado con los programas [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md), cargado como referencia sobre el archivo de trabajo, podremos visualizar los errores encontrados por cualquiera de los programas anteriormente citados.
+Muestra los errores del fichero gráfico generado con [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md) o BINTOP, si has cargado ese fichero como referencia del archivo de trabajo.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Valores | Opcional |
 | :--- | :--- | :--- | :--- |
-| 1 | Número del error o `?` | Número entero mayor o igual que 0, o `?` | Si |
+| 1 | Número del error o `?` | Número entero mayor o igual que 0, o `?` | Sí |
 
 ### Ejemplos
 
 `ERR=3`
 
-Se visualiza el error número 3
+Muestra el error número 3.
 
 `ERR=?`
 
@@ -23,9 +23,9 @@ Muestra el error en cuál nos encontramos
 
 Sin parámetros, la orden solicita el número del error en la barra de estado. Cada error es la entidad con ese número del primer archivo de referencia; la orden desplaza la vista hasta su centro.
 
-Los programas _BINTRAM_ y _BINTOP_ sirven para generar un fichero con símbolos, cuya localización se corresponde con todas aquellas posiciones donde se ha detectado un error. El fichero creado es un fichero .bin que puede ser cargado como referencia sobre el archivo de trabajo.
+_BINTRAM_ y _BINTOP_ generan un fichero .bin con símbolos en las posiciones donde se han detectado errores. Puedes cargar el fichero como referencia del archivo de trabajo.
 
-El usuario también se podrá mover de error en error mediante la ventana de tareas, en esta aparecerá la lista de errores después de haber ejecutado una de las órdenes _BINTRAM_ o _BINTOP_, y al pulsar sobre cualquiera de estos errores el programa llevará al usuario directamente a la posición del error.
+También puedes recorrer los errores mediante el panel de tareas. El panel muestra la lista de errores después de ejecutar _BINTRAM_ o _BINTOP_. Pulsa sobre un error para que el programa centre la vista en la posición del error.
 
 ## Características de la orden
 

@@ -15,7 +15,7 @@ La orden pide primero el archivo de imagen. Después requiere la entrada de 3 pu
 
 Los puntos pueden definirse de forma gráfica o mediante la orden [XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
 
-El resultado final es que la imagen se orienta formando el rectángulo que solapa con los tres puntos digitalizados. La dirección del primer punto al segundo es el giro de la imagen. La imagen se estira hasta llenar el rectángulo, así que no conserva su relación de aspecto.
+La imagen ocupa el rectángulo definido por los tres puntos digitalizados. La dirección del primer punto al segundo determina el giro de la imagen. La imagen se estira hasta llenar el rectángulo, aunque ese ajuste cambie la relación de aspecto de la imagen.
 
 ## Características de la orden
 

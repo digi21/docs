@@ -1,13 +1,13 @@
 # DETECTAR\_ENTIDADES\_DUPLICADAS
 <!-- id: detectar-entidades-duplicadas -->
 
-Detecta todas las entidades que están duplicadas por código.
+Detecta entidades duplicadas entre las que tienen alguno de los códigos indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 

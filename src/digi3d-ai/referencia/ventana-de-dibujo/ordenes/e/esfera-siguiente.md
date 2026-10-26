@@ -7,7 +7,7 @@ Entra en la siguiente esfera.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Número de esferas que avanza. Si no se indica, vale 1 | Si |
+| 1 | Número de esferas que avanza. Si no se indica, vale 1 | Sí |
 
 ## Observaciones
 

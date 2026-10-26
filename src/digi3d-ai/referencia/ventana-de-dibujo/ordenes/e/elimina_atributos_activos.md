@@ -5,7 +5,7 @@ Elimina todos los atributos del panel [Atributos activos](../../../paneles/atrib
 
 ## Parámetros
 
-No admite parámetros
+No admite parámetros.
 
 ## Observaciones
 

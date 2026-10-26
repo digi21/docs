@@ -1,7 +1,7 @@
 # INS\_FOTO\_2P\_AA
 <!-- id: ins-foto-2p-aa -->
 
-Inserta una imagen en el archivo de dibujo mediante dos puntos y ángulo activo.
+Inserta una imagen en el archivo de dibujo mediante dos puntos y el ángulo activo.
 
 ![INS_FOTO_2P_AA: dos esquinas opuestas (1 y 2) de un rectángulo con los lados girados según AA = 20, que la imagen llena](../../../../../images/orden-ins-foto-2p-aa.svg)
 
@@ -13,11 +13,11 @@ No admite parámetros.
 
 Para ejecutar esta orden hace falta establecer el valor del ángulo activo ([AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md)). Los lados de la imagen siguen ese ángulo.
 
-La orden pide primero el archivo de imagen. Después requiere la entrada de las dos esquinas opuestas del rectángulo que ocupará la imagen. La imagen se estira hasta llenar el rectángulo, así que no conserva su relación de aspecto. Los puntos podrán introducirse:
+La orden pide primero el archivo de imagen. Después de seleccionar el archivo, la orden solicita las dos esquinas opuestas del rectángulo que ocupará la imagen. La imagen se estira hasta llenar el rectángulo, aunque ese ajuste cambie la relación de aspecto de la imagen. Puedes introducir los puntos de estas formas:
 
 * De forma gráfica, señalándolos con el cursor/ratón.
-* Por entrada de sus coordenadas desde teclado \([XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md).
-* Desde archivo \([N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md).
+* Introduce las coordenadas con el teclado \([XY](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/x/xy.md)\).
+* Introduce los puntos desde un archivo \([N](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/n/n.md)\).
 
 ## Características de la orden
 

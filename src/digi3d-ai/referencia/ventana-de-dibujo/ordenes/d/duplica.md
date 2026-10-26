@@ -1,17 +1,17 @@
 # DUPLICA
 <!-- id: duplica -->
 
-Duplica una entidad respetando su código.
+Duplica una entidad y conserva el código de la entidad original.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 y siguientes | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Si |
+| 1 y siguientes | [Tipos de geometría](/digi3d-ai/referencia/ventana-de-dibujo/tipos-de-geometria.md) que se pueden seleccionar, como letras en uno o varios parámetros: `L P` equivale a `LP` | Sí |
 
 ## Observaciones
 
-La orden sólo requiere que selecciones la entidad. El nuevo elemento creado se superpone espacialmente al existente, con sus mismas características geométricas, de posición y de código.
+Selecciona la entidad que quieres duplicar. La copia se superpone a la entidad original, con la misma geometría, posición y código.
 
 Sin parámetros, la orden permite seleccionar líneas, puntos y textos.
 
@@ -21,7 +21,7 @@ La orden termina después de duplicar la entidad seleccionada. Si seleccionas va
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Duplicar una entidad \(geometría y códigos\) |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

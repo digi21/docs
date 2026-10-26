@@ -1,7 +1,7 @@
 # ELIMINAR\_MUROS\_POLIGONOS\_3D
 <!-- id: eliminar-muros-poligonos-3d -->
 
-Analiza polígonos creados mediante topologías 3D y elimina muros que superen un determinado alto.
+Analiza polígonos creados mediante topologías de tres dimensiones (3D) y elimina muros cuya diferencia de Z es mayor o igual que el mínimo indicado.
 
 ## Parámetros
 
@@ -18,7 +18,7 @@ Cuando el contorno sube por un muro y después baja por otro, la orden resta a l
 
 La orden sustituye cada polígono modificado por el resultado. Si faltan parámetros, la orden muestra un aviso y termina.
 
-Cada entidad se trata de forma independiente: si Digi3D.AI descarta un polígono modificado, solo se conserva su original y las demás se modifican.
+Cada entidad se trata de forma independiente: si Digi3D.AI descarta un polígono modificado, se conserva la entidad original de la copia descartada y las demás entidades se modifican.
 
 ## Características de la orden
 

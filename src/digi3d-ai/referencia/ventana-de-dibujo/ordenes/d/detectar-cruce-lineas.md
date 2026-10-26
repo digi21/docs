@@ -1,13 +1,13 @@
 # DETECTAR\_CRUCE\_LINEAS
 <!-- id: detectar-cruce-lineas -->
 
-Crea una tarea de error por cada intersección de líneas detectada por código.
+Crea una tarea de error por cada intersección detectada entre líneas de los códigos indicados.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Código o códigos (uno o más, separados por espacios) | Si |
+| 1 | Código o códigos (uno o más, separados por espacios) | Sí |
 
 ## Observaciones
 

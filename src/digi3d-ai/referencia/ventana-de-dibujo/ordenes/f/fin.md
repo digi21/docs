@@ -5,11 +5,11 @@ Da por finalizada la sesión de trabajo sobre el fichero actual.
 
 ## Parámetros
 
-No admite parámetros
+No admite parámetros.
 
 ## Observaciones
 
-Con esta orden, se cierra el fichero de dibujo activo, pero no sale de la ejecución de Digi3D.
+La orden cierra el fichero de dibujo activo y mantiene Digi3D en ejecución.
 
 ## Características de la orden
 

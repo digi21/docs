@@ -1,7 +1,7 @@
 # ERR-
 <!-- id: err-menos -->
 
-Teniendo el fichero gráfico generado con los programas [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md), cargado como referencia sobre el archivo de trabajo, podemos visualizar, con un zoom centrado, el error anterior al mostrado actualmente en el fichero.
+Muestra y centra la vista en el error anterior al mostrado actualmente en el fichero gráfico generado con [BINTRAM](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintram.md), si has cargado ese fichero como referencia del archivo de trabajo.
 
 ## Parámetros
 
@@ -9,7 +9,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Los programas _BINTRAM_ y _BINTOP_ sirven para generar un fichero con símbolos, cuya localización se corresponde con todas aquellas posiciones donde se ha detectado un error. El fichero creado es un fichero .bin que puede ser cargado como referencia sobre el archivo de trabajo.
+_BINTRAM_ y _BINTOP_ generan un fichero .bin con símbolos en las posiciones donde se han detectado errores. Puedes cargar el fichero como referencia del archivo de trabajo.
 
 ## Características de la orden
 

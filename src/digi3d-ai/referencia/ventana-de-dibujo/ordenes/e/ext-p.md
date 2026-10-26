@@ -1,7 +1,7 @@
 # EXT\_P
 <!-- id: ext-p -->
 
-Estira o recorta una entidad hasta su intersección con otra quedando ambas partidas en el punto de intersección, es decir, genera un nodo en este punto.
+Estira o recorta una línea hasta la intersección con una línea límite y divide el límite en ese punto para generar un nodo. Si la intersección coincide con un extremo de la línea límite, la orden no divide esa línea.
 
 ![EXT_P: se selecciona el límite (1) y la línea (2); la línea se estira hasta el límite y el límite se parte en dos en el punto de corte, que queda como nodo](../../../../../images/orden-ext-p.svg)
 
@@ -28,7 +28,7 @@ Si el control de calidad descarta cualquiera de las entidades nuevas (la línea 
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Extender una polilínea para que se cruce con otra partiendo |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |

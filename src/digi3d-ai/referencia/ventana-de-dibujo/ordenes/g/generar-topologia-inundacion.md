@@ -9,9 +9,9 @@ No admite parámetros.
 
 ## Para qué sirve
 
-Las órdenes de inundación trabajan sobre un recinto cerrado sin que tengas que seleccionar una a una las líneas que lo delimitan: haces clic dentro del recinto y la orden localiza las líneas de su contorno. Es el modo de trabajo de la herramienta de relleno («bote de pintura») de un programa de dibujo.
+Las órdenes de inundación trabajan sobre un recinto cerrado sin que tengas que seleccionar una a una las líneas que lo delimitan: haces clic dentro del recinto y la orden localiza las líneas de su contorno.
 
-Para saber qué recinto contiene el cursor, esas órdenes necesitan una topología de recintos calculada de antemano. Esta orden la calcula: forma los recintos con todas las líneas visibles del archivo de dibujo activo y guarda el resultado en memoria como topología temporal. La topología no se guarda en el archivo de dibujo ni se añade a las topologías cargadas.
+Las órdenes de inundación necesitan una topología de recintos calculada antes de ejecutar la orden de inundación para identificar el recinto que contiene el cursor. Esta orden calcula la topología: forma los recintos con todas las líneas visibles del archivo de dibujo activo y guarda el resultado en memoria como topología temporal. La topología no se guarda en el archivo de dibujo ni se añade a las topologías cargadas.
 
 Son órdenes de inundación:
 
@@ -34,9 +34,9 @@ Si ejecutas una orden de inundación sin haber generado antes la topología, la 
 
 ## Cómo se forman los recintos
 
-* Entran solo las líneas visibles del archivo de dibujo activo: las de códigos encendidos y, si los códigos desconocidos están visibles, también las de códigos que no están en la tabla de códigos. Las líneas cuyos códigos están todos apagados no forman recintos.
+* La orden forma los recintos solo con las líneas visibles del archivo de dibujo activo: las de códigos visibles y, si los códigos desconocidos están visibles, también las de códigos que no están en la tabla de códigos. Las líneas cuyos códigos están todos ocultos no forman recintos.
 * Los puntos, los textos y las demás geometrías que no son líneas no forman recintos. Los textos visibles que quedan dentro de un recinto se asocian como centroide al recinto más pequeño que los contiene.
-* Los nodos de la topología son los extremos de las líneas. Dos líneas que se cruzan no cierran recintos en el cruce si no terminan en él, aunque compartan un vértice. Pártelas antes con [PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md).
+* Los nodos de la topología son los extremos de las líneas. Dos líneas que se cruzan no cierran recintos en el cruce si no terminan en él, aunque compartan un vértice. Antes de generar la topología, parte las líneas con [PARTIR\_LINEAS\_VISIBLES](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/p/partir-lineas-visibles.md).
 * Una línea suelta, que no cierra ningún recinto, no forma recinto por sí misma. Para localizar los extremos sin conectar, usa [DETECTAR\_LINEAS\_VISIBLES\_NO\_CONECTADAS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/detectar-lineas-visibles-no-conectadas.md).
 * Una isla (un recinto rodeado por otro) es un hueco del recinto que la rodea. Al hacer clic dentro de la isla se selecciona la isla; al hacer clic entre la isla y el contorno exterior se selecciona el recinto exterior. Las órdenes de inundación actúan también sobre las líneas que delimitan los huecos del recinto seleccionado.
 
@@ -52,7 +52,7 @@ Si no se puede formar la topología, la orden muestra un globo de error con el t
 
 Una sola línea visible con puntos dobles o con un único vértice impide formar la topología, aunque su código no esté en la tabla de códigos.
 
-Las líneas con puntos dobles o de un solo punto se añaden además al panel de tareas, una tarea por entidad. Cada tarea lleva a su entidad al hacer clic en ella. Si está activada la opción [Vaciar automáticamente](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel de tareas, la orden vacía el panel antes de añadir las tareas.
+Las líneas con puntos dobles o de un solo punto se añaden además al panel de tareas, una tarea por entidad. Al hacer clic en la tarea de una línea, la vista se centra en esa línea. Si está activada la opción [Vaciar automáticamente](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/panel-de-tareas/vaciar-automaticamente.md) del panel de tareas, la orden vacía el panel antes de añadir las tareas.
 
 ## Resultado
 

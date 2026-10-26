@@ -1,7 +1,7 @@
 # DIBUJA\_PERÍMETRO
 <!-- id: dibuja-perimetro -->
 
-Calcula el perímetro \(la longitud\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición indicada por el usuario.
+Calcula el perímetro \(la longitud\) de una entidad gráfica seleccionada y sitúa en la pantalla un texto con este valor, en la posición que indiques.
 
 ## Parámetros
 
@@ -9,15 +9,15 @@ No admite parámetros.
 
 ## Observaciones
 
-Una vez ejecutada la orden, el programa pedirá seleccionar la línea o el polígono cuyo perímetro se quiere rotular. Si seleccionas otro tipo de entidad, la orden emite un sonido de error.
+Selecciona la línea o el polígono cuyo perímetro quieres rotular. Si seleccionas otro tipo de entidad, la orden emite un sonido de error.
 
-A continuación aparece en la Barra de Estado el sufijo para el perímetro. Este sufijo es opcional, por defecto aparece la cadena `m`. El usuario puede introducir el texto que desee y, una vez que está de acuerdo con el sufijo, deberá dar el punto de destino para ubicar el texto del perímetro. El texto usa el ángulo de [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación de [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y el número de decimales de [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md).
+Tras seleccionar la línea o el polígono, aparece en la Barra de Estado el sufijo para el perímetro. El sufijo es opcional y su valor por defecto es la cadena `m`. Escribe el sufijo que quieras e indica el punto de destino del texto del perímetro. El texto usa el ángulo de [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), la altura de [AT](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/at.md), la justificación de [JT](/digi3d-ai/referencia/ventana-de-dibujo/variables/j/jt.md) y el número de decimales de [NDEC](/digi3d-ai/referencia/ventana-de-dibujo/variables/n/ndec.md).
 
 Tras situar el texto, la orden vuelve a pedir una entidad. Pulsa Esc para terminar.
 
 En un polígono, el perímetro es el del contorno exterior: no incluye los huecos.
 
-El perímetro se calcula en planimetría \(coordenadas X, Y\), sin tener en cuenta los desniveles. Para obtener la longitud real considerando la coordenada Z, utilice [DIBUJA\_PERÍMETRO\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_perimetro_3d.md).
+El perímetro se calcula en planimetría \(coordenadas X, Y\), sin tener en cuenta los desniveles. Para obtener la longitud real considerando la coordenada Z, utiliza [DIBUJA\_PERÍMETRO\_3D](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dibuja_perimetro_3d.md).
 
 ## Características de la orden
 

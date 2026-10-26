@@ -1,7 +1,7 @@
 # EXT\_M
 <!-- id: ext-m -->
 
-Estira o recorta un grupo de entidades hasta que interseccionen con otra entidad dada.
+Estira o recorta un grupo de líneas hasta la intersección con una línea límite.
 
 ![EXT_M: se selecciona el límite (1) y se digitalizan dos puntos (2 y 3); las tres líneas que cruzan el segmento 2-3 y no llegan al límite se estiran hasta él, y la que lo sobrepasa se recorta](../../../../../images/orden-ext-m.svg)
 
@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-La orden pide primero la línea límite y después dos puntos. La orden ajusta al límite todas las líneas visibles que cortan el segmento entre los dos puntos. En cada línea prueba los dos extremos y lleva a la intersección con el límite cada extremo que la tenga:
+La orden pide primero la línea límite y después dos puntos. La orden ajusta al límite todas las líneas visibles que cortan el segmento entre los dos puntos. En cada línea, la orden prueba los dos extremos y ajusta cada extremo para el que encuentra una intersección con el límite:
 
 * Si la línea no llega al límite, la orden la estira.
 * Si la línea sobrepasa el límite, la orden la recorta.
@@ -20,13 +20,13 @@ Los extremos de las líneas conservan su coordenada Z original.
 
 La orden termina después de procesar los dos puntos.
 
-Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Con varias entidades, cada una se trata de forma independiente: solo se conserva el original de cada entidad descartada y las demás se ajustan.
+Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios. Si hay varias entidades, la orden trata cada entidad de forma independiente: se conserva la entidad original de cada copia descartada y las demás entidades se ajustan.
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Editar/Polilíneas/Extender múltiples líneas para que se crucen con otra línea \(2 puntos\) |
 | Barra de herramientas en la que aparece la orden | Extender/Recortar |
 | Extensión | DigiNG.OrdenesStandard.dll |

@@ -1,7 +1,7 @@
 # INS\_AA
 <!-- id: ins-aa -->
 
-Inserta un fichero de dibujo en el archivo de trabajo girado el ángulo activo.
+Inserta un archivo de dibujo en el archivo de trabajo con un giro igual al ángulo activo.
 
 ## Parámetros
 
@@ -11,15 +11,15 @@ Inserta un fichero de dibujo en el archivo de trabajo girado el ángulo activo.
 
 ## Observaciones
 
-Funciona igual que la orden [INS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins.md), pero gira el bloque alrededor del punto de inserción el valor de la variable [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), en grados sexagesimales.
+Funciona igual que la orden [INS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/i/ins.md), pero gira el bloque alrededor del punto de inserción un ángulo igual al valor de la variable [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), en grados sexagesimales.
 
-El fichero, sea del tipo que sea, se insertará con un factor de escala igual al valor de la escala activa \([ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md).
+El archivo se inserta con un factor de escala igual al valor de la escala activa \([ESC\_ACT](/digi3d-ai/referencia/ventana-de-dibujo/variables/e/esc-act.md)\).
 
 ## Características de la orden
 
 | Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
-| Repite automáticamente | Si |
+| Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Dibujar/Bloques/Insertar un bloque con ángulo activo... |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_ |
 | Extensión | DigiNG.OrdenesStandard.dll |

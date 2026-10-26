@@ -1,13 +1,13 @@
 # ELIMINAR\_ENTIDADES\_DUPLICADAS
 <!-- id: eliminar-entidades-duplicadas -->
 
-Elimina las entidades duplicadas manteniendo únicamente la que tenga un código que esté antes en la línea de comandos, por código.
+Elimina las entidades duplicadas de los códigos indicados y conserva la entidad cuyo código aparece primero en la lista de parámetros.
 
 ## Parámetros
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 … N | Código o códigos de las entidades a procesar | Si |
+| 1 … N | Código o códigos de las entidades a procesar | Sí |
 
 ## Observaciones
 

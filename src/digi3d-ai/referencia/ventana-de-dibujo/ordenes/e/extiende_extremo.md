@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Esta orden solicita que se seleccione una polilínea. Una vez seleccionada se prolongará el extremo más cercano a la selección hasta interseccionar con las coordenadas del cursor.
+Selecciona una polilínea. La orden prolonga el extremo más cercano al punto de selección hasta el pie de la perpendicular trazada desde el cursor a la recta del último tramo.
 
 Si el control de calidad descarta la entidad modificada, la entidad original se conserva sin cambios.
 
@@ -19,7 +19,7 @@ Si el control de calidad descarta la entidad modificada, la entidad original se 
 
 | Tipo de orden                                    | [Orden interactiva](ext.md)                                                                                                                                     |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repite automáticamente                           | Si                                                                                                                                                              |
+| Repite automáticamente                           | Sí                                                                                                                                                              |
 | Opción del menú donde aparece la orden           | Editar/Polilíneas/Extiende extremo de polilínea dinámicamente                                                                                                   |
 | Barra de herramientas en la que aparece la orden | _Esta orden no tiene asociado ningún botón en ninguna barra de herramientas_                                                                                    |
 | Extensión                                        | DigiNG.OrdenesStandard.dll                                                                                                                                      |

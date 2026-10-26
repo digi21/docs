@@ -1,7 +1,7 @@
 # DETECTAR\_POLIGONOS\_VECINOS\_MISMO\_CENTROIDE
 <!-- id: detectar-poligonos-vecinos-mismo-centroide -->
 
-Marca como error aquellos polígonos que son vecinos y que tienen el mismo centroide.
+Marca como error las parejas de polígonos vecinos cuyos centroides tienen el mismo texto, los mismos códigos y los mismos atributos.
 
 ## Parámetros
 

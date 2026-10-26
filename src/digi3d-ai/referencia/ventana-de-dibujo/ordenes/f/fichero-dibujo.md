@@ -7,7 +7,7 @@ Solicita el nombre de un archivo de dibujo, lo carga y sustituye con él el arch
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Ruta y nombre del archivo de dibujo | Si |
+| 1 | Ruta y nombre del archivo de dibujo | Sí |
 
 Si no se indica el parámetro, la orden muestra el cuadro de diálogo para seleccionar el archivo.
 

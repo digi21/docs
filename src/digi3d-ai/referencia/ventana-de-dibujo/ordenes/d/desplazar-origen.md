@@ -11,7 +11,7 @@ No admite parámetros.
 
 ## Observaciones
 
-Si necesitas cambiar la geometría de una entidad cerrada y el origen de dicha entidad coincida justo con la zona a modificar, esto hace imposible la modificación. La solución a este problema es la utilización de la orden _DESPLAZAR\_ORIGEN_.
+Si el origen de una entidad cerrada coincide con la zona que necesitas modificar, no puedes modificar esa zona. Para cambiar el origen, utiliza la orden _DESPLAZAR\_ORIGEN_.
 
 1. Selecciona la línea cerrada, o el contorno o un hueco de un polígono. Aparece una cruz en el origen actual.
 2. Pulsa **+** o **−** para mover la cruz al vértice siguiente o al anterior.

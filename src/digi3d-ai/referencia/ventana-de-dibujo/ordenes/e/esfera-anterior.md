@@ -7,7 +7,7 @@ Entra en la esfera anterior.
 
 | Número de parámetro | Descripción | Opcional |
 | :--- | :--- | :--- |
-| 1 | Número de esferas que retrocede. Si no se indica, vale 1 | Si |
+| 1 | Número de esferas que retrocede. Si no se indica, vale 1 | Sí |
 
 ## Observaciones
 

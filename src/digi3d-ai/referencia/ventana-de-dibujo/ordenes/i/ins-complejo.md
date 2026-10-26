@@ -12,7 +12,7 @@ Inserta el contenido de un archivo de dibujo como un único elemento complejo pu
 ## Observaciones
 
 * La orden agrupa todas las entidades no borradas del archivo en un elemento complejo puntual y pide el punto de inserción.
-* El elemento complejo se gira el valor de la variable [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), en grados sexagesimales. No se aplica la escala activa.
+* El elemento complejo se gira un ángulo igual al valor de la variable [AA](/digi3d-ai/referencia/ventana-de-dibujo/variables/a/aa.md), en grados sexagesimales. No se aplica la escala activa.
 
 ## Características de la orden
 
