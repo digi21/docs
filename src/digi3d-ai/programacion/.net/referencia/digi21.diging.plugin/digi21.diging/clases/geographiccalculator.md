@@ -4,7 +4,7 @@
 Espacio de nombres: `Digi21.DigiNG`  
 Ensamblado: [Digi21.DigiNG.Plugin](/digi3d-ai/programacion/.net/referencia/digi21.diging.plugin/)
 
-Calcula áreas, perímetros y distancias según el sistema de referencia de coordenadas de la ventana de dibujo. Con un sistema geográfico, los resultados están en metros y metros cuadrados, aunque las coordenadas estén en grados.
+Calcula áreas, perímetros y distancias según el sistema de referencia de coordenadas de la ventana de dibujo. Con un sistema geográfico, las distancias y los perímetros se expresan en metros y las áreas, en metros cuadrados, aunque las coordenadas estén en una unidad angular.
 
 ```csharp
 public sealed class GeographicCalculator
@@ -17,7 +17,7 @@ El cálculo depende de la parte horizontal del sistema de referencia de coordena
 | Sistema horizontal | Distancias y perímetros | Áreas |
 | :--- | :--- | :--- |
 | Proyectado o local | Distancia euclídea, en las unidades del sistema. | Área plana, en las unidades del sistema al cuadrado. |
-| Geográfico | Distancia geodésica sobre el elipsoide del sistema, en metros. Las coordenadas X e Y son la longitud y la latitud en grados. | Área de los vértices proyectados con una proyección estereográfica oblicua centrada en el primer vértice, en metros cuadrados. Si la proyección falla, devuelve 0. |
+| Geográfico | Distancia geodésica sobre el elipsoide del sistema, en metros. Las coordenadas X e Y son la longitud y la latitud en la unidad angular del sistema, por ejemplo grados sexagesimales en el sistema World Geodetic System 1984 (WGS 84, EPSG:4326; EPSG es el registro del grupo European Petroleum Survey Group) y grados centesimales en el sistema Nouvelle triangulation de la France (NTF), con meridiano de París (EPSG:4807). | Área del polígono obtenido al proyectar sus vértices con la proyección de Lambert azimutal equivalente centrada en el primer vértice, que conserva las áreas, en metros cuadrados. Si la proyección falla, los métodos CalculateArea devuelven 0. |
 
 ## Métodos
 
