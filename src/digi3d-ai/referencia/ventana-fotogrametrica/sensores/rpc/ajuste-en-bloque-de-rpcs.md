@@ -81,3 +81,9 @@ Los campos están vacíos mientras no haya ajuste calculado.
 Si no hay ajuste calculado, **Aceptar** cierra el panel sin guardar nada.
 
 Si pulsas **Cancelar** o terminas la orden de cualquier otra forma sin aceptar un ajuste, los RPC de las dos imágenes recuperan los valores que tenían al ejecutar la orden. Digi3D.AI no guarda las medidas si terminas la orden sin aceptar un ajuste.
+
+## Proyectos con varios pares
+
+El panel ajusta únicamente las dos imágenes del par cargado en la ventana fotogramétrica. Para ajustar un [proyecto con varios pares](README.md#proyectos-con-varios-pares), debes ajustar cada par por separado: carga el par, mide sus puntos de apoyo y pulsa **Aceptar**.
+
+La corrección se guarda por imagen, en `<directorio de trabajo>\<nombre de la imagen>.digi3d_rpcba`. Si dos pares con el mismo directorio de trabajo comparten una imagen, al aceptar el ajuste de uno de ellos se sustituye la corrección de esa imagen, y Digi3D.AI usa la nueva corrección de esa imagen cuando vuelve a cargar el otro par.

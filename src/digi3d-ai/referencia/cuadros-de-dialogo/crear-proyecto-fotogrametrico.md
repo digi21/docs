@@ -16,7 +16,7 @@ El cuadro de diálogo requiere el módulo de fotogrametría en la licencia. Si l
 * **Archivo a crear**: la ruta del archivo de proyecto. El botón **...** permite seleccionarla. Mientras este campo está vacío, **Sensor**, los botones de las pasadas y de los modelos y **Aceptar** están deshabilitados.
 
   Si el archivo ya existe, el cuadro de diálogo carga sus pasadas y sus modelos para modificarlos. Si el archivo no es un XML válido, muestra el mensaje «Error en la línea: *n*, columna: *n*» con el motivo del error, y los controles siguen deshabilitados.
-* **Sensor**: el sensor de los modelos que se crean con **Crear** y **Crear Varios**. Solo lista los sensores que pueden crear proyectos. Al abrir el cuadro de diálogo selecciona el sensor que estaba elegido la última vez que se pulsó **Aceptar**.
+* **Sensor**: el sensor de los modelos que se crean con **Crear** y **Crear Varios**. Solo lista los sensores que pueden crear proyectos: **Cónico (estereoscópico)** y **Satélite RPC (estereoscópico)** (RPC: coeficientes polinómicos racionales). Consulta [Proyectos con varios pares](../ventana-fotogrametrica/sensores/rpc/README.md#proyectos-con-varios-pares) para los proyectos del sensor Satélite RPC. Al abrirse, el cuadro de diálogo selecciona automáticamente el sensor que estaba elegido la última vez que se pulsó **Aceptar**.
 * **Pasadas**: las pasadas del proyecto.
   * **Crear**: abre el cuadro de diálogo [Propiedades de la pasada](#propiedades-de-la-pasada) y añade una pasada.
   * **Propiedades**: cambia el nombre de la pasada seleccionada. También se abre con doble clic sobre la pasada.

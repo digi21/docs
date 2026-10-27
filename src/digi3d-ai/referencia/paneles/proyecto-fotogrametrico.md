@@ -11,6 +11,8 @@ Al pulsar sobre un modelo, el programa abre una ventana fotogramétrica con ese 
 
 Si el proyecto es de fotos y no de modelos, el panel muestra dos listas con las mismas fotos: la izquierda y la derecha. Al seleccionar una foto en cada lista se carga el modelo formado por las dos fotos.
 
+Un proyecto `.d3dprj` puede contener pares del sensor Satélite RPC (estereoscópico) (RPC: coeficientes polinómicos racionales) en lugar de modelos de cámara cónica. Consulta [Proyectos con varios pares](../ventana-fotogrametrica/sensores/rpc/README.md#proyectos-con-varios-pares) para saber cómo crear un proyecto `.d3dprj` con varios pares y cómo elige par el cambio automático de modelo.
+
 El panel guarda la ruta del último proyecto cargado con los botones **Nuevo** o **Cargar**, o con la función Python [open_project](../../programacion/python/referencia/digi3d/functions.md#open_project). Digi3D.AI no carga ningún proyecto al iniciarse, salvo que la línea de comandos incluya el subcomando `proyecto` o que Digi3D.AI abra al iniciarse un archivo de dibujo con un proyecto asociado.
 
 ## Proyecto asociado al archivo de dibujo
