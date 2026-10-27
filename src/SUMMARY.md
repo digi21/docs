@@ -2582,6 +2582,7 @@
     * [Imagen Cubicación](mdtopx/herramientas-de-edicion-de-la-triangulacion/imagen-cubicacion.md)
     * [Añadir objetos al MDT](mdtopx/herramientas-de-edicion-de-la-triangulacion/poner-cubiertas.md)
     * [Información de Objeto](mdtopx/herramientas-de-edicion-de-la-triangulacion/informacion-de-objeto.md)
+    * [Rellenar huecos 3D](mdtopx/herramientas-de-edicion-de-la-triangulacion/rellenar-huecos-3d.md)
   * [Módulo Viales](mdtopx/modulo-viales/README.md)
     * [General](mdtopx/modulo-viales/general/README.md)
       * [Información del documento viales](mdtopx/modulo-viales/general/informacion-del-documento-viales.md)

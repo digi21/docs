@@ -12,3 +12,4 @@
 * [Imagen Cubicación](imagen-cubicacion.md)
 * [Añadir objetos al MDT](poner-cubiertas.md)
 * [Información de Objeto](informacion-de-objeto.md)
+* [Rellenar huecos 3D](rellenar-huecos-3d.md)
