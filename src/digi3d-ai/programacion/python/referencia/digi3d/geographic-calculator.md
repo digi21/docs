@@ -22,7 +22,7 @@ coordenadas de la ventana de dibujo. Se obtiene de
 Las coordenadas se pasan como listas de tuplas `(x, y, z)`; los puntos, como tuplas
 `(x, y, z)`.
 
-Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, x es la longitud y y es la latitud, en la unidad angular del sistema (por ejemplo, grados centesimales en el sistema Nouvelle triangulation de la France (NTF), con meridiano de París, código 4807 del registro del grupo European Petroleum Survey Group, EPSG). Las distancias, los perímetros y los acimuts se calculan con la geodésica sobre el elipsoide del sistema, y el área se calcula proyectando los vértices con la proyección de Lambert azimutal equivalente centrada en el primer vértice.
+Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, x es la longitud y y es la latitud, en la unidad angular del sistema (por ejemplo, grados centesimales en el sistema Nouvelle triangulation de la France (NTF), con meridiano de París, código 4807 del registro del grupo European Petroleum Survey Group, EPSG). Las distancias 2D, los perímetros 2D y los acimuts se calculan con la geodésica sobre el elipsoide del sistema. La distancia 3D de cada segmento es la raíz cuadrada de la suma del cuadrado de la distancia geodésica y del cuadrado de la diferencia de z entre los extremos del segmento, y el perímetro 3D suma las distancias 3D de los segmentos. El área se calcula proyectando los vértices con la proyección de Lambert azimutal equivalente centrada en el primer vértice.
 
 ## Ejemplo
 
