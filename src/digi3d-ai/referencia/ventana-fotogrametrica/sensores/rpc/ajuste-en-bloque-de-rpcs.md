@@ -77,10 +77,35 @@ Los campos están vacíos mientras no haya ajuste calculado.
 
 * Los RPC corregidos de cada imagen, en `<directorio de trabajo>\<nombre de la imagen>.digi3d_rpcba`. El sensor Satélite RPC carga este archivo al abrir el modelo.
 * Las medidas, en `<directorio de trabajo>\<nombre del modelo>.rpcba`.
+* El informe del ajuste, en `<directorio de trabajo>\<nombre del modelo>.rpcba.txt`. Consulta [Informe del ajuste](#informe-del-ajuste). El panel Resultados muestra la ruta del informe.
+
+Después de guardar el ajuste calculado al pulsar **Aceptar**, Digi3D.AI muestra en la ventana fotogramétrica los puntos de apoyo medidos. Consulta [Puntos de apoyo medidos en la ventana fotogramétrica](#puntos-de-apoyo-medidos-en-la-ventana-fotogramétrica).
 
 Si no hay ajuste calculado, **Aceptar** cierra el panel sin guardar nada.
 
 Si pulsas **Cancelar** o terminas la orden de cualquier otra forma sin aceptar un ajuste, los RPC de las dos imágenes recuperan los valores que tenían al ejecutar la orden. Digi3D.AI no guarda las medidas si terminas la orden sin aceptar un ajuste.
+
+## Informe del ajuste
+
+El archivo `<nombre del modelo>.rpcba.txt` es un archivo de texto en UTF-8, en el idioma de la interfaz de Digi3D.AI, con estas secciones:
+
+1. Una cabecera con el título «Digi3D.AI - Informe del ajuste en bloque de coeficientes polinómicos racionales (RPC)», la fecha y la hora en que se genera el informe, el nombre del modelo, los nombres de las dos imágenes, la ruta del archivo de puntos, el número de puntos del ajuste y el significado de cada columna.
+2. Una tabla por imagen con estas columnas para cada punto del ajuste:
+   * **Punto**, **X**, **Y** y **Z**: nombre y coordenadas del punto en el archivo de puntos.
+   * **Ef** y **Ec**: fila y columna calculadas con el ajuste menos fila y columna medidas, en píxeles. Son los valores de las columnas **Ef(i)** y **Ec(i)**, o **Ef(d)** y **Ec(d)**, de la lista del panel.
+   * **DX** y **DY**: coordenadas X e Y del punto donde el rayo correspondiente a la fila y la columna medidas en esa imagen interseca la superficie de altura constante situada a la cota del punto, menos las coordenadas X e Y del archivo de puntos.
+
+   Debajo de la tabla, el informe muestra los coeficientes de corrección de los RPC de la imagen (`IOCOEF_LINE` e `IOCOEF_SAMPLE`).
+3. Una tabla del modelo estereoscópico con **DX**, **DY** y **DZ**: coordenadas ajustadas del punto menos coordenadas del archivo de puntos. Son los valores de las columnas **Ex**, **Ey** y **Ez** de la lista del panel.
+
+Debajo de cada tabla, el informe muestra el error medio cuadrático y la media de cada columna de residuos. Si Digi3D.AI no puede calcular un valor de **DX** o **DY** de una imagen, deja la celda vacía y no la tiene en cuenta en el error medio cuadrático ni en la media de esa columna. X, Y, Z, DX, DY y DZ están en unidades del sistema de referencia de coordenadas del terreno.
+
+## Puntos de apoyo medidos en la ventana fotogramétrica
+
+Si existe el archivo `<directorio de trabajo>\<nombre del modelo>.rpcba`, la ventana fotogramétrica dibuja en cada imagen, para cada punto medido, un círculo en la posición medida y el nombre del punto. Digi3D.AI lee el archivo al abrir el modelo y al pulsar **Aceptar** en este panel. Si el archivo no existe, la ventana fotogramétrica no dibuja ningún punto de apoyo medido, tampoco al cambiar a ese modelo desde otro del mismo proyecto.
+
+* Los círculos usan el color y el tamaño de los puntos de apoyo del sensor de cámara cónica. Puedes cambiar ese color y ese tamaño en el cuadro de diálogo **Configuración**.
+* La casilla de los puntos medidos del cuadro de diálogo de propiedades de la imagen muestra y oculta los círculos y los nombres.
 
 ## Proyectos con varios pares
 
