@@ -302,6 +302,7 @@
           * [CUADROS](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cuadros.md)
           * [CUADROS\_4P](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cuadros-4p.md)
           * [CURSOR](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cursor.md)
+          * [CURSOR\_TERRENO](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cursor-terreno.md)
           * [CURVAR](digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/curvar.md)
         * [D](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/README.md)
           * [DEJAR](digi3d-ai/referencia/ventana-de-dibujo/ordenes/d/dejar.md)
