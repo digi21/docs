@@ -13,6 +13,8 @@ Muestra información de la entidad seleccionada.
 
 La orden abre el panel de resultados y escribe en él el archivo, los códigos, la ventana envolvente, la fecha de creación, las coordenadas de los vértices, los atributos y los datos propios del tipo de entidad \(perímetros 2D y 3D de las líneas y área de las que están cerradas en planta, altura, rotación y justificación de los textos, huecos y superficie de los polígonos\).
 
+Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, la orden interpreta la longitud y la latitud en la unidad angular del sistema. Calcula los perímetros con la geodésica sobre el elipsoide, en metros, y el área, en metros cuadrados, proyectando los vértices con la proyección de Lambert azimutal equivalente centrada en el primer vértice. Para más información, consulta [Coordenadas, distancias, ángulos y áreas para las órdenes que se ejecutan en la ventana de dibujo](/digi3d-ai/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/coordenadas-distancias-angulos-ventana-dibujo.md).
+
 Si el conmutador [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activado, esta orden se repite automáticamente hasta que pulses la tecla Esc.
 
 Para guardar el listado de coordenadas en un archivo, indica el nombre y el directorio del archivo que quieres generar y, a continuación, selecciona la entidad.

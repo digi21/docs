@@ -16,6 +16,8 @@ La orden asigna el valor al campo en la lista de atributos activos del código, 
 
 Mientras mueves el cursor después de introducir el primer punto, la orden muestra en la barra de mensajes la distancia tridimensional entre el primer punto y la posición del cursor. El valor almacenado es la distancia tridimensional entre los dos puntos, con el número de decimales de la ventana de dibujo.
 
+Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, la orden interpreta la longitud y la latitud de los puntos en la unidad angular del sistema. La distancia tridimensional es la raíz cuadrada de la suma del cuadrado de la distancia geodésica sobre el elipsoide, en metros, y del cuadrado de la diferencia entre las cotas Z almacenadas de ambos puntos, calculada sin convertir la unidad de esas cotas. Para más información, consulta [Coordenadas, distancias, ángulos y áreas para las órdenes que se ejecutan en la ventana de dibujo](/digi3d-ai/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/coordenadas-distancias-angulos-ventana-dibujo.md).
+
 Si falta alguno de los dos parámetros, la orden emite un sonido de error y termina.
 
 ## Características de la orden

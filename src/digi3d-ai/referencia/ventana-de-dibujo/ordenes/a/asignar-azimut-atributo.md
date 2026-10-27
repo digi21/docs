@@ -16,6 +16,8 @@ La orden asigna el valor al campo en la lista de atributos activos del código, 
 
 Mientras mueves el cursor después de introducir el primer punto, la orden muestra en la barra de mensajes el azimut de la posición del cursor respecto al primer punto. El valor almacenado es el azimut del segundo punto respecto al primero (medido desde el norte en sentido horario, desde 0 grados inclusive hasta 360 grados exclusive), en grados sexagesimales, con el número de decimales de la ventana de dibujo. Para almacenar el ángulo trigonométrico (medido desde el eje X en sentido antihorario) usa [ASIGNAR\_ANGULO\_ATRIBUTO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/a/asignar-angulo-atributo.md).
 
+Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, la orden interpreta la longitud y la latitud de los puntos en la unidad angular del sistema y calcula el azimut con la geodésica sobre el elipsoide, medido en el primer punto. Para más información, consulta [Coordenadas, distancias, ángulos y áreas para las órdenes que se ejecutan en la ventana de dibujo](/digi3d-ai/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/coordenadas-distancias-angulos-ventana-dibujo.md).
+
 Si falta alguno de los dos parámetros, la orden emite un sonido de error y termina.
 
 ## Características de la orden

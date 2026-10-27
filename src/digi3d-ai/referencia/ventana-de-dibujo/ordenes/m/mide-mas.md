@@ -11,6 +11,8 @@ No admite parámetros.
 
 La orden pide puntos de forma continua y muestra en la barra de estado los valores acumulados hasta la posición del cursor. Al terminar la orden \(por ejemplo, con la tecla Esc\), muestra un globo con el perímetro en dos dimensiones (2D), el perímetro en tres dimensiones (3D) y, si el área no es cero, el área.
 
+Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, la orden interpreta la longitud y la latitud en la unidad angular del sistema. Calcula los perímetros con la geodésica sobre el elipsoide, en metros, y el área, en metros cuadrados, proyectando los vértices con la proyección de Lambert azimutal equivalente centrada en el primer vértice. Para más información, consulta [Coordenadas, distancias, ángulos y áreas para las órdenes que se ejecutan en la ventana de dibujo](/digi3d-ai/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/coordenadas-distancias-angulos-ventana-dibujo.md).
+
 Si ejecutas MIDE+ mientras otra orden espera una distancia, la orden que espera recibe el perímetro en el plano (2D).
 
 ## Características de la orden

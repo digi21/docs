@@ -14,6 +14,8 @@ No admite parámetros.
 
 Al ejecutar la orden, el programa te pedirá que selecciones la entidad cerrada cuya área quieres rotular. La orden solo acepta líneas y polígonos. Si la línea no está cerrada, la orden calcula el área cerrándola entre el último y el primer vértice. En un polígono, la orden resta el área de los huecos, sea cual sea su sentido de giro; el signo del resultado es el del contorno exterior.
 
+Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, la orden interpreta la longitud y la latitud en la unidad angular del sistema y calcula el área, en metros cuadrados, proyectando los vértices con la proyección de Lambert azimutal equivalente centrada en el primer vértice. Esta proyección conserva las áreas. Para más información, consulta [Coordenadas, distancias, ángulos y áreas para las órdenes que se ejecutan en la ventana de dibujo](/digi3d-ai/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/coordenadas-distancias-angulos-ventana-dibujo.md).
+
 El área se escribe en la unidad de la opción [Unidad de superficie](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/orden-area/unidad-de-superficie.md) de la configuración: metros cuadrados (por defecto), hectáreas o kilómetros cuadrados.
 
 A continuación aparece en la barra de estado el sufijo del área, que corresponde a esa unidad: `m2`, `ha` o `km2`. El sufijo se puede cambiar por cualquier otro texto, pero el valor sigue en la unidad configurada. Después, indica el punto donde se coloca el texto del área.

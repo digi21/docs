@@ -14,7 +14,7 @@ No admite parámetros.
 1. Selecciona la línea junto al vértice que quieres redondear. La orden toma el vértice más cercano al punto de selección, que no puede ser el primero ni el último de la línea.
 2. Indica el radio de una de estas dos formas:
    - escribe el radio en metros en el campo **Radio** de la barra de estado y pulsa Intro;
-   - digitaliza dos puntos: el radio es la distancia en planta entre ellos.
+   - digitaliza dos puntos: el radio es la distancia en planta entre ellos. Si el sistema de referencia de coordenadas horizontal de la ventana de dibujo es geográfico, esa distancia es la distancia geodésica sobre el elipsoide, en metros, entre los dos puntos, cuyas longitud y latitud se interpretan en la unidad angular del sistema. Para más información, consulta [Coordenadas, distancias, ángulos y áreas para las órdenes que se ejecutan en la ventana de dibujo](/digi3d-ai/sistemas-referencia-coordenadas/implementacion-src-modulos-digi3d/ventana-dibujo/coordenadas-distancias-angulos-ventana-dibujo.md).
 
 El vértice se sustituye por un arco del radio indicado, tangente a los dos tramos que llegan a él. La Z de los puntos de tangencia se interpola en cada tramo.
 
