@@ -43,6 +43,33 @@ El programa carga los archivos habilitados en un hilo de fondo y añade sus coma
 Los comandos de Python que declaran la misma sección en la misma pestaña comparten esa sección.
 Consulta [Python](programacion/python/README.md).
 
+## Tienda de extensiones
+
+La tienda de digi21.net publica extensiones de Digi21 y de otros desarrolladores. Digi21 revisa cada versión
+antes de publicarla. Para usar la tienda, el equipo tiene que estar registrado en una cuenta de digi21.net
+(**Configuración** > **Licencias** > **Activar este equipo**).
+
+1. Pulsa **Configuración**, en el engranaje de la barra de título.
+2. Selecciona **Tienda** en el menú lateral. La página descarga el catálogo de digi21.net.
+3. Pulsa **Instalar** en una extensión y confirma la instalación.
+4. Cierra Lot Of Points y vuelve a abrirlo. El programa carga las extensiones instaladas al iniciarse.
+
+Una extensión de pago necesita una licencia de su módulo activada en el equipo. Mientras la tienda no admita
+pagos, **Pedir una demostración** crea una licencia de demostración para el equipo, si la extensión tiene oferta
+de demostración. Cada cuenta y cada equipo pueden tener una demostración de cada módulo. Las licencias del equipo
+aparecen en **Configuración** > **Licencias** y en **Mis licencias de Lot Of Points**, en digi21.net.
+
+Lot Of Points guarda cada versión instalada en `%LocalAppData%\lop\extensions\<extensión>\<versión>`. Cada vez que
+se inicia, el programa comprueba la firma de digi21.net del manifiesto de cada versión y el resumen criptográfico de cada
+archivo, y no carga una versión con archivos modificados, añadidos o eliminados. De cada extensión, el programa
+carga la versión verificada más reciente que admite la versión instalada de Lot Of Points y que Digi21 no ha
+retirado de la tienda.
+
+Una compra permite usar las versiones de la extensión publicadas hasta la fecha de fin del soporte incluido en esa compra. Si el soporte terminó antes de la
+publicación de la versión instalada, el programa no muestra los botones de los comandos de esa versión.
+
+**Desinstalar** borra todas las versiones instaladas de la extensión. Si Lot Of Points tiene cargados archivos de la
+extensión, el programa los borra la próxima vez que se inicia.
 ## Habilitación y configuración
 
 Las extensiones nuevas aparecen habilitadas.

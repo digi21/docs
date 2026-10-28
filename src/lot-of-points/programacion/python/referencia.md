@@ -228,7 +228,7 @@ Un error de Lot Of Points dentro de una llamada llega al guion como una excepci�
 ```python
 @lop.command(id, name, *, existing_tab_id="", new_tab_title="",
              ribbon_section="", description="", parameters=(), icon="",
-             requirements=0)
+             requirements=0, module="")
 def command_function(host):
     ...
 ```
@@ -244,6 +244,10 @@ usa el icono predeterminado.
 `lop.REQUIRES_EDITABLE_CLOUD`. El programa habilita el botón y permite ejecutar el comando cuando se cumplen
 todos los requisitos declarados por el comando. Con 0, el botón no depende de esos requisitos.
 Una nube editable para este requisito necesita registro de ediciones e índices en el archivo original.
+
+`module` es el módulo con licencia que requiere el comando, `prefijo.nombre` con letras de `a` a `z`, dígitos,
+`.` y `-`. Con `""`, el comando no requiere licencia. Si module contiene texto, Lot Of Points solo muestra y
+ejecuta el comando si una licencia activada en el equipo incluye el módulo indicado. Consulta [Publicar en la tienda de extensiones](../publicar-en-la-tienda.md).
 
 ```python
 lop.Parameter(id, name, default, minimum, maximum, unit="",

@@ -2922,6 +2922,7 @@
     * [Python](lot-of-points/programacion/python/README.md)
       * [Referencia del módulo lop](lot-of-points/programacion/python/referencia.md)
       * [Ejemplos](lot-of-points/programacion/python/ejemplos.md)
+    * [Publicar en la tienda de extensiones](lot-of-points/programacion/publicar-en-la-tienda.md)
 * [Lot Of Points Studio](lot-of-points-studio/README.md)
   * [Procesar en local](lot-of-points-studio/procesar-en-local.md)
   * [Proyectos en Azure](lot-of-points-studio/proyectos-en-azure.md)

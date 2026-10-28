@@ -47,6 +47,7 @@ con `host->log` antes de devolver `LOP_FAILED`. Ninguna excepción debe cruzar l
 | `run` | Función obligatoria que ejecuta el comando. |
 | `user_data` | Puntero de la DLL; `run` lo recibe dentro de `command`. |
 | `requirements` | Combinación de los requisitos que habilitan el botón. |
+| `module` | Módulo con licencia que requiere el comando, `prefijo.nombre` con letras de `a` a `z`, dígitos, `.` y `-`; puntero nulo o cadena vacía si el comando no requiere licencia. Si `module` contiene texto, Lot Of Points solo muestra y ejecuta el comando si una licencia activada en el equipo incluye el módulo indicado. Consulta [Publicar en la tienda de extensiones](../publicar-en-la-tienda.md). |
 
 Los comandos que declaran el mismo `new_tab_title` comparten pestaña. Las pestañas nuevas aparecen después
 de las propias de Lot Of Points. Cada DLL conserva sus secciones, aunque otra DLL use el mismo título de sección.
