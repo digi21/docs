@@ -16,7 +16,7 @@ Los puntos y triángulos del parche se **añaden** al modelo digital: los que ya
 Hay tres herramientas:
 
 * [**Rellenar huecos 3D**](#rellenar-huecos-3d-1): todos los huecos del modelo digital hasta un tamaño.
-* [**Rellenar un hueco 3D**](#rellenar-un-hueco-3d): el hueco en el que se pincha, sea del tamaño que sea.
+* [**Rellenar un hueco 3D**](#rellenar-un-hueco-3d): el hueco en el que se pincha, sea del tamaño que sea, o la parte de su borde que queda dentro de un círculo que se arrastra.
 * [**Superficie sin huecos**](#superficie-sin-huecos): desde un documento TIN 3D (tetraedros), la superficie con sus huecos rellenos, como un modelo digital nuevo.
 
 ## Rellenar huecos 3D
@@ -37,16 +37,47 @@ Al terminar, la ventana de resultados muestra cuántos huecos se han rellenado d
 
 ## Rellenar un hueco 3D
 
-Botón **Rellenar un hueco 3D** del panel **Otros** de la ficha [Edición TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/generar-a-partir-del-tin.md). Pinche con el botón izquierdo del ratón dentro del hueco que quiere tapar y se rellena, sin límite de tamaño. La herramienta sigue activa para pinchar en otros huecos hasta que se elige otra.
+Botón **Rellenar un hueco 3D** del panel **Otros** de la ficha [Edición TIN](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/generar-a-partir-del-tin.md) (el icono con un 3 y la insignia roja y amarilla). Rellena el hueco que se indica en pantalla, sin límite de tamaño. La herramienta sigue activa para tapar otros huecos hasta que se elige otra. Antes de usarla, gire el modelo hasta ver bien el hueco: todo se decide sobre lo que se ve en pantalla, con la vista girada como esté.
+
+Hay dos formas de indicar el hueco:
+
+* **Pinchar** con el botón izquierdo del ratón dentro del hueco: se rellena el hueco entero.
+* **Pinchar y arrastrar un círculo** sin soltar el botón: al soltarlo, se rellena solo la parte del borde del hueco que queda dentro del círculo, cerrada con líneas rectas entre sus extremos. Sirve para tapar solo un trozo de un hueco grande o alargado, o para los entrantes del contorno. El círculo se dibuja en pantalla mientras se arrastra; el botón derecho cancela el círculo sin rellenar nada. Un arrastre de menos de cinco píxeles cuenta como un clic.
+
+### Pinchar dentro de un hueco
 
 El programa busca los bordes de la superficie que, vistos en pantalla, rodean el punto pinchado y no quedan detrás de la superficie que se ve en él, y rellena el más pequeño:
 
 * Al pinchar en un hueco, por él se ve lo que hay detrás (o nada), así que se rellena ese hueco y no el contorno exterior que también lo rodea.
-* Al pinchar sobre la superficie, fuera de cualquier hueco, no se rellena nada: la barra de estado indica que no hay ningún hueco en el punto pinchado y el modelo digital no cambia.
+* Al pinchar sobre la superficie, fuera de cualquier hueco, no se rellena nada: la barra de estado indica que no hay ningún hueco cerrado en el punto pinchado y el modelo digital no cambia.
 * Un hueco que queda detrás de otra parte de la superficie no se puede elegir: gire la vista para verlo.
+* Un hueco largo y estrecho (por ejemplo, la sombra de una tubería sobre el suelo, que la tubería tapa casi entera) se parte por sus estrechamientos y se rellena solo el trozo que contiene el punto pinchado.
 * El borde exterior de una pieza se rellena si se pincha dentro de él, como la boca de un tubo o de un objeto hueco, salvo que su parche fuera a cubrir casi toda la pieza (el contorno de un terreno, un trozo suelto).
+* Un hueco entre una parte de la superficie y otra que se dobla sobre ella y se ve por detrás (por ejemplo, entre la pared de una tubería y un «diente» de triángulos que baja hacia el suelo) no es un borde normal de la superficie, pero también se rellena al pinchar dentro, si por el hueco se ve lo que hay detrás.
 
-Si el hueco pinchado no se puede rellenar (toca aristas de tres o más triángulos, es el contorno de su pieza, es un triángulo suelto…), la ventana de resultados indica el motivo, suena un aviso y el modelo digital queda como estaba.
+### Arrastrar un círculo
+
+Solo cuentan los puntos del borde que quedan dentro del círculo y se ven: los de la parte del borde que pasa por detrás (de una tubería, del propio objeto) no cuentan aunque caigan dentro del círculo en pantalla.
+
+* Si el círculo rodea un hueco entero, se rellena el hueco.
+* Si toca solo una parte del borde, se rellena esa parte, cerrada con una línea recta entre los puntos del borde que quedan en el límite del círculo. En una rendija, el círculo toca los dos lados y se tapa el trozo de rendija que cubre.
+* Los **entrantes del contorno** (zonas sin triángulos que entran en la superficie desde su borde exterior, que no son huecos cerrados) se tapan con un círculo sobre ellos: se cierran por su boca.
+* Si la línea de cierre cruzara la superficie (por ejemplo, un diente de la superficie que entra en el hueco), se rellena la parte más larga del borde dentro del círculo que se puede cerrar sin cruzarla. Para tapar una abertura grande con muchos dientes, rellénela por partes con varios círculos.
+
+Si el círculo no toca ningún borde, o su parte del borde no se puede cerrar sin cruzar la superficie, la barra de estado lo indica, suena un aviso y el modelo digital no cambia: pruebe con otro círculo.
+
+Si el hueco no se puede rellenar (toca aristas de tres o más triángulos, es el contorno de su pieza, es un triángulo suelto…), la ventana de resultados indica el motivo, suena un aviso y el modelo digital queda como estaba.
+
+### Con una vista con selección
+
+Cuando delante o detrás del hueco hay otras partes del modelo (el suelo detrás de una tubería, la otra cara de un objeto), aíslelas con la [Vista con selección](../fichas-de-herramientas/ficha-de-herramientas-edicion-tin/vista-tin.md):
+
+1. Seleccione los triángulos de la zona que quiere tapar (por ejemplo, con la [selección irregular](../fichas-de-herramientas/ficha-de-herramientas-editar/editar-elementos.md)) y pulse **Vista con selección**. Se ven solo esos triángulos.
+2. Si hace falta, gire el modelo, seleccione otra vez dentro de lo que se ve y vuelva a pulsar **Vista con selección** para quedarse con menos.
+3. Rellene los huecos con **Rellenar un hueco 3D**, pinchando o arrastrando círculos.
+4. Pulse **Vista con selección** sin nada seleccionado para volver a ver todo el modelo.
+
+Con la vista con selección, la herramienta trabaja solo con los triángulos que se ven: lo apagado ni tapa los huecos ni se rellena. El corte entre lo que se ve y lo apagado también es un borde que se puede rellenar: así se completa, por ejemplo, la parte de abajo de una tubería apoyada en el suelo, siguiendo la curvatura de la tubería. Los puntos nuevos de cada parche se añaden a la vista. Tenga en cuenta que las aristas del parche que tocan triángulos apagados quedan con un triángulo más (el de la parte apagada).
 
 ## Superficie sin huecos
 

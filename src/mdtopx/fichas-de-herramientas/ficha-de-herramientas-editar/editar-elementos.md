@@ -18,6 +18,8 @@ En este epígrafe están agrupados los comandos relativos a la edición de eleme
   * _Mediante ventana rectangular_: Permite la selección de elementos describiendo una ventana rectangular definida por una de sus diagonales
   * _Mediante ventana circular_: Permite la selección de elementos describiendo un círculo definido por su centro y el radio
   * _Mediante ventana irregular_: Permite la selección de elementos describiendo una entidad cerrada definida por sus vértices. Los vértices se indicarán con el botón izquierdo del ratón y se finalizará con el botón derecho
+
+  En un modelo digital, las tres ventanas seleccionan puntos si se están viendo los puntos y triángulos en los demás casos. La selección se hace sobre lo que se ve en pantalla, con la vista girada como esté, y con la [Vista con selección](../ficha-de-herramientas-edicion-tin/vista-tin.md) solo elige lo que se ve.
   * [_Según coordenadas_](../../otras-herramientas/editar-elementos/seleccionar-segun-coordenadas.md): Permite la selección en función de las coordenadas de las entidades.
   * [_Según propiedades_](../../otras-herramientas/editar-elementos/seleccionar-segun-propiedades.md): Permite la selección en función de las propiedades de las entidades.
   * _Desde archivo_: Permite la selección de elementos que están dentro de entidades cerradas que se encuentren almacenadas en un fichero con geometría vectorial. Al ejecutar el comando, el programa abrirá el explorador de Windows para que se elija el documento desde donde leer las geometrías.
