@@ -18,14 +18,14 @@ que Lot Of Points.
 
 ## Crear una extensión
 
-En el portal de desarrolladores, crea la extensión con:
+Crea la extensión en el portal de desarrolladores con:
 
 - un identificador formado por tu prefijo, un punto y un nombre, por ejemplo `mi-empresa.viales`, de como máximo
   100 caracteres;
 - el nombre, el resumen y los meses de soporte que incluye una compra;
-- la descripción y las instrucciones en Markdown. La ficha pública muestra como texto el HTML (lenguaje de marcado
+- la descripción y las instrucciones en Markdown, un formato de texto con marcas para indicar títulos, listas y enlaces. La ficha pública muestra como texto el HTML (lenguaje de marcado
   de hipertexto) incrustado y solo muestra las imágenes que subes desde la página de la extensión;
-- el icono, cuadrado, en PNG, JPEG, GIF o WebP.
+- el icono, cuadrado, en PNG (Portable Network Graphics), JPEG (Joint Photographic Experts Group), GIF (Graphics Interchange Format) o WebP.
 
 ## Ofertas y módulos
 
@@ -75,13 +75,13 @@ Cada versión es un ZIP con los archivos que Lot Of Points instala en la carpeta
 
 ## Publicar una versión
 
-1. En la página de la extensión, escribe la versión (`mayor.menor.revisión`, mayor que la de cada versión ya
+1. Escribe en la página de la extensión la versión (`mayor.menor.revisión`, mayor que la de cada versión ya
    creada), la versión mínima de Lot Of Points y las novedades en Markdown.
 2. Elige el ZIP y pulsa **Subir y enviar a revisión**. La página sube el ZIP a digi21.net y el servidor comprueba
    su contenido.
 3. Espera la revisión de Digi21. Si Digi21 rechaza la versión, la página muestra el motivo y puedes subir otro ZIP.
 
 Al publicar la versión, digi21.net asigna la fecha de publicación y firma un manifiesto con el resumen criptográfico de cada
-archivo. Lot Of Points comprueba esa firma y esos resúmenes cada vez que se inicia. Una compra permite usar las
+archivo. Cada vez que se inicia, Lot Of Points comprueba la firma del manifiesto y los resúmenes criptográficos de los archivos de cada versión instalada. Una compra permite usar las
 versiones de la extensión publicadas hasta la fecha de fin del soporte incluido en esa compra. Si Digi21 retira una versión publicada, la tienda deja de
 entregarla y Lot Of Points deja de cargarla.
