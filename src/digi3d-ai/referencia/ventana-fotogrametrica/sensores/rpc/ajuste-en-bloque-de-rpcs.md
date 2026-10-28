@@ -46,7 +46,7 @@ Si se activa la casilla **Vista extendida**, la lista añade las columnas **X**,
 1. Haz clic en el punto en la lista. Digi3D.AI lleva el cursor a sus coordenadas y la barra de estado muestra el mensaje **Digitaliza el punto *nombre* estereoscópicamente**.
 2. Coloca el cursor sobre el punto en estereoscopía y pulsa el botón de registro. Digi3D.AI guarda la fila y la columna del cursor en las dos imágenes y recalcula el ajuste.
 
-El ajuste se calcula cuando el número de puntos medidos alcanza el valor de [Número de puntos para calcular](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/numero-de-puntos-para-calcular.md). Solo cuentan y entran en el ajuste los puntos medidos que están en el archivo de puntos. Si el ajuste no converge en 100 iteraciones, los RPC no cambian, y las columnas de residuos y los RMS quedan vacíos. Las precisiones del ajuste se configuran en [Parámetros del ajuste RPCBA](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/README.md).
+El ajuste se calcula cuando el número de puntos medidos alcanza el valor de [Número de puntos para calcular](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/numero-de-puntos-para-calcular.md). Solo cuentan y entran en el ajuste los puntos medidos que están en el archivo de puntos. Si el ajuste no converge en 100 iteraciones, los RPC no cambian, y las columnas de residuos y la tabla de [estadísticas de los residuos](#estadísticas-de-los-residuos) quedan vacías. Las precisiones del ajuste se configuran en [Parámetros del ajuste RPCBA](../../../cuadros-de-dialogo/configuracion/parametros-del-ajuste-rpcba/README.md).
 
 ## Botones
 
@@ -59,16 +59,21 @@ El ajuste se calcula cuando el número de puntos medidos alcanza el valor de [N�
 | **¿Peor 2D?** | Selecciona el punto con mayor residuo en imagen (el mayor valor absoluto de fila o columna en cualquiera de las dos imágenes) y lleva el cursor a él para remedirlo. |
 | **¿Peor 3D?** | Selecciona el punto con mayor diferencia en X, Y o Z entre su posición ajustada y sus coordenadas del archivo de puntos, y lleva el cursor a él. |
 
-## Errores medios cuadráticos
+## Estadísticas de los residuos
 
-* **RMS imagen izquierda** y **RMS imagen derecha**: raíz de la media de los cuadrados de los residuos en fila y columna de los puntos medidos, en píxeles.
-* **RMS apoyo (X, Y, Z)**: raíz de la media de los cuadrados de **Ex**, **Ey** y **Ez**, en unidades del sistema de referencia de coordenadas del sensor.
+Debajo de los botones, una tabla muestra tres estadísticas de cada columna de residuos de la lista de puntos (**Ef(i)**, **Ec(i)**, **Ef(d)**, **Ec(d)**, **Ex**, **Ey** y **Ez**), calculadas con los puntos medidos:
 
-Los campos están vacíos mientras no haya ajuste calculado.
+| Fila | Contenido |
+|---|---|
+| **Error medio cuadrático** | Raíz cuadrada de la media de los cuadrados de los residuos de la columna. |
+| **Media** | Suma de los residuos de la columna, con su signo, dividida entre el número de residuos. |
+| **Máximo valor absoluto** | Mayor valor absoluto de los residuos de la columna. |
+
+Un residuo que Digi3D.AI no puede calcular aparece como valor no numérico en la lista de puntos y no entra en las estadísticas de su columna. Las columnas **Ef(i)**, **Ec(i)**, **Ef(d)** y **Ec(d)** están en píxeles, y **Ex**, **Ey** y **Ez**, en unidades del sistema de referencia de coordenadas del sensor. Las celdas están vacías mientras no haya ajuste calculado.
 
 ## Opciones
 
-* **Mostrar el resultado del ajuste en tiempo real al remedir un punto**: con un punto seleccionado, cada movimiento del cursor recalcula el ajuste como si el punto estuviera medido en la posición del cursor y actualiza la lista y los RMS. La medida no se guarda hasta que se pulsa el botón de registro. El ajuste no se recalcula durante **Eliminar paralaje** ni después, mientras se mantenga la corrección de paralaje.
+* **Mostrar el resultado del ajuste en tiempo real al remedir un punto**: con un punto seleccionado, cada movimiento del cursor recalcula el ajuste como si el punto estuviera medido en la posición del cursor y actualiza la lista y la tabla de estadísticas de los residuos. La medida no se guarda hasta que se pulsa el botón de registro. El ajuste no se recalcula durante **Eliminar paralaje** ni después, mientras se mantenga la corrección de paralaje.
 * **Seleccionar automáticamente siguiente punto**: después de medir un punto, Digi3D.AI selecciona el primer punto sin medir, por orden de nombre, y lleva el cursor a él.
 
 ## Aceptar y Cancelar
@@ -98,7 +103,7 @@ El archivo `<nombre del modelo>.rpcba.txt` es un archivo de texto en UTF-8, en e
    Debajo de la tabla, el informe muestra los coeficientes de corrección de los RPC de la imagen (`IOCOEF_LINE` e `IOCOEF_SAMPLE`).
 3. Una tabla del modelo estereoscópico con **DX**, **DY** y **DZ**: coordenadas ajustadas del punto menos coordenadas del archivo de puntos. Son los valores de las columnas **Ex**, **Ey** y **Ez** de la lista del panel.
 
-Debajo de cada tabla, el informe muestra el error medio cuadrático y la media de cada columna de residuos. Si Digi3D.AI no puede calcular un valor de **DX** o **DY** de una imagen, deja la celda vacía y no la tiene en cuenta en el error medio cuadrático ni en la media de esa columna. X, Y, Z, DX, DY y DZ están en unidades del sistema de referencia de coordenadas del terreno.
+Debajo de cada tabla, el informe muestra el error medio cuadrático, la media y el máximo valor absoluto de cada columna de residuos. Si Digi3D.AI no puede calcular un valor de **DX** o **DY** de una imagen, deja la celda vacía y no la tiene en cuenta en las estadísticas de esa columna. X, Y, Z, DX, DY y DZ están en unidades del sistema de referencia de coordenadas del terreno.
 
 ## Puntos de apoyo medidos en la ventana fotogramétrica
 
