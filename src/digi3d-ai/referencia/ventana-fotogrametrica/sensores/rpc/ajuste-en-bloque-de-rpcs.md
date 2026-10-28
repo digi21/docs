@@ -94,7 +94,7 @@ Si pulsas **Cancelar** o terminas la orden de cualquier otra forma sin aceptar u
 
 El archivo `<nombre del modelo>.rpcba.txt` es un archivo de texto en UTF-8, en el idioma de la interfaz de Digi3D.AI, con estas secciones:
 
-1. Una cabecera con el título «Digi3D.AI - Informe del ajuste en bloque de coeficientes polinómicos racionales (RPC)», la fecha y la hora en que se genera el informe, el nombre del modelo, los nombres de las dos imágenes, la ruta del archivo de puntos, el número de puntos del ajuste y el significado de cada columna.
+1. Una cabecera con el título «Digi3D.AI - Informe del ajuste en bloque de coeficientes polinómicos racionales (RPC)», la fecha y la hora en que se genera el informe, el nombre del modelo, los nombres de las dos imágenes, la ruta del archivo de puntos, el sistema de referencia de coordenadas del terreno y el de los RPC, el número de puntos del ajuste y el significado de cada columna.
 2. Una tabla por imagen con estas columnas para cada punto del ajuste:
    * **Punto**, **X**, **Y** y **Z**: nombre y coordenadas del punto en el archivo de puntos.
    * **Ef** y **Ec**: fila y columna calculadas con el ajuste menos fila y columna medidas, en píxeles. Son los valores de las columnas **Ef(i)** y **Ec(i)**, o **Ef(d)** y **Ec(d)**, de la lista del panel.
@@ -104,6 +104,100 @@ El archivo `<nombre del modelo>.rpcba.txt` es un archivo de texto en UTF-8, en e
 3. Una tabla del modelo estereoscópico con **DX**, **DY** y **DZ**: coordenadas ajustadas del punto menos coordenadas del archivo de puntos. Son los valores de las columnas **Ex**, **Ey** y **Ez** de la lista del panel.
 
 Debajo de cada tabla, el informe muestra el error medio cuadrático, la media y el máximo valor absoluto de cada columna de residuos. Si Digi3D.AI no puede calcular un valor de **DX** o **DY** de una imagen, deja la celda vacía y no la tiene en cuenta en las estadísticas de esa columna. X, Y, Z, DX, DY y DZ están en unidades del sistema de referencia de coordenadas del terreno.
+
+Este es el informe de un modelo de dos imágenes Pléiades Neo ajustado con 14 puntos de apoyo, en WGS 84 / UTM zone 19N:
+
+```text
+Digi3D.AI - Informe del ajuste en bloque de coeficientes polinómicos racionales (RPC)
+
+Fecha: 2026-10-28 10:26:26
+Modelo: IMG_PNEO4_202308011531456_PMS_SEN_PWOI_000126295_1_1_F_1_RGBN_R1C1-IMG_PNEO4_202308011531166_PMS_SEN_PWOI_000126295_2_1_F_1_RGBN_R1C1
+Imagen izquierda: IMG_PNEO4_202308011531456_PMS_SEN_PWOI_000126295_1_1_F_1_RGBN_R1C1
+Imagen derecha: IMG_PNEO4_202308011531166_PMS_SEN_PWOI_000126295_2_1_F_1_RGBN_R1C1
+Archivo de puntos: D:\Proyecto\puntos_de_apoyo.txt
+Sistema de referencia de coordenadas del terreno: WGS 84 / UTM zone 19N + Sistema de coordenadas vertical local
+Sistema de referencia de coordenadas de los RPC: WGS 84
+Puntos en el ajuste: 14
+
+Ef, Ec: fila y columna calculadas con el ajuste menos fila y columna medidas, en píxeles. DX y DY de cada imagen: coordenadas X e Y, respectivamente, del punto donde el rayo correspondiente a la fila y la columna medidas en esa imagen interseca la superficie de altura constante situada a la cota del punto, menos las coordenadas X e Y del archivo de puntos. DX, DY, DZ del modelo estereoscópico: coordenadas ajustadas menos las coordenadas del archivo de puntos. X, Y, Z, DX, DY y DZ están en unidades del sistema de referencia de coordenadas del terreno.
+
+Imagen izquierda: IMG_PNEO4_202308011531456_PMS_SEN_PWOI_000126295_1_1_F_1_RGBN_R1C1
+------------------------------------------------------------------------------------------------------
+Punto                        X               Y           Z         Ef         Ec         DX         DY
+------------------------------------------------------------------------------------------------------
+MAGP1A              262786.128     2080962.680     416.748     -0.260      0.459     -0.179     -0.189
+MAGP1B              262781.429     2080966.421     416.695     -0.058      0.078      0.101      0.031
+MAGP2A              259312.867     2078911.615     440.435      0.112     -0.540      0.228      0.093
+MAGP2B              259310.070     2078910.502     440.494      0.277     -0.106      0.014      0.143
+MAGP3A              266775.294     2079103.577     399.411     -0.065      0.749     -0.289     -0.137
+MAGP3B              266583.041     2079251.360     398.342     -0.623      0.413     -0.303     -0.329
+MAGP4A              269382.297     2080120.444     402.375      0.896     -0.533      0.330      0.530
+MAGP4B              269379.576     2080120.930     402.459     -0.251     -0.403      0.112     -0.121
+MAGP5A              264294.360     2083253.227     429.823     -0.412     -0.245      0.101     -0.181
+MAGP5B              264296.714     2083245.947     429.815      0.505      0.367     -0.288      0.178
+MAGP6A              264255.503     2079883.850     402.921     -0.010      0.035     -0.027     -0.010
+MAGP6B              264341.770     2079882.778     402.017      0.003      0.023     -0.022     -0.002
+MAGP7A              266179.534     2081572.112     413.299     -0.293     -0.181      0.152     -0.115
+MAGP7B              266170.871     2081581.675     413.396      0.177     -0.103      0.051      0.104
+------------------------------------------------------------------------------------------------------
+                                    Error medio cuadrático      0.374      0.372      0.191      0.203
+                                                     Media      0.000      0.001     -0.001      0.000
+                                     Máximo valor absoluto      0.896      0.749      0.330      0.530
+
+Corrección de los RPC de la imagen:
+IOCOEF_LINE: 4.400929 0.000173 0.000103
+IOCOEF_SAMPLE: -24.213050 -0.000201 -0.000093
+
+Imagen derecha: IMG_PNEO4_202308011531166_PMS_SEN_PWOI_000126295_2_1_F_1_RGBN_R1C1
+------------------------------------------------------------------------------------------------------
+Punto                        X               Y           Z         Ef         Ec         DX         DY
+------------------------------------------------------------------------------------------------------
+MAGP1A              262786.128     2080962.680     416.748     -0.599     -0.161      0.018     -0.308
+MAGP1B              262781.429     2080966.421     416.695      0.306     -0.701      0.337      0.071
+MAGP2A              259312.867     2078911.615     440.435      0.229      0.369     -0.073      0.097
+MAGP2B              259310.070     2078910.502     440.494      0.219      0.141     -0.060      0.151
+MAGP3A              266775.294     2079103.577     399.411     -0.890     -0.225      0.019     -0.423
+MAGP3B              266583.041     2079251.360     398.342     -0.027     -0.164     -0.076      0.014
+MAGP4A              269382.297     2080120.444     402.375      0.828     -0.064      0.155      0.418
+MAGP4B              269379.576     2080120.930     402.459     -0.087      0.517     -0.184     -0.057
+MAGP5A              264294.360     2083253.227     429.823     -0.028      0.117     -0.016     -0.070
+MAGP5B              264296.714     2083245.947     429.815     -0.058      0.276     -0.232      0.122
+MAGP6A              264255.503     2079883.850     402.921     -0.011      0.011     -0.016      0.002
+MAGP6B              264341.770     2079882.778     402.017      0.004      0.015     -0.017      0.010
+MAGP7A              266179.534     2081572.112     413.299     -0.066     -0.116      0.115     -0.117
+MAGP7B              266170.871     2081581.675     413.396      0.193      0.002      0.016      0.104
+------------------------------------------------------------------------------------------------------
+                                    Error medio cuadrático      0.386      0.284      0.135      0.195
+                                                     Media      0.001      0.001     -0.001      0.001
+                                     Máximo valor absoluto      0.890      0.701      0.337      0.423
+
+Corrección de los RPC de la imagen:
+IOCOEF_LINE: -19.434949 0.000004 0.000097
+IOCOEF_SAMPLE: -26.033315 0.000399 -0.000058
+
+Modelo estereoscópico
+-------------------------------------------------------------------------------------------
+Punto                        X               Y           Z         DX         DY         DZ
+-------------------------------------------------------------------------------------------
+MAGP1A              262786.128     2080962.680     416.748     -0.037     -0.108      0.027
+MAGP1B              262781.429     2080966.421     416.695      0.073      0.030      0.178
+MAGP2A              259312.867     2078911.615     440.435      0.020      0.043      0.111
+MAGP2B              259310.070     2078910.502     440.494     -0.003      0.063     -0.063
+MAGP3A              266775.294     2079103.577     399.411     -0.064     -0.119      0.065
+MAGP3B              266583.041     2079251.360     398.342     -0.026     -0.083     -0.456
+MAGP4A              269382.297     2080120.444     402.375      0.071      0.218      0.265
+MAGP4B              269379.576     2080120.930     402.459     -0.014     -0.043     -0.015
+MAGP5A              264294.360     2083253.227     429.823      0.015     -0.057      0.028
+MAGP5B              264296.714     2083245.947     429.815     -0.074      0.058     -0.321
+MAGP6A              264255.503     2079883.850     402.921     -0.005     -0.003     -0.035
+MAGP6B              264341.770     2079882.778     402.017     -0.004      0.001     -0.034
+MAGP7A              266179.534     2081572.112     413.299      0.033     -0.046      0.200
+MAGP7B              266170.871     2081581.675     413.396      0.012      0.047      0.016
+-------------------------------------------------------------------------------------------
+                                    Error medio cuadrático      0.042      0.084      0.185
+                                                     Media      0.000      0.000     -0.002
+                                     Máximo valor absoluto      0.074      0.218      0.456
+```
 
 ## Puntos de apoyo medidos en la ventana fotogramétrica
 
