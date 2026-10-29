@@ -25,3 +25,32 @@ Lot Of Points también ofrece herramientas de [programación](programacion/READM
 [Python](programacion/python/README.md) permite escribir guiones que controlan el visor y ejecutan sus órdenes;
 el kit de desarrollo de software (SDK) de [C y C++](programacion/c-cpp/README.md) y los comandos de Python
 permiten pedir puntos, seleccionar puntos, procesar teselas y cargar capas GeoPackage.
+
+## Licencias del equipo
+
+El panel **Licencias** de **Configuración** registra el equipo en una cuenta de digi21.net mediante Argos.
+El programa muestra un código y abre la página de activación en el navegador para que el usuario apruebe o deniegue el registro del equipo.
+El registro continúa si se cierra la configuración; si el usuario vuelve a abrir **Configuración** durante el registro del equipo, puede cancelar el registro desde esa ventana.
+
+El panel muestra el estado de la autorización, el proveedor de la clave y los módulos con sus tipos y fechas.
+**Mis licencias en digi21.net** abre en el navegador las licencias de la cuenta.
+La autorización se vincula a una clave de firma no exportable del equipo, creada en el módulo de plataforma segura (TPM)
+o, si ese proveedor no está disponible, en el almacén de claves por software de Windows.
+
+El programa guarda la credencial de autorización en `%LOCALAPPDATA%\lop\argos\token.jwt`
+y utiliza `reloj.json` para guardar el registro firmado de hora.
+La credencial caduca al terminar el plazo de revalidación de la licencia, de 30 días por defecto. La fecha de caducidad de la credencial determina hasta cuándo puede usarse el programa sin conexión.
+El programa solicita renovar la credencial cuando queda menos de un tercio del periodo de validez de la credencial.
+Si la credencial ha caducado o hace falta sincronizar la hora con Argos, reintenta la renovación cada 5 minutos.
+
+La autorización requiere sincronizar la hora con Argos si falta un registro de hora válido
+o si la hora estimada de Argos está más de 5 minutos por detrás de la hora mínima guardada.
+Si se corrige un error de más de 5 minutos que tenía el reloj de Windows al recibir la credencial, la autorización
+puede seguir requiriendo sincronizar la hora con Argos hasta la siguiente renovación de la credencial.
+
+## Acerca de
+
+**Acerca de**, en **Configuración**, muestra la versión del conjunto de datos EPSG
+(*European Petroleum Survey Group*), su atribución, los enlaces a epsg.org y a sus términos de uso
+y la renuncia de garantía. El texto indica que la aplicación no cobra por los datos EPSG.
+Los créditos incluyen Digi21.WinUI.CrsPicker, Digi21.CrsKit.Interop, crskit y SQLite.

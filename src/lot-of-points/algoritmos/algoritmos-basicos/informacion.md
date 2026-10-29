@@ -38,6 +38,9 @@ Las líneas de retornos y clases aparecen únicamente para los valores con punto
 Si una clase no tiene nombre, el comando escribe `Clase c:`.
 El punto negro, con los tres componentes de color a 0, no cuenta entre los puntos con color distinto de cero.
 
+El bloque también indica las unidades de X e Y y de Z. Cuando una componente horizontal o vertical del sistema de referencia no existe, es local
+o no se pueden leer sus unidades, el comando escribe «no disponible» en español o «not available» en inglés.
+
 El comando usa tres decimales para coordenadas y cotas, uno para intensidad media y dos para superficies,
 densidades y porcentajes. El comando escribe textos y separadores numéricos en español para el idioma
 `es` y en inglés para los demás idiomas. El comando no añade el antiguo resumen general de puntos modificados.

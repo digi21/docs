@@ -63,7 +63,7 @@ a la interfaz de C. Una excepción en un hilo creado por el comando debe captura
 | `points_in_sphere(center, radius, cloud_ids = {})` | `std::optional<lop::Points>`; vacío al cancelar. Un conjunto vacío de identificadores consulta las nubes visibles. |
 | `select_points(points, indices)` | `true` si cambia la selección; `false` si el usuario cancela o ha cerrado una nube de esos puntos. |
 | `class_name(classification)` | Nombre actual de la clase como `std::string`, o cadena vacía. |
-| `clouds()` | `std::optional<std::vector<lop::Cloud>>`; vacío al cancelar. |
+| `clouds()` | `std::optional<std::vector<lop::Cloud>>`; vacío al cancelar. Cada nube incluye el sistema de referencia y las unidades descritos en [lop_cloud](referencia.md#lop_cloud-y-clouds). |
 | `process_tiles(cloud_ids, options, process_tile)` | `std::optional<lop::TilesSummary>`; vacío al cancelar y excepción `lop::ProcessTilesFailed` al fallar. |
 | `load_geopackage(geopackage_file_path)` | `true` si carga las capas; `false` al cancelar o fallar. |
 | `parameter_value(id)` | Valor del parámetro; lanza `std::out_of_range` si no está declarado. |

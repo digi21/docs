@@ -20,3 +20,10 @@ La misma página permite consultar los proyectos publicados, sus [estadísticas 
 Con un acceso de solo lectura puedes revisar el contenido de los proyectos publicados; con acceso de escritura puedes añadir nubes y eliminar
 las que ya no necesites. Los [ajustes](ajustes.md) reúnen la ubicación de la caché y las direcciones de acceso al
 contenedor.
+
+## Acerca de
+
+**Acerca de** muestra la versión del conjunto de datos EPSG (*European Petroleum Survey Group*),
+su atribución, los enlaces a epsg.org y a sus términos de uso, y la renuncia de garantía.
+El texto indica que la aplicación no cobra por los datos EPSG.
+Los créditos incluyen crskit y SQLite.

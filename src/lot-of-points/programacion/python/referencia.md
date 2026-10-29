@@ -114,7 +114,7 @@ interfaz no responde hasta que termina.
 |---|---|---|
 | `SphericalPhotos` | lista de `ISphericalPhoto` | Las imágenes esféricas de las nubes abiertas. |
 | `LocateSphere(x, y)` | método → `ISphericalPhoto` o `None` | La esfera que cruza el rayo del píxel (`x`, `y`). |
-| `SphereRadius` | `float`, lectura y escritura | El radio con el que se dibujan las esferas, en metros. |
+| `SphereRadius` | `float`, lectura y escritura | El radio con el que se dibujan las esferas, en unidades de la nube. |
 
 ### Estado visual
 
@@ -265,7 +265,7 @@ Las llamadas que esperan puntos o teselas bloquean el hilo del comando y permite
 
 | Método | Resultado y condiciones |
 |---|---|
-| `log(message)` | Escribe una línea en **Salida**; la primera línea de la ejecución trae el panel al frente. |
+| `log(message)` | Escribe una línea en **Salida**; si el contenido del panel está oculto, su pestaña parpadea hasta que el usuario lo muestra. |
 | `status(message)` | Escribe en la barra de estado; una cadena vacía borra el mensaje. |
 | `cancelled()` | `True` si se ha solicitado la cancelación. |
 | `ask_point(prompt, accept_point=None)` | Devuelve un `Point`, o `None` al cancelar. |
@@ -314,6 +314,17 @@ columna o el objeto `Points`. Python libera el resultado sin una llamada explíc
 `has_original_point_indices`, `extra_fields`, `box_min` y `box_max`.
 Los límites son tuplas de tres coordenadas. La copia sigue siendo válida después de otra llamada a `clouds`,
 aunque el estado de la nube pueda cambiar.
+
+| Campo adicional | Contenido |
+|---|---|
+| `crs_wkt` | Sistema de referencia utilizado para la nube durante la sesión, expresado en WKT (*Well-Known Text*). |
+| `horizontal_unit_name`, `vertical_unit_name` | Nombres de las unidades del primer eje de las componentes horizontal y vertical. |
+| `horizontal_metres_per_unit`, `vertical_metres_per_unit` | Metros por unidad; 0 para unidades angulares o componentes locales o ausentes. |
+| `vertical_axis_points_down` | Indica que el eje vertical apunta hacia abajo y Z representa una profundidad. |
+
+El sistema utilizado es el de la nube si es conocido y no local; en otro caso, el del documento si existe.
+Si no están disponibles ni el sistema conocido y no local de la nube ni el sistema del documento, se utiliza el sistema local de la nube o el sistema local desconocido.
+Una componente local o ausente deja el nombre de unidad vacío. Si falla la obtención del sistema o de sus unidades, los campos de texto afectados quedan vacíos y los factores de metros por unidad afectados quedan a 0.
 
 ### TileOptions y process_tiles
 

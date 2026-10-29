@@ -35,10 +35,23 @@ Pulsa **Añadir nubes…** con el proyecto seleccionado y elige los archivos ori
 [formatos que en el procesamiento local](procesar-en-local.md#añadir-archivos). Cada archivo entra en la cola de
 **Tareas** con ese proyecto como destino.
 
+Studio resuelve el [sistema de referencia de cada archivo](procesar-en-local.md#sistema-de-referencia)
+antes de encolarlo. Como sistema del proyecto, utiliza el primer WKT (*Well-Known Text*) válido del catálogo
+cuyo componente horizontal no sea local. Ese sistema aparece preseleccionado cuando un archivo requiere una elección.
+
+Si algún archivo tiene un sistema válido y no local que no es equivalente al del proyecto, Studio muestra
+el sistema del proyecto y los archivos afectados y solicita confirmación con **Añadir a la cola**.
+**Cancelar** no encola ninguno de los archivos seleccionados.
+Studio exige que los componentes horizontales del sistema del archivo y del sistema del proyecto sean equivalentes, y compara los componentes verticales solo si los dos sistemas tienen componente vertical.
+
 Studio prepara el nivel de detalle o reutiliza una caché existente y después pasa a **Subiendo a Azure**. La
 publicación incluye los puntos, el índice, los atributos adicionales disponibles y las imágenes esféricas con sus
 miniaturas. El catálogo se actualiza después de subir esos datos. Cuando la publicación termina, la lista del
 proyecto seleccionado se actualiza para mostrar la nube.
+
+Studio publica `<nombre>.prj` antes del índice cuando el archivo existe en la caché.
+Si la caché no contiene `<nombre>.prj`, Studio borra el `.prj` publicado anteriormente para la nube. La publicación termina antes de
+que Studio elimine la caché local.
 
 Al publicar una nube por primera vez, su nombre y la dirección de sus archivos se forman a partir del nombre del
 original sin su extensión. Volver a publicar en esa misma dirección sustituye los datos de la nube y conserva el
@@ -50,6 +63,20 @@ de carpetas diferentes; el nombre del archivo determina la dirección de publica
 
 Una vez publicada, la nube se consulta con el [enlace del proyecto](compartir-proyectos.md). No es necesario copiar
 manualmente sus archivos al equipo de quien vaya a abrirla.
+
+## Consultar y asignar el sistema de referencia
+
+Cada nube publicada muestra el sistema obtenido de su archivo `<nombre>.prj` del contenedor.
+La fila indica el nombre del sistema, **desconocido** si su componente horizontal es local,
+**sin asignar** si falta el archivo o un aviso si la definición guardada no es un WKT válido.
+
+1. Pulsa el botón con el globo de una nube para asignarle un sistema, o **Sistema de referencia…** para asignarlo a todas las nubes del proyecto.
+2. Elige el sistema en el selector o indica que es desconocido.
+3. Confirma la elección.
+
+El selector muestra preseleccionado el primer sistema guardado entre las nubes seleccionadas, según el orden de la lista.
+Si ninguna nube seleccionada tiene un sistema guardado, el selector no muestra ningún sistema preseleccionado. Studio sustituye el `.prj` de cada nube seleccionada por el WKT elegido.
+Usa esta asignación en las nubes publicadas con versiones de Studio que no publicaban el `.prj`.
 
 ## Renombrar proyectos y nubes
 
@@ -78,7 +105,7 @@ aunque puede haber dejado parte de los archivos subidos al contenedor.
 ## Eliminar nubes o proyectos
 
 Pulsa la papelera de la fila de una nube y confirma con **Eliminar** para quitar esa nube. Studio retira la entrada del
-catálogo y borra del contenedor los archivos de esa nube y sus imágenes.
+catálogo y borra del contenedor los archivos de esa nube, incluido el `.prj`, y sus imágenes.
 
 **Eliminar proyecto** actúa sobre el proyecto seleccionado: tras la confirmación, elimina su catálogo y todos
 sus archivos publicados. Estas operaciones afectan al contenido de Azure; los archivos originales del equipo

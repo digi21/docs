@@ -33,6 +33,9 @@ int run(lop_command const* command, double const* parameters,
 `run` devuelve `LOP_OK`, `LOP_CANCELLED` o `LOP_FAILED`. Si el comando falla, debe escribir el motivo
 con `host->log` antes de devolver `LOP_FAILED`. Ninguna excepción debe cruzar la interfaz de C.
 
+Recompila las DLL que consultan nubes con la cabecera actual: los seis campos de sistema de referencia
+y unidades cambian el tamaño de `lop_cloud`, aunque `LOP_SDK_API_VERSION` continúa en `1`.
+
 ## lop_command
 
 | Campo | Contrato |
@@ -116,6 +119,16 @@ El array permanece válido hasta la siguiente llamada a `clouds` o hasta que ter
 | `has_original_point_indices` | El nivel de detalle conserva los índices de los puntos en el original. |
 | `extra_fields` | Atributos adicionales disponibles: `LOP_FIELD_GPS_TIME` y `LOP_FIELD_POINT_SOURCE_ID`. |
 | `box_min[3]`, `box_max[3]` | Límites de la nube en coordenadas del mundo. |
+| `crs_wkt` | Sistema de referencia utilizado para la nube durante la sesión, expresado en WKT (*Well-Known Text*). |
+| `horizontal_unit_name`, `vertical_unit_name` | Nombres de las unidades del primer eje de las componentes horizontal y vertical. |
+| `horizontal_metres_per_unit`, `vertical_metres_per_unit` | Metros por unidad de cada componente. |
+| `vertical_axis_points_down` | 1 si el eje vertical apunta hacia abajo y Z representa una profundidad. |
+
+`crs_wkt` contiene el sistema conocido y no local de la nube o, si no lo tiene, el del documento.
+Si no están disponibles ni el sistema conocido y no local de la nube ni el sistema del documento, `crs_wkt` contiene el sistema local de la nube o el sistema local desconocido.
+Si falla la obtención del sistema de referencia, `crs_wkt` queda vacío.
+Una componente ausente o local deja su nombre de unidad vacío y su factor de metros por unidad a 0.
+Si falla la lectura de las unidades, los nombres de las unidades afectadas quedan vacíos y sus factores de metros por unidad quedan a 0. El factor de una unidad angular también es 0.
 
 `gps_time` representa el tiempo del sistema de posicionamiento global (GPS);
 `point_source_id` identifica la pasada. Para modificar puntos por teselas, la nube necesita tanto
@@ -262,7 +275,7 @@ Un error al guardar puede dejar el evento confirmado en algunas nubes; **Salida*
 
 | Función | Contrato |
 |---|---|
-| `log(context, message)` | Escribe en **Salida**. La primera línea de una ejecución trae el panel al frente. |
+| `log(context, message)` | Escribe en **Salida**. Si el contenido del panel está oculto, su pestaña parpadea hasta que el usuario lo muestra. |
 | `status(context, message)` | Escribe en la barra de estado; una cadena vacía o nula borra el mensaje. |
 | `cancelled(context)` | Indica la cancelación solicitada con **Esc** o con el botón de otro comando. |
 | `show_temporary_line(context, xyz, count, closed)` | Dibuja una polilínea de `count` vértices en coordenadas del mundo; 0 vértices la retiran y `closed != 0` cierra el trazado. |

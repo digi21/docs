@@ -39,7 +39,8 @@ registro de ediciones e índices del archivo original.
 
 Durante `process_tiles`, el programa muestra el progreso sobre la vista con el mensaje
 «*comando*: *porcentaje*. Esc para cancelar.». El visor muestra las clases y los borrados a medida que
-se procesan las teselas. La primera línea que el comando escribe en **Salida** trae ese panel al frente.
+se procesan las teselas. Si el contenido de **Salida** está oculto cuando el comando escribe,
+su pestaña parpadea hasta que el usuario muestra el panel.
 Cada comando determina los mensajes de su resumen.
 
 ## Qué nubes procesa un algoritmo
@@ -98,6 +99,8 @@ El programa espera hasta 3 segundos a que terminen los hilos y no permite inicia
 Las secciones de una misma extensión con el mismo título comparten página aunque aparezcan en pestañas distintas.
 El programa muestra nombre, unidad y descripción, guarda los cambios al modificar los controles y usa los
 valores en la siguiente ejecución. Un valor guardado fuera del rango declarado se sustituye por el predeterminado.
+
+Los controles de una extensión pueden comunicar los errores de sus operaciones asíncronas en la barra de estado.
 
 Cada tesela tiene un **núcleo** y puede incluir una banda de **solape**.
 El cálculo usa los vecinos del solape, pero el programa guarda únicamente los resultados de puntos del núcleo.
