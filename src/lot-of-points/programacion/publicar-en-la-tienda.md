@@ -22,10 +22,17 @@ Crea la extensión en el portal de desarrolladores con:
 
 - un identificador formado por tu prefijo, un punto y un nombre, por ejemplo `mi-empresa.viales`, de como máximo
   100 caracteres;
+- el programa que carga la extensión (hoy, Lot Of Points); no puedes cambiar el programa después de crear la extensión;
 - el nombre, el resumen y los meses de soporte que incluye una compra;
 - la descripción y las instrucciones en Markdown, un formato de texto con marcas para indicar títulos, listas y enlaces. La ficha pública muestra como texto el HTML (lenguaje de marcado
   de hipertexto) incrustado y solo muestra las imágenes que subes desde la página de la extensión;
-- el icono, cuadrado, en PNG (Portable Network Graphics), JPEG (Joint Photographic Experts Group), GIF (Graphics Interchange Format) o WebP.
+- el icono: una imagen cuadrada de al menos 96 × 96 píxeles y hasta 5 MiB, en PNG (Portable Network Graphics), JPEG (Joint
+  Photographic Experts Group), GIF (Graphics Interchange Format) o WebP. Se recomiendan 256 × 256 píxeles: la página **Tienda**
+  de Lot Of Points muestra el icono a 48 × 48 píxeles y la ficha de digi21.net a 96 × 96.
+
+Para mostrar una imagen en la descripción, las instrucciones o las novedades, súbela desde la página de la extensión y
+pega en el campo que estés editando la línea de Markdown que aparece después de subir la imagen, con la forma `![texto alternativo](dirección de la imagen)`.
+La pestaña **Vista previa** de cada campo muestra el texto como lo mostrará la ficha pública.
 
 ## Ofertas y módulos
 
@@ -39,7 +46,8 @@ Cada oferta indica cómo obtiene el usuario la extensión:
 | Alquiler | Módulo, precio y meses de alquiler. |
 | Demostración | Módulo y días de demostración, sin precio. Cada cuenta y cada equipo pueden tener una demostración del módulo. |
 
-El módulo es un nombre `prefijo.nombre`, por ejemplo `mi-empresa.viales`. Mientras la tienda no admita pagos, los
+El módulo es un nombre `prefijo.nombre`, por ejemplo `mi-empresa.viales`. El formulario propone como módulo el identificador
+de la extensión y ofrece los módulos de tus otras ofertas; elige **Otro módulo…** para escribir otro nombre. Mientras la tienda no admita pagos, los
 usuarios pueden pedir una demostración de las extensiones de pago que tengan una oferta de demostración. Después de publicar la primera versión,
 no puedes eliminar una oferta con módulo, porque los usuarios con una licencia de ese módulo necesitan esa
 oferta para descargar la extensión.
