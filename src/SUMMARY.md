@@ -2688,6 +2688,7 @@
       * [Clasificar superficies](mdtopx/modulo-laser/generar/clasificar-superficies.md)
       * [Comparar nubes](mdtopx/modulo-laser/generar/comparar-nubes.md)
       * [Líneas eléctricas](mdtopx/modulo-laser/generar/lineas-electricas.md)
+      * [Informe de líneas eléctricas](mdtopx/modulo-laser/generar/informe-lineas-electricas.md)
       * [Comparar nubes 3D](mdtopx/modulo-laser/generar/comparar-nubes-3d.md)
     * [Buscar puntos](mdtopx/modulo-laser/buscar-puntos/README.md)
       * [Buscar puntos elevados](mdtopx/modulo-laser/buscar-puntos/buscar-puntos-elevados.md)
