@@ -275,7 +275,7 @@ Un error al guardar puede dejar el evento confirmado en algunas nubes; **Salida*
 
 | Función | Contrato |
 |---|---|
-| `log(context, message)` | Escribe en **Salida**. Si el contenido del panel está oculto, su pestaña parpadea hasta que el usuario lo muestra. |
+| `log(context, message)` | Escribe en **Salida**. Si el contenido del panel está oculto, su pestaña parpadea hasta que el usuario muestra el panel **Salida**. |
 | `status(context, message)` | Escribe en la barra de estado; una cadena vacía o nula borra el mensaje. |
 | `cancelled(context)` | Indica la cancelación solicitada con **Esc** o con el botón de otro comando. |
 | `show_temporary_line(context, xyz, count, closed)` | Dibuja una polilínea de `count` vértices en coordenadas del mundo; 0 vértices la retiran y `closed != 0` cierra el trazado. |

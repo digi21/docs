@@ -265,7 +265,7 @@ Las llamadas que esperan puntos o teselas bloquean el hilo del comando y permite
 
 | Método | Resultado y condiciones |
 |---|---|
-| `log(message)` | Escribe una línea en **Salida**; si el contenido del panel está oculto, su pestaña parpadea hasta que el usuario lo muestra. |
+| `log(message)` | Escribe una línea en **Salida**; si el contenido del panel está oculto, su pestaña parpadea hasta que el usuario muestra el panel **Salida**. |
 | `status(message)` | Escribe en la barra de estado; una cadena vacía borra el mensaje. |
 | `cancelled()` | `True` si se ha solicitado la cancelación. |
 | `ask_point(prompt, accept_point=None)` | Devuelve un `Point`, o `None` al cancelar. |

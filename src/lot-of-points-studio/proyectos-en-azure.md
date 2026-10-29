@@ -42,7 +42,7 @@ cuyo componente horizontal no sea local. Ese sistema aparece preseleccionado cua
 Si algún archivo tiene un sistema válido y no local que no es equivalente al del proyecto, Studio muestra
 el sistema del proyecto y los archivos afectados y solicita confirmación con **Añadir a la cola**.
 **Cancelar** no encola ninguno de los archivos seleccionados.
-Studio exige que los componentes horizontales del sistema del archivo y del sistema del proyecto sean equivalentes, y compara los componentes verticales solo si los dos sistemas tienen componente vertical.
+Para decidir si el sistema del archivo y el del proyecto son equivalentes, Studio compara sus componentes horizontales y compara los componentes verticales solo si los dos sistemas tienen componente vertical.
 
 Studio prepara el nivel de detalle o reutiliza una caché existente y después pasa a **Subiendo a Azure**. La
 publicación incluye los puntos, el índice, los atributos adicionales disponibles y las imágenes esféricas con sus

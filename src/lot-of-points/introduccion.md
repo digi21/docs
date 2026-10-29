@@ -146,13 +146,13 @@ El catálogo contiene 15 cielos con sol bajo y 13 con sol alto.
 El selector de color de fondo está en **Fondo** y permanece deshabilitado mientras haya un cielo seleccionado.
 Selecciona **Ninguno** en **Cielo** para habilitar el selector de color de fondo.
 
-El programa descarga las seis caras del cielo cuando no están en `%LOCALAPPDATA%\lop\Skyboxes`
-y reutiliza los archivos guardados en aperturas posteriores. Si la descarga falla, el visor muestra el color de fondo
+El programa descarga las seis imágenes que forman el fondo cúbico del cielo cuando no están en `%LOCALAPPDATA%\lop\Skyboxes`
+y reutiliza los archivos guardados cuando vuelve a cargar el mismo cielo. Si la descarga falla, el visor muestra el color de fondo
 y comunica el error en la barra de estado. El cielo sigue seleccionado y el selector de color continúa deshabilitado
 hasta elegir **Ninguno**. Si una cara no se puede decodificar, el visor muestra el color de fondo.
 
 El programa conserva el cielo entre documentos y vuelve a intentar cargar el cielo guardado al iniciarse.
-Las escenas `.lopview` guardan el cielo; al abrir una escena sin ese dato, el visor conserva el cielo actual.
+Las escenas `.lopview` guardan el cielo seleccionado; al abrir una escena sin ese dato, el visor conserva el cielo actual.
 
 ## Abrir mapas en el punto señalado
 

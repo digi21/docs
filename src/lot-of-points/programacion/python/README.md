@@ -31,7 +31,7 @@ print(lop.viewer.Domain.Max.Z)
 | **Detener** | Solicita la interrupción del guion en marcha. |
 
 Al pulsar **Ejecutar**, el programa limpia **Salida**. Si el contenido del panel está oculto cuando recibe
-una escritura, su pestaña parpadea hasta que el usuario lo muestra. El panel recibe la salida de `print`,
+una escritura, su pestaña parpadea hasta que el usuario muestra el panel **Salida**. El panel recibe la salida de `print`,
 las escrituras en `sys.stdout` y `sys.stderr`, y los errores. Los errores del guion del editor muestran
 su tipo y mensaje, sin la traza de llamadas.
 
