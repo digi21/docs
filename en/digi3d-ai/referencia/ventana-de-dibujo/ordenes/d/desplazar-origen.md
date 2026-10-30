@@ -12,7 +12,7 @@ Does not accept parameters.
 
 ## Notes
 
-If the origin of a closed entity is in the area you need to modify, you cannot modify that area. Use _DESPLAZAR\_ORIGEN_ to change the origin.
+If the origin of a closed entity is in the area you need to modify, you cannot modify that area. Use _DISPLACE\_ORIGIN_ to change the origin.
 
 1. Select the closed line, or the boundary or a hole of a polygon. A cross appears at the current origin.
 2. Press **+** or **−** to move the cross to the next or previous vertex.

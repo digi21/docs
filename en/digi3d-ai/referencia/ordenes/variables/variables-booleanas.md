@@ -26,27 +26,27 @@ Boolean variable commands accept the following parameters:
 
 The Boolean variable command [BEEPS](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) controls whether the application plays a sound when you enter data with the input device or when it detects an error.
 
-If _PITA_ is _True_ and you run the following command:
+If _BEEPS_ is _True_ and you run the following command:
 
 ```text
 BEEPS
 ```
 
-The value of _PITA_ changes to _False_. If you run BEEPS again without parameters:
+The value of _BEEPS_ changes to _False_. If you run BEEPS again without parameters:
 
 ```text
 BEEPS
 ```
 
-The value of _PITA_ changes back to _True_.
+The value of _BEEPS_ changes back to _True_.
 
-Run the following command to set the Boolean variable _PITA_ to _True_:
+Run the following command to set the Boolean variable _BEEPS_ to _True_:
 
 ```text
 BEEPS=1
 ```
 
-Run the following command to set the Boolean variable _PITA_ to _False_:
+Run the following command to set the Boolean variable _BEEPS_ to _False_:
 
 ```text
 BEEPS=0

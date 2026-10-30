@@ -13,19 +13,19 @@ If you run a Boolean variable command without parameters, the variable toggles i
 
 For example, the Boolean variable command [BEEPS](/digi3d-ai/referencia/ventana-de-dibujo/variables/p/pita.md) makes the application play a sound when data is entered with the input device or when an error is detected.
 
-Run the following command if _PITA_ is _True_:
+Run the following command if _BEEPS_ is _True_:
 
 ```text
 BEEPS
 ```
 
-The value of _PITA_ changes to _False_. Run the command again to change _PITA_ to _True_:
+The value of _BEEPS_ changes to _False_. Run the command again to change _BEEPS_ to _True_:
 
 ```text
 BEEPS
 ```
 
-The value of _PITA_ changes back to _True_.
+The value of _BEEPS_ changes back to _True_.
 
 #### With parameters
 
@@ -39,13 +39,13 @@ Boolean variable commands accept the following parameters:
 
 ### Examples
 
-Run the following command to force the Boolean variable _PITA_ to _True_:
+Run the following command to force the Boolean variable _BEEPS_ to _True_:
 
 ```text
 BEEPS=1
 ```
 
-Run the following command to force the Boolean variable _PITA_ to _False_:
+Run the following command to force the Boolean variable _BEEPS_ to _False_:
 
 ```text
 BEEPS=0
