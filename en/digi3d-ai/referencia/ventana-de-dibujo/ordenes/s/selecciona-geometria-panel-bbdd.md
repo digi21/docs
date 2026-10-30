@@ -2,7 +2,7 @@
 <!-- id: selecciona-geometria-panel-bbdd -->
 <!-- origen: 804af25eda4c0be9acadfb339c5a536e33914fc4 -->
 
-Select a geometry in the database editor panels by pointing to it in the drawing.
+Select an entity in the database editor panels by pointing to it in the drawing.
 
 ## Parameters
 
@@ -10,7 +10,7 @@ Does not accept parameters.
 
 ## Notes
 
-Point to the geometry with the data button or the snap button. The command selects the geometry in all four database editor panels and remains active so you can point to another geometry.
+Point to the entity with the data button or the snap button. The command selects the entity in all four database editor panels and remains active so you can point to another entity.
 
 ## Command characteristics
 
