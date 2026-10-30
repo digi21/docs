@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="500" viewBox="0 0 480 500" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+  </defs>
+  <rect width="480" height="500" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">ADJUST_AREA</text>
+
+  <polygon points="100,300 100,100 324.6,62.6 400,300" fill="#eaf1fa" stroke="#1f5fa8" stroke-width="3"/>
+  <polygon points="100,300 100,100 280,70 350,300" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="324.6" y1="62.6" x2="400" y2="300" stroke="#e67e22" stroke-width="5"/>
+  <use href="#p1" x="315" y="184"/>
+  <text x="210" y="210" text-anchor="middle" fill="#1f5fa8">target area</text>
+
+  <text x="240" y="344" text-anchor="middle" fill="#222">1: closed line segment. Enter the target area.</text>
+  <text x="240" y="362" text-anchor="middle" fill="#222">The two segment vertices move along the</text>
+  <text x="240" y="380" text-anchor="middle" fill="#222">extended adjacent segments, in iterations,</text>
+  <text x="240" y="398" text-anchor="middle" fill="#222">until the area matches the target.</text>
+
+  <rect x="16" y="418" width="448" height="72" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="34" y="438"/>
+  <text x="48" y="442" fill="#222">Segment selection point.</text>
+  <line x1="256" y1="438" x2="282" y2="438" stroke="#e67e22" stroke-width="5"/>
+  <text x="290" y="442" fill="#222">Moved segment.</text>
+  <line x1="24" y1="466" x2="50" y2="466" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="58" y="470" fill="#222">Line before the command.</text>
+</svg>
