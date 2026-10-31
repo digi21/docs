@@ -4,10 +4,10 @@
 
 Digi3D.AI provides multiple toolbars.
 
-Advanced users accustomed to keyboard command assignments often do not use toolbars.
+Advanced users accustomed to working with commands assigned to keyboard keys do not usually use toolbars.
 
-**Right-click** any application menu to open the toolbar menu.
+**Right-click** any program menu to display the toolbar menu.
 
-The context menu lists all available toolbars.
+A context menu appears with the names of all toolbars provided by the program.
 
-Click a toolbar name to show or hide it.
+Click a toolbar name in the context menu to show or hide it.
