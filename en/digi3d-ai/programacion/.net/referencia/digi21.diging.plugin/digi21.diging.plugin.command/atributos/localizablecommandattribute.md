@@ -41,7 +41,7 @@ public LocalizableCommandAttribute(Type resourceManagerProvider, string nameReso
 | :--- | :--- |
 | `resourceManagerProvider` | Type providing the `ResourceManager`. |
 | `nameResource` | Resource key containing the command name. The resource string is assigned to `Name`. |
-| `descriptionResource` | Resource key containing the description. The resource string is assigned to `Description`, which the [Find command](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) dialog displays and searches for the user's text. With the two-parameter constructor, `Description` is `null` and the command has no description in Find command. |
+| `descriptionResource` | Resource key containing the description. The resource string is assigned to `Description`, which the [Search command](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) dialog displays and searches for the user's text. With the two-parameter constructor, `Description` is `null` and the command has no description in Search command. |
 | `helpUrlResource` | Resource key containing the help URL. The resource string is assigned to `HelpUrl`. |
 
 Properties without a parameter in the overload used remain `null`.

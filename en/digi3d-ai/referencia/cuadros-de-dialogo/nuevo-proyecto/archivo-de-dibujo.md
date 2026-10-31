@@ -23,11 +23,11 @@ This category only appears if the option to display the reference system when op
 
 * **Drawing window's coordinate reference system**: system in which the window works. **That of the drawing file** uses the file system. If the category does not appear, the window works in a local compound reference system.
 
-### Registry
+### Recording
 
 * **Scale**: display scale of line patterns. The drop-down list offers common scales, from 1:100 to 1:250,000, and you can enter any other scale.
 * **Operation**: **Save** stores registration increment, contour interval, and generalization tolerance, together with text height, for the specified scale. **Load** retrieves the values stored for that scale.
-* **Registry increase**: interval in meters at which points are registered when digitizing in continuous mode.
+* **Recording increment**: interval in meters at which points are registered when digitizing in continuous mode.
 * **Equidistance**: interval in meters at which contour lines are registered.
 * **Text height**: height of registered texts, the value of [TH](../../ventana-de-dibujo/variables/a/at.md).
 * **Tolerance to be generalized**: minimum segment length when digitizing in continuous mode.

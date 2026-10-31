@@ -29,7 +29,7 @@ Creates the attribute with all three properties set to `null`. Assign properties
 | Property | Description |
 | :--- | :--- |
 | `string Name { get; set; }` | Command name. |
-| `string Description { get; set; }` | Command description. The [Find command](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) dialog displays the description when the command is selected and also searches for the entered text in the description. |
+| `string Description { get; set; }` | Command description. The [Search command](/digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md) dialog displays the description when the command is selected and also searches for the entered text in the description. |
 | `string HelpUrl { get; set; }` | Command help page URL. Digi3D.AI does not use it in version 26.0.0. |
 
 ## Example
