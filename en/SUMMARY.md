@@ -1,6 +1,10 @@
 # Table of contents
 <!-- origen: 1aec6a20e065fad0b1db7ad33d01f278af235ad1 -->
 
+* [Digi3D.AI](digi3d-ai/README.md)
+  * [General application information](digi3d-ai/informacion-general.md)
+  * [Compatibility](digi3d-ai/compatibilidad.md)
+  * [Information for Digi3D.NET users](digi3d-ai/usuarios-de-versiones-anteriores/README.md)
     * [Update a code table's Python quality controls](digi3d-ai/usuarios-de-versiones-anteriores/actualizar-guiones-python.md)
     * [Update selection and command Python expressions](digi3d-ai/usuarios-de-versiones-anteriores/actualizar-expresiones-python.md)
     * [EGM08_REDNAP becomes Alicante height and Tenerife height](digi3d-ai/usuarios-de-versiones-anteriores/egm08-rednap-sustituido-por-alicante-height.md)
@@ -79,7 +83,10 @@
           * [Files generated when measuring aerotriangulation](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/archivos-generados-aerotriangulacion.md)
           * [Aerial triangulating the second model](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/aerotriangulando-segundo-modelo.md)
           * [Preparing .f files for an adjustment program](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/aerotriangulacion-manual/preparando-archivos-f-programa-calculo.md)
+  * [Procedures](digi3d-ai/procedimientos/README.md)
     * [Connecting to a WMS server](digi3d-ai/procedimientos/conectar-servidor-wms.md)
+    * [Convert ALOS images to TIFF with Alos2Digi3D](digi3d-ai/procedimientos/convertir-imagenes-alos.md)
+  * [Concepts](digi3d-ai/conceptos/README.md)
     * [Commands](digi3d-ai/referencia/ordenes/README.md)
       * [Variables](digi3d-ai/referencia/ordenes/variables/README.md)
         * [Boolean variables](digi3d-ai/referencia/ordenes/variables/variables-booleanas.md)
@@ -1435,6 +1442,7 @@
       * [Configuring LM Studio](digi3d-ai/referencia/asistente-ia/lm-studio.md)
       * [Configuring Ollama](digi3d-ai/referencia/asistente-ia/ollama.md)
       * [MCP server](digi3d-ai/referencia/asistente-ia/servidor-mcp.md)
+  * [Programming](digi3d-ai/programacion/README.md)
     * [.NET](digi3d-ai/programacion/.net/README.md)
       * [Migrating to .NET 10](digi3d-ai/programacion/.net/migracion-a-net-10.md)
       * [Tutorial: creating a console application](digi3d-ai/programacion/.net/tutorial-aplicacion-de-consola.md)
@@ -2068,6 +2076,7 @@
           * [crskit API reference](digi3d-ai/programacion/python/referencia/crskit/api.md)
           * [crskit programming examples](digi3d-ai/programacion/python/referencia/crskit/ejemplos.md)
   * [Release notes](digi3d-ai/novedades-version/README.md)
+  * [License and copyright](digi3d-ai/licencia-y-copyright.md)
   * [Release notes](mdtopx/novedades-version/README.md)
   * [Release notes](topcal21/novedades-version/README.md)
 * [Reproject](reproject/README.md)
