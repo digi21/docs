@@ -1,6 +1,9 @@
 # Table of contents
 <!-- origen: 1aec6a20e065fad0b1db7ad33d01f278af235ad1 -->
 
+      * [Key configuration files](digi3d-ai/primeros-pasos/primeros-pasos-usuarios-versiones-anteriores/archivos-configuracion-teclas.md)
+    * [Getting started with the photogrammetric window](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/README.md)
+      * [Changing photogrammetric image radiometry](digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/cambiando-radiometria-ventana-foto.md)
         * [Boolean variables](digi3d-ai/referencia/ordenes/variables/variables-booleanas.md)
         * [Numeric variables](digi3d-ai/referencia/ordenes/variables/variables-numericas.md)
       * [Non-interactive commands](digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md)
@@ -215,6 +218,7 @@
     * [Panes](digi3d-ai/referencia/paneles/README.md)
       * [Search](digi3d-ai/referencia/paneles/buscar.md)
       * [Cameras](digi3d-ai/referencia/paneles/camaras.md)
+      * [Display properties](digi3d-ai/referencia/paneles/propiedades-de-visualizacion.md)
     * [Dialogs](digi3d-ai/referencia/cuadros-de-dialogo/README.md)
       * [About Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/acerca-de-digi3d-ai.md)
       * [User toolbars](digi3d-ai/referencia/cuadros-de-dialogo/barras-de-herramientas-de-usuario.md)
@@ -236,6 +240,12 @@
           * [Import .dgn file codes](digi3d-ai/referencia/editor-de-tablas-de-codigos/menus/codigos/importar-codigos-dgn.md)
           * [Configuration](digi3d-ai/referencia/editor-de-tablas-de-codigos/menus/herramientas/configuracion.md)
       * [Universal Coordinate Transformer (replaced by Reproject)](digi3d-ai/referencia/transformador-universal-de-coordenadas.md)
+          * [Detecting vertices with Z above the previous vertex](digi3d-ai/programacion/python/controles-de-calidad/ejemplos/detectar-vertices-con-z-superior-a-la-anterior.md)
+              * [Geometry has no errors](digi3d-ai/programacion/python/controles-de-calidad/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/la-geometria-no-tiene-errores.md)
+              * [Geometry has no errors but a warning is shown](digi3d-ai/programacion/python/controles-de-calidad/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/la-geometria-no-tiene-errores-pero-mostrar-una-advertencia-al-usuario.md)
+              * [Errors in the analyzed geometry](digi3d-ai/programacion/python/controles-de-calidad/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/errores-de-la-geometria-que-se-esta-analizando.md)
+              * [Errors between geometries](digi3d-ai/programacion/python/controles-de-calidad/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/errores-entre-dos-o-mas-geometrias.md)
+              * [Database errors](digi3d-ai/programacion/python/controles-de-calidad/guiones-de-control-de-calidad/creacion-de-un-guion-de-control-de-calidad/tipos-de-errores/errores-de-base-de-datos.md)
   * [Release notes](digi3d-ai/novedades-version/README.md)
   * [Release notes](mdtopx/novedades-version/README.md)
   * [Release notes](topcal21/novedades-version/README.md)
