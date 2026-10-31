@@ -10,8 +10,8 @@ Digi3D lets you choose from the following pointer shapes:
 | :--- | :--- |
 | Medium index | A 3x3 screen pixel point in your chosen color, surrounded by a black ring. |
 | Large index | A 6x6 screen pixel point in your chosen color, surrounded by a black ring. |
-| Blade | A large diagonal cross. Used for precise digitizing of diagonal cross-shaped fiducial marks during analog camera [interior orientation](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-interna/README.md). |
-| Horizontal cross | A large cross. Used for precise digitizing of cross-shaped fiducial marks during analog camera interior orientation. |
+| Blade | A large diagonal cross. Used for precise digitizing of diagonal cross-shaped fiducial marks during analog camera [internal orientation](/digi3d-ai/primeros-pasos/comenzando-a-utilizar-digi3d.ai/comenzando-con-la-ventana-fotogrametrica/sensor-camara-conica/orientacion-de-modelos-fotogrametricos/orientacion-interna/README.md). |
+| Horizontal cross | A large cross. Used for precise digitizing of cross-shaped fiducial marks during analog camera internal orientation. |
 
 Follow these steps to change the pointer type and color:
 

@@ -10,7 +10,7 @@ To follow these steps, you need to download two projects:
 
 | Project name | Description |
 | :--- | :--- |
-| [Bronchales](http://digi21.blob.core.windows.net/ejemplos/Bronchales.zip) | Contains two analog frame camera models. The images are grayscale. The project lets you practice interior, relative and absolute orientation. |
+| [Bronchales](http://digi21.blob.core.windows.net/ejemplos/Bronchales.zip) | Contains two analog frame camera models. The images are grayscale. The project lets you practice internal, relative and absolute orientation. |
 
 Download and unzip the projects before continuing.
 
