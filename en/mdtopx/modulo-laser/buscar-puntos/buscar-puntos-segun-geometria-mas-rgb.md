@@ -13,7 +13,7 @@ Required parameters:
 * **List of conditions**: conditions points must meet, combining a color's RGB components with a minimum height above surroundings. Each condition can have a different target type. Use **Add**, **Edit** or **Delete**.
 * **Maximum distance among points**: maximum neighbor distance, based on point density. Excessive values include distant points; insufficient values leave points with no related neighbors.
 * **Iterate while more than x points are classified**: iterations may improve classification. The program repeats automatically while the classified count exceeds this minimum, stopping when it no longer does.
-* **Work only on the current selection**: processes only currently selected points.
+* **Only in the selection**: processes only currently selected points.
 
 The program processes the current file, displaying partial results in the [Results pane](../../introduccion/paneles-de-la-aplicacion/panel-resultados.md). **Cancel** asks whether to retain calculations completed so far.
 

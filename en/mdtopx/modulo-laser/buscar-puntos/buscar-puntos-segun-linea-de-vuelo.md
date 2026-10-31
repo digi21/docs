@@ -16,7 +16,7 @@ Required parameters:
 * **Minimum height for high vegetation**: minimum height above a neighbor for classification as high vegetation.
 * **Minimum height for medium vegetation**: minimum height above a neighbor for classification as medium vegetation.
 * **Minimum height for low vegetation**: minimum height above a neighbor for classification as low vegetation.
-* **Work only on the current selection**: processes only currently selected points.
+* **Only in the selection**: processes only currently selected points.
 
 The program processes the current file, displaying partial results in the [Results pane](../../introduccion/paneles-de-la-aplicacion/panel-resultados.md). **Cancel** asks whether to retain calculations completed so far.
 
