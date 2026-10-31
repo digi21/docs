@@ -13,7 +13,7 @@ There is another way to delete the last segments of the polyline you are digitiz
 
 1. Digitize a polyline with several segments by **clicking** the drawing window with the mouse's [data button](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#mouse-button-numbers).
 2. Click the **last button** on the [End of the polyline toolbar](/digi3d-ai/referencia/barras-de-herramientas/finalizacion-de-polilinea.md) to activate it. This button runs [MU](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/u/um.md).
-3. Select any segment by **clicking** it with the mouse's [data button](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#mouse-button-numbers). **Digi3D.AI** displays the message "_Mark the segment from which to delete_". **Digi3D.AI** deletes the segments from the last one digitized back to the selected segment.
+3. Select any segment by **clicking** it with the mouse's [data button](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#mouse-button-numbers). **Digi3D.AI** displays the message "_Mark the segment you wish to delete from..._". **Digi3D.AI** deletes the segments from the last one digitized back to the selected segment.
 4. Continue digitizing the polyline by **clicking** the drawing window with the mouse's [data button](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#mouse-button-numbers).
 5. **Finish** the polyline by **clicking** the drawing window with the mouse's [cancel button](/digi3d-ai/referencia/cuadros-de-dialogo/programar-botones.md#mouse-button-numbers).
 
