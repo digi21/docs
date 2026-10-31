@@ -4,7 +4,7 @@
 
 `MuestraAtributosBBDDGeometriasArchivoBinD` is a **console application** that displays the database attributes of all entities in a `.bind` file. The attributes are in an Access database linked to the file's entities.
 
-Code: [MuestraAtributosBBDDGeometriasArchivoBinD on GitHub](https://github.com/digi21/Examples-Programacion-Digi3D/tree/main/MuestraAtributosBBDDGeometriasArchivoBinD).
+Code: [MuestraAtributosBBDDGeometriasArchivoBinD on GitHub](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/MuestraAtributosBBDDGeometriasArchivoBinD).
 
 ## Build
 

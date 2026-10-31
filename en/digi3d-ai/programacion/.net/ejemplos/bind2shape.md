@@ -4,7 +4,7 @@
 
 `Bind2Shape` is a **console application** that converts a `.bind` file to Shapefile. The file's entities have attributes in an Access database, and the program reads them using the code table.
 
-Code: [Bind2Shape on GitHub](https://github.com/digi21/Examples-Programacion-Digi3D/tree/main/Bind2Shape).
+Code: [Bind2Shape on GitHub](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/Bind2Shape).
 
 ## Build
 

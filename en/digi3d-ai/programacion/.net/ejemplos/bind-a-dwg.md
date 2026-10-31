@@ -4,7 +4,7 @@
 
 `BindADwg` is a **console application** that converts a `.bind` file to an AutoCAD 2010 DWG file.
 
-Code: [BindADwg on GitHub](https://github.com/digi21/Examples-Programacion-Digi3D/tree/main/BindADwg). The C# programming course's [Bin2Dwg](../curso-de-programacion-en-c/bin2dwg.md) lesson has a video about a DWG conversion program.
+Code: [BindADwg on GitHub](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/BindADwg). The C# programming course's [Bin2Dwg](../curso-de-programacion-en-c/bin2dwg.md) lesson has a video about a DWG conversion program.
 
 ## Build
 

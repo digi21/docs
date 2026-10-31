@@ -4,7 +4,7 @@
 
 `EliminarTextosDeArchivoBinD` is a **console application** that copies one `.bind` file to another, excluding text entities with a specified code and content.
 
-Code: [EliminarTextosDeArchivoBinD on GitHub](https://github.com/digi21/Examples-Programacion-Digi3D/tree/main/EliminarTextosDeArchivoBinD).
+Code: [EliminarTextosDeArchivoBinD on GitHub](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/EliminarTextosDeArchivoBinD).
 
 ## Build
 
