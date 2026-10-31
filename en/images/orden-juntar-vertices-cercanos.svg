@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="490" viewBox="0 0 480 490" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="viejo"><circle r="5" fill="#fff" stroke="#999" stroke-width="1.5"/></g>
+    <g id="nuevo"><circle r="5.5" fill="#e67e22"/></g>
+  </defs>
+  <rect width="480" height="490" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">JOIN_NEARBY_VERTICES</text>
+  <text x="240" y="52" text-anchor="middle" fill="#555" font-size="12">distance = 0.05</text>
+
+  <!-- geometría antes -->
+  <polyline points="90,80 230,160 242,290" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <polyline points="400,70 242,172 410,290" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+
+  <!-- geometría después -->
+  <polyline points="90,80 230,160 230,290" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <polyline points="400,70 230,160 410,290" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+
+  <use href="#viejo" x="242" y="172"/><use href="#viejo" x="242" y="290"/>
+  <use href="#nuevo" x="230" y="160"/><use href="#nuevo" x="230" y="290"/>
+
+  <text x="218" y="194" text-anchor="end" fill="#555" font-size="12">x 100.03 → 100</text>
+  <text x="218" y="210" text-anchor="end" fill="#555" font-size="12">y 49.97 → 50</text>
+  <text x="218" y="294" text-anchor="end" fill="#555" font-size="12">x 100.03 → 100</text>
+  <text x="218" y="310" text-anchor="end" fill="#555" font-size="12">(y is unchanged)</text>
+
+  <text x="240" y="352" text-anchor="middle" fill="#222">Enter a distance. Process all entities in the active file.</text>
+  <text x="240" y="370" text-anchor="middle" fill="#222">Set each X within that distance of a processed X</text>
+  <text x="240" y="388" text-anchor="middle" fill="#222">to the processed value. Apply the same rule to Y.</text>
+  <text x="240" y="406" text-anchor="middle" fill="#222">Adjust X and Y separately. Z is unchanged.</text>
+
+  <rect x="16" y="422" width="448" height="58" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#viejo" x="34" y="440"/>
+  <text x="46" y="444" fill="#222">Original vertex position.</text>
+  <use href="#nuevo" x="264" y="440"/>
+  <text x="276" y="444" fill="#222">New position.</text>
+  <line x1="24" y1="464" x2="50" y2="464" stroke="#aaa" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="58" y="468" fill="#222">Geometry before the command.</text>
+</svg>

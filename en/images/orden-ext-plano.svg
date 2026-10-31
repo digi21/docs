@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="438" viewBox="0 0 480 438" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="p1"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">1</text></g>
+    <g id="p2"><circle r="9" fill="#c0392b"/><text y="4.5" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">2</text></g>
+  </defs>
+  <rect width="480" height="438" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#222">SPR_PLANE</text>
+
+  <polygon points="310,55 400,85 400,250 310,220" fill="#f1f1f1" stroke="#999"/>
+  <text x="355" y="212" text-anchor="middle" fill="#777">plane</text>
+  <polyline points="60,215 150,165 210,145" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+  <line x1="210" y1="145" x2="340" y2="101.7" stroke="#e67e22" stroke-width="3" stroke-dasharray="6 4"/>
+  <circle cx="340" cy="101.7" r="6" fill="#fff" stroke="#e67e22" stroke-width="2"/>
+  <use href="#p1" x="370" y="175"/>
+  <use href="#p2" x="185" y="153.3"/>
+
+  <text x="240" y="276" text-anchor="middle" fill="#222">1: entity whose first three vertices define the</text>
+  <text x="240" y="294" text-anchor="middle" fill="#222">plane. 2: line, near the endpoint to move.</text>
+  <text x="240" y="312" text-anchor="middle" fill="#222">Move the endpoint in 3D to where the last</text>
+  <text x="240" y="330" text-anchor="middle" fill="#222">segment line intersects the plane.</text>
+  <text x="240" y="348" text-anchor="middle" fill="#222">Keep using the same plane until Esc is pressed.</text>
+
+  <rect x="16" y="368" width="448" height="58" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#p1" x="44" y="386"/>
+  <text x="60" y="390" fill="#222">Selection, in order.</text>
+  <rect x="250" y="378" width="36" height="16" fill="#f1f1f1" stroke="#999"/>
+  <text x="294" y="390" fill="#222">Plane.</text>
+  <line x1="26" y1="408" x2="62" y2="408" stroke="#e67e22" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="70" y="412" fill="#222">Added extension.</text>
+  <circle cx="268" cy="408" r="6" fill="#fff" stroke="#e67e22" stroke-width="2"/>
+  <text x="294" y="412" fill="#222">New endpoint.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <g id="vert"><rect x="-5" y="-5" width="10" height="10" fill="#e67e22"/></g>
+  </defs>
+  <rect width="480" height="420" fill="#ffffff"/>
+  <text x="240" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">INSERT_VERTEX_INTERSECTION_LINE_POINT</text>
+
+  <polyline points="48,224 224,144 432,176" fill="none" stroke="#1f5fa8" stroke-width="3"/>
+
+  <circle cx="140.8" cy="163.2" r="32" fill="none" stroke="#999" stroke-dasharray="4 4"/>
+  <line x1="140.8" y1="163.2" x2="140.8" y2="131.2" stroke="#777" stroke-width="1"/>
+  <text x="134" y="124" text-anchor="end" fill="#777">tolerance</text>
+  <line x1="140.8" y1="163.2" x2="147.9" y2="178.6" stroke="#555" stroke-dasharray="2 2"/>
+  <use href="#vert" x="147.9" y="178.6"/>
+  <circle cx="140.8" cy="163.2" r="5" fill="#2e7d32"/>
+
+  <circle cx="344" cy="86" r="32" fill="none" stroke="#999" stroke-dasharray="4 4"/>
+  <circle cx="344" cy="86" r="5" fill="#2e7d32"/>
+  <text x="382" y="80" fill="#777">not inserted</text>
+
+  <text x="240" y="268" text-anchor="middle" fill="#222">If a point with a specified code is less than the</text>
+  <text x="240" y="286" text-anchor="middle" fill="#222">tolerance from a line, polygon, or complex entity with</text>
+  <text x="240" y="304" text-anchor="middle" fill="#222">those codes, a vertex is inserted at its projection.</text>
+  <text x="240" y="322" text-anchor="middle" fill="#222">The point is not moved.</text>
+
+  <rect x="16" y="342" width="448" height="66" rx="5" fill="#f3f6fa" stroke="#c9d6e6"/>
+  <use href="#vert" x="36" y="362"/>
+  <text x="50" y="366" fill="#222">Inserted vertex.</text>
+  <circle cx="256" cy="362" r="5" fill="#2e7d32"/>
+  <text x="268" y="366" fill="#222">Point entity.</text>
+  <text x="30" y="394" fill="#222">The command acts on the entire drawing file at once.</text>
+</svg>
