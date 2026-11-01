@@ -1,13 +1,13 @@
 # Ask which reference files to load
 <!-- id: preguntar-que-archivos-de-referencia-cargar -->
-<!-- origen: 16a49aa3e4a58c156170fbab19a51845c56cc490 -->
+<!-- origen: 3bc48ff92a07ade182beb8c1dbe43329e1063469 -->
 
-Specifies whether, when opening a drawing file with associated reference files, Digi3D.AI displays the [Reference file selection](../../seleccion-de-archivos-de-referencia.md) dialog to choose which ones to load.
+Specifies whether, when opening a drawing file with associated reference files, an associated photogrammetric project or an associated photogrammetric model, Digi3D.AI displays the [Reference file selection](../../seleccion-de-archivos-de-referencia.md) dialog to choose what to load.
 
 ## Possible values
 
-* **Yes**. The dialog is displayed and only checked reference files are loaded.
-* **No**. All reference files are loaded without asking. This is the default value.
+* **Yes**. The dialog is displayed. When you click **OK**, Digi3D.AI loads the checked reference files and loads the associated project or model if its check box is selected.
+* **No**. All reference files and the associated project or model are loaded without asking. This is the default value.
 
 <details>
 <summary>Where it is stored</summary>
