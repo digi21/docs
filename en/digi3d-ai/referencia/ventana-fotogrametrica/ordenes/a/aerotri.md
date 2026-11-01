@@ -12,7 +12,7 @@ None.
 
 ![Aerial triangulation measurement pane with five measured points](../../../../../images/panel-medida-aerotriangulacion.png)
 
-AEROTRI shows this pane and [Thumbnails](../../../paneles/instantaneas.md). First it loads the control point file. Failure displays “Warning: Unable to load support point file” and opens [Control point file](../../../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md). Cancelling ends the command.
+AEROTRI shows this pane and [Thumbnails](../../../paneles/instantaneas.md). AEROTRI first loads the control point file. If loading fails, Digi3D.AI displays “Warning: Unable to load control point file” and opens [Control point file](../../../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md). Cancelling that dialog ends AEROTRI.
 
 Uses the [ABSOLUTE\_ORI](../o/ori-absoluta.md) pane with these differences:
 

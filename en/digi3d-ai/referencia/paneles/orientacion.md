@@ -18,7 +18,7 @@ For affine orientation, and for other orientations not yet defined in the model,
 
 Unavailable buttons are disabled.
 
-* **Support point file**: file with point ground coordinates. **...** opens [Control point file](../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md) to change it.
+* **Control point file**: file with point ground coordinates. **...** opens [Control point file](../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md), where you can select another control point file.
 * **Coordinate reference system**: system of the point file coordinates.
 * **Extended view**: adds ground (**X**, **Y**, **Z**) and model (**Xmod**, **Ymod**, **Zmod**) coordinates to the list. Its state is remembered. The list becomes wider than the pane and gains a horizontal scrollbar; widen the pane to see all columns.
 * **Measured point list**: each point's name (**N**), X, Y and Z residuals (**Ex**, **Ey**, **Ez**) and **Description**. Residuals appear with at least three measured points. Clicking a point moves the cursor there.

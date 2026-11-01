@@ -1,4 +1,4 @@
-# Support points
+# Control points
 <!-- id: puntos-de-apoyo -->
 <!-- origen: 7f8a43f2b93be82e2e48d2a226e9a7106bc6a167 -->
 

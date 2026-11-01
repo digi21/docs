@@ -17,6 +17,6 @@ This dialog requests the control point to measure. It is opened by the [absolute
 
 * **Point absent from the point file**:
   * In absolute orientation, Digi3D.AI displays “ERROR: The point *name* does not exist in the points file.” and reopens the dialog.
-  * In generic orientation, Digi3D.AI displays “Unable to locate the point: *name* in the loaded support points file.” and reopens the dialog.
+  * In generic orientation, Digi3D.AI displays “Unable to locate the point: *name* in the loaded control point file.” and reopens the dialog.
   * In aerial triangulation measurement, the point is accepted as an aerial triangulation point.
 * **Name matching a projection center** (one of the photo names): Digi3D.AI displays an error and reopens the dialog.

@@ -1191,7 +1191,7 @@
           * [Relative directory](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/puntos-medidos/directorio-relativo.md)
           * [Size of circle](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/puntos-medidos/tamano-del-circulo.md)
           * [Fill circle](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/puntos-medidos/rellenar-circulo.md)
-          * [Support points](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/puntos-medidos/puntos-de-apoyo.md)
+          * [Control points](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/puntos-medidos/puntos-de-apoyo.md)
           * [Aerial triangulation points](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/puntos-medidos/puntos-de-aerotriangulacion.md)
           * [Source](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/puntos-medidos/fuente.md)
         * [Python](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/python/README.md)

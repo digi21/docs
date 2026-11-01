@@ -473,7 +473,7 @@ Configures storage and representation of measured points.
 * **[Relative directory](puntos-medidos/directorio-relativo.md)** — Subdirectory where measured points are stored.
 * **[Size of circle](puntos-medidos/tamano-del-circulo.md)** — Size in pixels of the circle marking a measured point.
 * **[Fill circle](puntos-medidos/rellenar-circulo.md)** — Fills the measured point circles.
-* **[Support points](puntos-medidos/puntos-de-apoyo.md)** — Marker color for ground control points.
+* **[Control points](puntos-medidos/puntos-de-apoyo.md)** — Marker color for ground control points.
 * **[Aerial triangulation points](puntos-medidos/puntos-de-aerotriangulacion.md)** — Marker color for aerial triangulation points.
 * **[Source](puntos-medidos/fuente.md)** — Font used to label measured points.
 

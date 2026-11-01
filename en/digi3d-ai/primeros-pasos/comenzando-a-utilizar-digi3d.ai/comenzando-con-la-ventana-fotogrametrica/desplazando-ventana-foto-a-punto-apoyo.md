@@ -5,7 +5,7 @@
 If you have a control point file, you can move the photogrammetric window to a specific control point's coordinates with [GO\_TO\_CONTROL\_POINT](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/i/ir-a-punto-apoyo.md).
 
 1. Open **Photogrammetric window** and select **Go to control point...**
-2. Check that the Windows file selection dialog appears if you have not yet chosen a point file. If **Select the control point where to move the photogrammetric window** appears directly with a different control point file, click **...** to open **Select support point file**.
+2. Check that the Windows file selection dialog appears if you have not yet chosen a point file. If **Select the control point where to move the photogrammetric window** appears directly with a control point file other than the one you want to use, click **...** to open **Select control point file**.
 3. Select _%ExamplesDigi3D%\Pumarín\Archivo de apoyo tutorial de Digi3D.txt_.
 4. Check that **Select the control point where to move the photogrammetric window** appears.
 5. Enter _Edificio_ and press **Enter**, select _Edificio_ in the list and click **OK**, or double-click _Edificio_.

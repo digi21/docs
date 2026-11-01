@@ -18,11 +18,11 @@ This dialog specifies the file containing ground coordinates of control points a
 
 ## When starting orientation
 
-* If the file cannot be read, Digi3D.AI displays an error and reopens the dialog. For absolute orientation and aerial triangulation, the error is “Warning: Unable to load support point file: *file*”. For generic orientation, it is “Unable to load control point file.”
+* If the file cannot be read, Digi3D.AI displays an error and reopens the dialog. For absolute orientation and aerial triangulation, the error is “Warning: Unable to load control point file: *file*”. For generic orientation, Digi3D.AI displays “Unable to load control point file.”
 * **OK** with an empty path ends the command.
 
 ## When changing the file from the orientation pane
 
 * If the new file cannot be read, Digi3D.AI displays an error and retains the previous file.
-* In absolute orientation, if the new file lacks coordinates for any measured points, Digi3D.AI lists those points and asks “Accept a new support point file?”. **No** retains the previous file.
-* In generic orientation, if the new file lacks a measured point, Digi3D.AI displays “Unable to locate the point: *name* in the loaded support points file.” and retains the previous file.
+* In absolute orientation, if the new file lacks coordinates for any measured points, Digi3D.AI lists those points and asks “Accept a new control point file?”. **No** retains the previous file.
+* In generic orientation, if the new file lacks a measured point, Digi3D.AI displays “Unable to locate the point: *name* in the loaded control point file.” and retains the previous file.

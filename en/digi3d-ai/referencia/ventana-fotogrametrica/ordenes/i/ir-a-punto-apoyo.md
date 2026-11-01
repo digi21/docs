@@ -16,7 +16,7 @@ Then requests a point in **Select the control point where to move the photogramm
 
 ![Select the control point where to move the photogrammetric window dialog](../../../../../images/ir-a-punto-apoyo.png)
 
-* **Control point file**: loaded file path. **...** opens **Select support point file** to change it, saving the path in `ArchivoPuntos`.
+* **Control point file**: loaded file path. **...** opens **Select control point file**. After you select a file, GO_TO_CONTROL_POINT saves the selected file path in `ArchivoPuntos`.
 * **Type the control point name or select it in the list**: typing selects an exact match or the first name beginning with the entered text, ignoring case. No match clears selection.
 * The list has **Point**, **X**, **Y**, **Z** and **Description**. Each file line with at least four values \(name, X, Y, Z\) is a point; remaining text is its description. Other lines are ignored.
 
