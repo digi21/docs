@@ -78,7 +78,7 @@ De 1 a 6 caracteres, sin espacios.
 | Conductor | CONDUC | Cada conductor en 3D, de una pieza a lo largo de los vanos seguidos. |
 | Guarda | CGUARD | Cada cable de guarda, de una pieza a lo largo de los vanos seguidos. |
 
-En cada apoyo, el conductor de un vano sigue en el del vano siguiente cuyo amarre está más cerca, a 5 m o menos, y el cable de guarda solo sigue en otro cable de guarda. En un apoyo de amarre, entre los dos amarres va una recta, que hace de puente. Donde la línea se divide, cada conductor sigue por el vano más cercano y los demás empiezan allí una polilínea nueva.
+En cada apoyo, el conductor de un vano sigue en el del vano del otro lado cuyo amarre está en el mismo sitio, a la misma distancia del eje de la línea y a la misma altura, siempre que los amarres estén a 5 m o menos y no haya otro conductor de ese vano casi igual de bien colocado. El cable de guarda solo sigue en otro cable de guarda. En un apoyo de ángulo se unen los vanos que giran hasta 100°; dos vanos que salen del apoyo hacia el mismo lado no se unen. En un apoyo de amarre, entre los dos amarres va una recta, que hace de puente. Donde la línea se divide, cada conductor sigue por el vano en que mejor encaja y los demás empiezan allí una polilínea nueva. Si a cada uno de dos vanos seguidos le falta una fase distinta, las dos fases que quedan sueltas no se unen.
 | Apoyo | APOYO | El pie de cada apoyo (un punto). |
 | Etiqueta | ETQAPO | El número y el modelo de cada apoyo (texto). |
 | Eje | EJELIN | El eje de cada vano, de pie a pie de apoyo. |
