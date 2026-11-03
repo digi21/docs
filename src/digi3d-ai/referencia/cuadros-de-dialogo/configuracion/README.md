@@ -122,12 +122,9 @@ Configura los parámetros relacionados con la comunicación y la interfaz de usu
 
 ### Comunicación con Internet
 
-Configura los parámetros que requieren comunicación con Internet, así como el servidor _PROXY_.
+Esta sección permite elegir cómo se conecta Digi3D.AI a Internet y configurar la comprobación de nuevas versiones, incluidas las versiones BETA.
 
-* **[Tipo de conexión](comunicacion-con-internet/tipo-de-conexion.md)** — Indica el tipo de conexión a Internet.
-* **[Dirección](comunicacion-con-internet/direccion.md)** — Dirección del servidor proxy.
-* **[Usuario](comunicacion-con-internet/usuario.md)** — Usuario del servidor proxy.
-* **[Contraseña](comunicacion-con-internet/contrasena.md)** — Contraseña del servidor proxy. Si vacías el campo y aceptas, se conserva la contraseña guardada anteriormente.
+* **[Tipo de conexión](comunicacion-con-internet/tipo-de-conexion.md)** — Indica si la conexión a Internet es directa o usa la configuración de proxy de Windows.
 * **[Comprobar versión nueva](comunicacion-con-internet/comprobar-version-nueva.md)** — Comprueba si existe una versión nueva cada vez que se inicia la aplicación.
 * **[Permitir instalar versiones BETA](comunicacion-con-internet/permitir-instalar-versiones-beta.md)** — Incluye las versiones BETA al comprobar si hay una versión nueva.
 

@@ -1,6 +1,6 @@
 # Comunicación con Internet
 <!-- id: comunicacion-con-internet -->
 
-Configura los parámetros que requieren comunicación con Internet, así como el servidor _PROXY_ en caso de disponer de uno.
+Esta sección permite elegir cómo se conecta Digi3D.AI a Internet y configurar la comprobación de nuevas versiones, incluidas las versiones BETA.
 
 Configura estas opciones desde el cuadro de diálogo de **[Configuración](../README.md)**.

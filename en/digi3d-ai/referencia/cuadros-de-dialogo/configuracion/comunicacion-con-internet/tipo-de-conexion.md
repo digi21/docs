@@ -2,15 +2,18 @@
 <!-- id: tipo-de-conexion -->
 <!-- origen: eb622d49c8c339b1a89fc9b9bbab3415b4c11368 -->
 
-Configures the Digi3D.AI Internet connection type. If the computer connects to the Internet through a _PROXY_ server, specify it here.
+Configures the Digi3D.AI Internet connection type: without a proxy, or with the Windows proxy settings.
 
 ## Possible values
 
 If not configured, the value is **Direct**.
 
-* **Direct**. The computer connects to the Internet directly, without a PROXY.
-* **Proxy with registry settings**. Uses the PROXY with the configuration stored in Windows.
-* **Proxy server**. Allows manual configuration of the proxy [address](direccion.md), [username](usuario.md), and [password](contrasena.md).
+* **Direct**. Digi3D.AI connects to the Internet directly, without using any proxy.
+* **Windows proxy settings**. Digi3D.AI connects to the Internet with the Windows proxy settings of the computer. If Windows has no proxy configured, the connection is direct.
+
+This setting is used by the connections of the Web Map Service (WMS) and Web Map Tile Service (WMTS) sensors and connectors, the OpenStreetMap (Slippy Map) importer, and the cadastre commands (open cadastre, go to cadastral reference, and label cadastral reference).
+
+A configuration saved with the **Proxy server** option in earlier versions uses the **Windows proxy settings** option. Digi3D.AI no longer stores a proxy address, username, or password: configure them in Windows.
 
 <details>
 <summary>Where it is stored</summary>

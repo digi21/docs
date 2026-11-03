@@ -92,7 +92,7 @@ Si un cambio no se puede aplicar, Digi3D.AI muestra el mensaje «No se ha podido
 
 En el PNOA (`https://www.ign.es/wms-inspire/pnoa-ma`), la ortofoto es la capa **Ortoimagen** (`OI.OrthoimageCoverage`). La capa **Mosaico** (`OI.MosaicElement`) muestra las huellas de los vuelos, no la ortofoto.
 
-La conexión usa el tipo de conexión a Internet de la configuración: directa, la del sistema o un proxy. Consulta [Tipo de conexión](../../cuadros-de-dialogo/configuracion/comunicacion-con-internet/tipo-de-conexion.md).
+La conexión usa el tipo de conexión a Internet de la configuración: directa o con la configuración de proxy de Windows. Consulta [Tipo de conexión](../../cuadros-de-dialogo/configuracion/comunicacion-con-internet/tipo-de-conexion.md).
 
 ## Teselas y caché
 

@@ -123,12 +123,9 @@ Configures parameters related to communication and the user interface.
 
 ### Internet communication
 
-Configures parameters that require Internet communication, as well as the _PROXY_ server.
+This section lets you choose how Digi3D.AI connects to the Internet and configure checks for new versions, including BETA versions.
 
-* **[Connection type](comunicacion-con-internet/tipo-de-conexion.md)** — Specifies the Internet connection type.
-* **[Address](comunicacion-con-internet/direccion.md)** — Proxy server address.
-* **[User](comunicacion-con-internet/usuario.md)** — Proxy server username.
-* **[Password](comunicacion-con-internet/contrasena.md)** — Proxy server password. If you clear the field and accept, the previously saved password is retained.
+* **[Connection type](comunicacion-con-internet/tipo-de-conexion.md)** — Specifies whether the Internet connection is direct or uses the Windows proxy settings.
 * **[Check for new version](comunicacion-con-internet/comprobar-version-nueva.md)** — Checks for a new version whenever the application starts.
 * **[Allow to install BETA versions](comunicacion-con-internet/permitir-instalar-versiones-beta.md)** — Includes BETA versions when checking for a new version.
 

@@ -93,7 +93,7 @@ If a change fails, "Unable to apply the change" appears with the reason, and the
 
 For PNOA (`https://www.ign.es/wms-inspire/pnoa-ma`), the orthophoto is **Ortoimagen** (`OI.OrthoimageCoverage`). **Mosaico** (`OI.MosaicElement`) displays flight footprints rather than the orthophoto.
 
-Connection uses configured Internet access: direct, system settings, or proxy. See [Connection type](../../cuadros-de-dialogo/configuracion/comunicacion-con-internet/tipo-de-conexion.md).
+Connection uses configured Internet access: direct or with the Windows proxy settings. See [Connection type](../../cuadros-de-dialogo/configuracion/comunicacion-con-internet/tipo-de-conexion.md).
 
 ## Tiles and cache
 
