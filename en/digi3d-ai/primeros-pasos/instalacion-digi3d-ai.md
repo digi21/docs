@@ -1,6 +1,6 @@
 # Installing Digi3D.AI
 <!-- id: instalacion-digi3d-ai -->
-<!-- origen: b05656fa60546b80f7cd9c264c414340504b08b0 -->
+<!-- origen: d02cde788a2db5654dffd189466f3338f619aad8 -->
 
 To install Digi3D.AI, simply [download the installer](https://www.digi21.net/Digi3D/Download) from our website.
 
@@ -15,4 +15,4 @@ Under **Other Digi21 applications**, the **Microsoft Store** button opens the st
 * **Reproject**: converts coordinates between reference systems.
 * **Lot Of Points Studio**: generates point cloud pyramid levels and uploads them to Azure.
 
-Once Digi3D.AI is installed, you need a license \(purchased, rented or trial\) to use it. See [About dongles](/acerca-llaves-proteccion/) for information on obtaining a license.
+Once Digi3D.AI is installed, you need a license \(purchased, rented or trial\) to use it. See [About dongles](/acerca-llaves-proteccion/) for information on obtaining a license. In the version of Digi3D.AI that uses Software licenses instead of the protection dongle, you activate the computer from the [Software licenses](../referencia/cuadros-de-dialogo/licencias-de-software.md) dialog.

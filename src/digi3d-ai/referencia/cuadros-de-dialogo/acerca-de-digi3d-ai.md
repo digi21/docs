@@ -17,6 +17,7 @@ Selecciona la opción del menú **Ayuda/Acerca de Digi3D...**.
   * **KeyID**: el número de la llave.
   * **Registrada a**, **Teléfono** y **Email**: los datos del cliente al que está registrada la llave.
   * **Equipo activado en esta llave hasta**: la fecha hasta la que este equipo está activado en la llave de protección. Es la fecha máxima que se eligió al activar el equipo. No aparece si el equipo no está activado en la llave.
+* En la versión de Digi3D.AI que usa Licencias de software en lugar de la llave de protección, consulta el estado de las licencias en el cuadro de diálogo [Licencias de software](licencias-de-software.md), que se abre con la opción **Ayuda/Licencias de software...**.
 * **Productos instalados**: el programa y cada una de las extensiones cargadas (órdenes, importadores y exportadores, sensores de la ventana fotogramétrica y dispositivos de entrada), con su nombre, su versión y su copyright. La versión indicada en algunas filas de **Productos instalados**, incluida *Estación fotogramétrica digital Digi3D.AI*, puede ser anterior a la **Versión del programa**.
 * **Software relacionado**: otros programas de Digi21. Cada enlace abre su página en el navegador:
   * **crskit en GitHub**: el repositorio de crskit, la biblioteca de sistemas de referencia de coordenadas que usa Digi3D.AI.

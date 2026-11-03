@@ -14,5 +14,5 @@ En **Otras aplicaciones de Digi21**, el botón **Microsoft Store** abre la pági
 * **Reproject**: convierte coordenadas entre sistemas de referencia.
 * **Lot Of Points Studio**: genera niveles piramidales de nubes de puntos y los envía a Azure.
 
-Una vez finalizada la instalación de Digi3D.AI, necesitas una licencia \(comprada, alquilada o de demostración\) para utilizar el programa. Consulta cómo obtener una licencia en [Acerca de las llaves de protección](/acerca-llaves-proteccion/).
+Una vez finalizada la instalación de Digi3D.AI, necesitas una licencia \(comprada, alquilada o de demostración\) para utilizar el programa. Consulta cómo obtener una licencia en [Acerca de las llaves de protección](/acerca-llaves-proteccion/). En la versión de Digi3D.AI que usa Licencias de software en lugar de la llave de protección, el equipo se activa desde el cuadro de diálogo [Licencias de software](../referencia/cuadros-de-dialogo/licencias-de-software.md).
 

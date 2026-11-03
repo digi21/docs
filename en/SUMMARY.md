@@ -957,6 +957,7 @@
       * [Code display](digi3d-ai/referencia/paneles/visualizacion-de-codigos.md)
     * [Dialogs](digi3d-ai/referencia/cuadros-de-dialogo/README.md)
       * [About Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/acerca-de-digi3d-ai.md)
+      * [Software licenses](digi3d-ai/referencia/cuadros-de-dialogo/licencias-de-software.md)
       * [Control point file](digi3d-ai/referencia/cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md)
       * [Invalid database attributes](digi3d-ai/referencia/cuadros-de-dialogo/atributos-de-base-de-datos-no-validos.md)
       * [User toolbars](digi3d-ai/referencia/cuadros-de-dialogo/barras-de-herramientas-de-usuario.md)

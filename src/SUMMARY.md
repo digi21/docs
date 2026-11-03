@@ -956,6 +956,7 @@
       * [Visualización de códigos](digi3d-ai/referencia/paneles/visualizacion-de-codigos.md)
     * [Cuadros de diálogo](digi3d-ai/referencia/cuadros-de-dialogo/README.md)
       * [Acerca de Digi3D.AI](digi3d-ai/referencia/cuadros-de-dialogo/acerca-de-digi3d-ai.md)
+      * [Licencias de software](digi3d-ai/referencia/cuadros-de-dialogo/licencias-de-software.md)
       * [Archivo de puntos de apoyo](digi3d-ai/referencia/cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md)
       * [Atributos de base de datos no válidos](digi3d-ai/referencia/cuadros-de-dialogo/atributos-de-base-de-datos-no-validos.md)
       * [Barras de herramientas de usuario](digi3d-ai/referencia/cuadros-de-dialogo/barras-de-herramientas-de-usuario.md)
