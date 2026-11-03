@@ -1,6 +1,6 @@
 # Internet communication
 <!-- id: comunicacion-con-internet -->
-<!-- origen: 98b55b2d9d54e957f38c86aef1d040cdd25efa60 -->
+<!-- origen: 9d243649596081829cf1956a0ac884af1fbec0fa -->
 
 This section lets you choose how Digi3D.AI connects to the Internet and configure checks for new versions, including BETA versions.
 

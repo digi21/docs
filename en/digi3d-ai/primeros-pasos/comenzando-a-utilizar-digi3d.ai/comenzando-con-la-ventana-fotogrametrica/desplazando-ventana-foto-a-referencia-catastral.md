@@ -1,6 +1,6 @@
 # Moving the photogrammetric window to a cadastral reference
 <!-- id: desplazando-ventana-foto-a-referencia-catastral -->
-<!-- origen: b262b74681cab0a934b46e404f67f70fa86a5da7 -->
+<!-- origen: 3f4a41be44b34d20d04372bf40bf044aaed02f86 -->
 
 You can move the photogrammetric window to the centroid of a parcel in Spain's Cadastre using its cadastral reference. Digi3D.AI queries the Cadastre web service for the centroid's coordinates, so an Internet connection is required.
 

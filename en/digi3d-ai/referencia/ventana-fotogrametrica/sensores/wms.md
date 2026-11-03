@@ -1,6 +1,6 @@
 # Web Map Service
 <!-- id: sensor-wms -->
-<!-- origen: 8b5cb222d08a4b9e1a4fb2e3594a74f17b716823 -->
+<!-- origen: b4a48b2d7b2631ab3a0918cb1855a2a3a0a0fe08 -->
 
 The Web Map Service sensor displays a WMS (*Web Map Service*) server layer in the photogrammetric window, such as the PNOA orthophoto. The model has one image and no stereoscopy. Digi3D.AI requests tiles for the visible area as you move through it.
 

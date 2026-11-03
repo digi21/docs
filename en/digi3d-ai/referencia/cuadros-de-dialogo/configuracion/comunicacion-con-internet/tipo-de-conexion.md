@@ -1,6 +1,6 @@
 # Connection type
 <!-- id: tipo-de-conexion -->
-<!-- origen: eb622d49c8c339b1a89fc9b9bbab3415b4c11368 -->
+<!-- origen: e325ac6a5f1a9597d8103e15a41bdbc4f37e7d71 -->
 
 Configures the Digi3D.AI Internet connection type: without a proxy, or with the Windows proxy settings.
 

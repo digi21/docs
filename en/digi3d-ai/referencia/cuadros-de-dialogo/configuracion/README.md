@@ -1,6 +1,6 @@
 # Configuration
 <!-- id: configuracion -->
-<!-- origen: bcc68adc0e126fa2260449529a75c33d0705e7b7 -->
+<!-- origen: 1e7fff9233a91f7fad0f2370809c9f977cebf144 -->
 
 ![Configuration dialog](../../../../images/configuracion.png)
 
