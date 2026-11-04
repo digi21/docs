@@ -1,6 +1,6 @@
 # AI assistant
 <!-- id: asistente-ia -->
-<!-- origen: c48d75d1f377e5cbcf656b6f33c93c07fbba9921 -->
+<!-- origen: fda4174df16835c8854b2e11c815b9167e30f09e -->
 
 ![AI chat pane with a query about the most frequent codes](../../../images/panel-chat-ia.png)
 
@@ -49,6 +49,48 @@ Provider instructions:
 - **Other...**, to enter a model identifier absent from the list manually.
 
 Digi3D.AI remembers the model selected for each provider.
+
+## Attaching files
+
+Attach files to a message so that the model analyzes images, PDF documents or text files:
+
+1. Click the paperclip button (📎, **Attach files**), to the left of the text box. The file selection dialog opens.
+2. Select one or more files and click **Open**. Each file appears as a label above the text box, with its name and, for an image, a thumbnail.
+3. Click **×** on a file's label to remove the file before sending the message.
+4. Type the message and click **Send**. You can also send the files without typing any text.
+
+In the conversation, your message shows the name of each attached file and the thumbnail of each image.
+
+If Digi3D.AI cannot obtain the path of one of the files, the conversation shows the notice "The file path of one or more attachments could not be obtained." If the message has text, Digi3D.AI sends the message text with the paths it obtained. If the message has no text and Digi3D.AI obtained no path, nothing is sent to the model and nothing is added to the assistant's conversation: attach the files again.
+
+For each file, the model receives a line with the file's **full path**. With that path, the assistant can open the file with the Digi3D.AI libraries, for example a drawing file with `digi21.io`. In addition to the path, the model receives the file's content according to its type:
+
+| File type | Content the model receives in addition to the path |
+| --- | --- |
+| PNG, JPEG, GIF or WebP image | The image. |
+| PDF | The document. |
+| UTF-8 text file with a text extension: `.txt`, `.csv`, `.tsv`, `.json`, `.geojson`, `.xml`, `.gml`, `.kml`, `.md`, `.py`, `.log`, `.ini`, `.cfg`, `.conf`, `.yaml`, `.yml`, `.toml`, `.html`, `.htm`, `.sql`, `.prj`, `.wkt`, `.js`, `.cs`, `.c`, `.cpp`, `.h`, `.hpp`, `.bat`, `.cmd`, `.ps1` or `.sh` | The text of the file, preceded by its name, if the file is 100,000 bytes or smaller. |
+| Any other file | Nothing. |
+
+Digi3D.AI recognizes images and PDF files by their content, not by their extension. For a text file that is not UTF-8 encoded, the model receives only the path.
+
+### Limits
+
+If an image, a PDF or a text file exceeds the limit for its type, the model receives only the file path and the conversation shows a notice. Digi3D.AI sets the limit for text files. The limits for images and PDF files are those that Anthropic publishes for Claude and those that OpenAI publishes for the other providers, which use the OpenAI API format. OpenAI does not publish a maximum size per image, so Digi3D.AI applies the PDF limit to images:
+
+| Provider | Images | PDF |
+| --- | --- | --- |
+| Claude | At most 7,500,000 bytes (10,000,000 bytes base64-encoded) and 8000 pixels wide and high. | At most 96,000,000 bytes (128,000,000 bytes base64-encoded, the maximum request size). |
+| OpenAI, Azure OpenAI, Kimi, OpenRouter, LM Studio, Ollama and OpenAI-compatible | Less than 50,000,000 bytes. | Less than 50,000,000 bytes. |
+
+The provider also limits the complete request, which includes every file in the conversation:
+
+- Claude accepts at most 128 MB per request and 100 PDF pages (600 for models with a one-million-token context). In a request with more than 20 images, each image must be at most 3000 pixels wide and high.
+- OpenAI accepts at most 50 MB across all the files in a request.
+
+If the request exceeds a provider limit, or the model does not accept images or PDF files, the conversation shows the provider's error. The file types a model accepts depend on the model and the provider. The assistant keeps messages with images or PDF files in the conversation even if the request fails. When a request fails and the conversation contains images or PDF files, Digi3D.AI shows, after the error, the notice "The conversation contains images or PDF files. Images and PDF files remain in the conversation history and are sent again with subsequent requests. If a request failed because of those attachments or the provider's request size limit, click "New conversation" to start a new conversation without those attachments." Click **＋** (**New conversation**) in the header and send the message with another model or without the files the provider rejects.
+
+Attached files are part of the conversation: Digi3D.AI sends them again in each request to the provider until you start a new conversation. The provider counts the tokens of the attached content it receives in each request and bills those tokens if the provider charges for usage.
 
 ## Example requests
 
@@ -126,7 +168,7 @@ Undo the assistant's drawing changes with **UNDO**, like any other change. Each 
 ## Things to consider
 
 - **AI can make mistakes.** Review results, especially after important operations.
-- **Privacy.** With a cloud provider, conversation text and drawing data queried by the assistant (codes, coordinates, texts) are sent to that provider. With LM Studio or Ollama, all data stays on your computer or network.
+- **Privacy.** With a cloud provider, conversation text, the content of attached files and drawing data queried by the assistant (codes, coordinates, texts) are sent to that provider. With LM Studio or Ollama, all data stays on your computer or network.
 - **Cost.** Cloud providers charge the API key holder for usage. Local servers have no usage charges but require a computer with a suitable graphics card.
 - **Connection.** Cloud providers require internet access. If the provider is overloaded or the account exceeds its usage limit, Digi3D.AI retries up to 3 times before showing the error.
 - **Restricted Python environment.** The assistant can use only Digi3D.AI libraries and part of the Python standard library, without operating system modules such as `os` or `subprocess`. Additional packages cannot be installed.

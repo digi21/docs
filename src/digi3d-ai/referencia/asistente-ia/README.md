@@ -76,6 +76,73 @@ El desplegable **Modelo** muestra:
 
 Digi3D.AI recuerda el modelo elegido para cada proveedor.
 
+## Adjuntar archivos
+
+Adjunta archivos a un mensaje para que el modelo analice imágenes, documentos PDF o archivos de texto:
+
+1. Pulsa el botón del clip (📎, **Adjuntar archivos**), a la izquierda del cuadro de texto. Se abre el cuadro de selección de archivos.
+2. Selecciona uno o varios archivos y pulsa **Abrir**. Cada archivo aparece como una etiqueta encima del
+   cuadro de texto, con su nombre y, si es una imagen, una miniatura.
+3. Pulsa **×** en la etiqueta del archivo que quieras quitar antes de enviar el mensaje.
+4. Escribe el mensaje y pulsa **Enviar**. También puedes enviar los archivos sin escribir texto.
+
+En la conversación, tu mensaje muestra el nombre de cada archivo adjunto y la miniatura de cada imagen.
+
+Si Digi3D.AI no consigue obtener la ruta de alguno de los archivos, la conversación muestra el aviso
+«No se ha podido obtener la ruta de uno o más archivos adjuntos.». Si el mensaje tiene texto, Digi3D.AI
+envía el texto del mensaje con las rutas que ha obtenido. Si el mensaje no tiene texto y Digi3D.AI no ha obtenido ninguna
+ruta, no se envía nada al modelo ni se añade nada a la conversación del asistente: adjunta los archivos
+de nuevo.
+
+Por cada archivo, el modelo recibe una línea con la **ruta completa** del archivo. Con esa ruta, el
+asistente puede abrir el archivo con las bibliotecas de Digi3D.AI, por ejemplo un archivo de dibujo con
+`digi21.io`. Además de la ruta, el modelo recibe el contenido del archivo según su tipo:
+
+| Tipo de archivo | Contenido que recibe el modelo además de la ruta |
+|---|---|
+| Imagen PNG, JPEG, GIF o WebP | La imagen. |
+| PDF | El documento. |
+| Archivo de texto codificado en UTF-8 con una extensión de texto: `.txt`, `.csv`, `.tsv`, `.json`, `.geojson`, `.xml`, `.gml`, `.kml`, `.md`, `.py`, `.log`, `.ini`, `.cfg`, `.conf`, `.yaml`, `.yml`, `.toml`, `.html`, `.htm`, `.sql`, `.prj`, `.wkt`, `.js`, `.cs`, `.c`, `.cpp`, `.h`, `.hpp`, `.bat`, `.cmd`, `.ps1` o `.sh` | El texto del archivo, precedido de su nombre, si el archivo ocupa como máximo 100.000 bytes. |
+| Cualquier otro archivo | Nada. |
+
+Digi3D.AI reconoce las imágenes y los PDF por su contenido, no por la extensión. De un archivo de texto
+que no está codificado en UTF-8, el modelo recibe solo la ruta.
+
+### Límites
+
+Si una imagen, un PDF o un archivo de texto supera el límite de su tipo, el modelo recibe solo la ruta
+del archivo y la conversación muestra un aviso. El límite de los archivos de texto lo fija Digi3D.AI. Los
+límites de las imágenes y de los PDF son los que publica Anthropic para Claude y los que publica OpenAI
+para los demás proveedores, que usan el formato de la API de OpenAI. OpenAI no publica un tamaño máximo
+por imagen, así que Digi3D.AI aplica a las imágenes el límite de los PDF:
+
+| Proveedor | Imágenes | PDF |
+|---|---|---|
+| Claude | Como máximo 7.500.000 bytes (10.000.000 bytes codificados en base64) y 8000 píxeles de ancho y de alto. | Como máximo 96.000.000 bytes (128.000.000 bytes codificados en base64, el tamaño máximo de una petición). |
+| OpenAI, Azure OpenAI, Kimi, OpenRouter, LM Studio, Ollama y OpenAI-compatible | Menos de 50.000.000 bytes. | Menos de 50.000.000 bytes. |
+
+El proveedor aplica además límites a la petición completa, que incluye todos los archivos de la
+conversación:
+
+- Claude admite como máximo 128 MB por petición y 100 páginas de PDF (600 en los modelos con un contexto
+  de un millón de tokens). En una petición con más de 20 imágenes, cada imagen debe medir como máximo
+  3000 píxeles de ancho y de alto.
+- OpenAI admite como máximo 50 MB entre todos los archivos de una petición.
+
+Si la petición supera un límite del proveedor, o si el modelo no admite imágenes o PDF, la conversación
+muestra el error del proveedor. Qué tipos de archivo admite un modelo depende del modelo y del proveedor.
+El asistente conserva en la conversación los mensajes con imágenes o PDF aunque la petición falle. Cuando
+una petición falla y la conversación contiene imágenes o PDF, Digi3D.AI muestra después del error el
+aviso «La conversación contiene imágenes o PDF. Las imágenes y los PDF permanecen en el historial y se
+reenvían en las peticiones posteriores. Si una petición ha fallado por esos adjuntos o por superar el tamaño
+máximo de petición del proveedor, pulsa «Nueva conversación» para iniciar una conversación nueva sin esos
+adjuntos.». Pulsa **＋** (**Nueva conversación**) en la cabecera y envía el mensaje con otro modelo o
+sin los archivos que rechaza el proveedor.
+
+Los archivos adjuntos forman parte de la conversación: Digi3D.AI los envía de nuevo en cada petición
+al proveedor hasta que empiezas una conversación nueva. El proveedor contabiliza en cada petición los tokens del
+contenido adjunto que recibe y factura esos tokens si cobra por uso.
+
 ## Ejemplos de peticiones
 
 Los ejemplos van de menos a más difíciles. Sirven también para comprobar que un proveedor o un modelo
@@ -177,8 +244,9 @@ operaciones.
 ## A tener en cuenta
 
 - **La IA puede equivocarse.** Revisa el resultado, sobre todo después de operaciones importantes.
-- **Privacidad.** Con un proveedor en la nube, el texto de la conversación y los datos del dibujo que
-  consulta el asistente (códigos, coordenadas, textos) se envían a ese proveedor. Con LM Studio u Ollama,
+- **Privacidad.** Con un proveedor en la nube, el texto de la conversación, el contenido de los archivos
+  adjuntos y los datos del dibujo que consulta el asistente (códigos, coordenadas, textos) se envían a ese
+  proveedor. Con LM Studio u Ollama,
   todos los datos se quedan en tu equipo o en tu red.
 - **Coste.** Los proveedores en la nube cobran por uso a quien contrata la API key. Los servidores
   locales no tienen coste de uso, pero necesitan un equipo con una tarjeta gráfica adecuada.
