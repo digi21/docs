@@ -1,6 +1,6 @@
 # Software licenses
 <!-- id: licencias-de-software -->
-<!-- origen: 1bf783dc343276d29a64eeeeaa948209f4758221 -->
+<!-- origen: 82a27cf29e992b23dcb708e9a1ce35dcdabbbe12 -->
 
 <!-- captura pendiente: licencias-de-software.png -->
 
@@ -53,12 +53,14 @@ If the user code expires before you approve the registration, the dialog says so
 
 ## Usage authorization and offline work
 
-The usage authorization lets you work without an Internet connection until the date shown in the line "This computer must connect to the licensing server before...". When a connection is available, Digi3D.AI renews the authorization automatically. If that date passes without the computer connecting, the status changes to indicate that the authorization has expired, and you must connect to the Internet and click **Renew the usage authorization**.
+The usage authorization lets you work without an Internet connection until the date shown in the line "This computer must connect to the licensing server before...". When less than a third of the authorization period remains and a connection is available, Digi3D.AI renews the authorization automatically. If that date passes without the computer connecting, the status changes to indicate that the authorization has expired, and you must connect to the Internet and click **Renew the usage authorization**.
+
+When Digi3D.AI renews the usage authorization, the authorization includes the modules added to the computer's license. To update the usage authorization without waiting for the automatic renewal, click **Renew the usage authorization**. If the added module is `digi3d.fotogrametria`, restart Digi3D.AI after renewing the authorization: Digi3D.AI loads the photogrammetric extensions when it starts.
 
 ## Digi3D.AI modules
 
 * `digi3d.edicion`: allows you to run Digi3D.AI.
-* `digi3d.fotogrametria`: allows you to use the photogrammetric window. Without this module, Digi3D.AI warns that the computer has no photogrammetry license and loads only the Digi3D.Orthophoto and Digi3D.CommonCommands extensions, so the photogrammetric window can open only orthophoto models.
+* `digi3d.fotogrametria`: allows you to use the photogrammetric window. Without this module, Digi3D.AI loads only the Digi3D.Orthophoto and Digi3D.CommonCommands extensions, so the photogrammetric window can open only orthophoto models. If the computer's license does not include `digi3d.fotogrametria`, Digi3D.AI displays a missing-license warning when you try to open a model of a sensor other than the orthophoto or run a command from a photogrammetric extension.
 
 ## Limitations of this version
 

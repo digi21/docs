@@ -9,7 +9,7 @@ Este cuadro de diálogo crea o modifica un archivo de proyecto fotogramétrico (
 
 Pulsa el botón de nuevo proyecto de la barra de herramientas del panel [Proyecto fotogramétrico](../paneles/proyecto-fotogrametrico.md).
 
-El cuadro de diálogo requiere el módulo de fotogrametría en la licencia. Si la llave de protección no lo incluye, Digi3D.AI muestra un mensaje y no abre el cuadro de diálogo.
+El cuadro de diálogo requiere el módulo de fotogrametría en la licencia. Si la licencia del equipo no incluye el módulo de fotogrametría, Digi3D.AI muestra un mensaje y no abre el cuadro de diálogo.
 
 ## Campos
 

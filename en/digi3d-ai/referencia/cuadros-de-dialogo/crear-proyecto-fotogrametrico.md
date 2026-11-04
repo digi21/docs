@@ -1,6 +1,6 @@
 # Create photogrammetric project
 <!-- id: crear-proyecto-fotogrametrico -->
-<!-- origen: f64096a7b2d4e194738ddeb86a50fef53bc9a29e -->
+<!-- origen: 4d23aab9979d17f1296fb09db3205eb1e82441d3 -->
 
 ![Fast model change project file dialog](../../../images/crear-proyecto-fotogrametrico.png)
 
@@ -10,7 +10,7 @@ This dialog creates or edits a photogrammetric project file (`.d3dprj`). The fil
 
 Click the new project button on the [Photogrammetric project](../paneles/proyecto-fotogrametrico.md) pane toolbar.
 
-The dialog requires the photogrammetry license module. If the dongle does not include it, Digi3D.AI displays a message and does not open the dialog.
+The dialog requires the photogrammetry license module. If the computer's license does not include the photogrammetry module, Digi3D.AI displays a message and does not open the dialog.
 
 ## Fields
 

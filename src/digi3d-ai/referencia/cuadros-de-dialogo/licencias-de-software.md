@@ -51,12 +51,14 @@ Si el código de usuario caduca antes de que apruebes el registro, el cuadro de 
 
 ## Autorización de uso y trabajo sin conexión
 
-La autorización de uso permite trabajar sin conexión a Internet hasta la fecha que muestra el cuadro de diálogo en la línea «El equipo tiene que conectarse con el servidor de licencias antes del…». Cuando hay conexión, Digi3D.AI renueva la autorización automáticamente. Si la fecha pasa sin que el equipo se haya conectado, el estado cambia a que la autorización ha caducado y debes conectarte a Internet y pulsar **Renovar la autorización de uso**.
+La autorización de uso permite trabajar sin conexión a Internet hasta la fecha que muestra el cuadro de diálogo en la línea «El equipo tiene que conectarse con el servidor de licencias antes del…». Cuando queda menos de un tercio del plazo de la autorización y hay conexión, Digi3D.AI la renueva automáticamente. Si la fecha pasa sin que el equipo se haya conectado, el estado cambia a que la autorización ha caducado y debes conectarte a Internet y pulsar **Renovar la autorización de uso**.
+
+Cuando Digi3D.AI renueva la autorización de uso, la autorización incluye los módulos añadidos a una licencia del equipo. Para actualizar la autorización de uso sin esperar a la renovación automática, pulsa **Renovar la autorización de uso**. Si el módulo añadido es `digi3d.fotogrametria`, reinicia Digi3D.AI después de renovar la autorización: Digi3D.AI carga las extensiones fotogramétricas al iniciarse.
 
 ## Módulos de Digi3D.AI
 
 * `digi3d.edicion`: permite ejecutar Digi3D.AI.
-* `digi3d.fotogrametria`: permite usar la ventana fotogramétrica. Sin este módulo, Digi3D.AI avisa de que el equipo no tiene licencia de fotogrametría y solo carga las extensiones Digi3D.Orthophoto y Digi3D.CommonCommands, de modo que la ventana fotogramétrica solo puede abrir modelos de ortofoto.
+* `digi3d.fotogrametria`: permite usar la ventana fotogramétrica. Sin este módulo, Digi3D.AI solo carga las extensiones Digi3D.Orthophoto y Digi3D.CommonCommands, de modo que la ventana fotogramétrica solo puede abrir modelos de ortofoto. Si la licencia del equipo no incluye `digi3d.fotogrametria`, Digi3D.AI muestra un aviso de falta de licencia cuando intentas abrir un modelo de un sensor distinto de la ortofoto o ejecutar una orden de una extensión fotogramétrica.
 
 ## Limitaciones de esta versión
 
