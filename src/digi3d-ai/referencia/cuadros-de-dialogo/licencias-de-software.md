@@ -9,7 +9,7 @@ Este cuadro de diálogo muestra el estado de las licencias de software del equip
 
 El cuadro de diálogo aparece en dos casos:
 
-* Al iniciar Digi3D.AI, si el equipo no tiene licencia de digitalización. Digi3D.AI no continúa hasta que el equipo tenga esa licencia o pulses **Salir**.
+* Al iniciar Digi3D.AI, si el equipo no tiene licencia de edición. Digi3D.AI no continúa el inicio hasta que el equipo tenga licencia de edición o pulses **Salir**.
 * Al seleccionar la opción del menú **Ayuda/Licencias de software...**. En este caso el cuadro de diálogo tiene un único botón, **Cerrar**.
 
 ## Información que muestra
@@ -17,7 +17,7 @@ El cuadro de diálogo aparece en dos casos:
 En la parte superior, el cuadro de diálogo muestra estas líneas de texto, sin etiqueta:
 
 * **Estado** de las licencias del equipo, por ejemplo «Este equipo tiene una autorización de uso válida» o «Este equipo no está registrado». Si la autorización ha caducado o hace falta sincronizar la hora, el texto indica que debes conectarte a Internet y pulsar **Renovar la autorización de uso**.
-* Si alguna de las licencias del equipo permite ejecutar esta versión de Digi3D.AI (licencia de digitalización).
+* Si alguna de las licencias del equipo permite ejecutar esta versión de Digi3D.AI (licencia de edición).
 * Dónde está guardada la clave criptográfica del equipo, que lo identifica ante el servidor de licencias: protegida por el módulo de plataforma segura (TPM) o almacenada en el proveedor de claves de software de Windows. Si Windows no puede abrir ni crear la clave, el cuadro de diálogo lo indica y no permite activar el equipo.
 * La fecha y la hora antes de las cuales el equipo tiene que conectarse con el servidor de licencias («El equipo tiene que conectarse con el servidor de licencias antes del…»). Solo aparece cuando el equipo tiene una autorización de uso válida.
 * El resultado de la última operación (por ejemplo, que el servidor ha concedido la autorización o que la petición ha fallado) o el progreso de la operación en curso.
@@ -45,7 +45,7 @@ Si el código de usuario caduca antes de que apruebes el registro, el cuadro de 
 * **Cancelar el registro**: interrumpe la espera de la aprobación. Solo está habilitado mientras hay un registro en curso.
 * **Renovar la autorización de uso**: pide al servidor una autorización de uso nueva. El botón de renovación está habilitado cuando el equipo tiene una autorización válida, cuando la autorización ha caducado o cuando hace falta sincronizar la hora del equipo, y está deshabilitado mientras hay otra operación en curso.
 * **Mis licencias de software**: abre en el navegador la página de digi21.net con las licencias de software de tu cuenta.
-* **Continuar**: cierra el cuadro de diálogo que aparece al iniciar Digi3D.AI y continúa el inicio. El botón **Continuar** está habilitado solo cuando el equipo tiene licencia de digitalización.
+* **Continuar**: cierra el cuadro de diálogo que aparece al iniciar Digi3D.AI y continúa el inicio. El botón **Continuar** está habilitado solo cuando el equipo tiene licencia de edición.
 * **Salir**: cierra el cuadro de diálogo y Digi3D.AI no se inicia. Solo aparece al iniciar Digi3D.AI.
 * **Cerrar**: cierra el cuadro de diálogo abierto desde el menú **Ayuda**.
 
@@ -55,7 +55,7 @@ La autorización de uso permite trabajar sin conexión a Internet hasta la fecha
 
 ## Módulos de Digi3D.AI
 
-* `digi3d.digitalizacion`: permite ejecutar Digi3D.AI.
+* `digi3d.edicion`: permite ejecutar Digi3D.AI.
 * `digi3d.fotogrametria`: permite usar la ventana fotogramétrica. Sin este módulo, Digi3D.AI avisa de que el equipo no tiene licencia de fotogrametría y solo carga las extensiones Digi3D.Orthophoto y Digi3D.CommonCommands, de modo que la ventana fotogramétrica solo puede abrir modelos de ortofoto.
 * `digi3d.stereodtm`: habilita las órdenes `dibuja_buffer`, `vaguada_buffer`, `guardar_dem`, `proyecta_dem`, `proyecta_linea_sobre_dem` y `mover_z_dem`.
 

@@ -1,6 +1,6 @@
 # Software licenses
 <!-- id: licencias-de-software -->
-<!-- origen: 0afb208c46761a91508d78a3f8be3e56db6e7df2 -->
+<!-- origen: bf3bb021910ad8423e5b2881ee5bd22b9b367e7e -->
 
 <!-- captura pendiente: licencias-de-software.png -->
 
@@ -10,7 +10,7 @@ This dialog shows the status of the software licenses of the computer. The dialo
 
 The dialog appears in two cases:
 
-* When Digi3D.AI starts and the computer has no digitizing license. Digi3D.AI does not continue until the computer has that license or you click **Exit**.
+* When Digi3D.AI starts and the computer has no editing license. Digi3D.AI does not continue startup until the computer has an editing license or you click **Exit**.
 * When you select **Help/Software licenses...**. In this case the dialog has a single button, **Close**.
 
 ## Information shown
@@ -18,7 +18,7 @@ The dialog appears in two cases:
 At the top, the dialog shows these lines of text, without a label:
 
 * The **status** of the licenses of the computer, for example "This computer has a valid usage authorization" or "This computer is not registered". If the authorization has expired or the time must be synchronized, the text tells you to connect to the Internet and click **Renew the usage authorization**.
-* Whether any of the licenses of the computer allows you to run this version of Digi3D.AI (digitizing license).
+* Whether any of the licenses of the computer allows you to run this version of Digi3D.AI (editing license).
 * Where the cryptographic key of the computer is stored. The key identifies the computer to the licensing server. The computer's cryptographic key is protected by the Trusted Platform Module (TPM) or stored in the Windows software key provider. If Windows cannot open or create the key, the dialog says so and does not allow you to activate the computer.
 * The date and time before which the computer must connect to the licensing server ("This computer must connect to the licensing server before..."). The connection deadline appears only when the computer has a valid usage authorization.
 * The result of the last operation (for example, that the server granted the authorization or that the request failed) or the progress of the operation in progress.
@@ -47,7 +47,7 @@ If the user code expires before you approve the registration, the dialog says so
 * **Cancel the registration**: stops waiting for the approval. The **Cancel the registration** button is enabled only while a computer registration is in progress.
 * **Renew the usage authorization**: requests a new usage authorization from the server. The renewal button is enabled when the computer has a valid authorization, when the authorization has expired or when the computer's time must be synchronized. The renewal button is disabled while another operation is in progress.
 * **My software licenses**: opens in the web browser the digi21.net page with the software licenses of your account.
-* **Continue**: closes the dialog that appears when Digi3D.AI starts and continues the startup. The **Continue** button is enabled only when the computer has a digitizing license.
+* **Continue**: closes the dialog that appears when Digi3D.AI starts and continues the startup. The **Continue** button is enabled only when the computer has an editing license.
 * **Exit**: closes the dialog and Digi3D.AI does not start. The **Exit** button appears only during Digi3D.AI startup.
 * **Close**: closes the dialog opened from the **Help** menu.
 
@@ -57,7 +57,7 @@ The usage authorization lets you work without an Internet connection until the d
 
 ## Digi3D.AI modules
 
-* `digi3d.digitalizacion`: allows you to run Digi3D.AI.
+* `digi3d.edicion`: allows you to run Digi3D.AI.
 * `digi3d.fotogrametria`: allows you to use the photogrammetric window. Without this module, Digi3D.AI warns that the computer has no photogrammetry license and loads only the Digi3D.Orthophoto and Digi3D.CommonCommands extensions, so the photogrammetric window can open only orthophoto models.
 * `digi3d.stereodtm`: enables the commands `dibuja_buffer`, `vaguada_buffer`, `guardar_dem`, `proyecta_dem`, `proyecta_linea_sobre_dem` and `mover_z_dem`.
 
