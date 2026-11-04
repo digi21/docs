@@ -22,6 +22,7 @@ Los archivos se escriben en la carpeta elegida o, si no se elige ninguna, junto 
 |---|---|
 | `<nombre>_informe.html` | La página del informe: resumen, parámetros y normativa, plano y tablas. Se abre en el navegador al terminar. |
 | `<nombre>_informe_lineas.csv`, `_vanos.csv`, `_conductores.csv`, `_apoyos.csv`, `_arboles.csv`, `_edificios.csv` | Las tablas del informe, con `;` como separador y punto decimal. |
+| `<nombre>_informe_tipos_apoyo.csv` | Los tipos de apoyo del informe, como un [archivo de tipos de apoyo](lineas-electricas.md#el-archivo-de-tipos-de-apoyo): se pueden cambiar sus nombres y usarlo en Líneas eléctricas y en el informe. |
 | `<nombre>_distancias.tif` | GeoTIFF con la distancia de la vegetación al conductor más cercano en cada celda. Las celdas sin vegetación quedan sin dato. |
 | `<nombre>_riesgo.tif`, con su `.ORT` y su `.TFW` | El riesgo por colores: rojo, invade la distancia reglamentaria; naranja, riesgo alto; amarillo, medio; verde, bajo. Se puede cargar en MDTopX como ortofoto. |
 
@@ -40,14 +41,14 @@ El documento lleva también el modelo de la línea calculado de nuevo, con los e
 
 ### La ventana de resultados
 
-Al terminar, la ventana de resultados muestra: «Informe de líneas eléctricas: *l* líneas, *a* apoyos, *v* vanos, *n* árboles (*i* invaden la distancia reglamentaria, *h* de riesgo alto y *m* de riesgo medio) y *e* edificios en la franja sin edificios. Página: *ruta de la página*». Si no se ha podido escribir algún archivo, también lo indica.
+Al terminar, la ventana de resultados muestra: «Informe de líneas eléctricas: *l* líneas, *a* apoyos, *v* vanos, *n* árboles (*i* invaden la distancia reglamentaria, *h* de riesgo alto y *m* de riesgo medio) y *e* edificios en la franja sin edificios. Página: *ruta de la página*». Si no se ha podido escribir algún archivo, también lo indica. Con un archivo de tipos, también: «Tipos de apoyo de *archivo*: *x* del archivo con apoyos y *y* nuevos (apoyos que no se parecen a ninguno).»
 
 ### La página del informe
 
 * **Resumen**:
     * **Líneas**: los grupos de apoyos unidos por vanos. Una derivación es de la misma línea; dos líneas que se cruzan sin compartir apoyo son dos.
     * **Apoyos (celosía / poste / sin estructura)**: los apoyos sin estructura son los que salen como «sin apoyo» en las etiquetas.
-    * **Modelos de apoyo distintos**.
+    * **Tipos de apoyo**: los que tienen algún apoyo.
     * **Vanos / conductores**: los conductores, contados vano a vano.
     * **Conductores bajo la distancia al terreno**: los conductores de vano cuya altura mínima sobre el suelo es menor que la distancia reglamentaria al terreno. Salen en rojo en la tabla de conductores.
     * **Árboles (invaden / riesgo alto / medio / bajo)**.
@@ -60,11 +61,17 @@ Al terminar, la ventana de resultados muestra: «Informe de líneas eléctricas:
 * **Apoyos**, **Vanos** y **Conductores**: las tablas de los archivos CSV, con las columnas principales.
 * **Árboles que invaden o con riesgo alto o medio**: de más cerca a más lejos del conductor, hasta 1000. Todos los árboles están en el CSV de árboles.
 * **Edificios en la franja sin edificios**.
+* **Tipos de apoyo**: la relación de los tipos de los apoyos con estructura, con su estructura, cuántos apoyos tiene cada uno, las alturas del más bajo y del más alto y cuáles son. Con un archivo de tipos, los que no están en él se marcan como nuevos, y debajo se nombran los del archivo que no tienen ningún apoyo. Después, de cada tipo, un apoyo dibujado, el que tiene más puntos de torre en la nube, con sus medidas y tres vistas:
+    * **Planta**: la línea va de izquierda a derecha.
+    * **Alzado transversal**: visto a lo largo de la línea, con las crucetas de lado a lado.
+    * **Alzado longitudinal**: visto de lado.
+
+    En gris, los puntos de torre de la nube, más oscuros cuantos más puntos hay; en azul, el cuerpo ajustado: el tronco y, a trazos, la caja de la cabeza; en rojo, los amarres de los conductores, y en verde, los del cable de guarda. La cuadrícula es de 5 m. Todas las torres de celosía están a la misma escala, y todos los postes a otra. Sirven para ver qué tipos son el mismo y juntarlos en el [archivo de tipos de apoyo](lineas-electricas.md#el-archivo-de-tipos-de-apoyo).
 
 ## Medidas
 
 * **Por vano y conductor**: largo en planta, cuerda entre amarres, pendiente, flecha y punto más bajo, parámetro de la catenaria, alturas mínima y máxima sobre el suelo, separación entre fases y con el cable de guarda, y anchos de la servidumbre, la zona de protección y la franja. La altura sobre el suelo se mide cada 0,5 m entre los apoyos, con la cota más alta del suelo a medio metro, del lado seguro.
-* **Por apoyo**: pie, punta, altura, inclinación y desplome (a lo largo de la línea y transversal), tipo, modelo y función.
+* **Por apoyo**: pie, punta, altura, inclinación y desplome (a lo largo de la línea y transversal), estructura, tipo y función.
 * **Árboles**: las copas se separan en el modelo de alturas de la vegetación. De cada árbol se da el par de puntos más cercano entre el árbol y un conductor, con la distancia en 3D, en planta y en vertical, y su riesgo. No se cuentan la vegetación en la cabeza de un apoyo, la que está a menos de 0,6 m de un conductor (es del propio cable) ni la que tiene forma de cable (un cable sin modelar que conserva una clase de vegetación). Tampoco son árboles las copas de menos de 2 m de altura, de menos de 0,5 m² o de menos de 1 m de ancho.
 * **Edificios**: los grupos de puntos de edificio cercanos a la línea, con su punto más cercano.
 
@@ -149,8 +156,8 @@ Las tablas numeran cada cosa con una letra y un número desde 1: líneas L1, L2�
 |---|---|
 | `apoyo`, `linea` | El apoyo y su línea. |
 | `tipo` | celosía, poste o sin estructura. |
-| `modelo` | Su modelo (M1, M2…), vacío si no tiene estructura. |
-| `extension` | Los metros que es más alto que el más bajo de su modelo. |
+| `modelo` | Su tipo de apoyo: el nombre del archivo de tipos o, sin archivo, M1, M2…; vacío si no tiene estructura. |
+| `extension` | Los metros que es más alto que el más bajo de su tipo (con un archivo de tipos, puede ser negativa). |
 | `funcion` | alineación (dos vanos que se desvían menos de 3°), ángulo (dos vanos que se desvían 3° o más), fin de línea (un vano) o derivación (tres vanos o más). |
 | `deflexion` | Lo que se desvía la línea en el apoyo, con dos vanos. |
 | `x`, `y`, `z_pie` | Su pie. |
@@ -218,3 +225,7 @@ La tensión de cada línea decide sus distancias reglamentarias y el conductor t
 ### Salida
 
 * **Carpeta**: dónde se escriben los archivos del informe. Vacía, junto al archivo o al proyecto. Si los datos no están guardados en disco, hay que elegir una carpeta.
+
+### Tipos de apoyo
+
+* **Archivo (opcional)**: el [archivo de tipos de apoyo](lineas-electricas.md#el-archivo-de-tipos-de-apoyo) cuyos tipos se usan. Es el mismo campo que el de Líneas eléctricas, y tiene que existir. Vacío, los tipos salen de comparar los apoyos entre sí. En los dos casos, el informe escribe sus tipos en `<nombre>_informe_tipos_apoyo.csv`.
