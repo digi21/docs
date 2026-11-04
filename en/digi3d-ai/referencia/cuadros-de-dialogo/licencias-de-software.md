@@ -1,6 +1,6 @@
 # Software licenses
 <!-- id: licencias-de-software -->
-<!-- origen: 82a27cf29e992b23dcb708e9a1ce35dcdabbbe12 -->
+<!-- origen: cde0fc8df5d411d7e4253a2bb5942965fd7aa4cd -->
 
 <!-- captura pendiente: licencias-de-software.png -->
 
@@ -8,10 +8,11 @@ This dialog shows the status of the software licenses of the computer. The dialo
 
 ## Opening the dialog
 
-The dialog appears in two cases:
+The dialog appears in three cases:
 
 * When Digi3D.AI starts and the computer has no editing license. Digi3D.AI does not continue startup until the computer has an editing license or you click **Exit**.
 * When you select **Help/Software licenses...**. In this case the dialog has a single button, **Close**.
+* When the computer loses the editing license while a drawing is open, for example because the computer's activation has been revoked. While any drawing is open, Digi3D.AI checks the license every 5 minutes. In this case the dialog has the **Close** and **Exit** buttons.
 
 ## Information shown
 
@@ -48,8 +49,8 @@ If the user code expires before you approve the registration, the dialog says so
 * **Renew the usage authorization**: requests a new usage authorization from the server. The renewal button is enabled when the computer has a valid authorization, when the authorization has expired or when the computer's time must be synchronized. The renewal button is disabled while another operation is in progress.
 * **My software licenses**: opens in the web browser the digi21.net page with the software licenses of your account.
 * **Continue**: closes the dialog that appears when Digi3D.AI starts and continues the startup. The **Continue** button is enabled only when the computer has an editing license.
-* **Exit**: closes the dialog and Digi3D.AI does not start. The **Exit** button appears only during Digi3D.AI startup.
-* **Close**: closes the dialog opened from the **Help** menu.
+* **Exit**: during Digi3D.AI startup, closes the dialog and Digi3D.AI does not start. When the computer has lost the editing license, closes the dialog and closes Digi3D.AI as if you closed the main window. The **Exit** button does not appear in the dialog opened from the **Help** menu.
+* **Close**: closes the dialog opened from the **Help** menu or when the editing license is lost. If the dialog opened because the editing license was lost and the computer still has no editing license, Digi3D.AI displays the message "You do not have a license for this feature" and opens the dialog again.
 
 ## Usage authorization and offline work
 

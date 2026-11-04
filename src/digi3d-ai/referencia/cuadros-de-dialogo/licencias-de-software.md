@@ -7,10 +7,11 @@ Este cuadro de diálogo muestra el estado de las licencias de software del equip
 
 ## Abrir el cuadro de diálogo
 
-El cuadro de diálogo aparece en dos casos:
+El cuadro de diálogo aparece en tres casos:
 
 * Al iniciar Digi3D.AI, si el equipo no tiene licencia de edición. Digi3D.AI no continúa el inicio hasta que el equipo tenga licencia de edición o pulses **Salir**.
 * Al seleccionar la opción del menú **Ayuda/Licencias de software...**. En este caso el cuadro de diálogo tiene un único botón, **Cerrar**.
+* Cuando el equipo pierde la licencia de edición con un dibujo abierto, por ejemplo porque se ha revocado la activación del equipo. Mientras hay algún dibujo abierto, Digi3D.AI comprueba la licencia cada 5 minutos. En este caso el cuadro de diálogo tiene los botones **Cerrar** y **Salir**.
 
 ## Información que muestra
 
@@ -46,8 +47,8 @@ Si el código de usuario caduca antes de que apruebes el registro, el cuadro de 
 * **Renovar la autorización de uso**: pide al servidor una autorización de uso nueva. El botón de renovación está habilitado cuando el equipo tiene una autorización válida, cuando la autorización ha caducado o cuando hace falta sincronizar la hora del equipo, y está deshabilitado mientras hay otra operación en curso.
 * **Mis licencias de software**: abre en el navegador la página de digi21.net con las licencias de software de tu cuenta.
 * **Continuar**: cierra el cuadro de diálogo que aparece al iniciar Digi3D.AI y continúa el inicio. El botón **Continuar** está habilitado solo cuando el equipo tiene licencia de edición.
-* **Salir**: cierra el cuadro de diálogo y Digi3D.AI no se inicia. Solo aparece al iniciar Digi3D.AI.
-* **Cerrar**: cierra el cuadro de diálogo abierto desde el menú **Ayuda**.
+* **Salir**: al iniciar Digi3D.AI, cierra el cuadro de diálogo y Digi3D.AI no se inicia. Cuando el equipo ha perdido la licencia de edición, cierra el cuadro de diálogo y cierra Digi3D.AI igual que al cerrar la ventana principal. No aparece en el cuadro de diálogo abierto desde el menú **Ayuda**.
+* **Cerrar**: cierra el cuadro de diálogo abierto desde el menú **Ayuda** o al perder la licencia de edición. Si el cuadro de diálogo se abrió al perder la licencia de edición y el equipo sigue sin licencia de edición, Digi3D.AI muestra el mensaje «No tienes licencia para esta característica» y vuelve a abrir el cuadro de diálogo.
 
 ## Autorización de uso y trabajo sin conexión
 
