@@ -1,6 +1,6 @@
 # Software licenses
 <!-- id: licencias-de-software -->
-<!-- origen: bf3bb021910ad8423e5b2881ee5bd22b9b367e7e -->
+<!-- origen: 1bf783dc343276d29a64eeeeaa948209f4758221 -->
 
 <!-- captura pendiente: licencias-de-software.png -->
 
@@ -59,7 +59,6 @@ The usage authorization lets you work without an Internet connection until the d
 
 * `digi3d.edicion`: allows you to run Digi3D.AI.
 * `digi3d.fotogrametria`: allows you to use the photogrammetric window. Without this module, Digi3D.AI warns that the computer has no photogrammetry license and loads only the Digi3D.Orthophoto and Digi3D.CommonCommands extensions, so the photogrammetric window can open only orthophoto models.
-* `digi3d.stereodtm`: enables the commands `dibuja_buffer`, `vaguada_buffer`, `guardar_dem`, `proyecta_dem`, `proyecta_linea_sobre_dem` and `mover_z_dem`.
 
 ## Limitations of this version
 

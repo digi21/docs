@@ -57,7 +57,6 @@ La autorización de uso permite trabajar sin conexión a Internet hasta la fecha
 
 * `digi3d.edicion`: permite ejecutar Digi3D.AI.
 * `digi3d.fotogrametria`: permite usar la ventana fotogramétrica. Sin este módulo, Digi3D.AI avisa de que el equipo no tiene licencia de fotogrametría y solo carga las extensiones Digi3D.Orthophoto y Digi3D.CommonCommands, de modo que la ventana fotogramétrica solo puede abrir modelos de ortofoto.
-* `digi3d.stereodtm`: habilita las órdenes `dibuja_buffer`, `vaguada_buffer`, `guardar_dem`, `proyecta_dem`, `proyecta_linea_sobre_dem` y `mover_z_dem`.
 
 ## Limitaciones de esta versión
 
