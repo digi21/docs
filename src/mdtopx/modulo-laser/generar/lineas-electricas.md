@@ -13,7 +13,7 @@ Para medir la línea y sus distancias reglamentarias al terreno, al arbolado y a
 
 1. **Conductores**: busca los puntos lineales y casi horizontales que están por encima del suelo, los une en tramos y ajusta a cada conductor una curva (recta en planta y parábola en altura) de amarre a amarre. También encuentra los de las líneas de media tensión, con las fases a menos de un metro unas de otras y pocos puntos por metro.
 2. **Vanos y apoyos**: los conductores paralelos que acaban en el mismo sitio forman un vano, y donde acaban hay un apoyo. La estructura del apoyo (torre de celosía o poste) se ajusta con los puntos que no son de ningún conductor. En las líneas de media tensión, el conductor casi no se quiebra en los postes: los postes se buscan debajo de los conductores (una columna estrecha de puntos que sube del suelo hasta el conductor, sin nada alrededor) y los conductores se cortan en ellos.
-3. **Modelos de apoyo**: los apoyos con la misma estructura, salvo la altura del cuerpo, son del mismo modelo. Cada apoyo lleva una etiqueta con su número y su modelo. Por ejemplo, «A12 M3+6» es el apoyo 12, del modelo 3, con 6 m más de cuerpo que el más bajo de su modelo.
+3. **Modelos de apoyo**: los apoyos con la misma estructura, salvo la altura del cuerpo, son del mismo modelo. Cada apoyo lleva una etiqueta con su número, su modelo y cuánto más alto es que el más bajo de su modelo (ver [La etiqueta de cada apoyo](#la-etiqueta-de-cada-apoyo)).
 4. **Cable de guarda**: el conductor más alto de un vano, si va junto a la punta de los dos apoyos.
 5. **Clase de cada punto**: conductor, cable de guarda o torre. Solo cambian de clase los puntos de las clases que se pueden cambiar. Los puntos de las clases de una pasada anterior que ya no son de la línea pasan a la clase 1 (sin clasificar). Los puntos de suelo y de edificios no se tocan.
 6. **Puntos sintéticos** (opcional):
@@ -22,9 +22,76 @@ Para medir la línea y sus distancias reglamentarias al terreno, al arbolado y a
 
     Los puntos sintéticos llevan la clase sintética elegida, el tiempo GPS del punto real más cercano de su conductor o torre y la intensidad mediana. Si vuelve a pasar la herramienta, se quitan los sintéticos de la vez anterior (los de las clases sintéticas) y se ponen los nuevos.
 
-El vectorial se crea en un documento nuevo llamado *Líneas eléctricas de …*. Con un archivo, la clase de cada punto y los sintéticos se ponen en la nube abierta, y se puede deshacer. Con un proyecto, se guardan en cada archivo.
-
 Si no encuentra ninguna línea, no cambia nada y lo indica en la ventana de resultados.
+
+## El resultado
+
+### La nube
+
+Con un archivo, la clase de cada punto y los sintéticos se ponen en la nube abierta, y se puede deshacer. Con un proyecto, se guardan en cada archivo.
+
+### La ventana de resultados
+
+Al terminar, la ventana de resultados muestra:
+
+* «Líneas eléctricas: *a* apoyos (*b* con estructura, *m* modelos), *v* vanos y *c* conductores; *s* puntos sintéticos (*t* de torres).»
+    * *a* apoyos: todos los sitios donde acaban los conductores de un vano. De ellos, *b* tienen estructura (una torre o un poste en la nube); el resto son apoyos sin estructura (ver [La etiqueta de cada apoyo](#la-etiqueta-de-cada-apoyo)).
+    * *m* modelos: los modelos de apoyo distintos, M1 a M*m*.
+    * *c* conductores: los conductores de cada vano, contados vano a vano. Un conductor que pasa por cinco vanos cuenta cinco veces, aunque en el vectorial sea una sola polilínea.
+    * *s* puntos sintéticos: todos los que se han añadido; de ellos, *t* son de torres y el resto de conductores y cables de guarda.
+* Por cada archivo: «*archivo*: *x* puntos con otra clase, *y* puntos sintéticos de una pasada anterior quitados y *z* nuevos.»
+* Si no hay línea: «No se ha encontrado ninguna línea eléctrica: no se ha cambiado la clase de ningún punto.»
+
+### El vectorial
+
+El vectorial se crea en un documento nuevo llamado *Líneas eléctricas de …*. Sus elementos, con los códigos por defecto (se cambian en [Códigos del vectorial](#códigos-del-vectorial)):
+
+| Código | Elemento | Qué es |
+|---|---|---|
+| CONDUC | Polilínea 3D | Cada conductor (fase): la curva ajustada a sus puntos, con un vértice cada 2 m o menos, de una pieza a lo largo de los vanos seguidos (ver [Los conductores, de una pieza](#los-conductores-de-una-pieza)). |
+| CGUARD | Polilínea 3D | Cada cable de guarda, igual que los conductores. |
+| APOYO | Punto | El pie de cada apoyo: el eje de su cuerpo a la altura del suelo. En un apoyo sin estructura, el centro de los extremos de sus conductores, en el suelo. |
+| ETQAPO | Texto | La etiqueta de cada apoyo, en su pie, de 2 m de alto (ver [La etiqueta de cada apoyo](#la-etiqueta-de-cada-apoyo)). |
+| EJELIN | Línea | El eje de cada vano: una recta del pie de un apoyo al pie del otro. |
+| TORRE | Polilíneas 3D | La forma de cada apoyo con estructura: las cuatro aristas del cuerpo, del pie al arranque de la cabeza, con un cuadro abajo y otro arriba; y la caja de la cabeza, del arranque de la cabeza a la punta, que encierra las crucetas y los amarres. En un poste, lo mismo, más estrecho. Los apoyos sin estructura no tienen. |
+
+### La etiqueta de cada apoyo
+
+Junto al pie de cada apoyo hay un texto (código ETQAPO) con su número, su tipo, su modelo y, si la tiene, su extensión. Por ejemplo:
+
+| Etiqueta | Qué quiere decir |
+|---|---|
+| `A12 M3` | El apoyo 12 es una torre de celosía del modelo 3, de la altura del más bajo de su modelo. |
+| `A12 M3+6` | El apoyo 12 es una torre de celosía del modelo 3, 6 m más alta que la más baja de su modelo. |
+| `A40 poste M2+1` | El apoyo 40 es un poste del modelo 2, 1 m más alto que el más bajo de su modelo. |
+| `A7 sin apoyo` | En el apoyo 7 acaban unos conductores, pero en la nube no hay una torre ni un poste. |
+
+* **A y un número**: el número del apoyo. Los apoyos se numeran desde 1 en todo el archivo o en todo el proyecto. Si se vuelve a pasar la herramienta, la línea se calcula de nuevo y los números pueden cambiar. El [informe](informe-lineas-electricas.md) también calcula de nuevo la línea; sus tablas usan los números de las etiquetas de su propio documento.
+* **poste**: el apoyo es un poste. Si no lo pone, es una torre de celosía.
+* **M y un número**: el modelo del apoyo. Dos apoyos son del mismo modelo si son del mismo tipo (celosía o poste) y tienen la misma estructura, salvo la altura del cuerpo:
+    * el tronco del mismo ancho en las dos direcciones, a la misma profundidad bajo la punta, con una tolerancia de 0,3 m más el 5 % del ancho;
+    * la misma conicidad del tronco;
+    * la cabeza de la misma altura, con 1,5 m de tolerancia;
+    * los amarres de los conductores a las mismas alturas bajo la punta, con 0,6 m de tolerancia.
+
+    M1 es el modelo con más apoyos, M2 el siguiente, y así sucesivamente. Un modelo puede tener un solo apoyo, si ningún otro se le parece.
+* **+ y un número**: la extensión. Son los metros que el apoyo es más alto que el más bajo de su modelo, medidos del pie a la punta y redondeados al metro: es la misma torre o el mismo poste con el cuerpo más alto. Sin el «+», el apoyo es de los más bajos de su modelo (la diferencia es de menos de medio metro).
+* **sin apoyo**: los conductores acaban en ese sitio, pero en la nube no hay ninguna estructura. Suele ser el borde de los datos (el vano sigue fuera de la nube), un apoyo con muy pocos puntos (un poste delgado o tapado por los árboles) o el pórtico de una subestación. No tiene modelo ni forma (TORRE), y su punto (APOYO) está en el centro de los extremos de sus conductores.
+
+### Los conductores, de una pieza
+
+Cada conductor y cada cable de guarda es una sola polilínea a lo largo de los vanos seguidos. En cada apoyo, el conductor de un vano sigue en el del vano del otro lado cuyo amarre está en el mismo sitio, a la misma distancia del eje de la línea y a la misma altura, siempre que:
+
+* los dos amarres estén a 5 m o menos;
+* no haya otro conductor de ese vano casi igual de bien colocado.
+
+Además:
+
+* El cable de guarda solo sigue en otro cable de guarda.
+* En un apoyo de ángulo se unen los vanos que giran hasta 100°. Dos vanos que salen del apoyo hacia el mismo lado no se unen.
+* En un apoyo de amarre, entre los dos amarres va una recta, que hace de puente.
+* Donde la línea se divide (una derivación), cada conductor sigue por el vano en que mejor encaja y, si encaja igual de bien en dos, por el que sigue más recto. Los demás empiezan allí una polilínea nueva.
+* Si a cada uno de dos vanos seguidos le falta una fase distinta, las dos fases que quedan sueltas no se unen.
 
 ## El cuadro de diálogo
 
@@ -71,15 +138,13 @@ Las listas son números de 0 a 255 separados por comas. Se pueden escribir o ele
 
 ### Códigos del vectorial
 
-De 1 a 6 caracteres, sin espacios.
+Los códigos de los elementos del [vectorial](#el-vectorial), de 1 a 6 caracteres y sin espacios:
 
-| Elemento | Por defecto | Qué es |
-|---|---|---|
-| Conductor | CONDUC | Cada conductor en 3D, de una pieza a lo largo de los vanos seguidos. |
-| Guarda | CGUARD | Cada cable de guarda, de una pieza a lo largo de los vanos seguidos. |
-
-En cada apoyo, el conductor de un vano sigue en el del vano del otro lado cuyo amarre está en el mismo sitio, a la misma distancia del eje de la línea y a la misma altura, siempre que los amarres estén a 5 m o menos y no haya otro conductor de ese vano casi igual de bien colocado. El cable de guarda solo sigue en otro cable de guarda. En un apoyo de ángulo se unen los vanos que giran hasta 100°; dos vanos que salen del apoyo hacia el mismo lado no se unen. En un apoyo de amarre, entre los dos amarres va una recta, que hace de puente. Donde la línea se divide, cada conductor sigue por el vano en que mejor encaja y los demás empiezan allí una polilínea nueva. Si a cada uno de dos vanos seguidos le falta una fase distinta, las dos fases que quedan sueltas no se unen.
-| Apoyo | APOYO | El pie de cada apoyo (un punto). |
-| Etiqueta | ETQAPO | El número y el modelo de cada apoyo (texto). |
-| Eje | EJELIN | El eje de cada vano, de pie a pie de apoyo. |
-| Torre | TORRE | Las aristas del cuerpo de la torre y la caja de su cabeza. |
+| Campo | Por defecto |
+|---|---|
+| Conductor | CONDUC |
+| Guarda | CGUARD |
+| Apoyo | APOYO |
+| Etiqueta | ETQAPO |
+| Eje | EJELIN |
+| Torre | TORRE |
