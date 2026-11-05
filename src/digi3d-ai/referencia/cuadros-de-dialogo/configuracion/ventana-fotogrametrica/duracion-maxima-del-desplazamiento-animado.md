@@ -5,7 +5,7 @@ Indica la duración, en segundos, de la animación de un desplazamiento igual a 
 
 ## Valores posibles
 
-Un número de 0 a 10. Al guardar la configuración, un valor no numérico se sustituye por 2,0. Si el valor no supera la duración mínima, cada animación dura la duración mínima. El valor por defecto es 2,0.
+Un número de segundos de 0 a 10, ambos incluidos. Al guardar la configuración, un valor no numérico se sustituye por 1,0. Si el valor no supera la duración mínima, cada animación dura la duración mínima. El valor por defecto es 1,0.
 
 <details>
 <summary>Dónde se almacena</summary>
@@ -14,7 +14,7 @@ Un número de 0 a 10. Al guardar la configuración, un valor no numérico se sus
 | :--- | :--- |
 | Valor | `DuracionMaximaDesplazamientoAnimadoSegundos` |
 | Tipo | `REG_BINARY` (número de 8 bytes en coma flotante de doble precisión) |
-| Valor por defecto | 2,0 |
+| Valor por defecto | 1,0 |
 
 Es un valor de cada usuario de _Windows_: no está en el archivo Digi3DNET.db y las sentencias SQL del cuadro de diálogo [Configuración avanzada](../../configuracion-avanzada.md) no lo modifican. Digi3D.AI lee el valor en cada desplazamiento, así que un cambio guardado se aplica en el desplazamiento siguiente, sin reiniciar Digi3D.AI.
 
