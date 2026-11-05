@@ -5,7 +5,7 @@ Indica la duración mínima, en segundos, de las animaciones de desplazamiento d
 
 ## Valores posibles
 
-Un número de 0 a 10. Al guardar la configuración, un valor no numérico se sustituye por 0,3. El valor por defecto es 0,3.
+Un número de segundos de 0 a 10, ambos incluidos. Al guardar la configuración, un valor no numérico se sustituye por 0,3. El valor por defecto es 0,3.
 
 ## Desplazamientos que se animan
 
