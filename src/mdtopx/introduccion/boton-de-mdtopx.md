@@ -36,10 +36,11 @@ Al hacer clic en el botón de MDTopX ![botón de MDTopX](../../images/boton-mdto
     * Archivos DXF: Archivos con cartografía para AutoCad.
     * Archivos DXF 2000: Archivos con cartografía para AutoCad 2000 o superior.
     * Archivos DGN: Archivos con cartografía para MicroStation.
+* **Abrir carpeta contenedora**: Abre en el Explorador de Windows la carpeta donde está guardado el documento actual, con su archivo seleccionado. Sólo está activa si el documento se ha guardado en disco alguna vez. La misma opción aparece al pulsar con el botón derecho del ratón sobre la pestaña de cualquier documento.
 * **Imprimir**: Imprime el documento actual.
 * **Presentación preliminar**: Muestra en pantalla cómo se imprimiría el documento actual.
 * **Configurar impresora**: Configura el dispositivo de salida de impresión.
-* **Lista de archivos recientes**: Muestra el listado de máximo 10 archivos con los últimos documentos utilizados. Es una manera rápida de abrir documentos ya generados.
+* **Lista de archivos recientes**: Muestra los últimos documentos utilizados. Es una manera rápida de abrir documentos ya generados. Por defecto muestra 10 archivos; la cantidad se puede cambiar entre 1 y 16 en las [**Opciones**](../otras-herramientas/opciones.md). Si se elige un archivo que ya no existe en el disco, el programa lo quita de la lista. Si se elige un archivo que ya está abierto, el programa avisa y el archivo se queda en la lista.
 * **Cerrar**: Cierra el documento actual. Si el documento ha sido modificado y no ha sido salvado antes, el programa preguntará por ello.
 
 Además de las opciones del menú, se muestran un botón para modificar las [**Opciones**](../otras-herramientas/opciones.md) generales de la aplicación.
