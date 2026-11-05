@@ -27,7 +27,7 @@ Los cambios de visibilidad y de color se guardan en la [Lista de clasificaciones
 * **Color**: cambia el color de las filas seleccionadas. También se puede cambiar el color de una fila haciendo doble clic sobre ella.
 * **Todas**: muestra todas las clasificaciones del archivo.
 * **Ninguna**: oculta todas las clasificaciones del archivo.
-* **Borrar clases**: borra del archivo los puntos de las clasificaciones seleccionadas en la lista. Antes de borrar, pide confirmación indicando qué clasificaciones se van a borrar. Si la vista muestra solo una selección (*Vista selección*), borra solo los puntos de esa zona. Es lo mismo que [Borrar según clasificación](../../modulo-laser/segun-clasificacion-lidar/borrar-segun-clasificacion.md), sin pasar por el cuadro de diálogo.
+* **Borrar clases**: borra del archivo los puntos de las clasificaciones seleccionadas en la lista. Antes de borrar, pide confirmación indicando qué clasificaciones se van a borrar. Si la vista muestra solo una selección (*Vista selección*), borra solo los puntos de esa zona. Es lo mismo que [Borrar según clasificación](../../modulo-laser/segun-clasificacion-lidar/borrar-segun-clasificacion.md), sin pasar por el cuadro de diálogo. Los [objetos](../../modulo-mms/editar-objetos/README.md) de esas clases se borran también.
 
 ## Selección
 

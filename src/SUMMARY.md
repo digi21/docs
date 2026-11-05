@@ -2776,6 +2776,7 @@
       * [Seleccionar objetos según propiedades](mdtopx/modulo-mms/editar-objetos/seleccionar-objetos-segun-propiedades.md)
       * [Objeto nuevo](mdtopx/modulo-mms/editar-objetos/objeto-nuevo.md)
       * [Borrar objeto](mdtopx/modulo-mms/editar-objetos/borrar-objeto.md)
+      * [Información de objeto](mdtopx/modulo-mms/editar-objetos/informacion-objeto-nube.md)
       * [Generar objetos](mdtopx/modulo-mms/editar-objetos/generar-objetos.md)
       * [Encender/apagar objetos](mdtopx/modulo-mms/editar-objetos/encender-apagar-objetos.md)
       * [Lista de objetos](mdtopx/modulo-mms/editar-objetos/lista-de-objetos.md)
