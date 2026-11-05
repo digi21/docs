@@ -663,6 +663,9 @@ Configura la visualización estereoscópica y el comportamiento de la ventana fo
 * **[Prioridad de los hilos de carga](ventana-fotogrametrica/prioridad-de-los-hilos-de-carga.md)** — Prioridad de los hilos de carga de teselas en segundo plano.
 * **[Proyectar vectores](ventana-fotogrametrica/proyectar-vectores.md)** — Proyección de vectores síncrona o asíncrona.
 * **[Permitir animaciones de opacidad](ventana-fotogrametrica/permitir-animaciones-de-opacidad.md)** — Muestra las teselas recién cargadas con una animación.
+* **[Duración mínima del desplazamiento animado (s)](ventana-fotogrametrica/duracion-minima-del-desplazamiento-animado.md)** — Duración mínima de las animaciones de desplazamiento; con 0, ningún desplazamiento se anima.
+* **[Duración máxima del desplazamiento animado (s)](ventana-fotogrametrica/duracion-maxima-del-desplazamiento-animado.md)** — Duración de la animación de un desplazamiento igual a la distancia máxima, si supera la duración mínima.
+* **[Distancia máxima del desplazamiento animado](ventana-fotogrametrica/distancia-maxima-del-desplazamiento-animado.md)** — Distancia por encima de la cual el desplazamiento se aplica sin animación.
 * **[Cambiar resolución](ventana-fotogrametrica/cambiar-resolucion.md)** — Cambia la resolución del monitor al abrir la vista estereoscópica.
 * **[Monitor a cambiar la resolución](ventana-fotogrametrica/monitor-a-cambiar-la-resolucion.md)** — Pantalla cuya resolución se cambia.
 * **[Resolución](ventana-fotogrametrica/resolucion.md)** — Resolución a seleccionar para el monitor.
