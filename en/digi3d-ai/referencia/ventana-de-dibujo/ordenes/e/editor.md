@@ -31,7 +31,7 @@ Clicking **Cancel** ends the command without modifying the line.
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Edit/Edit the coordinates of geometry... |

@@ -24,7 +24,7 @@ If quality control rejects the modified entity, the original entity is preserved
 
 ## Command characteristics
 
-| Command type                                    | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md)                                                                                                          |
+| Command type                                    | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md)                                                                                                          |
 | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Repeats automatically                           | Yes |
 | Menu option           | Edit/Update the attributes of an entity to the active ones                                                                                                  |

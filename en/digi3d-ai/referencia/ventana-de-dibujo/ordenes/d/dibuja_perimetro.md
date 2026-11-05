@@ -22,7 +22,7 @@ Calculate the perimeter in plan \(X, Y coordinates\), ignoring elevation changes
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Draw/Define height/2D perimeter of selected polyline |

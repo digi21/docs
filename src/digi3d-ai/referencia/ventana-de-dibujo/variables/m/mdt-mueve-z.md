@@ -19,7 +19,7 @@ La variable se desactiva cada vez que se abre un archivo de dibujo.
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](../variables-booleanas.md) |
+| Tipo de orden | [Variable booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | MDT/Proyectar la coordenada Z al mover sobre un MDT cargado |

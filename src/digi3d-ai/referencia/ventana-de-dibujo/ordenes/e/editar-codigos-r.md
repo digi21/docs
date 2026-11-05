@@ -60,7 +60,7 @@ La orden sustituye cada línea modificada por una línea nueva con los mismos v�
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Sí, si la variable [REPITE](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) está activada. Al pulsar Esc o si no hay topología para inundaciones, no se repite |
 | Opción del menú donde aparece la orden | Inundación/Editar códigos... |

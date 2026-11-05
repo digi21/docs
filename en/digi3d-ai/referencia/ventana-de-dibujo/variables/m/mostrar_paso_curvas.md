@@ -26,7 +26,7 @@ This variable is disabled each time Digi3D.AI starts.
 
 ## Command characteristics
 
-| Variable type | [Boolean](/digi3d-ai/referencia/ventana-de-dibujo/variables/variables-booleanas.md) |
+| Variable type | [Boolean](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Immediate/Snaps/Show curve pass |

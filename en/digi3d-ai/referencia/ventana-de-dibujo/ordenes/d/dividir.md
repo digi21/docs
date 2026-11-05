@@ -51,7 +51,7 @@ After acceptance, "Select the line to be split" appears. Selecting anything othe
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) without parameters; immediate command with parameters |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) without parameters; immediate command with parameters |
 | :--- | :--- |
 | Repeats automatically | Yes, when run without parameters |
 | Menu option | Edit/Advanced/Insert text repeatedly on a line |

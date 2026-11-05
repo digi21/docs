@@ -7,9 +7,9 @@ Este panel muestra el valor de las órdenes de tipo variable y permite cambiarlo
 
 Aparecen las órdenes de tipo variable de Digi3D.AI y las de las extensiones cargadas:
 
-* Las [variables booleanas](../ventana-de-dibujo/variables/variables-booleanas.md), con los valores **Verdadero** y **Falso**.
-* Las [variables reales](../ventana-de-dibujo/variables/variables-reales.md), con tres decimales.
-* Las [variables numéricas](../ventana-de-dibujo/variables/variables-numericas.md), con números enteros.
+* Las [variables booleanas](../ordenes/variables/variables-booleanas.md), con los valores **Verdadero** y **Falso**.
+* Las [variables reales](../ordenes/variables/variables-reales.md), con tres decimales.
+* Las [variables numéricas](../ordenes/variables/variables-numericas.md), con números enteros.
 
 La parte inferior del panel muestra la descripción de la orden seleccionada.
 

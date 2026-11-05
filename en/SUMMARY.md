@@ -947,6 +947,7 @@
       * [Database editor 1,2,3,4](digi3d-ai/referencia/paneles/editor-de-la-base-de-datos-1-2-3-4.md)
       * [Python script](digi3d-ai/referencia/paneles/guion-python.md)
       * [Thumbnails](digi3d-ai/referencia/paneles/instantaneas.md)
+      * [Aerotriangulation measurement](digi3d-ai/referencia/paneles/medida-aerotriangulacion.md)
       * [Orientation](digi3d-ai/referencia/paneles/orientacion.md)
       * [Properties](digi3d-ai/referencia/paneles/propiedades.md)
       * [Properties of selected entity](digi3d-ai/referencia/paneles/propiedades-de-la-entidad-seleccionada.md)

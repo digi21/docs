@@ -46,7 +46,7 @@ MOD\_Z, MOD\_MULTIPLE, and MOD\_Z\_MULTIPLE display the same dialog in this situ
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Edit/Polylines/Modify an existing polyline on XY with the polyline being registered |

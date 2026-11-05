@@ -23,7 +23,7 @@ Después de cada punto, la orden vuelve a mostrar el cuadro de diálogo para el 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Sí |
 | Opción del menú donde aparece la orden | Inmediato/Agregar... |

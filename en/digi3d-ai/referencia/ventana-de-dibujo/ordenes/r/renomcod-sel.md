@@ -57,7 +57,7 @@ Each entity is handled independently: if Digi3D.AI rejects an entity with the ne
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | Only when parameters are supplied |
 | Menu option | Edit/Rename one code of the selected entities... |

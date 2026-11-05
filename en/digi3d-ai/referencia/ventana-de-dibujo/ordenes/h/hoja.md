@@ -63,7 +63,7 @@ Digi3D.AI remembers properties between runs, but not corner coordinates. Initial
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Draw/Sheet index/Create a sheet from known coordinates |

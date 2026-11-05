@@ -23,7 +23,7 @@ If quality control rejects the grouped entity for a group of duplicates, that gr
 
 ## Command characteristics
 
-| Command type | [Immediate command](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) with parameters; [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) without parameters |
+| Command type | [Immediate command](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md) with parameters; [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) without parameters |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | _This command has no associated menu option_ |

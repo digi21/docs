@@ -56,7 +56,7 @@ Cada entidad se trata de forma independiente: si Digi3D.AI descarta una entidad 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | Solo si indicas los parámetros |
 | Opción del menú donde aparece la orden | Editar/Renombrar un código de entidades seleccionadas... |

@@ -74,7 +74,7 @@ TRACE creates no files. To create a file per sheet, run [TRIM\_TRACE](/digi3d-ai
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Draw/Sheet index/Create sheet index (trace) |

@@ -20,7 +20,7 @@ The variable is disabled each time you open a drawing file.
 
 ## Command characteristics
 
-| Command type | [Boolean variable](../variables-booleanas.md) |
+| Command type | [Boolean variable](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | DTM/Project Z when moving over a loaded DTM |
