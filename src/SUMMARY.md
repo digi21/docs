@@ -842,6 +842,7 @@
           * [ORI\_ABSOLUTA](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori-absoluta.md)
           * [ORI\_INTERNA\_D](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori-interna-d.md)
           * [ORI\_INTERNA\_I](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori-interna-i.md)
+          * [ORI\_NUBE](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori-nube.md)
           * [ORI\_RELATIVA](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/o/ori_relativa.md)
         * [P](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/p/README.md)
           * [PARALIZAR](digi3d-ai/referencia/ventana-fotogrametrica/ordenes/p/paralizar.md)
