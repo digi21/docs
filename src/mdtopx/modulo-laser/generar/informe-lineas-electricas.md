@@ -8,7 +8,8 @@ Hace el informe de las líneas eléctricas de una nube de puntos ya clasificada.
 * las medidas de los vanos, los conductores y los apoyos;
 * las distancias reglamentarias al terreno, al arbolado y a los edificios según la ITC-LAT 07 del Reglamento de líneas eléctricas de alta tensión (Real Decreto 223/2008);
 * los árboles cercanos a la línea y su riesgo;
-* un ráster de la distancia de la vegetación a los conductores.
+* un ráster de la distancia de la vegetación a los conductores;
+* si se piden, los [perfiles de cada línea](#los-perfiles), con los objetos que hay debajo y su distancia vertical a los conductores.
 
 La línea se calcula de nuevo con los puntos de sus clases (conductor, cable de guarda y torre) y la nube no cambia. Por eso se puede repetir el informe con otras tensiones, otro viento u otros márgenes sin volver a clasificar.
 
@@ -25,6 +26,7 @@ Los archivos se escriben en la carpeta elegida o, si no se elige ninguna, junto 
 | `<nombre>_informe_tipos_apoyo.csv` | Los tipos de apoyo del informe, como un [archivo de tipos de apoyo](lineas-electricas.md#el-archivo-de-tipos-de-apoyo): se pueden cambiar sus nombres y usarlo en Líneas eléctricas y en el informe. |
 | `<nombre>_distancias.tif` | GeoTIFF con la distancia de la vegetación al conductor más cercano en cada celda. Las celdas sin vegetación quedan sin dato. |
 | `<nombre>_riesgo.tif`, con su `.ORT` y su `.TFW` | El riesgo por colores: rojo, invade la distancia reglamentaria; naranja, riesgo alto; amarillo, medio; verde, bajo. Se puede cargar en MDTopX como ortofoto. |
+| `<nombre>_informe_perfiles.csv` | Con los perfiles, sus distancias verticales a los objetos. |
 
 Además se abre un documento nuevo, *Informe de líneas eléctricas de …*, con el vectorial:
 
@@ -41,7 +43,7 @@ El documento lleva también el modelo de la línea calculado de nuevo, con los e
 
 ### La ventana de resultados
 
-Al terminar, la ventana de resultados muestra: «Informe de líneas eléctricas: *l* líneas, *a* apoyos, *v* vanos, *n* árboles (*i* invaden la distancia reglamentaria, *h* de riesgo alto y *m* de riesgo medio) y *e* edificios en la franja sin edificios. Página: *ruta de la página*». Si no se ha podido escribir algún archivo, también lo indica. Con un archivo de tipos, también: «Tipos de apoyo de *archivo*: *x* del archivo con apoyos y *y* nuevos (apoyos que no se parecen a ninguno).»
+Al terminar, la ventana de resultados muestra: «Informe de líneas eléctricas: *l* líneas, *a* apoyos, *v* vanos, *n* árboles (*i* invaden la distancia reglamentaria, *h* de riesgo alto y *m* de riesgo medio) y *e* edificios en la franja sin edificios. Página: *ruta de la página*». Si no se ha podido escribir algún archivo, también lo indica. Con un archivo de tipos, también: «Tipos de apoyo de *archivo*: *x* del archivo con apoyos y *y* nuevos (apoyos que no se parecen a ninguno).» Con los perfiles, también: «Perfiles de líneas eléctricas: *t* tramos y *d* distancias verticales a objetos (*i* invaden la distancia reglamentaria, *h* de riesgo alto y *m* de riesgo medio).»
 
 ### La página del informe
 
@@ -67,6 +69,45 @@ Al terminar, la ventana de resultados muestra: «Informe de líneas eléctricas:
     * **Alzado longitudinal**: visto de lado.
 
     En gris, los puntos de torre de la nube, más oscuros cuantos más puntos hay; en azul, el cuerpo ajustado: el tronco y, a trazos, la caja de la cabeza; en rojo, los amarres de los conductores, y en verde, los del cable de guarda. La cuadrícula es de 5 m. Todas las torres de celosía están a la misma escala, y todos los postes a otra. Sirven para ver qué tipos son el mismo y juntarlos en el [archivo de tipos de apoyo](lineas-electricas.md#el-archivo-de-tipos-de-apoyo).
+
+## Los perfiles
+
+Con **Perfil de cada línea** en el cuadro de diálogo, el informe hace además el perfil longitudinal de cada línea con su guitarra, para ver los árboles, los edificios y los demás objetos que hay debajo y a qué distancia vertical quedan de los conductores. Los perfiles se abren en un documento nuevo, *Perfiles de líneas eléctricas de …*, que se guarda como cualquier otro dibujo, en el formato que se quiera.
+
+**Tramos.** Cada línea se parte en tramos sin ramas: el primero es su camino más largo; después, el más largo de los que salen de un apoyo de un tramo ya hecho (una derivación), hasta que no queda ningún vano. La distancia al origen se mide en planta por los ejes de los vanos, de pie a pie de apoyo, desde el primer apoyo del tramo. Los tramos se ponen uno debajo de otro.
+
+**El dibujo.** Va a las escalas elegidas: la x es la distancia al origen y la y, la cota sobre el plano de comparación de cada tramo multiplicada por la exageración vertical (la escala horizontal entre la vertical). Sus coordenadas son las del papel, no las del terreno. Los códigos de sus elementos son, por defecto, los de esta tabla; se cambian con **Códigos…** en el cuadro de diálogo.
+
+| Código | Qué es |
+|---|---|
+| PTITUL | El título: la línea y su tensión, sus apoyos (o la derivación), su largo, las escalas y el plano de comparación. |
+| PESCAL | La regla de cotas, con una raya cada 5 m y la cota cada 10 m. |
+| PTERRE | El terreno por el eje de la línea. |
+| PCONDU, PGUARD | Cada conductor y cada cable de guarda. |
+| PDSTER, PDSARB | El conductor más bajo menos la distancia reglamentaria al terreno y al arbolado: lo que sube por encima de estas curvas está más cerca de lo permitido. |
+| PAPOYO | La silueta de cada apoyo a lo largo de la línea, con su cuerpo y su cabeza. Un apoyo sin estructura es una raya hasta el conductor más alto. |
+| PETQAP | El número y el tipo de cada apoyo. |
+| PVEGET, PEDIFI, POTROS | Los puntos de los objetos de vegetación, de edificio y otros: el más alto de cada celda de 0,5 × 0,5 m del perfil. |
+| PDVINV, PDVALT, PDVMED | La raya de cada distancia vertical, del objeto a su conductor, si invade o su riesgo es alto o medio. |
+| PGUITA, PTXGUI | Las rayas y los textos de la guitarra. |
+| PREFER | La raya de cada columna de la guitarra hasta el terreno. |
+
+**La guitarra**, de arriba abajo:
+
+* **Distancia vertical a objetos (m)**: la de cada objeto, con el código de su riesgo (PDVINV, PDVALT, PDVMED o PDVBAJ).
+* **Cota del conductor más bajo (m)**: sin los cables de guarda.
+* **Cota del terreno (m)**: en el eje.
+* **Distancia al origen (m)**.
+* **Vanos (m)**: el número y el largo de cada vano.
+* **Apoyos**: el número y el tipo de cada apoyo.
+
+Las columnas van en los apoyos, en las distancias verticales y cada cierto número de metros (**Columnas de la guitarra cada**). Las que se pisarían se quitan: primero las de cada cierto número de metros y después las distancias menos peligrosas.
+
+**Objetos.** Son los puntos que no son del suelo, ni de la línea, ni ruido (clases 7 y 18), que están a la distancia elegida o menos de los conductores exteriores de su vano y a 1 m o más del suelo. No cuentan los de la cabeza de un apoyo, los que están a menos de 0,6 m de un conductor (son del propio cable) ni los que tienen forma de cable, estén a la distancia que estén: un conductor de otra línea, o uno de esta que no está en su modelo. Las clases de vegetación y de edificio son las del cuadro de diálogo; los demás son *otros*.
+
+**Distancia vertical.** De cada punto de un objeto, la diferencia de cota con su conductor, que es el que no es de guarda más cercano en planta (y, de los que están a 1 m más o menos de ese, el más bajo). Es negativa si el punto está más alto que el conductor. No se mide hasta el conductor más bajo de todos: con las fases a los dos lados de la torre, un árbol que está bajo una fase alta no está a la distancia de la fase baja del otro lado. De cada objeto (las columnas seguidas con objetos, con huecos de 2 m como mucho) se da la menor; de un objeto más largo que **Columnas de la guitarra cada**, la menor de cada uno de esos tramos.
+
+**Riesgo.** La distancia vertical se compara con la distancia reglamentaria de su línea: la del arbolado para la vegetación, y la de puntos no accesibles para los edificios y los demás objetos. Como en los árboles: invade si es menor; alto, si es menor que la reglamentaria más el margen de riesgo alto; medio, si es menor que la reglamentaria más el de riesgo medio; bajo, el resto.
 
 ## Medidas
 
@@ -196,6 +237,24 @@ Las tablas numeran cada cosa con una letra y un número desde 1: líneas L1, L2�
 | `en_franja` | 1 si está dentro de la franja sin edificios. |
 | `riesgo` | invade, alto, medio o bajo, frente a la distancia reglamentaria sobre puntos no accesibles. |
 
+### `_informe_perfiles.csv`
+
+Una fila por cada distancia vertical de la guitarra de los [perfiles](#los-perfiles).
+
+| Columna | Qué es |
+|---|---|
+| `linea`, `tramo` | La línea y el tramo, numerado desde 1 en el orden del dibujo. |
+| `derivacion_de` | En una derivación, el apoyo del que sale; vacía en el primer tramo de la línea. |
+| `vano` | El vano. |
+| `estacion` | La distancia al origen del tramo. |
+| `x`, `y` | El punto del eje de la línea en esa estación. |
+| `terreno` | La cota del terreno en el eje. |
+| `conductor`, `objeto` | La cota de su conductor y la del punto del objeto. |
+| `grupo` | vegetación, edificio u otro. |
+| `vertical` | La distancia vertical del punto a su conductor; negativa si el punto está más alto. |
+| `reglamentaria` | La distancia reglamentaria con la que se compara. |
+| `riesgo` | invade, alto, medio o bajo. |
+
 ## El cuadro de diálogo
 
 ### Clases LiDAR de la nube clasificada
@@ -229,3 +288,10 @@ La tensión de cada línea decide sus distancias reglamentarias y el conductor t
 ### Tipos de apoyo
 
 * **Archivo (opcional)**: el [archivo de tipos de apoyo](lineas-electricas.md#el-archivo-de-tipos-de-apoyo) cuyos tipos se usan. Es el mismo campo que el de Líneas eléctricas, y tiene que existir. Vacío, los tipos salen de comparar los apoyos entre sí. En los dos casos, el informe escribe sus tipos en `<nombre>_informe_tipos_apoyo.csv`.
+
+### Perfiles
+
+* **Perfil de cada línea, con los objetos a** (por defecto 5 m) **o menos de los conductores exteriores**: hace los [perfiles](#los-perfiles) con los objetos de esa banda. El ancho no puede ser mayor que el de análisis.
+* **Escala horizontal 1:** (por defecto 2000) **vertical 1:** (por defecto 500): las escalas del dibujo. Los textos de la guitarra miden 2 mm y sus filas, 15 mm, en el papel a la escala horizontal.
+* **Columnas de la guitarra cada** (por defecto 20 m): además de las de los apoyos y de las distancias verticales.
+* **Códigos…**: abre un cuadro con el código de cada elemento del [dibujo de los perfiles](#los-perfiles), agrupados en perfil, apoyos, objetos, distancias verticales y guitarra. Cada código tiene de 1 a 6 caracteres, sin espacios. **Valores por defecto** pone los de la tabla.
