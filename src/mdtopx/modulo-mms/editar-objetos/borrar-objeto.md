@@ -10,7 +10,7 @@ La herramienta solo está activa en las nubes de puntos que tienen objetos visib
 ## Marcar los objetos
 
 * **Clic** sobre un objeto, en uno de sus puntos o en su contorno: marca ese objeto.
-* **Arrastrar una ventana**: marca los objetos que quedan enteros dentro de la ventana. Los que sobresalen no se marcan.
+* **Arrastrar una ventana**: marca los objetos que la ventana toca, en sus puntos o en su contorno, igual que con las entidades vectoriales. No hace falta que queden enteros dentro.
 * **Mayús + clic** o **Mayús + ventana**: añade objetos a los ya marcados o quita los que ya estaban marcados.
 * **Botón derecho** después de pinchar un objeto: lo sustituye por el que está detrás, en esas mismas coordenadas. Cada pulsación busca el siguiente. Si no hay más objetos detrás, suena un aviso y el objeto deja de estar marcado.
 
