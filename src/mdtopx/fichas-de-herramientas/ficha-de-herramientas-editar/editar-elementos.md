@@ -25,6 +25,8 @@ En este epígrafe están agrupados los comandos relativos a la edición de eleme
   * _Desde archivo_: Permite la selección de elementos que están dentro de entidades cerradas que se encuentren almacenadas en un fichero con geometría vectorial. Al ejecutar el comando, el programa abrirá el explorador de Windows para que se elija el documento desde donde leer las geometrías.
   * _Todas las entidades_: Permite la selección de todas las entidades del documento.
   * _Invertir selección_: Una vez que se ha realizado una selección de elementos, el programa permite invertir ésta, seleccionando los elementos no seleccionados anteriormente y viceversa
+  * [_Seleccionar en referencias_](../../operaciones-con-archivos/abrir-archivos-de-referencia.md#seleccionar-en-las-referencias): Si está marcada, las ventanas de selección e _Invertir selección_ actúan también sobre las referencias de dibujo. Viene desmarcada y el programa recuerda cómo se dejó.
+  * [_Copiar de referencias_](../../operaciones-con-archivos/abrir-archivos-de-referencia.md#seleccionar-en-las-referencias): Copia al dibujo actual lo seleccionado en las referencias.
 * [**Cambia código**](../../otras-herramientas/editar-elementos/cambia-codigo.md): Esta herramienta permite cambiar masivamente un código de dibujo por otro. Sólo estará activa si el documento actual es un modelo digital o un dibujo.
 * [**Seleccionar código**](../../otras-herramientas/editar-elementos/seleccionar-codigo.md): Con esta herramienta se puede generar un nuevo documento de dibujo con las entidades de los códigos seleccionados.
 * **Unir**: Se dispone de tres opciones:
