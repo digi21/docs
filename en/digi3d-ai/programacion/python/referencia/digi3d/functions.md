@@ -154,11 +154,14 @@ load_model(name, new_window=False) -> bool
 Loads a model from the project, like clicking a model in the project pane. In a photo
 project, the model name is `izquierda-derecha`, using the names of two different photos.
 
-- If a photogrammetric window is open, the model replaces the one in that window and loads in
-  the background **after the script finishes**. Check
+- If `new_window=False` and the active photogrammetric window was opened with neither a point cloud
+  model nor a stereoscopic orthophoto model, the requested model replaces the model in that window and
+  loads in the background **after the script finishes**. Check
   [`model_name`](photogrammetric-view.md#loaded-model) in a later script.
-- If no window is open, or with `new_window=True`, opens a new photogrammetric window before
-  returning control to the script.
+- If no window is open, with `new_window=True`, or if the active photogrammetric window was opened
+  with a point cloud or stereoscopic orthophoto model, opens a new photogrammetric window before
+  returning control to the script. Point cloud and stereoscopic orthophoto windows do not load
+  another model in the background.
 
 Raises `RuntimeError` if no project is loaded, and `ValueError` if the project does not contain that
 model in the selected viewpoint or the pane shows the model disabled. Returns

@@ -56,13 +56,19 @@ print(p.ground_coordinates, p.zoom)
 
 | Method | Returns | Description |
 |---|---|---|
-| `next_model()` | `bool` | Loads the next model in the project. |
-| `previous_model()` | `bool` | Loads the previous model in the project. |
-| `next_strip()` | `bool` | Loads the model in the next strip. |
-| `previous_strip()` | `bool` | Loads the model in the previous strip. |
+| `next_model()` | `bool` | Requests loading of the next model in the project. |
+| `previous_model()` | `bool` | Requests loading of the previous model in the project. |
+| `next_strip()` | `bool` | Requests loading of the model in the next strip. |
+| `previous_strip()` | `bool` | Requests loading of the model in the previous strip. |
 
-These methods return `False` if automatic model switching is enabled or a model is already
-loading. Digi3D.AI loads the model **after the script finishes**: within the same
+These methods return `False` if automatic model switching is enabled, a model is already
+loading, or the active photogrammetric window was opened with a point cloud or stereoscopic
+orthophoto model, because those windows do not load another model in the background. When the
+active photogrammetric window was opened with a point cloud or stereoscopic orthophoto model,
+[`load_model`](functions.md#load_model) opens the requested model in a new photogrammetric window.
+
+For requests accepted by `next_model`, `previous_model`, `next_strip` or `previous_strip`,
+Digi3D.AI loads the requested model **after the script finishes**: within the same
 script, `model_name` still returns the previous model. Check `model_name` or `loading_model` in
 a later script.
 

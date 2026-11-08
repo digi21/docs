@@ -55,13 +55,19 @@ print(p.ground_coordinates, p.zoom)
 
 | Método | Devuelve | Descripción |
 |---|---|---|
-| `next_model()` | `bool` | Carga el modelo siguiente del proyecto. |
-| `previous_model()` | `bool` | Carga el modelo anterior del proyecto. |
-| `next_strip()` | `bool` | Carga el modelo de la pasada siguiente. |
-| `previous_strip()` | `bool` | Carga el modelo de la pasada anterior. |
+| `next_model()` | `bool` | Solicita la carga del modelo siguiente del proyecto. |
+| `previous_model()` | `bool` | Solicita la carga del modelo anterior del proyecto. |
+| `next_strip()` | `bool` | Solicita la carga del modelo de la pasada siguiente. |
+| `previous_strip()` | `bool` | Solicita la carga del modelo de la pasada anterior. |
 
-Estos métodos devuelven `False` si está activado el cambio automático de modelos o si ya se está
-cargando un modelo. Digi3D.AI carga el modelo **después de que termine el guion**: dentro del mismo
+Estos métodos devuelven `False` si está activado el cambio automático de modelos, si ya se está
+cargando un modelo o si la ventana fotogramétrica activa se abrió con un modelo de nube de puntos o de
+ortofoto estereoscópica, porque esas ventanas no cargan otro modelo en segundo plano. Si la ventana
+fotogramétrica activa se abrió con un modelo de nube de puntos o de ortofoto estereoscópica,
+[`load_model`](functions.md#load_model) abre el modelo solicitado en una ventana fotogramétrica nueva.
+
+Para las solicitudes aceptadas por `next_model`, `previous_model`, `next_strip` o `previous_strip`,
+Digi3D.AI carga el modelo solicitado **después de que termine el guion**: dentro del mismo
 guion, `model_name` sigue devolviendo el modelo anterior. Comprueba `model_name` o `loading_model` en
 un guion posterior.
 

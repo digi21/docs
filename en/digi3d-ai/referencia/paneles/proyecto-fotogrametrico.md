@@ -74,6 +74,8 @@ The toolbar controls pane contents.
 
 Arrow buttons are enabled only with a loaded project and an open photogrammetric window.
 
+A photogrammetric window opened with a point cloud or stereoscopic orthophoto model does not load another model in the background. If the active photogrammetric window was opened with a point cloud or stereoscopic orthophoto model, clicking a model opens it in a new photogrammetric window, even with **Open in new window** disabled, and the arrows do not load any model.
+
 ## Showing the pane
 
 Show it in either way:

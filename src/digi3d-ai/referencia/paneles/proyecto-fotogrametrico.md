@@ -73,6 +73,8 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 
 Los botones de las flechas solo están habilitados cuando hay un proyecto fotogramétrico cargado y una ventana fotogramétrica abierta.
 
+Una ventana fotogramétrica abierta con un modelo de nube de puntos o de ortofoto estereoscópica no carga otro modelo en segundo plano. Si la ventana fotogramétrica activa se abrió con un modelo de nube de puntos o de ortofoto estereoscópica, al pulsar sobre un modelo se abre en una ventana fotogramétrica nueva, aunque **Abrir en ventana nueva** esté desactivado, y las flechas no cargan ningún modelo.
+
 ## Mostrar el panel
 
 Se puede mostrar el panel de las siguientes formas:

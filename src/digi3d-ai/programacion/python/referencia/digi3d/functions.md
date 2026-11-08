@@ -153,11 +153,14 @@ load_model(name, new_window=False) -> bool
 Carga un modelo del proyecto, igual que un clic en un modelo del panel de proyectos. En un proyecto de
 fotos, el nombre del modelo es `izquierda-derecha`, con los nombres de dos fotos distintas.
 
-- Si hay una ventana fotogramétrica abierta, el modelo sustituye al de esa ventana y se carga en
+- Si `new_window=False` y la ventana fotogramétrica activa no se abrió con un modelo de nube de puntos
+  ni de ortofoto estereoscópica, el modelo solicitado sustituye al modelo de esa ventana y se carga en
   segundo plano **después de que termine el guion**. Comprueba
   [`model_name`](photogrammetric-view.md#modelo-cargado) en un guion posterior.
-- Si no hay ninguna ventana, o con `new_window=True`, abre una ventana fotogramétrica nueva antes de
-  devolver el control al guion.
+- Si no hay ninguna ventana, con `new_window=True`, o si la ventana fotogramétrica activa se abrió con
+  un modelo de nube de puntos o de ortofoto estereoscópica, abre una ventana fotogramétrica nueva antes
+  de devolver el control al guion. Las ventanas de nube de puntos y de ortofoto estereoscópica no
+  cargan otro modelo en segundo plano.
 
 Lanza `RuntimeError` si no hay ningún proyecto cargado y `ValueError` si el proyecto no tiene ese
 modelo en el punto de vista seleccionado o si el panel muestra el modelo deshabilitado. Devuelve
