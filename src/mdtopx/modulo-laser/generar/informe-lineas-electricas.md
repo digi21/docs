@@ -9,7 +9,8 @@ Hace el informe de las líneas eléctricas de una nube de puntos ya clasificada.
 * las distancias reglamentarias al terreno, al arbolado y a los edificios según la ITC-LAT 07 del Reglamento de líneas eléctricas de alta tensión (Real Decreto 223/2008);
 * los árboles cercanos a la línea y su riesgo;
 * un ráster de la distancia de la vegetación a los conductores;
-* si se piden, los [perfiles de cada línea](#los-perfiles), con los objetos que hay debajo y su distancia vertical a los conductores.
+* si se piden, los [perfiles de cada línea](#los-perfiles), con los objetos que hay debajo y su distancia vertical a los conductores;
+* si se pide, un [archivo IFC](#el-archivo-ifc) con la línea.
 
 La línea se calcula de nuevo con los puntos de sus clases (conductor, cable de guarda y torre) y la nube no cambia. Por eso se puede repetir el informe con otras tensiones, otro viento u otros márgenes sin volver a clasificar.
 
@@ -27,6 +28,7 @@ Los archivos se escriben en la carpeta elegida o, si no se elige ninguna, junto 
 | `<nombre>_distancias.tif` | GeoTIFF con la distancia de la vegetación al conductor más cercano en cada celda. Las celdas sin vegetación quedan sin dato. |
 | `<nombre>_riesgo.tif`, con su `.ORT` y su `.TFW` | El riesgo por colores: rojo, invade la distancia reglamentaria; naranja, riesgo alto; amarillo, medio; verde, bajo. Se puede cargar en MDTopX como ortofoto. |
 | `<nombre>_informe_perfiles.csv` | Con los perfiles, sus distancias verticales a los objetos. |
+| `<nombre>_informe.ifc` | Si se pide, la línea como [modelo IFC](#el-archivo-ifc). |
 
 Además se abre un documento nuevo, *Informe de líneas eléctricas de …*, con el vectorial:
 
@@ -108,6 +110,31 @@ Las columnas van en los apoyos, en las distancias verticales y cada cierto núme
 **Distancia vertical.** De cada punto de un objeto, la diferencia de cota con su conductor, que es el que no es de guarda más cercano en planta (y, de los que están a 1 m más o menos de ese, el más bajo). Es negativa si el punto está más alto que el conductor. No se mide hasta el conductor más bajo de todos: con las fases a los dos lados de la torre, un árbol que está bajo una fase alta no está a la distancia de la fase baja del otro lado. De cada objeto (las columnas seguidas con objetos, con huecos de 2 m como mucho) se da la menor; de un objeto más largo que **Columnas de la guitarra cada**, la menor de cada uno de esos tramos.
 
 **Riesgo.** La distancia vertical se compara con la distancia reglamentaria de su línea: la del arbolado para la vegetación, y la de puntos no accesibles para los edificios y los demás objetos. Como en los árboles: invade si es menor; alto, si es menor que la reglamentaria más el margen de riesgo alto; medio, si es menor que la reglamentaria más el de riesgo medio; bajo, el resto.
+
+## El archivo IFC
+
+Con **Archivo IFC** en el cuadro de diálogo, el informe escribe `<nombre>_informe.ifc`, un modelo IFC 4.3 de la línea que se puede abrir en un visor BIM. Contiene:
+
+| Elemento | Clase IFC | Geometría |
+|---|---|---|
+| Conductores y cables de guarda | `IfcCableSegment` (`CONDUCTORSEGMENT`) | Un tubo del diámetro elegido a lo largo de cada cable, de una pieza por los vanos seguidos. |
+| Apoyos de celosía | `IfcElementAssembly` (`PYLON`) | Un tronco de pirámide con la base, los anchos y la conicidad medidos, y una caja para la cabeza. |
+| Postes | `IfcElementAssembly` (`MAST`) | Igual que los de celosía, con sus medidas. |
+| Árboles que invaden la distancia reglamentaria (opcional) | `IfcGeographicElement` (`VEGETATION`) | Un prisma de la altura del árbol y de planta cuadrada con el área de su copa, centrado en su cima. |
+| Edificios que invaden la distancia reglamentaria (opcional) | `IfcBuildingElementProxy` | Un prisma de 1 m de lado en su punto más cercano al conductor. |
+| Terreno del corredor (opcional) | `IfcGeographicElement` (`TERRAIN`) | Una malla de celdas de 5 m con la cota del suelo, hasta el ancho de análisis a cada lado de los conductores exteriores. |
+
+Los apoyos sin estructura (los que solo se deducen de los extremos de sus conductores) no se incluyen, porque no tienen medidas con las que hacer un sólido.
+
+Cada elemento lleva su nombre (`C1`, `G1`, `A12`, `Arbol 7`…) y un conjunto de propiedades, `MDTopX_LineaElectrica`:
+
+| Elemento | Propiedades |
+|---|---|
+| Cables | `Tipo`, `Linea`, `TensionMasElevada_kV`, `Longitud_m`. |
+| Apoyos | `Tipo`, `Modelo`, `Funcion`, `Linea`, `TensionMasElevada_kV`, `Altura_m`, `AlturaAmarre_m`, `Deflexion_grados`, `Desplome_mm_m`, `Vanos`. |
+| Árboles y edificios | `Distancia_m`, `DistanciaReglamentaria_m`, `Altura_m`, `Vano`, `Linea`. |
+
+Las coordenadas del archivo son locales, respecto al primer apoyo redondeado al kilómetro en planta y a la centena de metros en cota. Ese origen se guarda en la georreferencia del modelo (`IfcMapConversion`), de modo que un visor que la use coloca la línea en sus coordenadas reales.
 
 ## Medidas
 
@@ -295,3 +322,9 @@ La tensión de cada línea decide sus distancias reglamentarias y el conductor t
 * **Escala horizontal 1:** (por defecto 2000) **vertical 1:** (por defecto 500): las escalas del dibujo. Los textos de la guitarra miden 2 mm y sus filas, 15 mm, en el papel a la escala horizontal.
 * **Columnas de la guitarra cada** (por defecto 20 m): además de las de los apoyos y de las distancias verticales.
 * **Códigos…**: abre un cuadro con el código de cada elemento del [dibujo de los perfiles](#los-perfiles), agrupados en perfil, apoyos, objetos, distancias verticales y guitarra. Cada código tiene de 1 a 6 caracteres, sin espacios. **Valores por defecto** pone los de la tabla.
+
+### IFC
+
+* **Archivo IFC (`<nombre>_informe.ifc`), cables de diámetro** (por defecto 0,02 m): escribe el [archivo IFC](#el-archivo-ifc), con los conductores y los cables de guarda de ese diámetro. Sin esta casilla, las otras opciones del grupo no están disponibles.
+* **Árboles y edificios que invaden**: los añade al archivo.
+* **Terreno del corredor**: añade el terreno al archivo, que ocupa más.
