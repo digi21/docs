@@ -284,6 +284,8 @@ Una fila por cada distancia vertical de la guitarra de los [perfiles](#los-perfi
 
 ## El cuadro de diálogo
 
+![Cuadro de diálogo Informe de líneas eléctricas](../../../images/image-186.png)
+
 ### Clases LiDAR de la nube clasificada
 
 * **Conductor**, **Cable de guarda**, **Torre** y **Suelo**: las clases de la nube (por defecto 14, 13, 15 y 2, las mismas de [Líneas eléctricas](lineas-electricas.md)). Tienen que ser distintas.
