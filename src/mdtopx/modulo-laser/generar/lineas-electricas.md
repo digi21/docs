@@ -132,6 +132,8 @@ Las filas con el mismo nombre son un solo tipo, pero cada fila es una forma dist
 
 ## El cuadro de diálogo
 
+![Cuadro de diálogo Líneas eléctricas](../../../images/image-187.png)
+
 ### Clases LiDAR
 
 | Clase | Por defecto | Significado |
