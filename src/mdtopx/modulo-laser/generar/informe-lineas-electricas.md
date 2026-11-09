@@ -305,6 +305,7 @@ La tensión de cada línea decide sus distancias reglamentarias y el conductor t
 ### Distancias y riesgo
 
 * **Viento de** (por defecto 120 km/h): la servidumbre con los conductores desviados por este viento. Sin marcar, los conductores se toman tal como se midieron.
+* **Valores por defecto** (botón al pie del cuadro): repone los números del cuadro. No cambia las clases, las listas, las carpetas ni las casillas. Los números se pueden escribir con coma o con punto decimal, salvo en la tensión por línea, donde se usa el punto.
 * **Margen de flecha** (por defecto 0 m): los metros que se suman a la flecha medida en el centro de cada vano. La flecha del vuelo no es la máxima que pide el reglamento (§3.2.3).
 * **Ancho de análisis** (por defecto 20 m): la distancia a cada lado de los conductores exteriores en la que se buscan árboles y edificios.
 * **Celda del ráster** (por defecto 1 m, como poco 0,1 m): el tamaño de celda de los dos ráster.

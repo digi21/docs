@@ -30,6 +30,12 @@ Si no encuentra ninguna línea, no cambia nada y lo indica en la ventana de resu
 
 Con un archivo, la clase de cada punto y los sintéticos se ponen en la nube abierta, y se puede deshacer. Con un proyecto, se guardan en cada archivo.
 
+### Los objetos
+
+La herramienta crea los objetos de la nube, que se ven y se seleccionan con **Editar objetos**: uno por cada apoyo con estructura y uno por cada conductor o cable de guarda de cada vano. Cada objeto tiene los puntos reales y los sintéticos de ese elemento.
+
+Los objetos nuevos sustituyen a los que tuviera la nube, también a los de otras herramientas como la clasificación urbana. Con un archivo, se guardan al guardar la nube. Con un proyecto, cada archivo guarda los suyos en un `.OBJ` junto a él, así que un conductor repartido entre dos archivos es un objeto en cada uno.
+
 ### La ventana de resultados
 
 Al terminar, la ventana de resultados muestra:
@@ -154,6 +160,8 @@ Las clases por defecto son las de ASPRS (14, 13 y 15). Las sintéticas son las m
 Las listas son números de 0 a 255 separados por comas. Se pueden escribir o elegir con el botón **…**, que abre la lista de las clases que hay en la nube (o en el proyecto) con sus puntos; las que ya están en el campo salen elegidas, y se eligen varias con Ctrl o Mayús.
 
 ### Umbrales
+
+Los valores se pueden escribir con coma o con punto decimal. Si un valor no es válido, el aviso dice de qué campo se trata. El botón **Valores por defecto** repone los umbrales de esta tabla; no cambia las clases, los códigos, el archivo de tipos ni las casillas.
 
 | Umbral | Por defecto | Significado |
 |---|---|---|
