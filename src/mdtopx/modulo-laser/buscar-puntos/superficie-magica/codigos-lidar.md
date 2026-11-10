@@ -9,8 +9,16 @@ Desde este cuadro de diálogo se podrán cambiar los valores de clasificación q
 
 Estos valores son los siguientes:
 
-* **Hundidos**: Estos puntos son aquellos cuya cota es muy inferior a la del entorno, producido por algún error en la medida.
-* **Paredes**: Corresponde con los puntos medidos sobre las fachadas de los edificios, de poca utilidad posterior.
-* **Aéreos**: Al igual que en los puntos hundidos, estos puntos tienen un valor de cota muy superior a la del entorno, producido por algún error en la medida o por el rebote del rayo sobre un objeto aéreo.
-* **Otros**: Son aquellos puntos que no han podido ser identificados como vegetación, suelo o edificación, por ejemplo, mobiliario urbano.
-* **Puentes**: Puntos identificados sobre estructuras elevadas sobre el suelo, pero conectadas con éste por algún otro lugar.
+| Código | Por defecto | Qué es |
+|---|---|---|
+| **Hundidos** | 7 | Los puntos cuya cota es muy inferior a la del entorno, producido por algún error en la medida. |
+| **Paredes** | 12 | Los puntos medidos sobre las fachadas de los edificios. |
+| **Aéreos** | 13 | Los puntos cuya cota es muy superior a la del entorno, producido por algún error en la medida o por el rebote del rayo sobre un objeto aéreo. |
+| **Otros** | 90 | Los puntos que no han podido ser identificados como vegetación, suelo o edificación, por ejemplo, mobiliario urbano. |
+| **Puentes** | 250 | Los tableros de los puentes sobre cauces y vías y las pasarelas, con sus pretiles y barandillas. La clase estándar de LAS para los tableros de puente es la 17. |
+| **Calzada** | 35 | Las calles y carreteras: el asfalto y, en la zona urbana, las calles de fachada a fachada con sus aceras. |
+| **Vehículos** | 103 | Los vehículos sobre la calzada o junto a ella. |
+| **Cables** | 14 | Los conductores y cables de guarda de las líneas eléctricas. Sus puntos sintéticos llevan esta clase más 32 (46 por defecto). |
+| **Apoyos** | 15 | Las torres y postes de las líneas eléctricas. |
+
+Ver qué clasifica la herramienta con cada código en [Superficie mágica](README.md#qué-clasifica).
