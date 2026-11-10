@@ -1,6 +1,6 @@
 # Photogrammetric project
 <!-- id: proyecto-fotogrametrico -->
-<!-- origen: de4c9151d41e2a4ebdf74ecbfe7bf7af833f3fa7 -->
+<!-- origen: 0f46839b0f30695f4890a64917754d6304fc4f21 -->
 
 ![Photogrammetric project pane with one strip and two models](../../../images/panel-proyecto-fotogrametrico.png)
 
@@ -49,6 +49,7 @@ The identity of a remote project is its URL without the authorization query. Dig
 * When the server rejects the authorization, Digi3D.AI displays the warning box “Remote project: authorization rejected” with the text “The server has rejected the authorization (SAS) for *URL*: it is not valid or has expired. Renew it with ‘Renew authorization (SAS)...’ in the Photogrammetric project panel.” Digi3D.AI displays one box per container while the program runs. After you renew the authorization of that container, Digi3D.AI can display the box again.
 * When an image changes on the server while Digi3D.AI has it open, it displays the warning box “Remote project: files changed on the server” with the text “A file of the remote project *URL* changed on the server while Digi3D had the file open. Digi3D has stopped reading the modified file. Close the photogrammetric windows of the project and reload the project.” Digi3D.AI displays one box per container while the program runs.
 * If Digi3D.AI cannot initialize some models of a remote project, it keeps them in the model list, tries to initialize each one again when it is opened and adds to the Tasks pane a warning for each distinct error message, with the number of affected models and the name of the first one.
+* If the remote project is an Inpho project with **Omit models for which no photo is available** enabled, a Summit project or a PhotoScan project, and Digi3D.AI cannot get the list of blobs in the images folder in Azure Blob Storage, it shows every model, including those with unpublished images, and adds a notice to the Tasks pane. See [How the URL of each image is calculated](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#how-the-url-of-each-image-is-calculated).
 * If a downloaded file changes on the server, Digi3D.AI adds a warning to the Tasks pane stating whether it updates or keeps the local copy. If Digi3D.AI cannot query the server and uses a local copy, it adds a warning with the reason. See [Which copy is used when the project loads](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#which-copy-is-used-when-the-project-loads).
 
 ## Models that cannot be loaded

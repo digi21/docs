@@ -1,8 +1,8 @@
 # Omit models for which no photo is available
 <!-- id: omitir-modelos-para-los-cuales-no-hay-foto -->
-<!-- origen: 227ffffecd2d4bbf03b088954d7c2c89b87d4221 -->
+<!-- origen: e0dc30b2214aa3017283f75c4d6131d855ad9a2a -->
 
-If enabled, loading a photogrammetric project omits models for which any photo could not be found.
+If enabled, loading a photogrammetric project omits models for which any photo could not be found. In a remote Azure Blob Storage project, Digi3D.AI finds the photos with the list of blobs in their folder, which requires a shared access signature (SAS) with Read and List permissions (`sp=rl`) or a container with the anonymous access level “Container”; if it cannot get the list, it shows every model and adds a notice to the Tasks pane (see [How the URL of each image is calculated](../../../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#how-the-url-of-each-image-is-calculated)).
 
 ## Possible values
 

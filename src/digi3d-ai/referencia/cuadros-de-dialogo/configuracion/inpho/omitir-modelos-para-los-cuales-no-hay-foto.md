@@ -1,7 +1,7 @@
 # Omitir modelos para los cuales no hay foto
 <!-- id: omitir-modelos-para-los-cuales-no-hay-foto -->
 
-Si se activa, al cargar un proyecto fotogramétrico no se mostrarán los modelos para los cuales no se ha localizado alguna de sus fotos.
+Si se activa, al cargar un proyecto fotogramétrico no se mostrarán los modelos para los cuales no se ha localizado alguna de sus fotos. En un proyecto remoto de Azure Blob Storage, Digi3D.AI localiza las fotos con la lista de blobs de su carpeta, que requiere una firma de acceso compartido (SAS) con permisos de lectura y de listado (`sp=rl`) o un contenedor con el nivel de acceso anónimo «Contenedor»; si no puede obtener la lista, muestra todos los modelos y añade un aviso al panel Tareas (consulta [Cómo se calcula la URL de cada imagen](../../../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#cómo-se-calcula-la-url-de-cada-imagen)).
 
 ## Valores posibles
 
