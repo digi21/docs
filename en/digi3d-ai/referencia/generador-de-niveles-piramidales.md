@@ -1,6 +1,6 @@
 # Pyramid Level Generator
 <!-- id: generador-de-niveles-piramidales -->
-<!-- origen: 68b96138d6bb2dfdfcd402ed1df0003064a600cd -->
+<!-- origen: 9727ac7f7cb838733eb06e7f9e90aea6b1c5d305 -->
 
 ![Pyramid Level Generator](../../images/generadordenivelespiramidales.png)
 
@@ -14,14 +14,19 @@ It also requires pyramid levels: copies of the image at different resolutions. L
 
 Loading an untiled TIFF opens [Image not prepared for Digi3D.AI found](cuadros-de-dialogo/localizada-una-imagen-no-preparada-para-digi3d-ai.md), offering conversion.
 
-A tiled TIFF without pyramid levels triggers **no conversion question**, since it is already compatible.
+A tiled TIFF without pyramid levels is already compatible, so Digi3D.AI does not ask whether to convert it. It displays the “Compatible image without pyramid levels” dialog, which offers to generate the pyramid levels:
+
+* If the image is a local TIFF file (`.tif` or `.tiff`) made up of a single file, with 8 or 16 bits per sample (no 12-bit JPEG), square tiles of even width and the samples of each pixel stored together, Digi3D.AI rewrites it as a COG (*Cloud Optimized GeoTIFF*) with the pyramid levels inside the same file, under the original name. It copies the tiles of the full level without recompressing them and generates the reduced levels with the compression of the full level (with quality 75 if it is JPEG). Digi3D.AI keeps the original file in the same folder with the first free suffix `__0`, `__1`… appended to its full name (for example, `foto.tif__0`).
+* If the image does not meet those requirements, or is not a TIFF file, Digi3D.AI generates the pyramid levels in separate files (`.tif_2`, `.tif_4`…).
+
+Digi3D.AI opens without modifying it a tiled TIFF image that already has internal pyramid levels, even if it is not a COG.
 
 Use Pyramid Level Generator to batch:
 
 * Convert incompatible untiled TIFFs to tiled, Digi3D.AI-compatible images and create pyramid levels.
-* Create levels for already tiled images. These images remain unchanged: external levels are created beside the original, even with an **Output directory** specified.
+* Create levels for already tiled images. With [Generate self-contained pyramidal levels in the original image if possible.](#generate-self-contained-pyramidal-levels-in-the-original-image-if-possible) enabled, the program rewrites those images as COG. With the option disabled, the program does not modify the image and creates external levels beside the original, even with an **Output directory** specified.
 
-Already tiled images with levels are skipped and reported in Results. A tiled TIFF containing more than one image is considered to have pyramid levels.
+With self-contained levels disabled, for an already tiled image with levels, the program neither modifies the image nor generates its pyramid levels again, and reports this in Results. In that case, a tiled TIFF containing more than one image is considered to have pyramid levels.
 
 ## Drag TIFF image files to be imported to this window
 
@@ -48,7 +53,9 @@ Optional. **...** opens folder selection.
 * With a directory, creates resulting images there using original names. Creates a missing directory's last path component only: its parent must exist. Supports [substitutions](cuadros-de-dialogo/sustituidores.md); a changed path is shown in Results.
 * Empty, renames each original by appending `__0` after the extension (or `__1`, `__2`… if necessary), such as `foto.tif__0`, then writes the new image under the original name.
 
-Output directory applies only to images being tiled. Their external levels are created beside the resulting image, from that image. Already tiled images get external levels beside the original.
+With self-contained levels disabled, the output directory applies only to images being tiled. Their external levels are created beside the resulting image, from that image. Already tiled images get external levels beside the original.
+
+With self-contained levels enabled, the output directory also applies to images that were already tiled and that the program rewrites as COG, and to the unchanged copy of an image that is already a COG. The program overwrites a file with the same name in the output directory.
 
 ## Tile size
 
@@ -60,7 +67,8 @@ Select 1, 2, 4, 8… through 8192. Each level halves the previous image dimensio
 
 ## Compress in JPEG
 
-Enable JPEG compression for generated images. Off by default. Applies to tiled images, .pyr level 2 and individual pyramid TIFFs. Embedded levels and .pyr levels 4 and above remain uncompressed.\
+Enable JPEG compression for generated images. Off by default. Applies to tiled images, .pyr level 2 and individual pyramid TIFFs. .pyr levels 4 and above remain uncompressed.\
+With **Compress in JPEG** and self-contained pyramid levels enabled, the program compresses all the reduced image levels with JPEG and the selected quality if the image has 8 bits per sample; with 16 bits per sample, it saves the reduced levels uncompressed. For an image that was already tiled, the program copies the tiles of the full level without recompressing them.\
 Usually unnecessary: Digi3D.AI generates and loads BigTIFF without a file size limit.
 
 ### Quality
@@ -79,13 +87,20 @@ Applies only to newly tiled images with 1 or 3 channels. One-channel images use 
 
 ## Generate self-contained pyramidal levels in the original image if possible.
 
-Enabled by default. Embeds levels in the resulting image, producing one TIFF with tiles and levels.
+Enabled by default. Embeds levels in the resulting image, producing one TIFF with tiles and levels. That file is a COG (*Cloud Optimized GeoTIFF*): all the image directories are at the start of the file and the tiles go from the smallest level to the full level. This organization lets Digi3D.AI read the image from a URL downloading only the tiles it needs (see [Publishing a photogrammetric project in Azure Blob Storage and loading it from a URL](../procedimientos/publicar-proyecto-fotogrametrico-remoto.md)).
 
-Possible only when creating an image from an untiled original. Already tiled originals remain unchanged and always receive external levels.
+The result depends on the input image:
+
+* **Image without tiles**: the program writes the tiled TIFF with its pyramid levels to a temporary file with the output name and the extension `.cog.tmp`, reorganizes it as COG in the output file and deletes the temporary file.
+* **Tiled image**: the program copies the tiles of the full level without recompressing them, generates the reduced levels again with the selected compression (even if the image already had internal levels) and writes the COG.
+* **Image that is already a COG**: the program does not modify it and writes to Results “The file *file* is already a COG (Cloud Optimized GeoTIFF). It was not modified.” If you specified an **Output directory** and the output file is a different file from the input, the program copies the image to the output file unchanged.
+* **Tiled image with each color channel stored in a separate plane, with non-square tiles or with an odd number of pixels per tile row**: the program does not convert it to COG and writes the reason to Results, with a message that starts with “Warning:”. It keeps the internal pyramid levels the image has; if it has no internal levels, it creates external levels as the next section describes.
+
+If the conversion to COG fails or you cancel it, the program restores the initial name of the original file, if it had renamed it. If the conversion fails, the program also writes to Results “Error: Unable to create the COG (Cloud Optimized GeoTIFF): *file*. The original image was not modified.”; if you cancel it, it does not write that message.
 
 ### If self-contained pyramid levels are not created:
 
-Select the external level format:
+Select the external level format. The selected format is used when self-contained levels are disabled or when the program cannot convert a tiled image to COG:
 
 * **Create a .pyr file** (default): one file named after the image with .pyr, such as `foto.pyr`.
 * **Create a TIFF file for each pyramid level**: one per level, with `.tif_` followed by the level, such as `foto.tif_2`, `foto.tif_4`…

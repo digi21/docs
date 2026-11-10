@@ -1,6 +1,6 @@
 # Module functions
 <!-- id: functions -->
-<!-- origen: a578fa8501030390236e3f6a94c4b0cec11a7169 -->
+<!-- origen: 120d2b2e2bd43df0f041ef3531589340465c8f44 -->
 
 Module: `digi3d`
 
@@ -114,7 +114,7 @@ file is read-only.
 ### open_project
 
 ```python
-open_project(path) -> bool
+open_project(path, images_url=None) -> bool
 ```
 
 Loads a photogrammetric project in the project pane, like the pane **Load** button,
@@ -123,7 +123,16 @@ notification starting with `Warning:` in the script output. If the project has n
 system, the function loads it with a local system, without creating the `.prj` file, as shown in the
 [Opening without dialogs](#opening-without-dialogs) table.
 
-If it loads the project, the function saves its path as the last project in the pane, like the **Load** button.
+| Parameter | Type | Description |
+|---|---|---|
+| `path` | `str` | Path of the project file, or `http` or `https` URL of a project published in Azure Blob Storage or on a server that answers byte-range requests (the `Range` header), with or without the shared access signature (SAS) query. |
+| `images_url` | `str` or `None` | URL of the folder of the project images, with its own SAS if it needs one. `None` or an empty string means the images are in the project folder. |
+
+`images_url` is valid only if `path` is an `http` or `https` URL; if it is not and `images_url` is neither `None` nor an empty string, the function raises `ValueError`.
+
+With a URL, the function downloads the project to a local copy. If `path` has no query, `images_url` is `None` or empty and a saved credential of that project exists, Digi3D.AI uses the URLs, queries and published image extension of that credential. If `path` has a query or `images_url` contains a URL, Digi3D.AI uses the URLs and queries supplied in those arguments and takes only the published image extension from the saved credential. If there is neither a query nor a credential, it loads the URL without a query. Digi3D.AI saves the queries encrypted in the current _Windows_ user registry, and the pane's progress message omits the query from the project URL. See [Publishing a photogrammetric project in Azure Blob Storage and loading it from a URL](../../../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md).
+
+If it loads the project, the function saves its path as the last project in the pane, like the **Load** button. With a URL, it saves the URL without the query.
 With [Store the photogrammetric project or the photogrammetric model as a reference file](../../../../referencia/cuadros-de-dialogo/configuracion/archivos-de-referencia/almacenar-el-proyecto-o-el-modelo-fotogrametrico.md)
 enabled, if a drawing window is open and the drawing file of the last drawing window that
 had focus is not read-only, it also saves the path in the [reference files file](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#photogrammetric-project-or-model)
@@ -178,6 +187,11 @@ import digi3d
 if digi3d.open_project(r"C:\Proyectos\vuelo.d3dprj"):
     modelos = digi3d.project()["models"]
     digi3d.load_model(modelos[0]["name"])
+
+# Project published in Azure Blob Storage, with the images in another folder.
+digi3d.open_project(
+    "https://cuenta.blob.core.windows.net/vuelos/vuelo1/vuelo1.d3dprj?sv=…&sr=c&sp=r&sig=…",
+    images_url="https://cuenta.blob.core.windows.net/fotos/vuelo1/?sv=…&sr=c&sp=r&sig=…")
 ```
 
 ## Messages and notifications

@@ -1,10 +1,10 @@
 # Photogrammetric project
 <!-- id: proyecto-fotogrametrico -->
-<!-- origen: bbb7fa73d8535c3da03574581c44bb81a400274c -->
+<!-- origen: de4c9151d41e2a4ebdf74ecbfe7bf7af833f3fa7 -->
 
 ![Photogrammetric project pane with one strip and two models](../../../images/panel-proyecto-fotogrametrico.png)
 
-Creates photogrammetric project files and loads projects created by other programs.
+Creates photogrammetric project files and loads projects created by other programs. It also loads a project published at a URL (see [Project published at a URL](#project-published-at-a-url)).
 
 A loaded project appears as a tree with one branch per strip listed in the project file and one leaf per model.
 
@@ -22,7 +22,34 @@ With **Configuration**'s [Store the photogrammetric project or the photogrammetr
 
 With **Store the photogrammetric project or the photogrammetric model as a reference file** enabled, opening a drawing file with an associated project loads it if the pane has no project. If another project is loaded, Digi3D.AI asks whether to replace it with the drawing file's project. If the reference file list specifies a model, loading it depends on the conditions described in that section. [Photogrammetric project or model](../archivos/archivo-de-archivos-de-referencia.md#photogrammetric-project-or-model) lists cases where the associated project is not loaded. If each work area has its own drawing file and project, associate each pair once: enable **Store the photogrammetric project or the photogrammetric model as a reference file**, activate that area's writable drawing file window and load the project.
 
+If the associated project is a remote project, the reference files file saves the project URL without the authorization query. When opening the drawing file, Digi3D.AI loads the project with the saved credential of that URL. If there is no saved credential, it opens the [Load a project from a URL](../cuadros-de-dialogo/cargar-proyecto-remoto.md) dialog with the URL in the **Project URL** field.
+
 With **Store the photogrammetric project or the photogrammetric model as a reference file** enabled, **Load**'s file dialog proposes the project associated with the last focused drawing window's file, if one is associated. It proposes the last loaded project if the option is disabled, no drawing window is open or the last focused drawing file has no associated project.
+
+## Project published at a URL
+
+The pane loads a photogrammetric project published in Azure Blob Storage or on any HTTP or HTTPS server that answers byte-range requests. Digi3D.AI downloads the project file and the model files to a local copy, and reads the images over the URL without downloading them whole. See [Publishing a photogrammetric project in Azure Blob Storage and loading it from a URL](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md) for which files to upload, how the URL of each image is calculated and how to generate the authorization.
+
+The **Load** button is a split button. Clicking the button opens the open file dialog, which does not suggest the URL of a remote project. The arrow of the button opens a menu with these four commands:
+
+| Command | What it does | When it is enabled |
+| :--- | :--- | :--- |
+| **Load project from a URL...** | Opens the [Load a project from a URL](../cuadros-de-dialogo/cargar-proyecto-remoto.md) dialog, with empty fields. | If no model is loading in the background and at least one installed sensor can load projects from a URL. When executed, it requires the photogrammetry license module. |
+| **Renew authorization (SAS)...** | Opens the same dialog in [renewal mode](../cuadros-de-dialogo/cargar-proyecto-remoto.md#authorization-renewal-mode), with the URLs and extension of the saved credential. When you click **OK**, if the fields pass validation, Digi3D.AI saves the new authorization queries without downloading any files. | If a remote project is loaded and no model is loading in the background. |
+| **Open the project local folder** | Opens in File Explorer the folder with the local copy of the project. If the folder does not exist, it displays “The local folder does not exist yet. Digi3D creates it when it downloads the project.” | Same as **Renew authorization (SAS)...**. |
+| **Discard the project local copy...** | Deletes the local copy of the project and loads it again from the server. See [Discarding the local copy](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#discarding-the-local-copy). | Same as **Renew authorization (SAS)...**. |
+
+**Discard the project local copy...** rejects the command with “Close the photogrammetric windows of the project *URL* before discarding its local copy.” if any photogrammetric window has a model of the project or a file of the local folder loaded. Otherwise it displays the “Discard the local copy of the project?” box, which shows the folder to be deleted and the project URL, with the **Discard the local copy** and **Cancel** buttons. With **Discard the local copy**, Digi3D.AI empties the pane, deletes the local folder and loads the project again with the saved credential.
+
+The identity of a remote project is its URL without the authorization query. Digi3D.AI saves that URL as the last loaded project and in the reference files file; it never saves the query in those places. Digi3D.AI saves the authorization query encrypted, in a credential in the current _Windows_ user registry (see [Authorization and saved credentials](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#authorization-and-saved-credentials)).
+
+### Remote project warnings
+
+* At startup, Digi3D.AI adds to the [Tasks](tareas.md) pane a warning for each saved credential whose authorization (SAS) has expired (“Remote project: authorization expired”) or expires in less than 24 hours (“Remote project: authorization expires in less than 24 hours”). Renew the authorization with **Renew authorization (SAS)...**.
+* When the server rejects the authorization, Digi3D.AI displays the warning box “Remote project: authorization rejected” with the text “The server has rejected the authorization (SAS) for *URL*: it is not valid or has expired. Renew it with ‘Renew authorization (SAS)...’ in the Photogrammetric project panel.” Digi3D.AI displays one box per container while the program runs. After you renew the authorization of that container, Digi3D.AI can display the box again.
+* When an image changes on the server while Digi3D.AI has it open, it displays the warning box “Remote project: files changed on the server” with the text “A file of the remote project *URL* changed on the server while Digi3D had the file open. Digi3D has stopped reading the modified file. Close the photogrammetric windows of the project and reload the project.” Digi3D.AI displays one box per container while the program runs.
+* If Digi3D.AI cannot initialize some models of a remote project, it keeps them in the model list, tries to initialize each one again when it is opened and adds to the Tasks pane a warning for each distinct error message, with the number of affected models and the name of the first one.
+* If a downloaded file changes on the server, Digi3D.AI adds a warning to the Tasks pane stating whether it updates or keeps the local copy. If Digi3D.AI cannot query the server and uses a local copy, it adds a warning with the reason. See [Which copy is used when the project loads](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#which-copy-is-used-when-the-project-loads).
 
 ## Models that cannot be loaded
 
@@ -62,7 +89,7 @@ The toolbar controls pane contents.
 ### Buttons
 
 * **New**: creates a photogrammetric project file.
-* **Load**: loads an existing project. Without a photogrammetry license, loads nothing.
+* **Load**: split button. Clicking the button opens the open file dialog and loads the photogrammetric project file you select. Without a photogrammetry license, loads nothing. The arrow of the button opens a menu with the commands for projects published at a URL (see [Project published at a URL](#project-published-at-a-url)).
 * **Unload**: unloads the project.
 
 **Load** and **Unload** are disabled while a model loads in the background.

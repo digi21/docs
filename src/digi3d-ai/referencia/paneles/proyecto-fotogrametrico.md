@@ -3,7 +3,7 @@
 
 ![Panel Proyecto fotogramétrico con una pasada y dos modelos](../../../images/panel-proyecto-fotogrametrico.png)
 
-Permite crear archivos de proyecto fotogramétrico, así como cargar archivos de proyectos fotogramétricos creados por otros programas.
+Permite crear archivos de proyecto fotogramétrico, así como cargar archivos de proyectos fotogramétricos creados por otros programas. También carga un proyecto publicado en una URL (consulta [Proyecto publicado en una URL](#proyecto-publicado-en-una-url)).
 
 Una vez cargado un proyecto fotogramétrico, el contenido principal muestra un árbol con tantas ramas como pasadas se enumeren en el archivo de proyecto fotogramétrico y con tantas hojas como modelos existan en el proyecto.
 
@@ -21,7 +21,34 @@ Con la opción [Almacenar el proyecto fotogramétrico o el modelo fotogramétric
 
 Con la opción **Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia** activada, al abrir un archivo de dibujo con un proyecto fotogramétrico asociado, Digi3D.AI carga el proyecto asociado si el panel no tiene ningún proyecto cargado. Si el panel tiene cargado otro proyecto, Digi3D.AI pregunta si quieres sustituir el proyecto del panel por el proyecto asociado al archivo de dibujo. Si el archivo de archivos de referencia indica un modelo del proyecto asociado, la carga de ese modelo depende de las condiciones que describe la misma sección. La sección [Proyecto o modelo fotogramétrico](../archivos/archivo-de-archivos-de-referencia.md#proyecto-o-modelo-fotogramétrico) del archivo de archivos de referencia enumera los casos en los que Digi3D.AI no carga el proyecto asociado. Si cada zona de trabajo tiene su archivo de dibujo y su proyecto, asocia una vez el proyecto de cada zona a su archivo de dibujo: activa la opción **Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia**, activa la ventana de ese archivo de dibujo, que no debe ser de solo lectura, y carga el proyecto.
 
+Si el proyecto asociado es un proyecto remoto, el archivo de archivos de referencia guarda la URL del proyecto sin consulta de autorización. Al abrir el archivo de dibujo, Digi3D.AI carga el proyecto con la credencial guardada de esa URL. Si no hay credencial guardada, abre el cuadro [Cargar un proyecto desde una URL](../cuadros-de-dialogo/cargar-proyecto-remoto.md) con la URL en el campo **URL del proyecto**.
+
 Con la opción **Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia** activada, el cuadro de abrir archivo del botón **Cargar** propone el proyecto asociado al archivo de dibujo de la última ventana de dibujo que ha tenido el foco, si ese archivo de dibujo tiene un proyecto asociado. El cuadro de abrir archivo propone el último proyecto cargado si la opción **Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia** está desactivada, si no hay ninguna ventana de dibujo abierta o si el archivo de dibujo de la última ventana de dibujo que ha tenido el foco no tiene un proyecto asociado.
+
+## Proyecto publicado en una URL
+
+El panel carga un proyecto fotogramétrico publicado en Azure Blob Storage o en cualquier servidor HTTP o HTTPS que atienda peticiones de un rango de bytes. Digi3D.AI descarga el archivo de proyecto y los archivos de modelo a una copia local, y lee las imágenes por URL sin descargarlas enteras. Consulta [Publicar un proyecto fotogramétrico en Azure Blob Storage y cargarlo desde una URL](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md) para saber qué archivos subir, cómo se calcula la URL de cada imagen y cómo generar la autorización.
+
+El botón **Cargar** es un botón dividido. Un clic en el botón abre el cuadro de abrir archivo, que no propone la URL de un proyecto remoto. La flecha del botón abre un menú con estas cuatro órdenes:
+
+| Orden | Qué hace | Cuándo está habilitada |
+| :--- | :--- | :--- |
+| **Cargar proyecto desde una URL...** | Abre el cuadro de diálogo [Cargar un proyecto desde una URL](../cuadros-de-dialogo/cargar-proyecto-remoto.md), con los campos vacíos. | Si no se está cargando un modelo en segundo plano y hay instalado al menos un sensor que puede cargar proyectos desde una URL. Al ejecutarla, requiere el módulo de fotogrametría en la licencia. |
+| **Renovar la autorización (SAS)...** | Abre el mismo cuadro de diálogo en el [modo de renovación](../cuadros-de-dialogo/cargar-proyecto-remoto.md#modo-de-renovación-de-la-autorización), con las URL y la extensión de la credencial guardada. Al pulsar **Aceptar**, si los campos superan las validaciones, Digi3D.AI guarda las consultas de autorización nuevas sin descargar ningún archivo. | Si hay un proyecto remoto cargado y no se está cargando un modelo en segundo plano. |
+| **Abrir la carpeta local del proyecto** | Abre en el Explorador de archivos la carpeta con la copia local del proyecto. Si la carpeta no existe, muestra el mensaje «La carpeta local aún no existe. Digi3D la crea al descargar el proyecto.» | Igual que **Renovar la autorización (SAS)...**. |
+| **Descartar la copia local del proyecto...** | Borra la copia local del proyecto y lo vuelve a cargar desde el servidor. Consulta [Descartar la copia local](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#descartar-la-copia-local). | Igual que **Renovar la autorización (SAS)...**. |
+
+**Descartar la copia local del proyecto...** rechaza la orden con el mensaje «Cierra las ventanas fotogramétricas del proyecto *URL* antes de descartar su copia local.» si alguna ventana fotogramétrica tiene cargado un modelo del proyecto o un archivo de la carpeta local. Si no, muestra el cuadro «¿Descartar la copia local del proyecto?», que indica la carpeta que se borra y la URL del proyecto, con los botones **Descartar la copia local** y **Cancelar**. Con **Descartar la copia local**, Digi3D.AI vacía el panel, borra la carpeta local y vuelve a cargar el proyecto con la credencial guardada.
+
+La identidad de un proyecto remoto es su URL sin la consulta de autorización. Digi3D.AI guarda esa URL como último proyecto cargado y en el archivo de archivos de referencia; nunca guarda la consulta en esos sitios. Digi3D.AI guarda la consulta de autorización cifrada, en una credencial del registro del usuario de _Windows_ (consulta [Autorización y credenciales guardadas](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#autorización-y-credenciales-guardadas)).
+
+### Avisos de un proyecto remoto
+
+* Al iniciarse, Digi3D.AI añade al panel [Tareas](tareas.md) una advertencia por cada credencial guardada cuya autorización (SAS) ha caducado («Proyecto remoto: autorización caducada») o caduca en menos de 24 horas («Proyecto remoto: la autorización caduca en menos de 24 horas»). Renueva la autorización con **Renovar la autorización (SAS)...**.
+* Cuando el servidor rechaza la autorización, Digi3D.AI muestra el cuadro de advertencia «Proyecto remoto: autorización rechazada» con el texto «El servidor ha rechazado la autorización (SAS) para *URL*: no es válida o ha caducado. Renuévala con «Renovar la autorización (SAS)...» del panel Proyecto fotogramétrico.» Digi3D.AI muestra un cuadro por contenedor durante la ejecución del programa. Después de renovar la autorización de ese contenedor, Digi3D.AI puede volver a mostrar el cuadro.
+* Cuando una imagen cambia en el servidor mientras Digi3D.AI la tiene abierta, muestra el cuadro de advertencia «Proyecto remoto: archivos modificados en el servidor» con el texto «Un archivo del proyecto remoto *URL* ha cambiado en el servidor mientras Digi3D mantenía abierto el archivo. Digi3D ha dejado de leer el archivo modificado. Cierra las ventanas fotogramétricas del proyecto y vuelve a cargar el proyecto.» Digi3D.AI muestra un cuadro por contenedor durante la ejecución del programa.
+* Si Digi3D.AI no puede inicializar algunos modelos de un proyecto remoto, los mantiene en la lista de modelos, vuelve a intentar inicializar cada uno al abrirlo y añade al panel Tareas una advertencia por cada mensaje de error distinto, con el número de modelos afectados y el nombre del primero.
+* Si un archivo descargado cambia en el servidor, Digi3D.AI añade una advertencia al panel Tareas que indica si actualiza o conserva la copia local. Si Digi3D.AI no puede consultar al servidor y usa una copia local, añade una advertencia con el motivo. Consulta [Qué copia se usa al cargar el proyecto](../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md#qué-copia-se-usa-al-cargar-el-proyecto).
 
 ## Modelos que no se pueden cargar
 
@@ -61,7 +88,7 @@ Dispone de una barra de herramientas que permite interactuar con el contenido de
 ### Botones
 
 * **Nuevo**: crea un nuevo archivo de proyecto fotogramétrico.
-* **Cargar**: carga un archivo de proyecto fotogramétrico existente. Sin licencia de fotogrametría, el botón no carga nada.
+* **Cargar**: botón dividido. Un clic en el botón abre el cuadro de abrir archivo y carga el archivo de proyecto fotogramétrico que selecciones. Sin licencia de fotogrametría, el botón no carga nada. La flecha del botón abre un menú con las órdenes para proyectos publicados en una URL (consulta [Proyecto publicado en una URL](#proyecto-publicado-en-una-url)).
 * **Descargar**: descarga el proyecto fotogramétrico cargado.
 
 **Cargar** y **Descargar** están deshabilitados mientras se carga un modelo en segundo plano.

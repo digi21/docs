@@ -113,7 +113,7 @@ dibujo es de solo lectura.
 ### open_project
 
 ```python
-open_project(path) -> bool
+open_project(path, images_url=None) -> bool
 ```
 
 Carga un proyecto fotogramétrico en el panel de proyectos, igual que el botón **Cargar** del panel,
@@ -122,7 +122,16 @@ aviso que empieza por `Warning:` en la salida del guion. Si el proyecto no tiene
 coordenadas, la función lo carga con un sistema local, sin crear el archivo `.prj`, como indica la
 tabla de [Abrir sin cuadros de diálogo](#abrir-sin-cuadros-de-diálogo).
 
-Si carga el proyecto, la función guarda su ruta como último proyecto del panel, como el botón **Cargar**.
+| Parámetro | Tipo | Descripción |
+|---|---|---|
+| `path` | `str` | Ruta del archivo de proyecto, o URL `http` o `https` de un proyecto publicado en Azure Blob Storage o en un servidor que atienda peticiones de un rango de bytes (cabecera `Range`), con o sin la consulta de la firma de acceso compartido (SAS). |
+| `images_url` | `str` o `None` | URL de la carpeta de las imágenes del proyecto, con su propia SAS si la necesita. `None` o una cadena vacía indica que las imágenes están en la carpeta del proyecto. |
+
+`images_url` solo es válido si `path` es una URL `http` o `https`; si no lo es y `images_url` no es `None` ni una cadena vacía, la función lanza `ValueError`.
+
+Con una URL, la función descarga el proyecto a una copia local. Si `path` no tiene consulta, `images_url` es `None` o está vacía y existe una credencial guardada de ese proyecto, Digi3D.AI usa las URL, las consultas y la extensión de las imágenes publicadas de esa credencial. Si `path` tiene consulta o `images_url` contiene una URL, Digi3D.AI usa las URL y las consultas proporcionadas en esos argumentos y, de la credencial guardada, solo toma la extensión de las imágenes publicadas. Si no hay consulta ni credencial, carga la URL sin consulta. Digi3D.AI guarda las consultas cifradas en el registro del usuario de _Windows_ actual, y el mensaje de progreso del panel omite la consulta de la URL del proyecto. Consulta [Publicar un proyecto fotogramétrico en Azure Blob Storage y cargarlo desde una URL](../../../../procedimientos/publicar-proyecto-fotogrametrico-remoto.md).
+
+Si carga el proyecto, la función guarda su ruta como último proyecto del panel, como el botón **Cargar**. Con una URL, guarda la URL sin consulta.
 Con la opción [Almacenar el proyecto fotogramétrico o el modelo fotogramétrico como archivo de referencia](../../../../referencia/cuadros-de-dialogo/configuracion/archivos-de-referencia/almacenar-el-proyecto-o-el-modelo-fotogrametrico.md)
 activada, si hay una ventana de dibujo abierta y el archivo de dibujo de la última ventana de dibujo que
 ha tenido el foco no es de solo lectura, también guarda la ruta en el [archivo de archivos de referencia](../../../../referencia/archivos/archivo-de-archivos-de-referencia.md#proyecto-o-modelo-fotogramétrico)
@@ -177,6 +186,11 @@ import digi3d
 if digi3d.open_project(r"C:\Proyectos\vuelo.d3dprj"):
     modelos = digi3d.project()["models"]
     digi3d.load_model(modelos[0]["name"])
+
+# Proyecto publicado en Azure Blob Storage, con las imágenes en otra carpeta.
+digi3d.open_project(
+    "https://cuenta.blob.core.windows.net/vuelos/vuelo1/vuelo1.d3dprj?sv=…&sr=c&sp=r&sig=…",
+    images_url="https://cuenta.blob.core.windows.net/fotos/vuelo1/?sv=…&sr=c&sp=r&sig=…")
 ```
 
 ## Mensajes y avisos

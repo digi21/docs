@@ -1,5 +1,5 @@
 # Table of contents
-<!-- origen: 1aec6a20e065fad0b1db7ad33d01f278af235ad1 -->
+<!-- origen: 2038cd0a662a829cbb020418e3d2d033deaa9c9f -->
 
 * [Digi21 help](README.md)
 * [Digi3D.AI](digi3d-ai/README.md)
@@ -88,6 +88,7 @@
   * [Procedures](digi3d-ai/procedimientos/README.md)
     * [Connecting to a WMS server](digi3d-ai/procedimientos/conectar-servidor-wms.md)
     * [Convert ALOS images to TIFF with Alos2Digi3D](digi3d-ai/procedimientos/convertir-imagenes-alos.md)
+    * [Publishing a photogrammetric project in Azure Blob Storage and loading it from a URL](digi3d-ai/procedimientos/publicar-proyecto-fotogrametrico-remoto.md)
   * [Concepts](digi3d-ai/conceptos/README.md)
     * [Commands](digi3d-ai/referencia/ordenes/README.md)
       * [Variables](digi3d-ai/referencia/ordenes/variables/README.md)
@@ -966,6 +967,7 @@
       * [Invalid database attributes](digi3d-ai/referencia/cuadros-de-dialogo/atributos-de-base-de-datos-no-validos.md)
       * [User toolbars](digi3d-ai/referencia/cuadros-de-dialogo/barras-de-herramientas-de-usuario.md)
       * [Search command](digi3d-ai/referencia/cuadros-de-dialogo/buscar-orden.md)
+      * [Load a project from a URL](digi3d-ai/referencia/cuadros-de-dialogo/cargar-proyecto-remoto.md)
       * [Configuration](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/README.md)
         * [Encoder acceleration](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/aceleracion-de-manivelas/README.md)
           * [Sampling time for acceleration](digi3d-ai/referencia/cuadros-de-dialogo/configuracion/aceleracion-de-manivelas/tiempo-de-muestreo-para-aceleracion.md)
