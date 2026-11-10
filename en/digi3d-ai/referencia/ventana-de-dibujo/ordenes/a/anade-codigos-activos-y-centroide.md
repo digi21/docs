@@ -59,7 +59,7 @@ Processed enclosures are colored with the selected centroid's fill color. They a
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No. The command remains active after each selection and ends with Esc |
 | Menu option | Flooding/Add active codes and centroid... |

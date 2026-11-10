@@ -26,7 +26,7 @@ If you run the command without parameters or with a negative value, it plays an 
 
 ## Command characteristics
 
-| Command type | [Numeric variable](../variables-numericas.md) |
+| Command type | [Numeric variable](../../../ordenes/variables/variables-numericas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | _This command has no associated menu option_ |

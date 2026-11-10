@@ -5,7 +5,7 @@ Indica si, al tentativar \(enganchar el cursor\) sobre una entidad, el restituid
 
 ## Parámetros
 
-Ver [parámetros de variables booleanas](/digi3d-ai/referencia/ventana-de-dibujo/variables/variables-booleanas.md).
+Ver [parámetros de variables booleanas](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md).
 
 ## Observaciones
 
@@ -15,7 +15,7 @@ Esta variable está activada de forma predeterminada.
 
 ## Características de la orden
 
-| Tipo de variable | [Booleana](/digi3d-ai/referencia/ventana-de-dibujo/variables/variables-booleanas.md) |
+| Tipo de variable | [Booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Ir tentativo |

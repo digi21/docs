@@ -147,7 +147,7 @@ Si el control de calidad descarta la línea corregida, se conserva la línea ori
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Topología/Crear topologías/Crear todas las topologías<br>Topología/Crear topologías/(una opción por etiqueta) |

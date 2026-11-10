@@ -19,7 +19,7 @@ As the cursor moves, find the nearest model point below and above it and preview
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | Yes |
 | Menu option | _This command has no associated menu option_ |

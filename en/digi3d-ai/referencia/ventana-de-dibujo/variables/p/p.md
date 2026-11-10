@@ -27,7 +27,7 @@ The parallel is created only when finishing a line digitized with [LINE](/digi3d
 
 ## Command characteristics
 
-| Command type | [Boolean variable](../variables-booleanas.md) |
+| Command type | [Boolean variable](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Draw/On finishing current line.../Automatically create a parallel (based on active distance) |

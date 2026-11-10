@@ -51,7 +51,7 @@ Todos los reemplazos de una ejecución de la orden forman una sola operación de
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

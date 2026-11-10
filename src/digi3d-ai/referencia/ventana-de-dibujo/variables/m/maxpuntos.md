@@ -33,7 +33,7 @@ La orden [CAMB\_MAXPUNTOS](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/c/cam
 
 ## Características de la orden
 
-| Tipo de orden | [Variable numérica](../variables-numericas.md) |
+| Tipo de orden | [Variable numérica](../../../ordenes/variables/variables-numericas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Restricciones de polilíneas/Establecer el número máximo de puntos de una línea |

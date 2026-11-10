@@ -19,7 +19,7 @@ Desde el cuadro de diálogo de la [clasificación urbana](/mdtopx/modulo-mms/urb
 | Copa de árbol | 5 |
 | Farola | 101 |
 | Vehículo | 103 |
-| Barrera (quitamiedos) | 104 |
+| Barrera (quitamiedos, New Jersey, pretil de puente) | 104 |
 | Señal | 106 |
 | Bolardo | 108 |
 | Mobiliario | 109 |
@@ -37,8 +37,10 @@ Desde el cuadro de diálogo de la [clasificación urbana](/mdtopx/modulo-mms/urb
 | Marca vial lineal | 36 |
 | Marca vial superficial | 37 |
 | Tapa de registro y sumidero | 41 |
+| Cable inferido | 49 |
+| Valla | 111 |
 
-Las clases «inferidas» son las de los puntos sintéticos del suelo que tapan los coches aparcados (solo con MMS).
+Las clases «inferidas» del suelo son las de los puntos sintéticos del suelo que tapan los coches aparcados (solo con MMS). La de cable inferido, la de los puntos sintéticos que rellenan los huecos de un cable aéreo.
 
 ## Códigos vector
 
@@ -88,3 +90,6 @@ Un código vector tiene de 1 a 6 caracteres, sin espacios.
 | Contenedor | CONTEN |
 | Barrera | BARRER |
 | Señal | SENAL |
+| Valla | VALLA |
+
+Las barreras y las vallas salen como una línea: su eje, generalizado en rectas y curvas suaves.

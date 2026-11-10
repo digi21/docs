@@ -18,7 +18,7 @@ The value is the elevation difference \(second point Z minus first point Z\), so
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | Yes |
 | Menu option | Draw/Define height/Height |

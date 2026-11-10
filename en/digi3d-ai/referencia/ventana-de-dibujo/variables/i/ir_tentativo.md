@@ -6,7 +6,7 @@ Set whether the stereoplotter moves to the snapped coordinates when snapping \(a
 
 ## Parameters
 
-See [Boolean variable parameters](/digi3d-ai/referencia/ventana-de-dibujo/variables/variables-booleanas.md).
+See [Boolean variable parameters](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md).
 
 ## Notes
 
@@ -16,7 +16,7 @@ This variable is enabled by default.
 
 ## Command characteristics
 
-| Variable type | [Boolean](/digi3d-ai/referencia/ventana-de-dibujo/variables/variables-booleanas.md) |
+| Variable type | [Boolean](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Immediate/Snaps/Go to snap |

@@ -25,7 +25,7 @@ Si ejecutas la orden sin parámetros o con un valor negativo, emite un sonido de
 
 ## Características de la orden
 
-| Tipo de orden | [Variable numérica](../variables-numericas.md) |
+| Tipo de orden | [Variable numérica](../../../ordenes/variables/variables-numericas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | _Esta orden no tiene asociada ninguna opción de menú_ |

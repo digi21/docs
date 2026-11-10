@@ -41,7 +41,7 @@ El símbolo se dibuja solo si el código activo usa una fuente de Digi. Si el c�
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Más/Rellenar polígono con símbolos |

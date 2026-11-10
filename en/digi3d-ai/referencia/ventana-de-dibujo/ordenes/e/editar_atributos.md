@@ -55,7 +55,7 @@ Attribute names cannot be edited. To rename an attribute, delete it and add anot
 
 ## Command characteristics
 
-| Command type                                    | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type                                    | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | Repeats automatically                           | Yes |
 | Menu option           | _Edit/Edit attributes of an entity..._ |

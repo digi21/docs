@@ -25,7 +25,7 @@ Esta variable se desactiva cada vez que se inicia Digi3D.AI.
 
 ## Características de la orden
 
-| Tipo de variable | [Booleana](/digi3d-ai/referencia/ventana-de-dibujo/variables/variables-booleanas.md) |
+| Tipo de variable | [Booleana](/digi3d-ai/referencia/ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Inmediato/Tentativos/Mostrar paso de curvas |

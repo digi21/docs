@@ -9,7 +9,7 @@ Existen tres tipos de órdenes:
 
 * [Variables](/digi3d-ai/referencia/ventana-de-dibujo/variables/).
 * [Órdenes no interactivas](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md).
-* [Órdenes interactivas](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md).
+* [Órdenes interactivas](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md).
 
 Puedes aprender a ejecutar órdenes en [Formas de ejecutar una orden](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/).  
 Puedes aprender a finalizar una orden en [Formas de cancelar una orden](/digi3d-ai/referencia/ordenes/formas-de-cancelar-una-orden.md).

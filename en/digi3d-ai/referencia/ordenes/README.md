@@ -10,7 +10,7 @@ There are three command types:
 
 * [Variables](/digi3d-ai/referencia/ventana-de-dibujo/variables/).
 * [Non-interactive commands](/digi3d-ai/referencia/ordenes/ordenes-no-interactivas.md).
-* [Interactive commands](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md).
+* [Interactive commands](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md).
 
 Learn how to run commands in [Ways to run a command](/digi3d-ai/referencia/ordenes/formas-de-ejecutar-una-orden/).
 Learn how to end commands in [Ways to cancel a command](/digi3d-ai/referencia/ordenes/formas-de-cancelar-una-orden.md).

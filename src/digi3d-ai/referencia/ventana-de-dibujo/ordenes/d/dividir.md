@@ -50,7 +50,7 @@ Al aceptar, la orden muestra el mensaje «Selecciona la línea a dividir». Si l
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) sin parámetros; orden inmediata con parámetros |
 | :--- | :--- |
 | Repite automáticamente | Sí, cuando se ejecuta sin parámetros |
 | Opción del menú donde aparece la orden | Editar/Avanzado/Insertar un texto repetidamente sobre una línea |

@@ -148,7 +148,7 @@ If quality control rejects a corrected line, the original line is retained and i
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) without parameters; immediate command with parameters |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) without parameters; immediate command with parameters |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Topology/Create topologies/Create all topologies<br>Topology/Create topologies/(one option per tag) |

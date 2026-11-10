@@ -61,7 +61,7 @@ Each modified line is replaced with a new line with the same vertices and result
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | Yes, if [REPEAT](/digi3d-ai/referencia/ventana-de-dibujo/variables/r/repite.md) is enabled. It does not repeat after pressing Esc or when no topology for flooding exists |
 | Menu option | Flooding/Edit codes... |

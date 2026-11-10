@@ -16,7 +16,7 @@ If quality control rejects a modified entity, retain its original unchanged. Han
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | Yes |
 | Menu option | Edit/Add active codes to selected entities |

@@ -24,7 +24,7 @@ After each point, the command displays the dialog box again for the next point. 
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | Yes |
 | Menu option | Immediate/Add... |

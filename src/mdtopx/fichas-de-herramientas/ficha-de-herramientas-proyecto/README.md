@@ -11,3 +11,4 @@ Estos comandos aparecen agrupados según los siguientes epígrafes:
 
 * [**Límites**](limites-proyecto.md)
 * [**Editar**](editar-proyecto.md)
+* [**Generar**](generar-proyecto.md)

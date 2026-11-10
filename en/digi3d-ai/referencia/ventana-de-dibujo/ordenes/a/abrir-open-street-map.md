@@ -14,7 +14,7 @@ The command transforms the point's X and Y coordinates from the drawing file coo
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Zooms/Open an OpenStreetMap window in this position... |

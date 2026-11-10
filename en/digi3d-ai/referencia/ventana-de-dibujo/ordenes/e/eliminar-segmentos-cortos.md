@@ -71,7 +71,7 @@ Entities are handled independently: if Digi3D.AI rejects a modified entity, its 
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) without parameters; immediate command with parameters |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) without parameters; immediate command with parameters |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Geometric analysis/Delete short segments... |

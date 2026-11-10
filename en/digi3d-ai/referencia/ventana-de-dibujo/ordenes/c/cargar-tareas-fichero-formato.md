@@ -54,7 +54,7 @@ If [Empty automatically](/digi3d-ai/referencia/cuadros-de-dialogo/configuracion/
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Window/Tasks/Load tasks file (ascii) |

@@ -8,9 +8,9 @@ This pane shows and changes variable command values. Changing a value has the sa
 
 It includes Digi3D.AI's variable commands and those of loaded extensions:
 
-* [Boolean variables](../ventana-de-dibujo/variables/variables-booleanas.md), with **True** and **False** values.
-* [Real variables](../ventana-de-dibujo/variables/variables-reales.md), with three decimal places.
-* [Numeric variables](../ventana-de-dibujo/variables/variables-numericas.md), with integers.
+* [Boolean variables](../ordenes/variables/variables-booleanas.md), with **True** and **False** values.
+* [Real variables](../ordenes/variables/variables-reales.md), with three decimal places.
+* [Numeric variables](../ordenes/variables/variables-numericas.md), with integers.
 
 The lower area describes the selected command.
 

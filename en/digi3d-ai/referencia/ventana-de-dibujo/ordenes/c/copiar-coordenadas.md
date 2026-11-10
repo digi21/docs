@@ -20,7 +20,7 @@ To copy currently displayed coordinates without digitizing a point, use **Copy c
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Immediate/Copy coordinates to the clipboard |

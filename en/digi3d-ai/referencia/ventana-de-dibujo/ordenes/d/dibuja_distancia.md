@@ -18,7 +18,7 @@ Calculate the distance in plan \(X, Y coordinates\), ignoring elevation differen
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | Yes |
 | Menu option | Draw/Define height/2D distance |

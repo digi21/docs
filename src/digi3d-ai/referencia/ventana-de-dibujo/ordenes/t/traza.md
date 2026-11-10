@@ -73,7 +73,7 @@ TRAZA no crea archivos. Para crear un archivo por cada hoja, ejecuta después [R
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Gráfico de hojas/Crear gráfico de hojas \(traza\) |

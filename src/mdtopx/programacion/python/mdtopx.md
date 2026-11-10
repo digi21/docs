@@ -48,7 +48,7 @@ Cada formato usa las listas que le corresponden:
 |---|---|---|
 | `points` | Puntos sueltos | `PointEntity` (`p`, `layer`, `id`, `attributes`) |
 | `polylines` | Líneas y polígonos | `Polyline` (`vertices`, `closed`, `layer_code`, `digi_attributes`, `perimeter`, `area`…) |
-| `texts` | Textos | `TextEntity` (`pos`, `text`, `height`, `rotation`, `justification`, `layer_code`…) |
+| `texts` | Textos | `TextEntity` (`pos`, `text`, `height`, `rotation` y `slant` en centésimas de grado, como en DIGI: 9000 es 90°; `justification`, `layer_code`…) |
 | `clouds` | Nubes de puntos | `CloudEntity` (`cloud`, `is_lidar`, `layer`, `id`) |
 | `meshes` | Mallas trianguladas | `MeshEntity` (`mesh`, `id`, `layer_code`, `layer`) |
 | `grids` | Rejillas de cotas | `GridEntity` (`grid`) |

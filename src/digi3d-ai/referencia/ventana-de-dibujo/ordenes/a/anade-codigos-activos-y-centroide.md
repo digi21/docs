@@ -58,7 +58,7 @@ Los recintos procesados quedan coloreados con el color de relleno del centroide 
 
 ## Características de la orden
 
-| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Tipo de orden | [Orden interactiva](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repite automáticamente | No. La orden sigue activa después de cada selección y termina con Esc |
 | Opción del menú donde aparece la orden | Inundación/Añadir códigos activos y centroide... |

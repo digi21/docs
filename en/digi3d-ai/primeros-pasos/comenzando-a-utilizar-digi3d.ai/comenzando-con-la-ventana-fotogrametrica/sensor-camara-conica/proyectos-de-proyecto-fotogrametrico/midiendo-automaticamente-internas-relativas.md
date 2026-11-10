@@ -26,7 +26,7 @@ Complete [Creating a photogrammetric project for Bronchales](/digi3d-ai/primeros
 6. Click the second toolbar button in [Photogrammetric project](/digi3d-ai/referencia/paneles/proyecto-fotogrametrico.md), which loads a photogrammetric project file. **Open** appears. Select _Proyecto de Bronchales.d3dprj_ and click **Open**.
 7. A dialog reports that images without associated internal orientation were found and asks whether to measure them automatically. This is possible **because at least one image with internal orientation was found**. That orientation will be used as the basis for measuring the others automatically. Click **Yes**. Check that progress bars on the application's status bar indicate that internal orientations are being measured.
 8. Click **Yes** when the dialog reports that two models without relative orientation were found and asks whether to measure their relative orientations automatically.
-9. [Automatic relative orientation by correlation (extended)](/digi3d-ai/referencia/cuadros-de-dialogo/orientacion-relativa-automatica-por-correlacion-extendido.md) appears.
+9. Check that the [Automatic relative orientation by correlation](/digi3d-ai/referencia/cuadros-de-dialogo/orientacion-relativa-automatica-por-correlacion.md) dialog appears.
 10. Select _Von gruber calculated with percentages_ in **Schema**.
 11. Select _Coarse (no approximate relative orientation)_ in **Configuration**.
 12. Click **Start**.

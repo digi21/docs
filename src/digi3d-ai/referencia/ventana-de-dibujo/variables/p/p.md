@@ -26,7 +26,7 @@ La paralela solo se crea al finalizar una línea digitalizada con la orden [LINE
 
 ## Características de la orden
 
-| Tipo de orden | [Variable booleana](../variables-booleanas.md) |
+| Tipo de orden | [Variable booleana](../../../ordenes/variables/variables-booleanas.md) |
 | :--- | :--- |
 | Repite automáticamente | No |
 | Opción del menú donde aparece la orden | Dibujar/Al finalizar la línea actual.../Crear automáticamente una paralela \(según distancia activa\) |

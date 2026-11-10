@@ -34,7 +34,7 @@ The toolbar button and menu option toggle the setting: if it is 0, they display 
 
 ## Command characteristics
 
-| Command type | [Numeric variable](../variables-numericas.md) |
+| Command type | [Numeric variable](../../../ordenes/variables/variables-numericas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Draw/Polyline restrictions/Set the maximum number of points on a line |

@@ -10,8 +10,8 @@ Funciona con un archivo de nube de puntos abierto o con un proyecto. Requiere li
 ## Qué genera
 
 * **Líneas de rotura**: bordillo abajo y arriba, pie de fachada y rígola. Con un MMS también se generan los bordillos inferidos bajo los coches aparcados y el bordillo de una fila de coches.
-* **Inventario urbano**: marcas viales (el eje de las lineales y el contorno de las superficiales), tapas de registro, alcorques, sumideros, troncos y copas de árbol, fachadas con sus puertas, ventanas, balcones y otros elementos, objetos (farolas, postes, bolardos, papeleras, bancos, vehículos, peatones, contenedores, barreras, señales) y cables aéreos.
-* **Clasificación de los puntos**: la clase LiDAR de cada punto de la nube.
+* **Inventario urbano**: marcas viales (el eje de las lineales y el contorno de las superficiales), tapas de registro, alcorques, sumideros, troncos y copas de árbol, fachadas con sus puertas, ventanas, balcones y otros elementos, objetos (farolas, postes, bolardos, papeleras, bancos, vehículos, peatones, contenedores, barreras, vallas, señales) y cables aéreos. Las barreras y las vallas salen como una línea, su eje.
+* **Clasificación de los puntos**: la clase LiDAR de cada punto de la nube. Ver [Barreras y vallas](#barreras-y-vallas).
 * **Ortofotos de fachada** y **ortofoto del suelo** (opcionales): imágenes con el color o la intensidad de la nube, una por fachada sobre su plano vertical y una en planta del suelo. Ver [Ortofotos](#ortofotos).
 
 Las líneas de rotura y el inventario se crean en un documento nuevo llamado *Clasificación urbana de …*. La clase de cada punto se escribe en la propia nube. Las ortofotos se escriben como archivos junto a la nube.
@@ -22,7 +22,7 @@ Las líneas de rotura y el inventario se crean en un documento nuevo llamado *Cl
 
 * **MMS de vehículo (por la calzada)**: un sistema móvil sobre un coche, que circula por la calzada.
 * **Escáner SLAM a mano (también aceras)**: una mochila o un escáner de mano, con un recorrido más irregular que puede ir también por las aceras.
-* **Trayectoria (opcional, solo MMS)**: el archivo con la trayectoria del vehículo. Puede ser un archivo de viales (se usa su trazado) o cualquier archivo que lea MDTopX. Se usa la línea más larga del archivo; si el archivo no tiene líneas (por ejemplo, las posiciones de las fotografías panorámicas), se usan sus puntos en el orden del archivo. Dos posiciones o vértices a más de 15 m se toman como un hueco de la trayectoria (el vehículo no grabó ahí), salvo en una línea cuando el tramo sigue en línea recta con el anterior y el siguiente (un eje de la calle dibujado con rectas largas). La trayectoria sirve para buscar las filas de coches aparcados y, en un proyecto, decide qué archivo se queda con cada tramo.
+* **Trayectoria (opcional, solo MMS)**: el archivo con la trayectoria del vehículo. Puede ser un archivo de viales (se usa su trazado) o cualquier archivo que lea MDTopX. Se usa la línea más larga del archivo; si el archivo no tiene líneas (por ejemplo, las posiciones de las fotografías panorámicas), se usan sus puntos en el orden del archivo. Dos posiciones o vértices a más de 15 m se toman como un hueco de la trayectoria (el vehículo no grabó ahí), salvo en una línea cuando el tramo sigue en línea recta con el anterior y el siguiente (un eje de la calle dibujado con rectas largas). La trayectoria sirve para buscar las filas de coches aparcados y el lado de la vía de cada barrera y, en un proyecto, decide qué archivo se queda con cada tramo.
 * **Densidad (0: la estimada)**: los puntos por metro cuadrado en el suelo junto al sensor. Con 0, se estima a partir de la nube. Junto con el sensor, fija el tamaño del vóxel.
 * **Intensidad comparable entre pasadas**: márquelo si la intensidad de los puntos es comparable entre haces y pasadas. No lo marque con sensores que no la calibran (por ejemplo, Velodyne).
 * **Margen de contexto (proyecto SLAM)**: en un proyecto SLAM, cada archivo se procesa con los puntos de los demás que quedan a esta distancia de su límite. Solo se usa en proyectos con escáner SLAM.
@@ -79,6 +79,17 @@ Con un proyecto abierto, pulse **Clasificación urbana** y elija los archivos qu
 * Con MMS, el proyecto se ordena por tiempo GPS antes de procesarlo, como en el Asfalto.
 * Si algún archivo no se puede procesar, al final aparece la lista.
 
+## Barreras y vallas
+
+Con MMS, se detectan las barreras a lo largo de la vía y junto a la calzada: quitamiedos (biondas), barreras de hormigón (New Jersey), también las de obra en bloques sueltos alineados, y pretiles de puente. Se clasifican como **Barrera**. Las vallas de malla y las barandillas a lo largo de la vía, de hasta 3 m de alto, se clasifican como **Valla**.
+
+Al otro lado de una barrera (el contrario a la trayectoria o, sin ella, al de más calzada) no hay calzada:
+
+* La calzada pegada a la barrera por fuera pasa a **otro suelo**, salvo que mida 3 m o más de ancho (la otra calzada, tras la barrera de una mediana). La acera pegada, igual, salvo que mida 1,5 m o más.
+* Hasta 30 m por fuera, la calzada y la acera de un terreno que no es pavimento (se reconoce por dos de estas tres señales: no es plano, es rugoso, tiene color de tierra) pasan a **otro suelo**. Una calle o una senda pavimentada que llega hasta la barrera se queda como está.
+
+Las barreras alineadas una tras otra, con huecos de hasta 10 m, se tratan como una sola.
+
 ## Ortofotos
 
 Las ortofotos salen de la nube de puntos con la clasificación de esta misma herramienta: cada píxel toma el color medio (o la intensidad media) de los puntos que caen en él. Los huecos entre los puntos (por ejemplo, entre las pasadas de un MMS) se rellenan interpolando entre los píxeles de alrededor, como en «Generar raster»: se triangulan los píxeles con dato y se rellenan los huecos que quedan dentro de un triángulo con todos los lados más cortos que el **Relleno máx.** Lo que queda sin dato es **transparente**: los archivos son GeoTIFF con canal alfa. MDTopX muestra la transparencia en negro; los programas que leen el canal alfa la muestran transparente.
@@ -110,3 +121,4 @@ Una calle muy grande y densa puede necesitar mucha memoria para rellenar los hue
 * Las ortofotos reproducen los defectos del color de la nube: con un MMS es habitual que el suelo bajo un coche tenga el color del coche, porque la cámara no lo veía.
 * Si la clasificación toma por edificación parte de un árbol pegado a la fachada, ese trozo sale en la ortofoto de fachada.
 * Se procesa la nube entera; no se tiene en cuenta la selección.
+* Tras una barrera, la arena compacta y lisa, sin color de tierra, puede quedar como calzada: no se distingue del pavimento.

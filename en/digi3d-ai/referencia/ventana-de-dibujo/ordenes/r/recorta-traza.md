@@ -119,7 +119,7 @@ Initially, extension is the second listed; scale is the configured Digi3D.AI sca
 
 ## Command characteristics
 
-| Command type | [Interactive command](/digi3d-ai/referencia/ventana-de-dibujo/ordenes-interactivas.md) |
+| Command type | [Interactive command](/digi3d-ai/referencia/ordenes/ordenes-interactivas.md) |
 | :--- | :--- |
 | Repeats automatically | No |
 | Menu option | Draw/Sheet index/Create sheets from a sheet index |
