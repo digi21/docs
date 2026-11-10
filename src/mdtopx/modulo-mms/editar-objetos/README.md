@@ -14,6 +14,7 @@ Las herramientas relacionadas con la generación de objetos a partir de las nube
 * [**Cambiar por propiedades**](seleccionar-objetos-segun-propiedades.md)
 * [**Nuevo**](objeto-nuevo.md)
 * [**Borrar**](borrar-objeto.md)
+* [**Información**](informacion-objeto-nube.md)
 * [**Generar**](generar-objetos.md)
 * [**Mostrar**](encender-apagar-objetos.md)
 * [**Lista**](lista-de-objetos.md)
