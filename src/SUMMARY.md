@@ -2634,6 +2634,7 @@
     * [Rellenar huecos](mdtopx/modulo-virtualand/rellenar-huecos.md)
     * [Borra por altitudes](mdtopx/modulo-virtualand/borra-por-altitudes.md)
     * [Borra en límites](mdtopx/modulo-virtualand/borra-en-limites.md)
+    * [Seleccionar nodos de un DEM](mdtopx/modulo-virtualand/seleccionar-nodos-de-un-dem.md)
     * [Cargar texturas](mdtopx/modulo-virtualand/cargar-texturas/README.md)
       * [Configurar carga de imagen](mdtopx/modulo-virtualand/cargar-texturas/configurar-carga-de-imagen.md)
     * [Integrar texturas](mdtopx/modulo-virtualand/integrar-texturas.md)
