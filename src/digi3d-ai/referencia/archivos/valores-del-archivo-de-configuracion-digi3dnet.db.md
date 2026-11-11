@@ -182,7 +182,8 @@ Extensiones de órdenes de la ventana de dibujo. El nombre de cada valor es el n
 | :--- | :--- | :--- | :--- | :--- |
 | `Activated` | `Ints` | 0 | Si vale 1, Digi3D.AI carga al arrancar el importador y exportador de ese formato. | Solo por SQL (el instalador escribe el valor inicial) |
 | `Order` | `Ints` | 2 | Posición del formato en las listas de formatos, de menor a mayor. El primero es el que proponen los cuadros de guardar. | Solo por SQL (el instalador escribe el valor inicial) |
-| `WinSxS` | `Ints` | 0 | Si vale 1, el importador se carga como ensamblado WinSxS. No afecta a las compilaciones de depuración. | Solo por SQL (el instalador escribe el valor inicial) |
+| `EnsambladoEnWinSxS` | `Ints` | El de `WinSxS` | Si vale 1, Digi3D.AI carga el importador como ensamblado de la carpeta WinSxS de Windows; si vale 0, lo carga desde la carpeta de instalación. Digi3D.AI lee `EnsambladoEnWinSxS` desde la versión 2027.0.0.428. | Solo por SQL (el instalador escribe el valor inicial) |
+| `WinSxS` | `Ints` | 0 | Valor que usa Digi3D.AI si el registro no contiene `EnsambladoEnWinSxS` para ese importador, como en los importadores de terceros. Para elegir la carpeta del importador, las versiones de Digi3D.AI anteriores a la 2027.0.0.428 consultan únicamente `WinSxS`. | Solo por SQL |
 
 ## `DigiNG\IO\Digi21.Io.FileGDB`
 
