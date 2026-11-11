@@ -24,3 +24,17 @@ Hay sensores monoscópicos (muestran una única imagen), sensores estereoscópic
 La columna **Sintético** indica que el modelo no se forma a partir de imágenes reales, sino que se genera de forma sintética (por ejemplo, a partir de una nube de puntos o de una ortofotografía y un modelo digital de superficies).
 
 La columna **Cámara libre** indica que la cámara puede situarse en cualquier punto del espacio y apuntar en cualquier dirección (frente a una cámara fija que únicamente puede cambiar su posición pero no su orientación).
+
+## Nombre del modelo
+
+Cada sensor propone un nombre para el archivo `.d3d` que guarda el modelo. El sensor Cónico, por ejemplo, usa los nombres de las imágenes izquierda y derecha separados por un guion. Al crear el modelo puedes escribir otro nombre en el campo **Nombre del archivo .d3d** del cuadro de diálogo [Crear modelo](../../cuadros-de-dialogo/crear-modelo.md) o de la pestaña [Sensores fotogramétricos](../../cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) del cuadro de diálogo Nuevo proyecto.
+
+Si Digi3D.AI abre el modelo desde un archivo `.d3d`, el nombre del modelo es el nombre de ese archivo sin la extensión, también cuando has renombrado el archivo. Al cerrar un modelo abierto desde un archivo `.d3d`, Digi3D.AI guarda los datos del modelo en ese archivo. Para un modelo abierto desde un archivo `.d3d`, la propiedad [`model_name`](../../../programacion/python/referencia/digi3d/photogrammetric-view.md#modelo-cargado) de Python devuelve el nombre del archivo `.d3d` sin la extensión.
+
+Digi3D.AI escribe con el nombre del modelo los archivos de orientación siguientes. Para leerlos, busca primero el archivo con el nombre del modelo y, si ese archivo no existe, busca el archivo con el nombre formado por las imágenes:
+
+* `.abs.xml` de los sensores [ADS](ads.md) y [Satélite RPC](rpc/README.md): `<nombre del modelo>.abs.xml`.
+* `.rpcba` del [Ajuste en bloque de RPCs](rpc/ajuste-en-bloque-de-rpcs.md): `<nombre del modelo>.rpcba`.
+* `.mod` de la orden [AEROTRI](../ordenes/a/aerotri.md) del sensor Cónico: `<nombre del modelo>.mod`.
+
+El sensor Cónico lee y escribe su orientación absoluta (`.abs.xml`) siempre con el nombre formado por las imágenes.

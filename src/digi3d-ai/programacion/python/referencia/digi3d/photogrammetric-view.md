@@ -49,7 +49,7 @@ print(p.ground_coordinates, p.zoom)
 
 | Propiedad | Tipo | Descripción |
 |---|---|---|
-| `model_name` | `str` | Nombre del modelo cargado. |
+| `model_name` | `str` | Nombre del modelo cargado. Si el modelo se abrió desde un archivo `.d3d`, es el nombre de ese archivo sin la extensión; si no, es el nombre que forma el sensor. |
 | `sensor_name` | `str` | Nombre del sensor del modelo cargado. |
 | `loading_model` | `bool` | `True` mientras se carga en segundo plano un modelo pedido con [`load_model`](functions.md#load_model) o con los métodos de esta tabla. |
 

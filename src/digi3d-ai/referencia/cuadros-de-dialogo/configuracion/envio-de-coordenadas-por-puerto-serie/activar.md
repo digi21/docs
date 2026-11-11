@@ -5,7 +5,7 @@ Indica si la ventana fotogramétrica enviará las coordenadas por el puerto seri
 
 ## Valores posibles
 
-* **Sí**. La ventana fotogramétrica envía las coordenadas por el puerto serie.
+* **Sí**. La ventana fotogramétrica activa envía las coordenadas por el puerto serie; las demás ventanas fotogramétricas abiertas no las envían.
 * **No**. No se envían coordenadas por el puerto serie.
 
 <details>

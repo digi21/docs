@@ -1,6 +1,6 @@
 # ABSOLUTE\_ORI
 <!-- id: ori-absoluta -->
-<!-- origen: 722557979d014d5175a4b5cb51ad11681a9ba730 -->
+<!-- origen: 04f2d2d64524e162ac7ada0b9bcec03613c4efd2 -->
 
 Performs the **absolute orientation** of the model loaded in the photogrammetric window.
 
@@ -17,7 +17,7 @@ ABSOLUTE_ORI opens **Absolute orientation**, where you measure control points an
 * **Point file**: file containing the control points' ground coordinates. **...** opens [Control point file](../../../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md) to change it.
 * **Coordinate reference system**: coordinate system of the point file.
 * **Extended view**: adds each point's ground coordinates (**X**, **Y**, **Z**) and model coordinates (**Xmod**, **Ymod**, **Zmod**) to the list. Digi3D.AI remembers this setting.
-* **Measured point list**: shows each point's name (**N**), X, Y and Z residuals (**Ex**, **Ey**, **Ez**) and **Description**. Click a point to move the cursor to it. Double-click to also remeasure it.
+* **Measured point list**: shows each point's name (**N**), X, Y and Z residuals (**Ex**, **Ey**, **Ez**) and **Description**. Click a point to move the cursor to it. Double-click to also remeasure it. In each of the **Ex**, **Ey** and **Ez** columns, Digi3D.AI shows in red the cells whose absolute value, rounded to the decimals the cell shows, is the largest in the column (all tied cells), unless that value is 0.
 * **First XY, then Z**: measures each point in two steps: the first data input records its plan position and the second records Z.
 * **Skip (Esc)**: while waiting for a point measurement, skips that point and moves to the next. With a point selected in the list, clears selection.
 * **Correlate**: runs CORRELATE to adjust the position in the other image automatically.

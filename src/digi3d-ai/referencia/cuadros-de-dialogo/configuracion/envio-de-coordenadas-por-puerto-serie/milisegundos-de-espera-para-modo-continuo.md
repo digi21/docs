@@ -1,7 +1,7 @@
 # Milisegundos de espera para modo continuo
 <!-- id: milisegundos-de-espera-para-modo-continuo -->
 
-Si el valor es distinto de **0**, indica el tiempo de espera, en milisegundos, desde que pulsas el botón o pedal de Dato hasta que se empiezan a enviar coordenadas, mientras mantienes pulsado el botón o pedal.
+Si el valor es distinto de **0**, indica el tiempo, en milisegundos, desde que pulsas el botón o pedal de Dato hasta que Digi3D.AI vuelve a enviar las coordenadas de los movimientos del cursor mientras mantienes pulsado el botón o pedal. Al pulsar el botón o pedal de Dato, Digi3D.AI envía inmediatamente una línea con las coordenadas del cursor y el estado de pulsación del botón o pedal de Dato; durante la espera, Digi3D.AI no envía líneas provocadas por los movimientos del cursor, y al soltar el botón o pedal envía sin esperar una línea con el estado de pulsación igual a 0.
 
 <details>
 <summary>Dónde se almacena</summary>

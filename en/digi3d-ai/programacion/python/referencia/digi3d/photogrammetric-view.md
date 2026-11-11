@@ -50,7 +50,7 @@ print(p.ground_coordinates, p.zoom)
 
 | Property | Type | Description |
 |---|---|---|
-| `model_name` | `str` | Name of the loaded model. |
+| `model_name` | `str` | Name of the loaded model. If the model was opened from a `.d3d` file, it is the name of that file without extension; otherwise, it is the name formed by the sensor. |
 | `sensor_name` | `str` | Sensor name of the loaded model. |
 | `loading_model` | `bool` | `True` while a model requested with [`load_model`](functions.md#load_model) or the methods in this table loads in the background. |
 

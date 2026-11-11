@@ -1,12 +1,12 @@
 # Activate
 <!-- id: activar -->
-<!-- origen: 1ce7e0c572ac3f033f93d335eb1baf3642b068e3 -->
+<!-- origen: 4e203e43dda1fd6954cb02788249cc58695356b3 -->
 
 Specifies whether the photogrammetric window sends coordinates through the serial port.
 
 ## Possible values
 
-* **Yes**. The photogrammetric window sends coordinates through the serial port.
+* **Yes**. The active photogrammetric window sends coordinates through the serial port; other open photogrammetric windows do not.
 * **No**. No coordinates are sent through the serial port.
 
 <details>

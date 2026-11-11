@@ -1,6 +1,6 @@
 # Conical
 <!-- id: camara-conica-2 -->
-<!-- origen: 496297adfdffe4609910e27f22921260d2f14645 -->
+<!-- origen: e17ffcd7223a1f4cce45a517130b0ede670a67d8 -->
 
 The Conical sensor supports photogrammetric models from metric or perspective cameras (classic aerial and terrestrial photogrammetry): interior, relative, and absolute orientation, aerial triangulation measurements, and more.
 
@@ -8,7 +8,7 @@ Camera calibrations and model orientations can be read from different applicatio
 
 ## Creating a model
 
-Create Conical models with [Create model](../../../cuadros-de-dialogo/crear-modelo.md), selecting **Conical (Stereoscopic)** in Fast model change project file. Model names combine left image name, a hyphen, and right image name without extensions: `107.tif` and `108.tif` create **107-108.d3d** in the working directory.
+Create Conical models with [Create model](../../../cuadros-de-dialogo/crear-modelo.md), selecting **Conical (Stereoscopic)** in Fast model change project file. The proposed model name combines the left image name, a hyphen, and the right image name without extensions: `107.tif` and `108.tif` propose **107-108** and create **107-108.d3d** in the working directory. You can type another name in **.d3d file name**. A model opened from a `.d3d` file takes that file's name without extension, also if you renamed the file. See [Model name](../README.md#model-name).
 
 ## Sensor properties
 
@@ -40,7 +40,7 @@ With **Aerial triangulation file**, [Results](../../../paneles/resultados.md) ma
 
 ### Absolute orientation
 
-Read absolute orientation from aerial triangulation if its extension provides it. Otherwise, read `<izquierda>-<derecha>.abs.xml` (or legacy `<izquierda>-<derecha>.abs2`). Without absolute orientation from either source, there is no absolute transformation: model coordinates are relative orientation coordinates.
+Read absolute orientation from aerial triangulation if its extension provides it. Otherwise, read `<izquierda>-<derecha>.abs.xml` (or legacy `<izquierda>-<derecha>.abs2`). [ABSOLUTE\_ORI](../../ordenes/o/ori-absoluta.md) writes absolute orientation to `<izquierda>-<derecha>.abs.xml` even if the model's `.d3d` file has another name. Without absolute orientation from either source, there is no absolute transformation: model coordinates are relative orientation coordinates.
 
 ## Coordinate reference system
 

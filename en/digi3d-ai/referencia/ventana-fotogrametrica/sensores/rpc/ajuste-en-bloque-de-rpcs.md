@@ -1,6 +1,6 @@
 # RPC Block Adjustment
 <!-- id: ajuste-en-bloque-de-rpcs -->
-<!-- origen: fc128a25bbf7d4b598be51528d10f9e4f5871803 -->
+<!-- origen: 324841dfbcfef006cb5a395dbb273a9e450016a7 -->
 
 ![RPC Block Adjustment pane](../../../../../images/ajuste-en-bloque-de-rpcs.png)
 
@@ -18,7 +18,7 @@ Otherwise displays a message and ends.
 
 1. Clears both images' affine RPC corrections. Measurements use uncorrected RPCs even with a saved adjustment.
 2. Loads the last point file. If missing, requests one; cancellation ends the command.
-3. Loads previous measurements from `<directorio de trabajo>\<nombre del modelo>.rpcba`, if present.
+3. Loads previous measurements from `<directorio de trabajo>\<nombre del modelo>.rpcba` or, if that does not exist, from `<directorio de trabajo>\<imagen izquierda>-<imagen derecha>.rpcba` (image names without extension), if present.
 
 ## Point file
 
@@ -38,7 +38,7 @@ One row per point file entry:
 | **Ex**, **Ey**, **Ez** | Adjusted position minus point file coordinates, in sensor CRS units. |
 | **Description** | Point file description. |
 
-Residual columns remain empty until measurement and adjustment calculation.
+Residual columns remain empty until measurement and adjustment calculation. In each of the **Ex**, **Ey** and **Ez** columns, Digi3D.AI shows in red the cells whose absolute value, rounded to the six decimals the cell shows, is the largest in the column (all tied cells), unless that value is 0.
 
 **Extended view** adds **X**, **Y**, **Z** (point file coordinates) and measured **Line (left)**, **Sample (left)**, **Line (right)** and **Sample (right)**. The setting persists between sessions.
 
@@ -82,7 +82,7 @@ Uncomputable residuals appear as nonnumeric values and are excluded from that co
 **OK** saves a calculated adjustment:
 
 * Corrected image RPCs to `<directorio de trabajo>\<nombre de la imagen>.digi3d_rpcba`. Loaded by RPC Satellite when opening the model.
-* Measurements to `<directorio de trabajo>\<nombre del modelo>.rpcba`.
+* Measurements to `<directorio de trabajo>\<nombre del modelo>.rpcba`. The model name is the name of the `.d3d` file without extension.
 * Report to `<directorio de trabajo>\<nombre del modelo>.rpcba.txt`. See [Adjustment report](#adjustment-report). Results shows its path.
 
 After saving with **OK**, displays measured control points. See [Measured control points in the photogrammetric window](#measured-control-points-in-the-photogrammetric-window).
@@ -202,7 +202,7 @@ MAGP7B              266170.871     2081581.675     413.396      0.012      0.047
 
 ## Measured control points in the photogrammetric window
 
-With `<directorio de trabajo>\<nombre del modelo>.rpcba` present, each image displays measured points as circles at measured positions with point names. Reads the file on model opening and **OK** in this pane. Without it, no measured control points appear, including after switching from another model in the same project.
+With `<directorio de trabajo>\<nombre del modelo>.rpcba` present or, if that does not exist, `<directorio de trabajo>\<imagen izquierda>-<imagen derecha>.rpcba` (image names without extension), each image displays measured points as circles at measured positions with point names. Reads the file on model opening and **OK** in this pane. Without either file, no measured control points appear, including after switching from another model in the same project.
 
 * Circles use the conical camera sensor's control point color and size, adjustable in **Configuration**.
 * The measured point checkbox in image properties shows or hides circles and names.

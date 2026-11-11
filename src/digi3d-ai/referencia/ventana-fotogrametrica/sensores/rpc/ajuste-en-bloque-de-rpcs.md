@@ -17,7 +17,7 @@ Si no se cumple alguna condición, Digi3D.AI muestra un mensaje y la orden termi
 
 1. Digi3D.AI pone a cero los términos de corrección afín de los RPC de las dos imágenes. Las medidas se hacen sobre los RPC sin corregir, aunque el modelo tuviera un ajuste guardado.
 2. Digi3D.AI carga el último archivo de puntos utilizado. Si no existe, solicita uno con el cuadro de diálogo de abrir archivo; si se cancela, la orden termina.
-3. Si existe el archivo `<directorio de trabajo>\<nombre del modelo>.rpcba`, Digi3D.AI carga las medidas guardadas en una sesión anterior.
+3. Si existe el archivo `<directorio de trabajo>\<nombre del modelo>.rpcba` o, si ese no existe, el archivo `<directorio de trabajo>\<imagen izquierda>-<imagen derecha>.rpcba` (con los nombres de las imágenes sin extensión), Digi3D.AI carga las medidas guardadas en una sesión anterior.
 
 ## Archivo de puntos
 
@@ -37,7 +37,7 @@ Cada fila es un punto del archivo de puntos. Las columnas son:
 | **Ex**, **Ey**, **Ez** | Diferencia entre la posición ajustada del punto y sus coordenadas del archivo de puntos, en unidades del sistema de referencia de coordenadas del sensor. |
 | **Descripción** | Descripción del punto en el archivo de puntos. |
 
-Las columnas de residuos están vacías mientras el punto no esté medido o no se haya calculado el ajuste.
+Las columnas de residuos están vacías mientras el punto no esté medido o no se haya calculado el ajuste. En cada una de las columnas **Ex**, **Ey** y **Ez**, Digi3D.AI muestra en rojo las celdas cuyo valor absoluto, redondeado a los seis decimales que muestra la celda, es el mayor de la columna (todas las que empatan), salvo que ese valor sea 0.
 
 Si se activa la casilla **Vista extendida**, la lista añade las columnas **X**, **Y** y **Z** (coordenadas del archivo de puntos) y **Fila** y **Columna** medidas en cada imagen. El estado de la casilla se conserva entre sesiones.
 
@@ -81,7 +81,7 @@ Un residuo que Digi3D.AI no puede calcular aparece como valor no numérico en la
 **Aceptar** guarda el ajuste si está calculado:
 
 * Los RPC corregidos de cada imagen, en `<directorio de trabajo>\<nombre de la imagen>.digi3d_rpcba`. El sensor Satélite RPC carga este archivo al abrir el modelo.
-* Las medidas, en `<directorio de trabajo>\<nombre del modelo>.rpcba`.
+* Las medidas, en `<directorio de trabajo>\<nombre del modelo>.rpcba`. El nombre del modelo es el nombre del archivo `.d3d` sin la extensión.
 * El informe del ajuste, en `<directorio de trabajo>\<nombre del modelo>.rpcba.txt`. Consulta [Informe del ajuste](#informe-del-ajuste). El panel Resultados muestra la ruta del informe.
 
 Después de guardar el ajuste calculado al pulsar **Aceptar**, Digi3D.AI muestra en la ventana fotogramétrica los puntos de apoyo medidos. Consulta [Puntos de apoyo medidos en la ventana fotogramétrica](#puntos-de-apoyo-medidos-en-la-ventana-fotogramétrica).
@@ -201,7 +201,7 @@ MAGP7B              266170.871     2081581.675     413.396      0.012      0.047
 
 ## Puntos de apoyo medidos en la ventana fotogramétrica
 
-Si existe el archivo `<directorio de trabajo>\<nombre del modelo>.rpcba`, la ventana fotogramétrica dibuja en cada imagen, para cada punto medido, un círculo en la posición medida y el nombre del punto. Digi3D.AI lee el archivo al abrir el modelo y al pulsar **Aceptar** en este panel. Si el archivo no existe, la ventana fotogramétrica no dibuja ningún punto de apoyo medido, tampoco al cambiar a ese modelo desde otro del mismo proyecto.
+Si existe el archivo `<directorio de trabajo>\<nombre del modelo>.rpcba` o, si ese no existe, el archivo `<directorio de trabajo>\<imagen izquierda>-<imagen derecha>.rpcba` (con los nombres de las imágenes sin extensión), la ventana fotogramétrica dibuja en cada imagen, para cada punto medido, un círculo en la posición medida y el nombre del punto. Digi3D.AI lee el archivo al abrir el modelo y al pulsar **Aceptar** en este panel. Si no existe ninguno de los dos archivos, la ventana fotogramétrica no dibuja ningún punto de apoyo medido, tampoco al cambiar a ese modelo desde otro del mismo proyecto.
 
 * Los círculos usan el color y el tamaño de los puntos de apoyo del sensor de cámara cónica. Puedes cambiar ese color y ese tamaño en el cuadro de diálogo **Configuración**.
 * La casilla de los puntos medidos del cuadro de diálogo de propiedades de la imagen muestra y oculta los círculos y los nombres.

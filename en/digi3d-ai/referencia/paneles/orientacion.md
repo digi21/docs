@@ -1,6 +1,6 @@
 # Orientation
 <!-- id: panel-orientacion -->
-<!-- origen: 2d3eb2cc32e0f4ddcbb8a31be62f4399ae0e4170 -->
+<!-- origen: 76de25a4c083d5488d340a8b3316b426422a2bb5 -->
 
 This pane measures orientation control points and shows residuals for sensors without a dedicated pane. Opened by:
 
@@ -21,7 +21,7 @@ Unavailable buttons are disabled.
 * **Control point file**: file with point ground coordinates. **...** opens [Control point file](../cuadros-de-dialogo/archivo-de-puntos-de-apoyo.md), where you can select another control point file.
 * **Coordinate reference system**: system of the point file coordinates.
 * **Extended view**: adds ground (**X**, **Y**, **Z**) and model (**Xmod**, **Ymod**, **Zmod**) coordinates to the list. Its state is remembered. The list becomes wider than the pane and gains a horizontal scrollbar; widen the pane to see all columns.
-* **Measured point list**: each point's name (**N**), X, Y and Z residuals (**Ex**, **Ey**, **Ez**) and **Description**. Residuals appear with at least three measured points. Clicking a point moves the cursor there.
+* **Measured point list**: each point's name (**N**), X, Y and Z residuals (**Ex**, **Ey**, **Ez**) and **Description**. Residuals appear with at least three measured points. In each of the **Ex**, **Ey** and **Ez** columns, Digi3D.AI shows in red the cells whose absolute value, rounded to the decimals the cell shows, is the largest in the column (all tied cells), unless that value is 0. Clicking a point moves the cursor there.
 * **Auto-measure the next point**: once enough points exist to calculate orientation, measuring a point moves the cursor to the next point in the file that falls within the image.
 * **First XY, then Z**: measures in two steps: the first input records plan position, the second Z.
 * **Skip (Esc)**: while waiting for a point measurement, discards it and requests the next. With a listed point selected, clears selection.

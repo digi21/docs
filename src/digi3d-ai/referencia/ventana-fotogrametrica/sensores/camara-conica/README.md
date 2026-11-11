@@ -7,7 +7,7 @@ Puede obtener las calibraciones de cámara y las orientaciones de los modelos de
 
 ## Crear un modelo
 
-Los modelos del sensor Cónico se crean con el cuadro de diálogo [Crear modelo](../../../cuadros-de-dialogo/crear-modelo.md), seleccionando el sensor **Cónico** en el cuadro de diálogo Crear proyecto fotogramétrico. El nombre del modelo es el nombre de la imagen izquierda, un guion y el nombre de la imagen derecha, sin extensión: con las imágenes `107.tif` y `108.tif` se crea el archivo **107-108.d3d** en el directorio de trabajo.
+Los modelos del sensor Cónico se crean con el cuadro de diálogo [Crear modelo](../../../cuadros-de-dialogo/crear-modelo.md), seleccionando el sensor **Cónico** en el cuadro de diálogo Crear proyecto fotogramétrico. El nombre del modelo que propone el cuadro de diálogo es el nombre de la imagen izquierda, un guion y el nombre de la imagen derecha, sin extensión: con las imágenes `107.tif` y `108.tif` propone **107-108** y crea el archivo **107-108.d3d** en el directorio de trabajo. Puedes escribir otro nombre en el campo **Nombre del archivo .d3d**. Un modelo que se abre desde un archivo `.d3d` toma el nombre de ese archivo sin la extensión, también cuando has renombrado el archivo. Consulta [Nombre del modelo](../README.md#nombre-del-modelo).
 
 ## Propiedades del sensor
 
@@ -39,7 +39,7 @@ Con **Archivo de aerotriangulación**, la ventana [Resultados](../../../paneles/
 
 ### Orientación absoluta
 
-La orientación absoluta se lee del archivo de aerotriangulación si la extensión que lo lee la proporciona. Si la extensión no proporciona orientación absoluta, el sensor lee la orientación absoluta de `<izquierda>-<derecha>.abs.xml` (o del formato antiguo `<izquierda>-<derecha>.abs2`). Sin orientación absoluta del archivo de aerotriangulación ni de los archivos de orientación absoluta, el modelo no tiene transformación absoluta: las coordenadas del modelo son las de la orientación relativa.
+La orientación absoluta se lee del archivo de aerotriangulación si la extensión que lo lee la proporciona. Si la extensión no proporciona orientación absoluta, el sensor lee la orientación absoluta de `<izquierda>-<derecha>.abs.xml` (o del formato antiguo `<izquierda>-<derecha>.abs2`). La orden [ORI\_ABSOLUTA](../../ordenes/o/ori-absoluta.md) guarda la orientación absoluta en `<izquierda>-<derecha>.abs.xml`, aunque el archivo `.d3d` del modelo tenga otro nombre. Sin orientación absoluta del archivo de aerotriangulación ni de los archivos de orientación absoluta, el modelo no tiene transformación absoluta: las coordenadas del modelo son las de la orientación relativa.
 
 ## Sistema de referencia de coordenadas
 

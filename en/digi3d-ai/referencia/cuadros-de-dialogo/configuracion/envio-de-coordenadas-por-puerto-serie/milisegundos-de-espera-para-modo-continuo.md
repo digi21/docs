@@ -1,8 +1,8 @@
 # Milliseconds of standby for continuous mode
 <!-- id: milisegundos-de-espera-para-modo-continuo -->
-<!-- origen: d7ce74fcce993dcecd565c863be0745de7b08c4b -->
+<!-- origen: 624fd2881362d891dd6d58e2ade1da9ac2854912 -->
 
-If the value differs from **0**, specifies the delay, in milliseconds, from pressing the Data button or pedal until coordinates start being sent while you hold the button or pedal down.
+If the value differs from **0**, specifies the time, in milliseconds, from pressing the Data button or pedal until Digi3D.AI sends cursor movement coordinates again while you hold the button or pedal down. When you press the Data button or pedal, Digi3D.AI immediately sends a line with the cursor coordinates and the pressed state of the Data button or pedal; during the wait, Digi3D.AI does not send lines triggered by cursor movements, and when you release the button or pedal it sends without waiting a line with the state equal to 0.
 
 <details>
 <summary>Where it is stored</summary>

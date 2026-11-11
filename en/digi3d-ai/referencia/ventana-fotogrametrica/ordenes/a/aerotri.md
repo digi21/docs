@@ -1,6 +1,6 @@
 # AEROTRI
 <!-- id: aerotri -->
-<!-- origen: ca2ff237f14fe759e819f513c17bed8cbf2a2d63 -->
+<!-- origen: edd1fa7fb66d465140f4bc3325d0ed533b8cb5a3 -->
 
 Measures aerial triangulation and control points in the loaded model and saves model and photo coordinates for an aerial triangulation adjustment program.
 
@@ -17,7 +17,7 @@ AEROTRI shows this pane and [Thumbnails](../../../paneles/instantaneas.md). AERO
 Uses the [ABSOLUTE\_ORI](../o/ori-absoluta.md) pane with these differences:
 
 * **Schema**: aerial triangulation measurement pattern. Read from [Schemas](../../../cuadros-de-dialogo/configuracion/medida-de-aerotriangulacion/esquemas.md). Each point has a prefix, photo position and suffix. Its name combines prefix, photo name and suffix. The pattern applies first to the left photo, then the right. Selecting a pattern moves to the first unmeasured point and runs [CORRELATE](../c/correlar.md). The last pattern is remembered.
-  * An existing _.mod_ from earlier measurement loads its points and disables **Schema**.
+  * The pane first looks for `<model name>.mod` in the project's **Aerotriangulación** folder. If `<model name>.mod` does not exist, the pane looks for `<left image name>-<right image name>.mod`, using image names without extensions. When the pane finds a measurement file, the pane loads the saved points and disables **Schema**.
   * With no configured schema file, **Schema** is empty and points are measured with **Add**.
   * An unreadable schema file displays “Error in the schema file format” and ends the command.
 * **Add**: opens [Enter a terrain point of the point file](../../../cuadros-de-dialogo/introduce-punto-terreno.md). A name absent from the control point file is measured as an aerial triangulation point: no ground coordinates or residuals, and its use cannot change through **Do not use**, **Use on Z**, **Use on XY** or **Use on XYZ**.

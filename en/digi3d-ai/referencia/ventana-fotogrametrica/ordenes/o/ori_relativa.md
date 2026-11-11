@@ -1,6 +1,6 @@
 # RELATIVE\_ORI
 <!-- id: ori-relativa -->
-<!-- origen: 2d4a247c1adb6a438ee6f0a0cda7d83aa1262915 -->
+<!-- origen: 58979177b86e3a2e657b99cc387a6ee09d2ba650 -->
 
 Performs the **relative orientation** of the model loaded in the photogrammetric window: calculates the right camera's position and rotations relative to the left camera from corresponding points measured in both images.
 
@@ -32,7 +32,7 @@ Digi3D.AI calculates relative orientation once the number of measured points rea
 
 * **Schema**: Von Gruber pattern with approximate positions of the requested points, read from the schema file. Digi3D.AI remembers the selected schema. Changing it clears measured points. Disabled if the model already had a calculated relative orientation.
 * **Extended view**: adds each point's photo coordinates in the left image (**xl**, **yl**) and right image (**xr**, **yr**), and model coordinates (**Xmod**, **Ymod**, **Zmod**). Digi3D.AI remembers this setting.
-* **Point list**: shows each point's number (**N**), left-image residuals (**vXL**, **vYL**), right-image residuals (**vXR**, **vYR**) and Y parallax (**py**). Residuals and parallax are multiplied by 1000, as indicated by **Residuals and parallax units x 1000**. Click a point to move the cursor to it. With **Re-measure automatically** enabled in configuration, Digi3D.AI also starts remeasuring it.
+* **Point list**: shows each point's number (**N**), left-image residuals (**vXL**, **vYL**), right-image residuals (**vXR**, **vYR**) and Y parallax (**py**). Residuals and parallax are multiplied by 1000, as indicated by **Residuals and parallax units x 1000**. When there are as many points as the **Points to calculate** configuration option specifies, Digi3D.AI shows in red, in each of the **vXL**, **vYL**, **vXR**, **vYR** and **py** columns, the cells whose absolute value, rounded to the three decimals the cell shows, is the largest in the column (all tied cells), unless that value is 0. Click a point to move the cursor to it. With **Re-measure automatically** enabled in configuration, Digi3D.AI also starts remeasuring it.
 * **Standard deviation**: relative orientation standard deviation, multiplied by 1000.
 * **Correlate all**: opens [Automatic relative orientation by correlation](/digi3d-ai/referencia/cuadros-de-dialogo/orientacion-relativa-automatica-por-correlacion.md), which measures points by correlation. Afterwards, the list contains the correlated points used in the calculation.
 * **Re-measure all**: clears measured points and requests them again from the first.

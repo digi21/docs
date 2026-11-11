@@ -1,6 +1,6 @@
 # Format for external communication
 <!-- id: formato-de-comunicacion-exterior -->
-<!-- origen: 43e8b32e1e41ab3aeedfac321561908014c66dce -->
+<!-- origen: 155ac77ac14d05ee39256d60622e3a6490dc97d8 -->
 
 Specifies the format in which coordinates are sent through the serial port.
 
@@ -10,6 +10,8 @@ Specifies the format in which coordinates are sent through the serial port.
 * **x-y-z-pedal (ASCII)**. Floating-point coordinates with 3 decimal places.
 * **pedal-x-y-z (ASCII), integer ×100**. Integer coordinates multiplied by 100.
 * **pedal-x-y-z (ASCII), integer ×1000**. Integer coordinates multiplied by 1000.
+
+With both integer formats, Digi3D.AI multiplies each coordinate by 100 or 1000 and rounds it to the nearest integer; for example, with ×100, 200.996 is sent as 20100. A value exactly halfway is rounded to the integer with the larger absolute value.
 
 <details>
 <summary>Where it is stored</summary>

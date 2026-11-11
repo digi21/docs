@@ -10,6 +10,8 @@ Indica el formato en el que se enviarán las coordenadas por el puerto serie.
 * **pedal-x-y-z (ASCII), entero ×100**. Coordenadas en formato entero multiplicadas por 100.
 * **pedal-x-y-z (ASCII), entero ×1000**. Coordenadas en formato entero multiplicadas por 1000.
 
+Con los dos formatos enteros, Digi3D.AI multiplica cada coordenada por 100 o por 1000 y la redondea al entero más cercano; por ejemplo, con ×100, 200,996 se envía como 20100. Un valor exactamente intermedio se redondea al entero de mayor valor absoluto.
+
 <details>
 <summary>Dónde se almacena</summary>
 

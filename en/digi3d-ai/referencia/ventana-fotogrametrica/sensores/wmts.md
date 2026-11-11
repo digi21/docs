@@ -1,6 +1,6 @@
 # Web Map Tile Service
 <!-- id: sensor-wmts -->
-<!-- origen: f1bbbd19c350a91239bea243f1c573206ea8bda2 -->
+<!-- origen: ac29df64d8722e90c00d55e6de72ba828983054f -->
 
 The Web Map Tile Service sensor displays a WMTS (*Web Map Tile Service*) server layer in the photogrammetric window. The server supplies precomputed image tiles at zoom levels. The model has one image and no stereoscopy. Digi3D.AI requests visible-area tiles as you move through the model, treating each server tile matrix level as a pyramidal level.
 
@@ -24,10 +24,10 @@ For an existing model, or one prepared with **Create a new one from this**, read
 
 ## Model filename
 
-The filename is `servidor - capa.d3d`, using the URL server name and layer title. For example, `www.ign.es - Imágenes de satélite Sentinel y ortofotos PNOA.d3d`. Without a layer it is the server name: `www.ign.es.d3d`.
+Digi3D.AI proposes `servidor - capa.d3d` as the model filename, using the URL server name and layer title. For example, `www.ign.es - Imágenes de satélite Sentinel y ortofotos PNOA.d3d`. Without a layer selected, Digi3D.AI proposes `servidor.d3d`; for example, `www.ign.es.d3d`. When you create the model, Digi3D.AI shows the proposed name, without extension, in **.d3d file name** in [Create model](../../cuadros-de-dialogo/crear-modelo.md) or in the [Photogrammetric sensors](../../cuadros-de-dialogo/nuevo-proyecto/sensores-fotogrametricos.md) tab of New project, and you can change it.
 
 * Characters Windows forbids in filenames are replaced: `\`, `/`, and `|` by `-`; `:`, `*`, `?`, and `%` by `_`; `"` by `'`; `<` and `>` by parentheses. Ports use `_`: `servidor_8080`.
-* If the working directory already contains a Web Map Tile Service model for the same server, layer, style, format, and tile matrix set, Digi3D.AI reuses it, writing the new configuration. If an existing same-name file differs in any of these or belongs to another sensor, the new name becomes `servidor - capa (2).d3d`, `servidor - capa (3).d3d`, etc.
+* If the working directory already contains a Web Map Tile Service model for the same server, layer, style, format, and tile matrix set, Digi3D.AI proposes that file's name and, if you answer **Yes** to “Do you want to save the new model in the existing model file?”, reuses it, writing the new configuration. If an existing same-name file differs in any of these or belongs to another sensor, the new name becomes `servidor - capa (2).d3d`, `servidor - capa (3).d3d`, etc.
 * Choosing another layer renames the model file for it, including the first selection in a model without a layer and automatic selection of the only server layer. Existing files are never overwritten by renaming: ` (2)`, ` (3)`, etc. are appended as needed. The photogrammetric window title reflects the new name.
 * Custom filenames, or names from an older version using the entire connection string, are retained when changing layers.
 
