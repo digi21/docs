@@ -74,7 +74,7 @@ Cada clase se asigna con el código que tenga en el cuadro [Códigos LiDAR](codi
 | Calzada | 35 | Las calles y carreteras. |
 | Otros | 90 | Lo que no es suelo, vegetación ni edificación, como el mobiliario urbano. |
 | Vehículos | 103 | Los vehículos sobre la calzada o junto a ella. |
-| Puentes | 250 | Los tableros de los puentes y las pasarelas. Se recomienda cambiarlo a 17, la clase estándar de LAS. |
+| Puentes | 17 | Los tableros de los puentes y las pasarelas. |
 
 ### El suelo en lomas y cerros
 
