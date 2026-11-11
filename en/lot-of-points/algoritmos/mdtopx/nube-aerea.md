@@ -34,7 +34,7 @@ Open **Settings** and select **MDTopX**. Settings are grouped under **Aerial clo
 | LiDAR codes | Walls | | 12 | 0 – 255 | Integer |
 | LiDAR codes | Aerial points | | 13 | 0 – 255 | Integer |
 | LiDAR codes | Others | | 90 | 0 – 255 | Integer |
-| LiDAR codes | Bridges | | 250 | 0 – 255 | Integer |
+| LiDAR codes | Bridges | | 17 | 0 – 255 | Integer |
 
 **LiDAR codes** configure the classes for those point types. `SoloSuelo` uses the bridge code and assigns class 2 to ground.
 
