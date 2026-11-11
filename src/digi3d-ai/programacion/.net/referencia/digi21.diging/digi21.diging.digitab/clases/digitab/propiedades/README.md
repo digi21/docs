@@ -7,3 +7,4 @@
 | [Path](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/path.md) | Ruta del archivo del que se cargó la tabla de códigos. |
 | [Tables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/tables.md) | Tablas de base de datos que define el esquema de la tabla de códigos, con sus campos. |
 | [Item\[string\]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md) | Código de la tabla cuyo nombre o alias es el indicado. |
+| [Topologies](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/topologies.md) | Definiciones de las topologías de la tabla de códigos. |

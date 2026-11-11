@@ -33,6 +33,7 @@ Los cambios se hacen en memoria. Para guardarlos, llama a [Write](/digi3d-ai/pro
 | [IEnumerable&lt;NodeDigiTab&gt; Codes](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/codes.md) | Códigos de la tabla. |
 | [NodeDigiTab this[string name]](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/item-string.md) | Código con el nombre o el alias indicado. Lanza `ArgumentOutOfRangeException` si no existe. |
 | [IDictionary&lt;string, IList&lt;Tuple&lt;string, Type&gt;&gt;&gt; Tables](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/tables.md) | Tablas de base de datos que define la tabla de códigos, con sus campos. |
+| [IReadOnlyList&lt;TopologyDefinition&gt; Topologies](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/propiedades/topologies.md) | Definiciones de las topologías de la tabla de códigos. Requiere el paquete `Digi21.DigiNG` 26.2.0. |
 
 ## Métodos estáticos
 
@@ -47,6 +48,7 @@ Los cambios se hacen en memoria. Para guardarlos, llama a [Write](/digi3d-ai/pro
 | [bool HasCode(string name)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md) | Indica si la tabla tiene un código o un alias con ese nombre exacto. |
 | [bool HasCode(string name, bool allowWildcards)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/hascode.md) | Indica si la tabla tiene un código o un alias con el nombre indicado, con comodines `*` y `?` si `allowWildcards` es `true`. |
 | [void AddCode(NodeDigiTab code)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/addcode.md) | Añade un código a la tabla. |
+| [TopologyDefinition GetTopology(string name)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/gettopology.md) | Devuelve la definición de la topología con el nombre indicado, o `null` si la tabla de códigos no la define. Requiere el paquete `Digi21.DigiNG` 26.2.0. |
 | [void Write(string path)](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/digitab/metodos/write.md) | Guarda la tabla de códigos en un archivo. Lanza `InvalidOperationException` si la tabla está cifrada e `IOException` si no se puede escribir. |
 | `void Dispose()` | Libera la tabla de códigos nativa. |
 

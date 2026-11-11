@@ -33,6 +33,8 @@ Se ignoran también las entidades eliminadas (`Deleted`), las ocultas y las que 
 
 ## Métodos estáticos
 
+Las sobrecargas de `AnalyzeTopology` que reciben `TopologyDefinition` y los métodos `CreatePolygon` y `CreatePolygons` usan una [definición de topología](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/topologydefinition.md) de la tabla de códigos y requieren el paquete `Digi21.DigiNG.Topology` 26.1.0 y Digi3D.AI 2027.0.0.428 o posterior. Las demás sobrecargas están en el paquete desde la versión 26.0.0.
+
 ### AnalyzeTopology
 
 ```csharp
@@ -104,6 +106,113 @@ Asigna a la propiedad `Centroid` de cada polígono de `polygons` el primer texto
 Los polígonos se analizan en el orden de `polygons`. Un texto asignado como centroide a un polígono no se tiene en cuenta en los polígonos siguientes, ni para asignarlo ni para `duplicatedCentroids`. Un texto que un polígono contiene pero no se le asigna sigue disponible para los polígonos siguientes.
 
 Lanza `NullReferenceException` si algún elemento de `polygons` tiene `Polygon` a `null`, por ejemplo un `ClosedLoopWithHoles` creado con su constructor.
+
+### AnalyzeTopology con una definición de topología
+
+```csharp
+public static IEnumerable<ClosedLoopWithHoles> AnalyzeTopology(
+    this IEnumerable<Entity> entities, TopologyDefinition topology)
+
+public static IEnumerable<ClosedLoopWithHoles> AnalyzeTopology(
+    this IEnumerable<Entity> entities, TopologyDefinition topology, TopologyAnalysisHandlers handlers)
+```
+
+Forma la topología de `entities` con la [definición de topología](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/topologydefinition.md) de la tabla de códigos que indica `topology`, como lo hace la orden [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md)`=#nombre`. Requiere el paquete `Digi21.DigiNG.Topology` 26.1.0 y Digi3D.AI 2027.0.0.428 o posterior.
+
+| Parámetro | Descripción |
+| :--- | :--- |
+| `entities` | Entidades que se analizan. Solo intervienen las entidades que no están eliminadas, que no están ocultas, que no están fuera de la zona de interés y que tienen un código de la topología. |
+| `topology` | Definición de la topología. Proporciona los códigos, la exigencia de continuidad 3D (`Requires3DContinuity`) y el texto de los centroides de huecos (`HoleCentroidText`). |
+| `handlers` | Delegados que reciben el avance y los errores, y que evalúan las condiciones de exclusión. Puede ser `null`. Lee [TopologyAnalysisHandlers](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/topologyanalysishandlers.md). |
+
+Devuelve los polígonos válidos que no son huecos, cada uno con sus huecos y su centroide. El centroide vale `null` si el polígono no contiene ninguno. La colección está vacía si ninguna entidad tiene un código de la topología o si no se forma ningún polígono.
+
+Los polígonos que devuelve el método conservan referencias a las entidades de `entities`, y `CreatePolygon` lee las coordenadas nativas de esas entidades. No liberes las entidades ni cierres el archivo de dibujo del que se leyeron mientras uses los polígonos.
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `entities` o `topology` es `null`. |
+| `ArgumentException` | Un código de la topología tiene una condición de exclusión que no está vacía y no hay delegado `EvaluateExcludeCondition`: la sobrecarga sin `handlers` lanza la excepción siempre, y la sobrecarga con `handlers` la lanza si `handlers` o su propiedad `EvaluateExcludeCondition` es `null`. También, si `entities` contiene un elemento `null`. |
+| `ObjectDisposedException` | Se ha llamado a `Dispose` en `topology`. |
+| `Exception` | Los dos primeros o los dos últimos vértices de una línea tienen la misma X e Y, o una entidad es un punto o una línea con menos de dos vértices. Antes de lanzar la excepción, el método pasa cada entidad afectada al delegado `LineWithDoublePoints` o `EntityWithFewerThanTwoVertices`, si no es `null`. |
+
+#### Diferencias con la orden BINTOP
+
+- `AnalyzeTopology` lanza una excepción cuando detecta puntos dobles o entidades con un solo punto; la orden muestra un globo.
+- Los errores y avisos se notifican con los delegados de `TopologyAnalysisHandlers`; la orden los añade al panel de tareas y, si se pide, a un fichero de errores.
+- Sin entidades con los códigos de la topología, el método devuelve una colección vacía; la orden escribe «No se han encontrado entidades con las que trabajar».
+- El resultado es la colección que devuelve el método; el método no la guarda con ningún nombre.
+- Cuando detecta puntos dobles o entidades con un solo punto, `AnalyzeTopology` lanza una excepción sin corregir los puntos dobles ni eliminar las entidades de tipo punto. La orden los corrige y los borra cuando se ejecuta desde su cuadro de diálogo.
+
+### CreatePolygon
+
+```csharp
+public static Polygon CreatePolygon(
+    this ClosedLoopWithHoles loop, TopologyDefinition topology)
+
+public static Polygon CreatePolygon(
+    this ClosedLoopWithHoles loop, TopologyDefinition topology, Func<Point3D, double?> projectZ)
+
+public static Polygon CreatePolygon(
+    this ClosedLoopWithHoles loop, TopologyDefinition topology, Func<Point3D, string, double?> projectZ)
+```
+
+Crea el polígono que genera la definición de topología de la tabla de códigos para un recinto, como lo hace la orden [TOPOLOGIA\_A\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/topologia-a-poligono.md). Requiere el paquete `Digi21.DigiNG.Topology` 26.1.0 y Digi3D.AI 2027.0.0.428 o posterior.
+
+| Parámetro | Descripción |
+| :--- | :--- |
+| `loop` | Recinto con centroide que devolvió `AnalyzeTopology`. |
+| `topology` | Definición de la topología. Proporciona el código del polígono (`PolygonCode`), las reglas de la coordenada Z y el texto de los centroides de huecos. |
+| `projectZ` | Función que devuelve la coordenada Z de un punto sobre un modelo digital del terreno (MDT), o `null` si ningún MDT contiene el punto. `CreatePolygon` llama a `projectZ` cuando aplica las reglas de coordenada Z que proyectan sobre un MDT. Si `projectZ` es `null` o devuelve `null`, `CreatePolygon` conserva la coordenada Z original del vértice. |
+
+Las tres sobrecargas se diferencian en cómo se obtiene la Z de un MDT:
+
+| Sobrecarga | Efecto |
+| :--- | :--- |
+| Sin `projectZ` | En las reglas que proyectan sobre un MDT, cada vértice conserva su coordenada Z original. |
+| `Func<Point3D, double?>` | `CreatePolygon` llama a `projectZ` con el punto, sin etiqueta de MDT. |
+| `Func<Point3D, string, double?>` | `CreatePolygon` llama a `projectZ` con el punto y la etiqueta de MDT que indica la regla ([TopologyDefinition.DtmTag](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/topologydefinition.md) o [TopologyZRule.DtmTag](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/topologyzrule.md)). Una etiqueta vacía significa cualquier MDT. [DigitalTerrainModelCollection.Project](/digi3d-ai/programacion/.net/referencia/digi21.diging.dtm/digitalterrainmodelcollection.md) tiene esta firma. |
+
+Si pasas el literal `null` como `projectZ`, el compilador no puede elegir entre las dos sobrecargas con delegado: convierte el `null` al tipo del delegado, por ejemplo `(Func<Point3D, double?>)null`.
+
+Devuelve un polígono nuevo que no pertenece a ningún archivo de dibujo. El código y la coordenada Z del polígono, y los datos de base de datos que recibe del centroide, se explican en [Qué toma el polígono de la definición de topología](#qué-toma-el-polígono-de-la-definición-de-topología). Añade el polígono a un archivo con `IDrawingFile.Add(Polygon)` y llama a `Dispose` cuando ya no lo necesites.
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `loop` o `topology` es `null`. |
+| `ArgumentException` | `loop` no tiene centroide, el centroide no tiene código, el texto del centroide es el `HoleCentroidText` de la definición, o un anillo no tiene líneas o contiene una línea con menos de dos vértices. |
+| `ObjectDisposedException` | Se ha llamado a `Dispose` en `topology`. |
+
+### CreatePolygons
+
+```csharp
+public static IReadOnlyList<Polygon> CreatePolygons(
+    this IEnumerable<ClosedLoopWithHoles> loops, TopologyDefinition topology, Func<Point3D, string, double?> projectZ)
+```
+
+Crea los polígonos que genera la definición de topología para varios recintos, como lo hace la orden `TOPOLOGIA_A_POLIGONO`. Omite los recintos sin centroide y los recintos cuyo centroide tiene el texto `HoleCentroidText`. Requiere el paquete `Digi21.DigiNG.Topology` 26.1.0 y Digi3D.AI 2027.0.0.428 o posterior.
+
+| Parámetro | Descripción |
+| :--- | :--- |
+| `loops` | Recintos que devolvió `AnalyzeTopology`. |
+| `topology` | Definición de la topología. |
+| `projectZ` | Función que devuelve la coordenada Z de un punto sobre los MDT con una etiqueta, o `null` si ninguno contiene el punto. Recibe el punto y la etiqueta de MDT de la regla; una etiqueta vacía significa cualquier MDT. Si `projectZ` es `null` o devuelve `null`, `CreatePolygons` conserva la coordenada Z original del vértice. |
+
+Devuelve los polígonos nuevos, que no pertenecen a ningún archivo de dibujo, en el orden de `loops`. Añade los polígonos a un archivo con `IDrawingFile.Add(Polygon)` y llama a `Dispose` en cada uno cuando ya no los necesites.
+
+| Excepción | Cuándo |
+| :--- | :--- |
+| `ArgumentNullException` | `loops` o `topology` es `null`. |
+| `ArgumentException` | `loops` contiene un elemento `null`, el centroide de un recinto no tiene código, o un anillo no tiene líneas o contiene una línea con menos de dos vértices. |
+| `ObjectDisposedException` | Se ha llamado a `Dispose` en `topology`. |
+
+#### Qué toma el polígono de la definición de topología
+
+- El código del polígono es `PolygonCode`, con estas variables sustituidas: `$(CodigoCentroide)`, `$(CodCentroid)`, `$(CentroidCode)` y `$(CenrtoidCode)` se sustituyen por el código del centroide del recinto, y `$(TextoCentroide)` y `$(TextCentroid)` por el texto del centroide.
+- Con `CopyTableAndRecordFromCentroid` a `true`, el polígono recibe la tabla y el identificador de registro de base de datos del primer código del centroide. Con `CopyDatabaseAttributesFromCentroid` a `true`, recibe los atributos de base de datos del primer código del centroide.
+- `TopologyCentroid.FieldValues` no se aplica al polígono: lo usan las sustituciones de base de datos de la orden `EXPORTAR_TOPOLOGIA`.
+- Si `Centroids` contiene un elemento que coincide con el texto del centroide del recinto y su propiedad `PolygonZSource` tiene un valor, `CreatePolygon` usa ese valor como origen de la coordenada Z; en caso contrario, usa `TopologyDefinition.PolygonZSource`. Con `FromGeometries`, deciden la Z las [reglas de coordenada Z](/digi3d-ai/programacion/.net/referencia/digi21.diging/digi21.diging.digitab/clases/topologyzrule.md) de los códigos de las líneas del recinto.
+- Con `ProjectOnDtm`, la coordenada Z de los vértices la da `projectZ`. Si `projectZ` es `null` o no devuelve valor para un vértice, el vértice conserva su coordenada Z original. Esto se cumple también en las reglas de Z de los códigos que proyectan sobre un MDT (`NodeZRule.ProjectOnDtm`, `VertexZAction.ProjectOnDtm`): el código nativo recibe siempre una función de Z, y esa función devuelve la Z del vértice cuando `projectZ` no da valor.
 
 ## Ejemplo
 

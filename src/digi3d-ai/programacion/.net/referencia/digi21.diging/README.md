@@ -5,17 +5,17 @@ Este paquete [NuGet](https://www.nuget.org/packages/Digi21.DigiNG/) proporciona 
 
 ### Package manager
 ```bash
-Install-Package Digi21.DigiNG -Version 26.0.0
+Install-Package Digi21.DigiNG -Version 26.2.0
 ```
 
 ### .NET Cli
 ```
-dotnet add package Digi21.DigiNG --version 26.0.0
+dotnet add package Digi21.DigiNG --version 26.2.0
 ```
 
 ### Package reference
 ```markup
-<PackageReference Include="Digi21.DigiNG" Version="26.0.0" />
+<PackageReference Include="Digi21.DigiNG" Version="26.2.0" />
 ```
 
 ## Contenido del paquete
