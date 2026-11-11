@@ -47,7 +47,7 @@ Las unidades de la tabla son las que declara la DLL para los parámetros.
 | Códigos LiDAR | Paredes | | 12 | 0 – 255 | Entero |
 | Códigos LiDAR | Aéreos | | 13 | 0 – 255 | Entero |
 | Códigos LiDAR | Otros | | 90 | 0 – 255 | Entero |
-| Códigos LiDAR | Puentes | | 250 | 0 – 255 | Entero |
+| Códigos LiDAR | Puentes | | 17 | 0 – 255 | Entero |
 
 Los **Códigos LiDAR** configuran las clases de esos tipos de punto. La fase `SoloSuelo` utiliza el código
 de puentes y asigna la clase 2 al suelo.
