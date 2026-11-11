@@ -15,7 +15,7 @@ Estos valores son los siguientes:
 | **Paredes** | 12 | Los puntos medidos sobre las fachadas de los edificios. |
 | **Aéreos** | 13 | Los puntos cuya cota es muy superior a la del entorno, producido por algún error en la medida o por el rebote del rayo sobre un objeto aéreo. |
 | **Otros** | 90 | Los puntos que no han podido ser identificados como vegetación, suelo o edificación, por ejemplo, mobiliario urbano. |
-| **Puentes** | 250 | Los tableros de los puentes sobre cauces y vías y las pasarelas, con sus pretiles y barandillas. La clase estándar de LAS para los tableros de puente es la 17. |
+| **Puentes** | 250 | Los tableros de los puentes sobre cauces y vías y las pasarelas, con sus pretiles y barandillas. Se recomienda cambiarlo a 17, la clase estándar de LAS para los tableros de puente. |
 | **Calzada** | 35 | Las calles y carreteras: el asfalto y, en la zona urbana, las calles de fachada a fachada con sus aceras. |
 | **Vehículos** | 103 | Los vehículos sobre la calzada o junto a ella. |
 | **Cables** | 14 | Los conductores y cables de guarda de las líneas eléctricas. Sus puntos sintéticos llevan esta clase más 32 (46 por defecto). |
