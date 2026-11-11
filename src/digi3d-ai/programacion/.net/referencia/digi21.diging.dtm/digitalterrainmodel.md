@@ -40,8 +40,6 @@ Devuelve el modelo digital del terreno. Llama a `DigitalTerrainModel.Dispose` pa
 
 `Open` no muestra cuadros de diálogo, no comprueba la licencia y no crea el archivo `.prj` del sistema de coordenadas: solo lo lee para asignar `CoordinateSystemWkt`.
 
-Antes de leer el archivo, `Open` busca `CoreTri.dll` primero en la carpeta dos niveles por encima de la carpeta del ensamblado, que es la carpeta de instalación de Digi3D.AI donde el instalador copia las bibliotecas de enlace dinámico (DLL) de MDTopX, y después en la carpeta del ensamblado. Carga `CoreTri.dll` y sus dependencias de la carpeta donde la encuentra.
-
 | Excepción | Cuándo |
 | :--- | :--- |
 | `ArgumentNullException` | `filePath` es `null`. |
@@ -49,7 +47,7 @@ Antes de leer el archivo, `Open` busca `CoreTri.dll` primero en la carpeta dos n
 | `FileNotFoundException` | El archivo no existe. |
 | `IOException` | El archivo existe pero no se puede abrir. |
 | `InvalidDataException` | El archivo no es un modelo digital del terreno de MDTopX válido. |
-| `DllNotFoundException` | `CoreTri.dll` no está en ninguna de las dos carpetas, o no se pudo cargar una biblioteca de MDTopX. |
+| `DllNotFoundException` | Digi3D.AI no está instalado en el equipo o su instalación está incompleta. |
 
 ## Métodos
 

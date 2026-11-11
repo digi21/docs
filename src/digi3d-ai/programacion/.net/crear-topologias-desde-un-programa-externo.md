@@ -7,7 +7,7 @@ El proyecto completo de un programa equivalente, `TopologiasDesdeTabla`, que ade
 
 ## Requisitos
 
-- Digi3D.AI 2027.0.0.428 o posterior, instalado en el equipo. El programa usa los ensamblados que instala Digi3D.AI. Para abrir el MDT, `DigitalTerrainModel.Open` carga las bibliotecas de MDTopX (`CoreTri.dll` y sus dependencias) de la carpeta de instalación, donde el instalador las copia.
+- Digi3D.AI 2027.0.0.428 o posterior, instalado en el equipo. El programa usa los ensamblados que instala Digi3D.AI.
 - El kit de desarrollo de software (SDK) de .NET 10, como en el [tutorial de la aplicación de consola](tutorial-aplicacion-de-consola.md).
 - Una tabla de códigos con topologías definidas en su pestaña [Topologías](/digi3d-ai/referencia/editor-de-tablas-de-codigos/pestanas/topologias/README.md).
 - Un directorio con archivos `.bind` y, si alguna topología proyecta la Z, un archivo `.mdt` con el mismo sistema de coordenadas horizontal que los archivos `.bind`.
@@ -217,8 +217,6 @@ Hay dos opciones:
 
 - `DigitalTerrainModel.Project` no transforma coordenadas. El MDT y los archivos `.bind` tienen que estar en el mismo sistema de coordenadas horizontal. El sistema del MDT está en `DigitalTerrainModel.CoordinateSystemWkt`, y el del archivo `.bind` en `BinDouble.Wkt`.
 - Los recintos que devuelve `AnalyzeTopology` conservan referencias a las entidades de la lista, y `CreatePolygons` lee las coordenadas nativas de esas entidades. Mientras uses los recintos, no liberes las entidades ni cierres el `BinDouble` del que las leíste.
-- `DigitalTerrainModel.Open` carga las bibliotecas de MDTopX de la carpeta de instalación de Digi3D.AI. Si no las encuentra, lanza `DllNotFoundException`.
-
 ## Más información
 
 - [TopologyAnalyzer](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/topologyanalyzer.md) y [TopologyAnalysisHandlers](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/topologyanalysishandlers.md): métodos y delegados del análisis.

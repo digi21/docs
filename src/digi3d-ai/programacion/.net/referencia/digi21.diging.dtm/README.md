@@ -20,9 +20,7 @@ dotnet add package Digi21.DigiNG.Dtm --version 26.0.0
 <PackageReference Include="Digi21.DigiNG.Dtm" Version="26.0.0" />
 ```
 
-El paquete contiene un ensamblado de referencia y depende de `Digi21.DigiNG` 26.2.0. El instalador de Digi3D.AI copia a `<carpeta de instalación>\Digi21.DigiNG.Dtm\26.0.0\` solo `Digi21.DigiNG.Dtm.dll`, su `deps.json`, su `runtimeconfig.json` e `ijwhost.dll`. Las bibliotecas de enlace dinámico (DLL) de MDTopX se instalan en `<carpeta de instalación>`.
-
-`DigitalTerrainModel.Open` busca `CoreTri.dll` primero en la carpeta dos niveles por encima de la carpeta del ensamblado, que es la carpeta de instalación de Digi3D.AI, y después en la carpeta del ensamblado, y carga de la carpeta donde la encuentra `CoreTri.dll` y sus dependencias. Si no las encuentra, `Open` lanza `DllNotFoundException`.
+El paquete contiene un ensamblado de referencia y depende de `Digi21.DigiNG` 26.2.0.
 
 Todos los tipos están en el espacio de nombres `Digi21.DigiNG.Dtm`.
 
