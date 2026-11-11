@@ -33,7 +33,7 @@ Todos los tipos están en el espacio de nombres `Digi21.DigiNG.Dtm`.
 
 ## Uso con la topología
 
-La firma de `DigitalTerrainModelCollection.Project(Point3D, string)` coincide con el parámetro `projectZ` de `TopologyAnalyzer.CreatePolygons` y `CreatePolygon` del paquete [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/topologyanalyzer.md). El procedimiento [Crear las topologías de la tabla de códigos desde un programa externo](/digi3d-ai/programacion/.net/crear-topologias-desde-un-programa-externo.md) usa ambos paquetes.
+La firma de `DigitalTerrainModelCollection.Project(Point3D, string)` coincide con el parámetro `projectZ` de `TopologyAnalyzer.CreatePolygons` y `CreatePolygon` del paquete [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/topologyanalyzer.md). El ejemplo [TopologiasDesdeTabla](/digi3d-ai/programacion/.net/ejemplos/topologias-desde-tabla.md) usa los paquetes `Digi21.DigiNG.Dtm` y `Digi21.DigiNG.Topology`.
 
 ## Ejemplo
 

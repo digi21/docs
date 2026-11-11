@@ -3,8 +3,7 @@
 
 `TopologiasDesdeTabla` es una **aplicación de consola** que crea polígonos a partir de las topologías de una tabla de códigos y los añade a cada archivo `.bind` de una carpeta. Hace fuera de Digi3D.AI lo que hace la orden [TOPOLOGIA\_A\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/topologia-a-poligono.md). Si una topología proyecta la coordenada Z sobre un modelo digital del terreno (MDT), el programa obtiene esa Z de un archivo `.mdt`.
 
-Código: [TopologiasDesdeTabla en GitHub](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/TopologiasDesdeTabla). El procedimiento [Crear las topologías de la tabla de códigos desde un programa externo](../crear-topologias-desde-un-programa-externo.md) explica paso a paso un programa equivalente.
-
+Código: [TopologiasDesdeTabla en GitHub](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/TopologiasDesdeTabla).
 ## Compilar
 
 El proyecto usa .NET 10 y estos paquetes:
@@ -59,10 +58,11 @@ El análisis de cada topología usa la lista de entidades guardada al abrir el a
 ## Errores y casos especiales
 
 - **Errores de una topología.** Cualquier excepción del análisis, de la creación de los polígonos o de la escritura se muestra como `[<topología>] Se localizó el siguiente error: <mensaje>` en la salida de error, y el programa continúa con la topología siguiente. `AnalyzeTopology` lanza una excepción, después de escribir los avisos, si el archivo tiene líneas con puntos dobles o entidades con un solo punto.
-- **Condiciones de exclusión.** El programa no omite las topologías que tienen códigos con condición de exclusión, ni define un delegado para evaluar las condiciones de exclusión. En esas topologías `AnalyzeTopology` lanza `ArgumentException` y el programa escribe el error de la topología. El programa descrito en [Crear las topologías de la tabla de códigos desde un programa externo](../crear-topologias-desde-un-programa-externo.md) omite las topologías cuyos códigos tienen condiciones de exclusión.
+- **Condiciones de exclusión.** El programa no omite las topologías que tienen códigos con condición de exclusión, ni define un delegado para evaluar las condiciones de exclusión. Si una topología tiene códigos con condiciones de exclusión, `AnalyzeTopology` lanza `ArgumentException` y el programa escribe el error de la topología. Para evaluar las condiciones de exclusión, asigna a [EvaluateExcludeCondition](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/topologyanalysishandlers.md) un delegado propio que interprete la expresión de Python.
 - **Archivos de solo lectura.** Si un archivo tiene el atributo de solo lectura, `BinDouble` lo abre en solo lectura sin lanzar ninguna excepción y `Add` falla al añadir el primer polígono. El programa escribe el error de cada topología que tenga polígonos que añadir y no modifica el archivo. El programa continúa procesando los demás archivos.
 - **Errores de un archivo.** Si falla la apertura de un archivo, el programa escribe `Se localizó el siguiente error: <mensaje>` y continúa con el archivo siguiente.
 - **Ejecuciones repetidas.** El programa conserva los polígonos que ya tiene el archivo y añade los que genera. Si lo ejecutas dos veces sobre el mismo archivo, la segunda ejecución añade otra vez los mismos polígonos.
+- **Sistema de coordenadas.** `DigitalTerrainModel.Project` no transforma coordenadas. El MDT y los archivos `.bind` tienen que estar en el mismo sistema de coordenadas horizontal. El sistema del MDT está en `DigitalTerrainModel.CoordinateSystemWkt` y el del archivo `.bind` en `BinDouble.Wkt`.
 
 ## Cómo funciona
 

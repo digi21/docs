@@ -13,7 +13,7 @@ Para empezar, sigue uno de los dos tutoriales:
 - [Tutorial: crear una aplicación de consola](tutorial-aplicacion-de-consola.md).
 - [Tutorial: crear una extensión](tutorial-extension.md).
 
-Para formar las topologías de una tabla de códigos y crear sus polígonos desde un programa externo, consulta [Crear las topologías de la tabla de códigos desde un programa externo](crear-topologias-desde-un-programa-externo.md).
+Para formar las topologías de una tabla de códigos y crear sus polígonos desde un programa externo, consulta el ejemplo [TopologiasDesdeTabla](ejemplos/topologias-desde-tabla.md).
 
 Si tienes programas creados para versiones anteriores (paquetes 24.0.0 o .NET 8), lee [Migración a .NET 10](migracion-a-net-10.md).
 

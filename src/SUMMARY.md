@@ -1457,7 +1457,6 @@
       * [Migración a .NET 10](digi3d-ai/programacion/.net/migracion-a-net-10.md)
       * [Tutorial: crear una aplicación de consola](digi3d-ai/programacion/.net/tutorial-aplicacion-de-consola.md)
       * [Tutorial: crear una extensión](digi3d-ai/programacion/.net/tutorial-extension.md)
-      * [Crear las topologías de la tabla de códigos desde un programa externo](digi3d-ai/programacion/.net/crear-topologias-desde-un-programa-externo.md)
       * [Curso de programación en C#](digi3d-ai/programacion/.net/curso-de-programacion-en-c/README.md)
         * [Digi21.Math.Precision](digi3d-ai/programacion/.net/curso-de-programacion-en-c/digi21-math-precision.md)
         * [Digi21.Math.Angles](digi3d-ai/programacion/.net/curso-de-programacion-en-c/digi21.math.angles.md)

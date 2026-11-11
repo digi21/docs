@@ -42,7 +42,7 @@ Si un delegado lanza una excepción, `AnalyzeTopology` deja de invocar delegados
 
 ## Condiciones de exclusión fuera de Digi3D.AI
 
-Las condiciones de exclusión de los códigos son expresiones de Python que Digi3D.AI evalúa con su intérprete. `AnalyzeTopology` no las evalúa por sí mismo: el programa tiene que evaluar la expresión con su propio código en `EvaluateExcludeCondition`, o no analizar las topologías que tienen alguna condición de exclusión. El procedimiento [Crear las topologías de la tabla de códigos desde un programa externo](/digi3d-ai/programacion/.net/crear-topologias-desde-un-programa-externo.md#topologías-con-condiciones-de-exclusión) explica ambas opciones.
+Las condiciones de exclusión de los códigos son expresiones de Python que Digi3D.AI evalúa con su intérprete. `AnalyzeTopology` no evalúa las condiciones de exclusión por sí mismo: el programa tiene que evaluar la expresión con su propio código en `EvaluateExcludeCondition`, o no analizar las topologías que tienen alguna condición de exclusión. El ejemplo [TopologiasDesdeTabla](/digi3d-ai/programacion/.net/ejemplos/topologias-desde-tabla.md) no define el delegado `EvaluateExcludeCondition` y muestra el error que produce una topología con condiciones de exclusión.
 
 ## Ejemplo
 
