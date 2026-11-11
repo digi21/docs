@@ -3,6 +3,8 @@
 
 En este procedimiento crearás `CrearTopologias`, una aplicación de consola que recorre un directorio de archivos `.bind` y, en cada archivo que admite escritura, forma las topologías de una tabla de códigos que no tienen condiciones de exclusión y añade al archivo los polígonos resultantes. El programa hace fuera de Digi3D.AI lo que hacen las órdenes [BINTOP](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/b/bintop.md)`=#nombre` y [TOPOLOGIA\_A\_POLIGONO](/digi3d-ai/referencia/ventana-de-dibujo/ordenes/t/topologia-a-poligono.md) con cada topología de la tabla que no tiene condiciones de exclusión. Cuando una topología proyecta la coordenada Z sobre un modelo digital del terreno (MDT), el programa obtiene esa Z de un archivo `.mdt` de MDTopX.
 
+El proyecto completo de un programa equivalente, `TopologiasDesdeTabla`, que además permite especificar por la línea de órdenes qué topologías procesar y si el programa utiliza un MDT, está en el repositorio de ejemplos de programación: [Ejemplos-Programacion-Digi3D/TopologiasDesdeTabla](https://github.com/digi21/Ejemplos-Programacion-Digi3D/tree/main/TopologiasDesdeTabla).
+
 ## Requisitos
 
 - Digi3D.AI 2027.0.0.428 o posterior, instalado en el equipo. El programa usa los ensamblados que instala Digi3D.AI. Para abrir el MDT, `DigitalTerrainModel.Open` carga las bibliotecas de MDTopX (`CoreTri.dll` y sus dependencias) de la carpeta de instalación, donde el instalador las copia.
@@ -17,7 +19,7 @@ Abre una consola en la carpeta donde quieras crear el proyecto y ejecuta:
 ```
 dotnet new console -n CrearTopologias -f net10.0
 cd CrearTopologias
-dotnet add package Digi21.DigiNG.IO.BinDouble --version 26.0.0
+dotnet add package Digi21.DigiNG.IO.BinDouble --version 26.0.1
 dotnet add package Digi21.DigiNG.Topology --version 26.1.0
 dotnet add package Digi21.DigiNG.Dtm --version 26.0.0
 ```
@@ -26,7 +28,7 @@ Los paquetes aportan estos tipos:
 
 | Paquete | Versión | Tipos que usa el programa |
 | :--- | :--- | :--- |
-| [Digi21.DigiNG.IO.BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/README.md) | 26.0.0 | `BinDouble`, el archivo `.bind`. |
+| [Digi21.DigiNG.IO.BinDouble](/digi3d-ai/programacion/.net/referencia/digi21.diging.io.bindouble/README.md) | 26.0.1 | `BinDouble`, el archivo `.bind`. |
 | [Digi21.DigiNG.Topology](/digi3d-ai/programacion/.net/referencia/digi21.diging.topology/README.md) | 26.1.0 | `TopologyAnalyzer` y `TopologyAnalysisHandlers`. |
 | [Digi21.DigiNG.Dtm](/digi3d-ai/programacion/.net/referencia/digi21.diging.dtm/README.md) | 26.0.0 | `DigitalTerrainModel` y `DigitalTerrainModelCollection`. |
 | [Digi21.DigiNG](/digi3d-ai/programacion/.net/referencia/digi21.diging/README.md) | 26.2.0 | `DigiTab`, `TopologyDefinition` y los tipos que la componen. NuGet instala `Digi21.DigiNG` como dependencia de `Digi21.DigiNG.Topology` y `Digi21.DigiNG.Dtm`. |
