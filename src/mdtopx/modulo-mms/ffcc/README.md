@@ -14,3 +14,7 @@ Las herramientas asociadas con las nubes tomados en vías férreas del módulo M
 * [**Catenarias**](buscar-catenarias.md)
 * [**Andenes**](buscar-andenes.md)
 * [**Inventario FFCC**](inventario-ffcc.md)
+* **Clasificación FFCC** (página pendiente): clasifica la nube de una línea férrea y genera su vectorial.
+* **Vectorial FFCC** (página pendiente): genera el vectorial desde una nube ya clasificada.
+* [**Ajustar geometría de eje**](ajustar-geometria-de-eje.md): ajusta rectas, clotoides, curvas y acuerdos a las líneas de eje y genera el trazado, con su sección tipo y sus perfiles.
+  * [**Informe del trazado**](informe-del-trazado.md): la precisión de cada parámetro y la bondad del ajuste.

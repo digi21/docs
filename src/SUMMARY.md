@@ -2806,6 +2806,8 @@
       * [Buscar catenarias](mdtopx/modulo-mms/ffcc/buscar-catenarias.md)
       * [Buscar andenes](mdtopx/modulo-mms/ffcc/buscar-andenes.md)
       * [Inventario FFCC](mdtopx/modulo-mms/ffcc/inventario-ffcc.md)
+      * [Ajustar geometría de eje](mdtopx/modulo-mms/ffcc/ajustar-geometria-de-eje.md)
+        * [Informe del trazado](mdtopx/modulo-mms/ffcc/informe-del-trazado.md)
     * [Forestal](mdtopx/modulo-mms/forestal/README.md)
       * [Clasificar árboles](mdtopx/modulo-mms/forestal/clasificar-arboles.md)
       * [Clasificar Troncos](mdtopx/modulo-mms/forestal/clasificar-troncos.md)

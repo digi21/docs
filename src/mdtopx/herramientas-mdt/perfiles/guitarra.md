@@ -13,6 +13,7 @@ En la parte superior del cuadro de diálogo se deberán seleccionar los elemento
 * **Cota rasante/terreno**: Valor de la cota sobre la rasante o sobre el modelo digital, es decir, el terreno.
 * **Distancias parcial y al origen**: Distancia en metros al origen del perfil o al último punto que se ha referenciado en la guitarra.
 * **Puntos**: Número del punto del perfil
+* **Gálibo**: La altura del techo de un túnel sobre la rasante o, si no hay rasante, sobre el terreno. Solo sale donde el perfil tiene techo, como los túneles del trazado de [Ajustar geometría de eje](../../modulo-mms/ffcc/ajustar-geometria-de-eje.md).
 
 A continuación se debe configurar la posición del plano de comparación de la caja y si se desea una escala vertical, por medio de los siguientes campos:
 
