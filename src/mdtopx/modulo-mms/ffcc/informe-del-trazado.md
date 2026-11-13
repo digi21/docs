@@ -9,24 +9,25 @@ El informe del trazado es una página HTML con el resultado de [Ajustar geometr�
 
 1. **Cabecera**: la fecha y el archivo de origen.
 2. **Resumen**: una fila por eje, con la longitud, las curvas, cuántas con clotoide, los acuerdos, el error medio cuadrático (EMC), el residuo máximo y el ruido, en planta y en alzado, y los avisos. Cada fila enlaza con el apartado del eje. Los ejes que no se han podido ajustar salen en rojo, con el motivo.
-3. **Parámetros del cálculo**: el tipo de vía, los límites del cuadro de diálogo y la cota de la rasante (el hilo bajo o el eje).
+3. **Parámetros del cálculo**: el tipo de vía, los límites de la planta (radios, giro y desarrollo mínimos) y del alzado (Kv, diferencia de pendientes, ondulación y la longitud mínima de un acuerdo, que es fija, de 20 m) y la cota de la rasante (el hilo bajo o el eje).
 4. **Cómo leer los estadísticos**: un desplegable que explica los estadísticos del informe. Ver [Los estadísticos](#los-estadísticos).
 5. **Un apartado por eje**:
    * La longitud medida, los metros descartados al inicio y al final, y la diferencia máxima entre lo escrito en el trazado y lo calculado.
    * **Planta: estado de alineaciones**: cada recta, clotoide y curva, con sus PK inicial y final, su longitud, su radio y sentido, el parámetro A de las clotoides, el acimut inicial (en gon, desde el norte) y las coordenadas del inicio.
    * **Planta: curvas**: el vértice, el giro, el radio, el parámetro A y la longitud de las dos clotoides, el arco, los puntos, el EMC y el residuo máximo de cada curva.
    * **Planta: bondad del ajuste**: la tabla de estadísticos, el gráfico de los residuos a lo largo del PK y el histograma.
-   * **Alzado: vértices y acuerdos**: el PK y la cota de cada vértice, el Kv, si el acuerdo es convexo o cóncavo, las pendientes de entrada y de salida, el giro θ, los PK de las tangentes de entrada (TE) y de salida (TS), la longitud y la flecha del acuerdo. Debajo, cada rasante con su pendiente.
-   * **Alzado: bondad del ajuste**: la misma tabla y los mismos gráficos que en planta.
+   * Los avisos de la planta.
    * **Sección de ferrocarril** (ferrocarril y metro, con los carriles): los tramos con el ancho nominal, el ancho medido y el entreeje con la vía contigua, y el peralte de cada curva, con la velocidad que le corresponde. Ver [Sección de ferrocarril](#sección-de-ferrocarril).
    * **Túneles** (en el trazado de la Clasificación FFCC): cada sección de túnel, con sus PK, su longitud, el tipo de techo (bóveda o losa), el ancho, el alto en el eje y la holgura a cada lado, y el dibujo de sus contornos. El contorno se mide en la nube por bloques de 5 m, de un pie de hastial al otro por arriba; un bloque es otra sección si más de un tercio de su contorno, sin la solera, se aparta más de 10 cm. El alto se mide desde la rasante (en ferrocarril, el hilo bajo). La holgura es lo más cerca del eje que queda el contorno entre 0,5 y 3,5 m de alto.
-   * Los avisos de la planta y del alzado.
+   * **Alzado: vértices y acuerdos**: el PK y la cota de cada vértice, el Kv, si el acuerdo es convexo o cóncavo, las pendientes de entrada y de salida, el giro θ, los PK de las tangentes de entrada (TE) y de salida (TS), la longitud y la flecha del acuerdo. Debajo, cada rasante con su pendiente. Si la rasante no se ha podido ajustar, el apartado del eje acaba aquí.
+   * **Alzado: bondad del ajuste**: la misma tabla y los mismos gráficos que en planta.
+   * Los avisos del alzado.
 
 ## Precisión de los parámetros
 
 Cada parámetro sale con su desviación típica, en la forma *valor ± σ*.
 
-* **Sin ±**: el parámetro se ha quedado en un límite del cuadro de diálogo (por ejemplo, el radio mínimo) y no se ha ajustado libremente. La fila sale resaltada.
+* **Sin ±** (en las curvas): el parámetro se ha quedado en un límite del cuadro de diálogo, por ejemplo el radio mínimo, y no se ha ajustado libremente. La fila sale resaltada. Un acuerdo que se queda en el Kv mínimo no se resalta; lo dicen los avisos del alzado.
 * **Sin determinar**: la desviación típica es mayor que el valor (un radio o una clotoide), o mayor que 100 m en el PK o 1 m en la cota de un vértice, o que 10 ‰ en una pendiente. Los datos no fijan ese parámetro.
 * En alzado, un acuerdo sale resaltado si su Kv está poco determinado (más del 30 %) o si llega al extremo de los datos. En un acuerdo cortado por el extremo, el Kv se mide con la parte que se ve, pero el vértice y la pendiente del lado cortado pueden quedar sin determinar.
 

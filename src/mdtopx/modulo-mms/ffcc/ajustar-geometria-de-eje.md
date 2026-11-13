@@ -36,7 +36,7 @@ Al cambiar el **Tipo de vía**, los límites toman los valores por defecto de es
 |---|---|---|---|---|
 | Código de las líneas de eje | EJEVIA | EJEVIA | EJEVIA | Las líneas que se ajustan. Vacío: todas las líneas del dibujo. |
 | Radio mínimo (m) | 50 | 175 | 100 | Ninguna curva sale con un radio menor. Una curva que se queda en este límite sale resaltada en el informe. |
-| Radio máximo; por encima, recta (m) | 20.000 | 20.000 | 20.000 | Una curva de radio mayor es una recta. Tiene que ser, como poco, el doble del radio mínimo. |
+| Radio máximo; por encima, recta (m) | 20.000 | 20.000 | 20.000 | Ninguna curva sale con un radio mayor: lo que es casi recto se ajusta como una recta. Una curva que se queda en este límite sale resaltada en el informe. Tiene que ser, como poco, el doble del radio mínimo. |
 | Giro mínimo (gon) | 0,25 | 0,25 | 0,25 | Si el ángulo entre dos alineaciones es menor, no hay curva entre ellas. |
 | Desarrollo mínimo de la curva (m) | 20 | 20 | 20 | La longitud mínima de la curva entera, clotoides y arco. |
 | Kv mínimo (m) | 150 | 1.500 | 500 | Ningún acuerdo sale con un Kv menor. Si uno se queda en este límite, el informe lo avisa. |
@@ -47,7 +47,7 @@ Al cambiar el **Tipo de vía**, los límites toman los valores por defecto de es
 | Anchos de vía nominales, por orden de preferencia (m) | 1,668; 1,435; 1,000 | 1,668; 1,435; 1,000 | 1,445; 1,435; 1,000 | Los anchos de vía posibles, separados por punto y coma, entre 0,5 y 2,5 m. Cada tramo toma el primero de la lista que encaja con el ancho medido. Un ancho de 1,435 y otro de 1,445 están más cerca que el error de la medida, y por eso importa el orden. |
 | Longitud mínima de un túnel; más corto, paso superior (m) | 20 | 20 | 20 | Solo se usa en el trazado de la Clasificación FFCC, que mide los túneles en la nube. Un tramo cubierto más corto es un paso superior y no un túnel. |
 
-* **Añadir también el ajuste anterior, para comparar**: añade al trazado, por cada eje, otro vial con el ajuste del método anterior de MDTopX, llamado *&lt;eje&gt; (ajuste anterior)*.
+* **Añadir también el ajuste anterior, para comparar**: por cada eje que el método anterior de MDTopX consigue ajustar, añade al trazado otro vial con ese ajuste, llamado *&lt;eje&gt; (ajuste anterior)*.
 * **Informe de resultados**: escribe el [informe del trazado](informe-del-trazado.md) y lo abre en el navegador. Marcado por defecto.
 
 Los valores del cuadro de diálogo se guardan para la próxima vez. Son los mismos que los del botón **Parámetros…** de la Clasificación FFCC.
@@ -67,7 +67,7 @@ Cada vial del trazado lleva sus perfiles:
   * Si faltan los dos (un hueco en los carriles), se ponen los dos a cada lado del eje: el bajo a la cota de la rasante y el otro con el peralte.
   * Sin carriles no hay transversales, salvo en los túneles.
 * **Longitudinal**: la rasante del eje.
-* **Terreno**: solo en el trazado de la Clasificación FFCC, que tiene la nube. El terreno sale del modelo del suelo de la clasificación, con la plataforma, el balasto y los taludes. Lo llevan cada transversal y el longitudinal, en el eje. Con el terreno, el vial tiene también masas. El trazado de Ajustar geometría de eje no tiene nube y sus perfiles van sin terreno; el resumen lo dice.
+* **Terreno**: solo en el trazado de la Clasificación FFCC, que tiene la nube. El terreno sale del modelo del suelo de la clasificación, con la plataforma, el balasto y los taludes. Lo llevan cada transversal y el longitudinal, en el eje. Con el terreno, el vial tiene también masas. El trazado de Ajustar geometría de eje no tiene nube y sus perfiles van sin terreno. Si hay transversales, el resumen lo dice.
 * **Túneles**: solo en el trazado de la Clasificación FFCC. Cada túnel lleva:
   * su contorno en la sección tipo;
   * un perfil transversal por cada bloque medido, con el contorno medido (el techo) y el de la sección tipo, para compararlos;
@@ -77,10 +77,10 @@ Cada vial del trazado lleva sus perfiles:
 
 ## Desde la Clasificación FFCC
 
-En la Clasificación FFCC y en la Vectorial FFCC, la casilla **Trazado con su geometría y sección tipo (.VIA)** hace este mismo ajuste sobre los ejes de las vías detectadas. El botón **Parámetros…** abre este mismo cuadro de diálogo. Los códigos de las líneas de eje y de los carriles no se usan: los ejes y los carriles son los que detecta la clasificación. Si el tipo de vía es carretera, se usa ferrocarril. Hay estas diferencias:
+En la Clasificación FFCC y en la Vectorial FFCC, la casilla **Trazado con su geometría y sección tipo (.VIA)** hace este mismo ajuste sobre los ejes de las vías detectadas. El botón **Parámetros…** abre este mismo cuadro de diálogo. Los códigos de las líneas de eje y de los carriles no se usan: los ejes y los carriles son los que detecta la clasificación. Si el tipo de vía guardado es carretera, se usa ferrocarril con todos sus valores por defecto, y los límites que se hubieran escrito para carretera no se usan. Hay estas diferencias:
 
 * Se ajusta cada eje continuo: una vía detectada a trozos va en un solo vial, llamado *VIA &lt;n&gt;*.
 * Se ajustan todas las vías, aunque sean cortas. Una vía que no se puede ajustar (corta o con un eje que no admite geometría) va en el trazado con su eje medido, sin ajustar, en un vial llamado *VIA &lt;n&gt; (eje medido)*. El resumen dice cuáles son.
-* El trazado llega hasta los extremos de la vía detectada, por ejemplo hasta su entronque. De cada extremo se descartan como mucho 20 m. Si el ajuste sale mal, se repite dejando descartar hasta 100 m.
+* La planta llega hasta los extremos de la vía detectada, por ejemplo hasta su entronque: de cada extremo se descartan como mucho 20 m. Si el ajuste de la planta falla, si su EMC pasa de 4 veces el ruido o si algún residuo pasa de 25 cm, se repite dejando descartar hasta 100 m. El segundo ajuste solo se queda si el primero falló o si su EMC es menos de dos tercios del primero. El alzado puede descartar hasta 100 m en cada extremo, como en Ajustar geometría de eje.
 * Los túneles se miden en la nube, con una pasada propia, y van en el trazado. Ver [Perfiles de las vías](#perfiles-de-las-vías).
-* Los perfiles llevan el terreno.
+* Si la clasificación tiene el modelo del suelo, los perfiles llevan el terreno.
