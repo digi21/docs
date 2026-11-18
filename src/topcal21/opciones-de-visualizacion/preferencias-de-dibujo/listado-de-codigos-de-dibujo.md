@@ -1,0 +1,16 @@
+# Lista de códigos de dibujo
+<!-- id: lista-de-codigos-de-dibujo -->
+
+En este cuadro de diálogo aparecen los códigos que el programa utilizará para pintar las entidades en pantalla. Si algún código en los documentos no estuviera en esta lista, el color de la entidad sería gris y con grosor por defecto.
+
+![Lista de códigos de dibujo](../../../images/lista-de-codigos-de-dibujo.png)
+
+Los códigos listados pueden ser referentes a textos o a líneas, pudiéndose especificar el grosor, color y estilo de la línea.
+
+Este listado se puede almacenar o cargar desde un archivo de texto.
+
+Se pueden añadir códigos nuevos y editar o eliminar alguno de los existentes. Al pulsar el botón **Nuevo** o **Editar** aparece un [cuadro de diálogo](codigo-de-dibujo-nuevo.md), donde se podrán dar las características de visualización del código.
+
+También se pueden cargar los códigos almacenados en la tabla **DIGI.TAB** perteneciente al programa DIGI. Para ello se deberá pulsar el botón [**Carga Digi.Tab**](cargar-digi-tab.md).
+
+Los cambios efectuados sólo serán validos si pulsa el botón **Aceptar** para salir.
