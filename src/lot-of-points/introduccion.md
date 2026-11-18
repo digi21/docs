@@ -6,6 +6,8 @@ permite explorar esa representación, medir sobre ella, dibujar geometrías y co
 puntos. Puedes trabajar con varias nubes a la vez: todas aparecen en la misma vista y cada una conserva su entrada
 en el panel **Capas**.
 
+<video controls><source src="https://digi21.blob.core.windows.net/videos-ayuda/Lot%20Of%20Points%20Introducci%C3%B3n-1.mp4" type="video/mp4"></video>
+
 ## Abrir una nube
 
 Pulsa **Abrir nubes de puntos o capas vectoriales** en el panel **Capas** y elige los archivos con

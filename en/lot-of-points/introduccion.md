@@ -1,8 +1,10 @@
 # Introduction
 <!-- id: lot-of-points-introduccion -->
-<!-- origen: 42f8f84148523afdf14697a2e1e81eda0f74e70e -->
+<!-- origen: ab8be4f3cccb959b69d3ca480b6f8c63073ca655 -->
 
 A point cloud represents an object or terrain through its three-dimensional coordinates. Lot Of Points lets you explore that representation, measure it, draw geometries and correct point classifications. You can work with several clouds at once: they all appear in the same view, each with its own entry in the **Layers** panel.
+
+<video controls><source src="https://digi21.blob.core.windows.net/videos-ayuda/Lot%20Of%20Points%20Introduction-1.mp4" type="video/mp4"></video>
 
 ## Open a cloud
 
