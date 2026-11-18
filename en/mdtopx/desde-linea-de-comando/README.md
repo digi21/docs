@@ -1,6 +1,6 @@
 # From the command line
 <!-- id: desde-linea-de-comando -->
-<!-- origen: bb6d363b7f879976e39245fdddd034f10201e2cf -->
+<!-- origen: 99f1fe2bcace4c546bfebd31d93b7f4a7c932c05 -->
 
 MDTopX runs from the command line with parameters configuring the calculation. MDTopX calculation tools require the MDTopX.ini configuration file, an ASCII file with the configuration options. MDTopX looks for MDTopX.ini in the input file folder; if you specify the input file without a path, MDTopX looks for MDTopX.ini in the current working directory.
 
@@ -23,17 +23,28 @@ These rules apply to all the commands on this page except `/activar-equipo` and 
 | `/PRO` | Up to two: the output file and the file to project. | Error if both are missing. |
 | `/LADO` | One: the maximum edge length in meters, greater than 0. | Error. |
 | `/DEM` | One: a file name. | Error. |
-| `/RUP` | One: the output file. | MDTopX does not check whether this argument is missing. Always specify the output file path after /RUP. |
-| `/ORIENTARNUBEARCHIVO` | One: the orientation file. | MDTopX does not check whether this argument is missing. Always specify the orientation file path after /ORIENTARNUBEARCHIVO. |
+| `/RUP` | One: the output file. | Error. |
+| `/ORIENTARNUBEARCHIVO` | One: the orientation file. | Error. |
 | `/SUA`, `/TRANSFORM` | One, optional: the output file. | MDTopX saves the result in the input file. |
 | `/ASFALTO`, `/RAILES`, `/LINEASVIAL`, `/LINEASRAIL` | One, optional: the format of the drawing file (`DXF`, `DGN` or `SHP`). | MDTopX saves the drawing file in BIN (DIGI) format. |
-| `/REF` and the command that adds digital terrain models | All the arguments that follow it, as a list of files. | The input file must come before the command. |
+| `/REF` | All the arguments that follow it, as a list of reference files. | None: MDTopX only opens the input file. The input file must come before the command. |
+| The command that adds digital terrain models | All the arguments that follow it, as a list of files to merge into the input file. | Error if you enter none. The input file must come before the command. |
 | `/ORTOFOTO` | One: a file name. The command is not available. | None. |
 | `/COM`, `/TRICOM`, `/MAGIC`, `/SUELOVIAL`, `/SUELOFFCC`, `/FILTRADO`, `/ORIENTARNUBE` | None. | None. |
 
 ## Commands without their required arguments
 
 If an argument that the table marks as an error is missing, MDTopX writes to the MDTopX.LOG file the message "La orden /ORDEN tiene argumentos obligatorios ausentes o no válidos. MDTopX termina sin procesar el archivo." (with MDTopX in English, "The /ORDEN command has missing or invalid required arguments. MDTopX ends without processing the file.") and ends without opening any file.
+
+## Wildcards in the input file
+
+With a command from this page, the input file name can contain the wildcards `*` (any number of characters) and `?` (one character). With no command, MDTopX does not replace the wildcards.
+
+* MDTopX searches the folder of the pattern for the files whose name matches the pattern and skips folders. If the pattern has no path, it searches the current working directory.
+* MDTopX processes the first file that the search returns. The search order is the one the file system returns.
+* MDTopX looks for MDTopX.ini and creates MDTopX.LOG in the folder of the pattern, which is the folder of the files found.
+* With `/REF`, MDTopX loads the other files found as reference files, in addition to those you enter after `/REF`.
+* With any other command, MDTopX processes only the first file. For each of the other files found, MDTopX writes to MDTopX.LOG the line "Archivo del comodín no procesado: \<path\>" with the path of the file; MDTopX writes this line in Spanish in every interface language.
 
 ## Warnings and errors: the MDTopX.LOG file
 
@@ -108,7 +119,7 @@ These tools also read the MDTopX.ini file. Without the MDTopX license, MDTopX ru
 
 * [Delete triangles by edge length](/mdtopx/desde-linea-de-comando/linea-de-comando-borrar-triangulos-por-longitud-de-lado.md): deletes the triangles of a digital model that have any edge longer than a given length and saves the model in the same file (`/LADO`).
 * `/SUA`: smooths a grid digital model (DEM file) with the [Smoothing](/mdtopx/modulo-virtualand/suavizado.md) tool and saves the smoothed DEM in the output file or, if you enter none, in the input file. To configure the smoothing, add to MDTopX.ini the **\[SuavizadoDEM]** section, with the keys **Ferguson**, **BSpline** and **Rupturas** (0 or 1; default: 0) and **Suavizado** (smoothing level, from 1 to 10; default: 10). These keys correspond to the fields of the Smoothing dialog box. If a key does not exist, MDTopX uses the value saved in the user configuration.
-* `/REF`: opens the input file in the interface. MDTopX accepts a list of files after the command, but it does not load them as reference files: the current version of MDTopX has no function that receives that request. Enter the input file before the command.
+* `/REF`: opens the input file in the interface and loads as reference files the files you enter after the command. MDTopX loads the files specified after `/REF` with the [Load reference files](/mdtopx/operaciones-con-archivos/abrir-archivos-de-referencia.md) function. If the input file contains wildcards, MDTopX also loads as references the other files whose names match the pattern, after those you enter after the command. After trying to load all the files, MDTopX shows a message box for each file it could not load, with the text "MDTopX no puede cargar el archivo de referencia \<path\>." (with MDTopX in English, "MDTopX cannot load the reference file \<path\>."). Enter the input file before the command, because `/REF` takes all the arguments that follow it as the list of files.
 * `/DEM`: opens the input file in the interface. The command requires an argument; MDTopX records it as the output file in MDTopX.LOG, but it does not write any file with that name.
 * `/ORTOFOTO`: is not available from the command line. MDTopX writes to MDTopX.LOG the message "La orden /ORTOFOTO no se puede ejecutar desde la línea de comando. MDTopX termina sin procesar el archivo." (with MDTopX in English, "The /ORTOFOTO command cannot be run from the command line. MDTopX ends without processing the file.") and ends without opening any file.
 

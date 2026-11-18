@@ -9,6 +9,8 @@ Para ejecutar esta herramienta desde la línea de comando, escribe:
 MDTopX [archivo de entrada] /RUP [archivo de salida]
 ```
 
+El archivo de salida es obligatorio. Si no indicas el archivo de salida, MDTopX no ejecuta la orden y escribe en MDTopX.LOG el mensaje «La orden /RUP tiene argumentos obligatorios ausentes o no válidos. MDTopX termina sin procesar el archivo.» (con MDTopX en inglés, «The /RUP command has missing or invalid required arguments. MDTopX ends without processing the file.»).
+
 El archivo de entrada es un archivo DEM (modelo digital de elevaciones en rejilla, extensión DEM) que esté suavizado con la herramienta [Suavizado](/mdtopx/modulo-virtualand/suavizado.md) de la interfaz. MDTopX calcula las vaguadas, las divisorias y los puntos de interés del terreno a partir de la curvatura del modelo. Con un DEM sin suavizar o con un DEM de celda variable, MDTopX no calcula nada y no crea el archivo de salida. Con un archivo de triangulación (extensión MDT), la orden no tiene efecto.
 
 El archivo de salida contiene las líneas de ruptura y los puntos de interés calculados. MDTopX lo guarda en formato BIN (DIGI) y no selecciona el formato por la extensión del nombre.

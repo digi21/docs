@@ -22,17 +22,28 @@ Estas reglas valen para todas las órdenes de esta página salvo `/activar-equip
 | `/PRO` | Hasta dos: el archivo de salida y el archivo a proyectar. | Error si faltan los dos. |
 | `/LADO` | Uno: la longitud máxima de un lado, en metros y mayor que 0. | Error. |
 | `/DEM` | Uno: un nombre de archivo. | Error. |
-| `/RUP` | Uno: el archivo de salida. | MDTopX no comprueba si falta este argumento. Indica siempre la ruta del archivo de salida después de /RUP. |
-| `/ORIENTARNUBEARCHIVO` | Uno: el archivo de orientación. | MDTopX no comprueba si falta este argumento. Indica siempre la ruta del archivo de orientación después de /ORIENTARNUBEARCHIVO. |
+| `/RUP` | Uno: el archivo de salida. | Error. |
+| `/ORIENTARNUBEARCHIVO` | Uno: el archivo de orientación. | Error. |
 | `/SUA`, `/TRANSFORM` | Uno, opcional: el archivo de salida. | MDTopX guarda el resultado en el archivo de entrada. |
 | `/ASFALTO`, `/RAILES`, `/LINEASVIAL`, `/LINEASRAIL` | Uno, opcional: el formato del archivo de dibujo (`DXF`, `DGN` o `SHP`). | MDTopX guarda el archivo de dibujo en formato BIN (DIGI). |
-| `/REF`, `/AGREGA` | Todos los argumentos que la siguen, como lista de archivos. | El archivo de entrada tiene que ir antes de la orden. |
+| `/REF` | Todos los argumentos que la siguen, como lista de archivos de referencia. | Ninguna: MDTopX solo abre el archivo de entrada. El archivo de entrada tiene que ir antes de la orden. |
+| `/AGREGA` | Todos los argumentos que la siguen, como lista de archivos que se unen al archivo de entrada. | Error si no escribes ninguno. El archivo de entrada tiene que ir antes de la orden. |
 | `/ORTOFOTO` | Uno: un nombre de archivo. La orden no está disponible. | Ninguna. |
 | `/COM`, `/TRICOM`, `/MAGIC`, `/SUELOVIAL`, `/SUELOFFCC`, `/FILTRADO`, `/ORIENTARNUBE` | Ninguno. | Ninguna. |
 
 ## Órdenes sin sus argumentos obligatorios
 
 Si falta un argumento que la tabla marca como error, MDTopX escribe en el archivo MDTopX.LOG el mensaje «La orden /ORDEN tiene argumentos obligatorios ausentes o no válidos. MDTopX termina sin procesar el archivo.» (con MDTopX en inglés, «The /ORDEN command has missing or invalid required arguments. MDTopX ends without processing the file.») y termina sin abrir ningún archivo.
+
+## Comodines en el archivo de entrada
+
+Con una orden de esta página, el nombre del archivo de entrada puede contener los comodines `*` (cualquier número de caracteres) y `?` (un carácter). Sin ninguna orden, MDTopX no sustituye los comodines.
+
+* MDTopX busca en la carpeta del patrón los archivos cuyo nombre cumple el patrón y omite las carpetas. Si el patrón no tiene ruta, busca en el directorio de trabajo actual.
+* MDTopX procesa el primer archivo que devuelve la búsqueda. El orden de la búsqueda es el que devuelve el sistema de archivos.
+* MDTopX busca MDTopX.ini y crea MDTopX.LOG en la carpeta del patrón, que es la carpeta de los archivos encontrados.
+* Con `/REF`, MDTopX carga los demás archivos encontrados como archivos de referencia, además de los que escribes después de `/REF`.
+* Con cualquier otra orden, MDTopX procesa únicamente el primer archivo. Por cada uno de los demás archivos encontrados, MDTopX escribe en MDTopX.LOG la línea «Archivo del comodín no procesado: \<ruta\>», con la ruta del archivo.
 
 ## Avisos y errores: archivo MDTopX.LOG
 
@@ -107,7 +118,7 @@ Estas herramientas también leen el archivo MDTopX.ini. Sin la licencia de MDTop
 
 * [Borrar triángulos por longitud de lado](/mdtopx/desde-linea-de-comando/linea-de-comando-borrar-triangulos-por-longitud-de-lado.md): borra los triángulos de un modelo digital que tienen algún lado mayor que una longitud y guarda el modelo en el mismo archivo (`/LADO`).
 * `/SUA`: suaviza un modelo digital de rejilla (archivo DEM) con la herramienta [Suavizado](/mdtopx/modulo-virtualand/suavizado.md) y guarda el DEM suavizado en el archivo de salida o, si no escribes ninguno, en el archivo de entrada. Para configurar el suavizado, añade a MDTopX.ini la sección **\[SuavizadoDEM]**, con las claves **Ferguson**, **BSpline** y **Rupturas** (0 o 1; valor predeterminado: 0) y **Suavizado** (nivel de suavizado, de 1 a 10; valor predeterminado: 10). Estas claves corresponden a los campos del cuadro de diálogo de Suavizado. Si una clave no existe, MDTopX usa el valor guardado en la configuración del usuario.
-* `/REF`: abre el archivo de entrada en la interfaz. MDTopX acepta una lista de archivos detrás de la orden, pero no los carga como archivos de referencia: la versión actual de MDTopX no tiene ninguna función que reciba esa petición. Escribe el archivo de entrada antes de la orden.
+* `/REF`: abre el archivo de entrada en la interfaz y carga como archivos de referencia los archivos que escribes después de la orden. MDTopX carga los archivos indicados después de `/REF` con la función de [Cargar ficheros de referencia](/mdtopx/operaciones-con-archivos/abrir-archivos-de-referencia.md). Si el archivo de entrada contiene comodines, MDTopX carga además como referencias los demás archivos cuyos nombres coinciden con el patrón, a continuación de los que escribes después de la orden. Después de intentar cargar todos los archivos, MDTopX muestra un cuadro de mensaje por cada archivo que no ha podido cargar, con el texto «MDTopX no puede cargar el archivo de referencia \<ruta\>.» (con MDTopX en inglés, «MDTopX cannot load the reference file \<path\>.»). Escribe el archivo de entrada antes de la orden, porque `/REF` toma como lista de archivos todos los argumentos que la siguen.
 * `/DEM`: abre el archivo de entrada en la interfaz. La orden exige un argumento; MDTopX lo anota como archivo de salida en MDTopX.LOG, pero no escribe ningún archivo con ese nombre.
 * `/ORTOFOTO`: no está disponible desde la línea de comando. MDTopX escribe en MDTopX.LOG el mensaje «La orden /ORTOFOTO no se puede ejecutar desde la línea de comando. MDTopX termina sin procesar el archivo.» y termina sin abrir ningún archivo.
 

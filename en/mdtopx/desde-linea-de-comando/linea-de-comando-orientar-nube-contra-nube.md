@@ -1,6 +1,6 @@
 # Orient a point cloud against another point cloud
 <!-- id: linea-de-comando-orientar-nube-contra-nube -->
-<!-- origen: b79eb7bfda502857b34fef8b3cec6a4f8ad4e8d1 -->
+<!-- origen: bb34d909e3760d4463b550c3cb8955d196f6d154 -->
 
 The `/ORIENTARNUBE` tool calculates how much a misoriented point cloud (for example, a SLAM scan, *Simultaneous Localization and Mapping*) must be rotated and moved to match the point cloud of a theoretical model of the same building, and applies that rotation and movement to the cloud.
 
@@ -80,7 +80,7 @@ MDTopX [input file] /ORIENTARNUBEARCHIVO [orientation file]
 ```
 
 * **Input file**: point cloud that you want to orient. MDTopX rotates the cloud with **Giro1**, moves it with **Traslacion** and rotates it with **Giro2**, in that order, and saves it in the same file, so it overwrites the original. Work on a copy if you need to keep the cloud without orientation. The input file can come before the command or after the orientation file.
-* **Orientation file**: text file with the format of the transformations file that `/ORIENTARNUBE` writes. MDTopX takes only the first argument that follows the command as the orientation file. Always specify the orientation file path: MDTopX does not check whether this argument is missing.
+* **Orientation file**: text file with the format of the transformations file that `/ORIENTARNUBE` writes. MDTopX takes only the first argument that follows the command as the orientation file. The orientation file is mandatory: if you do not enter it, MDTopX does not run the command and writes to MDTopX.LOG the message "La orden /ORIENTARNUBEARCHIVO tiene argumentos obligatorios ausentes o no válidos. MDTopX termina sin procesar el archivo." (with MDTopX in English, "The /ORIENTARNUBEARCHIVO command has missing or invalid required arguments. MDTopX ends without processing the file.").
 
 No MDTopX.ini key configures this command. Like `/ORIENTARNUBE`, the command does not check the MDTopX license at startup or before saving the result.
 

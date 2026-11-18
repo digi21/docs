@@ -78,7 +78,7 @@ MDTopX [archivo de entrada] /ORIENTARNUBEARCHIVO [archivo de orientación]
 ```
 
 * **Archivo de entrada**: nube de puntos que quieres orientar. MDTopX gira la nube con **Giro1**, la desplaza con **Traslacion** y la gira con **Giro2**, en ese orden, y la guarda en este mismo archivo, por lo que sobrescribe el original. Trabaja con una copia si necesitas conservar la nube sin orientar. El archivo de entrada puede ir antes de la orden o después del archivo de orientación.
-* **Archivo de orientación**: archivo de texto con el formato del archivo de transformaciones que escribe `/ORIENTARNUBE`. MDTopX toma como archivo de orientación solo el primer argumento que sigue a la orden. Indica siempre la ruta del archivo de orientación: MDTopX no comprueba si falta este argumento.
+* **Archivo de orientación**: archivo de texto con el formato del archivo de transformaciones que escribe `/ORIENTARNUBE`. MDTopX toma como archivo de orientación solo el primer argumento que sigue a la orden. El archivo de orientación es obligatorio: si no lo escribes, MDTopX no ejecuta la orden y escribe en MDTopX.LOG el mensaje «La orden /ORIENTARNUBEARCHIVO tiene argumentos obligatorios ausentes o no válidos. MDTopX termina sin procesar el archivo.» (con MDTopX en inglés, «The /ORIENTARNUBEARCHIVO command has missing or invalid required arguments. MDTopX ends without processing the file.»).
 
 Ninguna clave de MDTopX.ini configura esta orden. Como `/ORIENTARNUBE`, la orden no comprueba la licencia de MDTopX al iniciarse ni antes de guardar el resultado.
 

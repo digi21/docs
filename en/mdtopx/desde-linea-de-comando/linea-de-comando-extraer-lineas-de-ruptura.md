@@ -1,6 +1,6 @@
 # Extract breaklines
 <!-- id: linea-de-comando-extraer-lineas-de-ruptura -->
-<!-- origen: fbae1409893afc5740644b8786ea70a4f201c91d -->
+<!-- origen: 2025019f6bae15d4cf55c83051395cd6824e5dac -->
 
 [Extract breaklines](/mdtopx/modulo-virtualand/extraer-lineas-de-ruptura.md)
 
@@ -9,6 +9,8 @@ To run this tool from the command line, enter:
 ```bash
 MDTopX [archivo de entrada] /RUP [archivo de salida]
 ```
+
+The output file is mandatory. If you do not specify the output file, MDTopX does not run the command and writes to MDTopX.LOG the message "La orden /RUP tiene argumentos obligatorios ausentes o no válidos. MDTopX termina sin procesar el archivo." (with MDTopX in English, "The /RUP command has missing or invalid required arguments. MDTopX ends without processing the file.").
 
 The input file is a DEM file (digital elevation model as a grid, DEM extension) that has been smoothed with the interface tool [Smoothing](/mdtopx/modulo-virtualand/suavizado.md). MDTopX calculates the valleys, ridges and points of interest of the terrain from the curvature of the model. With an unsmoothed DEM or a variable-cell DEM, MDTopX calculates nothing and does not create the output file. With a triangulation file (MDT extension), the command has no effect.
 
