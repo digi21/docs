@@ -1,0 +1,32 @@
+# Computations menu
+<!-- id: menu-calculos -->
+<!-- origen: 9fcc3f97211a62d852d93072389fa7c92d447faa -->
+
+This menu brings together the various geometric computations that can be performed with points, as well as operations with observations, coordinate transformations, etc. The commands are:
+
+* [Rectangular to polar](../calculos/rectangulares-a-polares.md): Calculates the azimuth and the distance from the coordinates of two points. This option is enabled only if a point file is active.
+* [Polar to rectangular](../calculos/polares-a-rectangulares.md): Calculates the coordinates of a point from those of another point, an azimuth and a distance. This option is enabled only if a point file is active.
+* [Intersection of lines](../calculos/interseccion-de-rectas.md): Calculates the coordinates of the intersection point of two straight lines. These lines can be defined by two points or by a point and an azimuth. This option is enabled only if a point file is active.
+* [Intersection of line and circle](../calculos/interseccion-de-recta-y-circulo.md): Calculates the coordinates of the intersections between a circle and a straight line. The line can be defined by two points or by a point and an azimuth. The circle can be defined by three points, two points, the center and the radius, or the center and a point on the circle. This option is enabled only if a point file is active.
+* [Intersection of circles](../calculos/interseccion-de-circulos.md): Calculates the coordinates of the intersections between two circles. The circles can be defined by three points, two points, the center and the radius, or the center and a point on the circle. This option is enabled only if a point file is active.
+* [Computation of arcs](../calculos/arco-definido-por-tres-puntos.md): Calculates an arc defined by three points and lets you store the coordinates of its center. This option is enabled only if a point file is active.
+* Computation of distances: Calculates the distance between two points in [UTM projection](../calculos/distancia-en-proyeccion-utm.md) or defined by [geographic coordinates](../calculos/distancia-en-geograficas.md).
+* [Triangle solver](../calculos/resolucion-de-triangulos.md): Calculates the elements of a triangle from three of its elements, whether sides or angles.
+* [Maximum and minimum](../calculos/maximas-y-minimas.md): Calculates the maxima, minima and coordinate increments of a set of points. This option is enabled only if a point file is active.
+* [Area computations](../calculos/calculo-de-superficies/README.md): Calculates the area of a closed element formed by a given set of points. This option is enabled only if a point file is active.
+* Profiles: Generates drawing files with [longitudinal](../calculos/perfiles-longitudinales/README.md) or [transversal](../calculos/perfiles-transversales/README.md) profiles formed by a given set of points. This option is enabled only if a point file is active.
+* Transformations: The program offers several coordinate transformations, which are enabled only if a point file is active:
+  * [Helmert coordinate transformation](../calculos/transformacion-helmert-de-coordenadas/README.md): Performs a 2D or 3D transformation from known transformation parameters.
+  * [Transformation of geographic coordinates](../calculos/transformacion-de-coordenadas-geograficas/README.md): Transforms a file of geographic coordinates into the current file, or transforms the current point file into a file of geographic coordinates.
+  * [Manual transformation of geographic coordinates](../calculos/transformacion-manual-de-coordenadas-geograficas.md): Transforms geographic coordinates entered manually into the current point file.
+  * [Transformation of coordinates from the Struve ellipsoid to Hayford](../calculos/transformacion-de-coordenadas-del-elipsoide-de-struve-al-de-hayford.md): Transforms coordinates from the old Spanish geodetic network, whose ellipsoid was Struve's and whose datum was in Madrid, to ED-50, which uses the Hayford ellipsoid and the Potsdam datum.
+  * [Transformation of coordinates between different reference systems](../calculos/transformacion-de-coordenadas-entre-diferentes-sistemas-de-referencia/README.md): Transforms coordinates between different projections or reference systems.
+  * [Transformation of coordinates using an NTV2 grid](../calculos/transformacion-de-coordenadas-utilizando-rejilla-ntv2/README.md): Transforms coordinates between different reference systems by interpolating the corrections stored in a file.
+  * [Transformation of units](../calculos/transformacion-de-unidades.md): Transforms values to different units, covering both angular and linear units.
+  * [Transformation of heights using a grid](../calculos/cambio-de-altura-segun-rejilla/README.md): Transforms the height coordinate by interpolating in a grid of altitude values that can be added to or subtracted from the current value.
+* Generate data information: Generates an HTML file with the data sheets of [control points](../calculos/generar-resenas-de-puntos-de-apoyo/README.md) or [vertices](../calculos/generar-resenas-de-vertices/README.md), from their photos or sketches. This option is enabled only if a point file is active.
+* [Compute average Face1/Face2](../calculos/calculo-medias-cd-ci/README.md): Calculates the systematic errors of an instrument from the observations in direct circle (DC) and inverse circle (IC) between a set of points. This option is enabled only if an observation file is active.
+* [Compute accidental errors](../calculos/calculo-de-errores-accidentales/README.md): Calculates the random errors associated with an instrument and a set of observation characteristics. This option is enabled only if an observation file is active.
+* [Compute average of series](../calculos/calculo-de-medias-de-visuales/README.md): Calculates the average observations of a set of repeated observations between the same station and the same target point, taken to improve accuracy. This option is enabled only if an observation file is active.
+* [Levelling](../calculos/nivelacion-geometrica/README.md): Tool for calculating the height difference between points from the file with the readings of a geometric levelling.
+* [Compensation levelling network least squares](../calculos/compensacion-mmcc-de-red-de-nivelacion/README.md): Adjusts, by the mathematical method of least squares, a levelling network formed by a set of points between which height differences have been measured.
