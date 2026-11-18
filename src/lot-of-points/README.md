@@ -1,7 +1,7 @@
 # Lot Of Points
 <!-- id: lot-of-points -->
 
-<img src="../images/lot-of-points-icono.png" alt="Icono de Lot Of Points" width="128">
+![Icono de Lot Of Points](../images/lot-of-points-icono.png){width=128}
 
 **Lot Of Points** es un visor y editor de nubes de puntos para Windows. Permite recorrer una nube en tres
 dimensiones, consultar las fotografías esféricas que la acompañan y tomar medidas sobre sus puntos. Puedes abrir

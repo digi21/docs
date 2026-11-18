@@ -1,8 +1,8 @@
 # Lot Of Points
 <!-- id: lot-of-points -->
-<!-- origen: af8405066dae084aefd695cb449a0b0da43e3cb6 -->
+<!-- origen: 6a839c8b7a046b7a2313220d37c8a30a336c9556 -->
 
-<img src="../images/lot-of-points-icono.png" alt="Lot Of Points icon" width="128">
+![Lot Of Points icon](../images/lot-of-points-icono.png){width=128}
 
 **Lot Of Points** is a point cloud viewer and editor for Windows. It lets you explore a cloud in three dimensions, view its accompanying spherical photographs and measure its points. You can open several clouds in the same view and combine them with GeoPackage vector layers to draw on them.
 

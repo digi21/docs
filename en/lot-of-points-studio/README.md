@@ -1,8 +1,8 @@
 # Lot Of Points Studio
 <!-- id: lot-of-points-studio -->
-<!-- origen: aacbc31568caf7b89ace5ecfd8ab16487f3001b4 -->
+<!-- origen: 98222f9e8fffe8c63b6d6048fcf220f02b312cc6 -->
 
-<img src="../images/lot-of-points-studio-icono.png" alt="Lot Of Points Studio icon" width="128">
+![Lot Of Points Studio icon](../images/lot-of-points-studio-icono.png){width=128}
 
 **Lot Of Points Studio** is a Windows program that prepares point clouds for [Lot Of Points](../lot-of-points/README.md) and publishes them on Azure. From original files, it creates the level of detail used by the viewer and collects spherical images associated with scans.
 

@@ -1,7 +1,7 @@
 # Lot Of Points Studio
 <!-- id: lot-of-points-studio -->
 
-<img src="../images/lot-of-points-studio-icono.png" alt="Icono de Lot Of Points Studio" width="128">
+![Icono de Lot Of Points Studio](../images/lot-of-points-studio-icono.png){width=128}
 
 **Lot Of Points Studio** es un programa para Windows que prepara nubes de puntos para trabajar con
 [Lot Of Points](../lot-of-points/README.md) y permite publicarlas en Azure. A partir de los archivos originales,
