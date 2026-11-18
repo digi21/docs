@@ -123,7 +123,7 @@ Los estados que muestran `estado` y el panel son: **Activo**, **No activado**, *
 
 | Código | Significado |
 | --- | --- |
-| 100 | La orden se ha ejecutado. Con `activar`, el servidor se ha activado. Con `renovar`, el certificado se ha renovado. |
+| 100 | La orden ha terminado correctamente. Con `activar`, el servidor se ha activado. Con `renovar`, el certificado se ha renovado. |
 | 101 | `activar`: digi21.net no ha aceptado el código. El código no es válido, ha caducado o se ha revocado; no es un código de activación del servidor de licencias; o su licencia no está en modo «servidor de licencias local» o ha terminado. |
 | 102 | `activar`: la licencia no admite activaciones desde la dirección IP pública del servidor. |
 | 103 | `activar`: la licencia ya tiene otro servidor de licencias activo que ha renovado su certificado en los últimos 7 días. |
@@ -213,7 +213,7 @@ Si un ordenador cliente no tiene la dirección configurada, el programa muestra 
 
 ## Actualización y desinstalación
 
-* **Actualización.** Ejecuta el MSI de la versión nueva. El instalador sustituye la versión instalada si la nueva es igual o posterior, y rechaza una versión anterior. Durante la actualización, el servicio se detiene, guarda las sesiones abiertas en `sesiones.json` y, cuando se inicia de nuevo, recupera las que siguen vigentes. La activación, el certificado y el puerto se conservan.
+* **Actualización.** Ejecuta el MSI de la versión nueva. El instalador sustituye la versión instalada si el paquete de instalación tiene la misma versión que la instalada o una posterior, y rechaza los paquetes con una versión anterior a la instalada. Durante la actualización, el servicio se detiene, guarda las sesiones abiertas en `sesiones.json` y, cuando se inicia de nuevo, recupera las que siguen vigentes. La activación, el certificado y el puerto se conservan.
 * **Desinstalación.** Desinstala **Servidor de licencias de Digi21** desde **Aplicaciones instaladas**, o ejecuta `msiexec /x "C:\Instaladores\SetupServidorLicencias_es-ES.msi" /qn` con el mismo archivo MSI que usaste para instalar. La desinstalación detiene y elimina el servicio, la reserva de la dirección y las reglas del cortafuegos. La carpeta `C:\ProgramData\Digi21.ServidorLicencias` no se elimina: contiene el certificado y los datos de renovación del servidor, así que, si vuelves a instalar el servidor en el mismo ordenador, el servidor sigue activado.
 * **Cambio de ordenador.** Instala y activa el servidor nuevo con un código de activación del servidor. La orden `desactivar` solo borra los datos del servidor antiguo y no avisa a digi21.net: mientras el servidor antiguo tenga un certificado que renovó en los últimos 7 días, `activar` en el servidor nuevo devuelve el código 103. Si no quieres esperar, solicita a Digi21 que revoque el servidor antiguo.
 
@@ -258,7 +258,7 @@ Inicia el servicio con `Start-Service Digi21ServidorLicencias` y repite la orden
 
 ### Los ordenadores cliente no se conectan
 
-1. En un ordenador cliente, ejecuta `/servidor-licencias <dirección>` para comprobar la dirección (consulta [Configurar los ordenadores cliente](#configurar-los-ordenadores-cliente)). El código 114 indica que el servidor no responde.
+1. En un ordenador cliente con MDTopX o Topcal21 instalado, ejecuta `/servidor-licencias <dirección>` para comprobar la dirección (consulta [Configurar los ordenadores cliente](#configurar-los-ordenadores-cliente)). El código 114 indica que el servidor no responde. En un ordenador que solo tiene Digi3D.AI, comprueba el valor de registro `ServidorLocal` como se describe en [Configurar los ordenadores cliente](#configurar-los-ordenadores-cliente).
 2. Comprueba el acceso al puerto desde el cliente: `Test-NetConnection servidor01 -Port 21021`.
 3. Comprueba que las reglas del cortafuegos del servidor están habilitadas y que el perfil de red activo del servidor es de dominio o privado. Las reglas no cubren el perfil público, y solo admiten conexiones desde la subred local del servidor: un cliente de otra subred necesita una regla propia.
 4. Comprueba que el estado del servidor es **Activo** y que la licencia del cliente figura en la lista de licencias del servidor.
@@ -266,7 +266,7 @@ Inicia el servicio con `Start-Service Digi21ServidorLicencias` y repite la orden
 
 ### El estado es «Certificado caducado» o «Revocado por digi21.net»
 
-* **Certificado caducado:** el servidor no ha renovado su certificado en los últimos 7 días. Ejecuta `renovar` y lee el motivo si la orden falla; normalmente es la conexión del servidor con digi21.net.
+* **Certificado caducado:** el servidor no ha renovado su certificado en los últimos 7 días. Ejecuta `renovar` y, si la orden falla, lee el motivo. Si el motivo es un fallo de la conexión del servidor con digi21.net, comprueba esa conexión.
 * **Revocado por digi21.net:** ejecuta `activar <código>` con un código de activación del servidor vigente. Si el código no sirve, contacta con Digi21.
 
 ### El aviso «server_cloned»

@@ -1,8 +1,10 @@
 # About dongles
 <!-- id: acerca-llaves-proteccion -->
-<!-- origen: 38e2038cc908bef7715d134a160d7a746cadf8e6 -->
+<!-- origen: 6f79c4b0e308b1e2392384adcaca8226bdcc58e1 -->
 
-All our programs require a dongle. Dongles store licenses for products you have purchased, rented or requested a trial for.
+Our programs require a dongle or, in Digi3D.AI, MDTopX and Topcal21, a software license activated on the computer. Dongles store licenses for products you have purchased, rented or requested a trial for.
+
+Digi3D.AI, MDTopX and Topcal21 also support software licenses, which authorize the use of the program on a specific computer without a dongle connected to the computer. See [Software licenses](../licencias-de-software/README.md).
 
 ## Licenses Application Suite
 

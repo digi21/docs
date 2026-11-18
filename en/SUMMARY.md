@@ -1,5 +1,5 @@
 # Table of contents
-<!-- origen: 2038cd0a662a829cbb020418e3d2d033deaa9c9f -->
+<!-- origen: a7a6a7fea5302d8aae87bc19a00c4d419f6360a7 -->
 
 * [Digi21 help](README.md)
 * [Digi3D.AI](digi3d-ai/README.md)
@@ -2641,6 +2641,10 @@
     * [Error 54](acerca-llaves-proteccion/solucion-de-problemas/error-54.md)
     * [No space available in the dongle](acerca-llaves-proteccion/solucion-de-problemas/no-hay-espacio-disponible-en-la-llave-de-proteccion.md)
     * [Dongle to program not found](acerca-llaves-proteccion/solucion-de-problemas/no-se-localizo-la-llave-a-programar.md)
+* [Software licenses](licencias-de-software/README.md)
+  * [Activate computers](licencias-de-software/activar-ordenadores.md)
+  * [Simultaneous sessions](licencias-de-software/sesiones-simultaneas.md)
+  * [Local license server](licencias-de-software/servidor-de-licencias.md)
 * [Technical support](soporte-tecnico/README.md)
   * [Create an account and send your first technical support ticket](soporte-tecnico/creando-cuenta-soporte-tecnico.md)
   * [Technical support rules](soporte-tecnico/reglas-soporte-tecnico.md)
