@@ -1,39 +1,124 @@
 # Magic Surface
 <!-- id: superficie-magica -->
-<!-- origen: a6faad5d807f5b942f82a0e2aac64b975b65ae46 -->
+<!-- origen: fc12b0e6fe850eaa0a396aac121a85b63ce915ae -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
-Automatically finds and classifies LiDAR points by intelligently combining the program's algorithms and tools. It chooses algorithms and parameters according to file and area type, avoiding manual decisions at each stage.
+This tool automatically finds and classifies LiDAR points. It combines algorithms and tools of the program and selects the algorithms and parameters according to the file type and the area type, so you do not have to decide them for each run.
+
+It works with an open point cloud file or with a project. Besides ground, vegetation and buildings, it classifies bridges and footbridges, roads and vehicles, and the wires and towers of power lines (see [What it classifies](#what-it-classifies)), and when it finishes it groups the points into [objects](#objects).
 
 ![Magic surface dialog](../../../../images/image-171.png)
 
-Required parameters:
+Parameters:
 
-* **Max distance among points**: maximum neighbor distance. Two or three times nominal scan spacing is recommended.
-* **Min height to aerial points**: minimum height difference above surroundings for airborne classification. Set 0 to ignore.
-* **Min height to buildings**: minimum height difference above surroundings for building classification. Set 0 to ignore.
-* **Max height to high vegetation**: maximum height difference above surroundings for vegetation classification. Set 0 to ignore.
-* **Min height to high vegetation**: minimum height difference above surroundings for high vegetation. Set 0 to ignore.
-* **Min height to medium vegetation**: minimum height difference above surroundings for medium vegetation. Set 0 to ignore.
-* **Min height to low vegetation**: minimum height difference above surroundings for low vegetation. Set 0 to ignore.
-* **Point height accuracy**: elevation definition precision.
-* **Point Search level**: 1 to 10. Lower values perform more exhaustive searches, repeating some included processes.
-* **Smooth profiles**: assuming data were acquired along lines, smooths points first to remove irregularities. This may also remove characteristic terrain features.
-* **Only in the selection**: calculates only points selected on screen before running the tool.
-* **Use intensity**: includes intensity in classification. It can distinguish ground and objects with high contrast, such as olive groves or vineyards; not recommended for other situations.
-* **Auto sort**: first sorts points by GPS time, useful after merging point groups.
-* **Max intensity value of vegetation**: maximum intensity for vegetation classification when the preceding option is enabled, from 0 to 255.
-* **Min surface area of buildings**: areas below this value are not considered buildings.
-* **Max surface slope of buildings**: maximum slope of a surface considered a building.
-* **Max different height in buildings**: maximum elevation difference within a potential building area.
-* **LiDAR point cloud**: enable for laser measurements; disable for photogrammetric multi-image correlation clouds.
-* **Terrestrial register**: enable for terrestrial acquisition, whose resolution and precision are much higher than airborne acquisition.
-* **Use infrared**: uses point infrared values. Requires false color IR-R-B to calculate NDVI, identifying vegetation and distinguishing it from buildings.
-* **Difference**: NDVI sensitivity when infrared is enabled. Use near 1 when vegetation infrared values are poorly defined, near 10 otherwise.
-* [**Codes**](codigos-lidar.md): classification values for secondary points.
+* **Max distance among points**: maximum distance between two points for them to be considered neighbors in the area. A value of 2 or 3 times the nominal spacing between scanned points is recommended.
+* **Min height to aerial points**: minimum height difference a point must have with its surroundings to be classified as an aerial point. If you enter 0, the tool does not apply this minimum height criterion.
+* **Min height to buildings**: minimum height difference a point must have with its surroundings to be classified as a building point. If you enter 0, the tool does not apply this minimum height criterion.
+* **Max height to high vegetation**: maximum height difference a point can have with its surroundings to be classified as vegetation. If you enter 0, the tool does not apply this maximum height criterion. The crowns of trees taller than this value are also high vegetation if there is vegetation underneath them and they do not form a plane.
+* **Min height to high vegetation**: minimum height difference a point must have with its surroundings to be classified as high vegetation. If you enter 0, the tool does not apply this minimum height criterion.
+* **Min height to medium vegetation**: minimum height difference a point must have with its surroundings to be classified as medium vegetation. If you enter 0, the tool does not apply this minimum height criterion.
+* **Min height to low vegetation**: minimum height difference a point must have with its surroundings to be classified as low vegetation. If you enter 0, the tool does not apply this minimum height criterion.
+* **Point height accuracy**: precision of the elevation definition.
+* **Point Search level**: a value from 1 to 10. Lower values produce a more exhaustive search because the tool repeats some classification processes.
+* **Smooth profiles**: if the data were acquired along scan lines, smooths the points before classification to remove irregularities. Smoothing can also remove characteristic terrain features.
+* **Only in the selection**: if points were selected on screen before running the tool, the user can choose to calculate only with the selected points.
+* **Use intensity**: select this option to use the intensity field of each point in the classification. Intensity helps distinguish the ground from the objects on it when their intensity values differ substantially, as in a plantation (olive grove, vineyard, etc.). Using intensity is not recommended in other situations.
+* **Auto sort**: select this option to sort the points by their Global Positioning System (GPS) time before classification. Sorting is useful when the cloud combines several groups of points.
+* **Max intensity value of vegetation**: when **Use intensity** is selected, set the maximum intensity for a point to be classified as vegetation, from 0 to 255.
+* **Min surface area of buildings**: to identify buildings correctly, you can indicate a minimum surface area. Below this value, the area is not considered a building.
+* **Max surface slope of buildings**: maximum slope of a surface that the tool may classify as a building.
+* **Max height difference in buildings**: finally, you can indicate the maximum height difference that can exist between points belonging to the same area that may be a building.
+* **LiDAR point cloud:** select it if the cloud comes from laser measurements, or clear it if the cloud comes from photogrammetric multi-image correlation (see [Photogrammetric clouds](#photogrammetric-clouds)). With a file, the check box is set according to the cloud: it is LiDAR if its points have GPS time or intensity, and photogrammetric if they have neither and have color. With a project, it is set manually.
+* **Terrestrial register**: select this option if the acquisition is terrestrial, since the resolution and precision are much higher than in the airborne case.
+* **Use infrared**: select this option to calculate the normalized difference vegetation index (NDVI) from the infrared (IR) and red (R) values of each point. Each point must have false color with the infrared-red-blue (IR-R-B) triplet. The tool uses NDVI to distinguish vegetation from buildings.
+* **Difference**: when **Use infrared** is selected, set the NDVI sensitivity. Use a value near 1 if the infrared value is not well defined in the vegetation areas, and near 10 otherwise.
+* **Keep current classifications**: the cloud is always classified from scratch, but when the process finishes, the points that already had a class (any except 0 and 1, unclassified) recover it. Manual edits are preserved. Points whose previous class was neither 0 nor 1 are excluded from the new objects, and the tool neither removes the synthetic points from the previous run nor adds new ones. Clear **Keep current classifications** to apply the new classification to every point.
+* **Vector at the end (building footprints)**: if selected, when the classification finishes the tool calculates, from the building and ground classes of the points, the footprint of each building with straight sides and those of its courtyards, at ground elevation, and opens them in a new document titled "Vector of" followed by the title of the source document. The [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) shows the number of buildings, how many have straight sides, the number of courtyards and the cell size. If there are no buildings, no document is created, and if the calculation fails, the classification is kept. With a project, the tool calculates the footprints only when the project files are saved, and it calculates them using all the files together. The **Vector at the end (building footprints)** check box is selected by default. To calculate the footprints after the classification, without modifying the classes of the points, use the **Magic surface vector** command.
+* **Default values**: sets the default values in all the parameters. It does not change the [codes](codigos-lidar.md), which have their own dialog, nor the **Only in the selection**, **Keep current classifications** and **Vector at the end (building footprints)** check boxes. If a value in the dialog is not valid, the dialog reports it and leaves all the values unchanged.
+* [**LiDAR classes...**](codigos-lidar.md): opens the dialog where you change the classification codes of Noise, Wall, Aerial, Other, Bridges, Road, Vehicles, Wires and Towers.
 
-The program processes the current file, displaying partial results in the [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md). **Cancel** asks whether to retain calculations completed so far. If the current view colors points by LiDAR classification, it updates to display progress in real time.
+The default values are:
+
+| Parameter | Default |
+|---|---|
+| Max distance among points | 3 m |
+| Min height to aerial points | 50 m |
+| Min height to buildings | 4 m |
+| Max height to high vegetation | 15 m |
+| Min height to high vegetation | 3 m |
+| Min height to medium vegetation | 2 m |
+| Min height to low vegetation | 1 m |
+| Point height accuracy | 0.2 m |
+| Point Search level | 1 |
+| Max intensity value of vegetation | 100 |
+| Min surface area of buildings | 30 m² |
+| Max surface slope of buildings | 30º |
+| Max height difference in buildings | 0.5 m |
+| Difference (infrared) | 5 |
+
+The program starts processing the current file and shows partial results in the [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) of the program. When you click **Cancel**, the program asks whether to keep the calculations generated up to that moment. In addition, if the current document view displays the points by the LiDAR classification parameter, the view is updated progressively so you can see the progress of the tool in real time.
+
+## What it classifies
+
+Each class is assigned the code it has in the dialog opened by the [**LiDAR classes...**](codigos-lidar.md) button:
+
+| Class | Default | What it is |
+|---|---|---|
+| Ground | 2 | The terrain. |
+| Low, medium and high vegetation | 3, 4 and 5 | The vegetation, according to its height above the ground. |
+| Building | 6 | Roofs and covers. |
+| Noise | 7 | Points far below their surroundings: measurement errors. |
+| Wall | 91 | Facades. |
+| Aerial | 18 | Points far above their surroundings. |
+| Wires | 14 | The conductors and guard wires of power lines. |
+| Towers | 15 | The towers and poles of power lines. |
+| Road | 11 | Streets and roads. |
+| Other | 80 | What is neither ground, vegetation nor building, such as street furniture. |
+| Vehicles | 82 | Vehicles on the road or next to it. |
+| Bridges | 17 | The decks of bridges and footbridges. |
+
+### Ground on hills and hillocks
+
+On hills and hillocks with steep slopes or terrace walls, the tool also searches for ground along ramps, paths and slopes that rise from the surrounding terrain, and not along facades or tree crowns. This way, the top of a hillock is classified as ground, and any buildings on it are classified as buildings.
+
+### Bridges and footbridges
+
+These are bridges:
+
+* The decks of bridges over watercourses and roads: a surface that drops vertically 4 m or more on both sides down to the same low level, which continues below the deck (the watercourse or the road), with an area of at least 100 m² and a length of at least 15 m, and whose two ends end on the terrain, including bridge decks whose ends connect to street level by stairs or ramps. The tool also classifies the parapets and railings of bridge decks as bridges.
+* Pedestrian footbridges, up to 4 m wide, with the terrain 2.5 m or more below on both sides.
+
+An embankment with vertical walls 4 m or more high on both sides looks the same as a deck from above and may be classified as a bridge.
+
+### Road
+
+The road is the nearly horizontal, smooth ground that, by its intensity and color, is asphalt. The tool rebuilds the road mask as a network of streets: each street has a smoothed center line and two edges parallel to it.
+
+In the urban area (where buildings take up a quarter or more of the surroundings), the tool classifies as road all the ground between the facades, sidewalks included, with buildings on both sides 50 m or less apart and in street networks of 5,000 m² or more. Closed block courtyards are not road; those open to the street through a doorway, and gardens between facades, are.
+
+Outside the urban area, the tool does not classify as road the connected groups of road that reach neither the streets of the urban area nor the edge of the cloud and whose center line is shorter than 200 m.
+
+### Vehicles
+
+Vehicles are groups of points between 0.3 and 4.5 m above the ground, up to 20 × 4 m, on the road detected as asphalt or less than 5 m from it, that do not touch anything higher or the vegetation at the margins. Vehicles are not searched for in the streets of the urban area that were not detected as asphalt.
+
+### Wires and towers
+
+Power lines are searched for with the same procedure as the [Power lines](../../generar/lineas-electricas.md) tool: the conductors and guard wires become **Wires**, and the towers and poles become **Towers**. In the gaps of the conductors, synthetic points are added, with the class of the wires plus 32 and marked as synthetic. When the tool is repeated, the synthetic points from the previous run are removed and the new ones are added. With **Keep current classifications** or with a selection, synthetic points are neither removed nor added.
+
+### Photogrammetric clouds
+
+With the **LiDAR point cloud** check box cleared, the cloud comes from photogrammetric multi-image correlation, with no returns or intensity. In addition:
+
+* What is not flat at a 1 m scale is neither a building nor a bridge: the tree masses that are classified as buildings become high vegetation.
+* Unclassified points, points of the **Other** class and points of the **Wall** class more than 3 m in plan from a building take the most frequent class (vegetation or building) in the adjacent 1 m voxels.
+
+## Objects
+
+After the classification, the tool groups the points into objects, which you can see and select with **Edit objects**: each building with its roof and walls, each tree or mass of crowns with its medium and high vegetation, each vehicle, each bridge, each group of other points, each wire section and each tower. Ground, road, low vegetation, unclassified points, noise points and aerial points do not form objects.
+
+The tool replaces the objects the cloud had with the new objects. With a selection, the tool replaces only the existing objects that have some selected point. With **Keep current classifications**, the tool replaces only the existing objects that share some point with the new objects. With a file, the program saves the objects when the cloud is saved. With a project without a selection, the program saves the objects of each cloud in an `.OBJ` file in the same folder as the cloud file. With a project with a selection, the program does not change the objects stored for each project file.
 
 See also:
 
@@ -53,3 +138,4 @@ See also:
 * [Find gaps](/mdtopx/modulo-laser/buscar-puntos/buscar-huecos.md)
 * [Find points by surface area](../buscar-puntos-segun-area.md)
 * [Find points on user planes](../../formas-geometricas/buscar-puntos-sobre-planos.md)
+* [Power lines](../../generar/lineas-electricas.md)
