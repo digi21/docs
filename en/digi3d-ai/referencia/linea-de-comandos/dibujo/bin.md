@@ -1,6 +1,6 @@
 # bin
 <!-- id: bin-2 -->
-<!-- origen: c2b573de0a59b4e511f2becb206786ad1643d494 -->
+<!-- origen: 389c52e5c35ebef133435d2242ed3c1ddd6f8c61 -->
 
 The bin subcommand specifies that the drawing file to open is single-precision binary (extension .bin).
 
@@ -8,21 +8,23 @@ The bin subcommand specifies that the drawing file to open is single-precision b
 
 | Name | Description |
 | --- | --- |
-| ruta | Path to the .bin file to open |
+| path | Path to the .bin file to open |
 
-## Options&#x20;
+With the Spanish interface, this positional option is called `ruta`.
+
+## Options
 
 Specifying an option overrides its default value.
 
-| Option | Description | Default value |
-| --- | --- | --- |
-| --decim | Number of decimal places used to store coordinates in the drawing file | 2 |
-| --origen | Global origin | 0.0 0.0 0.0 |
+| Option with the English interface | Option with the Spanish interface | Description | Default value |
+| --- | --- | --- | --- |
+| --precision | --decim | Number of decimal places used to store coordinates in the drawing file | 2 |
+| --origin | --origen | Global origin: three numbers (X, Y and Z) separated by spaces | 0.0 0.0 0.0 |
 
 ## Example
 
-Open double-precision binary drawing file c:\trabajo\archivo.bin with millimeter precision and origin (0, 4000000, 0), using codes table c:\trabajo\tabla.tab.xml:
+Open the single-precision binary drawing file c:\trabajo\archivo.bin with coordinates stored to three decimal places and origin (0, 4000000, 0), using the codes table c:\trabajo\tabla.tab.xml, with the English interface:
 
 ```powershell
-digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml bin c:\trabajo\archivo.bin --decim 3 --origen 0 4000000 0
+digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml bin c:\trabajo\archivo.bin --precision 3 --origin 0 4000000 0
 ```

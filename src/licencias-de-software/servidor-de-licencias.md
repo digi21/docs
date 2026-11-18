@@ -173,7 +173,7 @@ $proceso.ExitCode
 
 La ruta del ejemplo es solo un ejemplo: sustitúyela por la ruta del ejecutable instalado.
 
-La orden `/servidor-licencias <dirección>` escribe la dirección en el registro y consulta el servidor para comprobar que responde con un certificado válido. Para borrar la configuración, usa `/servidor-licencias /quitar`. La orden no muestra ninguna ventana y escribe el resultado en la salida estándar. MDTopX.exe admite las mismas órdenes.
+La orden `/servidor-licencias <dirección>` escribe la dirección en el registro y consulta el servidor para comprobar que responde con un certificado válido. Para borrar la configuración, usa `/servidor-licencias /quitar`. La orden y `/quitar` no distinguen mayúsculas de minúsculas. La orden no muestra ninguna ventana y escribe una línea de texto con el resultado en la salida estándar del proceso o, si el proceso no tiene salida estándar, en la consola del proceso que lo ha iniciado. MDTopX.exe admite las mismas órdenes. Si la dirección no tiene un formato válido, la orden termina con el código 112 antes de comprobar los permisos de administrador. La página de cada programa describe la orden con más detalle: [MDTopX](../mdtopx/desde-linea-de-comando/linea-de-comando-servidor-licencias.md) y [Topcal21](../topcal21/opciones-de-la-linea-de-ordenes.md).
 
 | Código | Significado |
 | --- | --- |

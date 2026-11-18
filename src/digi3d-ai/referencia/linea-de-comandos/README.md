@@ -5,23 +5,24 @@ Puedes pasar parámetros a Digi3D.AI desde la línea de comandos.
 
 Con estos parámetros puedes, por ejemplo, iniciar el programa, abrir un archivo de dibujo y ejecutar un archivo de macroinstrucciones que realice una tarea y cierre el programa al finalizar la tarea.
 
-El programa puede recibir una o varias órdenes desde la línea de comandos. Si no recibe ninguna, no realiza ninguna tarea.
+Cada orden se escribe después de `digi3d.exe` y tiene sus propias opciones, que se describen en la página de la orden. Puedes escribir varias órdenes en la misma línea, como en el ejemplo que combina `foto` y `dibujo`. Los nombres de las órdenes y de las opciones distinguen mayúsculas de minúsculas, salvo `/activar-equipo`.
 
-En caso de indicar por la línea de comandos un parámetro, éste requerirá que se pasen una serie de parámetros opcionales.
+Si la línea de comandos no contiene ninguna orden, Digi3D.AI se inicia como si no tuviera parámetros. Si contiene un argumento que no es ninguna de las órdenes ni de las opciones de esta página, Digi3D.AI muestra un cuadro de mensaje con el error, no ejecuta ninguna orden y continúa iniciándose como si no tuviera parámetros. Por ejemplo, Digi3D.AI no abre un archivo cuyo nombre se escribe solo después de `digi3d.exe`: usa las órdenes `dibujo`, `foto` o `proyecto`.
 
 ## Opciones
 
-| Opción  | Descripción   |
-| ------- | ------------- |
-| --ayuda | Muestra ayuda |
+| Opción | Descripción |
+| ------ | ----------- |
+| --ayuda | Muestra en un cuadro de mensaje la sintaxis de las órdenes y de las opciones. Al cerrar el cuadro, Digi3D.AI continúa iniciándose sin ejecutar ninguna orden. |
 
 ## Comandos
 
-| Orden                   | Descripción                                 |
-| ----------------------- | ------------------------------------------- |
-| [dibujo](/digi3d-ai/referencia/linea-de-comandos/dibujo/)       | Ordena abrir una ventana de dibujo          |
-| [foto](/digi3d-ai/referencia/linea-de-comandos/foto.md)         | Ordena abrir una ventana fotogramétrica     |
+| Orden | Descripción |
+| ----- | ----------- |
+| [dibujo](/digi3d-ai/referencia/linea-de-comandos/dibujo/) | Abre una ventana de dibujo |
+| [foto](/digi3d-ai/referencia/linea-de-comandos/foto.md) | Abre una ventana fotogramétrica |
 | [proyecto](/digi3d-ai/referencia/linea-de-comandos/proyecto.md) | Carga un archivo de proyecto fotogramétrico |
+| [/activar-equipo](/digi3d-ai/referencia/linea-de-comandos/activar-equipo.md) | Activa el ordenador para todos los usuarios de Windows con un código de activación de licencias de software, sin abrir Digi3D.AI. Se escribe con barra inicial y no se combina con las demás órdenes. |
 
 ## Ejemplos
 
@@ -59,4 +60,10 @@ Ejecuta la siguiente orden para abrir en el panel de archivo fotogramétrico el 
 
 ```
 digi3d.exe proyecto c:\trabajo\proyecto.prj
+```
+
+Ejecuta la siguiente orden, en una consola abierta con **Ejecutar como administrador**, para activar el ordenador para todos los usuarios de Windows con un código de activación (consulta [/activar-equipo](activar-equipo.md)):
+
+```powershell
+digi3d.exe /activar-equipo <código>
 ```

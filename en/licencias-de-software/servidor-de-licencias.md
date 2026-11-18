@@ -1,6 +1,6 @@
 # Local license server
 <!-- id: servidor-de-licencias -->
-<!-- origen: 1bdce473dab4c8be21e27577921719d7da290690 -->
+<!-- origen: 8d8bc74728ca7e4de95e8f9e96ea014c90bfde11 -->
 
 The local license server is a Windows service that distributes the [simultaneous sessions](sesiones-simultaneas.md) of a license among the computers of the network of an organization. The computers request the session from the server on the local network instead of requesting it from digi21.net. This page is aimed at the IT department that installs and administers the server.
 
@@ -174,7 +174,7 @@ $process.ExitCode
 
 Replace `C:\Program Files\Digi21\Topcal21\Topcal21.exe` with the absolute path of the installed Topcal21 or MDTopX executable.
 
-The `/servidor-licencias <address>` command writes the address to the registry and queries the server to check that it responds with a valid certificate. To delete the configuration, use `/servidor-licencias /quitar`. The command shows no window and writes the result to the standard output. MDTopX.exe supports the same commands.
+The `/servidor-licencias <address>` command writes the address to the registry and queries the server to check that it responds with a valid certificate. To delete the configuration, use `/servidor-licencias /quitar`. The command and `/quitar` are not case-sensitive. The command shows no window and writes one line of text with the result to the standard output of the process or, if the process has no standard output, to the console of the process that started it. MDTopX.exe supports the same commands. If the address does not have a valid format, the command ends with code 112 before checking the administrator permissions. The page of each program describes the command in more detail: [MDTopX](../mdtopx/desde-linea-de-comando/linea-de-comando-servidor-licencias.md) and [Topcal21](../topcal21/opciones-de-la-linea-de-ordenes.md).
 
 | Code | Meaning |
 | --- | --- |

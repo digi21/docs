@@ -1,6 +1,6 @@
 # Topcal21
 <!-- id: topcal21 -->
-<!-- origen: b1433e3133ba931073304487e2a160dcfcb8a589 -->
+<!-- origen: 2182c4891cc7528edca739aa377d2e314dbb2ad1 -->
 
 Surveying calculation software designed to solve all calculation problems in surveying work.
 
@@ -30,4 +30,5 @@ Topcal21 works with projects, allowing work to be organized in subdirectories an
 
 ## Contents
 
+* [Command-line options](opciones-de-la-linea-de-ordenes.md)
 * [Release notes](novedades-version/README.md)

@@ -42,14 +42,16 @@ Digi21 entrega los códigos de activación al titular de la licencia. Cada códi
 
 La orden `/activar-equipo <código>` de Digi3D.AI, MDTopX y Topcal21 activa el ordenador para todos los usuarios de Windows. La orden no muestra ninguna ventana y requiere un proceso con el grupo Administradores habilitado (una consola abierta con **Ejecutar como administrador**); si el proceso no tiene permisos de administrador, la orden no envía ninguna petición y termina con el código 108.
 
-La orden escribe el resultado en la salida estándar. Los programas son aplicaciones de ventanas, así que, para esperar a que termine el proceso del programa y consultar el código de salida de ese proceso, ejecuta la orden con PowerShell:
+La orden escribe una línea de texto con el resultado en la salida estándar del proceso o, si el proceso no tiene salida estándar, en la consola del proceso que lo ha iniciado. Los programas son aplicaciones de ventanas, así que, para esperar a que termine el proceso del programa y consultar el código de salida de ese proceso, ejecuta la orden con PowerShell:
 
 ```powershell
 $proceso = Start-Process -FilePath 'C:\Ruta\de\instalación\Topcal21.exe' -ArgumentList '/activar-equipo', '<código>' -Wait -PassThru
 $proceso.ExitCode
 ```
 
-Sustituye la ruta del ejemplo por la ruta absoluta del ejecutable del programa (`Digi3D.exe` en Digi3D.AI, `MDTopX.exe` en MDTopX y `Topcal21.exe` en Topcal21) y `<código>` por el código de activación. La orden no distingue mayúsculas de minúsculas.
+Sustituye la ruta del ejemplo por la ruta absoluta del ejecutable del programa (`Digi3D.exe` en Digi3D.AI, `MDTopX.exe` en MDTopX y `Topcal21.exe` en Topcal21) y `<código>` por el código de activación. La orden no distingue mayúsculas de minúsculas. El código es el argumento que sigue inmediatamente a `/activar-equipo`; si la línea contiene la orden, el programa ejecuta solo esa orden y no analiza el resto de la línea. Para guardar el texto del resultado en un archivo, añade `-RedirectStandardOutput 'C:\Ruta\resultado.txt'` a `Start-Process`.
+
+La página de cada programa describe la orden con más detalle: [Digi3D.AI](../digi3d-ai/referencia/linea-de-comandos/activar-equipo.md), [MDTopX](../mdtopx/desde-linea-de-comando/linea-de-comando-activar-equipo.md) y [Topcal21](../topcal21/opciones-de-la-linea-de-ordenes.md).
 
 Códigos de salida de `/activar-equipo`:
 

@@ -1,6 +1,6 @@
 # Activate computers
 <!-- id: activar-ordenadores -->
-<!-- origen: 10dd5894cf20c7c166c2e0845f6dcae4a8e13e20 -->
+<!-- origen: 429949a8dd023a0120981cedc3c13beb42d9dcee -->
 
 To use a software license on a computer, you must activate the license on that computer. An activation registers the cryptographic key of the computer on digi21.net and associates the computer with the license. After you activate the computer, the computer receives a usage authorization from digi21.net, which the program renews periodically.
 
@@ -43,14 +43,16 @@ Digi21 delivers the activation codes to the license holder. Each code is associa
 
 The `/activar-equipo <code>` command of Digi3D.AI, MDTopX and Topcal21 activates the computer for all Windows users. The command shows no window and requires a process with the Administrators group enabled (a console opened with **Run as administrator**); if the process has no administrator permissions, the command sends no request and ends with code 108.
 
-The command writes the result to the standard output. The programs are windowed applications, so, to wait for the program process to end and read its exit code, run the command with PowerShell:
+The command writes one line of text with the result to the standard output of the process or, if the process has no standard output, to the console of the process that started it. The programs are windowed applications, so, to wait for the program process to end and read its exit code, run the command with PowerShell:
 
 ```powershell
 $process = Start-Process -FilePath 'C:\Path\to\installation\Topcal21.exe' -ArgumentList '/activar-equipo', '<code>' -Wait -PassThru
 $process.ExitCode
 ```
 
-Replace the path in the example with the absolute path of the program executable (`Digi3D.exe` in Digi3D.AI, `MDTopX.exe` in MDTopX and `Topcal21.exe` in Topcal21) and `<code>` with the activation code. The `/activar-equipo` command name is not case-sensitive.
+Replace the path in the example with the absolute path of the program executable (`Digi3D.exe` in Digi3D.AI, `MDTopX.exe` in MDTopX and `Topcal21.exe` in Topcal21) and `<code>` with the activation code. The `/activar-equipo` command name is not case-sensitive. The code is the argument that immediately follows `/activar-equipo`; if the line contains the command, the program runs only that command and does not parse the rest of the line. To save the result text to a file, add `-RedirectStandardOutput 'C:\Path\result.txt'` to `Start-Process`.
+
+The page of each program describes the command in more detail: [Digi3D.AI](../digi3d-ai/referencia/linea-de-comandos/activar-equipo.md), [MDTopX](../mdtopx/desde-linea-de-comando/linea-de-comando-activar-equipo.md) and [Topcal21](../topcal21/opciones-de-la-linea-de-ordenes.md).
 
 Exit codes of `/activar-equipo`:
 
