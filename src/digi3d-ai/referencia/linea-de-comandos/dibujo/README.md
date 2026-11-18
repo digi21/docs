@@ -22,10 +22,11 @@ Si especificas una de estas opciones, el valor que indiques sustituye al valor p
 
 ## Subórdenes
 
-Cada suborden se describe en su página. Digi3D.AI obtiene los nombres de las opciones de las subórdenes de los recursos correspondientes al idioma de la interfaz: las páginas de las subórdenes indican el nombre con la interfaz en español y con la interfaz en inglés.
+Cada suborden se describe en su página. Digi3D.AI obtiene los nombres de las opciones de las subórdenes de los recursos correspondientes al idioma de la interfaz: las páginas de las subórdenes indican el nombre con la interfaz en español y con la interfaz en inglés. La suborden dgn es la excepción: sus nombres de opción son fijos y no cambian con el idioma.
 
 | Suborden | Descripción |
 | -------- | ----------- |
 | [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md) | Abre un archivo de dibujo binario de doble precisión (extensión .bind) |
 | [bin](/digi3d-ai/referencia/linea-de-comandos/dibujo/bin.md) | Abre un archivo de dibujo binario de precisión simple (extensión .bin) |
 | [shp](/digi3d-ai/referencia/linea-de-comandos/dibujo/shp.md) | Abre los archivos _shapefile_ del directorio especificado |
+| [dgn](/digi3d-ai/referencia/linea-de-comandos/dibujo/dgn.md) | Define las opciones del formato DGNv8 de MicroStation; actualmente no acepta la ruta del archivo ni abre la ventana de dibujo |

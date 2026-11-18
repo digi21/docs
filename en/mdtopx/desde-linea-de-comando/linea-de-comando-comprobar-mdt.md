@@ -1,6 +1,6 @@
 # Check DTM
 <!-- id: linea-de-comando-comprobar-mdt -->
-<!-- origen: 34a916f88ff633f1f48e78ca323e5fb66ea2e480 -->
+<!-- origen: 7941a775102c09b475fa9b9c404a09451bea9bae -->
 
 [Check DTM](/mdtopx/como/como-comprobar-mdt.md)
 
@@ -12,12 +12,14 @@ MDTopX [archivo de entrada] /COM
 
 The input file must be the digital model whose elevations will be checked.
 
-To configure checking, MDTop.INI must also contain the mandatory **\[Comprobar]** line followed by:
+To configure checking, MDTopX.ini must also contain the mandatory **\[Comprobar]** line followed by:
 
-* **CodError**: error marker code.
-* **FicError**: generated error file name.
-* **Equidistancia**: vertical interval in meters of the contours used to generate the digital model.
-* **Size**: error marker size in meters.
+* **CodError**: error marker code. Default: ERROR.
+* **FicError**: generated error file name. Default: ERR.BIN.
+* **Equidistancia**: vertical interval in meters of the contours used to generate the digital model. Default: 1.
+* **Size**: error marker size in meters. Default: 1.
+
+If the file omits a field, MDTopX uses the value stored in its preferences. On an installation with no stored preferences, that value is the default shown for each field.
 
 ```ini
 [Comprobar]
