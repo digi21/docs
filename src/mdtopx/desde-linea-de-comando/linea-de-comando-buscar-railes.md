@@ -13,17 +13,19 @@ Para ejecutar esta herramienta desde la línea de comando, escribe:
 MDTopX [archivo de entrada] /RAILES [formato de salida]
 ```
 
-Escribe el archivo de entrada antes de la orden.
+El archivo de entrada puede ir antes de la orden o después del formato de salida (`MDTopX /RAILES DXF via.las`). Si no escribes el formato de salida, escribe el archivo de entrada antes de la orden: MDTopX toma como formato de salida el primer argumento que sigue a **/RAILES**.
 
 ## Archivos
 
-* **Archivo de entrada**: una nube de puntos (por ejemplo, LAS o LAZ). Con un proyecto de MDTopX como archivo de entrada, MDTopX clasifica y guarda cada nube de puntos del proyecto, pero no genera el archivo de dibujo.
-* **Formato de salida**: opcional. Es una de las palabras **DXF** (AutoCAD), **DGN** (MicroStation) o **SHP** (Shape), sin distinguir mayúsculas de minúsculas. MDTopX no interpreta el argumento como un nombre de archivo. Con cualquier otro valor, o si no escribes ningún argumento, MDTopX guarda el archivo de dibujo en el formato BIN (DIGI). Si escribes varios argumentos después de la orden, MDTopX usa el último.
+* **Archivo de entrada**: una nube de puntos (por ejemplo, LAS o LAZ) o un proyecto de MDTopX que contiene nubes de puntos. Con un proyecto, MDTopX clasifica y guarda cada nube de puntos del proyecto y guarda también el archivo del proyecto.
+* **Formato de salida**: opcional. Es una de las palabras **DXF** (AutoCAD), **DGN** (MicroStation) o **SHP** (Shape), sin distinguir mayúsculas de minúsculas. MDTopX no interpreta el argumento como un nombre de archivo. Con cualquier otro valor, o si no escribes ningún argumento, MDTopX guarda el archivo de dibujo en el formato BIN (DIGI). MDTopX toma como formato de salida solo el primer argumento que sigue a la orden.
 
 La orden produce estos resultados:
 
 1. MDTopX guarda la clasificación de los puntos en el archivo de entrada.
-2. MDTopX crea un archivo de dibujo con los límites y el eje de los raíles. El nombre del archivo es el texto «Raíles de » seguido del nombre del archivo de entrada sin extensión, con la extensión del formato de salida (BIN, DXF, DGN o SHP). MDTopX crea el archivo en la carpeta del archivo de entrada. El texto «Raíles de » depende del idioma de MDTopX: en inglés es «Railways of ».
+2. MDTopX crea un archivo de dibujo con los límites y el eje de los raíles, si el dibujo contiene algún objeto. El nombre del archivo es el texto «Raíles de » seguido del nombre del archivo de entrada sin extensión, con la extensión del formato de salida (BIN, DXF, DGN o SHP). MDTopX crea el archivo en la carpeta del archivo de entrada; con un proyecto, en la carpeta del archivo del proyecto y con el nombre del proyecto en lugar del nombre de la nube. El texto «Raíles de » depende del idioma de MDTopX: en inglés es «Railways of ».
+
+MDTopX no sobrescribe un archivo de dibujo existente al generar el dibujo de los raíles: si ya existe `Raíles de via.dxf`, escribe `Raíles de via (2).dxf`; si también existe, escribe `Raíles de via (3).dxf`, y así sucesivamente.
 
 Por ejemplo, con la nube `via.las` y el formato **DXF**, MDTopX crea `Raíles de via.dxf`.
 
@@ -31,7 +33,7 @@ La orden [/LINEASRAIL](/mdtopx/desde-linea-de-comando/linea-de-comando-buscar-li
 
 ## Licencia
 
-MDTopX termina sin ejecutar la orden si no encuentra la licencia de MDTopX. Con esa licencia, MDTopX calcula la clasificación y los límites, pero solo guarda el archivo de entrada y el archivo de dibujo si el equipo tiene la licencia del [módulo MMS](/mdtopx/modulo-mms/). Sin la licencia del módulo MMS, MDTopX cierra los documentos sin guardar y la orden no modifica ni crea ningún archivo.
+MDTopX termina sin ejecutar la orden si no encuentra la licencia de MDTopX. Con esa licencia, MDTopX calcula la clasificación y los límites, pero solo guarda el archivo de entrada y el archivo de dibujo si el equipo tiene la licencia del [módulo MMS](/mdtopx/modulo-mms/). Sin la licencia del módulo MMS, MDTopX escribe en el archivo MDTopX.LOG que no puede guardar, cierra los documentos sin guardar y la orden no modifica ni crea ningún archivo.
 
 ## Configuración en MDTopX.ini
 

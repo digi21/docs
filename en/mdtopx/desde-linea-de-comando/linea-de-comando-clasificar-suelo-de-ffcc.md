@@ -1,6 +1,6 @@
 # Classify railway ground
 <!-- id: linea-de-comando-clasificar-suelo-de-ffcc -->
-<!-- origen: 7a2785a5cad548aad06049e627cac13a8cd4c0c8 -->
+<!-- origen: 69c796018c84052bc3b182e1d5cf8ed8fbfcc234 -->
 
 [Classify railway ground](/mdtopx/modulo-mms/ffcc/clasificar-suelo-de-ffcc.md)
 
@@ -12,12 +12,12 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /SUELOFFCC
 ```
 
-Enter the input file before the command.
+The input file can come before or after **/SUELOFFCC** (`MDTopX /SUELOFFCC via.las`). The command takes no arguments.
 
 ## Files
 
 * **Input file**: a point cloud (for example, LAS or LAZ) or an MDTopX project that contains point clouds.
-* **Output file**: this command has no output file, and MDTopX ignores any argument entered after **/SUELOFFCC**. MDTopX saves the classification in the input file itself. If the input file is a project, MDTopX saves each point cloud in the project after classifying it.
+* **Output file**: this command has no output file and takes no arguments. If you enter a second file on the command line, MDTopX ignores it. MDTopX saves the classification in the input file itself. If the input file is a project, MDTopX saves each point cloud in the project after classifying it.
 
 ## Differences from /SUELOVIAL
 

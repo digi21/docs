@@ -1,6 +1,6 @@
 # bin
 <!-- id: bin-2 -->
-<!-- origen: 389c52e5c35ebef133435d2242ed3c1ddd6f8c61 -->
+<!-- origen: aff148d9c1eff3c6282591a3cdc0f154d0e4ecb1 -->
 
 The bin subcommand specifies that the drawing file to open is single-precision binary (extension .bin).
 

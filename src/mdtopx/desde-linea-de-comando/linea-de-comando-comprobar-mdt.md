@@ -9,7 +9,7 @@ Para ejecutar esta herramienta desde la línea de comando se deberá escribir la
 MDTopX [archivo de entrada] /COM
 ```
 
-El archivo de entrada deberá ser un archivo de modelo digital, del cual se comprobará su altimetría.
+El archivo de entrada deberá ser un archivo de modelo digital, del cual se comprobará su altimetría. La orden no toma argumentos y el archivo de entrada puede ir antes o después de `/COM`.
 
 Además de esta secuencia y para configurar el modo de comprobación, en el archivo MDTopX.ini debería haber una línea obligatoria con el texto **\[Comprobar]** y a continuación los campos siguientes:
 

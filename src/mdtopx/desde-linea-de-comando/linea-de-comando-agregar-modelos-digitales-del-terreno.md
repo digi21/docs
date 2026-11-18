@@ -7,7 +7,7 @@ Para ejecutar esta herramienta desde la línea de comando se deberá escribir la
 MDTopX [archivo de entrada] /AGREGA [archivo 1 a agregar] [archivo 2 a agregar] o [archivo n a agregar]
 ```
 
-El archivo de entrada deberá ser un archivo de modelo digital, el cual se procederá a modificar añadiendo el resto de archivos.
+El archivo de entrada deberá ser un archivo de modelo digital, el cual se procederá a modificar añadiendo el resto de archivos. MDTopX toma como archivos a agregar todos los argumentos que siguen a `/AGREGA`, así que escribe el archivo de entrada antes de la orden.
 
 Además de esta secuencia y para configurar el modo de suma de los modelos, en el archivo MDTopX.ini debería haber una línea obligatoria con el texto **\[Preferencias]** y a continuación el campo siguiente. Si el idioma de la interfaz de MDTopX es el inglés, el nombre de la sección es **\[Preferences]**:
 

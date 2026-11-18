@@ -1,6 +1,6 @@
 # Find rail lines
 <!-- id: linea-de-comando-buscar-lineas-de-rail -->
-<!-- origen: 7e98921809f51b78e9b189dc809ea32b429495d9 -->
+<!-- origen: 60640c48ef658cc5bc2715e90aaa88983e236d82 -->
 
 [Find rail lines](/mdtopx/modulo-mms/ffcc/buscar-lineas-de-rail.md)
 
@@ -14,12 +14,12 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /LINEASRAIL [formato de salida]
 ```
 
-Enter the input file before the command.
+The input file can come before the command or after the output format (`MDTopX /LINEASRAIL DXF via.las`). If you do not enter the output format, enter the input file before the command: MDTopX takes the first argument that follows **/LINEASRAIL** as the output format.
 
 ## Files
 
 * **Input file**: a point cloud (for example, LAS or LAZ) or an MDTopX project that contains point clouds.
-* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing files in BIN (DIGI) format. If you enter several arguments after the command, MDTopX uses the last one.
+* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing files in BIN (DIGI) format. MDTopX takes only the first argument that follows the command as the output format.
 
 The command produces these files:
 
@@ -28,6 +28,9 @@ The command produces these files:
 3. **ASCII cross profile file**: if **Transversales** is 1, MDTopX writes a text file with the cross profiles. Its name is the value of **FicheroTransv**. If **FicheroTransv** does not include a folder, MDTopX creates it in the folder of the input file. MDTopX writes this file even if the computer does not have the MMS module license.
 4. **Profiles of cloud.ext**: drawing file with the longitudinal profile of the axis. MDTopX creates it only if **DibujoLongitudinal** is 1 and cross profiles are active. The text "Perfiles de " in Spanish is "Profiles of " in English.
 5. **Cross sections of cloud.ext**: drawing file with the cross profiles. MDTopX creates it only if **DibujoTransversales** is 1 and cross profiles are active. MDTopX gives the name without a folder, so the operating system creates the file in the MDTopX working directory. The text "Transversales de " in Spanish is "Cross sections of " in English.
+6. **Path of project.VIA**: road file with the alignment that MDTopX calculates. MDTopX creates it only with a project as the input file, in the folder of the project file and with the MMS module license. The text "Trazado de " in Spanish is "Path of " in English.
+
+MDTopX does not overwrite the **Railways of**, **Profiles of** or **Path of** files: if `Railways of via.dxf` already exists, it writes `Railways of via (2).dxf`; if that also exists, it writes `Railways of via (3).dxf`, and so on.
 
 For example, with the cloud `via.las` and the **DXF** format, MDTopX creates `Railways of via.dxf` when MDTopX runs in English and `Raíles de via.dxf` when it runs in Spanish.
 
@@ -56,7 +59,7 @@ To configure the calculation, MDTopX.ini must contain the **\[Railes]** line fol
 * **Railes**: 0 or 1. With 1, MDTopX calculates the rail lines. Default: 1.
 * **OtrosRailes**: 0 or 1. With 1, MDTopX calculates the lines of other rails the vehicle did not pass along. Default: 1.
 * **Tunel**: 0 or 1. With 1, MDTopX calculates the tunnel lines. Default: 1.
-* **Andes**: 0 or 1. With 1, MDTopX calculates the platform lines. The name of the key MDTopX reads is **Andes**, not "Andenes". Default: 1.
+* **Andenes**: 0 or 1. With 1, MDTopX calculates the platform lines. MDTopX also reads the previous name of the key, **Andes**, if the section does not contain **Andenes**. Default: 1.
 * **Pared**: 0 or 1. With 1, MDTopX calculates the wall lines. Default: 1.
 * **Traviesas**: 0 or 1. With 1, MDTopX calculates the sleepers. Default: 1.
 * **EjeRailes**: 0 or 1. With 1, MDTopX calculates the axis of each rail. With a point cloud as the input file, MDTopX replaces the value with 0 and calculates the axis from the rails; with a project as the input file, MDTopX respects the value of the key. Default: 1.
@@ -114,7 +117,7 @@ DistanciaMax = 0.1
 Railes = 1
 OtrosRailes = 1
 Tunel = 1
-Andes = 1
+Andenes = 1
 Pared = 1
 Traviesas = 1
 EjeTrazado = 1

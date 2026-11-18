@@ -1,6 +1,6 @@
 # Drawing
 <!-- id: dibujo -->
-<!-- origen: c5084d7a4ea23cc7109598b1c54de5ceb0875679 -->
+<!-- origen: dc1391f9b0d1d256ceda5038dd848599ba01509e -->
 
 Opens a drawing window.
 
@@ -23,11 +23,11 @@ Specifying an option overrides its default value. When it opens the drawing wind
 
 ## Subcommands
 
-Each subcommand is described on its own page. Digi3D.AI obtains the names of the subcommand options from the resources for the interface language: the subcommand pages give the name with the English interface and with the Spanish interface. The dgn subcommand is the exception: its option names are fixed and do not change with the language.
+Each subcommand is described on its own page. Digi3D.AI obtains the names of the subcommand options from the resources for the interface language: the subcommand pages give the name with the English interface and with the Spanish interface. The dgn subcommand is the exception: the names of its options, except the positional option, are fixed and do not change with the language.
 
 | Subcommand | Description |
 | --- | --- |
 | [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md) | Opens a double-precision binary drawing file (extension .bind) |
 | [bin](/digi3d-ai/referencia/linea-de-comandos/dibujo/bin.md) | Opens a single-precision binary drawing file (extension .bin) |
 | [shp](/digi3d-ai/referencia/linea-de-comandos/dibujo/shp.md) | Opens the _shapefiles_ of the specified directory |
-| [dgn](/digi3d-ai/referencia/linea-de-comandos/dibujo/dgn.md) | Defines the options for MicroStation DGNv8 files; currently accepts no file path and does not open the drawing window |
+| [dgn](/digi3d-ai/referencia/linea-de-comandos/dibujo/dgn.md) | Opens a MicroStation DGNv8 drawing file (extension .dgn) |

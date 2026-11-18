@@ -1,6 +1,6 @@
 # Profiles
 <!-- id: linea-de-comando-perfiles -->
-<!-- origen: e59a1f0c6741979d80073c34631780aa500a6924 -->
+<!-- origen: 0d4fc4e2220d5cc7be84dcef122fb278e0222739 -->
 
 [Profiles](/mdtopx/como/como-perfiles.md)
 
@@ -10,7 +10,7 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /PER [archivo de salida]
 ```
 
-The input file must be the digital model onto which profiles will be projected.
+The input file must be the digital model onto which profiles will be projected. The command does not open the profiles dialog box: it uses the values of the **\[Perfiles]** section. It does not calculate the envelope of the profiles or the 3D profiles, and with a DEM file it does not calculate the volume of the alignment. If **Transversal\_FicAlzado** or **Transversal\_FicInforme** does not include a folder, MDTopX creates that file in the folder of the file that **Traza** indicates.
 
 The output file specifies where to save longitudinal profiles. Its extension determines the format: BIN (DIGI), DXF (AutoCad) or DGN (MicroStation).
 

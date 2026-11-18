@@ -1,12 +1,62 @@
 # From the command line
 <!-- id: desde-linea-de-comando -->
-<!-- origen: 37095eb501d32e4b65fd0711c9930e975c005d2d -->
+<!-- origen: bb6d363b7f879976e39245fdddd034f10201e2cf -->
 
 MDTopX runs from the command line with parameters configuring the calculation. MDTopX calculation tools require the MDTopX.ini configuration file, an ASCII file with the configuration options. MDTopX looks for MDTopX.ini in the input file folder; if you specify the input file without a path, MDTopX looks for MDTopX.ini in the current working directory.
 
-When running a calculation tool from the command line, MDTopX opens its window minimized.
+When you run a command from the command line, MDTopX opens its window minimized, runs the command and ends the process. The `/REF` and `/DEM` commands are the exception: they open the input file in the MDTopX interface, with the window at its normal size, and the process keeps running until the user closes MDTopX.
 
 If you write on the command line only the name of a file that MDTopX can open, without any tool, MDTopX starts and opens that file.
+
+## Input file and command arguments
+
+These rules apply to all the commands on this page except `/activar-equipo` and `/servidor-licencias`, which are described in their own section.
+
+* MDTopX takes as the input file the first argument that does not start with "/" or "-" and that no command consumes as its own. The input file can come before the command or after the command and its arguments: `MDTopX entrada.mdt /CUR curvas.dxf` and `MDTopX /CUR curvas.dxf entrada.mdt` give the same result.
+* Each command consumes the arguments that the table below lists, which must come immediately after the command and in the order of the table. If a command has an optional argument and you enter the input file right after it, MDTopX takes the file as that argument and the command line is left without an input file. With the commands that have an optional argument (`/SUA`, `/TRANSFORM`, `/ASFALTO`, `/RAILES`, `/LINEASVIAL` and `/LINEASRAIL`), enter the input file before the command.
+* MDTopX ignores the arguments left over after it completes those of the command when the line already has an input file. For example, a second file entered after `/COM` has no effect.
+* An argument that starts with "/" or "-" and is not an MDTopX command (for example, `/p`, `/pt`, `/dde`, `/Embedding` or `/Register`) is not taken as the input file.
+
+| Command | Arguments it consumes | If missing |
+| --- | --- | --- |
+| `/TRI`, `/CUR`, `/SOM`, `/HIP`, `/PEN`, `/ORI`, `/PER`, `/CUB`, `/REJ`, `/TRICUR`, `/TRIREJ`, `/EXPORT`, `/ACOPIOS` | One: the output file. | Error. |
+| `/PRO` | Up to two: the output file and the file to project. | Error if both are missing. |
+| `/LADO` | One: the maximum edge length in meters, greater than 0. | Error. |
+| `/DEM` | One: a file name. | Error. |
+| `/RUP` | One: the output file. | MDTopX does not check whether this argument is missing. Always specify the output file path after /RUP. |
+| `/ORIENTARNUBEARCHIVO` | One: the orientation file. | MDTopX does not check whether this argument is missing. Always specify the orientation file path after /ORIENTARNUBEARCHIVO. |
+| `/SUA`, `/TRANSFORM` | One, optional: the output file. | MDTopX saves the result in the input file. |
+| `/ASFALTO`, `/RAILES`, `/LINEASVIAL`, `/LINEASRAIL` | One, optional: the format of the drawing file (`DXF`, `DGN` or `SHP`). | MDTopX saves the drawing file in BIN (DIGI) format. |
+| `/REF` and the command that adds digital terrain models | All the arguments that follow it, as a list of files. | The input file must come before the command. |
+| `/ORTOFOTO` | One: a file name. The command is not available. | None. |
+| `/COM`, `/TRICOM`, `/MAGIC`, `/SUELOVIAL`, `/SUELOFFCC`, `/FILTRADO`, `/ORIENTARNUBE` | None. | None. |
+
+## Commands without their required arguments
+
+If an argument that the table marks as an error is missing, MDTopX writes to the MDTopX.LOG file the message "La orden /ORDEN tiene argumentos obligatorios ausentes o no válidos. MDTopX termina sin procesar el archivo." (with MDTopX in English, "The /ORDEN command has missing or invalid required arguments. MDTopX ends without processing the file.") and ends without opening any file.
+
+## Warnings and errors: the MDTopX.LOG file
+
+With any command except `/REF` and `/DEM`, MDTopX shows no warning or error message boxes. It writes the warnings and the errors to the MDTopX.LOG file, together with the progress of the calculation. This includes the license warnings at startup (end of technical support, end of the rental period and protection key not found), the file read and save errors and the messages of each command. MDTopX also does not show the new version notice.
+
+* MDTopX creates MDTopX.LOG in the folder of the input file, next to MDTopX.ini; if the input file has no path, it creates it in the working directory. If MDTopX.LOG already exists, MDTopX appends the messages to it. When command execution starts, MDTopX writes the date, the command, the input file and the output file.
+* If MDTopX cannot create MDTopX.LOG (for example, because it cannot write to the folder), it writes each message to the standard error output of the process, if the process has one (for example, redirected with `2>`), or, if it does not, to the console of the process that started MDTopX. If neither exists, MDTopX does not write the message.
+* The ASCII import and export option dialog boxes (.shp, .kml and point cloud) are not shown. For ASCII import, MDTopX uses the columns, separators and initial lines saved in its configuration if they fit the first lines of the file and, if they do not fit, it detects the format automatically. For export, it uses the values that the dialog boxes would show. MDTopX.LOG records the UTM zone and hemisphere that MDTopX uses when it saves a .kml file, and that lines are not saved when a drawing with lines is saved as LAS, LAZ or PTS.
+
+## License
+
+The `/ACOPIOS`, `/FILTRADO`, `/ORIENTARNUBE` and `/ORIENTARNUBEARCHIVO` commands work without the MDTopX license: MDTopX does not check it at startup or before saving the result in the input file, and it shows no license warnings. The page of each command states the license that MDTopX requires to save the file. With the other commands, if MDTopX does not find the MDTopX license, it writes "Licencia no válida" (in English, "Invalid license") to MDTopX.LOG (with `/REF` and `/DEM`, it shows it in a message box) and ends without running the command. Saving the result of some commands also requires another license module.
+
+## Names of the result files
+
+MDTopX does not overwrite the results whose name it builds. These results are the drawing files of the `/ASFALTO`, `/RAILES`, `/LINEASVIAL` and `/LINEASRAIL` commands (for example, "Asfalto de ", "Marcas viales de ", "Raíles de " and "Perfiles de " followed by the name of the input file or of the project, without extension) and the alignment file with the VIA extension. MDTopX checks the name with its extension. If `Raíles de via.dxf` already exists, MDTopX writes `Raíles de via (2).dxf`; if that also exists, it writes `Raíles de via (3).dxf`, and so on.
+
+* The output files whose name you enter on the command line (for example, the one of `/CUR`) are written with that name.
+* If MDTopX does not recognize the format of the file with which it saves a drawing, it saves the drawing in DIGI format in `<name without extension>.BIN`, or in `<name without extension> (2).BIN` if the first exists, and writes to MDTopX.LOG the original path and the path it used.
+
+## MDTopX.ini and the user configuration
+
+With a command that has no interface, MDTopX reads MDTopX.ini only for that run. When it ends, it does not save to the user configuration the values read from MDTopX.ini or the export options, so the interface later opens with the same values it had before the command ran. The command pages that mention "the value saved in the user configuration" refer to the value that the user accepted in the interface dialog box.
 
 ## Calculation tools
 
@@ -37,7 +87,7 @@ These tools also read the MDTopX.ini file:
 
 ## Point cloud tools
 
-These tools also read the MDTopX.ini file. Without the MDTopX license key, MDTopX runs only /ACOPIOS, /FILTRADO and /ORIENTARNUBE; the other tools end without running. Saving the result of some tools requires another license module; each page says so.
+These tools also read the MDTopX.ini file. Without the MDTopX license, MDTopX runs only `/ACOPIOS`, `/FILTRADO`, `/ORIENTARNUBE` and `/ORIENTARNUBEARCHIVO`; the other tools end without running (see [License](#license)). Saving the result of some tools requires another license module; each page says so.
 
 * [Coordinate transformation](/mdtopx/desde-linea-de-comando/linea-de-comando-transformacion.md): transforms the coordinates of a drawing file, a point cloud or a TIN (`/TRANSFORM`).
 * [Magic Surface](/mdtopx/desde-linea-de-comando/linea-de-comando-superficie-magica.md): automatically classifies the points of a LiDAR point cloud (`/MAGIC`).
@@ -50,6 +100,18 @@ These tools also read the MDTopX.ini file. Without the MDTopX license key, MDTop
 * [Filter points](/mdtopx/desde-linea-de-comando/linea-de-comando-filtrar-puntos.md): reduces the density of a point cloud with a configurable grid step and saves the result in the same file (`/FILTRADO`).
 * [Stockpile volume calculation](/mdtopx/desde-linea-de-comando/linea-de-comando-acopios.md): classifies an indoor point cloud of a warehouse and calculates the volume of its stockpiles, by zone or for the whole cloud (`/ACOPIOS`).
 * [Orient a point cloud against another point cloud](/mdtopx/desde-linea-de-comando/linea-de-comando-orientar-nube-contra-nube.md): orients a disoriented point cloud against the point cloud of a theoretical model and saves the transformation in a text file (`/ORIENTARNUBE`).
+* [Orient a point cloud with an orientation file](/mdtopx/desde-linea-de-comando/linea-de-comando-orientar-nube-contra-nube.md#orient-with-an-orientation-file): applies the transformation stored in an orientation file to a point cloud and saves the modified cloud in the input file (`/ORIENTARNUBEARCHIVO`).
+
+## Other commands
+
+`/LADO` has its own page; the other commands in this list are described here.
+
+* [Delete triangles by edge length](/mdtopx/desde-linea-de-comando/linea-de-comando-borrar-triangulos-por-longitud-de-lado.md): deletes the triangles of a digital model that have any edge longer than a given length and saves the model in the same file (`/LADO`).
+* `/SUA`: smooths a grid digital model (DEM file) with the [Smoothing](/mdtopx/modulo-virtualand/suavizado.md) tool and saves the smoothed DEM in the output file or, if you enter none, in the input file. To configure the smoothing, add to MDTopX.ini the **\[SuavizadoDEM]** section, with the keys **Ferguson**, **BSpline** and **Rupturas** (0 or 1; default: 0) and **Suavizado** (smoothing level, from 1 to 10; default: 10). These keys correspond to the fields of the Smoothing dialog box. If a key does not exist, MDTopX uses the value saved in the user configuration.
+* `/REF`: opens the input file in the interface. MDTopX accepts a list of files after the command, but it does not load them as reference files: the current version of MDTopX has no function that receives that request. Enter the input file before the command.
+* `/DEM`: opens the input file in the interface. The command requires an argument; MDTopX records it as the output file in MDTopX.LOG, but it does not write any file with that name.
+* `/ORTOFOTO`: is not available from the command line. MDTopX writes to MDTopX.LOG the message "La orden /ORTOFOTO no se puede ejecutar desde la línea de comando. MDTopX termina sin procesar el archivo." (with MDTopX in English, "The /ORTOFOTO command cannot be run from the command line. MDTopX ends without processing the file.") and ends without opening any file.
+
 ## Software license commands
 
 These commands do not read the MDTopX.ini file and run no calculation tool. They show no windows, do not open the MDTopX interface and end the `MDTopX.exe` process with an exit code that indicates the result. They are written with a leading slash and are not case-sensitive:

@@ -1,6 +1,6 @@
 # Triangulation and DTM check
 <!-- id: linea-de-comando-triangulacion-y-comprobar-mdt -->
-<!-- origen: a29c421e5e16348d946192bc33278199f0d8827e -->
+<!-- origen: 3a1aaf85fce3ebc5ee03a50f4d4b56b8d75c39a1 -->
 
 [Triangulation](/mdtopx/como/como-triangulacion.md) and [Check DTM](/mdtopx/como/como-comprobar-mdt.md)
 
@@ -12,7 +12,7 @@ MDTopX [archivo de entrada] /TRICOM
 
 The input file is a drawing file with topographic or mapping information, as in the [Triangulation](/mdtopx/desde-linea-de-comando/linea-de-comando-triangulacion.md) tool. With any other file type, the command has no effect.
 
-This command does not use an output file. MDTopX accepts a second file name on the command line but ignores it. The error file is named as indicated by the **FicError** key of the **\[Comprobar]** section. MDTopX saves it in BIN (DIGI) format, regardless of the extension.
+This command does not use an output file or take arguments: the input file can come before or after `/TRICOM`. MDTopX accepts a second file name on the command line but ignores it. The error file is named as indicated by the **FicError** key of the **\[Comprobar]** section. MDTopX saves it in BIN (DIGI) format, regardless of the extension.
 
 License: the tool requires the MDTopX license; without it, MDTopX exits without running the command.
 

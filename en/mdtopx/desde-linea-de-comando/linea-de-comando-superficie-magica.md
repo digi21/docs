@@ -1,6 +1,6 @@
 # Magic Surface
 <!-- id: linea-de-comando-superficie-magica -->
-<!-- origen: 160ecebf07f50b355cc1b7a1aab3f209c097c89f -->
+<!-- origen: 7a34982d26b24f2d6d9dd3e0f31273d5d73f372c -->
 
 [Magic Surface](/mdtopx/modulo-laser/buscar-puntos/superficie-magica/)
 
@@ -12,7 +12,7 @@ MDTopX [input file] /MAGIC
 
 ## Files
 
-The tool has no output file. MDTopX takes the first string on the command line that is not an option (an option starts with `/` or `-`) as the input file; that string can come before or after `/MAGIC`.
+The tool has no output file. MDTopX takes the first string on the command line that is not an option (an option starts with `/` or `-`) as the input file; that string can come before or after `/MAGIC`, which takes no arguments.
 
 * **Point cloud file**: MDTopX classifies the points of the cloud and saves the result in the same file. If the cloud has objects, MDTopX saves them in the file with the OBJ extension next to the cloud.
 * **Project**: MDTopX classifies the point cloud files of the project one by one and saves each classified file. When it classifies a file, MDTopX also uses the points of the neighboring files that are near its edge and does not save those points in the file. MDTopX saves each cloud's objects in an OBJ file in the same folder as the point cloud file.

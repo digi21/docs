@@ -1,6 +1,6 @@
 # Stockpile volume calculation
 <!-- id: linea-de-comando-acopios -->
-<!-- origen: c3f8aa68263fe87e00c3a4f0c78ec7a5a8bedd04 -->
+<!-- origen: 26c248b45ac316a3748387eb1e5c8559de81a1a6 -->
 
 The `/ACOPIOS` tool classifies the points of a point cloud captured inside an industrial building (for example, a SLAM scan, *Simultaneous Localization and Mapping*) and calculates the volume of the material stockpiles on the ground. It performs the same calculation as the one described in [Stockpile volumes](/mdtopx/programacion/python/mdtopx-acopios.md), in the Python programming section.
 
@@ -15,7 +15,7 @@ Enter the full path of both files. MDTopX looks for MDTopX.ini in the folder of 
 ## Files
 
 * **Input file**: point cloud with LAS classification, for example a LAS or LAZ file. MDTopX classifies the points and saves the classified cloud in this same file, so it overwrites the original. Work on a copy if you need to keep the unclassified cloud.
-* **Output file**: drawing file with the result of the volume calculation. It is required: if you do not enter it, MDTopX does not read MDTopX.ini and calculates with the values saved in the user configuration. MDTopX saves this file in DIGI (BIN) format with any extension you enter; unlike the [Contouring](/mdtopx/desde-linea-de-comando/linea-de-comando-curvado.md) tool, the extension does not select DXF or DGN.
+* **Output file**: drawing file with the result of the volume calculation. It is required: if you do not enter it, MDTopX writes an error to the MDTopX.LOG file and ends without calculating. MDTopX saves this file in DIGI (BIN) format with any extension you enter; unlike the [Contouring](/mdtopx/desde-linea-de-comando/linea-de-comando-curvado.md) tool, the extension does not select DXF or DGN.
 
 The classification that MDTopX writes to the input file uses these LAS classification codes: 2 (ground), 3 (stockpile), 4 (high point), 5 (wall), 6 (roof) and 7 (noise). Points that MDTopX does not classify remain in class 1 (unclassified).
 
@@ -23,7 +23,7 @@ MDTopX records the progress of the calculation in the MDTopX.LOG file, which it 
 
 ## License
 
-This tool does not require the MDTopX license: before running it, MDTopX does not check for a MDTopX license (hardware dongle or software license). /ACOPIOS, /FILTRADO and /ORIENTARNUBE do not check for the MDTopX license at startup.
+This tool does not require the MDTopX license: before running it, MDTopX does not check for a MDTopX license (hardware dongle or software license). /ACOPIOS, /FILTRADO, /ORIENTARNUBE and /ORIENTARNUBEARCHIVO do not check for the MDTopX license at startup or before saving the result, and they show no license warnings.
 
 ## Result
 
@@ -44,7 +44,7 @@ To configure the calculation, MDTopX.ini must have a line with the text **\[Clas
 * **NombreRelacionZonasMaterial**: path of a text file that relates each zone to a material. It is optional, and MDTopX uses it only if **NombreMateriales** specifies a file with at least one material. Each line contains three fields: the zone name, a description and the material name, with the same separators as the materials file. MDTopX compares the names without distinguishing uppercase from lowercase. If the material of a zone is not in the materials file, MDTopX records it in MDTopX.LOG and does not calculate the weight of that zone. Default: empty.
 * **SalidaResultados**: name of the text report with the results by zone. If you enter it without a folder, MDTopX creates it in the folder of the input file. Default: `Resultados.txt`.
 * **ClasificarAcopios**: 0 or 1. It only has an effect with **NombreDibujoZonas**. With 1, MDTopX also classifies the points of the cloud in each zone as stockpile, wall, high point, noise and ground, and calculates the volume with the points classified as stockpile. With 0, MDTopX does not perform that classification. With 1 the calculation takes longer. Default: 1.
-* **PasoMalla**: grid step, in meters, with which MDTopX classifies the cloud. Several thresholds of the calculation are multiples of this value. Enter a value greater than 0 with a decimal point: MDTopX replaces a negative value with the default, and a value of 0 causes an error in the calculation. Default: 0.1.
+* **PasoMalla**: grid step, in meters, with which MDTopX classifies the cloud. Several thresholds of the calculation are multiples of this value. Enter a value greater than 0 with a decimal point: MDTopX replaces a negative value with the default. With a value of 0, or less than the coordinate resolution of the cloud, MDTopX writes the error "Error en la distancia" (in English, "Invalid distance") to the MDTopX.LOG file and ends without classifying. Default: 0.1.
 * **DesfaseEntreDibujos**: distance in meters by which MDTopX offsets the boundaries that it obtains from the wall cloud: outward for exterior boundaries and inward for interior boundaries. It only has an effect with **NombreDibujoMuros**. MDTopX replaces a negative value with the default. Default: 0.5.
 * **Formato**: MDTopX reads this key but does not use it. The format of the output file does not depend on it.
 

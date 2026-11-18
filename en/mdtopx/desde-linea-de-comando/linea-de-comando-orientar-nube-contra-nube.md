@@ -1,6 +1,6 @@
 # Orient a point cloud against another point cloud
 <!-- id: linea-de-comando-orientar-nube-contra-nube -->
-<!-- origen: 36276e6a9c4079fbdab6922ad96bb1acabb638a2 -->
+<!-- origen: b79eb7bfda502857b34fef8b3cec6a4f8ad4e8d1 -->
 
 The `/ORIENTARNUBE` tool calculates how much a misoriented point cloud (for example, a SLAM scan, *Simultaneous Localization and Mapping*) must be rotated and moved to match the point cloud of a theoretical model of the same building, and applies that rotation and movement to the cloud.
 
@@ -10,7 +10,7 @@ To run this tool from the command line, enter:
 MDTopX [input file] /ORIENTARNUBE
 ```
 
-This tool accepts no output file argument on the command line. Enter the full path of the input file. MDTopX looks for MDTopX.ini in the folder of the input file.
+This tool accepts no output file argument on the command line. Enter the full path of the input file, which can come before or after the command. MDTopX looks for MDTopX.ini in the folder of the input file.
 
 ## Files
 
@@ -22,7 +22,7 @@ MDTopX records the progress of the calculation in the MDTopX.LOG file, which it 
 
 ## License
 
-This tool does not require the MDTopX license: before running it, MDTopX does not check for a MDTopX license (hardware dongle or software license). /ACOPIOS, /FILTRADO and /ORIENTARNUBE do not check for the MDTopX license at startup.
+This tool does not require the MDTopX license: before running it, MDTopX does not check for a MDTopX license (hardware dongle or software license). /ACOPIOS, /FILTRADO, /ORIENTARNUBE and /ORIENTARNUBEARCHIVO do not check for the MDTopX license at startup or before saving the result, and they show no license warnings.
 
 ## What MDTopX calculates
 
@@ -39,7 +39,7 @@ This tool does not require the MDTopX license: before running it, MDTopX does no
 To configure the calculation, MDTopX.ini must have a line with the text **\[UnirNubesDesorientadas]** followed by these keys. Section and key names are case-insensitive. If you omit a key or give it an empty value, MDTopX uses the value saved in the MDTopX user configuration and, if there is none, the default value. Each value accepts at most 255 characters.
 
 * **NombreDibujoDestino**: path of the file with the target point cloud. It is required. If the file does not exist or contains no points, MDTopX does not orient the input cloud. If you enter a path without a folder, MDTopX looks for it in the working directory of the process. Default: empty.
-* **DistanciaMin**: minimum length, in meters, that an outline segment must have, once fitted to a straight line, for MDTopX to keep it. Default: 0.5.
+* **DistanciaMin**: minimum length, in meters, that an outline segment must have, once fitted to a straight line, for MDTopX to keep it. Default: 0.1.
 * **DistanciaMax**: maximum distance, in meters, between two outline segments for MDTopX to join them. MDTopX also uses this value as the grid step with which it reduces the ground points of the target cloud. Default: 0.5.
 * **SizeCelda**: side, in meters, of the pixels of the outline images. Default: 0.1.
 * **GenerarSalidaConTransformacion**: 0 (do not create the transformations file) or 1 (create it). Default: 1.
@@ -47,13 +47,12 @@ To configure the calculation, MDTopX.ini must have a line with the text **\[Unir
 * **DibujoDestinoEsTeorico**: MDTopX reads this key but ignores it: with this tool it always treats the target cloud as a theoretical model with ground and walls.
 * **DibujoDestinoEstaClasificado**: MDTopX reads this key but does not use it.
 
-When MDTopX reads the user configuration (not MDTopX.ini), it assigns the saved value of **DistanciaMin** to **DistanciaMax** and the saved value of **DistanciaMax** to **DistanciaMin**. Enter both keys in MDTopX.ini so that the calculation does not depend on that configuration.
 
 ```ini
 [UnirNubesDesorientadas]
 NombreDibujoDestino = C:\Nave\Teorico.las
-DistanciaMin = 0.5
-DistanciaMax = 0.1
+DistanciaMin = 0.1
+DistanciaMax = 0.5
 SizeCelda = 0.1
 GenerarSalidaConTransformacion = 1
 NombreSalidaConTransformacion = C:\Nave\Transformaciones.txt
@@ -71,6 +70,19 @@ The transformations file is a text file with three sections. **Giro1** and **Gir
 [Giro2]
 -0.4032
 ```
+
+## Orient with an orientation file
+
+The `/ORIENTARNUBEARCHIVO` command applies to a point cloud the transformation that a transformations file stores, without calculating it. To run it, enter:
+
+```bash
+MDTopX [input file] /ORIENTARNUBEARCHIVO [orientation file]
+```
+
+* **Input file**: point cloud that you want to orient. MDTopX rotates the cloud with **Giro1**, moves it with **Traslacion** and rotates it with **Giro2**, in that order, and saves it in the same file, so it overwrites the original. Work on a copy if you need to keep the cloud without orientation. The input file can come before the command or after the orientation file.
+* **Orientation file**: text file with the format of the transformations file that `/ORIENTARNUBE` writes. MDTopX takes only the first argument that follows the command as the orientation file. Always specify the orientation file path: MDTopX does not check whether this argument is missing.
+
+No MDTopX.ini key configures this command. Like `/ORIENTARNUBE`, the command does not check the MDTopX license at startup or before saving the result.
 
 See also:
 

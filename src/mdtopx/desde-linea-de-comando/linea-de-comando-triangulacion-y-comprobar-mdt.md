@@ -11,7 +11,7 @@ MDTopX [archivo de entrada] /TRICOM
 
 El archivo de entrada es un archivo de dibujo con información topográfica o cartográfica, igual que en la herramienta [Triangulación](/mdtopx/desde-linea-de-comando/linea-de-comando-triangulacion.md). Con un archivo de otro tipo, la orden no tiene efecto.
 
-Esta orden no usa archivo de salida. MDTopX acepta un segundo nombre de archivo en la línea de comando, pero lo ignora. El archivo de errores se llama como indica la clave **FicError** de la sección **\[Comprobar]**. MDTopX lo guarda en formato BIN (DIGI), con independencia de la extensión.
+Esta orden no usa archivo de salida ni toma argumentos: el archivo de entrada puede ir antes o después de `/TRICOM`. MDTopX acepta un segundo nombre de archivo en la línea de comando, pero lo ignora. El archivo de errores se llama como indica la clave **FicError** de la sección **\[Comprobar]**. MDTopX lo guarda en formato BIN (DIGI), con independencia de la extensión.
 
 Licencia: la herramienta requiere la licencia de MDTopX; sin ella, MDTopX termina sin ejecutar la orden.
 

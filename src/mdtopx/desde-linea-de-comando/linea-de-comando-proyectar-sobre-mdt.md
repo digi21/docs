@@ -15,6 +15,8 @@ El archivo de salida será el nombre con el que se salve la proyección. El prog
 
 El archivo a proyectar es opcional. Si se escribe, MDTopX lo proyecta en lugar del archivo indicado en el campo **Entrada** de MDTopX.ini.
 
+MDTopX toma como archivo de salida y como archivo a proyectar los dos primeros argumentos que siguen a `/PRO`. El archivo de entrada puede ir antes de la orden o después de esos dos argumentos. Si omites los dos argumentos, MDTopX escribe un error en el archivo MDTopX.LOG y termina sin proyectar.
+
 Además de esta secuencia y para configurar el modo de proyección, en el archivo MDTopX.ini debería haber una línea obligatoria con el texto **\[Proyecta]** y a continuación los campos siguientes:
 
 * **Entrada**: Nombre del archivo de dibujo que se proyectará sobre el modelo digital

@@ -9,7 +9,7 @@ Para ejecutar esta herramienta desde la línea de comando, escribe la siguiente 
 MDTopX [archivo de entrada] /ORIENTARNUBE
 ```
 
-Esta herramienta no acepta un archivo de salida como argumento de la línea de comando. Escribe la ruta completa del archivo de entrada. MDTopX busca MDTopX.ini en la carpeta del archivo de entrada.
+Esta herramienta no acepta un archivo de salida como argumento de la línea de comando. Escribe la ruta completa del archivo de entrada, que puede ir antes o después de la orden. MDTopX busca MDTopX.ini en la carpeta del archivo de entrada.
 
 ## Archivos
 
@@ -21,7 +21,7 @@ MDTopX anota el desarrollo del cálculo en el archivo MDTopX.LOG, que crea en la
 
 ## Licencia
 
-Esta herramienta no exige la licencia de MDTopX: MDTopX no comprueba que haya una llave de protección o una licencia de software de MDTopX antes de ejecutarla. /ACOPIOS, /FILTRADO y /ORIENTARNUBE no comprueban la licencia de MDTopX al iniciarse.
+Esta herramienta no exige la licencia de MDTopX: MDTopX no comprueba que haya una llave de protección o una licencia de software de MDTopX antes de ejecutarla. /ACOPIOS, /FILTRADO, /ORIENTARNUBE y /ORIENTARNUBEARCHIVO no comprueban la licencia de MDTopX al iniciarse ni antes de guardar el resultado, y no muestran los avisos de licencia.
 
 ## Qué calcula MDTopX
 
@@ -38,7 +38,7 @@ Esta herramienta no exige la licencia de MDTopX: MDTopX no comprueba que haya un
 Para configurar el cálculo, MDTopX.ini debe tener una línea con el texto **\[UnirNubesDesorientadas]** y, a continuación, estas claves. Los nombres de sección y de clave no distinguen mayúsculas de minúsculas. Si omites una clave o le das un valor vacío, MDTopX usa el valor guardado en la configuración del usuario de MDTopX y, si no hay ninguno, el valor predeterminado. Cada valor admite como máximo 255 caracteres.
 
 * **NombreDibujoDestino**: ruta del archivo con la nube de puntos destino. Es obligatoria. Si el archivo no existe o no contiene puntos, MDTopX no orienta la nube de entrada. Si escribes una ruta sin carpeta, MDTopX la busca en el directorio de trabajo del proceso. Predeterminado: vacío.
-* **DistanciaMin**: longitud mínima, en metros, que debe tener un tramo de contorno, una vez ajustado a una recta, para que MDTopX lo conserve. Predeterminado: 0.5.
+* **DistanciaMin**: longitud mínima, en metros, que debe tener un tramo de contorno, una vez ajustado a una recta, para que MDTopX lo conserve. Predeterminado: 0.1.
 * **DistanciaMax**: distancia máxima, en metros, entre dos tramos de contorno para que MDTopX los una. MDTopX usa también este valor como paso de la malla con la que reduce los puntos del suelo de la nube destino. Predeterminado: 0.5.
 * **SizeCelda**: lado, en metros, de los píxeles de las imágenes de los contornos. Predeterminado: 0.1.
 * **GenerarSalidaConTransformacion**: 0 (no crear el archivo de transformaciones) o 1 (crearlo). Predeterminado: 1.
@@ -46,13 +46,11 @@ Para configurar el cálculo, MDTopX.ini debe tener una línea con el texto **\[U
 * **DibujoDestinoEsTeorico**: MDTopX lee esta clave pero la ignora: con esta herramienta siempre trata la nube destino como un modelo teórico con suelo y paredes.
 * **DibujoDestinoEstaClasificado**: MDTopX lee esta clave pero no la usa.
 
-Al leer la configuración del usuario (no MDTopX.ini), MDTopX asigna el valor guardado de **DistanciaMin** a **DistanciaMax** y el valor guardado de **DistanciaMax** a **DistanciaMin**. Escribe las dos claves en MDTopX.ini para que el cálculo no dependa de esa configuración.
-
 ```ini
 [UnirNubesDesorientadas]
 NombreDibujoDestino = C:\Nave\Teorico.las
-DistanciaMin = 0.5
-DistanciaMax = 0.1
+DistanciaMin = 0.1
+DistanciaMax = 0.5
 SizeCelda = 0.1
 GenerarSalidaConTransformacion = 1
 NombreSalidaConTransformacion = C:\Nave\Transformaciones.txt
@@ -70,6 +68,19 @@ El archivo de transformaciones es un archivo de texto con tres secciones. **Giro
 [Giro2]
 -0.4032
 ```
+
+## Orientar con un archivo de orientación
+
+La orden `/ORIENTARNUBEARCHIVO` aplica a una nube de puntos la transformación que guarda un archivo de transformaciones, sin calcularla. Para ejecutarla, escribe:
+
+```bash
+MDTopX [archivo de entrada] /ORIENTARNUBEARCHIVO [archivo de orientación]
+```
+
+* **Archivo de entrada**: nube de puntos que quieres orientar. MDTopX gira la nube con **Giro1**, la desplaza con **Traslacion** y la gira con **Giro2**, en ese orden, y la guarda en este mismo archivo, por lo que sobrescribe el original. Trabaja con una copia si necesitas conservar la nube sin orientar. El archivo de entrada puede ir antes de la orden o después del archivo de orientación.
+* **Archivo de orientación**: archivo de texto con el formato del archivo de transformaciones que escribe `/ORIENTARNUBE`. MDTopX toma como archivo de orientación solo el primer argumento que sigue a la orden. Indica siempre la ruta del archivo de orientación: MDTopX no comprueba si falta este argumento.
+
+Ninguna clave de MDTopX.ini configura esta orden. Como `/ORIENTARNUBE`, la orden no comprueba la licencia de MDTopX al iniciarse ni antes de guardar el resultado.
 
 Vea también:
 

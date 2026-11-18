@@ -9,7 +9,29 @@ MDTopX [archivo de entrada] /EXPORT [archivo de salida]
 
 El archivo de entrada deberá ser un archivo de modelo digital, el cual se procederá a exportar.
 
-El archivo de salida será el nombre con el que se salve el fichero en el nuevo formato.
+El archivo de salida será el nombre con el que se salve el fichero en el nuevo formato. La extensión del archivo de salida determina el formato:
+
+| Extensión | Formato |
+| --- | --- |
+| BIN | DIGI |
+| DXF | DXF o DXF versión 2000 o posterior |
+| ASC, TXT | ASCII |
+| DEM | DEM de VirtuaLand o GTOPO30 del USGS |
+| SGE | Servicio Geográfico del Ejército |
+| GRD | GRD de ArcInfo |
+| GRDASC | ESRI ASCII Grid (ArcGIS) |
+| MTN25 | MTN 25 |
+| LSS | LH SOCET SET |
+| DGN | DGN |
+| STL | STL binario o STL ASCII |
+| LAS | LAS |
+| LAZ | LAZ |
+| TIF, TIFF | TIF |
+| MDT | MDT, en el formato de MDTopX (con texturas, si el modelo las tiene) o en el de MDTop 2007 |
+| SHP | Shape |
+| IFC | IFC 4.1 |
+
+Si dos formatos usan la misma extensión (DXF y DXF versión 2000, DEM y GTOPO30, STL binario y STL ASCII), MDTopX exporta el formato que indica la clave **Tipo** de la sección **\[ExportarMDT]** de MDTopX.ini; si la clave no existe o indica un formato con otra extensión, MDTopX usa DXF para .DXF, DEM de VirtuaLand para .DEM y STL binario para .STL. Con la extensión MDT, MDTopX escribe el formato nativo de MDTopX, salvo que **Tipo** valga 6 (MDTop 2007). Con una extensión que la tabla no incluye, MDTopX escribe un error en el archivo MDTopX.LOG y no escribe ningún archivo. Con LAS y LAZ, MDTopX escribe los vértices del modelo, con independencia de los valores de **Limite**, **Ruptura**, **Triangulos** y **Vertices**. Con DGN, MDTopX usa el archivo semilla y la tabla BIN-DGN guardados en la configuración del usuario.
 
 Además de esta secuencia y para configurar el modo de exportación, en el archivo MDTopX.ini debería haber una línea obligatoria con el texto **\[ExportarMDT]** y a continuación los campos siguientes:
 
@@ -25,7 +47,7 @@ Además de esta secuencia y para configurar el modo de exportación, en el archi
 * **IncrX**: Separación de las columnas en metros, en caso de que el archivo de salida sea una rejilla y ésta pueda tener valores diferentes para la separación de filas y columnas: archivos ASCII, DEM, TIF y GRD de ArcInfo. Valor predeterminado: 1.
 * **IncrY**: Separación de las filas en metros, en caso de que el archivo de salida sea una rejilla y ésta pueda tener valores diferentes para la separación de filas y columnas: archivos ASCII, DEM, TIF y GRD de ArcInfo. Valor predeterminado: 1.
 * **RupturaDEM**: 0 o 1, en función de que se desee o no incluir las líneas de ruptura en la rejilla si el formato es DEM (VirtuaLand) o TIF. Valor predeterminado: 1.
-* **Tipo**: Tipo de archivo al cual se va a exportar. Puede tomar los siguientes valores. Valor predeterminado: 0.
+* **Tipo**: formato al que se exporta cuando la extensión del archivo de salida admite varios formatos, y formato del archivo MDT (valor 6: MDTop 2007). MDTopX lee esta clave solo de MDTopX.ini y no la toma de la configuración del usuario. Puede tomar los siguientes valores:
   * **0**: Archivos DIGI.
   * **2**: Archivos DXF.
   * **3**: Archivos DXF versión 2000 o posterior.
@@ -45,10 +67,11 @@ Además de esta secuencia y para configurar el modo de exportación, en el archi
   * **49**: Archivos STL binarios.
   * **50**: Archivos STL ASCII.
   * **54**: Archivos LAS.
+  * **55**: Archivos LAZ.
 
 MDTopX exporta los formatos MTN 25, Servicio Geográfico del Ejército, GRD de ArcInfo, ESRI ASCII Grid, LH SOCET SET y Shape mediante un módulo adicional. Si el módulo del formato no está instalado, la exportación devuelve un error.
 
-Si el archivo no incluye un campo, MDTopX utiliza el valor que tiene guardado en sus preferencias. En una instalación sin preferencias guardadas, ese valor es el predeterminado indicado en cada campo.
+Si el archivo no incluye un campo distinto de **Tipo**, MDTopX utiliza el valor que tiene guardado en sus preferencias. En una instalación sin preferencias guardadas, ese valor es el predeterminado indicado en cada campo. MDTopX no guarda en sus preferencias los valores de esta sección.
 
 ```ini
 [ExportarMDT]
@@ -59,7 +82,7 @@ Vertices=1
 RupturaDEM=1
 Incremento=1.000000
 Unidad=0
-Tipo=0
+Tipo=3
 IncrX=1.000000
 IncrY=1.000000
 ```

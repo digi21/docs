@@ -9,7 +9,7 @@ Para ejecutar esta herramienta desde la línea de comando se deberá escribir la
 MDTopX [archivo de entrada] /PER [archivo de salida]
 ```
 
-El archivo de entrada deberá ser un archivo de modelo digital, en el cual se proyectarán los perfiles.
+El archivo de entrada deberá ser un archivo de modelo digital, en el cual se proyectarán los perfiles. La orden no abre el cuadro de diálogo de perfiles: usa los valores de la sección **\[Perfiles]**. No calcula la envolvente de los perfiles ni los perfiles en 3D, y con un archivo DEM no cubica la traza. Si **Transversal\_FicAlzado** o **Transversal\_FicInforme** no incluye una carpeta, MDTopX crea ese archivo en la carpeta del archivo que indica **Traza**.
 
 El archivo de salida será el nombre con el que se salve los perfiles longitudinales. El programa salvará en el formato que indique la extensión: BIN (DIGI), DXF (AutoCad) o DGN (MicroStation).
 

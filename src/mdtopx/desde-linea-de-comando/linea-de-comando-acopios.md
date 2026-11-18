@@ -14,7 +14,7 @@ Escribe la ruta completa de los dos archivos. MDTopX busca MDTopX.ini en la carp
 ## Archivos
 
 * **Archivo de entrada**: nube de puntos con clasificación LAS, por ejemplo un archivo LAS o LAZ. MDTopX clasifica los puntos y guarda la nube clasificada en este mismo archivo, por lo que sobrescribe el original. Trabaja con una copia si necesitas conservar la nube sin clasificar.
-* **Archivo de salida**: archivo de dibujo con el resultado de la cubicación. Es obligatorio: si no lo escribes, MDTopX no lee MDTopX.ini y calcula con los valores guardados en la configuración del usuario. MDTopX guarda este archivo en formato DIGI (BIN) con cualquier extensión que escribas; a diferencia de la herramienta [Curvado](/mdtopx/desde-linea-de-comando/linea-de-comando-curvado.md), la extensión no selecciona DXF ni DGN.
+* **Archivo de salida**: archivo de dibujo con el resultado de la cubicación. Es obligatorio: si no lo escribes, MDTopX escribe un error en el archivo MDTopX.LOG y termina sin calcular. MDTopX guarda este archivo en formato DIGI (BIN) con cualquier extensión que escribas; a diferencia de la herramienta [Curvado](/mdtopx/desde-linea-de-comando/linea-de-comando-curvado.md), la extensión no selecciona DXF ni DGN.
 
 La clasificación que MDTopX escribe en el archivo de entrada usa estos códigos de clasificación LAS: 2 (suelo), 3 (acopio), 4 (punto alto), 5 (pared), 6 (techo) y 7 (ruido). Los puntos que no clasifica quedan en la clase 1 (sin clasificar).
 
@@ -22,7 +22,7 @@ MDTopX anota el desarrollo del cálculo en el archivo MDTopX.LOG, que crea en la
 
 ## Licencia
 
-Esta herramienta no exige la licencia de MDTopX: MDTopX no comprueba que haya una llave de protección o una licencia de software de MDTopX antes de ejecutarla. /ACOPIOS, /FILTRADO y /ORIENTARNUBE no comprueban la licencia de MDTopX al iniciarse.
+Esta herramienta no exige la licencia de MDTopX: MDTopX no comprueba que haya una llave de protección o una licencia de software de MDTopX antes de ejecutarla. /ACOPIOS, /FILTRADO, /ORIENTARNUBE y /ORIENTARNUBEARCHIVO no comprueban la licencia de MDTopX al iniciarse ni antes de guardar el resultado, y no muestran los avisos de licencia.
 
 ## Resultado
 
@@ -43,7 +43,7 @@ Para configurar el cálculo, MDTopX.ini debe tener una línea con el texto **\[C
 * **NombreRelacionZonasMaterial**: ruta de un archivo de texto que relaciona cada zona con un material. Es opcional y MDTopX solo lo usa si **NombreMateriales** indica un archivo con al menos un material. Cada línea contiene tres campos: el nombre de la zona, una descripción y el nombre del material, con los mismos separadores que el archivo de materiales. MDTopX compara los nombres sin distinguir mayúsculas de minúsculas. Si el material de una zona no está en el archivo de materiales, MDTopX lo anota en MDTopX.LOG y no calcula el peso de esa zona. Predeterminado: vacío.
 * **SalidaResultados**: nombre del informe de texto con los resultados por zona. Si lo escribes sin carpeta, MDTopX lo crea en la carpeta del archivo de entrada. Predeterminado: `Resultados.txt`.
 * **ClasificarAcopios**: 0 o 1. Solo tiene efecto con **NombreDibujoZonas**. Con 1, MDTopX clasifica además los puntos de la nube de cada zona en acopio, pared, punto alto, ruido y suelo, y calcula el volumen con los puntos clasificados como acopio. Con 0, MDTopX no hace esa clasificación. Con 1 el cálculo tarda más. Predeterminado: 1.
-* **PasoMalla**: paso de la malla, en metros, con el que MDTopX clasifica la nube. Varios umbrales del cálculo son múltiplos de este valor. Escribe un valor mayor que 0 con punto decimal: MDTopX sustituye un valor negativo por el predeterminado y un valor 0 provoca un error en el cálculo. Predeterminado: 0.1.
+* **PasoMalla**: paso de la malla, en metros, con el que MDTopX clasifica la nube. Varios umbrales del cálculo son múltiplos de este valor. Escribe un valor mayor que 0 con punto decimal: MDTopX sustituye un valor negativo por el predeterminado. Con un valor 0, o menor que la resolución de coordenadas de la nube, MDTopX escribe el error «Error en la distancia» en el archivo MDTopX.LOG y termina sin clasificar. Predeterminado: 0.1.
 * **DesfaseEntreDibujos**: distancia en metros a la que MDTopX desplaza los límites que obtiene de la nube de paredes: hacia fuera los límites exteriores y hacia dentro los límites interiores. Solo tiene efecto con **NombreDibujoMuros**. MDTopX sustituye un valor negativo por el predeterminado. Predeterminado: 0.5.
 * **Formato**: MDTopX lee esta clave pero no la usa. El formato del archivo de salida no depende de ella.
 

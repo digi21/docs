@@ -1,6 +1,6 @@
 # Coordinate transformation
 <!-- id: linea-de-comando-transformacion -->
-<!-- origen: 0176548204b4a8922fd80363b336b897b7216d13 -->
+<!-- origen: 0a4806932efd827216b49bbbcbf256ec68a096e7 -->
 
 [Coordinate transformation](/mdtopx/otras-herramientas/transformacion-de-coordenadas.md)
 
@@ -10,7 +10,7 @@ This tool transforms the coordinates of all the points in a file. To run it from
 MDTopX [input file] /TRANSFORM [output file]
 ```
 
-Enter the input file before `/TRANSFORM`. The output file is optional.
+The output file is optional. MDTopX takes the first argument that follows `/TRANSFORM` as the output file, so enter the input file before the command when you do not enter an output file.
 
 ## Files
 
@@ -18,7 +18,7 @@ The input file can be a drawing file, a point cloud or a triangulated digital mo
 
 * **Without an output file**: MDTopX overwrites the input file with the transformed coordinates, in the same format.
 * **With an output file and a drawing file or a point cloud**: MDTopX exports the result to the output file and does not modify the input file. The extension of the output file determines the format: DXF (AutoCad), DGN (MicroStation), PTS (Leica HDS), LAS, LAZ, ASC (ASCII), KML, IFC (version 4.1, if MDTopX includes that exporter), SHP (Shape), or BIN (DIGI) for any other extension.
-* **With an output file and a triangulated digital model**: MDTopX saves the transformed model in the output file, in the MDTopX digital model format. If the extension corresponds to a mesh format that MDTopX can export, such as STL, it saves the file in that format. MDTopX does not modify the input file.
+* **With an output file and a triangulated digital model**: MDTopX saves the transformed model in the output file, in the MDTopX digital model format. MDTopX also transforms the objects of the model. If the extension corresponds to a mesh format that MDTopX can export, such as STL, it saves the file in that format. MDTopX does not modify the input file.
 
 This tool requires the MDTopX module license. To save the result of a LiDAR point cloud (light detection and ranging) or a terrestrial scanner point cloud, MDTopX also requires the Laser module license. If MDTopX cannot save the file because a license is missing, it does not transform the file.
 
@@ -34,8 +34,8 @@ Data entry mode:
   * **2**: parameters saved in a file.
   * **3**: transformation grid between reference systems in NTV2 format.
   * **4**: EGM2008 geoid model, which converts ellipsoidal elevations to orthometric elevations.
-  * **5**: MDTopX shows the message "Not implemented transformation" in a message box and does not transform the file. The process stays stopped until someone closes the message box.
-  * **6**: the command line does not run the piecewise transformation of the dialog box. MDTopX handles this value as 1.
+  * **5**: transformation by a plane selected on screen. The command line cannot run it: MDTopX writes the error "Not implemented transformation" to the MDTopX.LOG file and ends without transforming the file.
+  * **6**: piecewise transformation from two sets of points, given in the **PuntosOrigen** and **PuntosDestino** keys. MDTopX runs it only with a drawing file or a point cloud. With a triangulated digital model, MDTopX writes the error "Not implemented transformation" to the MDTopX.LOG file and ends without transforming the file.
 * **Tipo**: transformation type with **TipoDatos** 0 and 1. Allowed values: 0 (2D Helmert, two dimensions), 1 (3D Helmert, three dimensions) and 4 (2D affine). Default value: 0.
 
 Transformation parameters (**TipoDatos** = 0). Rotations are written in centesimal degrees (gon; 400 gon make a full turn). The keys that each transformation type uses are:
@@ -49,6 +49,10 @@ Transformation parameters (**TipoDatos** = 0). Rotations are written in centesim
 * **DesplazamientoX**, **DesplazamientoY**, **DesplazamientoZ**: offset that MDTopX adds to each coordinate, in the units of the file. Default value: 0.
 * **GiroX**, **GiroY**, **GiroZ**: rotation angles in centesimal degrees. Default value: 0.
 * **EscalaX**, **EscalaY**, **EscalaZ**: scale factors. Default value: 1.
+
+Piecewise transformation (**TipoDatos** = 6):
+
+* **PuntosOrigen** and **PuntosDestino**: paths of two ASCII files with four columns: point number, X, Y and Z. MDTopX pairs the points of the two files by their number, ignores the points that have no pair, triangulates the common points and calculates a transformation in each triangle. If there are fewer than 3 common points, MDTopX ends with a data error. Default: empty.
 
 Tensor (**TipoDatos** = 1):
 

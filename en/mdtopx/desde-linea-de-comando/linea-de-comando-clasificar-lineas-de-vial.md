@@ -1,6 +1,6 @@
 # Classify road lines
 <!-- id: linea-de-comando-clasificar-lineas-de-vial -->
-<!-- origen: 0acc2bed59d27f7e7818debbf0ab758d8837014b -->
+<!-- origen: 463bd537dbaae8200e7b12bb088738dbded86ade -->
 
 [Classify road lines](/mdtopx/modulo-mms/trazado/clasificar-lineas-de-vial.md)
 
@@ -14,17 +14,17 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /ASFALTO [formato de salida]
 ```
 
-Enter the input file before the command.
+The input file can come before the command or after the output format (`MDTopX /ASFALTO DXF carretera.las`). If you do not enter the output format, enter the input file before the command: MDTopX takes the first argument that follows **/ASFALTO** as the output format.
 
 ## Files
 
 * **Input file**: a point cloud (for example, LAS or LAZ) or an MDTopX project that contains point clouds.
-* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing file in BIN (DIGI) format. If you enter several arguments after the command, MDTopX uses the last one.
+* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing file in BIN (DIGI) format. MDTopX takes only the first argument that follows the command as the output format.
 
 The command produces these results:
 
 1. MDTopX saves the point classification in the input file. If the input file is a project, MDTopX saves each point cloud in the project after classifying it.
-2. MDTopX creates a drawing file with the asphalt boundaries (the platform) and the road markings it calculates. The file name is the text "Asfalto de " followed by the input file name without extension, with the extension of the output format (BIN, DXF, DGN or SHP). MDTopX creates the file in the folder of the input file; with a project, in the folder of the project file. The text "Asfalto de " depends on the MDTopX language: in English it is "Asphalt of ".
+2. MDTopX creates a drawing file with the asphalt boundaries (the platform) and the road markings it calculates. The file name is the text "Asfalto de " followed by the input file name without extension, with the extension of the output format (BIN, DXF, DGN or SHP). MDTopX creates the file in the folder of the input file; with a project, in the folder of the project file. The text "Asfalto de " depends on the MDTopX language: in English it is "Asphalt of ". MDTopX does not overwrite an existing drawing file when generating the asphalt and road marking drawing: if `Asphalt of carretera.dxf` already exists, it writes `Asphalt of carretera (2).dxf`; if that also exists, it writes `Asphalt of carretera (3).dxf`, and so on.
 
 For example, with the cloud `carretera.las` and the **DXF** format, MDTopX creates `Asphalt of carretera.dxf` when MDTopX runs in English and `Asfalto de carretera.dxf` when it runs in Spanish.
 

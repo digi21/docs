@@ -67,13 +67,13 @@ Cada clase se asigna con el código que tenga en el cuadro [Códigos LiDAR](codi
 | Vegetación baja, media y alta | 3, 4 y 5 | La vegetación, según su altura sobre el suelo. |
 | Edificación | 6 | Los tejados y cubiertas. |
 | Hundidos | 7 | Los puntos muy por debajo de su entorno: errores de medida. |
-| Paredes | 12 | Las fachadas. |
-| Aéreos | 13 | Los puntos muy por encima de su entorno. |
+| Paredes | 91 | Las fachadas. |
+| Aéreos | 18 | Los puntos muy por encima de su entorno. |
 | Cables | 14 | Los conductores y cables de guarda de las líneas eléctricas. |
 | Apoyos | 15 | Las torres y postes de las líneas eléctricas. |
-| Calzada | 35 | Las calles y carreteras. |
-| Otros | 90 | Lo que no es suelo, vegetación ni edificación, como el mobiliario urbano. |
-| Vehículos | 103 | Los vehículos sobre la calzada o junto a ella. |
+| Calzada | 11 | Las calles y carreteras. |
+| Otros | 80 | Lo que no es suelo, vegetación ni edificación, como el mobiliario urbano. |
+| Vehículos | 82 | Los vehículos sobre la calzada o junto a ella. |
 | Puentes | 17 | Los tableros de los puentes y las pasarelas. |
 
 ### El suelo en lomas y cerros

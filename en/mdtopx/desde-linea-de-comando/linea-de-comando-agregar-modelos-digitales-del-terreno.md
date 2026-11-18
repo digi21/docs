@@ -1,6 +1,6 @@
 # Add digital terrain models
 <!-- id: linea-de-comando-agregar-modelos-digitales-del-terreno -->
-<!-- origen: 0377d0974d1c14154742b8e93cb6c4b9289ec9db -->
+<!-- origen: a7b39c0cc9c8736248a4900e17942c8c20c91a40 -->
 
 To run this tool from the command line, enter:
 
@@ -8,7 +8,7 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /AGREGA [archivo 1 a agregar] [archivo 2 a agregar] o [archivo n a agregar]
 ```
 
-The input file must be the digital model to modify by adding the other files.
+The input file must be the digital model to modify by adding the other files. MDTopX takes all the arguments that follow the command as the files to add, so enter the input file before the command.
 
 To configure how the models are added, MDTopX.ini must also contain the mandatory **\[Preferencias]** line followed by the field below. If the MDTopX interface language is English, the section name is **\[Preferences]**:
 

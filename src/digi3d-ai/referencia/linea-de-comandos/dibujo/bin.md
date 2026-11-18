@@ -20,9 +20,9 @@ Si especificas una de estas opciones, el valor que indiques sustituye al valor p
 | --decim | --precision | Número de decimales con los que se almacenarán las coordenadas en el archivo de dibujo | 2 |
 | --origen | --origin | Origen global: tres números (X, Y y Z) separados por espacios | 0.0 0.0 0.0 |
 
-## jjemplo
+## Ejemplo
 
-aara abrir un archivo de dibujo en formato binario de precisión simple c:\trabajo\archivo.bin con precisión de milímetros y con origen en (0, 4000000, 0) con la tabla de códigos c:\trabajo\tabla.tab.xml, con la interfaz en español:
+Ejecuta la siguiente orden para abrir un archivo de dibujo en formato binario de precisión simple c:\trabajo\archivo.bin con tres decimales y con origen en (0, 4000000, 0) con la tabla de códigos c:\trabajo\tabla.tab.xml, con la interfaz en español:
 
 ```powershell
 digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml bin c:\trabajo\archivo.bin --decim 3 --origen 0 4000000 0

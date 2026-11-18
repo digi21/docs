@@ -1,6 +1,6 @@
 # Check DTM
 <!-- id: linea-de-comando-comprobar-mdt -->
-<!-- origen: 7941a775102c09b475fa9b9c404a09451bea9bae -->
+<!-- origen: 84a41d77dddbce3f9ca46b603f39b5f6d6b5e6b8 -->
 
 [Check DTM](/mdtopx/como/como-comprobar-mdt.md)
 
@@ -10,7 +10,7 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /COM
 ```
 
-The input file must be the digital model whose elevations will be checked.
+The input file must be the digital model whose elevations will be checked. The command takes no arguments and the input file can come before or after `/COM`.
 
 To configure checking, MDTopX.ini must also contain the mandatory **\[Comprobar]** line followed by:
 

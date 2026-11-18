@@ -11,12 +11,12 @@ Para ejecutar esta herramienta desde la línea de comando, escribe:
 MDTopX [archivo de entrada] /SUELOFFCC
 ```
 
-Escribe el archivo de entrada antes de la orden.
+El archivo de entrada puede ir antes o después de **/SUELOFFCC** (`MDTopX /SUELOFFCC via.las`). La orden no toma argumentos.
 
 ## Archivos
 
 * **Archivo de entrada**: una nube de puntos (por ejemplo, LAS o LAZ) o un proyecto de MDTopX que contiene nubes de puntos.
-* **Archivo de salida**: esta orden no tiene archivo de salida, y MDTopX ignora cualquier argumento que se escriba después de **/SUELOFFCC**. MDTopX guarda la clasificación en el propio archivo de entrada. Si el archivo de entrada es un proyecto, MDTopX guarda cada nube de puntos del proyecto después de clasificarla.
+* **Archivo de salida**: esta orden no tiene archivo de salida y no toma argumentos. Si escribes un segundo archivo en la línea de comando, MDTopX lo ignora. MDTopX guarda la clasificación en el propio archivo de entrada. Si el archivo de entrada es un proyecto, MDTopX guarda cada nube de puntos del proyecto después de clasificarla.
 
 ## Diferencias con /SUELOVIAL
 

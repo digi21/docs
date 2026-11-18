@@ -1,16 +1,22 @@
 # dgn
 <!-- id: dgn-2 -->
-<!-- origen: 722170f00dd039f511a7ac7bffbc5b1e5e45ed56 -->
+<!-- origen: 67c493a5d43bd274cd8b1ef431a3ef8f1733fa83 -->
 
 The dgn subcommand specifies that the drawing file to open in the drawing window is a MicroStation DGNv8 file (with the .dgn extension).
 
 ## Required positional options
 
-This subcommand defines no positional option. In particular, it does not define the positional option that receives the path of the .dgn file, which the [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md), [bin](/digi3d-ai/referencia/linea-de-comandos/dibujo/bin.md) and [shp](/digi3d-ai/referencia/linea-de-comandos/dibujo/shp.md) subcommands do define. Without that path, Digi3D.AI cannot determine the format of the drawing file and does not open the drawing window.
+| Name | Description |
+| --- | --- |
+| path | Path of the drawing file (.dgn) to load. |
+
+With the Spanish interface, this positional option is called `ruta`.
+
+Like the [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md), [bin](/digi3d-ai/referencia/linea-de-comandos/dibujo/bin.md) and [shp](/digi3d-ai/referencia/linea-de-comandos/dibujo/shp.md) subcommands, the dgn subcommand requires this positional option. With the .dgn file path, Digi3D.AI determines the format of the drawing file and opens the drawing window; without the file path, the command line produces an error and Digi3D.AI does not open the drawing window.
 
 ## Options
 
-The names of the options and of their values are fixed literals, in Spanish: they do not change with the interface language. The values of the options that accept a list of values are not case sensitive.
+The names of the options in the table and of their values are fixed literals, in Spanish: they do not change with the interface language. Only the name of the positional option (`path` or `ruta`) depends on the language. The values of the options that accept a list of values are not case sensitive.
 
 If you specify one of the non-required options, the value you give replaces the default value of that option. Each option you do not specify takes the default value in this table, not the value saved in the user configuration.
 
@@ -34,14 +40,14 @@ The `--transformar_el_nivel_de_las_entidades_de_las_celulas` and `--importar_pal
 
 ## Example
 
-Command with the code table c:\trabajo\tabla.tab.xml, the two required options (colors of the DGN file and cells as points) and without the file path, which this subcommand does not define:
+Command that opens the drawing file c:\trabajo\plano.dgn with the code table c:\trabajo\tabla.tab.xml and the two required options (colors of the DGN file and cells as points):
 
 ```powershell
-digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn --extraer_colores_de archivo_dgn --importar_celulas_como punto
+digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn c:\trabajo\plano.dgn --extraer_colores_de archivo_dgn --importar_celulas_como punto
 ```
 
 Command that also assigns the codes according to the level and the color, and loads the cells of the file c:\trabajo\celulas.cel:
 
 ```powershell
-digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn --criterio_nivel nivel_color --extraer_celulas_de archivo_celulas_microstation --archivo_celulas c:\trabajo\celulas.cel --extraer_colores_de archivo_dgn --importar_celulas_como punto
+digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn c:\trabajo\plano.dgn --criterio_nivel nivel_color --extraer_celulas_de archivo_celulas_microstation --archivo_celulas c:\trabajo\celulas.cel --extraer_colores_de archivo_dgn --importar_celulas_como punto
 ```

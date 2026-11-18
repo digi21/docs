@@ -13,17 +13,17 @@ Para ejecutar esta herramienta desde la línea de comando, escribe:
 MDTopX [archivo de entrada] /ASFALTO [formato de salida]
 ```
 
-Escribe el archivo de entrada antes de la orden.
+El archivo de entrada puede ir antes de la orden o después del formato de salida (`MDTopX /ASFALTO DXF carretera.las`). Si no escribes el formato de salida, escribe el archivo de entrada antes de la orden: MDTopX toma como formato de salida el primer argumento que sigue a **/ASFALTO**.
 
 ## Archivos
 
 * **Archivo de entrada**: una nube de puntos (por ejemplo, LAS o LAZ) o un proyecto de MDTopX que contiene nubes de puntos.
-* **Formato de salida**: opcional. Es una de las palabras **DXF** (AutoCAD), **DGN** (MicroStation) o **SHP** (Shape), sin distinguir mayúsculas de minúsculas. MDTopX no interpreta el argumento como un nombre de archivo. Con cualquier otro valor, o si no escribes ningún argumento, MDTopX guarda el archivo de dibujo en el formato BIN (DIGI). Si escribes varios argumentos después de la orden, MDTopX usa el último.
+* **Formato de salida**: opcional. Es una de las palabras **DXF** (AutoCAD), **DGN** (MicroStation) o **SHP** (Shape), sin distinguir mayúsculas de minúsculas. MDTopX no interpreta el argumento como un nombre de archivo. Con cualquier otro valor, o si no escribes ningún argumento, MDTopX guarda el archivo de dibujo en el formato BIN (DIGI). MDTopX toma como formato de salida solo el primer argumento que sigue a la orden.
 
 La orden produce estos resultados:
 
 1. MDTopX guarda la clasificación de los puntos en el archivo de entrada. Si el archivo de entrada es un proyecto, MDTopX guarda cada nube de puntos del proyecto después de clasificarla.
-2. MDTopX crea un archivo de dibujo con los límites del asfalto (la plataforma) y las marcas viales que calcula. El nombre del archivo es el texto «Asfalto de » seguido del nombre del archivo de entrada sin extensión, con la extensión del formato de salida (BIN, DXF, DGN o SHP). MDTopX crea el archivo en la carpeta del archivo de entrada; con un proyecto, en la carpeta del archivo del proyecto. El texto «Asfalto de » depende del idioma de MDTopX: en inglés es «Asphalt of ».
+2. MDTopX crea un archivo de dibujo con los límites del asfalto (la plataforma) y las marcas viales que calcula. El nombre del archivo es el texto «Asfalto de » seguido del nombre del archivo de entrada sin extensión, con la extensión del formato de salida (BIN, DXF, DGN o SHP). MDTopX crea el archivo en la carpeta del archivo de entrada; con un proyecto, en la carpeta del archivo del proyecto. El texto «Asfalto de » depende del idioma de MDTopX: en inglés es «Asphalt of ». MDTopX no sobrescribe un archivo de dibujo existente al generar el dibujo del asfalto y las marcas viales: si ya existe `Asfalto de carretera.dxf`, escribe `Asfalto de carretera (2).dxf`; si también existe, escribe `Asfalto de carretera (3).dxf`, y así sucesivamente.
 
 Por ejemplo, con la nube `carretera.las` y el formato **DXF**, MDTopX crea `Asfalto de carretera.dxf`.
 

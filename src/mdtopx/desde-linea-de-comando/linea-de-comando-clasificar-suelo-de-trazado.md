@@ -11,12 +11,12 @@ Para ejecutar esta herramienta desde la línea de comando, escribe:
 MDTopX [archivo de entrada] /SUELOVIAL
 ```
 
-Escribe el archivo de entrada antes de la orden.
+El archivo de entrada puede ir antes o después de **/SUELOVIAL** (`MDTopX /SUELOVIAL carretera.las`). La orden no toma argumentos.
 
 ## Archivos
 
 * **Archivo de entrada**: una nube de puntos (por ejemplo, LAS o LAZ) o un proyecto de MDTopX que contiene nubes de puntos.
-* **Archivo de salida**: esta orden no tiene archivo de salida, y MDTopX ignora cualquier argumento que se escriba después de **/SUELOVIAL**. MDTopX guarda la clasificación en el propio archivo de entrada. Si el archivo de entrada es un proyecto, MDTopX guarda cada nube de puntos del proyecto después de clasificarla.
+* **Archivo de salida**: esta orden no tiene archivo de salida y no toma argumentos. Si escribes un segundo archivo en la línea de comando, MDTopX lo ignora. MDTopX guarda la clasificación en el propio archivo de entrada. Si el archivo de entrada es un proyecto, MDTopX guarda cada nube de puntos del proyecto después de clasificarla.
 
 MDTopX asigna la clase 2 (suelo) a los puntos de suelo y la clase 6 (objeto) a los puntos que clasifica como no suelo.
 

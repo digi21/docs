@@ -1,6 +1,6 @@
 # Project onto a DTM
 <!-- id: linea-de-comando-proyectar-sobre-mdt -->
-<!-- origen: c9166cd6e11dce1f1d9e096a73891a6b4e17996f -->
+<!-- origen: 49b2a909c69b2a84969155ea8062fe2316268e87 -->
 
 [Project onto a DTM](/mdtopx/como/como-proyeccion-sobre-mdt.md)
 
@@ -15,6 +15,8 @@ The input file must be the digital model onto which the file will be projected.
 The output file specifies where to save the projection. Its extension determines the format: BIN (DIGI), DXF (AutoCad) or DGN (MicroStation). If **DocResultados** is 0, MDTopX does not generate the output file.
 
 The file to project is optional. If you enter it, MDTopX projects it instead of the file specified in the **Entrada** field of MDTopX.ini.
+
+MDTopX takes the first two arguments that follow `/PRO` as the output file and the file to project. The input file can come before the command or after those two arguments. If you omit both arguments, MDTopX writes an error to the MDTopX.LOG file and ends without projecting.
 
 To configure projection, MDTopX.ini must also contain the mandatory **\[Proyecta]** line followed by:
 

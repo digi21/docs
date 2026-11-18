@@ -1,6 +1,6 @@
 # Classify alignment ground
 <!-- id: linea-de-comando-clasificar-suelo-de-trazado -->
-<!-- origen: 88c9515953c0296f5717d88edd4d8e7b9a38e9e8 -->
+<!-- origen: 24442b15317491c9f9c962f1b1509a3959b6255e -->
 
 [Classify alignment ground](/mdtopx/modulo-mms/trazado/clasificar-suelo-de-trazado.md)
 
@@ -12,12 +12,12 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /SUELOVIAL
 ```
 
-Enter the input file before the command.
+The input file can come before or after **/SUELOVIAL** (`MDTopX /SUELOVIAL carretera.las`). The command takes no arguments.
 
 ## Files
 
 * **Input file**: a point cloud (for example, LAS or LAZ) or an MDTopX project that contains point clouds.
-* **Output file**: this command has no output file, and MDTopX ignores any argument entered after **/SUELOVIAL**. MDTopX saves the classification in the input file itself. If the input file is a project, MDTopX saves each point cloud in the project after classifying it.
+* **Output file**: this command has no output file and takes no arguments. If you enter a second file on the command line, MDTopX ignores it. MDTopX saves the classification in the input file itself. If the input file is a project, MDTopX saves each point cloud in the project after classifying it.
 
 MDTopX assigns class 2 (ground) to ground points and class 6 (object) to the points it classifies as non-ground.
 

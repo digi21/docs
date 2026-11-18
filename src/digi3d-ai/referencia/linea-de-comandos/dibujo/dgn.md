@@ -5,11 +5,17 @@ La suborden dgn indica que el archivo de dibujo a abrir en la ventana de dibujo 
 
 ## Opciones posicionales obligatorias
 
-Esta suborden no define ninguna opción posicional. En concreto, no define la opción posicional que recibe la ruta del archivo .dgn y que sí definen las subórdenes [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md), [bin](/digi3d-ai/referencia/linea-de-comandos/dibujo/bin.md) y [shp](/digi3d-ai/referencia/linea-de-comandos/dibujo/shp.md). Sin esa ruta, Digi3D.AI no puede determinar el formato del archivo de dibujo y no abre la ventana de dibujo.
+| Nombre | Descripción                                |
+| ------ | ------------------------------------------ |
+| ruta   | Ruta al archivo de dibujo (.dgn) a cargar. |
+
+Con la interfaz en inglés, esta opción posicional se llama `path`.
+
+Como las subórdenes [bind](/digi3d-ai/referencia/linea-de-comandos/dibujo/bind.md), [bin](/digi3d-ai/referencia/linea-de-comandos/dibujo/bin.md) y [shp](/digi3d-ai/referencia/linea-de-comandos/dibujo/shp.md), la suborden dgn exige esta opción posicional. Con la ruta del archivo .dgn, Digi3D.AI determina el formato del archivo de dibujo y abre la ventana de dibujo; sin la ruta, la línea de comandos produce un error y Digi3D.AI no abre la ventana de dibujo.
 
 ## Opciones
 
-Los nombres de las opciones y de sus valores son literales fijos en español: no cambian con el idioma de la interfaz. Los valores de las opciones que aceptan una lista de valores no distinguen mayúsculas de minúsculas.
+Los nombres de las opciones de la tabla y de sus valores son literales fijos en español: no cambian con el idioma de la interfaz. Solo el nombre de la opción posicional (`ruta` o `path`) depende del idioma. Los valores de las opciones que aceptan una lista de valores no distinguen mayúsculas de minúsculas.
 
 Si especificas una de las opciones no obligatorias, el valor que indiques sustituye al valor por defecto de esa opción. Cada opción que no especificas toma el valor por defecto de esta tabla, no el valor guardado en la configuración del usuario.
 
@@ -33,14 +39,14 @@ Las opciones `--transformar_el_nivel_de_las_entidades_de_las_celulas` e `--impor
 
 ## Ejemplo
 
-Orden con la tabla de códigos c:\trabajo\tabla.tab.xml, las dos opciones obligatorias (colores del archivo DGN y células como puntos) y sin la ruta del archivo, que esta suborden no define:
+Orden que abre el archivo de dibujo c:\trabajo\plano.dgn con la tabla de códigos c:\trabajo\tabla.tab.xml y las dos opciones obligatorias (colores del archivo DGN y células como puntos):
 
 ```powershell
-digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn --extraer_colores_de archivo_dgn --importar_celulas_como punto
+digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn c:\trabajo\plano.dgn --extraer_colores_de archivo_dgn --importar_celulas_como punto
 ```
 
 Orden que, además, asigna los códigos según el nivel y el color, y carga las células del archivo c:\trabajo\celulas.cel:
 
 ```powershell
-digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn --criterio_nivel nivel_color --extraer_celulas_de archivo_celulas_microstation --archivo_celulas c:\trabajo\celulas.cel --extraer_colores_de archivo_dgn --importar_celulas_como punto
+digi3d.exe dibujo --tabla c:\trabajo\tabla.tab.xml dgn c:\trabajo\plano.dgn --criterio_nivel nivel_color --extraer_celulas_de archivo_celulas_microstation --archivo_celulas c:\trabajo\celulas.cel --extraer_colores_de archivo_dgn --importar_celulas_como punto
 ```

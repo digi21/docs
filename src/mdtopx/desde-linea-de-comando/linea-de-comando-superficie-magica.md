@@ -11,7 +11,7 @@ MDTopX [archivo de entrada] /MAGIC
 
 ## Archivos
 
-La herramienta no tiene archivo de salida. MDTopX toma como archivo de entrada la primera cadena de la línea de comando que no es una opción (una opción empieza por `/` o `-`); esa cadena puede estar antes o después de `/MAGIC`.
+La herramienta no tiene archivo de salida. MDTopX toma como archivo de entrada la primera cadena de la línea de comando que no es una opción (una opción empieza por `/` o `-`); esa cadena puede estar antes o después de `/MAGIC`, que no toma argumentos.
 
 * **Archivo de nube de puntos**: MDTopX clasifica los puntos de la nube y guarda el resultado en el mismo archivo. Si la nube tiene objetos, MDTopX los guarda en el archivo con extensión OBJ que está junto a la nube.
 * **Proyecto**: MDTopX clasifica, uno a uno, los archivos de nube de puntos del proyecto y guarda cada archivo clasificado. Al clasificar un archivo, MDTopX usa también los puntos de los archivos vecinos que están cerca de su borde y no guarda esos puntos en el archivo. MDTopX guarda los objetos de cada nube en un archivo OBJ situado en la misma carpeta que el archivo de la nube.

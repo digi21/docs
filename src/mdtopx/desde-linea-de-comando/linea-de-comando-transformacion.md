@@ -9,7 +9,7 @@ Esta herramienta transforma las coordenadas de todos los puntos de un archivo. P
 MDTopX [archivo de entrada] /TRANSFORM [archivo de salida]
 ```
 
-Escribe el archivo de entrada antes de `/TRANSFORM`. El archivo de salida es opcional.
+El archivo de salida es opcional. MDTopX toma como archivo de salida el primer argumento que sigue a `/TRANSFORM`, así que escribe el archivo de entrada antes de la orden cuando no escribas archivo de salida.
 
 ## Archivos
 
@@ -17,7 +17,7 @@ El archivo de entrada puede ser un archivo de dibujo, una nube de puntos o un mo
 
 * **Sin archivo de salida**: MDTopX sobrescribe el archivo de entrada con las coordenadas transformadas, en el mismo formato.
 * **Con archivo de salida y un archivo de dibujo o una nube de puntos**: MDTopX exporta el resultado al archivo de salida y no modifica el archivo de entrada. La extensión del archivo de salida determina el formato: DXF (AutoCad), DGN (MicroStation), PTS (Leica HDS), LAS, LAZ, ASC (ASCII), KML, IFC (versión 4.1, si MDTopX incluye ese exportador), SHP (Shape) o BIN (DIGI) con cualquier otra extensión.
-* **Con archivo de salida y un modelo digital de triángulos**: MDTopX guarda el modelo transformado en el archivo de salida, en el formato de modelo digital de MDTopX. Si la extensión corresponde a un formato de malla que MDTopX sabe exportar, como STL, guarda el archivo en ese formato. MDTopX no modifica el archivo de entrada.
+* **Con archivo de salida y un modelo digital de triángulos**: MDTopX guarda el modelo transformado en el archivo de salida, en el formato de modelo digital de MDTopX. MDTopX transforma también los objetos del modelo. Si la extensión corresponde a un formato de malla que MDTopX sabe exportar, como STL, guarda el archivo en ese formato. MDTopX no modifica el archivo de entrada.
 
 Esta herramienta exige la licencia del módulo MDTopX. Para guardar el resultado de una nube de puntos LiDAR (detección y medición por luz láser) o de un escáner terrestre, MDTopX exige además la licencia del módulo Láser. Si MDTopX no puede guardar el archivo por falta de licencia, no transforma el archivo.
 
@@ -33,8 +33,8 @@ Modo de introducción de los datos:
   * **2**: parámetros guardados en un archivo.
   * **3**: rejilla de transformación entre sistemas de referencia en formato NTV2.
   * **4**: modelo del geoide EGM2008, que transforma cotas elipsoidales en cotas ortométricas.
-  * **5**: MDTopX muestra el mensaje «Transformación no implementada» en un cuadro de mensaje y no transforma el archivo. El proceso queda detenido hasta que alguien cierra el cuadro.
-  * **6**: la línea de comando no ejecuta la transformación a trozos del cuadro de diálogo. MDTopX trata este valor como 1.
+  * **5**: transformación por un plano seleccionado en pantalla. La línea de comando no puede ejecutarla: MDTopX escribe el error «Transformación no implementada» en el archivo MDTopX.LOG y termina sin transformar el archivo.
+  * **6**: transformación a trozos a partir de dos conjuntos de puntos, que se indican en las claves **PuntosOrigen** y **PuntosDestino**. MDTopX la ejecuta solo con un archivo de dibujo o una nube de puntos. Con un modelo digital de triángulos, MDTopX escribe el error «Transformación no implementada» en el archivo MDTopX.LOG y termina sin transformar el archivo.
 * **Tipo**: tipo de transformación con **TipoDatos** 0 y 1. Valores admitidos: 0 (Helmert 2D, de dos dimensiones), 1 (Helmert 3D, de tres dimensiones) y 4 (afín 2D). Valor predeterminado: 0.
 
 Parámetros de transformación (**TipoDatos** = 0). Los giros se escriben en grados centesimales (gon; 400 gon son una vuelta completa). Las claves que cada tipo de transformación usa son:
@@ -48,6 +48,10 @@ Parámetros de transformación (**TipoDatos** = 0). Los giros se escriben en gra
 * **DesplazamientoX**, **DesplazamientoY**, **DesplazamientoZ**: desplazamiento que MDTopX suma a cada coordenada, en las unidades del archivo. Valor predeterminado: 0.
 * **GiroX**, **GiroY**, **GiroZ**: ángulos de giro en grados centesimales. Valor predeterminado: 0.
 * **EscalaX**, **EscalaY**, **EscalaZ**: factores de escala. Valor predeterminado: 1.
+
+Transformación a trozos (**TipoDatos** = 6):
+
+* **PuntosOrigen** y **PuntosDestino**: rutas de dos archivos ASCII con cuatro columnas: número de punto, X, Y y Z. MDTopX empareja los puntos de los dos archivos por su número, ignora los que no tienen pareja, triangula los puntos comunes y calcula una transformación en cada triángulo. Si hay menos de 3 puntos comunes, MDTopX termina con un error de datos. Valor predeterminado: vacío.
 
 Tensor (**TipoDatos** = 1):
 

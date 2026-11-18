@@ -13,12 +13,12 @@ Para ejecutar esta herramienta desde la línea de comando, escribe:
 MDTopX [archivo de entrada] /LINEASVIAL [formato de salida]
 ```
 
-Escribe el archivo de entrada antes de la orden.
+El archivo de entrada puede ir antes de la orden o después del formato de salida (`MDTopX /LINEASVIAL DXF carretera.las`). Si no escribes el formato de salida, escribe el archivo de entrada antes de la orden: MDTopX toma como formato de salida el primer argumento que sigue a **/LINEASVIAL**.
 
 ## Archivos
 
 * **Archivo de entrada**: una nube de puntos (por ejemplo, LAS o LAZ) o un proyecto de MDTopX que contiene nubes de puntos.
-* **Formato de salida**: opcional. Es una de las palabras **DXF** (AutoCAD), **DGN** (MicroStation) o **SHP** (Shape), sin distinguir mayúsculas de minúsculas. MDTopX no interpreta el argumento como un nombre de archivo. Con cualquier otro valor, o si no escribes ningún argumento, MDTopX guarda los archivos de dibujo en el formato BIN (DIGI). Si escribes varios argumentos después de la orden, MDTopX usa el último.
+* **Formato de salida**: opcional. Es una de las palabras **DXF** (AutoCAD), **DGN** (MicroStation) o **SHP** (Shape), sin distinguir mayúsculas de minúsculas. MDTopX no interpreta el argumento como un nombre de archivo. Con cualquier otro valor, o si no escribes ningún argumento, MDTopX guarda los archivos de dibujo en el formato BIN (DIGI). MDTopX toma como formato de salida solo el primer argumento que sigue a la orden.
 
 La orden produce estos archivos:
 
@@ -27,6 +27,9 @@ La orden produce estos archivos:
 3. **Archivo ASCII de transversales**: si **Transversales** es 1, MDTopX escribe un archivo de texto con los transversales. Su nombre es el valor de **FicheroTransv**. Si **FicheroTransv** no incluye una carpeta, MDTopX lo crea en la carpeta del archivo de entrada. MDTopX escribe este archivo aunque el equipo no tenga la licencia del módulo MMS.
 4. **Perfiles de nube.ext**: archivo de dibujo con el perfil longitudinal del eje del asfalto. MDTopX lo crea solo si **DibujoLongitudinal** es 1 y los transversales están activos. El texto «Perfiles de » en inglés es «Profiles of ».
 5. **Transversales de nube.ext**: archivo de dibujo con los perfiles transversales. MDTopX lo crea solo si **DibujoTransversales** es 1 y los transversales están activos. MDTopX indica el nombre sin carpeta, por lo que el sistema operativo crea el archivo en el directorio de trabajo de MDTopX. El texto «Transversales de » en inglés es «Cross sections of ».
+6. **Trazado de proyecto.VIA**: archivo de vial con el trazado que MDTopX calcula. MDTopX lo crea solo con un proyecto como archivo de entrada y solo si **SzTraza** no es un archivo de vial, en la carpeta del archivo del proyecto y con la licencia del módulo MMS. El texto «Trazado de » en inglés es «Path of ».
+
+MDTopX no sobrescribe los archivos **Marcas viales de**, **Perfiles de** ni **Trazado de**: si ya existe `Marcas viales de carretera.dxf`, escribe `Marcas viales de carretera (2).dxf`; si también existe, escribe `Marcas viales de carretera (3).dxf`, y así sucesivamente.
 
 Por ejemplo, con la nube `carretera.las` y el formato **DXF**, MDTopX crea `Marcas viales de carretera.dxf`.
 

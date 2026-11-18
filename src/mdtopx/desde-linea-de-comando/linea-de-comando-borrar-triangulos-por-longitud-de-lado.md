@@ -9,7 +9,9 @@ Para ejecutar esta herramienta desde la línea de comando se deberá escribir la
 MDTopX [archivo de entrada] /LADO [máxima longitud de lado]
 ```
 
-El archivo de entrada deberá ser un archivo de modelo digital, del cual se borrarán aquellos triángulos que tengan algún lado superior al valor introducido en metros. Los resultados serán salvados en el mismo archivo.
+El archivo de entrada deberá ser un archivo de modelo digital (triangulación, extensión MDT), del cual se borrarán aquellos triángulos que tengan algún lado superior al valor introducido en metros. MDTopX guarda el modelo resultante en el archivo de entrada y sobrescribe el original: trabaja con una copia si necesitas conservarlo.
+
+La máxima longitud de lado es el único argumento que MDTopX toma después de **/LADO**. El archivo de entrada puede ir antes de la orden o después de la longitud (`MDTopX /LADO 25 entrada.mdt`). La longitud tiene que ser mayor que 0: si la omites o vale 0 o menos, MDTopX escribe un error en el archivo MDTopX.LOG y termina sin borrar ningún triángulo.
 
 Vea también:
 

@@ -1,6 +1,6 @@
 # Find road lines
 <!-- id: linea-de-comando-buscar-lineas-de-vial -->
-<!-- origen: 686da3543d09283e712fe5792da65559a5ea6327 -->
+<!-- origen: 0b868cc67619305ea73cc33a97900377e03d2af1 -->
 
 [Find road lines](/mdtopx/modulo-mms/trazado/buscar-lineas-de-vial/)
 
@@ -14,12 +14,12 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /LINEASVIAL [formato de salida]
 ```
 
-Enter the input file before the command.
+The input file can come before the command or after the output format (`MDTopX /LINEASVIAL DXF carretera.las`). If you do not enter the output format, enter the input file before the command: MDTopX takes the first argument that follows **/LINEASVIAL** as the output format.
 
 ## Files
 
 * **Input file**: a point cloud (for example, LAS or LAZ) or an MDTopX project that contains point clouds.
-* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing files in BIN (DIGI) format. If you enter several arguments after the command, MDTopX uses the last one.
+* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing files in BIN (DIGI) format. MDTopX takes only the first argument that follows the command as the output format.
 
 The command produces these files:
 
@@ -28,6 +28,9 @@ The command produces these files:
 3. **ASCII cross profile file**: if **Transversales** is 1, MDTopX writes a text file with the cross profiles. Its name is the value of **FicheroTransv**. If **FicheroTransv** does not include a folder, MDTopX creates it in the folder of the input file. MDTopX writes this file even if the computer does not have the MMS module license.
 4. **Profiles of cloud.ext**: drawing file with the longitudinal profile of the asphalt axis. MDTopX creates it only if **DibujoLongitudinal** is 1 and cross profiles are active. The text "Perfiles de " in Spanish is "Profiles of " in English.
 5. **Cross sections of cloud.ext**: drawing file with the cross profiles. MDTopX creates it only if **DibujoTransversales** is 1 and cross profiles are active. MDTopX gives the name without a folder, so the operating system creates the file in the MDTopX working directory. The text "Transversales de " in Spanish is "Cross sections of " in English.
+6. **Path of project.VIA**: road file with the alignment that MDTopX calculates. MDTopX creates it only with a project as the input file and only if **SzTraza** is not a road file, in the folder of the project file and with the MMS module license. The text "Trazado de " in Spanish is "Path of " in English.
+
+MDTopX does not overwrite the **Road markings of**, **Profiles of** or **Path of** files: if `Road markings of carretera.dxf` already exists, it writes `Road markings of carretera (2).dxf`; if that also exists, it writes `Road markings of carretera (3).dxf`, and so on.
 
 For example, with the cloud `carretera.las` and the **DXF** format, MDTopX creates `Road markings of carretera.dxf` when MDTopX runs in English and `Marcas viales de carretera.dxf` when it runs in Spanish.
 

@@ -1,6 +1,6 @@
 # Find rails
 <!-- id: linea-de-comando-buscar-railes -->
-<!-- origen: ba6764fedf3c478c5e3f47cde21f815a7820ecfb -->
+<!-- origen: 2f20e72051c61ecf33855f9bd62a6ed11d7636d0 -->
 
 [Find rails](/mdtopx/modulo-mms/ffcc/buscar-railes.md)
 
@@ -14,17 +14,19 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /RAILES [formato de salida]
 ```
 
-Enter the input file before the command.
+The input file can come before the command or after the output format (`MDTopX /RAILES DXF via.las`). If you do not enter the output format, enter the input file before the command: MDTopX takes the first argument that follows **/RAILES** as the output format.
 
 ## Files
 
-* **Input file**: a point cloud (for example, LAS or LAZ). With an MDTopX project as the input file, MDTopX classifies and saves each point cloud in the project, but it does not generate the drawing file.
-* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing file in BIN (DIGI) format. If you enter several arguments after the command, MDTopX uses the last one.
+* **Input file**: a point cloud (for example, LAS or LAZ) or an MDTopX project that contains point clouds. With a project, MDTopX classifies and saves each point cloud in the project and also saves the project file.
+* **Output format**: optional. It is one of the words **DXF** (AutoCAD), **DGN** (MicroStation) or **SHP** (Shape), case-insensitive. MDTopX does not interpret the argument as a file name. With any other value, or if you enter no argument, MDTopX saves the drawing file in BIN (DIGI) format. MDTopX takes only the first argument that follows the command as the output format.
 
 The command produces these results:
 
 1. MDTopX saves the point classification in the input file.
-2. MDTopX creates a drawing file with the boundaries and axis of the rails. The file name is the text "Raíles de " followed by the input file name without extension, with the extension of the output format (BIN, DXF, DGN or SHP). MDTopX creates the file in the folder of the input file. The text "Raíles de " depends on the MDTopX language: in English it is "Railways of ".
+2. MDTopX creates a drawing file with the boundaries and axis of the rails, if the drawing contains any object. The file name is the text "Raíles de " followed by the input file name without extension, with the extension of the output format (BIN, DXF, DGN or SHP). MDTopX creates the file in the folder of the input file; with a project, in the folder of the project file and with the project name instead of the cloud name. The text "Raíles de " depends on the MDTopX language: in English it is "Railways of ".
+
+MDTopX does not overwrite an existing drawing file when generating the rail drawing: if `Railways of via.dxf` already exists, it writes `Railways of via (2).dxf`; if that also exists, it writes `Railways of via (3).dxf`, and so on.
 
 For example, with the cloud `via.las` and the **DXF** format, MDTopX creates `Railways of via.dxf` when MDTopX runs in English and `Raíles de via.dxf` when it runs in Spanish.
 
@@ -32,7 +34,7 @@ The [/LINEASRAIL](/mdtopx/desde-linea-de-comando/linea-de-comando-buscar-lineas-
 
 ## License
 
-MDTopX ends without running the command if it does not find the MDTopX license. With that license, MDTopX calculates the classification and the boundaries, but it saves the input file and the drawing file only if the computer has the license for the [MMS module](/mdtopx/modulo-mms/). Without the MMS module license, MDTopX closes the documents without saving and the command neither modifies nor creates any file.
+MDTopX ends without running the command if it does not find the MDTopX license. With that license, MDTopX calculates the classification and the boundaries, but it saves the input file and the drawing file only if the computer has the license for the [MMS module](/mdtopx/modulo-mms/). Without the MMS module license, MDTopX writes to the MDTopX.LOG file that it cannot save, closes the documents without saving and the command neither modifies nor creates any file.
 
 ## Configuration in MDTopX.ini
 
