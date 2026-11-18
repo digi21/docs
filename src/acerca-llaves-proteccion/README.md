@@ -1,7 +1,9 @@
 # Acerca de las llaves de protección
 <!-- id: acerca-llaves-proteccion -->
 
-Todos nuestros programas requieren de una llave de protección. En estas llaves de protección almacenamos las licencias de los productos que has comprado, alquilado o para los cuales has solicitado una demostración.
+Nuestros programas requieren una llave de protección o, en Digi3D.AI, MDTopX y Topcal21, una licencia de software activada en el ordenador. En las llaves de protección almacenamos las licencias de los productos que has comprado, alquilado o para los cuales has solicitado una demostración.
+
+Digi3D.AI, MDTopX y Topcal21 también admiten licencias de software, que autorizan el uso del programa en un ordenador concreto sin que el ordenador tenga conectada una llave de protección. Consulta [Licencias de software](../licencias-de-software/README.md).
 
 ## Suite de aplicaciones Licencias
 

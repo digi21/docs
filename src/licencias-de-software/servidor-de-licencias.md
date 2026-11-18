@@ -11,16 +11,25 @@ El servidor atiende las licencias que Digi21 configura en modo «servidor de lic
 * Una cuenta del grupo Administradores del servidor, para instalar el servidor y ejecutar sus órdenes.
 * Acceso del servidor mediante el protocolo seguro de transferencia de hipertexto (HTTPS), por el puerto 443 del protocolo de control de transmisión (TCP), a `https://www.digi21.net`, para activar el servidor y renovar su certificado.
 * Que los ordenadores cliente puedan conectarse por TCP al puerto del servidor (21021 de forma predeterminada).
-* El instalador `SetupServidorLicencias.msi` y un código de activación del servidor de licencias, que entrega Digi21. Digi21 configura antes la licencia en modo «servidor de licencias local». Un código de activación de ordenadores no activa el servidor.
+* El instalador del servidor (consulta [Obtener el instalador](#obtener-el-instalador)) y un código de activación del servidor de licencias, que entrega Digi21. Digi21 configura la licencia en modo «servidor de licencias local» antes de que actives el servidor. Un código de activación de ordenadores no activa el servidor.
 * Un solo servidor activo por licencia. Un servidor puede atender varias licencias del mismo titular, por ejemplo la de Topcal21 y la de MDTopX, activándolo con el código de cada licencia.
 * En los ordenadores cliente, una versión de Digi3D.AI, MDTopX o Topcal21 que admita sesiones simultáneas, con la licencia activada en el ordenador (consulta [Activar ordenadores](activar-ordenadores.md)).
 
 ## Instalación
 
+### Obtener el instalador
+
+Descarga el instalador firmado (un archivo MSI de Windows Installer) en el idioma que prefieras. Los dos instaladores instalan el mismo servicio. El idioma elegido determina el idioma de los textos del instalador y el de los nombres visibles del servicio, de la regla del cortafuegos y de la aplicación instalada (por ejemplo, «Servidor de licencias de Digi21» en el instalador en español y «Digi21 License Server» en el instalador en inglés).
+
+* Español: [SetupServidorLicencias_es-ES.msi](https://digi21.blob.core.windows.net/download/SetupServidorLicencias_es-ES.msi)
+* Inglés: [SetupServidorLicencias_en-US.msi](https://digi21.blob.core.windows.net/download/SetupServidorLicencias_en-US.msi)
+
+El instalador también está en el menú **Descargas** de [www.digi21.net](https://www.digi21.net) con el nombre **Servidor de licencias**.
+
 ### Instalación interactiva
 
 1. Inicia sesión en el servidor con una cuenta del grupo Administradores.
-2. Copia `SetupServidorLicencias.msi` al servidor y ejecútalo con doble clic.
+2. Copia el instalador (`SetupServidorLicencias_es-ES.msi` o `SetupServidorLicencias_en-US.msi`) al servidor y ejecútalo con doble clic.
 3. Marca la casilla de aceptación de la licencia y pulsa **Instalar**. El instalador usa el puerto 21021. Si ya había una versión instalada, usa el puerto de esa instalación.
 4. Comprueba que el servicio está en ejecución con PowerShell:
 
@@ -35,7 +44,7 @@ Para usar otro puerto, instala con la línea de órdenes que se describe a conti
 Ejecuta en una consola abierta con **Ejecutar como administrador**:
 
 ```powershell
-msiexec /i "C:\Instaladores\SetupServidorLicencias.msi" /qn PUERTO=21021
+msiexec /i "C:\Instaladores\SetupServidorLicencias_es-ES.msi" /qn PUERTO=21021
 ```
 
 * `PUERTO` es el puerto TCP del servidor y tiene que estar entre 1 y 65535, ambos incluidos; si no lo está, la instalación se detiene con un mensaje. Si omites `PUERTO`, el instalador usa el de la instalación anterior y, si no existe, 21021.
@@ -45,21 +54,21 @@ msiexec /i "C:\Instaladores\SetupServidorLicencias.msi" /qn PUERTO=21021
 ## Qué instala el instalador del servidor
 
 * **Programa:** `C:\Program Files\Digi21\ServidorLicencias\Digi21.ServidorLicencias.exe`, con las bibliotecas de Visual C++ que necesita. El mismo ejecutable funciona como servicio de Windows y como programa de línea de órdenes de administración.
-* **Servicio de Windows «Servidor de licencias de Digi21»** (nombre interno `Digi21ServidorLicencias`):
+* **Servicio de Windows «Servidor de licencias de Digi21»** («Digi21 License Server» con el instalador en inglés; nombre interno `Digi21ServidorLicencias` en ambos instaladores):
   * Inicio automático diferido: Windows lo inicia después de los servicios de inicio automático normales, poco después de terminar el arranque del sistema.
   * Cuenta virtual `NT SERVICE\Digi21ServidorLicencias`, que no tiene contraseña.
   * El instalador lo inicia al terminar y lo detiene durante la actualización y la desinstalación.
   * Si el servicio falla o se detiene con un error, Windows lo reinicia un minuto después. El contador de fallos vuelve a cero tras un día sin fallos.
 * **Reserva de la dirección** `http://+:<puerto>/` a nombre de la cuenta del servicio, que cubre la comunicación con los programas y el panel web.
-* **Reglas de entrada del Firewall de Windows** «Servidor de licencias de Digi21 (TCP)» para el puerto TCP del servidor: una regla para el perfil de red de dominio y otra para el perfil privado. Cada regla solo admite conexiones desde la subred local. Ninguna regla cubre el perfil público.
+* **Reglas de entrada del Firewall de Windows** «Servidor de licencias de Digi21 (TCP)» («Digi21 License Server (TCP)» con el instalador en inglés) para el puerto TCP del servidor: una regla para el perfil de red de dominio y otra para el perfil privado. Cada regla solo admite conexiones desde la subred local. Ninguna regla cubre el perfil público.
 * **Carpeta de datos** `C:\ProgramData\Digi21.ServidorLicencias`, con acceso del sistema (SYSTEM), del grupo Administradores y de la cuenta del servicio, y sin acceso para los usuarios estándar:
   * `certificado.jwt`: certificado del servidor que emite digi21.net.
   * `generacion.dat` y `reloj.json`: datos de renovación del servidor y de su reloj interno.
   * `sesiones.json`: sesiones abiertas, que el servicio guarda al detenerse y recupera al iniciarse.
-  * `servicio.log`: registro del servicio. Cuando supera 1 MiB, el servicio lo renombra a `servicio.log.1`, sustituyendo el anterior, y empieza uno nuevo. Registra el inicio y la parada del servicio, las órdenes de administración, las liberaciones desde el panel y los errores.
+  * `servicio.log`: registro del servicio. Cuando supera 1 MiB, el servicio lo renombra a `servicio.log.1`, sustituyendo el anterior, y empieza uno nuevo. Registra el inicio y la parada del servicio, las órdenes de administración, las liberaciones desde el panel y los errores. El servicio escribe el registro siempre en español.
 * **Valor de registro** `Puerto` en `HKEY_LOCAL_MACHINE\SOFTWARE\Digi21\ServidorLicencias` (vista de 64 bits), que lee el servicio al iniciarse. Para cambiar el puerto, ejecuta de nuevo el instalador con `PUERTO`.
 
-El servicio guarda su clave criptográfica en el módulo de plataforma segura (TPM) del servidor si el servidor tiene uno; si no, la guarda en el proveedor de claves de software de Windows. La primera línea de `C:\ProgramData\Digi21.ServidorLicencias\servicio.log` tras iniciar el servicio indica si la clave está en el TPM o en el proveedor de claves de software de Windows.
+El servicio guarda su clave criptográfica en el módulo de plataforma segura (TPM) del servidor si el servidor tiene uno; si no, la guarda en el proveedor de claves de software de Windows. La línea «Clave del servidor abierta en el proveedor …» de `C:\ProgramData\Digi21.ServidorLicencias\servicio.log`, que el servicio escribe al iniciarse, indica si la clave está en el TPM («del TPM») o en el proveedor de claves de software de Windows («de software»).
 
 ## Activar el servidor
 
@@ -92,7 +101,7 @@ Sintaxis: `Digi21.ServidorLicencias.exe <orden>`
 | `estado` | Muestra el nombre del equipo, la versión, el estado del servidor, las fechas del certificado, el último intento de renovación y, para cada licencia, las plazas en uso y el máximo. |
 | `sesiones` | Muestra las sesiones abiertas: identificador de la sesión, licencia, ordenador, usuario de Windows, programa, sesión de Windows, proceso, dirección IP, fecha de alta, fecha de la última renovación y segundos de vigencia restante. |
 | `liberar <sesión>` | Cierra las sesiones de la misma licencia que comparten con la sesión indicada la huella de la clave del cliente, la huella del hardware y la sesión de Windows, y deja libre su plaza. El identificador de la sesión es el que muestra `sesiones`. |
-| `desactivar [--si]` | Borra el certificado, los datos de renovación y las sesiones del servidor, que queda sin activar. Sin `--si`, pide confirmación (`s` o `y`). La orden no comunica la desactivación a digi21.net; la activación del servidor permanece registrada en digi21.net. |
+| `desactivar [--si]` | Borra el certificado, los datos de renovación y las sesiones del servidor, que queda sin activar. Sin `--si`, pide confirmación: las respuestas afirmativas son `s`, `si` y `sí` si el idioma de la interfaz de Windows es el español, y `y` y `yes` en los demás casos. La orden no comunica la desactivación a digi21.net; la activación del servidor permanece registrada en digi21.net. |
 | `--ayuda` | Muestra la ayuda de las órdenes. |
 
 Ejemplo de la salida de `estado` con un servidor activado:
@@ -205,7 +214,7 @@ Si un ordenador cliente no tiene la dirección configurada, el programa muestra 
 ## Actualización y desinstalación
 
 * **Actualización.** Ejecuta el MSI de la versión nueva. El instalador sustituye la versión instalada si la nueva es igual o posterior, y rechaza una versión anterior. Durante la actualización, el servicio se detiene, guarda las sesiones abiertas en `sesiones.json` y, cuando se inicia de nuevo, recupera las que siguen vigentes. La activación, el certificado y el puerto se conservan.
-* **Desinstalación.** Desinstala **Servidor de licencias de Digi21** desde **Aplicaciones instaladas**, o ejecuta `msiexec /x "C:\Instaladores\SetupServidorLicencias.msi" /qn`. La desinstalación detiene y elimina el servicio, la reserva de la dirección y las reglas del cortafuegos. La carpeta `C:\ProgramData\Digi21.ServidorLicencias` no se elimina: contiene el certificado y los datos de renovación del servidor, así que, si vuelves a instalar el servidor en el mismo ordenador, el servidor sigue activado.
+* **Desinstalación.** Desinstala **Servidor de licencias de Digi21** desde **Aplicaciones instaladas**, o ejecuta `msiexec /x "C:\Instaladores\SetupServidorLicencias_es-ES.msi" /qn` con el mismo archivo MSI que usaste para instalar. La desinstalación detiene y elimina el servicio, la reserva de la dirección y las reglas del cortafuegos. La carpeta `C:\ProgramData\Digi21.ServidorLicencias` no se elimina: contiene el certificado y los datos de renovación del servidor, así que, si vuelves a instalar el servidor en el mismo ordenador, el servidor sigue activado.
 * **Cambio de ordenador.** Instala y activa el servidor nuevo con un código de activación del servidor. La orden `desactivar` solo borra los datos del servidor antiguo y no avisa a digi21.net: mientras el servidor antiguo tenga un certificado que renovó en los últimos 7 días, `activar` en el servidor nuevo devuelve el código 103. Si no quieres esperar, solicita a Digi21 que revoque el servidor antiguo.
 
 ## Solución de problemas

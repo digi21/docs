@@ -9,11 +9,9 @@ Hay dos procedimientos de activación:
 | --- | --- | --- |
 | Quién lo ejecuta | Un usuario con una cuenta de digi21.net que es titular de la licencia o que el titular ha autorizado a activarla | Un usuario que tiene un código de activación que ha entregado Digi21 |
 | Inicio de sesión en digi21.net | Sí, en el navegador | No |
-| Programas | Digi3D.AI, MDTopX y Topcal21 | MDTopX y Topcal21 |
+| Programas | Digi3D.AI, MDTopX y Topcal21 | Digi3D.AI, MDTopX y Topcal21 |
 | Usuarios de Windows que quedan activados | El usuario de Windows que ejecuta el programa | El usuario de Windows que ejecuta el programa o, si se activa para todos los usuarios, todos los usuarios de Windows del ordenador |
 | Permisos de administrador de Windows | No, salvo para añadir licencias a un ordenador que ya está activado para todos los usuarios | Solo para activar para todos los usuarios |
-
-Digi3D.AI no tiene botón ni orden para activar con un código de activación.
 
 ## Activar con aprobación en digi21.net
 
@@ -24,7 +22,7 @@ Este procedimiento es igual en Digi3D.AI, MDTopX y Topcal21:
 3. Comprueba que la página muestra el mismo código de usuario que el programa, inicia sesión en digi21.net, aprueba el registro del ordenador y elige las licencias que quieres activar.
 4. Vuelve al programa. El programa detecta la aprobación automáticamente y muestra las licencias del ordenador.
 
-El cuadro de diálogo de Digi3D.AI está descrito en [Licencias de software](../digi3d-ai/referencia/cuadros-de-dialogo/licencias-de-software.md). El cuadro de diálogo de MDTopX y Topcal21 tiene los mismos controles que el cuadro de Digi3D.AI y, además, el botón **Activar con código...**.
+Los cuadros de diálogo de Digi3D.AI, MDTopX y Topcal21 tienen los mismos controles, incluido el botón **Activar con un código...**. El cuadro de diálogo de Digi3D.AI está descrito en [Licencias de software](../digi3d-ai/referencia/cuadros-de-dialogo/licencias-de-software.md).
 
 ## Activar con un código de activación
 
@@ -32,17 +30,17 @@ Un código de activación activa una licencia en un ordenador sin que ningún us
 
 Digi21 entrega los códigos de activación al titular de la licencia. Cada código se asocia a una licencia y puede tener una fecha de caducidad y un rango de direcciones IP (direcciones de red) desde las que se puede usar. Un código no sirve para activar el servidor de licencias local: ese servidor usa un código distinto (consulta [Servidor de licencias local](servidor-de-licencias.md)).
 
-### Desde el cuadro de diálogo de MDTopX o Topcal21
+### Desde el cuadro de diálogo de Digi3D.AI, MDTopX o Topcal21
 
 1. Abre el cuadro de diálogo **Licencias de software** con la opción **Ayuda/Licencias de software...**.
-2. Pulsa **Activar con código...**.
+2. Pulsa **Activar con un código...**.
 3. En el cuadro **Activar con un código**, escribe el código de activación en el campo **Código de activación**.
-4. Marca **Activar para todos los usuarios de este equipo** si quieres que todos los usuarios de Windows del ordenador usen la activación. Windows pide permisos de administrador. Si no marcas la casilla, solo queda activado el usuario de Windows que ejecuta el programa.
+4. Marca **Activar para todos los usuarios de este equipo** si quieres que todos los usuarios de Windows del ordenador usen la activación. Windows pide permisos de administrador. Si no marcas la casilla, solo queda activado el usuario de Windows que ejecuta el programa. Si el programa ya usa una activación para todos los usuarios del ordenador, la casilla aparece marcada y deshabilitada.
 5. Pulsa **Activar**. Si la activación se concede, el cuadro se cierra y el programa muestra las licencias del ordenador. Si falla, el cuadro muestra el motivo.
 
 ### Con la orden `/activar-equipo`
 
-La orden `/activar-equipo <código>` de MDTopX y Topcal21 activa el ordenador para todos los usuarios de Windows. La orden no muestra ninguna ventana y requiere un proceso con el grupo Administradores habilitado (una consola abierta con **Ejecutar como administrador**); si el proceso no tiene permisos de administrador, la orden no envía ninguna petición y termina con el código 108.
+La orden `/activar-equipo <código>` de Digi3D.AI, MDTopX y Topcal21 activa el ordenador para todos los usuarios de Windows. La orden no muestra ninguna ventana y requiere un proceso con el grupo Administradores habilitado (una consola abierta con **Ejecutar como administrador**); si el proceso no tiene permisos de administrador, la orden no envía ninguna petición y termina con el código 108.
 
 La orden escribe el resultado en la salida estándar. Los programas son aplicaciones de ventanas, así que, para esperar a que termine el proceso del programa y consultar el código de salida de ese proceso, ejecuta la orden con PowerShell:
 
@@ -51,7 +49,7 @@ $proceso = Start-Process -FilePath 'C:\Ruta\de\instalación\Topcal21.exe' -Argum
 $proceso.ExitCode
 ```
 
-Sustituye la ruta del ejemplo por la ruta absoluta del ejecutable de MDTopX o Topcal21 y `<código>` por el código de activación. La orden no distingue mayúsculas de minúsculas.
+Sustituye la ruta del ejemplo por la ruta absoluta del ejecutable del programa (`Digi3D.exe` en Digi3D.AI, `MDTopX.exe` en MDTopX y `Topcal21.exe` en Topcal21) y `<código>` por el código de activación. La orden no distingue mayúsculas de minúsculas.
 
 Códigos de salida de `/activar-equipo`:
 
@@ -86,16 +84,16 @@ Las activaciones vigentes y sus fechas de fin se consultan en la página **Mis l
 La autorización de uso que recibe un ordenador tiene un plazo de validez. El plazo, llamado días de revalidación, lo fija Digi21 para cada licencia entre 1 y 365 días, ambos incluidos (30 días si Digi21 no indica otro). Si el ordenador tiene activadas varias licencias, el plazo de validez de la autorización es el menor de los plazos de revalidación de las licencias activadas.
 
 * Cuando queda menos de un tercio del plazo y el ordenador tiene conexión a internet, el programa renueva la autorización de uso automáticamente. La renovación incorpora los cambios de la licencia, por ejemplo un módulo añadido.
-* Si el ordenador no se conecta a digi21.net antes de que termine el plazo, la autorización caduca y el programa deja de usar las licencias del ordenador. Para volver a usar las licencias del ordenador, conecta el ordenador a internet y pulsa **Renovar la autorización de uso** en el cuadro de diálogo **Licencias de software**. MDTopX y Topcal21 también intentan la renovación al iniciarse cuando la autorización ha caducado y hay conexión.
+* Si el ordenador no se conecta a digi21.net antes de que termine el plazo, la autorización caduca y el programa deja de usar las licencias del ordenador. Para volver a usar las licencias del ordenador, conecta el ordenador a internet y pulsa **Renovar la autorización de uso** en el cuadro de diálogo **Licencias de software**. Digi3D.AI, MDTopX y Topcal21 también intentan la renovación al iniciarse cuando la autorización ha caducado y hay conexión.
 * La autorización de uso se renueva siempre con digi21.net. Un ordenador de una licencia con sesiones simultáneas en modo «servidor de licencias local» necesita, además del servidor local, conexión con digi21.net antes de que termine el plazo de su autorización. Consulta [Funcionamiento sin conexión a internet](servidor-de-licencias.md#funcionamiento-sin-conexión-a-internet).
 
 Si la hora del ordenador es incorrecta, el programa pide sincronizar la hora con digi21.net: el estado del cuadro de diálogo indica que hay que conectarse a internet y pulsar **Renovar la autorización de uso**.
 
 ## Resultados posibles al activar con código
 
-El cuadro **Activar con código** de MDTopX y Topcal21 y la orden `/activar-equipo` usan los mismos resultados. Los textos del cuadro son:
+El cuadro **Activar con un código** y la orden `/activar-equipo` de Digi3D.AI, MDTopX y Topcal21 usan los mismos resultados. Los mensajes del cuadro y de la orden son:
 
-* «El equipo se ha activado para todos los usuarios de Windows.»
+* «El equipo se ha activado para todos los usuarios de Windows.» (solo la orden escribe este texto; cuando la activación se concede, el cuadro se cierra sin mostrarlo)
 * «El código de activación no es válido, ha caducado o se ha revocado. Compruébalo y vuelve a escribirlo.»
 * «Este código solo se puede usar desde la red de la organización titular de la licencia.»
 * «La licencia no tiene plazas libres. Pide al responsable de la licencia que revoque la autorización de uso de uno de los equipos registrados.»
