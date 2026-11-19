@@ -1,10 +1,12 @@
 # Topcal21
 <!-- id: topcal21 -->
-<!-- origen: 083a9b3885b1b4aa9ee808062b934707aa133768 -->
+<!-- origen: e5c720d2fe620a5d6702b24760a87838c8340360 -->
 
 Surveying calculation software designed to solve all calculation problems in surveying work.
 
 Topcal21 works with projects, allowing work to be organized in subdirectories and several point and observation files to be handled at once. Its data display window resembles a spreadsheet, and all tools use guided dialogs to assist during calculations.
+
+This help describes Topcal21 for Windows. For the version that runs in the browser, see [Topcal21 web](topcal21-web/README.md).
 
 ## Tools
 
@@ -30,6 +32,7 @@ Topcal21 works with projects, allowing work to be organized in subdirectories an
 
 ## Contents
 
+* [Topcal21 web](topcal21-web/README.md)
 * [Introduction](introduccion/README.md)
 * [File structure](estructura-de-archivos/README.md)
 * [Toolbars](barras-de-herramientas/README.md)

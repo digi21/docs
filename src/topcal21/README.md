@@ -5,6 +5,8 @@ Programa de cálculos topográficos, diseñado para resolver todos los problemas
 
 Topcal21 trabaja con proyectos, de manera que puede organizar sus trabajos en subdirectorios y manejar a la vez más de un archivo de puntos y de observaciones. Dispone de una ventana de visualización de datos a modo de hoja de cálculo, y todas sus herramientas se presentan con cuadros de diálogo guiados que ayudan al usuario durante el cálculo.
 
+Esta ayuda describe Topcal21 para Windows. Para la versión que se ejecuta en el navegador, consulta [Topcal21 web](topcal21-web/README.md).
+
 ## Herramientas
 
 * Cálculo de triangulaciones.
@@ -29,6 +31,7 @@ Topcal21 trabaja con proyectos, de manera que puede organizar sus trabajos en su
 
 ## Contenido
 
+* [Topcal21 web](topcal21-web/README.md)
 * [Introducción](introduccion/README.md)
 * [Estructura de archivos](estructura-de-archivos/README.md)
 * [Barras de herramientas](barras-de-herramientas/README.md)
