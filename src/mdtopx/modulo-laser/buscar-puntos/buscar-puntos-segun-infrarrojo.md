@@ -3,7 +3,7 @@
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
-Esta herramienta tiene como objetivo clasificar puntos en función del índice NDVI que se puede calcular a partir del valor de infrarrojo almacenado. Para ello, cada punto deberá tener almacenado un falso color compuesto por el valor infrarrojo cercano, rojo y azul.
+Esta herramienta tiene como objetivo clasificar puntos en función del índice NDVI que se puede calcular a partir del infrarrojo cercano. Si la nube trae el campo NIR del LAS (formatos de punto 8 y 10, como el PNOA 2024), el infrarrojo sale de ese campo y el rojo, del color de cada punto; los puntos que no traen NIR, como los sintéticos, no se tocan. Si no, cada punto deberá tener almacenado un falso color compuesto por el infrarrojo cercano, el rojo y el verde.
 
 ![Cuadro de diálogo Buscar puntos según infrarrojo](../../../images/image-174.png)
 

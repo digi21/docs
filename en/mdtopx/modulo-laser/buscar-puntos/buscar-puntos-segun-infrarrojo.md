@@ -1,10 +1,10 @@
 # Find points by infrared
 <!-- id: buscar-puntos-segun-infrarrojo -->
-<!-- origen: 8fa579d71469215ec40b2a9c56ca24730b3f913a -->
+<!-- origen: 9d7f5afdee377df5f8d7585eabb4031ac8192fa2 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
-Classifies points by NDVI calculated from stored infrared values. Each point must store false color composed of near-infrared, red and blue.
+Classifies points by NDVI calculated from near infrared. If the cloud has the NIR field of the LAS (point formats 8 and 10, such as PNOA 2024), infrared comes from that field and red from each point's color; points without NIR, such as synthetic points, are left untouched. Otherwise each point must store false color composed of near infrared, red and green.
 
 ![Find points by infrared dialog](../../../images/image-174.png)
 

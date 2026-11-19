@@ -30,8 +30,8 @@ Parámetros:
 * **Máximo desnivel para edificaciones**: Por último, se puede indicar el valor máximo de desnivel que puede existir entre puntos pertenecientes a la misma zona que tiene posibilidad de ser edificación.
 * **Nube LiDAR:** Activar si la nube procede de medidas láser o desactivar si la nube procede de una multicorrelación fotogramétrica (ver [Nubes fotogramétricas](#nubes-fotogramétricas)). Con un archivo, la casilla viene marcada según la nube: es LiDAR si sus puntos tienen tiempo GPS o intensidad, y fotogramétrica si no tienen ninguno de los dos y tienen color. Con un proyecto, se marca a mano.
 * **Registro terrestre**: Se deberá seleccionar esta opción si el registro es terrestre, ya que la resolución y la precisión es muy superior al caso aéreo.
-* **Usar infrarrojo**: Marque esta opción para calcular el índice de vegetación de diferencia normalizada (NDVI) a partir de los valores de infrarrojo (IR) y rojo (R) de cada punto. Cada punto debe tener falso color con la terna infrarrojo-rojo-azul (IR-R-B). La herramienta usa el NDVI para distinguir la vegetación de la edificación.
-* **Diferencia**: Si **Usar infrarrojo** está marcada, indique la sensibilidad del NDVI. Use un valor cercano a 1 si el valor de infrarrojo no está bien definido en las zonas de vegetación, y cercano a 10 en caso contrario.
+* **Usar infrarrojo**: Marque esta opción para calcular el índice de vegetación de diferencia normalizada (NDVI) a partir del infrarrojo cercano (IR) y el rojo (R) de cada punto. Si la nube tiene el campo NIR del LAS (formatos de punto 8 y 10, como el PNOA 2024), la herramienta usa ese infrarrojo con el rojo del color de cada punto y no toca los puntos que no tienen NIR. Si no, cada punto debe tener falso color con la terna infrarrojo-rojo-verde (IR-R-G). La herramienta usa el NDVI para distinguir la vegetación de la edificación (ver [Con infrarrojo](#con-infrarrojo)).
+* **Diferencia**: Si **Usar infrarrojo** está marcada, indique el umbral del NDVI, en onceavos: con 3, el umbral es 3/11 (0,27). Use un valor bajo si el infrarrojo no está bien definido en las zonas de vegetación (por ejemplo, la vegetación de hoja caduca en un vuelo de invierno) y uno alto en caso contrario.
 * **Conservar clasificaciones actuales**: La nube se clasifica siempre desde cero, pero al terminar los puntos que ya tenían una clase (cualquiera salvo 0 y 1, sin clasificar) la recuperan. Esto conserva las ediciones hechas a mano. Los puntos que ya tenían una clase distinta de 0 y 1 no entran en los objetos nuevos, y la herramienta no quita los puntos sintéticos de la ejecución anterior ni añade otros. Desmarque **Conservar clasificaciones actuales** para que todos los puntos tomen la clasificación nueva.
 * **Vectorial al terminar (huellas de edificios)**: Si está marcada, al terminar la clasificación la herramienta calcula, a partir de las clases de edificación y de suelo de los puntos, la huella de cada edificio con lados rectos y la de sus patios, a la cota del suelo, y las abre en un documento nuevo titulado «Vectorial de» seguido del título del documento de origen. Muestra en el [panel de Resultados](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) el número de edificios, cuántos tienen lados rectos, el número de patios y el tamaño de celda. Si no hay ningún edificio, no se crea el documento, y si el cálculo falla, la clasificación se conserva. Con un proyecto, la herramienta calcula las huellas únicamente si se guardan los archivos del proyecto, y las calcula con todos los archivos a la vez. La casilla **Vectorial al terminar (huellas de edificios)** está marcada por defecto. Para calcular las huellas después de la clasificación, sin modificar las clases de los puntos, use la orden **Vectorial SM**.
 * **Valores por defecto**: Pone los valores por defecto en todos los parámetros. No cambia los [códigos](codigos-lidar.md), que tienen su propio cuadro, ni las casillas **Actuar sólo en selección**, **Conservar clasificaciones actuales** y **Vectorial al terminar (huellas de edificios)**. Si algún valor del cuadro no es válido, el cuadro informa de él y conserva todos los valores.
@@ -54,7 +54,7 @@ Los valores por defecto son:
 | Mínima área para edificaciones | 30 m² |
 | Máxima pendiente para edificaciones | 30º |
 | Máximo desnivel para edificaciones | 0,5 m |
-| Diferencia (infrarrojo) | 5 |
+| Diferencia (infrarrojo) | 3 |
 
 El programa comenzará a procesar el archivo actual e irá mostrando los resultados parciales sobre el [panel de Resultados](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) del programa. Al pulsar **Cancelar**, el programa pregunta si desea conservar los cálculos generados hasta ese momento. Además, si en la vista actual del documento se ha elegido visualizar los puntos mediante el parámetro clasificación LiDAR, la vista se irá actualizando para apreciar en tiempo real el progreso de la herramienta.
 
@@ -73,7 +73,7 @@ Cada clase se asigna con el código que tenga en el cuadro que abre el botón [*
 | Cables | 14 | Los conductores y cables de guarda de las líneas eléctricas. |
 | Apoyos | 15 | Las torres y postes de las líneas eléctricas. |
 | Calzada | 11 | Las calles y carreteras. |
-| Otros | 80 | Lo que no es suelo, vegetación ni edificación, como el mobiliario urbano. |
+| Otros | 80 | Lo que no es suelo, vegetación ni edificación, como el mobiliario urbano, los pórticos sobre la calzada o, con infrarrojo, las pérgolas. |
 | Vehículos | 82 | Los vehículos sobre la calzada o junto a ella. |
 | Puentes | 17 | Los tableros de los puentes y las pasarelas. |
 
@@ -102,9 +102,19 @@ Fuera de la zona urbana, la herramienta no clasifica como calzada los grupos de 
 
 Son vehículo los grupos de puntos entre 0,3 y 4,5 m sobre el suelo, de hasta 20 × 4 m, sobre la calzada detectada como asfalto o a menos de 5 m de ella, que no tocan nada más alto ni a la vegetación de los márgenes. En las calles de la zona urbana que no se han detectado como asfalto no se buscan vehículos.
 
+### Pórticos sobre la calzada
+
+Los pórticos y carteles de señalización que cruzan por encima de la calzada pasan a otros, aunque desde arriba parezcan vegetación: grupos de 15 puntos o más, a 4,5 m o más sobre la calzada, de 8 m o más de largo y 3 m o menos de ancho, de través a la calle (a 45º o más de ella), sin vegetación pegada y con canto, es decir, con los cordones de la celosía uno encima de otro (un cable que cruza la calle no lo tiene). Con **Usar infrarrojo**, además, su NDVI mediano tiene que ser menor que 0,15.
+
 ### Cables y apoyos
 
 Se buscan las líneas eléctricas con el mismo procedimiento que la herramienta [Líneas eléctricas](../../generar/lineas-electricas.md): los conductores y cables de guarda pasan a **Cables** y las torres y postes, a **Apoyos**. En los huecos de los conductores se añaden puntos sintéticos, con la clase de los cables más 32 y marcados como sintéticos. Al repetir la herramienta se quitan los sintéticos de la vez anterior y se ponen los nuevos. Con **Conservar clasificaciones actuales** o con selección no se quitan ni se añaden sintéticos.
+
+### Con infrarrojo
+
+Con **Usar infrarrojo**, el NDVI solo sirve para rescatar vegetación: los puntos de edificación, de otros y de posible vegetación alta con un NDVI mayor que **Diferencia**/11 pasan a vegetación alta, en dos pasadas: en la primera, si su infrarrojo es de 75 o más; en la segunda, de 25 o más. Después, los puntos de edificación que no forman superficies de más de **Mínima área para edificaciones** pasan a otros. El NDVI nunca pasa a otros los puntos de vegetación.
+
+Además, las estructuras planas que han quedado como vegetación sin tener el NDVI de la vegetación, como las pérgolas, pasan a otros: grupos de 10 puntos o más y de 6 m² o más, sobre un plano (a 0,25 m o menos de media cuadrática) y con un NDVI mediano menor que 0,06. El NDVI solo no basta: en un vuelo de invierno los árboles de hoja caduca tienen un NDVI casi nulo, pero no forman un plano.
 
 ### Nubes fotogramétricas
 

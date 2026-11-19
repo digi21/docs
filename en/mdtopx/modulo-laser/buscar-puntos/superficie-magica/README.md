@@ -1,6 +1,6 @@
 # Magic Surface
 <!-- id: superficie-magica -->
-<!-- origen: fc12b0e6fe850eaa0a396aac121a85b63ce915ae -->
+<!-- origen: e95d29149baf1af076042df2d76231c206746b83 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -31,8 +31,8 @@ Parameters:
 * **Max height difference in buildings**: finally, you can indicate the maximum height difference that can exist between points belonging to the same area that may be a building.
 * **LiDAR point cloud:** select it if the cloud comes from laser measurements, or clear it if the cloud comes from photogrammetric multi-image correlation (see [Photogrammetric clouds](#photogrammetric-clouds)). With a file, the check box is set according to the cloud: it is LiDAR if its points have GPS time or intensity, and photogrammetric if they have neither and have color. With a project, it is set manually.
 * **Terrestrial register**: select this option if the acquisition is terrestrial, since the resolution and precision are much higher than in the airborne case.
-* **Use infrared**: select this option to calculate the normalized difference vegetation index (NDVI) from the infrared (IR) and red (R) values of each point. Each point must have false color with the infrared-red-blue (IR-R-B) triplet. The tool uses NDVI to distinguish vegetation from buildings.
-* **Difference**: when **Use infrared** is selected, set the NDVI sensitivity. Use a value near 1 if the infrared value is not well defined in the vegetation areas, and near 10 otherwise.
+* **Use infrared**: select this option to calculate the normalized difference vegetation index (NDVI) from the near infrared (IR) and red (R) values of each point. If the cloud has the NIR field of the LAS (point formats 8 and 10, such as PNOA 2024), the tool uses that infrared with the red of each point's color and leaves points without NIR untouched. Otherwise each point must have false color with the infrared-red-green (IR-R-G) triplet. The tool uses NDVI to distinguish vegetation from buildings (see [With infrared](#with-infrared)).
+* **Difference**: when **Use infrared** is selected, set the NDVI threshold in elevenths: with 3, the threshold is 3/11 (0.27). Use a low value if the infrared value is not well defined in the vegetation areas (for example, deciduous vegetation in a winter flight), and a high value otherwise.
 * **Keep current classifications**: the cloud is always classified from scratch, but when the process finishes, the points that already had a class (any except 0 and 1, unclassified) recover it. Manual edits are preserved. Points whose previous class was neither 0 nor 1 are excluded from the new objects, and the tool neither removes the synthetic points from the previous run nor adds new ones. Clear **Keep current classifications** to apply the new classification to every point.
 * **Vector at the end (building footprints)**: if selected, when the classification finishes the tool calculates, from the building and ground classes of the points, the footprint of each building with straight sides and those of its courtyards, at ground elevation, and opens them in a new document titled "Vector of" followed by the title of the source document. The [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) shows the number of buildings, how many have straight sides, the number of courtyards and the cell size. If there are no buildings, no document is created, and if the calculation fails, the classification is kept. With a project, the tool calculates the footprints only when the project files are saved, and it calculates them using all the files together. The **Vector at the end (building footprints)** check box is selected by default. To calculate the footprints after the classification, without modifying the classes of the points, use the **Magic surface vector** command.
 * **Default values**: sets the default values in all the parameters. It does not change the [codes](codigos-lidar.md), which have their own dialog, nor the **Only in the selection**, **Keep current classifications** and **Vector at the end (building footprints)** check boxes. If a value in the dialog is not valid, the dialog reports it and leaves all the values unchanged.
@@ -55,7 +55,7 @@ The default values are:
 | Min surface area of buildings | 30 m² |
 | Max surface slope of buildings | 30º |
 | Max height difference in buildings | 0.5 m |
-| Difference (infrared) | 5 |
+| Difference (infrared) | 3 |
 
 The program starts processing the current file and shows partial results in the [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) of the program. When you click **Cancel**, the program asks whether to keep the calculations generated up to that moment. In addition, if the current document view displays the points by the LiDAR classification parameter, the view is updated progressively so you can see the progress of the tool in real time.
 
@@ -74,7 +74,7 @@ Each class is assigned the code it has in the dialog opened by the [**LiDAR clas
 | Wires | 14 | The conductors and guard wires of power lines. |
 | Towers | 15 | The towers and poles of power lines. |
 | Road | 11 | Streets and roads. |
-| Other | 80 | What is neither ground, vegetation nor building, such as street furniture. |
+| Other | 80 | What is neither ground, vegetation nor building, such as street furniture, gantries over the road or, with infrared, pergolas. |
 | Vehicles | 82 | Vehicles on the road or next to it. |
 | Bridges | 17 | The decks of bridges and footbridges. |
 
@@ -103,9 +103,19 @@ Outside the urban area, the tool does not classify as road the connected groups 
 
 Vehicles are groups of points between 0.3 and 4.5 m above the ground, up to 20 × 4 m, on the road detected as asphalt or less than 5 m from it, that do not touch anything higher or the vegetation at the margins. Vehicles are not searched for in the streets of the urban area that were not detected as asphalt.
 
+### Gantries over the road
+
+Sign gantries and signs that span the road become other points, even if they look like vegetation from above: groups of 15 points or more, 4.5 m or more above the road, 8 m or longer and 3 m wide or less, across the street (at 45º or more to it), with no vegetation attached and with depth, that is, with the chords of the truss one above the other (a wire crossing the street has none). With **Use infrared**, their median NDVI must also be below 0.15.
+
 ### Wires and towers
 
 Power lines are searched for with the same procedure as the [Power lines](../../generar/lineas-electricas.md) tool: the conductors and guard wires become **Wires**, and the towers and poles become **Towers**. In the gaps of the conductors, synthetic points are added, with the class of the wires plus 32 and marked as synthetic. When the tool is repeated, the synthetic points from the previous run are removed and the new ones are added. With **Keep current classifications** or with a selection, synthetic points are neither removed nor added.
+
+### With infrared
+
+With **Use infrared**, NDVI only rescues vegetation: building, other and possible high vegetation points with an NDVI above **Difference**/11 become high vegetation, in two passes: in the first, if their infrared is 75 or more; in the second, 25 or more. Then, building points that do not form surfaces larger than **Min surface area of buildings** become other points. NDVI never turns vegetation points into other points.
+
+In addition, flat structures left as vegetation without the NDVI of vegetation, such as pergolas, become other points: groups of 10 points or more and 6 m² or more, on a plane (0.25 m or less root mean square) and with a median NDVI below 0.06. NDVI alone is not enough: in a winter flight, deciduous trees have an almost null NDVI, but they do not form a plane.
 
 ### Photogrammetric clouds
 
