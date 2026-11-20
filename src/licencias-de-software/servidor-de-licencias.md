@@ -190,7 +190,7 @@ Con los códigos 114 y 115 la dirección queda guardada. Resuelve el problema de
 
 ### Digi3D.AI
 
-Digi3D.AI no tiene una orden para configurar el servidor. Escribe el valor del registro con PowerShell, abierto como administrador y en un proceso de 64 bits:
+Digi3D.AI no tiene una orden para configurar el servidor. Configura el valor con la propiedad `SERVIDOR_LICENCIAS` del instalador (consulta [Con el instalador](#con-el-instalador)) o escribe el valor del registro con PowerShell, abierto como administrador y en un proceso de 64 bits:
 
 ```powershell
 $clave = 'HKLM:\SOFTWARE\Digi21\LicenciasDeSoftware'
@@ -200,7 +200,19 @@ Set-ItemProperty -Path $clave -Name ServidorLocal -Value 'http://servidor01:2102
 
 Si el ordenador también tiene MDTopX o Topcal21, la orden `/servidor-licencias` de esos programas escribe el mismo valor y también sirve para Digi3D.AI. Digi3D.AI lee el valor cada vez que solicita una sesión.
 
-Para distribuir la dirección a muchos ordenadores, escribe el mismo valor con un guion o con la herramienta de administración que uses en la organización.
+Para distribuir la dirección a muchos ordenadores, usa la propiedad `SERVIDOR_LICENCIAS` del instalador, o escribe el mismo valor con un guion o con la herramienta de administración que uses en la organización.
+
+#### Con el instalador
+
+Si se indica la propiedad `SERVIDOR_LICENCIAS`, el instalador de Digi3D.AI escribe el valor `ServidorLocal` del registro durante la instalación. Para configurar la dirección del servidor al desplegar Digi3D.AI mediante directivas de grupo, usa esta propiedad. Ejecuta el siguiente comando en una consola abierta con **Ejecutar como administrador**:
+
+```powershell
+msiexec /i SetupDigi3DAIx64_es-ES.msi SERVIDOR_LICENCIAS=http://servidor:21021
+```
+
+* El instalador escribe la dirección tal cual, sin comprobarla ni corregirla. La dirección del servidor tiene que empezar por `http://` o `https://` y no puede llevar ruta (se admite una barra final); Digi3D.AI, MDTopX y Topcal21 rechazan el valor si no cumple ese formato.
+* Si omites la propiedad, el instalador no cambia el valor `ServidorLocal`.
+* Desinstalar Digi3D.AI no borra el valor `ServidorLocal`, porque lo comparten Digi3D.AI, MDTopX y Topcal21.
 
 Si un ordenador cliente no tiene la dirección configurada, el programa muestra un mensaje que explica cómo configurarla.
 

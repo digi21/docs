@@ -1,6 +1,6 @@
 # Local license server
 <!-- id: servidor-de-licencias -->
-<!-- origen: 8d8bc74728ca7e4de95e8f9e96ea014c90bfde11 -->
+<!-- origen: 4cd91b6f4e519444a0001d75b50df9a352671602 -->
 
 The local license server is a Windows service that distributes the [simultaneous sessions](sesiones-simultaneas.md) of a license among the computers of the network of an organization. The computers request the session from the server on the local network instead of requesting it from digi21.net. This page is aimed at the IT department that installs and administers the server.
 
@@ -191,7 +191,7 @@ With codes 114 and 115 the address stays saved. Solve the connection or certific
 
 ### Digi3D.AI
 
-Digi3D.AI has no command to configure the server. Write the registry value with PowerShell, opened as administrator and in a 64-bit process:
+Digi3D.AI has no command to configure the server. Set the value with the `SERVIDOR_LICENCIAS` property of the installer (see [With the installer](#with-the-installer)) or write the registry value with PowerShell, opened as administrator and in a 64-bit process:
 
 ```powershell
 $registryKeyPath = 'HKLM:\SOFTWARE\Digi21\LicenciasDeSoftware'
@@ -201,7 +201,19 @@ Set-ItemProperty -Path $registryKeyPath -Name ServidorLocal -Value 'http://servi
 
 If the computer also has MDTopX or Topcal21, the `/servidor-licencias` command of those programs writes the same value and also works for Digi3D.AI. Digi3D.AI reads the value every time it requests a session.
 
-To distribute the address to many computers, write the same value with a script or with the administration tool you use in the organization.
+To distribute the address to many computers, use the `SERVIDOR_LICENCIAS` property of the installer, or write the same value with a script or with the administration tool you use in the organization.
+
+#### With the installer
+
+If the `SERVIDOR_LICENCIAS` property is specified, the Digi3D.AI installer writes the `ServidorLocal` registry value during the installation. To configure the server address when deploying Digi3D.AI through group policies, use this property. Run the following command in a console opened with **Run as administrator**:
+
+```powershell
+msiexec /i SetupDigi3DAIx64_en-US.msi SERVIDOR_LICENCIAS=http://server:21021
+```
+
+* The installer writes the address as it is, without checking or correcting it. The server address has to start with `http://` or `https://` and cannot include a path (one trailing slash is accepted); Digi3D.AI, MDTopX and Topcal21 reject the value if it does not have that format.
+* If you omit the property, the installer does not change the `ServidorLocal` value.
+* Uninstalling Digi3D.AI does not delete the `ServidorLocal` value, because Digi3D.AI, MDTopX and Topcal21 share it.
 
 If a client computer does not have the address configured, the program shows a message that explains how to configure it.
 
