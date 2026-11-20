@@ -1,7 +1,7 @@
 # Licencias de software
 <!-- id: licencias-de-software -->
 
-<!-- captura pendiente: licencias-de-software.png -->
+![Cuadro de diálogo Licencias de software](../../../images/licencias-de-software.png)
 
 Este cuadro de diálogo muestra el estado de las licencias de software del equipo y permite activar el equipo, renovar la autorización de uso, obtener una sesión simultánea y consultar los módulos con licencia. Digi3D.AI usa licencias de software, en lugar de una llave de protección, cuando el equipo tiene una activación de licencias de software o cuando eliges **Activar una licencia de software** en el cuadro [Protección de Digi3D.AI](#elegir-la-protección-al-iniciar-digi3dai). Para una visión general de las licencias de software, consulta la sección [Licencias de software](../../../licencias-de-software/README.md).
 
@@ -9,7 +9,7 @@ Este cuadro de diálogo muestra el estado de las licencias de software del equip
 
 Al iniciarse, Digi3D.AI decide si usa licencias de software o una llave de protección con las reglas descritas en [Cómo elige el programa entre la licencia de software y la llave de protección](../../../licencias-de-software/README.md#cómo-elige-el-programa-entre-la-licencia-de-software-y-la-llave-de-protección). Cuando el equipo no tiene ninguna activación de licencias de software y Digi3D.AI no inicia sesión en una llave que tenga licencia de Digi3D.AI, Digi3D.AI muestra el cuadro **Protección de Digi3D.AI**.
 
-<!-- captura pendiente: proteccion-de-digi3dai.png -->
+![Cuadro de diálogo Protección de Digi3D.AI](../../../images/proteccion-de-digi3dai.png)
 
 El cuadro **Protección de Digi3D.AI** indica que Digi3D.AI no ha encontrado una llave de protección con licencia de Digi3D.AI ni una licencia de software activada en el equipo. Tiene tres botones:
 
@@ -71,7 +71,7 @@ Si el código de usuario caduca antes de que apruebes el registro, el cuadro de 
 
 Un código de activación activa el equipo sin que ningún usuario inicie sesión en digi21.net. Digi21 entrega los códigos de activación al titular de la licencia. Consulta [Activar con un código de activación](../../../licencias-de-software/activar-ordenadores.md#activar-con-un-código-de-activación).
 
-<!-- captura pendiente: activar-con-un-codigo.png -->
+![Cuadro de diálogo Activar con un código](../../../images/activar-con-un-codigo.png)
 
 1. Pulsa **Activar con un código...**. Digi3D.AI abre el cuadro **Activar con un código**.
 2. Escribe el código de activación en el campo **Código de activación**. El botón **Activar** está deshabilitado mientras el campo está vacío.

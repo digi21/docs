@@ -1,8 +1,8 @@
 # Software licenses
 <!-- id: licencias-de-software -->
-<!-- origen: 001bb83844177d81cb3ffbf50f63380fbd0e5e35 -->
+<!-- origen: 1c882a9af62a5895fdd689528d502a301de50a15 -->
 
-<!-- captura pendiente: licencias-de-software.png -->
+![Software licenses dialog box](../../../images/licencias-de-software.png)
 
 This dialog box shows the status of the software licenses of the computer and lets you activate the computer, renew the usage authorization, obtain a simultaneous session and check the licensed modules. Digi3D.AI uses software licenses, instead of a dongle, when the computer has a software license activation or when you choose **Activate a software license** in the [Digi3D.AI protection](#choosing-the-protection-when-digi3dai-starts) dialog box. For an overview of software licenses, see the [Software licenses](../../../licencias-de-software/README.md) section.
 
@@ -10,7 +10,7 @@ This dialog box shows the status of the software licenses of the computer and le
 
 When it starts, Digi3D.AI decides whether to use software licenses or a dongle with the rules described in [How the program chooses between the software license and the dongle](../../../licencias-de-software/README.md#how-the-program-chooses-between-the-software-license-and-the-dongle). When the computer has no software license activation and Digi3D.AI cannot sign in to a dongle that has a Digi3D.AI license, Digi3D.AI shows the **Digi3D.AI protection** dialog box.
 
-<!-- captura pendiente: proteccion-de-digi3dai.png -->
+![Digi3D.AI protection dialog box](../../../images/proteccion-de-digi3dai.png)
 
 The **Digi3D.AI protection** dialog box says that Digi3D.AI has not found a dongle with a Digi3D.AI license or a software license activated on the computer. The **Digi3D.AI protection** dialog box has three buttons:
 
@@ -72,7 +72,7 @@ If the user code expires before you approve the registration, the dialog box say
 
 An activation code activates the computer without any user signing in to digi21.net. Digi21 delivers the activation codes to the license holder. See [Activate with an activation code](../../../licencias-de-software/activar-ordenadores.md#activate-with-an-activation-code).
 
-<!-- captura pendiente: activar-con-un-codigo.png -->
+![Activate with a code dialog box](../../../images/activar-con-un-codigo.png)
 
 1. Click **Activate with a code...**. Digi3D.AI opens the **Activate with a code** dialog box.
 2. Type the activation code in the **Activation code** field. The **Activate** button is disabled while the field is empty.
