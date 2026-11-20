@@ -32,7 +32,8 @@ Detalles por formato:
   `scene.srs` y, si está vacío, un sistema local.
 - **DGN, DWG y DXF**: el nivel o la capa de cada elemento pasa a ser su `layer_code`. Los arcos y
   elipses se convierten en polilíneas y las celdas o bloques se descomponen. DWG y DXF usan el mismo
-  plugin: la extensión decide el formato.
+  plugin: la extensión decide el formato. Las entidades POINT de DWG y DXF y las líneas de DGN cuyo inicio
+  y fin coinciden se leen a `scene.points`, con el nivel o la capa en `layer_code`.
 - **Shapefile y GeoPackage**: los puntos se leen como polilíneas de un solo vértice, los polígonos
   como polilíneas cerradas y los multipuntos como nubes. No se leen las columnas de atributos.
 - **KML**: las coordenadas geográficas se pasan a UTM en el huso `utm_zone` del hemisferio indicado.

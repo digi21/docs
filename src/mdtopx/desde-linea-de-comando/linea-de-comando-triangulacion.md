@@ -9,9 +9,19 @@
 MDTopX [archivo de entrada] /TRI [archivo de salida]
 ```
 
-El archivo de entrada deberá ser un archivo con información topográfica o cartográfica, a partir del cual se calculará el modelo digital. Este archivo podrá ser un archivo de puntos de TopCal, de dibujo de DIGI, de dibujo de AutoCad DXF, de dibujo de MicroStation o un archivo ASCII con coordenadas X, Y, Z.
+El archivo de entrada deberá ser un archivo con información topográfica o cartográfica, a partir del cual se calculará el modelo digital. Este archivo podrá ser un archivo de puntos de TopCal, de dibujo de DIGI, de dibujo de AutoCad DXF, de dibujo de MicroStation o un archivo ASCII con coordenadas X, Y, Z. MDTopX lee como puntos las entidades POINT de los archivos DXF y DWG y las líneas de MicroStation cuyo inicio y fin coinciden, con el código de su capa o de su nivel.
 
-El archivo de salida será el nombre con el que se salve la triangulación, por lo que debería llevar extensión MDT.
+El archivo de salida es el nombre con el que MDTopX guarda la triangulación. MDTopX elige el formato según la extensión del archivo de salida, sin distinguir mayúsculas de minúsculas:
+
+| Extensión | Formato |
+| --- | --- |
+| STL | Malla STL binaria con los triángulos del modelo. |
+| OBJ | Malla Wavefront OBJ con los triángulos del modelo. |
+| Cualquier otra, o ninguna (por ejemplo, MDT o TIN) | Formato nativo de MDTopX para los modelos digitales TIN. La extensión no cambia el contenido: `salida.tin` y `salida.mdt` contienen el mismo formato. |
+
+Con STL y OBJ, si el campo **Base** de la sección **\[ExportarMDT]** de MDTopX.ini vale 1, MDTopX añade también la base del modelo (consulta [Exportar modelos digitales del terreno](/mdtopx/desde-linea-de-comando/linea-de-comando-exportar-modelos-digitales-del-terreno.md)). Para el formato nativo, usa la extensión MDT, que es la que MDTopX usa para sus modelos digitales TIN.
+
+Las órdenes `/LADO` y `/TRANSFORM` también guardan un modelo TIN en STL con la extensión .stl, en OBJ con la extensión .obj y en el formato nativo con cualquier otra extensión o sin extensión, según la extensión del archivo en el que lo guardan: el archivo de entrada o, con `/TRANSFORM`, el archivo de salida.
 
 Además de esta secuencia y para configurar el modo de triangular, en el archivo MDTopX.ini debería haber una línea obligatoria con el texto **\[Triangulacion]** y a continuación los campos siguientes:
 

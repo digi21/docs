@@ -1,6 +1,6 @@
 # Open file
 <!-- id: abrir-archivo -->
-<!-- origen: 45850a1fa1dd0287a1a856dfa12f5f4da0c85202 -->
+<!-- origen: b5538d21130b3ec508550793f60e2613ca94a25a -->
 
 [MDTopX button](/mdtopx/introduccion/boton-de-mdtopx.md)
 
@@ -28,11 +28,11 @@ Supported file types for each document type are:
   * DEM: grid digital terrain models from MDTop's VirtuaLand module.
 * **Vector drawing file**:
   * BIN: DIGI drawing files.
-  * DXF: AutoCad drawing exchange files. MDTop supports DXF files for AutoCad 2000 or earlier. DXF files can contain symbols stored as blocks. A dialog offers three ways to read these blocks:
+  * DXF: AutoCad drawing exchange files. MDTop supports DXF files for AutoCad 2000 or earlier. MDTopX reads POINT entities as points, with the code of their layer. DXF files can contain symbols stored as blocks. A dialog offers three ways to read these blocks:
     * Explode blocks: converts each block to drawing lines.
     * Read as points: converts blocks to point entities.
     * Do not read: ignores block insertions.
-  * DGN: MicroStation drawing files. MDTop supports DGN files for MicroStation 7 or earlier. Like DXF files, they can contain cells, so the same dialog asks how to handle them.
+  * DGN: MicroStation drawing files. MDTop supports DGN files for MicroStation 7 or earlier. Like DXF files, they can contain cells, so the same dialog asks how to handle them. MDTopX reads as points the lines whose start and end coincide, with the code of their level.
   * PTS: TopCal point files.
   * ASC: ASCII files listing X, Y, Z coordinates. Their layout varies and may contain additional fields. When this type is identified, a dialog lets you configure:
     * Whether each record begins with an identifier field.

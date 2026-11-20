@@ -27,11 +27,11 @@ Los tipos de archivos contemplados en función del documento que se abrirá son:
   * DEM: Modelo digital del terreno de formato rejilla procedente del módulo VirtuaLand de MDTop.
 * **Archivo de dibujo vectorial**:
   * BIN: Archivos de dibujo de DIGI.
-  * DXF: Archivos de dibujo de intercambio de AutoCad. MDTop admite archivos DXF de versiones AutoCad 2000 o inferior. Los archivos DXF pueden contener símbolos, almacenados como bloques. Para leer estos bloques, el programa muestra un cuadro de diálogo dando tres opciones para ello:
+  * DXF: Archivos de dibujo de intercambio de AutoCad. MDTop admite archivos DXF de versiones AutoCad 2000 o inferior. MDTopX lee las entidades POINT como puntos, con el código de su capa. Los archivos DXF pueden contener símbolos, almacenados como bloques. Para leer estos bloques, el programa muestra un cuadro de diálogo dando tres opciones para ello:
     * Explotar los bloques: Convierte cada uno de los bloques leídos en líneas de dibujo.
     * Leerlos como puntos: Transforma los bloques leídos a entidades puntuales.
     * No leerlos: Ignora la inserción de bloques.
-  * DGN: Archivos de dibujo de MicroStation. MDTop admite archivos DGN de versiones MicroStation 7 o inferior. Al igual que ocurre con los archivos DXF, este tipo de archivos puede contener células, por lo que el programa mostrará un cuadro de diálogo \(explicado en el tipo de archivos anterior) solicitando al usuario la manera de actuar con estos elementos.
+  * DGN: Archivos de dibujo de MicroStation. MDTop admite archivos DGN de versiones MicroStation 7 o inferior. Al igual que ocurre con los archivos DXF, este tipo de archivos puede contener células, por lo que el programa mostrará un cuadro de diálogo \(explicado en el tipo de archivos anterior) solicitando al usuario la manera de actuar con estos elementos. MDTopX lee como puntos las líneas cuyo inicio y fin coinciden, con el código de su nivel.
   * PTS: Archivos de puntos de TopCal.
   * ASC: Archivos de formato ASCII con un listado de coordenadas X, Y, Z. La configuración de este tipo de archivos puede ser muy variable e incluir más campos adicionales. Por ello, al identificar el programa un archivo de este tipo, muestra un cuadro de diálogo con varias opciones que el usuario puede configurar:
     * Si cada registro tiene un primer campo como identificador.

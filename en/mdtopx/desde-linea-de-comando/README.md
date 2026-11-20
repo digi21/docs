@@ -1,10 +1,10 @@
 # From the command line
 <!-- id: desde-linea-de-comando -->
-<!-- origen: 99f1fe2bcace4c546bfebd31d93b7f4a7c932c05 -->
+<!-- origen: cc484aed7eedc6919323ce489577eac22e972ce3 -->
 
 MDTopX runs from the command line with parameters configuring the calculation. MDTopX calculation tools require the MDTopX.ini configuration file, an ASCII file with the configuration options. MDTopX looks for MDTopX.ini in the input file folder; if you specify the input file without a path, MDTopX looks for MDTopX.ini in the current working directory.
 
-When you run a command from the command line, MDTopX opens its window minimized, runs the command and ends the process. The `/REF` and `/DEM` commands are the exception: they open the input file in the MDTopX interface, with the window at its normal size, and the process keeps running until the user closes MDTopX.
+When you run a command from the command line, MDTopX keeps the main window minimized or hidden, runs the command and ends the process. If the command ends before MDTopX shows the window (because required arguments are missing or the license is not valid), the window is never shown. While a command calculates, MDTopX shows the progress dialog box, the same one the interface shows. The `/REF` and `/DEM` commands are the exception: they open the input file in the MDTopX interface, with the window at its normal size, and the process keeps running until the user closes MDTopX.
 
 If you write on the command line only the name of a file that MDTopX can open, without any tool, MDTopX starts and opens that file.
 
@@ -54,6 +54,50 @@ With any command except `/REF` and `/DEM`, MDTopX shows no warning or error mess
 * If MDTopX cannot create MDTopX.LOG (for example, because it cannot write to the folder), it writes each message to the standard error output of the process, if the process has one (for example, redirected with `2>`), or, if it does not, to the console of the process that started MDTopX. If neither exists, MDTopX does not write the message.
 * The ASCII import and export option dialog boxes (.shp, .kml and point cloud) are not shown. For ASCII import, MDTopX uses the columns, separators and initial lines saved in its configuration if they fit the first lines of the file and, if they do not fit, it detects the format automatically. For export, it uses the values that the dialog boxes would show. MDTopX.LOG records the UTM zone and hemisphere that MDTopX uses when it saves a .kml file, and that lines are not saved when a drawing with lines is saved as LAS, LAZ or PTS.
 
+## Exit codes
+
+With an MDTopX command from this page, the `MDTopX.exe` process ends with an exit code that depends on the errors and warnings that MDTopX records while it runs the command. If MDTopX can create MDTopX.LOG, it writes each error and each warning to that file (section "Warnings and errors: the MDTopX.LOG file"). The `/activar-equipo` and `/servidor-licencias` commands have their own exit codes, described on their pages.
+
+| Code | Meaning | Cases |
+| --- | --- | --- |
+| 0 | MDTopX has recorded no error and no warning. | The command ended without MDTopX recording any errors or warnings. |
+| 1 | MDTopX has recorded at least one error. | Required arguments are missing. The license is not valid. MDTopX cannot open the input file, including a wildcard pattern with no match. The command is `/ORTOFOTO`. There is a read, write or calculation error. The command that adds digital terrain models has merged no file. The command does not match the type of the input file (for example, `/TRI` on an MDT file). MDTopX fails to start before the command begins. |
+| 2 | MDTopX has recorded at least one warning and no error. | The command that adds digital terrain models has merged some file and has not merged another. `/REF` could not load some reference. |
+
+* If MDTopX has recorded errors and warnings, the code is 1.
+* Informational messages do not change the code. Neither do the startup license warnings (end of technical support and end of the rental period), because MDTopX writes them before it starts running the command.
+* With `/REF` and `/DEM`, MDTopX sets the code when the command ends, before the user works with the interface, and the process returns that code when the main window is closed.
+* The code 0 means that MDTopX has recorded no error and no warning; it does not guarantee that the command saved a result. Check MDTopX.LOG to confirm the result.
+
+MDTopX is a windowed application, so you must wait for the process to end to read its exit code. In a batch file, `start /wait` waits for the process and stores its exit code in `errorlevel`. `if errorlevel N` is true when the code is N or greater, so the check for code 2 goes before the check for code 1:
+
+```bat
+start /wait "" "C:\Path\to\install\MDTopX.exe" "C:\data\entrada.dxf" /TRI "C:\data\salida.mdt"
+if errorlevel 2 (
+    echo MDTopX ended with warnings. See C:\data\MDTopX.LOG.
+    goto :end
+)
+if errorlevel 1 (
+    echo MDTopX ended with errors. See C:\data\MDTopX.LOG.
+    exit /b 1
+)
+echo MDTopX ended without recording any errors or warnings.
+:end
+```
+
+In PowerShell, `Start-Process` with `-Wait -PassThru` returns an object whose `ExitCode` property holds the exit code:
+
+```powershell
+$process = Start-Process -FilePath 'C:\Path\to\install\MDTopX.exe' -ArgumentList 'C:\data\entrada.dxf', '/TRI', 'C:\data\salida.mdt' -Wait -PassThru
+switch ($process.ExitCode) {
+    0 { 'MDTopX ended without recording any errors or warnings.' }
+    2 { 'MDTopX ended with warnings. See C:\data\MDTopX.LOG.' }
+    default { throw "MDTopX ended with code $($process.ExitCode). See C:\data\MDTopX.LOG." }
+}
+```
+
+Replace `C:\Path\to\install\MDTopX.exe` with the absolute path of `MDTopX.exe`.
+
 ## License
 
 The `/ACOPIOS`, `/FILTRADO`, `/ORIENTARNUBE` and `/ORIENTARNUBEARCHIVO` commands work without the MDTopX license: MDTopX does not check it at startup or before saving the result in the input file, and it shows no license warnings. The page of each command states the license that MDTopX requires to save the file. With the other commands, if MDTopX does not find the MDTopX license, it writes "Licencia no válida" (in English, "Invalid license") to MDTopX.LOG (with `/REF` and `/DEM`, it shows it in a message box) and ends without running the command. Saving the result of some commands also requires another license module.
@@ -68,6 +112,8 @@ MDTopX does not overwrite the results whose name it builds. These results are th
 ## MDTopX.ini and the user configuration
 
 With a command that has no interface, MDTopX reads MDTopX.ini only for that run. When it ends, it does not save to the user configuration the values read from MDTopX.ini or the export options, so the interface later opens with the same values it had before the command ran. The command pages that mention "the value saved in the user configuration" refer to the value that the user accepted in the interface dialog box.
+
+MDTopX only reads MDTopX.ini: no command on this page creates, writes or modifies MDTopX.ini. The keys that MDTopX.ini does not contain keep the values of the user configuration.
 
 ## Calculation tools
 

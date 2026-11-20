@@ -3,7 +3,7 @@
 
 MDTopX permite ser ejecutado desde la línea de comando pasando parámetros para configurar el cálculo. Las herramientas de cálculo de MDTopX requieren el archivo de configuración MDTopX.ini, un archivo ASCII con las opciones de configuración. MDTopX busca MDTopX.ini en la carpeta del archivo de entrada; si indicas el archivo de entrada sin ruta, MDTopX busca MDTopX.ini en el directorio de trabajo actual.
 
-Al ejecutar una orden desde la línea de comando, MDTopX abre su ventana minimizada, ejecuta la orden y termina el proceso. Las órdenes `/REF` y `/DEM` son la excepción: abren el archivo de entrada en la interfaz de MDTopX, con la ventana en su tamaño normal, y el proceso sigue en ejecución hasta que el usuario cierra MDTopX.
+Al ejecutar una orden desde la línea de comando, MDTopX mantiene la ventana principal minimizada o sin mostrar, ejecuta la orden y termina el proceso. Si la orden termina antes de que MDTopX muestre la ventana (porque faltan argumentos obligatorios o la licencia no es válida), la ventana no llega a mostrarse. Mientras una orden calcula, MDTopX muestra el cuadro de progreso, el mismo que muestra la interfaz. Las órdenes `/REF` y `/DEM` son la excepción: abren el archivo de entrada en la interfaz de MDTopX, con la ventana en su tamaño normal, y el proceso sigue en ejecución hasta que el usuario cierra MDTopX.
 
 Si escribes en la línea de comando solo el nombre de un archivo que MDTopX sabe abrir, sin ninguna herramienta, MDTopX se inicia y abre ese archivo.
 
@@ -53,6 +53,50 @@ Con cualquier orden salvo `/REF` y `/DEM`, MDTopX no muestra cuadros de aviso ni
 * Si MDTopX no puede crear MDTopX.LOG (por ejemplo, porque no puede escribir en la carpeta), escribe cada mensaje en la salida de errores del proceso, si el proceso tiene una (por ejemplo, redirigida con `2>`), o, si no la tiene, en la consola del proceso que ha lanzado MDTopX. Si no existe ninguna de las dos, MDTopX no escribe el mensaje.
 * Los cuadros de importación ASCII y de opciones de exportación (.shp, .kml y nube de puntos) no se muestran. En la importación ASCII, MDTopX usa las columnas, los separadores y las líneas iniciales guardados en su configuración si encajan con las primeras líneas del archivo y, si no encajan, detecta el formato automáticamente. En la exportación, usa los valores que mostrarían los cuadros. MDTopX.LOG registra el huso UTM y el hemisferio que MDTopX usa al guardar un archivo .kml, y que las líneas no se guardan al guardar un dibujo con líneas en LAS, LAZ o PTS.
 
+## Códigos de salida
+
+Con una orden de MDTopX de esta página, el proceso `MDTopX.exe` termina con un código de salida que depende de los errores y avisos que MDTopX registra mientras ejecuta la orden. Si MDTopX puede crear MDTopX.LOG, escribe cada error y cada aviso en ese archivo (sección «Avisos y errores: archivo MDTopX.LOG»). Las órdenes `/activar-equipo` y `/servidor-licencias` tienen sus propios códigos de salida, descritos en su página.
+
+| Código | Significado | Casos |
+| --- | --- | --- |
+| 0 | MDTopX no ha registrado ningún error ni aviso. | La orden ha terminado sin que MDTopX registre errores ni avisos. |
+| 1 | MDTopX ha registrado algún error. | Faltan argumentos obligatorios. La licencia no es válida. MDTopX no puede abrir el archivo de entrada, incluido un patrón con comodines sin ninguna coincidencia. La orden es `/ORTOFOTO`. Hay un error de lectura, de escritura o de cálculo. `/AGREGA` no ha unido ningún archivo. La orden no corresponde al tipo del archivo de entrada (por ejemplo, `/TRI` sobre un archivo MDT). Falla el arranque de MDTopX antes de que empiece la orden. |
+| 2 | MDTopX ha registrado algún aviso y ningún error. | `/AGREGA` ha unido algún archivo y no ha unido otro. `/REF` no ha podido cargar alguna referencia. |
+
+* Si MDTopX ha registrado errores y avisos, el código es 1.
+* Los mensajes informativos no cambian el código. Tampoco lo cambian los avisos de licencia del arranque (fin del soporte técnico y fin del alquiler), porque MDTopX los escribe antes de empezar a ejecutar la orden.
+* Con `/REF` y `/DEM`, MDTopX fija el código cuando termina la orden, antes de que el usuario trabaje con la interfaz, y el proceso devuelve ese código al cerrar la ventana principal.
+* El código 0 indica que MDTopX no ha registrado ningún error ni aviso; no garantiza que la orden haya guardado un resultado. Consulta MDTopX.LOG para confirmar el resultado.
+
+MDTopX es una aplicación de ventanas, así que para leer el código de salida hay que esperar a que termine el proceso. Con un archivo por lotes, `start /wait` espera al proceso y guarda su código de salida en `errorlevel`. `if errorlevel N` es verdadera cuando el código es N o mayor, por lo que la comprobación del código 2 va antes que la del código 1:
+
+```bat
+start /wait "" "C:\Ruta\de\instalación\MDTopX.exe" "C:\datos\entrada.dxf" /TRI "C:\datos\salida.mdt"
+if errorlevel 2 (
+    echo MDTopX ha terminado con avisos. Consulta C:\datos\MDTopX.LOG.
+    goto :fin
+)
+if errorlevel 1 (
+    echo MDTopX ha terminado con errores. Consulta C:\datos\MDTopX.LOG.
+    exit /b 1
+)
+echo MDTopX ha terminado sin registrar errores ni avisos.
+:fin
+```
+
+Con PowerShell, `Start-Process` con `-Wait -PassThru` devuelve un objeto cuya propiedad `ExitCode` contiene el código de salida:
+
+```powershell
+$proceso = Start-Process -FilePath 'C:\Ruta\de\instalación\MDTopX.exe' -ArgumentList 'C:\datos\entrada.dxf', '/TRI', 'C:\datos\salida.mdt' -Wait -PassThru
+switch ($proceso.ExitCode) {
+    0 { 'MDTopX ha terminado sin registrar errores ni avisos.' }
+    2 { 'MDTopX ha terminado con avisos. Consulta C:\datos\MDTopX.LOG.' }
+    default { throw "MDTopX ha terminado con el código $($proceso.ExitCode). Consulta C:\datos\MDTopX.LOG." }
+}
+```
+
+Sustituye `C:\Ruta\de\instalación\MDTopX.exe` por la ruta absoluta de `MDTopX.exe`.
+
 ## Licencia
 
 Las órdenes `/ACOPIOS`, `/FILTRADO`, `/ORIENTARNUBE` y `/ORIENTARNUBEARCHIVO` funcionan sin la licencia de MDTopX: MDTopX no la comprueba al arrancar ni antes de guardar el resultado en el archivo de entrada y no muestra los avisos de licencia. La página de cada orden indica la licencia que MDTopX exige para guardar el archivo. Con el resto de las órdenes, si MDTopX no encuentra la licencia de MDTopX, escribe «Licencia no válida» en MDTopX.LOG (con `/REF` y `/DEM`, la muestra en un cuadro) y termina sin ejecutar la orden. Guardar el resultado de algunas órdenes exige además otro módulo de licencia.
@@ -67,6 +111,8 @@ MDTopX no sobrescribe los resultados cuyo nombre construye él. Estos resultados
 ## MDTopX.ini y la configuración del usuario
 
 Con una orden sin interfaz, MDTopX lee MDTopX.ini solo para esa ejecución. Al terminar no guarda en la configuración del usuario los valores leídos de MDTopX.ini ni las opciones de exportación, por lo que la interfaz abre después con los mismos valores que tenía antes de ejecutar la orden. Las páginas de cada orden que citan «el valor guardado en la configuración del usuario» se refieren al valor que aceptó el usuario en el cuadro de diálogo de la interfaz.
+
+MDTopX solo lee MDTopX.ini: ninguna orden de esta página crea, escribe ni modifica MDTopX.ini. Las claves que MDTopX.ini no contiene conservan los valores de la configuración del usuario.
 
 ## Herramientas de cálculo
 

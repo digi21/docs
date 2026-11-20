@@ -1,6 +1,6 @@
 # Triangulation
 <!-- id: linea-de-comando-triangulacion -->
-<!-- origen: 4e234a37d7d4e687f9b2daaaeab7814e6827dfad -->
+<!-- origen: 2416b7317bcb79a9b0f3cff1a38be3dd3f824f33 -->
 
 [Triangulation](/mdtopx/como/como-triangulacion.md)
 
@@ -10,9 +10,19 @@ To run this tool from the command line, enter:
 MDTopX [archivo de entrada] /TRI [archivo de salida]
 ```
 
-The input file must contain the topographic or mapping information used to calculate the digital model. It can be a TopCal point file, DIGI drawing, AutoCad DXF drawing, MicroStation drawing or ASCII file containing X, Y, Z coordinates.
+The input file must contain the topographic or mapping information used to calculate the digital model. It can be a TopCal point file, DIGI drawing, AutoCad DXF drawing, MicroStation drawing or ASCII file containing X, Y, Z coordinates. MDTopX reads as points the POINT entities of DXF and DWG files and the MicroStation lines whose start and end coincide, with the code of their layer or level.
 
-The output file specifies where to save the triangulation and should have the MDT extension.
+The output file is the name with which MDTopX saves the triangulation. MDTopX chooses the format from the extension of the output file, regardless of letter case:
+
+| Extension | Format |
+| --- | --- |
+| STL | Binary STL mesh with the triangles of the model. |
+| OBJ | Wavefront OBJ mesh with the triangles of the model. |
+| Any other, or none (for example, MDT or TIN) | MDTopX native format for TIN digital models. The extension does not change the content: `salida.tin` and `salida.mdt` contain the same format. |
+
+With STL and OBJ, if the **Base** field of the **\[ExportarMDT]** section of MDTopX.ini is 1, MDTopX also adds the base of the model (see [Export digital terrain models](/mdtopx/desde-linea-de-comando/linea-de-comando-exportar-modelos-digitales-del-terreno.md)). For the native format, use the MDT extension, which is the one MDTopX uses for its TIN digital models.
+
+The `/LADO` and `/TRANSFORM` commands also save a TIN model in STL format with the .stl extension, in OBJ format with the .obj extension and in the native format with any other extension or no extension, according to the extension of the file in which they save it: the input file or, with `/TRANSFORM`, the output file.
 
 To configure triangulation, MDTopX.ini must also contain the mandatory **\[Triangulacion]** line followed by:
 

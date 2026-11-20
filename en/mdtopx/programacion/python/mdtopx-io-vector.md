@@ -1,6 +1,6 @@
 # Package `mdtopx.io.vector`
 <!-- id: mdtopx-io-vector -->
-<!-- origen: 252fd8b9ffb751e21fb5fd0db0c950975ba52bc5 -->
+<!-- origen: 7c4ca3effefda4e53634b9ee6a49e704921de423 -->
 
 **Drawing** formats. Read into `scene.polylines`, `scene.texts`, `scene.points` and, for supported formats, `scene.clouds`. Each entity stores its code in `layer_code` and any supported database attributes in `digi_attributes`. All follow the [common interface](mdtopx-io.md#common-format-interface): `info`, `read`, `write`.
 
@@ -22,7 +22,7 @@ Format details:
 - **BIN**: stores integer coordinates after subtracting `origin` and multiplying by `10**decimals` (2 = centimeter, 3 = millimeter). A separate `<nombre>.prj` beside the `.bin` stores the reference system, read into `scene.srs`. MDTopX-written `.prj` files also store precision and origin, taking precedence over `read` arguments `decimals` and `origin`; these arguments are used only when the `.prj` omits them.
 - **BIND**: stores `double` coordinates without precision or origin settings, with the reference system inside the file.
 - **BIN and BIND**: `wkt` sets the written reference system. If omitted, uses `scene.srs`, or a local system if empty.
-- **DGN, DWG and DXF**: each element's level or layer becomes its `layer_code`. Arcs and ellipses become polylines; cells or blocks are exploded. DWG and DXF share a plugin; the extension selects the format.
+- **DGN, DWG and DXF**: each element's level or layer becomes its `layer_code`. Arcs and ellipses become polylines; cells or blocks are exploded. DWG and DXF share a plugin; the extension selects the format. POINT entities of DWG and DXF and DGN lines whose start and end coincide are read into `scene.points`, with the level or layer in `layer_code`.
 - **Shapefile and GeoPackage**: points become single-vertex polylines, polygons become closed polylines, and multipoints become clouds. Attribute columns are not read.
 - **KML**: geographic coordinates are converted to UTM in `utm_zone` and the specified hemisphere.
 - **GeoMedia**: Windows only, with *Microsoft ACE OLEDB 12.0* installed.
