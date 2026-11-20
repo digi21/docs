@@ -1,6 +1,6 @@
 # Step 11: Output data setup
 <!-- id: topcal21-compensacion-por-minimos-cuadrados-paso-11-configurar-salida-de-datos -->
-<!-- origen: a9e361a0b8426458244e950e68f147edfb9e41ec -->
+<!-- origen: 6dbbab67a580c2d51db2b4e4765d2f1c7f7c9946 -->
 
 In this step a screen is shown with the final computed coordinates and the way to save them. The following fields are shown:
 
@@ -13,4 +13,4 @@ In this step a screen is shown with the final computed coordinates and the way t
 Once the output data have been set up, you can click the **Next** button to go to [Step 12: Sketch setup](paso-12-configurar-croquis-de-dibujo.md) or go back to the previous step by clicking the **Back** button. This step depends on the type of adjustment chosen:
 
 * If a vertical adjustment was selected, the previous step is [Step 10: Results of the vertical Baarda test](paso-10-resultados-del-test-de-baarda-altimetrico.md).
-* If a horizontal adjustment was not selected, the previous step is [Step 7: Results of the horizontal Baarda test](paso-7-resultados-del-test-de-baarda-planimetrico.md).
+* If a vertical adjustment was not selected, the previous step is [Step 7: Results of the horizontal Baarda test](paso-7-resultados-del-test-de-baarda-planimetrico.md).

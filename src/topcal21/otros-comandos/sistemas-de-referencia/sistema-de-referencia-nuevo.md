@@ -21,7 +21,7 @@ Cuando se decide crear o editar un sistema de referencia, la aplicación muestra
       * Falso Norte
       * Paralelo 1
       * Paralelo 2
-    * Para la proyección Cónica conforme de Lambert con dos paralelos:
+    * Para la proyección Cónica conforme de Lambert con un paralelo:
       * Longitud origen
       * Latitud origen
       * Falso Este

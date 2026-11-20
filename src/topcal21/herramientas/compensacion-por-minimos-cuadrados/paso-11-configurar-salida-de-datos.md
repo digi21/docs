@@ -12,4 +12,4 @@ En este paso se muestra una pantalla con las coordenadas finales calculadas y la
 Una vez que se hayan configurado los datos de salida, se puede pulsar al botón **Siguiente** para acceder al [Paso 12: Configurar croquis de dibujo](paso-12-configurar-croquis-de-dibujo.md) o volver al paso anterior pulsando el botón **Anterior**. Este paso depende del tipo de ajuste elegido:
 
 * Si se seleccionó un ajuste altimétrico, el paso anterior será el [Paso 10: Resultados del test de Baarda altimétrico](paso-10-resultados-del-test-de-baarda-altimetrico.md).
-* Si no se seleccionó un ajuste planimétrico, el paso anterior será el [Paso 7: Resultados del test de Baarda planimétrico](paso-7-resultados-del-test-de-baarda-planimetrico.md).
+* Si no se seleccionó un ajuste altimétrico, el paso anterior será el [Paso 7: Resultados del test de Baarda planimétrico](paso-7-resultados-del-test-de-baarda-planimetrico.md).

@@ -1,6 +1,6 @@
 # Step 7: Results of the horizontal Baarda test
 <!-- id: topcal21-compensacion-por-minimos-cuadrados-paso-7-resultados-del-test-de-baarda-planimetrico -->
-<!-- origen: 264e71b178867788076c3c148891f7d564152101 -->
+<!-- origen: 3d98cb0a9ff32f02d20a62e7e5f3588d937f74ff -->
 
 Once the adjustment has been performed and the results presented, the next step is dedicated to the Baarda statistical test. The program shows the standardized residuals of the observations that took part in the computation and the standard deviation of the horizontal adjustment.
 
@@ -35,6 +35,6 @@ Finally, the **a posteriori standard deviation** of the system is also shown. It
 This step is informative only; nothing needs to be selected. You can therefore click the **Next** button to go to the next step. The next step depends on the type of adjustment chosen:
 
 * If a vertical adjustment was selected, the next step is [Step 8: Weights and residuals of the vertical observations](paso-8-pesos-y-residuos-de-las-observaciones-altimetricas.md).
-* If a horizontal adjustment was not selected, the next step is [Step 11: Output data setup](paso-11-configurar-salida-de-datos.md).
+* If a vertical adjustment was not selected, the next step is [Step 11: Output data setup](paso-11-configurar-salida-de-datos.md).
 
 You can also go back to [Step 6: Displacements and horizontal accuracies](paso-6-desplazamientos-y-precisiones-planimetricas.md) by clicking the **Back** button.

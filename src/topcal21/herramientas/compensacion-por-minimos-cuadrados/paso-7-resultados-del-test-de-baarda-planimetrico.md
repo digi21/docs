@@ -34,6 +34,6 @@ Por último, también se muestra la **desviación típica a posteriori** del sis
 Este paso sólo es de información, no es necesario seleccionar nada. Por ello, se puede pulsar al botón **Siguiente** para acceder al siguiente paso. El siguiente paso dependerá del tipo de ajuste elegido:
 
 * Si se seleccionó un ajuste altimétrico, el siguiente paso será el [Paso 8: Pesos y residuos de las observaciones altimétricas](paso-8-pesos-y-residuos-de-las-observaciones-altimetricas.md).
-* Si no se seleccionó un ajuste planimétrico, el siguiente paso será el [Paso 11: Configurar salida de datos](paso-11-configurar-salida-de-datos.md).
+* Si no se seleccionó un ajuste altimétrico, el siguiente paso será el [Paso 11: Configurar salida de datos](paso-11-configurar-salida-de-datos.md).
 
 También puede volver al [Paso 6: Desplazamientos y precisiones planimétricas](paso-6-desplazamientos-y-precisiones-planimetricas.md) pulsando el botón **Anterior**.

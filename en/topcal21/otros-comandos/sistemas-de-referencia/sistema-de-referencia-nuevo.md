@@ -1,6 +1,6 @@
 # New reference system
 <!-- id: sistema-de-referencia-nuevo -->
-<!-- origen: cc86877edbdb489988c5e2db5da77444af18c07e -->
+<!-- origen: afb7743650678eff2f13265e8c1eef92cd0b72cf -->
 
 The reference system tells the program which type of coordinates is used in each file. Select the reference system used by the coordinates in the point files. The program cannot mix coordinates from different reference systems in its computations.
 
@@ -22,7 +22,7 @@ When you create or edit a reference system, the application displays a dialog bo
       * False North
       * Parallel 1
       * Parallel 2
-    * For the Lambert conformal conic projection with two parallels:
+    * For the Lambert conformal conic projection with one parallel:
       * Longitude origin
       * Latitude origin
       * False East
