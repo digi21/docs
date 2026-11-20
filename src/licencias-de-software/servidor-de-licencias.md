@@ -53,7 +53,7 @@ msiexec /i "C:\Instaladores\SetupServidorLicencias_es-ES.msi" /qn PUERTO=21021
 
 ## Qué instala el instalador del servidor
 
-* **Programa:** `C:\Program Files\Digi21\ServidorLicencias\Digi21.ServidorLicencias.exe`, con las bibliotecas de Visual C++ que necesita. El mismo ejecutable funciona como servicio de Windows y como programa de línea de órdenes de administración.
+* **Programa:** `C:\Program Files\Digi21.net\ServidorLicencias\Digi21.ServidorLicencias.exe`, con las bibliotecas de Visual C++ que necesita. El mismo ejecutable funciona como servicio de Windows y como programa de línea de órdenes de administración.
 * **Servicio de Windows «Servidor de licencias de Digi21»** («Digi21 License Server» con el instalador en inglés; nombre interno `Digi21ServidorLicencias` en ambos instaladores):
   * Inicio automático diferido: Windows lo inicia después de los servicios de inicio automático normales, poco después de terminar el arranque del sistema.
   * Cuenta virtual `NT SERVICE\Digi21ServidorLicencias`, que no tiene contraseña.
@@ -78,7 +78,7 @@ El servidor concede sesiones cuando está activado. Activa el servidor con el c�
 2. Ejecuta la orden `activar` con el código de activación del servidor:
 
 ```powershell
-& 'C:\Program Files\Digi21\ServidorLicencias\Digi21.ServidorLicencias.exe' activar <código>
+& 'C:\Program Files\Digi21.net\ServidorLicencias\Digi21.ServidorLicencias.exe' activar <código>
 ```
 
 3. Comprueba que la orden escribe «El servidor se ha activado.» y que `$LASTEXITCODE` vale 100.
@@ -167,7 +167,7 @@ Se necesitan permisos de administrador en cada ordenador cliente para escribir e
 Ejecuta en una consola abierta con **Ejecutar como administrador**:
 
 ```powershell
-$proceso = Start-Process -FilePath 'C:\Program Files\Digi21\Topcal21\Topcal21.exe' -ArgumentList '/servidor-licencias', 'http://servidor01:21021' -Wait -PassThru
+$proceso = Start-Process -FilePath 'C:\Program Files\Digi21.net\TopCal 21\Topcal21.exe' -ArgumentList '/servidor-licencias', 'http://servidor01:21021' -Wait -PassThru
 $proceso.ExitCode
 ```
 
