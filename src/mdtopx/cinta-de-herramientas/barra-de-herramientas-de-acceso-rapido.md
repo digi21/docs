@@ -11,8 +11,8 @@ La primera vez que se utiliza el programa, se incluyen por defecto los siguiente
 
 * Abrir archivo: Comando alojado en el [botón de MDTopX](../introduccion/boton-de-mdtopx.md).
 * Guardar archivo: Comando alojado en el [botón de MDTopX](../introduccion/boton-de-mdtopx.md).
-* Deshacer: Deshace la última modificación realizada sobre el documento actual. Esta herramienta puede ser seleccionada pulsando las teclas \[CTRL] + \[Z]. Se puede configurar la cantidad de modificaciones a guardar desde el cuadro de [diálogo de Opciones](../otras-herramientas/opciones.md) , a la que se puede acceder desde el [botón de MDTopX](../introduccion/boton-de-mdtopx.md).
-* Rehacer: Rehace la última modificación deshecha anteriormente. Esta herramienta puede ser seleccionada pulsando las teclas \[CTRL] + \[Y]
+* Deshacer: Deshace la última modificación realizada sobre el documento actual. Esta herramienta puede ser seleccionada pulsando las teclas \[CTRL] + \[Z]. Al pasar el ratón por el botón se ve el nombre de la herramienta que se va a deshacer (por ejemplo, _Deshacer: Borrar_). No hay un número máximo de pasos: cada paso guarda solo lo que cambió la herramienta, y se guardan todos los que caben en la memoria reservada para deshacer, que se configura en el cuadro de [diálogo de Opciones](../otras-herramientas/opciones.md), al que se puede acceder desde el [botón de MDTopX](../introduccion/boton-de-mdtopx.md). Los pasos más antiguos que no caben en esa memoria pasan a un archivo temporal en el disco. Mientras se está ejecutando un proceso, Deshacer y Rehacer están desactivados.
+* Rehacer: Rehace la última modificación deshecha anteriormente. Esta herramienta puede ser seleccionada pulsando las teclas \[CTRL] + \[Y]. Como en Deshacer, el botón muestra el nombre de la herramienta que se va a rehacer.
 
 Operaciones permitidas con la barra de herramientas de acceso rápido:
 

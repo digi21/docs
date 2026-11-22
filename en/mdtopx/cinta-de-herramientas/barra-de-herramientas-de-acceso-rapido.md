@@ -1,6 +1,6 @@
 # Quick Access Toolbar
 <!-- id: barra-de-herramientas-de-acceso-rapido -->
-<!-- origen: fe1ccc40617fba40eaefe80e4ad1a44f768e367b -->
+<!-- origen: 5860963d63c8578c573bee5921b6ff97bad81440 -->
 
 [Ribbon](/mdtopx/cinta-de-herramientas/)
 
@@ -12,8 +12,8 @@ When first used, the program includes these commands by default:
 
 * Open file: available from the [MDTopX button](../introduccion/boton-de-mdtopx.md).
 * Save file: available from the [MDTopX button](../introduccion/boton-de-mdtopx.md).
-* Undo: reverses the latest change to the current document. Also available with \[CTRL] + \[Z]. Configure the number of changes retained in [Options](../otras-herramientas/opciones.md), accessible from the [MDTopX button](../introduccion/boton-de-mdtopx.md).
-* Redo: reapplies the last undone change. Also available with \[CTRL] + \[Y].
+* Undo: reverses the latest change to the current document. Also available with \[CTRL] + \[Z]. Hovering over the button shows the name of the tool that will be undone (for example, _Undo: Delete_). There is no maximum number of steps: each step stores only what the tool changed, and every step that fits in the memory reserved for undo is kept. Configure that memory in [Options](../otras-herramientas/opciones.md), accessible from the [MDTopX button](../introduccion/boton-de-mdtopx.md). The oldest steps that do not fit move to a temporary file on disk. Undo and Redo are disabled while a process is running.
+* Redo: reapplies the last undone change. Also available with \[CTRL] + \[Y]. As with Undo, the button shows the name of the tool that will be redone.
 
 You can:
 
