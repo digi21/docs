@@ -29,11 +29,11 @@ Los cambios de visibilidad y de color se guardan en la [Lista de clasificaciones
 * **Ninguna**: oculta todas las clasificaciones del archivo.
 * **Borrar clases**: borra del archivo los puntos de las clasificaciones seleccionadas en la lista. Antes de borrar, pide confirmación indicando qué clasificaciones se van a borrar. Si la vista muestra solo una selección (*Vista selección*), borra solo los puntos de esa zona. Es lo mismo que [Borrar según clasificación](../../modulo-laser/segun-clasificacion-lidar/borrar-segun-clasificacion.md), sin pasar por el cuadro de diálogo. Los [objetos](../../modulo-mms/editar-objetos/README.md) de esas clases se borran también.
 
-## Selección
+## Puntos seleccionados
 
-Estas herramientas actúan sobre los puntos seleccionados en la vista activa:
+Estas herramientas actúan sobre los puntos seleccionados en la vista activa, no sobre las filas seleccionadas en la lista. Mientras no haya puntos seleccionados en la vista, están desactivadas.
 
-* **Asignar**: cambia la clasificación de los puntos seleccionados a la elegida en el desplegable. El desplegable contiene todas las clasificaciones de la [Lista de clasificaciones](../../modulo-laser/vista/lista-de-clasificaciones.md), aunque el archivo todavía no tenga puntos de ellas.
+* **Asignar**: cambia la clasificación de los puntos seleccionados a la elegida en el desplegable. El desplegable contiene las 256 clasificaciones, de la 0 a la 255, aunque el archivo todavía no tenga puntos de ellas: las de la [Lista de clasificaciones](../../modulo-laser/vista/lista-de-clasificaciones.md) con su nombre y las demás como «No definido».
 * **Borrar**: borra los puntos seleccionados, sean de la clasificación que sean. Es lo mismo que pulsar la tecla `Supr` en la vista.
 
 Todas estas operaciones se pueden deshacer.
