@@ -1,6 +1,6 @@
 # Find gaps
 <!-- id: buscar-huecos -->
-<!-- origen: f0abd89d2f494f05a1a52d4216b7c0ccb4bfe76b -->
+<!-- origen: 37e901f923e68a6753b0e925b6f4ab84ed0325b1 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -21,7 +21,6 @@ See also:
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find sunken points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
 * [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by flight line](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-segun-linea-de-vuelo.md)
 * [Find points by geometry plus RGB](buscar-puntos-segun-geometria-mas-rgb.md)
 * [Find points by geometry plus intensity](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on flat surfaces](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)

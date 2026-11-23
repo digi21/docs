@@ -1,6 +1,6 @@
 # Find elevated points
 <!-- id: buscar-puntos-elevados -->
-<!-- origen: 359168e32821d2d2530f12f2fcd164800fa0491b -->
+<!-- origen: 6e2d9779587bd0126b8d7a22b15e2840cff21e5c -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -27,7 +27,6 @@ See also:
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find sunken points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
 * [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by flight line](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-segun-linea-de-vuelo.md)
 * [Find points by geometry plus RGB](buscar-puntos-segun-geometria-mas-rgb.md)
 * [Find points by geometry plus intensity](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on flat surfaces](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)

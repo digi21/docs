@@ -1,6 +1,6 @@
 # Find sunken points
 <!-- id: buscar-puntos-hundidos -->
-<!-- origen: 408ad776fab2f7bb84136d7506bf3aadfdcc4ec9 -->
+<!-- origen: 75a68b736ba3be878b0b20f528b7c8797ea3ea93 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -24,7 +24,6 @@ See also:
 * [Find isolated points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aislados.md)
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by flight line](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-segun-linea-de-vuelo.md)
 * [Find points by geometry plus RGB](buscar-puntos-segun-geometria-mas-rgb.md)
 * [Find points by geometry plus intensity](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on flat surfaces](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)

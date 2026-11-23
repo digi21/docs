@@ -1,6 +1,6 @@
 # Find isolated points
 <!-- id: buscar-puntos-aislados -->
-<!-- origen: 8a9f516fd0b56b0513d2241f8f0b44ee1cbb705a -->
+<!-- origen: c3590a7c6ea2e111fbd6dc3ce15d763067ed3be2 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -24,7 +24,6 @@ See also:
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find sunken points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
 * [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by flight line](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-segun-linea-de-vuelo.md)
 * [Find points by geometry plus RGB](buscar-puntos-segun-geometria-mas-rgb.md)
 * [Find points by geometry plus intensity](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on flat surfaces](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)
