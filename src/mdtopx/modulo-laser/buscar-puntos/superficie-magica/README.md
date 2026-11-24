@@ -5,7 +5,7 @@
 
 Esta herramienta busca y clasifica automáticamente los puntos LiDAR. Combina algoritmos y herramientas del programa y elige los algoritmos y los parámetros según el tipo de archivo y el tipo de zona, de modo que usted no tiene que decidirlos en cada ejecución.
 
-Funciona con un archivo de nube de puntos abierto o con un proyecto. Además del suelo, la vegetación y la edificación, clasifica los puentes y pasarelas, la calzada y los vehículos, y los cables y apoyos de las líneas eléctricas (ver [Qué clasifica](#qué-clasifica)), y al terminar agrupa los puntos en [objetos](#los-objetos).
+Funciona con un archivo de nube de puntos abierto o con un proyecto. Además del suelo, la vegetación y la edificación, clasifica los puentes y pasarelas, la calzada y los vehículos, y los cables y apoyos de las líneas eléctricas, si están marcadas sus casillas (ver [Qué clasifica](#qué-clasifica)), y al terminar agrupa los puntos en [objetos](#los-objetos). Con las nubes muy densas, como las de un escáner terrestre, trabaja de otra manera (ver [Nubes muy densas](#nubes-muy-densas-escáner-terrestre)).
 
 ![Cuadro de diálogo Superficie mágica](../../../../images/image-171.png)
 
@@ -34,6 +34,7 @@ Parámetros:
 * **Diferencia**: Si **Usar infrarrojo** está marcada, indique el umbral del NDVI, en onceavos: con 3, el umbral es 3/11 (0,27). Use un valor bajo si el infrarrojo no está bien definido en las zonas de vegetación (por ejemplo, la vegetación de hoja caduca en un vuelo de invierno) y uno alto en caso contrario.
 * **Conservar clasificaciones actuales**: La nube se clasifica siempre desde cero, pero al terminar los puntos que ya tenían una clase (cualquiera salvo 0 y 1, sin clasificar) la recuperan. Esto conserva las ediciones hechas a mano. Los puntos que ya tenían una clase distinta de 0 y 1 no entran en los objetos nuevos, y la herramienta no quita los puntos sintéticos de la ejecución anterior ni añade otros. Desmarque **Conservar clasificaciones actuales** para que todos los puntos tomen la clasificación nueva.
 * **Vectorial al terminar (huellas de edificios)**: Si está marcada, al terminar la clasificación la herramienta calcula, a partir de las clases de edificación y de suelo de los puntos, la huella de cada edificio con lados rectos y la de sus patios, a la cota del suelo, y las abre en un documento nuevo titulado «Vectorial de» seguido del título del documento de origen. Muestra en el [panel de Resultados](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) el número de edificios, cuántos tienen lados rectos, el número de patios y el tamaño de celda. Si no hay ningún edificio, no se crea el documento, y si el cálculo falla, la clasificación se conserva. Con un proyecto, la herramienta calcula las huellas únicamente si se guardan los archivos del proyecto, y las calcula con todos los archivos a la vez. La casilla **Vectorial al terminar (huellas de edificios)** está marcada por defecto. Para calcular las huellas después de la clasificación, sin modificar las clases de los puntos, use la orden **Vectorial SM**.
+* **Clases además de las de ASPRS**: Las casillas **Puentes y pasarelas**, **Calzada y vehículos** y **Cables y apoyos** indican si la herramienta busca esas clases, que no son de la especificación LAS de la ASPRS. Cada casilla muestra entre paréntesis los códigos con que se clasifican, que se cambian con el botón [**Clases LiDAR...**](codigos-lidar.md). Si desmarca una casilla, la herramienta no busca esa clase y sus puntos quedan con la clase que les corresponda entre las demás (suelo, vegetación, edificación, otros...). Las tres casillas están marcadas por defecto. Con una nube muy densa, la herramienta no busca puentes ni calzada aunque sus casillas estén marcadas (ver [Nubes muy densas](#nubes-muy-densas-escáner-terrestre)).
 * **Valores por defecto**: Pone los valores por defecto en todos los parámetros. No cambia los [códigos](codigos-lidar.md), que tienen su propio cuadro, ni las casillas **Actuar sólo en selección**, **Conservar clasificaciones actuales** y **Vectorial al terminar (huellas de edificios)**. Si algún valor del cuadro no es válido, el cuadro informa de él y conserva todos los valores.
 * [**Clases LiDAR...**](codigos-lidar.md): Abre el cuadro de diálogo donde se modifican los códigos de clasificación de Hundidos, Paredes, Aéreos, Otros, Puentes, Calzada, Vehículos, Cables y Apoyos.
 
@@ -56,7 +57,7 @@ Los valores por defecto son:
 | Máximo desnivel para edificaciones | 0,5 m |
 | Diferencia (infrarrojo) | 3 |
 
-El programa comenzará a procesar el archivo actual e irá mostrando los resultados parciales sobre el [panel de Resultados](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) del programa. Al pulsar **Cancelar**, el programa pregunta si desea conservar los cálculos generados hasta ese momento. Además, si en la vista actual del documento se ha elegido visualizar los puntos mediante el parámetro clasificación LiDAR, la vista se irá actualizando para apreciar en tiempo real el progreso de la herramienta.
+El programa comenzará a procesar el archivo actual e irá mostrando los resultados parciales sobre el [panel de Resultados](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) del programa. Al pulsar **Cancelar**, la herramienta se detiene también en mitad de los pasos largos, y el programa pregunta si desea conservar los cálculos generados hasta ese momento. Además, si en la vista actual del documento se ha elegido visualizar los puntos mediante el parámetro clasificación LiDAR, la vista se irá actualizando para apreciar en tiempo real el progreso de la herramienta.
 
 ## Qué clasifica
 
@@ -122,6 +123,17 @@ Con la casilla **Nube LiDAR** desmarcada, la nube es de una multicorrelación fo
 
 * Lo que no es plano a escala de 1 m no es edificación ni puente: las masas de árboles que salen como edificación pasan a vegetación alta.
 * Los puntos sin clasificar, los de la clase **Otros** y los de la clase **Paredes** a más de 3 m en planta de un edificio toman la clase más frecuente (vegetación o edificación) en los vóxeles contiguos de 1 m.
+
+### Nubes muy densas (escáner terrestre)
+
+Una nube es muy densa cuando más de la mitad de sus puntos están en zonas con más de 500 puntos/m², como las nubes de un escáner terrestre o de un escáner móvil. Las nubes aéreas, LiDAR o fotogramétricas, no llegan a esa densidad. Con una nube muy densa:
+
+* La herramienta clasifica una muestra de la nube, con un punto por cubo de 10 cm, y cada punto de la nube toma la clase y el objeto del punto de su cubo. Así, una nube de 80 millones de puntos se clasifica en unos minutos.
+* No busca puentes ni calzada: los escalones del terreno de un bosque en ladera parecían tableros de puente.
+* Un punto no es suelo si tiene debajo, en su columna de 10 cm, al menos 3 puntos a más de 0,3 m por debajo: el tronco de un árbol no es suelo. Esos puntos pasan a vegetación baja, media o alta según su altura sobre los puntos de debajo. En los primeros 50 cm del tronco puede quedar algo de suelo.
+* Una pared tiene que formar, con los puntos que la rodean a 1 m o menos, un plano casi vertical de al menos 0,8 m de ancho y delgado frente a ese ancho. Los troncos, los postes y los pilares estrechos no lo forman y pasan a vegetación media. Los muros de más de unos 35 cm de grueso escaneados por las dos caras y los troncos de más de 1,2 m de diámetro escaneados solo por un lado pueden clasificarse mal.
+
+Donde el escáner no ve el terreno, por ejemplo bajo las copas densas, no hay suelo que clasificar: en la nube solo hay puntos de la copa.
 
 ## Los objetos
 

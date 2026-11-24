@@ -1,6 +1,6 @@
 # Ground only
 <!-- id: solo-suelo -->
-<!-- origen: 8ee94685076e7100b0a5460ce345c049e419d9cc -->
+<!-- origen: fb2f5ecba4352b89381bea114ea386af4306848d -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -15,6 +15,16 @@ Required parameters:
 * **Height tolerance**: determines whether points belong to the same surface.
 * **First search distance**: optional initial ground-search DTM density. Avoid very small values where large flat-roofed buildings exist.
 * **Keep current ground points**: retains points already classified as ground.
+
+## Very dense clouds (terrestrial or mobile scanner)
+
+With a very dense cloud, in which more than half of its points are in areas with more than 500 points/m², and with no selection, the tool works like [Magic surface](/mdtopx/modulo-laser/buscar-puntos/superficie-magica/#very-dense-clouds-terrestrial-scanner):
+
+* It searches for the ground in a sample of the cloud, with one point per 10 cm cube. If the class of the point of a cube changes, the other points of the cube take the new class; if it does not change, they keep their own.
+* After the search, the unclassified points and the low and medium vegetation points that are less than **Height tolerance** above the ground found, or up to 1 m below it, become ground, and the tool repeats this search with the new ground as long as more than 1 % of the points become ground.
+* A point is not ground if it has, below it in its 10 cm column, at least 3 points more than 0.3 m below: the trunk of a tree is not ground. Those points become unclassified (0).
+
+Where the scanner does not see the terrain, for example under dense canopies, there is no ground to classify.
 
 See also:
 

@@ -1,12 +1,12 @@
 # Magic Surface
 <!-- id: superficie-magica -->
-<!-- origen: ddadadf63b3b490639aefa64f2a101dac1401a92 -->
+<!-- origen: c00edddd90874f9287353334d12f65f18dca7759 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
 This tool automatically finds and classifies LiDAR points. It combines algorithms and tools of the program and selects the algorithms and parameters according to the file type and the area type, so you do not have to decide them for each run.
 
-It works with an open point cloud file or with a project. Besides ground, vegetation and buildings, it classifies bridges and footbridges, roads and vehicles, and the wires and towers of power lines (see [What it classifies](#what-it-classifies)), and when it finishes it groups the points into [objects](#objects).
+It works with an open point cloud file or with a project. Besides ground, vegetation and buildings, it classifies bridges and footbridges, roads and vehicles, and the wires and towers of power lines, if their check boxes are selected (see [What it classifies](#what-it-classifies)), and when it finishes it groups the points into [objects](#objects). With very dense clouds, such as those of a terrestrial scanner, it works differently (see [Very dense clouds](#very-dense-clouds-terrestrial-scanner)).
 
 ![Magic surface dialog](../../../../images/image-171.png)
 
@@ -35,6 +35,7 @@ Parameters:
 * **Difference**: when **Use infrared** is selected, set the NDVI threshold in elevenths: with 3, the threshold is 3/11 (0.27). Use a low value if the infrared value is not well defined in the vegetation areas (for example, deciduous vegetation in a winter flight), and a high value otherwise.
 * **Keep current classifications**: the cloud is always classified from scratch, but when the process finishes, the points that already had a class (any except 0 and 1, unclassified) recover it. Manual edits are preserved. Points whose previous class was neither 0 nor 1 are excluded from the new objects, and the tool neither removes the synthetic points from the previous run nor adds new ones. Clear **Keep current classifications** to apply the new classification to every point.
 * **Vector at the end (building footprints)**: if selected, when the classification finishes the tool calculates, from the building and ground classes of the points, the footprint of each building with straight sides and those of its courtyards, at ground elevation, and opens them in a new document titled "Vector of" followed by the title of the source document. The [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) shows the number of buildings, how many have straight sides, the number of courtyards and the cell size. If there are no buildings, no document is created, and if the calculation fails, the classification is kept. With a project, the tool calculates the footprints only when the project files are saved, and it calculates them using all the files together. The **Vector at the end (building footprints)** check box is selected by default. To calculate the footprints after the classification, without modifying the classes of the points, use the **Magic surface vector** command.
+* **Classes besides the ASPRS ones**: the **Bridges and footbridges**, **Roads and vehicles** and **Wires and pylons** check boxes indicate whether the tool searches for those classes, which are not in the ASPRS LAS specification. Each check box shows in brackets the codes they are classified with, which you change with the [**LiDAR classes...**](codigos-lidar.md) button. If you clear a check box, the tool does not search for that class and its points keep the class that corresponds to them among the others (ground, vegetation, building, other...). The three check boxes are selected by default. With a very dense cloud, the tool does not search for bridges or roads even if their check boxes are selected (see [Very dense clouds](#very-dense-clouds-terrestrial-scanner)).
 * **Default values**: sets the default values in all the parameters. It does not change the [codes](codigos-lidar.md), which have their own dialog, nor the **Only in the selection**, **Keep current classifications** and **Vector at the end (building footprints)** check boxes. If a value in the dialog is not valid, the dialog reports it and leaves all the values unchanged.
 * [**LiDAR classes...**](codigos-lidar.md): opens the dialog where you change the classification codes of Noise, Wall, Aerial, Other, Bridges, Road, Vehicles, Wires and Towers.
 
@@ -57,7 +58,7 @@ The default values are:
 | Max height difference in buildings | 0.5 m |
 | Difference (infrared) | 3 |
 
-The program starts processing the current file and shows partial results in the [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) of the program. When you click **Cancel**, the program asks whether to keep the calculations generated up to that moment. In addition, if the current document view displays the points by the LiDAR classification parameter, the view is updated progressively so you can see the progress of the tool in real time.
+The program starts processing the current file and shows partial results in the [Results pane](../../../introduccion/paneles-de-la-aplicacion/panel-resultados.md) of the program. When you click **Cancel**, the tool also stops in the middle of the long steps, and the program asks whether to keep the calculations generated up to that moment. In addition, if the current document view displays the points by the LiDAR classification parameter, the view is updated progressively so you can see the progress of the tool in real time.
 
 ## What it classifies
 
@@ -123,6 +124,17 @@ With the **LiDAR point cloud** check box cleared, the cloud comes from photogram
 
 * What is not flat at a 1 m scale is neither a building nor a bridge: the tree masses that are classified as buildings become high vegetation.
 * Unclassified points, points of the **Other** class and points of the **Wall** class more than 3 m in plan from a building take the most frequent class (vegetation or building) in the adjacent 1 m voxels.
+
+### Very dense clouds (terrestrial scanner)
+
+A cloud is very dense when more than half of its points are in areas with more than 500 points/m², like the clouds of a terrestrial or a mobile scanner. Aerial clouds, LiDAR or photogrammetric, do not reach that density. With a very dense cloud:
+
+* The tool classifies a sample of the cloud, with one point per 10 cm cube, and each point of the cloud takes the class and the object of the point of its cube. This way, a cloud of 80 million points is classified in a few minutes.
+* It does not search for bridges or roads: the terrain steps of a forest on a slope looked like bridge decks.
+* A point is not ground if it has, below it in its 10 cm column, at least 3 points more than 0.3 m below: the trunk of a tree is not ground. Those points become low, medium or high vegetation according to their height above the points below. In the first 50 cm of the trunk some ground may remain.
+* A wall has to form, with the points around it within 1 m, an almost vertical plane at least 0.8 m wide and thin compared to that width. Trunks, posts and narrow pillars do not form it and become medium vegetation. Walls more than about 35 cm thick scanned from both sides and trunks more than 1.2 m in diameter scanned from one side only may be misclassified.
+
+Where the scanner does not see the terrain, for example under dense canopies, there is no ground to classify: the cloud only has canopy points.
 
 ## Objects
 
