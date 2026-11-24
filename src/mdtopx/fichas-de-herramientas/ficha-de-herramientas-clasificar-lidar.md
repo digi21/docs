@@ -11,6 +11,7 @@ Estos comandos aparecen agrupados según los siguientes epígrafes:
 
 * [**Buscar puntos**](../modulo-laser/buscar-puntos/)
 * [**Formas geométricas**](../modulo-laser/formas-geometricas/)
+* [**Forestal**](../modulo-mms/forestal/)
 
 Vea también:
 

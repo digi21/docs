@@ -2449,6 +2449,7 @@
     * [Forestry](mdtopx/modulo-mms/forestal/README.md)
       * [Classify trees](mdtopx/modulo-mms/forestal/clasificar-arboles.md)
       * [Classify trunks](mdtopx/modulo-mms/forestal/clasificar-troncos.md)
+      * [Forest inventory](mdtopx/modulo-mms/forestal/inventario-forestal.md)
     * [Edit objects](mdtopx/modulo-mms/editar-objetos/README.md)
       * [Calculate asphalt boundaries](mdtopx/modulo-mms/editar-objetos/calcular-limite-de-asfalto.md)
       * [Calculate road lines](mdtopx/modulo-mms/editar-objetos/calcular-lineas-de-vial.md)

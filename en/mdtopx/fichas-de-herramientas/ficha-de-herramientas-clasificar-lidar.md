@@ -1,6 +1,6 @@
 # LiDAR classification tab
 <!-- id: ficha-de-herramientas-clasificar-lidar -->
-<!-- origen: 95859789eb2def6da71303ed548c27ceadbd155d -->
+<!-- origen: 0c1f16f118a6cccb2beb40c398d9230d799300cf -->
 
 [Ribbon](/mdtopx/cinta-de-herramientas/)
 
@@ -12,6 +12,7 @@ The commands are grouped as follows:
 
 * [**Find points**](../modulo-laser/buscar-puntos/)
 * [**Geometric shapes**](../modulo-laser/formas-geometricas/)
+* [**Forestry**](../modulo-mms/forestal/)
 
 See also:
 

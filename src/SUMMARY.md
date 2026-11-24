@@ -2810,6 +2810,7 @@
     * [Forestal](mdtopx/modulo-mms/forestal/README.md)
       * [Clasificar árboles](mdtopx/modulo-mms/forestal/clasificar-arboles.md)
       * [Clasificar Troncos](mdtopx/modulo-mms/forestal/clasificar-troncos.md)
+      * [Inventario forestal](mdtopx/modulo-mms/forestal/inventario-forestal.md)
     * [Editar objetos](mdtopx/modulo-mms/editar-objetos/README.md)
       * [Calcular límite de asfalto](mdtopx/modulo-mms/editar-objetos/calcular-limite-de-asfalto.md)
       * [Calcular líneas de vial](mdtopx/modulo-mms/editar-objetos/calcular-lineas-de-vial.md)
