@@ -13,7 +13,7 @@ Este cuadro de diálogo también es mostrado si se pide información acerca de u
 
 En este cuadro de diálogo se muestran los siguientes campos:
 
-* **Información del alzado**: Muestra información general del alzado como el trazado al que pertenece, el nombre y el tipo de alzado, pudiendo ser este último Rasante o Terreno, en función de si se ha obtenido a partir del MDT o dibujado por el propio usuario.
+* **Información del alzado**: Muestra información general del alzado como el trazado al que pertenece, el nombre y el tipo de alzado, pudiendo ser este último Rasante o Terreno, en función de si se ha obtenido a partir del MDT o dibujado por el propio usuario. Con el campo **Código** (de hasta 6 caracteres) se elige el código con que se dibuja el alzado en el longitudinal cuando no es la primera rasante ni el primer terreno del vial; vacío, se dibuja con el código de los otros alzados de la configuración de los perfiles.
 * **Punto 1**: Punto kilométrico y cota del punto 1 del segmento seleccionado. La pendiente corresponde con la pendiente del segmento anterior.
 * **Punto 2**: Punto kilométrico y cota del punto 2 del segmento seleccionado. La pendiente corresponde con la pendiente del segmento anterior, es decir, el que le une con el punto 1.
 * **Punto 3**: Punto kilométrico y cota del punto 3 del segmento seleccionado. La pendiente corresponde con la pendiente del segmento anterior, es decir, el que le une con el punto2.
