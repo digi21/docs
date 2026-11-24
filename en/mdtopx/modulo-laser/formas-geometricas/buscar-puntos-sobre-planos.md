@@ -1,6 +1,6 @@
 # Find points on planes
 <!-- id: buscar-puntos-sobre-planos -->
-<!-- origen: 9712cc1baff49d5e9f2bac026870a1af7543556c -->
+<!-- origen: 91f93002d9739642b81dd6b8f60c227f2061f2a9 -->
 
 [Find geometric shapes](./)
 
@@ -29,9 +29,6 @@ See also:
 * [Find isolated points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aislados.md)
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find sunken points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
-* [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by geometry plus RGB](../buscar-puntos/buscar-puntos-segun-geometria-mas-rgb.md)
-* [Find points by geometry plus intensity](../buscar-puntos/buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on flat surfaces](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)
 * [Find points on walls](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-paredes.md)
 * [Find ground points only](../buscar-puntos/solo-suelo.md)

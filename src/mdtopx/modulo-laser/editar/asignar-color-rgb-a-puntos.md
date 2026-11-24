@@ -20,4 +20,4 @@ Vea también:
 
 * [Según color registrado](/mdtopx/modulo-laser/segun-color-registrado/)
 * [Color de nube](/mdtopx/modulo-laser/vista/color-de-nube.md)
-* [Buscar puntos según Geometría más RGB](../buscar-puntos/buscar-puntos-segun-geometria-mas-rgb.md)
+* [Buscar puntos elevados (con filtro de color)](../buscar-puntos/buscar-puntos-elevados.md)

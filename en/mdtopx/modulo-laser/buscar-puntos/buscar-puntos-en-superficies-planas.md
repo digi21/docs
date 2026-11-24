@@ -1,6 +1,6 @@
 # Find points on flat surfaces
 <!-- id: buscar-puntos-en-superficies-planas -->
-<!-- origen: 8a88904d993a574ff25262080a6a147738246013 -->
+<!-- origen: 915b0c17b51961ec87c0157fd2cb22cd09ca2353 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -24,9 +24,6 @@ See also:
 * [Find isolated points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aislados.md)
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find sunken points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
-* [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by geometry plus RGB](buscar-puntos-segun-geometria-mas-rgb.md)
-* [Find points by geometry plus intensity](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on walls](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-paredes.md)
 * [Find ground points only](solo-suelo.md)
 * [Magic Surface](/mdtopx/modulo-laser/buscar-puntos/superficie-magica/)

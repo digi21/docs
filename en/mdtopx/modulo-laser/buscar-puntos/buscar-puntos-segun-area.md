@@ -1,6 +1,6 @@
 # Find points by area
 <!-- id: buscar-puntos-segun-area -->
-<!-- origen: e440f44294f2d06d6e452265602dc8fe87482881 -->
+<!-- origen: 1b9f98eca085b5ca92ddc4ef2c8b47aa7a39d521 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -24,9 +24,6 @@ See also:
 * [Find isolated points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aislados.md)
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find sunken points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
-* [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by geometry plus RGB](buscar-puntos-segun-geometria-mas-rgb.md)
-* [Find points by geometry plus intensity](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on flat surfaces](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)
 * [Find points on walls](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-paredes.md)
 * [Find ground points only](solo-suelo.md)

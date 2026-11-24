@@ -5,6 +5,8 @@
 
 Herramienta para generar entidades vectoriales con los huecos encontrados en el registro LiDAR. Es útil para determinar zonas cubiertas por agua, donde el láser no rebota, por ejemplo, estanques, piscinas, etc.
 
+La herramienta busca los saltos en el tiempo GPS entre puntos consecutivos del registro, así que necesita que los puntos tengan tiempo GPS: los conjuntos de puntos sin tiempo GPS no se procesan.
+
 ![Cuadro de diálogo Buscar huecos](../../../images/image-175.png)
 
 El cuadro de diálogo tiene los siguientes campos:
@@ -19,9 +21,6 @@ Vea también:
 * [Buscar puntos aislados](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aislados.md)
 * [Buscar puntos aéreos](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Buscar puntos hundidos](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
-* [Buscar puntos por diferencia de intensidad](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Buscar puntos según Geometría más RGB](buscar-puntos-segun-geometria-mas-rgb.md)
-* [Buscar puntos según Geometría más intensidad](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Buscar puntos en Superficies Planas](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)
 * [Buscar puntos en Paredes](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-paredes.md)
 * [Buscar puntos Solo Suelo](solo-suelo.md)

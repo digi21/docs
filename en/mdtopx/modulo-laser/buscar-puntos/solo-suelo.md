@@ -1,6 +1,6 @@
 # Ground only
 <!-- id: solo-suelo -->
-<!-- origen: a181180160593ad55bb851089165db0064f2c156 -->
+<!-- origen: 8ee94685076e7100b0a5460ce345c049e419d9cc -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
@@ -22,9 +22,6 @@ See also:
 * [Find isolated points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aislados.md)
 * [Find airborne points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-aereos.md)
 * [Find sunken points](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-hundidos.md)
-* [Find points by intensity difference](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-por-diferencia-de-intensidad.md)
-* [Find points by geometry plus RGB](buscar-puntos-segun-geometria-mas-rgb.md)
-* [Find points by geometry plus intensity](buscar-puntos-segun-geometria-mas-intensidad.md)
 * [Find points on flat surfaces](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-superficies-planas.md)
 * [Find points on walls](/mdtopx/modulo-laser/buscar-puntos/buscar-puntos-en-paredes.md)
 * [Magic Surface](/mdtopx/modulo-laser/buscar-puntos/superficie-magica/)

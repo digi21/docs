@@ -1,6 +1,6 @@
 # Set RGB color to points
 <!-- id: asignar-color-rgb-a-puntos -->
-<!-- origen: d06484878e938388c25e787c55af81ea3ddbb2e6 -->
+<!-- origen: 6ec60624ff6396df507085f69d866a6a65b5c06b -->
 
 [Edit LiDAR points](../../fichas-de-herramientas/ficha-de-herramientas-archivos-lidar/editar-puntos-en-archivos-lidar.md)
 
@@ -21,4 +21,4 @@ See also:
 
 * [By registered color](/mdtopx/modulo-laser/segun-color-registrado/)
 * [Cloud color](/mdtopx/modulo-laser/vista/color-de-nube.md)
-* [Find points by geometry plus RGB](../buscar-puntos/buscar-puntos-segun-geometria-mas-rgb.md)
+* [Find elevated points (with color filter)](../buscar-puntos/buscar-puntos-elevados.md)
