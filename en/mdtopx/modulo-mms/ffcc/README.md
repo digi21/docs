@@ -15,3 +15,4 @@ Tools for railway point clouds in the MMS module:
 * [**Catenaries**](buscar-catenarias.md)
 * [**Platforms**](buscar-andenes.md)
 * [**Railway element**](inventario-ffcc.md)
+* [**Railway classification**](clasificacion-ffcc.md): classifies the point cloud of a railway line and generates its vector data.

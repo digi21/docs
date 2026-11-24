@@ -2445,6 +2445,7 @@
       * [Find catenaries](mdtopx/modulo-mms/ffcc/buscar-catenarias.md)
       * [Find platforms](mdtopx/modulo-mms/ffcc/buscar-andenes.md)
       * [Railway inventory](mdtopx/modulo-mms/ffcc/inventario-ffcc.md)
+      * [Railway classification](mdtopx/modulo-mms/ffcc/clasificacion-ffcc.md)
     * [Forestry](mdtopx/modulo-mms/forestal/README.md)
       * [Classify trees](mdtopx/modulo-mms/forestal/clasificar-arboles.md)
       * [Classify trunks](mdtopx/modulo-mms/forestal/clasificar-troncos.md)
