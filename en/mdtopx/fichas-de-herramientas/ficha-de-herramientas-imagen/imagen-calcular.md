@@ -1,6 +1,6 @@
 # Compute
 <!-- id: imagen-calcular -->
-<!-- origen: 1a4b38281a90fa81a375bf2c4a443d1b4db58d60 -->
+<!-- origen: debf0560358e37b028fa204f12024598226eb792 -->
 
 [Image tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-imagen/)
 
@@ -15,4 +15,4 @@ This group contains calculation tools that use images to generate new documents:
 * [**Differences**](../../herramientas-para-imagenes/diferencias.md): calculates differences between two images covering the same geographical area.
 * [**NDVI**](../../herramientas-para-imagenes/ndvi.md): calculates NDVI from false-color images containing infrared values.
 * [**Raster to Vector**](../../herramientas-para-imagenes/vectorizar.md): calculates vector boundaries enclosing pixels of a particular color.
-* [**Segmentation**](../../herramientas-para-imagenes/segmentar-imagen.md):
+* [**Segmentation**](../../herramientas-para-imagenes/segmentar-imagen.md): Tool that divides the image into regions of similar colour and obtains their georeferenced polygons, with the colour statistics of each region.

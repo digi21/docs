@@ -14,4 +14,4 @@ Este apartado aglutina ciertas herramientas de cálculo que utiliza imágenes pa
 * [**Diferencias**](../../herramientas-para-imagenes/diferencias.md): Herramienta destinada al cálculo de las diferencias entre dos imágenes que ocupan el mismo espacio geográfico.
 * [**NDVI**](../../herramientas-para-imagenes/ndvi.md): Herramienta destinada al cálculo del valor NDVI a partir de imágenes con falso color, que tiene almacenado el valor infrarrojo.
 * [**Vectorizar**](../../herramientas-para-imagenes/vectorizar.md): Herramienta destinada al cálculo de los límites vectoriales que ocupen píxeles de un determinado color.
-* [**Segmentar**](../../herramientas-para-imagenes/segmentar-imagen.md):
+* [**Segmentar**](../../herramientas-para-imagenes/segmentar-imagen.md): Herramienta destinada a dividir la imagen en regiones de color parecido y obtener sus polígonos georreferenciados, con las estadísticas de color de cada región.
