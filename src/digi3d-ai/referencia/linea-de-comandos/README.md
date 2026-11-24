@@ -23,6 +23,7 @@ Si la línea de comandos no contiene ninguna orden, Digi3D.AI se inicia como si 
 | [foto](/digi3d-ai/referencia/linea-de-comandos/foto.md) | Abre una ventana fotogramétrica |
 | [proyecto](/digi3d-ai/referencia/linea-de-comandos/proyecto.md) | Carga un archivo de proyecto fotogramétrico |
 | [/activar-equipo](/digi3d-ai/referencia/linea-de-comandos/activar-equipo.md) | Activa el ordenador para todos los usuarios de Windows con un código de activación de licencias de software, sin abrir Digi3D.AI. Se escribe con barra inicial y no se combina con las demás órdenes. |
+| [/eliminar-activacion-equipo](/digi3d-ai/referencia/linea-de-comandos/eliminar-activacion-equipo.md) | Elimina del ordenador la activación de licencias de software para todos los usuarios de Windows, sin abrir Digi3D.AI. Se escribe con barra inicial y no se combina con las demás órdenes. |
 
 ## Ejemplos
 

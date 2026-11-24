@@ -1,10 +1,10 @@
 # Software licenses
 <!-- id: licencias-de-software -->
-<!-- origen: 1c882a9af62a5895fdd689528d502a301de50a15 -->
+<!-- origen: f083e9b3adfbb84a5a894d8e5b4d05c674b3e648 -->
 
 ![Software licenses dialog box](../../../images/licencias-de-software.png)
 
-This dialog box shows the status of the software licenses of the computer and lets you activate the computer, renew the usage authorization, obtain a simultaneous session and check the licensed modules. Digi3D.AI uses software licenses, instead of a dongle, when the computer has a software license activation or when you choose **Activate a software license** in the [Digi3D.AI protection](#choosing-the-protection-when-digi3dai-starts) dialog box. For an overview of software licenses, see the [Software licenses](../../../licencias-de-software/README.md) section.
+This dialog box shows the status of the software licenses of the computer and lets you activate the computer, renew the usage authorization, obtain a simultaneous session, check the licensed modules and remove the activation of the computer to use the dongle (HASP key) again. Digi3D.AI uses software licenses, instead of a dongle, when the computer has a software license activation or when you choose **Activate a software license** in the [Digi3D.AI protection](#choosing-the-protection-when-digi3dai-starts) dialog box. For an overview of software licenses, see the [Software licenses](../../../licencias-de-software/README.md) section.
 
 ## Choosing the protection when Digi3D.AI starts
 
@@ -23,7 +23,7 @@ The **Digi3D.AI protection** dialog box says that Digi3D.AI has not found a dong
 The dialog box appears in three cases:
 
 * When Digi3D.AI starts and the computer has no editing license. Digi3D.AI does not continue startup until the computer has an editing license or you click **Exit**.
-* When you select **Help/Software licenses...**. When opened from **Help/Software licenses...**, the dialog box has a single button, **Close**.
+* When you select **Help/Software licenses...**, whether Digi3D.AI uses software licenses or the dongle. When opened from **Help/Software licenses...**, the dialog box has a single closing button, **Close**. If Digi3D.AI uses the dongle, see [Activating software licenses while Digi3D.AI uses the dongle](#activating-software-licenses-while-digi3dai-uses-the-dongle).
 * When the computer loses the editing license while a drawing is open, for example because the computer's activation has been revoked. While any drawing is open, Digi3D.AI checks the license every 5 minutes. When the dialog box opens because the computer lost the editing license, it has the **Close** and **Exit** buttons.
 
 ## Information shown
@@ -81,6 +81,32 @@ An activation code activates the computer without any user signing in to digi21.
 
 Click **Cancel** to close the **Activate with a code** dialog box without activating the computer. The `/activar-equipo <code>` command of `Digi3D.exe` activates the computer for all Windows users without showing any dialog box; see [With the /activar-equipo command](../../../licencias-de-software/activar-ordenadores.md#with-the-activar-equipo-command).
 
+## Activating software licenses while Digi3D.AI uses the dongle
+
+If Digi3D.AI started with the dongle, the dialog box opened from **Help/Software licenses...** shows this text at the top: "Digi3D.AI is using the HASP key. If you activate software licenses on this computer, Digi3D.AI keeps using the HASP key until it closes and uses software licenses the next time it starts."
+
+From this dialog box you can activate the computer with approval on digi21.net or with an activation code, renew the usage authorization and check the licensed modules, as when Digi3D.AI uses software licenses. While Digi3D.AI uses the dongle, the dialog box does not request simultaneous sessions: it does not show the **Session:** line or the **Get a license** button.
+
+When an activation is granted, Digi3D.AI shows the message "Software licenses have been activated on this computer. Digi3D.AI keeps using the HASP key until it closes, and will use software licenses the next time it starts." Digi3D.AI keeps using the dongle until you close it; when it starts again, it finds the activation and uses software licenses.
+
+## Returning to the dongle
+
+The **Use the HASP key** button removes the Digi3D.AI software license activation from this computer, so that Digi3D.AI uses the dongle again. The button appears only when the computer has a Digi3D.AI software license activation, for the Windows user or for all users of the computer.
+
+1. Click **Use the HASP key**. Digi3D.AI asks for confirmation. If the computer has an activation for all Windows users and Digi3D.AI is not running as administrator, the confirmation message says that Windows will ask for administrator permission.
+2. Click **Yes**. While the activation is being removed, the dialog box shows "Digi3D.AI is removing the activation of this computer." and disables all its buttons except **My software licenses**. If the removal has not finished 120 seconds after you click **Yes**, for example because the request for administrator permission is still open, the closing button is enabled; if you close the dialog box, the removal continues and Digi3D.AI does not show its result.
+3. Wait for Digi3D.AI to remove the activation of the Windows user and the activation for all users of the computer, if they exist. Digi3D.AI deletes the usage authorization, the clock state and the computer key of each activation. To remove the activation for all users, Digi3D.AI runs again with administrator permission with the [/eliminar-activacion-equipo](../linea-de-comandos/eliminar-activacion-equipo.md) command. If you cancel the request for administrator permission, Digi3D.AI removes no activation.
+4. Read the result that Digi3D.AI shows.
+
+What happens next depends on the protection that Digi3D.AI uses:
+
+* **Digi3D.AI uses software licenses**: before deleting the activation, Digi3D.AI returns its simultaneous sessions to the server. After removing the activation, Digi3D.AI closes the dialog box and starts closing itself; if there are modified documents, it asks whether to save them. If you cancel the closing, Digi3D.AI tries to close again every 5 minutes while any drawing is open and no dialog box is open. Until it closes, Digi3D.AI does not open the **Software licenses** dialog box again and does not allow you to activate the computer. The next time it starts, Digi3D.AI uses the dongle.
+* **Digi3D.AI uses the dongle**: the dialog box stays open and Digi3D.AI keeps using the dongle.
+
+Digi3D.AI does not report the removal to digi21.net: the seat that the computer occupied in the license remains occupied until the activation ends or Digi21 revokes it. To free the seat, contact Digi21. If you activate the license again on the same computer, the new activation shares the seat of that computer while the license allows another computer key on that computer; see [Number of computers of a license](../../../licencias-de-software/activar-ordenadores.md#number-of-computers-of-a-license).
+
+Raster2Digi, CreaArchivoHmp and DigiTab show the same dialog box when they start without an editing license, also with the **Use the HASP key** button. These programs cannot request administrator permission: if the computer has an activation for all Windows users and the program is not running as administrator, they show a message saying that you must run them as administrator or click **Use the HASP key** in Digi3D.AI, and they remove no activation. When Raster2Digi, CreaArchivoHmp or DigiTab removes the activation, that program exits.
+
 ## Buttons
 
 * **Activate this computer**: starts the approval procedure on digi21.net when the computer is not registered. If the computer is already registered, the button is named **Activate licenses on this computer** and repeats the same procedure to activate more licenses on the computer. The activation button is disabled while another operation is in progress, while Digi3D.AI starts the licensing service, while the registration of the computer is in progress and when Windows cannot open or create the key of the computer.
@@ -89,6 +115,7 @@ Click **Cancel** to close the **Activate with a code** dialog box without activa
 * **My software licenses**: opens in the web browser the digi21.net page with the software licenses of your account.
 * **Activate with a code...**: opens the **Activate with a code** dialog box (see [Activating the computer with an activation code](#activating-the-computer-with-an-activation-code)). The **Activate with a code...** button is enabled under the same conditions as **Activate this computer**.
 * **Get a license**: requests a simultaneous session of the editing license immediately and shows in the result line "Digi3D.AI is obtaining a license." followed by "Digi3D.AI has obtained a license." or the reason why Digi3D.AI did not obtain the simultaneous session. The button appears only when the editing license has a simultaneous session or needs one. The **Get a license** button is enabled when no other operation is in progress, the computer has a valid usage authorization and the **Session:** line says "not started", "lost" or "no license".
+* **Use the HASP key**: removes the Digi3D.AI software license activation from this computer (see [Returning to the dongle](#returning-to-the-dongle)). The button appears only when the computer has an activation, and it is disabled while another operation is in progress.
 * **Continue**: closes the dialog box that appears when Digi3D.AI starts and continues the startup. The **Continue** button is enabled only when the computer has an editing license.
 * **Exit**: during Digi3D.AI startup, closes the dialog box and Digi3D.AI does not start. When the computer has lost the editing license, closes the dialog box and closes Digi3D.AI as if you closed the main window. The **Exit** button does not appear in the dialog box opened from the **Help** menu.
 * **Close**: closes the dialog box opened from the **Help** menu or when the editing license is lost. If the dialog box opened because the editing license was lost and the computer still has no editing license, Digi3D.AI displays the message "You do not have a license for this feature" and opens the dialog box again.

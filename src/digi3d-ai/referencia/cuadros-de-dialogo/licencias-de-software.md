@@ -3,7 +3,7 @@
 
 ![Cuadro de diálogo Licencias de software](../../../images/licencias-de-software.png)
 
-Este cuadro de diálogo muestra el estado de las licencias de software del equipo y permite activar el equipo, renovar la autorización de uso, obtener una sesión simultánea y consultar los módulos con licencia. Digi3D.AI usa licencias de software, en lugar de una llave de protección, cuando el equipo tiene una activación de licencias de software o cuando eliges **Activar una licencia de software** en el cuadro [Protección de Digi3D.AI](#elegir-la-protección-al-iniciar-digi3dai). Para una visión general de las licencias de software, consulta la sección [Licencias de software](../../../licencias-de-software/README.md).
+Este cuadro de diálogo muestra el estado de las licencias de software del equipo y permite activar el equipo, renovar la autorización de uso, obtener una sesión simultánea, consultar los módulos con licencia y eliminar la activación del equipo para volver a usar la llave de protección (llave HASP). Digi3D.AI usa licencias de software, en lugar de una llave de protección, cuando el equipo tiene una activación de licencias de software o cuando eliges **Activar una licencia de software** en el cuadro [Protección de Digi3D.AI](#elegir-la-protección-al-iniciar-digi3dai). Para una visión general de las licencias de software, consulta la sección [Licencias de software](../../../licencias-de-software/README.md).
 
 ## Elegir la protección al iniciar Digi3D.AI
 
@@ -22,7 +22,7 @@ El cuadro **Protección de Digi3D.AI** indica que Digi3D.AI no ha encontrado una
 El cuadro de diálogo aparece en tres casos:
 
 * Al iniciar Digi3D.AI, si el equipo no tiene licencia de edición. Digi3D.AI no continúa el inicio hasta que el equipo tenga licencia de edición o pulses **Salir**.
-* Al seleccionar la opción del menú **Ayuda/Licencias de software...**. En este caso el cuadro de diálogo tiene un único botón, **Cerrar**.
+* Al seleccionar la opción del menú **Ayuda/Licencias de software...**, tanto si Digi3D.AI usa licencias de software como si usa la llave de protección. En este caso el cuadro de diálogo tiene un único botón de cierre, **Cerrar**. Si Digi3D.AI usa la llave de protección, consulta [Activar licencias de software mientras Digi3D.AI usa la llave de protección](#activar-licencias-de-software-mientras-digi3dai-usa-la-llave-de-protección).
 * Cuando el equipo pierde la licencia de edición con un dibujo abierto, por ejemplo porque se ha revocado la activación del equipo. Mientras hay algún dibujo abierto, Digi3D.AI comprueba la licencia cada 5 minutos. En este caso el cuadro de diálogo tiene los botones **Cerrar** y **Salir**.
 
 ## Información que muestra
@@ -80,6 +80,32 @@ Un código de activación activa el equipo sin que ningún usuario inicie sesió
 
 Pulsa **Cancelar** para cerrar el cuadro **Activar con un código** sin activar el equipo. La orden de línea de órdenes `/activar-equipo <código>` de `Digi3D.exe` activa el equipo para todos los usuarios de Windows sin mostrar ningún cuadro de diálogo; consulta [Con la orden /activar-equipo](../../../licencias-de-software/activar-ordenadores.md#con-la-orden-activar-equipo).
 
+## Activar licencias de software mientras Digi3D.AI usa la llave de protección
+
+Si Digi3D.AI se ha iniciado con la llave de protección, el cuadro de diálogo que se abre desde **Ayuda/Licencias de software...** muestra en la parte superior el texto «Digi3D.AI está usando la llave HASP. Si activas Licencias de software en este equipo, Digi3D.AI seguirá usando la llave HASP hasta que se cierre y usará Licencias de software la próxima vez que se inicie.».
+
+Desde este cuadro de diálogo puedes activar el equipo con aprobación en digi21.net o con un código de activación, renovar la autorización de uso y consultar los módulos con licencia, igual que cuando Digi3D.AI usa licencias de software. Mientras Digi3D.AI usa la llave de protección, el cuadro de diálogo no solicita sesiones simultáneas: no muestra la línea **Sesión:** ni el botón **Obtener licencia**.
+
+Cuando una activación se concede, Digi3D.AI muestra el mensaje «Se ha activado Licencias de software en este equipo. Digi3D.AI seguirá usando la llave HASP hasta que se cierre, y usará Licencias de software la próxima vez que se inicie.». Digi3D.AI sigue usando la llave de protección hasta que lo cierres; al iniciarse de nuevo, encuentra la activación y usa licencias de software.
+
+## Volver a la llave de protección
+
+El botón **Usar la llave HASP** elimina de este equipo la activación de licencias de software de Digi3D.AI, para que Digi3D.AI vuelva a usar la llave de protección. El botón solo aparece cuando el equipo tiene una activación de licencias de software de Digi3D.AI, del usuario de Windows o para todos los usuarios del equipo.
+
+1. Pulsa **Usar la llave HASP**. Digi3D.AI pide confirmación. Si el equipo tiene una activación para todos los usuarios de Windows y Digi3D.AI no se ejecuta como administrador, el mensaje de confirmación indica que Windows pedirá permisos de administrador.
+2. Pulsa **Sí**. Mientras se elimina la activación, el cuadro de diálogo muestra «Digi3D.AI está eliminando la activación de este equipo.» y deshabilita todos sus botones salvo **Mis licencias de software**. Si la eliminación no ha terminado 120 segundos después de pulsar **Sí**, por ejemplo porque la petición de permisos de administrador sigue abierta, el botón de cierre se habilita; si cierras el cuadro de diálogo, la eliminación continúa y Digi3D.AI no muestra su resultado.
+3. Espera a que Digi3D.AI elimine la activación del usuario de Windows y la activación para todos los usuarios del equipo, si existen. Digi3D.AI borra la autorización de uso, el estado del reloj y la clave del equipo de cada activación. Para eliminar la activación para todos los usuarios, Digi3D.AI se vuelve a ejecutar con permisos de administrador con la orden [/eliminar-activacion-equipo](../linea-de-comandos/eliminar-activacion-equipo.md). Si cancelas la petición de permisos de administrador, Digi3D.AI no elimina ninguna activación.
+4. Lee el resultado que muestra Digi3D.AI.
+
+Lo que ocurre después depende de la protección que usa Digi3D.AI:
+
+* **Digi3D.AI usa licencias de software**: antes de borrar la activación, Digi3D.AI devuelve al servidor las sesiones simultáneas que tenga. Después de eliminar la activación, Digi3D.AI cierra el cuadro de diálogo e inicia su propio cierre; si hay documentos modificados, pregunta si quieres guardarlos. Si cancelas el cierre, Digi3D.AI vuelve a intentar cerrarse cada 5 minutos mientras haya algún dibujo abierto y no haya ningún cuadro de diálogo abierto. Hasta que se cierra, Digi3D.AI no vuelve a abrir el cuadro **Licencias de software** ni permite activar el equipo. La próxima vez que se inicie, Digi3D.AI usa la llave de protección.
+* **Digi3D.AI usa la llave de protección**: el cuadro de diálogo sigue abierto y Digi3D.AI sigue usando la llave de protección.
+
+Digi3D.AI no comunica la eliminación a digi21.net: la plaza que ocupaba el equipo en la licencia sigue ocupada hasta que termine la activación o Digi21 la revoque. Para liberar la plaza, ponte en contacto con Digi21. Si vuelves a activar la licencia en el mismo ordenador, la activación nueva comparte la plaza de ese ordenador mientras la licencia admita otra clave de equipo en él; consulta [Número de ordenadores de una licencia](../../../licencias-de-software/activar-ordenadores.md#número-de-ordenadores-de-una-licencia).
+
+Raster2Digi, CreaArchivoHmp y DigiTab muestran el mismo cuadro de diálogo al iniciarse sin licencia de edición, también con el botón **Usar la llave HASP**. Estos programas no pueden pedir permisos de administrador: si el equipo tiene una activación para todos los usuarios de Windows y el programa no se ejecuta como administrador, muestran un mensaje que indica que debes ejecutarlos como administrador o pulsar **Usar la llave HASP** en Digi3D.AI, y no eliminan ninguna activación. Cuando Raster2Digi, CreaArchivoHmp o DigiTab elimina la activación, ese programa termina.
+
 ## Botones
 
 * **Activar este equipo**: inicia el procedimiento de aprobación en digi21.net cuando el equipo no está registrado. Si el equipo ya está registrado, el botón se llama **Activar licencias en este equipo** y repite el mismo procedimiento para activar más licencias en el equipo. El botón de activación está deshabilitado mientras hay otra operación en curso, mientras Digi3D.AI inicia el servicio de licencias, mientras el registro del equipo está en curso y cuando Windows no puede abrir ni crear la clave del equipo.
@@ -88,6 +114,7 @@ Pulsa **Cancelar** para cerrar el cuadro **Activar con un código** sin activar 
 * **Mis licencias de software**: abre en el navegador la página de digi21.net con las licencias de software de tu cuenta.
 * **Activar con un código...**: abre el cuadro **Activar con un código** (consulta [Activar el equipo con un código de activación](#activar-el-equipo-con-un-código-de-activación)). Está habilitado en las mismas condiciones que **Activar este equipo**.
 * **Obtener licencia**: solicita inmediatamente una sesión simultánea de la licencia de edición y muestra en la línea de resultado «Digi3D.AI está obteniendo una licencia.» y, a continuación, «Digi3D.AI ha obtenido una licencia.» o el motivo por el que no la ha obtenido. El botón solo aparece cuando la licencia de edición tiene una sesión simultánea o necesita una. Está habilitado cuando no hay otra operación en curso, el equipo tiene una autorización de uso válida y la línea **Sesión:** indica «sin iniciar», «perdida» o «sin licencia».
+* **Usar la llave HASP**: elimina de este equipo la activación de licencias de software de Digi3D.AI (consulta [Volver a la llave de protección](#volver-a-la-llave-de-protección)). El botón solo aparece cuando el equipo tiene una activación y está deshabilitado mientras hay otra operación en curso.
 * **Continuar**: cierra el cuadro de diálogo que aparece al iniciar Digi3D.AI y continúa el inicio. El botón **Continuar** está habilitado solo cuando el equipo tiene licencia de edición.
 * **Salir**: al iniciar Digi3D.AI, cierra el cuadro de diálogo y Digi3D.AI no se inicia. Cuando el equipo ha perdido la licencia de edición, cierra el cuadro de diálogo y cierra Digi3D.AI igual que al cerrar la ventana principal. No aparece en el cuadro de diálogo abierto desde el menú **Ayuda**.
 * **Cerrar**: cierra el cuadro de diálogo abierto desde el menú **Ayuda** o al perder la licencia de edición. Si el cuadro de diálogo se abrió al perder la licencia de edición y el equipo sigue sin licencia de edición, Digi3D.AI muestra el mensaje «No tienes licencia para esta característica» y vuelve a abrir el cuadro de diálogo.

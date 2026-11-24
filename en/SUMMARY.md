@@ -1394,6 +1394,7 @@
       * [Photo](digi3d-ai/referencia/linea-de-comandos/foto.md)
       * [Project](digi3d-ai/referencia/linea-de-comandos/proyecto.md)
       * [/activar-equipo](digi3d-ai/referencia/linea-de-comandos/activar-equipo.md)
+      * [/eliminar-activacion-equipo](digi3d-ai/referencia/linea-de-comandos/eliminar-activacion-equipo.md)
     * [Macros](digi3d-ai/referencia/macros.md)
       * [Left](digi3d-ai/referencia/macros/left.md)
       * [Right](digi3d-ai/referencia/macros/right.md)

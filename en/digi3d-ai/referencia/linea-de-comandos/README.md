@@ -1,6 +1,6 @@
 # Command line
 <!-- id: linea-de-comandos -->
-<!-- origen: c9a95360a871ca08ec4c31cefd4008e098c7bbbc -->
+<!-- origen: 1c02045923b112323dc3a74252fcbacb612db406 -->
 
 You can pass parameters to Digi3D.AI from the command line.
 
@@ -24,6 +24,7 @@ If the command line contains no command, Digi3D.AI starts as if it had no parame
 | [foto](/digi3d-ai/referencia/linea-de-comandos/foto.md) | Opens a photogrammetric window |
 | [proyecto](/digi3d-ai/referencia/linea-de-comandos/proyecto.md) | Loads a photogrammetric project file |
 | [/activar-equipo](/digi3d-ai/referencia/linea-de-comandos/activar-equipo.md) | Activates the computer for all Windows users with a software license activation code, without opening Digi3D.AI. It is written with a leading slash and cannot be combined with the other commands. |
+| [/eliminar-activacion-equipo](/digi3d-ai/referencia/linea-de-comandos/eliminar-activacion-equipo.md) | Removes from the computer the software license activation for all Windows users, without opening Digi3D.AI. It is written with a leading slash and cannot be combined with the other commands. |
 
 ## Examples
 
