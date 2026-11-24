@@ -2898,6 +2898,7 @@
     * [Extraer entidades](mdtopx/herramientas-proyectos/extraer-entidades.md)
     * [Ordenar ficheros](mdtopx/herramientas-proyectos/ordenar-ficheros.md)
     * [Juntar nubes](mdtopx/herramientas-proyectos/juntar-nubes.md)
+    * [Orientar por troncos](mdtopx/herramientas-proyectos/orientar-por-troncos.md)
   * [Otras herramientas](mdtopx/otras-herramientas/README.md)
     * [Lista de códigos](mdtopx/otras-herramientas/lista-de-codigos/README.md)
       * [Código Nuevo](mdtopx/otras-herramientas/lista-de-codigos/codigo-nuevo.md)

@@ -6,3 +6,4 @@
 * [Extraer entidades](extraer-entidades.md)
 * [Ordenar ficheros](ordenar-ficheros.md)
 * [Juntar nubes](juntar-nubes.md)
+* [Orientar por troncos](orientar-por-troncos.md)
