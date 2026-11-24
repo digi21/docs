@@ -84,7 +84,8 @@ Cada versión es un ZIP con los archivos que Lot Of Points instala en la carpeta
 ## Publicar una versión
 
 1. Escribe en la página de la extensión la versión (`mayor.menor.revisión`, mayor que la de cada versión ya
-   creada), la versión mínima de Lot Of Points y las novedades en Markdown.
+   creada), la versión mínima de Lot Of Points y las novedades en Markdown. Si es una versión beta, marca la casilla de
+   versión beta (consulta la sección «Versiones beta»).
 2. Elige el ZIP y pulsa **Subir y enviar a revisión**. La página sube el ZIP a digi21.net y el servidor comprueba
    su contenido.
 3. Espera la revisión de Digi21. Si Digi21 rechaza la versión, la página muestra el motivo y puedes subir otro ZIP.
@@ -93,3 +94,115 @@ Al publicar la versión, digi21.net asigna la fecha de publicación y firma un m
 archivo. Cada vez que se inicia, Lot Of Points comprueba la firma del manifiesto y los resúmenes criptográficos de los archivos de cada versión instalada. Una compra permite usar las
 versiones de la extensión publicadas hasta la fecha de fin del soporte incluido en esa compra. Si Digi21 retira una versión publicada, la tienda deja de
 entregarla y Lot Of Points deja de cargarla.
+
+## Ocultar una extensión
+
+Una extensión oculta no aparece en el catálogo de la tienda ni en su ficha pública de digi21.net (`/Extensiones/{id}`).
+Los usuarios la encuentran en Lot Of Points con un código de acceso que les entregas (consulta la sección
+«Códigos de acceso»). Una extensión oculta pasa por la misma aprobación y la misma revisión de Digi21 que una extensión
+del catálogo, y Digi21 firma también los manifiestos de sus versiones. Si la extensión es de pago, el usuario sigue necesitando
+la licencia: el código de acceso permite encontrar y descargar la extensión, pero no sustituye a la licencia.
+
+Para ocultar una extensión o volver a mostrarla en el catálogo:
+
+1. Abre la página de la extensión en el portal de desarrolladores y ve a la sección **Visibilidad en el catálogo**.
+2. Pulsa **Ocultar**. Para volver a mostrarla, pulsa **Mostrar en el catálogo**.
+3. Si la extensión ya tiene versiones publicadas, confirma el aviso del portal: «Los usuarios que instalaron la extensión
+   desde el catálogo dejarán de recibir versiones nuevas hasta que escriban un código de acceso en Lot Of Points.».
+   Estos usuarios conservan las versiones instaladas; para recibir versiones nuevas, escriben un código de acceso.
+
+Una entrada de la tienda para comprar una función incluida en el programa tiene que figurar en el catálogo, así que el portal no
+permite ocultarla.
+
+## Códigos de acceso
+
+Un código de acceso permite encontrar una extensión oculta en Lot Of Points y descargarla. Cada código pertenece a una
+extensión. Crea un código por destinatario para poder revocarlos por separado.
+
+Para crear un código de acceso:
+
+1. En la página de la extensión, ve a la sección **Códigos de acceso**.
+2. Escribe, si quieres, una descripción en **Descripción del destinatario (opcional)**. La tabla de códigos muestra esa
+   descripción.
+3. Elige, si quieres, una fecha en **Caduca el (opcional; a las 00:00 en tiempo universal coordinado, UTC)**. Si no eliges
+   fecha, el código no caduca (**Sin caducidad**).
+4. Pulsa **Crear un código de acceso**.
+5. Copia el código y el enlace con los botones **Copiar** y envíalos al destinatario.
+
+El portal muestra el código y el enlace una sola vez: «Copia ahora el código y el enlace: la tienda guarda solo el resumen
+SHA-256 del código y no puede volver a mostrar el código.». SHA-256 es una función que calcula un resumen criptográfico de un texto;
+a partir del resumen no se puede recuperar el código. Si pierdes un código, revócalo y crea otro.
+
+Un código tiene 20 letras y cifras. El portal lo muestra en cuatro grupos de cinco separados por guiones. El enlace tiene la
+forma `https://lotofpoints.xyz/Extensiones/Codigo#BCDFG-HJKLM-NPQRS-TVWXZ`. El código ocupa el fragmento de la
+dirección, situado después de la almohadilla (`#`). El navegador no envía ese fragmento al servidor. La página `/Extensiones/Codigo` muestra el código del enlace con un
+botón **Copiar** e indica cómo usarlo en Lot Of Points.
+
+Cada extensión puede tener como máximo 100 códigos sin revocar. Si ya tiene 100, el portal muestra «La extensión ya tiene 100
+códigos de acceso sin revocar. Revoca un código de acceso antes de crear un código de acceso nuevo.».
+
+La tabla de la sección **Códigos de acceso** muestra, para cada código, sus 5 primeros caracteres, la descripción, la fecha de
+creación (**Creado (UTC)**), la fecha de caducidad (**Caduca (UTC)**), el número de **Consultas**, la **Última consulta (UTC)**
+y el **Estado**: **Vigente**, **Caducado** o **Revocado**. Una consulta es una petición de Lot Of Points que encuentra el
+código vigente.
+
+Para revocar un código, pulsa **Revocar** en su fila de la tabla. Desde ese momento, Lot Of Points no encuentra la extensión
+con ese código. Revocar un código no desinstala la extensión de los equipos que ya la instalaron, y Lot Of Points sigue
+cargando las versiones instaladas. Para que Lot Of Points deje de cargar una versión instalada, pide a Digi21 que retire esa versión.
+
+### Qué hace el usuario en Lot Of Points
+
+1. Abre el panel **Tienda** y pulsa **Buscar con un código de acceso**.
+2. Escribe el código o pega el enlace que te envió el desarrollador. El cuadro de diálogo explica: «Escribe el código de acceso o pega el enlace
+   que te ha enviado el desarrollador. Las extensiones ocultas no aparecen en el catálogo de la tienda.». Lot Of Points acepta
+   el código con o sin guiones.
+3. Pulsa **Buscar**. Lot Of Points muestra la ficha de la extensión, y el usuario la instala igual que una extensión del
+   catálogo. El cuadro de confirmación avisa de que la extensión no aparece en el catálogo y de que Lot Of Points la ha
+   encontrado con el código escrito.
+
+Si ningún código vigente coincide con el texto, Lot Of Points muestra «Ningún código de acceso vigente coincide con el texto
+escrito. Comprueba el código o pide otro al desarrollador de la extensión.».
+
+Lot Of Points guarda el código de cada extensión oculta que el usuario encuentra. Cuando el usuario actualiza el catálogo y el
+código guardado ha caducado o lo has revocado, Lot Of Points muestra: «El código de acceso guardado para {0} ha caducado o el
+desarrollador lo ha revocado. Lot Of Points conserva las versiones instaladas de {0}. Escribe un código vigente para consultar
+las versiones disponibles de {0} en la tienda.», donde {0} es el nombre de la extensión.
+
+## Versiones beta
+
+Una versión beta es una versión que publicas para que los usuarios la prueben antes de que la publiques como versión estable. Lot Of Points
+ofrece las versiones beta de una extensión solo a los usuarios que eligen recibirlas.
+
+Para publicar una versión beta:
+
+1. En la página de la extensión, rellena el formulario de la versión como se explica en la sección «Publicar una versión».
+2. Marca la casilla **Versión beta: Lot Of Points solo la ofrece a los usuarios que eligen recibir las versiones beta de esta
+   extensión.**
+3. Pulsa **Subir y enviar a revisión**.
+
+Una versión beta usa el mismo formato de número que una estable (`mayor.menor.revisión`, sin sufijos como `-beta.1`) y su
+número tiene que ser mayor que el de cada versión ya creada, beta o estable. Digi21 la revisa igual que una versión estable, y el manifiesto
+firmado no indica que sea beta. La tabla de versiones de la página de la extensión tiene una columna **Beta** que marca las
+versiones beta. La ficha pública de digi21.net no muestra las versiones beta.
+
+Para que solo reciban la beta destinatarios concretos, publícala en una extensión oculta aparte.
+
+### Qué hace el usuario en Lot Of Points
+
+La ficha de la extensión muestra la **Última versión beta**. El usuario pulsa **Instalar la versión beta {0}**, donde {0} es el
+número de la versión, y confirma la instalación. Si la instalación de la beta finaliza correctamente, Lot Of Points ofrece desde ese momento la
+versión más reciente de la extensión, beta o estable. Para dejar de recibir las versiones beta, el usuario pulsa **Volver a la
+versión estable {0}**. Si la última versión estable no está instalada, Lot Of Points la descarga al pulsar el botón. En el
+siguiente inicio, Lot Of Points carga la última versión estable y borra las versiones beta instaladas.
+
+### Publicar una beta como versión estable
+
+Para publicar como estable una versión beta ya publicada, pulsa **Publicar como versión estable** en su fila de la tabla de versiones.
+Digi21 no repite la revisión, porque los ficheros y el manifiesto firmado son los que ya revisó. La versión conserva su fecha de
+publicación y la columna **Beta** deja de marcarla. Los usuarios que no reciben versiones beta empiezan a ver esa versión como
+estable.
+
+El portal rechaza el cambio si la versión no es una beta publicada o si la extensión tiene una versión estable publicada con un
+número mayor: «Solo se puede publicar como estable una versión beta publicada, y la extensión no puede tener una versión
+estable publicada con un número de versión mayor que el de esa versión beta.». Por ejemplo, si publicas la versión estable 1.1.1, no puedes publicar como estable la
+beta 1.1.0.

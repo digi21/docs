@@ -1,6 +1,6 @@
 # Publish in the extension store
 <!-- id: lot-of-points-publicar-en-la-tienda -->
-<!-- origen: 21464df213bfa113c242a1e337d7d12cca46288d -->
+<!-- origen: 82bffd80238d610419ad88bfc4853239abb7b539 -->
 
 The digi21.net extension store distributes Lot Of Points commands written in C, C++, Python or .NET. Users install extensions from **Settings** > **Store** (see the [extension manager](../gestor-de-extensiones.md)). Digi21 approves each developer and reviews each version before publishing, because extension code runs on the user's computer with the same permissions as Lot Of Points.
 
@@ -60,8 +60,76 @@ Each version is a ZIP containing the files Lot Of Points installs in that versio
 
 ## Publish a version
 
-1. On the extension page, enter the version (`mayor.menor.revisión`, higher than every version already created), minimum Lot Of Points version and release notes in Markdown.
+1. On the extension page, enter the version (`mayor.menor.revisión`, higher than every version already created), minimum Lot Of Points version and release notes in Markdown. If it is a beta version, select the beta checkbox (see the "Beta versions" section).
 2. Choose the ZIP and click **Upload and submit for review**. The page uploads it to digi21.net and the server checks its contents.
 3. Wait for Digi21's review. If rejected, the page shows the reason and you can upload another ZIP.
 
 On publication, digi21.net assigns the publication date and signs a manifest containing each file's cryptographic hash. At each startup, Lot Of Points checks the manifest signature and file hashes of each installed version. A purchase permits use of extension versions published up to the end date of its included support. If Digi21 withdraws a published version, the store stops delivering it and Lot Of Points stops loading it.
+
+## Hide an extension
+
+A hidden extension does not appear in the store catalog or in its public listing on digi21.net (`/Extensiones/{id}`). Users find it in Lot Of Points with an access code that you give them (see the "Access codes" section). A hidden extension goes through the same approval and the same Digi21 review as a catalog extension, and Digi21 also signs the manifests of its versions. If the extension is paid, the user still needs the license: the access code lets the user find and download the extension, but it does not replace the license.
+
+To hide an extension or show it in the catalog again:
+
+1. Open the extension page in the developer portal and go to the **Catalog visibility** section.
+2. Click **Hide**. To show it again, click **Show in the catalog**.
+3. If the extension already has published versions, confirm the portal warning: "Users who installed the extension from the catalog will stop receiving new versions until they enter an access code in Lot Of Points." These users keep the installed versions; to receive new versions, they enter an access code.
+
+A store entry for buying a feature built into the program must appear in the catalog, so the portal does not allow hiding it.
+
+## Access codes
+
+An access code lets a user find a hidden extension in Lot Of Points and download it. Each code belongs to one extension. Create one code per recipient so that you can revoke the codes separately.
+
+To create an access code:
+
+1. On the extension page, go to the **Access codes** section.
+2. Optionally, enter a description in **Recipient description (optional)**. The table of codes shows that description.
+3. Optionally, choose a date in **Expires on (optional; at 00:00 Coordinated Universal Time, UTC)**. If you choose no date, the code does not expire (**No expiry**).
+4. Click **Create an access code**.
+5. Copy the code and the link with the **Copy** buttons and send them to the recipient.
+
+The portal shows the code and the link only once: "Copy the code and the link now: the store keeps only the SHA-256 hash of the code and cannot show the code again." SHA-256 is a function that computes a cryptographic hash of a text; the code cannot be recovered from the hash. If you lose a code, revoke it and create another.
+
+A code has 20 letters and digits. The portal shows it in four groups of five separated by hyphens. The link has the form `https://lotofpoints.xyz/Extensiones/Codigo#BCDFG-HJKLM-NPQRS-TVWXZ`. The code occupies the URL fragment, after the hash sign (`#`). The browser does not send the fragment to the server. The `/Extensiones/Codigo` page shows the code from the link with a **Copy** button and explains how to use it in Lot Of Points.
+
+Each extension can have at most 100 unrevoked codes. If it already has 100, the portal shows "The extension already has 100 access codes that are not revoked. Revoke an access code before you create a new access code."
+
+The table in the **Access codes** section shows, for each code, its first 5 characters, the description, the creation date (**Created (UTC)**), the expiry date (**Expires (UTC)**), the number of **Lookups**, the **Last lookup (UTC)** and the **Status**: **Valid**, **Expired** or **Revoked**. A lookup is a Lot Of Points request that finds the valid code.
+
+To revoke a code, click **Revoke** in its table row. From then on, Lot Of Points does not find the extension with that code. Revoking a code does not uninstall the extension from computers that already installed it, and Lot Of Points keeps loading the installed versions. To stop Lot Of Points from loading an installed version, ask Digi21 to withdraw that version.
+
+### What the user does in Lot Of Points
+
+1. Open the **Store** panel and click **Find with an access code**.
+2. Type the code or paste the link received. The dialog explains: "Type the access code or paste the link that the developer sent you. Hidden extensions do not appear in the store catalog." Lot Of Points accepts the code with or without hyphens.
+3. Click **Find**. Lot Of Points shows the extension listing, and the user installs it in the same way as a catalog extension. The confirmation dialog warns that the extension does not appear in the catalog and that Lot Of Points found it with the code entered.
+
+If no valid code matches the text, Lot Of Points shows "No valid access code matches the text you typed. Check the code or ask the developer of the extension for a new one."
+
+Lot Of Points saves the code of each hidden extension that the user finds. When the user refreshes the catalog and the saved code has expired or you have revoked it, Lot Of Points shows: "The access code saved for {0} has expired or the developer has revoked it. Lot Of Points keeps the installed versions of {0}. Enter a valid code to look up the available versions of {0} in the store.", where {0} is the extension name.
+
+## Beta versions
+
+A beta version is a version that you publish so that users test it before you publish it as a stable version. Lot Of Points offers the beta versions of an extension only to users who choose to receive them.
+
+To publish a beta version:
+
+1. On the extension page, fill in the version form as explained in the "Publish a version" section.
+2. Select the checkbox **Beta version: Lot Of Points offers it only to users who choose to receive the beta versions of this extension.**
+3. Click **Upload and submit for review**.
+
+A beta version uses the same number format as a stable version (`mayor.menor.revisión`, without suffixes such as `-beta.1`) and must be higher than every version already created, beta or stable. Digi21 reviews it in the same way as a stable version, and the signed manifest does not indicate that it is beta. The versions table on the extension page has a **Beta** column that marks beta versions. The public listing on digi21.net does not show beta versions.
+
+To have only specific recipients receive the beta, publish it in a separate hidden extension.
+
+### What the user does in Lot Of Points
+
+The extension listing shows the **Latest beta version**. The user clicks **Install beta version {0}**, where {0} is the version number, and confirms the installation. If the beta installs successfully, Lot Of Points offers from then on the newest version of the extension, beta or stable. To stop receiving beta versions, the user clicks **Return to stable version {0}**. If the latest stable version is not installed, Lot Of Points downloads it when the user clicks the button. At the next startup, Lot Of Points loads the latest stable version and deletes the installed beta versions.
+
+### Publish a beta as a stable version
+
+To publish an already published beta version as stable, click **Publish as stable version** in its row of the versions table. Digi21 does not repeat the review, because the files and the signed manifest are the ones it already reviewed. The version keeps its publication date and the **Beta** column no longer marks it. Users who do not receive beta versions start seeing that version as stable.
+
+The portal rejects the change if the version is not a published beta or if the extension has a published stable version with a higher number: "Only a published beta version can be published as stable, and the extension must not have a published stable version with a version number higher than that of the beta version." For example, if you publish stable version 1.1.1, you cannot publish beta 1.1.0 as stable.
