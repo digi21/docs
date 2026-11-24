@@ -3,7 +3,7 @@
 
 «Mis archivos» muestra el contenido del espacio de archivos del usuario y permite subir, descargar y borrar archivos y crear carpetas. Se abre con la opción **Mis archivos** del menú de la cuenta, que está en la esquina superior derecha del espacio de trabajo.
 
-Los instrumentos, los sistemas de referencia y las preferencias no se gestionan en «Mis archivos»: la web guarda esos archivos en la carpeta de configuración `.topcal21`, que «Mis archivos» no muestra, y se editan desde el [espacio de trabajo](preferencias-instrumentos-y-sistemas-de-referencia.md).
+Las preferencias, los instrumentos, los sistemas de referencia, las librerías de códigos y la librería de símbolos no se gestionan en «Mis archivos»: la web guarda esos archivos en la carpeta de configuración `.topcal21`, que «Mis archivos» no muestra, y se editan desde el [espacio de trabajo](preferencias-instrumentos-y-sistemas-de-referencia.md).
 
 ## Organizar los archivos
 
@@ -31,7 +31,7 @@ Escribe el nombre en el campo **Nombre de la carpeta nueva** y pulsa **Crear car
 
 Cada archivo tiene estos botones a la derecha de la fila:
 
-* **Abrir en Topcal21**, solo en los archivos `.prt`, `.pts` y `.obs`: abre el archivo en el [espacio de trabajo](espacio-de-trabajo.md).
+* **Abrir en Topcal21**, solo en los archivos `.prt`, `.pts`, `.obs` y `.crq`: abre el archivo en el [espacio de trabajo](espacio-de-trabajo.md).
 * **Descargar**: descarga el archivo al ordenador.
 * **Eliminar**: pide confirmación y borra el archivo. Esta operación no se puede deshacer.
 

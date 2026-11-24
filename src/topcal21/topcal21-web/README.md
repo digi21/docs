@@ -1,7 +1,7 @@
 # Topcal21 web
 <!-- id: topcal21-web -->
 
-Topcal21 web, en [https://topcal21.ai](https://topcal21.ai), es la versión de Topcal21 que se ejecuta en el navegador. Calcula con las mismas fórmulas y algoritmos que [Topcal21 para Windows](../README.md) y trabaja con los mismos archivos: proyectos (`.prt`), puntos (`.pts`) y visuales (`.obs`). La web conserva los croquis (`.crq`) en los proyectos, pero todavía no los abre ni los edita.
+Topcal21 web, en [https://topcal21.ai](https://topcal21.ai), es la versión de Topcal21 que se ejecuta en el navegador. Calcula con las mismas fórmulas y algoritmos que [Topcal21 para Windows](../README.md) y trabaja con los mismos archivos: proyectos (`.prt`), puntos (`.pts`), visuales (`.obs`) y croquis (`.crq`). La web abre, dibuja, edita, guarda y exporta croquis. La única orden de edición de croquis de Topcal21 para Windows que la web no incluye es **Insertar paralela...**.
 
 Cada usuario tiene un espacio de archivos propio en la nube. El usuario sube a ese espacio los archivos de sus proyectos desde el navegador y los descarga para abrirlos con Topcal21 para Windows. La web no convierte ningún archivo en ninguna de las dos direcciones.
 
@@ -13,8 +13,8 @@ Las demás páginas de la ayuda de Topcal21 describen la versión para Windows. 
 
 1. [Crea una cuenta o inicia sesión](acceso-y-cuenta.md). Al acceder por primera vez a la portada, a «Mis archivos» o al espacio de trabajo con la sesión iniciada, la web intenta activar la cuenta de Topcal21 y crear el espacio de archivos.
 2. [Sube los archivos de un proyecto](mis-archivos.md) a una carpeta de «Mis archivos». La web recomienda una carpeta por proyecto.
-3. Pulsa el botón «Abrir en Topcal21» de un archivo `.prt`, `.pts` u `.obs` de la lista. La web abre el archivo en el [espacio de trabajo](espacio-de-trabajo.md).
-4. Consulta y edita los datos en las [rejillas](rejillas-de-puntos-y-de-visuales.md) y ejecuta los [cálculos](calculos.md) de los menús Herramientas y Cálculos.
+3. Pulsa el botón «Abrir en Topcal21» de un archivo `.prt`, `.pts`, `.obs` o `.crq` de la lista. La web abre el archivo en el [espacio de trabajo](espacio-de-trabajo.md).
+4. Consulta y edita los datos en las [rejillas](rejillas-de-puntos-y-de-visuales.md), ejecuta los [cálculos](calculos.md) de los menús Herramientas y Cálculos y dibuja y edita el [croquis](croquis.md) con el ratón.
 5. Guarda los cambios con «Guardar» o «Guardar proyecto». Hasta que se guardan, los cambios solo existen en la sesión del navegador.
 
 ## Contenido
@@ -23,6 +23,7 @@ Las demás páginas de la ayuda de Topcal21 describen la versión para Windows. 
 * [Mis archivos](mis-archivos.md)
 * [El espacio de trabajo](espacio-de-trabajo.md)
 * [Rejillas de puntos y de visuales](rejillas-de-puntos-y-de-visuales.md)
+* [Croquis](croquis.md)
 * [Proyectos](proyectos.md)
 * [Importar archivos de campo](importar-archivos-de-campo.md)
 * [Cálculos en Topcal21 web](calculos.md)

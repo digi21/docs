@@ -7,7 +7,9 @@ Los archivos que se abren sin proyecto (con **Abrir...**) aparecen en el grupo *
 
 ## Crear un proyecto
 
-**Archivo › Nuevo...** (botón **Nuevo**) abre el cuadro «Proyecto nuevo». La web crea siempre un proyecto; no crea archivos de puntos ni de visuales sueltos.
+**Archivo › Nuevo...** (botón **Nuevo**) abre el cuadro «Fichero nuevo», que lista los tipos Proyecto, Puntos, Visuales y, con un proyecto abierto, Croquis. Los tipos **Puntos** y **Visuales** aparecen deshabilitados con el texto «No disponible en la web»: la web no crea archivos de puntos ni de visuales sueltos. Para crear un croquis, ver [Croquis](croquis.md#abrir-y-crear-un-croquis).
+
+Para crear un proyecto, elige el tipo **Proyecto** y pulsa **Aceptar**. La web abre el cuadro «Proyecto nuevo»:
 
 1. Escribe el **Nombre del proyecto**. El nombre no puede contener los caracteres `\ / : * ? " < > |` ni terminar en punto o en espacio.
 2. Pulsa **Elegir carpeta…** y elige la carpeta de «Mis archivos» donde se crea el proyecto (**Ubicación**). El valor inicial es el «Directorio por defecto de datos» de las [preferencias](preferencias-instrumentos-y-sistemas-de-referencia.md).
@@ -29,7 +31,7 @@ Si un archivo que enumera el proyecto no está en «Mis archivos», el panel del
 
 ## Abrir un archivo suelto
 
-**Archivo › Abrir...** (botón **AbreArch**) abre el selector de «Mis archivos» con los archivos `.pts` y `.obs` de la carpeta actual. El archivo se añade al grupo «Otros archivos». **Archivo › Cerrar** cierra el documento activo del grupo «Otros archivos»; con cambios sin guardar, la web pide confirmación. Para quitar un archivo de un proyecto se usa **Eliminar archivos...**.
+**Archivo › Abrir...** (botón **AbreArch**) abre el selector de «Mis archivos» con los archivos `.pts`, `.obs` y `.crq` de la carpeta actual. El archivo se añade al grupo «Otros archivos». **Archivo › Cerrar** cierra el documento activo del grupo «Otros archivos»; con cambios sin guardar, la web pide confirmación. Para quitar un archivo de un proyecto se usa **Eliminar archivos...**.
 
 ## Propiedades del proyecto
 
@@ -51,6 +53,15 @@ Para quitar archivos, marca las casillas de los archivos y pulsa **Quitar del pr
 
 **Aceptar** aplica los cambios al proyecto abierto, pero no guarda el archivo `.prt`: el proyecto queda con cambios sin guardar hasta que se ejecuta **Guardar proyecto**. **Cancelar** no cambia nada.
 
+## Propiedades del objeto
+
+**Ver › Propiedades del objeto...** abre el cuadro de propiedades del documento activo, que es un archivo de puntos, de visuales o de croquis. Los cuadros contienen los mismos campos que en Topcal21 para Windows; ver [Propiedades de los objetos](../opciones-de-visualizacion/propiedades-de-los-objetos/README.md). En la web:
+
+* El campo **Nombre** no renombra el archivo de «Mis archivos». Al aceptar un nombre distinto, el documento queda como un archivo nuevo con cambios sin guardar; **Guardar** lo escribe con el nombre nuevo, solo si no existe otro archivo con ese nombre, y el archivo con el nombre anterior no cambia. Dentro de un proyecto, la web sustituye en el `.prt` la entrada con el nombre anterior por la entrada con el nombre nuevo.
+* Las listas de sistemas de referencia y de instrumentos son las de `Sistema de Referencia.dat` y `Instrumentos.dat`. El botón **Definir...** abre el cuadro de [sistemas de referencia o de instrumentos](preferencias-instrumentos-y-sistemas-de-referencia.md).
+* Al pulsar **Aceptar**, la web registra los cambios de las propiedades como un paso de **Deshacer** con la descripción «Propiedades del objeto».
+* Con la cuenta suspendida, el cuadro muestra los valores y no permite cambiarlos.
+
 ## Guardar y cerrar
 
 * **Guardar proyecto** (botón **SalvaProy**) guarda el archivo `.prt`. Solo está habilitado si el proyecto tiene cambios.
@@ -58,4 +69,4 @@ Para quitar archivos, marca las casillas de los archivos y pulsa **Quitar del pr
 * **Guardar** (botón **Salva**) guarda el documento activo. **Guardar como...** lo guarda con otro nombre en la misma carpeta.
 * **Cerrar proyecto** cierra el proyecto y los archivos de «Otros archivos». Si hay cambios sin guardar, la web pide confirmación y los descarta si se acepta.
 
-Los archivos nuevos de puntos o de visuales creados por los [cálculos](calculos.md) quedan con cambios sin guardar. Para conservar los archivos nuevos, guárdalos con **Guardar** o **Guardar todo**.
+Los archivos nuevos de puntos o de visuales creados por los [cálculos](calculos.md) y los croquis nuevos quedan con cambios sin guardar. Para conservar los archivos nuevos, guárdalos con **Guardar** o **Guardar todo**.

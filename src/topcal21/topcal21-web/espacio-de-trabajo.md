@@ -1,13 +1,13 @@
 # El espacio de trabajo
 <!-- id: topcal21-web-espacio-de-trabajo -->
 
-El espacio de trabajo reproduce la ventana principal de [Topcal21 para Windows](../introduccion/interfaz-de-usuario.md): barra de menús, barra de botones, panel del proyecto, rejilla del documento activo y barra de estado.
+El espacio de trabajo reproduce la ventana principal de [Topcal21 para Windows](../introduccion/interfaz-de-usuario.md): barra de menús, barra de botones, panel del proyecto, rejilla o vista de dibujo del documento activo y barra de estado.
 
 ## Abrir el espacio de trabajo
 
 La web abre el espacio de trabajo de dos maneras:
 
-* Con el botón **Abrir en Topcal21** de un archivo `.prt`, `.pts` u `.obs` en [Mis archivos](mis-archivos.md). La web abre ese archivo.
+* Con el botón **Abrir en Topcal21** de un archivo `.prt`, `.pts`, `.obs` o `.crq` en [Mis archivos](mis-archivos.md). La web abre ese archivo.
 * Al entrar en `https://topcal21.ai` con la sesión iniciada y la cuenta activa o suspendida. La web abre el último proyecto usado si la preferencia **Cargar automáticamente el último proyecto** está marcada (lo está por defecto). Si el proyecto ya no existe en «Mis archivos», la web lo quita de «Proyectos recientes» y lo avisa en la barra de estado.
 
 Cada pestaña del navegador mantiene su propia sesión de trabajo con sus archivos abiertos.
@@ -16,29 +16,40 @@ Cada pestaña del navegador mantiene su propia sesión de trabajo con sus archiv
 
 ### Barra de menús
 
-Los menús son Archivo, Editar, Ver, Herramientas, Cálculos, Dibujo y Ayuda, con las entradas de [Topcal21 para Windows](../menus-de-la-aplicacion/README.md), excepto Imprimir, Presentación preliminar, Configurar impresora, Abrir carpeta contenedora, Actualizar y Calculadora, que la web no incluye. Una entrada que la web todavía no ejecuta aparece deshabilitada, y su información sobre herramientas muestra «No disponible en la web». Las [diferencias con Windows](diferencias-con-el-escritorio.md) enumeran esas entradas.
+Los menús son Archivo, Editar, Ver, Herramientas, Cálculos, Dibujo y Ayuda, con las entradas de [Topcal21 para Windows](../menus-de-la-aplicacion/README.md), excepto Imprimir, Presentación preliminar, Configurar impresora, Abrir carpeta contenedora, Actualizar y Calculadora, que la web no incluye. La única entrada de menú que la web no ejecuta es **Dibujo › Insertar paralela...**: aparece deshabilitada y su información sobre herramientas muestra «No disponible en la web». Las [diferencias con Windows](diferencias-con-el-escritorio.md) enumeran también los botones de cuadros de diálogo que la web no ejecuta.
+
+Una entrada de menú está habilitada solo cuando existe el documento que su orden necesita; por ejemplo, las entradas del menú Dibujo necesitan un croquis activo.
 
 ### Barra de botones superior
 
-Los botones, de izquierda a derecha, son: **Panel**, **Nuevo**, **AbreArch**, **AbreProy**, **SalvaProy**, **Salva**, **Inserta**, **Elimina**, **Agrega**, **Deshacer**, **Rehacer**, **Borra**, **Recupera**, **SistRef** e **Instrum**. Cada botón ejecuta la misma orden que su entrada de menú. **Agrega** (Agregar archivo) todavía no está disponible.
+Los botones, de izquierda a derecha, son: **Panel**, **Nuevo**, **AbreArch**, **AbreProy**, **SalvaProy**, **Salva**, **Inserta**, **Elimina**, **Agrega**, **Deshacer**, **Rehacer**, **Borra**, **Recupera**, **SistRef** e **Instrum**. Cada botón ejecuta la misma orden que su entrada de menú.
 
 ### Panel del proyecto
 
-El panel de la izquierda contiene un botón por grupo: **Otros archivos** y, si hay un proyecto abierto, el proyecto. Al pulsar un botón, el panel muestra los iconos de los archivos del grupo. Un clic en un icono activa el documento y muestra su rejilla. Un asterisco (`*`) tras el nombre indica que el archivo o el proyecto tienen cambios sin guardar. Un icono distinto marca un archivo del proyecto que no está en «Mis archivos» o que no es un archivo de Topcal21 válido.
+El panel de la izquierda contiene un botón por grupo: **Otros archivos** y, si hay un proyecto abierto, el proyecto. Al pulsar un botón, el panel muestra los iconos de los archivos del grupo. Un clic en un icono activa el documento y muestra su rejilla o su vista de dibujo. Un asterisco (`*`) tras el nombre indica que el archivo o el proyecto tienen cambios sin guardar. Un icono distinto marca un archivo del proyecto que no está en «Mis archivos» o que no es un archivo de Topcal21 válido.
 
 El botón **Panel** de la barra superior muestra u oculta el panel. En ventanas de 768 píxeles de ancho o más, el panel está visible al abrir el espacio de trabajo. En ventanas de menos de 768 píxeles, el panel está oculto y el botón **Panel** lo muestra encima de la rejilla.
 
 ### Documento activo
 
-El área central muestra la [rejilla](rejillas-de-puntos-y-de-visuales.md) del documento activo, que puede ser un archivo de puntos o de visuales. Sin documentos abiertos, el área muestra el texto «Abre un proyecto (.prt) o un archivo de puntos (.pts) o de visuales (.obs) con «AbreProy» o «AbreArch», o desde «Mis archivos».». Un archivo `.crq` del proyecto aparece en el panel, pero la web todavía no lo abre.
+El área central muestra el documento activo:
+
+* Un archivo de puntos o de visuales se muestra en una [rejilla](rejillas-de-puntos-y-de-visuales.md).
+* Un archivo de croquis se muestra en la vista de dibujo descrita en [Croquis](croquis.md).
+
+Sin documentos abiertos, el área muestra el texto «Abre un proyecto (.prt) con «AbreProy», o un archivo de puntos (.pts), un archivo de visuales (.obs) o un croquis (.crq) con «AbreArch». También puedes abrir estos archivos desde «Mis archivos».».
 
 ### Barra de botones inferior
 
-Los botones de la barra inferior abren los [asistentes de cálculo](calculos.md): **Orienta**, **Cierre**, **Replanteo**, **Transfor.** y **Libreta**, y después **Radiación**, **Directas**, **Inversas**, **Hansen**, **B.Mixta**, **Altimetría**, **Poligonal** y **Comp3D**. **Transfor.** y **Comp3D** todavía no están disponibles.
+Con un archivo de puntos o de visuales activo, o sin documento activo, la barra inferior contiene los botones de los [asistentes de cálculo](calculos.md): **Orienta**, **Cierre**, **Replanteo**, **Transfor.** y **Libreta**, y después **Radiación**, **Directas**, **Inversas**, **Hansen**, **B.Mixta**, **Altimetría**, **Poligonal** y **Comp3D**.
+
+Con un croquis activo, la web sustituye esa barra por las barras **Dibujo** y **Paleta**, igual que Topcal21 para Windows. La [página del croquis](croquis.md) describe sus botones.
 
 ### Barra de estado
 
-De izquierda a derecha, la barra de estado muestra el último aviso («Preparado» si no hay ninguno), «Solo lectura» con la cuenta suspendida, el espacio usado y el espacio máximo de la cuenta, el nombre y el número de registros del documento activo, y «Cambios sin guardar» cuando hay algún documento modificado.
+De izquierda a derecha, la barra de estado muestra el último aviso («Preparado» si no hay ninguno), las instrucciones de la herramienta activa de la vista de dibujo cuando el documento activo es un croquis, «Solo lectura» con la cuenta suspendida, el espacio usado y el espacio máximo de la cuenta, el nombre y el número de registros del documento activo, y «Cambios sin guardar» cuando hay algún documento modificado.
+
+**Ver › Barra de estado** muestra u oculta la barra. La web guarda esa elección en las [preferencias](preferencias-instrumentos-y-sistemas-de-referencia.md) de la cuenta.
 
 ## Idioma, tema y cuenta
 
@@ -50,7 +61,7 @@ En la esquina superior derecha hay tres controles:
 
 ## Qué órdenes están habilitadas
 
-Las órdenes siguen las mismas reglas de habilitación que en Windows. Por ejemplo, las herramientas de cálculo necesitan un proyecto abierto, «Importar...» necesita un documento de puntos o de visuales activo y «Guardar» solo está habilitada si el documento activo tiene cambios. Con la cuenta suspendida, la web deshabilita las órdenes que modifican documentos o escriben en «Mis archivos».
+Las órdenes siguen las mismas reglas de habilitación que en Windows. Por ejemplo, las herramientas de cálculo necesitan un proyecto abierto, «Importar...» necesita un documento de puntos o de visuales activo, las órdenes del menú Dibujo necesitan un croquis activo y «Guardar» solo está habilitada si el documento activo tiene cambios. Con la cuenta suspendida, la web deshabilita las órdenes que modifican documentos o escriben en «Mis archivos».
 
 ## Guardar los cambios
 
@@ -66,6 +77,10 @@ Si el archivo cambió en «Mis archivos» desde que se abrió, por ejemplo porqu
 * **Cancelar**: no guarda.
 
 Si el archivo se borró de «Mis archivos» desde que se abrió, el cuadro «El archivo se ha eliminado» ofrece **Guardar** (crea el archivo de nuevo con los cambios) y **Guardar como**.
+
+## Deshacer y rehacer
+
+**Deshacer** revierte el último paso aplicado al documento activo, sea una rejilla o un croquis, y **Rehacer** vuelve a aplicar el último paso deshecho. El historial de cada documento conserva los últimos 200 pasos.
 
 ## Menú Ayuda
 

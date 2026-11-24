@@ -43,6 +43,8 @@ Si la web no puede importar el archivo, muestra un mensaje y no importa ningún 
 
 La web no importa archivos DIGI (BIN o ASCII), DXF ni DGN, que Topcal21 para Windows sí importa.
 
+La web corrige varios defectos de lectura de estos formatos que Topcal21 para Windows conserva en la versión publicada; ver [Diferencias con Topcal21 para Windows](diferencias-con-el-escritorio.md#correcciones-de-lectura-y-escritura-de-formatos).
+
 ## Fundir vuelta de horizonte
 
 Al importar visuales con la opción **Añadir**, la web muestra el cuadro **Fundir vuelta de horizonte** una vez por cada estación que el archivo de visuales ya tiene. El cuadro funciona como en Windows; ver [Fundir vuelta de horizonte](../otros-comandos/fundir-vuelta-de-horizonte.md).

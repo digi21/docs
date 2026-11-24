@@ -1,14 +1,15 @@
 # Preferencias, instrumentos y sistemas de referencia
 <!-- id: topcal21-web-preferencias -->
 
-Las preferencias, los instrumentos topográficos, los sistemas de referencia y la librería de códigos de cada usuario se guardan en la carpeta `.topcal21` del espacio de archivos. «Mis archivos» no muestra esa carpeta y rechaza las operaciones sobre ella. Las preferencias, los instrumentos topográficos y los sistemas de referencia se editan con los cuadros del espacio de trabajo descritos en esta página. Cuando la web crea el espacio de archivos de un usuario, copia en esa carpeta una lista inicial de instrumentos y de sistemas de referencia y una librería de códigos.
+Las preferencias, los instrumentos topográficos, los sistemas de referencia, la librería de códigos y la librería de símbolos de cada usuario se guardan en la carpeta `.topcal21` del espacio de archivos. «Mis archivos» no muestra esa carpeta y rechaza las operaciones sobre ella. Los cuadros del espacio de trabajo editan esos archivos: los de preferencias, instrumentos y sistemas de referencia se describen en esta página y los del croquis, en [Croquis](croquis.md#preferencias-del-croquis). Cuando la web crea el espacio de archivos de un usuario, copia en esa carpeta una lista inicial de instrumentos y de sistemas de referencia y una librería de códigos. Mientras la carpeta no contiene `Simbolos.dat`, la web usa la librería de símbolos que se instala con Topcal21 y la escribe en `Simbolos.dat` cuando el usuario acepta el cuadro «Librería de símbolos».
 
 | Dato | Archivo de la carpeta `.topcal21` | Cuadro |
 |---|---|---|
-| Preferencias | `Preferencias.json` | Editar › Preferencias... |
+| Preferencias, preferencias de croquis y lista de códigos de dibujo | `Preferencias.json` | Editar › Preferencias..., Editar › Preferencias de croquis... y Editar › Lista de códigos de dibujo... |
 | Instrumentos topográficos | `Instrumentos.dat` | Editar › Instrumentos topográficos... (botón **Instrum**) |
 | Sistemas de referencia | `Sistema de Referencia.dat` | Editar › Sistemas de referencia... (botón **SistRef**) |
-| Librería de códigos | `Libreria de Codigos.ini` | Todavía no se edita en la web |
+| Librería de códigos de croquización | `Libreria de Codigos.ini` | Editar › Lista de códigos de croquización... (botón **Croquis**) |
+| Librería de símbolos | `Simbolos.dat` | Editar › Librería de símbolos... (botón **LibSimb**) |
 
 ## Preferencias
 
@@ -23,7 +24,7 @@ Las preferencias, los instrumentos topográficos, los sistemas de referencia y l
 * **Datos mostrados de los puntos** y **Datos mostrados de las visuales**: columnas visibles de cada [rejilla](rejillas-de-puntos-y-de-visuales.md). Por defecto, todas las columnas están visibles.
 * **Número de decimales de los datos por defecto**, para datos angulares (4 por defecto) y datos lineales (3 por defecto). El número de decimales angulares y el número de decimales lineales deben ser enteros de 0 a 10, ambos extremos incluidos. Los proyectos nuevos y los archivos abiertos fuera de un proyecto usan estos valores; un proyecto usa los decimales de su cuadro «Propiedades de proyecto».
 
-**Aceptar** guarda `Preferencias.json`. Si otro proceso modificó el archivo desde que se abrió el cuadro, la web lo indica y no guarda. Si `Preferencias.json` no se puede leer, el cuadro no guarda y muestra un mensaje de error. Si no se puede leer al guardar los datos de un asistente, la web muestra un mensaje con el botón **Restablecer las preferencias**, que tras una confirmación sustituye el archivo por los valores por defecto y borra los últimos datos guardados de los asistentes. Con la cuenta suspendida, el cuadro no permite guardar. **Salir** cierra el cuadro sin guardar. El botón **Ayuda** del cuadro está deshabilitado.
+**Aceptar** guarda `Preferencias.json`. Si otro proceso modificó el archivo desde que se abrió el cuadro, la web lo indica y no guarda. Si `Preferencias.json` no se puede leer, el cuadro no guarda y muestra un mensaje de error. Si `Preferencias.json` no se puede leer al guardar los datos de un asistente, la web muestra un mensaje con el botón **Restablecer las preferencias**, que tras una confirmación sustituye el archivo por los valores por defecto y borra los últimos datos guardados de los asistentes. Con la cuenta suspendida, el cuadro no permite guardar. **Salir** cierra el cuadro sin guardar. El botón **Ayuda** abre en una pestaña nueva la página de esta ayuda que describe el cuadro.
 
 La web no usa llave de protección: el cuadro no tiene las opciones de búsqueda de la llave.
 

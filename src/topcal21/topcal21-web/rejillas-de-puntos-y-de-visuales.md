@@ -58,6 +58,16 @@ Un valor escrito en una fila vacía añade un registro al final del archivo. Si 
 
 Con el menú Editar o con el botón del menú, el navegador puede pedir permiso para leer el portapapeles. Si el navegador lo deniega, la web muestra un aviso y se pega con **Ctrl** + **V** sobre la rejilla.
 
+## Agregar, comprimir y renumerar
+
+Estas órdenes actúan sobre el archivo de puntos o de visuales activo. Con la cuenta suspendida, estas órdenes quedan deshabilitadas. Cuando una de ellas modifica el archivo, registra los cambios como un solo paso de **Deshacer**.
+
+* **Archivo › Agregar archivo...** (botón **Agrega**) une los registros de otro archivo del mismo tipo al archivo activo; ver [Menú Archivo](../menus-de-la-aplicacion/menu-archivo.md). La web pide primero la opción de sobreescritura (**No sobreescribir**, **Sobreescribir** y, solo con visuales, **Añadir**) y después un archivo `.pts` o `.obs` de [Mis archivos](mis-archivos.md). Cada orden agrega un archivo; para agregar otro, repite la orden. Con visuales, la web muestra el cuadro **Fundir vuelta de horizonte** una vez por cada estación que ya existe en el archivo activo.
+* **Editar › Comprimir archivo...** pide confirmación y elimina del archivo los registros marcados como borrados. Sin registros borrados, la orden no cambia el archivo ni crea un paso de **Deshacer**.
+* **Editar › Renumerar puntos...** y **Editar › Renumerar visuales...** abren los cuadros descritos en [Renumerar puntos](../otros-comandos/renumerar-puntos.md) y [Renumerar visuales](../otros-comandos/renumerar-visuales.md). Los campos numéricos muestran «Escriba un número entero positivo.» o «Escriba un número entero.» cuando el texto no es un número válido. En «Renumerar visuales», **Aceptar** está deshabilitado si ninguna de las dos casillas está marcada.
+
+La web ejecuta estas órdenes sobre una copia del archivo. La web cancela la orden si su ejecución supera los 60 segundos: la web muestra «La orden no ha terminado en 60 segundos. El archivo no se ha modificado.» y no cambia el archivo. Con archivos muy grandes (por ejemplo, 200.000 puntos), **Renumerar** y **Agregar archivo** pueden superar ese plazo. Si el archivo se cierra o se edita mientras la orden calcula, la web no aplica el resultado y lo avisa.
+
 ## Ordenar
 
 Un clic en la cabecera de una columna ordena los registros por esa columna en sentido ascendente. Otro clic en la misma columna la ordena en sentido descendente. **Ordenar datos...** del menú Ver permite elegir la columna y el sentido. La ordenación es un paso del historial y, como cualquier edición, se guarda con el archivo.

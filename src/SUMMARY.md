@@ -2991,6 +2991,7 @@
     * [Mis archivos](topcal21/topcal21-web/mis-archivos.md)
     * [El espacio de trabajo](topcal21/topcal21-web/espacio-de-trabajo.md)
     * [Rejillas de puntos y de visuales](topcal21/topcal21-web/rejillas-de-puntos-y-de-visuales.md)
+    * [Croquis](topcal21/topcal21-web/croquis.md)
     * [Proyectos](topcal21/topcal21-web/proyectos.md)
     * [Importar archivos de campo](topcal21/topcal21-web/importar-archivos-de-campo.md)
     * [Cálculos en Topcal21 web](topcal21/topcal21-web/calculos.md)
