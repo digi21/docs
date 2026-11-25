@@ -2788,6 +2788,7 @@
       * [Buscar líneas de vial](mdtopx/modulo-mms/trazado/buscar-lineas-de-vial/README.md)
         * [Elementos en el documento de trazado](mdtopx/modulo-mms/trazado/buscar-lineas-de-vial/elementos-en-el-documento-de-trazado.md)
       * [Buscar objetos en el trazado](mdtopx/modulo-mms/trazado/buscar-objetos-en-el-trazado.md)
+      * [Clasificación de carreteras](mdtopx/modulo-mms/trazado/clasificacion-de-carreteras.md)
       * [Base de datos MMS](mdtopx/modulo-mms/trazado/base-de-datos-mms.md)
       * [Visibilidad](mdtopx/modulo-mms/trazado/visibilidad.md)
       * [Buffer en datos MMS](mdtopx/modulo-mms/trazado/buffer-en-datos-mms.md)

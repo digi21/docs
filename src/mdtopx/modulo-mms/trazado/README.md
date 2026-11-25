@@ -5,6 +5,7 @@
 
 Las herramientas asociadas con las nubes tomados en carreteras del [módulo MMS](../) están agrupadas en esta sección y son las siguientes:
 
+* [**Clasificación de carreteras**](clasificacion-de-carreteras.md): Herramienta para clasificar la nube de una carretera y sacar su vectorial y la base de datos de su inventario. Sustituye a Suelo, Asfalto, Líneas vial e Inventario carreteras. Con **Vectorial de carreteras**, solo el vectorial y la base de datos, desde la nube ya clasificada.
 * [**Suelo**](clasificar-suelo-de-trazado.md): Herramienta para la clasificación de puntos pertenecientes al suelo y pertenecientes a elementos de la vía. Primer paso antes de la búsqueda de elementos de una vía rodada.
 * [**Asfalto**](clasificar-lineas-de-vial.md): Herramienta para la búsqueda de elementos de una vía rodada, después de haber detectado el suelo.
 * [**Líneas vial**](buscar-lineas-de-vial/): Herramienta para la generación de límites de asfalto, marcas viales y transversales.

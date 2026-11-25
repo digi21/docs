@@ -2423,6 +2423,7 @@
       * [Object boundaries](mdtopx/modulo-mms/general/limites-de-objetos.md)
       * [DSM from MMS data](mdtopx/modulo-mms/general/mds-a-partir-de-datos-mms.md)
     * [Alignment](mdtopx/modulo-mms/trazado/README.md)
+      * [Road classification](mdtopx/modulo-mms/trazado/clasificacion-de-carreteras.md)
       * [Classify alignment ground](mdtopx/modulo-mms/trazado/clasificar-suelo-de-trazado.md)
       * [Classify road lines](mdtopx/modulo-mms/trazado/clasificar-lineas-de-vial.md)
       * [Find road lines](mdtopx/modulo-mms/trazado/buscar-lineas-de-vial/README.md)
