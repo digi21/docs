@@ -28,12 +28,12 @@ permiten pedir puntos, seleccionar puntos, procesar teselas y cargar capas GeoPa
 
 ## Licencias del equipo
 
-El panel **Licencias** de **Configuración** registra el equipo en una cuenta de digi21.net mediante el sistema de licenciamiento de digi21.net.
+El panel **Licencias** de **Configuración** registra el equipo en una cuenta de lotofpoints.xyz mediante el sistema de licenciamiento de lotofpoints.xyz.
 El programa muestra un código y abre la página de activación en el navegador para que el usuario apruebe o deniegue el registro del equipo.
 El registro continúa si se cierra la configuración; si el usuario vuelve a abrir **Configuración** durante el registro del equipo, puede cancelar el registro desde esa ventana.
 
 El panel muestra el estado de la autorización, el proveedor de la clave y cada módulo con el tipo de licencia (compra, alquiler o demostración), la fecha de fin de uso y la fecha de fin de soporte.
-**Mis licencias en digi21.net** abre en el navegador las licencias de la cuenta.
+**Mis licencias en lotofpoints.xyz** abre en el navegador las licencias de la cuenta.
 La autorización se vincula a una clave de firma no exportable del equipo, creada en el módulo de plataforma segura (TPM)
 o, si ese proveedor no está disponible, en el almacén de claves por software de Windows.
 

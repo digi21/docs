@@ -2,11 +2,11 @@
 <!-- id: lot-of-points-publicar-en-la-tienda -->
 <!-- origen: 82bffd80238d610419ad88bfc4853239abb7b539 -->
 
-The digi21.net extension store distributes Lot Of Points commands written in C, C++, Python or .NET. Users install extensions from **Settings** > **Store** (see the [extension manager](../gestor-de-extensiones.md)). Digi21 approves each developer and reviews each version before publishing, because extension code runs on the user's computer with the same permissions as Lot Of Points.
+The lotofpoints.xyz extension store distributes Lot Of Points commands written in C, C++, Python or .NET. Users install extensions from **Settings** > **Store** (see the [extension manager](../gestor-de-extensiones.md)). Digi21 approves each developer and reviews each version before publishing, because extension code runs on the user's computer with the same permissions as Lot Of Points.
 
 ## Register as a developer
 
-1. Sign in to digi21.net and open **Licenses** > **Publish Lot Of Points extensions**.
+1. Sign in to lotofpoints.xyz and open `https://lotofpoints.xyz/DesarrolladoresExtensiones` (in the page footer, **Developers** > **Publish an extension**).
 2. Enter the public name used for your extensions in the store and a prefix: lowercase letters, digits and hyphens between words, for example `mi-empresa`. This prefix begins your extension and module identifiers and cannot be changed. Digi21 prefixes (`lop`, `digi21`, `digi3d`, `mdtopx` and others) are reserved.
 3. Wait for Digi21 to approve the request.
 
@@ -18,7 +18,7 @@ Create the extension in the developer portal with:
 - The program loading the extension (currently Lot Of Points); this cannot be changed after creating the extension.
 - The name, summary and support months included in a purchase.
 - Description and instructions in Markdown, a text format with marks for headings, lists and links. The public listing displays embedded HTML (Hypertext Markup Language) as text and only shows images uploaded through the extension page.
-- An icon: a square image of at least 96 × 96 pixels and up to 5 MiB, in PNG (Portable Network Graphics), JPEG (Joint Photographic Experts Group), GIF (Graphics Interchange Format) or WebP. 256 × 256 pixels is recommended: Lot Of Points **Store** shows it at 48 × 48 and the digi21.net listing at 96 × 96.
+- An icon: a square image of at least 96 × 96 pixels and up to 5 mebibytes (MiB), in PNG (Portable Network Graphics), JPEG (Joint Photographic Experts Group), GIF (Graphics Interchange Format) or WebP. 256 × 256 pixels is recommended: Lot Of Points **Store** shows the icon at 48 × 48 and the lotofpoints.xyz listing at 96 × 96.
 
 To show an image in the description, instructions or release notes, upload it through the extension page and paste the Markdown line displayed after upload into the field being edited, in the form `![texto alternativo](dirección de la imagen)`. Each field's **Preview** tab shows the text as it will appear in the public listing.
 
@@ -61,14 +61,14 @@ Each version is a ZIP containing the files Lot Of Points installs in that versio
 ## Publish a version
 
 1. On the extension page, enter the version (`mayor.menor.revisión`, higher than every version already created), minimum Lot Of Points version and release notes in Markdown. If it is a beta version, select the beta checkbox (see the "Beta versions" section).
-2. Choose the ZIP and click **Upload and submit for review**. The page uploads it to digi21.net and the server checks its contents.
+2. Choose the ZIP and click **Upload and submit for review**. The page uploads the ZIP to lotofpoints.xyz and the server checks the contents of the ZIP.
 3. Wait for Digi21's review. If rejected, the page shows the reason and you can upload another ZIP.
 
-On publication, digi21.net assigns the publication date and signs a manifest containing each file's cryptographic hash. At each startup, Lot Of Points checks the manifest signature and file hashes of each installed version. A purchase permits use of extension versions published up to the end date of its included support. If Digi21 withdraws a published version, the store stops delivering it and Lot Of Points stops loading it.
+On publication, lotofpoints.xyz assigns the publication date and signs a manifest containing each file's cryptographic hash. At each startup, Lot Of Points checks the manifest signature and file hashes of each installed version. A purchase permits use of extension versions published up to the end date of its included support. If Digi21 withdraws a published version, the store stops delivering it and Lot Of Points stops loading it.
 
 ## Hide an extension
 
-A hidden extension does not appear in the store catalog or in its public listing on digi21.net (`/Extensiones/{id}`). Users find it in Lot Of Points with an access code that you give them (see the "Access codes" section). A hidden extension goes through the same approval and the same Digi21 review as a catalog extension, and Digi21 also signs the manifests of its versions. If the extension is paid, the user still needs the license: the access code lets the user find and download the extension, but it does not replace the license.
+A hidden extension does not appear in the store catalog or in its public listing on lotofpoints.xyz (`/Extensiones/{id}`). Users find the hidden extension in Lot Of Points with an access code that you give them (see the "Access codes" section). A hidden extension goes through the same approval and the same Digi21 review as a catalog extension, and Digi21 also signs the manifests of its versions. If the extension is paid, the user still needs the license: the access code lets the user find and download the extension, but it does not replace the license.
 
 To hide an extension or show it in the catalog again:
 
@@ -120,7 +120,7 @@ To publish a beta version:
 2. Select the checkbox **Beta version: Lot Of Points offers it only to users who choose to receive the beta versions of this extension.**
 3. Click **Upload and submit for review**.
 
-A beta version uses the same number format as a stable version (`mayor.menor.revisión`, without suffixes such as `-beta.1`) and must be higher than every version already created, beta or stable. Digi21 reviews it in the same way as a stable version, and the signed manifest does not indicate that it is beta. The versions table on the extension page has a **Beta** column that marks beta versions. The public listing on digi21.net does not show beta versions.
+A beta version uses the same number format as a stable version (`mayor.menor.revisión`, without suffixes such as `-beta.1`) and must be higher than every version already created, beta or stable. Digi21 reviews it in the same way as a stable version, and the signed manifest does not indicate that it is beta. The versions table on the extension page has a **Beta** column that marks beta versions. The public listing on lotofpoints.xyz does not show beta versions.
 
 To have only specific recipients receive the beta, publish it in a separate hidden extension.
 

@@ -8,6 +8,6 @@ The [C and C++](c-cpp/README.md) SDK distributes commands as 64-bit Windows dyna
 
 [Python](python/README.md) offers the same host operations through `lop.Host` and declares buttons with `@lop.command`. Command files are installed in `%AppData%\lop\commands`.
 
-To distribute commands to other users, publish them in the digi21.net [extension store](publicar-en-la-tienda.md). Users install extensions from **Settings** > **Store**. For commands declaring a module, Lot Of Points checks that a license activated on the computer includes that module.
+To distribute commands to other users, publish them in the lotofpoints.xyz [extension store](publicar-en-la-tienda.md). Users install extensions from **Settings** > **Store**. For commands declaring a module, Lot Of Points checks that a license activated on the computer includes that module.
 
 The **Python** panel runs scripts controlling the viewer through `lop.viewer` and launching commands with `lop.run_command`. The panel runs the editor text; installed commands run from their ribbon buttons.

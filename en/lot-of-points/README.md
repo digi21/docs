@@ -16,9 +16,9 @@ Lot Of Points also provides [programming](programacion/README.md) tools. The [Py
 
 ## Computer licenses
 
-The **Licenses** page in **Settings** registers the computer with a digi21.net account through the digi21.net licensing system. The program displays a code and opens the activation page in the browser so the user can approve or deny the computer's registration. Registration continues if Settings is closed; if the user reopens **Settings** during registration, they can cancel it from that window.
+The **Licenses** page in **Settings** registers the computer with a lotofpoints.xyz account through the lotofpoints.xyz licensing system. The program displays a code and opens the activation page in the browser so the user can approve or deny the computer's registration. Registration continues if Settings is closed; if the user reopens **Settings** during registration, they can cancel it from that window.
 
-The page shows the authorization status, key provider and each module's license type (purchase, rental or trial), use end date and support end date. **My licenses on digi21.net** opens the account's licenses in the browser. Authorization is bound to a nonexportable signing key on the computer, created in the Trusted Platform Module (TPM) or, if that provider is unavailable, in the Windows software key store.
+The page shows the authorization status, key provider and each module's license type (purchase, rental or trial), use end date and support end date. **My licenses on lotofpoints.xyz** opens the account's licenses in the browser. Authorization is bound to a nonexportable signing key on the computer, created in the Trusted Platform Module (TPM) or, if that provider is unavailable, in the Windows software key store.
 
 The program saves the authorization credential in `%LOCALAPPDATA%\lop\argos\token.jwt` and uses `reloj.json` to store the signed time record. The credential expires at the end of the license revalidation period, 30 days by default. Its expiration date determines how long the program can be used offline. The program requests renewal when less than a third of the credential's validity period remains. If the credential has expired or time must be synchronized with the licensing server, the program retries renewal every 5 minutes.
 
