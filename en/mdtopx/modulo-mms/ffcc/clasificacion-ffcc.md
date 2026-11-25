@@ -4,7 +4,7 @@
 
 [Railways](./)
 
-Classifies the point cloud of a railway or metro line captured with a mobile mapping system (MMS) and generates its vector data. It detects the tracks with their rails, sleepers and guard rails, the track bed and the ballast, the ground, the platforms, the walls, the canopies of platforms and stations, the tunnels, the catenary (wires, droppers, masts, cantilevers and cross connections), the vegetation, the trackside signals and the low trackside objects (track pegs, balises and cable pits). If requested, it fills the gaps of the rails and of the ground with synthetic points and generates the alignment of the tracks (.VIA).
+Classifies the point cloud of a railway or metro line captured with a mobile mapping system (MMS) and generates its vector data. It detects the tracks with their rails, sleepers and guard rails, the track bed and the ballast, the ground, the platforms, the walls, the canopies of platforms and stations, the tunnels, the catenary (wires, droppers, masts, cantilevers and cross connections), the vegetation, the trackside signals and the trackside objects (track pegs, balises, cable pits and cabinets). If requested, it fills the gaps of the rails and of the ground with synthetic points and generates the alignment of the tracks (.VIA).
 
 It only changes what has to do with the railway. The other points keep their class.
 
@@ -19,9 +19,9 @@ The trajectory of the vehicle, or the axis of the line, is needed, in any format
 ## What it generates
 
 * **The class of each point**, with the classes in the table below.
-* **Synthetic points** (optional) in the gaps of the rails and of the ground. They take the class of what they fill and the synthetic point flag, so another run recognizes and replaces them.
-* **"Edit objects" objects**: one for each rail, sleeper, platform, wall, tunnel, guard rail, catenary mast (with its cantilever), catenary wire, patch of vegetation, canopy, signal, track peg, balise and cable pit. In a project they are saved in the .OBJ file next to each file.
-* **The vector data** (optional), in a new document: the axes of the rails and of the tracks, the sleepers and the outlines of the rails and of the sleepers, the platform edges, the tops of the walls, the tunnel profiles, the guard rails, the catenary wires, the droppers, the masts (the prism of their footprint), the cantilevers, the cross connections and the prism of each signal, track peg, balise and cable pit (its outline at the bottom and at the top, and its four edges).
+* **Synthetic points** (optional) in the gaps of the rails (on the adjusted rail, as in the vector data) and of the ground. They take the class of what they fill and the synthetic point flag, so another run recognizes and replaces them.
+* **"Edit objects" objects**: one for each rail, sleeper, platform, wall, tunnel, guard rail, catenary mast (with its cantilever), catenary wire, patch of vegetation, canopy, signal, track peg, balise, cable pit and cabinet. In a project they are saved in the .OBJ file next to each file.
+* **The vector data** (optional), in a new document: the axes of the rails and of the tracks (adjusted: the two rails of each track, parallel and without kinks, also across the gaps where they are not seen; a turnout or the end of a rail not seen, as tracked), the sleepers and the outlines of the rails and of the sleepers, the platform edges, the tops of the walls, the tunnel profiles, the guard rails, the catenary wires, the droppers, the masts (the prism of their footprint), the cantilevers, the cross connections and the prism of each signal, track peg, balise, cable pit and cabinet (its outline at the bottom and at the top, and its four edges).
 * **The alignment** (optional), in a new road document: the geometry of the tracks, with their template and their profiles, as in **Fit axis geometry**.
 
 ## The dialog box
@@ -71,6 +71,7 @@ By default, those of the MDTopX class catalogue. Each element must have a class 
 | Track peg | 115 |
 | Balise | 116 |
 | Track cable pit | 117 |
+| Trackside cabinet | 118 |
 
 ### The vector codes
 
@@ -97,6 +98,11 @@ By default, those of the MDTopX class catalogue. Each element must have a class 
 | Track peg | PIQUET |
 | Balise | BALIZA |
 | Track cable pit | CREGIS |
+| Trackside cabinet | ARMARI |
+
+## Catenary masts
+
+A mast is a solid column 1.5 to 5 m above the track plane, between 1.2 and 4 m from the axis of the nearest track and higher than the contact wire, with its cantilever up to the wire. Without a cantilever, it is also a mast if two or more catenary cables, seen along 20 m or more, run close to it (0.6 m or less), it is thin (its narrower side, 0.45 m or less) and there is no tree crown around it: the feeder masts, or one with signals that carries its cables. Without a cantilever, a mast where two or more catenary wires end, seen along 3 m or more, with their end 1.5 m or less from it and not continuing on the other side (a tree hiding the cables is not a mast), is also a mast: an anchor or tensioning mast. Its equipment (what is attached to it 1.2 m or less from it, from 0.5 m above the track plane, and what hangs below it: the counterweights and the pulleys; not what touches it without rising above 2.5 m and spans more than 0.6 m, such as a bush, a hedge or a cabinet) is found as mast, and its guy wires as other cables. A mast without a cantilever touching it (a counterweight filling its columns) is the same mast. A street light or a high signal touching two catenary cables is also found as a mast.
 
 ## Trackside signals
 
@@ -106,19 +112,24 @@ A signal is an isolated object, between 1.3 and 4.5 m from the axis of the neare
 
 * **Plate**: a thin head, with its lower edge 2 m or less above the rail. Also a small head (0.35 m wide or less), even if it is not thin, on a post thinner than it; so the cap of a post slightly wider than the post and 15 cm high or more is also found as a plate.
 * **High signal**: a box taller than it is wide, from 2 m above the rail.
+* **Plate on a catenary mast**: a thin plate (0.15 m wide or more, 0.9 m long or less and 15 cm thick or less) hanging from a catenary mast, vertical and no more than four times longer than wide, between 1 and 6 m above the ground: discs, diamonds or signs. The mast stays a mast. A counterweight seen only from its face is also found as a plate; a diamond of 0.9 m or more, a double-sided plate or one seen edge-on may not be found.
+* **Light signal mast**: a single mast, 3.5 to 7 m high, starting 1.5 m or less above the ground (it may stand on its plinth), with its inclined ladder (straight, with its two parallel rails and its rungs every 0.2-0.4 m, 0.25 to 0.7 m wide and between 6° and 45° from the vertical; a tie from the ladder to the mast or boxes hanging from the mast do not spoil it; a guy wire, a strut or a branch is not a ladder) and the platform with the signal in its top 2.5 m. It is found as a high signal; its plinth, if it does not touch the mast, as a track cable pit. A vertical ladder, one with half of its rungs not seen, one seen in pieces or a lower platform may not be found; a two-stemmed tree with twigs crossing at regular intervals may be found as a light signal mast.
 * **Tower**: a high signal with its cage and its ladder, 3.5 to 7 m high and 2.5 m or less in plan, made of vertical members (the columns of the cage, the ladder and the mast), with the mast 0.4 m or more above the rest or with all its members together, within 0.5 m (an H post with signals). It is found as a high signal.
 
-A post on its own, a street light, a cabinet, a bin on its post, the crown of a young tree on its trunk, a tree (it has no vertical members) and the foot of a catenary mast are not signals.
+A post on its own, a street light, a cabinet (it has its own class), a bin on its post, the crown of a young tree on its trunk, a tree (it has no vertical members) and the foot of a catenary mast are not signals.
 
-Low light signals and signals hanging from a wall, a tunnel side wall or a catenary mast are not detected yet. Neither is a signal touching a fence or a bush.
+Low light signals and signals hanging from a wall or a tunnel side wall are not detected yet. Neither is a signal touching a fence or a bush.
 
 ## Low trackside objects
 
 Each one, with its own class:
 
 * **Track peg**: an isolated stake 0.35 to 0.9 m high and 0.3 m or less in plan, solid and with nothing above it, between 1.9 and 4.5 m from the track axis. Sometimes its lowest 15-20 cm stay as ground.
-* **Balise**: an object between the two rails of a track, 0.2 to 2 m long and 0.7 m wide or less, with its top between 30 cm below and 10 cm above the rail heads. Only on the tracks that are detected: if a track is not found, neither are its balises.
+* **Balise**: an object between the two rails of a track, 0.2 to 2 m long and 0.7 m wide or less, with its top between 30 cm below and 10 cm above the rail heads. Only on the tracks that are detected (also in the gap between two pieces of the same track): if a track is not found, neither are its balises.
 * **Track cable pit**: a box 0.3 to 1 m high and 0.4 to 2.5 m wide, with a flat lid and its foot on the ground, 8 m or less from the track axis. It can carry a post. Whatever has that shape is also found as a cable pit: a box on a short post, a bench without a backrest, a bin with a lid or a trimmed hedge.
+* **Trackside cabinet**: a box 1.1 to 2.5 m high and 0.3 to 1.5 m wide, with a flat top, walls and nothing above it, with its foot on the ground and 8 m or less from the track axis, outside the platforms. Whatever has that shape is also found as a cabinet: a container, a chest, a trimmed hedge, a pillar or a small hut. A cabinet turned with respect to the track, with its door open or less than 0.3 m deep may not be found.
+
+The balise, the cable pit and the cabinet are classified whole: what lies in their footprint, from 8 cm above the ground, belongs to them even if the ground, the ballast or a sleeper had taken it.
 
 A tuft of grass (it has few points per voxel), a stone, a round bush and the foot of a bollard or of a bin are not trackside objects.
 
