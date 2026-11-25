@@ -14,7 +14,7 @@ de C++.
 con `@lop.command`. Los archivos de comandos se instalan en `%AppData%\lop\commands`.
 
 Para distribuir los comandos a otros usuarios, publícalos en la [tienda de extensiones](publicar-en-la-tienda.md)
-de digi21.net. El usuario instala las extensiones desde **Configuración** > **Tienda**. Para los comandos que declaran
+de lotofpoints.xyz. El usuario instala las extensiones desde **Configuración** > **Tienda**. Para los comandos que declaran
 un módulo, Lot Of Points comprueba que una licencia activada en el equipo incluya ese módulo.
 
 El panel **Python** permite ejecutar guiones para controlar el visor mediante `lop.viewer` y lanzar órdenes

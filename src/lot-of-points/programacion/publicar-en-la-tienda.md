@@ -1,7 +1,7 @@
 # Publicar en la tienda de extensiones
 <!-- id: lot-of-points-publicar-en-la-tienda -->
 
-La tienda de extensiones de digi21.net distribuye comandos de Lot Of Points escritos en C, C++, Python o .NET.
+La tienda de extensiones de lotofpoints.xyz distribuye comandos de Lot Of Points escritos en C, C++, Python o .NET.
 El usuario instala las extensiones desde **Configuración** > **Tienda** (consulta el
 [gestor de extensiones](../gestor-de-extensiones.md)). Digi21 aprueba a cada desarrollador y revisa cada versión
 antes de publicarla, porque el código de una extensión se ejecuta en el equipo del usuario con los mismos permisos
@@ -9,7 +9,7 @@ que Lot Of Points.
 
 ## Darse de alta como desarrollador
 
-1. Inicia sesión en digi21.net y abre **Licencias** > **Publicar extensiones de Lot Of Points**.
+1. Inicia sesión en lotofpoints.xyz y abre `https://lotofpoints.xyz/DesarrolladoresExtensiones` (en el pie de la página, **Desarrolladores** > **Publicar una extensión**).
 2. Escribe el nombre público con el que la tienda muestra tus extensiones y un prefijo: minúsculas, cifras y
    guiones entre palabras, por ejemplo `mi-empresa`. El prefijo encabeza los identificadores de tus extensiones y
    de sus módulos, y no se puede cambiar. Los prefijos de Digi21 (`lop`, `digi21`, `digi3d`, `mdtopx` y otros)
@@ -28,7 +28,7 @@ Crea la extensión en el portal de desarrolladores con:
   de hipertexto) incrustado y solo muestra las imágenes que subes desde la página de la extensión;
 - el icono: una imagen cuadrada de al menos 96 × 96 píxeles y hasta 5 MiB, en PNG (Portable Network Graphics), JPEG (Joint
   Photographic Experts Group), GIF (Graphics Interchange Format) o WebP. Se recomiendan 256 × 256 píxeles: la página **Tienda**
-  de Lot Of Points muestra el icono a 48 × 48 píxeles y la ficha de digi21.net a 96 × 96.
+  de Lot Of Points muestra el icono a 48 × 48 píxeles y la ficha de lotofpoints.xyz a 96 × 96.
 
 Para mostrar una imagen en la descripción, las instrucciones o las novedades, súbela desde la página de la extensión y
 pega en el campo que estés editando la línea de Markdown que aparece después de subir la imagen, con la forma `![texto alternativo](dirección de la imagen)`.
@@ -86,18 +86,18 @@ Cada versión es un ZIP con los archivos que Lot Of Points instala en la carpeta
 1. Escribe en la página de la extensión la versión (`mayor.menor.revisión`, mayor que la de cada versión ya
    creada), la versión mínima de Lot Of Points y las novedades en Markdown. Si es una versión beta, marca la casilla de
    versión beta (consulta la sección «Versiones beta»).
-2. Elige el ZIP y pulsa **Subir y enviar a revisión**. La página sube el ZIP a digi21.net y el servidor comprueba
+2. Elige el ZIP y pulsa **Subir y enviar a revisión**. La página sube el ZIP a lotofpoints.xyz y el servidor comprueba
    su contenido.
 3. Espera la revisión de Digi21. Si Digi21 rechaza la versión, la página muestra el motivo y puedes subir otro ZIP.
 
-Al publicar la versión, digi21.net asigna la fecha de publicación y firma un manifiesto con el resumen criptográfico de cada
+Al publicar la versión, lotofpoints.xyz asigna la fecha de publicación y firma un manifiesto con el resumen criptográfico de cada
 archivo. Cada vez que se inicia, Lot Of Points comprueba la firma del manifiesto y los resúmenes criptográficos de los archivos de cada versión instalada. Una compra permite usar las
 versiones de la extensión publicadas hasta la fecha de fin del soporte incluido en esa compra. Si Digi21 retira una versión publicada, la tienda deja de
 entregarla y Lot Of Points deja de cargarla.
 
 ## Ocultar una extensión
 
-Una extensión oculta no aparece en el catálogo de la tienda ni en su ficha pública de digi21.net (`/Extensiones/{id}`).
+Una extensión oculta no aparece en el catálogo de la tienda ni en su ficha pública de lotofpoints.xyz (`/Extensiones/{id}`).
 Los usuarios la encuentran en Lot Of Points con un código de acceso que les entregas (consulta la sección
 «Códigos de acceso»). Una extensión oculta pasa por la misma aprobación y la misma revisión de Digi21 que una extensión
 del catálogo, y Digi21 firma también los manifiestos de sus versiones. Si la extensión es de pago, el usuario sigue necesitando
@@ -183,7 +183,7 @@ Para publicar una versión beta:
 Una versión beta usa el mismo formato de número que una estable (`mayor.menor.revisión`, sin sufijos como `-beta.1`) y su
 número tiene que ser mayor que el de cada versión ya creada, beta o estable. Digi21 la revisa igual que una versión estable, y el manifiesto
 firmado no indica que sea beta. La tabla de versiones de la página de la extensión tiene una columna **Beta** que marca las
-versiones beta. La ficha pública de digi21.net no muestra las versiones beta.
+versiones beta. La ficha pública de lotofpoints.xyz no muestra las versiones beta.
 
 Para que solo reciban la beta destinatarios concretos, publícala en una extensión oculta aparte.
 

@@ -34,16 +34,16 @@ The program loads enabled files on a background thread and adds their commands a
 
 ## Extension store
 
-The digi21.net store publishes extensions from Digi21 and other developers. Digi21 reviews each version before publishing it. To use the store, the computer must be registered with a digi21.net account (**Settings** > **Licenses** > **Activate this computer**).
+The lotofpoints.xyz store publishes extensions from Digi21 and other developers. Digi21 reviews each version before publishing it. To use the store, the computer must be registered with a lotofpoints.xyz account (**Settings** > **Licenses** > **Activate this computer**).
 
 1. Click **Settings**, the gear on the title bar.
-2. Select **Store** in the side menu. The page downloads the catalog from digi21.net.
+2. Select **Store** in the side menu. The page downloads the catalog from lotofpoints.xyz.
 3. Click **Install** on an extension and confirm installation.
 4. Close and reopen Lot Of Points. The program loads installed extensions at startup.
 
-A paid extension needs a license for its module activated on the computer. Until the store supports payments, **Request a demo** creates a trial license for the computer if the extension offers one. Each account and each computer can have one trial of each module. The computer's licenses appear in **Settings** > **Licenses** and in **My Lot Of Points licenses**, on digi21.net.
+A paid extension needs a license for its module activated on the computer. Until the store supports payments, **Request a demo** creates a trial license for the computer if the extension offers one. Each account and each computer can have one trial of each module. The computer's licenses appear in **Settings** > **Licenses** and in **My Lot Of Points licenses**, on lotofpoints.xyz.
 
-Lot Of Points stores each installed version in `%LocalAppData%\lop\extensions\<extensión>\<versión>`. At each startup, it checks the digi21.net signature of each version's manifest and the cryptographic hash of every file, and does not load a version with modified, added or deleted files. For each extension, the program loads the newest verified version that supports the installed Lot Of Points version and that Digi21 has not withdrawn from the store.
+Lot Of Points stores each installed version in `%LocalAppData%\lop\extensions\<extensión>\<versión>`. At each startup, Lot Of Points checks the lotofpoints.xyz signature of each version's manifest and the cryptographic hash of every file, and does not load a version with modified, added or deleted files. For each extension, the program loads the newest verified version that supports the installed Lot Of Points version and that Digi21 has not withdrawn from the store.
 
 A purchase permits use of extension versions published up to the end date of the support included in that purchase. If support ended before the installed version was published, the program does not show that version's command buttons.
 

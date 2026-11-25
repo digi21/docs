@@ -45,22 +45,22 @@ Consulta [Python](programacion/python/README.md).
 
 ## Tienda de extensiones
 
-La tienda de digi21.net publica extensiones de Digi21 y de otros desarrolladores. Digi21 revisa cada versión
-antes de publicarla. Para usar la tienda, el equipo tiene que estar registrado en una cuenta de digi21.net
+La tienda de lotofpoints.xyz publica extensiones de Digi21 y de otros desarrolladores. Digi21 revisa cada versión
+antes de publicarla. Para usar la tienda, el equipo tiene que estar registrado en una cuenta de lotofpoints.xyz
 (**Configuración** > **Licencias** > **Activar este equipo**).
 
 1. Pulsa **Configuración**, en el engranaje de la barra de título.
-2. Selecciona **Tienda** en el menú lateral. La página descarga el catálogo de digi21.net.
+2. Selecciona **Tienda** en el menú lateral. La página descarga el catálogo de lotofpoints.xyz.
 3. Pulsa **Instalar** en una extensión y confirma la instalación.
 4. Cierra Lot Of Points y vuelve a abrirlo. El programa carga las extensiones instaladas al iniciarse.
 
 Una extensión de pago necesita una licencia de su módulo activada en el equipo. Mientras la tienda no admita
 pagos, **Pedir una demostración** crea una licencia de demostración para el equipo, si la extensión tiene oferta
 de demostración. Cada cuenta y cada equipo pueden tener una demostración de cada módulo. Las licencias del equipo
-aparecen en **Configuración** > **Licencias** y en **Mis licencias de Lot Of Points**, en digi21.net.
+aparecen en **Configuración** > **Licencias** y en **Mis licencias de Lot Of Points**, en lotofpoints.xyz.
 
 Lot Of Points guarda cada versión instalada en `%LocalAppData%\lop\extensions\<extensión>\<versión>`. Cada vez que
-se inicia, el programa comprueba la firma de digi21.net del manifiesto de cada versión y el resumen criptográfico de cada
+se inicia, el programa comprueba la firma de lotofpoints.xyz del manifiesto de cada versión y el resumen criptográfico de cada
 archivo, y no carga una versión con archivos modificados, añadidos o eliminados. De cada extensión, el programa
 carga la versión verificada más reciente que admite la versión instalada de Lot Of Points y que Digi21 no ha
 retirado de la tienda.
