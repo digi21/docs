@@ -1,6 +1,6 @@
 # Road classification
 <!-- id: clasificacion-de-carreteras -->
-<!-- origen: 5f753ca04e97327eb561c2459bf5b8e56d9076bb -->
+<!-- origen: d34cad280efc051ef26276226bff078606b78e66 -->
 
 [Alignment](./)
 
@@ -53,9 +53,8 @@ The MMS module dongle is needed to save the classified point cloud, the vector d
     no prism); and the prism of each pier or side wall that reaches the ground, from its foot to the underside of the deck.
     Thin things left in the overpass class, such as a cable, do not come out; neither does an overpass 1 m wide or less (a very
     narrow footbridge), and one of 1.5 m may not come out. Whatever hangs from the deck without reaching the ground (an edge
-    beam, the crosshead of a hammerhead pier) belongs to the deck. The plan of a pier is measured in 0.5 m cells, so it may
-    come out shifted by up to 0.25 m. Whatever the classification leaves in the overpass class, such as the crown of a tree
-    next to the deck, comes out as part of the overpass.
+    beam, the crosshead of a hammerhead pier) belongs to the deck. Whatever the classification leaves in the overpass class,
+    such as the crown of a tree next to the deck, comes out as part of the overpass.
 * **The inventory database** (optional), in the file chosen in the dialog box (a text file or, with extension .html or .htm,
   a web page): one row per safety barrier, wall, street light, sign, sign on posts and overpass or tunnel. See [below](#the-inventory-database).
 

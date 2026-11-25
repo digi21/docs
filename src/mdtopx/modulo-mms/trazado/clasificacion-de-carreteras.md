@@ -52,8 +52,8 @@ Para guardar la nube clasificada, el vectorial y la base de datos hace falta la 
     prisma); y el prisma de cada pila o hastial que llega al suelo, de su pie a la cara inferior del tablero. Lo fino que
     quede de la clase del techo, como un cable, no sale; tampoco un paso de 1 m de ancho o menos (una pasarela muy estrecha), y
     uno de 1,5 m puede no salir. Lo que cuelga del tablero sin llegar al suelo (una viga de borde, el dintel de una pila de
-    martillo) es del tablero. La planta de una pila se mide en celdas de 0,5 m, así que puede salir hasta 0,25 m corrida. Lo
-    que la clasificación deje en la clase del techo, como la copa de un árbol junto al tablero, sale como parte del paso.
+    martillo) es del tablero. Lo que la clasificación deje en la clase del techo, como la copa de un árbol junto al tablero,
+    sale como parte del paso.
 * **La base de datos del inventario** (opcional), en el fichero que se elija en el cuadro (de texto o, con extensión .html o
   .htm, una página web): una fila por barrera, muro, farola, señal, cartel y paso superior o túnel. Ver [abajo](#la-base-de-datos-del-inventario).
 
