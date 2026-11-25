@@ -1,5 +1,5 @@
 # Zooms
-<!-- id: zooms -->
+<!-- id: barra-de-herramientas-zooms -->
 
 ![Barra de herramientas Zooms](../../../images/zooms.png)
 
