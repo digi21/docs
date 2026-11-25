@@ -54,7 +54,8 @@ Para guardar la nube clasificada, el vectorial y la base de datos hace falta la 
     uno de 1,5 m puede no salir. Lo que cuelga del tablero sin llegar al suelo (una viga de borde, el dintel de una pila de
     martillo) es del tablero. La planta de una pila se mide en celdas de 0,5 m, así que puede salir hasta 0,25 m corrida. Lo
     que la clasificación deje en la clase del techo, como la copa de un árbol junto al tablero, sale como parte del paso.
-* **La base de datos del inventario** (opcional), en el fichero de texto que se elija en el cuadro: una fila por barrera, muro, farola, señal, cartel y paso superior o túnel. Ver [abajo](#la-base-de-datos-del-inventario).
+* **La base de datos del inventario** (opcional), en el fichero que se elija en el cuadro (de texto o, con extensión .html o
+  .htm, una página web): una fila por barrera, muro, farola, señal, cartel y paso superior o túnel. Ver [abajo](#la-base-de-datos-del-inventario).
 
 ## El cuadro de diálogo
 
@@ -64,7 +65,7 @@ Para guardar la nube clasificada, el vectorial y la base de datos hace falta la 
 | Conservar lo que ya esté clasificado | Los puntos que ya tienen una clase (ni 0 ni 1) no se tocan. |
 | Puntos sintéticos en los huecos de la calzada (tras los vehículos) | Añade los puntos sintéticos. Los de una pasada anterior se sustituyen. |
 | Vectorial | Genera el vectorial en un documento nuevo. |
-| Base de datos del inventario (BBDD MMS) | Escribe la base de datos del inventario en el fichero de debajo (un .txt; elíjalo con el botón **...**). Se puede pedir sin el vectorial. |
+| Base de datos del inventario (BBDD MMS) | Escribe la base de datos del inventario en el fichero de debajo (elíjalo con el botón **...**): un .txt o, con extensión .html o .htm, una página web con la misma tabla. Se puede pedir sin el vectorial. |
 | Clases LiDAR... | La clase de cada elemento. Ver la tabla de abajo. |
 | Códigos vector... | El código de cada elemento del vectorial y de la base de datos. Ver la tabla de abajo. |
 | Valores por defecto | Vuelve a los valores por defecto de las casillas del cuadro (no a los de las clases ni a los de los códigos, que tienen su propio botón en su tabla). |
@@ -137,7 +138,7 @@ Todavía salen mal unos pocos casos:
 
 ## La base de datos del inventario
 
-Un fichero de texto con el formato de la [Base de datos MMS](base-de-datos-mms.md) de un vectorial: una cabecera y una fila por objeto, con las columnas siguientes:
+Un fichero de texto con el formato de la [Base de datos MMS](base-de-datos-mms.md) de un vectorial: una cabecera y una fila por objeto, con las columnas siguientes. Con extensión .html o .htm, una página web con una tabla de las mismas columnas y los mismos valores, para abrirla con el navegador o con una hoja de cálculo.
 
 | Columna | Significado |
 |---|---|

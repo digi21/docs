@@ -1,6 +1,6 @@
 # Road classification
 <!-- id: clasificacion-de-carreteras -->
-<!-- origen: 50acf9b30cb1d9d276a5cec95a24e229bfea6df5 -->
+<!-- origen: 5f753ca04e97327eb561c2459bf5b8e56d9076bb -->
 
 [Alignment](./)
 
@@ -56,7 +56,8 @@ The MMS module dongle is needed to save the classified point cloud, the vector d
     beam, the crosshead of a hammerhead pier) belongs to the deck. The plan of a pier is measured in 0.5 m cells, so it may
     come out shifted by up to 0.25 m. Whatever the classification leaves in the overpass class, such as the crown of a tree
     next to the deck, comes out as part of the overpass.
-* **The inventory database** (optional), in the text file chosen in the dialog box: one row per safety barrier, wall, street light, sign, sign on posts and overpass or tunnel. See [below](#the-inventory-database).
+* **The inventory database** (optional), in the file chosen in the dialog box (a text file or, with extension .html or .htm,
+  a web page): one row per safety barrier, wall, street light, sign, sign on posts and overpass or tunnel. See [below](#the-inventory-database).
 
 ## The dialog box
 
@@ -66,7 +67,7 @@ The MMS module dongle is needed to save the classified point cloud, the vector d
 | Keep what is already classified | The points that already have a class (neither 0 nor 1) are not touched. |
 | Synthetic points in the gaps of the carriageway (behind the vehicles) | Adds the synthetic points. Those of a previous pass are replaced. |
 | Vector | Generates the vector data in a new document. |
-| Inventory database (MMS database) | Writes the inventory database to the file below (a .txt; choose it with the **...** button). It can be requested without the vector data. |
+| Inventory database (MMS database) | Writes the inventory database to the file below (choose it with the **...** button): a .txt or, with extension .html or .htm, a web page with the same table. It can be requested without the vector data. |
 | LiDAR classes... | The class of each element. See the table below. |
 | Vector codes... | The code of each element of the vector data and of the database. See the table below. |
 | Default values | Returns the check boxes of the dialog box to their default values (not the classes nor the codes, which have their own button in their table). |
@@ -139,7 +140,7 @@ A few cases still come out wrong:
 
 ## The inventory database
 
-A text file with the format of the [MMS database](base-de-datos-mms.md) of vector data: a header and one row per object, with the following columns:
+A text file with the format of the [MMS database](base-de-datos-mms.md) of vector data: a header and one row per object, with the following columns. With extension .html or .htm, a web page with a table of the same columns and the same values, to open with the browser or with a spreadsheet.
 
 | Column | Meaning |
 |---|---|
