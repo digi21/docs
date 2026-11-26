@@ -4,6 +4,10 @@
 
 Novedades y correcciones de cada versión publicada de Topcal21.
 
+## 2026
+
+* [6.10.16.2](2026/6-10-16-2.md) — 16/11/2026 · 3 novedades
+
 ## 2025
 
 * [5.21.31](2025/5-21-31.md) — 01/04/2025 · 1 novedad, 1 corrección
