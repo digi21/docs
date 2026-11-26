@@ -10,12 +10,15 @@ Esta herramienta está destinada a la búsqueda y clasificación de puntos LiDAR
 Los parámetros que precisa son los siguientes:
 
 * **Seleccione las tipologías origen**: Se deberán seleccionar las tipologías origen donde buscar los puntos que forman la superficie.
-* **Actuar sólo en la selección actual**: Se podrá activar esta opción para calcular sólo en los puntos que actualmente se tengan seleccionados.
+* **Actuar sólo en la selección actual**: Se podrá activar esta opción para calcular sólo en los puntos que actualmente se tengan seleccionados. Sólo cambian los puntos seleccionados; el terreno sobre el que se mide la altura es siempre el de todo el archivo.
 * **Tipología destino**: Se deberá elegir la tipología de clasificación destino de los puntos que cumplan con las condiciones del cálculo.
 * **Distancia máxima entre puntos**: Distancia máxima para considerar dos puntos como adyacentes o vecinos en el terreno. Este parámetro dependerá de la densidad de puntos. No es adecuado poner un valor demasiado elevado porque ello provocará que se consideren puntos muy alejados del punto en consideración. Si se indica un valor demasiado escaso, no se podrá relacionar el punto en consideración con ningún otro punto.
 * **Mínima área de cada superficie**: Valor que deberá superar el conjunto de puntos vecinos que cumplen con la condición de ser superficie plana.
 * **Máxima pendiente de la superficie**: Valor máximo en grados sexagesimales que no deberá superar la superficie que forman los puntos.
-* **Altura mínima de elevación**: Altura mínima que tiene que existir entre el punto en consideración con respecto a alguno de sus vecinos para que se cambie su clasificación.
+* **Altura mínima de elevación**: Altura mínima de la superficie sobre el terreno. El terreno lo forman los puntos de la tipología Suelo (clase 2) de todo el archivo, por lo que conviene clasificarlos antes, por ejemplo con [Solo suelo](solo-suelo.md). Las superficies que quedan fuera de la zona con suelo no se clasifican. Si el archivo no tiene puntos de suelo, la herramienta no puede medir esta altura y no la tiene en cuenta.
+* **Precisión en cota de los puntos**: Desviación típica máxima, en metros, de los puntos respecto al plano de la superficie. Con un valor pequeño, las cubiertas con ruido no se consideran planas.
+
+Dentro del contorno de cada superficie encontrada pasan a la tipología destino los puntos de las tipologías origen situados a la altura mínima o más sobre el terreno. Los de otras tipologías, por ejemplo la vegetación que cubra parte de una cubierta, no cambian.
 
 Vea también:
 
