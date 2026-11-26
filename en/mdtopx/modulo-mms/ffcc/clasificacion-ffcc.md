@@ -4,7 +4,7 @@
 
 [Railways](./)
 
-Classifies the point cloud of a railway or metro line captured with a mobile mapping system (MMS) and generates its vector data. It detects the tracks with their rails, sleepers and guard rails, the track bed and the ballast, the ground, the platforms, the walls, the canopies of platforms and stations, the tunnels, the catenary (wires, droppers, masts, cantilevers and cross connections), the vegetation, the trackside signals and the trackside objects (track pegs, balises, cable pits and cabinets). If requested, it fills the gaps of the rails and of the ground with synthetic points and generates the alignment of the tracks (.VIA).
+Classifies the point cloud of a railway or metro line captured with a mobile mapping system (MMS) and generates its vector data. It detects the tracks with their rails, sleepers and guard rails, the track bed and the ballast, the ground, the platforms, the walls, the canopies of platforms and stations, the tunnels, the catenary (wires, droppers, masts, cantilevers and cross connections), the vegetation, the trackside signals and the trackside objects (track pegs, balises, cable pits and cabinets). If requested, it fills the gaps of the rails and of the ground with synthetic points and generates the alignment of the tracks (.VIA) and the inventory database.
 
 It only changes what has to do with the railway. The other points keep their class.
 
@@ -23,6 +23,7 @@ The trajectory of the vehicle, or the axis of the line, is needed, in any format
 * **"Edit objects" objects**: one for each rail, sleeper, platform, wall, tunnel, guard rail, catenary mast (with its cantilever), catenary wire, patch of vegetation, canopy, signal, track peg, balise, cable pit and cabinet. In a project they are saved in the .OBJ file next to each file.
 * **The vector data** (optional), in a new document: the axes of the rails and of the tracks (adjusted: the two rails of each track, parallel and without kinks, also across the gaps where they are not seen; a turnout or the end of a rail not seen, as tracked), the sleepers and the outlines of the rails and of the sleepers, the platform edges, the tops of the walls, the tunnel profiles, the guard rails, the catenary wires, the droppers, the masts (the prism of their footprint), the cantilevers, the cross connections and the prism of each signal, track peg, balise, cable pit and cabinet (its outline at the bottom and at the top, and its four edges).
 * **The alignment** (optional), in a new road document: the geometry of the tracks, with their template and their profiles, as in **Fit axis geometry**.
+* **The inventory database** (optional), in the file chosen in the dialog box (a text file or, with extension .html or .htm, a web page): one row per catenary mast, portal, tunnel, wall, signal, track peg, balise, cable pit, cabinet and platform. And in the file next to it, with "_PK" before the extension, a chainage table of each track with its gauge, its cant, its track spacing and its clearances. See [below](#the-inventory-database).
 
 ## The dialog box
 
@@ -35,6 +36,8 @@ The trajectory of the vehicle, or the axis of the line, is needed, in any format
 | Synthetic points in the gaps of the rails and of the ground | Adds the synthetic points. Those of a previous run are replaced. |
 | Vector | Generates the vector data in a new document. |
 | Alignment with its geometry and template (.VIA) | Also generates the alignment. **Parameters...** opens those of **Fit axis geometry**, which are the same. |
+| Inventory database (MMS database) and chainage table | Writes the inventory database to the file below (choose it with the **...** button): a .txt file or, with extension .html or .htm, a web page. The chainage table goes in the file next to it, with "_PK" before the extension. It can be requested without classifying and without the vector data: then it comes from the classes the points already have. The MMS module dongle is needed. |
+| One row of the chainage table every (m) | How many metres apart the rows of each track go in the chainage table. By default, 10 m. |
 | LiDAR classes... | The class of each element. See the table below. |
 | Vector codes... | The code of each element of the vector data. See the table below. |
 | Default values | Restores the default values of the fields of the dialog box (not of the classes or the codes, which have their own button in their table). |
@@ -99,6 +102,36 @@ By default, those of the MDTopX class catalogue. Each element must have a class 
 | Balise | BALIZA |
 | Track cable pit | CREGIS |
 | Trackside cabinet | ARMARI |
+
+## The inventory database
+
+It comes from the point cloud with its classes: those the classification has just set or, without classifying (or in **Railway vector**), those the points already had, also the ones corrected by hand. In a project, from all the chosen files at once: a wall that continues from one file to the next is a single row. The chainage is the distance along the line (the trajectory or the axis) from its start.
+
+**The objects**, in the chosen file, with the format of the [road database](../trazado/clasificacion-de-carreteras.md#the-inventory-database): the same columns, CODIGO, PK_INI, PK_FIN, LADO, X_UTM_INI, Y_UTM_INI, X_UTM_FIN, Y_UTM_FIN, Z_BAJA, ALTURA, LONGITUD, AREA and DIST_EJE. Each object is the touching points of its class (in 0.5 m cubes): a catenary mast, with the code of the mast (a portal, with its masts and its beam, is a single row: **Ambos** if it crosses the line), a tunnel, a wall, a signal, a track peg, a balise, a cable pit, a cabinet and a platform, each one with the code of its vector data (the platform, that of its edge).
+
+* **Z_BAJA**: the lowest of its points. **ALTURA**: how far it rises above that.
+* **LONGITUD**: what it covers along the line or across it, whichever is larger.
+* **AREA**: that of its footprint, in 0.5 m squares.
+* **DIST_EJE**: the mean distance of its points to the line.
+
+A tunnel, a wall or a platform with a footprint under 1 m² is not output: it is a loose piece. The rows go by type, in that order, and within each type by chainage.
+
+**The chainage table**, in the file next to it and in the same format: for each detected track (all of them, not only the surveyed one), one row every 10 m (as set in the dialog box). What belongs to each rail goes in two columns, that of the left rail and that of the right rail, in the direction of the line. A cell without a measurement holds "-".
+
+| Column | Meaning |
+|---|---|
+| VIA | The number of the track. |
+| RECORRIDA | **Si** on the track the vehicle runs on. |
+| PK | In "km + m". |
+| X_UTM, Y_UTM, Z_CARRIL | The axis of the track at that chainage, with the elevation of the running plane (the mean of the two rails). |
+| ANCHO | The track gauge: the median of what was measured in the metres of the row. |
+| PERALTE | The elevation of the left rail minus that of the right rail: the median in the metres of the row. |
+| ENTREEJE_IZQ, ENTREEJE_DER | The distance from the axis of the track to that of the next track, on the left and on the right. |
+| H_CONTACTO_IZQ, H_CONTACTO_DER | The height of the contact wire above each rail, vertically: the median in the metres of the row. |
+| GALIBO_V_IZQ, GALIBO_V_DER | The vertical clearance of each rail: from it to the lowest thing above it, 0.25 m from it or less across: the vault of a tunnel, a canopy, the beam of a portal, a wall or a signal. Unclassified points (an overpass) only count 0.3 m or more above the contact wire, because there may be a train below and a pantograph next to the wire (without a catenary, above 4.5 m), and if they are above both rails at once, 1 m or less apart in height: what is above a single rail is usually a cable. The catenary wires, droppers, cables, cantilevers and cross connections, the tunnel elements and the vegetation do not count. |
+| GALIBO_L_IZQ, GALIBO_L_DER | The lateral clearance: horizontally, from the left rail to the nearest thing on its left and from the right rail to the nearest thing on its right, up to 4 m above the rail and 6 m from it or less: a mast, a wall, a platform, a canopy, a tunnel or its elements, a signal, a track peg, a cable pit or a cabinet. Between two tracks only what lies before the other one counts, also up to 2 m beyond where the other one starts or ends and where only one of its rails is seen; unclassified points (a train) and the vegetation do not count. |
+
+The metres of a row are those with their centre from 5 m before to 5 m after its chainage (each metre goes in a single row). The clearances are the minimum in them; the gauge, the cant and the height of the contact wire, the median of what was measured in them; the axis and the track spacing, those of its chainage.
 
 ## Catenary masts
 
