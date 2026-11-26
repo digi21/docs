@@ -28,7 +28,7 @@ Los desagües se eligen en el cuadro de diálogo, de una de estas dos formas:
   * **Precipitación diaria máxima Pd**: en milímetros, la del periodo de retorno del cálculo.
   * **Índice de torrencialidad I1/Id**: el del mapa de la Instrucción.
   * **Umbral de escorrentía P0**: en milímetros, ya corregido (P0 = P0i · β).
-* **Informe HTML**: con la casilla marcada se escribe el informe en el fichero del campo de al lado, que por omisión es el nombre del DEM terminado en «_cuencas.html», junto al DEM; el botón **...** permite elegir otro. Si el fichero existe, se sustituye.
+* **Informe HTML**: con la casilla marcada se escribe el informe en el fichero del campo de al lado, que por omisión es el nombre del DEM terminado en «_cuencas.html», junto al DEM; el botón **...** permite elegir otro. Si el fichero existe, se sustituye. Al terminar, el informe se abre en el navegador.
 
 Al pulsar **Aceptar** no se pregunta nada más. Si ningún desagüe cae sobre el DEM, la ventana de información dice entre qué coordenadas están los puntos leídos y entre cuáles está el DEM.
 
@@ -97,4 +97,4 @@ El campo AVISO marca las cuencas en las que la Instrucción no admite este méto
 
 ## Informe
 
-El informe en HTML (el fichero del cuadro; no se abre solo: se abre con el navegador desde su carpeta) tiene, por cada cuenca, el resumen, la tabla de parámetros, la curva hipsométrica, el método racional paso a paso (si se pidió), con sus avisos, y las subcuencas.
+El informe en HTML (el fichero del cuadro, que se abre en el navegador al terminar) tiene, por cada cuenca, el resumen, la tabla de parámetros, la curva hipsométrica, el método racional paso a paso (si se pidió), con sus avisos, y las subcuencas.

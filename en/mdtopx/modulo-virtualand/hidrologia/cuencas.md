@@ -1,6 +1,6 @@
 # Basins
 <!-- id: hidrologia-cuencas -->
-<!-- origen: 3aa176b21b11311e0912aa1865fc517ca9d4be4b -->
+<!-- origen: c2e7b7f62743660eb92adec53a2b96a018f57f48 -->
 
 [VirtuaLand Hydrology](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-virtualand/virtualand-hidrologia.md)
 
@@ -29,7 +29,7 @@ The outlets are chosen in the dialog, in one of these two ways:
   * **Maximum daily rainfall Pd**: in millimetres, the one of the return period of the calculation.
   * **Torrentiality index I1/Id**: the one of the map of the standard.
   * **Runoff threshold P0**: in millimetres, already corrected (P0 = P0i · β).
-* **HTML report**: with the box checked, the report is written to the file of the field beside it, which by default is the name of the DEM ending in «_cuencas.html», next to the DEM; the **...** button chooses another one. If the file exists, it is replaced.
+* **HTML report**: with the box checked, the report is written to the file of the field beside it, which by default is the name of the DEM ending in «_cuencas.html», next to the DEM; the **...** button chooses another one. If the file exists, it is replaced. When the tool finishes, the report opens in the browser.
 
 When **OK** is pressed nothing else is asked. If no outlet falls on the DEM, the information window says between which coordinates the points read are and between which ones the DEM is.
 
@@ -98,4 +98,4 @@ The AVISO field marks the basins where the standard does not allow this method; 
 
 ## Report
 
-The HTML report (the file of the dialog; it does not open by itself: open it with the browser from its folder) has, for each basin, the summary, the table of parameters, the hypsometric curve, the rational method step by step (if requested), with its warnings, and the sub-basins.
+The HTML report (the file of the dialog, which opens in the browser when the tool finishes) has, for each basin, the summary, the table of parameters, the hypsometric curve, the rational method step by step (if requested), with its warnings, and the sub-basins.
