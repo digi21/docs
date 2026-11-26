@@ -1,6 +1,6 @@
 # Forest inventory
 <!-- id: inventario-forestal -->
-<!-- origen: b59d9d67f1b4a0ecae724f1345ce9150df0a9ff7 -->
+<!-- origen: eaada7d5b1a41f45f3369ce7635680cc920ffeb5 -->
 
 [Forestry](./)
 
@@ -68,7 +68,7 @@ The polygons of the inventory zones (quadrants, plots, stands). With zones, the 
 ### Species and volume
 
 * **Species of the trees without field tree**: the species of the trees that have no matched field tree (or of all of them, if there is no field inventory). Empty: those trees have no species and no species volume.
-* **Volume equations (.csv; empty: the built-in ones)**: the volume equations per species. Empty: the volume tables of the IFN IV (Spanish National Forest Inventory) for Lugo. See [Species volume](#species-volume).
+* **Volume equations (.csv; empty: the installed ones)**: the volume equations per species. Empty: those of the `Ecuaciones de volumen.csv` file in the program folder. See [Species volume](#species-volume).
 
 ### Parameters
 
@@ -170,17 +170,25 @@ V (m³) = factor·(a + b·d<sup>c</sup>·h<sup>e</sup>)
 
 with d the DBH (in mm or cm) and h the total height in m.
 
-**Built in**, the IFN IV volume tables over bark for Lugo (Vcc in dm³ = a + b·Dn²·Ht, with Dn in mm) for *Pinus sylvestris*, *Pinus pinaster*, *Pinus radiata* and *Eucalyptus nitens*. For *Pinus nigra*, which has no published table in Galicia, that of *P. sylvestris* is used, flagged as **approximate** (as the IFN does: that of a related species in the same province).
+**The installed ones**: the program folder holds `Ecuaciones de volumen.csv`, with volume tables over bark for 80 species for all of Spain (Vcc in dm³ = a + b·Dn²·Ht, with Dn in mm). It is used when the dialog gives no other file.
+
+The IFN4 (Fourth Spanish National Forest Inventory) only publishes tables by province. Those in this file are a national fit: for each species, a single equation fitted to the mean volumes of stem form 2 (timber stems longer than 4 m) of every province where it grows, weighted by the trees of each diameter class (results tables 201, 403 and 407 of the IFN4). The `fuente` (source) column gives how many zones it comes from and its root mean square error against the volumes of each province: 5 % for *Pinus sylvestris*, 3 % for *P. nigra* and 6 % for *P. pinaster*; 15 to 20 % for broadleaves of more variable form, such as holm oak or chestnut. For a job in a single province, the IFN provincial table is more accurate: put it in a file of your own.
+
+Some species carry two names, the IFN one and another often used in the field, with the same equation: *Quercus rotundifolia* (*Q. ilex*), *Quercus pubescens* (*Q. humilis*) and *Betula pubescens* (*B. alba*).
+
+To change them, copy the file out of the program folder, edit it (for example, with Excel) and choose it in the dialog: the files in the program folder are replaced when MDTopX is updated.
+
+If there is no file, the built-in ones are used: the same as in the file for *Pinus sylvestris*, *Pinus nigra*, *Pinus pinaster*, *Pinus radiata* and *Eucalyptus nitens*.
 
 **Each tree's species** is that of the matched field tree or, if it has none, that of the dialog. It matches an equation if one of the two names contains the other, case-insensitive ("Sylvestris" matches "Pinus sylvestris"), and the tree then takes the equation's name. If it matches none, the tree has no species volume (**no table** flag). Check the spelling of the field species: a typo leaves the tree without a volume table.
 
 **Custom equations**: a .csv separated by `;` (or `,`) with this header:
 
 ```
-especie;a;b;c;e;unidad_d;factor;aproximada;fuente
+especie;nombre;codigo_ifn;a;b;c;e;unidad_d;factor;aproximada;fuente
 ```
 
-`especie` (species), `a` and `b` are required. If missing, `c` is 2, `e` is 1, `unidad_d` (DBH unit) is `mm` (or `cm`), `factor` is 0.001 (dm³ to m³) and `aproximada` (approximate) is 0 (1 flags the volume as approximate). `fuente` (source) is a text shown in the report. The first equation that matches the species is used.
+`especie` (species), `a` and `b` are required; `nombre` (common name) and `codigo_ifn` (IFN species code) are informative, and any other column can be added. If missing, `c` is 2, `e` is 1, `unidad_d` (DBH unit) is `mm` (or `cm`), `factor` is 0.001 (dm³ to m³) and `aproximada` (approximate) is 0 (1 flags the volume as approximate). `fuente` (source) is an informative text (where the equation comes from); it is not shown in the report. Numbers can use a decimal comma or point: the installed file uses a comma, so that Excel in Spanish reads them as numbers and saves them the same way. The first equation that matches the species is used: with a short name ("Nigra"), the first in the list (the installed ones list first the species with most trees in Spain, so "Nigra" is *Pinus nigra* and not *Populus nigra*).
 
 ### Estimated DBH
 
@@ -338,6 +346,7 @@ On the Riomao marteloscope (Lugo; *P. sylvestris* and *P. nigra*), with a drone 
 * The ground must be classified.
 * Everything that is not ground counts as vegetation (see [Before you start](#before-you-start)).
 * Processes the whole cloud. In a project, the points of all the chosen files must fit in memory at the same time.
+* With more than 20 million points (in a cloud or in a project), the computation runs by 50 m tiles with a 15 m margin around them, several at once: besides the cloud and its ground model, it only needs the memory of a few tiles (it does not grow with the cloud) and, with several cores, takes the same time. The result is the same as with the whole cloud while the margin spans two neighbouring crowns (at the Riomao marteloscope, 45.7 million points, the same trees and the same tree for every point).
 * The species comes only from the field inventory or the default species; it is not deduced from the cloud.
 * The estimated DBH relation is a generic one, fitted on a pine stand. In other stands or species it may be biased, and it cannot be changed from the dialog.
 * The followed stem stops if the trunk deviates more than about 11° from the axis direction. With a trunk with few points inside a dense crown, it may follow a few false circles. It only affects the point classes and the stem profile.

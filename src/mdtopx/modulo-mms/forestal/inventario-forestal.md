@@ -67,7 +67,7 @@ Los polígonos de las zonas del inventario (cuadrantes, parcelas, rodales). Con 
 ### Especies y volumen
 
 * **Especie de los árboles sin pie de campo**: la especie de los árboles que no tienen un pie de campo emparejado (o de todos, si no hay inventario de campo). Vacío: esos árboles no tienen especie ni volumen por especie.
-* **Ecuaciones de volumen (.csv; vacío: las de fábrica)**: las ecuaciones de volumen por especie. Vacío: las tarifas del IFN IV de Lugo. Ver [Volumen por especie](#volumen-por-especie).
+* **Ecuaciones de volumen (.csv; vacío: las de la instalación)**: las ecuaciones de volumen por especie. Vacío: las del archivo `Ecuaciones de volumen.csv` de la carpeta del programa. Ver [Volumen por especie](#volumen-por-especie).
 
 ### Parámetros
 
@@ -169,17 +169,25 @@ V (m³) = factor·(a + b·d<sup>c</sup>·h<sup>e</sup>)
 
 con d el DAP (en mm o en cm) y h la altura total en m.
 
-**De fábrica**, las tarifas de volumen con corteza del IFN IV de Lugo (Vcc en dm³ = a + b·Dn²·Ht, con Dn en mm) para *Pinus sylvestris*, *Pinus pinaster*, *Pinus radiata* y *Eucalyptus nitens*. Para *Pinus nigra*, que no tiene tarifa publicada en Galicia, se usa la de *P. sylvestris*, marcada como **aproximada** (es lo que hace el IFN: la de una especie próxima de la misma provincia).
+**Las de la instalación**: en la carpeta del programa está `Ecuaciones de volumen.csv`, con las tarifas de volumen con corteza de 80 especies para toda España (Vcc en dm³ = a + b·Dn²·Ht, con Dn en mm). Es la que se usa si el cuadro de diálogo no da otra.
+
+El IFN4 (Cuarto Inventario Forestal Nacional) solo publica tarifas por provincia. Las de este archivo son un ajuste nacional: para cada especie, una sola ecuación ajustada a los volúmenes medios de la forma de cubicación 2 (fustes maderables de más de 4 m) de todas las provincias donde está, con el peso de los pies de cada clase diamétrica (tablas de resultados 201, 403 y 407 del IFN4). La columna `fuente` dice de cuántas zonas sale y su error cuadrático medio frente a los volúmenes de cada provincia: un 5 % en *Pinus sylvestris*, un 3 % en *P. nigra* y un 6 % en *P. pinaster*; del 15 al 20 % en frondosas de forma más variable, como la encina o el castaño. En un trabajo de una sola provincia es más exacta la tarifa provincial del IFN: póngala en un archivo propio.
+
+Algunas especies van con dos nombres, el del IFN y otro que se usa mucho en campo, con la misma ecuación: *Quercus rotundifolia* (*Q. ilex*), *Quercus pubescens* (*Q. humilis*) y *Betula pubescens* (*B. alba*).
+
+Para cambiarlas, copie el archivo fuera de la carpeta del programa, edítelo (por ejemplo, con Excel) y elíjalo en el cuadro de diálogo: los de la carpeta del programa se sustituyen al actualizar MDTopX.
+
+Si no hay ningún archivo, se usan las de fábrica: las mismas del archivo para *Pinus sylvestris*, *Pinus nigra*, *Pinus pinaster*, *Pinus radiata* y *Eucalyptus nitens*.
 
 **La especie de cada árbol** es la del pie de campo emparejado o, si no lo tiene, la del cuadro de diálogo. Casa con una ecuación si uno de los dos nombres contiene al otro, sin distinguir mayúsculas («Sylvestris» casa con «Pinus sylvestris»), y entonces el árbol toma el nombre de la ecuación. Si no casa con ninguna, el árbol no tiene volumen por especie (marca **sin tarifa**). Revise la ortografía de las especies del campo: una errata deja el árbol sin tarifa.
 
 **Ecuaciones propias**: un .csv con separador `;` (o `,`) y esta cabecera:
 
 ```
-especie;a;b;c;e;unidad_d;factor;aproximada;fuente
+especie;nombre;codigo_ifn;a;b;c;e;unidad_d;factor;aproximada;fuente
 ```
 
-Son obligatorias `especie`, `a` y `b`. Si faltan, `c` vale 2, `e` vale 1, `unidad_d` vale `mm` (o `cm`), `factor` vale 0,001 (de dm³ a m³) y `aproximada` vale 0 (1 marca el volumen como aproximado). `fuente` es un texto que sale en el informe. Se usa la primera ecuación que casa con la especie.
+Son obligatorias `especie`, `a` y `b`; `nombre` (el nombre común) y `codigo_ifn` (el código de especie del IFN) son informativos, y se puede añadir cualquier otra columna. Si faltan, `c` vale 2, `e` vale 1, `unidad_d` vale `mm` (o `cm`), `factor` vale 0,001 (de dm³ a m³) y `aproximada` vale 0 (1 marca el volumen como aproximado). `fuente` es un texto informativo (de dónde sale la ecuación); no sale en el informe. Los números pueden llevar coma o punto decimal: el de la instalación lleva coma, para que Excel en español los lea como números y los guarde igual. Se usa la primera ecuación que casa con la especie: con un nombre corto («Nigra»), la primera de la lista (en las de la instalación van primero las especies con más pies en España, así que «Nigra» es *Pinus nigra* y no *Populus nigra*).
 
 ### DAP estimado
 
@@ -337,6 +345,7 @@ En el marteloscopio de Riomao (Lugo; *P. sylvestris* y *P. nigra*), con un dron 
 * Hace falta el suelo clasificado.
 * Todo lo que no es suelo cuenta como vegetación (ver [Antes de empezar](#antes-de-empezar)).
 * Procesa la nube entera. En un proyecto, los puntos de todos los archivos elegidos tienen que caber a la vez en la memoria.
+* Con más de 20 millones de puntos (en una nube o en un proyecto), el cálculo va por teselas de 50 m con un margen de 15 m alrededor, varias a la vez: además de la nube y de su suelo, solo necesita la memoria de unas pocas teselas (no crece con la nube) y, con varios núcleos, tarda lo mismo. El resultado es el mismo que con la nube entera mientras el margen pase del ancho de dos copas vecinas (en el marteloscopio de Riomao, 45,7 millones de puntos, los mismos árboles y el mismo árbol en cada punto).
 * La especie solo sale del inventario de campo o de la especie por omisión; no se deduce de la nube.
 * La relación del DAP estimado es una genérica, ajustada en una masa de pinos. En otras masas o especies puede tener sesgo, y no se puede cambiar desde el cuadro de diálogo.
 * El fuste seguido se para si el tronco se aparta más de unos 11° de la dirección del eje. Con un tronco con pocos puntos dentro de una copa densa, puede seguir unas pocas circunferencias falsas. Solo afecta a la clase de los puntos y a la curva de perfil.
