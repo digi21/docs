@@ -1,10 +1,10 @@
 # Find points
 <!-- id: buscar-puntos -->
-<!-- origen: b29e36f3d8322fff42f1d48305c5c6482b7d6bd3 -->
+<!-- origen: e6a96779577557eeceff08ed93ce5343a4ec8e96 -->
 
 [LiDAR classification tab](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
-Tools for segmenting a point cloud:
+Tools for segmenting a point cloud. In the LiDAR classification tab, the Magic Surface and its vector output (**Vectorial SM**) have their own panel, **Magic Surface**; the others are in the **Airborne-specific algorithms** panel:
 
 * [**Elevated**](buscar-puntos-elevados.md): finds and classifies LiDAR points by their geometric relationships with surrounding points, with an optional color (RGB) or intensity filter.
 * [**Isolated**](buscar-puntos-aislados.md): finds and classifies isolated points with no nearby neighbors, usually due to incorrect elevations.

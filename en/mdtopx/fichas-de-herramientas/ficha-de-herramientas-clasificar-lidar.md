@@ -1,6 +1,6 @@
 # LiDAR classification tab
 <!-- id: ficha-de-herramientas-clasificar-lidar -->
-<!-- origen: 0c1f16f118a6cccb2beb40c398d9230d799300cf -->
+<!-- origen: 1a0656d3da20f8c0f60b245cc8d0a269b7741320 -->
 
 [Ribbon](/mdtopx/cinta-de-herramientas/)
 
@@ -10,7 +10,8 @@ This tab contains commands for classifying LiDAR points measured by airborne las
 
 The commands are grouped as follows:
 
-* [**Find points**](../modulo-laser/buscar-puntos/)
+* [**Airborne-specific algorithms**](../modulo-laser/buscar-puntos/)
+* [**Magic Surface**](../modulo-laser/buscar-puntos/superficie-magica/)
 * [**Geometric shapes**](../modulo-laser/formas-geometricas/)
 * [**Forestry**](../modulo-mms/forestal/)
 

@@ -9,7 +9,8 @@ En esta ficha de herramientas aparecen los comandos relacionados con la clasific
 
 Estos comandos aparecen agrupados según los siguientes epígrafes:
 
-* [**Buscar puntos**](../modulo-laser/buscar-puntos/)
+* [**Algoritmos específicos para registros aéreos**](../modulo-laser/buscar-puntos/)
+* [**Superficie mágica**](../modulo-laser/buscar-puntos/superficie-magica/)
 * [**Formas geométricas**](../modulo-laser/formas-geometricas/)
 * [**Forestal**](../modulo-mms/forestal/)
 

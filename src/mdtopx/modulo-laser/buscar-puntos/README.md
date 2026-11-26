@@ -3,7 +3,7 @@
 
 [Ficha de herramientas Clasificar LiDAR](/mdtopx/fichas-de-herramientas/ficha-de-herramientas-clasificar-lidar.md)
 
-Las diferentes herramientas disponibles para segmentar una nube de puntos son las siguientes:
+Las diferentes herramientas disponibles para segmentar una nube de puntos son las siguientes. En la ficha Clasificar LiDAR, la Superficie mágica y su vectorial (**Vectorial SM**) tienen su propio panel, **Superficie mágica**; las demás están en el panel **Algoritmos específicos para registros aéreos**.
 
 * [**Elevados**](buscar-puntos-elevados.md): Herramienta destinada a la búsqueda y clasificación de puntos LiDAR en función de las propiedades geométricas que un punto tiene con su entorno, con un filtro opcional por color (RGB) o por intensidad
 * [**Aislados**](buscar-puntos-aislados.md): Herramienta destinada a la búsqueda y clasificación de puntos LiDAR que se encuentren aislados, no encontrándose ningún punto cerca de su entorno, normalmente porque estos puntos tienen un valor de cota erróneo
