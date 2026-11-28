@@ -3,6 +3,7 @@
 
 Referencia de la ventana fotogramétrica:
 
+* [Pantalla completa](/digi3d-ai/referencia/ventana-fotogrametrica/pantalla-completa.md)
 * [Sensores](/digi3d-ai/referencia/ventana-fotogrametrica/sensores/README.md)
 * [Órdenes](/digi3d-ai/referencia/ventana-fotogrametrica/ordenes/README.md)
 
